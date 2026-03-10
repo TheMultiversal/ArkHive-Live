@@ -360,8 +360,8 @@ const investigations_i: Record<string, InvestigationData> = {
  { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'ICE surveillance technology provider', href: '/entities/corporations/palantir' },
  { id: '2', name: 'ICE', type: 'agency', relationship: 'Technology-driven enforcement', href: '/entities/agencies/ice' },
  ],
- 
-   {
+ },
+  'social-media-influencer-abuse': {
  title: 'Social Media Influencer Abuse',
  subtitle: 'How social media platforms enable groomers, predators, and exploiters to target vulnerable audiences',
  severity: 'critical',

@@ -588,8 +588,8 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker influencing trading', href: '/entities/corporations/citadel' },
  { id: '2', name: 'SEC', type: 'agency', relationship: 'Market manipulation investigation', href: '/entities/agencies/sec' },
  ],
- 
-   {
+ },
+  'georgia-voter-suppression': {
  title: 'Georgia Voter Suppression',
  subtitle: 'Systematic disenfranchisement of Black voters through purges, closures, and restrictive laws in Georgia',
  severity: 'critical',
@@ -659,8 +659,8 @@ const investigations_g: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Flex drivers, warehouse workers', href: '/entities/corporations/amazon-inc' },
  ],
- 
-   {
+ },
+  'global-terrorism-networks': {
  title: 'Global Terrorism Networks',
  subtitle: 'How state sponsors, intelligence agencies, and geopolitical interests create and sustain terrorist organizations',
  severity: 'critical',

@@ -92,8 +92,8 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia', href: '/entities/organizations/oath-keepers' },
       { id: '2', name: 'Stewart Rhodes', type: 'individual', relationship: 'Founder convicted of seditious conspiracy', href: '/entities/individuals/stewart-rhodes' },
     ],
- 
-   {
+ },
+  'opioid-distribution-networks': {
  title: 'Opioid Distribution Networks',
  subtitle: 'Drug distributors shipped billions of pills into communities while ignoring legal duty to flag suspicious orders',
  severity: 'critical',

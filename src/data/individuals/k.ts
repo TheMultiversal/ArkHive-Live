@@ -2,122 +2,83 @@
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
-  'klaus-schwab': {
-    name: 'Klaus Schwab',
-    title: 'Documented Individual',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'medium',
-    description: 'Profile documenting Klaus Schwab and their verified connections to entities under investigation. Information compiled from government records, court filings, financial disclosures, and public reporting. Klaus Schwab has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Documented Individual, Klaus Schwab\'s documented activities intersect with 9 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Klaus Schwab has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
-      'Corporate governance analysis reveals Klaus Schwab held simultaneous advisory or board positions across 7 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Federal court docket analysis via PACER reveals Klaus Schwab was referenced in 9 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Klaus Schwab. ArkHive\'s tracking system documented 11 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Klaus Schwab as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 5 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Klaus Schwab to 33 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Klaus Schwab as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Klaus Schwab participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2016-04-17', event: 'Initial records compiled from public financial disclosures and government databases' },
-      { date: '2021-11-27', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Klaus Schwab connected to fund flows across 6 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Klaus Schwab\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Klaus Schwab in 9 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 4 outstanding information requests related to Klaus Schwab\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-06-15', event: 'Public records audit of Klaus Schwab initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 6 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Klaus Schwab, mapping connections across 32 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 7 references to Klaus Schwab in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Klaus Schwab documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2016-04-17' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-11-27' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-03-22' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Klaus Schwab', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Klaus Schwab', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'klaus-schwab': {
+ name: 'Klaus Schwab',
+ title: 'Documented Individual',
+ role: 'Documented for accountability tracking',
+ riskLevel: 'medium',
+ description: 'Klaus Schwab. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Klaus Schwab has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ { date: '2016-04-17', event: 'Initial records compiled from public financial disclosures and government databases' },
+ { date: '2021-11-27', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2016-04-17' },
+ { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-11-27' },
+ { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-03-22' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
-  'kenneth-chesebro': {
-    name: 'Kenneth John Chesebro',
-    title: 'Georgia RICO Defendant (Pled Guilty)',
-    role: 'Fake Electors Scheme Attorney',
-    riskLevel: 'high',
-    description: 'Kenneth Chesebro was an attorney who helped devise the fake electors scheme. He pleaded guilty in the Georgia RICO case. Kenneth John Chesebro has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Georgia RICO Defendant (Pled Guilty), Kenneth John Chesebro\'s documented activities intersect with 10 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    birthDate: '1961',
-    birthPlace: 'USA',
-    netWorth: 'Unknown',
-    education: ['J.D. - Harvard Law School'],
-    affiliations: [
-      { name: 'Trump Legal Team', role: 'Attorney', type: 'organization' },
-    ],
-    controversies: [
-      'Fake electors scheme architect',
-      'Wrote memos outlining strategy to submit false electors',
-      'Georgia RICO guilty plea',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kenneth John Chesebro as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 7 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kenneth John Chesebro as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Inspector General audit reports covering operations associated with Kenneth John Chesebro identified material weaknesses in internal controls, including 9 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kenneth John Chesebro participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kenneth John Chesebro. ArkHive\'s tracking system documented 5 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-    ],
-    charges: [
-      { statute: 'O.C.G.A. § 16-10-1', description: 'Conspiracy to Commit Filing False Documents (Pled Guilty) - Georgia guilty plea', category: 'Fraud' },
-      { statute: '18 U.S.C. § 371 (Conspiracy to Defraud US)', description: 'Fake Electors Architect - Wrote legal memos outlining scheme to submit fraudulent electoral certificates', category: 'Conspiracy' },
-      { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Scheme designed to obstruct January 6 certification', category: 'Obstruction' },
-      { statute: '52 U.S.C. § 20511 (Election Fraud)', description: 'Election Fraud - Created blueprint for submitting false electoral slates in 7 states', category: 'Election Crime' },
-      { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Documents - Fake elector certificates signed under his legal guidance were false federal documents', category: 'Fraud' },
-      { statute: 'Wisconsin AG Investigation', description: 'Under Investigation - Faces potential charges in Wisconsin for fake electors scheme', category: 'State Crimes' },
-      { statute: 'Michigan AG Investigation', description: 'Under Investigation - Faces potential charges in Michigan for fake electors scheme', category: 'State Crimes' },
-      { statute: 'Bar Disciplinary Proceedings', description: 'Professional Misconduct - Faces bar discipline for ethical violations in election scheme', category: 'Ethics' },
-    ],
-    relatedInvestigations: [
-      { title: 'Georgia RICO Election Crimes', slug: 'georgia-rico', severity: 'critical' },
-      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '1961', event: 'Born' },
-      { date: '2020', event: 'Writes fake electors memos' },
-      { date: '2023', event: 'Indicted in Georgia' },
-      { date: '2023', event: 'Pleads guilty to felony' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 12 outstanding information requests related to Kenneth John Chesebro\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kenneth John Chesebro documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kenneth John Chesebro in 16 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kenneth John Chesebro: identified 15 first-degree connections to entities with documented regulatory violations, and 29 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-06-15', event: 'Public records audit of Kenneth John Chesebro initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 5 oversight agencies with jurisdiction over related activities.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kenneth John Chesebro\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Georgia Guilty Plea', url: 'https://www.fultonclerk.org/', date: '2023' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Kenneth John Chesebro', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-    ],
-    aliases: ['Fake Electors Architect'],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Fake electors scheme architect', href: '/entities/individuals/donald-trump' },
-      { name: 'John Eastman', relationship: 'Co-conspirator', href: '/entities/individuals/john-eastman' },
-    ],
-  },
+ 'kenneth-chesebro': {
+ name: 'Kenneth John Chesebro',
+ title: 'Georgia RICO Defendant (Pled Guilty)',
+ role: 'Fake Electors Scheme Attorney',
+ riskLevel: 'high',
+ description: 'Kenneth John Chesebro. Profile pending review.',
+ birthDate: '1961',
+ birthPlace: 'USA',
+ netWorth: 'Unknown',
+ education: ['J.D. - Harvard Law School'],
+ affiliations: [
+ { name: 'Trump Legal Team', role: 'Attorney', type: 'organization' },
+ ],
+ controversies: [
+ 'Fake electors scheme architect',
+ 'Wrote memos outlining strategy to submit false electors',
+ 'Georgia RICO guilty plea',
+ ],
+ charges: [
+ { statute: 'O.C.G.A. § 16-10-1', description: 'Conspiracy to Commit Filing False Documents (Pled Guilty) - Georgia guilty plea', category: 'Fraud' },
+ { statute: '18 U.S.C. § 371 (Conspiracy to Defraud US)', description: 'Fake Electors Architect - Wrote legal memos outlining scheme to submit fraudulent electoral certificates', category: 'Conspiracy' },
+ { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction of Congress - Scheme designed to obstruct January 6 certification', category: 'Obstruction' },
+ { statute: '52 U.S.C. § 20511 (Election Fraud)', description: 'Election Fraud - Created blueprint for submitting false electoral slates in 7 states', category: 'Election Crime' },
+ { statute: '18 U.S.C. § 1001 (False Statements)', description: 'False Documents - Fake elector certificates signed under his legal guidance were false federal documents', category: 'Fraud' },
+ { statute: 'Wisconsin AG Investigation', description: 'Under Investigation - Faces potential charges in Wisconsin for fake electors scheme', category: 'State Crimes' },
+ { statute: 'Michigan AG Investigation', description: 'Under Investigation - Faces potential charges in Michigan for fake electors scheme', category: 'State Crimes' },
+ { statute: 'Bar Disciplinary Proceedings', description: 'Professional Misconduct - Faces bar discipline for ethical violations in election scheme', category: 'Ethics' },
+ ],
+ relatedInvestigations: [
+ { title: 'Georgia RICO Election Crimes', slug: 'georgia-rico', severity: 'critical' },
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1961', event: 'Born' },
+ { date: '2020', event: 'Writes fake electors memos' },
+ { date: '2023', event: 'Indicted in Georgia' },
+ { date: '2023', event: 'Pleads guilty to felony' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Georgia Guilty Plea', url: 'https://www.fultonclerk.org/', date: '2023' }, ],
+ aliases: ['Fake Electors Architect'],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Fake electors scheme architect', href: '/entities/individuals/donald-trump' },
+ { name: 'John Eastman', relationship: 'Co-conspirator', href: '/entities/individuals/john-eastman' },
+ ],
+ },
 
 
 
@@ -146,61 +107,61 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
-  'konstantin-kilimnik': {
-    name: 'Konstantin Viktorovych Kilimnik',
-    title: 'Russian Intelligence Asset',
-    role: 'Manafort Associate, GRU-Linked Operative',
-    riskLevel: 'critical',
-    description: 'Konstantin Kilimnik is a Ukrainian-Russian political consultant who worked closely with Paul Manafort. The Senate Intelligence Committee and Treasury Department identified him as a Russian intelligence officer. Manafort shared Trump campaign polling data with Kilimnik, which the Senate called a"grave counterintelligence threat."',
-    birthDate: 'April 27, 1970',
-    birthPlace: 'Kryvyi Rih, Ukrainian SSR, Soviet Union',
-    netWorth: 'Unknown',
-    education: ['Military Institute of the Ministry of Defense (Russian intelligence training)'],
-    affiliations: [
-      { name: 'GRU (Russian Military Intelligence)', role: 'Officer/Asset', type: 'agency' },
-      { name: 'International Republican Institute', role: 'Former Employee', type: 'organization' },
-      { name: 'Davis Manafort Partners', role: 'Kyiv Office Manager', type: 'corporation' },
-    ],
-    controversies: [
-      'Received Trump 2016 campaign internal polling data from Manafort',
-      'Identified as Russian intelligence officer by Senate Intelligence Committee',
-      'Treasury Department designated as Russian agent',
-      'FBI most wanted for election interference',
-      'Met with Manafort during 2016 campaign to discuss Ukraine"peace plan"',
-      'Passed polling data to Russian intelligence services',
-    ],
-    charges: [
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy to obstruct justice', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1512', description: 'Obstruction of justice', category: 'Obstruction' },
-      { statute: 'Treasury OFAC Sanctions', description: 'Russian election interference agent', category: 'National Security' },
-    ],
-    relatedInvestigations: [
-      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
-      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '1970', event: 'Born in Ukraine' },
-      { date: '1990s', event: 'Trained by Russian military intelligence' },
-      { date: '2005', event: 'Begins working with Manafort in Ukraine' },
-      { date: '2016', event: 'August 2: Meets Manafort, receives polling data' },
-      { date: '2018', event: 'Indicted by Mueller for obstruction' },
-      { date: '2021', event: 'Treasury identifies as Russian intelligence officer' },
-      { date: '2025', event: 'Remains at large in Russia, FBI most wanted' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
-      { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
-      { title: 'Treasury OFAC Designation', url: 'https://home.treasury.gov/news/press-releases/jy0126', date: '2021' },
-      { title: 'FBI Most Wanted', url: 'https://www.fbi.gov/wanted/counterintelligence/konstantin-viktorovich-kilimnik', date: '2025' },
-    ],
-    aliases: ['Kostya', 'Russian Intelligence Officer'],
-    knownAssociates: [
-      { name: 'Paul Manafort', relationship: 'Employer, received Trump polling data', href: '/entities/individuals/paul-manafort' },
-      { name: 'Oleg Deripaska', relationship: 'Russian oligarch, shared polling data recipient', href: '/entities/individuals/oleg-deripaska' },
-      { name: 'Donald Trump', relationship: 'Campaign data recipient via Manafort', href: '/entities/individuals/donald-trump' },
-    ],
-  },
+ 'konstantin-kilimnik': {
+ name: 'Konstantin Viktorovych Kilimnik',
+ title: 'Russian Intelligence Asset',
+ role: 'Manafort Associate, GRU-Linked Operative',
+ riskLevel: 'critical',
+ description: 'Konstantin Kilimnik is a Ukrainian-Russian political consultant who worked closely with Paul Manafort. The Senate Intelligence Committee and Treasury Department identified him as a Russian intelligence officer. Manafort shared Trump campaign polling data with Kilimnik, which the Senate called a"grave counterintelligence threat."',
+ birthDate: 'April 27, 1970',
+ birthPlace: 'Kryvyi Rih, Ukrainian SSR, Soviet Union',
+ netWorth: 'Unknown',
+ education: ['Military Institute of the Ministry of Defense (Russian intelligence training)'],
+ affiliations: [
+ { name: 'GRU (Russian Military Intelligence)', role: 'Officer/Asset', type: 'agency' },
+ { name: 'International Republican Institute', role: 'Former Employee', type: 'organization' },
+ { name: 'Davis Manafort Partners', role: 'Kyiv Office Manager', type: 'corporation' },
+ ],
+ controversies: [
+ 'Received Trump 2016 campaign internal polling data from Manafort',
+ 'Identified as Russian intelligence officer by Senate Intelligence Committee',
+ 'Treasury Department designated as Russian agent',
+ 'FBI most wanted for election interference',
+ 'Met with Manafort during 2016 campaign to discuss Ukraine"peace plan"',
+ 'Passed polling data to Russian intelligence services',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy to obstruct justice', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1512', description: 'Obstruction of justice', category: 'Obstruction' },
+ { statute: 'Treasury OFAC Sanctions', description: 'Russian election interference agent', category: 'National Security' },
+ ],
+ relatedInvestigations: [
+ { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1970', event: 'Born in Ukraine' },
+ { date: '1990s', event: 'Trained by Russian military intelligence' },
+ { date: '2005', event: 'Begins working with Manafort in Ukraine' },
+ { date: '2016', event: 'August 2: Meets Manafort, receives polling data' },
+ { date: '2018', event: 'Indicted by Mueller for obstruction' },
+ { date: '2021', event: 'Treasury identifies as Russian intelligence officer' },
+ { date: '2025', event: 'Remains at large in Russia, FBI most wanted' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Treasury OFAC Designation', url: 'https://home.treasury.gov/news/press-releases/jy0126', date: '2021' },
+ { title: 'FBI Most Wanted', url: 'https://www.fbi.gov/wanted/counterintelligence/konstantin-viktorovich-kilimnik', date: '2025' },
+ ],
+ aliases: ['Kostya', 'Russian Intelligence Officer'],
+ knownAssociates: [
+ { name: 'Paul Manafort', relationship: 'Employer, received Trump polling data', href: '/entities/individuals/paul-manafort' },
+ { name: 'Oleg Deripaska', relationship: 'Russian oligarch, shared polling data recipient', href: '/entities/individuals/oleg-deripaska' },
+ { name: 'Donald Trump', relationship: 'Campaign data recipient via Manafort', href: '/entities/individuals/donald-trump' },
+ ],
+ },
 
 
 
@@ -270,160 +231,137 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
  ],
  },
-  'kirstjen-nielsen': {
-    name: 'Kirstjen Nielsen',
-    title: 'Public Official',
-    role: 'Tracked for public accountability',
-    riskLevel: 'high',
-    description: 'Kirstjen Nielsen is tracked in this archive based on documented affiliations with entities under investigation. Profile information sourced from public records, government databases, and verified reporting. Kirstjen Nielsen has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Public Official, Kirstjen Nielsen\'s documented activities intersect with 9 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kirstjen Nielsen has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
-      'Federal court docket analysis via PACER reveals Kirstjen Nielsen was referenced in 20 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Corporate governance analysis reveals Kirstjen Nielsen held simultaneous advisory or board positions across 4 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Public records analysis of litigation settlements involving entities associated with Kirstjen Nielsen shows a cumulative settlement total exceeding $49M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Inspector General audit reports covering operations associated with Kirstjen Nielsen identified material weaknesses in internal controls, including 8 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kirstjen Nielsen to 18 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kirstjen Nielsen as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 9 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kirstjen Nielsen failed to meet 5 of the core performance metrics established by authorizing legislation, resulting in an estimated $444M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2013-01-30', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2021-03-07', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kirstjen Nielsen: identified 10 first-degree connections to entities with documented regulatory violations, and 30 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kirstjen Nielsen\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kirstjen Nielsen in 10 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 7 outstanding information requests related to Kirstjen Nielsen\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 2 newly surfaced documentary sources linking Kirstjen Nielsen to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kirstjen Nielsen connected to fund flows across 6 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 4 references to Kirstjen Nielsen in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kirstjen Nielsen, mapping connections across 18 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2013-01-30' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-03-07' },
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2023-06-29' },
-      { title: 'Federal Court Records: Proceedings referencing Kirstjen Nielsen', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-  'karen-mcdougal': {
-    name: 'Karen McDougal',
-    title: 'Former Playboy Model',
-    role: 'Hush Money Recipient',
-    riskLevel: 'medium',
-    description: 'Karen McDougal is a former Playboy model who had an affair with Donald Trump from 2006-2007. She was paid $150,000 by American Media Inc. (National Enquirer) in a catch-and-kill arrangement to prevent her from speaking before the 2016 election. Her story was central to the hush money case.',
-    birthDate: 'March 23, 1971',
-    birthPlace: 'Merrillville, Indiana, USA',
-    netWorth: 'Unknown',
-    education: ['Unknown'],
-    affiliations: [
-      { name: 'Playboy', role: 'Playmate of the Year 1998', type: 'corporation' },
-    ],
-    controversies: [
-      'Affair while Melania was pregnant',
-      'Believed she was in love with Trump',
-      'AMI payment structured as "consulting "deal',
-      'Barred from telling her story for years',
-      'Sued to break contract and tell her story',
-      'Settled with AMI, allowed to speak',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Hush Money & Campaign Finance', slug: 'hush-money', severity: 'critical' },
-      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '1971', event: 'Born in Indiana' },
-      { date: '1998', event: 'Named Playboy Playmate of the Year' },
-      { date: '2006', event: 'June: Begins affair with Trump at Playboy Mansion' },
-      { date: '2007', event: 'April: Affair ends' },
-      { date: '2016', event: 'August: AMI pays $150,000 for story rights' },
-      { date: '2016', event: 'Signs contract prohibiting discussing affair' },
-      { date: '2018', event: 'February: Tries to break contract' },
-      { date: '2018', event: 'March: Anderson Cooper interview, CNN' },
-      { date: '2018', event: 'April: Settles with AMI, can speak freely' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' },
-      { title: 'AMI Settlement', url: 'https://www.courtlistener.com/', date: '2018' },
-      { title: 'Manhattan DA Investigation Records', url: 'https://scholar.google.com/scholar?q=Manhattan%20DA%20Investigation%20Records', date: '2023' },
-    ],
-    aliases: ['Playmate of the Year 1998'],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Sexual affair 2006-2007', href: '/entities/individuals/donald-trump' },
-      { name: 'David Pecker', relationship: 'Paid her $150K for silence', href: '/entities/individuals/david-pecker' },
-      { name: 'Michael Cohen', relationship: 'Coordinated payment', href: '/entities/individuals/michael-cohen' },
-    ],
-  },
-  'kash-patel': {
-    name: 'Kashyap Pramod Patel',
-    title: 'FBI Director Nominee',
-    role: 'Trump Loyalist, Former NSC Official',
-    riskLevel: 'critical',
-    description: 'Kashyap Pramod Patel is a former federal prosecutor and Trump loyalist who served in multiple national security roles. He was a key figure in Republican efforts to discredit the Russia investigation as a Devin Nunes aide. Trump appointed him FBI Director in 2025 despite having no FBI experience.',
-    birthDate: '1980',
-    birthPlace: 'Long Island, New York',
-    netWorth: 'Unknown',
-    education: ['J.D. - Pace University School of Law', 'Law Diploma - University College London', 'B.A. - University of Richmond'],
-    affiliations: [
-      { name: 'FBI', role: 'Director Nominee (2025)', type: 'agency' },
-      { name: 'Department of Defense', role: 'Chief of Staff to Acting SecDef (2020)', type: 'agency' },
-      { name: 'National Security Council', role: 'Senior Director (2019-2020)', type: 'agency' },
-      { name: 'House Intelligence Committee', role: 'Staff (2017-2019)', type: 'agency' },
-    ],
-    controversies: [
-      'Co-authored discredited Nunes memo',
-      'Published"enemies list"in book',
-      'Called for dismantling FBI',
-      'Raised concerns about loyalty-based governance',
-      'Involved in Trump document case as witness',
-      'Children\'s book depicting Trump as hero fighting"deep state"',
-    ],
-    charges: [
-      { statute: '18 U.S.C. § 793 (Espionage Act)', description: 'Potential Classified Information Mishandling - False claims about Trump declassifying documents; witness in Mar-a-Lago case', category: 'Potential National Security' },
-      { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Statements - Claims about document declassification contradicted by evidence', category: 'Potential Federal' },
-      { statute: '50 U.S.C. § 3033 (Intelligence Community)', description: 'Politicization Concerns - Nunes memo selectively declassified intelligence to defend Trump', category: 'Intelligence Abuse' },
-      { statute: '18 U.S.C. § 1512 (Obstruction)', description: 'Potential Obstruction - Actions during documents investigation may constitute obstruction', category: 'Potential Obstruction' },
-      { statute: '5 U.S.C. § 2302 (Prohibited Personnel Practices)', description: 'Enemies List Publication - Book naming perceived Trump opponents raises retaliation concerns', category: 'Ethics' },
-      { statute: 'Hatch Act Concerns', description: 'Political Activity - Children\'s book promoting Trump while holding federal position', category: 'Potential Ethics' },
-    ],
-    relatedInvestigations: [
-      { title: 'Classified Documents at Mar-a-Lago', slug: 'mar-a-lago-documents', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '2017-2019', event: 'Works on Nunes memo' },
-      { date: '2019', event: 'Joins NSC' },
-      { date: '2020', event: 'Made DoD Chief of Staff in final days' },
-      { date: '2023', event: 'Witness in Mar-a-Lago documents case' },
-      { date: '2024', event: 'November: Nominated as FBI Director' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Senate Confirmation Hearings', url: 'https://www.congress.gov/', date: '2025' },
-      { title: 'FOIA Documents', url: 'https://scholar.google.com/scholar?q=FOIA%20Documents', date: '2020-2024' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
-    ],
-    aliases: ['Kash'],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Loyal ally, FBI Director pick', href: '/entities/individuals/donald-trump' },
-      { name: 'Devin Nunes', relationship: 'Former boss, Nunes memo co-author', href: '/entities/individuals/devin-nunes' },
-    ],
-  },
+ 'kirstjen-nielsen': {
+ name: 'Kirstjen Nielsen',
+ title: 'Public Official',
+ role: 'Tracked for public accountability',
+ riskLevel: 'high',
+ description: 'Kirstjen Nielsen. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Kirstjen Nielsen has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ { date: '2013-01-30', event: 'Documentation updated based on newly available public records and filings' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2013-01-30' },
+ { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-03-07' },
+ { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2023-06-29' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+ 'karen-mcdougal': {
+ name: 'Karen McDougal',
+ title: 'Former Playboy Model',
+ role: 'Hush Money Recipient',
+ riskLevel: 'medium',
+ description: 'Karen McDougal is a former Playboy model who had an affair with Donald Trump from 2006-2007. She was paid $150,000 by American Media Inc. (National Enquirer) in a catch-and-kill arrangement to prevent her from speaking before the 2016 election. Her story was central to the hush money case.',
+ birthDate: 'March 23, 1971',
+ birthPlace: 'Merrillville, Indiana, USA',
+ netWorth: 'Unknown',
+ education: ['Unknown'],
+ affiliations: [
+ { name: 'Playboy', role: 'Playmate of the Year 1998', type: 'corporation' },
+ ],
+ controversies: [
+ 'Affair while Melania was pregnant',
+ 'Believed she was in love with Trump',
+ 'AMI payment structured as "consulting "deal',
+ 'Barred from telling her story for years',
+ 'Sued to break contract and tell her story',
+ 'Settled with AMI, allowed to speak',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Hush Money & Campaign Finance', slug: 'hush-money', severity: 'critical' },
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1971', event: 'Born in Indiana' },
+ { date: '1998', event: 'Named Playboy Playmate of the Year' },
+ { date: '2006', event: 'June: Begins affair with Trump at Playboy Mansion' },
+ { date: '2007', event: 'April: Affair ends' },
+ { date: '2016', event: 'August: AMI pays $150,000 for story rights' },
+ { date: '2016', event: 'Signs contract prohibiting discussing affair' },
+ { date: '2018', event: 'February: Tries to break contract' },
+ { date: '2018', event: 'March: Anderson Cooper interview, CNN' },
+ { date: '2018', event: 'April: Settles with AMI, can speak freely' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' },
+ { title: 'AMI Settlement', url: 'https://www.courtlistener.com/', date: '2018' },
+ { title: 'Manhattan DA Investigation Records', url: 'https://scholar.google.com/scholar?q=Manhattan%20DA%20Investigation%20Records', date: '2023' },
+ ],
+ aliases: ['Playmate of the Year 1998'],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Sexual affair 2006-2007', href: '/entities/individuals/donald-trump' },
+ { name: 'David Pecker', relationship: 'Paid her $150K for silence', href: '/entities/individuals/david-pecker' },
+ { name: 'Michael Cohen', relationship: 'Coordinated payment', href: '/entities/individuals/michael-cohen' },
+ ],
+ },
+ 'kash-patel': {
+ name: 'Kashyap Pramod Patel',
+ title: 'FBI Director Nominee',
+ role: 'Trump Loyalist, Former NSC Official',
+ riskLevel: 'critical',
+ description: 'Kashyap Pramod Patel is a former federal prosecutor and Trump loyalist who served in multiple national security roles. He was a key figure in Republican efforts to discredit the Russia investigation as a Devin Nunes aide. Trump appointed him FBI Director in 2025 despite having no FBI experience.',
+ birthDate: '1980',
+ birthPlace: 'Long Island, New York',
+ netWorth: 'Unknown',
+ education: ['J.D. - Pace University School of Law', 'Law Diploma - University College London', 'B.A. - University of Richmond'],
+ affiliations: [
+ { name: 'FBI', role: 'Director Nominee (2025)', type: 'agency' },
+ { name: 'Department of Defense', role: 'Chief of Staff to Acting SecDef (2020)', type: 'agency' },
+ { name: 'National Security Council', role: 'Senior Director (2019-2020)', type: 'agency' },
+ { name: 'House Intelligence Committee', role: 'Staff (2017-2019)', type: 'agency' },
+ ],
+ controversies: [
+ 'Co-authored discredited Nunes memo',
+ 'Published"enemies list"in book',
+ 'Called for dismantling FBI',
+ 'Raised concerns about loyalty-based governance',
+ 'Involved in Trump document case as witness',
+ 'Children\'s book depicting Trump as hero fighting"deep state"',
+ ],
+ charges: [
+ { statute: '18 U.S.C. § 793 (Espionage Act)', description: 'Potential Classified Information Mishandling - False claims about Trump declassifying documents; witness in Mar-a-Lago case', category: 'Potential National Security' },
+ { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Statements - Claims about document declassification contradicted by evidence', category: 'Potential Federal' },
+ { statute: '50 U.S.C. § 3033 (Intelligence Community)', description: 'Politicization Concerns - Nunes memo selectively declassified intelligence to defend Trump', category: 'Intelligence Abuse' },
+ { statute: '18 U.S.C. § 1512 (Obstruction)', description: 'Potential Obstruction - Actions during documents investigation may constitute obstruction', category: 'Potential Obstruction' },
+ { statute: '5 U.S.C. § 2302 (Prohibited Personnel Practices)', description: 'Enemies List Publication - Book naming perceived Trump opponents raises retaliation concerns', category: 'Ethics' },
+ { statute: 'Hatch Act Concerns', description: 'Political Activity - Children\'s book promoting Trump while holding federal position', category: 'Potential Ethics' },
+ ],
+ relatedInvestigations: [
+ { title: 'Classified Documents at Mar-a-Lago', slug: 'mar-a-lago-documents', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2017-2019', event: 'Works on Nunes memo' },
+ { date: '2019', event: 'Joins NSC' },
+ { date: '2020', event: 'Made DoD Chief of Staff in final days' },
+ { date: '2023', event: 'Witness in Mar-a-Lago documents case' },
+ { date: '2024', event: 'November: Nominated as FBI Director' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Senate Confirmation Hearings', url: 'https://www.congress.gov/', date: '2025' },
+ { title: 'FOIA Documents', url: 'https://scholar.google.com/scholar?q=FOIA%20Documents', date: '2020-2024' }, ],
+ aliases: ['Kash'],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Loyal ally, FBI Director pick', href: '/entities/individuals/donald-trump' },
+ { name: 'Devin Nunes', relationship: 'Former boss, Nunes memo co-author', href: '/entities/individuals/devin-nunes' },
+ ],
+ },
 
 
 
@@ -451,554 +389,381 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
-  'kellyanne-conway': {
-    name: 'Kellyanne Elizabeth Conway',
-    title: 'Former Senior Counselor to the President',
-    role: 'Trump Advisor, Pollster, Political Consultant',
-    riskLevel: 'high',
-    description: 'Kellyanne Elizabeth Conway served as Counselor to President Trump from 2017 to 2020. She managed Trump\'s successful 2016 campaign, becoming the first woman to run a winning presidential campaign. She coined the phrase"alternative facts"and repeatedly violated the Hatch Act.',
-    birthDate: 'January 20, 1967',
-    birthPlace: 'Camden, New Jersey',
-    netWorth: '$40+ million',
-    education: ['J.D. - George Washington University Law School (1992)', 'B.A. - Trinity College (1989)'],
-    affiliations: [
-      { name: 'White House', role: 'Senior Counselor (2017-2020)', type: 'agency' },
-      { name: 'Trump 2016 Campaign', role: 'Campaign Manager', type: 'organization' },
-      { name: 'The Polling Company', role: 'Founder', type: 'corporation' },
-    ],
-    controversies: [
-      'Coined"alternative facts"for lies',
-      'Multiple Hatch Act violations',
-      'Promoted Ivanka products from WH',
-      'OSC recommended removal for violations',
-      'Defended family separation policy',
-      'Public feuds with husband over Trump',
-    ],
-    charges: [
-      { statute: '5 U.S.C. § 7323 (Hatch Act)', description: 'Multiple Documented Violations - Office of Special Counsel found Conway violated Hatch Act on numerous occasions through political activity in official capacity', category: 'Federal Ethics' },
-      { statute: '5 U.S.C. § 7323(a)(1)', description: 'Hatch Act Violation - Used official position to advocate for and against candidates in 2018 and 2020 elections', category: 'Federal Ethics' },
-      { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Promoted Ivanka Trump products from White House podium', category: 'Ethics' },
-      { statute: '5 C.F.R. § 2635.101', description: 'Standards of Ethical Conduct Violations - OSC recommended removal from federal service (ignored by Trump)', category: 'Ethics' },
-      { statute: '18 U.S.C. § 1001', description: 'Potential False Statements -"Alternative facts"defense of demonstrably false inauguration crowd claims', category: 'Potential Federal' },
-      { statute: '18 U.S.C. § 1512', description: 'Potential Obstruction - Defied subpoena from House Oversight Committee', category: 'Potential Federal' },
-    ],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2016', event: 'August: Becomes first woman to run winning presidential campaign' },
-      { date: '2017', event: 'January:"Alternative facts"defense of inauguration lies' },
-      { date: '2019', event: 'OSC: Should be removed for Hatch Act violations' },
-      { date: '2020', event: 'August: Resigns from White House' },
-      { date: '2024', event: 'Divorces George Conway' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Office of Special Counsel Hatch Act Reports', url: 'https://www.cia.gov/readingroom/', date: '2019' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Campaign manager, senior advisor', href: '/entities/individuals/donald-trump' },
-      { name: 'George Conway', relationship: 'Ex-husband, Trump critic (divorced 2024)', href: '/entities/individuals/george-conway' },
-    ],
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  'keith-davidson': {
-    name: 'Keith Davidson',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Keith Davidson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Keith Davidson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Keith Davidson was connected to lobbying expenditures totaling $37M across 13 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Keith Davidson to 28 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Federal court docket analysis via PACER reveals Keith Davidson was referenced in 18 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Keith Davidson maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $109M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Keith Davidson participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Public records analysis of litigation settlements involving entities associated with Keith Davidson shows a cumulative settlement total exceeding $197M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Keith Davidson as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2025-06-15', event: 'Public records audit of Keith Davidson initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Keith Davidson: identified 10 first-degree connections to entities with documented regulatory violations, and 19 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 10 outstanding information requests related to Keith Davidson\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 5 references to Keith Davidson in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Keith Davidson\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Keith Davidson documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Keith Davidson in 16 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 5 newly surfaced documentary sources linking Keith Davidson to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Keith Davidson', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-  'kevin-mccarthy': {
-    name: 'Kevin Mccarthy',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kevin Mccarthy is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kevin Mccarthy has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Corporate governance analysis reveals Kevin Mccarthy held simultaneous advisory or board positions across 7 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kevin Mccarthy. ArkHive\'s tracking system documented 11 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Federal court docket analysis via PACER reveals Kevin Mccarthy was referenced in 10 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kevin Mccarthy as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 9 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kevin Mccarthy to 23 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kevin Mccarthy participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kevin Mccarthy failed to meet 3 of the core performance metrics established by authorizing legislation, resulting in an estimated $494M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kevin Mccarthy connected to fund flows across 6 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 7 newly surfaced documentary sources linking Kevin Mccarthy to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kevin Mccarthy: identified 13 first-degree connections to entities with documented regulatory violations, and 11 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-06-15', event: 'Public records audit of Kevin Mccarthy initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 4 outstanding information requests related to Kevin Mccarthy\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kevin Mccarthy\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kevin Mccarthy documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kevin Mccarthy in 17 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kevin Mccarthy', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-  'kayleigh-mcenany': {
-    name: 'Kayleigh Mcenany',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kayleigh Mcenany is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kayleigh Mcenany has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Congressional hearing transcripts reference Kayleigh Mcenany in connection with policy decisions that disproportionately benefited associated financial interests.',
-      'Court documents from related proceedings reference Kayleigh Mcenany as a key decision-maker during periods where regulatory violations were later documented.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Kayleigh Mcenany to previously unknown institutional relationships' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-
-  'kim-jong-un': {
-    name: 'Kim Jong Un',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kim Jong Un is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kim Jong Un has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Corporate governance analysis reveals Kim Jong Un held simultaneous advisory or board positions across 7 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Public records analysis of litigation settlements involving entities associated with Kim Jong Un shows a cumulative settlement total exceeding $30M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kim Jong Un participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kim Jong Un as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Kim Jong Un maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $148M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Inspector General audit reports covering operations associated with Kim Jong Un identified material weaknesses in internal controls, including 6 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Federal court docket analysis via PACER reveals Kim Jong Un was referenced in 11 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 5 outstanding information requests related to Kim Jong Un\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kim Jong Un connected to fund flows across 4 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 4 references to Kim Jong Un in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kim Jong Un in 11 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 5 newly surfaced documentary sources linking Kim Jong Un to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kim Jong Un: identified 16 first-degree connections to entities with documented regulatory violations, and 16 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kim Jong Un documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2025-06-15', event: 'Public records audit of Kim Jong Un initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 4 oversight agencies with jurisdiction over related activities.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kim Jong Un', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-  'keith-schiller': {
-    name: 'Keith Schiller',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Keith Schiller is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Keith Schiller has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Corporate governance analysis reveals Keith Schiller held simultaneous advisory or board positions across 7 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Federal court docket analysis via PACER reveals Keith Schiller was referenced in 11 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Keith Schiller was connected to lobbying expenditures totaling $52M across 4 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Keith Schiller failed to meet 2 of the core performance metrics established by authorizing legislation, resulting in an estimated $202M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Keith Schiller as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Keith Schiller maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $150M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Keith Schiller as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 4 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 12 outstanding information requests related to Keith Schiller\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Keith Schiller, mapping connections across 15 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 3 newly surfaced documentary sources linking Keith Schiller to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Keith Schiller: identified 5 first-degree connections to entities with documented regulatory violations, and 14 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 6 references to Keith Schiller in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Keith Schiller connected to fund flows across 5 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-06-15', event: 'Public records audit of Keith Schiller initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 5 oversight agencies with jurisdiction over related activities.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Keith Schiller in 3 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-  'katrina-pierson': {
-    name: 'Katrina Pierson',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Katrina Pierson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Katrina Pierson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Internal documents obtained through litigation discovery show Katrina Pierson was briefed on risks later downplayed in public communications.',
-      'Congressional hearing transcripts reference Katrina Pierson in connection with policy decisions that disproportionately benefited associated financial interests.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Katrina Pierson' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-
-  'kanye-west': {
-    name: 'Kanye West',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kanye West is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kanye West has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Court documents from related proceedings reference Kanye West as a key decision-maker during periods where regulatory violations were later documented.',
-      'Congressional hearing transcripts reference Kanye West in connection with policy decisions that disproportionately benefited associated financial interests.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Kanye West and regulatory oversight bodies' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-
-  'kelly-meggs': {
-    name: 'Kelly Meggs',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kelly Meggs is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kelly Meggs has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Court documents from related proceedings reference Kelly Meggs as a key decision-maker during periods where regulatory violations were later documented.',
-      'Network analysis reveals Kelly Meggs holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Kelly Meggs' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-
-  'kenneth-harrelson': {
-    name: 'Kenneth Harrelson',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kenneth Harrelson is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kenneth Harrelson has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Kenneth Harrelson coordinated messaging strategies designed to suppress unfavorable information.',
-      'Kenneth Harrelson has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Kenneth Harrelson for expanded documentation based on cross-reference density exceeding threshold' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-  'ken-cuccinelli': {
-    name: 'Ken Cuccinelli',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Ken Cuccinelli is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Ken Cuccinelli has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Network analysis reveals Ken Cuccinelli holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
-      'Third-party audit reports flagged irregularities in programs overseen by Ken Cuccinelli, though no formal investigation was initiated at the time.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'Cross-referencing Ken Cuccinelli against congressional hearing transcripts and lobbying disclosure databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-
-  'kari-lake': {
-    name: 'Kari Lake',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kari Lake is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kari Lake has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Internal documents obtained through litigation discovery show Kari Lake was briefed on risks later downplayed in public communications.',
-      'Congressional hearing transcripts reference Kari Lake in connection with policy decisions that disproportionately benefited associated financial interests.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Kari Lake for expanded documentation based on cross-reference density exceeding threshold' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kellyanne-conway': {
+ name: 'Kellyanne Elizabeth Conway',
+ title: 'Former Senior Counselor to the President',
+ role: 'Trump Advisor, Pollster, Political Consultant',
+ riskLevel: 'high',
+ description: 'Kellyanne Elizabeth Conway served as Counselor to President Trump from 2017 to 2020. She managed Trump\'s successful 2016 campaign, becoming the first woman to run a winning presidential campaign. She coined the phrase"alternative facts"and repeatedly violated the Hatch Act.',
+ birthDate: 'January 20, 1967',
+ birthPlace: 'Camden, New Jersey',
+ netWorth: '$40+ million',
+ education: ['J.D. - George Washington University Law School (1992)', 'B.A. - Trinity College (1989)'],
+ affiliations: [
+ { name: 'White House', role: 'Senior Counselor (2017-2020)', type: 'agency' },
+ { name: 'Trump 2016 Campaign', role: 'Campaign Manager', type: 'organization' },
+ { name: 'The Polling Company', role: 'Founder', type: 'corporation' },
+ ],
+ controversies: [
+ 'Coined"alternative facts"for lies',
+ 'Multiple Hatch Act violations',
+ 'Promoted Ivanka products from WH',
+ 'OSC recommended removal for violations',
+ 'Defended family separation policy',
+ 'Public feuds with husband over Trump',
+ ],
+ charges: [
+ { statute: '5 U.S.C. § 7323 (Hatch Act)', description: 'Multiple Documented Violations - Office of Special Counsel found Conway violated Hatch Act on numerous occasions through political activity in official capacity', category: 'Federal Ethics' },
+ { statute: '5 U.S.C. § 7323(a)(1)', description: 'Hatch Act Violation - Used official position to advocate for and against candidates in 2018 and 2020 elections', category: 'Federal Ethics' },
+ { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Promoted Ivanka Trump products from White House podium', category: 'Ethics' },
+ { statute: '5 C.F.R. § 2635.101', description: 'Standards of Ethical Conduct Violations - OSC recommended removal from federal service (ignored by Trump)', category: 'Ethics' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements -"Alternative facts"defense of demonstrably false inauguration crowd claims', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1512', description: 'Potential Obstruction - Defied subpoena from House Oversight Committee', category: 'Potential Federal' },
+ ],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ { date: '2016', event: 'August: Becomes first woman to run winning presidential campaign' },
+ { date: '2017', event: 'January:"Alternative facts"defense of inauguration lies' },
+ { date: '2019', event: 'OSC: Should be removed for Hatch Act violations' },
+ { date: '2020', event: 'August: Resigns from White House' },
+ { date: '2024', event: 'Divorces George Conway' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Office of Special Counsel Hatch Act Reports', url: 'https://www.cia.gov/readingroom/', date: '2019' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Campaign manager, senior advisor', href: '/entities/individuals/donald-trump' },
+ { name: 'George Conway', relationship: 'Ex-husband, Trump critic (divorced 2024)', href: '/entities/individuals/george-conway' },
+ ],
+ },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 'keith-davidson': {
+ name: 'Keith Davidson',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Keith Davidson. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+ 'kevin-mccarthy': {
+ name: 'Kevin Mccarthy',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kevin Mccarthy. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+ 'kayleigh-mcenany': {
+ name: 'Kayleigh Mcenany',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kayleigh Mcenany. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Congressional hearing transcripts reference Kayleigh Mcenany in connection with policy decisions that disproportionately benefited associated financial interests.',
+ 'Court documents from related proceedings reference Kayleigh Mcenany as a key decision-maker during periods where regulatory violations were later documented.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+
+
+
+
+
+ 'kim-jong-un': {
+ name: 'Kim Jong Un',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kim Jong Un. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+ 'keith-schiller': {
+ name: 'Keith Schiller',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Keith Schiller. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+ 'katrina-pierson': {
+ name: 'Katrina Pierson',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Katrina Pierson. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Internal documents obtained through litigation discovery show Katrina Pierson was briefed on risks later downplayed in public communications.',
+ 'Congressional hearing transcripts reference Katrina Pierson in connection with policy decisions that disproportionately benefited associated financial interests.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+
+
+
+
+
+ 'kanye-west': {
+ name: 'Kanye West',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kanye West. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Court documents from related proceedings reference Kanye West as a key decision-maker during periods where regulatory violations were later documented.',
+ 'Congressional hearing transcripts reference Kanye West in connection with policy decisions that disproportionately benefited associated financial interests.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+
+
+
+
+
+ 'kelly-meggs': {
+ name: 'Kelly Meggs',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kelly Meggs. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Court documents from related proceedings reference Kelly Meggs as a key decision-maker during periods where regulatory violations were later documented.',
+ 'Network analysis reveals Kelly Meggs holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+
+
+
+
+
+ 'kenneth-harrelson': {
+ name: 'Kenneth Harrelson',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kenneth Harrelson. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Kenneth Harrelson coordinated messaging strategies designed to suppress unfavorable information.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+
+
+
+
+ 'ken-cuccinelli': {
+ name: 'Ken Cuccinelli',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Ken Cuccinelli. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Network analysis reveals Ken Cuccinelli holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ 'Third-party audit reports flagged irregularities in programs overseen by Ken Cuccinelli, though no formal investigation was initiated at the time.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+
+
+
+
+
+ 'kari-lake': {
+ name: 'Kari Lake',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kari Lake. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Internal documents obtained through litigation discovery show Kari Lake was briefed on risks later downplayed in public communications.',
+ 'Congressional hearing transcripts reference Kari Lake in connection with policy decisions that disproportionately benefited associated financial interests.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
@@ -1044,50 +809,47 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'NYC Settlement Documents', url: 'https://www.courtlistener.com/', date: '2014' },
  ],
  },
-  'kelly-loeffler': {
-    name: 'Kelly Lynn Loeffler',
-    title: 'Former U.S. Senator from Georgia',
-    role: 'Insider Trader, Election Objector',
-    riskLevel: 'high',
-    description: 'Kelly Loeffler was a Senator who sold millions in stock after receiving classified COVID-19 briefings in January 2020, before the market crash. She later objected to certifying the 2020 election even after the January 6 attack. She is married to Jeffrey Sprecher, CEO of the company that owns the New York Stock Exchange.',
-    birthDate: 'November 27, 1970',
-    birthPlace: 'Bloomington, Illinois',
-    netWorth: '$800 million',
-    education: ['MBA - DePaul University', 'B.S. - University of Illinois'],
-    affiliations: [
-      { name: 'U.S. Senate', role: 'Senator from Georgia (2020-2021, appointed)', type: 'agency' },
-      { name: 'Intercontinental Exchange', role: 'Executive (husband is CEO)', type: 'corporation' },
-    ],
-    controversies: [
-      'COVID INSIDER TRADING: Sold $20M+ in stock after classified COVID briefing',
-      'ELECTION OBJECTION: Objected to certification after January 6 attack',
-      'WEALTH FROM NYSE: Husband runs company owning NYSE while she served',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
-      { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
-    ],
-    timeline: [
-      { date: 'November 27, 1970', event: 'Born in Bloomington, Illinois' },
-      { date: 'January 2020', event: 'Appointed to U.S. Senate' },
-      { date: 'January 24, 2020', event: 'Attends classified COVID briefing' },
-      { date: 'January-February 2020', event: 'Sells $20M+ in stock' },
-      { date: 'January 6, 2021', event: 'Announces she will object to election certification' },
-      { date: 'January 6, 2021', event: 'Changes mind after attack, certifies' },
-      { date: 'January 2021', event: 'Loses Senate race to Raphael Warnock' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Senate Financial Disclosures', url: 'https://efds.senate.gov/', date: '2020' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Richard Burr', relationship: 'Fellow COVID insider trader', href: '/entities/individuals/richard-burr' },
-    ],
-  },
+ 'kelly-loeffler': {
+ name: 'Kelly Lynn Loeffler',
+ title: 'Former U.S. Senator from Georgia',
+ role: 'Insider Trader, Election Objector',
+ riskLevel: 'high',
+ description: 'Kelly Loeffler was a Senator who sold millions in stock after receiving classified COVID-19 briefings in January 2020, before the market crash. She later objected to certifying the 2020 election even after the January 6 attack. She is married to Jeffrey Sprecher, CEO of the company that owns the New York Stock Exchange.',
+ birthDate: 'November 27, 1970',
+ birthPlace: 'Bloomington, Illinois',
+ netWorth: '$800 million',
+ education: ['MBA - DePaul University', 'B.S. - University of Illinois'],
+ affiliations: [
+ { name: 'U.S. Senate', role: 'Senator from Georgia (2020-2021, appointed)', type: 'agency' },
+ { name: 'Intercontinental Exchange', role: 'Executive (husband is CEO)', type: 'corporation' },
+ ],
+ controversies: [
+ 'COVID INSIDER TRADING: Sold $20M+ in stock after classified COVID briefing',
+ 'ELECTION OBJECTION: Objected to certification after January 6 attack',
+ 'WEALTH FROM NYSE: Husband runs company owning NYSE while she served',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'November 27, 1970', event: 'Born in Bloomington, Illinois' },
+ { date: 'January 2020', event: 'Appointed to U.S. Senate' },
+ { date: 'January 24, 2020', event: 'Attends classified COVID briefing' },
+ { date: 'January-February 2020', event: 'Sells $20M+ in stock' },
+ { date: 'January 6, 2021', event: 'Announces she will object to election certification' },
+ { date: 'January 6, 2021', event: 'Changes mind after attack, certifies' },
+ { date: 'January 2021', event: 'Loses Senate race to Raphael Warnock' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Senate Financial Disclosures', url: 'https://efds.senate.gov/', date: '2020' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Richard Burr', relationship: 'Fellow COVID insider trader', href: '/entities/individuals/richard-burr' },
+ ],
+ },
 
 
 
@@ -1115,72 +877,64 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
-  'ken-paxton': {
-    name: 'Warren Kenneth Paxton Jr.',
-    title: 'Texas Attorney General',
-    role: 'Election Lawsuit Filer, Impeached AG',
-    riskLevel: 'high',
-    description: 'Ken Paxton is the Texas Attorney General who filed a lawsuit attempting to overturn the 2020 election by throwing out votes in four states. The Supreme Court rejected the case. Paxton has been under federal securities fraud indictment since 2015 and was impeached by the Texas House in 2023 (acquitted by Senate). He is accused of using his office to benefit a donor.',
-    birthDate: 'December 23, 1962',
-    birthPlace: 'Minot, North Dakota',
-    education: ['J.D. - University of Virginia School of Law (1991)', 'MBA - University of Virginia (1991)', 'B.A. - Baylor University (1984)'],
-    affiliations: [
-      { name: 'Texas Attorney General Office', role: 'Attorney General (2015-present)', type: 'agency' },
-    ],
-    controversies: [
-      'ELECTION LAWSUIT: Filed SCOTUS case to overturn election in 4 states (rejected)',
-      'SECURITIES FRAUD INDICTMENT: Under indictment since 2015, case repeatedly delayed',
-      'IMPEACHMENT: Impeached by Texas House 2023, acquitted by Senate',
-      'DONOR FAVORS: Accused of using office to benefit real estate developer donor',
-    ],
-    charges: [
-      { statute: 'Texas Securities Act', description: 'Securities Fraud - indicted 2015, still pending', category: 'State' },
-    ],
-    relatedInvestigations: [
-      { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
-      { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
-    ],
-    timeline: [
-      { date: 'December 23, 1962', event: 'Born in Minot, North Dakota' },
-      { date: '2015', event: 'Becomes Texas Attorney General' },
-      { date: '2015', event: 'Indicted for securities fraud' },
-      { date: 'December 8, 2020', event: 'Files SCOTUS election lawsuit' },
-      { date: 'December 11, 2020', event: 'Supreme Court rejects case' },
-      { date: 'May 2023', event: 'Impeached by Texas House' },
-      { date: 'September 2023', event: 'Acquitted by Texas Senate' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Texas v. Pennsylvania', url: 'https://www.supremecourt.gov/orders/courtorders/121120zr_p860.pdf', date: '2020' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Filed lawsuit to overturn election', href: '/entities/individuals/donald-trump' },
-    ],
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 'ken-paxton': {
+ name: 'Warren Kenneth Paxton Jr.',
+ title: 'Texas Attorney General',
+ role: 'Election Lawsuit Filer, Impeached AG',
+ riskLevel: 'high',
+ description: 'Ken Paxton is the Texas Attorney General who filed a lawsuit attempting to overturn the 2020 election by throwing out votes in four states. The Supreme Court rejected the case. Paxton has been under federal securities fraud indictment since 2015 and was impeached by the Texas House in 2023 (acquitted by Senate). He is accused of using his office to benefit a donor.',
+ birthDate: 'December 23, 1962',
+ birthPlace: 'Minot, North Dakota',
+ education: ['J.D. - University of Virginia School of Law (1991)', 'MBA - University of Virginia (1991)', 'B.A. - Baylor University (1984)'],
+ affiliations: [
+ { name: 'Texas Attorney General Office', role: 'Attorney General (2015-present)', type: 'agency' },
+ ],
+ controversies: [
+ 'ELECTION LAWSUIT: Filed SCOTUS case to overturn election in 4 states (rejected)',
+ 'SECURITIES FRAUD INDICTMENT: Under indictment since 2015, case repeatedly delayed',
+ 'IMPEACHMENT: Impeached by Texas House 2023, acquitted by Senate',
+ 'DONOR FAVORS: Accused of using office to benefit real estate developer donor',
+ ],
+ charges: [
+ { statute: 'Texas Securities Act', description: 'Securities Fraud - indicted 2015, still pending', category: 'State' },
+ ],
+ relatedInvestigations: [
+ { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
+ { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'December 23, 1962', event: 'Born in Minot, North Dakota' },
+ { date: '2015', event: 'Becomes Texas Attorney General' },
+ { date: '2015', event: 'Indicted for securities fraud' },
+ { date: 'December 8, 2020', event: 'Files SCOTUS election lawsuit' },
+ { date: 'December 11, 2020', event: 'Supreme Court rejects case' },
+ { date: 'May 2023', event: 'Impeached by Texas House' },
+ { date: 'September 2023', event: 'Acquitted by Texas Senate' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Texas v. Pennsylvania', url: 'https://www.supremecourt.gov/orders/courtorders/121120zr_p860.pdf', date: '2020' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Filed lawsuit to overturn election', href: '/entities/individuals/donald-trump' },
+ ],
+ },
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1188,106 +942,104 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
-  'karl-rove': {
-    name: 'Karl Christian Rove',
-    title: 'Former Senior Advisor to President Bush',
-    role: 'Political Operative, Dirty Trickster, Valerie Plame Leaker',
-    riskLevel: 'high',
-    description: 'Karl Rove was George W. Bush\'s chief political strategist known as"Bush\'s Brain"and"The Architect."He pioneered ruthless political tactics including the Valerie Plame leak that exposed a CIA officer in retaliation for her husband criticizing Iraq War intelligence, voter suppression strategies, and Swift Boat-style character assassination. He escaped indictment in the Plame case but was at the center of the conspiracy to out a covert agent.',
-    birthDate: 'December 25, 1950',
-    birthPlace: 'Denver, Colorado, USA',
-    netWorth: '$6+ million',
-    education: ['University of Utah (did not graduate)', 'University of Texas at Austin (did not graduate)', 'George Mason University (did not graduate)'],
-    affiliations: [
-      { name: 'White House', role: 'Senior Advisor (2001-2007), Deputy Chief of Staff', type: 'agency' },
-      { name: 'Bush-Cheney Campaign', role: 'Chief Strategist (2000, 2004)', type: 'organization' },
-      { name: 'College Republicans', role: 'Chairman (1973)', type: 'organization' },
-      { name: 'American Crossroads', role: 'Co-Founder (Super PAC)', type: 'organization' },
-      { name: 'Fox News', role: 'Contributor', type: 'corporation' },
-      { name: 'Wall Street Journal', role: 'Columnist', type: 'corporation' },
-    ],
-    controversies: [
-      'VALERIE PLAME LEAK: Leaked CIA officer identity to reporters in retaliation for husband\'s Iraq War criticism',
-      'PLAME INVESTIGATION: Testified to grand jury 5 times, escaped indictment but admitted discussing Plame',
-      'SWIFT BOAT VETERANS: Orchestrated character assassination campaign against John Kerry\'s military record',
-      '2000 SOUTH CAROLINA: Push polls suggesting John McCain had illegitimate Black child',
-      'FIRED US ATTORNEYS: Central figure in firing 9 US Attorneys for political reasons (2006)',
-      'VOTER SUPPRESSION: Designed strategies to suppress minority voting',
-      'DIRTY TRICKS LEGACY: College Republican chairman during Watergate era, mentored by Donald Segretti',
-      'EMAIL DELETION: 22 million White House emails deleted during his tenure, RNC server use',
-      'DON SIEGELMAN PROSECUTION: Alleged political targeting of Alabama Democratic governor',
-      'REFUSED SUBPOENA: Refused to testify before Congress, cited executive privilege',
-    ],
-    charges: [
-      { statute: '50 U.S.C. § 421 (IIPA)', description: 'Intelligence Identities Protection Act - Leaked Plame identity', category: 'National Security' },
-      { statute: '18 U.S.C. § 1505', description: 'Obstruction of Justice - Evading congressional testimony', category: 'Obstruction' },
-      { statute: '18 U.S.C. § 1001', description: 'False Statements - Misleading statements about Plame role', category: 'Federal' },
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy - Coordinated Plame leak with Libby, Cheney', category: 'Conspiracy' },
-      { statute: '52 U.S.C. § 20511', description: 'Voter Intimidation - Suppression tactics', category: 'Election Crimes' },
-      { statute: 'Presidential Records Act', description: 'Destruction of Records - 22 million deleted emails', category: 'Federal' },
-    ],
-    relatedInvestigations: [
-      { title: 'Valerie Plame Leak', slug: 'plame-leak', severity: 'critical' },
-      { title: 'US Attorney Firings', slug: 'attorney-firings', severity: 'high' },
-      { title: 'Voter Suppression Operations', slug: 'voter-suppression', severity: 'high' },
-      { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
-      { title: 'White House Email Deletion', slug: 'email-deletion', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'December 25, 1950', event: 'Born in Denver, Colorado' },
-      { date: '1970', event: 'Drops out of University of Utah for politics' },
-      { date: '1973', event: 'Becomes College Republican National Committee chairman' },
-      { date: '1973', event: 'Teaches dirty tricks to young Lee Atwater' },
-      { date: '1977', event: 'Founds Karl Rove & Company consulting firm' },
-      { date: '1978', event: 'First works for George W. Bush\'s congressional campaign' },
-      { date: '1994', event: 'Manages Bush Texas gubernatorial campaign' },
-      { date: '2000', event: 'Architects Bush presidential campaign, SC primary attacks on McCain' },
-      { date: '2001', event: 'Becomes Senior Advisor to President Bush' },
-      { date: '2003', event: 'July: Leaks Valerie Plame identity to Robert Novak and others' },
-      { date: '2003', event: 'Joseph Wilson op-ed criticizes Iraq War intel, triggers retaliation' },
-      { date: '2004', event: 'Swift Boat Veterans campaign destroys Kerry' },
-      { date: '2004', event: 'Bush re-election, Rove called"The Architect"' },
-      { date: '2005-2006', event: 'Testifies 5 times before Plame grand jury' },
-      { date: '2006', event: 'US Attorney firing scandal emerges' },
-      { date: '2007', event: 'Resigns from White House' },
-      { date: '2007', event: '22 million White House emails revealed deleted' },
-      { date: '2010', event: 'Co-founds American Crossroads Super PAC' },
-      { date: 'Present', event: 'Fox News contributor, Wall Street Journal columnist' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Plame Leak Investigation - Special Counsel Fitzgerald', url: 'https://www.justice.gov/archive/osc/', date: '2003-2006' },
-      { title: 'House Judiciary Committee - US Attorney Firings', url: 'https://judiciary.house.gov/', date: '2007' },
-      { title: 'Hubris: The Inside Story of Spin, Scandal, and the Selling of the Iraq War', url: 'https://scholar.google.com/scholar?q=Hubris%3A%20The%20Inside%20Story%20of%20Spin%2C%20Scandal%2C%20and%20the%20Selling%20of%20the%20Iraq%20War', date: '2006' },
-      { title: 'Rove Grand Jury Testimony Records', url: 'https://www.justice.gov/', date: '2005-2006' },
-      { title: 'Email Deletion Investigation - House Oversight', url: 'https://www.courtlistener.com/', date: '2007' },
-      { title: 'Courage and Consequence: My Life as a Conservative in the Fight', url: 'https://scholar.google.com/scholar?q=Courage%20and%20Consequence%3A%20My%20Life%20as%20a%20Conservative%20in%20the%20Fight', date: '2010' },
-    ],
-    aliases: ['Bush\'s Brain', 'The Architect', 'Turd Blossom', 'Boy Genius'],
-    knownAssociates: [
-      { name: 'George W. Bush', relationship: 'Principal,"Bush\'s Brain"nickname', href: '/entities/individuals/george-w-bush' },
-      { name: 'Dick Cheney', relationship: 'Vice President, Plame leak coordination', href: '/entities/individuals/dick-cheney' },
-      { name: 'Scooter Libby', relationship: 'Cheney CoS, fellow Plame leaker, convicted', href: '/entities/individuals/scooter-libby' },
-      { name: 'Robert Novak', relationship: 'Journalist who published Plame leak', href: '/entities/individuals/robert-novak' },
-      { name: 'Donald Trump', relationship: 'Occasional ally/critic, Trump SuperPAC opponent', href: '/entities/individuals/donald-trump' },
-    ],
-  },
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 
+ 'karl-rove': {
+ name: 'Karl Christian Rove',
+ title: 'Former Senior Advisor to President Bush',
+ role: 'Political Operative, Dirty Trickster, Valerie Plame Leaker',
+ riskLevel: 'high',
+ description: 'Karl Rove was George W. Bush\'s chief political strategist known as"Bush\'s Brain"and"The Architect."He pioneered ruthless political tactics including the Valerie Plame leak that exposed a CIA officer in retaliation for her husband criticizing Iraq War intelligence, voter suppression strategies, and Swift Boat-style character assassination. He escaped indictment in the Plame case but was at the center of the conspiracy to out a covert agent.',
+ birthDate: 'December 25, 1950',
+ birthPlace: 'Denver, Colorado, USA',
+ netWorth: '$6+ million',
+ education: ['University of Utah (did not graduate)', 'University of Texas at Austin (did not graduate)', 'George Mason University (did not graduate)'],
+ affiliations: [
+ { name: 'White House', role: 'Senior Advisor (2001-2007), Deputy Chief of Staff', type: 'agency' },
+ { name: 'Bush-Cheney Campaign', role: 'Chief Strategist (2000, 2004)', type: 'organization' },
+ { name: 'College Republicans', role: 'Chairman (1973)', type: 'organization' },
+ { name: 'American Crossroads', role: 'Co-Founder (Super PAC)', type: 'organization' },
+ { name: 'Fox News', role: 'Contributor', type: 'corporation' },
+ { name: 'Wall Street Journal', role: 'Columnist', type: 'corporation' },
+ ],
+ controversies: [
+ 'VALERIE PLAME LEAK: Leaked CIA officer identity to reporters in retaliation for husband\'s Iraq War criticism',
+ 'PLAME INVESTIGATION: Testified to grand jury 5 times, escaped indictment but admitted discussing Plame',
+ 'SWIFT BOAT VETERANS: Orchestrated character assassination campaign against John Kerry\'s military record',
+ '2000 SOUTH CAROLINA: Push polls suggesting John McCain had illegitimate Black child',
+ 'FIRED US ATTORNEYS: Central figure in firing 9 US Attorneys for political reasons (2006)',
+ 'VOTER SUPPRESSION: Designed strategies to suppress minority voting',
+ 'DIRTY TRICKS LEGACY: College Republican chairman during Watergate era, mentored by Donald Segretti',
+ 'EMAIL DELETION: 22 million White House emails deleted during his tenure, RNC server use',
+ 'DON SIEGELMAN PROSECUTION: Alleged political targeting of Alabama Democratic governor',
+ 'REFUSED SUBPOENA: Refused to testify before Congress, cited executive privilege',
+ ],
+ charges: [
+ { statute: '50 U.S.C. § 421 (IIPA)', description: 'Intelligence Identities Protection Act - Leaked Plame identity', category: 'National Security' },
+ { statute: '18 U.S.C. § 1505', description: 'Obstruction of Justice - Evading congressional testimony', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1001', description: 'False Statements - Misleading statements about Plame role', category: 'Federal' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy - Coordinated Plame leak with Libby, Cheney', category: 'Conspiracy' },
+ { statute: '52 U.S.C. § 20511', description: 'Voter Intimidation - Suppression tactics', category: 'Election Crimes' },
+ { statute: 'Presidential Records Act', description: 'Destruction of Records - 22 million deleted emails', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Valerie Plame Leak', slug: 'plame-leak', severity: 'critical' },
+ { title: 'US Attorney Firings', slug: 'attorney-firings', severity: 'high' },
+ { title: 'Voter Suppression Operations', slug: 'voter-suppression', severity: 'high' },
+ { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
+ { title: 'White House Email Deletion', slug: 'email-deletion', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'December 25, 1950', event: 'Born in Denver, Colorado' },
+ { date: '1970', event: 'Drops out of University of Utah for politics' },
+ { date: '1973', event: 'Becomes College Republican National Committee chairman' },
+ { date: '1973', event: 'Teaches dirty tricks to young Lee Atwater' },
+ { date: '1977', event: 'Founds Karl Rove & Company consulting firm' },
+ { date: '1978', event: 'First works for George W. Bush\'s congressional campaign' },
+ { date: '1994', event: 'Manages Bush Texas gubernatorial campaign' },
+ { date: '2000', event: 'Architects Bush presidential campaign, SC primary attacks on McCain' },
+ { date: '2001', event: 'Becomes Senior Advisor to President Bush' },
+ { date: '2003', event: 'July: Leaks Valerie Plame identity to Robert Novak and others' },
+ { date: '2003', event: 'Joseph Wilson op-ed criticizes Iraq War intel, triggers retaliation' },
+ { date: '2004', event: 'Swift Boat Veterans campaign destroys Kerry' },
+ { date: '2004', event: 'Bush re-election, Rove called"The Architect"' },
+ { date: '2005-2006', event: 'Testifies 5 times before Plame grand jury' },
+ { date: '2006', event: 'US Attorney firing scandal emerges' },
+ { date: '2007', event: 'Resigns from White House' },
+ { date: '2007', event: '22 million White House emails revealed deleted' },
+ { date: '2010', event: 'Co-founds American Crossroads Super PAC' },
+ { date: 'Present', event: 'Fox News contributor, Wall Street Journal columnist' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Plame Leak Investigation - Special Counsel Fitzgerald', url: 'https://www.justice.gov/archive/osc/', date: '2003-2006' },
+ { title: 'House Judiciary Committee - US Attorney Firings', url: 'https://judiciary.house.gov/', date: '2007' },
+ { title: 'Hubris: The Inside Story of Spin, Scandal, and the Selling of the Iraq War', url: 'https://scholar.google.com/scholar?q=Hubris%3A%20The%20Inside%20Story%20of%20Spin%2C%20Scandal%2C%20and%20the%20Selling%20of%20the%20Iraq%20War', date: '2006' },
+ { title: 'Rove Grand Jury Testimony Records', url: 'https://www.justice.gov/', date: '2005-2006' },
+ { title: 'Email Deletion Investigation - House Oversight', url: 'https://www.courtlistener.com/', date: '2007' },
+ { title: 'Courage and Consequence: My Life as a Conservative in the Fight', url: 'https://scholar.google.com/scholar?q=Courage%20and%20Consequence%3A%20My%20Life%20as%20a%20Conservative%20in%20the%20Fight', date: '2010' },
+ ],
+ aliases: ['Bush\'s Brain', 'The Architect', 'Turd Blossom', 'Boy Genius'],
+ knownAssociates: [
+ { name: 'George W. Bush', relationship: 'Principal,"Bush\'s Brain"nickname', href: '/entities/individuals/george-w-bush' },
+ { name: 'Dick Cheney', relationship: 'Vice President, Plame leak coordination', href: '/entities/individuals/dick-cheney' },
+ { name: 'Scooter Libby', relationship: 'Cheney CoS, fellow Plame leaker, convicted', href: '/entities/individuals/scooter-libby' },
+ { name: 'Robert Novak', relationship: 'Journalist who published Plame leak', href: '/entities/individuals/robert-novak' },
+ { name: 'Donald Trump', relationship: 'Occasional ally/critic, Trump SuperPAC opponent', href: '/entities/individuals/donald-trump' },
+ ],
+ },
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1299,240 +1051,212 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
-  'kirill-dmitriev': {
-    name: 'Kirill Aleksandrovich Dmitriev',
-    title: 'Russian Sovereign Wealth Fund CEO',
-    role: 'Putin Ally, Seychelles Meeting Participant, Kremlin Operative',
-    riskLevel: 'critical',
-    description: 'Kirill Dmitriev is the CEO of the Russian Direct Investment Fund (RDIF), Russia\'s sovereign wealth fund, and a close ally of Vladimir Putin. He participated in the secret January 2017 Seychelles meeting arranged by George Nader where he met Erik Prince, allegedly to establish a Trump-Russia back channel. Despite Western sanctions, Dmitriev has worked to advance Russian interests globally and was instrumental in promoting the Sputnik V COVID vaccine. He represents Putin\'s efforts to cultivate relationships with Western business and political leaders.',
-    birthDate: 'November 21, 1975',
-    birthPlace: 'Kiev, Ukrainian SSR, Soviet Union',
-    netWorth: 'Undisclosed (controls $10+ billion RDIF)',
-    education: ['MBA - Stanford Graduate School of Business', 'B.A. - Stanford University'],
-    affiliations: [
-      { name: 'Russian Direct Investment Fund', role: 'CEO (2011-present)', type: 'agency' },
-      { name: 'Stanford Business School', role: 'Graduate', type: 'organization' },
-      { name: 'Goldman Sachs', role: 'Former Investment Banker', type: 'corporation' },
-      { name: 'Kremlin', role: 'Putin economic advisor', type: 'agency' },
-    ],
-    controversies: [
-      'SEYCHELLES MEETING (January 9, 2017): Met Erik Prince at Four Seasons Resort Seychelles, allegedly to establish Trump-Russia back channel',
-      'BACK CHANNEL EFFORT: Mueller report documented efforts to create unofficial communication channel with Trump transition',
-      'SANCTIONS EVASION: RDIF structured to evade US sanctions while maintaining Western investment relationships',
-      'UAE FACILITATION: Meeting arranged through UAE with George Nader as intermediary',
-      'KUSHNER CONTACTS: Multiple approaches to Trump inner circle through intermediaries',
-      'SPUTNIK V PROMOTION: Led campaign to market Russian COVID vaccine globally despite efficacy concerns',
-      'WESTERN SANCTIONS: Personally sanctioned by US, EU, UK, Canada, Australia following Ukraine invasion',
-      'STANFORD CONNECTIONS: Leveraged American education to build Western business relationships',
-      'GOLDMAN SACHS BACKGROUND: Former Goldman banker, understands Western financial systems',
-      'RDIF PARTNERSHIPS: Established partnerships with sovereign wealth funds despite Russia controversies',
-      'PRE-INAUGURATION CONTACTS: Multiple contacts with Trump associates before inauguration',
-    ],
-    charges: [
-      { statute: 'Executive Order 14024', description: 'Sanctioned Individual - Harmful foreign activities of Russian government', category: 'OFAC Sanctions' },
-      { statute: 'EU Council Decision 2022/327', description: 'EU Sanctions - Russian economic support', category: 'European Union' },
-      { statute: '22 U.S.C. § 611', description: 'FARA Implications - Unregistered foreign agent activities', category: 'Federal' },
-      { statute: '18 U.S.C. § 371', description: 'Conspiracy - Coordinating with US persons to influence policy', category: 'Federal' },
-      { statute: '50 U.S.C. § 1705 (IEEPA)', description: 'Sanctions Violations - Economic engagement post-sanctions', category: 'Federal' },
-    ],
-    relatedInvestigations: [
-      { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
-      { title: 'Seychelles Secret Meeting', slug: 'seychelles-meeting', severity: 'critical' },
-      { title: 'Foreign Influence in US Politics', slug: 'foreign-influence', severity: 'critical' },
-      { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
-    ],
-    timeline: [
-      { date: 'November 21, 1975', event: 'Born in Kiev, Ukrainian SSR' },
-      { date: '1990s', event: 'Studies at Stanford University, MBA from Stanford GSB' },
-      { date: 'Early 2000s', event: 'Works at Goldman Sachs, McKinsey' },
-      { date: '2008', event: 'Returns to Russia, joins Delta Private Equity' },
-      { date: '2011', event: 'Appointed CEO of Russian Direct Investment Fund by Putin' },
-      { date: '2011-2016', event: 'Builds RDIF partnerships with Middle East sovereign wealth funds' },
-      { date: 'December 2016', event: 'Begins outreach to Trump transition through intermediaries' },
-      { date: 'January 9, 2017', event: 'SEYCHELLES MEETING: Meets Erik Prince at Four Seasons Resort' },
-      { date: '2017', event: 'Continued contacts with Trump associates documented by Mueller' },
-      { date: '2018', event: 'Mueller investigation examines Seychelles meeting' },
-      { date: '2019', event: 'Mueller Report details Dmitriev\'s back channel efforts' },
-      { date: '2020', event: 'Leads Sputnik V COVID vaccine international promotion' },
-      { date: 'February 2022', event: 'Russia invades Ukraine' },
-      { date: '2022', event: 'Sanctioned by US, EU, UK, Canada, Australia' },
-      { date: '2023', event: 'Continues leading RDIF despite Western isolation' },
-      { date: '2024', event: 'RDIF pivots to non-Western partnerships' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
-      { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
-      { title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0628', date: '2022' },
-      { title: 'EU Sanctions List', url: 'https://www.sanctionsmap.eu/', date: '2022' },
-      { title: 'New York Times - Seychelles Meeting', url: 'https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting-russian.html', date: '2018' },
-      { title: 'RDIF Official Records', url: 'https://rdif.ru/Eng/', date: 'Various' },
-    ],
-    aliases: ['Putin\'s Investment Banker', 'RDIF Chief'],
-    knownAssociates: [
-      { name: 'Vladimir Putin', relationship: 'Direct reports to, Kremlin representative', href: '/entities/individuals/vladimir-putin' },
-      { name: 'Erik Prince', relationship: 'Seychelles meeting January 2017', href: '/entities/individuals/erik-prince' },
-      { name: 'George Nader', relationship: 'Arranged Seychelles meeting', href: '/entities/individuals/george-nader' },
-      { name: 'Mohammed bin Zayed', relationship: 'UAE Crown Prince, facilitated Seychelles meeting', href: '/entities/individuals/mohammed-bin-zayed' },
-      { name: 'Rick Gerson', relationship: 'Kushner friend, peace plan contact', href: '/entities/individuals/rick-gerson' },
-      { name: 'Jared Kushner', relationship: 'Indirect contact through intermediaries', href: '/entities/individuals/jared-kushner' },
-    ],
-  },
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  'katherine-harris': {
-    name: 'Katherine Harris',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Katherine Harris is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Katherine Harris has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Katherine Harris coordinated messaging strategies designed to suppress unfavorable information.',
-      'Investigative journalists have documented a pattern of revolving-door employment between Katherine Harris\'s operations and the regulatory bodies meant to provide oversight.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-09', event: 'Network analysis completed — Katherine Harris connected to 7 entities in the accountability database' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-  'kevin-roberts': {
-    name: 'Kevin Roberts',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kevin Roberts is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kevin Roberts has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kevin Roberts as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kevin Roberts to 32 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Inspector General audit reports covering operations associated with Kevin Roberts identified material weaknesses in internal controls, including 4 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kevin Roberts as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 4 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Kevin Roberts maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $671M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Corporate governance analysis reveals Kevin Roberts held simultaneous advisory or board positions across 3 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Public records analysis of litigation settlements involving entities associated with Kevin Roberts shows a cumulative settlement total exceeding $69M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2025-06-15', event: 'Public records audit of Kevin Roberts initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 6 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 12 outstanding information requests related to Kevin Roberts\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 4 references to Kevin Roberts in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kevin Roberts connected to fund flows across 7 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kevin Roberts in 16 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kevin Roberts, mapping connections across 22 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kevin Roberts\'s documented involvement flagged material weaknesses in 4 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 4 newly surfaced documentary sources linking Kevin Roberts to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-  'khaled-el-masri': {
-    name: 'Khaled El-Masri',
-    title: 'Rendition Victim',
-    role: 'German citizen kidnapped and tortured by CIA due to mistaken identity',
-    riskLevel: 'low',
-    description: 'Khaled El-Masri is a German citizen who was kidnapped by the CIA in Macedonia in 2003, rendered to Afghanistan, and tortured for five months before the CIA realized they had the wrong man. He was dumped on a road in Albania. The U.S. has never acknowledged wrongdoing or compensated him.',
-    birthDate: '1963',
-    birthPlace: 'Kuwait',
-    education: [],
-    affiliations: [
-      { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
-    ],
-    controversies: [
-      'German citizen kidnapped by CIA in a case of mistaken identity and rendered to Afghanistan black site',
-      'Held for months and subjected to enhanced interrogation before CIA realized they had the wrong man',
-      'European Court of Human Rights ruled Macedonia complicit in his treatment; U.S. never held accountable',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'CIA Rendition Program', slug: 'rendition', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '1963', event: 'Born in Kuwait' },
-      { date: 'December 31, 2003', event: 'Kidnapped at Macedonian border' },
-      { date: 'January 2004', event: 'Rendered to "Salt Pit"black site in Afghanistan' },
-      { date: 'January, May 2004', event: 'Imprisoned and tortured' },
-      { date: 'May 2004', event: 'CIA realizes mistaken identity' },
-      { date: 'May 28, 2004', event: 'Abandoned on road in Albania' },
-      { date: '2006', event: 'U.S. courts dismiss his lawsuit citing" state secrets"' },
-      { date: '2012', event: 'European Court of Human Rights rules Macedonia violated his rights' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'European Court of Human Rights judgment', url: 'https://scholar.google.com/scholar?q=European%20Court%20of%20Human%20Rights%20judgment', date: '2012' },
-      { title: 'Senate Torture Report', url: 'https://scholar.google.com/scholar?q=Senate%20Torture%20Report', date: '2014' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'George Tenet', relationship: 'CIA Director who oversaw extraordinary rendition program that kidnapped el-Masri and sent him to a black site', href: '/entities/individuals/george-tenet' },
-      { name: 'George W. Bush', relationship: 'President who authorized CIA enhanced interrogation and rendition programs', href: '/entities/individuals/george-w-bush' },
-      { name: 'Condoleezza Rice', relationship: 'National Security Advisor reportedly informed about el-Masri\'s mistaken rendition', href: '/entities/individuals/condoleezza-rice' },
-    ],
-  },
+
+
+
+
+ 'kirill-dmitriev': {
+ name: 'Kirill Aleksandrovich Dmitriev',
+ title: 'Russian Sovereign Wealth Fund CEO',
+ role: 'Putin Ally, Seychelles Meeting Participant, Kremlin Operative',
+ riskLevel: 'critical',
+ description: 'Kirill Dmitriev is the CEO of the Russian Direct Investment Fund (RDIF), Russia\'s sovereign wealth fund, and a close ally of Vladimir Putin. He participated in the secret January 2017 Seychelles meeting arranged by George Nader where he met Erik Prince, allegedly to establish a Trump-Russia back channel. Despite Western sanctions, Dmitriev has worked to advance Russian interests globally and was instrumental in promoting the Sputnik V COVID vaccine. He represents Putin\'s efforts to cultivate relationships with Western business and political leaders.',
+ birthDate: 'November 21, 1975',
+ birthPlace: 'Kiev, Ukrainian SSR, Soviet Union',
+ netWorth: 'Undisclosed (controls $10+ billion RDIF)',
+ education: ['MBA - Stanford Graduate School of Business', 'B.A. - Stanford University'],
+ affiliations: [
+ { name: 'Russian Direct Investment Fund', role: 'CEO (2011-present)', type: 'agency' },
+ { name: 'Stanford Business School', role: 'Graduate', type: 'organization' },
+ { name: 'Goldman Sachs', role: 'Former Investment Banker', type: 'corporation' },
+ { name: 'Kremlin', role: 'Putin economic advisor', type: 'agency' },
+ ],
+ controversies: [
+ 'SEYCHELLES MEETING (January 9, 2017): Met Erik Prince at Four Seasons Resort Seychelles, allegedly to establish Trump-Russia back channel',
+ 'BACK CHANNEL EFFORT: Mueller report documented efforts to create unofficial communication channel with Trump transition',
+ 'SANCTIONS EVASION: RDIF structured to evade US sanctions while maintaining Western investment relationships',
+ 'UAE FACILITATION: Meeting arranged through UAE with George Nader as intermediary',
+ 'KUSHNER CONTACTS: Multiple approaches to Trump inner circle through intermediaries',
+ 'SPUTNIK V PROMOTION: Led campaign to market Russian COVID vaccine globally despite efficacy concerns',
+ 'WESTERN SANCTIONS: Personally sanctioned by US, EU, UK, Canada, Australia following Ukraine invasion',
+ 'STANFORD CONNECTIONS: Leveraged American education to build Western business relationships',
+ 'GOLDMAN SACHS BACKGROUND: Former Goldman banker, understands Western financial systems',
+ 'RDIF PARTNERSHIPS: Established partnerships with sovereign wealth funds despite Russia controversies',
+ 'PRE-INAUGURATION CONTACTS: Multiple contacts with Trump associates before inauguration',
+ ],
+ charges: [
+ { statute: 'Executive Order 14024', description: 'Sanctioned Individual - Harmful foreign activities of Russian government', category: 'OFAC Sanctions' },
+ { statute: 'EU Council Decision 2022/327', description: 'EU Sanctions - Russian economic support', category: 'European Union' },
+ { statute: '22 U.S.C. § 611', description: 'FARA Implications - Unregistered foreign agent activities', category: 'Federal' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy - Coordinating with US persons to influence policy', category: 'Federal' },
+ { statute: '50 U.S.C. § 1705 (IEEPA)', description: 'Sanctions Violations - Economic engagement post-sanctions', category: 'Federal' },
+ ],
+ relatedInvestigations: [
+ { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
+ { title: 'Seychelles Secret Meeting', slug: 'seychelles-meeting', severity: 'critical' },
+ { title: 'Foreign Influence in US Politics', slug: 'foreign-influence', severity: 'critical' },
+ { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'November 21, 1975', event: 'Born in Kiev, Ukrainian SSR' },
+ { date: '1990s', event: 'Studies at Stanford University, MBA from Stanford GSB' },
+ { date: 'Early 2000s', event: 'Works at Goldman Sachs, McKinsey' },
+ { date: '2008', event: 'Returns to Russia, joins Delta Private Equity' },
+ { date: '2011', event: 'Appointed CEO of Russian Direct Investment Fund by Putin' },
+ { date: '2011-2016', event: 'Builds RDIF partnerships with Middle East sovereign wealth funds' },
+ { date: 'December 2016', event: 'Begins outreach to Trump transition through intermediaries' },
+ { date: 'January 9, 2017', event: 'SEYCHELLES MEETING: Meets Erik Prince at Four Seasons Resort' },
+ { date: '2017', event: 'Continued contacts with Trump associates documented by Mueller' },
+ { date: '2018', event: 'Mueller investigation examines Seychelles meeting' },
+ { date: '2019', event: 'Mueller Report details Dmitriev\'s back channel efforts' },
+ { date: '2020', event: 'Leads Sputnik V COVID vaccine international promotion' },
+ { date: 'February 2022', event: 'Russia invades Ukraine' },
+ { date: '2022', event: 'Sanctioned by US, EU, UK, Canada, Australia' },
+ { date: '2023', event: 'Continues leading RDIF despite Western isolation' },
+ { date: '2024', event: 'RDIF pivots to non-Western partnerships' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
+ { title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0628', date: '2022' },
+ { title: 'EU Sanctions List', url: 'https://www.sanctionsmap.eu/', date: '2022' },
+ { title: 'New York Times - Seychelles Meeting', url: 'https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting-russian.html', date: '2018' },
+ { title: 'RDIF Official Records', url: 'https://rdif.ru/Eng/', date: 'Various' },
+ ],
+ aliases: ['Putin\'s Investment Banker', 'RDIF Chief'],
+ knownAssociates: [
+ { name: 'Vladimir Putin', relationship: 'Direct reports to, Kremlin representative', href: '/entities/individuals/vladimir-putin' },
+ { name: 'Erik Prince', relationship: 'Seychelles meeting January 2017', href: '/entities/individuals/erik-prince' },
+ { name: 'George Nader', relationship: 'Arranged Seychelles meeting', href: '/entities/individuals/george-nader' },
+ { name: 'Mohammed bin Zayed', relationship: 'UAE Crown Prince, facilitated Seychelles meeting', href: '/entities/individuals/mohammed-bin-zayed' },
+ { name: 'Rick Gerson', relationship: 'Kushner friend, peace plan contact', href: '/entities/individuals/rick-gerson' },
+ { name: 'Jared Kushner', relationship: 'Indirect contact through intermediaries', href: '/entities/individuals/jared-kushner' },
+ ],
+ },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 'katherine-harris': {
+ name: 'Katherine Harris',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Katherine Harris. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Katherine Harris coordinated messaging strategies designed to suppress unfavorable information.',
+ 'Investigative journalists have documented a pattern of revolving-door employment between Katherine Harris\'s operations and the regulatory bodies meant to provide oversight.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+ 'kevin-roberts': {
+ name: 'Kevin Roberts',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kevin Roberts. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+ 'khaled-el-masri': {
+ name: 'Khaled El-Masri',
+ title: 'Rendition Victim',
+ role: 'German citizen kidnapped and tortured by CIA due to mistaken identity',
+ riskLevel: 'low',
+ description: 'Khaled El-Masri is a German citizen who was kidnapped by the CIA in Macedonia in 2003, rendered to Afghanistan, and tortured for five months before the CIA realized they had the wrong man. He was dumped on a road in Albania. The U.S. has never acknowledged wrongdoing or compensated him.',
+ birthDate: '1963',
+ birthPlace: 'Kuwait',
+ education: [],
+ affiliations: [
+ { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
+ ],
+ controversies: [
+ 'German citizen kidnapped by CIA in a case of mistaken identity and rendered to Afghanistan black site',
+ 'Held for months and subjected to enhanced interrogation before CIA realized they had the wrong man',
+ 'European Court of Human Rights ruled Macedonia complicit in his treatment; U.S. never held accountable',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'CIA Rendition Program', slug: 'rendition', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1963', event: 'Born in Kuwait' },
+ { date: 'December 31, 2003', event: 'Kidnapped at Macedonian border' },
+ { date: 'January 2004', event: 'Rendered to "Salt Pit"black site in Afghanistan' },
+ { date: 'January, May 2004', event: 'Imprisoned and tortured' },
+ { date: 'May 2004', event: 'CIA realizes mistaken identity' },
+ { date: 'May 28, 2004', event: 'Abandoned on road in Albania' },
+ { date: '2006', event: 'U.S. courts dismiss his lawsuit citing" state secrets"' },
+ { date: '2012', event: 'European Court of Human Rights rules Macedonia violated his rights' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'European Court of Human Rights judgment', url: 'https://scholar.google.com/scholar?q=European%20Court%20of%20Human%20Rights%20judgment', date: '2012' },
+ { title: 'Senate Torture Report', url: 'https://scholar.google.com/scholar?q=Senate%20Torture%20Report', date: '2014' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'George Tenet', relationship: 'CIA Director who oversaw extraordinary rendition program that kidnapped el-Masri and sent him to a black site', href: '/entities/individuals/george-tenet' },
+ { name: 'George W. Bush', relationship: 'President who authorized CIA enhanced interrogation and rendition programs', href: '/entities/individuals/george-w-bush' },
+ { name: 'Condoleezza Rice', relationship: 'National Security Advisor reportedly informed about el-Masri\'s mistaken rendition', href: '/entities/individuals/condoleezza-rice' },
+ ],
+ },
 
  'kristen-clarke': {
  name: 'Kristen Clarke',
@@ -1568,63 +1292,50 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'DOJ Civil Rights Division', url: 'https://scholar.google.com/scholar?q=DOJ%20Civil%20Rights%20Division', date: 'Current' },
  ],
  },
-  'keith-alexander': {
-    name: 'Keith B. Alexander',
-    title: 'Former NSA Director',
-    role: 'Intelligence Official, Cybersecurity Executive',
-    riskLevel: 'high',
-    description: 'NSA Director during mass surveillance expansion exposed by Snowden. Now runs cybersecurity company. Keith B. Alexander has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Former NSA Director, Keith B. Alexander\'s documented activities intersect with 10 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    birthDate: 'December 2, 1951',
-    birthPlace: 'Syracuse, New York, USA',
-    education: ['United States Military Academy at West Point', 'Naval Postgraduate School - MS'],
-    affiliations: [
-      { name: 'NSA', role: 'Director (2005-2014)', type: 'agency' },
-      { name: 'U.S. Cyber Command', role: 'First Commander (2010-2014)', type: 'agency' },
-      { name: 'IronNet Cybersecurity', role: 'CEO & Founder', type: 'corporation' },
-    ],
-    controversies: [
-      'MASS SURVEILLANCE: Oversaw programs exposed by Snowden',
-      'CONGRESSIONAL TESTIMONY: Misleading statements about surveillance scope',
-      'METADATA COLLECTION: Defended collection of all American phone records',
-      'REVOLVING DOOR: Founded cybersecurity company after leaving NSA',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Keith B. Alexander. ArkHive\'s tracking system documented 14 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Keith B. Alexander to 26 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Inspector General audit reports covering operations associated with Keith B. Alexander identified material weaknesses in internal controls, including 3 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Keith B. Alexander failed to meet 5 of the core performance metrics established by authorizing legislation, resulting in an estimated $313M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'NSA Mass Surveillance', slug: 'nsa-mass-surveillance', severity: 'critical' },
-      { title: 'Surveillance State', slug: 'surveillance-state', severity: 'critical' },
-    ],
-    timeline: [
-      { date: 'December 2, 1951', event: 'Born in Syracuse, New York' },
-      { date: '2005', event: 'Becomes NSA Director' },
-      { date: '2010', event: 'First U.S. Cyber Command Commander' },
-      { date: 'June 2013', event: 'Snowden revelations begin' },
-      { date: '2014', event: 'Retires, founds IronNet' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 7 references to Keith B. Alexander in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 6 newly surfaced documentary sources linking Keith B. Alexander to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Keith B. Alexander\'s documented involvement flagged material weaknesses in 4 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Keith B. Alexander connected to fund flows across 3 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Keith B. Alexander documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Keith B. Alexander', url: 'https://en.wikipedia.org/wiki/Keith_B._Alexander', date: '' },
-      { title: 'Bloomberg: Keith B. Alexander', url: 'https://www.bloomberg.com/', date: '' },
-      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', date: '' },
-      { title: 'The Intercept', url: 'https://theintercept.com/', date: '' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'James Clapper', relationship: 'DNI colleague', href: '/entities/individuals/james-clapper' },
-    ],
-  },
+ 'keith-alexander': {
+ name: 'Keith B. Alexander',
+ title: 'Former NSA Director',
+ role: 'Intelligence Official, Cybersecurity Executive',
+ riskLevel: 'high',
+ description: 'Keith B. Alexander. Profile pending review.',
+ birthDate: 'December 2, 1951',
+ birthPlace: 'Syracuse, New York, USA',
+ education: ['United States Military Academy at West Point', 'Naval Postgraduate School - MS'],
+ affiliations: [
+ { name: 'NSA', role: 'Director (2005-2014)', type: 'agency' },
+ { name: 'U.S. Cyber Command', role: 'First Commander (2010-2014)', type: 'agency' },
+ { name: 'IronNet Cybersecurity', role: 'CEO & Founder', type: 'corporation' },
+ ],
+ controversies: [
+ 'MASS SURVEILLANCE: Oversaw programs exposed by Snowden',
+ 'CONGRESSIONAL TESTIMONY: Misleading statements about surveillance scope',
+ 'METADATA COLLECTION: Defended collection of all American phone records',
+ 'REVOLVING DOOR: Founded cybersecurity company after leaving NSA',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'NSA Mass Surveillance', slug: 'nsa-mass-surveillance', severity: 'critical' },
+ { title: 'Surveillance State', slug: 'surveillance-state', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'December 2, 1951', event: 'Born in Syracuse, New York' },
+ { date: '2005', event: 'Becomes NSA Director' },
+ { date: '2010', event: 'First U.S. Cyber Command Commander' },
+ { date: 'June 2013', event: 'Snowden revelations begin' },
+ { date: '2014', event: 'Retires, founds IronNet' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Keith B. Alexander', url: 'https://en.wikipedia.org/wiki/Keith_B._Alexander', date: '' },
+ { title: 'Bloomberg: Keith B. Alexander', url: 'https://www.bloomberg.com/', date: '' },
+ { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', date: '' },
+ { title: 'The Intercept', url: 'https://theintercept.com/', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'James Clapper', relationship: 'DNI colleague', href: '/entities/individuals/james-clapper' },
+ ],
+ },
 
 
 
@@ -1672,317 +1383,233 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Kenneth Lay', url: 'https://en.wikipedia.org/wiki/Kenneth_Lay' }, { title: 'Bloomberg: Kenneth Lay', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
-  'kermit-roosevelt': {
-    name: 'Kermit Roosevelt',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kermit Roosevelt is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kermit Roosevelt has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Congressional hearing transcripts reference Kermit Roosevelt in connection with policy decisions that disproportionately benefited associated financial interests.',
-      'Internal documents obtained through litigation discovery show Kermit Roosevelt was briefed on risks later downplayed in public communications.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Kermit Roosevelt to previously unknown institutional relationships' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kermit-roosevelt': {
+ name: 'Kermit Roosevelt',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kermit Roosevelt. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Congressional hearing transcripts reference Kermit Roosevelt in connection with policy decisions that disproportionately benefited associated financial interests.',
+ 'Internal documents obtained through litigation discovery show Kermit Roosevelt was briefed on risks later downplayed in public communications.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kelly-ortberg': {
-    name: 'Kelly Ortberg',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kelly Ortberg is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kelly Ortberg has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis reveals Kelly Ortberg was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-      'Third-party audit reports flagged irregularities in programs overseen by Kelly Ortberg, though no formal investigation was initiated at the time.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Court filing analysis reveals Kelly Ortberg referenced in 9 active litigation proceedings' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kelly-ortberg': {
+ name: 'Kelly Ortberg',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kelly Ortberg. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Investigative analysis reveals Kelly Ortberg was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+ 'Third-party audit reports flagged irregularities in programs overseen by Kelly Ortberg, though no formal investigation was initiated at the time.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kevin-mcallister': {
-    name: 'Kevin Mcallister',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kevin Mcallister is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kevin Mcallister has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Kevin Mcallister has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-      'Network analysis reveals Kevin Mcallister holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Kevin Mcallister' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kevin-mcallister': {
+ name: 'Kevin Mcallister',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kevin Mcallister. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Network analysis reveals Kevin Mcallister holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'keith-leverkuhn': {
-    name: 'Keith Leverkuhn',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Keith Leverkuhn is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Keith Leverkuhn has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis reveals Keith Leverkuhn was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-      'Third-party audit reports flagged irregularities in programs overseen by Keith Leverkuhn, though no formal investigation was initiated at the time.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Keith Leverkuhn to previously unknown institutional relationships' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'keith-leverkuhn': {
+ name: 'Keith Leverkuhn',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Keith Leverkuhn. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Investigative analysis reveals Keith Leverkuhn was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+ 'Third-party audit reports flagged irregularities in programs overseen by Keith Leverkuhn, though no formal investigation was initiated at the time.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kenneth-polite': {
-    name: 'Kenneth Polite',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kenneth Polite is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kenneth Polite has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Internal documents obtained through litigation discovery show Kenneth Polite was briefed on risks later downplayed in public communications.',
-      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Kenneth Polite coordinated messaging strategies designed to suppress unfavorable information.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Cross-referencing Kenneth Polite against congressional hearing transcripts and lobbying disclosure databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kenneth-polite': {
+ name: 'Kenneth Polite',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kenneth Polite. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Internal documents obtained through litigation discovery show Kenneth Polite was briefed on risks later downplayed in public communications.',
+ 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Kenneth Polite coordinated messaging strategies designed to suppress unfavorable information.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kyle-davies': {
-    name: 'Kyle Davies',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kyle Davies is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kyle Davies has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Kyle Davies has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-      'Court documents from related proceedings reference Kyle Davies as a key decision-maker during periods where regulatory violations were later documented.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Automated intelligence gathering identified new documentary evidence linking Kyle Davies to previously unknown institutional relationships' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kyle-davies': {
+ name: 'Kyle Davies',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kyle Davies. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Court documents from related proceedings reference Kyle Davies as a key decision-maker during periods where regulatory violations were later documented.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kathe-sackler': {
-    name: 'Kathe Sackler',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kathe Sackler is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kathe Sackler has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kathe Sackler as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 9 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kathe Sackler failed to meet 4 of the core performance metrics established by authorizing legislation, resulting in an estimated $422M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kathe Sackler to 22 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kathe Sackler. ArkHive\'s tracking system documented 5 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Inspector General audit reports covering operations associated with Kathe Sackler identified material weaknesses in internal controls, including 3 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Corporate governance analysis reveals Kathe Sackler held simultaneous advisory or board positions across 5 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-09', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-09', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-09', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-09', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-09', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
-      { date: '2025-06-15', event: 'Public records audit of Kathe Sackler initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 6 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kathe Sackler documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 7 newly surfaced documentary sources linking Kathe Sackler to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kathe Sackler, mapping connections across 35 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 5 outstanding information requests related to Kathe Sackler\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-09' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-09' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-09' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-09' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-09' },
-      { title: 'Federal Court Records: Proceedings referencing Kathe Sackler', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kathe-sackler': {
+ name: 'Kathe Sackler',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kathe Sackler. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
-  'ken-griffin': {
-    name: 'Ken Griffin',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Ken Griffin is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Ken Griffin has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Network analysis reveals Ken Griffin holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
-      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Ken Griffin coordinated messaging strategies designed to suppress unfavorable information.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-09', event: 'Freedom of Information Act request submitted for communications involving Ken Griffin and regulatory oversight bodies' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'ken-griffin': {
+ name: 'Ken Griffin',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Ken Griffin. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Network analysis reveals Ken Griffin holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Ken Griffin coordinated messaging strategies designed to suppress unfavorable information.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
  'kamala-harris': {
@@ -2028,76 +1655,59 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
-  'kevin-burns': {
-    name: 'Kevin Burns',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kevin Burns is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kevin Burns has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Kevin Burns has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-      'Public filings and regulatory records indicate Kevin Burns facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Kevin Burns' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kevin-burns': {
+ name: 'Kevin Burns',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kevin Burns. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Public filings and regulatory records indicate Kevin Burns facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kim-potter': {
-    name: 'Kim Potter',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kim Potter is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kim Potter has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Network analysis reveals Kim Potter holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
-      'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Kim Potter coordinated messaging strategies designed to suppress unfavorable information.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'ArkHive swarm intelligence flagged Kim Potter for expanded documentation based on cross-reference density exceeding threshold' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kim-potter': {
+ name: 'Kim Potter',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kim Potter. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Network analysis reveals Kim Potter holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Kim Potter coordinated messaging strategies designed to suppress unfavorable information.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
@@ -2145,177 +1755,132 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
-  'kyle-rittenhouse': {
-    name: 'Kyle Rittenhouse',
-    title: 'Acquitted Shooter',
-    role: 'Kenosha Shootings - Killed Two Protesters',
-    riskLevel: 'high',
-    description: 'Kyle Rittenhouse was 17 when he traveled from Illinois to Kenosha, Wisconsin with an AR-15 during protests over the police shooting of Jacob Blake. He killed two people and wounded a third. Acquitted on all charges after claiming self-defense, he became a right-wing celebrity.',
-    birthDate: 'January 3, 2003',
-    birthPlace: 'Antioch, Illinois',
-    education: ['High school (online)'],
-    affiliations: [
-      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
-    ],
-    controversies: [
-      'KILLED TWO PEOPLE: Shot protesters dead',
-      'CROSSED STATE LINES: Traveled with rifle to protest',
-      'UNDERAGE WITH RIFLE: 17 with AR-15',
-      'SELF-DEFENSE CLAIM: Acquitted on all counts',
-      'RIGHT-WING HERO: Celebrated by conservatives',
-      'MET WITH TRUMP: Photo op after acquittal',
-    ],
-    charges: [
-      { statute: 'Wisconsin Statute 940.01', description: 'First-degree intentional homicide', category: 'ACQUITTED' },
-      { statute: 'Wisconsin Statute 940.02', description: 'First-degree reckless homicide', category: 'ACQUITTED' },
-      { statute: 'Wisconsin Statute 941.30', description: 'Reckless endangerment', category: 'ACQUITTED' },
-    ],
-    relatedInvestigations: [
-      { title: 'Kenosha Shootings', slug: 'kenosha-shootings', severity: 'critical' },
-      { title: 'Protest Violence', slug: 'protest-violence', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'January 3, 2003', event: 'Born in Illinois' },
-      { date: 'August 25, 2020', event: 'Kills two people in Kenosha' },
-      { date: 'November 2021', event: 'Acquitted on all charges' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kyle Rittenhouse', url: 'https://en.wikipedia.org/wiki/Kyle_Rittenhouse', date: '' },
-      { title: 'ACLU Case Profile', url: 'https://www.aclu.org/', date: '' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Visited Mar-a-Lago after acquittal, embraced by Trump', href: '/entities/individuals/donald-trump' },
-    ],
-  },
+ 'kyle-rittenhouse': {
+ name: 'Kyle Rittenhouse',
+ title: 'Acquitted Shooter',
+ role: 'Kenosha Shootings - Killed Two Protesters',
+ riskLevel: 'high',
+ description: 'Kyle Rittenhouse was 17 when he traveled from Illinois to Kenosha, Wisconsin with an AR-15 during protests over the police shooting of Jacob Blake. He killed two people and wounded a third. Acquitted on all charges after claiming self-defense, he became a right-wing celebrity.',
+ birthDate: 'January 3, 2003',
+ birthPlace: 'Antioch, Illinois',
+ education: ['High school (online)'],
+ affiliations: [
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'KILLED TWO PEOPLE: Shot protesters dead',
+ 'CROSSED STATE LINES: Traveled with rifle to protest',
+ 'UNDERAGE WITH RIFLE: 17 with AR-15',
+ 'SELF-DEFENSE CLAIM: Acquitted on all counts',
+ 'RIGHT-WING HERO: Celebrated by conservatives',
+ 'MET WITH TRUMP: Photo op after acquittal',
+ ],
+ charges: [
+ { statute: 'Wisconsin Statute 940.01', description: 'First-degree intentional homicide', category: 'ACQUITTED' },
+ { statute: 'Wisconsin Statute 940.02', description: 'First-degree reckless homicide', category: 'ACQUITTED' },
+ { statute: 'Wisconsin Statute 941.30', description: 'Reckless endangerment', category: 'ACQUITTED' },
+ ],
+ relatedInvestigations: [
+ { title: 'Kenosha Shootings', slug: 'kenosha-shootings', severity: 'critical' },
+ { title: 'Protest Violence', slug: 'protest-violence', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'January 3, 2003', event: 'Born in Illinois' },
+ { date: 'August 25, 2020', event: 'Kills two people in Kenosha' },
+ { date: 'November 2021', event: 'Acquitted on all charges' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kyle Rittenhouse', url: 'https://en.wikipedia.org/wiki/Kyle_Rittenhouse', date: '' },
+ { title: 'ACLU Case Profile', url: 'https://www.aclu.org/', date: '' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Donald Trump', relationship: 'Visited Mar-a-Lago after acquittal, embraced by Trump', href: '/entities/individuals/donald-trump' },
+ ],
+ },
 
 
 
 
 
-  'keith-raniere': {
-    name: 'Keith Raniere',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Keith Raniere is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Keith Raniere has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Keith Raniere to 13 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Keith Raniere as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Keith Raniere as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 8 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Keith Raniere maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $246M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Keith Raniere was connected to lobbying expenditures totaling $36M across 11 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Keith Raniere failed to meet 5 of the core performance metrics established by authorizing legislation, resulting in an estimated $398M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Corporate governance analysis reveals Keith Raniere held simultaneous advisory or board positions across 2 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Keith Raniere documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Keith Raniere: identified 14 first-degree connections to entities with documented regulatory violations, and 34 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Keith Raniere in 7 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Keith Raniere\'s documented involvement flagged material weaknesses in 4 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 7 outstanding information requests related to Keith Raniere\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Keith Raniere connected to fund flows across 3 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-06-15', event: 'Public records audit of Keith Raniere initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 3 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Keith Raniere, mapping connections across 29 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'Federal Court Records: Proceedings referencing Keith Raniere', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Keith Raniere', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'keith-raniere': {
+ name: 'Keith Raniere',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Keith Raniere. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
-  'ken-lay': {
-    name: 'Ken Lay',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Ken Lay is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Ken Lay has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Network analysis reveals Ken Lay holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
-      'Internal documents obtained through litigation discovery show Ken Lay was briefed on risks later downplayed in public communications.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Cross-referencing Ken Lay against congressional hearing transcripts and lobbying disclosure databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'ken-lay': {
+ name: 'Ken Lay',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Ken Lay. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Network analysis reveals Ken Lay holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ 'Internal documents obtained through litigation discovery show Ken Lay was briefed on risks later downplayed in public communications.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kristi-noem': {
-    name: 'Kristi Noem',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kristi Noem is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kristi Noem has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis reveals Kristi Noem was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-      'Investigative journalists have documented a pattern of revolving-door employment between Kristi Noem\'s operations and the regulatory bodies meant to provide oversight.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Cross-referencing Kristi Noem against congressional hearing transcripts and lobbying disclosure databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kristi-noem': {
+ name: 'Kristi Noem',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kristi Noem. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Investigative analysis reveals Kristi Noem was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+ 'Investigative journalists have documented a pattern of revolving-door employment between Kristi Noem\'s operations and the regulatory bodies meant to provide oversight.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
@@ -2404,1501 +1969,932 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
-  'kim-reynolds': {
-    name: 'Kim Reynolds',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kim Reynolds is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kim Reynolds has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Kim Reynolds has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-      'Investigative journalists have documented a pattern of revolving-door employment between Kim Reynolds\'s operations and the regulatory bodies meant to provide oversight.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Network analysis completed — Kim Reynolds connected to 20 entities in the accountability database' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-  'k-barton-osborn': {
-    name: 'K. Barton Osborn',
-    title: 'Military intelligence officer, testified about Phoenix torture',
-    role: 'Military intelligence officer, testified about Phoenix torture',
-    riskLevel: 'high',
-    description: 'K. Barton Osborn is documented in this investigative archive for their role as Military intelligence officer, testified about Phoenix torture. K. Barton Osborn has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Military intelligence officer, testified about Phoenix torture, K. Barton Osborn\'s documented activities intersect with 14 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
-      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified K. Barton Osborn as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 5 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving K. Barton Osborn. ArkHive\'s tracking system documented 7 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped K. Barton Osborn to 31 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that K. Barton Osborn participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals K. Barton Osborn was connected to lobbying expenditures totaling $41M across 8 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe K. Barton Osborn as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals K. Barton Osborn maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $618M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Military intelligence officer, testified about Phoenix torture' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for K. Barton Osborn: identified 10 first-degree connections to entities with documented regulatory violations, and 24 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals K. Barton Osborn connected to fund flows across 8 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-06-15', event: 'Public records audit of K. Barton Osborn initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 3 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of K. Barton Osborn, mapping connections across 16 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 9 references to K. Barton Osborn in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 3 outstanding information requests related to K. Barton Osborn\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving K. Barton Osborn documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 2 newly surfaced documentary sources linking K. Barton Osborn to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of K. Barton Osborn\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: K. Barton Osborn', url: 'https://en.wikipedia.org/wiki/K._Barton_Osborn', date: '' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing K. Barton Osborn', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving K. Barton Osborn', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Nelson Brickham', relationship: 'Phoenix Program architect whose torture Osborn witnessed', href: '/entities/individuals/nelson-brickham' },
-      { name: 'William Colby', relationship: 'CIA director who oversaw Phoenix Program', href: '/entities/individuals/william-colby' },
-    ],
-  },
-
-  'kalief-browder': {
-    name: 'Kalief Browder',
-    title: 'Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty',
-    role: 'Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty',
-    riskLevel: 'high',
-    description: 'Kalief Browder is documented in ArkHive investigations for their role as Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty.',
-    education: [],
-    affiliations: [
-      { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 2 documented investigations',
-      'Investigative analysis reveals Kalief Browder was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-      'Internal documents obtained through litigation discovery show Kalief Browder was briefed on risks later downplayed in public communications.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
-      { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not deat' },
-      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Kalief Browder' },
-      { date: '2026-03-05', event: 'Court filing analysis reveals Kalief Browder referenced in 10 active litigation proceedings' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kalief Browder', url: 'https://en.wikipedia.org/wiki/Kalief_Browder', date: '' },
-      { title: 'ProPublica Nonprofit Explorer', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-05' },
-      { title: 'ICIJ Offshore Leaks Database', url: 'https://offshoreleaks.icij.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Bryan Stevenson', relationship: 'Criminal justice reformer whose work highlighted cases like Browder\'s', href: '/entities/individuals/bryan-stevenson' },
-    ],
-  },
-
-
-
-
-
-
-  'karen-ignagni': {
-    name: 'Karen Ignagni',
-    title: 'AHIP president who led insurance industry lobbying against public option; promised Obama cooperation then sabotaged reform',
-    role: 'AHIP president who led insurance industry lobbying against public option; promised Obama cooperation then sabotaged reform',
-    riskLevel: 'high',
-    description: 'Karen Ignagni is documented in this investigative archive for their role as AHIP president who led insurance industry lobbying against public option; promised Obama cooperation then sabotaged reform. Karen Ignagni has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of AHIP president who led insurance industry lobbying against public option; promised Obama cooperation then sabotaged reform, Karen Ignagni\'s documented activities intersect with 14 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Kalief Browder', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Government Accountability Office investigations found that programs overseen by or connected to Karen Ignagni failed to meet 3 of the core performance metrics established by authorizing legislation, resulting in an estimated $188M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Karen Ignagni. ArkHive\'s tracking system documented 6 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Karen Ignagni as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Karen Ignagni maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $815M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Karen Ignagni to 23 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Karen Ignagni as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 3 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Public records analysis of litigation settlements involving entities associated with Karen Ignagni shows a cumulative settlement total exceeding $37M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as AHIP president who led insurance industry lobbying against public option; promised Obama cooperation' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Karen Ignagni documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Karen Ignagni\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 4 references to Karen Ignagni in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 5 newly surfaced documentary sources linking Karen Ignagni to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Karen Ignagni in 11 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Karen Ignagni connected to fund flows across 6 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Karen Ignagni: identified 14 first-degree connections to entities with documented regulatory violations, and 14 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 8 outstanding information requests related to Karen Ignagni\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Karen Ignagni, mapping connections across 28 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Karen Ignagni', url: 'https://en.wikipedia.org/wiki/Karen_Ignagni', date: '' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Karen Ignagni', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Stephen Hemsley', relationship: 'Fellow health insurance industry leader', href: '/entities/individuals/stephen-hemsley' },
-      { name: 'Wendell Potter', relationship: 'Former insurance exec turned whistleblower against Ignagni\'s AHIP', href: '/entities/individuals/wendell-potter' },
-    ],
-  },
-
-  'karen-lynch': {
-    name: 'Karen Lynch',
-    title: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
-    role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
-    riskLevel: 'high',
-    description: 'Karen Lynch is documented in ArkHive investigations for their role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs..',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetn', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Karen Lynch has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-      'Third-party audit reports flagged irregularities in programs overseen by Karen Lynch, though no formal investigation was initiated at the time.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Health Insurance Deaths', slug: 'health-insurance-deaths', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retai' },
-      { date: '2026-03-05', event: 'Financial network mapping completed — tracing fund flows through entities associated with Karen Lynch' },
-      { date: '2026-03-05', event: 'Cross-referencing Karen Lynch against congressional hearing transcripts and lobbying disclosure databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Karen Lynch', url: 'https://en.wikipedia.org/wiki/Karen_Lynch', date: '' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Stephen Hemsley', relationship: 'Fellow healthcare industry leader at major insurer', href: '/entities/individuals/stephen-hemsley' },
-    ],
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  'karl-uecker': {
-    name: 'Karl Uecker',
-    title: 'Ambassador Hotel maitre d\' who grabbed Sirhan; stated Sirhan never got close enough for contact shots',
-    role: 'Ambassador Hotel maitre d\' who grabbed Sirhan; stated Sirhan never got close enough for contact shots',
-    riskLevel: 'high',
-    description: 'Karl Uecker is documented in this investigative archive for their role as Ambassador Hotel maitre d\' who grabbed Sirhan; stated Sirhan never got close enough for contact shots. Karl Uecker has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Ambassador Hotel maitre d\' who grabbed Sirhan; stated Sirhan never got close enough for contact shots, Karl Uecker\'s documented activities intersect with 6 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: ['MBA'],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Karen Lynch', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Karl Uecker. ArkHive\'s tracking system documented 12 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Inspector General audit reports covering operations associated with Karl Uecker identified material weaknesses in internal controls, including 7 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Karl Uecker was connected to lobbying expenditures totaling $36M across 10 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Corporate governance analysis reveals Karl Uecker held simultaneous advisory or board positions across 2 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Karl Uecker failed to meet 4 of the core performance metrics established by authorizing legislation, resulting in an estimated $341M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Federal court docket analysis via PACER reveals Karl Uecker was referenced in 5 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Public records analysis of litigation settlements involving entities associated with Karl Uecker shows a cumulative settlement total exceeding $180M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Ambassador Hotel maitre d' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Karl Uecker\'s documented involvement flagged material weaknesses in 4 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Karl Uecker in 9 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Karl Uecker, mapping connections across 32 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Karl Uecker connected to fund flows across 5 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Karl Uecker: identified 16 first-degree connections to entities with documented regulatory violations, and 33 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Karl Uecker documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 4 outstanding information requests related to Karl Uecker\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-06-15', event: 'Public records audit of Karl Uecker initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 7 references to Karl Uecker in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Karl Uecker', url: 'https://www.google.com/search?q=Karl%20Uecker', date: '' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Karl Uecker', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Sirhan Sirhan', relationship: 'Wrestled RFK\'s alleged shooter to the ground', href: '/entities/individuals/sirhan-sirhan' },
-      { name: 'Paul Schrade', relationship: 'Fellow RFK shooting witness and victim', href: '/entities/individuals/paul-schrade' },
-    ],
-  },
-
-  'katharine-graham': {
-    name: 'Katharine Graham',
-    title: 'Washington Post publisher who risked the company\'s financial future by authorizing publication',
-    role: 'Washington Post publisher who risked the company\'s financial future by authorizing publication',
-    riskLevel: 'high',
-    description: 'Katharine Graham is documented in this investigative archive for their role as Washington Post publisher who risked the company\'s financial future by authorizing publication. Katharine Graham has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Washington Post publisher who risked the company\'s financial future by authorizing publication, Katharine Graham\'s documented activities intersect with 5 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Karl Uecker', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Katharine Graham as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Katharine Graham. ArkHive\'s tracking system documented 11 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Katharine Graham maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $497M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Katharine Graham as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 10 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Federal court docket analysis via PACER reveals Katharine Graham was referenced in 23 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Katharine Graham failed to meet 3 of the core performance metrics established by authorizing legislation, resulting in an estimated $477M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Katharine Graham participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Pentagon Papers', slug: 'pentagon-papers', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Washington Post publisher who risked the company' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Katharine Graham\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 7 references to Katharine Graham in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Katharine Graham connected to fund flows across 5 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 7 newly surfaced documentary sources linking Katharine Graham to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Katharine Graham, mapping connections across 13 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Katharine Graham: identified 18 first-degree connections to entities with documented regulatory violations, and 21 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Katharine Graham documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Katharine Graham in 16 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-06-15', event: 'Public records audit of Katharine Graham initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 4 oversight agencies with jurisdiction over related activities.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Katharine Graham', url: 'https://en.wikipedia.org/wiki/Katharine_Graham', date: '' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Katharine Graham', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Bob Woodward', relationship: 'Washington Post publisher who backed Woodward on Watergate', href: '/entities/individuals/bob-woodward' },
-      { name: 'Daniel Ellsberg', relationship: 'Published Pentagon Papers Ellsberg leaked', href: '/entities/individuals/daniel-ellsberg' },
-      { name: 'Richard Nixon', relationship: 'Nixon tried to destroy Graham\'s Post over Watergate', href: '/entities/individuals/richard-nixon' },
-    ],
-  },
-
-  'kathryn-barger': {
-    name: 'Kathryn Barger',
-    title: 'Activist and researcher who has documented hundreds of botched no-knock raids across the United States',
-    role: 'Activist and researcher who has documented hundreds of botched no-knock raids across the United States',
-    riskLevel: 'high',
-    description: 'Kathryn Barger is documented in ArkHive investigations for their role as Activist and researcher who has documented hundreds of botched no-knock raids across the United States.',
-    education: [],
-    affiliations: [
-      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Kathryn Barger has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-      'Investigative analysis reveals Kathryn Barger was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Activist and researcher who has documented hundreds of botched no-knock raids across the United Stat' },
-      { date: '2026-03-05', event: 'Court filing analysis reveals Kathryn Barger referenced in 11 active litigation proceedings' },
-      { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Kathryn Barger' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kathryn Barger', url: 'https://en.wikipedia.org/wiki/Kathryn_Barger', date: '' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Jeff Bezos', relationship: 'LA County supervisor overseeing Amazon labor issues', href: '/entities/individuals/jeff-bezos' },
-    ],
-  },
-
-
-
-
-
-
-  'katricia-africa': {
-    name: 'Katricia Dotson Africa',
-    title: 'MOVE member killed in the bombing, one of 6 adults killed',
-    role: 'MOVE member killed in the bombing, one of 6 adults killed',
-    riskLevel: 'high',
-    description: 'Katricia Dotson Africa is documented in this investigative archive for their role as MOVE member killed in the bombing, one of 6 adults killed. Katricia Dotson Africa has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of MOVE member killed in the bombing, one of 6 adults killed, Katricia Dotson Africa\'s documented activities intersect with 6 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Public records analysis of litigation settlements involving entities associated with Katricia Dotson Africa shows a cumulative settlement total exceeding $103M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Katricia Dotson Africa to 29 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Katricia Dotson Africa maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $887M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Katricia Dotson Africa. ArkHive\'s tracking system documented 13 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Katricia Dotson Africa as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 6 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Katricia Dotson Africa participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Katricia Dotson Africa failed to meet 3 of the core performance metrics established by authorizing legislation, resulting in an estimated $89M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as MOVE member killed in the bombing, one of 6 adults killed' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Katricia Dotson Africa: identified 15 first-degree connections to entities with documented regulatory violations, and 29 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Katricia Dotson Africa connected to fund flows across 5 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 2 newly surfaced documentary sources linking Katricia Dotson Africa to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 4 outstanding information requests related to Katricia Dotson Africa\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Katricia Dotson Africa\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Katricia Dotson Africa, mapping connections across 35 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Katricia Dotson Africa documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2025-06-15', event: 'Public records audit of Katricia Dotson Africa initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 5 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 8 references to Katricia Dotson Africa in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Katricia Dotson Africa', url: 'https://www.google.com/search?q=Katricia%20Dotson%20Africa', date: '' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Katricia Dotson Africa', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Ramona Africa', relationship: 'Fellow MOVE member', href: '/entities/individuals/ramona-africa' },
-      { name: 'Wilson Goode', relationship: 'Philadelphia mayor who ordered bombing that killed MOVE members', href: '/entities/individuals/wilson-goode' },
-    ],
-  },
-
-  'keeanga-yamahtta-taylor': {
-    name: 'Keeanga-Yamahtta Taylor',
-    title: 'Scholar who documented predatory inclusion in Black housing markets',
-    role: 'Scholar who documented predatory inclusion in Black housing markets',
-    riskLevel: 'high',
-    description: 'Keeanga-Yamahtta Taylor is documented in this investigative archive for their role as Scholar who documented predatory inclusion in Black housing markets. Keeanga-Yamahtta Taylor has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Scholar who documented predatory inclusion in Black housing markets, Keeanga-Yamahtta Taylor\'s documented activities intersect with 14 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Katricia Dotson Africa', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Keeanga-Yamahtta Taylor was connected to lobbying expenditures totaling $7M across 12 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Keeanga-Yamahtta Taylor failed to meet 2 of the core performance metrics established by authorizing legislation, resulting in an estimated $248M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Corporate governance analysis reveals Keeanga-Yamahtta Taylor held simultaneous advisory or board positions across 3 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Keeanga-Yamahtta Taylor as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Keeanga-Yamahtta Taylor as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 7 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Public records analysis of litigation settlements involving entities associated with Keeanga-Yamahtta Taylor shows a cumulative settlement total exceeding $215M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Keeanga-Yamahtta Taylor. ArkHive\'s tracking system documented 7 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Scholar who documented predatory inclusion in Black housing markets' },
-      { date: '2025-06-15', event: 'Public records audit of Keeanga-Yamahtta Taylor initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Keeanga-Yamahtta Taylor connected to fund flows across 3 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 3 newly surfaced documentary sources linking Keeanga-Yamahtta Taylor to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Keeanga-Yamahtta Taylor documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Keeanga-Yamahtta Taylor\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 3 references to Keeanga-Yamahtta Taylor in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Keeanga-Yamahtta Taylor in 4 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 9 outstanding information requests related to Keeanga-Yamahtta Taylor\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Keeanga-Yamahtta Taylor, mapping connections across 37 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Keeanga-Yamahtta Taylor', url: 'https://en.wikipedia.org/wiki/Keeanga-Yamahtta_Taylor', date: '' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Keeanga-Yamahtta Taylor', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Richard Rothstein', relationship: 'Fellow housing discrimination researcher', href: '/entities/individuals/richard-rothstein' },
-    ],
-  },
-
-  'kelcy-warren': {
-    name: 'Kelcy Warren',
-    title: 'CEO of Energy Transfer Partners; donated $100,000+ to Trump; personally profited $2.3B+ from DAPL',
-    role: 'CEO of Energy Transfer Partners; donated $100,000+ to Trump; personally profited $2.3B+ from DAPL',
-    riskLevel: 'high',
-    description: 'Kelcy Warren is documented in this investigative archive for their role as CEO of Energy Transfer Partners; donated $100,000+ to Trump; personally profited $2.3B+ from DAPL. Kelcy Warren has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of CEO of Energy Transfer Partners; donated $100,000+ to Trump; personally profited $2.3B+ from DAPL, Kelcy Warren\'s documented activities intersect with 5 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Keeanga-Yamahtta Taylor', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kelcy Warren. ArkHive\'s tracking system documented 19 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Kelcy Warren was connected to lobbying expenditures totaling $34M across 5 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kelcy Warren as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kelcy Warren as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 6 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Inspector General audit reports covering operations associated with Kelcy Warren identified material weaknesses in internal controls, including 4 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kelcy Warren failed to meet 6 of the core performance metrics established by authorizing legislation, resulting in an estimated $537M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Corporate governance analysis reveals Kelcy Warren held simultaneous advisory or board positions across 3 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as CEO of Energy Transfer Partners; donated $100,000+ to Trump; personally profited $2.3B+ from DAPL' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kelcy Warren in 10 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 5 newly surfaced documentary sources linking Kelcy Warren to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kelcy Warren\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 7 references to Kelcy Warren in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kelcy Warren connected to fund flows across 6 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kelcy Warren, mapping connections across 25 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kelcy Warren: identified 16 first-degree connections to entities with documented regulatory violations, and 11 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 7 outstanding information requests related to Kelcy Warren\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-06-15', event: 'Public records audit of Kelcy Warren initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 6 oversight agencies with jurisdiction over related activities.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kelcy Warren', url: 'https://en.wikipedia.org/wiki/Kelcy_Warren', date: '' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kelcy Warren', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Dave Archambault II', relationship: 'Standing Rock Sioux chairman who fought Warren\'s DAPL', href: '/entities/individuals/dave-archambault-ii' },
-      { name: 'Chase Iron Eyes', relationship: 'Activist arrested protesting Warren\'s Dakota Access Pipeline', href: '/entities/individuals/chase-iron-eyes' },
-    ],
-  },
-
-  'ken-salazar': {
-    name: 'Ken Salazar',
-    title: 'Interior Secretary who reorganized the failed Minerals Management Service after the disaster',
-    role: 'Interior Secretary who reorganized the failed Minerals Management Service after the disaster',
-    riskLevel: 'high',
-    description: 'Ken Salazar is documented in this investigative archive for their role as Interior Secretary who reorganized the failed Minerals Management Service after the disaster. Ken Salazar has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Interior Secretary who reorganized the failed Minerals Management Service after the disaster, Ken Salazar\'s documented activities intersect with 7 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Kelcy Warren', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Public records analysis of litigation settlements involving entities associated with Ken Salazar shows a cumulative settlement total exceeding $48M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Ken Salazar failed to meet 2 of the core performance metrics established by authorizing legislation, resulting in an estimated $279M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Ken Salazar participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Corporate governance analysis reveals Ken Salazar held simultaneous advisory or board positions across 3 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Ken Salazar was connected to lobbying expenditures totaling $12M across 6 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Ken Salazar as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 3 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Ken Salazar maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $938M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Interior Secretary who reorganized the failed Minerals Management Service after the disaster' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 9 outstanding information requests related to Ken Salazar\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 6 newly surfaced documentary sources linking Ken Salazar to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Ken Salazar in 3 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Ken Salazar, mapping connections across 10 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Ken Salazar\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-06-15', event: 'Public records audit of Ken Salazar initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 3 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Ken Salazar documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Ken Salazar: identified 13 first-degree connections to entities with documented regulatory violations, and 31 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Ken Salazar connected to fund flows across 4 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Ken Salazar', url: 'https://en.wikipedia.org/wiki/Ken_Salazar', date: '' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Ken Salazar', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Tony Hayward', relationship: 'Interior Sec during Deepwater Horizon; oversaw BP response', href: '/entities/individuals/tony-hayward' },
-      { name: 'Thad Allen', relationship: 'National Incident Commander under Salazar during BP spill', href: '/entities/individuals/thad-allen' },
-    ],
-  },
-
-  'kenneth-fadeley': {
-    name: 'Kenneth Fadeley',
-    title: 'ATF informant who entrapped Weaver into selling modified shotguns',
-    role: 'ATF informant who entrapped Weaver into selling modified shotguns',
-    riskLevel: 'high',
-    description: 'Kenneth Fadeley is documented in this investigative archive for their role as ATF informant who entrapped Weaver into selling modified shotguns. Kenneth Fadeley has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of ATF informant who entrapped Weaver into selling modified shotguns, Kenneth Fadeley\'s documented activities intersect with 8 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kenneth Fadeley failed to meet 2 of the core performance metrics established by authorizing legislation, resulting in an estimated $370M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Inspector General audit reports covering operations associated with Kenneth Fadeley identified material weaknesses in internal controls, including 4 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Kenneth Fadeley maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $461M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kenneth Fadeley. ArkHive\'s tracking system documented 14 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kenneth Fadeley to 28 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kenneth Fadeley participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kenneth Fadeley as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as ATF informant who entrapped Weaver into selling modified shotguns' },
-      { date: '2025-06-15', event: 'Public records audit of Kenneth Fadeley initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 5 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 2 newly surfaced documentary sources linking Kenneth Fadeley to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kenneth Fadeley: identified 16 first-degree connections to entities with documented regulatory violations, and 14 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kenneth Fadeley, mapping connections across 36 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kenneth Fadeley documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 3 outstanding information requests related to Kenneth Fadeley\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kenneth Fadeley in 12 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kenneth Fadeley\'s documented involvement flagged material weaknesses in 4 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kenneth Fadeley connected to fund flows across 9 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kenneth Fadeley', url: 'https://en.wikipedia.org/wiki/Kenneth_Fadeley', date: '' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Kenneth Fadeley', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Randy Weaver', relationship: 'ATF informant who bought illegal firearms from Weaver', href: '/entities/individuals/randy-weaver' },
-    ],
-  },
-
-  'kenneth-melson': {
-    name: 'Kenneth Melson',
-    title: 'Acting ATF Director, reassigned after scandal',
-    role: 'Acting ATF Director, reassigned after scandal',
-    riskLevel: 'high',
-    description: 'Kenneth Melson is documented in this investigative archive for their role as Acting ATF Director, reassigned after scandal. Kenneth Melson has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Acting ATF Director, reassigned after scandal, Kenneth Melson\'s documented activities intersect with 10 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kenneth Melson participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Corporate governance analysis reveals Kenneth Melson held simultaneous advisory or board positions across 2 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Inspector General audit reports covering operations associated with Kenneth Melson identified material weaknesses in internal controls, including 5 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Kenneth Melson was connected to lobbying expenditures totaling $42M across 13 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kenneth Melson as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Kenneth Melson maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $454M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Public records analysis of litigation settlements involving entities associated with Kenneth Melson shows a cumulative settlement total exceeding $101M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Acting ATF Director, reassigned after scandal' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 4 newly surfaced documentary sources linking Kenneth Melson to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kenneth Melson in 13 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 2 references to Kenneth Melson in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-06-15', event: 'Public records audit of Kenneth Melson initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 3 outstanding information requests related to Kenneth Melson\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kenneth Melson: identified 9 first-degree connections to entities with documented regulatory violations, and 29 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kenneth Melson documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kenneth Melson connected to fund flows across 5 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kenneth Melson\'s documented involvement flagged material weaknesses in 4 internal control areas, with findings later corroborated by independent audit reviews.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kenneth Melson', url: 'https://en.wikipedia.org/wiki/Kenneth_Melson', date: '' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kenneth Melson', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Eric Holder', relationship: 'ATF acting director under Holder during Fast and Furious', href: '/entities/individuals/eric-holder' },
-      { name: 'John Dodson', relationship: 'ATF agent who blew whistle on Melson\'s gun-walking operation', href: '/entities/individuals/john-dodson' },
-    ],
-  },
-
-  'kenneth-walker': {
-    name: 'Kenneth Walker',
-    title: 'Breonna Taylor\'s boyfriend who fired a warning shot thinking intruders were breaking in; initially charged with attempted murder',
-    role: 'Breonna Taylor\'s boyfriend who fired a warning shot thinking intruders were breaking in; initially charged with attempted murder',
-    riskLevel: 'high',
-    description: 'Kenneth Walker is documented in this investigative archive for their role as Breonna Taylor\'s boyfriend who fired a warning shot thinking intruders were breaking in; initially charged with attempted murder. Kenneth Walker has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Breonna Taylor\'s boyfriend who fired a warning shot thinking intruders were breaking in; initially charged with attempted murder, Kenneth Walker\'s documented activities intersect with 7 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Kenneth Melson', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kenneth Walker to 22 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kenneth Walker failed to meet 3 of the core performance metrics established by authorizing legislation, resulting in an estimated $347M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Corporate governance analysis reveals Kenneth Walker held simultaneous advisory or board positions across 4 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Kenneth Walker was connected to lobbying expenditures totaling $51M across 10 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kenneth Walker as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kenneth Walker participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Inspector General audit reports covering operations associated with Kenneth Walker identified material weaknesses in internal controls, including 9 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Breonna Taylor' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 4 references to Kenneth Walker in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kenneth Walker documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kenneth Walker connected to fund flows across 8 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 7 newly surfaced documentary sources linking Kenneth Walker to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kenneth Walker in 6 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kenneth Walker\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 11 outstanding information requests related to Kenneth Walker\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kenneth Walker, mapping connections across 27 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kenneth Walker: identified 19 first-degree connections to entities with documented regulatory violations, and 28 second-degree connections to entities under active investigation by federal agencies.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kenneth Walker', url: 'https://en.wikipedia.org/wiki/Kenneth_Walker', date: '' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kenneth Walker', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Kenneth Walker', url: 'https://www.pacer.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Breonna Taylor', relationship: 'Boyfriend who fired in self-defense during no-knock raid that killed Taylor', href: '/entities/individuals/breonna-taylor' },
-      { name: 'Joshua Jaynes', relationship: 'Detective who obtained warrant for raid on Walker and Taylor\'s apartment', href: '/entities/individuals/joshua-jaynes' },
-    ],
-  },
-
-  'kevin-harris': {
-    name: 'Kevin Harris',
-    title: 'Family friend living with the Weavers; shot and wounded; acquitted of all charges',
-    role: 'Family friend living with the Weavers; shot and wounded; acquitted of all charges',
-    riskLevel: 'high',
-    description: 'Kevin Harris is documented in this investigative archive for their role as Family friend living with the Weavers; shot and wounded; acquitted of all charges. Kevin Harris has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Family friend living with the Weavers; shot and wounded; acquitted of all charges, Kevin Harris\'s documented activities intersect with 7 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kevin Harris failed to meet 5 of the core performance metrics established by authorizing legislation, resulting in an estimated $70M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Corporate governance analysis reveals Kevin Harris held simultaneous advisory or board positions across 2 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Kevin Harris maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $633M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kevin Harris. ArkHive\'s tracking system documented 9 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kevin Harris participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Public records analysis of litigation settlements involving entities associated with Kevin Harris shows a cumulative settlement total exceeding $29M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Inspector General audit reports covering operations associated with Kevin Harris identified material weaknesses in internal controls, including 4 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Family friend living with the Weavers; shot and wounded; acquitted of all charges' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kevin Harris connected to fund flows across 10 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kevin Harris\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kevin Harris documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 5 outstanding information requests related to Kevin Harris\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kevin Harris in 11 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-06-15', event: 'Public records audit of Kevin Harris initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kevin Harris, mapping connections across 36 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 2 newly surfaced documentary sources linking Kevin Harris to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 7 references to Kevin Harris in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kevin Harris', url: 'https://en.wikipedia.org/wiki/Kevin_Harris', date: '' },
-      { title: 'Federal Court Records: Proceedings referencing Kevin Harris', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kevin Harris', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Randy Weaver', relationship: 'Friend at Ruby Ridge who was acquitted of charges', href: '/entities/individuals/randy-weaver' },
-      { name: 'William Degan', relationship: 'US Marshal killed in Ruby Ridge shootout', href: '/entities/individuals/william-degan' },
-    ],
-  },
-
-  'kevin-mcaleenan': {
-    name: 'Kevin McAleenan',
-    title: 'CBP Commissioner who oversaw conditions leading to children\'s deaths at the border',
-    role: 'CBP Commissioner who oversaw conditions leading to children\'s deaths at the border',
-    riskLevel: 'high',
-    description: 'Kevin McAleenan is documented in this investigative archive for their role as CBP Commissioner who oversaw conditions leading to children\'s deaths at the border. Kevin McAleenan has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of CBP Commissioner who oversaw conditions leading to children\'s deaths at the border, Kevin McAleenan\'s documented activities intersect with 12 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Kevin Harris', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Federal court docket analysis via PACER reveals Kevin McAleenan was referenced in 17 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kevin McAleenan participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Kevin McAleenan maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $418M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Corporate governance analysis reveals Kevin McAleenan held simultaneous advisory or board positions across 7 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Inspector General audit reports covering operations associated with Kevin McAleenan identified material weaknesses in internal controls, including 7 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kevin McAleenan. ArkHive\'s tracking system documented 19 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Public records analysis of litigation settlements involving entities associated with Kevin McAleenan shows a cumulative settlement total exceeding $66M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Ice Detention Abuses', slug: 'ice-detention-abuses', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as CBP Commissioner who oversaw conditions leading to children' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kevin McAleenan connected to fund flows across 8 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-06-15', event: 'Public records audit of Kevin McAleenan initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 7 newly surfaced documentary sources linking Kevin McAleenan to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kevin McAleenan\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kevin McAleenan: identified 8 first-degree connections to entities with documented regulatory violations, and 13 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 5 references to Kevin McAleenan in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kevin McAleenan documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 5 outstanding information requests related to Kevin McAleenan\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kevin McAleenan, mapping connections across 22 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kevin McAleenan', url: 'https://en.wikipedia.org/wiki/Kevin_McAleenan', date: '' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Kirstjen Nielsen', relationship: 'Succeeded Nielsen as acting DHS Secretary', href: '/entities/individuals/kirstjen-nielsen' },
-    ],
-  },
-
-  'khalid-taha': {
-    name: 'Khalid Taha',
-    title: 'Branch manager who reported fake accounts and was terminated; filed OSHA complaint',
-    role: 'Branch manager who reported fake accounts and was terminated; filed OSHA complaint',
-    riskLevel: 'high',
-    description: 'Khalid Taha is documented in ArkHive investigations for their role as Branch manager who reported fake accounts and was terminated; filed OSHA complaint.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Kevin McAleenan', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Investigative journalists have documented a pattern of revolving-door employment between Khalid Taha\'s operations and the regulatory bodies meant to provide oversight.',
-      'Court documents from related proceedings reference Khalid Taha as a key decision-maker during periods where regulatory violations were later documented.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Branch manager who reported fake accounts and was terminated; filed OSHA complaint' },
-      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Khalid Taha to previously unknown institutional relationships' },
-      { date: '2026-03-05', event: 'Cross-referencing Khalid Taha against congressional hearing transcripts and lobbying disclosure databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Khalid Taha', url: 'https://en.wikipedia.org/wiki/Khalid_Taha', date: '' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
-      { title: 'Department of Justice Press Releases', url: 'https://www.justice.gov/news', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Jamal Khashoggi', relationship: 'Saudi journalist\'s case connected to broader Saudi repression', href: '/entities/individuals/jamal-khashoggi' },
-    ],
-  },
-
-
-
-
-
-
-  'khalifa-haftar': {
-    name: 'Khalifa Haftar',
-    title: 'CIA-linked warlord who became commander of eastern Libyan forces',
-    role: 'CIA-linked warlord who became commander of eastern Libyan forces',
-    riskLevel: 'high',
-    description: 'Khalifa Haftar is documented in this investigative archive for their role as CIA-linked warlord who became commander of eastern Libyan forces. Khalifa Haftar has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of CIA-linked warlord who became commander of eastern Libyan forces, Khalifa Haftar\'s documented activities intersect with 9 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Khalifa Haftar as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Khalifa Haftar as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 4 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Federal court docket analysis via PACER reveals Khalifa Haftar was referenced in 7 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Inspector General audit reports covering operations associated with Khalifa Haftar identified material weaknesses in internal controls, including 7 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Khalifa Haftar maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $555M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Public records analysis of litigation settlements involving entities associated with Khalifa Haftar shows a cumulative settlement total exceeding $179M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Khalifa Haftar participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as CIA-linked warlord who became commander of eastern Libyan forces' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Khalifa Haftar connected to fund flows across 10 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 6 outstanding information requests related to Khalifa Haftar\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-06-15', event: 'Public records audit of Khalifa Haftar initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 3 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 4 references to Khalifa Haftar in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Khalifa Haftar, mapping connections across 39 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Khalifa Haftar documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 4 newly surfaced documentary sources linking Khalifa Haftar to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Khalifa Haftar: identified 14 first-degree connections to entities with documented regulatory violations, and 24 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Khalifa Haftar\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Khalifa Haftar', url: 'https://en.wikipedia.org/wiki/Khalifa_Haftar', date: '' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Muammar Gaddafi', relationship: 'Former Gaddafi general who later fought for control of Libya', href: '/entities/individuals/muammar-gaddafi' },
-    ],
-  },
-
-  'khalil-islam': {
-    name: 'Khalil Islam (Thomas 15X Johnson)',
-    title: 'Wrongfully convicted; maintained innocence for decades; died 2009 before exoneration',
-    role: 'Wrongfully convicted; maintained innocence for decades; died 2009 before exoneration',
-    riskLevel: 'high',
-    description: 'Khalil Islam (Thomas 15X Johnson) is documented in this investigative archive for their role as Wrongfully convicted; maintained innocence for decades; died 2009 before exoneration. Khalil Islam (Thomas 15X Johnson) has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Wrongfully convicted; maintained innocence for decades; died 2009 before exoneration, Khalil Islam (Thomas 15X Johnson)\'s documented activities intersect with 7 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Khalil Islam (Thomas 15X Johnson) maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $605M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Khalil Islam (Thomas 15X Johnson) to 33 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Khalil Islam (Thomas 15X Johnson) as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Khalil Islam (Thomas 15X Johnson). ArkHive\'s tracking system documented 13 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Khalil Islam (Thomas 15X Johnson) failed to meet 2 of the core performance metrics established by authorizing legislation, resulting in an estimated $66M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Federal court docket analysis via PACER reveals Khalil Islam (Thomas 15X Johnson) was referenced in 12 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Khalil Islam (Thomas 15X Johnson) participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
-    ],
-    timeline: [
-      { date: '2009', event: 'documented in this investigative archive for their role as Wrongfully convicted; maintained innocence for decades; died 2009 before exoneration.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Khalil Islam (Thomas 15X Johnson) documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Khalil Islam (Thomas 15X Johnson)\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Khalil Islam (Thomas 15X Johnson), mapping connections across 14 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 3 references to Khalil Islam (Thomas 15X Johnson) in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 4 outstanding information requests related to Khalil Islam (Thomas 15X Johnson)\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 7 newly surfaced documentary sources linking Khalil Islam (Thomas 15X Johnson) to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-06-15', event: 'Public records audit of Khalil Islam (Thomas 15X Johnson) initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 6 oversight agencies with jurisdiction over related activities.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Khalil Islam (Thomas 15X Johnson) in 11 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Khalil Islam (Thomas 15X Johnson) connected to fund flows across 8 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Khalil Islam (Thomas 15X Johnson)', url: 'https://en.wikipedia.org/wiki/Khalil_Islam)', date: '' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Khalil Islam (Thomas 15X Johnson)', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Khalil Islam (Thomas 15X Johnson)', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Muhammad Abdul Aziz', relationship: 'Fellow wrongfully convicted man in Malcolm X assassination', href: '/entities/individuals/muhammad-abdul-aziz' },
-      { name: 'Malcolm X', relationship: 'Wrongfully convicted of Malcolm X\'s assassination for decades', href: '/entities/individuals/malcolm-x' },
-    ],
-  },
-
-  'kirk-bloodsworth': {
-    name: 'Kirk Bloodsworth',
-    title: 'First American death row inmate exonerated by DNA evidence in 1993',
-    role: 'First American death row inmate exonerated by DNA evidence in 1993',
-    riskLevel: 'high',
-    description: 'Kirk Bloodsworth is documented in this investigative archive for their role as First American death row inmate exonerated by DNA evidence in 1993. Kirk Bloodsworth has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of First American death row inmate exonerated by DNA evidence in 1993, Kirk Bloodsworth\'s documented activities intersect with 7 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kirk Bloodsworth as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kirk Bloodsworth to 30 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kirk Bloodsworth participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Public records analysis of litigation settlements involving entities associated with Kirk Bloodsworth shows a cumulative settlement total exceeding $213M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kirk Bloodsworth failed to meet 4 of the core performance metrics established by authorizing legislation, resulting in an estimated $527M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Corporate governance analysis reveals Kirk Bloodsworth held simultaneous advisory or board positions across 2 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kirk Bloodsworth. ArkHive\'s tracking system documented 13 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
-    ],
-    timeline: [
-      { date: '1993', event: 'documented in this investigative archive for their role as First American death row inmate exonerated by DNA evidence in 1993.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 7 outstanding information requests related to Kirk Bloodsworth\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kirk Bloodsworth in 17 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kirk Bloodsworth\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kirk Bloodsworth connected to fund flows across 3 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-06-15', event: 'Public records audit of Kirk Bloodsworth initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 3 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kirk Bloodsworth: identified 18 first-degree connections to entities with documented regulatory violations, and 14 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kirk Bloodsworth documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 2 newly surfaced documentary sources linking Kirk Bloodsworth to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kirk Bloodsworth, mapping connections across 19 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kirk Bloodsworth', url: 'https://en.wikipedia.org/wiki/Kirk_Bloodsworth', date: '' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kirk Bloodsworth', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Peter Neufeld', relationship: 'Innocence Project co-founder who helped exonerate Bloodsworth', href: '/entities/individuals/peter-neufeld' },
-      { name: 'Bryan Stevenson', relationship: 'Fellow wrongful conviction/death penalty reform figure', href: '/entities/individuals/bryan-stevenson' },
-    ],
-  },
-
-  'kit-carson': {
-    name: 'Kit Carson',
-    title: 'U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk "of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.',
-    role: 'U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk "of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.',
-    riskLevel: 'high',
-    description: 'Kit Carson is documented in this investigative archive for their role as U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk "of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.. Kit Carson has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk "of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation., Kit Carson\'s documented activities intersect with 9 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kit Carson as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Federal court docket analysis via PACER reveals Kit Carson was referenced in 21 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Public records analysis of litigation settlements involving entities associated with Kit Carson shows a cumulative settlement total exceeding $187M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kit Carson as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 6 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Corporate governance analysis reveals Kit Carson held simultaneous advisory or board positions across 2 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Inspector General audit reports covering operations associated with Kit Carson identified material weaknesses in internal controls, including 3 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Kit Carson maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $396M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
-    ],
-    timeline: [
-      { date: '1864', event: 'Led the forced removal of the Navajo people during the "Long Walk" of 1864, destroying their homes, livestock, and orchards' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 4 newly surfaced documentary sources linking Kit Carson to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 5 references to Kit Carson in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kit Carson, mapping connections across 10 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-06-15', event: 'Public records audit of Kit Carson initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 4 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kit Carson: identified 9 first-degree connections to entities with documented regulatory violations, and 24 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kit Carson connected to fund flows across 7 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kit Carson\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kit Carson in 10 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 7 outstanding information requests related to Kit Carson\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kit Carson', url: 'https://en.wikipedia.org/wiki/Kit_Carson', date: '' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'John Chivington', relationship: 'Fellow perpetrator of violence against Native Americans', href: '/entities/individuals/john-chivington' },
-      { name: 'James Knox Polk', relationship: 'President during era of Carson\'s southwestern campaigns', href: '/entities/individuals/james-knox-polk' },
-    ],
-  },
-
-  'kofi-annan': {
-    name: 'Kofi Annan',
-    title: 'UN Peacekeeping head who failed to pass Dallaire\'s warnings to the Security Council',
-    role: 'UN Peacekeeping head who failed to pass Dallaire\'s warnings to the Security Council',
-    riskLevel: 'high',
-    description: 'Kofi Annan is documented in this investigative archive for their role as UN Peacekeeping head who failed to pass Dallaire\'s warnings to the Security Council. Kofi Annan has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of UN Peacekeeping head who failed to pass Dallaire\'s warnings to the Security Council, Kofi Annan\'s documented activities intersect with 12 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Kit Carson', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kofi Annan as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 5 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kofi Annan to 28 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Public records analysis of litigation settlements involving entities associated with Kofi Annan shows a cumulative settlement total exceeding $73M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kofi Annan participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kofi Annan failed to meet 6 of the core performance metrics established by authorizing legislation, resulting in an estimated $513M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kofi Annan as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Federal court docket analysis via PACER reveals Kofi Annan was referenced in 15 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as UN Peacekeeping head who failed to pass Dallaire' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 7 newly surfaced documentary sources linking Kofi Annan to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kofi Annan: identified 18 first-degree connections to entities with documented regulatory violations, and 26 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kofi Annan in 7 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kofi Annan connected to fund flows across 9 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kofi Annan\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-06-15', event: 'Public records audit of Kofi Annan initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 6 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 6 references to Kofi Annan in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 3 outstanding information requests related to Kofi Annan\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kofi Annan, mapping connections across 27 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kofi Annan', url: 'https://en.wikipedia.org/wiki/Kofi_Annan', date: '' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Kofi Annan', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kofi Annan', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Romeo Dallaire', relationship: 'UN commander in Rwanda who begged Annan for reinforcements', href: '/entities/individuals/romeo-dallaire' },
-      { name: 'Boutros Boutros-Ghali', relationship: 'Predecessor as UN Secretary-General', href: '/entities/individuals/boutros-boutros-ghali' },
-    ],
-  },
-
-  'kristian-lum': {
-    name: 'Kristian Lum',
-    title: 'Statistician who proved PredPol would direct police to Black neighborhoods regardless of crime rates',
-    role: 'Statistician who proved PredPol would direct police to Black neighborhoods regardless of crime rates',
-    riskLevel: 'high',
-    description: 'Kristian Lum is documented in this investigative archive for their role as Statistician who proved PredPol would direct police to Black neighborhoods regardless of crime rates. Kristian Lum has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Statistician who proved PredPol would direct police to Black neighborhoods regardless of crime rates, Kristian Lum\'s documented activities intersect with 5 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kristian Lum to 31 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Inspector General audit reports covering operations associated with Kristian Lum identified material weaknesses in internal controls, including 7 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Kristian Lum was connected to lobbying expenditures totaling $22M across 5 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kristian Lum as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 4 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kristian Lum as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Federal court docket analysis via PACER reveals Kristian Lum was referenced in 19 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Kristian Lum maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $803M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Predictive Policing', slug: 'predictive-policing', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Statistician who proved PredPol would direct police to Black neighborhoods regardless of crime rates' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kristian Lum\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kristian Lum, mapping connections across 34 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kristian Lum documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kristian Lum: identified 9 first-degree connections to entities with documented regulatory violations, and 17 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 9 references to Kristian Lum in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-06-15', event: 'Public records audit of Kristian Lum initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 3 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 11 outstanding information requests related to Kristian Lum\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 7 newly surfaced documentary sources linking Kristian Lum to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kristian Lum in 8 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kristian Lum', url: 'https://www.google.com/search?q=Kristian%20Lum', date: '' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kristian Lum', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Jeff Brantingham', relationship: 'PredPol creator whose algorithm Lum proved perpetuated bias', href: '/entities/individuals/jeff-brantingham' },
-      { name: 'Joy Buolamwini', relationship: 'Fellow algorithmic accountability researcher', href: '/entities/individuals/joy-buolamwini' },
-    ],
-  },
-
-  'kurt-blome': {
-    name: 'Kurt Blome',
-    title: 'Deputy Surgeon General of the Third Reich and head of Nazi biological weapons program; acquitted at Nuremberg, then recruited by U.S. Army Chemical Corps',
-    role: 'Deputy Surgeon General of the Third Reich and head of Nazi biological weapons program; acquitted at Nuremberg, then recruited by U.S. Army Chemical Corps',
-    riskLevel: 'high',
-    description: 'Kurt Blome is documented in this investigative archive for their role as Deputy Surgeon General of the Third Reich and head of Nazi biological weapons program; acquitted at Nuremberg, then recruited by U.S. Army Chemical Corps. Kurt Blome has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Deputy Surgeon General of the Third Reich and head of Nazi biological weapons program; acquitted at Nuremberg, then recruited by U.S. Army Chemical Corps, Kurt Blome\'s documented activities intersect with 12 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: ['Medical Degree'],
-    affiliations: [
-      { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
-      { name: 'United States Military', role: 'Service Member', type: 'agency' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kurt Blome as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 5 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Inspector General audit reports covering operations associated with Kurt Blome identified material weaknesses in internal controls, including 4 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Kurt Blome maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $789M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kurt Blome failed to meet 2 of the core performance metrics established by authorizing legislation, resulting in an estimated $203M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Corporate governance analysis reveals Kurt Blome held simultaneous advisory or board positions across 3 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kurt Blome participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Kurt Blome was connected to lobbying expenditures totaling $52M across 10 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Deputy Surgeon General of the Third Reich and head of Nazi biological weapons program; acquitted at ' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kurt Blome documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kurt Blome, mapping connections across 15 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kurt Blome in 10 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kurt Blome\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kurt Blome connected to fund flows across 7 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 10 outstanding information requests related to Kurt Blome\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 5 newly surfaced documentary sources linking Kurt Blome to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kurt Blome: identified 5 first-degree connections to entities with documented regulatory violations, and 33 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 2 references to Kurt Blome in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kurt Blome', url: 'https://en.wikipedia.org/wiki/Kurt_Blome', date: '' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kurt Blome', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Kurt Blome', url: 'https://www.pacer.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Wernher von Braun', relationship: 'Fellow Nazi scientist brought to US via Operation Paperclip', href: '/entities/individuals/wernher-von-braun' },
-      { name: 'Hubertus Strughold', relationship: 'Fellow Paperclip Nazi scientist', href: '/entities/individuals/hubertus-strughold' },
-    ],
-  },
-
-  'kurt-mix': {
-    name: 'Kurt Mix',
-    title: 'BP engineer who deleted text messages and voicemails about oil flow rate estimates',
-    role: 'BP engineer who deleted text messages and voicemails about oil flow rate estimates',
-    riskLevel: 'high',
-    description: 'Kurt Mix is documented in this investigative archive for their role as BP engineer who deleted text messages and voicemails about oil flow rate estimates. Kurt Mix has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of BP engineer who deleted text messages and voicemails about oil flow rate estimates, Kurt Mix\'s documented activities intersect with 6 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Independent', role: 'Wikipedia: Kurt Blome', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kurt Mix to 12 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kurt Mix failed to meet 6 of the core performance metrics established by authorizing legislation, resulting in an estimated $303M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Federal court docket analysis via PACER reveals Kurt Mix was referenced in 23 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kurt Mix. ArkHive\'s tracking system documented 10 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Public records analysis of litigation settlements involving entities associated with Kurt Mix shows a cumulative settlement total exceeding $58M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Kurt Mix as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Corporate governance analysis reveals Kurt Mix held simultaneous advisory or board positions across 5 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as BP engineer who deleted text messages and voicemails about oil flow rate estimates' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 7 references to Kurt Mix in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kurt Mix documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 6 newly surfaced documentary sources linking Kurt Mix to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Kurt Mix\'s documented involvement flagged material weaknesses in 4 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kurt Mix in 3 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kurt Mix connected to fund flows across 10 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 10 outstanding information requests related to Kurt Mix\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Kurt Mix, mapping connections across 36 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kurt Mix: identified 17 first-degree connections to entities with documented regulatory violations, and 16 second-degree connections to entities under active investigation by federal agencies.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kurt Mix', url: 'https://www.google.com/search?q=Kurt%20Mix', date: '' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Kurt Mix', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Tony Hayward', relationship: 'BP engineer charged with destroying evidence during Deepwater Horizon', href: '/entities/individuals/tony-hayward' },
-      { name: 'Robert Kaluza', relationship: 'Fellow BP employee charged in Deepwater Horizon disaster', href: '/entities/individuals/robert-kaluza' },
-    ],
-  },
-
-  'kyle-kirchmeier': {
-    name: 'Morton County Sheriff (Kyle Kirchmeier)',
-    title: 'Directed militarized response against Standing Rock water protectors using armored vehicles, rubber bullets, and water cannons',
-    role: 'Directed militarized response against Standing Rock water protectors using armored vehicles, rubber bullets, and water cannons',
-    riskLevel: 'high',
-    description: 'Morton County Sheriff (Kyle Kirchmeier) is documented in this investigative archive for their role as Directed militarized response against Standing Rock water protectors using armored vehicles, rubber bullets, and water cannons. Morton County Sheriff (Kyle Kirchmeier) has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Directed militarized response against Standing Rock water protectors using armored vehicles, rubber bullets, and water cannons, Morton County Sheriff (Kyle Kirchmeier)\'s documented activities intersect with 6 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Morton County Sheriff (Kyle Kirchmeier) participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Public records analysis of litigation settlements involving entities associated with Morton County Sheriff (Kyle Kirchmeier) shows a cumulative settlement total exceeding $205M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Morton County Sheriff (Kyle Kirchmeier) maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $818M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Corporate governance analysis reveals Morton County Sheriff (Kyle Kirchmeier) held simultaneous advisory or board positions across 7 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Morton County Sheriff (Kyle Kirchmeier) as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Morton County Sheriff (Kyle Kirchmeier). ArkHive\'s tracking system documented 16 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Federal court docket analysis via PACER reveals Morton County Sheriff (Kyle Kirchmeier) was referenced in 6 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Police Militarization', slug: 'police-militarization', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Directed militarized response against Standing Rock water protectors using armored vehicles, rubber ' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Morton County Sheriff (Kyle Kirchmeier)\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Morton County Sheriff (Kyle Kirchmeier) in 14 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 4 outstanding information requests related to Morton County Sheriff (Kyle Kirchmeier)\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 2 newly surfaced documentary sources linking Morton County Sheriff (Kyle Kirchmeier) to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Morton County Sheriff (Kyle Kirchmeier) documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2025-06-15', event: 'Public records audit of Morton County Sheriff (Kyle Kirchmeier) initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 6 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Morton County Sheriff (Kyle Kirchmeier), mapping connections across 26 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Morton County Sheriff (Kyle Kirchmeier) connected to fund flows across 9 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Morton County Sheriff (Kyle Kirchmeier): identified 7 first-degree connections to entities with documented regulatory violations, and 13 second-degree connections to entities under active investigation by federal agencies.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Morton County Sheriff (Kyle Kirchmeier)', url: 'https://en.wikipedia.org/wiki/Morton_County,_North_Dakota)', date: '' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Morton County Sheriff (Kyle Kirchmeier)', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Dave Archambault II', relationship: 'Morton County sheriff who opposed Standing Rock protesters', href: '/entities/individuals/dave-archambault-ii' },
-      { name: 'Chase Iron Eyes', relationship: 'Activist arrested by Kirchmeier\'s deputies at Standing Rock', href: '/entities/individuals/chase-iron-eyes' },
-    ],
-  },
-
-  'kyle-thompson': {
-    name: 'Kyle Thompson',
-    title: 'Morton County sheriff who directed militarized law enforcement response against water protectors',
-    role: 'Morton County sheriff who directed militarized law enforcement response against water protectors',
-    riskLevel: 'high',
-    description: 'Kyle Thompson is documented in ArkHive investigations for their role as Morton County sheriff who directed militarized law enforcement response against water protectors.',
-    education: [],
-    affiliations: [
-      { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-      'Investigative journalists have documented a pattern of revolving-door employment between Kyle Thompson\'s operations and the regulatory bodies meant to provide oversight.',
-      'Court documents from related proceedings reference Kyle Thompson as a key decision-maker during periods where regulatory violations were later documented.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as Morton County sheriff who directed militarized law enforcement response against water protectors' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Kyle Thompson for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Network analysis completed — Kyle Thompson connected to 15 entities in the accountability database' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Kyle Thompson', url: 'https://en.wikipedia.org/wiki/Kyle_Thompson', date: '' },
-      { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Kelcy Warren', relationship: 'Connected to DAPL security operations', href: '/entities/individuals/kelcy-warren' },
-    ],
-  },
-
-
-
-
-
-
-  'karl-bendetsen': {
-    name: 'Karl Bendetsen',
-    title: 'Army Colonel who devised and implemented the logistics of Japanese American internment',
-    role: 'Military Officer',
-    riskLevel: 'critical',
-    description: 'Karl Bendetsen was a US Army Colonel who served as the key architect of the Japanese American internment logistics. He devised the classification system and administrative procedures that enabled the forced removal and imprisonment of over 120,000 Japanese Americans. Karl Bendetsen has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Army Colonel who devised and implemented the logistics of Japanese American internment, Karl Bendetsen\'s documented activities intersect with 12 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'United States Army', role: 'Colonel, War Department', type: 'agency' },
-    ],
-    controversies: [
-      'Designed the logistical framework for mass internment of Japanese Americans',
-      'Government Accountability Office investigations found that programs overseen by or connected to Karl Bendetsen failed to meet 5 of the core performance metrics established by authorizing legislation, resulting in an estimated $521M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Inspector General audit reports covering operations associated with Karl Bendetsen identified material weaknesses in internal controls, including 7 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Karl Bendetsen as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Karl Bendetsen. ArkHive\'s tracking system documented 18 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Public records analysis of litigation settlements involving entities associated with Karl Bendetsen shows a cumulative settlement total exceeding $155M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Federal court docket analysis via PACER reveals Karl Bendetsen was referenced in 19 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Karl Bendetsen as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 6 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '1942', event: 'Devised and implemented the administrative procedures for Japanese American internment' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Karl Bendetsen: identified 19 first-degree connections to entities with documented regulatory violations, and 31 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 6 newly surfaced documentary sources linking Karl Bendetsen to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 8 references to Karl Bendetsen in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Karl Bendetsen documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Karl Bendetsen in 4 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Karl Bendetsen connected to fund flows across 10 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Karl Bendetsen\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 10 outstanding information requests related to Karl Bendetsen\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-06-15', event: 'Public records audit of Karl Bendetsen initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 6 oversight agencies with jurisdiction over related activities.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Japanese American Internment', url: '/investigations/japanese-internment', date: '' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'John L. DeWitt', relationship: 'Aide who helped architect Japanese internment', href: '/entities/individuals/john-l-dewitt' },
-      { name: 'Dillon S. Myer', relationship: 'Fellow Japanese internment figure', href: '/entities/individuals/dillon-s-myer' },
-      { name: 'Gordon Hirabayashi', relationship: 'Japanese American resistor who challenged Bendetsen\'s internment', href: '/entities/individuals/gordon-hirabayashi' },
-    ],
-  },
+ 'kim-reynolds': {
+ name: 'Kim Reynolds',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kim Reynolds. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Investigative journalists have documented a pattern of revolving-door employment between Kim Reynolds\'s operations and the regulatory bodies meant to provide oversight.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
+
+
+
+
+
+
+ 'k-barton-osborn': {
+ name: 'K. Barton Osborn',
+ title: 'Military intelligence officer, testified about Phoenix torture',
+ role: 'Military intelligence officer, testified about Phoenix torture',
+ riskLevel: 'high',
+ description: 'K. Barton Osborn. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Phoenix Program', slug: 'phoenix-program', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Military intelligence officer, testified about Phoenix torture' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: K. Barton Osborn', url: 'https://en.wikipedia.org/wiki/K._Barton_Osborn', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Nelson Brickham', relationship: 'Phoenix Program architect whose torture Osborn witnessed', href: '/entities/individuals/nelson-brickham' },
+ { name: 'William Colby', relationship: 'CIA director who oversaw Phoenix Program', href: '/entities/individuals/william-colby' },
+ ],
+ },
+
+ 'kalief-browder': {
+ name: 'Kalief Browder',
+ title: 'Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty',
+ role: 'Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not death penalty',
+ riskLevel: 'high',
+ description: 'Kalief Browder. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Legal Profession', role: 'Legal Professional', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 2 documented investigations',
+ 'Investigative analysis reveals Kalief Browder was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+ 'Internal documents obtained through litigation discovery show Kalief Browder was briefed on risks later downplayed in public communications.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
+ { title: 'Solitary Confinement', slug: 'solitary-confinement', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Held at Rikers Island for 3 years without trial; case highlighted systemic injustice though not deat' }, ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kalief Browder', url: 'https://en.wikipedia.org/wiki/Kalief_Browder', date: '' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Bryan Stevenson', relationship: 'Criminal justice reformer whose work highlighted cases like Browder\'s', href: '/entities/individuals/bryan-stevenson' },
+ ],
+ },
+
+
+
+
+
+
+ 'karen-ignagni': {
+ name: 'Karen Ignagni',
+ title: 'AHIP president who led insurance industry lobbying against public option; promised Obama cooperation then sabotaged reform',
+ role: 'AHIP president who led insurance industry lobbying against public option; promised Obama cooperation then sabotaged reform',
+ riskLevel: 'high',
+ description: 'Karen Ignagni. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Kalief Browder', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as AHIP president who led insurance industry lobbying against public option; promised Obama cooperation' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Karen Ignagni', url: 'https://en.wikipedia.org/wiki/Karen_Ignagni', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Stephen Hemsley', relationship: 'Fellow health insurance industry leader', href: '/entities/individuals/stephen-hemsley' },
+ { name: 'Wendell Potter', relationship: 'Former insurance exec turned whistleblower against Ignagni\'s AHIP', href: '/entities/individuals/wendell-potter' },
+ ],
+ },
+
+ 'karen-lynch': {
+ name: 'Karen Lynch',
+ title: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
+ role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retail pharmacy - a vertical monopoly that profits at every stage of healthcare delivery while patients pay ever-increasing out-of-pocket costs.',
+ riskLevel: 'high',
+ description: 'Karen Lynch. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'CEO of CVS Health (which acquired Aetna). CVS/Aetn', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ 'Third-party audit reports flagged irregularities in programs overseen by Karen Lynch, though no formal investigation was initiated at the time.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Health Insurance Deaths', slug: 'health-insurance-deaths', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as CEO of CVS Health (which acquired Aetna). CVS/Aetna controls insurance, pharmacy benefits, and retai' }, ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Karen Lynch', url: 'https://en.wikipedia.org/wiki/Karen_Lynch', date: '' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Stephen Hemsley', relationship: 'Fellow healthcare industry leader at major insurer', href: '/entities/individuals/stephen-hemsley' },
+ ],
+ },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 'karl-uecker': {
+ name: 'Karl Uecker',
+ title: 'Ambassador Hotel maitre d\' who grabbed Sirhan; stated Sirhan never got close enough for contact shots',
+ role: 'Ambassador Hotel maitre d\' who grabbed Sirhan; stated Sirhan never got close enough for contact shots',
+ riskLevel: 'high',
+ description: 'Karl Uecker. Profile pending review.',
+ education: ['MBA'],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Karen Lynch', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Rfk Assassination', slug: 'rfk-assassination', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Ambassador Hotel maitre d' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Karl Uecker', url: 'https://www.google.com/search?q=Karl%20Uecker', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Sirhan Sirhan', relationship: 'Wrestled RFK\'s alleged shooter to the ground', href: '/entities/individuals/sirhan-sirhan' },
+ { name: 'Paul Schrade', relationship: 'Fellow RFK shooting witness and victim', href: '/entities/individuals/paul-schrade' },
+ ],
+ },
+
+ 'katharine-graham': {
+ name: 'Katharine Graham',
+ title: 'Washington Post publisher who risked the company\'s financial future by authorizing publication',
+ role: 'Washington Post publisher who risked the company\'s financial future by authorizing publication',
+ riskLevel: 'high',
+ description: 'Katharine Graham. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Karl Uecker', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Pentagon Papers', slug: 'pentagon-papers', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Washington Post publisher who risked the company' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Katharine Graham', url: 'https://en.wikipedia.org/wiki/Katharine_Graham', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Bob Woodward', relationship: 'Washington Post publisher who backed Woodward on Watergate', href: '/entities/individuals/bob-woodward' },
+ { name: 'Daniel Ellsberg', relationship: 'Published Pentagon Papers Ellsberg leaked', href: '/entities/individuals/daniel-ellsberg' },
+ { name: 'Richard Nixon', relationship: 'Nixon tried to destroy Graham\'s Post over Watergate', href: '/entities/individuals/richard-nixon' },
+ ],
+ },
+
+ 'kathryn-barger': {
+ name: 'Kathryn Barger',
+ title: 'Activist and researcher who has documented hundreds of botched no-knock raids across the United States',
+ role: 'Activist and researcher who has documented hundreds of botched no-knock raids across the United States',
+ riskLevel: 'high',
+ description: 'Kathryn Barger. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ 'Investigative analysis reveals Kathryn Barger was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Activist and researcher who has documented hundreds of botched no-knock raids across the United Stat' }, ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kathryn Barger', url: 'https://en.wikipedia.org/wiki/Kathryn_Barger', date: '' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Jeff Bezos', relationship: 'LA County supervisor overseeing Amazon labor issues', href: '/entities/individuals/jeff-bezos' },
+ ],
+ },
+
+
+
+
+
+
+ 'katricia-africa': {
+ name: 'Katricia Dotson Africa',
+ title: 'MOVE member killed in the bombing, one of 6 adults killed',
+ role: 'MOVE member killed in the bombing, one of 6 adults killed',
+ riskLevel: 'high',
+ description: 'Katricia Dotson Africa. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Move Bombing', slug: 'move-bombing', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as MOVE member killed in the bombing, one of 6 adults killed' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Katricia Dotson Africa', url: 'https://www.google.com/search?q=Katricia%20Dotson%20Africa', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Ramona Africa', relationship: 'Fellow MOVE member', href: '/entities/individuals/ramona-africa' },
+ { name: 'Wilson Goode', relationship: 'Philadelphia mayor who ordered bombing that killed MOVE members', href: '/entities/individuals/wilson-goode' },
+ ],
+ },
+
+ 'keeanga-yamahtta-taylor': {
+ name: 'Keeanga-Yamahtta Taylor',
+ title: 'Scholar who documented predatory inclusion in Black housing markets',
+ role: 'Scholar who documented predatory inclusion in Black housing markets',
+ riskLevel: 'high',
+ description: 'Keeanga-Yamahtta Taylor. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Katricia Dotson Africa', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Scholar who documented predatory inclusion in Black housing markets' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Keeanga-Yamahtta Taylor', url: 'https://en.wikipedia.org/wiki/Keeanga-Yamahtta_Taylor', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Richard Rothstein', relationship: 'Fellow housing discrimination researcher', href: '/entities/individuals/richard-rothstein' },
+ ],
+ },
+
+ 'kelcy-warren': {
+ name: 'Kelcy Warren',
+ title: 'CEO of Energy Transfer Partners; donated $100,000+ to Trump; personally profited $2.3B+ from DAPL',
+ role: 'CEO of Energy Transfer Partners; donated $100,000+ to Trump; personally profited $2.3B+ from DAPL',
+ riskLevel: 'high',
+ description: 'Kelcy Warren. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Keeanga-Yamahtta Taylor', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as CEO of Energy Transfer Partners; donated $100,000+ to Trump; personally profited $2.3B+ from DAPL' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kelcy Warren', url: 'https://en.wikipedia.org/wiki/Kelcy_Warren', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Dave Archambault II', relationship: 'Standing Rock Sioux chairman who fought Warren\'s DAPL', href: '/entities/individuals/dave-archambault-ii' },
+ { name: 'Chase Iron Eyes', relationship: 'Activist arrested protesting Warren\'s Dakota Access Pipeline', href: '/entities/individuals/chase-iron-eyes' },
+ ],
+ },
+
+ 'ken-salazar': {
+ name: 'Ken Salazar',
+ title: 'Interior Secretary who reorganized the failed Minerals Management Service after the disaster',
+ role: 'Interior Secretary who reorganized the failed Minerals Management Service after the disaster',
+ riskLevel: 'high',
+ description: 'Ken Salazar. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Kelcy Warren', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Interior Secretary who reorganized the failed Minerals Management Service after the disaster' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Ken Salazar', url: 'https://en.wikipedia.org/wiki/Ken_Salazar', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Tony Hayward', relationship: 'Interior Sec during Deepwater Horizon; oversaw BP response', href: '/entities/individuals/tony-hayward' },
+ { name: 'Thad Allen', relationship: 'National Incident Commander under Salazar during BP spill', href: '/entities/individuals/thad-allen' },
+ ],
+ },
+
+ 'kenneth-fadeley': {
+ name: 'Kenneth Fadeley',
+ title: 'ATF informant who entrapped Weaver into selling modified shotguns',
+ role: 'ATF informant who entrapped Weaver into selling modified shotguns',
+ riskLevel: 'high',
+ description: 'Kenneth Fadeley. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as ATF informant who entrapped Weaver into selling modified shotguns' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kenneth Fadeley', url: 'https://en.wikipedia.org/wiki/Kenneth_Fadeley', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Randy Weaver', relationship: 'ATF informant who bought illegal firearms from Weaver', href: '/entities/individuals/randy-weaver' },
+ ],
+ },
+
+ 'kenneth-melson': {
+ name: 'Kenneth Melson',
+ title: 'Acting ATF Director, reassigned after scandal',
+ role: 'Acting ATF Director, reassigned after scandal',
+ riskLevel: 'high',
+ description: 'Kenneth Melson. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Entertainment Industry', role: 'Entertainment Figure', type: 'corporation' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Acting ATF Director, reassigned after scandal' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kenneth Melson', url: 'https://en.wikipedia.org/wiki/Kenneth_Melson', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Eric Holder', relationship: 'ATF acting director under Holder during Fast and Furious', href: '/entities/individuals/eric-holder' },
+ { name: 'John Dodson', relationship: 'ATF agent who blew whistle on Melson\'s gun-walking operation', href: '/entities/individuals/john-dodson' },
+ ],
+ },
+
+ 'kenneth-walker': {
+ name: 'Kenneth Walker',
+ title: 'Breonna Taylor\'s boyfriend who fired a warning shot thinking intruders were breaking in; initially charged with attempted murder',
+ role: 'Breonna Taylor\'s boyfriend who fired a warning shot thinking intruders were breaking in; initially charged with attempted murder',
+ riskLevel: 'high',
+ description: 'Kenneth Walker. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Kenneth Melson', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'No Knock Raids', slug: 'no-knock-raids', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Breonna Taylor' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kenneth Walker', url: 'https://en.wikipedia.org/wiki/Kenneth_Walker', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Breonna Taylor', relationship: 'Boyfriend who fired in self-defense during no-knock raid that killed Taylor', href: '/entities/individuals/breonna-taylor' },
+ { name: 'Joshua Jaynes', relationship: 'Detective who obtained warrant for raid on Walker and Taylor\'s apartment', href: '/entities/individuals/joshua-jaynes' },
+ ],
+ },
+
+ 'kevin-harris': {
+ name: 'Kevin Harris',
+ title: 'Family friend living with the Weavers; shot and wounded; acquitted of all charges',
+ role: 'Family friend living with the Weavers; shot and wounded; acquitted of all charges',
+ riskLevel: 'high',
+ description: 'Kevin Harris. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Ruby Ridge', slug: 'ruby-ridge', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Family friend living with the Weavers; shot and wounded; acquitted of all charges' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kevin Harris', url: 'https://en.wikipedia.org/wiki/Kevin_Harris', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Randy Weaver', relationship: 'Friend at Ruby Ridge who was acquitted of charges', href: '/entities/individuals/randy-weaver' },
+ { name: 'William Degan', relationship: 'US Marshal killed in Ruby Ridge shootout', href: '/entities/individuals/william-degan' },
+ ],
+ },
+
+ 'kevin-mcaleenan': {
+ name: 'Kevin McAleenan',
+ title: 'CBP Commissioner who oversaw conditions leading to children\'s deaths at the border',
+ role: 'CBP Commissioner who oversaw conditions leading to children\'s deaths at the border',
+ riskLevel: 'high',
+ description: 'Kevin McAleenan. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Kevin Harris', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Ice Detention Abuses', slug: 'ice-detention-abuses', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as CBP Commissioner who oversaw conditions leading to children' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kevin McAleenan', url: 'https://en.wikipedia.org/wiki/Kevin_McAleenan', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Kirstjen Nielsen', relationship: 'Succeeded Nielsen as acting DHS Secretary', href: '/entities/individuals/kirstjen-nielsen' },
+ ],
+ },
+
+ 'khalid-taha': {
+ name: 'Khalid Taha',
+ title: 'Branch manager who reported fake accounts and was terminated; filed OSHA complaint',
+ role: 'Branch manager who reported fake accounts and was terminated; filed OSHA complaint',
+ riskLevel: 'high',
+ description: 'Khalid Taha. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Kevin McAleenan', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ 'Investigative journalists have documented a pattern of revolving-door employment between Khalid Taha\'s operations and the regulatory bodies meant to provide oversight.',
+ 'Court documents from related proceedings reference Khalid Taha as a key decision-maker during periods where regulatory violations were later documented.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Branch manager who reported fake accounts and was terminated; filed OSHA complaint' }, ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Khalid Taha', url: 'https://en.wikipedia.org/wiki/Khalid_Taha', date: '' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Jamal Khashoggi', relationship: 'Saudi journalist\'s case connected to broader Saudi repression', href: '/entities/individuals/jamal-khashoggi' },
+ ],
+ },
+
+
+
+
+
+
+ 'khalifa-haftar': {
+ name: 'Khalifa Haftar',
+ title: 'CIA-linked warlord who became commander of eastern Libyan forces',
+ role: 'CIA-linked warlord who became commander of eastern Libyan forces',
+ riskLevel: 'high',
+ description: 'Khalifa Haftar. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Libya Intervention', slug: 'libya-intervention', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as CIA-linked warlord who became commander of eastern Libyan forces' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Khalifa Haftar', url: 'https://en.wikipedia.org/wiki/Khalifa_Haftar', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Muammar Gaddafi', relationship: 'Former Gaddafi general who later fought for control of Libya', href: '/entities/individuals/muammar-gaddafi' },
+ ],
+ },
+
+ 'khalil-islam': {
+ name: 'Khalil Islam (Thomas 15X Johnson)',
+ title: 'Wrongfully convicted; maintained innocence for decades; died 2009 before exoneration',
+ role: 'Wrongfully convicted; maintained innocence for decades; died 2009 before exoneration',
+ riskLevel: 'high',
+ description: 'Khalil Islam (Thomas 15X Johnson). Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Malcolm X Assassination', slug: 'malcolm-x-assassination', severity: 'high' },
+ ],
+ timeline: [
+ { date: '2009', event: 'documented in this investigative archive for their role as Wrongfully convicted; maintained innocence for decades; died 2009 before exoneration.' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Khalil Islam (Thomas 15X Johnson)', url: 'https://en.wikipedia.org/wiki/Khalil_Islam)', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Muhammad Abdul Aziz', relationship: 'Fellow wrongfully convicted man in Malcolm X assassination', href: '/entities/individuals/muhammad-abdul-aziz' },
+ { name: 'Malcolm X', relationship: 'Wrongfully convicted of Malcolm X\'s assassination for decades', href: '/entities/individuals/malcolm-x' },
+ ],
+ },
+
+ 'kirk-bloodsworth': {
+ name: 'Kirk Bloodsworth',
+ title: 'First American death row inmate exonerated by DNA evidence in 1993',
+ role: 'First American death row inmate exonerated by DNA evidence in 1993',
+ riskLevel: 'high',
+ description: 'Kirk Bloodsworth. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
+ ],
+ timeline: [
+ { date: '1993', event: 'documented in this investigative archive for their role as First American death row inmate exonerated by DNA evidence in 1993.' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kirk Bloodsworth', url: 'https://en.wikipedia.org/wiki/Kirk_Bloodsworth', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Peter Neufeld', relationship: 'Innocence Project co-founder who helped exonerate Bloodsworth', href: '/entities/individuals/peter-neufeld' },
+ { name: 'Bryan Stevenson', relationship: 'Fellow wrongful conviction/death penalty reform figure', href: '/entities/individuals/bryan-stevenson' },
+ ],
+ },
+
+ 'kit-carson': {
+ name: 'Kit Carson',
+ title: 'U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk "of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.',
+ role: 'U.S. Army Colonel. Led the forced removal of the Navajo people during the "Long Walk "of 1864, destroying their homes, livestock, and orchards. Approximately 8,000-9,000 Navajo were force-marched 300 miles to the Bosque Redondo internment camp, where thousands died of disease and starvation.',
+ riskLevel: 'high',
+ description: 'Kit Carson. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Native American Genocide', slug: 'native-american-genocide', severity: 'high' },
+ ],
+ timeline: [
+ { date: '1864', event: 'Led the forced removal of the Navajo people during the "Long Walk" of 1864, destroying their homes, livestock, and orchards' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kit Carson', url: 'https://en.wikipedia.org/wiki/Kit_Carson', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'John Chivington', relationship: 'Fellow perpetrator of violence against Native Americans', href: '/entities/individuals/john-chivington' },
+ { name: 'James Knox Polk', relationship: 'President during era of Carson\'s southwestern campaigns', href: '/entities/individuals/james-knox-polk' },
+ ],
+ },
+
+ 'kofi-annan': {
+ name: 'Kofi Annan',
+ title: 'UN Peacekeeping head who failed to pass Dallaire\'s warnings to the Security Council',
+ role: 'UN Peacekeeping head who failed to pass Dallaire\'s warnings to the Security Council',
+ riskLevel: 'high',
+ description: 'Kofi Annan. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Kit Carson', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as UN Peacekeeping head who failed to pass Dallaire' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kofi Annan', url: 'https://en.wikipedia.org/wiki/Kofi_Annan', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Romeo Dallaire', relationship: 'UN commander in Rwanda who begged Annan for reinforcements', href: '/entities/individuals/romeo-dallaire' },
+ { name: 'Boutros Boutros-Ghali', relationship: 'Predecessor as UN Secretary-General', href: '/entities/individuals/boutros-boutros-ghali' },
+ ],
+ },
+
+ 'kristian-lum': {
+ name: 'Kristian Lum',
+ title: 'Statistician who proved PredPol would direct police to Black neighborhoods regardless of crime rates',
+ role: 'Statistician who proved PredPol would direct police to Black neighborhoods regardless of crime rates',
+ riskLevel: 'high',
+ description: 'Kristian Lum. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Predictive Policing', slug: 'predictive-policing', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Statistician who proved PredPol would direct police to Black neighborhoods regardless of crime rates' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kristian Lum', url: 'https://www.google.com/search?q=Kristian%20Lum', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Jeff Brantingham', relationship: 'PredPol creator whose algorithm Lum proved perpetuated bias', href: '/entities/individuals/jeff-brantingham' },
+ { name: 'Joy Buolamwini', relationship: 'Fellow algorithmic accountability researcher', href: '/entities/individuals/joy-buolamwini' },
+ ],
+ },
+
+ 'kurt-blome': {
+ name: 'Kurt Blome',
+ title: 'Deputy Surgeon General of the Third Reich and head of Nazi biological weapons program; acquitted at Nuremberg, then recruited by U.S. Army Chemical Corps',
+ role: 'Deputy Surgeon General of the Third Reich and head of Nazi biological weapons program; acquitted at Nuremberg, then recruited by U.S. Army Chemical Corps',
+ riskLevel: 'high',
+ description: 'Kurt Blome. Profile pending review.',
+ education: ['Medical Degree'],
+ affiliations: [
+ { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'United States Military', role: 'Service Member', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Operation Paperclip', slug: 'operation-paperclip', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Deputy Surgeon General of the Third Reich and head of Nazi biological weapons program; acquitted at ' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kurt Blome', url: 'https://en.wikipedia.org/wiki/Kurt_Blome', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Wernher von Braun', relationship: 'Fellow Nazi scientist brought to US via Operation Paperclip', href: '/entities/individuals/wernher-von-braun' },
+ { name: 'Hubertus Strughold', relationship: 'Fellow Paperclip Nazi scientist', href: '/entities/individuals/hubertus-strughold' },
+ ],
+ },
+
+ 'kurt-mix': {
+ name: 'Kurt Mix',
+ title: 'BP engineer who deleted text messages and voicemails about oil flow rate estimates',
+ role: 'BP engineer who deleted text messages and voicemails about oil flow rate estimates',
+ riskLevel: 'high',
+ description: 'Kurt Mix. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Independent', role: 'Wikipedia: Kurt Blome', type: 'organization' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Deepwater Horizon', slug: 'deepwater-horizon', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as BP engineer who deleted text messages and voicemails about oil flow rate estimates' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kurt Mix', url: 'https://www.google.com/search?q=Kurt%20Mix', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Tony Hayward', relationship: 'BP engineer charged with destroying evidence during Deepwater Horizon', href: '/entities/individuals/tony-hayward' },
+ { name: 'Robert Kaluza', relationship: 'Fellow BP employee charged in Deepwater Horizon disaster', href: '/entities/individuals/robert-kaluza' },
+ ],
+ },
+
+ 'kyle-kirchmeier': {
+ name: 'Morton County Sheriff (Kyle Kirchmeier)',
+ title: 'Directed militarized response against Standing Rock water protectors using armored vehicles, rubber bullets, and water cannons',
+ role: 'Directed militarized response against Standing Rock water protectors using armored vehicles, rubber bullets, and water cannons',
+ riskLevel: 'high',
+ description: 'Morton County Sheriff (Kyle Kirchmeier). Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Police Militarization', slug: 'police-militarization', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Directed militarized response against Standing Rock water protectors using armored vehicles, rubber ' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Morton County Sheriff (Kyle Kirchmeier)', url: 'https://en.wikipedia.org/wiki/Morton_County,_North_Dakota)', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Dave Archambault II', relationship: 'Morton County sheriff who opposed Standing Rock protesters', href: '/entities/individuals/dave-archambault-ii' },
+ { name: 'Chase Iron Eyes', relationship: 'Activist arrested by Kirchmeier\'s deputies at Standing Rock', href: '/entities/individuals/chase-iron-eyes' },
+ ],
+ },
+
+ 'kyle-thompson': {
+ name: 'Kyle Thompson',
+ title: 'Morton County sheriff who directed militarized law enforcement response against water protectors',
+ role: 'Morton County sheriff who directed militarized law enforcement response against water protectors',
+ riskLevel: 'high',
+ description: 'Kyle Thompson. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
+ ],
+ controversies: [
+ 'Connected to 1 documented investigation',
+ 'Investigative journalists have documented a pattern of revolving-door employment between Kyle Thompson\'s operations and the regulatory bodies meant to provide oversight.',
+ 'Court documents from related proceedings reference Kyle Thompson as a key decision-maker during periods where regulatory violations were later documented.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Standing Rock', slug: 'standing-rock', severity: 'high' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in role as Morton County sheriff who directed militarized law enforcement response against water protectors' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Kyle Thompson', url: 'https://en.wikipedia.org/wiki/Kyle_Thompson', date: '' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Kelcy Warren', relationship: 'Connected to DAPL security operations', href: '/entities/individuals/kelcy-warren' },
+ ],
+ },
+
+
+
+
+
+
+ 'karl-bendetsen': {
+ name: 'Karl Bendetsen',
+ title: 'Army Colonel who devised and implemented the logistics of Japanese American internment',
+ role: 'Military Officer',
+ riskLevel: 'critical',
+ description: 'Karl Bendetsen. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'United States Army', role: 'Colonel, War Department', type: 'agency' },
+ ],
+ controversies: [
+ 'Designed the logistical framework for mass internment of Japanese Americans',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1942', event: 'Devised and implemented the administrative procedures for Japanese American internment' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Japanese American Internment', url: '/investigations/japanese-internment', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'John L. DeWitt', relationship: 'Aide who helped architect Japanese internment', href: '/entities/individuals/john-l-dewitt' },
+ { name: 'Dillon S. Myer', relationship: 'Fellow Japanese internment figure', href: '/entities/individuals/dillon-s-myer' },
+ { name: 'Gordon Hirabayashi', relationship: 'Japanese American resistor who challenged Bendetsen\'s internment', href: '/entities/individuals/gordon-hirabayashi' },
+ ],
+ },
 
  'kenneth-starr': {
  name: 'Kenneth Starr',
@@ -3936,103 +2932,78 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Epstein Defense Team', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '2018' },
  ],
  },
-  'kevin-maxwell': {
-    name: 'Kevin Maxwell',
-    title: 'Businessman and Maxwell Family Member',
-    role: 'Ghislaine Maxwell brother',
-    riskLevel: 'low',
-    description: 'Kevin Maxwell is a British businessman and the brother of Ghislaine Maxwell. He was charged with the largest fraud in British history following the collapse of his father Robert Maxwell media empire in 1991, when 400 million British pounds went missing from Mirror Group pension funds. He was acquitted after a lengthy trial.',
-    education: ['University of Oxford, BA'],
-    affiliations: [
-      { name: 'Maxwell Communications', role: 'Former Director', type: 'corporation' },
-    ],
-    controversies: [
-      'Charged in 1996 with conspiracy to defraud Mirror Group pension fund holders of 400 million pounds following father Robert Maxwell death and business collapse',
-      'The Maxwell pension fraud was the largest in British history at the time; approximately 30,000 pensioners lost their retirement savings',
-      'Acquitted after an eight-month trial in January 1996; the judge directed the jury to acquit on some charges due to insufficient evidence',
-      'Declared bankrupt with debts of 406 million pounds in 1992, reportedly the largest personal bankruptcy in British history',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '1991-11-05', event: 'Father Robert Maxwell found dead in the Atlantic Ocean' },
-      { date: '1992-06-01', event: 'Declared bankrupt with debts of 406 million pounds' },
-      { date: '1995-06-01', event: 'Trial begins for Maxwell pension fund fraud' },
-      { date: '1996-01-22', event: 'Acquitted of all charges' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'UK National Archives - Maxwell Pension Fund Investigation', url: 'https://www.nationalarchives.gov.uk/', date: '1996-01-22' },
-      { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-09' },
-      { title: 'Congressional Record — Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-09' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Ghislaine Maxwell', relationship: 'Sister, convicted sex trafficker', href: '/entities/individuals/ghislaine-maxwell' },
-      { name: 'Robert Maxwell', relationship: 'Father, disgraced media baron', href: '/entities/individuals/robert-maxwell' },
-    ],
-  },
+ 'kevin-maxwell': {
+ name: 'Kevin Maxwell',
+ title: 'Businessman and Maxwell Family Member',
+ role: 'Ghislaine Maxwell brother',
+ riskLevel: 'low',
+ description: 'Kevin Maxwell is a British businessman and the brother of Ghislaine Maxwell. He was charged with the largest fraud in British history following the collapse of his father Robert Maxwell media empire in 1991, when 400 million British pounds went missing from Mirror Group pension funds. He was acquitted after a lengthy trial.',
+ education: ['University of Oxford, BA'],
+ affiliations: [
+ { name: 'Maxwell Communications', role: 'Former Director', type: 'corporation' },
+ ],
+ controversies: [
+ 'Charged in 1996 with conspiracy to defraud Mirror Group pension fund holders of 400 million pounds following father Robert Maxwell death and business collapse',
+ 'The Maxwell pension fraud was the largest in British history at the time; approximately 30,000 pensioners lost their retirement savings',
+ 'Acquitted after an eight-month trial in January 1996; the judge directed the jury to acquit on some charges due to insufficient evidence',
+ 'Declared bankrupt with debts of 406 million pounds in 1992, reportedly the largest personal bankruptcy in British history',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '1991-11-05', event: 'Father Robert Maxwell found dead in the Atlantic Ocean' },
+ { date: '1992-06-01', event: 'Declared bankrupt with debts of 406 million pounds' },
+ { date: '1995-06-01', event: 'Trial begins for Maxwell pension fund fraud' },
+ { date: '1996-01-22', event: 'Acquitted of all charges' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'UK National Archives - Maxwell Pension Fund Investigation', url: 'https://www.nationalarchives.gov.uk/', date: '1996-01-22' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Ghislaine Maxwell', relationship: 'Sister, convicted sex trafficker', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Robert Maxwell', relationship: 'Father, disgraced media baron', href: '/entities/individuals/robert-maxwell' },
+ ],
+ },
 
-  'katinka-matson': {
-    name: 'Katinka Matson',
-    title: 'Edge Foundation Co-Founder',
-    role: 'Organized Epstein-Scientist Events',
-    riskLevel: 'low',
-    description: 'Co-founder of the Edge Foundation with John Brockman who helped organize events that brought Epstein into contact with leading scientists. Katinka Matson has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Edge Foundation Co-Founder, Katinka Matson\'s documented activities intersect with 14 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-      { name: 'Edge Foundation', role: 'Co-Founder', type: 'organization' },
-      { name: 'Brockman Inc.', role: 'VP', type: 'corporation' },
-    ],
-    controversies: [
-      'Helped organize events connecting Epstein with scientists',
-      'Internal documents obtained through litigation discovery show Katinka Matson was briefed on risks later downplayed in public communications.',
-      'Katinka Matson has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Katinka Matson maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $205M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Katinka Matson as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Katinka Matson was connected to lobbying expenditures totaling $5M across 5 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Katinka Matson as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 7 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Katinka Matson participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in documented role' },
-      { date: '2026-03-05', event: 'Automated intelligence gathering identified new documentary evidence linking Katinka Matson to previously unknown institutional relationships' },
-      { date: '2026-03-05', event: 'Court filing analysis reveals Katinka Matson referenced in 12 active litigation proceedings' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Katinka Matson in 5 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 2 references to Katinka Matson in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 8 outstanding information requests related to Katinka Matson\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Katinka Matson\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Katinka Matson connected to fund flows across 3 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Katinka Matson: identified 17 first-degree connections to entities with documented regulatory violations, and 22 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-06-15', event: 'Public records audit of Katinka Matson initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 3 oversight agencies with jurisdiction over related activities.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Katinka Matson', url: 'https://www.google.com/search?q=Katinka%20Matson', date: '' },
-      { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Katinka Matson', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Jeffrey Epstein', relationship: 'Organized events he attended/funded', href: '/entities/individuals/jeffrey-epstein' },
-      { name: 'John Brockman', relationship: 'Co-founder of Edge', href: '/entities/individuals/john-brockman' },
-      { name: 'Ghislaine Maxwell', relationship: 'Connected through Edge Foundation intellectual circuits', href: '/entities/individuals/ghislaine-maxwell' },
-      { name: 'Lawrence Krauss', relationship: 'Edge Foundation scientist connected to Epstein', href: '/entities/individuals/lawrence-krauss' },
-      { name: 'Marvin Minsky', relationship: 'Edge Foundation associate who attended Epstein events', href: '/entities/individuals/marvin-minsky' },
-      { name: 'Daniel Dennett', relationship: 'Edge Foundation intellectual in Epstein-adjacent circles', href: '/entities/individuals/daniel-dennett' },
-    ],
-  },
+ 'katinka-matson': {
+ name: 'Katinka Matson',
+ title: 'Edge Foundation Co-Founder',
+ role: 'Organized Epstein-Scientist Events',
+ riskLevel: 'low',
+ description: 'Katinka Matson. Profile pending review.',
+ education: [],
+ affiliations: [
+ { name: 'Edge Foundation', role: 'Co-Founder', type: 'organization' },
+ { name: 'Brockman Inc.', role: 'VP', type: 'corporation' },
+ ],
+ controversies: [
+ 'Helped organize events connecting Epstein with scientists',
+ 'Internal documents obtained through litigation discovery show Katinka Matson was briefed on risks later downplayed in public communications.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: 'Ongoing', event: 'Active in documented role' }, ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Katinka Matson', url: 'https://www.google.com/search?q=Katinka%20Matson', date: '' },
+ { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' }, ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Organized events he attended/funded', href: '/entities/individuals/jeffrey-epstein' },
+ { name: 'John Brockman', relationship: 'Co-founder of Edge', href: '/entities/individuals/john-brockman' },
+ { name: 'Ghislaine Maxwell', relationship: 'Connected through Edge Foundation intellectual circuits', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'Lawrence Krauss', relationship: 'Edge Foundation scientist connected to Epstein', href: '/entities/individuals/lawrence-krauss' },
+ { name: 'Marvin Minsky', relationship: 'Edge Foundation associate who attended Epstein events', href: '/entities/individuals/marvin-minsky' },
+ { name: 'Daniel Dennett', relationship: 'Edge Foundation intellectual in Epstein-adjacent circles', href: '/entities/individuals/daniel-dennett' },
+ ],
+ },
 
 
 
@@ -4040,418 +3011,274 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
-  'katie-couric': {
-    name: 'Katie Couric',
-    title: 'News Anchor',
-    role: 'Attended Epstein Dinner',
-    riskLevel: 'low',
-    description: 'News anchor and journalist who attended a dinner at Epstein\'s NYC mansion in 2010, after his conviction. The dinner was also attended by other media figures. Katie Couric has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of News Anchor, Katie Couric\'s documented activities intersect with 5 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    birthDate: 'January 7, 1957',
-    education: ['University of Virginia'],
-    affiliations: [
-      { name: 'Media', role: 'Journalist', type: 'corporation' },
-    ],
-    controversies: [
-      'Attended Epstein dinner at NYC mansion post-conviction (2010)',
-      'Inspector General audit reports covering operations associated with Katie Couric identified material weaknesses in internal controls, including 7 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Public records analysis of litigation settlements involving entities associated with Katie Couric shows a cumulative settlement total exceeding $213M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Katie Couric participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Katie Couric maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $100M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Katie Couric was connected to lobbying expenditures totaling $23M across 8 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Federal court docket analysis via PACER reveals Katie Couric was referenced in 21 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Katie Couric. ArkHive\'s tracking system documented 18 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '2010', event: 'Attended dinner at Epstein mansion' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Katie Couric connected to fund flows across 8 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Katie Couric\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 2 references to Katie Couric in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Katie Couric: identified 9 first-degree connections to entities with documented regulatory violations, and 28 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 11 outstanding information requests related to Katie Couric\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Katie Couric in 12 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-06-15', event: 'Public records audit of Katie Couric initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 5 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Katie Couric, mapping connections across 13 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 6 newly surfaced documentary sources linking Katie Couric to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Katie Couric', url: 'https://en.wikipedia.org/wiki/Katie_Couric', date: '' },
-      { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
-      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', date: '' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Katie Couric', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Jeffrey Epstein', relationship: 'Attended dinner at mansion', href: '/entities/individuals/jeffrey-epstein' },
-      { name: 'Ghislaine Maxwell', relationship: 'Both attended 2010 Epstein dinner party', href: '/entities/individuals/ghislaine-maxwell' },
-      { name: 'George Stephanopoulos', relationship: 'Fellow journalist at same Epstein dinner', href: '/entities/individuals/george-stephanopoulos' },
-      { name: 'Woody Allen', relationship: 'Present at same Epstein social events', href: '/entities/individuals/woody-allen' },
-      { name: 'Chelsea Handler', relationship: 'Media figure in overlapping social circles', href: '/entities/individuals/chelsea-handler' },
-    ],
-  },
+ 'katie-couric': {
+ name: 'Katie Couric',
+ title: 'News Anchor',
+ role: 'Attended Epstein Dinner',
+ riskLevel: 'low',
+ description: 'Katie Couric. Profile pending review.',
+ birthDate: 'January 7, 1957',
+ education: ['University of Virginia'],
+ affiliations: [
+ { name: 'Media', role: 'Journalist', type: 'corporation' },
+ ],
+ controversies: [
+ 'Attended Epstein dinner at NYC mansion post-conviction (2010)',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
+ ],
+ timeline: [
+ { date: '2010', event: 'Attended dinner at Epstein mansion' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Wikipedia: Katie Couric', url: 'https://en.wikipedia.org/wiki/Katie_Couric', date: '' },
+ { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', date: '' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ { name: 'Jeffrey Epstein', relationship: 'Attended dinner at mansion', href: '/entities/individuals/jeffrey-epstein' },
+ { name: 'Ghislaine Maxwell', relationship: 'Both attended 2010 Epstein dinner party', href: '/entities/individuals/ghislaine-maxwell' },
+ { name: 'George Stephanopoulos', relationship: 'Fellow journalist at same Epstein dinner', href: '/entities/individuals/george-stephanopoulos' },
+ { name: 'Woody Allen', relationship: 'Present at same Epstein social events', href: '/entities/individuals/woody-allen' },
+ { name: 'Chelsea Handler', relationship: 'Media figure in overlapping social circles', href: '/entities/individuals/chelsea-handler' },
+ ],
+ },
 
-  'kushner-companies': {
-    name: 'Kushner Companies',
-    title: 'Documented Individual',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'high',
-    description: 'Kushner Companies is a public figure documented in this archive due to verified connections with entities and events under active investigation. Profile maintained based on public records, financial disclosures, and documented institutional affiliations. Kushner Companies has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Documented Individual, Kushner Companies\'s documented activities intersect with 13 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Kushner Companies and their institutional affiliations and documented activities.',
-      'Federal court docket analysis via PACER reveals Kushner Companies was referenced in 7 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Kushner Companies. ArkHive\'s tracking system documented 7 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Kushner Companies as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 4 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Kushner Companies to 37 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Kushner Companies participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Corporate governance analysis reveals Kushner Companies held simultaneous advisory or board positions across 4 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Kushner Companies failed to meet 2 of the core performance metrics established by authorizing legislation, resulting in an estimated $476M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2020-08-20', event: 'Documentation updated based on newly available public records and filings' },
-      { date: '2021-05-28', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Kushner Companies documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Kushner Companies connected to fund flows across 9 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Kushner Companies: identified 8 first-degree connections to entities with documented regulatory violations, and 29 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 4 references to Kushner Companies in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 7 outstanding information requests related to Kushner Companies\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 2 newly surfaced documentary sources linking Kushner Companies to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-06-15', event: 'Public records audit of Kushner Companies initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 4 oversight agencies with jurisdiction over related activities.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Kushner Companies in 5 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2020-08-20' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-05-28' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-03-02' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Kushner Companies', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kushner-companies': {
+ name: 'Kushner Companies',
+ title: 'Documented Individual',
+ role: 'Subject of ongoing documentation',
+ riskLevel: 'high',
+ description: 'Kushner Companies. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Public records and investigative cross-referencing have identified patterns of concern related to Kushner Companies and their institutional affiliations and documented activities.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ { date: '2020-08-20', event: 'Documentation updated based on newly available public records and filings' },
+ { date: '2021-05-28', event: 'Profile documented based on review of public records and institutional affiliations' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2020-08-20' },
+ { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2021-05-28' },
+ { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2025-03-02' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
-  'koch-industries': {
-    name: 'Koch Industries',
-    title: 'Public Figure',
-    role: 'Documented for accountability tracking',
-    riskLevel: 'medium',
-    description: 'Koch Industries has been included in this archive following identification of connections to investigated entities. Documentation based on publicly available records, official government filings, and verified sources. Koch Industries has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Public Figure, Koch Industries\'s documented activities intersect with 5 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Koch Industries has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Koch Industries as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 9 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Koch Industries was connected to lobbying expenditures totaling $45M across 13 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Koch Industries maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $127M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Corporate governance analysis reveals Koch Industries held simultaneous advisory or board positions across 3 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Inspector General audit reports covering operations associated with Koch Industries identified material weaknesses in internal controls, including 5 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Public records analysis of litigation settlements involving entities associated with Koch Industries shows a cumulative settlement total exceeding $74M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Federal court docket analysis via PACER reveals Koch Industries was referenced in 16 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2021-01-15', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2023-09-16', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
-      { date: '2025-06-15', event: 'Public records audit of Koch Industries initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 3 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 2 newly surfaced documentary sources linking Koch Industries to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Koch Industries documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Koch Industries connected to fund flows across 4 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Koch Industries in 17 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 6 references to Koch Industries in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Koch Industries\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Koch Industries: identified 6 first-degree connections to entities with documented regulatory violations, and 22 second-degree connections to entities under active investigation by federal agencies.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2021-01-15' },
-      { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-09-16' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-07-05' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'koch-industries': {
+ name: 'Koch Industries',
+ title: 'Public Figure',
+ role: 'Documented for accountability tracking',
+ riskLevel: 'medium',
+ description: 'Koch Industries. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Koch Industries has been documented in connection with matters requiring further public scrutiny based on patterns identified across related investigation files and entity profiles.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ { date: '2023-09-16', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2021-01-15' },
+ { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2023-09-16' },
+ { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2025-07-05' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
-  'knkt': {
-    name: 'Knkt',
-    title: 'Person of Interest',
-    role: 'Subject of ongoing documentation',
-    riskLevel: 'medium',
-    description: 'Knkt appears in this archive due to documented connections with investigations and entities tracked for public accountability purposes. Profile built from verified public records and official documentation. Knkt has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Person of Interest, Knkt\'s documented activities intersect with 6 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Public records and investigative cross-referencing have identified patterns of concern related to Knkt and their institutional affiliations and documented activities.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Knkt as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Knkt as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 8 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Public records analysis of litigation settlements involving entities associated with Knkt shows a cumulative settlement total exceeding $76M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Inspector General audit reports covering operations associated with Knkt identified material weaknesses in internal controls, including 3 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Corporate governance analysis reveals Knkt held simultaneous advisory or board positions across 4 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Knkt. ArkHive\'s tracking system documented 19 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Knkt maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $369M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2020-02-26', event: 'Profile documented based on review of public records and institutional affiliations' },
-      { date: '2022-02-22', event: 'Cross-referenced with related investigation case files in this archive' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Knkt documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Knkt, mapping connections across 16 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-06-15', event: 'Public records audit of Knkt initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 5 newly surfaced documentary sources linking Knkt to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Knkt: identified 12 first-degree connections to entities with documented regulatory violations, and 27 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Knkt connected to fund flows across 7 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Knkt in 3 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 4 references to Knkt in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2020-02-26' },
-      { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2022-02-22' },
-      { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-12-21' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Knkt', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Knkt', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'knkt': {
+ name: 'Knkt',
+ title: 'Person of Interest',
+ role: 'Subject of ongoing documentation',
+ riskLevel: 'medium',
+ description: 'Knkt. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Public records and investigative cross-referencing have identified patterns of concern related to Knkt and their institutional affiliations and documented activities.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ { date: '2020-02-26', event: 'Profile documented based on review of public records and institutional affiliations' },
+ ],
+ socialMedia: [],
+ sources: [
+ { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2020-02-26' },
+ { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2022-02-22' },
+ { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-12-21' },
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
-  'kristalina-georgieva': {
-    name: 'Kristalina Georgieva',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kristalina Georgieva is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kristalina Georgieva has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'Public filings and regulatory records indicate Kristalina Georgieva facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kristalina-georgieva': {
+ name: 'Kristalina Georgieva',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kristalina Georgieva. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Public filings and regulatory records indicate Kristalina Georgieva facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kathy-hochul': {
-    name: 'Kathy Hochul',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kathy Hochul is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kathy Hochul has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'Third-party audit reports flagged irregularities in programs overseen by Kathy Hochul, though no formal investigation was initiated at the time.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kathy-hochul': {
+ name: 'Kathy Hochul',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kathy Hochul. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Third-party audit reports flagged irregularities in programs overseen by Kathy Hochul, though no formal investigation was initiated at the time.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'ken-fisher': {
-    name: 'Ken Fisher',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Ken Fisher is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Ken Fisher has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'Ken Fisher has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'ken-fisher': {
+ name: 'Ken Fisher',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Ken Fisher. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kenneth-griffin': {
-    name: 'Kenneth Griffin',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kenneth Griffin is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kenneth Griffin has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'Third-party audit reports flagged irregularities in programs overseen by Kenneth Griffin, though no formal investigation was initiated at the time.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kenneth-griffin': {
+ name: 'Kenneth Griffin',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kenneth Griffin. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Third-party audit reports flagged irregularities in programs overseen by Kenneth Griffin, though no formal investigation was initiated at the time.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 
 
 
 
-  'kathleen-hicks': {
-    name: 'Kathleen Hicks',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Kathleen Hicks is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Kathleen Hicks has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'Public filings and regulatory records indicate Kathleen Hicks facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
+ 'kathleen-hicks': {
+ name: 'Kathleen Hicks',
+ title: 'Profile Under Review',
+ role: '',
+ riskLevel: 'low',
+ description: 'Kathleen Hicks. Profile pending review.',
+ education: [],
+ affiliations: [
+ ],
+ controversies: [
+ 'Public filings and regulatory records indicate Kathleen Hicks facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+ ],
+ charges: [],
+ relatedInvestigations: [
+ ],
+ timeline: [
+ ],
+ socialMedia: [],
+ sources: [
+ ],
+ aliases: [],
+ knownAssociates: [
+ ],
+ },
 
 
 

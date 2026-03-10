@@ -280,8 +280,8 @@ const investigations_d: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Republican National Committee', type: 'organization', relationship: 'Drives backsliding', href: '/entities/organizations/rnc' },
  ],
- 
-   {
+ },
+  'daniel-shaver-police-killing': {
  title: 'Daniel Shaver Police Killing',
  subtitle: 'Unarmed man executed by police in hotel hallway while crawling and begging for his life',
  severity: 'critical',
@@ -372,8 +372,8 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Largest dark money network operators', href: '/entities/corporations/koch-industries' },
  { id: '3', name: 'Leonard Leo', type: 'individual', relationship: '$1.6B dark money empire', href: '/entities/individuals/leonard-leo' },
  ],
- 
-   {
+ },
+  'domestic-terrorism-in-america': {
  title: 'Domestic Terrorism in America',
  subtitle: 'Far-right, white supremacist, and anti-government extremist violence that kills more Americans than jihadist terrorism',
  severity: 'critical',

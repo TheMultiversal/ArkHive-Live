@@ -749,8 +749,8 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm-driven political polarization on social media', href: '/entities/corporations/meta-platforms' },
       { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Political gridlock and partisan dysfunction', href: '/entities/agencies/congress' },
     ],
- 
-   {
+ },
+  'police-accountability-crisis': {
  title: 'Police Accountability Crisis',
  subtitle: 'Systemic failures in holding law enforcement accountable for misconduct, brutality, and killings',
  severity: 'critical',

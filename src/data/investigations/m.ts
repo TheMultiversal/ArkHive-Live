@@ -250,8 +250,8 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Coordinated messaging with political figures', href: '/entities/corporations/fox-news' },
  ],
- 
-   {
+ },
+  'mass-shootings-in-america': {
  title: 'Mass Shootings in America',
  subtitle: 'Epidemic of gun violence killing thousands while Congress refuses to act on gun reform',
  severity: 'critical',
@@ -325,8 +325,8 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Dominion defamation, $787M settlement', href: '/entities/corporations/fox-news' },
  ],
- 
-   {
+ },
+  'media-industry-abuse': {
  title: 'Media Industry Abuse',
  subtitle: 'Systemic sexual harassment, toxic workplaces, and exploitation of power across news and entertainment media',
  severity: 'critical',
@@ -452,8 +452,8 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Medical ethics oversight', href: '/entities/agencies/fda' },
  ],
- 
-   {
+ },
+  'michael-brown-shooting': {
  title: 'Michael Brown Shooting',
  subtitle: 'Ferguson police killing of unarmed Black teenager sparked national protests and exposed systemic racism in policing',
  severity: 'critical',

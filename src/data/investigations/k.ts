@@ -157,8 +157,8 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Received clearance over intelligence objections', href: '/entities/individuals/jared-kushner' },
  { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Ordered clearance for son-in-law', href: '/entities/individuals/donald-trump' },
  ],
- 
-   {
+ },
+  'kenosha-shootings': {
  title: 'Kenosha Shootings',
  subtitle: 'Kyle Rittenhouse killed two and wounded one at a Black Lives Matter protest, acquitted of all charges',
  severity: 'critical',

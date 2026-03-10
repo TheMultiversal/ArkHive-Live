@@ -610,8 +610,8 @@ const investigations_e: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Abdel Fattah el-Sisi', type: 'individual', relationship: 'Military dictator', href: '/entities/individuals/abdel-fattah-el-sisi' },
  ],
- 
-   {
+ },
+  'el-paso-walmart-massacre': {
  title: 'El Paso Walmart Massacre',
  subtitle: 'White supremacist drove 10 hours to murder 23 Latinos in racially motivated mass shooting',
  severity: 'critical',

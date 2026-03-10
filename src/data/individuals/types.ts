@@ -63,6 +63,59 @@ export interface ConspiracyEntry {
   relatedConspiracies?: string[];
 }
 
+/**
+ * Legal actions such as lawsuits, indictments, settlements.
+ */
+export interface LegalActionEntry {
+  caseNumber?: string;
+  court?: string;
+  jurisdiction?: string;
+  description: string;
+  date?: string;
+  status?: 'pending' | 'resolved' | 'ongoing';
+  outcome?: string;
+  amount?: string; // fine or settlement
+}
+
+/**
+ * Asset seizures or freezes connected to the individual.
+ */
+export interface AssetFreeze {
+  description: string;
+  date?: string;
+  jurisdiction?: string;
+  amount?: string;
+  status?: 'active' | 'lifted';
+}
+
+/**
+ * Whistleblower testimony or affidavit details.
+ */
+export interface WhistleblowerTestimony {
+  summary: string;
+  date?: string;
+  source?: string; // e.g. "internal memo", "affidavit"
+  protectedIdentity?: boolean;
+}
+
+/**
+ * Node in an association network graph.
+ */
+export interface NetworkNode {
+  id: string;
+  label: string;
+  type?: string;
+}
+
+/**
+ * Edge/connection in a network graph.
+ */
+export interface NetworkEdge {
+  from: string;
+  to: string;
+  relationship?: string;
+}
+
 export interface IndividualProfile {
   name: string;
   title: string;
@@ -103,4 +156,14 @@ export interface IndividualProfile {
   structuredControversies?: ControversyEntry[];
   /** Conspiracy entries with evidence chains and plausibility ratings */
   conspiracies?: ConspiracyEntry[];
+  /** Legal actions: lawsuits, indictments, settlements */
+  legalActions?: LegalActionEntry[];
+  /** Asset seizures or freezes */
+  assetFreezes?: AssetFreeze[];
+  /** Whistleblower testimonies */
+  whistleblowerTestimonies?: WhistleblowerTestimony[];
+  /** Network graph nodes for relationship mapping */
+  networkNodes?: NetworkNode[];
+  /** Network graph edges */
+  networkEdges?: NetworkEdge[];
 }

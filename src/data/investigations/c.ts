@@ -1732,8 +1732,8 @@ const investigations_c: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Extracted water from drought-stricken communities', href: '/entities/corporations/nestle' },
  ],
- 
-   {
+ },
+  'bill-cosby-sexual-assault': {
  title: 'Bill Cosby Sexual Assault',
  subtitle: 'Decades of drugging and sexual assault enabled by fame, power, and institutional silence',
  severity: 'critical',
@@ -1784,8 +1784,8 @@ const investigations_c: Record<string, InvestigationData> = {
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Subject of investigation', href: '/entities/agencies/cia' },
  { id: '2', name: 'Allen Dulles', type: 'individual', relationship: 'Founding CIA Director', href: '/entities/individuals/allen-dulles' },
  ],
- 
-   {
+ },
+  'covid-19-disinformation-campaign': {
  title: 'COVID-19 Disinformation Campaign',
  subtitle: 'Systematic spread of false information about COVID-19 origins, treatments, and vaccines costing hundreds of thousands of lives',
  severity: 'critical',
