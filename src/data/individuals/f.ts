@@ -239,14 +239,15 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database; Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database — Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org; Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org — Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
     ],
   },
+
 
 
 
@@ -643,6 +644,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'franklin-d-roosevelt': {
     name: 'Franklin D. Roosevelt',
     title: '32nd President of the United States',
@@ -880,6 +882,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'felice-casson': {
     name: 'Felice Casson',
     title: 'Italian judge who uncovered Gladio through Peteano bombing investigation',
@@ -907,7 +910,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Felice Casson', url: 'https://en.wikipedia.org/wiki/Felice_Casson', date: '' },
-      { title: 'Federal Register; Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
       { title: 'SEC EDGAR Filing Analysis', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-05' },
     ],
     aliases: [],
@@ -916,6 +919,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Giulio Andreotti', relationship: 'Italian PM whose Gladio connections Casson exposed', href: '/entities/individuals/giulio-andreotti' },
     ],
   },
+
 
 
 
@@ -951,8 +955,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Felix Wormser', url: 'https://en.wikipedia.org/wiki/Felix_Wormser', date: '' },
-      { title: 'Federal Register; Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
-      { title: 'Federal Court Records; PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Register — Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -960,6 +964,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Robert Kehoe', relationship: 'Lead industry scientist', href: '/entities/individuals/robert-kehoe' },
     ],
   },
+
 
 
 
@@ -1029,6 +1034,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Albert Woodfox', relationship: 'Fellow solitary confinement survivor and prison reform advocate', href: '/entities/individuals/albert-woodfox' },
     ],
   },
+
 
 
 
@@ -1145,6 +1151,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Noam Chomsky', relationship: 'Intellectual ally in opposing secret Laos bombing', href: '/entities/individuals/noam-chomsky' },
     ],
   },
+
 
 
 
@@ -1527,6 +1534,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+
   'french-officials': {
     name: 'French Officials',
     title: 'French Government',
@@ -1549,13 +1557,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in documented role' },
       { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged French Officials for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Network analysis completed; French Officials connected to 12 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Network analysis completed — French Officials connected to 12 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: French Officials', url: 'https://en.wikipedia.org/wiki/Government_of_France', date: '' },
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', date: '' },
-      { title: 'Federal Court Records; PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records — PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1564,6 +1572,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Virginia Giuffre', relationship: 'Filed complaint with French prosecutors', href: '/entities/individuals/virginia-giuffre' },
     ],
   },
+
 
 
 
@@ -1607,6 +1616,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Bill Clinton', relationship: 'Appointed him to two cabinet positions', href: '/entities/individuals/bill-clinton' },
     ],
   },
+
 
 
 
