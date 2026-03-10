@@ -99,7 +99,7 @@ const stats = {
  agencies: 143,
  corporations: 210,
  organizations: 156,
- connections: 3054,
+ connections: 3051,
  documentsArchived: 1051,
  activeAlerts: 77,
 };
