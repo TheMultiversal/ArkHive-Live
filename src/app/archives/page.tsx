@@ -1,269 +1,135 @@
 'use client';
 
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
 import {
- Archive,
+ Bookmark,
+ BookmarkCheck,
  Target,
  Users,
- FileText,
  Search,
- MoreVertical,
  Trash2,
- RotateCcw,
- Eye,
+ ExternalLink,
  Clock,
- Calendar,
- Filter,
- Download,
  AlertTriangle,
+ UserPlus,
 } from 'lucide-react';
-import { format, formatDistanceToNow } from 'date-fns';
-import Link from 'next/link';
+import { formatDistanceToNow } from 'date-fns';
+import { useContributorStore } from '@/store/contributorStore';
+import type { BookmarkedPage } from '@/store/contributorStore';
 import { GlitchText } from '@/components/effects/GlitchText';
 
-// ============================================================
-// Types
-// ============================================================
-
-interface ArchivedItem {
- id: string;
- type: 'investigation' | 'entity' | 'document' | 'workspace';
- title: string;
- description: string;
- reason: string;
- archivedAt: Date;
- archivedBy: string;
- originalDate: Date;
- retentionDays: number;
- size?: string;
-}
-
-// ============================================================
-// Mock Data
-// ============================================================
-
-const mockArchivedItems: ArchivedItem[] = [
- {
- id: 'arch_1',
- type: 'investigation',
- title: 'Project Icarus, Concluded',
- description: 'Investigation into aerospace contractor fraud, case closed with prosecution',
- reason: 'Investigation concluded',
- archivedAt: new Date(Date.now() - 1000 * 60 * 60 * 24 * 30),
- archivedBy: 'Alex Chen',
- originalDate: new Date('2022-06-15'),
- retentionDays: 365,
- size: '2.4 GB',
- },
- {
- id: 'arch_2',
- type: 'entity',
- title: 'Defunct Corp Holdings LLC',
- description: 'Shell corporation, company dissolved',
- reason: 'Entity no longer exists',
- archivedAt: new Date(Date.now() - 1000 * 60 * 60 * 24 * 45),
- archivedBy: 'Sarah Miller',
- originalDate: new Date('2021-11-20'),
- retentionDays: 730,
- },
- {
- id: 'arch_3',
- type: 'document',
- title: 'Obsolete Policy Document v2.3',
- description: 'Superseded by new policy documentation',
- reason: 'Document superseded',
- archivedAt: new Date(Date.now() - 1000 * 60 * 60 * 24 * 60),
- archivedBy: 'James Wilson',
- originalDate: new Date('2020-03-10'),
- retentionDays: 180,
- size: '4.2 MB',
- },
- {
- id: 'arch_4',
- type: 'workspace',
- title: 'Legacy Project Alpha',
- description: 'Collaborative workspace from previous investigation cycle',
- reason: 'Project completed',
- archivedAt: new Date(Date.now() - 1000 * 60 * 60 * 24 * 90),
- archivedBy: 'Emily Rodriguez',
- originalDate: new Date('2021-08-25'),
- retentionDays: 365,
- size: '12.8 GB',
- },
- {
- id: 'arch_5',
- type: 'investigation',
- title: 'Operation Clearwater',
- description: 'Environmental violation case, settled out of court',
- reason: 'Case settled',
- archivedAt: new Date(Date.now() - 1000 * 60 * 60 * 24 * 120),
- archivedBy: 'Alex Chen',
- originalDate: new Date('2022-02-14'),
- retentionDays: 730,
- size: '8.6 GB',
- },
- {
- id: 'arch_6',
- type: 'document',
- title: 'Interview Transcript, Redacted',
- description: 'Source interview, information no longer relevant',
- reason: 'Information outdated',
- archivedAt: new Date(Date.now() - 1000 * 60 * 60 * 24 * 150),
- archivedBy: 'Michael Brown',
- originalDate: new Date('2021-05-08'),
- retentionDays: 180,
- size: '1.8 MB',
- },
-];
-
-const typeIcons = {
+const typeIcons: Record<string, React.ReactNode> = {
  investigation: <Target className="w-4 h-4"/>,
  entity: <Users className="w-4 h-4"/>,
- document: <FileText className="w-4 h-4"/>,
- workspace: <Users className="w-4 h-4"/>,
 };
 
-const typeColors = {
- investigation: 'text-blood-500 bg-blood-500/10',
- entity: 'text-zinc-400 bg-zinc-400/10',
- document: 'text-blood-500 bg-blood-500/10',
- workspace: 'text-blood-500 bg-blood-500/10',
+const severityColors: Record<string, string> = {
+ critical: 'text-blood-400 bg-blood-600/20 border-blood-600/30',
+ high: 'text-blood-500 bg-blood-700/20 border-blood-700/30',
+ medium: 'text-blood-500 bg-blood-600/20 border-blood-600/30',
+ low: 'text-blood-400 bg-blood-500/20 border-blood-500/30',
 };
 
-// ============================================================
-// Components
-// ============================================================
-
-function ArchivedItemCard({ 
- item, 
- onRestore,
- onDelete,
-}: { 
- item: ArchivedItem;
- onRestore: (id: string) => void;
- onDelete: (id: string) => void;
+function SavedPageCard({
+ item,
+ onRemove,
+}: {
+ item: BookmarkedPage;
+ onRemove: (href: string) => void;
 }) {
- const [showMenu, setShowMenu] = useState(false);
-
- const daysUntilDeletion = Math.max(
- 0,
- item.retentionDays - Math.floor((Date.now() - item.archivedAt.getTime()) / (1000 * 60 * 60 * 24))
- );
- const isExpiringSoon = daysUntilDeletion < 30;
-
  return (
  <motion.div
+ layout
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="glass-card p-6 group"
+ exit={{ opacity: 0, scale: 0.95 }}
+ className="glass-card p-5 group"
  >
- {/* Header */}
- <div className="flex items-start justify-between mb-4">
- <div className="flex items-center gap-3">
- <div className={`p-2 ${typeColors[item.type]} opacity-60`}>
- {typeIcons[item.type]}
+ <div className="flex items-start justify-between mb-3">
+ <div className="flex items-center gap-2">
+ <div className="p-1.5 bg-zinc-800 text-zinc-400">
+ {typeIcons[item.type] || <Bookmark className="w-4 h-4"/>}
  </div>
- <span className="px-2 py-0.5 text-xs font-medium capitalize bg-zinc-800 text-zinc-400">
- Archived
+ <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-zinc-800 text-zinc-500">
+ {item.type}
  </span>
- </div>
-
- <div className="relative">
- <button
- onClick={() => setShowMenu(!showMenu)}
- className="p-1 text-zinc-600 hover:text-white opacity-0 group-hover:opacity-100 transition-all"
- >
- <MoreVertical className="w-4 h-4"/>
- </button>
- 
- {showMenu && (
- <div className="absolute right-0 top-full mt-1 w-36 glass border border-zinc-700 py-1 z-10">
- <button className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-zinc-800 flex items-center gap-2">
- <Eye className="w-3 h-3"/>
- View
- </button>
- <button
- onClick={() => {
- onRestore(item.id);
- setShowMenu(false);
- }}
- className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-zinc-800 flex items-center gap-2"
- >
- <RotateCcw className="w-3 h-3"/>
- Restore
- </button>
- <button className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-zinc-800 flex items-center gap-2">
- <Download className="w-3 h-3"/>
- Export
- </button>
- <button
- onClick={() => {
- onDelete(item.id);
- setShowMenu(false);
- }}
- className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-zinc-800 flex items-center gap-2"
- >
- <Trash2 className="w-3 h-3"/>
- Delete
- </button>
- </div>
+ {item.severity && (
+ <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-zinc-800 border-zinc-700'}`}>
+ {item.severity}
+ </span>
  )}
  </div>
+ <button
+ onClick={() => onRemove(item.href)}
+ className="p-1.5 text-zinc-600 hover:text-blood-500 opacity-0 group-hover:opacity-100 transition-all"
+ title="Remove from saved"
+ >
+ <Trash2 className="w-4 h-4"/>
+ </button>
  </div>
 
- {/* Content */}
- <h3 className="text-zinc-300 font-semibold mb-2 line-clamp-1">{item.title}</h3>
- <p className="text-zinc-500 text-sm line-clamp-2 mb-3">{item.description}</p>
-
- {/* Reason */}
- <div className="flex items-center gap-2 text-sm mb-4">
- <span className="text-zinc-500">Reason:</span>
- <span className="text-zinc-400">{item.reason}</span>
- </div>
-
- {/* Retention Warning */}
- {isExpiringSoon && (
- <div className="flex items-center gap-2 p-2 bg-blood-500/10 text-blood-400 text-xs mb-4">
- <AlertTriangle className="w-4 h-4"/>
- <span>Expires in {daysUntilDeletion} days</span>
- </div>
+ <Link href={item.href} className="block group/link">
+ <h3 className="text-white font-semibold mb-1 group-hover/link:text-blood-500 transition-colors line-clamp-2">
+ {item.title}
+ </h3>
+ {item.category && (
+ <p className="text-zinc-500 text-xs mb-3">{item.category}</p>
  )}
+ </Link>
 
- {/* Footer */}
- <div className="flex items-center justify-between pt-4 border-t border-zinc-800 text-xs text-zinc-500">
+ <div className="flex items-center justify-between pt-3 border-t border-zinc-800 text-xs text-zinc-500">
  <div className="flex items-center gap-1">
  <Clock className="w-3 h-3"/>
- {formatDistanceToNow(item.archivedAt, { addSuffix: true })}
+ Saved {formatDistanceToNow(new Date(item.savedAt), { addSuffix: true })}
  </div>
- {item.size && <span>{item.size}</span>}
+ <Link href={item.href} className="flex items-center gap-1 text-zinc-600 hover:text-blood-500 transition-colors">
+ <ExternalLink className="w-3 h-3"/>
+ Open
+ </Link>
  </div>
  </motion.div>
  );
 }
 
-// ============================================================
-// Main Page
-// ============================================================
-
-export default function ArchivesPage() {
- const [archivedItems, setArchivedItems] = useState(mockArchivedItems);
+export default function SavedPagesPage() {
+ const { currentUser, getBookmarks, removeBookmark } = useContributorStore();
  const [searchQuery, setSearchQuery] = useState('');
  const [typeFilter, setTypeFilter] = useState<string>('all');
 
- const handleRestore = (id: string) => {
- setArchivedItems((prev) => prev.filter((item) => item.id !== id));
- // In real app, would also restore the item
- };
+ // Not signed in
+ if (!currentUser) {
+ return (
+ <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+ <div className="max-w-2xl mx-auto px-6 py-12 text-center">
+ <div className="w-16 h-16 mx-auto mb-6 border-2 border-zinc-700 flex items-center justify-center">
+ <Bookmark className="w-8 h-8 text-zinc-600"/>
+ </div>
+ <h1 className="text-3xl font-black text-white mb-3 uppercase tracking-wider">
+ <GlitchText text="SAVED PAGES"/>
+ </h1>
+ <p className="text-zinc-400 mb-8">
+ Sign in to save investigations and entities to your personal collection.
+ </p>
+ <Link
+ href="/contributor"
+ className="inline-flex items-center gap-2 px-6 py-3 bg-blood-700 hover:bg-blood-600 text-white font-bold uppercase tracking-wider text-sm transition-colors"
+ >
+ <UserPlus className="w-4 h-4"/>
+ Sign In / Create Account
+ </Link>
+ </div>
+ </div>
+ );
+ }
 
- const handleDelete = (id: string) => {
- setArchivedItems((prev) => prev.filter((item) => item.id !== id));
- };
+ const bookmarks = getBookmarks();
 
- const filteredItems = archivedItems.filter((item) => {
+ const filteredItems = bookmarks.filter((item) => {
  if (searchQuery) {
  const search = searchQuery.toLowerCase();
- if (!item.title.toLowerCase().includes(search) && !item.description.toLowerCase().includes(search)) {
+ if (!item.title.toLowerCase().includes(search) && !(item.category || '').toLowerCase().includes(search)) {
  return false;
  }
  }
@@ -271,135 +137,142 @@ export default function ArchivesPage() {
  return true;
  });
 
- const totalSize = archivedItems
- .filter(i => i.size)
- .reduce((acc, i) => {
- const size = parseFloat(i.size!);
- const unit = i.size!.includes('GB') ? 1024 : 1;
- return acc + size * unit;
- }, 0);
+ const investigationCount = bookmarks.filter(b => b.type === 'investigation').length;
+ const entityCount = bookmarks.filter(b => b.type === 'entity').length;
 
  return (
- <div className="min-h-screen">
+ <div className="min-h-screen pt-20 lg:pt-24 pb-16">
  <div className="max-w-6xl mx-auto px-6 py-12">
  {/* Header */}
  <div className="flex items-center justify-between mb-8">
  <div>
  <h1 className="text-4xl font-black tracking-tighter text-white mb-2">
- <GlitchText text="ARCHIVES"/>
+ <GlitchText text="SAVED PAGES"/>
  </h1>
  <p className="text-zinc-400">
- {archivedItems.length} archived items · {(totalSize / 1024).toFixed(1)} GB total
- </p>
- </div>
-
- <div className="flex items-center gap-4">
- <button className="flex items-center gap-2 px-4 py-2 glass text-zinc-400 hover:text-white transition-colors">
- <Download className="w-4 h-4"/>
- Export All
- </button>
- </div>
- </div>
-
- {/* Warning Banner */}
- <motion.div
- initial={{ opacity: 0, y: -10 }}
- animate={{ opacity: 1, y: 0 }}
- className="glass-card p-4 border-l-4 border-zinc-400 mb-8"
- >
- <div className="flex items-center gap-4">
- <AlertTriangle className="w-6 h-6 text-zinc-400"/>
- <div className="flex-1">
- <p className="text-white font-medium">Retention Policy Active</p>
- <p className="text-zinc-400 text-sm">
- Archived items are automatically deleted after their retention period expires. 
- Export or restore items before they are permanently removed.
+ {bookmarks.length} saved {bookmarks.length === 1 ? 'item' : 'items'}
+ <span className="text-zinc-600 mx-2">|</span>
+ <span className="text-zinc-500">{currentUser.email}</span>
  </p>
  </div>
  </div>
- </motion.div>
 
  {/* Stats */}
- <div className="grid grid-cols-4 gap-4 mb-8">
- {[
- { label: 'Investigations', value: archivedItems.filter(i => i.type === 'investigation').length, icon: <Target className="w-5 h-5 text-blood-500"/> },
- { label: 'Entities', value: archivedItems.filter(i => i.type === 'entity').length, icon: <Users className="w-5 h-5 text-zinc-400"/> },
- { label: 'Documents', value: archivedItems.filter(i => i.type === 'document').length, icon: <FileText className="w-5 h-5 text-blood-500"/> },
- { label: 'Workspaces', value: archivedItems.filter(i => i.type === 'workspace').length, icon: <Users className="w-5 h-5 text-blood-500"/> },
- ].map((stat, i) => (
- <div key={i} className="glass-card p-4 flex items-center gap-4">
+ {bookmarks.length > 0 && (
+ <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
+ <div className="glass-card p-4 flex items-center gap-4">
  <div className="p-2 bg-zinc-800">
- {stat.icon}
+ <BookmarkCheck className="w-5 h-5 text-blood-500"/>
  </div>
  <div>
- <p className="text-white text-xl font-bold">{stat.value}</p>
- <p className="text-zinc-500 text-sm">{stat.label}</p>
+ <p className="text-white text-xl font-bold">{bookmarks.length}</p>
+ <p className="text-zinc-500 text-sm">Total Saved</p>
  </div>
  </div>
- ))}
+ <div className="glass-card p-4 flex items-center gap-4">
+ <div className="p-2 bg-zinc-800">
+ <Target className="w-5 h-5 text-blood-500"/>
  </div>
+ <div>
+ <p className="text-white text-xl font-bold">{investigationCount}</p>
+ <p className="text-zinc-500 text-sm">Investigations</p>
+ </div>
+ </div>
+ <div className="glass-card p-4 flex items-center gap-4">
+ <div className="p-2 bg-zinc-800">
+ <Users className="w-5 h-5 text-zinc-400"/>
+ </div>
+ <div>
+ <p className="text-white text-xl font-bold">{entityCount}</p>
+ <p className="text-zinc-500 text-sm">Entities</p>
+ </div>
+ </div>
+ </div>
+ )}
 
  {/* Filters */}
- <div className="flex items-center gap-4 mb-8">
- <div className="flex-1 relative">
+ {bookmarks.length > 0 && (
+ <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-8">
+ <div className="flex-1 relative w-full">
  <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500"/>
  <input
  type="text"
- placeholder="Search archives..."
+ placeholder="Search saved pages..."
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
- className="w-full pl-12 pr-4 py-3 glass text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full pl-12 pr-4 py-3 glass text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
  />
  </div>
-
  <div className="flex items-center gap-2">
- <span className="text-zinc-400 text-sm">Type:</span>
- {['all', 'investigation', 'entity', 'document', 'workspace'].map((type) => (
+ {['all', 'investigation', 'entity'].map((type) => (
  <button
  key={type}
  onClick={() => setTypeFilter(type)}
- className={`px-3 py-1 text-xs font-medium capitalize transition-colors ${
+ className={`px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors ${
  typeFilter === type
  ? 'bg-blood-600 text-white'
  : 'bg-zinc-800 text-zinc-400 hover:text-white'
  }`}
  >
- {type === 'all' ? 'All' : type}
+ {type === 'all' ? 'All' : type === 'investigation' ? 'Investigations' : 'Entities'}
  </button>
  ))}
  </div>
  </div>
+ )}
 
- {/* Archives Grid */}
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
- {filteredItems.map((item, index) => (
- <motion.div
+ {/* Grid */}
+ <AnimatePresence mode="popLayout">
+ {filteredItems.length > 0 ? (
+ <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+ {filteredItems.map((item) => (
+ <SavedPageCard
  key={item.id}
- initial={{ opacity: 0, y: 20 }}
- animate={{ opacity: 1, y: 0 }}
- transition={{ delay: index * 0.05 }}
- >
- <ArchivedItemCard
  item={item}
- onRestore={handleRestore}
- onDelete={handleDelete}
+ onRemove={removeBookmark}
  />
- </motion.div>
  ))}
- </div>
+ </motion.div>
+ ) : (
+ <motion.div
+ initial={{ opacity: 0 }}
+ animate={{ opacity: 1 }}
+ className="text-center py-16"
+ >
+ <Bookmark className="w-16 h-16 text-zinc-700 mx-auto mb-4"/>
+ <h3 className="text-xl font-semibold text-white mb-2">
+ {searchQuery || typeFilter !== 'all' ? 'No matches found' : 'No saved pages yet'}
+ </h3>
+ <p className="text-zinc-400 mb-6">
+ {searchQuery || typeFilter !== 'all'
+ ? 'Try adjusting your search or filters'
+ : 'Click the Save button on any investigation to add it here'}
+ </p>
+ <Link
+ href="/investigations"
+ className="inline-flex items-center gap-2 px-5 py-2.5 border border-zinc-700 text-zinc-300 hover:border-blood-700 hover:text-white text-sm transition-colors"
+ >
+ <Target className="w-4 h-4"/>
+ Browse Investigations
+ </Link>
+ </motion.div>
+ )}
+ </AnimatePresence>
 
- {filteredItems.length === 0 && (
- <div className="text-center py-16">
- <Archive className="w-16 h-16 text-zinc-700 mx-auto mb-4"/>
- <h3 className="text-xl font-semibold text-white mb-2">No archived items</h3>
- <p className="text-zinc-400">
- {searchQuery 
- ? 'Try adjusting your search'
- : 'Items you archive will appear here'
- }
+ {/* Privacy Note */}
+ <div className="mt-12 border border-zinc-800 bg-zinc-900/50 p-4">
+ <div className="flex items-start gap-3">
+ <AlertTriangle className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
+ <div>
+ <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-1">Local Storage Only</h3>
+ <p className="text-xs text-zinc-500 leading-relaxed">
+ Saved pages are stored in your browser&apos;s local storage. They are tied to your contributor account
+ and will persist until you clear your browser data or delete your account.
+ No bookmark data is transmitted to our servers.
  </p>
  </div>
- )}
+ </div>
+ </div>
  </div>
  </div>
  );

@@ -432,7 +432,7 @@ export default function InvestigationsPage() {
  onChange={(e) => handleSortChange(e.target.value as typeof sortBy)}
  className="px-4 py-2.5 bg-black/60 border border-zinc-800 text-zinc-300 text-sm focus:outline-none focus:border-blood-700"
  >
- <option value="alpha">A &mdash; Z</option>
+ <option value="alpha">A - Z</option>
  <option value="newest">Newest First</option>
  <option value="oldest">Oldest First</option>
  <option value="severity">Severity</option>

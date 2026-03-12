@@ -8,6 +8,7 @@ import {
   AlertTriangle,
   Share2,
   Bookmark,
+  BookmarkCheck,
   ChevronRight,
   ExternalLink,
   FileText,
@@ -17,6 +18,7 @@ import {
 import AffiliationsSidebar, { Affiliation } from"@/components/layout/AffiliationsSidebar";
 import investigationDatabase from"@/data/investigations";
 import type { InvestigationData } from"@/data/investigations/types";
+import { useContributorStore } from "@/store/contributorStore";
 
 const defaultInvestigationData: InvestigationData = {
   title: "Investigation Template",
@@ -64,8 +66,11 @@ export default function InvestigationContent() {
   const params = useParams();
   const slug = params.slug as string;
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const { addBookmark, removeBookmark, isBookmarked, currentUser } = useContributorStore();
 
   const investigationData = investigationDatabase[slug] || defaultInvestigationData;
+  const pageHref = `/investigations/${slug}`;
+  const saved = isBookmarked(pageHref);
 
   if (!investigationDatabase[slug] && slug !== "template") {
     notFound();
@@ -117,9 +122,32 @@ export default function InvestigationContent() {
                   <Share2 className="w-4 h-4" />
                   Share
                 </button>
-                <button className="flex items-center gap-2 px-4 py-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-white text-sm transition-colors">
-                  <Bookmark className="w-4 h-4" />
-                  Save
+                <button
+                  onClick={() => {
+                    if (!currentUser) {
+                      window.location.href = '/contributor';
+                      return;
+                    }
+                    if (saved) {
+                      removeBookmark(pageHref);
+                    } else {
+                      addBookmark({
+                        type: 'investigation',
+                        title: investigationData.title,
+                        href: pageHref,
+                        category: investigationData.category,
+                        severity: investigationData.severity,
+                      });
+                    }
+                  }}
+                  className={`flex items-center gap-2 px-4 py-2 border text-sm transition-colors ${
+                    saved
+                      ? 'bg-blood-700/20 border-blood-700 text-blood-400 hover:bg-blood-700/30'
+                      : 'bg-zinc-900 hover:bg-zinc-800 border-zinc-800 text-white'
+                  }`}
+                >
+                  {saved ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
+                  {saved ? 'Saved' : 'Save'}
                 </button>
                 <button onClick={() => setIsSidebarOpen(true)} className="lg:hidden flex items-center gap-2 px-4 py-2 bg-blood-700 hover:bg-blood-600 text-white text-sm transition-colors">
                   <ExternalLink className="w-4 h-4" />

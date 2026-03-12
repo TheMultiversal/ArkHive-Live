@@ -9,9 +9,20 @@ export interface ContributorAccount {
  createdAt: string;
 }
 
+export interface BookmarkedPage {
+ id: string;
+ type: 'investigation' | 'entity';
+ title: string;
+ href: string;
+ savedAt: string;
+ category?: string;
+ severity?: string;
+}
+
 interface ContributorState {
  accounts: ContributorAccount[];
  currentUser: ContributorAccount | null;
+ bookmarks: Record<string, BookmarkedPage[]>; // keyed by account id
 
  // Actions
  signUp: (email: string, password: string) => { ok: boolean; error?: string };
@@ -22,6 +33,12 @@ interface ContributorState {
  deleteAccount: () => void;
  isSignedIn: () => boolean;
  isVerified: () => boolean;
+
+ // Bookmark actions
+ addBookmark: (page: Omit<BookmarkedPage, 'id' | 'savedAt'>) => void;
+ removeBookmark: (href: string) => void;
+ isBookmarked: (href: string) => boolean;
+ getBookmarks: () => BookmarkedPage[];
 }
 
 // Simple hash function - NOT cryptographic, just for client-side demo
@@ -54,6 +71,7 @@ export const useContributorStore = create<ContributorState>()(
  (set, get) => ({
  accounts: [],
  currentUser: null,
+ bookmarks: {},
 
  signUp: (email: string, password: string) => {
  const state = get();
@@ -155,12 +173,50 @@ export const useContributorStore = create<ContributorState>()(
  const user = get().currentUser;
  return user !== null && user.verified;
  },
+
+ addBookmark: (page) => {
+ const state = get();
+ if (!state.currentUser) return;
+ const userId = state.currentUser.id;
+ const existing = state.bookmarks[userId] || [];
+ if (existing.some(b => b.href === page.href)) return;
+ const bookmark: BookmarkedPage = {
+ ...page,
+ id: 'bm_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 6),
+ savedAt: new Date().toISOString(),
+ };
+ set({ bookmarks: { ...state.bookmarks, [userId]: [...existing, bookmark] } });
+ },
+
+ removeBookmark: (href) => {
+ const state = get();
+ if (!state.currentUser) return;
+ const userId = state.currentUser.id;
+ const existing = state.bookmarks[userId] || [];
+ set({ bookmarks: { ...state.bookmarks, [userId]: existing.filter(b => b.href !== href) } });
+ },
+
+ isBookmarked: (href) => {
+ const state = get();
+ if (!state.currentUser) return false;
+ const userId = state.currentUser.id;
+ return (state.bookmarks[userId] || []).some(b => b.href === href);
+ },
+
+ getBookmarks: () => {
+ const state = get();
+ if (!state.currentUser) return [];
+ return (state.bookmarks[state.currentUser.id] || []).sort(
+ (a, b) => new Date(b.savedAt).getTime() - new Date(a.savedAt).getTime()
+ );
+ },
  }),
  {
  name: 'arkhive-contributor',
  partialize: (state) => ({
  accounts: state.accounts,
  currentUser: state.currentUser,
+ bookmarks: state.bookmarks,
  }),
  }
  )

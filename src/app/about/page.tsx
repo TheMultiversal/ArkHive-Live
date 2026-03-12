@@ -64,7 +64,7 @@ export default function AboutPage() {
  <span className="text-white font-bold">ArkHive®</span> is a comprehensive investigative accountability
  database that documents institutional crimes, systemic corruption, and abuses of power across governments,
  corporations, intelligence agencies, and the individuals who operate them. Every investigation is
- cross-referenced with named entities&mdash;creating an interconnected map of who did what, when, and with whom.
+ cross-referenced with named entities; creating an interconnected map of who did what, when, and with whom.
  </p>
  <p className="text-zinc-400 leading-relaxed mb-4">
  This is not opinion. This is not commentary. Every file in this archive is built on court records,
@@ -72,7 +72,7 @@ export default function AboutPage() {
  journalism, and sworn testimony. Sources are cited. Names are named.
  </p>
  <p className="text-zinc-400 leading-relaxed">
- We exist because the information is already public&mdash;scattered across thousands of documents,
+ We exist because the information is already public; scattered across thousands of documents,
  buried in footnotes, spread across decades. ArkHive brings it together in one place, connected,
  searchable, and permanent. The truth was never hidden. It was just never organized.
  </p>
@@ -110,7 +110,7 @@ export default function AboutPage() {
  <div className="w-2 bg-blood-700 shrink-0"/>
  <div>
  <h3 className="font-bold text-white mb-1">Pattern Recognition</h3>
- <p className="text-zinc-500 text-sm">Individual crimes look like anomalies. Documented patterns reveal systems. The same corporations, the same agencies, the same individuals&mdash;appearing across decades of investigations.</p>
+ <p className="text-zinc-500 text-sm">Individual crimes look like anomalies. Documented patterns reveal systems. The same corporations, the same agencies, the same individuals; appearing across decades of investigations.</p>
  </div>
  </div>
  </div>
@@ -168,7 +168,7 @@ export default function AboutPage() {
  { num:"02", title:"ENTITY IDENTIFICATION", desc:"Every person, agency, corporation, and organization connected to an investigation is identified and catalogued. We track 2,110 individuals, 141 government agencies, 209 corporations, and 155 organizations." },
  { num:"03", title:"CROSS-REFERENCING", desc:"Entities are linked across investigations. When the same corporation appears in a 1990s environmental crime and a 2020s financial fraud, that connection is mapped. Patterns emerge that no single investigation reveals." },
  { num:"04", title:"SEVERITY CLASSIFICATION", desc:"Every investigation is rated by severity: Critical (ongoing serious harm), High (significant documented damage), Medium (systemic issues), or Low (historical documentation). This helps prioritize what demands attention." },
- { num:"05", title:"PERMANENT ARCHIVAL", desc:"Published investigations become part of the permanent archive. They are updated when new information emerges&mdash;court rulings, new documents, additional entities identified&mdash;but never deleted." },
+ { num:"05", title:"PERMANENT ARCHIVAL", desc:"Published investigations become part of the permanent archive. They are updated when new information emerges (court rulings, new documents, additional entities identified) but never deleted." },
  ].map((step) => (
  <div key={step.num} className="flex gap-4 p-4 border border-zinc-800 bg-zinc-900/30">
  <div className="text-blood-600 font-black text-xl">{step.num}</div>
@@ -197,7 +197,7 @@ export default function AboutPage() {
  <h4 className="text-blood-600 font-bold uppercase tracking-wider">Individuals</h4>
  <span className="text-blood-500 font-mono text-sm font-bold">2,110</span>
  </div>
- <p className="text-zinc-500 text-sm mb-2">Presidents, executives, intelligence directors, judges, lobbyists&mdash;the people who made the decisions, signed the orders, and took the money.</p>
+ <p className="text-zinc-500 text-sm mb-2">Presidents, executives, intelligence directors, judges, lobbyists; the people who made the decisions, signed the orders, and took the money.</p>
  <span className="text-blood-700 text-xs font-medium flex items-center gap-1 group-hover:text-blood-500 transition-colors">
  Browse Individuals <ArrowRight className="w-3 h-3"/>
  </span>
@@ -207,7 +207,7 @@ export default function AboutPage() {
  <h4 className="text-blood-600 font-bold uppercase tracking-wider">Government Agencies</h4>
  <span className="text-blood-500 font-mono text-sm font-bold">141</span>
  </div>
- <p className="text-zinc-500 text-sm mb-2">CIA, FBI, NSA, DOJ, EPA, DOD, FCC, SEC, FDA&mdash;federal, state, and international agencies with documented involvement in institutional crimes.</p>
+ <p className="text-zinc-500 text-sm mb-2">CIA, FBI, NSA, DOJ, EPA, DOD, FCC, SEC, FDA; federal, state, and international agencies with documented involvement in institutional crimes.</p>
  <span className="text-blood-700 text-xs font-medium flex items-center gap-1 group-hover:text-blood-500 transition-colors">
  Browse Agencies <ArrowRight className="w-3 h-3"/>
  </span>
@@ -217,7 +217,7 @@ export default function AboutPage() {
  <h4 className="text-blood-600 font-bold uppercase tracking-wider">Corporations</h4>
  <span className="text-blood-500 font-mono text-sm font-bold">209</span>
  </div>
- <p className="text-zinc-500 text-sm mb-2">Defense contractors, pharmaceutical giants, Wall Street banks, Big Tech, fossil fuel companies, media conglomerates&mdash;profiting from the systems they corrupt.</p>
+ <p className="text-zinc-500 text-sm mb-2">Defense contractors, pharmaceutical giants, Wall Street banks, Big Tech, fossil fuel companies, media conglomerates; profiting from the systems they corrupt.</p>
  <span className="text-blood-700 text-xs font-medium flex items-center gap-1 group-hover:text-blood-500 transition-colors">
  Browse Corporations <ArrowRight className="w-3 h-3"/>
  </span>
@@ -253,14 +253,14 @@ export default function AboutPage() {
  <Globe className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold text-white mb-1">Non-Partisan Accountability</h3>
- <p className="text-zinc-500 text-sm">Corruption has no political party. The archive documents crimes regardless of who committed them&mdash;Democrat, Republican, foreign government, multinational corporation. Power is the common denominator.</p>
+ <p className="text-zinc-500 text-sm">Corruption has no political party. The archive documents crimes regardless of who committed them: Democrat, Republican, foreign government, multinational corporation. Power is the common denominator.</p>
  </div>
  </div>
  <div className="flex gap-4 p-4 border border-zinc-800 bg-zinc-900/30">
  <AlertTriangle className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold text-white mb-1">Living Documents</h3>
- <p className="text-zinc-500 text-sm">Investigations are updated as new information surfaces&mdash;new court rulings, declassified documents, whistleblower testimony, or newly identified entities. The archive grows and the picture gets clearer.</p>
+ <p className="text-zinc-500 text-sm">Investigations are updated as new information surfaces: new court rulings, declassified documents, whistleblower testimony, or newly identified entities. The archive grows and the picture gets clearer.</p>
  </div>
  </div>
  <div className="flex gap-4 p-4 border border-zinc-800 bg-zinc-900/30">

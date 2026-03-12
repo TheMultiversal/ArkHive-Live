@@ -2,11 +2,11 @@ import type { Metadata } from"next";
 import type { ReactNode } from"react";
 
 export const metadata: Metadata = {
- title:"Archives",
- description:"ArkHive archives; historical investigations, concluded cases, and documented evidence from past inquiries.",
+ title:"Saved Pages",
+ description:"Your saved investigations and entities on ArkHive.",
  openGraph: {
- title:"Archives | ArkHive",
- description:"ArkHive archives; historical investigations, concluded cases, and documented evidence from past inquiries.",
+ title:"Saved Pages | ArkHive",
+ description:"Your saved investigations and entities on ArkHive.",
  },
 };
 

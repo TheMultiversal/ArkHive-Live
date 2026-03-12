@@ -31,6 +31,7 @@ export const ROUTES = {
  TAGS: '/tags',
  SEARCH: '/search',
  RECENT: '/recent',
+ SAVED: '/archives',
  ARCHIVES: '/archives',
 
  // API Routes
@@ -78,7 +79,8 @@ export const MAIN_NAV: NavItem[] = [
 
 export const USER_NAV: NavItem[] = [
  { label: 'Recent', href: ROUTES.RECENT, icon: 'clock' },
- { label: 'Archives', href: ROUTES.ARCHIVES, icon: 'archive' },
+ { label: 'Saved Pages', href: ROUTES.SAVED, icon: 'bookmark' },
+ { label: 'Dashboard', href: '/contributor', icon: 'user' },
 ];
 
 // ============================================================

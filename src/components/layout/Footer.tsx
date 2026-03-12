@@ -37,7 +37,8 @@ export default function Footer() {
  ],
  platform: [
  { href:"/recent", label:"Recent"},
- { href:"/archives", label:"Archives"},
+ { href:"/archives", label:"Saved Pages"},
+ { href:"/contributor", label:"Dashboard"},
  { href:"/offline", label:"Offline Access"},
  ],
  };
