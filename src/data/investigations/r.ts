@@ -933,22 +933,35 @@ const investigations_r: Record<string, InvestigationData> = {
 
   'reagan-crimes': {
     title: "Reagan Administration Crimes",
-    subtitle: "Iran-Contra, crack cocaine, and the crimes of the Reagan administration",
-    severity: "high",
+    subtitle: "Iran-Contra, crack cocaine, and the systematic criminality of the Reagan administration that reshaped American domestic and foreign policy",
+    severity: "critical",
     category: "Government Corruption",
     date: "November 3, 1986",
     lastUpdated: "March 10, 2026",
-    summary: "The Reagan administration illegally sold arms to Iran and funneled the profits to Contra rebels in Nicaragua, violating the Boland Amendment. The CIA's role in the crack cocaine epidemic, support for Central American death squads, and arms-for-hostages dealings constituted systematic criminality.",
+    summary: "The Reagan administration committed systematic crimes including the illegal sale of weapons to Iran to fund Nicaraguan Contra rebels in violation of the Boland Amendment, the CIA's documented role in facilitating crack cocaine trafficking into Black communities, support for Central American death squads responsible for tens of thousands of civilian murders, and an arms-for-hostages scheme that subverted constitutional governance.",
     content: [
-      "IRAN-CONTRA: The administration secretly sold weapons to Iran and diverted proceeds to fund Nicaraguan Contras in violation of federal law.",
-      "CIA AND CRACK: Journalist Gary Webb documented CIA-connected Contra drug traffickers flooding Black communities with crack cocaine.",
-      "PARDONS: George H.W. Bush pardoned six Iran-Contra figures including Caspar Weinberger, effectively ending investigations.",
+      "IRAN-CONTRA AFFAIR: The Reagan administration secretly sold over 2,500 TOW missiles and other weapons to Iran; a designated state sponsor of terrorism; and diverted the proceeds to fund Contra rebels fighting the Sandinista government in Nicaragua. This directly violated the Boland Amendment, which explicitly prohibited U.S. funding of the Contras. The scheme was orchestrated by National Security Council members Oliver North and John Poindexter with the knowledge of CIA Director William Casey.",
+      "THE BOLAND AMENDMENT VIOLATION: Congress passed the Boland Amendment in 1982 and strengthened it in 1984, explicitly banning the use of federal funds to support the Nicaraguan Contras. The Reagan administration circumvented this law by establishing a secret network of arms sales, offshore bank accounts, and covert operations run out of the White House basement. This represented a direct subversion of congressional authority over war-making and spending.",
+      "CIA AND CRACK COCAINE: Journalist Gary Webb's 1996 'Dark Alliance' series documented how CIA-connected Nicaraguan Contra drug traffickers; including Oscar Danilo Blandon and Norwin Meneses; funneled tons of cocaine into Los Angeles, where it was converted into crack and sold in Black neighborhoods. The CIA Inspector General's 1998 report confirmed that the agency had relationships with Contra groups involved in drug trafficking and failed to report drug crimes to the DOJ.",
+      "CENTRAL AMERICAN DEATH SQUADS: The Reagan administration provided military aid, training, and intelligence support to regimes in El Salvador, Guatemala, and Honduras that were committing mass atrocities. In El Salvador, the U.S.-funded military and associated death squads killed an estimated 75,000 civilians during the civil war. In Guatemala, the CIA-backed military committed genocide against indigenous Mayan populations; killing over 200,000 people.",
+      "ARMS FOR HOSTAGES: The weapons-to-Iran scheme began as an arms-for-hostages initiative to secure the release of American hostages held by Hezbollah in Lebanon. This contradicted Reagan's public pledge to never negotiate with terrorists. When the scheme was exposed, Reagan claimed he could not recall authorizing it; a claim contradicted by his own diary entries and the testimony of multiple administration officials.",
+      "OLIVER NORTH AND THE SHREDDING: When the story broke in November 1986, Oliver North and his secretary Fawn Hall shredded thousands of documents and altered official records. Despite this destruction of evidence, Independent Counsel Lawrence Walsh documented extensive criminal conduct. North was convicted of three felonies but the convictions were overturned on appeal because immunized congressional testimony may have influenced the trial.",
+      "THE PARDONS: On Christmas Eve 1992, outgoing President George H.W. Bush pardoned six Iran-Contra figures; including former Defense Secretary Caspar Weinberger, whose trial was about to begin and who had notes that implicated Bush himself. Walsh called the pardons 'the last act of the cover-up.' The pardons effectively ended investigations that were moving toward documenting the full scope of White House involvement.",
+      "WILLIAM CASEY'S ROLE: CIA Director William Casey was the central architect of the covert operations. He expanded CIA involvement in Central America, established the arms pipeline to Iran, and reportedly authorized the drug-trafficking relationships. Casey died of a brain tumor in May 1987; days after he was scheduled to testify before Congress; taking his secrets with him.",
+      "LEGACY OF IMPUNITY: Iran-Contra established the precedent that executive branch officials could violate federal law, lie to Congress, destroy evidence, and face no meaningful consequences. Several Iran-Contra figures; including Elliott Abrams, John Negroponte, and Otto Reich; returned to government positions in subsequent Republican administrations, including the George W. Bush and Trump administrations.",
+      "THE CRACK EPIDEMIC'S TOLL: The crack cocaine epidemic devastated Black communities throughout the 1980s and 1990s. Mandatory minimum sentencing laws, which treated crack (prevalent in Black communities) 100 times more harshly than powder cocaine (prevalent in White communities), resulted in mass incarceration. The Reagan administration's War on Drugs targeted the victims of a crisis that CIA-connected operatives helped create.",
     ],
-    tags: ["Reagan","Iran-Contra","CIA","Central America","Government Corruption"],
+    tags: ["Reagan","Iran-Contra","CIA","Central America","Government Corruption","Crack Cocaine","Death Squads","Oliver North"],
     sources: [
       { title: "Walsh Iran-Contra Report", url: "https://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/", type: "Government Report" },
+      { title: "CIA Inspector General Drug Report (1998)", url: "https://www.cia.gov/library/reports/general-reports-1/cocaine/report/", type: "Government Report" },
+      { title: "Gary Webb, 'Dark Alliance'", url: "https://www.narconews.com/darkalliance/drugs/start.htm", type: "Investigative Journalism" },
+      { title: "National Security Archive Iran-Contra Documents", url: "https://nsarchive.gwu.edu/project/iran-contra-affair", type: "Declassified Documents" },
     ],
-    affiliations: [],
+    affiliations: [
+      { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated covert arms shipments to Iran and Contras; maintained relationships with drug traffickers; supported Central American death squads', href: '/entities/agencies/cia' },
+      { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Independent Counsel Walsh investigated; convictions overturned; pardons ended accountability', href: '/entities/agencies/doj' },
+    ],
   },
 };
 

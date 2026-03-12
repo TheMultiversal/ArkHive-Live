@@ -331,24 +331,34 @@ const investigations_u: Record<string, InvestigationData> = {
   },
 
   'uvalde-police-failure': {
-    title: "Uvalde Police Failure",
-    subtitle: "How 376 officers waited 77 minutes while children were massacred at Robb Elementary",
+    title: "Uvalde Police Failure & Robb Elementary Massacre",
+    subtitle: "How 376 officers waited 77 minutes while children were massacred at Robb Elementary; the worst law enforcement failure in modern American history",
     severity: "critical",
     category: "Police Failure",
     date: "May 24, 2022",
     lastUpdated: "March 10, 2026",
-    summary: "An 18-year-old gunman killed 19 children and 2 teachers at Robb Elementary School in Uvalde, Texas. Despite 376 law enforcement officers on scene, police waited 77 minutes before breaching the classroom, with children calling 911 begging for help. The response has been called the worst police failure in modern history.",
+    summary: "On May 24, 2022, an 18-year-old gunman killed 19 children and 2 teachers at Robb Elementary School in Uvalde, Texas. Despite 376 law enforcement officers from multiple agencies on scene, police waited 77 minutes before breaching the classroom. Children inside called 911 begging for help while officers stood in the hallway. The response has been called the worst police failure in modern American history.",
     content: [
-      "THE MASSACRE: Salvador Ramos killed 19 children and 2 teachers with a legally purchased AR-15 on his 18th birthday.",
-      "77 MINUTES: Officers stood in the hallway for 77 minutes while children bled out and called 911. Chief Pete Arredondo treated it as a barricaded subject, not an active shooter.",
-      "BODY CAMERA FOOTAGE: Released footage showed officers checking phones, applying hand sanitizer, and retreating from shots while children were dying.",
-      "COVER-UP: Officials initially lied about the response timeline. The Texas DPS director was later fired for covering up the failures.",
+      "THE MASSACRE: Salvador Ramos, who had just turned 18, legally purchased two AR-15-style rifles and 375 rounds of ammunition. On May 24, 2022, he crashed his vehicle near Robb Elementary, fired at witnesses, and entered the school through an unlocked door. He barricaded himself in connected classrooms 111 and 112, where he killed 19 children aged 9 to 11 and teachers Irma Garcia and Eva Mireles.",
+      "77 MINUTES OF INACTION: The first officers arrived within 3 minutes. Two were grazed by gunfire and retreated. Over the next 77 minutes, 376 officers from multiple agencies; Uvalde PD, Uvalde CISD Police, Texas DPS, Border Patrol, U.S. Marshals; assembled in the hallway and parking lot. School district police chief Pete Arredondo treated the situation as a barricaded subject rather than an active shooter, ordering officers not to breach.",
+      "CHILDREN CALLED 911: During the 77-minute wait, children inside the classrooms called 911 at least 16 times. Khloie Torres called at 12:10 PM and whispered that she was in room 112. Another child called at 12:13 PM. One child asked the dispatcher to 'please send the police now.' The 911 calls were relayed to Uvalde police on scene, who did not change their approach.",
+      "BODY CAMERA FOOTAGE: Released body camera and surveillance footage showed officers in the hallway checking their phones, applying hand sanitizer, and physically restraining a parent (a mother who had driven from work) while children were being shot. One officer was seen scrolling through his phone. Officers with rifles and ballistic shields staged in the hallway but did not advance.",
+      "THE BREACH: At 12:50 PM; 77 minutes after Ramos entered; a Border Patrol tactical team breached the classroom door and killed the gunman. Some of the children found inside had survivable injuries if they had received prompt medical attention. The delay almost certainly cost lives.",
+      "PETE ARREDONDO: School district police chief Pete Arredondo, the incident commander, was found to have made critical errors. He did not carry a radio into the building, was unaware of the 911 calls from children, waited for a master key to a door that was likely unlocked, and countermanded active shooter protocol. Arredondo was fired in August 2022 and indicted on 29 counts of child endangerment in June 2024.",
+      "INSTITUTIONAL LIES: In the immediate aftermath, Texas DPS and other officials provided a false narrative. They initially claimed Ramos was confronted by a school resource officer (false), that the door was locked (not verified), and that officers acted heroically. The Texas House Investigative Committee report and DOJ critical incident review systematically dismantled these claims.",
+      "TEXAS DPS COVER-UP: Texas DPS Director Steven McCraw initially praised the law enforcement response. As evidence of the failures emerged, DPS shifted blame to Arredondo while downplaying its own officers\' inaction. A DPS Inspector General investigation found that 91 DPS personnel responded and none attempted to breach. McCraw was eventually fired by Governor Abbott for covering up the agency\'s failures.",
+      "DOJ CRITICAL INCIDENT REVIEW: The DOJ\'s January 2024 report concluded that the law enforcement response was 'a failure' at every level. The report found 'cascading failures of leadership, decision-making, communication, and equipment' and determined that lives could have been saved with a faster breach. It made 65 recommendations for improving active shooter response.",
+      "THE FAMILIES: Families of the victims have become powerful advocates for gun reform and police accountability. They have sued the city, the school district, the gun manufacturer, and the social media platform where Ramos made threats. Teacher Irma Garcia\'s husband Joe Garcia died of a heart attack two days after the shooting; his family says he died of a broken heart. The community of Uvalde has been permanently scarred.",
     ],
-    tags: ["Uvalde","School Shooting","Police Failure","Gun Violence","Robb Elementary"],
+    tags: ["Uvalde","School Shooting","Police Failure","Gun Violence","Robb Elementary","Active Shooter","Pete Arredondo"],
     sources: [
       { title: "Texas House Investigative Committee Report", url: "https://house.texas.gov/uvalde", type: "Government Report" },
+      { title: "DOJ Critical Incident Review", url: "https://www.justice.gov/d9/2024-01/uvalde_critical_incident_review.pdf", type: "Government Report" },
+      { title: "Texas Tribune Uvalde Investigation", url: "https://www.texastribune.org/series/uvalde-texas-school-shooting/", type: "Investigative Journalism" },
     ],
-    affiliations: [],
+    affiliations: [
+      { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Conducted critical incident review finding cascading failures at every level of law enforcement response', href: '/entities/agencies/doj' },
+    ],
   },
 };
 

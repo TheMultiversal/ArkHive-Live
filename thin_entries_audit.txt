@@ -1,0 +1,460 @@
+THIN INVESTIGATION ENTRIES AUDIT
+================================
+
+Summary: 0-item=26, 1-item=225, 2-item=0, 3-item=168, TOTAL=419
+
+
+=== 0 CONTENT ITEM(S) ===
+c.ts   | cia-dark-history                                           | NO TITLE
+c.ts   | climate-change-coverup                                     | NO TITLE
+c.ts   | corporate-consolidation                                    | NO TITLE
+c.ts   | corporate-labor                                            | NO TITLE
+c.ts   | covid-disinfo                                              | NO TITLE
+c.ts   | covid-vaccine-profits                                      | NO TITLE
+d.ts   | drug-pricing-crisis                                        | NO TITLE
+e.ts   | el-paso-massacre                                           | NO TITLE
+e.ts   | evidence-destruction                                       | NO TITLE
+h.ts   | healthcare-profiteering                                    | NO TITLE
+i.ts   | influencer-abuse                                           | NO TITLE
+i.ts   | infrastructure-failures                                    | NO TITLE
+l.ts   | las-vegas-shooting                                         | NO TITLE
+m.ts   | mass-shootings                                             | NO TITLE
+m.ts   | medical-misinfo                                            | NO TITLE
+o.ts   | operation-chaos                                            | NO TITLE
+o.ts   | opioid-distribution                                        | NO TITLE
+o.ts   | oversight-abuse                                            | NO TITLE
+o.ts   | oxford-shooting                                            | NO TITLE
+p.ts   | parental-accountability                                    | NO TITLE
+p.ts   | pharmaceutical-corruption                                  | NO TITLE
+p.ts   | police-accountability                                      | NO TITLE
+p.ts   | police-brutality-crisis                                    | NO TITLE
+p.ts   | police-reform                                              | NO TITLE
+s.ts   | syrian-chemical-weapons                                    | NO TITLE
+w.ts   | world-bank                                                 | NO TITLE
+
+=== 1 CONTENT ITEM(S) ===
+c.ts   | cia-origins                                                | CIA Origins
+c.ts   | cia-tape-destruction                                       | CIA Tape Destruction
+c.ts   | civil-rights                                               | Civil Rights
+c.ts   | climate-coverup                                            | Climate Coverup
+c.ts   | climate-denial-network                                     | Climate Denial Network
+c.ts   | climate-disinformation                                     | Climate Disinformation
+c.ts   | climate-obstruction                                        | Climate Obstruction
+c.ts   | columbia-hca-fraud                                         | Columbia Hca Fraud
+c.ts   | columbus-legacy                                            | Columbus Legacy
+c.ts   | congressional-age                                          | Congressional Age
+c.ts   | congressional-conflicts                                    | Congressional Conflicts
+c.ts   | congressional-corruption                                   | Congressional Corruption
+c.ts   | congressional-obstruction                                  | Congressional Obstruction
+c.ts   | congressional-perjury                                      | Congressional Perjury
+c.ts   | congressional-trading                                      | Congressional Trading
+c.ts   | corporate-capture                                          | Corporate Capture
+c.ts   | corporate-corruption                                       | Corporate Corruption
+c.ts   | corporate-fraud-scandals                                   | Corporate Fraud Scandals
+c.ts   | corporate-influence                                        | Corporate Influence
+c.ts   | corporate-lobbying                                         | Corporate Lobbying
+c.ts   | corporate-surveillance                                     | Corporate Surveillance
+c.ts   | corporate-tax-avoidance                                    | Corporate Tax Avoidance
+c.ts   | corporate-union-busting                                    | Corporate Union Busting
+c.ts   | corporate-wage-theft                                       | Corporate Wage Theft
+c.ts   | corporate-water-theft                                      | Corporate Water Theft
+c.ts   | covid-corruption                                           | Covid Corruption
+c.ts   | crypto-fraud-epidemic                                      | Crypto Fraud Epidemic
+d.ts   | defense-tech-oligarchy                                     | Defense Tech Oligarchy
+d.ts   | disinformation                                             | Disinformation
+d.ts   | domestic-extremism                                         | Domestic Extremism
+d.ts   | donor-crimes                                               | Donor Crimes
+d.ts   | drone-strike-program                                       | Drone Strike Program
+d.ts   | dupont-crimes                                              | Dupont Crimes
+e.ts   | educational-propaganda                                     | Educational Propaganda
+e.ts   | egypt-dictatorship                                         | Egypt Dictatorship
+e.ts   | elite-coordination                                         | Elite Coordination
+e.ts   | epipen-price-gouging                                       | Epipen Price Gouging
+e.ts   | eric-garner-death                                          | Eric Garner Death
+e.ts   | ev-fraud                                                   | EV Fraud
+e.ts   | exxon-climate-fraud                                        | Exxon Climate Fraud
+e.ts   | exxon-valdez                                               | Exxon Valdez
+f.ts   | family-separation-policy                                   | Family Separation Policy
+f.ts   | far-right                                                  | Far Right
+f.ts   | far-right-media                                            | Far Right Media
+f.ts   | fast-food-labor                                            | Fast Food Labor
+f.ts   | fbi-assassinations                                         | FBI Assassinations
+f.ts   | ferguson-doj                                               | Ferguson DOJ
+f.ts   | financial-crisis-profiteering                              | Financial Crisis Profiteering
+f.ts   | foreign-bribery                                            | Foreign Bribery
+f.ts   | foreign-interference                                       | Foreign Interference
+f.ts   | fossil-fuel-crimes                                         | Fossil Fuel Crimes
+f.ts   | fossil-fuel-lobbying                                       | Fossil Fuel Lobbying
+f.ts   | fox-misinformation                                         | Fox Misinformation
+f.ts   | fox-news-sexual-harassment                                 | NO TITLE
+f.ts   | fyre-festival                                              | Fyre Festival
+g.ts   | galleon-insider-trading                                    | Galleon Insider Trading
+g.ts   | gamestop-halt                                              | Gamestop Halt
+g.ts   | gamestop-manipulation                                      | Gamestop Manipulation
+g.ts   | ghosn-financial-crimes                                     | Ghosn Financial Crimes
+g.ts   | gig-economy-exploitation                                   | Gig Economy Exploitation
+g.ts   | gm-ignition-switch                                         | GM Ignition Switch
+g.ts   | goldman-sachs-fraud                                        | Goldman Sachs Fraud
+g.ts   | guatemala-experiments                                      | Guatemala Experiments
+g.ts   | gujarat-riots                                              | Gujarat Riots
+g.ts   | gulf-war-crimes                                            | Gulf War Crimes
+h.ts   | hate-crimes                                                | Hate Crimes
+h.ts   | hedge-fund-corruption                                      | Hedge Fund Corruption
+h.ts   | hedge-fund-manipulation                                    | Hedge Fund Manipulation
+h.ts   | housing-crisis                                             | Housing Crisis
+h.ts   | housing-financialization                                   | Housing Financialization
+i.ts   | icc-fugitives                                              | ICC Fugitives
+i.ts   | ice-detention-deaths                                       | ICE Detention Deaths
+i.ts   | illinois-corruption                                        | Illinois Corruption
+i.ts   | immigration-tech                                           | Immigration Tech
+i.ts   | influencer-scams                                           | Influencer Scams
+i.ts   | insurance-denials                                          | Insurance Denials
+i.ts   | insys-opioid-scandal                                       | Insys Opioid Scandal
+i.ts   | insys-prosecutions                                         | Insys Prosecutions
+i.ts   | intelligence-impunity                                      | Intelligence Impunity
+j.ts   | jj-baby-powder                                             | JJ Baby Powder
+j.ts   | juul-vaping-epidemic                                       | Juul Vaping Epidemic
+k.ts   | kashmir-suppression                                        | Kashmir Suppression
+k.ts   | kids-for-cash                                              | Kids For Cash
+k.ts   | korematsu-case                                             | Korematsu Case
+k.ts   | kushner-saudi-deal                                         | Kushner Saudi Deal
+l.ts   | leonard-leo                                                | Leonard Leo
+l.ts   | lgbtq-discrimination                                       | LGBTQ Discrimination
+m.ts   | mccarrick-investigation                                    | Mccarrick Investigation
+m.ts   | media-fraud                                                | Media Fraud
+m.ts   | media-radicalization                                       | Media Radicalization
+m.ts   | menendez-bribery                                           | Menendez Bribery
+m.ts   | metoo-media                                                | Metoo Media
+m.ts   | military-industrial-ai                                     | Military Industrial AI
+m.ts   | military-industrial-complex                                | Military Industrial Complex
+m.ts   | military-readiness                                         | Military Readiness
+m.ts   | militia-movement                                           | Militia Movement
+m.ts   | mississippi-welfare                                        | Mississippi Welfare
+m.ts   | monsanto-crimes                                            | Monsanto Crimes
+m.ts   | mortgage-fraud-crisis                                      | Mortgage Fraud Crisis
+m.ts   | msu-coverup                                                | MSU Coverup
+n.ts   | nbc-misconduct                                             | NBC Misconduct
+n.ts   | nestle-human-rights                                        | Nestle Human Rights
+n.ts   | news-of-the-world-hacking                                  | News Of The World Hacking
+n.ts   | nxivm-cult                                                 | NXIVM Cult
+n.ts   | nypd-chokehold                                             | NYPD Chokehold
+n.ts   | nypd-racial-profiling                                      | NYPD Racial Profiling
+o.ts   | oath-keepers                                               | Oath Keepers
+o.ts   | obesity-epidemic                                           | Obesity Epidemic
+o.ts   | okc-bombing                                                | OKC Bombing
+p.ts   | penn-state-scandal                                         | Penn State Scandal
+p.ts   | penny-stock-fraud                                          | Penny Stock Fraud
+p.ts   | petters-ponzi                                              | Petters Ponzi
+p.ts   | pfas-contamination                                         | PFAS Contamination
+p.ts   | pharmaceutical-fraud                                       | Pharmaceutical Fraud
+p.ts   | philando-castile                                           | Philando Castile
+p.ts   | plastic-pollution-crisis                                   | Plastic Pollution Crisis
+p.ts   | platform-discrimination                                    | Platform Discrimination
+p.ts   | platform-extremism                                         | Platform Extremism
+p.ts   | polarization                                               | Polarization
+p.ts   | political-corruption                                       | Political Corruption
+p.ts   | political-dark-money                                       | Political Dark Money
+p.ts   | political-fraud                                            | Political Fraud
+p.ts   | political-hoaxes                                           | Political Hoaxes
+p.ts   | political-hypocrisy                                        | Political Hypocrisy
+p.ts   | political-opportunism                                      | Political Opportunism
+p.ts   | post-911-persecution                                       | Post 9/11 Persecution
+p.ts   | predatory-lending                                          | Predatory Lending
+p.ts   | press-freedom                                              | Press Freedom
+p.ts   | press-freedom-violations                                   | Press Freedom Violations
+p.ts   | prison-industrial-complex                                  | Prison Industrial Complex
+p.ts   | private-equity-abuses                                      | Private Equity Abuses
+p.ts   | private-equity-housing                                     | Private Equity Housing
+p.ts   | private-prison-corruption                                  | Private Prison Corruption
+p.ts   | prosecutorial-misconduct                                   | Prosecutorial Misconduct
+p.ts   | protest-violence                                           | Protest Violence
+p.ts   | public-health-threats                                      | Public Health Threats
+p.ts   | pulse-shooting                                             | Pulse Shooting
+p.ts   | purdue-pharma                                              | Purdue Pharma
+r.ts   | rabaa-massacre                                             | Rabaa Massacre
+r.ts   | radicalization                                             | Radicalization
+r.ts   | religious-abuse                                            | Religious Abuse
+r.ts   | religious-right-legal                                      | Religious Right Legal
+r.ts   | restitution-evasion                                        | Restitution Evasion
+r.ts   | right-wing-disinfo                                         | Right Wing Disinfo
+r.ts   | right-wing-media                                           | Right Wing Media
+r.ts   | rothstein-ponzi                                            | Rothstein Ponzi
+r.ts   | roundup-cancer                                             | Roundup Cancer
+r.ts   | russia-investigation                                       | Russia Investigation Overview
+r.ts   | russia-ukraine-war                                         | Russia Ukraine War
+r.ts   | russian-influence                                          | Russian Influence
+r.ts   | russian-war-crimes                                         | Russian War Crimes
+r.ts   | ryanair-hijacking                                          | Ryanair Hijacking
+s.ts   | sac-capital                                                | SAC Capital
+s.ts   | sackler-family                                             | Sackler Family
+s.ts   | sandy-hook-disinfo                                         | Sandy Hook Disinfo
+s.ts   | santos-fraud                                               | Santos Fraud
+s.ts   | saudi-arms-sales                                           | Saudi Arms Sales
+s.ts   | school-shootings                                           | School Shootings
+s.ts   | scientology-abuses                                         | Scientology Abuses
+s.ts   | sec-failures                                               | SEC Failures
+s.ts   | serial-killings                                            | Serial Killings
+s.ts   | sex-trafficking                                            | Sex Trafficking
+s.ts   | sexual-exploitation                                        | Sexual Exploitation
+s.ts   | sexual-harassment                                          | Sexual Harassment
+s.ts   | silicon-valley-politics                                    | Silicon Valley Politics
+s.ts   | social-engineering-fraud                                   | Social Engineering Fraud
+s.ts   | spac-fraud                                                 | SPAC Fraud
+s.ts   | spacey-assault                                             | Spacey Assault
+s.ts   | stand-your-ground                                          | Stand Your Ground
+s.ts   | stanford-ponzi                                             | Stanford Ponzi
+s.ts   | starbucks-union-busting                                    | Starbucks Union Busting
+s.ts   | startup-fraud                                              | Startup Fraud
+s.ts   | surveillance-capitalism                                    | Surveillance Capitalism
+s.ts   | sutherland-springs-shooting                                | Sutherland Springs Shooting
+t.ts   | tamir-rice-shooting                                        | Tamir Rice Shooting
+t.ts   | tech-billionaire-influence                                 | Tech Billionaire Influence
+t.ts   | tech-industry-sexism                                       | Tech Industry Sexism
+t.ts   | tech-labor-exploitation                                    | Tech Labor Exploitation
+t.ts   | tech-monopolies                                            | Tech Monopolies
+t.ts   | tech-oligarchy                                             | Tech Oligarchy
+t.ts   | teen-nicotine-addiction                                    | Teen Nicotine Addiction
+t.ts   | telecom-privacy                                            | Telecom Privacy
+t.ts   | terra-luna-collapse                                        | Terra Luna Collapse
+t.ts   | texas-border-cruelty                                       | Texas Border Cruelty
+t.ts   | texas-grid-failures                                        | Texas Grid Failures
+t.ts   | three-arrows-capital                                       | Three Arrows Capital
+t.ts   | trail-of-tears                                             | Trail Of Tears
+t.ts   | trayvon-martin                                             | Trayvon Martin
+t.ts   | tree-of-life-massacre                                      | Tree Of Life Massacre
+t.ts   | trump-admin-2                                              | Trump Admin 2
+t.ts   | trump-admin-corruption                                     | Trump Admin Corruption
+t.ts   | trump-administration                                       | Trump Administration
+t.ts   | trump-corruption                                           | Trump Corruption
+t.ts   | trump-impeachment                                          | Trump Impeachment
+t.ts   | trump-russia                                               | Trump-Russia Investigation
+t.ts   | trump-tax-cuts                                             | Trump Tax Cuts
+t.ts   | turkey-authoritarianism                                    | Turkey Authoritarianism
+t.ts   | tyco-scandal                                               | Tyco Scandal
+t.ts   | tyre-nichols                                               | Tyre Nichols
+t.ts   | tyre-nichols-murder                                        | Tyre Nichols Murder
+u.ts   | uber-scandals                                              | Uber Scandals
+u.ts   | ukraine-policy                                             | Ukraine Policy
+u.ts   | ukraine-war                                                | Ukraine War
+u.ts   | ukraine-war-crimes                                         | Ukraine War Crimes
+u.ts   | usa-gymnastics-abuse                                       | Usa Gymnastics Abuse
+u.ts   | uvalde-shooting                                            | Uvalde Shooting
+u.ts   | uyghur-genocide                                            | Uyghur Genocide
+v.ts   | venezuela-election                                         | Venezuela Election
+v.ts   | venezuela-human-rights                                     | Venezuela Human Rights
+v.ts   | vs-pipeline                                                | VS Pipeline
+w.ts   | wagner-crimes                                              | Wagner Crimes
+w.ts   | wall-street-accountability                                 | Wall Street Accountability
+w.ts   | wall-street-manipulation                                   | Wall Street Manipulation
+w.ts   | walmart-labor                                              | Walmart Labor
+w.ts   | walter-scott-murder                                        | Walter Scott Murder
+w.ts   | war-on-terror-abuses                                       | War On Terror Abuses
+w.ts   | wartime-civil-liberties                                    | Wartime Civil Liberties
+w.ts   | wework-collapse                                            | Wework Collapse
+w.ts   | white-supremacist-terrorism                                | White Supremacist Terrorism
+w.ts   | white-supremacist-violence                                 | White Supremacist Violence
+w.ts   | white-supremacy                                            | White Supremacy
+w.ts   | wmd-lies                                                   | WMD Lies
+w.ts   | worker-misclassification                                   | Worker Misclassification
+y.ts   | yemen-war-crimes                                           | Yemen War Crimes
+y.ts   | youtube-extremism                                          | Youtube Extremism
+
+=== 3 CONTENT ITEM(S) ===
+1.ts   | 1980s-insider-trading                                      | 1980s Insider Trading Scandals
+1.ts   | 1mdb-scandal                                               | 1MDB Sovereign Wealth Fund Scandal
+2.ts   | 2016-election                                              | 2016 Election Interference
+a.ts   | abacus-scandal                                             | Goldman Sachs Abacus CDO Fraud
+a.ts   | activision-harassment                                      | Activision Blizzard Workplace Harassment
+a.ts   | adelphia-fraud                                             | Adelphia Communications Fraud
+a.ts   | adelphia-scandal                                           | Adelphia Corporate Corruption
+a.ts   | agency-regulatory-capture-new-evidence                     | Agency Regulatory Capture New Evidence
+a.ts   | agribusiness-capture-of-usda                               | Agribusiness Capture of USDA
+a.ts   | agricultural-policy                                        | Agricultural Policy & Corporate Farming
+a.ts   | ahmaud-arbery-murder                                       | Ahmaud Arbery Murder
+a.ts   | ai-surveillance-state-infrastructure                       | AI Surveillance State Infrastructure
+a.ts   | aids-crisis                                                | AIDS Crisis Government Failure
+a.ts   | airport-biometric-collection-programs                      | Airport Biometric Collection Programs
+a.ts   | amazon-labor                                               | Amazon Labor Exploitation
+a.ts   | anti-abortion-violence                                     | Anti-Abortion Violence
+a.ts   | anti-lgbtq-extremism                                       | Anti-LGBTQ Extremism
+a.ts   | anti-lgbtq-movement                                        | Anti-LGBTQ Political Movement
+a.ts   | anti-trans                                                 | Anti-Transgender Campaign
+a.ts   | antisemitic-violence                                       | Antisemitic Violence
+a.ts   | antisemitism                                               | Antisemitism in America
+a.ts   | archegos-collapse                                          | Archegos Capital Management Collapse
+a.ts   | arms-export-to-authoritarian-regimes                       | Arms Export to Authoritarian Regimes
+a.ts   | arpaio-civil-rights                                        | Joe Arpaio Civil Rights Violations
+a.ts   | art-market-money-laundering-operations                     | Art Market Money Laundering Operations
+a.ts   | asbestos-cover-up-decades-of-death                         | Asbestos Cover-Up Decades of Death
+a.ts   | aurora-shooting                                            | Aurora Theater Shooting
+a.ts   | authoritarianism                                           | Global Authoritarian Trends
+a.ts   | autonomous-weapons                                         | Autonomous Weapons Development
+a.ts   | autonomous-weapons-development-race                        | Autonomous Weapons Development Race
+a.ts   | aviation-safety                                            | Aviation Safety Regulatory Failures
+b.ts   | ballot-chain-of-custody-violations                         | Ballot Chain of Custody Violations
+b.ts   | bank-discrimination                                        | Banking Discrimination
+b.ts   | banking-corruption                                         | Banking Industry Corruption
+b.ts   | banking-crimes                                             | Banking Sector Criminal Activity
+b.ts   | banking-lobby-capture-of-fed                               | Banking Lobby Capture of Fed
+b.ts   | bankruptcy-fraud-hidden-asset-schemes                      | Bankruptcy Fraud Hidden Asset Schemes
+b.ts   | big-pharma-patent-evergreening                             | Big Pharma Patent Evergreening
+b.ts   | big-tech-antitrust-failures                                | Big Tech Antitrust Failures
+b.ts   | big-tech-monopoly                                          | Big Tech Monopoly
+b.ts   | big-tobacco-conspiracy                                     | Big Tobacco Conspiracy
+b.ts   | billionaire-tax-avoidance                                  | Billionaire Tax Avoidance
+b.ts   | boeing-safety-failures                                     | Boeing Safety Failures
+b.ts   | bop-failures                                               | BOP Failures
+b.ts   | border-deaths                                              | Border Deaths
+b.ts   | boston-archdiocese-coverup                                 | Boston Archdiocese Coverup
+b.ts   | botham-jean-murder                                         | Botham Jean Murder
+b.ts   | brian-sicknick                                             | Brian Sicknick
+b.ts   | buffalo-massacre                                           | Buffalo Massacre
+c.ts   | cambridge-analytica-global-operations                      | Cambridge Analytica Global Operations
+c.ts   | campaign-finance-loopholes-exploited                       | Campaign Finance Loopholes Exploited
+c.ts   | cash-bail-system-economic-racism                           | Cash Bail System Economic Racism
+c.ts   | catholic-church-abuse                                      | Catholic Church Abuse
+c.ts   | cbs-sexual-harassment                                      | CBS Sexual Harassment
+c.ts   | celsius-collapse                                           | Celsius Collapse
+c.ts   | central-america-death-squads                               | Central America Death Squads
+c.ts   | charleston-massacre                                        | Charleston Massacre
+c.ts   | charlie-rose-harassment                                    | Charlie Rose Harassment
+c.ts   | chemical-plant-explosion-investigation                     | Chemical Plant Explosion Investigation
+c.ts   | chemical-plant-safety-failures                             | Chemical Plant Safety Failures
+c.ts   | chevron-ecuador                                            | Chevron Ecuador
+c.ts   | chicago-police-coverup                                     | Chicago Police Coverup
+c.ts   | chicago-police-torture                                     | Chicago Police Torture
+c.ts   | child-exploitation                                         | Child Exploitation
+c.ts   | child-exploitation-online-networks                         | Child Exploitation Online Networks
+c.ts   | child-sexual-abuse                                         | Child Sexual Abuse
+c.ts   | china-business-complicity                                  | China Business Complicity
+c.ts   | china-cyber-espionage                                      | China Cyber Espionage
+c.ts   | chinese-triad-financial-networks                           | Chinese Triad Financial Networks
+c.ts   | church-committee-revelations                               | Church Committee Revelations
+c.ts   | cia-black-site-torture-program                             | CIA Black Site Torture Program
+c.ts   | citizens-united-dark-money-pipeline                        | Citizens United Dark Money Pipeline
+c.ts   | civil-asset-forfeiture-abuse                               | Civil Asset Forfeiture Abuse
+c.ts   | classification-system-reform-failures                      | Classification System Reform Failures
+c.ts   | classified-document-declassification-delays                | Classified Document Declassification Delays
+c.ts   | climate-change-denial-industry                             | Climate Change Denial Industry
+c.ts   | cointelpro-domestic-surveillance-legacy                    | COINTELPRO Domestic Surveillance Legacy
+c.ts   | construction-industry-bid-rigging-networks                 | Construction Industry Bid Rigging Networks
+c.ts   | construction-worker-trafficking-schemes                    | Construction Worker Trafficking Schemes
+c.ts   | corporate-capture-of-epa                                   | Corporate Capture of EPA
+c.ts   | corporate-environmental-crime-prosecution-gap              | Corporate Environmental Crime Prosecution Gap
+c.ts   | cryptocurrency-money-laundering-networks                   | Cryptocurrency Money Laundering Networks
+d.ts   | depleted-uranium-battlefield-legacy                        | Depleted Uranium Battlefield Legacy
+d.ts   | digital-advertising-surveillance-pipeline                  | Digital Advertising Surveillance Pipeline
+d.ts   | dna-database-privacy-violations                            | DNA Database Privacy Violations
+d.ts   | domestic-terrorism                                         | NO TITLE
+d.ts   | drug-recall-delay-responsibility                           | Drug Recall Delay Responsibility
+d.ts   | drug-war-racial-disparities                                | Drug War Racial Disparities
+e.ts   | election-denial                                            | Election Denial Movement
+e.ts   | election-manipulation-through-algorithms                   | Election Manipulation Through Algorithms
+e.ts   | electoral-college-manipulation                             | Electoral College Manipulation
+e.ts   | electromagnetic-field-reproductive-impact                  | Electromagnetic Field Reproductive Impact
+e.ts   | electronic-voting-machine-vulnerabilities                  | Electronic Voting Machine Vulnerabilities
+e.ts   | emf-radiation-research-suppression                         | EMF Radiation Research Suppression
+e.ts   | environmental-justice-community-mapping                    | Environmental Justice Community Mapping
+e.ts   | extraordinary-rendition-flight-logs                        | Extraordinary Rendition Flight Logs
+f.ts   | facial-recognition-policing-bias                           | Facial Recognition Policing Bias
+f.ts   | fda-advisory-committee-conflicts                           | FDA Advisory Committee Conflicts
+f.ts   | financial-fraud-network-mapping                            | Financial Fraud Network Mapping
+f.ts   | foster-care-to-trafficking-pipeline                        | Foster Care to Trafficking Pipeline
+g.ts   | generic-drug-price-fixing-conspiracy                       | Generic Drug Price Fixing Conspiracy
+g.ts   | government-contract-fraud-patterns                         | Government Contract Fraud Patterns
+g.ts   | government-records-destruction-incidents                   | Government Records Destruction Incidents
+g.ts   | gulf-of-tonkin-fabricated-incident                         | Gulf of Tonkin Fabricated Incident
+h.ts   | health-data-privacy-violation-patterns                     | Health Data Privacy Violation Patterns
+h.ts   | hotel-industry-trafficking-complicity-report               | Hotel Industry Trafficking Complicity Report
+h.ts   | human-trafficking-global-networks                          | Human Trafficking Global Networks
+i.ts   | industrial-water-contamination-database                    | Industrial Water Contamination Database
+i.ts   | inspector-general-independence-threats                     | Inspector General Independence Threats
+i.ts   | insurance-fraud-organized-networks                         | Insurance Fraud Organized Networks
+i.ts   | iran-contra-full-financial-trail                           | Iran-Contra Full Financial Trail
+j.ts   | journalistic-source-protection-failures                    | Journalistic Source Protection Failures
+l.ts   | law-enforcement-social-media-monitoring                    | Law Enforcement Social Media Monitoring
+l.ts   | license-plate-reader-mass-collection                       | License Plate Reader Mass Collection
+l.ts   | long-haul-trucking-route-exploitation                      | Long Haul Trucking Route Exploitation
+m.ts   | mass-formation-psychosis-media-analysis                    | Mass Formation Psychosis Media Analysis
+m.ts   | mass-surveillance-domestic-architecture                    | Mass Surveillance Domestic Architecture
+m.ts   | media-consolidation-democracy-threat                       | Media Consolidation Democracy Threat
+m.ts   | military-industrial-complex-profit-pipeline                | Military Industrial Complex Profit Pipeline
+m.ts   | mining-industry-environmental-destruction                  | Mining Industry Environmental Destruction
+m.ts   | modern-behavioral-influence-programs                       | Modern Behavioral Influence Programs
+n.ts   | nuclear-weapons-complex-environmental-crime                | Nuclear Weapons Complex Environmental Crime
+o.ts   | operation-ajax-iran-coup-1953                              | Operation Ajax Iran Coup 1953
+o.ts   | operation-condor-latin-america-terror                      | Operation Condor Latin America Terror
+o.ts   | operation-fast-and-furious-gun-walking                     | Operation Fast and Furious Gun Walking
+o.ts   | operation-gladio-stay-behind-networks                      | Operation Gladio Stay-Behind Networks
+o.ts   | operation-mockingbird-modern-successors                    | Operation Mockingbird Modern Successors
+o.ts   | operation-paperclip-nazi-scientist-import                  | Operation Paperclip Nazi Scientist Import
+o.ts   | operation-pbsuccess-guatemala-coup                         | Operation PBSUCCESS Guatemala Coup
+o.ts   | organized-crime-in-construction-industry                   | Organized Crime in Construction Industry
+p.ts   | parkland-shooting                                          | NO TITLE
+p.ts   | penny-stock-pump-and-dump-networks                         | Penny Stock Pump and Dump Networks
+p.ts   | pentagon-budget-black-programs                             | Pentagon Budget Black Programs
+p.ts   | pharmaceutical-ghost-writing                               | Pharmaceutical Ghost Writing
+p.ts   | pharmaceutical-lobbying-machine                            | Pharmaceutical Lobbying Machine
+p.ts   | port-authority-corruption-investigations                   | Port Authority Corruption Investigations
+p.ts   | port-city-trafficking-hub-analysis                         | Port City Trafficking Hub Analysis
+p.ts   | predictive-policing-algorithmic-racism                     | Predictive Policing Algorithmic Racism
+p.ts   | private-military-contractor-accountability                 | Private Military Contractor Accountability
+p.ts   | psychological-operations-domestic-theater                  | Psychological Operations Domestic Theater
+q.ts   | qualified-immunity-police-accountability-gap               | Qualified Immunity Police Accountability Gap
+r.ts   | real-estate-money-laundering-corridors                     | Real Estate Money Laundering Corridors
+r.ts   | redaction-abuse-in-public-documents                        | Redaction Abuse in Public Documents
+r.ts   | redistricting-manipulation-court-cases                     | Redistricting Manipulation Court Cases
+s.ts   | secret-court-fisa-abuse-patterns                           | Secret Court FISA Abuse Patterns
+s.ts   | shell-company-registration-state-analysis                  | Shell Company Registration State Analysis
+s.ts   | social-media-addiction-engineering                         | Social Media Addiction Engineering
+s.ts   | social-media-bot-farm-election-campaigns                   | Social Media Bot Farm Election Campaigns
+s.ts   | spac-fraud-and-regulatory-failures                         | SPAC Fraud and Regulatory Failures
+t.ts   | tech-worker-exploitation-visa-system                       | Tech Worker Exploitation Visa System
+t.ts   | techno-authoritarianism-control-mechanisms                 | Techno-Authoritarianism Control Mechanisms
+t.ts   | think-tank-dark-money-influence                            | Think Tank Dark Money Influence
+t.ts   | toxic-waste-dumping-developing-nations                     | Toxic Waste Dumping Developing Nations
+t.ts   | trade-based-money-laundering-schemes                       | Trade-Based Money Laundering Schemes
+t.ts   | trafficking-in-conflict-zones                              | Trafficking in Conflict Zones
+t.ts   | trafficking-victim-identification-failures                 | Trafficking Victim Identification Failures
+t.ts   | trucking-industry-organized-crime                          | Trucking Industry Organized Crime
+u.ts   | union-pension-fund-fraud-schemes                           | Union Pension Fund Fraud Schemes
+v.ts   | vaccine-injury-compensation-cover-up                       | Vaccine Injury Compensation Cover-Up
+v.ts   | voter-database-security-breaches                           | Voter Database Security Breaches
+v.ts   | voter-roll-purges-and-suppression-tactics                  | Voter Roll Purges and Suppression Tactics
+v.ts   | voting-machine-certification-failures                      | Voting Machine Certification Failures
+w.ts   | water-treatment-chemical-health-effects                    | Water Treatment Chemical Health Effects
+w.ts   | whistleblower-prosecution-timeline                         | Whistleblower Prosecution Timeline
+w.ts   | wire-fraud-transnational-networks                          | Wire Fraud Transnational Networks
+w.ts   | wire-transfer-fraud-international-corridors                | Wire Transfer Fraud International Corridors
+w.ts   | workplace-monitoring-technology-growth                     | Workplace Monitoring Technology Growth
+x.ts   | xkeyscore-universal-data-collection                        | XKeyscore Universal Data Collection
+
+
+=== PER-FILE BREAKDOWN ===
+c.ts  : 66 thin entries
+p.ts  : 44 thin entries
+t.ts  : 34 thin entries
+s.ts  : 28 thin entries
+a.ts  : 28 thin entries
+m.ts  : 21 thin entries
+w.ts  : 19 thin entries
+e.ts  : 18 thin entries
+f.ts  : 18 thin entries
+b.ts  : 18 thin entries
+r.ts  : 17 thin entries
+i.ts  : 15 thin entries
+o.ts  : 15 thin entries
+g.ts  : 14 thin entries
+d.ts  : 13 thin entries
+h.ts  : 9 thin entries
+u.ts  : 8 thin entries
+n.ts  : 7 thin entries
+v.ts  : 7 thin entries
+l.ts  : 6 thin entries
+k.ts  : 4 thin entries
+j.ts  : 3 thin entries
+y.ts  : 2 thin entries
+1.ts  : 2 thin entries
+2.ts  : 1 thin entries
+q.ts  : 1 thin entries
+x.ts  : 1 thin entries

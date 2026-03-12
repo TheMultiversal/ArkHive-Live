@@ -388,22 +388,32 @@ const investigations_l: Record<string, InvestigationData> = {
 
   'las-vegas-shooting': {
     title: "Las Vegas Mass Shooting",
-    subtitle: "The deadliest mass shooting in modern American history: 60 killed, 413 wounded",
+    subtitle: "The deadliest mass shooting in modern American history: 60 killed, 413 wounded, and a motive that was never determined",
     severity: "critical",
     category: "Mass Shooting",
     date: "October 1, 2017",
     lastUpdated: "March 10, 2026",
-    summary: "Stephen Paddock opened fire from the 32nd floor of the Mandalay Bay hotel onto the Route 91 Harvest music festival crowd, killing 60 people and wounding 413. Despite extensive investigation, no motive was ever determined. The FBI closed its case without finding one.",
+    summary: "Stephen Paddock opened fire from the 32nd floor of the Mandalay Bay hotel onto the Route 91 Harvest music festival crowd, killing 60 people and wounding 413. Despite extensive investigation by the FBI and LVMPD, no motive was ever determined; making it the deadliest mass shooting in modern American history and one of its least understood.",
     content: [
-      "THE ATTACK: Paddock fired over 1,000 rounds in 10 minutes from two broken-out windows using bump stock-equipped rifles.",
-      "NO MOTIVE: The FBI and LVMPD concluded in 2019 that no single motive could be identified.",
-      "GUN POLICY: The shooting led to bump stock bans, though the Supreme Court later struck down the federal ban in 2024.",
+      "THE ATTACK: On the night of October 1, 2017, Stephen Paddock, 64, fired over 1,000 rounds from the 32nd floor of the Mandalay Bay Resort and Casino onto a crowd of 22,000 people attending the Route 91 Harvest country music festival below. He fired for approximately 10 minutes using 14 AR-15 style rifles equipped with bump stocks; devices that allowed semi-automatic weapons to simulate automatic fire at approximately 90 rounds every 10 seconds.",
+      "THE ARSENAL: Paddock had checked into the hotel three days earlier with 23 firearms, including 14 AR-15 rifles fitted with bump stocks and 100-round magazines. He also had a cache of additional weapons at his home in Mesquite, Nevada. All firearms were purchased legally over the preceding year. He set up cameras in the hallway to monitor the approach of police or hotel security. The level of planning and the size of the arsenal indicated preparation over weeks or months.",
+      "THE DEATH TOLL: Sixty people were killed and 413 were wounded by gunfire. An additional 456 people were injured during the panic and crush to escape. Victims ranged in age from 20 to 67 and came from multiple states and countries. Many victims were shielded by others who used their bodies as protection. First responders described a scene they compared to a warzone; with victims strewn across a massive outdoor area.",
+      "NO MOTIVE: Despite one of the most extensive FBI investigations in history; involving hundreds of agents, thousands of interviews, and exhaustive analysis of Paddock's finances, communications, and personal history; no single motive was ever identified. The FBI's Behavioral Analysis Unit concluded in January 2019 that Paddock acted alone and was not motivated by ideology, financial distress, or diagnosed mental illness. He killed himself in the hotel room before police entry.",
+      "THE INVESTIGATION: The FBI and LVMPD investigation revealed Paddock was a retired accountant, real estate investor, and high-stakes video poker player who had won and lost millions in Las Vegas casinos. He had no criminal record, no social media presence, no manifesto, and no known affiliations with extremist groups. His brother described him as 'not normal' but not threatening. His girlfriend, Marilou Danley, was in the Philippines during the attack and was investigated but not charged.",
+      "HOTEL SECURITY FAILURES: Mandalay Bay security officer Jesus Campos was shot through the door of Paddock's suite six minutes before Paddock began firing on the crowd. The timeline of Campos's encounter was disputed between MGM Resorts and the LVMPD; with MGM initially claiming Campos was shot during the attack, then acknowledging he was shot before. Questions about why the hotel did not alert police faster were never fully resolved. MGM settled with victims for $800 million.",
+      "GUN POLICY: The shooting led to bipartisan calls to ban bump stocks. The Trump administration directed the ATF to classify bump stocks as machine guns; effectively banning them. The ban was challenged in court and ultimately struck down by the Supreme Court in Garland v. Cargill (2024) in a 6-3 decision, with the majority ruling that bump stocks did not meet the statutory definition of a machine gun. No other gun legislation resulted from the shooting.",
+      "CONSPIRACY THEORIES: The absence of a motive spawned extensive conspiracy theories; including claims of multiple shooters, ISIS involvement, arms dealing operations, and government cover-ups. None were supported by evidence. The conspiracy theories compounded the trauma experienced by survivors and victims' families; some of whom were harassed by conspiracy theorists in the years following the shooting.",
+      "AFTERMATH: The Route 91 Harvest festival site remained an empty lot for years after the shooting. Mandalay Bay implemented enhanced security measures including metal detectors and security patrols. MGM Resorts was sued by thousands of victims and reached an $800 million settlement in 2019. Many survivors experienced severe PTSD, and at least two survivors later died by suicide. The shooting remains the deadliest mass shooting by a single individual in United States history.",
     ],
-    tags: ["Mass Shooting","Las Vegas","Gun Violence","Bump Stocks","Mandalay Bay"],
+    tags: ["Mass Shooting","Las Vegas","Gun Violence","Bump Stocks","Mandalay Bay","Stephen Paddock"],
     sources: [
       { title: "LVMPD Final Report", url: "https://www.lvmpd.com/en-us/Documents/1-October-FIT-Criminal-Investigative-Report-FINAL.pdf", type: "Investigation" },
+      { title: "FBI Behavioral Analysis Unit Report", url: "https://www.fbi.gov/file-repository/las-vegas-shooting-summary-of-findings.pdf", type: "Government Report" },
+      { title: "Garland v. Cargill (Supreme Court)", url: "https://www.supremecourt.gov/opinions/23pdf/22-976_e29g.pdf", type: "Court Document" },
     ],
-    affiliations: [],
+    affiliations: [
+      { id: '1', name: 'FBI', type: 'agency', relationship: 'Led the federal investigation; Behavioral Analysis Unit concluded no motive could be determined', href: '/entities/agencies/fbi' },
+    ],
   },
 };
 
