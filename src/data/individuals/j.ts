@@ -8677,7 +8677,7 @@ const profiles: Record<string, IndividualProfile> = {
  name: 'JPMorgan Chase',
  title: 'Profile Under Review',
  role: 'Corporation',
- riskLevel: 'moderate',
+ riskLevel: 'medium',
  description: 'JPMorgan Chase. Profile pending review.',
  education: [],
  affiliations: [

@@ -2878,7 +2878,7 @@ const profiles: Record<string, IndividualProfile> = {
  name: 'Goldman Sachs',
  title: 'Profile Under Review',
  role: 'Corporation',
- riskLevel: 'moderate',
+ riskLevel: 'medium',
  description: 'Goldman Sachs. Profile pending review.',
  education: [],
  affiliations: [

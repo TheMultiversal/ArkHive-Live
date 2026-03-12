@@ -1554,7 +1554,7 @@ const profiles: Record<string, IndividualProfile> = {
  name: 'Northrop Grumman',
  title: 'Profile Under Review',
  role: 'Corporation',
- riskLevel: 'moderate',
+ riskLevel: 'medium',
  description: 'Northrop Grumman. Profile pending review.',
  education: [],
  affiliations: [

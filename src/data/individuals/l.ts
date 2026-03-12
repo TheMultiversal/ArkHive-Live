@@ -2940,7 +2940,7 @@ const profiles: Record<string, IndividualProfile> = {
  name: 'Lockheed Martin',
  title: 'Profile Under Review',
  role: 'Corporation',
- riskLevel: 'moderate',
+ riskLevel: 'medium',
  description: 'Lockheed Martin. Profile pending review.',
  education: [],
  affiliations: [

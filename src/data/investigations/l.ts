@@ -179,7 +179,7 @@ const investigations_l: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Chicago Police Department', type: 'agency', relationship: 'Employer of Van Dyke; participated in cover-up', href: '/entities/agencies/lapd-ig' },
  { id: '2', name: 'DOJ Civil Rights Division', type: 'agency', relationship: 'Investigated CPD pattern of abuse', href: '/entities/agencies/doj-civil-rights' },
- { id: '3', name: 'Rahm Emanuel', type: 'individual', relationship: 'Mayor who suppressed dashcam video for 13 months' },
+ { id: '3', name: 'Rahm Emanuel', type: 'individual', relationship: 'Mayor who suppressed dashcam video for 13 months', href: '/entities/individuals/rahm-emanuel' },
  { id: '4', name: 'FBI', type: 'agency', relationship: 'Investigated Burger King footage deletion', href: '/entities/agencies/fbi' },
  ],
  },
