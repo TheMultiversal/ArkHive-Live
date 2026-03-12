@@ -1051,25 +1051,6 @@ const investigations_g: Record<string, InvestigationData> = {
     ],
     affiliations: [],
   },
-  'georgia-voter-suppression': {
-    title: "Georgia Voter Suppression",
-    subtitle: "Systematic disenfranchisement tactics targeting minority voters in Georgia elections",
-    severity: "critical",
-    category: "Election Integrity",
-    date: "November 6, 2018",
-    lastUpdated: "March 10, 2026",
-    summary: "Georgia has been ground zero for voter suppression tactics including exact-match voter purges, polling place closures in minority communities, long wait times, and restrictive voter ID laws that disproportionately affect Black voters.",
-    content: [
-      "BRIAN KEMP PURGES: As Secretary of State overseeing his own gubernatorial race in 2018, Brian Kemp purged over 340,000 voters from rolls and put 53,000 registrations on hold — 70% belonging to Black voters.",
-      "POLLING PLACE CLOSURES: Rural and minority communities saw 214 polling places closed between 2012 and 2018, forcing voters to travel longer distances.",
-      "SB 202: After the 2020 election, Georgia passed SB 202 restricting drop boxes, criminalizing giving food/water to voters in line, and giving the legislature power to take over county election boards.",
-    ],
-    tags: ["Voter Suppression","Georgia","Election Integrity","Voting Rights","Brian Kemp"],
-    sources: [
-      { title: "Brennan Center Voter Purge Analysis", url: "https://www.brennancenter.org/our-work/research-reports/voter-purge-rates-remain-high-analysis-finds", type: "Research" },
-    ],
-    affiliations: [],
-  },
 };
 
 export default investigations_g;

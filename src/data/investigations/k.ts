@@ -267,25 +267,6 @@ const investigations_k: Record<string, InvestigationData> = {
     ],
     affiliations: [],
   },
-  'kenosha-shootings': {
-    title: "Kenosha Shootings & Kyle Rittenhouse",
-    subtitle: "When a 17-year-old with an AR-15 killed two people at a racial justice protest and was acquitted",
-    severity: "high",
-    category: "Gun Violence",
-    date: "August 25, 2020",
-    lastUpdated: "March 10, 2026",
-    summary: "During racial justice protests in Kenosha, Wisconsin following the police shooting of Jacob Blake, 17-year-old Kyle Rittenhouse traveled from Illinois with an AR-15 and killed two people. His acquittal on all charges became a flashpoint in debates over self-defense, race, and vigilantism.",
-    content: [
-      "THE SHOOTINGS: Rittenhouse shot three people, killing Joseph Rosenbaum and Anthony Huber, and wounding Gaige Grosskreutz, during protests over the police shooting of Jacob Blake.",
-      "THE ACQUITTAL: Rittenhouse was acquitted on all charges including homicide, with the jury accepting his self-defense claim despite his voluntary presence at the protest with an assault rifle.",
-      "LAW ENFORCEMENT RESPONSE: Video showed Kenosha police offering water to armed militia members before the shooting and driving past Rittenhouse as he walked toward them with his hands up after killing two people.",
-    ],
-    tags: ["Kenosha","Kyle Rittenhouse","Self-Defense","Vigilantism","Gun Violence","Protests"],
-    sources: [
-      { title: "Rittenhouse Trial Records", url: "https://www.kenosha.org/", type: "Court Document" },
-    ],
-    affiliations: [],
-  },
 };
 
 export default investigations_k;

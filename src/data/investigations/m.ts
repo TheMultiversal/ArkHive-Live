@@ -1088,25 +1088,6 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     affiliations: [],
   },
-  'michael-brown-shooting': {
-    title: "Michael Brown Shooting & Ferguson Uprising",
-    subtitle: "The police killing that ignited a national reckoning on race and policing in America",
-    severity: "critical",
-    category: "Police Violence",
-    date: "August 9, 2014",
-    lastUpdated: "March 10, 2026",
-    summary: "On August 9, 2014, Ferguson police officer Darren Wilson shot and killed 18-year-old Michael Brown. The killing and subsequent non-indictment sparked weeks of protests and a DOJ investigation that exposed systemic racism in Ferguson's police and court system.",
-    content: [
-      "THE SHOOTING: Officer Darren Wilson shot Michael Brown at least 6 times, killing the unarmed 18-year-old. His body lay in the street for over four hours.",
-      "DOJ FERGUSON REPORT: The Department of Justice investigation found Ferguson used its police and courts as a revenue collection system, disproportionately targeting Black residents with fines, fees, and warrants.",
-      "PROTESTS AND MILITARIZATION: The military-grade response to peaceful protesters — armored vehicles, tear gas, rubber bullets — shocked the nation and exposed the militarization of American police.",
-    ],
-    tags: ["Police Shooting","Ferguson","Michael Brown","BLM","DOJ Investigation"],
-    sources: [
-      { title: "DOJ Investigation of Ferguson Police Department", url: "https://www.justice.gov/sites/default/files/opa/press-releases/attachments/2015/03/04/ferguson_police_department_report.pdf", type: "Government Report" },
-    ],
-    affiliations: [],
-  },
   'mass-shootings': {
     title: "American Mass Shooting Epidemic",
     subtitle: "The uniquely American crisis of gun violence claiming thousands of lives while lawmakers refuse to act",
@@ -1124,26 +1105,6 @@ const investigations_m: Record<string, InvestigationData> = {
     tags: ["Mass Shootings","Gun Violence","NRA","Gun Control","Public Safety"],
     sources: [
       { title: "Gun Violence Archive", url: "https://www.gunviolencearchive.org/", type: "Database" },
-    ],
-    affiliations: [],
-  },
-  'media-industry-abuse': {
-    title: "Media Industry Abuse & Cover-Ups",
-    subtitle: "How media conglomerates enabled abuse, suppressed stories, and protected powerful predators",
-    severity: "high",
-    category: "Media Accountability",
-    date: "October 5, 2017",
-    lastUpdated: "March 10, 2026",
-    summary: "The media industry has a systemic abuse problem. From Harvey Weinstein at Miramax to Roger Ailes at Fox News to Les Moonves at CBS, powerful executives used their positions to sexually harass and assault employees while networks suppressed the stories.",
-    content: [
-      "WEINSTEIN AND NBC: NBC News killed Ronan Farrow's Harvey Weinstein investigation, allowing the New Yorker to break the story instead. NBC's suppression raised questions about protecting powerful figures.",
-      "FOX NEWS CULTURE: Roger Ailes and Bill O'Reilly created a culture of sexual harassment at Fox News, paying tens of millions in settlements while the network covered up the abuse.",
-      "CBS AND LES MOONVES: CBS CEO Les Moonves was accused of sexual harassment by multiple women. The company's board initially defended him before he was forced out.",
-      "WHISTLEBLOWER RETALIATION: Journalists who tried to report on industry abuse faced career destruction, NDAs, and legal threats.",
-    ],
-    tags: ["Media Abuse","Weinstein","Fox News","MeToo","Press Freedom"],
-    sources: [
-      { title: "Farrow, Ronan. Catch and Kill.", url: "https://www.littlebrown.com/titles/ronan-farrow/catch-and-kill/9780316486637/", type: "Book" },
     ],
     affiliations: [],
   },
