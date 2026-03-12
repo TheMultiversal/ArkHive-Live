@@ -10,9 +10,9 @@ export async function POST(req: Request) {
  try {
  const body = await req.json();
  const password = String(body?.password || '');
- const SITE_PASSWORD = process.env.SITE_PASSWORD || 'Knowledge';
+ const SITE_PASSWORD = process.env.SITE_PASSWORD || 'Apples1!';
 
- if (password.toLowerCase() === SITE_PASSWORD.toLowerCase()) {
+ if (password === SITE_PASSWORD) {
  // set cookie via NextResponse (works consistently in route handlers)
  const res = NextResponse.json({ ok: true });
  res.cookies.set({

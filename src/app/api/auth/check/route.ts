@@ -6,9 +6,9 @@ export const dynamic = 'force-dynamic';
 export async function GET() {
   const cookieStore = await cookies();
   const token = cookieStore.get('site_auth')?.value;
-  const SITE_PASSWORD = process.env.SITE_PASSWORD || 'Knowledge';
+  const SITE_PASSWORD = process.env.SITE_PASSWORD || 'Apples1!';
 
-  if (token && token.toLowerCase() === SITE_PASSWORD.toLowerCase()) {
+  if (token && token === SITE_PASSWORD) {
     return NextResponse.json({ authenticated: true });
   }
 

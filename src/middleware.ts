@@ -1,21 +1,32 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-// ═══════════════════════════════════════════════════════════════════
-// PASSWORD GATE MIDDLEWARE
-// NOTE: Disabled for static export (GitHub Pages deployment).
-// Middleware does not run in `output: 'export'` mode.
-// The site is publicly accessible when deployed to GitHub Pages.
-// For local development with auth, use `npm run dev` without
-// `output: 'export'` in next.config.ts.
-// ═══════════════════════════════════════════════════════════════════
-
-const PUBLIC_FILE = /\.(.*)$/;
+const SITE_PASSWORD = process.env.SITE_PASSWORD || 'Apples1!';
 
 export function middleware(req: NextRequest) {
-  // Static export mode, allow everything through
-  // The site is live and public on GitHub Pages
-  return NextResponse.next();
+  const { pathname } = req.nextUrl;
+
+  // Allow public paths: /enter, API routes, static assets
+  if (
+    pathname === '/enter' ||
+    pathname.startsWith('/api/') ||
+    pathname.startsWith('/_next/') ||
+    pathname.startsWith('/favicon') ||
+    pathname.match(/\.(.*)$/)
+  ) {
+    return NextResponse.next();
+  }
+
+  // Check for auth cookie
+  const token = req.cookies.get('site_auth')?.value;
+  if (token && token === SITE_PASSWORD) {
+    return NextResponse.next();
+  }
+
+  // Redirect to /enter
+  const enterUrl = req.nextUrl.clone();
+  enterUrl.pathname = '/enter';
+  return NextResponse.redirect(enterUrl);
 }
 
 export const config = {
