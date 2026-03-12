@@ -457,7 +457,7 @@ const investigations_h: Record<string, InvestigationData> = {
     category: "Healthcare",
     date: "January 1, 2010",
     lastUpdated: "March 10, 2026",
-    summary: "The U.S. spends $4.3 trillion annually on healthcare — double the per-capita spending of peer nations — while ranking last in outcomes. Medical debt is the leading cause of bankruptcy. Insurance companies deny claims algorithmically while executives earn hundreds of millions.",
+    summary: "The U.S. spends $4.3 trillion annually on healthcare - double the per-capita spending of peer nations - while ranking last in outcomes. Medical debt is the leading cause of bankruptcy. Insurance companies deny claims algorithmically while executives earn hundreds of millions.",
     content: [
       "INSURANCE DENIALS: UnitedHealth Group used AI algorithms to deny elderly patients' claims. CEO Andrew Witty earned $22M while the company denied millions of claims.",
       "MEDICAL BANKRUPTCY: Two-thirds of U.S. bankruptcies are tied to medical debt. 100 million Americans carry medical debt.",

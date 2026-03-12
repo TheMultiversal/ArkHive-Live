@@ -2789,7 +2789,7 @@ const investigations_c: Record<string, InvestigationData> = {
     category: "Environmental",
     date: "January 1, 1977",
     lastUpdated: "March 10, 2026",
-    summary: "Exxon scientists accurately predicted global warming in 1977. For decades, fossil fuel companies spent billions funding climate denial, lobbying against regulation, and misleading the public — while quietly adapting their own infrastructure for the warming they knew was coming.",
+    summary: "Exxon scientists accurately predicted global warming in 1977. For decades, fossil fuel companies spent billions funding climate denial, lobbying against regulation, and misleading the public - while quietly adapting their own infrastructure for the warming they knew was coming.",
     content: [
       "EXXON KNEW: Internal documents from the 1970s-80s show Exxon scientists accurately predicted warming to within fractions of a degree.",
       "DENIAL MACHINE: The fossil fuel industry funded think tanks, fake grassroots organizations, and sympathetic scientists to manufacture doubt.",
@@ -2809,7 +2809,7 @@ const investigations_c: Record<string, InvestigationData> = {
     category: "Labor Rights",
     date: "January 1, 2015",
     lastUpdated: "March 10, 2026",
-    summary: "Corporate wage theft exceeds $50 billion annually — more than all robberies, burglaries, and motor vehicle thefts combined. Companies like Amazon, Walmart, and McDonald's systematically suppress wages, bust unions, and exploit workers while generating record profits.",
+    summary: "Corporate wage theft exceeds $50 billion annually - more than all robberies, burglaries, and motor vehicle thefts combined. Companies like Amazon, Walmart, and McDonald's systematically suppress wages, bust unions, and exploit workers while generating record profits.",
     content: [
       "WAGE THEFT: The Economic Policy Institute estimates employers steal $50B+ annually from workers through unpaid overtime, minimum wage violations, and tip theft.",
       "UNION BUSTING: Amazon spent millions on anti-union consultants. Starbucks fired hundreds of union organizers.",
@@ -2867,9 +2867,9 @@ const investigations_c: Record<string, InvestigationData> = {
     category: "Public Health",
     date: "March 1, 2020",
     lastUpdated: "March 10, 2026",
-    summary: "Coordinated disinformation about COVID-19 — from anti-vaccine campaigns to unproven treatments — prolonged the pandemic and contributed to hundreds of thousands of preventable deaths in the United States.",
+    summary: "Coordinated disinformation about COVID-19 - from anti-vaccine campaigns to unproven treatments - prolonged the pandemic and contributed to hundreds of thousands of preventable deaths in the United States.",
     content: [
-      "ANTI-VACCINE NETWORKS: The \"Disinformation Dozen\" — 12 accounts — generated 65% of anti-vaccine content on social media platforms.",
+      "ANTI-VACCINE NETWORKS: The \"Disinformation Dozen\" - 12 accounts - generated 65% of anti-vaccine content on social media platforms.",
       "POLITICAL WEAPONIZATION: Masks, lockdowns, and vaccines became partisan identity markers rather than public health measures.",
       "UNPROVEN TREATMENTS: Ivermectin and hydroxychloroquine were promoted by political figures despite lack of evidence, diverting from effective interventions.",
       "PLATFORM PROFITS: Social media companies profited from engagement-driven algorithms that amplified false health claims.",

@@ -12,12 +12,12 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const isSplash = pathname === '/' || pathname === '/enter';
 
-  // On /enter — render children only (fullscreen splash, no chrome)
+  // On /enter - render children only (fullscreen splash, no chrome)
   if (isSplash) {
     return <>{children}</>;
   }
 
-  // Normal pages — full site shell
+  // Normal pages - full site shell
   return (
     <>
       <SumerianMatrixRain />

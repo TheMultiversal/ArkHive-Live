@@ -5,7 +5,7 @@ import { usePathname, useRouter } from 'next/navigation';
 
 /**
  * Client-side auth gate.
- * Checks /api/auth/check — if not authenticated, redirects to /enter.
+ * Checks /api/auth/check - if not authenticated, redirects to /enter.
  * The /enter page itself is excluded from the check.
  */
 export default function AuthGate({
@@ -57,7 +57,7 @@ export default function AuthGate({
     return <>{children}</>;
   }
 
-  // Authenticated — render full site
+  // Authenticated - render full site
   return (
     <>
       {header}

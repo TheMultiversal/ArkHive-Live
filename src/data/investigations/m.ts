@@ -1080,7 +1080,7 @@ const investigations_m: Record<string, InvestigationData> = {
     content: [
       "ANTI-VACCINE MOVEMENT: Vaccine hesitancy, fueled by debunked claims, led to measles outbreaks and millions refusing COVID vaccination.",
       "SOCIAL MEDIA AMPLIFICATION: Health misinformation gets 6x more engagement than accurate health information on social media.",
-      "POLITICIZATION: Medical decisions became partisan — masks, vaccines, and treatments became identity politics rather than science.",
+      "POLITICIZATION: Medical decisions became partisan - masks, vaccines, and treatments became identity politics rather than science.",
     ],
     tags: ["Medical Misinformation","Anti-Vaccine","Public Health","Social Media","COVID-19"],
     sources: [
@@ -1097,7 +1097,7 @@ const investigations_m: Record<string, InvestigationData> = {
     lastUpdated: "March 10, 2026",
     summary: "The United States experiences more mass shootings than any other developed nation. From Columbine to Uvalde, the pattern repeats: tragedy, grief, political stalemate, inaction. Gun violence kills over 45,000 Americans annually.",
     content: [
-      "SCALE OF CRISIS: The U.S. has had over 2,000 mass shootings since Sandy Hook (2012). Gun violence kills over 45,000 Americans per year — more than car accidents.",
+      "SCALE OF CRISIS: The U.S. has had over 2,000 mass shootings since Sandy Hook (2012). Gun violence kills over 45,000 Americans per year - more than car accidents.",
       "LEGISLATIVE FAILURE: Despite overwhelming public support for background checks and assault weapon restrictions, Congress has repeatedly failed to pass meaningful gun legislation.",
       "NRA INFLUENCE: The National Rifle Association spent over $250 million on political activities between 2000-2020, blocking gun safety legislation at federal and state levels.",
       "UNIQUELY AMERICAN: No other developed nation experiences mass shootings at anywhere near the American rate. Countries that enacted gun control after mass shootings saw dramatic reductions in gun deaths.",

@@ -40,7 +40,7 @@ export default function EnterPage() {
    className="text-sm sm:text-base text-zinc-400 max-w-md mb-10 leading-relaxed"
   >
    Investigative documentation platform. Political corruption, financial crimes,
-   and institutional accountability — through court records, primary sources,
+   and institutional accountability - through court records, primary sources,
    and verified evidence.
   </motion.p>
 

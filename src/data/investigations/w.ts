@@ -873,7 +873,7 @@ const investigations_w: Record<string, InvestigationData> = {
     category: "International",
     date: "July 1, 1944",
     lastUpdated: "March 10, 2026",
-    summary: "The World Bank has been documented funding projects that displaced millions of people, destroyed ecosystems, propped up authoritarian regimes, and imposed austerity programs that deepened poverty — while enriching contractors from wealthy nations.",
+    summary: "The World Bank has been documented funding projects that displaced millions of people, destroyed ecosystems, propped up authoritarian regimes, and imposed austerity programs that deepened poverty - while enriching contractors from wealthy nations.",
     content: [
       "FORCED DISPLACEMENT: World Bank-funded projects displaced an estimated 3.4 million people in the decade ending 2014.",
       "STRUCTURAL ADJUSTMENT: Bank-imposed austerity programs in the 1980s-90s gutted public services across the developing world.",

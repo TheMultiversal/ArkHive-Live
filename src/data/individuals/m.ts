@@ -4058,8 +4058,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'michael-powell': {
  name: 'Michael D. Powell',
- title: 'ALEC National Chairman — Oversaw development of model legislation increasing incarceration rates',
- role: 'ALEC National Chairman — Oversaw development of model legislation increasing incarceration rates',
+ title: 'ALEC National Chairman - Oversaw development of model legislation increasing incarceration rates',
+ role: 'ALEC National Chairman - Oversaw development of model legislation increasing incarceration rates',
  riskLevel: 'high',
  description: 'Michael D. Powell. Profile pending review.',
  education: [],
@@ -4076,7 +4076,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Private Prison Industry', slug: 'private-prison-industry', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as ALEC National Chairman — Oversaw development of model legislation increasing incarceration rate' }, ],
+ { date: 'Ongoing', event: 'Active in role as ALEC National Chairman - Oversaw development of model legislation increasing incarceration rate' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Michael D. Powell', url: 'https://www.google.com/search?q=Michael%20D%20Powell', date: '' }, ],

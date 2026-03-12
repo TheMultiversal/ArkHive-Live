@@ -92,7 +92,7 @@ const featuredEntities: Entity[] = [
  },
 ];
 
-// Real statistics from the archive — fetched dynamically from API
+// Real statistics from the archive - fetched dynamically from API
 function useStats() {
  const [stats, setStats] = useState({
   totalInvestigations: 0,

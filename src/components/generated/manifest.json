@@ -1,0 +1,152 @@
+[
+  {
+    "type": "card",
+    "entity": "Individual",
+    "file": "IndividualCard.tsx"
+  },
+  {
+    "type": "card",
+    "entity": "Agency",
+    "file": "AgencyCard.tsx"
+  },
+  {
+    "type": "card",
+    "entity": "Corporation",
+    "file": "CorporationCard.tsx"
+  },
+  {
+    "type": "card",
+    "entity": "Organization",
+    "file": "OrganizationCard.tsx"
+  },
+  {
+    "type": "card",
+    "entity": "Investigation",
+    "file": "InvestigationCard.tsx"
+  },
+  {
+    "type": "filter",
+    "entity": "Individual",
+    "file": "IndividualFilter.tsx"
+  },
+  {
+    "type": "filter",
+    "entity": "Agency",
+    "file": "AgencyFilter.tsx"
+  },
+  {
+    "type": "filter",
+    "entity": "Corporation",
+    "file": "CorporationFilter.tsx"
+  },
+  {
+    "type": "filter",
+    "entity": "Organization",
+    "file": "OrganizationFilter.tsx"
+  },
+  {
+    "type": "filter",
+    "entity": "Investigation",
+    "file": "InvestigationFilter.tsx"
+  },
+  {
+    "type": "stats",
+    "entity": "Individual",
+    "file": "IndividualStats.tsx"
+  },
+  {
+    "type": "stats",
+    "entity": "Agency",
+    "file": "AgencyStats.tsx"
+  },
+  {
+    "type": "stats",
+    "entity": "Corporation",
+    "file": "CorporationStats.tsx"
+  },
+  {
+    "type": "stats",
+    "entity": "Organization",
+    "file": "OrganizationStats.tsx"
+  },
+  {
+    "type": "stats",
+    "entity": "Investigation",
+    "file": "InvestigationStats.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "Affiliation",
+    "file": "AffiliationSection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "Source",
+    "file": "SourceSection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "InvestigationRef",
+    "file": "InvestigationRefSection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "Charge",
+    "file": "ChargeSection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "Associate",
+    "file": "AssociateSection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "FamilyMember",
+    "file": "FamilyMemberSection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "CorporateHolding",
+    "file": "CorporateHoldingSection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "CrimeCategory",
+    "file": "CrimeCategorySection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "ControversyEntry",
+    "file": "ControversyEntrySection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "ConspiracyEntry",
+    "file": "ConspiracyEntrySection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "LegalActionEntry",
+    "file": "LegalActionEntrySection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "AssetFreeze",
+    "file": "AssetFreezeSection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "WhistleblowerTestimony",
+    "file": "WhistleblowerTestimonySection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "NetworkNode",
+    "file": "NetworkNodeSection.tsx"
+  },
+  {
+    "type": "section",
+    "subType": "NetworkEdge",
+    "file": "NetworkEdgeSection.tsx"
+  }
+]

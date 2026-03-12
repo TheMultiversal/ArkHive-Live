@@ -1912,7 +1912,7 @@ const investigations_p: Record<string, InvestigationData> = {
     category: "Criminal Justice",
     date: "March 3, 1991",
     lastUpdated: "March 10, 2026",
-    summary: "From the Rodney King beating to George Floyd's murder, decades of reform efforts — consent decrees, body cameras, training programs, civilian review boards — have failed to fundamentally change American policing or reduce police killings, which remain at approximately 1,100 per year.",
+    summary: "From the Rodney King beating to George Floyd's murder, decades of reform efforts - consent decrees, body cameras, training programs, civilian review boards - have failed to fundamentally change American policing or reduce police killings, which remain at approximately 1,100 per year.",
     content: [
       "CONSENT DECREES: DOJ consent decrees produced modest improvements but departments often reverted after oversight ended.",
       "BODY CAMERAS: Despite widespread adoption, body cameras have not significantly reduced use of force.",
@@ -1931,7 +1931,7 @@ const investigations_p: Record<string, InvestigationData> = {
     category: "Police Violence",
     date: "January 1, 2013",
     lastUpdated: "March 10, 2026",
-    summary: "American police kill approximately 1,100 people per year — a rate 3x higher than Canada and 50x higher than Germany. Qualified immunity shields officers from civil liability. Grand juries rarely indict. Union contracts protect officers from discipline.",
+    summary: "American police kill approximately 1,100 people per year - a rate 3x higher than Canada and 50x higher than Germany. Qualified immunity shields officers from civil liability. Grand juries rarely indict. Union contracts protect officers from discipline.",
     content: [
       "THE NUMBERS: Police kill approximately 1,100 people annually. Black Americans are killed at 2.5x the rate of white Americans.",
       "QUALIFIED IMMUNITY: The Supreme Court-created doctrine shields officers from civil liability unless they violate \"clearly established\" law.",
@@ -1965,7 +1965,7 @@ const investigations_p: Record<string, InvestigationData> = {
   },
   'parkland-shooting': {
     title: "Parkland School Shooting",
-    subtitle: "The massacre that birthed the March for Our Lives movement — and still didn't change gun laws",
+    subtitle: "The massacre that birthed the March for Our Lives movement - and still didn't change gun laws",
     severity: "critical",
     category: "Gun Violence",
     date: "February 14, 2018",
@@ -1991,7 +1991,7 @@ const investigations_p: Record<string, InvestigationData> = {
     lastUpdated: "March 10, 2026",
     summary: "American policing operates with virtually no accountability. Qualified immunity shields officers from civil liability, police unions block discipline, prosecutors rarely charge officers, and departments rehire fired cops. The result: thousands of unjustified killings and a near-zero conviction rate.",
     content: [
-      "QUALIFIED IMMUNITY: The Supreme Court doctrine shields officers from civil suits unless the exact same conduct was previously ruled unconstitutional — a nearly impossible standard that effectively bars accountability.",
+      "QUALIFIED IMMUNITY: The Supreme Court doctrine shields officers from civil suits unless the exact same conduct was previously ruled unconstitutional - a nearly impossible standard that effectively bars accountability.",
       "POLICE UNION OBSTRUCTION: Police union contracts include provisions that delay investigations, limit interrogation, and allow officers to review evidence before statements, undermining accountability.",
       "WANDERING OFFICERS: Officers fired for misconduct are routinely rehired by other departments. A 2020 Yale study found 3% of officers account for the majority of complaints but face no consequences.",
       "PROSECUTORIAL RELUCTANCE: District attorneys who depend on police cooperation rarely charge officers, creating a systemic conflict of interest.",
