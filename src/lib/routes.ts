@@ -29,7 +29,6 @@ export const ROUTES = {
 
  // User Pages
  ANALYTICS: '/analytics',
- AUDIT: '/audit',
  TAGS: '/tags',
  TEAM: '/team',
  ACTIVITY: '/activity',
@@ -48,7 +47,6 @@ export const ROUTES = {
  DOCUMENTS: '/api/documents',
  WORKSPACES: '/api/workspaces',
  ANALYTICS: '/api/analytics',
- AUDIT: '/api/audit',
  TAGS: '/api/tags',
  TEAMS: '/api/teams',
  ACTIVITY: '/api/activity',

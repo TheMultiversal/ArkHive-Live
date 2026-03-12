@@ -45,7 +45,6 @@ export default function Footer() {
  { href:"/notifications", label:"Notifications"},
  { href:"/bookmarks", label:"Bookmarks"},
  { href:"/drafts", label:"Drafts"},
- { href:"/audit", label:"Audit Log"},
  { href:"/offline", label:"Offline Access"},
  ],
  };

@@ -50,7 +50,7 @@ const mockNotifications: NotificationItem[] = [
  message: 'Unusual access pattern detected on your account. Please verify recent activity.',
  read: false,
  timestamp: new Date(Date.now() - 1000 * 60 * 15),
- actionUrl: '/audit',
+ actionUrl: '/activity',
  },
  {
  id: 'notif_2',
@@ -394,7 +394,7 @@ const mockNotifications: NotificationItem[] = [
  message: 'Monthly security audit passed. All encryption protocols verified. No unauthorized access detected.',
  read: true,
  timestamp: new Date(Date.now() - 1000 * 60 * 60 * 120),
- actionUrl: '/audit',
+ actionUrl: '/activity',
  },
  {
  id: 'notif_40',
@@ -475,7 +475,7 @@ const mockNotifications: NotificationItem[] = [
  message: 'Full database backup completed successfully. 2.4 TB archived across distributed nodes.',
  read: true,
  timestamp: new Date(Date.now() - 1000 * 60 * 60 * 190),
- actionUrl: '/audit',
+ actionUrl: '/activity',
  },
  {
  id: 'notif_49',

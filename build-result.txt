@@ -1,14 +1,4 @@
 ﻿Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
 
-node.exe : ΓÜá The "middleware" file convention is deprecated. Please use "proxy" 
-instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-At line:1 char:1
-+ & "C:\Program Files\nodejs/node.exe" "C:\Users\Arkhi\AppData\Roaming\ ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (ΓÜá The "middle...leware-to-proxy:String) [ 
-   ], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
   Creating an optimized production build ...
-Γ£ô Compiled successfully in 117s
-  Running TypeScript ...

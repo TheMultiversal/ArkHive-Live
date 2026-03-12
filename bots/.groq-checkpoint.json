@@ -1,0 +1,1247 @@
+{
+  "individuals": [
+    "george-h-w-bush",
+    "george-w-bush",
+    "dick-cheney",
+    "ronald-reagan",
+    "richard-nixon",
+    "lyndon-b-johnson",
+    "joe-biden",
+    "kamala-harris",
+    "mike-pence",
+    "al-gore",
+    "mitch-mcconnell",
+    "nancy-pelosi",
+    "chuck-schumer",
+    "kevin-mccarthy",
+    "jim-jordan",
+    "matt-gaetz",
+    "marjorie-taylor-greene",
+    "lauren-boebert",
+    "ted-cruz",
+    "josh-hawley",
+    "lindsey-graham",
+    "ron-desantis",
+    "greg-abbott",
+    "ron-johnson",
+    "rand-paul",
+    "marco-rubio",
+    "rick-scott",
+    "tom-cotton",
+    "elise-stefanik",
+    "paul-gosar",
+    "scott-perry",
+    "mark-meadows",
+    "john-eastman",
+    "sidney-powell",
+    "lin-wood",
+    "kenneth-chesebro",
+    "jeffrey-clark",
+    "peter-navarro",
+    "steve-bannon",
+    "clarence-thomas",
+    "samuel-alito",
+    "brett-kavanaugh",
+    "neil-gorsuch",
+    "gregory-hayes"
+  ],
+  "agencies": [],
+  "corporations": [],
+  "organizations": [],
+  "errors": [
+    {
+      "slug": "leonard-leo",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99997, Requested 490. Please try again in 7m0.768s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:31.836Z"
+    },
+    {
+      "slug": "harlan-crow",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99994, Requested 487. Please try again in 6m55.584s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:34.662Z"
+    },
+    {
+      "slug": "vladimir-putin",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99990, Requested 484. Please try again in 6m49.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:37.479Z"
+    },
+    {
+      "slug": "xi-jinping",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99987, Requested 487. Please try again in 6m49.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:40.321Z"
+    },
+    {
+      "slug": "kim-jong-un",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99984, Requested 488. Please try again in 6m47.808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:43.296Z"
+    },
+    {
+      "slug": "recep-tayyip-erdogan",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99981, Requested 489. Please try again in 6m46.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:46.105Z"
+    },
+    {
+      "slug": "viktor-orb-n",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99977, Requested 489. Please try again in 6m42.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:48.903Z"
+    },
+    {
+      "slug": "jair-bolsonaro",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99974, Requested 489. Please try again in 6m40.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:51.838Z"
+    },
+    {
+      "slug": "narendra-modi",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99971, Requested 485. Please try again in 6m33.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:54.643Z"
+    },
+    {
+      "slug": "rodrigo-duterte",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99967, Requested 487. Please try again in 6m32.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:27:57.614Z"
+    },
+    {
+      "slug": "bashar-al-assad",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99964, Requested 486. Please try again in 6m28.799999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:00.445Z"
+    },
+    {
+      "slug": "abdel-fattah-el-sisi",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99960, Requested 489. Please try again in 6m27.936s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:03.390Z"
+    },
+    {
+      "slug": "nicol-s-maduro",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99957, Requested 486. Please try again in 6m22.752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:06.219Z"
+    },
+    {
+      "slug": "alexander-lukashenko",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99954, Requested 487. Please try again in 6m21.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:09.162Z"
+    },
+    {
+      "slug": "benjamin-netanyahu",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99951, Requested 485. Please try again in 6m16.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:12.010Z"
+    },
+    {
+      "slug": "augusto-pinochet",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99947, Requested 491. Please try again in 6m18.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:14.841Z"
+    },
+    {
+      "slug": "saddam-hussein",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99944, Requested 486. Please try again in 6m11.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:17.682Z"
+    },
+    {
+      "slug": "muammar-gaddafi",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99941, Requested 488. Please try again in 6m10.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:20.504Z"
+    },
+    {
+      "slug": "j-edgar-hoover",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99937, Requested 488. Please try again in 6m7.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:23.336Z"
+    },
+    {
+      "slug": "allen-dulles",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99934, Requested 490. Please try again in 6m6.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:26.071Z"
+    },
+    {
+      "slug": "henry-kissinger",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99931, Requested 490. Please try again in 6m3.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:28.857Z"
+    },
+    {
+      "slug": "oliver-north",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99928, Requested 486. Please try again in 5m57.696s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:31.691Z"
+    },
+    {
+      "slug": "erik-prince",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99925, Requested 488. Please try again in 5m56.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:34.523Z"
+    },
+    {
+      "slug": "gina-haspel",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99921, Requested 486. Please try again in 5m51.647999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:37.468Z"
+    },
+    {
+      "slug": "michael-hayden",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99918, Requested 490. Please try again in 5m52.512s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:40.379Z"
+    },
+    {
+      "slug": "john-brennan",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99915, Requested 486. Please try again in 5m46.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:43.146Z"
+    },
+    {
+      "slug": "james-clapper",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99911, Requested 487. Please try again in 5m43.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:45.949Z"
+    },
+    {
+      "slug": "donald-rumsfeld",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99908, Requested 493. Please try again in 5m46.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:48.794Z"
+    },
+    {
+      "slug": "paul-wolfowitz",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99905, Requested 489. Please try again in 5m40.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:51.606Z"
+    },
+    {
+      "slug": "john-bolton",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99901, Requested 487. Please try again in 5m35.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:54.387Z"
+    },
+    {
+      "slug": "william-barr",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99898, Requested 488. Please try again in 5m33.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:28:57.366Z"
+    },
+    {
+      "slug": "jeff-sessions",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99895, Requested 485. Please try again in 5m28.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:00.226Z"
+    },
+    {
+      "slug": "elon-musk",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99891, Requested 493. Please try again in 5m31.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:03.623Z"
+    },
+    {
+      "slug": "mark-zuckerberg",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99887, Requested 487. Please try again in 5m23.135999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:06.503Z"
+    },
+    {
+      "slug": "jeff-bezos",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99884, Requested 488. Please try again in 5m21.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:09.282Z"
+    },
+    {
+      "slug": "peter-thiel",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99881, Requested 490. Please try again in 5m20.544s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:12.118Z"
+    },
+    {
+      "slug": "larry-ellison",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99878, Requested 485. Please try again in 5m13.632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:15.037Z"
+    },
+    {
+      "slug": "tim-cook",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99874, Requested 486. Please try again in 5m11.039999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:18.088Z"
+    },
+    {
+      "slug": "sundar-pichai",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99871, Requested 493. Please try again in 5m14.496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:21.037Z"
+    },
+    {
+      "slug": "satya-nadella",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99867, Requested 488. Please try again in 5m6.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:23.984Z"
+    },
+    {
+      "slug": "sam-altman",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99864, Requested 491. Please try again in 5m6.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:26.814Z"
+    },
+    {
+      "slug": "sam-bankman-fried",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99861, Requested 493. Please try again in 5m5.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:29.639Z"
+    },
+    {
+      "slug": "elizabeth-holmes",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99857, Requested 488. Please try again in 4m58.08s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:32.517Z"
+    },
+    {
+      "slug": "adam-neumann",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99854, Requested 488. Please try again in 4m55.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:35.273Z"
+    },
+    {
+      "slug": "travis-kalanick",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99851, Requested 489. Please try again in 4m53.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:38.085Z"
+    },
+    {
+      "slug": "palmer-luckey",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99848, Requested 489. Please try again in 4m51.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:40.871Z"
+    },
+    {
+      "slug": "jack-dorsey",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99844, Requested 487. Please try again in 4m45.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:43.835Z"
+    },
+    {
+      "slug": "larry-page",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99841, Requested 485. Please try again in 4m41.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:46.639Z"
+    },
+    {
+      "slug": "sergey-brin",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99838, Requested 486. Please try again in 4m39.936s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:49.434Z"
+    },
+    {
+      "slug": "jamie-dimon",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99835, Requested 491. Please try again in 4m41.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:52.264Z"
+    },
+    {
+      "slug": "lloyd-blankfein",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99831, Requested 492. Please try again in 4m39.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:55.079Z"
+    },
+    {
+      "slug": "larry-fink",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99828, Requested 490. Please try again in 4m34.752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:29:57.837Z"
+    },
+    {
+      "slug": "ken-griffin",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99825, Requested 489. Please try again in 4m31.296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:00.599Z"
+    },
+    {
+      "slug": "george-soros",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99821, Requested 486. Please try again in 4m25.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:03.543Z"
+    },
+    {
+      "slug": "charles-koch",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99818, Requested 486. Please try again in 4m22.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:06.373Z"
+    },
+    {
+      "slug": "david-koch",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99815, Requested 485. Please try again in 4m19.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:09.306Z"
+    },
+    {
+      "slug": "rupert-murdoch",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99811, Requested 488. Please try again in 4m18.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:12.165Z"
+    },
+    {
+      "slug": "roman-abramovich",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99808, Requested 488. Please try again in 4m15.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:15.059Z"
+    },
+    {
+      "slug": "oleg-deripaska",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99805, Requested 489. Please try again in 4m14.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:17.943Z"
+    },
+    {
+      "slug": "mohammed-bin-salman",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99802, Requested 494. Please try again in 4m15.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:20.743Z"
+    },
+    {
+      "slug": "jared-kushner",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99798, Requested 496. Please try again in 4m14.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:23.655Z"
+    },
+    {
+      "slug": "ivanka-trump",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99795, Requested 487. Please try again in 4m3.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:26.499Z"
+    },
+    {
+      "slug": "donald-trump-jr",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99792, Requested 486. Please try again in 4m0.191999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:29.311Z"
+    },
+    {
+      "slug": "eric-trump",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99788, Requested 484. Please try again in 3m55.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:32.138Z"
+    },
+    {
+      "slug": "sheldon-adelson",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99785, Requested 488. Please try again in 3m55.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:35.024Z"
+    },
+    {
+      "slug": "steve-schwarzman",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99782, Requested 486. Please try again in 3m51.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:37.851Z"
+    },
+    {
+      "slug": "carl-icahn",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99778, Requested 488. Please try again in 3m49.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:40.701Z"
+    },
+    {
+      "slug": "wilbur-ross",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99774, Requested 486. Please try again in 3m44.64s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:44.317Z"
+    },
+    {
+      "slug": "tucker-carlson",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99771, Requested 486. Please try again in 3m42.047999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:47.055Z"
+    },
+    {
+      "slug": "sean-hannity",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99768, Requested 486. Please try again in 3m39.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:49.855Z"
+    },
+    {
+      "slug": "alex-jones",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99765, Requested 489. Please try again in 3m39.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:52.649Z"
+    },
+    {
+      "slug": "laura-ingraham",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99761, Requested 489. Please try again in 3m36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:55.446Z"
+    },
+    {
+      "slug": "roger-ailes",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99758, Requested 486. Please try again in 3m30.816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:30:58.231Z"
+    },
+    {
+      "slug": "lachlan-murdoch",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99755, Requested 487. Please try again in 3m29.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:01.016Z"
+    },
+    {
+      "slug": "ginni-thomas",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99752, Requested 489. Please try again in 3m28.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:03.808Z"
+    },
+    {
+      "slug": "roger-stone",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99749, Requested 489. Please try again in 3m25.632s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:06.563Z"
+    },
+    {
+      "slug": "paul-manafort",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99745, Requested 487. Please try again in 3m20.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:09.516Z"
+    },
+    {
+      "slug": "michael-cohen",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99742, Requested 487. Please try again in 3m17.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:12.362Z"
+    },
+    {
+      "slug": "allen-weisselberg",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99739, Requested 489. Please try again in 3m16.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:15.167Z"
+    },
+    {
+      "slug": "rudy-giuliani",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99735, Requested 489. Please try again in 3m13.535999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:18.116Z"
+    },
+    {
+      "slug": "kash-patel",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99732, Requested 485. Please try again in 3m7.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:20.897Z"
+    },
+    {
+      "slug": "stephen-miller",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99729, Requested 488. Please try again in 3m7.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:23.673Z"
+    },
+    {
+      "slug": "michael-flynn",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99725, Requested 490. Please try again in 3m5.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:26.464Z"
+    },
+    {
+      "slug": "george-papadopoulos",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99722, Requested 489. Please try again in 3m2.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:29.260Z"
+    },
+    {
+      "slug": "carter-page",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99719, Requested 487. Please try again in 2m57.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:32.087Z"
+    },
+    {
+      "slug": "tom-barrack",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99716, Requested 485. Please try again in 2m53.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:34.976Z"
+    },
+    {
+      "slug": "richard-sackler",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99712, Requested 489. Please try again in 2m53.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:37.736Z"
+    },
+    {
+      "slug": "martin-shkreli",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99709, Requested 489. Please try again in 2m51.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:40.485Z"
+    },
+    {
+      "slug": "alex-azar",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99706, Requested 486. Please try again in 2m45.888s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:43.309Z"
+    },
+    {
+      "slug": "robert-f-kennedy-jr",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99703, Requested 490. Please try again in 2m46.752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:46.066Z"
+    },
+    {
+      "slug": "j-robert-oppenheimer",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99700, Requested 488. Please try again in 2m42.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:48.868Z"
+    },
+    {
+      "slug": "joseph-mccarthy",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99696, Requested 485. Please try again in 2m36.384s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:51.715Z"
+    },
+    {
+      "slug": "roy-cohn",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99693, Requested 486. Please try again in 2m34.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:54.563Z"
+    },
+    {
+      "slug": "prescott-bush",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99690, Requested 486. Please try again in 2m32.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:31:57.323Z"
+    },
+    {
+      "slug": "john-foster-dulles",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99687, Requested 489. Please try again in 2m32.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:00.116Z"
+    },
+    {
+      "slug": "edward-snowden",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99683, Requested 487. Please try again in 2m26.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:02.937Z"
+    },
+    {
+      "slug": "chelsea-manning",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99680, Requested 489. Please try again in 2m26.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:05.676Z"
+    },
+    {
+      "slug": "julian-assange",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99677, Requested 485. Please try again in 2m19.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:08.448Z"
+    },
+    {
+      "slug": "daniel-ellsberg",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99674, Requested 487. Please try again in 2m19.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:11.237Z"
+    },
+    {
+      "slug": "reality-winner",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99670, Requested 485. Please try again in 2m13.919999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:14.021Z"
+    },
+    {
+      "slug": "frances-haugen",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99667, Requested 488. Please try again in 2m13.919999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:16.808Z"
+    },
+    {
+      "slug": "bob-menendez",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99664, Requested 488. Please try again in 2m11.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:19.682Z"
+    },
+    {
+      "slug": "george-santos",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99661, Requested 485. Please try again in 2m6.143999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:22.470Z"
+    },
+    {
+      "slug": "herschel-walker",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99657, Requested 487. Please try again in 2m4.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:25.237Z"
+    },
+    {
+      "slug": "tommy-tuberville",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99654, Requested 482. Please try again in 1m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:28.247Z"
+    },
+    {
+      "slug": "mike-johnson",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99650, Requested 485. Please try again in 1m56.64s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:31.494Z"
+    },
+    {
+      "slug": "byron-donalds",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99645, Requested 484. Please try again in 1m51.455999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:35.805Z"
+    },
+    {
+      "slug": "vivek-ramaswamy",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99642, Requested 491. Please try again in 1m54.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:38.678Z"
+    },
+    {
+      "slug": "jd-vance",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99639, Requested 492. Please try again in 1m53.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:41.581Z"
+    },
+    {
+      "slug": "nikki-haley",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99635, Requested 485. Please try again in 1m43.68s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:44.431Z"
+    },
+    {
+      "slug": "chris-christie",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99632, Requested 487. Please try again in 1m42.816s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:47.219Z"
+    },
+    {
+      "slug": "yevgeny-prigozhin",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99629, Requested 495. Please try again in 1m47.136s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:49.962Z"
+    },
+    {
+      "slug": "alexei-navalny",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99625, Requested 489. Please try again in 1m38.496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:52.900Z"
+    },
+    {
+      "slug": "jamal-khashoggi",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99622, Requested 490. Please try again in 1m36.767999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:55.800Z"
+    },
+    {
+      "slug": "volodymyr-zelenskyy",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99619, Requested 491. Please try again in 1m35.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:32:58.565Z"
+    },
+    {
+      "slug": "boris-johnson",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99616, Requested 486. Please try again in 1m28.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:01.338Z"
+    },
+    {
+      "slug": "tony-blair",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99612, Requested 486. Please try again in 1m24.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:04.220Z"
+    },
+    {
+      "slug": "silvio-berlusconi",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99608, Requested 490. Please try again in 1m24.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:07.543Z"
+    },
+    {
+      "slug": "marine-le-pen",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99605, Requested 486. Please try again in 1m18.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:10.351Z"
+    },
+    {
+      "slug": "javier-milei",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99602, Requested 487. Please try again in 1m16.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:13.129Z"
+    },
+    {
+      "slug": "nayib-bukele",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99599, Requested 487. Please try again in 1m14.304s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:15.934Z"
+    },
+    {
+      "slug": "kenneth-lay",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99596, Requested 488. Please try again in 1m12.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:18.713Z"
+    },
+    {
+      "slug": "jeffrey-skilling",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99591, Requested 491. Please try again in 1m10.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:22.362Z"
+    },
+    {
+      "slug": "bernie-ebbers",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99588, Requested 491. Please try again in 1m8.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:25.240Z"
+    },
+    {
+      "slug": "dennis-kozlowski",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99585, Requested 494. Please try again in 1m8.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:28.062Z"
+    },
+    {
+      "slug": "martin-winterkorn",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99582, Requested 486. Please try again in 58.752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:30.803Z"
+    },
+    {
+      "slug": "dennis-muilenburg",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99578, Requested 490. Please try again in 58.752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:33.642Z"
+    },
+    {
+      "slug": "david-calhoun",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99575, Requested 488. Please try again in 54.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:36.470Z"
+    },
+    {
+      "slug": "carlos-ghosn",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99572, Requested 491. Please try again in 54.432s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:39.394Z"
+    },
+    {
+      "slug": "derek-chauvin",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99568, Requested 487. Please try again in 47.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:42.155Z"
+    },
+    {
+      "slug": "darren-wilson",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99565, Requested 484. Please try again in 42.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:45.106Z"
+    },
+    {
+      "slug": "daniel-pantaleo",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99562, Requested 486. Please try again in 41.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:47.879Z"
+    },
+    {
+      "slug": "joe-arpaio",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99559, Requested 495. Please try again in 46.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:50.622Z"
+    },
+    {
+      "slug": "fani-willis",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99555, Requested 485. Please try again in 34.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:53.479Z"
+    },
+    {
+      "slug": "alvin-bragg",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99552, Requested 485. Please try again in 31.968s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:56.271Z"
+    },
+    {
+      "slug": "jack-smith",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99549, Requested 483. Please try again in 27.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:33:59.041Z"
+    },
+    {
+      "slug": "robert-mueller",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99546, Requested 484. Please try again in 25.92s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:01.784Z"
+    },
+    {
+      "slug": "james-comey",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99542, Requested 484. Please try again in 22.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:04.697Z"
+    },
+    {
+      "slug": "andrew-mccabe",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99539, Requested 488. Please try again in 23.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:07.516Z"
+    },
+    {
+      "slug": "ghislaine-maxwell",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99536, Requested 487. Please try again in 19.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:10.549Z"
+    },
+    {
+      "slug": "jeffrey-epstein",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99532, Requested 488. Please try again in 17.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:13.441Z"
+    },
+    {
+      "slug": "harvey-weinstein",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99528, Requested 487. Please try again in 12.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:17.107Z"
+    },
+    {
+      "slug": "r-kelly",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99525, Requested 488. Please try again in 11.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:19.945Z"
+    },
+    {
+      "slug": "bill-cosby",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99521, Requested 485. Please try again in 5.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:22.777Z"
+    },
+    {
+      "slug": "keith-raniere",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99518, Requested 490. Please try again in 6.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:25.604Z"
+    },
+    {
+      "slug": "marillyn-hewson",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99514, Requested 488. Please try again in 1.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:28.959Z"
+    },
+    {
+      "slug": "daniel-ortega",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99997, Requested 487. Please try again in 6m58.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:39.415Z"
+    },
+    {
+      "slug": "robert-mugabe",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99994, Requested 486. Please try again in 6m54.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:42.270Z"
+    },
+    {
+      "slug": "imelda-marcos",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99991, Requested 491. Please try again in 6m56.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:45.102Z"
+    },
+    {
+      "slug": "ferdinand-marcos-jr",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99987, Requested 486. Please try again in 6m48.671999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:47.941Z"
+    },
+    {
+      "slug": "nursultan-nazarbayev",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99984, Requested 490. Please try again in 6m49.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:51.119Z"
+    },
+    {
+      "slug": "paul-kagame",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99980, Requested 487. Please try again in 6m43.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:54.272Z"
+    },
+    {
+      "slug": "aung-san-suu-kyi",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99977, Requested 492. Please try again in 6m45.215999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:57.077Z"
+    },
+    {
+      "slug": "hun-sen",
+      "type": "individuals",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99974, Requested 488. Please try again in 6m39.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:34:59.857Z"
+    },
+    {
+      "slug": "national-security-agency",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99970, Requested 199. Please try again in 2m26.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:02.710Z"
+    },
+    {
+      "slug": "u-s-marshals-service",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99967, Requested 205. Please try again in 2m28.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:05.580Z"
+    },
+    {
+      "slug": "u-s-secret-service",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99964, Requested 207. Please try again in 2m27.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:08.374Z"
+    },
+    {
+      "slug": "federal-reserve-system",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99960, Requested 196. Please try again in 2m14.783999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:11.256Z"
+    },
+    {
+      "slug": "department-of-treasury",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99957, Requested 197. Please try again in 2m13.055999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:14.443Z"
+    },
+    {
+      "slug": "department-of-education",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99953, Requested 197. Please try again in 2m9.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:17.226Z"
+    },
+    {
+      "slug": "department-of-energy",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99950, Requested 201. Please try again in 2m10.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:20.076Z"
+    },
+    {
+      "slug": "department-of-health-and-human-services",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99947, Requested 203. Please try again in 2m9.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:22.835Z"
+    },
+    {
+      "slug": "department-of-veterans-affairs",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99944, Requested 197. Please try again in 2m1.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:25.608Z"
+    },
+    {
+      "slug": "centers-for-disease-control",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99940, Requested 198. Please try again in 1m59.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:28.477Z"
+    },
+    {
+      "slug": "national-institutes-of-health",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99937, Requested 197. Please try again in 1m55.776s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:31.360Z"
+    },
+    {
+      "slug": "u-s-customs-and-border-protection",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99934, Requested 205. Please try again in 2m0.095999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:34.158Z"
+    },
+    {
+      "slug": "mi6-secret-intelligence-service",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99931, Requested 205. Please try again in 1m57.504s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:37.039Z"
+    },
+    {
+      "slug": "mi5-security-service",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99927, Requested 203. Please try again in 1m52.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:39.819Z"
+    },
+    {
+      "slug": "svr-foreign-intelligence-service",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99924, Requested 205. Please try again in 1m51.455999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:42.708Z"
+    },
+    {
+      "slug": "fsb-federal-security-service",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99921, Requested 205. Please try again in 1m48.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:45.464Z"
+    },
+    {
+      "slug": "gru-military-intelligence",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99918, Requested 203. Please try again in 1m44.544s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:48.234Z"
+    },
+    {
+      "slug": "inter-services-intelligence",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99914, Requested 201. Please try again in 1m39.36s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:51.007Z"
+    },
+    {
+      "slug": "dgse-general-directorate-for-external-security",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99911, Requested 207. Please try again in 1m41.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:53.785Z"
+    },
+    {
+      "slug": "bnd-federal-intelligence-service",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99908, Requested 205. Please try again in 1m37.631999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:56.547Z"
+    },
+    {
+      "slug": "international-criminal-court",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99905, Requested 194. Please try again in 1m25.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:35:59.307Z"
+    },
+    {
+      "slug": "international-court-of-justice",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99902, Requested 201. Please try again in 1m28.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:02.078Z"
+    },
+    {
+      "slug": "international-atomic-energy-agency",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99898, Requested 200. Please try again in 1m24.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:04.928Z"
+    },
+    {
+      "slug": "interpol",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99895, Requested 197. Please try again in 1m19.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:07.808Z"
+    },
+    {
+      "slug": "europol",
+      "type": "agencies",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99892, Requested 197. Please try again in 1m16.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:10.586Z"
+    },
+    {
+      "slug": "apple",
+      "type": "corporations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99888, Requested 228. Please try again in 1m40.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:13.351Z"
+    },
+    {
+      "slug": "shell",
+      "type": "corporations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99885, Requested 229. Please try again in 1m38.496s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:16.229Z"
+    },
+    {
+      "slug": "bp",
+      "type": "corporations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99882, Requested 234. Please try again in 1m40.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:19.079Z"
+    },
+    {
+      "slug": "johnson-johnson",
+      "type": "corporations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99878, Requested 231. Please try again in 1m34.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:22.657Z"
+    },
+    {
+      "slug": "uber",
+      "type": "corporations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99874, Requested 227. Please try again in 1m27.264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:25.455Z"
+    },
+    {
+      "slug": "tesla",
+      "type": "corporations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99871, Requested 229. Please try again in 1m26.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:28.244Z"
+    },
+    {
+      "slug": "blackwater-academi",
+      "type": "corporations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99868, Requested 236. Please try again in 1m29.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:30.984Z"
+    },
+    {
+      "slug": "philip-morris-international",
+      "type": "corporations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99865, Requested 233. Please try again in 1m24.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:33.726Z"
+    },
+    {
+      "slug": "nestl",
+      "type": "corporations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99862, Requested 230. Please try again in 1m19.488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:36.510Z"
+    },
+    {
+      "slug": "the-federalist-society",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99858, Requested 203. Please try again in 52.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:39.305Z"
+    },
+    {
+      "slug": "european-union",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99855, Requested 198. Please try again in 45.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:42.205Z"
+    },
+    {
+      "slug": "doctors-without-borders",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99852, Requested 204. Please try again in 48.383999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:45.138Z"
+    },
+    {
+      "slug": "red-cross",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99848, Requested 199. Please try again in 40.608s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:47.993Z"
+    },
+    {
+      "slug": "koch-network",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99845, Requested 199. Please try again in 38.016s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:50.924Z"
+    },
+    {
+      "slug": "church-of-scientology",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99842, Requested 200. Please try again in 36.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:53.709Z"
+    },
+    {
+      "slug": "blackstone-group",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99838, Requested 202. Please try again in 34.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:56.529Z"
+    },
+    {
+      "slug": "carlyle-group",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99835, Requested 200. Please try again in 30.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:36:59.273Z"
+    },
+    {
+      "slug": "republican-national-committee",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99832, Requested 202. Please try again in 29.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:37:02.137Z"
+    },
+    {
+      "slug": "democratic-national-committee",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99829, Requested 204. Please try again in 28.512s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:37:05.017Z"
+    },
+    {
+      "slug": "club-for-growth",
+      "type": "organizations",
+      "error": "Groq API error: Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjpzwer9e1fv7v7rkd3c3gzs` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99825, Requested 198. Please try again in 19.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
+      "time": "2026-03-11T04:37:07.841Z"
+    }
+  ]
+}
