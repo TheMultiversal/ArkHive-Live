@@ -29,7 +29,6 @@ export default function Footer() {
  ],
  about: [
  { href:"/about", label:"About Us"},
- { href:"/team", label:"Team"},
  { href:"/faq", label:"FAQ"},
  { href:"/submit", label:"Submit Information"},
  { href:"/contact", label:"Contact"},
@@ -37,14 +36,8 @@ export default function Footer() {
  { href:"/terms", label:"Terms of Service"},
  ],
  platform: [
- { href:"/dashboard", label:"Dashboard"},
- { href:"/profile", label:"Profile"},
- { href:"/analytics", label:"Analytics"},
- { href:"/activity", label:"Activity"},
  { href:"/recent", label:"Recent"},
- { href:"/notifications", label:"Notifications"},
- { href:"/bookmarks", label:"Bookmarks"},
- { href:"/drafts", label:"Drafts"},
+ { href:"/archives", label:"Archives"},
  { href:"/offline", label:"Offline Access"},
  ],
  };

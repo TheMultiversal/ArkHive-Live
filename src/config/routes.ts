@@ -53,7 +53,6 @@ export const ROUTES = {
  documents: '/api/documents',
  auth: '/api/auth',
  users: '/api/users',
- notifications: '/api/notifications',
  search: '/api/search',
  upload: '/api/upload',
  },

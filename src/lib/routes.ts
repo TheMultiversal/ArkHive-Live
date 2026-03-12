@@ -28,17 +28,10 @@ export const ROUTES = {
  WORKSPACE_CREATE: '/workspaces/create',
 
  // User Pages
- ANALYTICS: '/analytics',
  TAGS: '/tags',
- TEAM: '/team',
- ACTIVITY: '/activity',
  SEARCH: '/search',
- NOTIFICATIONS: '/notifications',
- BOOKMARKS: '/bookmarks',
  RECENT: '/recent',
- DRAFTS: '/drafts',
  ARCHIVES: '/archives',
- SETTINGS: '/settings',
 
  // API Routes
  API: {
@@ -46,15 +39,8 @@ export const ROUTES = {
  ENTITIES: '/api/entities',
  DOCUMENTS: '/api/documents',
  WORKSPACES: '/api/workspaces',
- ANALYTICS: '/api/analytics',
  TAGS: '/api/tags',
- TEAMS: '/api/teams',
- ACTIVITY: '/api/activity',
  EXPORT: '/api/export',
- IMPORT: '/api/import',
- AI: '/api/ai',
- WEBHOOKS: '/api/webhooks',
- INTEGRATIONS: '/api/integrations',
  SEARCH: '/api/search',
  },
 } as const;
@@ -91,21 +77,8 @@ export const MAIN_NAV: NavItem[] = [
 ];
 
 export const USER_NAV: NavItem[] = [
- { label: 'Dashboard', href: ROUTES.ANALYTICS, icon: 'chart' },
- { label: 'Notifications', href: ROUTES.NOTIFICATIONS, icon: 'bell' },
- { label: 'Bookmarks', href: ROUTES.BOOKMARKS, icon: 'bookmark' },
  { label: 'Recent', href: ROUTES.RECENT, icon: 'clock' },
- { label: 'Drafts', href: ROUTES.DRAFTS, icon: 'file-edit' },
  { label: 'Archives', href: ROUTES.ARCHIVES, icon: 'archive' },
- { label: 'Settings', href: ROUTES.SETTINGS, icon: 'settings' },
-];
-
-export const ADMIN_NAV: NavItem[] = [
- { label: 'Analytics', href: ROUTES.ANALYTICS, icon: 'chart' },
- { label: 'Team', href: ROUTES.TEAM, icon: 'users' },
- { label: 'Audit Log', href: ROUTES.AUDIT, icon: 'shield' },
- { label: 'Tags', href: ROUTES.TAGS, icon: 'tag' },
- { label: 'Activity', href: ROUTES.ACTIVITY, icon: 'activity' },
 ];
 
 // ============================================================

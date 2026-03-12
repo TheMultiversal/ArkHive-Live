@@ -29,12 +29,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
  '/about',
  '/submit',
  '/search',
- '/analytics',
  '/faq',
  '/privacy',
  '/terms',
  '/methodology',
- '/team',
  '/contact',
  ];
 

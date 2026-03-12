@@ -296,12 +296,7 @@ export function useCommonShortcuts() {
  action: () => window.location.href = '/search',
  global: true,
  }],
- ['nav-dashboard', {
- key: 'd',
- altKey: true,
- description: 'Go to Dashboard',
- action: () => window.location.href = '/dashboard',
- }],
+
  ];
 
  navShortcuts.forEach(([id, shortcut]) => registerShortcut(id, shortcut));

@@ -47,10 +47,6 @@ export type { VirtualItem, UseVirtualizationOptions, UseVirtualizationReturn } f
 export { default as useOptimistic, useOptimisticList } from './useOptimistic';
 export type { OptimisticUpdate, UseOptimisticOptions, UseOptimisticReturn, UseOptimisticListReturn } from './useOptimistic';
 
-// Notifications
-export { default as useNotifications } from './useNotifications';
-export type { Notification, NotificationPreferences, UseNotificationsOptions, UseNotificationsReturn } from './useNotifications';
-
 // Utility Hooks
 export { default as useIdle } from './useIdle';
 export type { UseIdleOptions, UseIdleReturn } from './useIdle';
