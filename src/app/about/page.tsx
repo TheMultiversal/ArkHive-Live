@@ -116,34 +116,40 @@ export default function AboutPage() {
  </div>
  </section>
 
- {/* What We Cover, 17 categories */}
- <section className="border border-zinc-800 bg-black/60 p-8 mb-6">
- <div className="flex items-center gap-3 mb-6">
- <FileText className="w-6 h-6 text-blood-700"/>
- <h2 className="text-xl font-black text-white uppercase tracking-wider">What We Cover</h2>
- </div>
- <p className="text-zinc-500 text-sm mb-4">
- Investigations span 17 categories across every major domain of institutional power:
- </p>
- <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
- {[
- { label:"War & Military", desc:"War crimes, civilian casualties, military-industrial profiteering" },
- { label:"Elections & Democracy", desc:"Voter suppression, election interference, stolen elections" },
- { label:"Financial Crimes", desc:"Money laundering, market manipulation, offshore networks" },
- { label:"Corporate Crime", desc:"Fraud, labor abuse, regulatory capture, whistleblower retaliation" },
- { label:"Civil Rights & Justice", desc:"Police violence, systemic racism, environmental racism" },
- { label:"Government Abuse", desc:"Cover-ups, obstruction of justice, abuse of power" },
- { label:"Human Rights Violations", desc:"Genocide, crimes against humanity, international law" },
- { label:"Trafficking & Sexual Crimes", desc:"Epstein networks, trafficking rings, institutional cover-ups" },
- { label:"Corruption & Ethics", desc:"Judicial corruption, conflicts of interest, dark money" },
- { label:"Foreign Affairs", desc:"Foreign influence, collusion, geopolitical manipulation" },
- { label:"Environment", desc:"Climate cover-ups, environmental crimes, toxic exposure" },
- { label:"Public Health", desc:"Pharmaceutical fraud, research ethics, health cover-ups" },
- { label:"National Security", desc:"Intelligence failures, surveillance overreach, classified leaks" },
- { label:"Media & Disinformation", desc:"Propaganda networks, information warfare, media corruption" },
- { label:"Constitutional Crises", desc:"Authoritarian power grabs, extremism, oligarchic control" },
- { label:"Terrorism & Extremism", desc:"Domestic terrorism, radicalization pipelines, state violence" },
- { label:"Technology & Privacy", desc:"Mass surveillance, data exploitation, AI safety failures" },
+{/* What We Cover */}
+            <section className="border border-zinc-800 bg-black/60 p-8 mb-6">
+              <div className="flex items-center gap-3 mb-6">
+                <FileText className="w-6 h-6 text-blood-700"/>
+                <h2 className="text-xl font-black text-white uppercase tracking-wider">What We Cover</h2>
+              </div>
+              <p className="text-zinc-500 text-sm mb-2">
+                Investigations span <span className="text-blood-500 font-bold">138+ categories</span> across every major domain of institutional power. Below are the primary domains and representative coverage areas:
+              </p>
+              <p className="text-zinc-600 text-xs mb-5">
+                Each investigation is tagged with specific categories. Many cross multiple domains; a single case of corporate fraud may also involve government corruption, environmental crime, and whistleblower retaliation.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                {[
+                  { label:"Government Corruption & Abuse of Power", desc:"Obstruction of justice, ethics violations, conflicts of interest, institutional corruption, oligarchy, abuse of power" },
+                  { label:"Elections & Democracy", desc:"Voter suppression, election interference, election subversion, election crimes, election security, democracy" },
+                  { label:"War Crimes & Military Operations", desc:"Crimes against humanity, genocide, military-industrial complex, covert operations, civilian casualties" },
+                  { label:"Financial & Economic Crimes", desc:"Money laundering, market manipulation, financial fraud, economic exploitation, economic concentration" },
+                  { label:"Corporate Crime & Accountability", desc:"Corporate fraud, corporate homicide, corporate negligence, regulatory capture, regulatory failure, contractor corruption" },
+                  { label:"Civil Rights & Racial Justice", desc:"Systemic racism, civil liberties, racial justice, hate crimes, criminal justice, systemic injustice" },
+                  { label:"Human Rights & Trafficking", desc:"Human rights violations, human trafficking, abuse & exploitation, institutional abuse, crimes against humanity" },
+                  { label:"Intelligence & Covert Operations", desc:"Intelligence failures, intelligence abuse, intelligence manipulation, covert operations, foreign intelligence" },
+                  { label:"Surveillance, Technology & Privacy", desc:"Mass surveillance, digital rights, data exploitation, platform accountability, technology & privacy" },
+                  { label:"National Security & Terrorism", desc:"Domestic terrorism, state violence, political violence, mass shootings, gun violence, mass violence" },
+                  { label:"Law & Constitutional Crises", desc:"Judicial corruption, constitutional violations, constitutional crisis, legal accountability" },
+                  { label:"Foreign Affairs & Geopolitics", desc:"Foreign influence, foreign collusion, international law, international corruption, geopolitics, global governance" },
+                  { label:"Environmental Crimes & Justice", desc:"Environmental crime, environmental justice, climate cover-ups, energy, toxic exposure" },
+                  { label:"Public Health & Safety", desc:"Pharmaceutical fraud, research ethics, food & agriculture, global health, healthcare, public safety" },
+                  { label:"Media & Disinformation", desc:"Propaganda networks, information warfare, media corruption, media manipulation, disinformation accountability" },
+                  { label:"Sexual Crimes & Misconduct", desc:"Sexual assault, sexual harassment, sex crimes, trafficking rings, institutional cover-ups" },
+                  { label:"Labor Rights & Exploitation", desc:"Labor abuse, labor rights, worker exploitation, economic exploitation" },
+                  { label:"Political Extremism & Corruption", desc:"Political extremism, radicalization, political finance, political corruption, January 6 response" },
+                  { label:"Whistleblower & Transparency", desc:"Whistleblower retaliation, transparency, accountability, cover-ups" },
+                  { label:"Animal Welfare & Other", desc:"Animal welfare, assassination, food & agriculture, research ethics" },
  ].map((item) => (
  <div key={item.label} className="flex gap-3 p-3 border border-zinc-800 bg-zinc-900/30">
  <span className="w-1.5 h-1.5 bg-blood-700 shrink-0 mt-1.5"/>
