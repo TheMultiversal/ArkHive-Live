@@ -10,7 +10,7 @@ import BackToTop from '@/components/ui/BackToTop';
 
 export default function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const isSplash = pathname === '/enter';
+  const isSplash = pathname === '/' || pathname === '/enter';
 
   // On /enter — render children only (fullscreen splash, no chrome)
   if (isSplash) {
