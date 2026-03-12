@@ -1,14 +1,8 @@
 import type { Metadata, Viewport } from"next";
 import { Inter } from"next/font/google";
 import"./globals.css";
-import Header from"@/components/layout/Header";
-import Footer from"@/components/layout/Footer";
-import SumerianMatrixRain from"@/components/effects/SumerianMatrixRain";
-import RandomWordPopups from"@/components/effects/RandomWordPopups";
-import { SurveillanceWarning, DataCorruption, TimestampOverlay } from"@/components/effects/ParanoiaEffects";
-import BackToTop from"@/components/ui/BackToTop";
 import Providers from"./providers";
-import AuthGate from"@/components/AuthGate";
+import SiteShell from"@/components/layout/SiteShell";
 
 const inter = Inter({
  subsets: ["latin"],
@@ -67,31 +61,9 @@ export default function RootLayout({
  Skip to main content
  </a>
 
- {/* AuthGate: on /enter shows only the page, otherwise full site */}
- <AuthGate
- header={
- <>
- <SumerianMatrixRain />
- <RandomWordPopups frequency={12000} />
- <SurveillanceWarning />
- <DataCorruption />
- <TimestampOverlay />
- <Header />
- </>
- }
- footer={
- <>
- <Footer />
- <BackToTop />
- </>
- }
- >
- <main id="main-content"className="flex-1 relative z-10">
- <div className="glass-panel mx-4 my-6 p-6 sm:mx-6 lg:mx-8">
- <Providers>{children}</Providers>
- </div>
- </main>
- </AuthGate>
+ <SiteShell>
+  <Providers>{children}</Providers>
+ </SiteShell>
  </body>
  </html>
  );

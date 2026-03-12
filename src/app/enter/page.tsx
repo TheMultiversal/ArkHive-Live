@@ -1,71 +1,71 @@
 'use client';
 
-import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import BloodSumerianRain from '@/components/effects/BloodSumerianRain';
+import { motion } from 'framer-motion';
 
 export default function EnterPage() {
- const [password, setPassword] = useState('');
- const [error, setError] = useState('');
- const [loading, setLoading] = useState(false);
  const router = useRouter();
 
- async function onSubmit(e: React.FormEvent) {
- e.preventDefault();
- setLoading(true);
- setError('');
- try {
- const res = await fetch('/api/auth', {
- method: 'POST',
- headers: { 'Content-Type': 'application/json' },
- body: JSON.stringify({ password }),
- });
- if (res.ok) {
- router.push('/');
- return;
- }
- const body = await res.json().catch(() => null);
- setError(body?.message || 'Invalid password');
- } catch (err) {
- setError('Network error');
- } finally {
- setLoading(false);
- }
- }
-
  return (
- <div className="min-h-screen flex items-center justify-center bg-black text-zinc-200 relative overflow-hidden">
+ <div className="min-h-screen flex flex-col items-center justify-center bg-black text-zinc-200 relative overflow-hidden">
  <BloodSumerianRain />
 
- <form onSubmit={onSubmit} className="w-full max-w-sm p-8 bg-zinc-900/85 border border-zinc-800 z-10">
- <h1 className="text-2xl font-bold mb-4">Enter site password</h1>
- <p className="text-sm text-zinc-400 mb-4">This site is password protected, enter the password to continue.</p>
- <input
- type="password"
- value={password}
- onChange={(e) => setPassword(e.target.value)}
- className="w-full p-2 mb-3 bg-zinc-800 border border-zinc-700 text-white"
- placeholder="Password"
- autoFocus
- />
- <div className="flex items-center gap-2">
- <button
- type="submit"
- className="px-4 py-2 bg-blood-500 text-white font-semibold"
- disabled={loading}
+ <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1.2, ease: 'easeOut' }}
+  className="z-10 flex flex-col items-center text-center px-6"
  >
- {loading ? 'Checking…' : 'Enter'}
- </button>
- <button
- type="button"
- className="px-3 py-2 border border-zinc-700 text-zinc-300"
- onClick={() => { setPassword(''); setError(''); }}
- >
- Reset
- </button>
- </div>
- {error && <p className="mt-3 text-blood-400">{error}</p>}
- </form>
+  <motion.h1
+   initial={{ opacity: 0, letterSpacing: '0.5em' }}
+   animate={{ opacity: 1, letterSpacing: '0.3em' }}
+   transition={{ duration: 2, ease: 'easeOut' }}
+   className="text-5xl sm:text-7xl font-black text-blood-500 tracking-[0.3em] mb-4"
+  >
+   ARKHIVE
+  </motion.h1>
+
+  <motion.div
+   initial={{ scaleX: 0 }}
+   animate={{ scaleX: 1 }}
+   transition={{ duration: 1.5, delay: 0.5, ease: 'easeOut' }}
+   className="w-48 h-px bg-blood-600 mb-6"
+  />
+
+  <motion.p
+   initial={{ opacity: 0 }}
+   animate={{ opacity: 1 }}
+   transition={{ duration: 1, delay: 1 }}
+   className="text-sm sm:text-base text-zinc-400 max-w-md mb-10 leading-relaxed"
+  >
+   Investigative documentation platform. Political corruption, financial crimes,
+   and institutional accountability — through court records, primary sources,
+   and verified evidence.
+  </motion.p>
+
+  <motion.button
+   initial={{ opacity: 0, scale: 0.9 }}
+   animate={{ opacity: 1, scale: 1 }}
+   transition={{ duration: 0.6, delay: 1.5 }}
+   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(214,69,69,0.4)' }}
+   whileTap={{ scale: 0.97 }}
+   onClick={() => router.push('/')}
+   className="px-10 py-3 border border-blood-600 text-blood-400 font-semibold tracking-widest uppercase text-sm hover:bg-blood-900/40 hover:text-blood-300 transition-colors duration-300"
+  >
+   Enter the Archive
+  </motion.button>
+
+  <motion.p
+   initial={{ opacity: 0 }}
+   animate={{ opacity: 0.3 }}
+   transition={{ duration: 1, delay: 2.5 }}
+   className="mt-8 text-xs text-zinc-600"
+  >
+   The truth does not require your belief.
+  </motion.p>
+ </motion.div>
  </div>
  );
 }
+
