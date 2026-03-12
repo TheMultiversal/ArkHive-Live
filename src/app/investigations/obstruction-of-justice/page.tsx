@@ -146,7 +146,7 @@ const investigationData = {
  { date: 'February 2018', event: 'Trump orders McGahn to create false record denying firing order' },
  { date: 'March 2019', event: 'Mueller completes report documenting obstruction' },
  { date: 'March 24, 2019', event: 'Barr releases misleading summary of Mueller Report' },
- { date: 'April 18, 2019', event: 'Redacted Mueller Report released - 10 obstruction instances' },
+ { date: 'April 18, 2019', event: 'Redacted Mueller Report released; 10 obstruction instances' },
  { date: 'July 24, 2019', event: 'Mueller testifies before Congress' },
  { date: 'November 2020', event: 'Trump pardons Flynn after election loss' },
  { date: 'December 2020', event: 'Trump pardons Manafort, Stone, others' },

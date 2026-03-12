@@ -57,8 +57,8 @@ const investigation = {
  charges: [
  { statute: '2001 AUMF, Overly Broad Interpretation', description: 'Authorization to fight perpetrators of 9/11 stretched to cover al-Shabaab, which didn\'t exist on 9/11', count: '17+ years of military operations under a law passed for Afghanistan' },
  { statute: 'War Powers Resolution (50 U.S.C. § 1541)', description: 'Sustained military operations without Congressional declaration of war', count: 'No Congressional authorization specific to Somalia operations' },
- { statute: 'Geneva Convention (IV) - Civilian Protection', description: 'Drone strikes killing civilians in non-combat areas', count: 'Amnesty International documented 21 civilians in 5 strikes alone; true toll unknown' },
- { statute: 'Executive Order 12333 - Assassination Ban', description: 'Targeted killings of individuals without trial or due process', count: 'Hundreds of "targeted" strikes against alleged militants' },
+ { statute: 'Geneva Convention (IV): Civilian Protection', description: 'Drone strikes killing civilians in non-combat areas', count: 'Amnesty International documented 21 civilians in 5 strikes alone; true toll unknown' },
+ { statute: 'Executive Order 12333: Assassination Ban', description: 'Targeted killings of individuals without trial or due process', count: 'Hundreds of "targeted" strikes against alleged militants' },
  { statute: 'International Humanitarian Law, Proportionality', description: 'Strikes causing civilian harm disproportionate to military advantage', count: 'Strikes on homes, farms, and vehicles in civilian areas' },
  { statute: 'Rome Statute, Art. 8(2)(b)(i)', description: 'War crime of intentionally directing attacks against the civilian population', count: 'Multiple documented attacks on civilians with no militant connection' },
  { statute: 'U.S. Constitution, Due Process (5th Amendment)', description: 'Killing U.S. citizens abroad without trial or judicial review', count: 'At least one U.S. citizen killed in Somalia operations' },

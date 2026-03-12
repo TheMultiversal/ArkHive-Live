@@ -72,7 +72,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2017', event: 'Neil Gorsuch confirmed (seat stolen from Garland)' },
  { date: '2018', event: 'Brett Kavanaugh confirmed despite sexual assault allegations' },
  { date: '2020', event: 'Amy Coney Barrett confirmed in 8 days before election' },
- { date: '2022', event: 'Roe v. Wade overturned - 50-year goal achieved' },
+ { date: '2022', event: 'Roe v. Wade overturned; 50-year goal achieved' },
  { date: '2024', event: 'Chevron deference overturned, regulatory state gutted' },
  ],
  sources: [
@@ -121,7 +121,7 @@ const organizationData: Record<string, OrganizationProfile> = {
  { date: '2023', event: 'Releases Project 2025 blueprint' },
  ],
  sources: [
- { title: 'Project 2025 - Mandate for Leadership', date: '2023' },
+ { title: 'Project 2025: Mandate for Leadership', date: '2023' },
  ],
  },
  'project-2025': {
@@ -621,8 +621,8 @@ const organizationData: Record<string, OrganizationProfile> = {
  'CONFLICTS OF INTEREST: No blind trust during presidency',
  ],
  charges: [
- { statute: 'New York Tax Law', description: 'Criminal Tax Fraud - 17 felony counts', category: 'State Crime' },
- { statute: 'New York Executive Law 63(12)', description: 'Civil Fraud - $450M+ judgment', category: 'Civil' },
+ { statute: 'New York Tax Law', description: 'Criminal Tax Fraud; 17 felony counts', category: 'State Crime' },
+ { statute: 'New York Executive Law 63(12)', description: 'Civil Fraud; $450M+ judgment', category: 'Civil' },
  ],
  relatedInvestigations: [
  { title: 'Trump Organization Fraud', slug: 'trump-org-fraud', severity: 'critical' },

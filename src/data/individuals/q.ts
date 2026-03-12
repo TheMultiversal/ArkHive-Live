@@ -42,7 +42,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'DOD Statement on Strike Against Soleimani', url: 'https://www.defense.gov/News/Releases/Release/Article/2049534/', date: '2020-01-03' },
-      { title: 'Treasury OFAC - Soleimani Designation', url: 'https://www.treasury.gov/resource-center/sanctions/', date: '2007-10-25' },
+      { title: 'Treasury OFAC: Soleimani Designation', url: 'https://www.treasury.gov/resource-center/sanctions/', date: '2007-10-25' },
     ],
     aliases: [],
     knownAssociates: [

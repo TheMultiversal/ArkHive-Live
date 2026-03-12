@@ -62,7 +62,7 @@ const investigation = {
  { date: 'Jun 17, 1971', event: 'Nixon declares drugs"public enemy number one"- officially launches War on Drugs' },
  { date: '1973', event: 'Nixon creates Drug Enforcement Administration (DEA)' },
  { date: '1980s', event: 'CIA-backed Contras flood US cities with crack cocaine while Reagan escalates War on Drugs' },
- { date: '1986', event: 'Reagan signs Anti-Drug Abuse Act - 100:1 crack/powder disparity. Mass incarceration begins.' },
+ { date: '1986', event: 'Reagan signs Anti-Drug Abuse Act; 100:1 crack/powder disparity. Mass incarceration begins.' },
  { date: '1994', event: 'Clinton signs Crime Bill with"three strikes,"$9.7B for prisons, eliminates prisoner education' },
  { date: '1994', event: 'Ehrlichman confesses War on Drugs was designed to target Black people (published 2016)' },
  { date: '1996', event: 'Gary Webb publishes "Dark Alliance"exposing CIA-Contra cocaine connection. Career destroyed.' },

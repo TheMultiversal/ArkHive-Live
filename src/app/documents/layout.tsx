@@ -3,10 +3,10 @@ import type { ReactNode } from"react";
 
 export const metadata: Metadata = {
  title:"Documents",
- description:"Document library - FOIA releases, court filings, leaked documents, and verified evidence files.",
+ description:"Document library; FOIA releases, court filings, leaked documents, and verified evidence files.",
  openGraph: {
  title:"Documents | ArkHive",
- description:"Document library - FOIA releases, court filings, leaked documents, and verified evidence files.",
+ description:"Document library; FOIA releases, court filings, leaked documents, and verified evidence files.",
  },
 };
 

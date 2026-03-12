@@ -37,7 +37,7 @@ const investigation = {
  { date: '2018', event: 'Kavanaugh confirmed after telling Susan Collins Roe was"settled law "and" important precedent"' },
  { date: '2018', event: 'Mississippi passes 15-week abortion ban, designed as the vehicle to challenge Roe' },
  { date: '2020-09', event: 'Ruth Bader Ginsburg dies; Barrett nomination announced within hours' },
- { date: '2020-10', event: 'Amy Coney Barrett confirmed to Supreme Court 8 days before election - 6-3 anti-Roe majority secured' },
+ { date: '2020-10', event: 'Amy Coney Barrett confirmed to Supreme Court 8 days before election; 6-3 anti-Roe majority secured' },
  { date: '2021-05', event: 'Politico leaks Alito\'s draft Dobbs opinion showing plan to overturn Roe entirely' },
  { date: '2022-06-24', event: 'Dobbs v. Jackson decided 6-3, overturning Roe v. Wade and Planned Parenthood v. Casey' },
  { date: '2022-06', event: 'Trigger laws immediately ban abortion in 13 states; chaos in emergency rooms as doctors fear prosecution' },

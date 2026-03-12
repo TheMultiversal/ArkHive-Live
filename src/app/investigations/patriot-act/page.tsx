@@ -29,7 +29,7 @@ const investigation = {
  ],
  timeline: [
  { date: '2001-09-11', event: 'Al-Qaeda attacks kill 2,977 people; Bush administration begins drafting sweeping surveillance legislation within hours' },
- { date: '2001-10-26', event: 'USA PATRIOT Act signed into law - 342 pages passed with minimal debate; Senate vote 98-1 (Russ Feingold sole dissenter)' },
+ { date: '2001-10-26', event: 'USA PATRIOT Act signed into law; 342 pages passed with minimal debate; Senate vote 98-1 (Russ Feingold sole dissenter)' },
  { date: '2001-11', event: 'DOJ rounds up 1,200+ Muslim and Arab immigrants for detention; none are ever charged with terrorism' },
  { date: '2002-01', event: 'Bush secretly authorizes NSA warrantless wiretapping program (Stellar Wind); bypassing FISA courts entirely' },
  { date: '2002-11', event: 'Total Information Awareness program launched under DARPA to create massive domestic surveillance database; later defunded after public outcry' },

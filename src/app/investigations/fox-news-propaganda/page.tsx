@@ -55,7 +55,7 @@ const investigation = {
  ],
  charges: [
  { statute: 'Defamation, Actual Malice (NYT v. Sullivan Standard)', description: 'Broadcasting false statements with knowledge of their falsity or reckless disregard for truth', count: 'Internal communications proved knowledge of falsity; $787.5M settlement with Dominion' },
- { statute: 'Securities Fraud - 17 CFR § 240.10b-5', description: 'Misleading shareholders about editorial decisions that created massive legal liability', count: 'Shareholder derivative lawsuits filed against Murdoch family and Fox board' },
+ { statute: 'Securities Fraud: 17 CFR § 240.10b-5', description: 'Misleading shareholders about editorial decisions that created massive legal liability', count: 'Shareholder derivative lawsuits filed against Murdoch family and Fox board' },
  { statute: 'FEC Coordination Violations', description: 'Hosts coordinating with political campaigns while presenting content as independent news', count: 'Hannity texted White House officials; Ailes advised Trump; hosts attended campaign events' },
  { statute: 'Deceptive Business Practices', description: 'Marketing partisan propaganda as "Fair and Balanced"news programming', count: 'Decades of branding as news organization while operating as political advocacy outlet' },
  { statute: 'Intentional Infliction of Emotional Distress', description: 'Election workers received death threats after Fox amplified false fraud claims', count: 'Ruby Freeman and Shaye Moss testified about threats and harassment directly resulting from Fox coverage' },

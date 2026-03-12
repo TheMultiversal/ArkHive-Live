@@ -53,14 +53,14 @@ const investigation = {
  { defendant: 'Chemours', charge: 'Illegal discharge of GenX into Cape Fear River, NC', outcome: 'Consent order requiring $13 million remediation and ongoing monitoring' },
  ],
  charges: [
- { statute: '15 U.S.C. § 2607 - Toxic Substances Control Act (TSCA) Reporting', description: 'DuPont failed to report substantial risk information about C8 to the EPA for decades', count: 'EPA found violations in 2004; $16.5M penalty' },
- { statute: '33 U.S.C. § 1311 - Clean Water Act Violations', description: 'Illegal discharge of PFAS into the Ohio River and surrounding waterways from Washington Works plant', count: 'Multiple violations documented over decades' },
- { statute: '42 U.S.C. § 9601 - CERCLA (Superfund) Liability', description: 'PFAS contamination at manufacturing sites requiring extensive cleanup under Superfund authority', count: 'Multiple sites designated for cleanup' },
+ { statute: '15 U.S.C. § 2607: Toxic Substances Control Act (TSCA) Reporting', description: 'DuPont failed to report substantial risk information about C8 to the EPA for decades', count: 'EPA found violations in 2004; $16.5M penalty' },
+ { statute: '33 U.S.C. § 1311: Clean Water Act Violations', description: 'Illegal discharge of PFAS into the Ohio River and surrounding waterways from Washington Works plant', count: 'Multiple violations documented over decades' },
+ { statute: '42 U.S.C. § 9601: CERCLA (Superfund) Liability', description: 'PFAS contamination at manufacturing sites requiring extensive cleanup under Superfund authority', count: 'Multiple sites designated for cleanup' },
  { statute: 'State Tort Law, Negligence & Strict Liability', description: 'Failure to warn communities about known health risks of C8 contamination in drinking water', count: '3,550+ individual claims settled; thousands more pending' },
  { statute: 'State Tort Law, Fraudulent Concealment', description: 'Actively hiding internal toxicity studies and environmental monitoring data from regulators and public', count: 'Central claim in Bilott litigation' },
- { statute: '18 U.S.C. § 1001 - False Statements', description: 'Providing misleading information to the EPA about the safety profile of C8/PFOA', count: 'Investigated, resolved through administrative proceedings' },
+ { statute: '18 U.S.C. § 1001: False Statements', description: 'Providing misleading information to the EPA about the safety profile of C8/PFOA', count: 'Investigated, resolved through administrative proceedings' },
  { statute: 'State Environmental Statutes (Various)', description: 'Violation of state-level clean water and toxic substance disclosure requirements', count: 'Lawsuits filed in WV, OH, NC, NJ, and other states' },
- { statute: '42 U.S.C. § 300f - Safe Drinking Water Act', description: 'Contamination of public drinking water systems with PFAS above safe levels', count: 'Basis for 2024 EPA drinking water standard' },
+ { statute: '42 U.S.C. § 300f: Safe Drinking Water Act', description: 'Contamination of public drinking water systems with PFAS above safe levels', count: 'Basis for 2024 EPA drinking water standard' },
  ],
  coverup: [
  'DuPont\'s own toxicology studies from the 1960s showed C8 was toxic at extremely low doses, they classified these studies as confidential and never reported them to the EPA',
@@ -81,7 +81,7 @@ const investigation = {
  { title: 'EPA Final PFAS Drinking Water Standards', url: 'https://www.epa.gov/newsreleases/biden-harris-administration-finalizes-first-ever-national-drinking-water-standard', date: '2024-04-10' },
  { title: 'DuPont PFOA Consent Order, EPA', url: 'https://www.epa.gov/enforcement/dupont-washington-works-consent-order', date: '2005' },
  { title: '3M $10.3 Billion PFAS Settlement', url: 'https://web.archive.org/web/2024/https://www.reuters.com/legal/3m-reaches-103-bln-settlement-forever-chemicals-us-water-supplies-2023-06-22/', date: '2023-06-22' },
- { title: 'Dark Waters (Film) - Based on Robert Bilott\'s Fight Against DuPont', url: 'https://www.imdb.com/title/tt9071322/', date: '2019-11-22' },
+ { title: 'Dark Waters (Film): Based on Robert Bilott\'s Fight Against DuPont', url: 'https://www.imdb.com/title/tt9071322/', date: '2019-11-22' },
  ],
 };
 

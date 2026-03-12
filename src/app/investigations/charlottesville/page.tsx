@@ -85,7 +85,7 @@ const investigation = {
  { date: 'Dec 2017', event: 'James Fields charged with federal hate crimes' },
  { date: 'Dec 2018', event: 'Fields pleads guilty, receives life sentence' },
  { date: 'Oct 2019', event: 'Sines v. Kessler trial begins' },
- { date: 'Nov 2021', event: 'Jury finds organizers liable - $26M damages' },
+ { date: 'Nov 2021', event: 'Jury finds organizers liable; $26M damages' },
  ],
  legalOutcomes: [
  { defendant: 'James Alex Fields Jr.', charge: 'First-degree murder, federal hate crimes', outcome: 'Life + 419 years' },
@@ -95,12 +95,12 @@ const investigation = {
  { defendant: 'Christopher Cantwell', charge: 'Assault, perjury', outcome: 'Convicted, prison' },
  ],
  charges: [
- { statute: '18 U.S.C. § 249 - Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act', description: 'Willful causing of bodily injury through use of a dangerous weapon because of race, color, religion, or national origin', count: '29 federal hate crime charges filed against James Alex Fields Jr.' },
- { statute: '18 U.S.C. § 245 - Federally Protected Activities', description: 'Interference with federally protected activities by force or threat of force on the basis of race', count: 'Applied in federal prosecution of Fields' },
- { statute: '42 U.S.C. § 1985(3) - Conspiracy to Interfere with Civil Rights (Ku Klux Klan Act)', description: 'Civil conspiracy to deprive persons of equal protection of the laws through coordinated intimidation', count: 'Central charge in Sines v. Kessler civil trial, organizers found liable for $26 million' },
- { statute: '18 U.S.C. § 241 - Conspiracy Against Rights', description: 'Conspiracy to injure, oppress, threaten, or intimidate persons in free exercise of constitutional rights', count: 'Applied to rally organizers\' coordinated intimidation campaign' },
- { statute: 'Va. Code § 18.2-32 - First-Degree Murder', description: 'Premeditated killing of Heather Heyer by deliberately driving vehicle into crowd of counter-protesters', count: '1 count, Fields convicted, sentenced to life plus 419 years' },
- { statute: '18 U.S.C. § 2101 - Federal Anti-Riot Act', description: 'Traveling in interstate commerce with intent to incite, organize, or participate in a riot', count: 'Applicable to out-of-state rally organizers and armed participants' },
+ { statute: '18 U.S.C. § 249: Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act', description: 'Willful causing of bodily injury through use of a dangerous weapon because of race, color, religion, or national origin', count: '29 federal hate crime charges filed against James Alex Fields Jr.' },
+ { statute: '18 U.S.C. § 245: Federally Protected Activities', description: 'Interference with federally protected activities by force or threat of force on the basis of race', count: 'Applied in federal prosecution of Fields' },
+ { statute: '42 U.S.C. § 1985(3): Conspiracy to Interfere with Civil Rights (Ku Klux Klan Act)', description: 'Civil conspiracy to deprive persons of equal protection of the laws through coordinated intimidation', count: 'Central charge in Sines v. Kessler civil trial, organizers found liable for $26 million' },
+ { statute: '18 U.S.C. § 241: Conspiracy Against Rights', description: 'Conspiracy to injure, oppress, threaten, or intimidate persons in free exercise of constitutional rights', count: 'Applied to rally organizers\' coordinated intimidation campaign' },
+ { statute: 'Va. Code § 18.2-32: First-Degree Murder', description: 'Premeditated killing of Heather Heyer by deliberately driving vehicle into crowd of counter-protesters', count: '1 count, Fields convicted, sentenced to life plus 419 years' },
+ { statute: '18 U.S.C. § 2101: Federal Anti-Riot Act', description: 'Traveling in interstate commerce with intent to incite, organize, or participate in a riot', count: 'Applicable to out-of-state rally organizers and armed participants' },
  ],
  coverup: [
  'Charlottesville Police and Virginia State Police failed to separate armed white nationalist groups from counter-protesters despite weeks of advance intelligence about planned violence',

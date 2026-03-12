@@ -26,7 +26,7 @@ const investigation = {
  ],
  timeline: [
  { date: '1977', event: 'Charles Koch founds the Cato Institute (originally the Charles Koch Foundation) to promote libertarian ideology' },
- { date: '1980', event: 'David Koch runs as Libertarian Party VP candidate, receives only 1% - brothers decide to work within Republican Party' },
+ { date: '1980', event: 'David Koch runs as Libertarian Party VP candidate, receives only 1%; brothers decide to work within Republican Party' },
  { date: '1984', event: 'Citizens for a Sound Economy founded as Koch-backed advocacy group' },
  { date: '1997', event: 'Richard Fink outlines "Structure of Social Change"- a three-stage plan to move ideas from academia to policy' },
  { date: '2003', event: 'First Koch donor summit held in Chicago, raising tens of millions for political operations' },

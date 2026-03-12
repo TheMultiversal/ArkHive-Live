@@ -305,7 +305,7 @@ const investigations_d: Record<string, InvestigationData> = {
  sources: [
  { title: 'Mesa PD Body Camera Footage', url: 'https://www.washingtonpost.com/news/post-nation/wp/2017/12/08/jury-acquits-former-mesa-officer-phillip-brailsford-in-fatal-2016-shooting/', type: 'News Report' },
  { title: 'Brailsford Pension Rehire', url: 'https://www.azcentral.com/story/news/local/mesa/2019/07/10/mesa-police-officer-philip-brailsford-rehired-pension-daniel-shaver-shooting/1698540001/', type: 'News Report' },
- { title: 'Court Records - State v. Brailsford', url: 'https://www.superiorcourt.maricopa.gov/docket/CriminalCourtCases/', type: 'Court Filing' },
+ { title: 'Court Records: State v. Brailsford', url: 'https://www.superiorcourt.maricopa.gov/docket/CriminalCourtCases/', type: 'Court Filing' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'No federal civil rights charges filed', href: '/entities/agencies/doj' },
@@ -1093,7 +1093,7 @@ const investigations_d: Record<string, InvestigationData> = {
     content: [
       "INSULIN CRISIS: Insulin prices tripled between 2002-2018 despite being discovered in 1921. Patients died rationing doses.",
       "PAY-FOR-DELAY: Brand-name companies pay generic manufacturers to delay cheaper alternatives.",
-      "LOBBYING POWER: Pharma spent $373M lobbying Congress in 2022 alone - more than any other industry.",
+      "LOBBYING POWER: Pharma spent $373M lobbying Congress in 2022 alone; more than any other industry.",
       "SHKRELI EFFECT: Martin Shkreli's 5,000% price hike of Daraprim exemplified industry pricing practices.",
     ],
     tags: ["Drug Pricing","Pharmaceutical","Insulin","Healthcare","Lobbying"],
@@ -1111,7 +1111,7 @@ const investigations_d: Record<string, InvestigationData> = {
     lastUpdated: "March 10, 2026",
     summary: "Domestic terrorism is the greatest terrorism threat facing the United States. White supremacist and anti-government extremists have killed more Americans since 9/11 than any foreign terrorist organization.",
     content: [
-      "FBI WARNING: The FBI has repeatedly identified domestic violent extremism - particularly racially motivated - as the top terrorism threat to the homeland.",
+      "FBI WARNING: The FBI has repeatedly identified domestic violent extremism; particularly racially motivated; as the top terrorism threat to the homeland.",
       "OKLAHOMA CITY TO JANUARY 6: From the 1995 Oklahoma City bombing to the 2021 Capitol insurrection, domestic terrorism has escalated in frequency and severity.",
       "ONLINE RADICALIZATION: Social media platforms and anonymous forums serve as radicalization pipelines, connecting isolated individuals to extremist ideologies.",
       "LAW ENFORCEMENT GAPS: Unlike international terrorism, there is no domestic terrorism federal statute, creating prosecution gaps.",
@@ -1133,7 +1133,7 @@ const investigations_d: Record<string, InvestigationData> = {
     content: [
       "THE KILLING: Shaver was ordered to crawl toward officers after a report of a rifle (his pest control pellet gun) in a hotel window. The commands were contradictory and impossible to follow. As he crawled, his shorts slipped and he reached to pull them up. Brailsford fired five rounds.",
       "THE AR-15: Brailsford's department-issued AR-15 had the phrase \"You're F***ed\" etched into the dust cover. The judge ruled this evidence inadmissible at trial.",
-      "ACQUITTAL AND PENSION: Brailsford was acquitted of second-degree murder. He was later rehired by the department for 42 days specifically to apply for a medical pension of $2,500/month for PTSD - from the shooting he committed.",
+      "ACQUITTAL AND PENSION: Brailsford was acquitted of second-degree murder. He was later rehired by the department for 42 days specifically to apply for a medical pension of $2,500/month for PTSD; from the shooting he committed.",
     ],
     tags: ["Police Violence","Daniel Shaver","Use of Force","Police Accountability"],
     sources: [

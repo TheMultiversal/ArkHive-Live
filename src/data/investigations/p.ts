@@ -477,7 +477,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'House Select Subcommittee on the Coronavirus Crisis Final Report', url: 'https://coronavirus.house.gov/sites/democrats.coronavirus.house.gov/files/2022-12-09.Final-Report.pdf', type: 'Congressional Record' },
  { title: 'CDC COVID-19 Testing Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', type: 'Government Report' },
  { title: 'NSC Pandemic Team Disbandment', url: 'https://apnews.com/article/ap-fact-check-joe-biden-pandemics-public-health-government-and-politics-d36d6c4de29f4d04beda3db00cb46104', type: 'News Report' },
- { title: 'APM Research Lab - COVID Race Data', url: 'https://www.apmresearchlab.org/covid/deaths-by-race', type: 'Research Report' },
+ { title: 'APM Research Lab: COVID Race Data', url: 'https://www.apmresearchlab.org/covid/deaths-by-race', type: 'Research Report' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Disbanded pandemic team, promoted unproven treatments, resisted masks', href: '/entities/individuals/donald-trump' },
@@ -576,7 +576,7 @@ const investigations_p: Record<string, InvestigationData> = {
  summary: 'The U.S. pharmaceutical industry charges the highest drug prices in the world, with Americans paying 2-3 times more than patients in other developed nations. Companies exploit patent law to extend monopolies, buy off generic competitors through pay-for-delay agreements, and spend more on lobbying than any other industry. Martin Shkreli raised the price of Daraprim by 5,000% overnight. Insulin prices tripled between 2002 and 2013 despite being discovered over a century ago. The industry\'s lobbying arm, PhRMA, spent $374 million in 2022 alone to protect the pricing structure.',
  content: [
  'PRICE COMPARISON: Americans pay 2-3 times more for prescription drugs than citizens of other developed nations. A vial of insulin that costs $300 in the U.S. costs $30 in Canada. Humira, the world\'s best-selling drug, cost $77,000 per year in the U.S. versus $16,000 in the UK. The price differential exists because the U.S. is the only major country that does not negotiate drug prices.',
- 'MARTIN SHKRELI - DARAPRIM: In 2015, Turing Pharmaceuticals, led by Martin Shkreli, acquired the rights to Daraprim, a 62-year-old drug used to treat parasitic infections in AIDS patients, and raised its price from $13.50 to $750 per pill overnight. Shkreli became the face of pharmaceutical greed. He was later convicted of securities fraud and sentenced to seven years.',
+ 'MARTIN SHKRELI: DARAPRIM: In 2015, Turing Pharmaceuticals, led by Martin Shkreli, acquired the rights to Daraprim, a 62-year-old drug used to treat parasitic infections in AIDS patients, and raised its price from $13.50 to $750 per pill overnight. Shkreli became the face of pharmaceutical greed. He was later convicted of securities fraud and sentenced to seven years.',
  'INSULIN CRISIS: Insulin was discovered in 1921 and the patent was sold for $1. A century later, U.S. insulin prices tripled between 2002 and 2013. Three companies, Eli Lilly, Novo Nordisk, and Sanofi, control 90% of the global insulin market. Americans have died rationing insulin they could not afford. The Inflation Reduction Act capped insulin at $35 for Medicare patients, but the cap does not cover all Americans.',
  'PATENT EVERGREENING: Pharmaceutical companies extend monopolies by filing dozens of secondary patents on existing drugs, a practice called "patent thickets" or "evergreening." Humira\'s maker, AbbVie, filed over 150 patents to extend its monopoly. Pay-for-delay agreements pay generic manufacturers not to compete, costing consumers an estimated $3.5 billion annually.',
  'PHRMA LOBBYING: The pharmaceutical industry is the largest lobbying force in Washington. PhRMA spent $374 million on lobbying in 2022. The industry employs more lobbyists than there are members of Congress. Lobbying has successfully blocked Medicare drug price negotiation for decades, prevented importation of cheaper drugs from Canada, and weakened FDA generic approval processes.',
@@ -588,9 +588,9 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Pharmaceutical', 'Drug Pricing', 'PhRMA', 'Insulin', 'Lobbying', 'Medicare', 'Patent Abuse'],
  sources: [
- { title: 'RAND Corporation - U.S. Drug Price Comparison', url: 'https://www.rand.org/pubs/research_reports/RRA788-1.html', type: 'Research Report' },
- { title: 'House Oversight - Drug Pricing Investigation', url: 'https://oversight.house.gov/landing/drug-pricing-investigation/', type: 'Congressional Record' },
- { title: 'Inflation Reduction Act - Drug Pricing Provisions', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare', type: 'Legislation' },
+ { title: 'RAND Corporation: U.S. Drug Price Comparison', url: 'https://www.rand.org/pubs/research_reports/RRA788-1.html', type: 'Research Report' },
+ { title: 'House Oversight: Drug Pricing Investigation', url: 'https://oversight.house.gov/landing/drug-pricing-investigation/', type: 'Congressional Record' },
+ { title: 'Inflation Reduction Act: Drug Pricing Provisions', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare', type: 'Legislation' },
  { title: 'PhRMA Lobbying Disclosures', url: 'https://www.opensecrets.org/federal-lobbying/industries/summary?id=H04', type: 'Financial Disclosure' },
  ],
  affiliations: [
@@ -660,10 +660,10 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Philippines', 'Duterte', 'Extrajudicial Killings', 'Drug War', 'ICC', 'Human Rights', 'State Violence'],
  sources: [
- { title: 'Human Rights Watch - Philippine Drug War Report', url: 'https://www.hrw.org/report/2017/03/02/license-kill/philippine-police-killings-dutertes-war-drugs', type: 'Investigation' },
+ { title: 'Human Rights Watch: Philippine Drug War Report', url: 'https://www.hrw.org/report/2017/03/02/license-kill/philippine-police-killings-dutertes-war-drugs', type: 'Investigation' },
  { title: 'ICC Investigation Authorization', url: 'https://www.icc-cpi.int/philippines', type: 'Court Filing' },
- { title: 'Amnesty International - They Just Kill', url: 'https://www.amnesty.org/en/documents/asa35/5517/2017/en/', type: 'Investigation' },
- { title: 'Reuters - Philippine Drug War Death Toll', url: 'https://www.reuters.com/investigates/special-report/philippines-drugs-surveillance/', type: 'Investigation' },
+ { title: 'Amnesty International: They Just Kill', url: 'https://www.amnesty.org/en/documents/asa35/5517/2017/en/', type: 'Investigation' },
+ { title: 'Reuters: Philippine Drug War Death Toll', url: 'https://www.reuters.com/investigates/special-report/philippines-drugs-surveillance/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'ICC', type: 'agency', relationship: 'Authorized investigation for crimes against humanity', href: '/entities/agencies/icc' },
@@ -925,7 +925,7 @@ const investigations_p: Record<string, InvestigationData> = {
  tags: ['Political Violence', 'January 6', 'Extremism', 'Militia', 'Threats', 'Radicalization'],
  sources: [
  { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Congressional Record' },
- { title: 'Reuters - Election Worker Threats Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-election-threats/', type: 'Investigation' },
+ { title: 'Reuters: Election Worker Threats Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-election-threats/', type: 'Investigation' },
  { title: 'Capitol Police Threat Assessment Data', url: 'https://www.uscp.gov/media-center/press-releases/us-capitol-police-releases-2021-annual-report', type: 'Government Report' },
  { title: 'DOJ Oath Keepers Seditious Conspiracy Convictions', url: 'https://www.justice.gov/usao-dc/pr/oath-keepers-leader-found-guilty-seditious-conspiracy', type: 'Court Filing' },
  ],
@@ -1901,7 +1901,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ["Parental Accountability","Gun Violence","Legal Precedent","Oxford"],
     sources: [
-      { title: "Giffords Law Center - Child Access Prevention", url: "https://giffords.org/lawcenter/gun-laws/policy-areas/child-consumer-safety/child-access-prevention/", type: "Research" },
+      { title: "Giffords Law Center: Child Access Prevention", url: "https://giffords.org/lawcenter/gun-laws/policy-areas/child-consumer-safety/child-access-prevention/", type: "Research" },
     ],
     affiliations: [],
   },
@@ -1912,7 +1912,7 @@ const investigations_p: Record<string, InvestigationData> = {
     category: "Criminal Justice",
     date: "March 3, 1991",
     lastUpdated: "March 10, 2026",
-    summary: "From the Rodney King beating to George Floyd's murder, decades of reform efforts - consent decrees, body cameras, training programs, civilian review boards - have failed to fundamentally change American policing or reduce police killings, which remain at approximately 1,100 per year.",
+    summary: "From the Rodney King beating to George Floyd's murder, decades of reform efforts; consent decrees, body cameras, training programs, civilian review boards; have failed to fundamentally change American policing or reduce police killings, which remain at approximately 1,100 per year.",
     content: [
       "CONSENT DECREES: DOJ consent decrees produced modest improvements but departments often reverted after oversight ended.",
       "BODY CAMERAS: Despite widespread adoption, body cameras have not significantly reduced use of force.",
@@ -1931,7 +1931,7 @@ const investigations_p: Record<string, InvestigationData> = {
     category: "Police Violence",
     date: "January 1, 2013",
     lastUpdated: "March 10, 2026",
-    summary: "American police kill approximately 1,100 people per year - a rate 3x higher than Canada and 50x higher than Germany. Qualified immunity shields officers from civil liability. Grand juries rarely indict. Union contracts protect officers from discipline.",
+    summary: "American police kill approximately 1,100 people per year; a rate 3x higher than Canada and 50x higher than Germany. Qualified immunity shields officers from civil liability. Grand juries rarely indict. Union contracts protect officers from discipline.",
     content: [
       "THE NUMBERS: Police kill approximately 1,100 people annually. Black Americans are killed at 2.5x the rate of white Americans.",
       "QUALIFIED IMMUNITY: The Supreme Court-created doctrine shields officers from civil liability unless they violate \"clearly established\" law.",
@@ -1965,7 +1965,7 @@ const investigations_p: Record<string, InvestigationData> = {
   },
   'parkland-shooting': {
     title: "Parkland School Shooting",
-    subtitle: "The massacre that birthed the March for Our Lives movement - and still didn't change gun laws",
+    subtitle: "The massacre that birthed the March for Our Lives movement: and still didn't change gun laws",
     severity: "critical",
     category: "Gun Violence",
     date: "February 14, 2018",
@@ -1991,7 +1991,7 @@ const investigations_p: Record<string, InvestigationData> = {
     lastUpdated: "March 10, 2026",
     summary: "American policing operates with virtually no accountability. Qualified immunity shields officers from civil liability, police unions block discipline, prosecutors rarely charge officers, and departments rehire fired cops. The result: thousands of unjustified killings and a near-zero conviction rate.",
     content: [
-      "QUALIFIED IMMUNITY: The Supreme Court doctrine shields officers from civil suits unless the exact same conduct was previously ruled unconstitutional - a nearly impossible standard that effectively bars accountability.",
+      "QUALIFIED IMMUNITY: The Supreme Court doctrine shields officers from civil suits unless the exact same conduct was previously ruled unconstitutional; a nearly impossible standard that effectively bars accountability.",
       "POLICE UNION OBSTRUCTION: Police union contracts include provisions that delay investigations, limit interrogation, and allow officers to review evidence before statements, undermining accountability.",
       "WANDERING OFFICERS: Officers fired for misconduct are routinely rehired by other departments. A 2020 Yale study found 3% of officers account for the majority of complaints but face no consequences.",
       "PROSECUTORIAL RELUCTANCE: District attorneys who depend on police cooperation rarely charge officers, creating a systemic conflict of interest.",

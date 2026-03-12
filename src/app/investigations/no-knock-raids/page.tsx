@@ -86,7 +86,7 @@ const investigation = {
  { title: 'Louisville Courier Journal, Breonna Taylor Investigation', url: 'https://www.courier-journal.com/story/news/local/breonna-taylor/2020/05/12/breonna-taylor-shooting-what-we-know/3115870001/', date: '2020' },
  { title: 'NPR, The Door-Busting, Flash-Bang Raids Endangering Innocent Americans', url: 'https://www.npr.org/2022/02/08/1079128685/no-knock-warrants-amir-locke-breonna-taylor', date: '2022-02-08' },
  { title: 'Brennan Center for Justice, Ending No-Knock Warrants', url: 'https://www.brennancenter.org/our-work/research-reports/ending-no-knock-warrants', date: '2023' },
- { title: 'Hudson v. Michigan, 547 U.S. 586 (2006) - Supreme Court Decision', url: 'https://supreme.justia.com/cases/federal/us/547/586/', date: '2006' },
+ { title: 'Hudson v. Michigan, 547 U.S. 586 (2006): Supreme Court Decision', url: 'https://supreme.justia.com/cases/federal/us/547/586/', date: '2006' },
  ],
 };
 

@@ -43,7 +43,7 @@ const investigation = {
  { date: '1990', event: 'Mandela released from prison after 27 years; apartheid begins to crumble despite years of US support' },
  { date: '1993', event: 'Mandela and de Klerk share Nobel Peace Prize; US had opposed Mandela for three decades' },
  { date: '1994', event: 'Mandela elected President of South Africa in first multiracial elections' },
- { date: '2008', event: 'Congress finally passes bill removing Mandela and ANC members from US terrorism watch list - 18 years after his release' },
+ { date: '2008', event: 'Congress finally passes bill removing Mandela and ANC members from US terrorism watch list; 18 years after his release' },
  { date: '2016', event: 'CIA operative Donald Rickard confirms on film that he provided the tip that led to Mandela\'s 1962 arrest' },
  ],
  legalOutcomes: [
@@ -58,7 +58,7 @@ const investigation = {
  ],
  charges: [
  { statute: 'International Convention on the Suppression and Punishment of the Crime of Apartheid (1973)', description: 'US support for and complicity in the apartheid system, providing diplomatic, military, and economic assistance to a regime committing the crime of apartheid', count: 'Decades of active support including intelligence cooperation, nuclear technology, and vetoing UN resolutions' },
- { statute: 'Conspiracy Against Rights - 18 U.S.C. § 241 (domestic analog)', description: 'CIA agents conspired with South African security forces to identify and arrest anti-apartheid leaders', count: 'CIA tip directly responsible for Mandela\'s 27-year imprisonment' },
+ { statute: 'Conspiracy Against Rights: 18 U.S.C. § 241 (domestic analog)', description: 'CIA agents conspired with South African security forces to identify and arrest anti-apartheid leaders', count: 'CIA tip directly responsible for Mandela\'s 27-year imprisonment' },
  { statute: 'Aiding and Abetting Crimes Against Humanity', description: 'US provided technology, intelligence, and diplomatic cover enabling systematic racial persecution of millions', count: '45 years of apartheid affecting 30+ million Black, Coloured, and Indian South Africans' },
  { statute: 'Nuclear Non-Proliferation Treaty Violations', description: 'US provided nuclear technology that South Africa used to develop nuclear weapons while maintaining apartheid', count: 'South Africa built 6 nuclear weapons with US-origin technology' },
  { statute: 'Violations of UN Security Council Resolutions', description: 'US circumvented arms embargo and other UN measures against apartheid South Africa', count: 'Multiple vetoes of UN Security Council resolutions condemning apartheid' },

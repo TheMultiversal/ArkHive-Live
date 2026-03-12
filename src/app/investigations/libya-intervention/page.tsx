@@ -54,14 +54,14 @@ const investigation = {
  { defendant: 'U.S. Government', charge: 'Arming rebel groups with known extremist elements', outcome: 'Weapons later found in hands of ISIS and other jihadist groups across the Sahel' },
  ],
  charges: [
- { statute: 'UN Security Council Res. 1973 - Mandate Exceeded', description: 'Resolution authorized protection of civilians only; NATO transformed it into regime change operation', count: '7,700 strike sorties flown; government infrastructure systematically destroyed' },
+ { statute: 'UN Security Council Res. 1973: Mandate Exceeded', description: 'Resolution authorized protection of civilians only; NATO transformed it into regime change operation', count: '7,700 strike sorties flown; government infrastructure systematically destroyed' },
  { statute: 'War Powers Resolution (50 U.S.C. § 1541)', description: 'President continued military operations beyond 60 days without Congressional authorization', count: '7 months of bombing without Congressional approval or declaration of war' },
- { statute: 'Geneva Convention (IV) - Protection of Civilians', description: 'NATO bombing caused significant civilian casualties in populated areas', count: 'Hundreds of civilian casualties documented; NATO initially denied all civilian deaths' },
+ { statute: 'Geneva Convention (IV): Protection of Civilians', description: 'NATO bombing caused significant civilian casualties in populated areas', count: 'Hundreds of civilian casualties documented; NATO initially denied all civilian deaths' },
  { statute: 'Rome Statute, Art. 8(2)(a)(i)', description: 'Willful killing, extrajudicial execution of a head of state', count: 'Gaddafi captured alive but tortured and killed; NATO forces enabled capture' },
  { statute: 'UN Charter, Art. 2(7)', description: 'Intervention in matters within domestic jurisdiction of a state', count: 'Full-scale regime change in violation of non-intervention principle' },
  { statute: 'International Humanitarian Law, Proportionality', description: 'Bombing campaign disproportionate to stated objective of civilian protection', count: '26,500+ sorties flown, thousands of bombs dropped on a country of 6 million' },
  { statute: 'Arms Export Control Act', description: 'Transfer of weapons to unvetted rebel groups with known extremist ties', count: 'Weapons subsequently found across the Sahel and in hands of jihadist organizations' },
- { statute: 'Protocol I, Art. 51 - Indiscriminate Attacks', description: 'Bombing of dual-use infrastructure affecting civilian populations', count: 'Destruction of water, electrical, and communications infrastructure across Libya' },
+ { statute: 'Protocol I, Art. 51: Indiscriminate Attacks', description: 'Bombing of dual-use infrastructure affecting civilian populations', count: 'Destruction of water, electrical, and communications infrastructure across Libya' },
  ],
  coverup: [
  'The Obama administration argued that sustained bombing of Libya did not constitute "hostilities" under the War Powers Resolution, contradicting the opinion of the Pentagon\'s own lawyers.',

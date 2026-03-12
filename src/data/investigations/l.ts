@@ -388,7 +388,7 @@ const investigations_l: Record<string, InvestigationData> = {
 
   'las-vegas-shooting': {
     title: "Las Vegas Mass Shooting",
-    subtitle: "The deadliest mass shooting in modern American history - 60 killed, 413 wounded",
+    subtitle: "The deadliest mass shooting in modern American history: 60 killed, 413 wounded",
     severity: "critical",
     category: "Mass Shooting",
     date: "October 1, 2017",

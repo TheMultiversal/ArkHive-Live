@@ -116,8 +116,8 @@ const investigationData = {
  { date: 'January 2017', event: 'Summer Zervos files defamation lawsuit' },
  { date: 'June 2019', event: 'E. Jean Carroll goes public with rape allegation' },
  { date: 'November 2019', event: 'Carroll files defamation lawsuit' },
- { date: 'May 2023', event: 'Carroll wins first trial - $5M verdict' },
- { date: 'January 2024', event: 'Carroll wins second trial - $83.3M verdict' },
+ { date: 'May 2023', event: 'Carroll wins first trial; $5M verdict' },
+ { date: 'January 2024', event: 'Carroll wins second trial; $83.3M verdict' },
  { date: '2024', event: 'Trump continues to attack Carroll, faces contempt risk' },
  ],
 

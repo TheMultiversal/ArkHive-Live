@@ -7,7 +7,7 @@ import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
  title: 'Missing & Murdered Indigenous Women',
- subtitle: 'The Invisible Epidemic - 5,712 Reported Missing in a Single Year, Most Cases Never Investigated',
+ subtitle: 'The Invisible Epidemic: 5,712 Reported Missing in a Single Year, Most Cases Never Investigated',
  severity: 'critical',
  status: 'ONGOING',
  summary: 'Indigenous women and girls in the United States and Canada face rates of murder and disappearance up to 10 times the national average. In 2016 alone, 5,712 Indigenous women and girls were reported missing in the US, yet only 116 were logged in the Department of Justice\'s federal missing persons database. The crisis is fueled by jurisdictional chaos between tribal, state, and federal authorities (creating vast zones where crimes against Indigenous women are effectively unprosecuted. The arrival of extractive industry"man camps"near reservations has been directly correlated with spikes in violence against Indigenous women. Generations of federal policy) from forced removal to boarding schools to the undermining of tribal sovereignty, created the conditions for this ongoing genocide.',

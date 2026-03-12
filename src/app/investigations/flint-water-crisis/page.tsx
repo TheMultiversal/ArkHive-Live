@@ -70,7 +70,7 @@ const investigation = {
  { date: 'Jul 2015', event: 'MDEQ tells EPA the situation is under control. It is not.' },
  { date: 'Sep 2015', event: 'Dr. Mona Hanna-Attisha publishes data showing doubled/tripled blood lead levels in children' },
  { date: 'Sep 2015', event: 'State officials attack Hanna-Attisha:"I would not cause undue alarm.""Unfortunate"findings.' },
- { date: 'Oct 1, 2015', event: 'Genesee County declares health emergency. State finally acknowledges crisis - 18 MONTHS after switch.' },
+ { date: 'Oct 1, 2015', event: 'Genesee County declares health emergency. State finally acknowledges crisis; 18 MONTHS after switch.' },
  { date: 'Oct 16, 2015', event: 'Flint reconnects to Detroit water. Damage already done, pipes permanently corroded.' },
  { date: 'Jan 2016', event: 'Governor Snyder declares state of emergency. Federal emergency declared.' },
  { date: '2016-17', event: '15 state officials charged including Governor Snyder' },

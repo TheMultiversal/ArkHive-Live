@@ -57,7 +57,7 @@ const investigation = {
  ],
  charges: [
  { statute: '8th Amendment, Cruel and Unusual Punishment', description: 'Prolonged solitary confinement causes severe psychological damage tantamount to torture', count: '80,000+ Americans in solitary at any time; thousands held for years or decades' },
- { statute: 'UN Standard Minimum Rules (Mandela Rules) - Rule 44', description: 'Solitary confinement of more than 15 consecutive days defined as torture; indefinite or prolonged solitary is prohibited', count: 'U.S. routinely exceeds 15 days; many held for months, years, or decades' },
+ { statute: 'UN Standard Minimum Rules (Mandela Rules): Rule 44', description: 'Solitary confinement of more than 15 consecutive days defined as torture; indefinite or prolonged solitary is prohibited', count: 'U.S. routinely exceeds 15 days; many held for months, years, or decades' },
  { statute: 'Convention Against Torture (Articles 1 & 16)', description: 'United States is a signatory; solitary confinement as practiced in the U.S. meets the legal definition of torture', count: 'UN Special Rapporteur formally declared U.S. solitary practices constitute torture in 2011' },
  { statute: '14th Amendment, Due Process', description: 'Prisoners placed in solitary often have no meaningful hearing, no ability to challenge placement, and no defined end date', count: 'Tens of thousands placed in solitary through administrative decisions with no judicial review' },
  { statute: '14th Amendment, Equal Protection', description: 'Solitary confinement is imposed disproportionately on Black, Latino, and mentally ill prisoners', count: 'Black prisoners are 2-3x more likely to be placed in solitary than white prisoners in most states' },

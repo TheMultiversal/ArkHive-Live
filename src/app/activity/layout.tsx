@@ -3,10 +3,10 @@ import type { ReactNode } from"react";
 
 export const metadata: Metadata = {
  title:"Activity",
- description:"Recent activity feed - track updates, changes, and new evidence across all ArkHive investigations.",
+ description:"Recent activity feed; track updates, changes, and new evidence across all ArkHive investigations.",
  openGraph: {
  title:"Activity | ArkHive",
- description:"Recent activity feed - track updates, changes, and new evidence across all ArkHive investigations.",
+ description:"Recent activity feed; track updates, changes, and new evidence across all ArkHive investigations.",
  },
 };
 

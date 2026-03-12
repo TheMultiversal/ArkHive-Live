@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'April 1, 1949',
  birthPlace: 'New Britain, Connecticut, USA',
  netWorth: '$28+ million (pre-conviction, hidden assets recovered)',
- education: ['J.D. - Georgetown University Law Center (1974)', 'B.S. - Georgetown University (1971)'],
+ education: ['J.D., Georgetown University Law Center (1974)', 'B.S., Georgetown University (1971)'],
  affiliations: [
  { name: 'Trump Campaign', role: 'Chairman (March-August 2016)', type: 'organization' },
  { name: 'Party of Regions (Ukraine)', role: 'Chief Strategist for Yanukovych', type: 'organization' },
@@ -32,8 +32,8 @@ const profiles: Record<string, IndividualProfile> = {
  'CYPRIOT SHELL COMPANIES: Used dozens of shell companies to launder payments from Ukraine',
  ],
  charges: [
- { statute: '26 U.S.C. § 7206', description: 'Tax fraud - concealing $15 million in foreign income (5 counts)', category: 'Financial Crimes' },
- { statute: '18 U.S.C. § 1344', description: 'Bank fraud - defrauding Citizens Bank, Federal Savings Bank (2 counts)', category: 'Financial Crimes' },
+ { statute: '26 U.S.C. § 7206', description: 'Tax fraud; concealing $15 million in foreign income (5 counts)', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. § 1344', description: 'Bank fraud; defrauding Citizens Bank, Federal Savings Bank (2 counts)', category: 'Financial Crimes' },
  { statute: '31 U.S.C. § 5314', description: 'Failure to report foreign bank accounts (FBAR)', category: 'Financial Crimes' },
  { statute: '18 U.S.C. § 1512', description: 'Witness tampering', category: 'Obstruction' },
  { statute: '22 U.S.C. § 618', description: 'Failure to register as foreign agent (FARA)', category: 'National Security' },
@@ -142,7 +142,7 @@ const profiles: Record<string, IndividualProfile> = {
  'PHOTOGRAPH EVIDENCE: Photo of Andrew with his arm around 17-year-old Giuffre at Ghislaine Maxwell\'s London home',
  ],
  charges: [
- { statute: 'Civil Claim - Sexual Assault', description: 'Virginia Giuffre civil lawsuit alleging sexual abuse as a minor (settled)', category: 'Sexual Abuse' },
+ { statute: 'Civil Claim: Sexual Assault', description: 'Virginia Giuffre civil lawsuit alleging sexual abuse as a minor (settled)', category: 'Sexual Abuse' },
  { statute: 'Trafficking Victims Protection Act', description: 'Potential beneficiary of sex trafficking orchestrated by Epstein', category: 'Trafficking' },
  ],
  relatedInvestigations: [
@@ -166,7 +166,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Giuffre v. Prince Andrew - Court Filing', url: 'https://www.courtlistener.com/docket/60282900/giuffre-v-prince-andrew/', date: '2021' },
+ { title: 'Giuffre v. Prince Andrew: Court Filing', url: 'https://www.courtlistener.com/docket/60282900/giuffre-v-prince-andrew/', date: '2021' },
  { title: 'BBC Newsnight Interview Transcript', url: 'https://www.bbc.com/news/uk-50449339', date: '2019' },
  ],
  aliases: ['Randy Andy', 'The Duke of York'],
@@ -215,7 +215,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ - Navarro Indictment', url: 'https://www.justice.gov/usao-dc/pr/peter-navarro-indicted-contempt-congress', date: '2022-06-03' },
+ { title: 'DOJ: Navarro Indictment', url: 'https://www.justice.gov/usao-dc/pr/peter-navarro-indicted-contempt-congress', date: '2022-06-03' },
  { title: 'January 6th Select Committee Final Report', url: 'https://www.govinfo.gov/committee/house-january6th', date: '2022-12-22' },
  ],
  aliases: [],
@@ -234,7 +234,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'September 1, 1965',
  birthPlace: 'Bronx, New York, USA',
  netWorth: 'Unknown',
- education: ['J.D. - University of Chicago Law School', 'B.A. - Fordham University'],
+ education: ['J.D., University of Chicago Law School', 'B.A., Fordham University'],
  affiliations: [
  { name: 'White House', role: 'White House Counsel (2018-2021)', type: 'agency' },
  { name: 'Stein Mitchell Cipollone Beato & Missner', role: 'Partner (former)', type: 'corporation' },
@@ -310,7 +310,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'June 6, 1980',
  birthPlace: 'Minneapolis, Minnesota',
  netWorth: '$4 million',
- education: ['M.P.P. - Harvard Kennedy School', 'B.A. - Princeton University'],
+ education: ['M.P.P., Harvard Kennedy School', 'B.A., Princeton University'],
  affiliations: [
  { name: 'Department of Defense', role: 'Secretary (2025-Present)', type: 'agency' },
  { name: 'Fox News', role: 'Host (2014-2024)', type: 'corporation' },
@@ -327,12 +327,12 @@ const profiles: Record<string, IndividualProfile> = {
  '"I haven\'t washed hands in 10 years"comment',
  ],
  charges: [
- { statute: 'California Penal Code § 243.4', description: 'Potential Sexual Battery - 2017 allegation at California Republican convention (settled out of court)', category: 'Potential State' },
- { statute: '26 U.S.C. § 501(c)(3)', description: 'Potential Violation - Financial mismanagement at Concerned Veterans for America and Vets for Freedom nonprofits', category: 'Potential Tax/Nonprofit' },
- { statute: 'IRS Form 990 Requirements', description: 'Potential Violations - Accused of financial irregularities while running veterans nonprofits', category: 'Potential Tax' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Allegations of misrepresenting qualifications and conduct during confirmation', category: 'Potential Federal' },
- { statute: '10 U.S.C. § 892 (UCMJ Art. 92)', description: 'Historical - Advocated pardoning war criminals convicted under military law', category: 'Military Justice' },
- { statute: '5 C.F.R. § 2635 (Standards of Ethical Conduct)', description: 'Potential Violations - Conflicts of interest and conduct unbecoming executive branch official', category: 'Potential Ethics' },
+ { statute: 'California Penal Code § 243.4', description: 'Potential Sexual Battery; 2017 allegation at California Republican convention (settled out of court)', category: 'Potential State' },
+ { statute: '26 U.S.C. § 501(c)(3)', description: 'Potential Violation; Financial mismanagement at Concerned Veterans for America and Vets for Freedom nonprofits', category: 'Potential Tax/Nonprofit' },
+ { statute: 'IRS Form 990 Requirements', description: 'Potential Violations; Accused of financial irregularities while running veterans nonprofits', category: 'Potential Tax' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Allegations of misrepresenting qualifications and conduct during confirmation', category: 'Potential Federal' },
+ { statute: '10 U.S.C. § 892 (UCMJ Art. 92)', description: 'Historical; Advocated pardoning war criminals convicted under military law', category: 'Military Justice' },
+ { statute: '5 C.F.R. § 2635 (Standards of Ethical Conduct)', description: 'Potential Violations; Conflicts of interest and conduct unbecoming executive branch official', category: 'Potential Ethics' },
  ],
  relatedInvestigations: [
  ],
@@ -596,7 +596,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'December 22, 1943',
  birthPlace: 'Brooklyn, New York City, USA',
  netWorth: '$5+ million',
- education: ['Ph.D. in Political Science - University of Chicago (1972)', 'B.A. in Mathematics - Cornell University (1965)'],
+ education: ['Ph.D. in Political Science, University of Chicago (1972)', 'B.A. in Mathematics, Cornell University (1965)'],
  affiliations: [
  { name: 'U.S. Department of Defense', role: 'Deputy Secretary (2001-2005)', type: 'agency' },
  { name: 'World Bank', role: 'President (2005-2007, resigned in scandal)', type: 'organization' },
@@ -607,9 +607,9 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'IRAQ WAR ARCHITECT: Principal designer of Iraq invasion strategy, predicted"cakewalk"victory',
- '"GREETED AS LIBERATORS": Predicted Iraqis would welcome US troops - catastrophically wrong',
- '"WAR PAYS FOR ITSELF": Claimed Iraq oil would finance reconstruction - war cost $3+ trillion',
- 'TROOP LEVEL DISMISSALS: Attacked General Shinseki for saying 300,000 troops needed - sent far fewer',
+ '"GREETED AS LIBERATORS": Predicted Iraqis would welcome US troops; catastrophically wrong',
+ '"WAR PAYS FOR ITSELF": Claimed Iraq oil would finance reconstruction; war cost $3+ trillion',
+ 'TROOP LEVEL DISMISSALS: Attacked General Shinseki for saying 300,000 troops needed; sent far fewer',
  'PNAC SIGNATORY: Signed 1998 letter calling for Iraq regime change, pre-planned invasion',
  'OFFICE OF SPECIAL PLANS: Created parallel intelligence operation to"stovepipe"intel to White House',
  'CURVEBALL CHAMPION: Promoted false intelligence about mobile bioweapon labs',
@@ -618,12 +618,12 @@ const profiles: Record<string, IndividualProfile> = {
  'CASUALTY DENIALISM: Dramatically underestimated war casualties, showed callous disregard',
  ],
  charges: [
- { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning aggressive war on false pretenses', category: 'International' },
- { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crime - Excessive incidental death through inadequate planning', category: 'War Crimes' },
- { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'War Crime - Willful killing through inadequate troop levels', category: 'War Crimes' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Presenting manipulated intelligence to Congress', category: 'Federal' },
- { statute: 'World Bank Staff Rules', description: 'Corruption - Ethics violations, girlfriend pay raise', category: 'International' },
- { statute: 'UN Charter Article 2(4)', description: 'Prohibition on Use of Force - Planning illegal war', category: 'International' },
+ { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace; Planning aggressive war on false pretenses', category: 'International' },
+ { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crime; Excessive incidental death through inadequate planning', category: 'War Crimes' },
+ { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'War Crime; Willful killing through inadequate troop levels', category: 'War Crimes' },
+ { statute: '18 U.S.C. § 1001', description: 'False Statements; Presenting manipulated intelligence to Congress', category: 'Federal' },
+ { statute: 'World Bank Staff Rules', description: 'Corruption; Ethics violations, girlfriend pay raise', category: 'International' },
+ { statute: 'UN Charter Article 2(4)', description: 'Prohibition on Use of Force; Planning illegal war', category: 'International' },
  ],
  relatedInvestigations: [
  { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
@@ -2075,7 +2075,7 @@ const profiles: Record<string, IndividualProfile> = {
  role: 'Republican Congressional Leader, VP Candidate',
  riskLevel: 'high',
  description: 'Republican politician who served as Speaker of the House (2015-2019) and was Mitt Romney\'s VP running mate in 2012. Championed tax cuts for the wealthy and austerity for social programs. Initially criticized Trump but fell in line, enabling the Trump agenda through Congress before retiring.',
- education: ['Miami University - B.A. Economics and Political Science'],
+ education: ['Miami University, B.A. Economics and Political Science'],
  affiliations: [
  { name: 'Republican Party', role: 'Speaker of the House', type: 'organization' },
  { name: 'Fox Corporation', role: 'Board Member', type: 'corporation' },
@@ -2190,7 +2190,7 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'low',
  description: 'Born Jorge Mario Bergoglio, became Pope in 2013 as the first from the Americas and first Jesuit pope. Has pushed reform on climate change and poverty while facing criticism for slow response to the church\'s sexual abuse crisis, though he has taken some steps including establishing new accountability mechanisms.',
  birthDate: 'December 17, 1936',
- education: ['Universidad del Salvador - Philosophy', 'Philosophical and Theological Faculty of San Miguel - Theology'],
+ education: ['Universidad del Salvador, Philosophy', 'Philosophical and Theological Faculty of San Miguel, Theology'],
  affiliations: [
  { name: 'Catholic Church', role: 'Pope', type: 'organization' },
  ],

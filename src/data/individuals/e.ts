@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'January 6, 1984',
  birthPlace: 'New York City, USA',
  netWorth: '$300+ million',
- education: ['B.S. - Georgetown University'],
+ education: ['B.S., Georgetown University'],
  affiliations: [
  { name: 'Trump Organization', role: 'Executive Vice President', type: 'corporation' },
  ],
@@ -21,12 +21,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Eric Trump Foundation self-dealing allegations',
  ],
  charges: [
- { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud Liability - Found liable for persistent fraud in NY AG lawsuit; banned from serving as NY company officer for 2 years', category: 'State Civil' },
- { statute: 'New York Penal Law § 175.10', description: 'Potential Falsifying Business Records - Signed financial statements containing material misrepresentations', category: 'Potential State' },
- { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud - Submitted inflated financial statements to obtain loans', category: 'Potential Federal' },
- { statute: 'New York Not-for-Profit Corp. Law § 720', description: 'Foundation Self-Dealing - Eric Trump Foundation investigation found charity funds diverted to Trump Organization', category: 'State Nonprofit' },
- { statute: 'IRS 26 U.S.C. § 4941', description: 'Potential Self-Dealing Violations - Eric Trump Foundation ceased operations amid self-dealing investigation', category: 'Potential Tax' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Testimony regarding knowledge of financial statement preparation', category: 'Potential Federal' },
+ { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud Liability; Found liable for persistent fraud in NY AG lawsuit; banned from serving as NY company officer for 2 years', category: 'State Civil' },
+ { statute: 'New York Penal Law § 175.10', description: 'Potential Falsifying Business Records; Signed financial statements containing material misrepresentations', category: 'Potential State' },
+ { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud; Submitted inflated financial statements to obtain loans', category: 'Potential Federal' },
+ { statute: 'New York Not-for-Profit Corp. Law § 720', description: 'Foundation Self-Dealing; Eric Trump Foundation investigation found charity funds diverted to Trump Organization', category: 'State Nonprofit' },
+ { statute: 'IRS 26 U.S.C. § 4941', description: 'Potential Self-Dealing Violations; Eric Trump Foundation ceased operations amid self-dealing investigation', category: 'Potential Tax' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Testimony regarding knowledge of financial statement preparation', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  { title: 'Trump Organization Financial Fraud', slug: 'trump-org-fraud', severity: 'critical' },
@@ -108,7 +108,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'December 12, 1943',
  birthPlace: 'Detroit, Michigan, USA',
  netWorth: '$88+ million (after judgments)',
- education: ['B.A. - Indiana University', 'M.F.A. - Columbia University'],
+ education: ['B.A., Indiana University', 'M.F.A., Columbia University'],
  affiliations: [
  { name: 'Elle Magazine', role: 'Advice Columnist (1993-2019)', type: 'corporation' },
  { name: 'Saturday Night Live', role: 'Writer (1980s)', type: 'corporation' },
@@ -142,14 +142,14 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Carroll v. Trump - Sexual Abuse Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' },
- { title: 'Carroll v. Trump - $83.3M Defamation Verdict', url: 'https://www.courtlistener.com/docket/17595029/carroll-v-trump/', date: '2024' },
+ { title: 'Carroll v. Trump: Sexual Abuse Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' },
+ { title: 'Carroll v. Trump: $83.3M Defamation Verdict', url: 'https://www.courtlistener.com/docket/17595029/carroll-v-trump/', date: '2024' },
  { title: 'New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' },
  { title: '"What Do We Need Men For?"Book', url: 'https://amazon.com/What-Do-Need-Men-Hideous/dp/1250215420', date: '2019' },
  ],
  aliases: ['Elle Columnist'],
  knownAssociates: [
- { name: 'Donald Trump', relationship: 'Rapist - found liable by jury for sexual abuse', href: '/entities/individuals/donald-trump' },
+ { name: 'Donald Trump', relationship: 'Rapist; found liable by jury for sexual abuse', href: '/entities/individuals/donald-trump' },
  { name: 'Lisa Birnbach', relationship: 'Friend who she called immediately after assault' },
  { name: 'Carol Martin', relationship: 'Friend she told about assault' },
  ],
@@ -283,12 +283,12 @@ const profiles: Record<string, IndividualProfile> = {
  'DOJ declined to pursue IG referral',
  ],
  charges: [
- { statute: '18 U.S.C. § 208', description: 'OIG Referral - Financial conflict of interest by participating in matters affecting family shipping business with Chinese government ties (DOJ declined)', category: 'Ethics Referral' },
- { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - IG found she used DOT staff to assist with personal matters and family business', category: 'Ethics' },
- { statute: '5 C.F.R. § 2635.705', description: 'Use of Government Property - Used official resources to benefit family\'s Foremost Group shipping company', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Failed to disclose full extent of family business connections on ethics forms', category: 'Potential Federal' },
- { statute: '22 U.S.C. § 618 (FARA)', description: 'Potential Violation - Family business ties to Chinese government raise foreign influence concerns', category: 'Potential National Security' },
- { statute: '31 U.S.C. § 1301', description: 'Potential Misappropriation - Directed federal transportation grants disproportionately to Kentucky (husband\'s state)', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 208', description: 'OIG Referral; Financial conflict of interest by participating in matters affecting family shipping business with Chinese government ties (DOJ declined)', category: 'Ethics Referral' },
+ { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain; IG found she used DOT staff to assist with personal matters and family business', category: 'Ethics' },
+ { statute: '5 C.F.R. § 2635.705', description: 'Use of Government Property; Used official resources to benefit family\'s Foremost Group shipping company', category: 'Ethics' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Failed to disclose full extent of family business connections on ethics forms', category: 'Potential Federal' },
+ { statute: '22 U.S.C. § 618 (FARA)', description: 'Potential Violation; Family business ties to Chinese government raise foreign influence concerns', category: 'Potential National Security' },
+ { statute: '31 U.S.C. § 1301', description: 'Potential Misappropriation; Directed federal transportation grants disproportionately to Kentucky (husband\'s state)', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  ],
@@ -518,7 +518,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'June 28, 1971',
  birthPlace: 'Pretoria, South Africa',
  netWorth: '$400+ billion (2025, Forbes)',
- education: ['B.S. Physics - University of Pennsylvania', 'B.A. Economics - University of Pennsylvania (Wharton)', 'Stanford PhD program (dropped out after 2 days)'],
+ education: ['B.S. Physics, University of Pennsylvania', 'B.A. Economics, University of Pennsylvania (Wharton)', 'Stanford PhD program (dropped out after 2 days)'],
  affiliations: [
  { name: 'Tesla', role: 'CEO', type: 'corporation' },
  { name: 'SpaceX', role: 'CEO, Founder', type: 'corporation' },
@@ -543,12 +543,12 @@ const profiles: Record<string, IndividualProfile> = {
  'FOREIGN INFLUENCE: Regular communication with Putin, Xi Jinping while holding US security clearances',
  ],
  charges: [
- { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Securities Fraud -"Funding secured"tweet, market manipulation', category: 'Federal (SEC settled)' },
- { statute: '29 U.S.C. § 158(a)(1) (NLRA)', description: 'Unfair Labor Practices - Union busting, worker retaliation', category: 'Federal (NLRB findings)' },
- { statute: '52 U.S.C. § 10307(c)', description: 'Potential Vote Buying - $1M voter payments in swing states', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - DOGE role while receiving government contracts', category: 'Potential Federal' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential FARA Violation - Foreign government communications while in government role', category: 'Potential Federal' },
- { statute: '47 U.S.C. § 230', description: 'Platform Liability - Knowingly amplifying harmful content after removing protections', category: 'Civil' },
+ { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Securities Fraud;"Funding secured"tweet, market manipulation', category: 'Federal (SEC settled)' },
+ { statute: '29 U.S.C. § 158(a)(1) (NLRA)', description: 'Unfair Labor Practices; Union busting, worker retaliation', category: 'Federal (NLRB findings)' },
+ { statute: '52 U.S.C. § 10307(c)', description: 'Potential Vote Buying; $1M voter payments in swing states', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 208', description: 'Conflict of Interest; DOGE role while receiving government contracts', category: 'Potential Federal' },
+ { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential FARA Violation; Foreign government communications while in government role', category: 'Potential Federal' },
+ { statute: '47 U.S.C. § 230', description: 'Platform Liability; Knowingly amplifying harmful content after removing protections', category: 'Civil' },
  ],
  relatedInvestigations: [
  { title: 'Psychological Manipulation Campaigns', slug: 'psychological-manipulation', severity: 'critical' },
@@ -561,7 +561,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2002', event: 'Founds SpaceX' },
  { date: '2004', event: 'Invests in Tesla, becomes Chairman' },
  { date: '2008', event: 'Becomes Tesla CEO' },
- { date: 'August 2018', event: '"Funding secured"tweet - SEC charges' },
+ { date: 'August 2018', event: '"Funding secured"tweet; SEC charges' },
  { date: 'September 2018', event: 'Settles with SEC for $40M, forced to step down as Tesla Chairman' },
  { date: 'April 2022', event: 'Announces Twitter acquisition for $44B' },
  { date: 'October 2022', event: 'Completes Twitter acquisition, fires executives' },
@@ -956,9 +956,9 @@ const profiles: Record<string, IndividualProfile> = {
  'ethiopian-302-victims': {
  name: 'Ethiopian Airlines Flight 302 Victims',
  title: 'Crash Victims',
- role: '157 People Killed from 35 Countries - March 10, 2019',
+ role: '157 People Killed from 35 Countries; March 10, 2019',
  riskLevel: 'critical',
- description: '157 people from 35 countries were killed when Ethiopian Airlines Flight 302 crashed 6 minutes after takeoff from Addis Ababa. Boeing KNEW about the MCAS defect from Lion Air 610. They did NOTHING. They let people board a plane they knew was dangerous. This was not an accident - this was murder. 32 Kenyans, 18 Canadians, 9 Ethiopians, 8 Americans, 8 Chinese, and people from 30 other nations were sacrificed for Boeing\'s profits.',
+ description: '157 people from 35 countries were killed when Ethiopian Airlines Flight 302 crashed 6 minutes after takeoff from Addis Ababa. Boeing KNEW about the MCAS defect from Lion Air 610. They did NOTHING. They let people board a plane they knew was dangerous. This was not an accident; this was murder. 32 Kenyans, 18 Canadians, 9 Ethiopians, 8 Americans, 8 Chinese, and people from 30 other nations were sacrificed for Boeing\'s profits.',
  birthDate: 'Various',
  birthPlace: '35 Different Countries',
  education: ['N/A'],
@@ -966,8 +966,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Chinese Government', role: 'Chinese Official', type: 'agency' },
  ],
  controversies: [
- 'MURDER: Boeing knew MCAS was deadly after Lion Air - did nothing',
- 'INTERNATIONAL VICTIMS: 35 nationalities - global crime',
+ 'MURDER: Boeing knew MCAS was deadly after Lion Air; did nothing',
+ 'INTERNATIONAL VICTIMS: 35 nationalities; global crime',
  'DELAYED GROUNDING: FAA was last major authority to ground MAX',
  'UN WORKERS: Several victims were traveling to UN environment conference',
  'NO PROSECUTION: Boeing executives walk free despite 157 deaths',
@@ -980,8 +980,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  timeline: [
  { date: 'March 10, 2019', event: '157 people board Ethiopian Airlines Flight 302' },
- { date: 'March 10, 2019 - 8:38 AM', event: 'Aircraft departs Addis Ababa' },
- { date: 'March 10, 2019 - 8:44 AM', event: 'Aircraft crashes - All 157 killed' },
+ { date: 'March 10, 2019, 8:38 AM', event: 'Aircraft departs Addis Ababa' },
+ { date: 'March 10, 2019, 8:44 AM', event: 'Aircraft crashes; All 157 killed' },
  { date: 'March 13, 2019', event: 'FAA finally grounds 737 MAX (last major authority)' },
  { date: '2020', event: 'Ethiopian AIB blames Boeing design' },
  ],
@@ -1051,7 +1051,7 @@ const profiles: Record<string, IndividualProfile> = {
  'eric-munchel': {
  name: 'Eric Munchel',
  title: '"Zip-Tie Guy"',
- role: 'January 6th Insurrectionist - Carried Flex Cuffs',
+ role: 'January 6th Insurrectionist; Carried Flex Cuffs',
  riskLevel: 'high',
  description: 'Eric Munchel became known as the"zip-tie guy"after being photographed inside the Capitol carrying flex-cuffs (plastic handcuffs) during the January 6th insurrection. The image raised questions about whether insurrectionists planned to take hostages. He entered with his mother Lisa Eisenhart and was wearing tactical gear.',
  birthDate: '1989 (approx)',
@@ -1907,8 +1907,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'elaine-riddick': {
  name: 'Elaine Riddick',
- title: 'Sterilized at age 14 in North Carolina - became prominent activist for survivors',
- role: 'Sterilized at age 14 in North Carolina - became prominent activist for survivors',
+ title: 'Sterilized at age 14 in North Carolina: became prominent activist for survivors',
+ role: 'Sterilized at age 14 in North Carolina; became prominent activist for survivors',
  riskLevel: 'high',
  description: 'Elaine Riddick. Profile pending review.',
  education: [],
@@ -1925,7 +1925,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Sterilized at age 14 in North Carolina - became prominent activist for survivors' }, ],
+ { date: 'Ongoing', event: 'Active in role as Sterilized at age 14 in North Carolina; became prominent activist for survivors' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Elaine Riddick', url: 'https://en.wikipedia.org/wiki/Elaine_Riddick', date: '' }, ],
@@ -2170,8 +2170,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'emilio-massera': {
  name: 'Emilio Eduardo Massera',
- title: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) - the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
- role: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) - the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
+ title: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School): the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
+ role: 'Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School); the most notorious torture and extermination center where 5,000+ were tortured and murdered, including pregnant women whose babies were stolen',
  riskLevel: 'high',
  description: 'Emilio Eduardo Massera. Profile pending review.',
  education: [],
@@ -2189,7 +2189,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Operation Condor', slug: 'operation-condor', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School) - the most notorious torture and e' }, ],
+ { date: 'Ongoing', event: 'Active in role as Argentine Navy Admiral who oversaw ESMA (Navy Mechanics School); the most notorious torture and e' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Emilio Eduardo Massera', url: 'https://en.wikipedia.org/wiki/Emilio_Eduardo_Massera', date: '' }, ],
@@ -2907,7 +2907,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2021-12-01', event: 'Named in testimony at Ghislaine Maxwell federal trial' },
  ],
  sources: [
- { title: 'United States v. Ghislaine Maxwell - Trial Transcript', url: 'https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell', date: '2021-12-29' },
+ { title: 'United States v. Ghislaine Maxwell: Trial Transcript', url: 'https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell', date: '2021-12-29' },
  ],
  },
  'ehud-olmert': {
@@ -3153,7 +3153,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'InsideClimate News - Exxon Knew', url: 'https://insideclimatenews.org/content/Exxon-The-Road-Not-Taken', date: '2015' },
+ { title: 'InsideClimate News: Exxon Knew', url: 'https://insideclimatenews.org/content/Exxon-The-Road-Not-Taken', date: '2015' },
  ],
  aliases: ['Exxon', 'XOM'],
  knownAssociates: [

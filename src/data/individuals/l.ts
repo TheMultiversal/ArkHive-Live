@@ -18,7 +18,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'Ukraine pressure campaign with Giuliani',
- 'Campaign finance violations - straw donations',
+ 'Campaign finance violations; straw donations',
  'Arrested at Dulles Airport fleeing country with one-way tickets',
  'Recorded conversations with Trump',
  'Provided evidence to January 6 Committee',
@@ -117,7 +117,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'June 20, 1957',
  birthPlace: 'Brooklyn, New York, USA',
  netWorth: '$110+ million',
- education: ['B.S. - Stetson University'],
+ education: ['B.S., Stetson University'],
  affiliations: [
  { name: 'United States Postal Service', role: 'Postmaster General (2020-present)', type: 'agency' },
  { name: 'Republican National Committee', role: 'Major Donor ($2.5M+)', type: 'organization' },
@@ -134,16 +134,16 @@ const profiles: Record<string, IndividualProfile> = {
  'FBI investigated for campaign contribution reimbursement scheme',
  ],
  charges: [
- { statute: '52 U.S.C. § 30122', description: 'Campaign Finance Straw Donor Scheme - FBI investigated allegations he reimbursed employees for political donations to Republican candidates', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 30109', description: 'Excessive Campaign Contributions - Allegations of illegal bundling through employee reimbursement scheme', category: 'Potential Election' },
- { statute: '18 U.S.C. § 595', description: 'Potential Interference with Elections - Removed 671 mail sorting machines and banned overtime during critical mail-in voting period', category: 'Potential Federal' },
- { statute: '39 U.S.C. § 101 (Postal Service Obligations)', description: 'Dereliction of Duty - Failed to maintain timely mail service during election period when mail-in voting was critical', category: 'Potential Regulatory' },
- { statute: '18 U.S.C. § 1708', description: 'Potential Mail Delay - Systematic delays to mail service through operational changes during election', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 594', description: 'Potential Voter Intimidation Through Mail Delays - Actions created fear that mail-in ballots would not be counted', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - Former company XPO Logistics had $286M+ in USPS contracts while he ran USPS', category: 'Ethics' },
- { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Conflicts between USPS leadership and former business interests', category: 'Ethics' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Coordinated operational changes that impacted mail ballot delivery across multiple states', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 20511', description: 'Conspiracy Against Rights - Operational changes disproportionately affected Democratic areas and mail-in voters', category: 'Potential Civil Rights' },
+ { statute: '52 U.S.C. § 30122', description: 'Campaign Finance Straw Donor Scheme; FBI investigated allegations he reimbursed employees for political donations to Republican candidates', category: 'Potential Federal' },
+ { statute: '52 U.S.C. § 30109', description: 'Excessive Campaign Contributions; Allegations of illegal bundling through employee reimbursement scheme', category: 'Potential Election' },
+ { statute: '18 U.S.C. § 595', description: 'Potential Interference with Elections; Removed 671 mail sorting machines and banned overtime during critical mail-in voting period', category: 'Potential Federal' },
+ { statute: '39 U.S.C. § 101 (Postal Service Obligations)', description: 'Dereliction of Duty; Failed to maintain timely mail service during election period when mail-in voting was critical', category: 'Potential Regulatory' },
+ { statute: '18 U.S.C. § 1708', description: 'Potential Mail Delay; Systematic delays to mail service through operational changes during election', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 594', description: 'Potential Voter Intimidation Through Mail Delays; Actions created fear that mail-in ballots would not be counted', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 208', description: 'Conflict of Interest; Former company XPO Logistics had $286M+ in USPS contracts while he ran USPS', category: 'Ethics' },
+ { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain; Conflicts between USPS leadership and former business interests', category: 'Ethics' },
+ { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Coordinated operational changes that impacted mail ballot delivery across multiple states', category: 'Potential Federal' },
+ { statute: '52 U.S.C. § 20511', description: 'Conspiracy Against Rights; Operational changes disproportionately affected Democratic areas and mail-in voters', category: 'Potential Civil Rights' },
  ],
  relatedInvestigations: [
  { title: 'Voter Suppression Operations', slug: 'voter-suppression', severity: 'critical' },
@@ -244,7 +244,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'September 24, 1945',
  birthPlace: 'Childress, Texas, USA',
  netWorth: '$60+ million',
- education: ['B.A. - Harvard University (Economics)'],
+ education: ['B.A., Harvard University (Economics)'],
  affiliations: [
  { name: 'Fox Business', role: 'Host (2011-2021)', type: 'corporation' },
  { name: 'CNN', role: 'Host (1980-2009)', type: 'corporation' },
@@ -256,13 +256,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Participated in Trump campaign calls',
  ],
  charges: [
- { statute: 'Civil Defamation Liability', description: 'Smartmatic Lawsuit - Show cancelled after being named defendant for broadcasting false voting machine claims', category: 'Civil' },
- { statute: 'Civil Defamation Liability', description: 'Dominion Lawsuit - Named in $1.6 billion lawsuit for repeatedly promoting false election fraud claims', category: 'Civil' },
- { statute: '52 U.S.C. § 20511', description: 'Potential Conspiracy to Deprive Voting Rights - Broadcast coordinated disinformation campaign to undermine election results', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud - Knowingly broadcast false statements about election integrity for profit and influence', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction - Broadcast claims designed to prevent certification and overturn election', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Participated in Trump campaign calls while broadcasting favorable coverage', category: 'Potential Federal' },
- { statute: 'FCC Regulations 47 C.F.R. § 73.1217', description: 'Broadcast Violations - Deliberate broadcasting of demonstrably false statements about election security', category: 'Regulatory' },
+ { statute: 'Civil Defamation Liability', description: 'Smartmatic Lawsuit; Show cancelled after being named defendant for broadcasting false voting machine claims', category: 'Civil' },
+ { statute: 'Civil Defamation Liability', description: 'Dominion Lawsuit; Named in $1.6 billion lawsuit for repeatedly promoting false election fraud claims', category: 'Civil' },
+ { statute: '52 U.S.C. § 20511', description: 'Potential Conspiracy to Deprive Voting Rights; Broadcast coordinated disinformation campaign to undermine election results', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1343', description: 'Potential Wire Fraud; Knowingly broadcast false statements about election integrity for profit and influence', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction; Broadcast claims designed to prevent certification and overturn election', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Participated in Trump campaign calls while broadcasting favorable coverage', category: 'Potential Federal' },
+ { statute: 'FCC Regulations 47 C.F.R. § 73.1217', description: 'Broadcast Violations; Deliberate broadcasting of demonstrably false statements about election security', category: 'Regulatory' },
  ],
  relatedInvestigations: [
  { title: 'Dominion Defamation', slug: 'dominion-defamation', severity: 'critical' },
@@ -679,7 +679,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'October 4, 1948',
  birthPlace: 'New Bern, North Carolina',
  netWorth: '$3 billion',
- education: ['B.A. - East Carolina University'],
+ education: ['B.A., East Carolina University'],
  affiliations: [
  { name: 'Small Business Administration', role: 'Administrator (2017-2019)', type: 'agency' },
  { name: 'WWE', role: 'Co-founder, Former CEO', type: 'corporation' },
@@ -740,7 +740,7 @@ const profiles: Record<string, IndividualProfile> = {
  'LEGACY: Johnson\'s legacy is forever divided between transformative domestic policy and a catastrophic war built on deception that killed millions and damaged American democracy.',
  ],
  charges: [
- { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes - Attack on Civilians: Bombing campaigns killed hundreds of thousands of Vietnamese civilians', category: 'International Criminal Law' },
+ { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes; Attack on Civilians: Bombing campaigns killed hundreds of thousands of Vietnamese civilians', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Escalated war based on fabricated casus belli', category: 'International Criminal Law' },
  { statute: '18 U.S.C. § 1001', description: 'False Statements: Deceived Congress and public about Tonkin incident', category: 'Federal Crimes' },
  ],
@@ -1292,7 +1292,7 @@ const profiles: Record<string, IndividualProfile> = {
  'CROSSBOW: Military-style equipment',
  ],
  charges: [
- { statute: '26 U.S.C. � 5861', description: 'Possession of unregistered destructive devices', category: 'CONVICTED - 46 MONTHS' },
+ { statute: '26 U.S.C. � 5861', description: 'Possession of unregistered destructive devices', category: 'CONVICTED: 46 MONTHS' },
  { statute: '18 U.S.C. � 922', description: 'Unlawful possession of firearms', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
@@ -1309,7 +1309,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'DOJ Press Release', url: 'https://www.justice.gov/news', date: '' }, ],
  aliases: [],
  knownAssociates: [
- { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant - brought pipe bombs near Capitol', href: '/entities/individuals/jacob-chansley' },
+ { name: 'Jacob Chansley', relationship: 'Fellow January 6 defendant; brought pipe bombs near Capitol', href: '/entities/individuals/jacob-chansley' },
  { name: 'Guy Reffitt', relationship: 'Fellow armed January 6 participant', href: '/entities/individuals/guy-reffitt' },
  ],
  },
@@ -1511,8 +1511,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'lanny-breuer': {
  name: 'Lanny Breuer',
- title: 'Assistant AG, Criminal Division - knew about gunwalking, failed to act',
- role: 'Assistant AG, Criminal Division - knew about gunwalking, failed to act',
+ title: 'Assistant AG, Criminal Division: knew about gunwalking, failed to act',
+ role: 'Assistant AG, Criminal Division; knew about gunwalking, failed to act',
  riskLevel: 'high',
  description: 'Lanny Breuer. Profile pending review.',
  education: [],
@@ -1528,7 +1528,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Assistant AG, Criminal Division - knew about gunwalking, failed to act' }, ],
+ { date: 'Ongoing', event: 'Active in role as Assistant AG, Criminal Division; knew about gunwalking, failed to act' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Lanny Breuer', url: 'https://en.wikipedia.org/wiki/Lanny_Breuer', date: '' }, ],
@@ -1716,8 +1716,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'lee-iacocca': {
  name: 'Lee Iacocca',
- title: 'Ford President - Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
- role: 'Ford President - Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
+ title: 'Ford President: Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
+ role: 'Ford President; Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix',
  riskLevel: 'high',
  description: 'Lee Iacocca. Profile pending review.',
  education: [],
@@ -1734,7 +1734,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Ford President - Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix' }, ],
+ { date: 'Ongoing', event: 'Active in role as Ford President; Imposed $2,000 cost ceiling on Pinto, rejected $11/car fuel tank fix' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Lee Iacocca', url: 'https://en.wikipedia.org/wiki/Lee_Iacocca', date: '' }, ],
@@ -2480,7 +2480,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Miami Herald - Perversion of Justice', url: 'https://www.miamiherald.com/news/local/article220097825.html', date: '2018-11-28' },
+ { title: 'Miami Herald: Perversion of Justice', url: 'https://www.miamiherald.com/news/local/article220097825.html', date: '2018-11-28' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2611,7 +2611,7 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'low',
  description: 'Lisa Randall. Profile pending review.',
  birthDate: 'June 18, 1962',
- education: ['Harvard University - PhD Physics'],
+ education: ['Harvard University, PhD Physics'],
  affiliations: [
  { name: 'Harvard University', role: 'Professor of Physics', type: 'corporation' },
  ],
@@ -2651,7 +2651,7 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'low',
  description: 'Lee Smolin. Profile pending review.',
  birthDate: 'June 6, 1955',
- education: ['Hampshire College', 'Harvard - PhD Physics'],
+ education: ['Hampshire College', 'Harvard, PhD Physics'],
  affiliations: [
  { name: 'Perimeter Institute', role: 'Faculty', type: 'organization' },
  ],

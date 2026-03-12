@@ -122,12 +122,12 @@ const investigation = {
  { defendant: 'Donald Segretti', charge: 'Campaign dirty tricks, violations of election law', outcome: 'Convicted - 4½ months' },
  ],
  charges: [
- { statute: '18 U.S.C. § 371 - Conspiracy to Defraud the United States', description: 'Conspiracy to obstruct the lawful functions of the DOJ, FBI, and CIA', count: 'Multiple defendants convicted' },
- { statute: '18 U.S.C. § 1503 - Obstruction of Justice', description: 'Directing the cover-up, paying hush money, coaching witnesses', count: 'Multiple defendants convicted' },
- { statute: '18 U.S.C. § 1621 - Perjury', description: 'Lying under oath to investigators and grand jury', count: 'Multiple defendants convicted' },
- { statute: '18 U.S.C. § 2511 - Illegal Wiretapping', description: 'Planting listening devices in DNC headquarters', count: 'Burglars and planners convicted' },
- { statute: '18 U.S.C. § 1951 - Extortion (Hobbs Act)', description: 'Using federal agencies to intimidate political opponents', count: 'Part of abuse of power charges' },
- { statute: '26 U.S.C. § 7212 - Corrupt Interference with IRS', description: 'Using IRS to target political enemies', count: 'Article II of impeachment' },
+ { statute: '18 U.S.C. § 371: Conspiracy to Defraud the United States', description: 'Conspiracy to obstruct the lawful functions of the DOJ, FBI, and CIA', count: 'Multiple defendants convicted' },
+ { statute: '18 U.S.C. § 1503: Obstruction of Justice', description: 'Directing the cover-up, paying hush money, coaching witnesses', count: 'Multiple defendants convicted' },
+ { statute: '18 U.S.C. § 1621: Perjury', description: 'Lying under oath to investigators and grand jury', count: 'Multiple defendants convicted' },
+ { statute: '18 U.S.C. § 2511: Illegal Wiretapping', description: 'Planting listening devices in DNC headquarters', count: 'Burglars and planners convicted' },
+ { statute: '18 U.S.C. § 1951: Extortion (Hobbs Act)', description: 'Using federal agencies to intimidate political opponents', count: 'Part of abuse of power charges' },
+ { statute: '26 U.S.C. § 7212: Corrupt Interference with IRS', description: 'Using IRS to target political enemies', count: 'Article II of impeachment' },
  ],
  coverup: [
  'Nixon ordered the CIA to obstruct the FBI\'s Watergate investigation by falsely claiming it would expose national security operations, the"smoking gun"tape recording of June 23, 1972',
@@ -140,7 +140,7 @@ const investigation = {
  'Nixon maintained publicly for over a year that he had no knowledge of the cover-up while privately directing obstruction of justice from the Oval Office, as documented extensively on the White House taping system',
  ],
  sources: [
- { title: 'United States v. Nixon, 418 U.S. 683 (1974) - Supreme Court Opinion', url: 'https://supreme.justia.com/cases/federal/us/418/683/', date: '1974' },
+ { title: 'United States v. Nixon, 418 U.S. 683 (1974): Supreme Court Opinion', url: 'https://supreme.justia.com/cases/federal/us/418/683/', date: '1974' },
  { title: 'Articles of Impeachment Against Richard M. Nixon', url: 'https://watergate.info/impeachment/articles-of-impeachment', date: '1974' },
  { title: 'Senate Watergate Committee Final Report', url: 'https://www.senate.gov/about/powers-procedures/investigations/watergate.htm', date: '1974' },
  { title: 'Nixon White House Tapes, National Archives', url: 'https://www.nixonlibrary.gov/white-house-tapes', date: '1971-1973' },

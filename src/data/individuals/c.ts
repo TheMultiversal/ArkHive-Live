@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'Unknown (mid-1990s)',
  birthPlace: 'New Jersey, USA',
  netWorth: 'Unknown',
- education: ['B.A. - Christopher Newport University'],
+ education: ['B.A., Christopher Newport University'],
  affiliations: [
  { name: 'White House', role: 'Special Assistant to President, Aide to Chief of Staff (2020-2021)', type: 'agency' },
  { name: 'Office of Legislative Affairs', role: 'Intern', type: 'agency' },
@@ -102,7 +102,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'July 16, 1954',
  birthPlace: 'Elizabeth, New Jersey, USA',
  netWorth: '$1.8+ billion (family)',
- education: ['J.D. - New York University School of Law', 'B.A. - New York University'],
+ education: ['J.D., New York University School of Law', 'B.A., New York University'],
  affiliations: [
  { name: 'Kushner Companies', role: 'Founder, CEO', type: 'corporation' },
  { name: 'U.S. Embassy France', role: 'Nominated Ambassador (2024)', type: 'agency' },
@@ -118,9 +118,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Nominated as Ambassador to France (nepotism)',
  ],
  charges: [
- { statute: '26 U.S.C. § 7206', description: 'Tax evasion - convicted, pardoned', category: 'Financial Crimes' },
- { statute: '52 U.S.C. § 30116', description: 'Illegal campaign contributions - convicted, pardoned', category: 'Election Crimes' },
- { statute: '18 U.S.C. § 1512', description: 'Witness tampering - convicted, pardoned', category: 'Obstruction' },
+ { statute: '26 U.S.C. § 7206', description: 'Tax evasion; convicted, pardoned', category: 'Financial Crimes' },
+ { statute: '52 U.S.C. § 30116', description: 'Illegal campaign contributions; convicted, pardoned', category: 'Election Crimes' },
+ { statute: '18 U.S.C. § 1512', description: 'Witness tampering; convicted, pardoned', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Trump Pardon Corruption', slug: 'pardons-corruption', severity: 'critical' },
@@ -211,13 +211,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Case dismissed by Judge Cannon, DOJ appealing',
  ],
  charges: [
- { statute: '18 U.S.C. § 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice - Conspired to delete surveillance footage showing document movement', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1512(b)(2)(B) (Evidence Destruction)', description: 'Corruptly attempting to alter/destroy evidence - Asked IT staff to delete security camera footage', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Altering/destroying records - Attempted to destroy video evidence of obstruction', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Making false statements to FBI - Lied about knowledge of documents and conversations', category: 'False Statements' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to defraud United States - Part of scheme to obstruct investigation', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 2 (Aiding and Abetting)', description: 'Aiding and abetting obstruction - Actively assisted in cover-up at"boss"direction', category: 'Accessory' },
- { statute: '18 U.S.C. § 793(e) (Espionage Act Accessory)', description: 'Accessory to willful retention - Facilitated concealment of classified documents at property he managed', category: 'Espionage' },
+ { statute: '18 U.S.C. § 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice; Conspired to delete surveillance footage showing document movement', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1512(b)(2)(B) (Evidence Destruction)', description: 'Corruptly attempting to alter/destroy evidence; Asked IT staff to delete security camera footage', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Altering/destroying records; Attempted to destroy video evidence of obstruction', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Making false statements to FBI; Lied about knowledge of documents and conversations', category: 'False Statements' },
+ { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to defraud United States; Part of scheme to obstruct investigation', category: 'Conspiracy' },
+ { statute: '18 U.S.C. § 2 (Aiding and Abetting)', description: 'Aiding and abetting obstruction; Actively assisted in cover-up at"boss"direction', category: 'Accessory' },
+ { statute: '18 U.S.C. § 793(e) (Espionage Act Accessory)', description: 'Accessory to willful retention; Facilitated concealment of classified documents at property he managed', category: 'Espionage' },
  ],
  relatedInvestigations: [
  { title: 'Classified Documents at Mar-a-Lago', slug: 'mar-a-lago-documents', severity: 'critical' },
@@ -343,13 +343,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Refused to acknowledge Biden election victory',
  ],
  charges: [
- { statute: '5 U.S.C. §§ 3345-3349d (Federal Vacancies Reform Act)', description: 'Violation - GAO ruled Wolf\'s appointment as Acting DHS Secretary was illegal, making his official actions invalid', category: 'Federal' },
- { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights Under Color of Law - Ordered deployment of federal agents against Portland protesters, violating First and Fourth Amendment rights', category: 'Civil Rights' },
- { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights - Family separation policy implementation caused lasting harm to children', category: 'Civil Rights' },
- { statute: '5 U.S.C. § 552a (Privacy Act)', description: 'Potential Violations - DHS intelligence gathering on journalists and protesters', category: 'Potential Federal' },
- { statute: 'First Amendment', description: 'Constitutional Violations - Lafayette Square clearing violated peaceful protesters\' rights', category: 'Constitutional' },
- { statute: '8 U.S.C. § 1232 (Trafficking Victims Protection)', description: 'Potential Violations - Family separation policy may have violated child protection requirements', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Misrepresented legality of his appointment and authority', category: 'Potential Federal' },
+ { statute: '5 U.S.C. §§ 3345-3349d (Federal Vacancies Reform Act)', description: 'Violation; GAO ruled Wolf\'s appointment as Acting DHS Secretary was illegal, making his official actions invalid', category: 'Federal' },
+ { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights Under Color of Law; Ordered deployment of federal agents against Portland protesters, violating First and Fourth Amendment rights', category: 'Civil Rights' },
+ { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights; Family separation policy implementation caused lasting harm to children', category: 'Civil Rights' },
+ { statute: '5 U.S.C. § 552a (Privacy Act)', description: 'Potential Violations; DHS intelligence gathering on journalists and protesters', category: 'Potential Federal' },
+ { statute: 'First Amendment', description: 'Constitutional Violations; Lafayette Square clearing violated peaceful protesters\' rights', category: 'Constitutional' },
+ { statute: '8 U.S.C. § 1232 (Trafficking Victims Protection)', description: 'Potential Violations; Family separation policy may have violated child protection requirements', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Misrepresented legality of his appointment and authority', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  { title: 'Family Separation', slug: 'family-separation', severity: 'critical' },
@@ -720,7 +720,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthPlace: 'Harlem, New York City, USA',
  deathDate: 'October 18, 2021',
  netWorth: '$60 million (at death)',
- education: ['MBA - George Washington University (1971)', 'B.S. in Geology - City College of New York (1958)', 'National War College'],
+ education: ['MBA, George Washington University (1971)', 'B.S. in Geology, City College of New York (1958)', 'National War College'],
  affiliations: [
  { name: 'U.S. Department of State', role: 'Secretary of State (2001-2005)', type: 'agency' },
  { name: 'Joint Chiefs of Staff', role: 'Chairman (1989-1993)', type: 'agency' },
@@ -729,7 +729,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Kleiner Perkins', role: 'Strategic Partner', type: 'corporation' },
  ],
  controversies: [
- 'UN WMD SPEECH (Feb 5, 2003): Presented false intelligence claiming Iraq had mobile bioweapon labs, chemical weapons, and nuclear program - later admitted"blot on my record"',
+ 'UN WMD SPEECH (Feb 5, 2003): Presented false intelligence claiming Iraq had mobile bioweapon labs, chemical weapons, and nuclear program; later admitted"blot on my record"',
  'IRAQ WAR LEGITIMACY: UN presentation provided international legitimacy for invasion that killed 200,000+ civilians, displaced millions',
  'MY LAI MASSACRE COVER-UP (1968): As Army Major, whitewashed investigation into massacre of 500+ Vietnamese civilians, writing"relations between American soldiers and Vietnamese people are excellent"',
  'IRAN-CONTRA: As National Security Advisor, facilitated arms-for-hostages negotiations',
@@ -739,12 +739,12 @@ const profiles: Record<string, IndividualProfile> = {
  'YELLOW CAKE CLAIM: Repeated debunked claim about Iraqi uranium from Niger',
  ],
  charges: [
- { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'War Crime - Willful killing through false pretense for war', category: 'War Crimes' },
- { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'Excessive incidental death - Iraq War civilian casualties', category: 'War Crimes' },
- { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning and waging aggressive war', category: 'International' },
- { statute: 'Nuremberg Principle VI(c)', description: 'Crime Against Humanity - My Lai cover-up enabling atrocities', category: 'International' },
- { statute: 'UCMJ Article 134', description: 'Making False Official Statements - UN presentation based on known false intel', category: 'Military' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Knowingly presenting dubious intelligence as fact', category: 'Federal' },
+ { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'War Crime; Willful killing through false pretense for war', category: 'War Crimes' },
+ { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'Excessive incidental death; Iraq War civilian casualties', category: 'War Crimes' },
+ { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace; Planning and waging aggressive war', category: 'International' },
+ { statute: 'Nuremberg Principle VI(c)', description: 'Crime Against Humanity; My Lai cover-up enabling atrocities', category: 'International' },
+ { statute: 'UCMJ Article 134', description: 'Making False Official Statements; UN presentation based on known false intel', category: 'Military' },
+ { statute: '18 U.S.C. § 1001', description: 'False Statements; Knowingly presenting dubious intelligence as fact', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
@@ -775,7 +775,7 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'UN Security Council Presentation Transcript', url: 'https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm', date: '2003' },
  { title: 'Senate Intelligence Committee Report on Iraq WMD', url: 'https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and', date: '2004' },
- { title: 'My Lai Investigation Documents - National Archives', url: 'https://archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
+ { title: 'My Lai Investigation Documents: National Archives', url: 'https://archives.gov/research/military/vietnam-war/war-crimes', date: '1968' },
  { title: 'Curveball: Spies, Lies, and the Con Man Who Caused a War', url: 'https://www.who.int/', date: '2007' },
  { title: 'Iran-Contra Tower Commission Report', url: 'https://www.archive.org/details/towercommissionr00unit', date: '1987' },
  { title: 'The Iraq Study Group Report', url: 'https://www.usip.org/publications/2006/12/iraq-study-group-report', date: '2006' },
@@ -837,7 +837,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'November 14, 1954',
  birthPlace: 'Birmingham, Alabama, USA',
  netWorth: '$12 million',
- education: ['Ph.D. in Political Science - University of Denver (1981)', 'M.A. - University of Notre Dame (1975)', 'B.A. - University of Denver (1974)'],
+ education: ['Ph.D. in Political Science, University of Denver (1981)', 'M.A., University of Notre Dame (1975)', 'B.A., University of Denver (1974)'],
  affiliations: [
  { name: 'U.S. Department of State', role: 'Secretary of State (2005-2009)', type: 'agency' },
  { name: 'National Security Council', role: 'National Security Advisor (2001-2005)', type: 'agency' },
@@ -858,12 +858,12 @@ const profiles: Record<string, IndividualProfile> = {
  'RENDITION PROGRAM: Oversaw extraordinary rendition sending suspects to torture in foreign countries',
  ],
  charges: [
- { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime - Torture authorization (enhanced interrogation)', category: 'War Crimes' },
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity - Torture program approval', category: 'International' },
- { statute: 'Convention Against Torture Article 2', description: 'Torture - Authorized CIA enhanced interrogation', category: 'International' },
- { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace - Planning aggressive war on false pretenses', category: 'International' },
- { statute: '18 U.S.C. § 2340A', description: 'Torture - Authorization of waterboarding and other techniques', category: 'Federal' },
- { statute: 'Geneva Convention Common Article 3', description: 'Outrages on personal dignity - Torture program', category: 'International' },
+ { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime; Torture authorization (enhanced interrogation)', category: 'War Crimes' },
+ { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity; Torture program approval', category: 'International' },
+ { statute: 'Convention Against Torture Article 2', description: 'Torture; Authorized CIA enhanced interrogation', category: 'International' },
+ { statute: 'Nuremberg Principle VI(a)', description: 'Crime Against Peace; Planning aggressive war on false pretenses', category: 'International' },
+ { statute: '18 U.S.C. § 2340A', description: 'Torture; Authorization of waterboarding and other techniques', category: 'Federal' },
+ { statute: 'Geneva Convention Common Article 3', description: 'Outrages on personal dignity; Torture program', category: 'International' },
  ],
  relatedInvestigations: [
  { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
@@ -1193,7 +1193,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'Christopher Ruddy. Profile pending review.',
  birthDate: 'January 28, 1965',
  birthPlace: 'Mineola, New York, USA',
- education: ['St. John\'s University - BA', 'London School of Economics - MSc'],
+ education: ['St. John\'s University, BA', 'London School of Economics, MSc'],
  affiliations: [
  { name: 'Newsmax', role: 'CEO & Founder', type: 'corporation' },
  ],
@@ -1631,7 +1631,7 @@ const profiles: Record<string, IndividualProfile> = {
  'colgan-3407-families': {
  name: 'Colgan Air 3407 Families',
  title: 'Victims Advocates',
- role: '50 Killed - February 12, 2009',
+ role: '50 Killed; February 12, 2009',
  riskLevel: 'low',
  description: 'Colgan Air 3407 Families. Profile pending review.',
  birthDate: 'N/A',
@@ -3768,7 +3768,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  { name: 'John Sopko', relationship: 'SIGAR inspector whose Afghanistan reports aligned with Whitlock\'s exposé', href: '/entities/individuals/john-sopko' },
- { name: 'Daniel Ellsberg', relationship: 'Pentagon Papers leaker - Whitlock exposed similar Afghanistan deception', href: '/entities/individuals/daniel-ellsberg' },
+ { name: 'Daniel Ellsberg', relationship: 'Pentagon Papers leaker; Whitlock exposed similar Afghanistan deception', href: '/entities/individuals/daniel-ellsberg' },
  ],
  },
 
@@ -3822,8 +3822,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'curveball': {
  name: 'Rafid Ahmed Alwan al-Janabi (Curveball)',
- title: 'Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case - German intelligence warned he was unreliable',
- role: 'Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case - German intelligence warned he was unreliable',
+ title: 'Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case: German intelligence warned he was unreliable',
+ role: 'Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece of the WMD case; German intelligence warned he was unreliable',
  riskLevel: 'high',
  description: 'Rafid Ahmed Alwan al-Janabi (Curveball). Profile pending review.',
  education: [],
@@ -3924,7 +3924,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Wikipedia: Cyrus Vance Jr.', url: 'https://en.wikipedia.org/wiki/Cyrus_Vance_Jr.', date: '' }, ],
  aliases: [],
  knownAssociates: [
- { name: 'Alvin Bragg', relationship: 'Predecessor as Manhattan DA - began Trump investigation', href: '/entities/individuals/alvin-bragg' },
+ { name: 'Alvin Bragg', relationship: 'Predecessor as Manhattan DA; began Trump investigation', href: '/entities/individuals/alvin-bragg' },
  { name: 'Harvey Weinstein', relationship: 'Criticized for initially declining to prosecute Weinstein', href: '/entities/individuals/harvey-weinstein' },
  ],
  },
@@ -4185,7 +4185,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2021-11-29', event: 'Attended Ghislaine Maxwell federal trial as family supporter' },
  ],
  sources: [
- { title: 'Court Records - United States v. Ghislaine Maxwell', url: 'https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell', date: '2021-12-29' },
+ { title: 'Court Records: United States v. Ghislaine Maxwell', url: 'https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell', date: '2021-12-29' },
  ],
  },
  'chris-tucker': {

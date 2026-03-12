@@ -70,7 +70,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'October 7, 1943',
  birthPlace: 'San Antonio, Texas, USA',
  netWorth: '$5+ million',
- education: ['B.S. - United States Naval Academy (1968)'],
+ education: ['B.S., United States Naval Academy (1968)'],
  affiliations: [
  { name: 'National Security Council', role: 'Staff Member (1981-1986)', type: 'agency' },
  { name: 'United States Marine Corps', role: 'Lieutenant Colonel (1968-1988)', type: 'agency' },
@@ -132,7 +132,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Iran-Contra Independent Counsel Final Report', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
  { title: 'Congressional Iran-Contra Report', url: 'https://archive.org/details/reportofcongress01unit', date: '1987' },
  { title: 'North Congressional Testimony Transcripts', url: 'https://www.congress.gov/', date: '1987' },
- { title: 'United States v. North - Appeals Court Decision', url: 'https://www.courtlistener.com/', date: '1990' },
+ { title: 'United States v. North: Appeals Court Decision', url: 'https://www.courtlistener.com/', date: '1990' },
  { title: 'Under Fire: An American Story (North autobiography)', url: 'https://www.goodreads.com/', date: '1991' },
  ],
  aliases: ['Ollie', 'The Fall Guy', 'American Hero (self-styled)'],

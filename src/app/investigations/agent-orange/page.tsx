@@ -7,7 +7,7 @@ import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
  title: 'Agent Orange',
- subtitle: '20 Million Gallons of Toxic Herbicide Sprayed on Vietnam - 4 Million+ Exposed, Birth Defects for Generations',
+ subtitle: '20 Million Gallons of Toxic Herbicide Sprayed on Vietnam: 4 Million+ Exposed, Birth Defects for Generations',
  severity: 'critical',
  status: 'CONFIRMED, ONGOING HEALTH CRISIS',
  summary: 'Between 1962 and 1971, the United States military sprayed approximately 20 million gallons of tactical herbicides (primarily Agent Orange containing the highly toxic dioxin TCDD) over 4.5 million acres of Vietnam, Laos, and Cambodia during Operation Ranch Hand. The goal was to destroy forest cover and crops used by the Viet Cong, but the campaign exposed an estimated 4.8 million Vietnamese and hundreds of thousands of American, Australian, New Zealand, and South Korean troops to one of the most toxic substances ever created. Agent Orange has been linked to cancers, diabetes, Parkinson\'s disease, and severe birth defects that continue to affect third and fourth generation Vietnamese. US chemical manufacturers including Dow Chemical and Monsanto knew about dioxin contamination but concealed the risks. While US veterans eventually received some compensation, the Vietnamese victims have received almost nothing.',
@@ -29,7 +29,7 @@ const investigation = {
  { date: 'January 1962', event: 'Operation Ranch Hand begins, first spray missions over Vietnamese forests' },
  { date: '1962-1964', event: 'Herbicide spraying expands across South Vietnam, primarily Agent Purple and Agent Orange' },
  { date: '1965', event: 'Dow Chemical internal memo acknowledges dioxin contamination in Agent Orange is a health hazard' },
- { date: '1965-1970', event: 'Peak spraying years - 6+ million acres sprayed, destroying 20% of South Vietnam\'s forests' },
+ { date: '1965-1970', event: 'Peak spraying years; 6+ million acres sprayed, destroying 20% of South Vietnam\'s forests' },
  { date: '1966', event: 'American Academy of Sciences protests use of herbicides in Vietnam as potential war crime' },
  { date: '1969', event: 'NIEHS study finds 2,4,5-T causes birth defects in laboratory animals' },
  { date: 'April 1970', event: 'Deputy Secretary of Defense David Packard restricts use of Agent Orange' },
@@ -55,13 +55,13 @@ const investigation = {
  ],
  charges: [
  { statute: 'Geneva Protocol of 1925', description: 'Use of chemical weapons (herbicidal warfare) in armed conflict', count: '20 million gallons sprayed over 4.5 million acres' },
- { statute: '18 U.S.C. § 2441 - War Crimes Act', description: 'Employment of weapons calculated to cause unnecessary suffering', count: '4.8 million Vietnamese exposed, birth defects ongoing' },
- { statute: '18 U.S.C. § 1001 - False Statements', description: 'Chemical companies concealed known dioxin contamination from government and public', count: 'Decades of documented deception' },
- { statute: 'FIFRA - 7 U.S.C. § 136', description: 'Manufacture and use of herbicides known to contain toxic contaminants', count: 'All Agent Orange batches contained dioxin TCDD' },
- { statute: 'NEPA - 42 U.S.C. § 4321', description: 'No environmental assessment of herbicide campaign\'s long-term ecological impact', count: '20% of South Vietnam\'s forests destroyed' },
- { statute: '42 U.S.C. § 9601 - CERCLA/Superfund', description: 'Massive dioxin contamination of Vietnamese land and water requiring cleanup', count: 'Contamination persists 50+ years later' },
+ { statute: '18 U.S.C. § 2441: War Crimes Act', description: 'Employment of weapons calculated to cause unnecessary suffering', count: '4.8 million Vietnamese exposed, birth defects ongoing' },
+ { statute: '18 U.S.C. § 1001: False Statements', description: 'Chemical companies concealed known dioxin contamination from government and public', count: 'Decades of documented deception' },
+ { statute: 'FIFRA: 7 U.S.C. § 136', description: 'Manufacture and use of herbicides known to contain toxic contaminants', count: 'All Agent Orange batches contained dioxin TCDD' },
+ { statute: 'NEPA: 42 U.S.C. § 4321', description: 'No environmental assessment of herbicide campaign\'s long-term ecological impact', count: '20% of South Vietnam\'s forests destroyed' },
+ { statute: '42 U.S.C. § 9601: CERCLA/Superfund', description: 'Massive dioxin contamination of Vietnamese land and water requiring cleanup', count: 'Contamination persists 50+ years later' },
  { statute: 'Convention on Environmental Modification', description: 'Deliberate large-scale environmental destruction as method of warfare', count: 'Entire ecosystems destroyed across Southeast Asia' },
- { statute: '18 U.S.C. § 1111 - Negligent Homicide', description: 'Deaths resulting from knowing exposure of troops and civilians to carcinogenic dioxin', count: 'Hundreds of thousands of deaths attributed to exposure' },
+ { statute: '18 U.S.C. § 1111: Negligent Homicide', description: 'Deaths resulting from knowing exposure of troops and civilians to carcinogenic dioxin', count: 'Hundreds of thousands of deaths attributed to exposure' },
  ],
  coverup: [
  'Dow Chemical\'s own 1965 internal memo documented that dioxin contamination in Agent Orange caused severe liver damage and skin disease, but the company continued production without changes',
@@ -76,7 +76,7 @@ const investigation = {
  ],
  sources: [
  { title: 'Institute of Medicine, Veterans and Agent Orange: Health Effects', url: 'https://nap.nationalacademies.org/catalog/25137/veterans-and-agent-orange-update-11-2018', date: '2018' },
- { title: 'Stellman et al. - The Extent and Patterns of Usage of Agent Orange in Vietnam', url: 'https://www.nature.com/articles/nature01537', date: '2003' },
+ { title: 'Stellman et al.: The Extent and Patterns of Usage of Agent Orange in Vietnam', url: 'https://www.nature.com/articles/nature01537', date: '2003' },
  { title: 'VA Agent Orange Registry and Compensation Data', url: 'https://www.va.gov/disability/eligibility/hazardous-materials-exposure/agent-orange/', date: 'Ongoing' },
  { title: 'ProPublica, The VA\'s Broken Promise to Thousands of Vietnam Veterans', url: 'https://www.propublica.org/article/the-vas-broken-promise-to-thousands-of-vietnam-vets-exposed-to-agent-orange', date: '2016' },
  { title: 'Young & Reggiani, Agent Orange and Its Associated Dioxin', url: 'https://www.sciencedirect.com/book/9780444809711/agent-orange-and-its-associated-dioxin', date: '1988' },

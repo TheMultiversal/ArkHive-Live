@@ -35,10 +35,10 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'December 25, 1961',
  birthPlace: 'Maisons-Laffitte, France',
  netWorth: '$20 million (pre-conviction, subject to restitution)',
- education: ['Oxford University - Modern History and Languages (Balliol College)'],
+ education: ['Oxford University, Modern History and Languages (Balliol College)'],
  affiliations: [
  { name: 'Epstein Network', role: 'Chief Recruiter and Co-Conspirator', type: 'organization' },
- { name: 'TerraMar Project', role: 'Founder (Ocean Conservation Front - dissolved 2019)', type: 'organization' },
+ { name: 'TerraMar Project', role: 'Founder (Ocean Conservation Front; dissolved 2019)', type: 'organization' },
  { name: 'Clinton Global Initiative', role: 'Donor and Participant', type: 'organization' },
  { name: 'NY Social Scene', role: 'High Society Facilitator', type: 'organization' },
  ],
@@ -230,7 +230,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'August 19, 1987',
  birthPlace: 'Chicago, Illinois, USA',
  netWorth: 'Unknown',
- education: ['M.A. - University College London', 'B.A. - DePaul University'],
+ education: ['M.A., University College London', 'B.A., DePaul University'],
  affiliations: [
  { name: 'Trump Campaign', role: 'Foreign Policy Advisor', type: 'organization' },
  ],
@@ -244,12 +244,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Pardoned by Trump',
  ],
  charges: [
- { statute: '18 U.S.C. § 1001', description: 'Making False Statements to FBI (Pled Guilty) - Lied about timeline of Russian contacts during campaign', category: 'Obstruction' },
- { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Foreign Election Assistance - Received advance notice of Russian"dirt"on Clinton from foreign nationals', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Russia Coordination - Served as conduit between Trump campaign and Russian-connected individuals', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction Investigation - Lied to cover up extent of Russian contacts with campaign', category: 'Obstruction' },
- { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Potential Foreign Agent - Acted as intermediary for Russian government interests without registration', category: 'Foreign Agent' },
- { statute: 'Presidential Pardon', description: 'Pardoned by Trump - December 2020 pardon wiped conviction but not underlying conduct', category: 'Pardoned' },
+ { statute: '18 U.S.C. § 1001', description: 'Making False Statements to FBI (Pled Guilty); Lied about timeline of Russian contacts during campaign', category: 'Obstruction' },
+ { statute: '52 U.S.C. § 30121 (Foreign Contributions)', description: 'Foreign Election Assistance; Received advance notice of Russian"dirt"on Clinton from foreign nationals', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Russia Coordination; Served as conduit between Trump campaign and Russian-connected individuals', category: 'Conspiracy' },
+ { statute: '18 U.S.C. § 1512(c)(2) (Obstruction)', description: 'Obstruction Investigation; Lied to cover up extent of Russian contacts with campaign', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 951 (Foreign Agent)', description: 'Potential Foreign Agent; Acted as intermediary for Russian government interests without registration', category: 'Foreign Agent' },
+ { statute: 'Presidential Pardon', description: 'Pardoned by Trump; December 2020 pardon wiped conviction but not underlying conduct', category: 'Pardoned' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -547,7 +547,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'January 5, 1953',
  birthPlace: 'Flushing, Queens, New York, USA',
  netWorth: '$5+ million',
- education: ['M.I.A. - Columbia University School of International Affairs (1978)', 'B.S. - Georgetown University School of Foreign Service (1976)'],
+ education: ['M.I.A., Columbia University School of International Affairs (1978)', 'B.S., Georgetown University School of Foreign Service (1976)'],
  affiliations: [
  { name: 'Central Intelligence Agency', role: 'Director (1997-2004)', type: 'agency' },
  { name: 'Senate Select Committee on Intelligence', role: 'Staff Director (1988-1993)', type: 'agency' },
@@ -556,7 +556,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'L-1 Identity Solutions', role: 'Board Member', type: 'corporation' },
  ],
  controversies: [
- 'SLAM DUNK CLAIM: December 2002 Oval Office meeting - told Bush WMD case was"slam dunk"- became symbol of intelligence failure',
+ 'SLAM DUNK CLAIM: December 2002 Oval Office meeting; told Bush WMD case was"slam dunk"- became symbol of intelligence failure',
  '9/11 INTELLIGENCE FAILURE: CIA missed multiple warnings about imminent attacks despite"hair on fire"warnings',
  'CURVEBALL DEBACLE: Embraced fabricated intelligence from defector"Curveball"about mobile bioweapon labs',
  'CIA TORTURE PROGRAM: Approved and oversaw"enhanced interrogation"including waterboarding, rectal feeding, sleep deprivation',
@@ -568,14 +568,14 @@ const profiles: Record<string, IndividualProfile> = {
  'POST-9/11 BLACK SITES: Established global network of secret CIA prisons',
  ],
  charges: [
- { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime - Torture program approval and oversight', category: 'War Crimes' },
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity - Torture as widespread policy', category: 'International' },
- { statute: 'Rome Statute Article 7(1)(i)', description: 'Enforced Disappearance - Black site detention program', category: 'International' },
- { statute: 'Convention Against Torture Article 1', description: 'Torture - Direct authorization of torture techniques', category: 'International' },
- { statute: 'Convention Against Torture Article 3', description: 'Refoulement - Rendition to torture states', category: 'International' },
- { statute: '18 U.S.C. § 2340A', description: 'Torture - Authorized waterboarding and enhanced interrogation', category: 'Federal' },
- { statute: '18 U.S.C. § 1519', description: 'Destruction of Evidence - Torture tape destruction', category: 'Federal' },
- { statute: 'Geneva Convention III Article 17', description: 'POW Torture - Authorized illegal interrogation of detainees', category: 'International' },
+ { statute: 'Rome Statute Article 8(2)(a)(ii)', description: 'War Crime; Torture program approval and oversight', category: 'War Crimes' },
+ { statute: 'Rome Statute Article 7(1)(f)', description: 'Crime Against Humanity; Torture as widespread policy', category: 'International' },
+ { statute: 'Rome Statute Article 7(1)(i)', description: 'Enforced Disappearance; Black site detention program', category: 'International' },
+ { statute: 'Convention Against Torture Article 1', description: 'Torture; Direct authorization of torture techniques', category: 'International' },
+ { statute: 'Convention Against Torture Article 3', description: 'Refoulement; Rendition to torture states', category: 'International' },
+ { statute: '18 U.S.C. § 2340A', description: 'Torture; Authorized waterboarding and enhanced interrogation', category: 'Federal' },
+ { statute: '18 U.S.C. § 1519', description: 'Destruction of Evidence; Torture tape destruction', category: 'Federal' },
+ { statute: 'Geneva Convention III Article 17', description: 'POW Torture; Authorized illegal interrogation of detainees', category: 'International' },
  ],
  relatedInvestigations: [
  { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
@@ -595,7 +595,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'December 1998', event: 'Warns of bin Laden threat in daily brief' },
  { date: 'July 2001', event: '"Hair on fire"meeting about imminent al-Qaeda attack' },
  { date: 'August 6, 2001', event: 'Delivers PDB"Bin Laden Determined to Strike in US"' },
- { date: 'September 11, 2001', event: '9/11 attacks - massive intelligence failure' },
+ { date: 'September 11, 2001', event: '9/11 attacks; massive intelligence failure' },
  { date: 'September 2001', event: 'Approves CIA torture program' },
  { date: '2002', event: 'Establishes global black site network' },
  { date: 'December 21, 2002', event: '"Slam dunk"Oval Office meeting' },
@@ -612,7 +612,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Senate Intelligence Committee Torture Report', url: 'https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program', date: '2014' },
  { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', date: '2004' },
  { title: 'Senate Intelligence Committee Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', date: '2004' },
- { title: 'CIA OIG Special Review - Detention and Interrogation', url: 'https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },
+ { title: 'CIA OIG Special Review: Detention and Interrogation', url: 'https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf', date: '2004' },
  { title: 'At the Center of the Storm: My Years at the CIA', url: 'https://www.harpercollins.com/products/at-the-center-of-the-storm-george-tenet', date: '2007' },
  { title: 'Curveball Investigation Reports', url: 'https://www.ignet.gov/', date: '2004' },
  ],
@@ -700,9 +700,9 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: '18 U.S.C. § 2423', description: 'Transportation of Minor for Sexual Activity (2020 conviction)', category: 'Child Exploitation' },
  { statute: '18 U.S.C. § 2252', description: 'Transportation of Child Pornography (2003 conviction)', category: 'Child Exploitation' },
  { statute: 'Czech Criminal Code', description: 'Child Pornography (1991 conviction)', category: 'Czech Republic' },
- { statute: '22 U.S.C. § 611', description: 'FARA Violation - Failure to register as foreign agent', category: 'Federal' },
- { statute: '52 U.S.C. § 30121', description: 'Foreign Campaign Contributions - UAE money to Republicans', category: 'Federal' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy - Foreign influence operations', category: 'Federal' },
+ { statute: '22 U.S.C. § 611', description: 'FARA Violation; Failure to register as foreign agent', category: 'Federal' },
+ { statute: '52 U.S.C. § 30121', description: 'Foreign Campaign Contributions; UAE money to Republicans', category: 'Federal' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy; Foreign influence operations', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
@@ -732,10 +732,10 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'DOJ Press Release - Nader Sentencing', url: 'https://www.justice.gov/usao-edva/pr/businessman-sentenced-ten-years-child-sex-trafficking-and-transporting-child-pornography', date: '2020' },
+ { title: 'DOJ Press Release: Nader Sentencing', url: 'https://www.justice.gov/usao-edva/pr/businessman-sentenced-ten-years-child-sex-trafficking-and-transporting-child-pornography', date: '2020' },
  { title: 'EDVA Criminal Case Documents', url: 'https://www.courtlistener.com/docket/15455937/united-states-v-nader/', date: '2019-2020' },
  { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/', date: '2020' },
- { title: 'New York Times - Nader UAE Role', url: 'https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html', date: '2018' },
+ { title: 'New York Times: Nader UAE Role', url: 'https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html', date: '2018' },
  ],
  aliases: ['Middle East Fixer', 'UAE Lobbyist'],
  knownAssociates: [
@@ -1931,8 +1931,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'george-romney': {
  name: 'George Romney',
- title: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
- role: 'HUD Secretary who tried to enforce fair housing - overruled by Nixon',
+ title: 'HUD Secretary who tried to enforce fair housing: overruled by Nixon',
+ role: 'HUD Secretary who tried to enforce fair housing; overruled by Nixon',
  riskLevel: 'high',
  description: 'George Romney. Profile pending review.',
  education: [],
@@ -1949,13 +1949,13 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Redlining Housing Discrimination', slug: 'redlining-housing-discrimination', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as HUD Secretary who tried to enforce fair housing - overruled by Nixon' }, ],
+ { date: 'Ongoing', event: 'Active in role as HUD Secretary who tried to enforce fair housing; overruled by Nixon' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: George Romney', url: 'https://en.wikipedia.org/wiki/George_Romney', date: '' }, ],
  aliases: [],
  knownAssociates: [
- { name: 'Robert Moses', relationship: 'Contemporary urban policy figure - Romney as HUD Secretary vs Moses\'s construction', href: '/entities/individuals/robert-moses' },
+ { name: 'Robert Moses', relationship: 'Contemporary urban policy figure; Romney as HUD Secretary vs Moses\'s construction', href: '/entities/individuals/robert-moses' },
  { name: 'Robert Weaver', relationship: 'Predecessor as HUD Secretary', href: '/entities/individuals/robert-weaver' },
  ],
  },
@@ -2013,8 +2013,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'george-stinney-jr': {
  name: 'George Stinney Jr.',
- title: 'Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944',
- role: 'Youngest person executed in the U.S. in the 20th century - 14-year-old Black boy executed in South Carolina in 1944',
+ title: 'Youngest person executed in the U.S. in the 20th century: 14-year-old Black boy executed in South Carolina in 1944',
+ role: 'Youngest person executed in the U.S. in the 20th century; 14-year-old Black boy executed in South Carolina in 1944',
  riskLevel: 'high',
  description: 'George Stinney Jr.. Profile pending review.',
  education: [],
@@ -2030,13 +2030,13 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Death Penalty Injustice', slug: 'death-penalty-injustice', severity: 'high' },
  ],
  timeline: [
- { date: '1944', event: 'in the 20th century - 14-year-old Black boy executed in South Carolina in 1944.' }, ],
+ { date: '1944', event: 'in the 20th century; 14-year-old Black boy executed in South Carolina in 1944.' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: George Stinney Jr.', url: 'https://en.wikipedia.org/wiki/George_Stinney_Jr.', date: '' }, ],
  aliases: [],
  knownAssociates: [
- { name: 'George Wallace', relationship: 'Youngest person executed in US - symbol of Jim Crow justice Wallace defended', href: '/entities/individuals/george-wallace' },
+ { name: 'George Wallace', relationship: 'Youngest person executed in US; symbol of Jim Crow justice Wallace defended', href: '/entities/individuals/george-wallace' },
  ],
  },
 
@@ -2741,7 +2741,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'Gerald Edelman. Profile pending review.',
  birthDate: 'July 1, 1929',
  deathDate: 'May 17, 2014',
- education: ['Ursinus College', 'University of Pennsylvania - MD', 'Rockefeller University - PhD'],
+ education: ['Ursinus College', 'University of Pennsylvania, MD', 'Rockefeller University, PhD'],
  affiliations: [
  { name: 'Rockefeller University', role: 'Professor', type: 'corporation' },
  ],

@@ -87,7 +87,7 @@ const investigation = {
  { date: 'July 1990', event: 'North\'s convictions overturned on appeal (immunized testimony tainted trial)' },
  { date: 'Nov 1991', event: 'Poindexter\'s convictions overturned on same grounds' },
  { date: 'June 1992', event: 'Caspar Weinberger indicted for perjury and obstruction' },
- { date: 'Dec 24, 1992', event: 'President Bush pardons Weinberger and 5 others on Christmas Eve - 2 weeks before leaving office' },
+ { date: 'Dec 24, 1992', event: 'President Bush pardons Weinberger and 5 others on Christmas Eve; 2 weeks before leaving office' },
  { date: 'Jan 1994', event: 'Walsh\'s final report: Bush pardon"undermined the principle that no man is above the law"' },
  ],
  legalOutcomes: [
@@ -105,11 +105,11 @@ const investigation = {
  charges: [
  { statute: 'Boland Amendment (1984)', description: 'Congressional prohibition on US funding of Contra military operations', count: 'Systematically violated by NSC operation' },
  { statute: 'Arms Export Control Act (22 U.S.C. § 2778)', description: 'Unauthorized export of defense articles to Iran', count: 'Multiple shipments totaling $48M+' },
- { statute: '18 U.S.C. § 1001 - False Statements', description: 'Lying to Congress about knowledge of operations', count: 'Multiple defendants convicted/pled guilty' },
- { statute: '18 U.S.C. § 1503/1505 - Obstruction of Congress', description: 'Destroying documents, withholding information from investigations', count: 'Multiple defendants' },
- { statute: '18 U.S.C. § 1621 - Perjury', description: 'Lying under oath about involvement and knowledge', count: 'Multiple defendants' },
+ { statute: '18 U.S.C. § 1001: False Statements', description: 'Lying to Congress about knowledge of operations', count: 'Multiple defendants convicted/pled guilty' },
+ { statute: '18 U.S.C. § 1503/1505: Obstruction of Congress', description: 'Destroying documents, withholding information from investigations', count: 'Multiple defendants' },
+ { statute: '18 U.S.C. § 1621: Perjury', description: 'Lying under oath about involvement and knowledge', count: 'Multiple defendants' },
  { statute: 'ICJ Ruling, Violation of International Law', description: 'Mining harbors, supporting paramilitary operations against sovereign nation', count: 'US found guilty, refused to comply' },
- { statute: '21 U.S.C. § 841 - Drug Trafficking (Contra networks)', description: 'CIA-connected networks imported cocaine into US', count: 'Documented but never prosecuted at policy level' },
+ { statute: '21 U.S.C. § 841: Drug Trafficking (Contra networks)', description: 'CIA-connected networks imported cocaine into US', count: 'Documented but never prosecuted at policy level' },
  ],
  coverup: [
  'Oliver North and his secretary Fawn Hall shredded thousands of NSC documents between November 21-25, 1986, just as the scandal became public knowledge',

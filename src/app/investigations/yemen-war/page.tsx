@@ -54,14 +54,14 @@ const investigation = {
  { defendant: 'U.S. Government', charge: 'Circumventing Congressional arms sale oversight through emergency declarations', outcome: 'Trump declared "emergency" to push $8B arms sales; challenged but not blocked' },
  ],
  charges: [
- { statute: 'Geneva Convention (IV) - Art. 3 & 27', description: 'Protection of civilians; prohibition on violence, murder, and cruel treatment', count: '377,000+ deaths including 150,000+ children under five' },
+ { statute: 'Geneva Convention (IV): Art. 3 & 27', description: 'Protection of civilians; prohibition on violence, murder, and cruel treatment', count: '377,000+ deaths including 150,000+ children under five' },
  { statute: 'Rome Statute, Art. 8(2)(b)(ii)', description: 'War crime of intentionally directing attacks against civilian objects (hospitals, schools, markets)', count: '100+ documented strikes on medical facilities; 200+ strikes on schools' },
  { statute: 'Rome Statute, Art. 8(2)(b)(xxv)', description: 'War crime of using starvation of civilians as a method of warfare', count: 'Naval blockade caused near-famine conditions for 24+ million people' },
  { statute: 'War Powers Resolution (50 U.S.C. § 1541)', description: 'U.S. military involvement without Congressional authorization', count: '8+ years of military support including refueling, intelligence, and targeting assistance' },
  { statute: 'Arms Export Control Act (22 U.S.C. § 2778)', description: 'Arms may not be sold when likely to be used in violation of international law', count: '$100+ billion in arms sales to Saudi Arabia despite documented war crimes' },
  { statute: 'Leahy Law (22 U.S.C. § 2378d)', description: 'Prohibition on military assistance to foreign units that commit gross human rights violations', count: 'Continued support despite UN Panel of Experts documenting systematic violations' },
  { statute: 'Convention on the Rights of the Child', description: 'Protection of children in armed conflict', count: '11,000+ children killed or maimed; recruitment of child soldiers by multiple parties' },
- { statute: 'Protocol I, Art. 54 - Starvation as Method of Warfare', description: 'Prohibition on attacking objects indispensable to the survival of the civilian population', count: 'Systematic destruction of food production, water treatment, and medical infrastructure' },
+ { statute: 'Protocol I, Art. 54: Starvation as Method of Warfare', description: 'Prohibition on attacking objects indispensable to the survival of the civilian population', count: 'Systematic destruction of food production, water treatment, and medical infrastructure' },
  ],
  coverup: [
  'The Obama administration authorized U.S. support for the coalition partly to "placate" Saudi Arabia after the Iran nuclear deal, trading Yemeni lives for diplomatic capital.',

@@ -170,7 +170,7 @@ const investigationData = {
  ],
 
  charges: [
- { statute: '15 U.S.C. § 45', description: 'Unfair or deceptive acts or practices (FTC Act) - Facebook\'s deceptive privacy practices', count: 'Multiple counts' },
+ { statute: '15 U.S.C. § 45', description: 'Unfair or deceptive acts or practices (FTC Act); Facebook\'s deceptive privacy practices', count: 'Multiple counts' },
  { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse Act, Unauthorized access to computer systems and data', count: 'Multiple counts' },
  { statute: '18 U.S.C. § 1343', description: 'Wire fraud, Using electronic communications to execute scheme to defraud users of data', count: 'Multiple counts' },
  { statute: '18 U.S.C. § 371', description: 'Conspiracy to commit offense against the United States, Coordinated data harvesting scheme', count: '1 count' },

@@ -682,7 +682,7 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Terrorism', 'CIA', 'al-Qaeda', 'Taliban', 'Saudi Arabia', 'State Sponsorship', 'War on Terror', 'Blowback'],
  sources: [
- { title: 'Steve Coll - Ghost Wars', url: 'https://www.penguinrandomhouse.com/books/286508/ghost-wars-by-steve-coll/', type: 'Investigation' },
+ { title: 'Steve Coll: Ghost Wars', url: 'https://www.penguinrandomhouse.com/books/286508/ghost-wars-by-steve-coll/', type: 'Investigation' },
  { title: 'CIA Afghan Covert Action Records', url: 'https://nsarchive.gwu.edu/project/afghanistan-soviet-invasion-and-us-response', type: 'Government Report' },
  { title: 'Washington Post Top Secret America', url: 'https://www.washingtonpost.com/wp-srv/special/national/top-secret-america/', type: 'Investigation' },
  { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', type: 'Government Report' },
@@ -1027,7 +1027,7 @@ const investigations_g: Record<string, InvestigationData> = {
     tags: ["George Floyd","Police Violence","BLM","Racial Justice","Derek Chauvin","Minneapolis"],
     sources: [
       { title: "MPD Body Camera Footage", url: "https://www.hennepinattorney.org/floyd", type: "Evidence" },
-      { title: "Court Documents - State v. Chauvin", url: "https://mncourts.gov/state-v-chauvin", type: "Court Document" },
+      { title: "Court Documents: State v. Chauvin", url: "https://mncourts.gov/state-v-chauvin", type: "Court Document" },
     ],
     affiliations: [],
   },

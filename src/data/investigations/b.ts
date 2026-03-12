@@ -930,7 +930,7 @@ const investigations_b: Record<string, InvestigationData> = {
     lastUpdated: "March 10, 2026",
     summary: "Boeing's relentless pursuit of profit over safety led to two 737 MAX crashes killing 346 people, a door plug blowout on a 737 MAX 9, and systemic quality control failures across its production lines. Whistleblowers faced retaliation and, in at least one case, died under suspicious circumstances.",
     content: [
-      "737 MAX DISASTERS: Two crashes - Lion Air Flight 610 (October 2018, 189 dead) and Ethiopian Airlines Flight 302 (March 2019, 157 dead) - were caused by the MCAS system Boeing concealed from pilots and regulators.",
+      "737 MAX DISASTERS: Two crashes; Lion Air Flight 610 (October 2018, 189 dead) and Ethiopian Airlines Flight 302 (March 2019, 157 dead); were caused by the MCAS system Boeing concealed from pilots and regulators.",
       "REGULATORY CAPTURE: The FAA delegated safety certification to Boeing employees through the Organization Designation Authorization program, allowing Boeing to effectively certify its own aircraft.",
       "DOOR PLUG BLOWOUT: In January 2024, an Alaska Airlines 737 MAX 9 lost a door plug mid-flight. NTSB found four bolts were missing from the factory.",
       "WHISTLEBLOWER DEATHS: John Barnett, a former Boeing quality manager turned whistleblower, was found dead from an apparent self-inflicted gunshot during his deposition against Boeing in March 2024.",

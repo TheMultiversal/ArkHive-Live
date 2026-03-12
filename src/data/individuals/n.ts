@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'Unknown',
  birthPlace: 'Georgia, USA',
  netWorth: 'Unknown',
- education: ['J.D. - John Marshall Law School'],
+ education: ['J.D., John Marshall Law School'],
  affiliations: [
  { name: 'Fulton County DA Office', role: 'Special Prosecutor (2021-2024)', type: 'agency' },
  ],

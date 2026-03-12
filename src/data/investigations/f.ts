@@ -758,7 +758,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'NYT O\'Reilly Settlement Investigation', url: 'https://www.nytimes.com/2017/04/01/business/media/bill-oreilly-sexual-harassment-fox-news.html', type: 'Investigation' },
  { title: 'Carlson v. Ailes Settlement', url: 'https://www.nytimes.com/2016/09/07/business/media/fox-news-roger-ailes-gretchen-carlson.html', type: 'Court Filing' },
  { title: 'Shareholder Lawsuit Settlement', url: 'https://www.reuters.com/article/foxnews-settlement-idUSKBN1DK26I', type: 'Court Filing' },
- { title: 'Gabriel Sherman - The Loudest Voice in the Room', url: 'https://www.penguinrandomhouse.com/books/218812/the-loudest-voice-in-the-room-by-gabriel-sherman/', type: 'Investigation' },
+ { title: 'Gabriel Sherman: The Loudest Voice in the Room', url: 'https://www.penguinrandomhouse.com/books/218812/the-loudest-voice-in-the-room-by-gabriel-sherman/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Institutional harassment culture, $200M+ in costs', href: '/entities/corporations/fox-news' },

@@ -56,10 +56,10 @@ const investigation = {
  ],
  charges: [
  { statute: 'U.S. Constitution, Art. I, Sec. 8', description: 'Only Congress may declare war. The secret bombing was conducted without Congressional knowledge or authorization.', count: '4 years of covert bombing before Congressional awareness' },
- { statute: 'Geneva Convention (IV) - Art. 3 & 27', description: 'Protection of civilians in armed conflict; prohibition on violence to life and person', count: '100,000-500,000 Cambodian civilians killed' },
- { statute: 'Hague Convention (IV) - Art. 25', description: 'Prohibition on bombardment of undefended towns, villages, dwellings, and buildings', count: 'Systematic carpet bombing of entire provinces' },
+ { statute: 'Geneva Convention (IV): Art. 3 & 27', description: 'Protection of civilians in armed conflict; prohibition on violence to life and person', count: '100,000-500,000 Cambodian civilians killed' },
+ { statute: 'Hague Convention (IV): Art. 25', description: 'Prohibition on bombardment of undefended towns, villages, dwellings, and buildings', count: 'Systematic carpet bombing of entire provinces' },
  { statute: 'UN Charter, Article 2(4)', description: 'Prohibition on use of force against the territorial integrity of any state', count: 'Cambodia was a declared neutral nation; bombing was unprovoked aggression' },
- { statute: '18 U.S.C. § 1001 - False Statements', description: 'Falsifying military records and reports to conceal operations from Congress', count: 'Systematic falsification of thousands of after-action reports through dual reporting system' },
+ { statute: '18 U.S.C. § 1001: False Statements', description: 'Falsifying military records and reports to conceal operations from Congress', count: 'Systematic falsification of thousands of after-action reports through dual reporting system' },
  { statute: 'Rome Statute, Art. 8(2)(b)(iv)', description: 'War crime of launching attacks knowing they will cause disproportionate civilian harm', count: '2.7 million tons of bombs, more than all WWII Allied bombing combined' },
  { statute: 'Genocide Convention, Article III', description: 'Complicity in genocide, bombing destabilized Cambodia and enabled Khmer Rouge rise to power', count: 'Khmer Rouge genocide killed 1.5-2 million people; directly enabled by bombing campaign' },
  { statute: 'War Powers Resolution (retroactive standard)', description: 'Executive must notify Congress within 48 hours of committing armed forces', count: 'Congress was deliberately deceived about military operations for years' },

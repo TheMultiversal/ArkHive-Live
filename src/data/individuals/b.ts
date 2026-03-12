@@ -77,7 +77,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'U.S. Air Force', role: 'Veteran (Iraq)', type: 'agency' },
  ],
  controversies: [
- 'We Build the Wall fraud - $25 million raised, funds stolen',
+ 'We Build the Wall fraud; $25 million raised, funds stolen',
  'Used donations for boat, luxury SUV, cosmetic surgery, jewelry, home renovations',
  'Bannon pardoned but Kolfage not pardoned',
  'Exploited veteran status to solicit donations',
@@ -159,7 +159,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'May 4, 1955',
  birthPlace: 'Unknown',
  netWorth: 'Unknown',
- education: ['Bachelor\'s degree - University of Georgia'],
+ education: ['Bachelor\'s degree, University of Georgia'],
  affiliations: [
  { name: 'Georgia Secretary of State Office', role: 'Secretary of State (2019-present)', type: 'agency' },
  { name: 'Georgia General Assembly', role: 'Representative (2015-2019)', type: 'agency' },
@@ -247,7 +247,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Former U.S. Secretary of Education',
  role: 'Education Secretary 2017-2021, Billionaire Republican Donor',
  riskLevel: 'high',
- description: 'Betsy DeVos served as Secretary of Education under Trump despite having no public education experience. A billionaire Republican mega-donor, she pushed school privatization, rolled back protections for student loan borrowers, weakened Title IX protections for sexual assault survivors, and resigned after January 6 while criticizing Trump - but too late to invoke the 25th Amendment.',
+ description: 'Betsy DeVos served as Secretary of Education under Trump despite having no public education experience. A billionaire Republican mega-donor, she pushed school privatization, rolled back protections for student loan borrowers, weakened Title IX protections for sexual assault survivors, and resigned after January 6 while criticizing Trump; but too late to invoke the 25th Amendment.',
  birthDate: 'January 8, 1958',
  birthPlace: 'Holland, Michigan',
  netWorth: '$5.4 billion (family wealth)',
@@ -268,12 +268,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Brother Erik Prince founded Blackwater (private military)',
  ],
  charges: [
- { statute: '20 U.S.C. § 1087e', description: 'Violation of Student Loan Provisions - Illegally delayed and obstructed borrower defense regulations, found in contempt by federal court', category: 'Federal Education' },
- { statute: 'Federal Court Contempt Order', description: 'Civil Contempt - Federal judge held DeVos/DOE in contempt for collecting on loans from defrauded students after court order', category: 'Court Contempt' },
- { statute: '20 U.S.C. § 1681 (Title IX)', description: 'Weakened Protections - Rolled back Title IX protections for sexual assault survivors, allowing schools to ignore complaints', category: 'Federal Education' },
- { statute: '5 C.F.R. § 2635.702', description: 'Potential Use of Office for Private Gain - Policies benefited for-profit education sector where family has investments', category: 'Potential Ethics' },
- { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest - Financial interests in education companies affected by DOE policies', category: 'Potential Ethics' },
- { statute: '5 U.S.C. § 3331', description: 'Oath of Office Concerns - Refused to invoke 25th Amendment despite believing Trump unfit after January 6', category: 'Constitutional' },
+ { statute: '20 U.S.C. § 1087e', description: 'Violation of Student Loan Provisions; Illegally delayed and obstructed borrower defense regulations, found in contempt by federal court', category: 'Federal Education' },
+ { statute: 'Federal Court Contempt Order', description: 'Civil Contempt; Federal judge held DeVos/DOE in contempt for collecting on loans from defrauded students after court order', category: 'Court Contempt' },
+ { statute: '20 U.S.C. § 1681 (Title IX)', description: 'Weakened Protections; Rolled back Title IX protections for sexual assault survivors, allowing schools to ignore complaints', category: 'Federal Education' },
+ { statute: '5 C.F.R. § 2635.702', description: 'Potential Use of Office for Private Gain; Policies benefited for-profit education sector where family has investments', category: 'Potential Ethics' },
+ { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest; Financial interests in education companies affected by DOE policies', category: 'Potential Ethics' },
+ { statute: '5 U.S.C. § 3331', description: 'Oath of Office Concerns; Refused to invoke 25th Amendment despite believing Trump unfit after January 6', category: 'Constitutional' },
  ],
  relatedInvestigations: [
  ],
@@ -357,12 +357,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Compared slaves to immigrants seeking better life',
  ],
  charges: [
- { statute: '31 U.S.C. § 1341 (Antideficiency Act)', description: 'Violation of Spending Limits - HUD IG found office spent $31,000 on dining furniture exceeding $5,000 statutory limit without proper authorization', category: 'Federal Spending' },
- { statute: '5 C.F.R. § 2635.702', description: 'Potential Use of Office for Private Gain - Son assisted with official HUD business trip and was promoted at department contractor', category: 'Potential Ethics' },
- { statute: '42 U.S.C. § 3608 (Fair Housing Act)', description: 'Failure to Affirmatively Further Fair Housing - Suspended Obama-era AFFH rule requiring localities to address segregation', category: 'Civil Rights' },
- { statute: '42 U.S.C. § 3604', description: 'Fair Housing Act Enforcement Failures - Weakened enforcement of housing discrimination complaints during tenure', category: 'Civil Rights' },
- { statute: '42 U.S.C. § 1437f (Section 8)', description: 'Policy Violations - Proposed increased rent burdens on poorest tenants, partially blocked by Congress', category: 'Housing Policy' },
- { statute: '5 U.S.C. § 3110 (Anti-Nepotism)', description: 'Potential Nepotism Concerns - Son reportedly involved in HUD matters and events while working for department contractor', category: 'Potential Ethics' },
+ { statute: '31 U.S.C. § 1341 (Antideficiency Act)', description: 'Violation of Spending Limits; HUD IG found office spent $31,000 on dining furniture exceeding $5,000 statutory limit without proper authorization', category: 'Federal Spending' },
+ { statute: '5 C.F.R. § 2635.702', description: 'Potential Use of Office for Private Gain; Son assisted with official HUD business trip and was promoted at department contractor', category: 'Potential Ethics' },
+ { statute: '42 U.S.C. § 3608 (Fair Housing Act)', description: 'Failure to Affirmatively Further Fair Housing; Suspended Obama-era AFFH rule requiring localities to address segregation', category: 'Civil Rights' },
+ { statute: '42 U.S.C. § 3604', description: 'Fair Housing Act Enforcement Failures; Weakened enforcement of housing discrimination complaints during tenure', category: 'Civil Rights' },
+ { statute: '42 U.S.C. § 1437f (Section 8)', description: 'Policy Violations; Proposed increased rent burdens on poorest tenants, partially blocked by Congress', category: 'Housing Policy' },
+ { statute: '5 U.S.C. § 3110 (Anti-Nepotism)', description: 'Potential Nepotism Concerns; Son reportedly involved in HUD matters and events while working for department contractor', category: 'Potential Ethics' },
  ],
  relatedInvestigations: [
  ],
@@ -844,7 +844,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'September 11, 1965',
  birthPlace: 'Damascus, Syria',
  netWorth: '$1-2 billion (estimated, much looted from Syria)',
- education: ['Damascus University - Medicine (1988)', 'Western Eye Hospital, London - Ophthalmology residency (1992-1994)'],
+ education: ['Damascus University, Medicine (1988)', 'Western Eye Hospital, London, Ophthalmology residency (1992-1994)'],
  affiliations: [
  { name: 'Syrian Government', role: 'President (2000-2024)', type: 'agency' },
  { name: 'Baath Party', role: 'Regional Secretary', type: 'organization' },
@@ -861,10 +861,10 @@ const profiles: Record<string, IndividualProfile> = {
  'RUSSIAN INTERVENTION: Invited Russian military intervention in 2015',
  ],
  charges: [
- { statute: 'Rome Statute Article 7(1)(a)', description: 'Murder - mass killing of civilians', category: 'Crimes Against Humanity' },
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Torture - systematic torture program', category: 'Crimes Against Humanity' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Other inhumane acts - chemical weapons use', category: 'Crimes Against Humanity' },
- { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'Willful killing - war crime', category: 'War Crimes' },
+ { statute: 'Rome Statute Article 7(1)(a)', description: 'Murder; mass killing of civilians', category: 'Crimes Against Humanity' },
+ { statute: 'Rome Statute Article 7(1)(f)', description: 'Torture; systematic torture program', category: 'Crimes Against Humanity' },
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Other inhumane acts; chemical weapons use', category: 'Crimes Against Humanity' },
+ { statute: 'Rome Statute Article 8(2)(a)(i)', description: 'Willful killing; war crime', category: 'War Crimes' },
  { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'Intentionally directing attacks against civilians', category: 'War Crimes' },
  { statute: 'Chemical Weapons Convention', description: 'Use of prohibited chemical weapons on civilian population', category: 'International Crime' },
  { statute: 'Geneva Convention Common Article 3', description: 'Violence to life and person of non-combatants', category: 'War Crimes' },
@@ -1325,9 +1325,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1824,13 +1824,13 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
       { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Network analysis completed - Billy Mcfarland connected to 19 entities in the accountability database' },
+      { date: '2026-03-06', event: 'Network analysis completed; Billy Mcfarland connected to 19 entities in the accountability database' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
+      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
+      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1869,9 +1869,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database - Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
+      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
       { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
-      { title: 'OpenSecrets.org - Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
+      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2335,8 +2335,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'becky-barr': {
  name: 'Becky Barr',
- title: 'Emergency room patient charged $18,000 for a broken arm - became symbol of surprise billing crisis',
- role: 'Emergency room patient charged $18,000 for a broken arm - became symbol of surprise billing crisis',
+ title: 'Emergency room patient charged $18,000 for a broken arm: became symbol of surprise billing crisis',
+ role: 'Emergency room patient charged $18,000 for a broken arm; became symbol of surprise billing crisis',
  riskLevel: 'high',
  description: 'Becky Barr. Profile pending review.',
  education: [],
@@ -2353,13 +2353,13 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Emergency room patient charged $18,000 for a broken arm - became symbol of surprise billing crisis' }, ],
+ { date: 'Ongoing', event: 'Active in role as Emergency room patient charged $18,000 for a broken arm; became symbol of surprise billing crisis' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Becky Barr', url: 'https://www.google.com/search?q=Becky%20Barr', date: '' }, ],
  aliases: [],
  knownAssociates: [
- { name: 'William Barr', relationship: 'Related to AG Barr - DOJ connection', href: '/entities/individuals/william-barr' },
+ { name: 'William Barr', relationship: 'Related to AG Barr; DOJ connection', href: '/entities/individuals/william-barr' },
  ],
  },
 
@@ -2675,7 +2675,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Bernd Gottweis', url: 'https://www.google.com/search?q=Bernd%20Gottweis', date: '' },
-      { title: 'Federal Court Records - PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
+      { title: 'Federal Court Records: PACER Database', url: 'https://www.pacer.gov', date: '2026-03-05' },
       { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
       { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
       { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
@@ -2801,7 +2801,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Betty Shabazz', url: 'https://en.wikipedia.org/wiki/Betty_Shabazz', date: '' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record: Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'Government Accountability Office Reports', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-05' },
       { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
       { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
@@ -2854,7 +2854,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as ATF Special Agent in Charge of the initial raid; wounded in the February 28 gun battle' },
-      { date: '2026-03-05', event: 'Financial network mapping completed - tracing fund flows through entities associated with Bill Buford' },
+      { date: '2026-03-05', event: 'Financial network mapping completed; tracing fund flows through entities associated with Bill Buford' },
       { date: '2026-03-05', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Bill Buford' },
       { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 9 references to Bill Buford in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
       { date: '2025-06-15', event: 'Public records audit of Bill Buford initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 3 oversight agencies with jurisdiction over related activities.' },
@@ -2868,7 +2868,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Bill Buford', url: 'https://en.wikipedia.org/wiki/Bill_Buford', date: '' },
       { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'Congressional Record - Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
+      { title: 'Congressional Record: Hearing Transcripts', url: 'https://www.congress.gov', date: '2026-03-05' },
       { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
       { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
       { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
@@ -2994,7 +2994,7 @@ const profiles: Record<string, IndividualProfile> = {
     timeline: [
       { date: 'Ongoing', event: 'Active in role as PhRMA president who negotiated deal with Obama to protect drug pricing in exchange for ACA support' },
       { date: '2026-03-05', event: 'Cross-referencing Billy Tauzin against congressional hearing transcripts and lobbying disclosure databases' },
-      { date: '2026-03-05', event: 'Financial network mapping completed - tracing fund flows through entities associated with Billy Tauzin' },
+      { date: '2026-03-05', event: 'Financial network mapping completed; tracing fund flows through entities associated with Billy Tauzin' },
       { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Billy Tauzin, mapping connections across 37 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
       { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Billy Tauzin connected to fund flows across 10 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
       { date: '2025-11-30', event: 'FOIA request tracking indicates 12 outstanding information requests related to Billy Tauzin\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
@@ -3117,7 +3117,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as Former Green Beret who negotiated Weaver' },
-      { date: '2026-03-05', event: 'Financial network mapping completed - tracing fund flows through entities associated with Bo Gritz' },
+      { date: '2026-03-05', event: 'Financial network mapping completed; tracing fund flows through entities associated with Bo Gritz' },
       { date: '2026-03-05', event: 'Freedom of Information Act request submitted for communications involving Bo Gritz and regulatory oversight bodies' },
       { date: '2025-11-30', event: 'FOIA request tracking indicates 11 outstanding information requests related to Bo Gritz\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
       { date: '2024-07-18', event: 'Inspector General report covering period of Bo Gritz\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
@@ -3432,7 +3432,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Bosquet Wev', url: 'https://www.google.com/search?q=Bosquet%20Wev', date: '' },
-      { title: 'Federal Register - Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register: Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
       { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
       { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
       { title: 'OSHA Enforcement Data: Workplace safety violation records', url: 'https://www.osha.gov/pls/imis/establishment.html', date: '2026-03-10' },
@@ -3650,8 +3650,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     timeline: [
       { date: 'Ongoing', event: 'Active in role as DuPont' },
-      { date: '2026-03-05', event: 'Network analysis completed - Bruce Karrh connected to 9 entities in the accountability database' },
-      { date: '2026-03-05', event: 'Financial network mapping completed - tracing fund flows through entities associated with Bruce Karrh' },
+      { date: '2026-03-05', event: 'Network analysis completed; Bruce Karrh connected to 9 entities in the accountability database' },
+      { date: '2026-03-05', event: 'Financial network mapping completed; tracing fund flows through entities associated with Bruce Karrh' },
       { date: '2026-02-08', event: 'Network graph analysis completed for Bruce Karrh: identified 13 first-degree connections to entities with documented regulatory violations, and 32 second-degree connections to entities under active investigation by federal agencies.' },
       { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Bruce Karrh in 12 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
       { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Bruce Karrh documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
@@ -3663,7 +3663,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Bruce Karrh', url: 'https://www.google.com/search?q=Bruce%20Karrh', date: '' },
-      { title: 'Federal Register - Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
+      { title: 'Federal Register: Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
       { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2026-03-05' },
       { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
       { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
@@ -3920,7 +3920,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Law Enforcement', role: 'Law Enforcement Officer', type: 'agency' },
  ],
  controversies: [
- 'Severely burned and injured by flash-bang grenade during no-knock raid - became symbol of police militarization dangers',
+ 'Severely burned and injured by flash-bang grenade during no-knock raid; became symbol of police militarization dangers',
  'Congressional hearing transcripts reference Bounkham Phonesavanh in connection with policy decisions that disproportionately benefited associated financial interests.',
  'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Bounkham Phonesavanh coordinated messaging strategies designed to suppress unfavorable information.',
  ],
@@ -4096,7 +4096,7 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'low',
  description: 'Florida attorney who represented over 50 victims of Jeffrey Epstein, including Courtney Wild and Virginia Giuffre. Edwards filed groundbreaking lawsuits challenging the 2008 Non-Prosecution Agreement, ultimately winning a ruling that prosecutors violated the Crime Victims Rights Act. Author of \'Relentless Pursuit: My Fight for the Victims of Jeffrey Epstein\' (2020). His decade-long legal battle was instrumental in keeping the Epstein case alive when law enforcement had abandoned it.',
  birthDate: 'Unknown',
- education: ['Nova Southeastern University Shepard Broad College of Law - Juris Doctor'],
+ education: ['Nova Southeastern University Shepard Broad College of Law, Juris Doctor'],
  affiliations: [
  { name: 'Edwards Henderson Law Firm', role: 'Managing Partner', type: 'corporation' },
  ],
@@ -4115,7 +4115,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2009', event: 'Continued CVRA litigation despite government opposition' },
  { date: '2014', event: 'Filed landmark civil suits naming Ghislaine Maxwell, Sarah Kellen, and other enablers' },
  { date: '2015', event: 'Subjected to surveillance and intimidation by Epstein-linked private investigators' },
- { date: '2019 February', event: 'Judge Kenneth Marra ruled NPA violated Crime Victims Rights Act - landmark victory' },
+ { date: '2019 February', event: 'Judge Kenneth Marra ruled NPA violated Crime Victims Rights Act; landmark victory' },
  { date: '2019 July', event: 'Epstein arrested on federal charges, partially vindicating decade of legal work' },
  { date: '2020', event: 'Published Relentless Pursuit: My Fight for the Victims of Jeffrey Epstein' },
  ],
@@ -4123,7 +4123,7 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Relentless Pursuit Book (2020)', url: 'https://www.simonandschuster.com/books/Relentless-Pursuit/Bradley-J-Edwards/9781982148935', date: '' },
  { title: 'Miami Herald: Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
- { title: 'Wild v. United States - CVRA Ruling', url: 'https://scholar.google.com/scholar?q=Wild%20v.%20United%20States%20-%20CVRA%20Ruling', date: '2019' },
+ { title: 'Wild v. United States: CVRA Ruling', url: 'https://scholar.google.com/scholar?q=Wild%20v.%20United%20States%20-%20CVRA%20Ruling', date: '2019' },
  ],
  aliases: [],
  knownAssociates: [

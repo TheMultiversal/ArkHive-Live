@@ -117,7 +117,7 @@ const investigation = {
  'Attorney General William Barr publicly mischaracterized the Mueller Report\'s findings in his initial summary, prompting a formal written complaint from Mueller himself',
  ],
  sources: [
- { title: 'Mueller Report (Volume I - Russian Interference)', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
+ { title: 'Mueller Report (Volume I: Russian Interference)', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
  { title: 'Mueller Report (Volume II, Obstruction)', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
  { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
  { title: 'ICA: Russian Activities and Intentions', url: 'https://www.dni.gov/files/documents/ICA_2017_01.pdf', date: '2017' },

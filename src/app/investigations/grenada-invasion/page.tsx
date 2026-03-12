@@ -58,9 +58,9 @@ const investigation = {
  { statute: 'OAS Charter, Articles 19 & 21', description: 'Prohibition on intervention by any state in the affairs of another; territory is inviolable', count: 'Invasion of an OAS member state without legitimate security justification' },
  { statute: 'U.S. Constitution, Art. I, Sec. 8', description: 'Only Congress may declare war', count: 'Invasion launched without Congressional declaration of war' },
  { statute: 'War Powers Resolution (50 U.S.C. § 1541)', description: 'President must report to Congress within 48 hours of committing forces to hostilities', count: 'Congress notified after invasion was already underway' },
- { statute: 'Geneva Convention (IV) - Civilian Protection', description: 'Protection of civilian persons and property in time of war', count: 'Bombing of mental hospital killing 18+ patients; at least 24 total civilian deaths' },
+ { statute: 'Geneva Convention (IV): Civilian Protection', description: 'Protection of civilian persons and property in time of war', count: 'Bombing of mental hospital killing 18+ patients; at least 24 total civilian deaths' },
  { statute: 'First Amendment, Freedom of the Press', description: 'Total press blackout prevented any independent reporting on the invasion', count: 'Unprecedented media blackout lasting several days; journalists forcibly prevented from reaching the island' },
- { statute: 'Hague Convention (IV) - Art. 25', description: 'The attack or bombardment of undefended places is prohibited', count: 'Grenada had fewer than 2,000 military personnel; civilian areas bombed' },
+ { statute: 'Hague Convention (IV): Art. 25', description: 'The attack or bombardment of undefended places is prohibited', count: 'Grenada had fewer than 2,000 military personnel; civilian areas bombed' },
  { statute: 'International Customary Law, Proportionality', description: 'Military force must be proportional to the threat', count: '7,600 troops and naval armada deployed against island nation of 91,000 with minimal military' },
  ],
  coverup: [
@@ -75,7 +75,7 @@ const investigation = {
  ],
  sources: [
  { title: 'National Security Archive, Grenada Invasion Declassified', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB432/', date: '2013' },
- { title: 'UN General Assembly Resolution 38/7 - Condemning the Invasion', url: 'https://digitallibrary.un.org/record/60875', date: '1983' },
+ { title: 'UN General Assembly Resolution 38/7: Condemning the Invasion', url: 'https://digitallibrary.un.org/record/60875', date: '1983' },
  { title: 'Operation Urgent Fury, Center for Military History', url: 'https://history.army.mil/html/bookshelves/resmat/urgent_fury/CMH_70-114-1.pdf', date: '2008' },
  { title: 'The Grenada Papers, Paul Seabury & Walter McDougall', url: 'https://www.goodreads.com/book/show/3437816-the-grenada-papers', date: '1984' },
  { title: 'New York Times, Grenada: Lessons for the Press', url: 'https://www.nytimes.com/1983/11/21/us/grenada-war-and-press.html', date: '1983' },

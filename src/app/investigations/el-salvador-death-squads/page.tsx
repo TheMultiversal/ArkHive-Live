@@ -65,7 +65,7 @@ const investigation = {
  { statute: 'War Crimes, Attacking Persons Hors de Combat', description: 'Assassination of Archbishop Romero while conducting religious services', count: 'Direct assassination of religious figure exercising protected status' },
  { statute: 'Crimes Against Humanity, Enforced Disappearance', description: 'Systematic abduction and disappearance of political opponents by security forces', count: '8,000+ people disappeared during the civil war' },
  { statute: 'Crimes Against Humanity, Rape and Sexual Violence', description: 'Rape of four American churchwomen and systematic sexual violence against detained civilians', count: 'Widespread; documented by UN Truth Commission' },
- { statute: '18 U.S.C. § 1001 - False Statements to Congress', description: 'Reagan administration officials lied to Congress about massacre evidence to maintain military aid certifications', count: 'Multiple false certifications of human rights progress' },
+ { statute: '18 U.S.C. § 1001: False Statements to Congress', description: 'Reagan administration officials lied to Congress about massacre evidence to maintain military aid certifications', count: 'Multiple false certifications of human rights progress' },
  { statute: 'Leahy Law Violations', description: 'US provision of military aid to security forces credibly accused of gross human rights violations', count: '$6 billion in aid provided despite documented death squad activity' },
  { statute: 'Obstruction of Justice, Destruction of Evidence', description: 'US and Salvadoran officials destroyed or suppressed evidence of massacres including El Mozote', count: 'Systematic classification and suppression of intelligence reports' },
  ],

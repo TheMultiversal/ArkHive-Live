@@ -1632,7 +1632,7 @@ const timelineEvents: TimelineEvent[] = [
  date:"2008-present",
  sortDate:"2008-12-11",
  title:"Bernie Madoff Ponzi Scheme",
- description:"Largest Ponzi scheme in history - $64.8 billion in losses. SEC ignored warnings for years. Victims included charities and retirees.",
+ description:"Largest Ponzi scheme in history; $64.8 billion in losses. SEC ignored warnings for years. Victims included charities and retirees.",
  category:"Financial Crimes",
  severity:"critical",
  slug:"bernie-madoff-ponzi",

@@ -15,7 +15,7 @@ import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
  title: 'Hush Money Election Fraud',
- subtitle: 'The Stormy Daniels Case - 34 Felony Convictions',
+ subtitle: 'The Stormy Daniels Case: 34 Felony Convictions',
  severity: 'critical',
  status: 'CONVICTED - 34 Felonies',
  summary: 'Donald Trump became the first former U.S. President convicted of felony crimes. A Manhattan jury found him guilty on all 34 counts of falsifying business records to conceal hush money payments made to adult film actress Stormy Daniels to suppress her story of an affair before the 2016 election. The payments were made through Michael Cohen and disguised as legal fees to influence the election.',

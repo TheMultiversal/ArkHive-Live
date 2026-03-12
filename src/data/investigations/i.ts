@@ -384,7 +384,7 @@ const investigations_i: Record<string, InvestigationData> = {
  tags: ['Social Media', 'Influencer', 'Child Exploitation', 'Grooming', 'Algorithm', 'Andrew Tate', 'Online Predators'],
  sources: [
  { title: 'NYT Child Influencer Investigation', url: 'https://www.nytimes.com/2023/02/14/technology/child-influencers-instagram.html', type: 'Investigation' },
- { title: 'Facebook Internal Research - WSJ Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
+ { title: 'Facebook Internal Research: WSJ Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
  { title: 'FTC Influencer Marketing Enforcement', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=influencer', type: 'Government Report' },
  ],
  affiliations: [

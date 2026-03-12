@@ -3,10 +3,10 @@ import type { ReactNode } from"react";
 
 export const metadata: Metadata = {
  title:"Audit Log",
- description:"Security audit log - track all actions and changes for transparency and accountability.",
+ description:"Security audit log; track all actions and changes for transparency and accountability.",
  openGraph: {
  title:"Audit Log | ArkHive",
- description:"Security audit log - track all actions and changes for transparency and accountability.",
+ description:"Security audit log; track all actions and changes for transparency and accountability.",
  },
 };
 

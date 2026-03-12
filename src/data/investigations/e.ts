@@ -747,7 +747,7 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Drone Strikes', 'Extrajudicial Killing', 'CIA', 'JSOC', 'War on Terror', 'Due Process', 'Civilian Casualties'],
  sources: [
- { title: 'The Drone Papers - The Intercept', url: 'https://theintercept.com/drone-papers/', type: 'Investigation' },
+ { title: 'The Drone Papers: The Intercept', url: 'https://theintercept.com/drone-papers/', type: 'Investigation' },
  { title: 'ACLU al-Awlaki Challenge', url: 'https://www.aclu.org/cases/al-aulaqi-v-panetta', type: 'Court Filing' },
  { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/study-intelligence-communitys-detention-and-interrogation-program', type: 'Congressional Record' },
  { title: 'Bureau of Investigative Journalism Drone Strike Database', url: 'https://www.thebureauinvestigates.com/projects/drone-war', type: 'Investigation' },

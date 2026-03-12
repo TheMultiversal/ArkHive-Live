@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'October 21, 1988',
  birthPlace: 'Greenwich, Connecticut, USA',
  netWorth: 'Unknown',
- education: ['B.A. - Southern Methodist University'],
+ education: ['B.A., Southern Methodist University'],
  affiliations: [
  { name: 'White House', role: 'Communications Director (2017-2018)', type: 'agency' },
  { name: 'Trump Organization', role: 'PR Executive', type: 'corporation' },
@@ -26,11 +26,11 @@ const profiles: Record<string, IndividualProfile> = {
  'Text:"We all look like domestic terrorists now"',
  ],
  charges: [
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Admitted to"white lies"for Trump; potential false statements to investigators', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction - Participated in creating cover story on Air Force One for hush money reimbursements', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 2', description: 'Potential Aiding and Abetting - Knowledge of and participation in scheme to conceal campaign finance violations', category: 'Potential Federal' },
- { statute: '52 U.S.C. § 30109', description: 'Potential Campaign Finance Violation - Aware of hush money payments during campaign and helped coordinate messaging', category: 'Potential Election' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Participated in meetings and communications about concealing payments', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Admitted to"white lies"for Trump; potential false statements to investigators', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1512(c)(2)', description: 'Potential Obstruction; Participated in creating cover story on Air Force One for hush money reimbursements', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 2', description: 'Potential Aiding and Abetting; Knowledge of and participation in scheme to conceal campaign finance violations', category: 'Potential Federal' },
+ { statute: '52 U.S.C. § 30109', description: 'Potential Campaign Finance Violation; Aware of hush money payments during campaign and helped coordinate messaging', category: 'Potential Election' },
+ { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Participated in meetings and communications about concealing payments', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  { title: 'Hush Money & Campaign Finance', slug: 'hush-money', severity: 'critical' },
@@ -285,7 +285,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'National Archives - Watergate Trial Records', url: 'https://www.archives.gov/research/investigations/watergate', date: '1975-01-01' },
+ { title: 'National Archives: Watergate Trial Records', url: 'https://www.archives.gov/research/investigations/watergate', date: '1975-01-01' },
  ],
  aliases: [],
  knownAssociates: [

@@ -26,13 +26,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Case dismissed by Judge Cannon, DOJ appealing',
  ],
  charges: [
- { statute: '18 U.S.C. § 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice - Indicted for conspiring to conceal documents from grand jury', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1512(b)(2)(A) (Witness Tampering)', description: 'Witness tampering - Coordinated with Trump to conceal documents from attorneys and FBI', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Concealing documents in federal investigation - Captured on video moving boxes of classified materials', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Making false statements to FBI - Lied about knowledge of documents and moving boxes', category: 'False Statements' },
- { statute: '18 U.S.C. § 793(e) (Espionage Act)', description: 'Willful retention of national defense information - Aided in retention of classified documents', category: 'Espionage' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to defraud United States - Part of scheme to obstruct government recovery of classified documents', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 2 (Aiding and Abetting)', description: 'Aiding and abetting classified document retention - Actively helped Trump hide national defense information', category: 'Accessory' },
+ { statute: '18 U.S.C. § 1512(k) (Obstruction Conspiracy)', description: 'Conspiracy to obstruct justice; Indicted for conspiring to conceal documents from grand jury', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1512(b)(2)(A) (Witness Tampering)', description: 'Witness tampering; Coordinated with Trump to conceal documents from attorneys and FBI', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1519 (Evidence Concealment)', description: 'Concealing documents in federal investigation; Captured on video moving boxes of classified materials', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Making false statements to FBI; Lied about knowledge of documents and moving boxes', category: 'False Statements' },
+ { statute: '18 U.S.C. § 793(e) (Espionage Act)', description: 'Willful retention of national defense information; Aided in retention of classified documents', category: 'Espionage' },
+ { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to defraud United States; Part of scheme to obstruct government recovery of classified documents', category: 'Conspiracy' },
+ { statute: '18 U.S.C. § 2 (Aiding and Abetting)', description: 'Aiding and abetting classified document retention; Actively helped Trump hide national defense information', category: 'Accessory' },
  ],
  relatedInvestigations: [
  { title: 'Classified Documents at Mar-a-Lago', slug: 'mar-a-lago-documents', severity: 'critical' },
@@ -104,16 +104,16 @@ const profiles: Record<string, IndividualProfile> = {
  'Failed to divest from businesses as promised',
  'Forbes removed him from billionaire list for inflating wealth',
  'Frequently fell asleep in meetings',
- 'Sago Mine disaster - 12 miners died at his company\'s mine',
+ 'Sago Mine disaster; 12 miners died at his company\'s mine',
  ],
  charges: [
- { statute: '18 U.S.C. § 208', description: 'Potential Financial Conflict of Interest - Failed to fully divest from Navigator Holdings with Russian oligarch ties while serving as Commerce Secretary', category: 'Potential Ethics' },
- { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations - Maintained business ties that conflicted with official duties', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Failed to fully disclose Russian business connections on ethics forms', category: 'Potential Federal' },
- { statute: '13 U.S.C. § 221', description: 'Census Act Violation - Improperly added citizenship question to suppress responses in minority communities (blocked by Supreme Court)', category: 'Federal Census' },
- { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights - Citizenship question designed to undercount minorities for redistricting', category: 'Civil Rights' },
- { statute: '30 U.S.C. § 820 (Mine Safety)', description: 'Historical Violations - Sago Mine disaster killed 12 workers at his company\'s mine due to safety failures', category: 'Worker Safety' },
- { statute: '22 U.S.C. § 618 (FARA)', description: 'Potential Violation - Unreported foreign business relationships during confirmation and tenure', category: 'Potential National Security' },
+ { statute: '18 U.S.C. § 208', description: 'Potential Financial Conflict of Interest; Failed to fully divest from Navigator Holdings with Russian oligarch ties while serving as Commerce Secretary', category: 'Potential Ethics' },
+ { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations; Maintained business ties that conflicted with official duties', category: 'Ethics' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Failed to fully disclose Russian business connections on ethics forms', category: 'Potential Federal' },
+ { statute: '13 U.S.C. § 221', description: 'Census Act Violation; Improperly added citizenship question to suppress responses in minority communities (blocked by Supreme Court)', category: 'Federal Census' },
+ { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights; Citizenship question designed to undercount minorities for redistricting', category: 'Civil Rights' },
+ { statute: '30 U.S.C. § 820 (Mine Safety)', description: 'Historical Violations; Sago Mine disaster killed 12 workers at his company\'s mine due to safety failures', category: 'Worker Safety' },
+ { statute: '22 U.S.C. § 618 (FARA)', description: 'Potential Violation; Unreported foreign business relationships during confirmation and tenure', category: 'Potential National Security' },
  ],
  relatedInvestigations: [
  { title: 'Russian Interference', slug: 'russian-interference', severity: 'critical' },
@@ -207,12 +207,12 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [
  { statute: 'Boland Amendment Violations', description: 'Illegal funding of Nicaraguan Contra rebels after Congress explicitly banned it', category: 'Constitutional Violation' },
- { statute: 'Arms Export Control Act - 22 U.S.C. § 2778', description: 'Illegal weapons sales to Iran', category: 'National Security' },
- { statute: 'Conspiracy Against the United States - 18 U.S.C. § 371', description: 'Orchestrated Iran-Contra operation', category: 'Conspiracy' },
- { statute: 'False Statements - 18 U.S.C. § 1001', description: 'Lying to Congress about covert operations', category: 'Obstruction' },
- { statute: 'ICC Rome Statute Article 7 - Crimes Against Humanity', description: 'Support for death squads and mass atrocities in Central America', category: 'International Crime' },
- { statute: 'ICC Rome Statute Article 8 - War Crimes', description: 'Torture, extrajudicial killings, and targeting civilians', category: 'International Crime' },
- { statute: 'Geneva Conventions - Common Article 3', description: 'Violations in treatment of civilians and prisoners', category: 'International Crime' },
+ { statute: 'Arms Export Control Act: 22 U.S.C. § 2778', description: 'Illegal weapons sales to Iran', category: 'National Security' },
+ { statute: 'Conspiracy Against the United States: 18 U.S.C. § 371', description: 'Orchestrated Iran-Contra operation', category: 'Conspiracy' },
+ { statute: 'False Statements: 18 U.S.C. § 1001', description: 'Lying to Congress about covert operations', category: 'Obstruction' },
+ { statute: 'ICC Rome Statute Article 7: Crimes Against Humanity', description: 'Support for death squads and mass atrocities in Central America', category: 'International Crime' },
+ { statute: 'ICC Rome Statute Article 8: War Crimes', description: 'Torture, extrajudicial killings, and targeting civilians', category: 'International Crime' },
+ { statute: 'Geneva Conventions: Common Article 3', description: 'Violations in treatment of civilians and prisoners', category: 'International Crime' },
  ],
  relatedInvestigations: [
  { title: 'Iran-Contra Affair', slug: 'iran-contra', severity: 'critical' },
@@ -328,7 +328,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'William Kristol is a prominent neoconservative political commentator who was one of the most influential advocates for the Iraq War. He co-founded the Project for the New American Century (PNAC), which advocated for regime change in Iraq years before 9/11. As editor of The Weekly Standard (1995-2018), he used his platform to push for military intervention. Though he later became a critic of Trump, his advocacy for the Iraq War contributed to a conflict that killed hundreds of thousands.',
  birthDate: 'December 23, 1952',
  birthPlace: 'New York City, USA',
- education: ['Harvard University - BA', 'Harvard University - PhD Political Philosophy'],
+ education: ['Harvard University, BA', 'Harvard University, PhD Political Philosophy'],
  affiliations: [
  { name: 'Project for the New American Century', role: 'Co-Founder', type: 'organization' },
  { name: 'The Weekly Standard', role: 'Editor (1995-2018)', type: 'corporation' },
@@ -771,8 +771,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'warren-anderson': {
  name: 'Warren Anderson',
- title: 'Union Carbide CEO - Fled India after Bhopal disaster, never extradited',
- role: 'Union Carbide CEO - Fled India after Bhopal disaster, never extradited',
+ title: 'Union Carbide CEO: Fled India after Bhopal disaster, never extradited',
+ role: 'Union Carbide CEO; Fled India after Bhopal disaster, never extradited',
  riskLevel: 'high',
  description: 'Warren Anderson. Profile pending review.',
  education: [],
@@ -789,7 +789,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Corporate Homicide', slug: 'corporate-homicide', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Union Carbide CEO - Fled India after Bhopal disaster, never extradited' }, ],
+ { date: 'Ongoing', event: 'Active in role as Union Carbide CEO; Fled India after Bhopal disaster, never extradited' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Warren Anderson', url: 'https://en.wikipedia.org/wiki/Warren_Anderson', date: '' }, ],
@@ -1338,8 +1338,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'willie-reed': {
  name: 'Willie Reed',
- title: 'Eyewitness who heard beating and saw Till being loaded into truck - testified at trial',
- role: 'Eyewitness who heard beating and saw Till being loaded into truck - testified at trial',
+ title: 'Eyewitness who heard beating and saw Till being loaded into truck: testified at trial',
+ role: 'Eyewitness who heard beating and saw Till being loaded into truck; testified at trial',
  riskLevel: 'high',
  description: 'Willie Reed. Profile pending review.',
  education: [],
@@ -1355,7 +1355,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Emmett Till', slug: 'emmett-till', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Eyewitness who heard beating and saw Till being loaded into truck - testified at trial' }, ],
+ { date: 'Ongoing', event: 'Active in role as Eyewitness who heard beating and saw Till being loaded into truck; testified at trial' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Willie Reed', url: 'https://en.wikipedia.org/wiki/Willie_Reed', date: '' }, ],
@@ -1607,13 +1607,13 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: 'MOVE Bombing - Philadelphia 1985', slug: 'move-bombing', severity: 'critical' },
+ { title: 'MOVE Bombing: Philadelphia 1985', slug: 'move-bombing', severity: 'critical' },
  ],
  timeline: [
  { date: '1985', event: 'Oversaw fire response during MOVE bombing that destroyed an entire neighborhood in Philadelphia' }, ],
  socialMedia: [],
  sources: [
- { title: 'MOVE Bombing - Philadelphia 1985', url: '/investigations/move-bombing', date: '' }, ],
+ { title: 'MOVE Bombing: Philadelphia 1985', url: '/investigations/move-bombing', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Thomas Parran', relationship: 'Connected to PHS during unethical research era', href: '/entities/individuals/thomas-parran' },
@@ -1705,9 +1705,9 @@ const profiles: Record<string, IndividualProfile> = {
  birthPlace: 'New York City, New York, USA',
  netWorth: '$40+ million',
  education: [
- 'J.D. - George Washington University Law School (1977)',
- 'M.A. Government and Chinese Studies - Columbia University (1973)',
- 'B.A. Government - Columbia University (1971)',
+ 'J.D., George Washington University Law School (1977)',
+ 'M.A. Government and Chinese Studies, Columbia University (1973)',
+ 'B.A. Government, Columbia University (1971)',
  ],
  affiliations: [
  { name: 'Department of Justice', role: 'Attorney General (2019-2020, 1991-1993)', type: 'agency' },
@@ -1753,7 +1753,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'Mueller Letter to Barr Objecting to Summary', url: 'https://www.washingtonpost.com/context/special-counsel-robert-s-mueller-letter-to-attorney-general-william-p-barr/e32695eb-c379-4696-845a-1b45ad32fff1/', date: '2019' },
- { title: 'DOJ Inspector General Report - Lafayette Square', url: 'https://oig.justice.gov/reports/review-role-and-activity-federal-law-enforcement-agencies-during-events-lafayette-park', date: '2021' },
+ { title: 'DOJ Inspector General Report: Lafayette Square', url: 'https://oig.justice.gov/reports/review-role-and-activity-federal-law-enforcement-agencies-during-events-lafayette-park', date: '2021' },
  ],
  aliases: ['Bill Barr'],
  knownAssociates: [

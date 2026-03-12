@@ -2663,7 +2663,7 @@ const corporationData: Record<string, {
  { name: 'Mark Forkner', role: 'Pilot who concealed MCAS', href: '/entities/individuals/mark-forkner' },
  { name: 'John Barnett', role: 'Whistleblower, died during testimony', href: '/entities/individuals/john-barnett' },
  { name: 'Ed Pierson', role: 'Whistleblower, warned before Lion Air', href: '/entities/individuals/ed-pierson' },
- { name: 'Sam Salehpour', role: 'Current whistleblower - 787 defects', href: '/entities/individuals/sam-salehpour' },
+ { name: 'Sam Salehpour', role: 'Current whistleblower; 787 defects', href: '/entities/individuals/sam-salehpour' },
  { name: 'Curtis Ewbank', role: 'Whistleblower, MCAS ethics complaint', href: '/entities/individuals/curtis-ewbank' },
  ],
  legalHistory: [
@@ -4076,7 +4076,7 @@ const corporationData: Record<string, {
  controversies: [
  'YOUTH MARKETING: Deliberately targeted teenagers with social media campaigns and fruity flavors',
  'ADDICTION: High nicotine salt formula (5%) made products extremely addictive',
- 'EPIDEMIC: Triggered youth vaping epidemic - 2+ million underage users',
+ 'EPIDEMIC: Triggered youth vaping epidemic; 2+ million underage users',
  'SETTLEMENT: $438.5 million multistate settlement for marketing to minors',
  'FDA BAN: Received FDA marketing denial order (partially stayed on appeal)',
  'SCHOOL INFILTRATION: Presented in schools as"safer alternative"without disclosing nicotine content',

@@ -90,11 +90,11 @@ const investigation = {
  ],
  charges: [
  { statute: 'Nuremberg Code (1947)', description: 'All human experimentation requires voluntary informed consent', count: 'Violated across all 149+ subprojects' },
- { statute: '18 U.S.C. § 242 - Deprivation of Rights Under Color of Law', description: 'Government agents subjecting persons to deprivation of constitutional rights', count: 'Thousands of instances, never prosecuted' },
- { statute: '18 U.S.C. § 1111 - Murder (Frank Olson)', description: 'Possible homicide disguised as suicide', count: '1 count, never prosecuted federally' },
+ { statute: '18 U.S.C. § 242: Deprivation of Rights Under Color of Law', description: 'Government agents subjecting persons to deprivation of constitutional rights', count: 'Thousands of instances, never prosecuted' },
+ { statute: '18 U.S.C. § 1111: Murder (Frank Olson)', description: 'Possible homicide disguised as suicide', count: '1 count, never prosecuted federally' },
  { statute: 'Assault and Battery', description: 'Forcible administration of drugs, ECT, sensory deprivation', count: 'Thousands of instances, never prosecuted' },
  { statute: 'Geneva Convention (Article 3, Common)', description: 'Prohibition of violence, cruel treatment, and torture', count: 'Mass violations, no accountability' },
- { statute: '18 U.S.C. § 1519 - Destruction of Records', description: 'Richard Helms ordered destruction of MKUltra files', count: 'Only charged with perjury, not obstruction' },
+ { statute: '18 U.S.C. § 1519: Destruction of Records', description: 'Richard Helms ordered destruction of MKUltra files', count: 'Only charged with perjury, not obstruction' },
  ],
  coverup: [
  'CIA Director Richard Helms ordered ALL MKUltra files destroyed in 1973; only 20,000 documents survived a filing error',

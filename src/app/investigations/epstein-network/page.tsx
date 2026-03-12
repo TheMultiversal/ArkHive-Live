@@ -487,7 +487,7 @@ const investigation = {
  { title: 'Alfredo Rodriguez Black Book Theft Case', url: 'https://www.palmbeachpost.com/story/news/crime/2015/01/05/epstein-victim-attorney-butler-who/6807012007/', date: '2015' },
  { title: 'Denise George Firing After JPMorgan Lawsuit (USVI)', url: 'https://web.archive.org/web/2024/https://www.reuters.com/legal/us-virgin-islands-attorney-general-who-sued-jpmorgan-over-epstein-was-fired-2023-01-03/', date: '2023' },
  { title: 'Peter Mandelson-Epstein Photographs (Guardian)', url: 'https://www.theguardian.com/uk-news/2019/jul/30/peter-mandelson-jeffrey-epstein', date: '2019' },
- { title: 'Carbyne911 - Barak/Epstein Tech Investment', url: 'https://www.mintpressnews.com/ehud-barak-jeffrey-epstein-carbyne911/261726/', date: '2019' },
+ { title: 'Carbyne911: Barak/Epstein Tech Investment', url: 'https://www.mintpressnews.com/ehud-barak-jeffrey-epstein-carbyne911/261726/', date: '2019' },
  { title: 'FBI FOIA Releases on Epstein Investigation', url: 'https://vault.fbi.gov/jeffrey-epstein', date: '2020-2025' },
  { title: 'Surviving Jeffrey Epstein (Lifetime Documentary)', url: 'https://www.mylifetime.com/shows/surviving-jeffrey-epstein', date: '2020' },
  { title: 'Jeffrey Epstein: Devil in the Darkness (Podcast)', url: 'https://podcasts.apple.com/us/podcast/jeffrey-epstein-devil-in-the-darkness/id1478027784', date: '2020' },

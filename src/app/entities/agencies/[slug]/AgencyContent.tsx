@@ -2090,7 +2090,7 @@ const agencyData: Record<string, {
  'MAINTENANCE OUTSOURCING: Allowed critical aircraft maintenance to move offshore with minimal oversight',
  'SOUTHWEST AIRLINES 1380 (2018): Engine failure killed Jennifer Riordan, FAA delayed mandating inspections',
  'CONGRESSIONAL TESTIMONY: FAA officials repeatedly gave misleading testimony about MAX safety',
- 'DOJ DEFERRED PROSECUTION: Boeing got sweetheart deal - $2.5B fine, no executives charged',
+ 'DOJ DEFERRED PROSECUTION: Boeing got sweetheart deal; $2.5B fine, no executives charged',
  'LOBBYING INFLUENCE: Airlines for America spent millions lobbying FAA and Congress',
  ],
  relatedInvestigations: [

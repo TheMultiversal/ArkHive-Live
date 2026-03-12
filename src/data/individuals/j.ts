@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'January 20, 1953',
  birthPlace: 'Brooklyn, New York City, USA',
  netWorth: '$577+ million (at death)',
- education: ['Dropped out of Cooper Union', 'Dropped out of New York University', 'Taught at Dalton School (1973-1976) - hired without degree by Bill Barr\'s father'],
+ education: ['Dropped out of Cooper Union', 'Dropped out of New York University', 'Taught at Dalton School (1973-1976), hired without degree by Bill Barr\'s father'],
  affiliations: [
  { name: 'Bear Stearns', role: 'Trader (1976-1981)', type: 'corporation' },
  { name: 'J. Epstein & Co.', role: 'Founder', type: 'corporation' },
@@ -29,22 +29,22 @@ const profiles: Record<string, IndividualProfile> = {
  '"LOLITA EXPRESS": Private Boeing 727 used to transport victims and powerful guests, flight logs show hundreds of trips',
  'MANHATTAN MANSION: 21,000 sq ft townhouse (largest in NYC) given by Les Wexner, used for abuse with hidden cameras',
  'ZORRO RANCH: 10,000-acre New Mexico property used for abuse, Epstein discussed"seeding human race"there',
- 'DEATH CIRCUMSTANCES: Found dead August 10, 2019 in Manhattan jail - cameras malfunctioned, guards falsified records, broken neck bones unusual for suicide',
- 'SCIENTIFIC LEGITIMACY: Donated millions to Harvard, MIT to gain respectability - institutions later returned donations',
+ 'DEATH CIRCUMSTANCES: Found dead August 10, 2019 in Manhattan jail; cameras malfunctioned, guards falsified records, broken neck bones unusual for suicide',
+ 'SCIENTIFIC LEGITIMACY: Donated millions to Harvard, MIT to gain respectability; institutions later returned donations',
  'INTELLIGENCE CONNECTIONS: Speculation about ties to intelligence agencies, former AG Barr\'s father hired him at Dalton School',
  'BLACKMAIL OPERATION: Victims and witnesses testified to hidden cameras throughout properties, suggesting kompromat operation',
  ],
  charges: [
- { statute: '18 U.S.C. § 1591', description: 'Sex trafficking of minors - federal indictment SDNY 2019', category: 'Human Trafficking' },
- { statute: '18 U.S.C. § 1591(a)', description: 'Sex trafficking conspiracy - operated network across multiple states', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. § 1591', description: 'Sex trafficking of minors; federal indictment SDNY 2019', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. § 1591(a)', description: 'Sex trafficking conspiracy; operated network across multiple states', category: 'Human Trafficking' },
  { statute: '18 U.S.C. § 2423', description: 'Transportation of minors for illegal sexual activity', category: 'Human Trafficking' },
  { statute: '18 U.S.C. § 2422', description: 'Coercion and enticement of minors', category: 'Human Trafficking' },
  { statute: 'Florida Statute 796.03', description: 'Soliciting prostitution from minor (2008 conviction)', category: 'Sexual Crimes' },
  { statute: 'Florida Statute 800.04', description: 'Lewd and lascivious acts on child under 16', category: 'Sexual Crimes' },
  { statute: 'NY Penal Law § 130.25', description: 'Rape in the third degree', category: 'Sexual Crimes' },
  { statute: '18 U.S.C. § 1952', description: 'Interstate travel for prostitution (Mann Act)', category: 'Organized Crime' },
- { statute: '18 U.S.C. § 1956', description: 'Money laundering - concealing trafficking proceeds', category: 'Financial Crimes' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy - coordinated trafficking operation', category: 'Conspiracy' },
+ { statute: '18 U.S.C. § 1956', description: 'Money laundering; concealing trafficking proceeds', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy; coordinated trafficking operation', category: 'Conspiracy' },
  ],
  relatedInvestigations: [
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -77,13 +77,13 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2019 (Feb)', event: 'Federal judge rules NPA violated Crime Victims\' Rights Act' },
  { date: '2019 (Jul 6)', event: 'Arrested at Teterboro Airport on federal sex trafficking charges' },
  { date: '2019 (Jul 8)', event: 'Bail denied due to flight risk, held at MCC Manhattan' },
- { date: '2019 (Jul 23)', event: 'Found injured in cell - claimed attacked, put on suicide watch briefly' },
- { date: '2019 (Aug 10)', event: 'Found dead in cell at 6:30 AM - ruled suicide by hanging' },
- { date: '2019 (Aug)', event: 'Autopsy shows broken hyoid bone - unusual for suicide, common in strangulation' },
+ { date: '2019 (Jul 23)', event: 'Found injured in cell; claimed attacked, put on suicide watch briefly' },
+ { date: '2019 (Aug 10)', event: 'Found dead in cell at 6:30 AM; ruled suicide by hanging' },
+ { date: '2019 (Aug)', event: 'Autopsy shows broken hyoid bone; unusual for suicide, common in strangulation' },
  { date: '2019', event: 'Two guards charged with falsifying records, cameras"malfunctioned"' },
  { date: '2020', event: 'Ghislaine Maxwell arrested in New Hampshire' },
  { date: '2021', event: 'Maxwell convicted on 5 of 6 sex trafficking charges' },
- { date: '2022', event: 'Jean-Luc Brunel found dead in Paris prison - ruled suicide' },
+ { date: '2022', event: 'Jean-Luc Brunel found dead in Paris prison; ruled suicide' },
  { date: '2022', event: 'Maxwell sentenced to 20 years in federal prison' },
  { date: '2024', event: 'Court documents unsealed naming additional associates' },
  { date: '2025', event: 'Flight logs and additional records continue to be released' },
@@ -252,8 +252,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'House Oversight Committee - Kushner Security Clearance Investigation', url: 'https://oversight.house.gov/legislation/hearings/kushner-security-clearance', date: '2019-04-01' },
- { title: 'Senate Finance Committee - Affinity Partners Investigation', url: 'https://www.finance.senate.gov/chairmans-news/wyden-launches-investigation-into-jared-kushners-2-billion-saudi-deal', date: '2022-06-02' },
+ { title: 'House Oversight Committee: Kushner Security Clearance Investigation', url: 'https://oversight.house.gov/legislation/hearings/kushner-security-clearance', date: '2019-04-01' },
+ { title: 'Senate Finance Committee: Affinity Partners Investigation', url: 'https://www.finance.senate.gov/chairmans-news/wyden-launches-investigation-into-jared-kushners-2-billion-saudi-deal', date: '2022-06-02' },
  ],
  aliases: ['J-Kush', 'Secretary of Everything'],
  knownAssociates: [
@@ -298,8 +298,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'January 6th Committee - Eastman Memo', url: 'https://www.govinfo.gov/committee/house-january6th', date: '2022-06-16' },
- { title: 'State Bar of California - Disbarment Decision', url: 'https://www.calbar.ca.gov/Portals/0/documents/publicComment/2024/Eastman-Decision.pdf', date: '2024-03-27' },
+ { title: 'January 6th Committee: Eastman Memo', url: 'https://www.govinfo.gov/committee/house-january6th', date: '2022-06-16' },
+ { title: 'State Bar of California: Disbarment Decision', url: 'https://www.calbar.ca.gov/Portals/0/documents/publicComment/2024/Eastman-Decision.pdf', date: '2024-03-27' },
  ],
  aliases: [],
  knownAssociates: [
@@ -498,7 +498,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'Unknown (1960s)',
  birthPlace: 'New York, USA',
  netWorth: 'Unknown',
- education: ['J.D. - Harvard Law School', 'B.A. - SUNY Oneonta'],
+ education: ['J.D., Harvard Law School', 'B.A., SUNY Oneonta'],
  affiliations: [
  { name: 'Department of Justice', role: 'Special Counsel (2022-2025)', type: 'agency' },
  { name: 'International Criminal Court', role: 'Chief Prosecutor, Kosovo War Crimes (2018-2022)', type: 'agency' },
@@ -582,7 +582,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'December 14, 1960',
  birthPlace: 'Yonkers, New York, USA',
  netWorth: '$14+ million',
- education: ['J.D. - University of Chicago Law School', 'B.S. - College of William & Mary'],
+ education: ['J.D., University of Chicago Law School', 'B.S., College of William & Mary'],
  affiliations: [
  { name: 'Federal Bureau of Investigation', role: 'Director (2013-2017)', type: 'agency' },
  { name: 'Department of Justice', role: 'Deputy Attorney General (2003-2005)', type: 'agency' },
@@ -618,7 +618,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'Comey Senate Testimony', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/os-jcomey-060817.pdf', date: '2017' },
- { title: 'Mueller Report - Obstruction Section', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report: Obstruction Section', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
  { title: '"A Higher Loyalty"Memoir', url: 'https://www.amazon.com/Higher-Loyalty-Truth-Lies-Leadership/dp/1250192455', date: '2018' },
  ],
  aliases: [],
@@ -676,7 +676,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Accusations spanning from 1980s through 2010s',
  'Flew on Epstein\'s private jet dozens of times',
  'Named in Virginia Giuffre lawsuit',
- 'Found dead in prison cell before trial - ruled suicide',
+ 'Found dead in prison cell before trial; ruled suicide',
  'Death circumstances questioned given Epstein\'s similar death',
  ],
  charges: [
@@ -699,7 +699,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'BBC - Jean-Luc Brunel Death', url: 'https://www.bbc.com/news', date: 'February 2022' },
+ { title: 'BBC: Jean-Luc Brunel Death', url: 'https://www.bbc.com/news', date: 'February 2022' },
  { title: 'Guardian Investigation', url: 'https://scholar.google.com/scholar?q=Guardian%20Investigation', date: '2020' }, ],
  aliases: ['JLB'],
  knownAssociates: [
@@ -837,12 +837,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Whereabouts unknown since 2017',
  ],
  charges: [
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Reportedly gave false statements to FBI investigators about his Russian contacts and knowledge', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Role in Russian intelligence operation to contact Trump campaign advisors', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 951', description: 'Potential Foreign Agent Activities - Possible agent of Russian government contacting US campaign officials', category: 'Potential National Security' },
- { statute: '52 U.S.C. § 30121', description: 'Foreign National Election Interference - Offered foreign intelligence ("dirt") to US presidential campaign', category: 'Potential Election' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent - Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1503', description: 'Potential Obstruction - Disappeared before Mueller investigation could secure testimony', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Reportedly gave false statements to FBI investigators about his Russian contacts and knowledge', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Role in Russian intelligence operation to contact Trump campaign advisors', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 951', description: 'Potential Foreign Agent Activities; Possible agent of Russian government contacting US campaign officials', category: 'Potential National Security' },
+ { statute: '52 U.S.C. § 30121', description: 'Foreign National Election Interference; Offered foreign intelligence ("dirt") to US presidential campaign', category: 'Potential Election' },
+ { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent; Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1503', description: 'Potential Obstruction; Disappeared before Mueller investigation could secure testimony', category: 'Potential Federal' },
  { statute: 'Mueller Report Referral', description: 'Mueller Report documented his lies and suspicious disappearance; potential criminal referral', category: 'Documented' },
  ],
  relatedInvestigations: [
@@ -1850,7 +1850,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'John Ratcliffe served as Trump\'s Director of National Intelligence despite having minimal intelligence experience. He declassified documents to benefit Trump politically and was accused of politicizing intelligence. He has been nominated as Trump\'s CIA Director for the second administration.',
  birthDate: 'October 20, 1965',
  birthPlace: 'Mount Prospect, Illinois',
- education: ['J.D. - Southern Methodist University (1989)', 'B.A. - University of Notre Dame (1987)'],
+ education: ['J.D., Southern Methodist University (1989)', 'B.A., University of Notre Dame (1987)'],
  affiliations: [
  { name: 'Office of the Director of National Intelligence', role: 'DNI (2020-2021)', type: 'agency' },
  { name: 'U.S. House of Representatives', role: 'Representative from Texas (2015-2020)', type: 'agency' },
@@ -1898,7 +1898,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'February 11, 1953',
  birthPlace: 'Midland, Texas, USA',
  netWorth: '$40+ million',
- education: ['B.A. in Latin American Studies - University of Texas at Austin (1973)'],
+ education: ['B.A. in Latin American Studies, University of Texas at Austin (1973)'],
  affiliations: [
  { name: 'State of Florida', role: 'Governor (1999-2007)', type: 'agency' },
  { name: 'Bush-Cheney Campaign', role: 'Brother and Florida facilitator (2000)', type: 'organization' },
@@ -1918,9 +1918,9 @@ const profiles: Record<string, IndividualProfile> = {
  '2016 CAMPAIGN: Spent $130+ million, finished with 3 delegates,"please clap"moment',
  ],
  charges: [
- { statute: '52 U.S.C. § 20507', description: 'Voter Roll Purge Irregularities - Potentially discriminatory list maintenance', category: 'Election Crimes' },
- { statute: '52 U.S.C. § 10307', description: 'Voting Rights Act - Disproportionate impact on minority voters', category: 'Civil Rights' },
- { statute: 'Florida Ethics Laws', description: 'Conflict of Interest - Overseeing election benefiting brother', category: 'State' },
+ { statute: '52 U.S.C. § 20507', description: 'Voter Roll Purge Irregularities; Potentially discriminatory list maintenance', category: 'Election Crimes' },
+ { statute: '52 U.S.C. § 10307', description: 'Voting Rights Act; Disproportionate impact on minority voters', category: 'Civil Rights' },
+ { statute: 'Florida Ethics Laws', description: 'Conflict of Interest; Overseeing election benefiting brother', category: 'State' },
  ],
  relatedInvestigations: [
  { title: '2000 Election Manipulation', slug: '2000-election', severity: 'critical' },
@@ -1934,7 +1934,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '1994', event: 'Loses Florida gubernatorial race to Lawton Chiles' },
  { date: '1998', event: 'Elected Governor of Florida' },
  { date: '1999', event: 'Signs contract with Database Technologies (DBT) for voter purge' },
- { date: 'November 7, 2000', event: 'Presidential election - Florida too close to call' },
+ { date: 'November 7, 2000', event: 'Presidential election; Florida too close to call' },
  { date: 'November 2000', event: 'Recused from election certification, but administration runs process' },
  { date: 'November 22, 2000', event: 'Brooks Brothers Riot stops Miami-Dade recount' },
  { date: 'November 26, 2000', event: 'Katherine Harris certifies Bush winner by 537 votes' },
@@ -1949,7 +1949,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'U.S. Commission on Civil Rights - Florida 2000 Election Report', url: 'https://www.usccr.gov/files/pubs/vote2000/report/main.htm', date: '2001' },
+ { title: 'U.S. Commission on Civil Rights: Florida 2000 Election Report', url: 'https://www.usccr.gov/files/pubs/vote2000/report/main.htm', date: '2001' },
  { title: 'Bush v. Gore Supreme Court Decision', url: 'https://web.archive.org/web/2024/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf', date: '2000' },
  { title: 'Florida Voter Purge Investigation', url: 'https://www.salon.com/2000/12/04/voter_file/', date: '2000' },
  { title: 'Congressional Black Caucus Election Challenge', url: 'https://scholar.google.com/scholar?q=Congressional%20Black%20Caucus%20Election%20Challenge', date: '2001' },
@@ -2035,9 +2035,9 @@ const profiles: Record<string, IndividualProfile> = {
  'MAFIA DENIAL: For decades denied the existence of organized crime, possibly due to mob blackmail over his alleged homosexuality. This allowed the Mafia to grow unchecked.',
  ],
  charges: [
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution: Systematic persecution of civil rights leaders and political activists', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 7(1)(a)', description: 'Crimes Against Humanity - Murder: Facilitated assassinations of Black Panther leaders', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Other Inhumane Acts: Psychological torture through surveillance, blackmail, and harassment', category: 'International Criminal Law' },
+ { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Systematic persecution of civil rights leaders and political activists', category: 'International Criminal Law' },
+ { statute: 'Rome Statute Article 7(1)(a)', description: 'Crimes Against Humanity; Murder: Facilitated assassinations of Black Panther leaders', category: 'International Criminal Law' },
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity; Other Inhumane Acts: Psychological torture through surveillance, blackmail, and harassment', category: 'International Criminal Law' },
  { statute: '18 U.S.C. § 241', description: 'Conspiracy Against Rights: COINTELPRO systematically violated First Amendment rights', category: 'Civil Rights Violations' },
  { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law: Official capacity used to violate constitutional rights', category: 'Civil Rights Violations' },
  { statute: '18 U.S.C. § 2511', description: 'Illegal Wiretapping: Warrantless surveillance of thousands of Americans', category: 'Surveillance Crimes' },
@@ -2059,11 +2059,11 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '1964', event: 'Sends MLK"suicide letter"' },
  { date: 'December 4, 1969', event: 'FBI intelligence facilitates Fred Hampton assassination' },
  { date: '1971', event: 'COINTELPRO exposed after Media, PA break-in' },
- { date: 'May 2, 1972', event: 'Dies in Washington, D.C. - still FBI Director' },
+ { date: 'May 2, 1972', event: 'Dies in Washington, D.C.; still FBI Director' },
  ],
  socialMedia: [],
  sources: [
- { title: 'Senate Church Committee - COINTELPRO Final Report', url: 'https://www.congress.gov/', date: '1976' },
+ { title: 'Senate Church Committee: COINTELPRO Final Report', url: 'https://www.congress.gov/', date: '1976' },
  { title: 'Tim Weiner -"Enemies: A History of the FBI"', url: 'https://scholar.google.com/scholar?q=Tim%20Weiner%20-%22Enemies%3A%20A%20History%20of%20the%20FBI%22', date: '2012' },
  { title: 'Betty Medsger -"The Burglary"', url: 'https://scholar.google.com/scholar?q=Betty%20Medsger%20-%22The%20Burglary%22', date: '2014' },
  { title: 'FBI COINTELPRO documents (FOIA)', url: 'https://scholar.google.com/scholar?q=FBI%20COINTELPRO%20documents%20(FOIA)', date: 'Various' },
@@ -2122,10 +2122,10 @@ const profiles: Record<string, IndividualProfile> = {
  'ONGOING IMPACT: The drug war policies Ehrlichman helped design continue today, with Black Americans still incarcerated at 5 times the rate of whites despite similar drug usage.',
  ],
  charges: [
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution: Designed policy to systematically target Black Americans and political opponents', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy: Conspiracy to commit various offenses - convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice: Watergate cover-up activities - convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1621', description: 'Perjury: False statements under oath - convicted', category: 'Federal Crimes' },
+ { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Designed policy to systematically target Black Americans and political opponents', category: 'International Criminal Law' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy: Conspiracy to commit various offenses; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice: Watergate cover-up activities; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. § 1621', description: 'Perjury: False statements under oath; convicted', category: 'Federal Crimes' },
  { statute: '18 U.S.C. § 241', description: 'Conspiracy Against Rights: Drug war designed to violate civil rights of targeted groups', category: 'Civil Rights Violations' },
  ],
  relatedInvestigations: [
@@ -2244,7 +2244,7 @@ const profiles: Record<string, IndividualProfile> = {
  'DEFENDED CRUSHING CHILDREN: In congressional testimony, suggested the president could order a child\'s testicles crushed if he believed it necessary',
  ],
  charges: [
- { statute: 'Geneva Conventions - Common Article 3', description: 'Authored legal framework enabling torture of detainees', category: 'War Crimes' },
+ { statute: 'Geneva Conventions: Common Article 3', description: 'Authored legal framework enabling torture of detainees', category: 'War Crimes' },
  { statute: 'Convention Against Torture', description: 'Provided legal cover for prohibited torture techniques', category: 'International Crime' },
  { statute: '18 U.S.C. § 2340A', description: 'Conspiracy to commit torture', category: 'Federal Crime' },
  ],
@@ -2675,7 +2675,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Snowden NSA documents - AT&T', url: 'https://www.nsa.gov/', date: '2013' }, ],
+ { title: 'Snowden NSA documents: AT&T', url: 'https://www.nsa.gov/', date: '2013' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Jeffrey Epstein', relationship: 'AT&T/WarnerMedia CEO during period of Epstein-related media coverage decisions', href: '/entities/individuals/jeffrey-epstein' },
@@ -2816,7 +2816,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'John McEntee. Profile pending review.',
  birthDate: 'October 13, 1990',
  birthPlace: 'Connecticut, USA',
- education: ['University of Connecticut - BA'],
+ education: ['University of Connecticut, BA'],
  affiliations: [
  { name: 'White House', role: 'Director of Personnel (2020-2021)', type: 'agency' },
  { name: 'Heritage Foundation', role: 'Project 2025 Advisory', type: 'organization' },
@@ -3062,7 +3062,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'BBC Investigation - Boeing Whistleblower', url: 'https://www.bbc.com/news/business-67760406', date: '2023' },
+ { title: 'BBC Investigation: Boeing Whistleblower', url: 'https://www.bbc.com/news/business-67760406', date: '2023' },
  ],
  aliases: [],
  knownAssociates: [],
@@ -4930,7 +4930,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Wikipedia: Jack Weinstein', url: 'https://en.wikipedia.org/wiki/Jack_Weinstein', date: '' }, ],
  aliases: [],
  knownAssociates: [
- { name: 'Elmo Zumwalt', relationship: 'Agent Orange case judge - Zumwalt ordered the defoliant', href: '/entities/individuals/elmo-zumwalt' },
+ { name: 'Elmo Zumwalt', relationship: 'Agent Orange case judge; Zumwalt ordered the defoliant', href: '/entities/individuals/elmo-zumwalt' },
  ],
  },
 
@@ -4978,8 +4978,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'jaime-zapata': {
  name: 'Jaime Zapata',
- title: 'ICE Agent murdered in Mexico - weapons linked to similar operations',
- role: 'ICE Agent murdered in Mexico - weapons linked to similar operations',
+ title: 'ICE Agent murdered in Mexico: weapons linked to similar operations',
+ role: 'ICE Agent murdered in Mexico; weapons linked to similar operations',
  riskLevel: 'high',
  description: 'Jaime Zapata. Profile pending review.',
  education: [],
@@ -4996,7 +4996,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Operation Fast And Furious', slug: 'operation-fast-and-furious', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as ICE Agent murdered in Mexico - weapons linked to similar operations' }, ],
+ { date: 'Ongoing', event: 'Active in role as ICE Agent murdered in Mexico; weapons linked to similar operations' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Jaime Zapata', url: 'https://en.wikipedia.org/wiki/Jaime_Zapata', date: '' }, ],
@@ -6319,8 +6319,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'jesse-washington': {
  name: 'Jesse Washington',
- title: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000 - known as Waco Horror',
- role: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000 - known as Waco Horror',
+ title: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000: known as Waco Horror',
+ role: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000; known as Waco Horror',
  riskLevel: 'high',
  description: 'Jesse Washington. Profile pending review.',
  education: [],
@@ -7232,8 +7232,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'john-sperling': {
  name: 'John Sperling',
- title: 'Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices',
- role: 'Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollment practices',
+ title: 'Founder of University of Phoenix: largest for-profit college in US; pioneered predatory enrollment practices',
+ role: 'Founder of University of Phoenix; largest for-profit college in US; pioneered predatory enrollment practices',
  riskLevel: 'high',
  description: 'John Sperling. Profile pending review.',
  education: [],
@@ -7249,7 +7249,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Student Debt Crisis', slug: 'student-debt-crisis', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Founder of University of Phoenix - largest for-profit college in US; pioneered predatory enrollmen' }, ],
+ { date: 'Ongoing', event: 'Active in role as Founder of University of Phoenix; largest for-profit college in US; pioneered predatory enrollmen' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: John Sperling', url: 'https://en.wikipedia.org/wiki/John_Sperling', date: '' }, ],
@@ -8205,7 +8205,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'March 16, 1911',
  birthPlace: 'Günzburg, Bavaria, Germany',
  deathDate: 'February 7, 1979',
- education: ['PhD in Anthropology - University of Munich', 'Medical Degree - University of Frankfurt'],
+ education: ['PhD in Anthropology, University of Munich', 'Medical Degree, University of Frankfurt'],
  affiliations: [
  { name: 'Nazi SS', role: 'SS-Hauptsturmführer (Captain)', type: 'organization' },
  { name: 'Auschwitz Concentration Camp', role: 'Chief Medical Officer, selections and experiments', type: 'agency' },
@@ -8444,7 +8444,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2021-12-02', event: 'Testified at Ghislaine Maxwell federal trial' },
  ],
  sources: [
- { title: 'United States v. Ghislaine Maxwell - Trial Testimony', url: 'https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell', date: '2021-12-02' },
+ { title: 'United States v. Ghislaine Maxwell: Trial Testimony', url: 'https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell', date: '2021-12-02' },
  ],
  },
  'james-alex-fields-jr': {
@@ -8609,7 +8609,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'Issued buy ratings on failing telecom stocks',
- 'Conflicts of interest - his bank did investment banking for companies he rated',
+ 'Conflicts of interest; his bank did investment banking for companies he rated',
  'Permanently banned from securities industry',
  ],
  charges: [],

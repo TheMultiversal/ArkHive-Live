@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'May 28, 1944',
  birthPlace: 'Brooklyn, New York City, USA',
  netWorth: 'Negative ($150+ million in debts, bankruptcy filed 2023)',
- education: ['J.D. - New York University School of Law (1968)', 'B.A. - Manhattan College (1965)'],
+ education: ['J.D., New York University School of Law (1968)', 'B.A., Manhattan College (1965)'],
  affiliations: [
  { name: 'Trump Legal Team', role: 'Personal Attorney (2018-2021)', type: 'organization' },
  { name: 'Giuliani Partners', role: 'Founder (Consulting)', type: 'corporation' },
@@ -34,7 +34,7 @@ const profiles: Record<string, IndividualProfile> = {
  'CREDIBILITY COLLAPSE: Went from respected prosecutor to national laughingstock',
  ],
  charges: [
- { statute: 'Georgia RICO O.C.G.A. § 16-14-4', description: 'Racketeering - fake electors scheme', category: 'Organized Crime' },
+ { statute: 'Georgia RICO O.C.G.A. § 16-14-4', description: 'Racketeering; fake electors scheme', category: 'Organized Crime' },
  { statute: 'O.C.G.A. § 16-10-20', description: 'False statements to government bodies (2 counts)', category: 'Fraud' },
  { statute: 'O.C.G.A. § 16-4-7', description: 'Solicitation of violation of oath by public officer (3 counts)', category: 'Election Crimes' },
  { statute: 'O.C.G.A. § 16-10-23', description: 'Filing false documents (3 counts)', category: 'Fraud' },
@@ -145,7 +145,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'WIKILEAKS COORDINATION: Advance knowledge of WikiLeaks releases ("time in the barrel"prediction August 2016), communicated with Julian Assange through intermediaries',
- 'CONVICTED 7 FELONIES: Lying to Congress (5 counts), obstruction, witness tampering - convicted November 2019',
+ 'CONVICTED 7 FELONIES: Lying to Congress (5 counts), obstruction, witness tampering; convicted November 2019',
  'WITNESS TAMPERING: Threatened Randy Credico to prevent testimony:"Prepare to die"and threatened to steal his therapy dog',
  'NIXON BACK TATTOO: Has large tattoo of Richard Nixon between shoulder blades, openly celebrates"rat-fucking"tradition',
  'PROUD BOYS SECURITY: Used Proud Boys as personal security at events, Enrique Tarrio and others provided protection',
@@ -158,7 +158,7 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: '18 U.S.C. § 1001', description: 'Making false statements to Congress (5 counts)', category: 'Obstruction' },
  { statute: '18 U.S.C. § 1505', description: 'Obstruction of congressional investigation', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1512(b)(1)', description: 'Witness tampering - threats against Randy Credico', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1512(b)(1)', description: 'Witness tampering; threats against Randy Credico', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -286,7 +286,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'April 27, 1972',
  birthPlace: 'Fort Lee, Virginia, USA',
  netWorth: 'Unknown',
- education: ['M.A. - Villanova University', 'B.A. - College of William & Mary'],
+ education: ['M.A., Villanova University', 'B.A., College of William & Mary'],
  affiliations: [
  { name: 'Trump Campaign', role: 'Deputy Campaign Manager', type: 'organization' },
  { name: 'Trump Inaugural Committee', role: 'Deputy Chairman', type: 'organization' },
@@ -299,13 +299,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Testified about Manafort tax and bank fraud',
  ],
  charges: [
- { statute: '18 U.S.C. § 371', description: 'Conspiracy Against the United States (Pled Guilty) - Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
- { statute: '18 U.S.C. § 1001', description: 'Making False Statements (Pled Guilty) - Lied to investigators about contacts and transactions', category: 'Obstruction' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Foreign Agent Registration Act Violation - Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
- { statute: '26 U.S.C. § 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy - Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
- { statute: '18 U.S.C. § 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy - Helped submit false loan applications to banks', category: 'Bank Fraud' },
- { statute: '31 U.S.C. § 5314 (FBAR)', description: 'Foreign Account Reporting Violations - Failed to report foreign bank accounts', category: 'Financial Crime' },
- { statute: '18 U.S.C. § 1956 (Money Laundering)', description: 'Money Laundering Conspiracy - Moved Ukraine payments through shell companies', category: 'Money Laundering' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy Against the United States (Pled Guilty); Conspiracy to commit tax and bank fraud with Manafort', category: 'Conspiracy' },
+ { statute: '18 U.S.C. § 1001', description: 'Making False Statements (Pled Guilty); Lied to investigators about contacts and transactions', category: 'Obstruction' },
+ { statute: '22 U.S.C. § 611 (FARA)', description: 'Foreign Agent Registration Act Violation; Failed to register as agent for Ukraine government', category: 'Foreign Agent' },
+ { statute: '26 U.S.C. § 7201 (Tax Evasion)', description: 'Tax Fraud Conspiracy; Participated in hiding $75 million in Ukraine payments', category: 'Tax Fraud' },
+ { statute: '18 U.S.C. § 1344 (Bank Fraud)', description: 'Bank Fraud Conspiracy; Helped submit false loan applications to banks', category: 'Bank Fraud' },
+ { statute: '31 U.S.C. § 5314 (FBAR)', description: 'Foreign Account Reporting Violations; Failed to report foreign bank accounts', category: 'Financial Crime' },
+ { statute: '18 U.S.C. § 1956 (Money Laundering)', description: 'Money Laundering Conspiracy; Moved Ukraine payments through shell companies', category: 'Money Laundering' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -397,7 +397,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Freeman v. Giuliani - $148M Verdict', url: 'https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/', date: '2023' },
+ { title: 'Freeman v. Giuliani: $148M Verdict', url: 'https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/', date: '2023' },
  { title: 'January 6 Committee Testimony', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
  { title: 'Georgia Phone Call Transcript', url: 'https://www.cnn.com/2021/01/03/politics/trump-brad-raffensperger-phone-call-transcript/index.html', date: '2021' },
  ],
@@ -443,7 +443,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'August 7, 1944',
  birthPlace: 'New York City, New York, USA',
  netWorth: '$5+ million',
- education: ['J.D. - University of Virginia School of Law', 'M.A. - New York University', 'B.A. - Princeton University'],
+ education: ['J.D., University of Virginia School of Law', 'M.A., New York University', 'B.A., Princeton University'],
  affiliations: [
  { name: 'Federal Bureau of Investigation', role: 'Director (2001-2013)', type: 'agency' },
  { name: 'Department of Justice', role: 'Special Counsel (2017-2019)', type: 'agency' },
@@ -521,7 +521,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'July 11, 1946',
  birthPlace: 'San Jose, California, USA',
  netWorth: '$1.5+ billion',
- education: ['Ph.D. - University of Illinois (Computer Science)', 'B.S./M.S. - University of New Mexico'],
+ education: ['Ph.D., University of Illinois (Computer Science)', 'B.S./M.S., University of New Mexico'],
  affiliations: [
  { name: 'Renaissance Technologies', role: 'Co-CEO (until 2017)', type: 'corporation' },
  { name: 'Cambridge Analytica', role: 'Primary Investor ($15M+)', type: 'corporation' },
@@ -536,14 +536,14 @@ const profiles: Record<string, IndividualProfile> = {
  'Stepped back from Renaissance after political controversy',
  ],
  charges: [
- { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Data Harvesting Operation - Funded Cambridge Analytica which illegally harvested 87 million Facebook users\' data without consent', category: 'Cyber Crime' },
- { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination Concerns - Cambridge Analytica employed foreign nationals (UK citizens) on U.S. campaign work', category: 'Campaign Finance' },
- { statute: 'UK Data Protection Act 1998', description: 'International Data Violations - UK ICO investigation found serious breaches; Cambridge Analytica fined £500,000 (maximum)', category: 'International Law' },
- { statute: 'EU General Data Protection Regulation', description: 'GDPR Precursor Violations - Mass data harvesting violated EU data protection principles, contributing to GDPR enactment', category: 'International Law' },
- { statute: '52 U.S.C. § 30118 (Corporate Contributions)', description: 'Coordination Questions - Potential illegal coordination between Make America Number 1 super PAC and Trump campaign', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud United States - Funded operation that used illegally obtained data to manipulate U.S. elections', category: 'Conspiracy' },
- { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Disclosure Violations - Complex funding arrangements obscured true source and purpose of political expenditures', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential - Cambridge Analytica operation used interstate wires to defraud data subjects and deceive voters', category: 'Fraud' },
+ { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Data Harvesting Operation; Funded Cambridge Analytica which illegally harvested 87 million Facebook users\' data without consent', category: 'Cyber Crime' },
+ { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination Concerns; Cambridge Analytica employed foreign nationals (UK citizens) on U.S. campaign work', category: 'Campaign Finance' },
+ { statute: 'UK Data Protection Act 1998', description: 'International Data Violations; UK ICO investigation found serious breaches; Cambridge Analytica fined £500,000 (maximum)', category: 'International Law' },
+ { statute: 'EU General Data Protection Regulation', description: 'GDPR Precursor Violations; Mass data harvesting violated EU data protection principles, contributing to GDPR enactment', category: 'International Law' },
+ { statute: '52 U.S.C. § 30118 (Corporate Contributions)', description: 'Coordination Questions; Potential illegal coordination between Make America Number 1 super PAC and Trump campaign', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud United States; Funded operation that used illegally obtained data to manipulate U.S. elections', category: 'Conspiracy' },
+ { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Disclosure Violations; Complex funding arrangements obscured true source and purpose of political expenditures', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential; Cambridge Analytica operation used interstate wires to defraud data subjects and deceive voters', category: 'Fraud' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -608,7 +608,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'December 1973',
  birthPlace: 'Unknown',
  netWorth: 'Unknown (family wealth $1.5B+)',
- education: ['M.S. - Stanford University (Operations Research)', 'B.S. - Stanford University'],
+ education: ['M.S., Stanford University (Operations Research)', 'B.S., Stanford University'],
  affiliations: [
  { name: 'Cambridge Analytica', role: 'Board Member', type: 'corporation' },
  { name: 'Mercer Family Foundation', role: 'Director', type: 'organization' },
@@ -623,12 +623,12 @@ const profiles: Record<string, IndividualProfile> = {
  'More publicly active than reclusive father',
  ],
  charges: [
- { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure - Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
- { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination - Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
- { statute: 'UK Data Protection Act 1998', description: 'International Data Violations - As board member, oversaw company that committed serious data protection breaches (fined £500,000)', category: 'International Law' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud US - Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
- { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Dark Money Concerns - Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential - Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
+ { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Board Oversight Failure; Served on Cambridge Analytica board during illegal harvesting of 87 million Facebook users\' data', category: 'Cyber Crime' },
+ { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination; Cambridge Analytica employed UK nationals on U.S. campaign work while she served on board', category: 'Campaign Finance' },
+ { statute: 'UK Data Protection Act 1998', description: 'International Data Violations; As board member, oversaw company that committed serious data protection breaches (fined £500,000)', category: 'International Law' },
+ { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud US; Board role in operation using illegally obtained data to manipulate elections', category: 'Conspiracy' },
+ { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Dark Money Concerns; Mercer Family Foundation funding obscured true sources of political expenditures', category: 'Campaign Finance' },
+ { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential; Cambridge Analytica used interstate wires to deceive voters with microtargeted disinformation', category: 'Fraud' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -641,7 +641,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2016', event: 'Key figure in Trump campaign support' },
  { date: '2016', event: 'November: Joins Trump transition team' },
  { date: '2017', event: 'Continues political funding operations' },
- { date: '2018', event: 'Cambridge Analytica scandal - company folds' },
+ { date: '2018', event: 'Cambridge Analytica scandal; company folds' },
  ],
  socialMedia: [],
  sources: [
@@ -689,7 +689,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'January 13, 1965',
  birthPlace: 'Philadelphia, Pennsylvania, USA',
  netWorth: 'Unknown',
- education: ['J.D. - Harvard Law School', 'B.A. - University of Pennsylvania (Wharton)'],
+ education: ['J.D., Harvard Law School', 'B.A., University of Pennsylvania (Wharton)'],
  affiliations: [
  { name: 'Department of Justice', role: 'Deputy Attorney General (2017-2019)', type: 'agency' },
  { name: 'King & Spalding', role: 'Partner (current)', type: 'corporation' },
@@ -802,13 +802,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Bought investment in Trump-connected company',
  ],
  charges: [
- { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud - Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1344', description: 'Potential Bank Fraud Scheme - Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
- { statute: '31 U.S.C. § 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations - Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
- { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations - Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest - Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy - Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
- { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations - Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
+ { statute: '18 U.S.C. § 1014', description: 'Potential Bank Fraud; Approved loans to Trump despite knowledge of inflated financial statements and internal risk warnings', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1344', description: 'Potential Bank Fraud Scheme; Pattern of approving loans to politically connected client despite red flags', category: 'Potential Federal' },
+ { statute: '31 U.S.C. § 5318 (Bank Secrecy Act)', description: 'Potential Anti-Money Laundering Violations; Failed to properly flag suspicious transactions in Trump accounts', category: 'Potential Federal' },
+ { statute: '12 C.F.R. Part 208 (Regulation H)', description: 'Banking Regulation Violations; Overruled internal risk assessments to approve questionable loans', category: 'Banking Regulatory' },
+ { statute: '18 U.S.C. § 208', description: 'Conflict of Interest; Personal investments in company connected to Kushner while managing his accounts', category: 'Ethics' },
+ { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Pattern of facilitating questionable loans to Trump despite institutional warnings', category: 'Potential Federal' },
+ { statute: 'SEC Rule 10b-5', description: 'Potential Securities Violations; Personal investments while possessing material non-public information about clients', category: 'Potential Securities' },
  ],
  relatedInvestigations: [
  { title: 'Deutsche Bank Investigation', slug: 'deutsche-bank', severity: 'critical' },
@@ -883,14 +883,14 @@ const profiles: Record<string, IndividualProfile> = {
  'ExxonMobil\'s decades of funding climate denial',
  ],
  charges: [
- { statute: '18 U.S.C. § 1341 (Mail Fraud)', description: 'Potential Corporate Fraud - ExxonMobil under investigation for deceiving investors about climate change impacts during his tenure', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Potential Securities Fraud - Company communicated misleading climate information to investors while CEO', category: 'Potential Federal' },
- { statute: 'SEC Rule 10b-5', description: 'Securities Fraud Investigation - NY AG and SEC investigated ExxonMobil climate disclosures during Tillerson era', category: 'Potential Securities' },
- { statute: '22 U.S.C. § 8907 (UFSA)', description: 'Potential Sanctions Violations - ExxonMobil sought OFAC waiver to continue Russia projects under sanctions', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 208', description: 'Conflict of Interest Concerns - Managed State Dept while ExxonMobil had billions in pending Russian deals', category: 'Ethics' },
- { statute: 'UN Framework Convention on Climate Change', description: 'Climate Treaty Violations - Company\'s climate denial undermined international climate agreements', category: 'International' },
- { statute: '42 U.S.C. § 4332 (NEPA)', description: 'Environmental Law Violations - Knowingly misled public about climate impacts of fossil fuels', category: 'Environmental' },
- { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'ICC Consideration - Climate disinformation contributed to humanitarian crises affecting millions globally', category: 'International' },
+ { statute: '18 U.S.C. § 1341 (Mail Fraud)', description: 'Potential Corporate Fraud; ExxonMobil under investigation for deceiving investors about climate change impacts during his tenure', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Potential Securities Fraud; Company communicated misleading climate information to investors while CEO', category: 'Potential Federal' },
+ { statute: 'SEC Rule 10b-5', description: 'Securities Fraud Investigation; NY AG and SEC investigated ExxonMobil climate disclosures during Tillerson era', category: 'Potential Securities' },
+ { statute: '22 U.S.C. § 8907 (UFSA)', description: 'Potential Sanctions Violations; ExxonMobil sought OFAC waiver to continue Russia projects under sanctions', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 208', description: 'Conflict of Interest Concerns; Managed State Dept while ExxonMobil had billions in pending Russian deals', category: 'Ethics' },
+ { statute: 'UN Framework Convention on Climate Change', description: 'Climate Treaty Violations; Company\'s climate denial undermined international climate agreements', category: 'International' },
+ { statute: '42 U.S.C. § 4332 (NEPA)', description: 'Environmental Law Violations; Knowingly misled public about climate impacts of fossil fuels', category: 'Environmental' },
+ { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'ICC Consideration; Climate disinformation contributed to humanitarian crises affecting millions globally', category: 'International' },
  ],
  relatedInvestigations: [
  { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
@@ -905,7 +905,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'NBC News - Tillerson"Moron"Report', url: 'https://www.nbcnews.com/', date: '2017' },
+ { title: 'NBC News: Tillerson"Moron"Report', url: 'https://www.nbcnews.com/', date: '2017' },
  { title: 'State Department Exodus Reports', url: 'https://www.state.gov/', date: '2018' }, ],
  aliases: ['Rex'],
  knownAssociates: [
@@ -964,13 +964,13 @@ const profiles: Record<string, IndividualProfile> = {
  'Resigned before investigations concluded',
  ],
  charges: [
- { statute: '18 U.S.C. § 208', description: 'DOJ Referral - Financial conflict of interest in Montana land deal with Halliburton chairman (DOJ declined prosecution)', category: 'Ethics' },
- { statute: '31 U.S.C. § 1344', description: 'Potential Misuse of Government Aircraft - Chartered private and military planes for unnecessary travel', category: 'Potential Federal' },
- { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations - At least 15 separate IG investigations into ethics misconduct', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Misleading statements to Interior IG about travel and real estate dealings', category: 'Potential Federal' },
- { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Montana real estate development benefited from official position', category: 'Ethics' },
- { statute: '41 U.S.C. § 423', description: 'Potential Procurement Violations - Improper influence over Interior Department contracts', category: 'Potential Federal' },
- { statute: '16 U.S.C. § 431 (Antiquities Act)', description: 'Circumvention - Illegally reduced national monuments, later partially reversed by courts', category: 'Environmental' },
+ { statute: '18 U.S.C. § 208', description: 'DOJ Referral; Financial conflict of interest in Montana land deal with Halliburton chairman (DOJ declined prosecution)', category: 'Ethics' },
+ { statute: '31 U.S.C. § 1344', description: 'Potential Misuse of Government Aircraft; Chartered private and military planes for unnecessary travel', category: 'Potential Federal' },
+ { statute: '5 C.F.R. § 2635', description: 'Multiple Ethics Violations; At least 15 separate IG investigations into ethics misconduct', category: 'Ethics' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Misleading statements to Interior IG about travel and real estate dealings', category: 'Potential Federal' },
+ { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain; Montana real estate development benefited from official position', category: 'Ethics' },
+ { statute: '41 U.S.C. § 423', description: 'Potential Procurement Violations; Improper influence over Interior Department contracts', category: 'Potential Federal' },
+ { statute: '16 U.S.C. § 431 (Antiquities Act)', description: 'Circumvention; Illegally reduced national monuments, later partially reversed by courts', category: 'Environmental' },
  ],
  relatedInvestigations: [
  { title: 'Climate Sabotage', slug: 'climate-sabotage', severity: 'critical' },
@@ -1327,7 +1327,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ - United States v. Roger Stone Indictment', url: 'https://www.justice.gov/file/1124706/dl', date: '2019-01-25' },
+ { title: 'DOJ: United States v. Roger Stone Indictment', url: 'https://www.justice.gov/file/1124706/dl', date: '2019-01-25' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1391,7 +1391,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'Richard Burr was Chair of the Senate Intelligence Committee when he sold $1.7 million in stock after receiving classified COVID briefings while publicly downplaying the pandemic. The FBI investigated and served a warrant on his phone. The DOJ declined to prosecute. He resigned as Intelligence Chair but served out his term.',
  birthDate: 'November 30, 1955',
  birthPlace: 'Charlottesville, Virginia',
- education: ['B.A. - Wake Forest University (1978)'],
+ education: ['B.A., Wake Forest University (1978)'],
  affiliations: [
  { name: 'U.S. Senate', role: 'Senator from North Carolina (2005-2023)', type: 'agency' },
  { name: 'Senate Intelligence Committee', role: 'Chair (2015-2020)', type: 'agency' },
@@ -1403,7 +1403,7 @@ const profiles: Record<string, IndividualProfile> = {
  'NO PROSECUTION: DOJ declined to charge despite evidence',
  ],
  charges: [
- { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading - sold stock on material nonpublic information', category: 'Not prosecuted' },
+ { statute: '15 U.S.C. § 78j(b) (Securities Exchange Act)', description: 'Potential Insider Trading; sold stock on material nonpublic information', category: 'Not prosecuted' },
  ],
  relatedInvestigations: [
  { title: 'Securities & Market Fraud', slug: 'securities-fraud', severity: 'critical' },
@@ -1497,7 +1497,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: '1976',
  birthPlace: 'United States',
  netWorth: 'Undisclosed',
- education: ['J.D. - George Washington University Law School', 'B.A. - Wheaton College'],
+ education: ['J.D., George Washington University Law School', 'B.A., Wheaton College'],
  affiliations: [
  { name: 'Office of Management and Budget', role: 'Director (2020-2021)', type: 'agency' },
  { name: 'Center for Renewing America', role: 'Founder & President', type: 'organization' },
@@ -1520,11 +1520,11 @@ const profiles: Record<string, IndividualProfile> = {
  'CENTER FOR RENEWING AMERICA: Organization coordinates"war room"for implementing Project 2025',
  ],
  charges: [
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States - Project 2025 coordination', category: 'Federal' },
- { statute: '2 U.S.C. § 684', description: 'Impoundment Control Act Violations - Illegal withholding of funds', category: 'Federal' },
- { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices - Schedule F politicization plan', category: 'Federal' },
- { statute: 'U.S. Constitution Article I', description: 'Separation of Powers Violations - Unitary executive overreach', category: 'Constitutional' },
- { statute: '18 U.S.C. § 595', description: 'Interference by Administrative Employees - Political coercion plans', category: 'Federal' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud United States; Project 2025 coordination', category: 'Federal' },
+ { statute: '2 U.S.C. § 684', description: 'Impoundment Control Act Violations; Illegal withholding of funds', category: 'Federal' },
+ { statute: '5 U.S.C. § 2302', description: 'Prohibited Personnel Practices; Schedule F politicization plan', category: 'Federal' },
+ { statute: 'U.S. Constitution Article I', description: 'Separation of Powers Violations; Unitary executive overreach', category: 'Constitutional' },
+ { statute: '18 U.S.C. § 595', description: 'Interference by Administrative Employees; Political coercion plans', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'Project 2025 Authoritarian Blueprint', slug: 'project-2025', severity: 'critical' },
@@ -1608,7 +1608,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: '1954',
  birthPlace: 'United States',
  netWorth: 'Undisclosed (University professor)',
- education: ['Ph.D. in Microbiology and Immunology - North Carolina State University', 'Postdoctoral training - University of Southern California'],
+ education: ['Ph.D. in Microbiology and Immunology, North Carolina State University', 'Postdoctoral training, University of Southern California'],
  affiliations: [
  { name: 'University of North Carolina at Chapel Hill', role: 'Professor of Epidemiology (1986-present)', type: 'organization' },
  { name: 'Wuhan Institute of Virology', role: 'Research Collaborator', type: 'organization' },
@@ -1661,7 +1661,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: '2015 Nature Medicine Paper', url: 'https://www.nature.com/articles/nm.3985', date: '2015' },
  { title: 'NIH Grant Records', url: 'https://reporter.nih.gov/', date: 'Various' },
  { title: 'House Select Subcommittee Testimony', url: 'https://oversight.house.gov/', date: '2023' },
- { title: 'MIT Technology Review - Baric Profile', url: 'https://scholar.google.com/scholar?q=MIT%20Technology%20Review%20-%20Baric%20Profile', date: '2021' },
+ { title: 'MIT Technology Review: Baric Profile', url: 'https://scholar.google.com/scholar?q=MIT%20Technology%20Review%20-%20Baric%20Profile', date: '2021' },
  { title: 'UNC Research Publications', url: 'https://sph.unc.edu/adv_profile/ralph-s-baric-phd/', date: 'Various' },
  { title: 'Gain of Function Research Papers', url: 'https://scholar.google.com/scholar?q=Gain%20of%20Function%20Research%20Papers', date: '2008-2019' },
  ],
@@ -1780,7 +1780,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report - Seychelles Meeting', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
+ { title: 'Mueller Report: Seychelles Meeting', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1815,7 +1815,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'The Novak Column - Mission to Niger (original column)', url: 'https://www.washingtonpost.com/archive/opinions/', date: '2003-07-14' },
+ { title: 'The Novak Column: Mission to Niger (original column)', url: 'https://www.washingtonpost.com/archive/opinions/', date: '2003-07-14' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1845,9 +1845,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Escaped accountability through special counsel investigation',
  ],
  charges: [
- { statute: 'Intelligence Identities Protection Act - 50 U.S.C. § 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
- { statute: 'Espionage Act - 18 U.S.C. § 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
- { statute: 'Obstruction of Justice - 18 U.S.C. § 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
+ { statute: 'Intelligence Identities Protection Act: 50 U.S.C. § 421', description: 'Disclosed identity of covert CIA officer', category: 'National Security' },
+ { statute: 'Espionage Act: 18 U.S.C. § 793', description: 'Leaked classified information about intelligence operative', category: 'National Security' },
+ { statute: 'Obstruction of Justice: 18 U.S.C. § 1503', description: 'Potential concealment during investigation', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Plame Leak Scandal', slug: 'plame-leak', severity: 'high' },
@@ -1926,14 +1926,14 @@ const profiles: Record<string, IndividualProfile> = {
  'IGNORED WARNINGS: Snyder\'s administration received numerous warnings about water quality and lead levels. Internal emails show officials knew of problems while publicly claiming the water was safe.',
  'COVER-UP: The Michigan Department of Environmental Quality, under Snyder\'s administration, manipulated testing protocols to hide lead contamination. Officials attacked and discredited researchers who exposed the crisis.',
  'LEGIONNAIRES\' OUTBREAK: At least 12 people died from Legionnaires\' disease caused by the contaminated water. Snyder\'s administration initially concealed the outbreak.',
- 'DELAYED RESPONSE: Despite knowing of lead contamination, Snyder did not declare a state of emergency until January 2016 - nearly two years after the water switch.',
+ 'DELAYED RESPONSE: Despite knowing of lead contamination, Snyder did not declare a state of emergency until January 2016; nearly two years after the water switch.',
  'CRIMINAL CHARGES: In January 2021, Snyder was charged with two counts of willful neglect of duty (misdemeanors). He was the first Michigan governor charged with crimes related to actions in office.',
  'CHARGES DROPPED: In June 2022, the Michigan Supreme Court ruled the indictments were invalid due to procedural issues with the one-person grand jury. Charges against Snyder and other officials were dismissed.',
  'NO ACCOUNTABILITY: Despite poisoning 100,000 people, Snyder faces no criminal consequences. The Flint water crisis exemplifies environmental racism and official impunity.',
  ],
  charges: [
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Other Inhumane Acts: Actions causing great suffering and serious injury to body - lead poisoning of 100,000 people', category: 'International Criminal Law' },
- { statute: 'MCL 750.478', description: 'Willful Neglect of Duty: Charged (2 counts) - dismissed on procedural grounds', category: 'State Criminal Law' },
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity; Other Inhumane Acts: Actions causing great suffering and serious injury to body; lead poisoning of 100,000 people', category: 'International Criminal Law' },
+ { statute: 'MCL 750.478', description: 'Willful Neglect of Duty: Charged (2 counts); dismissed on procedural grounds', category: 'State Criminal Law' },
  { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law: Potential federal charge for depriving residents of safe water', category: 'Federal Civil Rights' },
  ],
  relatedInvestigations: [
@@ -1954,7 +1954,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Michigan Civil Rights Commission - Flint Report', url: 'https://www.ignet.gov/', date: '2017' },
+ { title: 'Michigan Civil Rights Commission: Flint Report', url: 'https://www.ignet.gov/', date: '2017' },
  { title: 'Snyder administration emails (FOIA)', url: 'https://www.courtlistener.com/', date: 'Various' },
  { title: 'Criminal indictment', url: 'https://www.justice.gov/', date: '2021' },
  { title: 'Michigan Supreme Court ruling', url: 'https://www.courtlistener.com/', date: '2022' },
@@ -1995,7 +1995,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'CIA Director (1966-1973)',
  role: 'CIA Director who ordered destruction of MKUltra records and lied to Congress about Chile',
  riskLevel: 'critical',
- description: 'Richard Helms served as CIA Director from 1966-1973 and ordered the destruction of MKUltra records to prevent accountability for human experimentation crimes. He lied to Congress about CIA involvement in the Chilean coup and was convicted of perjury - receiving only a $2,000 fine. He oversaw continued mind control experiments, assassination programs, and domestic surveillance while destroying evidence of the CIA\'s worst crimes.',
+ description: 'Richard Helms served as CIA Director from 1966-1973 and ordered the destruction of MKUltra records to prevent accountability for human experimentation crimes. He lied to Congress about CIA involvement in the Chilean coup and was convicted of perjury; receiving only a $2,000 fine. He oversaw continued mind control experiments, assassination programs, and domestic surveillance while destroying evidence of the CIA\'s worst crimes.',
  education: [],
  affiliations: [
  { name: 'CIA', role: 'Director (1966-1973)', type: 'agency' },
@@ -2011,7 +2011,7 @@ const profiles: Record<string, IndividualProfile> = {
  'PROTECTED REPUTATION: Despite destroying evidence of American citizens being tortured and drugged, Helms maintained his reputation in Washington. He was welcomed in elite circles until his death.',
  ],
  charges: [
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity - Torture: Oversaw continuation of MKUltra experiments', category: 'International Criminal Law' },
+ { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity; Torture: Oversaw continuation of MKUltra experiments', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 70(1)(c)', description: 'Obstruction of Justice: Destroyed evidence to prevent accountability', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed operations to overthrow the Chilean government', category: 'International Criminal Law' },
  { statute: '18 U.S.C. § 1621', description: 'Perjury: Convicted for lying to Congress about Chile', category: 'Federal Crimes' },
@@ -2097,8 +2097,8 @@ const profiles: Record<string, IndividualProfile> = {
  'NO ACCOUNTABILITY: Despite his role in a war that killed millions based on lies, McNamara lived comfortably until age 93. His late-life remorse changed nothing for the dead.',
  ],
  charges: [
- { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes - Attack on Civilians: Bombing campaigns killed hundreds of thousands of civilians', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crimes - Causing Widespread Environmental Damage: Agent Orange spraying devastated Vietnam\'s environment', category: 'International Criminal Law' },
+ { statute: 'Rome Statute Article 8(2)(b)(i)', description: 'War Crimes; Attack on Civilians: Bombing campaigns killed hundreds of thousands of civilians', category: 'International Criminal Law' },
+ { statute: 'Rome Statute Article 8(2)(b)(iv)', description: 'War Crimes; Causing Widespread Environmental Damage: Agent Orange spraying devastated Vietnam\'s environment', category: 'International Criminal Law' },
  { statute: '18 U.S.C. § 1001', description: 'False Statements: Lied to Congress about Tonkin incident', category: 'Federal Crimes' },
  { statute: '18 U.S.C. § 1621', description: 'Perjury: False testimony under oath', category: 'Federal Crimes' },
  ],
@@ -2160,7 +2160,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'NSA Whistleblower',
  role: 'Leaked evidence of Russian election interference, imprisoned',
  riskLevel: 'low',
- description: 'Reality Winner was an NSA contractor who leaked a classified report showing Russian interference in the 2016 election to The Intercept. She was sentenced to over 5 years in prison - the longest sentence ever for an unauthorized disclosure to the media - while those who benefited from Russian interference faced no consequences.',
+ description: 'Reality Winner was an NSA contractor who leaked a classified report showing Russian interference in the 2016 election to The Intercept. She was sentenced to over 5 years in prison; the longest sentence ever for an unauthorized disclosure to the media; while those who benefited from Russian interference faced no consequences.',
  birthDate: 'December 4, 1991',
  birthPlace: 'Alice, Texas',
  education: ['Air Force training'],
@@ -2170,7 +2170,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'NSA contractor who leaked classified report proving Russian cyberattacks on U.S. election infrastructure',
- 'Sentenced to 5 years and 3 months - the longest sentence ever for an unauthorized disclosure to media',
+ 'Sentenced to 5 years and 3 months; the longest sentence ever for an unauthorized disclosure to media',
  'Her leak confirmed what intelligence agencies were warning about Russian interference in 2016 election',
  ],
  charges: [],
@@ -2188,7 +2188,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'The Intercept - NSA report on Russian election hacking', url: 'https://theintercept.com/', date: '2017' }, ],
+ { title: 'The Intercept: NSA report on Russian election hacking', url: 'https://theintercept.com/', date: '2017' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'President whose administration aggressively prosecuted Winner for leaking evidence of Russian election interference', href: '/entities/individuals/donald-trump' },
@@ -2407,7 +2407,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'Ryan McCarthy served as Secretary of the Army from September 2019 to January 2021. He is a key figure in the delayed National Guard response to the January 6 Capitol attack. The Guard took over 3 hours to deploy after initial requests, raising questions about why military assistance was withheld during the insurrection. McCarthy approved the eventual deployment but the delay allowed the mob to breach the Capitol for hours.',
  birthDate: 'February 1975',
  birthPlace: 'Illinois, USA',
- education: ['Virginia Military Institute', 'Georgetown University - MBA'],
+ education: ['Virginia Military Institute', 'Georgetown University, MBA'],
  affiliations: [
  { name: 'Department of the Army', role: 'Secretary (2019-2021)', type: 'agency' },
  { name: 'Department of Defense', role: 'Under Secretary (2017-2019)', type: 'agency' },
@@ -3356,7 +3356,7 @@ const profiles: Record<string, IndividualProfile> = {
  'riley-june-williams': {
  name: 'Riley June Williams',
  title: 'Convicted January 6 Rioter',
- role: 'Stole Pelosi Laptop - Planned to Sell to Russia CONVICTED',
+ role: 'Stole Pelosi Laptop; Planned to Sell to Russia CONVICTED',
  riskLevel: 'high',
  description: 'Riley June Williams is the woman who stole a laptop from Nancy Pelosi\'s office during the January 6 attack. According to an ex-boyfriend, she planned to sell it to Russian intelligence through a contact. The laptop has never been recovered.',
  birthDate: '2000',
@@ -3372,7 +3372,7 @@ const profiles: Record<string, IndividualProfile> = {
  'LAPTOP MISSING: Never recovered',
  ],
  charges: [
- { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED - 3 YEARS' },
+ { statute: '18 U.S.C. � 1512', description: 'Obstruction of official proceeding', category: 'CONVICTED: 3 YEARS' },
  { statute: '18 U.S.C. � 641', description: 'Theft of government property', category: 'CONVICTED' },
  { statute: '18 U.S.C. � 1752', description: 'Unlawful entry', category: 'CONVICTED' },
  ],
@@ -4420,8 +4420,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'rj-lehmann': {
  name: 'R.J. Lehmann',
- title: 'Patient advocates who documented hospital chargemaster pricing - $25 aspirin, $700 saline bags',
- role: 'Patient advocates who documented hospital chargemaster pricing - $25 aspirin, $700 saline bags',
+ title: 'Patient advocates who documented hospital chargemaster pricing: $25 aspirin, $700 saline bags',
+ role: 'Patient advocates who documented hospital chargemaster pricing; $25 aspirin, $700 saline bags',
  riskLevel: 'high',
  description: 'R.J. Lehmann. Profile pending review.',
  education: [],
@@ -4438,7 +4438,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Medical Bankruptcy', slug: 'medical-bankruptcy', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Patient advocates who documented hospital chargemaster pricing - $25 aspirin, $700 saline bags' }, ],
+ { date: 'Ongoing', event: 'Active in role as Patient advocates who documented hospital chargemaster pricing; $25 aspirin, $700 saline bags' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: R.J. Lehmann', url: 'https://www.google.com/search?q=RJ%20Lehmann', date: '' }, ],
@@ -4890,8 +4890,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'robert-scherrer': {
  name: 'Robert Scherrer',
- title: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network - his reports were largely ignored',
- role: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network - his reports were largely ignored',
+ title: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network: his reports were largely ignored',
+ role: 'FBI Legal Attaché in Buenos Aires who uncovered details of Operation Condor in 1976 and sent classified cables to Washington warning of the assassination network; his reports were largely ignored',
  riskLevel: 'high',
  description: 'Robert Scherrer. Profile pending review.',
  education: [],
@@ -5032,8 +5032,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'robert-williams': {
  name: 'Robert Williams',
- title: 'First documented wrongful arrest due to facial recognition - a Black man falsely identified by Detroit PD',
- role: 'First documented wrongful arrest due to facial recognition - a Black man falsely identified by Detroit PD',
+ title: 'First documented wrongful arrest due to facial recognition: a Black man falsely identified by Detroit PD',
+ role: 'First documented wrongful arrest due to facial recognition; a Black man falsely identified by Detroit PD',
  riskLevel: 'high',
  description: 'Robert Williams. Profile pending review.',
  education: [],
@@ -5050,7 +5050,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Facial Recognition Surveillance', slug: 'facial-recognition-surveillance', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as First documented wrongful arrest due to facial recognition - a Black man falsely identified by Det' }, ],
+ { date: 'Ongoing', event: 'Active in role as First documented wrongful arrest due to facial recognition; a Black man falsely identified by Det' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Robert Williams', url: 'https://en.wikipedia.org/wiki/Robert_Williams', date: '' }, ],
@@ -5918,7 +5918,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: '19th President of the United States',
  role: 'Political Figure',
  riskLevel: 'medium',
- description: 'Rutherford B. Hayes served as the 19th President of the United States from 1877 to 1881. He appointed Carl Schurz as Secretary of the Interior, who expanded the Indian boarding school system designed to forcibly assimilate Native American children by separating them from their families, cultures, and languages - a policy later recognized as cultural genocide.',
+ description: 'Rutherford B. Hayes served as the 19th President of the United States from 1877 to 1881. He appointed Carl Schurz as Secretary of the Interior, who expanded the Indian boarding school system designed to forcibly assimilate Native American children by separating them from their families, cultures, and languages; a policy later recognized as cultural genocide.',
  birthDate: 'October 4, 1822',
  birthPlace: 'Delaware, Ohio',
  deathDate: 'January 17, 1893',

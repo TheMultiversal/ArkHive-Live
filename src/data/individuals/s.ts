@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'November 27, 1953',
  birthPlace: 'Norfolk, Virginia, USA',
  netWorth: '$48+ million',
- education: ['M.B.A. - Harvard Business School (1985)', 'M.A. National Security Studies - Georgetown University (1983)', 'B.A. Urban Planning - Virginia Tech (1976)', 'U.S. Navy Officer (1976-1983)'],
+ education: ['M.B.A., Harvard Business School (1985)', 'M.A. National Security Studies, Georgetown University (1983)', 'B.A. Urban Planning, Virginia Tech (1976)', 'U.S. Navy Officer (1976-1983)'],
  affiliations: [
  { name: 'White House', role: 'Chief Strategist (Jan-Aug 2017)', type: 'agency' },
  { name: 'Breitbart News', role: 'Executive Chairman (2012-2018)', type: 'corporation' },
@@ -22,22 +22,22 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Goldman Sachs', role: 'Investment Banker (1980s)', type: 'corporation' },
  ],
  controversies: [
- 'WE BUILD THE WALL FRAUD: Defrauded donors of $25 million raised to build border wall - Bannon personally took $1M+ for"expenses"while promising 100% to wall construction',
+ 'WE BUILD THE WALL FRAUD: Defrauded donors of $25 million raised to build border wall; Bannon personally took $1M+ for"expenses"while promising 100% to wall construction',
  'CONTEMPT OF CONGRESS: Refused to comply with January 6 Committee subpoenas, convicted, served 4 months in federal prison (Oct 2024-Jan 2025)',
  'CAMBRIDGE ANALYTICA: Vice President of company that harvested 87 million Facebook users\' data for targeted political manipulation in 2016 election',
- '"FLOOD THE ZONE WITH SHIT": Bannon\'s documented disinformation strategy - overwhelm media with so many scandals/lies that truth becomes impossible to discern',
+ '"FLOOD THE ZONE WITH SHIT": Bannon\'s documented disinformation strategy; overwhelm media with so many scandals/lies that truth becomes impossible to discern',
  'WHITE NATIONALIST TIES: Breitbart under Bannon became platform for alt-right, published"Black Crime"tag, Milo Yiannopoulos articles',
- 'INTERNATIONAL POPULIST NETWORK: The Movement - Bannon\'s effort to coordinate far-right parties across Europe',
+ 'INTERNATIONAL POPULIST NETWORK: The Movement; Bannon\'s effort to coordinate far-right parties across Europe',
  'FIRED FROM WHITE HOUSE: Removed after only 7 months for leaking and power struggles',
  'NEW YORK STATE CHARGES: Separate fraud charges filed after Trump pardon (state crimes not pardonable)',
  'WAR ROOM PODCAST: Daily show spreading election fraud lies and coordinating January 6 planning',
  ],
  charges: [
- { statute: '18 U.S.C. § 1343', description: 'Wire fraud - We Build the Wall (pardoned by Trump)', category: 'Financial Crimes' },
- { statute: '18 U.S.C. § 1956', description: 'Money laundering conspiracy - We Build the Wall (pardoned)', category: 'Financial Crimes' },
- { statute: '2 U.S.C. § 192', description: 'Contempt of Congress - defying January 6 Committee (convicted, served time)', category: 'Obstruction' },
- { statute: 'NY Penal Law § 190.65', description: 'Scheme to defraud - NY state charges (separate from federal)', category: 'Financial Crimes' },
- { statute: 'NY Penal Law § 175.10', description: 'Money laundering - NY state charges', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. § 1343', description: 'Wire fraud; We Build the Wall (pardoned by Trump)', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. § 1956', description: 'Money laundering conspiracy; We Build the Wall (pardoned)', category: 'Financial Crimes' },
+ { statute: '2 U.S.C. § 192', description: 'Contempt of Congress; defying January 6 Committee (convicted, served time)', category: 'Obstruction' },
+ { statute: 'NY Penal Law § 190.65', description: 'Scheme to defraud; NY state charges (separate from federal)', category: 'Financial Crimes' },
+ { statute: 'NY Penal Law § 175.10', description: 'Money laundering; NY state charges', category: 'Financial Crimes' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -355,7 +355,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Freeman v. Giuliani - $148M Verdict', url: 'https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/', date: '2023' },
+ { title: 'Freeman v. Giuliani: $148M Verdict', url: 'https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/', date: '2023' },
  { title: 'January 6 Committee Testimony', url: 'https://www.c-span.org/video/?521234-1/election-worker-shaye-moss-describes-impact-harassment', date: '2022' }, ],
  aliases: [],
  knownAssociates: [
@@ -958,7 +958,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'August 22, 1950',
  birthPlace: 'New Haven, Connecticut, USA',
  netWorth: '$3+ million',
- education: ['J.D. - Columbia Law School (1975)', 'B.A. - Yale University (1972)'],
+ education: ['J.D., Columbia Law School (1975)', 'B.A., Yale University (1972)'],
  affiliations: [
  { name: 'Office of the Vice President', role: 'Chief of Staff (2001-2005)', type: 'agency' },
  { name: 'U.S. Department of Defense', role: 'Deputy Undersecretary for Policy (1989-1993)', type: 'agency' },
@@ -978,10 +978,10 @@ const profiles: Record<string, IndividualProfile> = {
  'OBSTRUCTION PATTERN: Lied repeatedly to FBI and grand jury to protect superiors',
  ],
  charges: [
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice - Impeding Plame investigation (CONVICTED)', category: 'Obstruction' },
- { statute: '18 U.S.C. § 1623', description: 'Perjury - False testimony to grand jury (CONVICTED, 2 counts)', category: 'Federal' },
- { statute: '18 U.S.C. § 1001', description: 'False Statements - Lying to FBI (CONVICTED)', category: 'Federal' },
- { statute: '50 U.S.C. § 421 (IIPA)', description: 'Intelligence Identities Protection Act - Plame leak (not charged)', category: 'National Security' },
+ { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice; Impeding Plame investigation (CONVICTED)', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 1623', description: 'Perjury; False testimony to grand jury (CONVICTED, 2 counts)', category: 'Federal' },
+ { statute: '18 U.S.C. § 1001', description: 'False Statements; Lying to FBI (CONVICTED)', category: 'Federal' },
+ { statute: '50 U.S.C. § 421 (IIPA)', description: 'Intelligence Identities Protection Act; Plame leak (not charged)', category: 'National Security' },
  ],
  relatedInvestigations: [
  { title: 'Valerie Plame Leak', slug: 'plame-leak', severity: 'critical' },
@@ -1012,12 +1012,12 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'United States v. Libby - Indictment', url: 'https://www.justice.gov/archive/osc/documents/libby_indictment_28102005.pdf', date: '2005' },
- { title: 'United States v. Libby - Verdict', url: 'https://www.justice.gov/archive/osc/', date: '2007' },
+ { title: 'United States v. Libby: Indictment', url: 'https://www.justice.gov/archive/osc/documents/libby_indictment_28102005.pdf', date: '2005' },
+ { title: 'United States v. Libby: Verdict', url: 'https://www.justice.gov/archive/osc/', date: '2007' },
  { title: 'Special Counsel Fitzgerald Closing Argument', url: 'https://scholar.google.com/scholar?q=Special%20Counsel%20Fitzgerald%20Closing%20Argument', date: '2007' },
  { title: 'Bush Commutation Statement', url: 'https://georgewbush-whitehouse.archives.gov/news/releases/2007/07/20070702-3.html', date: '2007' },
  { title: 'Trump Pardon Statement', url: 'https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/', date: '2018' },
- { title: 'The Trial of Scooter Libby - Court Records', url: 'https://www.courtlistener.com/', date: '2007' },
+ { title: 'The Trial of Scooter Libby: Court Records', url: 'https://www.courtlistener.com/', date: '2007' },
  ],
  aliases: ['Scooter', 'The Fall Guy'],
  knownAssociates: [
@@ -1061,7 +1061,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: '1964',
  birthPlace: 'China',
  netWorth: 'Undisclosed',
- education: ['Ph.D. in Virology - Montpellier University, France (2000)', 'University of Wuhan, China'],
+ education: ['Ph.D. in Virology, Montpellier University, France (2000)', 'University of Wuhan, China'],
  affiliations: [
  { name: 'Wuhan Institute of Virology', role: 'Director, Center for Emerging Infectious Diseases', type: 'organization' },
  { name: 'Chinese Academy of Sciences', role: 'Research Professor', type: 'agency' },
@@ -1083,9 +1083,9 @@ const profiles: Record<string, IndividualProfile> = {
  'CHINESE GOVERNMENT CONTROL: Research subject to Chinese government restrictions and censorship',
  ],
  charges: [
- { statute: 'Rome Statute Article 7', description: 'Potential Crimes Against Humanity - If lab leak proven with negligence', category: 'International Criminal Court' },
+ { statute: 'Rome Statute Article 7', description: 'Potential Crimes Against Humanity; If lab leak proven with negligence', category: 'International Criminal Court' },
  { statute: 'Biological Weapons Convention', description: 'Dual-Use Research Concerns', category: 'International' },
- { statute: 'WHO International Health Regulations', description: 'Transparency Violations - Database removal, access restrictions', category: 'International' },
+ { statute: 'WHO International Health Regulations', description: 'Transparency Violations; Database removal, access restrictions', category: 'International' },
  { statute: 'Chinese Criminal Law', description: 'Potential negligence if lab leak proven', category: 'China' },
  ],
  relatedInvestigations: [
@@ -1117,7 +1117,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: '2015 Nature Medicine Paper (with Baric)', url: 'https://www.nature.com/articles/nm.3985', date: '2015' },
- { title: '2020 Nature Paper - SARS-CoV-2 Genome', url: 'https://www.nature.com/articles/s41586-020-2012-7', date: '2020' },
+ { title: '2020 Nature Paper: SARS-CoV-2 Genome', url: 'https://www.nature.com/articles/s41586-020-2012-7', date: '2020' },
  { title: 'WHO COVID-19 Origins Report', url: 'https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part', date: '2021' },
  { title: 'Science Interview with Shi Zhengli', url: 'https://www.science.org/content/article/wuhan-scientists-scientific-american-article-bat-woman', date: '2020' },
  { title: 'House Select Subcommittee Investigation', url: 'https://oversight.house.gov/', date: '2023-2024' },
@@ -1184,7 +1184,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'EU Sanctions List - Sergei Shoigu', url: 'https://www.consilium.europa.eu/en/policies/sanctions/', date: '2022-02-25' },
+ { title: 'EU Sanctions List: Sergei Shoigu', url: 'https://www.consilium.europa.eu/en/policies/sanctions/', date: '2022-02-25' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1202,7 +1202,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'August 3, 1918',
  birthPlace: 'Bronx, New York',
  deathDate: 'March 7, 1999',
- education: ['City College of New York', 'University of Wisconsin - Ph.D. Chemistry'],
+ education: ['City College of New York', 'University of Wisconsin, Ph.D. Chemistry'],
  affiliations: [
  { name: 'Central Intelligence Agency', role: 'Technical Services Staff Chief', type: 'agency' },
  ],
@@ -1215,8 +1215,8 @@ const profiles: Record<string, IndividualProfile> = {
  'EVIDENCE DESTRUCTION: In 1973, ordered destruction of all MKUltra files to prevent accountability. Most were shredded, but 20,000 documents survived in misfiled financial records.',
  ],
  charges: [
- { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity - Torture: Systematic torture through drug experiments and psychological abuse', category: 'International Crime' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity - Human Experimentation: Non-consensual experimentation causing death and permanent injury', category: 'International Crime' },
+ { statute: 'Rome Statute Article 7(1)(f)', description: 'Crimes Against Humanity; Torture: Systematic torture through drug experiments and psychological abuse', category: 'International Crime' },
+ { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity; Human Experimentation: Non-consensual experimentation causing death and permanent injury', category: 'International Crime' },
  { statute: '18 U.S.C. § 1111', description: 'Murder: Death of Frank Olson and other experiment subjects', category: 'Violent Crime' },
  { statute: '18 U.S.C. § 1112', description: 'Manslaughter: Deaths from reckless human experimentation', category: 'Violent Crime' },
  { statute: '18 U.S.C. § 1519', description: 'Destruction of Records: Ordered destruction of MKUltra files', category: 'Obstruction' },
@@ -1233,7 +1233,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '1954-1966', event: 'Operates brothels for Operation Midnight Climax' },
  { date: '1973', event: 'Orders destruction of most MKUltra records' },
  { date: '1977', event: 'MKUltra exposed in Senate hearings' },
- { date: 'March 7, 1999', event: 'Dies in Washington, Virginia - never prosecuted' },
+ { date: 'March 7, 1999', event: 'Dies in Washington, Virginia; never prosecuted' },
  ],
  socialMedia: [],
  sources: [
@@ -1349,8 +1349,8 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2024-11-20', event: 'DOJ proposes breaking up Google by forcing Chrome sale' },
  ],
  sources: [
- { title: 'DOJ v. Google - Antitrust Ruling', url: 'https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc-2020', date: '2024-08-05' },
- { title: 'European Commission - Google Antitrust Decisions', url: 'https://competition-policy.ec.europa.eu/antitrust/cases/', date: '2023-09-10' },
+ { title: 'DOJ v. Google: Antitrust Ruling', url: 'https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc-2020', date: '2024-08-05' },
+ { title: 'European Commission: Google Antitrust Decisions', url: 'https://competition-policy.ec.europa.eu/antitrust/cases/', date: '2023-09-10' },
  ],
  },
  'sergey-brin': {
@@ -2245,7 +2245,7 @@ const profiles: Record<string, IndividualProfile> = {
  'salvador-ramos': {
  name: 'Salvador Ramos',
  title: 'Mass Murderer (Deceased)',
- role: 'Uvalde School Shooter - Killed 21',
+ role: 'Uvalde School Shooter; Killed 21',
  riskLevel: 'critical',
  description: 'Salvador Ramos murdered 19 children and 2 teachers at Robb Elementary School in Uvalde, Texas in 2022. He was 18 and had legally purchased AR-15 style rifles days earlier. Police waited over an hour before confronting him while children called 911 from inside. He was killed by Border Patrol.',
  birthDate: 'May 16, 2004',
@@ -3950,7 +3950,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Owners of Purdue Pharma',
  role: 'Corporate Executive',
  riskLevel: 'critical',
- description: 'The Sackler family owned Purdue Pharma, the manufacturer of OxyContin, and profited billions of dollars from the opioid crisis while suppressing evidence of the drug\'s addictiveness. Multiple family members - including Richard Sackler, Mortimer Sackler, and Kathe Sackler - directed aggressive marketing strategies that fueled an epidemic killing hundreds of thousands of Americans. Despite their role in one of the deadliest drug crises in history, family members used bankruptcy proceedings to shield billions in personal wealth from lawsuits.',
+ description: 'The Sackler family owned Purdue Pharma, the manufacturer of OxyContin, and profited billions of dollars from the opioid crisis while suppressing evidence of the drug\'s addictiveness. Multiple family members; including Richard Sackler, Mortimer Sackler, and Kathe Sackler; directed aggressive marketing strategies that fueled an epidemic killing hundreds of thousands of Americans. Despite their role in one of the deadliest drug crises in history, family members used bankruptcy proceedings to shield billions in personal wealth from lawsuits.',
  education: [],
  affiliations: [
  { name: 'Purdue Pharma', role: 'Owners and Board Members', type: 'corporation' },
@@ -4156,16 +4156,16 @@ const profiles: Record<string, IndividualProfile> = {
  title: 'Environmental Attorney',
  role: 'Led Ecuador Pollution Case Against Chevron',
  riskLevel: 'high',
- description: 'American environmental attorney who spent decades fighting Chevron (formerly Texaco) over massive oil contamination in the Ecuadorian Amazon that affected 30,000+ indigenous people. Won a historic $9.5 billion judgment in 2011, then became the target of an unprecedented corporate retaliation campaign. Chevron used a RICO countersuit to invalidate the judgment, and Donziger was disbarred, placed under house arrest for 993 days, and sentenced to 6 months in prison for criminal contempt - prosecuted by a private attorney appointed after DOJ declined. His case is widely seen as the most extreme example of corporate capture of the legal system.',
+ description: 'American environmental attorney who spent decades fighting Chevron (formerly Texaco) over massive oil contamination in the Ecuadorian Amazon that affected 30,000+ indigenous people. Won a historic $9.5 billion judgment in 2011, then became the target of an unprecedented corporate retaliation campaign. Chevron used a RICO countersuit to invalidate the judgment, and Donziger was disbarred, placed under house arrest for 993 days, and sentenced to 6 months in prison for criminal contempt; prosecuted by a private attorney appointed after DOJ declined. His case is widely seen as the most extreme example of corporate capture of the legal system.',
  birthDate: 'Unknown',
- education: ['Harvard Law School - Juris Doctor'],
+ education: ['Harvard Law School, Juris Doctor'],
  affiliations: [
  { name: 'Chevron', role: 'Legal adversary', type: 'corporation' },
  { name: 'United Nations', role: 'Human Rights Council recognized his detention', type: 'organization' },
  ],
  controversies: [
  'UNPRECEDENTED CORPORATE RETALIATION: After winning $9.5B judgment against Chevron, became target of massive legal counterattack funded by Chevron spending $2B+ on 2,000+ lawyers',
- 'DISBARRED AND IMPRISONED: Charged with criminal contempt by private law firm hired by Chevron-linked judge - DOJ had twice declined to bring charges',
+ 'DISBARRED AND IMPRISONED: Charged with criminal contempt by private law firm hired by Chevron-linked judge; DOJ had twice declined to bring charges',
  'UN CALLED FOR RELEASE: UN Working Group on Arbitrary Detention found his detention arbitrary and called for his release and compensation',
  'CHEVRON RICO CASE: Judge Kaplan (who had Chevron investments) ruled Ecuador judgment fraudulent based on recanted testimony',
  '993 DAYS DETENTION: Longest contempt detention in US history for the charges while Chevron avoided paying for Amazon cleanup',
@@ -4179,7 +4179,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2011', event: 'Ecuadorian court issued $9.5 billion judgment against Chevron for Amazon contamination' },
  { date: '2014', event: 'Judge Kaplan ruled Ecuador judgment obtained through fraud via RICO' },
  { date: '2019', event: 'Charged with criminal contempt after refusing to turn over devices to Chevron' },
- { date: '2020', event: 'Placed under house arrest - restrictions lasted 993 total days' },
+ { date: '2020', event: 'Placed under house arrest; restrictions lasted 993 total days' },
  { date: '2021', event: 'Disbarred and convicted of criminal contempt, sentenced to 6 months' },
  { date: '2022', event: 'UN Working Group called for release; released from prison, continues advocacy' },
  ],

@@ -348,10 +348,10 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Media', 'Sexual Harassment', 'MeToo', 'Fox News', 'CBS', 'NBC', 'Abuse of Power'],
  sources: [
- { title: 'Carlson v. Ailes - Fox News Settlement', url: 'https://www.nytimes.com/2016/09/07/business/media/fox-news-roger-ailes-gretchen-carlson-lawsuit-settled.html', type: 'News Report' },
+ { title: 'Carlson v. Ailes: Fox News Settlement', url: 'https://www.nytimes.com/2016/09/07/business/media/fox-news-roger-ailes-gretchen-carlson-lawsuit-settled.html', type: 'News Report' },
  { title: 'CBS Investigation into Les Moonves', url: 'https://www.nytimes.com/2018/12/17/business/media/cbs-les-moonves-sexual-misconduct.html', type: 'Investigation' },
- { title: 'Ronan Farrow - Catch and Kill', url: 'https://www.newyorker.com/news/news-desk/the-case-of-al-franken', type: 'Book/Investigation' },
- { title: 'Washington Post - Charlie Rose Allegations', url: 'https://www.washingtonpost.com/investigations/eight-women-say-charlie-rose-sexually-harassed-them/2017/11/20/9b168de8-cca7-11e7-8321-481fd63f174d_story.html', type: 'Investigation' },
+ { title: 'Ronan Farrow: Catch and Kill', url: 'https://www.newyorker.com/news/news-desk/the-case-of-al-franken', type: 'Book/Investigation' },
+ { title: 'Washington Post: Charlie Rose Allegations', url: 'https://www.washingtonpost.com/investigations/eight-women-say-charlie-rose-sexually-harassed-them/2017/11/20/9b168de8-cca7-11e7-8321-481fd63f174d_story.html', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Institutionalized harassment culture under Ailes', href: '/entities/corporations/fox-news' },
@@ -399,9 +399,9 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Medical Ethics', 'Tuskegee', 'MKUltra', 'Experimentation', 'Public Health', 'Pharmaceutical Industry'],
  sources: [
- { title: 'CDC - The Tuskegee Study Timeline', url: 'https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Report' },
+ { title: 'CDC: The Tuskegee Study Timeline', url: 'https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Report' },
  { title: 'Senate Select Committee on MKUltra', url: 'https://www.intelligence.senate.gov/sites/default/files/hearings/95mkultra.pdf', type: 'Congressional Record' },
- { title: 'Guatemala Syphilis Experiments - Presidential Commission Report', url: 'https://bioethicsarchive.georgetown.edu/pcsbi/node/654.html', type: 'Government Report' },
+ { title: 'Guatemala Syphilis Experiments: Presidential Commission Report', url: 'https://bioethicsarchive.georgetown.edu/pcsbi/node/654.html', type: 'Government Report' },
  { title: 'Advisory Committee on Human Radiation Experiments Final Report', url: 'https://bioethicsarchive.georgetown.edu/achre/final/chap1_2.html', type: 'Government Report' },
  { title: 'Dawn Wooten ICE Whistleblower Complaint', url: 'https://projectsouth.org/wp-content/uploads/2020/09/OIG-ICDC-Complaint-1.pdf', type: 'Whistleblower Report' },
  ],
@@ -478,7 +478,7 @@ const investigations_m: Record<string, InvestigationData> = {
  { title: 'DOJ Investigation of the Ferguson Police Department', url: 'https://www.justice.gov/sites/default/files/opa/press-releases/attachments/2015/03/04/ferguson_police_department_report.pdf', type: 'Government Report' },
  { title: 'DOJ Report on Michael Brown Shooting', url: 'https://www.justice.gov/sites/default/files/opa/press-releases/attachments/2015/03/04/doj_report_on_shooting_of_michael_brown_1.pdf', type: 'Government Report' },
  { title: 'Ferguson Consent Decree', url: 'https://www.justice.gov/crt/case/united-states-v-city-ferguson', type: 'Court Filing' },
- { title: 'Ferguson Commission Report - Forward Through Ferguson', url: 'https://forwardthroughferguson.org/report/', type: 'Independent Report' },
+ { title: 'Ferguson Commission Report: Forward Through Ferguson', url: 'https://forwardthroughferguson.org/report/', type: 'Independent Report' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ Civil Rights Division', type: 'agency', relationship: 'Found systemic racial bias in Ferguson PD', href: '/entities/agencies/doj-civil-rights' },
@@ -665,7 +665,7 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Music Industry', 'Exploitation', 'R. Kelly', 'Diddy', 'Sexual Abuse', 'Labor Rights', 'Streaming'],
  sources: [
- { title: 'United States v. Robert Sylvester Kelly - Conviction', url: 'https://www.justice.gov/usao-edny/pr/r-singer-r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Court Filing' },
+ { title: 'United States v. Robert Sylvester Kelly: Conviction', url: 'https://www.justice.gov/usao-edny/pr/r-singer-r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Court Filing' },
  { title: 'Combs Federal Indictment', url: 'https://www.justice.gov/usao-sdny/pr/sean-combs-charged-sex-trafficking', type: 'Court Filing' },
  { title: 'FTC Report on Concert Ticket Industry', url: 'https://www.ftc.gov/reports/ticket-sales-event-ticketing-industry', type: 'Government Report' },
  { title: 'Surviving R. Kelly Documentary', url: 'https://www.nytimes.com/2019/01/03/arts/television/surviving-r-kelly.html', type: 'Investigation' },
@@ -764,7 +764,7 @@ const investigations_m: Record<string, InvestigationData> = {
     lastUpdated: 'January 8, 2026',
     summary: 'While MKUltra was officially terminated in 1973, declassified documents, whistleblower testimony, and FOIA releases reveal that research into behavioral influence, psychological manipulation, and neuroweapons continued under different program names and through different institutional channels. This investigation tracks the evolution of mind control research from Cold War-era chemical and psychological experimentation into modern programs involving directed energy weapons, electromagnetic research, pharmaceutical behavioral modification, computational propaganda, and DARPA-funded neuroscience research. The institutional infrastructure that enabled MKUltra was never dismantled; it was reorganized, reclassified, and distributed across military, intelligence, and private sector programs that continue to operate with minimal congressional oversight.',
     content: [
-      'THE MKULTRA LEGACY: When CIA Director Richard Helms ordered the destruction of MKUltra files in 1973, an unknown number of subprojects were simply transferred to other programs or continued under different names. The Church Committee discovered that the CIA had conducted 149 documented subprojects involving drugs, hypnosis, sensory deprivation, isolation, verbal and sexual abuse, and various forms of torture. Only a fraction of the records survived Helms\\\' destruction order - 20,000 pages were found in financial records that had been misfiled. The full scope of MKUltra and its successor programs remains unknown.',
+      'THE MKULTRA LEGACY: When CIA Director Richard Helms ordered the destruction of MKUltra files in 1973, an unknown number of subprojects were simply transferred to other programs or continued under different names. The Church Committee discovered that the CIA had conducted 149 documented subprojects involving drugs, hypnosis, sensory deprivation, isolation, verbal and sexual abuse, and various forms of torture. Only a fraction of the records survived Helms\\\' destruction order; 20,000 pages were found in financial records that had been misfiled. The full scope of MKUltra and its successor programs remains unknown.',
       'OPERATION ARTICHOKE AND BLUEBIRD: Before MKUltra, the CIA ran Projects ARTICHOKE (1951) and BLUEBIRD (1950), which sought to develop interrogation techniques using drugs, hypnosis, and psychological manipulation. These programs established the institutional base for decades of behavioral research. Many researchers and techniques from these programs transitioned directly into MKUltra and then into later classified programs.',
       'FRANK OLSON AND THE COVERUP: Army biochemist Frank Olson was secretly dosed with LSD by Sidney Gottlieb in 1953 and died days later after falling from a 13th-floor hotel window. The CIA ruled it a suicide, but a 1994 exhumation revealed blunt force trauma to Olson\\\'s head inconsistent with a fall. His family spent decades fighting for the truth. The Olson case exemplifies how the intelligence community conceals the consequences of its behavioral research programs.',
       'DR. DONALD EWEN CAMERON: CIA-funded psychiatrist Donald Ewen Cameron conducted horrific experiments at McGill University\\\'s Allan Memorial Institute from 1957-1964, using extreme electroshock, drug-induced comas lasting months, sensory deprivation, and recorded message loops played continuously to patients. His "psychic driving" experiments destroyed patients\\\' memories and personalities. Canada later compensated some victims, but the CIA escaped accountability. Cameron\\\'s techniques influenced interrogation programs that continued for decades.',
@@ -784,15 +784,15 @@ const investigations_m: Record<string, InvestigationData> = {
     tags: ['MKUltra', 'CIA', 'Mind Control', 'Behavioral Research', 'Directed Energy Weapons', 'DARPA', 'Neuroweapons', 'Intelligence', 'Psychological Operations', 'Covert Programs'],
     sources: [
       { title: 'Church Committee Report: Project MKULTRA', url: 'https://www.intelligence.senate.gov/sites/default/files/94mkultra.pdf', type: 'Congressional Report' },
-      { title: 'CIA FOIA Reading Room - MKULTRA Documents', url: 'https://www.cia.gov/readingroom/collection/mkultra', type: 'Government Record' },
+      { title: 'CIA FOIA Reading Room: MKULTRA Documents', url: 'https://www.cia.gov/readingroom/collection/mkultra', type: 'Government Record' },
       { title: 'National Academies: Assessment of Havana Syndrome', url: 'https://nap.nationalacademies.org/catalog/25889/an-assessment-of-illness-in-us-government-employees-and-their-families-at-overseas-embassies', type: 'Scientific Report' },
       { title: 'DARPA Neuroscience Programs Overview', url: 'https://www.darpa.mil/our-research', type: 'Government Record' },
-      { title: 'Alfred McCoy - A Question of Torture: CIA Interrogation', url: 'https://www.amazon.com/Question-Torture-Interrogation-Cold-Terror/dp/0805082484', type: 'Book' },
+      { title: 'Alfred McCoy: A Question of Torture: CIA Interrogation', url: 'https://www.amazon.com/Question-Torture-Interrogation-Cold-Terror/dp/0805082484', type: 'Book' },
       { title: 'Senate Intelligence Committee Torture Report (Executive Summary)', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', type: 'Congressional Report' },
       { title: 'Project Pandora Declassified Documents', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
       { title: 'The Guardian: US Military Social Media Manipulation', url: 'https://www.theguardian.com/world/2014/jul/08/darpa-social-networks-research-twitter-riots-response', type: 'Investigative Report' },
       { title: 'Frank Olson Project Documentation', url: 'https://frankolsonproject.org', type: 'Investigative Report' },
-      { title: 'National Security Archive - CIA Behavioral Programs', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
+      { title: 'National Security Archive: CIA Behavioral Programs', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
     ],
     affiliations: [
       { id: '1', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Operated MKUltra, funded successor behavioral research programs, controls classification of related documents', href: '/entities/agencies/cia' },
@@ -1080,7 +1080,7 @@ const investigations_m: Record<string, InvestigationData> = {
     content: [
       "ANTI-VACCINE MOVEMENT: Vaccine hesitancy, fueled by debunked claims, led to measles outbreaks and millions refusing COVID vaccination.",
       "SOCIAL MEDIA AMPLIFICATION: Health misinformation gets 6x more engagement than accurate health information on social media.",
-      "POLITICIZATION: Medical decisions became partisan - masks, vaccines, and treatments became identity politics rather than science.",
+      "POLITICIZATION: Medical decisions became partisan; masks, vaccines, and treatments became identity politics rather than science.",
     ],
     tags: ["Medical Misinformation","Anti-Vaccine","Public Health","Social Media","COVID-19"],
     sources: [
@@ -1097,7 +1097,7 @@ const investigations_m: Record<string, InvestigationData> = {
     lastUpdated: "March 10, 2026",
     summary: "The United States experiences more mass shootings than any other developed nation. From Columbine to Uvalde, the pattern repeats: tragedy, grief, political stalemate, inaction. Gun violence kills over 45,000 Americans annually.",
     content: [
-      "SCALE OF CRISIS: The U.S. has had over 2,000 mass shootings since Sandy Hook (2012). Gun violence kills over 45,000 Americans per year - more than car accidents.",
+      "SCALE OF CRISIS: The U.S. has had over 2,000 mass shootings since Sandy Hook (2012). Gun violence kills over 45,000 Americans per year; more than car accidents.",
       "LEGISLATIVE FAILURE: Despite overwhelming public support for background checks and assault weapon restrictions, Congress has repeatedly failed to pass meaningful gun legislation.",
       "NRA INFLUENCE: The National Rifle Association spent over $250 million on political activities between 2000-2020, blocking gun safety legislation at federal and state levels.",
       "UNIQUELY AMERICAN: No other developed nation experiences mass shootings at anywhere near the American rate. Countries that enacted gun control after mass shootings saw dramatic reductions in gun deaths.",

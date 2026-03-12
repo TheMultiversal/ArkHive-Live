@@ -3,10 +3,10 @@ import type { ReactNode } from"react";
 
 export const metadata: Metadata = {
  title:"Profile",
- description:"Your ArkHive profile - manage your account, preferences, and security settings.",
+ description:"Your ArkHive profile; manage your account, preferences, and security settings.",
  openGraph: {
  title:"Profile | ArkHive",
- description:"Your ArkHive profile - manage your account, preferences, and security settings.",
+ description:"Your ArkHive profile; manage your account, preferences, and security settings.",
  },
 };
 

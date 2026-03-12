@@ -74,7 +74,7 @@ const investigation = {
  ],
  sources: [
  { title: 'The Jakarta Method: Washington\'s Anticommunist Crusade, Vincent Bevins', url: 'https://www.vincentbevins.com/book', date: '2020' },
- { title: 'Declassified US Embassy Cables on Indonesia 1965 - National Security Archive', url: 'https://nsarchive.gwu.edu/briefing-book/indonesia/2017-10-17/indonesia-mass-murder-1965-us-embassy-files', date: '2017-10-17' },
+ { title: 'Declassified US Embassy Cables on Indonesia 1965: National Security Archive', url: 'https://nsarchive.gwu.edu/briefing-book/indonesia/2017-10-17/indonesia-mass-murder-1965-us-embassy-files', date: '2017-10-17' },
  { title: 'The Act of Killing, Documentary by Joshua Oppenheimer', url: 'https://theactofkilling.com/', date: '2012' },
  { title: 'The Army and the Indonesian Genocide: Mechanics of Mass Murder, Jess Melvin', url: 'https://www.routledge.com/The-Army-and-the-Indonesian-Genocide/Melvin/p/book/9781138574427', date: '2018' },
  { title: 'Lists of Death: CIA and Indonesian Army Kill Lists, Kathy Kadane (States News Service)', url: 'https://nsarchive.gwu.edu/briefing-book/indonesia/2017-10-17/indonesia-mass-murder-1965', date: '1990' },

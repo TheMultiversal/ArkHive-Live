@@ -55,7 +55,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'TRUMP SOHO: The Trump SoHo project involved Felix Sater, a convicted felon with Russian organized crime ties. The project attracted suspicious investments and eventually collapsed in scandal and litigation.',
  'FELIX SATER: Sater, a convicted stock fraudster who cooperated as an FBI informant, had an office in Trump Tower and business cards calling him a "Senior Advisor to Donald Trump."Trump later claimed not to know him well.',
  'BAYROCK GROUP: Sater\'s company Bayrock, based in Trump Tower, partnered with Trump on multiple deals. The company was later exposed as having connections to alleged money launderers and organized crime figures.',
- 'PALM BEACH MANSION: In 2008, Russian oligarch Dmitry Rybolovlev bought Trump\'s Palm Beach mansion for $95 million - $54 million more than Trump paid four years earlier, during a real estate crash. The transaction made no economic sense.',
+ 'PALM BEACH MANSION: In 2008, Russian oligarch Dmitry Rybolovlev bought Trump\'s Palm Beach mansion for $95 million; $54 million more than Trump paid four years earlier, during a real estate crash. The transaction made no economic sense.',
  'RYBOLOVLEV MYSTERY: Rybolovlev\'s plane was spotted near Trump\'s plane during the 2016 campaign in multiple cities. Rybolovlev has denied any relationship with Trump beyond the real estate purchase.',
  'TRUMP TOWER MOSCOW: Throughout the 2016 campaign, Trump Organization pursued a Trump Tower Moscow deal involving Russian financing. Trump denied business dealings with Russia while his company actively sought them.',
  'DEUTSCHE BANK: After other banks refused to lend to Trump due to defaults, Deutsche Bank provided hundreds of millions in loans. Deutsche Bank has faced massive fines for laundering Russian money through its systems.',
@@ -224,7 +224,7 @@ const investigations_r: Record<string, InvestigationData> = {
  tags: ['Dark Money', 'Koch Network', 'Leonard Leo', 'Citizens United', 'Donors Trust', 'Political Corruption', 'Campaign Finance'],
  sources: [
  { title: 'OpenSecrets, Dark Money Database', url: 'https://www.opensecrets.org/dark-money', type: 'Database' },
- { title: 'NYT - $1.6 Billion Leo Donation', url: 'https://www.nytimes.com/2022/08/22/us/politics/republican-dark-money.html', type: 'Investigation' },
+ { title: 'NYT: $1.6 Billion Leo Donation', url: 'https://www.nytimes.com/2022/08/22/us/politics/republican-dark-money.html', type: 'Investigation' },
  { title: 'Donors Trust Tax Filings', url: 'https://www.donorstrust.org/', type: 'Tax Records' },
  { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
  ],
@@ -383,8 +383,8 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Russia', '2016 Election', 'Hacking', 'Disinformation', 'GRU', 'Mueller Investigation', 'IRA', 'Cyber Warfare', 'Foreign Interference', 'WikiLeaks'],
  sources: [
- { title: 'Mueller Report - Report on the Investigation into Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Government' },
- { title: 'Senate Intelligence Committee Volume 5 - Counterintelligence Threats', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
+ { title: 'Mueller Report: Report on the Investigation into Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Government' },
+ { title: 'Senate Intelligence Committee Volume 5: Counterintelligence Threats', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
  { title: 'DOJ Indictment of 12 GRU Officers', url: 'https://www.justice.gov/file/1080281/dl', type: 'Legal' },
  { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/file/1035477/dl', type: 'Legal' },
  ],
@@ -421,8 +421,8 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Sex Trafficking', 'Child Sexual Exploitation', 'Racketeering', 'Music Industry', 'Abuse', 'R. Kelly', 'RICO', 'Surviving R. Kelly'],
  sources: [
- { title: 'DOJ Press Release - R. Kelly Convicted of Racketeering and Sex Trafficking', url: 'https://www.justice.gov/usao-edny/pr/r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Government' },
- { title: 'Jim DeRogatis - Soulless: The Case Against R. Kelly', url: 'https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-holding-women-in-a-cult', type: 'News' },
+ { title: 'DOJ Press Release: R. Kelly Convicted of Racketeering and Sex Trafficking', url: 'https://www.justice.gov/usao-edny/pr/r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Government' },
+ { title: 'Jim DeRogatis: Soulless: The Case Against R. Kelly', url: 'https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-holding-women-in-a-cult', type: 'News' },
  { title: 'Eastern District of New York Indictment', url: 'https://www.justice.gov/usao-edny/press-release/file/1187041/dl', type: 'Legal' },
  ],
  affiliations: [

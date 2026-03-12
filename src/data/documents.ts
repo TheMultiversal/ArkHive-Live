@@ -260,7 +260,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "17",
-    "title": "Amazon Labor Union Victory at JFK8 - NLRB Certification",
+    "title": "Amazon Labor Union Victory at JFK8: NLRB Certification",
     "description": "Source document from the Amazon Labor Abuses investigation.",
     "type": "pdf",
     "classification": "public",
@@ -440,7 +440,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "29",
-    "title": "Bush v. Gore, 531 U.S. 98 (2000) - Supreme Court Decision",
+    "title": "Bush v. Gore, 531 U.S. 98 (2000): Supreme Court Decision",
     "description": "Source document from the Bush V Gore investigation.",
     "type": "pdf",
     "classification": "public",
@@ -515,7 +515,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "34",
-    "title": "NPR: The Brooks Brothers Riot - 20 Years Later",
+    "title": "NPR: The Brooks Brothers Riot; 20 Years Later",
     "description": "Source document from the Bush V Gore investigation.",
     "type": "pdf",
     "classification": "public",
@@ -2090,7 +2090,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "139",
-    "title": "Foreign Relations of the United States (FRUS) - Iran, 1951-1954 (Official State Department History)",
+    "title": "Foreign Relations of the United States (FRUS): Iran, 1951-1954 (Official State Department History)",
     "description": "Source document from the Iran Coup investigation.",
     "type": "pdf",
     "classification": "public",
@@ -2255,7 +2255,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "150",
-    "title": "Korematsu v. United States, 323 U.S. 214 (1944) - Supreme Court Opinion",
+    "title": "Korematsu v. United States, 323 U.S. 214 (1944): Supreme Court Opinion",
     "description": "Source document from the Japanese Internment investigation.",
     "type": "pdf",
     "classification": "public",
@@ -2300,7 +2300,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "153",
-    "title": "Civil Liberties Act of 1988 - Full Text (Public Law 100-383)",
+    "title": "Civil Liberties Act of 1988: Full Text (Public Law 100-383)",
     "description": "Source document from the Japanese Internment investigation.",
     "type": "pdf",
     "classification": "public",
@@ -2540,7 +2540,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "169",
-    "title": "Brown v. Plata, 563 U.S. 493 (2011) - Prison Overcrowding",
+    "title": "Brown v. Plata, 563 U.S. 493 (2011): Prison Overcrowding",
     "description": "Source document from the Mass Incarceration investigation.",
     "type": "pdf",
     "classification": "public",
@@ -2945,7 +2945,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "196",
-    "title": "NSA Files Decoded \ - The Guardian",
+    "title": "NSA Files Decoded \: The Guardian",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -2960,7 +2960,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "197",
-    "title": "NSA Prism Program Slides \ - The Guardian",
+    "title": "NSA Prism Program Slides \: The Guardian",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -2975,7 +2975,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "198",
-    "title": "ACLU v. Clapper \ - Second Circuit Opinion",
+    "title": "ACLU v. Clapper \: Second Circuit Opinion",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3005,7 +3005,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "200",
-    "title": "USA FREEDOM Act \ - Congress.gov",
+    "title": "USA FREEDOM Act \: Congress.gov",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3020,7 +3020,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "201",
-    "title": "NSA Collected Americans\\u2019 Phone Records in Bulk \ - Washington Post",
+    "title": "NSA Collected Americans\\u2019 Phone Records in Bulk \: Washington Post",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3035,7 +3035,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "202",
-    "title": "Clapper Senate Testimony \ - C-SPAN Video",
+    "title": "Clapper Senate Testimony \: C-SPAN Video",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3050,7 +3050,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "203",
-    "title": "United States v. Moalin \ - Ninth Circuit Opinion",
+    "title": "United States v. Moalin \: Ninth Circuit Opinion",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3065,7 +3065,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "204",
-    "title": "XKeyscore Presentation \ - Full Document (The Guardian)",
+    "title": "XKeyscore Presentation \: Full Document (The Guardian)",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3290,7 +3290,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "219",
-    "title": "Operation Condor Trial (Argentina) - Final Judgment",
+    "title": "Operation Condor Trial (Argentina): Final Judgment",
     "description": "Source document from the Operation Condor investigation.",
     "type": "pdf",
     "classification": "public",
@@ -3695,7 +3695,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "246",
-    "title": "DLA Disposition Services - 1033 Program FAQ and Data",
+    "title": "DLA Disposition Services: 1033 Program FAQ and Data",
     "description": "Source document from the Police Militarization investigation.",
     "type": "pdf",
     "classification": "public",
@@ -4415,7 +4415,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "294",
-    "title": "Tulsa Historical Society - 1921 Tulsa Race Massacre Collection",
+    "title": "Tulsa Historical Society: 1921 Tulsa Race Massacre Collection",
     "description": "Source document from the Tulsa Race Massacre investigation.",
     "type": "pdf",
     "classification": "public",
@@ -4910,7 +4910,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "327",
-    "title": "Dominion v. Fox News - $787.5M Settlement",
+    "title": "Dominion v. Fox News: $787.5M Settlement",
     "description": "Source document from the Defamation investigation.",
     "type": "archive",
     "classification": "public",
@@ -5555,7 +5555,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "370",
-    "title": "The Intercept \ - The Kissinger Cables (WikiLeaks/Intercept Analysis)",
+    "title": "The Intercept \: The Kissinger Cables (WikiLeaks/Intercept Analysis)",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",
@@ -5570,7 +5570,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "371",
-    "title": "Rolling Stone \ - Henry Kissinger, War Criminal Beloved by America\\u2019s Ruling Class, Finally Dies",
+    "title": "Rolling Stone \: Henry Kissinger, War Criminal Beloved by America\\u2019s Ruling Class, Finally Dies",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",
@@ -5585,7 +5585,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "372",
-    "title": "Jacobin \ - Henry Kissinger\\u2019s Crimes Should Never Be Forgotten",
+    "title": "Jacobin \: Henry Kissinger\\u2019s Crimes Should Never Be Forgotten",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",
@@ -5630,7 +5630,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "375",
-    "title": "FBI COINTELPRO Files on Malcolm X - FBI Vault",
+    "title": "FBI COINTELPRO Files on Malcolm X: FBI Vault",
     "description": "Source document from the Malcolm X Assassination investigation.",
     "type": "archive",
     "classification": "public",
@@ -5645,7 +5645,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "376",
-    "title": "The Assassination of Malcolm X - Stanford University",
+    "title": "The Assassination of Malcolm X: Stanford University",
     "description": "Source document from the Malcolm X Assassination investigation.",
     "type": "pdf",
     "classification": "public",
@@ -5660,7 +5660,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "377",
-    "title": "Bureau of Justice Statistics: Prisoners in 2022 - Statistical Tables",
+    "title": "Bureau of Justice Statistics: Prisoners in 2022: Statistical Tables",
     "description": "Source document from the Mass Incarceration investigation.",
     "type": "pdf",
     "classification": "public",
@@ -5765,7 +5765,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "384",
-    "title": "The Assassination of Martin Luther King Jr. - Stanford King Institute",
+    "title": "The Assassination of Martin Luther King Jr.: Stanford King Institute",
     "description": "Source document from the MLK Assassination investigation.",
     "type": "pdf",
     "classification": "public",
@@ -6275,7 +6275,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "418",
-    "title": "SEC Settlement with Boeing - $200M",
+    "title": "SEC Settlement with Boeing: $200M",
     "description": "Source document from the Boeing 737 Max investigation.",
     "type": "pdf",
     "classification": "public",
@@ -7535,7 +7535,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "502",
-    "title": "The MOVE Bombing at 35 - Philadelphia Inquirer",
+    "title": "The MOVE Bombing at 35: Philadelphia Inquirer",
     "description": "Source document from the Move Bombing investigation.",
     "type": "pdf",
     "classification": "public",
@@ -7595,7 +7595,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "506",
-    "title": "Who Killed Malcolm X? - Netflix Documentary Series",
+    "title": "Who Killed Malcolm X?: Netflix Documentary Series",
     "description": "Source document from the Malcolm X Assassination investigation.",
     "type": "text",
     "classification": "public",
@@ -8120,7 +8120,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "541",
-    "title": "U.S. Press Freedom Tracker - 2020 Protest Press Freedom Violations",
+    "title": "U.S. Press Freedom Tracker: 2020 Protest Press Freedom Violations",
     "description": "Source document from the Police Militarization investigation.",
     "type": "pdf",
     "classification": "public",
@@ -8780,7 +8780,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "585",
-    "title": "Carbyne911 - Barak/Epstein Tech Investment",
+    "title": "Carbyne911: Barak/Epstein Tech Investment",
     "description": "Source document from the Epstein Network investigation.",
     "type": "pdf",
     "classification": "public",
@@ -8885,7 +8885,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "592",
-    "title": "National Security Archive \ - Operation Condor on Trial: Declassified U.S. Documents",
+    "title": "National Security Archive \: Operation Condor on Trial: Declassified U.S. Documents",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "text",
     "classification": "restricted",
@@ -9050,7 +9050,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "603",
-    "title": "Mueller Report (Volume I - Russian Interference)",
+    "title": "Mueller Report (Volume I: Russian Interference)",
     "description": "Source document from the Russian Interference investigation.",
     "type": "pdf",
     "classification": "public",
@@ -9785,7 +9785,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "652",
-    "title": "The Post (Film) - Spielberg",
+    "title": "The Post (Film): Spielberg",
     "description": "Source document from the Pentagon Papers investigation.",
     "type": "text",
     "classification": "public",
@@ -10865,7 +10865,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "724",
-    "title": "Kissinger\\u2019s Shadow: The Long Reach of America\\u2019s Most Controversial Statesman \ - Greg Grandin (Metropolitan Books)",
+    "title": "Kissinger\\u2019s Shadow: The Long Reach of America\\u2019s Most Controversial Statesman \: Greg Grandin (Metropolitan Books)",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "text",
     "classification": "public",
@@ -11210,7 +11210,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "747",
-    "title": "Citizenfour \ - Official Documentary Site",
+    "title": "Citizenfour \: Official Documentary Site",
     "description": "Source document from the NSA Mass Surveillance investigation.",
     "type": "text",
     "classification": "public",
@@ -11420,7 +11420,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "761",
-    "title": "Transocean Settlement - $1.4 Billion",
+    "title": "Transocean Settlement: $1.4 Billion",
     "description": "Source document from the Deepwater Horizon investigation.",
     "type": "pdf",
     "classification": "public",
@@ -11540,7 +11540,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "769",
-    "title": "Ervand Abrahamian: The Coup - 1953, the CIA, and the Roots of Modern U.S.-Iranian Relations",
+    "title": "Ervand Abrahamian: The Coup: 1953, the CIA, and the Roots of Modern U.S.-Iranian Relations",
     "description": "Source document from the Iran Coup investigation.",
     "type": "text",
     "classification": "public",
@@ -11555,7 +11555,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "770",
-    "title": "The Blood Telegram: Nixon, Kissinger, and a Forgotten Genocide \ - Gary J. Bass (Knopf)",
+    "title": "The Blood Telegram: Nixon, Kissinger, and a Forgotten Genocide \: Gary J. Bass (Knopf)",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "text",
     "classification": "public",
@@ -11570,7 +11570,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "771",
-    "title": "National Security Archive \ - Chile Documentation Project: Kissinger and Chile",
+    "title": "National Security Archive \: Chile Documentation Project: Kissinger and Chile",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",
@@ -12170,7 +12170,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "811",
-    "title": "Inside Job (Documentary) - Academy Award-Winning Film on the Financial Crisis",
+    "title": "Inside Job (Documentary): Academy Award-Winning Film on the Financial Crisis",
     "description": "Source document from the 2008 Financial Crisis investigation.",
     "type": "text",
     "classification": "public",
@@ -12755,7 +12755,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "850",
-    "title": "Hudson v. Michigan, 547 U.S. 586 (2006) - Supreme Court Decision",
+    "title": "Hudson v. Michigan, 547 U.S. 586 (2006): Supreme Court Decision",
     "description": "Source document from the No Knock Raids investigation.",
     "type": "pdf",
     "classification": "public",
@@ -13130,7 +13130,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "875",
-    "title": "Stellman et al. - The Extent and Patterns of Usage of Agent Orange in Vietnam",
+    "title": "Stellman et al.: The Extent and Patterns of Usage of Agent Orange in Vietnam",
     "description": "Source document from the Agent Orange investigation.",
     "type": "pdf",
     "classification": "public",
@@ -13145,7 +13145,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "876",
-    "title": "Foreign Relations of the United States (FRUS) - Guatemala 1952-1954",
+    "title": "Foreign Relations of the United States (FRUS): Guatemala 1952-1954",
     "description": "Source document from the CIA Coups investigation.",
     "type": "pdf",
     "classification": "public",
@@ -13505,7 +13505,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "900",
-    "title": "Is Enron Overpriced? - Bethany McLean, Fortune",
+    "title": "Is Enron Overpriced?: Bethany McLean, Fortune",
     "description": "Source document from the Enron Scandal investigation.",
     "type": "pdf",
     "classification": "public",
@@ -13565,7 +13565,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "904",
-    "title": "The Trial of Henry Kissinger \ - Christopher Hitchens (Verso Books, 2001)",
+    "title": "The Trial of Henry Kissinger \: Christopher Hitchens (Verso Books, 2001)",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "text",
     "classification": "public",
@@ -13610,7 +13610,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "907",
-    "title": "Oklahoma Commission to Study the Tulsa Race Riot of 1921 - Final Report",
+    "title": "Oklahoma Commission to Study the Tulsa Race Riot of 1921: Final Report",
     "description": "Source document from the Tulsa Race Massacre investigation.",
     "type": "pdf",
     "classification": "public",
@@ -13835,7 +13835,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "922",
-    "title": "King v. Jowers - 1999 Civil Trial Transcript",
+    "title": "King v. Jowers: 1999 Civil Trial Transcript",
     "description": "Source document from the MLK Assassination investigation.",
     "type": "pdf",
     "classification": "public",
@@ -13985,7 +13985,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "932",
-    "title": "Declassified Documents: U.S. Policy in Chile (1969\-1973) \ - National Security Archive",
+    "title": "Declassified Documents: U.S. Policy in Chile (1969\-1973) \: National Security Archive",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "restricted",
@@ -14195,7 +14195,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "946",
-    "title": "CIA and Guatemala Assassination Proposals 1952-1954 - CIA Historical Review",
+    "title": "CIA and Guatemala Assassination Proposals 1952-1954: CIA Historical Review",
     "description": "Source document from the Guatemala Genocide investigation.",
     "type": "pdf",
     "classification": "public",
@@ -14360,7 +14360,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "957",
-    "title": "Weaver v. United States - $3.1M Settlement",
+    "title": "Weaver v. United States: $3.1M Settlement",
     "description": "Source document from the Ruby Ridge investigation.",
     "type": "pdf",
     "classification": "public",
@@ -14810,7 +14810,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "987",
-    "title": "UN General Assembly Resolution 44/240 - Condemning the Invasion",
+    "title": "UN General Assembly Resolution 44/240: Condemning the Invasion",
     "description": "Source document from the Panama Invasion investigation.",
     "type": "pdf",
     "classification": "public",
@@ -15020,7 +15020,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "1001",
-    "title": "UN General Assembly Resolution 38/7 - Condemning the Invasion",
+    "title": "UN General Assembly Resolution 38/7: Condemning the Invasion",
     "description": "Source document from the Grenada Invasion investigation.",
     "type": "pdf",
     "classification": "public",
@@ -15365,7 +15365,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "1024",
-    "title": "Senate Select Committee (Church Committee) \ - Covert Action in Chile 1963\-1973",
+    "title": "Senate Select Committee (Church Committee) \: Covert Action in Chile 1963\-1973",
     "description": "Source document from the Kissinger Crimes investigation.",
     "type": "pdf",
     "classification": "public",
@@ -15410,7 +15410,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "1027",
-    "title": "United States v. Nixon, 418 U.S. 683 (1974) - Supreme Court Opinion",
+    "title": "United States v. Nixon, 418 U.S. 683 (1974): Supreme Court Opinion",
     "description": "Source document from the Watergate investigation.",
     "type": "pdf",
     "classification": "public",
@@ -15725,7 +15725,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "1048",
-    "title": "Buck v. Bell, 274 U.S. 200 (1927) - Supreme Court Opinion",
+    "title": "Buck v. Bell, 274 U.S. 200 (1927): Supreme Court Opinion",
     "description": "Source document from the Forced Sterilization investigation.",
     "type": "pdf",
     "classification": "public",
@@ -15755,7 +15755,7 @@ export const documents: DocumentEntry[] = [
   },
   {
     "id": "1050",
-    "title": "Dawes Act (1887) - National Archives",
+    "title": "Dawes Act (1887): National Archives",
     "description": "Source document from the Native American Genocide investigation.",
     "type": "pdf",
     "classification": "public",

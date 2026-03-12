@@ -10,7 +10,7 @@ const investigation = {
  subtitle: '11.5 Million Leaked Documents Expose the Global Elite\'s Hidden Wealth Network',
  severity: 'critical',
  status: 'EXPOSED, INVESTIGATIONS ONGOING',
- summary: 'In April 2016, the International Consortium of Investigative Journalists (ICIJ) published the Panama Papers - 11.5 million documents leaked from Mossack Fonseca, a Panamanian law firm specializing in creating offshore shell companies. The files exposed how world leaders, billionaires, celebrities, and criminals hid trillions of dollars in offshore accounts to evade taxes, launder money, and circumvent sanctions. The leak implicated 140 politicians from more than 50 countries, including 12 current or former world leaders. It led to the resignation of Iceland\'s prime minister, criminal investigations worldwide, and the recovery of over $1.36 billion in back taxes, but also highlighted how fundamentally broken the global financial system remains.',
+ summary: 'In April 2016, the International Consortium of Investigative Journalists (ICIJ) published the Panama Papers; 11.5 million documents leaked from Mossack Fonseca, a Panamanian law firm specializing in creating offshore shell companies. The files exposed how world leaders, billionaires, celebrities, and criminals hid trillions of dollars in offshore accounts to evade taxes, launder money, and circumvent sanctions. The leak implicated 140 politicians from more than 50 countries, including 12 current or former world leaders. It led to the resignation of Iceland\'s prime minister, criminal investigations worldwide, and the recovery of over $1.36 billion in back taxes, but also highlighted how fundamentally broken the global financial system remains.',
  keyFigures: [
  { name: 'Jürgen Mossack', role: 'Co-founder of Mossack Fonseca; created the law firm that became the world\'s fourth-largest offshore services provider', href: '/entities/individuals/jurgen-mossack', status: 'Charged (Panama)' },
  { name: 'Ramón Fonseca', role: 'Co-founder of Mossack Fonseca and adviser to Panama\'s president; oversaw the creation of thousands of shell companies', href: '/entities/individuals/ramon-fonseca', status: 'Deceased (2024)' },
@@ -56,12 +56,12 @@ const investigation = {
  ],
  charges: [
  { statute: 'Panamanian Criminal Code, Money Laundering', description: 'Mossack Fonseca allegedly helped clients launder proceeds of criminal activity through anonymous shell companies', count: 'Founders arrested in 2017' },
- { statute: '26 U.S.C. § 7201 - Tax Evasion (U.S.)', description: 'U.S. taxpayers concealed assets in offshore accounts to evade federal income taxes', count: 'Multiple DOJ investigations and prosecutions' },
+ { statute: '26 U.S.C. § 7201: Tax Evasion (U.S.)', description: 'U.S. taxpayers concealed assets in offshore accounts to evade federal income taxes', count: 'Multiple DOJ investigations and prosecutions' },
  { statute: 'EU Anti-Money Laundering Directives', description: 'European citizens and institutions used offshore structures to circumvent EU financial regulations', count: 'New regulations enacted in response' },
  { statute: 'UK Proceeds of Crime Act 2002', description: 'UK nationals used offshore structures revealed in the papers to conceal proceeds of corruption', count: 'HMRC investigations launched' },
- { statute: '31 U.S.C. § 5314 - FBAR (Foreign Bank Account Reporting)', description: 'Failure to report foreign financial accounts above $10,000', count: 'Multiple U.S. penalties assessed' },
+ { statute: '31 U.S.C. § 5314: FBAR (Foreign Bank Account Reporting)', description: 'Failure to report foreign financial accounts above $10,000', count: 'Multiple U.S. penalties assessed' },
  { statute: 'Pakistan Anti-Corruption Laws', description: 'PM Sharif\'s family used offshore companies to acquire London real estate with undisclosed funds', count: 'PM removed from office; convicted' },
- { statute: '18 U.S.C. § 1956 - Money Laundering', description: 'Using U.S. financial system to process transactions through anonymous offshore entities', count: 'DOJ criminal investigations' },
+ { statute: '18 U.S.C. § 1956: Money Laundering', description: 'Using U.S. financial system to process transactions through anonymous offshore entities', count: 'DOJ criminal investigations' },
  { statute: 'Maltese Criminal Code, Corruption & Murder', description: 'Maltese officials linked to Panama Papers corruption; journalist investigating connections was assassinated', count: 'Murder convictions; corruption trials ongoing' },
  ],
  coverup: [

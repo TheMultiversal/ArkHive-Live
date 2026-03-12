@@ -386,7 +386,7 @@ const investigationData = {
  id: '1',
  name: 'Donald J. Trump',
  type: 'individual' as const,
- relationship: 'Primary Subject - 45th President of the United States',
+ relationship: 'Primary Subject; 45th President of the United States',
  href: '/entities/individuals/donald-trump',
  },
  {

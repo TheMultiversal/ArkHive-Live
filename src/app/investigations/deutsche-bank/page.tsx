@@ -73,7 +73,7 @@ const investigation = {
  { entity: 'BaFin (German)', status: 'Monitoring', focus: 'Deutsche Bank compliance failures' },
  ],
  timeline: [
- { date: '1998', event: 'First major Deutsche Bank loan to Trump - $125M for 40 Wall Street' },
+ { date: '1998', event: 'First major Deutsche Bank loan to Trump; $125M for 40 Wall Street' },
  { date: '2005', event: 'Deutsche Bank leads $640M loan for Trump Tower Chicago' },
  { date: '2008', event: 'Trump defaults on Chicago loan, sues Deutsche Bank for $3 billion' },
  { date: '2008', event: 'Despite lawsuit, Deutsche Bank continues relationship' },

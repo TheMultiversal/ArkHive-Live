@@ -51,7 +51,7 @@ const investigationData = {
  { date: 'February 27, 2020', event: 'Trump:"It\'s going to disappear. One day, like a miracle"' },
  { date: 'March 6, 2020', event: 'Trump at CDC:"Anybody that needs a test gets a test"(false)' },
  { date: 'March 9, 2020', event: 'Trump compares COVID to flu:"Nothing is shut down"' },
- { date: 'March 13, 2020', event: 'National emergency declared - 7 weeks after first briefing' },
+ { date: 'March 13, 2020', event: 'National emergency declared; 7 weeks after first briefing' },
  { date: 'March 19, 2020', event: 'Trump tells Woodward:"I wanted to always play it down"' },
  { date: 'March 24, 2020', event: 'Trump wants country"opened up by Easter"' },
  { date: 'April 2020', event: 'Kushner task force abandons national testing plan' },

@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'October 30, 1981',
  birthPlace: 'Manhattan, New York City, USA',
  netWorth: '$300+ million',
- education: ['B.S. - University of Pennsylvania (Wharton)'],
+ education: ['B.S., University of Pennsylvania (Wharton)'],
  affiliations: [
  { name: 'White House', role: 'Senior Advisor (2017-2021)', type: 'agency' },
  { name: 'Trump Organization', role: 'Executive Vice President', type: 'corporation' },
@@ -24,12 +24,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Using official position to promote business interests',
  ],
  charges: [
- { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest - Received Chinese trademarks while serving in White House on China policy matters', category: 'Potential Ethics' },
- { statute: '18 U.S.C. § 201', description: 'Potential Bribery - Chinese trademark approvals coincided with favorable China policies', category: 'Potential Federal' },
- { statute: '44 U.S.C. § 3106', description: 'Federal Records Act Violations - Used personal email for official government business', category: 'Federal' },
- { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud - Named defendant in NY AG lawsuit for fraudulent Trump Organization practices (removed before trial)', category: 'State Civil' },
- { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain - Promoted Ivanka Trump brand products while serving as federal official', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Testimony in NY fraud case about involvement in financial statements', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest; Received Chinese trademarks while serving in White House on China policy matters', category: 'Potential Ethics' },
+ { statute: '18 U.S.C. § 201', description: 'Potential Bribery; Chinese trademark approvals coincided with favorable China policies', category: 'Potential Federal' },
+ { statute: '44 U.S.C. § 3106', description: 'Federal Records Act Violations; Used personal email for official government business', category: 'Federal' },
+ { statute: 'New York Exec. Law § 63(12)', description: 'Civil Fraud; Named defendant in NY AG lawsuit for fraudulent Trump Organization practices (removed before trial)', category: 'State Civil' },
+ { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain; Promoted Ivanka Trump brand products while serving as federal official', category: 'Ethics' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Testimony in NY fraud case about involvement in financial statements', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  { title: 'Trump Organization Financial Fraud', slug: 'trump-org-fraud', severity: 'critical' },
@@ -458,7 +458,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2021-12-29', event: 'Sister Ghislaine convicted on sex trafficking charges' },
  ],
  sources: [
- { title: 'SEC Filings - Commtouch Software Ltd', url: 'https://www.sec.gov/cgi-bin/browse-edgar?company=commtouch', date: '2006-01-01' },
+ { title: 'SEC Filings: Commtouch Software Ltd', url: 'https://www.sec.gov/cgi-bin/browse-edgar?company=commtouch', date: '2006-01-01' },
  ],
  },
  'itzhak-perlman': {

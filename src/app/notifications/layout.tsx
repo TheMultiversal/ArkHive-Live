@@ -3,10 +3,10 @@ import type { ReactNode } from"react";
 
 export const metadata: Metadata = {
  title:"Notifications",
- description:"Your ArkHive notifications - updates on investigations, workspace activity, and system alerts.",
+ description:"Your ArkHive notifications; updates on investigations, workspace activity, and system alerts.",
  openGraph: {
  title:"Notifications | ArkHive",
- description:"Your ArkHive notifications - updates on investigations, workspace activity, and system alerts.",
+ description:"Your ArkHive notifications; updates on investigations, workspace activity, and system alerts.",
  },
 };
 

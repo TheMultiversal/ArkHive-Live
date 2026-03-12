@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'October 7, 1952',
  birthPlace: 'Leningrad (St. Petersburg), Soviet Union',
  netWorth: '$70+ billion (estimated, hidden)',
- education: ['Law Degree - Leningrad State University', 'KGB Training'],
+ education: ['Law Degree, Leningrad State University', 'KGB Training'],
  affiliations: [
  { name: 'Russian Federation', role: 'President (2000-2008, 2012-Present)', type: 'agency' },
  { name: 'KGB', role: 'Officer (1975-1991)', type: 'agency' },
@@ -26,18 +26,18 @@ const profiles: Record<string, IndividualProfile> = {
  'Invasion of Ukraine (2022)',
  ],
  charges: [
- { statute: 'Rome Statute Article 8 (War Crimes)', description: 'ICC ARREST WARRANT - International Criminal Court issued arrest warrant for war crimes in Ukraine including deportation of children (March 2023)', category: 'International Criminal' },
- { statute: 'Rome Statute Article 8(2)(a)(vii)', description: 'Unlawful Deportation - Systematic deportation of Ukrainian children to Russia constituting war crime', category: 'International Criminal' },
- { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'Crimes Against Humanity - Systematic attacks on civilian population in Ukraine including deliberate targeting of civilian infrastructure', category: 'International Criminal' },
- { statute: 'UN Charter Article 2(4)', description: 'War of Aggression - Unprovoked invasion of sovereign nation Ukraine violating fundamental UN Charter prohibition on use of force', category: 'International' },
- { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference - Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States - Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
- { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse - GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
- { statute: 'Convention Against Torture Article 2', description: 'State-Sponsored Torture - Systematic torture of political prisoners including Alexei Navalny who died in custody', category: 'International' },
- { statute: 'Chemical Weapons Convention', description: 'Use of Chemical Weapons - Novichok poisoning of Sergei Skripal, Alexei Navalny, and others', category: 'International' },
- { statute: 'Geneva Convention IV', description: 'Protection of Civilians - Deliberate attacks on Ukrainian civilian infrastructure including hospitals, schools, residential areas', category: 'International Humanitarian Law' },
- { statute: 'Global Magnitsky Human Rights Accountability Act', description: 'Human Rights Violations - Subject to US sanctions for serious human rights abuses and corruption', category: 'US Law' },
- { statute: 'ICCPR Articles 6, 7, 9, 19', description: 'Political Assassinations - Ordering killings of journalists, dissidents, and political opponents (Politkovskaya, Nemtsov, Litvinenko, others)', category: 'International' },
+ { statute: 'Rome Statute Article 8 (War Crimes)', description: 'ICC ARREST WARRANT; International Criminal Court issued arrest warrant for war crimes in Ukraine including deportation of children (March 2023)', category: 'International Criminal' },
+ { statute: 'Rome Statute Article 8(2)(a)(vii)', description: 'Unlawful Deportation; Systematic deportation of Ukrainian children to Russia constituting war crime', category: 'International Criminal' },
+ { statute: 'Rome Statute Article 7 (Crimes Against Humanity)', description: 'Crimes Against Humanity; Systematic attacks on civilian population in Ukraine including deliberate targeting of civilian infrastructure', category: 'International Criminal' },
+ { statute: 'UN Charter Article 2(4)', description: 'War of Aggression; Unprovoked invasion of sovereign nation Ukraine violating fundamental UN Charter prohibition on use of force', category: 'International' },
+ { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference; Directed 2016 Russian interference operation documented in Mueller Report and Senate Intelligence Committee findings', category: 'US Election Law' },
+ { statute: '18 U.S.C. § 371', description: 'Conspiracy to Defraud the United States; Oversaw campaign to interfere with lawful functions of US government (elections)', category: 'US Federal' },
+ { statute: '18 U.S.C. § 1030', description: 'Computer Fraud and Abuse; GRU hacking operations against DNC, DCCC, and Clinton campaign conducted under his authority', category: 'US Federal' },
+ { statute: 'Convention Against Torture Article 2', description: 'State-Sponsored Torture; Systematic torture of political prisoners including Alexei Navalny who died in custody', category: 'International' },
+ { statute: 'Chemical Weapons Convention', description: 'Use of Chemical Weapons; Novichok poisoning of Sergei Skripal, Alexei Navalny, and others', category: 'International' },
+ { statute: 'Geneva Convention IV', description: 'Protection of Civilians; Deliberate attacks on Ukrainian civilian infrastructure including hospitals, schools, residential areas', category: 'International Humanitarian Law' },
+ { statute: 'Global Magnitsky Human Rights Accountability Act', description: 'Human Rights Violations; Subject to US sanctions for serious human rights abuses and corruption', category: 'US Law' },
+ { statute: 'ICCPR Articles 6, 7, 9, 19', description: 'Political Assassinations; Ordering killings of journalists, dissidents, and political opponents (Politkovskaya, Nemtsov, Litvinenko, others)', category: 'International' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -110,7 +110,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Manafort used Ukraine money to fund Trump campaign',
  ],
  charges: [
- { statute: 'Ukrainian Criminal Code', description: 'Treason - convicted in absentia, 13 years', category: 'National Security' },
+ { statute: 'Ukrainian Criminal Code', description: 'Treason; convicted in absentia, 13 years', category: 'National Security' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -393,7 +393,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Sanctioned by EU, US, UK, and other nations for role in the invasion of Ukraine',
  ],
  charges: [
- { statute: 'ICC Rome Statute Art. 8', description: 'War crimes - directing attacks against civilian objects and infrastructure', category: 'War Crimes' },
+ { statute: 'ICC Rome Statute Art. 8', description: 'War crimes; directing attacks against civilian objects and infrastructure', category: 'War Crimes' },
  ],
  relatedInvestigations: [
  ],
@@ -406,7 +406,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'ICC - Arrest Warrants for Ukraine Situation', url: 'https://www.icc-cpi.int/situations/ukraine', date: '2024-06-25' },
+ { title: 'ICC: Arrest Warrants for Ukraine Situation', url: 'https://www.icc-cpi.int/situations/ukraine', date: '2024-06-25' },
  ],
  aliases: [],
  knownAssociates: [
@@ -539,9 +539,9 @@ const profiles: Record<string, IndividualProfile> = {
  'valujet-592-victims': {
  name: 'ValuJet 592 Victims',
  title: 'Crash Victims',
- role: '110 Killed - May 11, 1996',
+ role: '110 Killed; May 11, 1996',
  riskLevel: 'critical',
- description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings - a pattern that continued to the MAX crashes.',
+ description: 'ValuJet Flight 592 crashed in the Florida Everglades on May 11, 1996, killing all 110 people aboard. The FAA had been warned about maintenance issues at SabreTech, the maintenance contractor. This disaster showed FAA\'s failure to act on warnings; a pattern that continued to the MAX crashes.',
  birthDate: 'N/A',
  birthPlace: 'Various',
  education: ['N/A'],

@@ -67,7 +67,7 @@ const investigation = {
  { statute: '14th Amendment, Equal Protection Clause', description: 'Systematic denial of equal protection through redlining, segregation, sentencing disparities, and environmental racism', count: 'Ongoing; racial wealth gap of 10:1 directly attributable to government policy' },
  { statute: 'Fair Housing Act (42 U.S.C. § 3601)', description: 'Despite 1968 prohibition, housing discrimination continues through algorithmic bias, steering, and appraisal discrimination', count: 'Black homeownership rate (44%) still below 1960s levels despite Fair Housing Act' },
  { statute: 'International Convention on the Elimination of All Forms of Racial Discrimination', description: 'United States ratified in 1994 but UN Committee repeatedly finds ongoing systemic violations against Black Americans', count: 'UN has issued multiple reports documenting systematic racial discrimination in U.S.' },
- { statute: 'Anti-Drug Abuse Act of 1986 - 100:1 Sentencing Disparity', description: 'Created sentencing rules where 5 grams of crack (used predominantly by Black Americans) equaled 500 grams of powder cocaine', count: 'Over 2 million Black Americans incarcerated under racially disparate drug laws since 1986' },
+ { statute: 'Anti-Drug Abuse Act of 1986: 100:1 Sentencing Disparity', description: 'Created sentencing rules where 5 grams of crack (used predominantly by Black Americans) equaled 500 grams of powder cocaine', count: 'Over 2 million Black Americans incarcerated under racially disparate drug laws since 1986' },
  ],
  coverup: [
  'The Tulsa Race Massacre was deliberately covered up for over 75 years, removed from Oklahoma history textbooks, mass graves left unexcavated, survivors silenced',
@@ -87,7 +87,7 @@ const investigation = {
  { title: 'The Sentencing Project, Report to the United Nations on Racial Disparities in the U.S. Criminal Justice System', url: 'https://www.sentencingproject.org/reports/report-to-the-united-nations-on-racial-disparities-in-the-u-s-criminal-justice-system/', date: '2018' },
  { title: 'Federal Reserve, Disparities in Wealth by Race and Ethnicity in the 2019 Survey of Consumer Finances', url: 'https://www.federalreserve.gov/econres/notes/feds-notes/disparities-in-wealth-by-race-and-ethnicity-in-the-2019-survey-of-consumer-finances-20200928.html', date: '2020' },
  { title: 'Harper\'s Magazine, Legalize It All: How to Win the War on Drugs (Ehrlichman confession)', url: 'https://harpers.org/archive/2016/04/legalize-it-all/', date: '2016-04' },
- { title: 'Tulsa Historical Society - 1921 Tulsa Race Massacre', url: 'https://www.tulsahistory.org/exhibit/1921-tulsa-race-massacre/', date: '2023' },
+ { title: 'Tulsa Historical Society: 1921 Tulsa Race Massacre', url: 'https://www.tulsahistory.org/exhibit/1921-tulsa-race-massacre/', date: '2023' },
  { title: 'NAACP, Criminal Justice Fact Sheet', url: 'https://naacp.org/resources/criminal-justice-fact-sheet', date: '2023' },
  { title: 'Blackmon, Douglas, Slavery by Another Name: The Re-Enslavement of Black Americans from the Civil War to World War II', url: 'https://www.penguinrandomhouse.com/books/290182/slavery-by-another-name-by-douglas-a-blackmon/', date: '2008' },
  ],

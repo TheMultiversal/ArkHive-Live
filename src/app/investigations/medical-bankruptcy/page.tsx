@@ -7,7 +7,7 @@ import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
  title: 'Medical Bankruptcy in America',
- subtitle: 'The Only Wealthy Nation Where Getting Sick Can Destroy Your Life - 100 Million Americans Carry Medical Debt While 68,000 Die Annually From Lack of Insurance',
+ subtitle: 'The Only Wealthy Nation Where Getting Sick Can Destroy Your Life: 100 Million Americans Carry Medical Debt While 68,000 Die Annually From Lack of Insurance',
  severity: 'critical',
  status: 'ONGOING, SYSTEMIC CRISIS',
  summary: 'The United States is the only wealthy nation on Earth without universal healthcare, and the consequences are catastrophic. Medical debt is the number one cause of bankruptcy, affecting an estimated 530,000 families annually. Over 100 million Americans carry medical debt, with total medical debt exceeding $220 billion. An estimated 68,000 Americans die every year from preventable causes because they lack health insurance. Hospitals charge wildly inflated prices (a $30 bag of saline costs $700, an aspirin costs $25) while insurance companies deny claims as a business model. The healthcare industry spends over $700 million annually lobbying Congress to prevent universal coverage. Americans spend $4.3 trillion on healthcare annually (17.3% of GDP) yet have worse health outcomes than nations spending a fraction of that. The system is not broken; it is working exactly as designed, to maximize profit at the cost of human life.',
@@ -23,7 +23,7 @@ const investigation = {
  { name: 'Bernie Sanders', role: 'Senator who has led fight for Medicare for All; held hearing on healthcare profiteering', href: '/entities/individuals/bernie-sanders', status: 'Active' },
  { name: 'Barack Obama', role: 'President who signed ACA but dropped public option and single-payer under industry pressure', href: '/entities/individuals/barack-obama', status: 'Active' },
  { name: 'Becky Barr', role: 'Emergency room patient charged $18,000 for a broken arm, became symbol of surprise billing crisis', href: '/entities/individuals/becky-barr', status: 'Active advocate' },
- { name: 'R.J. Lehmann', role: 'Patient advocates who documented hospital chargemaster pricing - $25 aspirin, $700 saline bags', href: '/entities/individuals/rj-lehmann', status: 'Active' },
+ { name: 'R.J. Lehmann', role: 'Patient advocates who documented hospital chargemaster pricing; $25 aspirin, $700 saline bags', href: '/entities/individuals/rj-lehmann', status: 'Active' },
  ],
  timeline: [
  { date: '1945', event: 'Truman proposes national health insurance; AMA calls it"socialized medicine"and spends $1.5M defeating it' },
@@ -58,8 +58,8 @@ const investigation = {
  ],
  charges: [
  { statute: 'Universal Declaration of Human Rights, Article 25', description: 'The right to healthcare is recognized as a fundamental human right in international law; the US is the only wealthy nation that denies this right to its citizens', count: '27.5 million Americans have no health insurance; 68,000 die annually from preventable causes due to lack of coverage' },
- { statute: 'False Claims Act - 31 U.S.C. § 3729 (Healthcare Fraud)', description: 'Hospitals and insurance companies submit false claims, inflate charges, and bill for unnecessary services', count: 'DOJ recovers $2-3 billion annually in healthcare fraud cases; Columbia/HCA: $1.7B; estimated fraud exceeds $100B/year' },
- { statute: 'Anti-Kickback Statute - 42 U.S.C. § 1320a-7b', description: 'Pharmaceutical companies, device makers, and hospitals engage in illegal referral schemes and financial relationships', count: 'Hundreds of prosecutions annually; billions in settlements; system remains rife with financial conflicts' },
+ { statute: 'False Claims Act: 31 U.S.C. § 3729 (Healthcare Fraud)', description: 'Hospitals and insurance companies submit false claims, inflate charges, and bill for unnecessary services', count: 'DOJ recovers $2-3 billion annually in healthcare fraud cases; Columbia/HCA: $1.7B; estimated fraud exceeds $100B/year' },
+ { statute: 'Anti-Kickback Statute: 42 U.S.C. § 1320a-7b', description: 'Pharmaceutical companies, device makers, and hospitals engage in illegal referral schemes and financial relationships', count: 'Hundreds of prosecutions annually; billions in settlements; system remains rife with financial conflicts' },
  { statute: 'ERISA, Employee Retirement Income Security Act (Preemption Abuse)', description: 'Federal ERISA law preempts state consumer protections, allowing self-insured employer plans to deny claims without state oversight', count: '130+ million Americans in ERISA-governed plans with limited legal recourse when claims are denied' },
  { statute: 'Antitrust Violations, Hospital Consolidation', description: 'Hospital mergers have created regional monopolies that drive up prices; FTC has challenged too few mergers too late', count: 'Hospital prices are 12% higher in concentrated markets; 75% of metro areas are highly concentrated' },
  { statute: 'Consumer Protection Violations, Chargemaster Pricing', description: 'Hospitals charge uninsured patients 5-10x what insurers pay for identical services through inflated list prices', count: '$30 saline bags billed at $700; $10 aspirin at $25; emergency room visits averaging $2,200 vs. $200 actual cost' },

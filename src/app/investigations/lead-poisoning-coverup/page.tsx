@@ -7,7 +7,7 @@ import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
  title: 'Lead Poisoning Cover-Up',
- subtitle: 'Industry Knew Since the 1920s - Leaded Gas, Paint, and Water Poisoned Millions for Profit',
+ subtitle: 'Industry Knew Since the 1920s: Leaded Gas, Paint, and Water Poisoned Millions for Profit',
  severity: 'critical',
  status: 'CONFIRMED, INDUSTRY DOCUMENTS EXPOSED',
  summary: 'The lead industry (led by companies including Ethyl Corporation, National Lead Company (Dutch Boy), Lead Industries Association, and oil giants) orchestrated one of the longest-running corporate cover-ups in American history. Internal documents show the industry knew lead was toxic to humans as early as the 1920s, yet spent decades promoting leaded gasoline, lead paint, and lead plumbing while systematically attacking scientists who documented the health effects. Lead exposure has been linked to reduced IQ, behavioral disorders, organ damage, and death, with children and communities of color disproportionately affected. An estimated 170 million Americans were overexposed to lead from leaded gasoline alone. Despite the phase-out of leaded gas in 1996 and lead paint in 1978, millions of American homes still contain lead paint, and cities like Flint, Michigan and Newark, New Jersey continue to discover lead-contaminated water systems. The industry spent over a century prioritizing profits over the health of millions.',
@@ -54,14 +54,14 @@ const investigation = {
  { defendant: 'Multiple Paint Companies', charge: 'Baltimore, Milwaukee, St. Louis childhood lead poisoning suits', outcome: 'Various settlements, total industry liability fraction of harm caused' },
  ],
  charges: [
- { statute: '15 U.S.C. § 1261 - Federal Hazardous Substances Act', description: 'Manufacturing and selling products known to contain hazardous levels of lead', count: 'Millions of homes with lead paint, billions of gallons of leaded gas' },
- { statute: '42 U.S.C. § 4851 - Residential Lead-Based Paint Hazard Reduction Act', description: 'Failure to disclose known lead hazards in residential properties', count: '24 million US homes still contain lead paint' },
- { statute: '18 U.S.C. § 1001 - False Statements', description: 'Industry systematically misrepresented safety of lead products to government agencies', count: 'Decades of documented deception' },
- { statute: '18 U.S.C. § 371 - Conspiracy', description: 'Industry-wide conspiracy through Lead Industries Association to suppress health research and attack scientists', count: '70+ years of coordinated suppression' },
- { statute: 'RICO - 18 U.S.C. § 1961', description: 'Pattern of racketeering through systematic fraud, witness tampering, and obstruction of research', count: 'Multi-decade enterprise across companies' },
- { statute: 'Safe Drinking Water Act - 42 U.S.C. § 300f', description: 'Ongoing lead contamination of public water systems', count: 'Millions of lead service lines still in use' },
- { statute: '18 U.S.C. § 1111 - Manslaughter', description: 'Continued sale of products known to cause death, particularly in children', count: 'Estimated 5,000+ annual deaths from lead exposure at peak' },
- { statute: 'FTC Act - 15 U.S.C. § 45', description: 'False and deceptive advertising of lead paint as safe for children\'s rooms', count: 'Dutch Boy and others marketed paint for nurseries' },
+ { statute: '15 U.S.C. § 1261: Federal Hazardous Substances Act', description: 'Manufacturing and selling products known to contain hazardous levels of lead', count: 'Millions of homes with lead paint, billions of gallons of leaded gas' },
+ { statute: '42 U.S.C. § 4851: Residential Lead-Based Paint Hazard Reduction Act', description: 'Failure to disclose known lead hazards in residential properties', count: '24 million US homes still contain lead paint' },
+ { statute: '18 U.S.C. § 1001: False Statements', description: 'Industry systematically misrepresented safety of lead products to government agencies', count: 'Decades of documented deception' },
+ { statute: '18 U.S.C. § 371: Conspiracy', description: 'Industry-wide conspiracy through Lead Industries Association to suppress health research and attack scientists', count: '70+ years of coordinated suppression' },
+ { statute: 'RICO: 18 U.S.C. § 1961', description: 'Pattern of racketeering through systematic fraud, witness tampering, and obstruction of research', count: 'Multi-decade enterprise across companies' },
+ { statute: 'Safe Drinking Water Act: 42 U.S.C. § 300f', description: 'Ongoing lead contamination of public water systems', count: 'Millions of lead service lines still in use' },
+ { statute: '18 U.S.C. § 1111: Manslaughter', description: 'Continued sale of products known to cause death, particularly in children', count: 'Estimated 5,000+ annual deaths from lead exposure at peak' },
+ { statute: 'FTC Act: 15 U.S.C. § 45', description: 'False and deceptive advertising of lead paint as safe for children\'s rooms', count: 'Dutch Boy and others marketed paint for nurseries' },
  ],
  coverup: [
  'The Lead Industries Association maintained a "Lead Hygiene and Safety"campaign for decades that actively promoted lead products as safe while suppressing contrary research',

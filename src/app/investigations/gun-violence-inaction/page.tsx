@@ -31,7 +31,7 @@ const investigation = {
  { date: 'April 2007', event: 'Virginia Tech shooting: 32 killed, deadliest school shooting in US history at the time; minimal legislative response' },
  { date: 'January 2011', event: 'Gabby Giffords shot at constituency event in Tucson; 6 killed, 13 wounded; Congress takes no action' },
  { date: 'December 2012', event: 'Sandy Hook Elementary: Adam Lanza murders 20 first-graders and 6 educators; America is horrified but Congress blocks reform' },
- { date: 'April 2013', event: 'Manchin-Toomey background check amendment fails in Senate despite 90%+ public support - 46 senators block it' },
+ { date: 'April 2013', event: 'Manchin-Toomey background check amendment fails in Senate despite 90%+ public support; 46 senators block it' },
  { date: 'June 2016', event: 'Pulse nightclub shooting: 49 killed; Senator Chris Murphy filibusters for 15 hours demanding vote; nothing passes' },
  { date: 'October 2017', event: 'Las Vegas Route 91 shooting: 60 killed, 400+ wounded from hotel window, deadliest mass shooting in US history' },
  { date: '2017', event: 'Bump stock ban proposed after Vegas; takes Trump administration over a year to implement via regulation instead of legislation' },
@@ -55,7 +55,7 @@ const investigation = {
  ],
  charges: [
  { statute: 'Dereliction of Legislative Duty, Public Trust Violation', description: 'Members of Congress who accepted NRA contributions and blocked popular gun reform legislation despite constituent deaths', count: 'NRA spent $170M+ on political contributions since 1998; gun reform blocked after every mass shooting' },
- { statute: '18 U.S.C. § 201 - Bribery of Public Officials (analogous)', description: 'NRA contributions to members of Congress in exchange for blocking gun legislation represent a form of legalized corruption', count: '$30M+ spent in 2016 election alone; $1.3M to Mitch McConnell over career' },
+ { statute: '18 U.S.C. § 201: Bribery of Public Officials (analogous)', description: 'NRA contributions to members of Congress in exchange for blocking gun legislation represent a form of legalized corruption', count: '$30M+ spent in 2016 election alone; $1.3M to Mitch McConnell over career' },
  { statute: 'Obstruction of Public Health Research, Dickey Amendment', description: 'Congress prohibited the CDC from researching gun violence as a public health crisis for over two decades', count: '20+ years of suppressed research; estimated thousands of deaths that research could have prevented' },
  { statute: 'PLCAA, Protection of Lawful Commerce in Arms Act (2005)', description: 'Federal law granting gun manufacturers unique immunity from civil liability, no other consumer product has equivalent protection', count: 'Blocks lawsuits for tens of thousands of deaths annually; Remington settlement was rare exception' },
  { statute: 'Child Endangerment, State Criminal Statutes', description: 'Law enforcement failure to intervene at Uvalde for 77 minutes while children were being murdered', count: '19 children and 2 teachers killed; some bled to death during police delay' },

@@ -434,7 +434,7 @@ const investigations_a: Record<string, InvestigationData> = {
  ],
  tags: ['Civil Rights', 'Surveillance', 'COINTELPRO', 'Black Lives Matter', 'Standing Rock', 'Environmental Justice', 'First Amendment'],
  sources: [
- { title: 'FBI COINTELPRO Documents - Church Committee', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf', type: 'Congressional Record' },
+ { title: 'FBI COINTELPRO Documents: Church Committee', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf', type: 'Congressional Record' },
  { title: 'TigerSwan Internal Documents', url: 'https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-ichinery/', type: 'Leaked Document' },
  { title: 'FBI Black Identity Extremism Report', url: 'https://www.documentcloud.org/documents/4067711-BIE-Redacted.html', type: 'Government Report' },
  { title: 'ICNL US Protest Law Tracker', url: 'https://www.icnl.org/usprotestlawtracker/', type: 'Legal Analysis' },

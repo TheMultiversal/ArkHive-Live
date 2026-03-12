@@ -48,7 +48,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'April 28, 1947',
  birthPlace: 'Boston, Massachusetts, USA',
  netWorth: '$1+ billion',
- education: ['J.D. - University of San Diego School of Law', 'B.A. - University of Southern California'],
+ education: ['J.D., University of San Diego School of Law', 'B.A., University of Southern California'],
  affiliations: [
  { name: 'Colony Capital', role: 'Founder, CEO (former)', type: 'corporation' },
  { name: 'Trump Inaugural Committee', role: 'Chairman (2016-2017)', type: 'organization' },
@@ -63,9 +63,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Helped Paul Manafort get campaign chairman job',
  ],
  charges: [
- { statute: '18 U.S.C. § 951', description: 'Acting as foreign agent - acquitted', category: 'Foreign Agent' },
- { statute: '18 U.S.C. § 1001', description: 'False statements - acquitted', category: 'False Statements' },
- { statute: '18 U.S.C. § 1512', description: 'Obstruction - acquitted', category: 'Obstruction' },
+ { statute: '18 U.S.C. § 951', description: 'Acting as foreign agent; acquitted', category: 'Foreign Agent' },
+ { statute: '18 U.S.C. § 1001', description: 'False statements; acquitted', category: 'False Statements' },
+ { statute: '18 U.S.C. § 1512', description: 'Obstruction; acquitted', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'Inaugural Committee Investigation', slug: 'inaugural-committee', severity: 'high' },
@@ -165,12 +165,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Involved in discussions about Trump going to Capitol',
  ],
  charges: [
- { statute: '18 U.S.C. § 1519', description: 'Potential Destruction of Records - Text messages from January 5-6 were deleted from Secret Service devices under his leadership', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction - Deleted communications that may have been relevant to January 6 congressional investigation', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements - Disputed Cassidy Hutchinson testimony though other agents corroborated her account', category: 'Potential Federal' },
- { statute: '44 U.S.C. § 3106 (Federal Records Act)', description: 'Records Preservation Violations - Failure to preserve text messages as required federal records', category: 'Federal Records' },
- { statute: '5 C.F.R. § 2635.101', description: 'Ethics Violations - Unprecedented detail from Secret Service to political White House position raised conflict concerns', category: 'Ethics' },
- { statute: '18 U.S.C. § 4 (Misprision of Felony)', description: 'Potential Failure to Report - May have had knowledge of January 6 planning that was not properly reported', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1519', description: 'Potential Destruction of Records; Text messages from January 5-6 were deleted from Secret Service devices under his leadership', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1512(c)', description: 'Potential Obstruction; Deleted communications that may have been relevant to January 6 congressional investigation', category: 'Potential Federal' },
+ { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Disputed Cassidy Hutchinson testimony though other agents corroborated her account', category: 'Potential Federal' },
+ { statute: '44 U.S.C. § 3106 (Federal Records Act)', description: 'Records Preservation Violations; Failure to preserve text messages as required federal records', category: 'Federal Records' },
+ { statute: '5 C.F.R. § 2635.101', description: 'Ethics Violations; Unprecedented detail from Secret Service to political White House position raised conflict concerns', category: 'Ethics' },
+ { statute: '18 U.S.C. § 4 (Misprision of Felony)', description: 'Potential Failure to Report; May have had knowledge of January 6 planning that was not properly reported', category: 'Potential Federal' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1400,7 +1400,7 @@ const profiles: Record<string, IndividualProfile> = {
  'ted-kaczynski': {
  name: 'Ted Kaczynski',
  title: 'The Unabomber',
- role: 'Anti-Technology Terrorist - 17-Year Campaign',
+ role: 'Anti-Technology Terrorist; 17-Year Campaign',
  riskLevel: 'critical',
  description: 'Ted Kaczynski was the Unabomber who conducted a 17-year mail bombing campaign (1978-1995), killing 3 and injuring 23. A Harvard-educated math prodigy, he targeted universities and airlines with increasingly sophisticated bombs. His manifesto was published to help identify him.',
  birthDate: 'May 22, 1942',
@@ -1479,7 +1479,7 @@ const profiles: Record<string, IndividualProfile> = {
  'tudor-dixon': {
  name: 'Tudor Dixon',
  title: 'Michigan Gubernatorial Candidate',
- role: 'DeVos-Backed - Election Denier',
+ role: 'DeVos-Backed; Election Denier',
  riskLevel: 'medium',
  description: 'Tudor Dixon was the Trump-endorsed Michigan gubernatorial candidate backed by the DeVos family. She promoted election denial, said 14-year-old rape victims should be forced to give birth, and lost by 10 points to Gretchen Whitmer in 2022.',
  birthDate: 'May 5, 1977',
@@ -1555,7 +1555,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [
  { title: 'Oklahoma City National Memorial', url: 'https://memorialmuseum.com/', date: '2001-02-19' },
- { title: 'FBI - Oklahoma City Bombing Investigation', url: 'https://www.fbi.gov/history/famous-cases/oklahoma-city-bombing', date: '1997-12-23' },
+ { title: 'FBI: Oklahoma City Bombing Investigation', url: 'https://www.fbi.gov/history/famous-cases/oklahoma-city-bombing', date: '1997-12-23' },
  ],
 
  },
@@ -2731,8 +2731,8 @@ const profiles: Record<string, IndividualProfile> = {
 
  'timothy-mellon': {
  name: 'Timothy Mellon',
- title: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024 - largest single donation in U.S. history',
- role: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024 - largest single donation in U.S. history',
+ title: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024: largest single donation in U.S. history',
+ role: 'Banking heir who donated $150M+ to pro-Trump super PAC Make America Great Again Inc. in 2024; largest single donation in U.S. history',
  riskLevel: 'high',
  description: 'Timothy Mellon. Profile pending review.',
  education: [],
@@ -2749,7 +2749,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Dark Money Politics', slug: 'dark-money-politics', severity: 'high' },
  ],
  timeline: [
- { date: '2024', event: 'in 2024 - largest single donation in U.S' }, ],
+ { date: '2024', event: 'in 2024; largest single donation in U.S' }, ],
  socialMedia: [],
  sources: [
  { title: 'Wikipedia: Timothy Mellon', url: 'https://en.wikipedia.org/wiki/Timothy_Mellon', date: '' }, ],

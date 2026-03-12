@@ -66,7 +66,7 @@ const investigation = {
  { statute: 'Crimes Against Humanity, Forced Displacement', description: 'Forced transfer of Maya populations from traditional lands as part of military strategy', count: 'Over 1.5 million displaced internally and across borders' },
  { statute: 'War Crimes, Sexual Violence', description: 'Systematic rape of indigenous women as an instrument of genocide and terror', count: 'Thousands of cases documented by truth commission; exact count unknown' },
  { statute: 'Crimes Against Humanity, Enforced Disappearance', description: 'Arrest, detention, and disappearance of civilian suspects by state security forces', count: '45,000+ people disappeared during 36-year conflict' },
- { statute: '18 U.S.C. § 2441 - War Crimes Act (US)', description: 'US personnel participated in training, planning, and intelligence support for military operations constituting war crimes', count: 'Green Berets directly assisted counterinsurgency operations 1966-1968' },
+ { statute: '18 U.S.C. § 2441: War Crimes Act (US)', description: 'US personnel participated in training, planning, and intelligence support for military operations constituting war crimes', count: 'Green Berets directly assisted counterinsurgency operations 1966-1968' },
  { statute: 'CIA Authorization of Covert Action, Executive Order 10421', description: 'Operation PBSUCCESS: CIA-organized coup against democratically elected government to protect corporate interests', count: 'One democratic government overthrown; 36 years of military dictatorship followed' },
  ],
  coverup: [
@@ -82,7 +82,7 @@ const investigation = {
  ],
  sources: [
  { title: 'Guatemala: Memory of Silence, UN Commission for Historical Clarification Report', url: 'https://hrdag.org/wp-content/uploads/2013/01/CEHreport-english.pdf', date: '1999' },
- { title: 'CIA and Guatemala Assassination Proposals 1952-1954 - CIA Historical Review', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB4/', date: '1997' },
+ { title: 'CIA and Guatemala Assassination Proposals 1952-1954: CIA Historical Review', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB4/', date: '1997' },
  { title: 'Secret History: The CIA\'s Classified Account of Its Operations in Guatemala', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB4/', date: '2003' },
  { title: 'Ríos Montt Convicted of Genocide, International Justice Monitor', url: 'https://www.ijmonitor.org/category/efrain-rios-montt/', date: 'May 2013' },
  { title: 'Clinton: Support for Guatemala Was Wrong, New York Times', url: 'https://www.nytimes.com/1999/03/11/world/clinton-says-us-was-wrong-on-guatemala.html', date: 'March 1999' },

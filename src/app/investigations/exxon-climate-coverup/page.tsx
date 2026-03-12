@@ -57,10 +57,10 @@ const investigation = {
  ],
  charges: [
  { statute: 'State Consumer Protection Acts', description: 'Deceptive business practices, publicly denying climate science while internal research confirmed it', count: 'Suits filed in 20+ jurisdictions' },
- { statute: '15 U.S.C. § 78j(b) - Securities Fraud', description: 'Misleading investors about financial risks posed by climate change and stranded asset exposure', count: 'NY AG enforcement action + SEC scrutiny' },
+ { statute: '15 U.S.C. § 78j(b): Securities Fraud', description: 'Misleading investors about financial risks posed by climate change and stranded asset exposure', count: 'NY AG enforcement action + SEC scrutiny' },
  { statute: 'State Public Nuisance Statutes', description: 'Contributing to climate change as a public nuisance while concealing known risks from the public', count: 'Multiple municipal lawsuits filed' },
  { statute: 'State Tort Law, Failure to Warn', description: 'Failure to warn consumers and the public about known dangers of fossil fuel products', count: 'Component of municipal climate lawsuits' },
- { statute: '18 U.S.C. § 1962 - RICO (proposed)', description: 'Racketeering through coordinated multi-decade campaign involving front groups to deceive public about climate science', count: 'Proposed by Sen. Whitehouse; not yet charged' },
+ { statute: '18 U.S.C. § 1962: RICO (proposed)', description: 'Racketeering through coordinated multi-decade campaign involving front groups to deceive public about climate science', count: 'Proposed by Sen. Whitehouse; not yet charged' },
  { statute: 'Federal False Statements (18 U.S.C. § 1001)', description: 'Potential false statements to Congress and federal agencies regarding climate science knowledge', count: 'Under investigation' },
  { statute: 'Clean Air Act Violations', description: 'Contribution to greenhouse gas emissions while concealing knowledge of their environmental impact', count: 'Basis for Massachusetts v. EPA (2007)' },
  { statute: 'State Fraud Statutes', description: 'Common law fraud, knowingly making false representations about climate science to protect business interests', count: 'Component of multiple AG investigations' },

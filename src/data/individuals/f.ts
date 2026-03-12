@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'October 27, 1971',
  birthPlace: 'Los Angeles, California, USA',
  netWorth: 'Unknown',
- education: ['J.D. - Emory University School of Law', 'B.A. - Howard University'],
+ education: ['J.D., Emory University School of Law', 'B.A., Howard University'],
  affiliations: [
  { name: 'Fulton County District Attorney\'s Office', role: 'District Attorney (2021-present)', type: 'agency' },
  ],
@@ -421,7 +421,7 @@ const profiles: Record<string, IndividualProfile> = {
  'REVOLUTIONARY LEADER: At 21, Hampton was already a charismatic leader who had united Chicago gangs into a"Rainbow Coalition"with the Young Patriots and Young Lords. His organizing success made him a threat to the establishment.',
  'FBI TARGET: The FBI designated Hampton a"key militant leader"and targeted him under COINTELPRO. FBI documents show explicit intent to"neutralize"him.',
  'INFORMANT INFILTRATION: FBI informant William O\'Neal infiltrated the Panthers as head of security. He provided floor plans of Hampton\'s apartment and drugged Hampton\'s drink the night before the raid.',
- 'THE RAID: At 4:45 AM on December 4, 1969, Chicago Police conducted a raid. Officers fired 90-99 shots; Panthers fired one. Hampton was shot twice in the head at close range while in bed - evidence suggests he was unconscious from the drugging.',
+ 'THE RAID: At 4:45 AM on December 4, 1969, Chicago Police conducted a raid. Officers fired 90-99 shots; Panthers fired one. Hampton was shot twice in the head at close range while in bed; evidence suggests he was unconscious from the drugging.',
  'MARK CLARK KILLED: Also killed was Mark Clark, a Panther leader. He was the only Panther to fire a shot, apparently reflexively when shot.',
  'COVER-UP ATTEMPTED: State\'s Attorney Edward Hanrahan initially claimed a"fierce gun battle."Physical evidence proved police lies. A federal grand jury later found the raid was part of a coordinated effort to destroy the Panthers.',
  'CIVIL SUIT: After criminal charges against raiders were dropped, Hampton\'s family filed civil suit. In 1982, the city, county, and federal government paid $1.85 million to survivors and families.',
@@ -526,7 +526,7 @@ const profiles: Record<string, IndividualProfile> = {
  'LEGACY: Wisner established the template for CIA media manipulation that continues today. The revolving door between intelligence agencies and media, the use of"former"officials as commentators, and coordinated narratives all trace to his innovations.',
  ],
  charges: [
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution: Suppression of free press and political discourse through media manipulation', category: 'International Criminal Law' },
+ { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Suppression of free press and political discourse through media manipulation', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 8 bis', description: 'Aggression: Directed coups overthrowing sovereign governments', category: 'International Criminal Law' },
  { statute: '18 U.S.C. § 371', description: 'Conspiracy: Conspiracy to overthrow foreign governments', category: 'Federal Crimes' },
  { statute: '50 U.S.C. § 3091', description: 'Violations of Intelligence Authorization: Covert operations exceeding authorized scope', category: 'Intelligence Law' },
@@ -610,7 +610,7 @@ const profiles: Record<string, IndividualProfile> = {
  title: '32nd President of the United States',
  role: 'President who signed Executive Order 9066 authorizing Japanese American internment',
  riskLevel: 'critical',
- description: 'Franklin D. Roosevelt served as President from 1933-1945, leading the nation through the Depression and World War II. However, he also signed Executive Order 9066, which authorized the forced internment of 120,000 Japanese Americans - 62% of whom were U.S. citizens. This mass imprisonment without charge or trial remains one of the worst civil liberties violations in American history.',
+ description: 'Franklin D. Roosevelt served as President from 1933-1945, leading the nation through the Depression and World War II. However, he also signed Executive Order 9066, which authorized the forced internment of 120,000 Japanese Americans; 62% of whom were U.S. citizens. This mass imprisonment without charge or trial remains one of the worst civil liberties violations in American history.',
  education: [],
  affiliations: [
  { name: 'United States Government', role: '32nd President (1933-1945)', type: 'agency' },
@@ -626,10 +626,10 @@ const profiles: Record<string, IndividualProfile> = {
  'LASTING SHAME: The internment remains a stain on American history. It demonstrates how quickly rights can be stripped from unpopular minorities during wartime.',
  ],
  charges: [
- { statute: 'Rome Statute Article 7(1)(e)', description: 'Crimes Against Humanity - Imprisonment: Mass imprisonment of 120,000 people based on race without charge', category: 'International Criminal Law' },
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity - Persecution: Targeted Japanese Americans for persecution based on racial identity', category: 'International Criminal Law' },
- { statute: 'U.S. Constitution - 5th Amendment', description: 'Due Process Violation: Imprisoned citizens without charge or trial', category: 'Constitutional Violations' },
- { statute: 'U.S. Constitution - 14th Amendment', description: 'Equal Protection Violation: Discriminatory treatment based on race', category: 'Constitutional Violations' },
+ { statute: 'Rome Statute Article 7(1)(e)', description: 'Crimes Against Humanity; Imprisonment: Mass imprisonment of 120,000 people based on race without charge', category: 'International Criminal Law' },
+ { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Targeted Japanese Americans for persecution based on racial identity', category: 'International Criminal Law' },
+ { statute: 'U.S. Constitution: 5th Amendment', description: 'Due Process Violation: Imprisoned citizens without charge or trial', category: 'Constitutional Violations' },
+ { statute: 'U.S. Constitution: 14th Amendment', description: 'Equal Protection Violation: Discriminatory treatment based on race', category: 'Constitutional Violations' },
  ],
  relatedInvestigations: [
  { title: 'Japanese American Internment', slug: 'japanese-internment', severity: 'critical' },
@@ -800,7 +800,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'September 23, 1900',
  birthPlace: 'Quanah, Texas, USA',
  deathDate: 'November 17, 1967',
- education: ['MIT - Chemical Engineering (1922)'],
+ education: ['MIT, Chemical Engineering (1922)'],
  affiliations: [
  { name: 'Koch Industries', role: 'Founder', type: 'corporation' },
  { name: 'John Birch Society', role: 'Founding Member', type: 'organization' },
@@ -1493,7 +1493,7 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'low',
  description: 'Frank Wilczek. Profile pending review.',
  birthDate: 'May 15, 1951',
- education: ['University of Chicago', 'Princeton - PhD Physics'],
+ education: ['University of Chicago', 'Princeton, PhD Physics'],
  affiliations: [
  { name: 'MIT', role: 'Professor of Physics', type: 'corporation' },
  ],
@@ -1546,7 +1546,7 @@ const profiles: Record<string, IndividualProfile> = {
  role: 'Clinton Cabinet Member, Aviation Policy',
  riskLevel: 'low',
  description: 'First Hispanic mayor of Denver (1983-1991) and served in the Clinton administration as Secretary of Transportation (1993-1997) and Secretary of Energy (1997-1998). Oversaw aviation policy during a period of airline deregulation.',
- education: ['University of Texas - J.D.'],
+ education: ['University of Texas, J.D.'],
  affiliations: [
  { name: 'U.S. Department of Transportation', role: 'Secretary', type: 'agency' },
  ],
@@ -1742,7 +1742,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'ProPublica - Leonard Leo Investigation', url: 'https://www.propublica.org/series/the-man-behind-the-curtain', date: '2023' },
+ { title: 'ProPublica: Leonard Leo Investigation', url: 'https://www.propublica.org/series/the-man-behind-the-curtain', date: '2023' },
  ],
  aliases: ['FedSoc'],
  knownAssociates: [

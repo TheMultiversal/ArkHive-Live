@@ -56,14 +56,14 @@ const investigation = {
  { defendant: 'Unknown conspirators', charge: 'Conspiracy to assassinate Dr. King', outcome: 'HSCA found"likelihood of conspiracy"; 1999 jury found conspiracy' },
  ],
  charges: [
- { statute: 'Tennessee Code § 39-13-202 - First Degree Murder', description: 'Premeditated and deliberate killing of Dr. Martin Luther King Jr.', count: '1 count, April 4, 1968' },
- { statute: '18 U.S.C. § 241 - Conspiracy Against Rights', description: 'Conspiracy to deprive citizens of their civil rights through assassination of civil rights leader', count: 'Multiple potential defendants' },
- { statute: '18 U.S.C. § 242 - Deprivation of Rights Under Color of Law', description: 'Government agents using their official positions to violate King\'s constitutional rights', count: 'FBI COINTELPRO operations' },
- { statute: '18 U.S.C. § 1505 - Obstruction of Proceedings', description: 'FBI obstruction of congressional investigations into King\'s assassination', count: 'Multiple instances documented by Church Committee' },
- { statute: '18 U.S.C. § 2511 - Illegal Wiretapping', description: 'Unauthorized electronic surveillance of King\'s communications by FBI', count: 'Continuous from 1963-1968' },
- { statute: '18 U.S.C. § 873 - Blackmail', description: 'FBI\'s anonymous letter threatening King with exposure of private recordings unless he killed himself', count: '1 documented instance, November 1964' },
- { statute: '18 U.S.C. § 371 - Conspiracy to Commit Offense', description: 'Organized conspiracy between multiple government and private actors to assassinate King', count: 'Found by 1999 civil jury' },
- { statute: '18 U.S.C. § 1519 - Destruction of Records', description: 'FBI destruction and concealment of COINTELPRO records targeting King', count: 'Documented by Church Committee' },
+ { statute: 'Tennessee Code § 39-13-202: First Degree Murder', description: 'Premeditated and deliberate killing of Dr. Martin Luther King Jr.', count: '1 count, April 4, 1968' },
+ { statute: '18 U.S.C. § 241: Conspiracy Against Rights', description: 'Conspiracy to deprive citizens of their civil rights through assassination of civil rights leader', count: 'Multiple potential defendants' },
+ { statute: '18 U.S.C. § 242: Deprivation of Rights Under Color of Law', description: 'Government agents using their official positions to violate King\'s constitutional rights', count: 'FBI COINTELPRO operations' },
+ { statute: '18 U.S.C. § 1505: Obstruction of Proceedings', description: 'FBI obstruction of congressional investigations into King\'s assassination', count: 'Multiple instances documented by Church Committee' },
+ { statute: '18 U.S.C. § 2511: Illegal Wiretapping', description: 'Unauthorized electronic surveillance of King\'s communications by FBI', count: 'Continuous from 1963-1968' },
+ { statute: '18 U.S.C. § 873: Blackmail', description: 'FBI\'s anonymous letter threatening King with exposure of private recordings unless he killed himself', count: '1 documented instance, November 1964' },
+ { statute: '18 U.S.C. § 371: Conspiracy to Commit Offense', description: 'Organized conspiracy between multiple government and private actors to assassinate King', count: 'Found by 1999 civil jury' },
+ { statute: '18 U.S.C. § 1519: Destruction of Records', description: 'FBI destruction and concealment of COINTELPRO records targeting King', count: 'Documented by Church Committee' },
  ],
  coverup: [
  'The FBI sent King an anonymous letter with secret audio recordings, implying he should commit suicide before receiving the Nobel Peace Prize',
@@ -78,7 +78,7 @@ const investigation = {
  'The Church Committee revealed that COINTELPRO\'s stated goal was to "neutralize" King, yet no FBI official was ever criminally charged',
  ],
  sources: [
- { title: 'King v. Jowers - 1999 Civil Trial Transcript', url: 'https://www.thekingcenter.org/civil-case-king-family-versus-jowers', date: '1999-12-08' },
+ { title: 'King v. Jowers: 1999 Civil Trial Transcript', url: 'https://www.thekingcenter.org/civil-case-king-family-versus-jowers', date: '1999-12-08' },
  { title: 'FBI\'s War on Martin Luther King Jr. - Church Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf', date: '1976-04-23' },
  { title: 'COINTELPRO: The FBI\'s War on Black America, National Archives', url: 'https://www.archives.gov/research/investigations/fbi/cointelpro', date: '1975-11-18' },
  { title: 'House Select Committee on Assassinations, MLK Report', url: 'https://www.archives.gov/research/jfk/select-committee-report/part-2.html', date: '1979-01-29' },
@@ -86,7 +86,7 @@ const investigation = {
  { title: 'DOJ Investigation of Recent Allegations Regarding MLK Assassination', url: 'https://www.justice.gov/crt/case-document/file/1089701/download', date: '2000-06-09' },
  { title: 'The Martin Luther King Jr. Assassination, FBI Vault', url: 'https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr.', date: '2023-01-01' },
  { title: 'Coretta Scott King\'s Quest for the Truth About Her Husband\'s Murder', url: 'https://www.washingtonpost.com/history/2023/04/04/mlk-assassination-conspiracy-trial/', date: '2023-04-04' },
- { title: 'The Assassination of Martin Luther King Jr. - Stanford King Institute', url: 'https://kinginstitute.stanford.edu/assassination-martin-luther-king-jr', date: '2023-01-01' },
+ { title: 'The Assassination of Martin Luther King Jr.: Stanford King Institute', url: 'https://kinginstitute.stanford.edu/assassination-martin-luther-king-jr', date: '2023-01-01' },
  ],
 };
 

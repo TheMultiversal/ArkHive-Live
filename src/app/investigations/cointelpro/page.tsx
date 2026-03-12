@@ -79,12 +79,12 @@ const investigation = {
  { defendant: 'No individual FBI agent', charge: 'Any criminal charge for COINTELPRO', outcome: 'NO FBI agent was EVER criminally prosecuted for COINTELPRO operations' },
  ],
  charges: [
- { statute: '18 U.S.C. § 241 - Conspiracy Against Rights', description: 'Coordinated FBI campaign to suppress constitutional rights of civil rights leaders, antiwar activists, and political organizations', count: 'Thousands of operations across multiple target groups from 1956-1971' },
- { statute: '18 U.S.C. § 242 - Deprivation of Rights Under Color of Law', description: 'FBI agents using government authority to violate First and Fourth Amendment rights of American citizens', count: 'Systematic across all COINTELPRO programs' },
- { statute: '18 U.S.C. § 1001 - False Statements', description: 'FBI officials lying to Congress and oversight bodies about the scope and nature of domestic surveillance operations', count: 'Sustained pattern of deception documented by Church Committee' },
- { statute: '18 U.S.C. § 1503 - Obstruction of Justice', description: 'Destroying evidence, manipulating legal proceedings, and planting false evidence against targets', count: 'Documented in operations against Black Panther Party and other organizations' },
- { statute: '18 U.S.C. § 2511 - Illegal Wiretapping', description: 'Unauthorized electronic surveillance including wiretaps and mail interception without judicial authorization', count: 'Thousands of warrantless wiretaps on American citizens documented by Church Committee' },
- { statute: '42 U.S.C. § 1983 - Deprivation of Civil Rights', description: 'Government agents systematically depriving citizens of constitutional rights including free speech, assembly, and due process', count: 'Applied in civil suits, Hampton family received $1.85 million settlement' },
+ { statute: '18 U.S.C. § 241: Conspiracy Against Rights', description: 'Coordinated FBI campaign to suppress constitutional rights of civil rights leaders, antiwar activists, and political organizations', count: 'Thousands of operations across multiple target groups from 1956-1971' },
+ { statute: '18 U.S.C. § 242: Deprivation of Rights Under Color of Law', description: 'FBI agents using government authority to violate First and Fourth Amendment rights of American citizens', count: 'Systematic across all COINTELPRO programs' },
+ { statute: '18 U.S.C. § 1001: False Statements', description: 'FBI officials lying to Congress and oversight bodies about the scope and nature of domestic surveillance operations', count: 'Sustained pattern of deception documented by Church Committee' },
+ { statute: '18 U.S.C. § 1503: Obstruction of Justice', description: 'Destroying evidence, manipulating legal proceedings, and planting false evidence against targets', count: 'Documented in operations against Black Panther Party and other organizations' },
+ { statute: '18 U.S.C. § 2511: Illegal Wiretapping', description: 'Unauthorized electronic surveillance including wiretaps and mail interception without judicial authorization', count: 'Thousands of warrantless wiretaps on American citizens documented by Church Committee' },
+ { statute: '42 U.S.C. § 1983: Deprivation of Civil Rights', description: 'Government agents systematically depriving citizens of constitutional rights including free speech, assembly, and due process', count: 'Applied in civil suits, Hampton family received $1.85 million settlement' },
  { statute: 'Fourth Amendment, Unreasonable Search and Seizure', description: 'Warrantless break-ins ("black bag jobs"), mail interception, and physical surveillance without probable cause', count: 'Over 200 documented"black bag jobs"against domestic targets' },
  ],
  coverup: [

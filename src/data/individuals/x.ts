@@ -11,7 +11,7 @@ const profiles: Record<string, IndividualProfile> = {
  birthDate: 'June 15, 1953',
  birthPlace: 'Beijing, China',
  netWorth: 'Unknown (family reported wealth of $1.5 billion)',
- education: ['Doctor of Law - Tsinghua University (2002)', 'Chemical Engineering - Tsinghua University (1979)'],
+ education: ['Doctor of Law, Tsinghua University (2002)', 'Chemical Engineering, Tsinghua University (1979)'],
  affiliations: [
  { name: 'Chinese Communist Party', role: 'General Secretary (2012-present)', type: 'organization' },
  { name: 'People\'s Republic of China', role: 'President (2013-present)', type: 'agency' },

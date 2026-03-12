@@ -7,7 +7,7 @@ import GlitchText from '@/components/effects/GlitchText';
 
 const investigation = {
  title: 'Secret Bombing of Laos',
- subtitle: 'The most heavily bombed country in history - 270 million cluster bombs dropped on a neutral nation',
+ subtitle: 'The most heavily bombed country in history: 270 million cluster bombs dropped on a neutral nation',
  severity: 'critical',
  status: 'HISTORICAL, ONGOING IMPACT',
  summary: 'From 1964 to 1973, the United States conducted a covert air campaign against Laos, dropping over 2 million tons of ordnance in 580,000 bombing missions, equivalent to a planeload of bombs every 8 minutes, 24 hours a day, for 9 years. The campaign was hidden from Congress and the American public. Laos, a neutral country, became the most heavily bombed nation per capita in history. An estimated 200,000 Laotian civilians were killed. Today, 80 million unexploded cluster bomblets still contaminate the countryside, killing and maiming approximately 50 Laotians every year. The U.S. has spent more in a single day of bombing than it has on total cleanup efforts.',
@@ -55,8 +55,8 @@ const investigation = {
  { defendant: 'William Sullivan', charge: 'Personally directing bombing strikes on civilian targets from the embassy', outcome: 'Promoted to other ambassadorial positions; never investigated' },
  ],
  charges: [
- { statute: 'Geneva Convention (IV) - Art. 3 & 27', description: 'Protection of civilians in armed conflicts; prohibition on violence to life and person', count: '200,000+ Laotian civilians killed in bombing campaign' },
- { statute: 'Hague Convention (IV) - Art. 25', description: 'Prohibition on bombardment of undefended towns, villages, and buildings', count: 'Thousands of villages completely destroyed across Laos' },
+ { statute: 'Geneva Convention (IV): Art. 3 & 27', description: 'Protection of civilians in armed conflicts; prohibition on violence to life and person', count: '200,000+ Laotian civilians killed in bombing campaign' },
+ { statute: 'Hague Convention (IV): Art. 25', description: 'Prohibition on bombardment of undefended towns, villages, and buildings', count: 'Thousands of villages completely destroyed across Laos' },
  { statute: 'UN Charter, Article 2(4)', description: 'Prohibition on the use of force against the territorial integrity of any state', count: 'Laos was a declared neutral nation; bombing was an act of war without declaration' },
  { statute: 'War Powers Resolution Violations', description: 'Conducting military operations without Congressional authorization or knowledge', count: '9-year covert bombing campaign hidden from Congress' },
  { statute: 'Convention on Cluster Munitions', description: 'Use of weapons designed to indiscriminately scatter submunitions over wide areas', count: '270 million cluster bomblets dropped; 80 million remain unexploded' },

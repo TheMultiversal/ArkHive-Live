@@ -115,10 +115,10 @@ const investigations_o: Record<string, InvestigationData> = {
  ],
  tags: ['Opioid Crisis', 'Drug Distribution', 'McKesson', 'Cardinal Health', 'DEA', 'Corporate Crime'],
  sources: [
- { title: 'Washington Post - DEA Opioid Database', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Investigation' },
+ { title: 'Washington Post: DEA Opioid Database', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Investigation' },
  { title: 'McKesson DEA Settlement', url: 'https://www.justice.gov/opa/pr/mckesson-agrees-pay-record-150-million-settlement-failure-report-suspicious-orders', type: 'Court Filing' },
  { title: 'National Opioid Settlement', url: 'https://nationalopioidsettlement.com/', type: 'Settlement Document' },
- { title: 'Washington Post/60 Minutes - DEA Enforcement Investigation', url: 'https://www.washingtonpost.com/investigations/the-drug-industry-s-triumph-over-the-dea/2017/10/15/352aa7fc-ae3e-11e7-a908-a3470754bbb9_story.html', type: 'Investigation' },
+ { title: 'Washington Post/60 Minutes: DEA Enforcement Investigation', url: 'https://www.washingtonpost.com/investigations/the-drug-industry-s-triumph-over-the-dea/2017/10/15/352aa7fc-ae3e-11e7-a908-a3470754bbb9_story.html', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'McKesson', type: 'corporation', relationship: 'Largest distributor; paid $150M penalty, $7.9B settlement', href: '/entities/corporations/mckesson' },
@@ -618,7 +618,7 @@ const investigations_o: Record<string, InvestigationData> = {
     summary: "Ethan Crumbley, 15, killed four students and wounded seven others at Oxford High School in Michigan. In a legal first, his parents James and Jennifer Crumbley were convicted of involuntary manslaughter for buying their son the gun and ignoring warning signs.",
     content: [
       "THE SHOOTING: Crumbley killed 4 students with a handgun his father had bought him as a Christmas gift four days prior.",
-      "PARENTAL ACCOUNTABILITY: Both parents were convicted of involuntary manslaughter - the first time parents were held criminally liable for a school shooting.",
+      "PARENTAL ACCOUNTABILITY: Both parents were convicted of involuntary manslaughter; the first time parents were held criminally liable for a school shooting.",
       "WARNING SIGNS: School officials found a disturbing note by Crumbley showing violence fantasies hours before the shooting but allowed him to return to class.",
     ],
     tags: ["School Shooting","Oxford","Parental Accountability","Gun Violence"],
@@ -634,7 +634,7 @@ const investigations_o: Record<string, InvestigationData> = {
     category: "Abuse of Power",
     date: "January 1, 2011",
     lastUpdated: "March 10, 2026",
-    summary: "Congressional oversight powers, designed to ensure government accountability, have been increasingly weaponized for partisan political purposes - targeting political opponents, undermining investigations, and serving as opposition research operations.",
+    summary: "Congressional oversight powers, designed to ensure government accountability, have been increasingly weaponized for partisan political purposes; targeting political opponents, undermining investigations, and serving as opposition research operations.",
     content: [
       "BENGHAZI: Republicans held 33 hearings, 11 reports, and spent $7.8 million investigating Benghazi. Majority Leader Kevin McCarthy admitted it was designed to hurt Hillary Clinton's poll numbers.",
       "IMPEACHMENT INTERFERENCE: House Republicans used oversight to attack Trump impeachment witnesses and investigate the investigators.",
@@ -672,12 +672,12 @@ const investigations_o: Record<string, InvestigationData> = {
     category: "Public Health",
     date: "January 1, 2006",
     lastUpdated: "March 10, 2026",
-    summary: "The three largest drug distributors - McKesson, AmerisourceBergen, and Cardinal Health - shipped billions of opioid pills to pharmacies while ignoring clear signs of diversion. Their distribution records showed orders that no legitimate pharmacy could justify.",
+    summary: "The three largest drug distributors; McKesson, AmerisourceBergen, and Cardinal Health; shipped billions of opioid pills to pharmacies while ignoring clear signs of diversion. Their distribution records showed orders that no legitimate pharmacy could justify.",
     content: [
       "THE BIG THREE: McKesson, AmerisourceBergen, and Cardinal Health control 90% of drug distribution. They shipped 76 billion oxycodone and hydrocodone pills from 2006-2012.",
       "SUSPICIOUS ORDER MONITORING FAILURES: Distributors were legally required to flag and investigate suspicious orders but failed to do so on a massive scale.",
       "KERMIT, WEST VIRGINIA: A town of 392 people received 9 million hydrocodone pills over two years from a single pharmacy supplied by McKesson.",
-      "$26 BILLION SETTLEMENT: In 2022, the Big Three agreed to pay $21 billion to state and local governments - a fraction of the damage caused.",
+      "$26 BILLION SETTLEMENT: In 2022, the Big Three agreed to pay $21 billion to state and local governments; a fraction of the damage caused.",
     ],
     tags: ["Opioid Crisis","Drug Distribution","McKesson","AmerisourceBergen","Cardinal Health","DEA"],
     sources: [
