@@ -354,7 +354,7 @@ const profiles: Record<string, IndividualProfile> = {
  controversies: [
  'Son Melvin Riffel killed in Ethiopian Airlines Flight 302 crash at age 26 while traveling to Kenya for clean water projects',
  'Testified before Congress demanding criminal prosecution of Boeing executives for the 737 MAX design failures',
- 'Became vocal advocate for aviation safety reform and corporate accountability after son\\'s death',
+ 'Became vocal advocate for aviation safety reform and corporate accountability after son\'s death',
  ],
  charges: [],
  relatedInvestigations: [

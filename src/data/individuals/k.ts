@@ -929,14 +929,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Donald Trump', relationship: 'Endorsed by Trump; prominent ally in election denial movement', href: '/entities/individuals/donald-trump' },
  ],
  },
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
 
 
 
@@ -2049,14 +2041,6 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
   { name: 'Derek Chauvin', relationship: 'Potter\'s shooting of Wright occurred during Chauvin\'s trial for murdering George Floyd; both cases in same Minneapolis metro area', href: '/entities/individuals/derek-chauvin' },
- ],
- },
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
  ],
  },
 
@@ -3190,29 +3174,6 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
   { name: 'Romeo Dallaire', relationship: 'UNAMIR commander whose warnings of genocide were overruled by Annan\'s Peacekeeping department', href: '/entities/individuals/romeo-dallaire' },
- ],
- },
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Kit Carson', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
- ],
- timeline: [
- { date: 'Ongoing', event: 'Active in role as UN Peacekeeping head who failed to pass Dallaire' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Wikipedia: Kofi Annan', url: 'https://en.wikipedia.org/wiki/Kofi_Annan', date: '' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'Romeo Dallaire', relationship: 'UN commander in Rwanda who begged Annan for reinforcements', href: '/entities/individuals/romeo-dallaire' },
- { name: 'Boutros Boutros-Ghali', relationship: 'Predecessor as UN Secretary-General', href: '/entities/individuals/boutros-boutros-ghali' },
  ],
  },
 

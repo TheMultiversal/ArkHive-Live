@@ -1024,7 +1024,6 @@ const investigations_a: Record<string, InvestigationData> = {
  { id: '2', name: 'NSA', type: 'agency', relationship: 'AI-enhanced mass surveillance of communications; $2.5B+ AI budget', href: '/entities/agencies/nsa' },
  { id: '3', name: 'Clearview AI', type: 'corporation', relationship: 'Scraped 30 billion photos; sold facial recognition to 3,100+ agencies', href: '/entities/corporations/clearview-ai' },
  ],
- ],
   },
   'autonomous-weapons-development-race': {
     title: 'Autonomous Weapons Development Race',
