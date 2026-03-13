@@ -784,25 +784,38 @@ const profiles: Record<string, IndividualProfile> = {
 
  'lanny-davis': {
  name: 'Lanny Davis',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Lanny Davis. Profile pending review.',
- education: [],
+ title: 'Attorney and Political Crisis Manager',
+ role: 'Clinton White House special counsel turned crisis PR lawyer who represented dictators and controversial corporations while maintaining Democratic establishment connections',
+ riskLevel: 'medium',
+ description: 'Lanny Jay Davis is an American attorney; lobbyist; and political operative best known for serving as special counsel to President Bill Clinton during the Lewinsky scandal and impeachment proceedings. After leaving the White House; Davis built a lucrative practice as a crisis management lawyer and lobbyist; representing a controversial roster of clients that included authoritarian governments and corporations facing public relations crises. Davis registered as a foreign agent for the Ivory Coast\'s Laurent Gbagbo; who was later charged with crimes against humanity by the International Criminal Court for his role in post-election violence that killed approximately 3;000 people. He also represented Equatorial Guinea\'s Teodoro Obiang Nguema; one of Africa\'s longest-ruling dictators; whose regime has been extensively documented for human rights abuses; corruption; and political repression. Davis lobbied for the Honduras business community in the aftermath of the 2009 coup that overthrew democratically elected President Manuel Zelaya; drawing criticism from human rights organizations. He served as attorney and spokesperson for Michael Cohen during Cohen\'s break with Donald Trump in 2018. Davis\'s career exemplifies the revolving door between government service; lobbying; and crisis PR; using political connections and media relationships developed during government service to serve paying clients regardless of their human rights records.',
+ birthDate: 'November 6, 1945',
+ birthPlace: 'Jersey City, New Jersey, USA',
+ education: ['Yale University; B.A.', 'Yale Law School; J.D.'],
  affiliations: [
+  { name: 'Clinton White House', role: 'Special Counsel to President Clinton (1996-1998)', type: 'agency' },
  ],
  controversies: [
+  'Registered as foreign agent for Ivory Coast\'s Laurent Gbagbo; later charged with crimes against humanity by the ICC',
+  'Represented Equatorial Guinea\'s Teodoro Obiang Nguema; one of Africa\'s longest-ruling dictators with extensive human rights abuses',
+  'Lobbied for Honduras business community after the 2009 coup that overthrew a democratically elected president',
+  'Career exemplifies revolving door between government service and lobbying for controversial foreign clients',
  ],
  charges: [],
- relatedInvestigations: [
- ],
+ relatedInvestigations: [],
  timeline: [
+  { date: '1996-1998', event: 'Serves as Special Counsel to President Clinton during impeachment proceedings' },
+  { date: 'Post-2000', event: 'Builds crisis management practice representing foreign governments and controversial clients' },
+  { date: '2009', event: 'Lobbies for Honduras business community after coup against President Zelaya' },
+  { date: '2018', event: 'Serves as attorney and spokesperson for Michael Cohen during his break with Trump' },
  ],
  socialMedia: [],
  sources: [
+  { title: 'FARA Filings: Lanny Davis', url: 'https://efile.fara.gov', date: 'Various' },
  ],
  aliases: [],
  knownAssociates: [
+  { name: 'Bill Clinton', relationship: 'Served as Clinton\'s special counsel; longtime Clinton loyalist', href: '/entities/individuals/bill-clinton' },
+  { name: 'Michael Cohen', relationship: 'Represented Cohen during his break with Trump in 2018', href: '/entities/individuals/michael-cohen' },
  ],
  },
 
@@ -1062,26 +1075,43 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'larry-kellner': {
  name: 'Larry Kellner',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Larry Kellner. Profile pending review.',
+ title: 'Former Boeing Board Chairman',
+ role: 'Chairman of Boeing\'s Board of Directors during the 737 MAX crisis; oversaw the board that prioritized stock buybacks and executive compensation over safety culture reform',
+ riskLevel: 'high',
+ description: 'Lawrence W. "Larry" Kellner is a former CEO of Continental Airlines who served as Chairman of Boeing\'s Board of Directors from 2019 to 2024; assuming the chairmanship in the aftermath of the two 737 MAX crashes that killed 346 people (Lion Air Flight 610 in October 2018 and Ethiopian Airlines Flight 302 in March 2019). As board chairman; Kellner oversaw Boeing during a period of continued safety failures; whistleblower retaliation allegations; and quality control breakdowns. The board under Kellner authorized $44 billion in stock buybacks between 2013 and 2019 and signed off on $62 million in compensation for CEO Dennis Muilenburg even as the 737 MAX was grounded worldwide. The board was criticized for its deferred prosecution agreement with the Department of Justice in January 2021; in which Boeing paid $2.5 billion (including a $243.6 million criminal penalty) to resolve fraud charges related to the 737 MAX; the DOJ found Boeing pilots had deceived the FAA about the MCAS flight control system. In January 2024; an Alaska Airlines Boeing 737 MAX 9 door plug blew out mid-flight; exposing continued quality control failures years after the MAX crashes. Boeing whistleblowers; including John Barnett (who died in March 2024 during his legal deposition against Boeing; officially ruled a suicide) and Sam Salehpour; reported systemic safety and quality concerns. Kellner stepped down as chairman in 2024 amid calls for a complete overhaul of Boeing\'s leadership.',
+ birthDate: '',
+ birthPlace: '',
  education: [],
  affiliations: [
+  { name: 'Boeing', role: 'Chairman of the Board of Directors (2019-2024)', type: 'corporation' },
  ],
  controversies: [
- 'Investigative journalists have documented a pattern of revolving-door employment between Larry Kellner\'s operations and the regulatory bodies meant to provide oversight.',
- 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Larry Kellner coordinated messaging strategies designed to suppress unfavorable information.',
+  'Chaired Boeing\'s board during continued safety crises following two 737 MAX crashes that killed 346 people',
+  'Board authorized $44 billion in stock buybacks and $62 million CEO compensation while safety culture deteriorated',
+  'Oversaw Boeing during deferred prosecution agreement for fraud related to 737 MAX; $2.5 billion settlement',
+  'January 2024 Alaska Airlines door plug blowout exposed continued quality control failures under his chairmanship',
+  'Boeing whistleblower John Barnett died during legal deposition against Boeing during Kellner\'s tenure as chairman',
  ],
  charges: [],
  relatedInvestigations: [
+  { title: 'Boeing 737 Max Crashes', slug: 'boeing-737-max-crashes', severity: 'critical' },
  ],
  timeline: [
+  { date: '2019', event: 'Becomes Chairman of Boeing\'s Board of Directors after 737 MAX grounding' },
+  { date: 'January 2021', event: 'Boeing enters deferred prosecution agreement with DOJ over 737 MAX fraud; pays $2.5 billion' },
+  { date: 'January 5, 2024', event: 'Alaska Airlines 737 MAX 9 door plug blows out mid-flight; exposing continued safety failures' },
+  { date: 'March 2024', event: 'Boeing whistleblower John Barnett dies during legal deposition against Boeing' },
+  { date: '2024', event: 'Steps down as Boeing board chairman amid calls for leadership overhaul' },
  ],
  socialMedia: [],
- sources: [ ],
- aliases: [],
+ sources: [
+  { title: 'DOJ: Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov', date: 'January 2021' },
+  { title: 'NTSB: Alaska Airlines Door Plug Investigation', url: 'https://www.ntsb.gov', date: '2024' },
+ ],
+ aliases: ['Lawrence W. Kellner'],
  knownAssociates: [
+  { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX crisis whom the board eventually removed', href: '/entities/individuals/dennis-muilenburg' },
+  { name: 'David Calhoun', relationship: 'Boeing CEO under Kellner\'s chairmanship after Muilenburg', href: '/entities/individuals/david-calhoun' },
  ],
  },
 
@@ -1092,26 +1122,40 @@ const profiles: Record<string, IndividualProfile> = {
 
  'leanne-caret': {
  name: 'Leanne Caret',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Leanne Caret. Profile pending review.',
- education: [],
+ title: 'Former President and CEO; Boeing Defense; Space and Security',
+ role: 'Led Boeing\'s defense division; oversaw programs plagued by cost overruns; quality failures; and the Air Force One program that went billions over budget',
+ riskLevel: 'medium',
+ description: 'Leanne Caret served as President and CEO of Boeing Defense; Space and Security (BDS) from 2016 to 2022; overseeing the company\'s massive military and space contracting operations. Under her leadership; BDS experienced significant cost overruns and quality problems across multiple programs. The KC-46 Pegasus tanker program; Boeing\'s replacement for the Air Force\'s aerial refueling fleet; was plagued by defects including a problematic remote vision system and debris left inside fuel tanks. The Starliner crew capsule experienced repeated delays and failures; including a botched uncrewed orbital test in December 2019 caused by software errors. The Air Force One replacement program (VC-25B) went billions of dollars over Boeing\'s fixed-price contract; contributing to massive losses for the defense division. Caret\'s division also oversaw the SLS (Space Launch System) core stage; which experienced significant schedule delays and cost growth. In 2022; Boeing\'s defense division reported $2.8 billion in losses across several fixed-price development programs. Critics argued that Boeing\'s defense problems stemmed from the same management culture that produced the 737 MAX disasters: prioritizing financial engineering and executive compensation over engineering excellence; and cutting costs in ways that undermined quality and safety. Caret retired from Boeing in April 2022.',
+ birthDate: '',
+ birthPlace: '',
+ education: ['Indiana Institute of Technology'],
  affiliations: [
+  { name: 'Boeing', role: 'President and CEO; Defense; Space and Security (2016-2022)', type: 'corporation' },
  ],
  controversies: [
- 'Public filings and regulatory records indicate Leanne Caret facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- 'Internal documents obtained through litigation discovery show Leanne Caret was briefed on risks later downplayed in public communications.',
+  'Led Boeing\'s defense division during massive cost overruns across KC-46 tanker; Starliner; Air Force One; and SLS programs',
+  'KC-46 tanker plagued by defects including problematic vision system and debris left in fuel tanks',
+  'Starliner crew capsule experienced repeated failures including botched 2019 uncrewed orbital test',
+  'Air Force One replacement went billions over budget under fixed-price contract',
+  'Boeing defense division reported $2.8 billion in losses in 2022 across multiple programs',
  ],
  charges: [],
  relatedInvestigations: [
+  { title: 'Boeing 737 Max Crashes', slug: 'boeing-737-max-crashes', severity: 'critical' },
  ],
  timeline: [
+  { date: '2016', event: 'Becomes head of Boeing Defense; Space and Security' },
+  { date: 'December 2019', event: 'Starliner uncrewed orbital test fails due to software errors' },
+  { date: '2020-2022', event: 'Multiple defense programs experience billions in cost overruns and quality failures' },
+  { date: 'April 2022', event: 'Retires from Boeing' },
  ],
  socialMedia: [],
- sources: [ ],
+ sources: [
+  { title: 'Boeing Defense Division Financial Reports', url: 'https://www.boeing.com/company/annual-report', date: '2022' },
+ ],
  aliases: [],
  knownAssociates: [
+  { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during period of defense division cost overruns', href: '/entities/individuals/dennis-muilenburg' },
  ],
  },
 
@@ -1122,26 +1166,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  'lynn-good': {
  name: 'Lynn Good',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Lynn Good. Profile pending review.',
- education: [],
+ title: 'Former CEO; Duke Energy',
+ role: 'Led Duke Energy during the massive Dan River coal ash spill and fought against cleanup accountability while receiving $21 million annual compensation',
+ riskLevel: 'high',
+ description: 'Lynn J. Good served as CEO and President of Duke Energy from 2013 to 2024; leading one of the largest electric utilities in the United States. Under her leadership; Duke Energy was involved in the Dan River coal ash spill in February 2014; when a stormwater pipe beneath a coal ash basin at the company\'s retired Dan River Steam Station in Eden; North Carolina ruptured; releasing an estimated 39;000 tons of coal ash and 27 million gallons of contaminated water into the Dan River. The spill was one of the worst coal ash disasters in U.S. history. Duke Energy pleaded guilty to nine federal Clean Water Act violations in 2015 and paid $102 million in fines and restitution. The spill exposed decades of inadequate coal ash storage at Duke\'s 14 coal ash sites across North Carolina; where unlined pits allowed toxic heavy metals (arsenic; lead; mercury; selenium) to leach into groundwater; contaminating wells used by surrounding communities. State regulators (the North Carolina Department of Environment and Natural Resources) were later found to have had a cozy relationship with Duke; with emails showing coordination between the company and regulators to avoid stricter oversight. Former Governor Pat McCrory had worked at Duke Energy for 28 years before becoming governor. The company\'s coal ash cleanup costs are estimated at $8-10 billion; which Duke has sought to pass on to ratepayers. Good\'s total compensation during her tenure exceeded $21 million per year.',
+ birthDate: '',
+ birthPlace: '',
+ education: ['Miami University; B.S. Accounting and Systems Analysis'],
  affiliations: [
+  { name: 'Duke Energy', role: 'CEO and President (2013-2024)', type: 'corporation' },
  ],
  controversies: [
- 'Public filings and regulatory records indicate Lynn Good facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- 'Network analysis reveals Lynn Good holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+  'Oversaw Duke Energy during 2014 Dan River coal ash spill; 39;000 tons of ash and 27 million gallons of contaminated water released',
+  'Duke pleaded guilty to nine Clean Water Act violations; paid $102 million in fines and restitution',
+  'Company\'s 14 coal ash sites in North Carolina contaminated groundwater with arsenic; lead; mercury; and selenium for decades',
+  'State regulators found to have coordinated with Duke to avoid stricter oversight; former Governor McCrory was a 28-year Duke employee',
+  '$8-10 billion cleanup costs that Duke sought to pass on to ratepayers; while Good received over $21 million annual compensation',
  ],
  charges: [],
  relatedInvestigations: [
+  { title: 'Water Contamination Nationwide', slug: 'water-contamination-nationwide', severity: 'high' },
  ],
  timeline: [
+  { date: '2013', event: 'Becomes CEO and President of Duke Energy' },
+  { date: 'February 2, 2014', event: 'Dan River coal ash spill releases 39;000 tons of ash and 27 million gallons of contaminated water' },
+  { date: '2015', event: 'Duke Energy pleads guilty to nine Clean Water Act violations; pays $102 million' },
+  { date: '2015-2024', event: 'Coal ash cleanup across 14 North Carolina sites costs an estimated $8-10 billion' },
+  { date: '2024', event: 'Steps down as Duke Energy CEO' },
  ],
  socialMedia: [],
- sources: [ ],
- aliases: [],
+ sources: [
+  { title: 'U.S. v. Duke Energy Business Services; Plea Agreement', url: 'https://www.justice.gov', date: '2015' },
+  { title: 'EPA: Coal Ash Rule Compliance', url: 'https://www.epa.gov', date: '2015' },
+ ],
+ aliases: ['Lynn J. Good'],
  knownAssociates: [
+  { name: 'Pat McCrory', relationship: 'Former NC Governor and 28-year Duke Energy employee; regulators under his administration coordinated with Duke', href: '/entities/individuals/pat-mccrory' },
  ],
  },
 
@@ -1152,26 +1212,32 @@ const profiles: Record<string, IndividualProfile> = {
 
  'lirio-liu': {
  name: 'Lirio Liu',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Lirio Liu. Profile pending review.',
+ title: 'Former Boeing Senior Vice President',
+ role: 'Boeing executive who oversaw supply chain and quality oversight during the period of 737 MAX production quality failures',
+ riskLevel: 'medium',
+ description: 'Lirio Liu served as a Senior Vice President at Boeing; holding leadership roles in the company\'s quality assurance and supply chain management. She was part of Boeing\'s executive leadership during the period surrounding the 737 MAX crisis and the subsequent quality control breakdowns that plagued the company. Boeing\'s shift from an engineering-first culture to a finance-driven management approach; which accelerated after the 1997 merger with McDonnell Douglas; created systematic pressures to reduce costs and accelerate production at the expense of quality. This culture produced the conditions for the MCAS failures that caused two fatal crashes (346 killed); and continued quality problems including the January 2024 Alaska Airlines door plug blowout. Boeing whistleblowers including Sam Salehpour have described a culture where quality concerns were dismissed or penalized. Liu\'s specific responsibilities within Boeing\'s quality and supply chain structure placed her within the management hierarchy that oversaw the production processes subsequently criticized by the FAA; NTSB; and congressional investigators.',
+ birthDate: '',
+ birthPlace: '',
  education: [],
  affiliations: [
+  { name: 'Boeing', role: 'Senior Vice President', type: 'corporation' },
  ],
  controversies: [
- 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Lirio Liu coordinated messaging strategies designed to suppress unfavorable information.',
- 'Investigative journalists have documented a pattern of revolving-door employment between Lirio Liu\'s operations and the regulatory bodies meant to provide oversight.',
+  'Part of Boeing executive leadership during period of 737 MAX production quality failures',
+  'Boeing\'s management culture prioritized cost reduction over engineering quality; contributing to systematic safety problems',
  ],
  charges: [],
  relatedInvestigations: [
+  { title: 'Boeing 737 Max Crashes', slug: 'boeing-737-max-crashes', severity: 'critical' },
  ],
- timeline: [
- ],
+ timeline: [],
  socialMedia: [],
- sources: [ ],
+ sources: [
+  { title: 'Boeing Executive Profiles', url: 'https://www.boeing.com', date: '' },
+ ],
  aliases: [],
  knownAssociates: [
+  { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
  ],
  },
 
@@ -1182,26 +1248,40 @@ const profiles: Record<string, IndividualProfile> = {
 
  'larry-lawson': {
  name: 'Larry Lawson',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Larry Lawson. Profile pending review.',
+ title: 'Former CEO; Spirit AeroSystems',
+ role: 'Led Spirit AeroSystems; Boeing\'s key fuselage supplier; during a period of quality control failures that contributed to the 737 MAX door plug blowout',
+ riskLevel: 'medium',
+ description: 'Larry Lawson served as President and CEO of Spirit AeroSystems from 2013 to 2016. Spirit AeroSystems; headquartered in Wichita; Kansas; is the largest independent aerostructures manufacturer in the world and Boeing\'s primary supplier of fuselages for the 737 program. Boeing had spun off Spirit AeroSystems from its own Wichita operations in 2005 as part of cost-cutting measures; creating a supplier relationship that critics argue degraded quality oversight. Lawson; a former Lockheed Martin executive; led Spirit during a period of transition and cost pressure. The quality control issues at Spirit AeroSystems came under intense scrutiny after the January 5; 2024 Alaska Airlines 737 MAX 9 door plug blowout; which NTSB investigators traced to missing bolts on the door plug. The FAA subsequently grounded all 737 MAX 9 aircraft and began an extensive quality audit of both Boeing and Spirit AeroSystems. Spirit\'s quality problems were found to be systemic; FAA inspectors identified numerous defects and non-conformances in fuselage production. In 2024; Boeing announced it would reacquire Spirit AeroSystems; effectively reversing the 2005 spin-off and acknowledging that the outsourcing model had failed to maintain adequate quality control. Lawson\'s tenure at Spirit predates the worst of the publicly documented quality failures; but the production culture and cost pressures established during this period contributed to the systemic problems that later emerged.',
+ birthDate: '',
+ birthPlace: '',
  education: [],
  affiliations: [
+  { name: 'Spirit AeroSystems', role: 'President and CEO (2013-2016)', type: 'corporation' },
  ],
  controversies: [
- 'Internal documents obtained through litigation discovery show Larry Lawson was briefed on risks later downplayed in public communications.',
- 'Investigative analysis reveals Larry Lawson was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+  'Led Spirit AeroSystems; Boeing\'s key fuselage supplier; during period when quality control culture was established',
+  'Boeing\'s outsourcing of fuselage production to Spirit created quality oversight gaps critics link to later failures',
+  'Spirit AeroSystems quality problems found to be systemic after 2024 Alaska Airlines door plug blowout',
+  'Boeing reacquired Spirit in 2024; acknowledging the outsourcing model had failed to maintain adequate quality',
  ],
  charges: [],
  relatedInvestigations: [
+  { title: 'Boeing 737 Max Crashes', slug: 'boeing-737-max-crashes', severity: 'critical' },
  ],
  timeline: [
+  { date: '2005', event: 'Boeing spins off its Wichita operations to create Spirit AeroSystems as an independent supplier' },
+  { date: '2013', event: 'Lawson becomes President and CEO of Spirit AeroSystems' },
+  { date: '2016', event: 'Lawson leaves Spirit AeroSystems' },
+  { date: 'January 5, 2024', event: 'Alaska Airlines 737 MAX 9 door plug blowout traced to Spirit AeroSystems quality failures' },
+  { date: '2024', event: 'Boeing announces reacquisition of Spirit AeroSystems' },
  ],
  socialMedia: [],
- sources: [ ],
+ sources: [
+  { title: 'NTSB: Alaska Airlines Door Plug Investigation', url: 'https://www.ntsb.gov', date: '2024' },
+ ],
  aliases: [],
  knownAssociates: [
+  { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX crisis; Spirit was Boeing\'s key supplier', href: '/entities/individuals/dennis-muilenburg' },
  ],
  },
 
@@ -1493,26 +1573,42 @@ const profiles: Record<string, IndividualProfile> = {
 
  'larry-brock': {
  name: 'Larry Brock',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Larry Brock. Profile pending review.',
- education: [],
+ title: 'Retired Air Force Lieutenant Colonel; January 6 Defendant',
+ role: 'Retired Air Force officer who breached the U.S. Capitol on January 6; photographed on the Senate floor in tactical gear carrying zip-tie handcuffs',
+ riskLevel: 'high',
+ description: 'Larry Rendall Brock Jr. is a retired U.S. Air Force Lieutenant Colonel who participated in the January 6; 2021 breach of the U.S. Capitol. Brock was identified from widely circulated photographs showing him on the Senate floor wearing a tactical vest; helmet; and military-style gear; carrying a handful of plastic flex-cuffs (zip-tie handcuffs). The image of Brock and another participant (Eric Munchel; known as the "zip tie guy") carrying restraints on the Senate floor became one of the most alarming symbols of the insurrection; raising questions about whether some participants had planned to physically restrain lawmakers. Brock was a combat veteran who had served as an A-10 Thunderbolt II pilot; his military training and equipment made his participation particularly concerning to investigators. He was charged with obstruction of an official proceeding; entering a restricted building; disorderly conduct in the Capitol; and theft of government property (the flex-cuffs). Brock initially claimed he found the flex-cuffs on the floor and picked them up to prevent others from using them; though prosecutors argued his tactical preparation suggested premeditation. He pleaded guilty to a felony charge of obstruction of an official proceeding. Brock was sentenced to 22 months in federal prison. His case highlighted concerns about radicalization among military veterans and the participation of individuals with tactical training in the Capitol breach.',
+ birthDate: '',
+ birthPlace: 'Texas, USA',
+ education: ['United States Air Force Academy'],
  affiliations: [
+  { name: 'U.S. Air Force', role: 'Retired Lieutenant Colonel; A-10 pilot', type: 'agency' },
  ],
  controversies: [
- 'Third-party audit reports flagged irregularities in programs overseen by Larry Brock, though no formal investigation was initiated at the time.',
- 'Public filings and regulatory records indicate Larry Brock facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+  'Breached the U.S. Capitol on January 6 wearing tactical gear and carrying zip-tie handcuffs; photographed on the Senate floor',
+  'Image of a retired military officer with flex-cuffs on the Senate floor became one of the most alarming symbols of the insurrection',
+  'Military training and tactical preparation raised concerns about premeditated plans to restrain lawmakers',
+  'Pleaded guilty to felony obstruction of an official proceeding; sentenced to 22 months in federal prison',
  ],
- charges: [],
+ charges: [
+  { statute: '18 U.S.C. 1512(c)(2)', description: 'Obstruction of an official proceeding (felony; pleaded guilty)', category: 'Obstruction' },
+  { statute: '18 U.S.C. 1752', description: 'Entering a restricted building', category: 'Trespassing' },
+ ],
  relatedInvestigations: [
+  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
  ],
  timeline: [
+  { date: 'January 6, 2021', event: 'Breaches the U.S. Capitol wearing tactical gear and carrying zip-tie handcuffs; photographed on Senate floor' },
+  { date: 'January 10, 2021', event: 'Arrested by FBI after being identified from photographs' },
+  { date: '2022', event: 'Pleads guilty to felony obstruction of an official proceeding' },
+  { date: '2023', event: 'Sentenced to 22 months in federal prison' },
  ],
  socialMedia: [],
- sources: [ ],
+ sources: [
+  { title: 'U.S. v. Brock; DOJ Case File', url: 'https://www.justice.gov/usao-dc/defendants/brock-larry-rendall-jr', date: '2021' },
+ ],
  aliases: [],
  knownAssociates: [
+  { name: 'Eric Munchel', relationship: 'Fellow January 6 participant photographed with zip-tie handcuffs in the Capitol', href: '/entities/individuals/eric-munchel' },
  ],
  },
 
@@ -1571,25 +1667,41 @@ const profiles: Record<string, IndividualProfile> = {
 
  'larry-kudlow': {
  name: 'Larry Kudlow',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Larry Kudlow. Profile pending review.',
- education: [],
+ title: 'Former Director of the National Economic Council; Fox Business Host',
+ role: 'Trump\'s top economic adviser who repeatedly downplayed the COVID-19 pandemic\'s economic impact and defended tax cuts that disproportionately benefited corporations and wealthy individuals',
+ riskLevel: 'medium',
+ description: 'Lawrence Alan "Larry" Kudlow is an American financial commentator who served as Director of the National Economic Council under President Donald Trump from 2018 to 2021. Previously; Kudlow was a longtime CNBC host and commentator. In his role as Trump\'s top economic adviser; Kudlow repeatedly made statements that proved dramatically wrong. On February 25; 2020; he stated that the U.S. had "contained" the coronavirus and that the economy was "holding up nicely;" just weeks before the worst economic shutdown since the Great Depression. He continued to minimize the pandemic\'s economic impact as millions lost their jobs. Kudlow was a fierce advocate of the 2017 Tax Cuts and Jobs Act; which reduced the corporate tax rate from 35% to 21% and provided significant benefits to wealthy individuals. He claimed the tax cuts would "pay for themselves" through economic growth; a claim contradicted by the Congressional Budget Office; which estimated the law would add approximately $1.9 trillion to federal deficits over ten years. The tax cuts delivered massive stock buybacks (over $1 trillion in 2018 alone) rather than the promised wage increases for workers. Before entering government; Kudlow had a history of incorrect predictions; including dismissing the housing bubble in December 2007; just months before the financial crisis. He stated there was "no recession" in December 2007; the month the Great Recession officially began according to the National Bureau of Economic Research. After leaving the White House; Kudlow became a Fox Business Network host.',
+ birthDate: 'August 20, 1947',
+ birthPlace: 'Englewood, New Jersey, USA',
+ education: ['University of Rochester; B.A. History', 'Princeton University; Woodrow Wilson School (did not complete degree)'],
  affiliations: [
+  { name: 'National Economic Council', role: 'Director (2018-2021)', type: 'agency' },
+  { name: 'Fox Business Network', role: 'Host (2021-present)', type: 'corporation' },
  ],
  controversies: [
- 'Investigative journalists have documented a pattern of revolving-door employment between Larry Kudlow\'s operations and the regulatory bodies meant to provide oversight.',
- 'Public filings and regulatory records indicate Larry Kudlow facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+  'Stated on February 25; 2020 that the U.S. had "contained" the coronavirus; weeks before the worst economic shutdown since the Great Depression',
+  'Advocated for 2017 Tax Cuts and Jobs Act that added $1.9 trillion to deficits per CBO; contrary to claims it would "pay for itself"',
+  'Tax cuts produced over $1 trillion in corporate stock buybacks in 2018 rather than promised wage increases for workers',
+  'Stated there was "no recession" in December 2007; the exact month the Great Recession officially began',
+  'Dismissed the housing bubble in 2007 just months before the financial crisis',
  ],
  charges: [],
- relatedInvestigations: [
+ relatedInvestigations: [],
+ timeline: [
+  { date: 'August 20, 1947', event: 'Born in Englewood; New Jersey' },
+  { date: 'December 2007', event: 'States there is "no recession" the exact month the Great Recession officially begins' },
+  { date: 'April 2018', event: 'Becomes Director of the National Economic Council under Trump' },
+  { date: 'December 2017', event: 'Tax Cuts and Jobs Act signed; Kudlow claims it will "pay for itself"' },
+  { date: 'February 25, 2020', event: 'States U.S. has "contained" coronavirues; economy "holding up nicely"' },
+  { date: 'January 2021', event: 'Leaves government after Trump presidency; joins Fox Business' },
  ],
- timeline: [ ],
  socialMedia: [],
- sources: [ ],
+ sources: [
+  { title: 'CBO Analysis: Tax Cuts and Jobs Act', url: 'https://www.cbo.gov', date: '2018' },
+ ],
  aliases: [],
  knownAssociates: [
+  { name: 'Donald Trump', relationship: 'Served as Trump\'s top economic adviser as NEC Director', href: '/entities/individuals/donald-trump' },
  ],
  },
 
@@ -1601,26 +1713,41 @@ const profiles: Record<string, IndividualProfile> = {
 
  'louie-gohmert': {
  name: 'Louie Gohmert',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Louie Gohmert. Profile pending review.',
- education: [],
+ title: 'Former U.S. Representative; Texas',
+ role: 'Republican congressman who promoted election conspiracy theories; filed lawsuit to pressure Mike Pence to overturn the 2020 election; and spread disinformation about January 6',
+ riskLevel: 'medium',
+ description: 'Louie Buller Gohmert Jr. served as a Republican U.S. Representative from Texas\'s 1st Congressional District from 2005 to 2023. Gohmert was one of Congress\'s most vocal promoters of conspiracy theories and disinformation. In December 2020; Gohmert filed a federal lawsuit attempting to compel Vice President Mike Pence to reject certified electoral votes during the January 6 joint session of Congress; a legal theory rejected by the courts and nearly all constitutional scholars. On January 6; 2021; Gohmert voted to object to the certification of electoral votes from Arizona and Pennsylvania even after the Capitol breach. He promoted the conspiracy theory that the January 6 insurrection was actually a "false flag" operation conducted by the FBI or Antifa disguised as Trump supporters; despite overwhelming evidence to the contrary including testimony from Trump\'s own appointees. Gohmert also promoted debunked claims about election fraud; including conspiracy theories about Dominion Voting Systems. He spread COVID-19 misinformation; suggesting that wearing masks might actually cause infections. He tested positive for COVID-19 in July 2020 after refusing to wear a mask in the Capitol. Earlier in his career; Gohmert was known for inflammatory statements on the House floor; including claiming that "terror babies" were being born in the U.S. by foreign terrorist operatives and making unfounded suggestions connecting the Muslim Brotherhood to the Obama administration. He retired in 2022 to unsuccessfully run for Texas Attorney General.',
+ birthDate: 'August 18, 1953',
+ birthPlace: 'Pittsburg, Texas, USA',
+ education: ['Texas A&M University; B.A.', 'Baylor Law School; J.D.'],
  affiliations: [
+  { name: 'United States Congress', role: 'Representative; Texas 1st District (2005-2023)', type: 'agency' },
  ],
  controversies: [
- 'Investigative analysis reveals Louie Gohmert was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
- 'Network analysis reveals Louie Gohmert holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+  'Filed federal lawsuit attempting to compel Pence to reject certified electoral votes; rejected by courts',
+  'Voted to object to 2020 election certification even after the January 6 Capitol breach',
+  'Promoted conspiracy theory that January 6 was a "false flag" by FBI or Antifa despite overwhelming contrary evidence',
+  'Spread COVID-19 misinformation suggesting masks could cause infections; tested positive after refusing to wear one',
+  'Promoted debunked election fraud claims about Dominion Voting Systems',
+  'Made unfounded claims about "terror babies" and connections between Muslim Brotherhood and the Obama administration',
  ],
  charges: [],
- relatedInvestigations: [
- ],
+ relatedInvestigations: [],
  timeline: [
+  { date: 'August 18, 1953', event: 'Born in Pittsburg; Texas' },
+  { date: '2005', event: 'Begins serving in U.S. House of Representatives' },
+  { date: 'December 2020', event: 'Files lawsuit attempting to compel Pence to reject electoral votes' },
+  { date: 'January 6, 2021', event: 'Votes to object to electoral certification from Arizona and Pennsylvania after Capitol breach' },
+  { date: '2021-2022', event: 'Promotes conspiracy theory that January 6 was a false-flag operation' },
+  { date: '2022', event: 'Retires from Congress; loses Republican primary for Texas Attorney General' },
  ],
  socialMedia: [],
- sources: [ ],
+ sources: [
+  { title: 'Gohmert v. Pence; U.S. District Court', url: 'https://www.courtlistener.com', date: '2020' },
+ ],
  aliases: [],
  knownAssociates: [
+  { name: 'Donald Trump', relationship: 'Promoted Trump\'s election fraud claims and voted to overturn 2020 results', href: '/entities/individuals/donald-trump' },
  ],
  },
 
@@ -1631,25 +1758,39 @@ const profiles: Record<string, IndividualProfile> = {
 
  'lee-zeldin': {
  name: 'Lee Zeldin',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Lee Zeldin. Profile pending review.',
- education: [],
+ title: 'EPA Administrator (Trump Administration)',
+ role: 'EPA Administrator who has pursued aggressive deregulation of environmental protections; previously a U.S. Representative who voted against certifying 2020 election results',
+ riskLevel: 'medium',
+ description: 'Lee Michael Zeldin is an American politician who served as a Republican U.S. Representative from New York\'s 1st Congressional District from 2015 to 2023. He was appointed by President Trump as Administrator of the Environmental Protection Agency in 2025. As a congressman; Zeldin voted to object to the certification of the 2020 presidential election results on January 6; 2021; supporting challenges to electoral votes from Arizona and Pennsylvania. He ran unsuccessfully for Governor of New York in 2022 against Kathy Hochul. As EPA Administrator; Zeldin has pursued an aggressive deregulatory agenda aligned with Trump\'s "energy dominance" priorities. He has moved to weaken or roll back Obama-era climate regulations; including fuel efficiency standards and methane emission rules for oil and gas operations. Environmental groups have criticized his approach as prioritizing fossil fuel industry interests over public health and environmental protection. Zeldin has stated his goal is to "make the EPA great again" while reducing what he characterizes as regulatory overreach. His confirmation was controversial given his limited environmental policy background and his record of voting against environmental legislation in Congress. During his time in the House; Zeldin received significant campaign contributions from the fossil fuel industry and voted against the Inflation Reduction Act; which contained the largest climate investment in U.S. history.',
+ birthDate: 'January 30, 1980',
+ birthPlace: 'East Meadow, New York, USA',
+ education: ['University at Albany; B.A.', 'Albany Law School; J.D.'],
  affiliations: [
+  { name: 'Environmental Protection Agency', role: 'Administrator (2025-present)', type: 'agency' },
+  { name: 'United States Congress', role: 'Former Representative; New York 1st District (2015-2023)', type: 'agency' },
  ],
  controversies: [
- 'Investigative journalists have documented a pattern of revolving-door employment between Lee Zeldin\'s operations and the regulatory bodies meant to provide oversight.',
- 'Congressional hearing transcripts reference Lee Zeldin in connection with policy decisions that disproportionately benefited associated financial interests.',
+  'Voted to object to the certification of 2020 election results on January 6; 2021; supporting challenges to Arizona and Pennsylvania electors',
+  'As EPA Administrator; pursuing aggressive rollback of climate and environmental protections',
+  'Limited environmental policy background prior to EPA appointment; received significant fossil fuel campaign contributions',
+  'Voted against the Inflation Reduction Act; the largest climate investment in U.S. history',
  ],
  charges: [],
- relatedInvestigations: [
+ relatedInvestigations: [],
+ timeline: [
+  { date: 'January 30, 1980', event: 'Born in East Meadow; New York' },
+  { date: '2015', event: 'Begins serving in U.S. House of Representatives' },
+  { date: 'January 6, 2021', event: 'Votes to object to 2020 election certification' },
+  { date: 'November 2022', event: 'Loses New York gubernatorial race to Kathy Hochul' },
+  { date: '2025', event: 'Confirmed as EPA Administrator under Trump' },
  ],
- timeline: [ ],
  socialMedia: [],
- sources: [ ],
+ sources: [
+  { title: 'EPA Administrator Profile', url: 'https://www.epa.gov', date: '2025' },
+ ],
  aliases: [],
  knownAssociates: [
+  { name: 'Donald Trump', relationship: 'Appointed Zeldin as EPA Administrator', href: '/entities/individuals/donald-trump' },
  ],
  },
 
