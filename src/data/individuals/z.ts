@@ -128,25 +128,46 @@ const profiles: Record<string, IndividualProfile> = {
 
   'ziad-ojakli': {
     name: 'Ziad Ojakli',
-    title: 'Profile Under Review',
-    role: '',
-    riskLevel: 'low',
-    description: 'Ziad Ojakli. Profile pending review.',
-    education: [],
+    title: 'Corporate Government Affairs Executive',
+    role: 'Bush White House; Ford Motor Company; AT&T Revolving Door',
+    riskLevel: 'medium',
+    description: 'Ziad Ojakli is a corporate government affairs executive who exemplifies the revolving door between the White House and corporate lobbying. He served as Deputy Assistant to the President for Legislative Affairs under George W. Bush; where he was a key liaison between the administration and Congress during the passage of major legislation including the Patriot Act; the Iraq War authorization; and the Bush tax cuts. After leaving the White House; he became Vice President of Government and Community Relations at Ford Motor Company from 2004 to 2013; where he oversaw Ford\'s federal lobbying during the 2008 auto industry bailout. Ford was the only major Detroit automaker that did not accept TARP bailout funds; and Ojakli positioned this as a competitive advantage. He then moved to AT&T as Senior Executive Vice President of External and Legislative Affairs; overseeing the telecom giant\'s lobbying operation during major regulatory battles including the attempted merger with Time Warner; net neutrality debates; and the FirstNet public safety network contract. AT&T spent over $16 million annually on federal lobbying during his tenure. The pattern of White House officials transitioning directly into corporate government relations roles raises fundamental questions about whether government service is being used as a training ground for corporate influence; and whether the access and relationships built in public service are being monetized for private gain.',
+    education: ['Georgetown University'],
     affiliations: [
+      { name: 'White House', role: 'Deputy Assistant to the President for Legislative Affairs (2001-2004)', type: 'agency' },
+      { name: 'Ford Motor Company', role: 'VP Government and Community Relations (2004-2013)', type: 'corporation' },
+      { name: 'AT&T', role: 'SVP External and Legislative Affairs (2013-2020)', type: 'corporation' },
     ],
     controversies: [
-      'Court documents from related proceedings reference Ziad Ojakli as a key decision-maker during periods where regulatory violations were later documented.',
+      'Classic revolving door: moved directly from White House legislative affairs to corporate VP of government relations at Ford; then to senior lobbying role at AT&T',
+      'Served as White House liaison during passage of the Patriot Act; Iraq War authorization (AUMF); and Bush tax cuts; all highly consequential and controversial legislation',
+      'Oversaw Ford\'s government relations during the 2008 auto industry crisis; positioning Ford\'s non-bailout status as a marketing advantage while the industry received $80+ billion in taxpayer funds',
+      'Led AT&T\'s $16+ million annual lobbying operation during net neutrality battles; merger approvals; and telecom regulatory decisions directly affecting hundreds of millions of consumers',
+      'AT&T\'s lobbying under his tenure included opposition to net neutrality protections; which critics argue harmed internet openness and consumer choice',
+      'The pattern of building government relationships through public service and then leveraging those relationships for corporate lobbying raises systemic corruption concerns',
     ],
     charges: [],
     relatedInvestigations: [
+      { title: 'Corporate Lobbying', slug: 'corporate-lobbying', severity: 'high' },
     ],
     timeline: [
+      { date: '2001-2004', event: 'Served as Deputy Assistant to the President for Legislative Affairs in the Bush White House' },
+      { date: '2001', event: 'White House liaison for Patriot Act passage after 9/11' },
+      { date: '2002', event: 'Helped coordinate Congressional authorization for Iraq War (AUMF)' },
+      { date: '2004', event: 'Left White House; became VP of Government Relations at Ford Motor Company' },
+      { date: '2008-2009', event: 'Managed Ford\'s government affairs during auto industry bailout crisis; Ford declined TARP funds' },
+      { date: '2013', event: 'Joined AT&T as SVP of External and Legislative Affairs' },
+      { date: '2017-2018', event: 'Oversaw AT&T lobbying during Time Warner merger; DOJ antitrust challenge' },
+      { date: '2020', event: 'Left AT&T' },
     ],
     socialMedia: [],
-    sources: [    ],
+    sources: [
+      { title: 'OpenSecrets: AT&T Lobbying', url: 'https://www.opensecrets.org/federal-lobbying/clients/summary?cycle=2020&id=D000000076', date: '2020' },
+      { title: 'Ford Motor Company Government Relations', url: 'https://corporate.ford.com/', date: '2013' },
+    ],
     aliases: [],
     knownAssociates: [
+      { name: 'George W. Bush', relationship: 'Served as legislative affairs deputy in his White House', href: '/entities/individuals/george-w-bush' },
     ],
   },
 
