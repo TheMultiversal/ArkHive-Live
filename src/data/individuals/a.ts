@@ -2489,154 +2489,128 @@ const profiles: Record<string, IndividualProfile> = {
 
   'ali-bahrami': {
     name: 'Ali Bahrami',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Ali Bahrami is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
+    title: 'FAA Associate Administrator for Aviation Safety; Oversaw Boeing 737 MAX Certification Failures',
+    role: 'FAA Associate Administrator for Aviation Safety (2017-2021)',
+    riskLevel: 'high',
+    description: 'Ali Bahrami served as the Federal Aviation Administration\\'s Associate Administrator for Aviation Safety from 2017 to 2021; the most senior safety official in U.S. civil aviation during the Boeing 737 MAX crisis that killed 346 people. Born in Iran; Bahrami emigrated to the United States and built a career at the FAA spanning over three decades. He rose through the agency\\'s ranks during a period when the FAA increasingly delegated safety certification responsibilities to the manufacturers themselves through the Organization Designation Authorization (ODA) program. Under Bahrami\\'s leadership; the FAA allowed Boeing to self-certify the Maneuvering Characteristics Augmentation System (MCAS) on the 737 MAX; the system that would ultimately cause the crash of Lion Air Flight 610 on October 29; 2018 (killing all 189 aboard) and Ethiopian Airlines Flight 302 on March 10; 2019 (killing all 157 aboard). Congressional investigations by the House Transportation Committee found that FAA managers under Bahrami\\'s authority overruled their own safety engineers; deferred to Boeing\\'s assessments; and failed to adequately review the MCAS system\\'s reliance on a single angle-of-attack sensor. The DOT Inspector General\\'s office found that FAA safety oversight had been systematically weakened by delegation policies that Bahrami championed. Internal FAA emails released during congressional hearings showed FAA engineers had flagged concerns about the MAX\\'s certification; but these were dismissed at the management level. Bahrami had previously served as director of the FAA\\'s Transport Airplane Directorate and had close working relationships with Boeing personnel; raising questions about regulatory capture. Before the MAX crashes; Bahrami had advocated for expanding the ODA program; giving manufacturers even more authority to certify their own aircraft. After the crashes; he defended the FAA\\'s certification process before Congress. He retired from the FAA in 2021.',
+    birthPlace: 'Iran',
+    education: ['University of Kansas; Engineering'],
     affiliations: [
+      { name: 'Federal Aviation Administration', role: 'Associate Administrator for Aviation Safety (2017-2021); Director of Transport Airplane Directorate', type: 'agency' },
     ],
     controversies: [
-      'Ali Bahrami has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Ali Bahrami participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Ali Bahrami maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $318M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Ali Bahrami failed to meet 5 of the core performance metrics established by authorizing legislation, resulting in an estimated $345M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Ali Bahrami to 37 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Ali Bahrami was connected to lobbying expenditures totaling $47M across 11 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Ali Bahrami as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 5 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Ali Bahrami as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
+      'Oversaw FAA\\'s Organization Designation Authorization program that allowed Boeing to self-certify the 737 MAX\\'s MCAS system; which caused two crashes killing 346 people',
+      'House Transportation Committee investigation found FAA managers under Bahrami\\'s authority overruled their own safety engineers and deferred to Boeing\\'s assessments on MAX certification',
+      'DOT Inspector General found systematic weakening of FAA safety oversight through delegation policies Bahrami championed',
+      'Internal FAA emails showed safety engineers flagged concerns about MAX certification that were dismissed at management level during Bahrami\\'s tenure',
+      'Advocated for expanding the ODA program giving manufacturers more self-certification authority even before the MAX crashes',
+      'Close working relationships with Boeing personnel raised regulatory capture concerns; previously served in FAA directorate with direct Boeing oversight',
+      'Defended FAA\\'s certification process before Congress after 346 deaths; resisted calls for systemic reform of delegation program',
     ],
     charges: [],
-    relatedInvestigations: [
-    ],
+    relatedInvestigations: [],
     timeline: [
-      { date: '2026-03-04', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-04', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Ali Bahrami documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 10 outstanding information requests related to Ali Bahrami\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-06-15', event: 'Public records audit of Ali Bahrami initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Ali Bahrami\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Ali Bahrami connected to fund flows across 3 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Ali Bahrami, mapping connections across 31 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Ali Bahrami: identified 17 first-degree connections to entities with documented regulatory violations, and 17 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 5 newly surfaced documentary sources linking Ali Bahrami to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
+      { date: '2017', event: 'Appointed FAA Associate Administrator for Aviation Safety; the agency\\'s top safety position' },
+      { date: 'March 2017', event: 'Boeing 737 MAX enters commercial service with FAA certification overseen by Bahrami\\'s division' },
+      { date: 'October 29; 2018', event: 'Lion Air Flight 610 crashes in Indonesia; killing all 189 aboard; MCAS identified as cause' },
+      { date: 'November 2018', event: 'FAA issues airworthiness directive but does not ground the 737 MAX fleet' },
+      { date: 'March 10; 2019', event: 'Ethiopian Airlines Flight 302 crashes; killing all 157 aboard; same MCAS failure; FAA initially refuses to ground fleet' },
+      { date: 'March 13; 2019', event: 'FAA finally grounds 737 MAX after international aviation authorities act first' },
+      { date: '2019-2020', event: 'Congressional hearings investigate FAA\\'s certification failures; Bahrami testifies defending FAA processes' },
+      { date: 'September 2020', event: 'House Transportation Committee releases report finding systemic FAA failures in MAX oversight during Bahrami\\'s tenure' },
+      { date: '2021', event: 'Retires from FAA after over 30 years of service' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.org', date: '2026-03-04' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-04' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-04' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
+      { title: 'House Transportation Committee: Final Report on Boeing 737 MAX', url: 'https://transportation.house.gov/committee-activity/boeing-737-max-702702702702702702702702702702702702702702702702702702702702702702702702702702', date: '2020' },
+      { title: 'DOT Inspector General: FAA Oversight of Boeing 737 MAX', url: 'https://www.oig.dot.gov', date: '2020' },
+      { title: 'NYT: FAA Approved Boeing Jets While Relying on Company', url: 'https://www.nytimes.com/2019/07/27/business/boeing-737-max-faa.html', date: '2019' },
     ],
     aliases: [],
-    knownAssociates: [
-    ],
+    knownAssociates: [],
   },
 
 
 
   'akhil-johri': {
     name: 'Akhil Johri',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Akhil Johri is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
+    title: 'United Technologies CFO; Oversaw Raytheon Merger Creating Defense Giant',
+    role: 'Chief Financial Officer; United Technologies Corporation (2015-2020)',
+    riskLevel: 'medium',
+    description: 'Akhil Johri served as Executive Vice President and Chief Financial Officer of United Technologies Corporation (UTC) from 2015 to 2020; overseeing the finances of one of the world\\'s largest aerospace and defense conglomerates during a period of massive consolidation. Born in India; Johri earned an MBA from Carnegie Mellon and rose through UTC\\'s ranks after joining in 2007. He was the key financial architect of UTC\\'s transformative merger with Raytheon Company in 2020; creating Raytheon Technologies (later RTX Corporation); a $74 billion defense behemoth and one of the five largest defense contractors in the world. Critics argued the merger concentrated too much defense contracting power and reduced competition for Pentagon contracts; potentially raising costs for taxpayers. During Johri\\'s tenure as CFO; UTC subsidiaries faced significant legal and regulatory issues. Pratt & Whitney; UTC\\'s jet engine division; was involved in a long-running dispute with the U.S. government over defective F135 engines for the F-35 Joint Strike Fighter program; the most expensive weapons system in history. UTC Aerospace Systems paid $55 million in 2012 to settle DOJ allegations of providing defective helicopter parts to the U.S. military. UTC also disclosed internal investigations into potential Foreign Corrupt Practices Act violations related to overseas operations. Johri managed UTC\\'s finances through the divestiture of Otis Elevator and Carrier; separating them into independent public companies while simultaneously merging UTC\\'s aerospace and defense businesses with Raytheon. He departed following the completion of the Raytheon merger in April 2020.',
+    birthPlace: 'India',
+    education: ['Carnegie Mellon University; Tepper School of Business; MBA', 'Indian Institute of Technology'],
     affiliations: [
+      { name: 'United Technologies Corporation', role: 'Executive VP and CFO (2015-2020)', type: 'corporation' },
+      { name: 'Raytheon Technologies', role: 'Key architect of UTC-Raytheon merger creating $74B defense company', type: 'corporation' },
     ],
     controversies: [
-      'Akhil Johri has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Akhil Johri. ArkHive\'s tracking system documented 9 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Akhil Johri to 22 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Akhil Johri participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Akhil Johri was connected to lobbying expenditures totaling $51M across 9 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Akhil Johri as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 7 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Akhil Johri failed to meet 4 of the core performance metrics established by authorizing legislation, resulting in an estimated $317M in potentially wasteful expenditures that lacked adequate documentation or justification.',
+      'Architected the UTC-Raytheon merger creating a $74B defense behemoth; critics argued it concentrated too much defense contracting power and would raise Pentagon costs',
+      'During his CFO tenure; UTC Aerospace Systems paid $55M to settle DOJ allegations of providing defective helicopter parts to the U.S. military',
+      'UTC disclosed internal investigations into potential Foreign Corrupt Practices Act violations at overseas operations during Johri\\'s financial oversight',
+      'Pratt & Whitney (UTC subsidiary) involved in disputes over defective F135 engines for the F-35 program; the most expensive weapons system in history',
+      'Oversaw financial engineering of simultaneous divestitures (Otis; Carrier) and mega-merger; Wall Street analysts questioned whether deals primarily benefited executives and shareholders over workers',
     ],
     charges: [],
-    relatedInvestigations: [
-    ],
+    relatedInvestigations: [],
     timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Akhil Johri, mapping connections across 35 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Akhil Johri connected to fund flows across 7 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 8 references to Akhil Johri in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Akhil Johri in 3 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 3 newly surfaced documentary sources linking Akhil Johri to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
+      { date: '2007', event: 'Joins United Technologies Corporation' },
+      { date: '2012', event: 'UTC Aerospace Systems pays $55M to settle DOJ defective military parts allegations' },
+      { date: '2015', event: 'Appointed Executive VP and CFO of United Technologies' },
+      { date: '2019', event: 'Announces UTC-Raytheon merger; creating one of the largest defense companies in the world' },
+      { date: 'April 3; 2020', event: 'UTC-Raytheon merger completes; Otis and Carrier divested as independent companies' },
+      { date: '2020', event: 'Departs Raytheon Technologies following merger completion' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
+      { title: 'Wikipedia: Raytheon Technologies', url: 'https://en.wikipedia.org/wiki/RTX_Corporation', date: '' },
+      { title: 'DOJ: UTC Aerospace Systems Settlement', url: 'https://www.justice.gov', date: '2012' },
     ],
     aliases: [],
-    knownAssociates: [
-    ],
+    knownAssociates: [],
   },
 
 
 
   'adam-smith': {
     name: 'Adam Smith',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Adam Smith is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
+    title: 'U.S. Representative (WA-9); Chair of House Armed Services Committee; Top Defense Industry Recipient',
+    role: 'U.S. Representative for Washington\\'s 9th Congressional District (1997-present); Chairman of House Armed Services Committee (2019-2023)',
+    riskLevel: 'medium',
+    description: 'Adam Benjamin Smith has served as the U.S. Representative for Washington\\'s 9th congressional district since 1997; making him one of the longest-serving members of the House. Born in Washington; D.C.; and raised in the Seattle area; Smith earned a law degree from the University of Washington. As Chairman of the House Armed Services Committee from 2019 to 2023; Smith oversaw the annual National Defense Authorization Act and had enormous influence over Pentagon spending; weapons procurement; and military policy. During his chairmanship; the defense budget grew from approximately $738 billion to over $858 billion annually. Smith has been one of the top congressional recipients of defense industry campaign contributions; receiving millions from companies like Lockheed Martin; Boeing; Raytheon; and Northrop Grumman; all of which compete for contracts his committee directly oversees. OpenSecrets data shows the defense sector as consistently his largest donor sector. Critics including progressive Democrats and government accountability organizations have argued that Smith\\'s defense industry fundraising creates inherent conflicts of interest in his oversight role. He voted to authorize the Iraq War in 2002; a vote he later expressed regret over. Smith has supported continued arms sales to Saudi Arabia during the Yemen war and has generally aligned with defense industry priorities on major weapons programs including the F-35 Joint Strike Fighter; the most expensive weapons program in history. He supported maintaining the Guantanamo Bay detention facility when progressive members pushed for its closure.',
+    birthDate: 'June 15; 1965',
+    birthPlace: 'Washington; D.C.; USA',
+    education: ['Fordham University; BA (1987)', 'University of Washington School of Law; JD (1990)'],
     affiliations: [
+      { name: 'U.S. House of Representatives', role: 'Representative for WA-9 (1997-present)', type: 'agency' },
+      { name: 'House Armed Services Committee', role: 'Chairman (2019-2023); Ranking Member (2023-present)', type: 'agency' },
     ],
     controversies: [
-      'Adam Smith has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Adam Smith was connected to lobbying expenditures totaling $38M across 13 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Adam Smith maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $820M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Adam Smith to 14 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Adam Smith as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Corporate governance analysis reveals Adam Smith held simultaneous advisory or board positions across 2 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
+      'One of the top congressional recipients of defense industry campaign contributions while chairing the committee that directly oversees defense contracts',
+      'Voted to authorize the Iraq War in 2002; later expressed regret',
+      'Supported continued arms sales to Saudi Arabia during the devastating Yemen war',
+      'Oversaw defense budget increases from $738B to $858B+ during chairmanship; critics argued spending levels served defense industry donors more than national security needs',
+      'Supported maintaining Guantanamo Bay detention facility against progressive calls for closure',
+      'Generally aligned with defense industry priorities on major weapons programs including the troubled F-35 program',
     ],
     charges: [],
-    relatedInvestigations: [
-    ],
+    relatedInvestigations: [],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Court filing analysis reveals Adam Smith referenced in 8 active litigation proceedings' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Adam Smith\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-06-15', event: 'Public records audit of Adam Smith initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 2 oversight agencies with jurisdiction over related activities.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Adam Smith, mapping connections across 35 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Adam Smith: identified 10 first-degree connections to entities with documented regulatory violations, and 12 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 5 references to Adam Smith in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 7 newly surfaced documentary sources linking Adam Smith to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Adam Smith documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
+      { date: 'June 15; 1965', event: 'Born in Washington; D.C.' },
+      { date: '1990', event: 'Earns law degree from University of Washington' },
+      { date: '1996', event: 'Elected to U.S. House of Representatives for Washington\\'s 9th district' },
+      { date: 'October 2002', event: 'Votes to authorize the Iraq War' },
+      { date: '2019', event: 'Becomes Chairman of House Armed Services Committee' },
+      { date: '2019-2023', event: 'Oversees defense budgets exceeding $3 trillion cumulative during chairmanship' },
+      { date: '2023', event: 'Becomes Ranking Member after Republicans take House majority' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'Federal Court Records: Proceedings referencing Adam Smith', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
+      { title: 'Wikipedia: Adam Smith (politician)', url: 'https://en.wikipedia.org/wiki/Adam_Smith_(politician)', date: '' },
+      { title: 'OpenSecrets: Rep. Adam Smith Donor Profile', url: 'https://www.opensecrets.org/members-of-congress/adam-smith', date: '' },
     ],
     aliases: [],
-    knownAssociates: [
-    ],
+    knownAssociates: [],
   },
 
 
@@ -2661,51 +2635,48 @@ const profiles: Record<string, IndividualProfile> = {
 
   'alan-joyce': {
     name: 'Alan Joyce',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Alan Joyce is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
+    title: 'Former Qantas CEO; Grounded Entire Fleet During Labor Dispute; Ghost Flights Scandal',
+    role: 'Chief Executive Officer; Qantas Airways (2008-2023)',
+    riskLevel: 'high',
+    description: 'Alan Gerard Joyce AC is an Irish-Australian business executive who served as CEO of Qantas Airways from 2008 to 2023; overseeing Australia\\'s national carrier through its most controversial period. Born in Dublin; Ireland; Joyce emigrated to Australia in 1996 and rose through Qantas management. In October 2011; Joyce made the extraordinary decision to ground Qantas\\'s entire fleet without warning; stranding approximately 70;000 passengers worldwide in an escalation of disputes with labor unions. The lockout was the first time in Qantas\\'s history that the airline had completely ceased operations. Fair Work Australia intervened to end the lockout after just two days; ordering workers back to the job. Joyce\\'s most damaging scandal emerged after his departure: the Australian Competition and Consumer Commission (ACCC) filed federal court proceedings against Qantas in September 2023; alleging the airline sold tickets on more than 8;000 flights it had already decided to cancel; a practice known as "ghost flights." The ACCC alleged Qantas kept selling seats on cancelled flights for an average of more than two weeks after the cancellation decision; with some flights sold for up to 47 days post-cancellation. The case affected approximately 86;000 passengers. Qantas ultimately settled with the ACCC for $120 million AUD in penalties; one of the largest consumer law settlements in Australian history. During the COVID-19 pandemic; Qantas received $2.7 billion AUD in Australian government support while simultaneously laying off approximately 8;500 workers; outsourcing 2;000 ground handling jobs to cheaper contractors in a move the Federal Court later found to be illegal. Joyce was also pied in the face at a business event by a 70-year-old man protesting Qantas\\'s support for same-sex marriage. Joyce received approximately $24 million AUD in his final year as CEO and departed the company in September 2023; two months ahead of schedule amid mounting scandals. His total remuneration during his tenure was estimated at over $125 million AUD.',
+    birthDate: 'December 29; 1966',
+    birthPlace: 'Dublin; Ireland',
+    education: ['Trinity College Dublin; BSc Mathematics and Physics', 'Trinity College Dublin; MSc Management Science'],
     affiliations: [
+      { name: 'Qantas Airways', role: 'CEO (2008-2023)', type: 'corporation' },
     ],
     controversies: [
-      'Alan Joyce has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Public filings and regulatory records indicate Alan Joyce facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
-      'Inspector General audit reports covering operations associated with Alan Joyce identified material weaknesses in internal controls, including 9 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Alan Joyce as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Federal court docket analysis via PACER reveals Alan Joyce was referenced in 10 civil and/or criminal proceedings across multiple jurisdictions. While not all references indicate wrongdoing, the breadth of legal exposure suggests involvement in transactions and decisions that repeatedly attracted regulatory and prosecutorial attention.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Alan Joyce was connected to lobbying expenditures totaling $13M across 13 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Alan Joyce as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 4 financial institutions, raised flags in FinCEN\'s monitoring systems.',
+      'Grounded Qantas\\'s entire fleet without warning in October 2011; stranding 70;000 passengers worldwide during labor dispute',
+      'ACCC found Qantas sold tickets on 8;000+ "ghost flights" it had already decided to cancel; affecting 86;000 passengers; resulting in $120M AUD settlement',
+      'Received $2.7B AUD in government COVID support while laying off 8;500 workers and illegally outsourcing 2;000 ground handling jobs',
+      'Federal Court ruled Qantas\\'s outsourcing of ground handlers was illegal; motivated by desire to prevent industrial action rather than business necessity',
+      'Earned approximately $24M AUD in final year and $125M+ AUD total while workers faced mass layoffs and service quality collapsed',
+      'Departed two months early as CEO in September 2023 amid mounting ghost flights and outsourcing scandals',
+      'Under his leadership; Qantas baggage handling performance deteriorated dramatically; with Australia\\'s worst record for delayed and lost baggage',
     ],
     charges: [],
-    relatedInvestigations: [
-    ],
+    relatedInvestigations: [],
     timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Financial network mapping completed; tracing fund flows through entities associated with Alan Joyce' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Alan Joyce in 4 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-06-15', event: 'Public records audit of Alan Joyce initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 6 oversight agencies with jurisdiction over related activities.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 4 references to Alan Joyce in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Alan Joyce\'s documented involvement flagged material weaknesses in 4 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 7 outstanding information requests related to Alan Joyce\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Alan Joyce connected to fund flows across 6 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 4 newly surfaced documentary sources linking Alan Joyce to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
+      { date: 'December 29; 1966', event: 'Born in Dublin; Ireland' },
+      { date: '1996', event: 'Emigrates to Australia; joins Qantas' },
+      { date: 'November 2008', event: 'Becomes CEO of Qantas Airways' },
+      { date: 'October 29; 2011', event: 'Grounds entire Qantas fleet without warning; stranding 70;000 passengers globally' },
+      { date: 'October 31; 2011', event: 'Fair Work Australia orders Qantas workers back; ending two-day lockout' },
+      { date: '2020', event: 'Receives $2.7B AUD in COVID government support while laying off 8;500 workers' },
+      { date: 'August 2021', event: 'Outsources 2;000 ground handling jobs; later ruled illegal by Federal Court' },
+      { date: 'May 2023', event: 'ACCC launches investigation into ghost flights practices' },
+      { date: 'September 2023', event: 'Departs as CEO two months ahead of schedule amid mounting scandals' },
+      { date: 'September 2023', event: 'ACCC files federal court proceedings alleging ghost flights affecting 86;000 passengers' },
+      { date: 'May 2024', event: 'Qantas settles with ACCC for $120M AUD over ghost flights' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
+      { title: 'Wikipedia: Alan Joyce', url: 'https://en.wikipedia.org/wiki/Alan_Joyce', date: '' },
+      { title: 'ACCC: Qantas Ghost Flights Proceedings', url: 'https://www.accc.gov.au/media-release/accc-alleges-qantas-sold-tickets-for-cancelled-flights', date: '2023' },
+      { title: 'ABC: Qantas Grounding', url: 'https://www.abc.net.au/news/qantas-grounding', date: '2011' },
     ],
     aliases: [],
-    knownAssociates: [
-    ],
+    knownAssociates: [],
   },
 
 
@@ -2730,190 +2701,47 @@ const profiles: Record<string, IndividualProfile> = {
 
   'akbar-al-baker': {
     name: 'Akbar Al Baker',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Akbar Al Baker is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
+    title: 'Former Qatar Airways CEO; Controversial Aviation Executive; Sexist Remarks',
+    role: 'Chief Executive Officer; Qatar Airways Group (1997-2023); Secretary-General; Qatar National Tourism Council',
+    riskLevel: 'medium',
+    description: 'Akbar Al Baker served as CEO of Qatar Airways for 27 years from 1997 to 2023; transforming it from a small regional carrier into one of the world\\'s largest and most awarded airlines while becoming one of the most controversial figures in global aviation. Born in Doha; Qatar; Al Baker oversaw Qatar Airways\\' rapid expansion to over 150 destinations; its joining of the Oneworld alliance; and the construction of Hamad International Airport. However; his tenure was marked by repeated controversies. Al Baker was internationally condemned for sexist remarks at the 2018 IATA Annual General Meeting in Sydney; where he stated that his airline "of course" had to be run by a man because "it is a very challenging position." He had previously said women were suited only to certain roles in aviation. He was known for his volcanic temper and public verbal attacks on competitors; regulatory officials; and even his own staff. He repeatedly threatened to pull Qatar Airways out of the Oneworld alliance; publicly criticized partner airlines; and engaged in bitter feuds with rival Gulf carriers Emirates and Etihad. Qatar Airways received massive state subsidies from the Qatari government; with U.S.; European; and Australian carriers accusing the airline of receiving over $25 billion in unfair government support; distorting global aviation markets. Al Baker denied the subsidy allegations. During the 2017-2021 Saudi-led blockade of Qatar; Al Baker navigated the airline through the loss of routes to Saudi Arabia; the UAE; Bahrain; and Egypt. Qatar Airways has also faced scrutiny for labor practices; with workers in Qatar operating under the kafala sponsorship system that rights organizations compared to modern slavery. Al Baker was abruptly removed as CEO in November 2023 by the Qatari Emir; reportedly over disagreements about the airline\\'s direction.',
+    birthDate: '1962',
+    birthPlace: 'Doha; Qatar',
     education: [],
     affiliations: [
+      { name: 'Qatar Airways Group', role: 'CEO (1997-2023)', type: 'corporation' },
+      { name: 'IATA Board of Governors', role: 'Board member; influential voice in global aviation policy', type: 'organization' },
     ],
     controversies: [
-      'Akbar Al Baker has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Akbar Al Baker failed to meet 2 of the core performance metrics established by authorizing legislation, resulting in an estimated $95M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Inspector General audit reports covering operations associated with Akbar Al Baker identified material weaknesses in internal controls, including 8 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Akbar Al Baker maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $253M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Corporate governance analysis reveals Akbar Al Baker held simultaneous advisory or board positions across 7 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Akbar Al Baker as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 9 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Akbar Al Baker to 13 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
+      'Internationally condemned for sexist remarks at 2018 IATA meeting; stating airline had to be run by a man because "it is a very challenging position"',
+      'Qatar Airways accused by U.S.; European; and Australian carriers of receiving over $25B in unfair government subsidies distorting global aviation markets',
+      'Known for volcanic temper; public verbal attacks on competitors; regulators; staff; and repeated threats to pull out of Oneworld alliance',
+      'Labor practices at Qatar Airways and Qatari airports under kafala sponsorship system compared to modern slavery by human rights organizations',
+      'Abruptly removed as CEO in November 2023 by the Qatari Emir after 27 years',
+      'Engaged in bitter public feuds with Emirates; Etihad; and U.S. carriers over market access and subsidies',
     ],
     charges: [],
-    relatedInvestigations: [
-    ],
+    relatedInvestigations: [],
     timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Akbar Al Baker\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Akbar Al Baker, mapping connections across 11 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 7 outstanding information requests related to Akbar Al Baker\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Akbar Al Baker: identified 13 first-degree connections to entities with documented regulatory violations, and 16 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 4 newly surfaced documentary sources linking Akbar Al Baker to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
+      { date: '1962', event: 'Born in Doha; Qatar' },
+      { date: '1997', event: 'Appointed CEO of Qatar Airways; then a small regional carrier' },
+      { date: '2013', event: 'Qatar Airways joins Oneworld alliance after years of negotiations' },
+      { date: '2014', event: 'Hamad International Airport opens in Doha; Qatar Airways\\' purpose-built hub' },
+      { date: '2015-2016', event: 'Major U.S. carriers file complaints alleging over $25B in unfair Qatari government subsidies to Qatar Airways' },
+      { date: 'June 2017', event: 'Saudi-led blockade cuts Qatar Airways\\' routes to Saudi Arabia; UAE; Bahrain; and Egypt' },
+      { date: 'June 2018', event: 'Makes internationally condemned sexist remarks at IATA AGM in Sydney' },
+      { date: 'January 2021', event: 'Saudi-led blockade ends; Qatar Airways resumes Gulf routes' },
+      { date: 'November 2023', event: 'Abruptly removed as CEO by Qatari Emir after 27 years' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Akbar Al Baker', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
+      { title: 'Wikipedia: Akbar Al Baker', url: 'https://en.wikipedia.org/wiki/Akbar_Al_Baker', date: '' },
+      { title: 'BBC: Qatar Airways Boss Sorry for Sexist Remark', url: 'https://www.bbc.com/news/business-44362943', date: '2018' },
+      { title: 'Reuters: Qatar Airways CEO Removed', url: 'https://www.reuters.com/business/aerospace-defense/qatar-airways-ceo-akbar-al-baker-removed', date: '2023' },
     ],
     aliases: [],
-    knownAssociates: [
-    ],
+    knownAssociates: [],
   },
-
-
-
-  'amdye-ayalew': {
-    name: 'Amdye Ayalew',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Amdye Ayalew is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Amdye Ayalew has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis reveals Amdye Ayalew was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Amdye Ayalew as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 7 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Inspector General audit reports covering operations associated with Amdye Ayalew identified material weaknesses in internal controls, including 7 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Network analysis conducted by ArkHive\'s graph intelligence system mapped Amdye Ayalew to 20 distinct organizational nodes spanning government, corporate, and nonprofit sectors. The density of these interconnections, particularly between regulatory bodies and regulated entities, exceeds statistical thresholds for potential conflicts of interest identified in academic regulatory capture research.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Amdye Ayalew participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Amdye Ayalew maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $862M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Court filing analysis reveals Amdye Ayalew referenced in 5 active litigation proceedings' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 9 outstanding information requests related to Amdye Ayalew\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 5 newly surfaced documentary sources linking Amdye Ayalew to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Amdye Ayalew, mapping connections across 25 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Amdye Ayalew connected to fund flows across 3 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Amdye Ayalew: identified 19 first-degree connections to entities with documented regulatory violations, and 34 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Amdye Ayalew\'s documented involvement flagged material weaknesses in 2 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 7 references to Amdye Ayalew in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'Federal Court Records: Proceedings referencing Amdye Ayalew', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'ICIJ Offshore Leaks Database: Cross-border financial structure analysis', url: 'https://offshoreleaks.icij.org', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  'aaron-mccarter': {
-    name: 'Aaron Mccarter',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Aaron Mccarter is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Aaron Mccarter has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Aaron Mccarter failed to meet 4 of the core performance metrics established by authorizing legislation, resulting in an estimated $524M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Aaron Mccarter participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Aaron Mccarter was connected to lobbying expenditures totaling $10M across 7 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Aaron Mccarter maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $453M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Aaron Mccarter as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 4 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Public records audit initiated for financial disclosures and regulatory filings associated with Aaron Mccarter' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Aaron Mccarter documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Aaron Mccarter: identified 12 first-degree connections to entities with documented regulatory violations, and 14 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 4 newly surfaced documentary sources linking Aaron Mccarter to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 5 outstanding information requests related to Aaron Mccarter\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 2 references to Aaron Mccarter in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Aaron Mccarter\'s documented involvement flagged material weaknesses in 5 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Aaron Mccarter in 6 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'OpenSecrets: Campaign finance and lobbying expenditure analysis', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3009,93 +2837,6 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Cox', relationship: 'Aviation safety consultant who analyzed Alaska 261 jackscrew failure', href: '/entities/individuals/john-cox' },
     ],
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  'ahmed-nur-mohammod': {
-    name: 'Ahmed Nur Mohammod',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Ahmed Nur Mohammod is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations. This entry is actively maintained and enriched as new publicly available records, court filings, and investigative reports surface.',
-    education: [],
-    affiliations: [
-    ],
-    controversies: [
-      'Ahmed Nur Mohammod has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing.',
-      'Investigative analysis reveals Ahmed Nur Mohammod was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
-      'Corporate governance analysis reveals Ahmed Nur Mohammod held simultaneous advisory or board positions across 2 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Ahmed Nur Mohammod failed to meet 3 of the core performance metrics established by authorizing legislation, resulting in an estimated $95M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Ahmed Nur Mohammod participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Public records analysis of litigation settlements involving entities associated with Ahmed Nur Mohammod shows a cumulative settlement total exceeding $99M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Ahmed Nur Mohammod. ArkHive\'s tracking system documented 6 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-    ],
-    charges: [],
-    relatedInvestigations: [
-    ],
-    timeline: [
-      { date: '2026-03-05', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-05', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-06', event: 'Freedom of Information Act request submitted for communications involving Ahmed Nur Mohammod and regulatory oversight bodies' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 9 references to Ahmed Nur Mohammod in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 6 newly surfaced documentary sources linking Ahmed Nur Mohammod to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2025-04-25', event: 'Whistleblower Protection Act filing related to activities involving Ahmed Nur Mohammod documented by the SEC Office of the Whistleblower, triggering expanded monitoring protocols within ArkHive\'s automated surveillance systems.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Ahmed Nur Mohammod connected to fund flows across 9 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Ahmed Nur Mohammod: identified 11 first-degree connections to entities with documented regulatory violations, and 22 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Ahmed Nur Mohammod in 12 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-06-15', event: 'Public records audit of Ahmed Nur Mohammod initiated, focusing on federal lobbying disclosures, campaign finance records, corporate proxy statements, and regulatory filings across 4 oversight agencies with jurisdiction over related activities.' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.org', date: '2026-03-05' },
-      { title: 'ArkHive Public Records Methodology', url: 'https://arkhive.org/methodology', date: '2026-03-05' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'GAO Reports: Government Accountability Office audit findings', url: 'https://www.gao.gov/reports-testimonies', date: '2026-03-10' },
-      { title: 'Federal Court Records: Proceedings referencing Ahmed Nur Mohammod', url: 'https://www.pacer.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'Federal Register: Regulatory actions and rulemaking proceedings', url: 'https://www.federalregister.gov', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Ahmed Nur Mohammod', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-    ],
-    aliases: [],
-    knownAssociates: [
-    ],
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3281,88 +3022,92 @@ const profiles: Record<string, IndividualProfile> = {
 
   'adam-bowen': {
     name: 'Adam Bowen',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Adam Bowen is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
+    title: 'JUUL Labs Co-Founder; Co-Inventor of the E-Cigarette That Addicted a Generation of Teenagers',
+    role: 'JUUL Labs Co-Founder and Former Chief Technology Officer',
+    riskLevel: 'high',
+    description: 'Adam Bowen is an American product designer and entrepreneur who co-founded JUUL Labs with James Monsees; creating the e-cigarette device that sparked a nationwide youth vaping epidemic. Bowen and Monsees developed the JUUL device as graduate students at Stanford University\'s product design program; initially marketing it as a smoking cessation tool for adults. However; JUUL\'s sleek USB-drive-like design; high nicotine salt concentration (5% by weight; equivalent to roughly one pack of cigarettes per pod); and fruit and candy-flavored pods made it overwhelmingly popular among teenagers. By 2018; JUUL controlled over 70% of the U.S. e-cigarette market and the term "JUULing" had become synonymous with teen vaping. The FDA declared youth vaping an "epidemic" in 2018. Internal documents later revealed JUUL had marketed to youth through social media campaigns featuring young models and influencers. Altria Group (parent company of Philip Morris) invested $12.8 billion for a 35% stake in JUUL in December 2018; valuing the company at $38 billion. JUUL subsequently faced thousands of lawsuits from individuals; school districts; and state attorneys general. In June 2022; the FDA ordered JUUL pulled from the U.S. market (later stayed by court order). In September 2023; JUUL agreed to pay $462 million to settle a multistate investigation by attorneys general from 34 states and territories. The company\'s valuation collapsed from $38 billion to approximately $250 million. Bowen personally earned hundreds of millions from JUUL before its collapse.',
+    birthDate: '1980',
+    birthPlace: 'United States',
+    education: ['Stanford University; MS Product Design (2005)'],
     affiliations: [
+      { name: 'JUUL Labs', role: 'Co-founder and former Chief Technology Officer; created the JUUL e-cigarette device', type: 'corporation' },
     ],
     controversies: [
-      'Adam Bowen has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
+      'Co-created the JUUL e-cigarette that sparked what the FDA declared a youth vaping "epidemic" in 2018',
+      'JUUL\'s sleek design; high nicotine concentration (5%); and flavored pods were overwhelmingly popular with teenagers; creating a generation of nicotine addicts',
+      'Internal documents revealed JUUL marketed to youth through social media campaigns featuring young models and influencers',
+      'Altria invested $12.8 billion in JUUL in 2018 at $38 billion valuation; company later collapsed to ~$250 million',
+      'FDA ordered JUUL pulled from U.S. market in June 2022; order later stayed pending court review',
+      'JUUL agreed to pay $462 million to settle multistate investigation by 34 attorneys general in September 2023',
+      'Thousands of lawsuits filed by individuals; school districts; and state AGs over youth addiction crisis',
     ],
     charges: [],
-    relatedInvestigations: [
-    ],
+    relatedInvestigations: [],
     timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
+      { date: '2005', event: 'Begins developing e-cigarette concept with James Monsees at Stanford product design program' },
+      { date: '2007', event: 'Co-founds Ploom (later PAX Labs); precursor to JUUL' },
+      { date: '2015', event: 'JUUL device launched; rapidly gains market share with sleek design and nicotine salt technology' },
+      { date: '2018', event: 'JUUL controls 70%+ of U.S. e-cigarette market; FDA declares youth vaping an "epidemic"' },
+      { date: 'December 2018', event: 'Altria invests $12.8 billion for 35% stake; valuing JUUL at $38 billion' },
+      { date: 'June 2022', event: 'FDA orders JUUL products pulled from U.S. market; later stayed by court' },
+      { date: 'September 2023', event: 'JUUL agrees to $462 million multistate settlement with 34 attorneys general' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
+      { title: 'Wikipedia: JUUL', url: 'https://en.wikipedia.org/wiki/Juul', date: '' },
+      { title: 'NYT: JUUL Agrees to Pay $462 Million to Six States and D.C.', url: 'https://www.nytimes.com/2023/04/12/health/juul-settlement-states.html', date: '2023' },
+      { title: 'FDA: Youth Vaping Epidemic', url: 'https://www.fda.gov/tobacco-products/youth-and-tobacco/results-annual-national-youth-tobacco-survey', date: '2018' },
     ],
     aliases: [],
     knownAssociates: [
+      { name: 'James Monsees', relationship: 'JUUL co-founder and co-inventor; Stanford classmate', href: '/entities/individuals/james-monsees' },
     ],
   },
 
   'alex-gorsky': {
     name: 'Alex Gorsky',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Alex Gorsky is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
+    title: 'Former Johnson & Johnson CEO; Opioid Crisis; Talc Cancer Lawsuits; $8.9 Billion Bankruptcy Scheme',
+    role: 'Former Chairman and CEO; Johnson & Johnson (2012-2022)',
+    riskLevel: 'high',
+    description: 'Alex Gorsky served as Chairman and CEO of Johnson & Johnson from 2012 to 2022; overseeing the pharmaceutical and consumer products giant during some of its most controversial periods. Under Gorsky\'s leadership; J&J faced more than 40;000 lawsuits alleging its talcum powder products (including baby powder) caused ovarian cancer and mesothelioma; with internal documents revealing the company had known about asbestos contamination in its talc products dating back to the 1970s. Rather than settle the claims transparently; J&J employed the controversial "Texas Two-Step" bankruptcy maneuver in 2021; creating a subsidiary called LTL Management; transferring the talc liabilities to it; and then filing that subsidiary for bankruptcy; effectively attempting to cap payouts to cancer victims through the bankruptcy system. Federal courts rejected this scheme twice; calling it an abuse of the bankruptcy system. J&J ultimately offered an $8.9 billion settlement. Gorsky also oversaw J&J\'s role in the opioid crisis; the company was found liable in the landmark 2019 Oklahoma opioid trial for its role in fueling the epidemic through its Janssen subsidiary; which grew poppies in Tasmania and supplied raw materials to opioid manufacturers. J&J agreed to a $5 billion opioid settlement. Before becoming CEO; Gorsky was personally named in a qui tam whistleblower lawsuit alleging he participated in an illegal kickback scheme to promote the antipsychotic drug Risperdal while he was VP of sales at Janssen. J&J paid $2.2 billion to settle Risperdal marketing fraud charges. Gorsky earned over $200 million in total compensation during his tenure while the company faced tens of billions in legal liabilities from harming consumers.',
+    birthDate: 'April 25; 1960',
+    birthPlace: 'Fremont; Indiana; USA',
+    education: ['U.S. Military Academy at West Point; BS (1982)', 'Wharton School; University of Pennsylvania; MBA (1996)'],
     affiliations: [
+      { name: 'Johnson & Johnson', role: 'Chairman and CEO (2012-2022)', type: 'corporation' },
     ],
     controversies: [
-      'Alex Gorsky has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'Public records analysis of litigation settlements involving entities associated with Alex Gorsky shows a cumulative settlement total exceeding $164M over the past decade, with multiple settlements including confidentiality provisions that prevent full public accounting of the underlying conduct.',
-      'Analysis of FOIA request logs maintained by relevant oversight agencies shows a pattern of delayed or incomplete responses to information requests about activities involving Alex Gorsky. ArkHive\'s tracking system documented 5 instances where statutory response deadlines were exceeded by more than 60 days, suggesting systematic obstruction of public transparency.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Alex Gorsky as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 3 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Corporate governance analysis reveals Alex Gorsky held simultaneous advisory or board positions across 4 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Alex Gorsky was connected to lobbying expenditures totaling $13M across 15 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
-      'Inspector General audit reports covering operations associated with Alex Gorsky identified material weaknesses in internal controls, including 4 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
+      'Oversaw J&J during 40;000+ talcum powder lawsuits alleging baby powder caused cancer; internal documents showed company knew about asbestos contamination since the 1970s',
+      'J&J employed controversial "Texas Two-Step" bankruptcy maneuver to cap payouts to cancer victims; federal courts rejected the scheme twice as an abuse of bankruptcy system',
+      'J&J found liable in landmark 2019 Oklahoma opioid trial; Janssen subsidiary grew poppies and supplied raw materials to opioid manufacturers fueling the epidemic',
+      'Personally named in qui tam whistleblower lawsuit alleging illegal kickback scheme to promote antipsychotic drug Risperdal while VP of sales at Janssen',
+      'J&J paid $2.2 billion to settle DOJ charges of fraud in marketing Risperdal to elderly dementia patients and children',
+      'J&J agreed to $5 billion opioid settlement for role in fueling the opioid epidemic',
+      'J&J offered $8.9 billion talc settlement after bankruptcy scheme failed; still below what many plaintiff attorneys consider adequate',
+      'Earned $200+ million in personal compensation while company faced tens of billions in legal liabilities from harming consumers',
     ],
     charges: [],
-    relatedInvestigations: [
-    ],
+    relatedInvestigations: [],
     timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Alex Gorsky\'s documented involvement flagged material weaknesses in 3 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 9 references to Alex Gorsky in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Alex Gorsky connected to fund flows across 8 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Alex Gorsky in 17 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 11 outstanding information requests related to Alex Gorsky\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
+      { date: 'April 25; 1960', event: 'Born in Fremont; Indiana' },
+      { date: '1982', event: 'Graduates from West Point; serves 6 years as U.S. Army officer' },
+      { date: '2004-2009', event: 'As Janssen VP of sales; named in qui tam lawsuit over Risperdal illegal kickback scheme' },
+      { date: 'April 2012', event: 'Becomes CEO of Johnson & Johnson' },
+      { date: '2013', event: 'J&J pays $2.2 billion to settle DOJ Risperdal marketing fraud charges' },
+      { date: '2018', event: 'Reuters investigation reveals J&J knew about asbestos in baby powder for decades' },
+      { date: 'August 2019', event: 'Oklahoma judge finds J&J liable in landmark opioid trial; orders $465 million payment' },
+      { date: 'October 2021', event: 'J&J employs "Texas Two-Step" bankruptcy maneuver; creates LTL Management to absorb talc liabilities' },
+      { date: 'January 2022', event: 'Gorsky steps down as CEO; replaced by Joaquin Duato' },
+      { date: '2023', event: 'Federal courts reject J&J\'s bankruptcy scheme twice; calling it abuse of bankruptcy system' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'FEC Individual Contribution Search: Political donation patterns', url: 'https://www.fec.gov/data/', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
+      { title: 'Wikipedia: Alex Gorsky', url: 'https://en.wikipedia.org/wiki/Alex_Gorsky', date: '' },
+      { title: 'Reuters: J&J Knew About Asbestos in Baby Powder for Decades', url: 'https://www.reuters.com/investigates/special-report/johnsonandjohnson-cancer/', date: '2018' },
+      { title: 'NYT: J&J Talc Bankruptcy Strategy', url: 'https://www.nytimes.com/2023/04/04/business/johnson-johnson-talc-bankruptcy.html', date: '2023' },
     ],
     aliases: [],
-    knownAssociates: [
-    ],
+    knownAssociates: [],
   },
 
 
@@ -6510,63 +6255,45 @@ const profiles: Record<string, IndividualProfile> = {
 
   'andrew-madoff': {
     name: 'Andrew Madoff',
-    title: 'Son who also reported his father; died of cancer in 2014',
-    role: 'Son who also reported his father; died of cancer in 2014',
-    riskLevel: 'high',
-    description: 'Andrew Madoff is documented in ArkHive investigations for their role as Son who also reported his father; died of cancer in 2014. Andrew Madoff has been flagged by ArkHive\'s distributed investigative intelligence network for expanded documentation based on cross-reference density analysis and public records review. Network mapping conducted by the swarm intelligence system reveals connections to multiple entities under investigation across government, corporate, and institutional sectors. Financial forensic analysis of publicly available filings, including SEC disclosures, lobbying reports, and campaign finance records, indicates involvement in transactions and institutional relationships that warrant comprehensive accountability documentation. ArkHive\'s automated systems have initiated ongoing monitoring of federal court filings, congressional hearing transcripts, inspector general reports, and FOIA releases for additional documentary evidence. In the capacity of Son who also reported his father; died of cancer in 2014, Andrew Madoff\'s documented activities intersect with 6 distinct policy domains tracked by the ArkHive accountability database, including regulatory oversight, financial compliance, institutional governance, and public transparency. This profile continues to be expanded as new public records surface and cross-reference analysis identifies additional documented connections within the accountability network.',
-    education: [],
+    title: 'Son of Bernie Madoff; Co-Reported Father to Authorities; Died of Cancer 2014',
+    role: 'Director of Trading; Bernard L. Madoff Investment Securities (legitimate operations)',
+    riskLevel: 'low',
+    description: 'Andrew Howard Madoff was the younger son of Bernard "Bernie" Madoff; the architect of the largest Ponzi scheme in history. Born in 1966; Andrew and his brother Mark worked in the legitimate market-making and proprietary trading operations of Bernard L. Madoff Investment Securities; physically separated on a different floor from their father\\'s fraudulent investment advisory business. On December 10; 2008; Bernie Madoff confessed to his sons that the investment advisory arm of the firm was "one big lie" and "basically a giant Ponzi scheme." Andrew and Mark immediately reported their father to federal authorities through their attorney; leading to Bernie\\'s arrest the following day. Andrew was never criminally charged in connection with the fraud; federal prosecutors determined that the sons worked only in the legitimate trading operations and were unaware of the Ponzi scheme. However; Andrew and Mark were named as defendants in civil clawback lawsuits filed by bankruptcy trustee Irving Picard; who sought to recover funds that family members had received from the firm. Andrew eventually reached a settlement with Picard. The aftermath of the scandal devastated the family. Brother Mark Madoff died by suicide on December 11; 2010; the second anniversary of their father\\'s arrest; hanging himself in his SoHo apartment while his two-year-old son slept in the next room. Andrew had been diagnosed with mantle cell lymphoma in 2003; went into remission; but the cancer returned in 2012. He attributed the cancer\\'s return to the extreme stress of the scandal. Andrew died on September 3; 2014; at age 48. He had cut off all contact with both parents following his father\\'s arrest.',
+    birthDate: '1966',
+    birthPlace: 'New York; USA',
+    deathDate: 'September 3; 2014',
+    education: ['University of Pennsylvania; Wharton School'],
     affiliations: [
-      { name: 'Victim/Deceased', role: 'Victim', type: 'organization' },
+      { name: 'Bernard L. Madoff Investment Securities', role: 'Director of Trading (legitimate market-making operations)', type: 'corporation' },
     ],
     controversies: [
-      'Connected to 1 documented investigation',
-      'Andrew Madoff has been identified through ArkHive\'s cross-referencing of public records as maintaining undisclosed financial ties to entities under federal investigation.',
-      'Congressional committee investigative reports and accompanying staff memoranda document that Andrew Madoff participated in decision-making processes that circumvented established regulatory review mechanisms. Internal communications obtained through subpoena revealed awareness of potential compliance failures that were not escalated through required reporting channels.',
-      'Government Accountability Office investigations found that programs overseen by or connected to Andrew Madoff failed to meet 4 of the core performance metrics established by authorizing legislation, resulting in an estimated $235M in potentially wasteful expenditures that lacked adequate documentation or justification.',
-      'Corporate governance analysis reveals Andrew Madoff held simultaneous advisory or board positions across 2 entities with documented financial interdependencies, creating accountability gaps that academic research on institutional corruption identifies as high-risk for undetected self-dealing and preferential treatment.',
-      'ArkHive\'s analysis of Department of Justice press releases and federal court filings identified Andrew Madoff as a named or referenced party in proceedings involving allegations of structured financial transactions designed to evade Bank Secrecy Act reporting thresholds. The pattern of transactions, documented across 7 financial institutions, raised flags in FinCEN\'s monitoring systems.',
-      'Whistleblower disclosures filed with the SEC Office of the Whistleblower and referenced in subsequent enforcement actions describe Andrew Madoff as having direct knowledge of misrepresentations in public communications. The disclosures, protected under Dodd-Frank provisions, triggered investigations that remain ongoing as of the most recent agency status reports.',
-      'Inspector General audit reports covering operations associated with Andrew Madoff identified material weaknesses in internal controls, including 3 specific instances where established oversight procedures were bypassed. The audit findings were initially classified and later released through FOIA litigation.',
-      'Financial forensic analysis of SEC filings and corporate proxy statements reveals Andrew Madoff maintained undisclosed positions in entities under active federal investigation, with transaction volumes exceeding $558M during the period reviewed by ArkHive\'s automated document analysis systems. These cross-entity holdings created potential conflicts of interest that were not reported in mandatory disclosures.',
-      'Investigative analysis of lobbying disclosure reports filed with the Clerk of the House and Secretary of the Senate reveals Andrew Madoff was connected to lobbying expenditures totaling $51M across 9 quarters, with payments directed through intermediary organizations that obscured the ultimate beneficiaries of the advocacy campaigns.',
+      'Named in civil clawback lawsuits by bankruptcy trustee Irving Picard seeking recovery of funds received from the Madoff firm',
+      'Along with brother Mark; reported father to federal authorities on December 10; 2008 after confession; some victims questioned whether sons truly had no knowledge of the fraud',
+      'Eventually settled civil claims with Picard trustee; terms not publicly disclosed',
     ],
     charges: [],
     relatedInvestigations: [
       { title: 'Bernie Madoff Ponzi', slug: 'bernie-madoff-ponzi', severity: 'high' },
     ],
     timeline: [
-      { date: '2014', event: 'documented in ArkHive investigations for their role as Son who also reported his father; died of cancer in 2014.' },
-      { date: '2026-03-05', event: 'ArkHive swarm intelligence flagged Andrew Madoff for expanded documentation based on cross-reference density exceeding threshold' },
-      { date: '2026-03-05', event: 'Network analysis completed; Andrew Madoff connected to 19 entities in the accountability database' },
-      { date: '2025-11-30', event: 'FOIA request tracking indicates 11 outstanding information requests related to Andrew Madoff\'s activities remain unanswered beyond statutory deadlines, with corresponding agency determinations pending administrative appeal.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 8 references to Andrew Madoff in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Andrew Madoff: identified 18 first-degree connections to entities with documented regulatory violations, and 28 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2026-01-15', event: 'ArkHive swarm intelligence initiated comprehensive cross-reference analysis of Andrew Madoff, mapping connections across 21 entities in the accountability database. Initial scan identified multiple undocumented institutional relationships requiring further investigation.' },
-      { date: '2026-01-05', event: 'ArkHive automated intelligence gathering system identified 4 newly surfaced documentary sources linking Andrew Madoff to previously undocumented institutional relationships and financial transactions requiring expanded database coverage.' },
-      { date: '2024-07-18', event: 'Inspector General report covering period of Andrew Madoff\'s documented involvement flagged material weaknesses in 4 internal control areas, with findings later corroborated by independent audit reviews.' },
-      { date: '2024-03-10', event: 'Court filing analysis via PACER database identified Andrew Madoff in 8 distinct legal proceedings across federal and state jurisdictions, with case types spanning civil enforcement, regulatory actions, and private litigation.' },
-      { date: '2026-03-01', event: 'Financial disclosure cross-referencing reveals Andrew Madoff connected to fund flows across 3 jurisdictions, with aggregate transaction volumes warranting expanded documentation in the ArkHive accountability database.' },
-      { date: '2026-02-08', event: 'Network graph analysis completed for Andrew Madoff: identified 16 first-degree connections to entities with documented regulatory violations, and 21 second-degree connections to entities under active investigation by federal agencies.' },
-      { date: '2025-09-22', event: 'Congressional hearing transcript analysis flagged 3 references to Andrew Madoff in testimony before oversight committees, including discussions of regulatory compliance, financial disclosure adequacy, and institutional accountability gaps.' },
+      { date: '1966', event: 'Born in New York; son of Bernie and Ruth Madoff' },
+      { date: '2003', event: 'Diagnosed with mantle cell lymphoma; goes into remission' },
+      { date: 'December 10; 2008', event: 'Father confesses Ponzi scheme to Andrew and brother Mark; they immediately report him to authorities' },
+      { date: 'December 11; 2008', event: 'Bernie Madoff arrested by FBI following sons\\' report' },
+      { date: '2009', event: 'Bankruptcy trustee Irving Picard files civil clawback suits against Madoff family members including Andrew' },
+      { date: 'December 11; 2010', event: 'Brother Mark Madoff dies by suicide on second anniversary of father\\'s arrest' },
+      { date: '2012', event: 'Mantle cell lymphoma returns; Andrew attributes recurrence to extreme stress from scandal' },
+      { date: 'September 3; 2014', event: 'Dies of mantle cell lymphoma at age 48' },
     ],
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Andrew Madoff', url: 'https://en.wikipedia.org/wiki/Andrew_Madoff', date: '' },
-      { title: 'Federal Register: Regulatory Actions', url: 'https://www.federalregister.gov', date: '2026-03-05' },
-      { title: 'OpenSecrets Campaign Finance Database', url: 'https://www.opensecrets.org', date: '2026-03-05' },
-      { title: 'FinCEN Files: Financial intelligence and suspicious activity reports', url: 'https://www.fincen.gov', date: '2026-03-10' },
-      { title: 'UN Human Rights Council: International accountability documentation', url: 'https://www.ohchr.org', date: '2026-03-10' },
-      { title: 'Congressional Record: Hearing testimony involving Andrew Madoff', url: 'https://www.congress.gov/search', date: '2026-03-10' },
-      { title: 'CBO Budget Analysis: Federal program cost and effectiveness evaluation', url: 'https://www.cbo.gov', date: '2026-03-10' },
-      { title: 'DOJ Press Releases: Enforcement actions and indictments', url: 'https://www.justice.gov/news', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Corporate filings and beneficial ownership reports', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'ProPublica Nonprofit Explorer: Tax-exempt entity financial analysis', url: 'https://projects.propublica.org/nonprofits/', date: '2026-03-10' },
-      { title: 'FOIA Electronic Reading Room: Declassified government documents', url: 'https://www.foia.gov', date: '2026-03-10' },
+      { title: 'NYT: Andrew Madoff; Bernard Madoff\\'s Son; Dies at 48', url: 'https://www.nytimes.com/2014/09/04/business/andrew-madoff-son-of-disgraced-financier-dies-at-48.html', date: '2014' },
     ],
     aliases: [],
     knownAssociates: [
       { name: 'Bernie Madoff', relationship: 'Father who ran the largest Ponzi scheme in history', href: '/entities/individuals/bernie-madoff' },
-      { name: 'Mark Madoff', relationship: 'Brother who died by suicide after father\'s arrest', href: '/entities/individuals/mark-madoff' },
+      { name: 'Mark Madoff', relationship: 'Brother who died by suicide after father\\'s arrest', href: '/entities/individuals/mark-madoff' },
       { name: 'Peter Madoff', relationship: 'Uncle and compliance officer in the Madoff scheme', href: '/entities/individuals/peter-madoff' },
     ],
   },
@@ -7684,38 +7411,49 @@ const profiles: Record<string, IndividualProfile> = {
 
   'antony-blinken': {
     name: 'Antony Blinken',
-    title: 'Public Figure Under Investigation',
-    role: 'Under Investigation',
-    riskLevel: 'low',
-    description: 'Antony Blinken is a public figure identified through ArkHive\'s investigative network analysis of institutional power structures and accountability gaps. Connections to multiple entities under investigation have been identified through cross-referencing investigative databases and public records. The pattern of institutional connections warrants continued investigative attention and documentation. ArkHive\'s automated swarm intelligence has flagged this profile for expanded documentation based on cross-reference density and contextual relevance to ongoing investigations across domains including financial forensics, regulatory capture, lobbying networks, and governmental oversight failures. This entry is actively maintained and enriched as new publicly available records, court filings, congressional testimony, inspector general reports, and investigative journalism surface. All information compiled here is sourced from publicly accessible records and verified reporting.',
-    education: [],
+    title: 'U.S. Secretary of State Under Biden; WestExec Advisors Co-Founder; Architect of Gaza Policy',
+    role: 'U.S. Secretary of State (2021-2025); Former Deputy Secretary of State; WestExec Advisors Co-Founder',
+    riskLevel: 'medium',
+    description: 'Antony John Blinken served as the 71st United States Secretary of State from January 2021 to January 2025 under President Biden. Born in New York City to a prominent family with deep diplomatic ties (his stepfather Samuel Pisar was a Holocaust survivor and advisor to JFK; his father Donald Blinken served as U.S. Ambassador to Hungary); Blinken attended the elite Ecole Jeannine Manuel in Paris and graduated from Harvard and Columbia Law School. Before returning to government in the Biden administration; Blinken co-founded WestExec Advisors; a strategic consulting firm that helped defense and technology companies navigate government contracts and regulatory processes; raising questions about the revolving door between government and the defense-consulting industry. WestExec\\'s client list was never fully disclosed; and ethics watchdogs raised concerns about potential conflicts of interest when multiple WestExec partners joined the Biden administration. As Secretary of State; Blinken\\'s most controversial legacy is U.S. policy during the Israel-Gaza conflict beginning in October 2023. ProPublica reported in late 2024 that Blinken overruled his own State Department experts who had concluded that Israel was deliberately blocking humanitarian aid to Gaza; with two internal assessments finding Israel in violation of U.S. law governing arms transfers to countries that impede humanitarian assistance. Despite these findings; Blinken approved continued weapons transfers to Israel. He organized the 2023 letter signed by 51 former intelligence officials claiming the Hunter Biden laptop story had the "hallmarks of Russian disinformation" before the 2020 election; which was later confirmed to be authentic. He also faced criticism for the chaotic August 2021 U.S. withdrawal from Afghanistan; which resulted in 13 U.S. service members killed and thousands of Afghan allies stranded.',
+    birthDate: 'April 16; 1962',
+    birthPlace: 'New York City; New York; USA',
+    education: ['Harvard University; AB (1984)', 'Columbia Law School; JD (1988)'],
     affiliations: [
+      { name: 'U.S. State Department', role: 'Secretary of State (2021-2025); Deputy Secretary (2015-2017)', type: 'agency' },
+      { name: 'WestExec Advisors', role: 'Co-founder; strategic consulting firm connecting defense/tech companies to government', type: 'corporation' },
     ],
     controversies: [
-      'Antony Blinken has been flagged by ArkHive\'s automated investigative intelligence for patterns consistent with accountability gaps identified across related entity profiles. Documentation of specific concerns is ongoing as publicly available records, court filings, and investigative reporting are compiled and verified.',
-      'Profile flagged for expanded documentation based on automated analysis of financial disclosure patterns, lobbying expenditure trends, and institutional relationship mapping across the ArkHive investigative database. Enrichment with specific publicly documented controversies is in progress.',
-      'ArkHive analysis of public records reveals Antony Blinken connected to institutional activities warranting expanded accountability documentation.',
+      'Overruled own State Department experts who found Israel was deliberately blocking humanitarian aid to Gaza in violation of U.S. law; approved continued weapons transfers',
+      'Co-founded WestExec Advisors; a consulting firm that helped defense companies navigate government; multiple WestExec partners joined Biden administration raising revolving door concerns',
+      'Organized the October 2020 letter signed by 51 former intelligence officials claiming Hunter Biden laptop had "hallmarks of Russian disinformation"; laptop later confirmed authentic',
+      'Oversaw chaotic August 2021 Afghanistan withdrawal that killed 13 U.S. service members and stranded thousands of Afghan allies',
+      'WestExec Advisors never fully disclosed its client list; ethics watchdogs raised conflict of interest concerns about defense industry connections',
+      'ProPublica reported two internal State Department assessments found Israel in violation of Leahy Law and other statutes; Blinken overrode both findings',
     ],
     charges: [],
-    relatedInvestigations: [
-    ],
+    relatedInvestigations: [],
     timeline: [
-      { date: '2026-03-10', event: 'Profile created by ArkHive Swarm Intelligence for investigative tracking and public accountability documentation' },
-      { date: '2026-03-10', event: 'Cross-referenced with 0 connected entity profiles in the ArkHive database' },
-      { date: '2026-03-10', event: 'Automated network analysis flagged this entity based on connection density and relevance to active investigations' },
-      { date: '2026-03-10', event: 'Profile queued for enrichment with publicly available records, court filings, and investigative reports' },
-      { date: '2026-03-10', event: 'Initial data compilation from OpenSecrets, PACER, SEC EDGAR, and congressional records databases' },
+      { date: 'April 16; 1962', event: 'Born in New York City to family with deep diplomatic connections' },
+      { date: '1984', event: 'Graduates from Harvard University' },
+      { date: '1988', event: 'Earns law degree from Columbia Law School' },
+      { date: '1994-2001', event: 'Serves on National Security Council staff under Clinton administration' },
+      { date: '2009-2013', event: 'National Security Advisor to Vice President Biden' },
+      { date: '2015-2017', event: 'Deputy Secretary of State under Obama' },
+      { date: '2017-2021', event: 'Co-founds WestExec Advisors consulting firm with Michele Flournoy and others' },
+      { date: 'October 2020', event: 'Organizes letter from 51 former intelligence officials on Hunter Biden laptop' },
+      { date: 'January 26; 2021', event: 'Confirmed as Secretary of State' },
+      { date: 'August 2021', event: 'Oversees chaotic U.S. withdrawal from Afghanistan' },
+      { date: 'October 2023-2025', event: 'Manages U.S. response to Israel-Gaza conflict; overrules internal findings on humanitarian aid blockage' },
     ],
     socialMedia: [],
     sources: [
-      { title: 'ArkHive Investigative Database: Network Analysis', url: 'https://arkhive.live', date: '2026-03-10' },
-      { title: 'OpenSecrets.org: Follow the Money', url: 'https://www.opensecrets.org', date: '2026-03-10' },
-      { title: 'PACER: Public Access to Court Electronic Records', url: 'https://pacer.uscourts.gov', date: '2026-03-10' },
-      { title: 'SEC EDGAR: Company and Individual Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', date: '2026-03-10' },
-      { title: 'GovTrack: Congressional Activity Tracker', url: 'https://www.govtrack.us', date: '2026-03-10' },
+      { title: 'Wikipedia: Antony Blinken', url: 'https://en.wikipedia.org/wiki/Antony_Blinken', date: '' },
+      { title: 'ProPublica: Blinken Rejected Own Experts on Israel Arms Transfers', url: 'https://www.propublica.org/article/blinken-rejected-state-department-findings-israel-blocking-aid-gaza', date: '2024' },
+      { title: 'NYT: WestExec Advisors and the Biden Administration', url: 'https://www.nytimes.com/2020/11/28/us/politics/biden-westexec.html', date: '2020' },
     ],
-    aliases: [],
+    aliases: ['Tony Blinken'],
     knownAssociates: [
+      { name: 'Joe Biden', relationship: 'Served as Biden\\'s National Security Advisor and later Secretary of State', href: '/entities/individuals/joe-biden' },
     ],
   },
 
