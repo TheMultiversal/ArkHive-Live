@@ -337,7 +337,7 @@ export default function Home() {
  </div>
 
  {/* Opening Declaration, Crystal Clear */}
- <div className="max-w-3xl mx-auto mb-8 bg-black/60 p-6">
+ <div className="max-w-3xl mx-auto mb-8 bg-black/60 p-3 sm:p-6">
  <p className="text-lg sm:text-xl text-zinc-300 leading-relaxed">
  <span className="text-blood-600 font-black uppercase">91 criminal charges.</span>
  <br />
@@ -352,7 +352,7 @@ export default function Home() {
  <span className="text-white font-bold italic">We document everything.</span>
  </p>
  <div className="mt-4 pt-4 border-t border-zinc-800">
- <p className="text-sm text-zinc-500 uppercase tracking-widest">
+ <p className="text-sm text-zinc-500 uppercase tracking-wide sm:tracking-widest">
  No conspiracy theories. <span className="text-blood-600 font-bold">Just court records and primary sources.</span>
  </p>
  </div>
@@ -360,7 +360,7 @@ export default function Home() {
  
  {/* ArkHive Introduction, Enhanced Crystal Clear Box */}
  <div className="max-w-4xl mx-auto mb-8 animate-fade-in" style={{ animationDelay:"250ms"}}>
- <div className="border-2 border-blood-800/60 bg-black/70 p-8">
+ <div className="border-2 border-blood-800/60 bg-black/70 p-3 sm:p-6 lg:p-8">
  {/* Header */}
  <div className="text-center mb-6">
  <h2 className="text-2xl sm:text-3xl font-black text-blood-600 mb-2 tracking-wider uppercase">
@@ -375,7 +375,7 @@ export default function Home() {
  </div>
 
  {/* What We Document */}
- <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+ <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6">
  {[
  { title:"Government Crimes", desc:"State-sponsored atrocities hidden from public view", href:"/entities/agencies"},
  { title:"Corporate Malfeasance", desc:"Profit over people, cover-ups and collusion", href:"/entities/corporations"},
@@ -384,7 +384,7 @@ export default function Home() {
  ].map((item, i) => (
  <Link key={i} href={item.href} className="text-center p-3 border border-blood-900/40 bg-blood-950/30 hover:border-blood-600 hover:bg-blood-950/50 transition-colors group">
  <span className="block w-2 h-2 bg-blood-700 mx-auto mb-2 group-hover:bg-blood-500 transition-colors"/>
- <h3 className="text-xs sm:text-sm font-bold text-blood-600 uppercase tracking-wider mb-1 group-hover:text-blood-500 transition-colors">{item.title}</h3>
+ <h3 className="text-xs sm:text-sm font-bold text-blood-600 uppercase tracking-wide sm:tracking-wider mb-1 group-hover:text-blood-500 transition-colors">{item.title}</h3>
  <p className="text-[10px] sm:text-xs text-zinc-500 leading-tight">{item.desc}</p>
  </Link>
  ))}
@@ -410,7 +410,7 @@ export default function Home() {
 
  {/* Warning */}
  <div className="mt-6 p-3 border border-zinc-800 bg-zinc-900/50 text-center">
- <p className="text-xs text-zinc-500 uppercase tracking-widest">
+ <p className="text-xs text-zinc-500 uppercase tracking-wide sm:tracking-widest">
  ⚠ This archive contains disturbing truths. Proceed with open eyes. ⚠
  </p>
  </div>
@@ -588,8 +588,8 @@ export default function Home() {
  </div>
 
  {/* Category Cards with Biohazard Icons */}
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
- <Link href="/entities/agencies"className="glass-card p-8 text-center group">
+ <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 mb-12">
+ <Link href="/entities/agencies"className="glass-card p-4 sm:p-8 text-center group">
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="nuclear"size={32} className="text-white"/>
  </div>
@@ -604,7 +604,7 @@ export default function Home() {
  </span>
  </Link>
 
- <Link href="/entities/corporations "className="glass-card p-8 text-center group">
+ <Link href="/entities/corporations "className="glass-card p-4 sm:p-8 text-center group">
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="pharmaceutical"size={32} className="text-white"/>
  </div>
@@ -619,7 +619,7 @@ export default function Home() {
  </span>
  </Link>
 
- <Link href="/entities/individuals"className="glass-card p-8 text-center group">
+ <Link href="/entities/individuals"className="glass-card p-4 sm:p-8 text-center group">
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="biological"size={32} className="text-white"/>
  </div>
@@ -634,7 +634,7 @@ export default function Home() {
  </span>
  </Link>
 
- <Link href="/entities/organizations "className="glass-card p-8 text-center group">
+ <Link href="/entities/organizations "className="glass-card p-4 sm:p-8 text-center group">
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="standard"size={32} className="text-white"/>
  </div>
@@ -651,7 +651,7 @@ export default function Home() {
  </div>
 
  {/* Featured Entities */}
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+ <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
  {featuredEntities.map((entity) => (
  <EntityCard key={entity.id} entity={entity} />
  ))}
@@ -665,7 +665,7 @@ export default function Home() {
  {/* Call to Action */}
  <section className="py-16 lg:py-24">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
- <div className="glass-card p-8 lg:p-12 text-center relative overflow-hidden">
+ <div className="glass-card p-4 sm:p-8 lg:p-12 text-center relative overflow-hidden">
  {/* Sharp geometric accent instead of blur */}
  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-32 bg-gradient-to-b from-blood-600/50 to-transparent"/>
  <div className="absolute top-0 left-1/2 -translate-x-1/2">
@@ -680,7 +680,7 @@ export default function Home() {
  <TypewriterText
  text="Help Build the Archive"
  element="h2"
- className="text-3xl lg:text-4xl font-bold text-white mb-4"
+ className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4"
  speed={40}
  />
  <GlitchParagraph className="text-zinc-400 max-w-2xl mx-auto mb-12">
