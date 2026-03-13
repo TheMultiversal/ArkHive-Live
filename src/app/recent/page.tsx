@@ -250,7 +250,7 @@ export default function RecentPage() {
  {/* Header */}
  <div className="flex items-center justify-between mb-8">
  <div>
- <h1 className="text-4xl font-black tracking-tighter text-white mb-2">
+ <h1 className="text-2xl sm:text-4xl font-black tracking-tighter text-white mb-2">
  <GlitchText text="RECENT"/>
  </h1>
  <p className="text-zinc-400">

@@ -233,7 +233,7 @@ function TagCard({ tag }: { tag: TagData }) {
  </span>
 
  {/* Stats */}
- <div className="grid grid-cols-3 gap-4 pt-4 border-t border-zinc-800">
+ <div className="grid grid-cols-3 gap-2 sm:gap-4 pt-4 border-t border-zinc-800">
  <div className="text-center">
  <div className="flex items-center justify-center gap-1 text-blood-400 mb-1">
  <Target className="w-4 h-4"/>
@@ -383,7 +383,7 @@ export default function TagsPage() {
  {/* Header */}
  <div className="flex items-center justify-between mb-8">
  <div>
- <h1 className="text-4xl font-black tracking-tighter text-white mb-2">
+ <h1 className="text-2xl sm:text-4xl font-black tracking-tighter text-white mb-2">
  <GlitchText text="TAGS"/>
  </h1>
  <p className="text-zinc-400">
@@ -401,7 +401,7 @@ export default function TagsPage() {
  </div>
 
  {/* Stats */}
- <div className="grid grid-cols-4 gap-4 mb-8">
+ <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
  {[
  { label: 'Total Tags', value: mockTags.length, icon: <Tag className="w-5 h-5"/> },
  { label: 'Trending', value: mockTags.filter(t => t.trending).length, icon: <TrendingUp className="w-5 h-5 text-blood-500"/> },

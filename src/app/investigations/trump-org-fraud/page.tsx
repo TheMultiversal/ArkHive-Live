@@ -209,7 +209,7 @@ export default function TrumpOrgFraudPage() {
  {investigation.fraudInstances.map((fraud, idx) => (
  <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
  <h3 className="font-bold text-white mb-2">{fraud.asset}</h3>
- <div className="grid grid-cols-3 gap-2 text-sm">
+ <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-sm">
  <div>
  <p className="text-blood-400 font-bold">Claimed</p>
  <p className="text-zinc-300">{fraud.claimed}</p>

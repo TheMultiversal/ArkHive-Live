@@ -21,7 +21,7 @@ export default function EnterPage() {
    initial={{ opacity: 0, letterSpacing: '0.5em' }}
    animate={{ opacity: 1, letterSpacing: '0.3em' }}
    transition={{ duration: 2, ease: 'easeOut' }}
-   className="text-5xl sm:text-7xl font-black text-blood-500 tracking-[0.3em] mb-4"
+   className="text-4xl sm:text-5xl md:text-7xl font-black text-blood-500 tracking-[0.2em] sm:tracking-[0.3em] mb-4"
   >
    ARKHIVE
   </motion.h1>

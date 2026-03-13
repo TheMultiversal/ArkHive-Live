@@ -276,17 +276,17 @@ export default function Home() {
  <div className="mb-6 animate-fade-in">
  <div className="space-y-1">
  {/* Line 1 */}
- <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-zinc-500 uppercase tracking-[0.2em]">
+ <p className="text-lg sm:text-3xl lg:text-4xl font-bold text-zinc-500 uppercase tracking-[0.1em] sm:tracking-[0.2em]">
  The Crimes They Think
  </p>
  {/* Line 2 (HIDDEN) emphasized */}
- <p className="text-5xl sm:text-6xl lg:text-8xl font-black uppercase tracking-tight">
+ <p className="text-4xl sm:text-6xl lg:text-8xl font-black uppercase tracking-tight">
  <span className="text-blood-600"style={{ filter: 'drop-shadow(0 0 30px rgba(153,27,27,0.7)) drop-shadow(0 0 60px rgba(127,29,29,0.4))' }}>
  YOU&apos;LL NEVER
  </span>
  </p>
  {/* Line 3 */}
- <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-zinc-500 uppercase tracking-[0.2em]">
+ <p className="text-lg sm:text-3xl lg:text-4xl font-bold text-zinc-500 uppercase tracking-[0.1em] sm:tracking-[0.2em]">
  Find Out About
  </p>
  </div>
@@ -313,23 +313,23 @@ export default function Home() {
  
  {/* Main question, stacked dramatic */}
  <div className="relative">
- <p className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
+ <p className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
  FOLLOW THE <span className="text-blood-600">EVIDENCE</span>
  </p>
- <p className="text-xl sm:text-2xl lg:text-3xl font-bold text-zinc-400 mt-1">
+ <p className="text-base sm:text-2xl lg:text-3xl font-bold text-zinc-400 mt-1">
  Connect the dots they don&apos;t want connected.
  </p>
  </div>
 
  {/* Three pillars */}
  <div className="flex flex-wrap justify-center gap-2 mt-4">
- <span className="px-4 py-2 border-2 border-blood-700 text-blood-600 text-xs uppercase tracking-wider font-bold">
+ <span className="px-3 sm:px-4 py-2 border-2 border-blood-700 text-blood-600 text-[10px] sm:text-xs uppercase tracking-wider font-bold">
  Primary Sources
  </span>
- <span className="px-4 py-2 border-2 border-blood-700 text-blood-600 text-xs uppercase tracking-wider font-bold">
+ <span className="px-3 sm:px-4 py-2 border-2 border-blood-700 text-blood-600 text-[10px] sm:text-xs uppercase tracking-wider font-bold">
  Court Documents
  </span>
- <span className="px-4 py-2 border-2 border-blood-700 text-blood-600 text-xs uppercase tracking-wider font-bold">
+ <span className="px-3 sm:px-4 py-2 border-2 border-blood-700 text-blood-600 text-[10px] sm:text-xs uppercase tracking-wider font-bold">
  Verified Evidence
  </span>
  </div>
@@ -375,7 +375,7 @@ export default function Home() {
  </div>
 
  {/* What We Document */}
- <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+ <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
  {[
  { title:"Government Crimes", desc:"State-sponsored atrocities hidden from public view", href:"/entities/agencies"},
  { title:"Corporate Malfeasance", desc:"Profit over people, cover-ups and collusion", href:"/entities/corporations"},

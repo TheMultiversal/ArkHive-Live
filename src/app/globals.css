@@ -31,6 +31,8 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   position: relative;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Blood Red Cursor */

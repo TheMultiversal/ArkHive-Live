@@ -70,7 +70,7 @@ export default function WorkspacesPage() {
  </div>
 
  {/* Stats */}
- <div className="grid grid-cols-3 gap-4 mb-6">
+ <div className="grid grid-cols-3 gap-2 sm:gap-4 mb-6">
  <div className="p-3 bg-white/[0.01] border border-white/[0.04]">
  <div className="text-lg font-medium text-white/60 mb-0.5">{stats.total}</div>
  <div className="text-[10px] text-white/25 uppercase tracking-wider">Total</div>

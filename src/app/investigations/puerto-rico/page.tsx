@@ -213,7 +213,7 @@ export default function PuertoRicoPage() {
  <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4">
  2017 Hurricane Response Comparison
  </h2>
- <div className="grid grid-cols-3 gap-4">
+ <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
  {investigation.comparison.map((item, idx) => (
  <div key={idx} className={`p-4 border ${item.location.includes('Puerto Rico') ? 'border-blood-500/50 bg-blood-950/20' : 'border-blood-500/30 bg-blood-950/20'}`}>
  <p className="font-bold text-white">{item.location}</p>

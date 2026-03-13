@@ -71,7 +71,7 @@ export default function EntityCard({ entity }: EntityCardProps) {
  </div>
 
  {/* Risk Level */}
- <div className={`px-2 py-0.5 text-[10px] font-black tracking-wider border ${riskColors[entity.riskLevel]}`}>
+ <div className={`px-2 py-0.5 text-[10px] font-black tracking-wider border whitespace-nowrap shrink-0 ${riskColors[entity.riskLevel]}`}>
  {riskLabels[entity.riskLevel]}
  </div>
  </div>

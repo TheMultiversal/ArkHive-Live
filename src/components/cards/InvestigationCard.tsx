@@ -77,16 +77,16 @@ export default function InvestigationCard({ investigation, featured = false }: I
  <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"/>
 
  {/* Severity Badge */}
- <div className="absolute top-3 left-3 z-20">
- <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 text-[10px] font-black tracking-wider border ${severity.classes}`}>
- <SeverityIcon className="w-3 h-3"/>
- {severity.label}
+ <div className="absolute top-3 left-3 z-20 max-w-[45%]">
+ <span className={`inline-flex items-center gap-1 px-2 py-1 text-[10px] font-black tracking-wider border truncate ${severity.classes}`}>
+ <SeverityIcon className="w-3 h-3 shrink-0"/>
+ <span className="truncate">{severity.label}</span>
  </span>
  </div>
 
  {/* Category */}
- <div className="absolute top-3 right-3 z-20">
- <span className="px-2.5 py-1 bg-black/80 text-zinc-500 text-[10px] font-bold uppercase tracking-wider border border-zinc-800/60">
+ <div className="absolute top-3 right-3 z-20 max-w-[45%]">
+ <span className="px-2 py-1 bg-black/80 text-zinc-500 text-[10px] font-bold uppercase tracking-wider border border-zinc-800/60 truncate block">
  {investigation.category}
  </span>
  </div>

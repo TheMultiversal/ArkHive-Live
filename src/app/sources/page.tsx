@@ -596,7 +596,7 @@ export default function SourcesPage() {
  animate={{ opacity: 1, y: 0 }}
  className="mb-12"
  >
- <h1 className="text-4xl font-bold text-white mb-4">
+ <h1 className="text-2xl sm:text-4xl font-bold text-white mb-4">
  Our <span className="text-blood-500">Sources</span>
  </h1>
  <p className="text-lg text-zinc-400 max-w-2xl">

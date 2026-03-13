@@ -66,7 +66,7 @@ export default function AffiliationsSidebar({
 
  {/* Sidebar */}
  <aside
- className={`fixed top-0 right-0 h-full w-80 lg:w-96 glass border-l border-zinc-800/50 z-50 transform transition-transform duration-300 ease-out overflow-y-auto ${
+ className={`fixed top-0 right-0 h-full w-[calc(100vw-3rem)] max-w-80 lg:max-w-96 lg:w-96 glass border-l border-zinc-800/50 z-50 transform transition-transform duration-300 ease-out overflow-y-auto ${
  isOpen ?"translate-x-0":"translate-x-full"
  } lg:relative lg:top-auto lg:right-auto lg:h-auto lg:transform-none lg:z-auto`}
  >

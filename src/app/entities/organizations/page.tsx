@@ -39,7 +39,7 @@ export default function OrganizationsPage() {
         <div className="mb-12">
           <div className="flex items-center gap-4 mb-4">
             <Network className="w-12 h-12 text-blood-500" />
-            <GlitchText text="ORGANIZATIONS" className="text-4xl font-bold tracking-wider" />
+            <GlitchText text="ORGANIZATIONS" className="text-2xl sm:text-4xl font-bold tracking-wider" />
           </div>
           <p className="text-zinc-400 max-w-3xl">
             Organizations, think tanks, advocacy groups, and networks that shape policy, coordinate power, and operate in the shadows. Follow the connections.

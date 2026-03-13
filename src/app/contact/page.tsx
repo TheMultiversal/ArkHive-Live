@@ -79,7 +79,7 @@ export default function ContactPage() {
  className="text-center mb-12"
  >
  <Mail className="w-16 h-16 text-blood-500 mx-auto mb-4"/>
- <h1 className="text-4xl font-bold text-white mb-4">Contact Us</h1>
+ <h1 className="text-2xl sm:text-4xl font-bold text-white mb-4">Contact Us</h1>
  <p className="text-zinc-400 max-w-2xl mx-auto">
  Reach out to our team for press inquiries, technical support, or to report sensitive information.
  We take your privacy seriously.

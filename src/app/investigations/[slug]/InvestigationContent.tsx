@@ -100,11 +100,11 @@ export default function InvestigationContent() {
                 </span>
               </div>
 
-              <h1 className="text-3xl lg:text-4xl xl:text-5xl font-black text-white mb-4 leading-tight">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-black text-white mb-4 leading-tight break-words">
                 {investigationData.title}
               </h1>
 
-              <p className="text-xl text-zinc-400 mb-6">{investigationData.subtitle}</p>
+              <p className="text-base sm:text-xl text-zinc-400 mb-6 break-words">{investigationData.subtitle}</p>
 
               <div className="flex flex-wrap items-center gap-4 text-sm text-zinc-500 mb-6">
                 <div className="flex items-center gap-2">

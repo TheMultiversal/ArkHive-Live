@@ -361,10 +361,10 @@ export default function InvestigationsPage() {
  <span className="h-[2px] flex-1 bg-gradient-to-l from-blood-700 to-transparent"/>
  </div>
  <div className="text-center mb-6">
- <h1 className="text-4xl lg:text-5xl font-black text-white uppercase tracking-wider mb-2">
+ <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-wider mb-2">
  INVESTIGATIONS
  </h1>
- <p className="text-lg text-blood-600 font-bold uppercase tracking-[0.2em]">
+ <p className="text-sm sm:text-lg text-blood-600 font-bold uppercase tracking-[0.2em]">
  {allInvestigations.length} Cases Exposed
  </p>
  </div>
