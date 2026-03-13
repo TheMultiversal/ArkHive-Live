@@ -28,6 +28,7 @@ import shard_v from './v';
 import shard_w from './w';
 import shard_x from './x';
 import shard_y from './y';
+import shard_z from './z';
 
 const investigationDatabase: Record<string, InvestigationData> = {
   ...shard_1,
@@ -58,6 +59,7 @@ const investigationDatabase: Record<string, InvestigationData> = {
   ...shard_w,
   ...shard_x,
   ...shard_y,
+  ...shard_z,
 };
 
 export default investigationDatabase;
