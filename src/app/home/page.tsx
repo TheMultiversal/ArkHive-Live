@@ -375,17 +375,17 @@ export default function Home() {
  </div>
 
  {/* What We Document */}
- <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 mb-6">
+ <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 mb-6">
  {[
  { title:"Government Crimes", desc:"State-sponsored atrocities hidden from public view", href:"/entities/agencies"},
  { title:"Corporate Malfeasance", desc:"Profit over people, cover-ups and collusion", href:"/entities/corporations"},
  { title:"Medical Tyranny", desc:"Forced treatments, experimental injections, pharma fraud", href:"/investigations/pharmaceutical-price-gouging"},
  { title:"Civil Liberty Violations", desc:"Constitutional erosion, surveillance, censorship", href:"/investigations/nsa-mass-surveillance"},
  ].map((item, i) => (
- <Link key={i} href={item.href} className="text-center p-2 sm:p-3 border border-blood-900/40 bg-blood-950/30 hover:border-blood-600 hover:bg-blood-950/50 transition-colors group">
- <span className="block w-2 h-2 bg-blood-700 mx-auto mb-1 sm:mb-2 group-hover:bg-blood-500 transition-colors"/>
- <h3 className="text-[11px] sm:text-sm font-bold text-blood-600 uppercase tracking-normal sm:tracking-wider mb-1 group-hover:text-blood-500 transition-colors leading-tight">{item.title}</h3>
- <p className="text-[9px] sm:text-xs text-zinc-500 leading-tight hidden sm:block">{item.desc}</p>
+ <Link key={i} href={item.href} className="text-center p-3 border border-blood-900/40 bg-blood-950/30 hover:border-blood-600 hover:bg-blood-950/50 transition-colors group">
+ <span className="block w-2 h-2 bg-blood-700 mx-auto mb-2 group-hover:bg-blood-500 transition-colors"/>
+ <h3 className="text-sm font-bold text-blood-600 uppercase tracking-wider mb-1 group-hover:text-blood-500 transition-colors">{item.title}</h3>
+ <p className="text-xs text-zinc-500 leading-tight">{item.desc}</p>
  </Link>
  ))}
  </div>
