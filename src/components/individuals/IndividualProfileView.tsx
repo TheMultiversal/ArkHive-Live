@@ -134,7 +134,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  Key Affiliations
  </h2>
  <div className="space-y-3">
- {individual.affiliations.map((affiliation, index) => {
+ {(individual.affiliations || []).map((affiliation, index) => {
  const slug = affiliation.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
  const typePathMap = { agency: 'agencies', corporation: 'corporations', organization: 'organizations' };
  const href = `/entities/${typePathMap[affiliation.type]}/${slug}`;
@@ -170,7 +170,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  Controversies & Concerns
  </h2>
              <div className="space-y-3">
- {individual.controversies.map((controversy, index) => (
+ {(individual.controversies || []).map((controversy, index) => (
  <div
  key={index}
  className="p-4 bg-zinc-900/40 border border-zinc-800 hover:border-blood-500/30 transition-all"
@@ -193,7 +193,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  >
  <h2 className="text-xl font-bold mb-4">Related Investigations</h2>
  <div className="space-y-3">
- {individual.relatedInvestigations.map((investigation) => (
+ {(individual.relatedInvestigations || []).map((investigation) => (
  <Link
  key={investigation.slug}
  href={`/investigations/${investigation.slug}`}
@@ -265,7 +265,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  Known Associates & Connections
  </h2>
  <div className="space-y-3">
- {individual.knownAssociates.map((associate, index) => (
+ {(individual.knownAssociates || []).map((associate, index) => (
  <div
  key={index}
  className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-zinc-900/50 border border-zinc-800 hover:border-blood-500/30 transition-all"
@@ -302,10 +302,10 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  Sources & Documentation
  </h2>
  <p className="text-sm text-zinc-500 mb-4">
- {individual.sources.length} documented sources from official records, investigations, and reports
+ {(individual.sources || []).length} documented sources from official records, investigations, and reports
  </p>
  <div className="space-y-2">
- {individual.sources.map((source, index) => (
+ {(individual.sources || []).map((source, index) => (
  source.url ? (
  <a
  key={index}
@@ -393,7 +393,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  Education
  </h3>
  <ul className="space-y-2">
- {individual.education.map((edu, index) => (
+ {(individual.education || []).map((edu, index) => (
  <li key={index} className="text-sm text-zinc-400 flex items-start gap-2">
  <span className="text-blood-500">•</span>
  {edu}
@@ -411,7 +411,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  >
  <h3 className="text-lg font-bold mb-4">Key Timeline</h3>
  <div className="space-y-4">
- {individual.timeline.map((item, index) => (
+ {(individual.timeline || []).map((item, index) => (
  <div key={index} className="relative pl-4 border-l-2 border-zinc-800">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
