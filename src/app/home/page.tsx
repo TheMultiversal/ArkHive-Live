@@ -5,7 +5,6 @@ import { ArrowRight, Shield, AlertTriangle, Eye, FileText, Users, ChevronRight, 
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import EntityCard, { Entity } from"@/components/cards/EntityCard";
 import StatsDisplay from"@/components/ui/StatsDisplay";
 import CrystalButton from"@/components/ui/CrystalButton";
 import BiohazardIcon from"@/components/ui/BiohazardIcon";
@@ -58,39 +57,6 @@ const SEVERITY_DOTS: Record<string, string> = {
  medium: 'bg-yellow-600',
 };
 
-// Featured entities, Key players across investigations
-const featuredEntities: Entity[] = [
- {
- id:"doj",
- slug:"doj",
- name:"Department of Justice",
- type:"agency",
- description:"Under Trump, the DOJ became a weapon of political persecution. AG William Barr misrepresented the Mueller Report, intervened in Roger Stone's sentencing, and dropped charges against Michael Flynn.",
- role:"Federal Executive Department",
- investigationCount: 3,
- riskLevel:"extreme",
- },
- {
- id:"trump-org",
- slug:"trump-organization",
- name:"The Trump Organization",
- type:"corporation",
- description:"Convicted of 17 felonies. $454M fraud judgment. CFO imprisoned. Money laundering, tax fraud, hush money payments. Deutsche Bank received $2B+ despite red flags.",
- role:"Criminal Enterprise",
- investigationCount: 5,
- riskLevel:"extreme",
- },
- {
- id:"trump-1",
- slug:"donald-trump",
- name:"Donald J. Trump",
- type:"individual",
- description:"45th & 47th President of the United States. Convicted felon (34 counts). Subject of criminal indictments, civil judgments, and investigations spanning election interference, financial crimes, and incitement of insurrection.",
- role:"47th President, Convicted Felon",
- investigationCount: 39,
- riskLevel:"extreme",
- },
-];
 
 // Real statistics from the archive - fetched dynamically from API
 function useStats() {
@@ -648,13 +614,6 @@ export default function Home() {
  Explore <ChevronRight className="w-4 h-4"/>
  </span>
  </Link>
- </div>
-
- {/* Featured Entities */}
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
- {featuredEntities.map((entity) => (
- <EntityCard key={entity.id} entity={entity} />
- ))}
  </div>
  </div>
  </section>
