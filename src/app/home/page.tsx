@@ -259,7 +259,7 @@ export default function Home() {
  </svg>
  </div>
 
- <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+ <div className="relative max-w-7xl mx-auto px-1 sm:px-6 lg:px-8">
  <div className="text-center max-w-4xl mx-auto">
  {/* Large Bleeding Pyramid Logo, Sharp & Clear */}
  <div className="flex justify-center mb-8">
@@ -337,8 +337,8 @@ export default function Home() {
  </div>
 
  {/* Opening Declaration, Crystal Clear */}
- <div className="max-w-3xl mx-auto mb-8 bg-black/60 p-3 sm:p-6">
- <p className="text-lg sm:text-xl text-zinc-300 leading-relaxed">
+ <div className="max-w-3xl mx-auto mb-8 bg-black/60 p-2 sm:p-6">
+ <p className="text-base sm:text-xl text-zinc-300 leading-relaxed">
  <span className="text-blood-600 font-black uppercase">91 criminal charges.</span>
  <br />
  4 indictments. $454 million in fraud judgments.
@@ -360,9 +360,9 @@ export default function Home() {
  
  {/* ArkHive Introduction, Enhanced Crystal Clear Box */}
  <div className="max-w-4xl mx-auto mb-8 animate-fade-in" style={{ animationDelay:"250ms"}}>
- <div className="border-2 border-blood-800/60 bg-black/70 p-3 sm:p-6 lg:p-8">
+ <div className="border-0 sm:border-2 border-blood-800/60 bg-transparent sm:bg-black/70 p-0 sm:p-6 lg:p-8">
  {/* Header */}
- <div className="text-center mb-6">
+ <div className="text-center mb-4 sm:mb-6">
  <h2 className="text-2xl sm:text-3xl font-black text-blood-600 mb-2 tracking-wider uppercase">
  Welcome to <span className="text-white">ArkHive®</span>
  </h2>
@@ -375,17 +375,17 @@ export default function Home() {
  </div>
 
  {/* What We Document */}
- <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6">
+ <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 mb-6">
  {[
  { title:"Government Crimes", desc:"State-sponsored atrocities hidden from public view", href:"/entities/agencies"},
  { title:"Corporate Malfeasance", desc:"Profit over people, cover-ups and collusion", href:"/entities/corporations"},
  { title:"Medical Tyranny", desc:"Forced treatments, experimental injections, pharma fraud", href:"/investigations/pharmaceutical-price-gouging"},
  { title:"Civil Liberty Violations", desc:"Constitutional erosion, surveillance, censorship", href:"/investigations/nsa-mass-surveillance"},
  ].map((item, i) => (
- <Link key={i} href={item.href} className="text-center p-3 border border-blood-900/40 bg-blood-950/30 hover:border-blood-600 hover:bg-blood-950/50 transition-colors group">
- <span className="block w-2 h-2 bg-blood-700 mx-auto mb-2 group-hover:bg-blood-500 transition-colors"/>
- <h3 className="text-xs sm:text-sm font-bold text-blood-600 uppercase tracking-wide sm:tracking-wider mb-1 group-hover:text-blood-500 transition-colors">{item.title}</h3>
- <p className="text-[10px] sm:text-xs text-zinc-500 leading-tight">{item.desc}</p>
+ <Link key={i} href={item.href} className="text-center p-2 sm:p-3 border border-blood-900/40 bg-blood-950/30 hover:border-blood-600 hover:bg-blood-950/50 transition-colors group">
+ <span className="block w-2 h-2 bg-blood-700 mx-auto mb-1 sm:mb-2 group-hover:bg-blood-500 transition-colors"/>
+ <h3 className="text-[11px] sm:text-sm font-bold text-blood-600 uppercase tracking-normal sm:tracking-wider mb-1 group-hover:text-blood-500 transition-colors leading-tight">{item.title}</h3>
+ <p className="text-[9px] sm:text-xs text-zinc-500 leading-tight hidden sm:block">{item.desc}</p>
  </Link>
  ))}
  </div>
