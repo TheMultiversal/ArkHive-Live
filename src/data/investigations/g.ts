@@ -1111,6 +1111,48 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '3', name: 'FBI', type: 'agency', relationship: 'Failed to connect intelligence dots before 9/11; transitioned to domestic counterterrorism focus after attacks', href: '/entities/agencies/fbi' },
     ],
   },
+  'goldman-sachs-fraud': {
+    title: 'Goldman Sachs Securities Fraud',
+    subtitle: 'Abacus CDO scheme and mortgage-backed securities manipulation',
+    severity: 'high',
+    category: 'Financial Fraud',
+    date: 'April 16, 2010',
+    lastUpdated: 'July 15, 2010',
+    summary: 'Goldman Sachs created and marketed toxic mortgage-backed securities while betting against them, defrauding investors and contributing to the 2008 financial crisis.',
+    content: [
+      'ABACUS CDO: Goldman created CDO with Paulson & Co., allowing Paulson to select toxic mortgages while Goldman marketed it as AAA-rated.',
+      'SEC CHARGES: Goldman paid $550M fine for misleading investors.',
+      'EXECUTIVE COMPENSATION: Lloyd Blankfein received $68M bonus despite fraud.',
+    ],
+    tags: ['Goldman Sachs', 'Securities Fraud', 'CDO', 'Financial Crisis'],
+    sources: [
+      { title: 'SEC v. Goldman Sachs', url: 'https://www.sec.gov/news/press/2010/2010-59.htm', type: 'SEC Release' },
+    ],
+    affiliations: [
+      { id: '1', name: 'Lloyd Blankfein', type: 'individual', relationship: 'CEO during fraud', href: '/entities/individuals/lloyd-blankfein' },
+    ],
+  },
+  'gulf-oil-spill': {
+    title: 'Deepwater Horizon Oil Spill',
+    subtitle: 'BP negligence and environmental disaster',
+    severity: 'critical',
+    category: 'Environmental Crime',
+    date: 'April 20, 2010',
+    lastUpdated: 'November 15, 2012',
+    summary: 'BP\'s cost-cutting measures led to the worst oil spill in history, killing 11 workers and devastating the Gulf Coast ecosystem.',
+    content: [
+      'WELL DESIGN FLAWS: BP ignored warnings about well design and testing.',
+      'SAFETY CUTS: BP fired whistleblowers and cut safety corners.',
+      'CLEANUP FAILURE: BP used dispersants that made the problem worse.',
+    ],
+    tags: ['BP', 'Oil Spill', 'Environmental Disaster', 'Deepwater Horizon'],
+    sources: [
+      { title: 'Presidential Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf', type: 'Government Report' },
+    ],
+    affiliations: [
+      { id: '1', name: 'Tony Hayward', type: 'individual', relationship: 'BP CEO during spill', href: '/entities/individuals/tony-hayward' },
+    ],
+  },
 };
 
 export default investigations_g;

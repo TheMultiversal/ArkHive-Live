@@ -419,6 +419,48 @@ const investigations_l: Record<string, InvestigationData> = {
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Led the federal investigation; Behavioral Analysis Unit concluded no motive could be determined', href: '/entities/agencies/fbi' },
     ],
   },
+  'libor-scandal': {
+    title: 'LIBOR Rate Manipulation Scandal',
+    subtitle: 'Banks colluded to rig global interest rates affecting trillions in loans',
+    severity: 'high',
+    category: 'Financial Fraud',
+    date: 'June 27, 2012',
+    lastUpdated: 'May 20, 2015',
+    summary: 'Major banks including Barclays, Deutsche Bank, and UBS colluded to manipulate the London Interbank Offered Rate (LIBOR), affecting interest rates on trillions of dollars in loans, mortgages, and derivatives worldwide.',
+    content: [
+      'RATE MANIPULATION: Traders submitted false LIBOR rates to benefit trading positions.',
+      'MULTIPLE BANKS: Over 20 banks involved in the scheme.',
+      'FINES: Banks paid billions in fines.',
+    ],
+    tags: ['LIBOR', 'Rate Manipulation', 'Banks', 'Financial Fraud'],
+    sources: [
+      { title: 'LIBOR Scandal Overview', url: 'https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702', type: 'Investigation' },
+    ],
+    affiliations: [
+      { id: '1', name: 'Barclays', type: 'corporation', relationship: 'Fined $450M', href: '/entities/corporations/barclays' },
+    ],
+  },
+  'lobbying-corruption': {
+    title: 'Corporate Lobbying and Corruption',
+    subtitle: 'How money influences legislation and policy',
+    severity: 'high',
+    category: 'Political Corruption',
+    date: 'Ongoing',
+    lastUpdated: 'November 15, 2024',
+    summary: 'Corporations spend billions annually on lobbying to influence legislation, often at the expense of public interest. This legalized corruption shapes policy in favor of wealthy interests.',
+    content: [
+      'BILLIONS SPENT: Corporations spend over $3B annually on lobbying.',
+      'REVOLVING DOOR: Former officials become lobbyists.',
+      'CAMPAIGN CONTRIBUTIONS: Money buys access and influence.',
+    ],
+    tags: ['Lobbying', 'Corruption', 'Political Influence'],
+    sources: [
+      { title: 'Open Secrets Lobbying Database', url: 'https://www.opensecrets.org/federal-lobbying', type: 'Database' },
+    ],
+    affiliations: [
+      { id: '1', name: 'Pharmaceutical Industry', type: 'industry', relationship: 'Heavy lobbying', href: '/entities/industries/pharmaceutical' },
+    ],
+  },
 };
 
 export default investigations_l;

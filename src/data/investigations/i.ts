@@ -824,6 +824,49 @@ const investigations_i: Record<string, InvestigationData> = {
     ],
     affiliations: [],
   },
+  'israel-lobby-influence': {
+    title: 'Israel Lobby Influence Operations',
+    subtitle: 'Foreign government interference in U.S. politics and policy',
+    severity: 'high',
+    category: 'Foreign Interference',
+    date: 'March 24, 2006',
+    lastUpdated: 'October 15, 2024',
+    summary: 'The Israel lobby, including AIPAC and other organizations, has systematically influenced U.S. policy through campaign contributions, media control, and political pressure. This includes suppressing criticism of Israeli policies and pushing for policies contrary to U.S. interests.',
+    content: [
+      'AIPAC CAMPAIGN CONTRIBUTIONS: AIPAC bundles millions for pro-Israel candidates.',
+      'MEDIA CONTROL: Suppression of criticism of Israeli policies in mainstream media.',
+      'POLITICAL INTIMIDATION: Targeting politicians who criticize Israeli policies.',
+    ],
+    tags: ['Israel Lobby', 'AIPAC', 'Foreign Influence', 'Political Interference'],
+    sources: [
+      { title: 'The Israel Lobby and U.S. Foreign Policy', url: 'https://www.lrb.co.uk/the-paper/v28/n06/john-mearsheimer/the-israel-lobby', type: 'Academic Paper' },
+    ],
+    affiliations: [
+      { id: '1', name: 'AIPAC', type: 'organization', relationship: 'Primary lobbying organization', href: '/entities/organizations/aipac' },
+    ],
+  },
+  'iran-contra-scandal': {
+    title: 'Iran-Contra Affair',
+    subtitle: 'Secret arms sales and funding of Contra rebels',
+    severity: 'critical',
+    category: 'Government Conspiracy',
+    date: 'November 25, 1986',
+    lastUpdated: 'December 19, 1992',
+    summary: 'Reagan administration officials secretly sold arms to Iran (an enemy) and used proceeds to fund Contra rebels in Nicaragua, violating U.S. law and Congressional prohibitions.',
+    content: [
+      'ARMS SALES TO IRAN: Sold missiles to Iran despite embargo.',
+      'FUNNELING TO CONTRAS: Used profits to fund Nicaraguan rebels.',
+      'OLIVER NORTH: NSC staffer ran the operation.',
+    ],
+    tags: ['Iran-Contra', 'Reagan', 'Arms Sales', 'Contra Rebels'],
+    sources: [
+      { title: 'Iran-Contra Report', url: 'https://www.archives.gov/research/foreign-policy/iran-contra', type: 'Government Report' },
+    ],
+    affiliations: [
+      { id: '1', name: 'Ronald Reagan', type: 'individual', relationship: 'President during scandal', href: '/entities/individuals/ronald-reagan' },
+      { id: '2', name: 'Oliver North', type: 'individual', relationship: 'Operation coordinator', href: '/entities/individuals/oliver-north' },
+    ],
+  },
 };
 
 export default investigations_i;

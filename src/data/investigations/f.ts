@@ -1396,6 +1396,50 @@ const investigations_f: Record<string, InvestigationData> = {
     ],
     affiliations: [],
   },
+  'facebook-antitrust': {
+    title: 'Facebook Antitrust Violations',
+    subtitle: 'Monopolistic practices and market dominance abuses',
+    severity: 'high',
+    category: 'Antitrust',
+    date: 'December 9, 2020',
+    lastUpdated: 'November 19, 2024',
+    summary: 'Facebook (Meta) engaged in anticompetitive practices to maintain monopoly power in social media, including acquisitions to eliminate competition and data-sharing agreements that harmed rivals.',
+    content: [
+      'INSTAGRAM ACQUISITION: Facebook acquired Instagram in 2012 for $1B, despite internal documents showing Instagram was a direct competitor. Facebook executives discussed "stifling" Instagram as a threat.',
+      'WHATSAPP ACQUISITION: 2014 acquisition for $19B included agreements to keep WhatsApp independent, but Facebook later integrated it, violating antitrust laws.',
+      'DATA-SHARING AGREEMENTS: Facebook shared user data with partners while denying competitors access, violating Section 2 of the Sherman Act.',
+      'PLATFORM ABUSE: Facebook used its dominance to favor its own services over third-party apps.',
+    ],
+    tags: ['Facebook', 'Antitrust', 'Monopoly', 'Meta'],
+    sources: [
+      { title: 'FTC v. Facebook Complaint', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0081-facebook-inc-meta-platforms-inc', type: 'Court Document' },
+    ],
+    affiliations: [
+      { id: '1', name: 'Mark Zuckerberg', type: 'individual', relationship: 'CEO, oversaw acquisitions', href: '/entities/individuals/mark-zuckerberg' },
+      { id: '2', name: 'Facebook', type: 'corporation', relationship: 'Defendant', href: '/entities/corporations/facebook' },
+    ],
+  },
+  'fannie-mae-fraud': {
+    title: 'Fannie Mae Accounting Fraud',
+    subtitle: 'Manipulated earnings to meet targets and bonuses',
+    severity: 'high',
+    category: 'Financial Fraud',
+    date: 'December 6, 2004',
+    lastUpdated: 'May 23, 2006',
+    summary: 'Fannie Mae executives manipulated accounting to inflate earnings by $6.3B, violating securities laws and costing shareholders billions.',
+    content: [
+      'EARNINGS MANIPULATION: Used accounting tricks to meet earnings targets for executive bonuses.',
+      'SEC INVESTIGATION: Led to $400M settlement and restatements.',
+      'EXECUTIVE BONUSES: Franklin Raines received $90M in bonuses based on fraudulent earnings.',
+    ],
+    tags: ['Fannie Mae', 'Accounting Fraud', 'SEC'],
+    sources: [
+      { title: 'SEC v. Fannie Mae', url: 'https://www.sec.gov/litigation/litreleases/lr18832.htm', type: 'SEC Release' },
+    ],
+    affiliations: [
+      { id: '1', name: 'Franklin Raines', type: 'individual', relationship: 'CEO, received fraudulent bonuses', href: '/entities/individuals/franklin-raines' },
+    ],
+  },
 };
 
 export default investigations_f;

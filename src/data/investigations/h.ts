@@ -499,6 +499,48 @@ const investigations_h: Record<string, InvestigationData> = {
     ],
     affiliations: [],
   },
+  'heroin-trafficking': {
+    title: 'CIA Heroin Trafficking in Southeast Asia',
+    subtitle: 'Operation Menu and Air America drug smuggling',
+    severity: 'critical',
+    category: 'Drug Trafficking',
+    date: '1965-1975',
+    lastUpdated: 'December 1, 1998',
+    summary: 'During the Vietnam War, the CIA facilitated heroin trafficking through Laos and Vietnam, using Air America to transport drugs and protect traffickers.',
+    content: [
+      'AIR AMERICA: CIA-owned airline transported opium and heroin.',
+      'PROTECTION OF TRAFFICKERS: CIA protected Hmong warlords who were major heroin producers.',
+      'GOLDEN TRIANGLE: Laos became the world\'s leading heroin producer under CIA protection.',
+    ],
+    tags: ['CIA', 'Heroin', 'Vietnam War', 'Drug Trafficking'],
+    sources: [
+      { title: 'Senate Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/report_volume5.pdf', type: 'Government Report' },
+    ],
+    affiliations: [
+      { id: '1', name: 'CIA', type: 'agency', relationship: 'Facilitated trafficking', href: '/entities/agencies/cia' },
+    ],
+  },
+  'holocaust-denial': {
+    title: 'Holocaust Denial and Revisionism',
+    subtitle: 'Systematic efforts to minimize or deny Nazi genocide',
+    severity: 'critical',
+    category: 'Historical Denial',
+    date: '1945-Present',
+    lastUpdated: 'January 27, 2024',
+    summary: 'Holocaust denial seeks to minimize the systematic murder of 6 million Jews and millions of others by Nazi Germany, often as part of broader antisemitic agendas.',
+    content: [
+      'DENIAL CLAIMS: False assertions that gas chambers were not used for extermination.',
+      'REVISIONISM: Attempts to reduce death toll or blame victims.',
+      'LEGAL CONSEQUENCES: Many countries criminalize Holocaust denial.',
+    ],
+    tags: ['Holocaust', 'Denial', 'Nazi', 'Antisemitism'],
+    sources: [
+      { title: 'USHMM Holocaust Facts', url: 'https://www.ushmm.org/learn/holocaust-denial', type: 'Educational' },
+    ],
+    affiliations: [
+      { id: '1', name: 'Adolf Hitler', type: 'individual', relationship: 'Nazi leader', href: '/entities/individuals/adolf-hitler' },
+    ],
+  },
 };
 
 export default investigations_h;

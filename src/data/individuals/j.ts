@@ -9295,3 +9295,82 @@ const profiles: Record<string, IndividualProfile> = {
 };
 
 export default profiles;
+
+  'john-eastman': {
+    name: 'John Eastman',
+    title: 'Former Law Professor & Election Lawyer',
+    role: 'Architect of January 6 fake electors scheme',
+    riskLevel: 'high',
+    description: 'John Eastman was a law professor and attorney who served as an advisor to Donald Trump and played a key role in the January 6, 2021, Capitol attack. He drafted legal memos arguing that Vice President Mike Pence could reject electoral votes and helped organize fake electors in states Biden won.',
+    birthDate: 'Unknown',
+    birthPlace: 'USA',
+    education: ['University of Chicago Law School'],
+    affiliations: [
+      { name: 'Claremont Institute', role: 'Senior Fellow', type: 'organization' },
+    ],
+    controversies: [
+      'Drafted memos claiming Pence could reject electoral votes',
+      'Helped organize fake electors in 7 states',
+      'Spoke at January 6 rally',
+      'Indicted for election interference',
+    ],
+    charges: [
+      { crime: 'Election interference', status: 'Indicted', date: '2023' },
+    ],
+    relatedInvestigations: [
+      { title: 'January 6 Capitol Attack', slug: 'january-6-capitol-attack', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2020', event: 'Advised Trump on election challenges' },
+      { date: 'January 6, 2021', event: 'Spoke at rally before Capitol attack' },
+      { date: '2023', event: 'Indicted in Georgia' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Georgia Indictment', url: 'https://www.fultonclerk.org/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Legal advisor', href: '/entities/individuals/donald-trump' },
+      { name: 'Mike Pence', relationship: 'Target of legal pressure', href: '/entities/individuals/mike-pence' },
+    ],
+  },
+  'joseph-stalin': {
+    name: 'Joseph Stalin',
+    title: 'General Secretary of the Communist Party of the Soviet Union',
+    role: 'Dictator of the Soviet Union responsible for millions of deaths',
+    riskLevel: 'critical',
+    description: 'Joseph Stalin was the dictator of the Soviet Union from 1929 to 1953. He was responsible for the deaths of millions through forced collectivization, the Great Purge, and the Gulag system.',
+    birthDate: 'December 18, 1878',
+    birthPlace: 'Gori, Georgia',
+    education: [],
+    affiliations: [
+      { name: 'Communist Party of the Soviet Union', role: 'General Secretary', type: 'organization' },
+    ],
+    controversies: [
+      'Holodomor famine killed millions in Ukraine',
+      'Great Purge executed hundreds of thousands',
+      'Gulag camps imprisoned millions',
+      'World War II atrocities',
+    ],
+    charges: [
+      { crime: 'Crimes against humanity', status: 'Historical', date: 'Posthumous' },
+    ],
+    relatedInvestigations: [
+      { title: 'Soviet Atrocities', slug: 'soviet-atrocities', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'December 18, 1878', event: 'Born in Gori, Georgia' },
+      { date: '1922', event: 'Became General Secretary' },
+      { date: '1953', event: 'Died' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'The Gulag Archipelago', url: 'https://en.wikipedia.org/wiki/The_Gulag_Archipelago', date: '1973' },
+    ],
+    aliases: ['Stalin'],
+    knownAssociates: [
+      { name: 'Vladimir Lenin', relationship: 'Predecessor', href: '/entities/individuals/vladimir-lenin' },
+    ],
+  },
+};

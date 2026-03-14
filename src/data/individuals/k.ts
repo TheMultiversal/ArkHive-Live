@@ -3784,3 +3784,85 @@ const profiles: Record<string, IndividualProfile> = {
 };
 
 export default profiles;
+  'kenneth-lay': {
+    name: 'Kenneth Lay',
+    title: 'Former CEO, Enron Corporation',
+    role: 'CEO of Enron during its collapse; convicted of fraud and conspiracy',
+    riskLevel: 'high',
+    description: 'Kenneth Lee "Ken" Lay was an American businessman who was the CEO and chairman of Enron Corporation, a major energy company based in Houston, Texas. He was convicted of fraud and conspiracy in connection with the Enron scandal, which led to the company\'s bankruptcy and the loss of billions in shareholder value.',
+    birthDate: 'April 15, 1942',
+    birthPlace: 'Tyrone, Missouri, USA',
+    education: ['University of Missouri, B.S. in Economics', 'University of Houston, M.B.A.'],
+    affiliations: [
+      { name: 'Enron Corporation', role: 'CEO and Chairman (1985-2001)', type: 'corporation' },
+    ],
+    controversies: [
+      'Convicted of 10 counts of fraud and conspiracy related to Enron\'s collapse',
+      'Testified before Congress claiming Enron was in good shape while knowing it was insolvent',
+      'Received millions in bonuses while employees lost pensions',
+    ],
+    charges: [
+      { crime: 'Securities fraud', status: 'Convicted', date: '2006' },
+      { crime: 'Wire fraud', status: 'Convicted', date: '2006' },
+    ],
+    relatedInvestigations: [
+      { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'April 15, 1942', event: 'Born in Tyrone, Missouri' },
+      { date: '1985', event: 'Became CEO of Enron' },
+      { date: '2001', event: 'Enron files for bankruptcy' },
+      { date: '2006', event: 'Convicted of fraud' },
+      { date: 'July 5, 2006', event: 'Died before sentencing' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'SEC v. Enron', url: 'https://www.sec.gov/litigation/litreleases/lr17627.htm', date: '2002' },
+    ],
+    aliases: ['Ken Lay'],
+    knownAssociates: [
+      { name: 'Jeffrey Skilling', relationship: 'Enron CFO, also convicted', href: '/entities/individuals/jeffrey-skilling' },
+    ],
+  },
+  'klaus-barbie': {
+    name: 'Klaus Barbie',
+    title: 'Nazi War Criminal, "Butcher of Lyon"',
+    role: 'Gestapo chief in Lyon, France; responsible for torture and executions',
+    riskLevel: 'critical',
+    description: 'Nikolaus "Klaus" Barbie was a Nazi war criminal who served as the head of the Gestapo in Lyon, France. He was responsible for the arrest, torture, and execution of thousands of Jews and Resistance members. After the war, he was recruited by U.S. intelligence and fled to Bolivia.',
+    birthDate: 'October 25, 1913',
+    birthPlace: 'Bad Godesberg, Germany',
+    education: [],
+    affiliations: [
+      { name: 'Nazi Party', role: 'SS Officer', type: 'organization' },
+      { name: 'CIA', role: 'Asset after WWII', type: 'agency' },
+    ],
+    controversies: [
+      'Tortured and executed thousands in Lyon',
+      'Deported Jews to concentration camps',
+      'Protected by U.S. intelligence post-war',
+    ],
+    charges: [
+      { crime: 'War crimes', status: 'Convicted', date: '1987' },
+      { crime: 'Crimes against humanity', status: 'Convicted', date: '1987' },
+    ],
+    relatedInvestigations: [
+      { title: 'Nazi War Crimes', slug: 'nazi-war-crimes', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'October 25, 1913', event: 'Born in Bad Godesberg' },
+      { date: '1942', event: 'Became Gestapo chief in Lyon' },
+      { date: '1945', event: 'Fled to Bolivia with U.S. help' },
+      { date: '1983', event: 'Extradited to France' },
+      { date: 'September 25, 1991', event: 'Died in prison' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Trial of Klaus Barbie', url: 'https://www.justice.gov/archives/opa/blog/remembering-klaus-barbie', date: '1987' },
+    ],
+    aliases: ['Butcher of Lyon'],
+    knownAssociates: [
+      { name: 'Adolf Eichmann', relationship: 'Fellow Nazi war criminal', href: '/entities/individuals/adolf-eichmann' },
+    ],
+  },
+};
