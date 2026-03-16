@@ -22,7 +22,7 @@ export default function InvestigationError({ error, reset }: ErrorProps) {
  <FileX className="w-10 h-10 text-blood-600"/>
  </div>
 
- <h1 className="text-xl font-black text-white uppercase tracking-wider mb-3">
+ <h1 className="text-xl font-black glass-text uppercase tracking-wider mb-3">
  INVESTIGATION INACCESSIBLE
  </h1>
 

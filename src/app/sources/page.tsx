@@ -596,7 +596,7 @@ export default function SourcesPage() {
  animate={{ opacity: 1, y: 0 }}
  className="mb-12"
  >
- <h1 className="text-2xl sm:text-4xl font-bold text-white mb-4">
+ <h1 className="text-2xl sm:text-4xl font-bold glass-text mb-4">
  Our <span className="text-blood-500">Sources</span>
  </h1>
  <p className="text-lg text-zinc-400 max-w-2xl">
@@ -773,7 +773,7 @@ export default function SourcesPage() {
  viewport={{ once: true }}
  className="mt-16 pt-8 border-t border-zinc-800"
  >
- <h2 className="text-2xl font-bold text-white mb-6">How We Protect Sources</h2>
+ <h2 className="text-2xl font-bold glass-text mb-6">How We Protect Sources</h2>
  <div className="grid md:grid-cols-3 gap-4">
  <div className="bg-zinc-900/30 border border-zinc-800/50 p-5">
  <Lock className="w-8 h-8 text-blood-500 mb-3"/>

@@ -21,7 +21,7 @@ export default function EnterPage() {
    initial={{ opacity: 0, letterSpacing: '0.5em' }}
    animate={{ opacity: 1, letterSpacing: '0.3em' }}
    transition={{ duration: 2, ease: 'easeOut' }}
-   className="text-4xl sm:text-5xl md:text-7xl font-black text-blood-500 tracking-[0.2em] sm:tracking-[0.3em] mb-4"
+   className="text-4xl sm:text-5xl md:text-7xl font-black glass-text tracking-[0.2em] sm:tracking-[0.3em] mb-4"
   >
    ARKHIVE
   </motion.h1>
@@ -48,7 +48,7 @@ export default function EnterPage() {
    initial={{ opacity: 0, scale: 0.9 }}
    animate={{ opacity: 1, scale: 1 }}
    transition={{ duration: 0.6, delay: 1.5 }}
-   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(59,130,246,0.4)' }}
+   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(30,63,122,0.4)' }}
    whileTap={{ scale: 0.97 }}
    onClick={() => router.push('/home')}
    className="px-10 py-3 border border-blood-600 text-blood-400 font-semibold tracking-widest uppercase text-sm hover:bg-blood-900/40 hover:text-blood-300 transition-colors duration-300"

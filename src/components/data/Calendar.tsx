@@ -123,7 +123,7 @@ interface EventChipProps {
 }
 
 function EventChip({ event, onClick, compact = false }: EventChipProps) {
- const eventColor = event.color || '#3b82f6';
+ const eventColor = event.color || '#1e3f7a';
 
  return (
  <motion.button
@@ -205,7 +205,7 @@ function DayCell({
  'text-sm w-6 h-6 flex items-center justify-center',
  !isCurrentMonth && 'text-zinc-600',
  isCurrentMonth && 'text-zinc-300',
- isToday && 'bg-blood-500 text-white font-bold'
+ isToday && 'bg-blood-500 glass-text font-bold'
  )}
  >
  {date.getDate()}

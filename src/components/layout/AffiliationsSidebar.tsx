@@ -73,7 +73,7 @@ export default function AffiliationsSidebar({
  <div className="p-6">
  {/* Header */}
  <div className="flex items-center justify-between mb-6">
- <h3 className="text-lg font-bold text-white flex items-center gap-2">
+ <h3 className="text-lg font-bold glass-text flex items-center gap-2">
  <ExternalLink className="w-5 h-5 text-blood-500"/>
  {title}
  </h3>
@@ -92,7 +92,7 @@ export default function AffiliationsSidebar({
  <span className="text-xs text-zinc-500">Total Connections</span>
  </div>
  <div className="glass-card p-3 text-center">
- <span className="block text-2xl font-bold text-white">{Object.keys(groupedAffiliations).length}</span>
+ <span className="block text-2xl font-bold glass-text">{Object.keys(groupedAffiliations).length}</span>
  <span className="text-xs text-zinc-500">Entity Types</span>
  </div>
  </div>

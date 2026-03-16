@@ -530,7 +530,7 @@ export default function EpsteinNetworkPage() {
  </span>
  </div>
 
- <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-2">
+ <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">
  <GlitchText text={investigation.title} />
  </h1>
  <p className="text-lg text-blood-500 font-bold mb-4">{investigation.subtitle}</p>
@@ -544,7 +544,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.1 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Users className="w-5 h-5 text-blood-500"/>
  Key Figures & Associates
  </h2>
@@ -558,7 +558,7 @@ export default function EpsteinNetworkPage() {
  >
  <div className="flex justify-between items-start">
  <div>
- <h3 className="font-bold text-white group-hover:text-blood-500 transition-colors">
+ <h3 className="font-bold glass-text group-hover:text-blood-500 transition-colors">
  {figure.name}
  </h3>
  <p className="text-sm text-zinc-400">{figure.role}</p>
@@ -572,7 +572,7 @@ export default function EpsteinNetworkPage() {
 
  {/* Cover-Up */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.12 }} className="border-2 border-blood-800/60 bg-blood-950/10 p-6 mb-8 border-l-4 border-l-blood-600">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
  <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
@@ -583,7 +583,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.125 }}
  className="border-2 border-blood-900/60 bg-blood-950/5 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Eye className="w-5 h-5 text-blood-500"/>
  Intelligence Connections
  </h2>
@@ -594,7 +594,7 @@ export default function EpsteinNetworkPage() {
  href={conn.href}
  className="block border border-blood-800/40 bg-blood-950/10 p-4 hover:border-blood-600 transition-colors group"
  >
- <h3 className="font-bold text-white group-hover:text-blood-500 transition-colors">{conn.entity}</h3>
+ <h3 className="font-bold glass-text group-hover:text-blood-500 transition-colors">{conn.entity}</h3>
  <p className="text-sm text-blood-400 mt-1">{conn.role}</p>
  <p className="text-xs text-zinc-400 mt-2">{conn.details}</p>
  </Link>
@@ -609,7 +609,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.127 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Building className="w-5 h-5 text-blood-500"/>
  Institutional Connections
  </h2>
@@ -620,7 +620,7 @@ export default function EpsteinNetworkPage() {
  href={conn.href}
  className="border border-zinc-700 bg-zinc-900/50 p-4 hover:border-blood-600 transition-colors group"
  >
- <h3 className="font-bold text-white group-hover:text-blood-500 transition-colors">{conn.entity}</h3>
+ <h3 className="font-bold glass-text group-hover:text-blood-500 transition-colors">{conn.entity}</h3>
  <p className="text-sm text-blood-400 mt-1">{conn.role}</p>
  <p className="text-xs text-zinc-400 mt-2">{conn.details}</p>
  </Link>
@@ -635,7 +635,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.13 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <DollarSign className="w-5 h-5 text-blood-500"/>
  Financial Connections & Enablers
  </h2>
@@ -646,7 +646,7 @@ export default function EpsteinNetworkPage() {
  href={conn.href}
  className="border border-zinc-700 bg-zinc-900/50 p-4 hover:border-blood-600 transition-colors group"
  >
- <h3 className="font-bold text-white group-hover:text-blood-500 transition-colors">{conn.entity}</h3>
+ <h3 className="font-bold glass-text group-hover:text-blood-500 transition-colors">{conn.entity}</h3>
  <p className="text-sm text-blood-400 mt-1">{conn.role}</p>
  <p className="text-xs text-zinc-400 mt-2">{conn.details}</p>
  </Link>
@@ -661,7 +661,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.15 }}
  className="border-2 border-blood-800/60 bg-blood-950/20 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <AlertTriangle className="w-5 h-5 text-blood-500"/>
  Trump-Epstein Connections
  </h2>
@@ -682,14 +682,14 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.2 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <MapPin className="w-5 h-5 text-blood-500"/>
  Properties & Locations
  </h2>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
  {investigation.properties.map((property, idx) => (
  <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
- <h3 className="font-bold text-white">{property.name}</h3>
+ <h3 className="font-bold glass-text">{property.name}</h3>
  <p className="text-sm text-blood-500">{property.location}</p>
  <p className="text-sm text-zinc-400 mt-1">{property.details}</p>
  </div>
@@ -704,14 +704,14 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.25 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Plane className="w-5 h-5 text-blood-500"/>
  Aircraft & Transportation
  </h2>
  <div className="space-y-4">
  {investigation.aircraft.map((craft, idx) => (
  <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
- <h3 className="font-bold text-white">{craft.name}</h3>
+ <h3 className="font-bold glass-text">{craft.name}</h3>
  <p className="text-sm text-blood-500">{craft.nickname}</p>
  <p className="text-sm text-zinc-400 mt-1">{craft.details}</p>
  </div>
@@ -726,7 +726,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.28 }}
  className="border-2 border-blood-800/60 bg-blood-950/10 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Globe className="w-5 h-5 text-blood-500"/>
  Victims & Recruitment
  </h2>
@@ -767,7 +767,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.285 }}
  className="border-2 border-blood-900/60 bg-blood-950/5 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Book className="w-5 h-5 text-blood-500"/>
  The Black Book (1,571 Names)
  </h2>
@@ -792,7 +792,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.29 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Map className="w-5 h-5 text-blood-500"/>
  International Connections & Trafficking Routes
  </h2>
@@ -800,7 +800,7 @@ export default function EpsteinNetworkPage() {
  {investigation.internationalConnections.map((conn, idx) => (
  <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
  <div className="flex justify-between items-start mb-2">
- <h3 className="font-bold text-white">{conn.region}</h3>
+ <h3 className="font-bold glass-text">{conn.region}</h3>
  <span className={`text-xs px-2 py-0.5 border ${conn.status.includes('Active') ? 'border-blood-500/30 text-blood-400 bg-blood-500/10' : conn.status.includes('Alleged') ? 'border-zinc-400/30 text-zinc-300 bg-zinc-400/10' : 'border-zinc-600 text-zinc-400 bg-zinc-800/50'}`}>{conn.status}</span>
  </div>
  <p className="text-xs text-zinc-400">{conn.details}</p>
@@ -816,7 +816,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.3 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Scale className="w-5 h-5 text-blood-500"/>
  Criminal Charges
  </h2>
@@ -842,7 +842,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.35 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Calendar className="w-5 h-5 text-blood-500"/>
  Timeline of Events
  </h2>
@@ -858,8 +858,8 @@ export default function EpsteinNetworkPage() {
 
  
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  {/* Sources */}
  <motion.div
@@ -868,7 +868,7 @@ export default function EpsteinNetworkPage() {
  transition={{ delay: 0.4 }}
  className="border-2 border-zinc-800 bg-black/60 p-6"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
  Sources & Documentation
  </h2>

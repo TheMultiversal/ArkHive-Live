@@ -16,7 +16,7 @@ export default function SimpleTypingText({
  <span 
  className="bg-gradient-to-b from-blood-600 via-blood-700 to-blood-800 bg-clip-text text-transparent animate-fade-in"
  style={{
- filter: 'drop-shadow(0 0 30px rgba(37, 99, 235, 0.5))',
+ filter: 'drop-shadow(0 0 30px rgba(22, 47, 94, 0.5))',
  }}
  >
  {text}

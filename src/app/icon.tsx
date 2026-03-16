@@ -32,7 +32,7 @@ export default function Icon() {
  width="28"
  height="28"
  viewBox="0 0 100 100"
- style={{ filter: 'drop-shadow(0 0 2px rgba(59, 130, 246, 0.8))' }}
+ style={{ filter: 'drop-shadow(0 0 2px rgba(30, 63, 122, 0.8))' }}
  >
  {/* Eye white (sclera) */}
  <ellipse
@@ -48,7 +48,7 @@ export default function Icon() {
  cx="50"
  cy="45"
  r="18"
- fill="#2563eb"
+ fill="#162f5e"
  />
  
  {/* Pupil */}
@@ -72,19 +72,19 @@ export default function Icon() {
  {/* Blood drip 1 - main */}
  <path
  d="M50 73 Q50 80, 48 90 Q47 95, 50 98 Q53 95, 52 90 Q50 80, 50 73"
- fill="#2563eb"
+ fill="#162f5e"
  />
  
  {/* Blood drip 2 - left */}
  <path
  d="M35 68 Q34 75, 32 82 Q31 86, 33 88 Q35 86, 34 82 Q34 75, 35 68"
- fill="#1d4ed8"
+ fill="#102248"
  />
  
  {/* Blood drip 3 - right */}
  <path
  d="M65 68 Q66 74, 67 80 Q68 84, 66 86 Q64 84, 65 80 Q65 74, 65 68"
- fill="#1d4ed8"
+ fill="#102248"
  />
  
  {/* Blood pooling at bottom of eye */}
@@ -93,7 +93,7 @@ export default function Icon() {
  cy="70"
  rx="35"
  ry="5"
- fill="#1e3a8a"
+ fill="#070f22"
  opacity="0.6"
  />
  </svg>

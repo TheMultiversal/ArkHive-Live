@@ -131,7 +131,7 @@ export default function MethodologyPage() {
  animate={{ opacity: 1, y: 0 }}
  className="text-center mb-16"
  >
- <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+ <h1 className="text-4xl md:text-5xl font-bold glass-text mb-4">
  Our <span className="text-blood-500">Methodology</span>
  </h1>
  <p className="text-lg text-zinc-400 max-w-2xl mx-auto">
@@ -145,7 +145,7 @@ export default function MethodologyPage() {
  <motion.h2
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
- className="text-2xl font-bold text-white mb-8 text-center"
+ className="text-2xl font-bold glass-text mb-8 text-center"
  >
  Investigation Process
  </motion.h2>
@@ -169,7 +169,7 @@ export default function MethodologyPage() {
  STEP {index + 1}
  </span>
  </div>
- <h3 className="text-lg font-bold text-white mb-2">
+ <h3 className="text-lg font-bold glass-text mb-2">
  {step.title}
  </h3>
  <p className="text-zinc-400 text-sm mb-4">
@@ -196,7 +196,7 @@ export default function MethodologyPage() {
  initial={{ opacity: 0 }}
  whileInView={{ opacity: 1 }}
  viewport={{ once: true }}
- className="text-2xl font-bold text-white mb-8 text-center"
+ className="text-2xl font-bold glass-text mb-8 text-center"
  >
  Core Principles
  </motion.h2>
@@ -225,7 +225,7 @@ export default function MethodologyPage() {
  initial={{ opacity: 0 }}
  whileInView={{ opacity: 1 }}
  viewport={{ once: true }}
- className="text-2xl font-bold text-white mb-8 text-center"
+ className="text-2xl font-bold glass-text mb-8 text-center"
  >
  Evidence Standards
  </motion.h2>
@@ -284,7 +284,7 @@ export default function MethodologyPage() {
  viewport={{ once: true }}
  className="bg-blood-900/20 border border-blood-800/50 p-8"
  >
- <h2 className="text-2xl font-bold text-white mb-4">Corrections Policy</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">Corrections Policy</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  We correct errors promptly and transparently. Corrections are noted at 

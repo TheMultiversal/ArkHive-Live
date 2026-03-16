@@ -11,7 +11,7 @@ export default function Loading() {
 
  {/* Loading Text */}
  <div className="space-y-2">
- <p className="text-lg font-bold text-white uppercase tracking-wider">
+ <p className="text-lg font-bold glass-text uppercase tracking-wider">
  ACCESSING AGENCY DOSSIER
  </p>
  <p className="text-sm text-zinc-500">

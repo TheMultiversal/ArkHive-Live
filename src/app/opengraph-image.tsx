@@ -40,8 +40,8 @@ export default async function Image() {
  right: 0,
  bottom: 0,
  backgroundImage: `
- linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
- linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px)
+ linear-gradient(rgba(30, 63, 122, 0.03) 1px, transparent 1px),
+ linear-gradient(90deg, rgba(30, 63, 122, 0.03) 1px, transparent 1px)
  `,
  backgroundSize: '50px 50px',
  }}
@@ -55,7 +55,7 @@ export default async function Image() {
  left: 0,
  right: 0,
  height: '4px',
- background: 'linear-gradient(90deg, transparent 0%, #3b82f6 50%, transparent 100%)',
+ background: 'linear-gradient(90deg, transparent 0%, #1e3f7a 50%, transparent 100%)',
  }}
  />
 
@@ -76,7 +76,7 @@ export default async function Image() {
  viewBox="0 0 100 100"
  style={{ 
  marginBottom: '30px',
- filter: 'drop-shadow(0 0 20px rgba(59, 130, 246, 0.6))',
+ filter: 'drop-shadow(0 0 20px rgba(30, 63, 122, 0.6))',
  }}
  >
  {/* Eye white (sclera) */}
@@ -91,28 +91,28 @@ export default async function Image() {
  {/* Blood veins in sclera */}
  <path
  d="M15 45 Q25 42, 32 45"
- stroke="#2563eb"
+ stroke="#162f5e"
  strokeWidth="0.8"
  fill="none"
  opacity="0.6"
  />
  <path
  d="M68 45 Q75 42, 85 45"
- stroke="#2563eb"
+ stroke="#162f5e"
  strokeWidth="0.8"
  fill="none"
  opacity="0.6"
  />
  <path
  d="M20 40 Q28 38, 35 42"
- stroke="#1d4ed8"
+ stroke="#102248"
  strokeWidth="0.5"
  fill="none"
  opacity="0.5"
  />
  <path
  d="M65 42 Q72 38, 80 40"
- stroke="#1d4ed8"
+ stroke="#102248"
  strokeWidth="0.5"
  fill="none"
  opacity="0.5"
@@ -123,13 +123,13 @@ export default async function Image() {
  cx="50"
  cy="45"
  r="18"
- fill="#2563eb"
+ fill="#162f5e"
  />
  <circle
  cx="50"
  cy="45"
  r="15"
- fill="#1d4ed8"
+ fill="#102248"
  />
  
  {/* Pupil */}
@@ -153,19 +153,19 @@ export default async function Image() {
  {/* Blood drip 1 - main center */}
  <path
  d="M50 73 Q50 82, 48 92 Q47 97, 50 100 Q53 97, 52 92 Q50 82, 50 73"
- fill="#2563eb"
+ fill="#162f5e"
  />
  
  {/* Blood drip 2 - left */}
  <path
  d="M35 68 Q34 76, 32 85 Q31 90, 33 93 Q35 90, 34 85 Q34 76, 35 68"
- fill="#1d4ed8"
+ fill="#102248"
  />
  
  {/* Blood drip 3 - right */}
  <path
  d="M65 68 Q66 75, 67 83 Q68 88, 66 91 Q64 88, 65 83 Q65 75, 65 68"
- fill="#1d4ed8"
+ fill="#102248"
  />
  
  {/* Blood pooling at bottom of eye */}
@@ -174,7 +174,7 @@ export default async function Image() {
  cy="71"
  rx="36"
  ry="5"
- fill="#1e3a8a"
+ fill="#070f22"
  opacity="0.7"
  />
  </svg>
@@ -198,7 +198,7 @@ export default async function Image() {
  style={{
  fontSize: 32,
  fontWeight: 500,
- color: '#3b82f6',
+ color: '#1e3f7a',
  textAlign: 'center',
  letterSpacing: '0.05em',
  textTransform: 'uppercase',
@@ -231,7 +231,7 @@ export default async function Image() {
  left: 0,
  right: 0,
  height: '4px',
- background: 'linear-gradient(90deg, transparent 0%, #3b82f6 50%, transparent 100%)',
+ background: 'linear-gradient(90deg, transparent 0%, #1e3f7a 50%, transparent 100%)',
  }}
  />
 
@@ -243,8 +243,8 @@ export default async function Image() {
  left: '20px',
  width: '40px',
  height: '40px',
- borderTop: '2px solid #3b82f6',
- borderLeft: '2px solid #3b82f6',
+ borderTop: '2px solid #1e3f7a',
+ borderLeft: '2px solid #1e3f7a',
  }}
  />
  <div
@@ -254,8 +254,8 @@ export default async function Image() {
  right: '20px',
  width: '40px',
  height: '40px',
- borderTop: '2px solid #3b82f6',
- borderRight: '2px solid #3b82f6',
+ borderTop: '2px solid #1e3f7a',
+ borderRight: '2px solid #1e3f7a',
  }}
  />
  <div
@@ -265,8 +265,8 @@ export default async function Image() {
  left: '20px',
  width: '40px',
  height: '40px',
- borderBottom: '2px solid #3b82f6',
- borderLeft: '2px solid #3b82f6',
+ borderBottom: '2px solid #1e3f7a',
+ borderLeft: '2px solid #1e3f7a',
  }}
  />
  <div
@@ -276,8 +276,8 @@ export default async function Image() {
  right: '20px',
  width: '40px',
  height: '40px',
- borderBottom: '2px solid #3b82f6',
- borderRight: '2px solid #3b82f6',
+ borderBottom: '2px solid #1e3f7a',
+ borderRight: '2px solid #1e3f7a',
  }}
  />
  </div>

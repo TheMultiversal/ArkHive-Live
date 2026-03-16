@@ -47,7 +47,7 @@ const mockTags: TagData[] = [
  id: 'tag_1',
  name: 'Government',
  slug: 'government',
- color: '#3b82f6',
+ color: '#1e3f7a',
  description: 'Items related to government agencies and officials',
  category: 'general',
  usageCount: 456,
@@ -77,7 +77,7 @@ const mockTags: TagData[] = [
  id: 'tag_3',
  name: 'Surveillance',
  slug: 'surveillance',
- color: '#60a5fa',
+ color: '#3a5ea0',
  description: 'Mass surveillance and privacy violations',
  category: 'investigation',
  usageCount: 289,
@@ -152,7 +152,7 @@ const mockTags: TagData[] = [
  id: 'tag_8',
  name: 'Classified',
  slug: 'classified',
- color: '#2563eb',
+ color: '#162f5e',
  description: 'Highly sensitive classified materials',
  category: 'document',
  usageCount: 89,
@@ -293,7 +293,7 @@ function CreateTagModal({
  animate={{ opacity: 1, scale: 1 }}
  className="glass-card w-full max-w-md p-6"
  >
- <h2 className="text-xl font-bold text-white mb-6">Create New Tag</h2>
+ <h2 className="text-xl font-bold glass-text mb-6">Create New Tag</h2>
  
  <div className="space-y-4">
  <div>
@@ -327,7 +327,7 @@ function CreateTagModal({
  <div>
  <label className="block text-zinc-400 text-sm mb-2">Color</label>
  <div className="flex gap-2">
- {['#60a5fa', '#71717a', '#10b981', '#3b82f6', '#8b5cf6', '#ec4899'].map((color) => (
+ {['#3a5ea0', '#71717a', '#10b981', '#1e3f7a', '#8b5cf6', '#ec4899'].map((color) => (
  <button
  key={color}
  className="w-8 h-8 border-2 border-transparent hover:border-white transition-colors"

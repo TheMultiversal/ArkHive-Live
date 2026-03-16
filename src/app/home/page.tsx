@@ -101,7 +101,7 @@ function FeaturedInvestigationsGrid() {
       <TypewriterText
        text="Featured Investigations"
        element="h2"
-       className="text-2xl lg:text-3xl font-bold text-white mb-2"
+       className="text-2xl lg:text-3xl font-bold glass-text mb-2"
        speed={50}
       />
       <p className="text-zinc-500">
@@ -126,7 +126,7 @@ function FeaturedInvestigationsGrid() {
         text-left p-3 border-l-2 ${SEVERITY_COLORS[inv.severity]}
         bg-black/30 border border-zinc-800/50
         hover:bg-blood-950/20 hover:border-blood-900/40
-        hover:shadow-[0_0_10px_rgba(59,130,246,0.08)]
+        hover:shadow-[0_0_10px_rgba(30,63,122,0.08)]
         active:scale-[0.98]
         transition-all duration-200 cursor-pointer select-none group
        `}
@@ -191,8 +191,8 @@ export default function Home() {
  <svg className="absolute inset-0 w-full h-full opacity-10">
  <defs>
  <radialGradient id="centerGlow"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#2563eb"stopOpacity="0.3"/>
- <stop offset="100%"stopColor="#2563eb"stopOpacity="0"/>
+ <stop offset="0%"stopColor="#162f5e"stopOpacity="0.3"/>
+ <stop offset="100%"stopColor="#162f5e"stopOpacity="0"/>
  </radialGradient>
  </defs>
  {/* Pre-computed positions to avoid hydration mismatch from Math.sin/cos floating point differences */}
@@ -216,7 +216,7 @@ export default function Home() {
  y1="50%"
  x2={pos.x2}
  y2={pos.y2}
- stroke="#2563eb"
+ stroke="#162f5e"
  strokeWidth="0.5"
  opacity="0.3"
  />
@@ -279,7 +279,7 @@ export default function Home() {
  
  {/* Main question, stacked dramatic */}
  <div className="relative">
- <p className="text-2xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
+ <p className="text-2xl sm:text-4xl lg:text-5xl font-black glass-text tracking-tight">
  FOLLOW THE <span className="text-blood-600">EVIDENCE</span>
  </p>
  <p className="text-base sm:text-2xl lg:text-3xl font-bold text-zinc-400 mt-1">
@@ -309,13 +309,13 @@ export default function Home() {
  <br />
  4 indictments. $454 million in fraud judgments.
  <br />
- <span className="text-white font-bold">And that&apos;s just one person.</span>
+ <span className="glass-text font-bold">And that&apos;s just one person.</span>
  </p>
  <p className="text-base sm:text-lg text-zinc-400 mt-4 leading-relaxed">
  Every day, institutions designed to protect you{""}
  <span className="text-blood-600 font-bold">betray that trust</span>{""}
  while burying the evidence. We dig it up.{""}
- <span className="text-white font-bold italic">We document everything.</span>
+ <span className="glass-text font-bold italic">We document everything.</span>
  </p>
  <div className="mt-4 pt-4 border-t border-zinc-800">
  <p className="text-sm text-zinc-500 uppercase tracking-wide sm:tracking-widest">
@@ -364,7 +364,7 @@ export default function Home() {
  <p className="text-xs text-zinc-500 mt-1">Classified operations, black sites, and secret programs</p>
  </div>
  <div>
- <span className="text-2xl font-black text-white">DOCUMENT</span>
+ <span className="text-2xl font-black glass-text">DOCUMENT</span>
  <p className="text-xs text-zinc-500 mt-1">Primary sources, leaked files, and witness testimony</p>
  </div>
  <div>
@@ -544,7 +544,7 @@ export default function Home() {
  <TypewriterText
  text="Track the Players"
  element="h2"
- className="text-2xl lg:text-3xl font-bold text-white mb-4"
+ className="text-2xl lg:text-3xl font-bold glass-text mb-4"
  speed={60}
  />
  <GlitchParagraph className="text-zinc-500 max-w-2xl mx-auto">
@@ -559,7 +559,7 @@ export default function Home() {
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="nuclear"size={32} className="text-white"/>
  </div>
- <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blood-700 transition-colors">
+ <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Government Agencies
  </h3>
  <p className="text-zinc-500 text-sm mb-4">
@@ -574,7 +574,7 @@ export default function Home() {
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="pharmaceutical"size={32} className="text-white"/>
  </div>
- <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blood-700 transition-colors">
+ <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Corporations
  </h3>
  <p className="text-zinc-500 text-sm mb-4">
@@ -589,7 +589,7 @@ export default function Home() {
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="biological"size={32} className="text-white"/>
  </div>
- <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blood-700 transition-colors">
+ <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Key Individuals
  </h3>
  <p className="text-zinc-500 text-sm mb-4">
@@ -604,7 +604,7 @@ export default function Home() {
  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
  <BiohazardIcon variant="standard"size={32} className="text-white"/>
  </div>
- <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blood-700 transition-colors">
+ <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Organizations
  </h3>
  <p className="text-zinc-500 text-sm mb-4">
@@ -639,7 +639,7 @@ export default function Home() {
  <TypewriterText
  text="Help Build the Archive"
  element="h2"
- className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4"
+ className="text-2xl sm:text-3xl lg:text-4xl font-bold glass-text mb-4"
  speed={40}
  />
  <GlitchParagraph className="text-zinc-400 max-w-2xl mx-auto mb-12">

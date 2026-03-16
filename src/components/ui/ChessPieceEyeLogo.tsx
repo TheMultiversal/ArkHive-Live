@@ -49,7 +49,7 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  {/* Blood glow */}
  <filter id="chessBloodGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="2"result="blur"/>
- <feFlood floodColor="#2563eb"floodOpacity="0.8"/>
+ <feFlood floodColor="#162f5e"floodOpacity="0.8"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -66,7 +66,7 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  </defs>
 
  {/* Checkered board base */}
- <circle cx="50"cy="50"r="48"fill="url(#checkerboard)"stroke="#1e40af"strokeWidth="2"/>
+ <circle cx="50"cy="50"r="48"fill="url(#checkerboard)"stroke="#0b1832"strokeWidth="2"/>
 
  {/* Animated ring */}
  <motion.circle
@@ -74,7 +74,7 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  cy="50"
  r="45"
  fill="none"
- stroke="#2563eb"
+ stroke="#162f5e"
  strokeWidth="0.5"
  strokeDasharray="8 4"
  animate={{ rotate: 360 }}
@@ -111,7 +111,7 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  {/* THE EYE - in the center of the king */}
  <g>
  {/* Eye socket */}
- <ellipse cx="50"cy="58"rx="10"ry="7"fill="#0a0a0a"stroke="#1e40af"strokeWidth="1"/>
+ <ellipse cx="50"cy="58"rx="10"ry="7"fill="#0a0a0a"stroke="#0b1832"strokeWidth="1"/>
  
  {/* Eye white */}
  <motion.ellipse
@@ -125,7 +125,7 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  />
  
  {/* Iris - blood red */}
- <circle cx="50"cy="58"r="4"fill="#1e40af"/>
+ <circle cx="50"cy="58"r="4"fill="#0b1832"/>
  
  {/* Pupil */}
  <motion.circle
@@ -141,14 +141,14 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  <circle cx="48"cy="56"r="1"fill="rgba(255,255,255,0.8)"/>
  
  {/* Blood vessels in eye */}
- <path d="M42 58 Q45 57 47 58"stroke="#2563eb"strokeWidth="0.3"fill="none"opacity="0.6"/>
- <path d="M53 58 Q55 59 58 58"stroke="#2563eb"strokeWidth="0.3"fill="none"opacity="0.6"/>
+ <path d="M42 58 Q45 57 47 58"stroke="#162f5e"strokeWidth="0.3"fill="none"opacity="0.6"/>
+ <path d="M53 58 Q55 59 58 58"stroke="#162f5e"strokeWidth="0.3"fill="none"opacity="0.6"/>
  </g>
 
  {/* Blood dripping from king */}
  <motion.path
  d="M45 78 Q44 82 45 86 Q44 88 45 90"
- stroke="#2563eb"
+ stroke="#162f5e"
  strokeWidth="2"
  fill="none"
  strokeLinecap="round"
@@ -159,7 +159,7 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  cx="45"
  cy="92"
  r="2"
- fill="#2563eb"
+ fill="#162f5e"
  animate={{ cy: [90, 95, 90], opacity: [1, 0, 1] }}
  transition={{ duration: 2, repeat: Infinity }}
  />
@@ -191,8 +191,8 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  <span 
  className="text-xs font-mono tracking-widest"
  style={{ 
- color: '#2563eb',
- textShadow: '0 0 10px rgba(37, 99, 235, 0.8)',
+ color: '#162f5e',
+ textShadow: '0 0 10px rgba(22, 47, 94, 0.8)',
  animation: showPawnText ? 'glitchText 0.1s infinite' : 'none'
  }}
  >

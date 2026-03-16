@@ -67,7 +67,7 @@ export default function CategoriesIndexPage() {
                       href={`/categories/${catSlug}`}
                       className="block p-5 border border-zinc-800 bg-zinc-950/50 hover:border-blood-500/30 hover:bg-zinc-900/30 transition-all group"
                     >
-                      <h3 className="text-lg font-bold text-white group-hover:text-blood-400 transition-colors mb-1">
+                      <h3 className="text-lg font-bold glass-text group-hover:text-blood-400 transition-colors mb-1">
                         {cat.name}
                       </h3>
                       <p className="text-xs text-zinc-500 mb-3 line-clamp-2">{cat.description}</p>
@@ -75,7 +75,7 @@ export default function CategoriesIndexPage() {
                         <div className="flex items-center gap-3">
                           <span className="flex items-center gap-1 text-xs text-zinc-400">
                             <Users className="w-3.5 h-3.5" />
-                            <span className="font-bold text-white">{cat.individuals.length}</span> individuals
+                            <span className="font-bold glass-text">{cat.individuals.length}</span> individuals
                           </span>
                           {critCount > 0 && (
                             <span className="flex items-center gap-1 text-xs text-blood-500">

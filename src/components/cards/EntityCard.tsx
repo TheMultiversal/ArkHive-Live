@@ -64,7 +64,7 @@ export default function EntityCard({ entity }: EntityCardProps) {
 
  {/* Name & Type */}
  <div className="flex-1 min-w-0">
- <h3 className="text-sm font-black text-white truncate group-hover:text-blood-500 transition-colors uppercase tracking-wide">
+ <h3 className="text-sm font-black glass-text truncate group-hover:text-blood-500 transition-colors uppercase tracking-wide">
  {entity.name}
  </h3>
  <p className="text-[10px] text-zinc-600 uppercase tracking-widest font-bold">{entity.type}</p>

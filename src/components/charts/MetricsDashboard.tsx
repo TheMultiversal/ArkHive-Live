@@ -121,11 +121,11 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  <div className="flex items-start justify-between mb-2">
  <div
  className="p-2"
- style={{ backgroundColor: `${metric.color || '#3b82f6'}20` }}
+ style={{ backgroundColor: `${metric.color || '#1e3f7a'}20` }}
  >
  <Icon
  className="w-5 h-5"
- style={{ color: metric.color || '#3b82f6' }}
+ style={{ color: metric.color || '#1e3f7a' }}
  />
  </div>
  {metric.sparklineData && (
@@ -133,14 +133,14 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  data={metric.sparklineData}
  width={80}
  height={24}
- color={metric.color || '#3b82f6'}
+ color={metric.color || '#1e3f7a'}
  />
  )}
  </div>
 
  <div className="mb-1">
  <p className="text-sm text-zinc-500">{metric.title}</p>
- <p className="text-2xl font-bold text-white">
+ <p className="text-2xl font-bold glass-text">
  {formatValue(metric.value, metric.format)}
  </p>
  </div>
@@ -168,7 +168,7 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  animate={{ width: `${Math.min(progress, 100)}%` }}
  transition={{ duration: 0.5 }}
  className="h-full"
- style={{ backgroundColor: metric.color || '#3b82f6' }}
+ style={{ backgroundColor: metric.color || '#1e3f7a' }}
  />
  </div>
  </div>
@@ -294,7 +294,7 @@ export default function MetricsDashboard({
  {/* Header */}
  <div className="flex items-center justify-between">
  <div>
- <h1 className="text-2xl font-bold text-white">{title}</h1>
+ <h1 className="text-2xl font-bold glass-text">{title}</h1>
  {lastUpdated && (
  <p className="text-sm text-zinc-500 flex items-center gap-1 mt-1">
  <Clock className="w-3 h-3"/>

@@ -51,14 +51,13 @@ export default function Header() {
  <BleedingPyramidLogo size={55} showWords={false} />
  <div className="hidden sm:block">
  <h1 className="text-lg lg:text-xl font-black tracking-tight text-white leading-tight relative">
- <span className="relative inline-block">
- <span className="bg-gradient-to-r from-blood-500 via-blood-600 to-blood-700 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(29,78,216,0.5)]">ARK</span>
- <span className="bg-gradient-to-r from-blood-600 via-blood-700 to-blood-800 bg-clip-text text-transparent drop-shadow-[0_0_10px_rgba(30,64,175,0.5)]">HIVE</span>
+ <span className="relative inline-block glass-text">
+ ARKHIVE
  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]"style={{ animationDuration: '3s' }}>ARKHIVE</span>
  </span>
- <sup className="text-blood-500 text-[10px] lg:text-xs font-bold drop-shadow-[0_0_6px_rgba(29,78,216,0.6)]">®</sup>
+ <sup className="text-blood-500 text-[10px] lg:text-xs font-bold drop-shadow-[0_0_6px_rgba(11,24,50,0.6)]">®</sup>
  </h1>
- <span className="text-[10px] lg:text-xs font-semibold tracking-[0.25em] text-blood-500/90 uppercase drop-shadow-[0_0_8px_rgba(29,78,216,0.4)]">
+ <span className="text-[10px] lg:text-xs font-semibold tracking-[0.25em] glass-text-subtle uppercase drop-shadow-[0_0_8px_rgba(11,24,50,0.4)]">
  Investigation Platform
  </span>
  </div>
@@ -161,7 +160,7 @@ export default function Header() {
  <Link
  href="/submit"
  onClick={() => setIsMenuOpen(false)}
- className="flex items-center gap-2 px-4 py-3 mt-3 bg-blood-800 text-white font-bold uppercase tracking-wider text-sm border border-blood-700/50"
+ className="flex items-center gap-2 px-4 py-3 mt-3 bg-blood-800 glass-text font-bold uppercase tracking-wider text-sm border border-blood-700/50"
  >
  <Zap className="w-4 h-4"/>
  <span>Submit Intel</span>

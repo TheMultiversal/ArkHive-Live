@@ -31,7 +31,7 @@ export default function EntitiesError({ error, reset }: ErrorProps) {
  <AlertTriangle className="w-10 h-10 text-blood-500"/>
  </motion.div>
 
- <h1 className="text-3xl font-bold text-white mb-4">
+ <h1 className="text-3xl font-bold glass-text mb-4">
  Entity Database Error
  </h1>
 

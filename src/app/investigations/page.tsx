@@ -369,7 +369,7 @@ export default function InvestigationsPage() {
  <span className="h-[2px] flex-1 bg-gradient-to-l from-blood-700 to-transparent"/>
  </div>
  <div className="text-center mb-6">
- <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-white uppercase tracking-wider mb-2">
+ <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black glass-text uppercase tracking-wider mb-2">
  INVESTIGATIONS
  </h1>
  <p className="text-sm sm:text-lg text-blood-600 font-bold uppercase tracking-[0.2em]">
@@ -464,7 +464,7 @@ export default function InvestigationsPage() {
  <div className="flex flex-wrap items-center justify-between gap-4 mb-6 border border-zinc-800/50 bg-black/40 px-4 py-3">
  <div className="flex items-center gap-4">
  <p className="text-sm text-zinc-400">
- <span className="text-white font-bold">{filtered.length}</span> investigation{filtered.length !== 1 ?"s":""}
+ <span className="glass-text font-bold">{filtered.length}</span> investigation{filtered.length !== 1 ?"s":""}
  {activeCategory !=="All"&& (
  <span className="text-blood-500 ml-1">in {activeCategory}</span>
  )}
@@ -509,7 +509,7 @@ export default function InvestigationsPage() {
  <div className="w-16 h-16 border-2 border-zinc-700 flex items-center justify-center mx-auto mb-4">
  <AlertTriangle className="w-8 h-8 text-zinc-600"/>
  </div>
- <h3 className="text-xl font-bold text-white mb-2 uppercase tracking-wider">No Files Found</h3>
+ <h3 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">No Files Found</h3>
  <p className="text-zinc-500 max-w-md mx-auto">
  No investigations match your search criteria. Adjust your filters or check back
  as new evidence is declassified.

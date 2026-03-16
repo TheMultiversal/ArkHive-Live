@@ -100,7 +100,7 @@ export default function InvestigationContent() {
                 </span>
               </div>
 
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-black text-white mb-4 leading-tight break-words">
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-black glass-text mb-4 leading-tight break-words">
                 {investigationData.title}
               </h1>
 
@@ -157,7 +157,7 @@ export default function InvestigationContent() {
             </header>
 
             <div className="glass-card p-6 mb-8 border-l-4 border-blood-600">
-              <h2 className="text-lg font-bold text-white mb-3 flex items-center gap-2">
+              <h2 className="text-lg font-bold glass-text mb-3 flex items-center gap-2">
                 <FileText className="w-5 h-5 text-blood-500" />
                 Summary
               </h2>
@@ -185,7 +185,7 @@ export default function InvestigationContent() {
             </div>
 
             <div className="glass-card p-6">
-              <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <h3 className="text-lg font-bold glass-text mb-4 flex items-center gap-2">
                 <FileText className="w-5 h-5 text-blood-500" />
                 Sources & Documents
               </h3>

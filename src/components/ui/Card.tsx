@@ -86,7 +86,7 @@ interface CardTitleProps {
 
 export function CardTitle({ children, as: Tag = 'h3', className }: CardTitleProps) {
  return (
- <Tag className={cn('text-lg font-bold text-white', className)}>
+ <Tag className={cn('text-lg font-bold glass-text', className)}>
  {children}
  </Tag>
  );
@@ -161,7 +161,7 @@ export function ImageCard({
  />
  </div>
  <div className="p-4">
- <h3 className="font-bold text-white mb-1">{title}</h3>
+ <h3 className="font-bold glass-text mb-1">{title}</h3>
  {description && (
  <p className="text-sm text-zinc-400 line-clamp-2">{description}</p>
  )}
@@ -231,7 +231,7 @@ export function HorizontalCard({
  </div>
  )}
  <div className="flex-1 min-w-0">
- <h3 className="font-bold text-white">{title}</h3>
+ <h3 className="font-bold glass-text">{title}</h3>
  {subtitle && (
  <p className="text-sm text-blood-500">{subtitle}</p>
  )}

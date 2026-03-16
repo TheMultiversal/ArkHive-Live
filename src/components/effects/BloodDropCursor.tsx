@@ -75,7 +75,7 @@ export default function BloodDropCursor() {
  <svg width="8"height="12"viewBox="0 0 8 12">
  <path
  d="M4 0 C4 0 0 5 0 8 C0 10.5 1.8 12 4 12 C6.2 12 8 10.5 8 8 C8 5 4 0 4 0Z"
- fill="#2563eb"
+ fill="#162f5e"
  opacity={0.6 - index * 0.08}
  />
  </svg>
@@ -99,20 +99,20 @@ export default function BloodDropCursor() {
  animate={{
  scale: isClicking ? 0.85 : 1,
  filter: isClicking 
- ? 'drop-shadow(0 0 12px rgba(37, 99, 235, 1))' 
- : 'drop-shadow(0 0 6px rgba(37, 99, 235, 0.8))',
+ ? 'drop-shadow(0 0 12px rgba(22, 47, 94, 1))' 
+ : 'drop-shadow(0 0 6px rgba(22, 47, 94, 0.8))',
  }}
  transition={{ duration: 0.1 }}
  >
  <defs>
  <linearGradient id="bloodGradient"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#60a5fa"/>
- <stop offset="50%"stopColor="#2563eb"/>
- <stop offset="100%"stopColor="#1e3a8a"/>
+ <stop offset="0%"stopColor="#3a5ea0"/>
+ <stop offset="50%"stopColor="#162f5e"/>
+ <stop offset="100%"stopColor="#070f22"/>
  </linearGradient>
  <radialGradient id="bloodHighlight"cx="30%"cy="30%"r="50%">
- <stop offset="0%"stopColor="#93c5fd"stopOpacity="0.5"/>
- <stop offset="100%"stopColor="#2563eb"stopOpacity="0"/>
+ <stop offset="0%"stopColor="#5a7cbf"stopOpacity="0.5"/>
+ <stop offset="100%"stopColor="#162f5e"stopOpacity="0"/>
  </radialGradient>
  </defs>
 
@@ -156,7 +156,7 @@ export default function BloodDropCursor() {
  animate={{
  scale: isClicking ? 1.3 : 1,
  opacity: isClicking ? 0 : 0.5,
- borderColor: isHovering ? 'rgba(96, 165, 250, 0.6)' : 'rgba(37, 99, 235, 0.3)',
+ borderColor: isHovering ? 'rgba(58, 94, 160, 0.6)' : 'rgba(22, 47, 94, 0.3)',
  }}
  transition={{ duration: 0.2 }}
  />

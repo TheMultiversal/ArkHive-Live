@@ -142,7 +142,7 @@ export default function January6Page() {
  {investigation.status}
  </span>
  </div>
- <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-2">
+ <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">
  <GlitchText text={investigation.title} />
  </h1>
  <p className="text-lg text-blood-500 font-bold mb-4">{investigation.subtitle}</p>
@@ -156,7 +156,7 @@ export default function January6Page() {
  transition={{ delay: 0.1 }}
  className="border-2 border-blood-800/60 bg-blood-950/20 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Skull className="w-5 h-5 text-blood-500"/>
  Casualties & Injuries
  </h2>
@@ -166,7 +166,7 @@ export default function January6Page() {
  <div className="space-y-2">
  {investigation.casualties.deaths.map((death, idx) => (
  <div key={idx} className="border border-blood-800/50 bg-black/50 p-3">
- <span className="text-white font-bold">{death.name}</span>
+ <span className="glass-text font-bold">{death.name}</span>
  <span className="text-zinc-400 ml-2">- {death.cause}</span>
  </div>
  ))}
@@ -190,12 +190,12 @@ export default function January6Page() {
  transition={{ delay: 0.15 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Users className="w-5 h-5 text-blood-500"/>
  Key Figures & Organizers
  </h2>
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
  <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
@@ -208,7 +208,7 @@ export default function January6Page() {
  >
  <div className="flex justify-between items-start">
  <div>
- <h3 className="font-bold text-white group-hover:text-blood-500">{figure.name}</h3>
+ <h3 className="font-bold glass-text group-hover:text-blood-500">{figure.name}</h3>
  <p className="text-sm text-zinc-400">{figure.role}</p>
  </div>
  <span className="text-xs text-blood-400">{figure.status}</span>
@@ -225,7 +225,7 @@ export default function January6Page() {
  transition={{ delay: 0.2 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <AlertTriangle className="w-5 h-5 text-blood-500"/>
  Convicted Extremist Leaders
  </h2>
@@ -235,9 +235,9 @@ export default function January6Page() {
  <div className="flex justify-between items-start">
  <div>
  {org.href ? (
- <Link href={org.href} className="font-bold text-white hover:text-blood-400 transition-colors">{org.name}</Link>
+ <Link href={org.href} className="font-bold glass-text hover:text-blood-400 transition-colors">{org.name}</Link>
  ) : (
- <h3 className="font-bold text-white">{org.name}</h3>
+ <h3 className="font-bold glass-text">{org.name}</h3>
  )}
  <p className="text-sm text-blood-500">{org.org}</p>
  </div>
@@ -255,7 +255,7 @@ export default function January6Page() {
  transition={{ delay: 0.25 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Scale className="w-5 h-5 text-blood-500"/>
  Criminal Charges
  </h2>
@@ -291,7 +291,7 @@ export default function January6Page() {
  transition={{ delay: 0.3 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Calendar className="w-5 h-5 text-blood-500"/>
  Timeline of Events
  </h2>
@@ -307,8 +307,8 @@ export default function January6Page() {
 
  
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  {/* Sources */}
  <motion.div
@@ -317,7 +317,7 @@ export default function January6Page() {
  transition={{ delay: 0.35 }}
  className="border-2 border-zinc-800 bg-black/60 p-6"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
  Sources & Documentation
  </h2>

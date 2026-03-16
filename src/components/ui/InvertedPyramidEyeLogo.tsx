@@ -47,7 +47,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <div 
  className="absolute inset-0 blur-2xl"
  style={{
- background: `radial-gradient(circle, rgba(96, 165, 250, ${glowIntensity * 0.4}) 0%, transparent 70%)`,
+ background: `radial-gradient(circle, rgba(58, 94, 160, ${glowIntensity * 0.4}) 0%, transparent 70%)`,
  }}
  />
  {/* Rays emanating from center */}
@@ -56,7 +56,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  key={i}
  className="absolute top-1/2 left-1/2 w-[1px] h-16 origin-bottom"
  style={{
- background: `linear-gradient(to top, rgba(96, 165, 250, ${0.1 + Math.sin(pulsePhase * 0.03 + i) * 0.1}), transparent)`,
+ background: `linear-gradient(to top, rgba(58, 94, 160, ${0.1 + Math.sin(pulsePhase * 0.03 + i) * 0.1}), transparent)`,
  transform: `translate(-50%, -100%) rotate(${i * 30}deg)`,
  }}
  />
@@ -69,7 +69,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <div 
  className="absolute inset-0"
  style={{
- background: `linear-gradient(135deg, rgba(96, 165, 250, ${glowIntensity}) 0%, rgba(30, 64, 175, 0.3) 50%, rgba(96, 165, 250, ${glowIntensity}) 100%)`,
+ background: `linear-gradient(135deg, rgba(58, 94, 160, ${glowIntensity}) 0%, rgba(11, 24, 50, 0.3) 50%, rgba(58, 94, 160, ${glowIntensity}) 100%)`,
  padding: '2px',
  }}
  />
@@ -89,42 +89,42 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <svg
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
- style={{ filter: `drop-shadow(0 0 ${8 + glowIntensity * 10}px rgba(96, 165, 250, ${glowIntensity}))` }}
+ style={{ filter: `drop-shadow(0 0 ${8 + glowIntensity * 10}px rgba(58, 94, 160, ${glowIntensity}))` }}
  >
  <defs>
  {/* Gradients */}
  <linearGradient id="pyramidGradient"x1="0%"y1="100%"x2="100%"y2="0%">
- <stop offset="0%"stopColor="#172554"/>
- <stop offset="30%"stopColor="#1e40af"/>
- <stop offset="60%"stopColor="#1e3a8a"/>
- <stop offset="100%"stopColor="#1d4ed8"/>
+ <stop offset="0%"stopColor="#040914"/>
+ <stop offset="30%"stopColor="#0b1832"/>
+ <stop offset="60%"stopColor="#070f22"/>
+ <stop offset="100%"stopColor="#102248"/>
  </linearGradient>
 
  <linearGradient id="pyramidEdge"x1="0%"y1="0%"x2="100%"y2="100%">
- <stop offset="0%"stopColor="#93c5fd"stopOpacity="0.8"/>
- <stop offset="50%"stopColor="#60a5fa"stopOpacity="0.5"/>
- <stop offset="100%"stopColor="#1e40af"stopOpacity="0.3"/>
+ <stop offset="0%"stopColor="#5a7cbf"stopOpacity="0.8"/>
+ <stop offset="50%"stopColor="#3a5ea0"stopOpacity="0.5"/>
+ <stop offset="100%"stopColor="#0b1832"stopOpacity="0.3"/>
  </linearGradient>
 
  <radialGradient id="eyeGlow"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#ffffff"/>
  <stop offset="30%"stopColor="#fecaca"/>
- <stop offset="70%"stopColor="#93c5fd"/>
- <stop offset="100%"stopColor="#2563eb"/>
+ <stop offset="70%"stopColor="#5a7cbf"/>
+ <stop offset="100%"stopColor="#162f5e"/>
  </radialGradient>
 
  <radialGradient id="irisGradient2"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#60a5fa">
- <animate attributeName="stop-color"values="#60a5fa;#93c5fd;#60a5fa"dur="2s"repeatCount="indefinite"/>
+ <stop offset="0%"stopColor="#3a5ea0">
+ <animate attributeName="stop-color"values="#3a5ea0;#5a7cbf;#3a5ea0"dur="2s"repeatCount="indefinite"/>
  </stop>
- <stop offset="70%"stopColor="#1d4ed8"/>
- <stop offset="100%"stopColor="#1e40af"/>
+ <stop offset="70%"stopColor="#102248"/>
+ <stop offset="100%"stopColor="#0b1832"/>
  </radialGradient>
 
  {/* Glow filter */}
  <filter id="pyramidGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="2"result="blur"/>
- <feFlood floodColor="#60a5fa"floodOpacity="0.5"/>
+ <feFlood floodColor="#3a5ea0"floodOpacity="0.5"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -134,7 +134,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
 
  <filter id="innerLight"x="-100%"y="-100%"width="300%"height="300%">
  <feGaussianBlur stdDeviation="3"result="blur"/>
- <feFlood floodColor="#93c5fd"floodOpacity="0.4"/>
+ <feFlood floodColor="#5a7cbf"floodOpacity="0.4"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -165,7 +165,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  />
 
  {/* Brick/stone lines */}
- <g stroke="#172554"strokeWidth="0.3"opacity="0.5">
+ <g stroke="#040914"strokeWidth="0.3"opacity="0.5">
  <line x1="20"y1="30"x2="80"y2="30"/>
  <line x1="25"y1="40"x2="75"y2="40"/>
  <line x1="30"y1="50"x2="70"y2="50"/>
@@ -182,7 +182,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  {/* Separation line - detached capstone effect but inverted */}
  <path
  d="M25 32 L75 32"
- stroke="#60a5fa"
+ stroke="#3a5ea0"
  strokeWidth="1"
  strokeDasharray="2 2"
  opacity="0.6"
@@ -226,7 +226,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <path
  d="M38 38 Q50 28, 62 38 Q50 48, 38 38"
  fill="none"
- stroke="#1e40af"
+ stroke="#0b1832"
  strokeWidth="1"
  />
 
@@ -234,20 +234,20 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <path
  d="M38 38 Q50 28, 62 38"
  fill="none"
- stroke="#172554"
+ stroke="#040914"
  strokeWidth="0.5"
  />
  </g>
 
  {/* Energy beams from eye */}
  <g opacity={0.2 + glowIntensity * 0.3}>
- <line x1="50"y1="46"x2="35"y2="75"stroke="#60a5fa"strokeWidth="0.5"/>
- <line x1="50"y1="46"x2="50"y2="80"stroke="#60a5fa"strokeWidth="0.5"/>
- <line x1="50"y1="46"x2="65"y2="75"stroke="#60a5fa"strokeWidth="0.5"/>
+ <line x1="50"y1="46"x2="35"y2="75"stroke="#3a5ea0"strokeWidth="0.5"/>
+ <line x1="50"y1="46"x2="50"y2="80"stroke="#3a5ea0"strokeWidth="0.5"/>
+ <line x1="50"y1="46"x2="65"y2="75"stroke="#3a5ea0"strokeWidth="0.5"/>
  </g>
 
  {/* Mystical symbols at corners (small) */}
- <g fill="#60a5fa"opacity="0.4"fontSize="5"fontFamily="serif">
+ <g fill="#3a5ea0"opacity="0.4"fontSize="5"fontFamily="serif">
  <text x="8"y="25"transform="rotate(-15, 8, 25)">◊</text>
  <text x="88"y="25"transform="rotate(15, 88, 25)">◊</text>
  <text x="48"y="95">▽</text>
@@ -260,7 +260,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  cx="50"
  cy="38"
  r="1"
- fill="#93c5fd"
+ fill="#5a7cbf"
  opacity="0.6"
  >
  <animateMotion

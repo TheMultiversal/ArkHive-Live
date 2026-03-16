@@ -96,13 +96,13 @@ export default function FlatlineLoader({
  <defs>
  <linearGradient id="ecgLineGradient"x1="0%"y1="0%"x2="100%"y2="0%">
  <stop offset="0%"stopColor="transparent"/>
- <stop offset="20%"stopColor={phase === 'flatline' ? '#2563eb' : '#3b82f6'} />
- <stop offset="80%"stopColor={phase === 'flatline' ? '#2563eb' : '#3b82f6'} />
+ <stop offset="20%"stopColor={phase === 'flatline' ? '#162f5e' : '#1e3f7a'} />
+ <stop offset="80%"stopColor={phase === 'flatline' ? '#162f5e' : '#1e3f7a'} />
  <stop offset="100%"stopColor="transparent"/>
  </linearGradient>
  <filter id="ecgGlow">
  <feGaussianBlur stdDeviation="2"result="blur"/>
- <feFlood floodColor={phase === 'flatline' ? '#2563eb' : '#3b82f6'} floodOpacity="0.8"/>
+ <feFlood floodColor={phase === 'flatline' ? '#162f5e' : '#1e3f7a'} floodOpacity="0.8"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -114,10 +114,10 @@ export default function FlatlineLoader({
  {/* Grid lines */}
  <g opacity="0.1">
  {[...Array(6)].map((_, i) => (
- <line key={`h${i}`} x1="0"y1={i * 20} x2="300"y2={i * 20} stroke="#3b82f6"strokeWidth="0.5"/>
+ <line key={`h${i}`} x1="0"y1={i * 20} x2="300"y2={i * 20} stroke="#1e3f7a"strokeWidth="0.5"/>
  ))}
  {[...Array(16)].map((_, i) => (
- <line key={`v${i}`} x1={i * 20} y1="0"x2={i * 20} y2="100"stroke="#3b82f6"strokeWidth="0.5"/>
+ <line key={`v${i}`} x1={i * 20} y1="0"x2={i * 20} y2="100"stroke="#1e3f7a"strokeWidth="0.5"/>
  ))}
  </g>
 

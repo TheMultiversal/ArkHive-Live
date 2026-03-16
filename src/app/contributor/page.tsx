@@ -68,7 +68,7 @@ export default function ContributorAuthPage() {
  {/* Dashboard Header */}
  <div className="flex items-center justify-between mb-8">
  <div>
- <h1 className="text-3xl font-black text-white uppercase tracking-wider mb-1">
+ <h1 className="text-3xl font-black glass-text uppercase tracking-wider mb-1">
  <GlitchText text="DASHBOARD"/>
  </h1>
  <p className="text-zinc-400 text-sm">{currentUser.email}</p>
@@ -111,7 +111,7 @@ export default function ContributorAuthPage() {
  </div>
  <span className="text-xs font-bold text-zinc-500 uppercase tracking-wider">Saved Pages</span>
  </div>
- <p className="text-3xl font-black text-white">{bookmarks.length}</p>
+ <p className="text-3xl font-black glass-text">{bookmarks.length}</p>
  </div>
  <div className="glass-card p-5">
  <div className="flex items-center gap-3 mb-3">
@@ -120,7 +120,7 @@ export default function ContributorAuthPage() {
  </div>
  <span className="text-xs font-bold text-zinc-500 uppercase tracking-wider">Investigations</span>
  </div>
- <p className="text-3xl font-black text-white">{bookmarks.filter(b => b.type === 'investigation').length}</p>
+ <p className="text-3xl font-black glass-text">{bookmarks.filter(b => b.type === 'investigation').length}</p>
  </div>
  <div className="glass-card p-5">
  <div className="flex items-center gap-3 mb-3">
@@ -129,7 +129,7 @@ export default function ContributorAuthPage() {
  </div>
  <span className="text-xs font-bold text-zinc-500 uppercase tracking-wider">Entities</span>
  </div>
- <p className="text-3xl font-black text-white">{bookmarks.filter(b => b.type === 'entity').length}</p>
+ <p className="text-3xl font-black glass-text">{bookmarks.filter(b => b.type === 'entity').length}</p>
  </div>
  </div>
 
@@ -143,7 +143,7 @@ export default function ContributorAuthPage() {
  <Send className="w-5 h-5 text-blood-500"/>
  </div>
  <div>
- <h3 className="text-white font-bold text-sm">Submit Intelligence</h3>
+ <h3 className="glass-text font-bold text-sm">Submit Intelligence</h3>
  <p className="text-zinc-500 text-xs">Contribute to ongoing investigations</p>
  </div>
  </Link>
@@ -155,7 +155,7 @@ export default function ContributorAuthPage() {
  <FileText className="w-5 h-5 text-zinc-400"/>
  </div>
  <div>
- <h3 className="text-white font-bold text-sm">Create Workspace</h3>
+ <h3 className="glass-text font-bold text-sm">Create Workspace</h3>
  <p className="text-zinc-500 text-xs">Start a collaborative investigation</p>
  </div>
  </Link>
@@ -210,7 +210,7 @@ export default function ContributorAuthPage() {
  <div className="flex items-start gap-3">
  <Shield className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>
- <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-1">Your Data</h3>
+ <h3 className="text-sm font-bold glass-text uppercase tracking-wider mb-1">Your Data</h3>
  <p className="text-xs text-zinc-500 leading-relaxed">
  All account data (including saved pages) is stored locally in your browser. Nothing is transmitted to our servers.
  Member since {new Date(currentUser.createdAt).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}.
@@ -337,7 +337,7 @@ export default function ContributorAuthPage() {
  <div className="flex items-start gap-3">
  <Shield className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>
- <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-1">Zero Data Collection</h3>
+ <h3 className="text-sm font-bold glass-text uppercase tracking-wider mb-1">Zero Data Collection</h3>
  <p className="text-xs text-zinc-500 leading-relaxed">
  Your account exists only in your browser&apos;s local storage. We do not collect, store, transmit, or process any personal data on our servers. No cookies, no analytics, no tracking. Clearing your browser data removes your account entirely.
  </p>
@@ -453,7 +453,7 @@ export default function ContributorAuthPage() {
  )}
  </div>
  <div>
- <h1 className="text-xl font-black text-white uppercase tracking-wider">
+ <h1 className="text-xl font-black glass-text uppercase tracking-wider">
  {mode === 'verify' ? 'Verify Email' : mode === 'signup' ? 'Create Account' : 'Sign In'}
  </h1>
  <p className="text-xs text-zinc-500">
@@ -594,7 +594,7 @@ export default function ContributorAuthPage() {
  <button
  type="submit"
  disabled={loading}
- className="w-full px-4 py-3 bg-blood-700 hover:bg-blood-600 disabled:opacity-50 text-white font-bold uppercase tracking-wider transition-colors text-sm"
+ className="w-full px-4 py-3 bg-blood-700 hover:bg-blood-600 disabled:opacity-50 glass-text font-bold uppercase tracking-wider transition-colors text-sm"
  >
  {loading
  ? 'Processing...'
@@ -646,7 +646,7 @@ export default function ContributorAuthPage() {
  <div className="flex items-start gap-3">
  <Shield className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>
- <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-1">Zero Data Collection Policy</h3>
+ <h3 className="text-sm font-bold glass-text uppercase tracking-wider mb-1">Zero Data Collection Policy</h3>
  <ul className="text-xs text-zinc-500 leading-relaxed space-y-1">
  <li>- Account data is stored only in your browser&apos;s local storage</li>
  <li>- No personal data is transmitted to or stored on our servers</li>

@@ -127,7 +127,7 @@ export default function SearchPage() {
  <div className="max-w-7xl mx-auto px-4">
  {/* Search Header */}
  <div className="mb-8">
- <h1 className="text-3xl font-bold text-white mb-6">Search</h1>
+ <h1 className="text-3xl font-bold glass-text mb-6">Search</h1>
  
  {/* Search Input */}
  <div className="relative">

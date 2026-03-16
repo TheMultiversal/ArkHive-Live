@@ -34,7 +34,7 @@ export default function InvestigationsError({ error, reset }: ErrorProps) {
  </motion.div>
 
  {/* Title */}
- <h1 className="text-3xl font-bold text-white mb-4">
+ <h1 className="text-3xl font-bold glass-text mb-4">
  Investigation Data Unavailable
  </h1>
 

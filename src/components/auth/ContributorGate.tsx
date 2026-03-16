@@ -32,7 +32,7 @@ export default function ContributorGate({ children, action = 'perform this actio
  <Lock className="w-6 h-6 text-blood-500"/>
  </div>
  <div>
- <h1 className="text-xl font-black text-white uppercase tracking-wider">Contributor Access Required</h1>
+ <h1 className="text-xl font-black glass-text uppercase tracking-wider">Contributor Access Required</h1>
  <p className="text-sm text-zinc-400">Sign in or create an account to {action}</p>
  </div>
  </div>
@@ -46,7 +46,7 @@ export default function ContributorGate({ children, action = 'perform this actio
  <div className="flex flex-col gap-3">
  <Link
  href="/contributor"
- className="w-full px-4 py-3 bg-blood-700 hover:bg-blood-600 text-white font-bold uppercase tracking-wider text-center transition-colors text-sm flex items-center justify-center gap-2"
+ className="w-full px-4 py-3 bg-blood-700 hover:bg-blood-600 glass-text font-bold uppercase tracking-wider text-center transition-colors text-sm flex items-center justify-center gap-2"
  >
  <UserPlus className="w-4 h-4"/>
  {currentUser ? 'Verify Email' : 'Sign In / Create Account'}

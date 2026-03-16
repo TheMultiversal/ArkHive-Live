@@ -68,7 +68,7 @@ export default function EmptyState({
  {icon || defaults.icon}
  </div>
  
- <h3 className="text-xl font-bold text-white mb-2">
+ <h3 className="text-xl font-bold glass-text mb-2">
  {title || defaults.title}
  </h3>
  

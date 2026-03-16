@@ -82,9 +82,9 @@ export default function BleedingPyramidLogo({
  <defs>
  {/* Sharp blood gradient - no blur */}
  <linearGradient id="sharpBlood"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#60a5fa"/>
- <stop offset="40%"stopColor="#2563eb"/>
- <stop offset="100%"stopColor="#1e40af"/>
+ <stop offset="0%"stopColor="#3a5ea0"/>
+ <stop offset="40%"stopColor="#162f5e"/>
+ <stop offset="100%"stopColor="#0b1832"/>
  </linearGradient>
 
  {/* Pyramid stone gradient */}
@@ -97,8 +97,8 @@ export default function BleedingPyramidLogo({
  {/* Eye iris gradient */}
  <radialGradient id="irisGrad"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#ff3333"/>
- <stop offset="50%"stopColor="#2563eb"/>
- <stop offset="100%"stopColor="#1e3a8a"/>
+ <stop offset="50%"stopColor="#162f5e"/>
+ <stop offset="100%"stopColor="#070f22"/>
  </radialGradient>
 
  {/* Wet blood shine */}
@@ -115,7 +115,7 @@ export default function BleedingPyramidLogo({
  cy="50"
  r="45"
  fill="none"
- stroke="#1e40af"
+ stroke="#0b1832"
  strokeWidth="0.5"
  strokeDasharray="3 3"
  opacity="0.4"
@@ -127,7 +127,7 @@ export default function BleedingPyramidLogo({
  <polygon
  points="15,25 85,25 50,95"
  fill="url(#stoneGrad)"
- stroke="#2563eb"
+ stroke="#162f5e"
  strokeWidth="1"
  />
 
@@ -155,7 +155,7 @@ export default function BleedingPyramidLogo({
  {/* ALL-SEEING EYE */}
  <g>
  {/* Eye socket */}
- <ellipse cx="50"cy="42"rx="15"ry="10"fill="#0a0a0a"stroke="#2563eb"strokeWidth="1"/>
+ <ellipse cx="50"cy="42"rx="15"ry="10"fill="#0a0a0a"stroke="#162f5e"strokeWidth="1"/>
  
  {/* Eye white */}
  <ellipse cx="50"cy="42"rx="13"ry="8"fill="#1a1a1a"/>
@@ -181,7 +181,7 @@ export default function BleedingPyramidLogo({
  <line 
  key={i} 
  x1={x1} y1={y1} x2={x2} y2={y2} 
- stroke="#2563eb"
+ stroke="#162f5e"
  strokeWidth="0.5"
  opacity="0.5"
  />
@@ -192,17 +192,17 @@ export default function BleedingPyramidLogo({
  {/* REALISTIC BLOOD - Sharp, not foggy */}
  <g>
  {/* Blood pooling at tip - sharp edge */}
- <ellipse cx="50"cy="95"rx="6"ry="2"fill="#1e3a8a"/>
- <ellipse cx="50"cy="95"rx="4"ry="1.5"fill="#2563eb"/>
+ <ellipse cx="50"cy="95"rx="6"ry="2"fill="#070f22"/>
+ <ellipse cx="50"cy="95"rx="4"ry="1.5"fill="#162f5e"/>
  
  {/* Wet shine on pool */}
  <ellipse cx="51"cy="94.5"rx="2"ry="0.8"fill="url(#wetShine)"/>
 
  {/* Blood streaks down pyramid - sharp lines */}
- <path d="M50 60 L50 95"stroke="#1e3a8a"strokeWidth="3"strokeLinecap="round"/>
- <path d="M50 65 L50 95"stroke="#2563eb"strokeWidth="1.5"strokeLinecap="round"/>
- <path d="M48 70 Q47 80 48 90"stroke="#1e40af"strokeWidth="1"fill="none"strokeLinecap="round"/>
- <path d="M52 68 Q53 78 52 88"stroke="#1e40af"strokeWidth="1"fill="none"strokeLinecap="round"/>
+ <path d="M50 60 L50 95"stroke="#070f22"strokeWidth="3"strokeLinecap="round"/>
+ <path d="M50 65 L50 95"stroke="#162f5e"strokeWidth="1.5"strokeLinecap="round"/>
+ <path d="M48 70 Q47 80 48 90"stroke="#0b1832"strokeWidth="1"fill="none"strokeLinecap="round"/>
+ <path d="M52 68 Q53 78 52 88"stroke="#0b1832"strokeWidth="1"fill="none"strokeLinecap="round"/>
 
  {/* Blood drips - animated with CSS */}
  {bloodDrops.map((drop, i) => (
@@ -213,7 +213,7 @@ export default function BleedingPyramidLogo({
  cy={drop.startY}
  rx={drop.size * 0.5}
  ry={drop.size}
- fill="#2563eb"
+ fill="#162f5e"
  opacity={drop.opacity}
  className="animate-blood-fall"
  style={{
@@ -240,7 +240,7 @@ export default function BleedingPyramidLogo({
  {/* Dripping strands */}
  <path 
  d="M49 95 Q49 105 50 115"
- stroke="#1e3a8a"
+ stroke="#070f22"
  strokeWidth="1.5"
  fill="none"
  strokeLinecap="round"
@@ -248,7 +248,7 @@ export default function BleedingPyramidLogo({
  />
  <path 
  d="M51 95 Q52 108 51 120"
- stroke="#1e40af"
+ stroke="#0b1832"
  strokeWidth="1"
  fill="none"
  strokeLinecap="round"
@@ -265,7 +265,7 @@ export default function BleedingPyramidLogo({
  left: `${wordPosition.x}%`,
  top: '85%',
  transform: 'translateX(-50%)',
- color: '#2563eb',
+ color: '#162f5e',
  textShadow: '0 0 1px #000, 1px 1px 0 #000, -1px -1px 0 #000',
  }}
  >

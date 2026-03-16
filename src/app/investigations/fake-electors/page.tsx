@@ -134,7 +134,7 @@ export default function FakeElectorsPage() {
  {investigation.status}
  </span>
  </div>
- <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-2">
+ <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">
  <GlitchText text={investigation.title} />
  </h1>
  <p className="text-lg text-blood-500 font-bold mb-4">{investigation.subtitle}</p>
@@ -148,14 +148,14 @@ export default function FakeElectorsPage() {
  transition={{ delay: 0.1 }}
  className="border-2 border-zinc-800 bg-black/80 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <MapPin className="w-5 h-5 text-blood-500"/>
  Seven Targeted States
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
  {investigation.states.map((state, idx) => (
  <div key={idx} className={`p-4 border ${state.prosecuted ? 'border-blood-500/30 bg-blood-950/20' : 'border-zinc-800 bg-zinc-900/20'}`}>
- <p className="text-lg font-bold text-white">{state.name}</p>
+ <p className="text-lg font-bold glass-text">{state.name}</p>
  <p className="text-2xl font-black text-blood-500">{state.electors}</p>
  <p className="text-xs text-zinc-500">Electoral Votes</p>
  <p className={`text-xs mt-2 ${state.prosecuted ? 'text-blood-400' : 'text-zinc-500'}`}>
@@ -164,7 +164,7 @@ export default function FakeElectorsPage() {
  </div>
  ))}
  <div className="p-4 border border-blood-500/30 bg-blood-950/20">
- <p className="text-lg font-bold text-white">TOTAL</p>
+ <p className="text-lg font-bold glass-text">TOTAL</p>
  <p className="text-2xl font-black text-blood-500">84</p>
  <p className="text-xs text-zinc-500">Fake Electors</p>
  <p className="text-xs mt-2 text-blood-400">Multi-State Conspiracy</p>
@@ -172,7 +172,7 @@ export default function FakeElectorsPage() {
  </div>
  </motion.div>
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
  <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
@@ -187,7 +187,7 @@ export default function FakeElectorsPage() {
  transition={{ delay: 0.2 }}
  className="glass-card p-6"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Users className="w-5 h-5 text-blood-500"/>
  Key Figures
  </h2>
@@ -200,7 +200,7 @@ export default function FakeElectorsPage() {
  {figure.name}
  </Link>
  ) : (
- <span className="font-bold text-white">{figure.name}</span>
+ <span className="font-bold glass-text">{figure.name}</span>
  )}
  <p className="text-sm text-zinc-400 mt-1">{figure.role}</p>
  </div>
@@ -219,29 +219,29 @@ export default function FakeElectorsPage() {
  transition={{ delay: 0.25 }}
  className="glass-card p-6 border-l-4 border-blood-600"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <AlertTriangle className="w-5 h-5 text-blood-500"/>
  How The Scheme Worked
  </h2>
  <div className="space-y-4 text-sm text-zinc-400">
  <div className="p-3 bg-zinc-900/50 border-l-2 border-blood-500">
- <p className="font-bold text-white mb-1">Step 1: Organize Fake Electors</p>
+ <p className="font-bold glass-text mb-1">Step 1: Organize Fake Electors</p>
  <p>Trump campaign organized willing Republicans in each state to pose as official electors</p>
  </div>
  <div className="p-3 bg-zinc-900/50 border-l-2 border-blood-500">
- <p className="font-bold text-white mb-1">Step 2: Sign Fraudulent Certificates</p>
+ <p className="font-bold glass-text mb-1">Step 2: Sign Fraudulent Certificates</p>
  <p>On December 14, 2020, fake electors met and signed certificates falsely claiming Trump won</p>
  </div>
  <div className="p-3 bg-zinc-900/50 border-l-2 border-blood-500">
- <p className="font-bold text-white mb-1">Step 3: Submit to Government</p>
+ <p className="font-bold glass-text mb-1">Step 3: Submit to Government</p>
  <p>Fake certificates were mailed to Congress and the National Archives</p>
  </div>
  <div className="p-3 bg-zinc-900/50 border-l-2 border-blood-500">
- <p className="font-bold text-white mb-1">Step 4: Pressure Pence</p>
+ <p className="font-bold glass-text mb-1">Step 4: Pressure Pence</p>
  <p>Plan required Pence to either accept fake slates or claim ambiguity to delay certification</p>
  </div>
  <div className="p-3 bg-zinc-900/50 border-l-2 border-blood-500">
- <p className="font-bold text-white mb-1">Step 5: Pence Refused</p>
+ <p className="font-bold glass-text mb-1">Step 5: Pence Refused</p>
  <p>On January 6, Pence rejected the scheme, certified Biden&apos;s victory, and mob attacked Capitol</p>
  </div>
  </div>
@@ -254,7 +254,7 @@ export default function FakeElectorsPage() {
  transition={{ delay: 0.3 }}
  className="glass-card p-6"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Calendar className="w-5 h-5 text-blood-500"/>
  Timeline
  </h2>
@@ -278,7 +278,7 @@ export default function FakeElectorsPage() {
  animate={{ opacity: 1, x: 0 }}
  className="glass-card p-6"
  >
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Scale className="w-5 h-5 text-blood-500"/>
  Criminal Charges
  </h3>
@@ -300,7 +300,7 @@ export default function FakeElectorsPage() {
  transition={{ delay: 0.1 }}
  className="glass-card p-6"
  >
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
  Key Evidence
  </h3>
@@ -317,8 +317,8 @@ export default function FakeElectorsPage() {
  {/* Sources */}
 
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  <motion.div
  initial={{ opacity: 0, x: 20 }}
@@ -326,7 +326,7 @@ export default function FakeElectorsPage() {
  transition={{ delay: 0.2 }}
  className="glass-card p-6"
  >
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4">
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4">
  Sources
  </h3>
  <div className="space-y-2">

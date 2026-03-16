@@ -138,7 +138,7 @@ export default function EmolumentsPage() {
  {investigation.status}
  </span>
  </div>
- <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-2">
+ <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">
  <GlitchText text={investigation.title} />
  </h1>
  <p className="text-lg text-blood-500 font-bold mb-4">{investigation.subtitle}</p>
@@ -152,7 +152,7 @@ export default function EmolumentsPage() {
  transition={{ delay: 0.1 }}
  className="border-2 border-zinc-700/60 bg-zinc-900/20 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <AlertTriangle className="w-5 h-5 text-zinc-400"/>
  Constitutional Violations
  </h2>
@@ -173,7 +173,7 @@ export default function EmolumentsPage() {
  transition={{ delay: 0.15 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Building className="w-5 h-5 text-blood-500"/>
  Trump International Hotel, Washington D.C.
  </h2>
@@ -187,11 +187,11 @@ export default function EmolumentsPage() {
  <p className="text-sm text-zinc-300">{investigation.trumpHotelDC.conflict}</p>
  </div>
  </div>
- <h3 className="text-white font-bold mb-2">Foreign Government Spending:</h3>
+ <h3 className="glass-text font-bold mb-2">Foreign Government Spending:</h3>
  <div className="space-y-2">
  {investigation.trumpHotelDC.foreignSpending.map((spend, idx) => (
  <div key={idx} className="flex justify-between items-start border border-zinc-700 bg-zinc-900/50 p-3">
- <span className="text-white font-bold">{spend.country}</span>
+ <span className="glass-text font-bold">{spend.country}</span>
  <span className="text-zinc-400">{spend.payments}</span>
  </div>
  ))}
@@ -205,7 +205,7 @@ export default function EmolumentsPage() {
  transition={{ delay: 0.2 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <DollarSign className="w-5 h-5 text-blood-500"/>
  Mar-a-Lago &quot;Pay to Play&quot;
  </h2>
@@ -232,14 +232,14 @@ export default function EmolumentsPage() {
  transition={{ delay: 0.25 }}
  className="border-2 border-blood-800/60 bg-blood-950/20 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4">
  Documented Emoluments
  </h2>
  <div className="space-y-3">
  {investigation.keyViolations.map((viol, idx) => (
  <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
  <div className="flex justify-between items-start mb-2">
- <h3 className="font-bold text-white">{viol.source}</h3>
+ <h3 className="font-bold glass-text">{viol.source}</h3>
  <span className="text-blood-500">{viol.amount}</span>
  </div>
  <p className="text-sm text-zinc-400">{viol.method}</p>
@@ -255,7 +255,7 @@ export default function EmolumentsPage() {
  transition={{ delay: 0.3 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4">
  Emoluments Lawsuits
  </h2>
  <div className="space-y-3">
@@ -263,7 +263,7 @@ export default function EmolumentsPage() {
  <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
  <div className="flex justify-between items-start">
  <div>
- <h3 className="font-bold text-white">{suit.case}</h3>
+ <h3 className="font-bold glass-text">{suit.case}</h3>
  <p className="text-sm text-zinc-400">{suit.plaintiff}</p>
  </div>
  <span className="text-xs text-zinc-300">{suit.status}</span>
@@ -280,7 +280,7 @@ export default function EmolumentsPage() {
  transition={{ delay: 0.35 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Users className="w-5 h-5 text-blood-500"/>
  Key Figures
  </h2>
@@ -293,7 +293,7 @@ export default function EmolumentsPage() {
  >
  <div className="flex justify-between items-start">
  <div>
- <h3 className="font-bold text-white group-hover:text-blood-500">{figure.name}</h3>
+ <h3 className="font-bold glass-text group-hover:text-blood-500">{figure.name}</h3>
  <p className="text-sm text-zinc-400">{figure.role}</p>
  </div>
  <span className="text-xs text-blood-400">{figure.status}</span>
@@ -310,7 +310,7 @@ export default function EmolumentsPage() {
  transition={{ delay: 0.4 }}
  className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Calendar className="w-5 h-5 text-blood-500"/>
  Timeline
  </h2>
@@ -326,17 +326,17 @@ export default function EmolumentsPage() {
 
  
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
  <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.div>
 
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
  <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
@@ -347,7 +347,7 @@ export default function EmolumentsPage() {
  transition={{ delay: 0.45 }}
  className="border-2 border-zinc-800 bg-black/60 p-6"
  >
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
  Sources & Documentation
  </h2>

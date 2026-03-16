@@ -25,7 +25,7 @@ export default function Error({ error, reset }: ErrorProps) {
  </div>
 
  {/* Error Title */}
- <h1 className="text-2xl font-black text-white uppercase tracking-wider mb-4">
+ <h1 className="text-2xl font-black glass-text uppercase tracking-wider mb-4">
  SYSTEM MALFUNCTION
  </h1>
 

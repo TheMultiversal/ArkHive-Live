@@ -111,7 +111,7 @@ export default function DocumentsPage() {
           <div className="bg-blood-500/20 p-2.5">
             <BookOpen className="w-6 h-6 text-blood-500" />
           </div>
-          <h1 className="text-3xl font-black text-white tracking-tight">
+          <h1 className="text-3xl font-black glass-text tracking-tight">
             Document Archive
           </h1>
         </div>

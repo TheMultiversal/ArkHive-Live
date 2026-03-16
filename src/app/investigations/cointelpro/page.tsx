@@ -122,14 +122,14 @@ export default function COINTELPROPage() {
  <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/20 text-blood-400">{investigation.severity}</span>
  <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-500/30 bg-zinc-500/20 text-zinc-400">{investigation.status}</span>
  </div>
- <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-2"><GlitchText text={investigation.title} /></h1>
+ <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2"><GlitchText text={investigation.title} /></h1>
  <p className="text-lg text-blood-500 font-bold mb-4">{investigation.subtitle}</p>
  <p className="text-zinc-400 leading-relaxed">{investigation.summary}</p>
  </motion.div>
 
  {/* Scale */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="border-2 border-blood-800/60 bg-blood-950/20 p-6 mb-8">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Eye className="w-5 h-5 text-blood-500"/>Scale of Surveillance</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Eye className="w-5 h-5 text-blood-500"/>Scale of Surveillance</h2>
  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
  {Object.entries(investigation.scale).map(([key, val]) => (
  <div key={key} className="text-center p-4 border border-blood-500/30 bg-blood-950/30">
@@ -142,7 +142,7 @@ export default function COINTELPROPage() {
 
  {/* Fred Hampton Assassination */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="border-2 border-blood-800/60 bg-blood-950/20 p-6 mb-8">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Target className="w-5 h-5 text-blood-500"/>
  The Assassination of Fred Hampton
  </h2>
@@ -157,7 +157,7 @@ export default function COINTELPROPage() {
 
  {/* MLK Operations */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.18 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4">FBI vs. Martin Luther King Jr.</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4">FBI vs. Martin Luther King Jr.</h2>
  <div className="space-y-3">
  {investigation.mlkOperations.map((op, idx) => (
  <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
@@ -168,7 +168,7 @@ export default function COINTELPROPage() {
  </div>
  </motion.div>
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
  <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
@@ -177,7 +177,7 @@ export default function COINTELPROPage() {
  <div className="lg:col-span-2 space-y-8">
  {/* Programs */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="glass-card p-6">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Shield className="w-5 h-5 text-blood-500"/>COINTELPRO Programs</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Shield className="w-5 h-5 text-blood-500"/>COINTELPRO Programs</h2>
  <div className="space-y-4">
  {investigation.programs.map((prog, idx) => (
  <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
@@ -191,11 +191,11 @@ export default function COINTELPROPage() {
 
  {/* Tactics */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="glass-card p-6">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><AlertTriangle className="w-5 h-5 text-blood-500"/>Tactics Used</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><AlertTriangle className="w-5 h-5 text-blood-500"/>Tactics Used</h2>
  <div className="space-y-3">
  {investigation.tactics.map((t, idx) => (
  <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
- <p className="font-bold text-white text-sm">{t.tactic}</p>
+ <p className="font-bold glass-text text-sm">{t.tactic}</p>
  <p className="text-sm text-zinc-300 mt-2">{t.description}</p>
  </div>
  ))}
@@ -204,12 +204,12 @@ export default function COINTELPROPage() {
 
  {/* Key Figures */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="glass-card p-6">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Users className="w-5 h-5 text-blood-500"/>Key Figures</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Users className="w-5 h-5 text-blood-500"/>Key Figures</h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
  <div key={idx} className="flex items-start justify-between p-3 bg-zinc-900/50 border border-zinc-800">
  <div className="flex-1">
- {figure.href ? (<Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">{figure.name}</Link>) : (<span className="font-bold text-white">{figure.name}</span>)}
+ {figure.href ? (<Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">{figure.name}</Link>) : (<span className="font-bold glass-text">{figure.name}</span>)}
  <p className="text-sm text-zinc-400 mt-1">{figure.role}</p>
  </div>
  <span className="text-xs px-2 py-1 bg-zinc-800 text-zinc-400 border border-zinc-700 whitespace-nowrap ml-2">{figure.status}</span>
@@ -218,14 +218,14 @@ export default function COINTELPROPage() {
  </div>
  </motion.div>
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="glass-card p-6">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
  <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.div>
  </div>
 
  <div className="space-y-6">
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="glass-card p-6">
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Calendar className="w-4 h-4 text-blood-500"/>Timeline</h3>
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Calendar className="w-4 h-4 text-blood-500"/>Timeline</h3>
  <div className="space-y-4">
  {investigation.timeline.map((item, idx) => (
  <div key={idx} className="relative pl-4 border-l-2 border-zinc-800">
@@ -238,11 +238,11 @@ export default function COINTELPROPage() {
  </motion.div>
 
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
  <div className="space-y-3">
  {investigation.legalOutcomes.map((item, idx) => (
  <div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800">
- <p className="font-bold text-white text-sm">{item.defendant}</p>
+ <p className="font-bold glass-text text-sm">{item.defendant}</p>
  <p className="text-xs text-zinc-400 mt-1">{item.charge}</p>
  <p className="text-xs text-blood-400 mt-1">{item.outcome}</p>
  </div>
@@ -251,7 +251,7 @@ export default function COINTELPROPage() {
  </motion.div>
 
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }} className="glass-card p-6">
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4">Sources</h3>
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4">Sources</h3>
  <div className="space-y-2">
  {investigation.sources.map((source, idx) => (
  <a key={idx} href={source.url} target="_blank"rel="noopener noreferrer"className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-zinc-900/50 transition-colors">

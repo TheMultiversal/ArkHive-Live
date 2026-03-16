@@ -108,7 +108,7 @@ export default function Modal({
  <div className="flex items-center justify-between p-4 border-b border-zinc-800">
  <h2
  id="modal-title"
- className="text-lg font-bold text-white uppercase tracking-wider"
+ className="text-lg font-bold glass-text uppercase tracking-wider"
  >
  {title}
  </h2>

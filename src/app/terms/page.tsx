@@ -15,7 +15,7 @@ export default function TermsPage() {
  className="mb-12"
  >
  <Scale className="w-16 h-16 text-blood-500 mb-4"/>
- <h1 className="text-2xl sm:text-4xl font-bold text-white mb-4">Terms of Service</h1>
+ <h1 className="text-2xl sm:text-4xl font-bold glass-text mb-4">Terms of Service</h1>
  <p className="text-zinc-400">
  Last updated: January 15, 2025
  </p>
@@ -30,7 +30,7 @@ export default function TermsPage() {
  transition={{ delay: 0.1 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">1. Acceptance of Terms</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  By accessing or using ArkHive (&quot;the Platform&quot;), you agree to be bound by 
@@ -51,7 +51,7 @@ export default function TermsPage() {
  transition={{ delay: 0.15 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">2. Use of the Platform</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">2. Use of the Platform</h2>
  <div className="text-zinc-300 space-y-4">
  <h3 className="text-lg font-semibold text-white">Permitted Use</h3>
  <ul className="list-disc pl-6 space-y-2">
@@ -81,7 +81,7 @@ export default function TermsPage() {
  transition={{ delay: 0.2 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">3. Content</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">3. Content</h2>
  <div className="text-zinc-300 space-y-4">
  <h3 className="text-lg font-semibold text-white">Our Content</h3>
  <p>
@@ -112,7 +112,7 @@ export default function TermsPage() {
  transition={{ delay: 0.25 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
  <AlertTriangle className="w-6 h-6 text-zinc-400"/>
  4. Disclaimers
  </h2>
@@ -141,7 +141,7 @@ export default function TermsPage() {
  transition={{ delay: 0.3 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">5. Source Protection</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">5. Source Protection</h2>
  <div className="bg-zinc-900 border border-zinc-800 p-6 text-zinc-300 space-y-4">
  <p>
  Protecting the identity and safety of sources is fundamental to our mission. 
@@ -163,7 +163,7 @@ export default function TermsPage() {
  transition={{ delay: 0.35 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">6. Accounts</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">6. Accounts</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  Certain features require account registration. You are responsible for:
@@ -187,7 +187,7 @@ export default function TermsPage() {
  transition={{ delay: 0.4 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">7. Limitation of Liability</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">7. Limitation of Liability</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  To the maximum extent permitted by law, ArkHive shall not be liable for 
@@ -210,7 +210,7 @@ export default function TermsPage() {
  transition={{ delay: 0.45 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">8. Governing Law</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">8. Governing Law</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  These terms shall be governed by and construed in accordance with applicable 
@@ -227,7 +227,7 @@ export default function TermsPage() {
  transition={{ delay: 0.5 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">9. Copyright & DMCA</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">9. Copyright & DMCA</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  We respect intellectual property rights. However, as a journalism platform, 
@@ -250,7 +250,7 @@ export default function TermsPage() {
  animate={{ opacity: 1 }}
  transition={{ delay: 0.55 }}
  >
- <h2 className="text-2xl font-bold text-white mb-4">10. Contact</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">10. Contact</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  For questions about these Terms:

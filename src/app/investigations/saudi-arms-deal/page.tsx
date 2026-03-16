@@ -144,7 +144,7 @@ export default function SaudiArmsDealPage() {
  </span>
  <span className="text-zinc-500 text-sm">{investigation.status}</span>
  </div>
- <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">
+ <h1 className="text-3xl md:text-4xl font-bold glass-text mb-2">
  <GlitchText text={investigation.title} />
  </h1>
  <p className="text-xl text-zinc-400">{investigation.subtitle}</p>
@@ -170,13 +170,13 @@ export default function SaudiArmsDealPage() {
  transition={{ delay: 0.2 }}
  className="mb-8"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
  <DollarSign className="w-6 h-6 text-blood-500"/>
  Deal Overview
  </h2>
  <div className="glass-card p-6">
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
  <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
@@ -208,7 +208,7 @@ export default function SaudiArmsDealPage() {
  transition={{ delay: 0.3 }}
  className="mb-8"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
  <AlertTriangle className="w-6 h-6 text-blood-500"/>
  Congressional Bypass
  </h2>
@@ -235,7 +235,7 @@ export default function SaudiArmsDealPage() {
  transition={{ delay: 0.4 }}
  className="mb-8"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
  <Target className="w-6 h-6 text-blood-500"/>
  Yemen War Consequences
  </h2>
@@ -269,7 +269,7 @@ export default function SaudiArmsDealPage() {
  transition={{ delay: 0.5 }}
  className="mb-8"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
  <DollarSign className="w-6 h-6 text-blood-500"/>
  Defense Contractor Profits
  </h2>
@@ -277,7 +277,7 @@ export default function SaudiArmsDealPage() {
  {investigation.profiteers.map((contractor, index) => (
  <div key={index} className="glass-card p-4">
  <div className="flex justify-between items-start mb-2">
- <h3 className="text-white font-bold">{contractor.company}</h3>
+ <h3 className="glass-text font-bold">{contractor.company}</h3>
  <span className="text-blood-400 font-mono">{contractor.amount}</span>
  </div>
  <p className="text-zinc-400 text-sm">{contractor.weapons}</p>
@@ -293,7 +293,7 @@ export default function SaudiArmsDealPage() {
  transition={{ delay: 0.6 }}
  className="mb-8"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
  <Users className="w-6 h-6 text-blood-500"/>
  Key Figures
  </h2>
@@ -305,7 +305,7 @@ export default function SaudiArmsDealPage() {
  className="glass-card p-4 hover:border-blood-500 transition-colors"
  >
  <div className="flex items-start justify-between mb-2">
- <h3 className="text-white font-bold hover:text-blood-400">{figure.name}</h3>
+ <h3 className="glass-text font-bold hover:text-blood-400">{figure.name}</h3>
  <span className="text-xs bg-zinc-800 text-zinc-400 px-2 py-1">{figure.status}</span>
  </div>
  <p className="text-zinc-400 text-sm">{figure.role}</p>
@@ -321,7 +321,7 @@ export default function SaudiArmsDealPage() {
  transition={{ delay: 0.7 }}
  className="mb-8"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
  <Calendar className="w-6 h-6 text-zinc-400"/>
  Timeline
  </h2>
@@ -341,12 +341,12 @@ export default function SaudiArmsDealPage() {
 
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-white text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
  <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
@@ -355,7 +355,7 @@ export default function SaudiArmsDealPage() {
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.8 }}
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
  <FileText className="w-6 h-6 text-zinc-400"/>
  Sources
  </h2>

@@ -71,7 +71,7 @@ export default function DefibrillatorButton({
  ${sizeStyles[size]} 
  bg-gradient-to-b ${variantStyles[variant]}
  border border-blood-900/50
- font-bold text-white uppercase tracking-wider
+ font-bold glass-text uppercase tracking-wider
  transition-all duration-300
  ${className}
  `}
@@ -129,7 +129,7 @@ export default function DefibrillatorButton({
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 1.5 }}
  >
- <span className="text-white font-bold text-xl tracking-widest">CLEAR!</span>
+ <span className="glass-text font-bold text-xl tracking-widest">CLEAR!</span>
  </motion.div>
  )}
  </AnimatePresence>

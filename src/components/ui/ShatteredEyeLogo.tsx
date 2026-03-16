@@ -89,8 +89,8 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  <svg viewBox="0 0 100 100"className="w-full h-full">
  <defs>
  <linearGradient id="crackGradient"x1="0%"y1="0%"x2="100%"y2="100%">
- <stop offset="0%"stopColor="#2563eb"stopOpacity="0.5"/>
- <stop offset="100%"stopColor="#1e40af"stopOpacity="0.2"/>
+ <stop offset="0%"stopColor="#162f5e"stopOpacity="0.5"/>
+ <stop offset="100%"stopColor="#0b1832"stopOpacity="0.2"/>
  </linearGradient>
  </defs>
  {/* Crack lines radiating from center */}
@@ -111,36 +111,36 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  <svg
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
- style={{ filter: 'drop-shadow(0 0 8px rgba(96, 165, 250, 0.4))' }}
+ style={{ filter: 'drop-shadow(0 0 8px rgba(58, 94, 160, 0.4))' }}
  >
  <defs>
  {/* Gradients */}
  <radialGradient id="shardGradient"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#93c5fd"/>
- <stop offset="50%"stopColor="#2563eb"/>
- <stop offset="100%"stopColor="#1e40af"/>
+ <stop offset="0%"stopColor="#5a7cbf"/>
+ <stop offset="50%"stopColor="#162f5e"/>
+ <stop offset="100%"stopColor="#0b1832"/>
  </radialGradient>
 
  <radialGradient id="centerEyeGradient"cx="50%"cy="40%"r="60%">
  <stop offset="0%"stopColor="#ffffff"/>
  <stop offset="40%"stopColor="#fecaca"/>
- <stop offset="100%"stopColor="#2563eb"/>
+ <stop offset="100%"stopColor="#162f5e"/>
  </radialGradient>
 
  <radialGradient id="pupilGradient2"cx="30%"cy="30%"r="70%">
- <stop offset="0%"stopColor="#172554"/>
+ <stop offset="0%"stopColor="#040914"/>
  <stop offset="100%"stopColor="#000000"/>
  </radialGradient>
 
  <linearGradient id="shardEdge"x1="0%"y1="0%"x2="100%"y2="100%">
- <stop offset="0%"stopColor="#93c5fd"stopOpacity="0.8"/>
- <stop offset="100%"stopColor="#1e40af"stopOpacity="0.3"/>
+ <stop offset="0%"stopColor="#5a7cbf"stopOpacity="0.8"/>
+ <stop offset="100%"stopColor="#0b1832"stopOpacity="0.3"/>
  </linearGradient>
 
  {/* Glow filters */}
  <filter id="shardGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="1"result="blur"/>
- <feFlood floodColor="#60a5fa"floodOpacity="0.5"/>
+ <feFlood floodColor="#3a5ea0"floodOpacity="0.5"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -150,7 +150,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
 
  <filter id="innerGlow"x="-100%"y="-100%"width="300%"height="300%">
  <feGaussianBlur stdDeviation="3"result="blur"/>
- <feFlood floodColor="#2563eb"floodOpacity="0.6"/>
+ <feFlood floodColor="#162f5e"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -200,12 +200,12 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  </ellipse>
 
  {/* Iris */}
- <circle cx="50"cy="50"r="8"fill="#2563eb">
- <animate attributeName="fill"values="#2563eb;#1d4ed8;#2563eb"dur="3s"repeatCount="indefinite"/>
+ <circle cx="50"cy="50"r="8"fill="#162f5e">
+ <animate attributeName="fill"values="#162f5e;#102248;#162f5e"dur="3s"repeatCount="indefinite"/>
  </circle>
 
  {/* Iris inner ring */}
- <circle cx="50"cy="50"r="6"fill="#1e3a8a"/>
+ <circle cx="50"cy="50"r="6"fill="#070f22"/>
 
  {/* Pupil */}
  <circle cx="50"cy="50"r="4"fill="url(#pupilGradient2)">
@@ -230,7 +230,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  cx="50"
  cy="50"
  r="0"
- fill="#60a5fa"
+ fill="#3a5ea0"
  opacity="0.8"
  >
  <animateMotion
@@ -252,7 +252,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  cx={50 + Math.cos((shatterPhase + i * 45) * Math.PI / 180) * (25 + i * 3)}
  cy={50 + Math.sin((shatterPhase + i * 45) * Math.PI / 180) * (25 + i * 3)}
  r="0.5"
- fill="#93c5fd"
+ fill="#5a7cbf"
  opacity={0.3 + Math.sin(shatterPhase * 0.1 + i) * 0.2}
  />
  ))}
@@ -266,7 +266,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  y1="50"
  x2={50 + Math.cos(angle * Math.PI / 180) * 35}
  y2={50 + Math.sin(angle * Math.PI / 180) * 35}
- stroke="#60a5fa"
+ stroke="#3a5ea0"
  strokeWidth="0.3"
  strokeDasharray="1 3"
  opacity={0.3 + Math.sin(shatterPhase * 0.05 + i) * 0.2}
@@ -280,7 +280,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  className="absolute left-0 right-0 h-[2px] bg-blood-600/30 pointer-events-none"
  style={{ 
  top: `${(shatterPhase * 2) % 100}%`,
- boxShadow: '0 0 10px rgba(29, 78, 216, 0.5)'
+ boxShadow: '0 0 10px rgba(16, 34, 72, 0.5)'
  }}
  />
 

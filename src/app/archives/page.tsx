@@ -106,7 +106,7 @@ export default function SavedPagesPage() {
  <div className="w-16 h-16 mx-auto mb-6 border-2 border-zinc-700 flex items-center justify-center">
  <Bookmark className="w-8 h-8 text-zinc-600"/>
  </div>
- <h1 className="text-3xl font-black text-white mb-3 uppercase tracking-wider">
+ <h1 className="text-3xl font-black glass-text mb-3 uppercase tracking-wider">
  <GlitchText text="SAVED PAGES"/>
  </h1>
  <p className="text-zinc-400 mb-8">
@@ -114,7 +114,7 @@ export default function SavedPagesPage() {
  </p>
  <Link
  href="/contributor"
- className="inline-flex items-center gap-2 px-6 py-3 bg-blood-700 hover:bg-blood-600 text-white font-bold uppercase tracking-wider text-sm transition-colors"
+ className="inline-flex items-center gap-2 px-6 py-3 bg-blood-700 hover:bg-blood-600 glass-text font-bold uppercase tracking-wider text-sm transition-colors"
  >
  <UserPlus className="w-4 h-4"/>
  Sign In / Create Account
@@ -264,7 +264,7 @@ export default function SavedPagesPage() {
  <div className="flex items-start gap-3">
  <AlertTriangle className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>
- <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-1">Local Storage Only</h3>
+ <h3 className="text-sm font-bold glass-text uppercase tracking-wider mb-1">Local Storage Only</h3>
  <p className="text-xs text-zinc-500 leading-relaxed">
  Saved pages are stored in your browser&apos;s local storage. They are tied to your contributor account
  and will persist until you clear your browser data or delete your account.

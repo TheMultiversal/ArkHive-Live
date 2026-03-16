@@ -3572,7 +3572,7 @@ export default function TimelinePage() {
  <div className="w-16 h-16 mx-auto mb-6 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
  <Calendar className="w-8 h-8 text-blood-600"/>
  </div>
- <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-4">
+ <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-4">
  INVESTIGATION TIMELINE
  </h1>
  <p className="text-zinc-400 max-w-xl mx-auto mb-4">
@@ -3642,7 +3642,7 @@ export default function TimelinePage() {
  {event.severity}
  </span>
  </div>
- <h3 className="text-lg font-bold text-white group-hover:text-blood-500 transition-colors mb-2">
+ <h3 className="text-lg font-bold glass-text group-hover:text-blood-500 transition-colors mb-2">
  {event.title}
  </h3>
  <p className="text-zinc-400 text-sm mb-3">{event.description}</p>

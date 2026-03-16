@@ -125,7 +125,7 @@ export default function FAQPage() {
  animate={{ opacity: 1, y: 0 }}
  >
  <HelpCircle className="w-16 h-16 text-blood-500 mx-auto mb-4"/>
- <h1 className="text-2xl sm:text-4xl font-bold text-white mb-4">
+ <h1 className="text-2xl sm:text-4xl font-bold glass-text mb-4">
  Frequently Asked Questions
  </h1>
  <p className="text-zinc-400 max-w-2xl mx-auto">

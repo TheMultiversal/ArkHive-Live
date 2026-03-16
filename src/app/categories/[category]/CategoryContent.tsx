@@ -134,7 +134,7 @@ export default function CategoryContent() {
                         <User className="w-5 h-5 text-zinc-600 group-hover:text-blood-500 transition-colors" />
                       </div>
                       <div className="min-w-0">
-                        <h3 className="font-bold text-white group-hover:text-blood-400 transition-colors truncate">
+                        <h3 className="font-bold glass-text group-hover:text-blood-400 transition-colors truncate">
                           {person.name}
                         </h3>
                         <p className="text-xs text-zinc-500 truncate mt-0.5">{person.title}</p>
@@ -164,7 +164,7 @@ export default function CategoryContent() {
       {/* Related Categories Footer */}
       <div className="border-t border-zinc-800">
         <div className="max-w-7xl mx-auto px-6 py-8">
-          <h2 className="text-lg font-bold text-white uppercase tracking-wider mb-4">Other Categories</h2>
+          <h2 className="text-lg font-bold glass-text uppercase tracking-wider mb-4">Other Categories</h2>
           <div className="flex flex-wrap gap-2">
             {Object.entries(categoryDatabase)
               .filter(([slug]) => slug !== category)

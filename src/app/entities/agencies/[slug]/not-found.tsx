@@ -19,7 +19,7 @@ export default function AgencyNotFound() {
  </div>
 
  {/* Message */}
- <h1 className="text-2xl font-black text-white uppercase tracking-wider mb-4">
+ <h1 className="text-2xl font-black glass-text uppercase tracking-wider mb-4">
  AGENCY NOT FOUND
  </h1>
  

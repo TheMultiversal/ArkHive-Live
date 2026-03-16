@@ -241,7 +241,7 @@ export function TrustRating({
  />
  </svg>
  <div className="absolute inset-0 flex items-center justify-center">
- <span className="text-xs font-bold text-white">{value.toFixed(1)}</span>
+ <span className="text-xs font-bold glass-text">{value.toFixed(1)}</span>
  </div>
  </div>
  <div>

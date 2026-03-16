@@ -509,7 +509,7 @@ export default function TrumpCriminalCompendiumPage() {
  </span>
  </div>
 
- <h1 className="text-3xl lg:text-4xl xl:text-5xl font-black text-white mb-4 leading-tight uppercase tracking-wider">
+ <h1 className="text-3xl lg:text-4xl xl:text-5xl font-black glass-text mb-4 leading-tight uppercase tracking-wider">
  {investigationData.title}
  </h1>
  
@@ -549,7 +549,7 @@ export default function TrumpCriminalCompendiumPage() {
  animate={{ opacity: 1, y: 0 }}
  className="glass-card p-6 mb-8 border-l-4 border-blood-600"
  >
- <h2 className="text-lg font-bold text-white mb-3 flex items-center gap-2">
+ <h2 className="text-lg font-bold glass-text mb-3 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
  Executive Summary
  </h2>
@@ -599,7 +599,7 @@ export default function TrumpCriminalCompendiumPage() {
  {section.category}
  </span>
  </div>
- <h3 className="text-xl font-bold text-white">{section.title}</h3>
+ <h3 className="text-xl font-bold glass-text">{section.title}</h3>
  <div className="flex flex-wrap gap-2 mt-2">
  {section.statutes.slice(0, 2).map((statute, i) => (
  <code key={i} className="text-xs bg-zinc-900 text-zinc-500 px-2 py-1 font-mono">
@@ -685,7 +685,7 @@ export default function TrumpCriminalCompendiumPage() {
 
  {/* Link to Individual Profile */}
  <div className="glass-card p-6 border-l-4 border-blood-500">
- <h3 className="text-lg font-bold text-white mb-2">View Complete Individual Profile</h3>
+ <h3 className="text-lg font-bold glass-text mb-2">View Complete Individual Profile</h3>
  <p className="text-zinc-400 text-sm mb-4">
  Access the full profile including timeline, affiliations, known associates, and all documented charges.
  </p>

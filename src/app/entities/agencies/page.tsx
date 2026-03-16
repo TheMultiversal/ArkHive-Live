@@ -82,7 +82,7 @@ export default function AgenciesPage() {
               <span className="h-[2px] flex-1 bg-gradient-to-l from-blood-700 to-transparent" />
             </div>
             <div className="text-center mb-6">
-              <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-2">GOVERNMENT AGENCIES</h1>
+              <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">GOVERNMENT AGENCIES</h1>
               <p className="text-lg text-blood-600 font-bold uppercase tracking-[0.15em]">The Machinery of State Power</p>
               <p className="text-sm text-zinc-500 mt-2">{agencies.length.toLocaleString()} agencies documented in the archive</p>
             </div>
@@ -120,7 +120,7 @@ export default function AgenciesPage() {
             <div className="w-16 h-16 border-2 border-zinc-700 flex items-center justify-center mx-auto mb-4">
               <Skull className="w-8 h-8 text-zinc-600" />
             </div>
-            <h3 className="text-xl font-bold text-white mb-2 uppercase tracking-wider">No Agencies Found</h3>
+            <h3 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">No Agencies Found</h3>
             <p className="text-zinc-500">No agencies match your search criteria.</p>
           </div>
         )}

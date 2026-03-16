@@ -244,7 +244,7 @@ function renderMarkdown(markdown: string): string {
  // Headers
  html = html.replace(/^### (.*$)/gim, '<h3 class="text-lg font-semibold text-white mt-4 mb-2">$1</h3>');
  html = html.replace(/^## (.*$)/gim, '<h2 class="text-xl font-semibold text-white mt-4 mb-2">$1</h2>');
- html = html.replace(/^# (.*$)/gim, '<h1 class="text-2xl font-bold text-white mt-4 mb-2">$1</h1>');
+ html = html.replace(/^# (.*$)/gim, '<h1 class="text-2xl font-bold glass-text mt-4 mb-2">$1</h1>');
 
  // Bold, Italic, Strikethrough
  html = html.replace(/\*\*\*(.*?)\*\*\*/gim, '<strong><em>$1</em></strong>');

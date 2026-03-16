@@ -15,7 +15,7 @@ export default function PrivacyPage() {
  className="mb-12"
  >
  <Shield className="w-16 h-16 text-blood-500 mb-4"/>
- <h1 className="text-2xl sm:text-4xl font-bold text-white mb-4">Privacy Policy</h1>
+ <h1 className="text-2xl sm:text-4xl font-bold glass-text mb-4">Privacy Policy</h1>
  <p className="text-zinc-400">
  Last updated: January 15, 2025
  </p>
@@ -50,7 +50,7 @@ export default function PrivacyPage() {
  transition={{ delay: 0.2 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
  <FileText className="w-6 h-6 text-blood-500"/>
  Introduction
  </h2>
@@ -75,7 +75,7 @@ export default function PrivacyPage() {
  transition={{ delay: 0.25 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
  <Database className="w-6 h-6 text-blood-500"/>
  Information We Collect
  </h2>
@@ -112,7 +112,7 @@ export default function PrivacyPage() {
  transition={{ delay: 0.3 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
  <Eye className="w-6 h-6 text-blood-500"/>
  Source Protection
  </h2>
@@ -147,7 +147,7 @@ export default function PrivacyPage() {
  transition={{ delay: 0.35 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
  <Server className="w-6 h-6 text-blood-500"/>
  Data Security
  </h2>
@@ -170,7 +170,7 @@ export default function PrivacyPage() {
  transition={{ delay: 0.4 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">Cookies</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">Cookies</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  We use only essential cookies required for basic site functionality:
@@ -194,7 +194,7 @@ export default function PrivacyPage() {
  transition={{ delay: 0.45 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">Third Parties</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">Third Parties</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  We do not sell, rent, or share your personal information with third parties 
@@ -215,7 +215,7 @@ export default function PrivacyPage() {
  transition={{ delay: 0.5 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+ <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
  <AlertTriangle className="w-6 h-6 text-zinc-400"/>
  Legal Requests
  </h2>
@@ -243,7 +243,7 @@ export default function PrivacyPage() {
  transition={{ delay: 0.55 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">Your Rights</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">Your Rights</h2>
  <div className="text-zinc-300 space-y-4">
  <p>You have the right to:</p>
  <ul className="list-disc pl-6 space-y-2">
@@ -265,7 +265,7 @@ export default function PrivacyPage() {
  transition={{ delay: 0.6 }}
  className="mb-12"
  >
- <h2 className="text-2xl font-bold text-white mb-4">Changes to This Policy</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">Changes to This Policy</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  We may update this Privacy Policy periodically. We will notify users of 
@@ -281,7 +281,7 @@ export default function PrivacyPage() {
  animate={{ opacity: 1 }}
  transition={{ delay: 0.65 }}
  >
- <h2 className="text-2xl font-bold text-white mb-4">Contact Us</h2>
+ <h2 className="text-2xl font-bold glass-text mb-4">Contact Us</h2>
  <div className="text-zinc-300 space-y-4">
  <p>
  For privacy-related questions or concerns:

@@ -57,7 +57,7 @@ export class ErrorBoundary extends Component<Props, State> {
  </div>
 
  {/* Title */}
- <h1 className="text-2xl font-bold text-white mb-2">
+ <h1 className="text-2xl font-bold glass-text mb-2">
  Something Went Wrong
  </h1>
 

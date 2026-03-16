@@ -19,7 +19,7 @@ export default function WorkspaceNotFound() {
  </div>
 
  {/* Message */}
- <h1 className="text-2xl font-black text-white uppercase tracking-wider mb-4">
+ <h1 className="text-2xl font-black glass-text uppercase tracking-wider mb-4">
  WORKSPACE NOT FOUND
  </h1>
  

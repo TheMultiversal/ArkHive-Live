@@ -94,7 +94,7 @@ export default function OrganizationsPage() {
             <div className="w-16 h-16 border-2 border-zinc-700 flex items-center justify-center mx-auto mb-4">
               <Skull className="w-8 h-8 text-zinc-600" />
             </div>
-            <h3 className="text-xl font-bold text-white mb-2 uppercase tracking-wider">No Organizations Found</h3>
+            <h3 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">No Organizations Found</h3>
             <p className="text-zinc-500">No organizations match your search criteria.</p>
           </div>
         )}

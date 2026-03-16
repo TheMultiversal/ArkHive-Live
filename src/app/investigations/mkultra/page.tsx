@@ -132,7 +132,7 @@ export default function MKUltraPage() {
  <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/20 text-blood-400">{investigation.severity}</span>
  <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-500/30 bg-zinc-500/20 text-zinc-400">{investigation.status}</span>
  </div>
- <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-2">
+ <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">
  <GlitchText text={investigation.title} />
  </h1>
  <p className="text-lg text-blood-500 font-bold mb-4">{investigation.subtitle}</p>
@@ -141,7 +141,7 @@ export default function MKUltraPage() {
 
  {/* Scale */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="border-2 border-blood-800/60 bg-blood-950/20 p-6 mb-8">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Skull className="w-5 h-5 text-blood-500"/>
  Scale of the Program
  </h2>
@@ -157,7 +157,7 @@ export default function MKUltraPage() {
 
  {/* Cover-Up */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <ShieldAlert className="w-5 h-5 text-blood-500"/>
  The Cover-Up
  </h2>
@@ -174,7 +174,7 @@ export default function MKUltraPage() {
  <div className="lg:col-span-2 space-y-8">
  {/* Known Subprojects */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="glass-card p-6">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Brain className="w-5 h-5 text-blood-500"/>
  Known Subprojects
  </h2>
@@ -191,14 +191,14 @@ export default function MKUltraPage() {
 
  {/* Techniques Used */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="glass-card p-6">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <AlertTriangle className="w-5 h-5 text-blood-500"/>
  Techniques of Torture
  </h2>
  <div className="space-y-4">
  {investigation.techniques.map((tech, idx) => (
  <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
- <p className="font-bold text-white text-sm">{tech.method}</p>
+ <p className="font-bold glass-text text-sm">{tech.method}</p>
  <p className="text-sm text-zinc-300 mt-2">{tech.description}</p>
  <p className="text-xs text-blood-400 mt-2">Legal violation: {tech.legality}</p>
  </div>
@@ -208,7 +208,7 @@ export default function MKUltraPage() {
 
  {/* Key Figures */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="glass-card p-6">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Users className="w-5 h-5 text-blood-500"/>
  Key Figures
  </h2>
@@ -219,7 +219,7 @@ export default function MKUltraPage() {
  {figure.href ? (
  <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">{figure.name}</Link>
  ) : (
- <span className="font-bold text-white">{figure.name}</span>
+ <span className="font-bold glass-text">{figure.name}</span>
  )}
  <p className="text-sm text-zinc-400 mt-1">{figure.role}</p>
  </div>
@@ -231,7 +231,7 @@ export default function MKUltraPage() {
 
  {/* Participating Institutions */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.35 }} className="glass-card p-6">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
  Known Participating Institutions
  </h2>
@@ -244,7 +244,7 @@ export default function MKUltraPage() {
 
  {/* Charges */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="glass-card p-6">
- <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Scale className="w-5 h-5 text-blood-500"/>
  Applicable Charges &amp; Statutes
  </h2>
@@ -264,7 +264,7 @@ export default function MKUltraPage() {
  <div className="space-y-6">
  {/* Timeline */}
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="glass-card p-6">
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Calendar className="w-4 h-4 text-blood-500"/>
  Timeline
  </h3>
@@ -281,14 +281,14 @@ export default function MKUltraPage() {
 
  {/* Legal Outcomes */}
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Scale className="w-5 h-5 text-blood-500"/>
  Legal Outcomes
  </h3>
  <div className="space-y-3">
  {investigation.legalOutcomes.map((item, idx) => (
  <div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800">
- <p className="font-bold text-white text-sm">{item.defendant}</p>
+ <p className="font-bold glass-text text-sm">{item.defendant}</p>
  <p className="text-xs text-zinc-400 mt-1">{item.charge}</p>
  <p className="text-xs text-blood-400 mt-1">{item.outcome}</p>
  </div>
@@ -298,7 +298,7 @@ export default function MKUltraPage() {
 
  {/* Sources */}
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }} className="glass-card p-6">
- <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-4">Sources</h3>
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4">Sources</h3>
  <div className="space-y-2">
  {investigation.sources.map((source, idx) => (
  <a key={idx} href={source.url} target="_blank"rel="noopener noreferrer"className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-zinc-900/50 transition-colors">

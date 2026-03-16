@@ -60,7 +60,7 @@ export default function EntitiesPage() {
  </div>
 
  <div className="text-center mb-6">
- <h1 className="text-4xl lg:text-5xl font-black text-white uppercase tracking-wider mb-2">
+ <h1 className="text-4xl lg:text-5xl font-black glass-text uppercase tracking-wider mb-2">
  THE PERPETRATORS
  </h1>
  <p className="text-lg text-blood-600 font-bold uppercase tracking-[0.2em]">
@@ -87,7 +87,7 @@ export default function EntitiesPage() {
  <category.icon className="w-8 h-8 text-blood-600"/>
  </div>
  
- <h2 className="text-xl font-black text-white mb-1 group-hover:text-blood-500 transition-colors uppercase tracking-wider">
+ <h2 className="text-xl font-black glass-text mb-1 group-hover:text-blood-500 transition-colors uppercase tracking-wider">
  {category.label}
  </h2>
  <p className="text-sm text-blood-600 font-bold uppercase tracking-wider mb-4">
@@ -100,7 +100,7 @@ export default function EntitiesPage() {
  
  <div className="flex items-center justify-between pt-4 border-t border-zinc-800">
  <span className="text-zinc-600 text-sm">
- <span className="text-xl font-bold text-white">{category.count}</span> entries
+ <span className="text-xl font-bold glass-text">{category.count}</span> entries
  </span>
  <span className="flex items-center gap-2 text-blood-600 font-bold uppercase tracking-wider text-sm group-hover:gap-3 transition-all">
  Access <ArrowRight className="w-5 h-5"/>
@@ -113,7 +113,7 @@ export default function EntitiesPage() {
  {/* Info Section - Sharp */}
  <div className="border-2 border-zinc-800 bg-black/60 p-8 lg:p-12">
  <div className="text-center mb-8">
- <h3 className="text-2xl font-black text-white uppercase tracking-wider mb-2">
+ <h3 className="text-2xl font-black glass-text uppercase tracking-wider mb-2">
  How Entity Tracking Works
  </h3>
  <p className="text-zinc-500 max-w-2xl mx-auto">
@@ -124,17 +124,17 @@ export default function EntitiesPage() {
  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
  <div className="p-5 border border-zinc-800 bg-zinc-900/30">
  <div className="text-blood-600 font-black text-2xl mb-2">01</div>
- <div className="text-white font-bold mb-2 uppercase tracking-wider">Document</div>
+ <div className="glass-text font-bold mb-2 uppercase tracking-wider">Document</div>
  <p className="text-zinc-500 text-sm">Every role, position, and documented crime recorded.</p>
  </div>
  <div className="p-5 border border-zinc-800 bg-zinc-900/30">
  <div className="text-blood-600 font-black text-2xl mb-2">02</div>
- <div className="text-white font-bold mb-2 uppercase tracking-wider">Connect</div>
+ <div className="glass-text font-bold mb-2 uppercase tracking-wider">Connect</div>
  <p className="text-zinc-500 text-sm">Map relationships between agencies, corporations, and individuals.</p>
  </div>
  <div className="p-5 border border-zinc-800 bg-zinc-900/30">
  <div className="text-blood-600 font-black text-2xl mb-2">03</div>
- <div className="text-white font-bold mb-2 uppercase tracking-wider">Track</div>
+ <div className="glass-text font-bold mb-2 uppercase tracking-wider">Track</div>
  <p className="text-zinc-500 text-sm">Follow patterns of harm across multiple investigations.</p>
  </div>
  </div>

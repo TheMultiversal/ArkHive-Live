@@ -77,7 +77,7 @@ export default function NeuralNetworkBackground() {
  <svg className="absolute inset-0 w-full h-full opacity-[0.08]">
  <defs>
  <pattern id="sharpGrid"width="40"height="40"patternUnits="userSpaceOnUse">
- <path d="M 40 0 L 0 0 0 40"fill="none"stroke="#2563eb"strokeWidth="1"/>
+ <path d="M 40 0 L 0 0 0 40"fill="none"stroke="#162f5e"strokeWidth="1"/>
  </pattern>
  </defs>
  <rect width="100%"height="100%"fill="url(#sharpGrid)"/>
@@ -88,7 +88,7 @@ export default function NeuralNetworkBackground() {
  <defs>
  {/* Sharp glow filter - minimal blur */}
  <filter id="nodeGlow"x="-100%"y="-100%"width="300%"height="300%">
- <feFlood floodColor="#2563eb"floodOpacity="0.8"/>
+ <feFlood floodColor="#162f5e"floodOpacity="0.8"/>
  <feComposite in2="SourceGraphic"operator="in"/>
  <feGaussianBlur stdDeviation="1"/>
  <feMerge>
@@ -108,7 +108,7 @@ export default function NeuralNetworkBackground() {
  y1={`${from.y}%`}
  x2={`${to.x}%`}
  y2={`${to.y}%`}
- stroke="#2563eb"
+ stroke="#162f5e"
  strokeWidth={isActive ? 2 : 0.5}
  opacity={isActive ? 0.8 : 0.15}
  animate={{
@@ -132,7 +132,7 @@ export default function NeuralNetworkBackground() {
  cx={`${node.x}%`}
  cy={`${node.y}%`}
  r={isActive ? 6 : 3}
- fill={isActive ? '#60a5fa' : '#2563eb'}
+ fill={isActive ? '#3a5ea0' : '#162f5e'}
  opacity={isActive ? 1 : 0.4}
  filter={isActive ? 'url(#nodeGlow)' : undefined}
  animate={{
@@ -166,8 +166,8 @@ export default function NeuralNetworkBackground() {
  />
  <defs>
  <radialGradient id="cursorInfluence">
- <stop offset="0%"stopColor="#2563eb"stopOpacity="0.2"/>
- <stop offset="100%"stopColor="#2563eb"stopOpacity="0"/>
+ <stop offset="0%"stopColor="#162f5e"stopOpacity="0.2"/>
+ <stop offset="100%"stopColor="#162f5e"stopOpacity="0"/>
  </radialGradient>
  </defs>
  </svg>

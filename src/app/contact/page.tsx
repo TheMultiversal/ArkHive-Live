@@ -42,7 +42,7 @@ export default function ContactPage() {
  <div className="w-16 h-16 bg-blood-900/50 flex items-center justify-center mx-auto mb-6">
  <CheckCircle className="w-10 h-10 text-blood-400"/>
  </div>
- <h1 className="text-2xl font-bold text-white mb-4">Message Sent</h1>
+ <h1 className="text-2xl font-bold glass-text mb-4">Message Sent</h1>
  <p className="text-zinc-400 mb-6">
  Thank you for contacting us. We will review your message and respond as soon as possible.
  {formData.isAnonymous && ' Since you submitted anonymously, we cannot reply directly.'}
@@ -79,7 +79,7 @@ export default function ContactPage() {
  className="text-center mb-12"
  >
  <Mail className="w-16 h-16 text-blood-500 mx-auto mb-4"/>
- <h1 className="text-2xl sm:text-4xl font-bold text-white mb-4">Contact Us</h1>
+ <h1 className="text-2xl sm:text-4xl font-bold glass-text mb-4">Contact Us</h1>
  <p className="text-zinc-400 max-w-2xl mx-auto">
  Reach out to our team for press inquiries, technical support, or to report sensitive information.
  We take your privacy seriously.

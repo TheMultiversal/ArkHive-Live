@@ -35,7 +35,7 @@ function SubmitPageContent() {
  <div className="w-16 h-16 border-2 border-blood-700 flex items-center justify-center mx-auto mb-6">
  <CheckCircle className="w-8 h-8 text-blood-600"/>
  </div>
- <h1 className="text-2xl font-black text-white mb-4 uppercase tracking-wider">Information Received</h1>
+ <h1 className="text-2xl font-black glass-text mb-4 uppercase tracking-wider">Information Received</h1>
  <p className="text-zinc-400 mb-6">
  Your submission has been logged. It will be reviewed, researched, and if verified, 
  all connected entities will be documented and exposed.
@@ -61,7 +61,7 @@ function SubmitPageContent() {
  <div className="w-16 h-16 mx-auto mb-6 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
  <AlertTriangle className="w-8 h-8 text-blood-600"/>
  </div>
- <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-4">
+ <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-4">
  SUBMIT INFORMATION
  </h1>
  <p className="text-zinc-400 max-w-xl mx-auto">
@@ -76,7 +76,7 @@ function SubmitPageContent() {
  <div className="flex items-start gap-4">
  <Lock className="w-6 h-6 text-blood-600 flex-shrink-0 mt-1"/>
  <div>
- <h3 className="text-lg font-bold text-white mb-2 uppercase tracking-wider">Submission Guidelines</h3>
+ <h3 className="text-lg font-bold glass-text mb-2 uppercase tracking-wider">Submission Guidelines</h3>
  <ul className="text-zinc-500 text-sm space-y-2">
  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-blood-700"/> All submissions are reviewed for research and verification</li>
  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-blood-700"/> Provide as much detail as possible including dates, names, and sources</li>
@@ -92,7 +92,7 @@ function SubmitPageContent() {
  <div className="space-y-6">
  {/* Subject */}
  <div>
- <label htmlFor="subject"className="block text-sm font-bold text-white mb-2 uppercase tracking-wider">
+ <label htmlFor="subject"className="block text-sm font-bold glass-text mb-2 uppercase tracking-wider">
  Subject / Title *
  </label>
  <input
@@ -109,7 +109,7 @@ function SubmitPageContent() {
 
  {/* Category */}
  <div>
- <label htmlFor="category"className="block text-sm font-bold text-white mb-2 uppercase tracking-wider">
+ <label htmlFor="category"className="block text-sm font-bold glass-text mb-2 uppercase tracking-wider">
  Category *
  </label>
  <select
@@ -134,7 +134,7 @@ function SubmitPageContent() {
 
  {/* Description */}
  <div>
- <label htmlFor="description"className="block text-sm font-bold text-white mb-2 uppercase tracking-wider">
+ <label htmlFor="description"className="block text-sm font-bold glass-text mb-2 uppercase tracking-wider">
  Detailed Description *
  </label>
  <textarea
@@ -151,7 +151,7 @@ function SubmitPageContent() {
 
  {/* Entities */}
  <div>
- <label htmlFor="entities"className="block text-sm font-bold text-white mb-2 uppercase tracking-wider">
+ <label htmlFor="entities"className="block text-sm font-bold glass-text mb-2 uppercase tracking-wider">
  Known Entities Involved
  </label>
  <textarea
@@ -168,7 +168,7 @@ function SubmitPageContent() {
 
  {/* Sources */}
  <div>
- <label htmlFor="sources"className="block text-sm font-bold text-white mb-2 uppercase tracking-wider">
+ <label htmlFor="sources"className="block text-sm font-bold glass-text mb-2 uppercase tracking-wider">
  Sources / Evidence
  </label>
  <textarea
@@ -184,7 +184,7 @@ function SubmitPageContent() {
 
  {/* Contact */}
  <div>
- <label htmlFor="contact"className="block text-sm font-bold text-white mb-2 uppercase tracking-wider">
+ <label htmlFor="contact"className="block text-sm font-bold glass-text mb-2 uppercase tracking-wider">
  Contact Information (Optional)
  </label>
  <input
@@ -201,7 +201,7 @@ function SubmitPageContent() {
 
  {/* File Upload */}
  <div>
- <label className="block text-sm font-bold text-white mb-2 uppercase tracking-wider">
+ <label className="block text-sm font-bold glass-text mb-2 uppercase tracking-wider">
  Upload Documents / Evidence
  </label>
  <div

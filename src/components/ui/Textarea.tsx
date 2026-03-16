@@ -21,7 +21,7 @@ const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
  {label && (
  <label
  htmlFor={textareaId}
- className="block text-sm font-bold text-white uppercase tracking-wider"
+ className="block text-sm font-bold glass-text uppercase tracking-wider"
  >
  {label}
  {props.required && <span className="text-blood-600 ml-1">*</span>}
