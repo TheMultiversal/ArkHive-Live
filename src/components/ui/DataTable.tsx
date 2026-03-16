@@ -172,7 +172,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  setCurrentPage(1);
  }}
  placeholder={searchPlaceholder}
- className="w-full pl-10 pr-4 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full pl-10 pr-4 py-2 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  />
  </div>
  <div className="text-sm text-zinc-500">
@@ -182,20 +182,20 @@ export default function DataTable<T extends Record<string, unknown>>({
  )}
 
  {/* Table */}
- <div className="overflow-x-auto border border-zinc-800">
+ <div className="overflow-x-auto border border-[rgba(60,160,255,0.12)]">
  <table className="w-full">
  <thead className={cn(
- 'bg-zinc-900',
+ 'bg-[rgba(0,20,55,0.50)]',
  stickyHeader && 'sticky top-0 z-10'
  )}>
  <tr>
  {selectable && (
- <th className="w-12 px-4 py-3 border-b border-zinc-800">
+ <th className="w-12 px-4 py-3 border-b border-[rgba(60,160,255,0.12)]">
  <input
  type="checkbox"
  checked={isAllSelected}
  onChange={handleSelectAll}
- className="w-4 h-4 bg-zinc-800 border-zinc-600 text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
+ className="w-4 h-4 bg-[rgba(0,30,80,0.40)] border-zinc-600 text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
  />
  </th>
  )}
@@ -203,7 +203,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  <th
  key={String(column.key)}
  className={cn(
- 'px-4 border-b border-zinc-800 text-left text-xs font-semibold text-zinc-400 uppercase tracking-wider',
+ 'px-4 border-b border-[rgba(60,160,255,0.12)] text-left text-xs font-semibold text-zinc-400 uppercase tracking-wider',
  compact ? 'py-2' : 'py-3',
  column.sortable && 'cursor-pointer hover:text-white transition-colors',
  column.align === 'center' && 'text-center',
@@ -235,7 +235,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  ))}
  {actions && (
  <th className={cn(
- 'w-12 px-4 border-b border-zinc-800',
+ 'w-12 px-4 border-b border-[rgba(60,160,255,0.12)]',
  compact ? 'py-2' : 'py-3'
  )}>
  <span className="sr-only">Actions</span>
@@ -250,18 +250,18 @@ export default function DataTable<T extends Record<string, unknown>>({
  Array.from({ length: pageSize }).map((_, index) => (
  <tr key={`skeleton-${index}`}>
  {selectable && (
- <td className="px-4 py-4 border-b border-zinc-800/50">
- <div className="w-4 h-4 bg-zinc-800 animate-pulse"/>
+ <td className="px-4 py-4 border-b border-[rgba(60,160,255,0.08)]">
+ <div className="w-4 h-4 bg-[rgba(0,30,80,0.40)] animate-pulse"/>
  </td>
  )}
  {columns.map((column) => (
- <td key={String(column.key)} className="px-4 py-4 border-b border-zinc-800/50">
- <div className="h-4 bg-zinc-800 animate-pulse w-3/4"/>
+ <td key={String(column.key)} className="px-4 py-4 border-b border-[rgba(60,160,255,0.08)]">
+ <div className="h-4 bg-[rgba(0,30,80,0.40)] animate-pulse w-3/4"/>
  </td>
  ))}
  {actions && (
- <td className="px-4 py-4 border-b border-zinc-800/50">
- <div className="w-6 h-6 bg-zinc-800 animate-pulse"/>
+ <td className="px-4 py-4 border-b border-[rgba(60,160,255,0.08)]">
+ <div className="w-6 h-6 bg-[rgba(0,30,80,0.40)] animate-pulse"/>
  </td>
  )}
  </tr>
@@ -286,7 +286,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  className={cn(
  'group',
  striped && index % 2 === 1 && 'bg-zinc-900/30',
- hoverable && 'hover:bg-zinc-800/50',
+ hoverable && 'hover:bg-[rgba(0,30,80,0.30)]',
  onRowClick && 'cursor-pointer',
  isSelected(row) && 'bg-blood-900/20'
  )}
@@ -294,7 +294,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  >
  {selectable && (
  <td className={cn(
- 'px-4 border-b border-zinc-800/50',
+ 'px-4 border-b border-[rgba(60,160,255,0.08)]',
  compact ? 'py-2' : 'py-4'
  )}>
  <input
@@ -304,7 +304,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  e.stopPropagation();
  handleSelectRow(row);
  }}
- className="w-4 h-4 bg-zinc-800 border-zinc-600 text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
+ className="w-4 h-4 bg-[rgba(0,30,80,0.40)] border-zinc-600 text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
  />
  </td>
  )}
@@ -314,7 +314,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  <td
  key={String(column.key)}
  className={cn(
- 'px-4 border-b border-zinc-800/50 text-sm text-zinc-300',
+ 'px-4 border-b border-[rgba(60,160,255,0.08)] text-sm text-zinc-300',
  compact ? 'py-2' : 'py-4',
  column.align === 'center' && 'text-center',
  column.align === 'right' && 'text-right'
@@ -330,7 +330,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  })}
  {actions && (
  <td className={cn(
- 'px-4 border-b border-zinc-800/50',
+ 'px-4 border-b border-[rgba(60,160,255,0.08)]',
  compact ? 'py-2' : 'py-4'
  )}>
  <div onClick={(e) => e.stopPropagation()}>
@@ -385,7 +385,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  'w-8 h-8 text-sm transition-colors',
  currentPage === pageNum
  ? 'bg-blood-600 text-white'
- : 'text-zinc-400 hover:text-white hover:bg-zinc-800'
+ : 'text-zinc-400 hover:text-white hover:bg-[rgba(0,30,80,0.40)]'
  )}
  >
  {pageNum}

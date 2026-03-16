@@ -30,7 +30,7 @@ export default function ScrollProgress({
  }, []);
 
  return (
- <div className={`fixed top-0 left-0 right-0 h-1 bg-zinc-900 z-[100] ${className}`}>
+ <div className={`fixed top-0 left-0 right-0 h-1 bg-[rgba(0,20,55,0.50)] z-[100] ${className}`}>
  <motion.div
  className={`h-full ${color}`}
  style={{ width: `${progress}%` }}

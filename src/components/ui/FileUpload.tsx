@@ -197,7 +197,7 @@ export default function FileUpload({
  'relative border-2 border-dashed p-8 text-center cursor-pointer transition-colors',
  isDragging
  ? 'border-blood-500 bg-blood-900/10'
- : 'border-zinc-700 hover:border-zinc-600',
+ : 'border-[rgba(60,160,255,0.18)] hover:border-zinc-600',
  disabled && 'opacity-50 cursor-not-allowed'
  )}
  >
@@ -252,11 +252,11 @@ export default function FileUpload({
  'flex items-center gap-4 p-3 border',
  uploadFile.status === 'error'
  ? 'border-blood-800 bg-blood-900/20'
- : 'border-zinc-800 bg-zinc-900/50'
+ : 'border-[rgba(60,160,255,0.12)] bg-[rgba(0,20,55,0.40)]'
  )}
  >
  {/* Preview or icon */}
- <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-zinc-800 relative overflow-hidden">
+ <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-[rgba(0,30,80,0.40)] relative overflow-hidden">
  {uploadFile.preview ? (
  <Image
  src={uploadFile.preview}
@@ -363,7 +363,7 @@ export function SimpleFileInput({
  <div
  onClick={() => inputRef.current?.click()}
  className={cn(
- 'relative border-2 border-dashed border-zinc-700 hover:border-zinc-600 cursor-pointer transition-colors overflow-hidden',
+ 'relative border-2 border-dashed border-[rgba(60,160,255,0.18)] hover:border-zinc-600 cursor-pointer transition-colors overflow-hidden',
  className
  )}
  >

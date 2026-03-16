@@ -40,7 +40,7 @@ export default function CategoryContent() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Header */}
-      <div className="border-b border-zinc-800">
+      <div className="border-b border-[rgba(60,160,255,0.12)]">
         <div className="max-w-7xl mx-auto px-6 py-8">
           <Link
             href="/"
@@ -75,7 +75,7 @@ export default function CategoryContent() {
       </div>
 
       {/* Stats Bar */}
-      <div className="border-b border-zinc-800/50 bg-zinc-950/50">
+      <div className="border-b border-[rgba(60,160,255,0.08)] bg-zinc-950/50">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="flex items-center gap-2">
@@ -120,17 +120,17 @@ export default function CategoryContent() {
               >
                 <Link
                   href={`/entities/individuals/${person.slug}`}
-                  className={`block p-4 border bg-zinc-950/50 hover:bg-zinc-900/50 transition-all group ${
+                  className={`block p-4 border bg-zinc-950/50 hover:bg-[rgba(0,20,55,0.40)] transition-all group ${
                     person.riskLevel === 'critical'
                       ? 'border-blood-500/20 hover:border-blood-500/50'
                       : person.riskLevel === 'high'
                       ? 'border-blood-700/20 hover:border-blood-700/50'
-                      : 'border-zinc-800 hover:border-zinc-600'
+                      : 'border-[rgba(60,160,255,0.12)] hover:border-zinc-600'
                   }`}
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex items-start gap-3 flex-1 min-w-0">
-                      <div className="w-10 h-10 bg-zinc-900 flex items-center justify-center flex-shrink-0">
+                      <div className="w-10 h-10 bg-[rgba(0,20,55,0.50)] flex items-center justify-center flex-shrink-0">
                         <User className="w-5 h-5 text-zinc-600 group-hover:text-blood-500 transition-colors" />
                       </div>
                       <div className="min-w-0">
@@ -162,7 +162,7 @@ export default function CategoryContent() {
       </div>
 
       {/* Related Categories Footer */}
-      <div className="border-t border-zinc-800">
+      <div className="border-t border-[rgba(60,160,255,0.12)]">
         <div className="max-w-7xl mx-auto px-6 py-8">
           <h2 className="text-lg font-bold glass-text uppercase tracking-wider mb-4">Other Categories</h2>
           <div className="flex flex-wrap gap-2">
@@ -172,7 +172,7 @@ export default function CategoryContent() {
                 <Link
                   key={slug}
                   href={`/categories/${slug}`}
-                  className="px-3 py-1.5 text-xs border border-zinc-800 text-zinc-400 hover:border-blood-500/50 hover:text-blood-500 transition-colors"
+                  className="px-3 py-1.5 text-xs border border-[rgba(60,160,255,0.12)] text-zinc-400 hover:border-blood-500/50 hover:text-blood-500 transition-colors"
                 >
                   {cat.name}
                   <span className="ml-1.5 text-zinc-600">({cat.individuals.length})</span>

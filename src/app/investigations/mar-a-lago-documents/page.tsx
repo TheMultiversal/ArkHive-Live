@@ -122,7 +122,7 @@ export default function MarALagoDocumentsPage() {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="border-2 border-blood-800/60 bg-black/80 p-6 lg:p-8 mb-8"
+ className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-6 lg:p-8 mb-8"
  >
  <div className="flex items-center gap-3 mb-4">
  <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/20 text-blood-400">
@@ -190,7 +190,7 @@ export default function MarALagoDocumentsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.15 }}
- className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
+ className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Users className="w-5 h-5 text-blood-500"/>
@@ -201,7 +201,7 @@ export default function MarALagoDocumentsPage() {
  <Link
  key={idx}
  href={figure.href}
- className="border border-zinc-700 bg-zinc-900/50 p-4 hover:border-blood-600 transition-colors group"
+ className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-4 hover:border-blood-600 transition-colors group"
  >
  <div className="flex justify-between items-start">
  <div>
@@ -220,7 +220,7 @@ export default function MarALagoDocumentsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.2 }}
- className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
+ className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <AlertTriangle className="w-5 h-5 text-blood-500"/>
@@ -228,7 +228,7 @@ export default function MarALagoDocumentsPage() {
  </h2>
  <div className="space-y-3">
  {investigation.obstructionActs.map((act, idx) => (
- <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
+ <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-4">
  <div className="flex justify-between items-start mb-2">
  <h3 className="font-bold glass-text">{act.act}</h3>
  <span className="text-xs text-blood-500">Evidence: {act.evidence}</span>
@@ -252,7 +252,7 @@ export default function MarALagoDocumentsPage() {
  </h2>
  <div className="space-y-3">
  {investigation.keyEvidence.map((ev, idx) => (
- <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
+ <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-4">
  <h3 className="font-bold text-zinc-300 text-sm">{ev.type}</h3>
  <p className="text-sm text-zinc-300">{ev.description}</p>
  </div>
@@ -265,7 +265,7 @@ export default function MarALagoDocumentsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.3 }}
- className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
+ className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Scale className="w-5 h-5 text-blood-500"/>
@@ -273,7 +273,7 @@ export default function MarALagoDocumentsPage() {
  </h2>
  <div className="space-y-3 max-h-80 overflow-y-auto pr-2">
  {investigation.charges.map((charge, idx) => (
- <div key={idx} className="border border-zinc-700 bg-zinc-900/50 p-4">
+ <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-4">
  <div className="flex justify-between items-start">
  <div>
  <span className="text-blood-500 font-bold mr-2">Count {charge.count}</span>
@@ -292,7 +292,7 @@ export default function MarALagoDocumentsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.35 }}
- className="border-2 border-zinc-800 bg-black/60 p-6 mb-8"
+ className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Calendar className="w-5 h-5 text-blood-500"/>
@@ -300,7 +300,7 @@ export default function MarALagoDocumentsPage() {
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="flex gap-4 border-l-2 border-zinc-700 pl-4 hover:border-blood-500 transition-colors">
+ <div key={idx} className="flex gap-4 border-l-2 border-[rgba(60,160,255,0.18)] pl-4 hover:border-blood-500 transition-colors">
  <span className="text-blood-500 font-mono text-sm whitespace-nowrap min-w-[100px]">{item.date}</span>
  <span className="text-zinc-300">{item.event}</span>
  </div>
@@ -309,16 +309,16 @@ export default function MarALagoDocumentsPage() {
  </motion.div>
 
  
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-zinc-800 bg-black/60 p-6 mb-8">
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  {/* Sources */}
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.4 }}
- className="border-2 border-zinc-800 bg-black/60 p-6"
+ className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
@@ -331,7 +331,7 @@ export default function MarALagoDocumentsPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between border border-zinc-700 bg-zinc-900/50 p-3 hover:border-blood-600 transition-colors group"
+ className="flex items-center justify-between border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-3 hover:border-blood-600 transition-colors group"
  >
  <div>
  <h3 className="text-zinc-300 group-hover:text-blood-500 transition-colors">{source.title}</h3>

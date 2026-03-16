@@ -39,7 +39,7 @@ export default function BackToTop({ showAfter = 400, className = '' }: BackToTop
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.8 }}
  onClick={scrollToTop}
- className={`fixed bottom-8 right-8 z-50 p-3 border-2 border-blood-700 bg-black/90 text-blood-600 hover:bg-blood-950 hover:text-blood-500 transition-colors ${className}`}
+ className={`fixed bottom-8 right-8 z-50 p-3 border-2 border-blood-700 bg-[rgba(0,12,35,0.70)] text-blood-600 hover:bg-blood-950 hover:text-blood-500 transition-colors ${className}`}
  aria-label="Back to top"
  >
  <ArrowUp className="w-5 h-5"/>

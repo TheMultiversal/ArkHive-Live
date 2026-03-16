@@ -174,7 +174,7 @@ function TreeNodeItem({
  'flex items-center gap-1 py-1 px-2 cursor-pointer transition-colors group',
  isSelected
  ? 'bg-blood-500/20 text-blood-400'
- : 'text-zinc-400 hover:bg-zinc-800 hover:text-white',
+ : 'text-zinc-400 hover:bg-[rgba(0,30,80,0.40)] hover:text-white',
  node.disabled && 'opacity-50 cursor-not-allowed'
  )}
  style={{ paddingLeft: `${depth * 16 + 8}px` }}
@@ -221,7 +221,7 @@ function TreeNodeItem({
  onChange={(e) => setEditName(e.target.value)}
  onBlur={handleRename}
  onKeyDown={handleKeyDown}
- className="flex-1 px-1 bg-zinc-800 border border-blood-500 text-white text-sm focus:outline-none"
+ className="flex-1 px-1 bg-[rgba(0,30,80,0.40)] border border-blood-500 text-white text-sm focus:outline-none"
  autoFocus
  onClick={(e) => e.stopPropagation()}
  />
@@ -248,7 +248,7 @@ function TreeNodeItem({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute right-0 top-full mt-1 w-36 bg-zinc-800 border border-zinc-700 shadow-lg z-10"
+ className="absolute right-0 top-full mt-1 w-36 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] shadow-lg z-10"
  onClick={(e) => e.stopPropagation()}
  >
  {isFolder && (
@@ -273,7 +273,7 @@ function TreeNodeItem({
  <FolderPlus className="w-3.5 h-3.5"/>
  New Folder
  </button>
- <div className="border-t border-zinc-700 my-1"/>
+ <div className="border-t border-[rgba(60,160,255,0.18)] my-1"/>
  </>
  )}
  <button
@@ -296,7 +296,7 @@ function TreeNodeItem({
  <Copy className="w-3.5 h-3.5"/>
  Duplicate
  </button>
- <div className="border-t border-zinc-700 my-1"/>
+ <div className="border-t border-[rgba(60,160,255,0.18)] my-1"/>
  <button
  onClick={() => {
  onDelete?.();
@@ -428,9 +428,9 @@ export default function TreeView({
  };
 
  return (
- <div className={cn('bg-zinc-900 border border-zinc-800', className)}>
+ <div className={cn('bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)]', className)}>
  {/* Header */}
- <div className="flex items-center justify-between p-2 border-b border-zinc-800 bg-zinc-800/50">
+ <div className="flex items-center justify-between p-2 border-b border-[rgba(60,160,255,0.12)] bg-[rgba(0,30,80,0.30)]">
  {showSearch ? (
  <div className="flex items-center gap-2 flex-1">
  <Search className="w-4 h-4 text-zinc-500"/>

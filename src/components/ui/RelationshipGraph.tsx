@@ -125,26 +125,26 @@ export default function RelationshipGraph({
  const connectedToHovered = hoveredNode ? getConnectedNodes(hoveredNode) : new Set<string>();
 
  return (
- <div className={`relative bg-zinc-950 border border-zinc-800 overflow-hidden ${className}`}>
+ <div className={`relative bg-[rgba(0,10,30,0.60)] border border-[rgba(60,160,255,0.12)] overflow-hidden ${className}`}>
  {/* Controls */}
  <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
  <button
  onClick={handleZoomIn}
- className="p-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 transition-colors"
+ className="p-2 bg-[rgba(0,20,55,0.50)] hover:bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] transition-colors"
  aria-label="Zoom in"
  >
  <ZoomIn className="w-4 h-4"/>
  </button>
  <button
  onClick={handleZoomOut}
- className="p-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 transition-colors"
+ className="p-2 bg-[rgba(0,20,55,0.50)] hover:bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] transition-colors"
  aria-label="Zoom out"
  >
  <ZoomOut className="w-4 h-4"/>
  </button>
  <button
  onClick={handleResetZoom}
- className="p-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-700 transition-colors"
+ className="p-2 bg-[rgba(0,20,55,0.50)] hover:bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] transition-colors"
  aria-label="Reset view"
  >
  <Maximize2 className="w-4 h-4"/>
@@ -152,7 +152,7 @@ export default function RelationshipGraph({
  </div>
 
  {/* Legend */}
- <div className="absolute bottom-4 left-4 z-10 p-3 bg-zinc-900/90 border border-zinc-800 text-xs">
+ <div className="absolute bottom-4 left-4 z-10 p-3 bg-zinc-900/90 border border-[rgba(60,160,255,0.12)] text-xs">
  <p className="font-bold mb-2 text-zinc-400">Entity Types</p>
  <div className="space-y-1">
  {Object.entries(typeColors).map(([type, color]) => (
@@ -275,7 +275,7 @@ export default function RelationshipGraph({
  initial={{ opacity: 0, y: 10 }}
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: 10 }}
- className="absolute top-4 left-4 p-3 bg-zinc-900 border border-zinc-700 shadow-lg z-20 max-w-xs"
+ className="absolute top-4 left-4 p-3 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] shadow-lg z-20 max-w-xs"
  >
  {(() => {
  const node = nodes.find(n => n.id === hoveredNode);

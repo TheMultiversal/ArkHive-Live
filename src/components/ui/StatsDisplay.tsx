@@ -283,7 +283,7 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
        onClick={() => router.push(topic.href)}
        className={`
         text-left p-3 border-l-2 ${SEVERITY_COLORS[topic.severity]}
-        bg-black/30 border border-zinc-800/50
+        bg-black/30 border border-[rgba(60,160,255,0.08)]
         hover:bg-blood-950/20 hover:border-blood-900/40
         hover:shadow-[0_0_10px_rgba(0,85,184,0.08)]
         active:scale-[0.98]

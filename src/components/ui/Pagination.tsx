@@ -45,7 +45,7 @@ export default function Pagination({
  <button
  onClick={() => onPageChange(currentPage - 1)}
  disabled={currentPage === 1}
- className="p-2 border border-zinc-800 text-zinc-500 hover:border-blood-700 hover:text-blood-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+ className="p-2 border border-[rgba(60,160,255,0.12)] text-zinc-500 hover:border-blood-700 hover:text-blood-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
  aria-label="Previous page"
  >
  <ChevronLeft className="w-4 h-4"/>
@@ -64,7 +64,7 @@ export default function Pagination({
  className={`min-w-[40px] h-10 border text-sm font-medium transition-colors ${
  currentPage === page
  ? 'border-blood-700 bg-blood-950/50 text-blood-500'
- : 'border-zinc-800 text-zinc-500 hover:border-blood-800 hover:text-blood-600'
+ : 'border-[rgba(60,160,255,0.12)] text-zinc-500 hover:border-blood-800 hover:text-blood-600'
  }`}
  aria-label={`Page ${page}`}
  aria-current={currentPage === page ? 'page' : undefined}
@@ -78,7 +78,7 @@ export default function Pagination({
  <button
  onClick={() => onPageChange(currentPage + 1)}
  disabled={currentPage === totalPages}
- className="p-2 border border-zinc-800 text-zinc-500 hover:border-blood-700 hover:text-blood-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+ className="p-2 border border-[rgba(60,160,255,0.12)] text-zinc-500 hover:border-blood-700 hover:text-blood-600 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
  aria-label="Next page"
  >
  <ChevronRight className="w-4 h-4"/>

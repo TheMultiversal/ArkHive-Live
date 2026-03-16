@@ -8,13 +8,13 @@ export default function MethodologyLoading() {
  <div className="max-w-4xl mx-auto px-4">
  {/* Header skeleton */}
  <div className="text-center mb-16">
- <div className="h-12 w-64 bg-zinc-900 animate-pulse mx-auto mb-4"/>
+ <div className="h-12 w-64 bg-[rgba(0,20,55,0.50)] animate-pulse mx-auto mb-4"/>
  <div className="h-6 w-96 bg-zinc-900/60 animate-pulse mx-auto"/>
  </div>
 
  {/* Principles grid */}
  <div className="mb-16">
- <div className="h-8 w-48 bg-zinc-800 animate-pulse mb-8"/>
+ <div className="h-8 w-48 bg-[rgba(0,30,80,0.40)] animate-pulse mb-8"/>
  <div className="grid grid-cols-2 gap-6">
  {[...Array(4)].map((_, i) => (
  <motion.div
@@ -25,7 +25,7 @@ export default function MethodologyLoading() {
  className="glass-card p-6"
  >
  <div className="w-10 h-10 bg-blood-900/30 animate-pulse mb-4"/>
- <div className="h-6 w-32 bg-zinc-800 animate-pulse mb-3"/>
+ <div className="h-6 w-32 bg-[rgba(0,30,80,0.40)] animate-pulse mb-3"/>
  <div className="space-y-2">
  <div className="h-4 w-full bg-zinc-900/60 animate-pulse"/>
  <div className="h-4 w-3/4 bg-zinc-900/60 animate-pulse"/>
@@ -37,7 +37,7 @@ export default function MethodologyLoading() {
 
  {/* Evidence types */}
  <div className="mb-16">
- <div className="h-8 w-40 bg-zinc-800 animate-pulse mb-8"/>
+ <div className="h-8 w-40 bg-[rgba(0,30,80,0.40)] animate-pulse mb-8"/>
  <div className="space-y-4">
  {[...Array(4)].map((_, i) => (
  <motion.div
@@ -49,7 +49,7 @@ export default function MethodologyLoading() {
  >
  <div className="w-12 h-12 bg-blood-900/30 animate-pulse"/>
  <div className="flex-1">
- <div className="h-5 w-40 bg-zinc-800 animate-pulse mb-2"/>
+ <div className="h-5 w-40 bg-[rgba(0,30,80,0.40)] animate-pulse mb-2"/>
  <div className="h-4 w-64 bg-zinc-900/60 animate-pulse"/>
  </div>
  <div className="h-6 w-20 bg-zinc-800/60 animate-pulse"/>
@@ -60,7 +60,7 @@ export default function MethodologyLoading() {
 
  {/* Process steps */}
  <div>
- <div className="h-8 w-32 bg-zinc-800 animate-pulse mb-8"/>
+ <div className="h-8 w-32 bg-[rgba(0,30,80,0.40)] animate-pulse mb-8"/>
  <div className="space-y-6">
  {[...Array(5)].map((_, i) => (
  <motion.div
@@ -72,7 +72,7 @@ export default function MethodologyLoading() {
  >
  <div className="w-12 h-12 bg-blood-600/30 animate-pulse flex-shrink-0"/>
  <div className="flex-1">
- <div className="h-6 w-48 bg-zinc-800 animate-pulse mb-2"/>
+ <div className="h-6 w-48 bg-[rgba(0,30,80,0.40)] animate-pulse mb-2"/>
  <div className="h-4 w-full bg-zinc-900/60 animate-pulse"/>
  </div>
  </motion.div>

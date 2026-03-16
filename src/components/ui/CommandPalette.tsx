@@ -230,7 +230,7 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  exit={{ opacity: 0 }}
- className="fixed inset-0 bg-black/80 z-50"
+ className="fixed inset-0 bg-[rgba(0,12,35,0.65)] z-50"
  onClick={onClose}
  />
 
@@ -242,9 +242,9 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  transition={{ type: 'spring', stiffness: 500, damping: 30 }}
  className="fixed top-[20%] left-1/2 -translate-x-1/2 w-full max-w-lg z-50"
  >
- <div className="bg-zinc-900 border border-zinc-800 shadow-2xl overflow-hidden">
+ <div className="bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] shadow-2xl overflow-hidden">
  {/* Search Input */}
- <div className="flex items-center gap-3 px-4 py-3 border-b border-zinc-800">
+ <div className="flex items-center gap-3 px-4 py-3 border-b border-[rgba(60,160,255,0.12)]">
  <Search className="w-5 h-5 text-zinc-500"/>
  <input
  ref={inputRef}
@@ -256,7 +256,7 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  className="flex-1 bg-transparent text-white placeholder-zinc-500 outline-none text-sm"
  />
  <div className="flex items-center gap-1 text-xs text-zinc-500">
- <kbd className="px-1.5 py-0.5 bg-zinc-800 border border-zinc-700">esc</kbd>
+ <kbd className="px-1.5 py-0.5 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)]">esc</kbd>
  </div>
  <button onClick={onClose} className="text-zinc-500 hover:text-white">
  <X className="w-4 h-4"/>
@@ -272,7 +272,7 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  ) : (
  Object.entries(groupedCommands).map(([category, commands]) => (
  <div key={category}>
- <div className="px-4 py-2 text-xs font-semibold text-zinc-500 uppercase tracking-wider bg-zinc-900/50">
+ <div className="px-4 py-2 text-xs font-semibold text-zinc-500 uppercase tracking-wider bg-[rgba(0,20,55,0.40)]">
  {category}
  </div>
  {commands.map((command) => {
@@ -285,7 +285,7 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  onClick={() => executeCommand(command)}
  className={`
  w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors
- ${isSelected ? 'bg-blood-900/50 text-white' : 'text-zinc-400 hover:bg-zinc-800'}
+ ${isSelected ? 'bg-blood-900/50 text-white' : 'text-zinc-400 hover:bg-[rgba(0,30,80,0.40)]'}
  `}
  >
  <span className={isSelected ? 'text-blood-500' : 'text-zinc-500'}>
@@ -309,15 +309,15 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  </div>
 
  {/* Footer */}
- <div className="px-4 py-2 border-t border-zinc-800 flex items-center justify-between text-xs text-zinc-500">
+ <div className="px-4 py-2 border-t border-[rgba(60,160,255,0.12)] flex items-center justify-between text-xs text-zinc-500">
  <div className="flex items-center gap-4">
  <span className="flex items-center gap-1">
- <kbd className="px-1 py-0.5 bg-zinc-800 border border-zinc-700">↑</kbd>
- <kbd className="px-1 py-0.5 bg-zinc-800 border border-zinc-700">↓</kbd>
+ <kbd className="px-1 py-0.5 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)]">↑</kbd>
+ <kbd className="px-1 py-0.5 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)]">↓</kbd>
  to navigate
  </span>
  <span className="flex items-center gap-1">
- <kbd className="px-1 py-0.5 bg-zinc-800 border border-zinc-700">↵</kbd>
+ <kbd className="px-1 py-0.5 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)]">↵</kbd>
  to select
  </span>
  </div>

@@ -59,14 +59,14 @@ export default function AffiliationsSidebar({
  {/* Overlay */}
  {isOpen && (
  <div
- className="fixed inset-0 bg-black/70 z-40 lg:hidden"
+ className="fixed inset-0 bg-[rgba(0,15,40,0.55)] z-40 lg:hidden"
  onClick={onClose}
  />
  )}
 
  {/* Sidebar */}
  <aside
- className={`fixed top-0 right-0 h-full w-[calc(100vw-3rem)] max-w-80 lg:max-w-96 lg:w-96 glass border-l border-zinc-800/50 z-50 transform transition-transform duration-300 ease-out overflow-y-auto ${
+ className={`fixed top-0 right-0 h-full w-[calc(100vw-3rem)] max-w-80 lg:max-w-96 lg:w-96 glass border-l border-[rgba(60,160,255,0.08)] z-50 transform transition-transform duration-300 ease-out overflow-y-auto ${
  isOpen ?"translate-x-0":"translate-x-full"
  } lg:relative lg:top-auto lg:right-auto lg:h-auto lg:transform-none lg:z-auto`}
  >
@@ -79,7 +79,7 @@ export default function AffiliationsSidebar({
  </h3>
  <button
  onClick={onClose}
- className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-zinc-900 transition-colors"
+ className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-[rgba(0,20,55,0.50)] transition-colors"
  >
  <X className="w-5 h-5"/>
  </button>

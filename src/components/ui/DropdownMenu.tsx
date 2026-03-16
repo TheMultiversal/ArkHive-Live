@@ -176,7 +176,7 @@ export const DropdownContent = forwardRef<HTMLDivElement, DropdownContentProps>(
  transition={{ duration: 0.15 }}
  className={cn(
  'absolute z-50 min-w-[8rem] py-1',
- 'bg-zinc-900 border border-zinc-700 shadow-lg',
+ 'bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] shadow-lg',
  alignmentClasses[align],
  sideClasses[side],
  className
@@ -222,8 +222,8 @@ export const DropdownItem = forwardRef<HTMLButtonElement, DropdownItemProps>(
  onClick={handleClick}
  className={cn(
  'flex items-center w-full px-3 py-2 text-sm text-left transition-colors',
- 'focus:outline-none focus:bg-zinc-800',
- !disabled && 'hover:bg-zinc-800',
+ 'focus:outline-none focus:bg-[rgba(0,30,80,0.40)]',
+ !disabled && 'hover:bg-[rgba(0,30,80,0.40)]',
  destructive && 'text-blood-400 hover:text-blood-400',
  !destructive && 'text-zinc-300 hover:text-white',
  disabled && 'opacity-50 cursor-not-allowed',

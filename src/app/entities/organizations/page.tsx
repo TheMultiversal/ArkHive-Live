@@ -50,12 +50,12 @@ export default function OrganizationsPage() {
         <div className="flex flex-col sm:flex-row gap-4 mb-8">
           <div className="relative flex-1 max-w-md">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
-            <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Search organizations..." className="w-full pl-12 pr-4 py-3 bg-black/60 border-2 border-zinc-800 text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors" />
+            <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Search organizations..." className="w-full pl-12 pr-4 py-3 bg-[rgba(0,15,40,0.50)] border-2 border-[rgba(60,160,255,0.12)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors" />
           </div>
           <div className="flex items-center gap-2 flex-wrap">
             <Filter className="w-4 h-4 text-zinc-500" />
             {(["all", "critical", "high", "medium", "low"] as RiskFilter[]).map((level) => (
-              <button key={level} onClick={() => setRiskFilter(level)} className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${riskFilter === level ? "border-blood-700 bg-blood-900/30 text-white" : "border-zinc-800 bg-transparent text-zinc-500 hover:border-zinc-600"}`}>
+              <button key={level} onClick={() => setRiskFilter(level)} className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${riskFilter === level ? "border-blood-700 bg-blood-900/30 text-white" : "border-[rgba(60,160,255,0.12)] bg-transparent text-zinc-500 hover:border-zinc-600"}`}>
                 {level}
               </button>
             ))}
@@ -90,8 +90,8 @@ export default function OrganizationsPage() {
         </div>
 
         {filtered.length === 0 && (
-          <div className="border border-zinc-800 bg-black/60 p-12 text-center">
-            <div className="w-16 h-16 border-2 border-zinc-700 flex items-center justify-center mx-auto mb-4">
+          <div className="border border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-12 text-center">
+            <div className="w-16 h-16 border-2 border-[rgba(60,160,255,0.18)] flex items-center justify-center mx-auto mb-4">
               <Skull className="w-8 h-8 text-zinc-600" />
             </div>
             <h3 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">No Organizations Found</h3>

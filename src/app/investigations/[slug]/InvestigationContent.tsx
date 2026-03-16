@@ -95,7 +95,7 @@ export default function InvestigationContent() {
                   <AlertTriangle className="w-3 h-3" />
                   {investigationData.severity.toUpperCase()}
                 </span>
-                <span className="px-3 py-1.5 bg-zinc-900 text-zinc-400 text-xs font-medium border border-zinc-800">
+                <span className="px-3 py-1.5 bg-[rgba(0,20,55,0.50)] text-zinc-400 text-xs font-medium border border-[rgba(60,160,255,0.12)]">
                   {investigationData.category}
                 </span>
               </div>
@@ -118,7 +118,7 @@ export default function InvestigationContent() {
               </div>
 
               <div className="flex flex-wrap items-center gap-3">
-                <button className="flex items-center gap-2 px-4 py-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-white text-sm transition-colors">
+                <button className="flex items-center gap-2 px-4 py-2 bg-[rgba(0,20,55,0.50)] hover:bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.12)] text-white text-sm transition-colors">
                   <Share2 className="w-4 h-4" />
                   Share
                 </button>
@@ -143,7 +143,7 @@ export default function InvestigationContent() {
                   className={`flex items-center gap-2 px-4 py-2 border text-sm transition-colors ${
                     saved
                       ? 'bg-blood-700/20 border-blood-700 text-blood-400 hover:bg-blood-700/30'
-                      : 'bg-zinc-900 hover:bg-zinc-800 border-zinc-800 text-white'
+                      : 'bg-[rgba(0,20,55,0.50)] hover:bg-[rgba(0,30,80,0.40)] border-[rgba(60,160,255,0.12)] text-white'
                   }`}
                 >
                   {saved ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
@@ -177,7 +177,7 @@ export default function InvestigationContent() {
               </h3>
               <div className="flex flex-wrap gap-2">
                 {investigationData.tags.map((tag) => (
-                  <Link key={tag} href={`/investigations?tag=${encodeURIComponent(tag)}`} className="px-3 py-1.5 bg-zinc-900 hover:bg-zinc-800 text-zinc-400 text-sm transition-colors">
+                  <Link key={tag} href={`/investigations?tag=${encodeURIComponent(tag)}`} className="px-3 py-1.5 bg-[rgba(0,20,55,0.50)] hover:bg-[rgba(0,30,80,0.40)] text-zinc-400 text-sm transition-colors">
                     {tag}
                   </Link>
                 ))}
@@ -191,7 +191,7 @@ export default function InvestigationContent() {
               </h3>
               <div className="space-y-3">
                 {investigationData.sources.map((source, index) => (
-                  <a key={index} href={source.url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-3 bg-zinc-900/50 hover:bg-zinc-900 transition-colors group">
+                  <a key={index} href={source.url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] hover:bg-[rgba(0,20,55,0.50)] transition-colors group">
                     <div className="flex items-center gap-3">
                       <FileText className="w-5 h-5 text-zinc-500" />
                       <div>

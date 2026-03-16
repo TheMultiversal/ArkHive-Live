@@ -197,7 +197,7 @@ export default function SexualAssaultPage() {
  </div>
 
  {/* Header */}
- <div className="border-b border-zinc-800">
+ <div className="border-b border-[rgba(60,160,255,0.12)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
@@ -211,7 +211,7 @@ export default function SexualAssaultPage() {
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-zinc-800 text-zinc-300 border border-zinc-700">
+ <span className="px-3 py-1 text-xs font-medium bg-[rgba(0,30,80,0.40)] text-zinc-300 border border-[rgba(60,160,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -295,12 +295,12 @@ export default function SexualAssaultPage() {
 
  
  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
- <div className="p-4 bg-zinc-900/50 border border-zinc-800">
+ <div className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <p className="text-xs text-zinc-500 uppercase">Trial 1 - May 2023</p>
  <p className="text-2xl font-black text-blood-500">{investigationData.carrollCase.trial1.award}</p>
  <p className="text-sm text-zinc-400">{investigationData.carrollCase.trial1.findings}</p>
  </div>
- <div className="p-4 bg-zinc-900/50 border border-zinc-800">
+ <div className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <p className="text-xs text-zinc-500 uppercase">Trial 2 - January 2024</p>
  <p className="text-2xl font-black text-blood-500">{investigationData.carrollCase.trial2.award}</p>
  <p className="text-sm text-zinc-400">{investigationData.carrollCase.trial2.findings}</p>
@@ -347,7 +347,7 @@ export default function SexualAssaultPage() {
  </h2>
  <div className="space-y-3">
  {(showAllAccusers ? investigationData.publicAccusers : investigationData.publicAccusers.slice(0, 6)).map((accuser, index) => (
- <div key={index} className="p-3 bg-zinc-900/50 border border-zinc-800">
+ <div key={index} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <div className="flex justify-between items-start">
  <span className="font-medium text-blood-400">{accuser.name}</span>
  <span className="text-xs text-zinc-500">{accuser.outcome}</span>
@@ -385,7 +385,7 @@ export default function SexualAssaultPage() {
  ))}
  </ul>
 
- <blockquote className="text-zinc-400 italic border-l-2 border-zinc-700 pl-4 text-sm">
+ <blockquote className="text-zinc-400 italic border-l-2 border-[rgba(60,160,255,0.18)] pl-4 text-sm">
  {investigationData.pageantMisconduct.howardSternQuote}
  <footer className="text-zinc-500 mt-2">| Donald Trump, Howard Stern Show</footer>
  </blockquote>
@@ -423,7 +423,7 @@ export default function SexualAssaultPage() {
  </h2>
  <div className="space-y-3">
  {investigationData.legalStatus.map((item, index) => (
- <div key={index} className="flex items-center justify-between p-3 bg-zinc-900/50 border border-zinc-800">
+ <div key={index} className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <div>
  <span className="font-medium text-blood-400">{item.case}</span>
  <p className="text-sm text-zinc-500">{item.outcome}</p>
@@ -447,7 +447,7 @@ export default function SexualAssaultPage() {
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-zinc-800">
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(60,160,255,0.12)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -459,12 +459,12 @@ export default function SexualAssaultPage() {
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -481,7 +481,7 @@ export default function SexualAssaultPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-zinc-900/50 hover:bg-zinc-800/50 border border-zinc-800 transition-colors"
+ className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] hover:bg-[rgba(0,30,80,0.30)] border border-[rgba(60,160,255,0.12)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

@@ -253,10 +253,10 @@ function renderMarkdown(markdown: string): string {
  html = html.replace(/~~(.*?)~~/gim, '<del class="text-zinc-500">$1</del>');
 
  // Inline code
- html = html.replace(/`(.*?)`/gim, '<code class="px-1 py-0.5 bg-zinc-800 text-blood-400 font-mono text-sm">$1</code>');
+ html = html.replace(/`(.*?)`/gim, '<code class="px-1 py-0.5 bg-[rgba(0,30,80,0.40)] text-blood-400 font-mono text-sm">$1</code>');
 
  // Code blocks
- html = html.replace(/```([\s\S]*?)```/gim, '<pre class="p-4 bg-zinc-800 overflow-x-auto my-2"><code class="text-sm font-mono text-zinc-300">$1</code></pre>');
+ html = html.replace(/```([\s\S]*?)```/gim, '<pre class="p-4 bg-[rgba(0,30,80,0.40)] overflow-x-auto my-2"><code class="text-sm font-mono text-zinc-300">$1</code></pre>');
 
  // Links
  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/gim, '<a href="$2"class="text-blood-500 hover:underline"target="_blank">$1</a>');
@@ -268,7 +268,7 @@ function renderMarkdown(markdown: string): string {
  html = html.replace(/^> (.*$)/gim, '<blockquote class="border-l-4 border-blood-500 pl-4 py-1 my-2 text-zinc-400">$1</blockquote>');
 
  // Horizontal rules
- html = html.replace(/^---$/gim, '<hr class="border-zinc-700 my-4"/>');
+ html = html.replace(/^---$/gim, '<hr class="border-[rgba(60,160,255,0.18)] my-4"/>');
 
  // Unordered lists
  html = html.replace(/^\- (.*$)/gim, '<li class="ml-4 list-disc text-zinc-300">$1</li>');
@@ -377,13 +377,13 @@ export default function MarkdownEditor({
  }, [value, selection, handleToolbarAction]);
 
  const containerStyle = isFullscreen
- ? 'fixed inset-0 z-50 bg-zinc-900'
+ ? 'fixed inset-0 z-50 bg-[rgba(0,20,55,0.50)]'
  : '';
 
  return (
  <div
  className={cn(
- 'bg-zinc-900 border border-zinc-800 flex flex-col',
+ 'bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] flex flex-col',
  containerStyle,
  className
  )}
@@ -392,7 +392,7 @@ export default function MarkdownEditor({
  >
  {/* Toolbar */}
  {showToolbar && !readOnly && (
- <div className="flex items-center flex-wrap gap-1 p-2 border-b border-zinc-800 bg-zinc-800/50">
+ <div className="flex items-center flex-wrap gap-1 p-2 border-b border-[rgba(60,160,255,0.12)] bg-[rgba(0,30,80,0.30)]">
  {/* Formatting buttons */}
  {toolbarButtons.map((button, index) => (
  <button
@@ -409,7 +409,7 @@ export default function MarkdownEditor({
 
  {/* View mode toggle */}
  {showPreview && (
- <div className="flex items-center border border-zinc-700">
+ <div className="flex items-center border border-[rgba(60,160,255,0.18)]">
  <button
  onClick={() => setViewMode('edit')}
  className={cn(
@@ -516,7 +516,7 @@ export default function MarkdownEditor({
  </div>
 
  {/* Status bar */}
- <div className="flex items-center justify-between px-4 py-2 border-t border-zinc-800 text-xs text-zinc-500">
+ <div className="flex items-center justify-between px-4 py-2 border-t border-[rgba(60,160,255,0.12)] text-xs text-zinc-500">
  <span>
  {value.length} characters • {value.split(/\s+/).filter(Boolean).length} words
  </span>

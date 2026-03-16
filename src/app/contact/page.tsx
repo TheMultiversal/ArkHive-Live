@@ -60,7 +60,7 @@ export default function ContactPage() {
  usePGP: false,
  });
  }}
- className="px-6 py-3 bg-zinc-800 text-white hover:bg-zinc-700 transition-colors"
+ className="px-6 py-3 bg-[rgba(0,30,80,0.40)] text-white hover:bg-zinc-700 transition-colors"
  >
  Send Another Message
  </button>
@@ -95,7 +95,7 @@ export default function ContactPage() {
  className="lg:col-span-1 space-y-6"
  >
  {/* Security Notice */}
- <div className="bg-zinc-900 border border-zinc-800 p-6">
+ <div className="bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] p-6">
  <div className="flex items-center gap-3 mb-4">
  <Shield className="w-6 h-6 text-blood-400"/>
  <h3 className="font-semibold text-white">Secure Contact</h3>
@@ -136,7 +136,7 @@ export default function ContactPage() {
  </div>
 
  {/* PGP Key */}
- <div className="bg-zinc-900 border border-zinc-800 p-6">
+ <div className="bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] p-6">
  <h3 className="font-semibold text-white mb-3">Our PGP Key</h3>
  <code className="block text-xs text-zinc-400 bg-black p-3 break-all">
  Key ID: 0x7A8B9C0D<br />
@@ -155,7 +155,7 @@ export default function ContactPage() {
  transition={{ delay: 0.2 }}
  className="lg:col-span-2"
  >
- <form onSubmit={handleSubmit} className="bg-zinc-900 border border-zinc-800 p-6">
+ <form onSubmit={handleSubmit} className="bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] p-6">
  {error && (
  <div className="mb-6 p-4 bg-blood-900/20 border border-blood-700/50 text-blood-400 text-sm">
  {error}
@@ -170,7 +170,7 @@ export default function ContactPage() {
  <select
  value={formData.type}
  onChange={(e) => setFormData({ ...formData, type: e.target.value })}
- className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 text-white focus:outline-none focus:border-blood-500"
+ className="w-full px-4 py-3 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white focus:outline-none focus:border-blood-500"
  >
  <option value="general">General Inquiry</option>
  <option value="press">Press Inquiry</option>
@@ -188,7 +188,7 @@ export default function ContactPage() {
  type="checkbox"
  checked={formData.isAnonymous}
  onChange={(e) => setFormData({ ...formData, isAnonymous: e.target.checked })}
- className="w-4 h-4 bg-zinc-800 border-zinc-600 text-blood-500 focus:ring-blood-500"
+ className="w-4 h-4 bg-[rgba(0,30,80,0.40)] border-zinc-600 text-blood-500 focus:ring-blood-500"
  />
  <span className="text-sm text-zinc-300">Submit anonymously</span>
  </label>
@@ -210,7 +210,7 @@ export default function ContactPage() {
  type="text"
  value={formData.name}
  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
- className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full px-4 py-3 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  placeholder="Your name"
  />
  </div>
@@ -222,7 +222,7 @@ export default function ContactPage() {
  type="email"
  value={formData.email}
  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
- className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full px-4 py-3 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  placeholder="your@email.com"
  />
  </div>
@@ -238,7 +238,7 @@ export default function ContactPage() {
  type="text"
  value={formData.subject}
  onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
- className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full px-4 py-3 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  placeholder="Brief description of your inquiry"
  required
  />
@@ -253,7 +253,7 @@ export default function ContactPage() {
  value={formData.message}
  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
  rows={6}
- className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
+ className="w-full px-4 py-3 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
  placeholder="Your message..."
  required
  />
@@ -266,7 +266,7 @@ export default function ContactPage() {
  type="checkbox"
  checked={formData.usePGP}
  onChange={(e) => setFormData({ ...formData, usePGP: e.target.checked })}
- className="w-4 h-4 bg-zinc-800 border-zinc-600 text-blood-500 focus:ring-blood-500"
+ className="w-4 h-4 bg-[rgba(0,30,80,0.40)] border-zinc-600 text-blood-500 focus:ring-blood-500"
  />
  <span className="text-sm text-zinc-300">
  Encrypt response with PGP
@@ -279,7 +279,7 @@ export default function ContactPage() {
  </label>
  <textarea
  rows={3}
- className="w-full px-3 py-2 bg-zinc-800 border border-zinc-700 text-white text-xs font-mono focus:outline-none focus:border-blood-500 resize-none"
+ className="w-full px-3 py-2 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white text-xs font-mono focus:outline-none focus:border-blood-500 resize-none"
  placeholder="-----BEGIN PGP PUBLIC KEY BLOCK-----"
  />
  </div>

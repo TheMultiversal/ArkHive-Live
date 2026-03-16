@@ -133,8 +133,8 @@ export default function Dropdown({
  onKeyDown={handleKeyDown}
  disabled={disabled}
  className={cn(
- 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-zinc-900 border text-left transition-colors',
- isOpen ? 'border-blood-500' : 'border-zinc-700 hover:border-zinc-600',
+ 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[rgba(0,20,55,0.50)] border text-left transition-colors',
+ isOpen ? 'border-blood-500' : 'border-[rgba(60,160,255,0.18)] hover:border-zinc-600',
  error && 'border-blood-500',
  disabled && 'opacity-50 cursor-not-allowed'
  )}
@@ -170,17 +170,17 @@ export default function Dropdown({
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: -10 }}
  transition={{ duration: 0.15 }}
- className="absolute z-50 w-full mt-1 bg-zinc-900 border border-zinc-700 shadow-xl max-h-60 overflow-hidden"
+ className="absolute z-50 w-full mt-1 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] shadow-xl max-h-60 overflow-hidden"
  >
  {searchable && (
- <div className="p-2 border-b border-zinc-800">
+ <div className="p-2 border-b border-[rgba(60,160,255,0.12)]">
  <input
  ref={inputRef}
  type="text"
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
  placeholder="Search..."
- className="w-full px-3 py-2 bg-zinc-800 border border-zinc-700 text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full px-3 py-2 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  />
  </div>
  )}
@@ -203,7 +203,7 @@ export default function Dropdown({
  onMouseEnter={() => setHighlightedIndex(index)}
  className={cn(
  'px-4 py-3 cursor-pointer transition-colors flex items-center justify-between',
- index === highlightedIndex && 'bg-zinc-800',
+ index === highlightedIndex && 'bg-[rgba(0,30,80,0.40)]',
  option.value === value && 'bg-blood-900/30',
  option.disabled && 'opacity-50 cursor-not-allowed'
  )}
@@ -285,8 +285,8 @@ export function MultiSelect({
  onClick={() => !disabled && setIsOpen(!isOpen)}
  disabled={disabled}
  className={cn(
- 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-zinc-900 border text-left transition-colors min-h-[48px]',
- isOpen ? 'border-blood-500' : 'border-zinc-700 hover:border-zinc-600',
+ 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[rgba(0,20,55,0.50)] border text-left transition-colors min-h-[48px]',
+ isOpen ? 'border-blood-500' : 'border-[rgba(60,160,255,0.18)] hover:border-zinc-600',
  error && 'border-blood-500',
  disabled && 'opacity-50 cursor-not-allowed'
  )}
@@ -317,13 +317,13 @@ export function MultiSelect({
  initial={{ opacity: 0, y: -10 }}
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: -10 }}
- className="absolute z-50 w-full mt-1 bg-zinc-900 border border-zinc-700 shadow-xl max-h-60 overflow-y-auto"
+ className="absolute z-50 w-full mt-1 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] shadow-xl max-h-60 overflow-y-auto"
  >
  {options.map((option) => (
  <label
  key={option.value}
  className={cn(
- 'flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-zinc-800 transition-colors',
+ 'flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-[rgba(0,30,80,0.40)] transition-colors',
  option.disabled && 'opacity-50 cursor-not-allowed'
  )}
  >
@@ -332,7 +332,7 @@ export function MultiSelect({
  checked={values.includes(option.value)}
  onChange={() => toggleOption(option.value)}
  disabled={option.disabled}
- className="w-4 h-4 rounded border-zinc-600 bg-zinc-800 text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
+ className="w-4 h-4 rounded border-zinc-600 bg-[rgba(0,30,80,0.40)] text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
  />
  <span className="text-white text-sm">{option.label}</span>
  </label>

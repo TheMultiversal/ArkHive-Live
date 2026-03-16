@@ -221,7 +221,7 @@ export default function PardonsPage() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-zinc-800">
+ <div className="border-b border-[rgba(60,160,255,0.12)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
@@ -235,7 +235,7 @@ export default function PardonsPage() {
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-zinc-800 text-zinc-300 border border-zinc-700">
+ <span className="px-3 py-1 text-xs font-medium bg-[rgba(0,30,80,0.40)] text-zinc-300 border border-[rgba(60,160,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -320,7 +320,7 @@ export default function PardonsPage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-zinc-900/50 border border-zinc-800 hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] hover:border-blood-500/50 transition-all"
  >
  <div>
  <span className="font-medium text-blood-400">{figure.name}</span>
@@ -342,7 +342,7 @@ export default function PardonsPage() {
  <h2 className="text-xl font-bold mb-4">Russia Investigation Pardons</h2>
  <div className="space-y-4">
  {investigationData.russiaInvestigationPardons.map((pardon, index) => (
- <div key={index} className="p-4 bg-zinc-900/50 border border-zinc-800">
+ <div key={index} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <div className="flex justify-between items-start mb-2">
  <span className="font-bold text-blood-400">{pardon.name}</span>
  <span className="text-xs text-zinc-500">{pardon.date}</span>
@@ -365,7 +365,7 @@ export default function PardonsPage() {
  <h2 className="text-xl font-bold mb-4">Crony & Ally Pardons</h2>
  <div className="space-y-4">
  {investigationData.cronyPardons.map((pardon, index) => (
- <div key={index} className="p-4 bg-zinc-900/50 border border-zinc-800">
+ <div key={index} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <div className="flex justify-between items-start mb-2">
  <span className="font-bold text-blood-400">{pardon.name}</span>
  <span className="text-xs text-zinc-500">{pardon.date}</span>
@@ -388,7 +388,7 @@ export default function PardonsPage() {
  <h2 className="text-xl font-bold mb-4">War Crimes Pardons</h2>
  <div className="space-y-4">
  {investigationData.warCrimePardons.map((pardon, index) => (
- <div key={index} className="p-4 bg-zinc-900/50 border border-zinc-800">
+ <div key={index} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <div className="flex justify-between items-start mb-2">
  <span className="font-bold text-blood-400">{pardon.name}</span>
  <span className="text-xs text-zinc-500">{pardon.date}</span>
@@ -477,7 +477,7 @@ export default function PardonsPage() {
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-zinc-800">
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(60,160,255,0.12)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -489,12 +489,12 @@ export default function PardonsPage() {
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -511,7 +511,7 @@ export default function PardonsPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-zinc-900/50 hover:bg-zinc-800/50 border border-zinc-800 transition-colors"
+ className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] hover:bg-[rgba(0,30,80,0.30)] border border-[rgba(60,160,255,0.12)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

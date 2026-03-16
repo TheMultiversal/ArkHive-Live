@@ -128,7 +128,7 @@ export default function DominionDefamationPage() {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="border-2 border-blood-800/60 bg-black/80 p-6 lg:p-8 mb-8"
+ className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-6 lg:p-8 mb-8"
  >
  <div className="flex items-center gap-3 mb-4">
  <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/20 text-blood-400">
@@ -158,7 +158,7 @@ export default function DominionDefamationPage() {
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
  {investigation.settlements.map((item, idx) => (
- <div key={idx} className={`p-4 border ${item.type === 'Settlement' ? 'border-blood-500/30 bg-blood-950/30' : item.type === 'Judgment' ? 'border-blood-500/30 bg-blood-950/30' : 'border-zinc-800 bg-zinc-900/30'}`}>
+ <div key={idx} className={`p-4 border ${item.type === 'Settlement' ? 'border-blood-500/30 bg-blood-950/30' : item.type === 'Judgment' ? 'border-blood-500/30 bg-blood-950/30' : 'border-[rgba(60,160,255,0.12)] bg-zinc-900/30'}`}>
  <p className="text-sm text-zinc-400">{item.defendant}</p>
  <p className={`text-2xl font-black ${item.type === 'Pending' ? 'text-zinc-400' : 'text-blood-500'}`}>
  {item.amount}
@@ -196,7 +196,7 @@ export default function DominionDefamationPage() {
  </h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
- <div key={idx} className="flex items-start justify-between p-3 bg-zinc-900/50 border border-zinc-800">
+ <div key={idx} className="flex items-start justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <div className="flex-1">
  {figure.href ? (
  <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">
@@ -231,7 +231,7 @@ export default function DominionDefamationPage() {
  </p>
  <div className="space-y-3">
  {investigation.foxRevelations.map((item, idx) => (
- <div key={idx} className="p-3 bg-zinc-900/50 border-l-2 border-blood-500">
+ <div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border-l-2 border-blood-500">
  <p className="text-sm text-zinc-300">{item}</p>
  </div>
  ))}
@@ -275,7 +275,7 @@ export default function DominionDefamationPage() {
  </h2>
  <div className="space-y-4">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="relative pl-4 border-l-2 border-zinc-800">
+ <div key={idx} className="relative pl-4 border-l-2 border-[rgba(60,160,255,0.12)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -297,19 +297,19 @@ export default function DominionDefamationPage() {
  Damage Caused
  </h3>
  <div className="space-y-3">
- <div className="p-3 bg-zinc-900/50 border border-zinc-800">
+ <div className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <p className="text-blood-400 font-bold text-sm">Dominion</p>
  <p className="text-xs text-zinc-400">{investigation.damage.dominion}</p>
  </div>
- <div className="p-3 bg-zinc-900/50 border border-zinc-800">
+ <div className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <p className="text-blood-400 font-bold text-sm">Election Workers</p>
  <p className="text-xs text-zinc-400">{investigation.damage.workers}</p>
  </div>
- <div className="p-3 bg-zinc-900/50 border border-zinc-800">
+ <div className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <p className="text-blood-400 font-bold text-sm">Democracy</p>
  <p className="text-xs text-zinc-400">{investigation.damage.democracy}</p>
  </div>
- <div className="p-3 bg-zinc-900/50 border border-blood-500/30">
+ <div className="p-3 bg-[rgba(0,20,55,0.40)] border border-blood-500/30">
  <p className="text-blood-400 font-bold text-sm">Fox News Paid</p>
  <p className="text-xs text-zinc-400">{investigation.damage.fox}</p>
  </div>
@@ -329,7 +329,7 @@ export default function DominionDefamationPage() {
  </h3>
  <div className="space-y-3">
  {investigation.charges.map((charge, idx) => (
- <div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800">
+ <div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <p className="text-sm font-bold text-blood-400">{charge.statute}</p>
  <p className="text-xs text-zinc-400 mt-1">{charge.description}</p>
  </div>
@@ -341,7 +341,7 @@ export default function DominionDefamationPage() {
 
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  <motion.div
  initial={{ opacity: 0, x: 20 }}
@@ -359,7 +359,7 @@ export default function DominionDefamationPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-zinc-900/50 transition-colors"
+ className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[rgba(0,20,55,0.40)] transition-colors"
  >
  <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/>
  <div>

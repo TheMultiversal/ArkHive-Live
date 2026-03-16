@@ -7,7 +7,7 @@ export default function AgencyNotFound() {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
  <div className="max-w-lg mx-auto px-4 text-center">
- <div className="border-2 border-blood-800/60 bg-black/80 p-12">
+ <div className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-12">
  {/* Icon */}
  <div className="w-24 h-24 mx-auto mb-8 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
  <Landmark className="w-12 h-12 text-blood-600"/>
@@ -45,7 +45,7 @@ export default function AgencyNotFound() {
  </Link>
  <Link
  href="/"
- className="flex items-center gap-2 px-6 py-3 border-2 border-zinc-700 text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
+ className="flex items-center gap-2 px-6 py-3 border-2 border-[rgba(60,160,255,0.18)] text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
  >
  <Home className="w-5 h-5"/>
  Return Home

@@ -308,7 +308,7 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  exit={{ opacity: 0 }}
- className="absolute inset-0 bg-black/80 flex items-center justify-center p-4 z-50"
+ className="absolute inset-0 bg-[rgba(0,12,35,0.65)] flex items-center justify-center p-4 z-50"
  onClick={onClose}
  >
  <motion.div

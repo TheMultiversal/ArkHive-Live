@@ -44,7 +44,7 @@ export default function Footer() {
  };
 
  return (
- <footer className="relative z-20 mt-auto border-t border-blood-900/40 bg-black/95">
+ <footer className="relative z-20 mt-auto border-t border-[rgba(60,160,255,0.15)] bg-gradient-to-b from-[rgba(0,20,55,0.50)] to-[rgba(0,10,30,0.70)] gloss">
  {/* Top accent line */}
  <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-blood-600/50 to-transparent"/>
 
@@ -55,12 +55,12 @@ export default function Footer() {
  <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-4 lg:mb-0">
  <Link href="/"className="flex items-center gap-3 mb-4 group">
  <div className="relative">
- <div className="relative w-10 h-10 bg-gradient-to-br from-blood-700 to-blood-900 flex items-center justify-center border border-blood-800/50">
+ <div className="relative w-10 h-10 bg-gradient-to-br from-[rgba(0,60,140,0.5)] to-[rgba(0,30,80,0.7)] flex items-center justify-center border border-[rgba(60,160,255,0.25)] gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.1)'}}>
  <Eye className="w-5 h-5 text-white"/>
  </div>
  </div>
  <div>
- <h3 className="text-lg font-black tracking-tight bg-gradient-to-r from-blood-500 to-blood-700 bg-clip-text text-transparent">ARKHIVE</h3>
+ <h3 className="text-lg font-black tracking-tight glass-text">ARKHIVE</h3>
  <p className="text-[10px] tracking-[0.15em] text-blood-600/70 uppercase">Truth Archive</p>
  </div>
  </Link>

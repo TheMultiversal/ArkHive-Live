@@ -631,9 +631,9 @@ function NotificationCard({
  exit={{ opacity: 0, x: 20 }}
  className={`p-4 border-l-2 ${
  notification.read 
- ? 'border-zinc-700 bg-transparent' 
+ ? 'border-[rgba(60,160,255,0.18)] bg-transparent' 
  : 'border-blood-500 bg-blood-500/5'
- } hover:bg-zinc-900/50 transition-colors relative group`}
+ } hover:bg-[rgba(0,20,55,0.40)] transition-colors relative group`}
  >
  <div className="flex gap-4">
  <div className={`p-2 h-fit ${typeColors[notification.type]}`}>
@@ -668,7 +668,7 @@ function NotificationCard({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute right-0 top-full mt-1 w-36 glass border border-zinc-700 py-1 z-10"
+ className="absolute right-0 top-full mt-1 w-36 glass border border-[rgba(60,160,255,0.18)] py-1 z-10"
  >
  {!notification.read && (
  <button
@@ -676,7 +676,7 @@ function NotificationCard({
  onMarkRead(notification.id);
  setShowMenu(false);
  }}
- className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-zinc-800 flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[rgba(0,30,80,0.40)] flex items-center gap-2"
  >
  <Check className="w-3 h-3"/>
  Mark as read
@@ -685,7 +685,7 @@ function NotificationCard({
  {notification.actionUrl && (
  <a
  href={notification.actionUrl}
- className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-zinc-800 flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[rgba(0,30,80,0.40)] flex items-center gap-2"
  >
  <Eye className="w-3 h-3"/>
  View details
@@ -696,7 +696,7 @@ function NotificationCard({
  onDelete(notification.id);
  setShowMenu(false);
  }}
- className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-zinc-800 flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[rgba(0,30,80,0.40)] flex items-center gap-2"
  >
  <Trash2 className="w-3 h-3"/>
  Delete
@@ -821,7 +821,7 @@ export default function NotificationsPage() {
  <select
  value={typeFilter}
  onChange={(e) => setTypeFilter(e.target.value)}
- className="px-3 py-2 bg-zinc-900 border border-zinc-700 text-white text-sm focus:outline-none focus:border-blood-500"
+ className="px-3 py-2 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] text-white text-sm focus:outline-none focus:border-blood-500"
  >
  <option value="all">All types</option>
  <option value="alert">Alerts</option>

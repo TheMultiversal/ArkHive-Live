@@ -82,7 +82,7 @@ export default function Modal({
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  exit={{ opacity: 0 }}
- className="absolute inset-0 bg-black/80"
+ className="absolute inset-0 bg-[rgba(0,12,35,0.65)]"
  onClick={handleBackdropClick}
  />
 
@@ -105,7 +105,7 @@ export default function Modal({
  >
  {/* Header */}
  {title && (
- <div className="flex items-center justify-between p-4 border-b border-zinc-800">
+ <div className="flex items-center justify-between p-4 border-b border-[rgba(60,160,255,0.12)]">
  <h2
  id="modal-title"
  className="text-lg font-bold glass-text uppercase tracking-wider"

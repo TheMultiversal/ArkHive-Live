@@ -190,10 +190,10 @@ function DayCell({
  <div
  onClick={onSelect}
  className={cn(
- 'min-h-[100px] p-1 border-b border-r border-zinc-800 cursor-pointer transition-colors group',
- !isCurrentMonth && 'bg-zinc-900/50',
+ 'min-h-[100px] p-1 border-b border-r border-[rgba(60,160,255,0.12)] cursor-pointer transition-colors group',
+ !isCurrentMonth && 'bg-[rgba(0,20,55,0.40)]',
  isSelected && 'ring-2 ring-inset ring-blood-500',
- 'hover:bg-zinc-800/50'
+ 'hover:bg-[rgba(0,30,80,0.30)]'
  )}
  >
  <div className="flex items-center justify-between mb-1">
@@ -251,7 +251,7 @@ function DayCell({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute z-20 bg-zinc-800 border border-zinc-700 p-2 shadow-lg min-w-[200px]"
+ className="absolute z-20 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] p-2 shadow-lg min-w-[200px]"
  onClick={(e) => e.stopPropagation()}
  >
  <div className="flex items-center justify-between mb-2">
@@ -345,20 +345,20 @@ export default function Calendar({
  };
 
  return (
- <div className={cn('bg-zinc-900 border border-zinc-800', className)}>
+ <div className={cn('bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)]', className)}>
  {/* Header */}
- <div className="flex items-center justify-between p-4 border-b border-zinc-800">
+ <div className="flex items-center justify-between p-4 border-b border-[rgba(60,160,255,0.12)]">
  <div className="flex items-center gap-4">
  <div className="flex items-center gap-1">
  <button
  onClick={() => navigateMonth(-1)}
- className="p-2 text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors"
+ className="p-2 text-zinc-400 hover:text-white hover:bg-[rgba(0,30,80,0.40)] transition-colors"
  >
  <ChevronLeft className="w-4 h-4"/>
  </button>
  <button
  onClick={() => navigateMonth(1)}
- className="p-2 text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors"
+ className="p-2 text-zinc-400 hover:text-white hover:bg-[rgba(0,30,80,0.40)] transition-colors"
  >
  <ChevronRight className="w-4 h-4"/>
  </button>
@@ -372,13 +372,13 @@ export default function Calendar({
  <div className="flex items-center gap-2">
  <button
  onClick={goToToday}
- className="px-3 py-1.5 text-sm text-zinc-300 hover:text-white bg-zinc-800 hover:bg-zinc-700 transition-colors"
+ className="px-3 py-1.5 text-sm text-zinc-300 hover:text-white bg-[rgba(0,30,80,0.40)] hover:bg-zinc-700 transition-colors"
  >
  Today
  </button>
 
  {/* View selector */}
- <div className="flex items-center border border-zinc-700">
+ <div className="flex items-center border border-[rgba(60,160,255,0.18)]">
  <button
  className={cn(
  'px-3 py-1.5 text-sm transition-colors',
@@ -416,7 +416,7 @@ export default function Calendar({
  {/* Day headers */}
  <div
  className={cn(
- 'grid border-b border-zinc-800',
+ 'grid border-b border-[rgba(60,160,255,0.12)]',
  showWeekNumbers ? 'grid-cols-8' : 'grid-cols-7'
  )}
  >
@@ -426,7 +426,7 @@ export default function Calendar({
  {dayNames.map((day) => (
  <div
  key={day}
- className="p-2 text-xs text-zinc-500 text-center border-r border-zinc-800 last:border-r-0"
+ className="p-2 text-xs text-zinc-500 text-center border-r border-[rgba(60,160,255,0.12)] last:border-r-0"
  >
  {day}
  </div>
@@ -450,7 +450,7 @@ export default function Calendar({
  {showWeekNum && (
  <div
  key={`week-${index}`}
- className="p-1 text-[10px] text-zinc-600 text-center border-b border-r border-zinc-800 flex items-center justify-center"
+ className="p-1 text-[10px] text-zinc-600 text-center border-b border-r border-[rgba(60,160,255,0.12)] flex items-center justify-center"
  >
  {getWeekNumber(day.date)}
  </div>

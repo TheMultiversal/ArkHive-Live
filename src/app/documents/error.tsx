@@ -57,7 +57,7 @@ export default function DocumentsError({ error, reset }: ErrorProps) {
  
  <Link
  href="/"
- className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-zinc-700 text-zinc-300 font-medium hover:border-blood-700 hover:text-white transition-colors"
+ className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-[rgba(60,160,255,0.18)] text-zinc-300 font-medium hover:border-blood-700 hover:text-white transition-colors"
  >
  <ChevronLeft className="w-4 h-4"/>
  Back to Home

@@ -4907,7 +4907,7 @@ export default function CorporationContent() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-zinc-800">
+ <div className="border-b border-[rgba(60,160,255,0.12)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <Link 
  href="/entities/corporations"
@@ -4925,7 +4925,7 @@ export default function CorporationContent() {
  {corporation.riskLevel} risk
  </span>
  {corporation.ticker && (
- <span className="px-3 py-1 text-xs font-mono bg-zinc-800 text-zinc-300">
+ <span className="px-3 py-1 text-xs font-mono bg-[rgba(0,30,80,0.40)] text-zinc-300">
  {corporation.ticker}
  </span>
  )}
@@ -4941,7 +4941,7 @@ export default function CorporationContent() {
  href={corporation.website}
  target="_blank"
  rel="noopener noreferrer"
- className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-800 hover:bg-zinc-700 transition-colors text-sm"
+ className="inline-flex items-center gap-2 px-4 py-2 bg-[rgba(0,30,80,0.40)] hover:bg-zinc-700 transition-colors text-sm"
  >
  <Globe className="w-4 h-4"/>
  Official Website
@@ -5003,7 +5003,7 @@ export default function CorporationContent() {
  </h2>
  <div className="flex flex-wrap gap-2">
  {corporation.subsidiaries.map((sub, index) => (
- <span key={index} className="px-3 py-1 bg-zinc-800 border border-zinc-700 text-sm">
+ <span key={index} className="px-3 py-1 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-sm">
  {sub}
  </span>
  ))}
@@ -5023,7 +5023,7 @@ export default function CorporationContent() {
  <Link
  key={investigation.slug}
  href={`/investigations/${investigation.slug}`}
- className="flex items-center justify-between p-4 bg-zinc-900/50 hover:bg-zinc-800/50 border border-zinc-800 hover:border-blood-500/30 transition-all"
+ className="flex items-center justify-between p-4 bg-[rgba(0,20,55,0.40)] hover:bg-[rgba(0,30,80,0.30)] border border-[rgba(60,160,255,0.12)] hover:border-blood-500/30 transition-all"
  >
  <span className="font-medium">{investigation.title}</span>
  <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[investigation.severity as keyof typeof severityColors]}`}>

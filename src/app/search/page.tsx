@@ -137,7 +137,7 @@ export default function SearchPage() {
  value={query}
  onChange={(e) => setQuery(e.target.value)}
  placeholder="Search investigations, entities, documents..."
- className="w-full pl-12 pr-12 py-4 bg-zinc-900 border border-zinc-800 text-white text-lg placeholder-zinc-500 focus:outline-none focus:border-blood-500 transition-colors"
+ className="w-full pl-12 pr-12 py-4 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] text-white text-lg placeholder-zinc-500 focus:outline-none focus:border-blood-500 transition-colors"
  autoFocus
  />
  {query && (
@@ -163,7 +163,7 @@ export default function SearchPage() {
  'px-4 py-2 text-sm font-medium transition-colors',
  resultType === type
  ? 'bg-blood-600 text-white'
- : 'bg-zinc-900 text-zinc-400 hover:text-white hover:bg-zinc-800'
+ : 'bg-[rgba(0,20,55,0.50)] text-zinc-400 hover:text-white hover:bg-[rgba(0,30,80,0.40)]'
  )}
  >
  {type.charAt(0).toUpperCase() + type.slice(1)}
@@ -180,7 +180,7 @@ export default function SearchPage() {
  'flex items-center gap-2 px-4 py-2 text-sm transition-colors',
  showFilters
  ? 'bg-blood-600 text-white'
- : 'bg-zinc-900 text-zinc-400 hover:text-white'
+ : 'bg-[rgba(0,20,55,0.50)] text-zinc-400 hover:text-white'
  )}
  >
  <SlidersHorizontal className="w-4 h-4"/>
@@ -190,19 +190,19 @@ export default function SearchPage() {
  <select
  value={sortBy}
  onChange={(e) => setSortBy(e.target.value as SortOption)}
- className="px-4 py-2 bg-zinc-900 border border-zinc-800 text-zinc-300 text-sm focus:outline-none focus:border-blood-500"
+ className="px-4 py-2 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] text-zinc-300 text-sm focus:outline-none focus:border-blood-500"
  >
  <option value="relevance">Sort by Relevance</option>
  <option value="date">Sort by Date</option>
  <option value="severity">Sort by Severity</option>
  </select>
 
- <div className="flex border border-zinc-800">
+ <div className="flex border border-[rgba(60,160,255,0.12)]">
  <button
  onClick={() => setViewMode('list')}
  className={cn(
  'p-2 transition-colors',
- viewMode === 'list' ? 'bg-zinc-800 text-white' : 'text-zinc-500 hover:text-white'
+ viewMode === 'list' ? 'bg-[rgba(0,30,80,0.40)] text-white' : 'text-zinc-500 hover:text-white'
  )}
  >
  <List className="w-5 h-5"/>
@@ -211,7 +211,7 @@ export default function SearchPage() {
  onClick={() => setViewMode('grid')}
  className={cn(
  'p-2 transition-colors',
- viewMode === 'grid' ? 'bg-zinc-800 text-white' : 'text-zinc-500 hover:text-white'
+ viewMode === 'grid' ? 'bg-[rgba(0,30,80,0.40)] text-white' : 'text-zinc-500 hover:text-white'
  )}
  >
  <Grid className="w-5 h-5"/>
@@ -226,7 +226,7 @@ export default function SearchPage() {
  initial={{ height: 0, opacity: 0 }}
  animate={{ height: 'auto', opacity: 1 }}
  exit={{ height: 0, opacity: 0 }}
- className="bg-zinc-900 border border-zinc-800 p-6 mb-6"
+ className="bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] p-6 mb-6"
  >
  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
  {/* Date Range */}
@@ -240,13 +240,13 @@ export default function SearchPage() {
  type="date"
  value={dateRange.from}
  onChange={(e) => setDateRange({ ...dateRange, from: e.target.value })}
- className="flex-1 px-3 py-2 bg-zinc-800 border border-zinc-700 text-white text-sm"
+ className="flex-1 px-3 py-2 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white text-sm"
  />
  <input
  type="date"
  value={dateRange.to}
  onChange={(e) => setDateRange({ ...dateRange, to: e.target.value })}
- className="flex-1 px-3 py-2 bg-zinc-800 border border-zinc-700 text-white text-sm"
+ className="flex-1 px-3 py-2 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white text-sm"
  />
  </div>
  </div>
@@ -261,7 +261,7 @@ export default function SearchPage() {
  {['critical', 'high', 'medium', 'low'].map((sev) => (
  <button
  key={sev}
- className="px-3 py-1 text-xs bg-zinc-800 text-zinc-300 hover:bg-zinc-700 capitalize"
+ className="px-3 py-1 text-xs bg-[rgba(0,30,80,0.40)] text-zinc-300 hover:bg-zinc-700 capitalize"
  >
  {sev}
  </button>
@@ -279,7 +279,7 @@ export default function SearchPage() {
  {['agency', 'corporation', 'individual'].map((type) => (
  <button
  key={type}
- className="px-3 py-1 text-xs bg-zinc-800 text-zinc-300 hover:bg-zinc-700 capitalize"
+ className="px-3 py-1 text-xs bg-[rgba(0,30,80,0.40)] text-zinc-300 hover:bg-zinc-700 capitalize"
  >
  {type}
  </button>
@@ -373,12 +373,12 @@ function SearchResultCard({
  <Link
  href={getLink()}
  className={cn(
- 'block bg-zinc-900/50 border border-zinc-800 p-4 hover:border-blood-500/50 transition-colors group',
+ 'block bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] p-4 hover:border-blood-500/50 transition-colors group',
  viewMode === 'list' && 'flex gap-4'
  )}
  >
  <div className={cn(
- 'flex items-center justify-center bg-zinc-800 text-zinc-400 group-hover:text-blood-500 transition-colors',
+ 'flex items-center justify-center bg-[rgba(0,30,80,0.40)] text-zinc-400 group-hover:text-blood-500 transition-colors',
  viewMode === 'grid' ? 'w-full h-24 mb-4' : 'w-12 h-12 flex-shrink-0'
  )}>
  {getIcon()}
@@ -386,7 +386,7 @@ function SearchResultCard({
 
  <div className="flex-1 min-w-0">
  <div className="flex items-center gap-2 mb-1">
- <span className="text-xs px-2 py-0.5 bg-zinc-800 text-zinc-400 capitalize">
+ <span className="text-xs px-2 py-0.5 bg-[rgba(0,30,80,0.40)] text-zinc-400 capitalize">
  {result.type}
  </span>
  {result.severity && (

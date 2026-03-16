@@ -37,8 +37,8 @@ export default function Header() {
  <header
  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
  scrolled
- ?"bg-black/95 border-b border-blood-900/60 shadow-[0_4px_30px_rgba(0,85,184,0.08)]"
- :"bg-black/80 border-b border-blood-900/20"
+ ?"bg-gradient-to-b from-[rgba(0,30,80,0.65)] to-[rgba(0,15,45,0.80)] border-b border-[rgba(60,160,255,0.2)] shadow-[0_4px_30px_rgba(0,100,220,0.1)] gloss"
+ :"bg-gradient-to-b from-[rgba(0,20,55,0.40)] to-[rgba(0,10,35,0.55)] border-b border-blood-900/20"
  }`}
  >
  {/* Top accent line */}
@@ -109,7 +109,7 @@ export default function Header() {
  {/* Submit Intel */}
  <Link
  href="/submit"
- className="hidden sm:flex items-center gap-2 px-4 py-2 bg-blood-800 hover:bg-blood-700 text-white text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-blood-700/50 shadow-[0_0_15px_rgba(0,85,184,0.15)] hover:shadow-[0_0_25px_rgba(0,85,184,0.3)]"
+ className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[rgba(0,60,140,0.5)] to-[rgba(0,30,80,0.7)] hover:from-[rgba(0,80,180,0.6)] hover:to-[rgba(0,40,100,0.8)] text-white text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(60,160,255,0.3)] hover:border-[rgba(60,160,255,0.5)] shadow-[0_0_15px_rgba(0,100,220,0.15)] hover:shadow-[0_0_25px_rgba(0,100,220,0.3)] gloss-hover"
  >
  <Zap className="w-3.5 h-3.5"/>
  <span>Submit Intel</span>
@@ -118,7 +118,7 @@ export default function Header() {
  {/* Contribute */}
  <Link
  href="/contributor"
- className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-zinc-800 hover:border-blood-800/50 hover:bg-blood-900/10 transition-all duration-200"
+ className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-[rgba(60,160,255,0.12)] hover:border-blood-800/50 hover:bg-blood-900/10 transition-all duration-200"
  >
  <UserPlus className="w-3.5 h-3.5"/>
  <span>Contribute</span>
@@ -137,7 +137,7 @@ export default function Header() {
 
  {/* Mobile Menu */}
  {isMenuOpen && (
- <div className="lg:hidden bg-black/98 border-t border-blood-900/30">
+ <div className="lg:hidden bg-[rgba(0,8,25,0.80)] border-t border-blood-900/30">
  <nav className="max-w-7xl mx-auto px-4 py-3 space-y-0.5">
  {navLinks.map((link, index) => {
  const active = isActive(link.href);
@@ -168,7 +168,7 @@ export default function Header() {
  <Link
  href="/contributor"
  onClick={() => setIsMenuOpen(false)}
- className="flex items-center gap-2 px-4 py-3 mt-1 border border-zinc-800 text-zinc-400 hover:text-white text-sm font-semibold uppercase tracking-wider transition-colors"
+ className="flex items-center gap-2 px-4 py-3 mt-1 border border-[rgba(60,160,255,0.12)] text-zinc-400 hover:text-white text-sm font-semibold uppercase tracking-wider transition-colors"
  >
  <UserPlus className="w-4 h-4"/>
  <span>Contribute</span>

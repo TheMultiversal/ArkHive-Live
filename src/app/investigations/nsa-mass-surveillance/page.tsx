@@ -384,7 +384,7 @@ export default function NSAMassSurveillancePage() {
     </Link>
 
     {/* Header */}
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="border-2 border-blood-800/60 bg-black/80 p-6 lg:p-8 mb-8">
+    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-6 lg:p-8 mb-8">
      <div className="flex items-center gap-3 mb-4">
       <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigation.severity]}`}>{investigation.severity}</span>
       <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-500/30 bg-zinc-500/20 text-zinc-400">{investigation.status}</span>
@@ -411,10 +411,10 @@ export default function NSAMassSurveillancePage() {
      <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Eye className="w-5 h-5 text-blood-500" />Surveillance Programs Exposed</h2>
      <div className="space-y-4">
       {investigation.surveillancePrograms.map((prog, idx) => (
-       <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
+       <div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
         <div className="flex items-start justify-between mb-2">
          <h3 className="font-bold text-blood-400 text-sm font-mono">{prog.name}</h3>
-         <span className="text-[10px] font-mono text-zinc-600 bg-zinc-900 px-2 py-0.5 border border-zinc-800 ml-2 whitespace-nowrap">{prog.classification}</span>
+         <span className="text-[10px] font-mono text-zinc-600 bg-[rgba(0,20,55,0.50)] px-2 py-0.5 border border-[rgba(60,160,255,0.12)] ml-2 whitespace-nowrap">{prog.classification}</span>
         </div>
         <p className="text-xs text-zinc-500 font-mono mb-2">Active: {prog.dateActive}</p>
         <p className="text-sm text-zinc-300 mb-2">{prog.description}</p>
@@ -426,12 +426,12 @@ export default function NSAMassSurveillancePage() {
     </motion.div>
 
     {/* Five Eyes Alliance */}
-    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="glass-card p-6 mb-8 border-l-4 border-[rgba(60,160,255,0.18)]">
      <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Globe className="w-5 h-5 text-blood-500" />Five Eyes Alliance</h2>
      <p className="text-sm text-zinc-400 mb-4">{investigation.fiveEyes.overview}</p>
      <div className="space-y-3">
       {investigation.fiveEyes.members.map((member, idx) => (
-       <div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800">
+       <div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
         <h3 className="font-bold glass-text text-sm">{member.nation}</h3>
         <p className="text-sm text-zinc-300 mt-1">{member.role}</p>
         <p className="text-xs text-zinc-500 mt-1 font-mono">Programs: {member.programs}</p>
@@ -450,7 +450,7 @@ export default function NSAMassSurveillancePage() {
        <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Users className="w-5 h-5 text-blood-500" />Key Figures</h2>
        <div className="space-y-3">
         {investigation.keyFigures.map((figure, idx) => (
-         <div key={idx} className="flex items-start justify-between p-3 bg-zinc-900/50 border border-zinc-800">
+         <div key={idx} className="flex items-start justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
           <div className="flex-1">
            {figure.href ? (
             <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">{figure.name}</Link>
@@ -459,7 +459,7 @@ export default function NSAMassSurveillancePage() {
            )}
            <p className="text-sm text-zinc-400 mt-1">{figure.role}</p>
           </div>
-          <span className="text-xs px-2 py-1 bg-zinc-800 text-zinc-400 border border-zinc-700 whitespace-nowrap ml-2">{figure.status}</span>
+          <span className="text-xs px-2 py-1 bg-[rgba(0,30,80,0.40)] text-zinc-400 border border-[rgba(60,160,255,0.18)] whitespace-nowrap ml-2">{figure.status}</span>
          </div>
         ))}
        </div>
@@ -470,7 +470,7 @@ export default function NSAMassSurveillancePage() {
        <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Building className="w-5 h-5 text-blood-500" />Corporate Complicity</h2>
        <div className="space-y-3">
         {investigation.corporateComplicity.map((corp, idx) => (
-         <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
+         <div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
           <div className="flex items-start justify-between mb-1">
            {corp.href ? (
             <Link href={corp.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors text-sm">{corp.company}</Link>
@@ -490,7 +490,7 @@ export default function NSAMassSurveillancePage() {
        <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Network className="w-5 h-5 text-blood-500" />Institutional Connections</h2>
        <div className="space-y-3">
         {investigation.institutionalConnections.map((inst, idx) => (
-         <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
+         <div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
           <div className="flex items-start justify-between mb-1">
            {inst.href ? (
             <Link href={inst.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors text-sm">{inst.entity}</Link>
@@ -522,7 +522,7 @@ export default function NSAMassSurveillancePage() {
        <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Applicable Charges &amp; Statutes</h2>
        <div className="space-y-3">
         {investigation.charges.map((charge, idx) => (
-         <div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800">
+         <div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
           <p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p>
           <p className="text-sm text-zinc-300 mt-1">{charge.description}</p>
           <p className="text-xs text-blood-400 mt-1">{charge.count}</p>
@@ -541,7 +541,7 @@ export default function NSAMassSurveillancePage() {
        <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Calendar className="w-4 h-4 text-blood-500" />Timeline</h3>
        <div className="space-y-4">
         {investigation.timeline.map((item, idx) => (
-         <div key={idx} className="relative pl-4 border-l-2 border-zinc-800">
+         <div key={idx} className="relative pl-4 border-l-2 border-[rgba(60,160,255,0.12)]">
           <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500" />
           <p className="text-xs text-blood-500 font-mono">{item.date}</p>
           <p className="text-sm text-zinc-300">{item.event}</p>
@@ -555,7 +555,7 @@ export default function NSAMassSurveillancePage() {
        <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500" />Legal Outcomes</h3>
        <div className="space-y-3">
         {investigation.legalOutcomes.map((item, idx) => (
-         <div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800">
+         <div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
           <p className="font-bold glass-text text-sm">{item.defendant}</p>
           <p className="text-xs text-zinc-400 mt-1">{item.charge}</p>
           <p className="text-xs text-blood-400 mt-1">{item.outcome}</p>
@@ -569,7 +569,7 @@ export default function NSAMassSurveillancePage() {
        <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><BookOpen className="w-4 h-4 text-blood-500" />Sources</h3>
        <div className="space-y-2">
         {investigation.sources.map((source, idx) => (
-         <a key={idx} href={source.url} target="_blank" rel="noopener noreferrer" className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-zinc-900/50 transition-colors">
+         <a key={idx} href={source.url} target="_blank" rel="noopener noreferrer" className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[rgba(0,20,55,0.40)] transition-colors">
           <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0" />
           <div>
            <span>{source.title}</span>

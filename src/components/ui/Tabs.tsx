@@ -61,9 +61,9 @@ interface TabListProps {
 
 export function TabList({ children, variant = 'default', className }: TabListProps) {
  const variantClasses = {
- default: 'flex gap-1 p-1 bg-zinc-900 border border-zinc-800',
+ default: 'flex gap-1 p-1 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)]',
  pills: 'flex gap-2',
- underline: 'flex gap-6 border-b border-zinc-800',
+ underline: 'flex gap-6 border-b border-[rgba(60,160,255,0.12)]',
  };
 
  return (
@@ -104,14 +104,14 @@ export function Tab({
  'px-4 py-2 text-sm',
  isActive
  ? 'bg-blood-900/50 text-white'
- : 'text-zinc-400 hover:text-white hover:bg-zinc-800/50',
+ : 'text-zinc-400 hover:text-white hover:bg-[rgba(0,30,80,0.30)]',
  disabled && 'opacity-50 cursor-not-allowed'
  ),
  pills: cn(
  'px-4 py-2 text-sm border',
  isActive
  ? 'bg-blood-700 border-blood-600 text-white'
- : 'bg-transparent border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-600',
+ : 'bg-transparent border-[rgba(60,160,255,0.18)] text-zinc-400 hover:text-white hover:border-zinc-600',
  disabled && 'opacity-50 cursor-not-allowed'
  ),
  underline: cn(

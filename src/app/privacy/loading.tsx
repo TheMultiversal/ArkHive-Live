@@ -8,7 +8,7 @@ export default function PrivacyLoading() {
  <div className="max-w-3xl mx-auto px-4">
  {/* Header skeleton */}
  <div className="mb-12">
- <div className="h-10 w-48 bg-zinc-900 animate-pulse mb-4"/>
+ <div className="h-10 w-48 bg-[rgba(0,20,55,0.50)] animate-pulse mb-4"/>
  <div className="h-4 w-40 bg-zinc-900/60 animate-pulse"/>
  </div>
 
@@ -23,7 +23,7 @@ export default function PrivacyLoading() {
  >
  <div className="flex items-center gap-3 mb-4">
  <div className="w-6 h-6 bg-blood-900/30 animate-pulse"/>
- <div className="h-7 w-48 bg-zinc-800 animate-pulse"/>
+ <div className="h-7 w-48 bg-[rgba(0,30,80,0.40)] animate-pulse"/>
  </div>
  <div className="space-y-3 pl-9">
  <div className="h-4 w-full bg-zinc-900/60 animate-pulse"/>
@@ -36,7 +36,7 @@ export default function PrivacyLoading() {
  ))}
 
  {/* Last updated */}
- <div className="mt-12 pt-6 border-t border-zinc-800">
+ <div className="mt-12 pt-6 border-t border-[rgba(60,160,255,0.12)]">
  <div className="h-4 w-56 bg-zinc-900/60 animate-pulse"/>
  </div>
  </div>

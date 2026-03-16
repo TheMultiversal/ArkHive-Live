@@ -142,7 +142,7 @@ export default function TermsPage() {
  className="mb-12"
  >
  <h2 className="text-2xl font-bold glass-text mb-4">5. Source Protection</h2>
- <div className="bg-zinc-900 border border-zinc-800 p-6 text-zinc-300 space-y-4">
+ <div className="bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] p-6 text-zinc-300 space-y-4">
  <p>
  Protecting the identity and safety of sources is fundamental to our mission. 
  Any attempt to identify, locate, or harm whistleblowers or sources using 
@@ -272,7 +272,7 @@ export default function TermsPage() {
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  transition={{ delay: 0.6 }}
- className="mt-12 pt-8 border-t border-zinc-800"
+ className="mt-12 pt-8 border-t border-[rgba(60,160,255,0.12)]"
  >
  <h3 className="text-lg font-semibold text-white mb-4">Related Documents</h3>
  <div className="flex flex-wrap gap-4">

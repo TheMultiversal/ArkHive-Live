@@ -18,7 +18,7 @@ export default function Error({ error, reset }: ErrorProps) {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
  <div className="max-w-lg mx-auto px-4 text-center">
- <div className="border-2 border-blood-800/60 bg-black/80 p-12">
+ <div className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-12">
  {/* Icon */}
  <div className="w-24 h-24 mx-auto mb-8 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center animate-pulse">
  <AlertTriangle className="w-12 h-12 text-blood-600"/>
@@ -35,7 +35,7 @@ export default function Error({ error, reset }: ErrorProps) {
 
  {/* Error Details */}
  {error.digest && (
- <div className="mb-6 p-3 bg-zinc-900/50 border border-zinc-800">
+ <div className="mb-6 p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <span className="text-xs text-zinc-600 font-mono">
  Error ID: {error.digest}
  </span>
@@ -62,7 +62,7 @@ export default function Error({ error, reset }: ErrorProps) {
  </button>
  <Link
  href="/"
- className="flex items-center gap-2 px-6 py-3 border-2 border-zinc-700 text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
+ className="flex items-center gap-2 px-6 py-3 border-2 border-[rgba(60,160,255,0.18)] text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
  >
  <Home className="w-5 h-5"/>
  Return Home

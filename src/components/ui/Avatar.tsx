@@ -80,14 +80,14 @@ export default function Avatar({
  width={64}
  height={64}
  className={cn(
- ' object-cover border-2 border-zinc-800',
+ ' object-cover border-2 border-[rgba(60,160,255,0.12)]',
  sizeConfig.container
  )}
  />
  ) : (
  <div
  className={cn(
- ' flex items-center justify-center font-semibold text-white border-2 border-zinc-800',
+ ' flex items-center justify-center font-semibold text-white border-2 border-[rgba(60,160,255,0.12)]',
  sizeConfig.container,
  sizeConfig.text,
  bgColor
@@ -155,7 +155,7 @@ export function AvatarGroup({
  overlapClass[size],
  sizeClasses[size].container,
  sizeClasses[size].text,
- ' flex items-center justify-center font-semibold bg-zinc-800 text-zinc-400 border-2 border-black'
+ ' flex items-center justify-center font-semibold bg-[rgba(0,30,80,0.40)] text-zinc-400 border-2 border-black'
  )}
  >
  +{remaining}

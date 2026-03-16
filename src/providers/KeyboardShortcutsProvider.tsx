@@ -190,14 +190,14 @@ function KeyboardShortcutsHelp({ onClose }: KeyboardShortcutsHelpProps) {
  <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
  {/* Backdrop */}
  <div
- className="absolute inset-0 bg-black/80"
+ className="absolute inset-0 bg-[rgba(0,12,35,0.65)]"
  onClick={onClose}
  />
 
  {/* Modal */}
- <div className="relative bg-zinc-900 border border-zinc-800 w-full max-w-lg max-h-[80vh] overflow-hidden">
+ <div className="relative bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] w-full max-w-lg max-h-[80vh] overflow-hidden">
  {/* Header */}
- <div className="flex items-center justify-between p-4 border-b border-zinc-800">
+ <div className="flex items-center justify-between p-4 border-b border-[rgba(60,160,255,0.12)]">
  <h2 className="text-lg font-semibold text-white">Keyboard Shortcuts</h2>
  <button
  onClick={onClose}
@@ -219,10 +219,10 @@ function KeyboardShortcutsHelp({ onClose }: KeyboardShortcutsHelpProps) {
  {shortcutList.map(([id, shortcut]) => (
  <div
  key={id}
- className="flex items-center justify-between py-2 border-b border-zinc-800 last:border-0"
+ className="flex items-center justify-between py-2 border-b border-[rgba(60,160,255,0.12)] last:border-0"
  >
  <span className="text-zinc-300">{shortcut.description}</span>
- <kbd className="px-2 py-1 bg-zinc-800 border border-zinc-700 text-zinc-400 text-sm font-mono">
+ <kbd className="px-2 py-1 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-zinc-400 text-sm font-mono">
  {formatKey(shortcut)}
  </kbd>
  </div>
@@ -231,18 +231,18 @@ function KeyboardShortcutsHelp({ onClose }: KeyboardShortcutsHelpProps) {
  )}
 
  {/* Default shortcuts */}
- <div className="mt-6 pt-4 border-t border-zinc-800">
+ <div className="mt-6 pt-4 border-t border-[rgba(60,160,255,0.12)]">
  <h3 className="text-sm font-semibold text-zinc-400 mb-3">Default Shortcuts</h3>
  <div className="space-y-2 text-sm">
  <div className="flex items-center justify-between py-1">
  <span className="text-zinc-400">Show this help</span>
- <kbd className="px-2 py-0.5 bg-zinc-800 border border-zinc-700 text-zinc-500 font-mono">
+ <kbd className="px-2 py-0.5 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-zinc-500 font-mono">
  Shift + ?
  </kbd>
  </div>
  <div className="flex items-center justify-between py-1">
  <span className="text-zinc-400">Close modal/overlay</span>
- <kbd className="px-2 py-0.5 bg-zinc-800 border border-zinc-700 text-zinc-500 font-mono">
+ <kbd className="px-2 py-0.5 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-zinc-500 font-mono">
  Esc
  </kbd>
  </div>
@@ -251,9 +251,9 @@ function KeyboardShortcutsHelp({ onClose }: KeyboardShortcutsHelpProps) {
  </div>
 
  {/* Footer */}
- <div className="p-4 border-t border-zinc-800 bg-zinc-900/50">
+ <div className="p-4 border-t border-[rgba(60,160,255,0.12)] bg-[rgba(0,20,55,0.40)]">
  <p className="text-xs text-zinc-500 text-center">
- Press <kbd className="px-1 bg-zinc-800 border border-zinc-700">Esc</kbd> to close
+ Press <kbd className="px-1 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)]">Esc</kbd> to close
  </p>
  </div>
  </div>

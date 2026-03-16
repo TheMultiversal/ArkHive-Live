@@ -199,7 +199,7 @@ export default function ClimateSabotagePage() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-zinc-800">
+ <div className="border-b border-[rgba(60,160,255,0.12)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
@@ -213,7 +213,7 @@ export default function ClimateSabotagePage() {
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-zinc-800 text-zinc-300 border border-zinc-700">
+ <span className="px-3 py-1 text-xs font-medium bg-[rgba(0,30,80,0.40)] text-zinc-300 border border-[rgba(60,160,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -298,7 +298,7 @@ export default function ClimateSabotagePage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-zinc-900/50 border border-zinc-800 hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] hover:border-blood-500/50 transition-all"
  >
  <div>
  <span className="font-medium text-blood-400">{figure.name}</span>
@@ -346,7 +346,7 @@ export default function ClimateSabotagePage() {
 
  <p className="text-xs text-zinc-500 uppercase mb-2">Trump Quotes</p>
  {investigationData.parisWithdrawal.trumpQuotes.map((quote, i) => (
- <blockquote key={i} className="text-zinc-400 italic text-sm border-l-2 border-zinc-700 pl-3 mb-2">
+ <blockquote key={i} className="text-zinc-400 italic text-sm border-l-2 border-[rgba(60,160,255,0.18)] pl-3 mb-2">
  {quote}
  </blockquote>
  ))}
@@ -365,10 +365,10 @@ export default function ClimateSabotagePage() {
  </h2>
  <div className="space-y-4">
  {investigationData.majorRollbacks.map((category) => (
- <div key={category.category} className="border border-zinc-800">
+ <div key={category.category} className="border border-[rgba(60,160,255,0.12)]">
  <button
  onClick={() => setExpandedCategory(expandedCategory === category.category ? null : category.category)}
- className="w-full flex items-center justify-between p-4 hover:bg-zinc-900/50 transition-colors"
+ className="w-full flex items-center justify-between p-4 hover:bg-[rgba(0,20,55,0.40)] transition-colors"
  >
  <span className="font-bold text-blood-400">{category.category}</span>
  <ChevronRight className={`w-5 h-5 transition-transform ${expandedCategory === category.category ? 'rotate-90' : ''}`} />
@@ -401,7 +401,7 @@ export default function ClimateSabotagePage() {
  <p className="text-zinc-400 text-sm mb-4">EPA Administrator until forced resignation in July 2018:</p>
  <div className="space-y-3">
  {investigationData.pruittCorruption.map((scandal, index) => (
- <div key={index} className="flex items-center justify-between p-3 bg-zinc-900/50 border border-zinc-800">
+ <div key={index} className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <span className="text-zinc-200">{scandal.scandal}</span>
  <span className="text-blood-400 font-mono text-sm">{scandal.amount}</span>
  </div>
@@ -419,7 +419,7 @@ export default function ClimateSabotagePage() {
  <h2 className="text-xl font-bold mb-4">Public Health Impacts</h2>
  <div className="space-y-3">
  {investigationData.healthImpacts.map((item, index) => (
- <div key={index} className="p-3 bg-zinc-900/50 border border-zinc-800">
+ <div key={index} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
  <span className="font-medium text-blood-400">{item.impact}</span>
  <p className="text-sm text-zinc-400 mt-1">{item.detail}</p>
  </div>
@@ -440,7 +440,7 @@ export default function ClimateSabotagePage() {
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-zinc-800">
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(60,160,255,0.12)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -452,12 +452,12 @@ export default function ClimateSabotagePage() {
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900/50 border border-zinc-800"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-zinc-900/50 border border-zinc-800"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -474,7 +474,7 @@ export default function ClimateSabotagePage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-zinc-900/50 hover:bg-zinc-800/50 border border-zinc-800 transition-colors"
+ className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] hover:bg-[rgba(0,30,80,0.30)] border border-[rgba(60,160,255,0.12)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>
