@@ -79,14 +79,14 @@ export default function TargetingCursor() {
  height={cursorSize} 
  viewBox="0 0 100 100"
  style={{ 
- filter: 'drop-shadow(0 0 8px rgba(22, 47, 94, 0.8))',
+ filter: 'drop-shadow(0 0 8px rgba(0, 61, 143, 0.8))',
  transition: 'width 0.15s, height 0.15s',
  }}
  >
  <defs>
  <linearGradient id="reticleGradient"x1="0%"y1="0%"x2="100%"y2="100%">
- <stop offset="0%"stopColor="#3a5ea0"/>
- <stop offset="100%"stopColor="#162f5e"/>
+ <stop offset="0%"stopColor="#2a78d6"/>
+ <stop offset="100%"stopColor="#003d8f"/>
  </linearGradient>
  </defs>
 
@@ -107,14 +107,14 @@ export default function TargetingCursor() {
  <circle
  cx="50"cy="50"r={isHovering ? 25 : 20}
  fill="none"
- stroke="#162f5e"
+ stroke="#003d8f"
  strokeWidth="1.5"
  opacity="0.8"
  style={{ transition: 'r 0.15s' }}
  />
 
  {/* Crosshairs */}
- <g stroke="#162f5e"strokeWidth="1.5"opacity="0.9">
+ <g stroke="#003d8f"strokeWidth="1.5"opacity="0.9">
  {/* Top */}
  <line x1="50"y1="5"x2="50"y2="30"/>
  <line x1="45"y1="10"x2="55"y2="10"/>
@@ -130,7 +130,7 @@ export default function TargetingCursor() {
  </g>
 
  {/* Corner brackets */}
- <g stroke="#3a5ea0"strokeWidth="2"fill="none"opacity={isHovering ? 1 : 0.6} style={{ transition: 'opacity 0.15s' }}>
+ <g stroke="#2a78d6"strokeWidth="2"fill="none"opacity={isHovering ? 1 : 0.6} style={{ transition: 'opacity 0.15s' }}>
  <path d="M15,30 L15,15 L30,15"/>
  <path d="M70,15 L85,15 L85,30"/>
  <path d="M85,70 L85,85 L70,85"/>
@@ -141,7 +141,7 @@ export default function TargetingCursor() {
  <line
  x1="50"y1="50"
  x2="50"y2="5"
- stroke="rgba(22, 47, 94, 0.4)"
+ stroke="rgba(0, 61, 143, 0.4)"
  strokeWidth="1"
  transform={`rotate(${scanAngle}, 50, 50)`}
  />
@@ -150,7 +150,7 @@ export default function TargetingCursor() {
  <motion.circle
  cx="50"cy="50"
  r={innerSize}
- fill="#162f5e"
+ fill="#003d8f"
  animate={isClicking ? { scale: [1, 2, 1], opacity: [1, 0.5, 1] } : {}}
  transition={{ duration: 0.2 }}
  />
@@ -162,8 +162,8 @@ export default function TargetingCursor() {
  animate={{ scale: 1, opacity: 1 }}
  exit={{ scale: 0.5, opacity: 0 }}
  >
- <circle cx="50"cy="50"r="35"fill="none"stroke="#3a5ea0"strokeWidth="2"/>
- <text x="50"y="98"textAnchor="middle"fill="#3a5ea0"fontSize="8"fontFamily="monospace">LOCKED</text>
+ <circle cx="50"cy="50"r="35"fill="none"stroke="#2a78d6"strokeWidth="2"/>
+ <text x="50"y="98"textAnchor="middle"fill="#2a78d6"fontSize="8"fontFamily="monospace">LOCKED</text>
  </motion.g>
  )}
  </svg>

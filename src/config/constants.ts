@@ -73,8 +73,8 @@ export const FILE_UPLOAD = {
 export const SEVERITY_LEVELS = {
  critical: {
  label: 'Critical',
- color: '#3a5ea0',
- bgColor: '#3a5ea020',
+ color: '#2a78d6',
+ bgColor: '#2a78d620',
  priority: 1,
  },
  high: {
@@ -106,7 +106,7 @@ export const ENTITY_TYPES = {
  label: 'Agency',
  plural: 'Agencies',
  icon: 'building',
- color: '#1e3f7a',
+ color: '#0055b8',
  },
  corporation: {
  label: 'Corporation',
@@ -136,7 +136,7 @@ export const DOCUMENT_STATUS = {
  draft: { label: 'Draft', color: '#6b7280' },
  pending: { label: 'Pending Review', color: '#f59e0b' },
  approved: { label: 'Approved', color: '#22c55e' },
- rejected: { label: 'Rejected', color: '#3a5ea0' },
+ rejected: { label: 'Rejected', color: '#2a78d6' },
  archived: { label: 'Archived', color: '#6b7280' },
 } as const;
 
@@ -184,14 +184,14 @@ export const WORKSPACE_ROLES = {
 // ============================================================
 
 export const NOTIFICATION_TYPES = {
- info: { icon: 'info', color: '#1e3f7a' },
+ info: { icon: 'info', color: '#0055b8' },
  success: { icon: 'check-circle', color: '#22c55e' },
  warning: { icon: 'alert-triangle', color: '#f59e0b' },
- error: { icon: 'x-circle', color: '#3a5ea0' },
+ error: { icon: 'x-circle', color: '#2a78d6' },
  investigation: { icon: 'search', color: '#8b5cf6' },
  entity: { icon: 'building', color: '#14b8a6' },
  document: { icon: 'file-text', color: '#ec4899' },
- workspace: { icon: 'users', color: '#1e3f7a' },
+ workspace: { icon: 'users', color: '#0055b8' },
  system: { icon: 'settings', color: '#6b7280' },
 } as const;
 
@@ -300,17 +300,17 @@ export const SOCIAL_LINKS = {
 
 export const COLORS = {
  blood: {
- 50: '#c8d6f0',
- 100: '#a3b8e0',
- 200: '#7e9ad0',
- 300: '#5a7cbf',
- 400: '#3a5ea0',
- 500: '#1e3f7a',
- 600: '#162f5e',
- 700: '#102248',
- 800: '#0b1832',
- 900: '#070f22',
- 950: '#040914',
+ 50: '#d8eafc',
+ 100: '#aed0f7',
+ 200: '#80b5f0',
+ 300: '#5499e8',
+ 400: '#2a78d6',
+ 500: '#0055b8',
+ 600: '#003d8f',
+ 700: '#002d6b',
+ 800: '#001f4d',
+ 900: '#001333',
+ 950: '#000a1f',
  },
  dark: {
  50: '#f8fafc',

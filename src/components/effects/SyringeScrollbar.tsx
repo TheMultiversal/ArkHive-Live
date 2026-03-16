@@ -55,22 +55,22 @@ export default function DNAScrollbar() {
  height="300"
  viewBox="0 0 44 300"
  className="drop-shadow-lg"
- style={{ filter: 'drop-shadow(0 0 10px rgba(22, 47, 94, 0.5))' }}
+ style={{ filter: 'drop-shadow(0 0 10px rgba(0, 61, 143, 0.5))' }}
  >
  <defs>
  <linearGradient id="dnaStrand1"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#3a5ea0"/>
- <stop offset="50%"stopColor="#162f5e"/>
- <stop offset="100%"stopColor="#070f22"/>
+ <stop offset="0%"stopColor="#2a78d6"/>
+ <stop offset="50%"stopColor="#003d8f"/>
+ <stop offset="100%"stopColor="#001333"/>
  </linearGradient>
  <linearGradient id="dnaStrand2"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#070f22"/>
- <stop offset="50%"stopColor="#0b1832"/>
- <stop offset="100%"stopColor="#040914"/>
+ <stop offset="0%"stopColor="#001333"/>
+ <stop offset="50%"stopColor="#001f4d"/>
+ <stop offset="100%"stopColor="#000a1f"/>
  </linearGradient>
  <filter id="dnaGlow">
  <feGaussianBlur stdDeviation="2"result="blur"/>
- <feFlood floodColor="#162f5e"floodOpacity="0.6"/>
+ <feFlood floodColor="#003d8f"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -100,7 +100,7 @@ export default function DNAScrollbar() {
  y1={y}
  x2={x2}
  y2={y}
- stroke={i % 2 === 0 ? '#3a5ea0' : '#5a7cbf'}
+ stroke={i % 2 === 0 ? '#2a78d6' : '#5499e8'}
  strokeWidth="2"
  opacity={0.6}
  strokeLinecap="round"
@@ -138,8 +138,8 @@ export default function DNAScrollbar() {
  
  return (
  <g key={i}>
- <circle cx={x1} cy={y} r="3"fill="#3a5ea0"opacity={0.8 + Math.sin(angle) * 0.2} />
- <circle cx={x2} cy={y} r="3"fill="#070f22"opacity={0.8 - Math.sin(angle) * 0.2} />
+ <circle cx={x1} cy={y} r="3"fill="#2a78d6"opacity={0.8 + Math.sin(angle) * 0.2} />
+ <circle cx={x2} cy={y} r="3"fill="#001333"opacity={0.8 - Math.sin(angle) * 0.2} />
  </g>
  );
  })}
@@ -166,14 +166,14 @@ export default function DNAScrollbar() {
  />
 
  {/* Top cap */}
- <circle cx="20"cy="15"r="6"fill="#1a1a1a"stroke="#162f5e"strokeWidth="1"/>
- <text x="20"y="18"textAnchor="middle"fill="#162f5e"fontSize="6"fontFamily="monospace">DNA</text>
+ <circle cx="20"cy="15"r="6"fill="#1a1a1a"stroke="#003d8f"strokeWidth="1"/>
+ <text x="20"y="18"textAnchor="middle"fill="#003d8f"fontSize="6"fontFamily="monospace">DNA</text>
 
  {/* Bottom cap */}
- <circle cx="20"cy="285"r="6"fill="#1a1a1a"stroke="#162f5e"strokeWidth="1"/>
+ <circle cx="20"cy="285"r="6"fill="#1a1a1a"stroke="#003d8f"strokeWidth="1"/>
  
  {/* Percentage display */}
- <text x="20"y="298"textAnchor="middle"fill="#162f5e"fontSize="8"fontFamily="monospace"opacity="0.8">
+ <text x="20"y="298"textAnchor="middle"fill="#003d8f"fontSize="8"fontFamily="monospace"opacity="0.8">
  {scrollPercent}%
  </text>
  </motion.svg>

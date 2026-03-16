@@ -191,8 +191,8 @@ export default function Home() {
  <svg className="absolute inset-0 w-full h-full opacity-10">
  <defs>
  <radialGradient id="centerGlow"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#162f5e"stopOpacity="0.3"/>
- <stop offset="100%"stopColor="#162f5e"stopOpacity="0"/>
+ <stop offset="0%"stopColor="#003d8f"stopOpacity="0.3"/>
+ <stop offset="100%"stopColor="#003d8f"stopOpacity="0"/>
  </radialGradient>
  </defs>
  {/* Pre-computed positions to avoid hydration mismatch from Math.sin/cos floating point differences */}
@@ -216,7 +216,7 @@ export default function Home() {
  y1="50%"
  x2={pos.x2}
  y2={pos.y2}
- stroke="#162f5e"
+ stroke="#003d8f"
  strokeWidth="0.5"
  opacity="0.3"
  />
@@ -247,7 +247,7 @@ export default function Home() {
  </p>
  {/* Line 2 (HIDDEN) emphasized */}
  <p className="text-4xl sm:text-6xl lg:text-8xl font-black uppercase tracking-tight">
- <span className="text-blood-600"style={{ filter: 'drop-shadow(0 0 30px rgba(153,27,27,0.7)) drop-shadow(0 0 60px rgba(30,64,175,0.4))' }}>
+ <span className="text-blood-600"style={{ filter: 'drop-shadow(0 0 30px rgba(0,31,77,0.7)) drop-shadow(0 0 60px rgba(0,61,143,0.4))' }}>
  YOU&apos;LL NEVER
  </span>
  </p>

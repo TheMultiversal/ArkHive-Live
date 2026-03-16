@@ -22,7 +22,7 @@ export default function TypewriterText({
  speed = 50,
  delay = 0,
  cursor = true,
- cursorColor = '#162f5e',
+ cursorColor = '#003d8f',
  sound = false,
  onComplete,
  classified = false,

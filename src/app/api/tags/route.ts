@@ -28,7 +28,7 @@ const tagsStore: Tag[] = [
  id: 'tag_1',
  name: 'Government',
  slug: 'government',
- color: '#1e3f7a',
+ color: '#0055b8',
  description: 'Items related to government agencies',
  category: 'general',
  usageCount: 456,

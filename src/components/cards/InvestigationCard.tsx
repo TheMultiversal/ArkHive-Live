@@ -24,7 +24,7 @@ const severityConfig = {
  classes:"bg-blood-900/60 text-blood-400 border-blood-600",
  label:"CRITICAL THREAT",
  Icon: Skull,
- accentColor:"rgba(30, 63, 122, 0.5)",
+ accentColor:"rgba(0, 85, 184, 0.5)",
  },
  high: {
  classes:"bg-blood-950/60 text-blood-500 border-blood-700",
@@ -61,8 +61,8 @@ export default function InvestigationCard({ investigation, featured = false }: I
  <div
  className="absolute inset-0 opacity-[0.06]"
  style={{
- backgroundImage: `linear-gradient(rgba(30, 63, 122, 0.5) 1px, transparent 1px),
- linear-gradient(90deg, rgba(30, 63, 122, 0.5) 1px, transparent 1px)`,
+ backgroundImage: `linear-gradient(rgba(0, 85, 184, 0.5) 1px, transparent 1px),
+ linear-gradient(90deg, rgba(0, 85, 184, 0.5) 1px, transparent 1px)`,
  backgroundSize: '16px 16px'
  }}
  />

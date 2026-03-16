@@ -37,7 +37,7 @@ export default function Header() {
  <header
  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
  scrolled
- ?"bg-black/95 border-b border-blood-900/60 shadow-[0_4px_30px_rgba(59,130,246,0.08)]"
+ ?"bg-black/95 border-b border-blood-900/60 shadow-[0_4px_30px_rgba(0,85,184,0.08)]"
  :"bg-black/80 border-b border-blood-900/20"
  }`}
  >
@@ -55,9 +55,9 @@ export default function Header() {
  ARKHIVE
  <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]"style={{ animationDuration: '3s' }}>ARKHIVE</span>
  </span>
- <sup className="text-blood-500 text-[10px] lg:text-xs font-bold drop-shadow-[0_0_6px_rgba(11,24,50,0.6)]">®</sup>
+ <sup className="text-blood-500 text-[10px] lg:text-xs font-bold drop-shadow-[0_0_6px_rgba(0,85,184,0.6)]">®</sup>
  </h1>
- <span className="text-[10px] lg:text-xs font-semibold tracking-[0.25em] glass-text-subtle uppercase drop-shadow-[0_0_8px_rgba(11,24,50,0.4)]">
+ <span className="text-[10px] lg:text-xs font-semibold tracking-[0.25em] glass-text-subtle uppercase drop-shadow-[0_0_8px_rgba(0,85,184,0.4)]">
  Investigation Platform
  </span>
  </div>
@@ -109,7 +109,7 @@ export default function Header() {
  {/* Submit Intel */}
  <Link
  href="/submit"
- className="hidden sm:flex items-center gap-2 px-4 py-2 bg-blood-800 hover:bg-blood-700 text-white text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-blood-700/50 shadow-[0_0_15px_rgba(59,130,246,0.15)] hover:shadow-[0_0_25px_rgba(59,130,246,0.3)]"
+ className="hidden sm:flex items-center gap-2 px-4 py-2 bg-blood-800 hover:bg-blood-700 text-white text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-blood-700/50 shadow-[0_0_15px_rgba(0,85,184,0.15)] hover:shadow-[0_0_25px_rgba(0,85,184,0.3)]"
  >
  <Zap className="w-3.5 h-3.5"/>
  <span>Submit Intel</span>

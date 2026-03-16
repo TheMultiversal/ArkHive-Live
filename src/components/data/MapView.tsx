@@ -60,9 +60,9 @@ interface MapViewProps {
 // ============================================================
 
 const categoryColors: Record<string, string> = {
- investigation: '#1e3f7a',
- entity: '#1e3f7a',
- evidence: '#1e3f7a',
+ investigation: '#0055b8',
+ entity: '#0055b8',
+ evidence: '#0055b8',
  incident: '#71717a',
  default: '#a855f7',
 };

@@ -31,19 +31,19 @@ export default function BloodVeinScrollbar() {
  <svg className="absolute inset-0 w-full h-full"viewBox="0 0 12 256"preserveAspectRatio="none">
  <defs>
  <linearGradient id="veinGradient"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#0b1832"/>
- <stop offset="50%"stopColor="#162f5e"/>
- <stop offset="100%"stopColor="#070f22"/>
+ <stop offset="0%"stopColor="#001f4d"/>
+ <stop offset="50%"stopColor="#003d8f"/>
+ <stop offset="100%"stopColor="#001333"/>
  </linearGradient>
  </defs>
  
  {/* Side vein branches */}
- <path d="M0,20 Q6,25 12,20"stroke="#040914"strokeWidth="0.5"fill="none"/>
- <path d="M0,60 Q6,55 12,60"stroke="#040914"strokeWidth="0.5"fill="none"/>
- <path d="M0,100 Q6,105 12,100"stroke="#040914"strokeWidth="0.5"fill="none"/>
- <path d="M0,140 Q6,135 12,140"stroke="#040914"strokeWidth="0.5"fill="none"/>
- <path d="M0,180 Q6,185 12,180"stroke="#040914"strokeWidth="0.5"fill="none"/>
- <path d="M0,220 Q6,215 12,220"stroke="#040914"strokeWidth="0.5"fill="none"/>
+ <path d="M0,20 Q6,25 12,20"stroke="#000a1f"strokeWidth="0.5"fill="none"/>
+ <path d="M0,60 Q6,55 12,60"stroke="#000a1f"strokeWidth="0.5"fill="none"/>
+ <path d="M0,100 Q6,105 12,100"stroke="#000a1f"strokeWidth="0.5"fill="none"/>
+ <path d="M0,140 Q6,135 12,140"stroke="#000a1f"strokeWidth="0.5"fill="none"/>
+ <path d="M0,180 Q6,185 12,180"stroke="#000a1f"strokeWidth="0.5"fill="none"/>
+ <path d="M0,220 Q6,215 12,220"stroke="#000a1f"strokeWidth="0.5"fill="none"/>
  </svg>
 
  {/* Blood fill level */}
@@ -51,7 +51,7 @@ export default function BloodVeinScrollbar() {
  className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blood-800 via-blood-700 to-blood-600"
  style={{ 
  height: fillHeight,
- boxShadow: '0 -4px 20px rgba(22, 47, 94, 0.5)',
+ boxShadow: '0 -4px 20px rgba(0, 61, 143, 0.5)',
  }}
  >
  {/* Blood surface ripple */}

@@ -102,7 +102,7 @@ export function VerticalHoldGlitch({ className = '' }: { className?: string }) {
  <motion.div
  className={`absolute inset-0 pointer-events-none ${className}`}
  style={{
- background: 'linear-gradient(to bottom, transparent 0%, rgba(22, 47, 94, 0.1) 50%, transparent 51%)',
+ background: 'linear-gradient(to bottom, transparent 0%, rgba(0, 61, 143, 0.1) 50%, transparent 51%)',
  backgroundSize: '100% 200%',
  }}
  animate={{

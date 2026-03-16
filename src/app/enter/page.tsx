@@ -48,7 +48,7 @@ export default function EnterPage() {
    initial={{ opacity: 0, scale: 0.9 }}
    animate={{ opacity: 1, scale: 1 }}
    transition={{ duration: 0.6, delay: 1.5 }}
-   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(59,130,246,0.4)' }}
+   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(0,85,184,0.4)' }}
    whileTap={{ scale: 0.97 }}
    onClick={() => router.push('/')}
    className="px-10 py-3 border border-blood-600 text-blood-400 font-semibold tracking-widest uppercase text-sm hover:bg-blood-900/40 hover:text-blood-300 transition-colors duration-300"

@@ -99,10 +99,10 @@ interface CircularProgressProps {
 
 const circularColors: Record<string, string> = {
  default: '#71717a', // zinc-500
- danger: '#3a5ea0', // blood-500
+ danger: '#2a78d6', // blood-500
  warning: '#71717a', // zinc-400
- success: '#1e3f7a', // blood-500
- blood: '#1e3f7a', // blood-500
+ success: '#0055b8', // blood-500
+ blood: '#0055b8', // blood-500
 };
 
 export function CircularProgress({

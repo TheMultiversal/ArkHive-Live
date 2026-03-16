@@ -104,7 +104,7 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  <svg
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
- style={{ filter: 'drop-shadow(0 0 6px rgba(58, 94, 160, 0.5))' }}
+ style={{ filter: 'drop-shadow(0 0 6px rgba(42, 120, 214, 0.5))' }}
  >
  <defs>
  {/* Gradients */}
@@ -126,23 +126,23 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  <radialGradient id="docEyeGradient"cx="50%"cy="40%"r="50%">
  <stop offset="0%"stopColor="#ffffff"/>
  <stop offset="60%"stopColor="#fecaca"/>
- <stop offset="100%"stopColor="#162f5e"/>
+ <stop offset="100%"stopColor="#003d8f"/>
  </radialGradient>
 
  <radialGradient id="docIrisGradient"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#3a5ea0"/>
- <stop offset="60%"stopColor="#102248"/>
- <stop offset="100%"stopColor="#0b1832"/>
+ <stop offset="0%"stopColor="#2a78d6"/>
+ <stop offset="60%"stopColor="#002d6b"/>
+ <stop offset="100%"stopColor="#001f4d"/>
  </radialGradient>
 
  <linearGradient id="docBloodStream"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#162f5e"stopOpacity="0.9"/>
- <stop offset="100%"stopColor="#0b1832"stopOpacity="0.8"/>
+ <stop offset="0%"stopColor="#003d8f"stopOpacity="0.9"/>
+ <stop offset="100%"stopColor="#001f4d"stopOpacity="0.8"/>
  </linearGradient>
 
  <filter id="docBloodGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="1"result="blur"/>
- <feFlood floodColor="#162f5e"floodOpacity="0.6"/>
+ <feFlood floodColor="#003d8f"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -186,9 +186,9 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  <line x1="30"y1="58"x2="60"y2="58"stroke="#d6d3d1"strokeWidth="0.5"/>
  <line x1="30"y1="63"x2="55"y2="63"stroke="#d6d3d1"strokeWidth="0.5"/>
  {/* Blood stains on document */}
- <circle cx="55"cy="75"r="6"fill="#162f5e"opacity="0.4"/>
- <circle cx="35"cy="82"r="4"fill="#102248"opacity="0.3"/>
- <ellipse cx="50"cy="85"rx="8"ry="3"fill="#0b1832"opacity="0.3"/>
+ <circle cx="55"cy="75"r="6"fill="#003d8f"opacity="0.4"/>
+ <circle cx="35"cy="82"r="4"fill="#002d6b"opacity="0.3"/>
+ <ellipse cx="50"cy="85"rx="8"ry="3"fill="#001f4d"opacity="0.3"/>
  </g>
  </g>
 
@@ -202,10 +202,10 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
 
  {/* Blood vessels */}
  <g opacity="0.6">
- <path d="M35 48 Q42 49, 45 50"stroke="#162f5e"strokeWidth="0.6"fill="none"/>
- <path d="M34 52 Q40 51, 44 50"stroke="#102248"strokeWidth="0.5"fill="none"/>
- <path d="M65 48 Q58 49, 55 50"stroke="#162f5e"strokeWidth="0.6"fill="none"/>
- <path d="M66 52 Q60 51, 56 50"stroke="#102248"strokeWidth="0.5"fill="none"/>
+ <path d="M35 48 Q42 49, 45 50"stroke="#003d8f"strokeWidth="0.6"fill="none"/>
+ <path d="M34 52 Q40 51, 44 50"stroke="#002d6b"strokeWidth="0.5"fill="none"/>
+ <path d="M65 48 Q58 49, 55 50"stroke="#003d8f"strokeWidth="0.6"fill="none"/>
+ <path d="M66 52 Q60 51, 56 50"stroke="#002d6b"strokeWidth="0.5"fill="none"/>
  </g>
 
  {/* Iris */}
@@ -252,7 +252,7 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  cy="95"
  rx={12 + Math.sin(frameCount * 0.02) * 2}
  ry="3"
- fill="#0b1832"
+ fill="#001f4d"
  opacity="0.7"
  />
  </g>
@@ -265,15 +265,15 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  cy={drop.y}
  rx={drop.size * 0.5}
  ry={drop.size}
- fill="#162f5e"
+ fill="#003d8f"
  opacity="0.8"
  />
  ))}
 
  {/*"CLASSIFIED"stamp - bloody */}
  <g transform="rotate(-20, 50, 30)">
- <rect x="20"y="12"width="45"height="12"fill="none"stroke="#162f5e"strokeWidth="1.5"rx="1"/>
- <text x="42.5"y="21"textAnchor="middle"fill="#162f5e"fontSize="6"fontFamily="monospace"fontWeight="bold">CLASSIFIED</text>
+ <rect x="20"y="12"width="45"height="12"fill="none"stroke="#003d8f"strokeWidth="1.5"rx="1"/>
+ <text x="42.5"y="21"textAnchor="middle"fill="#003d8f"fontSize="6"fontFamily="monospace"fontWeight="bold">CLASSIFIED</text>
  </g>
 
  {/* Blood drips from corners */}
