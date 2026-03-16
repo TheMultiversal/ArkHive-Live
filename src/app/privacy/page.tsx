@@ -116,7 +116,7 @@ export default function PrivacyPage() {
  <Eye className="w-6 h-6 text-blood-500"/>
  Source Protection
  </h2>
- <div className="bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] p-6 text-zinc-300 space-y-4">
+ <div className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] p-6 text-zinc-300 space-y-4">
  <p className="font-semibold text-white">
  Protecting our sources is our highest priority.
  </p>
@@ -303,7 +303,7 @@ export default function PrivacyPage() {
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  transition={{ delay: 0.7 }}
- className="mt-12 pt-8 border-t border-[rgba(60,160,255,0.12)]"
+ className="mt-12 pt-8 border-t border-[rgba(80,180,255,0.15)]"
  >
  <h3 className="text-lg font-semibold text-white mb-4">Related Documents</h3>
  <div className="flex flex-wrap gap-4">

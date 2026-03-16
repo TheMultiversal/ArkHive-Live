@@ -42,7 +42,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
  'focus:outline-none transition-colors',
  error
  ? 'border-blood-600 focus:border-blood-500'
- : 'border-[rgba(60,160,255,0.12)] focus:border-blood-700',
+ : 'border-[rgba(80,180,255,0.15)] focus:border-blood-700',
  className
  )}
  aria-invalid={error ? 'true' : undefined}

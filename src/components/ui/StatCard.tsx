@@ -21,7 +21,7 @@ interface StatCardProps {
 
 const variantStyles = {
  default: {
- card: 'bg-[rgba(0,20,55,0.40)] border-[rgba(60,160,255,0.12)] hover:border-[rgba(60,160,255,0.18)]',
+ card: 'bg-[rgba(0,10,28,0.82)] border-[rgba(80,180,255,0.15)] hover:border-[rgba(60,160,255,0.18)]',
  value: 'text-white',
  icon: 'text-zinc-400',
  },
@@ -36,7 +36,7 @@ const variantStyles = {
  icon: 'text-blood-500',
  },
  warning: {
- card: 'bg-zinc-800/20 border-[rgba(60,160,255,0.12)] hover:border-zinc-600/50',
+ card: 'bg-zinc-800/20 border-[rgba(80,180,255,0.15)] hover:border-zinc-600/50',
  value: 'text-zinc-300',
  icon: 'text-zinc-400',
  },
@@ -246,7 +246,7 @@ export function ComparisonStat({
  return (
  <motion.div
  className={cn(
- 'bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] p-4',
+ 'bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -267,7 +267,7 @@ export function ComparisonStat({
  </div>
 
  <div className={cn(
- 'mt-3 pt-3 border-t border-[rgba(60,160,255,0.12)] flex items-center justify-between',
+ 'mt-3 pt-3 border-t border-[rgba(80,180,255,0.15)] flex items-center justify-between',
  )}>
  <span className="text-sm text-zinc-400">Change</span>
  <span className={cn(
@@ -301,7 +301,7 @@ export function LiveStat({
  return (
  <motion.div
  className={cn(
- 'bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] p-4',
+ 'bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -362,7 +362,7 @@ export function PercentageStat({
  return (
  <motion.div
  className={cn(
- 'bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] p-4',
+ 'bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -374,7 +374,7 @@ export function PercentageStat({
  </div>
  
  {showBar && (
- <div className="h-2 bg-[rgba(0,30,80,0.40)] overflow-hidden">
+ <div className="h-2 bg-[rgba(0,12,32,0.85)] overflow-hidden">
  <motion.div
  className={cn('h-full', barColors[variant])}
  initial={{ width: 0 }}

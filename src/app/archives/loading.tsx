@@ -8,7 +8,7 @@ export default function ArchivesLoading() {
  <div className="max-w-5xl mx-auto px-4">
  {/* Header */}
  <div className="mb-12">
- <div className="h-10 w-40 bg-[rgba(0,20,55,0.50)] animate-pulse mb-4"/>
+ <div className="h-10 w-40 bg-[rgba(0,10,28,0.85)] animate-pulse mb-4"/>
  <div className="h-5 w-80 bg-zinc-900/60 animate-pulse"/>
  </div>
 
@@ -38,7 +38,7 @@ export default function ArchivesLoading() {
  className="glass-card p-4"
  >
  <div className="flex items-center justify-between mb-3">
- <div className="h-5 w-20 bg-[rgba(0,30,80,0.40)] animate-pulse"/>
+ <div className="h-5 w-20 bg-[rgba(0,12,32,0.85)] animate-pulse"/>
  <div className="h-5 w-8 bg-zinc-900/60 animate-pulse"/>
  </div>
  <div className="space-y-2">

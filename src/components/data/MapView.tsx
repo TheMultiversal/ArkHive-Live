@@ -162,7 +162,7 @@ export default function MapView({
  <div
  ref={containerRef}
  className={cn(
- 'relative bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] overflow-hidden',
+ 'relative bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] overflow-hidden',
  className
  )}
  >
@@ -239,7 +239,7 @@ export default function MapView({
  initial={{ opacity: 0, y: 5 }}
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: 5 }}
- className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] whitespace-nowrap z-10"
+ className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] whitespace-nowrap z-10"
  >
  <p className="text-xs text-white font-medium">
  {marker.title}
@@ -271,7 +271,7 @@ export default function MapView({
  {/* Search */}
  {showSearch && (
  <div className="pointer-events-auto">
- <div className="flex items-center gap-2 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] px-3 py-2">
+ <div className="flex items-center gap-2 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] px-3 py-2">
  <Search className="w-4 h-4 text-zinc-500"/>
  <input
  type="text"
@@ -298,17 +298,17 @@ export default function MapView({
  <button
  onClick={handleZoomIn}
  disabled={zoom >= maxZoom}
- className="p-2 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-zinc-400 hover:text-white disabled:opacity-50 transition-colors"
+ className="p-2 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-zinc-400 hover:text-white disabled:opacity-50 transition-colors"
  >
  <ZoomIn className="w-4 h-4"/>
  </button>
- <div className="px-2 py-1 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-xs text-center text-zinc-400">
+ <div className="px-2 py-1 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-xs text-center text-zinc-400">
  {zoom}x
  </div>
  <button
  onClick={handleZoomOut}
  disabled={zoom <= minZoom}
- className="p-2 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-zinc-400 hover:text-white disabled:opacity-50 transition-colors"
+ className="p-2 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-zinc-400 hover:text-white disabled:opacity-50 transition-colors"
  >
  <ZoomOut className="w-4 h-4"/>
  </button>
@@ -333,7 +333,7 @@ export default function MapView({
  initial={{ opacity: 0, x: 20 }}
  animate={{ opacity: 1, x: 0 }}
  exit={{ opacity: 0, x: 20 }}
- className="absolute top-4 right-16 w-64 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] shadow-lg"
+ className="absolute top-4 right-16 w-64 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] shadow-lg"
  >
  <div className="flex items-start justify-between p-3 border-b border-[rgba(60,160,255,0.18)]">
  <div>

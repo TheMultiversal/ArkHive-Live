@@ -50,7 +50,7 @@ export function BarChart({
  {item.label}
  </div>
  )}
- <div className="flex-1 h-6 bg-[rgba(0,30,80,0.40)] relative">
+ <div className="flex-1 h-6 bg-[rgba(0,12,32,0.85)] relative">
  <motion.div
  initial={animate ? { width: 0 } : false}
  animate={{ width: `${(item.value / maxValue) * 100}%` }}

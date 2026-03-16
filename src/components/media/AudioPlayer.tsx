@@ -198,7 +198,7 @@ export default function AudioPlayer({
  return (
  <div
  className={cn(
- 'flex items-center gap-3 p-2 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)]',
+ 'flex items-center gap-3 p-2 bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)]',
  className
  )}
  >
@@ -229,14 +229,14 @@ export default function AudioPlayer({
  return (
  <div
  className={cn(
- 'bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)]',
+ 'bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)]',
  className
  )}
  >
  <audio ref={audioRef} src={currentTrack?.src} />
  <div className="flex items-center gap-4 p-3">
  {/* Cover */}
- <div className="w-12 h-12 bg-[rgba(0,30,80,0.40)] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+ <div className="w-12 h-12 bg-[rgba(0,12,32,0.85)] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
  {currentTrack?.cover ? (
  <Image
  src={currentTrack.cover}
@@ -306,7 +306,7 @@ export default function AudioPlayer({
  return (
  <div
  className={cn(
- 'bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)]',
+ 'bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)]',
  className
  )}
  >
@@ -316,7 +316,7 @@ export default function AudioPlayer({
  <div className="p-4">
  {/* Cover & Info */}
  <div className="flex gap-4 mb-4">
- <div className="w-24 h-24 bg-[rgba(0,30,80,0.40)] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+ <div className="w-24 h-24 bg-[rgba(0,12,32,0.85)] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
  {currentTrack?.cover ? (
  <Image
  src={currentTrack.cover}
@@ -344,7 +344,7 @@ export default function AudioPlayer({
 
  {/* Waveform placeholder */}
  {showWaveform && (
- <div className="h-16 bg-[rgba(0,30,80,0.40)] mb-4 flex items-center justify-center">
+ <div className="h-16 bg-[rgba(0,12,32,0.85)] mb-4 flex items-center justify-center">
  <div className="flex items-end gap-1 h-12">
  {Array.from({ length: 40 }, (_, i) => (
  <motion.div
@@ -477,7 +477,7 @@ export default function AudioPlayer({
 
  {/* Playlist */}
  {showPlaylistPanel && tracks.length > 1 && (
- <div className="border-t border-[rgba(60,160,255,0.12)] max-h-60 overflow-y-auto">
+ <div className="border-t border-[rgba(80,180,255,0.15)] max-h-60 overflow-y-auto">
  {tracks.map((track, index) => (
  <button
  key={track.id}
@@ -486,10 +486,10 @@ export default function AudioPlayer({
  'w-full flex items-center gap-3 p-3 text-left transition-colors',
  index === currentIndex
  ? 'bg-blood-500/10 text-blood-500'
- : 'text-zinc-400 hover:bg-[rgba(0,30,80,0.40)] hover:text-white'
+ : 'text-zinc-400 hover:bg-[rgba(0,12,32,0.85)] hover:text-white'
  )}
  >
- <div className="w-10 h-10 bg-[rgba(0,30,80,0.40)] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+ <div className="w-10 h-10 bg-[rgba(0,12,32,0.85)] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
  {track.cover ? (
  <Image
  src={track.cover}

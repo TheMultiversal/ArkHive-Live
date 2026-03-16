@@ -157,7 +157,7 @@ export default function MethodologyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: index * 0.1 }}
- className="bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] p-6"
+ className="bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-6"
  >
  <div className="flex items-start gap-4">
  <div className="bg-blood-500/10 p-3 shrink-0">
@@ -234,11 +234,11 @@ export default function MethodologyPage() {
  initial={{ opacity: 0 }}
  whileInView={{ opacity: 1 }}
  viewport={{ once: true }}
- className="bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] overflow-hidden"
+ className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] overflow-hidden"
  >
  <table className="w-full">
  <thead>
- <tr className="bg-[rgba(0,30,80,0.30)]">
+ <tr className="bg-[rgba(0,12,32,0.80)]">
  <th className="text-left p-4 text-sm font-semibold text-zinc-300">Type</th>
  <th className="text-left p-4 text-sm font-semibold text-zinc-300 hidden md:table-cell">Standard</th>
  <th className="text-left p-4 text-sm font-semibold text-zinc-300">Reliability</th>
@@ -246,7 +246,7 @@ export default function MethodologyPage() {
  </thead>
  <tbody>
  {evidenceTypes.map((evidence, index) => (
- <tr key={evidence.type} className="border-t border-[rgba(60,160,255,0.12)]">
+ <tr key={evidence.type} className="border-t border-[rgba(80,180,255,0.15)]">
  <td className="p-4">
  <div className="flex items-center gap-3">
  <evidence.icon className="w-5 h-5 text-blood-500"/>

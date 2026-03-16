@@ -74,7 +74,7 @@ export default function ContributorAuthPage() {
  <p className="text-zinc-400 text-sm">{currentUser.email}</p>
  </div>
  <div className="flex items-center gap-3">
- <div className="flex items-center gap-2 px-3 py-1.5 border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.50)]">
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.85)]">
  <CheckCircle className="w-3.5 h-3.5 text-blood-500"/>
  <span className="text-xs text-zinc-300 font-medium">Verified</span>
  </div>
@@ -82,7 +82,7 @@ export default function ContributorAuthPage() {
  </div>
 
  {/* Tab Navigation */}
- <div className="flex items-center gap-1 border-b border-[rgba(60,160,255,0.12)] mb-8">
+ <div className="flex items-center gap-1 border-b border-[rgba(80,180,255,0.15)] mb-8">
  {dashboardTabs.map((tab) => (
  <button
  key={tab.id}
@@ -124,7 +124,7 @@ export default function ContributorAuthPage() {
  </div>
  <div className="glass-card p-5">
  <div className="flex items-center gap-3 mb-3">
- <div className="p-2 bg-[rgba(0,30,80,0.40)]">
+ <div className="p-2 bg-[rgba(0,12,32,0.85)]">
  <Users className="w-5 h-5 text-zinc-400"/>
  </div>
  <span className="text-xs font-bold text-zinc-500 uppercase tracking-wider">Entities</span>
@@ -151,7 +151,7 @@ export default function ContributorAuthPage() {
  href="/workspaces/create"
  className="glass-card p-5 flex items-center gap-4 group hover:border-blood-700 transition-colors"
  >
- <div className="p-3 bg-[rgba(0,30,80,0.40)] group-hover:bg-zinc-700 transition-colors">
+ <div className="p-3 bg-[rgba(0,12,32,0.85)] group-hover:bg-zinc-700 transition-colors">
  <FileText className="w-5 h-5 text-zinc-400"/>
  </div>
  <div>
@@ -182,7 +182,7 @@ export default function ContributorAuthPage() {
  href={item.href}
  className="flex items-center gap-4 p-3 glass-card hover:border-blood-800 transition-colors group"
  >
- <div className="p-1.5 bg-[rgba(0,30,80,0.40)]">
+ <div className="p-1.5 bg-[rgba(0,12,32,0.85)]">
  {item.type === 'investigation' ? <Target className="w-3.5 h-3.5 text-blood-500"/> : <Users className="w-3.5 h-3.5 text-zinc-400"/>}
  </div>
  <div className="flex-1 min-w-0">
@@ -206,7 +206,7 @@ export default function ContributorAuthPage() {
  </div>
 
  {/* Account Info */}
- <div className="border border-[rgba(60,160,255,0.12)] bg-[rgba(0,20,55,0.40)] p-4">
+ <div className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)] p-4">
  <div className="flex items-start gap-3">
  <Shield className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>
@@ -228,7 +228,7 @@ export default function ContributorAuthPage() {
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
  {bookmarks.map((item) => (
  <div key={item.id} className="glass-card p-4 group flex items-start gap-3">
- <div className="p-1.5 bg-[rgba(0,30,80,0.40)] mt-0.5">
+ <div className="p-1.5 bg-[rgba(0,12,32,0.85)] mt-0.5">
  {item.type === 'investigation' ? <Target className="w-4 h-4 text-blood-500"/> : <Users className="w-4 h-4 text-zinc-400"/>}
  </div>
  <div className="flex-1 min-w-0">
@@ -283,22 +283,22 @@ export default function ContributorAuthPage() {
  <div className="glass-card p-6 mb-6">
  <h2 className="text-sm font-bold text-zinc-400 uppercase tracking-wider mb-4">Account Details</h2>
  <div className="space-y-4">
- <div className="flex items-center justify-between py-2 border-b border-[rgba(60,160,255,0.12)]">
+ <div className="flex items-center justify-between py-2 border-b border-[rgba(80,180,255,0.15)]">
  <span className="text-zinc-500 text-sm">Email</span>
  <span className="text-white text-sm">{currentUser.email}</span>
  </div>
- <div className="flex items-center justify-between py-2 border-b border-[rgba(60,160,255,0.12)]">
+ <div className="flex items-center justify-between py-2 border-b border-[rgba(80,180,255,0.15)]">
  <span className="text-zinc-500 text-sm">Status</span>
  <span className="flex items-center gap-1.5 text-blood-500 text-sm">
  <CheckCircle className="w-3.5 h-3.5"/>
  Verified
  </span>
  </div>
- <div className="flex items-center justify-between py-2 border-b border-[rgba(60,160,255,0.12)]">
+ <div className="flex items-center justify-between py-2 border-b border-[rgba(80,180,255,0.15)]">
  <span className="text-zinc-500 text-sm">Member Since</span>
  <span className="text-white text-sm">{new Date(currentUser.createdAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
  </div>
- <div className="flex items-center justify-between py-2 border-b border-[rgba(60,160,255,0.12)]">
+ <div className="flex items-center justify-between py-2 border-b border-[rgba(80,180,255,0.15)]">
  <span className="text-zinc-500 text-sm">Saved Pages</span>
  <span className="text-white text-sm">{bookmarks.length}</span>
  </div>
@@ -312,7 +312,7 @@ export default function ContributorAuthPage() {
  <div className="space-y-3">
  <button
  onClick={() => { signOut(); setMode('signin'); setSuccess('Signed out successfully.'); }}
- className="w-full px-4 py-3 border border-[rgba(60,160,255,0.12)] hover:border-zinc-600 text-zinc-400 hover:text-white text-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-2"
+ className="w-full px-4 py-3 border border-[rgba(80,180,255,0.15)] hover:border-zinc-600 text-zinc-400 hover:text-white text-sm uppercase tracking-wider transition-colors flex items-center justify-center gap-2"
  >
  <LogOut className="w-4 h-4"/>
  Sign Out
@@ -333,7 +333,7 @@ export default function ContributorAuthPage() {
  </div>
 
  {/* Zero Data Banner */}
- <div className="mt-6 border border-[rgba(60,160,255,0.12)] bg-[rgba(0,20,55,0.40)] p-4">
+ <div className="mt-6 border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)] p-4">
  <div className="flex items-start gap-3">
  <Shield className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>
@@ -439,7 +439,7 @@ export default function ContributorAuthPage() {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-8"
+ className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-8"
  >
  {/* Header */}
  <div className="flex items-center gap-3 mb-6">
@@ -465,7 +465,7 @@ export default function ContributorAuthPage() {
  </div>
 
  {/* Warning Banner */}
- <div className="flex items-start gap-2 p-3 border border-[rgba(60,160,255,0.12)] bg-[rgba(0,20,55,0.40)] mb-6">
+ <div className="flex items-start gap-2 p-3 border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)] mb-6">
  <AlertTriangle className="w-4 h-4 text-blood-500 flex-shrink-0 mt-0.5"/>
  <p className="text-xs text-zinc-400 leading-relaxed">
  {mode === 'verify'
@@ -488,7 +488,7 @@ export default function ContributorAuthPage() {
  type="email"
  value={email}
  onChange={(e) => setEmail(e.target.value)}
- className="w-full pl-10 pr-4 py-3 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-600 focus:border-blood-700 focus:outline-none transition-colors text-sm"
+ className="w-full pl-10 pr-4 py-3 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-600 focus:border-blood-700 focus:outline-none transition-colors text-sm"
  placeholder="your@email.com"
  required
  autoFocus
@@ -507,7 +507,7 @@ export default function ContributorAuthPage() {
  type={showPassword ? 'text' : 'password'}
  value={password}
  onChange={(e) => setPassword(e.target.value)}
- className="w-full pl-10 pr-12 py-3 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-600 focus:border-blood-700 focus:outline-none transition-colors text-sm"
+ className="w-full pl-10 pr-12 py-3 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-600 focus:border-blood-700 focus:outline-none transition-colors text-sm"
  placeholder="Min 6 characters"
  required
  minLength={6}
@@ -534,7 +534,7 @@ export default function ContributorAuthPage() {
  type={showPassword ? 'text' : 'password'}
  value={confirmPassword}
  onChange={(e) => setConfirmPassword(e.target.value)}
- className="w-full pl-10 pr-4 py-3 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-600 focus:border-blood-700 focus:outline-none transition-colors text-sm"
+ className="w-full pl-10 pr-4 py-3 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-600 focus:border-blood-700 focus:outline-none transition-colors text-sm"
  placeholder="Re-enter password"
  required
  minLength={6}
@@ -558,7 +558,7 @@ export default function ContributorAuthPage() {
  type="text"
  value={verificationCode}
  onChange={(e) => setVerificationCode(e.target.value)}
- className="w-full pl-10 pr-4 py-3 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-600 focus:border-blood-700 focus:outline-none transition-colors text-sm font-mono tracking-widest uppercase"
+ className="w-full pl-10 pr-4 py-3 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-600 focus:border-blood-700 focus:outline-none transition-colors text-sm font-mono tracking-widest uppercase"
  placeholder="Enter code"
  required
  autoFocus
@@ -608,7 +608,7 @@ export default function ContributorAuthPage() {
 
  {/* Toggle sign in / sign up */}
  {mode !== 'verify' && (
- <div className="mt-6 pt-4 border-t border-[rgba(60,160,255,0.12)] text-center">
+ <div className="mt-6 pt-4 border-t border-[rgba(80,180,255,0.15)] text-center">
  <p className="text-sm text-zinc-500">
  {mode === 'signin' ? (
  <>
@@ -641,7 +641,7 @@ export default function ContributorAuthPage() {
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  transition={{ delay: 0.2 }}
- className="mt-6 border border-[rgba(60,160,255,0.12)] bg-[rgba(0,20,55,0.40)] p-4"
+ className="mt-6 border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)] p-4"
  >
  <div className="flex items-start gap-3">
  <Shield className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>

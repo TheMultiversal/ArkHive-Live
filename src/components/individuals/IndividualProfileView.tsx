@@ -68,7 +68,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  return (
  <div className="min-h-screen bg-black text-white">
  {/* Header */}
- <div className="border-b border-[rgba(60,160,255,0.12)]">
+ <div className="border-b border-[rgba(80,180,255,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <Link 
  href="/entities/individuals"
@@ -81,7 +81,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
  <div>
  <div className="flex items-center gap-4 mb-2">
- <div className="w-12 h-12 bg-[rgba(0,30,80,0.40)] flex items-center justify-center">
+ <div className="w-12 h-12 bg-[rgba(0,12,32,0.85)] flex items-center justify-center">
  <User className="w-6 h-6 text-blood-500"/>
  </div>
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[individual.riskLevel]}`}>
@@ -173,7 +173,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  {(individual.controversies || []).map((controversy, index) => (
  <div
  key={index}
- className="p-4 bg-[rgba(0,20,55,0.35)] border border-[rgba(60,160,255,0.12)] hover:border-blood-500/30 transition-all"
+ className="p-4 bg-[rgba(0,10,28,0.80)] border border-[rgba(80,180,255,0.15)] hover:border-blood-500/30 transition-all"
  >
  <div className="flex items-start gap-3">
  <AlertTriangle className="w-4 h-4 text-blood-500/60 mt-0.5 flex-shrink-0"/>
@@ -197,7 +197,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <Link
  key={investigation.slug}
  href={`/investigations/${investigation.slug}`}
- className="flex items-center justify-between p-4 bg-[rgba(0,20,55,0.40)] hover:bg-[rgba(0,30,80,0.30)] border border-[rgba(60,160,255,0.12)] hover:border-blood-500/30 transition-all"
+ className="flex items-center justify-between p-4 bg-[rgba(0,10,28,0.82)] hover:bg-[rgba(0,12,32,0.80)] border border-[rgba(80,180,255,0.15)] hover:border-blood-500/30 transition-all"
  >
  <span className="font-medium">{investigation.title}</span>
  <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[investigation.severity as keyof typeof severityColors]}`}>
@@ -232,14 +232,14 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  return acc;
  }, {} as Record<string, typeof individual.charges>)
  ).map(([category, charges]) => (
- <div key={category} className="border border-[rgba(60,160,255,0.12)] p-4">
+ <div key={category} className="border border-[rgba(80,180,255,0.15)] p-4">
  <h3 className="text-sm font-bold text-blood-500 uppercase tracking-wider mb-3">
  {category}
  </h3>
  <div className="space-y-2">
  {charges.map((charge, index) => (
  <div key={index} className="flex flex-col sm:flex-row sm:items-start gap-2 text-sm">
- <code className="text-xs bg-[rgba(0,20,55,0.50)] text-zinc-400 px-2 py-1 font-mono whitespace-nowrap">
+ <code className="text-xs bg-[rgba(0,10,28,0.85)] text-zinc-400 px-2 py-1 font-mono whitespace-nowrap">
  {charge.statute}
  </code>
  <span className="text-zinc-300">{charge.description}</span>
@@ -268,7 +268,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  {(individual.knownAssociates || []).map((associate, index) => (
  <div
  key={index}
- className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] hover:border-blood-500/30 transition-all"
+ className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] hover:border-blood-500/30 transition-all"
  >
  <div className="flex-1">
  {associate.href ? (
@@ -412,7 +412,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <h3 className="text-lg font-bold mb-4">Key Timeline</h3>
  <div className="space-y-4">
  {(individual.timeline || []).map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(60,160,255,0.12)]">
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>

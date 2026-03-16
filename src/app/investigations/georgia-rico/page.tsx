@@ -128,7 +128,7 @@ export default function GeorgiaRICOPage() {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-6 lg:p-8 mb-8"
+ className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8"
  >
  <div className="flex items-center gap-3 mb-4">
  <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/20 text-blood-400">
@@ -172,7 +172,7 @@ export default function GeorgiaRICOPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.15 }}
- className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Users className="w-5 h-5 text-blood-500"/>
@@ -188,7 +188,7 @@ export default function GeorgiaRICOPage() {
  <Link
  key={idx}
  href={figure.href}
- className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-4 hover:border-blood-600 transition-colors group"
+ className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.82)] p-4 hover:border-blood-600 transition-colors group"
  >
  <div className="flex justify-between items-start">
  <div>
@@ -215,7 +215,7 @@ export default function GeorgiaRICOPage() {
  </h2>
  <div className="space-y-3">
  {investigation.pleaDeals.map((deal, idx) => (
- <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-4">
+ <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.82)] p-4">
  <div className="flex justify-between items-start mb-2">
  <h3 className="font-bold glass-text">{deal.name}</h3>
  <span className="text-xs text-blood-400">{deal.date}</span>
@@ -245,7 +245,7 @@ export default function GeorgiaRICOPage() {
  <p className="text-zinc-300 mb-2"><strong>Reality:</strong> {investigation.rubyFreeman.reality}</p>
  <p className="text-zinc-300 mb-2"><strong>Impact:</strong> {investigation.rubyFreeman.consequences}</p>
  </div>
- <div className="border border-[rgba(60,160,255,0.12)] bg-black/50 p-4">
+ <div className="border border-[rgba(80,180,255,0.15)] bg-black/50 p-4">
  <div className="flex items-center gap-2">
  <DollarSign className="w-5 h-5 text-blood-500"/>
  <span className="text-2xl font-bold text-blood-400">$148 Million</span>
@@ -260,7 +260,7 @@ export default function GeorgiaRICOPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.3 }}
- className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <AlertTriangle className="w-5 h-5 text-blood-500"/>
@@ -268,7 +268,7 @@ export default function GeorgiaRICOPage() {
  </h2>
  <div className="space-y-3">
  {investigation.criminalActs.map((act, idx) => (
- <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-4">
+ <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.82)] p-4">
  <div className="flex justify-between items-start mb-2">
  <h3 className="font-bold glass-text">{act.act}</h3>
  <span className="text-xs text-blood-500">Evidence: {act.evidence}</span>
@@ -284,7 +284,7 @@ export default function GeorgiaRICOPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.35 }}
- className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Scale className="w-5 h-5 text-blood-500"/>
@@ -292,7 +292,7 @@ export default function GeorgiaRICOPage() {
  </h2>
  <div className="space-y-3">
  {investigation.charges.map((charge, idx) => (
- <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-4">
+ <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.82)] p-4">
  <div className="flex justify-between items-start">
  <div>
  <h3 className="font-mono text-sm text-blood-500">{charge.statute}</h3>
@@ -310,7 +310,7 @@ export default function GeorgiaRICOPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.4 }}
- className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Calendar className="w-5 h-5 text-blood-500"/>
@@ -327,16 +327,16 @@ export default function GeorgiaRICOPage() {
  </motion.div>
 
  
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6 mb-8">
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  {/* Sources */}
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.45 }}
- className="border-2 border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-6"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
@@ -349,7 +349,7 @@ export default function GeorgiaRICOPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between border border-[rgba(60,160,255,0.18)] bg-[rgba(0,20,55,0.40)] p-3 hover:border-blood-600 transition-colors group"
+ className="flex items-center justify-between border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.82)] p-3 hover:border-blood-600 transition-colors group"
  >
  <div>
  <h3 className="text-zinc-300 group-hover:text-blood-500 transition-colors">{source.title}</h3>

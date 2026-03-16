@@ -22,7 +22,7 @@ const tierConfig: Record<string, { label: string; color: string; categories: str
 export default function CategoriesIndexPage() {
   return (
     <div className="min-h-screen bg-black text-white">
-      <div className="border-b border-[rgba(60,160,255,0.12)]">
+      <div className="border-b border-[rgba(80,180,255,0.15)]">
         <div className="max-w-7xl mx-auto px-6 py-8">
           <Link
             href="/"
@@ -65,7 +65,7 @@ export default function CategoriesIndexPage() {
                   >
                     <Link
                       href={`/categories/${catSlug}`}
-                      className="block p-5 border border-[rgba(60,160,255,0.12)] bg-zinc-950/50 hover:border-blood-500/30 hover:bg-zinc-900/30 transition-all group"
+                      className="block p-5 border border-[rgba(80,180,255,0.15)] bg-zinc-950/50 hover:border-blood-500/30 hover:bg-zinc-900/30 transition-all group"
                     >
                       <h3 className="text-lg font-bold glass-text group-hover:text-blood-400 transition-colors mb-1">
                         {cat.name}

@@ -135,14 +135,14 @@ export default function PDFViewer({
  <div
  ref={containerRef}
  className={cn(
- 'flex flex-col bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)]',
+ 'flex flex-col bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)]',
  isFullscreen && 'fixed inset-0 z-50',
  className
  )}
  >
  {/* Toolbar */}
  {showToolbar && (
- <div className="flex items-center justify-between p-2 border-b border-[rgba(60,160,255,0.12)] bg-[rgba(0,30,80,0.30)]">
+ <div className="flex items-center justify-between p-2 border-b border-[rgba(80,180,255,0.15)] bg-[rgba(0,12,32,0.80)]">
  {/* Left: Title and page info */}
  <div className="flex items-center gap-4">
  <div className="flex items-center gap-2 text-white">
@@ -265,7 +265,7 @@ export default function PDFViewer({
  initial={{ height: 0, opacity: 0 }}
  animate={{ height: 'auto', opacity: 1 }}
  exit={{ height: 0, opacity: 0 }}
- className="border-b border-[rgba(60,160,255,0.12)] bg-zinc-800/30"
+ className="border-b border-[rgba(80,180,255,0.15)] bg-zinc-800/30"
  >
  <div className="flex items-center gap-2 p-2">
  <Search className="w-4 h-4 text-zinc-500"/>
@@ -284,7 +284,7 @@ export default function PDFViewer({
  <div className="flex-1 relative overflow-auto">
  {/* Loading state */}
  {loading && (
- <div className="absolute inset-0 flex items-center justify-center bg-[rgba(0,20,55,0.50)]">
+ <div className="absolute inset-0 flex items-center justify-center bg-[rgba(0,10,28,0.85)]">
  <div className="flex flex-col items-center gap-3">
  <Loader2 className="w-8 h-8 text-blood-500 animate-spin"/>
  <span className="text-sm text-zinc-400">Loading document...</span>
@@ -294,7 +294,7 @@ export default function PDFViewer({
 
  {/* Error state */}
  {error && (
- <div className="absolute inset-0 flex items-center justify-center bg-[rgba(0,20,55,0.50)]">
+ <div className="absolute inset-0 flex items-center justify-center bg-[rgba(0,10,28,0.85)]">
  <div className="flex flex-col items-center gap-3 text-center p-6">
  <AlertCircle className="w-12 h-12 text-blood-500"/>
  <div>
@@ -303,7 +303,7 @@ export default function PDFViewer({
  </div>
  <button
  onClick={() => window.location.reload()}
- className="px-4 py-2 bg-[rgba(0,30,80,0.40)] text-white hover:bg-zinc-700 transition-colors"
+ className="px-4 py-2 bg-[rgba(0,12,32,0.85)] text-white hover:bg-zinc-700 transition-colors"
  >
  Try again
  </button>
@@ -336,7 +336,7 @@ export default function PDFViewer({
 
  {/* Page thumbnails sidebar (optional) */}
  {numPages && numPages > 1 && (
- <div className="border-t border-[rgba(60,160,255,0.12)] bg-[rgba(0,30,80,0.30)] p-2">
+ <div className="border-t border-[rgba(80,180,255,0.15)] bg-[rgba(0,12,32,0.80)] p-2">
  <div className="flex gap-2 overflow-x-auto">
  {Array.from({ length: Math.min(numPages, 10) }, (_, i) => (
  <button

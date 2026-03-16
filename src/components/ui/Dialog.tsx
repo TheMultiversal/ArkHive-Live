@@ -177,7 +177,7 @@ export const DialogContent = forwardRef<HTMLDivElement, DialogContentProps>(
  animate={{ opacity: 1 }}
  exit={{ opacity: 0 }}
  transition={{ duration: 0.2 }}
- className="fixed inset-0 z-50 bg-[rgba(0,12,35,0.65)]"
+ className="fixed inset-0 z-50 bg-[rgba(0,6,20,0.90)]"
  onClick={closeOnOverlay ? close : undefined}
  aria-hidden="true"
  />
@@ -191,7 +191,7 @@ export const DialogContent = forwardRef<HTMLDivElement, DialogContentProps>(
  exit={{ opacity: 0, scale: 0.95 }}
  transition={{ duration: 0.2 }}
  className={cn(
- 'relative w-full bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] shadow-xl',
+ 'relative w-full bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] shadow-xl',
  'focus:outline-none',
  sizeStyles[size],
  className

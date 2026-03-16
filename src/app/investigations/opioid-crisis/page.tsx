@@ -186,7 +186,7 @@ export default function OpioidCrisisPage() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(60,160,255,0.12)]">
+ <div className="border-b border-[rgba(80,180,255,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
@@ -200,7 +200,7 @@ export default function OpioidCrisisPage() {
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-[rgba(0,30,80,0.40)] text-zinc-300 border border-[rgba(60,160,255,0.18)]">
+ <span className="px-3 py-1 text-xs font-medium bg-[rgba(0,12,32,0.85)] text-zinc-300 border border-[rgba(60,160,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -300,7 +300,7 @@ export default function OpioidCrisisPage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] hover:border-blood-500/50 transition-all"
  >
  <div>
  <span className="font-medium text-blood-400">{figure.name}</span>
@@ -326,7 +326,7 @@ export default function OpioidCrisisPage() {
  <p className="text-zinc-400 mb-4">{investigationData.regulatoryCapture.description}</p>
  <div className="space-y-4">
  {investigationData.regulatoryCapture.appointments.map((person, index) => (
- <div key={index} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={index} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <div className="flex justify-between items-start mb-2">
  <span className="font-bold text-blood-400">{person.name}</span>
  <span className="text-xs text-zinc-500">{person.position}</span>
@@ -361,7 +361,7 @@ export default function OpioidCrisisPage() {
  <p className="text-blood-400 text-sm">{investigationData.marinoBill.effect}</p>
  </div>
  </div>
- <div className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] mb-4">
+ <div className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] mb-4">
  <p className="text-xs text-zinc-500 uppercase mb-2">Outcome</p>
  <p className="text-zinc-300 text-sm">{investigationData.marinoBill.outcome}</p>
  </div>
@@ -379,23 +379,23 @@ export default function OpioidCrisisPage() {
  >
  <h2 className="text-xl font-bold mb-4">Administration Response</h2>
  <div className="space-y-3">
- <div className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <span className="text-zinc-400">Declared</span>
  <span className="text-zinc-200">{investigationData.administrationActions.declared}</span>
  </div>
- <div className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-blood-600/50">
+ <div className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-blood-600/50">
  <span className="text-zinc-400">Not Declared</span>
  <span className="text-blood-400">{investigationData.administrationActions.notDeclared}</span>
  </div>
- <div className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <span className="text-zinc-400">Funding</span>
  <span className="text-blood-600">{investigationData.administrationActions.funding}</span>
  </div>
- <div className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <span className="text-zinc-400">Treatment</span>
  <span className="text-blood-600">{investigationData.administrationActions.treatment}</span>
  </div>
- <div className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-blood-600/50">
+ <div className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-blood-600/50">
  <span className="text-zinc-400">Enforcement</span>
  <span className="text-blood-400">{investigationData.administrationActions.enforcement}</span>
  </div>
@@ -415,7 +415,7 @@ export default function OpioidCrisisPage() {
  </h2>
  <div className="space-y-3">
  {investigationData.recordDeaths.map((year, index) => (
- <div key={index} className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={index} className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <span className="font-mono text-zinc-400">{year.year}</span>
  <div className="flex items-center gap-4">
  <span className="font-bold text-blood-400">{year.deaths.toLocaleString()}</span>
@@ -451,15 +451,15 @@ export default function OpioidCrisisPage() {
  </div>
  </div>
  <div className="space-y-2">
- <div className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500">Marketing Fraud</p>
  <p className="text-sm text-zinc-300">{investigationData.sacklerConnection.marketingFraud}</p>
  </div>
- <div className="p-3 bg-[rgba(0,20,55,0.40)] border border-blood-600/50">
+ <div className="p-3 bg-[rgba(0,10,28,0.82)] border border-blood-600/50">
  <p className="text-xs text-zinc-500">Linked Deaths</p>
  <p className="text-sm text-blood-400">{investigationData.sacklerConnection.deaths}</p>
  </div>
- <div className="p-3 bg-[rgba(0,20,55,0.40)] border border-blood-800/50">
+ <div className="p-3 bg-[rgba(0,10,28,0.82)] border border-blood-800/50">
  <p className="text-xs text-zinc-500">Personal Liability</p>
  <p className="text-sm text-blood-600">{investigationData.sacklerConnection.personalLiability}</p>
  </div>
@@ -476,7 +476,7 @@ export default function OpioidCrisisPage() {
  <h2 className="text-xl font-bold mb-4">Promises vs. Reality</h2>
  <div className="space-y-3">
  {investigationData.failedPromises.map((item, index) => (
- <div key={index} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={index} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <div className="flex items-start justify-between gap-4">
  <div className="flex-1">
  <p className="text-xs text-zinc-500 uppercase">Promise</p>
@@ -505,7 +505,7 @@ export default function OpioidCrisisPage() {
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(60,160,255,0.12)]">
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -517,12 +517,12 @@ export default function OpioidCrisisPage() {
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -539,7 +539,7 @@ export default function OpioidCrisisPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[rgba(0,20,55,0.40)] hover:bg-[rgba(0,30,80,0.30)] border border-[rgba(60,160,255,0.12)] transition-colors"
+ className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] hover:bg-[rgba(0,12,32,0.80)] border border-[rgba(80,180,255,0.15)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

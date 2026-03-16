@@ -120,7 +120,7 @@ export default function ProudBoysSeditionPage() {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-6 lg:p-8 mb-8"
+ className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8"
  >
  <div className="flex items-center gap-3 mb-4">
  <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/20 text-blood-400">
@@ -154,19 +154,19 @@ export default function ProudBoysSeditionPage() {
  <p className="text-sm text-zinc-400">Enrique Tarrio</p>
  <p className="text-xs text-blood-400">Longest J6 Sentence</p>
  </div>
- <div className="bg-black/50 p-4 border border-[rgba(60,160,255,0.12)]">
+ <div className="bg-black/50 p-4 border border-[rgba(80,180,255,0.15)]">
  <p className="text-3xl font-black text-blood-700">18 YRS</p>
  <p className="text-sm text-zinc-400">Ethan Nordean</p>
  </div>
- <div className="bg-black/50 p-4 border border-[rgba(60,160,255,0.12)]">
+ <div className="bg-black/50 p-4 border border-[rgba(80,180,255,0.15)]">
  <p className="text-3xl font-black text-blood-700">17 YRS</p>
  <p className="text-sm text-zinc-400">Joseph Biggs</p>
  </div>
- <div className="bg-black/50 p-4 border border-[rgba(60,160,255,0.12)]">
+ <div className="bg-black/50 p-4 border border-[rgba(80,180,255,0.15)]">
  <p className="text-3xl font-black text-zinc-400">15 YRS</p>
  <p className="text-sm text-zinc-400">Zachary Rehl</p>
  </div>
- <div className="bg-black/50 p-4 border border-[rgba(60,160,255,0.12)]">
+ <div className="bg-black/50 p-4 border border-[rgba(80,180,255,0.15)]">
  <p className="text-3xl font-black text-zinc-400">10 YRS</p>
  <p className="text-sm text-zinc-400">Dominic Pezzola</p>
  </div>
@@ -198,7 +198,7 @@ export default function ProudBoysSeditionPage() {
  </h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
- <div key={idx} className="flex items-start justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={idx} className="flex items-start justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <div className="flex-1">
  {figure.href ? (
  <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">
@@ -257,7 +257,7 @@ export default function ProudBoysSeditionPage() {
  </h2>
  <div className="space-y-4">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="relative pl-4 border-l-2 border-[rgba(60,160,255,0.12)]">
+ <div key={idx} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -281,7 +281,7 @@ export default function ProudBoysSeditionPage() {
  </h3>
  <div className="space-y-3">
  {investigation.charges.map((charge, idx) => (
- <div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <code className="text-xs text-blood-400 font-mono">{charge.statute}</code>
  <p className="text-sm text-zinc-300 mt-1">{charge.description}</p>
  </div>
@@ -314,7 +314,7 @@ export default function ProudBoysSeditionPage() {
 
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  <motion.div
  initial={{ opacity: 0, x: 20 }}
@@ -332,7 +332,7 @@ export default function ProudBoysSeditionPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[rgba(0,20,55,0.40)] transition-colors"
+ className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[rgba(0,10,28,0.82)] transition-colors"
  >
  <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/>
  <div>

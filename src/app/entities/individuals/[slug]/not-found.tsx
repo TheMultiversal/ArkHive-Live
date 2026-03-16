@@ -7,7 +7,7 @@ export default function IndividualNotFound() {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
  <div className="max-w-lg mx-auto px-4 text-center">
- <div className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-12">
+ <div className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-12">
  {/* Icon */}
  <div className="w-24 h-24 mx-auto mb-8 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
  <Users className="w-12 h-12 text-blood-600"/>

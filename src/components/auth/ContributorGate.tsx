@@ -25,7 +25,7 @@ export default function ContributorGate({ children, action = 'perform this actio
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-8 mt-8"
+ className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-8 mt-8"
  >
  <div className="flex items-center gap-3 mb-6">
  <div className="w-12 h-12 border-2 border-blood-700 flex items-center justify-center">
@@ -54,7 +54,7 @@ export default function ContributorGate({ children, action = 'perform this actio
  </div>
 
  {/* Zero Data Promise */}
- <div className="mt-6 pt-4 border-t border-[rgba(60,160,255,0.12)] flex items-start gap-2">
+ <div className="mt-6 pt-4 border-t border-[rgba(80,180,255,0.15)] flex items-start gap-2">
  <Shield className="w-4 h-4 text-blood-500 flex-shrink-0 mt-0.5"/>
  <p className="text-xs text-zinc-500 leading-relaxed">
  ArkHive collects zero personal data. Your account is stored only in your browser&apos;s local storage. No data is ever sent to our servers.

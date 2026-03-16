@@ -152,7 +152,7 @@ export default function ReportModal({
  animate={{ opacity: 1 }}
  exit={{ opacity: 0 }}
  onClick={handleClose}
- className="fixed inset-0 bg-[rgba(0,12,35,0.65)] z-50"
+ className="fixed inset-0 bg-[rgba(0,6,20,0.90)] z-50"
  />
 
  {/* Modal */}
@@ -161,12 +161,12 @@ export default function ReportModal({
  animate={{ opacity: 1, scale: 1, y: 0 }}
  exit={{ opacity: 0, scale: 0.95, y: 20 }}
  className={cn(
- 'fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-lg bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] shadow-2xl z-50',
+ 'fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-lg bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] shadow-2xl z-50',
  className
  )}
  >
  {/* Header */}
- <div className="flex items-center justify-between p-4 border-b border-[rgba(60,160,255,0.12)]">
+ <div className="flex items-center justify-between p-4 border-b border-[rgba(80,180,255,0.15)]">
  <div className="flex items-center gap-3">
  <div className="p-2 bg-blood-500/10 text-blood-500">
  <Flag className="w-5 h-5"/>
@@ -202,7 +202,7 @@ export default function ReportModal({
  setSelectedReason(reason.value);
  setStep('details');
  }}
- className="w-full flex items-start gap-3 p-3 text-left bg-[rgba(0,30,80,0.30)] hover:bg-[rgba(0,30,80,0.40)] transition-colors group"
+ className="w-full flex items-start gap-3 p-3 text-left bg-[rgba(0,12,32,0.80)] hover:bg-[rgba(0,12,32,0.85)] transition-colors group"
  >
  <div className="w-5 h-5 mt-0.5 border border-zinc-600 group-hover:border-blood-500 flex items-center justify-center flex-shrink-0">
  {selectedReason === reason.value && (
@@ -231,7 +231,7 @@ export default function ReportModal({
  ← Change reason
  </button>
 
- <div className="p-3 bg-[rgba(0,30,80,0.30)] border border-[rgba(60,160,255,0.18)]">
+ <div className="p-3 bg-[rgba(0,12,32,0.80)] border border-[rgba(60,160,255,0.18)]">
  <p className="text-sm text-zinc-400">
  Reporting for:{' '}
  <span className="text-white font-medium">
@@ -250,7 +250,7 @@ export default function ReportModal({
  onChange={(e) => setDescription(e.target.value)}
  placeholder="Provide more context about why you're reporting this content..."
  rows={4}
- className="w-full px-3 py-2 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
+ className="w-full px-3 py-2 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
  />
  </div>
 
@@ -275,7 +275,7 @@ export default function ReportModal({
  {evidence.length > 0 && (
  <div className="mt-2 space-y-1">
  {evidence.map((file, i) => (
- <div key={i} className="flex items-center justify-between p-2 bg-[rgba(0,30,80,0.40)] text-sm">
+ <div key={i} className="flex items-center justify-between p-2 bg-[rgba(0,12,32,0.85)] text-sm">
  <span className="text-zinc-400 truncate">{file.name}</span>
  <button
  onClick={() => setEvidence(evidence.filter((_, idx) => idx !== i))}
@@ -328,7 +328,7 @@ export default function ReportModal({
  </p>
  <button
  onClick={handleClose}
- className="px-6 py-2 bg-[rgba(0,30,80,0.40)] text-white hover:bg-zinc-700 transition-colors"
+ className="px-6 py-2 bg-[rgba(0,12,32,0.85)] text-white hover:bg-zinc-700 transition-colors"
  >
  Close
  </button>
@@ -338,7 +338,7 @@ export default function ReportModal({
 
  {/* Footer */}
  {step === 'details' && (
- <div className="flex justify-end gap-3 p-4 border-t border-[rgba(60,160,255,0.12)]">
+ <div className="flex justify-end gap-3 p-4 border-t border-[rgba(80,180,255,0.15)]">
  <button
  onClick={handleClose}
  className="px-4 py-2 text-zinc-400 hover:text-white transition-colors"

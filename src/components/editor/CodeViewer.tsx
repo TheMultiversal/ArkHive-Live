@@ -169,13 +169,13 @@ export default function CodeViewer({
  return (
  <div
  className={cn(
- 'bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)]',
+ 'bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)]',
  isFullscreen && 'fixed inset-0 z-50',
  className
  )}
  >
  {/* Header */}
- <div className="flex items-center justify-between p-2 border-b border-[rgba(60,160,255,0.12)] bg-[rgba(0,30,80,0.30)]">
+ <div className="flex items-center justify-between p-2 border-b border-[rgba(80,180,255,0.15)] bg-[rgba(0,12,32,0.80)]">
  <div className="flex items-center gap-2">
  <button
  onClick={() => setCollapsed(!collapsed)}
@@ -191,7 +191,7 @@ export default function CodeViewer({
  {filename && (
  <span className="text-sm text-zinc-300">{filename}</span>
  )}
- <span className="text-xs text-zinc-500 bg-[rgba(0,30,80,0.40)] px-2 py-0.5">
+ <span className="text-xs text-zinc-500 bg-[rgba(0,12,32,0.85)] px-2 py-0.5">
  {language}
  </span>
  <span className="text-xs text-zinc-600">
@@ -254,7 +254,7 @@ export default function CodeViewer({
  initial={{ height: 0, opacity: 0 }}
  animate={{ height: 'auto', opacity: 1 }}
  exit={{ height: 0, opacity: 0 }}
- className="border-b border-[rgba(60,160,255,0.12)]"
+ className="border-b border-[rgba(80,180,255,0.15)]"
  >
  <div className="flex items-center gap-2 p-2">
  <Search className="w-4 h-4 text-zinc-500"/>
@@ -291,12 +291,12 @@ export default function CodeViewer({
  <tr
  key={index}
  className={cn(
- 'hover:bg-[rgba(0,30,80,0.30)] transition-colors',
+ 'hover:bg-[rgba(0,12,32,0.80)] transition-colors',
  isHighlighted && 'bg-blood-500/10'
  )}
  >
  {showLineNumbers && (
- <td className="px-3 py-0.5 text-right text-zinc-600 select-none border-r border-[rgba(60,160,255,0.12)] sticky left-0 bg-[rgba(0,20,55,0.50)]">
+ <td className="px-3 py-0.5 text-right text-zinc-600 select-none border-r border-[rgba(80,180,255,0.15)] sticky left-0 bg-[rgba(0,10,28,0.85)]">
  <span className="flex items-center justify-end gap-1">
  {isHighlighted && (
  <Hash className="w-3 h-3 text-blood-500"/>

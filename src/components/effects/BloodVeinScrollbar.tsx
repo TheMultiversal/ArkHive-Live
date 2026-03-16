@@ -26,7 +26,7 @@ export default function BloodVeinScrollbar() {
  style={{ opacity: isVisible ? 1 : 0 }}
  >
  {/* Main vein container */}
- <div className="relative w-3 h-64 bg-[rgba(0,12,35,0.65)] border border-blood-900/50 overflow-hidden">
+ <div className="relative w-3 h-64 bg-[rgba(0,6,20,0.90)] border border-blood-900/50 overflow-hidden">
  {/* Vein structure lines */}
  <svg className="absolute inset-0 w-full h-full"viewBox="0 0 12 256"preserveAspectRatio="none">
  <defs>

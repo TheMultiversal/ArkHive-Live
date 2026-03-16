@@ -93,7 +93,7 @@ export default function IndividualsPage() {
 
         {/* Header */}
         <div className="py-8">
-          <div className="border-2 border-blood-800/60 bg-[rgba(0,15,40,0.50)] p-6 lg:p-8 mb-8">
+          <div className="border-2 border-blood-800/60 bg-[rgba(0,8,25,0.85)] p-6 lg:p-8 mb-8">
             <div className="flex items-center gap-4 mb-6">
               <span className="h-[2px] flex-1 bg-gradient-to-r from-blood-700 to-transparent" />
               <Users className="w-6 h-6 text-blood-600" />
@@ -129,7 +129,7 @@ export default function IndividualsPage() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search individuals..."
-              className="w-full pl-12 pr-4 py-3 bg-[rgba(0,15,40,0.50)] border-2 border-[rgba(60,160,255,0.12)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
+              className="w-full pl-12 pr-4 py-3 bg-[rgba(0,8,25,0.85)] border-2 border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
             />
           </div>
 
@@ -146,11 +146,11 @@ export default function IndividualsPage() {
                       : level === "high"
                         ? " border-blood-700 bg-blood-900/30 text-blood-500"
                         : level === "moderate"
-                          ? " border-zinc-600 bg-[rgba(0,20,55,0.40)] text-zinc-300"
+                          ? " border-zinc-600 bg-[rgba(0,10,28,0.82)] text-zinc-300"
                           : level === "low"
                             ? " border-[rgba(60,160,255,0.18)] bg-zinc-900/30 text-zinc-400"
                             :"border-blood-700 bg-blood-900/30 text-white"
-                    :"border-[rgba(60,160,255,0.12)] bg-transparent text-zinc-500 hover:border-zinc-600"
+                    :"border-[rgba(80,180,255,0.15)] bg-transparent text-zinc-500 hover:border-zinc-600"
                 }`}
               >
                 {level} ({riskCounts[level]})
@@ -173,7 +173,7 @@ export default function IndividualsPage() {
         </div>
 
         {filtered.length === 0 && (
-          <div className="border border-[rgba(60,160,255,0.12)] bg-[rgba(0,15,40,0.50)] p-12 text-center">
+          <div className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-12 text-center">
             <div className="w-16 h-16 border-2 border-[rgba(60,160,255,0.18)] flex items-center justify-center mx-auto mb-4">
               <Skull className="w-8 h-8 text-zinc-600" />
             </div>

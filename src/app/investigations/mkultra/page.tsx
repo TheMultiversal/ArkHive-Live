@@ -127,7 +127,7 @@ export default function MKUltraPage() {
  </Link>
 
  {/* Header */}
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-6 lg:p-8 mb-8">
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8">
  <div className="flex items-center gap-3 mb-4">
  <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/20 text-blood-400">{investigation.severity}</span>
  <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-500/30 bg-zinc-500/20 text-zinc-400">{investigation.status}</span>
@@ -180,7 +180,7 @@ export default function MKUltraPage() {
  </h2>
  <div className="space-y-4">
  {investigation.subprojects.map((proj, idx) => (
- <div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={idx} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <p className="font-bold text-blood-400 text-sm">{proj.name}</p>
  <p className="text-sm text-zinc-300 mt-2">{proj.description}</p>
  <p className="text-xs text-blood-400 mt-2">Known victims: {proj.victims}</p>
@@ -197,7 +197,7 @@ export default function MKUltraPage() {
  </h2>
  <div className="space-y-4">
  {investigation.techniques.map((tech, idx) => (
- <div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={idx} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <p className="font-bold glass-text text-sm">{tech.method}</p>
  <p className="text-sm text-zinc-300 mt-2">{tech.description}</p>
  <p className="text-xs text-blood-400 mt-2">Legal violation: {tech.legality}</p>
@@ -214,7 +214,7 @@ export default function MKUltraPage() {
  </h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
- <div key={idx} className="flex items-start justify-between p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={idx} className="flex items-start justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <div className="flex-1">
  {figure.href ? (
  <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">{figure.name}</Link>
@@ -223,7 +223,7 @@ export default function MKUltraPage() {
  )}
  <p className="text-sm text-zinc-400 mt-1">{figure.role}</p>
  </div>
- <span className="text-xs px-2 py-1 bg-[rgba(0,30,80,0.40)] text-zinc-400 border border-[rgba(60,160,255,0.18)] whitespace-nowrap ml-2">{figure.status}</span>
+ <span className="text-xs px-2 py-1 bg-[rgba(0,12,32,0.85)] text-zinc-400 border border-[rgba(60,160,255,0.18)] whitespace-nowrap ml-2">{figure.status}</span>
  </div>
  ))}
  </div>
@@ -237,7 +237,7 @@ export default function MKUltraPage() {
  </h2>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
  {investigation.institutions.map((inst, idx) => (
- <div key={idx} className="p-2 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)] text-sm text-zinc-300">{inst}</div>
+ <div key={idx} className="p-2 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] text-sm text-zinc-300">{inst}</div>
  ))}
  </div>
  </motion.div>
@@ -250,7 +250,7 @@ export default function MKUltraPage() {
  </h2>
  <div className="space-y-3">
  {investigation.charges.map((charge, idx) => (
- <div key={idx} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={idx} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p>
  <p className="text-sm text-zinc-300 mt-1">{charge.description}</p>
  <p className="text-xs text-blood-400 mt-1">{charge.count}</p>
@@ -270,7 +270,7 @@ export default function MKUltraPage() {
  </h3>
  <div className="space-y-4">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="relative pl-4 border-l-2 border-[rgba(60,160,255,0.12)]">
+ <div key={idx} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -287,7 +287,7 @@ export default function MKUltraPage() {
  </h3>
  <div className="space-y-3">
  {investigation.legalOutcomes.map((item, idx) => (
- <div key={idx} className="p-3 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <p className="font-bold glass-text text-sm">{item.defendant}</p>
  <p className="text-xs text-zinc-400 mt-1">{item.charge}</p>
  <p className="text-xs text-blood-400 mt-1">{item.outcome}</p>
@@ -301,7 +301,7 @@ export default function MKUltraPage() {
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4">Sources</h3>
  <div className="space-y-2">
  {investigation.sources.map((source, idx) => (
- <a key={idx} href={source.url} target="_blank"rel="noopener noreferrer"className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[rgba(0,20,55,0.40)] transition-colors">
+ <a key={idx} href={source.url} target="_blank"rel="noopener noreferrer"className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[rgba(0,10,28,0.82)] transition-colors">
  <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/>
  <div>
  <span>{source.title}</span>

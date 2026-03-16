@@ -504,7 +504,7 @@ export default function TrumpCriminalCompendiumPage() {
  <AlertTriangle className="w-3 h-3"/>
  {investigationData.severity.toUpperCase()} THREAT
  </span>
- <span className="px-3 py-1.5 bg-[rgba(0,20,55,0.50)] text-zinc-400 text-xs font-medium border border-[rgba(60,160,255,0.12)]">
+ <span className="px-3 py-1.5 bg-[rgba(0,10,28,0.85)] text-zinc-400 text-xs font-medium border border-[rgba(80,180,255,0.15)]">
  {investigationData.category}
  </span>
  </div>
@@ -602,7 +602,7 @@ export default function TrumpCriminalCompendiumPage() {
  <h3 className="text-xl font-bold glass-text">{section.title}</h3>
  <div className="flex flex-wrap gap-2 mt-2">
  {section.statutes.slice(0, 2).map((statute, i) => (
- <code key={i} className="text-xs bg-[rgba(0,20,55,0.50)] text-zinc-500 px-2 py-1 font-mono">
+ <code key={i} className="text-xs bg-[rgba(0,10,28,0.85)] text-zinc-500 px-2 py-1 font-mono">
  {statute}
  </code>
  ))}
@@ -619,7 +619,7 @@ export default function TrumpCriminalCompendiumPage() {
  <motion.div
  initial={{ height: 0, opacity: 0 }}
  animate={{ height: 'auto', opacity: 1 }}
- className="px-6 pb-6 border-t border-[rgba(60,160,255,0.12)]"
+ className="px-6 pb-6 border-t border-[rgba(80,180,255,0.15)]"
  >
  {/* Full Statutes */}
  <div className="py-4 border-b border-[rgba(60,160,255,0.08)]">
@@ -675,7 +675,7 @@ export default function TrumpCriminalCompendiumPage() {
  <Link
  key={tag}
  href={`/investigations?tag=${encodeURIComponent(tag)}`}
- className="px-3 py-1.5 bg-[rgba(0,20,55,0.50)] hover:bg-[rgba(0,30,80,0.40)] text-zinc-400 text-sm border border-[rgba(60,160,255,0.12)] hover:border-blood-700 transition-colors"
+ className="px-3 py-1.5 bg-[rgba(0,10,28,0.85)] hover:bg-[rgba(0,12,32,0.85)] text-zinc-400 text-sm border border-[rgba(80,180,255,0.15)] hover:border-blood-700 transition-colors"
  >
  {tag}
  </Link>

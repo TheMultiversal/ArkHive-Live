@@ -17,7 +17,7 @@ export default function CorporationError({ error, reset }: ErrorProps) {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
  <div className="max-w-lg mx-auto px-4 text-center">
- <div className="border-2 border-blood-800/60 bg-[rgba(0,12,35,0.65)] p-8">
+ <div className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-8">
  <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
  <Building2 className="w-10 h-10 text-blood-600"/>
  </div>
@@ -32,7 +32,7 @@ export default function CorporationError({ error, reset }: ErrorProps) {
  </p>
 
  {error.digest && (
- <div className="mb-6 p-2 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div className="mb-6 p-2 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  <span className="text-xs text-zinc-600 font-mono">
  Reference: {error.digest}
  </span>

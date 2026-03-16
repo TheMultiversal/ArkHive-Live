@@ -12,7 +12,7 @@ export default function WorkspaceLoading() {
  <Users className="w-6 h-6 text-blood-700/50"/>
  </div>
  <div className="space-y-2">
- <div className="h-6 bg-[rgba(0,30,80,0.30)] rounded w-48"/>
+ <div className="h-6 bg-[rgba(0,12,32,0.80)] rounded w-48"/>
  <div className="h-4 bg-zinc-800/30 rounded w-32"/>
  </div>
  </div>
@@ -29,7 +29,7 @@ export default function WorkspaceLoading() {
  {/* Evidence Board Skeleton */}
  <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
  <div className="flex items-center justify-between mb-4">
- <div className="h-5 bg-[rgba(0,30,80,0.30)] rounded w-32"/>
+ <div className="h-5 bg-[rgba(0,12,32,0.80)] rounded w-32"/>
  <div className="flex gap-2">
  <div className="h-8 w-8 bg-zinc-800/40 rounded"/>
  <div className="h-8 w-8 bg-zinc-800/40 rounded"/>
@@ -44,7 +44,7 @@ export default function WorkspaceLoading() {
 
  {/* Chat Panel Skeleton */}
  <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[rgba(0,30,80,0.30)] rounded w-24 mb-4"/>
+ <div className="h-5 bg-[rgba(0,12,32,0.80)] rounded w-24 mb-4"/>
  <div className="space-y-3 h-64">
  {[...Array(4)].map((_, i) => (
  <div key={i} className="flex gap-3">
@@ -63,7 +63,7 @@ export default function WorkspaceLoading() {
  <div className="space-y-4">
  {/* Members Skeleton */}
  <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[rgba(0,30,80,0.30)] rounded w-20 mb-3"/>
+ <div className="h-5 bg-[rgba(0,12,32,0.80)] rounded w-20 mb-3"/>
  <div className="space-y-2">
  {[...Array(4)].map((_, i) => (
  <div key={i} className="flex items-center gap-2">
@@ -76,7 +76,7 @@ export default function WorkspaceLoading() {
 
  {/* Documents Skeleton */}
  <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[rgba(0,30,80,0.30)] rounded w-28 mb-3"/>
+ <div className="h-5 bg-[rgba(0,12,32,0.80)] rounded w-28 mb-3"/>
  <div className="space-y-2">
  {[...Array(3)].map((_, i) => (
  <div key={i} className="h-10 bg-zinc-800/20 rounded"/>
@@ -87,7 +87,7 @@ export default function WorkspaceLoading() {
  </div>
 
  {/* Loading indicator */}
- <div className="fixed bottom-6 right-6 flex items-center gap-2 px-3 py-2 bg-[rgba(0,12,35,0.65)] border border-blood-800/30">
+ <div className="fixed bottom-6 right-6 flex items-center gap-2 px-3 py-2 bg-[rgba(0,6,20,0.90)] border border-blood-800/30">
  <Skull className="w-4 h-4 text-blood-600 animate-pulse"/>
  <span className="text-xs text-blood-500/70 uppercase tracking-wider">Accessing workspace...</span>
  </div>

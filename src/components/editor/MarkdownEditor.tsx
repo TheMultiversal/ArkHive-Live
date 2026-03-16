@@ -253,10 +253,10 @@ function renderMarkdown(markdown: string): string {
  html = html.replace(/~~(.*?)~~/gim, '<del class="text-zinc-500">$1</del>');
 
  // Inline code
- html = html.replace(/`(.*?)`/gim, '<code class="px-1 py-0.5 bg-[rgba(0,30,80,0.40)] text-blood-400 font-mono text-sm">$1</code>');
+ html = html.replace(/`(.*?)`/gim, '<code class="px-1 py-0.5 bg-[rgba(0,12,32,0.85)] text-blood-400 font-mono text-sm">$1</code>');
 
  // Code blocks
- html = html.replace(/```([\s\S]*?)```/gim, '<pre class="p-4 bg-[rgba(0,30,80,0.40)] overflow-x-auto my-2"><code class="text-sm font-mono text-zinc-300">$1</code></pre>');
+ html = html.replace(/```([\s\S]*?)```/gim, '<pre class="p-4 bg-[rgba(0,12,32,0.85)] overflow-x-auto my-2"><code class="text-sm font-mono text-zinc-300">$1</code></pre>');
 
  // Links
  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/gim, '<a href="$2"class="text-blood-500 hover:underline"target="_blank">$1</a>');
@@ -377,13 +377,13 @@ export default function MarkdownEditor({
  }, [value, selection, handleToolbarAction]);
 
  const containerStyle = isFullscreen
- ? 'fixed inset-0 z-50 bg-[rgba(0,20,55,0.50)]'
+ ? 'fixed inset-0 z-50 bg-[rgba(0,10,28,0.85)]'
  : '';
 
  return (
  <div
  className={cn(
- 'bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.12)] flex flex-col',
+ 'bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] flex flex-col',
  containerStyle,
  className
  )}
@@ -392,7 +392,7 @@ export default function MarkdownEditor({
  >
  {/* Toolbar */}
  {showToolbar && !readOnly && (
- <div className="flex items-center flex-wrap gap-1 p-2 border-b border-[rgba(60,160,255,0.12)] bg-[rgba(0,30,80,0.30)]">
+ <div className="flex items-center flex-wrap gap-1 p-2 border-b border-[rgba(80,180,255,0.15)] bg-[rgba(0,12,32,0.80)]">
  {/* Formatting buttons */}
  {toolbarButtons.map((button, index) => (
  <button
@@ -516,7 +516,7 @@ export default function MarkdownEditor({
  </div>
 
  {/* Status bar */}
- <div className="flex items-center justify-between px-4 py-2 border-t border-[rgba(60,160,255,0.12)] text-xs text-zinc-500">
+ <div className="flex items-center justify-between px-4 py-2 border-t border-[rgba(80,180,255,0.15)] text-xs text-zinc-500">
  <span>
  {value.length} characters • {value.split(/\s+/).filter(Boolean).length} words
  </span>

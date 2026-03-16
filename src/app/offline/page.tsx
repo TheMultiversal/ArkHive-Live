@@ -22,7 +22,7 @@ export default function OfflinePage() {
  duration: 2, 
  repeat: Infinity,
  }}
- className="w-20 h-20 mx-auto mb-6 bg-[rgba(0,30,80,0.40)] flex items-center justify-center"
+ className="w-20 h-20 mx-auto mb-6 bg-[rgba(0,12,32,0.85)] flex items-center justify-center"
  >
  <WifiOff className="w-10 h-10 text-zinc-500"/>
  </motion.div>
@@ -54,7 +54,7 @@ export default function OfflinePage() {
  <motion.button
  whileHover={{ scale: 1.02 }}
  whileTap={{ scale: 0.98 }}
- className="w-full sm:w-auto px-6 py-2 bg-[rgba(0,30,80,0.40)] text-zinc-300 font-medium flex items-center justify-center gap-2 hover:bg-zinc-700 transition-colors"
+ className="w-full sm:w-auto px-6 py-2 bg-[rgba(0,12,32,0.85)] text-zinc-300 font-medium flex items-center justify-center gap-2 hover:bg-zinc-700 transition-colors"
  >
  <Home className="w-4 h-4"/>
  Go Home
@@ -73,7 +73,7 @@ export default function OfflinePage() {
  {[...Array(20)].map((_, i) => (
  <motion.div
  key={i}
- className="absolute w-1 h-1 bg-[rgba(0,30,80,0.40)]"
+ className="absolute w-1 h-1 bg-[rgba(0,12,32,0.85)]"
  style={{
  left: `${Math.random() * 100}%`,
  top: `${Math.random() * 100}%`,

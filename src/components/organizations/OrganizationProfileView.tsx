@@ -68,7 +68,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  className="mb-8"
  >
  <div className="flex items-start gap-6">
- <div className="w-20 h-20 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] flex items-center justify-center">
+ <div className="w-20 h-20 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] flex items-center justify-center">
  <Network className="w-10 h-10 text-blood-500"/>
  </div>
  <div className="flex-1">
@@ -102,7 +102,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  </h2>
  <p className="text-zinc-300 leading-relaxed">{org.description}</p>
  {org.mission && (
- <div className="mt-4 p-4 bg-[rgba(0,20,55,0.40)] border-l-2 border-blood-500">
+ <div className="mt-4 p-4 bg-[rgba(0,10,28,0.82)] border-l-2 border-blood-500">
  <p className="text-sm text-zinc-400">
  <strong className="text-zinc-300">Stated Mission:</strong> {org.mission}
  </p>
@@ -175,7 +175,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  </h2>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
  {org.keyFigures.map((figure, index) => (
- <div key={index} className="p-4 bg-[rgba(0,20,55,0.40)] border border-[rgba(60,160,255,0.12)]">
+ <div key={index} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
  {figure.href ? (
  <Link href={figure.href} className="hover:text-blood-500 transition-colors">
  <p className="font-semibold">{figure.name}</p>
@@ -280,7 +280,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  <Link
  key={index}
  href={`/investigations/${inv.slug}`}
- className="block p-3 bg-[rgba(0,20,55,0.40)] hover:bg-[rgba(0,30,80,0.40)] transition-colors"
+ className="block p-3 bg-[rgba(0,10,28,0.82)] hover:bg-[rgba(0,12,32,0.85)] transition-colors"
  >
  <p className="text-sm font-medium">{inv.title}</p>
  <span className={`text-xs ${
@@ -307,7 +307,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  <h3 className="font-bold mb-4 text-blood-500">Affiliated Organizations</h3>
  <div className="space-y-2">
  {org.affiliatedOrganizations.map((aff, index) => (
- <div key={index} className="p-3 bg-[rgba(0,20,55,0.40)]">
+ <div key={index} className="p-3 bg-[rgba(0,10,28,0.82)]">
  {aff.href ? (
  <Link href={aff.href} className="hover:text-blood-500 transition-colors">
  <p className="text-sm font-medium">{aff.name}</p>

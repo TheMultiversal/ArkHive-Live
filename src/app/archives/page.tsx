@@ -49,14 +49,14 @@ function SavedPageCard({
  >
  <div className="flex items-start justify-between mb-3">
  <div className="flex items-center gap-2">
- <div className="p-1.5 bg-[rgba(0,30,80,0.40)] text-zinc-400">
+ <div className="p-1.5 bg-[rgba(0,12,32,0.85)] text-zinc-400">
  {typeIcons[item.type] || <Bookmark className="w-4 h-4"/>}
  </div>
- <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[rgba(0,30,80,0.40)] text-zinc-500">
+ <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[rgba(0,12,32,0.85)] text-zinc-500">
  {item.type}
  </span>
  {item.severity && (
- <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-[rgba(0,30,80,0.40)] border-[rgba(60,160,255,0.18)]'}`}>
+ <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-[rgba(0,12,32,0.85)] border-[rgba(60,160,255,0.18)]'}`}>
  {item.severity}
  </span>
  )}
@@ -79,7 +79,7 @@ function SavedPageCard({
  )}
  </Link>
 
- <div className="flex items-center justify-between pt-3 border-t border-[rgba(60,160,255,0.12)] text-xs text-zinc-500">
+ <div className="flex items-center justify-between pt-3 border-t border-[rgba(80,180,255,0.15)] text-xs text-zinc-500">
  <div className="flex items-center gap-1">
  <Clock className="w-3 h-3"/>
  Saved {formatDistanceToNow(new Date(item.savedAt), { addSuffix: true })}
@@ -161,7 +161,7 @@ export default function SavedPagesPage() {
  {bookmarks.length > 0 && (
  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[rgba(0,30,80,0.40)]">
+ <div className="p-2 bg-[rgba(0,12,32,0.85)]">
  <BookmarkCheck className="w-5 h-5 text-blood-500"/>
  </div>
  <div>
@@ -170,7 +170,7 @@ export default function SavedPagesPage() {
  </div>
  </div>
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[rgba(0,30,80,0.40)]">
+ <div className="p-2 bg-[rgba(0,12,32,0.85)]">
  <Target className="w-5 h-5 text-blood-500"/>
  </div>
  <div>
@@ -179,7 +179,7 @@ export default function SavedPagesPage() {
  </div>
  </div>
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[rgba(0,30,80,0.40)]">
+ <div className="p-2 bg-[rgba(0,12,32,0.85)]">
  <Users className="w-5 h-5 text-zinc-400"/>
  </div>
  <div>
@@ -211,7 +211,7 @@ export default function SavedPagesPage() {
  className={`px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors ${
  typeFilter === type
  ? 'bg-blood-600 text-white'
- : 'bg-[rgba(0,30,80,0.40)] text-zinc-400 hover:text-white'
+ : 'bg-[rgba(0,12,32,0.85)] text-zinc-400 hover:text-white'
  }`}
  >
  {type === 'all' ? 'All' : type === 'investigation' ? 'Investigations' : 'Entities'}
@@ -260,7 +260,7 @@ export default function SavedPagesPage() {
  </AnimatePresence>
 
  {/* Privacy Note */}
- <div className="mt-12 border border-[rgba(60,160,255,0.12)] bg-[rgba(0,20,55,0.40)] p-4">
+ <div className="mt-12 border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)] p-4">
  <div className="flex items-start gap-3">
  <AlertTriangle className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>

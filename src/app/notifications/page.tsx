@@ -633,7 +633,7 @@ function NotificationCard({
  notification.read 
  ? 'border-[rgba(60,160,255,0.18)] bg-transparent' 
  : 'border-blood-500 bg-blood-500/5'
- } hover:bg-[rgba(0,20,55,0.40)] transition-colors relative group`}
+ } hover:bg-[rgba(0,10,28,0.82)] transition-colors relative group`}
  >
  <div className="flex gap-4">
  <div className={`p-2 h-fit ${typeColors[notification.type]}`}>
@@ -676,7 +676,7 @@ function NotificationCard({
  onMarkRead(notification.id);
  setShowMenu(false);
  }}
- className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[rgba(0,30,80,0.40)] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[rgba(0,12,32,0.85)] flex items-center gap-2"
  >
  <Check className="w-3 h-3"/>
  Mark as read
@@ -685,7 +685,7 @@ function NotificationCard({
  {notification.actionUrl && (
  <a
  href={notification.actionUrl}
- className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[rgba(0,30,80,0.40)] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[rgba(0,12,32,0.85)] flex items-center gap-2"
  >
  <Eye className="w-3 h-3"/>
  View details
@@ -696,7 +696,7 @@ function NotificationCard({
  onDelete(notification.id);
  setShowMenu(false);
  }}
- className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[rgba(0,30,80,0.40)] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[rgba(0,12,32,0.85)] flex items-center gap-2"
  >
  <Trash2 className="w-3 h-3"/>
  Delete
@@ -821,7 +821,7 @@ export default function NotificationsPage() {
  <select
  value={typeFilter}
  onChange={(e) => setTypeFilter(e.target.value)}
- className="px-3 py-2 bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] text-white text-sm focus:outline-none focus:border-blood-500"
+ className="px-3 py-2 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] text-white text-sm focus:outline-none focus:border-blood-500"
  >
  <option value="all">All types</option>
  <option value="alert">Alerts</option>

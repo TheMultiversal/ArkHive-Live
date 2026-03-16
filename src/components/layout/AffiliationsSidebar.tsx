@@ -59,7 +59,7 @@ export default function AffiliationsSidebar({
  {/* Overlay */}
  {isOpen && (
  <div
- className="fixed inset-0 bg-[rgba(0,15,40,0.55)] z-40 lg:hidden"
+ className="fixed inset-0 bg-[rgba(0,8,25,0.88)] z-40 lg:hidden"
  onClick={onClose}
  />
  )}
@@ -79,7 +79,7 @@ export default function AffiliationsSidebar({
  </h3>
  <button
  onClick={onClose}
- className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-[rgba(0,20,55,0.50)] transition-colors"
+ className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-[rgba(0,10,28,0.85)] transition-colors"
  >
  <X className="w-5 h-5"/>
  </button>

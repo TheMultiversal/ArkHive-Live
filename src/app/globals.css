@@ -172,18 +172,20 @@ a:focus-visible {
   background: linear-gradient(180deg, #0077ee 0%, #0044aa 50%, #0066cc 100%);
 }
 
-/* GLOSSY GLASS styles - SHINY, REFLECTIVE, NO FOG */
+/* GLOSSY GLASS styles - POLISHED, REFLECTIVE, PREMIUM */
 @layer components {
   .glass {
     background: linear-gradient(160deg, 
-      rgba(0, 40, 100, 0.35) 0%, 
-      rgba(0, 20, 60, 0.55) 50%,
-      rgba(0, 30, 80, 0.40) 100%);
-    border: 1px solid rgba(60, 160, 255, 0.25);
+      rgba(0, 20, 50, 0.75) 0%, 
+      rgba(0, 10, 30, 0.88) 50%,
+      rgba(0, 15, 40, 0.80) 100%);
+    border: 1px solid rgba(80, 180, 255, 0.25);
+    border-top-color: rgba(140, 210, 255, 0.35);
     box-shadow: 
-      inset 0 1px 0 rgba(255, 255, 255, 0.15),
-      inset 0 -1px 0 rgba(0, 0, 0, 0.2),
-      0 1px 3px rgba(0, 0, 0, 0.3);
+      inset 0 1px 0 rgba(255, 255, 255, 0.20),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.4),
+      0 1px 3px rgba(0, 0, 0, 0.5),
+      0 0 15px rgba(0, 60, 140, 0.08);
     position: relative;
   }
 
@@ -193,43 +195,44 @@ a:focus-visible {
     top: 0;
     left: 0;
     right: 0;
-    height: 40%;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, transparent 100%);
+    height: 1px;
+    background: linear-gradient(90deg, transparent 5%, rgba(140, 210, 255, 0.5) 30%, rgba(255, 255, 255, 0.35) 50%, rgba(140, 210, 255, 0.5) 70%, transparent 95%);
     pointer-events: none;
+    z-index: 2;
   }
 
   .glass-card {
     background: linear-gradient(160deg, 
-      rgba(0, 50, 120, 0.30) 0%, 
-      rgba(0, 20, 60, 0.50) 40%,
-      rgba(0, 35, 90, 0.35) 100%);
-    border: 1px solid rgba(60, 160, 255, 0.2);
+      rgba(0, 18, 45, 0.80) 0%, 
+      rgba(0, 8, 25, 0.92) 40%,
+      rgba(0, 14, 38, 0.85) 100%);
+    border: 1px solid rgba(80, 180, 255, 0.18);
+    border-top-color: rgba(140, 210, 255, 0.30);
     border-radius: 0 !important;
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     position: relative;
     overflow: hidden;
     box-shadow: 
-      inset 0 1px 0 rgba(255, 255, 255, 0.12),
-      0 4px 20px rgba(0, 0, 0, 0.3);
+      inset 0 1px 0 rgba(255, 255, 255, 0.15),
+      inset 0 0 30px rgba(0, 40, 100, 0.10),
+      0 4px 24px rgba(0, 0, 0, 0.5),
+      0 0 1px rgba(80, 180, 255, 0.3);
   }
 
-  /* Glossy shine strip across top */
+  /* Bright top-edge specular highlight */
   .glass-card::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 50%;
-    background: linear-gradient(180deg, 
-      rgba(255, 255, 255, 0.07) 0%, 
-      rgba(255, 255, 255, 0.02) 40%,
-      transparent 100%);
+    height: 1px;
+    background: linear-gradient(90deg, transparent 5%, rgba(140, 210, 255, 0.45) 25%, rgba(255, 255, 255, 0.30) 50%, rgba(140, 210, 255, 0.45) 75%, transparent 95%);
     pointer-events: none;
-    z-index: 1;
+    z-index: 2;
   }
 
-  /* Glossy diagonal highlight */
+  /* Glossy diagonal reflection streak */
   .glass-card::after {
     content: '';
     position: absolute;
@@ -239,24 +242,28 @@ a:focus-visible {
     height: 200%;
     background: linear-gradient(225deg, 
       transparent 0%,
-      transparent 43%,
-      rgba(255, 255, 255, 0.03) 45%,
-      rgba(255, 255, 255, 0.06) 50%,
-      rgba(255, 255, 255, 0.03) 55%,
-      transparent 57%,
+      transparent 42%,
+      rgba(100, 180, 255, 0.04) 44%,
+      rgba(140, 210, 255, 0.08) 48%,
+      rgba(255, 255, 255, 0.10) 50%,
+      rgba(140, 210, 255, 0.08) 52%,
+      rgba(100, 180, 255, 0.04) 56%,
+      transparent 58%,
       transparent 100%);
     pointer-events: none;
     z-index: 1;
   }
 
   .glass-card:hover {
-    border-color: rgba(60, 160, 255, 0.5);
+    border-color: rgba(100, 190, 255, 0.45);
+    border-top-color: rgba(160, 220, 255, 0.55);
     box-shadow: 
-      0 0 1px rgba(60, 160, 255, 0.8),
-      0 0 25px rgba(0, 100, 220, 0.2),
-      0 0 60px rgba(0, 85, 184, 0.08),
-      0 8px 40px rgba(0, 0, 0, 0.4),
-      inset 0 1px 0 rgba(255, 255, 255, 0.22);
+      0 0 1px rgba(100, 190, 255, 0.9),
+      0 0 20px rgba(0, 100, 220, 0.20),
+      0 0 50px rgba(0, 85, 184, 0.08),
+      0 8px 40px rgba(0, 0, 0, 0.5),
+      inset 0 1px 0 rgba(255, 255, 255, 0.25),
+      inset 0 0 30px rgba(0, 60, 140, 0.12);
     transform: translateY(-2px);
   }
 
@@ -344,13 +351,10 @@ a:focus-visible {
     top: 0;
     left: 0;
     right: 0;
-    height: 50%;
-    background: linear-gradient(180deg, 
-      rgba(255, 255, 255, 0.08) 0%, 
-      rgba(255, 255, 255, 0.02) 50%,
-      transparent 100%);
+    height: 1px;
+    background: linear-gradient(90deg, transparent 5%, rgba(140, 210, 255, 0.4) 30%, rgba(255, 255, 255, 0.25) 50%, rgba(140, 210, 255, 0.4) 70%, transparent 95%);
     pointer-events: none;
-    z-index: 1;
+    z-index: 2;
   }
 
   .gloss::after {
@@ -361,11 +365,13 @@ a:focus-visible {
     width: 300%;
     height: 300%;
     background: linear-gradient(225deg, 
-      transparent 0%, transparent 44%,
-      rgba(255, 255, 255, 0.04) 46%,
-      rgba(255, 255, 255, 0.08) 50%,
-      rgba(255, 255, 255, 0.04) 54%,
-      transparent 56%, transparent 100%);
+      transparent 0%, transparent 43%,
+      rgba(100, 180, 255, 0.03) 45%,
+      rgba(140, 210, 255, 0.07) 48%,
+      rgba(255, 255, 255, 0.09) 50%,
+      rgba(140, 210, 255, 0.07) 52%,
+      rgba(100, 180, 255, 0.03) 55%,
+      transparent 57%, transparent 100%);
     pointer-events: none;
     z-index: 1;
   }
@@ -413,8 +419,9 @@ a:focus-visible {
   }
 
   .danger-badge {
-    background: linear-gradient(160deg, rgba(0, 60, 140, 0.30), rgba(0, 30, 80, 0.40));
-    border: 1px solid rgba(60, 160, 255, 0.35);
+    background: linear-gradient(160deg, rgba(0, 20, 55, 0.80), rgba(0, 10, 35, 0.90));
+    border: 1px solid rgba(80, 180, 255, 0.30);
+    border-top-color: rgba(140, 210, 255, 0.35);
     color: #d8eafc;
     padding: 4px 12px;
     border-radius: 0 !important;
@@ -422,19 +429,21 @@ a:focus-visible {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.10);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 0 1px rgba(80, 180, 255, 0.25);
   }
 
-  /* Glass panel - glossy translucent surface */
+  /* Glass panel - polished dark reflective surface */
   .glass-panel {
     background: linear-gradient(160deg, 
-      rgba(0, 40, 100, 0.30) 0%, 
-      rgba(0, 20, 60, 0.50) 50%,
-      rgba(0, 30, 80, 0.35) 100%);
-    border: 1px solid rgba(60, 160, 255, 0.15);
+      rgba(0, 18, 45, 0.78) 0%, 
+      rgba(0, 8, 25, 0.90) 50%,
+      rgba(0, 14, 38, 0.82) 100%);
+    border: 1px solid rgba(80, 180, 255, 0.15);
+    border-top-color: rgba(140, 210, 255, 0.28);
     box-shadow: 
-      0 4px 30px rgba(0, 0, 0, 0.3), 
-      inset 0 1px 0 rgba(255, 255, 255, 0.10);
+      0 4px 30px rgba(0, 0, 0, 0.5), 
+      0 0 1px rgba(80, 180, 255, 0.25),
+      inset 0 1px 0 rgba(255, 255, 255, 0.15);
     position: relative;
   }
 
@@ -444,26 +453,28 @@ a:focus-visible {
     top: 0;
     left: 0;
     right: 0;
-    height: 45%;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, transparent 100%);
+    height: 1px;
+    background: linear-gradient(90deg, transparent 5%, rgba(140, 210, 255, 0.4) 30%, rgba(255, 255, 255, 0.25) 50%, rgba(140, 210, 255, 0.4) 70%, transparent 95%);
     pointer-events: none;
+    z-index: 2;
   }
 
   .entity-tag {
-    background: linear-gradient(160deg, rgba(0, 40, 100, 0.30), rgba(0, 15, 45, 0.50));
-    border: 1px solid rgba(60, 160, 255, 0.25);
+    background: linear-gradient(160deg, rgba(0, 18, 50, 0.80), rgba(0, 8, 28, 0.90));
+    border: 1px solid rgba(80, 180, 255, 0.20);
+    border-top-color: rgba(140, 210, 255, 0.28);
     padding: 6px 14px;
     border-radius: 0 !important;
     font-size: 0.875rem;
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     position: relative;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12), 0 0 1px rgba(80, 180, 255, 0.2);
   }
 
   .entity-tag:hover {
-    border-color: rgba(60, 160, 255, 0.5);
-    background: linear-gradient(160deg, rgba(0, 60, 140, 0.35), rgba(0, 30, 80, 0.45));
-    box-shadow: 0 0 12px rgba(0, 120, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    border-color: rgba(100, 190, 255, 0.45);
+    background: linear-gradient(160deg, rgba(0, 25, 65, 0.82), rgba(0, 12, 38, 0.90));
+    box-shadow: 0 0 15px rgba(0, 120, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.18);
   }
 
   .blood-splatter {

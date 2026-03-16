@@ -96,7 +96,7 @@ export default function BookmarkButton({
  sizeClasses[size],
  isBookmarked
  ? 'text-blood-500 bg-blood-500/10'
- : 'text-zinc-400 hover:text-blood-500 bg-[rgba(0,30,80,0.40)] hover:bg-zinc-700'
+ : 'text-zinc-400 hover:text-blood-500 bg-[rgba(0,12,32,0.85)] hover:bg-zinc-700'
  )}
  >
  <motion.div
@@ -131,7 +131,7 @@ export default function BookmarkButton({
  className={cn(
  'flex items-center transition-colors border-l border-[rgba(60,160,255,0.18)]',
  sizeClasses[size],
- 'text-zinc-400 hover:text-white bg-[rgba(0,30,80,0.40)] hover:bg-zinc-700'
+ 'text-zinc-400 hover:text-white bg-[rgba(0,12,32,0.85)] hover:bg-zinc-700'
  )}
  >
  <ChevronDown className="w-3 h-3"/>
@@ -146,7 +146,7 @@ export default function BookmarkButton({
  initial={{ opacity: 0, y: -5 }}
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: -5 }}
- className="absolute right-0 top-full mt-2 w-56 bg-[rgba(0,30,80,0.40)] border border-[rgba(60,160,255,0.18)] shadow-xl z-20"
+ className="absolute right-0 top-full mt-2 w-56 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] shadow-xl z-20"
  >
  <div className="p-2 border-b border-[rgba(60,160,255,0.18)]">
  <p className="text-xs text-zinc-500 uppercase tracking-wider px-2 mb-2">
@@ -180,7 +180,7 @@ export default function BookmarkButton({
  onChange={(e) => setNewCollection(e.target.value)}
  onKeyDown={(e) => e.key === 'Enter' && handleCreateCollection()}
  placeholder="New collection..."
- className="flex-1 px-2 py-1.5 text-sm bg-[rgba(0,20,55,0.50)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="flex-1 px-2 py-1.5 text-sm bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  />
  <button
  onClick={handleCreateCollection}

@@ -10,16 +10,16 @@ export function CardSkeleton({ className = '' }: { className?: string }) {
  return (
  <div className={`glass-card p-6 animate-pulse ${className}`}>
  <div className="flex items-start justify-between mb-4">
- <div className="h-6 w-3/4 bg-[rgba(0,30,80,0.40)]"/>
- <div className="h-5 w-16 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-6 w-3/4 bg-[rgba(0,12,32,0.85)]"/>
+ <div className="h-5 w-16 bg-[rgba(0,12,32,0.85)]"/>
  </div>
  <div className="space-y-2 mb-4">
- <div className="h-4 w-full bg-[rgba(0,30,80,0.40)]"/>
- <div className="h-4 w-2/3 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-4 w-full bg-[rgba(0,12,32,0.85)]"/>
+ <div className="h-4 w-2/3 bg-[rgba(0,12,32,0.85)]"/>
  </div>
  <div className="flex gap-2">
- <div className="h-6 w-16 bg-[rgba(0,30,80,0.40)]"/>
- <div className="h-6 w-20 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-6 w-16 bg-[rgba(0,12,32,0.85)]"/>
+ <div className="h-6 w-20 bg-[rgba(0,12,32,0.85)]"/>
  </div>
  </div>
  );
@@ -31,13 +31,13 @@ export function CardSkeleton({ className = '' }: { className?: string }) {
 
 export function ListItemSkeleton({ className = '' }: { className?: string }) {
  return (
- <div className={`flex items-center gap-4 p-4 bg-[rgba(0,20,55,0.40)] animate-pulse ${className}`}>
- <div className="w-10 h-10 bg-[rgba(0,30,80,0.40)]"/>
+ <div className={`flex items-center gap-4 p-4 bg-[rgba(0,10,28,0.82)] animate-pulse ${className}`}>
+ <div className="w-10 h-10 bg-[rgba(0,12,32,0.85)]"/>
  <div className="flex-1">
- <div className="h-4 w-1/2 bg-[rgba(0,30,80,0.40)] mb-2"/>
- <div className="h-3 w-1/3 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-4 w-1/2 bg-[rgba(0,12,32,0.85)] mb-2"/>
+ <div className="h-3 w-1/3 bg-[rgba(0,12,32,0.85)]"/>
  </div>
- <div className="h-8 w-20 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-8 w-20 bg-[rgba(0,12,32,0.85)]"/>
  </div>
  );
 }
@@ -50,9 +50,9 @@ export function TableSkeleton({ rows = 5, cols = 4 }: { rows?: number; cols?: nu
  return (
  <div className="w-full animate-pulse">
  {/* Header */}
- <div className="flex gap-4 p-4 border-b border-[rgba(60,160,255,0.12)]">
+ <div className="flex gap-4 p-4 border-b border-[rgba(80,180,255,0.15)]">
  {Array.from({ length: cols }).map((_, i) => (
- <div key={i} className="flex-1 h-4 bg-[rgba(0,30,80,0.40)]"/>
+ <div key={i} className="flex-1 h-4 bg-[rgba(0,12,32,0.85)]"/>
  ))}
  </div>
  {/* Rows */}
@@ -61,7 +61,7 @@ export function TableSkeleton({ rows = 5, cols = 4 }: { rows?: number; cols?: nu
  {Array.from({ length: cols }).map((_, colIdx) => (
  <div 
  key={colIdx} 
- className="flex-1 h-4 bg-[rgba(0,30,80,0.40)]"
+ className="flex-1 h-4 bg-[rgba(0,12,32,0.85)]"
  style={{ width: `${60 + Math.random() * 40}%` }}
  />
  ))}
@@ -80,8 +80,8 @@ export function StatsSkeleton({ count = 4 }: { count?: number }) {
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 animate-pulse">
  {Array.from({ length: count }).map((_, i) => (
  <div key={i} className="glass-card p-4">
- <div className="h-3 w-20 bg-[rgba(0,30,80,0.40)] mb-2"/>
- <div className="h-8 w-16 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-3 w-20 bg-[rgba(0,12,32,0.85)] mb-2"/>
+ <div className="h-8 w-16 bg-[rgba(0,12,32,0.85)]"/>
  </div>
  ))}
  </div>
@@ -95,12 +95,12 @@ export function StatsSkeleton({ count = 4 }: { count?: number }) {
 export function ChartSkeleton({ className = '' }: { className?: string }) {
  return (
  <div className={`glass-card p-6 animate-pulse ${className}`}>
- <div className="h-5 w-32 bg-[rgba(0,30,80,0.40)] mb-4"/>
- <div className="h-64 w-full bg-[rgba(0,30,80,0.30)] flex items-end justify-around p-4">
+ <div className="h-5 w-32 bg-[rgba(0,12,32,0.85)] mb-4"/>
+ <div className="h-64 w-full bg-[rgba(0,12,32,0.80)] flex items-end justify-around p-4">
  {Array.from({ length: 7 }).map((_, i) => (
  <div 
  key={i} 
- className="bg-[rgba(0,30,80,0.40)] w-8"
+ className="bg-[rgba(0,12,32,0.85)] w-8"
  style={{ height: `${30 + Math.random() * 70}%` }}
  />
  ))}
@@ -116,10 +116,10 @@ export function ChartSkeleton({ className = '' }: { className?: string }) {
 export function ProfileSkeleton({ className = '' }: { className?: string }) {
  return (
  <div className={`flex items-center gap-4 animate-pulse ${className}`}>
- <div className="w-12 h-12 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="w-12 h-12 bg-[rgba(0,12,32,0.85)]"/>
  <div>
- <div className="h-4 w-32 bg-[rgba(0,30,80,0.40)] mb-2"/>
- <div className="h-3 w-24 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-4 w-32 bg-[rgba(0,12,32,0.85)] mb-2"/>
+ <div className="h-3 w-24 bg-[rgba(0,12,32,0.85)]"/>
  </div>
  </div>
  );
@@ -135,7 +135,7 @@ export function TextBlockSkeleton({ lines = 3 }: { lines?: number }) {
  {Array.from({ length: lines }).map((_, i) => (
  <div 
  key={i} 
- className="h-4 bg-[rgba(0,30,80,0.40)]"
+ className="h-4 bg-[rgba(0,12,32,0.85)]"
  style={{ width: i === lines - 1 ? '60%' : '100%' }}
  />
  ))}
@@ -152,16 +152,16 @@ export function PageSkeleton() {
  <div className="min-h-screen p-8 animate-pulse">
  {/* Header */}
  <div className="mb-8">
- <div className="h-8 w-64 bg-[rgba(0,30,80,0.40)] mb-2"/>
- <div className="h-4 w-96 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-8 w-64 bg-[rgba(0,12,32,0.85)] mb-2"/>
+ <div className="h-4 w-96 bg-[rgba(0,12,32,0.85)]"/>
  </div>
 
  {/* Stats */}
  <div className="grid grid-cols-4 gap-4 mb-8">
  {Array.from({ length: 4 }).map((_, i) => (
  <div key={i} className="glass-card p-4">
- <div className="h-3 w-20 bg-[rgba(0,30,80,0.40)] mb-2"/>
- <div className="h-8 w-16 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-3 w-20 bg-[rgba(0,12,32,0.85)] mb-2"/>
+ <div className="h-8 w-16 bg-[rgba(0,12,32,0.85)]"/>
  </div>
  ))}
  </div>
@@ -170,14 +170,14 @@ export function PageSkeleton() {
  <div className="grid grid-cols-3 gap-6">
  {Array.from({ length: 6 }).map((_, i) => (
  <div key={i} className="glass-card p-6">
- <div className="h-6 w-3/4 bg-[rgba(0,30,80,0.40)] mb-4"/>
+ <div className="h-6 w-3/4 bg-[rgba(0,12,32,0.85)] mb-4"/>
  <div className="space-y-2 mb-4">
- <div className="h-4 w-full bg-[rgba(0,30,80,0.40)]"/>
- <div className="h-4 w-2/3 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-4 w-full bg-[rgba(0,12,32,0.85)]"/>
+ <div className="h-4 w-2/3 bg-[rgba(0,12,32,0.85)]"/>
  </div>
  <div className="flex gap-2">
- <div className="h-6 w-16 bg-[rgba(0,30,80,0.40)]"/>
- <div className="h-6 w-20 bg-[rgba(0,30,80,0.40)]"/>
+ <div className="h-6 w-16 bg-[rgba(0,12,32,0.85)]"/>
+ <div className="h-6 w-20 bg-[rgba(0,12,32,0.85)]"/>
  </div>
  </div>
  ))}
