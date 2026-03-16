@@ -37,7 +37,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  {/* Outer ring */}
  <div
  className="absolute inset-0 border border-blood-600/30"
- style={{ boxShadow: 'inset 0 0 40px rgba(185, 28, 28, 0.1)' }}
+ style={{ boxShadow: 'inset 0 0 40px rgba(29, 78, 216, 0.1)' }}
  />
 
  {/* Concentric rings */}
@@ -64,7 +64,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  style={{
  width: size / 2,
  height: 2,
- background: 'linear-gradient(90deg, #991b1b 0%, transparent 100%)',
+ background: 'linear-gradient(90deg, #1e3a8a 0%, transparent 100%)',
  }}
  animate={{ rotate: [0, 360] }}
  transition={{
@@ -96,7 +96,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  {/* Center dot */}
  <div
  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-blood-600"
- style={{ boxShadow: '0 0 10px #991b1b, 0 0 20px #991b1b' }}
+ style={{ boxShadow: '0 0 10px #1e3a8a, 0 0 20px #1e3a8a' }}
  />
 
  {/* Blips */}
@@ -109,7 +109,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  height: blip.size,
  left: `calc(${blip.x * 100}% - ${blip.size / 2}px)`,
  top: `calc(${blip.y * 100}% - ${blip.size / 2}px)`,
- boxShadow: '0 0 8px #991b1b',
+ boxShadow: '0 0 8px #1e3a8a',
  }}
  initial={{ opacity: 0, scale: 0 }}
  animate={{ opacity: [0, 1, 1, 0], scale: [0, 1, 1, 0] }}

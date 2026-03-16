@@ -54,31 +54,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'les-wexner': {
  name: 'Les Wexner',
  title: 'Founder and Former CEO; L Brands (Victoria\'s Secret); Jeffrey Epstein\'s Primary Benefactor',
@@ -190,31 +165,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'lachlan-murdoch': {
  name: 'Lachlan Murdoch',
  title: 'Executive Chairman; Fox Corporation and News Corp',
@@ -260,18 +210,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Rupert Murdoch', relationship: 'Father; founder of media empire Lachlan now controls', href: '/entities/individuals/rupert-murdoch' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'lou-dobbs': {
@@ -323,32 +261,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Rudy Giuliani', relationship: 'Gave platform repeatedly', href: '/entities/individuals/rudy-giuliani' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'lisa-monaco': {
@@ -609,11 +521,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'lewis-kaplan': {
  name: 'Lewis Kaplan',
  title: 'U.S. District Judge; Southern District of New York',
@@ -647,10 +554,6 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [],
  },
-
-
-
-
 
 
  'lisa-page': {
@@ -729,11 +632,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Clarence Thomas', relationship: 'Former law clerk for Justice Thomas', href: '/entities/individuals/clarence-thomas' },
  ],
  },
-
-
-
-
-
 
 
  'larry-fink': {
@@ -818,61 +716,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Michael Cohen', relationship: 'Represented Cohen during his break with Trump in 2018', href: '/entities/individuals/michael-cohen' },
  ],
  },
-
-
- 'leonard-leo': {
- name: 'Leonard Leo',
- title: 'Co-Chairman; The Federalist Society; Architect of Conservative Supreme Court Takeover',
- role: 'Orchestrated the reshaping of the federal judiciary through dark money networks; instrumental in confirming 6 conservative Supreme Court justices',
- riskLevel: 'critical',
- description: 'Leonard Leo is the co-chairman of the Federalist Society and arguably the most influential figure in the conservative legal movement\'s half-century project to reshape the American judiciary. Leo has been instrumental in the selection and confirmation of six conservative Supreme Court justices: John Roberts; Samuel Alito; Neil Gorsuch; Brett Kavanaugh; Amy Coney Barrett; and Clarence Thomas (whose confirmation Leo worked on early in his career). Through a labyrinthine network of nonprofit organizations; Leo has channeled an estimated $1.6 billion in dark money to advance conservative judicial appointments and legal causes. In 2022; ProPublica revealed that Chicago industrialist Barre Seid donated $1.6 billion in stock to a Leo-linked nonprofit; the Marble Freedom Trust; in what may be the largest single political advocacy donation in U.S. history. Leo\'s network has funded amicus briefs; judicial confirmation campaigns; opposition research on progressive nominees; and organizations that bring cases before the very justices he helped install. The Washington Post documented that Leo charged his nonprofit network at least $7 million in personal consulting fees while simultaneously directing the groups\' activities. Leo has been central to the overturning of Roe v. Wade; the expansion of gun rights; the gutting of campaign finance regulations; and the weakening of the administrative state.',
- birthDate: 'December 1965',
- birthPlace: 'New Jersey, USA',
- education: ['Cornell University; B.A.', 'Cornell Law School; J.D.'],
- affiliations: [
-  { name: 'The Federalist Society', role: 'Co-Chairman; managed selection of judicial nominees for Republican presidents', type: 'organization' },
-  { name: 'Marble Freedom Trust', role: 'Received $1.6 billion donation from Barre Seid in 2022', type: 'organization' },
-  { name: 'Judicial Crisis Network', role: 'Leo-directed group that spent $10M+ each on Gorsuch and Kavanaugh confirmations', type: 'organization' },
- ],
- controversies: [
-  'Instrumental in selecting and confirming 6 conservative Supreme Court justices; effectively controlling the judicial nomination process for Republican presidents',
-  'Channeled an estimated $1.6 billion in dark money through a network of nonprofits to reshape the federal judiciary; mostly from anonymous donors',
-  'Received $1.6 billion donation from Barre Seid to Marble Freedom Trust; the largest known single political advocacy donation in U.S. history',
-  'Charged his own nonprofit network at least $7 million in personal consulting fees while directing the organizations\' multimillion-dollar campaigns',
-  'His network funded amicus briefs and cases before the Supreme Court justices he helped install; creating a closed loop of influence',
-  'Central figure in overturning Roe v. Wade; the justices who voted to overturn were all selected through Leo\'s process',
-  'ProPublica investigation revealed Leo\'s network operates through dozens of interlocking nonprofits designed to obscure the sources and destinations of funds',
- ],
- charges: [],
- relatedInvestigations: [
-  { title: 'Dark Money in the Judiciary', slug: 'dark-money-judicial-appointments', severity: 'critical' },
-  { title: 'Supreme Court Ethics', slug: 'supreme-court-ethics-crisis', severity: 'critical' },
- ],
- timeline: [
-  { date: 'December 1965', event: 'Born in New Jersey' },
-  { date: '1991', event: 'Joins the Federalist Society; begins building conservative legal network' },
-  { date: '2005-2006', event: 'Instrumental in confirmations of John Roberts and Samuel Alito to Supreme Court' },
-  { date: '2017', event: 'Takes leave from Federalist Society to assist with Neil Gorsuch confirmation; Judicial Crisis Network spends $10M+' },
-  { date: '2018', event: 'Orchestrates Brett Kavanaugh nomination and confirmation despite sexual assault allegations' },
-  { date: '2020', event: 'Manages selection process for Amy Coney Barrett; confirmed in record time before 2020 election' },
-  { date: 'June 2022', event: 'Dobbs v. Jackson: Leo-selected justices vote 5-4 to overturn Roe v. Wade' },
-  { date: 'August 2022', event: 'ProPublica reveals $1.6 billion Barre Seid donation to Leo-linked Marble Freedom Trust' },
-  { date: '2023', event: 'Washington Post reports Leo charged nonprofits $7M+ in personal consulting fees' },
- ],
- socialMedia: [],
- sources: [
-  { title: 'ProPublica: The $1.6 Billion Donation', url: 'https://www.propublica.org', date: 'August 2022' },
-  { title: 'Washington Post: Leo\'s Consulting Fees', url: 'https://www.washingtonpost.com', date: '2023' },
-  { title: 'Senate Judiciary Committee Dark Money Investigation', url: 'https://www.judiciary.senate.gov', date: '2023' },
- ],
- aliases: [],
- knownAssociates: [
-  { name: 'Clarence Thomas', relationship: 'Leo has been a close associate of Thomas for decades; linked to undisclosed gifts and trips', href: '/entities/individuals/clarence-thomas' },
-  { name: 'Brett Kavanaugh', relationship: 'Leo managed Kavanaugh\'s Supreme Court nomination and confirmation campaign', href: '/entities/individuals/brett-kavanaugh' },
- ],
- },
-
-
  'linda-mcmahon': {
  name: 'Linda Marie McMahon',
  title: 'Former SBA Administrator, WWE Co-founder',
@@ -915,11 +758,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Vince McMahon', relationship: 'Husband, WWE co-founder' },
  ],
  },
-
-
-
-
-
 
 
  'lyndon-b-johnson': {
@@ -972,31 +810,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Robert McNamara', relationship: 'Secretary of Defense who executed policy', href: '/entities/individuals/robert-mcnamara' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'lloyd-austin': {
@@ -1116,10 +929,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'leanne-caret': {
  name: 'Leanne Caret',
  title: 'Former President and CEO; Boeing Defense; Space and Security',
@@ -1158,10 +967,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during period of defense division cost overruns', href: '/entities/individuals/dennis-muilenburg' },
  ],
  },
-
-
-
-
 
 
  'lynn-good': {
@@ -1206,10 +1011,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'lirio-liu': {
  name: 'Lirio Liu',
  title: 'Former Boeing Senior Vice President',
@@ -1240,10 +1041,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX crisis', href: '/entities/individuals/dennis-muilenburg' },
  ],
  },
-
-
-
-
 
 
  'larry-lawson': {
@@ -1284,10 +1081,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Dennis Muilenburg', relationship: 'Boeing CEO during 737 MAX crisis; Spirit was Boeing\'s key supplier', href: '/entities/individuals/dennis-muilenburg' },
  ],
  },
-
-
-
-
 
 
  'lion-air-610-victims': {
@@ -1337,16 +1130,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
  'larry-ellison': {
  name: 'Larry Ellison',
  title: 'Co-Founder and CTO; Oracle Corporation',
@@ -1389,60 +1172,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Donald Trump', relationship: 'Close ally; hosted Trump fundraiser; Oracle involved in TikTok acquisition negotiations', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
-
-
- 'lloyd-blankfein': {
- name: 'Lloyd Blankfein',
- title: 'Former Chairman and CEO; Goldman Sachs',
- role: 'Led Goldman Sachs through 2008 financial crisis; Goldman received $10 billion TARP bailout while paying record bonuses; 1MDB scandal',
- riskLevel: 'high',
- description: 'Lloyd Craig Blankfein served as chairman and CEO of Goldman Sachs from 2006 to 2018; leading the firm through the 2008 financial crisis. Goldman Sachs received $10 billion in TARP bailout funds and an additional $12.9 billion through the AIG bailout (paid out at 100 cents on the dollar); while simultaneously paying employees a combined $16.2 billion in compensation and bonuses in 2009. Goldman Sachs was accused by the SEC of defrauding investors by marketing a mortgage-backed CDO (Abacus 2007-AC1) designed to fail; the firm settled for $550 million without admitting wrongdoing. Blankfein famously told a reporter he was doing "God\'s work." Under Blankfein\'s leadership; Goldman Sachs also became embroiled in the 1MDB scandal; one of the largest financial frauds in history; where $4.5 billion was looted from a Malaysian government investment fund. Goldman Sachs earned $600 million in fees for arranging bond sales for 1MDB; and two former Goldman partners were convicted. Goldman paid $2.9 billion in penalties to resolve the 1MDB investigation. Blankfein met with convicted fugitive Jho Low; the alleged mastermind of the 1MDB fraud; though he claimed not to know of the scheme.',
- birthDate: 'September 20, 1954',
- birthPlace: 'Bronx, New York, USA',
- education: ['Harvard College; A.B. 1975', 'Harvard Law School; J.D. 1978'],
- affiliations: [
-  { name: 'Goldman Sachs', role: 'Chairman and CEO (2006-2018)', type: 'corporation' },
- ],
- controversies: [
-  'Goldman Sachs received $10 billion in TARP bailout funds and $12.9 billion through AIG\'s bailout while paying $16.2 billion in 2009 employee compensation and bonuses',
-  'SEC accused Goldman of marketing Abacus CDO designed to fail; Goldman settled for $550 million without admitting wrongdoing',
-  'Told reporter Goldman Sachs was doing "God\'s work" during the financial crisis; while the firm profited from taxpayer bailouts',
-  'Goldman earned $600 million in fees from 1MDB bond deals; $4.5 billion was looted from the Malaysian fund; Goldman paid $2.9 billion in penalties',
-  'Met with Jho Low; the alleged 1MDB mastermind and convicted fugitive; claimed ignorance of the fraud scheme',
-  'Goldman Sachs "revolving door" with government; former executives include multiple Treasury Secretaries and senior officials',
- ],
- charges: [],
- relatedInvestigations: [
-  { title: '2008 Financial Crisis', slug: '2008-financial-crisis-wall-street-fraud', severity: 'critical' },
-  { title: '1MDB Scandal', slug: '1mdb-goldman-sachs-fraud', severity: 'critical' },
- ],
- timeline: [
-  { date: 'September 20, 1954', event: 'Born in the Bronx, New York' },
-  { date: '2006', event: 'Becomes Chairman and CEO of Goldman Sachs' },
-  { date: 'September 2008', event: 'Goldman receives $10 billion TARP bailout and $12.9 billion through AIG bailout' },
-  { date: '2009', event: 'Goldman pays $16.2 billion in employee compensation while receiving taxpayer rescue; Blankfein says firm does "God\'s work"' },
-  { date: 'April 2010', event: 'SEC charges Goldman over Abacus CDO; settles for $550 million' },
-  { date: '2012-2013', event: 'Goldman arranges $6.5 billion in bond sales for 1MDB; earns $600 million in fees' },
-  { date: 'October 2018', event: 'Steps down as Goldman CEO' },
-  { date: 'October 2020', event: 'Goldman pays $2.9 billion to resolve 1MDB investigation' },
- ],
- socialMedia: [],
- sources: [
-  { title: 'SEC v. Goldman Sachs (Abacus CDO)', url: 'https://www.sec.gov', date: '2010' },
-  { title: 'DOJ 1MDB Investigation', url: 'https://www.justice.gov', date: '2020' },
- ],
- aliases: [],
- knownAssociates: [
-  { name: 'Jho Low', relationship: 'Alleged 1MDB mastermind whom Blankfein reportedly met', href: '/entities/individuals/jho-low' },
- ],
- },
-
-
  'les-moonves': {
  name: 'Les Moonves',
  title: 'Former CBS CEO',
@@ -1613,10 +1342,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'lonnie-coffman': {
  name: 'Lonnie Coffman',
  title: 'Convicted January 6 Participant',
@@ -1661,10 +1386,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'larry-kudlow': {
  name: 'Larry Kudlow',
  title: 'Former Director of the National Economic Council; Fox Business Host',
@@ -1704,11 +1425,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Donald Trump', relationship: 'Served as Trump\'s top economic adviser as NEC Director', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
 
 
  'louie-gohmert': {
@@ -1752,10 +1468,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'lee-zeldin': {
  name: 'Lee Zeldin',
  title: 'EPA Administrator (Trump Administration)',
@@ -1793,11 +1505,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Donald Trump', relationship: 'Appointed Zeldin as EPA Administrator', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
 
 
  'lisa-eisenhart': {
@@ -1969,11 +1676,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'larry-potts': {
  name: 'Larry Potts',
  title: 'Former FBI Deputy Director',
@@ -2105,10 +1807,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'lee-hamilton': {
  name: 'Lee Hamilton',
  title: 'Former U.S. Representative; October Surprise and 9/11 Commission Co-Chair',
@@ -2154,10 +1852,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Thomas Kean', relationship: 'Co-chaired 9/11 Commission together', href: '/entities/individuals/thomas-kean' },
  ],
  },
-
-
-
-
 
 
  'lee-harvey-oswald': {
@@ -2262,10 +1956,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Ralph Nader', relationship: 'Iacocca at Ford during era Nader exposed auto safety failures', href: '/entities/individuals/ralph-nader' },
  ],
  },
-
-
-
-
 
 
  'lee-raymond': {
@@ -2405,11 +2095,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Mary Burnett Talbert', relationship: 'NAACP leader who organized Anti-Lynching Crusaders to support Dyer Bill', href: '/entities/individuals/mary-burnett-talbert' },
  ],
  },
-
-
-
-
-
 
 
  'leopoldo-galtieri': {
@@ -2948,11 +2633,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'louis-farrakhan': {
  name: 'Louis Farrakhan',
  title: 'Leader of the Nation of Islam',
@@ -3044,9 +2724,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Curtis LeMay', relationship: 'Fellow Joint Chiefs hawk who supported aggressive Cuba policy', href: '/entities/individuals/curtis-lemay' },
  ],
  },
-
-
-
 
 
  'lyndon-johnson': {
@@ -3227,52 +2904,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Julian Assange', relationship: 'Fellow figure in WikiLeaks/surveillance journalism sphere', href: '/entities/individuals/julian-assange' },
  ],
  },
-
-
-
-
-
- 'leon-panetta': {
- name: 'Leon Panetta',
- title: 'Former CIA Director and Secretary of Defense',
- role: 'Directed CIA during Osama bin Laden raid; oversaw expanded drone strike program; later served as Secretary of Defense under Obama',
- riskLevel: 'medium',
- description: 'Leon Edward Panetta served as Director of the Central Intelligence Agency from 2009 to 2011 and as Secretary of Defense from 2011 to 2013 under President Barack Obama. As CIA Director; Panetta oversaw the intelligence operation that led to the killing of Osama bin Laden in Abbottabad; Pakistan on May 2; 2011. He also presided over a dramatic expansion of the CIA\'s drone strike program in Pakistan; Yemen; and Somalia. The drone program killed an estimated 2;500-4;000 people during Obama\'s presidency; including hundreds of civilians; though the administration controversially classified all military-age males in strike zones as "enemy combatants" to minimize reported civilian casualties. Panetta authorized strikes based on "signature strikes;" which targeted people based on behavioral patterns rather than confirmed identity. As Secretary of Defense; Panetta oversaw the drawdown of forces in Iraq and the implementation of the U.S. strategy in Afghanistan. He lifted the ban on women serving in direct combat roles in 2013. Panetta later publicly criticized President Obama for not doing more to intervene in the Syrian civil war and for setting a "red line" on chemical weapons that was not enforced. Before his intelligence career; Panetta served as White House Chief of Staff under Bill Clinton and as Director of the Office of Management and Budget.',
- birthDate: 'June 28, 1938',
- birthPlace: 'Monterey, California, USA',
- education: ['Santa Clara University; B.A. 1960; J.D. 1963'],
- affiliations: [
-  { name: 'Central Intelligence Agency', role: 'Director (2009-2011)', type: 'agency' },
-  { name: 'Department of Defense', role: 'Secretary of Defense (2011-2013)', type: 'agency' },
- ],
- controversies: [
-  'Oversaw dramatic expansion of CIA drone strike program; 2;500-4;000 people killed including hundreds of civilians during Obama presidency',
-  'Authorized "signature strikes" targeting people based on behavioral patterns rather than confirmed identity',
-  'Obama administration classified all military-age males in strike zones as "enemy combatants" to minimize civilian casualty reporting',
-  'Later criticized Obama for not enforcing the Syrian "red line" on chemical weapons and not intervening more forcefully',
- ],
- charges: [],
- relatedInvestigations: [],
- timeline: [
-  { date: 'June 28, 1938', event: 'Born in Monterey; California' },
-  { date: '1994-1997', event: 'Serves as White House Chief of Staff under President Clinton' },
-  { date: 'February 2009', event: 'Confirmed as CIA Director under President Obama' },
-  { date: '2009-2011', event: 'Oversees expansion of drone strike program in Pakistan; Yemen; and Somalia' },
-  { date: 'May 2, 2011', event: 'Directs CIA operation that kills Osama bin Laden in Abbottabad; Pakistan' },
-  { date: 'July 2011', event: 'Sworn in as Secretary of Defense' },
-  { date: 'January 2013', event: 'Lifts ban on women serving in direct combat roles' },
-  { date: 'February 2013', event: 'Leaves office as Secretary of Defense' },
- ],
- socialMedia: [],
- sources: [
-  { title: 'Bureau of Investigative Journalism: Drone Strikes Database', url: 'https://www.thebureauinvestigates.com', date: 'Ongoing' },
- ],
- aliases: [],
- knownAssociates: [
-  { name: 'Barack Obama', relationship: 'President under whom Panetta served as CIA Director and Defense Secretary', href: '/entities/individuals/barack-obama' },
- ],
- },
-
  'lesley-groff': {
  name: 'Lesley Groff',
  title: 'Former Executive Assistant to Jeffrey Epstein',
@@ -3482,10 +3113,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'lee-smolin': {
  name: 'Lee Smolin',
  title: 'Theoretical Physicist',
@@ -3535,10 +3162,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'leslie-groff': {
  name: 'Leslie Groff',
  title: 'Executive Assistant',
@@ -3577,9 +3200,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
  'lara-trump': {
  name: 'Lara Trump',
  title: 'RNC Co-Chair',
@@ -3610,10 +3230,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Eric Trump', relationship: 'Husband', href: '/entities/individuals/eric-trump' },
  ],
  },
-
-
-
-
 
 
  'leonard-pozner': {
@@ -3692,9 +3308,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
  'lou-anna-simon': {
  name: 'Lou Anna Simon',
  title: 'Former Michigan State University President',
@@ -3761,10 +3374,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
 
 
  'louis-brandeis': {
@@ -3887,9 +3496,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
  'lisa-su': {
  name: 'Lisa Su',
  title: 'AMD CEO',
@@ -3932,11 +3538,392 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
+  'lawrence-wilkerson': {
+    name: 'Lawrence Wilkerson',
+    title: 'Colonel, U.S. Army (Retired)',
+    role: 'Chief of Staff to Secretary of State Colin Powell; Whistleblower on Iraq War lies',
+    riskLevel: 'low',
+    description: 'Colonel Lawrence Wilkerson served as Chief of Staff to Secretary of State Colin Powell and later became a prominent whistleblower exposing how the Bush administration lied to justify the Iraq War. He revealed the manipulation of intelligence and the "cabal" that drove the U.S. into an illegal war.',
+    birthDate: 'June 15, 1945',
+    birthPlace: 'Gaffney, South Carolina, USA',
+    education: ['Virginia Military Institute, B.S.', 'University of Virginia, M.A.'],
+    affiliations: [
+      { name: 'U.S. Department of State', role: 'Chief of Staff to Secretary Powell', type: 'agency' },
+      { name: 'U.S. Army', role: 'Colonel', type: 'agency' },
+    ],
+    controversies: [
+      'Exposed Bush administration lies about Iraq WMD',
+      'Revealed manipulation of intelligence by Cheney-Rumsfeld cabal',
+      'Testified that Powell\'s UN speech was based on lies',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
+    ],
+    timeline: [
+      { date: 'June 15, 1945', event: 'Born in Gaffney, South Carolina' },
+      { date: '2002-2005', event: 'Chief of Staff to Secretary of State Colin Powell' },
+      { date: '2005', event: 'Retires from Army' },
+      { date: '2006', event: 'Becomes whistleblower on Iraq War lies' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wilkerson Testimony on Iraq War', url: 'https://www.democracynow.org/2007/3/2/col_lawrence_wilkerson_on_the_iraq', date: '2007' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Colin Powell', relationship: 'Former boss, Secretary of State', href: '/entities/individuals/colin-powell' },
+    ],
+  },
+  'leon-panetta': {
+    name: 'Leon Panetta',
+    title: 'Former CIA Director and Secretary of Defense',
+    role: 'CIA Director (2009-2011), Secretary of Defense (2011-2013); Oversaw drone program and Benghazi response',
+    riskLevel: 'medium',
+    description: 'Leon Panetta served as CIA Director and Secretary of Defense under President Obama. He oversaw the expansion of drone strikes and was involved in the Benghazi controversy. He later became a critic of Trump administration policies.',
+    birthDate: 'June 28, 1938',
+    birthPlace: 'Monterey, California, USA',
+    education: ['Santa Clara University, B.A.', 'Santa Clara University, LL.B.'],
+    affiliations: [
+      { name: 'CIA', role: 'Director', type: 'agency' },
+      { name: 'Department of Defense', role: 'Secretary', type: 'agency' },
+    ],
+    controversies: [
+      'Oversaw expansion of CIA drone program',
+      'Involved in Benghazi response and talking points controversy',
+      'Approved enhanced interrogation techniques early in tenure',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'CIA Drone Program', slug: 'cia-drone-program', severity: 'high' },
+      { title: 'Benghazi Attack', slug: 'benghazi-attack', severity: 'high' },
+    ],
+    timeline: [
+      { date: 'June 28, 1938', event: 'Born in Monterey, California' },
+      { date: '2009-2011', event: 'CIA Director' },
+      { date: '2011-2013', event: 'Secretary of Defense' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Panetta CIA Tenure', url: 'https://www.cia.gov/stories/story/leon-panetta/', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Barack Obama', relationship: 'President during tenure', href: '/entities/individuals/barack-obama' },
+    ],
+  },
+  'leopold-ii': {
+    name: 'Leopold II',
+    title: 'King of the Belgians (1865-1909)',
+    role: 'Architect of the Congo Free State Atrocities',
+    riskLevel: 'critical',
+    description: 'King Leopold II of Belgium personally owned and exploited the Congo Free State (1885-1908) as his private colony, running a brutal forced labor regime that killed an estimated 10 million Congolese people. His rubber terror system forced entire populations into slave labor under penalty of mutilation - soldiers were required to cut off hands of those who failed to meet rubber quotas. The population of Congo dropped by approximately 50% during his rule.',
+    birthDate: '1835-04-09',
+    birthPlace: 'Brussels, Belgium',
+    deathDate: '1909-12-17',
+    education: ['Military training, Belgian Armed Forces'],
+    affiliations: [
+      { name: 'Kingdom of Belgium', role: 'King of the Belgians (1865-1909)', type: 'agency' },
+      { name: 'Congo Free State', role: 'Personal sovereign/owner (1885-1908)', type: 'agency' },
+      { name: 'Association Internationale du Congo', role: 'Founder and controller', type: 'organization' },
+    ],
+    controversies: [
+      'Personally owned the Congo Free State as private property, not a Belgian colony, exploiting it for rubber and ivory',
+      'Forced labor system resulted in the deaths of an estimated 10 million Congolese people',
+      'Soldiers required to cut off hands of workers who failed to meet rubber quotas - baskets of severed hands were presented as proof',
+      'Hostage system: women and children held captive to force men into rubber collection',
+      'Villages burned and populations massacred for insufficient rubber production',
+      'Population of Congo fell from approximately 20 million to 10 million during his rule',
+      'Destroyed records before transferring Congo to Belgian state in 1908 to hide evidence of atrocities',
+      'Used humanitarianism and anti-slavery rhetoric as cover while operating one of history\'s most brutal forced labor systems',
+      'E.D. Morel and Roger Casement exposed atrocities, leading to international outrage and forced transfer of Congo to Belgium',
+    ],
+    charges: [
+      { statute: 'Crimes Against Humanity - Enslavement', description: 'Forced entire Congolese population into slave labor for rubber extraction', category: 'Crimes Against Humanity' },
+      { statute: 'Crimes Against Humanity - Extermination', description: 'Policies directly caused death of approximately 10 million Congolese people', category: 'Crimes Against Humanity' },
+      { statute: 'Crimes Against Humanity - Mutilation', description: 'Systematic hand-severing as punishment for failure to meet rubber quotas', category: 'Crimes Against Humanity' },
+    ],
+    relatedInvestigations: [
+      { title: 'Congo Free State Atrocities Under Leopold II', slug: 'congo-free-state-atrocities', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1835-04-09', event: 'Born in Brussels, Belgium' },
+      { date: '1865', event: 'Becomes King of the Belgians' },
+      { date: '1876', event: 'Organizes Brussels Geographic Conference as cover for Congo colonization' },
+      { date: '1885', event: 'Berlin Conference recognizes Leopold\'s personal ownership of Congo Free State' },
+      { date: '1891', event: 'Decrees all "unoccupied" land and resources as state property; forced labor system intensifies' },
+      { date: '1903', event: 'Roger Casement publishes report documenting atrocities' },
+      { date: '1904', event: 'E.D. Morel founds Congo Reform Association' },
+      { date: '1908-11-15', event: 'Belgian parliament forces Leopold to cede Congo Free State to Belgium' },
+      { date: '1909-12-17', event: 'Dies in Laeken; never faced accountability for Congo atrocities' },
+    ],
+    sources: [
+      { title: 'King Leopold\'s Ghost by Adam Hochschild', url: 'https://www.penguinrandomhouse.com/books/72684/king-leopolds-ghost-by-adam-hochschild/', date: '1998' },
+      { title: 'Casement Report on the Congo Free State', url: 'https://www.archives.gov/publications/prologue/2019/fall-winter/congo', date: '1904' },
+    ],
+    aliases: ['Builder King (Le Roi-Batisseur)', 'Butcher of the Congo'],
+    knownAssociates: [],
+  },
+  'leonard-leo': {
+    name: 'Leonard Leo',
+    title: 'Co-Chairman of the Federalist Society',
+    role: 'Architect of the conservative Supreme Court supermajority who funneled $1.6 billion in dark money through a network of nonprofits to reshape the federal judiciary',
+    riskLevel: 'critical',
+    description: 'Leonard A. Leo is the co-chairman of the Federalist Society and the architect of the most successful judicial takeover in American history. He personally advised Presidents on the selection of six conservative Supreme Court justices. In 2020, electronics magnate Barre Seid donated $1.6 billion to Leo\'s Marble Freedom Trust, the largest known donation to a political advocacy group in U.S. history. Leo controls a sprawling network of nonprofit organizations and shell entities that channel hundreds of millions in untraceable dark money to reshape the judiciary, fund legal challenges to regulations, and support conservative judicial nominees. The network includes the Judicial Crisis Network, the 85 Fund, CRC Advisors, and other entities. Between 2014 and 2022, Leo\'s network raised over $580 million. Leo personally received $80 million in compensation through his consulting firm CRC Advisors between 2016 and 2022. He played a central role in blocking Merrick Garland\'s nomination and rushed through Amy Coney Barrett\'s confirmation.',
+    birthDate: 'December 6, 1965',
+    birthPlace: 'Monroe, New Jersey',
+    education: ['Cornell University (A.B.)', 'Cornell Law School (J.D.)'],
+    affiliations: [
+      { name: 'Federalist Society', role: 'Co-Chairman', type: 'organization' as const },
+      { name: 'Marble Freedom Trust', role: 'Chairman', type: 'organization' as const },
+      { name: 'CRC Advisors', role: 'Principal', type: 'organization' as const },
+    ],
+    controversies: [
+      'Received $1.6 billion donation from Barre Seid - largest dark money donation in U.S. history',
+      'Personally collected $80M+ in consulting fees from his own network of nonprofits',
+      'Orchestrated blocking of Merrick Garland and rushing of Barrett confirmation',
+      'Network of shell nonprofits designed to hide donor identities from public',
+      'Connected to undisclosed gifts received by Clarence Thomas and Samuel Alito',
+      'Funneled $400M+ in dark money to reshape federal judiciary over two decades',
+    ],
+    charges: [
+      { statute: '26 U.S.C. 501(c)(3)/(c)(4)', description: 'Potential violations of nonprofit tax-exempt status through political activity (under investigation)', category: 'federal' },
+      { statute: '52 U.S.C. 30121', description: 'Potential dark money violations of federal election law (not charged)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/supreme-court-ethics-crisis', '/investigations/citizens-united-dark-money-corruption'],
+    timeline: [
+      { date: '1991', event: 'Joins Federalist Society' },
+      { date: '2005', event: 'Advises Bush on Alito and Roberts nominations' },
+      { date: '2016-03', event: 'Orchestrates campaign blocking Merrick Garland' },
+      { date: '2017', event: 'Advises Trump on Gorsuch nomination' },
+      { date: '2018', event: 'Advises Trump on Kavanaugh nomination' },
+      { date: '2020-09', event: 'Advises Trump on Barrett nomination' },
+      { date: '2020', event: 'Receives $1.6 billion Barre Seid donation' },
+      { date: '2023', event: 'ProPublica exposes scope of dark money network' },
+    ],
+    sources: [
+      { title: 'ProPublica: Leonard Leo\'s Dark Money Network', url: 'https://www.propublica.org/article/leonard-leo-federalist-society-supreme-court', date: '2023' },
+    ],
+    aliases: ['Dark Money Kingpin'],
+    knownAssociates: [
+      { name: 'Clarence Thomas', relationship: 'Supreme Court justice; connected through gifts and network', href: '/entities/individuals/clarence-thomas' },
+      { name: 'Samuel Alito', relationship: 'Supreme Court justice nominated through Leo\'s pipeline', href: '/entities/individuals/samuel-alito' },
+      { name: 'Barre Seid', relationship: 'Billionaire donor; $1.6B to Marble Freedom Trust' },
+      { name: 'Harlan Crow', relationship: 'Billionaire donor in conservative judicial network' },
+    ],
+  },
+  'lloyd-blankfein': {
+    name: 'Lloyd Blankfein',
+    title: 'Former CEO and Chairman of Goldman Sachs',
+    role: 'Led Goldman Sachs during the 2008 financial crisis while the bank profited from betting against the same mortgage securities it sold to clients',
+    riskLevel: 'high',
+    description: 'Lloyd Craig Blankfein served as CEO and Chairman of Goldman Sachs from 2006 to 2018. Under his leadership, Goldman Sachs created and sold collateralized debt obligations (CDOs) backed by subprime mortgages to clients while simultaneously taking massive short positions against those same securities. The bipartisan Senate Permanent Subcommittee on Investigations concluded Goldman had a "clear conflict of interest" and referred the case to the DOJ. Goldman paid $550 million to settle SEC fraud charges (the largest SEC penalty in history at the time) related to the Abacus deal, structured by Fabrice Tourre, where Goldman let hedge fund manager John Paulson select mortgage bonds for a CDO specifically to bet against them without telling investors. Despite this, Goldman received $12.9 billion in AIG bailout funds at 100 cents on the dollar. Blankfein testified before Congress claiming Goldman was just a "market maker." He famously said Goldman was "doing God\'s work." Blankfein received $70 million in compensation in 2007 alone.',
+    birthDate: 'September 20, 1954',
+    birthPlace: 'The Bronx, New York',
+    education: ['Harvard College (A.B.)', 'Harvard Law School (J.D.)'],
+    affiliations: [
+      { name: 'Goldman Sachs', role: 'CEO and Chairman', type: 'organization' as const },
+    ],
+    controversies: [
+      'Led Goldman Sachs while it bet against the same mortgage products it sold clients',
+      'Senate investigation found "clear conflict of interest" in CDO dealings',
+      'Goldman paid $550M SEC penalty for Abacus CDO fraud',
+      'Goldman received $12.9 billion in AIG bailout funds at 100 cents on the dollar',
+      'Received $70M in compensation in 2007 while economy collapsed',
+      'Claimed Goldman was "doing God\'s work" during financial crisis',
+      'Named in 1MDB Malaysian corruption scandal - Goldman paid $2.9B settlement',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 77q(a)', description: 'SEC civil fraud charges - misleading investors in Abacus CDO ($550M settlement, no admission)', category: 'federal' },
+      { statute: '18 U.S.C. 1956', description: '1MDB money laundering - Goldman subsidiary pleaded guilty ($2.9B settlement)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/2008-financial-crisis'],
+    timeline: [
+      { date: '2006-06', event: 'Becomes CEO and Chairman of Goldman Sachs' },
+      { date: '2007', event: 'Goldman profits billions from mortgage short positions' },
+      { date: '2008-09', event: 'Financial crisis; Goldman receives $12.9B from AIG bailout' },
+      { date: '2010-04', event: 'Testifies before Senate; claims market maker defense' },
+      { date: '2010-07', event: 'Goldman pays $550M SEC settlement for Abacus fraud' },
+      { date: '2020-10', event: 'Goldman pleads guilty in 1MDB corruption case; pays $2.9B' },
+    ],
+    sources: [
+      { title: 'Senate PSI: Wall Street and the Financial Crisis', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/media/senate-investigations-subcommittee-releases-levin-coburn-report-on-the-financial-crisis', date: '2011' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Fabrice Tourre', relationship: 'Goldman trader who structured Abacus CDO' },
+      { name: 'John Paulson', relationship: 'Hedge fund manager who selected bonds to bet against' },
+    ],
+  },
+  'lee-raymond': {
+    name: 'Lee Raymond',
+    title: 'Former CEO, ExxonMobil',
+    role: 'Oil executive who led climate science denial while knowing fossil fuels caused warming',
+    riskLevel: 'high',
+    description: 'Lee Raymond served as CEO of Exxon from 1993 to 2005 (and ExxonMobil after the 1999 merger). Under his leadership, ExxonMobil became the most aggressive corporate funder of climate change denial, spending tens of millions of dollars on front groups and think tanks that manufactured doubt about climate science. This occurred despite Exxon\'s own scientists having accurately predicted global warming since the late 1970s. Raymond publicly declared in 1997 that "the case for so-called global warming is far from airtight" while Exxon\'s internal scientists confirmed the opposite. He retired in 2005 with a $400 million compensation package.',
+    birthDate: 'August 13, 1938',
+    birthPlace: 'Watertown, South Dakota',
+    education: ['University of Wisconsin (B.S. Chemical Engineering)', 'University of Minnesota (Ph.D. Chemical Engineering)'],
+    affiliations: [
+      { name: 'ExxonMobil', role: 'Chairman and CEO (1993-2005)', type: 'corporation' as const },
+      { name: 'American Enterprise Institute', role: 'Board member', type: 'organization' as const },
+    ],
+    controversies: [
+      'Led ExxonMobil\'s decades-long campaign to deny and discredit climate science',
+      'Publicly denied climate change while company\'s own scientists confirmed it',
+      'Funded dozens of climate denial organizations with tens of millions in corporate money',
+      'Fought against Kyoto Protocol and all climate legislation',
+      'Retired with $400 million compensation package while climate crisis accelerated',
+      'Exxon\'s internal climate projections from 1970s-80s proved remarkably accurate',
+    ],
+    charges: [],
+    relatedInvestigations: ['fossil-fuel-subsidies-climate-deception'],
+    timeline: [
+      { date: '1963', event: 'Joined Exxon as a research engineer' },
+      { date: '1993', event: 'Became CEO of Exxon Corporation' },
+      { date: '1997', event: 'Made speech at World Petroleum Congress denying climate science' },
+      { date: '1999', event: 'Led Exxon-Mobil merger creating world\'s largest publicly traded oil company' },
+      { date: '2005', event: 'Retired with $400M compensation; Rex Tillerson succeeded him' },
+    ],
+    sources: [
+      { title: 'InsideClimate News: Exxon The Road Not Taken', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', date: '2015' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Rex Tillerson', relationship: 'Successor as CEO; later Trump Secretary of State' },
+    ],
+  },
+  'larry-fink': {
+    name: 'Larry Fink',
+    slug: 'larry-fink',
+    bio: 'Laurence Douglas Fink is the Chairman and CEO of BlackRock, the world\'s largest asset management company with approximately $10 trillion in assets under management — more than the GDP of every country except the U.S. and China. BlackRock\'s holdings make it the largest shareholder in virtually every major U.S. corporation, giving it unprecedented influence over corporate governance, executive compensation, and corporate policy. Through its Aladdin risk management platform, BlackRock processes risk assessments for $21.6 trillion in assets (including those managed by competitors), creating a systemic dependency that regulators have struggled to address. Critics describe BlackRock as a "shadow government" that wields more economic power than most nations while operating with minimal democratic accountability.',
+    riskLevel: 'high' as const,
+    status: 'active',
+    lastKnownLocation: 'New York, New York',
+    birthDate: 'November 2, 1952',
+    education: [
+      'B.A., Political Science, UCLA (1974)',
+      'M.B.A., UCLA Anderson School of Management (1976)',
+    ],
+    affiliations: [
+      { name: 'BlackRock', role: 'Chairman & CEO (1988-present)', type: 'corporation' as const },
+    ],
+    relatedInvestigations: [
+      { title: 'Real Estate Housing Crisis', slug: 'real-estate-housing-crisis-exploitation', severity: 'high' },
+      { title: 'Tech Monopoly Power', slug: 'tech-monopoly-antitrust-failures', severity: 'high' },
+    ],
+    charges: [
+      { statute: 'N/A - Systemic Power', description: 'BlackRock is the largest shareholder in virtually every major U.S. corporation; unprecedented concentration of economic power', category: 'Anti-competitive influence' },
+    ],
+    criminalHistory: 'No criminal charges. BlackRock has faced regulatory scrutiny over its market influence and potential conflicts of interest but no enforcement actions against Fink personally. The Financial Stability Board has considered designating BlackRock as a systemically important financial institution (SIFI) but has not done so.',
+    financialInfo: 'Net worth estimated at $1.1 billion. Annual compensation approximately $36 million (2023). BlackRock manages $10 trillion and earns approximately $18 billion in annual revenue. The company\'s Aladdin platform processes risk for $21.6 trillion in assets.',
+    sources: [
+      { title: 'Financial Stability Board: BlackRock Systemic Risk Assessment', url: 'https://www.fsb.org/', date: '2023' },
+      { title: 'Senate Banking Committee: Hearing on Asset Management and Financial Stability', url: 'https://www.banking.senate.gov/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Janet Yellen', relationship: 'Treasury Secretary; former Fed Chair who consulted with BlackRock during COVID market crisis' },
+      { name: 'Brian Deese', relationship: 'Former Biden NEC Director; came directly from BlackRock\'s sustainable investing division' },
+    ],
+  },
+  'louis-dejoy': {
+    name: 'Louis DeJoy',
+    title: 'Postmaster General of the United States',
+    role: 'USPS Dismantler with Financial Conflicts of Interest',
+    riskLevel: 'high' as const,
+    description: 'Louis DeJoy was appointed Postmaster General in 2020 despite having no postal experience, arriving with $75 million in investments in USPS competitors. He immediately implemented operational changes that slowed mail delivery, removed sorting machines before the 2020 election, and pursued a restructuring plan that would reduce service standards for First-Class mail.',
+    birthDate: '1957-06-20',
+    birthPlace: 'Brooklyn, New York',
+    education: [
+      'B.B.A., Stetson University (1979)',
+    ],
+    affiliations: [
+      { name: 'USPS', role: 'Postmaster General (2020-present)', type: 'agency' as const },
+      { name: 'New Breed Logistics', role: 'CEO (1983-2014)', type: 'corporation' as const },
+      { name: 'XPO Logistics', role: 'Board Member after acquisition of New Breed', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Held $75 million in investments in USPS competitors (XPO Logistics, UPS contracts) while making decisions affecting postal competitiveness',
+      'Removed 711 mail sorting machines before the 2020 election amid unprecedented mail-in voting; machines were decommissioned and could not be reinstalled',
+      'Reduced post office hours, eliminated overtime, and imposed "leave mail behind" policies that delayed delivery by days',
+      'Ten-year "Delivering for America" plan would slow First-Class mail standards from 3-day to 5-day delivery',
+      'FBI investigated allegations that DeJoy reimbursed employees at his logistics company for political donations, a straw-donor scheme',
+      'No prior USPS or government experience; appointed by a Board of Governors stacked with Trump donors',
+      'Mail delivery performance dropped to lowest levels in decades under his leadership, particularly affecting rural and low-income communities',
+    ],
+    relatedInvestigations: [
+      { title: 'Postal Service Sabotage Investigation', slug: 'postal-service-sabotage', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2020-06', event: 'Became Postmaster General with no postal experience' },
+      { date: '2020-07', event: 'Began removing mail sorting machines and reducing postal capacity' },
+      { date: '2020-08', event: 'Congressional uproar over mail slowdowns ahead of election; testified before Senate' },
+      { date: '2020-09', event: 'Federal judge issued injunction blocking further operational changes before election' },
+      { date: '2021-03', event: 'Announced 10-year plan to slow delivery standards and raise prices' },
+      { date: '2022', event: 'FBI investigation into straw-donor scheme at former company New Breed Logistics' },
+      { date: '2023', event: 'Mail delivery performance metrics continued declining; bipartisan calls for removal' },
+    ],
+    sources: [
+      { title: 'USPS OIG: Operational Changes and Service Performance', date: '2020' },
+      { title: 'House Oversight Committee: DeJoy Testimony and Financial Conflicts', date: '2020' },
+      { title: 'Washington Post: DeJoy Straw Donor Investigation', url: 'https://www.washingtonpost.com/', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Major Republican donor who was appointed PMG by Trump-aligned Board of Governors', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'erik-prince': {
+    name: 'Erik Prince',
+    title: 'Founder of Blackwater',
+    role: 'Private Military Contractor with Worldwide Shadow Operations',
+    riskLevel: 'critical' as const,
+    description: 'Erik Prince founded Blackwater, the private military company whose contractors killed 17 Iraqi civilians in Nisour Square in 2007. After rebranding and selling the company, Prince continued building a global network of private military and intelligence operations, proposed a private contractor takeover of the Afghanistan war, and was investigated for potential violations of arms trafficking laws.',
+    birthDate: '1969-06-06',
+    birthPlace: 'Holland, Michigan',
+    education: [
+      'Attended U.S. Naval Academy (transferred out)',
+      'B.A., Hillsdale College (1992)',
+    ],
+    affiliations: [
+      { name: 'Blackwater USA', role: 'Founder and CEO (1997-2010)', type: 'corporation' as const },
+      { name: 'Frontier Services Group', role: 'Chairman and Executive Director', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Blackwater contractors killed 17 unarmed Iraqi civilians in the Nisour Square massacre in 2007; four contractors were convicted but later pardoned by Trump',
+      'Proposed privatizing the Afghanistan war by replacing U.S. troops with private military contractors under his command',
+      'Attended January 2017 meeting in Seychelles with Russian financier close to Putin, allegedly as Trump back-channel; denied to Congress but communication records contradicted his testimony',
+      'Built private intelligence network for Trump administration that operated outside normal government channels and congressional oversight',
+      'Frontier Services Group operated in Africa and Middle East with ties to Chinese state intelligence; raised concerns about divided loyalties',
+      'Under investigation for potential violations of arms export controls and money laundering related to military contracting in Libya and other conflict zones',
+      'Sister Betsy DeVos served as Trumps Education Secretary, creating another avenue of political influence',
+      'Four Blackwater contractors pardoned by Trump in December 2020 despite one being convicted of first-degree murder of Iraqi civilians',
+    ],
+    relatedInvestigations: [
+      { title: 'Military Burn Pit Exposure', slug: 'military-burn-pit-exposure', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1997', event: 'Founded Blackwater in Moyock, North Carolina' },
+      { date: '2004-2007', event: 'Blackwater received $1+ billion in government contracts for Iraq operations' },
+      { date: '2007-09', event: 'Nisour Square massacre: Blackwater contractors killed 17 Iraqi civilians' },
+      { date: '2010', event: 'Sold Blackwater; company rebranded as Academi' },
+      { date: '2017-01', event: 'Met with Russian financier in Seychelles; later contradicted own testimony about meetings purpose' },
+      { date: '2017', event: 'Proposed plan to privatize Afghanistan war with contractor force' },
+      { date: '2019', event: 'Mueller investigation examined Seychelles meeting; referred potential false statements to DOJ' },
+      { date: '2020-12', event: 'Trump pardoned four Blackwater contractors convicted in Nisour Square massacre' },
+    ],
+    sources: [
+      { title: 'House Oversight Committee: Blackwater Investigation', date: '2007' },
+      { title: 'Mueller Report: Seychelles Meeting and Back-Channel Investigation', date: '2019' },
+      { title: 'DOJ: United States v. Blackwater Contractors', date: '2014' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Pardoned four Blackwater contractors; Prince built private intelligence network for Trump administration', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Bannon', relationship: 'Close ally who championed Princes Afghanistan privatization plan and served as political conduit', href: '/entities/individuals/steve-bannon' },
+    ],
+  },
 };
 
 export default profiles;

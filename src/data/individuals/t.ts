@@ -1975,43 +1975,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Nathan Bedford Forrest', relationship: 'Fellow white supremacist political figure championing racial hierarchy', href: '/entities/individuals/nathan-bedford-forrest' },
  ],
  },
-
-
-
-
-
- 'theoneste-bagosora': {
- name: 'Théoneste Bagosora',
- title: 'Rwandan military official considered the mastermind of the genocide',
- role: 'Rwandan military official considered the mastermind of the genocide',
- riskLevel: 'high',
- description: 'Théoneste Bagosora. Profile pending review.',
- education: [],
- affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
- ],
- timeline: [
- { date: 'Ongoing', event: 'Active in role as Rwandan military official considered the mastermind of the genocide' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Wikipedia: Théoneste Bagosora', url: 'https://en.wikipedia.org/wiki/Théoneste_Bagosora', date: '' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'Juvenal Habyarimana', relationship: 'Launched genocide after Habyarimana\'s assassination', href: '/entities/individuals/juvenal-habyarimana' },
- { name: 'Romeo Dallaire', relationship: 'UN commander who Bagosora warned" this will be an apocalypse"', href: '/entities/individuals/romeo-dallaire' },
- { name: 'Paul Kagame', relationship: 'RPF leader whose forces ended genocide Bagosora directed', href: '/entities/individuals/paul-kagame' },
- ],
- },
-
  'thomas-beasley': {
  name: 'Thomas Beasley',
  title: 'CCA Co-founder (Former Republican Party chairman who conceived privatizing prisons as a business opportunity in 1983',
@@ -3386,48 +3349,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'David Miscavige', relationship: 'Close personal friend, Scientology leader', href: '/entities/individuals/david-miscavige' },
  ],
  },
-
-
-
-
-
-
- 'tom-delay': {
- name: 'Tom DeLay',
- title: 'Former House Majority Leader',
- role: 'The Hammer, Corrupt K Street Project',
- riskLevel: 'high',
- description: 'Republican House Majority Leader (2003-2005) known as "The Hammer "for his aggressive enforcement of party discipline. Forced to resign after indictment on money laundering and conspiracy charges related to illegal corporate campaign contributions. Architect of the K Street Project that openly linked lobbying firms to the Republican Party.',
- education: ['University of Houston'],
- affiliations: [
- { name: 'Republican Party', role: 'House Majority Leader', type: 'organization' },
- ],
- controversies: [
- 'Indicted for money laundering and conspiracy',
- 'K Street Project openly corrupted lobbying',
- 'Texas redistricting scandal',
- 'Convicted in 2010, overturned on appeal',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Dark Money Politics', slug: 'dark-money-politics', severity: 'critical' },
- ],
- timeline: [
- { date: '2003', event: 'Became House Majority Leader' },
- { date: '2005', event: 'Indicted, forced to resign leadership' },
- { date: '2010', event: 'Convicted of money laundering' },
- { date: '2013', event: 'Conviction overturned on appeal' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Washington Post: DeLay Conviction', url: 'https://www.washingtonpost.com/politics/tom-delay/', date: '2013' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'Jack Abramoff', relationship: 'Corrupt lobbyist closely tied to DeLay operation', href: '/entities/individuals/jack-abramoff' },
- ],
- },
-
  'thomas-kean': {
  name: 'Thomas Kean',
  title: 'Former Governor of New Jersey',
@@ -3758,13 +3679,455 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
+  'talat-pasha': {
+    name: 'Mehmed Talat Pasha',
+    title: 'Grand Vizier of the Ottoman Empire',
+    role: 'Architect and Primary Organizer of the Armenian Genocide',
+    riskLevel: 'critical',
+    description: 'Mehmed Talat Pasha served as Interior Minister (1913-1917) and Grand Vizier (1917-1918) of the Ottoman Empire. As the most powerful member of the Committee of Union and Progress (CUP) triumvirate, Talat personally ordered and organized the systematic deportation and extermination of the Armenian population in 1915. He signed the deportation orders, directed the Special Organization death squads, oversaw the confiscation of Armenian property, and coordinated the logistics of the death marches into the Syrian desert. Talat was sentenced to death in absentia by Ottoman courts-martial in 1919 and assassinated in Berlin in 1921 by Armenian genocide survivor Soghomon Tehlirian.',
+    birthDate: '1874-09-01',
+    birthPlace: 'Kardzhali, Ottoman Empire (now Bulgaria)',
+    deathDate: '1921-03-15',
+    education: ['Self-educated', 'Ottoman postal telegraph service'],
+    affiliations: [
+      { name: 'Committee of Union and Progress', role: 'Central Committee Member and Party Leader', type: 'organization' },
+      { name: 'Ottoman Government', role: 'Interior Minister (1913-1917), Grand Vizier (1917-1918)', type: 'agency' },
+      { name: 'Special Organization (Teskilat-i Mahsusa)', role: 'Created and directed paramilitary death squads for the genocide', type: 'organization' },
+    ],
+    controversies: [
+      'Ordered the arrest and execution of 235+ Armenian intellectuals on April 24, 1915, beginning the genocide',
+      'Signed deportation orders for the entire Armenian population of Anatolia, knowing deportation meant extermination',
+      'Directed the Special Organization paramilitary units that carried out mass killings of deportation convoys',
+      'Oversaw the confiscation of Armenian property, businesses, and assets for redistribution to Muslim Turks',
+      'Issued telegrams ordering provincial governors to ensure no Armenians survived deportation (intercepted by British intelligence)',
+      'Organized the forced conversion of Armenian women and children to Islam and their distribution to Muslim families',
+      'Ordered the destruction of Armenian cultural and religious sites',
+      'Denied the genocide was occurring in communications with foreign diplomats while simultaneously directing killing operations',
+      'Sentenced to death by Ottoman courts-martial in 1919 for crimes against the Armenian population',
+    ],
+    charges: [
+      { statute: 'Ottoman Penal Code - Murder', description: 'Convicted in absentia by Ottoman courts-martial for organizing and directing the mass murder of Armenians', category: 'Crimes Against Humanity' },
+      { statute: 'Convention on the Prevention and Punishment of the Crime of Genocide (1948, retroactive analysis)', description: 'Acts constituting genocide under Articles II and III of the Genocide Convention', category: 'Genocide' },
+      { statute: '1915 Allied Joint Declaration', description: 'Named in the first international declaration condemning "crimes against humanity and civilization"', category: 'Crimes Against Humanity' },
+    ],
+    relatedInvestigations: [
+      { title: 'Armenian Genocide', slug: 'armenian-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1874-09-01', event: 'Born in Kardzhali, Ottoman Empire' },
+      { date: '1908-07', event: 'Young Turk Revolution brings CUP to power; Talat becomes a leading figure' },
+      { date: '1913-01', event: 'CUP coup; Talat becomes Interior Minister with near-absolute domestic power' },
+      { date: '1915-04-24', event: 'Orders arrest and deportation of 235+ Armenian intellectuals in Constantinople' },
+      { date: '1915-05', event: 'Signs Tehcir Law authorizing mass deportation of Armenians from eastern provinces' },
+      { date: '1915-06', event: 'Death marches into Syrian desert begin; Special Organization units massacre convoys' },
+      { date: '1916', event: 'Mass killings at Deir ez-Zor concentration camps; estimated 1.5 million Armenians dead' },
+      { date: '1917-02', event: 'Becomes Grand Vizier (Prime Minister) of the Ottoman Empire' },
+      { date: '1918-10', event: 'Flees to Germany aboard a German submarine after Ottoman defeat' },
+      { date: '1919-07', event: 'Sentenced to death in absentia by Ottoman courts-martial for war crimes against Armenians' },
+      { date: '1921-03-15', event: 'Assassinated in Berlin by Soghomon Tehlirian, a genocide survivor; Tehlirian acquitted by German jury' },
+    ],
+    sources: [
+      { title: 'Taner Akcam - A Shameful Act: The Armenian Genocide and Turkish Responsibility', url: 'https://us.macmillan.com/books/9780805086652/', date: '2006' },
+      { title: 'Ottoman Courts-Martial Proceedings (1919-1920)', url: 'https://www.armenian-genocide.org/', date: '1919' },
+      { title: 'Ambassador Morgenthau\'s Story - Contemporary Account', url: 'https://archive.org/details/ambassadormorgenstory00morgrich', date: '1918' },
+    ],
+    aliases: ['Talaat Pasha', 'Mehmed Talaat', 'Talat Bey'],
+    knownAssociates: [
+      { name: 'Enver Pasha', relationship: 'Fellow CUP triumvir; War Minister who provided military resources for genocide', href: '/individuals/enver-pasha' },
+      { name: 'Ahmed Djemal Pasha', relationship: 'Fellow CUP triumvir; Navy Minister; governed Syria during genocide', href: '/individuals/ahmed-djemal-pasha' },
+    ],
+  },
+  'theoneste-bagosora': {
+    name: 'Theoneste Bagosora',
+    title: 'Director of Cabinet, Rwandan Ministry of Defence',
+    role: 'Alleged Chief Architect of the 1994 Rwandan Genocide',
+    riskLevel: 'critical',
+    description: 'Colonel Theoneste Bagosora was a senior Rwandan military officer who the International Criminal Tribunal for Rwanda identified as the chief organizer and director of the 1994 genocide that killed approximately 800,000-1,000,000 Tutsi and moderate Hutu. As Director of Cabinet in the Ministry of Defence, Bagosora exercised de facto control over the military and Interahamwe militia during the critical first days of the genocide. He was convicted in 2008 of genocide, crimes against humanity, and war crimes, and sentenced to life imprisonment (later reduced to 35 years on appeal).',
+    birthDate: '1941-08-16',
+    birthPlace: 'Giciye, Gisenyi Prefecture, Rwanda',
+    education: ['Ecole Superieure Militaire, Kigali', 'Military training in France and Belgium'],
+    affiliations: [
+      { name: 'Rwandan Ministry of Defence', role: 'Director of Cabinet - de facto military commander during genocide', type: 'agency' },
+      { name: 'Forces Armees Rwandaises (FAR)', role: 'Colonel; coordinated military operations during genocide', type: 'agency' },
+      { name: 'Akazu (Inner Circle)', role: 'Member of the Hutu Power extremist network surrounding President Habyarimana', type: 'organization' },
+    ],
+    controversies: [
+      'Identified by ICTR as the chief architect who organized, planned, and oversaw the genocide',
+      'Reportedly told UN officials in January 1994 that he was "preparing the apocalypse" - a statement he later denied',
+      'Took effective control of the military immediately after Habyarimana\'s plane was shot down on April 6, 1994',
+      'Directed the Presidential Guard and Interahamwe to begin systematic killings of Tutsi and moderate Hutu within hours',
+      'Oversaw the murder of Prime Minister Agathe Uwilingiyimana and 10 Belgian UN peacekeepers on April 7',
+      'Organized weapons distribution to Interahamwe militia and civilian Hutu Power supporters',
+      'Coordinated roadblocks throughout Kigali used to identify and kill Tutsi civilians based on identity cards',
+      'Directed military operations against Tutsi refuge sites including churches, schools, and hospitals',
+    ],
+    charges: [
+      { statute: 'ICTR Statute Article 2 - Genocide', description: 'Convicted of genocide for organizing and directing the systematic killing of the Tutsi population', category: 'Genocide' },
+      { statute: 'ICTR Statute Article 3 - Crimes Against Humanity', description: 'Convicted of crimes against humanity (murder, extermination, persecution)', category: 'Crimes Against Humanity' },
+      { statute: 'ICTR Statute Article 4 - War Crimes', description: 'Convicted of serious violations of Common Article 3 and Additional Protocol II of the Geneva Conventions', category: 'War Crimes' },
+      { statute: 'Geneva Conventions Common Article 3', description: 'Violence to life and person, murder, mutilation, cruel treatment, and torture of non-combatants', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Rwandan Genocide', slug: 'rwandan-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1941-08-16', event: 'Born in Giciye, Rwanda' },
+      { date: '1992', event: 'Appointed Director of Cabinet in Ministry of Defence' },
+      { date: '1994-01-11', event: 'UN commander Dallaire sends "Genocide Fax" warning of extermination plans including informant linking Bagosora' },
+      { date: '1994-04-06', event: 'President Habyarimana\'s plane shot down; Bagosora seizes effective military control' },
+      { date: '1994-04-07', event: 'Directs killing of PM Uwilingiyimana and 10 Belgian peacekeepers; genocide begins' },
+      { date: '1994-04-07', event: 'Systematic killing of Tutsi begins in Kigali under Bagosora\'s coordination' },
+      { date: '1994-07', event: 'RPF captures Kigali, ending genocide; Bagosora flees to Zaire then Cameroon' },
+      { date: '1996-03-09', event: 'Arrested in Cameroon' },
+      { date: '2008-12-18', event: 'Convicted by ICTR of genocide, crimes against humanity, and war crimes; sentenced to life imprisonment' },
+      { date: '2011-12-14', event: 'Appeal partially successful; sentence reduced from life to 35 years' },
+    ],
+    sources: [
+      { title: 'ICTR - Prosecutor v. Bagosora et al. (Military I Case)', url: 'https://unictr.irmct.org/en/cases/ictr-98-41', date: '2008' },
+      { title: 'Dallaire, Romeo - Shake Hands with the Devil', url: 'https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/', date: '2004' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Juvenal Habyarimana', relationship: 'President of Rwanda whose Akazu inner circle included Bagosora' },
+      { name: 'Augustin Bizimungu', relationship: 'FAR Chief of Staff who coordinated military operations during genocide' },
+    ],
+  },
+  'tom-delay': {
+    name: 'Tom DeLay',
+    title: 'Former U.S. House Majority Leader (R-TX-22)',
+    role: 'House Majority Leader known as "The Hammer" who was convicted of money laundering for funneling corporate donations to Texas state candidates through a PAC',
+    riskLevel: 'high',
+    description: 'Thomas Dale DeLay served as U.S. House Majority Leader from 2003 to 2006 and was known as "The Hammer" for his aggressive tactics enforcing party discipline. DeLay was intimately connected to lobbyist Jack Abramoff, taking multiple golf trips to Scotland and the Mariana Islands funded by Abramoff\'s clients. DeLay\'s former aide Michael Scanlon was Abramoff\'s business partner in defrauding Native American tribes. DeLay was admonished three times by the House Ethics Committee. In 2005, a Texas grand jury indicted DeLay for criminal conspiracy and money laundering related to a scheme to funnel $190,000 in corporate donations through the Republican National Committee\'s "soft money" account to Texas state legislative candidates through his PAC, Texans for a Republican Majority (TRMPAC). Texas law prohibited direct corporate contributions to candidates. DeLay was convicted in 2010 and sentenced to 3 years in prison, but the conviction was overturned on appeal in 2013 on sufficiency of evidence grounds. The redistricting that DeLay engineered after his Texas candidates won resulted in Republicans gaining 6 additional U.S. House seats.',
+    birthDate: 'April 8, 1947',
+    birthPlace: 'Laredo, Texas',
+    education: ['University of Houston (B.S.)'],
+    affiliations: [
+      { name: 'U.S. House of Representatives (R-TX)', role: 'Majority Leader', type: 'agency' as const },
+      { name: 'Texans for a Republican Majority PAC', role: 'Founder', type: 'organization' as const },
+    ],
+    controversies: [
+      'Indicted for money laundering - funneled $190K in corporate donations to Texas candidates',
+      'Convicted in 2010; overturned on appeal in 2013',
+      'Admonished 3 times by House Ethics Committee',
+      'Close ties to Jack Abramoff; accepted lobbyist-funded trips to Scotland and Saipan',
+      'Engineered mid-decade Texas redistricting for partisan gain',
+      'Former aide Michael Scanlon was Abramoff\'s fraud partner',
+    ],
+    charges: [
+      { statute: 'TX Penal Code 34.02', description: 'Money laundering - funneling corporate contributions through RNC to Texas candidates (convicted, overturned on appeal)', category: 'state' },
+      { statute: 'TX Penal Code 15.02', description: 'Criminal conspiracy to violate election code (convicted, overturned on appeal)', category: 'state' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-revolving-door-legalized-corruption'],
+    timeline: [
+      { date: '2003-01', event: 'Becomes House Majority Leader' },
+      { date: '2003', event: 'Engineers unprecedented mid-decade Texas redistricting' },
+      { date: '2004', event: 'Admonished by House Ethics Committee for third time' },
+      { date: '2005-09-28', event: 'Indicted by Texas grand jury; forced to step down as Leader' },
+      { date: '2006-06-09', event: 'Resigns from Congress' },
+      { date: '2010-11-24', event: 'Convicted of money laundering; sentenced to 3 years' },
+      { date: '2013-09-19', event: 'Conviction overturned by Texas Third Court of Appeals' },
+    ],
+    sources: [
+      { title: 'Texas v. DeLay: Travis County District Court', url: 'https://www.texastribune.org/2010/11/24/delay-found-guilty-money-laundering/', date: '2010' },
+    ],
+    aliases: ['The Hammer'],
+    knownAssociates: [
+      { name: 'Jack Abramoff', relationship: 'Lobbyist who provided DeLay with funded trips; corruption scandal', href: '/entities/individuals/jack-abramoff' },
+      { name: 'Michael Scanlon', relationship: 'Former DeLay aide; Abramoff\'s partner in tribal fraud' },
+    ],
+  },
+  'ted-stevens': {
+    name: 'Ted Stevens',
+    title: 'Former U.S. Senator (R-AK)',
+    role: 'Longest-serving Republican senator convicted of failing to report $250,000 in gifts including home renovations from oil field services company VECO',
+    riskLevel: 'high',
+    description: 'Theodore Fulton Stevens served as a U.S. Senator from Alaska from 1968 to 2009, making him the longest-serving Republican senator in history at the time. In July 2008, Stevens was indicted on seven counts of making false statements on his Senate financial disclosure forms for failing to report approximately $250,000 in gifts and home renovations from VECO Corporation, an oil field services company, and its CEO Bill Allen. VECO renovated Stevens\'s Girdwood, Alaska home, doubling its size, while Allen simultaneously sought Stevens\'s help with legislation benefiting VECO. Stevens was convicted on all seven counts on October 27, 2008, just days before his reelection bid, which he narrowly lost. However, in April 2009, Attorney General Eric Holder moved to dismiss all charges after discovering that prosecutors had withheld exculpatory evidence from the defense, a serious Brady violation. The DOJ conducted an internal investigation and found systematic prosecutorial misconduct.',
+    birthDate: 'November 18, 1923',
+    birthPlace: 'Indianapolis, Indiana',
+    education: ['UCLA (B.A.)', 'Harvard Law School (LL.B.)'],
+    affiliations: [
+      { name: 'U.S. Senate (R-AK)', role: 'Senator', type: 'agency' as const },
+      { name: 'Senate Appropriations Committee', role: 'Chairman', type: 'agency' as const },
+    ],
+    controversies: [
+      'Convicted on 7 counts of making false statements on financial disclosures (later vacated)',
+      'Received $250,000 in unreported gifts and home renovations from VECO Corporation',
+      'VECO CEO Bill Allen renovated Stevens\'s home while seeking legislative help',
+      'Conviction vacated due to prosecutorial misconduct and withheld evidence',
+      'Earmarked billions in federal funds to Alaska (known as "King of Pork")',
+      'Famous "series of tubes" comment showing unfamiliarity with the internet he regulated',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1001', description: 'Making false statements on Senate financial disclosure forms - 7 counts (convicted, vacated due to prosecutorial misconduct)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-insider-trading'],
+    timeline: [
+      { date: '1968-12-24', event: 'Appointed to U.S. Senate' },
+      { date: '2000-2007', event: 'Period of unreported gifts from VECO Corporation' },
+      { date: '2008-07-29', event: 'Indicted on 7 counts of making false statements' },
+      { date: '2008-10-27', event: 'Convicted on all 7 counts' },
+      { date: '2008-11-04', event: 'Loses reelection to Mark Begich by fewer than 4,000 votes' },
+      { date: '2009-04-01', event: 'AG Holder moves to dismiss all charges; prosecutorial misconduct found' },
+      { date: '2010-08-09', event: 'Dies in plane crash in Alaska' },
+    ],
+    sources: [
+      { title: 'DOJ: Report on the Investigation of Senator Ted Stevens', url: 'https://www.justice.gov/opr/report-investigation-senator-ted-stevens', date: '2012' },
+    ],
+    aliases: ['King of Pork', 'Uncle Ted'],
+    knownAssociates: [
+      { name: 'Bill Allen', relationship: 'VECO CEO who provided $250K in unreported gifts' },
+      { name: 'Don Young', relationship: 'Fellow Alaska congressman; benefited from earmarks' },
+    ],
+  },
+  'tim-nolan': {
+    slug: 'tim-nolan',
+    name: 'Tim Nolan',
+    title: 'Former Campbell County Judge and Trump Campaign Chairman (Kentucky)',
+    photo: '/images/individuals/tim-nolan.webp',
+    background: 'Timothy Nolan served as a district judge in Campbell County, Kentucky, and was an early and prominent Trump campaign chairman in the state. In 2018, he was convicted of human trafficking and sex crimes involving minors.',
+    controversies: [
+      'Convicted of sex trafficking of minors and adults over a 10+ year period',
+      'Used drugs and his judicial authority to coerce victims, including minors, into sexual acts',
+      'Victims included women facing charges in his courtroom who he offered leniency in exchange for sex',
+      'Served as Trump campaign chairman for Campbell County, Kentucky during 2016 election',
+      'Had previously served on school boards despite sexual misconduct allegations dating back years',
+    ],
+    charges: [
+      {
+        description: '21 counts including human trafficking, rape, sex trafficking of a minor, and use of a minor in a sexual performance',
+        status: 'Pleaded guilty; sentenced to 20 years in prison (2018)',
+        source: 'Commonwealth of Kentucky',
+      },
+    ],
+    timeline: [
+      { date: '2016-01-01', event: 'Named Trump campaign chairman for Campbell County, Kentucky' },
+      { date: '2017-04-01', event: 'Arrested on human trafficking and sex crime charges' },
+      { date: '2018-02-09', event: 'Pleaded guilty to 21 counts; sentenced to 20 years' },
+    ],
+    affiliations: [
+      { name: 'Campbell County District Court', role: 'Former Judge', type: 'agency' as const },
+      { name: 'Trump 2016 Campaign', role: 'County Campaign Chairman', type: 'organization' as const },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as his Kentucky campaign chairman', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'thomas-homan': {
+    name: 'Thomas Homan',
+    title: 'Former Acting Director of ICE / Border Czar',
+    role: 'Federal Law Enforcement Official',
+    riskLevel: 'high' as const,
+    description: 'Career immigration enforcement official who served as Acting Director of Immigration and Customs Enforcement from 2017-2018 and was appointed Border Czar in 2025. Chief defender of the Trump administration zero tolerance family separation policy that deliberately separated over 5,500 children from their parents at the U.S.-Mexico border. Known for aggressive enforcement tactics targeting sanctuary cities, courthouses, and hospitals.',
+    birthDate: '1960-01-01',
+    birthPlace: 'West Carthage, New York',
+    education: ['Criminal Justice, State University of New York (1984)'],
+    affiliations: [
+      { name: 'Immigration and Customs Enforcement (ICE)', role: 'Acting Director (2017-2018)', type: 'agency' as const },
+      { name: 'Department of Homeland Security', role: 'Border Czar (2025-Present)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Chief architect and public defender of zero tolerance family separation policy separating over 5,500 children from parents',
+      'Oversaw ICE workplace raids that separated parents from children with no reunification plan',
+      'Defended detention conditions in facilities where multiple children died in ICE/CBP custody',
+      'Promoted aggressive enforcement in courthouses, hospitals, and schools — previously protected sensitive locations',
+      'Threatened to arrest mayors and officials of sanctuary cities who refused cooperation with ICE',
+      'Oversaw expansion of for-profit immigration detention facilities with documented abuse conditions',
+      'As Border Czar in 2025 leading mass deportation campaign targeting millions of undocumented immigrants',
+    ],
+    charges: [
+      {
+        statute: 'UN Convention on the Rights of the Child - Violations',
+        description: 'Family separation policy constituted cruel and inhuman treatment of children per international human rights standards and legal scholars',
+        category: 'human-rights',
+      },
+      {
+        statute: '8 U.S.C. § 1232 - Trafficking Victims Protection Reauthorization Act Violations',
+        description: 'Failure to properly process and protect unaccompanied minors created by family separation policy',
+        category: 'human-rights',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Immigration Detention Abuse and Family Separation', slug: 'immigration-detention-abuse', severity: 'critical' },
+      { title: 'Homeland Security Mission Creep and Civil Liberties', slug: 'homeland-security-mission-creep', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1984', event: 'Begins career as border patrol agent in San Diego, California' },
+      { date: '2003', event: 'Transfers to newly created ICE under Department of Homeland Security' },
+      { date: '2013', event: 'Named executive associate director of ICE Enforcement and Removal Operations' },
+      { date: '2017-01-30', event: 'Appointed Acting Director of ICE by President Trump' },
+      { date: '2017-04', event: 'Implements zero tolerance prosecution policy at the border' },
+      { date: '2018-06', event: 'Defends family separation amid public outcry as thousands of children separated from parents' },
+      { date: '2018-06-29', event: 'Resigns as Acting ICE Director' },
+      { date: '2024-11', event: 'Named incoming Border Czar by President-elect Trump for second administration' },
+      { date: '2025-01', event: 'Begins role overseeing mass deportation operations' },
+    ],
+    sources: [
+      { title: 'DHS Office of Inspector General: Family Separation Report', url: 'https://www.oig.dhs.gov/', date: '2020' },
+      { title: 'GAO Report on Immigration Detention Conditions', url: 'https://www.gao.gov/', date: '2019' },
+      { title: 'ACLU Family Separation Crisis Documentation', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', date: '2023' },
+    ],
+    aliases: ['ICE Man', 'Border Czar'],
+    knownAssociates: [
+      { name: 'Stephen Miller', relationship: 'Senior Trump advisor and architect of hardline immigration policies including family separation', href: '/entities/individuals/stephen-miller' },
+      { name: 'Jeff Sessions', relationship: 'Attorney General who formally announced the zero tolerance prosecution policy', href: '/entities/individuals/jeff-sessions' },
+      { name: 'Donald Trump', relationship: 'President who appointed him ICE Director and later Border Czar', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'tom-hayes': {
+    name: 'Tom Hayes',
+    title: 'Former Derivatives Trader / LIBOR Rigger',
+    role: 'Financial Trader',
+    riskLevel: 'high' as const,
+    description: 'Former UBS and Citigroup derivatives trader who became the first person convicted for manipulating the London Interbank Offered Rate (LIBOR), the benchmark interest rate underpinning $350 trillion in global financial contracts. Hayes orchestrated a network of brokers and traders across multiple banks to rig LIBOR submissions in his favor, earning millions in illicit profits. While he was ultimately made a scapegoat — convicted and sentenced to 14 years (reduced to 11) — the scandal revealed systemic manipulation involving major banks including Barclays, UBS, Deutsche Bank, and Rabobank.',
+    birthDate: '1979-01-01',
+    birthPlace: 'London, England',
+    education: ['Mathematics and Engineering, University of Nottingham (2001)'],
+    affiliations: [
+      { name: 'UBS', role: 'Derivatives Trader (2006-2009)', type: 'corporation' as const },
+      { name: 'Citigroup', role: 'Derivatives Trader (2009-2010)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'First person convicted globally for LIBOR manipulation; sentenced to 14 years (reduced to 11 on appeal)',
+      'Orchestrated network of brokers and traders across multiple banks to manipulate LIBOR submissions',
+      'Manipulation affected $350 trillion in financial contracts globally including mortgages, student loans, and municipal bonds',
+      'Argued he was made a scapegoat for industry-wide practice that was known and tolerated by bank management',
+      'Conviction overturned in January 2024 after legal challenge arguing the conduct was not criminal under English law at the time',
+      'UBS, Barclays, Deutsche Bank, Rabobank and other institutions paid billions in fines while individual accountability was limited',
+    ],
+    charges: [
+      {
+        statute: 'UK Fraud Act 2006 - Conspiracy to Defraud',
+        description: 'Convicted on 8 counts of conspiracy to defraud by manipulating LIBOR submissions between 2006-2010; sentence later overturned in 2024',
+        category: 'financial',
+      },
+      {
+        statute: '18 U.S.C. § 1343 - Wire Fraud (U.S. charges)',
+        description: 'Charged by U.S. DOJ with wire fraud and antitrust violations for LIBOR manipulation; extradition contested',
+        category: 'financial',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Banking LIBOR Manipulation Scandal', slug: 'banking-libor-manipulation', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2006', event: 'Begins trading yen-denominated interest rate derivatives at UBS in Tokyo' },
+      { date: '2006-2009', event: 'Systematically manipulates LIBOR submissions through network of brokers and traders at multiple banks' },
+      { date: '2009', event: 'Moves to Citigroup in Tokyo; continues LIBOR manipulation at new employer' },
+      { date: '2010-09', event: 'Fired by Citigroup amid internal investigation into rate manipulation' },
+      { date: '2012-06', event: 'LIBOR scandal breaks publicly when Barclays pays $450 million fine' },
+      { date: '2013-12', event: 'Arrested in UK; first individual charged for LIBOR manipulation' },
+      { date: '2015-08-03', event: 'Convicted on 8 counts of conspiracy to defraud; sentenced to 14 years' },
+      { date: '2015-12', event: 'Sentence reduced to 11 years on appeal' },
+      { date: '2021', event: 'Released from prison after serving approximately half his sentence' },
+      { date: '2024-01', event: 'Conviction overturned by Court of Appeal; court rules conduct was not criminal under law at the time' },
+    ],
+    sources: [
+      { title: 'UK Serious Fraud Office: LIBOR Investigation', url: 'https://www.sfo.gov.uk/', date: '2015' },
+      { title: 'The Spider Network: How a Math Genius and a Gang of Scheming Bankers Pulled Off One of the Greatest Scams in History by David Enrich', date: '2017' },
+      { title: 'Court of Appeal: R v Hayes [2024]', date: '2024' },
+    ],
+    aliases: ['Tommy', 'Rain Man (trader nickname)'],
+    knownAssociates: [
+      { name: 'Terry Farr', relationship: 'RP Martin broker who assisted in LIBOR manipulation; acquitted at trial' },
+      { name: 'Roger Darin', relationship: 'UBS manager who oversaw rate submissions; charged by U.S. DOJ' },
+    ],
+  },
+  'tom-price': {
+    name: 'Tom Price',
+    title: 'Former HHS Secretary',
+    role: 'Healthcare Insider Trader and Private Jet Abuser',
+    riskLevel: 'high' as const,
+    description: 'Tom Price served as HHS Secretary for less than eight months before resigning over revelations that he used taxpayer-funded private charter flights costing over $1 million while simultaneously trading health care stocks as a congressman and making legislative decisions that directly affected those investments.',
+    birthDate: '1954-10-08',
+    birthPlace: 'Lansing, Michigan',
+    education: [
+      'B.A., University of Michigan (1976)',
+      'M.D., University of Michigan Medical School (1979)',
+    ],
+    affiliations: [
+      { name: 'HHS', role: 'Secretary (2017)', type: 'agency' as const },
+      { name: 'U.S. House of Representatives', role: 'Representative, GA-6 (2005-2017)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Used taxpayer-funded private charter flights 26 times at a cost exceeding $1 million while HHS Secretary',
+      'Traded over $300,000 in healthcare company stocks while serving on committees with jurisdiction over those companies',
+      'Purchased stock in Zimmer Biomet, a medical device company, days before introducing legislation that would benefit the company',
+      'Resigned under pressure after Politico exposed the scale of charter flight spending',
+      'Repaid only $51,887 of the $1 million in charter flight costs, representing his "seat cost" only',
+      'As House Budget Committee chairman, pushed ACA repeal that would have benefited his stock holdings in healthcare companies',
+    ],
+    relatedInvestigations: [
+      { title: 'Congressional Stock Trading', slug: 'congressional-stock-trading', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2005', event: 'Entered Congress representing Georgias 6th district' },
+      { date: '2016-03', event: 'Purchased Zimmer Biomet stock; days later introduced bill benefiting orthopedic device makers' },
+      { date: '2017-02', event: 'Confirmed as HHS Secretary despite stock trading concerns raised in hearings' },
+      { date: '2017-09', event: 'Politico reported 26 private charter flights at taxpayer expense since May 2017' },
+      { date: '2017-09-29', event: 'Resigned as HHS Secretary; repaid only his seat cost of $51,887' },
+      { date: '2018', event: 'HHS Inspector General report confirmed improper travel spending' },
+    ],
+    sources: [
+      { title: 'Politico: Tom Price Charter Flight Investigation', url: 'https://www.politico.com/', date: '2017' },
+      { title: 'HHS OIG: Review of Secretary Price Travel', date: '2018' },
+      { title: 'CNN: Price Stock Trading Timeline', url: 'https://www.cnn.com/', date: '2017' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who appointed Price and called his travel costs "disappointing" before accepting resignation', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'samuel-alito': {
+    name: 'Samuel Alito',
+    title: 'Associate Justice of the Supreme Court',
+    role: 'Architect of Roe Reversal with Undisclosed Luxury Travel',
+    riskLevel: 'critical' as const,
+    description: 'Samuel Alito has served on the Supreme Court since 2006 and authored the Dobbs decision overturning Roe v. Wade after nearly 50 years of precedent. ProPublica investigations revealed he accepted undisclosed luxury travel from billionaire Paul Singer, a hedge fund manager who had business before the Court, and failed to recuse himself from cases involving Singer.',
+    birthDate: '1950-04-01',
+    birthPlace: 'Trenton, New Jersey',
+    education: [
+      'A.B., Princeton University (1972)',
+      'J.D., Yale Law School (1975)',
+    ],
+    affiliations: [
+      { name: 'Supreme Court of the United States', role: 'Associate Justice (2006-present)', type: 'agency' as const },
+      { name: 'U.S. Court of Appeals for the Third Circuit', role: 'Judge (1990-2006)', type: 'agency' as const },
+      { name: 'Department of Justice', role: 'Assistant to the Solicitor General; U.S. Attorney (1977-1990)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Authored the Dobbs v. Jackson opinion that overturned Roe v. Wade and Planned Parenthood v. Casey, eliminating federal abortion rights after 49 years',
+      'Accepted luxury fishing trip to Alaska on private jet from billionaire Paul Singer, who had cases before the Court; did not recuse from cases involving Singers hedge fund',
+      'Draft Dobbs opinion was leaked months before official release, an unprecedented breach; Alito has denied involvement but investigation was inconclusive',
+      'Flew upside-down American flag at his Virginia home days after January 6, a symbol adopted by "Stop the Steal" movement; blamed his wife',
+      'Flew "Appeal to Heaven" flag at his vacation home, another symbol associated with January 6 movement and Christian nationalism',
+      'Gave interview to Wall Street Journal editorial board criticizing Congress for attempting to impose ethics rules on the Court',
+      'Refused to recuse from January 6-related cases despite the flag controversies; said his wife, not he, was responsible for flag displays',
+    ],
+    relatedInvestigations: [
+      { title: 'Judicial Election Dark Money', slug: 'judicial-election-dark-money', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2006-01', event: 'Confirmed to Supreme Court in 58-42 vote' },
+      { date: '2008', event: 'Accepted luxury Alaska fishing trip from Paul Singer; did not disclose or recuse' },
+      { date: '2021-01', event: 'Upside-down American flag flown at Alito residence after January 6' },
+      { date: '2022-05', event: 'Draft Dobbs opinion leaked by Politico, unprecedented in Supreme Court history' },
+      { date: '2022-06', event: 'Dobbs v. Jackson decision officially released, overturning Roe v. Wade' },
+      { date: '2023-06', event: 'ProPublica revealed undisclosed Singer fishing trip and other luxury travel' },
+      { date: '2023-07', event: 'Senate Judiciary Committee sought testimony; Alito declined and criticized ethics proposals' },
+      { date: '2024-05', event: 'New York Times revealed "Appeal to Heaven" flag at vacation home' },
+    ],
+    sources: [
+      { title: 'ProPublica: Samuel Alito Luxury Travel Investigation', url: 'https://www.propublica.org/', date: '2023' },
+      { title: 'New York Times: Alito Flag Controversies', url: 'https://www.nytimes.com/', date: '2024' },
+      { title: 'Supreme Court of the United States: Dobbs v. Jackson Womens Health Organization', date: '2022' },
+    ],
+    aliases: ['Scalito'],
+    knownAssociates: [
+      { name: 'Clarence Thomas', relationship: 'Fellow conservative justice with similar undisclosed luxury travel from wealthy benefactors' },
+      { name: 'Paul Singer', relationship: 'Billionaire hedge fund manager who provided luxury travel while his fund had cases before the Court' },
+    ],
+  },
 };
 
 export default profiles;

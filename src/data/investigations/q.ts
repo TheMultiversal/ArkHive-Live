@@ -65,7 +65,58 @@ const investigations_q: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Pattern-or-practice investigations provide alternative accountability path; Civil Rights Division enforcement has varied dramatically by administration', href: '/entities/agencies/doj' },
     ],
   },
-
+  'prosecutorial-misconduct-wrongful-convictions': {
+    title: 'Prosecutorial Misconduct and Wrongful Convictions',
+    subtitle: 'How prosecutors who hide evidence, coerce witnesses, and pursue convictions they know are wrongful face virtually no consequences, contributing to 3,400+ exonerations and an unknown number of innocent people still imprisoned',
+    severity: 'critical' as const,
+    category: 'Criminal Justice',
+    date: '2024-07-15',
+    lastUpdated: '2025-02-28',
+    summary: 'The National Registry of Exonerations has documented over 3,400 wrongful convictions since 1989, with prosecutors contributing to the wrongful conviction through misconduct in 30% of cases. Brady violations (failure to disclose exculpatory evidence) are the most common form of prosecutorial misconduct, followed by use of false testimony, coerced confessions, and misleading forensic evidence. Despite Supreme Court precedent requiring disclosure, prosecutors who violate Brady face almost no professional consequences. A 2020 study found that only 4% of prosecutors found to have committed misconduct faced any disciplinary action. The system creates a structural incentive to win convictions rather than pursue justice.',
+    content: [
+      'Brady v. Maryland (1963) requires prosecutors to disclose all evidence favorable to the defendant. In the 60+ years since, courts have found Brady violations in thousands of cases, but the remedy is almost always a new trial rather than consequences for the prosecutor. Michael Morton spent 25 years in a Texas prison for a murder he did not commit because prosecutor Ken Anderson hid DNA evidence and witness statements pointing to another suspect. Anderson was eventually disbarred and sentenced to 10 days in jail, the harshest punishment any American prosecutor has ever received for a Brady violation.',
+      'The Innocence Project has secured 250+ DNA exonerations, and in approximately 45% of these cases, prosecutorial misconduct contributed to the wrongful conviction. False confession cases, which account for 29% of DNA exonerations, frequently involve prosecutors who proceeded with charges despite evidence that confessions were coerced. In the Central Park Five case, prosecutors pursued convictions against five teenagers based on coerced confessions despite DNA evidence that did not match any defendant. All five were exonerated after the actual perpetrator confessed, but the lead prosecutor, Linda Fairstein, faced no professional consequences for decades.',
+      'The use of jailhouse informants ("snitches") represents one of the most corrupt elements of the prosecution system. Informants receive sentencing reductions, dropped charges, or cash payments in exchange for testimony claiming that defendants confessed to them. The California Innocence Project found that informant testimony contributed to 15% of wrongful convictions. In Orange County, California, a massive jailhouse informant scandal revealed that prosecutors and sheriff\'s deputies operated an illegal informant program for decades, planting informants near defendants and hiding the arrangements from courts and defense attorneys.',
+      'Absolute prosecutorial immunity, established by the Supreme Court in Imbler v. Pachtman (1976), shields prosecutors from civil liability for actions taken in their prosecutorial capacity, even when those actions involve deliberate misconduct. A prosecutor who knowingly presents false evidence, hides exculpatory material, or pursues a case against someone they know is innocent cannot be sued for damages. The victim of a wrongful conviction has no civil remedy against the prosecutor. This immunity, combined with the near-total absence of bar discipline, creates a system where prosecutors face zero personal risk for misconduct.',
+      'The structural incentives of the American prosecution system overwhelmingly favor conviction over justice. Prosecutors are evaluated, promoted, and elected based on conviction rates. At the federal level, the conviction rate exceeds 98%, suggesting either perfect prosecutorial judgment or enormous pressure on defendants to plead guilty regardless of actual guilt. Plea bargaining resolves 97% of federal cases and 94% of state cases, meaning prosecutors effectively determine guilt without trial in the vast majority of cases. The power to charge, combined with mandatory minimum sentences, gives prosecutors coercive leverage that undermines the constitutional right to trial.',
+    ],
+    tags: ['prosecutorial misconduct', 'wrongful convictions', 'Brady violations', 'Innocence Project', 'exonerations', 'jailhouse informants', 'absolute immunity', 'plea bargaining', 'DNA exoneration', 'criminal justice'],
+    sources: [
+      { title: 'National Registry of Exonerations', url: 'https://www.law.umich.edu/special/exoneration/', type: 'Research' },
+      { title: 'Innocence Project', url: 'https://innocenceproject.org/', type: 'Research' },
+      { title: 'Supreme Court: Brady v. Maryland (1963)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' },
+    ],
+    affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutors maintain 98% conviction rate; Brady compliance is self-policed; Thompson memo on DOJ ethics rarely enforced; no systematic tracking of federal prosecutorial misconduct', href: '/entities/agencies/doj' },
+      { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created absolute prosecutorial immunity in Imbler v. Pachtman (1976); established Brady disclosure requirement but provided no enforcement mechanism', href: '/entities/agencies/supreme-court' },
+    ],
+  },
+  'qualified-immunity-police-shield': {
+    title: 'Qualified Immunity: The Police Accountability Shield',
+    subtitle: 'How a Judicial Doctrine Blocks Nearly All Civil Rights Lawsuits Against Officers',
+    severity: 'critical' as const,
+    category: 'Criminal Justice & Civil Rights',
+    date: '2024-05-30',
+    lastUpdated: '2025-02-20',
+    summary: 'The qualified immunity doctrine, created by the Supreme Court without any basis in the text of federal civil rights law, blocks the vast majority of lawsuits against police officers for constitutional violations. Victims of excessive force, unlawful searches, and even death at the hands of police are denied compensation unless they can identify a prior case with nearly identical facts.',
+    content: [
+      'Qualified immunity is a judicial doctrine that shields government officials, most commonly police officers, from civil liability for constitutional violations unless the plaintiff can demonstrate that the specific conduct violated "clearly established" law. In practice, this means a plaintiff must identify a prior case in the same jurisdiction involving nearly identical facts. If an officer violates someone rights in a way that no previous officer has been sued for, there is no liability. Courts have applied this standard with extraordinary specificity, holding that officers who shot suspects in one posture were immune because previous cases involved suspects in a different posture.',
+      'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights. The Supreme Court invented qualified immunity through a series of decisions beginning in the 1960s and progressively expanding the protection. Legal scholars have demonstrated that the historical record supports no immunity defense for the type of constitutional violations Section 1983 was designed to address. The doctrine is, in the assessment of multiple federal judges including both liberal and conservative appointees, judicial legislation.',
+      'The practical impact on police accountability is devastating. An analysis of Section 1983 cases in federal courts found that qualified immunity was raised in over 60% of excessive force cases and granted in more than half of those. When qualified immunity is asserted, plaintiffs face years of appellate litigation simply to establish the right to have a trial. Many meritorious claims are abandoned because attorneys, who work on contingency in these cases, cannot justify the investment against the likelihood of immunity being granted. The doctrine functions as a veto on accountability for all but the most egregious and well-documented misconduct.',
+      'Even the Supreme Court recognizes the absurdity. In multiple cases, the Court has acknowledged that officers violated constitutional rights but granted immunity because the specific type of violation had not been previously established. This creates a circular trap: rights cannot become clearly established because qualified immunity prevents cases from reaching the stage where they would establish the precedent. Justice Sotomayor has called the doctrine an "absolute shield" that "tells officers that they can shoot first and think later."',
+      'Reform efforts have gained bipartisan traction but face institutional resistance. The George Floyd Justice in Policing Act would have eliminated qualified immunity for federal civil rights claims but failed in the Senate. Colorado, Connecticut, New Mexico, and New York City have abolished or limited the doctrine at the state level, with early results showing no evidence of the defensive policing or officer recruitment crises that opponents predicted. Police unions and law enforcement organizations remain the primary opponents, despite the fact that individual officers almost never pay judgments themselves, as municipalities cover settlements and verdicts through insurance or general funds.',
+    ],
+    tags: ['qualified immunity', 'police accountability', 'Section 1983', 'excessive force', 'civil rights', 'Supreme Court', 'law enforcement'],
+    sources: [
+      'https://www.law.cornell.edu/wex/qualified_immunity',
+      'https://ij.org/issues/project-on-immunity-and-accountability/frequently-asked-questions-about-ending-qualified-immunity/',
+      'https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/',
+    ],
+    affiliations: [
+      { id: '1', name: 'DOJ', type: 'agency', relationship: 'Can bring pattern-or-practice suits against departments (bypassing individual immunity) but cannot sue individual officers under qualified immunity; consent decree tool depends on political will', href: '/entities/agencies/doj' },
+      { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created and expanded qualified immunity doctrine through judicial interpretation; multiple justices from both ideological wings have called for reexamination but the Court has declined to reconsider', href: '/entities/agencies/supreme-court' },
+    ],
+  },
 };
 
 export default investigations_q;

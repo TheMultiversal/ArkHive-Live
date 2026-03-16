@@ -26,11 +26,11 @@ export default function AnimatedLetters({ lines, className = '' }: AnimatedLette
  @keyframes bloodPulse {
  0%, 100% {
  opacity: 0.7;
- text-shadow: 0 0 10px rgba(220, 38, 38, 0.3);
+ text-shadow: 0 0 10px rgba(37, 99, 235, 0.3);
  }
  50% {
  opacity: 1;
- text-shadow: 0 0 20px rgba(220, 38, 38, 0.6), 0 0 40px rgba(220, 38, 38, 0.3);
+ text-shadow: 0 0 20px rgba(37, 99, 235, 0.6), 0 0 40px rgba(37, 99, 235, 0.3);
  }
  }
  .animate-blood-pulse {

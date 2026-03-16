@@ -636,32 +636,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
- 'clarence-thomas': {
- name: 'Clarence Thomas',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Clarence Thomas. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
  'charles-koch': {
  name: 'Charles Koch',
  title: 'Profile Under Review',
@@ -2045,41 +2019,46 @@ const profiles: Record<string, IndividualProfile> = {
 
  'craig-landau': {
  name: 'Craig Landau',
- title: 'Pharma Executive',
- role: 'Purdue Pharma CEO During Crisis',
- riskLevel: 'critical',
- description: 'Craig Landau was CEO of Purdue Pharma during the height of the opioid crisis. Under his leadership, the company continued aggressive OxyContin marketing while hundreds of thousands died. The company eventually pleaded guilty to federal charges and agreed to dissolve.',
- birthDate: '1960s (approx)',
- birthPlace: 'Unknown',
- education: ['Medical degree'],
+ title: 'Former CEO of Purdue Pharma',
+ role: 'Physician and CEO of Purdue Pharma who continued aggressive OxyContin marketing during the peak of the opioid epidemic while the company accumulated over 3,000 lawsuits and eventually pleaded guilty to federal criminal charges',
+ riskLevel: 'critical' as const,
+ description: 'Craig Landau (born circa 1965) is a physician who served as CEO of Purdue Pharma from 2017 until the company dissolution. A medical doctor by training, Landau joined Purdue Pharma in 1999, the same year that OxyContin sales surged to over $1 billion, and rose through the ranks of the company during the period when the opioid epidemic killed hundreds of thousands of Americans. As CEO, Landau oversaw the company during its second federal guilty plea in 2020, when Purdue admitted to criminal charges including conspiracy to defraud the United States and violating the Federal Anti-Kickback Statute. Under his leadership, Purdue continued to promote OxyContin despite the company own data showing massive diversion and abuse. The company filed for bankruptcy in 2019 in an attempt to resolve over 3,000 lawsuits from states, cities, and tribal nations. Purdue agreed to an $8.3 billion criminal and civil resolution with the DOJ in 2020, though the actual amount collected was far less. Landau received millions in compensation during his tenure as CEO of a company that the DOJ found had "knowingly and intentionally conspired and agreed with others to aid and abet" the dispensing of opioids without a legitimate medical purpose. No individual Purdue executive, including Landau, has served prison time for the company role in the opioid epidemic that has killed over 500,000 Americans.',
+ education: ['Medical degree (M.D.)'],
  affiliations: [
- { name: 'Purdue Pharma', role: 'Former CEO', type: 'corporation' as const },
+ { name: 'Purdue Pharma', role: 'CEO (2017-dissolution); previously held senior medical and commercial roles from 1999; oversaw second criminal guilty plea and bankruptcy', type: 'corporation' },
  ],
  controversies: [
- 'OPIOID CRISIS: Led company during peak deaths',
- 'AGGRESSIVE MARKETING: Continued pushing OxyContin',
- 'COMPANY GUILTY PLEA: Purdue pleaded guilty',
- 'MASS CASUALTIES: 500,000+ opioid deaths',
- 'DISSOLUTION: Company dissolved',
+ 'Served as CEO during Purdue second federal guilty plea in 2020 for conspiracy to defraud the United States and violating the Anti-Kickback Statute',
+ 'Continued aggressive OxyContin marketing during the peak of the opioid epidemic while over 500,000 Americans died from opioid overdoses',
+ 'Oversaw Purdue 2019 bankruptcy filing designed to resolve 3,000+ lawsuits while shielding the Sackler family from personal liability',
+ 'Received millions in executive compensation from a company the DOJ found had "knowingly and intentionally" aided illegal opioid dispensing',
+ 'Joined Purdue in 1999 and rose through the company during the entire period of the opioid crisis, making him complicit in the systemic marketing fraud',
+ 'No individual Purdue executive including Landau has served prison time despite the company two criminal guilty pleas and admission of causing hundreds of thousands of deaths',
+ 'Purdue agreed to $8.3 billion DOJ resolution in 2020, though actual collections were far less due to the bankruptcy proceedings',
  ],
  charges: [
- { statute: 'Federal Drug Laws', description: 'Company pleaded guilty', category: 'COMPANY CONVICTED' },
+ { statute: '18 U.S.C. 371 - Conspiracy to Defraud the United States', description: 'Purdue Pharma pleaded guilty to conspiracy to defraud the United States by impeding the lawful function of the DEA', category: 'federal' },
+ { statute: '42 U.S.C. 1320a-7b - Federal Anti-Kickback Statute', description: 'Purdue admitted to paying illegal kickbacks to healthcare providers to prescribe OxyContin', category: 'federal' },
  ],
  relatedInvestigations: [
- { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
- { title: 'Purdue Pharma', slug: 'purdue-pharma', severity: 'critical' },
+ { title: 'Purdue Pharma and the Sackler Family: OxyContin and the Opioid Crisis', slug: 'purdue-pharma-oxycontin-opioid-crisis', severity: 'critical' },
  ],
  timeline: [
- { date: '2017', event: 'Becomes Purdue CEO' },
- { date: '2020', event: 'Purdue pleads guilty' },
- { date: '2021', event: 'Company dissolution agreed' },
+ { date: '1999', event: 'Joins Purdue Pharma as the opioid epidemic begins to accelerate' },
+ { date: '2017', event: 'Appointed CEO of Purdue Pharma as lawsuits mount from states, cities, and tribal nations' },
+ { date: '2019-09', event: 'Purdue files for Chapter 11 bankruptcy to resolve over 3,000 opioid-related lawsuits' },
+ { date: '2020-10-21', event: 'Purdue pleads guilty to three federal criminal charges including conspiracy to defraud the U.S.; agrees to $8.3 billion resolution' },
+ { date: '2021', event: 'Purdue dissolution plan approved; company to be restructured as a public benefit company; Sackler family contributes $4.5 billion from personal fortune' },
  ],
- sources: [{ title: 'Wikipedia: Craig Landau', url: 'https://www.google.com/search?q=Craig%20Landau' }, { title: 'Bloomberg: Craig Landau', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
+ sources: [
+ { title: 'DOJ: Purdue Pharma Pleads Guilty to Two Federal Criminal Charges', url: 'https://www.justice.gov/opa/pr/purdue-pharma-lp-agrees-plead-guilty', date: '2020-10-21' },
+ { title: 'Bankruptcy Court: In re Purdue Pharma L.P., Case No. 19-23649', date: '2019' },
+ { title: 'STAT News: Purdue Pharma Opioid Crisis Coverage', url: 'https://www.statnews.com/', date: '2020' },
+ ],
  knownAssociates: [
- { name: 'Richard Sackler', relationship: 'Fellow opioid crisis executive, Purdue Pharma', href: '/entities/individuals/richard-sackler' },
- { name: 'Steven Collis', relationship: 'AmerisourceBergen CEO in opioid distribution chain', href: '/entities/individuals/steven-collis' }
+ { name: 'Richard Sackler', relationship: 'Former Purdue president and Sackler family member who directed aggressive OxyContin marketing; extracted billions before bankruptcy', href: '/entities/individuals/richard-sackler' },
+ { name: 'Steven Collis', relationship: 'AmerisourceBergen CEO whose company distributed billions of opioid pills while ignoring red flags of diversion', href: '/entities/individuals/steven-collis' },
  ],
-
  },
  'chip-roy': {
  name: 'Chip Roy',
@@ -4802,24 +4781,294 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Edgar Bronfman', relationship: 'Connected Entity', href: '/entities/individuals/edgar-bronfman' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  'chris-collins': {
+    name: 'Chris Collins',
+    title: 'Former U.S. Representative (R-NY-27)',
+    role: 'First sitting member of Congress to endorse Donald Trump, convicted of insider trading for tipping his son about a failed drug trial while attending a congressional picnic at the White House',
+    riskLevel: 'high',
+    description: 'Christopher Carl Collins served as a U.S. Representative from New York from 2013 to 2020. He was the first sitting member of Congress to endorse Donald Trump for president in 2016. Collins served on the board of directors of Innate Immunotherapeutics, an Australian biotech company, while simultaneously serving on the House Energy and Commerce Committee which had jurisdiction over drug approvals. On June 22, 2017, while attending the Congressional Picnic at the White House, Collins received an email from Innate\'s CEO informing him that a crucial drug trial for MBS8 had failed. Within minutes, Collins passed the information to his son Cameron, who sold his shares before the news became public, avoiding $768,000 in losses. Cameron Collins also tipped his fiancee\'s father, Stephen Zarsky. All three were indicted in August 2018. Chris Collins initially denied the charges and won reelection in November 2018, but pleaded guilty in October 2019 to conspiracy to commit securities fraud and making false statements to the FBI. He was sentenced to 26 months in federal prison and pardoned by Trump in December 2020.',
+    birthDate: 'May 20, 1950',
+    birthPlace: 'Schenectady, New York',
+    education: ['NC State University (B.S.)', 'University of Alabama at Birmingham (M.B.A.)'],
+    affiliations: [
+      { name: 'U.S. House of Representatives (R-NY)', role: 'Member of Congress', type: 'agency' as const },
+      { name: 'Innate Immunotherapeutics', role: 'Board Member', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Convicted of insider trading conspiracy - tipped son about failed drug trial from White House picnic',
+      'Son avoided $768,000 in stock losses based on non-public information from congressman father',
+      'Sat on House Energy and Commerce Committee while serving on biotech company board',
+      'Won reelection while under federal indictment; pardoned by Trump',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 78j(b)/78ff', description: 'Conspiracy to commit securities fraud - insider trading on material non-public information', category: 'federal' },
+      { statute: '18 U.S.C. 1001', description: 'Making false statements to FBI agents during investigation', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-insider-trading'],
+    timeline: [
+      { date: '2013-01', event: 'Takes office as U.S. Representative for NY-27' },
+      { date: '2016-02-24', event: 'Becomes first sitting member of Congress to endorse Trump' },
+      { date: '2017-06-22', event: 'Receives failed drug trial email at White House picnic; tips son' },
+      { date: '2018-08-08', event: 'Indicted on securities fraud and false statement charges' },
+      { date: '2019-10-01', event: 'Pleads guilty to conspiracy and false statements' },
+      { date: '2020-01-17', event: 'Sentenced to 26 months in federal prison' },
+      { date: '2020-12-22', event: 'Pardoned by President Trump' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Christopher Collins', url: 'https://www.justice.gov/usao-sdny/us-v-christopher-collins-et-al', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Cameron Collins', relationship: 'Son and co-defendant; sold Innate Immunotherapeutics shares based on father\'s insider tip' },
+    ],
+  },
+  'clarence-thomas': {
+    name: 'Clarence Thomas',
+    title: 'Associate Justice of the U.S. Supreme Court',
+    role: 'Supreme Court justice who received undisclosed luxury gifts worth millions from billionaire Harlan Crow over two decades while voting on cases affecting Crow\'s interests',
+    riskLevel: 'critical',
+    description: 'Clarence Thomas has served as an Associate Justice of the U.S. Supreme Court since 1991. ProPublica\'s 2023-2024 investigation revealed that Thomas accepted undisclosed luxury gifts from billionaire real estate developer Harlan Crow worth an estimated $4 million+ over two decades, including: annual vacations on Crow\'s superyacht and private jet to destinations including Indonesia and the Greek islands; Crow\'s purchase of Thomas\'s mother\'s home in Savannah, Georgia for $133,000; and over $150,000 in private school tuition for Thomas\'s grandnephew. Thomas never disclosed most of these gifts on his annual financial disclosure forms. He did not recuse from cases involving entities connected to Crow. Thomas has been the most conservative justice for three decades, authoring or joining opinions overturning Roe v. Wade, expanding gun rights, and limiting regulatory authority.',
+    birthDate: 'June 23, 1948',
+    birthPlace: 'Pin Point, Georgia',
+    education: ['College of the Holy Cross (A.B.)', 'Yale Law School (J.D.)'],
+    affiliations: [
+      { name: 'U.S. Supreme Court', role: 'Associate Justice', type: 'agency' as const },
+      { name: 'Equal Employment Opportunity Commission', role: 'Chairman', type: 'agency' as const },
+    ],
+    controversies: [
+      'Received $4M+ in undisclosed gifts from billionaire Harlan Crow over 20+ years',
+      'Failed to disclose luxury travel on private jets and superyachts as required by Ethics in Government Act',
+      'Crow purchased Thomas\'s mother\'s home ($133K) and paid grandnephew\'s tuition ($150K+) - never disclosed',
+      'Did not recuse from cases involving Crow-linked entities',
+      'Wife Virginia Thomas actively promoted overturning the 2020 election',
+      'Only justice to dissent from 8-1 ruling requiring Trump to turn over January 6 documents',
+    ],
+    charges: [
+      { statute: '5 U.S.C. App. 101-111', description: 'Failure to disclose gifts on annual financial disclosure reports (Ethics in Government Act - not criminally charged)', category: 'federal' },
+      { statute: '28 U.S.C. 455', description: 'Failure to recuse from cases where impartiality questioned (not enforced for SCOTUS)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/supreme-court-ethics-crisis'],
+    timeline: [
+      { date: '1991-10-23', event: 'Confirmed to Supreme Court 52-48' },
+      { date: '2004-present', event: 'Period of documented undisclosed Crow gifts' },
+      { date: '2014', event: 'Crow purchases Thomas\'s mother\'s home for $133K' },
+      { date: '2023-04-06', event: 'ProPublica publishes Crow gifts investigation' },
+      { date: '2023-11', event: 'Supreme Court adopts non-binding ethics code after public pressure' },
+    ],
+    sources: [
+      { title: 'ProPublica: Clarence Thomas and the Billionaire', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Harlan Crow', relationship: 'Billionaire benefactor; $4M+ in undisclosed gifts', href: '/individuals/harlan-crow' },
+      { name: 'Virginia Thomas', relationship: 'Wife; conservative activist who advocated overturning 2020 election' },
+      { name: 'Leonard Leo', relationship: 'Federalist Society leader; dark money network', href: '/individuals/leonard-leo' },
+    ],
+  },
+  'charles-koch': {
+    name: 'Charles Koch',
+    title: 'CEO, Koch Industries',
+    role: 'Billionaire industrialist funding dark money political network',
+    riskLevel: 'high',
+    description: 'Charles Koch, CEO of Koch Industries (the second-largest privately held company in America with $125 billion in annual revenue), has built the most influential political donor network in modern American history. The Koch network has spent an estimated $900 million per election cycle on political activities including lobbying, campaign contributions, think tanks, academic programs, and dark money organizations. The network has been instrumental in blocking climate legislation, weakening environmental regulations, opposing healthcare reform, and advancing anti-union policies. Koch Industries itself has paid over $600 million in environmental fines and settlements.',
+    birthDate: 'November 1, 1935',
+    birthPlace: 'Wichita, Kansas',
+    education: ['MIT (B.S. General Engineering; M.S. Nuclear Engineering; M.S. Chemical Engineering)'],
+    affiliations: [
+      { name: 'Koch Industries', role: 'Chairman and CEO', type: 'corporation' as const },
+      { name: 'Americans for Prosperity', role: 'Co-Founder', type: 'organization' as const },
+      { name: 'Cato Institute', role: 'Co-Founder', type: 'organization' as const },
+    ],
+    controversies: [
+      'Koch network spends $900M+ per election cycle on political activities and dark money',
+      'Koch Industries paid $600M+ in environmental fines and settlements',
+      'Funded climate change denial for decades despite clear scientific consensus',
+      'Americans for Prosperity organized opposition to Affordable Care Act and climate legislation',
+      'Koch Industries found guilty of stealing oil from Native American reservations in 1990s',
+      'Funded academic programs at 300+ universities with strings attached influencing curriculum',
+      'Network funded organizations opposing minimum wage increases and union rights',
+    ],
+    charges: [],
+    relatedInvestigations: ['koch-network-dark-money-politics'],
+    timeline: [
+      { date: '1967', event: 'Took over management of family business (later Koch Industries)' },
+      { date: '1977', event: 'Co-founded Cato Institute libertarian think tank' },
+      { date: '2003', event: 'Co-founded Americans for Prosperity as political advocacy arm' },
+      { date: '2010', event: 'Koch network spent $130M influencing midterm elections' },
+      { date: '2016', event: 'Koch network announced $889M budget for 2016 election cycle' },
+      { date: '2019', event: 'Brother David Koch died; Charles continued leading the network' },
+    ],
+    sources: [
+      { title: 'Jane Mayer: Dark Money', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', date: '2016' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'David Koch', relationship: 'Brother and co-leader of Koch political network (deceased 2019)' },
+      { name: 'Leonard Leo', relationship: 'Federalist Society leader; allied dark money networks' },
+      { name: 'Art Pope', relationship: 'Koch network donor; NC political kingmaker' },
+    ],
+  },
+  'curtis-lemay': {
+    name: 'Curtis LeMay',
+    title: 'Former Chief of Staff of the U.S. Air Force',
+    role: 'Military Commander',
+    riskLevel: 'critical' as const,
+    description: 'U.S. Air Force general who directed the firebombing campaign that destroyed 67 Japanese cities during World War II, killing an estimated 330,000-900,000 civilians. Later oversaw the Strategic Air Command nuclear arsenal and advocated for preemptive nuclear strikes against the Soviet Union, Cuba, and other adversaries. His firebombing of Tokyo on March 9-10, 1945 killed approximately 100,000 people in a single night — more than the immediate deaths from either atomic bomb. LeMay himself acknowledged that if the U.S. had lost the war, he would have been tried as a war criminal.',
+    birthDate: '1906-11-15',
+    birthPlace: 'Columbus, Ohio',
+    education: ['Civil Engineering (did not graduate), Ohio State University', 'Flying Cadet Training, U.S. Army Air Corps (1929)'],
+    affiliations: [
+      { name: 'U.S. Air Force', role: 'Chief of Staff (1961-1965)', type: 'agency' as const },
+      { name: 'Strategic Air Command', role: 'Commander (1948-1957)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Directed firebombing campaign that destroyed 67 Japanese cities, killing 330,000-900,000 civilians in 1945',
+      'Tokyo firebombing on March 9-10, 1945 killed approximately 100,000 people in a single night with napalm',
+      'Acknowledged he would have been tried as a war criminal if the U.S. had lost the war',
+      'Advocated for preemptive nuclear first strike against the Soviet Union during the Cold War',
+      'During Cuban Missile Crisis, pushed for immediate military invasion of Cuba over Kennedy\'s objections',
+      'As SAC commander, maintained nuclear bombers on 24/7 airborne alert increasing risk of accidental nuclear war',
+      'Ran as vice presidential candidate in 1968 with segregationist George Wallace on the American Independent Party ticket',
+      'Proposed bombing Vietnam back to the Stone Age; advocated for nuclear weapons use in Vietnam War',
+    ],
+    charges: [
+      {
+        statute: 'Geneva Conventions - Targeting Civilians',
+        description: 'Deliberately targeted civilian population centers with incendiary weapons; Tokyo firebombing killed 100,000 civilians in one night',
+        category: 'human-rights',
+      },
+      {
+        statute: 'Hague Conventions - Bombardment of Undefended Towns',
+        description: 'Systematic destruction of 67 Japanese cities through area bombing specifically designed to maximize civilian casualties',
+        category: 'human-rights',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Nuclear Testing Fallout and Veteran Exposure', slug: 'nuclear-testing-fallout-veterans', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1906-11-15', event: 'Born in Columbus, Ohio' },
+      { date: '1942-1943', event: 'Commands bomber units in European theater; develops formation tactics reducing losses' },
+      { date: '1945-01', event: 'Takes command of XXI Bomber Command in the Pacific; shifts strategy to low-altitude incendiary bombing' },
+      { date: '1945-03-10', event: 'Directs Operation Meetinghouse: firebombing of Tokyo kills approximately 100,000 civilians in one night' },
+      { date: '1945-03-08 to 1945-08', event: 'Firebombing campaign destroys 67 Japanese cities; estimated 330,000-900,000 civilians killed' },
+      { date: '1948', event: 'Named commander of Strategic Air Command; builds nuclear bomber force' },
+      { date: '1954', event: 'Advocates for preemptive nuclear strike against Soviet Union' },
+      { date: '1961-06-30', event: 'Appointed Chief of Staff of the U.S. Air Force' },
+      { date: '1962-10', event: 'During Cuban Missile Crisis, pushes for military invasion of Cuba; overruled by Kennedy' },
+      { date: '1965-02-01', event: 'Retires from Air Force after 37 years of service' },
+      { date: '1968', event: 'Runs as vice presidential candidate with segregationist George Wallace' },
+      { date: '1990-10-01', event: 'Dies in California at age 83' },
+    ],
+    sources: [
+      { title: 'LeMay: The Life and Wars of General Curtis LeMay by Warren Kozak', date: '2009' },
+      { title: 'The Fog of War: Eleven Lessons from the Life of Robert S. McNamara (documentary)', date: '2003' },
+      { title: 'U.S. Strategic Bombing Survey: Effects of Incendiary Attacks on Japan', date: '1947' },
+    ],
+    aliases: ['Old Iron Pants', 'The Demon', 'Bombs Away LeMay'],
+    knownAssociates: [
+      { name: 'Robert McNamara', relationship: 'Served under LeMay in WWII; later acknowledged the firebombing would constitute war crimes' },
+      { name: 'George Wallace', relationship: 'Segregationist presidential candidate who chose LeMay as running mate in 1968' },
+      { name: 'Edward Teller', relationship: 'Nuclear weapons advocate who shared LeMay\'s support for aggressive nuclear posture', href: '/entities/individuals/edward-teller' },
+    ],
+  },
+  'chad-wolf': {
+    name: 'Chad Wolf',
+    title: 'Former Acting DHS Secretary',
+    role: 'Unlawfully Appointed Official Who Deployed Federal Forces Against Protesters',
+    riskLevel: 'high' as const,
+    description: 'Chad Wolf served as Acting DHS Secretary from 2019 to 2021 in a role that a federal judge and the GAO determined was unlawfully held due to improper succession procedures. During his tenure, he deployed federal agents against Portland protesters, expanded immigration restrictions, and attempted to end DACA, all while lacking the legal authority to hold his position.',
+    birthDate: '1976-01-01',
+    birthPlace: 'Dallas, Texas',
+    education: [
+      'B.A., Southern Methodist University (1998)',
+      'M.A., George Washington University (2002)',
+    ],
+    affiliations: [
+      { name: 'DHS', role: 'Acting Secretary (2019-2021)', type: 'agency' as const },
+      { name: 'TSA', role: 'Chief of Staff (2017-2019)', type: 'agency' as const },
+    ],
+    controversies: [
+      'GAO found his appointment as Acting Secretary was invalid under the Federal Vacancies Reform Act',
+      'Federal judge vacated DACA termination attempt because Wolf lacked legal authority to issue the order',
+      'Deployed federal agents from CBP and ICE to Portland, Oregon, where they used unmarked vehicles to detain protesters and deployed chemical agents against crowds',
+      'DHS intelligence office compiled dossiers on journalists covering Portland protests, including reporters for the New York Times',
+      'Personally directed expansion of border wall construction waivers to bypass environmental review',
+      'Resigned January 11, 2021, five days after the Capitol attack, citing the court ruling on his succession',
+      'As a lobbyist before government service, worked for companies seeking DHS contracts he later oversaw',
+    ],
+    relatedInvestigations: [
+      { title: 'Border Patrol Abuse Patterns', slug: 'border-patrol-abuse-patterns', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2017', event: 'Joined TSA as chief of staff under the Trump administration' },
+      { date: '2019-11', event: 'Became Acting DHS Secretary through a succession chain later ruled invalid' },
+      { date: '2020-07', event: 'Deployed federal agents to Portland; unmarked vehicles used to detain protesters' },
+      { date: '2020-08', event: 'GAO ruled Wolf was not lawfully serving as Acting Secretary' },
+      { date: '2020-08', event: 'DHS intelligence compiled dossiers on journalists covering Portland' },
+      { date: '2020-12', event: 'Federal judge vacated DACA order Wolf signed because he lacked authority' },
+      { date: '2021-01-11', event: 'Resigned citing court ruling on succession; five days after Capitol attack' },
+    ],
+    sources: [
+      { title: 'GAO: DHS Acting Secretary Succession Ruling', date: '2020' },
+      { title: 'ACLU: Federal Agents in Portland Investigation', url: 'https://www.aclu.org/', date: '2020' },
+      { title: 'Washington Post: DHS Intelligence Dossiers on Journalists', url: 'https://www.washingtonpost.com/', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who installed Wolf through irregular acting succession to avoid Senate confirmation', href: '/entities/individuals/donald-trump' },
+      { name: 'Stephen Miller', relationship: 'White House advisor who influenced DHS immigration policy decisions during Wolfs tenure', href: '/entities/individuals/stephen-miller' },
+    ],
+  },
+  'ivanka-trump': {
+    name: 'Ivanka Trump',
+    title: 'Former Senior Advisor to the President',
+    role: 'First Daughter Who Mixed Government Access with Brand Promotion',
+    riskLevel: 'high' as const,
+    description: 'Ivanka Trump served as a senior White House advisor while maintaining her fashion brand and real estate interests. She secured Chinese trademarks while her father shaped China trade policy, sat in for the president at G20 meetings despite having no diplomatic credentials, and benefited from government access that enhanced the Trump family business portfolio.',
+    birthDate: '1981-10-30',
+    birthPlace: 'New York City, New York',
+    education: [
+      'B.S. in Economics, Wharton School, University of Pennsylvania (2004)',
+    ],
+    affiliations: [
+      { name: 'White House', role: 'Senior Advisor to the President (2017-2021)', type: 'agency' as const },
+      { name: 'Trump Organization', role: 'Executive Vice President (until 2017)', type: 'corporation' as const },
+      { name: 'Ivanka Trump Brand', role: 'Founder and Owner (2007-2018)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Secured Chinese trademarks for her fashion brand on the same day she dined with Chinese President Xi Jinping at Mar-a-Lago',
+      'Continued to profit from the Trump Organization and her personal brand while serving in an official government capacity',
+      'Sat in for the President at the G20 summit in Hamburg, taking his seat among world leaders despite having no government experience or Senate confirmation',
+      'Used personal email for government business in violation of federal records laws, mirroring the controversy Republicans raised about Hillary Clinton',
+      'Received security clearance after career officials recommended against it; clearance was reportedly pushed through by President Trump',
+      'Womens Global Development and Prosperity Initiative used government position to build international relationships that could benefit family businesses',
+      'Family received over $640 million in income while serving in the White House according to financial disclosures',
+    ],
+    relatedInvestigations: [
+      { title: 'Congressional Stock Trading', slug: 'congressional-stock-trading', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2017-01', event: 'Named unpaid advisor to the president; later became official Senior Advisor' },
+      { date: '2017-04', event: 'Chinese government granted three trademarks to her brand same day she dined with Xi Jinping' },
+      { date: '2017-07', event: 'Sat in for Trump at G20 summit meeting with world leaders' },
+      { date: '2017-09', event: 'House Oversight noted she used personal email for government business' },
+      { date: '2018-07', event: 'Closed fashion brand amid boycotts and ethics concerns' },
+      { date: '2020', event: 'Financial disclosures showed family earned $640 million while serving in White House' },
+      { date: '2021-01', event: 'Left government; stepped back from political life' },
+      { date: '2022', event: 'Testified before January 6 Committee; stated she accepted AG Barrs assessment that election fraud claims were wrong' },
+    ],
+    sources: [
+      { title: 'Citizens for Ethics: Ivanka Trump Ethics Complaints', url: 'https://www.citizensforethics.org/', date: '2019' },
+      { title: 'Associated Press: Ivanka Trump Chinese Trademarks Timeline', date: '2018' },
+      { title: 'House Oversight Committee: Ivanka Trump Personal Email Investigation', date: '2019' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Father and president who created the advisory role and overrode security clearance denial', href: '/entities/individuals/donald-trump' },
+      { name: 'Jared Kushner', relationship: 'Husband and fellow senior advisor; together they reported $640 million in income during White House tenure', href: '/entities/individuals/jared-kushner' },
+    ],
+  },
 };
 
 export default profiles;

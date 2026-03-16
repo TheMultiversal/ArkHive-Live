@@ -126,7 +126,7 @@ function FeaturedInvestigationsGrid() {
         text-left p-3 border-l-2 ${SEVERITY_COLORS[inv.severity]}
         bg-black/30 border border-zinc-800/50
         hover:bg-blood-950/20 hover:border-blood-900/40
-        hover:shadow-[0_0_10px_rgba(214,69,69,0.08)]
+        hover:shadow-[0_0_10px_rgba(59,130,246,0.08)]
         active:scale-[0.98]
         transition-all duration-200 cursor-pointer select-none group
        `}
@@ -191,8 +191,8 @@ export default function Home() {
  <svg className="absolute inset-0 w-full h-full opacity-10">
  <defs>
  <radialGradient id="centerGlow"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#dc2626"stopOpacity="0.3"/>
- <stop offset="100%"stopColor="#dc2626"stopOpacity="0"/>
+ <stop offset="0%"stopColor="#2563eb"stopOpacity="0.3"/>
+ <stop offset="100%"stopColor="#2563eb"stopOpacity="0"/>
  </radialGradient>
  </defs>
  {/* Pre-computed positions to avoid hydration mismatch from Math.sin/cos floating point differences */}
@@ -216,7 +216,7 @@ export default function Home() {
  y1="50%"
  x2={pos.x2}
  y2={pos.y2}
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="0.5"
  opacity="0.3"
  />
@@ -247,7 +247,7 @@ export default function Home() {
  </p>
  {/* Line 2 (HIDDEN) emphasized */}
  <p className="text-4xl sm:text-6xl lg:text-8xl font-black uppercase tracking-tight">
- <span className="text-blood-600"style={{ filter: 'drop-shadow(0 0 30px rgba(153,27,27,0.7)) drop-shadow(0 0 60px rgba(127,29,29,0.4))' }}>
+ <span className="text-blood-600"style={{ filter: 'drop-shadow(0 0 30px rgba(153,27,27,0.7)) drop-shadow(0 0 60px rgba(30,64,175,0.4))' }}>
  YOU&apos;LL NEVER
  </span>
  </p>
@@ -343,10 +343,10 @@ export default function Home() {
  {/* What We Document */}
  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 mb-6">
  {[
- { title:"Government Crimes", desc:"State-sponsored atrocities hidden from public view", href:"/entities/agencies"},
- { title:"Corporate Malfeasance", desc:"Profit over people, cover-ups and collusion", href:"/entities/corporations"},
- { title:"Medical Tyranny", desc:"Forced treatments, experimental injections, pharma fraud", href:"/investigations/pharmaceutical-price-gouging"},
- { title:"Civil Liberty Violations", desc:"Constitutional erosion, surveillance, censorship", href:"/investigations/nsa-mass-surveillance"},
+ { title:"Government Crimes", desc:"State-sponsored atrocities hidden from public view", href:"/investigations?category=Government+Abuse"},
+ { title:"Corporate Malfeasance", desc:"Profit over people, cover-ups and collusion", href:"/investigations?category=Corporate+Crime"},
+ { title:"Medical Tyranny", desc:"Forced treatments, experimental injections, pharma fraud", href:"/investigations?category=Public+Health"},
+ { title:"Civil Liberty Violations", desc:"Constitutional erosion, surveillance, censorship", href:"/investigations?category=Civil+Rights+%26+Justice"},
  ].map((item, i) => (
  <Link key={i} href={item.href} className="text-center p-3 border border-blood-900/40 bg-blood-950/30 hover:border-blood-600 hover:bg-blood-950/50 transition-colors group">
  <span className="block w-2 h-2 bg-blood-700 mx-auto mb-2 group-hover:bg-blood-500 transition-colors"/>

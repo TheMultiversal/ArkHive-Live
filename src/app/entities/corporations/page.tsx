@@ -86,7 +86,7 @@ export default function CorporationsPage() {
               <p className="text-sm text-zinc-500 mt-2">{corporations.length.toLocaleString()} corporations documented in the archive</p>
             </div>
             <p className="text-zinc-400 text-center max-w-2xl mx-auto leading-relaxed">
-              Banks, tech giants, defense contractors, and shell companies. Every corporate profile maps their crimes, fines, and connections to government. Continuously expanded by ArkHive Swarm Intelligence.
+              Banks, tech giants, defense contractors, and shell companies. Every corporate profile maps their crimes, fines, and connections to government. Independently researched and maintained since 2009.
             </p>
           </div>
         </div>

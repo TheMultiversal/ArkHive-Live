@@ -347,9 +347,9 @@ export const float: Variants = {
 export const glow: Variants = {
  glow: {
  boxShadow: [
- '0 0 0px rgba(214, 69, 69, 0)',
- '0 0 20px rgba(214, 69, 69, 0.5)',
- '0 0 0px rgba(214, 69, 69, 0)',
+ '0 0 0px rgba(59, 130, 246, 0)',
+ '0 0 20px rgba(59, 130, 246, 0.5)',
+ '0 0 0px rgba(59, 130, 246, 0)',
  ],
  transition: {
  duration: 2,
@@ -379,10 +379,10 @@ export const hoverLift: Variants = {
 
 export const hoverGlow: Variants = {
  initial: { 
- boxShadow: '0 0 0px rgba(214, 69, 69, 0)' 
+ boxShadow: '0 0 0px rgba(59, 130, 246, 0)' 
  },
  hover: { 
- boxShadow: '0 0 20px rgba(214, 69, 69, 0.3)',
+ boxShadow: '0 0 20px rgba(59, 130, 246, 0.3)',
  transition: transitions.fast,
  },
 };

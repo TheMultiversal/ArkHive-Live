@@ -943,7 +943,142 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [],
  },
-
+  'shiro-ishii': {
+    name: 'Shiro Ishii',
+    title: 'Director of Unit 731, Imperial Japanese Army',
+    role: 'Commander of Biological Warfare Program Who Conducted Human Experiments',
+    riskLevel: 'critical',
+    description: 'Lieutenant General Shiro Ishii commanded Unit 731, the Japanese Imperial Army\'s covert biological and chemical warfare research and development unit in Manchuria during World War II. Under his direction, Unit 731 conducted lethal experiments on thousands of human subjects, including live vivisection without anesthesia, plague and cholera weapon testing on Chinese civilians, and frostbite experiments. An estimated 3,000-12,000 prisoners died in the facility. He was granted immunity by the United States in exchange for biological warfare data.',
+    birthDate: '1892-06-25',
+    birthPlace: 'Shibayama, Chiba Prefecture, Japan',
+    deathDate: '1959-10-09',
+    education: ['Kyoto Imperial University - Medicine (MD)', 'Kyoto Imperial University - Microbiology (PhD)'],
+    affiliations: [
+      { name: 'Imperial Japanese Army', role: 'Lieutenant General; Director of Unit 731', type: 'agency' },
+      { name: 'Unit 731 (Epidemic Prevention and Water Purification Department)', role: 'Founder and Commander', type: 'agency' },
+    ],
+    controversies: [
+      'Directed Unit 731 which killed an estimated 3,000-12,000 prisoners through human experimentation',
+      'Performed live vivisection on conscious prisoners without anesthesia to study disease progression',
+      'Tested plague, cholera, anthrax, and other biological weapons on Chinese and Russian POWs',
+      'Conducted frostbite experiments: subjects had limbs frozen and amputated while conscious',
+      'Deployed biological weapons against Chinese cities including Changde and Ningbo, killing thousands of civilians',
+      'Tested pressure chambers on prisoners until their eyes popped from sockets',
+      'Granted full immunity by the United States in exchange for sharing biological warfare research data',
+      'Never prosecuted; lived as a free man in Japan until death in 1959',
+      'US suppressed evidence of Unit 731 atrocities during the Cold War to gain military advantage',
+    ],
+    charges: [
+      { statute: 'Geneva Protocol of 1925 - Use of Biological Weapons', description: 'Developed and deployed biological weapons including plague-infected fleas on Chinese cities', category: 'War Crimes' },
+      { statute: 'Crimes Against Humanity - Human Experimentation', description: 'Directed lethal experiments on thousands of human prisoners', category: 'Crimes Against Humanity' },
+      { statute: 'War Crimes - Murder of Prisoners', description: 'Killed 3,000-12,000 prisoners through experiments, vivisection, and deliberate infection', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Nanjing Massacre', slug: 'nanjing-massacre', severity: 'critical' },
+      { title: 'North Korean Prison Camps', slug: 'north-korean-prison-camps', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1892-06-25', event: 'Born in Shibayama, Chiba Prefecture, Japan' },
+      { date: '1932', event: 'Begins secret biological warfare research in Manchuria' },
+      { date: '1936', event: 'Unit 731 officially established in Pingfang, Harbin' },
+      { date: '1940-1942', event: 'Deploys biological weapons against Chinese cities killing thousands' },
+      { date: '1945-08', event: 'Destroys Unit 731 facilities and kills remaining prisoners to hide evidence' },
+      { date: '1946', event: 'Granted immunity by US in exchange for biological warfare data' },
+      { date: '1949', event: 'Soviet Khabarovsk War Crime Trials convict some Unit 731 members (not Ishii)' },
+      { date: '1959-10-09', event: 'Dies of throat cancer in Tokyo; never prosecuted' },
+    ],
+    sources: [
+      { title: 'Factories of Death: Japanese Biological Warfare 1932-1945 by Sheldon Harris', date: '2002' },
+      { title: 'Unit 731: Testimony by Hal Gold', date: '1996' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Hideki Tojo', relationship: 'Prime Minister who oversaw the military during Unit 731 operations', href: '/individuals/hideki-tojo' },
+    ],
+  },
+  'ajit-pai': {
+    name: 'Ajit Pai',
+    slug: 'ajit-pai',
+    bio: 'Ajit Varadaraj Pai served as Chairman of the Federal Communications Commission from 2017 to 2021. A former Verizon associate general counsel, Pai led the FCC\'s repeal of net neutrality rules in December 2017, overriding 83% public opposition and millions of public comments (many later found to be fabricated by the broadband industry using stolen identities). The repeal eliminated rules preventing ISPs from throttling, blocking, or charging extra for internet content, handing enormous power to Comcast, AT&T, Verizon, and Charter — his former employer\'s competitors and the industry he was supposed to regulate. Pai also relaxed media ownership rules, allowing greater consolidation, and used flawed broadband maps that overstated internet access by tens of millions of Americans.',
+    riskLevel: 'high' as const,
+    status: 'active',
+    lastKnownLocation: 'Washington, D.C.',
+    birthDate: 'January 10, 1973',
+    education: [
+      'B.A., Social Studies, Harvard University (1994)',
+      'J.D., University of Chicago Law School (1997)',
+    ],
+    affiliations: [
+      { name: 'FCC', role: 'Chairman (2017-2021); Commissioner (2012-2017)', type: 'agency' as const },
+      { name: 'Verizon', role: 'Associate General Counsel (2001-2003)', type: 'corporation' as const },
+    ],
+    relatedInvestigations: [
+      { title: 'Telecom Monopoly', slug: 'telecom-monopoly-digital-divide', severity: 'high' },
+      { title: 'Tech Monopoly', slug: 'tech-monopoly-antitrust-failures', severity: 'high' },
+    ],
+    charges: [
+      { statute: 'N/A - Regulatory Capture', description: 'Former Verizon lawyer who repealed net neutrality against 83% public opposition; millions of fabricated comments enabled the process', category: 'Conflict of interest' },
+      { statute: 'N/A - Policy', description: 'Used flawed broadband maps overstating internet access by millions of Americans; relaxed media ownership limits', category: 'Dereliction of regulatory duty' },
+    ],
+    criminalHistory: 'No criminal charges. GAO investigated the fabricated public comments in the net neutrality proceeding but could not determine the responsible parties. The NY AG found millions of fake comments used real Americans\' stolen identities. Pai was not personally implicated in the fraud but proceeded with the vote despite knowing comments were fabricated.',
+    financialInfo: 'FCC Chairman salary approximately $175,000. After leaving the FCC, Pai joined private equity firm Searchlight Capital Partners. Financial details of post-government compensation not fully disclosed.',
+    sources: [
+      { title: 'NY AG: Investigation into Net Neutrality Comment Fraud', url: 'https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-revealing-broadband-industry-funded-scheme', date: '2021' },
+      { title: 'GAO: FCC Net Neutrality Comment Process Review', url: 'https://www.gao.gov/', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who elevated him to FCC Chairman; both championed telecom deregulation' },
+      { name: 'Brendan Carr', relationship: 'FCC Commissioner appointed alongside Pai; continued deregulatory agenda' },
+    ],
+  },
+  'betsy-devos': {
+    name: 'Betsy DeVos',
+    title: 'Former Secretary of Education',
+    role: 'Billionaire Voucher Advocate Who Undermined Public Education',
+    riskLevel: 'high' as const,
+    description: 'Betsy DeVos served as Education Secretary from 2017 to 2021, becoming the first cabinet nominee in history to require a vice-presidential tiebreaking vote for confirmation. She used the position to advance private school vouchers and charter school expansion while rolling back protections for student loan borrowers, campus sexual assault survivors, and students with disabilities.',
+    birthDate: '1958-01-08',
+    birthPlace: 'Holland, Michigan',
+    education: [
+      'B.A. in Business Economics, Calvin College (1979)',
+    ],
+    affiliations: [
+      { name: 'Department of Education', role: 'Secretary (2017-2021)', type: 'agency' as const },
+      { name: 'American Federation for Children', role: 'Chair (2009-2016)', type: 'organization' as const },
+    ],
+    controversies: [
+      'Required Vice President Pence to break a 50-50 Senate tie for her confirmation, the first time in history for a cabinet nominee',
+      'Had no experience in public education; she and her children never attended public schools',
+      'Rolled back Obama-era Title IX guidance on campus sexual assault, reducing protections for survivors and raising evidentiary standards',
+      'Delayed and attempted to block student loan forgiveness rules for defrauded students of for-profit colleges; held in contempt by federal judge',
+      'Invested in student loan collection agencies while overseeing student loan policy, creating appearance of conflict of interest',
+      'Advanced school voucher programs that diverted public education funding to private and religious schools with fewer accountability requirements',
+      'Brother Erik Prince founded Blackwater and had extensive connections to the Trump administration',
+      'Resigned after January 6 but faced criticism for waiting until Trumps final days to do so',
+    ],
+    relatedInvestigations: [
+      { title: 'For-Profit College Fraud', slug: 'for-profit-college-fraud', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2017-02', event: 'Confirmed as Education Secretary via VP tiebreaker vote, first ever for a cabinet nominee' },
+      { date: '2017-09', event: 'Rescinded Obama-era Title IX campus sexual assault guidance' },
+      { date: '2018-2019', event: 'Delayed borrower defense rules for defrauded students; held in contempt by federal judge' },
+      { date: '2019-10', event: 'Found in contempt of court for continuing to collect debts from defrauded Corinthian Colleges students' },
+      { date: '2020', event: 'Pushed for school vouchers during COVID pandemic; critics said she exploited crisis to advance agenda' },
+      { date: '2021-01-07', event: 'Resigned citing January 6 attack; critics noted it was two weeks before term ended anyway' },
+    ],
+    sources: [
+      { title: 'Federal Court: DeVos Contempt Order (Corinthian Colleges)', date: '2019' },
+      { title: 'Senate HELP Committee: DeVos Confirmation Hearing', date: '2017' },
+      { title: 'Education Department OIG: Review of Borrower Defense Implementation', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who nominated her; DeVos family was a major Republican donor for decades', href: '/entities/individuals/donald-trump' },
+      { name: 'Erik Prince', relationship: 'Brother; Blackwater founder with extensive Trump administration connections', href: '/entities/individuals/erik-prince' },
+    ],
+  },
 };
 
 export default profiles;

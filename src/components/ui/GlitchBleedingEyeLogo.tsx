@@ -177,7 +177,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
  style={{ 
- filter: `drop-shadow(0 0 8px rgba(239, 68, 68, 0.6)) ${glitchActive ? 'blur(0.5px)' : ''}`,
+ filter: `drop-shadow(0 0 8px rgba(96, 165, 250, 0.6)) ${glitchActive ? 'blur(0.5px)' : ''}`,
  }}
  >
  <defs>
@@ -185,24 +185,24 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  <radialGradient id="glitchEyeGradient"cx="50%"cy="40%"r="50%">
  <stop offset="0%"stopColor="#ffffff"/>
  <stop offset="50%"stopColor="#fecaca"/>
- <stop offset="100%"stopColor="#dc2626"/>
+ <stop offset="100%"stopColor="#2563eb"/>
  </radialGradient>
 
  <radialGradient id="glitchIrisGradient"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#ef4444"/>
- <stop offset="60%"stopColor="#b91c1c"/>
- <stop offset="100%"stopColor="#7f1d1d"/>
+ <stop offset="0%"stopColor="#60a5fa"/>
+ <stop offset="60%"stopColor="#1d4ed8"/>
+ <stop offset="100%"stopColor="#1e40af"/>
  </radialGradient>
 
  <linearGradient id="bloodStream"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#dc2626"stopOpacity="0.9"/>
- <stop offset="50%"stopColor="#b91c1c"stopOpacity="1"/>
- <stop offset="100%"stopColor="#7f1d1d"stopOpacity="0.8"/>
+ <stop offset="0%"stopColor="#2563eb"stopOpacity="0.9"/>
+ <stop offset="50%"stopColor="#1d4ed8"stopOpacity="1"/>
+ <stop offset="100%"stopColor="#1e40af"stopOpacity="0.8"/>
  </linearGradient>
 
  <linearGradient id="bloodDrip"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#ef4444"/>
- <stop offset="100%"stopColor="#991b1b"/>
+ <stop offset="0%"stopColor="#60a5fa"/>
+ <stop offset="100%"stopColor="#1e3a8a"/>
  </linearGradient>
 
  {/* Glitch filter */}
@@ -223,7 +223,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  {/* Blood glow */}
  <filter id="bloodGlow2"x="-100%"y="-100%"width="300%"height="300%">
  <feGaussianBlur stdDeviation="1"result="blur"/>
- <feFlood floodColor="#dc2626"floodOpacity="0.8"/>
+ <feFlood floodColor="#2563eb"floodOpacity="0.8"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -256,15 +256,15 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
 
  {/* Heavy blood vessels */}
  <g filter="url(#bloodGlow2)">
- <path d="M25 40 Q35 42, 40 45 Q38 44, 35 43"stroke="#dc2626"strokeWidth="1"fill="none"opacity="0.8"/>
- <path d="M22 45 Q32 44, 38 45"stroke="#b91c1c"strokeWidth="0.8"fill="none"opacity="0.7"/>
- <path d="M24 50 Q34 48, 42 46"stroke="#ef4444"strokeWidth="0.6"fill="none"opacity="0.6"/>
- <path d="M75 40 Q65 42, 60 45 Q62 44, 65 43"stroke="#dc2626"strokeWidth="1"fill="none"opacity="0.8"/>
- <path d="M78 45 Q68 44, 62 45"stroke="#b91c1c"strokeWidth="0.8"fill="none"opacity="0.7"/>
- <path d="M76 50 Q66 48, 58 46"stroke="#ef4444"strokeWidth="0.6"fill="none"opacity="0.6"/>
+ <path d="M25 40 Q35 42, 40 45 Q38 44, 35 43"stroke="#2563eb"strokeWidth="1"fill="none"opacity="0.8"/>
+ <path d="M22 45 Q32 44, 38 45"stroke="#1d4ed8"strokeWidth="0.8"fill="none"opacity="0.7"/>
+ <path d="M24 50 Q34 48, 42 46"stroke="#60a5fa"strokeWidth="0.6"fill="none"opacity="0.6"/>
+ <path d="M75 40 Q65 42, 60 45 Q62 44, 65 43"stroke="#2563eb"strokeWidth="1"fill="none"opacity="0.8"/>
+ <path d="M78 45 Q68 44, 62 45"stroke="#1d4ed8"strokeWidth="0.8"fill="none"opacity="0.7"/>
+ <path d="M76 50 Q66 48, 58 46"stroke="#60a5fa"strokeWidth="0.6"fill="none"opacity="0.6"/>
  {/* Additional bleeding vessels */}
- <path d="M28 35 Q38 38, 43 42"stroke="#dc2626"strokeWidth="0.5"fill="none"opacity="0.5"/>
- <path d="M72 35 Q62 38, 57 42"stroke="#dc2626"strokeWidth="0.5"fill="none"opacity="0.5"/>
+ <path d="M28 35 Q38 38, 43 42"stroke="#2563eb"strokeWidth="0.5"fill="none"opacity="0.5"/>
+ <path d="M72 35 Q62 38, 57 42"stroke="#2563eb"strokeWidth="0.5"fill="none"opacity="0.5"/>
  </g>
 
  {/* Iris */}
@@ -281,7 +281,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  y1="45"
  x2={50 + 11 * Math.cos((i * 45 * Math.PI) / 180)}
  y2={45 + 11 * Math.sin((i * 45 * Math.PI) / 180)}
- stroke="#450a0a"
+ stroke="#172554"
  strokeWidth="0.5"
  />
  ))}
@@ -297,7 +297,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
 
  {/* Digital corruption in pupil */}
  {glitchActive && (
- <rect x="47"y="42"width="6"height="6"fill="#ef4444"opacity="0.5"/>
+ <rect x="47"y="42"width="6"height="6"fill="#60a5fa"opacity="0.5"/>
  )}
 
  {/* Light reflection */}
@@ -381,7 +381,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  y1={drop.y - drop.size * 2}
  x2={drop.x}
  y2={drop.y - drop.size}
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth={drop.size * 0.5}
  strokeLinecap="round"
  opacity="0.5"
@@ -400,7 +400,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  {/* Glitch artifacts */}
  {glitchActive && (
  <g>
- <rect x="10"y={30 + Math.random() * 20} width="30"height="2"fill="#ef4444"opacity="0.6"/>
+ <rect x="10"y={30 + Math.random() * 20} width="30"height="2"fill="#60a5fa"opacity="0.6"/>
  <rect x="60"y={35 + Math.random() * 20} width="25"height="1"fill="#00ffff"opacity="0.4"/>
  <rect x="20"y={50 + Math.random() * 10} width="15"height="3"fill="#ff0000"opacity="0.5"/>
  </g>
@@ -412,8 +412,8 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  className="absolute left-0 right-0 h-[2px] pointer-events-none"
  style={{ 
  top: `${scanLine}%`,
- background: 'linear-gradient(90deg, transparent 0%, rgba(239, 68, 68, 0.8) 50%, transparent 100%)',
- boxShadow: '0 0 10px rgba(239, 68, 68, 0.5)',
+ background: 'linear-gradient(90deg, transparent 0%, rgba(96, 165, 250, 0.8) 50%, transparent 100%)',
+ boxShadow: '0 0 10px rgba(96, 165, 250, 0.5)',
  }}
  />
 

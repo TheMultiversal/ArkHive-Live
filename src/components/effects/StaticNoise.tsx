@@ -102,7 +102,7 @@ export function VerticalHoldGlitch({ className = '' }: { className?: string }) {
  <motion.div
  className={`absolute inset-0 pointer-events-none ${className}`}
  style={{
- background: 'linear-gradient(to bottom, transparent 0%, rgba(220, 38, 38, 0.1) 50%, transparent 51%)',
+ background: 'linear-gradient(to bottom, transparent 0%, rgba(37, 99, 235, 0.1) 50%, transparent 51%)',
  backgroundSize: '100% 200%',
  }}
  animate={{
@@ -127,11 +127,11 @@ export function ChromaticAberration({
 }) {
  return (
  <div className={`relative ${className}`}>
- {/* Red layer offset left */}
+ {/* Blue layer offset left */}
  <motion.div
  className="absolute inset-0 mix-blend-multiply pointer-events-none"
  style={{
- filter: 'url(#red-channel)',
+ filter: 'url(#blue-channel)',
  }}
  animate={{
  x: [-1, 1, -1],
@@ -171,12 +171,12 @@ export function ChromaticAberration({
  {/* SVG filters */}
  <svg className="hidden">
  <defs>
- <filter id="red-channel">
+ <filter id="blue-channel">
  <feColorMatrix
  type="matrix"
- values="1 0 0 0 0
+ values="0 0 0 0 0
  0 0 0 0 0
- 0 0 0 0 0
+ 0 0 1 0 0
  0 0 0 1 0"
  />
  </filter>

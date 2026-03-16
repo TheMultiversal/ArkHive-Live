@@ -87,7 +87,7 @@ export default function AgenciesPage() {
               <p className="text-sm text-zinc-500 mt-2">{agencies.length.toLocaleString()} agencies documented in the archive</p>
             </div>
             <p className="text-zinc-400 text-center max-w-2xl mx-auto leading-relaxed">
-              Federal departments, intelligence agencies, and regulatory bodies. Every agency entry documents their role, investigations, and connections. Continuously expanded by ArkHive Swarm Intelligence.
+              Federal departments, intelligence agencies, and regulatory bodies. Every agency entry documents their role, investigations, and connections. Independently researched and maintained since 2009.
             </p>
           </div>
         </div>

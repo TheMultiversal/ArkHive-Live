@@ -73,8 +73,8 @@ export const FILE_UPLOAD = {
 export const SEVERITY_LEVELS = {
  critical: {
  label: 'Critical',
- color: '#ef4444',
- bgColor: '#ef444420',
+ color: '#60a5fa',
+ bgColor: '#60a5fa20',
  priority: 1,
  },
  high: {
@@ -136,7 +136,7 @@ export const DOCUMENT_STATUS = {
  draft: { label: 'Draft', color: '#6b7280' },
  pending: { label: 'Pending Review', color: '#f59e0b' },
  approved: { label: 'Approved', color: '#22c55e' },
- rejected: { label: 'Rejected', color: '#ef4444' },
+ rejected: { label: 'Rejected', color: '#60a5fa' },
  archived: { label: 'Archived', color: '#6b7280' },
 } as const;
 
@@ -187,7 +187,7 @@ export const NOTIFICATION_TYPES = {
  info: { icon: 'info', color: '#3b82f6' },
  success: { icon: 'check-circle', color: '#22c55e' },
  warning: { icon: 'alert-triangle', color: '#f59e0b' },
- error: { icon: 'x-circle', color: '#ef4444' },
+ error: { icon: 'x-circle', color: '#60a5fa' },
  investigation: { icon: 'search', color: '#8b5cf6' },
  entity: { icon: 'building', color: '#14b8a6' },
  document: { icon: 'file-text', color: '#ec4899' },
@@ -300,17 +300,17 @@ export const SOCIAL_LINKS = {
 
 export const COLORS = {
  blood: {
- 50: '#fef2f2',
- 100: '#fee2e2',
- 200: '#fecaca',
- 300: '#fca5a5',
- 400: '#f87171',
- 500: '#d64545',
- 600: '#b93c3c',
- 700: '#991b1b',
- 800: '#7f1d1d',
- 900: '#6b1515',
- 950: '#450a0a',
+ 50: '#eff6ff',
+ 100: '#dbeafe',
+ 200: '#bfdbfe',
+ 300: '#93c5fd',
+ 400: '#60a5fa',
+ 500: '#3b82f6',
+ 600: '#2563eb',
+ 700: '#1d4ed8',
+ 800: '#1e40af',
+ 900: '#1e3a8a',
+ 950: '#172554',
  },
  dark: {
  50: '#f8fafc',

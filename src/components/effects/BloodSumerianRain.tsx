@@ -46,8 +46,8 @@ export default function BloodSumerianRain() {
  const y = yPositions[i];
 
  // blood-red glow for lead glyph
- ctx.fillStyle = 'rgba(220,24,24,0.95)';
- ctx.shadowColor = 'rgba(220,24,24,0.9)';
+ ctx.fillStyle = 'rgba(37,99,235,0.95)';
+ ctx.shadowColor = 'rgba(37,99,235,0.9)';
  ctx.shadowBlur = 8;
  ctx.fillText(glyph, x, y);
 

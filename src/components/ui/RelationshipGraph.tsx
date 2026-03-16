@@ -31,17 +31,17 @@ interface RelationshipGraphProps {
 }
 
 const typeColors = {
- agency: '#d64545', // blue
+ agency: '#3b82f6', // blue
  corporation: '#8b5cf6', // purple
  individual: '#71717a', // amber
  organization: '#10b981', // emerald
 };
 
 const riskColors = {
- critical: '#ef4444',
- high: '#a82828',
+ critical: '#60a5fa',
+ high: '#1d4ed8',
  medium: '#71717a',
- low: '#d64545',
+ low: '#3b82f6',
 };
 
 export default function RelationshipGraph({
@@ -193,7 +193,7 @@ export default function RelationshipGraph({
  y1={sourcePos.y}
  x2={targetPos.x}
  y2={targetPos.y}
- stroke={isHighlighted ? '#dc2626' : '#3f3f46'}
+ stroke={isHighlighted ? '#2563eb' : '#3f3f46'}
  strokeWidth={isHighlighted ? 2 : 1}
  strokeOpacity={hoveredNode && !isHighlighted ? 0.2 : 0.6}
  strokeDasharray={edge.strength && edge.strength < 3 ? '4,4' : undefined}

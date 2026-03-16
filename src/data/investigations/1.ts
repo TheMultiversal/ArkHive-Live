@@ -47,6 +47,32 @@ const investigations_1: Record<string, InvestigationData> = {
  { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/goldman-sachs' },
  ],
  },
+ 'financial-crisis-accountability-failure': {
+  title: '2008 Financial Crisis: The Greatest Accountability Failure in American History',
+  subtitle: 'How Wall Street banks crashed the global economy through fraud, received $700 billion in taxpayer bailouts, and emerged more powerful than ever — with zero senior executives imprisoned',
+  severity: 'critical' as const,
+  category: 'Financial Crime',
+  date: '2024-09-15',
+  lastUpdated: '2025-02-20',
+  summary: 'The 2008 financial crisis — caused by systematic fraud in mortgage origination, securitization, and credit ratings — destroyed $11 trillion in household wealth, cost 8.7 million jobs, and triggered the worst economic downturn since the Great Depression. Despite overwhelming evidence of criminal fraud at every level, zero senior executives at major banks were criminally prosecuted. Instead, the government provided $700 billion in TARP bailouts plus trillions in Federal Reserve emergency lending to the same institutions that caused the crisis. By 2012, the bailed-out banks were larger, more profitable, and more concentrated than before the crisis.',
+  content: [
+   'The crisis originated in predatory mortgage lending. Banks like Countrywide Financial, Washington Mutual, and Ameriquest originated millions of mortgages to borrowers who could not afford them — often using no-documentation "liar loans," adjustable-rate mortgages with exploding payments, and outright fraud. Internal emails show loan officers were instructed to falsify income figures and were rewarded with bonuses for volume regardless of quality. Countrywide CEO Angelo Mozilo called his own products "toxic" and "poison" in private emails while publicly promoting them.',
+   'The securitization pipeline converted fraudulent mortgages into AAA-rated securities sold to pension funds, municipalities, and investors worldwide. Goldman Sachs, Deutsche Bank, and other Wall Street firms bundled junk mortgages into collateralized debt obligations (CDOs), then bet against those same securities using credit default swaps. Goldman\'s Abacus deal — in which the firm let a hedge fund select mortgages likely to fail, sold them to investors, and profited when they collapsed — resulted in a $550 million SEC settlement (five days of revenue) and no criminal charges.',
+   'The credit rating agencies — Moody\'s, Standard & Poor\'s, and Fitch — assigned AAA ratings to securities they knew were toxic because their revenue depended on fees from the banks issuing the securities. Internal communications released by the Senate showed analysts calling deals "ridiculous" and a "nightmare" while rating them investment-grade. A Moody\'s managing director testified that the company would rate a deal "structured by cows" if it meant maintaining market share. Not a single rating agency employee was criminally charged.',
+   'The government response prioritized saving banks over prosecuting fraud or protecting homeowners. The $700 billion TARP bailout was supplemented by trillions in Federal Reserve emergency lending (revealed years later by Bloomberg through FOIA litigation to total $7.77 trillion in peak lending). Banks that received bailouts simultaneously paid billions in bonuses: AIG paid $165 million in bonuses within days of receiving $170 billion in taxpayer funds. Meanwhile, 10 million Americans lost their homes to foreclosure, and the Obama administration\'s HAMP program helped only 1.8 million homeowners — far short of the 4 million promised.',
+   'Attorney General Eric Holder explicitly stated that some banks were "too big to jail" — that criminal prosecution could destabilize the financial system. DOJ settled with virtually every major bank through deferred prosecution agreements and corporate fines. Banks paid $150+ billion in combined settlements but admitted no wrongdoing, and not a single CEO, CFO, or senior executive of a major bank was criminally convicted. Kareem Serageldin, a mid-level Credit Suisse trader, was the only Wall Street executive imprisoned for crisis-related conduct. Iceland, by contrast, imprisoned 26 bankers. The crisis demonstrated that at sufficient scale, financial fraud becomes effectively legal.',
+  ],
+  tags: ['financial crisis', '2008', 'Wall Street', 'bailout', 'TARP', 'Goldman Sachs', 'CDO', 'credit ratings', 'Too Big to Fail', 'mortgage fraud', 'accountability'],
+  sources: [
+   { title: 'FCIC: Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government Report' },
+   { title: 'Senate Permanent Subcommittee: Wall Street and the Financial Crisis (Levin Report)', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Congressional Report' },
+   { title: 'ProPublica: Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
+  ],
+  affiliations: [
+   { id: '1', name: 'DOJ', type: 'agency', relationship: 'AG Holder declared banks too big to jail; zero senior executives prosecuted; settled with deferred prosecution agreements and corporate fines; Holder returned to bank defense firm after DOJ', href: '/entities/agencies/doj' },
+   { id: '2', name: 'SEC', type: 'agency', relationship: 'Failed to detect Madoff despite warnings; settled Goldman Sachs Abacus fraud for $550M with no admission; destroyed records of 9,000+ preliminary investigations', href: '/entities/agencies/sec' },
+  ],
+ },
 };
 
 export default investigations_1;

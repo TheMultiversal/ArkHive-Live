@@ -285,7 +285,7 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
         text-left p-3 border-l-2 ${SEVERITY_COLORS[topic.severity]}
         bg-black/30 border border-zinc-800/50
         hover:bg-blood-950/20 hover:border-blood-900/40
-        hover:shadow-[0_0_10px_rgba(214,69,69,0.08)]
+        hover:shadow-[0_0_10px_rgba(59,130,246,0.08)]
         active:scale-[0.98]
         transition-all duration-200 cursor-pointer select-none group
        `}

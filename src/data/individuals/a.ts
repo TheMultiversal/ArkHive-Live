@@ -2035,135 +2035,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Clarence Thomas', relationship: 'Fellow conservative justice', href: '/entities/individuals/clarence-thomas' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 'alberto-gonzales': {
- name: 'Alberto Gonzales',
- title: 'U.S. Attorney General (2005-2007)',
- role: 'White House Counsel who approved torture, later AG who politicized DOJ',
- riskLevel: 'critical',
- description: 'Alberto Gonzales served as White House Counsel (2001-2005) and Attorney General (2005-2007). As Counsel, he approved torture memos and called the Geneva Conventions"quaint."As AG, he oversaw the politically motivated firing of U.S. Attorneys, testified"I don\'t recall"74 times before Congress, and resigned in disgrace.',
- birthDate: 'August 4, 1955',
- birthPlace: 'San Antonio, Texas',
- education: ['Rice University', 'Harvard Law School'],
- affiliations: [
- { name: 'Department of Justice', role: 'Attorney General (2005-2007)', type: 'agency' },
- { name: 'White House', role: 'Counsel to the President (2001-2005)', type: 'agency' },
- ],
- controversies: [
- 'TORTURE APPROVAL: Called Geneva Conventions"quaint"and"obsolete"in January 2002 memo',
- 'US ATTORNEY FIRINGS: Fired 9 U.S. Attorneys for political reasons, lied to Congress about it',
- 'MEMORY FAILURE: Said"I don\'t recall"74 times in single Senate testimony',
- 'HOSPITAL BEDSIDE: Went to hospital to pressure incapacitated AG Ashcroft to authorize surveillance',
- 'RESIGNED IN DISGRACE: Forced to resign in 2007 amid scandals',
- ],
- charges: [
- { statute: '18 U.S.C. § 1001', description: 'False statements to Congress about firings', category: 'Obstruction' },
- { statute: 'Geneva Conventions', description: 'Approved policies violating Geneva protections', category: 'War Crimes' },
- ],
- relatedInvestigations: [
- { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
- { title: 'DOJ Politicization', slug: 'doj-politicization', severity: 'high' },
- ],
- timeline: [
- { date: 'August 4, 1955', event: 'Born in San Antonio, Texas' },
- { date: 'January 2001', event: 'Becomes White House Counsel' },
- { date: 'January 2002', event: 'Calls Geneva Conventions"quaint"' },
- { date: 'February 3, 2005', event: 'Confirmed as Attorney General' },
- { date: 'December 2006', event: 'Fires U.S. Attorneys' },
- { date: 'April 2007', event: '"I don\'t recall"testimony' },
- { date: 'September 17, 2007', event: 'Resigns as Attorney General' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Senate Judiciary Committee hearings', url: 'https://www.congress.gov/', date: '2007' },
- { title: 'DOJ Inspector General Report on Firings', url: 'https://www.justice.gov/', date: '2008' }, ],
- aliases: [],
- knownAssociates: [
- { name: 'George W. Bush', relationship: 'President', href: '/entities/individuals/george-w-bush' },
- { name: 'John Yoo', relationship: 'Torture memo author', href: '/entities/individuals/john-yoo' },
- ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'al-gore': {
  name: 'Al Gore',
  title: '45th Vice President / 2000 Election Victim',
@@ -4931,32 +4802,38 @@ const profiles: Record<string, IndividualProfile> = {
 
   'alec-smith': {
     name: 'Alec Smith',
-    title: '26-year-old diabetic who died rationing insulin he couldn\'t afford after aging off parents\' insurance',
-    role: '26-year-old diabetic who died rationing insulin he couldn\'t afford after aging off parents\' insurance',
-    riskLevel: 'high',
-    description: 'Alec Smith is documented in ArkHive investigations for their role as 26-year-old diabetic who died rationing insulin he couldn\'t afford after aging off parents\' insurance.',
-    education: ['Massachusetts Institute of Technology'],
-    affiliations: [
-      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
-    ],
+    title: 'Insulin Rationing Victim',
+    role: 'Type 1 diabetic who died at age 26 from rationing insulin he could not afford after aging off his parents health insurance, becoming a symbol of the American pharmaceutical pricing crisis',
+    riskLevel: 'critical' as const,
+    description: 'Alec Raeshawn Smith (1991-2017) was a 26-year-old restaurant manager from Minneapolis, Minnesota, who died on June 27, 2017, of diabetic ketoacidosis after rationing his insulin because he could not afford the cost. Smith had aged off his mother health insurance at age 26 under ACA provisions and discovered that his insulin, which cost approximately $1,300 per month without insurance, was unaffordable on his restaurant manager salary of approximately $35,000 per year. He was found dead in his apartment three days before his next payday, surrounded by empty insulin pens. Manufacturers of insulin, including Eli Lilly, Novo Nordisk, and Sanofi, had raised insulin prices by over 1,000% in the two decades preceding his death, despite the drug having been discovered in 1921 and the patent sold by its discoverers for $1 each. Smith death became a galvanizing event in the national movement for insulin affordability, leading his mother Nicole Smith-Holt to become one of the most prominent advocates for prescription drug price reform. His story was cited in multiple congressional hearings and contributed to the passage of insulin price caps in the Inflation Reduction Act of 2022.',
+    birthDate: '1991',
+    birthPlace: 'Minnesota',
+    deathDate: '2017-06-27',
+    education: ['Local schools in the Minneapolis area'],
+    affiliations: [],
     controversies: [
-      'Connected to 1 documented investigation',
-      'Investigative analysis reveals Alec Smith was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
+      'Died at 26 from rationing insulin that costs less than $10 to manufacture but was priced at over $1,300/month by pharmaceutical companies',
+      'Was found dead in his apartment three days before payday, surrounded by empty insulin pens',
+      'His death exposed the life-or-death consequences of pharmaceutical pricing practices for millions of Americans who ration medications',
+      'Insulin manufacturers Eli Lilly, Novo Nordisk, and Sanofi had raised insulin prices over 1,000% while the drug cost under $10 per vial to produce',
+      'His case became evidence in congressional hearings on pharmaceutical price gouging and contributed to insulin price cap legislation',
     ],
-    charges: [],
     relatedInvestigations: [
-      { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'high' },
+      { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'critical' },
     ],
     timeline: [
-      { date: 'Ongoing', event: 'Active in role as 26-year-old diabetic who died rationing insulin he couldn' },
+      { date: '2017-05', event: 'Ages off mother health insurance at age 26; discovers insulin costs approximately $1,300/month without coverage' },
+      { date: '2017-06-27', event: 'Found dead in his apartment from diabetic ketoacidosis; had been rationing insulin to stretch supply until payday' },
+      { date: '2019', event: 'Minnesota passes the Alec Smith Insulin Affordability Act, establishing an emergency insulin program' },
+      { date: '2022-08', event: 'Inflation Reduction Act caps insulin costs at $35/month for Medicare patients, legislation influenced by advocacy sparked by his death' },
     ],
-    socialMedia: [],
     sources: [
-      { title: 'Wikipedia: Alec Smith', url: 'https://en.wikipedia.org/wiki/Alec_Smith', date: '' },
+      { title: 'Washington Post: The Human Toll of Rising Insulin Prices', date: '2019' },
+      { title: 'Senate HELP Committee: Testimony of Nicole Smith-Holt on the Death of Alec Smith', date: '2019' },
+      { title: 'Minnesota Legislature: Alec Smith Insulin Affordability Act', date: '2020' },
     ],
-    aliases: [],
     knownAssociates: [
-      { name: 'Nicole Smith-Holt', relationship: 'Mother who became insulin pricing activist after Alec\'s death', href: '/entities/individuals/nicole-smith-holt' },
+      { name: 'Nicole Smith-Holt', relationship: 'Mother who became a leading national advocate for insulin affordability after Alec death', href: '/entities/individuals/nicole-smith-holt' },
     ],
   },
 
@@ -7332,26 +7209,492 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Nominated Puzder for Secretary of Labor', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  'idi-amin': {
+    name: 'Idi Amin',
+    title: 'President of Uganda (1971-1979)',
+    role: 'Military Dictator Responsible for 100,000-500,000 Killings',
+    riskLevel: 'critical',
+    description: 'Idi Amin Dada seized power in Uganda through a military coup in 1971 and ruled as one of Africa\'s most brutal dictators for eight years. His regime killed an estimated 100,000-500,000 people through extrajudicial executions, torture, ethnic persecution, and disappearances. He expelled 80,000 Asians from Uganda, destroyed the economy, and waged a disastrous war against Tanzania that led to his overthrow.',
+    birthDate: '1925',
+    birthPlace: 'Koboko, West Nile Province, Uganda',
+    deathDate: '2003-08-16',
+    education: ['Minimal formal education; rose through military ranks'],
+    affiliations: [
+      { name: 'Republic of Uganda', role: 'President/Head of State (1971-1979)', type: 'agency' },
+      { name: 'Ugandan Armed Forces', role: 'Commander-in-Chief', type: 'agency' },
+      { name: 'State Research Bureau', role: 'Created and directed secret police', type: 'agency' },
+    ],
+    controversies: [
+      'Regime killed an estimated 100,000-500,000 people through extrajudicial executions, torture, and ethnic purges',
+      'State Research Bureau (secret police) tortured and killed thousands at Nakasero and other facilities',
+      'Expelled 80,000 Asians from Uganda in 1972, seizing their businesses and property, devastating the economy',
+      'Targeted Acholi and Langi ethnic groups for mass execution in military purges',
+      'Bodies dumped into the Nile River in such numbers they clogged hydroelectric intake filters at Owen Falls Dam',
+      'Supported Palestinian hijackers during Entebbe crisis (1976)',
+      'Invaded Tanzania in 1978, triggering the war that led to his overthrow',
+      'Lived in exile in Saudi Arabia until death in 2003; never faced trial for any crimes',
+      'Self-proclaimed titles included "His Excellency, President for Life, Lord of All the Beasts of the Earth and Fishes of the Seas and Conqueror of the British Empire"',
+    ],
+    charges: [
+      { statute: 'Crimes Against Humanity - Extermination', description: 'Directed the killing of 100,000-500,000 Ugandans through systematic state violence', category: 'Crimes Against Humanity' },
+      { statute: 'Crimes Against Humanity - Persecution', description: 'Ethnic persecution of Acholi, Langi, and other groups; expulsion of Asian population', category: 'Crimes Against Humanity' },
+      { statute: 'War Crimes - Extrajudicial Execution', description: 'Ordered mass executions including murder of Anglican Archbishop Janani Luwum', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [],
+    timeline: [
+      { date: '1925', event: 'Born in Koboko, West Nile Province, Uganda' },
+      { date: '1946', event: 'Joins King\'s African Rifles as assistant cook; rises through ranks' },
+      { date: '1971-01-25', event: 'Seizes power in military coup against Milton Obote' },
+      { date: '1972-08', event: 'Orders expulsion of 80,000 Asians from Uganda within 90 days' },
+      { date: '1972-1978', event: 'State Research Bureau carries out mass killings, torture, and disappearances' },
+      { date: '1977-02-16', event: 'Orders murder of Anglican Archbishop Janani Luwum' },
+      { date: '1978-10', event: 'Invades Tanzania; war leads to his overthrow' },
+      { date: '1979-04-11', event: 'Overthrown by Tanzanian forces and Ugandan exiles; flees to Libya, then Saudi Arabia' },
+      { date: '2003-08-16', event: 'Dies in exile in Jeddah, Saudi Arabia; never faced trial' },
+    ],
+    sources: [
+      { title: 'Uganda Human Rights Commission Reports', url: 'https://www.uhrc.ug/', date: '1986' },
+    ],
+    aliases: ['Big Daddy', 'Butcher of Uganda', 'Dada'],
+    knownAssociates: [],
+  },
+  'omar-al-bashir': {
+    name: 'Omar al-Bashir',
+    title: 'President of Sudan (1989-2019)',
+    role: 'First Sitting Head of State Indicted by the ICC for Genocide',
+    riskLevel: 'critical',
+    description: 'Omar Hassan Ahmad al-Bashir seized power in Sudan through a military coup in 1989 and ruled for 30 years. He directed the genocide in Darfur beginning in 2003, using the Janjaweed militia to carry out ethnic cleansing against the Fur, Masalit, and Zaghawa peoples, killing an estimated 300,000-400,000 and displacing 2.5 million. He became the first sitting head of state indicted by the International Criminal Court.',
+    birthDate: '1944-01-01',
+    birthPlace: 'Hosh Bannaga, Sudan',
+    education: ['Sudanese Military Academy', 'Malaysian Armed Forces Staff College'],
+    affiliations: [
+      { name: 'Republic of Sudan', role: 'President (1989-2019)', type: 'agency' },
+      { name: 'National Congress Party', role: 'Chairman', type: 'organization' },
+      { name: 'Sudanese Armed Forces', role: 'Field Marshal', type: 'agency' },
+    ],
+    controversies: [
+      'Directed the Darfur genocide (2003+) using Janjaweed militia - 300,000-400,000 killed, 2.5 million displaced',
+      'First sitting head of state indicted by the International Criminal Court for genocide, war crimes, and crimes against humanity',
+      'Orchestrated two civil wars with South Sudan resulting in over 2 million deaths',
+      'Janjaweed "scorched earth" campaign: villages burned, wells poisoned, systematic rape used as weapon of war',
+      'Harbored Osama bin Laden in Sudan (1992-1996)',
+      'Imposed strict Sharia law; authorized flogging, stoning, and amputation as punishments',
+      'Refused to surrender to the ICC; traveled internationally despite arrest warrant',
+      'Overthrown in April 2019 military coup during popular uprising; currently awaiting trial in Sudan',
+    ],
+    charges: [
+      { statute: 'ICC - Genocide (Article 6)', description: 'Three counts of genocide by killing, causing serious bodily/mental harm, and deliberately inflicting conditions to destroy Fur, Masalit, and Zaghawa groups', category: 'Genocide' },
+      { statute: 'ICC - Crimes Against Humanity (Article 7)', description: 'Murder, extermination, forcible transfer, torture, rape', category: 'Crimes Against Humanity' },
+      { statute: 'ICC - War Crimes (Article 8)', description: 'Intentionally directing attacks against civilian populations in Darfur', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Darfur Genocide', slug: 'darfur-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1944-01-01', event: 'Born in Hosh Bannaga, Sudan' },
+      { date: '1989-06-30', event: 'Seizes power in military coup' },
+      { date: '2003', event: 'Darfur conflict begins; deploys Janjaweed militia against civilian populations' },
+      { date: '2009-03-04', event: 'ICC issues first arrest warrant for war crimes and crimes against humanity' },
+      { date: '2010-07-12', event: 'ICC issues second arrest warrant adding genocide charges' },
+      { date: '2019-04-11', event: 'Overthrown in military coup during popular revolution' },
+      { date: '2020', event: 'Sudanese transitional government agrees to hand him over to ICC' },
+    ],
+    sources: [
+      { title: 'ICC - Prosecutor v. Al Bashir (ICC-02/05-01/09)', url: 'https://www.icc-cpi.int/darfur/albashir', date: '2009' },
+      { title: 'UN Report on Darfur', url: 'https://www.un.org/en/chronicle/article/report-international-commission-inquiry-darfur', date: '2005' },
+    ],
+    aliases: [],
+    knownAssociates: [],
+  },
+  'alberto-gonzales': {
+    name: 'Alberto Gonzales',
+    title: 'Former U.S. Attorney General',
+    role: 'Attorney General who authored the "torture memos" authorizing enhanced interrogation techniques and oversaw warrantless NSA surveillance program',
+    riskLevel: 'critical',
+    description: 'Alberto R. Gonzales served as the 80th Attorney General of the United States from 2005 to 2007 and as White House Counsel from 2001 to 2005. As White House Counsel, Gonzales authored and endorsed the infamous "torture memos" that redefined torture to allow or excuse techniques including waterboarding, stress positions, sleep deprivation, and other "enhanced interrogation techniques" at CIA black sites and Guantanamo Bay. He described the Geneva Conventions as "quaint" and "obsolete." Gonzales oversaw the warrantless NSA domestic surveillance program (Stellar Wind) and infamously visited Attorney General John Ashcroft\'s hospital bed to pressure him into reauthorizing the program. In 2006, it was revealed that Gonzales had orchestrated the politically motivated firing of nine U.S. Attorneys who were either not pursuing cases against Democrats aggressively enough or were investigating Republicans. Congressional testimony revealed Gonzales said "I don\'t recall" or variations 71 times in a single hearing. He resigned in September 2007 under bipartisan calls for his removal.',
+    birthDate: 'August 4, 1955',
+    birthPlace: 'San Antonio, Texas',
+    education: ['Rice University (B.A.)', 'Harvard Law School (J.D.)'],
+    affiliations: [
+      { name: 'U.S. Department of Justice', role: 'Attorney General', type: 'agency' as const },
+      { name: 'White House', role: 'Counsel to the President', type: 'agency' as const },
+    ],
+    controversies: [
+      'Authored "torture memos" authorizing waterboarding and enhanced interrogation',
+      'Called Geneva Conventions "quaint" and "obsolete"',
+      'Oversaw warrantless NSA domestic surveillance program (Stellar Wind)',
+      'Pressured hospitalized AG Ashcroft to reauthorize surveillance program',
+      'Orchestrated politically motivated firing of 9 U.S. Attorneys',
+      'Said "I don\'t recall" 71 times in a single congressional hearing',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 2340A', description: 'Potential conspiracy to commit torture for authorizing enhanced interrogation (not charged)', category: 'federal' },
+      { statute: '50 U.S.C. 1809', description: 'Potential FISA violations for warrantless surveillance authorization (not charged)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/cia-enhanced-interrogation-program'],
+    timeline: [
+      { date: '2001-01', event: 'Appointed White House Counsel' },
+      { date: '2002-01-25', event: 'Memo calling Geneva Conventions "quaint"' },
+      { date: '2002-08-01', event: 'Bybee/Yoo torture memos issued with Gonzales endorsement' },
+      { date: '2004-03-10', event: 'Hospital visit to pressure Ashcroft on surveillance' },
+      { date: '2005-02-03', event: 'Confirmed as Attorney General' },
+      { date: '2006-12', event: 'U.S. Attorney firings scandal exposed' },
+      { date: '2007-09-17', event: 'Resigns as Attorney General' },
+    ],
+    sources: [
+      { title: 'Senate Judiciary Committee: DOJ Investigation of U.S. Attorney Firings', url: 'https://www.judiciary.senate.gov/press/dem/releases/doj-report-on-us-attorney-firings', date: '2008' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'John Yoo', relationship: 'OLC attorney who drafted torture memos' },
+      { name: 'Jay Bybee', relationship: 'OLC head who signed torture memos' },
+      { name: 'George W. Bush', relationship: 'President who appointed him' },
+    ],
+  },
+  'andrew-cuomo': {
+    name: 'Andrew Cuomo',
+    title: 'Former Governor of New York',
+    role: 'Governor who resigned over sexual harassment allegations from 11 women while his administration concealed COVID-19 nursing home death data',
+    riskLevel: 'high',
+    description: 'Andrew Mark Cuomo served as the 56th Governor of New York from 2011 to 2021. In early 2021, multiple women came forward with allegations of sexual harassment against Cuomo, ultimately totaling 11 accusers. New York Attorney General Letitia James released an independent investigation report in August 2021 concluding that Cuomo had sexually harassed multiple women, including current and former state employees, in violation of federal and state law. The investigation found Cuomo groped, kissed, or made inappropriate comments to women. Separately, Cuomo\'s administration was found to have significantly undercounted COVID-19 deaths in nursing homes by only counting residents who died at nursing facilities, not those who died after being transferred to hospitals. The true death toll was approximately 50% higher than reported. Cuomo\'s administration had issued a directive requiring nursing homes to accept COVID-positive patients from hospitals. Cuomo\'s top aide Melissa DeRosa admitted the administration withheld the data from state legislators. Cuomo resigned in August 2021 to avoid impeachment.',
+    birthDate: 'December 6, 1957',
+    birthPlace: 'Queens, New York',
+    education: ['Fordham University (B.A.)', 'Albany Law School (J.D.)'],
+    affiliations: [
+      { name: 'State of New York', role: 'Governor', type: 'agency' as const },
+      { name: 'U.S. Department of HUD', role: 'Secretary', type: 'agency' as const },
+    ],
+    controversies: [
+      '11 women accused him of sexual harassment; AG investigation substantiated claims',
+      'Administration undercounted nursing home COVID deaths by approximately 50%',
+      'Issued directive requiring nursing homes to accept COVID-positive patients',
+      'Top aide admitted withholding nursing home death data from legislators',
+      'Used state resources to write and promote $5.1 million book deal during pandemic',
+      'Resigned to avoid impeachment proceedings',
+    ],
+    charges: [
+      { statute: 'NY Penal Law 130.52', description: 'Forcible touching - misdemeanor criminal complaint (dismissed)', category: 'state' },
+      { statute: 'NY Executive Law 63(8)', description: 'AG finding of sexual harassment violating state and federal law (civil)', category: 'state' },
+    ],
+    relatedInvestigations: ['/investigations/covid-19-nursing-home-deaths-coverup'],
+    timeline: [
+      { date: '2011-01-01', event: 'Inaugurated as Governor of New York' },
+      { date: '2020-03-25', event: 'Issues directive requiring nursing homes to accept COVID patients' },
+      { date: '2021-01-28', event: 'AG report reveals nursing home deaths undercounted by 50%' },
+      { date: '2021-02-24', event: 'First sexual harassment allegation made public' },
+      { date: '2021-08-03', event: 'AG James releases sexual harassment investigation report' },
+      { date: '2021-08-10', event: 'Announces resignation effective August 24' },
+    ],
+    sources: [
+      { title: 'NY AG: Independent Investigation into Governor Cuomo', url: 'https://ag.ny.gov/press-release/2021/attorney-general-james-releases-report-independent-investigation-governor-cuomo', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Melissa DeRosa', relationship: 'Secretary to the Governor; admitted withholding nursing home data' },
+    ],
+  },
+  'aaron-schock': {
+    slug: 'aaron-schock',
+    name: 'Aaron Schock',
+    title: 'Former U.S. Representative (R-IL, 2009-2015)',
+    photo: '/images/individuals/aaron-schock.webp',
+    background: 'Aaron Jon Schock was the youngest member of Congress when elected in 2008 at age 27. He resigned in March 2015 after revelations of lavish spending of taxpayer and campaign funds, including redecorating his office in the style of Downton Abbey.',
+    controversies: [
+      'Redecorated congressional office in Downton Abbey theme at taxpayer expense ($40,000+)',
+      'Billed taxpayers and campaign for private flights, luxury hotels, and concert tickets',
+      'Submitted false mileage reimbursements, claiming 170,000 miles on a car with 80,000 actual miles',
+      'Used campaign funds for personal expenses including photography at Katy Perry concerts and NFL games',
+      'Federal indictment on 24 counts including wire fraud, theft of government funds, and false statements',
+      'Charges dropped via deferred prosecution agreement requiring community service and repayment of $68,000',
+    ],
+    charges: [
+      {
+        description: '24-count federal indictment: wire fraud, theft of government funds, making false statements, and filing false tax returns',
+        status: 'Charges dropped under deferred prosecution agreement (2019); required repayment of $68,000 and community service',
+        source: 'U.S. Attorney for the Central District of Illinois',
+      },
+    ],
+    timeline: [
+      { date: '2009-01-06', event: 'Sworn in as youngest member of Congress' },
+      { date: '2015-02-02', event: 'Washington Post reports on Downton Abbey-themed office' },
+      { date: '2015-03-17', event: 'Resigns from Congress amid spending investigations' },
+      { date: '2016-11-10', event: 'Indicted on 24 federal counts' },
+      { date: '2019-03-06', event: 'Charges dropped under deferred prosecution agreement' },
+    ],
+    affiliations: [
+      { name: 'U.S. House of Representatives (R-IL)', role: 'Member of Congress', type: 'agency' as const },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'John Boehner', relationship: 'House Speaker who mentored him as rising GOP star' },
+    ],
+  },
+  'ajit-pai': {
+    name: 'Ajit Pai',
+    title: 'Former Chairman, Federal Communications Commission',
+    role: 'FCC Chair who repealed net neutrality and served telecom industry interests',
+    riskLevel: 'high',
+    description: 'Ajit Pai served as FCC Chairman from 2017 to 2021 after being appointed by President Trump. A former Verizon attorney, Pai led the repeal of net neutrality protections in December 2017 despite overwhelming public opposition (83% of comments opposed repeal, though millions were found to be fraudulent). Under his leadership, the FCC used flawed data that undercounted the number of Americans without broadband access by millions, shielding ISPs from accountability for failing to meet deployment obligations. He also weakened media ownership rules and rolled back consumer privacy protections.',
+    birthDate: 'January 10, 1973',
+    birthPlace: 'Buffalo, New York',
+    education: ['Harvard University (A.B.)', 'University of Chicago Law School (J.D.)'],
+    affiliations: [
+      { name: 'Federal Communications Commission', role: 'Chairman (2017-2021)', type: 'agency' as const },
+      { name: 'Verizon Communications', role: 'Associate General Counsel (2001-2003)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Repealed net neutrality protections despite 83% public opposition in comment period',
+      'FCC used flawed broadband mapping data that undercounted unserved Americans by millions',
+      'FCC comment system flooded with millions of fraudulent anti-net-neutrality comments, including impersonation of dead people',
+      'Former Verizon attorney who led deregulation benefiting his former employer',
+      'Weakened media ownership concentration rules',
+      'Rolled back ISP privacy protections requiring consent before selling customer data',
+    ],
+    charges: [],
+    relatedInvestigations: ['telecommunications-monopoly-digital-divide'],
+    timeline: [
+      { date: '2001', event: 'Joined Verizon Communications as Associate General Counsel' },
+      { date: '2007', event: 'Joined DOJ Antitrust Division' },
+      { date: '2012', event: 'Appointed FCC Commissioner by President Obama (Republican seat)' },
+      { date: 'January 2017', event: 'Designated FCC Chairman by President Trump' },
+      { date: 'December 2017', event: 'Led 3-2 vote to repeal net neutrality (Restoring Internet Freedom Order)' },
+      { date: 'January 2021', event: 'Left FCC; subsequent career in private sector' },
+    ],
+    sources: [
+      { title: 'FCC: Restoring Internet Freedom Order', url: 'https://www.fcc.gov/restoring-internet-freedom', date: '2017' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Brendan Carr', relationship: 'FCC Commissioner and ally on deregulatory agenda' },
+    ],
+  },
+  'allen-dulles': {
+    name: 'Allen Dulles',
+    title: 'Former Director of Central Intelligence',
+    role: 'Intelligence Director',
+    riskLevel: 'critical' as const,
+    description: 'Longest-serving CIA Director (1953-1961) who transformed the agency from an intelligence-gathering organization into a covert action powerhouse. Orchestrated coups that overthrew democratically elected governments in Iran (1953) and Guatemala (1954), establishing the template for Cold War regime change. Oversaw the Bay of Pigs invasion, MKUltra mind control experiments, and assassination plots against foreign leaders. Fired by President Kennedy after the Bay of Pigs disaster, then appointed to the Warren Commission investigating Kennedy\'s assassination — a profound conflict of interest.',
+    birthDate: '1893-04-07',
+    birthPlace: 'Watertown, New York',
+    education: ['B.A., Princeton University (1914)', 'LL.M., George Washington University (1916)'],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'Director of Central Intelligence (1953-1961)', type: 'agency' as const },
+      { name: 'Sullivan & Cromwell', role: 'Senior Partner (pre-CIA)', type: 'corporation' as const },
+      { name: 'Warren Commission', role: 'Commissioner (1963-1964)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Orchestrated 1953 Iranian coup (Operation Ajax) overthrowing democratically elected PM Mossadegh; installed Shah dictatorship',
+      'Directed 1954 Guatemalan coup (Operation PBSUCCESS) overthrowing President Arbenz; led to 36-year civil war killing 200,000',
+      'Oversaw MKUltra program conducting involuntary mind control experiments on unwitting American and Canadian citizens',
+      'Authorized assassination plots against foreign leaders including Patrice Lumumba (Congo) and Fidel Castro',
+      'Planned the disastrous Bay of Pigs invasion of Cuba in 1961; misled President Kennedy about chances of success',
+      'Appointed to Warren Commission investigating Kennedy assassination despite having been fired by Kennedy — massive conflict of interest',
+      'As corporate lawyer at Sullivan & Cromwell, represented United Fruit Company whose interests drove the Guatemala coup',
+      'Oversaw Operation Mockingbird infiltrating American media organizations to spread CIA propaganda domestically',
+    ],
+    charges: [
+      {
+        statute: 'International Law - Violations of Sovereignty',
+        description: 'Orchestrated covert overthrow of democratically elected governments in Iran and Guatemala in violation of international law',
+        category: 'human-rights',
+      },
+      {
+        statute: 'Nuremberg Principles - Crimes Against Peace',
+        description: 'Directed covert wars and regime change operations causing mass civilian casualties without congressional authorization',
+        category: 'human-rights',
+      },
+      {
+        statute: 'U.S. Constitutional Violations - Domestic Operations',
+        description: 'MKUltra and Operation Mockingbird programs violated constitutional protections against domestic intelligence operations on U.S. citizens',
+        category: 'constitutional',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'U.S.-Backed Coups and Regime Change Operations', slug: 'us-backed-coups-regime-change', severity: 'critical' },
+      { title: 'Operation Condor: CIA-Backed State Terror in Latin America', slug: 'operation-condor-cia-latin-america', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1893-04-07', event: 'Born in Watertown, New York; nephew of Secretary of State Robert Lansing' },
+      { date: '1926', event: 'Joins Sullivan & Cromwell law firm; represents United Fruit Company and German industrialists' },
+      { date: '1942', event: 'Joins Office of Strategic Services (OSS) in Bern, Switzerland during WWII' },
+      { date: '1953-02-26', event: 'Appointed Director of Central Intelligence by President Eisenhower' },
+      { date: '1953-08', event: 'Operation Ajax: CIA overthrows Iranian PM Mossadegh; installs Shah Pahlavi' },
+      { date: '1954-06', event: 'Operation PBSUCCESS: CIA overthrows Guatemalan President Arbenz' },
+      { date: '1953-1964', event: 'MKUltra program conducts mind control experiments on unwitting subjects using LSD and torture' },
+      { date: '1960', event: 'Authorizes CIA assassination plots against Patrice Lumumba and Fidel Castro' },
+      { date: '1961-04-17', event: 'Bay of Pigs invasion fails catastrophically; 1,400 Cuban exiles killed or captured' },
+      { date: '1961-11-29', event: 'Fired as CIA Director by President Kennedy following Bay of Pigs disaster' },
+      { date: '1963-11-29', event: 'Appointed to Warren Commission investigating JFK assassination despite conflict of interest' },
+      { date: '1969-01-29', event: 'Dies in Washington, D.C. at age 75' },
+    ],
+    sources: [
+      { title: 'The Devils Chessboard: Allen Dulles, the CIA, and the Rise of America\'s Secret Government by David Talbot', date: '2015' },
+      { title: 'National Security Archive: CIA Covert Operations Declassified', url: 'https://nsarchive.gwu.edu/', date: '2023' },
+      { title: 'CIA FOIA Reading Room: MKUltra Documents', url: 'https://www.cia.gov/readingroom/collection/mkultra', date: '2023' },
+    ],
+    aliases: ['The Great White Case Officer'],
+    knownAssociates: [
+      { name: 'John Foster Dulles', relationship: 'Brother; served as Secretary of State simultaneously, creating unprecedented overlap of covert and diplomatic power' },
+      { name: 'Kermit Roosevelt Jr.', relationship: 'CIA officer who led the Iran coup (Operation Ajax) under Dulles\'s direction' },
+      { name: 'Henry Kissinger', relationship: 'Later continued the CIA regime change approach Dulles established', href: '/entities/individuals/henry-kissinger' },
+    ],
+  },
+  'alex-mashinsky': {
+    name: 'Alex Mashinsky',
+    title: 'Former CEO of Celsius Network',
+    role: 'Cryptocurrency Executive',
+    riskLevel: 'critical' as const,
+    description: 'Israeli-American entrepreneur and founder/CEO of Celsius Network, a cryptocurrency lending platform that collapsed in June 2022 owing approximately $4.7 billion to 1.7 million depositors. Mashinsky promoted Celsius as safer than banks while secretly using customer funds for risky, unauthorized trades. He personally withdrew $44 million in crypto assets weeks before halting customer withdrawals and filing for bankruptcy. Charged with securities fraud, commodities fraud, and wire fraud by DOJ and SEC in 2023. Found guilty of fraud in December 2024.',
+    birthDate: '1965-01-01',
+    birthPlace: 'Ukraine (then Soviet Union)',
+    education: ['Engineering Studies, Tel Aviv University (1990)'],
+    affiliations: [
+      { name: 'Celsius Network', role: 'Founder and CEO (2017-2022)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Celsius Network collapsed owing $4.7 billion to 1.7 million depositors who lost their life savings',
+      'Promoted Celsius as safer than traditional banks while using customer deposits for risky speculative trading',
+      'Personally withdrew $44 million in crypto assets weeks before halting customer withdrawals',
+      'Manipulated price of Celsius CEL token through wash trading and market manipulation',
+      'Made hundreds of public statements about platform safety that SEC alleges were materially false',
+      'Operated Celsius as an unregistered securities offering bilking retail investors',
+      'Found guilty of fraud charges in December 2024 after federal trial',
+    ],
+    charges: [
+      {
+        statute: '18 U.S.C. § 1343 - Wire Fraud',
+        description: 'Defrauded Celsius customers by making false statements about platform safety while secretly misusing their funds for risky trades',
+        category: 'financial',
+      },
+      {
+        statute: '15 U.S.C. § 77q - Securities Fraud',
+        description: 'Operated unregistered securities offering through Celsius Earn program; made materially false statements to investors',
+        category: 'financial',
+      },
+      {
+        statute: '7 U.S.C. § 9 - Commodities Fraud',
+        description: 'Manipulated price of CEL token through fraudulent and manipulative trading practices',
+        category: 'financial',
+      },
+      {
+        statute: '18 U.S.C. § 1348 - Securities and Commodities Fraud Conspiracy',
+        description: 'Conspired with others to defraud Celsius investors through coordinated scheme involving false statements and market manipulation',
+        category: 'financial',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Cryptocurrency Fraud and Deregulation Failures', slug: 'cryptocurrency-fraud-deregulation', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2017', event: 'Founds Celsius Network, promising bank-beating yields on crypto deposits' },
+      { date: '2018-2021', event: 'Celsius grows to manage $25 billion in assets from 1.7 million depositors' },
+      { date: '2021', event: 'Celsius peaks at $25 billion AUM; Mashinsky becomes crypto celebrity promoting platform safety' },
+      { date: '2022-05', event: 'Terra/Luna collapse triggers crypto market crash; Celsius faces liquidity crisis' },
+      { date: '2022-06-12', event: 'Celsius halts all customer withdrawals trapping $4.7 billion in customer funds' },
+      { date: '2022-06', event: 'Mashinsky personally withdraws $44 million in crypto in weeks before customer freeze' },
+      { date: '2022-07-13', event: 'Celsius files for Chapter 11 bankruptcy' },
+      { date: '2023-07-13', event: 'Arrested and charged by DOJ with securities fraud, wire fraud, and commodities fraud' },
+      { date: '2023-07', event: 'SEC files civil complaint alleging Mashinsky raised billions through fraud' },
+      { date: '2024-12', event: 'Found guilty of fraud charges at federal trial' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Mashinsky Indictment', url: 'https://www.justice.gov/', date: '2023' },
+      { title: 'SEC: Complaint Against Celsius Network and Alex Mashinsky', url: 'https://www.sec.gov/litigation/complaints/', date: '2023' },
+      { title: 'Celsius Network Bankruptcy Filing', url: 'https://cases.stretto.com/celsius/', date: '2022' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Sam Bankman-Fried', relationship: 'Fellow crypto CEO whose FTX collapse happened months after Celsius; both charged with fraud', href: '/entities/individuals/sam-bankman-fried' },
+      { name: 'Do Kwon', relationship: 'Terra/Luna founder whose collapse triggered crisis that exposed Celsius insolvency', href: '/entities/individuals/do-kwon' },
+    ],
+  },
+  'jamie-dimon': {
+    name: 'Jamie Dimon',
+    title: 'CEO of JPMorgan Chase',
+    role: 'Too-Big-to-Fail Bank CEO Who Profited from the Financial Crisis',
+    riskLevel: 'high' as const,
+    description: 'Jamie Dimon has led JPMorgan Chase since 2005, overseeing its growth into the largest bank in the United States. While he is often credited with steering the bank through the 2008 financial crisis better than competitors, JPMorgan has paid over $39 billion in fines and settlements since 2008 for misconduct including mortgage fraud, energy market manipulation, and facilitating Jeffrey Epsteins finances.',
+    birthDate: '1956-03-13',
+    birthPlace: 'New York City, New York',
+    education: [
+      'B.A. in Psychology and Economics, Tufts University (1978)',
+      'M.B.A., Harvard Business School (1982)',
+    ],
+    affiliations: [
+      { name: 'JPMorgan Chase', role: 'Chairman and CEO (2005-present)', type: 'corporation' as const },
+      { name: 'Business Roundtable', role: 'Chairman (2018-2020)', type: 'organization' as const },
+    ],
+    controversies: [
+      'JPMorgan has paid over $39 billion in legal settlements since 2008, more than any other bank in history',
+      'Bank paid $920 million for the "London Whale" trading scandal in which JPMorgan traders lost $6.2 billion through risky derivatives and then concealed losses',
+      'JPMorgan maintained an extensive banking relationship with Jeffrey Epstein, processing millions in transactions; bank settled victims lawsuit for $290 million',
+      'Bank paid $13 billion in 2013 for misleading investors about the quality of mortgage-backed securities sold before the financial crisis',
+      'JPMorgan traders convicted of precious metals market manipulation using spoofing techniques over an eight-year period',
+      'Dimon exercised over $150 million in stock options while the bank was under active investigation for multiple forms of misconduct',
+      'Bank paid $75 million to settle claims it enabled Epsteins sex trafficking by maintaining his accounts despite red flags',
+      'JPMorgan fined billions for violating anti-money-laundering rules and sanctions compliance failures',
+    ],
+    relatedInvestigations: [
+      { title: 'Predatory Lending Post-Crisis', slug: 'predatory-lending-post-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2005', event: 'Became CEO of JPMorgan Chase' },
+      { date: '2008', event: 'Acquired Bear Stearns and Washington Mutual during financial crisis, massively expanding the bank' },
+      { date: '2012', event: 'London Whale trading losses of $6.2 billion; Dimon initially called reports a "tempest in a teapot"' },
+      { date: '2013-11', event: 'JPMorgan paid $13 billion to settle mortgage fraud charges, largest bank settlement in history at that time' },
+      { date: '2020-09', event: 'JPMorgan paid $920 million for precious metals and Treasury spoofing; largest spoofing penalty ever' },
+      { date: '2023-06', event: 'Settled Epstein victims lawsuit for $290 million; admitted banking relationship continued too long' },
+      { date: '2024', event: 'JPMorgan reported record profits of $49.6 billion; Dimon compensation exceeded $36 million' },
+    ],
+    sources: [
+      { title: 'DOJ: JPMorgan Chase Admits to Precious Metals Spoofing', date: '2020' },
+      { title: 'SEC: JPMorgan London Whale Enforcement Action', date: '2013' },
+      { title: 'Violation Tracker: JPMorgan Chase Complete Penalty History', url: 'https://violationtracker.goodjobsfirst.org/', date: '2024' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Ina Drew', relationship: 'Former CIO whose team executed the London Whale trades; resigned after losses surfaced' },
+    ],
+  },
+  'arthur-herbst': {
+    name: 'Arthur Herbst',
+    title: 'Gynecologic Oncologist and Researcher',
+    role: 'Physician who discovered the link between DES exposure and clear cell adenocarcinoma in daughters of women who took the drug during pregnancy',
+    riskLevel: 'medium' as const,
+    description: 'Arthur L. Herbst (1926-2020) was an American gynecologic oncologist at the University of Chicago who, in 1971, published the landmark study in the New England Journal of Medicine establishing the causal link between maternal diethylstilbestrol (DES) use during pregnancy and the development of clear cell adenocarcinoma of the vagina and cervix in their daughters. This discovery was groundbreaking because it demonstrated that in utero drug exposure could cause cancer decades later, fundamentally changing the understanding of pharmaceutical teratogenicity. Herbst subsequently established the DES Registry, a comprehensive database tracking health outcomes of DES-exposed individuals across generations. His research ultimately contributed to the FDA ban on DES use in pregnancy in 1971 and shaped modern pharmaceutical regulation regarding drugs administered to pregnant women. The DES disaster, documented through Herbst and his colleagues research, exposed that pharmaceutical companies had continued marketing DES for pregnancy despite evidence of its ineffectiveness dating back to 1953.',
+    birthDate: '1926-04-14',
+    birthPlace: 'New York City, New York',
+    deathDate: '2020-12-01',
+    education: ['Harvard Medical School (M.D., 1951)', 'Massachusetts General Hospital (Residency)'],
+    affiliations: [
+      { name: 'University of Chicago', role: 'Professor and Chairman of Obstetrics and Gynecology (1975-1999); led DES research for three decades', type: 'organization' },
+      { name: 'Massachusetts General Hospital', role: 'Researcher and physician where he first identified the DES-cancer link in 1971', type: 'organization' },
+    ],
+    controversies: [
+      'His 1971 NEJM paper linked DES to vaginal cancer in daughters, leading to the FDA ban and revealing decades of pharmaceutical negligence',
+      'Established the DES Registry tracking thousands of affected individuals, documenting multi-generational harm',
+      'Research revealed pharmaceutical companies had ignored a 1953 study proving DES was ineffective for preventing miscarriage',
+    ],
+    relatedInvestigations: [
+      { title: 'DES (Diethylstilbestrol): The Three-Generation Pharmaceutical Disaster', slug: 'des-diethylstilbestrol-pharmaceutical-disaster', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1951', event: 'Graduates from Harvard Medical School' },
+      { date: '1971-04-22', event: 'Publishes "Adenocarcinoma of the Vagina: Association of Maternal Stilbestrol Therapy with Tumor Appearance in Young Women" in the New England Journal of Medicine' },
+      { date: '1971', event: 'FDA issues drug bulletin advising against DES use in pregnancy based on Herbst research' },
+      { date: '1975', event: 'Appointed Chairman of Obstetrics and Gynecology at the University of Chicago; expands DES research' },
+      { date: '1978', event: 'Establishes the national DES Registry to track health outcomes across generations of exposed individuals' },
+      { date: '2020-12-01', event: 'Dies at age 94; his research had documented the health effects of DES exposure in over 5 million people' },
+    ],
+    sources: [
+      { title: 'New England Journal of Medicine: Herbst et al. - Adenocarcinoma of the Vagina', url: 'https://www.nejm.org/doi/full/10.1056/NEJM197104222841604', date: '1971-04-22' },
+      { title: 'University of Chicago Medicine: Arthur L. Herbst Memorial', date: '2021' },
+    ],
+    knownAssociates: [
+      { name: 'Robert Scully', relationship: 'Pathologist at Massachusetts General Hospital who co-authored the landmark 1971 DES-cancer study' },
+      { name: 'Howard Ulfelder', relationship: 'Gynecologic oncologist and co-author of the original DES study who collaborated on the early case identifications' },
+    ],
+  },
 };
 
 export default profiles;

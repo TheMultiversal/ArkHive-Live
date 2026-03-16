@@ -29,7 +29,58 @@ const investigations_x: Record<string, InvestigationData> = {
       { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Leaked classified XKeyscore training materials in 2013; revealed the system\'s capabilities and the minimal oversight governing its use', href: '/entities/individuals/edward-snowden' },
     ],
   },
-
+  'pfas-forever-chemicals-contamination': {
+    title: 'PFAS Forever Chemicals Contamination Crisis',
+    subtitle: 'How chemical manufacturers concealed evidence that PFAS compounds contaminate the blood of 98% of Americans, persist indefinitely in the environment, and cause cancer, while the EPA delayed regulation for decades',
+    severity: 'critical' as const,
+    category: 'Environmental Crime',
+    date: '2024-06-15',
+    lastUpdated: '2025-03-01',
+    summary: 'Per- and polyfluoroalkyl substances (PFAS), known as "forever chemicals" because they never break down in the environment, contaminate the drinking water of an estimated 200 million Americans. PFAS are found in the blood of 98% of Americans tested. Manufacturers DuPont and 3M knew of the chemicals\' toxicity as early as the 1960s and concealed evidence for decades. PFAS exposure is linked to kidney and testicular cancer, thyroid disease, liver damage, immune suppression, and reproductive harm. The EPA did not establish enforceable drinking water limits until April 2024, more than 50 years after manufacturers identified the health risks. DuPont and 3M have agreed to settlements exceeding $15 billion but face no criminal charges.',
+    content: [
+      'DuPont\'s concealment of PFAS toxicity is one of the most egregious cases of corporate knowledge suppression in environmental history. Internal documents dating to the 1960s showed that DuPont knew PFOA (a type of PFAS used to make Teflon) accumulated in the blood of its workers and surrounding communities, caused liver damage in laboratory animals, and persisted in the environment. DuPont continued manufacturing PFOA at its Parkersburg, West Virginia plant for decades while contaminating the drinking water of 70,000 nearby residents. Attorney Robert Bilott\'s 20-year legal battle against DuPont, documented in the film "Dark Waters," eventually forced the company to fund a health study that confirmed links to six diseases.',
+      '3M, the other major PFAS manufacturer (Scotchgard, firefighting foam), similarly concealed evidence. Internal 3M studies from the 1970s showed that PFOS (another PFAS type) accumulated in the blood of production workers at alarming levels and caused liver and reproductive harm in animals. 3M\'s own environmental scientist, Dr. Rich Purdy, warned management in the 1990s that PFOS was a persistent environmental contaminant found in the blood of the general population. 3M phased out PFOS production in 2002 but continued to sell existing stocks and fought regulation for years afterward.',
+      'Military bases represent the most concentrated sources of PFAS contamination. Aqueous film-forming foam (AFFF), containing PFAS, has been used for decades at military installations for firefighting training. The DOD has identified at least 700 military installations with known or suspected PFAS contamination. At bases like Pease Air Force Base in New Hampshire and Peterson Air Force Base in Colorado, PFAS levels in drinking water exceeded safe limits by 100 to 1,000 times. Cleanup of military PFAS contamination alone is estimated to cost $30 billion or more. Service members and their families living near these bases have elevated rates of cancer.',
+      'The EPA\'s response to PFAS contamination has been decades too slow. Despite knowing about the contamination since at least the early 2000s, the EPA did not establish a health advisory level for PFAS until 2016, and even that was non-enforceable. In June 2022, the EPA revised its health advisory to near-zero levels, essentially acknowledging that no level of PFAS exposure is safe. The agency finally issued enforceable Maximum Contaminant Levels (MCLs) in April 2024, setting limits of 4 parts per trillion for PFOA and PFOS. Water systems nationwide now face $50-$100 billion in compliance costs.',
+      'PFAS contamination is not limited to drinking water. These chemicals are found in food packaging, nonstick cookware, waterproof clothing, cosmetics, dental floss, and thousands of other consumer products. PFAS "biosolids" (treated sewage sludge) spread on farmland have contaminated agricultural soil and groundwater across the country. A Maine farmer was forced to shut down his dairy operation after PFAS from biosolids contaminated his milk. There is no technology that effectively removes PFAS from the environment; the chemicals persist essentially forever. The only solution is preventing further contamination and holding manufacturers accountable.',
+    ],
+    tags: ['PFAS', 'forever chemicals', 'DuPont', '3M', 'PFOA', 'PFOS', 'drinking water', 'military contamination', 'EPA', 'cancer'],
+    sources: [
+      { title: 'EPA: PFAS Strategic Roadmap', url: 'https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitments-action-2021-2024', type: 'Government Report' },
+      { title: 'DOD: PFAS Task Force Progress Report', url: 'https://www.acq.osd.mil/eie/eer/eqo/pfas.html', type: 'Government Report' },
+      { title: 'ATSDR: PFAS Exposure Assessments', url: 'https://www.atsdr.cdc.gov/pfas/', type: 'Government Report' },
+    ],
+    affiliations: [
+      { id: '1', name: 'EPA', type: 'agency', relationship: 'Delayed enforceable PFAS standards for 50+ years after manufacturers identified risks; MCLs finally issued April 2024; $50-100B compliance costs for water systems', href: '/entities/agencies/epa' },
+      { id: '2', name: 'DOD', type: 'agency', relationship: '700+ military installations with PFAS contamination from firefighting foam; cleanup estimated at $30B+; exposed service members and families to cancer-causing levels', href: '/entities/agencies/dod' },
+    ],
+  },
+  'forced-arbitration-consumer-rights': {
+    title: 'Forced Arbitration and Consumer Rights',
+    subtitle: 'How Mandatory Arbitration Clauses Strip Americans of Their Day in Court',
+    severity: 'high' as const,
+    category: 'Consumer Protection & Law',
+    date: '2024-06-15',
+    lastUpdated: '2025-01-30',
+    summary: 'Over 60 million American workers and virtually all consumers are bound by mandatory arbitration clauses that waive their right to sue in court or join class actions. Arbitration outcomes overwhelmingly favor corporations, with consumers winning less than 9% of cases and recovering a fraction of what courts would award.',
+    content: [
+      'Forced arbitration clauses are embedded in the fine print of employment contracts, credit card agreements, nursing home admissions forms, cell phone plans, and virtually every consumer transaction in the modern economy. These clauses require disputes to be resolved through private arbitration rather than court proceedings, and nearly always include class action waivers that prevent consumers from aggregating small claims into economically viable litigation. An estimated 826 million consumer arbitration agreements are in force in the United States, covering everything from bank accounts to streaming subscriptions.',
+      'The arbitration system structurally favors repeat corporate players over one-time individual claimants. Arbitrators are selected from private firms that depend on corporate clients for repeat business, creating an inherent incentive to issue favorable rulings. Research published in the Stanford Law Review found that arbitrators ruled for the corporation in 93% of consumer arbitration cases and that corporations that appeared repeatedly before the same arbitrator received increasingly favorable outcomes over time. Consumers who prevailed received average awards 35% lower than comparable court judgments.',
+      'The class action waiver component may be the most consequential element. When a corporation overcharges 10 million customers by $30 each, no individual customer will spend the time and money to arbitrate a $30 claim. The class action mechanism allows aggregation of these claims into cases with sufficient value to attract legal representation. By waiving class actions, corporations immunize themselves from accountability for widespread small-dollar fraud. The Supreme Court blessed this practice in AT&T Mobility v. Concepcion (2011) and American Express v. Italian Colors (2013), decisions that Justice Kagan warned would enable companies to insulate themselves from all private enforcement.',
+      'Employment arbitration creates additional power imbalances. Workers who sign arbitration agreements as a condition of employment cannot sue for wage theft, discrimination, sexual harassment, or wrongful termination in court. The #MeToo movement highlighted how these clauses silenced harassment victims and protected serial abusers. Congress responded with the Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act of 2022, which exempted those specific claims, but left all other employment disputes subject to mandatory arbitration.',
+      'Transparency is virtually nonexistent in the system. Arbitration proceedings are confidential, meaning that patterns of corporate misconduct never become public. Unlike court proceedings, there is no public record of complaints, evidence, or outcomes. A company can lose dozens of individual arbitrations involving the same defective product or illegal practice without any of the claimants knowing about the others. Proposals to require arbitration transparency, expand the 2022 exemption to all employment claims, and ban pre-dispute arbitration agreements in consumer contracts have been introduced repeatedly in Congress but face opposition from the U.S. Chamber of Commerce and financial services lobby.',
+    ],
+    tags: ['forced arbitration', 'class action waiver', 'consumer rights', 'employment law', 'arbitration clause', 'corporate immunity', 'access to justice'],
+    sources: [
+      'https://www.epi.org/publication/the-growing-use-of-mandatory-arbitration-access-to-the-courts-is-now-barred-for-more-than-60-million-american-workers/',
+      'https://www.americanbar.org/groups/dispute_resolution/resources/DisputeResolutionProcesses/arbitration/',
+      'https://www.consumerfinance.gov/data-research/research-reports/arbitration-study-report-to-congress-2015/',
+    ],
+    affiliations: [
+      { id: '1', name: 'CFPB', type: 'agency', relationship: 'Completed 2015 study finding arbitration harmed consumers; issued rule banning class action waivers in 2017; Congress overturned the rule via Congressional Review Act before it took effect', href: '/entities/agencies/cfpb' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Has authority to challenge unfair contractual terms but has not used it to address forced arbitration; defers to CFPB on financial product arbitration', href: '/entities/agencies/ftc' },
+    ],
+  },
 };
 
 export default investigations_x;

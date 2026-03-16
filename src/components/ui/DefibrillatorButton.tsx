@@ -80,10 +80,10 @@ export default function DefibrillatorButton({
  whileTap={{ scale: 0.98 }}
  animate={{
  boxShadow: isCharging 
- ? ['0 0 0px rgba(239,68,68,0)', '0 0 30px rgba(239,68,68,0.8)', '0 0 0px rgba(239,68,68,0)']
+ ? ['0 0 0px rgba(96,165,250,0)', '0 0 30px rgba(96,165,250,0.8)', '0 0 0px rgba(96,165,250,0)']
  : isShocking
- ? '0 0 50px rgba(239,68,68,1)'
- : '0 0 10px rgba(239,68,68,0.3)'
+ ? '0 0 50px rgba(96,165,250,1)'
+ : '0 0 10px rgba(96,165,250,0.3)'
  }}
  transition={{ duration: isCharging ? 0.3 : 0.1, repeat: isCharging ? Infinity : 0 }}
  >
@@ -177,9 +177,9 @@ export default function DefibrillatorButton({
  className="absolute inset-0"
  animate={{
  boxShadow: [
- 'inset 0 0 20px rgba(239,68,68,0.2)',
- 'inset 0 0 30px rgba(239,68,68,0.4)',
- 'inset 0 0 20px rgba(239,68,68,0.2)',
+ 'inset 0 0 20px rgba(96,165,250,0.2)',
+ 'inset 0 0 30px rgba(96,165,250,0.4)',
+ 'inset 0 0 20px rgba(96,165,250,0.2)',
  ]
  }}
  transition={{ duration: 2, repeat: Infinity }}

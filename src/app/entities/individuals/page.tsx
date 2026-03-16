@@ -114,8 +114,8 @@ export default function IndividualsPage() {
 
             <p className="text-zinc-400 text-center max-w-2xl mx-auto leading-relaxed">
               Politicians, executives, operatives, and enablers. Every profile maps their crimes,
-              connections, and place in the network of institutional corruption. Continuously
-              expanded by ArkHive Swarm Intelligence.
+              connections, and place in the network of institutional corruption. Independently
+              researched and maintained since 2009.
             </p>
           </div>
         </div>

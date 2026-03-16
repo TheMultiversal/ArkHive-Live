@@ -17,11 +17,11 @@ export default function BiohazardIcon({
 }: BiohazardIconProps) {
  
  const variantColors = {
- standard: { primary: '#dc2626', secondary: '#7f1d1d', glow: 'rgba(220, 38, 38, 0.5)' },
+ standard: { primary: '#2563eb', secondary: '#1e40af', glow: 'rgba(37, 99, 235, 0.5)' },
  nuclear: { primary: '#71717a', secondary: '#a16207', glow: 'rgba(234, 179, 8, 0.5)' },
- chemical: { primary: '#d64545', secondary: '#166534', glow: 'rgba(34, 197, 94, 0.5)' },
+ chemical: { primary: '#3b82f6', secondary: '#166534', glow: 'rgba(34, 197, 94, 0.5)' },
  biological: { primary: '#a855f7', secondary: '#7c3aed', glow: 'rgba(168, 85, 247, 0.5)' },
- pharmaceutical: { primary: '#d64545', secondary: '#a82828', glow: 'rgba(59, 130, 246, 0.5)' },
+ pharmaceutical: { primary: '#3b82f6', secondary: '#1d4ed8', glow: 'rgba(59, 130, 246, 0.5)' },
  };
 
  const colors = variantColors[variant];

@@ -70,7 +70,7 @@ export default function CrystalGridBackground() {
  {/* Animated glow filter */}
  <filter id="bloodGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="2"result="blur"/>
- <feFlood floodColor="#dc2626"floodOpacity={glowIntensity} />
+ <feFlood floodColor="#2563eb"floodOpacity={glowIntensity} />
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -83,7 +83,7 @@ export default function CrystalGridBackground() {
  {/* Vertical lines */}
  <motion.line
  x1="0"y1="0"x2="0"y2="80"
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="0.5"
  animate={{ strokeDashoffset: [0, -20] }}
  transition={{ duration: 3, repeat: Infinity, ease:"linear"}}
@@ -91,7 +91,7 @@ export default function CrystalGridBackground() {
  />
  <motion.line
  x1="40"y1="0"x2="40"y2="80"
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="0.5"
  animate={{ strokeDashoffset: [0, 20] }}
  transition={{ duration: 4, repeat: Infinity, ease:"linear"}}
@@ -99,7 +99,7 @@ export default function CrystalGridBackground() {
  />
  <motion.line
  x1="80"y1="0"x2="80"y2="80"
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="0.5"
  animate={{ strokeDashoffset: [0, -20] }}
  transition={{ duration: 3.5, repeat: Infinity, ease:"linear"}}
@@ -109,7 +109,7 @@ export default function CrystalGridBackground() {
  {/* Horizontal lines */}
  <motion.line
  x1="0"y1="0"x2="80"y2="0"
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="0.5"
  animate={{ strokeDashoffset: [-20, 0] }}
  transition={{ duration: 4, repeat: Infinity, ease:"linear"}}
@@ -117,7 +117,7 @@ export default function CrystalGridBackground() {
  />
  <motion.line
  x1="0"y1="40"x2="80"y2="40"
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="0.5"
  animate={{ strokeDashoffset: [20, 0] }}
  transition={{ duration: 3, repeat: Infinity, ease:"linear"}}
@@ -125,7 +125,7 @@ export default function CrystalGridBackground() {
  />
  <motion.line
  x1="0"y1="80"x2="80"y2="80"
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="0.5"
  animate={{ strokeDashoffset: [-20, 0] }}
  transition={{ duration: 3.5, repeat: Infinity, ease:"linear"}}
@@ -135,7 +135,7 @@ export default function CrystalGridBackground() {
  {/* Diagonal accent */}
  <motion.line
  x1="0"y1="0"x2="80"y2="80"
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="0.3"
  opacity="0.4"
  animate={{ strokeDashoffset: [0, -40] }}
@@ -165,7 +165,7 @@ export default function CrystalGridBackground() {
  y1={`${15 + i * 15}%`}
  x2="100%"
  y2={`${15 + i * 15}%`}
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="1"
  opacity="0.15"
  filter="url(#bloodGlow)"
@@ -187,7 +187,7 @@ export default function CrystalGridBackground() {
  y1="0"
  x2={`${15 + i * 15}%`}
  y2="100%"
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="1"
  opacity="0.15"
  filter="url(#bloodGlow)"
@@ -219,9 +219,9 @@ export default function CrystalGridBackground() {
  <svg width="400"height="400"className="opacity-30">
  <defs>
  <radialGradient id="cursorGlow"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#dc2626"stopOpacity={glowIntensity} />
- <stop offset="50%"stopColor="#dc2626"stopOpacity={glowIntensity * 0.3} />
- <stop offset="100%"stopColor="#dc2626"stopOpacity="0"/>
+ <stop offset="0%"stopColor="#2563eb"stopOpacity={glowIntensity} />
+ <stop offset="50%"stopColor="#2563eb"stopOpacity={glowIntensity * 0.3} />
+ <stop offset="100%"stopColor="#2563eb"stopOpacity="0"/>
  </radialGradient>
  </defs>
  <circle cx="200"cy="200"r="200"fill="url(#cursorGlow)"/>
@@ -234,7 +234,7 @@ export default function CrystalGridBackground() {
  y1="200"
  x2={200 + 180 * Math.cos((i * 45 * Math.PI) / 180)}
  y2={200 + 180 * Math.sin((i * 45 * Math.PI) / 180)}
- stroke="#dc2626"
+ stroke="#2563eb"
  strokeWidth="1"
  opacity={glowIntensity * 0.5}
  animate={{
@@ -266,7 +266,7 @@ export default function CrystalGridBackground() {
  <div 
  className="w-24 h-24 border border-blood-600/50"
  style={{
- boxShadow: '0 0 20px rgba(220, 38, 38, 0.3)',
+ boxShadow: '0 0 20px rgba(37, 99, 235, 0.3)',
  }}
  />
  </motion.div>
@@ -278,13 +278,13 @@ export default function CrystalGridBackground() {
  className="absolute top-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blood-600 to-transparent"
  animate={{ opacity: [0.4, 1, 0.4], width: ['40px', '48px', '40px'] }}
  transition={{ duration: 2, repeat: Infinity }}
- style={{ boxShadow: '0 0 10px #dc2626' }}
+ style={{ boxShadow: '0 0 10px #2563eb' }}
  />
  <motion.div
  className="absolute top-0 left-0 h-12 w-0.5 bg-gradient-to-b from-blood-600 to-transparent"
  animate={{ opacity: [0.4, 1, 0.4], height: ['40px', '48px', '40px'] }}
  transition={{ duration: 2, repeat: Infinity }}
- style={{ boxShadow: '0 0 10px #dc2626' }}
+ style={{ boxShadow: '0 0 10px #2563eb' }}
  />
  </div>
  <div className="absolute top-8 right-8 w-24 h-24">
@@ -292,13 +292,13 @@ export default function CrystalGridBackground() {
  className="absolute top-0 right-0 w-12 h-0.5 bg-gradient-to-l from-blood-600 to-transparent"
  animate={{ opacity: [0.4, 1, 0.4] }}
  transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
- style={{ boxShadow: '0 0 10px #dc2626' }}
+ style={{ boxShadow: '0 0 10px #2563eb' }}
  />
  <motion.div
  className="absolute top-0 right-0 h-12 w-0.5 bg-gradient-to-b from-blood-600 to-transparent"
  animate={{ opacity: [0.4, 1, 0.4] }}
  transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
- style={{ boxShadow: '0 0 10px #dc2626' }}
+ style={{ boxShadow: '0 0 10px #2563eb' }}
  />
  </div>
  <div className="absolute bottom-8 left-8 w-24 h-24">
@@ -306,13 +306,13 @@ export default function CrystalGridBackground() {
  className="absolute bottom-0 left-0 w-12 h-0.5 bg-gradient-to-r from-blood-600 to-transparent"
  animate={{ opacity: [0.4, 1, 0.4] }}
  transition={{ duration: 2, repeat: Infinity, delay: 1 }}
- style={{ boxShadow: '0 0 10px #dc2626' }}
+ style={{ boxShadow: '0 0 10px #2563eb' }}
  />
  <motion.div
  className="absolute bottom-0 left-0 h-12 w-0.5 bg-gradient-to-t from-blood-600 to-transparent"
  animate={{ opacity: [0.4, 1, 0.4] }}
  transition={{ duration: 2, repeat: Infinity, delay: 1 }}
- style={{ boxShadow: '0 0 10px #dc2626' }}
+ style={{ boxShadow: '0 0 10px #2563eb' }}
  />
  </div>
  <div className="absolute bottom-8 right-8 w-24 h-24">
@@ -320,13 +320,13 @@ export default function CrystalGridBackground() {
  className="absolute bottom-0 right-0 w-12 h-0.5 bg-gradient-to-l from-blood-600 to-transparent"
  animate={{ opacity: [0.4, 1, 0.4] }}
  transition={{ duration: 2, repeat: Infinity, delay: 1.5 }}
- style={{ boxShadow: '0 0 10px #dc2626' }}
+ style={{ boxShadow: '0 0 10px #2563eb' }}
  />
  <motion.div
  className="absolute bottom-0 right-0 h-12 w-0.5 bg-gradient-to-t from-blood-600 to-transparent"
  animate={{ opacity: [0.4, 1, 0.4] }}
  transition={{ duration: 2, repeat: Infinity, delay: 1.5 }}
- style={{ boxShadow: '0 0 10px #dc2626' }}
+ style={{ boxShadow: '0 0 10px #2563eb' }}
  />
  </div>
 

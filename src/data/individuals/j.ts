@@ -1,4 +1,4 @@
-// Individual profile data shard
+﻿// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -35,16 +35,16 @@ const profiles: Record<string, IndividualProfile> = {
  'BLACKMAIL OPERATION: Victims and witnesses testified to hidden cameras throughout properties, suggesting kompromat operation',
  ],
  charges: [
- { statute: '18 U.S.C. § 1591', description: 'Sex trafficking of minors; federal indictment SDNY 2019', category: 'Human Trafficking' },
- { statute: '18 U.S.C. § 1591(a)', description: 'Sex trafficking conspiracy; operated network across multiple states', category: 'Human Trafficking' },
- { statute: '18 U.S.C. § 2423', description: 'Transportation of minors for illegal sexual activity', category: 'Human Trafficking' },
- { statute: '18 U.S.C. § 2422', description: 'Coercion and enticement of minors', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Â§ 1591', description: 'Sex trafficking of minors; federal indictment SDNY 2019', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Â§ 1591(a)', description: 'Sex trafficking conspiracy; operated network across multiple states', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Â§ 2423', description: 'Transportation of minors for illegal sexual activity', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Â§ 2422', description: 'Coercion and enticement of minors', category: 'Human Trafficking' },
  { statute: 'Florida Statute 796.03', description: 'Soliciting prostitution from minor (2008 conviction)', category: 'Sexual Crimes' },
  { statute: 'Florida Statute 800.04', description: 'Lewd and lascivious acts on child under 16', category: 'Sexual Crimes' },
- { statute: 'NY Penal Law § 130.25', description: 'Rape in the third degree', category: 'Sexual Crimes' },
- { statute: '18 U.S.C. § 1952', description: 'Interstate travel for prostitution (Mann Act)', category: 'Organized Crime' },
- { statute: '18 U.S.C. § 1956', description: 'Money laundering; concealing trafficking proceeds', category: 'Financial Crimes' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy; coordinated trafficking operation', category: 'Conspiracy' },
+ { statute: 'NY Penal Law Â§ 130.25', description: 'Rape in the third degree', category: 'Sexual Crimes' },
+ { statute: '18 U.S.C. Â§ 1952', description: 'Interstate travel for prostitution (Mann Act)', category: 'Organized Crime' },
+ { statute: '18 U.S.C. Â§ 1956', description: 'Money laundering; concealing trafficking proceeds', category: 'Financial Crimes' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy; coordinated trafficking operation', category: 'Conspiracy' },
  ],
  relatedInvestigations: [
  { title: 'Epstein Network Complicity', slug: 'epstein-network', severity: 'critical' },
@@ -107,7 +107,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Social associate (1992-2019), Mar-a-Lago neighbor, praised as"terrific guy who likes them young"', href: '/entities/individuals/donald-trump' },
  { name: 'Ghislaine Maxwell', relationship: 'Girlfriend, co-conspirator, convicted sex trafficker, chief recruiter', href: '/entities/individuals/ghislaine-maxwell' },
  { name: 'Bill Clinton', relationship: '26+ flights on Lolita Express per flight logs, visited island', href: '/entities/individuals/bill-clinton' },
- { name: 'Prince Andrew', relationship: 'Close friend, photographed with victim Virginia Giuffre, settled lawsuit for £12M', href: '/entities/individuals/prince-andrew' },
+ { name: 'Prince Andrew', relationship: 'Close friend, photographed with victim Virginia Giuffre, settled lawsuit for Â£12M', href: '/entities/individuals/prince-andrew' },
  { name: 'Bill Gates', relationship: 'Multiple meetings documented AFTER 2008 conviction, flew on Lolita Express', href: '/entities/individuals/bill-gates' },
  { name: 'Les Wexner', relationship: 'Primary financial backer, gave $77M NYC mansion, power of attorney', href: '/entities/individuals/les-wexner' },
  { name: 'Alan Dershowitz', relationship: 'Defense attorney, named by victims, flew on jet', href: '/entities/individuals/alan-dershowitz' },
@@ -175,139 +175,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Robert Maxwell', relationship: 'Father of Ghislaine Maxwell; alleged Mossad asset', href: '/entities/individuals/robert-maxwell' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 'jared-kushner': {
- name: 'Jared Corey Kushner',
- title: 'Real Estate Executive, Former Senior White House Advisor',
- role: 'Political figure and real estate developer',
- riskLevel: 'high',
- description: 'Jared Corey Kushner is a real estate developer, former Senior Advisor to President Trump, and husband of Ivanka Trump. During the Trump administration he held an unprecedented portfolio of responsibilities despite no government experience, including Middle East peace, criminal justice reform, and pandemic supply chain management. Post-presidency, he established Affinity Partners, a private equity firm that received $2 billion from Saudi Arabia sovereign wealth fund.',
- birthDate: 'January 10, 1981',
- birthPlace: 'Livingston, New Jersey, USA',
- netWorth: '$800+ million',
- education: ['Harvard University, BA Government 2003', 'New York University, JD/MBA 2007'],
- affiliations: [
- { name: 'White House', role: 'Senior Advisor to the President (2017-2021)', type: 'agency' },
- { name: 'Kushner Companies', role: 'Former CEO, Family Real Estate Empire', type: 'corporation' },
- { name: 'Affinity Partners', role: 'Founder, Private Equity (post-White House)', type: 'corporation' },
- { name: 'New York Observer', role: 'Former Owner (2006-2017)', type: 'corporation' },
- ],
- controversies: [
- 'Security clearance initially denied by career officials due to foreign contacts, financial concerns, and incomplete disclosure forms; overridden by President Trump personally',
- 'Affinity Partners received $2 billion investment from Saudi Arabia Public Investment Fund despite advisory board concerns about the firms inexperience and due diligence failures',
- 'Failed to disclose over 100 foreign contacts on his SF-86 security clearance application, requiring multiple amendments',
- 'Met with Russian Ambassador Sergey Kislyak and Russian banker Sergey Gorkov during the presidential transition, later revealed during the Mueller investigation',
- 'Attended the June 2016 Trump Tower meeting with Russian lawyer Natalia Veselnitskaya seeking dirt on Hillary Clinton',
- 'Oversaw pandemic supply chain response through Project Airbridge, which critics said prioritized politically connected distributors',
- 'Kushner Companies received $1.15 billion bailout for 666 Fifth Avenue from Brookfield Asset Management, raising conflict of interest questions during his White House tenure',
- ],
- charges: [
- { statute: '18 U.S.C. 208', description: 'Potential conflicts of interest between government role and business interests', category: 'Ethics' },
- { statute: 'Foreign Corrupt Practices Act', description: 'Questions about Saudi investment as quid pro quo for policy favors', category: 'Corruption' },
- ],
- relatedInvestigations: [
- { title: 'Treason and Foreign Collusion', slug: 'treason', severity: 'critical' },
- { title: 'Seychelles Secret Meeting', slug: 'seychelles-meeting', severity: 'high' },
- { title: 'Khashoggi Murder Cover-Up', slug: 'khashoggi-murder', severity: 'critical' },
- ],
- timeline: [
- { date: '2007-01-01', event: 'Took over Kushner Companies after father Charles Kushner imprisoned' },
- { date: '2017-01-20', event: 'Appointed Senior Advisor to President Trump' },
- { date: '2017-12-01', event: 'Met with Russian Ambassador Kislyak and banker Gorkov during transition' },
- { date: '2020-03-27', event: 'Tasked with leading pandemic supply chain response' },
- { date: '2021-01-20', event: 'Left White House' },
- { date: '2021-06-01', event: 'Founded Affinity Partners private equity firm' },
- { date: '2022-04-01', event: 'Saudi PIF commits $2 billion to Affinity Partners' },
- ],
- socialMedia: [],
- sources: [
- { title: 'House Oversight Committee: Kushner Security Clearance Investigation', url: 'https://oversight.house.gov/legislation/hearings/kushner-security-clearance', date: '2019-04-01' },
- { title: 'Senate Finance Committee: Affinity Partners Investigation', url: 'https://www.finance.senate.gov/chairmans-news/wyden-launches-investigation-into-jared-kushners-2-billion-saudi-deal', date: '2022-06-02' },
- ],
- aliases: ['J-Kush', 'Secretary of Everything'],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Father-in-law and political patron', href: '/entities/individuals/donald-trump' },
- { name: 'Mohammed bin Salman', relationship: 'Saudi Crown Prince, Affinity Partners investor', href: '/entities/individuals/mohammed-bin-salman' },
- { name: 'Ivanka Trump', relationship: 'Wife and fellow White House advisor', href: '/entities/individuals/ivanka-trump' },
- ],
- },
-
- 'john-eastman': {
- name: 'John Eastman',
- title: 'Attorney, Former Chapman University Professor',
- role: 'Legal architect of 2020 election overturn scheme',
- riskLevel: 'high',
- description: 'John Charles Eastman is a conservative attorney who authored the legal memos arguing Vice President Mike Pence had the authority to reject Electoral College votes on January 6, 2021. He was indicted alongside Donald Trump in Georgia and federally for conspiracy to overturn the 2020 election, and was disbarred in California for his role in the scheme.',
- education: ['University of Dallas, BA', 'University of Chicago Law School, JD 1995'],
- affiliations: [
- ],
- controversies: [
- 'Authored the "Eastman Memo" outlining a six-step plan for Vice President Pence to reject Electoral College votes from seven states and declare Trump the winner',
- 'Spoke at the January 6, 2021 rally at the Ellipse shortly before the Capitol breach, falsely claiming the election was stolen',
- 'Indicted on federal charges of conspiracy to defraud the United States and obstruction of an official proceeding for his role in the election overturn scheme',
- 'Indicted in Fulton County, Georgia RICO case alongside Trump and 17 others for conspiracy to overturn the 2020 election results',
- 'Disbarred by the State Bar of California in March 2024 for his post-election conduct, with the court finding he acted with the "specific intent to disrupt the lawful transfer of presidential power"',
- 'Chapman University forced his resignation in January 2021 due to his role in the events leading to January 6',
- ],
- charges: [
- { statute: '18 USC 371', description: 'Conspiracy to Defraud the United States', category: 'Conspiracy' },
- { statute: '18 USC 1512(c)(2)', description: 'Obstruction of an Official Proceeding', category: 'Obstruction' },
- { statute: 'GA OCGA 16-14-4', description: 'Violation of Georgia RICO Act', category: 'RICO' },
- ],
- relatedInvestigations: [
- ],
- timeline: [
- { date: '2020-12-23', event: 'Authored first memo outlining VP authority to reject Electoral College votes' },
- { date: '2021-01-04', event: 'Met with VP Pence in the Oval Office to present the plan' },
- { date: '2021-01-06', event: 'Spoke at Stop the Steal rally before Capitol breach' },
- { date: '2021-01-11', event: 'Resigned from Chapman University under pressure' },
- { date: '2023-08-01', event: 'Indicted in federal election interference case' },
- { date: '2023-08-14', event: 'Indicted in Fulton County, Georgia RICO case' },
- { date: '2024-03-27', event: 'Disbarred by California State Bar' },
- ],
- socialMedia: [],
- sources: [
- { title: 'January 6th Committee: Eastman Memo', url: 'https://www.govinfo.gov/committee/house-january6th', date: '2022-06-16' },
- { title: 'State Bar of California: Disbarment Decision', url: 'https://www.calbar.ca.gov/Portals/0/documents/publicComment/2024/Eastman-Decision.pdf', date: '2024-03-27' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Client who directed the election overturn scheme', href: '/entities/individuals/donald-trump' },
- { name: 'Rudy Giuliani', relationship: 'Fellow attorney in election overturn efforts', href: '/entities/individuals/rudy-giuliani' },
- ],
- },
-
  'jeffrey-clark': {
  name: 'Jeffrey Clark',
  title: 'Person of Interest',
@@ -362,8 +229,8 @@ const profiles: Record<string, IndividualProfile> = {
  'Sheltered in Ecuadorian embassy 7 years',
  ],
  charges: [
- { statute: '18 U.S.C. § 793', description: 'Espionage Act violations (US indictment)', category: 'National Security' },
- { statute: '18 U.S.C. § 1030', description: 'Computer intrusion conspiracy', category: 'Cybercrimes' },
+ { statute: '18 U.S.C. Â§ 793', description: 'Espionage Act violations (US indictment)', category: 'National Security' },
+ { statute: '18 U.S.C. Â§ 1030', description: 'Computer intrusion conspiracy', category: 'Cybercrimes' },
  ],
  relatedInvestigations: [
  { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
@@ -388,35 +255,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: '"I love WikiLeaks"- Trump 2016', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'jerome-corsi': {
@@ -545,34 +383,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'james-comey': {
  name: 'James Brien Comey Jr.',
  title: 'Former FBI Director',
@@ -628,32 +438,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Andrew McCabe', relationship: 'Deputy Director who took over after firing' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'jean-luc-brunel': {
@@ -712,31 +496,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'joel-greenberg': {
  name: 'Joel Greenberg',
  title: 'Former Seminole County Tax Collector',
@@ -761,7 +520,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Used government resources for personal schemes',
  ],
  charges: [
- { statute: '18 U.S.C. § 1591', description: 'Sex trafficking of a child', category: 'Human Trafficking' },
+ { statute: '18 U.S.C. Â§ 1591', description: 'Sex trafficking of a child', category: 'Human Trafficking' },
  { statute: 'Identity Theft', description: 'Creating fraudulent identification documents', category: 'Fraud' },
  { statute: 'Wire Fraud', description: 'Financial fraud schemes', category: 'Financial Crimes' },
  { statute: 'Stalking', description: 'Stalking political opponent', category: 'Harassment' },
@@ -791,31 +550,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'joseph-mifsud': {
  name: 'Joseph Mifsud',
  title: 'Maltese Professor',
@@ -837,12 +571,12 @@ const profiles: Record<string, IndividualProfile> = {
  'Whereabouts unknown since 2017',
  ],
  charges: [
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Reportedly gave false statements to FBI investigators about his Russian contacts and knowledge', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 371', description: 'Potential Conspiracy; Role in Russian intelligence operation to contact Trump campaign advisors', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 951', description: 'Potential Foreign Agent Activities; Possible agent of Russian government contacting US campaign officials', category: 'Potential National Security' },
- { statute: '52 U.S.C. § 30121', description: 'Foreign National Election Interference; Offered foreign intelligence ("dirt") to US presidential campaign', category: 'Potential Election' },
- { statute: '22 U.S.C. § 611 (FARA)', description: 'Potential Unregistered Foreign Agent; Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1503', description: 'Potential Obstruction; Disappeared before Mueller investigation could secure testimony', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 1001', description: 'Potential False Statements; Reportedly gave false statements to FBI investigators about his Russian contacts and knowledge', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Potential Conspiracy; Role in Russian intelligence operation to contact Trump campaign advisors', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 951', description: 'Potential Foreign Agent Activities; Possible agent of Russian government contacting US campaign officials', category: 'Potential National Security' },
+ { statute: '52 U.S.C. Â§ 30121', description: 'Foreign National Election Interference; Offered foreign intelligence ("dirt") to US presidential campaign', category: 'Potential Election' },
+ { statute: '22 U.S.C. Â§ 611 (FARA)', description: 'Potential Unregistered Foreign Agent; Never registered while acting on behalf of foreign interests in US', category: 'Potential Federal' },
+ { statute: '18 U.S.C. Â§ 1503', description: 'Potential Obstruction; Disappeared before Mueller investigation could secure testimony', category: 'Potential Federal' },
  { statute: 'Mueller Report Referral', description: 'Mueller Report documented his lies and suspicious disappearance; potential criminal referral', category: 'Documented' },
  ],
  relatedInvestigations: [
@@ -863,32 +597,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Ivan Timofeev', relationship: 'Russian contact he introduced', href: '/entities/individuals/ivan-timofeev' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'john-bolton': {
@@ -991,12 +699,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'jacob-chansley': {
  name: 'Jacob Anthony Chansley',
  title: 'January 6 Defendant',
@@ -1019,7 +721,7 @@ const profiles: Record<string, IndividualProfile> = {
  'Sentenced to 41 months in prison',
  ],
  charges: [
- { statute: '18 U.S.C. § 1512(c)(2)', description: 'Obstruction of an Official Proceeding', category: 'Obstruction' },
+ { statute: '18 U.S.C. Â§ 1512(c)(2)', description: 'Obstruction of an Official Proceeding', category: 'Obstruction' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1095,12 +797,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'jair-bolsonaro': {
  name: 'Jair Bolsonaro',
  title: 'Profile Under Review',
@@ -1126,12 +822,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'johnny-mcentee': {
  name: 'Johnny Mcentee',
  title: 'Profile Under Review',
@@ -1155,12 +845,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
 
 
  'jeff-mcconney': {
@@ -1189,11 +873,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'joe-tacopina': {
  name: 'Joe Tacopina',
  title: 'Profile Under Review',
@@ -1218,11 +897,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'jeffrey-rosen': {
@@ -1399,11 +1073,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jason-miller': {
  name: 'Jason Miller',
  title: 'Profile Under Review',
@@ -1427,12 +1096,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
 
 
  'joe-biden': {
@@ -1580,9 +1243,9 @@ const profiles: Record<string, IndividualProfile> = {
  'Called for violence before January 6',
  ],
  charges: [
- { statute: '18 U.S.C. § 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. § 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
- { statute: '18 U.S.C. § 1361', description: 'Destruction of government property (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 2384', description: 'Seditious conspiracy (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 1512(k)', description: 'Conspiracy to obstruct official proceeding (convicted)', category: 'Federal' },
+ { statute: '18 U.S.C. Â§ 1361', description: 'Destruction of government property (convicted)', category: 'Federal' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -1624,11 +1287,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jessica-watkins': {
  name: 'Jessica Watkins',
  title: 'Profile Under Review',
@@ -1652,12 +1310,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
 
 
  'james-mattis': {
@@ -1686,11 +1338,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jason-kessler': {
  name: 'Jason Kessler',
  title: 'Profile Under Review',
@@ -1714,12 +1361,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
 
 
  'john-roberts': {
@@ -1772,12 +1413,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'james-alex-fields': {
  name: 'James Alex Fields',
  title: 'Profile Under Review',
@@ -1804,12 +1439,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'janet-yellen': {
  name: 'Janet Yellen',
  title: 'Profile Under Review',
@@ -1834,12 +1463,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
 
 
  'john-ratcliffe': {
@@ -1883,12 +1506,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'jeb-bush': {
  name: 'John Ellis"Jeb"Bush',
  title: 'Former Florida Governor',
@@ -1918,8 +1535,8 @@ const profiles: Record<string, IndividualProfile> = {
  '2016 CAMPAIGN: Spent $130+ million, finished with 3 delegates,"please clap"moment',
  ],
  charges: [
- { statute: '52 U.S.C. § 20507', description: 'Voter Roll Purge Irregularities; Potentially discriminatory list maintenance', category: 'Election Crimes' },
- { statute: '52 U.S.C. § 10307', description: 'Voting Rights Act; Disproportionate impact on minority voters', category: 'Civil Rights' },
+ { statute: '52 U.S.C. Â§ 20507', description: 'Voter Roll Purge Irregularities; Potentially discriminatory list maintenance', category: 'Election Crimes' },
+ { statute: '52 U.S.C. Â§ 10307', description: 'Voting Rights Act; Disproportionate impact on minority voters', category: 'Civil Rights' },
  { statute: 'Florida Ethics Laws', description: 'Conflict of Interest; Overseeing election benefiting brother', category: 'State' },
  ],
  relatedInvestigations: [
@@ -1963,31 +1580,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Political rival,"low energy"feud', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'john-poindexter': {
@@ -2038,11 +1630,11 @@ const profiles: Record<string, IndividualProfile> = {
  { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Systematic persecution of civil rights leaders and political activists', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 7(1)(a)', description: 'Crimes Against Humanity; Murder: Facilitated assassinations of Black Panther leaders', category: 'International Criminal Law' },
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity; Other Inhumane Acts: Psychological torture through surveillance, blackmail, and harassment', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 241', description: 'Conspiracy Against Rights: COINTELPRO systematically violated First Amendment rights', category: 'Civil Rights Violations' },
- { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights Under Color of Law: Official capacity used to violate constitutional rights', category: 'Civil Rights Violations' },
- { statute: '18 U.S.C. § 2511', description: 'Illegal Wiretapping: Warrantless surveillance of thousands of Americans', category: 'Surveillance Crimes' },
- { statute: '18 U.S.C. § 1111', description: 'Murder: Accessory to assassination of Fred Hampton and others', category: 'Violent Crimes' },
- { statute: '18 U.S.C. § 873', description: 'Blackmail: Used secret files to blackmail politicians and activists', category: 'Coercion' },
+ { statute: '18 U.S.C. Â§ 241', description: 'Conspiracy Against Rights: COINTELPRO systematically violated First Amendment rights', category: 'Civil Rights Violations' },
+ { statute: '18 U.S.C. Â§ 242', description: 'Deprivation of Rights Under Color of Law: Official capacity used to violate constitutional rights', category: 'Civil Rights Violations' },
+ { statute: '18 U.S.C. Â§ 2511', description: 'Illegal Wiretapping: Warrantless surveillance of thousands of Americans', category: 'Surveillance Crimes' },
+ { statute: '18 U.S.C. Â§ 1111', description: 'Murder: Accessory to assassination of Fred Hampton and others', category: 'Violent Crimes' },
+ { statute: '18 U.S.C. Â§ 873', description: 'Blackmail: Used secret files to blackmail politicians and activists', category: 'Coercion' },
  ],
  relatedInvestigations: [
  { title: 'COINTELPRO', slug: 'cointelpro', severity: 'critical' },
@@ -2077,31 +1669,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'john-ehrlichman': {
  name: 'John Ehrlichman',
  title: 'Nixon Domestic Policy Advisor',
@@ -2123,10 +1690,10 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [
  { statute: 'Rome Statute Article 7(1)(h)', description: 'Crimes Against Humanity; Persecution: Designed policy to systematically target Black Americans and political opponents', category: 'International Criminal Law' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy: Conspiracy to commit various offenses; convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice: Watergate cover-up activities; convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 1621', description: 'Perjury: False statements under oath; convicted', category: 'Federal Crimes' },
- { statute: '18 U.S.C. § 241', description: 'Conspiracy Against Rights: Drug war designed to violate civil rights of targeted groups', category: 'Civil Rights Violations' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy: Conspiracy to commit various offenses; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 1503', description: 'Obstruction of Justice: Watergate cover-up activities; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 1621', description: 'Perjury: False statements under oath; convicted', category: 'Federal Crimes' },
+ { statute: '18 U.S.C. Â§ 241', description: 'Conspiracy Against Rights: Drug war designed to violate civil rights of targeted groups', category: 'Civil Rights Violations' },
  ],
  relatedInvestigations: [
  { title: 'War on Drugs', slug: 'war-on-drugs', severity: 'critical' },
@@ -2160,31 +1727,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'james-clapper': {
  name: 'James Clapper',
  title: 'Profile Under Review',
@@ -2212,18 +1754,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
  'john-yoo': {
  name: 'John Yoo',
  title: 'Bush DOJ Official / Torture Memo Author',
@@ -2246,7 +1776,7 @@ const profiles: Record<string, IndividualProfile> = {
  charges: [
  { statute: 'Geneva Conventions: Common Article 3', description: 'Authored legal framework enabling torture of detainees', category: 'War Crimes' },
  { statute: 'Convention Against Torture', description: 'Provided legal cover for prohibited torture techniques', category: 'International Crime' },
- { statute: '18 U.S.C. § 2340A', description: 'Conspiracy to commit torture', category: 'Federal Crime' },
+ { statute: '18 U.S.C. Â§ 2340A', description: 'Conspiracy to commit torture', category: 'Federal Crime' },
  ],
  relatedInvestigations: [
  { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
@@ -2269,31 +1799,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Alberto Gonzales', relationship: 'White House Counsel', href: '/entities/individuals/alberto-gonzales' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'joe-wilson': {
@@ -2334,77 +1839,6 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Joseph Wilson -"What I Didn\'t Find in Africa"(NYT)', url: 'https://www.nytimes.com/', date: '2003' },
  ],
  },
- 'jeff-bezos': {
- name: 'Jeff Bezos',
- title: 'Amazon Founder / Washington Post Owner',
- role: 'Richest man who owns influential newspaper while Amazon has massive government contracts',
- riskLevel: 'high',
- description: 'Jeff Bezos is the founder of Amazon and owner of The Washington Post since 2013. His dual role creates conflicts of interest: Amazon has over $10 billion in federal contracts including CIA cloud computing, while the Post covers the government. Critics argue the Post\'s coverage is influenced by Amazon\'s business interests.',
- birthDate: 'January 12, 1964',
- birthPlace: 'Albuquerque, New Mexico',
- netWorth: '$200+ billion',
- education: ['Princeton University'],
- affiliations: [
- { name: 'Amazon', role: 'Founder, Executive Chairman', type: 'corporation' },
- { name: 'Washington Post', role: 'Owner', type: 'corporation' },
- { name: 'Blue Origin', role: 'Founder', type: 'corporation' },
- ],
- controversies: [
- 'CONFLICT OF INTEREST: Owns newspaper while Amazon has billions in government contracts',
- 'CIA CLOUD: Amazon Web Services runs CIA cloud computing infrastructure',
- 'LABOR EXPLOITATION: Amazon\'s treatment of warehouse workers, union busting',
- 'TAX AVOIDANCE: Amazon paid no federal taxes in 2017 and 2018',
- 'MONOPOLY POWER: Accused of anticompetitive practices',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Big Tech Monopoly', slug: 'big-tech-monopoly', severity: 'high' },
- { title: 'Operation Mockingbird', slug: 'operation-mockingbird', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 12, 1964', event: 'Born in Albuquerque, New Mexico' },
- { date: '1994', event: 'Founds Amazon' },
- { date: 'August 5, 2013', event: 'Purchases Washington Post for $250 million' },
- { date: '2013', event: 'Amazon wins $600 million CIA cloud contract' },
- { date: '2021', event: 'Steps down as Amazon CEO' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Amazon federal contracts database', url: 'https://scholar.google.com/scholar?q=Amazon%20federal%20contracts%20database', date: 'Various' }, ],
- aliases: [],
- knownAssociates: [
- { name: 'Elon Musk', relationship: 'Tech billionaire rival and frequent public antagonist', href: '/entities/individuals/elon-musk' },
- { name: 'Donald Trump', relationship: 'Targeted by Trump over Washington Post coverage; Amazon faced antitrust pressure', href: '/entities/individuals/donald-trump' },
- { name: 'Mark Zuckerberg', relationship: 'Fellow tech CEO facing congressional scrutiny', href: '/entities/individuals/mark-zuckerberg' },
- ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'jorge-videla': {
  name: 'Jorge Rafael Videla',
  title: 'Argentine Dictator (1976-1981)',
@@ -2435,7 +1869,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  timeline: [
  { date: 'August 2, 1925', event: 'Born in Mercedes, Argentina' },
- { date: 'March 24, 1976', event: 'Leads coup against Isabel Perón' },
+ { date: 'March 24, 1976', event: 'Leads coup against Isabel PerÃ³n' },
  { date: '1976-1981', event: 'Rules as head of junta' },
  { date: '1985', event: 'Convicted of human rights crimes' },
  { date: '2010', event: 'Convicted again after amnesty overturned' },
@@ -2449,32 +1883,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Henry Kissinger', relationship: 'U.S. support for junta', href: '/entities/individuals/henry-kissinger' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'jay-bybee': {
@@ -2550,11 +1958,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'john-mitchell': {
  name: 'John Mitchell',
  title: 'U.S. Attorney General (1969-1972)',
@@ -2574,9 +1977,9 @@ const profiles: Record<string, IndividualProfile> = {
  'IMPRISONED: First AG to go to prison',
  ],
  charges: [
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of Justice', category: 'Federal Crime' },
- { statute: '18 U.S.C. § 1623', description: 'Perjury', category: 'Federal Crime' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy', category: 'Federal Crime' },
+ { statute: '18 U.S.C. Â§ 1503', description: 'Obstruction of Justice', category: 'Federal Crime' },
+ { statute: '18 U.S.C. Â§ 1623', description: 'Perjury', category: 'Federal Crime' },
+ { statute: '18 U.S.C. Â§ 371', description: 'Conspiracy', category: 'Federal Crime' },
  ],
  relatedInvestigations: [
  { title: 'Watergate', slug: 'watergate', severity: 'critical' },
@@ -2597,11 +2000,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Richard Nixon', relationship: 'President, lifelong friend', href: '/entities/individuals/richard-nixon' },
  ],
  },
-
-
-
-
-
 
 
  'john-foster-dulles': {
@@ -2685,11 +2083,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'james-murdoch': {
  name: 'James Rupert Murdoch',
  title: 'Former CEO of 21st Century Fox',
@@ -2743,31 +2136,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Rebekah Brooks', relationship: 'News UK CEO, phone hacking scandal', href: '/entities/individuals/rebekah-brooks' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'john-f-kennedy': {
@@ -2850,12 +2218,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'james-morrison': {
  name: 'James Morrison',
  title: 'Industry Executive',
@@ -2888,12 +2250,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Ali Bahrami', relationship: 'FAA safety official involved in 737 MAX certification process', href: '/entities/individuals/ali-bahrami' },
  ],
  },
-
-
-
-
-
-
 
 
  'jeffrey-skilling': {
@@ -2937,39 +2293,6 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Jeffrey Skilling', url: 'https://en.wikipedia.org/wiki/Jeffrey_Skilling' }, { title: 'Bloomberg: Jeffrey Skilling', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
  },
- 'john-stumpf': {
- name: 'John Stumpf',
- title: 'Disgraced Banking Executive',
- role: 'Former CEO of Wells Fargo',
- riskLevel: 'high',
- description: 'John Stumpf was CEO of Wells Fargo during the fake accounts scandal where employees opened 3.5 million accounts without customer consent. He resigned in disgrace and was banned from the banking industry.',
- birthDate: 'September 15, 1953',
- birthPlace: 'Pierz, Minnesota',
- education: ['St. Cloud State University', 'University of Minnesota (MBA)'],
- affiliations: [
- { name: 'Wells Fargo', role: 'CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Carrie Tolstedt', relationship: 'Division head (fined)' },
- ],
- controversies: [
- 'FAKE ACCOUNTS: 3.5 million accounts opened without consent',
- 'CULTURE: Created impossible sales quotas',
- 'SCAPEGOATING: 5,300 employees fired while executives kept jobs',
- 'CONGRESSIONAL GRILLING:"You should resign," Elizabeth Warren',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Wells Fargo Fraud', slug: 'wells-fargo-fraud', severity: 'high' },
- ],
- timeline: [
- { date: 'June 2007', event: 'Becomes CEO' },
- { date: 'September 2016', event: 'Testifies before Congress' },
- { date: 'October 2016', event: 'Resigns as CEO' },
- { date: 'January 2020', event: 'Banned from banking, $17.5M fine' },
- ],
- sources: [{ title: 'Wikipedia: John Stumpf', url: 'https://en.wikipedia.org/wiki/John_Stumpf' }, { title: 'Bloomberg: John Stumpf', url: 'https://www.bloomberg.com/' }],
- },
  'jane-garvey': {
  name: 'Jane Garvey',
  title: 'Profile Under Review',
@@ -2993,11 +2316,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'joe-jacobsen': {
@@ -3024,11 +2342,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'john-barnett': {
@@ -3119,11 +2432,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jennifer-homendy': {
  name: 'Jennifer Homendy',
  title: 'Aviation Safety Official',
@@ -3183,11 +2491,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'john-hamilton': {
  name: 'John Hamilton',
  title: 'Profile Under Review',
@@ -3212,11 +2515,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'jon-ostrower': {
@@ -3268,11 +2566,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'jay-inslee': {
@@ -3466,11 +2759,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'joseph-hazelwood': {
  name: 'Joseph Hazelwood',
  title: 'Profile Under Review',
@@ -3495,11 +2783,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'jonathan-mattingly': {
@@ -3528,11 +2811,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jeronimo-yanez': {
  name: 'Jeronimo Yanez',
  title: 'Profile Under Review',
@@ -3557,11 +2835,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'james-johnston': {
@@ -3589,12 +2862,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'jordan-belfort': {
  name: 'Jordan Belfort',
  title: 'Convicted Stock Fraudster',
@@ -3615,8 +2882,8 @@ const profiles: Record<string, IndividualProfile> = {
  'MONEY LAUNDERING: Hid assets in Switzerland',
  ],
  charges: [
- { statute: '15 U.S.C. � 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1956', description: 'Money Laundering', category: 'CONVICTED' },
+ { statute: '15 U.S.C. ï¿½ 78j(b)', description: 'Securities Fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 1956', description: 'Money Laundering', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Penny Stock Fraud', slug: 'penny-stock-fraud', severity: 'high' },
@@ -3656,9 +2923,9 @@ const profiles: Record<string, IndividualProfile> = {
  'CONVICTED: One of only pharma execs jailed',
  ],
  charges: [
- { statute: '18 U.S.C. � 1962', description: 'RICO, Racketeering conspiracy', category: 'CONVICTED' },
- { statute: '42 U.S.C. � 1320a-7b', description: 'Anti-Kickback Statute violations', category: 'CONVICTED' },
- { statute: '18 U.S.C. � 1343', description: 'Wire Fraud', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 1962', description: 'RICO, Racketeering conspiracy', category: 'CONVICTED' },
+ { statute: '42 U.S.C. ï¿½ 1320a-7b', description: 'Anti-Kickback Statute violations', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 1343', description: 'Wire Fraud', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Insys Opioid Scandal', slug: 'insys-opioid-scandal', severity: 'critical' },
@@ -3700,7 +2967,7 @@ const profiles: Record<string, IndividualProfile> = {
  'AVOIDED PROSECUTION: No personal criminal charges',
  ],
  charges: [
- { statute: '21 U.S.C. � 823', description: 'Controlled Substances Act, Distribution violations', category: 'CORPORATE SETTLEMENT' },
+ { statute: '21 U.S.C. ï¿½ 823', description: 'Controlled Substances Act, Distribution violations', category: 'CORPORATE SETTLEMENT' },
  { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity, Mass death through negligence', category: 'INTERNATIONAL' },
  ],
  relatedInvestigations: [
@@ -3745,12 +3012,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
 
 
  'john-ashcroft': {
@@ -3842,11 +3103,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'james-monsees': {
@@ -3947,17 +3203,12 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'joe-arpaio': {
  name: 'Joe Arpaio',
  title: 'Former Maricopa County Sheriff',
  role: 'Sheriff, Racial Profiling, Contempt CONVICTED, Pardoned',
  riskLevel: 'critical',
- description: 'Joe Arpaio was Maricopa County Sheriff for 24 years, running jails he called "concentration camps "with outdoor tent prisons in 120�F heat. He was convicted of criminal contempt for defying court orders to stop racial profiling but was pardoned by Trump before sentencing.',
+ description: 'Joe Arpaio was Maricopa County Sheriff for 24 years, running jails he called "concentration camps "with outdoor tent prisons in 120ï¿½F heat. He was convicted of criminal contempt for defying court orders to stop racial profiling but was pardoned by Trump before sentencing.',
  birthDate: 'June 14, 1932',
  birthPlace: 'Springfield, Massachusetts',
  education: ['U.S. Army', 'DEA'],
@@ -3968,7 +3219,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Pardoned by Trump', href: '/entities/individuals/donald-trump' },
  ],
  controversies: [
- 'TENT CITY: Outdoor jail in 120�F Arizona heat',
+ 'TENT CITY: Outdoor jail in 120ï¿½F Arizona heat',
  '"CONCENTRATION CAMPS": His own description',
  'RACIAL PROFILING: Systematic Latino targeting',
  'CONTEMPT CONVICTION: Defied court orders',
@@ -3976,7 +3227,7 @@ const profiles: Record<string, IndividualProfile> = {
  'DEATHS IN CUSTODY: Dozens died in his jails',
  ],
  charges: [
- { statute: '18 U.S.C. � 401', description: 'Criminal contempt of court', category: 'CONVICTED, PARDONED' },
+ { statute: '18 U.S.C. ï¿½ 401', description: 'Criminal contempt of court', category: 'CONVICTED, PARDONED' },
  { statute: 'Civil Rights Violations', description: 'DOJ found pattern of violations', category: 'DOJ FINDING' },
  ],
  relatedInvestigations: [
@@ -4016,12 +3267,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
 
 
  'jes-staley': {
@@ -4096,8 +3341,8 @@ const profiles: Record<string, IndividualProfile> = {
  'PENSION KEPT: Collected pension until death',
  ],
  charges: [
- { statute: '18 U.S.C. � 1621', description: 'Perjury', category: 'CONVICTED, 4.5 YEARS' },
- { statute: '18 U.S.C. � 1512', description: 'Obstruction', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 1621', description: 'Perjury', category: 'CONVICTED, 4.5 YEARS' },
+ { statute: '18 U.S.C. ï¿½ 1512', description: 'Obstruction', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Chicago Police Torture', slug: 'chicago-police-torture', severity: 'critical' },
@@ -4143,11 +3388,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'julian-khater': {
  name: 'Julian Khater',
  title: 'Convicted Capitol Assaulter',
@@ -4170,8 +3410,8 @@ const profiles: Record<string, IndividualProfile> = {
  'CHEMICAL ASSAULT: Deployed bear spray at police',
  ],
  charges: [
- { statute: '18 U.S.C. � 111', description: 'Assaulting officers with dangerous weapon', category: 'CONVICTED, 80 MONTHS' },
- { statute: '18 U.S.C. � 231', description: 'Civil disorder', category: 'CONVICTED' },
+ { statute: '18 U.S.C. ï¿½ 111', description: 'Assaulting officers with dangerous weapon', category: 'CONVICTED, 80 MONTHS' },
+ { statute: '18 U.S.C. ï¿½ 231', description: 'Civil disorder', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
@@ -4210,12 +3450,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'james-holmes': {
  name: 'James Holmes',
  title: 'Convicted Mass Murderer',
@@ -4236,8 +3470,8 @@ const profiles: Record<string, IndividualProfile> = {
  'MENTAL ILLNESS CLAIMS: Debated at trial',
  ],
  charges: [
- { statute: 'Colorado Rev. Stat. � 18-3-102', description: 'First-degree murder (12 counts)', category: 'CONVICTED, 12 LIFE SENTENCES' },
- { statute: 'Colorado Rev. Stat. � 18-3-102', description: 'Attempted murder (70 counts)', category: 'CONVICTED' },
+ { statute: 'Colorado Rev. Stat. ï¿½ 18-3-102', description: 'First-degree murder (12 counts)', category: 'CONVICTED, 12 LIFE SENTENCES' },
+ { statute: 'Colorado Rev. Stat. ï¿½ 18-3-102', description: 'Attempted murder (70 counts)', category: 'CONVICTED' },
  ],
  relatedInvestigations: [
  { title: 'Aurora Theater Shooting', slug: 'aurora-shooting', severity: 'critical' },
@@ -4272,7 +3506,7 @@ const profiles: Record<string, IndividualProfile> = {
  'FAILED TO SECURE: Gun was accessible',
  ],
  charges: [
- { statute: 'Michigan Comp. Laws � 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
+ { statute: 'Michigan Comp. Laws ï¿½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
  ],
  relatedInvestigations: [
  { title: 'Oxford School Shooting', slug: 'oxford-shooting', severity: 'critical' },
@@ -4309,7 +3543,7 @@ const profiles: Record<string, IndividualProfile> = {
  'SCHOOL MEETING: Hours before shooting',
  ],
  charges: [
- { statute: 'Michigan Comp. Laws � 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
+ { statute: 'Michigan Comp. Laws ï¿½ 750.321', description: 'Involuntary manslaughter (4 counts)', category: 'CONVICTED, 10-15 YEARS' },
  ],
  relatedInvestigations: [
  { title: 'Oxford School Shooting', slug: 'oxford-shooting', severity: 'critical' },
@@ -4353,11 +3587,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jack-dorsey': {
  name: 'Jack Dorsey',
  title: 'Profile Under Review',
@@ -4382,12 +3611,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
 
 
  'james-comer': {
@@ -4602,11 +3825,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jd-vance': {
  name: 'Jd Vance',
  title: 'Profile Under Review',
@@ -4630,12 +3848,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
 
 
  'joe-kent': {
@@ -4664,11 +3876,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'justin-smith': {
  name: 'Justin Smith',
  role: 'Former Memphis Police Officer',
@@ -4689,8 +3896,8 @@ const profiles: Record<string, IndividualProfile> = {
  'FEDERAL CONVICTION: Civil rights violations',
  ],
  charges: [
- { statute: '18 U.S.C. � 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
- { statute: 'Tennessee Code � 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
+ { statute: '18 U.S.C. ï¿½ 242', description: 'Deprivation of rights under color of law (resulting in death)', category: 'Civil Rights' },
+ { statute: 'Tennessee Code ï¿½ 39-13-202', description: 'Second-degree murder', category: 'Homicide' },
  ],
  relatedInvestigations: [
  { title: 'Police Brutality', slug: 'police-brutality-crisis', severity: 'critical' },
@@ -4771,11 +3978,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'j-parnell-thomas': {
@@ -4935,18 +4137,12 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'jacobo-arbenz': {
- name: 'Jacobo Árbenz',
+ name: 'Jacobo Ãrbenz',
  title: 'Democratically elected President of Guatemala (1951-1954) overthrown by CIA for land reform program',
  role: 'Democratically elected President of Guatemala (1951-1954) overthrown by CIA for land reform program',
  riskLevel: 'high',
- description: 'Jacobo Árbenz. Profile pending review.',
+ description: 'Jacobo Ãrbenz. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Central Intelligence Agency', role: 'CIA Official', type: 'agency' },
@@ -4966,7 +4162,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Jacobo Árbenz', url: 'https://en.wikipedia.org/wiki/Jacobo_%C3%81rbenz', date: '' },
+ { title: 'Wikipedia: Jacobo Ãrbenz', url: 'https://en.wikipedia.org/wiki/Jacobo_%C3%81rbenz', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -5006,12 +4202,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Eric Holder', relationship: 'AG during Fast and Furious operation linked to agents\' deaths', href: '/entities/individuals/eric-holder' },
  ],
  },
-
-
-
-
-
-
 
 
  'james-angleton': {
@@ -5080,11 +4270,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'james-black': {
  name: 'James Black',
  title: 'Exxon senior scientist who warned management in 1977 that CO2 from fossil fuels was warming the planet',
@@ -5148,11 +4333,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'james-bosbous': {
  name: 'James Bosbous',
  title: 'Federal judge who ordered environmental review but allowed pipeline to continue operating',
@@ -5182,11 +4362,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Thomas Beasley', relationship: 'CCA private prison colleague', href: '/entities/individuals/thomas-beasley' },
  ],
  },
-
-
-
-
-
 
 
  'james-craig': {
@@ -5220,11 +4395,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'james-davis-cpd': {
  name: 'James Davis',
  title: 'Sergeant who led the tactical team in the raid; fired shots into Hampton\'s bedroom',
@@ -5254,11 +4424,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Edward Hanrahan', relationship: 'Fellow Chicago law enforcement figure', href: '/entities/individuals/edward-hanrahan' },
  ],
  },
-
-
-
-
-
 
 
  'james-forsyth': {
@@ -5447,11 +4612,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jan-brewer': {
  name: 'Jan Brewer',
  title: 'Arizona Governor who signed ALEC-drafted SB 1070 immigration law',
@@ -5513,11 +4673,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Dave Archambault II', relationship: 'Standing Rock Sioux chairman Hasselman represented', href: '/entities/individuals/dave-archambault-ii' },
  ],
  },
-
-
-
-
-
 
 
  'janet-reno': {
@@ -5614,11 +4769,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jay-carney': {
  name: 'Jay Carney',
  title: 'Amazon SVP of Global Corporate Affairs; former Obama press secretary; denied workers urinate in bottles',
@@ -5652,11 +4802,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jay-dickey': {
  name: 'Jay Dickey',
  title: 'Republican congressman who authored 1996 Dickey Amendment banning CDC gun violence research; later expressed regret',
@@ -5686,11 +4831,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Fred Guttenberg', relationship: 'Dickey Amendment blocked gun research that families like Guttenberg\'s later fought to reverse', href: '/entities/individuals/fred-guttenberg' },
  ],
  },
-
-
-
-
-
 
 
  'jba-robertson': {
@@ -5725,11 +4865,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jc-robert': {
  name: 'J.C. Robert',
  title: 'Ethyl Corporation executive who promoted leaded gasoline safety claims',
@@ -5759,12 +4894,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Thomas Parran', relationship: 'Fellow public health official during unethical research era', href: '/entities/individuals/thomas-parran' },
  ],
  },
-
-
-
-
-
-
 
 
  'jean-bertrand-aristide': {
@@ -5925,21 +5054,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'jeffrey-sterling': {
  name: 'Jeffrey Sterling',
  title: 'Former CIA officer convicted of giving classified information to journalist James Risen about a botched Iran operation',
@@ -6037,11 +5151,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jennifer-bates': {
  name: 'Jennifer Bates',
  title: 'Amazon worker and key organizer of the Bessemer, Alabama, union drive',
@@ -6104,11 +5213,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Tom Hayes', relationship: 'Fellow LIBOR manipulation figure', href: '/entities/individuals/tom-hayes' },
  ],
  },
-
-
-
-
-
 
 
  'jerry-ensminger': {
@@ -6206,12 +5310,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'jesse-gagliano': {
  name: 'Jesse Gagliano',
  title: 'Halliburton cementing engineer who warned BP about insufficient centralizers',
@@ -6242,11 +5340,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Tony Hayward', relationship: 'BP CEO during Deepwater Horizon disaster', href: '/entities/individuals/tony-hayward' },
  ],
  },
-
-
-
-
-
 
 
  'jesse-jackson': {
@@ -6311,12 +5404,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'jesse-washington': {
  name: 'Jesse Washington',
  title: '17-year-old lynched in Waco, Texas in 1916 before crowd of 15,000: known as Waco Horror',
@@ -6345,11 +5432,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Ida B. Wells', relationship: 'Wells\' anti-lynching work documented cases like Washington\'s', href: '/entities/individuals/ida-b-wells' },
  ],
  },
-
-
-
-
-
 
 
  'jim-garrison': {
@@ -6507,11 +5589,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'john-africa': {
  name: 'John Africa (Vincent Leaphart)',
  title: 'Founder of MOVE organization; killed in the bombing',
@@ -6610,33 +5687,47 @@ const profiles: Record<string, IndividualProfile> = {
 
  'john-charles-cutler': {
  name: 'Dr. John Charles Cutler',
- title: 'Lead researcher who directed the Guatemala experiments and later participated in the Tuskegee syphilis study',
- role: 'Lead researcher who directed the Guatemala experiments and later participated in the Tuskegee syphilis study',
- riskLevel: 'high',
- description: 'Dr. John Charles Cutler. Profile pending review.',
- education: [],
+ title: 'U.S. Public Health Service Physician and Serial Human Experimenter',
+ role: 'Lead researcher who directed the Guatemala syphilis experiments, participated in the Tuskegee syphilis study, and conducted the Terre Haute prison experiments',
+ riskLevel: 'critical' as const,
+ description: 'John Charles Cutler (1915-2003) was a United States Public Health Service physician who directed some of the most egregious human experimentation programs in American history. From 1946 to 1948, Cutler led the Guatemala syphilis experiments in which U.S. government researchers deliberately infected at least 1,308 Guatemalan soldiers, prisoners, psychiatric patients, and sex workers with syphilis, gonorrhea, and chancroid without their knowledge or consent; at least 83 subjects died. Cutler had previously conducted similar experiments at Terre Haute federal prison in Indiana in 1943-1944, deliberately infecting inmates with gonorrhea. He later served as an advisor to the Tuskegee syphilis study, in which treatment was withheld from 399 Black men with syphilis for 40 years. Cutler remained unapologetic throughout his life, defending both the Guatemala and Tuskegee experiments in interviews. He rose to become Assistant Surgeon General of the United States and a professor at the University of Pittsburgh, suffering no legal consequences for his actions. His Guatemala experiments were only discovered in 2010 when historian Susan Reverby found his archived papers.',
+ education: ['Case Western Reserve University School of Medicine (M.D., 1941)', 'University of Pittsburgh Graduate School of Public Health (M.P.H.)'],
  affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ { name: 'United States Public Health Service', role: 'Physician and researcher (1942-1970s); led Guatemala syphilis experiments, Terre Haute prison experiments, and advised on Tuskegee study', type: 'agency' },
+ { name: 'Pan American Health Organization', role: 'Worked in venereal disease programs across Latin America, providing cover for experimentation', type: 'organization' },
+ { name: 'University of Pittsburgh', role: 'Professor of International Health, Graduate School of Public Health (1968-2003); appointed dean despite experimental history', type: 'organization' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
+ 'Directed the Guatemala syphilis experiments (1946-1948) in which at least 1,308 people were deliberately infected with STDs without consent; at least 83 died',
+ 'Used psychiatric patients, prisoners, soldiers, and sex workers as unwitting test subjects; had prostitutes infected with venereal diseases and then introduced to soldiers',
+ 'Conducted the Terre Haute prison experiments (1943-1944) deliberately infecting federal inmates with gonorrhea',
+ 'Served as advisor to the Tuskegee syphilis study, supporting the withholding of penicillin from 399 Black men for decades',
+ 'Remained unapologetic to his death in 2003, defending the Guatemala and Tuskegee experiments in recorded interviews',
+ 'Rose to Assistant Surgeon General despite his documented history of non-consensual human experimentation',
+ 'His experiments were hidden for over 60 years until historian Susan Reverby discovered his archived papers in 2010',
  ],
- charges: [],
  relatedInvestigations: [
- { title: 'Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'high' },
+ { title: 'The Guatemala Syphilis Experiments', slug: 'guatemala-syphilis-experiments', severity: 'critical' },
+ { title: 'The Tuskegee Syphilis Experiment', slug: 'tuskegee-syphilis-experiment', severity: 'critical' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Lead researcher who directed the Guatemala experiments and later participated in the Tuskegee syphil' },
+ { date: '1915-06-29', event: 'Born in Cleveland, Ohio' },
+ { date: '1943', event: 'Begins deliberately infecting inmates with gonorrhea at Terre Haute Federal Penitentiary in Indiana' },
+ { date: '1946-10', event: 'Travels to Guatemala to begin deliberately infecting subjects with syphilis, gonorrhea, and chancroid through PHS-funded experiments' },
+ { date: '1948', event: 'Guatemala experiments end after approximately 1,308 people have been infected; at least 83 subjects die' },
+ { date: '1960s', event: 'Serves as advisor to the ongoing Tuskegee syphilis study, supporting continued non-treatment of participants' },
+ { date: '1968', event: 'Appointed professor at the University of Pittsburgh Graduate School of Public Health' },
+ { date: '2003-02-09', event: 'Dies at age 87 in Pittsburgh; never faced any legal consequences for the Guatemala, Terre Haute, or Tuskegee experiments' },
+ { date: '2010', event: 'Historian Susan Reverby discovers Cutler archived papers documenting the Guatemala experiments; triggers presidential apology' },
  ],
- socialMedia: [],
  sources: [
- { title: 'Wikipedia: Dr. John Charles Cutler', url: 'https://en.wikipedia.org/wiki/John_Charles_Cutler', date: '' },
+ { title: 'Presidential Commission for the Study of Bioethical Issues: Ethically Impossible - STD Research in Guatemala from 1946 to 1948', url: 'https://bioethics.gov/node/654', date: '2011' },
+ { title: 'Reverby, S.M. - "Normal Exposure" and Inoculation Syphilis: A PHS "Tuskegee" Doctor in Guatemala', date: '2011' },
  ],
- aliases: [],
  knownAssociates: [
- { name: 'Thomas Parran', relationship: 'Surgeon General who oversaw PHS when Cutler ran Guatemala experiments', href: '/entities/individuals/thomas-parran' },
- { name: 'Eunice Rivers', relationship: 'Fellow PHS figure connected to unethical medical research', href: '/entities/individuals/eunice-rivers' },
- { name: 'Susan Reverby', relationship: 'Historian who discovered Cutler\'s Guatemala experiments', href: '/entities/individuals/susan-reverby' },
+ { name: 'Thomas Parran', relationship: 'U.S. Surgeon General who oversaw PHS when Cutler ran the Guatemala experiments; authorized the research program', href: '/entities/individuals/thomas-parran' },
+ { name: 'Eunice Rivers', relationship: 'Public health nurse who helped maintain the Tuskegee study by building trust with participants while treatment was withheld', href: '/entities/individuals/eunice-rivers' },
+ { name: 'Susan Reverby', relationship: 'Wellesley College historian who discovered Cutler archived papers in 2010, exposing the Guatemala experiments to the world', href: '/entities/individuals/susan-reverby' },
  ],
  },
 
@@ -6702,12 +5793,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'john-connally': {
  name: 'John Connally',
  title: 'Former Texas Governor who traveled Middle East with Barnes to relay message to Iran to delay hostage release',
@@ -6736,7 +5821,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Lee Harvey Oswald', relationship: 'Wounded in JFK assassination Oswald allegedly committed', href: '/entities/individuals/lee-harvey-oswald' },
  { name: 'Abraham Zapruder', relationship: 'Filmed assassination motorcade showing Connally being shot', href: '/entities/individuals/abraham-zapruder' },
- { name: 'Ben Barnes', relationship: 'Political protégé who claimed October Surprise involvement', href: '/entities/individuals/ben-barnes' },
+ { name: 'Ben Barnes', relationship: 'Political protÃ©gÃ© who claimed October Surprise involvement', href: '/entities/individuals/ben-barnes' },
  ],
  },
 
@@ -6769,11 +5854,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Jeff Jamar', relationship: 'Led investigation into Waco siege aftermath', href: '/entities/individuals/jeff-jamar' },
  ],
  },
-
-
-
-
-
 
 
  'john-dodson': {
@@ -6869,12 +5949,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'john-hannah': {
  name: 'John Hannah',
  title: 'USAID administrator whose agency provided cover for CIA operations',
@@ -6907,12 +5981,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'john-harvey-kellogg': {
  name: 'John Harvey Kellogg',
  title: 'Founded Race Betterment Foundation, promoted eugenics alongside cereal empire',
@@ -6943,11 +6011,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Charles Davenport', relationship: 'Eugenics colleague at Race Betterment conferences', href: '/entities/individuals/charles-davenport' },
  ],
  },
-
-
-
-
-
 
 
  'john-hull': {
@@ -7011,12 +6074,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Barack Obama', relationship: 'Served as Obama\'s Secretary of State from 2013-2017, negotiating the Iran nuclear deal and Paris Climate Agreement', href: '/entities/individuals/barack-obama' },
  ],
  },
-
-
-
-
-
-
 
 
  'john-kiriakou': {
@@ -7084,11 +6141,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'john-paul-stevens': {
  name: 'John Paul Stevens',
  title: 'Justice who authored the dissent warning of corruption and erosion of democratic self-governance',
@@ -7119,11 +6171,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Ruth Bader Ginsburg', relationship: 'Fellow Supreme Court liberal justice', href: '/entities/individuals/ruth-bader-ginsburg' },
  ],
  },
-
-
-
-
-
 
 
  'john-paul-vann': {
@@ -7190,11 +6237,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'john-schoettler': {
  name: 'John Schoettler',
  title: 'Amazon VP who oversaw warehouse safety while injury rates doubled the industry average',
@@ -7225,11 +6267,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'john-sperling': {
  name: 'John Sperling',
  title: 'Founder of University of Phoenix: largest for-profit college in US; pioneered predatory enrollment practices',
@@ -7258,11 +6295,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Albert Lord', relationship: 'Fellow for-profit education industry figure', href: '/entities/individuals/albert-lord' },
  ],
  },
-
-
-
-
-
 
 
  'john-t-milner': {
@@ -7296,18 +6328,12 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'jose-napoleon-duarte': {
- name: 'José Napoleón Duarte',
+ name: 'JosÃ© NapoleÃ³n Duarte',
  title: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
  role: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
  riskLevel: 'high',
- description: 'José Napoleón Duarte. Profile pending review.',
+ description: 'JosÃ© NapoleÃ³n Duarte. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
@@ -7315,8 +6341,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'Connected to 1 documented investigation',
- 'Investigative journalists have documented a pattern of revolving-door employment between José Napoleón Duarte\'s operations and the regulatory bodies meant to provide oversight.',
- 'Internal documents obtained through litigation discovery show José Napoleón Duarte was briefed on risks later downplayed in public communications.',
+ 'Investigative journalists have documented a pattern of revolving-door employment between JosÃ© NapoleÃ³n Duarte\'s operations and the regulatory bodies meant to provide oversight.',
+ 'Internal documents obtained through litigation discovery show JosÃ© NapoleÃ³n Duarte was briefed on risks later downplayed in public communications.',
  ],
  charges: [],
  relatedInvestigations: [
@@ -7325,7 +6351,7 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [ ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: José Napoleón Duarte', url: 'https://en.wikipedia.org/wiki/José_Napoleón_Duarte', date: '' }, ],
+ { title: 'Wikipedia: JosÃ© NapoleÃ³n Duarte', url: 'https://en.wikipedia.org/wiki/JosÃ©_NapoleÃ³n_Duarte', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Roberto DAubuisson', relationship: 'Political rival and death squad leader Duarte opposed', href: '/entities/individuals/roberto-daubuisson' },
@@ -7334,20 +6360,15 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jose-ramos-horta': {
- name: 'José Ramos-Horta',
+ name: 'JosÃ© Ramos-Horta',
  title: 'East Timorese resistance leader, Nobel Peace Prize laureate, later President',
  role: 'East Timorese resistance leader, Nobel Peace Prize laureate, later President',
  riskLevel: 'high',
- description: 'José Ramos-Horta. Profile pending review.',
+ description: 'JosÃ© Ramos-Horta. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: José Napoleón Duarte', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: JosÃ© NapoleÃ³n Duarte', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -7361,7 +6382,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: José Ramos-Horta', url: 'https://en.wikipedia.org/wiki/José_Ramos-Horta', date: '' },
+ { title: 'Wikipedia: JosÃ© Ramos-Horta', url: 'https://en.wikipedia.org/wiki/JosÃ©_Ramos-Horta', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -7432,39 +6453,40 @@ const profiles: Record<string, IndividualProfile> = {
 
  'joseph-kennedy-ii': {
  name: 'Joseph Kennedy II',
- title: 'Congressman who led legislative efforts to close School of the Americas',
- role: 'Congressman who led legislative efforts to close School of the Americas',
- riskLevel: 'high',
- description: 'Joseph Kennedy II. Profile pending review.',
- education: [],
+ title: 'U.S. Representative and Founder of Citizens Energy Corporation',
+ role: 'U.S. Congressman from Massachusetts who led legislative efforts to close the School of the Americas and founded Citizens Energy Corporation to provide affordable heating oil',
+ riskLevel: 'medium' as const,
+ description: 'Joseph Patrick Kennedy II (born 1952) is an American businessman, politician, and the eldest son of Robert F. Kennedy. He served as the U.S. Representative for Massachusetts 8th Congressional District from 1987 to 1999. Kennedy is most notable in accountability terms for his sustained legislative campaign to close the U.S. Army School of the Americas (SOA) at Fort Benning, Georgia, an institution that trained Latin American military officers who went on to commit documented human rights atrocities including massacres, torture, and political assassinations across Central and South America. Kennedy introduced multiple amendments to defund or close the SOA throughout the 1990s. In a particularly close 1999 vote, the House came within 10 votes of closing the facility. While Kennedy was unsuccessful in shuttering the school, his efforts led to significant public awareness and the eventual rebranding of the SOA as the Western Hemisphere Institute for Security Cooperation (WHINSEC) in 2001. Kennedy also founded Citizens Energy Corporation in 1979, a nonprofit providing discounted heating oil to low-income families.',
+ education: ['University of Massachusetts Boston (B.A.)'],
  affiliations: [
- { name: 'United States Congress', role: 'Representative', type: 'agency' },
+ { name: 'United States House of Representatives', role: 'Representative, Massachusetts 8th District (1987-1999); led legislative efforts to defund and close the School of the Americas', type: 'agency' },
+ { name: 'Citizens Energy Corporation', role: 'Founder and President (1979-present); nonprofit providing affordable heating oil to low-income families', type: 'organization' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
- 'Investigative journalists have documented a pattern of revolving-door employment between Joseph Kennedy II\'s operations and the regulatory bodies meant to provide oversight.',
- 'Network analysis reveals Joseph Kennedy II holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ 'Introduced multiple amendments to defund or close the School of the Americas, which trained Latin American military officers linked to massacres and human rights atrocities',
+ 'Sought Catholic annulment of his first marriage to Sheila Rauch Kennedy, who publicly opposed it, creating controversy within the Kennedy family',
+ 'Was involved in a 1973 car accident in Nantucket that left passenger Pam Kelley permanently paralyzed',
  ],
- charges: [],
  relatedInvestigations: [
- { title: 'School Of The Americas', slug: 'school-of-the-americas', severity: 'high' },
+ { title: 'School of the Americas', slug: 'school-of-the-americas', severity: 'high' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Congressman who led legislative efforts to close School of the Americas' }, ],
- socialMedia: [],
+ { date: '1952-09-24', event: 'Born in Brighton, Massachusetts; eldest son of Robert F. Kennedy and Ethel Kennedy' },
+ { date: '1979', event: 'Founds Citizens Energy Corporation to provide affordable heating oil to low-income families' },
+ { date: '1987-01', event: 'Takes office as U.S. Representative for Massachusetts 8th Congressional District' },
+ { date: '1993', event: 'Introduces his first amendment to defund the School of the Americas based on documented human rights abuses by SOA graduates' },
+ { date: '1999', event: 'House votes 214-204 against closing the SOA, the closest the effort came to success during his tenure; Kennedy declines to seek reelection' },
+ { date: '2001', event: 'SOA rebranded as the Western Hemisphere Institute for Security Cooperation (WHINSEC) partly due to pressure Kennedy helped generate' },
+ ],
  sources: [
- { title: 'Wikipedia: Joseph Kennedy II', url: 'https://en.wikipedia.org/wiki/Joseph_Kennedy_II', date: '' }, ],
- aliases: [],
+ { title: 'Congressional Record: Kennedy Amendments on the School of the Americas', date: '1993-1999' },
+ { title: 'SOA Watch: Legislative History of School of the Americas Closure Efforts', url: 'https://soaw.org/', date: '2024' },
+ ],
  knownAssociates: [
- { name: 'Jimmy Carter', relationship: 'Fellow Democrat in Haiti/energy policy sphere', href: '/entities/individuals/jimmy-carter' },
+ { name: 'Jimmy Carter', relationship: 'Fellow Democrat who shared Kennedy concerns about Latin American human rights abuses', href: '/entities/individuals/jimmy-carter' },
+ { name: 'Father Roy Bourgeois', relationship: 'Maryknoll priest and SOA Watch founder who worked with Kennedy on legislative efforts to close the School of the Americas' },
  ],
  },
-
-
-
-
-
-
 
 
  'joseph-mccarthy': {
@@ -7531,12 +6553,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Hudson Austin', relationship: 'Grenada coup leader whom Metcalf\'s invasion force fought', href: '/entities/individuals/hudson-austin' },
  ],
  },
-
-
-
-
-
-
 
 
  'joseph-rivers': {
@@ -7632,11 +6648,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'joshua-jaynes': {
  name: 'Joshua Jaynes',
  title: 'Detective who obtained the Breonna Taylor warrant using false information in the affidavit',
@@ -7699,25 +6710,20 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'juan-mendez': {
- name: 'Juan Méndez',
+ name: 'Juan MÃ©ndez',
  title: 'UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes torture',
  role: 'UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes torture',
  riskLevel: 'high',
- description: 'Juan Méndez. Profile pending review.',
+ description: 'Juan MÃ©ndez. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Dr. Juan Funes', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
- 'Public filings and regulatory records indicate Juan Méndez facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- 'Network analysis reveals Juan Méndez holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
+ 'Public filings and regulatory records indicate Juan MÃ©ndez facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
+ 'Network analysis reveals Juan MÃ©ndez holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
  ],
  charges: [],
  relatedInvestigations: [
@@ -7727,17 +6733,12 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as UN Special Rapporteur on Torture who declared solitary confinement exceeding 15 days constitutes tor' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Juan Méndez', url: 'https://en.wikipedia.org/wiki/Juan_E._M%C3%A9ndez', date: '' }, ],
+ { title: 'Wikipedia: Juan MÃ©ndez', url: 'https://en.wikipedia.org/wiki/Juan_E._M%C3%A9ndez', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Romeo Dallaire', relationship: 'Fellow human rights and international justice figure', href: '/entities/individuals/romeo-dallaire' },
  ],
  },
-
-
-
-
-
 
 
  'juana-majel-dixon': {
@@ -7802,11 +6803,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'julia-tutwiler': {
  name: 'Julia Tutwiler',
  title: 'Alabama reformer who fought to end convict leasing abuses',
@@ -7836,12 +6832,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Martin Tabert', relationship: 'Prison reformer connected to convict leasing abuses', href: '/entities/individuals/martin-tabert' },
  ],
  },
-
-
-
-
-
-
 
 
  'julius-rosenberg': {
@@ -7876,11 +6866,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'jurgen-mossack': {
- name: 'Jürgen Mossack',
+ name: 'JÃ¼rgen Mossack',
  title: 'Co-founder of Mossack Fonseca; created the law firm that became the world\'s fourth-largest offshore services provider',
  role: 'Co-founder of Mossack Fonseca; created the law firm that became the world\'s fourth-largest offshore services provider',
  riskLevel: 'high',
- description: 'Jürgen Mossack. Profile pending review.',
+ description: 'JÃ¼rgen Mossack. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Julius Rosenberg', type: 'organization' },
@@ -7897,7 +6887,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Jürgen Mossack', url: 'https://en.wikipedia.org/wiki/Jürgen_Mossack', date: '' },
+ { title: 'Wikipedia: JÃ¼rgen Mossack', url: 'https://en.wikipedia.org/wiki/JÃ¼rgen_Mossack', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -7906,14 +6896,14 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'juvenal-habyarimana': {
- name: 'Juvénal Habyarimana',
+ name: 'JuvÃ©nal Habyarimana',
  title: 'Rwandan President whose assassination triggered the genocide',
  role: 'Rwandan President whose assassination triggered the genocide',
  riskLevel: 'high',
- description: 'Juvénal Habyarimana. Profile pending review.',
+ description: 'JuvÃ©nal Habyarimana. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: Jürgen Mossack', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: JÃ¼rgen Mossack', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -7927,7 +6917,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Juvénal Habyarimana', url: 'https://en.wikipedia.org/wiki/Juvénal_Habyarimana', date: '' },
+ { title: 'Wikipedia: JuvÃ©nal Habyarimana', url: 'https://en.wikipedia.org/wiki/JuvÃ©nal_Habyarimana', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -7944,7 +6934,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'J.W. Milam. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: Juvénal Habyarimana', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: JuvÃ©nal Habyarimana', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -8127,11 +7117,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'john-sopko': {
  name: 'John Sopko',
  title: 'Special Inspector General for Afghanistan Reconstruction (SIGAR) who documented waste and fraud in Afghanistan',
@@ -8203,11 +7188,11 @@ const profiles: Record<string, IndividualProfile> = {
  riskLevel: 'critical',
  description: 'Josef Mengele was a Nazi SS physician and war criminal known as the"Angel of Death"who performed horrific pseudo-scientific experiments on prisoners at the Auschwitz concentration camp, including experiments on twins, forced hypothermia, and other tortures. After the war, he fled to South America where he was given sanctuary in Paraguay and later lived in Brazil. Despite international manhunts, he was never brought to justice and died in 1979.',
  birthDate: 'March 16, 1911',
- birthPlace: 'Günzburg, Bavaria, Germany',
+ birthPlace: 'GÃ¼nzburg, Bavaria, Germany',
  deathDate: 'February 7, 1979',
  education: ['PhD in Anthropology, University of Munich', 'Medical Degree, University of Frankfurt'],
  affiliations: [
- { name: 'Nazi SS', role: 'SS-Hauptsturmführer (Captain)', type: 'organization' },
+ { name: 'Nazi SS', role: 'SS-HauptsturmfÃ¼hrer (Captain)', type: 'organization' },
  { name: 'Auschwitz Concentration Camp', role: 'Chief Medical Officer, selections and experiments', type: 'agency' },
  ],
  controversies: [
@@ -8238,32 +7223,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Efraim Zuroff', relationship: 'Nazi hunter who searched for Mengele in South America', href: '/entities/individuals/efraim-zuroff' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'jay-lefkowitz': {
@@ -8479,12 +7438,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'joe-paterno': {
  name: 'Joe Paterno',
  title: 'Former Penn State Football Coach',
@@ -8519,12 +7472,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'jay-z': {
  name: 'Jay-Z',
  title: 'Rapper, Mogul',
@@ -8556,12 +7503,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Sean Combs', relationship: 'Fellow music mogul, long-time industry associate', href: '/entities/individuals/sean-combs' },
  ],
  },
-
-
-
-
-
-
 
 
  'jack-burkman': {
@@ -8628,12 +7569,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
  'john-geoghan': {
  name: 'John Geoghan',
  title: 'Defrocked Catholic Priest',
@@ -8666,11 +7601,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'jpmorgan-chase': {
@@ -8864,37 +7794,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
- 'jack-abramoff': {
- name: 'Jack Abramoff',
- title: 'Corrupt lobbyist closely tied to DeLay operation',
- role: '',
- riskLevel: 'low',
- description: 'Jack Abramoff. Profile pending review.',
- education: [],
- affiliations: [
- { name: 'Tom Delay', role: 'Connected Entity', type: 'organization' },
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [ ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- { name: 'Tom Delay', relationship: 'Connected Entity', href: '/entities/individuals/tom-delay' },
- ],
- },
-
  'jb-pritzker': {
  name: 'J.B. Pritzker',
  title: 'Profile Under Review',
@@ -8921,11 +7820,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'jensen-huang': {
  name: 'Jensen Huang',
  title: 'Profile Under Review',
@@ -8949,11 +7843,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'jane-fraser': {
@@ -8982,10 +7871,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'javier-milei': {
  name: 'Javier Milei',
  title: 'Profile Under Review',
@@ -9010,10 +7895,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
 
 
  'jerome-powell': {
@@ -9042,10 +7923,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'joe-rogan': {
  name: 'Joe Rogan',
  title: 'Profile Under Review',
@@ -9070,10 +7947,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
 
 
  'janet-woodcock': {
@@ -9102,10 +7975,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'john-thune': {
  name: 'John Thune',
  title: 'Profile Under Review',
@@ -9130,10 +7999,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
 
 
  'jennifer-granholm': {
@@ -9162,9 +8027,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
  'jim-simons': {
  name: 'Jim Simons',
  title: 'Profile Under Review',
@@ -9189,9 +8051,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
 
 
  'jeff-zucker': {
@@ -9271,70 +8130,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Connected Entity', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-};
-
-export default profiles;
-
-  'john-eastman': {
-    name: 'John Eastman',
-    title: 'Former Law Professor & Election Lawyer',
-    role: 'Architect of January 6 fake electors scheme',
-    riskLevel: 'high',
-    description: 'John Eastman was a law professor and attorney who served as an advisor to Donald Trump and played a key role in the January 6, 2021, Capitol attack. He drafted legal memos arguing that Vice President Mike Pence could reject electoral votes and helped organize fake electors in states Biden won.',
-    birthDate: 'Unknown',
-    birthPlace: 'USA',
-    education: ['University of Chicago Law School'],
-    affiliations: [
-      { name: 'Claremont Institute', role: 'Senior Fellow', type: 'organization' },
-    ],
-    controversies: [
-      'Drafted memos claiming Pence could reject electoral votes',
-      'Helped organize fake electors in 7 states',
-      'Spoke at January 6 rally',
-      'Indicted for election interference',
-    ],
-    charges: [
-      { crime: 'Election interference', status: 'Indicted', date: '2023' },
-    ],
-    relatedInvestigations: [
-      { title: 'January 6 Capitol Attack', slug: 'january-6-capitol-attack', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '2020', event: 'Advised Trump on election challenges' },
-      { date: 'January 6, 2021', event: 'Spoke at rally before Capitol attack' },
-      { date: '2023', event: 'Indicted in Georgia' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Georgia Indictment', url: 'https://www.fultonclerk.org/', date: '2023' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Legal advisor', href: '/entities/individuals/donald-trump' },
-      { name: 'Mike Pence', relationship: 'Target of legal pressure', href: '/entities/individuals/mike-pence' },
-    ],
-  },
   'joseph-stalin': {
     name: 'Joseph Stalin',
     title: 'General Secretary of the Communist Party of the Soviet Union',
@@ -9354,7 +8149,7 @@ export default profiles;
       'World War II atrocities',
     ],
     charges: [
-      { crime: 'Crimes against humanity', status: 'Historical', date: 'Posthumous' },
+      { statute: 'Crimes against humanity', description: 'Historical', category: 'Posthumous' },
     ],
     relatedInvestigations: [
       { title: 'Soviet Atrocities', slug: 'soviet-atrocities', severity: 'critical' },
@@ -9373,4 +8168,502 @@ export default profiles;
       { name: 'Vladimir Lenin', relationship: 'Predecessor', href: '/entities/individuals/vladimir-lenin' },
     ],
   },
+  'jesse-jackson-jr': {
+    name: 'Jesse Jackson Jr.',
+    title: 'Former U.S. Representative (D-IL-2)',
+    role: 'Congressman convicted of spending $750,000 in campaign funds on personal luxuries including a $43,350 Rolex watch, fur capes, and Michael Jackson memorabilia',
+    riskLevel: 'high',
+    description: 'Jesse Louis Jackson Jr. served as a U.S. Representative from Illinois from 1995 to 2012. He was investigated for attempting to purchase Barack Obama\'s vacated U.S. Senate seat from Rod Blagojevich. In February 2013, Jackson pleaded guilty to one count of conspiracy to commit wire fraud, mail fraud, and making false statements for misusing approximately $750,000 in campaign funds for personal purchases. The purchases included a $43,350 Rolex watch, $5,150 in fur capes and parkas, $10,000+ in Michael Jackson memorabilia, Bruce Lee memorabilia, cashmere capes, mounted elk heads, and various luxury items. His wife Sandi Jackson also pleaded guilty to filing false joint federal income tax returns. Jesse Jr. was sentenced to 30 months in federal prison, while Sandi received 12 months. Jackson served his sentence at FPC Montgomery and was released in March 2015.',
+    birthDate: 'March 11, 1965',
+    birthPlace: 'Greenville, South Carolina',
+    education: ['North Carolina A&T (B.S.)', 'Chicago Theological Seminary (M.A.)', 'University of Illinois College of Law (J.D.)'],
+    affiliations: [
+      { name: 'U.S. House of Representatives (D-IL)', role: 'Member of Congress', type: 'agency' as const },
+    ],
+    controversies: [
+      'Spent $750,000 in campaign funds on personal luxury items',
+      'Purchased $43,350 Rolex, fur capes, Michael Jackson memorabilia with donor money',
+      'Investigated for attempting to purchase Obama\'s Senate seat from Blagojevich',
+      'Wife also convicted for filing false tax returns hiding campaign fund misuse',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 371/1343/1341', description: 'Conspiracy to commit wire fraud, mail fraud - misuse of $750,000 in campaign funds', category: 'federal' },
+      { statute: '18 U.S.C. 1001', description: 'Making false statements on financial disclosure forms', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-insider-trading'],
+    timeline: [
+      { date: '1995-12-12', event: 'Wins special election for Illinois 2nd congressional district' },
+      { date: '2008-2012', event: 'Period of campaign fund misuse totaling $750,000' },
+      { date: '2012-11-21', event: 'Resigns from Congress' },
+      { date: '2013-02-20', event: 'Pleads guilty to conspiracy to commit fraud' },
+      { date: '2013-08-14', event: 'Sentenced to 30 months in federal prison' },
+      { date: '2015-03', event: 'Released from prison' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Jesse L. Jackson Jr.', url: 'https://www.justice.gov/usao-dc/pr/former-congressman-jesse-l-jackson-jr-sentenced-30-months-prison', date: '2013' },
+    ],
+    aliases: ['Junior'],
+    knownAssociates: [
+      { name: 'Rod Blagojevich', relationship: 'Governor who tried to sell Obama\'s Senate seat', href: '/entities/individuals/rod-blagojevich' },
+      { name: 'Sandi Jackson', relationship: 'Wife; co-defendant who pleaded guilty to tax fraud' },
+    ],
+  },
+  'jack-abramoff': {
+    name: 'Jack Abramoff',
+    title: 'Former Lobbyist',
+    role: 'Washington super-lobbyist at the center of the largest corruption scandal in a generation, who bribed members of Congress and defrauded Native American tribes of tens of millions',
+    riskLevel: 'critical',
+    description: 'Jack Allan Abramoff was a Washington, D.C. lobbyist whose corruption scandal led to the conviction of 21 people, including White House officials, congressional aides, and a sitting congressman. Abramoff and his partner Michael Scanlon defrauded six Native American tribes of approximately $85 million in lobbying fees, charging tribes to fight legislation that Abramoff himself had secretly arranged to be introduced. He provided lavish gifts, luxury trips to Scotland and the Mariana Islands, meals at his restaurant Signatures, and skybox tickets to members of Congress and their staff in exchange for legislative favors. Representative Bob Ney (R-OH) was convicted and imprisoned for accepting bribes from Abramoff. The scandal also implicated Deputy Secretary of the Interior J. Steven Griles, White House aide David Safavian, and congressional staffers. Abramoff pleaded guilty in 2006 to fraud, tax evasion, and conspiracy to bribe public officials. He was sentenced to 6 years in federal prison.',
+    birthDate: 'February 28, 1959',
+    birthPlace: 'Atlantic City, New Jersey',
+    education: ['Brandeis University (B.A.)', 'Georgetown University Law Center (J.D.)'],
+    affiliations: [
+      { name: 'Preston Gates Ellis & Rouvelas Meeds', role: 'Lobbyist', type: 'organization' as const },
+      { name: 'Greenberg Traurig', role: 'Lobbyist', type: 'organization' as const },
+    ],
+    controversies: [
+      'Defrauded six Native American tribes of $85 million in lobbying fees',
+      'Orchestrated threats to tribes then charged them to lobby against those threats',
+      'Bribed Rep. Bob Ney and other officials with gifts, trips, and meals',
+      '21 people convicted in resulting corruption investigation',
+      'Called Native American clients "monkeys" and "troglodytes" in private emails',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 201(b)', description: 'Conspiracy to bribe public officials - lavish gifts to members of Congress', category: 'federal' },
+      { statute: '18 U.S.C. 1341/1343', description: 'Mail fraud and wire fraud - defrauding Native American tribal clients', category: 'federal' },
+      { statute: '26 U.S.C. 7201', description: 'Tax evasion - failure to report income from corrupt dealings', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-revolving-door-legalized-corruption'],
+    timeline: [
+      { date: '1994', event: 'Begins lobbying career representing Native American tribal casinos' },
+      { date: '2001-2004', event: 'Peak period of corruption; $85M extracted from tribes' },
+      { date: '2004-02', event: 'Washington Post and Senate Indian Affairs Committee expose scheme' },
+      { date: '2006-01-03', event: 'Pleads guilty to fraud, tax evasion, and conspiracy to bribe' },
+      { date: '2006-09-04', event: 'Sentenced to 70 months in federal prison' },
+      { date: '2010-06', event: 'Released from prison' },
+    ],
+    sources: [
+      { title: 'Senate Indian Affairs Committee: Abramoff Investigation', url: 'https://www.indian.senate.gov/hearing/oversight-hearing-tribal-lobbying-matters', date: '2006' },
+    ],
+    aliases: ['Casino Jack'],
+    knownAssociates: [
+      { name: 'Michael Scanlon', relationship: 'Business partner and co-conspirator in tribal fraud' },
+      { name: 'Bob Ney', relationship: 'Congressman convicted of accepting Abramoff bribes' },
+      { name: 'Tom DeLay', relationship: 'House Majority Leader; close ally who took Abramoff-funded trips', href: '/entities/individuals/tom-delay' },
+    ],
+  },
+  'john-eastman': {
+    name: 'John Eastman',
+    title: 'Former Law Professor and Trump Legal Advisor',
+    role: 'Architect of the legal theory that Vice President Pence could unilaterally reject electoral votes to overturn the 2020 election; disbarred and indicted',
+    riskLevel: 'critical',
+    description: 'John Charles Eastman is a former law professor and conservative legal scholar who authored the "Eastman memos" outlining a theory that Vice President Mike Pence had the authority to unilaterally reject or delay certification of electoral votes on January 6, 2021. The memos laid out a step-by-step plan for Pence to declare Trump the winner or send the election back to state legislatures. Eastman spoke at the Ellipse rally on January 6 immediately before the Capitol breach. He was disbarred by the California State Bar in March 2024 for dishonesty, corruption, and moral turpitude related to his efforts to overturn the election. He was indicted in August 2023 in the Fulton County, Georgia RICO case alongside Trump and 16 others. He was also indicted in Arizona in April 2024 in connection with the fake electors scheme. Legal scholars across the political spectrum condemned the Eastman theory as unconstitutional.',
+    birthDate: 'April 2, 1960',
+    birthPlace: 'Lincoln, Nebraska',
+    education: ['University of Dallas (B.A.)', 'University of Chicago Law School (J.D.)'],
+    affiliations: [
+      { name: 'Chapman University Fowler School of Law', role: 'Professor and Former Dean', type: 'organization' as const },
+      { name: 'Claremont Institute', role: 'Senior Fellow', type: 'organization' as const },
+      { name: 'Trump Legal Team', role: 'Legal Advisor', type: 'organization' as const },
+    ],
+    controversies: [
+      'Authored "Eastman memos" theory for VP to unilaterally reject electoral votes',
+      'Spoke at Ellipse rally on January 6 immediately before Capitol breach',
+      'Disbarred by California State Bar for dishonesty and moral turpitude',
+      'Pressured Pence to reject or delay certification of electoral votes',
+      'Indicted in Georgia RICO case and Arizona fake electors case',
+    ],
+    charges: [
+      { statute: 'O.C.G.A. 16-14-4', description: 'RICO conspiracy - Georgia Racketeer Influenced and Corrupt Organizations Act', category: 'state' },
+      { statute: 'A.R.S. 13-2310', description: 'Conspiracy, fraud, and forgery related to fake electors scheme (Arizona)', category: 'state' },
+    ],
+    relatedInvestigations: ['/investigations/january-6-insurrection'],
+    timeline: [
+      { date: '2020-12', event: 'Authors "Eastman memos" for Pence to reject electoral votes' },
+      { date: '2021-01-04', event: 'Presents plan to Trump and Pence in Oval Office' },
+      { date: '2021-01-06', event: 'Speaks at Ellipse rally before Capitol breach' },
+      { date: '2022-06', event: 'January 6 Committee obtains and publishes Eastman emails' },
+      { date: '2023-08-14', event: 'Indicted in Fulton County RICO case' },
+      { date: '2024-03-27', event: 'Disbarred by California State Bar' },
+      { date: '2024-04-24', event: 'Indicted in Arizona fake electors case' },
+    ],
+    sources: [
+      { title: 'January 6 Committee: Eastman Memos Analysis', url: 'https://www.govinfo.gov/committee/house-january6th', date: '2022' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Co-defendant; client who relied on Eastman theory', href: '/entities/individuals/donald-trump' },
+      { name: 'Rudy Giuliani', relationship: 'Co-counsel in election overturn efforts', href: '/entities/individuals/rudy-giuliani' },
+    ],
+  },
+  'jared-kushner': {
+    name: 'Jared Kushner',
+    title: 'Former Senior Advisor to the President',
+    role: 'Trump son-in-law who received $2 billion from Saudi sovereign wealth fund shortly after leaving the White House despite his firm having no track record in managing such funds',
+    riskLevel: 'critical',
+    description: 'Jared Corey Kushner served as Senior Advisor to President Trump from 2017 to 2021, despite initially being denied a top-secret security clearance by career officials. He was given an unprecedented portfolio including Middle East peace, government innovation, criminal justice reform, and the COVID-19 pandemic response. In 2022, Kushner\'s newly formed private equity firm, Affinity Partners, received $2 billion in investment from Saudi Arabia\'s Public Investment Fund (PIF), led by Crown Prince Mohammed bin Salman. The PIF\'s own screening panel had flagged concerns about Affinity\'s "icheduled fee structure," "management inexperience," and that the firm had "icheduled performance" but was overruled by MBS. This followed Kushner building a close personal relationship with MBS while serving as the primary U.S. liaison to Saudi Arabia in the White House. A separate $1 billion investment from the UAE and Qatar sovereign funds followed. Kushner\'s family firm, Kushner Companies, also received a $1.1 billion bailout on its troubled 666 Fifth Avenue property from Brookfield Asset Management, a Canadian firm with ties to Qatar.',
+    birthDate: 'January 10, 1981',
+    birthPlace: 'Livingston, New Jersey',
+    education: ['Harvard University (A.B.)', 'NYU School of Law (J.D.)', 'NYU Stern School of Business (M.B.A.)'],
+    affiliations: [
+      { name: 'White House', role: 'Senior Advisor to the President', type: 'agency' as const },
+      { name: 'Affinity Partners', role: 'Founder and Managing Partner', type: 'corporation' as const },
+      { name: 'Kushner Companies', role: 'Former CEO', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Received $2 billion from Saudi sovereign wealth fund after leaving White House',
+      'PIF screening panel flagged "management inexperience" - overruled by MBS',
+      'Initially denied security clearance; overridden by Trump',
+      'Family firm received $1.1 billion bailout on 666 Fifth Avenue from Brookfield',
+      'Built close personal relationship with MBS as official White House liaison',
+      'Supported MBS despite CIA assessment that MBS ordered Khashoggi murder',
+      'Led COVID-19 supply chain task force accused of favoring political allies',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 208', description: 'Potential conflict of interest - official acts benefiting personal/family financial interests (not charged)', category: 'federal' },
+      { statute: '18 U.S.C. 201', description: 'Potential bribery/gratuity - receiving $2B after favorable official actions toward Saudi Arabia (not charged)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/saudi-influence-american-politics'],
+    timeline: [
+      { date: '2017-01-20', event: 'Appointed Senior Advisor to the President' },
+      { date: '2017', event: 'Denied security clearance by career officials; overridden by Trump' },
+      { date: '2018-10-02', event: 'Khashoggi murdered; Kushner maintains MBS relationship' },
+      { date: '2019-02', event: '666 Fifth Avenue bailout finalized' },
+      { date: '2021-01-20', event: 'Leaves White House' },
+      { date: '2021-06', event: 'Founds Affinity Partners' },
+      { date: '2022-04', event: 'Receives $2 billion from Saudi PIF' },
+    ],
+    sources: [
+      { title: 'NYT: Jared Kushner\'s $2 Billion Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', date: '2022' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Father-in-law and President who appointed him', href: '/entities/individuals/donald-trump' },
+      { name: 'Mohammed bin Salman', relationship: 'Saudi Crown Prince who approved $2B investment' },
+      { name: 'Ivanka Trump', relationship: 'Wife; fellow White House advisor' },
+    ],
+  },
+  'jeff-bezos': {
+    name: 'Jeff Bezos',
+    title: 'Founder and Executive Chairman of Amazon',
+    role: 'Built the world\'s largest monopoly through predatory pricing, worker exploitation, union busting, and anti-competitive practices while paying minimal federal taxes',
+    riskLevel: 'high',
+    description: 'Jeffrey Preston Bezos founded Amazon in 1994 and built it into the world\'s dominant e-commerce platform, cloud computing provider, and logistics network. Amazon has faced sustained criticism and legal action over anti-competitive practices. The FTC filed a landmark antitrust lawsuit in September 2023 alleging Amazon operates as an illegal monopoly, charging inflated fees to sellers (now averaging 45% of sale price), engaging in pay-to-play advertising, and degrading search results to favor its own products. Amazon warehouse workers face injury rates double the industry average, with workers reporting being unable to take bathroom breaks. Amazon spent over $14 million fighting unionization at a single Staten Island warehouse. ProPublica revealed that Bezos paid zero federal income tax in 2007 and 2011 despite being one of the world\'s richest people, using legal but aggressive tax avoidance strategies. Amazon paid zero federal income tax in 2017 and 2018 despite billions in profits. Amazon Web Services holds classified government contracts worth billions, creating a surveillance-industrial complex.',
+    birthDate: 'January 12, 1964',
+    birthPlace: 'Albuquerque, New Mexico',
+    education: ['Princeton University (B.S.E.)'],
+    affiliations: [
+      { name: 'Amazon', role: 'Executive Chairman (formerly CEO)', type: 'corporation' as const },
+      { name: 'Blue Origin', role: 'Founder', type: 'corporation' as const },
+      { name: 'The Washington Post', role: 'Owner', type: 'corporation' as const },
+    ],
+    controversies: [
+      'FTC antitrust lawsuit alleges Amazon operates as illegal monopoly',
+      'Amazon seller fees average 45% of sale price; pay-to-play advertising system',
+      'Warehouse injury rates double the industry average',
+      'Spent $14M+ fighting union at single Staten Island warehouse',
+      'Paid zero federal income tax in 2007 and 2011 despite billions in net worth',
+      'Amazon paid $0 federal income tax in 2017-2018',
+      'NSA and CIA cloud contracts enabling mass surveillance infrastructure',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 2 (Sherman Act)', description: 'FTC antitrust suit: monopoly maintenance through anti-competitive practices (pending)', category: 'federal' },
+      { statute: '29 U.S.C. 158(a)(1)', description: 'NLRB unfair labor practice complaints for union-busting activities', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/big-tech-monopoly-power'],
+    timeline: [
+      { date: '1994', event: 'Founds Amazon' },
+      { date: '2013', event: 'Purchases The Washington Post for $250 million' },
+      { date: '2017-2018', event: 'Amazon pays $0 federal income tax despite billions in profit' },
+      { date: '2021-04', event: 'Amazon defeats first Staten Island union drive' },
+      { date: '2022-04', event: 'Amazon Labor Union wins landmark Staten Island vote' },
+      { date: '2023-09-26', event: 'FTC files landmark antitrust lawsuit against Amazon' },
+    ],
+    sources: [
+      { title: 'FTC v. Amazon.com, Inc.', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/amazon-com-inc-ftc-v', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Andy Jassy', relationship: 'Amazon CEO who succeeded Bezos' },
+    ],
+  },
+  'john-stumpf': {
+    name: 'John Stumpf',
+    title: 'Former CEO of Wells Fargo',
+    role: 'Oversaw the creation of millions of fake customer accounts at Wells Fargo through aggressive sales quotas that pressured employees into systematic fraud',
+    riskLevel: 'high',
+    description: 'John Gerard Stumpf served as CEO and Chairman of Wells Fargo from 2007 to 2016. Under his leadership, Wells Fargo employees opened approximately 3.5 million unauthorized bank and credit card accounts using real customers\' personal information to meet aggressive sales quotas. The cross-selling pressure was driven from the top, with Stumpf\'s mantra of "eight is great" (meaning every customer should have eight Wells Fargo products). Employees who failed to meet quotas were fired, while those who reported fraud were retaliated against. The scandal was first reported by the Los Angeles Times in 2013, but Stumpf denied systemic problems for three years. When the CFPB, OCC, and LA City Attorney announced a $185 million combined fine in September 2016, Stumpf initially blamed low-level employees. He resigned in October 2016 under intense congressional pressure and was barred from the banking industry for life by the OCC in January 2020. He was personally fined $17.5 million and was required to repay $41 million in compensation. Wells Fargo\'s total penalties exceeded $4.5 billion.',
+    birthDate: 'September 6, 1953',
+    birthPlace: 'Pierz, Minnesota',
+    education: ['St. Cloud State University (B.S.)', 'University of Minnesota (M.B.A.)'],
+    affiliations: [
+      { name: 'Wells Fargo', role: 'CEO and Chairman', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Oversaw creation of 3.5 million fake customer accounts through quota pressure',
+      'Wells Fargo fined $4.5 billion+ in total penalties',
+      'Blamed low-level employees for systematic fraud driven by executive sales targets',
+      'Barred from banking industry for life by OCC',
+      'Personally fined $17.5M and forfeited $41M in compensation',
+      'Employees who reported fraud were fired; over 5,300 employees terminated for participating',
+      'Denied systemic problems for 3 years despite Los Angeles Times reporting',
+    ],
+    charges: [
+      { statute: '12 U.S.C. 1818(e)', description: 'OCC Prohibition Order - barred from banking industry for life', category: 'federal' },
+      { statute: '12 U.S.C. 1818(i)', description: 'OCC civil money penalty - $17.5 million personal fine', category: 'federal' },
+      { statute: '12 U.S.C. 5531-5536', description: 'CFPB consent order - unfair and deceptive practices ($100M penalty)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/wells-fargo-fake-accounts-scandal'],
+    timeline: [
+      { date: '2007', event: 'Becomes CEO of Wells Fargo' },
+      { date: '2013-12', event: 'LA Times first reports on fake accounts; management denies scope' },
+      { date: '2016-09-08', event: 'CFPB, OCC, LA City Attorney announce $185M in fines' },
+      { date: '2016-09-20', event: 'Testifies before Senate; initially blames low-level employees' },
+      { date: '2016-10-12', event: 'Resigns as CEO under congressional pressure' },
+      { date: '2020-01-23', event: 'Barred from banking for life; fined $17.5M by OCC' },
+    ],
+    sources: [
+      { title: 'OCC: In the Matter of John G. Stumpf', url: 'https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-6.html', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Carrie Tolstedt', relationship: 'Head of Community Banking division; oversaw fake accounts operations' },
+      { name: 'Tim Sloan', relationship: 'Successor as CEO; also resigned over scandal fallout' },
+    ],
+  },
+  'john-brennan': {
+    name: 'John Brennan',
+    title: 'Former Director of the Central Intelligence Agency',
+    role: 'Intelligence Director',
+    riskLevel: 'critical' as const,
+    description: 'CIA Director (2013-2017) and counterterrorism advisor who was the primary architect of the Obama administration\'s drone assassination program. Oversaw the expansion of targeted killings via drone strikes in Pakistan, Yemen, Somalia, and other countries, including the extrajudicial killing of American citizens. Approved the CIA disposition matrix (kill list) and defended the legal authority to kill Americans abroad without trial. Previously served as CIA station chief in Saudi Arabia and was implicated in the agency\'s Bush-era enhanced interrogation (torture) and extraordinary rendition programs.',
+    birthDate: '1955-09-22',
+    birthPlace: 'North Bergen, New Jersey',
+    education: ['B.A. in Political Science, Fordham University (1977)', 'M.A. in Government, University of Texas at Austin (1980)'],
+    affiliations: [
+      { name: 'Central Intelligence Agency', role: 'Director (2013-2017)', type: 'agency' as const },
+      { name: 'White House', role: 'Homeland Security Advisor (2009-2013)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Primary architect of President Obama\'s drone assassination program targeting suspected terrorists without trial',
+      'Oversaw expansion of CIA drone strikes that killed thousands in Pakistan, Yemen, Somalia including hundreds of civilians',
+      'Approved the extrajudicial killing of American citizen Anwar al-Awlaki by drone strike in Yemen (September 2011)',
+      'Two weeks after al-Awlaki killing, his 16-year-old American-born son Abdulrahman was killed in a separate drone strike',
+      'Managed the CIA disposition matrix (kill list) determining who would be targeted for assassination',
+      'Implicated in CIA torture program; served as deputy executive director when enhanced interrogation techniques were authorized',
+      'CIA under his leadership spied on Senate Intelligence Committee computers investigating the torture program',
+      'Initially denied CIA hacking of Senate computers; later admitted it and apologized after IG investigation confirmed it',
+      'Supported extraordinary rendition program transferring detainees to countries known to torture prisoners',
+    ],
+    charges: [
+      {
+        statute: '5th Amendment Due Process - Extrajudicial Killing of U.S. Citizens',
+        description: 'Approved drone killing of American citizens including Anwar al-Awlaki without criminal charges, trial, or judicial review',
+        category: 'constitutional',
+      },
+      {
+        statute: 'International Humanitarian Law - Civilian Casualties',
+        description: 'Drone program under his direction killed hundreds of civilians including children in Pakistan, Yemen, and Somalia',
+        category: 'human-rights',
+      },
+      {
+        statute: 'Separation of Powers - Spying on Congress',
+        description: 'CIA under his leadership accessed Senate Intelligence Committee computers during investigation of CIA torture program',
+        category: 'constitutional',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'U.S. Drone Program and Civilian Casualties', slug: 'drone-program-civilian-casualties', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1980', event: 'Joins CIA as intelligence officer; serves across Middle East including Saudi Arabia station chief' },
+      { date: '2001-2003', event: 'Serves as CIA Deputy Executive Director during implementation of enhanced interrogation and rendition programs' },
+      { date: '2004', event: 'Named director of National Counterterrorism Center' },
+      { date: '2009-01', event: 'Appointed Assistant to the President for Homeland Security and Counterterrorism by Obama' },
+      { date: '2009-2013', event: 'Oversees expansion of drone strike program; manages disposition matrix (kill list)' },
+      { date: '2011-09-30', event: 'Approves drone strike killing American citizen Anwar al-Awlaki in Yemen without trial' },
+      { date: '2011-10-14', event: 'Separate drone strike kills al-Awlaki\'s 16-year-old American-born son Abdulrahman' },
+      { date: '2013-03-08', event: 'Confirmed as CIA Director after contentious hearing about drone program' },
+      { date: '2014-03', event: 'CIA caught accessing Senate Intelligence Committee computers; Brennan initially denies it' },
+      { date: '2014-08', event: 'CIA Inspector General confirms CIA accessed Senate computers; Brennan apologizes' },
+      { date: '2017-01-20', event: 'Departs CIA; becomes NBC/MSNBC analyst' },
+    ],
+    sources: [
+      { title: 'Bureau of Investigative Journalism: Drone Strike Database', url: 'https://www.thebureauinvestigates.com/projects/drone-war', date: '2023' },
+      { title: 'Senate Intelligence Committee Study of CIA Detention and Interrogation Program', date: '2014' },
+      { title: 'ACLU: Targeted Killing of Anwar al-Awlaki', url: 'https://www.aclu.org/cases/al-aulaqi-v-panetta', date: '2014' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Barack Obama', relationship: 'President who expanded drone program and appointed Brennan CIA Director' },
+      { name: 'Gina Haspel', relationship: 'CIA officer involved in torture program who later became CIA Director', href: '/entities/individuals/gina-haspel' },
+    ],
+  },
+  'jeff-sessions': {
+    name: 'Jeff Sessions',
+    title: 'Former U.S. Attorney General',
+    role: 'Attorney General',
+    riskLevel: 'high' as const,
+    description: 'U.S. Attorney General (2017-2018) and former Senator from Alabama who implemented some of the most controversial law enforcement policies in modern history. Championed the zero tolerance immigration prosecution policy that led to family separations, dramatically expanded civil asset forfeiture allowing police to seize property from people never charged with crimes, reversed Obama-era police reform consent decrees, rescinded the Cole Memo on marijuana enforcement, and was forced to recuse from the Russia investigation leading to his firing by President Trump.',
+    birthDate: '1946-12-24',
+    birthPlace: 'Selma, Alabama',
+    education: ['B.A., Huntingdon College (1969)', 'J.D., University of Alabama School of Law (1973)'],
+    affiliations: [
+      { name: 'U.S. Department of Justice', role: 'Attorney General (2017-2018)', type: 'agency' as const },
+      { name: 'U.S. Senate', role: 'Senator, Alabama (1997-2017)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Implemented zero tolerance immigration policy leading to separation of thousands of children from parents at the border',
+      'Dramatically expanded civil asset forfeiture; reversed Obama-era limits allowing police to seize property without criminal charges',
+      'Rescinded Obama-era consent decrees for police reform in cities like Baltimore, Chicago, and Ferguson',
+      'Rescinded Cole Memo on marijuana enforcement; threatened federal prosecution in states that legalized cannabis',
+      'Denied Senate confirmation as federal judge in 1986 after colleagues testified he made racist remarks',
+      'Recused from Russia investigation after undisclosed meetings with Russian Ambassador Sergey Kislyak',
+      'Fired by President Trump in November 2018 after Trump\'s repeated public attacks over the Russia recusal',
+      'As Senator, consistently opposed immigration reform, voting rights protections, and criminal justice reform',
+    ],
+    charges: [
+      {
+        statute: '8 U.S.C. § 1232 - Family Separation Policy',
+        description: 'Announced and implemented zero tolerance prosecution policy that deliberately separated thousands of children from parents with no reunification plan',
+        category: 'human-rights',
+      },
+      {
+        statute: '18 U.S.C. § 981 - Expanded Civil Asset Forfeiture',
+        description: 'Reinstated federal adoption of civil asset forfeiture allowing seizure of property from people never charged with crimes; DOJ IG found widespread abuse',
+        category: 'constitutional',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Immigration Detention Abuse and Family Separation', slug: 'immigration-detention-abuse', severity: 'critical' },
+      { title: 'Civil Asset Forfeiture Abuse', slug: 'asset-forfeiture-abuse', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1981', event: 'Appointed U.S. Attorney for the Southern District of Alabama by President Reagan' },
+      { date: '1986', event: 'Denied federal judgeship by Senate after colleagues testify about racist remarks; historically rare rejection' },
+      { date: '1997', event: 'Elected to U.S. Senate from Alabama' },
+      { date: '2017-02-09', event: 'Confirmed as Attorney General in 52-47 vote' },
+      { date: '2017-03-02', event: 'Recuses from Russia investigation after undisclosed meetings with Russian ambassador revealed' },
+      { date: '2017-07', event: 'Reverses Obama-era civil asset forfeiture limits; expands Equitable Sharing Program' },
+      { date: '2018-01-04', event: 'Rescinds Cole Memo; threatens federal marijuana prosecution in legalized states' },
+      { date: '2018-04-06', event: 'Announces zero tolerance immigration prosecution policy at the border' },
+      { date: '2018-06', event: 'Family separation crisis explodes; thousands of children taken from parents' },
+      { date: '2018-11-07', event: 'Forced to resign as Attorney General by President Trump' },
+    ],
+    sources: [
+      { title: 'DOJ OIG: Review of Family Separation Policy', url: 'https://oig.justice.gov/', date: '2021' },
+      { title: 'DOJ: Attorney General Sessions Civil Forfeiture Policy', url: 'https://www.justice.gov/', date: '2017' },
+      { title: 'Senate Judiciary Committee: 1986 Sessions Confirmation Hearing', date: '1986' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Thomas Homan', relationship: 'ICE Acting Director who implemented Sessions\' zero tolerance policy', href: '/entities/individuals/thomas-homan' },
+      { name: 'Stephen Miller', relationship: 'Former Sessions Senate aide who became architect of Trump immigration policies', href: '/entities/individuals/stephen-miller' },
+      { name: 'Donald Trump', relationship: 'President who appointed and later fired Sessions over Russia recusal', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'john-eastman': {
+    name: 'John Eastman',
+    title: 'Former Chapman University Law Professor',
+    role: 'Architect of Election Overthrow Legal Theory',
+    riskLevel: 'critical' as const,
+    description: 'John Eastman authored the "Eastman Memos" proposing that Vice President Pence could unilaterally reject electoral votes on January 6, 2021, a theory rejected by virtually every constitutional scholar across the political spectrum. He has been indicted in Georgia, disbarred in California, and identified by the January 6 Committee as central to the legal architecture of the coup attempt.',
+    birthDate: '1960-04-21',
+    birthPlace: 'Lincoln, Nebraska',
+    education: [
+      'B.A., University of Dallas (1983)',
+      'M.A., Claremont Graduate University',
+      'J.D., University of Chicago Law School (1995)',
+    ],
+    affiliations: [
+      { name: 'Chapman University', role: 'Professor and Dean, Fowler School of Law (1999-2021)', type: 'organization' as const },
+      { name: 'Claremont Institute', role: 'Founding Director, Center for Constitutional Jurisprudence', type: 'organization' as const },
+    ],
+    controversies: [
+      'Authored two memos outlining how Vice President Pence could reject electoral votes or delay certification on January 6',
+      'Legal theory rejected by federal judge J. Michael Luttig and virtually all conservative constitutional scholars',
+      'Spoke at January 6 rally alongside Giuliani, telling crowd that Pence should act',
+      'Indicted in Georgia RICO case for efforts to overturn the 2020 election',
+      'Disbarred by California State Bar in 2024 for ethical violations related to election overthrow effort',
+      'Pressured Pence directly in Oval Office meeting on January 5, 2021 to reject electoral votes',
+      'Acknowledged in emails that his theory would likely be struck down 9-0 by the Supreme Court',
+    ],
+    relatedInvestigations: [
+      { title: 'January 6 Capitol Attack Coordination', slug: 'january-6-capitol-attack-coordination', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1999', event: 'Joined Chapman University law faculty' },
+      { date: '2020-12', event: 'Drafted first memo proposing Pence could reject electoral votes' },
+      { date: '2021-01-04', event: 'Revised memo into expanded version with step-by-step plan for January 6' },
+      { date: '2021-01-05', event: 'Met with Pence in Oval Office to press theory directly' },
+      { date: '2021-01-06', event: 'Spoke at rally near White House; continued pressuring Pence by text during attack' },
+      { date: '2021-01', event: 'Resigned from Chapman University under pressure from students and faculty' },
+      { date: '2023-08', event: 'Indicted in Georgia RICO case alongside Trump and others' },
+      { date: '2024-03', event: 'Disbarred by California State Bar' },
+    ],
+    sources: [
+      { title: 'January 6 Committee: Eastman Memo Analysis and Testimony', date: '2022' },
+      { title: 'Fulton County DA: State of Georgia v. Trump et al.', date: '2023' },
+      { title: 'California State Bar: In re Eastman - Disbarment Decision', date: '2024' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Developed legal theory at Trumps request to overturn 2020 election', href: '/entities/individuals/donald-trump' },
+      { name: 'Rudy Giuliani', relationship: 'Collaborated on post-election legal strategy and spoke together at January 6 rally', href: '/entities/individuals/rudy-giuliani' },
+      { name: 'Mark Meadows', relationship: 'White House Chief of Staff who facilitated Eastmans access to Trump and Pence', href: '/entities/individuals/mark-meadows' },
+    ],
+  },
+  'jared-kushner': {
+    name: 'Jared Kushner',
+    title: 'Former Senior White House Advisor',
+    role: 'Unqualified Advisor Who Monetized Government Access',
+    riskLevel: 'critical' as const,
+    description: 'Jared Kushner served as Senior Advisor to his father-in-law President Trump despite having no government experience, initially failing to obtain a security clearance due to foreign contacts, and maintaining extensive business interests that created conflicts. After leaving office, his private equity firm received $2 billion from Saudi Arabias sovereign wealth fund despite the funds own advisory panel flagging the investment as problematic.',
+    birthDate: '1981-01-10',
+    birthPlace: 'Livingston, New Jersey',
+    education: [
+      'B.A., Harvard University (2003)',
+      'J.D./M.B.A., New York University (2007)',
+    ],
+    affiliations: [
+      { name: 'White House', role: 'Senior Advisor to the President (2017-2021)', type: 'agency' as const },
+      { name: 'Kushner Companies', role: 'CEO (until 2017, returned after)', type: 'corporation' as const },
+      { name: 'Affinity Partners', role: 'Founder and Managing Partner (2021-present)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Received $2 billion investment from Saudi sovereign wealth fund for Affinity Partners despite its advisory panel recommending against it, citing due diligence concerns',
+      'Initially denied security clearance by career officials; Trump reportedly ordered the clearance over intelligence community objections',
+      'Failed to disclose over 100 foreign contacts on his SF-86 security clearance form; revised it multiple times',
+      'Kushner Companies sought investment from Chinese and Qatari entities while Kushner shaped policy toward those countries',
+      'Appointed to lead COVID-19 supply chain effort; created a shadow operation that undercut state procurement and prioritized political allies',
+      'Led Middle East peace portfolio with no diplomatic experience; Abraham Accords excluded Palestinians entirely',
+      'Father Charles Kushner, convicted of illegal campaign contributions, tax evasion, and witness tampering, was pardoned by Trump',
+    ],
+    relatedInvestigations: [
+      { title: 'Congressional Stock Trading', slug: 'congressional-stock-trading', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2017-01', event: 'Named Senior Advisor to the President; initially denied security clearance' },
+      { date: '2017-06', event: 'Met with Russian lawyer at Trump Tower; failed to initially disclose meeting on SF-86' },
+      { date: '2018-02', event: 'Security clearance downgraded to SECRET amid FBI concerns about foreign influence' },
+      { date: '2019', event: 'Trump reportedly ordered clearance elevated over intelligence officials objections' },
+      { date: '2020-03', event: 'Led White House COVID supply chain effort; shadow operation created confusion among states' },
+      { date: '2020-09', event: 'Abraham Accords signed; normalized relations between Israel and UAE/Bahrain' },
+      { date: '2021-01', event: 'Father Charles Kushner pardoned by Trump' },
+      { date: '2022-04', event: 'Saudi PIF invested $2 billion in Affinity Partners despite advisory panel concerns' },
+    ],
+    sources: [
+      { title: 'House Oversight Committee: Kushner Security Clearance Investigation', date: '2019' },
+      { title: 'New York Times: Kushner Saudi Investment Fund Investigation', url: 'https://www.nytimes.com/', date: '2022' },
+      { title: 'Senate Intelligence Committee: Kushner Foreign Contacts and SF-86', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Father-in-law and president who granted extraordinary policy authority and overrode security clearance denial', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Mnuchin', relationship: 'Fellow administration official who also received $2 billion Saudi investment post-government', href: '/entities/individuals/steve-mnuchin' },
+      { name: 'Mohammed bin Salman', relationship: 'Saudi Crown Prince who approved $2B investment; maintained back-channel communication during administration' },
+    ],
+  },
 };
+
+export default profiles;

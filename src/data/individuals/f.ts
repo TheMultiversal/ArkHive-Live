@@ -1957,7 +1957,138 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
+ 'frank-luntz': {
+  name: 'Frank Luntz',
+  slug: 'frank-luntz',
+  bio: 'Frank Ian Luntz is a political consultant and pollster known as the architect of language manipulation in American politics. As a messaging strategist for the Republican Party, fossil fuel industry, and corporate interests, Luntz crafted euphemistic language designed to reshape public perception of controversial policies. He rebranded the estate tax as the "death tax," climate change as "climate change" (replacing the more alarming "global warming"), the Affordable Care Act as a "government takeover of healthcare," and drilling as "energy exploration." His infamous 2003 memo to Republicans advised them to emphasize "scientific uncertainty" on climate change even as the scientific consensus was overwhelming. Luntz\'s language strategies have been credited with delaying climate action by decades and enabling corporate-friendly policies that harmed millions.',
+  riskLevel: 'medium' as const,
+  status: 'active',
+  lastKnownLocation: 'Washington, D.C.',
+  birthDate: 'February 23, 1962',
+  education: [
+   'B.A., University of Pennsylvania (1984)',
+   'D.Phil., Politics, University of Oxford (1988)',
+  ],
+  affiliations: [
+   { name: 'Luntz Global', role: 'Chairman & CEO (1994-present)', type: 'corporation' as const },
+  ],
+  relatedInvestigations: [
+   { title: 'Fossil Fuel Subsidies and Deception', slug: 'fossil-fuel-subsidies-climate-deception', severity: 'critical' },
+   { title: 'Lobbying and Dark Money', slug: 'lobbying-dark-money-democracy-corruption', severity: 'critical' },
+  ],
+  charges: [
+   { statute: 'N/A - Propaganda', description: 'Crafted language strategies to create doubt about climate science on behalf of fossil fuel interests', category: 'Climate disinformation' },
+   { statute: 'N/A - Political Manipulation', description: 'Developed euphemistic framing that obscured the impact of policies on healthcare, taxation, and environment', category: 'Public deception' },
+  ],
+  criminalHistory: 'No criminal charges. Luntz has not been accused of any crime. His influence operates through legal lobbying and political consulting channels. In 2019, he publicly stated he regretted his role in climate change messaging and acknowledged the crisis is real.',
+  financialInfo: 'Luntz Global has served clients including Fortune 100 companies, political parties, and industry groups. Personal net worth estimated at $10-15 million.',
+  sources: [
+   { title: 'Luntz Memo: The Environment - A Cleaner, Safer, Healthier America', url: 'https://www.sourcewatch.org/index.php/Luntz_Research_Companies', date: '2003' },
+   { title: 'Guardian: Frank Luntz interview on climate change regret', url: 'https://www.theguardian.com/', date: '2019' },
+  ],
+  aliases: [],
+  knownAssociates: [
+   { name: 'Newt Gingrich', relationship: 'Speaker of the House who used Luntz\'s language strategies in the Contract with America' },
+  ],
+ },
+ 'michael-flynn': {
+  name: 'Michael Flynn',
+  title: 'Former National Security Advisor',
+  role: 'Disgraced General Who Pleaded Guilty to Lying to FBI',
+  riskLevel: 'critical' as const,
+  description: 'Michael Flynn served as National Security Advisor for 22 days before being forced to resign for lying about his contacts with the Russian ambassador. He pleaded guilty to making false statements to the FBI, then withdrew his plea and was pardoned by Trump. His post-pardon activities include promoting QAnon conspiracy theories and calling for martial law to overturn the 2020 election.',
+  birthDate: '1958-12-24',
+  birthPlace: 'Middletown, Rhode Island',
+  education: [
+   'B.S., University of Rhode Island (1981)',
+   'M.B.A., Golden Gate University (1998)',
+   'M.A., U.S. Naval War College (2004)',
+  ],
+  affiliations: [
+   { name: 'White House', role: 'National Security Advisor (Jan-Feb 2017)', type: 'agency' as const },
+   { name: 'DIA', role: 'Director, Defense Intelligence Agency (2012-2014)', type: 'agency' as const },
+   { name: 'Flynn Intel Group', role: 'Founder', type: 'corporation' as const },
+  ],
+  controversies: [
+   'Pleaded guilty to making false statements to the FBI about conversations with Russian Ambassador Sergey Kislyak',
+   'Failed to register as a foreign agent for lobbying work on behalf of Turkey worth $530,000 during 2016 campaign',
+   'Led "Lock her up" chants about Hillary Clinton at the 2016 Republican National Convention while himself under investigation',
+   'Discussed kidnapping Turkish dissident Fethullah Gulen from the United States with Turkish officials',
+   'After pardon, publicly called for Trump to declare martial law, suspend the Constitution, and rerun the 2020 election',
+   'Became a prominent promoter of QAnon conspiracy theories; took the QAnon pledge on camera',
+   'Fired from DIA in 2014 for mismanagement; colleagues described his tenure as chaotic and his briefings as unreliable',
+  ],
+  relatedInvestigations: [
+   { title: 'Foreign Election Interference', slug: 'foreign-election-interference-networks', severity: 'critical' },
+  ],
+  timeline: [
+   { date: '2012', event: 'Appointed Director of the Defense Intelligence Agency by Obama' },
+   { date: '2014', event: 'Fired from DIA for mismanagement and insubordination' },
+   { date: '2015', event: 'Attended RT (Russia Today) gala in Moscow; sat next to Vladimir Putin' },
+   { date: '2016', event: 'Began lobbying for Turkish interests through Flynn Intel Group without registering as foreign agent' },
+   { date: '2017-01-20', event: 'Became National Security Advisor' },
+   { date: '2017-02-13', event: 'Resigned after 22 days when lies about Russian contacts were exposed' },
+   { date: '2017-12', event: 'Pleaded guilty to making false statements to FBI' },
+   { date: '2020-11', event: 'Pardoned by Trump; called for martial law to overturn election' },
+  ],
+  sources: [
+   { title: 'Mueller Report: Flynn Investigation and Guilty Plea', date: '2019' },
+   { title: 'DOJ: United States v. Michael T. Flynn - Statement of Offense', date: '2017' },
+   { title: 'Senate Intelligence Committee: Flynn Investigation Materials', date: '2020' },
+  ],
+  aliases: ['General Mike Flynn'],
+  knownAssociates: [
+   { name: 'Donald Trump', relationship: 'President who appointed and then pardoned Flynn; described him as a "fine person" throughout', href: '/entities/individuals/donald-trump' },
+   { name: 'Sidney Powell', relationship: 'Attorney who represented Flynn and later promoted election conspiracy theories' },
+  ],
+ },
+ 'adam-neumann': {
+  name: 'Adam Neumann',
+  title: 'Former CEO of WeWork',
+  role: 'Charismatic Founder Who Burned $40 Billion in Value',
+  riskLevel: 'medium' as const,
+  description: 'Adam Neumann co-founded WeWork and used charisma and hype to inflate its valuation to $47 billion before a disastrous attempted IPO revealed massive losses, self-dealing, and governance failures. He personally profited hundreds of millions of dollars by selling stock and borrowing against shares while the company collapsed, eventual laying off thousands.',
+  birthDate: '1979-04-25',
+  birthPlace: 'Beersheba, Israel',
+  education: [
+   'B.S., Baruch College, City University of New York (2008)',
+  ],
+  affiliations: [
+   { name: 'WeWork', role: 'Co-Founder and CEO (2010-2019)', type: 'corporation' as const },
+   { name: 'Flow (real estate startup)', role: 'Founder and CEO (2022-present)', type: 'corporation' as const },
+  ],
+  controversies: [
+   'WeWork lost $1.6 billion in the first half of 2019 alone while Neumann personally earned hundreds of millions from stock sales and loans against his shares',
+   'Leased buildings he personally owned back to WeWork, creating direct conflicts of interest that enriched him at the company expense',
+   'Trademarked the word "We" and charged WeWork $5.9 million for the right to use it; returned the money only after public outcry during the IPO process',
+   'IPO S-1 filing revealed governance structure giving Neumann outsized voting control and the ability to designate his successor, including a family member',
+   'Company culture involved excessive alcohol consumption, drug use at company events, and retaliation against employees who raised concerns',
+   'Received a $1.7 billion golden parachute from SoftBank when forced out as CEO while thousands of employees were laid off with minimal severance',
+   'Founded new real estate startup Flow and received $350 million from Andreessen Horowitz at a $1 billion valuation despite WeWork catastrophe',
+  ],
+  relatedInvestigations: [
+   { title: 'Cryptocurrency Manipulation Fraud', slug: 'cryptocurrency-manipulation-fraud', severity: 'high' },
+  ],
+  timeline: [
+   { date: '2010', event: 'Co-founded WeWork as a co-working space company' },
+   { date: '2019-01', event: 'WeWork valued at $47 billion by SoftBank' },
+   { date: '2019-08', event: 'IPO S-1 filing revealed massive losses, self-dealing, and governance failures' },
+   { date: '2019-09', event: 'IPO canceled after investors recoiled; valuation crashed from $47B to under $10B' },
+   { date: '2019-10', event: 'Forced to resign as CEO; received $1.7 billion exit package from SoftBank' },
+   { date: '2020', event: 'WeWork laid off thousands of employees; many received weeks of severance' },
+   { date: '2022', event: 'Received $350 million from Andreessen Horowitz for new venture Flow' },
+   { date: '2023-11', event: 'WeWork filed for bankruptcy; Neumann had already cashed out over $1 billion' },
+  ],
+  sources: [
+   { title: 'SEC: WeWork S-1 Filing and Withdrawal', date: '2019' },
+   { title: 'Wall Street Journal: WeWork Governance Investigation', url: 'https://www.wsj.com/', date: '2019' },
+   { title: 'New York AG: WeWork Investor Protection Investigation', date: '2020' },
+  ],
+  aliases: [],
+  knownAssociates: [
+   { name: 'Masayoshi Son', relationship: 'SoftBank CEO who invested billions in WeWork at inflated valuations; later called it a poor judgment call' },
+  ],
+ },
 };
 
 export default profiles;

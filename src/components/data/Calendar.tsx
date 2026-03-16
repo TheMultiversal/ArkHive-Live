@@ -123,7 +123,7 @@ interface EventChipProps {
 }
 
 function EventChip({ event, onClick, compact = false }: EventChipProps) {
- const eventColor = event.color || '#d64545';
+ const eventColor = event.color || '#3b82f6';
 
  return (
  <motion.button

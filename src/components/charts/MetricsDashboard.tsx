@@ -121,11 +121,11 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  <div className="flex items-start justify-between mb-2">
  <div
  className="p-2"
- style={{ backgroundColor: `${metric.color || '#d64545'}20` }}
+ style={{ backgroundColor: `${metric.color || '#3b82f6'}20` }}
  >
  <Icon
  className="w-5 h-5"
- style={{ color: metric.color || '#d64545' }}
+ style={{ color: metric.color || '#3b82f6' }}
  />
  </div>
  {metric.sparklineData && (
@@ -133,7 +133,7 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  data={metric.sparklineData}
  width={80}
  height={24}
- color={metric.color || '#d64545'}
+ color={metric.color || '#3b82f6'}
  />
  )}
  </div>
@@ -168,7 +168,7 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  animate={{ width: `${Math.min(progress, 100)}%` }}
  transition={{ duration: 0.5 }}
  className="h-full"
- style={{ backgroundColor: metric.color || '#d64545' }}
+ style={{ backgroundColor: metric.color || '#3b82f6' }}
  />
  </div>
  </div>

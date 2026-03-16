@@ -88,8 +88,8 @@ export default function BloodyRewriteText({
  <span 
  className="relative bg-gradient-to-b from-blood-600 via-blood-700 to-blood-800 bg-clip-text text-transparent"
  style={{
- WebkitTextStroke: '1px rgba(127, 29, 29, 0.5)',
- textShadow: '0 0 30px rgba(220, 38, 38, 0.5), 0 0 60px rgba(220, 38, 38, 0.3)',
+ WebkitTextStroke: '1px rgba(30, 64, 175, 0.5)',
+ textShadow: '0 0 30px rgba(37, 99, 235, 0.5), 0 0 60px rgba(37, 99, 235, 0.3)',
  filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.8))',
  }}
  >
@@ -101,7 +101,7 @@ export default function BloodyRewriteText({
  className="inline-block w-1 h-[0.9em] bg-blood-600 ml-1 align-baseline"
  animate={{ opacity: [1, 0, 1] }}
  transition={{ duration: 0.5, repeat: Infinity }}
- style={{ boxShadow: '0 0 10px #dc2626' }}
+ style={{ boxShadow: '0 0 10px #2563eb' }}
  />
  )}
  </span>
@@ -138,9 +138,9 @@ export default function BloodyRewriteText({
  <svg width="8"height="16"viewBox="0 0 8 16">
  <defs>
  <linearGradient id={`dropGrad-${drip.id}`} x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#ef4444"/>
- <stop offset="50%"stopColor="#dc2626"/>
- <stop offset="100%"stopColor="#991b1b"/>
+ <stop offset="0%"stopColor="#60a5fa"/>
+ <stop offset="50%"stopColor="#2563eb"/>
+ <stop offset="100%"stopColor="#1e3a8a"/>
  </linearGradient>
  </defs>
  <path
@@ -148,7 +148,7 @@ export default function BloodyRewriteText({
  fill={`url(#dropGrad-${drip.id})`}
  />
  {/* Highlight */}
- <ellipse cx="2.5"cy="9"rx="1"ry="2"fill="#fca5a5"opacity="0.4"/>
+ <ellipse cx="2.5"cy="9"rx="1"ry="2"fill="#93c5fd"opacity="0.4"/>
  </svg>
  </motion.div>
  ))}

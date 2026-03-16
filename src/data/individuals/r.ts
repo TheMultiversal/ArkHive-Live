@@ -2,127 +2,6 @@
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
- 'rudy-giuliani': {
- name: 'Rudolph William Louis Giuliani',
- title: 'Disbarred Attorney, Indicted Felon',
- role: 'Former Trump Personal Attorney, Former NYC Mayor',
- riskLevel: 'critical',
- description: 'Rudy Giuliani is a disbarred attorney and former Mayor of New York City who served as Donald Trump\'s personal lawyer. Once"America\'s Mayor"after 9/11, he became a central figure in the Ukraine pressure campaign that led to Trump\'s first impeachment and the efforts to overturn the 2020 election. Now facing criminal charges in multiple states, defamation judgments exceeding $148 million, and personal bankruptcy.',
- birthDate: 'May 28, 1944',
- birthPlace: 'Brooklyn, New York City, USA',
- netWorth: 'Negative ($150+ million in debts, bankruptcy filed 2023)',
- education: ['J.D., New York University School of Law (1968)', 'B.A., Manhattan College (1965)'],
- affiliations: [
- { name: 'Trump Legal Team', role: 'Personal Attorney (2018-2021)', type: 'organization' },
- { name: 'Giuliani Partners', role: 'Founder (Consulting)', type: 'corporation' },
- { name: 'City of New York', role: 'Mayor (1994-2001)', type: 'agency' },
- { name: 'SDNY', role: 'U.S. Attorney (1983-1989)', type: 'agency' },
- { name: 'Bracewell & Giuliani', role: 'Partner', type: 'corporation' },
- ],
- controversies: [
- 'UKRAINE PRESSURE CAMPAIGN: Orchestrated scheme to pressure Ukraine to announce investigation into Biden, led to Trump impeachment',
- 'FOUR SEASONS TOTAL LANDSCAPING: November 7, 2020 press conference at landscaping company (next to sex shop) became symbol of incompetence',
- 'HAIR DYE INCIDENT: November 19, 2020 press conference with hair dye or mascara running down face',
- 'ELECTION LIES: Promoted demonstrably false claims about 2020 election, Dominion voting machines, dead voters',
- 'RUBY FREEMAN/SHAYE MOSS: Repeatedly defamed Georgia election workers with false ballot claims, owes $148M judgment',
- 'GEORGIA RICO: Indicted on 13 counts in Georgia fake electors scheme',
- 'ARIZONA INDICTMENT: Indicted in Arizona fake electors scheme',
- 'DISBARRED: Lost law licenses in New York (2024) and Washington D.C. for election lies',
- 'BANKRUPTCY: Filed for bankruptcy December 2023 with $150M+ in debts',
- 'DRUNK ALLEGATIONS: Multiple reports of erratic behavior, smelling of alcohol at key moments',
- 'BORAT INCIDENT: Caught in compromising position with woman he thought was 15 (actress) in Borat 2',
- 'CREDIBILITY COLLAPSE: Went from respected prosecutor to national laughingstock',
- ],
- charges: [
- { statute: 'Georgia RICO O.C.G.A. § 16-14-4', description: 'Racketeering; fake electors scheme', category: 'Organized Crime' },
- { statute: 'O.C.G.A. § 16-10-20', description: 'False statements to government bodies (2 counts)', category: 'Fraud' },
- { statute: 'O.C.G.A. § 16-4-7', description: 'Solicitation of violation of oath by public officer (3 counts)', category: 'Election Crimes' },
- { statute: 'O.C.G.A. § 16-10-23', description: 'Filing false documents (3 counts)', category: 'Fraud' },
- { statute: 'O.C.G.A. § 16-14-4', description: 'Conspiracy to commit forgery in the first degree', category: 'Fraud' },
- { statute: 'Arizona A.R.S. § 13-2310', description: 'Fraudulent schemes (Arizona fake electors)', category: 'Election Crimes' },
- { statute: 'Arizona A.R.S. § 16-1003', description: 'Forgery (signing false electoral documents)', category: 'Election Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Georgia RICO Election Crimes', slug: 'georgia-rico', severity: 'critical' },
- { title: 'Ukraine Extortion Scheme', slug: 'ukraine-extortion', severity: 'critical' },
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
- ],
- timeline: [
- { date: '1944', event: 'Born in Brooklyn, New York' },
- { date: '1968', event: 'Graduates NYU Law School' },
- { date: '1983', event: 'Appointed U.S. Attorney for SDNY' },
- { date: '1986', event: 'Prosecutes Mafia Commission Trial, convicts mob bosses' },
- { date: '1989', event: 'Leaves SDNY after prosecuting 4,152 cases' },
- { date: '1994', event: 'Elected Mayor of New York City' },
- { date: '2001', event: '9/11 response, becomes"America\'s Mayor"' },
- { date: '2008', event: 'Failed presidential campaign' },
- { date: '2018', event: 'Joins Trump legal team' },
- { date: 'Jan 2019', event: 'Begins Ukraine pressure campaign with Parnas and Fruman' },
- { date: 'Sep 2019', event: 'Ukraine scheme exposed after whistleblower complaint' },
- { date: 'Oct 2019', event: 'Parnas and Fruman arrested at Dulles Airport fleeing country' },
- { date: 'Dec 2019', event: 'Trump impeached partly due to Ukraine scheme' },
- { date: 'Nov 7, 2020', event: 'Four Seasons Total Landscaping press conference' },
- { date: 'Nov 19, 2020', event: 'Hair dye press conference' },
- { date: 'Dec 2020', event: 'Presents false election claims to state legislatures' },
- { date: 'Jan 6, 2021', event: 'Speaks at Ellipse rally before Capitol attack' },
- { date: 'Jun 2021', event: 'New York suspends law license' },
- { date: 'Aug 2023', event: 'Indicted in Georgia RICO case (13 counts)' },
- { date: 'Dec 2023', event: '$148 million defamation judgment (Freeman/Moss)' },
- { date: 'Dec 2023', event: 'Files for bankruptcy' },
- { date: 'Apr 2024', event: 'Indicted in Arizona fake electors case' },
- { date: 'Jul 2024', event: 'Disbarred in New York' },
- { date: 'Sep 2024', event: 'Disbarred in Washington D.C.' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
- { title: 'Freeman v. Giuliani Defamation Judgment', url: 'https://www.courtlistener.com/docket/63178855/freeman-v-giuliani/', date: '2023' },
- { title: 'NY Bar Suspension Order', url: 'https://www.nycourts.gov/courts/ad1/calendar/List_Word/2021/06_Jun/24/PDF/Matter%20of%20Giuliani%20(2021-00506).pdf', date: '2021' },
- { title: 'Arizona Indictment', url: 'https://www.azag.gov/press-release/indictment-unsealed-state-v-meadows-et-al', date: '2024' },
- { title: 'House Impeachment Report', url: 'https://intelligence.house.gov/report/', date: '2019' },
- { title: 'Parnas SDNY Conviction', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-found-guilty-campaign-finance-charges', date: '2021' },
- ],
- aliases: ['America\'s Mayor', 'Rudy', 'Mayor Giuliani'],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Client, unindicted co-conspirator', href: '/entities/individuals/donald-trump' },
- { name: 'Lev Parnas', relationship: 'Ukraine scheme associate, convicted felon', href: '/entities/individuals/lev-parnas' },
- { name: 'Igor Fruman', relationship: 'Ukraine scheme associate, convicted felon', href: '/entities/individuals/igor-fruman' },
- { name: 'John Eastman', relationship: 'Fellow fake electors conspirator', href: '/entities/individuals/john-eastman' },
- { name: 'Sidney Powell', relationship: 'Fellow election lie promoter', href: '/entities/individuals/sidney-powell' },
- { name: 'Jenna Ellis', relationship: 'Fellow Trump lawyer, cooperating witness', href: '/entities/individuals/jenna-ellis' },
- { name: 'Mark Meadows', relationship: 'Georgia RICO co-defendant', href: '/entities/individuals/mark-meadows' },
- { name: 'Ruby Freeman', relationship: 'Defamation victim, election worker', href: '/entities/individuals/ruby-freeman' },
- { name: 'Shaye Moss', relationship: 'Defamation victim, election worker', href: '/entities/individuals/shaye-moss' },
- ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'roger-stone': {
  name: 'Roger Jason Stone Jr.',
  title: 'Convicted Felon (Pardoned), Professional Dirty Trickster',
@@ -2510,41 +2389,6 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
- 'richard-sackler': {
- name: 'Richard Sackler',
- title: 'Pharmaceutical Executive',
- role: 'Former President of Purdue Pharma',
- riskLevel: 'critical',
- description: 'Richard Sackler led Purdue Pharma as it marketed OxyContin knowing it was addictive. Internal documents show he pushed aggressive sales while the opioid crisis killed hundreds of thousands. The Sackler family extracted billions before bankruptcy.',
- birthDate: '1945',
- birthPlace: 'New York',
- education: ['Columbia University', 'NYU School of Medicine (MD)'],
- affiliations: [
- { name: 'Purdue Pharma', role: 'President, Board Member', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Mortimer Sackler', relationship: 'Brother' },
- { name: 'Arthur Sackler', relationship: 'Uncle (deceased)' },
- ],
- controversies: [
- 'OPIOID CRISIS: Pushed OxyContin sales knowing addiction risk',
- 'DENIAL:"We have to hammer on abusers "not addiction',
- 'WEALTH EXTRACTION: Family took $10+ billion from Purdue',
- 'BANKRUPTCY SHIELD: Used bankruptcy to avoid accountability',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Purdue Pharma Opioids', slug: 'purdue-pharma-opioids', severity: 'critical' },
- { title: 'Opioid Crisis', slug: 'opioid-crisis', severity: 'critical' },
- ],
- timeline: [
- { date: '1999', event: 'Becomes President of Purdue' },
- { date: '2007', event: 'Purdue pleads guilty to misleading marketing' },
- { date: '2019', event: 'Purdue files bankruptcy' },
- { date: '2021', event: 'Sacklers agree to $4.5B settlement' },
- ],
- sources: [{ title: 'Wikipedia: Richard Sackler', url: 'https://en.wikipedia.org/wiki/Richard_Sackler' }, { title: 'Bloomberg: Richard Sackler', url: 'https://www.bloomberg.com/' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
- },
  'randy-babbitt': {
  name: 'Randy Babbitt',
  title: 'Aviation Labor Leader',
@@ -3087,34 +2931,6 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  sources: [{ title: 'Wikipedia: Roger Ailes', url: 'https://en.wikipedia.org/wiki/Roger_Ailes' }, { title: 'Bloomberg: Roger Ailes', url: 'https://www.bloomberg.com/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  },
- 'rick-scott': {
- name: 'Rick Scott',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Rick Scott. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Court documents from related proceedings reference Rick Scott as a key decision-maker during periods where regulatory violations were later documented.',
- 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Rick Scott coordinated messaging strategies designed to suppress unfavorable information.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [ ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
-
-
-
  'recep-tayyip-erdogan': {
  name: 'Recep Tayyip Erdogan',
  title: 'Profile Under Review',
@@ -3211,35 +3027,6 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'rod-blagojevich': {
- name: 'Rod Blagojevich',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Rod Blagojevich. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Investigative analysis reveals Rod Blagojevich was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
- 'Court documents from related proceedings reference Rod Blagojevich as a key decision-maker during periods where regulatory violations were later documented.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
-
-
-
  'reid-hoffman': {
  name: 'Reid Hoffman',
  title: 'Billionaire Investor',
@@ -4636,31 +4423,44 @@ const profiles: Record<string, IndividualProfile> = {
 
  'robert-hugin': {
  name: 'Robert Hugin',
- title: 'Celgene CEO who raised Revlimid price 20 times over 15 years; $500 to $16,023 per month',
- role: 'Celgene CEO who raised Revlimid price 20 times over 15 years; $500 to $16,023 per month',
- riskLevel: 'high',
- description: 'Robert Hugin. Profile pending review.',
- education: [],
+ title: 'Former Chairman and CEO of Celgene Corporation',
+ role: 'Pharmaceutical executive who raised the price of the cancer drug Revlimid 20 times over 15 years from $500 to $16,023 per month while extracting hundreds of millions in personal compensation',
+ riskLevel: 'critical' as const,
+ description: 'Robert J. Hugin (born 1954) served as CEO and later Executive Chairman of Celgene Corporation, one of the largest biotechnology companies in the world, from 2010 to 2018. Under his leadership, Celgene raised the price of Revlimid (lenalidomide), a critical cancer treatment for multiple myeloma and other blood cancers, 20 times over 15 years, from approximately $500 per month to over $16,023 per month. Revlimid became the single highest-grossing cancer drug in the world, generating over $12 billion in annual revenue at its peak. Hugin personal compensation during his tenure totaled hundreds of millions of dollars, including stock options and equity grants that made him one of the wealthiest pharmaceutical executives in the country. During the 2018 New Jersey Senate race, Hugin spent over $36 million of his own money on his campaign, drawing national attention to the source of his wealth. Celgene used a strategy of patent thickets and legal maneuvers to block generic competition for Revlimid, including filing over 100 patents and suing any company that attempted to produce a cheaper version. The FTC investigated Celgene anti-competitive practices. In 2019, Bristol-Myers Squibb acquired Celgene for $74 billion, one of the largest pharmaceutical mergers in history.',
+ birthDate: '1954-02-28',
+ birthPlace: 'Reading, Pennsylvania',
+ education: ['Princeton University (B.A.)', 'University of Virginia Darden School of Business (M.B.A.)'],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: Robert Houghton', type: 'organization' },
+ { name: 'Celgene Corporation', role: 'CEO (2010-2016), Executive Chairman (2016-2018); oversaw 20 price increases on the cancer drug Revlimid', type: 'corporation' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
- 'Whistleblower disclosures and Freedom of Information Act requests have surfaced communications suggesting Robert Hugin coordinated messaging strategies designed to suppress unfavorable information.',
- 'Investigative journalists have documented a pattern of revolving-door employment between Robert Hugin\'s operations and the regulatory bodies meant to provide oversight.',
+ 'Oversaw 20 price increases on Revlimid over 15 years, raising the price from $500 to $16,023 per month for cancer patients',
+ 'Celgene filed over 100 patents on Revlimid to block generic competition, a practice known as patent thicketing',
+ 'Received hundreds of millions in personal compensation from Celgene stock options and equity while cancer patients faced financial ruin from Revlimid costs',
+ 'FTC investigated Celgene anti-competitive practices including agreements with generic manufacturers to delay market entry',
+ 'Spent over $36 million of personal pharmaceutical wealth on a failed 2018 New Jersey Senate campaign',
+ 'Revlimid generated over $12 billion in annual revenue at peak pricing, making it the highest-grossing cancer drug in history',
+ 'Celgene settled shareholder litigation for $100 million over claims the company misled investors about the Revlimid patent strategy',
  ],
- charges: [],
  relatedInvestigations: [
- { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'high' },
+ { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'critical' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Celgene CEO who raised Revlimid price 20 times over 15 years; $500 to $16,023 per month' }, ],
- socialMedia: [],
+ { date: '1999', event: 'Joins Celgene as Senior Vice President' },
+ { date: '2006', event: 'Revlimid receives FDA approval for multiple myeloma; price increase strategy begins' },
+ { date: '2010', event: 'Becomes CEO of Celgene; accelerates Revlimid price increases' },
+ { date: '2016', event: 'Transitions to Executive Chairman; Revlimid price exceeds $16,000 per month' },
+ { date: '2018', event: 'Spends $36 million of personal wealth on New Jersey Senate race; loses to Bob Menendez' },
+ { date: '2019', event: 'Bristol-Myers Squibb acquires Celgene for $74 billion; Hugin departs with substantial exit compensation' },
+ ],
  sources: [
- { title: 'Wikipedia: Robert Hugin', url: 'https://www.google.com/search?q=Robert%20Hugin', date: '' }, ],
- aliases: [],
+ { title: 'Senate HELP Committee: Drug Pricing Investigation - Celgene/Revlimid', date: '2019' },
+ { title: 'FTC: Investigation of Celgene Anti-Competitive Patent Practices', date: '2020' },
+ { title: 'SEC: Celgene Corporation Executive Compensation Filings', date: '2010-2018' },
+ ],
  knownAssociates: [
- { name: 'Richard Sackler', relationship: 'Fellow pharmaceutical industry exec facing opioid scrutiny', href: '/entities/individuals/richard-sackler' },
+ { name: 'Mark Alles', relationship: 'Successor as Celgene CEO (2016-2019) who continued the Revlimid pricing and patent strategy' },
+ { name: 'Richard Sackler', relationship: 'Fellow pharmaceutical executive who used similar strategies to maximize drug revenue at the expense of patients', href: '/entities/individuals/richard-sackler' },
  ],
  },
 
@@ -5261,39 +5061,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Scott Lloyd', relationship: 'Fellow Trump HHS official restricting reproductive rights', href: '/entities/individuals/scott-lloyd' },
  ],
  },
-
- 'romeo-dallaire': {
- name: 'Roméo Dallaire',
- title: 'Canadian UN force commander who warned of genocide and pleaded for reinforcements',
- role: 'Canadian UN force commander who warned of genocide and pleaded for reinforcements',
- riskLevel: 'high',
- description: 'Roméo Dallaire. Profile pending review.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Roger Severino', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Rwanda Genocide Inaction', slug: 'rwanda-genocide-inaction', severity: 'high' },
- ],
- timeline: [
- { date: 'Ongoing', event: 'Active in role as Canadian UN force commander who warned of genocide and pleaded for reinforcements' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Wikipedia: Roméo Dallaire', url: 'https://en.wikipedia.org/wiki/Roméo_Dallaire', date: '' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'Kofi Annan', relationship: 'UN head who denied Dallaire\'s requests for reinforcements in Rwanda', href: '/entities/individuals/kofi-annan' },
- { name: 'Paul Kagame', relationship: 'RPF leader whose intervention ended genocide Dallaire tried to prevent', href: '/entities/individuals/paul-kagame' },
- { name: 'Theoneste Bagosora', relationship: 'Genocide architect Dallaire tried to stop', href: '/entities/individuals/theoneste-bagosora' },
- ],
- },
-
  'ron-wyden': {
  name: 'Ron Wyden',
  title: 'Profile Under Review',
@@ -6502,19 +6269,837 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
+  'radovan-karadzic': {
+    name: 'Radovan Karadzic',
+    title: 'President of Republika Srpska (1992-1996)',
+    role: 'Convicted War Criminal and Architect of Bosnian Genocide',
+    riskLevel: 'critical',
+    description: 'Radovan Karadzic was the political leader of Bosnian Serbs during the Bosnian War (1992-1995). As President of Republika Srpska, he presided over a campaign of ethnic cleansing that included the Srebrenica massacre (8,372 murdered), the siege of Sarajevo (11,541 killed), concentration camps, systematic mass rape, and the forced expulsion of non-Serb populations. Convicted of genocide, crimes against humanity, and war crimes, he is serving a life sentence.',
+    birthDate: '1945-06-19',
+    birthPlace: 'Petnjica, Montenegro, Yugoslavia',
+    education: ['University of Sarajevo - Medicine and Psychiatry', 'Columbia University - Research fellowship'],
+    affiliations: [
+      { name: 'Republika Srpska', role: 'Founding President (1992-1996)', type: 'agency' },
+      { name: 'Serbian Democratic Party (SDS)', role: 'Founder and President', type: 'organization' },
+      { name: 'Army of Republika Srpska (VRS)', role: 'Supreme Commander as President', type: 'agency' },
+    ],
+    controversies: [
+      'Convicted of genocide for the Srebrenica massacre where 8,372 Bosniak men and boys were systematically executed',
+      'Directed the 1,425-day siege of Sarajevo that killed 11,541 civilians including 1,601 children',
+      'Ordered and oversaw concentration camps including Omarska, Keraterm, and Trnopolje',
+      'Directed a campaign of ethnic cleansing that forcibly expelled over 1 million non-Serb civilians',
+      'Oversaw systematic mass rape of Bosniak women as a weapon of ethnic cleansing',
+      'Issued Directive 7 in March 1995 ordering creation of unbearable conditions for Bosniaks in Srebrenica',
+      'Evaded justice for 13 years as "Dragan Dabic," an alternative medicine practitioner in Belgrade',
+      'Destroyed over 1,200 mosques and hundreds of Catholic churches as part of cultural genocide',
+    ],
+    charges: [
+      { statute: 'ICTY - Genocide (Article 4)', description: 'Convicted of genocide for the Srebrenica massacre of July 1995', category: 'Genocide' },
+      { statute: 'ICTY - Crimes Against Humanity (Article 5)', description: 'Persecution, extermination, murder, deportation, and inhumane acts', category: 'Crimes Against Humanity' },
+      { statute: 'ICTY - War Crimes (Articles 2 and 3)', description: 'Murder, torture, terror, destruction of cultural/religious property, hostage-taking', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Bosnian Genocide and Srebrenica Massacre', slug: 'bosnian-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1945-06-19', event: 'Born in Petnjica, Montenegro' },
+      { date: '1990', event: 'Founds the Serbian Democratic Party (SDS) in Bosnia' },
+      { date: '1992-04', event: 'Becomes President of Republika Srpska as Bosnian War begins' },
+      { date: '1995-03', event: 'Issues Directive 7 ordering unbearable conditions for Bosniaks in Srebrenica' },
+      { date: '1995-07-11', event: 'VRS overruns Srebrenica "safe area"; genocide of 8,372 begins' },
+      { date: '1995-07-25', event: 'Indicted by ICTY for genocide, crimes against humanity, and war crimes' },
+      { date: '2008-07-21', event: 'Arrested in Belgrade after 13 years as fugitive' },
+      { date: '2016-03-24', event: 'Found guilty of genocide; sentenced to 40 years' },
+      { date: '2019-03-20', event: 'Appeals chamber increases sentence to life imprisonment' },
+    ],
+    sources: [
+      { title: 'ICTY - Prosecutor v. Karadzic (IT-95-5/18)', url: 'https://www.icty.org/en/case/karadzic', date: '2016' },
+    ],
+    aliases: ['Dragan Dabic (fugitive identity)'],
+    knownAssociates: [
+      { name: 'Ratko Mladic', relationship: 'VRS Commander who carried out Srebrenica massacre', href: '/individuals/ratko-mladic' },
+      { name: 'Slobodan Milosevic', relationship: 'Serbian President who supported Bosnian Serb forces', href: '/individuals/slobodan-milosevic' },
+    ],
+  },
+  'ratko-mladic': {
+    name: 'Ratko Mladic',
+    title: 'Commander of the Army of Republika Srpska (VRS)',
+    role: 'Convicted Genocidaire - The "Butcher of Bosnia"',
+    riskLevel: 'critical',
+    description: 'General Ratko Mladic commanded the Army of Republika Srpska during the Bosnian War. He personally directed the Srebrenica massacre, entered the town on camera declaring it a "gift to the Serbian people," oversaw the siege of Sarajevo, and commanded operations involving concentration camps and mass rape. Convicted of genocide, crimes against humanity, and war crimes, serving life imprisonment.',
+    birthDate: '1943-03-12',
+    birthPlace: 'Bozanovici, Bosnia, Yugoslavia',
+    education: ['Military Academy, Belgrade', 'Yugoslav People\'s Army officer training'],
+    affiliations: [
+      { name: 'Army of Republika Srpska (VRS)', role: 'Commander-in-Chief (1992-1996)', type: 'agency' },
+      { name: 'Yugoslav People\'s Army (JNA)', role: 'Career officer', type: 'agency' },
+    ],
+    controversies: [
+      'Convicted of genocide for directing the Srebrenica massacre that killed 8,372 Bosniak men and boys',
+      'Personally offered candy to Bosniak children in Potocari while their fathers were being separated for execution',
+      'Directed snipers targeting civilians in Sarajevo including children',
+      'Took 400 UN peacekeepers hostage, chaining them to military targets as human shields',
+      'Evaded justice for 16 years living under protection in Serbia',
+    ],
+    charges: [
+      { statute: 'ICTY - Genocide (Srebrenica)', description: 'Planning and directing the systematic murder of 8,372 Bosniak men and boys', category: 'Genocide' },
+      { statute: 'ICTY - Crimes Against Humanity', description: 'Persecution, extermination, murder, deportation', category: 'Crimes Against Humanity' },
+      { statute: 'ICTY - War Crimes', description: 'Murder, terror, hostage-taking, unlawful attacks on civilians', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Bosnian Genocide and Srebrenica Massacre', slug: 'bosnian-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1943-03-12', event: 'Born in Bozanovici, Bosnia' },
+      { date: '1992-05-12', event: 'Appointed Commander of VRS' },
+      { date: '1995-07-11', event: 'Enters Srebrenica; orders separation and execution of men and boys' },
+      { date: '1995-07-25', event: 'Indicted by ICTY for genocide' },
+      { date: '2011-05-26', event: 'Arrested in Serbia after 16 years as fugitive' },
+      { date: '2017-11-22', event: 'Convicted of genocide; sentenced to life imprisonment' },
+      { date: '2021-06-08', event: 'Life sentence upheld on appeal' },
+    ],
+    sources: [
+      { title: 'ICTY - Prosecutor v. Mladic (IT-09-92)', url: 'https://www.icty.org/en/case/mladic', date: '2017' },
+    ],
+    aliases: ['Butcher of Bosnia'],
+    knownAssociates: [
+      { name: 'Radovan Karadzic', relationship: 'Political leader of Republika Srpska', href: '/individuals/radovan-karadzic' },
+    ],
+  },
+  'romeo-dallaire': {
+    name: 'Romeo Dallaire',
+    title: 'Canadian Senator and Retired Lieutenant-General',
+    role: 'UN Force Commander in Rwanda Who Warned of Genocide',
+    riskLevel: 'low',
+    description: 'Lieutenant-General Romeo Dallaire served as Force Commander of UNAMIR during the 1994 Rwandan genocide. He sent the famous "Genocide Fax" warning UN headquarters on January 11, 1994. His pleas for reinforcements were denied. Dallaire remained throughout the genocide, saving thousands while 800,000 were murdered. He suffered severe PTSD and became an advocate against genocide.',
+    birthDate: '1946-06-25',
+    birthPlace: 'Denekamp, Netherlands',
+    education: ['Royal Military College of Canada', 'US Marine Corps Command and Staff College'],
+    affiliations: [
+      { name: 'UNAMIR', role: 'Force Commander (1993-1994)', type: 'organization' },
+      { name: 'Canadian Armed Forces', role: 'Lieutenant-General (Retired)', type: 'agency' },
+      { name: 'Canadian Senate', role: 'Senator (2005-2014)', type: 'agency' },
+    ],
+    controversies: [
+      'Sent "Genocide Fax" warning on January 11, 1994 - UN refused to authorize action',
+      'Pleaded for reinforcements; Security Council instead reduced his force from 2,500 to 270',
+      'Remained in Rwanda throughout genocide, risking his life to protect civilians',
+      'Suffered severe PTSD; attempted suicide multiple times; became mental health advocate',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Rwandan Genocide', slug: 'rwandan-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1946-06-25', event: 'Born in Netherlands' },
+      { date: '1993-10', event: 'Arrives in Kigali as UNAMIR Force Commander' },
+      { date: '1994-01-11', event: 'Sends "Genocide Fax" warning of extermination plan' },
+      { date: '1994-04-06', event: 'Genocide begins; Dallaire pleads for help' },
+      { date: '1994-04-21', event: 'UN reduces UNAMIR from 2,500 to 270 troops' },
+      { date: '2003', event: 'Publishes "Shake Hands with the Devil"' },
+    ],
+    sources: [
+      { title: 'Shake Hands with the Devil by Romeo Dallaire', url: 'https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/', date: '2003' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Theoneste Bagosora', relationship: 'Organized the genocide Dallaire tried to prevent', href: '/individuals/theoneste-bagosora' },
+    ],
+  },
+  'robert-menendez': {
+    name: 'Robert Menendez',
+    title: 'Former U.S. Senator (D-NJ)',
+    role: 'Indicted and convicted sitting U.S. senator who served as Chairman of the Senate Foreign Relations Committee while secretly acting as a foreign agent for Egypt and Qatar, accepting hundreds of thousands in gold bars, cash, and a Mercedes-Benz',
+    riskLevel: 'critical',
+    description: 'Robert Menendez served as a U.S. Senator from New Jersey from 2006 to 2024 and as Chairman of the Senate Foreign Relations Committee - one of the most powerful positions in American foreign policy. In September 2023, he was indicted on federal charges of bribery, acting as a foreign agent, obstruction of justice, and extortion. Prosecutors alleged that Menendez and his wife Nadine accepted over $480,000 in gold bars, $70,000+ in cash (found stuffed in jacket pockets and envelopes), a Mercedes-Benz convertible, and other items of value from three New Jersey businessmen in exchange for using his official power to benefit the government of Egypt, interfere with federal criminal investigations, and secure monopoly rights for a halal meat certification company. A search of Menendez\'s home found gold bars traceable to a specific serial number registered to one of the co-defendants. Menendez was convicted on all 16 counts in July 2024 and resigned from the Senate in August 2024. This was his SECOND federal corruption trial - he was previously tried in 2017 on charges of accepting gifts from Florida eye doctor Salomon Melgen in exchange for political favors; that trial ended in a hung jury.',
+    birthDate: 'January 1, 1954',
+    birthPlace: 'New York City, New York',
+    education: ['St. Peter\'s University (B.A.)', 'Rutgers School of Law (J.D.)'],
+    affiliations: [
+      { name: 'U.S. Senate (D-NJ)', role: 'Senator', type: 'agency' as const },
+      { name: 'Senate Foreign Relations Committee', role: 'Chairman', type: 'agency' as const },
+    ],
+    controversies: [
+      'Convicted on all 16 federal counts including bribery, acting as foreign agent (Egypt), extortion, and obstruction of justice (July 2024)',
+      'Over $480,000 in gold bars and $70,000+ in cash found in home during FBI search',
+      'Accepted Mercedes-Benz convertible from co-defendant while using position to benefit Egyptian government',
+      'Used Senate Foreign Relations Committee chairmanship to provide sensitive U.S. government information to Egypt',
+      'Previously tried in 2017 for accepting luxury trips, campaign contributions, and gifts from Dr. Salomon Melgen (hung jury)',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 201(b)', description: 'Bribery of a public official - accepting gold bars, cash, and luxury vehicles in exchange for official acts', category: 'federal' },
+      { statute: '18 U.S.C. 951', description: 'Acting as an unregistered agent of a foreign government (Egypt)', category: 'federal' },
+      { statute: '18 U.S.C. 1951', description: 'Extortion under color of official right (Hobbs Act)', category: 'federal' },
+      { statute: '18 U.S.C. 1512', description: 'Obstruction of justice - attempting to influence and impede federal investigations', category: 'federal' },
+      { statute: '18 U.S.C. 371', description: 'Conspiracy to commit bribery, honest services fraud, and extortion', category: 'federal' },
+      { statute: '22 U.S.C. 611', description: 'FARA violation - acting as agent of Egypt without registration', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/aipac-foreign-influence-machine', '/investigations/congressional-insider-trading'],
+    timeline: [
+      { date: '2006-01-18', event: 'Appointed to U.S. Senate to fill vacancy' },
+      { date: '2015-04-01', event: 'First federal indictment on corruption charges (Melgen case)' },
+      { date: '2017-11-16', event: 'First trial ends in hung jury; charges dismissed' },
+      { date: '2023-09-22', event: 'Second federal indictment: bribery, foreign agent, extortion' },
+      { date: '2024-07-16', event: 'Convicted on all 16 federal counts' },
+      { date: '2024-08-20', event: 'Resigns from U.S. Senate' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Robert Menendez et al.', url: 'https://www.justice.gov/usao-sdny/united-states-v-robert-menendez-et-al', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Nadine Menendez', relationship: 'Wife and co-defendant; accepted bribes alongside senator' },
+      { name: 'Wael Hana', relationship: 'Co-defendant; owner of IS EG Halal who received Egyptian government monopoly through Menendez influence' },
+    ],
+  },
+  'rick-scott': {
+    name: 'Rick Scott',
+    title: 'U.S. Senator (R-FL), Former Governor of Florida',
+    role: 'CEO who presided over the largest Medicare fraud in American history ($1.7 billion settlement), then escaped criminal prosecution and used his personal fortune to become governor and senator',
+    riskLevel: 'high',
+    description: 'Rick Scott was the CEO and co-founder of Columbia/HCA Healthcare Corporation, which became the largest for-profit hospital chain in the United States. In 1997, the FBI raided HCA offices in a massive healthcare fraud investigation. Scott resigned as CEO shortly after. In 2000-2003, HCA agreed to pay $1.7 billion in settlements - the largest healthcare fraud settlement in U.S. history at the time - for systematically defrauding Medicare and Medicaid through upcoding, kickbacks to physicians, and billing for services never provided. Scott was never personally charged, invoking the Fifth Amendment 75 times during depositions. He received a $300 million severance package and $10 million in stock. Scott then spent $75 million of his personal fortune to win the Florida governorship in 2010, and was elected to the U.S. Senate in 2018. As governor, he opposed Medicaid expansion under the ACA - the same program his company had defrauded.',
+    birthDate: 'December 1, 1952',
+    birthPlace: 'Bloomington, Illinois',
+    education: ['University of Missouri-Kansas City (B.A.)', 'Southern Methodist University (J.D.)'],
+    affiliations: [
+      { name: 'U.S. Senate (R-FL)', role: 'Senator', type: 'agency' as const },
+      { name: 'State of Florida', role: 'Governor', type: 'agency' as const },
+      { name: 'Columbia/HCA Healthcare Corporation', role: 'CEO/Co-founder', type: 'corporation' as const },
+    ],
+    controversies: [
+      'CEO of Columbia/HCA during largest Medicare fraud in U.S. history ($1.7 billion settlement)',
+      'Invoked Fifth Amendment 75 times during fraud depositions; never personally charged',
+      'Received $300 million severance after forced resignation during FBI investigation',
+      'Spent $75 million of personal fortune on gubernatorial campaign',
+      'As governor, opposed Medicaid expansion for the program his company defrauded',
+      'Oversaw purge of 180,000 voters from Florida rolls before 2012 election',
+    ],
+    charges: [
+      { statute: '31 U.S.C. 3729-3733', description: 'Columbia/HCA paid $1.7B under False Claims Act for Medicare/Medicaid fraud (Scott personally not charged)', category: 'federal' },
+      { statute: '42 U.S.C. 1320a-7b', description: 'HCA paid illegal kickbacks to physicians for patient referrals', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/medicare-medicaid-fraud-trillion-dollar-theft'],
+    timeline: [
+      { date: '1987', event: 'Co-founds Columbia Hospital Corporation' },
+      { date: '1994', event: 'Columbia acquires HCA; becomes largest U.S. hospital chain' },
+      { date: '1997-03-19', event: 'FBI raids HCA offices in El Paso and other cities' },
+      { date: '1997-07', event: 'Forced to resign as CEO; receives $300M severance' },
+      { date: '2000-12', event: 'HCA agrees to $840M settlement (first of two)' },
+      { date: '2003-06', event: 'HCA agrees to additional $881M settlement; total $1.7B' },
+      { date: '2010-11', event: 'Elected Governor of Florida' },
+      { date: '2018-11', event: 'Elected U.S. Senator from Florida' },
+    ],
+    sources: [
+      { title: 'DOJ: Largest Health Care Fraud Case in U.S. History', url: 'https://www.justice.gov/archive/dag/pubdoc/speech/2003/062603hcaspeech.htm', date: '2003' },
+    ],
+    aliases: [],
+    knownAssociates: [],
+  },
+  'rod-blagojevich': {
+    name: 'Rod Blagojevich',
+    title: 'Former Governor of Illinois (D)',
+    role: 'Governor convicted of attempting to sell Barack Obama\'s vacant U.S. Senate seat, extorting campaign contributions, and multiple counts of wire fraud',
+    riskLevel: 'high',
+    description: 'Rod Blagojevich served as the 40th Governor of Illinois from 2003 to 2009. On December 9, 2008, he was arrested at his home by FBI agents on corruption charges, including the stunning allegation that he attempted to sell or trade the U.S. Senate seat vacated by President-elect Barack Obama. FBI wiretaps captured Blagojevich stating the Senate seat was "a f***ing valuable thing" and "I\'m just not giving it up for f***ing nothing." He was impeached by the Illinois legislature and removed from office in January 2009 by a unanimous 59-0 Senate vote. In 2011, he was convicted on 17 of 20 federal counts including wire fraud, attempted extortion, and soliciting bribes. He was sentenced to 14 years in federal prison. In February 2020, President Trump commuted his sentence after Blagojevich had served approximately 8 years.',
+    birthDate: 'December 10, 1956',
+    birthPlace: 'Chicago, Illinois',
+    education: ['Northwestern University (B.A.)', 'Pepperdine University School of Law (J.D.)'],
+    affiliations: [
+      { name: 'State of Illinois', role: 'Governor', type: 'agency' as const },
+      { name: 'U.S. House of Representatives (D-IL)', role: 'Member of Congress', type: 'agency' as const },
+    ],
+    controversies: [
+      'Attempted to sell Obama\'s vacant U.S. Senate seat to highest bidder',
+      'Arrested by FBI at home; wiretaps captured extensive corruption discussions',
+      'Impeached and removed from office by unanimous 59-0 Illinois Senate vote',
+      'Convicted on 17 of 20 federal corruption counts including wire fraud and extortion',
+      'Sentenced to 14 years; sentence commuted by Trump after 8 years',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1343', description: 'Wire fraud - using interstate communications in scheme to defraud', category: 'federal' },
+      { statute: '18 U.S.C. 1951', description: 'Attempted extortion under color of official right (Hobbs Act)', category: 'federal' },
+      { statute: '18 U.S.C. 666', description: 'Soliciting bribes as a state official receiving federal funds', category: 'federal' },
+      { statute: '18 U.S.C. 371', description: 'Conspiracy to commit wire fraud and extortion', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-revolving-door-legalized-corruption'],
+    timeline: [
+      { date: '2003-01-13', event: 'Inaugurated as Governor of Illinois' },
+      { date: '2008-12-09', event: 'Arrested by FBI on corruption charges' },
+      { date: '2009-01-29', event: 'Impeached and removed from office (59-0 vote)' },
+      { date: '2011-06-27', event: 'Convicted on 17 federal counts' },
+      { date: '2011-12-07', event: 'Sentenced to 14 years in federal prison' },
+      { date: '2020-02-18', event: 'Sentence commuted by President Trump' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Rod Blagojevich', url: 'https://www.justice.gov/usao-ndil/us-v-rod-blagojevich-et-al', date: '2008' },
+    ],
+    aliases: ['Blago'],
+    knownAssociates: [
+      { name: 'Tony Rezko', relationship: 'Political fundraiser and co-defendant convicted of corruption' },
+    ],
+  },
+  'randy-cunningham': {
+    name: 'Randy "Duke" Cunningham',
+    title: 'Former U.S. Representative (R-CA-50)',
+    role: 'Most corrupt member of Congress in modern history: accepted $2.4 million in bribes from defense contractors in exchange for steering billions in Pentagon contracts',
+    riskLevel: 'high',
+    description: 'Randall Harold "Duke" Cunningham served as a Republican U.S. Representative from California from 1991 to 2005. A decorated Vietnam War fighter ace (the Navy\'s first ace of the war), Cunningham leveraged his military hero status and position on the House Defense Appropriations Subcommittee to run one of the most brazen bribery operations in congressional history. He accepted $2.4 million in bribes from defense contractors Mitchell Wade (MZM Inc.) and Brent Wilkes (ADCS Inc.), including a $1.675 million home purchase by Wade at an inflated price, a 42-foot yacht named "Duke-Stir," Rolls-Royce and other luxury vehicles, antiques, rugs, and cash payments. In return, Cunningham steered tens of millions in classified and unclassified defense and intelligence contracts to his benefactors. He even maintained a "bribe menu" on congressional stationery listing the dollar amounts of contracts required in exchange for specific bribe amounts. He pleaded guilty in 2005 and was sentenced to 8 years and 4 months in federal prison - the longest sentence ever imposed on a former member of Congress at the time.',
+    birthDate: 'December 8, 1941',
+    birthPlace: 'Los Angeles, California',
+    education: ['University of Missouri (B.A., M.A.)', 'National University (M.B.A.)'],
+    affiliations: [
+      { name: 'U.S. House of Representatives (R-CA)', role: 'Member of Congress', type: 'agency' as const },
+      { name: 'House Appropriations Committee', role: 'Member, Defense Subcommittee', type: 'organization' as const },
+    ],
+    controversies: [
+      'Accepted $2.4 million in bribes from defense contractors - largest bribery case for a sitting congressman',
+      'Maintained a "bribe menu" on congressional stationery listing contract amounts for corresponding bribes',
+      'Steered tens of millions in classified defense contracts to bribe-paying companies',
+      'Accepted mansion, yacht, Rolls-Royce, antiques, and cash',
+      'Longest prison sentence for a former member of Congress at the time',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 201', description: 'Bribery - accepting $2.4 million in exchange for steering defense contracts', category: 'federal' },
+      { statute: '26 U.S.C. 7201', description: 'Tax evasion - failing to report bribe income', category: 'federal' },
+      { statute: '18 U.S.C. 371', description: 'Conspiracy to commit bribery, mail fraud, wire fraud, and tax evasion', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-insider-trading'],
+    timeline: [
+      { date: '1991-01', event: 'Takes office as U.S. Representative for CA-50' },
+      { date: '2003-2005', event: 'Period of most extensive bribery from Wade and Wilkes' },
+      { date: '2005-06', event: 'San Diego Union-Tribune reports Wade purchased Cunningham\'s home for $1.675M above market value' },
+      { date: '2005-11-28', event: 'Pleads guilty to federal conspiracy and tax evasion charges' },
+      { date: '2006-03-03', event: 'Sentenced to 8 years 4 months in federal prison' },
+      { date: '2013-06-04', event: 'Released from federal prison' },
+    ],
+    sources: [
+      { title: 'DOJ: Duke Cunningham Sentencing', url: 'https://www.justice.gov/archive/usao/cas/press/cas50303.html', date: '2006' },
+    ],
+    aliases: ['Duke', 'Duke-Stir'],
+    knownAssociates: [
+      { name: 'Mitchell Wade', relationship: 'CEO of MZM Inc.; primary briber; convicted of bribery and conspiracy' },
+      { name: 'Brent Wilkes', relationship: 'CEO of ADCS Inc.; convicted of bribery, conspiracy, and money laundering' },
+    ],
+  },
+  'rudy-giuliani': {
+    name: 'Rudy Giuliani',
+    title: 'Former Mayor of New York City, Former Personal Attorney to Donald Trump',
+    role: 'Former federal prosecutor turned Trump\'s personal attorney who led efforts to overturn the 2020 election, was indicted in Georgia and Arizona RICO cases, disbarred, and ordered to pay $148 million for defaming election workers',
+    riskLevel: 'critical',
+    description: 'Rudolph William Louis Giuliani served as U.S. Attorney for the Southern District of New York (1983-1989) and Mayor of New York City (1994-2001). Once celebrated as "America\'s Mayor" after 9/11, Giuliani became Donald Trump\'s personal attorney and a central figure in the effort to overturn the 2020 presidential election. He promoted false claims of widespread voter fraud at the now-infamous Four Seasons Total Landscaping press conference and in dozens of court filings. He was indicted under RICO statutes in both Georgia (2023) and Arizona (2024) for his role in the fake electors scheme. A jury ordered him to pay $148 million to Georgia election workers Ruby Freeman and Shaye Moss after finding he had defamed them by falsely accusing them of ballot fraud. He was disbarred in New York (2024) and Washington D.C. (2024) for making false statements about the election. He filed for bankruptcy in December 2023 listing debts of $152 million. His earlier work with Ukrainian figures Lev Parnas and Igor Fruman, who were convicted of campaign finance violations, also drew federal scrutiny.',
+    birthDate: 'May 28, 1944',
+    birthPlace: 'Brooklyn, New York',
+    education: ['Manhattan College (B.A.)', 'New York University School of Law (J.D.)'],
+    affiliations: [
+      { name: 'Trump Legal Team', role: 'Personal Attorney', type: 'organization' as const },
+      { name: 'City of New York', role: 'Mayor', type: 'organization' as const },
+      { name: 'U.S. Attorney SDNY', role: 'U.S. Attorney', type: 'organization' as const },
+    ],
+    controversies: [
+      'Indicted under RICO in Georgia for fake electors scheme to overturn 2020 election',
+      'Indicted in Arizona for role in fake electors conspiracy',
+      'Ordered to pay $148 million to defamed Georgia election workers Ruby Freeman and Shaye Moss',
+      'Disbarred in New York and Washington D.C. for false statements about 2020 election',
+      'Filed bankruptcy with $152 million in debts',
+      'Associated with Lev Parnas and Igor Fruman, convicted of campaign finance violations',
+      'Led shadow diplomacy campaign in Ukraine targeting Biden that led to Trump\'s first impeachment',
+    ],
+    charges: [
+      { statute: 'O.C.G.A. 16-14-4', description: 'Georgia RICO Act violation - participating in criminal enterprise to overturn 2020 election results', category: 'state' },
+      { statute: 'O.C.G.A. 16-10-20', description: 'Making false statements to state and local government bodies about election fraud', category: 'state' },
+      { statute: 'A.R.S. 13-2310', description: 'Arizona fraud charges related to fake electors scheme', category: 'state' },
+    ],
+    relatedInvestigations: ['/investigations/supreme-court-ethics-crisis', '/investigations/emirati-influence-operations-american-politics'],
+    timeline: [
+      { date: '1983', event: 'Appointed U.S. Attorney for SDNY' },
+      { date: '1994-01-01', event: 'Inaugurated as Mayor of New York City' },
+      { date: '2001-09-11', event: '9/11 response earns "America\'s Mayor" title' },
+      { date: '2018', event: 'Becomes Trump\'s personal attorney' },
+      { date: '2020-11-07', event: 'Four Seasons Total Landscaping press conference' },
+      { date: '2023-08-14', event: 'Indicted under RICO in Fulton County, Georgia' },
+      { date: '2023-12-15', event: 'Jury orders $148M payment to Freeman and Moss' },
+      { date: '2023-12-21', event: 'Files for bankruptcy' },
+      { date: '2024-07-02', event: 'Disbarred in New York for false election claims' },
+    ],
+    sources: [
+      { title: 'Fulton County DA: State of Georgia v. Donald John Trump et al.', url: 'https://www.fultonclerk.org/', date: '2023' },
+    ],
+    aliases: ['America\'s Mayor', 'Rudy'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Client; former president whose 2020 election challenge Giuliani led', href: '/individuals/donald-trump' },
+      { name: 'Lev Parnas', relationship: 'Associate convicted of campaign finance violations; assisted Giuliani\'s Ukraine efforts' },
+    ],
+  },
+  'ron-desantis': {
+    name: 'Ron DeSantis',
+    title: 'Governor of Florida',
+    role: 'Architect of Florida\'s culture wars, book bans, and anti-democratic policies who weaponized state power against political opponents and marginalized communities',
+    riskLevel: 'high',
+    description: 'Ronald Dion DeSantis has served as the 46th Governor of Florida since 2019. He has used the governor\'s office to wage aggressive culture wars while consolidating power. DeSantis dissolved the Reedy Creek Improvement District (Disney\'s self-governing status) in retaliation for Disney opposing his "Don\'t Say Gay" bill, costing Florida taxpayers over $1 billion. He signed the "Stop WOKE Act" restricting workplace diversity training and classroom instruction on race, portions of which were struck down as unconstitutional. He oversaw the removal of over 1,600 books from Florida school libraries. He signed a 6-week abortion ban. He relocated migrants from Texas to Martha\'s Vineyard as a political stunt using Florida taxpayer funds of $12 million, despite the migrants never being in Florida. He suspended a twice-elected state attorney (Andrew Warren) for policy disagreements. He took over a small liberal arts college (New College of Florida) and installed political allies on its board to remake it as a conservative institution.',
+    birthDate: 'September 14, 1978',
+    birthPlace: 'Jacksonville, Florida',
+    education: ['Yale University (B.A.)', 'Harvard Law School (J.D.)', 'U.S. Navy JAG Corps'],
+    affiliations: [
+      { name: 'State of Florida', role: 'Governor', type: 'agency' as const },
+      { name: 'U.S. House of Representatives (R-FL)', role: 'Former Member (2013-2018)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Disney retaliation: Dissolved Reedy Creek district after Disney opposed Don\'t Say Gay bill; cost taxpayers $1B+',
+      'Martha\'s Vineyard migrant flights: Used $12M Florida taxpayer funds to relocate Texas migrants as political stunt',
+      'Book bans: Oversaw removal of 1,600+ books from school libraries',
+      'Stop WOKE Act: Parts struck down as unconstitutional; restricted free speech on race in workplaces and schools',
+      'Suspended elected state attorney Andrew Warren for policy disagreements',
+      'New College takeover: Replaced board of liberal arts college with political operatives',
+      '6-week abortion ban signed with no exceptions for rape until 15 weeks',
+    ],
+    charges: [],
+    relatedInvestigations: ['/investigations/voter-suppression-modern-assault-on-democracy'],
+    timeline: [
+      { date: '2019-01-08', event: 'Inaugurated as Governor of Florida' },
+      { date: '2022-03', event: 'Signs "Don\'t Say Gay" bill; begins feud with Disney' },
+      { date: '2022-04', event: 'Dissolves Reedy Creek Improvement District in retaliation against Disney' },
+      { date: '2022-09', event: 'Flies migrants from San Antonio to Martha\'s Vineyard using Florida funds' },
+      { date: '2023-01', event: 'Takes over New College of Florida board' },
+      { date: '2023-04', event: 'Signs 6-week abortion ban' },
+      { date: '2023-05-24', event: 'Launches failed presidential campaign' },
+      { date: '2024-01-21', event: 'Drops out of presidential race' },
+    ],
+    sources: [
+      { title: 'Tampa Bay Times: DeSantis Coverage', url: 'https://www.tampabay.com/news/florida-politics/governor/', date: '2024' },
+      { title: 'ProPublica: DeSantis Investigations', url: 'https://www.propublica.org/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Christina Pushaw', relationship: 'Press secretary who had been registered as a foreign agent for a former Georgian president' },
+    ],
+  },
+  'robert-bentley': {
+    slug: 'robert-bentley',
+    name: 'Robert Bentley',
+    title: 'Former Governor of Alabama (2011-2017)',
+    photo: '/images/individuals/robert-bentley.webp',
+    background: 'Robert Julian Bentley served as the 53rd Governor of Alabama. A dermatologist and Baptist deacon, he ran on a platform of family values. He resigned in April 2017 as part of a plea deal after using state resources to conduct and conceal an extramarital affair with a senior political advisor.',
+    controversies: [
+      'Used state law enforcement to intimidate and surveil individuals who knew about his affair with advisor Rebekah Mason',
+      'Attempted to fire the head of Alabama Law Enforcement Agency, Spencer Collier, after Collier refused to help cover up the affair',
+      'State ethics commission investigation found he used campaign funds for personal purposes related to concealing the affair',
+      'Recorded phone conversations with Mason were obtained by investigators revealing use of state resources',
+      'Misused state helicopters and security personnel to facilitate meetings with Mason',
+    ],
+    charges: [
+      {
+        description: 'Two misdemeanor charges under Alabama ethics law for campaign finance violations; pleaded guilty as part of resignation deal',
+        status: 'Pleaded guilty; sentenced to community service, surrendered campaign funds, barred from holding office',
+        source: 'Alabama Attorney General',
+      },
+    ],
+    timeline: [
+      { date: '2011-01-17', event: 'Inaugurated as Governor of Alabama' },
+      { date: '2016-03-22', event: 'Law enforcement head Spencer Collier publicly reveals affair' },
+      { date: '2017-04-07', event: 'Alabama Ethics Commission issues findings; articles of impeachment prepared' },
+      { date: '2017-04-10', event: 'Resigns as governor; pleads guilty to two misdemeanor charges' },
+    ],
+    affiliations: [
+      { name: 'State of Alabama', role: 'Governor', type: 'agency' as const },
+      { name: 'Alabama Republican Party', role: 'Member', type: 'organization' as const },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Rebekah Mason', relationship: 'Senior political advisor with whom he had extramarital affair' },
+      { name: 'Spencer Collier', relationship: 'Alabama law enforcement head he fired for refusing to cover up affair' },
+    ],
+  },
+  'ralph-shortey': {
+    slug: 'ralph-shortey',
+    name: 'Ralph Shortey',
+    title: 'Former Oklahoma State Senator (R, 2010-2017)',
+    photo: '/images/individuals/ralph-shortey.webp',
+    background: 'Ralph Allen Shortey served as an Oklahoma State Senator and was a prominent early supporter of Donald Trump\'s 2016 presidential campaign, serving as the state chairman of Trump\'s campaign. In 2017, he was charged with child sex trafficking after being found in a hotel room with a 17-year-old boy.',
+    controversies: [
+      'Found in a Super 8 motel room with a 17-year-old boy in March 2017',
+      'Pleaded guilty to federal child sex trafficking charge',
+      'Text messages showed he solicited sexual acts from the minor in exchange for money',
+      'Served as Oklahoma state chairman for Trump\'s 2016 presidential campaign',
+      'Had previously introduced bizarre legislation including banning human fetuses in food products',
+    ],
+    charges: [
+      {
+        description: 'One count of child sex trafficking (18 U.S.C. 1591); originally charged with three additional counts that were dropped as part of plea deal',
+        status: 'Pleaded guilty; sentenced to 15 years in federal prison (2018)',
+        source: 'U.S. Attorney for the Western District of Oklahoma',
+      },
+    ],
+    timeline: [
+      { date: '2010-11-02', event: 'Elected to Oklahoma State Senate' },
+      { date: '2016-01-01', event: 'Named state chairman for Trump\'s presidential campaign in Oklahoma' },
+      { date: '2017-03-09', event: 'Found in motel room with 17-year-old boy; arrested' },
+      { date: '2017-11-30', event: 'Pleads guilty to federal child sex trafficking charge' },
+      { date: '2018-09-17', event: 'Sentenced to 15 years in federal prison' },
+    ],
+    affiliations: [
+      { name: 'Oklahoma State Senate', role: 'State Senator (R)', type: 'agency' as const },
+      { name: 'Trump 2016 Campaign', role: 'Oklahoma State Chairman', type: 'organization' as const },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Served as his Oklahoma campaign state chairman', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'richard-sackler': {
+    name: 'Richard Sackler',
+    title: 'Former President, Purdue Pharma',
+    role: 'Sackler family member who oversaw aggressive OxyContin marketing that fueled the opioid epidemic',
+    riskLevel: 'critical',
+    description: 'Richard Sackler served as president of Purdue Pharma from 1999 to 2003 and remained on the board of directors until 2018. Internal documents obtained through litigation reveal that he personally directed the aggressive marketing of OxyContin while knowing the drug was highly addictive. At OxyContin\'s launch in 1996, he directed sales representatives to tell doctors the drug was less addictive than other opioids. Internal emails show him blaming addicts rather than acknowledging the drug\'s danger. The Sackler family extracted over $10 billion from Purdue Pharma before it filed for bankruptcy. The opioid epidemic has killed over 500,000 Americans since 1999.',
+    birthDate: '1945',
+    birthPlace: 'New York, New York',
+    education: ['Columbia University (B.A.)', 'New York University School of Medicine (M.D.)'],
+    affiliations: [
+      { name: 'Purdue Pharma', role: 'President (1999-2003); Board Member', type: 'corporation' as const },
+      { name: 'Sackler Family', role: 'Member of controlling family', type: 'organization' as const },
+    ],
+    controversies: [
+      'Directed aggressive OxyContin marketing strategy while knowing addiction risks',
+      'Internal email: "We have to hammer on the abusers in every way possible... they are the culprits"',
+      'Sackler family extracted $10+ billion from Purdue while company sold addictive opioids',
+      'At 1996 OxyContin launch, directed reps to tell doctors drug was less addictive',
+      'Family transferred assets to trusts and offshore accounts before Purdue filed bankruptcy',
+      'Purdue pleaded guilty twice (2007 and 2020) to criminal charges relating to OxyContin marketing',
+      'No Sackler family member has faced criminal charges',
+    ],
+    charges: [],
+    relatedInvestigations: ['opioid-distribution-networks'],
+    timeline: [
+      { date: '1996', event: 'OxyContin launched; Richard Sackler directed aggressive marketing strategy' },
+      { date: '1999', event: 'Became President of Purdue Pharma' },
+      { date: '2007', event: 'Purdue Pharma pleaded guilty to misbranding OxyContin; paid $600M; no family charges' },
+      { date: '2019', event: 'Purdue filed for bankruptcy under pressure from 3,000+ lawsuits' },
+      { date: '2020', event: 'Purdue pleaded guilty again to criminal charges; DOJ settlement' },
+      { date: '2022', event: 'Supreme Court reviewed Purdue bankruptcy plan that would grant Sacklers civil immunity' },
+    ],
+    sources: [
+      { title: 'Patrick Radden Keefe: Empire of Pain', url: 'https://www.penguinrandomhouse.com/books/612031/empire-of-pain-by-patrick-radden-keefe/', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'David Sackler', relationship: 'Son; also named in litigation; served on Purdue board' },
+      { name: 'Kathe Sackler', relationship: 'Half-sister; Purdue board member; named in litigation' },
+      { name: 'Raymond Sackler', relationship: 'Father; co-founder of Purdue; died 2017' },
+    ],
+  },
+  'rick-snyder': {
+    name: 'Rick Snyder',
+    title: 'Former Governor of Michigan',
+    role: 'Governor',
+    riskLevel: 'critical' as const,
+    description: 'Republican Governor of Michigan (2011-2019) whose administration\'s decision to switch Flint\'s water source to the corrosive Flint River in April 2014 — as a cost-cutting measure — caused a catastrophic public health crisis. The switch leached lead from aging pipes into drinking water consumed by nearly 100,000 residents, causing permanent brain damage in thousands of children, outbreaks of Legionnaires\' disease that killed at least 12 people, and a humanitarian disaster that became an international symbol of environmental racism and government failure.',
+    birthDate: '1958-08-19',
+    birthPlace: 'Battle Creek, Michigan',
+    education: ['B.A., MBA, and J.D., University of Michigan (1982)'],
+    affiliations: [
+      { name: 'State of Michigan', role: 'Governor (2011-2019)', type: 'agency' as const },
+      { name: 'Gateway Computers', role: 'Former CEO', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Administration switched Flint water source to corrosive Flint River in 2014 as cost-cutting measure under emergency manager',
+      'State officials ignored warnings for 18 months while residents drank lead-contaminated water causing permanent brain damage in children',
+      'At least 12 people died from Legionnaires\' disease outbreak linked to the water contamination',
+      'Internal emails showed his staff knew about water quality problems months before public acknowledgment',
+      'Appointed unelected emergency managers who overrode democratically elected local officials in majority-Black cities',
+      'Emergency manager law (PA 436) disproportionately affected Black communities; Flint was 54% Black',
+      'Criminal charges of willful neglect of duty initially brought in 2021 but dismissed on procedural grounds in 2022',
+      'Estimated cost of Flint water crisis response exceeded $600 million; full infrastructure replacement ongoing years later',
+    ],
+    charges: [
+      {
+        statute: 'MCL 750.478a - Willful Neglect of Duty by a Public Officer',
+        description: 'Charged with two misdemeanor counts of willful neglect of duty for failure to protect Flint residents from lead-contaminated water; charges dismissed on procedural grounds',
+        category: 'regulatory',
+      },
+      {
+        statute: 'Safe Drinking Water Act (42 U.S.C. § 300f) - Regulatory Failure',
+        description: 'State under his leadership failed to enforce federal safe drinking water standards and implement required corrosion control treatment',
+        category: 'regulatory',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Water Privatization and Access Crisis', slug: 'water-privatization-crisis', severity: 'critical' },
+      { title: 'Lead Poisoning: America\'s Century-Long Cover-Up', slug: 'lead-poisoning-america', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2011-01', event: 'Inaugurated as Governor of Michigan; signs emergency manager law expanding state control over struggling cities' },
+      { date: '2013-11', event: 'Emergency manager appointed for Flint approves plan to switch water source from Detroit system to Flint River' },
+      { date: '2014-04-25', event: 'Flint water source switched to Flint River; residents immediately complain about water color, taste, and smell' },
+      { date: '2014-08', event: 'E. coli and total coliform bacteria detected in Flint water; boil advisories issued' },
+      { date: '2015-02', event: 'Elevated lead levels detected in Flint resident\'s home; state officials dismiss concerns' },
+      { date: '2015-09', event: 'Dr. Mona Hanna-Attisha publishes research showing children\'s blood lead levels doubled and tripled since water switch' },
+      { date: '2015-10-16', event: 'Flint reconnected to Detroit water system 18 months after switch; Snyder declares state of emergency in January 2016' },
+      { date: '2016-01-16', event: 'President Obama declares federal state of emergency for Flint; National Guard deployed to distribute water' },
+      { date: '2021-01-14', event: 'Indicted on two misdemeanor willful neglect of duty charges related to Flint water crisis' },
+      { date: '2022-06', event: 'Charges dismissed by Michigan judge on procedural grounds related to grand jury process' },
+    ],
+    sources: [
+      { title: 'Michigan Civil Rights Commission: The Flint Water Crisis Report', date: '2017' },
+      { title: 'EPA Office of Inspector General: Flint Water Report', url: 'https://www.epa.gov/flint', date: '2018' },
+      { title: 'Flint Water Advisory Task Force Final Report', date: '2016' },
+    ],
+    aliases: ['One Tough Nerd'],
+    knownAssociates: [
+      { name: 'Darnell Earley', relationship: 'Emergency manager of Flint who approved the water source switch' },
+      { name: 'Nick Lyon', relationship: 'Michigan Health Director charged with involuntary manslaughter over Legionnaires\' outbreak; charges dismissed' },
+      { name: 'Dan Wyant', relationship: 'Michigan DEQ Director who resigned over agency\'s failure to require corrosion control treatment' },
+    ],
+  },
+  'rex-tillerson': {
+    name: 'Rex Tillerson',
+    title: 'Former CEO of ExxonMobil / Former Secretary of State',
+    role: 'Corporate Executive / Cabinet Secretary',
+    riskLevel: 'critical' as const,
+    description: 'CEO of ExxonMobil (2006-2017) who led the world\'s largest publicly traded oil company during the critical period when internal scientists confirmed climate change while the company funded disinformation campaigns to deny it. Under Tillerson\'s leadership, ExxonMobil used a separate set of climate projections internally for business planning while publicly casting doubt on climate science. Later served as Secretary of State (2017-2018) under Trump, where he gutted the State Department, eliminating critical positions and undermining American diplomacy. Received the Order of Friendship from Vladimir Putin while CEO.',
+    birthDate: '1952-03-23',
+    birthPlace: 'Wichita Falls, Texas',
+    education: ['B.S. in Civil Engineering, University of Texas at Austin (1975)'],
+    affiliations: [
+      { name: 'ExxonMobil', role: 'Chairman and CEO (2006-2017)', type: 'corporation' as const },
+      { name: 'U.S. Department of State', role: 'Secretary of State (2017-2018)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Led ExxonMobil while company funded climate denial despite internal scientists confirming climate change since the 1970s',
+      'ExxonMobil under his leadership used separate climate projections internally while publicly denying climate science',
+      'Company spent millions funding climate denial organizations including the Heartland Institute and American Petroleum Institute',
+      'Received Russia\'s Order of Friendship from Vladimir Putin in 2013 for Exxon-Rosneft Arctic drilling partnership',
+      'Negotiated $500 billion Exxon-Rosneft deal disrupted by Russia sanctions; advocated against Russian sanctions',
+      'As Secretary of State, gutted State Department leaving 60% of senior positions vacant and forcing out career diplomats',
+      'Proposed 30% cut to State Department budget; eliminated Special Envoy for Climate Change position',
+      'Fired by Trump via tweet in March 2018; reportedly called Trump a moron in private',
+      'New York AG sued ExxonMobil (later dropped some charges) for using two sets of climate cost books',
+    ],
+    charges: [
+      {
+        statute: 'Martin Act (NY) / Securities Fraud',
+        description: 'New York AG alleged ExxonMobil misled investors about climate change costs using dual accounting; case partially resolved',
+        category: 'financial',
+      },
+      {
+        statute: 'Public Trust Doctrine - Climate Deception',
+        description: 'Led company that knowingly funded climate disinformation while internal models accurately predicted warming contributing to global crisis',
+        category: 'ethics',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Fossil Fuel Subsidies and Climate Deception', slug: 'fossil-fuel-subsidies-climate-deception', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1975', event: 'Joins Exxon as production engineer; spends entire 42-year career at the company' },
+      { date: '2006-01-01', event: 'Becomes Chairman and CEO of ExxonMobil, the world\'s largest publicly traded oil company' },
+      { date: '2006-2016', event: 'Leads ExxonMobil through period of massive profits while funding climate denial infrastructure' },
+      { date: '2012', event: 'Negotiates $500 billion Exxon-Rosneft Arctic drilling partnership with Russia' },
+      { date: '2013', event: 'Receives Russia\'s Order of Friendship from Vladimir Putin' },
+      { date: '2015', event: 'InsideClimate News and LA Times expose ExxonKnew: company\'s own scientists confirmed climate change decades ago' },
+      { date: '2017-02-01', event: 'Confirmed as Secretary of State; immediately begins restructuring that guts the department' },
+      { date: '2018-03-13', event: 'Fired as Secretary of State via Trump tweet; reportedly called Trump a moron' },
+      { date: '2018-2023', event: 'Multiple state AGs launch investigations and lawsuits against ExxonMobil for climate deception during Tillerson era' },
+    ],
+    sources: [
+      { title: 'InsideClimate News: Exxon - The Road Not Taken', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', date: '2015' },
+      { title: 'Senate Foreign Relations Committee: Tillerson Confirmation Hearing', date: '2017' },
+      { title: 'New York AG: People v. ExxonMobil Corp.', date: '2018' },
+    ],
+    aliases: ['T-Rex (State Department nickname)'],
+    knownAssociates: [
+      { name: 'Lee Raymond', relationship: 'Predecessor as ExxonMobil CEO who established the climate denial playbook Tillerson continued', href: '/entities/individuals/lee-raymond' },
+      { name: 'Vladimir Putin', relationship: 'Russian president who awarded Tillerson Order of Friendship for Exxon-Rosneft partnership' },
+      { name: 'Donald Trump', relationship: 'President who appointed and later fired Tillerson as Secretary of State', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'roger-stone': {
+    name: 'Roger Stone',
+    title: 'Political Consultant and Convicted Felon',
+    role: 'Master of Political Dark Arts and Disinformation',
+    riskLevel: 'high' as const,
+    description: 'Roger Stone is a self-described political trickster who has operated at the intersection of Republican politics and dirty tricks for five decades. Convicted of witness tampering, lying to Congress, and obstruction in connection with the Trump campaign and WikiLeaks coordination, Stone was pardoned by Trump in 2020.',
+    birthDate: '1952-08-27',
+    birthPlace: 'Norwalk, Connecticut',
+    education: [
+      'Attended George Washington University (did not complete degree)',
+    ],
+    affiliations: [
+      { name: 'Trump Presidential Campaign', role: 'Informal Advisor (2015-2016)', type: 'organization' as const },
+      { name: 'Black, Manafort, Stone and Kelly', role: 'Co-founder (1980)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Convicted on seven felony counts: obstruction, witness tampering, and five counts of lying to Congress about WikiLeaks contacts',
+      'Communicated with WikiLeaks intermediaries about stolen Clinton campaign emails during 2016 election',
+      'Threatened witness Randy Credico with physical harm and told him to invoke the Fifth Amendment',
+      'Co-founded pioneering lobbying firm that represented dictators including Ferdinand Marcos, Mobutu Sese Seko, and Jonas Savimbi',
+      'Long history of political dirty tricks dating to Nixon era, including admitted involvement in 1972 campaign sabotage',
+      'Pardoned by Trump on December 23, 2020, days before sentencing would have required prison reporting',
+      'Photographed with members of the Proud Boys and Oath Keepers in the days surrounding January 6, 2021',
+    ],
+    relatedInvestigations: [
+      { title: 'Foreign Election Interference', slug: 'foreign-election-interference-networks', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1972', event: 'First political dirty trick: donated money to a Nixon rival in the name of the Young Socialist Alliance' },
+      { date: '1980', event: 'Co-founded Black, Manafort, Stone and Kelly, lobbying for dictators and corporations' },
+      { date: '2016', event: 'Served as informal Trump campaign advisor; communicated with WikiLeaks intermediaries' },
+      { date: '2019-01', event: 'Arrested by FBI in predawn raid on seven felony counts' },
+      { date: '2019-11', event: 'Convicted on all seven counts by federal jury' },
+      { date: '2020-02', event: 'Sentenced to 40 months in prison; DOJ political leadership intervened to seek lighter sentence' },
+      { date: '2020-07', event: 'Trump commuted Stone sentence days before prison reporting date' },
+      { date: '2020-12', event: 'Received full presidential pardon' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Roger Stone - Indictment', date: '2019' },
+      { title: 'Senate Intelligence Committee: Russian Interference Report Volume 5', date: '2020' },
+      { title: 'Mueller Report: Section on Stone and WikiLeaks', date: '2019' },
+    ],
+    aliases: ['The Prince of Darkness', 'The Dirty Trickster'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Decades-long political ally and client; Stone urged Trump to run for president as early as 1988', href: '/entities/individuals/donald-trump' },
+      { name: 'Paul Manafort', relationship: 'Lobbying firm co-founder; both convicted in Mueller investigation', href: '/entities/individuals/paul-manafort' },
+      { name: 'Jerome Corsi', relationship: 'Alleged WikiLeaks intermediary who Stone communicated with during 2016 campaign' },
+    ],
+  },
+  'ryan-zinke': {
+    name: 'Ryan Zinke',
+    title: 'Former Secretary of the Interior',
+    role: 'Public Lands Selloff Architect with Ethics Violations',
+    riskLevel: 'high' as const,
+    description: 'Ryan Zinke served as Interior Secretary from 2017 to 2019, expanding oil, gas, and mining access on public lands while accumulating ethics violations including a real estate deal with Halliburton, use of a flag ceremony to signal his presence in the building, and directing staff to plan personal travel on taxpayer time. He resigned before multiple investigations concluded.',
+    birthDate: '1961-11-01',
+    birthPlace: 'Bozeman, Montana',
+    education: [
+      'B.S., University of Oregon (1984)',
+      'M.B.A., National University (1991)',
+      'M.S., University of San Diego (2003)',
+    ],
+    affiliations: [
+      { name: 'DOI', role: 'Secretary of the Interior (2017-2019)', type: 'agency' as const },
+      { name: 'U.S. House of Representatives', role: 'Representative, MT-AL (2015-2017)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Negotiated a real estate deal with Halliburton chairman in Whitefish, Montana while Halliburton had business before Interior Department',
+      'DOI Inspector General referred him for criminal investigation over the Halliburton land deal; DOJ declined to prosecute',
+      'Chartered military aircraft for personal travel between events at a cost of over $12,000 each trip',
+      'Created and then canceled a massive reduction in Bears Ears and Grand Staircase-Escalante National Monuments totaling 2 million acres',
+      'Proposed opening virtually all federal waters to offshore drilling, then exempted Florida after political pressure from Governor Rick Scott',
+      'Used a personal email address for official business in violation of federal records laws',
+      'Flew personal flags over the Interior headquarters building to signal his presence; used ceremonial protocol for personal optics',
+    ],
+    relatedInvestigations: [
+      { title: 'EPA Regulatory Capture', slug: 'epa-regulatory-capture-exposed', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2017-03', event: 'Confirmed as Secretary of the Interior' },
+      { date: '2017-04', event: 'Signed order to review all national monument designations since 1996' },
+      { date: '2017-12', event: 'Reduced Bears Ears by 85% and Grand Staircase-Escalante by nearly 50%' },
+      { date: '2018-01', event: 'Proposed opening virtually all federal waters to offshore drilling' },
+      { date: '2018', event: 'Multiple OIG investigations opened into travel, land deals, and conflicts of interest' },
+      { date: '2018-12', event: 'Resigned under pressure before investigations concluded' },
+      { date: '2022', event: 'Elected to Congress representing Montanas new 1st district' },
+    ],
+    sources: [
+      { title: 'DOI OIG: Investigation of Secretary Zinke Land Deal', date: '2018' },
+      { title: 'Washington Post: Zinke Halliburton Real Estate Deal', url: 'https://www.washingtonpost.com/', date: '2018' },
+      { title: 'GAO: Report on Zinke Travel Expenditures', date: '2019' },
+    ],
+    aliases: ['Commander Zinke (self-styled reference to Navy SEAL service)'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who appointed Zinke; called him to say he was doing a "fantastic job" days before resignation', href: '/entities/individuals/donald-trump' },
+      { name: 'David Bernhardt', relationship: 'Deputy and successor who was a former oil and gas lobbyist and continued deregulatory agenda' },
+    ],
+  },
+  'ron-desantis': {
+    name: 'Ron DeSantis',
+    title: 'Governor of Florida',
+    role: 'Culture War Governor with Authoritarian Governance Patterns',
+    riskLevel: 'high' as const,
+    description: 'Ron DeSantis has governed Florida since 2019 with an aggressive posture against corporate speech, academic freedom, and local governance. He signed laws banning books, restricting classroom discussions of race and gender, punishing Disney for political speech, removing an elected prosecutor for policy disagreements, and overseeing a migrant relocation scheme that drew fraud investigations.',
+    birthDate: '1978-09-14',
+    birthPlace: 'Jacksonville, Florida',
+    education: [
+      'B.A., Yale University (2001)',
+      'J.D., Harvard Law School (2005)',
+    ],
+    affiliations: [
+      { name: 'State of Florida', role: 'Governor (2019-present)', type: 'agency' as const },
+      { name: 'U.S. House of Representatives', role: 'Representative, FL-6 (2013-2018)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Signed "Dont Say Gay" law (HB 1557) restricting classroom discussions of sexual orientation and gender identity through 12th grade',
+      'Retaliated against Disney corporation for opposing the law by dissolving its special tax district, then restructuring it under state control',
+      'Removed elected State Attorney Andrew Warren from office for policy statements about not prosecuting certain cases; Warren never declined to prosecute an actual case',
+      'Used taxpayer funds to fly migrants from Texas to Marthas Vineyard as a political stunt; a Texas sheriff opened a criminal investigation into the operation',
+      'Signed laws enabling mass book bans in schools; over 4,000 titles removed from Florida school libraries in 2023-2024',
+      'Appointed loyalists to New College of Florida board who dismantled the schools liberal arts programs, fired the president, and eliminated DEI programs',
+      'Signed six-week abortion ban with limited exceptions; one of the most restrictive in the nation',
+    ],
+    relatedInvestigations: [
+      { title: 'Gerrymandering and Democracy Subversion', slug: 'gerrymandering-democracy-subversion', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2019-01', event: 'Inaugurated as Governor of Florida' },
+      { date: '2022-03', event: 'Signed HB 1557 ("Dont Say Gay" law)' },
+      { date: '2022-04', event: 'Dissolved Disney Reedy Creek district in retaliation for corporate speech' },
+      { date: '2022-08', event: 'Suspended elected State Attorney Andrew Warren' },
+      { date: '2022-09', event: 'Flew Venezuelan migrants from Texas to Marthas Vineyard' },
+      { date: '2023-05', event: 'Signed six-week abortion ban' },
+      { date: '2023-05', event: 'Launched and quickly ended presidential campaign' },
+      { date: '2024', event: 'Over 4,000 books removed from Florida school libraries under laws he signed' },
+    ],
+    sources: [
+      { title: 'PEN America: Florida Book Ban Tracker', url: 'https://pen.org/', date: '2024' },
+      { title: 'Tampa Bay Times: DeSantis Governance Investigation', url: 'https://www.tampabay.com/', date: '2023' },
+      { title: 'Florida Courts: Warren Suspension Challenge', date: '2023' },
+    ],
+    aliases: ['DeSanctimonious (Trump nickname)'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Former ally who endorsed DeSantis for governor; became rival during 2024 primary before DeSantis endorsed Trump', href: '/entities/individuals/donald-trump' },
+      { name: 'Christina Pushaw', relationship: 'Press secretary and political advisor who described the parental rights law as an "anti-grooming" bill' },
+    ],
+  },
+  'rosemary-kennedy': {
+    name: 'Rosemary Kennedy',
+    title: 'Lobotomy Victim',
+    role: 'Daughter of Joseph P. Kennedy Sr. who was subjected to a lobotomy at age 23 by Walter Freeman without her knowledge or consent, leaving her permanently incapacitated for the remaining 63 years of her life',
+    riskLevel: 'critical' as const,
+    description: 'Rose Marie "Rosemary" Kennedy (1918-2005) was the eldest daughter of Joseph P. Kennedy Sr. and Rose Fitzgerald Kennedy, and the sister of President John F. Kennedy, Senators Robert F. Kennedy and Ted Kennedy, and Eunice Kennedy Shriver. In November 1941, when Rosemary was 23 years old, her father arranged for Walter Freeman and James Watts to perform a prefrontal lobotomy on her without the knowledge or consent of her mother. Joseph Kennedy authorized the procedure because Rosemary had been exhibiting mood swings and what he perceived as rebellious behavior, and he feared her behavior might embarrass the family political ambitions. The procedure was catastrophic: Rosemary was left permanently incapacitated, unable to speak intelligibly, incontinent, and reduced to the mental capacity of an infant. She was immediately institutionalized at St. Coletta in Jefferson, Wisconsin, where she lived for the remaining 63 years of her life. Her father did not visit her, and her mother was not told her whereabouts for 20 years. The family concealed what had happened, publicly claiming Rosemary was "mentally retarded" from birth. Her story was not widely known until the 1980s and became a powerful indictment of both the lobotomy practice and the willingness of powerful families to destroy their own members to protect their public image. Her sister Eunice Kennedy Shriver later founded the Special Olympics in part inspired by Rosemary experience.',
+    birthDate: '1918-09-13',
+    birthPlace: 'Brookline, Massachusetts',
+    deathDate: '2005-01-07',
+    education: ['Various private schools and tutoring programs'],
+    affiliations: [],
+    controversies: [
+      'Subjected to a prefrontal lobotomy at age 23 by Walter Freeman and James Watts at the direction of her father without her knowledge, consent, or her mother knowledge',
+      'The lobotomy left her permanently incapacitated: unable to speak intelligibly, incontinent, and reduced to infant-level mental capacity',
+      'Institutionalized at St. Coletta in Jefferson, Wisconsin for 63 years; her father never visited and her mother was not told her location for 20 years',
+      'The Kennedy family concealed the lobotomy for decades, publicly claiming Rosemary had been mentally disabled from birth',
+      'Her father ordered the procedure because he feared her mood swings and perceived rebelliousness would embarrass the family political career',
+      'Her case became one of the most cited examples of the barbaric nature of the lobotomy era and the abuse of medical authority over women',
+    ],
+    relatedInvestigations: [
+      { title: 'The American Lobotomy Epidemic', slug: 'lobotomy-epidemic-united-states', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1918-09-13', event: 'Born in Brookline, Massachusetts, the third child of Joseph P. Kennedy Sr. and Rose Fitzgerald Kennedy' },
+      { date: '1941-11', event: 'Walter Freeman and James Watts perform a prefrontal lobotomy at her father direction; the procedure is catastrophic and leaves her permanently incapacitated' },
+      { date: '1941-12', event: 'Institutionalized at St. Coletta in Jefferson, Wisconsin; her mother is not informed of what happened or where she is' },
+      { date: '1961', event: 'Her mother Rose Kennedy finally learns the truth about the lobotomy and Rosemary location, 20 years after the procedure' },
+      { date: '1962', event: 'Her sister Eunice Kennedy Shriver begins the effort that will lead to the Special Olympics, partly inspired by Rosemary experience' },
+      { date: '1987', event: 'The full story of her lobotomy becomes public through biographical accounts of the Kennedy family' },
+      { date: '2005-01-07', event: 'Dies at age 86 at St. Coletta, having spent 63 years institutionalized after the lobotomy' },
+    ],
+    sources: [
+      { title: 'Larson, K. - Rosemary: The Hidden Kennedy Daughter (Houghton Mifflin)', date: '2015' },
+      { title: 'National Public Radio: The Tragic Story of Rosemary Kennedy', date: '2015' },
+    ],
+    knownAssociates: [
+      { name: 'Walter Freeman', relationship: 'The physician who performed the lobotomy that destroyed her cognitive function at age 23', href: '/entities/individuals/walter-freeman' },
+      { name: 'Joseph P. Kennedy Sr.', relationship: 'Father who authorized the lobotomy without her or her mother knowledge or consent to protect the family political image' },
+      { name: 'Eunice Kennedy Shriver', relationship: 'Sister who founded the Special Olympics partly inspired by Rosemary experiences with disability' },
+    ],
+  },
 };
 
 export default profiles;

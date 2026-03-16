@@ -23,20 +23,20 @@ export default function CrimeSceneDivider({
  },
  'crime-scene': {
  text: 'CRIME SCENE DO NOT CROSS',
- bgColor: '#dc2626',
+ bgColor: '#2563eb',
  textColor: '#fff',
  pattern: 'solid',
  },
  'biohazard': {
  text: '☣ BIOHAZARD ☣',
- bgColor: '#7f1d1d',
- textColor: '#fca5a5',
+ bgColor: '#1e40af',
+ textColor: '#93c5fd',
  pattern: 'warning',
  },
  'classified': {
  text: 'CLASSIFIED • TOP SECRET • CLASSIFIED',
  bgColor: '#1a1a1a',
- textColor: '#dc2626',
+ textColor: '#2563eb',
  pattern: 'dashed',
  },
  };
@@ -175,9 +175,9 @@ export default function CrimeSceneDivider({
  transition={{ delay: 0.5 }}
  >
  <svg width="40"height="40"viewBox="0 0 40 40">
- <circle cx="20"cy="20"r="8"fill="#7f1d1d"/>
- <ellipse cx="15"cy="30"rx="3"ry="5"fill="#7f1d1d"/>
- <ellipse cx="28"cy="28"rx="2"ry="4"fill="#7f1d1d"/>
+ <circle cx="20"cy="20"r="8"fill="#1e40af"/>
+ <ellipse cx="15"cy="30"rx="3"ry="5"fill="#1e40af"/>
+ <ellipse cx="28"cy="28"rx="2"ry="4"fill="#1e40af"/>
  </svg>
  </motion.div>
  <motion.div
@@ -187,8 +187,8 @@ export default function CrimeSceneDivider({
  transition={{ delay: 0.7 }}
  >
  <svg width="30"height="30"viewBox="0 0 30 30">
- <circle cx="15"cy="15"r="6"fill="#991b1b"/>
- <ellipse cx="12"cy="24"rx="2"ry="4"fill="#991b1b"/>
+ <circle cx="15"cy="15"r="6"fill="#1e3a8a"/>
+ <ellipse cx="12"cy="24"rx="2"ry="4"fill="#1e3a8a"/>
  </svg>
  </motion.div>
  </>

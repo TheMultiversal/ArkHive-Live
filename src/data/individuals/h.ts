@@ -444,26 +444,45 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'heather-bresch': {
  name: 'Heather Bresch',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Heather Bresch. Profile pending review.',
- education: [],
+ title: 'Former CEO of Mylan N.V.',
+ role: 'CEO who oversaw the 500%+ price increase of the EpiPen from $57 to $609 while taking $98 million in personal compensation; daughter of U.S. Senator Joe Manchin',
+ riskLevel: 'critical' as const,
+ description: 'Heather Bresch (born 1969) served as CEO of Mylan N.V. (later Viatris) from 2012 to 2020. Under her leadership, the price of the EpiPen auto-injector, used by millions of Americans for life-threatening allergic reactions, increased from approximately $57 per pair to over $609, a price increase exceeding 500% over eight years. During this period, Bresch total compensation exceeded $98 million, including a year where she received $25 million in a single compensation package. When called before the House Oversight Committee in 2016, Bresch deflected blame onto the healthcare system while Mylan was simultaneously lobbying for legislation requiring schools to stock EpiPens at the inflated price. Her father, Senator Joe Manchin (D-WV), had sponsored the School Access to Emergency Epinephrine Act in 2013, which drove institutional demand for the product. Bresch also faced controversy over an MBA degree from West Virginia University that was later found to have been improperly awarded; the university president resigned over the scandal. Mylan settled a DOJ investigation in 2017 for $465 million over allegations that it had overcharged Medicaid by misclassifying the EpiPen as a generic drug rather than a branded product, avoiding hundreds of millions in rebates owed to the government.',
+ birthDate: '1969-07-09',
+ birthPlace: 'Morgantown, West Virginia',
+ education: ['West Virginia University (MBA - later found to have been improperly awarded; university president resigned)', 'West Virginia University (B.A.)'],
  affiliations: [
+ { name: 'Mylan N.V. (Viatris)', role: 'CEO (2012-2020); oversaw EpiPen pricing strategy and $465 million DOJ Medicaid fraud settlement', type: 'corporation' },
  ],
  controversies: [
- 'Internal documents obtained through litigation discovery show Heather Bresch was briefed on risks later downplayed in public communications.',
- 'Third-party audit reports flagged irregularities in programs overseen by Heather Bresch, though no formal investigation was initiated at the time.',
+ 'Oversaw 500%+ price increase of the EpiPen from $57 to over $609 per pair while millions of Americans depended on the device for life-threatening allergic reactions',
+ 'Received over $98 million in total compensation during the EpiPen price-gouging period, including $25 million in a single year',
+ 'Father, Senator Joe Manchin, sponsored legislation requiring schools to stock EpiPens, driving institutional demand for the product at inflated prices',
+ 'MBA degree from West Virginia University was found to have been improperly awarded after intervention by university officials; WVU president Mike Garrison resigned over the scandal',
+ 'Mylan paid $465 million to settle DOJ allegations that it overcharged Medicaid by misclassifying EpiPen as generic to avoid rebate obligations',
+ 'Testified before House Oversight Committee in 2016 and deflected blame for pricing onto the healthcare system while Mylan continued lobbying for mandatory school EpiPen purchases',
+ 'Mylan moved its corporate headquarters to the Netherlands in 2015 via a tax inversion to reduce U.S. tax liability while still benefiting from U.S. government contracts',
  ],
- charges: [],
  relatedInvestigations: [
+ { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'critical' },
  ],
  timeline: [
+ { date: '2007', event: 'Becomes President of Mylan Inc.' },
+ { date: '2012', event: 'Appointed CEO of Mylan N.V.' },
+ { date: '2013', event: 'Father Joe Manchin sponsors the School Access to Emergency Epinephrine Act, driving institutional demand for EpiPens' },
+ { date: '2016-08', event: 'National outcry over EpiPen price reaching $609; Congress demands hearings' },
+ { date: '2016-09', event: 'Testifies before House Oversight Committee; defends pricing by blaming the healthcare system' },
+ { date: '2017-08', event: 'Mylan settles with DOJ for $465 million over Medicaid misclassification fraud' },
+ { date: '2020', event: 'Retires as CEO of Viatris (Mylan merger with Upjohn); receives multi-million dollar exit package' },
  ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
+ sources: [
+ { title: 'House Oversight Committee: Reviewing the Rising Price of EpiPens - Bresch Testimony', url: 'https://oversight.house.gov/', date: '2016-09-21' },
+ { title: 'DOJ: Mylan Agrees to Pay $465 Million to Resolve False Claims Act Liability for Underpaying EpiPen Rebates', date: '2017-08-17' },
+ { title: 'SEC: Mylan N.V. Executive Compensation Filings', date: '2012-2020' },
+ ],
  knownAssociates: [
+ { name: 'Joe Manchin', relationship: 'Father; U.S. Senator (D-WV) who sponsored school EpiPen mandate legislation while daughter profited from the product', href: '/entities/individuals/joe-manchin' },
+ { name: 'Robert Coury', relationship: 'Mylan Executive Chairman who collaborated with Bresch on corporate strategy and received $98 million in a single compensation year', href: '/entities/individuals/robert-coury' },
  ],
  },
 
@@ -529,44 +548,6 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
- 'henry-cuellar': {
- name: 'Henry Cuellar',
- title: 'Texas Congressman',
- role: 'Azerbaijan Bribery, FBI Raided',
- riskLevel: 'high',
- description: 'Henry Cuellar is a conservative Democratic Congressman indicted in 2024 for allegedly taking bribes from Azerbaijan and a Mexican bank. FBI raided his home in 2022. He is one of the most conservative Democrats and voted against abortion rights.',
- birthDate: 'September 19, 1955',
- birthPlace: 'Laredo, Texas',
- education: ['Georgetown University', 'University of Texas', 'Texas A&M'],
- affiliations: [
- { name: 'U.S. House of Representatives', role: 'Rep (D-TX)', type: 'agency' as const },
- ],
- controversies: [
- 'AZERBAIJAN BRIBERY: Allegedly took $600K+ in bribes',
- 'MEXICAN BANK: Additional bribery allegations',
- 'FBI RAID: Home raided 2022',
- 'ANTI-ABORTION: Only Dem voting against abortion rights',
- 'CONSERVATIVE VOTES: Votes with GOP frequently',
- ],
- charges: [
- { statute: '18 U.S.C. � 201', description: 'Bribery, foreign government bribes (alleged)', category: 'Financial Crimes' },
- { statute: '18 U.S.C. � 1956', description: 'Money laundering (alleged)', category: 'Financial Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Foreign Bribery', slug: 'foreign-bribery', severity: 'high' },
- ],
- timeline: [
- { date: 'September 19, 1955', event: 'Born in Laredo' },
- { date: '2005-Present', event: 'U.S. Representative' },
- { date: 'January 2022', event: 'FBI raids home' },
- { date: 'May 2024', event: 'Indicted on bribery charges' },
- ],
- sources: [{ title: 'Wikipedia: Henry Cuellar', url: 'https://en.wikipedia.org/wiki/Henry_Cuellar' }, { title: 'Washington Post: Henry Cuellar', url: 'https://www.washingtonpost.com/' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- knownAssociates: [
- { name: 'Bob Menendez', relationship: 'Fellow Democratic congressman facing corruption charges', href: '/entities/individuals/bob-menendez' }
- ],
-
- },
  'herschel-walker': {
  name: 'Herschel Walker',
  title: 'Former NFL Player',
@@ -1912,17 +1893,279 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Alec Baldwin', relationship: 'Connected Entity', href: '/entities/individuals/alec-baldwin' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
+  'hendrik-verwoerd': {
+    name: 'Hendrik Verwoerd',
+    title: 'Prime Minister of South Africa (1958-1966)',
+    role: 'Architect of Grand Apartheid',
+    riskLevel: 'critical',
+    description: 'Hendrik Frensch Verwoerd is known as the "Architect of Apartheid" for designing and implementing the comprehensive system of racial segregation in South Africa. As Minister of Native Affairs (1950-58) and then Prime Minister, he created the Bantustan system, forcibly relocated millions of Black South Africans, implemented the Bantu Education Act to deliberately limit Black education, and oversaw the Sharpeville massacre. His policies systematically stripped millions of their citizenship, dignity, and rights.',
+    birthDate: '1901-09-08',
+    birthPlace: 'Amsterdam, Netherlands',
+    deathDate: '1966-09-06',
+    education: ['Stellenbosch University - PhD in Psychology', 'Universities of Hamburg, Leipzig, and Berlin'],
+    affiliations: [
+      { name: 'South African Government', role: 'Prime Minister (1958-1966)', type: 'agency' },
+      { name: 'National Party', role: 'Leader', type: 'organization' },
+      { name: 'Department of Native Affairs', role: 'Minister (1950-1958)', type: 'agency' },
+    ],
+    controversies: [
+      'Designed the Bantustan/homelands system that stripped Black South Africans of citizenship and confined them to 13% of the land',
+      'Implemented the Bantu Education Act (1953) deliberately providing inferior education to Black children - stated: "There is no place for [the Bantu] in the European community above the level of certain forms of labor"',
+      'Oversaw the Sharpeville massacre (1960) where police killed 69 unarmed protesters, many shot in the back',
+      'Group Areas Act enforcement: forcibly relocated over 3.5 million Black, Coloured, and Indian South Africans from their homes',
+      'Banned the ANC and PAC after Sharpeville, driving resistance underground',
+      'Created pass law system requiring Black South Africans to carry identification documents at all times',
+      'Sympathized with Nazi Germany during WWII as editor of Die Transvaler newspaper',
+      'Assassinated by Dimitri Tsafendas in parliament on September 6, 1966',
+    ],
+    charges: [
+      { statute: 'International Convention on the Suppression and Punishment of the Crime of Apartheid (1973)', description: 'Designed and implemented the apartheid system - declared a crime against humanity by the UN', category: 'Crimes Against Humanity' },
+      { statute: 'Crimes Against Humanity - Persecution', description: 'Systematic racial persecution through legislation depriving millions of basic rights', category: 'Crimes Against Humanity' },
+      { statute: 'Crimes Against Humanity - Forced Transfer', description: 'Forced relocation of 3.5+ million people based on race under Group Areas Act', category: 'Crimes Against Humanity' },
+    ],
+    relatedInvestigations: [
+      { title: 'Apartheid in South Africa', slug: 'apartheid-south-africa', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1901-09-08', event: 'Born in Amsterdam, Netherlands; family emigrates to South Africa' },
+      { date: '1937', event: 'Becomes editor of Die Transvaler, promoting Afrikaner nationalism' },
+      { date: '1950', event: 'Appointed Minister of Native Affairs; begins designing grand apartheid' },
+      { date: '1953', event: 'Bantu Education Act passes - deliberately limits education for Black South Africans' },
+      { date: '1958', event: 'Becomes Prime Minister of South Africa' },
+      { date: '1960-03-21', event: 'Sharpeville massacre - 69 unarmed protesters killed' },
+      { date: '1960-04', event: 'Bans ANC and PAC; declares state of emergency' },
+      { date: '1961-05-31', event: 'South Africa leaves the Commonwealth and becomes a republic' },
+      { date: '1966-09-06', event: 'Assassinated by Dimitri Tsafendas in parliament' },
+    ],
+    sources: [
+      { title: 'The Architect of Apartheid by Henry Kenney', date: '1980' },
+      { title: 'South African Truth and Reconciliation Commission Final Report', url: 'https://www.justice.gov.za/trc/report/', date: '1998' },
+    ],
+    aliases: ['Architect of Apartheid', 'Dr. Verwoerd'],
+    knownAssociates: [],
+  },
+  'hideki-tojo': {
+    name: 'Hideki Tojo',
+    title: 'Prime Minister of Japan (1941-1944)',
+    role: 'War Criminal Executed for Crimes Against Humanity in WWII',
+    riskLevel: 'critical',
+    description: 'General Hideki Tojo served as Prime Minister of Japan during most of World War II and was the driving force behind Japan\'s aggressive military expansion. He authorized the attack on Pearl Harbor, oversaw the brutal treatment of prisoners of war, and was responsible for the deaths of millions of civilians across Asia. Convicted of war crimes by the International Military Tribunal for the Far East (Tokyo Tribunal), he was executed by hanging.',
+    birthDate: '1884-12-30',
+    birthPlace: 'Tokyo, Japan',
+    deathDate: '1948-12-23',
+    education: ['Imperial Japanese Army Academy', 'Army War College'],
+    affiliations: [
+      { name: 'Imperial Japanese Government', role: 'Prime Minister (1941-1944)', type: 'agency' },
+      { name: 'Imperial Japanese Army', role: 'General and Minister of War', type: 'agency' },
+    ],
+    controversies: [
+      'Authorized the attack on Pearl Harbor bringing the United States into World War II',
+      'Oversaw Japanese military campaigns that killed millions of civilians across China, Southeast Asia, and the Pacific',
+      'Responsible for the Bataan Death March (1942) where 10,000-18,000 Filipino and American POWs died',
+      'Commanded forces during the Nanjing occupation aftermath and continuing atrocities in China',
+      'Authorized use of forced labor including "comfort women" - approximately 200,000 women forced into sexual slavery',
+      'Oversaw POW camps where death rates reached 27% compared to 4% in German/Italian camps',
+      'Unit 731 biological warfare experiments on live prisoners continued under his premiership',
+      'Attempted suicide to avoid capture in 1945; failed and was tried at Tokyo Tribunal',
+    ],
+    charges: [
+      { statute: 'IMTFE - Class A War Criminal', description: 'Waging wars of aggression and conspiracy to wage aggressive war against peace', category: 'Crimes Against Peace' },
+      { statute: 'IMTFE - Crimes Against Humanity', description: 'Ordering, authorizing, and permitting inhumane treatment of prisoners of war and civilian internees', category: 'Crimes Against Humanity' },
+      { statute: 'IMTFE - War Crimes (Conventional)', description: 'Ordering and permitting atrocities against POWs including Bataan Death March', category: 'War Crimes' },
+      { statute: 'Geneva Convention Violations', description: 'Systematic mistreatment of POWs with 27% death rate in Japanese camps', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Nanjing Massacre', slug: 'nanjing-massacre', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1884-12-30', event: 'Born in Tokyo, Japan' },
+      { date: '1940-07', event: 'Becomes Minister of War under PM Konoe' },
+      { date: '1941-10-18', event: 'Becomes Prime Minister of Japan' },
+      { date: '1941-12-07', event: 'Authorizes attack on Pearl Harbor' },
+      { date: '1942-04', event: 'Bataan Death March kills 10,000-18,000 POWs' },
+      { date: '1944-07', event: 'Forced to resign as Prime Minister after fall of Saipan' },
+      { date: '1945-09-11', event: 'Attempts suicide by shooting himself; survives' },
+      { date: '1946-1948', event: 'Tried at International Military Tribunal for the Far East' },
+      { date: '1948-11-12', event: 'Found guilty of Class A war crimes' },
+      { date: '1948-12-23', event: 'Executed by hanging at Sugamo Prison, Tokyo' },
+    ],
+    sources: [
+      { title: 'IMTFE Judgment - International Military Tribunal for the Far East', url: 'https://www.legal-tools.org/doc/583bcc/pdf/', date: '1948' },
+    ],
+    aliases: ['Razor Tojo (Kamisori Tojo)'],
+    knownAssociates: [],
+  },
+  'henry-cuellar': {
+    name: 'Henry Cuellar',
+    title: 'U.S. Representative (D-TX-28)',
+    role: 'Sitting congressman indicted for bribery and acting as a foreign agent for Azerbaijan and a Mexican bank while serving on the House Appropriations Committee',
+    riskLevel: 'critical',
+    description: 'Henry Roberto Cuellar has served as a U.S. Representative from Texas since 2005. In May 2024, Cuellar and his wife Imelda were indicted on federal charges of bribery, money laundering, and acting as foreign agents for Azerbaijan and Hanover Bancorp, a Mexican bank. The indictment alleges that from 2014 to 2021, Cuellar accepted approximately $600,000 in bribes from Azerbaijan\'s state oil company SOCAR (through an intermediary) and from the International Bank of Azerbaijan, in exchange for influencing U.S. foreign policy to benefit Azerbaijan, including efforts to downplay Azerbaijan\'s human rights record and promote arms sales. Separately, Cuellar allegedly accepted bribes from a Mexico-based bank in exchange for official acts. Cuellar\'s wife was allegedly paid $600,000 as a "consultant" by the Azerbaijani entities, though prosecutors say little to no legitimate work was performed. Cuellar has pleaded not guilty and was reelected in 2024 while under indictment. He served on the powerful House Appropriations Committee, which controls federal spending.',
+    birthDate: 'September 19, 1955',
+    birthPlace: 'Laredo, Texas',
+    education: ['Georgetown University (B.S.)', 'University of Texas at Austin (J.D.)', 'Texas A&M International University (M.A.)', 'University of Texas at Austin (Ph.D.)'],
+    affiliations: [
+      { name: 'U.S. House of Representatives (D-TX)', role: 'Member of Congress', type: 'agency' as const },
+      { name: 'House Appropriations Committee', role: 'Member', type: 'agency' as const },
+    ],
+    controversies: [
+      'Indicted for accepting $600,000 in bribes from Azerbaijan and Mexican bank',
+      'Charged with acting as unregistered foreign agent for Azerbaijan',
+      'Wife allegedly paid $600K as sham "consultant" for Azerbaijani entities',
+      'Used official position to influence U.S. foreign policy for Azerbaijan',
+      'Reelected while under federal indictment',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 201(b)', description: 'Bribery - accepting payments for official acts benefiting Azerbaijan and Mexican bank', category: 'federal' },
+      { statute: '18 U.S.C. 951', description: 'Acting as an agent of a foreign government without notification', category: 'federal' },
+      { statute: '18 U.S.C. 1956', description: 'Money laundering conspiracy', category: 'federal' },
+      { statute: '22 U.S.C. 611', description: 'Failure to register as foreign agent under FARA', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-revolving-door-legalized-corruption'],
+    timeline: [
+      { date: '2005-01', event: 'Takes office in U.S. House of Representatives' },
+      { date: '2014-2021', event: 'Period of alleged bribery by Azerbaijan and Mexican bank' },
+      { date: '2022-01-19', event: 'FBI raids Cuellar\'s home and campaign office in Laredo' },
+      { date: '2024-05-03', event: 'Indicted on bribery, money laundering, and foreign agent charges' },
+      { date: '2024-05-10', event: 'Pleads not guilty' },
+      { date: '2024-11', event: 'Wins reelection while under indictment' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Henry Cuellar', url: 'https://www.justice.gov/opa/pr/us-congressman-and-wife-charged-bribery-and-foreign-agent-offenses', date: '2024' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Imelda Cuellar', relationship: 'Wife and co-defendant; received $600K in alleged sham consulting fees' },
+    ],
+  },
+  'henry-kissinger': {
+    name: 'Henry Kissinger',
+    title: 'Former Secretary of State and National Security Advisor',
+    role: 'U.S. official complicit in war crimes, coups, and mass atrocities across multiple continents',
+    riskLevel: 'critical',
+    description: 'Henry Kissinger served as National Security Advisor (1969-1975) and Secretary of State (1973-1977) under Presidents Nixon and Ford. During his tenure, he was directly involved in policies that resulted in the deaths of millions of people: the secret bombing of Cambodia (1969-1973, estimated 150,000 civilian deaths), support for the Pakistani military\'s genocide in Bangladesh (1971, 300,000-3,000,000 killed), the CIA-backed coup in Chile (1973) and subsequent support for Pinochet\'s dictatorship, support for Indonesia\'s invasion of East Timor (1975, 100,000-300,000 killed), and a documented meeting in which he signaled support for Argentina\'s Dirty War. Despite multiple requests from courts in France, Spain, Brazil, Argentina, and Chile, Kissinger was never extradited or prosecuted. He died in November 2023 at age 100.',
+    birthDate: 'May 27, 1923',
+    birthPlace: 'Furth, Germany',
+    education: ['Harvard University (B.A., M.A., Ph.D.)'],
+    affiliations: [
+      { name: 'U.S. Department of State', role: 'Secretary of State (1973-1977)', type: 'agency' as const },
+      { name: 'National Security Council', role: 'National Security Advisor (1969-1975)', type: 'agency' as const },
+      { name: 'Kissinger Associates', role: 'Founder and Chairman', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Orchestrated secret bombing of Cambodia killing estimated 150,000 civilians',
+      'Supported CIA-backed coup against democratically elected Salvador Allende in Chile (1973)',
+      'Signaled support for Argentine junta\'s Dirty War in documented June 1976 meeting',
+      'Supported Pakistan\'s military during Bangladesh genocide (1971)',
+      'Gave "green light" to Indonesia\'s invasion of East Timor (1975) one day after meeting with Suharto',
+      'Wiretapped own NSC staff and journalists without court authorization',
+      'Operation Condor: aware of and provided support for cross-border assassination program',
+      'Sabotaged Vietnam peace talks in 1968 to benefit Nixon\'s election campaign',
+    ],
+    charges: [],
+    relatedInvestigations: ['operation-condor-cia-latin-america', 'us-backed-coups-regime-change'],
+    timeline: [
+      { date: '1969', event: 'Appointed National Security Advisor by President Nixon; initiated secret bombing of Cambodia' },
+      { date: '1971', event: 'Supported Pakistan during Bangladesh genocide despite State Department "Blood Telegram" opposing policy' },
+      { date: '1973', event: 'Became Secretary of State; supported Chilean coup against Allende' },
+      { date: '1975', event: 'Met with Suharto; Indonesia invaded East Timor the following day' },
+      { date: '1976', event: 'Documented meeting signaling support for Argentine junta\'s dirty war' },
+      { date: '2001', event: 'French judge sought testimony regarding Operation Condor; Kissinger refused' },
+      { date: 'November 2023', event: 'Died at age 100; never faced prosecution for any actions' },
+    ],
+    sources: [
+      { title: 'National Security Archive: Kissinger Declassified', url: 'https://nsarchive.gwu.edu/project/kissinger-declassified', date: '2023' },
+      { title: 'Christopher Hitchens: The Trial of Henry Kissinger', url: 'https://www.versobooks.com/books/1553-the-trial-of-henry-kissinger', date: '2001' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Richard Nixon', relationship: 'President who appointed him; co-architect of Cambodia bombing and Chile coup' },
+      { name: 'Augusto Pinochet', relationship: 'Chilean dictator installed with U.S. support; Kissinger maintained contact' },
+      { name: 'Manuel Contreras', relationship: 'Chilean DINA chief; CIA asset who ran Operation Condor operations' },
+    ],
+  },
+  'eric-holder': {
+    name: 'Eric Holder',
+    slug: 'eric-holder',
+    bio: 'Eric Himpton Holder Jr. served as the 82nd Attorney General of the United States from 2009 to 2015 under President Obama. As the nation\'s chief law enforcement officer during the aftermath of the 2008 financial crisis, Holder made the consequential decision not to criminally prosecute any senior Wall Street executive, articulating the doctrine that some banks were "too big to jail." His DOJ settled with banks for $150+ billion in fines while securing zero criminal convictions of CEOs or senior management. Before and after his tenure as AG, Holder was a partner at Covington & Burling, a corporate law firm whose clients include many of the same banks his DOJ declined to prosecute. His tenure is widely cited as the definitive case study in the failure of accountability for institutional financial crime.',
+    riskLevel: 'high' as const,
+    status: 'active',
+    lastKnownLocation: 'Washington, D.C.',
+    birthDate: 'January 21, 1951',
+    education: [
+      'B.A., American History, Columbia University (1973)',
+      'J.D., Columbia Law School (1976)',
+    ],
+    affiliations: [
+      { name: 'DOJ', role: 'Attorney General (2009-2015)', type: 'agency' as const },
+      { name: 'Covington & Burling', role: 'Partner (pre and post-AG tenure)', type: 'corporation' as const },
+    ],
+    relatedInvestigations: [
+      { title: '2008 Financial Crisis Accountability', slug: 'financial-crisis-accountability-failure', severity: 'critical' },
+      { title: 'Civil Asset Forfeiture Abuse', slug: 'civil-asset-forfeiture-legalized-theft', severity: 'high' },
+    ],
+    charges: [
+      { statute: 'N/A - Policy Decision', description: 'Articulated "too big to jail" doctrine preventing criminal prosecution of Wall Street executives', category: 'Dereliction of duty' },
+      { statute: 'N/A - Revolving Door', description: 'Returned to bank defense firm Covington & Burling after declining to prosecute its clients', category: 'Conflict of interest' },
+    ],
+    criminalHistory: 'Holder was held in contempt of Congress (civil and criminal) in June 2012 over the Fast and Furious gun-walking operation in which the ATF allowed firearms to flow to Mexican cartels. He is the first sitting AG held in contempt by Congress. No criminal charges were pursued.',
+    financialInfo: 'As partner at Covington & Burling, Holder earned an estimated $2.5 million+ annually. The firm represents JPMorgan Chase, Wells Fargo, Citigroup, and other major banks. His net worth is estimated at $11.5 million.',
+    sources: [
+      { title: 'Frontline: The Untouchables (PBS Investigation)', url: 'https://www.pbs.org/wgbh/frontline/documentary/untouchables/', date: '2013' },
+      { title: 'DOJ: Too Big to Jail - AG Testimony', url: 'https://www.justice.gov/', date: '2013' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Barack Obama', relationship: 'President who appointed him; longest-serving AG under Obama' },
+      { name: 'Lanny Breuer', relationship: 'DOJ Criminal Division chief; publicly stated fear of prosecuting banks due to economic consequences' },
+    ],
+  },
+  'rick-perry': {
+    name: 'Rick Perry',
+    title: 'Former Secretary of Energy and Governor of Texas',
+    role: 'Governor Who Became Secretary of the Department He Wanted to Eliminate',
+    riskLevel: 'medium' as const,
+    description: 'Rick Perry served as Energy Secretary after famously being unable to remember it was the department he wanted to eliminate during a 2011 debate. He later admitted he did not understand the departments role in managing the nuclear weapons stockpile when he accepted the position. He was connected to the Ukraine pressure campaign and influenced energy policy that benefited donors.',
+    birthDate: '1950-03-04',
+    birthPlace: 'Haskell, Texas',
+    education: [
+      'B.S. in Animal Science, Texas A&M University (1972)',
+    ],
+    affiliations: [
+      { name: 'Department of Energy', role: 'Secretary (2017-2019)', type: 'agency' as const },
+      { name: 'State of Texas', role: 'Governor (2000-2015)', type: 'agency' as const },
+    ],
+    controversies: [
+      'During 2011 presidential debate, could not name the third federal department he wanted to eliminate; it was the Energy Department he would later lead',
+      'Admitted after accepting the position that he did not realize the Department of Energy managed the nuclear weapons arsenal',
+      'Connected to Ukraine energy dealings that intersected with the Trump-Ukraine scandal; encouraged energy executives to pursue deals in Ukraine',
+      'As Governor, oversaw 279 executions, more than any governor in modern American history; evidence later emerged suggesting some executed individuals may have been innocent',
+      'Replaced members of the Texas Forensic Science Commission to prevent a ruling that faulty arson science led to the execution of Cameron Todd Willingham',
+      'Indicted in Texas for abuse of power related to threatening to veto funding for a public integrity unit; charges later dismissed on constitutional grounds',
+      'As Energy Secretary, pushed for bailouts of coal and nuclear plants owned by major Republican donors, particularly FirstEnergy and Murray Energy',
+    ],
+    relatedInvestigations: [
+      { title: 'Nuclear Waste Storage Crisis', slug: 'nuclear-waste-storage-crisis', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2000-12', event: 'Became Governor of Texas after George W. Bush became president' },
+      { date: '2004', event: 'Replaced Texas Forensic Science Commission members before Willingham ruling' },
+      { date: '2011-11', event: '"Oops" debate moment: forgot Energy Department was one of three agencies he would eliminate' },
+      { date: '2017-03', event: 'Confirmed as Energy Secretary; admitted not understanding the departments nuclear role' },
+      { date: '2019', event: 'Connected to Ukraine energy dealings involving Rudy Giuliani and energy executives' },
+      { date: '2019-10', event: 'Resigned as Energy Secretary amid Ukraine investigation scrutiny' },
+    ],
+    sources: [
+      { title: 'New Yorker: Cameron Todd Willingham Investigation', date: '2009' },
+      { title: 'House Intelligence Committee: Ukraine Inquiry and Perry Connection', date: '2019' },
+      { title: 'DOE OIG: Review of Perry Policy Decisions', date: '2019' },
+    ],
+    aliases: ['Governor Oops'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who appointed him to lead the department Perry famously could not name', href: '/entities/individuals/donald-trump' },
+      { name: 'Rudy Giuliani', relationship: 'Trumps personal attorney whose Ukraine dealings intersected with Perrys energy diplomacy', href: '/entities/individuals/rudy-giuliani' },
+    ],
+  },
 };
 
 export default profiles;

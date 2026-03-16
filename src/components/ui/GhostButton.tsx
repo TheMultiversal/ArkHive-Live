@@ -55,7 +55,7 @@ export default function GhostButton({
  bg-transparent border-2 ${variantStyles[variant]}
  font-bold uppercase tracking-wider
  transition-all duration-200 ease-out
- hover:shadow-[0_0_20px_rgba(220,38,38,0.3)]
+ hover:shadow-[0_0_20px_rgba(37,99,235,0.3)]
  active:scale-95
  ${className}
  `;

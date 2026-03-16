@@ -2,44 +2,6 @@
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
- 'michael-flynn': {
- name: 'Michael Flynn',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Michael Flynn. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Investigative analysis reveals Michael Flynn was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'michael-cohen': {
  name: 'Michael Dean Cohen',
  title: 'Convicted Felon, Former Trump Fixer',
@@ -1338,102 +1300,6 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
- 'mark-zuckerberg': {
- name: 'Mark Elliot Zuckerberg',
- title: 'CEO of Meta Platforms (Facebook)',
- role: 'Tech CEO, Social Media Mogul, Surveillance Capitalism Pioneer',
- riskLevel: 'critical',
- description: 'Mark Zuckerberg is the founder and CEO of Meta Platforms (formerly Facebook), the company responsible for the largest privacy breach in history through Cambridge Analytica (87 million users), systematic amplification of disinformation that undermined democracy, enabling Russian election interference, and building the most comprehensive surveillance apparatus in human history. Facebook\'s algorithms radicalized millions and contributed to genocide in Myanmar.',
- birthDate: 'May 14, 1984',
- birthPlace: 'White Plains, New York, USA',
- netWorth: '$177 billion (Forbes 2024)',
- education: ['Harvard University (dropped out 2004)', 'Phillips Exeter Academy'],
- affiliations: [
- { name: 'Meta Platforms', role: 'CEO, Chairman, Founder', type: 'corporation' },
- { name: 'Facebook', role: 'Founder (2004)', type: 'corporation' },
- { name: 'Chan Zuckerberg Initiative', role: 'Co-founder', type: 'organization' },
- ],
- controversies: [
- 'CAMBRIDGE ANALYTICA: 87 million users\' data harvested without consent and weaponized for psychological manipulation in 2016 election',
- 'RUSSIAN INTERFERENCE: Facebook platform used extensively by Russian Internet Research Agency to spread disinformation, reach 126 million Americans',
- 'MYANMAR GENOCIDE: UN investigation found Facebook played"determining role"in genocide against Rohingya Muslims; 25,000+ killed',
- 'ALGORITHMIC RADICALIZATION: Internal research showed Instagram made teen girls\' body image issues worse; company suppressed findings',
- 'ELECTION DISINFORMATION: False news spreads 6x faster than truth on platform; company profits from engagement regardless of harm',
- 'PRIVACY VIOLATIONS: FTC $5 billion fine (2019) for privacy violations; largest in FTC history',
- 'WHISTLEBLOWER REVELATIONS: Frances Haugen exposed internal documents showing company chose profits over safety',
- 'MONOPOLY POWER: Acquisitions of Instagram and WhatsApp to eliminate competition, FTC antitrust lawsuit pending',
- ],
- charges: [
- { statute: '15 U.S.C. § 45 (FTC Act)', description: 'Unfair and Deceptive Practices; Cambridge Analytica, privacy violations ($5B fine)', category: 'Consumer Protection' },
- { statute: 'GDPR Article 83', description: 'Data Protection Violations; EU fines exceeding $1.3 billion', category: 'Privacy' },
- { statute: 'Rome Statute Article 25(3)(c)', description: 'Aiding and Abetting Genocide; Myanmar platform role', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 7(1)(h)', description: 'Crime Against Humanity; Persecution through platform enabling', category: 'International Criminal Court' },
- { statute: '15 U.S.C. § 1 (Sherman Act)', description: 'Monopolization; acquisition of competitors to maintain dominance', category: 'Antitrust' },
- { statute: '52 U.S.C. § 30121', description: 'Foreign Election Interference; platform enabled Russian operations', category: 'Election Crimes' },
- ],
- relatedInvestigations: [
- { title: 'Cambridge Analytica Scandal', slug: 'cambridge-analytica', severity: 'critical' },
- { title: 'Psychological Manipulation Campaigns', slug: 'psychological-manipulation', severity: 'critical' },
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Surveillance State Expansion', slug: 'surveillance-expansion', severity: 'high' },
- ],
- timeline: [
- { date: 'May 14, 1984', event: 'Born in White Plains, New York' },
- { date: 'February 4, 2004', event: 'Launches Facebook from Harvard dorm' },
- { date: '2012', event: 'Facebook IPO; becomes billionaire' },
- { date: '2012', event: 'Acquires Instagram for $1 billion (eliminating competitor)' },
- { date: '2014', event: 'Acquires WhatsApp for $19 billion (eliminating competitor)' },
- { date: '2014-2015', event: 'Cambridge Analytica harvests 87 million users\' data' },
- { date: '2016', event: 'Russian IRA uses Facebook to reach 126 million Americans' },
- { date: '2017-2018', event: 'Facebook\'s role in Myanmar genocide documented by UN' },
- { date: 'March 2018', event: 'Cambridge Analytica scandal breaks' },
- { date: 'April 2018', event: 'Testifies before Congress -"I\'m sorry"' },
- { date: 'July 2019', event: 'FTC imposes record $5 billion fine' },
- { date: 'October 2021', event: 'Frances Haugen whistleblower revelations' },
- { date: 'October 2021', event: 'Rebrands company as"Meta"' },
- { date: '2023', event: 'FTC sues to unwind Instagram/WhatsApp acquisitions' },
- ],
- socialMedia: [],
- sources: [
- { title: 'FTC $5 Billion Facebook Settlement', url: 'https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook', date: '2019' },
- { title: 'UN Myanmar Report on Facebook', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', date: '2018' },
- { title: 'Cambridge Analytica Investigation', url: 'https://www.theguardian.com/news/series/cambridge-analytica-files', date: '2018' },
- { title: 'Facebook Files (WSJ)', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/the-facebook-files-11631713039', date: '2021' },
- ],
- aliases: ['Zuck', 'The Social Network guy'],
- knownAssociates: [
- { name: 'Sheryl Sandberg', relationship: 'Former COO, helped build surveillance ad model' },
- { name: 'Peter Thiel', relationship: 'Early Facebook investor, board member', href: '/entities/individuals/peter-thiel' },
- { name: 'Alexander Nix', relationship: 'Cambridge Analytica CEO, data recipient', href: '/entities/individuals/alexander-nix' },
- { name: 'Christopher Wylie', relationship: 'Whistleblower who exposed CA operation', href: '/entities/individuals/christopher-wylie' },
- ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'margaret-thatcher': {
  name: 'Margaret Thatcher',
  title: 'Profile Under Review',
@@ -2469,30 +2335,6 @@ const profiles: Record<string, IndividualProfile> = {
  ],
 
  },
- 'martin-shkreli': {
- name: 'Martin Shkreli',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Martin Shkreli. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Third-party audit reports flagged irregularities in programs overseen by Martin Shkreli, though no formal investigation was initiated at the time.',
- 'Congressional hearing transcripts reference Martin Shkreli in connection with policy decisions that disproportionately benefited associated financial interests.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
 
 
 
@@ -3294,32 +3136,49 @@ const profiles: Record<string, IndividualProfile> = {
 
  'margaret-sanger': {
  name: 'Margaret Sanger',
- title: 'Birth control advocate whose movement intersected with eugenics ideology',
- role: 'Birth control advocate whose movement intersected with eugenics ideology',
- riskLevel: 'high',
- description: 'Margaret Sanger. Profile pending review.',
- education: [],
+ title: 'Founder of Planned Parenthood and Birth Control Advocate',
+ role: 'Pioneer of the American birth control movement whose advocacy intersected with the eugenics movement; funded the Puerto Rico contraceptive trials conducted without informed consent',
+ riskLevel: 'high' as const,
+ description: 'Margaret Higgins Sanger (1879-1966) was an American birth control activist, sex educator, writer, and nurse who founded the American Birth Control League in 1921, which later became the Planned Parenthood Federation of America. While Sanger pioneering advocacy for contraception empowered millions of women and challenged the repressive Comstock laws, her movement was deeply entangled with the eugenics ideology of the early 20th century. Sanger spoke at Ku Klux Klan rallies, endorsed eugenic sterilization of those she called "the unfit," and wrote in 1932 that her plan for peace included sterilizing or segregating people she deemed "dysgenic." She served on the board of the American Eugenics Society. Most critically, Sanger funded Gregory Pincus development of the oral contraceptive pill and facilitated the Puerto Rico clinical trials (1955-1960) in which over 1,500 women in impoverished housing projects were given high-dose experimental hormone pills without informed consent, with three women dying during the trials and no autopsies performed. Sanger specifically chose Puerto Rico because its colonial status and poverty allowed experimentation that mainland laws prevented. Her legacy remains deeply contested: she expanded reproductive freedom while simultaneously endorsing policies that targeted poor, disabled, and minority communities for elimination.',
+ birthDate: '1879-09-14',
+ birthPlace: 'Corning, New York',
+ deathDate: '1966-09-06',
+ education: ['White Plains Hospital Nursing Program', 'Claverack College and Hudson River Institute'],
  affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
+ { name: 'American Birth Control League (later Planned Parenthood)', role: 'Founder and President (1921-1928); established nationwide network of birth control clinics', type: 'organization' },
+ { name: 'American Eugenics Society', role: 'Board member; endorsed eugenic sterilization programs for those she deemed "unfit"', type: 'organization' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
+ 'Spoke at a Ku Klux Klan rally in 1926 in New Jersey and later wrote positively about the invitation in her autobiography',
+ 'Endorsed eugenic sterilization of "the unfit" and wrote "A Plan for Peace" (1932) calling for segregation and sterilization of people she deemed dysgenic',
+ 'Served on the board of the American Eugenics Society alongside proponents of racial purity ideology',
+ 'Funded and facilitated the Puerto Rico contraceptive trials where 1,500+ women were given experimental pills without informed consent; three women died with no autopsies',
+ 'Specifically chose Puerto Rico for trials because colonial poverty and legal status enabled experimentation prohibited on the mainland',
+ 'Her "Negro Project" (1939) sought to introduce birth control in Black communities; stated that "we do not want word to go out that we want to exterminate the Negro population"',
+ 'Her advocacy for birth control was intertwined with eugenics ideology that targeted poor, disabled, and minority populations',
  ],
- charges: [],
  relatedInvestigations: [
- { title: 'Forced Sterilization', slug: 'forced-sterilization', severity: 'high' },
+ { title: 'Mandatory Sterilization Programs in the United States', slug: 'mandatory-sterilization-programs-united-states', severity: 'critical' },
+ { title: 'The Puerto Rico Birth Control Pill Trials', slug: 'puerto-rico-contraceptive-trials', severity: 'critical' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Birth control advocate whose movement intersected with eugenics ideology' },
+ { date: '1916-10-16', event: 'Opens the first birth control clinic in the United States in Brooklyn, New York; arrested nine days later under Comstock laws' },
+ { date: '1921', event: 'Founds the American Birth Control League, the precursor to Planned Parenthood' },
+ { date: '1926', event: 'Speaks at a Ku Klux Klan rally in Silver Lake, New Jersey' },
+ { date: '1932', event: 'Publishes "A Plan for Peace" calling for sterilization and segregation of those she deems genetically inferior' },
+ { date: '1939', event: 'Launches the "Negro Project" to promote birth control in Black communities in the American South' },
+ { date: '1951', event: 'Recruits Gregory Pincus to develop an oral contraceptive pill, providing funding from Katharine McCormick' },
+ { date: '1955', event: 'Puerto Rico contraceptive trials begin; Sanger and McCormick funding supports testing on women without informed consent' },
+ { date: '1966-09-06', event: 'Dies in Tucson, Arizona at age 86; Planned Parenthood eventually acknowledges her eugenics connections in 2020' },
  ],
- socialMedia: [],
  sources: [
- { title: 'Wikipedia: Margaret Sanger', url: 'https://en.wikipedia.org/wiki/Margaret_Sanger', date: '' },
+ { title: 'Planned Parenthood: Our Past and Margaret Sanger', url: 'https://www.plannedparenthood.org/about-us/who-we-are/our-history', date: '2024' },
+ { title: 'Margaret Sanger Papers Project, New York University', url: 'https://sanger.hosting.nyu.edu/', date: '2024' },
  ],
- aliases: [],
  knownAssociates: [
- { name: 'Harry Laughlin', relationship: 'Eugenics figure who intersected with Sanger\'s birth control movement', href: '/entities/individuals/harry-laughlin' },
- { name: 'Paul Popenoe', relationship: 'Fellow eugenics-connected figure in reproductive policy', href: '/entities/individuals/paul-popenoe' },
+ { name: 'Gregory Pincus', relationship: 'Biologist she recruited and funded to develop the oral contraceptive pill; conducted Puerto Rico trials without informed consent', href: '/entities/individuals/gregory-pincus' },
+ { name: 'Harry Laughlin', relationship: 'Superintendent of the Eugenics Record Office who shared Sanger belief in eugenic sterilization', href: '/entities/individuals/harry-laughlin' },
+ { name: 'Katharine McCormick', relationship: 'Wealthy philanthropist who funded Pincus contraceptive research at Sanger urging; provided millions for pill development' },
  ],
  },
 
@@ -5601,16 +5460,469 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
-
-
-
+  'min-aung-hlaing': {
+    name: 'Min Aung Hlaing',
+    title: 'Commander-in-Chief of the Myanmar Armed Forces',
+    role: 'Architect of the Rohingya Genocide and Military Coup Leader',
+    riskLevel: 'critical',
+    description: 'Senior General Min Aung Hlaing commands the Tatmadaw (Myanmar Armed Forces) and orchestrated the 2017 genocide against the Rohingya Muslim population in Rakhine State, displacing over 740,000 people and killing thousands through systematic rape, murder, and village burnings. In 2021, he seized power in a military coup, overthrowing the elected government and launching a brutal crackdown that has killed thousands of pro-democracy protesters.',
+    birthDate: '1956-07-03',
+    birthPlace: 'Tavoy, Burma',
+    education: ['Defence Services Academy, Maymyo'],
+    affiliations: [
+      { name: 'Tatmadaw (Myanmar Armed Forces)', role: 'Commander-in-Chief (2011-present)', type: 'agency' },
+      { name: 'State Administration Council', role: 'Chairman (2021-present)', type: 'agency' },
+    ],
+    controversies: [
+      'UN Fact-Finding Mission concluded he should be investigated for genocide, crimes against humanity, and war crimes against the Rohingya',
+      'Directed 2017 "clearance operations" that killed at least 10,000 Rohingya, raped thousands of women, and burned 354 villages',
+      'Led February 2021 military coup overthrowing elected government of Aung San Suu Kyi',
+      'Post-coup crackdown has killed over 4,000 protesters and detained over 25,000 political prisoners',
+      'Ordered airstrikes on civilian areas including the Pazigyi massacre (April 2023) killing 170+ people at a village gathering',
+      'Facebook determined his military used the platform to incite genocide against Rohingya',
+      'International sanctions imposed by US, EU, UK, and Canada',
+    ],
+    charges: [
+      { statute: 'UN Genocide Convention - Genocide', description: 'UN Fact-Finding Mission recommended prosecution for genocide against Rohingya people', category: 'Genocide' },
+      { statute: 'Rome Statute - Crimes Against Humanity', description: 'ICC authorized investigation into deportation and persecution of Rohingya', category: 'Crimes Against Humanity' },
+      { statute: 'Geneva Conventions - War Crimes', description: 'Deliberate targeting of civilian populations, use of sexual violence as weapon of war', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Rohingya Genocide in Myanmar', slug: 'rohingya-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1956-07-03', event: 'Born in Tavoy (Dawei), Burma' },
+      { date: '2011-03-30', event: 'Appointed Commander-in-Chief of Defence Services' },
+      { date: '2017-08-25', event: 'Launches "clearance operations" in Rakhine State - Rohingya genocide begins' },
+      { date: '2018-08-27', event: 'UN Fact-Finding Mission calls for his prosecution for genocide' },
+      { date: '2019-11', event: 'ICC authorizes investigation into crimes against Rohingya' },
+      { date: '2021-02-01', event: 'Stages military coup; declares state of emergency' },
+      { date: '2023-04-11', event: 'Military airstrikes destroy Pazigyi village, killing 170+' },
+    ],
+    sources: [
+      { title: 'UN Fact-Finding Mission on Myanmar', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [],
+  },
+  'mao-zedong': {
+    name: 'Mao Zedong',
+    title: 'Chairman of the Chinese Communist Party (1949-1976)',
+    role: 'Dictator Whose Policies Killed an Estimated 40-80 Million People',
+    riskLevel: 'critical',
+    description: 'Mao Zedong founded the People\'s Republic of China and ruled as its paramount leader for 27 years. His policies caused the deaths of an estimated 40-80 million people, making him responsible for more deaths than any other individual in recorded history. The Great Leap Forward (1958-62) caused the deadliest famine in human history, and the Cultural Revolution (1966-76) destroyed millions of lives through political persecution, torture, and execution.',
+    birthDate: '1893-12-26',
+    birthPlace: 'Shaoshan, Hunan Province, China',
+    deathDate: '1976-09-09',
+    education: ['Hunan First Normal University'],
+    affiliations: [
+      { name: 'Chinese Communist Party', role: 'Chairman (1935-1976)', type: 'organization' },
+      { name: 'People\'s Republic of China', role: 'Founding Leader and Chairman', type: 'agency' },
+      { name: 'People\'s Liberation Army', role: 'Chairman of Central Military Commission', type: 'agency' },
+    ],
+    controversies: [
+      'Great Leap Forward (1958-62) caused famine killing 15-55 million people - the deadliest famine in human history',
+      'Cultural Revolution (1966-76) killed an estimated 500,000-2,000,000 through political persecution, torture, and execution',
+      'Anti-Rightist Campaign (1957-59) persecuted 550,000+ intellectuals, sending hundreds of thousands to labor camps',
+      'Land reform campaign (1949-53) executed an estimated 1-2 million landlords',
+      'Campaign to Suppress Counterrevolutionaries executed 712,000-2,000,000 people in 1950-53',
+      'Tibetan uprising suppression (1959) and cultural destruction in Tibet',
+      'Encouraged students to form Red Guards who tortured, humiliated, and killed teachers, intellectuals, and "class enemies"',
+      'Destroyed Chinese cultural heritage - Red Guards demolished temples, artifacts, and thousands of years of cultural treasures',
+    ],
+    charges: [
+      { statute: 'Crimes Against Humanity - Extermination', description: 'Great Leap Forward policies directly caused famine killing 15-55 million people', category: 'Crimes Against Humanity' },
+      { statute: 'Crimes Against Humanity - Persecution', description: 'Cultural Revolution targeted "class enemies" for persecution, torture, and execution', category: 'Crimes Against Humanity' },
+      { statute: 'Crimes Against Humanity - Mass Execution', description: 'Campaign to Suppress Counterrevolutionaries executed 712,000-2,000,000', category: 'Crimes Against Humanity' },
+    ],
+    relatedInvestigations: [
+      { title: 'Tiananmen Square Massacre', slug: 'tiananmen-square-massacre', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1893-12-26', event: 'Born in Shaoshan, Hunan Province' },
+      { date: '1949-10-01', event: 'Proclaims founding of People\'s Republic of China' },
+      { date: '1950-1953', event: 'Campaign to Suppress Counterrevolutionaries; 712,000-2,000,000 executed' },
+      { date: '1957', event: 'Anti-Rightist Campaign persecutes 550,000+ intellectuals' },
+      { date: '1958-1962', event: 'Great Leap Forward causes famine killing 15-55 million' },
+      { date: '1959', event: 'Tibetan uprising suppressed; Dalai Lama flees' },
+      { date: '1966', event: 'Launches Cultural Revolution; Red Guards terrorize the population' },
+      { date: '1976-09-09', event: 'Dies in Beijing; never faced accountability' },
+    ],
+    sources: [
+      { title: 'Mao\'s Great Famine by Frank Dikotter', url: 'https://www.bloomsbury.com/us/maos-great-famine-9781620403471/', date: '2010' },
+      { title: 'Tombstone: The Great Chinese Famine by Yang Jisheng', url: 'https://us.macmillan.com/books/9780374533991/tombstone', date: '2012' },
+    ],
+    aliases: ['Chairman Mao', 'The Great Helmsman'],
+    knownAssociates: [
+      { name: 'Deng Xiaoping', relationship: 'Successor who ordered Tiananmen Square crackdown', href: '/individuals/deng-xiaoping' },
+    ],
+  },
+  'michael-flynn': {
+    name: 'Michael Flynn',
+    title: 'Former National Security Advisor',
+    role: 'Trump\'s first National Security Advisor who pleaded guilty to lying to the FBI about contacts with Russia\'s ambassador, then was pardoned by Trump',
+    riskLevel: 'critical',
+    description: 'Michael Thomas Flynn served as National Security Advisor for 24 days in January-February 2017, the shortest tenure in history. A retired Lieutenant General, Flynn was fired by the Obama administration as Director of the Defense Intelligence Agency in 2014 for mismanagement. During the 2016 transition, Flynn contacted Russian Ambassador Sergey Kislyak about sanctions, then lied to Vice President Pence and FBI agents about those conversations. He pleaded guilty in December 2017 to making false statements to the FBI and cooperated with Special Counsel Robert Mueller\'s investigation. Flynn also failed to register as a foreign agent for Turkey, for which his lobbying firm received $530,000. Flynn\'s business partner Bijan Rafiekian was convicted of acting as an unregistered foreign agent. After initially cooperating, Flynn reversed course, fired his lawyers, hired Sidney Powell, and moved to withdraw his guilty plea. The DOJ under AG Bill Barr moved to dismiss the case in May 2020, and Trump pardoned Flynn in November 2020. Flynn subsequently promoted QAnon conspiracy theories and called for martial law to overturn the 2020 election.',
+    birthDate: 'December 24, 1958',
+    birthPlace: 'Middletown, Rhode Island',
+    education: ['University of Rhode Island (B.S.)', 'Golden Gate University (M.B.A.)', 'Naval War College (M.A.)'],
+    affiliations: [
+      { name: 'White House', role: 'National Security Advisor', type: 'agency' as const },
+      { name: 'Defense Intelligence Agency', role: 'Director', type: 'organization' as const },
+      { name: 'Flynn Intel Group', role: 'Founder', type: 'organization' as const },
+    ],
+    controversies: [
+      'Pleaded guilty to lying to FBI about Russian ambassador contacts; pardoned by Trump',
+      'Failed to register as foreign agent for $530,000 Turkish lobbying',
+      'Shortest-serving National Security Advisor in history (24 days)',
+      'Called for martial law and military intervention to overturn 2020 election',
+      'Promoted QAnon conspiracy theories at rallies',
+      'Led "Lock her up" chants against Hillary Clinton at 2016 RNC',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1001', description: 'Making false statements to the FBI about contacts with Russian ambassador (guilty plea; pardoned)', category: 'federal' },
+      { statute: '22 U.S.C. 611', description: 'Failure to register as foreign agent for Turkey under FARA (not personally charged)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/january-6-insurrection'],
+    timeline: [
+      { date: '2016-07-18', event: 'Leads "Lock her up" chant at Republican National Convention' },
+      { date: '2017-01-20', event: 'Appointed National Security Advisor' },
+      { date: '2017-02-13', event: 'Forced to resign after 24 days' },
+      { date: '2017-12-01', event: 'Pleads guilty to making false statements to FBI' },
+      { date: '2020-05-07', event: 'DOJ moves to dismiss case under AG Barr' },
+      { date: '2020-11-25', event: 'Pardoned by President Trump' },
+      { date: '2020-12', event: 'Publicly calls for martial law to overturn election' },
+    ],
+    sources: [
+      { title: 'Special Counsel Mueller: United States v. Michael T. Flynn', url: 'https://www.justice.gov/sco/case/united-states-v-michael-t-flynn', date: '2017' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who appointed and later pardoned him', href: '/entities/individuals/donald-trump' },
+      { name: 'Sidney Powell', relationship: 'Attorney who represented him in withdrawal of guilty plea', href: '/entities/individuals/sidney-powell' },
+      { name: 'Sergey Kislyak', relationship: 'Russian ambassador Flynn lied about contacting' },
+    ],
+  },
+  'mark-zuckerberg': {
+    name: 'Mark Zuckerberg',
+    title: 'CEO of Meta (formerly Facebook)',
+    role: 'Built the world\'s largest social media platform that has been weaponized for genocide, election manipulation, and mass psychological harm while Zuckerberg obstructed accountability',
+    riskLevel: 'critical',
+    description: 'Mark Elliot Zuckerberg is the co-founder and CEO of Meta Platforms, Inc., which operates Facebook, Instagram, and WhatsApp with over 3.9 billion monthly users. Facebook\'s platform was identified by the UN as playing a "determining role" in the Rohingya genocide in Myanmar, where military officials used Facebook to spread hate speech and coordinate violence against the Muslim minority. The Cambridge Analytica scandal revealed that Facebook allowed the personal data of 87 million users to be harvested without consent for political targeting. Facebook\'s own internal research, leaked by whistleblower Frances Haugen in 2021, showed the company knew Instagram was harmful to teenage girls\' mental health but buried the findings. Facebook has been used to spread election disinformation in the Philippines, Brazil, India, and the United States. The FTC fined Facebook a record $5 billion in 2019 for privacy violations and filed a monopoly lawsuit in 2020. Zuckerberg personally controls the company through a dual-class share structure giving him 58% of voting power with only 13% of shares. He testified before Congress that Facebook did not sell user data, a claim contradicted by internal documents.',
+    birthDate: 'May 14, 1984',
+    birthPlace: 'White Plains, New York',
+    education: ['Harvard University (dropped out)'],
+    affiliations: [
+      { name: 'Meta Platforms (Facebook)', role: 'CEO and Chairman', type: 'corporation' as const },
+      { name: 'Chan Zuckerberg Initiative', role: 'Co-Founder', type: 'organization' as const },
+    ],
+    controversies: [
+      'Platform played "determining role" in Rohingya genocide per UN investigation',
+      'Cambridge Analytica: 87 million users\' data harvested without consent',
+      'Internal research showed Instagram harmful to teens; company buried findings',
+      'FTC record $5 billion fine for privacy violations',
+      'FTC monopoly lawsuit for anti-competitive acquisitions (Instagram, WhatsApp)',
+      'Testified to Congress that Facebook doesn\'t sell data; contradicted by internal docs',
+      'Platform widely used for election disinformation globally',
+    ],
+    charges: [
+      { statute: '15 U.S.C. 45(a)', description: 'FTC: Unfair and deceptive practices - privacy violations ($5B settlement)', category: 'federal' },
+      { statute: '15 U.S.C. 18 (Clayton Act)', description: 'FTC monopoly complaint - anti-competitive acquisitions (pending)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/big-tech-monopoly-power'],
+    timeline: [
+      { date: '2004-02', event: 'Launches Facebook from Harvard dorm' },
+      { date: '2012-04', event: 'Acquires Instagram for $1 billion' },
+      { date: '2014-02', event: 'Acquires WhatsApp for $19 billion' },
+      { date: '2018-03', event: 'Cambridge Analytica scandal breaks' },
+      { date: '2018-04', event: 'Testifies before Congress on data practices' },
+      { date: '2019-07', event: 'FTC approves record $5 billion privacy fine' },
+      { date: '2021-10', event: 'Frances Haugen leaks internal research documents' },
+      { date: '2023-09', event: 'FTC monopoly trial proceedings' },
+    ],
+    sources: [
+      { title: 'FTC v. Facebook (now Meta)', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0134-facebook-inc-ftc-v', date: '2020' },
+    ],
+    aliases: ['Zuck'],
+    knownAssociates: [
+      { name: 'Sheryl Sandberg', relationship: 'Former COO who oversaw advertising and data practices' },
+    ],
+  },
+  'mark-ciavarella': {
+    name: 'Mark Ciavarella',
+    title: 'Former Judge, Luzerne County Court of Common Pleas',
+    role: 'Corrupt juvenile court judge convicted in Kids for Cash scandal',
+    riskLevel: 'critical',
+    description: 'Mark Ciavarella served as a judge in Luzerne County, Pennsylvania from 1996 to 2009, presiding over juvenile court. Between 2003 and 2008, he sentenced approximately 3,000 children to for-profit juvenile detention facilities while receiving $2.6 million in kickbacks from the facility operators. Children as young as 10 were sentenced for trivial offenses, often in hearings lasting less than two minutes, and many were denied their right to counsel. Ciavarella was convicted on 12 federal counts in 2011 and sentenced to 28 years in federal prison.',
+    birthDate: 'March 6, 1950',
+    birthPlace: 'Wilkes-Barre, Pennsylvania',
+    education: ['Duquesne University School of Law (J.D.)'],
+    affiliations: [
+      { name: 'Luzerne County Court of Common Pleas', role: 'Judge', type: 'agency' as const },
+    ],
+    controversies: [
+      'Sentenced approximately 3,000 children to for-profit detention for $2.6M in kickbacks',
+      'Denied children their constitutional right to counsel in juvenile proceedings',
+      'Conducted hearings lasting under two minutes for serious dispositions',
+      'Sentenced a 10-year-old for a playground altercation to months in detention',
+      'At least one former defendant committed suicide attributed to trauma of unjust incarceration',
+      'Ordered to pay $200 million in restitution to victims (largely symbolic)',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1962', description: 'Racketeering (RICO)', category: 'Corruption' },
+      { statute: '18 U.S.C. 666', description: 'Federal Program Bribery', category: 'Corruption' },
+      { statute: '18 U.S.C. 1341', description: 'Mail Fraud', category: 'Financial Crime' },
+      { statute: '18 U.S.C. 1343', description: 'Wire Fraud', category: 'Financial Crime' },
+      { statute: '26 U.S.C. 7206', description: 'Tax Fraud', category: 'Financial Crime' },
+      { statute: '18 U.S.C. 1956', description: 'Money Laundering', category: 'Financial Crime' },
+    ],
+    relatedInvestigations: ['judicial-corruption-cash-for-kids'],
+    timeline: [
+      { date: '1996', event: 'Elected as judge of Luzerne County Court of Common Pleas' },
+      { date: '2003', event: 'Began accepting kickbacks from juvenile detention facility operators' },
+      { date: 'January 2009', event: 'Charged along with Judge Michael Conahan by federal prosecutors' },
+      { date: 'February 2011', event: 'Convicted on 12 of 39 federal counts including racketeering' },
+      { date: 'August 2011', event: 'Sentenced to 28 years in federal prison' },
+      { date: '2022', event: 'Ordered to pay $200 million restitution to approximately 2,400 victims' },
+    ],
+    sources: [
+      { title: 'DOJ: Ciavarella Conviction', url: 'https://www.justice.gov/usao-mdpa/press-releases', date: '2011' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Michael Conahan', relationship: 'Fellow corrupt judge; co-conspirator; sentenced to 17.5 years' },
+      { name: 'Robert Mericle', relationship: 'Builder of PA Child Care facilities; paid kickbacks; sentenced to 1 year' },
+      { name: 'Robert Powell', relationship: 'Co-owner of PA Child Care; sentenced to 18 months' },
+    ],
+  },
+  'michael-conahan': {
+    name: 'Michael Conahan',
+    title: 'Former Senior Judge, Luzerne County Court of Common Pleas',
+    role: 'Judge',
+    riskLevel: 'critical' as const,
+    description: 'Former senior judge of Luzerne County, Pennsylvania who was the mastermind behind the Kids for Cash scandal. Conspired with Judge Mark Ciavarella to close the county-owned juvenile detention center and funnel children to privately owned facilities in exchange for $2.8 million in kickbacks. Conahan handled the behind-the-scenes corruption — arranging the construction contracts, securing the kickback payments, and shutting down the public facility — while Ciavarella filled the private facilities by sentencing children to detention for trivial offenses.',
+    birthDate: '1955-01-01',
+    birthPlace: 'Luzerne County, Pennsylvania',
+    education: ['J.D., Duquesne University School of Law (1979)'],
+    affiliations: [
+      { name: 'Luzerne County Court of Common Pleas', role: 'Senior Judge (2002-2008)', type: 'agency' as const },
+      { name: 'PA Child Care / Western PA Child Care', role: 'Corrupt Financial Relationship', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Mastermind of Kids for Cash scheme accepting $2.8 million in kickbacks to funnel children to private detention facilities',
+      'Engineered closure of county-owned juvenile detention center to create demand for privately owned PA Child Care facility',
+      'Arranged construction contracts and financial relationships that concealed kickback payments',
+      'Scheme resulted in approximately 3,000 children being unjustly sentenced to detention for minor offenses',
+      'Attempted to conceal payments through real estate transactions and shell companies',
+      'Initially agreed to plea deal for 87 months but deal was rejected by federal judge as too lenient',
+    ],
+    charges: [
+      {
+        statute: '18 U.S.C. § 1962 - RICO / Racketeering',
+        description: 'Participated in racketeering conspiracy using his judicial office to enrich himself through kickbacks from private juvenile detention facilities',
+        category: 'financial',
+      },
+      {
+        statute: '18 U.S.C. § 666 - Federal Program Bribery',
+        description: 'Accepted $2.8 million in bribes/kickbacks in exchange for steering juvenile defendants to specific private detention facilities',
+        category: 'financial',
+      },
+      {
+        statute: '26 U.S.C. § 7201 - Tax Evasion',
+        description: 'Failed to report $2.8 million in kickback income on federal tax returns',
+        category: 'financial',
+      },
+      {
+        statute: '18 U.S.C. § 1956 - Money Laundering',
+        description: 'Laundered kickback proceeds through real estate transactions and shell companies to conceal their criminal origin',
+        category: 'financial',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Judicial Corruption: Cash for Kids Scandal', slug: 'judicial-corruption-cash-for-kids', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1994', event: 'Elected judge of Luzerne County Court of Common Pleas' },
+      { date: '2002', event: 'Becomes senior/president judge; uses authority to close county juvenile detention center' },
+      { date: '2003', event: 'Begins receiving kickback payments from PA Child Care developers; scheme runs through 2008' },
+      { date: '2004', event: 'Arranges for county to sign contract with private PA Child Care facility' },
+      { date: '2009-01', event: 'Arrested along with Judge Mark Ciavarella on federal corruption charges' },
+      { date: '2009-07', event: 'Initial plea agreement for 87 months rejected by federal judge as too lenient' },
+      { date: '2011-09', event: 'Sentenced to 17.5 years in federal prison after pleading guilty to racketeering' },
+      { date: '2022', event: 'Released to home confinement; ordered to pay restitution' },
+    ],
+    sources: [
+      { title: 'DOJ: Conahan Sentencing Press Release', url: 'https://www.justice.gov/usao-mdpa/press-releases', date: '2011' },
+      { title: 'Kids for Cash: Two Judges, Thousands of Children, and a $2.8 Million Kickback Scheme', date: '2012' },
+      { title: 'Interbranch Commission on Juvenile Justice Report', date: '2010' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Mark Ciavarella', relationship: 'Co-conspirator judge who sentenced children to private facilities; sentenced to 28 years', href: '/entities/individuals/mark-ciavarella' },
+      { name: 'Robert Mericle', relationship: 'Builder of PA Child Care facilities who paid the kickbacks; sentenced to 1 year' },
+      { name: 'Robert Powell', relationship: 'Co-owner of PA Child Care who facilitated payments; sentenced to 18 months' },
+    ],
+  },
+  'michael-chertoff': {
+    name: 'Michael Chertoff',
+    title: 'Former Secretary of Homeland Security',
+    role: 'Cabinet Secretary',
+    riskLevel: 'high' as const,
+    description: 'Second Secretary of Homeland Security (2005-2009) who oversaw the massive expansion of the domestic surveillance and security state after 9/11. As head of DOJ\'s Criminal Division (2001-2003), authored key legal opinions justifying enhanced interrogation techniques (torture) and warrantless surveillance. After leaving government, founded the Chertoff Group consulting firm that profited enormously from the security state he helped build, including lobbying for body scanner deployment at airports while his firm represented the scanner manufacturer Rapiscan Systems.',
+    birthDate: '1953-11-28',
+    birthPlace: 'Elizabeth, New Jersey',
+    education: ['B.A., Harvard University (1975)', 'J.D., Harvard Law School (1978)'],
+    affiliations: [
+      { name: 'Department of Homeland Security', role: 'Secretary (2005-2009)', type: 'agency' as const },
+      { name: 'U.S. Department of Justice', role: 'Assistant Attorney General, Criminal Division (2001-2003)', type: 'agency' as const },
+      { name: 'The Chertoff Group', role: 'Founder and Executive Chairman (2009-Present)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Authored legal justifications for enhanced interrogation techniques (torture) as head of DOJ Criminal Division',
+      'Oversaw expansion of warrantless surveillance programs under the PATRIOT Act and FISA Amendments',
+      'Failed response to Hurricane Katrina in 2005 left thousands stranded; disproportionately affected Black residents',
+      'Created the controversial REAL ID program imposing federal identification requirements',
+      'After leaving office, lobbied for airport body scanners while his firm represented scanner manufacturer Rapiscan Systems',
+      'The Chertoff Group profits from the security state Chertoff helped build; represents defense and surveillance contractors',
+      'Expanded Secure Communities and 287(g) programs enabling local police to act as immigration enforcement agents',
+      'Oversaw construction of border wall and expansion of immigration detention infrastructure',
+    ],
+    charges: [
+      {
+        statute: '18 U.S.C. § 2340A - Torture (legal complicity)',
+        description: 'As head of DOJ Criminal Division, provided legal opinions that justified CIA enhanced interrogation techniques constituting torture under international law',
+        category: 'human-rights',
+      },
+      {
+        statute: 'Conflict of Interest / Revolving Door Ethics',
+        description: 'Advocated for airport body scanners as government official then profited from scanner deployment through private consulting firm representing manufacturers',
+        category: 'ethics',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Homeland Security Mission Creep and Civil Liberties', slug: 'homeland-security-mission-creep', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2001-06', event: 'Appointed head of DOJ Criminal Division by President Bush; helps craft post-9/11 legal framework' },
+      { date: '2001-2003', event: 'Authors legal opinions on enhanced interrogation and warrantless surveillance programs' },
+      { date: '2005-02-15', event: 'Sworn in as second Secretary of Homeland Security' },
+      { date: '2005-08', event: 'DHS response to Hurricane Katrina widely criticized as catastrophic failure; thousands stranded for days' },
+      { date: '2005-2009', event: 'Expands DHS surveillance capabilities, border enforcement, and immigration detention' },
+      { date: '2008', event: 'Advocates for deployment of full-body scanners at airports before leaving office' },
+      { date: '2009', event: 'Founds The Chertoff Group; immediately begins representing security and defense contractors' },
+      { date: '2010', event: 'Chertoff Group represents Rapiscan Systems as TSA deploys body scanners Chertoff advocated for' },
+    ],
+    sources: [
+      { title: 'Senate Intelligence Committee: CIA Torture Report (Chertoff role)', date: '2014' },
+      { title: 'Washington Post: Chertoff Group Conflicts of Interest', url: 'https://www.washingtonpost.com/', date: '2010' },
+      { title: 'Government Accountability Project: DHS Revolving Door', date: '2011' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'John Yoo', relationship: 'DOJ lawyer who authored the Torture Memos providing legal cover for enhanced interrogation' },
+      { name: 'Michael Brown', relationship: 'FEMA Director fired after catastrophic Hurricane Katrina response under Chertoff\'s DHS' },
+      { name: 'George W. Bush', relationship: 'President who appointed Chertoff to both DOJ and DHS positions' },
+    ],
+  },
+  'mark-meadows': {
+    name: 'Mark Meadows',
+    title: 'Former White House Chief of Staff',
+    role: 'Architect of Post-Election Power Retention Scheme',
+    riskLevel: 'critical' as const,
+    description: 'Mark Meadows served as Trump White House Chief of Staff during the critical period surrounding the 2020 election and January 6. He has been indicted in Georgia for racketeering in connection with efforts to overturn the election, and his text messages reveal extensive coordination of pressure campaigns targeting state officials, DOJ leadership, and Vice President Pence.',
+    birthDate: '1959-07-28',
+    birthPlace: 'Verdun, France',
+    education: [
+      'B.A., University of South Florida (1983)',
+    ],
+    affiliations: [
+      { name: 'White House', role: 'Chief of Staff (2020-2021)', type: 'agency' as const },
+      { name: 'U.S. House of Representatives', role: 'Representative, NC-11 (2013-2020)', type: 'agency' as const },
+      { name: 'House Freedom Caucus', role: 'Chairman (2017-2019)', type: 'organization' as const },
+    ],
+    controversies: [
+      'Indicted in Georgia RICO case for efforts to overturn 2020 election results in the state',
+      'Text messages revealed coordination of January 6 rally logistics and post-election pressure campaigns',
+      'Pressured DOJ officials to investigate debunked election fraud claims and threatened to replace acting AG',
+      'Accompanied Trump on call to Georgia Secretary of State Brad Raffensperger asking to "find 11,780 votes"',
+      'Failed to comply with January 6 Committee subpoena; held in contempt of Congress',
+      'Registered to vote in three states simultaneously and voted using an address where he never resided',
+      'Burned documents in his White House office fireplace after January 6 according to witness testimony',
+    ],
+    relatedInvestigations: [
+      { title: 'January 6 Capitol Attack Coordination', slug: 'january-6-capitol-attack-coordination', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2013', event: 'Entered Congress as Tea Party Republican from North Carolina' },
+      { date: '2020-03', event: 'Became White House Chief of Staff replacing Mick Mulvaney' },
+      { date: '2020-11', event: 'Began coordinating post-election challenges and state pressure campaigns' },
+      { date: '2021-01-02', event: 'Participated in Trump-Raffensperger phone call seeking to alter Georgia result' },
+      { date: '2021-01-06', event: 'Texted with members of Congress and administration officials during Capitol attack' },
+      { date: '2021-12', event: 'Held in contempt of Congress for defying January 6 Committee subpoena' },
+      { date: '2023-08', event: 'Indicted in Georgia RICO case alongside Trump and 17 others' },
+      { date: '2023-12', event: 'Reported to have provided testimony to Special Counsel Jack Smith' },
+    ],
+    sources: [
+      { title: 'Fulton County DA: State of Georgia v. Trump et al. Indictment', date: '2023' },
+      { title: 'January 6 Committee: Final Report and Meadows Text Messages', date: '2022' },
+      { title: 'DOJ: January 6 Investigation Materials', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who appointed Meadows as Chief of Staff; co-defendant in Georgia RICO case', href: '/entities/individuals/donald-trump' },
+      { name: 'John Eastman', relationship: 'Author of the "Eastman Memo" outlining plan to overturn election through Pence', href: '/entities/individuals/john-eastman' },
+      { name: 'Rudy Giuliani', relationship: 'Trumps personal attorney who coordinated legal challenges Meadows facilitated', href: '/entities/individuals/rudy-giuliani' },
+    ],
+  },
+  'martin-shkreli': {
+    name: 'Martin Shkreli',
+    title: 'Former CEO of Turing Pharmaceuticals',
+    role: 'Pharma Bro Who Hiked Drug Prices 5,000% and Defrauded Investors',
+    riskLevel: 'high' as const,
+    description: 'Martin Shkreli became infamous for raising the price of Daraprim, a life-saving antiparasitic drug, by 5,000% overnight from $13.50 to $750 per pill. He was later convicted of securities fraud unrelated to the drug pricing scheme and sentenced to seven years in prison. His case exemplified the pharmaceutical industrys legal ability to set prices without limit.',
+    birthDate: '1983-03-17',
+    birthPlace: 'Brooklyn, New York',
+    education: [
+      'B.B.A., Baruch College (2004)',
+    ],
+    affiliations: [
+      { name: 'Turing Pharmaceuticals', role: 'Founder and CEO (2015)', type: 'corporation' as const },
+      { name: 'Retrophin', role: 'Founder and CEO (2011-2014)', type: 'corporation' as const },
+      { name: 'MSMB Capital Management', role: 'Founder', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Raised the price of Daraprim from $13.50 to $750 per pill overnight, a 5,455% increase, for a drug used by AIDS and cancer patients',
+      'Convicted on two counts of securities fraud and one count of conspiracy for defrauding investors in two hedge funds and Retrophin',
+      'Used Retrophin corporate funds to pay personal debts and settle with defrauded investors from his hedge funds',
+      'Livestreamed himself taunting critics and journalists; smirked through congressional hearing on drug pricing',
+      'Purchased sole copy of Wu-Tang Clan album "Once Upon a Time in Shaolin" for $2 million; later forfeited as part of sentence',
+      'Banned from pharmaceutical industry for life by federal judge and ordered to return $64.6 million in Daraprim profits',
+      'Continued running businesses and making investment decisions via contraband cellphone while in federal prison',
+    ],
+    relatedInvestigations: [
+      { title: 'Pharmaceutical Patent Abuse', slug: 'pharmaceutical-patent-abuse', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2011', event: 'Founded Retrophin; began pattern of acquiring old drugs and raising prices' },
+      { date: '2015-08', event: 'Founded Turing Pharmaceuticals; acquired Daraprim' },
+      { date: '2015-09', event: 'Raised Daraprim price from $13.50 to $750; national outrage followed' },
+      { date: '2015-12', event: 'Arrested for securities fraud related to Retrophin and hedge funds' },
+      { date: '2016-02', event: 'Testified before Congress; invoked Fifth Amendment while smirking' },
+      { date: '2017-08', event: 'Convicted on two counts of securities fraud and one count of conspiracy' },
+      { date: '2018-03', event: 'Sentenced to seven years in federal prison' },
+      { date: '2022-01', event: 'Ordered to return $64.6 million and banned from pharmaceutical industry for life' },
+      { date: '2023-05', event: 'Released from federal prison after serving approximately five years' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Martin Shkreli - Conviction', date: '2017' },
+      { title: 'FTC: Daraprim Price Investigation', date: '2022' },
+      { title: 'House Oversight Committee: Drug Pricing Hearing (Shkreli Testimony)', date: '2016' },
+    ],
+    aliases: ['Pharma Bro'],
+    knownAssociates: [
+      { name: 'Evan Greebel', relationship: 'Former Retrophin outside counsel convicted of conspiracy for helping Shkreli defraud investors' },
+    ],
+  },
 };
 
 export default profiles;

@@ -294,7 +294,52 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Dennis Muilenburg', relationship: 'Boeing CEO who refused to ground MAX after Lion Air crash', href: '/entities/individuals/dennis-muilenburg' },
     ],
   },
-
+  'bobby-kotick': {
+    name: 'Bobby Kotick',
+    title: 'Former CEO of Activision Blizzard',
+    role: 'Gaming CEO Who Tolerated Workplace Abuse for Decades',
+    riskLevel: 'medium' as const,
+    description: 'Bobby Kotick led Activision Blizzard for 30 years, creating enormous shareholder value while presiding over a workplace culture described by California regulators as a "frat boy" environment of sexual harassment, discrimination, and retaliation. A state lawsuit, SEC investigation, and employee walkout ultimately led to his departure during Microsofts acquisition of the company.',
+    birthDate: '1963-02-09',
+    birthPlace: 'New York City, New York',
+    education: [
+      'Attended University of Michigan (did not graduate)',
+    ],
+    affiliations: [
+      { name: 'Activision Blizzard', role: 'CEO (1991-2023)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'California DFEH sued Activision Blizzard for pervasive sexual harassment, discrimination, and retaliation, describing a "frat boy" workplace culture',
+      'Wall Street Journal reported Kotick personally knew about sexual misconduct allegations for years and failed to report them to the board',
+      'An employee, a woman, died during a company trip with a male supervisor who had brought sex toys and lubricant; Kotick did not inform the board',
+      'Kotick himself was accused of threatening to have an assistant killed in a 2006 voicemail; settled the harassment claim',
+      'SEC fined Activision $35 million for failing to maintain disclosure controls related to workplace misconduct complaints',
+      'Over 2,000 employees staged a walkout demanding accountability and protesting the companys response to the lawsuit',
+      'Repeatedly fought unionization efforts at subsidiary studios; NLRB filed multiple complaints against the company',
+    ],
+    relatedInvestigations: [
+      { title: 'Corporate Tax Avoidance Offshore', slug: 'corporate-tax-avoidance-offshore', severity: 'high' },
+    ],
+    timeline: [
+      { date: '1991', event: 'Became CEO of Activision; grew it from near-bankruptcy to gaming giant' },
+      { date: '2006', event: 'Left voicemail threatening an assistants life; settled resulting harassment claim' },
+      { date: '2021-07', event: 'California DFEH filed lawsuit against Activision Blizzard for pervasive harassment' },
+      { date: '2021-07-28', event: 'Over 2,000 employees staged walkout demanding accountability' },
+      { date: '2021-11', event: 'Wall Street Journal reported Kotick knew of misconduct for years without informing board' },
+      { date: '2022-02', event: 'SEC charged Activision with disclosure failures; company paid $35 million fine' },
+      { date: '2023-10', event: 'Microsoft completed $69 billion acquisition of Activision Blizzard' },
+      { date: '2023-12', event: 'Kotick departed as CEO following Microsoft acquisition' },
+    ],
+    sources: [
+      { title: 'California DFEH: Complaint Against Activision Blizzard', date: '2021' },
+      { title: 'SEC: Activision Blizzard Disclosure Failure Enforcement', date: '2023' },
+      { title: 'Wall Street Journal: Kotick Workplace Misconduct Investigation', url: 'https://www.wsj.com/', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Dennis Muilenburg', relationship: 'Fellow CEO who presided over corporate culture failures that caused fatal consequences', href: '/entities/individuals/dennis-muilenburg' },
+    ],
+  },
 
 };
 

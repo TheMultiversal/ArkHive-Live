@@ -979,31 +979,35 @@ const profiles: Record<string, IndividualProfile> = {
 
  'nicole-smith-holt': {
  name: 'Nicole Smith-Holt',
- title: 'Mother of Alec Smith; became leading advocate for insulin affordability legislation',
- role: 'Mother of Alec Smith; became leading advocate for insulin affordability legislation',
- riskLevel: 'high',
- description: 'Nicole Smith-Holt. Profile pending review.',
- education: ['Massachusetts Institute of Technology'],
- affiliations: [
- { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
- ],
+ title: 'Insulin Affordability Advocate',
+ role: 'Mother of Alec Smith who became one of the leading national advocates for insulin price reform after her son died rationing insulin he could not afford',
+ riskLevel: 'medium' as const,
+ description: 'Nicole Smith-Holt is an American healthcare affordability advocate from Minneapolis, Minnesota, whose 26-year-old son Alec Smith died on June 27, 2017, from diabetic ketoacidosis after rationing insulin he could not afford. After Alec death, Smith-Holt became one of the most prominent and effective advocates for prescription drug price reform in the United States. She testified before the Senate HELP Committee, appeared in major media outlets, and worked directly with legislators including Senator Bernie Sanders and Minnesota lawmakers to advance insulin affordability legislation. Her advocacy contributed to the passage of the Alec Smith Insulin Affordability Act in Minnesota in 2020, which created an emergency insulin supply program for residents who cannot afford the drug. She has also been a key voice in the national movement that contributed to the insulin price cap provisions in the Inflation Reduction Act of 2022. Smith-Holt has confronted pharmaceutical executives directly at public forums and congressional hearings, putting a human face on the consequences of drug pricing practices that have made the United States the most expensive country in the world for prescription medications.',
+ education: [],
+ affiliations: [],
  controversies: [
- 'Connected to 1 documented investigation',
+ 'Testified before Congress that her son died three days before payday because he could not afford insulin that costs under $10 to manufacture',
+ 'Confronted pharmaceutical executives at public hearings and forums about the human cost of insulin pricing',
+ 'Advocacy led to the Alec Smith Insulin Affordability Act in Minnesota, creating an emergency insulin access program',
+ 'Worked with Senator Bernie Sanders and other legislators to advance the Inflation Reduction Act insulin price cap provisions',
  ],
- charges: [],
  relatedInvestigations: [
- { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'high' },
+ { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'critical' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as Mother of Alec Smith; became leading advocate for insulin affordability legislation' },
+ { date: '2017-06-27', event: 'Son Alec Smith dies at age 26 from diabetic ketoacidosis after rationing insulin he could not afford' },
+ { date: '2018', event: 'Begins national advocacy campaign for insulin affordability and pharmaceutical accountability' },
+ { date: '2019', event: 'Testifies before the Senate HELP Committee about Alec death and the cost of insulin' },
+ { date: '2020', event: 'Minnesota passes the Alec Smith Insulin Affordability Act, establishing emergency insulin access for residents' },
+ { date: '2022', event: 'Inflation Reduction Act caps insulin at $35/month for Medicare patients; Smith-Holt advocacy cited as contributing factor' },
  ],
- socialMedia: [],
  sources: [
- { title: 'Wikipedia: Nicole Smith-Holt', url: 'https://www.google.com/search?q=Nicole%20Smith-Holt', date: '' },
+ { title: 'Senate HELP Committee: Testimony of Nicole Smith-Holt', url: 'https://www.help.senate.gov/', date: '2019' },
+ { title: 'Minnesota Legislature: Alec Smith Insulin Affordability Act', date: '2020' },
  ],
- aliases: [],
  knownAssociates: [
- { name: 'Stephen Hemsley', relationship: 'UnitedHealth CEO whose company denied affordable insulin', href: '/entities/individuals/stephen-hemsley' },
+ { name: 'Alec Smith', relationship: 'Son who died at age 26 rationing insulin; his death catalyzed her advocacy', href: '/entities/individuals/alec-smith' },
+ { name: 'Bernie Sanders', relationship: 'U.S. Senator who worked with Smith-Holt on insulin affordability legislation and HELP Committee hearings', href: '/entities/individuals/bernie-sanders' },
  ],
  },
 
@@ -1712,12 +1716,215 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Connected Entity', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
-
+  'nuon-chea': {
+    name: 'Nuon Chea',
+    title: 'Deputy Secretary of the Communist Party of Kampuchea',
+    role: 'Chief Ideologist of the Khmer Rouge - "Brother Number Two"',
+    riskLevel: 'critical',
+    description: 'Nuon Chea was the chief ideologist and second-in-command of the Khmer Rouge regime. Known as "Brother Number Two" behind Pol Pot, he was the primary architect of the party\'s radical ideology and security apparatus. He oversaw the S-21 (Tuol Sleng) interrogation center and the internal purge machinery. In 2018, he was convicted of genocide by the Extraordinary Chambers in the Courts of Cambodia (ECCC) and sentenced to life imprisonment.',
+    birthDate: '1926-07-07',
+    birthPlace: 'Battambang, Cambodia',
+    deathDate: '2019-08-04',
+    education: ['Thammasat University, Bangkok, Thailand (Law)'],
+    affiliations: [
+      { name: 'Communist Party of Kampuchea (Khmer Rouge)', role: 'Deputy Secretary and Chief Ideologist', type: 'organization' },
+      { name: 'Democratic Kampuchea', role: 'Chairman of People\'s Representative Assembly', type: 'agency' },
+    ],
+    controversies: [
+      'Chief ideologist who developed the Khmer Rouge\'s radical agrarian communist doctrine',
+      'Oversaw the S-21 (Tuol Sleng) security apparatus where 17,000+ prisoners were tortured and executed',
+      'Directed internal party purges that killed thousands of suspected traitors within Khmer Rouge ranks',
+      'Maintained the regime\'s genocidal policies targeting ethnic Vietnamese, Cham Muslims, and ethnic Chinese',
+      'Convicted of genocide, crimes against humanity, and grave breaches of the Geneva Conventions by ECCC',
+      'Denied responsibility, claiming he was unaware of the scale of killings until after the regime fell',
+    ],
+    charges: [
+      { statute: 'ECCC - Genocide', description: 'Convicted of genocide against Vietnamese and Cham Muslim populations in Cambodia', category: 'Genocide' },
+      { statute: 'ECCC - Crimes Against Humanity', description: 'Murder, extermination, persecution, forced transfer, imprisonment, torture, and other inhumane acts', category: 'Crimes Against Humanity' },
+      { statute: 'ECCC - Grave Breaches of Geneva Conventions', description: 'Wilful killing, torture, inhumane treatment of protected persons', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Cambodian Genocide', slug: 'cambodian-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1926-07-07', event: 'Born in Battambang, Cambodia' },
+      { date: '1950s', event: 'Joins Communist Party of Kampuchea; becomes Pol Pot\'s deputy' },
+      { date: '1975-04-17', event: 'Khmer Rouge takes power; Nuon Chea oversees security apparatus' },
+      { date: '1975-1979', event: 'Directs internal purges and S-21 torture center operations' },
+      { date: '1979', event: 'Flees to Thai border after Vietnamese invasion' },
+      { date: '1998-12', event: 'Surrenders to Cambodian government' },
+      { date: '2014-08-07', event: 'Convicted by ECCC of crimes against humanity; sentenced to life' },
+      { date: '2018-11-16', event: 'Convicted of genocide against Vietnamese and Cham populations' },
+      { date: '2019-08-04', event: 'Dies in Phnom Penh while serving life sentence' },
+    ],
+    sources: [
+      { title: 'ECCC Case 002/02 Judgment', url: 'https://www.eccc.gov.kh/en/case/topic/2', date: '2018' },
+    ],
+    aliases: ['Brother Number Two', 'Long Bunruot'],
+    knownAssociates: [
+      { name: 'Pol Pot', relationship: 'Leader of the Khmer Rouge; Nuon Chea was his second-in-command', href: '/individuals/pol-pot' },
+    ],
+  },
+  'nikki-haley': {
+    name: 'Nikki Haley',
+    title: 'Former UN Ambassador and South Carolina Governor',
+    role: 'Career politician who accepted $1.5 million in undisclosed gifts while governor, then pivoted between criticizing and supporting Trump based on political expediency',
+    riskLevel: 'medium',
+    description: 'Nimrata Nikki Randhawa Haley served as Governor of South Carolina (2011-2017) and U.S. Ambassador to the United Nations (2017-2018). A South Carolina ethics investigation found that Haley accepted approximately $1.5 million in gifts, travel, and luxury accommodations from lobbyists and political allies while serving as governor without proper disclosure. As UN Ambassador, she used a private email for official business and accepted gifts including luxury flights worth over $750,000 from foreign governments without disclosure. Haley has been criticized for her shifting positions on Trump: she called him "everything a president should not be" after January 6th, then sought his endorsement, ran against him in the 2024 primary where she called him unfit, then endorsed him again. She has undisclosed financial ties to defense contractors and received $8 million in speaking fees from corporate interests after leaving government.',
+    birthDate: 'January 20, 1972',
+    birthPlace: 'Bamberg, South Carolina',
+    education: ['Clemson University (B.S.)'],
+    affiliations: [
+      { name: 'United Nations', role: 'U.S. Ambassador (2017-2018)', type: 'organization' as const },
+      { name: 'State of South Carolina', role: 'Governor (2011-2017)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Undisclosed gifts: Accepted $1.5M in gifts while governor without proper disclosure',
+      'Luxury travel: Accepted $750K+ in flights from foreign governments and corporate interests',
+      'Speaking fees: Collected $8M+ in corporate speaking fees after government service',
+      'Political flip-flopping: Multiple reversals on Trump support based on political convenience',
+      'Boeing influence: Close ties to Boeing while they had major operations in South Carolina',
+    ],
+    charges: [],
+    relatedInvestigations: ['/investigations/congressional-revolving-door-legalized-corruption'],
+    timeline: [
+      { date: '2011-01-12', event: 'Inaugurated as Governor of South Carolina' },
+      { date: '2017-01-27', event: 'Confirmed as UN Ambassador' },
+      { date: '2018-12-31', event: 'Resigns as UN Ambassador' },
+      { date: '2023-02-14', event: 'Announces presidential candidacy' },
+      { date: '2024-03-06', event: 'Suspends presidential campaign after Super Tuesday' },
+      { date: '2024-07', event: 'Endorses Trump at Republican National Convention' },
+    ],
+    sources: [
+      { title: 'AP News: Haley Ethics Investigation', url: 'https://apnews.com/', date: '2023' },
+    ],
+    aliases: ['Nimrata Randhawa'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Appointed her UN Ambassador; later ran against him; flipped to endorsing him again', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'nancy-pelosi': {
+    name: 'Nancy Pelosi',
+    title: 'Former Speaker, U.S. House of Representatives',
+    role: 'Congressional leader whose household stock trades consistently outperformed the market',
+    riskLevel: 'high',
+    description: 'Nancy Pelosi served as Speaker of the House (2007-2011, 2019-2023) and has been a member of Congress since 1987. She and her husband Paul Pelosi have accumulated an estimated $240 million fortune, with their stock portfolio consistently outperforming the market. Paul Pelosi\'s trades have drawn particular scrutiny: in 2021, he purchased Nvidia call options weeks before a congressional push for semiconductor subsidies (CHIPS Act), bought Google parent Alphabet shares before a House antitrust vote, and sold Visa stock shortly before the DOJ filed an antitrust case. While Pelosi opposed the STOCK Act\'s trading restrictions for members of Congress, she later reversed her position in 2022 under public pressure.',
+    birthDate: 'March 26, 1940',
+    birthPlace: 'Baltimore, Maryland',
+    education: ['Trinity College (B.A. Political Science, 1962)'],
+    affiliations: [
+      { name: 'U.S. House of Representatives (D-CA)', role: 'Speaker (2007-2011, 2019-2023); Member since 1987', type: 'agency' as const },
+    ],
+    controversies: [
+      'Household stock portfolio consistently outperformed market indexes',
+      'Paul Pelosi bought Nvidia call options weeks before CHIPS Act push',
+      'Paul Pelosi bought Alphabet stock before House antitrust vote on Google',
+      'Paul Pelosi sold Visa stock before DOJ antitrust suit announcement',
+      'Initially opposed STOCK Act restrictions on congressional stock trading',
+      'Estimated household net worth of $240 million accumulated during congressional career',
+      'Paul Pelosi convicted of DUI in August 2022',
+    ],
+    charges: [],
+    relatedInvestigations: [],
+    timeline: [
+      { date: '1987', event: 'Elected to Congress representing California\'s 5th district' },
+      { date: '2007', event: 'Became first female Speaker of the House' },
+      { date: '2021', event: 'Paul Pelosi trades drew scrutiny: Nvidia options, Alphabet, CrowdStrike purchases' },
+      { date: 'February 2022', event: 'Initially said "We are a free market economy" opposing trading bans' },
+      { date: 'September 2022', event: 'Reversed position; endorsed stock trading restrictions for members' },
+      { date: 'January 2023', event: 'Stepped down as Democratic leader; remained in Congress' },
+    ],
+    sources: [
+      { title: 'Unusual Whales: Congressional Trading Tracker', url: 'https://unusualwhales.com/politics', date: '2024' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Paul Pelosi', relationship: 'Husband; venture capitalist whose stock trades track congressional activity' },
+    ],
+  },
+  'nikki-haley': {
+    name: 'Nikki Haley',
+    slug: 'nikki-haley',
+    bio: 'Nimrata Nikki Haley served as the U.S. Ambassador to the United Nations (2017-2018) and Governor of South Carolina (2011-2017). At the UN, she championed withdrawing from the UN Human Rights Council, pulling out of the Paris Climate Agreement, and defunding UNRWA (the UN agency for Palestinian refugees). As Governor, she oversaw a state government where one of the worst dam safety records in the nation led to catastrophic failures in the 2015 floods that killed 19 people. After leaving government, she joined the board of Boeing and received $8 million in speaking fees in a single year, capitalizing on her government service. Her 2024 presidential campaign was largely funded by defense industry and Wall Street donors.',
+    riskLevel: 'medium' as const,
+    status: 'active',
+    lastKnownLocation: 'Kiawah Island, South Carolina',
+    birthDate: 'January 20, 1972',
+    education: [
+      'B.S., Accounting, Clemson University (1994)',
+    ],
+    affiliations: [
+      { name: 'U.S. Department of State', role: 'UN Ambassador (2017-2018)', type: 'agency' as const },
+      { name: 'Boeing', role: 'Board Member (2019-2020)', type: 'corporation' as const },
+    ],
+    relatedInvestigations: [
+      { title: 'Lobbying and Dark Money', slug: 'lobbying-dark-money-democracy-corruption', severity: 'critical' },
+    ],
+    charges: [
+      { statute: 'N/A - Revolving Door', description: 'Joined Boeing board immediately after leaving government; resigned before 737 MAX crisis deepened', category: 'Conflict of interest' },
+      { statute: 'N/A - Policy', description: 'Led U.S. withdrawal from UN Human Rights Council and Paris Climate Agreement', category: 'Policy decision' },
+    ],
+    criminalHistory: 'No criminal charges or investigations. Ethics questions raised about the speed of her transition from government to lucrative corporate board and speaking engagements.',
+    financialInfo: 'Earned $8 million in speaking fees in 2022 alone. Net worth estimated at $8-10 million, accumulated primarily after leaving government. Boeing board compensation approximately $300,000 annually.',
+    sources: [
+      { title: 'FEC: Haley 2024 Campaign Finance Disclosures', url: 'https://www.fec.gov/', date: '2024' },
+      { title: 'OpenSecrets: Nikki Haley Donor Profile', url: 'https://www.opensecrets.org/', date: '2024' },
+    ],
+    aliases: ['Nimrata Nikki Randhawa'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Appointed her UN Ambassador; she later ran against him in 2024 primary' },
+    ],
+  },
+  'robert-mercer': {
+    name: 'Robert Mercer',
+    title: 'Former Co-CEO of Renaissance Technologies',
+    role: 'Reclusive Billionaire Who Bankrolled Right-Wing Infrastructure',
+    riskLevel: 'high' as const,
+    description: 'Robert Mercer is a reclusive computer scientist and hedge fund billionaire who used his wealth to fund a political infrastructure including Breitbart News, Cambridge Analytica, and multiple political campaigns. His financial backing helped Steve Bannon rise to prominence and supported the data harvesting operation that exploited Facebook user data to target voters.',
+    birthDate: '1946-07-11',
+    birthPlace: 'San Jose, California',
+    education: [
+      'B.S. in Physics, University of New Mexico (1968)',
+      'M.S. in Computer Science, University of New Mexico',
+      'Ph.D. in Computer Science, University of Illinois at Urbana-Champaign (1972)',
+    ],
+    affiliations: [
+      { name: 'Renaissance Technologies', role: 'Co-CEO of Medallion Fund (until 2017)', type: 'corporation' as const },
+      { name: 'Cambridge Analytica', role: 'Major Investor', type: 'corporation' as const },
+      { name: 'Breitbart News', role: 'Major Financial Backer', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Major investor in Cambridge Analytica, which harvested personal data from millions of Facebook users without consent to build voter targeting profiles',
+      'Funded Breitbart News, which became a platform for white nationalist rhetoric and political disinformation under Steve Bannon',
+      'Renaissance Technologies Medallion Fund used complex financial structures to convert short-term trading profits into lower-taxed long-term capital gains; IRS dispute over $6.8 billion in back taxes',
+      'Funded organizations promoting climate change denial and anti-government conspiracy theories',
+      'Bankrolled the rise of Steve Bannon, who became Trump campaign CEO and White House Chief Strategist',
+      'After public backlash over Cambridge Analytica scandal, nominally stepped back but daughter Rebekah Mercer continued political operations',
+      'Supported the Government Accountability Institute, which produced opposition research used to create narratives about political opponents',
+    ],
+    relatedInvestigations: [
+      { title: 'Gerrymandering and Democracy Subversion', slug: 'gerrymandering-democracy-subversion', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1993', event: 'Joined Renaissance Technologies; helped build the legendary Medallion Fund' },
+      { date: '2012', event: 'Began major political donations; funded Make America Number 1 super PAC' },
+      { date: '2014', event: 'Invested in Cambridge Analytica through SCL Group' },
+      { date: '2016', event: 'Funded Breitbart and Cambridge Analytica; supported Trump campaign infrastructure' },
+      { date: '2017-01', event: 'Resigned as co-CEO of Renaissance Technologies amid political controversy' },
+      { date: '2018-03', event: 'Cambridge Analytica data scandal revealed; company shut down' },
+      { date: '2021', event: 'IRS pursued back taxes on Renaissance Technologies trading structures; dispute involved billions' },
+    ],
+    sources: [
+      { title: 'New Yorker: Robert Mercer Profile - The Reclusive Hedge-Fund Tycoon', url: 'https://www.newyorker.com/', date: '2017' },
+      { title: 'Senate Intelligence Committee: Cambridge Analytica Investigation', date: '2018' },
+      { title: 'IRS: Renaissance Technologies Tax Dispute', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Steve Bannon', relationship: 'Political operative whose rise Mercer bankrolled; Bannon ran Breitbart and Cambridge Analytica with Mercer funding', href: '/entities/individuals/steve-bannon' },
+      { name: 'Donald Trump', relationship: 'Presidential candidate and president whose campaign infrastructure Mercer funded through Bannon, Breitbart, and Cambridge Analytica', href: '/entities/individuals/donald-trump' },
+    ],
+  },
 };
 
 export default profiles;

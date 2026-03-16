@@ -3162,41 +3162,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
- 'dennis-hastert': {
- name: 'Dennis Hastert',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Dennis Hastert. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Network analysis reveals Dennis Hastert holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
- 'Investigative journalists have documented a pattern of revolving-door employment between Dennis Hastert\'s operations and the regulatory bodies meant to provide oversight.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [ ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
-
-
-
-
-
-
-
-
  'duke-cunningham': {
  name: 'Randy "Duke "Cunningham',
  title: 'Former California Congressman',
@@ -6391,24 +6356,389 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  'deng-xiaoping': {
+    name: 'Deng Xiaoping',
+    title: 'Paramount Leader of China (1978-1989)',
+    role: 'Ordered the Tiananmen Square Massacre',
+    riskLevel: 'critical',
+    description: 'Deng Xiaoping was the de facto leader of the People\'s Republic of China who ordered the military crackdown on pro-democracy protesters at Tiananmen Square on June 3-4, 1989. Under his direct orders, the People\'s Liberation Army opened fire on unarmed civilians, killing hundreds to thousands of people. He declared martial law and authorized the use of lethal force against Chinese citizens demanding democratic reform, freedom of the press, and government accountability.',
+    birthDate: '1904-08-22',
+    birthPlace: 'Guang\'an, Sichuan Province, China',
+    deathDate: '1997-02-19',
+    education: ['Studied in France (1920-1926)', 'Sun Yat-sen University, Moscow'],
+    affiliations: [
+      { name: 'Chinese Communist Party', role: 'Paramount Leader / Chairman of Central Military Commission', type: 'organization' },
+      { name: 'People\'s Liberation Army', role: 'Head of Central Military Commission (1981-1989)', type: 'agency' },
+      { name: 'People\'s Republic of China', role: 'De facto supreme leader', type: 'agency' },
+    ],
+    controversies: [
+      'Ordered the Tiananmen Square massacre on June 3-4, 1989 - PLA troops with tanks fired on unarmed pro-democracy protesters',
+      'Declared martial law on May 20, 1989 overruling party moderates like Zhao Ziyang who favored dialogue',
+      'Death toll estimates range from several hundred (Chinese Red Cross initial report of 2,600 before retracted) to several thousand',
+      'Personally made the final decision to deploy the 27th and 38th Armies against civilians',
+      'Established the ongoing censorship apparatus that erases Tiananmen from Chinese public memory',
+      'Supported the Khmer Rouge diplomatically even after the Cambodian genocide was exposed',
+      'Authorized the Sino-Vietnamese War (1979) that killed tens of thousands',
+    ],
+    charges: [
+      { statute: 'Crimes Against Humanity - Murder', description: 'Ordered PLA troops to fire on unarmed civilians at Tiananmen Square, killing hundreds to thousands', category: 'Crimes Against Humanity' },
+      { statute: 'Crimes Against Humanity - Persecution', description: 'Directed mass arrests, torture, and imprisonment of pro-democracy activists after June 4', category: 'Crimes Against Humanity' },
+      { statute: 'Chinese Constitution (violated) - Right to Protest', description: 'Deployed military force against citizens exercising constitutional rights', category: 'Constitutional Violation' },
+    ],
+    relatedInvestigations: [
+      { title: 'Tiananmen Square Massacre', slug: 'tiananmen-square-massacre', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1904-08-22', event: 'Born in Guang\'an, Sichuan Province' },
+      { date: '1978', event: 'Becomes paramount leader; launches economic reforms' },
+      { date: '1989-04-15', event: 'Death of Hu Yaobang triggers pro-democracy protests' },
+      { date: '1989-05-20', event: 'Declares martial law in Beijing' },
+      { date: '1989-06-03', event: 'Orders PLA advance on Tiananmen Square; troops open fire on civilians' },
+      { date: '1989-06-04', event: 'Square cleared; hundreds to thousands dead; "Tank Man" photographed' },
+      { date: '1997-02-19', event: 'Dies in Beijing; never faced accountability for Tiananmen' },
+    ],
+    sources: [
+      { title: 'The Tiananmen Papers (compiled by Zhang Liang)', url: 'https://www.publicaffairsbooks.com/titles/andrew-j-nathan/the-tiananmen-papers/9781586481223', date: '2001' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Mao Zedong', relationship: 'Predecessor as China\'s leader; Deng was purged twice during Cultural Revolution', href: '/individuals/mao-zedong' },
+    ],
+  },
+  'dennis-hastert': {
+    name: 'Dennis Hastert',
+    title: 'Former Speaker of the U.S. House of Representatives (R-IL)',
+    role: 'Longest-serving Republican Speaker who was convicted of structuring bank withdrawals to conceal hush money payments to a former student he had sexually abused as a high school wrestling coach',
+    riskLevel: 'critical',
+    description: 'John Dennis Hastert served as Speaker of the U.S. House of Representatives from 1999 to 2007 - the longest-serving Republican Speaker in history and second in the presidential line of succession. In May 2015, he was indicted on federal charges of structuring bank withdrawals to evade reporting requirements and lying to the FBI. The underlying conduct was devastating: Hastert was paying $3.5 million in hush money to a former student ("Individual A") to conceal that Hastert had sexually abused him while serving as a wrestling coach at Yorkville High School in Illinois in the 1960s-1970s. At sentencing, federal judge Thomas Durkin called Hastert a "serial child molester," and at least four former students came forward with abuse allegations. Hastert had paid $1.7 million of the $3.5 million before the FBI detected the structured withdrawals. He was sentenced to 15 months in federal prison and required to register as a sex offender. The case exposed how the third-most-powerful person in America had been a predator who leveraged institutional power throughout his career.',
+    birthDate: 'January 2, 1942',
+    birthPlace: 'Aurora, Illinois',
+    education: ['Wheaton College (B.A.)', 'Northern Illinois University (M.S.)'],
+    affiliations: [
+      { name: 'U.S. House of Representatives (R-IL)', role: 'Speaker of the House', type: 'agency' as const },
+      { name: 'Yorkville High School', role: 'Wrestling Coach and Teacher', type: 'organization' as const },
+      { name: 'Dickstein Shapiro LLP', role: 'Lobbyist', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Convicted of structuring bank withdrawals to conceal $3.5M hush money payments to sexual abuse victim',
+      'Called "serial child molester" by federal judge at sentencing - at least 4 former students alleged abuse',
+      'Sexually abused students while serving as high school wrestling coach 1965-1981',
+      'Second in presidential line of succession while concealing predatory past',
+      'Post-Speaker career as lobbyist earning $2M+/year at Dickstein Shapiro',
+    ],
+    charges: [
+      { statute: '31 U.S.C. 5324', description: 'Structuring bank withdrawals to evade currency transaction reporting requirements', category: 'federal' },
+      { statute: '18 U.S.C. 1001', description: 'Making false statements to FBI agents regarding purpose of withdrawals', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-revolving-door-legalized-corruption'],
+    timeline: [
+      { date: '1965', event: 'Begins teaching and coaching wrestling at Yorkville High School' },
+      { date: '1987-01', event: 'Takes office as U.S. Representative for IL-14' },
+      { date: '1999-01-06', event: 'Elected Speaker of the House' },
+      { date: '2007-01', event: 'Leaves Congress; becomes lobbyist at Dickstein Shapiro' },
+      { date: '2010-2014', event: 'Makes structured withdrawals totaling $1.7M to Individual A' },
+      { date: '2015-05-28', event: 'Indicted on federal structuring and false statements charges' },
+      { date: '2015-10-28', event: 'Pleads guilty to structuring charges' },
+      { date: '2016-04-27', event: 'Sentenced to 15 months; judge calls him "serial child molester"' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Dennis Hastert', url: 'https://www.justice.gov/usao-ndil/us-v-dennis-hastert', date: '2015' },
+    ],
+    aliases: ['Denny'],
+    knownAssociates: [
+      { name: 'Tom DeLay', relationship: 'House Majority Leader under Hastert; also later convicted', href: '/individuals/tom-delay' },
+    ],
+  },
+  'duncan-hunter': {
+    name: 'Duncan D. Hunter',
+    title: 'Former U.S. Representative (R-CA-50)',
+    role: 'Congressman convicted of misusing $250,000 in campaign funds for personal expenses including extramarital affairs, family vacations, and pet airfare, then blaming his wife',
+    riskLevel: 'high',
+    description: 'Duncan Duane Hunter served as a U.S. Representative from California from 2009 to 2020, succeeding his father Duncan L. Hunter in the same seat. In August 2018, he and his wife Margaret were indicted on 60 federal counts of misusing over $250,000 in campaign funds for personal expenses. The indictment detailed extraordinary misuse: family vacations to Italy, Hawaii, and Boise labeled as campaign events; $600 in airfare for the family pet rabbit to travel; $14,000 at Costco and Walmart; dental work, private school tuition, video games, and tequila shots. Most strikingly, Hunter used campaign funds to finance extramarital affairs with lobbyists and congressional staffers, including paying for hotel rooms and romantic dinners. When charged, Hunter initially blamed his wife ("She was also the prior treasurer... Whatever she did, that will prior prior prior prior what she prior... She handled my prior prior money"), then took a plea deal in December 2019. He was sentenced to 11 months in federal prison. Trump pardoned him in December 2020 during the final weeks of his presidency.',
+    birthDate: 'December 7, 1976',
+    birthPlace: 'San Diego, California',
+    education: ['San Diego State University (B.S.)'],
+    affiliations: [
+      { name: 'U.S. House of Representatives (R-CA)', role: 'Member of Congress', type: 'agency' as const },
+      { name: 'U.S. Marine Corps', role: 'Officer (served in Iraq and Afghanistan)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Misused $250,000+ in campaign funds for personal expenses including vacations, affairs, and pet travel',
+      'Used campaign funds to finance extramarital affairs with lobbyists and staffers',
+      'Blamed wife for financial crimes before ultimately pleading guilty himself',
+      'Pardoned by Trump despite guilty plea and conviction',
+      'Continued serving in Congress and won reelection while under indictment',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1343', description: 'Wire fraud - scheme to steal campaign funds through fraudulent representation', category: 'federal' },
+      { statute: '52 U.S.C. 30114', description: 'Conversion of campaign funds to personal use', category: 'federal' },
+      { statute: '18 U.S.C. 371', description: 'Conspiracy to commit wire fraud and violate campaign finance laws', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/congressional-insider-trading'],
+    timeline: [
+      { date: '2009-01', event: 'Takes office representing CA-50, succeeding his father' },
+      { date: '2018-08-21', event: 'Indicted on 60 federal counts with wife Margaret' },
+      { date: '2018-11', event: 'Wins reelection despite pending criminal charges' },
+      { date: '2019-12-03', event: 'Pleads guilty to misuse of campaign funds' },
+      { date: '2020-01-13', event: 'Resigns from Congress' },
+      { date: '2020-03-17', event: 'Sentenced to 11 months in federal prison' },
+      { date: '2020-12-22', event: 'Pardoned by President Trump' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Duncan Hunter and Margaret Hunter', url: 'https://www.justice.gov/usao-sdca/united-states-v-hunter', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Margaret Hunter', relationship: 'Wife and co-defendant; campaign manager who facilitated personal spending; pleaded guilty before Hunter' },
+    ],
+  },
+  'diane-feinstein': {
+    name: 'Diane Feinstein',
+    title: 'Former U.S. Senator (D-CA)',
+    role: 'Longest-serving female senator whose cognitive decline was hidden from the public while she continued casting votes and holding a seat on the Judiciary Committee',
+    riskLevel: 'medium',
+    description: 'Dianne Goldman Berman Feinstein served as a U.S. Senator from California from 1992 until her death in 2023 at age 90. Her final years in office were marked by severe cognitive decline that was covered up by her staff and colleagues. Reporters documented that she could not recognize colleagues she had worked with for decades, repeated questions within minutes, and required staff to guide her through votes. Despite this, she held a critical seat on the Senate Judiciary Committee, single-handedly delaying judicial confirmations during a months-long absence in 2023. Her husband Richard Blum\'s investment firm, CBRE Group, received billions in government contracts while Feinstein sat on committees overseeing those agencies. Feinstein\'s Chinese-American driver was discovered in 2018 to have been reporting to China\'s Ministry of State Security for approximately 20 years.',
+    birthDate: 'June 22, 1933',
+    birthPlace: 'San Francisco, California',
+    education: ['Stanford University (B.A.)'],
+    affiliations: [
+      { name: 'U.S. Senate (D-CA)', role: 'Senator', type: 'agency' as const },
+      { name: 'Senate Judiciary Committee', role: 'Former Chair', type: 'agency' as const },
+      { name: 'Senate Intelligence Committee', role: 'Former Chair', type: 'agency' as const },
+    ],
+    controversies: [
+      'Cognitive decline hidden from public: staff managed her votes while she could not recognize colleagues',
+      'Chinese spy: driver of 20 years was MSS intelligence asset; Feinstein sat on Intelligence Committee during this period',
+      'Husband\'s contracts: Richard Blum\'s CBRE received billions in government contracts',
+      'Stock trading: questioned about stock trades timing with legislative actions',
+      'Refused to retire: held seat despite inability to fulfill duties; delayed judicial confirmations for months',
+    ],
+    charges: [],
+    relatedInvestigations: ['/investigations/congressional-insider-trading'],
+    timeline: [
+      { date: '1992-11-03', event: 'Elected to U.S. Senate' },
+      { date: '2018', event: 'Chinese spy discovered among her staff after 20 years' },
+      { date: '2023-02', event: 'Hospitalized with shingles; absent from Senate for months' },
+      { date: '2023-09-29', event: 'Dies in office at age 90' },
+    ],
+    sources: [
+      { title: 'San Francisco Chronicle: Feinstein Cognitive Decline Investigation', url: 'https://www.sfchronicle.com/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Richard Blum', relationship: 'Husband; investment firm received billions in government contracts while Feinstein was senator' },
+    ],
+  },
+  'do-kwon': {
+    name: 'Do Kwon',
+    title: 'Co-Founder, Terraform Labs',
+    role: 'Cryptocurrency executive charged with fraud after $40B Terra/Luna collapse',
+    riskLevel: 'critical',
+    description: 'Do Kwon co-founded Terraform Labs and created the Terra/Luna cryptocurrency ecosystem, which collapsed in May 2022 wiping out approximately $40 billion in investor value in five days. The SEC charged Kwon with fraud, alleging that Terraform Labs manipulated the UST stablecoin peg using secret reserves while publicly claiming the system was purely algorithmic. Kwon had dismissed warnings from economists who predicted the collapse, calling critics "poor." After fleeing to Montenegro, he was arrested in March 2023 and faces charges in both the U.S. and South Korea.',
+    birthDate: 'September 6, 1991',
+    birthPlace: 'Seoul, South Korea',
+    education: ['Stanford University (B.S. Computer Science)'],
+    affiliations: [
+      { name: 'Terraform Labs', role: 'Co-Founder and CEO', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Terra/Luna ecosystem collapsed in 5 days wiping out approximately $40 billion',
+      'Algorithmically "stable" UST coin was secretly propped up with undisclosed reserves',
+      'Dismissed expert warnings about fundamental instability of algorithmic stablecoins',
+      'Fled South Korea to Singapore then Serbia then Montenegro after collapse',
+      'Found with falsified Costa Rican passport when arrested in Montenegro',
+      'Tweeted "I don\'t debate the poor" to critics who predicted collapse',
+    ],
+    charges: [
+      { statute: '17 C.F.R. 240.10b-5', description: 'Securities Fraud', category: 'Financial Crime' },
+      { statute: 'SEC Civil Action', description: 'Multi-billion dollar investor fraud and market manipulation', category: 'Financial Crime' },
+    ],
+    relatedInvestigations: ['cryptocurrency-fraud-deregulation'],
+    timeline: [
+      { date: '2018', event: 'Co-founded Terraform Labs; launched Terra blockchain' },
+      { date: 'May 2022', event: 'UST stablecoin lost its peg; Terra/Luna ecosystem collapsed; $40B wiped out' },
+      { date: 'September 2022', event: 'South Korean prosecutors issued arrest warrant; INTERPOL issued Red Notice' },
+      { date: 'February 2023', event: 'SEC charged Kwon and Terraform Labs with fraud' },
+      { date: 'March 2023', event: 'Arrested in Montenegro with falsified travel documents' },
+      { date: 'December 2024', event: 'Extradited to United States to face federal charges' },
+    ],
+    sources: [
+      { title: 'SEC: Terraform Labs and Do Kwon Fraud Charges', url: 'https://www.sec.gov/litigation/complaints/2023/comp-pr2023-32.pdf', date: '2023' },
+    ],
+    aliases: ['Kwon Do-hyung'],
+    knownAssociates: [
+      { name: 'Daniel Shin', relationship: 'Terraform Labs co-founder; also under investigation in South Korea' },
+    ],
+  },
+  'david-petraeus': {
+    name: 'David Petraeus',
+    slug: 'david-petraeus',
+    bio: 'David Howell Petraeus is a retired four-star Army general who served as Commander of U.S. Central Command, Commander of forces in Iraq and Afghanistan, and Director of the CIA (2011-2012). He resigned from the CIA after an FBI investigation revealed he had shared classified information, including the identities of covert officers and war strategy documents, with his biographer and mistress Paula Broadwell. Despite the severity of the leak — which included the names of covert operatives, information more sensitive than anything Edward Snowden disclosed according to some analysts — Petraeus was allowed to plead guilty to a single misdemeanor and received no prison time. The disparity between his treatment and that of lower-ranking service members and whistleblowers who received years in prison for similar or lesser offenses became a landmark example of the two-tiered justice system.',
+    riskLevel: 'high' as const,
+    status: 'active',
+    lastKnownLocation: 'New York, New York',
+    birthDate: 'November 7, 1952',
+    education: [
+      'B.S., U.S. Military Academy at West Point (1974)',
+      'M.P.A., Princeton University (1985)',
+      'Ph.D., International Relations, Princeton University (1987)',
+    ],
+    affiliations: [
+      { name: 'CIA', role: 'Director (2011-2012)', type: 'agency' as const },
+      { name: 'U.S. Army', role: 'Four-Star General; Commander CENTCOM, ISAF', type: 'agency' as const },
+      { name: 'KKR', role: 'Chairman, KKR Global Institute', type: 'corporation' as const },
+    ],
+    relatedInvestigations: [
+      { title: 'Domestic Surveillance State', slug: 'domestic-surveillance-state', severity: 'critical' },
+    ],
+    charges: [
+      { statute: '18 U.S.C. § 1924', description: 'Unauthorized removal and retention of classified material', category: 'National security' },
+    ],
+    criminalHistory: 'Pleaded guilty to a single misdemeanor charge of unauthorized removal and retention of classified material in March 2015. Sentenced to 2 years probation and $100,000 fine. No prison time. The plea deal was widely criticized as extraordinarily lenient — Chelsea Manning received 35 years, Reality Winner received 5 years, and John Kiriakou received 30 months for comparable or lesser classified information disclosures.',
+    financialInfo: 'After leaving government, Petraeus became chairman of KKR Global Institute at the private equity firm, earning an estimated $3-4 million annually. KKR manages $500+ billion in assets including significant defense industry holdings.',
+    sources: [
+      { title: 'DOJ: United States v. David Howell Petraeus - Plea Agreement', url: 'https://www.justice.gov/', date: '2015' },
+      { title: 'FBI: Investigation of Unauthorized Disclosure of Classified Information', url: 'https://www.fbi.gov/', date: '2012' },
+    ],
+    aliases: ['King David'],
+    knownAssociates: [
+      { name: 'Paula Broadwell', relationship: 'Biographer and mistress; received classified materials including identities of covert officers' },
+      { name: 'Barack Obama', relationship: 'President who appointed him CIA Director; accepted resignation after scandal' },
+    ],
+  },
+  'dennis-muilenburg': {
+    name: 'Dennis Muilenburg',
+    title: 'Former Boeing CEO',
+    role: 'CEO Who Prioritized Stock Price Over Aviation Safety',
+    riskLevel: 'critical' as const,
+    description: 'Dennis Muilenburg led Boeing during the 737 MAX crisis that killed 346 people in two crashes caused by a software system Boeing concealed from pilots and regulators. Under his leadership, Boeing prioritized production speed and cost-cutting over safety, pressured the FAA to delegate oversight, and continued flying the MAX after the first crash while internally acknowledging the problem.',
+    birthDate: '1964-07-29',
+    birthPlace: 'Orange City, Iowa',
+    education: [
+      'B.S., Aerospace Engineering, Iowa State University (1986)',
+      'M.S., Aeronautics and Astronautics, University of Washington (1990)',
+    ],
+    affiliations: [
+      { name: 'Boeing', role: 'CEO (2015-2019)', type: 'corporation' as const },
+      { name: 'Boeing', role: 'President and COO (2013-2015)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Two 737 MAX crashes (Lion Air 610 and Ethiopian Airlines 302) killed 346 people due to MCAS system Boeing concealed from pilots',
+      'Boeing marketed the MAX as requiring no additional pilot training to save airlines money; this decision directly contributed to both crashes',
+      'Internal communications revealed employees calling the plane "designed by clowns supervised by monkeys" months before first crash',
+      'Boeing kept the MAX flying for five months after the first crash, with internal analysis showing the same failure would recur approximately every 3 years',
+      'Received $62 million separation package after being fired, despite 346 deaths on his watch',
+      'Lobbied Congress and FAA to maintain Boeing self-certification authority (Organization Designation Authorization) that allowed Boeing to approve its own safety analysis',
+      'Pressured supply chain to increase production from 42 to 52 planes per month, creating quality control problems that persisted years later',
+    ],
+    relatedInvestigations: [
+      { title: 'Boeing 737 MAX Cover-Up', slug: 'boeing-737-max-cover-up', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2015-07', event: 'Became Boeing CEO' },
+      { date: '2017', event: 'Pushed to increase 737 production rate; pressured FAA to delegate more oversight to Boeing' },
+      { date: '2018-10-29', event: 'Lion Air Flight 610 crashes, killing 189 people' },
+      { date: '2019-01', event: 'Internal Boeing analysis estimated MCAS failure rate of once per 3 years; MAX continued flying' },
+      { date: '2019-03-10', event: 'Ethiopian Airlines Flight 302 crashes, killing 157 people; identical failure mode' },
+      { date: '2019-03-13', event: 'Worldwide grounding of 737 MAX fleet; Boeing was last to recommend grounding' },
+      { date: '2019-10', event: 'Testified before Congress; described as evasive and unresponsive by both parties' },
+      { date: '2019-12', event: 'Fired as CEO; received $62 million exit package' },
+    ],
+    sources: [
+      { title: 'House Transportation Committee: Final Report on Boeing 737 MAX', date: '2020' },
+      { title: 'Senate Commerce Committee: Boeing Investigation Findings', date: '2020' },
+      { title: 'DOJ: United States v. Boeing - Deferred Prosecution Agreement', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Patrick Shanahan', relationship: 'Boeing executive who became acting Defense Secretary; recused from Boeing matters after ethics complaints' },
+    ],
+  },
+  'elizabeth-holmes': {
+    name: 'Elizabeth Holmes',
+    title: 'Former CEO of Theranos',
+    role: 'Silicon Valley Fraudster Who Endangered Patients with Fake Blood Tests',
+    riskLevel: 'high' as const,
+    description: 'Elizabeth Holmes founded Theranos at age 19, claiming to have developed revolutionary blood testing technology that could run hundreds of tests from a single drop of blood. The technology never worked as claimed, and Theranos ran most tests on conventional machines while providing inaccurate results to patients. She was convicted of wire fraud and conspiracy in 2022 and sentenced to over 11 years in prison.',
+    birthDate: '1984-02-03',
+    birthPlace: 'Washington, D.C.',
+    education: [
+      'Stanford University (dropped out after freshman year, 2003)',
+    ],
+    affiliations: [
+      { name: 'Theranos', role: 'Founder, CEO, and Chairwoman (2003-2018)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Theranos blood testing technology never worked as advertised; the Edison device could not accurately perform more than a handful of tests from a finger prick',
+      'Patients received inaccurate blood test results that led to misdiagnoses, unnecessary medical procedures, and extreme emotional distress',
+      'Raised over $700 million from investors including Rupert Murdoch, the DeVos family, and the Walton family based on fabricated demonstrations',
+      'Maintained a culture of extreme secrecy and retaliation; employees who raised concerns were threatened with lawsuits and intimidated by lawyers from David Boies firm',
+      'Stacked the Theranos board with former political heavyweights including Henry Kissinger, George Shultz, and James Mattis, none of whom had medical technology expertise',
+      'Continued soliciting investment and signing deals with Walgreens and Safeway even after internal engineers confirmed the technology was unreliable',
+      'Deceived FDA and CMS regulators about the capabilities of Theranos devices and the extent of conventional machine usage',
+    ],
+    relatedInvestigations: [
+      { title: 'For-Profit College Fraud', slug: 'for-profit-college-fraud', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2003', event: 'Founded Theranos at age 19 after dropping out of Stanford' },
+      { date: '2013-2014', event: 'Signed deals with Walgreens and Safeway to put Theranos testing in retail stores' },
+      { date: '2014-06', event: 'Theranos valued at $9 billion; Holmes net worth estimated at $4.5 billion' },
+      { date: '2015-10', event: 'Wall Street Journal published John Carreyreous investigation exposing technology failures' },
+      { date: '2016-07', event: 'CMS banned Holmes from owning or operating a lab for two years' },
+      { date: '2018-03', event: 'SEC charged Holmes with massive fraud; settled with $500K fine and return of shares' },
+      { date: '2018-06', event: 'DOJ indicted Holmes on wire fraud and conspiracy charges' },
+      { date: '2022-01', event: 'Convicted on four counts of wire fraud and conspiracy against investors' },
+      { date: '2022-11', event: 'Sentenced to 11 years and 3 months in federal prison' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Elizabeth Holmes - Indictment and Conviction', date: '2022' },
+      { title: 'SEC: Theranos Fraud Charges', date: '2018' },
+      { title: 'Wall Street Journal: John Carreyrou Theranos Investigation Series', url: 'https://www.wsj.com/', date: '2015' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Ramesh "Sunny" Balwani', relationship: 'Former COO and romantic partner convicted on 12 counts of fraud; oversaw lab operations where tests were run on conventional machines' },
+      { name: 'David Boies', relationship: 'Attorney whose firm intimidated whistleblowers and journalists investigating Theranos' },
+    ],
+  },
+  'david-graham': {
+    name: 'David Graham',
+    title: 'FDA Associate Director for Science and Medicine',
+    role: 'FDA whistleblower who exposed the Vioxx cardiovascular death cover-up and systematic failures in drug safety oversight',
+    riskLevel: 'high' as const,
+    description: 'David J. Graham (born 1950) is an American epidemiologist and drug safety officer who served as Associate Director for Science and Medicine in the FDA Office of Surveillance and Epidemiology. In 2004, Graham became a central figure in the Vioxx (rofecoxib) scandal when he presented research at a scientific conference estimating that Vioxx had caused between 88,000 and 139,000 excess cases of serious coronary heart disease in the United States, with approximately 55,000 deaths attributable to the drug. When Graham attempted to publish his findings, FDA leadership attempted to suppress his research and pressure him to alter his conclusions. He subsequently testified before the U.S. Senate Finance Committee, where he described the FDA as "incapable of protecting America against another Vioxx" and called the agency fundamentally broken in its approach to post-market drug safety. Graham identified five other drugs he believed should be withdrawn for safety reasons. His testimony was pivotal in reforming FDA safety surveillance procedures.',
+    birthDate: '1950',
+    birthPlace: 'United States',
+    education: ['Johns Hopkins University (M.D.)', 'Johns Hopkins Bloomberg School of Public Health (M.P.H.)'],
+    affiliations: [
+      { name: 'U.S. Food and Drug Administration', role: 'Associate Director for Science and Medicine, Office of Surveillance and Epidemiology (1984-present); led post-market drug safety studies', type: 'agency' },
+    ],
+    controversies: [
+      'FDA leadership attempted to suppress his Vioxx research and pressured him to alter conclusions showing 55,000+ deaths',
+      'Testified before Senate Finance Committee that the FDA was "incapable of protecting America against another Vioxx"',
+      'Identified five additional FDA-approved drugs he believed should be withdrawn for safety: Meridia, Crestor, Accutane, Bextra, and Serevent',
+      'Described the FDA drug safety office as having a "broken culture" that prioritized industry relationships over public safety',
+      'Faced retaliation from FDA superiors after going public with Vioxx data; required congressional protection',
+    ],
+    relatedInvestigations: [
+      { title: 'Vioxx: Merck and the 55,000 Cardiovascular Deaths', slug: 'vioxx-merck-cardiovascular-deaths', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1984', event: 'Joins the FDA Office of Drug Safety as an epidemiologist' },
+      { date: '2004-08', event: 'Presents research at International Conference on Pharmacoepidemiology estimating 88,000-139,000 excess cardiac events from Vioxx' },
+      { date: '2004-09-30', event: 'Merck voluntarily withdraws Vioxx from the market after internal study confirms doubled cardiovascular risk' },
+      { date: '2004-11-18', event: 'Testifies before U.S. Senate Finance Committee, calling the FDA "incapable of protecting America against another Vioxx"' },
+      { date: '2007', event: 'FDA Safety and Innovation Act reforms post-market surveillance partly as a result of Vioxx scandal and Graham testimony' },
+    ],
+    sources: [
+      { title: 'Senate Finance Committee: Testimony of David Graham, M.D., M.P.H.', url: 'https://www.finance.senate.gov/imo/media/doc/111804dgtest.pdf', date: '2004-11-18' },
+      { title: 'The Lancet: David Graham on Vioxx, the FDA, and Drug Safety', date: '2005' },
+    ],
+    knownAssociates: [
+      { name: 'Charles Grassley', relationship: 'U.S. Senator (R-IA) who chaired the Finance Committee investigation and provided Graham with whistleblower protections' },
+    ],
+  },
 };
 
 export default profiles;

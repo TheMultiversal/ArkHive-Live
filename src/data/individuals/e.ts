@@ -431,40 +431,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
-
-
-
- 'elliott-broidy': {
- name: 'Elliott Broidy',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Elliott Broidy. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
  'ethan-nordean': {
  name: 'Ethan Nordean',
  title: 'Proud Boys Leader',
@@ -742,29 +708,6 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
- 'elizabeth-holmes': {
- name: 'Elizabeth Holmes',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Elizabeth Holmes. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
 
 
  'ed-pierson': {
@@ -3279,18 +3222,422 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
+  'enver-pasha': {
+    name: 'Enver Pasha',
+    title: 'Minister of War, Ottoman Empire (1914-1918)',
+    role: 'Leading Architect of the Armenian Genocide',
+    riskLevel: 'critical',
+    description: 'Ismail Enver Pasha was one of the Three Pashas who ruled the Ottoman Empire during World War I and orchestrated the Armenian Genocide. As Minister of War, he played a central role in organizing the systematic deportation and extermination of 1.5 million Armenians, as well as the Assyrian and Greek genocides. He used World War I as cover to implement the genocidal plan, issuing orders for mass deportations into the Syrian desert where hundreds of thousands died.',
+    birthDate: '1881-11-22',
+    birthPlace: 'Istanbul, Ottoman Empire',
+    deathDate: '1922-08-04',
+    education: ['Ottoman Military Academy', 'Ottoman War College'],
+    affiliations: [
+      { name: 'Ottoman Empire', role: 'Minister of War (1914-1918)', type: 'agency' },
+      { name: 'Committee of Union and Progress (CUP)', role: 'Leading member of ruling triumvirate', type: 'organization' },
+      { name: 'Ottoman Military', role: 'Commander at Sarikamish and other campaigns', type: 'agency' },
+    ],
+    controversies: [
+      'Co-architect of the Armenian Genocide that killed 1.5 million Armenians through deportation, massacre, and starvation',
+      'Ordered disarmament of Armenian soldiers in the Ottoman army, who were then organized into labor battalions and executed',
+      'Sarikamish disaster (1914-15) - his incompetent command killed 90,000 Ottoman soldiers; blamed Armenians for the defeat',
+      'Co-organized the Assyrian genocide (Seyfo) killing 150,000-300,000 Assyrian Christians',
+      'Co-organized the Greek genocide killing 300,000-900,000 Pontic and Anatolian Greeks',
+      'Fled Ottoman Empire after WWI defeat to avoid prosecution; sentenced to death in absentia by Ottoman court-martial',
+      'Killed fighting the Red Army in Tajikistan in 1922 while pursuing pan-Turkic ambitions',
+    ],
+    charges: [
+      { statute: 'Ottoman Court-Martial (1919-1920) - Death Sentence', description: 'Sentenced to death in absentia for leading role in Armenian deportations and massacres', category: 'Genocide' },
+      { statute: 'Crimes Against Humanity - Extermination', description: 'Organized systematic annihilation of 1.5 million Armenians', category: 'Crimes Against Humanity' },
+      { statute: 'War Crimes - Deportation to Death', description: 'Ordered mass deportation marches into Syrian desert designed to kill through exhaustion, starvation, and exposure', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Armenian Genocide', slug: 'armenian-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1881-11-22', event: 'Born in Istanbul, Ottoman Empire' },
+      { date: '1908', event: 'Young Turk Revolution; becomes prominent CUP leader' },
+      { date: '1913-01', event: 'Raid on the Sublime Porte; CUP seizes power' },
+      { date: '1914-01', event: 'Becomes Minister of War' },
+      { date: '1914-12', event: 'Sarikamish disaster; 90,000 Ottoman troops die under his command' },
+      { date: '1915-04-24', event: 'Armenian Genocide begins with arrest of Armenian intellectuals in Constantinople' },
+      { date: '1915-05', event: 'Mass deportations of Armenian civilians begin' },
+      { date: '1918-10', event: 'Flees Ottoman Empire after armistice' },
+      { date: '1919', event: 'Ottoman court-martial sentences him to death in absentia' },
+      { date: '1922-08-04', event: 'Killed by Red Army forces in Tajikistan' },
+    ],
+    sources: [
+      { title: 'A Shameful Act by Taner Akcam', url: 'https://www.penguinrandomhouse.com/books/295440/a-shameful-act-by-taner-akcam/', date: '2006' },
+    ],
+    aliases: ['Ismail Enver', 'Enver Bey'],
+    knownAssociates: [
+      { name: 'Talat Pasha', relationship: 'Fellow triumvir and Grand Vizier who co-organized the Armenian Genocide', href: '/individuals/talat-pasha' },
+    ],
+  },
+  'elliott-broidy': {
+    name: 'Elliott Broidy',
+    title: 'Former RNC Deputy Finance Chairman',
+    role: 'Republican fundraiser who pleaded guilty to acting as an unregistered foreign agent in a scheme to lobby the Trump administration on behalf of Chinese and Malaysian interests',
+    riskLevel: 'high',
+    description: 'Elliott Broidy served as Deputy Finance Chairman of the Republican National Committee in 2017-2018 and was a top fundraiser for Trump. In October 2020, Broidy pleaded guilty to conspiracy to serve as an unregistered agent of a foreign principal. Broidy secretly lobbied Trump administration officials on behalf of Chinese national Jho Low, who was seeking to have the DOJ drop its investigation into the 1MDB Malaysian corruption scandal, one of the largest financial frauds in history ($4.5 billion stolen from Malaysia\'s sovereign wealth fund). Broidy was paid millions by Low. Separately, Broidy lobbied to have the U.S. extradite Chinese dissident Guo Wengui back to China. In a separate scandal, it was revealed that Broidy had paid $1.6 million in hush money to a Playboy model he had impregnated, with Michael Cohen arranging the payment using the same structure as Trump\'s Stormy Daniels payment. Broidy was previously convicted in 2009 of paying $1 million in bribes to New York state pension officials to secure $250 million in investments for his firm. Trump pardoned Broidy in January 2021.',
+    birthDate: '1957',
+    birthPlace: 'New York',
+    education: ['University of Southern California'],
+    affiliations: [
+      { name: 'Republican National Committee', role: 'Deputy Finance Chairman', type: 'organization' as const },
+      { name: 'Broidy Capital Management', role: 'CEO', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Pleaded guilty to secretly lobbying Trump admin for Chinese and Malaysian interests',
+      'Paid millions by Jho Low to lobby DOJ to drop 1MDB investigation',
+      'Lobbied to extradite Chinese dissident to China',
+      'Paid $1.6 million hush money to Playboy model via Michael Cohen',
+      'Previously convicted of bribing NY pension officials for $250M in investments',
+      'Pardoned by Trump in January 2021',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 371/22 U.S.C. 611', description: 'Conspiracy to act as unregistered foreign agent - lobbying for Chinese/Malaysian interests (guilty plea; pardoned)', category: 'federal' },
+      { statute: 'NY Penal Law 200.04', description: 'Rewarding official misconduct - bribing NY pension officials ($1M in bribes; previously convicted 2009)', category: 'state' },
+    ],
+    relatedInvestigations: ['/investigations/chinese-influence-operations-united-states'],
+    timeline: [
+      { date: '2009', event: 'Convicted of bribing New York pension officials' },
+      { date: '2017', event: 'Appointed RNC Deputy Finance Chairman' },
+      { date: '2017-2018', event: 'Period of undisclosed lobbying for Jho Low and Chinese interests' },
+      { date: '2018-04', event: 'Hush money payment to Playboy model revealed' },
+      { date: '2020-10-20', event: 'Pleads guilty to acting as unregistered foreign agent' },
+      { date: '2021-01-20', event: 'Pardoned by President Trump' },
+    ],
+    sources: [
+      { title: 'DOJ: Elliott Broidy Pleads Guilty', url: 'https://www.justice.gov/opa/pr/elliott-broidy-pleads-guilty-one-count-conspiracy', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jho Low', relationship: '1MDB fugitive who paid Broidy to lobby Trump admin' },
+      { name: 'Michael Cohen', relationship: 'Trump lawyer who arranged hush money payment', href: '/entities/individuals/michael-cohen' },
+      { name: 'Donald Trump', relationship: 'President who pardoned him', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'eric-adams': {
+    slug: 'eric-adams',
+    name: 'Eric Adams',
+    title: 'Mayor of New York City (2022-present)',
+    photo: '/images/individuals/eric-adams.webp',
+    background: 'Eric Leroy Adams is the 110th Mayor of New York City. Former NYPD captain and Brooklyn Borough President. In September 2024, Adams became the first sitting New York City mayor to be criminally indicted.',
+    controversies: [
+      'Indicted on federal charges in September 2024 including bribery, fraud, and solicitation of foreign campaign donations',
+      'Allegedly accepted luxury travel, free upgrades, and illegal campaign contributions from Turkish nationals seeking political favors',
+      'Accused of pressuring FDNY officials to approve a Turkish consulate building in Manhattan despite fire safety concerns',
+      'Multiple top aides resigned or were investigated; phones seized by FBI from multiple administration officials',
+      'Campaign fundraising irregularities including straw donor schemes to obtain public matching funds',
+      'Accused of receiving over $100,000 in travel benefits from Turkish government-linked entities since 2016',
+    ],
+    charges: [
+      {
+        description: 'Five-count federal indictment: bribery, wire fraud, conspiracy to commit wire fraud, solicitation of a contribution by a foreign national, and conspiracy to solicit a contribution by a foreign national',
+        status: 'Pending trial (as of 2025)',
+        source: 'U.S. Attorney for the Southern District of New York',
+      },
+    ],
+    timeline: [
+      { date: '2021-11-02', event: 'Elected Mayor of New York City' },
+      { date: '2023-11-02', event: 'FBI raids home of chief fundraiser Brianna Suggs' },
+      { date: '2024-02-01', event: 'FBI seizes Adams\'s electronic devices and phones' },
+      { date: '2024-09-26', event: 'Indicted on federal bribery and fraud charges; first sitting NYC mayor indicted' },
+      { date: '2024-10-01', event: 'Pleads not guilty; refuses to resign as mayor' },
+    ],
+    affiliations: [
+      { name: 'City of New York', role: 'Mayor', type: 'agency' as const },
+      { name: 'New York City Police Department', role: 'Former Captain', type: 'agency' as const },
+      { name: 'Brooklyn Borough', role: 'Former Borough President', type: 'agency' as const },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Brianna Suggs', relationship: 'Chief fundraiser whose home was raided by FBI' },
+      { name: 'Rana Abbasova', relationship: 'Former liaison to Turkish community; cooperating witness' },
+    ],
+  },
+  'eric-greitens': {
+    slug: 'eric-greitens',
+    name: 'Eric Greitens',
+    title: 'Former Governor of Missouri (2017-2018)',
+    photo: '/images/individuals/eric-greitens.webp',
+    background: 'Eric Robert Greitens served as the 56th Governor of Missouri. A former Navy SEAL and Rhodes Scholar, he resigned in June 2018 amid overlapping scandals involving sexual misconduct, blackmail, and campaign finance violations. He later ran for U.S. Senate in 2022 but lost the primary after his ex-wife accused him of domestic abuse.',
+    controversies: [
+      'Photographed a bound and blindfolded woman during an extramarital affair without her consent; accused of using the photo as blackmail',
+      'Charged with felony invasion of privacy for taking the non-consensual photograph',
+      'Separate felony charge for computer data tampering related to misuse of a veterans charity donor list for campaign fundraising',
+      'Used donor list from The Mission Continues (his veterans charity) for political fundraising without authorization',
+      'Ex-wife Sheena Greitens filed sworn affidavit alleging physical abuse including striking their 3-year-old son',
+      'Allegations that campaign operatives used dark money networks to obscure the source of major campaign donations',
+    ],
+    charges: [
+      {
+        description: 'Felony invasion of privacy (photographing partially nude woman without consent); felony computer data tampering (unauthorized use of charity donor list)',
+        status: 'Both charges dropped by prosecutors after Greitens agreed to resign as governor (2018)',
+        source: 'St. Louis Circuit Attorney',
+      },
+    ],
+    timeline: [
+      { date: '2017-01-09', event: 'Inaugurated as Governor of Missouri' },
+      { date: '2018-01-10', event: 'Affair and blackmail allegations become public' },
+      { date: '2018-02-22', event: 'Indicted on felony invasion of privacy charge' },
+      { date: '2018-04-20', event: 'Second felony charge filed for computer data tampering' },
+      { date: '2018-06-01', event: 'Resigns as governor; felony charges subsequently dropped' },
+      { date: '2022-08-02', event: 'Loses Missouri U.S. Senate Republican primary' },
+    ],
+    affiliations: [
+      { name: 'State of Missouri', role: 'Governor', type: 'agency' as const },
+      { name: 'The Mission Continues', role: 'Founder (Veterans Charity)', type: 'organization' as const },
+      { name: 'U.S. Navy SEALs', role: 'Former Officer', type: 'agency' as const },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Al Watkins', relationship: 'Attorney for the woman who accused him of blackmail' },
+      { name: 'Sheena Greitens', relationship: 'Ex-wife who alleged domestic abuse in sworn affidavit' },
+    ],
+  },
+  'edward-teller': {
+    name: 'Edward Teller',
+    title: 'Father of the Hydrogen Bomb',
+    role: 'Nuclear Physicist',
+    riskLevel: 'critical' as const,
+    description: 'Hungarian-American theoretical physicist known as the father of the hydrogen bomb. Key figure in the development of thermonuclear weapons that were thousands of times more powerful than the atomic bombs dropped on Japan. Instrumental in destroying J. Robert Oppenheimer\'s security clearance in 1954, effectively ending the career of the scientist who had moral objections to the H-bomb. Lifelong advocate for nuclear weapons proliferation, the Strategic Defense Initiative (Star Wars), and opponent of nuclear test ban treaties.',
+    birthDate: '1908-01-15',
+    birthPlace: 'Budapest, Austria-Hungary',
+    education: ['Ph.D. in Physics, University of Leipzig (1930)', 'Research Fellow, University of Göttingen (1931)'],
+    affiliations: [
+      { name: 'Lawrence Livermore National Laboratory', role: 'Co-Founder and Director', type: 'agency' as const },
+      { name: 'Manhattan Project', role: 'Senior Physicist', type: 'agency' as const },
+      { name: 'U.S. Atomic Energy Commission', role: 'Advisor', type: 'agency' as const },
+    ],
+    controversies: [
+      'Drove development of hydrogen bomb thousands of times more powerful than Hiroshima weapon despite scientific opposition',
+      'Testified against J. Robert Oppenheimer in 1954 security hearing, destroying career of fellow Manhattan Project scientist',
+      'Lobbied against nuclear test ban treaties for decades, enabling continued atmospheric testing that exposed millions to fallout',
+      'Advocated for Project Plowshare using nuclear explosions for civil engineering including creating harbors and canals',
+      'Pushed for Strategic Defense Initiative (Star Wars) program costing $30+ billion with no viable results',
+      'Promoted nuclear weapons testing despite evidence of widespread radiation-related health effects on downwinders',
+      'Co-founded Lawrence Livermore National Laboratory specifically to develop thermonuclear weapons',
+    ],
+    charges: [
+      {
+        statute: 'Ethical Violations - Scientific Community',
+        description: 'Testimony against Oppenheimer widely regarded as betrayal that destroyed a colleague for political reasons; later acknowledged as unjust by AEC',
+        category: 'ethics',
+      },
+      {
+        statute: 'Public Health - Promotion of Nuclear Testing',
+        description: 'Actively lobbied against test ban treaties enabling continued atmospheric testing that caused cancer clusters among downwinders and veterans',
+        category: 'human-rights',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Nuclear Testing Fallout and Veteran Exposure', slug: 'nuclear-testing-fallout-veterans', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1908-01-15', event: 'Born in Budapest, Austria-Hungary' },
+      { date: '1935', event: 'Emigrates to United States; joins George Washington University faculty' },
+      { date: '1943', event: 'Joins Manhattan Project at Los Alamos; pushes for thermonuclear weapon development' },
+      { date: '1949-08', event: 'Soviet Union detonates first atomic bomb; Teller lobbies for crash H-bomb program' },
+      { date: '1950', event: 'Truman approves hydrogen bomb development over objections of many scientists' },
+      { date: '1952-11-01', event: 'First hydrogen bomb (Ivy Mike) detonated at Enewetak Atoll; 10.4 megatons, 700x Hiroshima' },
+      { date: '1952', event: 'Co-founds Lawrence Livermore National Laboratory as second nuclear weapons lab' },
+      { date: '1954-04', event: 'Testifies against J. Robert Oppenheimer at AEC security hearing; Oppenheimer loses clearance' },
+      { date: '1954-03-01', event: 'Castle Bravo H-bomb test yields 15 megatons (2.5x expected); irradiates Marshall Islanders and Japanese fishermen' },
+      { date: '1963', event: 'Opposes Partial Nuclear Test Ban Treaty; lobbies Congress against ratification' },
+      { date: '1983', event: 'Advises Reagan on Strategic Defense Initiative (Star Wars) missile defense program' },
+      { date: '2003-01-15', event: 'Awarded Presidential Medal of Freedom by President George W. Bush' },
+      { date: '2003-09-09', event: 'Dies in Stanford, California at age 95' },
+    ],
+    sources: [
+      { title: 'Dark Sun: The Making of the Hydrogen Bomb by Richard Rhodes', date: '1995' },
+      { title: 'DOE OpenNet: Declassified Nuclear Testing Documents', url: 'https://www.osti.gov/opennet', date: '2023' },
+      { title: 'Atomic Heritage Foundation: Edward Teller Profile', url: 'https://ahf.nuclearmuseum.org/ahf/profile/edward-teller/', date: '2023' },
+    ],
+    aliases: ['Father of the Hydrogen Bomb', 'Dr. Strangelove (inspiration)'],
+    knownAssociates: [
+      { name: 'J. Robert Oppenheimer', relationship: 'Manhattan Project director whose career Teller helped destroy through security hearing testimony' },
+      { name: 'Stanislaw Ulam', relationship: 'Mathematician who co-developed the Teller-Ulam thermonuclear weapon design' },
+      { name: 'Ronald Reagan', relationship: 'President who relied on Teller\'s advice for the Strategic Defense Initiative program' },
+    ],
+  },
+  'andrew-wheeler': {
+    name: 'Andrew Wheeler',
+    slug: 'andrew-wheeler',
+    bio: 'Andrew R. Wheeler served as the Administrator of the Environmental Protection Agency from 2019 to 2021, after serving as Acting Administrator from 2018. Before joining the EPA, Wheeler spent a decade as a coal industry lobbyist, representing Murray Energy — the largest private coal company in America — whose CEO Bob Murray had presented Trump with an "action plan" to dismantle Obama-era environmental regulations. As EPA head, Wheeler systematically implemented that plan: rolling back methane emission regulations, weakening fuel efficiency standards, relaxing coal plant pollution rules, narrowing the scope of the Waters of the United States rule, and weakening the scientific basis of EPA rulemaking by restricting which studies could be used. He is the textbook case of regulatory capture — a lobbyist appointed to dismantle the agency he once lobbied against.',
+    riskLevel: 'high' as const,
+    status: 'active',
+    lastKnownLocation: 'Washington, D.C.',
+    birthDate: 'January 12, 1964',
+    education: [
+      'B.A., English, Case Western Reserve University (1987)',
+      'M.B.A., George Mason University (1998)',
+      'J.D., Washington University School of Law (1990)',
+    ],
+    affiliations: [
+      { name: 'EPA', role: 'Administrator (2019-2021)', type: 'agency' as const },
+      { name: 'Murray Energy', role: 'Lobbyist (2009-2017)', type: 'corporation' as const },
+    ],
+    relatedInvestigations: [
+      { title: 'Environmental Racism', slug: 'environmental-racism-toxic-exposure', severity: 'critical' },
+      { title: 'Fossil Fuel Subsidies', slug: 'fossil-fuel-subsidies-climate-deception', severity: 'critical' },
+      { title: 'PFAS Contamination', slug: 'pfas-forever-chemicals-contamination', severity: 'critical' },
+    ],
+    charges: [
+      { statute: 'N/A - Regulatory Capture', description: 'Implemented coal industry deregulation agenda drafted by former client Murray Energy', category: 'Conflict of interest' },
+      { statute: 'N/A - Policy', description: 'Weakened methane regulations, fuel efficiency standards, and water protections; restricted use of scientific studies in EPA rulemaking', category: 'Environmental deregulation' },
+    ],
+    criminalHistory: 'No criminal charges. GAO found several EPA rollbacks under Wheeler violated procedural requirements. Courts struck down multiple Wheeler-era deregulation actions for being "arbitrary and capricious." Virginia rejected his appointment as state Natural Resources Secretary in 2022 after bipartisan opposition.',
+    financialInfo: 'Earned estimated $800,000+ annually as a coal industry lobbyist. Financial disclosures showed continued investment holdings in energy companies while leading the EPA.',
+    sources: [
+      { title: 'NYT: Murray Energy "Action Plan" for Trump Administration', url: 'https://www.nytimes.com/', date: '2018' },
+      { title: 'EPA: Regulatory Rollback Tracker', url: 'https://www.epa.gov/', date: '2021' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Bob Murray', relationship: 'Murray Energy CEO; Wheeler\'s former client who presented Trump with deregulation wishlist that Wheeler implemented' },
+      { name: 'Scott Pruitt', relationship: 'Predecessor as EPA head who resigned amid ethics scandals; Wheeler continued Pruitt\'s deregulation agenda' },
+    ],
+  },
+  'elaine-chao': {
+    name: 'Elaine Chao',
+    title: 'Former Secretary of Transportation',
+    role: 'Cabinet Official with Extensive Family Business Conflicts',
+    riskLevel: 'high' as const,
+    description: 'Elaine Chao served as Transportation Secretary (2017-2021) and previously as Labor Secretary (2001-2009) while her family owned a major shipping company with deep ties to the Chinese government. DOT Inspector General investigations found she used her office to benefit family business interests and directed staff to assist with personal and family tasks.',
+    birthDate: '1953-03-26',
+    birthPlace: 'Taipei, Taiwan',
+    education: [
+      'B.A., Mount Holyoke College (1975)',
+      'M.B.A., Harvard Business School (1979)',
+    ],
+    affiliations: [
+      { name: 'DOT', role: 'Secretary of Transportation (2017-2021)', type: 'agency' as const },
+      { name: 'DOL', role: 'Secretary of Labor (2001-2009)', type: 'agency' as const },
+    ],
+    controversies: [
+      'DOT OIG found she used her position to benefit her familys shipping company, Foremost Group, which builds ships in China with Chinese state financing',
+      'Directed DOT staff to assist with personal tasks and help plan events involving her family and their business contacts',
+      'Foremost Group received favorable treatment from Chinese government including subsidized shipbuilding at state-owned yards',
+      'Failed to fully divest from Vulcan Materials Company, which had business before DOT, despite ethics agreement',
+      'Resigned one day after the January 6 attack, later claiming concern about the events but was criticized for not speaking out sooner',
+      'As Labor Secretary, OSHA enforcement actions dropped significantly and workplace safety rules were delayed or weakened',
+      'DOJ declined to pursue criminal charges despite OIG referral and documented evidence of conflicts',
+      'Husband Mitch McConnell received a $5-25 million gift from Chaos father, shipping magnate James Chao, in 2008',
+    ],
+    relatedInvestigations: [
+      { title: 'Congressional Stock Trading', slug: 'congressional-stock-trading', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2001', event: 'Became Secretary of Labor under George W. Bush; served full eight years' },
+      { date: '2017-01', event: 'Confirmed as Secretary of Transportation under Trump' },
+      { date: '2019', event: 'DOT OIG opened investigation into potential misuse of office for family benefit' },
+      { date: '2020', event: 'OIG investigation expanded; staff interviews revealed pattern of personal task direction' },
+      { date: '2021-01-07', event: 'Resigned from DOT one day after January 6 Capitol attack' },
+      { date: '2021-03', event: 'DOT OIG referred findings to DOJ for potential criminal prosecution' },
+      { date: '2022-07', event: 'DOJ declined to prosecute despite OIG referral and documented evidence' },
+    ],
+    sources: [
+      { title: 'DOT OIG: Review of Potential Misuse of Position (Chao Report)', date: '2021' },
+      { title: 'New York Times: Chaos Family Business and Transportation Department', url: 'https://www.nytimes.com/', date: '2019' },
+      { title: 'Senate Finance Committee: Chao Ethics Review', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Mitch McConnell', relationship: 'Husband; Senate Republican Leader whose political and legislative power intersected with Chaos policy role' },
+      { name: 'Donald Trump', relationship: 'President who appointed her; Chao resigned after January 6 but remained largely loyal', href: '/entities/individuals/donald-trump' },
+    ],
+  },
+  'rudy-giuliani': {
+    name: 'Rudy Giuliani',
+    title: 'Former Mayor of New York City and Personal Attorney to Donald Trump',
+    role: 'From Americas Mayor to Disbarred Election Conspiracy Promoter',
+    riskLevel: 'critical' as const,
+    description: 'Rudolph Giuliani went from celebrated federal prosecutor and post-9/11 mayor to disbarred attorney after leading Trumps efforts to overturn the 2020 election. He promoted conspiracy theories in courts and media, pressured Ukrainian officials to investigate the Biden family, and was found liable for $148 million for defaming Georgia election workers.',
+    birthDate: '1944-05-28',
+    birthPlace: 'Brooklyn, New York',
+    education: [
+      'B.A., Manhattan College (1965)',
+      'J.D., New York University School of Law (1968)',
+    ],
+    affiliations: [
+      { name: 'City of New York', role: 'Mayor (1994-2001)', type: 'agency' as const },
+      { name: 'U.S. Attorneys Office, Southern District of New York', role: 'U.S. Attorney (1983-1989)', type: 'agency' as const },
+      { name: 'Giuliani Partners', role: 'Founder and CEO', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Led post-election legal campaign making claims of widespread fraud in over 60 lawsuits; nearly all were rejected by courts for lack of evidence',
+      'Pressured Ukrainian President Zelensky to investigate the Biden family; conduct was central to Trumps first impeachment',
+      'Found liable for defaming Georgia election workers Ruby Freeman and Shaye Moss; ordered to pay $148 million in damages',
+      'Disbarred in New York for making "demonstrably false and misleading statements" about the 2020 election in courts and public',
+      'Held press conference at Four Seasons Total Landscaping after confusing it with the Four Seasons Hotel; became symbol of campaigns disorganization',
+      'Associates Lev Parnas and Igor Fruman were indicted for campaign finance violations related to the Ukraine pressure campaign',
+      'Filed for bankruptcy citing $148 million defamation judgment and extensive legal debts; simultaneously claimed inability to pay while maintaining luxury lifestyle',
+      'Indicted in Georgia and Arizona for efforts to overturn election results in those states',
+    ],
+    relatedInvestigations: [
+      { title: 'Voter Purge Disenfranchisement', slug: 'voter-purge-disenfranchisement', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1983-1989', event: 'Served as U.S. Attorney; prosecuted Mafia Commission case and Wall Street insider trading' },
+      { date: '1994-2001', event: 'Served as Mayor of New York City' },
+      { date: '2001-09', event: 'Led New York response to 9/11 attacks; dubbed "Americas Mayor"' },
+      { date: '2019', event: 'Pressured Ukrainian officials to investigate Biden family; central to first Trump impeachment' },
+      { date: '2020-11', event: 'Led post-election legal challenges claiming widespread fraud without evidence' },
+      { date: '2020-11-07', event: 'Four Seasons Total Landscaping press conference' },
+      { date: '2023-08', event: 'Indicted in Georgia RICO case for election interference' },
+      { date: '2023-12', event: 'Found liable for $148 million to Georgia election workers Freeman and Moss' },
+      { date: '2024-07', event: 'Disbarred in New York for election-related false statements' },
+    ],
+    sources: [
+      { title: 'D.C. Bar: Giuliani Disbarment Proceedings', date: '2024' },
+      { title: 'Freeman v. Giuliani: Defamation Judgment', date: '2023' },
+      { title: 'Fulton County DA: Georgia RICO Indictment', date: '2023' },
+    ],
+    aliases: ['Americas Mayor', 'Rudy'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Personal attorney who led post-election legal campaign and Ukraine pressure operation', href: '/entities/individuals/donald-trump' },
+      { name: 'Mark Meadows', relationship: 'White House Chief of Staff who coordinated with Giuliani on election challenges', href: '/entities/individuals/mark-meadows' },
+    ],
+  },
+  'eugene-saenger': {
+    name: 'Eugene Saenger',
+    title: 'Radiologist, University of Cincinnati',
+    role: 'DOD-funded researcher who subjected 88 cancer patients to total body irradiation for military purposes',
+    riskLevel: 'critical' as const,
+    description: 'Eugene L. Saenger (1917-2007) was a radiologist at the University of Cincinnati who, from 1963 to 1971, conducted Department of Defense-funded total body irradiation experiments on 88 cancer patients. The DOD funding contract specified the purpose as determining the effects of radiation on combat effectiveness, but patients were not told the study was military-funded or that radiation doses were designed to simulate nuclear warfare conditions. Saenger selected patients who were predominantly poor and Black. At least 21 of 88 patients died within weeks of irradiation. A class action lawsuit resulted in a $3.6 million settlement in 1999. Saenger was never criminally charged and insisted the experiments were therapeutic until his death.',
+    birthDate: '1917-03-04',
+    birthPlace: 'Cincinnati, Ohio',
+    deathDate: '2007-10-10',
+    education: ['University of Cincinnati (B.A.)', 'University of Cincinnati College of Medicine (M.D., 1942)'],
+    affiliations: [
+      { name: 'University of Cincinnati', role: 'Professor of Radiology (1947-1986); conducted DOD-funded radiation experiments', type: 'organization' },
+      { name: 'Department of Defense', role: 'Received DOD research contracts totaling over $650,000 for military radiation research using hospital patients', type: 'agency' },
+    ],
+    controversies: [
+      'Subjected 88 cancer patients to total body irradiation at doses far exceeding therapeutic levels for DOD military research purposes without informed consent',
+      'Selected predominantly poor Black patients for radiation experiments; did not inform them the study was funded by the Pentagon or designed for military purposes',
+      'At least 21 of 88 patients died within weeks of irradiation with acute radiation syndrome symptoms',
+      'Continued defending the experiments as therapeutic until his death in 2007 despite overwhelming evidence they served military rather than medical purposes',
+    ],
+    relatedInvestigations: [
+      { title: 'Cold War Radiation Experiments on Unwitting American Citizens', slug: 'cold-war-radiation-experiments-united-states', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1963', event: 'Begins DOD-funded total body irradiation experiments at University of Cincinnati' },
+      { date: '1971', event: 'Experiments end after renewed scrutiny following Senator Kennedy hearings' },
+      { date: '1994', event: 'Advisory Committee on Human Radiation Experiments investigates the Cincinnati studies' },
+      { date: '1999', event: 'Class action lawsuit settled for $3.6 million; Saenger not personally held liable' },
+      { date: '2007-10-10', event: 'Dies at age 90; never criminally charged for the experiments' },
+    ],
+    sources: [
+      { title: 'ACHRE Final Report: Cincinnati TBI Experiments', url: 'https://bioethics.georgetown.edu/2015/01/advisory-committee-on-human-radiation-experiments-achre/', date: '1995' },
+    ],
+    knownAssociates: [
+      { name: 'John Charles Cutler', relationship: 'Fellow government-funded researcher who conducted human experiments without consent; contemporaries in the Cold War medical research establishment', href: '/entities/individuals/john-charles-cutler' },
+    ],
+  },
 };
 
 export default profiles;

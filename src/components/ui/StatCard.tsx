@@ -159,7 +159,7 @@ interface SparklineStatCardProps extends StatCardProps {
 
 export function SparklineStatCard({
  data,
- sparklineColor = '#d64545',
+ sparklineColor = '#3b82f6',
  ...props
 }: SparklineStatCardProps) {
  const max = Math.max(...data);

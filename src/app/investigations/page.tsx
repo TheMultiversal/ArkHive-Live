@@ -129,6 +129,14 @@ const CATEGORY_MAP: Record<string, string> = {
 "Global Health":"Public Health",
 "Research Ethics":"Public Health",
 "Animal Welfare":"Public Health",
+"Medical Tyranny":"Public Health",
+"Human Experimentation":"Public Health",
+"Pharmaceutical Fraud":"Public Health",
+"Forced Medical Treatment":"Public Health",
+"Vaccine Injury":"Public Health",
+"Bioethics Violations":"Public Health",
+"Medical Negligence":"Public Health",
+"Biological Weapons":"Public Health",
 
  // National Security
 "National Security":"National Security",

@@ -2,152 +2,6 @@
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
- 'steve-bannon': {
- name: 'Stephen Kevin Bannon',
- title: 'Convicted Felon (Pardoned, Then Convicted Again)',
- role: 'Former Chief Strategist, Media Executive, Political Operative',
- riskLevel: 'critical',
- description: 'Steve Bannon is a twice-convicted felon, former Trump White House Chief Strategist, and former Breitbart executive chairman. He was a key architect of Trump\'s nationalist"America First"political movement and the mastermind behind the 2016 Cambridge Analytica data operation. Convicted of contempt of Congress for defying January 6 Committee subpoenas (served prison time) and fraud for the We Build the Wall scheme (pardoned by Trump). Bannon\'s strategy of"flooding the zone with shit"has fundamentally reshaped political disinformation tactics.',
- birthDate: 'November 27, 1953',
- birthPlace: 'Norfolk, Virginia, USA',
- netWorth: '$48+ million',
- education: ['M.B.A., Harvard Business School (1985)', 'M.A. National Security Studies, Georgetown University (1983)', 'B.A. Urban Planning, Virginia Tech (1976)', 'U.S. Navy Officer (1976-1983)'],
- affiliations: [
- { name: 'White House', role: 'Chief Strategist (Jan-Aug 2017)', type: 'agency' },
- { name: 'Breitbart News', role: 'Executive Chairman (2012-2018)', type: 'corporation' },
- { name: 'We Build the Wall', role: 'Advisory Board (Fraud scheme)', type: 'organization' },
- { name: 'Cambridge Analytica', role: 'Vice President, Board Member', type: 'corporation' },
- { name: 'SCL Group', role: 'Board Member', type: 'corporation' },
- { name: 'Trump Campaign 2016', role: 'Campaign CEO', type: 'organization' },
- { name: 'Goldman Sachs', role: 'Investment Banker (1980s)', type: 'corporation' },
- ],
- controversies: [
- 'WE BUILD THE WALL FRAUD: Defrauded donors of $25 million raised to build border wall; Bannon personally took $1M+ for"expenses"while promising 100% to wall construction',
- 'CONTEMPT OF CONGRESS: Refused to comply with January 6 Committee subpoenas, convicted, served 4 months in federal prison (Oct 2024-Jan 2025)',
- 'CAMBRIDGE ANALYTICA: Vice President of company that harvested 87 million Facebook users\' data for targeted political manipulation in 2016 election',
- '"FLOOD THE ZONE WITH SHIT": Bannon\'s documented disinformation strategy; overwhelm media with so many scandals/lies that truth becomes impossible to discern',
- 'WHITE NATIONALIST TIES: Breitbart under Bannon became platform for alt-right, published"Black Crime"tag, Milo Yiannopoulos articles',
- 'INTERNATIONAL POPULIST NETWORK: The Movement; Bannon\'s effort to coordinate far-right parties across Europe',
- 'FIRED FROM WHITE HOUSE: Removed after only 7 months for leaking and power struggles',
- 'NEW YORK STATE CHARGES: Separate fraud charges filed after Trump pardon (state crimes not pardonable)',
- 'WAR ROOM PODCAST: Daily show spreading election fraud lies and coordinating January 6 planning',
- ],
- charges: [
- { statute: '18 U.S.C. § 1343', description: 'Wire fraud; We Build the Wall (pardoned by Trump)', category: 'Financial Crimes' },
- { statute: '18 U.S.C. § 1956', description: 'Money laundering conspiracy; We Build the Wall (pardoned)', category: 'Financial Crimes' },
- { statute: '2 U.S.C. § 192', description: 'Contempt of Congress; defying January 6 Committee (convicted, served time)', category: 'Obstruction' },
- { statute: 'NY Penal Law § 190.65', description: 'Scheme to defraud; NY state charges (separate from federal)', category: 'Financial Crimes' },
- { statute: 'NY Penal Law § 175.10', description: 'Money laundering; NY state charges', category: 'Financial Crimes' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- { title: 'Build the Wall Fraud', slug: 'build-the-wall-fraud', severity: 'high' },
- { title: 'Cambridge Analytica Data Scandal', slug: 'cambridge-analytica', severity: 'high' },
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- ],
- timeline: [
- { date: '1953', event: 'Born in Norfolk, Virginia to working-class family' },
- { date: '1976', event: 'Graduates Virginia Tech, joins U.S. Navy' },
- { date: '1983', event: 'Leaves Navy as Lieutenant, joins Goldman Sachs' },
- { date: '1985', event: 'Earns Harvard MBA' },
- { date: '1990', event: 'Leaves Goldman, becomes Hollywood producer' },
- { date: '2007', event: 'Joins board of Cambridge Analytica parent company SCL Group' },
- { date: '2012', event: 'Takes over as Executive Chairman of Breitbart News after Andrew Breitbart\'s death' },
- { date: '2014', event: 'Cambridge Analytica formed, Bannon becomes Vice President' },
- { date: '2016 (Aug)', event: 'Named CEO of Trump campaign' },
- { date: '2017 (Jan)', event: 'Appointed White House Chief Strategist' },
- { date: '2017 (Jan)', event: 'Named to National Security Council principals committee (removed in April)' },
- { date: '2017 (Aug)', event: 'Fired from White House after Charlottesville response controversy' },
- { date: '2018', event: 'Ousted from Breitbart after"Fire and Fury"book quotes' },
- { date: '2018', event: 'Cambridge Analytica scandal breaks, company dissolves' },
- { date: '2019', event: 'Launches"We Build the Wall"as advisor' },
- { date: '2020 (Aug 20)', event: 'Arrested on yacht off Connecticut coast for We Build the Wall fraud' },
- { date: '2021 (Jan 20)', event: 'Pardoned by Trump in final hours of presidency' },
- { date: '2021 (Nov)', event: 'Indicted for contempt of Congress' },
- { date: '2022 (Jul)', event: 'Convicted of contempt of Congress' },
- { date: '2022 (Sep)', event: 'NY state files separate fraud charges (not subject to pardon)' },
- { date: '2022 (Oct)', event: 'Sentenced to 4 months federal prison for contempt' },
- { date: '2024 (Jul 1)', event: 'Reports to federal prison in Danbury, CT' },
- { date: '2024 (Nov)', event: 'Released from prison' },
- ],
- socialMedia: [],
- sources: [
- { title: 'We Build the Wall Indictment', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', date: '2020' },
- { title: 'January 6 Committee Contempt Referral', url: 'https://www.congress.gov/117/crpt/hrpt152/CRPT-117hrpt152.pdf', date: '2021' },
- { title: 'NY State Indictment', url: 'https://www.ag.ny.gov/press-release/2022/attorney-general-james-and-manhattan-district-attorney-bragg-announce-indictment', date: '2022' },
- { title: 'Cambridge Analytica Investigation (ICO UK)', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
- { title: 'House January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
- { title: 'DOJ Contempt Conviction Press Release', url: 'https://www.justice.gov/usao-dc/pr/stephen-k-bannon-found-guilty-contempt-congress', date: '2022' },
- ],
- aliases: ['The Great Manipulator', 'Sloppy Steve', 'Trump\'s Brain'],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Chief Strategist, pardoned for fraud, campaign CEO', href: '/entities/individuals/donald-trump' },
- { name: 'Brian Kolfage', relationship: 'We Build the Wall fraud co-conspirator', href: '/entities/individuals/brian-kolfage' },
- { name: 'Andrew Badolato', relationship: 'We Build the Wall fraud co-conspirator', href: '/entities/individuals/andrew-badolato' },
- { name: 'Robert Mercer', relationship: 'Billionaire patron, Cambridge Analytica funder', href: '/entities/individuals/robert-mercer' },
- { name: 'Rebekah Mercer', relationship: 'Mercer family liaison, Breitbart funder', href: '/entities/individuals/rebekah-mercer' },
- { name: 'Alexander Nix', relationship: 'Cambridge Analytica CEO', href: '/entities/individuals/alexander-nix' },
- { name: 'Peter Navarro', relationship: 'Fellow contempt convict', href: '/entities/individuals/peter-navarro' },
- { name: 'Roger Stone', relationship: 'Political ally, dirty tricks coordination', href: '/entities/individuals/roger-stone' },
- { name: 'Kellyanne Conway', relationship: 'Trump campaign colleague', href: '/entities/individuals/kellyanne-conway' },
- ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 'sidney-powell': {
- name: 'Sidney Powell',
- title: 'Profile Under Review',
- role: 'Documented based on entity connections',
- riskLevel: 'medium',
- description: 'Sidney Powell. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Analysis of government records and financial disclosures has identified patterns related to Sidney Powell that warrant continued documentation and public scrutiny.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- { date: '2023-11-09', event: 'Initial records compiled from public financial disclosures and government databases' },
- { date: '2024-07-24', event: 'Cross-referenced against court records, regulatory filings, and related investigation files' },
- ],
- socialMedia: [],
- sources: [
- { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2023-11-09' },
- { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2024-07-24' },
- { title: 'Federal Court Records (PACER)', url: 'https://www.pacer.gov', date: '2025-04-09' },
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
  'scott-pruitt': {
  name: 'Scott Pruitt',
  title: 'Public Official',
@@ -836,37 +690,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
- 'samuel-alito': {
- name: 'Samuel Alito',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Samuel Alito. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
  'scott-atlas': {
  name: 'Scott Atlas',
  title: 'Profile Under Review',
@@ -3288,31 +3111,41 @@ const profiles: Record<string, IndividualProfile> = {
 
  'stephen-ubl': {
  name: 'Stephen Ubl',
- title: 'PhRMA president who leads industry lobbying machine spending $350M+ annually to block price controls',
- role: 'PhRMA president who leads industry lobbying machine spending $350M+ annually to block price controls',
- riskLevel: 'high',
- description: 'Stephen Ubl. Profile pending review.',
- education: [],
+ title: 'President and CEO of PhRMA',
+ role: 'Head of the pharmaceutical industry lobbying organization that spends over $350 million annually to block prescription drug price controls in the United States',
+ riskLevel: 'high' as const,
+ description: 'Stephen J. Ubl (born circa 1970) has served as President and CEO of the Pharmaceutical Research and Manufacturers of America (PhRMA) since 2015, leading the most powerful and best-funded lobbying organization in American healthcare. Under his leadership, PhRMA has spent over $350 million annually on lobbying, campaign contributions, and advocacy to prevent Medicare from negotiating drug prices, block drug importation from Canada, and extend patent monopolies. PhRMA member companies include Pfizer, Johnson and Johnson, Merck, AbbVie, and virtually every major pharmaceutical manufacturer. Before joining PhRMA, Ubl served as president and CEO of the Advanced Medical Technology Association (AdvaMed), another powerful industry lobbying group representing medical device manufacturers. His career has been entirely dedicated to advancing the commercial interests of healthcare corporations in Washington, making him one of the most influential figures in maintaining the American pharmaceutical pricing system that charges Americans 2-3 times more than any other developed nation for the same medications.',
+ education: ['Georgetown University (B.S.)', 'Georgetown University Law Center (J.D.)'],
  affiliations: [
- { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
+ { name: 'Pharmaceutical Research and Manufacturers of America (PhRMA)', role: 'President and CEO (2015-present); leads $350M+ annual lobbying operation to block drug price controls', type: 'organization' },
+ { name: 'Advanced Medical Technology Association (AdvaMed)', role: 'President and CEO (2005-2015); led medical device industry lobbying before moving to PhRMA', type: 'organization' },
  ],
  controversies: [
- 'Connected to 1 documented investigation',
- 'Third-party audit reports flagged irregularities in programs overseen by Stephen Ubl, though no formal investigation was initiated at the time.',
- 'Court documents from related proceedings reference Stephen Ubl as a key decision-maker during periods where regulatory violations were later documented.',
+ 'Leads the pharmaceutical lobbying organization that spends over $350 million annually to block Medicare drug price negotiation, drug importation, and price transparency legislation',
+ 'PhRMA under his leadership spent over $140 million in a single year opposing the Inflation Reduction Act provisions allowing Medicare to negotiate some drug prices',
+ 'Member companies continued to raise drug prices 3-5 times the rate of inflation while PhRMA lobbied against price caps',
+ 'Lobbied to extend patent monopolies and block generic competition through evergreening strategies that cost American patients billions',
+ 'PhRMA funded front groups and astroturf campaigns to create the appearance of grassroots opposition to drug pricing reform',
+ 'U.S. prescription drug prices remain 2-3 times higher than other developed nations in part due to PhRMA successful lobbying against price control legislation',
  ],
- charges: [],
  relatedInvestigations: [
- { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'high' },
+ { title: 'Pharmaceutical Price Gouging', slug: 'pharmaceutical-price-gouging', severity: 'critical' },
  ],
  timeline: [
- { date: 'Ongoing', event: 'Active in role as PhRMA president who leads industry lobbying machine spending $350M+ annually to block price controls' }, ],
- socialMedia: [],
+ { date: '2005', event: 'Becomes President and CEO of AdvaMed, leading medical device industry lobbying' },
+ { date: '2015-11', event: 'Appointed President and CEO of PhRMA, the pharmaceutical industry primary lobbying arm' },
+ { date: '2019', event: 'Leads PhRMA opposition to bipartisan drug pricing bills; PhRMA spends record amounts on lobbying' },
+ { date: '2021', event: 'Directs PhRMA campaign against Build Back Better Act pharmaceutical pricing provisions' },
+ { date: '2022', event: 'PhRMA spends $140M+ opposing Inflation Reduction Act; Medicare negotiation provision passes despite lobbying' },
+ { date: '2023', event: 'Files lawsuit challenging constitutionality of Medicare drug price negotiation provisions of the IRA' },
+ ],
  sources: [
- { title: 'Wikipedia: Stephen Ubl', url: 'https://en.wikipedia.org/wiki/Stephen_Ubl', date: '' }, ],
- aliases: [],
+ { title: 'OpenSecrets: PhRMA Lobbying Profile', url: 'https://www.opensecrets.org/orgs/phrma/summary?id=D000000504', date: '2024' },
+ { title: 'Stat News: PhRMA Spending and Lobbying Analysis', url: 'https://www.statnews.com/', date: '2023' },
+ ],
  knownAssociates: [
- { name: 'Karen Ignagni', relationship: 'Fellow healthcare industry lobbying figure', href: '/entities/individuals/karen-ignagni' },
+ { name: 'Billy Tauzin', relationship: 'Former PhRMA president (2005-2010) and predecessor who established the revolving-door pattern from Congress to industry lobbying', href: '/entities/individuals/billy-tauzin' },
+ { name: 'Karen Ignagni', relationship: 'Former CEO of AHIP (health insurance lobby) who worked alongside PhRMA in opposing healthcare reform', href: '/entities/individuals/karen-ignagni' },
  ],
  },
 
@@ -3446,46 +3279,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Joseph McCarthy', relationship: 'Senator who confronted McCarthy during Army hearings', href: '/entities/individuals/joseph-mccarthy' },
  ],
  },
-
-
-
-
-
-
- 'suharto': {
- name: 'Suharto',
- title: 'Indonesian dictator who ordered the invasion and 24-year occupation',
- role: 'Indonesian dictator who ordered the invasion and 24-year occupation',
- riskLevel: 'high',
- description: 'Suharto. Profile pending review.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Stuart Symington', type: 'organization' },
- ],
- controversies: [
- 'Connected to 2 documented investigations',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'East Timor Genocide', slug: 'east-timor-genocide', severity: 'high' },
- { title: 'Indonesia Mass Killings', slug: 'indonesia-mass-killings', severity: 'high' },
- ],
- timeline: [
- { date: 'Ongoing', event: 'Active in role as Indonesian dictator who ordered the invasion and 24-year occupation' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Wikipedia: Suharto', url: 'https://en.wikipedia.org/wiki/Suharto', date: '' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'Sukarno', relationship: 'Overthrew Sukarno in military coup backed by US', href: '/entities/individuals/sukarno' },
- { name: 'Robert Martens', relationship: 'US embassy staffer who gave communist kill lists to Suharto\'s army', href: '/entities/individuals/robert-martens' },
- { name: 'Marshall Green', relationship: 'US Ambassador who supported Suharto\'s rise', href: '/entities/individuals/marshall-green' },
- { name: 'Sarwo Edhie Wibowo', relationship: 'Army commander who led mass killings for Suharto', href: '/entities/individuals/sarwo-edhie-wibowo' },
- ],
- },
-
  'sukarno': {
  name: 'Sukarno',
  title: 'President of Indonesia who was gradually stripped of power by Suharto during the purge',
@@ -4778,18 +4571,504 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
+  'slobodan-milosevic': {
+    name: 'Slobodan Milosevic',
+    title: 'President of Serbia (1989-1997) and Yugoslavia (1997-2000)',
+    role: 'Architect of Yugoslav Wars and Ethnic Cleansing Campaigns',
+    riskLevel: 'critical',
+    description: 'Slobodan Milosevic orchestrated a series of wars across the former Yugoslavia throughout the 1990s, fueling ethnic nationalism that resulted in the deaths of over 140,000 people, the displacement of millions, and the worst atrocities in Europe since World War II. He was the first sitting head of state to be indicted for war crimes. He died during his trial at The Hague in 2006.',
+    birthDate: '1941-08-20',
+    birthPlace: 'Pozarevac, Serbia, Yugoslavia',
+    deathDate: '2006-03-11',
+    education: ['University of Belgrade - Faculty of Law'],
+    affiliations: [
+      { name: 'Republic of Serbia', role: 'President (1989-1997)', type: 'agency' },
+      { name: 'Federal Republic of Yugoslavia', role: 'President (1997-2000)', type: 'agency' },
+      { name: 'Socialist Party of Serbia', role: 'Founder and Leader', type: 'organization' },
+    ],
+    controversies: [
+      'Incited Serbian nationalism with 1989 Gazimestan speech exploiting Kosovo Polje mythology',
+      'Directed support for ethnic cleansing in Croatia (1991-1995) including Operation Storm displacement',
+      'Backed Bosnian Serb forces responsible for the Srebrenica genocide and Sarajevo siege',
+      'Ordered Operation Horseshoe - systematic ethnic cleansing of Kosovo Albanians displacing 800,000',
+      'First sitting head of state indicted by an international war crimes tribunal',
+      'Died in his cell at The Hague before verdict - found with unauthorized medications suggesting he deliberately sabotaged his own treatment to seek transfer to Moscow',
+      'Controlled Serbian media to spread propaganda dehumanizing Croats, Bosniaks, and Albanians',
+      'Orchestrated the destruction of autonomy for Kosovo and Vojvodina in the "Anti-Bureaucratic Revolution"',
+    ],
+    charges: [
+      { statute: 'ICTY - Genocide (Bosnia)', description: 'Charged with genocide and complicity in genocide for campaign to destroy Bosnian Muslim population', category: 'Genocide' },
+      { statute: 'ICTY - Crimes Against Humanity (Croatia)', description: 'Persecution, extermination, murder, imprisonment, torture, deportation', category: 'Crimes Against Humanity' },
+      { statute: 'ICTY - Crimes Against Humanity (Kosovo)', description: 'Deportation, murder, persecution of Kosovo Albanians during 1999 campaign', category: 'Crimes Against Humanity' },
+      { statute: 'ICTY - War Crimes (Articles 2, 3)', description: 'Murder, willful killing, unlawful confinement, wanton destruction across all three indictments', category: 'War Crimes' },
+    ],
+    relatedInvestigations: [
+      { title: 'Bosnian Genocide and Srebrenica Massacre', slug: 'bosnian-genocide', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1941-08-20', event: 'Born in Pozarevac, Serbia' },
+      { date: '1989-06-28', event: 'Delivers inflammatory Gazimestan speech to 1 million Serbs at Kosovo Polje' },
+      { date: '1991', event: 'Croatian War of Independence begins; Serbian paramilitaries carry out ethnic cleansing' },
+      { date: '1992', event: 'Bosnian War begins; Milosevic supports Bosnian Serb forces' },
+      { date: '1995-07', event: 'Srebrenica genocide occurs under forces he supported' },
+      { date: '1998-1999', event: 'Kosovo War; NATO bombing campaign against Yugoslavia' },
+      { date: '1999-05-24', event: 'Indicted by ICTY for crimes against humanity in Kosovo' },
+      { date: '2000-10-05', event: 'Overthrown in popular uprising' },
+      { date: '2001-06-28', event: 'Transferred to ICTY custody at The Hague' },
+      { date: '2006-03-11', event: 'Found dead in his cell before verdict; trial terminated' },
+    ],
+    sources: [
+      { title: 'ICTY - Prosecutor v. Milosevic (IT-02-54)', url: 'https://www.icty.org/en/case/slobodan_milosevic', date: '2006' },
+    ],
+    aliases: ['Butcher of the Balkans'],
+    knownAssociates: [
+      { name: 'Radovan Karadzic', relationship: 'Bosnian Serb leader he politically and militarily supported', href: '/individuals/radovan-karadzic' },
+      { name: 'Ratko Mladic', relationship: 'VRS Commander who executed military operations', href: '/individuals/ratko-mladic' },
+    ],
+  },
+  'suharto': {
+    name: 'Suharto',
+    title: 'President of Indonesia (1967-1998)',
+    role: 'Dictator Who Oversaw Mass Killings of 500,000-1,000,000 People',
+    riskLevel: 'critical',
+    description: 'General Suharto seized power in Indonesia through the anti-communist purge of 1965-66 that killed between 500,000 and 1,000,000 people. He ruled as authoritarian president for 31 years, during which he ordered the invasion and occupation of East Timor (killing 100,000-180,000), suppressed West Papuan independence, and presided over a kleptocratic regime that stole an estimated $15-35 billion.',
+    birthDate: '1921-06-08',
+    birthPlace: 'Kemusuk, Java, Dutch East Indies',
+    deathDate: '2008-01-27',
+    education: ['Dutch-era military academy', 'Indonesian Army officer training'],
+    affiliations: [
+      { name: 'Republic of Indonesia', role: 'President (1967-1998)', type: 'agency' },
+      { name: 'Indonesian Armed Forces (ABRI/TNI)', role: 'Commanding General (1965-1967)', type: 'agency' },
+      { name: 'Golkar Party', role: 'De facto leader', type: 'organization' },
+    ],
+    controversies: [
+      'Orchestrated the 1965-66 anti-communist purge that killed 500,000-1,000,000 people including ethnic Chinese',
+      'CIA provided lists of PKI members to Indonesian military for targeted killings',
+      'Ordered the 1975 invasion and occupation of East Timor causing 100,000-180,000 deaths (one-third of population)',
+      'Santa Cruz massacre (1991) - Indonesian troops killed 250+ unarmed East Timorese protesters',
+      'Suppressed West Papuan independence movement with military operations killing tens of thousands',
+      'Stole an estimated $15-35 billion - ranked by Transparency International as most corrupt leader in modern history',
+      'Trisakti shootings (1998) - security forces killed 4 students during protests that led to his resignation',
+      'May 1998 riots targeted ethnic Chinese civilians - over 1,000 killed, mass sexual violence',
+    ],
+    charges: [
+      { statute: 'Indonesian Criminal Code - Mass Murder', description: 'Directed anti-communist purge killing 500,000-1,000,000 people in 1965-66', category: 'Mass Murder' },
+      { statute: 'Geneva Conventions - War Crimes (East Timor)', description: 'Invasion and occupation of East Timor causing 100,000-180,000 civilian deaths', category: 'War Crimes' },
+      { statute: 'UN Convention Against Corruption', description: 'Systematic theft of $15-35 billion from Indonesian state', category: 'Grand Corruption' },
+      { statute: 'Crime Against Humanity - Extermination', description: 'Organized mass killing of communists and ethnic Chinese', category: 'Crimes Against Humanity' },
+    ],
+    relatedInvestigations: [
+      { title: 'Indonesian Mass Killings 1965-66', slug: 'indonesian-mass-killings-1965', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1921-06-08', event: 'Born in Kemusuk, Java, Dutch East Indies' },
+      { date: '1965-10-01', event: '30 September Movement; Suharto seizes military control' },
+      { date: '1965-10', event: 'Anti-communist purge begins; 500,000-1,000,000 killed over following months' },
+      { date: '1967-03-12', event: 'Formally becomes President of Indonesia' },
+      { date: '1975-12-07', event: 'Orders invasion of East Timor (Operation Seroja)' },
+      { date: '1991-11-12', event: 'Santa Cruz massacre in East Timor kills 250+ unarmed protesters' },
+      { date: '1998-05-12', event: 'Trisakti shootings kill 4 students during pro-democracy protests' },
+      { date: '1998-05-21', event: 'Resigns as president after 31 years' },
+      { date: '2008-01-27', event: 'Dies without facing trial for any crimes' },
+    ],
+    sources: [
+      { title: 'The Act of Killing - Documentary by Joshua Oppenheimer', url: 'https://theactofkilling.com/', date: '2012' },
+      { title: 'UN Commission on East Timor (CAVR) Report', url: 'https://www.etan.org/etanpdf/2006/CAVR/Chega!-Report-Full.pdf', date: '2005' },
+    ],
+    aliases: ['The Smiling General', 'Father of Development (Bapak Pembangunan)'],
+    knownAssociates: [],
+  },
+  'joseph-stalin': {
+    name: 'Joseph Stalin',
+    title: 'Premier of the Soviet Union (1924-1953)',
+    role: 'Dictator Responsible for Deaths of Millions Through Famine, Purges, and Forced Labor',
+    riskLevel: 'critical',
+    description: 'Joseph Stalin ruled the Soviet Union for nearly three decades through a reign of terror that killed an estimated 6-20 million people. He engineered the Holodomor famine in Ukraine (3.5-7.5 million dead), conducted the Great Purge executing 750,000 and imprisoning millions in the Gulag system, forcibly deported entire ethnic populations, and established a totalitarian surveillance state.',
+    birthDate: '1878-12-18',
+    birthPlace: 'Gori, Georgia, Russian Empire',
+    deathDate: '1953-03-05',
+    education: ['Tbilisi Spiritual Seminary (expelled)'],
+    affiliations: [
+      { name: 'Communist Party of the Soviet Union', role: 'General Secretary (1922-1952)', type: 'organization' },
+      { name: 'Soviet Government', role: 'Premier / Chairman of the Council of Ministers (1941-1953)', type: 'agency' },
+      { name: 'NKVD / KGB', role: 'Directed the secret police apparatus', type: 'agency' },
+    ],
+    controversies: [
+      'Engineered the Holodomor in Ukraine (1932-33) - forced collectivization and grain confiscation killed 3.5-7.5 million Ukrainians',
+      'Great Purge (1936-38) - executed approximately 750,000 people and sentenced over 1 million to Gulag camps',
+      'Gulag system imprisoned an estimated 18 million people total; 1.5-1.8 million died in the camps',
+      'Forcibly deported entire ethnic groups: Chechens, Ingush, Crimean Tatars, Volga Germans, Kalmyks - hundreds of thousands died during transport and exile',
+      'Katyn massacre (1940) - ordered execution of 22,000 Polish military officers, police, and intellectuals',
+      'Forced collectivization (1928-33) destroyed traditional farming, causing widespread famine beyond Ukraine',
+      'Molotov-Ribbentrop Pact (1939) - secretly agreed with Nazi Germany to partition Poland and the Baltics',
+      'Established totalitarian control through show trials, forced confessions, and systematic elimination of perceived enemies',
+    ],
+    charges: [
+      { statute: 'UN Genocide Convention (Retroactive Analysis)', description: 'The Holodomor recognized as genocide by over 30 countries - deliberate starvation of Ukrainian population', category: 'Genocide' },
+      { statute: 'Crimes Against Humanity - Extermination', description: 'Great Purge execution of 750,000 people and mass imprisonment in Gulag system', category: 'Crimes Against Humanity' },
+      { statute: 'War Crimes - Katyn Massacre', description: 'Execution of 22,000 Polish prisoners of war and civilians at Katyn Forest', category: 'War Crimes' },
+      { statute: 'Crimes Against Humanity - Deportation', description: 'Forced displacement of entire ethnic populations including Chechens, Crimean Tatars, and others', category: 'Crimes Against Humanity' },
+    ],
+    relatedInvestigations: [
+      { title: 'Holodomor - Ukraine Engineered Famine', slug: 'holodomor-ukraine-famine', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1878-12-18', event: 'Born Ioseb Jughashvili in Gori, Georgia' },
+      { date: '1922', event: 'Becomes General Secretary of the Communist Party' },
+      { date: '1924', event: 'Consolidates power after Lenin\'s death' },
+      { date: '1928', event: 'Launches forced collectivization campaign' },
+      { date: '1932-1933', event: 'Holodomor: engineered famine kills 3.5-7.5 million Ukrainians' },
+      { date: '1936-1938', event: 'Great Purge: 750,000 executed, millions sent to Gulags' },
+      { date: '1940-04', event: 'Orders Katyn massacre of 22,000 Polish prisoners' },
+      { date: '1944', event: 'Deports entire Chechen and Crimean Tatar populations' },
+      { date: '1953-03-05', event: 'Dies at Kuntsevo Dacha' },
+    ],
+    sources: [
+      { title: 'The Great Terror by Robert Conquest', url: 'https://www.penguinrandomhouse.com/books/55075/the-great-terror-by-robert-conquest/', date: '2007' },
+      { title: 'Bloodlands: Europe Between Hitler and Stalin by Timothy Snyder', url: 'https://timothysnyder.org/bloodlands', date: '2010' },
+    ],
+    aliases: ['Man of Steel', 'Koba', 'Ioseb Jughashvili'],
+    knownAssociates: [],
+  },
+  'samuel-alito': {
+    name: 'Samuel Alito',
+    title: 'Associate Justice of the U.S. Supreme Court',
+    role: 'Supreme Court justice who accepted undisclosed luxury trips from billionaire Paul Singer while Singer had cases before the court, and authored the Dobbs opinion overturning Roe v. Wade',
+    riskLevel: 'critical',
+    description: 'Samuel Anthony Alito Jr. has served as an Associate Justice of the U.S. Supreme Court since 2006. ProPublica revealed in 2023 that Alito took a luxury fishing trip to Alaska in 2008 on a private jet provided by billionaire hedge fund manager Paul Singer, who had business before the Supreme Court. Alito did not recuse from cases involving Singer\'s hedge fund, Elliott Management, and voted in Singer\'s favor in a 2014 case (Republic of Argentina v. NML Capital) where Singer\'s fund stood to gain $2.4 billion. Alito never disclosed the trip on his financial disclosure forms. Alito authored the majority opinion in Dobbs v. Jackson Women\'s Health Organization (2022), overturning Roe v. Wade and eliminating the constitutional right to abortion after nearly 50 years. A draft of the Dobbs opinion was leaked to Politico in May 2022, and investigators were unable to identify the source. An upside-down American flag was displayed outside Alito\'s home in January 2021, a symbol associated with the "Stop the Steal" movement.',
+    birthDate: 'April 1, 1950',
+    birthPlace: 'Trenton, New Jersey',
+    education: ['Princeton University (A.B.)', 'Yale Law School (J.D.)'],
+    affiliations: [
+      { name: 'U.S. Supreme Court', role: 'Associate Justice', type: 'agency' as const },
+      { name: 'Third Circuit Court of Appeals', role: 'Judge', type: 'organization' as const },
+    ],
+    controversies: [
+      'Accepted undisclosed luxury fishing trip from billionaire Paul Singer who had cases before the court',
+      'Did not recuse from Singer\'s $2.4 billion Argentina case; voted in Singer\'s favor',
+      'Authored Dobbs opinion overturning Roe v. Wade after nearly 50 years',
+      'Upside-down American flag displayed at home during January 6 period',
+      'Appeal to Heaven flag flown at vacation home, associated with Christian nationalist movement',
+      'Blamed wife for flag displays in Senate testimony',
+    ],
+    charges: [
+      { statute: '5 U.S.C. App. 101-111', description: 'Failure to disclose gifts on annual financial disclosure reports (Ethics in Government Act - not criminally charged)', category: 'federal' },
+      { statute: '28 U.S.C. 455', description: 'Failure to recuse from cases where impartiality questioned (not enforced for SCOTUS)', category: 'federal' },
+    ],
+    relatedInvestigations: ['/investigations/supreme-court-ethics-crisis'],
+    timeline: [
+      { date: '2006-01-31', event: 'Confirmed to Supreme Court 58-42' },
+      { date: '2008', event: 'Takes luxury fishing trip to Alaska on Paul Singer\'s private jet' },
+      { date: '2014-06-16', event: 'Votes in Singer\'s favor in Republic of Argentina v. NML Capital' },
+      { date: '2021-01', event: 'Upside-down American flag displayed at home' },
+      { date: '2022-05-02', event: 'Draft Dobbs opinion leaked to Politico' },
+      { date: '2022-06-24', event: 'Dobbs v. Jackson: Roe v. Wade overturned' },
+      { date: '2023-06-20', event: 'ProPublica reveals undisclosed Singer trip' },
+    ],
+    sources: [
+      { title: 'ProPublica: Samuel Alito and the Billionaire', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Paul Singer', relationship: 'Billionaire hedge fund manager who provided luxury travel' },
+      { name: 'Leonard Leo', relationship: 'Federalist Society leader; dark money network' },
+      { name: 'Clarence Thomas', relationship: 'Fellow justice facing similar ethics scrutiny', href: '/entities/individuals/clarence-thomas' },
+    ],
+  },
+  'steve-bannon': {
+    name: 'Steve Bannon',
+    title: 'Former White House Chief Strategist',
+    role: 'Trump strategist convicted of contempt of Congress for defying January 6 subpoena and fraud charges for We Build the Wall scheme',
+    riskLevel: 'critical',
+    description: 'Stephen Kevin Bannon served as White House Chief Strategist from January to August 2017. He was executive chairman of Breitbart News. In 2020, Bannon was arrested on a 150-foot yacht and charged with fraud related to the "We Build the Wall" fundraising campaign, which raised over $25 million from donors who were told 100% would go to building a border wall. Prosecutors alleged Bannon siphoned over $1 million for personal expenses. Trump pardoned Bannon in January 2021 before he went to trial. Manhattan DA Alvin Bragg subsequently brought state charges for the same scheme. In October 2022, Bannon was convicted of two counts of contempt of Congress for defying a subpoena from the January 6 Committee and sentenced to 4 months in prison. He reported to federal prison in July 2024. Bannon has promoted "deconstruction of the administrative state" and white nationalist adjacent ideology through media platforms.',
+    birthDate: 'November 27, 1953',
+    birthPlace: 'Norfolk, Virginia',
+    education: ['Virginia Tech (B.A.)', 'Georgetown University (M.A.)', 'Harvard Business School (M.B.A.)'],
+    affiliations: [
+      { name: 'White House', role: 'Chief Strategist', type: 'agency' as const },
+      { name: 'Breitbart News', role: 'Executive Chairman', type: 'organization' as const },
+      { name: 'Trump 2016 Campaign', role: 'Campaign CEO', type: 'organization' as const },
+    ],
+    controversies: [
+      'Convicted of contempt of Congress for defying January 6 Committee subpoena',
+      'Charged with fraud in We Build the Wall scheme ($25M+ raised, $1M+ siphoned)',
+      'Pardoned by Trump on federal charges before trial; state charges followed',
+      'Promoted white nationalist adjacent content through Breitbart News',
+      'Called for "deconstruction of the administrative state"',
+    ],
+    charges: [
+      { statute: '2 U.S.C. 192', description: 'Contempt of Congress - refusal to comply with January 6 Committee subpoena (convicted)', category: 'federal' },
+      { statute: '18 U.S.C. 1343', description: 'Wire fraud conspiracy - We Build the Wall scheme (pardoned on federal charges)', category: 'federal' },
+      { statute: 'NY Penal Law 155.40', description: 'Money laundering and fraud charges (New York state - pending)', category: 'state' },
+    ],
+    relatedInvestigations: ['/investigations/january-6-insurrection'],
+    timeline: [
+      { date: '2016-08-17', event: 'Named Trump campaign CEO' },
+      { date: '2017-01-20', event: 'Appointed White House Chief Strategist' },
+      { date: '2017-08-18', event: 'Fired from White House' },
+      { date: '2020-08-20', event: 'Arrested on yacht for We Build the Wall fraud' },
+      { date: '2021-01-20', event: 'Pardoned by Trump on federal fraud charges' },
+      { date: '2022-10-21', event: 'Convicted of contempt of Congress; sentenced to 4 months' },
+      { date: '2024-07-01', event: 'Reports to federal prison' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Stephen K. Bannon', url: 'https://www.justice.gov/usao-dc/united-states-v-stephen-k-bannon', date: '2022' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who appointed and later pardoned him', href: '/entities/individuals/donald-trump' },
+      { name: 'Brian Kolfage', relationship: 'Co-defendant in We Build the Wall fraud' },
+    ],
+  },
+  'sidney-powell': {
+    name: 'Sidney Powell',
+    title: 'Former Federal Prosecutor and Trump Campaign Attorney',
+    role: 'Attorney who promoted election conspiracy theories, indicted in Georgia RICO case, pleaded guilty to reduced charges',
+    riskLevel: 'high',
+    description: 'Sidney Katherine Powell is a former federal prosecutor who became a prominent figure in the effort to overturn the 2020 presidential election results. She publicly claimed that voting machines were part of a vast international conspiracy involving Venezuela, Cuba, and China. She filed multiple lawsuits challenging election results that were dismissed by courts. She was briefly part of Trump\'s legal team. Powell was indicted in August 2023 in the Fulton County, Georgia RICO case alongside Trump and 17 other defendants, charged with conspiracy to commit election fraud for her role in the January 2021 breach of election equipment in Coffee County, Georgia. In October 2023, she pleaded guilty to six misdemeanor counts of conspiracy to commit intentional interference with performance of election duties. As part of her plea deal, she agreed to testify against co-defendants, pay $6,000 in fines and restitution, serve six years probation, and write an apology letter.',
+    birthDate: 'May 1, 1955',
+    birthPlace: 'Durham, North Carolina',
+    education: ['University of North Carolina at Chapel Hill (B.A.)', 'University of North Carolina School of Law (J.D.)'],
+    affiliations: [
+      { name: 'Trump Campaign Legal Team', role: 'Attorney', type: 'organization' as const },
+      { name: 'Defending the Republic PAC', role: 'Founder', type: 'organization' as const },
+    ],
+    controversies: [
+      'Promoted conspiracy theories about Venezuelan-controlled voting machines',
+      'Filed multiple frivolous lawsuits challenging 2020 election results - all dismissed',
+      'Named in $1.3 billion Dominion Voting Systems defamation lawsuit',
+      'Indicted in Georgia RICO case for election interference conspiracy',
+      'Pleaded guilty to 6 misdemeanor counts; agreed to testify against co-defendants',
+    ],
+    charges: [
+      { statute: 'O.C.G.A. 16-14-4', description: 'RICO conspiracy - violation of Georgia Racketeer Influenced and Corrupt Organizations Act (original charge)', category: 'state' },
+      { statute: 'O.C.G.A. 21-2-575', description: 'Conspiracy to commit intentional interference with performance of election duties (6 counts - guilty plea)', category: 'state' },
+    ],
+    relatedInvestigations: ['/investigations/january-6-insurrection'],
+    timeline: [
+      { date: '2020-11', event: 'Joins Trump legal team promoting election fraud claims' },
+      { date: '2020-11-22', event: 'Trump campaign distances itself from Powell' },
+      { date: '2021-01-07', event: 'Involved in Coffee County, GA election equipment breach' },
+      { date: '2023-08-14', event: 'Indicted in Fulton County RICO case' },
+      { date: '2023-10-19', event: 'Pleads guilty to 6 misdemeanor counts' },
+    ],
+    sources: [
+      { title: 'Fulton County DA: State v. Trump et al.', url: 'https://www.fultoncountyga.gov/news/2023/08/14/fulton-county-district-attorney', date: '2023' },
+    ],
+    aliases: ['Kraken'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Co-defendant in Georgia RICO case', href: '/entities/individuals/donald-trump' },
+      { name: 'Rudy Giuliani', relationship: 'Co-counsel in election challenges', href: '/entities/individuals/rudy-giuliani' },
+      { name: 'Michael Flynn', relationship: 'Client; represented in federal case' },
+    ],
+  },
+  'sam-bankman-fried': {
+    name: 'Sam Bankman-Fried',
+    title: 'Founder and CEO, FTX',
+    role: 'Cryptocurrency executive convicted of $32 billion fraud',
+    riskLevel: 'critical',
+    description: 'Sam Bankman-Fried founded FTX in 2019 and built it into the third-largest cryptocurrency exchange before its collapse in November 2022 revealed a massive fraud. He was convicted on seven counts of fraud, conspiracy, and money laundering in November 2023 after evidence showed he stole billions in customer deposits to fund speculative trading by his hedge fund Alameda Research, personal real estate purchases, and over $40 million in political donations. Sentenced to 25 years in federal prison.',
+    birthDate: 'March 6, 1992',
+    birthPlace: 'Stanford, California',
+    education: ['MIT (B.S. Physics, B.S. Mathematics, 2014)'],
+    affiliations: [
+      { name: 'FTX', role: 'CEO and Co-Founder', type: 'corporation' as const },
+      { name: 'Alameda Research', role: 'Founder', type: 'corporation' as const },
+    ],
+    controversies: [
+      'Stole approximately $8 billion in FTX customer deposits to fund Alameda Research trading losses',
+      'Donated $40 million to political campaigns using misappropriated customer funds',
+      'FTX had virtually no financial controls; billions tracked on spreadsheets',
+      'Used customer funds for personal real estate including $30M Bahamas penthouse',
+      'Misled investors about FTX financial health and risk management',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1343', description: 'Wire Fraud (multiple counts)', category: 'Financial Crime' },
+      { statute: '18 U.S.C. 1349', description: 'Conspiracy to Commit Wire Fraud', category: 'Financial Crime' },
+      { statute: '18 U.S.C. 1957', description: 'Money Laundering', category: 'Financial Crime' },
+      { statute: '18 U.S.C. 371', description: 'Conspiracy to Defraud the United States', category: 'Financial Crime' },
+      { statute: '52 U.S.C. 30109', description: 'Campaign Finance Violations', category: 'Election Law' },
+    ],
+    relatedInvestigations: ['cryptocurrency-fraud-deregulation'],
+    timeline: [
+      { date: '2017', event: 'Founded Alameda Research, a quantitative trading firm' },
+      { date: '2019', event: 'Founded FTX cryptocurrency exchange in the Bahamas' },
+      { date: 'November 2022', event: 'FTX collapsed after Binance revealed FTT token vulnerability; $8B customer shortfall discovered' },
+      { date: 'December 2022', event: 'Arrested in Bahamas; extradited to U.S.; charged with 8 criminal counts' },
+      { date: 'November 2023', event: 'Convicted on all 7 counts after month-long trial in SDNY' },
+      { date: 'March 2024', event: 'Sentenced to 25 years in federal prison by Judge Lewis Kaplan' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Bankman-Fried', url: 'https://www.justice.gov/usao-sdny/united-states-v-samuel-bankman-fried', date: '2023' },
+    ],
+    aliases: ['SBF'],
+    knownAssociates: [
+      { name: 'Caroline Ellison', relationship: 'CEO of Alameda Research; cooperating witness; sentenced to 2 years' },
+      { name: 'Gary Wang', relationship: 'FTX co-founder and CTO; cooperating witness' },
+      { name: 'Nishad Singh', relationship: 'FTX Director of Engineering; cooperating witness' },
+    ],
+  },
+  'stephen-miller': {
+    name: 'Stephen Miller',
+    title: 'Senior Advisor to the President / Deputy Chief of Staff',
+    role: 'Political Advisor',
+    riskLevel: 'high' as const,
+    description: 'Senior advisor to President Trump (2017-2021) and Deputy Chief of Staff for Policy (2025-present) who is the primary architect of the administration\'s hardline immigration policies. Designed the Muslim travel ban, family separation policy, and systematic dismantling of refugee and asylum protections. Leaked emails published by the Southern Poverty Law Center revealed he promoted white nationalist websites, literature, and conspiracy theories to Breitbart editors. The most influential immigration hardliner in modern American politics, responsible for policies that separated thousands of families and slashed legal immigration to historic lows.',
+    birthDate: '1985-08-23',
+    birthPlace: 'Santa Monica, California',
+    education: ['B.A. in Political Science, Duke University (2007)'],
+    affiliations: [
+      { name: 'White House', role: 'Senior Advisor to the President (2017-2021); Deputy Chief of Staff for Policy (2025-Present)', type: 'agency' as const },
+      { name: 'America First Legal', role: 'Founder and President (2021-2024)', type: 'organization' as const },
+    ],
+    controversies: [
+      'Primary architect of Muslim travel ban executive order that caused chaos at airports and was repeatedly blocked by courts',
+      'Designed the family separation policy that deliberately took over 5,500 children from parents at the border',
+      'Leaked emails revealed promotion of white nationalist websites like VDARE and American Renaissance to Breitbart editors',
+      'Slashed refugee admissions from 110,000 to 15,000 — the lowest level in the history of the program',
+      'Pushed for ending DACA and TPS protections affecting hundreds of thousands of longtime U.S. residents',
+      'Advocated for dramatic reductions in legal immigration including cutting family-based and diversity visas',
+      'Drafted executive orders with disregard for legal review leading to repeated court defeats',
+      'Founded America First Legal to sue over Biden immigration policies after leaving first Trump term',
+      'In second Trump term (2025), overseeing mass deportation operations and immigration enforcement expansion',
+    ],
+    charges: [
+      {
+        statute: 'Civil Rights Act / Equal Protection',
+        description: 'Muslim travel ban found by multiple federal courts to constitute religious discrimination; Supreme Court upheld narrowed version on national security grounds',
+        category: 'constitutional',
+      },
+      {
+        statute: 'UN Convention on the Rights of the Child',
+        description: 'Family separation policy he designed constituted cruel treatment of children per international human rights standards',
+        category: 'human-rights',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Immigration Detention Abuse and Family Separation', slug: 'immigration-detention-abuse', severity: 'critical' },
+      { title: 'Homeland Security Mission Creep and Civil Liberties', slug: 'homeland-security-mission-creep', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2007', event: 'Joins office of Rep. Michele Bachmann; begins career in hardline immigration politics' },
+      { date: '2009', event: 'Becomes communications director for Senator Jeff Sessions; helps defeat immigration reform' },
+      { date: '2016', event: 'Joins Trump presidential campaign; shapes immigration and nationalist messaging' },
+      { date: '2017-01-27', event: 'Muslim travel ban executive order signed; causes chaos at airports worldwide' },
+      { date: '2017-2018', event: 'Designs family separation policy and zero tolerance enforcement approach' },
+      { date: '2018-06', event: 'Family separation crisis; thousands of children taken from parents under policy Miller designed' },
+      { date: '2019-11', event: 'Southern Poverty Law Center publishes leaked emails showing promotion of white nationalist content' },
+      { date: '2020', event: 'Slashes refugee admissions to historic low of 15,000' },
+      { date: '2021', event: 'Founds America First Legal to continue immigration hard-line from outside government' },
+      { date: '2025-01', event: 'Returns to White House as Deputy Chief of Staff for Policy; oversees mass deportation operations' },
+    ],
+    sources: [
+      { title: 'SPLC: Stephen Miller Leaked Emails', url: 'https://www.splcenter.org/stephen-miller-breitbart-emails', date: '2019' },
+      { title: 'DOJ OIG: Review of Family Separation Policy', url: 'https://oig.justice.gov/', date: '2021' },
+      { title: 'Atlantic: Stephen Miller\'s Immigration Influence', url: 'https://www.theatlantic.com/', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Jeff Sessions', relationship: 'Former boss in Senate; mentor in immigration hard-line politics', href: '/entities/individuals/jeff-sessions' },
+      { name: 'Thomas Homan', relationship: 'ICE Director who implemented Miller\'s enforcement vision', href: '/entities/individuals/thomas-homan' },
+      { name: 'Donald Trump', relationship: 'President who empowered Miller as chief immigration policy architect', href: '/entities/individuals/donald-trump' },
+      { name: 'Steve Bannon', relationship: 'White House chief strategist and fellow nationalist policy advocate', href: '/entities/individuals/steve-bannon' },
+    ],
+  },
+  'scott-pruitt': {
+    name: 'Scott Pruitt',
+    title: 'Former EPA Administrator',
+    role: 'Regulatory Dismantler and Ethics Violator',
+    riskLevel: 'high' as const,
+    description: 'Scott Pruitt served as EPA Administrator from 2017 to 2018, systematically rolling back environmental regulations while accumulating ethics scandals that included a $50-per-night condo deal from a lobbyist, first-class travel costing taxpayers over $100,000, and using staff to seek personal favors including a Chick-fil-A franchise for his wife.',
+    birthDate: '1968-05-09',
+    birthPlace: 'Danville, Kentucky',
+    education: [
+      'B.A., Georgetown College (1990)',
+      'J.D., University of Tulsa College of Law (1993)',
+    ],
+    affiliations: [
+      { name: 'EPA', role: 'Administrator (2017-2018)', type: 'agency' as const },
+      { name: 'Oklahoma Attorney General', role: 'Attorney General (2011-2017)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Rented condo from energy lobbyist at $50/night, well below market rate, while making regulatory decisions benefiting the lobbyist clients',
+      'First-class travel costing taxpayers over $100,000 justified by claiming security threats that were never substantiated',
+      'Directed EPA staff to seek personal employment and financial opportunities including a Chick-fil-A franchise for his wife',
+      'Installed a $43,000 soundproof phone booth in his office without congressional approval',
+      'Rolled back over 20 environmental regulations during his tenure including Clean Power Plan, methane emission rules, and vehicle efficiency standards',
+      'Maintained a secret calendar and conducted official meetings off the books to avoid FOIA disclosure',
+      'As Oklahoma AG, copied oil and gas company letters verbatim and submitted them as official state correspondence to federal regulators',
+    ],
+    relatedInvestigations: [
+      { title: 'EPA Regulatory Capture', slug: 'epa-regulatory-capture-exposed', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2011', event: 'Became Oklahoma Attorney General; filed 14 lawsuits against EPA' },
+      { date: '2017-02', event: 'Confirmed as EPA Administrator in 52-46 Senate vote' },
+      { date: '2017-03', event: 'Began rolling back Clean Power Plan and methane emission rules' },
+      { date: '2017-09', event: 'First-class travel expenses and security detail costs revealed' },
+      { date: '2018-03', event: 'Lobbyist condo rental deal exposed by ABC News' },
+      { date: '2018-06', event: 'Staff Chick-fil-A request and mattress shopping revelations' },
+      { date: '2018-07', event: 'Resigned under pressure from 14 separate federal investigations' },
+    ],
+    sources: [
+      { title: 'GAO: Pruitt Soundproof Booth Violated Spending Law', date: '2018' },
+      { title: 'EPA OIG: Investigation of Administrator Travel and Security', date: '2018' },
+      { title: 'Senate EPW Committee: Pruitt Ethics Investigation Records', date: '2018' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'President who appointed Pruitt and initially defended him despite scandals', href: '/entities/individuals/donald-trump' },
+      { name: 'Andrew Wheeler', relationship: 'Deputy who replaced Pruitt and continued deregulatory agenda with fewer scandals', href: '/entities/individuals/andrew-wheeler' },
+    ],
+  },
+  'steve-mnuchin': {
+    name: 'Steve Mnuchin',
+    title: 'Former Secretary of the Treasury',
+    role: 'Goldman Sachs Banker Who Profited from Foreclosure Crisis',
+    riskLevel: 'high' as const,
+    description: 'Steve Mnuchin served as Treasury Secretary from 2017 to 2021 after building his fortune partly through OneWest Bank, which earned the nickname "foreclosure machine" for aggressively evicting homeowners during the financial crisis. As Treasury Secretary, he championed the 2017 tax cuts that disproportionately benefited the wealthy and corporations while adding $1.9 trillion to the national debt.',
+    birthDate: '1962-12-21',
+    birthPlace: 'New York City, New York',
+    education: [
+      'B.A., Yale University (1985)',
+    ],
+    affiliations: [
+      { name: 'Department of the Treasury', role: 'Secretary (2017-2021)', type: 'agency' as const },
+      { name: 'Goldman Sachs', role: 'Partner (1985-2002)', type: 'corporation' as const },
+      { name: 'OneWest Bank', role: 'Chairman and CEO (2009-2015)', type: 'corporation' as const },
+    ],
+    controversies: [
+      'OneWest Bank foreclosed on over 36,000 homeowners including elderly residents over minor payment discrepancies and one case involving a 27-cent error',
+      'California AG Kamala Harris staff recommended filing civil charges over OneWest foreclosure practices; Harris declined to prosecute',
+      'Championed the 2017 Tax Cuts and Jobs Act that added $1.9 trillion to national debt while providing 83% of benefits to the top 1% by 2027',
+      'Used government aircraft for personal travel including a trip to Fort Knox timed to view the solar eclipse; requested military jet for honeymoon in Europe',
+      'Failed to disclose $100 million in assets on his Senate confirmation disclosure forms; corrected after public scrutiny',
+      'Oversaw a Treasury Department that slow-walked Russian sanctions mandated by bipartisan congressional legislation',
+      'After leaving office, received $2 billion from Saudi Arabias sovereign wealth fund for his new investment firm despite no track record managing outside capital',
+    ],
+    relatedInvestigations: [
+      { title: 'Predatory Lending Post-Crisis', slug: 'predatory-lending-post-crisis', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2009', event: 'Purchased failed IndyMac bank; renamed it OneWest; FDIC loss-share guarantee backstopped losses' },
+      { date: '2015', event: 'Sold OneWest to CIT Group for $3.4 billion; personal profit estimated at $200+ million' },
+      { date: '2017-02', event: 'Confirmed as Treasury Secretary after contentious hearing about foreclosure practices' },
+      { date: '2017-12', event: 'Tax Cuts and Jobs Act signed; Mnuchin claimed it would "pay for itself" through growth' },
+      { date: '2017-08', event: 'Used government plane to fly to Fort Knox during solar eclipse; Treasury OIG investigated' },
+      { date: '2021-01', event: 'Left office as national debt increased by $7.8 trillion during Trumps term' },
+      { date: '2022', event: 'Saudi PIF committed $2 billion to Mnuchins new fund despite advisory board objections' },
+    ],
+    sources: [
+      { title: 'CRC/NCRC: OneWest Foreclosure Investigation', date: '2016' },
+      { title: 'Treasury OIG: Review of Secretary Mnuchin Travel', date: '2017' },
+      { title: 'New York Times: Mnuchin Saudi Investment Fund', url: 'https://www.nytimes.com/', date: '2022' },
+    ],
+    aliases: ['The Foreclosure King'],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'National finance chairman of 2016 campaign; served as Treasury Secretary for full term', href: '/entities/individuals/donald-trump' },
+      { name: 'Jared Kushner', relationship: 'Fellow Trump official who also received $2 billion Saudi investment after leaving government', href: '/entities/individuals/jared-kushner' },
+    ],
+  },
 };
 
 export default profiles;

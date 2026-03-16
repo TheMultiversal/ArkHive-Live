@@ -101,32 +101,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'konstantin-kilimnik': {
  name: 'Konstantin Viktorovych Kilimnik',
  title: 'Russian Intelligence Asset',
@@ -182,31 +156,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Campaign data recipient via Manafort', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'kurt-volker': {
@@ -405,31 +354,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'kellyanne-conway': {
  name: 'Kellyanne Elizabeth Conway',
  title: 'Former Senior Counselor to the President',
@@ -479,31 +403,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'George Conway', relationship: 'Ex-husband, Trump critic (divorced 2024)', href: '/entities/individuals/george-conway' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'keith-davidson': {
@@ -600,72 +499,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
-
-
- 'kim-jong-un': {
- name: 'Kim Jong Un',
- title: 'Supreme Leader of Democratic People\'s Republic of Korea',
- role: 'Third-generation hereditary dictator of North Korea; nuclear weapons program; systematic human rights atrocities documented by UN Commission of Inquiry',
- riskLevel: 'critical',
- description: 'Kim Jong Un is the Supreme Leader of North Korea (DPRK); the third generation of the Kim dynasty to rule the country through totalitarian control. He assumed power in December 2011 after the death of his father Kim Jong Il. Under his rule; North Korea has dramatically accelerated its nuclear weapons program; conducting its most powerful nuclear test in 2017 (estimated 100-370 kilotons) and developing ICBMs capable of reaching the continental United States. The UN Commission of Inquiry on Human Rights in the DPRK published a 372-page report in 2014 finding that North Korea commits crimes against humanity "without parallel in the contemporary world"; including extermination; murder; enslavement; torture; imprisonment; rape; forced abortions; persecution on political; religious and gender grounds; forcible transfer of populations; enforced disappearance; and knowingly causing prolonged starvation. The report estimated 80,000-120,000 political prisoners are held in brutal labor camps (kwanliso). Kim has ordered the execution of senior officials including his own uncle Jang Song-thaek (2013) and is believed to have ordered the assassination of his half-brother Kim Jong-nam with VX nerve agent at Kuala Lumpur airport in 2017. North Korea\'s Lazarus Group conducts state-sponsored cyberattacks; including the $81 million Bangladesh Bank heist and the WannaCry ransomware attack that crippled hospitals worldwide.',
- birthDate: 'January 8, 1984 (estimated)',
- birthPlace: 'Pyongyang, North Korea',
- education: ['Liebefeld-Steinholzli school; Bern, Switzerland (attended under pseudonym 1998-2000)', 'Kim Il-sung Military University; Pyongyang'],
- affiliations: [
-  { name: 'Workers\' Party of Korea', role: 'General Secretary; Supreme Commander (2011-present)', type: 'organization' },
-  { name: 'Korean People\'s Army', role: 'Supreme Commander of all DPRK armed forces', type: 'agency' },
-  { name: 'State Affairs Commission', role: 'Chairman; highest government authority in North Korea', type: 'agency' },
- ],
- controversies: [
-  'UN Commission of Inquiry found North Korea commits "crimes against humanity without parallel in the contemporary world" including extermination; enslavement; torture; rape; forced abortions; and religious persecution; recommended ICC referral',
-  '80,000-120,000 political prisoners held in brutal labor camps (kwanliso); prisoners subjected to forced labor; starvation; torture; and public executions; three-generation punishment rule imprisons entire families',
-  'Ordered execution of his uncle Jang Song-thaek in December 2013 by anti-aircraft gun; accused of factionalism',
-  'Believed to have ordered assassination of half-brother Kim Jong-nam with VX nerve agent at Kuala Lumpur airport on February 13, 2017',
-  'Accelerated nuclear weapons program; conducted 4 of North Korea\'s 6 nuclear tests; tested Hwasong-15 ICBM with estimated range to reach entire continental United States',
-  'State-sponsored Lazarus Group conducts cyberattacks worldwide; including $81M Bangladesh Bank heist (2016); WannaCry ransomware attack affecting NHS hospitals (2017); and $620M Ronin Network cryptocurrency theft (2022)',
-  'Chronic famine and malnutrition; UNICEF estimates 42% of North Korean population is food insecure; government diverts resources to military while population starves',
-  'Complete suppression of free speech; press; assembly; religion; and movement; citizens cannot leave the country; no internet access for ordinary citizens',
- ],
- charges: [
-  { statute: 'UN Human Rights Council A/HRC/25/63', description: 'Crimes against humanity including extermination; enslavement; torture; and persecution (recommended ICC referral)', category: 'Crimes Against Humanity' },
-  { statute: 'Executive Order 13810', description: 'U.S. sanctions for nuclear weapons proliferation and human rights abuses', category: 'Sanctions' },
- ],
- relatedInvestigations: [
-  { title: 'North Korea Human Rights', slug: 'north-korea-human-rights-atrocities', severity: 'critical' },
-  { title: 'Nuclear Proliferation', slug: 'nuclear-weapons-proliferation', severity: 'critical' },
- ],
- timeline: [
-  { date: 'January 8, 1984', event: 'Born in Pyongyang (estimated; exact date uncertain)' },
-  { date: '1998-2000', event: 'Attended school in Bern, Switzerland under assumed identity' },
-  { date: 'December 17, 2011', event: 'Assumed power after death of father Kim Jong Il' },
-  { date: 'December 12, 2012', event: 'Successfully launches Kwangmyongsong-3 satellite; demonstrating long-range missile capability' },
-  { date: 'December 12, 2013', event: 'Orders execution of uncle Jang Song-thaek for alleged factionalism' },
-  { date: 'February 2016', event: 'Conducts fourth nuclear test (claimed hydrogen bomb)' },
-  { date: 'February 13, 2017', event: 'Half-brother Kim Jong-nam assassinated with VX nerve agent at Kuala Lumpur airport' },
-  { date: 'September 3, 2017', event: 'Conducts sixth and most powerful nuclear test; estimated 100-370 kiloton yield' },
-  { date: 'November 29, 2017', event: 'Tests Hwasong-15 ICBM; North Korea claims capability to reach entire U.S. mainland' },
-  { date: 'June 12, 2018', event: 'Historic summit with Donald Trump in Singapore' },
-  { date: 'February 2019', event: 'Hanoi summit with Trump collapses without agreement' },
-  { date: '2022', event: 'Launches record 90+ ballistic missiles; passes law declaring North Korea a nuclear weapons state' },
- ],
- socialMedia: [],
- sources: [
-  { title: 'UN Commission of Inquiry on Human Rights in the DPRK; A/HRC/25/63', url: 'https://www.ohchr.org', date: 'February 2014' },
-  { title: 'UN Panel of Experts on DPRK Sanctions Reports', url: 'https://www.un.org', date: 'Ongoing' },
-  { title: 'FBI: Lazarus Group Attribution', url: 'https://www.fbi.gov', date: '2021' },
- ],
- aliases: ['Respected Comrade', 'Supreme Leader'],
- knownAssociates: [
-  { name: 'Donald Trump', relationship: 'Three summits between 2018-2019; Trump praised Kim as "very talented" and claimed they "fell in love"', href: '/entities/individuals/donald-trump' },
- ],
- },
-
-
  'keith-schiller': {
  name: 'Keith Schiller',
  title: 'Profile Under Review',
@@ -713,11 +546,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'kanye-west': {
@@ -770,11 +598,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'kelly-meggs': {
  name: 'Kelly Meggs',
  title: 'Convicted Oath Keepers Leader; January 6 Seditious Conspiracy',
@@ -823,11 +646,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
  'kenneth-harrelson': {
  name: 'Kenneth Harrelson',
  title: 'Profile Under Review',
@@ -853,10 +671,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'ken-cuccinelli': {
  name: 'Ken Cuccinelli',
  title: 'Profile Under Review',
@@ -880,11 +694,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
 
 
  'kari-lake': {
@@ -929,9 +738,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Donald Trump', relationship: 'Endorsed by Trump; prominent ally in election denial movement', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
 
 
  'korey-wise': {
@@ -1015,31 +821,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'ken-paxton': {
  name: 'Warren Kenneth Paxton Jr.',
  title: 'Texas Attorney General',
@@ -1082,32 +863,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Filed lawsuit to overturn election', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'karl-rove': {
@@ -1196,31 +951,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  'kirill-dmitriev': {
  name: 'Kirill Aleksandrovich Dmitriev',
  title: 'Russian Sovereign Wealth Fund CEO',
@@ -1300,31 +1030,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Jared Kushner', relationship: 'Indirect contact through intermediaries', href: '/entities/individuals/jared-kushner' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'katherine-harris': {
@@ -1552,53 +1257,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'James Clapper', relationship: 'DNI colleague', href: '/entities/individuals/james-clapper' },
  ],
  },
-
-
-
-
-
-
-
- 'kenneth-lay': {
- name: 'Kenneth Lay',
- title: 'Convicted Fraudster (Deceased)',
- role: 'Former CEO of Enron',
- riskLevel: 'critical',
- description: 'Ken Lay was the founder and CEO of Enron, America\'s seventh-largest company before its 2001 collapse revealed massive accounting fraud. He was convicted of securities fraud but died before sentencing, which vacated his conviction.',
- birthDate: 'April 15, 1942',
- birthPlace: 'Tyrone, Missouri',
- deathDate: 'July 5, 2006',
- education: ['University of Missouri', 'University of Houston (Ph.D. Economics)'],
- affiliations: [
- { name: 'Enron', role: 'Founder, Chairman & CEO', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Jeffrey Skilling', relationship: 'CEO (convicted)', href: '/entities/individuals/jeffrey-skilling' },
- { name: 'George W. Bush', relationship: 'Political ally', href: '/entities/individuals/george-w-bush' },
- ],
- controversies: [
- 'FRAUD: Oversaw massive accounting fraud hiding billions in debt',
- 'INSIDER SELLING: Sold $300M in stock while lying to employees',
- 'EMPLOYEE HARM: 20,000 employees lost jobs and pensions',
- 'POLITICAL CONNECTIONS: Close ties to Bush administration',
- ],
- charges: [
- { statute: 'Securities Fraud', description: 'Defrauding investors', category: 'Federal Crime' },
- { statute: 'Bank Fraud', description: 'Defrauding banks', category: 'Federal Crime' },
- ],
- relatedInvestigations: [
- { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'high' },
- ],
- timeline: [
- { date: 'April 15, 1942', event: 'Born in Tyrone, Missouri' },
- { date: '1985', event: 'Creates Enron through merger' },
- { date: '2000', event: 'Enron at peak, $101B revenue' },
- { date: 'December 2001', event: 'Enron files bankruptcy' },
- { date: 'May 2006', event: 'Convicted on multiple counts' },
- { date: 'July 5, 2006', event: 'Dies before sentencing' },
- ],
- sources: [{ title: 'Wikipedia: Kenneth Lay', url: 'https://en.wikipedia.org/wiki/Kenneth_Lay' }, { title: 'Bloomberg: Kenneth Lay', url: 'https://www.bloomberg.com/' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }],
- },
  'kermit-roosevelt': {
  name: 'Kermit Roosevelt Jr.',
  title: 'CIA Officer; Architect of 1953 Iranian Coup (Operation Ajax)',
@@ -1650,10 +1308,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'kelly-ortberg': {
  name: 'Kelly Ortberg',
  title: 'Profile Under Review',
@@ -1680,10 +1334,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'kevin-mcallister': {
  name: 'Kevin Mcallister',
  title: 'Profile Under Review',
@@ -1707,10 +1357,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
 
 
  'keith-leverkuhn': {
@@ -1739,10 +1385,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'kenneth-polite': {
  name: 'Kenneth Polite',
  title: 'Profile Under Review',
@@ -1767,10 +1409,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
 
 
  'kyle-davies': {
@@ -1818,10 +1456,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Su Zhu', relationship: 'Co-founder of Three Arrows Capital; arrested in Singapore in September 2023', href: '/entities/individuals/su-zhu' },
  ],
  },
-
-
-
-
 
 
  'kathe-sackler': {
@@ -1993,10 +1627,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'kim-potter': {
  name: 'Kim Potter',
  title: 'Convicted Former Brooklyn Center Police Officer; Shot Daunte Wright',
@@ -2043,10 +1673,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Derek Chauvin', relationship: 'Potter\'s shooting of Wright occurred during Chauvin\'s trial for murdering George Floyd; both cases in same Minneapolis metro area', href: '/entities/individuals/derek-chauvin' },
  ],
  },
-
-
-
-
 
 
  'kevin-spacey': {
@@ -2133,9 +1759,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Visited Mar-a-Lago after acquittal, embraced by Trump', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
 
 
  'keith-raniere': {
@@ -2261,10 +1884,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'kristi-noem': {
  name: 'Kristi Noem',
  title: 'Secretary of Homeland Security; Former Governor of South Dakota',
@@ -2314,10 +1933,6 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Donald Trump', relationship: 'Appointed Noem as DHS Secretary; Trump praised her anti-lockdown COVID stance', href: '/entities/individuals/donald-trump' },
  ],
  },
-
-
-
-
 
 
  'kyrsten-sinema': {
@@ -2427,10 +2042,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'k-barton-osborn': {
  name: 'K. Barton Osborn',
  title: 'Military intelligence officer, testified about Phoenix torture',
@@ -2518,10 +2129,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'karen-ignagni': {
  name: 'Karen Ignagni',
  title: 'AHIP president who led insurance industry lobbying against public option; promised Obama cooperation then sabotaged reform',
@@ -2581,21 +2188,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Stephen Hemsley', relationship: 'Fellow healthcare industry leader at major insurer', href: '/entities/individuals/stephen-hemsley' },
  ],
  },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  'karl-uecker': {
@@ -2689,10 +2281,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Jeff Bezos', relationship: 'LA County supervisor overseeing Amazon labor issues', href: '/entities/individuals/jeff-bezos' },
  ],
  },
-
-
-
-
 
 
  'katricia-africa': {
@@ -3000,10 +2588,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Jamal Khashoggi', relationship: 'Saudi journalist\'s case connected to broader Saudi repression', href: '/entities/individuals/jamal-khashoggi' },
  ],
  },
-
-
-
-
 
 
  'khalifa-haftar': {
@@ -3352,10 +2936,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'karl-bendetsen': {
  name: 'Karl Bendetsen',
  title: 'Army Colonel who devised and implemented the logistics of Japanese American internment',
@@ -3496,11 +3076,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Daniel Dennett', relationship: 'Edge Foundation intellectual in Epstein-adjacent circles', href: '/entities/individuals/daniel-dennett' },
  ],
  },
-
-
-
-
-
 
 
  'katie-couric': {
@@ -3654,10 +3229,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'kathy-hochul': {
  name: 'Kathy Hochul',
  title: 'Profile Under Review',
@@ -3684,10 +3255,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'ken-fisher': {
  name: 'Ken Fisher',
  title: 'Profile Under Review',
@@ -3711,10 +3278,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
 
 
  'kenneth-griffin': {
@@ -3743,10 +3306,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
  'kathleen-hicks': {
  name: 'Kathleen Hicks',
  title: 'Profile Under Review',
@@ -3773,17 +3332,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
-
-
-
-
-
-
-
-
-};
-
-export default profiles;
   'kenneth-lay': {
     name: 'Kenneth Lay',
     title: 'Former CEO, Enron Corporation',
@@ -3802,8 +3350,8 @@ export default profiles;
       'Received millions in bonuses while employees lost pensions',
     ],
     charges: [
-      { crime: 'Securities fraud', status: 'Convicted', date: '2006' },
-      { crime: 'Wire fraud', status: 'Convicted', date: '2006' },
+      { statute: 'Securities fraud', description: 'Convicted', category: '2006' },
+      { statute: 'Wire fraud', description: 'Convicted', category: '2006' },
     ],
     relatedInvestigations: [
       { title: 'Enron Scandal', slug: 'enron-scandal', severity: 'critical' },
@@ -3843,8 +3391,8 @@ export default profiles;
       'Protected by U.S. intelligence post-war',
     ],
     charges: [
-      { crime: 'War crimes', status: 'Convicted', date: '1987' },
-      { crime: 'Crimes against humanity', status: 'Convicted', date: '1987' },
+      { statute: 'War crimes', description: 'Convicted', category: '1987' },
+      { statute: 'Crimes against humanity', description: 'Convicted', category: '1987' },
     ],
     relatedInvestigations: [
       { title: 'Nazi War Crimes', slug: 'nazi-war-crimes', severity: 'critical' },
@@ -3865,4 +3413,354 @@ export default profiles;
       { name: 'Adolf Eichmann', relationship: 'Fellow Nazi war criminal', href: '/entities/individuals/adolf-eichmann' },
     ],
   },
+  'kim-jong-il': {
+    name: 'Kim Jong-il',
+    title: 'Supreme Leader of North Korea (1994-2011)',
+    role: 'Dictator Who Expanded Political Prison Camp System and Caused Mass Famine',
+    riskLevel: 'critical',
+    description: 'Kim Jong-il ruled the Democratic People\'s Republic of Korea as Supreme Leader for 17 years. Under his rule, an estimated 600,000-2.5 million North Koreans died from famine (1994-1998) while he diverted resources to the military under his "Songun" (military-first) policy. He expanded the political prison camp (kwanliso) system holding 80,000-120,000 prisoners in conditions the UN characterized as comparable to Nazi concentration camps.',
+    birthDate: '1941-02-16',
+    birthPlace: 'Vyatskoye, Soviet Union (official claim: Mount Paektu, Korea)',
+    deathDate: '2011-12-17',
+    education: ['Kim Il-sung University, Pyongyang'],
+    affiliations: [
+      { name: 'Workers\' Party of Korea', role: 'General Secretary (1997-2011)', type: 'organization' },
+      { name: 'Korean People\'s Army', role: 'Supreme Commander', type: 'agency' },
+      { name: 'National Defence Commission', role: 'Chairman', type: 'agency' },
+    ],
+    controversies: [
+      'North Korean famine (1994-1998) killed 600,000-2.5 million while he maintained lavish lifestyle and military spending',
+      'Expanded political prison camp system (kwanliso) to hold 80,000-120,000 prisoners including three generations of families',
+      'Prisoners in camps subjected to forced labor, starvation, torture, public executions, and human experimentation',
+      'Ordered kidnapping of foreign nationals including Japanese citizens and South Korean filmmaker Shin Sang-ok',
+      'Developed nuclear weapons program in violation of international agreements',
+      'Ordered the 2010 sinking of the South Korean corvette Cheonan killing 46 sailors',
+      'Ordered the 2010 shelling of Yeonpyeong Island killing 4 South Koreans',
+      'Maintained cult of personality requiring absolute worship; failure to display loyalty punished by imprisonment or death',
+    ],
+    charges: [
+      { statute: 'UN Commission of Inquiry on DPRK - Crimes Against Humanity', description: 'Policies of extermination, murder, enslavement, torture, imprisonment, rape, forced abortions, persecution, and enforced disappearances', category: 'Crimes Against Humanity' },
+      { statute: 'International Covenant on Civil and Political Rights', description: 'Systematic denial of all civil liberties and political rights to 25 million citizens', category: 'Human Rights Violations' },
+      { statute: 'Convention on the Rights of the Child', description: 'Imprisoning children in political prison camps through guilt-by-association policy', category: 'Crimes Against Humanity' },
+    ],
+    relatedInvestigations: [
+      { title: 'North Korean Political Prison Camps', slug: 'north-korean-prison-camps', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1941-02-16', event: 'Born in Vyatskoye, Soviet Union' },
+      { date: '1980', event: 'Designated as successor to Kim Il-sung' },
+      { date: '1994-07-08', event: 'Assumes power after death of Kim Il-sung' },
+      { date: '1994-1998', event: 'North Korean famine kills 600,000-2.5 million' },
+      { date: '2006-10-09', event: 'First North Korean nuclear weapon test' },
+      { date: '2010-03-26', event: 'Orders sinking of Cheonan warship killing 46' },
+      { date: '2011-12-17', event: 'Dies of heart attack on his personal train' },
+    ],
+    sources: [
+      { title: 'UN Commission of Inquiry on Human Rights in the DPRK', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/commission-inquiry-on-hr-in-dprk', date: '2014' },
+    ],
+    aliases: ['Dear Leader', 'Supreme Leader', 'Brilliant Leader'],
+    knownAssociates: [
+      { name: 'Kim Jong-un', relationship: 'Son and successor as Supreme Leader', href: '/individuals/kim-jong-un' },
+    ],
+  },
+  'kim-jong-un': {
+    name: 'Kim Jong-un',
+    title: 'Supreme Leader of North Korea (2011-present)',
+    role: 'Current Dictator Maintaining World\'s Worst Human Rights Record',
+    riskLevel: 'critical',
+    description: 'Kim Jong-un has ruled North Korea since 2011, continuing and intensifying the state\'s totalitarian system. The UN Commission of Inquiry found his regime perpetrates crimes against humanity including extermination, murder, enslavement, torture, imprisonment, rape, forced abortions, and persecution on a scale without parallel in the contemporary world. An estimated 80,000-120,000 political prisoners are held in concentration camp conditions.',
+    birthDate: '1984-01-08',
+    birthPlace: 'Pyongyang, North Korea',
+    education: ['International School of Berne, Switzerland (under assumed name)', 'Kim Il-sung University'],
+    affiliations: [
+      { name: 'Workers\' Party of Korea', role: 'General Secretary (2021-present)', type: 'organization' },
+      { name: 'Korean People\'s Army', role: 'Supreme Commander', type: 'agency' },
+      { name: 'State Affairs Commission', role: 'President', type: 'agency' },
+    ],
+    controversies: [
+      'Continues to operate political prison camps (kwanliso) holding 80,000-120,000 people in conditions the UN compared to Nazi camps',
+      'Ordered the execution of his own uncle Jang Song-thaek (2013) and the assassination of his half-brother Kim Jong-nam with VX nerve agent (2017)',
+      'Accelerated nuclear weapons program; conducted 4 of North Korea\'s 6 nuclear tests',
+      'Launched over 100 ballistic missiles in violation of UN Security Council resolutions',
+      'Three generations of families punished for political crimes of one member',
+      'Total information control: citizens have no internet access, no free press, no freedom of movement',
+      'Defectors report public executions, forced abortions of babies conceived by Chinese men, and sexual violence in detention',
+      'COVID-19 response included reported shoot-to-kill orders at the Chinese border',
+    ],
+    charges: [
+      { statute: 'UN Commission of Inquiry - Crimes Against Humanity (2014)', description: 'Found responsible for systematic policies of extermination, murder, enslavement, torture, imprisonment, rape, forced abortions, and persecution', category: 'Crimes Against Humanity' },
+      { statute: 'Chemical Weapons Convention Violation', description: 'Assassination of Kim Jong-nam using VX nerve agent in Kuala Lumpur airport', category: 'Chemical Weapons Use' },
+      { statute: 'UN Security Council Resolutions', description: 'Multiple violations through nuclear weapons tests and ballistic missile launches', category: 'WMD Proliferation' },
+    ],
+    relatedInvestigations: [
+      { title: 'North Korean Political Prison Camps', slug: 'north-korean-prison-camps', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '1984-01-08', event: 'Born in Pyongyang, North Korea' },
+      { date: '2011-12-17', event: 'Assumes power after death of Kim Jong-il' },
+      { date: '2013-12-12', event: 'Orders execution of uncle Jang Song-thaek' },
+      { date: '2014-02-17', event: 'UN Commission of Inquiry finds crimes against humanity in DPRK' },
+      { date: '2017-02-13', event: 'Half-brother Kim Jong-nam assassinated with VX nerve agent' },
+      { date: '2017-09-03', event: 'North Korea\'s sixth and largest nuclear test' },
+      { date: '2022', event: 'Launches record number of ballistic missiles' },
+    ],
+    sources: [
+      { title: 'UN Commission of Inquiry on Human Rights in the DPRK', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/commission-inquiry-on-hr-in-dprk', date: '2014' },
+    ],
+    aliases: ['Supreme Leader', 'Marshal', 'Beloved Leader'],
+    knownAssociates: [
+      { name: 'Kim Jong-il', relationship: 'Father and predecessor as Supreme Leader', href: '/individuals/kim-jong-il' },
+    ],
+  },
+  'ken-paxton': {
+    name: 'Ken Paxton',
+    title: 'Texas Attorney General',
+    role: 'State attorney general indicted for securities fraud, impeached for corruption and bribery, acquitted by partisan vote, and under FBI investigation while serving as chief law enforcement officer',
+    riskLevel: 'critical',
+    description: 'Warren Kenneth Paxton Jr. has served as the Attorney General of Texas since 2015. In 2015, he was indicted on felony securities fraud charges for allegedly soliciting investors for a technology company without disclosing he was being compensated for the referrals. The case has been delayed for nearly a decade through procedural maneuvers. In September 2023, Paxton was impeached by the Texas House of Representatives on 20 articles including bribery, dereliction of duty, and obstruction of justice related to his relationship with political donor Nate Paul, a real estate developer. Paxton allegedly used his office to benefit Paul in exchange for favors including a job for a woman with whom Paxton was having an extramarital affair and renovations to his home. The Texas Senate acquitted Paxton in a party-line vote. Separately, Paxton is under FBI investigation for abuse of office. He has used his position to personally sue the Biden administration over 50 times and attempted to overturn the 2020 presidential election results by filing a lawsuit seeking to invalidate millions of votes in four other states.',
+    birthDate: 'July 5, 1963',
+    birthPlace: 'Minot, North Dakota',
+    education: ['Baylor University (B.A.)', 'University of Virginia School of Law (J.D.)'],
+    affiliations: [
+      { name: 'State of Texas', role: 'Attorney General', type: 'agency' as const },
+      { name: 'Texas House of Representatives', role: 'Former Member (2003-2012)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Securities fraud indictment (2015): Charged with two first-degree felonies; case delayed nearly a decade',
+      'Impeachment (2023): 20 articles including bribery, abuse of office, and obstruction; acquitted by partisan Senate vote',
+      'Nate Paul scandal: Used AG office to benefit political donor in exchange for personal favors',
+      'Extramarital affair: Whistleblowers allege Paxton hired his mistress using donor\'s money',
+      'Election overthrow attempt: Filed Texas v. Pennsylvania lawsuit seeking to invalidate millions of votes in 4 states',
+      'FBI investigation: Ongoing federal probe into corruption and abuse of power',
+    ],
+    charges: [
+      { statute: 'Texas Securities Act Sec. 29(b)', description: 'Securities fraud - first-degree felony for soliciting investments without disclosing compensation', category: 'state' },
+      { statute: 'Texas Securities Act Sec. 29(c)', description: 'Failure to register with state securities board', category: 'state' },
+    ],
+    relatedInvestigations: ['/investigations/voter-suppression-modern-assault-on-democracy'],
+    timeline: [
+      { date: '2015-01-05', event: 'Inaugurated as Texas Attorney General' },
+      { date: '2015-07-28', event: 'Indicted on securities fraud charges' },
+      { date: '2020-12-08', event: 'Files Texas v. Pennsylvania lawsuit to overturn election; rejected by Supreme Court' },
+      { date: '2023-05-25', event: 'Impeached by Texas House of Representatives on 20 articles' },
+      { date: '2023-09-16', event: 'Acquitted by Texas Senate in party-line vote' },
+    ],
+    sources: [
+      { title: 'Texas Tribune: Ken Paxton Impeachment Coverage', url: 'https://www.texastribune.org/series/ken-paxton-impeachment/', date: '2023' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Nate Paul', relationship: 'Real estate developer and political donor; central figure in Paxton impeachment' },
+      { name: 'Greg Abbott', relationship: 'Governor of Texas; shielded Paxton from accountability', href: '/entities/individuals/greg-abbott' },
+    ],
+  },
+  'keith-raniere': {
+    name: 'Keith Raniere',
+    title: 'Founder, NXIVM',
+    role: 'Cult leader convicted of sex trafficking, forced labor, and racketeering',
+    riskLevel: 'critical',
+    description: 'Keith Raniere founded NXIVM, a purported self-improvement organization that functioned as a coercive cult. Raniere created a secret sub-group called DOS (Dominus Obsequious Sororium) in which women were branded with his initials using a cauterizing pen, required to provide "collateral" (compromising photographs and confessions), and subjected to sexual exploitation. He was convicted in June 2019 on all seven counts including sex trafficking, racketeering conspiracy, and forced labor, and sentenced to 120 years in federal prison. NXIVM recruited members from influential families and entertainment industry figures.',
+    birthDate: 'August 26, 1960',
+    birthPlace: 'Brooklyn, New York',
+    education: ['Rensselaer Polytechnic Institute (B.S. Mathematics, Biology, Physics)'],
+    affiliations: [
+      { name: 'NXIVM', role: 'Founder and Leader', type: 'organization' as const },
+    ],
+    controversies: [
+      'Created secret sub-group DOS where women were branded with his initials',
+      'Required members to provide compromising "collateral" including nude photos and confessions',
+      'Exploited and trafficked women within NXIVM organization',
+      'Engaged in sexual relationships with members including minors',
+      'Recruited from wealthy and influential families to extract money and control',
+      'Previous organization (Consumers Buyline) was shut down by New York AG as illegal pyramid scheme',
+    ],
+    charges: [
+      { statute: '18 U.S.C. 1591', description: 'Sex Trafficking', category: 'Sexual Crime' },
+      { statute: '18 U.S.C. 1962', description: 'Racketeering Conspiracy (RICO)', category: 'Organized Crime' },
+      { statute: '18 U.S.C. 1589', description: 'Forced Labor', category: 'Human Trafficking' },
+      { statute: '18 U.S.C. 1343', description: 'Wire Fraud Conspiracy', category: 'Financial Crime' },
+      { statute: '18 U.S.C. 1594', description: 'Sex Trafficking Conspiracy', category: 'Sexual Crime' },
+    ],
+    relatedInvestigations: [],
+    timeline: [
+      { date: '1998', event: 'Founded NXIVM (originally Executive Success Programs) in Albany, New York' },
+      { date: '2015', event: 'Created secret DOS sub-group with branded women and forced labor' },
+      { date: 'March 2018', event: 'Arrested in Mexico by FBI following New York Times expose' },
+      { date: 'June 2019', event: 'Convicted on all seven counts including sex trafficking' },
+      { date: 'October 2020', event: 'Sentenced to 120 years in federal prison' },
+    ],
+    sources: [
+      { title: 'DOJ: United States v. Keith Raniere', url: 'https://www.justice.gov/usao-edny/united-states-v-keith-raniere-et-al', date: '2019' },
+    ],
+    aliases: ['Vanguard'],
+    knownAssociates: [
+      { name: 'Allison Mack', relationship: 'Actress; DOS slave master; sentenced to 3 years' },
+      { name: 'Clare Bronfman', relationship: 'Seagram heiress; NXIVM financier; sentenced to 6+ years' },
+      { name: 'Nancy Salzman', relationship: 'NXIVM president; pleaded guilty to racketeering' },
+    ],
+  },
+  'kris-kobach': {
+    name: 'Kris Kobach',
+    title: 'Kansas Attorney General / Former Secretary of State',
+    role: 'State Official',
+    riskLevel: 'high' as const,
+    description: 'Kansas Attorney General and former Secretary of State who became the national face of voter fraud hysteria and restrictive voting laws. Served as vice chair of Trump\'s Presidential Advisory Commission on Election Integrity (2017-2018) which was disbanded without finding evidence of widespread fraud. Championed the Interstate Crosscheck program that wrongly flagged millions of legitimate voters, disproportionately targeting minority voters with common names. Architect of strict voter ID and proof-of-citizenship requirements that were repeatedly struck down by courts as unconstitutional.',
+    birthDate: '1966-03-26',
+    birthPlace: 'Madison, Wisconsin',
+    education: ['B.A., Harvard University (1988)', 'J.D., Yale Law School (1995)', 'D.Phil., University of Oxford (1992)'],
+    affiliations: [
+      { name: 'State of Kansas', role: 'Attorney General (2023-Present)', type: 'agency' as const },
+      { name: 'Kansas Secretary of State Office', role: 'Secretary of State (2011-2019)', type: 'agency' as const },
+      { name: 'Presidential Advisory Commission on Election Integrity', role: 'Vice Chair (2017-2018)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Interstate Crosscheck program wrongly flagged millions of voters as potential double-registrants; 99% of flags were false positives',
+      'Crosscheck disproportionately targeted minority voters: people with common names like Washington, Garcia, Kim vastly overrepresented',
+      'Trump voter fraud commission disbanded in 2018 without finding evidence of widespread voter fraud',
+      'Secured only 9 prosecutions for voter fraud in Kansas out of 1.8 million registered voters despite claiming thousands of fraudulent votes',
+      'Key architect of Kansas SAFE Act requiring proof of citizenship to register; blocked 30,000+ registrations before being struck down',
+      'Found in contempt of court by federal judge for failing to comply with voter registration court order',
+      'Personally fined by federal judge for misleading the court in voter registration case',
+      'Lost gubernatorial race in 2018 to Democrat Laura Kelly in deep-red Kansas',
+    ],
+    charges: [
+      {
+        statute: '52 U.S.C. § 20504 - National Voter Registration Act Violations',
+        description: 'Proof-of-citizenship requirements found to violate NVRA by federal court; Kobach found in contempt for non-compliance',
+        category: 'constitutional',
+      },
+      {
+        statute: 'Federal Court Contempt - Fish v. Kobach',
+        description: 'Found in contempt of court and personally fined for misleading the court about compliance with voter registration orders',
+        category: 'obstruction',
+      },
+    ],
+    relatedInvestigations: [
+      { title: 'Systematic Voter Suppression in America', slug: 'voter-suppression-systematic', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2004', event: 'Serves as counsel to Attorney General John Ashcroft; drafts NSEERS registry targeting Muslim immigrants' },
+      { date: '2011-01', event: 'Takes office as Kansas Secretary of State; immediately pushes restrictive voting laws' },
+      { date: '2013', event: 'Kansas SAFE Act enacted requiring proof of citizenship; blocks tens of thousands from registering' },
+      { date: '2015', event: 'Given unprecedented prosecutorial power to pursue voter fraud cases; secures only 9 convictions' },
+      { date: '2017-05', event: 'Appointed vice chair of Trump\'s Presidential Advisory Commission on Election Integrity' },
+      { date: '2018-01', event: 'Voter fraud commission disbanded without finding evidence of widespread fraud' },
+      { date: '2018-06', event: 'Federal judge strikes down Kansas proof-of-citizenship law; orders Kobach to take remedial legal education' },
+      { date: '2018-06-18', event: 'Found in contempt of court for violating voter registration court order; fined personally' },
+      { date: '2018-11', event: 'Loses Kansas gubernatorial race to Democrat Laura Kelly' },
+      { date: '2022-11', event: 'Elected Kansas Attorney General' },
+    ],
+    sources: [
+      { title: 'Brennan Center: Analysis of Interstate Crosscheck', url: 'https://www.brennancenter.org/', date: '2017' },
+      { title: 'ACLU v. Kobach - Federal Court Decision', date: '2018' },
+      { title: 'Fish v. Kobach - Court Order and Contempt Finding', date: '2016' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Appointed Kobach vice chair of voter fraud commission; Kobach advised on immigration policy', href: '/entities/individuals/donald-trump' },
+      { name: 'Stephen Miller', relationship: 'Collaborated on hardline immigration policies including Muslim travel ban', href: '/entities/individuals/stephen-miller' },
+    ],
+  },
+  'ken-paxton': {
+    name: 'Ken Paxton',
+    title: 'Texas Attorney General',
+    role: 'Indicted Attorney General Who Survived Impeachment',
+    riskLevel: 'high' as const,
+    description: 'Ken Paxton has served as Texas Attorney General since 2015 while under felony securities fraud indictment since before taking office. He was impeached by the Texas House in 2023 over bribery and abuse of office allegations but acquitted by the Texas Senate. His tenure has been marked by using the office to benefit a political donor, retaliating against whistleblowers, and filing dozens of partisan lawsuits including an attempt to invalidate millions of votes in other states after the 2020 election.',
+    birthDate: '1963-05-01',
+    birthPlace: 'Ellsworth, Maine',
+    education: [
+      'B.A., Baylor University (1985)',
+      'J.D., University of Virginia School of Law (1991)',
+    ],
+    affiliations: [
+      { name: 'Texas Attorney General', role: 'Attorney General (2015-present)', type: 'agency' as const },
+      { name: 'Texas House of Representatives', role: 'State Representative (2003-2012)', type: 'agency' as const },
+      { name: 'Texas Senate', role: 'State Senator (2012-2015)', type: 'agency' as const },
+    ],
+    controversies: [
+      'Under felony securities fraud indictment since 2015 for allegedly recruiting investors without disclosing his commission; case repeatedly delayed',
+      'Impeached by Texas House in 2023 on 20 articles including bribery, abuse of office, and obstruction; acquitted by Texas Senate',
+      'Accused of using AG office to benefit donor Nate Paul, including intervening in his legal disputes and using state resources',
+      'Eight senior staff members reported Paxton to FBI for bribery and abuse of power, then were fired in apparent retaliation',
+      'Filed lawsuit seeking to invalidate electoral results in four states after 2020 election; Supreme Court dismissed for lack of standing',
+      'Settled whistleblower retaliation lawsuit for $3.3 million in taxpayer funds to the fired staffers',
+      'Used office resources for personal matters including home renovation disputes and extramarital affair logistics',
+    ],
+    relatedInvestigations: [
+      { title: 'Whistleblower Retaliation Patterns', slug: 'whistleblower-retaliation-patterns', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2015-01', event: 'Sworn in as Texas AG while under felony indictment' },
+      { date: '2015-07', event: 'Indicted on two first-degree felony securities fraud charges and one third-degree charge' },
+      { date: '2020-01', event: 'Affair with employee and connection to donor Nate Paul begins to surface' },
+      { date: '2020-09', event: 'Eight top aides report Paxton to FBI; all subsequently fired or forced out' },
+      { date: '2020-12', event: 'Filed Texas v. Pennsylvania seeking to overturn four states election results' },
+      { date: '2023-05', event: 'Impeached by Texas House with bipartisan support on 20 articles' },
+      { date: '2023-09', event: 'Acquitted by Texas Senate; returned to office immediately' },
+      { date: '2024-02', event: 'Settled whistleblower lawsuit for $3.3 million in taxpayer money' },
+    ],
+    sources: [
+      { title: 'Texas Tribune: Ken Paxton Impeachment Coverage', url: 'https://www.texastribune.org/', date: '2023' },
+      { title: 'Associated Press: Paxton Securities Fraud Indictment', date: '2015' },
+      { title: 'Dallas Morning News: Whistleblower Complaint and Settlement', date: '2024' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Filed 2020 election lawsuit on Trumps behalf; Trump endorsed Paxton during impeachment trial', href: '/entities/individuals/donald-trump' },
+      { name: 'Nate Paul', relationship: 'Political donor at center of bribery allegations; Paxton allegedly used AG office to benefit Pauls legal and business interests' },
+    ],
+  },
+  'kash-patel': {
+    name: 'Kash Patel',
+    title: 'Former DOD Chief of Staff and FBI Director Nominee',
+    role: 'Political Operative Targeting Intelligence Community Independence',
+    riskLevel: 'critical' as const,
+    description: 'Kash Patel rose from congressional staffer to Pentagon Chief of Staff through loyalty to Trump, operating outside normal chains of command throughout his career. He authored a memo attacking the FBI Russia investigation, was installed at DOD to influence the January 6 response, and has openly stated his intention to purge the FBI of career officials he considers disloyal.',
+    birthDate: '1980-02-25',
+    birthPlace: 'Garden City, New York',
+    education: [
+      'B.A., University of Richmond (2002)',
+      'J.D., Pace University School of Law (2005)',
+    ],
+    affiliations: [
+      { name: 'DOD', role: 'Chief of Staff to the Acting Secretary of Defense (2020-2021)', type: 'agency' as const },
+      { name: 'National Security Council', role: 'Senior Director for Counterterrorism (2019-2020)', type: 'agency' as const },
+      { name: 'House Intelligence Committee', role: 'Senior Staff (2017-2019)', type: 'organization' as const },
+    ],
+    controversies: [
+      'Authored the "Nunes Memo" attacking FBI investigation of Trump-Russia connections; Democrats said memo contained significant omissions and inaccuracies',
+      'Installed at Pentagon in final months of Trump administration over career officials objections; role during January 6 security response questioned',
+      'Published a list of FBI and DOJ officials he wants to target for investigation and termination if given authority',
+      'Published a children book portraying himself as a hero fighting "deep state" villains based on real government officials',
+      'Operated outside normal National Security Council channels; created a parallel communication structure that bypassed career officials',
+      'Sought to declassify intelligence materials for political purposes over objections from CIA and FBI leadership',
+      'Publicly stated he would use FBI resources to go after members of the media he accuses of lying',
+    ],
+    relatedInvestigations: [
+      { title: 'Whistleblower Retaliation Patterns', slug: 'whistleblower-retaliation-patterns', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2017', event: 'Joined House Intelligence Committee staff under Chairman Devin Nunes' },
+      { date: '2018-02', event: 'Nunes Memo released publicly; accused FBI of FISA abuse in Trump-Russia investigation' },
+      { date: '2019', event: 'Moved to National Security Council as Senior Director for Counterterrorism' },
+      { date: '2020-02', event: 'Installed at NSC over career officials objections' },
+      { date: '2020-11', event: 'Placed at Pentagon as Chief of Staff to Acting Secretary Christopher Miller' },
+      { date: '2021-01-06', event: 'Role in delayed National Guard deployment to Capitol under scrutiny' },
+      { date: '2023', event: 'Published book listing government officials he would target if empowered' },
+      { date: '2025', event: 'Nominated for FBI Director; pledged to restructure the bureau and target perceived enemies' },
+    ],
+    sources: [
+      { title: 'House Intelligence Committee: Nunes Memo and Democratic Response', date: '2018' },
+      { title: 'January 6 Committee: Pentagon Testimony on National Guard Delay', date: '2022' },
+      { title: 'Washington Post: Patel Pentagon Installation', url: 'https://www.washingtonpost.com/', date: '2020' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Donald Trump', relationship: 'Patron who elevated Patel through multiple positions based on personal loyalty', href: '/entities/individuals/donald-trump' },
+      { name: 'Devin Nunes', relationship: 'Former House Intelligence Chairman who employed Patel and backed the memo attacking the FBI' },
+    ],
+  },
 };
+
+export default profiles;

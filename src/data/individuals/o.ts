@@ -908,6 +908,164 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
+ 'oliver-north': {
+  name: 'Oliver North',
+  title: 'Former NSC Staff / Iran-Contra Figure',
+  role: 'Military Officer / Political Operative',
+  riskLevel: 'high' as const,
+  description: 'U.S. Marine Corps lieutenant colonel and National Security Council staff member who was the central figure in the Iran-Contra affair. Secretly facilitated illegal arms sales to Iran and diverted profits to fund Contra rebels in Nicaragua in direct violation of the Boland Amendment. Convicted on three felony counts in 1989 but convictions were vacated on technicality. Later became president of the NRA and Fox News commentator, parlaying his notoriety into a media and political career.',
+  birthDate: '1943-10-07',
+  birthPlace: 'San Antonio, Texas',
+  education: ['B.S., United States Naval Academy (1968)'],
+  affiliations: [
+   { name: 'National Security Council', role: 'Deputy Director for Political-Military Affairs (1981-1986)', type: 'agency' as const },
+   { name: 'National Rifle Association', role: 'President (2018-2019)', type: 'organization' as const },
+   { name: 'U.S. Marine Corps', role: 'Lieutenant Colonel (Retired)', type: 'agency' as const },
+  ],
+  controversies: [
+   'Central figure in Iran-Contra affair: secretly sold weapons to Iran and diverted profits to Nicaraguan Contra rebels',
+   'Violated the Boland Amendment which explicitly prohibited U.S. funding of Contra rebels',
+   'Oversaw secret arms-for-hostages deals with Iran despite official U.S. policy against negotiating with terrorists',
+   'Shredded and altered NSC documents to destroy evidence before congressional investigators arrived',
+   'Convicted of three felonies in 1989; convictions vacated in 1991 on technicality related to immunized congressional testimony',
+   'Facilitated drug trafficking by Contra allies who used CIA-supplied aircraft to ship cocaine into the United States',
+   'As NRA president, clashed with Wayne LaPierre over financial mismanagement and was forced out after one year',
+   'Profited from notoriety through Fox News career, speaking fees, and book deals after escaping accountability',
+  ],
+  charges: [
+   {
+    statute: '18 U.S.C. § 1001 - False Statements',
+    description: 'Convicted of aiding and abetting obstruction of Congress, destroying documents, and accepting an illegal gratuity',
+    category: 'obstruction',
+   },
+   {
+    statute: 'Boland Amendment Violations',
+    description: 'Illegally facilitated funding and arms to Nicaraguan Contra rebels in direct violation of congressional prohibition',
+    category: 'regulatory',
+   },
+   {
+    statute: '18 U.S.C. § 1505 - Obstruction of Congressional Investigation',
+    description: 'Shredded and altered NSC documents to conceal Iran-Contra operations from congressional investigators',
+    category: 'obstruction',
+   },
+  ],
+  relatedInvestigations: [
+   { title: 'U.S.-Backed Coups and Regime Change Operations', slug: 'us-backed-coups-regime-change', severity: 'critical' },
+  ],
+  timeline: [
+   { date: '1943-10-07', event: 'Born in San Antonio, Texas' },
+   { date: '1968', event: 'Graduates from U.S. Naval Academy; commissioned in Marine Corps' },
+   { date: '1981', event: 'Joins National Security Council staff under Reagan administration' },
+   { date: '1985-1986', event: 'Orchestrates secret arms sales to Iran and diversion of profits to Nicaraguan Contras' },
+   { date: '1986-11-25', event: 'Fired from NSC after Iran-Contra scandal exposed; admits to shredding documents' },
+   { date: '1987-07', event: 'Testifies before Congress in nationally televised Iran-Contra hearings' },
+   { date: '1989-05-04', event: 'Convicted on three felony counts: aiding obstruction, destroying documents, accepting illegal gratuity' },
+   { date: '1991-09-16', event: 'Convictions vacated by federal appeals court due to immunized congressional testimony issue' },
+   { date: '1994', event: 'Runs for U.S. Senate in Virginia; loses narrowly to Chuck Robb' },
+   { date: '2001-2016', event: 'Hosts War Stories with Oliver North on Fox News' },
+   { date: '2018-05', event: 'Elected president of the National Rifle Association' },
+   { date: '2019-04', event: 'Forced out as NRA president after clash with Wayne LaPierre over financial corruption' },
+  ],
+  socialMedia: [],
+  sources: [
+   { title: 'Final Report of the Independent Counsel for Iran/Contra Matters (Walsh Report)', url: 'https://irp.fas.org/offdocs/walsh/', date: '1993' },
+   { title: 'National Security Archive: Iran-Contra Documentation', url: 'https://nsarchive.gwu.edu/project/iran-contra-affair', date: '2023' },
+   { title: 'Congressional Iran-Contra Report', date: '1987' },
+  ],
+  aliases: ['Ollie'],
+  knownAssociates: [
+   { name: 'Ronald Reagan', relationship: 'President under whose administration Iran-Contra operations were conducted' },
+   { name: 'John Poindexter', relationship: 'National Security Advisor who supervised North and was also convicted in Iran-Contra' },
+   { name: 'Wayne LaPierre', relationship: 'NRA CEO who clashed with North leading to his ouster as NRA president', href: '/entities/individuals/wayne-lapierre' },
+  ],
+ },
+ 'mitch-mcconnell': {
+  name: 'Mitch McConnell',
+  title: 'Former Senate Majority Leader',
+  role: 'Master of Obstruction Who Reshaped the Federal Judiciary',
+  riskLevel: 'high' as const,
+  description: 'Mitch McConnell served as the longest-serving Senate party leader in American history, wielding procedural power to reshape the federal judiciary, block legislation, and protect corporate political spending. His decision to block Merrick Garlands Supreme Court nomination for nearly a year, then rush Amy Coney Barretts confirmation in weeks, fundamentally altered the courts ideological balance.',
+  birthDate: '1942-02-20',
+  birthPlace: 'Sheffield, Alabama',
+  education: [
+   'B.A. in Political Science, University of Louisville (1964)',
+   'J.D., University of Kentucky College of Law (1967)',
+  ],
+  affiliations: [
+   { name: 'United States Senate', role: 'Senator from Kentucky, Majority Leader (1985-present)', type: 'agency' as const },
+  ],
+  controversies: [
+   'Blocked Supreme Court nominee Merrick Garland for 293 days in 2016, claiming election year precedent; then reversed that position to confirm Amy Coney Barrett eight days before the 2020 election',
+   'Led opposition to campaign finance reform; celebrated Citizens United decision that opened unlimited corporate spending in elections',
+   'Wife Elaine Chao served as Trumps Transportation Secretary while DOT IG found she used the office to benefit family shipping business',
+   'Received over $3.5 million from drug companies while blocking legislation to lower prescription drug prices',
+   'Blocked election security bills after intelligence agencies warned of Russian interference in 2016 and 2020 elections',
+   'Used the filibuster to block voting rights legislation, gun safety measures, and minimum wage increases supported by majority of Americans',
+   'Acknowledged Trump bore responsibility for January 6 but voted to acquit him in the impeachment trial, stating a president could not be convicted after leaving office',
+  ],
+  relatedInvestigations: [
+   { title: 'Judicial Election Dark Money', slug: 'judicial-election-dark-money', severity: 'critical' },
+  ],
+  timeline: [
+   { date: '1985', event: 'Elected to the U.S. Senate from Kentucky' },
+   { date: '2007', event: 'Became Senate Republican Leader' },
+   { date: '2010-01', event: 'Citizens United decided; McConnell celebrated the ruling he had long championed' },
+   { date: '2016-02', event: 'Blocked Merrick Garland nomination for nearly a year' },
+   { date: '2017-04', event: 'Eliminated filibuster for Supreme Court nominees to confirm Neil Gorsuch' },
+   { date: '2020-10', event: 'Rushed Amy Coney Barrett confirmation eight days before election' },
+   { date: '2021-02', event: 'Voted to acquit Trump after January 6 despite saying Trump was "practically and morally responsible"' },
+   { date: '2024-02', event: 'Announced he would step down as Republican leader after the 2024 election cycle' },
+  ],
+  sources: [
+   { title: 'Senate Records: McConnell Leadership Timeline', date: '2024' },
+   { title: 'OpenSecrets: McConnell Donor Profile and Pharmaceutical Industry Contributions', url: 'https://www.opensecrets.org/', date: '2024' },
+   { title: 'DOT OIG: Investigation of Secretary Chaos Use of Office', date: '2021' },
+  ],
+  aliases: ['Moscow Mitch', 'The Grim Reaper (self-applied, referring to killing legislation)'],
+  knownAssociates: [
+   { name: 'Donald Trump', relationship: 'Uneasy alliance; McConnell enabled Trump judicial appointments while privately criticizing him', href: '/entities/individuals/donald-trump' },
+   { name: 'Elaine Chao', relationship: 'Wife who served as Trumps Transportation Secretary; DOT OIG found misuse of office for family benefit', href: '/entities/individuals/elaine-chao' },
+  ],
+ },
+ 'oliver-wendell-holmes-jr': {
+  name: 'Oliver Wendell Holmes Jr.',
+  title: 'Associate Justice, U.S. Supreme Court',
+  role: 'Author of the 1927 Buck v. Bell majority opinion that legalized forced sterilization and declared "three generations of imbeciles are enough"',
+  riskLevel: 'critical' as const,
+  description: 'Oliver Wendell Holmes Jr. (1841-1935) was an Associate Justice of the United States Supreme Court from 1902 to 1932. While widely celebrated as a legal philosopher, Holmes authored one of the most morally catastrophic Supreme Court decisions in American history: Buck v. Bell (1927). Writing for an 8-1 majority, Holmes upheld Virginia compulsory sterilization law, ruling that the state could forcibly sterilize citizens deemed "unfit" and declaring "three generations of imbeciles are enough." The decision, which was based on fraudulent evidence and a rigged legal proceeding, provided the legal framework for the forced sterilization of over 60,000 Americans across 32 states. Buck v. Bell has never been explicitly overturned by the Supreme Court. Holmes opinion was later cited by Nazi defendants at the Nuremberg trials as justification for their own eugenics programs. Holmes enthusiasm for eugenics reflected his Social Darwinist worldview, in which he privately expressed contempt for those he considered inferior.',
+  birthDate: '1841-03-08',
+  birthPlace: 'Boston, Massachusetts',
+  deathDate: '1935-03-06',
+  education: ['Harvard College (A.B., 1861)', 'Harvard Law School (LL.B., 1866)'],
+  affiliations: [
+   { name: 'Supreme Court of the United States', role: 'Associate Justice (1902-1932); authored the Buck v. Bell majority opinion legalizing forced sterilization', type: 'agency' },
+  ],
+  controversies: [
+   'Authored Buck v. Bell (1927), declaring "three generations of imbeciles are enough" and legalizing forced sterilization of over 60,000 Americans',
+   'Decision was based on fraudulent evidence: Carrie Buck was not "feebleminded" but was institutionalized after being raped by her foster parents nephew',
+   'Buck v. Bell was cited by Nazi defendants at Nuremberg as justification for German eugenics and sterilization programs',
+   'The decision has never been explicitly overturned by the Supreme Court',
+   'Holmes privately expressed Social Darwinist contempt for those he deemed inferior, writing that the law should "build a race"',
+  ],
+  relatedInvestigations: [
+   { title: 'Mandatory Sterilization Programs in the United States', slug: 'mandatory-sterilization-programs-united-states', severity: 'critical' },
+  ],
+  timeline: [
+   { date: '1902-12-04', event: 'Appointed to the U.S. Supreme Court by President Theodore Roosevelt' },
+   { date: '1927-05-02', event: 'Authors the 8-1 Buck v. Bell majority opinion upholding forced sterilization and writing "three generations of imbeciles are enough"' },
+   { date: '1932-01-12', event: 'Retires from the Supreme Court at age 90' },
+   { date: '1933', event: 'Nazi Germany passes its Law for the Prevention of Hereditarily Diseased Offspring, modeled partly on American laws upheld by Buck v. Bell' },
+   { date: '1935-03-06', event: 'Dies in Washington, D.C. at age 93; Buck v. Bell remains on the books' },
+  ],
+  sources: [
+   { title: 'Supreme Court: Buck v. Bell, 274 U.S. 200 (1927)', url: 'https://supreme.justia.com/cases/federal/us/274/200/', date: '1927' },
+   { title: 'University of Virginia: The Eugenics Crusade and Buck v. Bell', date: '2018' },
+  ],
+  knownAssociates: [
+   { name: 'Carrie Buck', relationship: 'Plaintiff in Buck v. Bell; forcibly sterilized at age 21 after being institutionalized following a rape by her foster family' },
+   { name: 'Harry Laughlin', relationship: 'Eugenics Record Office superintendent whose model sterilization law was upheld in Buck v. Bell' },
+  ],
+ },
 };
 
 export default profiles;
