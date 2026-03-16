@@ -80,7 +80,7 @@ export default function FilterBar({
  onClick={() => setShowFilters(!showFilters)}
  className={`flex items-center gap-2 px-4 py-3 border-2 transition-colors ${
  showFilters || activeFiltersCount > 0
- ? 'border-blood-700 bg-blood-950/30 text-blood-600'
+ ? 'border-blood-700 bg-blood-950 text-blood-600'
  : 'border-[rgba(80,180,255,0.15)] text-zinc-500 hover:border-[rgba(60,160,255,0.18)]'
  }`}
  >
@@ -97,7 +97,7 @@ export default function FilterBar({
 
  {/* Filter Options */}
  {showFilters && (
- <div className="p-4 border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] space-y-4">
+ <div className="p-4 border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] space-y-4">
  <div className="flex flex-wrap gap-6">
  {/* Severity Filter */}
  <div className="space-y-2">
@@ -129,7 +129,7 @@ export default function FilterBar({
  onClick={() => onCategoryChange(currentCategory === category ? null : category)}
  className={`px-3 py-1.5 border text-xs font-medium transition-colors ${
  currentCategory === category
- ? 'border-blood-700 bg-blood-950/30 text-blood-600'
+ ? 'border-blood-700 bg-blood-950 text-blood-600'
  : 'border-[rgba(80,180,255,0.15)] text-zinc-500 hover:border-[rgba(60,160,255,0.18)]'
  }`}
  >

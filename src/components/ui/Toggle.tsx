@@ -178,7 +178,7 @@ export function ToggleGroup({
  return (
  <div
  className={cn(
- 'inline-flex border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)]',
+ 'inline-flex border border-[rgba(80,180,255,0.15)] bg-[#000a1c]',
  disabled && 'opacity-50',
  className
  )}
@@ -199,7 +199,7 @@ export function ToggleGroup({
  sizeClasses[size],
  isSelected
  ? 'bg-blood-600 text-white'
- : 'text-zinc-400 hover:text-white hover:bg-[rgba(0,12,32,0.85)]',
+ : 'text-zinc-400 hover:text-white hover:bg-[#000c20]',
  disabled && 'cursor-not-allowed'
  )}
  >

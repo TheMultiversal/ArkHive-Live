@@ -169,13 +169,13 @@ export default function CodeViewer({
  return (
  <div
  className={cn(
- 'bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)]',
+ 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)]',
  isFullscreen && 'fixed inset-0 z-50',
  className
  )}
  >
  {/* Header */}
- <div className="flex items-center justify-between p-2 border-b border-[rgba(80,180,255,0.15)] bg-[rgba(0,12,32,0.80)]">
+ <div className="flex items-center justify-between p-2 border-b border-[rgba(80,180,255,0.15)] bg-[#000c20]">
  <div className="flex items-center gap-2">
  <button
  onClick={() => setCollapsed(!collapsed)}
@@ -191,7 +191,7 @@ export default function CodeViewer({
  {filename && (
  <span className="text-sm text-zinc-300">{filename}</span>
  )}
- <span className="text-xs text-zinc-500 bg-[rgba(0,12,32,0.85)] px-2 py-0.5">
+ <span className="text-xs text-zinc-500 bg-[#000c20] px-2 py-0.5">
  {language}
  </span>
  <span className="text-xs text-zinc-600">
@@ -291,12 +291,12 @@ export default function CodeViewer({
  <tr
  key={index}
  className={cn(
- 'hover:bg-[rgba(0,12,32,0.80)] transition-colors',
- isHighlighted && 'bg-blood-500/10'
+ 'hover:bg-[#000c20] transition-colors',
+ isHighlighted && 'bg-blood-950'
  )}
  >
  {showLineNumbers && (
- <td className="px-3 py-0.5 text-right text-zinc-600 select-none border-r border-[rgba(80,180,255,0.15)] sticky left-0 bg-[rgba(0,10,28,0.85)]">
+ <td className="px-3 py-0.5 text-right text-zinc-600 select-none border-r border-[rgba(80,180,255,0.15)] sticky left-0 bg-[#000a1c]">
  <span className="flex items-center justify-end gap-1">
  {isHighlighted && (
  <Hash className="w-3 h-3 text-blood-500"/>

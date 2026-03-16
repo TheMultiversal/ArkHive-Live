@@ -112,7 +112,7 @@ export default function CommentSection({
  <select
  value={sortBy}
  onChange={(e) => onSortChange(e.target.value as typeof sortBy)}
- className="px-2 py-1 text-sm bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-white focus:outline-none focus:border-blood-500"
+ className="px-2 py-1 text-sm bg-[#000c20] border border-[rgba(60,160,255,0.18)] text-white focus:outline-none focus:border-blood-500"
  >
  <option value="newest">Newest</option>
  <option value="oldest">Oldest</option>
@@ -129,7 +129,7 @@ export default function CommentSection({
  onChange={(e) => setNewComment(e.target.value)}
  placeholder="Add a comment..."
  rows={3}
- className="w-full px-4 py-3 bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
+ className="w-full px-4 py-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
  />
  <div className="flex justify-end">
  <button
@@ -266,7 +266,7 @@ function CommentItem({
  )}
  >
  <div className={cn(
- 'p-4 bg-[rgba(0,10,28,0.82)]',
+ 'p-4 bg-[#000a1c]',
  comment.deleted && 'opacity-50'
  )}>
  {/* Header */}
@@ -312,7 +312,7 @@ function CommentItem({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute right-0 top-full mt-1 w-36 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] shadow-lg z-10"
+ className="absolute right-0 top-full mt-1 w-36 bg-[#000c20] border border-[rgba(60,160,255,0.18)] shadow-lg z-10"
  >
  {isOwner && (
  <>
@@ -367,7 +367,7 @@ function CommentItem({
  value={editContent}
  onChange={(e) => setEditContent(e.target.value)}
  rows={3}
- className="w-full px-3 py-2 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-white focus:outline-none focus:border-blood-500 resize-none text-sm"
+ className="w-full px-3 py-2 bg-[#000c20] border border-[rgba(60,160,255,0.18)] text-white focus:outline-none focus:border-blood-500 resize-none text-sm"
  />
  <div className="flex gap-2">
  <button
@@ -471,7 +471,7 @@ function CommentItem({
  onChange={(e) => setReplyContent(e.target.value)}
  placeholder="Write a reply..."
  rows={2}
- className="w-full px-3 py-2 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none text-sm"
+ className="w-full px-3 py-2 bg-[#000c20] border border-[rgba(60,160,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none text-sm"
  autoFocus
  />
  <div className="flex gap-2">

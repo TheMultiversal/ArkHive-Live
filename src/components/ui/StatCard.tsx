@@ -21,27 +21,27 @@ interface StatCardProps {
 
 const variantStyles = {
  default: {
- card: 'bg-[rgba(0,10,28,0.82)] border-[rgba(80,180,255,0.15)] hover:border-[rgba(60,160,255,0.18)]',
+ card: 'bg-[#000a1c] border-[rgba(80,180,255,0.15)] hover:border-[rgba(60,160,255,0.18)]',
  value: 'text-white',
  icon: 'text-zinc-400',
  },
  primary: {
- card: 'bg-blood-900/20 border-blood-800/50 hover:border-blood-700/50',
+ card: 'bg-blood-900 border-blood-800/50 hover:border-blood-700',
  value: 'text-blood-400',
  icon: 'text-blood-500',
  },
  danger: {
- card: 'bg-blood-900/20 border-blood-800/50 hover:border-blood-700/50',
+ card: 'bg-blood-900 border-blood-800/50 hover:border-blood-700',
  value: 'text-blood-400',
  icon: 'text-blood-500',
  },
  warning: {
- card: 'bg-zinc-800/20 border-[rgba(80,180,255,0.15)] hover:border-zinc-600/50',
+ card: 'bg-zinc-900 border-[rgba(80,180,255,0.15)] hover:border-zinc-600/50',
  value: 'text-zinc-300',
  icon: 'text-zinc-400',
  },
  success: {
- card: 'bg-blood-900/20 border-blood-800/50 hover:border-blood-700/50',
+ card: 'bg-blood-900 border-blood-800/50 hover:border-blood-700',
  value: 'text-blood-400',
  icon: 'text-blood-500',
  },
@@ -246,7 +246,7 @@ export function ComparisonStat({
  return (
  <motion.div
  className={cn(
- 'bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-4',
+ 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -301,7 +301,7 @@ export function LiveStat({
  return (
  <motion.div
  className={cn(
- 'bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-4',
+ 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -362,7 +362,7 @@ export function PercentageStat({
  return (
  <motion.div
  className={cn(
- 'bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-4',
+ 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -374,7 +374,7 @@ export function PercentageStat({
  </div>
  
  {showBar && (
- <div className="h-2 bg-[rgba(0,12,32,0.85)] overflow-hidden">
+ <div className="h-2 bg-[#000c20] overflow-hidden">
  <motion.div
  className={cn('h-full', barColors[variant])}
  initial={{ width: 0 }}

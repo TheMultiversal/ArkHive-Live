@@ -65,12 +65,12 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  background: `conic-gradient(from ${scanAngle}deg, transparent, rgba(42, 120, 214, 0.5), transparent)`,
  }}
  />
- <div className="absolute inset-0 bg-blood-600/10 blur-xl animate-pulse"style={{ animationDuration: '2s' }} />
+ <div className="absolute inset-0 bg-blood-950 blur-xl animate-pulse"style={{ animationDuration: '2s' }} />
  </div>
 
  {/* Lock-on flash */}
  {lockingOn && (
- <div className="absolute inset-0 bg-blood-600/40 animate-pulse z-20"/>
+ <div className="absolute inset-0 bg-blood-900 animate-pulse z-20"/>
  )}
 
  {/* Main container */}

@@ -36,7 +36,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  >
  {/* Outer ring */}
  <div
- className="absolute inset-0 border border-blood-600/30"
+ className="absolute inset-0 border border-blood-800"
  style={{ boxShadow: 'inset 0 0 40px rgba(0, 45, 107, 0.1)' }}
  />
 
@@ -44,7 +44,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  {[0.8, 0.6, 0.4, 0.2].map((scale, i) => (
  <div
  key={i}
- className="absolute border border-blood-600/20"
+ className="absolute border border-blood-800"
  style={{
  width: `${scale * 100}%`,
  height: `${scale * 100}%`,
@@ -55,8 +55,8 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  ))}
 
  {/* Cross hairs */}
- <div className="absolute top-0 left-1/2 w-px h-full bg-blood-600/20"/>
- <div className="absolute left-0 top-1/2 w-full h-px bg-blood-600/20"/>
+ <div className="absolute top-0 left-1/2 w-px h-full bg-blood-900"/>
+ <div className="absolute left-0 top-1/2 w-full h-px bg-blood-900"/>
 
  {/* Sweeping line */}
  <motion.div

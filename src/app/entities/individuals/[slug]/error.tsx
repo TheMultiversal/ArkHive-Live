@@ -18,7 +18,7 @@ export default function IndividualError({ error, reset }: ErrorProps) {
  <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
  <div className="max-w-lg mx-auto px-4 text-center">
  <div className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-8">
- <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
+ <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-700 bg-blood-950 flex items-center justify-center">
  <Users className="w-10 h-10 text-blood-600"/>
  </div>
 
@@ -32,7 +32,7 @@ export default function IndividualError({ error, reset }: ErrorProps) {
  </p>
 
  {error.digest && (
- <div className="mb-6 p-2 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div className="mb-6 p-2 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  <span className="text-xs text-zinc-600 font-mono">
  Reference: {error.digest}
  </span>
@@ -42,7 +42,7 @@ export default function IndividualError({ error, reset }: ErrorProps) {
  <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
  <button
  onClick={reset}
- className="flex items-center gap-2 px-5 py-2.5 border border-blood-700 bg-blood-950/30 text-blood-500 text-sm font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
+ className="flex items-center gap-2 px-5 py-2.5 border border-blood-700 bg-blood-950 text-blood-500 text-sm font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
  >
  <RefreshCw className="w-4 h-4"/>
  Retry Access

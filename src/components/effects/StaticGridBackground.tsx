@@ -28,10 +28,10 @@ export default function StaticGridBackground() {
  />
  
  {/* Corner accents - static */}
- <div className="absolute top-0 left-0 w-40 h-40 border-l border-t border-blood-900/30"/>
- <div className="absolute top-0 right-0 w-40 h-40 border-r border-t border-blood-900/30"/>
- <div className="absolute bottom-0 left-0 w-40 h-40 border-l border-b border-blood-900/30"/>
- <div className="absolute bottom-0 right-0 w-40 h-40 border-r border-b border-blood-900/30"/>
+ <div className="absolute top-0 left-0 w-40 h-40 border-l border-t border-blood-900"/>
+ <div className="absolute top-0 right-0 w-40 h-40 border-r border-t border-blood-900"/>
+ <div className="absolute bottom-0 left-0 w-40 h-40 border-l border-b border-blood-900"/>
+ <div className="absolute bottom-0 right-0 w-40 h-40 border-r border-b border-blood-900"/>
  
  {/* Center subtle glow - CSS only */}
  <div 

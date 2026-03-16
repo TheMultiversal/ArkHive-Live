@@ -71,7 +71,7 @@ export default function BloodVeinScrollbar() {
 
  {/* Pulse effect overlay */}
  <motion.div
- className="absolute inset-0 bg-blood-600/20"
+ className="absolute inset-0 bg-blood-900"
  animate={{
  opacity: [0.1, 0.3, 0.1],
  }}

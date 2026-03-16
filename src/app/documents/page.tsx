@@ -108,7 +108,7 @@ export default function DocumentsPage() {
         className="mb-6"
       >
         <div className="flex items-center gap-3 mb-3">
-          <div className="bg-blood-500/20 p-2.5">
+          <div className="bg-blood-950 p-2.5">
             <BookOpen className="w-6 h-6 text-blood-500" />
           </div>
           <h1 className="text-3xl font-black glass-text tracking-tight">
@@ -121,13 +121,13 @@ export default function DocumentsPage() {
           declassified intelligence, and investigative journalism, all linked to their original sources.
         </p>
         <div className="flex flex-wrap gap-3 text-xs text-zinc-500">
-          <span className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] px-3 py-1">
+          <span className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] px-3 py-1">
             {totalDocs.toLocaleString()} Documents
           </span>
-          <span className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] px-3 py-1">
+          <span className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] px-3 py-1">
             {totalInvestigations} Investigations
           </span>
-          <span className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] px-3 py-1">
+          <span className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] px-3 py-1">
             {categoryCount} Categories
           </span>
         </div>
@@ -138,7 +138,7 @@ export default function DocumentsPage() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.1 }}
-        className="bg-zinc-800/20 border border-zinc-600/50 p-4 mb-8"
+        className="bg-zinc-900 border border-zinc-600/50 p-4 mb-8"
       >
         <p className="text-zinc-300/90 text-sm">
           All documents link to their original external sources: government archives, court systems,
@@ -164,7 +164,7 @@ export default function DocumentsPage() {
               placeholder="Search documents, investigations, categories..."
               value={searchQuery}
               onChange={(e) => { setSearchQuery(e.target.value); setVisibleCount(ITEMS_PER_PAGE); }}
-              className="w-full bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-white pl-10 pr-4 py-2.5 placeholder-zinc-500 focus:border-blood-500 focus:outline-none"
+              className="w-full bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white pl-10 pr-4 py-2.5 placeholder-zinc-500 focus:border-blood-500 focus:outline-none"
             />
           </div>
 
@@ -173,8 +173,8 @@ export default function DocumentsPage() {
             onClick={() => setShowFilters(!showFilters)}
             className={`flex items-center gap-2 px-4 py-2.5 border transition-colors ${
               showFilters
-                ? 'bg-blood-500/20 border-blood-500 text-blood-400'
-                : 'bg-[rgba(0,10,28,0.85)] border-[rgba(80,180,255,0.15)] text-zinc-400 hover:border-zinc-600'
+                ? 'bg-blood-950 border-blood-500 text-blood-400'
+                : 'bg-[#000a1c] border-[rgba(80,180,255,0.15)] text-zinc-400 hover:border-zinc-600'
             }`}
           >
             <Filter className="w-5 h-5" />
@@ -187,7 +187,7 @@ export default function DocumentsPage() {
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value as typeof sortOptions[number])}
-              className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-white px-4 py-2.5 focus:border-blood-500 focus:outline-none"
+              className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white px-4 py-2.5 focus:border-blood-500 focus:outline-none"
             >
               <option value="date">Date</option>
               <option value="title">Title</option>
@@ -196,7 +196,7 @@ export default function DocumentsPage() {
             </select>
             <button
               onClick={() => setSortDirection(d => d === 'asc' ? 'desc' : 'asc')}
-              className="p-2.5 bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-zinc-400 hover:text-white transition-colors"
+              className="p-2.5 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-zinc-400 hover:text-white transition-colors"
             >
               {sortDirection === 'desc' ? <SortDesc className="w-5 h-5" /> : <SortAsc className="w-5 h-5" />}
             </button>
@@ -208,8 +208,8 @@ export default function DocumentsPage() {
               onClick={() => setViewMode('list')}
               className={`p-2.5 border transition-colors ${
                 viewMode === 'list'
-                  ? 'bg-blood-500/20 border-blood-500 text-blood-400'
-                  : 'bg-[rgba(0,10,28,0.85)] border-[rgba(80,180,255,0.15)] text-zinc-400'
+                  ? 'bg-blood-950 border-blood-500 text-blood-400'
+                  : 'bg-[#000a1c] border-[rgba(80,180,255,0.15)] text-zinc-400'
               }`}
             >
               <List className="w-5 h-5" />
@@ -218,8 +218,8 @@ export default function DocumentsPage() {
               onClick={() => setViewMode('grid')}
               className={`p-2.5 border border-l-0 transition-colors ${
                 viewMode === 'grid'
-                  ? 'bg-blood-500/20 border-blood-500 text-blood-400'
-                  : 'bg-[rgba(0,10,28,0.85)] border-[rgba(80,180,255,0.15)] text-zinc-400'
+                  ? 'bg-blood-950 border-blood-500 text-blood-400'
+                  : 'bg-[#000a1c] border-[rgba(80,180,255,0.15)] text-zinc-400'
               }`}
             >
               <Grid className="w-5 h-5" />
@@ -235,13 +235,13 @@ export default function DocumentsPage() {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
             >
-              <div className="bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-4 flex flex-wrap gap-6">
+              <div className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4 flex flex-wrap gap-6">
                 <div>
                   <label className="block text-sm text-zinc-400 mb-2">Category</label>
                   <select
                     value={selectedCategory}
                     onChange={(e) => { setSelectedCategory(e.target.value); setVisibleCount(ITEMS_PER_PAGE); }}
-                    className="bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-white px-3 py-2 focus:border-blood-500 focus:outline-none"
+                    className="bg-[#000c20] border border-[rgba(60,160,255,0.18)] text-white px-3 py-2 focus:border-blood-500 focus:outline-none"
                   >
                     {categories.map(cat => (
                       <option key={cat} value={cat}>{cat}</option>
@@ -253,7 +253,7 @@ export default function DocumentsPage() {
                   <select
                     value={selectedClassification}
                     onChange={(e) => { setSelectedClassification(e.target.value); setVisibleCount(ITEMS_PER_PAGE); }}
-                    className="bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-white px-3 py-2 focus:border-blood-500 focus:outline-none"
+                    className="bg-[#000c20] border border-[rgba(60,160,255,0.18)] text-white px-3 py-2 focus:border-blood-500 focus:outline-none"
                   >
                     {classifications.map(cls => (
                       <option key={cls} value={cls}>
@@ -267,7 +267,7 @@ export default function DocumentsPage() {
                   <select
                     value={selectedInvestigation}
                     onChange={(e) => { setSelectedInvestigation(e.target.value); setVisibleCount(ITEMS_PER_PAGE); }}
-                    className="bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-white px-3 py-2 focus:border-blood-500 focus:outline-none max-w-[280px]"
+                    className="bg-[#000c20] border border-[rgba(60,160,255,0.18)] text-white px-3 py-2 focus:border-blood-500 focus:outline-none max-w-[280px]"
                   >
                     {investigations.map(inv => (
                       <option key={inv} value={inv}>{inv}</option>
@@ -296,10 +296,10 @@ export default function DocumentsPage() {
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: Math.min(index * 0.02, 0.5) }}
-                className="bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-4 hover:border-[rgba(60,160,255,0.18)] transition-colors group"
+                className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4 hover:border-[rgba(60,160,255,0.18)] transition-colors group"
               >
                 <div className="flex items-start gap-4">
-                  <div className="bg-[rgba(0,12,32,0.85)] p-3 shrink-0">
+                  <div className="bg-[#000c20] p-3 shrink-0">
                     <TypeIcon className="w-6 h-6 text-zinc-400" />
                   </div>
                   <div className="flex-1 min-w-0">
@@ -323,10 +323,10 @@ export default function DocumentsPage() {
                         )}
                         <span className={`px-2 py-0.5 text-xs ${
                           doc.classification === 'public'
-                            ? 'bg-blood-500/20 text-blood-400'
+                            ? 'bg-blood-950 text-blood-400'
                             : doc.classification === 'restricted'
-                            ? 'bg-zinc-400/20 text-zinc-300'
-                            : 'bg-blood-500/20 text-blood-400'
+                            ? 'bg-zinc-900 text-zinc-300'
+                            : 'bg-blood-950 text-blood-400'
                         }`}>
                           {doc.classification}
                         </span>
@@ -349,7 +349,7 @@ export default function DocumentsPage() {
                     href={doc.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 px-3 py-2 bg-blood-500/20 text-blood-400 hover:bg-blood-500/30 transition-colors text-sm shrink-0"
+                    className="flex items-center gap-1.5 px-3 py-2 bg-blood-950 text-blood-400 hover:bg-blood-950 transition-colors text-sm shrink-0"
                   >
                     <ExternalLink className="w-4 h-4" />
                     <span className="hidden sm:inline">Source</span>
@@ -370,18 +370,18 @@ export default function DocumentsPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: Math.min(index * 0.03, 0.5) }}
-                className="bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-5 hover:border-[rgba(60,160,255,0.18)] transition-colors"
+                className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-5 hover:border-[rgba(60,160,255,0.18)] transition-colors"
               >
                 <div className="flex items-start justify-between mb-3">
-                  <div className="bg-[rgba(0,12,32,0.85)] p-2">
+                  <div className="bg-[#000c20] p-2">
                     <TypeIcon className="w-5 h-5 text-zinc-400" />
                   </div>
                   <span className={`px-2 py-0.5 text-xs ${
                     doc.classification === 'public'
-                      ? 'bg-blood-500/20 text-blood-400'
+                      ? 'bg-blood-950 text-blood-400'
                       : doc.classification === 'restricted'
-                      ? 'bg-zinc-400/20 text-zinc-300'
-                      : 'bg-blood-500/20 text-blood-400'
+                      ? 'bg-zinc-900 text-zinc-300'
+                      : 'bg-blood-950 text-blood-400'
                   }`}>
                     {doc.classification}
                   </span>
@@ -404,7 +404,7 @@ export default function DocumentsPage() {
                   href={doc.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full py-2 bg-blood-500/20 text-blood-400 hover:bg-blood-500/30 text-sm transition-colors flex items-center justify-center gap-2"
+                  className="w-full py-2 bg-blood-950 text-blood-400 hover:bg-blood-950 text-sm transition-colors flex items-center justify-center gap-2"
                 >
                   <ExternalLink className="w-4 h-4" />
                   View Source
@@ -420,7 +420,7 @@ export default function DocumentsPage() {
         <div className="mt-8 text-center">
           <button
             onClick={() => setVisibleCount(prev => prev + ITEMS_PER_PAGE)}
-            className="px-6 py-3 bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-zinc-400 hover:text-white hover:border-zinc-600 transition-colors"
+            className="px-6 py-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-zinc-400 hover:text-white hover:border-zinc-600 transition-colors"
           >
             Load More ({filteredDocuments.length - visibleCount} remaining)
           </button>

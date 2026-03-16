@@ -27,22 +27,22 @@ const variantConfig: Record<AlertVariant, {
  icon: ReactNode;
 }> = {
  info: {
- containerClass: 'bg-blood-900/20 border-blood-700/50 text-blood-300',
+ containerClass: 'bg-blood-900 border-blood-700 text-blood-300',
  iconClass: 'text-blood-400',
  icon: <Info className="w-5 h-5"/>,
  },
  success: {
- containerClass: 'bg-blood-900/20 border-blood-700/50 text-blood-300',
+ containerClass: 'bg-blood-900 border-blood-700 text-blood-300',
  iconClass: 'text-blood-400',
  icon: <CheckCircle className="w-5 h-5"/>,
  },
  warning: {
- containerClass: 'bg-zinc-800/20 border-zinc-600/50 text-zinc-300',
+ containerClass: 'bg-zinc-900 border-zinc-600/50 text-zinc-300',
  iconClass: 'text-zinc-300',
  icon: <AlertTriangle className="w-5 h-5"/>,
  },
  error: {
- containerClass: 'bg-blood-900/20 border-blood-700/50 text-blood-300',
+ containerClass: 'bg-blood-900 border-blood-700 text-blood-300',
  iconClass: 'text-blood-400',
  icon: <AlertCircle className="w-5 h-5"/>,
  },
@@ -208,10 +208,10 @@ export function Callout({
  <div
  className={cn(
  'relative pl-4 py-3 pr-4 border-l-4',
- variant === 'info' && 'border-l-blood-500 bg-blood-900/10',
- variant === 'success' && 'border-l-blood-500 bg-blood-900/10',
- variant === 'warning' && 'border-l-zinc-400 bg-zinc-800/10',
- variant === 'error' && 'border-l-blood-500 bg-blood-900/10',
+ variant === 'info' && 'border-l-blood-500 bg-blood-950',
+ variant === 'success' && 'border-l-blood-500 bg-blood-950',
+ variant === 'warning' && 'border-l-zinc-400 bg-zinc-900',
+ variant === 'error' && 'border-l-blood-500 bg-blood-950',
  className
  )}
  >

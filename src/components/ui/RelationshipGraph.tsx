@@ -130,21 +130,21 @@ export default function RelationshipGraph({
  <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
  <button
  onClick={handleZoomIn}
- className="p-2 bg-[rgba(0,10,28,0.85)] hover:bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
  aria-label="Zoom in"
  >
  <ZoomIn className="w-4 h-4"/>
  </button>
  <button
  onClick={handleZoomOut}
- className="p-2 bg-[rgba(0,10,28,0.85)] hover:bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
  aria-label="Zoom out"
  >
  <ZoomOut className="w-4 h-4"/>
  </button>
  <button
  onClick={handleResetZoom}
- className="p-2 bg-[rgba(0,10,28,0.85)] hover:bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
  aria-label="Reset view"
  >
  <Maximize2 className="w-4 h-4"/>
@@ -275,7 +275,7 @@ export default function RelationshipGraph({
  initial={{ opacity: 0, y: 10 }}
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: 10 }}
- className="absolute top-4 left-4 p-3 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] shadow-lg z-20 max-w-xs"
+ className="absolute top-4 left-4 p-3 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] shadow-lg z-20 max-w-xs"
  >
  {(() => {
  const node = nodes.find(n => n.id === hoveredNode);

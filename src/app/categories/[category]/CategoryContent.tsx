@@ -8,10 +8,10 @@ import GlitchText from '@/components/effects/GlitchText';
 import { categoryDatabase } from '@/data/categories';
 
 const riskColors: Record<string, string> = {
-  critical: 'text-blood-500 bg-blood-500/10 border-blood-500/30',
-  high: 'text-blood-700 bg-blood-700/10 border-blood-700/30',
-  medium: 'text-zinc-400 bg-zinc-400/10 border-zinc-400/30',
-  low: 'text-zinc-500 bg-zinc-500/10 border-zinc-500/30',
+  critical: 'text-blood-500 bg-blood-950 border-blood-800',
+  high: 'text-blood-700 bg-blood-950 border-blood-800',
+  medium: 'text-zinc-400 bg-zinc-900 border-zinc-700',
+  low: 'text-zinc-500 bg-zinc-900 border-zinc-700',
 };
 
 const riskIcons: Record<string, typeof Skull> = {
@@ -54,7 +54,7 @@ export default function CategoryContent() {
             <div>
               <div className="flex items-center gap-3 mb-3">
                 <Scale className="w-8 h-8 text-blood-500" />
-                <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/10 text-blood-500">
+                <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-800 bg-blood-950 text-blood-500">
                   Category Index
                 </span>
               </div>
@@ -75,7 +75,7 @@ export default function CategoryContent() {
       </div>
 
       {/* Stats Bar */}
-      <div className="border-b border-[rgba(60,160,255,0.08)] bg-zinc-950/50">
+      <div className="border-b border-[rgba(60,160,255,0.08)] bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="flex items-center gap-2">
@@ -120,17 +120,17 @@ export default function CategoryContent() {
               >
                 <Link
                   href={`/entities/individuals/${person.slug}`}
-                  className={`block p-4 border bg-zinc-950/50 hover:bg-[rgba(0,10,28,0.82)] transition-all group ${
+                  className={`block p-4 border bg-zinc-950 hover:bg-[#000a1c] transition-all group ${
                     person.riskLevel === 'critical'
-                      ? 'border-blood-500/20 hover:border-blood-500/50'
+                      ? 'border-blood-800 hover:border-blood-500/50'
                       : person.riskLevel === 'high'
-                      ? 'border-blood-700/20 hover:border-blood-700/50'
+                      ? 'border-blood-800 hover:border-blood-700'
                       : 'border-[rgba(80,180,255,0.15)] hover:border-zinc-600'
                   }`}
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex items-start gap-3 flex-1 min-w-0">
-                      <div className="w-10 h-10 bg-[rgba(0,10,28,0.85)] flex items-center justify-center flex-shrink-0">
+                      <div className="w-10 h-10 bg-[#000a1c] flex items-center justify-center flex-shrink-0">
                         <User className="w-5 h-5 text-zinc-600 group-hover:text-blood-500 transition-colors" />
                       </div>
                       <div className="min-w-0">

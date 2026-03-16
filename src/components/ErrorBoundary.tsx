@@ -50,9 +50,9 @@ export class ErrorBoundary extends Component<Props, State> {
  return (
  <div className="min-h-screen bg-black flex items-center justify-center p-4">
  <div className="max-w-lg w-full">
- <div className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] p-8 text-center">
+ <div className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-8 text-center">
  {/* Icon */}
- <div className="inline-flex items-center justify-center w-16 h-16 bg-blood-500/20 mb-6">
+ <div className="inline-flex items-center justify-center w-16 h-16 bg-blood-950 mb-6">
  <AlertTriangle className="w-8 h-8 text-blood-500"/>
  </div>
 
@@ -70,7 +70,7 @@ export class ErrorBoundary extends Component<Props, State> {
  {/* Error details (dev only) */}
  {process.env.NODE_ENV === 'development' && this.state.error && (
  <div className="mb-6 text-left">
- <details className="bg-[rgba(0,12,32,0.80)] border border-[rgba(60,160,255,0.18)] p-4">
+ <details className="bg-[#000c20] border border-[rgba(60,160,255,0.18)] p-4">
  <summary className="text-blood-400 cursor-pointer flex items-center gap-2">
  <Bug className="w-4 h-4"/>
  Error Details
@@ -100,7 +100,7 @@ export class ErrorBoundary extends Component<Props, State> {
  </button>
  <Link
  href="/"
- className="inline-flex items-center justify-center gap-2 bg-[rgba(0,12,32,0.85)] hover:bg-zinc-700 text-white font-semibold px-6 py-3 transition-colors"
+ className="inline-flex items-center justify-center gap-2 bg-[#000c20] hover:bg-zinc-700 text-white font-semibold px-6 py-3 transition-colors"
  >
  <Home className="w-5 h-5"/>
  Go Home
@@ -153,7 +153,7 @@ export function ErrorDisplay({
  className = '',
 }: ErrorDisplayProps) {
  return (
- <div className={`bg-blood-900/20 border border-blood-800/50 p-6 text-center ${className}`}>
+ <div className={`bg-blood-900 border border-blood-800/50 p-6 text-center ${className}`}>
  <AlertTriangle className="w-8 h-8 text-blood-500 mx-auto mb-3"/>
  <h3 className="text-lg font-semibold text-blood-400 mb-1">{title}</h3>
  <p className="text-blood-400/70 text-sm mb-4">{message}</p>

@@ -4,22 +4,22 @@
 export const SEVERITY_CONFIG = {
  critical: {
  label: '⚠ CRITICAL',
- color: 'bg-blood-900/50 text-blood-500 border-blood-700',
+ color: 'bg-blood-900 text-blood-500 border-blood-700',
  description: 'Immediate threat to public safety',
  },
  high: {
  label: 'HIGH THREAT',
- color: 'bg-blood-900/40 text-blood-500 border-blood-700',
+ color: 'bg-blood-900 text-blood-500 border-blood-700',
  description: 'Significant documented harm',
  },
  medium: {
  label: 'DOCUMENTED',
- color: 'bg-blood-950/40 text-blood-600 border-blood-800',
+ color: 'bg-blood-950 text-blood-600 border-blood-800',
  description: 'Verified concerns requiring attention',
  },
  low: {
  label: 'ARCHIVED',
- color: 'bg-[rgba(0,10,28,0.82)] text-zinc-400 border-[rgba(60,160,255,0.18)]',
+ color: 'bg-[#000a1c] text-zinc-400 border-[rgba(60,160,255,0.18)]',
  description: 'Historical or resolved issues',
  },
 } as const;
@@ -30,22 +30,22 @@ export const SEVERITY_CONFIG = {
 export const RISK_CONFIG = {
  extreme: {
  label: 'EXTREME THREAT',
- color: 'text-blood-500 bg-blood-900/50 border-blood-700',
+ color: 'text-blood-500 bg-blood-900 border-blood-700',
  description: 'Direct involvement in documented harm',
  },
  high: {
  label: 'HIGH THREAT',
- color: 'text-blood-600 bg-blood-900/30 border-blood-700',
+ color: 'text-blood-600 bg-blood-900 border-blood-700',
  description: 'Significant pattern of harmful actions',
  },
  moderate: {
  label: 'DOCUMENTED',
- color: 'text-zinc-400 bg-[rgba(0,10,28,0.82)] border-zinc-600',
+ color: 'text-zinc-400 bg-[#000a1c] border-zinc-600',
  description: 'Connection to investigations under review',
  },
  low: {
  label: 'ARCHIVED',
- color: 'text-zinc-500 bg-zinc-900/30 border-[rgba(60,160,255,0.18)]',
+ color: 'text-zinc-500 bg-zinc-900 border-[rgba(60,160,255,0.18)]',
  description: 'Minor or historical involvement',
  },
 } as const;
@@ -105,12 +105,12 @@ export const VERIFICATION_STATUS = {
  },
  pending: {
  label: 'Pending',
- color: 'text-white/40 bg-white/5',
+ color: 'text-white/40 bg-[#000819]',
  icon: 'Clock',
  },
  unverified: {
  label: 'Unverified',
- color: 'text-white/30 bg-white/5',
+ color: 'text-white/30 bg-[#000819]',
  icon: 'HelpCircle',
  },
 } as const;

@@ -116,7 +116,7 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="bg-[rgba(0,12,32,0.80)] border border-[rgba(60,160,255,0.18)] p-4"
+ className="bg-[#000c20] border border-[rgba(60,160,255,0.18)] p-4"
  >
  <div className="flex items-start justify-between mb-2">
  <div
@@ -244,7 +244,7 @@ function ChartCard({ chart }: ChartCardProps) {
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  className={cn(
- 'bg-[rgba(0,12,32,0.80)] border border-[rgba(60,160,255,0.18)] p-4',
+ 'bg-[#000c20] border border-[rgba(60,160,255,0.18)] p-4',
  sizeClasses[chart.size || 'medium']
  )}
  >
@@ -327,7 +327,7 @@ export default function MetricsDashboard({
  <button
  onClick={onRefresh}
  aria-label="Refresh data"
- className="p-2 text-zinc-400 hover:text-white bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
  >
  <RefreshCw className="w-4 h-4"/>
  </button>
@@ -338,7 +338,7 @@ export default function MetricsDashboard({
  <button
  onClick={onExport}
  aria-label="Export data"
- className="p-2 text-zinc-400 hover:text-white bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
  >
  <Download className="w-4 h-4"/>
  </button>

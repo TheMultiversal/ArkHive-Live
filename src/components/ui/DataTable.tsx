@@ -172,7 +172,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  setCurrentPage(1);
  }}
  placeholder={searchPlaceholder}
- className="w-full pl-10 pr-4 py-2 bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full pl-10 pr-4 py-2 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  />
  </div>
  <div className="text-sm text-zinc-500">
@@ -185,7 +185,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  <div className="overflow-x-auto border border-[rgba(80,180,255,0.15)]">
  <table className="w-full">
  <thead className={cn(
- 'bg-[rgba(0,10,28,0.85)]',
+ 'bg-[#000a1c]',
  stickyHeader && 'sticky top-0 z-10'
  )}>
  <tr>
@@ -195,7 +195,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  type="checkbox"
  checked={isAllSelected}
  onChange={handleSelectAll}
- className="w-4 h-4 bg-[rgba(0,12,32,0.85)] border-zinc-600 text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
+ className="w-4 h-4 bg-[#000c20] border-zinc-600 text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
  />
  </th>
  )}
@@ -251,17 +251,17 @@ export default function DataTable<T extends Record<string, unknown>>({
  <tr key={`skeleton-${index}`}>
  {selectable && (
  <td className="px-4 py-4 border-b border-[rgba(60,160,255,0.08)]">
- <div className="w-4 h-4 bg-[rgba(0,12,32,0.85)] animate-pulse"/>
+ <div className="w-4 h-4 bg-[#000c20] animate-pulse"/>
  </td>
  )}
  {columns.map((column) => (
  <td key={String(column.key)} className="px-4 py-4 border-b border-[rgba(60,160,255,0.08)]">
- <div className="h-4 bg-[rgba(0,12,32,0.85)] animate-pulse w-3/4"/>
+ <div className="h-4 bg-[#000c20] animate-pulse w-3/4"/>
  </td>
  ))}
  {actions && (
  <td className="px-4 py-4 border-b border-[rgba(60,160,255,0.08)]">
- <div className="w-6 h-6 bg-[rgba(0,12,32,0.85)] animate-pulse"/>
+ <div className="w-6 h-6 bg-[#000c20] animate-pulse"/>
  </td>
  )}
  </tr>
@@ -285,10 +285,10 @@ export default function DataTable<T extends Record<string, unknown>>({
  transition={{ duration: 0.15, delay: index * 0.02 }}
  className={cn(
  'group',
- striped && index % 2 === 1 && 'bg-zinc-900/30',
- hoverable && 'hover:bg-[rgba(0,12,32,0.80)]',
+ striped && index % 2 === 1 && 'bg-zinc-900',
+ hoverable && 'hover:bg-[#000c20]',
  onRowClick && 'cursor-pointer',
- isSelected(row) && 'bg-blood-900/20'
+ isSelected(row) && 'bg-blood-900'
  )}
  onClick={() => onRowClick?.(row)}
  >
@@ -304,7 +304,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  e.stopPropagation();
  handleSelectRow(row);
  }}
- className="w-4 h-4 bg-[rgba(0,12,32,0.85)] border-zinc-600 text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
+ className="w-4 h-4 bg-[#000c20] border-zinc-600 text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
  />
  </td>
  )}
@@ -385,7 +385,7 @@ export default function DataTable<T extends Record<string, unknown>>({
  'w-8 h-8 text-sm transition-colors',
  currentPage === pageNum
  ? 'bg-blood-600 text-white'
- : 'text-zinc-400 hover:text-white hover:bg-[rgba(0,12,32,0.85)]'
+ : 'text-zinc-400 hover:text-white hover:bg-[#000c20]'
  )}
  >
  {pageNum}

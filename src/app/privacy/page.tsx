@@ -26,7 +26,7 @@ export default function PrivacyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.1 }}
- className="bg-blood-900/20 border border-blood-700/50 p-6 mb-12"
+ className="bg-blood-900 border border-blood-700 p-6 mb-12"
  >
  <h2 className="text-xl font-semibold text-blood-400 mb-4 flex items-center gap-2">
  <Lock className="w-5 h-5"/>
@@ -116,7 +116,7 @@ export default function PrivacyPage() {
  <Eye className="w-6 h-6 text-blood-500"/>
  Source Protection
  </h2>
- <div className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] p-6 text-zinc-300 space-y-4">
+ <div className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-6 text-zinc-300 space-y-4">
  <p className="font-semibold text-white">
  Protecting our sources is our highest priority.
  </p>
@@ -219,7 +219,7 @@ export default function PrivacyPage() {
  <AlertTriangle className="w-6 h-6 text-zinc-400"/>
  Legal Requests
  </h2>
- <div className="bg-zinc-800/20 border border-zinc-600/50 p-6 text-zinc-300/90 space-y-4">
+ <div className="bg-zinc-900 border border-zinc-600/50 p-6 text-zinc-300/90 space-y-4">
  <p>
  We will challenge any legal request for user or source information that we 
  believe is overbroad, lacks proper authority, or violates press freedom.

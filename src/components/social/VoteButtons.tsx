@@ -90,8 +90,8 @@ export default function VoteButtons({
  'relative transition-all',
  sizeClasses[size],
  userVote === 'up'
- ? 'text-blood-500 bg-blood-500/10'
- : 'text-zinc-500 hover:text-blood-500 hover:bg-blood-500/5',
+ ? 'text-blood-500 bg-blood-950'
+ : 'text-zinc-500 hover:text-blood-500 hover:bg-blood-950',
  disabled && 'cursor-not-allowed opacity-50'
  )}
  >
@@ -108,7 +108,7 @@ export default function VoteButtons({
  initial={{ opacity: 1, scale: 0 }}
  animate={{ opacity: 0, scale: 2 }}
  transition={{ duration: 0.5 }}
- className="absolute inset-0 bg-blood-500/30"
+ className="absolute inset-0 bg-blood-950"
  />
  )}
  </button>
@@ -163,8 +163,8 @@ export default function VoteButtons({
  'relative transition-all',
  sizeClasses[size],
  userVote === 'down'
- ? 'text-blood-500 bg-blood-500/10'
- : 'text-zinc-500 hover:text-blood-500 hover:bg-blood-500/5',
+ ? 'text-blood-500 bg-blood-950'
+ : 'text-zinc-500 hover:text-blood-500 hover:bg-blood-950',
  disabled && 'cursor-not-allowed opacity-50'
  )}
  >
@@ -181,7 +181,7 @@ export default function VoteButtons({
  initial={{ opacity: 1, scale: 0 }}
  animate={{ opacity: 0, scale: 2 }}
  transition={{ duration: 0.5 }}
- className="absolute inset-0 bg-blood-500/30"
+ className="absolute inset-0 bg-blood-950"
  />
  )}
  </button>
@@ -214,7 +214,7 @@ export function SimpleVoteButton({
 }: SimpleVoteButtonProps) {
  const [animating, setAnimating] = useState(false);
  const Icon = direction === 'up' ? ThumbsUp : ThumbsDown;
- const activeColor = direction === 'up' ? 'text-blood-500 bg-blood-500/10' : 'text-blood-500 bg-blood-500/10';
+ const activeColor = direction === 'up' ? 'text-blood-500 bg-blood-950' : 'text-blood-500 bg-blood-950';
  const hoverColor = direction === 'up' ? 'hover:text-blood-500' : 'hover:text-blood-500';
 
  const sizeClasses = {
@@ -246,7 +246,7 @@ export function SimpleVoteButton({
  className={cn(
  'inline-flex items-center transition-all',
  sizeClasses[size],
- voted ? activeColor : cn('text-zinc-500 bg-[rgba(0,12,32,0.85)]', hoverColor),
+ voted ? activeColor : cn('text-zinc-500 bg-[#000c20]', hoverColor),
  disabled && 'cursor-not-allowed opacity-50',
  className
  )}

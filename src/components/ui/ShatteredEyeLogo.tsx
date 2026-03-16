@@ -63,15 +63,15 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  >
  {/* Outer atmospheric glow - multiple layers */}
  <div className="absolute inset-0 scale-150">
- <div className="absolute inset-0 bg-blood-600/20 blur-xl animate-pulse"style={{ animationDuration: '3s' }} />
- <div className="absolute inset-0 bg-blood-700/15 blur-2xl animate-pulse"style={{ animationDuration: '4s', animationDelay: '1s' }} />
+ <div className="absolute inset-0 bg-blood-900 blur-xl animate-pulse"style={{ animationDuration: '3s' }} />
+ <div className="absolute inset-0 bg-blood-950 blur-2xl animate-pulse"style={{ animationDuration: '4s', animationDelay: '1s' }} />
  </div>
 
  {/* Glitch layers */}
  {glitchFrame > 0 && (
  <>
- <div className="absolute inset-0 bg-blood-600/30 translate-x-1"/>
- <div className="absolute inset-0 bg-blood-500/20 -translate-x-1"/>
+ <div className="absolute inset-0 bg-blood-900 translate-x-1"/>
+ <div className="absolute inset-0 bg-blood-950 -translate-x-1"/>
  </>
  )}
 
@@ -277,7 +277,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
 
  {/* Glitch scan line */}
  <div 
- className="absolute left-0 right-0 h-[2px] bg-blood-600/30 pointer-events-none"
+ className="absolute left-0 right-0 h-[2px] bg-blood-900 pointer-events-none"
  style={{ 
  top: `${(shatterPhase * 2) % 100}%`,
  boxShadow: '0 0 10px rgba(0, 45, 107, 0.5)'
@@ -286,12 +286,12 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
 
  {/* Corner fracture marks */}
  <div className="absolute top-1 left-1 w-4 h-4">
- <div className="absolute top-0 left-2 w-[1px] h-3 bg-blood-600/40 rotate-45"/>
- <div className="absolute top-2 left-0 w-3 h-[1px] bg-blood-600/40 rotate-45"/>
+ <div className="absolute top-0 left-2 w-[1px] h-3 bg-blood-900 rotate-45"/>
+ <div className="absolute top-2 left-0 w-3 h-[1px] bg-blood-900 rotate-45"/>
  </div>
  <div className="absolute top-1 right-1 w-4 h-4">
- <div className="absolute top-0 right-2 w-[1px] h-3 bg-blood-600/40 -rotate-45"/>
- <div className="absolute top-2 right-0 w-3 h-[1px] bg-blood-600/40 -rotate-45"/>
+ <div className="absolute top-0 right-2 w-[1px] h-3 bg-blood-900 -rotate-45"/>
+ <div className="absolute top-2 right-0 w-3 h-[1px] bg-blood-900 -rotate-45"/>
  </div>
  </div>
  </div>

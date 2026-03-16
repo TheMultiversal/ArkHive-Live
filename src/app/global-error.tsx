@@ -48,7 +48,7 @@ Stack: ${error.stack || 'N/A'}
  duration: 2, 
  repeat: Infinity,
  }}
- className="w-20 h-20 mx-auto mb-6 bg-blood-500/20 flex items-center justify-center"
+ className="w-20 h-20 mx-auto mb-6 bg-blood-950 flex items-center justify-center"
  >
  <AlertTriangle className="w-10 h-10 text-blood-500"/>
  </motion.div>
@@ -64,7 +64,7 @@ Stack: ${error.stack || 'N/A'}
  </p>
 
  {/* Error Details */}
- <div className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] p-4 mb-6">
+ <div className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4 mb-6">
  <div className="flex items-center justify-between mb-2">
  <div className="flex items-center gap-2 text-blood-400">
  <Bug className="w-4 h-4"/>
@@ -104,7 +104,7 @@ Stack: ${error.stack || 'N/A'}
  <motion.button
  whileHover={{ scale: 1.02 }}
  whileTap={{ scale: 0.98 }}
- className="w-full px-6 py-3 bg-[rgba(0,12,32,0.85)] text-zinc-300 font-medium flex items-center justify-center gap-2 hover:bg-zinc-700 transition-colors"
+ className="w-full px-6 py-3 bg-[#000c20] text-zinc-300 font-medium flex items-center justify-center gap-2 hover:bg-zinc-700 transition-colors"
  >
  <Home className="w-4 h-4"/>
  Return Home

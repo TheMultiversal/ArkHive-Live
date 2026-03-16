@@ -56,10 +56,10 @@ const defaultInvestigationData: InvestigationData = {
 };
 
 const severityColors: Record<string, string> = {
-  critical: "bg-blood-600/20 text-blood-400 border-blood-600/30",
-  high: "bg-blood-700/20 text-blood-500 border-blood-700/30",
-  medium: "bg-blood-600/20 text-blood-500 border-blood-600/30",
-  low: "bg-blood-500/20 text-blood-400 border-blood-500/30",
+  critical: "bg-blood-900 text-blood-400 border-blood-600",
+  high: "bg-blood-950 text-blood-500 border-blood-700",
+  medium: "bg-blood-900 text-blood-500 border-blood-600",
+  low: "bg-blood-950 text-blood-400 border-blood-500",
 };
 
 export default function InvestigationContent() {
@@ -95,7 +95,7 @@ export default function InvestigationContent() {
                   <AlertTriangle className="w-3 h-3" />
                   {investigationData.severity.toUpperCase()}
                 </span>
-                <span className="px-3 py-1.5 bg-[rgba(0,10,28,0.85)] text-zinc-400 text-xs font-medium border border-[rgba(80,180,255,0.15)]">
+                <span className="px-3 py-1.5 bg-[#000a1c] text-zinc-400 text-xs font-medium border border-[rgba(80,180,255,0.15)]">
                   {investigationData.category}
                 </span>
               </div>
@@ -118,7 +118,7 @@ export default function InvestigationContent() {
               </div>
 
               <div className="flex flex-wrap items-center gap-3">
-                <button className="flex items-center gap-2 px-4 py-2 bg-[rgba(0,10,28,0.85)] hover:bg-[rgba(0,12,32,0.85)] border border-[rgba(80,180,255,0.15)] text-white text-sm transition-colors">
+                <button className="flex items-center gap-2 px-4 py-2 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(80,180,255,0.15)] text-white text-sm transition-colors">
                   <Share2 className="w-4 h-4" />
                   Share
                 </button>
@@ -142,8 +142,8 @@ export default function InvestigationContent() {
                   }}
                   className={`flex items-center gap-2 px-4 py-2 border text-sm transition-colors ${
                     saved
-                      ? 'bg-blood-700/20 border-blood-700 text-blood-400 hover:bg-blood-700/30'
-                      : 'bg-[rgba(0,10,28,0.85)] hover:bg-[rgba(0,12,32,0.85)] border-[rgba(80,180,255,0.15)] text-white'
+                      ? 'bg-blood-900 border-blood-700 text-blood-400 hover:bg-blood-800'
+                      : 'bg-[#000a1c] hover:bg-[#000c20] border-[rgba(80,180,255,0.15)] text-white'
                   }`}
                 >
                   {saved ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
@@ -177,7 +177,7 @@ export default function InvestigationContent() {
               </h3>
               <div className="flex flex-wrap gap-2">
                 {investigationData.tags.map((tag) => (
-                  <Link key={tag} href={`/investigations?tag=${encodeURIComponent(tag)}`} className="px-3 py-1.5 bg-[rgba(0,10,28,0.85)] hover:bg-[rgba(0,12,32,0.85)] text-zinc-400 text-sm transition-colors">
+                  <Link key={tag} href={`/investigations?tag=${encodeURIComponent(tag)}`} className="px-3 py-1.5 bg-[#000a1c] hover:bg-[#000c20] text-zinc-400 text-sm transition-colors">
                     {tag}
                   </Link>
                 ))}
@@ -191,7 +191,7 @@ export default function InvestigationContent() {
               </h3>
               <div className="space-y-3">
                 {investigationData.sources.map((source, index) => (
-                  <a key={index} href={source.url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] hover:bg-[rgba(0,10,28,0.85)] transition-colors group">
+                  <a key={index} href={source.url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-3 bg-[#000a1c] hover:bg-[#000a1c] transition-colors group">
                     <div className="flex items-center gap-3">
                       <FileText className="w-5 h-5 text-zinc-500" />
                       <div>

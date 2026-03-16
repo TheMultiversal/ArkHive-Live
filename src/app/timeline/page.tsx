@@ -3568,8 +3568,8 @@ export default function TimelinePage() {
  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header */}
  <div className="py-12">
- <div className="border-2 border-blood-800/50 bg-[rgba(0,8,25,0.85)] p-8 text-center">
- <div className="w-16 h-16 mx-auto mb-6 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
+ <div className="border-2 border-blood-800/50 bg-[#000819] p-8 text-center">
+ <div className="w-16 h-16 mx-auto mb-6 border-2 border-blood-700 bg-blood-950 flex items-center justify-center">
  <Calendar className="w-8 h-8 text-blood-600"/>
  </div>
  <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-4">
@@ -3594,7 +3594,7 @@ export default function TimelinePage() {
  onClick={() => setFilter("all")}
  className={`px-3 py-1 text-sm border transition-colors ${
  filter ==="all"
- ?"border-blood-500 bg-blood-500/20 text-blood-400"
+ ?"border-blood-500 bg-blood-950 text-blood-400"
  :"border-[rgba(60,160,255,0.18)] text-zinc-400 hover:border-zinc-600"
  }`}
  >
@@ -3606,7 +3606,7 @@ export default function TimelinePage() {
  onClick={() => setFilter(cat)}
  className={`px-3 py-1 text-sm border transition-colors ${
  filter === cat 
- ?"border-blood-500 bg-blood-500/20 text-blood-400"
+ ?"border-blood-500 bg-blood-950 text-blood-400"
  :"border-[rgba(60,160,255,0.18)] text-zinc-400 hover:border-zinc-600"
  }`}
  >
@@ -3619,7 +3619,7 @@ export default function TimelinePage() {
  {/* Timeline */}
  <div className="relative">
  {/* Timeline Line */}
- <div className="absolute left-8 top-0 bottom-0 w-[2px] bg-[rgba(0,12,32,0.85)]"/>
+ <div className="absolute left-8 top-0 bottom-0 w-[2px] bg-[#000c20]"/>
  
  {filteredEvents.map((event, i) => (
  <Link 
@@ -3631,13 +3631,13 @@ export default function TimelinePage() {
  <div className={`absolute left-[22px] w-[14px] h-[14px] border-2 border-zinc-600 group-hover:border-blood-500 transition-colors ${severityColors[event.severity]}`} />
  
  {/* Card */}
- <div className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)] p-5 hover:border-blood-500/50 hover:bg-zinc-900/80 transition-all">
+ <div className="border border-[rgba(80,180,255,0.15)] bg-[#000a1c] p-5 hover:border-blood-500/50 hover:bg-zinc-900/80 transition-all">
  <div className="flex items-start justify-between gap-4 mb-2">
  <span className="text-sm text-zinc-500 uppercase tracking-wider">{event.date}</span>
  <span className={`px-2 py-0.5 text-xs uppercase ${
- event.severity === 'critical' ? 'bg-blood-500/20 text-blood-400' :
- event.severity === 'high' ? 'bg-blood-700/20 text-blood-600' :
- 'bg-zinc-400/20 text-zinc-300'
+ event.severity === 'critical' ? 'bg-blood-950 text-blood-400' :
+ event.severity === 'high' ? 'bg-blood-950 text-blood-600' :
+ 'bg-zinc-900 text-zinc-300'
  }`}>
  {event.severity}
  </span>
@@ -3648,7 +3648,7 @@ export default function TimelinePage() {
  <p className="text-zinc-400 text-sm mb-3">{event.description}</p>
  <div className="flex flex-wrap gap-2">
  {event.tags.map(tag => (
- <span key={tag} className="text-xs px-2 py-1 bg-[rgba(0,12,32,0.85)] text-zinc-500">
+ <span key={tag} className="text-xs px-2 py-1 bg-[#000c20] text-zinc-500">
  {tag}
  </span>
  ))}

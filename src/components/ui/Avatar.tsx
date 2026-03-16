@@ -155,7 +155,7 @@ export function AvatarGroup({
  overlapClass[size],
  sizeClasses[size].container,
  sizeClasses[size].text,
- ' flex items-center justify-center font-semibold bg-[rgba(0,12,32,0.85)] text-zinc-400 border-2 border-black'
+ ' flex items-center justify-center font-semibold bg-[#000c20] text-zinc-400 border-2 border-black'
  )}
  >
  +{remaining}

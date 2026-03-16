@@ -17,8 +17,8 @@ export default function AboutPage() {
  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header */}
  <div className="py-12">
- <div className="border-2 border-blood-800/60 bg-[rgba(0,8,25,0.88)] p-8 lg:p-12 text-center">
- <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-800 bg-blood-950/40 flex items-center justify-center">
+ <div className="border-2 border-blood-800/60 bg-[#000819] p-8 lg:p-12 text-center">
+ <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-800 bg-blood-950 flex items-center justify-center">
  <Skull className="w-10 h-10 text-blood-700"/>
  </div>
  <h1 className="text-4xl lg:text-5xl font-black glass-text uppercase tracking-wider mb-4">
@@ -30,23 +30,23 @@ export default function AboutPage() {
  </p>
  {/* Live Stats Bar */}
  <div className="flex flex-wrap justify-center gap-4 text-xs font-mono">
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900/40 bg-black/50">
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
  <span className="text-blood-500 font-bold">826</span>
  <span className="text-zinc-500">Investigations</span>
  </div>
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900/40 bg-black/50">
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
  <span className="text-blood-500 font-bold">2,110</span>
  <span className="text-zinc-500">Individuals Tracked</span>
  </div>
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900/40 bg-black/50">
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
  <span className="text-blood-500 font-bold">141</span>
  <span className="text-zinc-500">Agencies</span>
  </div>
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900/40 bg-black/50">
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
  <span className="text-blood-500 font-bold">209</span>
  <span className="text-zinc-500">Corporations</span>
  </div>
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900/40 bg-black/50">
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
  <span className="text-blood-500 font-bold">155</span>
  <span className="text-zinc-500">Organizations</span>
  </div>
@@ -55,7 +55,7 @@ export default function AboutPage() {
  </div>
 
  {/* What Is ArkHive */}
- <section className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-8 mb-6">
+ <section className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-8 mb-6">
  <div className="flex items-center gap-3 mb-4">
  <Database className="w-6 h-6 text-blood-700"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">What Is ArkHive</h2>
@@ -79,34 +79,34 @@ export default function AboutPage() {
  </section>
 
  {/* Mission */}
- <section className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-8 mb-6">
+ <section className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-8 mb-6">
  <div className="flex items-center gap-3 mb-4">
  <Target className="w-6 h-6 text-blood-700"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">Our Mission</h2>
  </div>
  <div className="space-y-4">
- <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <div className="w-2 bg-blood-700 shrink-0"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Permanent Documentation</h3>
  <p className="text-zinc-500 text-sm">Create an indestructible public record of institutional crimes that cannot be memory-holed, redacted, or classified away. Once it&apos;s in the archive, it stays.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <div className="w-2 bg-blood-700 shrink-0"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Connection Mapping</h3>
  <p className="text-zinc-500 text-sm">Reveal how power operates through networks. A single investigation is a story. 826 investigations cross-referenced with 2,615 entities across 3,140 mapped connections is a map of systemic corruption.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <div className="w-2 bg-blood-700 shrink-0"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Public Accessibility</h3>
  <p className="text-zinc-500 text-sm">No paywalls. No subscriptions. No donor-influenced editorial boards. The archive is free because accountability shouldn&apos;t have a price tag.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <div className="w-2 bg-blood-700 shrink-0"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Pattern Recognition</h3>
@@ -117,7 +117,7 @@ export default function AboutPage() {
  </section>
 
 {/* What We Cover */}
-            <section className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-8 mb-6">
+            <section className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-8 mb-6">
               <div className="flex items-center gap-3 mb-6">
                 <FileText className="w-6 h-6 text-blood-700"/>
                 <h2 className="text-xl font-black glass-text uppercase tracking-wider">What We Cover</h2>
@@ -151,7 +151,7 @@ export default function AboutPage() {
                   { label:"Whistleblower & Transparency", desc:"Whistleblower retaliation, transparency, accountability, cover-ups" },
                   { label:"Animal Welfare & Other", desc:"Animal welfare, assassination, food & agriculture, research ethics" },
  ].map((item) => (
- <div key={item.label} className="flex gap-3 p-3 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div key={item.label} className="flex gap-3 p-3 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <span className="w-1.5 h-1.5 bg-blood-700 shrink-0 mt-1.5"/>
  <div>
  <span className="text-zinc-300 text-xs font-semibold">{item.label}</span>
@@ -163,7 +163,7 @@ export default function AboutPage() {
  </section>
 
  {/* How It Works */}
- <section className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-8 mb-6">
+ <section className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-8 mb-6">
  <div className="flex items-center gap-3 mb-6">
  <Eye className="w-6 h-6 text-blood-700"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">How The Archive Works</h2>
@@ -176,7 +176,7 @@ export default function AboutPage() {
  { num:"04", title:"SEVERITY CLASSIFICATION", desc:"Every investigation is rated by severity: Critical (ongoing serious harm), High (significant documented damage), Medium (systemic issues), or Low (historical documentation). This helps prioritize what demands attention." },
  { num:"05", title:"PERMANENT ARCHIVAL", desc:"Published investigations become part of the permanent archive. They are updated when new information emerges (court rulings, new documents, additional entities identified) but never deleted." },
  ].map((step) => (
- <div key={step.num} className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div key={step.num} className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <div className="text-blood-600 font-black text-xl">{step.num}</div>
  <div>
  <h3 className="font-bold glass-text mb-1 uppercase tracking-wider">{step.title}</h3>
@@ -188,7 +188,7 @@ export default function AboutPage() {
  </section>
 
  {/* Entity Tracking */}
- <section className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-8 mb-6">
+ <section className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-8 mb-6">
  <div className="flex items-center gap-3 mb-4">
  <Users className="w-6 h-6 text-blood-700"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">Entity Tracking System</h2>
@@ -198,7 +198,7 @@ export default function AboutPage() {
  When you open an entity profile, you see every investigation they appear in. The network becomes visible.
  </p>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
- <Link href="/entities/individuals" className="p-5 border border-blood-900/50 bg-blood-950/20 hover:bg-blood-950/40 transition-colors group">
+ <Link href="/entities/individuals" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
  <div className="flex items-center justify-between mb-2">
  <h4 className="text-blood-600 font-bold uppercase tracking-wider">Individuals</h4>
  <span className="text-blood-500 font-mono text-sm font-bold">2,110</span>
@@ -208,7 +208,7 @@ export default function AboutPage() {
  Browse Individuals <ArrowRight className="w-3 h-3"/>
  </span>
  </Link>
- <Link href="/entities/agencies" className="p-5 border border-blood-900/50 bg-blood-950/20 hover:bg-blood-950/40 transition-colors group">
+ <Link href="/entities/agencies" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
  <div className="flex items-center justify-between mb-2">
  <h4 className="text-blood-600 font-bold uppercase tracking-wider">Government Agencies</h4>
  <span className="text-blood-500 font-mono text-sm font-bold">141</span>
@@ -218,7 +218,7 @@ export default function AboutPage() {
  Browse Agencies <ArrowRight className="w-3 h-3"/>
  </span>
  </Link>
- <Link href="/entities/corporations" className="p-5 border border-blood-900/50 bg-blood-950/20 hover:bg-blood-950/40 transition-colors group">
+ <Link href="/entities/corporations" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
  <div className="flex items-center justify-between mb-2">
  <h4 className="text-blood-600 font-bold uppercase tracking-wider">Corporations</h4>
  <span className="text-blood-500 font-mono text-sm font-bold">209</span>
@@ -228,7 +228,7 @@ export default function AboutPage() {
  Browse Corporations <ArrowRight className="w-3 h-3"/>
  </span>
  </Link>
- <Link href="/entities/organizations" className="p-5 border border-blood-900/50 bg-blood-950/20 hover:bg-blood-950/40 transition-colors group">
+ <Link href="/entities/organizations" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
  <div className="flex items-center justify-between mb-2">
  <h4 className="text-blood-600 font-bold uppercase tracking-wider">Organizations</h4>
  <span className="text-blood-500 font-mono text-sm font-bold">155</span>
@@ -242,34 +242,34 @@ export default function AboutPage() {
  </section>
 
  {/* Principles */}
- <section className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-8 mb-6">
+ <section className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-8 mb-6">
  <div className="flex items-center gap-3 mb-6">
  <Scale className="w-6 h-6 text-blood-700"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">Editorial Principles</h2>
  </div>
  <div className="space-y-4">
- <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <Shield className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Source-Based Documentation</h3>
  <p className="text-zinc-500 text-sm">Every investigation cites its sources: court records, government reports, congressional testimony, FOIA documents, and investigative journalism from established outlets. We link to primary documents whenever possible.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <Globe className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Non-Partisan Accountability</h3>
  <p className="text-zinc-500 text-sm">Corruption has no political party. The archive documents crimes regardless of who committed them: Democrat, Republican, foreign government, multinational corporation. Power is the common denominator.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <AlertTriangle className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Living Documents</h3>
  <p className="text-zinc-500 text-sm">Investigations are updated as new information surfaces: new court rulings, declassified documents, whistleblower testimony, or newly identified entities. The archive grows and the picture gets clearer.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900/30">
+ <div className="flex gap-4 p-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900">
  <Zap className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold glass-text mb-1">No Advertising. No Sponsors. No Compromise.</h3>
@@ -280,7 +280,7 @@ export default function AboutPage() {
  </section>
 
  {/* Disclaimer */}
- <section className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-6">
+ <section className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-6">
  <p className="text-zinc-600 text-xs leading-relaxed">
  <span className="text-zinc-500 font-bold">DISCLAIMER:</span> ArkHive is a documentation and research platform.
  Investigations compile publicly available information from cited sources including government reports,
@@ -292,7 +292,7 @@ export default function AboutPage() {
  </section>
 
  {/* CTA */}
- <section className="border-2 border-blood-800/60 bg-[rgba(0,8,25,0.85)] p-8 text-center">
+ <section className="border-2 border-blood-800/60 bg-[#000819] p-8 text-center">
  <div className="w-12 h-12 border-2 border-blood-800 flex items-center justify-center mx-auto mb-4">
  <Lock className="w-6 h-6 text-blood-700"/>
  </div>
@@ -305,7 +305,7 @@ export default function AboutPage() {
  </p>
  <Link
  href="/submit"
- className="inline-flex items-center gap-2 px-8 py-4 border-2 border-blood-700 bg-transparent text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-950/40 transition-all"
+ className="inline-flex items-center gap-2 px-8 py-4 border-2 border-blood-700 bg-transparent text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-950 transition-all"
  >
  Submit Information
  <ArrowRight className="w-5 h-5"/>

@@ -158,10 +158,10 @@ export default function PuertoRicoPage() {
  className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8"
  >
  <div className="flex items-center gap-3 mb-4">
- <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/20 text-blood-400">
+ <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-800 bg-blood-950 text-blood-400">
  {investigation.severity}
  </span>
- <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-500/30 bg-zinc-500/20 text-zinc-400">
+ <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-700 bg-zinc-900 text-zinc-400">
  {investigation.status}
  </span>
  </div>
@@ -177,26 +177,26 @@ export default function PuertoRicoPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.1 }}
- className="border-2 border-blood-800/60 bg-blood-950/20 p-6 mb-8"
+ className="border-2 border-blood-800/60 bg-blood-950 p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Heart className="w-5 h-5 text-blood-500"/>
  American Lives Lost
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
- <div className="text-center p-4 border border-blood-500/30 bg-blood-950/30">
+ <div className="text-center p-4 border border-blood-800 bg-blood-950">
  <p className="text-xs text-zinc-500">Official Death Toll</p>
  <p className="text-4xl font-black text-blood-500">{investigation.deaths.official}</p>
  </div>
- <div className="text-center p-4 border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)]">
+ <div className="text-center p-4 border border-[rgba(80,180,255,0.15)] bg-[#000a1c]">
  <p className="text-xs text-zinc-500">Initial False Claim</p>
  <p className="text-4xl font-black text-zinc-500">{investigation.deaths.initialClaim}</p>
  </div>
- <div className="text-center p-4 border border-zinc-400/30 bg-zinc-900/30">
+ <div className="text-center p-4 border border-zinc-700 bg-zinc-900">
  <p className="text-xs text-zinc-500">Study Estimates</p>
  <p className="text-2xl font-black text-zinc-400">{investigation.deaths.studyRange}</p>
  </div>
- <div className="text-center p-4 border border-blood-500/30 bg-blood-950/30">
+ <div className="text-center p-4 border border-blood-800 bg-blood-950">
  <p className="text-xs text-zinc-500">Trump Claimed</p>
  <p className="text-sm font-bold text-blood-400">{investigation.deaths.trumpClaim}</p>
  </div>
@@ -215,7 +215,7 @@ export default function PuertoRicoPage() {
  </h2>
  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
  {investigation.comparison.map((item, idx) => (
- <div key={idx} className={`p-4 border ${item.location.includes('Puerto Rico') ? 'border-blood-500/50 bg-blood-950/20' : 'border-blood-500/30 bg-blood-950/20'}`}>
+ <div key={idx} className={`p-4 border ${item.location.includes('Puerto Rico') ? 'border-blood-500/50 bg-blood-950' : 'border-blood-800 bg-blood-950'}`}>
  <p className="font-bold glass-text">{item.location}</p>
  <div className="mt-2 space-y-1">
  <p className="text-xs text-zinc-400">Visit: <span className={item.location.includes('Puerto Rico') ? 'text-blood-400' : 'text-blood-400'}>{item.timing}</span></p>
@@ -228,7 +228,7 @@ export default function PuertoRicoPage() {
  </motion.div>
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
 
@@ -247,7 +247,7 @@ export default function PuertoRicoPage() {
  </h2>
  <div className="space-y-4">
  {investigation.trumpActions.map((item, idx) => (
- <div key={idx} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-blood-500 font-mono mb-1">{item.date}</p>
  <p className="font-bold glass-text">{item.action}</p>
  <p className="text-sm text-zinc-400 mt-1">{item.context}</p>
@@ -269,7 +269,7 @@ export default function PuertoRicoPage() {
  </h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
- <div key={idx} className="flex items-start justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="flex items-start justify-between p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  <div className="flex-1">
  {figure.href ? (
  <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">
@@ -280,7 +280,7 @@ export default function PuertoRicoPage() {
  )}
  <p className="text-sm text-zinc-400 mt-1">{figure.role}</p>
  </div>
- <span className="text-xs px-2 py-1 bg-[rgba(0,12,32,0.85)] text-zinc-400 border border-[rgba(60,160,255,0.18)]">
+ <span className="text-xs px-2 py-1 bg-[#000c20] text-zinc-400 border border-[rgba(60,160,255,0.18)]">
  {figure.status}
  </span>
  </div>
@@ -289,7 +289,7 @@ export default function PuertoRicoPage() {
  </motion.div>
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="glass-card p-6">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.div>
 
  {/* Infrastructure Collapse */}
@@ -305,7 +305,7 @@ export default function PuertoRicoPage() {
  </h2>
  <div className="space-y-3">
  {investigation.infrastructure.map((item, idx) => (
- <div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-blood-500/30">
+ <div key={idx} className="p-3 bg-[#000a1c] border border-blood-800">
  <div className="flex justify-between items-start">
  <p className="font-bold text-blood-400">{item.issue}</p>
  </div>
@@ -328,19 +328,19 @@ export default function PuertoRicoPage() {
  Trump&apos;s Death Toll Denial
  </h2>
  <div className="space-y-4">
- <div className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500">GW University Study</p>
  <p className="text-sm text-zinc-300">{investigation.deathDenial.gwStudy}</p>
  </div>
- <div className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500">Harvard Study</p>
  <p className="text-sm text-zinc-300">{investigation.deathDenial.harvardStudy}</p>
  </div>
- <div className="p-4 bg-blood-950/20 border border-blood-500/30">
+ <div className="p-4 bg-blood-950 border border-blood-800">
  <p className="text-xs text-blood-500">Trump&apos;s Response</p>
  <p className="text-sm text-zinc-300 italic">{investigation.deathDenial.trumpResponse}</p>
  </div>
- <div className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500">Reality</p>
  <p className="text-sm text-zinc-300">{investigation.deathDenial.reality}</p>
  </div>
@@ -386,15 +386,15 @@ export default function PuertoRicoPage() {
  <p className="text-xs text-zinc-500 mt-2">in disaster relief blocked</p>
  </div>
  <div className="space-y-3">
- <div className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500">Reason Given</p>
  <p className="text-sm text-zinc-300">{investigation.aidBlocked.reason}</p>
  </div>
- <div className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500">Excuse</p>
  <p className="text-sm text-zinc-300">{investigation.aidBlocked.excuse}</p>
  </div>
- <div className="p-3 bg-blood-950/20 border border-blood-500/30">
+ <div className="p-3 bg-blood-950 border border-blood-800">
  <p className="text-xs text-blood-500">Reality</p>
  <p className="text-sm text-zinc-300">{investigation.aidBlocked.reality}</p>
  </div>
@@ -413,7 +413,7 @@ export default function PuertoRicoPage() {
  </h3>
  <ul className="space-y-2">
  {investigation.keyFacts.map((fact, idx) => (
- <li key={idx} className="text-sm text-zinc-400 flex items-start gap-2 p-2 bg-zinc-900/30">
+ <li key={idx} className="text-sm text-zinc-400 flex items-start gap-2 p-2 bg-zinc-900">
  <span className="text-blood-500 mt-1">•</span>
  <span>{fact}</span>
  </li>
@@ -434,7 +434,7 @@ export default function PuertoRicoPage() {
  </h3>
  <ul className="space-y-2">
  {investigation.federalFailures.map((failure, idx) => (
- <li key={idx} className="text-sm text-zinc-400 flex items-start gap-2 p-2 bg-blood-950/10 border border-blood-500/20">
+ <li key={idx} className="text-sm text-zinc-400 flex items-start gap-2 p-2 bg-blood-950 border border-blood-800">
  <span className="text-blood-500 mt-1">✗</span>
  <span>{failure}</span>
  </li>
@@ -446,7 +446,7 @@ export default function PuertoRicoPage() {
 
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  <motion.div
  initial={{ opacity: 0, x: 20 }}
@@ -464,7 +464,7 @@ export default function PuertoRicoPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[rgba(0,10,28,0.82)] transition-colors"
+ className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#000a1c] transition-colors"
  >
  <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/>
  <div>

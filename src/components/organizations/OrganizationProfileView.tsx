@@ -36,10 +36,10 @@ interface OrganizationProfile {
 }
 
 const riskColors = {
- critical: { bg: 'bg-blood-500/20', border: 'border-blood-500', text: 'text-blood-500' },
- high: { bg: 'bg-blood-700/20', border: 'border-blood-700', text: 'text-blood-700' },
- medium: { bg: 'bg-zinc-400/20', border: 'border-zinc-400', text: 'text-zinc-400' },
- low: { bg: 'bg-blood-500/20', border: 'border-blood-500', text: 'text-blood-500' },
+ critical: { bg: 'bg-blood-950', border: 'border-blood-500', text: 'text-blood-500' },
+ high: { bg: 'bg-blood-950', border: 'border-blood-700', text: 'text-blood-700' },
+ medium: { bg: 'bg-zinc-900', border: 'border-zinc-400', text: 'text-zinc-400' },
+ low: { bg: 'bg-blood-950', border: 'border-blood-500', text: 'text-blood-500' },
 };
 
 interface OrganizationProfileViewProps {
@@ -68,7 +68,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  className="mb-8"
  >
  <div className="flex items-start gap-6">
- <div className="w-20 h-20 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] flex items-center justify-center">
+ <div className="w-20 h-20 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] flex items-center justify-center">
  <Network className="w-10 h-10 text-blood-500"/>
  </div>
  <div className="flex-1">
@@ -102,7 +102,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  </h2>
  <p className="text-zinc-300 leading-relaxed">{org.description}</p>
  {org.mission && (
- <div className="mt-4 p-4 bg-[rgba(0,10,28,0.82)] border-l-2 border-blood-500">
+ <div className="mt-4 p-4 bg-[#000a1c] border-l-2 border-blood-500">
  <p className="text-sm text-zinc-400">
  <strong className="text-zinc-300">Stated Mission:</strong> {org.mission}
  </p>
@@ -147,9 +147,9 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  </h2>
  <div className="space-y-4">
  {org.charges.map((charge, index) => (
- <div key={index} className="p-4 bg-blood-500/10 border border-blood-500/30">
+ <div key={index} className="p-4 bg-blood-950 border border-blood-800">
  <div className="flex items-center gap-2 mb-2">
- <span className="text-xs px-2 py-1 bg-blood-500/20 text-blood-400 border border-blood-500/50">
+ <span className="text-xs px-2 py-1 bg-blood-950 text-blood-400 border border-blood-500/50">
  {charge.category}
  </span>
  </div>
@@ -175,7 +175,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  </h2>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
  {org.keyFigures.map((figure, index) => (
- <div key={index} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div key={index} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  {figure.href ? (
  <Link href={figure.href} className="hover:text-blood-500 transition-colors">
  <p className="font-semibold">{figure.name}</p>
@@ -280,7 +280,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  <Link
  key={index}
  href={`/investigations/${inv.slug}`}
- className="block p-3 bg-[rgba(0,10,28,0.82)] hover:bg-[rgba(0,12,32,0.85)] transition-colors"
+ className="block p-3 bg-[#000a1c] hover:bg-[#000c20] transition-colors"
  >
  <p className="text-sm font-medium">{inv.title}</p>
  <span className={`text-xs ${
@@ -307,7 +307,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  <h3 className="font-bold mb-4 text-blood-500">Affiliated Organizations</h3>
  <div className="space-y-2">
  {org.affiliatedOrganizations.map((aff, index) => (
- <div key={index} className="p-3 bg-[rgba(0,10,28,0.82)]">
+ <div key={index} className="p-3 bg-[#000a1c]">
  {aff.href ? (
  <Link href={aff.href} className="hover:text-blood-500 transition-colors">
  <p className="text-sm font-medium">{aff.name}</p>

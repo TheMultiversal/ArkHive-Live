@@ -26,10 +26,10 @@ const typeIcons: Record<string, React.ReactNode> = {
 };
 
 const severityColors: Record<string, string> = {
- critical: 'text-blood-400 bg-blood-600/20 border-blood-600/30',
- high: 'text-blood-500 bg-blood-700/20 border-blood-700/30',
- medium: 'text-blood-500 bg-blood-600/20 border-blood-600/30',
- low: 'text-blood-400 bg-blood-500/20 border-blood-500/30',
+ critical: 'text-blood-400 bg-blood-900 border-blood-800',
+ high: 'text-blood-500 bg-blood-950 border-blood-800',
+ medium: 'text-blood-500 bg-blood-900 border-blood-800',
+ low: 'text-blood-400 bg-blood-950 border-blood-800',
 };
 
 function SavedPageCard({
@@ -49,14 +49,14 @@ function SavedPageCard({
  >
  <div className="flex items-start justify-between mb-3">
  <div className="flex items-center gap-2">
- <div className="p-1.5 bg-[rgba(0,12,32,0.85)] text-zinc-400">
+ <div className="p-1.5 bg-[#000c20] text-zinc-400">
  {typeIcons[item.type] || <Bookmark className="w-4 h-4"/>}
  </div>
- <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[rgba(0,12,32,0.85)] text-zinc-500">
+ <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[#000c20] text-zinc-500">
  {item.type}
  </span>
  {item.severity && (
- <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-[rgba(0,12,32,0.85)] border-[rgba(60,160,255,0.18)]'}`}>
+ <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-[#000c20] border-[rgba(60,160,255,0.18)]'}`}>
  {item.severity}
  </span>
  )}
@@ -161,7 +161,7 @@ export default function SavedPagesPage() {
  {bookmarks.length > 0 && (
  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[rgba(0,12,32,0.85)]">
+ <div className="p-2 bg-[#000c20]">
  <BookmarkCheck className="w-5 h-5 text-blood-500"/>
  </div>
  <div>
@@ -170,7 +170,7 @@ export default function SavedPagesPage() {
  </div>
  </div>
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[rgba(0,12,32,0.85)]">
+ <div className="p-2 bg-[#000c20]">
  <Target className="w-5 h-5 text-blood-500"/>
  </div>
  <div>
@@ -179,7 +179,7 @@ export default function SavedPagesPage() {
  </div>
  </div>
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[rgba(0,12,32,0.85)]">
+ <div className="p-2 bg-[#000c20]">
  <Users className="w-5 h-5 text-zinc-400"/>
  </div>
  <div>
@@ -211,7 +211,7 @@ export default function SavedPagesPage() {
  className={`px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors ${
  typeFilter === type
  ? 'bg-blood-600 text-white'
- : 'bg-[rgba(0,12,32,0.85)] text-zinc-400 hover:text-white'
+ : 'bg-[#000c20] text-zinc-400 hover:text-white'
  }`}
  >
  {type === 'all' ? 'All' : type === 'investigation' ? 'Investigations' : 'Entities'}
@@ -260,7 +260,7 @@ export default function SavedPagesPage() {
  </AnimatePresence>
 
  {/* Privacy Note */}
- <div className="mt-12 border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)] p-4">
+ <div className="mt-12 border border-[rgba(80,180,255,0.15)] bg-[#000a1c] p-4">
  <div className="flex items-start gap-3">
  <AlertTriangle className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>

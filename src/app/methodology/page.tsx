@@ -157,10 +157,10 @@ export default function MethodologyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: index * 0.1 }}
- className="bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-6"
+ className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-6"
  >
  <div className="flex items-start gap-4">
- <div className="bg-blood-500/10 p-3 shrink-0">
+ <div className="bg-blood-950 p-3 shrink-0">
  <step.icon className="w-6 h-6 text-blood-500"/>
  </div>
  <div>
@@ -209,7 +209,7 @@ export default function MethodologyPage() {
  whileInView={{ opacity: 1, scale: 1 }}
  viewport={{ once: true }}
  transition={{ delay: index * 0.05 }}
- className="bg-zinc-900/30 border border-[rgba(60,160,255,0.08)] p-5 hover:border-blood-500/30 transition-colors"
+ className="bg-zinc-900 border border-[rgba(60,160,255,0.08)] p-5 hover:border-blood-800 transition-colors"
  >
  <principle.icon className="w-8 h-8 text-blood-500 mb-3"/>
  <h3 className="text-white font-semibold mb-2">{principle.title}</h3>
@@ -234,11 +234,11 @@ export default function MethodologyPage() {
  initial={{ opacity: 0 }}
  whileInView={{ opacity: 1 }}
  viewport={{ once: true }}
- className="bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] overflow-hidden"
+ className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] overflow-hidden"
  >
  <table className="w-full">
  <thead>
- <tr className="bg-[rgba(0,12,32,0.80)]">
+ <tr className="bg-[#000c20]">
  <th className="text-left p-4 text-sm font-semibold text-zinc-300">Type</th>
  <th className="text-left p-4 text-sm font-semibold text-zinc-300 hidden md:table-cell">Standard</th>
  <th className="text-left p-4 text-sm font-semibold text-zinc-300">Reliability</th>
@@ -259,12 +259,12 @@ export default function MethodologyPage() {
  <td className="p-4">
  <span className={`px-2 py-1 text-xs font-medium ${
  evidence.reliability === 'Highest' 
- ? 'bg-blood-500/20 text-blood-400'
+ ? 'bg-blood-950 text-blood-400'
  : evidence.reliability === 'High'
- ? 'bg-blood-500/20 text-blood-400'
+ ? 'bg-blood-950 text-blood-400'
  : evidence.reliability === 'Moderate-High'
- ? 'bg-zinc-400/20 text-zinc-300'
- : 'bg-zinc-500/20 text-zinc-400'
+ ? 'bg-zinc-900 text-zinc-300'
+ : 'bg-zinc-900 text-zinc-400'
  }`}>
  {evidence.reliability}
  </span>
@@ -282,7 +282,7 @@ export default function MethodologyPage() {
  initial={{ opacity: 0 }}
  whileInView={{ opacity: 1 }}
  viewport={{ once: true }}
- className="bg-blood-900/20 border border-blood-800/50 p-8"
+ className="bg-blood-900 border border-blood-800/50 p-8"
  >
  <h2 className="text-2xl font-bold glass-text mb-4">Corrections Policy</h2>
  <div className="text-zinc-300 space-y-4">

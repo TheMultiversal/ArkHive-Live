@@ -67,7 +67,7 @@ export default function SearchFilter({
  value={searchQuery}
  onChange={(e) => handleSearch(e.target.value)}
  placeholder="Search investigations, entities, documents..."
- className="w-full pl-12 pr-4 py-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
+ className="w-full pl-12 pr-4 py-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
  />
  {searchQuery && (
  <button
@@ -83,8 +83,8 @@ export default function SearchFilter({
  onClick={() => setIsFiltersOpen(!isFiltersOpen)}
  className={`flex items-center gap-2 px-5 py-3 border transition-colors ${
  hasActiveFilters
- ?"bg-blood-600/20 border-blood-600/50 text-blood-500"
- :"bg-[rgba(0,10,28,0.82)] border-[rgba(80,180,255,0.15)] text-zinc-400 hover:text-white"
+ ?"bg-blood-900 border-blood-600/50 text-blood-500"
+ :"bg-[#000a1c] border-[rgba(80,180,255,0.15)] text-zinc-400 hover:text-white"
  }`}
  >
  <Filter className="w-5 h-5"/>
@@ -120,7 +120,7 @@ export default function SearchFilter({
  <select
  value={filters.category}
  onChange={(e) => handleFilterChange("category", e.target.value)}
- className="w-full px-4 py-2.5 bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-white text-sm focus:outline-none focus:border-blood-700"
+ className="w-full px-4 py-2.5 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white text-sm focus:outline-none focus:border-blood-700"
  >
  <option value="">All Categories</option>
  {categories.map((cat) => (
@@ -135,7 +135,7 @@ export default function SearchFilter({
  <select
  value={filters.severity}
  onChange={(e) => handleFilterChange("severity", e.target.value)}
- className="w-full px-4 py-2.5 bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-white text-sm focus:outline-none focus:border-blood-700"
+ className="w-full px-4 py-2.5 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white text-sm focus:outline-none focus:border-blood-700"
  >
  <option value="">All Levels</option>
  {severityLevels.map((level) => (
@@ -150,7 +150,7 @@ export default function SearchFilter({
  <select
  value={filters.dateRange}
  onChange={(e) => handleFilterChange("dateRange", e.target.value)}
- className="w-full px-4 py-2.5 bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-white text-sm focus:outline-none focus:border-blood-700"
+ className="w-full px-4 py-2.5 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white text-sm focus:outline-none focus:border-blood-700"
  >
  <option value="">All Time</option>
  <option value="week">Past Week</option>
@@ -165,7 +165,7 @@ export default function SearchFilter({
  <select
  value={filters.sortBy}
  onChange={(e) => handleFilterChange("sortBy", e.target.value)}
- className="w-full px-4 py-2.5 bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] text-white text-sm focus:outline-none focus:border-blood-700"
+ className="w-full px-4 py-2.5 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white text-sm focus:outline-none focus:border-blood-700"
  >
  <option value="newest">Newest First</option>
  <option value="oldest">Oldest First</option>

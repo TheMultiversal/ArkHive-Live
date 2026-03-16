@@ -104,7 +104,7 @@ export default function DefibrillatorButton({
  <AnimatePresence>
  {isCharging && (
  <motion.div
- className="absolute inset-0 flex items-center justify-center bg-black/50"
+ className="absolute inset-0 flex items-center justify-center bg-black"
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  exit={{ opacity: 0 }}

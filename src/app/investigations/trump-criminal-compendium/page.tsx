@@ -25,14 +25,14 @@ import AffiliationsSidebar from '@/components/layout/AffiliationsSidebar';
 
 // Crime category configuration
 const categoryConfig: Record<string, { icon: React.ElementType; color: string }> = {
- 'Crimes Against Humanity': { icon: Skull, color: 'text-blood-500 border-blood-500/30 bg-blood-500/10' },
- 'Human Trafficking': { icon: Users, color: 'text-blood-500 border-blood-500/30 bg-blood-500/10' },
- 'Financial Crimes': { icon: DollarSign, color: 'text-blood-500 border-blood-500/30 bg-blood-500/10' },
- 'Election Crimes': { icon: Vote, color: 'text-blood-500 border-blood-500/30 bg-blood-500/10' },
- 'National Security': { icon: Shield, color: 'text-blood-500 border-blood-500/30 bg-blood-500/10' },
- 'Environmental Crimes': { icon: Flame, color: 'text-blood-700 border-blood-700/30 bg-blood-700/10' },
- 'Organized Crime': { icon: Building2, color: 'text-zinc-400 border-zinc-500/30 bg-zinc-500/10' },
- 'Conspiracy': { icon: Globe, color: 'text-blood-500 border-blood-500/30 bg-blood-500/10' },
+ 'Crimes Against Humanity': { icon: Skull, color: 'text-blood-500 border-blood-800 bg-blood-950' },
+ 'Human Trafficking': { icon: Users, color: 'text-blood-500 border-blood-800 bg-blood-950' },
+ 'Financial Crimes': { icon: DollarSign, color: 'text-blood-500 border-blood-800 bg-blood-950' },
+ 'Election Crimes': { icon: Vote, color: 'text-blood-500 border-blood-800 bg-blood-950' },
+ 'National Security': { icon: Shield, color: 'text-blood-500 border-blood-800 bg-blood-950' },
+ 'Environmental Crimes': { icon: Flame, color: 'text-blood-700 border-blood-800 bg-blood-950' },
+ 'Organized Crime': { icon: Building2, color: 'text-zinc-400 border-zinc-700 bg-zinc-900' },
+ 'Conspiracy': { icon: Globe, color: 'text-blood-500 border-blood-800 bg-blood-950' },
 };
 
 // Full investigation data
@@ -472,10 +472,10 @@ const investigationData = {
 };
 
 const severityColors = {
- critical: 'bg-blood-600/20 text-blood-400 border-blood-600/30',
- high: 'bg-blood-700/20 text-blood-500 border-blood-700/30',
- medium: 'bg-blood-600/20 text-blood-500 border-blood-600/30',
- low: 'bg-blood-500/20 text-blood-400 border-blood-500/30',
+ critical: 'bg-blood-900 text-blood-400 border-blood-800',
+ high: 'bg-blood-950 text-blood-500 border-blood-800',
+ medium: 'bg-blood-900 text-blood-500 border-blood-800',
+ low: 'bg-blood-950 text-blood-400 border-blood-800',
 };
 
 export default function TrumpCriminalCompendiumPage() {
@@ -504,7 +504,7 @@ export default function TrumpCriminalCompendiumPage() {
  <AlertTriangle className="w-3 h-3"/>
  {investigationData.severity.toUpperCase()} THREAT
  </span>
- <span className="px-3 py-1.5 bg-[rgba(0,10,28,0.85)] text-zinc-400 text-xs font-medium border border-[rgba(80,180,255,0.15)]">
+ <span className="px-3 py-1.5 bg-[#000a1c] text-zinc-400 text-xs font-medium border border-[rgba(80,180,255,0.15)]">
  {investigationData.category}
  </span>
  </div>
@@ -559,7 +559,7 @@ export default function TrumpCriminalCompendiumPage() {
  </motion.div>
 
  {/* Warning Notice */}
- <div className="bg-blood-950/50 border-2 border-blood-800 p-4 mb-8 flex items-start gap-3">
+ <div className="bg-blood-950 border-2 border-blood-800 p-4 mb-8 flex items-start gap-3">
  <AlertTriangle className="w-6 h-6 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>
  <p className="text-blood-400 font-bold uppercase tracking-wider text-sm">Evidentiary Documentation</p>
@@ -573,7 +573,7 @@ export default function TrumpCriminalCompendiumPage() {
  {/* Crime Sections */}
  <div className="space-y-6">
  {investigationData.sections.map((section, index) => {
- const config = categoryConfig[section.category] || { icon: Scale, color: 'text-zinc-400 border-zinc-500/30 bg-zinc-500/10' };
+ const config = categoryConfig[section.category] || { icon: Scale, color: 'text-zinc-400 border-zinc-700 bg-zinc-900' };
  const IconComponent = config.icon;
  const isExpanded = expandedSection === section.title;
  
@@ -588,7 +588,7 @@ export default function TrumpCriminalCompendiumPage() {
  {/* Section Header */}
  <button
  onClick={() => setExpandedSection(isExpanded ? null : section.title)}
- className="w-full p-6 text-left flex items-start gap-4 hover:bg-zinc-900/30 transition-colors"
+ className="w-full p-6 text-left flex items-start gap-4 hover:bg-zinc-900 transition-colors"
  >
  <div className={`p-3 border ${config.color}`}>
  <IconComponent className="w-5 h-5"/>
@@ -602,7 +602,7 @@ export default function TrumpCriminalCompendiumPage() {
  <h3 className="text-xl font-bold glass-text">{section.title}</h3>
  <div className="flex flex-wrap gap-2 mt-2">
  {section.statutes.slice(0, 2).map((statute, i) => (
- <code key={i} className="text-xs bg-[rgba(0,10,28,0.85)] text-zinc-500 px-2 py-1 font-mono">
+ <code key={i} className="text-xs bg-[#000a1c] text-zinc-500 px-2 py-1 font-mono">
  {statute}
  </code>
  ))}
@@ -626,7 +626,7 @@ export default function TrumpCriminalCompendiumPage() {
  <p className="text-xs text-zinc-500 uppercase tracking-wider mb-2">Applicable Statutes</p>
  <div className="flex flex-wrap gap-2">
  {section.statutes.map((statute, i) => (
- <code key={i} className="text-xs bg-blood-950/50 text-blood-400 border border-blood-800/50 px-2 py-1 font-mono">
+ <code key={i} className="text-xs bg-blood-950 text-blood-400 border border-blood-800/50 px-2 py-1 font-mono">
  {statute}
  </code>
  ))}
@@ -675,7 +675,7 @@ export default function TrumpCriminalCompendiumPage() {
  <Link
  key={tag}
  href={`/investigations?tag=${encodeURIComponent(tag)}`}
- className="px-3 py-1.5 bg-[rgba(0,10,28,0.85)] hover:bg-[rgba(0,12,32,0.85)] text-zinc-400 text-sm border border-[rgba(80,180,255,0.15)] hover:border-blood-700 transition-colors"
+ className="px-3 py-1.5 bg-[#000a1c] hover:bg-[#000c20] text-zinc-400 text-sm border border-[rgba(80,180,255,0.15)] hover:border-blood-700 transition-colors"
  >
  {tag}
  </Link>

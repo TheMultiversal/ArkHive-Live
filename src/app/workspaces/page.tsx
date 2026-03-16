@@ -62,7 +62,7 @@ export default function WorkspacesPage() {
  </div>
  <Link
  href="/workspaces/create"
- className="flex items-center gap-2 px-3 py-2 bg-blood-600/20 text-blood-400/80 rounded text-[11px] font-medium hover:bg-blood-600/30 transition-colors"
+ className="flex items-center gap-2 px-3 py-2 bg-blood-900 text-blood-400/80 rounded text-[11px] font-medium hover:bg-blood-900 transition-colors"
  >
  <Plus className="w-3.5 h-3.5"/>
  New Workspace
@@ -71,15 +71,15 @@ export default function WorkspacesPage() {
 
  {/* Stats */}
  <div className="grid grid-cols-3 gap-2 sm:gap-4 mb-6">
- <div className="p-3 bg-white/[0.01] border border-white/[0.04]">
+ <div className="p-3 bg-[#000a1c] border border-white/[0.04]">
  <div className="text-lg font-medium text-white/60 mb-0.5">{stats.total}</div>
  <div className="text-[10px] text-white/25 uppercase tracking-wider">Total</div>
  </div>
- <div className="p-3 bg-white/[0.01] border border-white/[0.04]">
+ <div className="p-3 bg-[#000a1c] border border-white/[0.04]">
  <div className="text-lg font-medium text-blood-400/70 mb-0.5">{stats.active}</div>
  <div className="text-[10px] text-white/25 uppercase tracking-wider">Active</div>
  </div>
- <div className="p-3 bg-white/[0.01] border border-white/[0.04]">
+ <div className="p-3 bg-[#000a1c] border border-white/[0.04]">
  <div className="text-lg font-medium text-white/60 mb-0.5">{stats.members}</div>
  <div className="text-[10px] text-white/25 uppercase tracking-wider">Investigators</div>
  </div>
@@ -94,7 +94,7 @@ export default function WorkspacesPage() {
  placeholder="Search workspaces..."
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
- className="w-full pl-9 pr-4 py-2 bg-white/[0.02] border border-white/[0.06] text-xs text-white/70 placeholder-white/25 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full pl-9 pr-4 py-2 bg-[#000a1c] border border-white/[0.06] text-xs text-white/70 placeholder-white/25 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
 
@@ -177,14 +177,14 @@ export default function WorkspacesPage() {
  <div className="max-w-7xl mx-auto px-6 py-8">
  {filteredWorkspaces.length === 0 ? (
  <div className="text-center py-16">
- <div className="w-12 h-12 mx-auto mb-4 bg-white/[0.02] flex items-center justify-center">
+ <div className="w-12 h-12 mx-auto mb-4 bg-[#000a1c] flex items-center justify-center">
  <Users className="w-5 h-5 text-white/15"/>
  </div>
  <p className="text-sm text-white/30 mb-2">No workspaces found</p>
  <p className="text-xs text-white/20 mb-4">Create a new workspace to start investigating</p>
  <Link
  href="/workspaces/create"
- className="inline-flex items-center gap-2 px-4 py-2 bg-blood-600/20 text-blood-400/70 rounded text-xs font-medium hover:bg-blood-600/30 transition-colors"
+ className="inline-flex items-center gap-2 px-4 py-2 bg-blood-900 text-blood-400/70 rounded text-xs font-medium hover:bg-blood-900 transition-colors"
  >
  <Plus className="w-3.5 h-3.5"/>
  Create Workspace

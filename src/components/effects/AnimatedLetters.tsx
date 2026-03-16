@@ -8,7 +8,7 @@ interface AnimatedLettersProps {
 export default function AnimatedLetters({ lines, className = '' }: AnimatedLettersProps) {
  return (
  <div className={`${className}`}>
- <div className="inline-block px-6 py-4 border-2 border-blood-800/50 bg-black/50 animate-fade-in"style={{ animationDelay: '200ms' }}>
+ <div className="inline-block px-6 py-4 border-2 border-blood-800/50 bg-black animate-fade-in"style={{ animationDelay: '200ms' }}>
  {lines.map((line, lineIndex) => (
  <p 
  key={lineIndex} 

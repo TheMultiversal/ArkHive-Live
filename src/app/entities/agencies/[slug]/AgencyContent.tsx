@@ -2677,17 +2677,17 @@ const agencyData: Record<string, {
 };
 
 const riskColors = {
- critical: 'text-blood-500 bg-blood-500/10 border-blood-500/30',
- high: 'text-blood-700 bg-blood-700/10 border-blood-700/30',
- medium: 'text-zinc-400 bg-zinc-400/10 border-zinc-400/30',
- low: 'text-blood-500 bg-blood-500/10 border-blood-500/30',
+ critical: 'text-blood-500 bg-blood-950 border-blood-800',
+ high: 'text-blood-700 bg-blood-950 border-blood-800',
+ medium: 'text-zinc-400 bg-zinc-900 border-zinc-700',
+ low: 'text-blood-500 bg-blood-950 border-blood-800',
 };
 
 const severityColors = {
- critical: 'bg-blood-500/20 text-blood-400',
- high: 'bg-blood-700/20 text-blood-600',
- medium: 'bg-zinc-400/20 text-zinc-300',
- low: 'bg-blood-500/20 text-blood-400',
+ critical: 'bg-blood-950 text-blood-400',
+ high: 'bg-blood-950 text-blood-600',
+ medium: 'bg-zinc-900 text-zinc-300',
+ low: 'bg-blood-950 text-blood-400',
 };
 
 export default function AgencyContent() {
@@ -2744,7 +2744,7 @@ export default function AgencyContent() {
  href={agency.website}
  target="_blank"
  rel="noopener noreferrer"
- className="inline-flex items-center gap-2 px-4 py-2 bg-[rgba(0,12,32,0.85)] hover:bg-zinc-700 transition-colors text-sm"
+ className="inline-flex items-center gap-2 px-4 py-2 bg-[#000c20] hover:bg-zinc-700 transition-colors text-sm"
  >
  <Globe className="w-4 h-4"/>
  Official Website
@@ -2809,7 +2809,7 @@ export default function AgencyContent() {
  <Link
  key={investigation.slug}
  href={`/investigations/${investigation.slug}`}
- className="flex items-center justify-between p-4 bg-[rgba(0,10,28,0.82)] hover:bg-[rgba(0,12,32,0.80)] border border-[rgba(80,180,255,0.15)] hover:border-blood-500/30 transition-all"
+ className="flex items-center justify-between p-4 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(80,180,255,0.15)] hover:border-blood-800 transition-all"
  >
  <span className="font-medium">{investigation.title}</span>
  <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[investigation.severity as keyof typeof severityColors]}`}>
@@ -2883,9 +2883,9 @@ export default function AgencyContent() {
  <Link 
  key={index} 
  href={figure.href || '#'}
- className={`flex items-center gap-3 p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] transition-colors ${figure.href ? 'hover:border-blood-500/50 hover:bg-[rgba(0,12,32,0.80)]' : ''}`}
+ className={`flex items-center gap-3 p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] transition-colors ${figure.href ? 'hover:border-blood-500/50 hover:bg-[#000c20]' : ''}`}
  >
- <div className="w-10 h-10 bg-[rgba(0,12,32,0.85)] flex items-center justify-center">
+ <div className="w-10 h-10 bg-[#000c20] flex items-center justify-center">
  <Users className="w-5 h-5 text-zinc-500"/>
  </div>
  <div>

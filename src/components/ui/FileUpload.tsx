@@ -196,7 +196,7 @@ export default function FileUpload({
  className={cn(
  'relative border-2 border-dashed p-8 text-center cursor-pointer transition-colors',
  isDragging
- ? 'border-blood-500 bg-blood-900/10'
+ ? 'border-blood-500 bg-blood-950'
  : 'border-[rgba(60,160,255,0.18)] hover:border-zinc-600',
  disabled && 'opacity-50 cursor-not-allowed'
  )}
@@ -251,12 +251,12 @@ export default function FileUpload({
  className={cn(
  'flex items-center gap-4 p-3 border',
  uploadFile.status === 'error'
- ? 'border-blood-800 bg-blood-900/20'
- : 'border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)]'
+ ? 'border-blood-800 bg-blood-900'
+ : 'border-[rgba(80,180,255,0.15)] bg-[#000a1c]'
  )}
  >
  {/* Preview or icon */}
- <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-[rgba(0,12,32,0.85)] relative overflow-hidden">
+ <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-[#000c20] relative overflow-hidden">
  {uploadFile.preview ? (
  <Image
  src={uploadFile.preview}

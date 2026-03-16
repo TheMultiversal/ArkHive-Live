@@ -173,8 +173,8 @@ function TreeNodeItem({
  className={cn(
  'flex items-center gap-1 py-1 px-2 cursor-pointer transition-colors group',
  isSelected
- ? 'bg-blood-500/20 text-blood-400'
- : 'text-zinc-400 hover:bg-[rgba(0,12,32,0.85)] hover:text-white',
+ ? 'bg-blood-950 text-blood-400'
+ : 'text-zinc-400 hover:bg-[#000c20] hover:text-white',
  node.disabled && 'opacity-50 cursor-not-allowed'
  )}
  style={{ paddingLeft: `${depth * 16 + 8}px` }}
@@ -221,7 +221,7 @@ function TreeNodeItem({
  onChange={(e) => setEditName(e.target.value)}
  onBlur={handleRename}
  onKeyDown={handleKeyDown}
- className="flex-1 px-1 bg-[rgba(0,12,32,0.85)] border border-blood-500 text-white text-sm focus:outline-none"
+ className="flex-1 px-1 bg-[#000c20] border border-blood-500 text-white text-sm focus:outline-none"
  autoFocus
  onClick={(e) => e.stopPropagation()}
  />
@@ -248,7 +248,7 @@ function TreeNodeItem({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute right-0 top-full mt-1 w-36 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] shadow-lg z-10"
+ className="absolute right-0 top-full mt-1 w-36 bg-[#000c20] border border-[rgba(60,160,255,0.18)] shadow-lg z-10"
  onClick={(e) => e.stopPropagation()}
  >
  {isFolder && (
@@ -428,9 +428,9 @@ export default function TreeView({
  };
 
  return (
- <div className={cn('bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)]', className)}>
+ <div className={cn('bg-[#000a1c] border border-[rgba(80,180,255,0.15)]', className)}>
  {/* Header */}
- <div className="flex items-center justify-between p-2 border-b border-[rgba(80,180,255,0.15)] bg-[rgba(0,12,32,0.80)]">
+ <div className="flex items-center justify-between p-2 border-b border-[rgba(80,180,255,0.15)] bg-[#000c20]">
  {showSearch ? (
  <div className="flex items-center gap-2 flex-1">
  <Search className="w-4 h-4 text-zinc-500"/>

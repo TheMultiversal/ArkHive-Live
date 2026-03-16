@@ -102,7 +102,7 @@ export function SurveillanceWarning() {
  animate={{ opacity: [0, 1, 1, 0], scale: [0.8, 1, 1, 0.8] }}
  transition={{ duration: 2 }}
  >
- <div className="flex items-center gap-2 bg-black/50 px-2 py-1 border border-blood-600/30">
+ <div className="flex items-center gap-2 bg-black px-2 py-1 border border-blood-800">
  <span className="w-1.5 h-1.5 bg-blood-600 animate-pulse"/>
  <span>MONITORING ACTIVE</span>
  </div>
@@ -188,7 +188,7 @@ export function TimestampOverlay() {
  animate={glitch ? { x: [0, 2, -2, 0], opacity: [1, 0.5, 1] } : {}}
  transition={{ duration: 0.1 }}
  >
- <span className="w-1 h-1 bg-blood-600/60"/>
+ <span className="w-1 h-1 bg-blood-900"/>
  <span>REC</span>
  <span className="text-zinc-600">|</span>
  <span>{glitch ? '██:██:██' : time}</span>

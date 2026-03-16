@@ -191,9 +191,9 @@ function DayCell({
  onClick={onSelect}
  className={cn(
  'min-h-[100px] p-1 border-b border-r border-[rgba(80,180,255,0.15)] cursor-pointer transition-colors group',
- !isCurrentMonth && 'bg-[rgba(0,10,28,0.82)]',
+ !isCurrentMonth && 'bg-[#000a1c]',
  isSelected && 'ring-2 ring-inset ring-blood-500',
- 'hover:bg-[rgba(0,12,32,0.80)]'
+ 'hover:bg-[#000c20]'
  )}
  >
  <div className="flex items-center justify-between mb-1">
@@ -251,7 +251,7 @@ function DayCell({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute z-20 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] p-2 shadow-lg min-w-[200px]"
+ className="absolute z-20 bg-[#000c20] border border-[rgba(60,160,255,0.18)] p-2 shadow-lg min-w-[200px]"
  onClick={(e) => e.stopPropagation()}
  >
  <div className="flex items-center justify-between mb-2">
@@ -345,20 +345,20 @@ export default function Calendar({
  };
 
  return (
- <div className={cn('bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)]', className)}>
+ <div className={cn('bg-[#000a1c] border border-[rgba(80,180,255,0.15)]', className)}>
  {/* Header */}
  <div className="flex items-center justify-between p-4 border-b border-[rgba(80,180,255,0.15)]">
  <div className="flex items-center gap-4">
  <div className="flex items-center gap-1">
  <button
  onClick={() => navigateMonth(-1)}
- className="p-2 text-zinc-400 hover:text-white hover:bg-[rgba(0,12,32,0.85)] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white hover:bg-[#000c20] transition-colors"
  >
  <ChevronLeft className="w-4 h-4"/>
  </button>
  <button
  onClick={() => navigateMonth(1)}
- className="p-2 text-zinc-400 hover:text-white hover:bg-[rgba(0,12,32,0.85)] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white hover:bg-[#000c20] transition-colors"
  >
  <ChevronRight className="w-4 h-4"/>
  </button>
@@ -372,7 +372,7 @@ export default function Calendar({
  <div className="flex items-center gap-2">
  <button
  onClick={goToToday}
- className="px-3 py-1.5 text-sm text-zinc-300 hover:text-white bg-[rgba(0,12,32,0.85)] hover:bg-zinc-700 transition-colors"
+ className="px-3 py-1.5 text-sm text-zinc-300 hover:text-white bg-[#000c20] hover:bg-zinc-700 transition-colors"
  >
  Today
  </button>

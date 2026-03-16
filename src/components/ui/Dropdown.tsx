@@ -133,7 +133,7 @@ export default function Dropdown({
  onKeyDown={handleKeyDown}
  disabled={disabled}
  className={cn(
- 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[rgba(0,10,28,0.85)] border text-left transition-colors',
+ 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[#000a1c] border text-left transition-colors',
  isOpen ? 'border-blood-500' : 'border-[rgba(60,160,255,0.18)] hover:border-zinc-600',
  error && 'border-blood-500',
  disabled && 'opacity-50 cursor-not-allowed'
@@ -170,7 +170,7 @@ export default function Dropdown({
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: -10 }}
  transition={{ duration: 0.15 }}
- className="absolute z-50 w-full mt-1 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] shadow-xl max-h-60 overflow-hidden"
+ className="absolute z-50 w-full mt-1 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] shadow-xl max-h-60 overflow-hidden"
  >
  {searchable && (
  <div className="p-2 border-b border-[rgba(80,180,255,0.15)]">
@@ -180,7 +180,7 @@ export default function Dropdown({
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
  placeholder="Search..."
- className="w-full px-3 py-2 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)] text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full px-3 py-2 bg-[#000c20] border border-[rgba(60,160,255,0.18)] text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  />
  </div>
  )}
@@ -203,8 +203,8 @@ export default function Dropdown({
  onMouseEnter={() => setHighlightedIndex(index)}
  className={cn(
  'px-4 py-3 cursor-pointer transition-colors flex items-center justify-between',
- index === highlightedIndex && 'bg-[rgba(0,12,32,0.85)]',
- option.value === value && 'bg-blood-900/30',
+ index === highlightedIndex && 'bg-[#000c20]',
+ option.value === value && 'bg-blood-900',
  option.disabled && 'opacity-50 cursor-not-allowed'
  )}
  >
@@ -285,7 +285,7 @@ export function MultiSelect({
  onClick={() => !disabled && setIsOpen(!isOpen)}
  disabled={disabled}
  className={cn(
- 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[rgba(0,10,28,0.85)] border text-left transition-colors min-h-[48px]',
+ 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[#000a1c] border text-left transition-colors min-h-[48px]',
  isOpen ? 'border-blood-500' : 'border-[rgba(60,160,255,0.18)] hover:border-zinc-600',
  error && 'border-blood-500',
  disabled && 'opacity-50 cursor-not-allowed'
@@ -296,7 +296,7 @@ export function MultiSelect({
  selectedOptions.map((opt) => (
  <span
  key={opt.value}
- className="inline-flex items-center gap-1 px-2 py-0.5 bg-blood-900/50 text-blood-300 text-xs"
+ className="inline-flex items-center gap-1 px-2 py-0.5 bg-blood-900 text-blood-300 text-xs"
  >
  {opt.label}
  </span>
@@ -317,13 +317,13 @@ export function MultiSelect({
  initial={{ opacity: 0, y: -10 }}
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: -10 }}
- className="absolute z-50 w-full mt-1 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] shadow-xl max-h-60 overflow-y-auto"
+ className="absolute z-50 w-full mt-1 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] shadow-xl max-h-60 overflow-y-auto"
  >
  {options.map((option) => (
  <label
  key={option.value}
  className={cn(
- 'flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-[rgba(0,12,32,0.85)] transition-colors',
+ 'flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-[#000c20] transition-colors',
  option.disabled && 'opacity-50 cursor-not-allowed'
  )}
  >
@@ -332,7 +332,7 @@ export function MultiSelect({
  checked={values.includes(option.value)}
  onChange={() => toggleOption(option.value)}
  disabled={option.disabled}
- className="w-4 h-4 rounded border-zinc-600 bg-[rgba(0,12,32,0.85)] text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
+ className="w-4 h-4 rounded border-zinc-600 bg-[#000c20] text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
  />
  <span className="text-white text-sm">{option.label}</span>
  </label>

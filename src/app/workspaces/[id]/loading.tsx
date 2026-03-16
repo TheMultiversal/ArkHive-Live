@@ -8,17 +8,17 @@ export default function WorkspaceLoading() {
  <div className="py-6 border-b border-[rgba(60,160,255,0.08)]">
  <div className="flex items-center justify-between animate-pulse">
  <div className="flex items-center gap-4">
- <div className="w-12 h-12 bg-blood-950/30 border border-blood-800/30 flex items-center justify-center">
+ <div className="w-12 h-12 bg-blood-950 border border-blood-800 flex items-center justify-center">
  <Users className="w-6 h-6 text-blood-700/50"/>
  </div>
  <div className="space-y-2">
- <div className="h-6 bg-[rgba(0,12,32,0.80)] rounded w-48"/>
- <div className="h-4 bg-zinc-800/30 rounded w-32"/>
+ <div className="h-6 bg-[#000c20] rounded w-48"/>
+ <div className="h-4 bg-zinc-800 rounded w-32"/>
  </div>
  </div>
  <div className="flex gap-2">
- <div className="h-9 w-24 bg-zinc-800/40 rounded"/>
- <div className="h-9 w-9 bg-zinc-800/40 rounded"/>
+ <div className="h-9 w-24 bg-zinc-900 rounded"/>
+ <div className="h-9 w-9 bg-zinc-900 rounded"/>
  </div>
  </div>
  </div>
@@ -29,29 +29,29 @@ export default function WorkspaceLoading() {
  {/* Evidence Board Skeleton */}
  <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
  <div className="flex items-center justify-between mb-4">
- <div className="h-5 bg-[rgba(0,12,32,0.80)] rounded w-32"/>
+ <div className="h-5 bg-[#000c20] rounded w-32"/>
  <div className="flex gap-2">
- <div className="h-8 w-8 bg-zinc-800/40 rounded"/>
- <div className="h-8 w-8 bg-zinc-800/40 rounded"/>
+ <div className="h-8 w-8 bg-zinc-900 rounded"/>
+ <div className="h-8 w-8 bg-zinc-900 rounded"/>
  </div>
  </div>
  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
  {[...Array(6)].map((_, i) => (
- <div key={i} className="aspect-square bg-zinc-800/20 rounded"/>
+ <div key={i} className="aspect-square bg-zinc-900 rounded"/>
  ))}
  </div>
  </div>
 
  {/* Chat Panel Skeleton */}
  <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[rgba(0,12,32,0.80)] rounded w-24 mb-4"/>
+ <div className="h-5 bg-[#000c20] rounded w-24 mb-4"/>
  <div className="space-y-3 h-64">
  {[...Array(4)].map((_, i) => (
  <div key={i} className="flex gap-3">
- <div className="w-8 h-8 bg-zinc-800/40 flex-shrink-0"/>
+ <div className="w-8 h-8 bg-zinc-900 flex-shrink-0"/>
  <div className="flex-1 space-y-1">
- <div className="h-3 bg-zinc-800/30 rounded w-24"/>
- <div className="h-4 bg-zinc-800/20 rounded w-3/4"/>
+ <div className="h-3 bg-zinc-800 rounded w-24"/>
+ <div className="h-4 bg-zinc-900 rounded w-3/4"/>
  </div>
  </div>
  ))}
@@ -63,12 +63,12 @@ export default function WorkspaceLoading() {
  <div className="space-y-4">
  {/* Members Skeleton */}
  <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[rgba(0,12,32,0.80)] rounded w-20 mb-3"/>
+ <div className="h-5 bg-[#000c20] rounded w-20 mb-3"/>
  <div className="space-y-2">
  {[...Array(4)].map((_, i) => (
  <div key={i} className="flex items-center gap-2">
- <div className="w-8 h-8 bg-zinc-800/40"/>
- <div className="h-4 bg-zinc-800/30 rounded flex-1"/>
+ <div className="w-8 h-8 bg-zinc-900"/>
+ <div className="h-4 bg-zinc-800 rounded flex-1"/>
  </div>
  ))}
  </div>
@@ -76,10 +76,10 @@ export default function WorkspaceLoading() {
 
  {/* Documents Skeleton */}
  <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[rgba(0,12,32,0.80)] rounded w-28 mb-3"/>
+ <div className="h-5 bg-[#000c20] rounded w-28 mb-3"/>
  <div className="space-y-2">
  {[...Array(3)].map((_, i) => (
- <div key={i} className="h-10 bg-zinc-800/20 rounded"/>
+ <div key={i} className="h-10 bg-zinc-900 rounded"/>
  ))}
  </div>
  </div>
@@ -87,7 +87,7 @@ export default function WorkspaceLoading() {
  </div>
 
  {/* Loading indicator */}
- <div className="fixed bottom-6 right-6 flex items-center gap-2 px-3 py-2 bg-[rgba(0,6,20,0.90)] border border-blood-800/30">
+ <div className="fixed bottom-6 right-6 flex items-center gap-2 px-3 py-2 bg-[rgba(0,6,20,0.90)] border border-blood-800">
  <Skull className="w-4 h-4 text-blood-600 animate-pulse"/>
  <span className="text-xs text-blood-500/70 uppercase tracking-wider">Accessing workspace...</span>
  </div>

@@ -17,7 +17,7 @@ export default function Skeleton({
  height,
  animation = 'pulse',
 }: SkeletonProps) {
- const baseClasses = 'bg-[rgba(0,12,32,0.85)]';
+ const baseClasses = 'bg-[#000c20]';
  
  const variantClasses = {
  text: 'rounded',

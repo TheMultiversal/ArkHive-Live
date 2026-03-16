@@ -216,9 +216,9 @@ export default function DiffViewer({
  };
 
  return (
- <div className={cn('bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)]', className)}>
+ <div className={cn('bg-[#000a1c] border border-[rgba(80,180,255,0.15)]', className)}>
  {/* Header */}
- <div className="flex items-center justify-between p-3 border-b border-[rgba(80,180,255,0.15)] bg-[rgba(0,12,32,0.80)]">
+ <div className="flex items-center justify-between p-3 border-b border-[rgba(80,180,255,0.15)] bg-[#000c20]">
  <div className="flex items-center gap-4">
  <div className="flex items-center gap-2">
  <FileText className="w-4 h-4 text-zinc-400"/>
@@ -352,8 +352,8 @@ function UnifiedView({ lines, showLineNumbers }: ViewProps) {
  key={index}
  className={cn(
  'border-b border-[rgba(60,160,255,0.08)]',
- line.type === 'added' && 'bg-blood-500/10',
- line.type === 'removed' && 'bg-blood-500/10'
+ line.type === 'added' && 'bg-blood-950',
+ line.type === 'removed' && 'bg-blood-950'
  )}
  >
  {showLineNumbers && (
@@ -411,7 +411,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  <div className="flex divide-x divide-zinc-800">
  {/* Left side (old) */}
  <div className="flex-1 overflow-auto">
- <div className="px-3 py-1 text-xs text-zinc-500 bg-[rgba(0,12,32,0.80)] border-b border-[rgba(80,180,255,0.15)] sticky top-0">
+ <div className="px-3 py-1 text-xs text-zinc-500 bg-[#000c20] border-b border-[rgba(80,180,255,0.15)] sticky top-0">
  Original
  </div>
  <table className="w-full font-mono text-sm">
@@ -421,7 +421,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  key={index}
  className={cn(
  'border-b border-[rgba(60,160,255,0.08)]',
- line.type === 'removed' && 'bg-blood-500/10'
+ line.type === 'removed' && 'bg-blood-950'
  )}
  >
  {showLineNumbers && (
@@ -448,7 +448,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
 
  {/* Right side (new) */}
  <div className="flex-1 overflow-auto">
- <div className="px-3 py-1 text-xs text-zinc-500 bg-[rgba(0,12,32,0.80)] border-b border-[rgba(80,180,255,0.15)] sticky top-0">
+ <div className="px-3 py-1 text-xs text-zinc-500 bg-[#000c20] border-b border-[rgba(80,180,255,0.15)] sticky top-0">
  Modified
  </div>
  <table className="w-full font-mono text-sm">
@@ -458,7 +458,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  key={index}
  className={cn(
  'border-b border-[rgba(60,160,255,0.08)]',
- line.type === 'added' && 'bg-blood-500/10'
+ line.type === 'added' && 'bg-blood-950'
  )}
  >
  {showLineNumbers && (

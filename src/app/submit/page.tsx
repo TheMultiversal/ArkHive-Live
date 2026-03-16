@@ -31,7 +31,7 @@ function SubmitPageContent() {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
  <div className="max-w-lg mx-auto px-4 text-center">
- <div className="border-2 border-blood-800/60 bg-[rgba(0,8,25,0.85)] p-12">
+ <div className="border-2 border-blood-800/60 bg-[#000819] p-12">
  <div className="w-16 h-16 border-2 border-blood-700 flex items-center justify-center mx-auto mb-6">
  <CheckCircle className="w-8 h-8 text-blood-600"/>
  </div>
@@ -57,8 +57,8 @@ function SubmitPageContent() {
  <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header, Crystal Clear */}
  <div className="py-12">
- <div className="border-2 border-blood-800/60 bg-[rgba(0,8,25,0.85)] p-8 text-center">
- <div className="w-16 h-16 mx-auto mb-6 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
+ <div className="border-2 border-blood-800/60 bg-[#000819] p-8 text-center">
+ <div className="w-16 h-16 mx-auto mb-6 border-2 border-blood-700 bg-blood-950 flex items-center justify-center">
  <AlertTriangle className="w-8 h-8 text-blood-600"/>
  </div>
  <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-4">
@@ -72,7 +72,7 @@ function SubmitPageContent() {
  </div>
 
  {/* Security Notice - Sharp */}
- <div className="border-l-4 border-blood-700 bg-[rgba(0,8,25,0.85)] border border-[rgba(80,180,255,0.15)] p-6 mb-8">
+ <div className="border-l-4 border-blood-700 bg-[#000819] border border-[rgba(80,180,255,0.15)] p-6 mb-8">
  <div className="flex items-start gap-4">
  <Lock className="w-6 h-6 text-blood-600 flex-shrink-0 mt-1"/>
  <div>
@@ -88,7 +88,7 @@ function SubmitPageContent() {
  </div>
 
  {/* Form, Sharp */}
- <form onSubmit={handleSubmit} className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-8">
+ <form onSubmit={handleSubmit} className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-8">
  <div className="space-y-6">
  {/* Subject */}
  <div>
@@ -205,7 +205,7 @@ function SubmitPageContent() {
  Upload Documents / Evidence
  </label>
  <div
- className="border-2 border-dashed border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-8 text-center cursor-pointer hover:border-blood-700 transition-colors"
+ className="border-2 border-dashed border-[rgba(80,180,255,0.15)] bg-[#000819] p-8 text-center cursor-pointer hover:border-blood-700 transition-colors"
  onClick={() => fileInputRef.current?.click()}
  onDragOver={(e) => { e.preventDefault(); e.currentTarget.classList.add('border-blood-700'); }}
  onDragLeave={(e) => { e.currentTarget.classList.remove('border-blood-700'); }}
@@ -259,7 +259,7 @@ function SubmitPageContent() {
  {/* Submit Button */}
  <button
  type="submit"
- className="w-full flex items-center justify-center gap-2 px-8 py-4 border-2 border-blood-700 bg-blood-950/30 text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
+ className="w-full flex items-center justify-center gap-2 px-8 py-4 border-2 border-blood-700 bg-blood-950 text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
  >
  <Send className="w-5 h-5"/>
  Submit Information

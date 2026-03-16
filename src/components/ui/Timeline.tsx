@@ -27,13 +27,13 @@ const statusConfig = {
  completed: {
  icon: <CheckCircle className="w-4 h-4"/>,
  dotClass: 'bg-blood-500 border-blood-600',
- lineClass: 'bg-blood-500/30',
+ lineClass: 'bg-blood-950',
  textClass: 'text-zinc-300',
  },
  current: {
  icon: <Circle className="w-4 h-4"/>,
  dotClass: 'bg-blood-500 border-blood-600 animate-pulse',
- lineClass: 'bg-blood-500/30',
+ lineClass: 'bg-blood-950',
  textClass: 'text-white',
  },
  upcoming: {
@@ -45,7 +45,7 @@ const statusConfig = {
  warning: {
  icon: <AlertCircle className="w-4 h-4"/>,
  dotClass: 'bg-zinc-400 border-zinc-500',
- lineClass: 'bg-zinc-400/30',
+ lineClass: 'bg-zinc-900',
  textClass: 'text-zinc-300',
  },
 };
@@ -105,7 +105,7 @@ export default function Timeline({
  {event.tags.map((tag) => (
  <span
  key={tag}
- className="px-2 py-0.5 text-xs bg-[rgba(0,12,32,0.85)] text-zinc-400"
+ className="px-2 py-0.5 text-xs bg-[#000c20] text-zinc-400"
  >
  {tag}
  </span>
@@ -199,7 +199,7 @@ export function HorizontalTimeline({
  className={cn(
  'w-16 h-px mx-2',
  event.status === 'completed'
- ? 'bg-blood-500/50'
+ ? 'bg-blood-9500'
  : 'bg-zinc-700'
  )}
  />
@@ -290,15 +290,15 @@ export function InvestigationTimeline({
  </div>
 
  {/* Content Card */}
- <div className="flex-1 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] p-4 hover:border-[rgba(60,160,255,0.18)] transition-colors">
+ <div className="flex-1 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4 hover:border-[rgba(60,160,255,0.18)] transition-colors">
  <div className="flex items-start justify-between gap-4">
  <div>
  <div className="flex items-center gap-2 mb-1">
- <span className="text-xs px-2 py-0.5 bg-[rgba(0,12,32,0.85)] text-zinc-400">
+ <span className="text-xs px-2 py-0.5 bg-[#000c20] text-zinc-400">
  {config.label}
  </span>
  {event.verified && (
- <span className="text-xs px-2 py-0.5 bg-blood-900/50 text-blood-400 flex items-center gap-1">
+ <span className="text-xs px-2 py-0.5 bg-blood-900 text-blood-400 flex items-center gap-1">
  <CheckCircle className="w-3 h-3"/>
  Verified
  </span>

@@ -70,7 +70,7 @@ export const Progress = forwardRef<HTMLDivElement, ProgressProps>(
  )}
  <div
  className={cn(
- 'w-full bg-[rgba(0,12,32,0.85)] overflow-hidden rounded-none',
+ 'w-full bg-[#000c20] overflow-hidden rounded-none',
  sizeStyles[size]
  )}
  role="progressbar"

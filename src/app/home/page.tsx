@@ -124,13 +124,13 @@ function FeaturedInvestigationsGrid() {
        onClick={() => router.push(`/investigations/${inv.slug}`)}
        className={`
         text-left p-3 border-l-2 ${SEVERITY_COLORS[inv.severity]}
-        bg-gradient-to-br from-[rgba(0,12,35,0.72)] to-[rgba(0,6,20,0.85)] border border-[rgba(80,180,255,0.14)]
-        hover:from-[rgba(0,15,40,0.78)] hover:to-[rgba(0,6,22,0.88)] hover:border-[rgba(80,180,255,0.28)]
+        bg-gradient-to-br from-[#000c23] to-[#000614] border border-[rgba(80,180,255,0.14)]
+        hover:from-[#000f28] hover:to-[#000616] hover:border-[rgba(80,180,255,0.28)]
         hover:shadow-[0_0_12px_rgba(0,100,220,0.1)]
         active:scale-[0.98]
         transition-all duration-200 cursor-pointer select-none group gloss-hover
        `}
-       style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.15)'}}
+       style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30)'}}
        initial={{ opacity: 0, y: 8 }}
        animate={{ opacity: 1, y: 0 }}
        transition={{ delay: i * 0.03 }}
@@ -202,7 +202,7 @@ export default function Home() {
  </div>
 
  {/* Alert Badge, Sharp edges */}
- <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[rgba(0,15,40,0.78)] to-[rgba(0,20,60,0.4)] border border-[rgba(80,180,255,0.25)] text-blood-400 text-sm font-medium mb-8 animate-fade-in gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.2)'}}>
+ <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#000f28] to-[#001030] border border-[rgba(80,180,255,0.25)] text-blood-400 text-sm font-medium mb-8 animate-fade-in gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30)'}}>
  <span className="w-2 h-2 bg-blood-700 animate-pulse"/>
  <span className="glass-text-subtle">Investigative Archive, Documentation Platform</span>
  </div>
@@ -258,13 +258,13 @@ export default function Home() {
 
  {/* Three pillars */}
  <div className="flex flex-wrap justify-center gap-2 mt-4">
- <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(80,180,255,0.28)] bg-gradient-to-br from-[rgba(0,15,40,0.75)] to-[rgba(0,6,20,0.86)] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.18)'}}>
+ <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(80,180,255,0.28)] bg-gradient-to-br from-[#000f28] to-[#000614] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35)'}}>
  Primary Sources
  </span>
- <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(80,180,255,0.28)] bg-gradient-to-br from-[rgba(0,15,40,0.75)] to-[rgba(0,6,20,0.86)] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.18)'}}>
+ <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(80,180,255,0.28)] bg-gradient-to-br from-[#000f28] to-[#000614] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35)'}}>
  Court Documents
  </span>
- <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(80,180,255,0.28)] bg-gradient-to-br from-[rgba(0,15,40,0.75)] to-[rgba(0,6,20,0.86)] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.18)'}}>
+ <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(80,180,255,0.28)] bg-gradient-to-br from-[#000f28] to-[#000614] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35)'}}>
  Verified Evidence
  </span>
  </div>
@@ -272,7 +272,7 @@ export default function Home() {
  </div>
 
  {/* Opening Declaration, Crystal Clear */}
- <div className="max-w-3xl mx-auto mb-8 bg-gradient-to-br from-[rgba(0,15,40,0.75)] to-[rgba(0,6,20,0.90)] border border-[rgba(80,180,255,0.15)] p-2 sm:p-6 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.18), 0 4px 20px rgba(0,0,0,0.3)'}}>
+ <div className="max-w-3xl mx-auto mb-8 bg-gradient-to-br from-[#000f28] to-[#000614] border border-[rgba(80,180,255,0.15)] p-2 sm:p-6 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35), 0 4px 20px rgba(0,0,0,0.3)'}}>
  <p className="text-base sm:text-xl glass-text-subtle leading-relaxed">
  <span className="text-blood-600 font-black uppercase">91 criminal charges.</span>
  <br />
@@ -295,7 +295,7 @@ export default function Home() {
  
  {/* ArkHive Introduction, Enhanced Crystal Clear Box */}
  <div className="max-w-4xl mx-auto mb-8 animate-fade-in" style={{ animationDelay:"250ms"}}>
- <div className="border-0 sm:border sm:border-[rgba(80,180,255,0.18)] bg-transparent sm:bg-gradient-to-br sm:from-[rgba(0,15,40,0.72)] sm:to-[rgba(0,6,20,0.88)] p-0 sm:p-6 lg:p-8 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.15), 0 4px 25px rgba(0,0,0,0.25)'}}>
+ <div className="border-0 sm:border sm:border-[rgba(80,180,255,0.18)] bg-transparent sm:bg-gradient-to-br sm:from-[#000f28] sm:to-[#000614] p-0 sm:p-6 lg:p-8 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30), 0 4px 25px rgba(0,0,0,0.25)'}}>
  {/* Header */}
  <div className="text-center mb-4 sm:mb-6">
  <h2 className="text-2xl sm:text-3xl font-black text-blood-600 mb-2 tracking-wider uppercase">
@@ -317,7 +317,7 @@ export default function Home() {
  { title:"Medical Tyranny", desc:"Forced treatments, experimental injections, pharma fraud", href:"/investigations?category=Public+Health"},
  { title:"Civil Liberty Violations", desc:"Constitutional erosion, surveillance, censorship", href:"/investigations?category=Civil+Rights+%26+Justice"},
  ].map((item, i) => (
- <Link key={i} href={item.href} className="text-center p-3 border border-[rgba(80,180,255,0.18)] bg-gradient-to-br from-[rgba(0,15,40,0.72)] to-[rgba(0,6,20,0.86)] hover:border-[rgba(100,190,255,0.35)] hover:from-[rgba(0,15,40,0.78)] hover:to-[rgba(0,6,22,0.90)] transition-all group gloss-hover" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.15)'}}>
+ <Link key={i} href={item.href} className="text-center p-3 border border-[rgba(80,180,255,0.18)] bg-gradient-to-br from-[#000f28] to-[#000614] hover:border-[rgba(100,190,255,0.35)] hover:from-[#000f28] hover:to-[#000616] transition-all group gloss-hover" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30)'}}>
  <span className="block w-2 h-2 bg-blood-500 mx-auto mb-2 group-hover:bg-blood-400 transition-colors"/>
  <h3 className="text-sm font-bold text-blood-400 uppercase tracking-wider mb-1 group-hover:text-blood-300 transition-colors">{item.title}</h3>
  <p className="text-xs glass-text-muted leading-tight">{item.desc}</p>
@@ -326,7 +326,7 @@ export default function Home() {
  </div>
 
  {/* Mission Statement */}
- <div className="border-t border-blood-900/40 pt-5">
+ <div className="border-t border-blood-900 pt-5">
  <div className="grid md:grid-cols-3 gap-4 text-center">
  <div>
  <span className="text-2xl font-black text-blood-600">EXPOSE</span>
@@ -344,7 +344,7 @@ export default function Home() {
  </div>
 
  {/* Warning */}
- <div className="mt-6 p-3 border border-[rgba(80,180,255,0.15)] bg-[rgba(0,10,28,0.82)] text-center">
+ <div className="mt-6 p-3 border border-[rgba(80,180,255,0.15)] bg-[#000a1c] text-center">
  <p className="text-xs glass-text-muted uppercase tracking-wide sm:tracking-widest">
  ⚠ This archive contains disturbing truths. Proceed with open eyes. ⚠
  </p>
@@ -379,7 +379,7 @@ export default function Home() {
  { name:"Sexual Assault", href:"/categories/sexual-assault"},
  { name:"Racketeering", href:"/categories/racketeering"},
  ].map((crime, i) => (
- <Link key={i} href={crime.href} className="px-2 py-1 bg-blood-950/50 border border-blood-700/50 text-blood-500 hover:bg-blood-900/30 hover:border-blood-500 transition-colors">
+ <Link key={i} href={crime.href} className="px-2 py-1 bg-blood-950 border border-blood-700 text-blood-500 hover:bg-blood-900 hover:border-blood-500 transition-colors">
  {crime.name}
  </Link>
  ))}
@@ -406,7 +406,7 @@ export default function Home() {
  { name:"Operation Paperclip", href:"/investigations/operation-paperclip"},
  { name:"Phoenix Program", href:"/investigations/phoenix-program"},
  ].map((program, i) => (
- <Link key={i} href={program.href} className="px-2 py-1 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] text-zinc-400 hover:bg-[rgba(0,12,32,0.80)] hover:border-zinc-500 transition-colors">
+ <Link key={i} href={program.href} className="px-2 py-1 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-zinc-400 hover:bg-[#000c20] hover:border-zinc-500 transition-colors">
  {program.name}
  </Link>
  ))}
@@ -434,7 +434,7 @@ export default function Home() {
  { name:"5G Health Research", href:"/investigations"},
  { name:"Chemtrail Aerosol Programs", href:"/investigations"},
  ].map((pattern, i) => (
- <Link key={i} href={pattern.href} className="px-2 py-1 bg-blood-950/30 border border-zinc-700/40 text-zinc-500/80 hover:bg-zinc-800/30 hover:border-zinc-500 transition-colors">
+ <Link key={i} href={pattern.href} className="px-2 py-1 bg-blood-950 border border-zinc-700 text-zinc-500/80 hover:bg-zinc-800 hover:border-zinc-500 transition-colors">
  {pattern.name}
  </Link>
  ))}
@@ -444,7 +444,7 @@ export default function Home() {
  {/* Tier 4: Suppressed, Requires Further Investigation */}
  <div>
  <div className="flex items-center gap-2 mb-2">
- <span className="w-3 h-3 bg-blood-600/50"/>
+ <span className="w-3 h-3 bg-blood-900"/>
  <p className="text-sm text-blood-500/80 font-bold uppercase tracking-wider">Suppressed Research, Requires Investigation</p>
  </div>
  <div className="flex flex-wrap gap-2 text-xs">
@@ -456,7 +456,7 @@ export default function Home() {
  { name:"Controlled Opposition", href:"/investigations"},
  { name:"Predictive Programming", href:"/investigations"},
  ].map((topic, i) => (
- <Link key={i} href={topic.href} className="px-2 py-1 bg-blood-950/20 border border-blood-800/30 text-blood-500/70 hover:bg-blood-900/20 hover:border-blood-600 transition-colors">
+ <Link key={i} href={topic.href} className="px-2 py-1 bg-blood-950 border border-blood-800 text-blood-500/70 hover:bg-blood-900 hover:border-blood-600 transition-colors">
  {topic.name}
  </Link>
  ))}
@@ -507,7 +507,7 @@ export default function Home() {
  <GlitchDivider showLabel label="BIOHAZARD"/>
 
  {/* Entity Categories */}
- <section className="py-12 lg:py-16 bg-black/50">
+ <section className="py-12 lg:py-16 bg-black">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="text-center mb-12">
  <TypewriterText
@@ -597,7 +597,7 @@ export default function Home() {
  {/* Sharp geometric accent instead of blur */}
  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-32 bg-gradient-to-b from-blood-600/50 to-transparent"/>
  <div className="absolute top-0 left-1/2 -translate-x-1/2">
- <div className="w-32 h-32 border border-blood-600/10 rotate-45 transform -translate-y-16"/>
+ <div className="w-32 h-32 border border-blood-900 rotate-45 transform -translate-y-16"/>
  </div>
 
  <div className="relative">

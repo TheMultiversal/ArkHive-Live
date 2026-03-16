@@ -144,7 +144,7 @@ export default function BloodDropCursor() {
 
  {/* Outer ring indicator */}
  <motion.div
- className="fixed pointer-events-none z-[9998] border border-blood-600/30"
+ className="fixed pointer-events-none z-[9998] border border-blood-800"
  style={{
  x: smoothX,
  y: smoothY,

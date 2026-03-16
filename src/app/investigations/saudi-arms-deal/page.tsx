@@ -114,10 +114,10 @@ const investigation = {
 };
 
 const severityColors = {
- critical: 'text-blood-500 bg-blood-950/50 border-blood-500/30',
- high: 'text-blood-700 bg-blood-950/50 border-blood-700/30',
- medium: 'text-zinc-400 bg-[rgba(0,10,28,0.82)] border-zinc-400/30',
- low: 'text-blood-500 bg-blood-950/50 border-blood-500/30',
+ critical: 'text-blood-500 bg-blood-950 border-blood-800',
+ high: 'text-blood-700 bg-blood-950 border-blood-800',
+ medium: 'text-zinc-400 bg-[#000a1c] border-zinc-700',
+ low: 'text-blood-500 bg-blood-950 border-blood-800',
 };
 
 export default function SaudiArmsDealPage() {
@@ -177,23 +177,23 @@ export default function SaudiArmsDealPage() {
  <div className="glass-card p-6">
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
- <div className="bg-[rgba(0,10,28,0.82)] p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-[#000a1c] p-4 border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Announced Value</p>
  <p className="text-blood-400 font-mono text-lg">{investigation.dealOverview.announcedValue}</p>
  </div>
- <div className="bg-[rgba(0,10,28,0.82)] p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-[#000a1c] p-4 border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Reality</p>
  <p className="text-blood-400">{investigation.dealOverview.actualValue}</p>
  </div>
- <div className="bg-[rgba(0,10,28,0.82)] p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-[#000a1c] p-4 border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Emergency Bypass Sales</p>
  <p className="text-blood-600 font-mono">{investigation.dealOverview.emergencySales}</p>
  </div>
- <div className="bg-[rgba(0,10,28,0.82)] p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-[#000a1c] p-4 border border-[rgba(80,180,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Nuclear Plans</p>
  <p className="text-blood-400">{investigation.dealOverview.nuclearPlans}</p>
  </div>
@@ -217,7 +217,7 @@ export default function SaudiArmsDealPage() {
  <div key={index} className="glass-card p-4">
  <div className="flex items-start justify-between mb-2">
  <span className="text-blood-500 font-mono text-sm">{bypass.date}</span>
- <span className="text-xs bg-blood-500/20 text-blood-400 px-2 py-1">{bypass.action}</span>
+ <span className="text-xs bg-blood-950 text-blood-400 px-2 py-1">{bypass.action}</span>
  </div>
  <p className="text-zinc-300">{bypass.detail}</p>
  {bypass.weapons && (
@@ -306,7 +306,7 @@ export default function SaudiArmsDealPage() {
  >
  <div className="flex items-start justify-between mb-2">
  <h3 className="glass-text font-bold hover:text-blood-400">{figure.name}</h3>
- <span className="text-xs bg-[rgba(0,12,32,0.85)] text-zinc-400 px-2 py-1">{figure.status}</span>
+ <span className="text-xs bg-[#000c20] text-zinc-400 px-2 py-1">{figure.status}</span>
  </div>
  <p className="text-zinc-400 text-sm">{figure.role}</p>
  </Link>
@@ -342,12 +342,12 @@ export default function SaudiArmsDealPage() {
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -367,7 +367,7 @@ export default function SaudiArmsDealPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] hover:bg-[rgba(0,12,32,0.80)] transition-colors border border-[rgba(80,180,255,0.15)]"
+ className="flex items-center justify-between p-3 bg-[#000a1c] hover:bg-[#000c20] transition-colors border border-[rgba(80,180,255,0.15)]"
  >
  <div>
  <p className="text-white">{source.title}</p>

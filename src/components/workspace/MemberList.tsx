@@ -78,7 +78,7 @@ export default function MemberList({ members, currentUserId = '1' }: MemberListP
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
  aria-label="Search team members"
- className="w-full pl-7 pr-3 py-1.5 bg-white/[0.02] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full pl-7 pr-3 py-1.5 bg-[#000a1c] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
  </div>
@@ -158,7 +158,7 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  >
  <div 
  className={`group flex items-center gap-2 p-2 rounded cursor-pointer transition-colors ${
- isCurrentUser ? 'bg-blood-950/20' : 'hover:bg-white/[0.02]'
+ isCurrentUser ? 'bg-blood-950' : 'hover:bg-[#000a1c]'
  }`}
  onClick={() => setIsExpanded(!isExpanded)}
  role="button"
@@ -168,10 +168,10 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  onKeyDown={(e) => e.key === 'Enter' && setIsExpanded(!isExpanded)}
  >
  <div className="relative">
- <div className={`w-6 h-6 bg-blood-900/40 flex items-center justify-center text-[10px] font-medium text-white/50 ${!member.isOnline ? 'opacity-50' : ''}`}>
+ <div className={`w-6 h-6 bg-blood-900 flex items-center justify-center text-[10px] font-medium text-white/50 ${!member.isOnline ? 'opacity-50' : ''}`}>
  {member.name.charAt(0)}
  </div>
- <div className={`absolute -bottom-0.5 -right-0.5 w-2 h-2 border border-[#050505] ${member.isOnline ? 'bg-blood-500/80' : 'bg-white/20'}`} />
+ <div className={`absolute -bottom-0.5 -right-0.5 w-2 h-2 border border-[#050505] ${member.isOnline ? 'bg-blood-500/80' : 'bg-[#000c20]'}`} />
  </div>
 
  <div className="flex-1 min-w-0">
@@ -205,7 +205,7 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  {member.expertise && (
  <div className="flex flex-wrap gap-1 mt-1">
  {member.expertise.map((exp, i) => (
- <span key={i} className="px-1.5 py-0.5 bg-white/[0.03] rounded text-white/30">{exp}</span>
+ <span key={i} className="px-1.5 py-0.5 bg-[#000a1c] rounded text-white/30">{exp}</span>
  ))}
  </div>
  )}

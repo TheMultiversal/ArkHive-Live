@@ -27,11 +27,11 @@ const typeIcons = {
 };
 
 const typeColors = {
- agency:"text-blood-500 bg-blood-600/10 border-blood-600/20",
- corporation:"text-blood-400 bg-blood-500/10 border-blood-500/20",
- individual:"text-blood-500 bg-blood-500/10 border-blood-500/20",
- organization:"text-blood-600 bg-blood-700/10 border-blood-700/20",
- other:"text-blood-500 bg-blood-500/10 border-blood-500/20",
+ agency:"text-blood-500 bg-blood-950 border-blood-800",
+ corporation:"text-blood-400 bg-blood-950 border-blood-800",
+ individual:"text-blood-500 bg-blood-950 border-blood-800",
+ organization:"text-blood-600 bg-blood-950 border-blood-800",
+ other:"text-blood-500 bg-blood-950 border-blood-800",
 };
 
 export default function AffiliationsSidebar({
@@ -59,7 +59,7 @@ export default function AffiliationsSidebar({
  {/* Overlay */}
  {isOpen && (
  <div
- className="fixed inset-0 bg-[rgba(0,8,25,0.88)] z-40 lg:hidden"
+ className="fixed inset-0 bg-[#000819] z-40 lg:hidden"
  onClick={onClose}
  />
  )}
@@ -79,7 +79,7 @@ export default function AffiliationsSidebar({
  </h3>
  <button
  onClick={onClose}
- className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-[rgba(0,10,28,0.85)] transition-colors"
+ className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-[#000a1c] transition-colors"
  >
  <X className="w-5 h-5"/>
  </button>

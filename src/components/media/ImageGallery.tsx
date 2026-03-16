@@ -159,12 +159,12 @@ function GalleryItem({ image, showTitle, onClick }: GalleryItemProps) {
  return (
  <motion.div
  whileHover={{ scale: 1.02 }}
- className="relative group cursor-pointer overflow-hidden bg-[rgba(0,12,32,0.85)]"
+ className="relative group cursor-pointer overflow-hidden bg-[#000c20]"
  onClick={onClick}
  >
  {/* Loading placeholder */}
  {!loaded && !error && (
- <div className="aspect-square flex items-center justify-center bg-[rgba(0,12,32,0.85)]">
+ <div className="aspect-square flex items-center justify-center bg-[#000c20]">
  <motion.div
  animate={{ rotate: 360 }}
  transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
@@ -176,7 +176,7 @@ function GalleryItem({ image, showTitle, onClick }: GalleryItemProps) {
 
  {/* Error state */}
  {error && (
- <div className="aspect-square flex items-center justify-center bg-[rgba(0,12,32,0.85)] text-zinc-500">
+ <div className="aspect-square flex items-center justify-center bg-[#000c20] text-zinc-500">
  <ImageIcon className="w-8 h-8"/>
  </div>
  )}
@@ -196,7 +196,7 @@ function GalleryItem({ image, showTitle, onClick }: GalleryItemProps) {
  />
 
  {/* Overlay */}
- <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors flex items-center justify-center">
+ <div className="absolute inset-0 bg-black/0 group-hover:bg-black transition-colors flex items-center justify-center">
  <motion.div
  initial={{ opacity: 0, scale: 0.8 }}
  whileHover={{ opacity: 1, scale: 1 }}
@@ -241,7 +241,7 @@ function CarouselGallery({ images, onSelect, showTitles }: CarouselGalleryProps)
  <div className="relative">
  {/* Main Image */}
  <div
- className="relative aspect-video bg-[rgba(0,10,28,0.85)] cursor-pointer"
+ className="relative aspect-video bg-[#000a1c] cursor-pointer"
  onClick={() => onSelect(currentIndex)}
  >
  <AnimatePresence mode="wait">
@@ -263,7 +263,7 @@ function CarouselGallery({ images, onSelect, showTitles }: CarouselGalleryProps)
  e.stopPropagation();
  handlePrevious();
  }}
- className="absolute left-2 top-1/2 -translate-y-1/2 p-2 bg-black/50 text-white hover:bg-[rgba(0,8,25,0.88)] transition-colors"
+ className="absolute left-2 top-1/2 -translate-y-1/2 p-2 bg-black text-white hover:bg-[#000819] transition-colors"
  >
  <ChevronLeft className="w-6 h-6"/>
  </button>
@@ -272,7 +272,7 @@ function CarouselGallery({ images, onSelect, showTitles }: CarouselGalleryProps)
  e.stopPropagation();
  handleNext();
  }}
- className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-black/50 text-white hover:bg-[rgba(0,8,25,0.88)] transition-colors"
+ className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-black text-white hover:bg-[#000819] transition-colors"
  >
  <ChevronRight className="w-6 h-6"/>
  </button>
@@ -368,7 +368,7 @@ function Lightbox({ images, currentIndex, onClose, onNavigate }: LightboxProps) 
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  exit={{ opacity: 0 }}
- className="fixed inset-0 z-50 bg-[rgba(0,10,30,0.75)] flex flex-col"
+ className="fixed inset-0 z-50 bg-[rgba(0,6,20,0.95)] flex flex-col"
  >
  {/* Header */}
  <div className="flex items-center justify-between p-4">
@@ -424,7 +424,7 @@ function Lightbox({ images, currentIndex, onClose, onNavigate }: LightboxProps) 
  onClick={() =>
  onNavigate(currentIndex > 0 ? currentIndex - 1 : images.length - 1)
  }
- className="absolute left-4 p-3 bg-black/50 text-white hover:bg-[rgba(0,8,25,0.88)] transition-colors z-10"
+ className="absolute left-4 p-3 bg-black text-white hover:bg-[#000819] transition-colors z-10"
  >
  <ChevronLeft className="w-8 h-8"/>
  </button>
@@ -445,7 +445,7 @@ function Lightbox({ images, currentIndex, onClose, onNavigate }: LightboxProps) 
  onClick={() =>
  onNavigate(currentIndex < images.length - 1 ? currentIndex + 1 : 0)
  }
- className="absolute right-4 p-3 bg-black/50 text-white hover:bg-[rgba(0,8,25,0.88)] transition-colors z-10"
+ className="absolute right-4 p-3 bg-black text-white hover:bg-[#000819] transition-colors z-10"
  >
  <ChevronRight className="w-8 h-8"/>
  </button>

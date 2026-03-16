@@ -9,10 +9,10 @@ export default function RecentLoading() {
  {/* Header */}
  <div className="flex items-center justify-between mb-8">
  <div>
- <div className="h-10 w-48 bg-[rgba(0,10,28,0.85)] animate-pulse mb-2"/>
- <div className="h-5 w-64 bg-zinc-900/60 animate-pulse"/>
+ <div className="h-10 w-48 bg-[#000a1c] animate-pulse mb-2"/>
+ <div className="h-5 w-64 bg-zinc-900 animate-pulse"/>
  </div>
- <div className="h-10 w-28 bg-zinc-800/60 animate-pulse"/>
+ <div className="h-10 w-28 bg-zinc-900 animate-pulse"/>
  </div>
 
  {/* Recent activity list */}
@@ -26,21 +26,21 @@ export default function RecentLoading() {
  className="glass-card p-4 flex items-center gap-4"
  >
  {/* Icon */}
- <div className="w-12 h-12 bg-blood-900/30 animate-pulse flex-shrink-0"/>
+ <div className="w-12 h-12 bg-blood-900 animate-pulse flex-shrink-0"/>
  
  {/* Content */}
  <div className="flex-1">
  <div className="flex items-center gap-2 mb-2">
- <div className="h-5 w-48 bg-[rgba(0,12,32,0.85)] animate-pulse"/>
- <div className="h-5 w-20 bg-zinc-800/60 animate-pulse"/>
+ <div className="h-5 w-48 bg-[#000c20] animate-pulse"/>
+ <div className="h-5 w-20 bg-zinc-900 animate-pulse"/>
  </div>
- <div className="h-4 w-full bg-zinc-900/60 animate-pulse"/>
+ <div className="h-4 w-full bg-zinc-900 animate-pulse"/>
  </div>
 
  {/* Timestamp */}
  <div className="text-right flex-shrink-0">
- <div className="h-4 w-20 bg-zinc-900/60 animate-pulse mb-1"/>
- <div className="h-3 w-16 bg-[rgba(0,10,28,0.80)] animate-pulse"/>
+ <div className="h-4 w-20 bg-zinc-900 animate-pulse mb-1"/>
+ <div className="h-3 w-16 bg-[#000a1c] animate-pulse"/>
  </div>
  </motion.div>
  ))}
@@ -48,7 +48,7 @@ export default function RecentLoading() {
 
  {/* Load more */}
  <div className="mt-8 text-center">
- <div className="h-10 w-32 bg-zinc-800/60 animate-pulse mx-auto"/>
+ <div className="h-10 w-32 bg-zinc-900 animate-pulse mx-auto"/>
  </div>
  </div>
  </div>

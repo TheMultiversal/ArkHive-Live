@@ -200,10 +200,10 @@ const investigationData = {
 };
 
 const severityColors = {
- critical: 'bg-blood-600/20 text-blood-400 border-blood-600/30',
- high: 'bg-blood-800/20 text-blood-600 border-blood-800/30',
- medium: 'bg-zinc-500/20 text-zinc-300 border-zinc-500/30',
- low: 'bg-blood-600/20 text-blood-400 border-blood-600/30',
+ critical: 'bg-blood-900 text-blood-400 border-blood-800',
+ high: 'bg-blood-950 text-blood-600 border-blood-800',
+ medium: 'bg-zinc-900 text-zinc-300 border-zinc-700',
+ low: 'bg-blood-900 text-blood-400 border-blood-800',
 };
 
 export default function ObstructionPage() {
@@ -226,7 +226,7 @@ export default function ObstructionPage() {
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-[rgba(0,12,32,0.85)] text-zinc-300 border border-[rgba(60,160,255,0.18)]">
+ <span className="px-3 py-1 text-xs font-medium bg-[#000c20] text-zinc-300 border border-[rgba(60,160,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -311,7 +311,7 @@ export default function ObstructionPage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)] hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] hover:border-blood-500/50 transition-all"
  >
  <div>
  <span className="font-medium text-blood-400">{figure.name}</span>
@@ -357,7 +357,7 @@ export default function ObstructionPage() {
  <div key={item.instance} className="border border-[rgba(80,180,255,0.15)]">
  <button
  onClick={() => setExpandedInstance(expandedInstance === item.instance ? null : item.instance)}
- className="w-full flex items-center justify-between p-4 hover:bg-[rgba(0,10,28,0.82)] transition-colors"
+ className="w-full flex items-center justify-between p-4 hover:bg-[#000a1c] transition-colors"
  >
  <div className="text-left">
  <span className="font-bold text-blood-400">#{item.instance}: {item.title}</span>
@@ -411,7 +411,7 @@ export default function ObstructionPage() {
  <p className="text-zinc-400 text-sm mb-4">Trump pardoned co-conspirators who refused to cooperate with investigators:</p>
  <div className="space-y-3">
  {investigationData.pardonsForObstruction.map((pardon, index) => (
- <div key={index} className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]">
+ <div key={index} className="flex items-center justify-between p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
  <div>
  <span className="font-medium text-blood-400">{pardon.name}</span>
  <p className="text-xs text-zinc-500">{pardon.crime}</p>
@@ -447,17 +447,17 @@ export default function ObstructionPage() {
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -474,7 +474,7 @@ export default function ObstructionPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[rgba(0,10,28,0.82)] hover:bg-[rgba(0,12,32,0.80)] border border-[rgba(80,180,255,0.15)] transition-colors"
+ className="flex items-center justify-between p-3 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(80,180,255,0.15)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

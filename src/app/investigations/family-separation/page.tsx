@@ -142,10 +142,10 @@ export default function FamilySeparationPage() {
  className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8"
  >
  <div className="flex items-center gap-3 mb-4">
- <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-500/30 bg-blood-500/20 text-blood-400">
+ <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-800 bg-blood-950 text-blood-400">
  {investigation.severity}
  </span>
- <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-400/30 bg-zinc-400/20 text-zinc-300">
+ <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-700 bg-zinc-900 text-zinc-300">
  {investigation.status}
  </span>
  </div>
@@ -161,31 +161,31 @@ export default function FamilySeparationPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.1 }}
- className="border-2 border-blood-800/60 bg-blood-950/20 p-6 mb-8"
+ className="border-2 border-blood-800/60 bg-blood-950 p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Baby className="w-5 h-5 text-blood-500"/>
  Human Cost
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
- <div className="border border-blood-800/50 bg-black/50 p-4 text-center">
+ <div className="border border-blood-800/50 bg-black p-4 text-center">
  <p className="text-3xl font-bold text-blood-500">{investigation.statistics.childrenSeparated}</p>
  <p className="text-sm text-zinc-400">Children Separated</p>
  </div>
- <div className="border border-blood-800/50 bg-black/50 p-4 text-center">
+ <div className="border border-blood-800/50 bg-black p-4 text-center">
  <p className="text-3xl font-bold text-blood-500">{investigation.statistics.stillSeparated}</p>
  <p className="text-sm text-zinc-400">Still Not Reunited</p>
  </div>
- <div className="border border-blood-800/50 bg-black/50 p-4 text-center">
+ <div className="border border-blood-800/50 bg-black p-4 text-center">
  <p className="text-3xl font-bold text-blood-500">{investigation.statistics.deathsInCustody}</p>
  <p className="text-sm text-zinc-400">Deaths in Custody</p>
  </div>
  </div>
  <div className="mt-4 grid grid-cols-2 gap-4">
- <div className="border border-[rgba(60,160,255,0.18)] bg-black/50 p-3">
+ <div className="border border-[rgba(60,160,255,0.18)] bg-black p-3">
  <p className="text-zinc-300">{investigation.statistics.infantsSeparated}</p>
  </div>
- <div className="border border-[rgba(60,160,255,0.18)] bg-black/50 p-3">
+ <div className="border border-[rgba(60,160,255,0.18)] bg-black p-3">
  <p className="text-zinc-300">{investigation.statistics.averageSeparation}</p>
  </div>
  </div>
@@ -196,13 +196,13 @@ export default function FamilySeparationPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.15 }}
- className="border-2 border-zinc-700/60 bg-zinc-900/20 p-6 mb-8"
+ className="border-2 border-zinc-700/60 bg-zinc-900 p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <AlertTriangle className="w-5 h-5 text-zinc-400"/>
  Biblical Justification - {investigation.sessionsQuote.date}
  </h2>
- <div className="border border-[rgba(80,180,255,0.15)] bg-black/50 p-4">
+ <div className="border border-[rgba(80,180,255,0.15)] bg-black p-4">
  <p className="text-zinc-300 italic">&quot;{investigation.sessionsQuote.quote}&quot;</p>
  <p className="text-xs text-zinc-500 mt-2">- Jeff Sessions, Attorney General</p>
  <p className="text-sm text-blood-400 mt-2">{investigation.sessionsQuote.context}</p>
@@ -214,7 +214,7 @@ export default function FamilySeparationPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.2 }}
- className="border-2 border-blood-900/80 bg-blood-950/30 p-6 mb-8"
+ className="border-2 border-blood-900/80 bg-blood-950 p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Heart className="w-5 h-5 text-blood-500"/>
@@ -222,7 +222,7 @@ export default function FamilySeparationPage() {
  </h2>
  <div className="space-y-3">
  {investigation.childDeaths.map((child, idx) => (
- <div key={idx} className="border border-blood-800/50 bg-black/50 p-4">
+ <div key={idx} className="border border-blood-800/50 bg-black p-4">
  <div className="flex justify-between items-start mb-2">
  <h3 className="font-bold glass-text">{child.name}, {child.age}</h3>
  <span className="text-xs text-zinc-400">{child.date}</span>
@@ -238,7 +238,7 @@ export default function FamilySeparationPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.25 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Users className="w-5 h-5 text-blood-500"/>
@@ -246,7 +246,7 @@ export default function FamilySeparationPage() {
  </h2>
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950/20 border border-blood-500/30"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -254,7 +254,7 @@ export default function FamilySeparationPage() {
  <Link
  key={idx}
  href={figure.href}
- className="border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.82)] p-4 hover:border-blood-600 transition-colors group"
+ className="border border-[rgba(60,160,255,0.18)] bg-[#000a1c] p-4 hover:border-blood-600 transition-colors group"
  >
  <div className="flex justify-between items-start">
  <div>
@@ -273,14 +273,14 @@ export default function FamilySeparationPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.3 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4">
  Detention Conditions
  </h2>
  <div className="space-y-2">
  {investigation.conditions.map((condition, idx) => (
- <div key={idx} className="flex items-start gap-2 text-zinc-300 border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.82)] p-3">
+ <div key={idx} className="flex items-start gap-2 text-zinc-300 border border-[rgba(60,160,255,0.18)] bg-[#000a1c] p-3">
  <span className="text-blood-500">■</span>
  {condition}
  </div>
@@ -293,7 +293,7 @@ export default function FamilySeparationPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.35 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4">
  Stephen Miller Leaked Emails
@@ -301,7 +301,7 @@ export default function FamilySeparationPage() {
  <p className="text-zinc-400 mb-4">{investigation.millerEmails.description}</p>
  <div className="space-y-2">
  {investigation.millerEmails.revelations.map((rev, idx) => (
- <div key={idx} className="flex items-start gap-2 text-zinc-300 border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.82)] p-3">
+ <div key={idx} className="flex items-start gap-2 text-zinc-300 border border-[rgba(60,160,255,0.18)] bg-[#000a1c] p-3">
  <span className="text-blood-500">■</span>
  {rev}
  </div>
@@ -314,7 +314,7 @@ export default function FamilySeparationPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.4 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Calendar className="w-5 h-5 text-blood-500"/>
@@ -331,21 +331,21 @@ export default function FamilySeparationPage() {
  </motion.div>
 
  
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8">
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6 mb-8">
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[rgba(0,10,28,0.82)] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.div>
  {/* Sources */}
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.45 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-6"
+ className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
@@ -358,7 +358,7 @@ export default function FamilySeparationPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between border border-[rgba(60,160,255,0.18)] bg-[rgba(0,10,28,0.82)] p-3 hover:border-blood-600 transition-colors group"
+ className="flex items-center justify-between border border-[rgba(60,160,255,0.18)] bg-[#000a1c] p-3 hover:border-blood-600 transition-colors group"
  >
  <div>
  <h3 className="text-zinc-300 group-hover:text-blood-500 transition-colors">{source.title}</h3>

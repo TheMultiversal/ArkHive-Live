@@ -362,7 +362,7 @@ export default function InvestigationsPage() {
 
  {/* ── HEADER ───────────────────────────────────────────── */}
  <div className="py-8 lg:py-12">
- <div className="border-2 border-blood-800/60 bg-[rgba(0,8,25,0.85)] p-6 lg:p-8 mb-8">
+ <div className="border-2 border-blood-800/60 bg-[#000819] p-6 lg:p-8 mb-8">
  <div className="flex items-center gap-4 mb-6">
  <span className="h-[2px] flex-1 bg-gradient-to-r from-blood-700 to-transparent"/>
  <span className="text-xs text-zinc-600 uppercase tracking-[0.3em]">Declassified Files</span>
@@ -397,7 +397,7 @@ export default function InvestigationsPage() {
  onClick={() => handleCategoryChange(cat)}
  className={`flex items-center gap-1.5 px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-all whitespace-nowrap ${
  isActive
- ?"bg-blood-900/60 border-blood-700 text-blood-400"
+ ?"bg-blood-900 border-blood-700 text-blood-400"
  :"bg-black/40 border-[rgba(60,160,255,0.08)] text-zinc-500 hover:text-zinc-300 hover:border-[rgba(60,160,255,0.18)]"
  }`}
  >
@@ -422,7 +422,7 @@ export default function InvestigationsPage() {
  value={searchQuery}
  onChange={(e) => handleSearchChange(e.target.value)}
  placeholder="Search investigations, topics, entities..."
- className="w-full pl-11 pr-10 py-2.5 bg-[rgba(0,8,25,0.85)] border border-[rgba(80,180,255,0.15)] text-white text-sm placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
+ className="w-full pl-11 pr-10 py-2.5 bg-[#000819] border border-[rgba(80,180,255,0.15)] text-white text-sm placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
  />
  {searchQuery && (
  <button
@@ -438,7 +438,7 @@ export default function InvestigationsPage() {
  <select
  value={sortBy}
  onChange={(e) => handleSortChange(e.target.value as typeof sortBy)}
- className="px-4 py-2.5 bg-[rgba(0,8,25,0.85)] border border-[rgba(80,180,255,0.15)] text-zinc-300 text-sm focus:outline-none focus:border-blood-700"
+ className="px-4 py-2.5 bg-[#000819] border border-[rgba(80,180,255,0.15)] text-zinc-300 text-sm focus:outline-none focus:border-blood-700"
  >
  <option value="alpha">A - Z</option>
  <option value="newest">Newest First</option>
@@ -450,7 +450,7 @@ export default function InvestigationsPage() {
  <select
  value={activeSeverity}
  onChange={(e) => handleSeverityChange(e.target.value)}
- className="px-4 py-2.5 bg-[rgba(0,8,25,0.85)] border border-[rgba(80,180,255,0.15)] text-zinc-300 text-sm focus:outline-none focus:border-blood-700"
+ className="px-4 py-2.5 bg-[#000819] border border-[rgba(80,180,255,0.15)] text-zinc-300 text-sm focus:outline-none focus:border-blood-700"
  >
  <option value="">All Severity</option>
  <option value="critical">Critical</option>
@@ -505,7 +505,7 @@ export default function InvestigationsPage() {
  ))}
  </div>
  ) : (
- <div className="border border-[rgba(80,180,255,0.15)] bg-[rgba(0,8,25,0.85)] p-12 text-center">
+ <div className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-12 text-center">
  <div className="w-16 h-16 border-2 border-[rgba(60,160,255,0.18)] flex items-center justify-center mx-auto mb-4">
  <AlertTriangle className="w-8 h-8 text-zinc-600"/>
  </div>
@@ -551,7 +551,7 @@ export default function InvestigationsPage() {
  onClick={() => setCurrentPage(item as number)}
  className={`w-9 h-9 text-sm font-bold border transition-colors ${
  currentPage === item
- ?"bg-blood-900/60 border-blood-700 text-blood-400"
+ ?"bg-blood-900 border-blood-700 text-blood-400"
  :"border-[rgba(80,180,255,0.15)] text-zinc-500 hover:text-white hover:border-zinc-600"
  }`}
  >

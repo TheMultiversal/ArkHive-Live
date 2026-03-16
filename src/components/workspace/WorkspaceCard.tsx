@@ -54,7 +54,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  {/* Priority accent */}
  <div className={`absolute left-0 top-0 bottom-0 w-[2px] ${
  workspace.priority === 'critical' ? 'bg-blood-500' :
- workspace.priority === 'high' ? 'bg-blood-600/60' :
+ workspace.priority === 'high' ? 'bg-blood-900' :
  'bg-white/[0.08]'
  }`} />
 
@@ -135,7 +135,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  {/* Priority accent */}
  <div className={`absolute left-0 top-0 bottom-0 w-[2px] ${
  workspace.priority === 'critical' ? 'bg-blood-500' :
- workspace.priority === 'high' ? 'bg-blood-600/60' :
+ workspace.priority === 'high' ? 'bg-blood-900' :
  'bg-white/[0.08]'
  }`} />
 
@@ -171,7 +171,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  {workspace.tags.slice(0, 3).map((tag, i) => (
  <span 
  key={i}
- className="px-2 py-0.5 text-[10px] font-medium tracking-wide bg-white/[0.03] text-white/40 rounded"
+ className="px-2 py-0.5 text-[10px] font-medium tracking-wide bg-[#000a1c] text-white/40 rounded"
  >
  {tag}
  </span>
@@ -238,7 +238,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  {workspace.members.slice(0, 4).map((member) => (
  <div 
  key={member.id}
- className="w-5 h-5 bg-blood-900/60 flex items-center justify-center text-[9px] font-medium text-white/60 border border-[#0a0a0a]"
+ className="w-5 h-5 bg-blood-900 flex items-center justify-center text-[9px] font-medium text-white/60 border border-[#0a0a0a]"
  >
  {member.name.charAt(0)}
  </div>

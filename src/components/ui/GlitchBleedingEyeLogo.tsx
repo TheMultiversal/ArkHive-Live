@@ -421,11 +421,11 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  {glitchActive && (
  <>
  <div 
- className="absolute top-0 bottom-0 w-[3px] bg-blood-600/40"
+ className="absolute top-0 bottom-0 w-[3px] bg-blood-900"
  style={{ left: `${20 + Math.random() * 20}%` }}
  />
  <div 
- className="absolute top-0 bottom-0 w-[2px] bg-blood-500/30"
+ className="absolute top-0 bottom-0 w-[2px] bg-blood-950"
  style={{ left: `${60 + Math.random() * 20}%` }}
  />
  </>

@@ -8,14 +8,14 @@ export default function TimelineLoading() {
  <div className="max-w-4xl mx-auto px-4">
  {/* Header skeleton */}
  <div className="text-center mb-16">
- <div className="h-10 w-64 bg-[rgba(0,10,28,0.85)] animate-pulse mx-auto mb-4"/>
- <div className="h-6 w-96 bg-zinc-900/60 animate-pulse mx-auto"/>
+ <div className="h-10 w-64 bg-[#000a1c] animate-pulse mx-auto mb-4"/>
+ <div className="h-6 w-96 bg-zinc-900 animate-pulse mx-auto"/>
  </div>
 
  {/* Timeline skeleton */}
  <div className="relative">
  {/* Vertical line */}
- <div className="absolute left-1/2 transform -translate-x-1/2 w-px h-full bg-[rgba(0,12,32,0.85)]"/>
+ <div className="absolute left-1/2 transform -translate-x-1/2 w-px h-full bg-[#000c20]"/>
 
  {/* Timeline items */}
  {[...Array(6)].map((_, i) => (
@@ -31,11 +31,11 @@ export default function TimelineLoading() {
  {/* Content */}
  <div className={`w-5/12 ${i % 2 === 0 ? 'text-right pr-8' : 'pl-8'}`}>
  <div className="glass-card p-6">
- <div className="h-4 w-24 bg-blood-900/30 animate-pulse mb-3"/>
- <div className="h-6 w-full bg-[rgba(0,12,32,0.85)] animate-pulse mb-3"/>
+ <div className="h-4 w-24 bg-blood-900 animate-pulse mb-3"/>
+ <div className="h-6 w-full bg-[#000c20] animate-pulse mb-3"/>
  <div className="space-y-2">
- <div className="h-4 w-full bg-zinc-800/60 animate-pulse"/>
- <div className="h-4 w-3/4 bg-zinc-800/60 animate-pulse"/>
+ <div className="h-4 w-full bg-zinc-900 animate-pulse"/>
+ <div className="h-4 w-3/4 bg-zinc-900 animate-pulse"/>
  </div>
  </div>
  </div>

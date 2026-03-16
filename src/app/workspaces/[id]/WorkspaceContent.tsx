@@ -53,7 +53,7 @@ export default function WorkspaceContent() {
  return (
  <div className="min-h-screen pt-16 lg:pt-20 flex items-center justify-center">
  <div className="text-center">
- <div className="w-12 h-12 mx-auto mb-4 bg-white/[0.02] flex items-center justify-center">
+ <div className="w-12 h-12 mx-auto mb-4 bg-[#000a1c] flex items-center justify-center">
  <FileText className="w-5 h-5 text-white/15"/>
  </div>
  <p className="text-sm text-white/30 mb-4">Workspace not found</p>
@@ -72,8 +72,8 @@ export default function WorkspaceContent() {
  switch (priority) {
  case 'critical': return 'bg-blood-500';
  case 'high': return 'bg-blood-600/80';
- case 'medium': return 'bg-blood-700/60';
- default: return 'bg-white/10';
+ case 'medium': return 'bg-blood-900';
+ default: return 'bg-[#000a1c]';
  }
  };
 
@@ -101,7 +101,7 @@ export default function WorkspaceContent() {
  <div className="flex items-center gap-3">
  <Link 
  href="/workspaces"
- className="p-1.5 rounded hover:bg-white/[0.03] text-white/25 hover:text-white/40 transition-colors"
+ className="p-1.5 rounded hover:bg-[#000a1c] text-white/25 hover:text-white/40 transition-colors"
  >
  <ArrowLeft className="w-4 h-4"/>
  </Link>
@@ -224,7 +224,7 @@ export default function WorkspaceContent() {
  <label className="block text-[10px] text-white/30 uppercase tracking-wider mb-2">Tags</label>
  <div className="flex flex-wrap gap-1">
  {workspace.tags.map((tag, i) => (
- <span key={i} className="px-2 py-0.5 bg-white/[0.03] rounded text-[10px] text-white/30">{tag}</span>
+ <span key={i} className="px-2 py-0.5 bg-[#000a1c] rounded text-[10px] text-white/30">{tag}</span>
  ))}
  </div>
  </div>
@@ -255,7 +255,7 @@ export default function WorkspaceContent() {
  </div>
 
  <div className="pt-4 border-t border-white/[0.04]">
- <button className="w-full px-3 py-2 bg-blood-600/20 text-blood-400/70 rounded text-[11px] font-medium hover:bg-blood-600/30 transition-colors">
+ <button className="w-full px-3 py-2 bg-blood-900 text-blood-400/70 rounded text-[11px] font-medium hover:bg-blood-900 transition-colors">
  Edit Workspace
  </button>
  </div>

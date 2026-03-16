@@ -5,7 +5,7 @@ export default function Loading() {
  <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
  <div className="text-center">
  {/* Animated Icon */}
- <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-700/50 bg-blood-950/20 flex items-center justify-center animate-pulse">
+ <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-700 bg-blood-950 flex items-center justify-center animate-pulse">
  <Search className="w-10 h-10 text-blood-600"/>
  </div>
 
@@ -21,7 +21,7 @@ export default function Loading() {
 
  {/* Progress Bar */}
  <div className="mt-8 w-64 mx-auto">
- <div className="h-1 bg-[rgba(0,10,28,0.85)] overflow-hidden">
+ <div className="h-1 bg-[#000a1c] overflow-hidden">
  <div className="h-full w-1/2 bg-gradient-to-r from-blood-900 via-blood-600 to-blood-900 animate-shimmer"
  style={{ backgroundSize: '200% 100%' }} />
  </div>

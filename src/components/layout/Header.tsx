@@ -37,8 +37,8 @@ export default function Header() {
  <header
  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
  scrolled
- ?"bg-gradient-to-b from-[rgba(0,12,32,0.92)] to-[rgba(0,6,20,0.96)] border-b border-[rgba(80,180,255,0.20)] shadow-[0_4px_30px_rgba(0,60,140,0.12)] gloss"
- :"bg-gradient-to-b from-[rgba(0,12,32,0.70)] to-[rgba(0,6,20,0.80)] border-b border-[rgba(80,180,255,0.08)]"
+ ?"bg-gradient-to-b from-[#000c20] to-[#000614] border-b border-[rgba(80,180,255,0.20)] shadow-[0_4px_30px_rgba(0,60,140,0.12)] gloss"
+ :"bg-gradient-to-b from-[#000c20] to-[#000614] border-b border-[rgba(80,180,255,0.08)]"
  }`}
  >
  {/* Top accent line */}
@@ -72,8 +72,8 @@ export default function Header() {
  href={link.href}
  className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
  active
- ?"text-blood-400 bg-blood-900/20 border-blood-800/40"
- :"text-zinc-400 hover:text-white hover:bg-blood-900/10 hover:border-blood-800/20"
+ ?"text-blood-400 bg-blood-900 border-blood-800"
+ :"text-zinc-400 hover:text-white hover:bg-blood-950 hover:border-blood-800"
  }`}
  >
  {link.label}
@@ -99,7 +99,7 @@ export default function Header() {
  )}
  <button
  onClick={() => setIsSearchOpen(!isSearchOpen)}
- className="p-2 text-zinc-500 hover:text-blood-500 hover:bg-blood-900/10 transition-colors"
+ className="p-2 text-zinc-500 hover:text-blood-500 hover:bg-blood-950 transition-colors"
  >
  <Search className="w-5 h-5"/>
  </button>
@@ -108,7 +108,7 @@ export default function Header() {
  {/* Submit Intel */}
  <Link
  href="/submit"
- className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[rgba(0,60,140,0.5)] to-[rgba(0,30,80,0.7)] hover:from-[rgba(0,80,180,0.6)] hover:to-[rgba(0,40,100,0.8)] text-white text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(80,180,255,0.28)] hover:border-[rgba(120,200,255,0.50)] shadow-[0_0_15px_rgba(0,100,220,0.15)] hover:shadow-[0_0_25px_rgba(0,100,220,0.3)] gloss-hover"
+ className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#002050] to-[#001838] hover:from-[#003070] hover:to-[#001838] text-white text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(80,180,255,0.28)] hover:border-[rgba(120,200,255,0.50)] shadow-[0_0_15px_rgba(0,100,220,0.15)] hover:shadow-[0_0_25px_rgba(0,100,220,0.3)] gloss-hover"
  >
  <Zap className="w-3.5 h-3.5"/>
  <span>Submit Intel</span>
@@ -117,7 +117,7 @@ export default function Header() {
  {/* Contribute */}
  <Link
  href="/contributor"
- className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-[rgba(80,180,255,0.15)] hover:border-blood-800/50 hover:bg-blood-900/10 transition-all duration-200"
+ className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-[rgba(80,180,255,0.15)] hover:border-blood-800/50 hover:bg-blood-950 transition-all duration-200"
  >
  <UserPlus className="w-3.5 h-3.5"/>
  <span>Contribute</span>
@@ -126,7 +126,7 @@ export default function Header() {
  {/* Mobile Menu Toggle */}
  <button
  onClick={() => setIsMenuOpen(!isMenuOpen)}
- className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-blood-900/10 transition-colors"
+ className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-blood-950 transition-colors"
  >
  {isMenuOpen ? <X className="w-6 h-6"/> : <Menu className="w-6 h-6"/>}
  </button>
@@ -136,7 +136,7 @@ export default function Header() {
 
  {/* Mobile Menu */}
  {isMenuOpen && (
- <div className="lg:hidden bg-[rgba(0,8,25,0.80)] border-t border-blood-900/30">
+ <div className="lg:hidden bg-[rgba(0,8,25,0.80)] border-t border-blood-900">
  <nav className="max-w-7xl mx-auto px-4 py-3 space-y-0.5">
  {navLinks.map((link, index) => {
  const active = isActive(link.href);
@@ -147,8 +147,8 @@ export default function Header() {
  onClick={() => setIsMenuOpen(false)}
  className={`block px-4 py-3 text-sm font-semibold uppercase tracking-wider transition-all duration-200 animate-slide-in border-l-2 ${
  active
- ?"text-blood-400 bg-blood-900/15 border-blood-500"
- :"text-zinc-400 hover:text-white hover:bg-blood-900/10 border-transparent hover:border-blood-700/50"
+ ?"text-blood-400 bg-blood-950 border-blood-500"
+ :"text-zinc-400 hover:text-white hover:bg-blood-950 border-transparent hover:border-blood-700"
  }`}
  style={{ animationDelay: `${index * 50}ms` }}
  >
@@ -159,7 +159,7 @@ export default function Header() {
  <Link
  href="/submit"
  onClick={() => setIsMenuOpen(false)}
- className="flex items-center gap-2 px-4 py-3 mt-3 bg-blood-800 glass-text font-bold uppercase tracking-wider text-sm border border-blood-700/50"
+ className="flex items-center gap-2 px-4 py-3 mt-3 bg-blood-800 glass-text font-bold uppercase tracking-wider text-sm border border-blood-700"
  >
  <Zap className="w-4 h-4"/>
  <span>Submit Intel</span>

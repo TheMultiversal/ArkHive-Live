@@ -25,10 +25,10 @@ const typeIcons = {
 };
 
 const riskColors = {
- extreme:"text-blood-500 bg-blood-900/50 border-blood-700",
- high:"text-blood-600 bg-blood-900/30 border-blood-700",
- moderate:"text-zinc-400 bg-[rgba(0,10,28,0.82)] border-zinc-600",
- low:"text-zinc-500 bg-zinc-900/30 border-[rgba(60,160,255,0.18)]",
+ extreme:"text-blood-500 bg-blood-900 border-blood-700",
+ high:"text-blood-600 bg-blood-900 border-blood-700",
+ moderate:"text-zinc-400 bg-[#000a1c] border-zinc-600",
+ low:"text-zinc-500 bg-zinc-900 border-[rgba(60,160,255,0.18)]",
 };
 
 const riskLabels = {
@@ -58,7 +58,7 @@ export default function EntityCard({ entity }: EntityCardProps) {
  {/* Header */}
  <div className="flex items-start gap-3 mb-3">
  {/* Icon */}
- <div className="w-10 h-10 border border-blood-800/50 bg-blood-950/30 flex items-center justify-center flex-shrink-0 group-hover:border-blood-700 transition-colors">
+ <div className="w-10 h-10 border border-blood-800/50 bg-blood-950 flex items-center justify-center flex-shrink-0 group-hover:border-blood-700 transition-colors">
  <Icon className="w-5 h-5 text-blood-600"/>
  </div>
 

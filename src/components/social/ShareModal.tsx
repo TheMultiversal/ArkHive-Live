@@ -50,7 +50,7 @@ const shareOptions: ShareOption[] = [
  id: 'twitter',
  name: 'Twitter / X',
  icon: Twitter,
- color: 'hover:bg-blood-500/10 hover:text-blood-400',
+ color: 'hover:bg-blood-950 hover:text-blood-400',
  getUrl: (url, title) =>
  `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`,
  },
@@ -58,7 +58,7 @@ const shareOptions: ShareOption[] = [
  id: 'facebook',
  name: 'Facebook',
  icon: Facebook,
- color: 'hover:bg-blood-600/10 hover:text-blood-500',
+ color: 'hover:bg-blood-950 hover:text-blood-500',
  getUrl: (url) =>
  `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
  },
@@ -66,7 +66,7 @@ const shareOptions: ShareOption[] = [
  id: 'linkedin',
  name: 'LinkedIn',
  icon: Linkedin,
- color: 'hover:bg-blood-700/10 hover:text-blood-600',
+ color: 'hover:bg-blood-950 hover:text-blood-600',
  getUrl: (url, title, description) =>
  `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`,
  },
@@ -74,7 +74,7 @@ const shareOptions: ShareOption[] = [
  id: 'whatsapp',
  name: 'WhatsApp',
  icon: MessageCircle,
- color: 'hover:bg-blood-500/10 hover:text-blood-400',
+ color: 'hover:bg-blood-950 hover:text-blood-400',
  getUrl: (url, title) =>
  `https://wa.me/?text=${encodeURIComponent(`${title} ${url}`)}`,
  },
@@ -82,7 +82,7 @@ const shareOptions: ShareOption[] = [
  id: 'email',
  name: 'Email',
  icon: Mail,
- color: 'hover:bg-zinc-500/10 hover:text-zinc-300',
+ color: 'hover:bg-zinc-900 hover:text-zinc-300',
  getUrl: (url, title, description) =>
  `mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(`${description || ''}\n\n${url}`)}`,
  },
@@ -155,7 +155,7 @@ export default function ShareModal({
  animate={{ opacity: 1, scale: 1, y: 0 }}
  exit={{ opacity: 0, scale: 0.95, y: 20 }}
  className={cn(
- 'fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-md bg-[rgba(0,10,28,0.85)] border border-[rgba(80,180,255,0.15)] shadow-2xl z-50',
+ 'fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-md bg-[#000a1c] border border-[rgba(80,180,255,0.15)] shadow-2xl z-50',
  className
  )}
  >
@@ -176,7 +176,7 @@ export default function ShareModal({
  {/* Content */}
  <div className="p-4 space-y-4">
  {/* Preview */}
- <div className="p-3 bg-[rgba(0,12,32,0.80)] border border-[rgba(60,160,255,0.18)]">
+ <div className="p-3 bg-[#000c20] border border-[rgba(60,160,255,0.18)]">
  {image && (
  <Image
  src={image}
@@ -199,7 +199,7 @@ export default function ShareModal({
 
  {/* Copy Link */}
  <div className="flex items-center gap-2">
- <div className="flex-1 flex items-center gap-2 px-3 py-2 bg-[rgba(0,12,32,0.85)] border border-[rgba(60,160,255,0.18)]">
+ <div className="flex-1 flex items-center gap-2 px-3 py-2 bg-[#000c20] border border-[rgba(60,160,255,0.18)]">
  <LinkIcon className="w-4 h-4 text-zinc-500 flex-shrink-0"/>
  <span className="text-sm text-zinc-400 truncate">{url}</span>
  </div>
@@ -230,7 +230,7 @@ export default function ShareModal({
  {typeof navigator !== 'undefined' && typeof navigator.share === 'function' && (
  <button
  onClick={handleNativeShare}
- className="w-full py-2 bg-[rgba(0,12,32,0.85)] text-white hover:bg-zinc-700 transition-colors flex items-center justify-center gap-2"
+ className="w-full py-2 bg-[#000c20] text-white hover:bg-zinc-700 transition-colors flex items-center justify-center gap-2"
  >
  <Share2 className="w-4 h-4"/>
  Share via device
@@ -248,7 +248,7 @@ export default function ShareModal({
  key={option.id}
  onClick={() => handleShare(option)}
  className={cn(
- 'flex flex-col items-center gap-1 p-3 bg-[rgba(0,12,32,0.85)] text-zinc-400 transition-colors',
+ 'flex flex-col items-center gap-1 p-3 bg-[#000c20] text-zinc-400 transition-colors',
  option.color
  )}
  title={option.name}
@@ -278,7 +278,7 @@ export default function ShareModal({
  exit={{ opacity: 0, height: 0 }}
  className="mt-3 flex flex-col items-center"
  >
- <div className="p-2 bg-[rgba(0,12,32,0.85)]">
+ <div className="p-2 bg-[#000c20]">
  <Image
  src={qrCodeUrl}
  alt="QR Code"

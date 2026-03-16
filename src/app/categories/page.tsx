@@ -65,7 +65,7 @@ export default function CategoriesIndexPage() {
                   >
                     <Link
                       href={`/categories/${catSlug}`}
-                      className="block p-5 border border-[rgba(80,180,255,0.15)] bg-zinc-950/50 hover:border-blood-500/30 hover:bg-zinc-900/30 transition-all group"
+                      className="block p-5 border border-[rgba(80,180,255,0.15)] bg-zinc-950 hover:border-blood-800 hover:bg-zinc-900 transition-all group"
                     >
                       <h3 className="text-lg font-bold glass-text group-hover:text-blood-400 transition-colors mb-1">
                         {cat.name}

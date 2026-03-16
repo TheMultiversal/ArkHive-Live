@@ -44,7 +44,7 @@ export default function Footer() {
  };
 
  return (
- <footer className="relative z-20 mt-auto border-t border-[rgba(80,180,255,0.15)] bg-gradient-to-b from-[rgba(0,12,32,0.90)] to-[rgba(0,6,18,0.96)] gloss">
+ <footer className="relative z-20 mt-auto border-t border-[rgba(80,180,255,0.15)] bg-gradient-to-b from-[#000c20] to-[#000612] gloss">
  {/* Top accent line */}
  <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-blood-600/50 to-transparent"/>
 
@@ -55,7 +55,7 @@ export default function Footer() {
  <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-4 lg:mb-0">
  <Link href="/"className="flex items-center gap-3 mb-4 group">
  <div className="relative">
- <div className="relative w-10 h-10 bg-gradient-to-br from-[rgba(0,60,140,0.5)] to-[rgba(0,30,80,0.7)] flex items-center justify-center border border-[rgba(80,180,255,0.25)] gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.2)'}}>
+ <div className="relative w-10 h-10 bg-gradient-to-br from-[#002050] to-[#001838] flex items-center justify-center border border-[rgba(80,180,255,0.25)] gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.2)'}}>
  <Eye className="w-5 h-5 text-white"/>
  </div>
  </div>
@@ -73,7 +73,7 @@ export default function Footer() {
  href="https://x.com"
  target="_blank"
  rel="noopener noreferrer"
- className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-900/10 border border-transparent hover:border-blood-800/30 transition-all"
+ className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-950 border border-transparent hover:border-blood-800 transition-all"
  >
  <Twitter className="w-4 h-4"/>
  </a>
@@ -81,13 +81,13 @@ export default function Footer() {
  href="https://github.com"
  target="_blank"
  rel="noopener noreferrer"
- className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-900/10 border border-transparent hover:border-blood-800/30 transition-all"
+ className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-950 border border-transparent hover:border-blood-800 transition-all"
  >
  <Github className="w-4 h-4"/>
  </a>
  <a
  href="mailto:tips@arkhive.org"
- className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-900/10 border border-transparent hover:border-blood-800/30 transition-all"
+ className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-950 border border-transparent hover:border-blood-800 transition-all"
  >
  <Mail className="w-4 h-4"/>
  </a>
@@ -192,7 +192,7 @@ export default function Footer() {
  </div>
 
  {/* Bottom Bar */}
- <div className="py-6 border-t border-blood-900/20 flex flex-col sm:flex-row items-center justify-between gap-4">
+ <div className="py-6 border-t border-blood-900 flex flex-col sm:flex-row items-center justify-between gap-4">
  <p className="text-xs text-zinc-600 uppercase tracking-wider">
  © {currentYear} ArkHive. All information is provided for educational purposes.
  </p>

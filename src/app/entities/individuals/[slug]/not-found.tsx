@@ -9,7 +9,7 @@ export default function IndividualNotFound() {
  <div className="max-w-lg mx-auto px-4 text-center">
  <div className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-12">
  {/* Icon */}
- <div className="w-24 h-24 mx-auto mb-8 border-2 border-blood-700 bg-blood-950/30 flex items-center justify-center">
+ <div className="w-24 h-24 mx-auto mb-8 border-2 border-blood-700 bg-blood-950 flex items-center justify-center">
  <Users className="w-12 h-12 text-blood-600"/>
  </div>
 
@@ -38,7 +38,7 @@ export default function IndividualNotFound() {
  <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
  <Link
  href="/entities/individuals"
- className="flex items-center gap-2 px-6 py-3 border-2 border-blood-700 bg-blood-950/30 text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
+ className="flex items-center gap-2 px-6 py-3 border-2 border-blood-700 bg-blood-950 text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
  >
  <ArrowLeft className="w-5 h-5"/>
  All Individuals

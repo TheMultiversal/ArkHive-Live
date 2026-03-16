@@ -194,7 +194,7 @@ function TagCard({ tag }: { tag: TagData }) {
  />
  <h3 className="text-lg font-semibold text-white">{tag.name}</h3>
  {tag.trending && (
- <span className="flex items-center gap-1 px-2 py-0.5 bg-blood-500/20 text-blood-400 text-xs">
+ <span className="flex items-center gap-1 px-2 py-0.5 bg-blood-950 text-blood-400 text-xs">
  <TrendingUp className="w-3 h-3"/>
  Trending
  </span>
@@ -211,11 +211,11 @@ function TagCard({ tag }: { tag: TagData }) {
  
  {showMenu && (
  <div className="absolute right-0 top-full mt-1 w-32 glass border border-[rgba(60,160,255,0.18)] py-1 z-10">
- <button className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[rgba(0,12,32,0.85)] flex items-center gap-2">
+ <button className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#000c20] flex items-center gap-2">
  <Edit2 className="w-3 h-3"/>
  Edit
  </button>
- <button className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[rgba(0,12,32,0.85)] flex items-center gap-2">
+ <button className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[#000c20] flex items-center gap-2">
  <Trash2 className="w-3 h-3"/>
  Delete
  </button>
@@ -263,7 +263,7 @@ function TagCard({ tag }: { tag: TagData }) {
  <span>Total Usage</span>
  <span>{tag.usageCount}</span>
  </div>
- <div className="h-1 bg-[rgba(0,12,32,0.85)] overflow-hidden">
+ <div className="h-1 bg-[#000c20] overflow-hidden">
  <motion.div
  initial={{ width: 0 }}
  animate={{ width: `${Math.min((tag.usageCount / 600) * 100, 100)}%` }}
@@ -301,7 +301,7 @@ function CreateTagModal({
  <input
  type="text"
  placeholder="Enter tag name..."
- className="w-full px-4 py-2 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full px-4 py-2 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500"
  />
  </div>
 
@@ -310,13 +310,13 @@ function CreateTagModal({
  <textarea
  placeholder="Describe what this tag is for..."
  rows={3}
- className="w-full px-4 py-2 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
+ className="w-full px-4 py-2 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
  />
  </div>
 
  <div>
  <label className="block text-zinc-400 text-sm mb-2">Category</label>
- <select className="w-full px-4 py-2 bg-[rgba(0,10,28,0.85)] border border-[rgba(60,160,255,0.18)] text-white focus:outline-none focus:border-blood-500">
+ <select className="w-full px-4 py-2 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] text-white focus:outline-none focus:border-blood-500">
  <option value="general">General</option>
  <option value="investigation">Investigation</option>
  <option value="entity">Entity</option>
@@ -409,7 +409,7 @@ export default function TagsPage() {
  { label: 'Categories', value: 4, icon: <Filter className="w-5 h-5 text-blood-500"/> },
  ].map((stat, i) => (
  <div key={i} className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[rgba(0,12,32,0.85)]">
+ <div className="p-2 bg-[#000c20]">
  {stat.icon}
  </div>
  <div>

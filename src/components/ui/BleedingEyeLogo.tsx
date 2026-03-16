@@ -35,9 +35,9 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  >
  {/* Outer atmospheric glow - multiple layers */}
  <div className="absolute inset-0 scale-150">
- <div className="absolute inset-0 bg-blood-600/20 blur-xl animate-pulse"style={{ animationDuration: '3s' }} />
- <div className="absolute inset-0 bg-blood-700/10 blur-2xl animate-pulse"style={{ animationDuration: '4s', animationDelay: '1s' }} />
- <div className="absolute inset-0 bg-blood-900/30 blur-3xl animate-pulse"style={{ animationDuration: '5s', animationDelay: '2s' }} />
+ <div className="absolute inset-0 bg-blood-900 blur-xl animate-pulse"style={{ animationDuration: '3s' }} />
+ <div className="absolute inset-0 bg-blood-950 blur-2xl animate-pulse"style={{ animationDuration: '4s', animationDelay: '1s' }} />
+ <div className="absolute inset-0 bg-blood-900 blur-3xl animate-pulse"style={{ animationDuration: '5s', animationDelay: '2s' }} />
  </div>
 
  {/* Main container with glass morphism */}
@@ -235,7 +235,7 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  </svg>
 
  {/* Pulsing red overlay on hover */}
- <div className={`absolute inset-0 bg-blood-600/10 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`} />
+ <div className={`absolute inset-0 bg-blood-950 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`} />
 
  {/* Corner accents */}
  <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-blood-600/50 rounded-tl-lg"/>

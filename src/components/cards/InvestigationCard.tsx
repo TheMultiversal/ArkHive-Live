@@ -21,25 +21,25 @@ interface InvestigationCardProps {
 
 const severityConfig = {
  critical: {
- classes:"bg-blood-900/60 text-blood-400 border-blood-600",
+ classes:"bg-blood-900 text-blood-400 border-blood-600",
  label:"CRITICAL THREAT",
  Icon: Skull,
  accentColor:"rgba(0, 85, 184, 0.5)",
  },
  high: {
- classes:"bg-blood-950/60 text-blood-500 border-blood-700",
+ classes:"bg-blood-950 text-blood-500 border-blood-700",
  label:"HIGH THREAT",
  Icon: AlertTriangle,
  accentColor:"rgba(168, 40, 40, 0.4)",
  },
  medium: {
- classes:"bg-zinc-900/60 text-zinc-300 border-[rgba(60,160,255,0.18)]",
+ classes:"bg-zinc-900 text-zinc-300 border-[rgba(80,180,255,0.18)]",
  label:"DOCUMENTED",
  Icon: FileText,
  accentColor:"rgba(113, 113, 122, 0.3)",
  },
  low: {
- classes:"bg-[rgba(0,10,28,0.80)] text-zinc-500 border-[rgba(80,180,255,0.15)]",
+ classes:"bg-[#000a1c] text-zinc-500 border-[rgba(80,180,255,0.15)]",
  label:"ARCHIVED",
  Icon: Archive,
  accentColor:"rgba(63, 63, 70, 0.3)",

@@ -253,7 +253,7 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
       <motion.button
        key={item.label}
        onClick={() => router.push(item.href)}
-       className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono border border-blood-900/30 bg-black/40 text-zinc-400 hover:text-white hover:border-blood-600/60 hover:bg-blood-950/30 active:scale-[0.97] transition-all duration-150 cursor-pointer select-none"
+       className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-mono border border-blood-900 bg-black/40 text-zinc-400 hover:text-white hover:border-blood-600/60 hover:bg-blood-950 active:scale-[0.97] transition-all duration-150 cursor-pointer select-none"
        whileHover={{ scale: 1.03 }}
        whileTap={{ scale: 0.96 }}
       >
@@ -284,7 +284,7 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
        className={`
         text-left p-3 border-l-2 ${SEVERITY_COLORS[topic.severity]}
         bg-black/30 border border-[rgba(60,160,255,0.08)]
-        hover:bg-blood-950/20 hover:border-blood-900/40
+        hover:bg-blood-950 hover:border-blood-900
         hover:shadow-[0_0_10px_rgba(0,85,184,0.08)]
         active:scale-[0.98]
         transition-all duration-200 cursor-pointer select-none group

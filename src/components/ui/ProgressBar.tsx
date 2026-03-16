@@ -58,7 +58,7 @@ export default function ProgressBar({
  )}
  <div
  className={cn(
- 'w-full bg-[rgba(0,12,32,0.85)] overflow-hidden',
+ 'w-full bg-[#000c20] overflow-hidden',
  sizeClasses[size]
  )}
  role="progressbar"
@@ -185,7 +185,7 @@ export function IndeterminateProgress({
  return (
  <div
  className={cn(
- 'w-full bg-[rgba(0,12,32,0.85)] overflow-hidden',
+ 'w-full bg-[#000c20] overflow-hidden',
  sizeClasses[size],
  className
  )}
@@ -323,7 +323,7 @@ export function StackedProgress({
  <div className={cn('w-full', className)}>
  <div
  className={cn(
- 'w-full bg-[rgba(0,12,32,0.85)] overflow-hidden flex',
+ 'w-full bg-[#000c20] overflow-hidden flex',
  sizeClasses[size]
  )}
  role="progressbar"
