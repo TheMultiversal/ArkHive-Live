@@ -250,12 +250,13 @@ a:focus-visible {
   }
 
   .glass-card:hover {
-    border-color: rgba(60, 160, 255, 0.45);
+    border-color: rgba(60, 160, 255, 0.5);
     box-shadow: 
-      0 0 1px rgba(60, 160, 255, 0.6),
-      0 0 20px rgba(0, 100, 220, 0.15),
+      0 0 1px rgba(60, 160, 255, 0.8),
+      0 0 25px rgba(0, 100, 220, 0.2),
+      0 0 60px rgba(0, 85, 184, 0.08),
       0 8px 40px rgba(0, 0, 0, 0.4),
-      inset 0 1px 0 rgba(255, 255, 255, 0.18);
+      inset 0 1px 0 rgba(255, 255, 255, 0.22);
     transform: translateY(-2px);
   }
 
@@ -267,21 +268,68 @@ a:focus-visible {
     box-shadow: 0 0 15px rgba(0, 85, 184, 0.4), 0 0 40px rgba(0, 85, 184, 0.15);
   }
 
-  /* Glass text effect - glossy white with blue luminance */
+  /* Glass text - glistening multi-shade blue gradient with shimmer */
   .glass-text {
-    color: #ffffff;
-    text-shadow: 
-      0 0 10px rgba(120, 200, 255, 0.25),
-      0 0 40px rgba(0, 120, 255, 0.15),
-      0 1px 3px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(90deg, 
+      #5499e8 0%,
+      #80b5f0 20%,
+      #d8eafc 45%,
+      #80b5f0 70%,
+      #5499e8 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glassShimmer 4s ease-in-out infinite;
+    filter: drop-shadow(0 0 10px rgba(42, 120, 214, 0.5)) drop-shadow(0 0 3px rgba(0, 85, 184, 0.7));
   }
 
-  /* Subtle glass effect for smaller text */
+  /* Hero glass text - extra dramatic for titles like ARKHIVE */
+  .glass-text-hero {
+    background: linear-gradient(90deg,
+      #2a78d6 0%,
+      #5499e8 12%,
+      #aed0f7 28%,
+      #d8eafc 50%,
+      #aed0f7 72%,
+      #5499e8 88%,
+      #2a78d6 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glassShimmer 3s ease-in-out infinite;
+    filter: drop-shadow(0 0 20px rgba(42, 120, 214, 0.7)) drop-shadow(0 0 50px rgba(0, 85, 184, 0.35));
+  }
+
+  /* Subtle glass for secondary text */
   .glass-text-subtle {
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 
-      0 0 8px rgba(120, 200, 255, 0.15),
-      0 0 25px rgba(0, 120, 255, 0.08);
+    background: linear-gradient(90deg,
+      #aed0f7 0%,
+      #d8eafc 40%,
+      #aed0f7 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glassShimmer 5s ease-in-out infinite;
+    filter: drop-shadow(0 0 6px rgba(42, 120, 214, 0.3));
+  }
+
+  /* Muted glass for grey/description text - frosted blue-grey */
+  .glass-text-muted {
+    background: linear-gradient(90deg,
+      #64748b 0%,
+      #94a3b8 25%,
+      #bfdbfe 50%,
+      #94a3b8 75%,
+      #64748b 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: glassShimmer 6s ease-in-out infinite;
+    filter: drop-shadow(0 0 4px rgba(42, 120, 214, 0.15));
   }
 
   /* Universal gloss overlay - add to ANY element for glass shine */
@@ -337,9 +385,9 @@ a:focus-visible {
     height: 100%;
     background: linear-gradient(90deg, 
       transparent 0%,
-      rgba(255, 255, 255, 0.06) 40%,
-      rgba(255, 255, 255, 0.12) 50%,
-      rgba(255, 255, 255, 0.06) 60%,
+      rgba(120, 200, 255, 0.06) 30%,
+      rgba(200, 230, 255, 0.15) 50%,
+      rgba(120, 200, 255, 0.06) 70%,
       transparent 100%);
     pointer-events: none;
     z-index: 2;
@@ -436,6 +484,13 @@ a:focus-visible {
   }
 }
 
+/* Global glass luminance on grey text - subtle blue sheen sitewide */
+[class*="text-zinc-4"],
+[class*="text-zinc-5"],
+[class*="text-zinc-6"] {
+  text-shadow: 0 0 8px rgba(42, 120, 214, 0.1), 0 0 30px rgba(0, 85, 184, 0.05);
+}
+
 /* Animations */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
@@ -455,6 +510,11 @@ a:focus-visible {
 @keyframes shimmer {
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
+}
+
+@keyframes glassShimmer {
+  0%, 100% { background-position: 0% center; }
+  50% { background-position: 100% center; }
 }
 
 @keyframes bloodPulse {

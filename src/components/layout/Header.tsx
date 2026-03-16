@@ -51,9 +51,8 @@ export default function Header() {
  <BleedingPyramidLogo size={55} showWords={false} />
  <div className="hidden sm:block">
  <h1 className="text-lg lg:text-xl font-black tracking-tight text-white leading-tight relative">
- <span className="relative inline-block glass-text">
+ <span className="relative inline-block glass-text-hero">
  ARKHIVE
- <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent bg-clip-text text-transparent animate-shimmer bg-[length:200%_100%]"style={{ animationDuration: '3s' }}>ARKHIVE</span>
  </span>
  <sup className="text-blood-500 text-[10px] lg:text-xs font-bold drop-shadow-[0_0_6px_rgba(0,85,184,0.6)]">®</sup>
  </h1>

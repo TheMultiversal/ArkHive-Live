@@ -21,7 +21,7 @@ export default function EnterPage() {
    initial={{ opacity: 0, letterSpacing: '0.5em' }}
    animate={{ opacity: 1, letterSpacing: '0.3em' }}
    transition={{ duration: 2, ease: 'easeOut' }}
-   className="text-4xl sm:text-5xl md:text-7xl font-black glass-text tracking-[0.2em] sm:tracking-[0.3em] mb-4"
+   className="text-4xl sm:text-5xl md:text-7xl font-black glass-text-hero tracking-[0.2em] sm:tracking-[0.3em] mb-4"
   >
    ARKHIVE
   </motion.h1>
@@ -37,7 +37,7 @@ export default function EnterPage() {
    initial={{ opacity: 0 }}
    animate={{ opacity: 1 }}
    transition={{ duration: 1, delay: 1 }}
-   className="text-sm sm:text-base text-zinc-400 max-w-md mb-10 leading-relaxed"
+   className="text-sm sm:text-base glass-text-muted max-w-md mb-10 leading-relaxed"
   >
    Investigative documentation platform. Political corruption, financial crimes,
    and institutional accountability; through court records, primary sources,
@@ -61,7 +61,7 @@ export default function EnterPage() {
    initial={{ opacity: 0 }}
    animate={{ opacity: 0.3 }}
    transition={{ duration: 1, delay: 2.5 }}
-   className="mt-8 text-xs text-zinc-600"
+   className="mt-8 text-xs glass-text-muted"
   >
    The truth does not require your belief.
   </motion.p>

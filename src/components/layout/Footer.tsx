@@ -60,11 +60,11 @@ export default function Footer() {
  </div>
  </div>
  <div>
- <h3 className="text-lg font-black tracking-tight glass-text">ARKHIVE</h3>
+ <h3 className="text-lg font-black tracking-tight glass-text-hero">ARKHIVE</h3>
  <p className="text-[10px] tracking-[0.15em] text-blood-600/70 uppercase">Truth Archive</p>
  </div>
  </Link>
- <p className="text-sm text-zinc-500 mb-4 max-w-xs leading-relaxed">
+ <p className="text-sm glass-text-muted mb-4 max-w-xs leading-relaxed">
  Documenting and exposing institutional actions that harm public health, 
  safety, and civil liberties.
  </p>

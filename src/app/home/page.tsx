@@ -104,7 +104,7 @@ function FeaturedInvestigationsGrid() {
        className="text-2xl lg:text-3xl font-bold glass-text mb-2"
        speed={50}
       />
-      <p className="text-zinc-500">
+      <p className="glass-text-muted">
        Classified files demanding immediate attention
       </p>
      </div>
@@ -204,14 +204,14 @@ export default function Home() {
  {/* Alert Badge, Sharp edges */}
  <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[rgba(0,40,100,0.3)] to-[rgba(0,20,60,0.4)] border border-[rgba(60,160,255,0.25)] text-blood-400 text-sm font-medium mb-8 animate-fade-in gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.1)'}}>
  <span className="w-2 h-2 bg-blood-700 animate-pulse"/>
- <span>Investigative Archive, Documentation Platform</span>
+ <span className="glass-text-subtle">Investigative Archive, Documentation Platform</span>
  </div>
 
  {/* Main Headline, Dramatic Stacked Layout */}
  <div className="mb-6 animate-fade-in">
  <div className="space-y-1">
  {/* Line 1 */}
- <p className="text-lg sm:text-3xl lg:text-4xl font-bold text-zinc-500 uppercase tracking-[0.1em] sm:tracking-[0.2em]">
+ <p className="text-lg sm:text-3xl lg:text-4xl font-bold glass-text-muted uppercase tracking-[0.1em] sm:tracking-[0.2em]">
  The Crimes They Think
  </p>
  {/* Line 2 (HIDDEN) emphasized */}
@@ -221,7 +221,7 @@ export default function Home() {
  </span>
  </p>
  {/* Line 3 */}
- <p className="text-lg sm:text-3xl lg:text-4xl font-bold text-zinc-500 uppercase tracking-[0.1em] sm:tracking-[0.2em]">
+ <p className="text-lg sm:text-3xl lg:text-4xl font-bold glass-text-muted uppercase tracking-[0.1em] sm:tracking-[0.2em]">
  Find Out About
  </p>
  </div>
@@ -229,7 +229,7 @@ export default function Home() {
  {/* Subtext */}
  <div className="mt-4 flex items-center justify-center gap-4">
  <span className="h-[1px] w-12 bg-gradient-to-r from-transparent to-blood-700"/>
- <span className="text-xs sm:text-sm text-zinc-600 uppercase tracking-[0.3em]">
+ <span className="text-xs sm:text-sm glass-text-muted uppercase tracking-[0.3em]">
  Exposed • Documented • Preserved
  </span>
  <span className="h-[1px] w-12 bg-gradient-to-l from-transparent to-blood-700"/>
@@ -242,7 +242,7 @@ export default function Home() {
  {/* Top line */}
  <div className="flex items-center justify-center gap-3 mb-2">
  <span className="h-[1px] w-8 bg-blood-700"/>
- <span className="text-xs text-zinc-500 uppercase tracking-[0.3em]">Our Mission</span>
+ <span className="text-xs glass-text-muted uppercase tracking-[0.3em]">Our Mission</span>
  <span className="h-[1px] w-8 bg-blood-700"/>
  </div>
  
@@ -251,7 +251,7 @@ export default function Home() {
  <p className="text-2xl sm:text-4xl lg:text-5xl font-black glass-text tracking-tight">
  FOLLOW THE <span className="text-blood-600">EVIDENCE</span>
  </p>
- <p className="text-base sm:text-2xl lg:text-3xl font-bold text-zinc-400 mt-1">
+ <p className="text-base sm:text-2xl lg:text-3xl font-bold glass-text-muted mt-1">
  Connect the dots they don&apos;t want connected.
  </p>
  </div>
@@ -273,21 +273,21 @@ export default function Home() {
 
  {/* Opening Declaration, Crystal Clear */}
  <div className="max-w-3xl mx-auto mb-8 bg-gradient-to-br from-[rgba(0,40,100,0.25)] to-[rgba(0,15,45,0.45)] border border-[rgba(60,160,255,0.12)] p-2 sm:p-6 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.08), 0 4px 20px rgba(0,0,0,0.3)'}}>
- <p className="text-base sm:text-xl text-zinc-300 leading-relaxed">
+ <p className="text-base sm:text-xl glass-text-subtle leading-relaxed">
  <span className="text-blood-600 font-black uppercase">91 criminal charges.</span>
  <br />
  4 indictments. $454 million in fraud judgments.
  <br />
  <span className="glass-text font-bold">And that&apos;s just one person.</span>
  </p>
- <p className="text-base sm:text-lg text-zinc-400 mt-4 leading-relaxed">
+ <p className="text-base sm:text-lg glass-text-muted mt-4 leading-relaxed">
  Every day, institutions designed to protect you{""}
  <span className="text-blood-600 font-bold">betray that trust</span>{""}
  while burying the evidence. We dig it up.{""}
  <span className="glass-text font-bold italic">We document everything.</span>
  </p>
  <div className="mt-4 pt-4 border-t border-[rgba(60,160,255,0.12)]">
- <p className="text-sm text-zinc-500 uppercase tracking-wide sm:tracking-widest">
+ <p className="text-sm glass-text-muted uppercase tracking-wide sm:tracking-widest">
  No conspiracy theories. <span className="text-blood-600 font-bold">Just court records and primary sources.</span>
  </p>
  </div>
@@ -302,7 +302,7 @@ export default function Home() {
  Welcome to <span className="text-white">ArkHive®</span>
  </h2>
  <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-blood-700 to-transparent mx-auto mb-4"/>
- <p className="text-base sm:text-lg text-zinc-300 leading-relaxed max-w-2xl mx-auto">
+ <p className="text-base sm:text-lg glass-text-subtle leading-relaxed max-w-2xl mx-auto">
  The uncensored archive. The evidence they delete. The truth they bury.
  <br />
  And the crimes they commit in your name with your money while you sleep.
@@ -320,7 +320,7 @@ export default function Home() {
  <Link key={i} href={item.href} className="text-center p-3 border border-[rgba(60,160,255,0.15)] bg-gradient-to-br from-[rgba(0,40,100,0.20)] to-[rgba(0,15,45,0.35)] hover:border-[rgba(60,160,255,0.4)] hover:from-[rgba(0,50,120,0.30)] hover:to-[rgba(0,20,60,0.45)] transition-all group gloss-hover" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.06)'}}>
  <span className="block w-2 h-2 bg-blood-500 mx-auto mb-2 group-hover:bg-blood-400 transition-colors"/>
  <h3 className="text-sm font-bold text-blood-400 uppercase tracking-wider mb-1 group-hover:text-blood-300 transition-colors">{item.title}</h3>
- <p className="text-xs text-zinc-500 leading-tight">{item.desc}</p>
+ <p className="text-xs glass-text-muted leading-tight">{item.desc}</p>
  </Link>
  ))}
  </div>
@@ -330,22 +330,22 @@ export default function Home() {
  <div className="grid md:grid-cols-3 gap-4 text-center">
  <div>
  <span className="text-2xl font-black text-blood-600">EXPOSE</span>
- <p className="text-xs text-zinc-500 mt-1">Classified operations, black sites, and secret programs</p>
+ <p className="text-xs glass-text-muted mt-1">Classified operations, black sites, and secret programs</p>
  </div>
  <div>
  <span className="text-2xl font-black glass-text">DOCUMENT</span>
- <p className="text-xs text-zinc-500 mt-1">Primary sources, leaked files, and witness testimony</p>
+ <p className="text-xs glass-text-muted mt-1">Primary sources, leaked files, and witness testimony</p>
  </div>
  <div>
  <span className="text-2xl font-black text-blood-600">PRESERVE</span>
- <p className="text-xs text-zinc-500 mt-1">Before they scrub it from existence forever</p>
+ <p className="text-xs glass-text-muted mt-1">Before they scrub it from existence forever</p>
  </div>
  </div>
  </div>
 
  {/* Warning */}
  <div className="mt-6 p-3 border border-[rgba(60,160,255,0.12)] bg-[rgba(0,20,55,0.40)] text-center">
- <p className="text-xs text-zinc-500 uppercase tracking-wide sm:tracking-widest">
+ <p className="text-xs glass-text-muted uppercase tracking-wide sm:tracking-widest">
  ⚠ This archive contains disturbing truths. Proceed with open eyes. ⚠
  </p>
  </div>
@@ -516,7 +516,7 @@ export default function Home() {
  className="text-2xl lg:text-3xl font-bold glass-text mb-4"
  speed={60}
  />
- <GlitchParagraph className="text-zinc-500 max-w-2xl mx-auto">
+ <GlitchParagraph className="glass-text-muted max-w-2xl mx-auto">
  Every investigation connects to specific entities. Track agencies, corporations, 
  and individuals across multiple investigations to see the full picture.
  </GlitchParagraph>
@@ -531,7 +531,7 @@ export default function Home() {
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Government Agencies
  </h3>
- <p className="text-zinc-500 text-sm mb-4">
+ <p className="glass-text-muted text-sm mb-4">
  Federal, state, and local agencies with documented involvement
  </p>
  <span className="text-blood-700 text-sm font-medium flex items-center justify-center gap-1">
@@ -546,7 +546,7 @@ export default function Home() {
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Corporations
  </h3>
- <p className="text-zinc-500 text-sm mb-4">
+ <p className="glass-text-muted text-sm mb-4">
  Companies and corporate entities connected to investigations
  </p>
  <span className="text-blood-700 text-sm font-medium flex items-center justify-center gap-1">
@@ -561,7 +561,7 @@ export default function Home() {
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Key Individuals
  </h3>
- <p className="text-zinc-500 text-sm mb-4">
+ <p className="glass-text-muted text-sm mb-4">
  Decision-makers and key figures across investigations
  </p>
  <span className="text-blood-700 text-sm font-medium flex items-center justify-center gap-1">
@@ -576,7 +576,7 @@ export default function Home() {
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Organizations
  </h3>
- <p className="text-zinc-500 text-sm mb-4">
+ <p className="glass-text-muted text-sm mb-4">
  Groups, networks, and organizations connected to investigations
  </p>
  <span className="text-blood-700 text-sm font-medium flex items-center justify-center gap-1">
@@ -611,7 +611,7 @@ export default function Home() {
  className="text-2xl sm:text-3xl lg:text-4xl font-bold glass-text mb-4"
  speed={40}
  />
- <GlitchParagraph className="text-zinc-400 max-w-2xl mx-auto mb-12">
+ <GlitchParagraph className="glass-text-muted max-w-2xl mx-auto mb-12">
  Have information that should be documented? Evidence of wrongdoing? 
  Submit your information securely to help expose the truth.
  </GlitchParagraph>
