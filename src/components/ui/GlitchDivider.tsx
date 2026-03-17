@@ -35,7 +35,7 @@ export default function GlitchDivider({
  <div 
  className="absolute inset-0"
  style={{
- background: 'linear-gradient(90deg, transparent 0%, #001333 20%, #001333 80%, transparent 100%)',
+ background: 'linear-gradient(90deg, transparent 0%, #330000 20%, #330000 80%, transparent 100%)',
  }}
  />
  
@@ -61,7 +61,7 @@ export default function GlitchDivider({
  <motion.div
  className="absolute top-1/2 -translate-y-1/2 w-2 h-2 bg-blood-600"
  style={{
- boxShadow: '0 0 10px #001333, 0 0 20px #001333',
+ boxShadow: '0 0 10px #330000, 0 0 20px #330000',
  }}
  animate={{
  left: ['0%', '100%', '0%'],

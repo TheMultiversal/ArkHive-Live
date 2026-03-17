@@ -90,7 +90,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  <defs>
  <linearGradient id="crackGradient"x1="0%"y1="0%"x2="100%"y2="100%">
  <stop offset="0%"stopColor="#8f0000"stopOpacity="0.5"/>
- <stop offset="100%"stopColor="#001f4d"stopOpacity="0.2"/>
+ <stop offset="100%"stopColor="#4d0000"stopOpacity="0.2"/>
  </linearGradient>
  </defs>
  {/* Crack lines radiating from center */}
@@ -118,7 +118,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  <radialGradient id="shardGradient"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#5499e8"/>
  <stop offset="50%"stopColor="#8f0000"/>
- <stop offset="100%"stopColor="#001f4d"/>
+ <stop offset="100%"stopColor="#4d0000"/>
  </radialGradient>
 
  <radialGradient id="centerEyeGradient"cx="50%"cy="40%"r="60%">
@@ -134,7 +134,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
 
  <linearGradient id="shardEdge"x1="0%"y1="0%"x2="100%"y2="100%">
  <stop offset="0%"stopColor="#5499e8"stopOpacity="0.8"/>
- <stop offset="100%"stopColor="#001f4d"stopOpacity="0.3"/>
+ <stop offset="100%"stopColor="#4d0000"stopOpacity="0.3"/>
  </linearGradient>
 
  {/* Glow filters */}
@@ -205,7 +205,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  </circle>
 
  {/* Iris inner ring */}
- <circle cx="50"cy="50"r="6"fill="#001333"/>
+ <circle cx="50"cy="50"r="6"fill="#330000"/>
 
  {/* Pupil */}
  <circle cx="50"cy="50"r="4"fill="url(#pupilGradient2)">

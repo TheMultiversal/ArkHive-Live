@@ -66,7 +66,7 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  </defs>
 
  {/* Checkered board base */}
- <circle cx="50"cy="50"r="48"fill="url(#checkerboard)"stroke="#001f4d"strokeWidth="2"/>
+ <circle cx="50"cy="50"r="48"fill="url(#checkerboard)"stroke="#4d0000"strokeWidth="2"/>
 
  {/* Animated ring */}
  <motion.circle
@@ -111,7 +111,7 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  {/* THE EYE - in the center of the king */}
  <g>
  {/* Eye socket */}
- <ellipse cx="50"cy="58"rx="10"ry="7"fill="#0a0a0a"stroke="#001f4d"strokeWidth="1"/>
+ <ellipse cx="50"cy="58"rx="10"ry="7"fill="#0a0a0a"stroke="#4d0000"strokeWidth="1"/>
  
  {/* Eye white */}
  <motion.ellipse
@@ -125,7 +125,7 @@ export default function ChessPieceEyeLogo({ size = 60, className = '' }: ChessPi
  />
  
  {/* Iris - blood red */}
- <circle cx="50"cy="58"r="4"fill="#001f4d"/>
+ <circle cx="50"cy="58"r="4"fill="#4d0000"/>
  
  {/* Pupil */}
  <motion.circle

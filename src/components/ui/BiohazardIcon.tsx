@@ -17,7 +17,7 @@ export default function BiohazardIcon({
 }: BiohazardIconProps) {
  
  const variantColors = {
- standard: { primary: '#8f0000', secondary: '#001f4d', glow: 'rgba(143, 0, 0, 0.5)' },
+ standard: { primary: '#8f0000', secondary: '#4d0000', glow: 'rgba(143, 0, 0, 0.5)' },
  nuclear: { primary: '#71717a', secondary: '#a16207', glow: 'rgba(234, 179, 8, 0.5)' },
  chemical: { primary: '#b80000', secondary: '#166534', glow: 'rgba(34, 197, 94, 0.5)' },
  biological: { primary: '#a855f7', secondary: '#7c3aed', glow: 'rgba(168, 85, 247, 0.5)' },

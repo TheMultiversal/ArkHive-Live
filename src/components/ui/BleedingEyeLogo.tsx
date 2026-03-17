@@ -70,9 +70,9 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
 
  <radialGradient id="irisGradient"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#8f0000">
- <animate attributeName="stop-color"values="#8f0000;#001333;#8f0000"dur="3s"repeatCount="indefinite"/>
+ <animate attributeName="stop-color"values="#8f0000;#330000;#8f0000"dur="3s"repeatCount="indefinite"/>
  </stop>
- <stop offset="50%"stopColor="#001333"/>
+ <stop offset="50%"stopColor="#330000"/>
  <stop offset="100%"stopColor="#000a1f"/>
  </radialGradient>
 
@@ -84,12 +84,12 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  <linearGradient id="bloodGradient"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#8f0000"/>
  <stop offset="50%"stopColor="#6b0000"/>
- <stop offset="100%"stopColor="#001f4d"/>
+ <stop offset="100%"stopColor="#4d0000"/>
  </linearGradient>
 
  <linearGradient id="bloodDripGradient"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#8f0000"stopOpacity="0.9"/>
- <stop offset="100%"stopColor="#001333"stopOpacity="1"/>
+ <stop offset="100%"stopColor="#330000"stopOpacity="1"/>
  </linearGradient>
 
  {/* Glow filter */}
@@ -142,7 +142,7 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  </circle>
 
  {/* Iris detail rings */}
- <circle cx="50"cy="50"r="12"fill="none"stroke="#001f4d"strokeWidth="0.5"opacity="0.5"/>
+ <circle cx="50"cy="50"r="12"fill="none"stroke="#4d0000"strokeWidth="0.5"opacity="0.5"/>
  <circle cx="50"cy="50"r="10"fill="none"stroke="#000a1f"strokeWidth="0.3"opacity="0.3"/>
 
  {/* Iris radial lines */}

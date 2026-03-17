@@ -84,7 +84,7 @@ export default function BleedingPyramidLogo({
  <linearGradient id="sharpBlood"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#d62a2a"/>
  <stop offset="40%"stopColor="#8f0000"/>
- <stop offset="100%"stopColor="#001f4d"/>
+ <stop offset="100%"stopColor="#4d0000"/>
  </linearGradient>
 
  {/* Pyramid stone gradient */}
@@ -98,7 +98,7 @@ export default function BleedingPyramidLogo({
  <radialGradient id="irisGrad"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#ff3333"/>
  <stop offset="50%"stopColor="#8f0000"/>
- <stop offset="100%"stopColor="#001333"/>
+ <stop offset="100%"stopColor="#330000"/>
  </radialGradient>
 
  {/* Wet blood shine */}
@@ -115,7 +115,7 @@ export default function BleedingPyramidLogo({
  cy="50"
  r="45"
  fill="none"
- stroke="#001f4d"
+ stroke="#4d0000"
  strokeWidth="0.5"
  strokeDasharray="3 3"
  opacity="0.4"
@@ -192,17 +192,17 @@ export default function BleedingPyramidLogo({
  {/* REALISTIC BLOOD - Sharp, not foggy */}
  <g>
  {/* Blood pooling at tip - sharp edge */}
- <ellipse cx="50"cy="95"rx="6"ry="2"fill="#001333"/>
+ <ellipse cx="50"cy="95"rx="6"ry="2"fill="#330000"/>
  <ellipse cx="50"cy="95"rx="4"ry="1.5"fill="#8f0000"/>
  
  {/* Wet shine on pool */}
  <ellipse cx="51"cy="94.5"rx="2"ry="0.8"fill="url(#wetShine)"/>
 
  {/* Blood streaks down pyramid - sharp lines */}
- <path d="M50 60 L50 95"stroke="#001333"strokeWidth="3"strokeLinecap="round"/>
+ <path d="M50 60 L50 95"stroke="#330000"strokeWidth="3"strokeLinecap="round"/>
  <path d="M50 65 L50 95"stroke="#8f0000"strokeWidth="1.5"strokeLinecap="round"/>
- <path d="M48 70 Q47 80 48 90"stroke="#001f4d"strokeWidth="1"fill="none"strokeLinecap="round"/>
- <path d="M52 68 Q53 78 52 88"stroke="#001f4d"strokeWidth="1"fill="none"strokeLinecap="round"/>
+ <path d="M48 70 Q47 80 48 90"stroke="#4d0000"strokeWidth="1"fill="none"strokeLinecap="round"/>
+ <path d="M52 68 Q53 78 52 88"stroke="#4d0000"strokeWidth="1"fill="none"strokeLinecap="round"/>
 
  {/* Blood drips - animated with CSS */}
  {bloodDrops.map((drop, i) => (
@@ -240,7 +240,7 @@ export default function BleedingPyramidLogo({
  {/* Dripping strands */}
  <path 
  d="M49 95 Q49 105 50 115"
- stroke="#001333"
+ stroke="#330000"
  strokeWidth="1.5"
  fill="none"
  strokeLinecap="round"
@@ -248,7 +248,7 @@ export default function BleedingPyramidLogo({
  />
  <path 
  d="M51 95 Q52 108 51 120"
- stroke="#001f4d"
+ stroke="#4d0000"
  strokeWidth="1"
  fill="none"
  strokeLinecap="round"

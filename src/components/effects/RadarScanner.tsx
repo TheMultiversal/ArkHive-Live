@@ -64,7 +64,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  style={{
  width: size / 2,
  height: 2,
- background: 'linear-gradient(90deg, #001333 0%, transparent 100%)',
+ background: 'linear-gradient(90deg, #330000 0%, transparent 100%)',
  }}
  animate={{ rotate: [0, 360] }}
  transition={{
@@ -96,7 +96,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  {/* Center dot */}
  <div
  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-blood-600"
- style={{ boxShadow: '0 0 10px #001333, 0 0 20px #001333' }}
+ style={{ boxShadow: '0 0 10px #330000, 0 0 20px #330000' }}
  />
 
  {/* Blips */}
@@ -109,7 +109,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  height: blip.size,
  left: `calc(${blip.x * 100}% - ${blip.size / 2}px)`,
  top: `calc(${blip.y * 100}% - ${blip.size / 2}px)`,
- boxShadow: '0 0 8px #001333',
+ boxShadow: '0 0 8px #330000',
  }}
  initial={{ opacity: 0, scale: 0 }}
  animate={{ opacity: [0, 1, 1, 0], scale: [0, 1, 1, 0] }}

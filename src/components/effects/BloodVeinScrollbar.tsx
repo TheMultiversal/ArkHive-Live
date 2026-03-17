@@ -31,9 +31,9 @@ export default function BloodVeinScrollbar() {
  <svg className="absolute inset-0 w-full h-full"viewBox="0 0 12 256"preserveAspectRatio="none">
  <defs>
  <linearGradient id="veinGradient"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#001f4d"/>
+ <stop offset="0%"stopColor="#4d0000"/>
  <stop offset="50%"stopColor="#8f0000"/>
- <stop offset="100%"stopColor="#001333"/>
+ <stop offset="100%"stopColor="#330000"/>
  </linearGradient>
  </defs>
  

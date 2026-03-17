@@ -174,7 +174,7 @@ export default async function Image() {
  cy="71"
  rx="36"
  ry="5"
- fill="#001333"
+ fill="#330000"
  opacity="0.7"
  />
  </svg>

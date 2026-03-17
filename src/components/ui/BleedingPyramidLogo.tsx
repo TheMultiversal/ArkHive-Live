@@ -117,7 +117,7 @@ export default function BleedingPyramidLogo({
  {/* Blood gradient */}
  <linearGradient id="bloodGradient"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#8f0000"/>
- <stop offset="50%"stopColor="#001333"/>
+ <stop offset="50%"stopColor="#330000"/>
  <stop offset="100%"stopColor="#000a1f"/>
  </linearGradient>
 
@@ -132,7 +132,7 @@ export default function BleedingPyramidLogo({
  <radialGradient id="eyeGlow"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#d62a2a"/>
  <stop offset="60%"stopColor="#8f0000"/>
- <stop offset="100%"stopColor="#001333"/>
+ <stop offset="100%"stopColor="#330000"/>
  </radialGradient>
 
  {/* Blood drip filter */}
@@ -203,7 +203,7 @@ export default function BleedingPyramidLogo({
  cy="95"
  rx="8"
  ry="3"
- fill="#001f4d"
+ fill="#4d0000"
  animate={{
  rx: [8, 10, 8],
  opacity: [0.8, 1, 0.8],
@@ -337,7 +337,7 @@ export default function BleedingPyramidLogo({
  y1={95}
  x2={drop.x}
  y2={95}
- stroke="#001333"
+ stroke="#330000"
  strokeWidth={drop.size * 0.4}
  strokeLinecap="round"
  initial={{ y2: 95 }}
@@ -357,7 +357,7 @@ export default function BleedingPyramidLogo({
  <motion.path
  d="M50,60 Q48,70 50,85 Q51,90 50,95"
  fill="none"
- stroke="#001f4d"
+ stroke="#4d0000"
  strokeWidth="2"
  strokeLinecap="round"
  animate={{
@@ -368,7 +368,7 @@ export default function BleedingPyramidLogo({
  <motion.path
  d="M45,65 Q44,75 46,85"
  fill="none"
- stroke="#001333"
+ stroke="#330000"
  strokeWidth="1.5"
  strokeLinecap="round"
  animate={{
@@ -379,7 +379,7 @@ export default function BleedingPyramidLogo({
  <motion.path
  d="M55,65 Q56,75 54,85"
  fill="none"
- stroke="#001333"
+ stroke="#330000"
  strokeWidth="1.5"
  strokeLinecap="round"
  animate={{
@@ -413,7 +413,7 @@ export default function BleedingPyramidLogo({
  y: [0, 20, 50, 80],
  opacity: [0, 1, 1, 0],
  scale: [0.5, 1, 1, 0.8],
- color: ['#d62a2a', '#8f0000', '#001333', '#000a1f'],
+ color: ['#d62a2a', '#8f0000', '#330000', '#000a1f'],
  }}
  exit={{ opacity: 0 }}
  transition={{ 

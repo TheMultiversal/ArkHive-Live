@@ -140,7 +140,7 @@ export default function BloodyRewriteText({
  <linearGradient id={`dropGrad-${drip.id}`} x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#d62a2a"/>
  <stop offset="50%"stopColor="#8f0000"/>
- <stop offset="100%"stopColor="#001333"/>
+ <stop offset="100%"stopColor="#330000"/>
  </linearGradient>
  </defs>
  <path

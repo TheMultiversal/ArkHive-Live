@@ -93,7 +93,7 @@ export default function Icon() {
  cy="70"
  rx="35"
  ry="5"
- fill="#001333"
+ fill="#330000"
  opacity="0.6"
  />
  </svg>

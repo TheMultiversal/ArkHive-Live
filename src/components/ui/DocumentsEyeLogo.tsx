@@ -132,12 +132,12 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  <radialGradient id="docIrisGradient"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#d62a2a"/>
  <stop offset="60%"stopColor="#6b0000"/>
- <stop offset="100%"stopColor="#001f4d"/>
+ <stop offset="100%"stopColor="#4d0000"/>
  </radialGradient>
 
  <linearGradient id="docBloodStream"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#8f0000"stopOpacity="0.9"/>
- <stop offset="100%"stopColor="#001f4d"stopOpacity="0.8"/>
+ <stop offset="100%"stopColor="#4d0000"stopOpacity="0.8"/>
  </linearGradient>
 
  <filter id="docBloodGlow"x="-50%"y="-50%"width="200%"height="200%">
@@ -188,7 +188,7 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  {/* Blood stains on document */}
  <circle cx="55"cy="75"r="6"fill="#8f0000"opacity="0.4"/>
  <circle cx="35"cy="82"r="4"fill="#6b0000"opacity="0.3"/>
- <ellipse cx="50"cy="85"rx="8"ry="3"fill="#001f4d"opacity="0.3"/>
+ <ellipse cx="50"cy="85"rx="8"ry="3"fill="#4d0000"opacity="0.3"/>
  </g>
  </g>
 
@@ -252,7 +252,7 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  cy="95"
  rx={12 + Math.sin(frameCount * 0.02) * 2}
  ry="3"
- fill="#001f4d"
+ fill="#4d0000"
  opacity="0.7"
  />
  </g>

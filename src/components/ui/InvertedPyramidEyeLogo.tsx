@@ -95,15 +95,15 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  {/* Gradients */}
  <linearGradient id="pyramidGradient"x1="0%"y1="100%"x2="100%"y2="0%">
  <stop offset="0%"stopColor="#000a1f"/>
- <stop offset="30%"stopColor="#001f4d"/>
- <stop offset="60%"stopColor="#001333"/>
+ <stop offset="30%"stopColor="#4d0000"/>
+ <stop offset="60%"stopColor="#330000"/>
  <stop offset="100%"stopColor="#6b0000"/>
  </linearGradient>
 
  <linearGradient id="pyramidEdge"x1="0%"y1="0%"x2="100%"y2="100%">
  <stop offset="0%"stopColor="#5499e8"stopOpacity="0.8"/>
  <stop offset="50%"stopColor="#d62a2a"stopOpacity="0.5"/>
- <stop offset="100%"stopColor="#001f4d"stopOpacity="0.3"/>
+ <stop offset="100%"stopColor="#4d0000"stopOpacity="0.3"/>
  </linearGradient>
 
  <radialGradient id="eyeGlow"cx="50%"cy="50%"r="50%">
@@ -118,7 +118,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <animate attributeName="stop-color"values="#d62a2a;#5499e8;#d62a2a"dur="2s"repeatCount="indefinite"/>
  </stop>
  <stop offset="70%"stopColor="#6b0000"/>
- <stop offset="100%"stopColor="#001f4d"/>
+ <stop offset="100%"stopColor="#4d0000"/>
  </radialGradient>
 
  {/* Glow filter */}
@@ -226,7 +226,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <path
  d="M38 38 Q50 28, 62 38 Q50 48, 38 38"
  fill="none"
- stroke="#001f4d"
+ stroke="#4d0000"
  strokeWidth="1"
  />
 

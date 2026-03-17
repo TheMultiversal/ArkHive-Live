@@ -29,7 +29,7 @@ export default function CrimeSceneDivider({
  },
  'biohazard': {
  text: '☣ BIOHAZARD ☣',
- bgColor: '#001f4d',
+ bgColor: '#4d0000',
  textColor: '#5499e8',
  pattern: 'warning',
  },
@@ -175,9 +175,9 @@ export default function CrimeSceneDivider({
  transition={{ delay: 0.5 }}
  >
  <svg width="40"height="40"viewBox="0 0 40 40">
- <circle cx="20"cy="20"r="8"fill="#001f4d"/>
- <ellipse cx="15"cy="30"rx="3"ry="5"fill="#001f4d"/>
- <ellipse cx="28"cy="28"rx="2"ry="4"fill="#001f4d"/>
+ <circle cx="20"cy="20"r="8"fill="#4d0000"/>
+ <ellipse cx="15"cy="30"rx="3"ry="5"fill="#4d0000"/>
+ <ellipse cx="28"cy="28"rx="2"ry="4"fill="#4d0000"/>
  </svg>
  </motion.div>
  <motion.div
@@ -187,8 +187,8 @@ export default function CrimeSceneDivider({
  transition={{ delay: 0.7 }}
  >
  <svg width="30"height="30"viewBox="0 0 30 30">
- <circle cx="15"cy="15"r="6"fill="#001333"/>
- <ellipse cx="12"cy="24"rx="2"ry="4"fill="#001333"/>
+ <circle cx="15"cy="15"r="6"fill="#330000"/>
+ <ellipse cx="12"cy="24"rx="2"ry="4"fill="#330000"/>
  </svg>
  </motion.div>
  </>

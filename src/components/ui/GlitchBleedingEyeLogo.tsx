@@ -191,18 +191,18 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  <radialGradient id="glitchIrisGradient"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#d62a2a"/>
  <stop offset="60%"stopColor="#6b0000"/>
- <stop offset="100%"stopColor="#001f4d"/>
+ <stop offset="100%"stopColor="#4d0000"/>
  </radialGradient>
 
  <linearGradient id="bloodStream"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#8f0000"stopOpacity="0.9"/>
  <stop offset="50%"stopColor="#6b0000"stopOpacity="1"/>
- <stop offset="100%"stopColor="#001f4d"stopOpacity="0.8"/>
+ <stop offset="100%"stopColor="#4d0000"stopOpacity="0.8"/>
  </linearGradient>
 
  <linearGradient id="bloodDrip"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#d62a2a"/>
- <stop offset="100%"stopColor="#001333"/>
+ <stop offset="100%"stopColor="#330000"/>
  </linearGradient>
 
  {/* Glitch filter */}

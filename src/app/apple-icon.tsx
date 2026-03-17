@@ -134,14 +134,14 @@ export default function AppleIcon() {
  {/* Blood drip 4 - far left small */}
  <path
  d="M25 62 Q24 68, 23 74 Q22 77, 24 79 Q26 77, 25 74 Q25 68, 25 62"
- fill="#001333"
+ fill="#330000"
  opacity="0.8"
  />
  
  {/* Blood drip 5 - far right small */}
  <path
  d="M75 62 Q76 67, 77 72 Q78 75, 76 77 Q74 75, 75 72 Q75 67, 75 62"
- fill="#001333"
+ fill="#330000"
  opacity="0.8"
  />
  
@@ -151,7 +151,7 @@ export default function AppleIcon() {
  cy="71"
  rx="36"
  ry="5"
- fill="#001333"
+ fill="#330000"
  opacity="0.7"
  />
  </svg>

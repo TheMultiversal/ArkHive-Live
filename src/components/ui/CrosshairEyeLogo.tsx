@@ -117,7 +117,7 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  <animate attributeName="stop-color"values="#d62a2a;#8f0000;#d62a2a"dur="2s"repeatCount="indefinite"/>
  </stop>
  <stop offset="60%"stopColor="#6b0000"/>
- <stop offset="100%"stopColor="#001f4d"/>
+ <stop offset="100%"stopColor="#4d0000"/>
  </radialGradient>
 
  <radialGradient id="chPupilGradient"cx="30%"cy="30%"r="60%">
@@ -203,7 +203,7 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  </circle>
 
  {/* Iris detail */}
- <circle cx={targetData.x} cy={targetData.y} r="8"fill="none"stroke="#001f4d"strokeWidth="0.3"opacity="0.5"/>
+ <circle cx={targetData.x} cy={targetData.y} r="8"fill="none"stroke="#4d0000"strokeWidth="0.3"opacity="0.5"/>
 
  {/* Pupil */}
  <circle cx={targetData.x} cy={targetData.y} r="5"fill="url(#chPupilGradient)">

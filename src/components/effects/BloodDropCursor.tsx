@@ -108,7 +108,7 @@ export default function BloodDropCursor() {
  <linearGradient id="bloodGradient"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#d62a2a"/>
  <stop offset="50%"stopColor="#8f0000"/>
- <stop offset="100%"stopColor="#001333"/>
+ <stop offset="100%"stopColor="#330000"/>
  </linearGradient>
  <radialGradient id="bloodHighlight"cx="30%"cy="30%"r="50%">
  <stop offset="0%"stopColor="#5499e8"stopOpacity="0.5"/>

@@ -61,11 +61,11 @@ export default function DNAScrollbar() {
  <linearGradient id="dnaStrand1"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#d62a2a"/>
  <stop offset="50%"stopColor="#8f0000"/>
- <stop offset="100%"stopColor="#001333"/>
+ <stop offset="100%"stopColor="#330000"/>
  </linearGradient>
  <linearGradient id="dnaStrand2"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#001333"/>
- <stop offset="50%"stopColor="#001f4d"/>
+ <stop offset="0%"stopColor="#330000"/>
+ <stop offset="50%"stopColor="#4d0000"/>
  <stop offset="100%"stopColor="#000a1f"/>
  </linearGradient>
  <filter id="dnaGlow">
@@ -139,7 +139,7 @@ export default function DNAScrollbar() {
  return (
  <g key={i}>
  <circle cx={x1} cy={y} r="3"fill="#d62a2a"opacity={0.8 + Math.sin(angle) * 0.2} />
- <circle cx={x2} cy={y} r="3"fill="#001333"opacity={0.8 - Math.sin(angle) * 0.2} />
+ <circle cx={x2} cy={y} r="3"fill="#330000"opacity={0.8 - Math.sin(angle) * 0.2} />
  </g>
  );
  })}
