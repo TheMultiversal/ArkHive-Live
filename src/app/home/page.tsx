@@ -614,13 +614,18 @@ export default function Home() {
  <TypewriterText
  text="Help Build the Archive"
  element="h2"
- className="text-2xl sm:text-3xl lg:text-4xl font-bold glass-text mb-4"
+ className="text-2xl sm:text-3xl lg:text-4xl font-bold glass-text mb-8"
  speed={40}
  />
- <GlitchParagraph className="glass-text-muted max-w-2xl mx-auto mb-12">
- Have information that should be documented? Evidence of wrongdoing? 
+ <p className="glass-text-muted text-lg max-w-2xl mx-auto mb-4">
+ Have information that should be documented?
+ </p>
+ <p className="glass-text-muted text-lg max-w-2xl mx-auto mb-4">
+ Evidence of wrongdoing?
+ </p>
+ <p className="glass-text-subtle text-base max-w-2xl mx-auto mb-12">
  Submit your information securely to help expose the truth.
- </GlitchParagraph>
+ </p>
 
  <CrystalButton
  href="/submit"

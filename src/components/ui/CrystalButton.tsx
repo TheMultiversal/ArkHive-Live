@@ -73,6 +73,7 @@ export default function CrystalButton({
 
  const buttonClasses = `
  relative inline-flex items-center justify-center
+ rounded-lg
  ${sizeStyles[size]}
  ${variantStyles[variant]}
  transition-all duration-300 ease-out
