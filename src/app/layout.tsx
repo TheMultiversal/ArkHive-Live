@@ -26,11 +26,20 @@ export const metadata: Metadata = {
  siteName:"ArkHive",
  title:"ArkHive | Investigative Documentation Platform",
  description:"An investigative archive documenting political corruption, financial crimes, and institutional accountability through court records and verified evidence.",
+ images: [
+  {
+   url:"/og-image.png",
+   width: 1200,
+   height: 630,
+   alt:"ArkHive - Investigative Documentation Platform",
+  },
+ ],
  },
  twitter: {
  card:"summary_large_image",
  title:"ArkHive | Investigative Documentation Platform",
  description:"Documenting political corruption and institutional accountability.",
+ images: ["/og-image.png"],
  },
  robots: {
  index: true,
