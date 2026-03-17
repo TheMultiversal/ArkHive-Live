@@ -116,7 +116,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  <defs>
  {/* Gradients */}
  <radialGradient id="shardGradient"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#5499e8"/>
+ <stop offset="0%"stopColor="#e85454"/>
  <stop offset="50%"stopColor="#8f0000"/>
  <stop offset="100%"stopColor="#4d0000"/>
  </radialGradient>
@@ -133,7 +133,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  </radialGradient>
 
  <linearGradient id="shardEdge"x1="0%"y1="0%"x2="100%"y2="100%">
- <stop offset="0%"stopColor="#5499e8"stopOpacity="0.8"/>
+ <stop offset="0%"stopColor="#e85454"stopOpacity="0.8"/>
  <stop offset="100%"stopColor="#4d0000"stopOpacity="0.3"/>
  </linearGradient>
 
@@ -252,7 +252,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  cx={50 + Math.cos((shatterPhase + i * 45) * Math.PI / 180) * (25 + i * 3)}
  cy={50 + Math.sin((shatterPhase + i * 45) * Math.PI / 180) * (25 + i * 3)}
  r="0.5"
- fill="#5499e8"
+ fill="#e85454"
  opacity={0.3 + Math.sin(shatterPhase * 0.1 + i) * 0.2}
  />
  ))}

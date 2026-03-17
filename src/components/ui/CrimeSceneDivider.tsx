@@ -30,7 +30,7 @@ export default function CrimeSceneDivider({
  'biohazard': {
  text: '☣ BIOHAZARD ☣',
  bgColor: '#4d0000',
- textColor: '#5499e8',
+ textColor: '#e85454',
  pattern: 'warning',
  },
  'classified': {

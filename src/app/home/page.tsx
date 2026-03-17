@@ -8,6 +8,7 @@ import { useState, useEffect } from "react";
 import StatsDisplay from"@/components/ui/StatsDisplay";
 import CrystalButton from"@/components/ui/CrystalButton";
 import BiohazardIcon from"@/components/ui/BiohazardIcon";
+import { GovernmentIcon, CorporationIcon, IndividualIcon, OrganizationIcon } from"@/components/ui/CategoryIcons";
 import GlitchDivider from"@/components/ui/GlitchDivider";
 import { GlitchParagraph } from"@/components/effects/GlitchText";
 import TypewriterText from"@/components/effects/TypewriterText";
@@ -525,8 +526,8 @@ export default function Home() {
  {/* Category Cards with Biohazard Icons */}
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 mb-12">
  <Link href="/entities/agencies"className="glass-card p-4 sm:p-8 text-center group">
- <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
- <BiohazardIcon variant="nuclear"size={32} className="text-white"/>
+ <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30" style={{borderRadius: '10px'}}>
+ <GovernmentIcon size={36} className="text-white"/>
  </div>
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Government Agencies
@@ -539,9 +540,9 @@ export default function Home() {
  </span>
  </Link>
 
- <Link href="/entities/corporations "className="glass-card p-4 sm:p-8 text-center group">
- <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
- <BiohazardIcon variant="pharmaceutical"size={32} className="text-white"/>
+ <Link href="/entities/corporations"className="glass-card p-4 sm:p-8 text-center group">
+ <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30" style={{borderRadius: '10px'}}>
+ <CorporationIcon size={36} className="text-white"/>
  </div>
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Corporations
@@ -555,8 +556,8 @@ export default function Home() {
  </Link>
 
  <Link href="/entities/individuals"className="glass-card p-4 sm:p-8 text-center group">
- <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
- <BiohazardIcon variant="biological"size={32} className="text-white"/>
+ <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30" style={{borderRadius: '10px'}}>
+ <IndividualIcon size={36} className="text-white"/>
  </div>
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Key Individuals
@@ -569,9 +570,9 @@ export default function Home() {
  </span>
  </Link>
 
- <Link href="/entities/organizations "className="glass-card p-4 sm:p-8 text-center group">
- <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30">
- <BiohazardIcon variant="standard"size={32} className="text-white"/>
+ <Link href="/entities/organizations"className="glass-card p-4 sm:p-8 text-center group">
+ <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30" style={{borderRadius: '10px'}}>
+ <OrganizationIcon size={36} className="text-white"/>
  </div>
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Organizations

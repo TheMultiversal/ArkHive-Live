@@ -101,7 +101,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  </linearGradient>
 
  <linearGradient id="pyramidEdge"x1="0%"y1="0%"x2="100%"y2="100%">
- <stop offset="0%"stopColor="#5499e8"stopOpacity="0.8"/>
+ <stop offset="0%"stopColor="#e85454"stopOpacity="0.8"/>
  <stop offset="50%"stopColor="#d62a2a"stopOpacity="0.5"/>
  <stop offset="100%"stopColor="#4d0000"stopOpacity="0.3"/>
  </linearGradient>
@@ -109,13 +109,13 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <radialGradient id="eyeGlow"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#ffffff"/>
  <stop offset="30%"stopColor="#fecaca"/>
- <stop offset="70%"stopColor="#5499e8"/>
+ <stop offset="70%"stopColor="#e85454"/>
  <stop offset="100%"stopColor="#8f0000"/>
  </radialGradient>
 
  <radialGradient id="irisGradient2"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#d62a2a">
- <animate attributeName="stop-color"values="#d62a2a;#5499e8;#d62a2a"dur="2s"repeatCount="indefinite"/>
+ <animate attributeName="stop-color"values="#d62a2a;#e85454;#d62a2a"dur="2s"repeatCount="indefinite"/>
  </stop>
  <stop offset="70%"stopColor="#6b0000"/>
  <stop offset="100%"stopColor="#4d0000"/>
@@ -134,7 +134,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
 
  <filter id="innerLight"x="-100%"y="-100%"width="300%"height="300%">
  <feGaussianBlur stdDeviation="3"result="blur"/>
- <feFlood floodColor="#5499e8"floodOpacity="0.4"/>
+ <feFlood floodColor="#e85454"floodOpacity="0.4"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -260,7 +260,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  cx="50"
  cy="38"
  r="1"
- fill="#5499e8"
+ fill="#e85454"
  opacity="0.6"
  >
  <animateMotion

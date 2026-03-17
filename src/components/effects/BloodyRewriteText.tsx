@@ -148,7 +148,7 @@ export default function BloodyRewriteText({
  fill={`url(#dropGrad-${drip.id})`}
  />
  {/* Highlight */}
- <ellipse cx="2.5"cy="9"rx="1"ry="2"fill="#5499e8"opacity="0.4"/>
+ <ellipse cx="2.5"cy="9"rx="1"ry="2"fill="#e85454"opacity="0.4"/>
  </svg>
  </motion.div>
  ))}

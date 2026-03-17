@@ -100,7 +100,7 @@ export default function DNAScrollbar() {
  y1={y}
  x2={x2}
  y2={y}
- stroke={i % 2 === 0 ? '#d62a2a' : '#5499e8'}
+ stroke={i % 2 === 0 ? '#d62a2a' : '#e85454'}
  strokeWidth="2"
  opacity={0.6}
  strokeLinecap="round"
