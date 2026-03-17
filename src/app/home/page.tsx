@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 import StatsDisplay from"@/components/ui/StatsDisplay";
 import CrystalButton from"@/components/ui/CrystalButton";
 import BiohazardIcon from"@/components/ui/BiohazardIcon";
-import { GovernmentIcon, CorporationIcon, IndividualIcon, OrganizationIcon } from"@/components/ui/CategoryIcons";
+import { GovernmentIcon, CorporationIcon, IndividualIcon, OrganizationIcon, VaultSubmitIcon } from"@/components/ui/CategoryIcons";
 import GlitchDivider from"@/components/ui/GlitchDivider";
 import { GlitchParagraph } from"@/components/effects/GlitchText";
 import TypewriterText from"@/components/effects/TypewriterText";
@@ -179,8 +179,8 @@ export default function Home() {
  const stats = useStats();
  return (
  <div className="min-h-screen pt-20 lg:pt-24">
- {/* Hero Panel */}
- <div className="glass-panel-transparent p-2 sm:p-4 lg:p-6">
+ {/* Hero Section */}
+ <div className="mt-3 sm:mt-4">
  <section className="relative py-16 lg:py-24 overflow-hidden">
  {/* Crystal Clear Background */}
  <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -492,8 +492,8 @@ export default function Home() {
 
  <GlitchDivider />
 
- {/* Stats Panel */}
- <div className="glass-panel p-2 sm:p-4 lg:p-6 mt-3 sm:mt-4">
+ {/* Stats Section */}
+ <div className="mt-3 sm:mt-4">
  <section className="py-8 lg:py-12 relative overflow-hidden">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
  <StatsDisplay stats={stats} />
@@ -503,15 +503,15 @@ export default function Home() {
 
  <GlitchDivider showLabel label="CLASSIFIED"/>
 
- {/* Featured Investigations Panel */}
- <div className="glass-panel p-2 sm:p-4 lg:p-6 mt-3 sm:mt-4">
+ {/* Featured Investigations Section */}
+ <div className="mt-3 sm:mt-4">
  <FeaturedInvestigationsGrid />
  </div>
 
  <GlitchDivider showLabel label="BIOHAZARD"/>
 
- {/* Entity Categories Panel */}
- <div className="glass-panel p-2 sm:p-4 lg:p-6 mt-3 sm:mt-4">
+ {/* Entity Categories Section */}
+ <div className="mt-3 sm:mt-4">
  <section className="py-8 lg:py-12">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="text-center mb-12">
@@ -530,8 +530,8 @@ export default function Home() {
  {/* Category Cards with Biohazard Icons */}
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 mb-12">
  <Link href="/entities/agencies"className="glass-card p-4 sm:p-8 text-center group">
- <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30" style={{borderRadius: '10px'}}>
- <GovernmentIcon size={36} className="text-white"/>
+ <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform" style={{filter: 'drop-shadow(0 0 12px rgba(184, 0, 0, 0.5)) drop-shadow(0 0 24px rgba(140, 0, 0, 0.25))'}}>
+ <GovernmentIcon size={48} className="text-blood-500"/>
  </div>
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Government Agencies
@@ -545,8 +545,8 @@ export default function Home() {
  </Link>
 
  <Link href="/entities/corporations"className="glass-card p-4 sm:p-8 text-center group">
- <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30" style={{borderRadius: '10px'}}>
- <CorporationIcon size={36} className="text-white"/>
+ <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform" style={{filter: 'drop-shadow(0 0 12px rgba(184, 0, 0, 0.5)) drop-shadow(0 0 24px rgba(140, 0, 0, 0.25))'}}>
+ <CorporationIcon size={48} className="text-blood-500"/>
  </div>
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Corporations
@@ -560,8 +560,8 @@ export default function Home() {
  </Link>
 
  <Link href="/entities/individuals"className="glass-card p-4 sm:p-8 text-center group">
- <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30" style={{borderRadius: '10px'}}>
- <IndividualIcon size={36} className="text-white"/>
+ <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform" style={{filter: 'drop-shadow(0 0 12px rgba(184, 0, 0, 0.5)) drop-shadow(0 0 24px rgba(140, 0, 0, 0.25))'}}>
+ <IndividualIcon size={48} className="text-blood-500"/>
  </div>
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Key Individuals
@@ -575,8 +575,8 @@ export default function Home() {
  </Link>
 
  <Link href="/entities/organizations"className="glass-card p-4 sm:p-8 text-center group">
- <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blood-800 to-blood-900 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg shadow-blood-900/30" style={{borderRadius: '10px'}}>
- <OrganizationIcon size={36} className="text-white"/>
+ <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform" style={{filter: 'drop-shadow(0 0 12px rgba(184, 0, 0, 0.5)) drop-shadow(0 0 24px rgba(140, 0, 0, 0.25))'}}>
+ <OrganizationIcon size={48} className="text-blood-500"/>
  </div>
  <h3 className="text-xl font-bold glass-text mb-2 group-hover:text-blood-700 transition-colors">
  Organizations
@@ -595,8 +595,8 @@ export default function Home() {
 
  <GlitchDivider showLabel label="ALERT"/>
 
- {/* Call to Action Panel */}
- <div className="glass-panel p-2 sm:p-4 lg:p-6 mt-3 sm:mt-4">
+ {/* Call to Action Section */}
+ <div className="mt-3 sm:mt-4">
  <section className="py-12 lg:py-16">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="glass-card p-4 sm:p-8 lg:p-12 text-center relative overflow-hidden">
@@ -607,8 +607,8 @@ export default function Home() {
  </div>
 
  <div className="relative">
- <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-blood-700 to-blood-800 flex items-center justify-center shadow-lg shadow-blood-900/50">
- <BiohazardIcon variant="standard"size={40} className="text-white"/>
+ <div className="w-16 h-16 mx-auto mb-6 flex items-center justify-center" style={{filter: 'drop-shadow(0 0 16px rgba(184, 0, 0, 0.6)) drop-shadow(0 0 32px rgba(140, 0, 0, 0.3))'}}>
+ <VaultSubmitIcon size={56} className="text-blood-500"/>
  </div>
 
  <TypewriterText

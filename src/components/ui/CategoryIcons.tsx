@@ -555,3 +555,151 @@ export function OrganizationIcon({ size = 32, className = '' }: CategoryIconProp
     </motion.svg>
   );
 }
+
+/**
+ * Vault Submit - Archive vault with a document being inserted and an all-seeing eye on the vault door.
+ * Represents secure archival submission, the act of contributing evidence to the permanent record.
+ */
+export function VaultSubmitIcon({ size = 32, className = '' }: CategoryIconProps) {
+  return (
+    <motion.svg
+      width={size}
+      height={size}
+      viewBox="0 0 100 100"
+      className={className}
+      whileHover={{ scale: 1.1 }}
+    >
+      <defs>
+        <linearGradient id="vault-body" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#c0c0c0" />
+          <stop offset="30%" stopColor="#808080" />
+          <stop offset="70%" stopColor="#555" />
+          <stop offset="100%" stopColor="#333" />
+        </linearGradient>
+        <linearGradient id="vault-door" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stopColor="#999" />
+          <stop offset="50%" stopColor="#666" />
+          <stop offset="100%" stopColor="#444" />
+        </linearGradient>
+        <linearGradient id="vault-iris" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#ff4444" />
+          <stop offset="50%" stopColor="#b80000" />
+          <stop offset="100%" stopColor="#6b0000" />
+        </linearGradient>
+        <linearGradient id="vault-doc" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stopColor="#f0f0f0" />
+          <stop offset="100%" stopColor="#cccccc" />
+        </linearGradient>
+        <filter id="vault-glow" x="-30%" y="-30%" width="160%" height="160%">
+          <feGaussianBlur stdDeviation="2" result="blur" />
+          <feFlood floodColor="rgba(184, 0, 0, 0.5)" />
+          <feComposite in2="blur" operator="in" />
+          <feMerge>
+            <feMergeNode />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
+      </defs>
+
+      <g filter="url(#vault-glow)">
+        {/* Vault body - main box */}
+        <rect x="15" y="28" width="55" height="58" rx="3" fill="url(#vault-body)" stroke="#888" strokeWidth="1" />
+        {/* Vault body top */}
+        <rect x="15" y="28" width="55" height="8" rx="3" fill="#999" opacity="0.4" />
+
+        {/* Vault door face */}
+        <rect x="20" y="34" width="45" height="46" rx="2" fill="url(#vault-door)" stroke="#aaa" strokeWidth="0.5" />
+
+        {/* Vault door inner ring */}
+        <circle cx="42" cy="57" r="16" fill="none" stroke="#888" strokeWidth="1.5" />
+        <circle cx="42" cy="57" r="14" fill="#1a0000" stroke="#555" strokeWidth="0.5" />
+
+        {/* Eye on vault door */}
+        <motion.g
+          animate={{ scaleY: [1, 0.1, 1] }}
+          transition={{ duration: 5, repeat: Infinity, repeatDelay: 4, times: [0, 0.03, 0.08] }}
+          style={{ transformOrigin: '42px 57px' }}
+        >
+          {/* Eye almond */}
+          <path
+            d="M30 57 Q36 48 42 48 Q48 48 54 57 Q48 66 42 66 Q36 66 30 57 Z"
+            fill="#0d0000"
+            stroke="#8f0000"
+            strokeWidth="0.8"
+          />
+          {/* Iris */}
+          <circle cx="42" cy="57" r="6" fill="url(#vault-iris)" />
+          {/* Pupil */}
+          <motion.circle
+            cx="42" cy="57" r="2.5"
+            fill="#000"
+            animate={{ r: [2.5, 2, 2.5, 3, 2.5] }}
+            transition={{ duration: 3, repeat: Infinity }}
+          />
+          {/* Specular */}
+          <circle cx="44" cy="55" r="1.5" fill="#fff" opacity="0.8" />
+          <circle cx="40" cy="59" r="0.7" fill="#fff" opacity="0.35" />
+        </motion.g>
+
+        {/* Vault handle / locking bolts */}
+        {/* Top bolt */}
+        <rect x="39" y="36" width="6" height="3" rx="1" fill="#aaa" stroke="#666" strokeWidth="0.3" />
+        {/* Bottom bolt */}
+        <rect x="39" y="74" width="6" height="3" rx="1" fill="#aaa" stroke="#666" strokeWidth="0.3" />
+        {/* Left bolt */}
+        <rect x="21" y="54" width="3" height="6" rx="1" fill="#aaa" stroke="#666" strokeWidth="0.3" />
+        {/* Right bolt */}
+        <rect x="61" y="54" width="3" height="6" rx="1" fill="#aaa" stroke="#666" strokeWidth="0.3" />
+
+        {/* Hinges on left side */}
+        <rect x="13" y="38" width="4" height="8" rx="1" fill="#777" stroke="#555" strokeWidth="0.3" />
+        <rect x="13" y="68" width="4" height="8" rx="1" fill="#777" stroke="#555" strokeWidth="0.3" />
+
+        {/* Document being inserted from top-right */}
+        <motion.g
+          animate={{ y: [0, 3, 0], rotate: [0, -1, 0] }}
+          transition={{ duration: 2.5, repeat: Infinity, ease: 'easeInOut' }}
+          style={{ transformOrigin: '75px 30px' }}
+        >
+          {/* Document page */}
+          <rect x="62" y="8" width="24" height="32" fill="url(#vault-doc)" stroke="#999" strokeWidth="0.5" />
+          {/* Folded corner */}
+          <path d="M80 8 L86 8 L86 14 Z" fill="#ddd" stroke="#999" strokeWidth="0.3" />
+          <path d="M80 8 L80 14 L86 14" fill="none" stroke="#bbb" strokeWidth="0.3" />
+          {/* Text lines on document */}
+          <line x1="66" y1="16" x2="78" y2="16" stroke="#888" strokeWidth="1" />
+          <line x1="66" y1="20" x2="80" y2="20" stroke="#aaa" strokeWidth="0.7" />
+          <line x1="66" y1="23" x2="76" y2="23" stroke="#aaa" strokeWidth="0.7" />
+          <line x1="66" y1="26" x2="79" y2="26" stroke="#aaa" strokeWidth="0.7" />
+          <line x1="66" y1="29" x2="74" y2="29" stroke="#aaa" strokeWidth="0.7" />
+          {/* Classified stamp */}
+          <rect x="67" y="32" width="16" height="5" fill="none" stroke="#b80000" strokeWidth="0.8" opacity="0.7" />
+          <text x="75" y="36" fill="#b80000" fontSize="3.5" fontWeight="bold" textAnchor="middle" opacity="0.8">CLASSIFIED</text>
+        </motion.g>
+
+        {/* Arrow indicating insertion direction */}
+        <motion.g
+          animate={{ opacity: [0.3, 0.8, 0.3], y: [0, 2, 0] }}
+          transition={{ duration: 1.5, repeat: Infinity }}
+        >
+          <path d="M72 42 L68 46 L76 46 Z" fill="#b80000" opacity="0.6" />
+          <line x1="72" y1="38" x2="72" y2="42" stroke="#b80000" strokeWidth="1.5" opacity="0.6" />
+        </motion.g>
+
+        {/* Security scan lines on vault face */}
+        <motion.line
+          x1="22" y1="36"
+          x2="63" y2="36"
+          stroke="#ff3333"
+          strokeWidth="0.5"
+          opacity="0.15"
+          animate={{ y1: [36, 78, 36], y2: [36, 78, 36] }}
+          transition={{ duration: 3, repeat: Infinity, ease: 'linear' }}
+        />
+
+        {/* Base / platform */}
+        <rect x="12" y="86" width="61" height="4" rx="1" fill="#555" stroke="#777" strokeWidth="0.5" />
+      </g>
+    </motion.svg>
+  );
+}
