@@ -193,7 +193,7 @@ export default function UkraineExtortionPage() {
  <AlertTriangle className="w-5 h-5 text-zinc-400"/>
  White House Admission - {investigation.mulvaneyAdmission.date}
  </h2>
- <div className="border border-[rgba(80,180,255,0.15)] bg-black p-4">
+ <div className="border border-[rgba(255, 80, 80,0.15)] bg-black p-4">
  <p className="text-xl text-zinc-300 italic">&quot;{investigation.mulvaneyAdmission.quote}&quot;</p>
  <p className="text-xs text-zinc-500 mt-2">- Mick Mulvaney, Acting Chief of Staff</p>
  <p className="text-sm text-zinc-400 mt-2">{investigation.mulvaneyAdmission.context}</p>
@@ -205,7 +205,7 @@ export default function UkraineExtortionPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.2 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8"
+ className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Users className="w-5 h-5 text-blood-500"/>
@@ -221,7 +221,7 @@ export default function UkraineExtortionPage() {
  <Link
  key={idx}
  href={figure.href}
- className="border border-[rgba(60,160,255,0.18)] bg-[#000a1c] p-4 hover:border-blood-600 transition-colors group"
+ className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4 hover:border-blood-600 transition-colors group"
  >
  <div className="flex justify-between items-start">
  <div>
@@ -240,7 +240,7 @@ export default function UkraineExtortionPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.25 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8"
+ className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Globe className="w-5 h-5 text-blood-500"/>
@@ -248,7 +248,7 @@ export default function UkraineExtortionPage() {
  </h2>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
  {investigation.shadowDiplomats.map((person, idx) => (
- <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[#000a1c] p-4">
+ <div key={idx} className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
  <h3 className="font-bold glass-text">{person.name}</h3>
  <p className="text-sm text-zinc-400">{person.role}</p>
  <p className="text-xs text-blood-400 mt-1">{person.status}</p>
@@ -262,14 +262,14 @@ export default function UkraineExtortionPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.3 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8"
+ className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4">
  Key Testimony
  </h2>
  <div className="space-y-3">
  {investigation.keyTestimony.map((test, idx) => (
- <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[#000a1c] p-4">
+ <div key={idx} className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
  <h3 className="font-bold text-blood-500 mb-2">{test.witness}</h3>
  <p className="text-zinc-300 italic">{test.quote}</p>
  </div>
@@ -282,7 +282,7 @@ export default function UkraineExtortionPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.35 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8"
+ className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Scale className="w-5 h-5 text-blood-500"/>
@@ -290,7 +290,7 @@ export default function UkraineExtortionPage() {
  </h2>
  <div className="space-y-4">
  {investigation.impeachmentCharges.map((charge, idx) => (
- <div key={idx} className="border border-[rgba(60,160,255,0.18)] bg-[#000a1c] p-4">
+ <div key={idx} className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
  <div className="flex justify-between items-start mb-2">
  <h3 className="font-bold glass-text">{charge.article}: {charge.charge}</h3>
  <span className="text-blood-500">House: {charge.houseVote}</span>
@@ -299,7 +299,7 @@ export default function UkraineExtortionPage() {
  </div>
  ))}
  </div>
- <div className="mt-4 border border-[rgba(80,180,255,0.15)] bg-zinc-900 p-4">
+ <div className="mt-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900 p-4">
  <h3 className="text-zinc-300 font-bold mb-2">Senate Acquittal</h3>
  <p className="text-zinc-300">Article I: {investigation.senateVote.article1.guilty}-{investigation.senateVote.article1.notGuilty} (needed 67)</p>
  <p className="text-zinc-300">Article II: {investigation.senateVote.article2.guilty}-{investigation.senateVote.article2.notGuilty} (needed 67)</p>
@@ -312,7 +312,7 @@ export default function UkraineExtortionPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.4 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8"
+ className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Calendar className="w-5 h-5 text-blood-500"/>
@@ -320,7 +320,7 @@ export default function UkraineExtortionPage() {
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="flex gap-4 border-l-2 border-[rgba(60,160,255,0.18)] pl-4 hover:border-blood-500 transition-colors">
+ <div key={idx} className="flex gap-4 border-l-2 border-[rgba(255, 60, 60,0.18)] pl-4 hover:border-blood-500 transition-colors">
  <span className="text-blood-500 font-mono text-sm whitespace-nowrap min-w-[100px]">{item.date}</span>
  <span className="text-zinc-300">{item.event}</span>
  </div>
@@ -329,21 +329,21 @@ export default function UkraineExtortionPage() {
  </motion.div>
 
  
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8">
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6 mb-8">
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.div>
  {/* Sources */}
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.45 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[#000819] p-6"
+ className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <FileText className="w-5 h-5 text-blood-500"/>
@@ -356,7 +356,7 @@ export default function UkraineExtortionPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between border border-[rgba(60,160,255,0.18)] bg-[#000a1c] p-3 hover:border-blood-600 transition-colors group"
+ className="flex items-center justify-between border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-3 hover:border-blood-600 transition-colors group"
  >
  <div>
  <h3 className="text-zinc-300 group-hover:text-blood-500 transition-colors">{source.title}</h3>

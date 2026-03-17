@@ -58,7 +58,7 @@ export default function ProgressBar({
  )}
  <div
  className={cn(
- 'w-full bg-[#000c20] overflow-hidden',
+ 'w-full bg-[#200c00] overflow-hidden',
  sizeClasses[size]
  )}
  role="progressbar"
@@ -99,10 +99,10 @@ interface CircularProgressProps {
 
 const circularColors: Record<string, string> = {
  default: '#71717a', // zinc-500
- danger: '#2a78d6', // blood-500
+ danger: '#d62a2a', // blood-500
  warning: '#71717a', // zinc-400
- success: '#0055b8', // blood-500
- blood: '#0055b8', // blood-500
+ success: '#b80000', // blood-500
+ blood: '#b80000', // blood-500
 };
 
 export function CircularProgress({
@@ -185,7 +185,7 @@ export function IndeterminateProgress({
  return (
  <div
  className={cn(
- 'w-full bg-[#000c20] overflow-hidden',
+ 'w-full bg-[#200c00] overflow-hidden',
  sizeClasses[size],
  className
  )}
@@ -323,7 +323,7 @@ export function StackedProgress({
  <div className={cn('w-full', className)}>
  <div
  className={cn(
- 'w-full bg-[#000c20] overflow-hidden flex',
+ 'w-full bg-[#200c00] overflow-hidden flex',
  sizeClasses[size]
  )}
  role="progressbar"

@@ -156,7 +156,7 @@ export default function InauguralCommitteePage() {
  <p className="text-xs text-zinc-500">Trump 2017</p>
  <p className="text-4xl font-black text-blood-500">{investigation.amountRaised}</p>
  </div>
- <div className="text-center p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="text-center p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-xs text-zinc-500">Obama 2009</p>
  <p className="text-4xl font-black text-zinc-500">$53,000,000</p>
  </div>
@@ -179,7 +179,7 @@ export default function InauguralCommitteePage() {
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
  {investigation.spending.map((item, idx) => (
- <div key={idx} className={`p-4 border ${item.category === 'Unknown/Unaccounted' ? 'border-blood-500/50 bg-blood-950' : 'border-[rgba(80,180,255,0.15)] bg-[#000a1c]'}`}>
+ <div key={idx} className={`p-4 border ${item.category === 'Unknown/Unaccounted' ? 'border-blood-500/50 bg-blood-950' : 'border-[rgba(255, 80, 80,0.15)] bg-[#1c0a00]'}`}>
  <p className="text-sm text-zinc-400">{item.category}</p>
  <p className={`text-2xl font-black ${item.category === 'Unknown/Unaccounted' ? 'text-blood-500' : 'text-blood-500'}`}>
  {item.amount}
@@ -211,7 +211,7 @@ export default function InauguralCommitteePage() {
  </h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
- <div key={idx} className="flex items-start justify-between p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="flex items-start justify-between p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <div className="flex-1">
  {figure.href ? (
  <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">
@@ -246,7 +246,7 @@ export default function InauguralCommitteePage() {
  <p className="font-bold text-blood-400">The Problem</p>
  <p className="text-sm text-zinc-300 mt-1">{investigation.trumpHotelIssue.problem}</p>
  </div>
- <div className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <p className="font-bold text-zinc-300">The Evidence</p>
  <p className="text-sm text-zinc-300 mt-1">{investigation.trumpHotelIssue.evidence}</p>
  </div>
@@ -254,7 +254,7 @@ export default function InauguralCommitteePage() {
  <p className="font-bold text-blood-400">The Outcome</p>
  <p className="text-sm text-zinc-300 mt-1">{investigation.trumpHotelIssue.outcome}</p>
  </div>
- <div className="p-4 bg-[#000a1c] border border-blood-800">
+ <div className="p-4 bg-[#1c0a00] border border-blood-800">
  <p className="font-bold text-blood-400">Constitutional Issue</p>
  <p className="text-sm text-zinc-300 mt-1">{investigation.trumpHotelIssue.emoluments}</p>
  </div>
@@ -274,7 +274,7 @@ export default function InauguralCommitteePage() {
  </h2>
  <div className="space-y-3">
  {investigation.foreignDonorConcerns.map((donor, idx) => (
- <div key={idx} className="p-3 bg-[#000a1c] border border-blood-800">
+ <div key={idx} className="p-3 bg-[#1c0a00] border border-blood-800">
  <div className="flex justify-between items-start">
  <div>
  <p className="font-bold text-blood-400">{donor.donor}</p>
@@ -304,7 +304,7 @@ export default function InauguralCommitteePage() {
  </h2>
  <div className="space-y-4">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -364,7 +364,7 @@ export default function InauguralCommitteePage() {
  </h3>
  <div className="space-y-3">
  {investigation.charges.map((charge, idx) => (
- <div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-sm font-bold text-blood-400">{charge.statute}</p>
  <p className="text-xs text-zinc-400 mt-1">{charge.description}</p>
  <p className="text-xs text-zinc-600 mt-1">{charge.jurisdiction}</p>
@@ -377,7 +377,7 @@ export default function InauguralCommitteePage() {
 
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  <motion.div
  initial={{ opacity: 0, x: 20 }}
@@ -395,7 +395,7 @@ export default function InauguralCommitteePage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#000a1c] transition-colors"
+ className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#1c0a00] transition-colors"
  >
  <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/>
  <div>

@@ -116,7 +116,7 @@ export default function BleedingPyramidLogo({
  <defs>
  {/* Blood gradient */}
  <linearGradient id="bloodGradient"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#003d8f"/>
+ <stop offset="0%"stopColor="#8f0000"/>
  <stop offset="50%"stopColor="#001333"/>
  <stop offset="100%"stopColor="#000a1f"/>
  </linearGradient>
@@ -130,15 +130,15 @@ export default function BleedingPyramidLogo({
 
  {/* Eye gradient */}
  <radialGradient id="eyeGlow"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#2a78d6"/>
- <stop offset="60%"stopColor="#003d8f"/>
+ <stop offset="0%"stopColor="#d62a2a"/>
+ <stop offset="60%"stopColor="#8f0000"/>
  <stop offset="100%"stopColor="#001333"/>
  </radialGradient>
 
  {/* Blood drip filter */}
  <filter id="bloodDrip"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="0.5"result="blur"/>
- <feFlood floodColor="#003d8f"floodOpacity="0.6"/>
+ <feFlood floodColor="#8f0000"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -149,7 +149,7 @@ export default function BleedingPyramidLogo({
  {/* Glow filter */}
  <filter id="pyramidGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="3"result="blur"/>
- <feFlood floodColor="#003d8f"floodOpacity="0.4"/>
+ <feFlood floodColor="#8f0000"floodOpacity="0.4"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -169,7 +169,7 @@ export default function BleedingPyramidLogo({
  cy="45"
  r="42"
  fill="none"
- stroke="#003d8f"
+ stroke="#8f0000"
  strokeWidth="0.5"
  strokeDasharray="4 4"
  opacity="0.3"
@@ -184,7 +184,7 @@ export default function BleedingPyramidLogo({
  <motion.polygon
  points="15,25 85,25 50,95"
  fill="url(#pyramidGradient)"
- stroke="#003d8f"
+ stroke="#8f0000"
  strokeWidth="1.5"
  animate={{
  filter: isHovered ? 'brightness(1.2)' : 'brightness(1)',
@@ -234,7 +234,7 @@ export default function BleedingPyramidLogo({
  rx="14"
  ry="10"
  fill="none"
- stroke="#003d8f"
+ stroke="#8f0000"
  strokeWidth="1.5"
  animate={{
  ry: isHovered ? [10, 12, 10] : 10,
@@ -280,7 +280,7 @@ export default function BleedingPyramidLogo({
  <circle cx="47"cy="43"r="0.8"fill="rgba(255,255,255,0.3)"/>
 
  {/* Rays from eye */}
- <g stroke="#003d8f"strokeWidth="0.5"opacity="0.4">
+ <g stroke="#8f0000"strokeWidth="0.5"opacity="0.4">
  {[...Array(8)].map((_, i) => {
  const angle = (i * 45 - 90) * (Math.PI / 180);
  const x1 = 50 + Math.cos(angle) * 16;
@@ -318,7 +318,7 @@ export default function BleedingPyramidLogo({
  cy={95}
  rx={drop.size * 0.6}
  ry={drop.size}
- fill="#003d8f"
+ fill="#8f0000"
  initial={{ cy: 95, opacity: 1, ry: drop.size }}
  animate={{ 
  cy: 130,
@@ -402,7 +402,7 @@ export default function BleedingPyramidLogo({
  left: `${wordData.x}%`,
  top: '100%',
  transform: 'translateX(-50%)',
- textShadow: '0 0 10px rgba(0, 61, 143, 0.8), 0 2px 4px rgba(0,0,0,0.5)',
+ textShadow: '0 0 10px rgba(143, 0, 0, 0.8), 0 2px 4px rgba(0,0,0,0.5)',
  }}
  initial={{ 
  y: 0, 
@@ -413,7 +413,7 @@ export default function BleedingPyramidLogo({
  y: [0, 20, 50, 80],
  opacity: [0, 1, 1, 0],
  scale: [0.5, 1, 1, 0.8],
- color: ['#2a78d6', '#003d8f', '#001333', '#000a1f'],
+ color: ['#d62a2a', '#8f0000', '#001333', '#000a1f'],
  }}
  exit={{ opacity: 0 }}
  transition={{ 
@@ -445,7 +445,7 @@ export default function BleedingPyramidLogo({
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  style={{
- background: 'radial-gradient(circle, rgba(0, 61, 143, 0.2) 0%, transparent 70%)',
+ background: 'radial-gradient(circle, rgba(143, 0, 0, 0.2) 0%, transparent 70%)',
  }}
  />
  )}

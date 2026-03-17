@@ -116,16 +116,16 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="bg-[#000c20] border border-[rgba(60,160,255,0.18)] p-4"
+ className="bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] p-4"
  >
  <div className="flex items-start justify-between mb-2">
  <div
  className="p-2"
- style={{ backgroundColor: `${metric.color || '#0055b8'}20` }}
+ style={{ backgroundColor: `${metric.color || '#b80000'}20` }}
  >
  <Icon
  className="w-5 h-5"
- style={{ color: metric.color || '#0055b8' }}
+ style={{ color: metric.color || '#b80000' }}
  />
  </div>
  {metric.sparklineData && (
@@ -133,7 +133,7 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  data={metric.sparklineData}
  width={80}
  height={24}
- color={metric.color || '#0055b8'}
+ color={metric.color || '#b80000'}
  />
  )}
  </div>
@@ -168,7 +168,7 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  animate={{ width: `${Math.min(progress, 100)}%` }}
  transition={{ duration: 0.5 }}
  className="h-full"
- style={{ backgroundColor: metric.color || '#0055b8' }}
+ style={{ backgroundColor: metric.color || '#b80000' }}
  />
  </div>
  </div>
@@ -244,7 +244,7 @@ function ChartCard({ chart }: ChartCardProps) {
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  className={cn(
- 'bg-[#000c20] border border-[rgba(60,160,255,0.18)] p-4',
+ 'bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] p-4',
  sizeClasses[chart.size || 'medium']
  )}
  >
@@ -305,7 +305,7 @@ export default function MetricsDashboard({
 
  <div className="flex items-center gap-2">
  {/* Date range selector */}
- <div className="flex items-center border border-[rgba(60,160,255,0.18)]">
+ <div className="flex items-center border border-[rgba(255, 60, 60,0.18)]">
  {['24h', '7d', '30d', '90d'].map((range) => (
  <button
  key={range}
@@ -327,7 +327,7 @@ export default function MetricsDashboard({
  <button
  onClick={onRefresh}
  aria-label="Refresh data"
- className="p-2 text-zinc-400 hover:text-white bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] transition-colors"
  >
  <RefreshCw className="w-4 h-4"/>
  </button>
@@ -338,7 +338,7 @@ export default function MetricsDashboard({
  <button
  onClick={onExport}
  aria-label="Export data"
- className="p-2 text-zinc-400 hover:text-white bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] transition-colors"
  >
  <Download className="w-4 h-4"/>
  </button>

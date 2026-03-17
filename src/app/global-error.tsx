@@ -64,7 +64,7 @@ Stack: ${error.stack || 'N/A'}
  </p>
 
  {/* Error Details */}
- <div className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4 mb-6">
+ <div className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4 mb-6">
  <div className="flex items-center justify-between mb-2">
  <div className="flex items-center gap-2 text-blood-400">
  <Bug className="w-4 h-4"/>
@@ -104,7 +104,7 @@ Stack: ${error.stack || 'N/A'}
  <motion.button
  whileHover={{ scale: 1.02 }}
  whileTap={{ scale: 0.98 }}
- className="w-full px-6 py-3 bg-[#000c20] text-zinc-300 font-medium flex items-center justify-center gap-2 hover:bg-zinc-700 transition-colors"
+ className="w-full px-6 py-3 bg-[#200c00] text-zinc-300 font-medium flex items-center justify-center gap-2 hover:bg-zinc-700 transition-colors"
  >
  <Home className="w-4 h-4"/>
  Return Home

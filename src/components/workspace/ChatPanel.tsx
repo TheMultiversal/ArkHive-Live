@@ -152,7 +152,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  className={`group ${message.type === 'system' ? 'flex justify-center' : ''}`}
  >
  {message.type === 'system' ? (
- <div className="px-3 py-1.5 bg-[#000a1c] rounded text-[11px] text-white/30 italic">
+ <div className="px-3 py-1.5 bg-[#1c0a00] rounded text-[11px] text-white/30 italic">
  {message.content}
  </div>
  ) : (
@@ -184,21 +184,21 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
 
  <div className="opacity-0 group-hover:opacity-100 transition-opacity flex items-start gap-0.5 pt-1">
  <button 
- className="p-1 hover:bg-[#000c20] rounded text-white/20 hover:text-white/40 transition-colors"
+ className="p-1 hover:bg-[#200c00] rounded text-white/20 hover:text-white/40 transition-colors"
  onClick={() => setReplyingTo(message.id)}
  aria-label={`Reply to ${message.authorName}'s message`}
  >
  <Reply className="w-3 h-3"aria-hidden="true"/>
  </button>
  <button 
- className="p-1 hover:bg-[#000c20] rounded text-white/20 hover:text-blood-400/60 transition-colors"
+ className="p-1 hover:bg-[#200c00] rounded text-white/20 hover:text-blood-400/60 transition-colors"
  onClick={() => pinMessage(workspaceId, message.id)}
  aria-label={`${message.isPinned ? 'Unpin' : 'Pin'} message`}
  >
  <Pin className="w-3 h-3"aria-hidden="true"/>
  </button>
  <button 
- className="p-1 hover:bg-[#000c20] rounded text-white/20 hover:text-white/40 transition-colors"
+ className="p-1 hover:bg-[#200c00] rounded text-white/20 hover:text-white/40 transition-colors"
  aria-label="More options"
  >
  <MoreHorizontal className="w-3 h-3"aria-hidden="true"/>
@@ -242,7 +242,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  {/* Input */}
  <div className="p-4 border-t border-white/[0.04]">
  <div className="flex items-end gap-2">
- <div className="flex-1 bg-[#000a1c] border border-white/[0.06] focus-within:border-white/[0.1] transition-colors">
+ <div className="flex-1 bg-[#1c0a00] border border-white/[0.06] focus-within:border-white/[0.1] transition-colors">
  <textarea
  value={newMessage}
  onChange={(e) => setNewMessage(e.target.value)}

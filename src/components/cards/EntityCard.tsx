@@ -27,8 +27,8 @@ const typeIcons = {
 const riskColors = {
  extreme:"text-blood-500 bg-blood-900 border-blood-700",
  high:"text-blood-600 bg-blood-900 border-blood-700",
- moderate:"text-zinc-400 bg-[#000a1c] border-zinc-600",
- low:"text-zinc-500 bg-zinc-900 border-[rgba(60,160,255,0.18)]",
+ moderate:"text-zinc-400 bg-[#1c0a00] border-zinc-600",
+ low:"text-zinc-500 bg-zinc-900 border-[rgba(255, 60, 60,0.18)]",
 };
 
 const riskLabels = {

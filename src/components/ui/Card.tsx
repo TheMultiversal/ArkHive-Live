@@ -17,11 +17,11 @@ interface CardProps {
 }
 
 const variantClasses: Record<CardVariant, string> = {
- default: 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)]',
- elevated: 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)] shadow-lg shadow-black/20',
- outlined: 'bg-transparent border-2 border-[rgba(60,160,255,0.18)]',
+ default: 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]',
+ elevated: 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] shadow-lg shadow-black/20',
+ outlined: 'bg-transparent border-2 border-[rgba(255, 60, 60,0.18)]',
  glass: 'glass-card',
- interactive: 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)] hover:border-blood-700 hover:bg-zinc-900/70 transition-all cursor-pointer',
+ interactive: 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-700 hover:bg-zinc-900/70 transition-all cursor-pointer',
 };
 
 const paddingClasses = {
@@ -125,7 +125,7 @@ interface CardFooterProps {
 
 export function CardFooter({ children, className }: CardFooterProps) {
  return (
- <div className={cn('mt-4 pt-4 border-t border-[rgba(80,180,255,0.15)] flex items-center gap-4', className)}>
+ <div className={cn('mt-4 pt-4 border-t border-[rgba(255, 80, 80,0.15)] flex items-center gap-4', className)}>
  {children}
  </div>
  );
@@ -170,7 +170,7 @@ export function ImageCard({
  {tags.map((tag) => (
  <span
  key={tag}
- className="px-2 py-0.5 text-xs bg-[#000c20] text-zinc-400"
+ className="px-2 py-0.5 text-xs bg-[#200c00] text-zinc-400"
  >
  {tag}
  </span>
@@ -178,7 +178,7 @@ export function ImageCard({
  </div>
  )}
  {footer && (
- <div className="mt-4 pt-4 border-t border-[rgba(80,180,255,0.15)]">
+ <div className="mt-4 pt-4 border-t border-[rgba(255, 80, 80,0.15)]">
  {footer}
  </div>
  )}

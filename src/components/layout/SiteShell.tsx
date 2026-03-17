@@ -11,6 +11,7 @@ import BackToTop from '@/components/ui/BackToTop';
 export default function SiteShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const isSplash = pathname === '/' || pathname === '/enter';
+  const isHome = pathname === '/home';
 
   // On /enter - render children only (fullscreen splash, no chrome)
   if (isSplash) {
@@ -28,7 +29,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
       <Header />
 
       <main id="main-content" className="flex-1 relative z-10">
-        <div className="glass-panel mx-2 my-4 p-2 sm:mx-4 sm:my-6 sm:p-4 lg:mx-8 lg:p-6 overflow-hidden">
+        <div className={`${isHome ? 'glass-panel-transparent' : 'glass-panel'} mx-2 my-4 p-2 sm:mx-4 sm:my-6 sm:p-4 lg:mx-8 lg:p-6 overflow-hidden`}>
           {children}
         </div>
       </main>

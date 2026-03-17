@@ -54,7 +54,7 @@ export default function ContributorGate({ children, action = 'perform this actio
  </div>
 
  {/* Zero Data Promise */}
- <div className="mt-6 pt-4 border-t border-[rgba(80,180,255,0.15)] flex items-start gap-2">
+ <div className="mt-6 pt-4 border-t border-[rgba(255, 80, 80,0.15)] flex items-start gap-2">
  <Shield className="w-4 h-4 text-blood-500 flex-shrink-0 mt-0.5"/>
  <p className="text-xs text-zinc-500 leading-relaxed">
  ArkHive collects zero personal data. Your account is stored only in your browser&apos;s local storage. No data is ever sent to our servers.

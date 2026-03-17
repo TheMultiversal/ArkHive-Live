@@ -171,7 +171,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  {workspace.tags.slice(0, 3).map((tag, i) => (
  <span 
  key={i}
- className="px-2 py-0.5 text-[10px] font-medium tracking-wide bg-[#000a1c] text-white/40 rounded"
+ className="px-2 py-0.5 text-[10px] font-medium tracking-wide bg-[#1c0a00] text-white/40 rounded"
  >
  {tag}
  </span>

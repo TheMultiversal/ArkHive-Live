@@ -32,7 +32,7 @@ export default function WorkspaceError({ error, reset }: ErrorProps) {
  </p>
 
  {error.digest && (
- <div className="mb-6 p-2 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div className="mb-6 p-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <span className="text-xs text-zinc-600 font-mono">
  Reference: {error.digest}
  </span>
@@ -49,7 +49,7 @@ export default function WorkspaceError({ error, reset }: ErrorProps) {
  </button>
  <Link
  href="/workspaces"
- className="flex items-center gap-2 px-5 py-2.5 border border-[rgba(60,160,255,0.18)] text-zinc-400 text-sm font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
+ className="flex items-center gap-2 px-5 py-2.5 border border-[rgba(255, 60, 60,0.18)] text-zinc-400 text-sm font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
  >
  <ArrowLeft className="w-4 h-4"/>
  All Workspaces

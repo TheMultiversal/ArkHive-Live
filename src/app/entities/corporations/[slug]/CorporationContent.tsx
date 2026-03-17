@@ -4907,7 +4907,7 @@ export default function CorporationContent() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(80,180,255,0.15)]">
+ <div className="border-b border-[rgba(255, 80, 80,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <Link 
  href="/entities/corporations"
@@ -4925,7 +4925,7 @@ export default function CorporationContent() {
  {corporation.riskLevel} risk
  </span>
  {corporation.ticker && (
- <span className="px-3 py-1 text-xs font-mono bg-[#000c20] text-zinc-300">
+ <span className="px-3 py-1 text-xs font-mono bg-[#200c00] text-zinc-300">
  {corporation.ticker}
  </span>
  )}
@@ -4941,7 +4941,7 @@ export default function CorporationContent() {
  href={corporation.website}
  target="_blank"
  rel="noopener noreferrer"
- className="inline-flex items-center gap-2 px-4 py-2 bg-[#000c20] hover:bg-zinc-700 transition-colors text-sm"
+ className="inline-flex items-center gap-2 px-4 py-2 bg-[#200c00] hover:bg-zinc-700 transition-colors text-sm"
  >
  <Globe className="w-4 h-4"/>
  Official Website
@@ -5003,7 +5003,7 @@ export default function CorporationContent() {
  </h2>
  <div className="flex flex-wrap gap-2">
  {corporation.subsidiaries.map((sub, index) => (
- <span key={index} className="px-3 py-1 bg-[#000c20] border border-[rgba(60,160,255,0.18)] text-sm">
+ <span key={index} className="px-3 py-1 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] text-sm">
  {sub}
  </span>
  ))}
@@ -5023,7 +5023,7 @@ export default function CorporationContent() {
  <Link
  key={investigation.slug}
  href={`/investigations/${investigation.slug}`}
- className="flex items-center justify-between p-4 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(80,180,255,0.15)] hover:border-blood-800 transition-all"
+ className="flex items-center justify-between p-4 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-800 transition-all"
  >
  <span className="font-medium">{investigation.title}</span>
  <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[investigation.severity as keyof typeof severityColors]}`}>

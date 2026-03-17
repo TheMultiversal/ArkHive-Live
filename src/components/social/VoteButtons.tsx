@@ -246,7 +246,7 @@ export function SimpleVoteButton({
  className={cn(
  'inline-flex items-center transition-all',
  sizeClasses[size],
- voted ? activeColor : cn('text-zinc-500 bg-[#000c20]', hoverColor),
+ voted ? activeColor : cn('text-zinc-500 bg-[#200c00]', hoverColor),
  disabled && 'cursor-not-allowed opacity-50',
  className
  )}

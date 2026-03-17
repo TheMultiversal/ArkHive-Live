@@ -92,7 +92,7 @@ export function AccordionItem({
  'w-full flex items-center justify-between gap-4 py-4 px-4 text-left transition-colors',
  disabled
  ? 'cursor-not-allowed opacity-50'
- : 'hover:bg-[#000a1c]'
+ : 'hover:bg-[#1c0a00]'
  )}
  aria-expanded={isExpanded}
  aria-controls={`accordion-content-${id}`}
@@ -146,11 +146,11 @@ export function FAQAccordion({ items, className }: FAQAccordionProps) {
  return (
  <div
  key={item.id}
- className="border border-[rgba(80,180,255,0.15)] bg-zinc-900"
+ className="border border-[rgba(255, 80, 80,0.15)] bg-zinc-900"
  >
  <button
  onClick={() => setExpandedId(isExpanded ? null : item.id)}
- className="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-[#000a1c] transition-colors"
+ className="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-[#1c0a00] transition-colors"
  aria-expanded={isExpanded}
  >
  <span className="font-medium text-white pr-4">{item.question}</span>
@@ -172,7 +172,7 @@ export function FAQAccordion({ items, className }: FAQAccordionProps) {
  transition={{ duration: 0.2 }}
  className="overflow-hidden"
  >
- <div className="px-5 pb-5 text-zinc-400 leading-relaxed border-t border-[rgba(80,180,255,0.15)] pt-4">
+ <div className="px-5 pb-5 text-zinc-400 leading-relaxed border-t border-[rgba(255, 80, 80,0.15)] pt-4">
  {item.answer}
  </div>
  </motion.div>

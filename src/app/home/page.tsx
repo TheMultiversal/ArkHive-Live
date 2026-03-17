@@ -124,9 +124,9 @@ function FeaturedInvestigationsGrid() {
        onClick={() => router.push(`/investigations/${inv.slug}`)}
        className={`
         text-left p-3 border-l-2 ${SEVERITY_COLORS[inv.severity]}
-        bg-gradient-to-br from-[#000c23] to-[#000614] border border-[rgba(80,180,255,0.14)]
-        hover:from-[#000f28] hover:to-[#000616] hover:border-[rgba(80,180,255,0.28)]
-        hover:shadow-[0_0_12px_rgba(0,100,220,0.1)]
+        bg-gradient-to-br from-[#230c00] to-[#140600] border border-[rgba(255, 80, 80,0.14)]
+        hover:from-[#280f00] hover:to-[#160600] hover:border-[rgba(255, 80, 80,0.28)]
+        hover:shadow-[0_0_12px_rgba(220, 0, 0,0.1)]
         active:scale-[0.98]
         transition-all duration-200 cursor-pointer select-none group gloss-hover
        `}
@@ -186,8 +186,8 @@ export default function Home() {
  <svg className="absolute inset-0 w-full h-full opacity-10">
  <defs>
  <radialGradient id="centerGlow"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#0066cc"stopOpacity="0.3"/>
- <stop offset="100%"stopColor="#0066cc"stopOpacity="0"/>
+ <stop offset="0%"stopColor="#cc2020"stopOpacity="0.3"/>
+ <stop offset="100%"stopColor="#cc2020"stopOpacity="0"/>
  </radialGradient>
  </defs>
  <circle cx="50%"cy="50%"r="200"fill="url(#centerGlow)"/>
@@ -202,7 +202,7 @@ export default function Home() {
  </div>
 
  {/* Alert Badge, Sharp edges */}
- <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#000f28] to-[#001030] border border-[rgba(80,180,255,0.25)] text-blood-400 text-sm font-medium mb-8 animate-fade-in gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30)'}}>
+ <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#280f00] to-[#301000] border border-[rgba(255, 80, 80,0.25)] text-blood-400 text-sm font-medium mb-8 animate-fade-in gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30)'}}>
  <span className="w-2 h-2 bg-blood-700 animate-pulse"/>
  <span className="glass-text-subtle">Investigative Archive, Documentation Platform</span>
  </div>
@@ -216,7 +216,7 @@ export default function Home() {
  </p>
  {/* Line 2 (HIDDEN) emphasized */}
  <p className="text-4xl sm:text-6xl lg:text-8xl font-black uppercase tracking-tight">
- <span className="text-blood-600"style={{ filter: 'drop-shadow(0 0 30px rgba(0,31,77,0.7)) drop-shadow(0 0 60px rgba(0,61,143,0.4))' }}>
+ <span className="text-blood-600"style={{ filter: 'drop-shadow(0 0 30px rgba(77, 0, 0,0.7)) drop-shadow(0 0 60px rgba(143, 0, 0,0.4))' }}>
  YOU&apos;LL NEVER
  </span>
  </p>
@@ -258,13 +258,13 @@ export default function Home() {
 
  {/* Three pillars */}
  <div className="flex flex-wrap justify-center gap-2 mt-4">
- <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(80,180,255,0.28)] bg-gradient-to-br from-[#000f28] to-[#000614] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35)'}}>
+ <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(255, 80, 80,0.28)] bg-gradient-to-br from-[#280f00] to-[#140600] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35)'}}>
  Primary Sources
  </span>
- <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(80,180,255,0.28)] bg-gradient-to-br from-[#000f28] to-[#000614] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35)'}}>
+ <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(255, 80, 80,0.28)] bg-gradient-to-br from-[#280f00] to-[#140600] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35)'}}>
  Court Documents
  </span>
- <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(80,180,255,0.28)] bg-gradient-to-br from-[#000f28] to-[#000614] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35)'}}>
+ <span className="relative overflow-hidden px-3 sm:px-4 py-2 border border-[rgba(255, 80, 80,0.28)] bg-gradient-to-br from-[#280f00] to-[#140600] text-blood-400 text-[10px] sm:text-xs uppercase tracking-wider font-bold" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35)'}}>
  Verified Evidence
  </span>
  </div>
@@ -272,7 +272,7 @@ export default function Home() {
  </div>
 
  {/* Opening Declaration, Crystal Clear */}
- <div className="max-w-3xl mx-auto mb-8 bg-gradient-to-br from-[#000f28] to-[#000614] border border-[rgba(80,180,255,0.15)] p-2 sm:p-6 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35), 0 4px 20px rgba(0,0,0,0.3)'}}>
+ <div className="max-w-3xl mx-auto mb-8 bg-gradient-to-br from-[#280f00] to-[#140600] border border-[rgba(255, 80, 80,0.15)] p-2 sm:p-6 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.35), 0 4px 20px rgba(0,0,0,0.3)'}}>
  <p className="text-base sm:text-xl glass-text-subtle leading-relaxed">
  <span className="text-blood-600 font-black uppercase">91 criminal charges.</span>
  <br />
@@ -286,7 +286,7 @@ export default function Home() {
  while burying the evidence. We dig it up.{""}
  <span className="glass-text font-bold italic">We document everything.</span>
  </p>
- <div className="mt-4 pt-4 border-t border-[rgba(80,180,255,0.15)]">
+ <div className="mt-4 pt-4 border-t border-[rgba(255, 80, 80,0.15)]">
  <p className="text-sm glass-text-muted uppercase tracking-wide sm:tracking-widest">
  No conspiracy theories. <span className="text-blood-600 font-bold">Just court records and primary sources.</span>
  </p>
@@ -295,7 +295,7 @@ export default function Home() {
  
  {/* ArkHive Introduction, Enhanced Crystal Clear Box */}
  <div className="max-w-4xl mx-auto mb-8 animate-fade-in" style={{ animationDelay:"250ms"}}>
- <div className="border-0 sm:border sm:border-[rgba(80,180,255,0.18)] bg-transparent sm:bg-gradient-to-br sm:from-[#000f28] sm:to-[#000614] p-0 sm:p-6 lg:p-8 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30), 0 4px 25px rgba(0,0,0,0.25)'}}>
+ <div className="border-0 sm:border sm:border-[rgba(255, 80, 80,0.18)] bg-transparent sm:bg-gradient-to-br sm:from-[#280f00] sm:to-[#140600] p-0 sm:p-6 lg:p-8 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30), 0 4px 25px rgba(0,0,0,0.25)'}}>
  {/* Header */}
  <div className="text-center mb-4 sm:mb-6">
  <h2 className="text-2xl sm:text-3xl font-black text-blood-600 mb-2 tracking-wider uppercase">
@@ -317,7 +317,7 @@ export default function Home() {
  { title:"Medical Tyranny", desc:"Forced treatments, experimental injections, pharma fraud", href:"/investigations?category=Public+Health"},
  { title:"Civil Liberty Violations", desc:"Constitutional erosion, surveillance, censorship", href:"/investigations?category=Civil+Rights+%26+Justice"},
  ].map((item, i) => (
- <Link key={i} href={item.href} className="text-center p-3 border border-[rgba(80,180,255,0.18)] bg-gradient-to-br from-[#000f28] to-[#000614] hover:border-[rgba(100,190,255,0.35)] hover:from-[#000f28] hover:to-[#000616] transition-all group gloss-hover" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30)'}}>
+ <Link key={i} href={item.href} className="text-center p-3 border border-[rgba(255, 80, 80,0.18)] bg-gradient-to-br from-[#280f00] to-[#140600] hover:border-[rgba(255, 100, 100,0.35)] hover:from-[#280f00] hover:to-[#160600] transition-all group gloss-hover" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.30)'}}>
  <span className="block w-2 h-2 bg-blood-500 mx-auto mb-2 group-hover:bg-blood-400 transition-colors"/>
  <h3 className="text-sm font-bold text-blood-400 uppercase tracking-wider mb-1 group-hover:text-blood-300 transition-colors">{item.title}</h3>
  <p className="text-xs glass-text-muted leading-tight">{item.desc}</p>
@@ -344,7 +344,7 @@ export default function Home() {
  </div>
 
  {/* Warning */}
- <div className="mt-6 p-3 border border-[rgba(80,180,255,0.15)] bg-[#000a1c] text-center">
+ <div className="mt-6 p-3 border border-[rgba(255, 80, 80,0.15)] bg-[#1c0a00] text-center">
  <p className="text-xs glass-text-muted uppercase tracking-wide sm:tracking-widest">
  ⚠ This archive contains disturbing truths. Proceed with open eyes. ⚠
  </p>
@@ -406,7 +406,7 @@ export default function Home() {
  { name:"Operation Paperclip", href:"/investigations/operation-paperclip"},
  { name:"Phoenix Program", href:"/investigations/phoenix-program"},
  ].map((program, i) => (
- <Link key={i} href={program.href} className="px-2 py-1 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-zinc-400 hover:bg-[#000c20] hover:border-zinc-500 transition-colors">
+ <Link key={i} href={program.href} className="px-2 py-1 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-zinc-400 hover:bg-[#200c00] hover:border-zinc-500 transition-colors">
  {program.name}
  </Link>
  ))}

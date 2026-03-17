@@ -169,7 +169,7 @@ export default function OathKeepersSeditionPage() {
  <p className="text-blood-400 font-bold mb-2">Weapons</p>
  <p className="text-sm text-zinc-400">{investigation.qrf.weapons}</p>
  </div>
- <div className="bg-black p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-black p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-zinc-300 font-bold mb-2">Staging Locations</p>
  <ul className="text-sm text-zinc-400">
  {investigation.qrf.locations.map((loc, idx) => (
@@ -189,7 +189,7 @@ export default function OathKeepersSeditionPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.15 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,6,20,0.90)] p-6 mb-8"
+ className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[rgba(0,6,20,0.90)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <Scale className="w-5 h-5 text-blood-500"/>
@@ -200,19 +200,19 @@ export default function OathKeepersSeditionPage() {
  <p className="text-3xl font-black text-blood-500">18 YRS</p>
  <p className="text-sm text-zinc-400">Stewart Rhodes</p>
  </div>
- <div className="bg-black p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-black p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-3xl font-black text-blood-700">12 YRS</p>
  <p className="text-sm text-zinc-400">Kelly Meggs</p>
  </div>
- <div className="bg-black p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-black p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-3xl font-black text-zinc-400">8.5 YRS</p>
  <p className="text-sm text-zinc-400">Jessica Watkins</p>
  </div>
- <div className="bg-black p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-black p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-3xl font-black text-zinc-400">4 YRS</p>
  <p className="text-sm text-zinc-400">Kenneth Harrelson</p>
  </div>
- <div className="bg-black p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-black p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-3xl font-black text-zinc-400">14 MO</p>
  <p className="text-sm text-zinc-400">Thomas Caldwell</p>
  </div>
@@ -235,7 +235,7 @@ export default function OathKeepersSeditionPage() {
  </h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
- <div key={idx} className="flex items-start justify-between p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="flex items-start justify-between p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <div className="flex-1">
  {figure.href ? (
  <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">
@@ -267,7 +267,7 @@ export default function OathKeepersSeditionPage() {
  </h2>
  <div className="space-y-4">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -291,7 +291,7 @@ export default function OathKeepersSeditionPage() {
  </h3>
  <div className="space-y-3">
  {investigation.charges.map((charge, idx) => (
- <div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <code className="text-xs text-blood-400 font-mono">{charge.statute}</code>
  <p className="text-sm text-zinc-300 mt-1">{charge.description}</p>
  </div>
@@ -324,7 +324,7 @@ export default function OathKeepersSeditionPage() {
 
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  <motion.div
  initial={{ opacity: 0, x: 20 }}
@@ -342,7 +342,7 @@ export default function OathKeepersSeditionPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#000a1c] transition-colors"
+ className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#1c0a00] transition-colors"
  >
  <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/>
  <div>

@@ -51,7 +51,7 @@ export default function ShareButton({
  return (
  <button
  onClick={handleShare}
- className={`flex items-center gap-2 px-3 py-2 border border-[rgba(80,180,255,0.15)] text-zinc-500 hover:border-blood-700 hover:text-blood-600 transition-colors ${className}`}
+ className={`flex items-center gap-2 px-3 py-2 border border-[rgba(255, 80, 80,0.15)] text-zinc-500 hover:border-blood-700 hover:text-blood-600 transition-colors ${className}`}
  aria-label="Share this page"
  >
  <Share2 className="w-4 h-4"/>

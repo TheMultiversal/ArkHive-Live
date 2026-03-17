@@ -19,7 +19,7 @@ export const SEVERITY_CONFIG = {
  },
  low: {
  label: 'ARCHIVED',
- color: 'bg-[#000a1c] text-zinc-400 border-[rgba(60,160,255,0.18)]',
+ color: 'bg-[#1c0a00] text-zinc-400 border-[rgba(255, 60, 60,0.18)]',
  description: 'Historical or resolved issues',
  },
 } as const;
@@ -40,12 +40,12 @@ export const RISK_CONFIG = {
  },
  moderate: {
  label: 'DOCUMENTED',
- color: 'text-zinc-400 bg-[#000a1c] border-zinc-600',
+ color: 'text-zinc-400 bg-[#1c0a00] border-zinc-600',
  description: 'Connection to investigations under review',
  },
  low: {
  label: 'ARCHIVED',
- color: 'text-zinc-500 bg-zinc-900 border-[rgba(60,160,255,0.18)]',
+ color: 'text-zinc-500 bg-zinc-900 border-[rgba(255, 60, 60,0.18)]',
  description: 'Minor or historical involvement',
  },
 } as const;
@@ -105,12 +105,12 @@ export const VERIFICATION_STATUS = {
  },
  pending: {
  label: 'Pending',
- color: 'text-white/40 bg-[#000819]',
+ color: 'text-white/40 bg-[#190800]',
  icon: 'Clock',
  },
  unverified: {
  label: 'Unverified',
- color: 'text-white/30 bg-[#000819]',
+ color: 'text-white/30 bg-[#190800]',
  icon: 'HelpCircle',
  },
 } as const;

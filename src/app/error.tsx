@@ -35,7 +35,7 @@ export default function Error({ error, reset }: ErrorProps) {
 
  {/* Error Details */}
  {error.digest && (
- <div className="mb-6 p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div className="mb-6 p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <span className="text-xs text-zinc-600 font-mono">
  Error ID: {error.digest}
  </span>
@@ -62,7 +62,7 @@ export default function Error({ error, reset }: ErrorProps) {
  </button>
  <Link
  href="/"
- className="flex items-center gap-2 px-6 py-3 border-2 border-[rgba(60,160,255,0.18)] text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
+ className="flex items-center gap-2 px-6 py-3 border-2 border-[rgba(255, 60, 60,0.18)] text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
  >
  <Home className="w-5 h-5"/>
  Return Home

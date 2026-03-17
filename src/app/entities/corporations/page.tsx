@@ -74,7 +74,7 @@ export default function CorporationsPage() {
         </nav>
 
         <div className="py-8">
-          <div className="border-2 border-blood-800/60 bg-[#000819] p-6 lg:p-8 mb-8">
+          <div className="border-2 border-blood-800/60 bg-[#190800] p-6 lg:p-8 mb-8">
             <div className="flex items-center gap-4 mb-6">
               <span className="h-[2px] flex-1 bg-gradient-to-r from-blood-700 to-transparent" />
               <Building2 className="w-6 h-6 text-blood-600" />
@@ -94,12 +94,12 @@ export default function CorporationsPage() {
         <div className="flex flex-col sm:flex-row gap-4 mb-8">
           <div className="relative flex-1 max-w-md">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
-            <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Search corporations..." className="w-full pl-12 pr-4 py-3 bg-[#000819] border-2 border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors" />
+            <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Search corporations..." className="w-full pl-12 pr-4 py-3 bg-[#190800] border-2 border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors" />
           </div>
           <div className="flex items-center gap-2 flex-wrap">
             <Filter className="w-4 h-4 text-zinc-500" />
             {(["all","extreme","high","moderate","low"] as RiskFilter[]).map((level) => (
-              <button key={level} onClick={() => setRiskFilter(level)} className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${riskFilter === level ? level === "extreme" ? "border-blood-600 bg-blood-900 text-blood-400" : level === "high" ? "border-blood-700 bg-blood-900 text-blood-500" : level === "moderate" ? "border-zinc-600 bg-[#000a1c] text-zinc-300" : level === "low" ? "border-[rgba(60,160,255,0.18)] bg-zinc-900 text-zinc-400" :"border-blood-700 bg-blood-900 text-white" :"border-[rgba(80,180,255,0.15)] bg-transparent text-zinc-500 hover:border-zinc-600"}`}>
+              <button key={level} onClick={() => setRiskFilter(level)} className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${riskFilter === level ? level === "extreme" ? "border-blood-600 bg-blood-900 text-blood-400" : level === "high" ? "border-blood-700 bg-blood-900 text-blood-500" : level === "moderate" ? "border-zinc-600 bg-[#1c0a00] text-zinc-300" : level === "low" ? "border-[rgba(255, 60, 60,0.18)] bg-zinc-900 text-zinc-400" :"border-blood-700 bg-blood-900 text-white" :"border-[rgba(255, 80, 80,0.15)] bg-transparent text-zinc-500 hover:border-zinc-600"}`}>
                 {level} ({riskCounts[level]})
               </button>
             ))}
@@ -115,8 +115,8 @@ export default function CorporationsPage() {
         </div>
 
         {filtered.length === 0 && (
-          <div className="border border-[rgba(80,180,255,0.15)] bg-[#000819] p-12 text-center">
-            <div className="w-16 h-16 border-2 border-[rgba(60,160,255,0.18)] flex items-center justify-center mx-auto mb-4">
+          <div className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-12 text-center">
+            <div className="w-16 h-16 border-2 border-[rgba(255, 60, 60,0.18)] flex items-center justify-center mx-auto mb-4">
               <Skull className="w-8 h-8 text-zinc-600" />
             </div>
             <h3 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">No Corporations Found</h3>

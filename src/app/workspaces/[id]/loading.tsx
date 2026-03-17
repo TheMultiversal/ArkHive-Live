@@ -5,14 +5,14 @@ export default function WorkspaceLoading() {
  <div className="min-h-screen pt-20 lg:pt-24 pb-16">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header Skeleton */}
- <div className="py-6 border-b border-[rgba(60,160,255,0.08)]">
+ <div className="py-6 border-b border-[rgba(255, 60, 60,0.08)]">
  <div className="flex items-center justify-between animate-pulse">
  <div className="flex items-center gap-4">
  <div className="w-12 h-12 bg-blood-950 border border-blood-800 flex items-center justify-center">
  <Users className="w-6 h-6 text-blood-700/50"/>
  </div>
  <div className="space-y-2">
- <div className="h-6 bg-[#000c20] rounded w-48"/>
+ <div className="h-6 bg-[#200c00] rounded w-48"/>
  <div className="h-4 bg-zinc-800 rounded w-32"/>
  </div>
  </div>
@@ -27,9 +27,9 @@ export default function WorkspaceLoading() {
  {/* Main Content Area */}
  <div className="lg:col-span-3 space-y-6">
  {/* Evidence Board Skeleton */}
- <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
+ <div className="border border-[rgba(255, 60, 60,0.08)] bg-black/40 p-4 animate-pulse">
  <div className="flex items-center justify-between mb-4">
- <div className="h-5 bg-[#000c20] rounded w-32"/>
+ <div className="h-5 bg-[#200c00] rounded w-32"/>
  <div className="flex gap-2">
  <div className="h-8 w-8 bg-zinc-900 rounded"/>
  <div className="h-8 w-8 bg-zinc-900 rounded"/>
@@ -43,8 +43,8 @@ export default function WorkspaceLoading() {
  </div>
 
  {/* Chat Panel Skeleton */}
- <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[#000c20] rounded w-24 mb-4"/>
+ <div className="border border-[rgba(255, 60, 60,0.08)] bg-black/40 p-4 animate-pulse">
+ <div className="h-5 bg-[#200c00] rounded w-24 mb-4"/>
  <div className="space-y-3 h-64">
  {[...Array(4)].map((_, i) => (
  <div key={i} className="flex gap-3">
@@ -62,8 +62,8 @@ export default function WorkspaceLoading() {
  {/* Sidebar */}
  <div className="space-y-4">
  {/* Members Skeleton */}
- <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[#000c20] rounded w-20 mb-3"/>
+ <div className="border border-[rgba(255, 60, 60,0.08)] bg-black/40 p-4 animate-pulse">
+ <div className="h-5 bg-[#200c00] rounded w-20 mb-3"/>
  <div className="space-y-2">
  {[...Array(4)].map((_, i) => (
  <div key={i} className="flex items-center gap-2">
@@ -75,8 +75,8 @@ export default function WorkspaceLoading() {
  </div>
 
  {/* Documents Skeleton */}
- <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[#000c20] rounded w-28 mb-3"/>
+ <div className="border border-[rgba(255, 60, 60,0.08)] bg-black/40 p-4 animate-pulse">
+ <div className="h-5 bg-[#200c00] rounded w-28 mb-3"/>
  <div className="space-y-2">
  {[...Array(3)].map((_, i) => (
  <div key={i} className="h-10 bg-zinc-900 rounded"/>

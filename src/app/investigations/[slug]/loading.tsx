@@ -6,13 +6,13 @@ export default function InvestigationLoading() {
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header Skeleton */}
  <div className="py-8 lg:py-12">
- <div className="border-2 border-blood-800 bg-[#000819] p-6 lg:p-8 animate-pulse">
+ <div className="border-2 border-blood-800 bg-[#190800] p-6 lg:p-8 animate-pulse">
  <div className="flex items-start gap-4 mb-6">
  <div className="w-14 h-14 bg-blood-950 border border-blood-800 flex items-center justify-center">
  <FileText className="w-6 h-6 text-blood-700/50"/>
  </div>
  <div className="flex-1 space-y-3">
- <div className="h-8 bg-[#000c20] rounded w-3/4"/>
+ <div className="h-8 bg-[#200c00] rounded w-3/4"/>
  <div className="h-4 bg-zinc-800 rounded w-1/4"/>
  </div>
  </div>
@@ -27,8 +27,8 @@ export default function InvestigationLoading() {
  <div className="grid lg:grid-cols-3 gap-6">
  {/* Main Content Skeleton */}
  <div className="lg:col-span-2 space-y-6">
- <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-6 animate-pulse">
- <div className="h-6 bg-[#000c20] rounded w-1/4 mb-4"/>
+ <div className="border border-[rgba(255, 60, 60,0.08)] bg-black/40 p-6 animate-pulse">
+ <div className="h-6 bg-[#200c00] rounded w-1/4 mb-4"/>
  <div className="space-y-3">
  {[...Array(6)].map((_, i) => (
  <div key={i} className="h-4 bg-zinc-800 rounded"style={{ width: `${85 - i * 10}%` }} />
@@ -39,8 +39,8 @@ export default function InvestigationLoading() {
 
  {/* Sidebar Skeleton */}
  <div className="space-y-4">
- <div className="border border-[rgba(60,160,255,0.08)] bg-black/40 p-4 animate-pulse">
- <div className="h-5 bg-[#000c20] rounded w-1/3 mb-3"/>
+ <div className="border border-[rgba(255, 60, 60,0.08)] bg-black/40 p-4 animate-pulse">
+ <div className="h-5 bg-[#200c00] rounded w-1/3 mb-3"/>
  <div className="space-y-2">
  {[...Array(4)].map((_, i) => (
  <div key={i} className="h-10 bg-zinc-800 rounded"/>

@@ -21,7 +21,7 @@ export default function Loading() {
 
  {/* Progress Bar */}
  <div className="mt-8 w-64 mx-auto">
- <div className="h-1 bg-[#000a1c] overflow-hidden">
+ <div className="h-1 bg-[#1c0a00] overflow-hidden">
  <div className="h-full w-1/2 bg-gradient-to-r from-blood-900 via-blood-600 to-blood-900 animate-shimmer"
  style={{ backgroundSize: '200% 100%' }} />
  </div>

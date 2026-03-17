@@ -189,7 +189,7 @@ export default function CovidResponsePage() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(80,180,255,0.15)]">
+ <div className="border-b border-[rgba(255, 80, 80,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
@@ -203,7 +203,7 @@ export default function CovidResponsePage() {
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-[#000c20] text-zinc-300 border border-[rgba(60,160,255,0.18)]">
+ <span className="px-3 py-1 text-xs font-medium bg-[#200c00] text-zinc-300 border border-[rgba(255, 60, 60,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -283,7 +283,7 @@ export default function CovidResponsePage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-500/50 transition-all"
  >
  <div>
  <span className="font-medium text-blood-400">{figure.name}</span>
@@ -305,7 +305,7 @@ export default function CovidResponsePage() {
  <h2 className="text-xl font-bold mb-4">Damning Quotes - In Their Own Words</h2>
  <div className="space-y-6">
  {investigationData.quotes.map((item, index) => (
- <div key={index} className="border-b border-[rgba(80,180,255,0.15)] pb-4 last:border-0">
+ <div key={index} className="border-b border-[rgba(255, 80, 80,0.15)] pb-4 last:border-0">
  <blockquote className="text-lg text-zinc-200 italic mb-2">
  &quot;{item.quote}&quot;
  </blockquote>
@@ -329,10 +329,10 @@ export default function CovidResponsePage() {
  </h2>
  <div className="space-y-4">
  {investigationData.failures.map((failure, index) => (
- <div key={index} className="border border-[rgba(80,180,255,0.15)]">
+ <div key={index} className="border border-[rgba(255, 80, 80,0.15)]">
  <button
  onClick={() => setExpandedCategory(expandedCategory === failure.category ? null : failure.category)}
- className="w-full flex items-center justify-between p-4 hover:bg-[#000a1c] transition-colors"
+ className="w-full flex items-center justify-between p-4 hover:bg-[#1c0a00] transition-colors"
  >
  <span className="font-bold text-blood-400">{failure.category}</span>
  <ChevronRight className={`w-5 h-5 transition-transform ${expandedCategory === failure.category ? 'rotate-90' : ''}`} />
@@ -367,7 +367,7 @@ export default function CovidResponsePage() {
  {investigationData.comparisons.map((comp, index) => (
  <div key={index} className="flex items-center gap-4">
  <span className="w-32 text-sm font-medium">{comp.country}</span>
- <div className="flex-1 bg-[#000a1c] h-6 relative">
+ <div className="flex-1 bg-[#1c0a00] h-6 relative">
  <div 
  className={`h-full ${comp.country === 'United States' ? 'bg-blood-600' : 'bg-zinc-600'}`}
  style={{ width: `${(comp.deathsPer100k / 340) * 100}%` }}
@@ -397,7 +397,7 @@ export default function CovidResponsePage() {
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -414,12 +414,12 @@ export default function CovidResponsePage() {
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -439,7 +439,7 @@ export default function CovidResponsePage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(80,180,255,0.15)] transition-colors"
+ className="flex items-center justify-between p-3 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

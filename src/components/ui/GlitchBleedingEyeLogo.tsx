@@ -177,7 +177,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
  style={{ 
- filter: `drop-shadow(0 0 8px rgba(42, 120, 214, 0.6)) ${glitchActive ? 'blur(0.5px)' : ''}`,
+ filter: `drop-shadow(0 0 8px rgba(214, 42, 42, 0.6)) ${glitchActive ? 'blur(0.5px)' : ''}`,
  }}
  >
  <defs>
@@ -185,30 +185,30 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  <radialGradient id="glitchEyeGradient"cx="50%"cy="40%"r="50%">
  <stop offset="0%"stopColor="#ffffff"/>
  <stop offset="50%"stopColor="#fecaca"/>
- <stop offset="100%"stopColor="#003d8f"/>
+ <stop offset="100%"stopColor="#8f0000"/>
  </radialGradient>
 
  <radialGradient id="glitchIrisGradient"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#2a78d6"/>
- <stop offset="60%"stopColor="#002d6b"/>
+ <stop offset="0%"stopColor="#d62a2a"/>
+ <stop offset="60%"stopColor="#6b0000"/>
  <stop offset="100%"stopColor="#001f4d"/>
  </radialGradient>
 
  <linearGradient id="bloodStream"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#003d8f"stopOpacity="0.9"/>
- <stop offset="50%"stopColor="#002d6b"stopOpacity="1"/>
+ <stop offset="0%"stopColor="#8f0000"stopOpacity="0.9"/>
+ <stop offset="50%"stopColor="#6b0000"stopOpacity="1"/>
  <stop offset="100%"stopColor="#001f4d"stopOpacity="0.8"/>
  </linearGradient>
 
  <linearGradient id="bloodDrip"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#2a78d6"/>
+ <stop offset="0%"stopColor="#d62a2a"/>
  <stop offset="100%"stopColor="#001333"/>
  </linearGradient>
 
  {/* Glitch filter */}
  <filter id="glitchFilter"x="-20%"y="-20%"width="140%"height="140%">
  <feFlood floodColor="#ff0000"result="red"/>
- <feFlood floodColor="#00ffff"result="cyan"/>
+ <feFlood floodColor="#ff4444"result="cyan"/>
  <feComposite in="red"in2="SourceGraphic"operator="in"result="redText"/>
  <feOffset in="redText"dx={glitchOffset.r} dy="0"result="redOffset"/>
  <feComposite in="cyan"in2="SourceGraphic"operator="in"result="cyanText"/>
@@ -223,7 +223,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  {/* Blood glow */}
  <filter id="bloodGlow2"x="-100%"y="-100%"width="300%"height="300%">
  <feGaussianBlur stdDeviation="1"result="blur"/>
- <feFlood floodColor="#003d8f"floodOpacity="0.8"/>
+ <feFlood floodColor="#8f0000"floodOpacity="0.8"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -244,7 +244,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  <ellipse cx="50"cy="45"rx="28"ry="18"fill="none"stroke="#ff0000"strokeWidth="2"/>
  </g>
  <g style={{ transform: `translate(${glitchOffset.b}px, 0)`, opacity: 0.5 }}>
- <ellipse cx="50"cy="45"rx="28"ry="18"fill="none"stroke="#00ffff"strokeWidth="2"/>
+ <ellipse cx="50"cy="45"rx="28"ry="18"fill="none"stroke="#ff4444"strokeWidth="2"/>
  </g>
  </>
  )}
@@ -256,15 +256,15 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
 
  {/* Heavy blood vessels */}
  <g filter="url(#bloodGlow2)">
- <path d="M25 40 Q35 42, 40 45 Q38 44, 35 43"stroke="#003d8f"strokeWidth="1"fill="none"opacity="0.8"/>
- <path d="M22 45 Q32 44, 38 45"stroke="#002d6b"strokeWidth="0.8"fill="none"opacity="0.7"/>
- <path d="M24 50 Q34 48, 42 46"stroke="#2a78d6"strokeWidth="0.6"fill="none"opacity="0.6"/>
- <path d="M75 40 Q65 42, 60 45 Q62 44, 65 43"stroke="#003d8f"strokeWidth="1"fill="none"opacity="0.8"/>
- <path d="M78 45 Q68 44, 62 45"stroke="#002d6b"strokeWidth="0.8"fill="none"opacity="0.7"/>
- <path d="M76 50 Q66 48, 58 46"stroke="#2a78d6"strokeWidth="0.6"fill="none"opacity="0.6"/>
+ <path d="M25 40 Q35 42, 40 45 Q38 44, 35 43"stroke="#8f0000"strokeWidth="1"fill="none"opacity="0.8"/>
+ <path d="M22 45 Q32 44, 38 45"stroke="#6b0000"strokeWidth="0.8"fill="none"opacity="0.7"/>
+ <path d="M24 50 Q34 48, 42 46"stroke="#d62a2a"strokeWidth="0.6"fill="none"opacity="0.6"/>
+ <path d="M75 40 Q65 42, 60 45 Q62 44, 65 43"stroke="#8f0000"strokeWidth="1"fill="none"opacity="0.8"/>
+ <path d="M78 45 Q68 44, 62 45"stroke="#6b0000"strokeWidth="0.8"fill="none"opacity="0.7"/>
+ <path d="M76 50 Q66 48, 58 46"stroke="#d62a2a"strokeWidth="0.6"fill="none"opacity="0.6"/>
  {/* Additional bleeding vessels */}
- <path d="M28 35 Q38 38, 43 42"stroke="#003d8f"strokeWidth="0.5"fill="none"opacity="0.5"/>
- <path d="M72 35 Q62 38, 57 42"stroke="#003d8f"strokeWidth="0.5"fill="none"opacity="0.5"/>
+ <path d="M28 35 Q38 38, 43 42"stroke="#8f0000"strokeWidth="0.5"fill="none"opacity="0.5"/>
+ <path d="M72 35 Q62 38, 57 42"stroke="#8f0000"strokeWidth="0.5"fill="none"opacity="0.5"/>
  </g>
 
  {/* Iris */}
@@ -297,7 +297,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
 
  {/* Digital corruption in pupil */}
  {glitchActive && (
- <rect x="47"y="42"width="6"height="6"fill="#2a78d6"opacity="0.5"/>
+ <rect x="47"y="42"width="6"height="6"fill="#d62a2a"opacity="0.5"/>
  )}
 
  {/* Light reflection */}
@@ -381,7 +381,7 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  y1={drop.y - drop.size * 2}
  x2={drop.x}
  y2={drop.y - drop.size}
- stroke="#003d8f"
+ stroke="#8f0000"
  strokeWidth={drop.size * 0.5}
  strokeLinecap="round"
  opacity="0.5"
@@ -400,8 +400,8 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  {/* Glitch artifacts */}
  {glitchActive && (
  <g>
- <rect x="10"y={30 + Math.random() * 20} width="30"height="2"fill="#2a78d6"opacity="0.6"/>
- <rect x="60"y={35 + Math.random() * 20} width="25"height="1"fill="#00ffff"opacity="0.4"/>
+ <rect x="10"y={30 + Math.random() * 20} width="30"height="2"fill="#d62a2a"opacity="0.6"/>
+ <rect x="60"y={35 + Math.random() * 20} width="25"height="1"fill="#ff4444"opacity="0.4"/>
  <rect x="20"y={50 + Math.random() * 10} width="15"height="3"fill="#ff0000"opacity="0.5"/>
  </g>
  )}
@@ -412,8 +412,8 @@ export default function GlitchBleedingEyeLogo({ size ="md", className =""}: Glit
  className="absolute left-0 right-0 h-[2px] pointer-events-none"
  style={{ 
  top: `${scanLine}%`,
- background: 'linear-gradient(90deg, transparent 0%, rgba(42, 120, 214, 0.8) 50%, transparent 100%)',
- boxShadow: '0 0 10px rgba(42, 120, 214, 0.5)',
+ background: 'linear-gradient(90deg, transparent 0%, rgba(214, 42, 42, 0.8) 50%, transparent 100%)',
+ boxShadow: '0 0 10px rgba(214, 42, 42, 0.5)',
  }}
  />
 

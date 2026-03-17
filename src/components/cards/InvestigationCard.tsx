@@ -24,7 +24,7 @@ const severityConfig = {
  classes:"bg-blood-900 text-blood-400 border-blood-600",
  label:"CRITICAL THREAT",
  Icon: Skull,
- accentColor:"rgba(0, 85, 184, 0.5)",
+ accentColor:"rgba(184, 0, 0, 0.5)",
  },
  high: {
  classes:"bg-blood-950 text-blood-500 border-blood-700",
@@ -33,13 +33,13 @@ const severityConfig = {
  accentColor:"rgba(168, 40, 40, 0.4)",
  },
  medium: {
- classes:"bg-zinc-900 text-zinc-300 border-[rgba(80,180,255,0.18)]",
+ classes:"bg-zinc-900 text-zinc-300 border-[rgba(255, 80, 80,0.18)]",
  label:"DOCUMENTED",
  Icon: FileText,
  accentColor:"rgba(113, 113, 122, 0.3)",
  },
  low: {
- classes:"bg-[#000a1c] text-zinc-500 border-[rgba(80,180,255,0.15)]",
+ classes:"bg-[#1c0a00] text-zinc-500 border-[rgba(255, 80, 80,0.15)]",
  label:"ARCHIVED",
  Icon: Archive,
  accentColor:"rgba(63, 63, 70, 0.3)",
@@ -61,8 +61,8 @@ export default function InvestigationCard({ investigation, featured = false }: I
  <div
  className="absolute inset-0 opacity-[0.06]"
  style={{
- backgroundImage: `linear-gradient(rgba(0, 85, 184, 0.5) 1px, transparent 1px),
- linear-gradient(90deg, rgba(0, 85, 184, 0.5) 1px, transparent 1px)`,
+ backgroundImage: `linear-gradient(rgba(184, 0, 0, 0.5) 1px, transparent 1px),
+ linear-gradient(90deg, rgba(184, 0, 0, 0.5) 1px, transparent 1px)`,
  backgroundSize: '16px 16px'
  }}
  />
@@ -86,7 +86,7 @@ export default function InvestigationCard({ investigation, featured = false }: I
 
  {/* Category */}
  <div className="absolute top-3 right-3 z-20 max-w-[45%]">
- <span className="px-2 py-1 bg-[rgba(0,6,20,0.90)] text-zinc-500 text-[10px] font-bold uppercase tracking-wider border border-[rgba(60,160,255,0.08)] truncate block">
+ <span className="px-2 py-1 bg-[rgba(0,6,20,0.90)] text-zinc-500 text-[10px] font-bold uppercase tracking-wider border border-[rgba(255, 60, 60,0.08)] truncate block">
  {investigation.category}
  </span>
  </div>
@@ -120,7 +120,7 @@ export default function InvestigationCard({ investigation, featured = false }: I
  key={tag}
  href={`/investigations?tag=${encodeURIComponent(tag)}`}
  onClick={(e) => e.stopPropagation()}
- className="px-2 py-0.5 bg-[rgba(0,6,20,0.88)] border border-[rgba(60,160,255,0.08)] text-zinc-600 text-[10px] font-medium uppercase tracking-wide hover:border-blood-500/50 hover:text-blood-500 transition-colors"
+ className="px-2 py-0.5 bg-[rgba(0,6,20,0.88)] border border-[rgba(255, 60, 60,0.08)] text-zinc-600 text-[10px] font-medium uppercase tracking-wide hover:border-blood-500/50 hover:text-blood-500 transition-colors"
  >
  {tag}
  </Link>

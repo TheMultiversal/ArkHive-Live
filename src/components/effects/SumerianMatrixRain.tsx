@@ -96,18 +96,18 @@ export default function SumerianMatrixRain() {
  const progress = j / col.chars.length;
  if (j === col.chars.length - 1) {
  // Leading character - bright
- ctx.fillStyle = `rgba(42, 120, 214, ${col.opacity * 1.0})`;
- ctx.shadowColor = '#2a78d6';
+ ctx.fillStyle = `rgba(214, 42, 42, ${col.opacity * 1.0})`;
+ ctx.shadowColor = '#d62a2a';
  ctx.shadowBlur = 8;
  } else if (progress > 0.7) {
  // Near head - medium bright
- ctx.fillStyle = `rgba(0, 61, 143, ${col.opacity * 0.8})`;
+ ctx.fillStyle = `rgba(143, 0, 0, ${col.opacity * 0.8})`;
  ctx.shadowColor = 'transparent';
  ctx.shadowBlur = 0;
  } else {
  // Tail - dark and fading
  const fade = 0.15 + progress * 0.4;
- ctx.fillStyle = `rgba(0, 31, 77, ${col.opacity * fade})`;
+ ctx.fillStyle = `rgba(77, 0, 0, ${col.opacity * fade})`;
  ctx.shadowColor = 'transparent';
  ctx.shadowBlur = 0;
  }

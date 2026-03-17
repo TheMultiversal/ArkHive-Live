@@ -35,7 +35,7 @@ const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
  'focus:outline-none transition-colors',
  error
  ? 'border-blood-600 focus:border-blood-500'
- : 'border-[rgba(80,180,255,0.15)] focus:border-blood-700',
+ : 'border-[rgba(255, 80, 80,0.15)] focus:border-blood-700',
  className
  )}
  aria-invalid={error ? 'true' : undefined}

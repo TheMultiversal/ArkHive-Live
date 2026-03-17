@@ -45,7 +45,7 @@ export default function NotFound() {
  </Link>
  <button
  onClick={() => window.history.back()}
- className="flex items-center gap-2 px-6 py-3 border-2 border-[rgba(60,160,255,0.18)] text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
+ className="flex items-center gap-2 px-6 py-3 border-2 border-[rgba(255, 60, 60,0.18)] text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
  >
  <ArrowLeft className="w-5 h-5"/>
  Go Back

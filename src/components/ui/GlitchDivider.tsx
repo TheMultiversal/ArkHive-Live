@@ -43,7 +43,7 @@ export default function GlitchDivider({
  <motion.div
  className="absolute inset-0"
  style={{
- background: 'linear-gradient(90deg, transparent 0%, #002d6b 20%, #002d6b 80%, transparent 100%)',
+ background: 'linear-gradient(90deg, transparent 0%, #6b0000 20%, #6b0000 80%, transparent 100%)',
  transform: `translateX(${glitchOffset}px)`,
  }}
  animate={{

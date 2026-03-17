@@ -49,14 +49,14 @@ function SavedPageCard({
  >
  <div className="flex items-start justify-between mb-3">
  <div className="flex items-center gap-2">
- <div className="p-1.5 bg-[#000c20] text-zinc-400">
+ <div className="p-1.5 bg-[#200c00] text-zinc-400">
  {typeIcons[item.type] || <Bookmark className="w-4 h-4"/>}
  </div>
- <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[#000c20] text-zinc-500">
+ <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[#200c00] text-zinc-500">
  {item.type}
  </span>
  {item.severity && (
- <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-[#000c20] border-[rgba(60,160,255,0.18)]'}`}>
+ <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-[#200c00] border-[rgba(255, 60, 60,0.18)]'}`}>
  {item.severity}
  </span>
  )}
@@ -79,7 +79,7 @@ function SavedPageCard({
  )}
  </Link>
 
- <div className="flex items-center justify-between pt-3 border-t border-[rgba(80,180,255,0.15)] text-xs text-zinc-500">
+ <div className="flex items-center justify-between pt-3 border-t border-[rgba(255, 80, 80,0.15)] text-xs text-zinc-500">
  <div className="flex items-center gap-1">
  <Clock className="w-3 h-3"/>
  Saved {formatDistanceToNow(new Date(item.savedAt), { addSuffix: true })}
@@ -103,7 +103,7 @@ export default function SavedPagesPage() {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16">
  <div className="max-w-2xl mx-auto px-6 py-12 text-center">
- <div className="w-16 h-16 mx-auto mb-6 border-2 border-[rgba(60,160,255,0.18)] flex items-center justify-center">
+ <div className="w-16 h-16 mx-auto mb-6 border-2 border-[rgba(255, 60, 60,0.18)] flex items-center justify-center">
  <Bookmark className="w-8 h-8 text-zinc-600"/>
  </div>
  <h1 className="text-3xl font-black glass-text mb-3 uppercase tracking-wider">
@@ -161,7 +161,7 @@ export default function SavedPagesPage() {
  {bookmarks.length > 0 && (
  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[#000c20]">
+ <div className="p-2 bg-[#200c00]">
  <BookmarkCheck className="w-5 h-5 text-blood-500"/>
  </div>
  <div>
@@ -170,7 +170,7 @@ export default function SavedPagesPage() {
  </div>
  </div>
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[#000c20]">
+ <div className="p-2 bg-[#200c00]">
  <Target className="w-5 h-5 text-blood-500"/>
  </div>
  <div>
@@ -179,7 +179,7 @@ export default function SavedPagesPage() {
  </div>
  </div>
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[#000c20]">
+ <div className="p-2 bg-[#200c00]">
  <Users className="w-5 h-5 text-zinc-400"/>
  </div>
  <div>
@@ -211,7 +211,7 @@ export default function SavedPagesPage() {
  className={`px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors ${
  typeFilter === type
  ? 'bg-blood-600 text-white'
- : 'bg-[#000c20] text-zinc-400 hover:text-white'
+ : 'bg-[#200c00] text-zinc-400 hover:text-white'
  }`}
  >
  {type === 'all' ? 'All' : type === 'investigation' ? 'Investigations' : 'Entities'}
@@ -250,7 +250,7 @@ export default function SavedPagesPage() {
  </p>
  <Link
  href="/investigations"
- className="inline-flex items-center gap-2 px-5 py-2.5 border border-[rgba(60,160,255,0.18)] text-zinc-300 hover:border-blood-700 hover:text-white text-sm transition-colors"
+ className="inline-flex items-center gap-2 px-5 py-2.5 border border-[rgba(255, 60, 60,0.18)] text-zinc-300 hover:border-blood-700 hover:text-white text-sm transition-colors"
  >
  <Target className="w-4 h-4"/>
  Browse Investigations
@@ -260,7 +260,7 @@ export default function SavedPagesPage() {
  </AnimatePresence>
 
  {/* Privacy Note */}
- <div className="mt-12 border border-[rgba(80,180,255,0.15)] bg-[#000a1c] p-4">
+ <div className="mt-12 border border-[rgba(255, 80, 80,0.15)] bg-[#1c0a00] p-4">
  <div className="flex items-start gap-3">
  <AlertTriangle className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
  <div>

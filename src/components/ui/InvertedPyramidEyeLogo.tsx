@@ -47,7 +47,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <div 
  className="absolute inset-0 blur-2xl"
  style={{
- background: `radial-gradient(circle, rgba(42, 120, 214, ${glowIntensity * 0.4}) 0%, transparent 70%)`,
+ background: `radial-gradient(circle, rgba(214, 42, 42, ${glowIntensity * 0.4}) 0%, transparent 70%)`,
  }}
  />
  {/* Rays emanating from center */}
@@ -56,7 +56,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  key={i}
  className="absolute top-1/2 left-1/2 w-[1px] h-16 origin-bottom"
  style={{
- background: `linear-gradient(to top, rgba(42, 120, 214, ${0.1 + Math.sin(pulsePhase * 0.03 + i) * 0.1}), transparent)`,
+ background: `linear-gradient(to top, rgba(214, 42, 42, ${0.1 + Math.sin(pulsePhase * 0.03 + i) * 0.1}), transparent)`,
  transform: `translate(-50%, -100%) rotate(${i * 30}deg)`,
  }}
  />
@@ -69,7 +69,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <div 
  className="absolute inset-0"
  style={{
- background: `linear-gradient(135deg, rgba(42, 120, 214, ${glowIntensity}) 0%, rgba(0, 31, 77, 0.3) 50%, rgba(42, 120, 214, ${glowIntensity}) 100%)`,
+ background: `linear-gradient(135deg, rgba(214, 42, 42, ${glowIntensity}) 0%, rgba(77, 0, 0, 0.3) 50%, rgba(214, 42, 42, ${glowIntensity}) 100%)`,
  padding: '2px',
  }}
  />
@@ -89,7 +89,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <svg
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
- style={{ filter: `drop-shadow(0 0 ${8 + glowIntensity * 10}px rgba(42, 120, 214, ${glowIntensity}))` }}
+ style={{ filter: `drop-shadow(0 0 ${8 + glowIntensity * 10}px rgba(214, 42, 42, ${glowIntensity}))` }}
  >
  <defs>
  {/* Gradients */}
@@ -97,12 +97,12 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <stop offset="0%"stopColor="#000a1f"/>
  <stop offset="30%"stopColor="#001f4d"/>
  <stop offset="60%"stopColor="#001333"/>
- <stop offset="100%"stopColor="#002d6b"/>
+ <stop offset="100%"stopColor="#6b0000"/>
  </linearGradient>
 
  <linearGradient id="pyramidEdge"x1="0%"y1="0%"x2="100%"y2="100%">
  <stop offset="0%"stopColor="#5499e8"stopOpacity="0.8"/>
- <stop offset="50%"stopColor="#2a78d6"stopOpacity="0.5"/>
+ <stop offset="50%"stopColor="#d62a2a"stopOpacity="0.5"/>
  <stop offset="100%"stopColor="#001f4d"stopOpacity="0.3"/>
  </linearGradient>
 
@@ -110,21 +110,21 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  <stop offset="0%"stopColor="#ffffff"/>
  <stop offset="30%"stopColor="#fecaca"/>
  <stop offset="70%"stopColor="#5499e8"/>
- <stop offset="100%"stopColor="#003d8f"/>
+ <stop offset="100%"stopColor="#8f0000"/>
  </radialGradient>
 
  <radialGradient id="irisGradient2"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#2a78d6">
- <animate attributeName="stop-color"values="#2a78d6;#5499e8;#2a78d6"dur="2s"repeatCount="indefinite"/>
+ <stop offset="0%"stopColor="#d62a2a">
+ <animate attributeName="stop-color"values="#d62a2a;#5499e8;#d62a2a"dur="2s"repeatCount="indefinite"/>
  </stop>
- <stop offset="70%"stopColor="#002d6b"/>
+ <stop offset="70%"stopColor="#6b0000"/>
  <stop offset="100%"stopColor="#001f4d"/>
  </radialGradient>
 
  {/* Glow filter */}
  <filter id="pyramidGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="2"result="blur"/>
- <feFlood floodColor="#2a78d6"floodOpacity="0.5"/>
+ <feFlood floodColor="#d62a2a"floodOpacity="0.5"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -182,7 +182,7 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
  {/* Separation line - detached capstone effect but inverted */}
  <path
  d="M25 32 L75 32"
- stroke="#2a78d6"
+ stroke="#d62a2a"
  strokeWidth="1"
  strokeDasharray="2 2"
  opacity="0.6"
@@ -241,13 +241,13 @@ export default function InvertedPyramidEyeLogo({ size ="md", className =""}: Inv
 
  {/* Energy beams from eye */}
  <g opacity={0.2 + glowIntensity * 0.3}>
- <line x1="50"y1="46"x2="35"y2="75"stroke="#2a78d6"strokeWidth="0.5"/>
- <line x1="50"y1="46"x2="50"y2="80"stroke="#2a78d6"strokeWidth="0.5"/>
- <line x1="50"y1="46"x2="65"y2="75"stroke="#2a78d6"strokeWidth="0.5"/>
+ <line x1="50"y1="46"x2="35"y2="75"stroke="#d62a2a"strokeWidth="0.5"/>
+ <line x1="50"y1="46"x2="50"y2="80"stroke="#d62a2a"strokeWidth="0.5"/>
+ <line x1="50"y1="46"x2="65"y2="75"stroke="#d62a2a"strokeWidth="0.5"/>
  </g>
 
  {/* Mystical symbols at corners (small) */}
- <g fill="#2a78d6"opacity="0.4"fontSize="5"fontFamily="serif">
+ <g fill="#d62a2a"opacity="0.4"fontSize="5"fontFamily="serif">
  <text x="8"y="25"transform="rotate(-15, 8, 25)">◊</text>
  <text x="88"y="25"transform="rotate(15, 88, 25)">◊</text>
  <text x="48"y="95">▽</text>

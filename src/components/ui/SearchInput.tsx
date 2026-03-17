@@ -177,7 +177,7 @@ export default function SearchInput({
  onKeyDown={handleKeyDown}
  placeholder={placeholder}
  autoFocus={autoFocus}
- className="w-full pl-12 pr-12 py-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 transition-colors"
+ className="w-full pl-12 pr-12 py-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 transition-colors"
  />
  {query && (
  <button
@@ -202,7 +202,7 @@ export default function SearchInput({
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: -10 }}
  transition={{ duration: 0.15 }}
- className="absolute z-50 w-full mt-2 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] shadow-xl max-h-96 overflow-y-auto"
+ className="absolute z-50 w-full mt-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] shadow-xl max-h-96 overflow-y-auto"
  >
  {displayItems.map((item, index) => {
  const isHighlighted = index === highlightedIndex;
@@ -212,7 +212,7 @@ export default function SearchInput({
  return (
  <div key={item.id}>
  {showCategoryHeader && (
- <div className="px-4 py-2 text-xs font-semibold text-zinc-500 uppercase tracking-wider bg-[#000a1c]">
+ <div className="px-4 py-2 text-xs font-semibold text-zinc-500 uppercase tracking-wider bg-[#1c0a00]">
  {item.category === 'Recent' && <Clock className="w-3 h-3 inline mr-2"/>}
  {item.category === 'Trending' && <TrendingUp className="w-3 h-3 inline mr-2"/>}
  {item.category}
@@ -223,7 +223,7 @@ export default function SearchInput({
  onMouseEnter={() => setHighlightedIndex(index)}
  className={cn(
  'w-full px-4 py-3 flex items-center gap-3 text-left transition-colors',
- isHighlighted ? 'bg-[#000c20]' : 'hover:bg-[#000c20]'
+ isHighlighted ? 'bg-[#200c00]' : 'hover:bg-[#200c00]'
  )}
  >
  {item.icon || <Search className="w-4 h-4 text-zinc-500 flex-shrink-0"/>}
@@ -243,7 +243,7 @@ export default function SearchInput({
  {query.length >= minChars && (
  <button
  onClick={handleSearch}
- className="w-full px-4 py-3 flex items-center gap-3 text-left border-t border-[rgba(80,180,255,0.15)] hover:bg-[#000c20] transition-colors"
+ className="w-full px-4 py-3 flex items-center gap-3 text-left border-t border-[rgba(255, 80, 80,0.15)] hover:bg-[#200c00] transition-colors"
  >
  <Search className="w-4 h-4 text-blood-500"/>
  <span className="text-zinc-300">
@@ -259,8 +259,8 @@ export default function SearchInput({
  <div className="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 items-center gap-1 text-xs text-zinc-600 pointer-events-none">
  {!query && (
  <>
- <kbd className="px-1.5 py-0.5 bg-[#000c20] rounded">⌘</kbd>
- <kbd className="px-1.5 py-0.5 bg-[#000c20] rounded">K</kbd>
+ <kbd className="px-1.5 py-0.5 bg-[#200c00] rounded">⌘</kbd>
+ <kbd className="px-1.5 py-0.5 bg-[#200c00] rounded">K</kbd>
  </>
  )}
  </div>
@@ -351,7 +351,7 @@ export function CompactSearch({
  if (!query) setIsExpanded(false);
  }}
  placeholder={placeholder}
- className="w-full pl-3 pr-8 py-1.5 text-sm bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full pl-3 pr-8 py-1.5 text-sm bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  />
  <button
  type="button"

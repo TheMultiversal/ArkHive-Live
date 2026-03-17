@@ -101,7 +101,7 @@ export const Stepper = forwardRef<HTMLDivElement, StepperProps>(
  isCurrent && 'border-blood-500 text-blood-500 bg-black',
  !isCompleted &&
  !isCurrent &&
- 'border-[rgba(60,160,255,0.18)] text-zinc-500 bg-black',
+ 'border-[rgba(255, 60, 60,0.18)] text-zinc-500 bg-black',
  isClickable && 'cursor-pointer hover:border-blood-400',
  !isClickable && 'cursor-default'
  )}

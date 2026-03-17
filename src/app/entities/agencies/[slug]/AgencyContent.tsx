@@ -2715,7 +2715,7 @@ export default function AgencyContent() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(80,180,255,0.15)]">
+ <div className="border-b border-[rgba(255, 80, 80,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <Link 
  href="/entities/agencies"
@@ -2744,7 +2744,7 @@ export default function AgencyContent() {
  href={agency.website}
  target="_blank"
  rel="noopener noreferrer"
- className="inline-flex items-center gap-2 px-4 py-2 bg-[#000c20] hover:bg-zinc-700 transition-colors text-sm"
+ className="inline-flex items-center gap-2 px-4 py-2 bg-[#200c00] hover:bg-zinc-700 transition-colors text-sm"
  >
  <Globe className="w-4 h-4"/>
  Official Website
@@ -2809,7 +2809,7 @@ export default function AgencyContent() {
  <Link
  key={investigation.slug}
  href={`/investigations/${investigation.slug}`}
- className="flex items-center justify-between p-4 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(80,180,255,0.15)] hover:border-blood-800 transition-all"
+ className="flex items-center justify-between p-4 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-800 transition-all"
  >
  <span className="font-medium">{investigation.title}</span>
  <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[investigation.severity as keyof typeof severityColors]}`}>
@@ -2883,9 +2883,9 @@ export default function AgencyContent() {
  <Link 
  key={index} 
  href={figure.href || '#'}
- className={`flex items-center gap-3 p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] transition-colors ${figure.href ? 'hover:border-blood-500/50 hover:bg-[#000c20]' : ''}`}
+ className={`flex items-center gap-3 p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] transition-colors ${figure.href ? 'hover:border-blood-500/50 hover:bg-[#200c00]' : ''}`}
  >
- <div className="w-10 h-10 bg-[#000c20] flex items-center justify-center">
+ <div className="w-10 h-10 bg-[#200c00] flex items-center justify-center">
  <Users className="w-5 h-5 text-zinc-500"/>
  </div>
  <div>

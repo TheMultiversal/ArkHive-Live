@@ -37,7 +37,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  {/* Outer ring */}
  <div
  className="absolute inset-0 border border-blood-800"
- style={{ boxShadow: 'inset 0 0 40px rgba(0, 45, 107, 0.1)' }}
+ style={{ boxShadow: 'inset 0 0 40px rgba(107, 0, 0, 0.1)' }}
  />
 
  {/* Concentric rings */}

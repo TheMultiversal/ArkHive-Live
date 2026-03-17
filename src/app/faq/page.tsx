@@ -144,7 +144,7 @@ export default function FAQPage() {
  onChange={(e) => setSearchQuery(e.target.value)}
  placeholder="Search questions..."
  aria-label="Search frequently asked questions"
- className="w-full pl-12 pr-4 py-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full pl-12 pr-4 py-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
  />
  </div>
  </div>
@@ -159,7 +159,7 @@ export default function FAQPage() {
  'px-4 py-2 text-sm font-medium transition-colors',
  !activeCategory
  ? 'bg-blood-600 text-white'
- : 'bg-[#000a1c] text-zinc-400 hover:text-white'
+ : 'bg-[#1c0a00] text-zinc-400 hover:text-white'
  )}
  >
  All Categories
@@ -172,7 +172,7 @@ export default function FAQPage() {
  'px-4 py-2 text-sm font-medium transition-colors',
  activeCategory === category.id
  ? 'bg-blood-600 text-white'
- : 'bg-[#000a1c] text-zinc-400 hover:text-white'
+ : 'bg-[#1c0a00] text-zinc-400 hover:text-white'
  )}
  >
  {category.name}
@@ -203,7 +203,7 @@ export default function FAQPage() {
  return (
  <div
  key={questionId}
- className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"
+ className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"
  >
  <button
  onClick={() =>
@@ -256,7 +256,7 @@ export default function FAQPage() {
 
  {/* Contact CTA */}
  <motion.div
- className="mt-16 text-center bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-8"
+ className="mt-16 text-center bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-8"
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  transition={{ delay: 0.3 }}

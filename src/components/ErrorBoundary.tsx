@@ -50,7 +50,7 @@ export class ErrorBoundary extends Component<Props, State> {
  return (
  <div className="min-h-screen bg-black flex items-center justify-center p-4">
  <div className="max-w-lg w-full">
- <div className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-8 text-center">
+ <div className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-8 text-center">
  {/* Icon */}
  <div className="inline-flex items-center justify-center w-16 h-16 bg-blood-950 mb-6">
  <AlertTriangle className="w-8 h-8 text-blood-500"/>
@@ -70,7 +70,7 @@ export class ErrorBoundary extends Component<Props, State> {
  {/* Error details (dev only) */}
  {process.env.NODE_ENV === 'development' && this.state.error && (
  <div className="mb-6 text-left">
- <details className="bg-[#000c20] border border-[rgba(60,160,255,0.18)] p-4">
+ <details className="bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] p-4">
  <summary className="text-blood-400 cursor-pointer flex items-center gap-2">
  <Bug className="w-4 h-4"/>
  Error Details
@@ -100,7 +100,7 @@ export class ErrorBoundary extends Component<Props, State> {
  </button>
  <Link
  href="/"
- className="inline-flex items-center justify-center gap-2 bg-[#000c20] hover:bg-zinc-700 text-white font-semibold px-6 py-3 transition-colors"
+ className="inline-flex items-center justify-center gap-2 bg-[#200c00] hover:bg-zinc-700 text-white font-semibold px-6 py-3 transition-colors"
  >
  <Home className="w-5 h-5"/>
  Go Home

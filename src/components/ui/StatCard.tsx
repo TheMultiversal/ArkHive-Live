@@ -21,7 +21,7 @@ interface StatCardProps {
 
 const variantStyles = {
  default: {
- card: 'bg-[#000a1c] border-[rgba(80,180,255,0.15)] hover:border-[rgba(60,160,255,0.18)]',
+ card: 'bg-[#1c0a00] border-[rgba(255, 80, 80,0.15)] hover:border-[rgba(255, 60, 60,0.18)]',
  value: 'text-white',
  icon: 'text-zinc-400',
  },
@@ -36,7 +36,7 @@ const variantStyles = {
  icon: 'text-blood-500',
  },
  warning: {
- card: 'bg-zinc-900 border-[rgba(80,180,255,0.15)] hover:border-zinc-600/50',
+ card: 'bg-zinc-900 border-[rgba(255, 80, 80,0.15)] hover:border-zinc-600/50',
  value: 'text-zinc-300',
  icon: 'text-zinc-400',
  },
@@ -159,7 +159,7 @@ interface SparklineStatCardProps extends StatCardProps {
 
 export function SparklineStatCard({
  data,
- sparklineColor = '#0055b8',
+ sparklineColor = '#b80000',
  ...props
 }: SparklineStatCardProps) {
  const max = Math.max(...data);
@@ -246,7 +246,7 @@ export function ComparisonStat({
  return (
  <motion.div
  className={cn(
- 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4',
+ 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -267,7 +267,7 @@ export function ComparisonStat({
  </div>
 
  <div className={cn(
- 'mt-3 pt-3 border-t border-[rgba(80,180,255,0.15)] flex items-center justify-between',
+ 'mt-3 pt-3 border-t border-[rgba(255, 80, 80,0.15)] flex items-center justify-between',
  )}>
  <span className="text-sm text-zinc-400">Change</span>
  <span className={cn(
@@ -301,7 +301,7 @@ export function LiveStat({
  return (
  <motion.div
  className={cn(
- 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4',
+ 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -362,7 +362,7 @@ export function PercentageStat({
  return (
  <motion.div
  className={cn(
- 'bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4',
+ 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -374,7 +374,7 @@ export function PercentageStat({
  </div>
  
  {showBar && (
- <div className="h-2 bg-[#000c20] overflow-hidden">
+ <div className="h-2 bg-[#200c00] overflow-hidden">
  <motion.div
  className={cn('h-full', barColors[variant])}
  initial={{ width: 0 }}

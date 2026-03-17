@@ -116,7 +116,7 @@ const investigation = {
 const severityColors = {
  critical: 'text-blood-500 bg-blood-950 border-blood-800',
  high: 'text-blood-700 bg-blood-950 border-blood-800',
- medium: 'text-zinc-400 bg-[#000a1c] border-zinc-700',
+ medium: 'text-zinc-400 bg-[#1c0a00] border-zinc-700',
  low: 'text-blood-500 bg-blood-950 border-blood-800',
 };
 
@@ -181,19 +181,19 @@ export default function SaudiArmsDealPage() {
  </motion.div>
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
- <div className="bg-[#000a1c] p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-[#1c0a00] p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Announced Value</p>
  <p className="text-blood-400 font-mono text-lg">{investigation.dealOverview.announcedValue}</p>
  </div>
- <div className="bg-[#000a1c] p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-[#1c0a00] p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Reality</p>
  <p className="text-blood-400">{investigation.dealOverview.actualValue}</p>
  </div>
- <div className="bg-[#000a1c] p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-[#1c0a00] p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Emergency Bypass Sales</p>
  <p className="text-blood-600 font-mono">{investigation.dealOverview.emergencySales}</p>
  </div>
- <div className="bg-[#000a1c] p-4 border border-[rgba(80,180,255,0.15)]">
+ <div className="bg-[#1c0a00] p-4 border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Nuclear Plans</p>
  <p className="text-blood-400">{investigation.dealOverview.nuclearPlans}</p>
  </div>
@@ -306,7 +306,7 @@ export default function SaudiArmsDealPage() {
  >
  <div className="flex items-start justify-between mb-2">
  <h3 className="glass-text font-bold hover:text-blood-400">{figure.name}</h3>
- <span className="text-xs bg-[#000c20] text-zinc-400 px-2 py-1">{figure.status}</span>
+ <span className="text-xs bg-[#200c00] text-zinc-400 px-2 py-1">{figure.status}</span>
  </div>
  <p className="text-zinc-400 text-sm">{figure.role}</p>
  </Link>
@@ -342,12 +342,12 @@ export default function SaudiArmsDealPage() {
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -367,7 +367,7 @@ export default function SaudiArmsDealPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[#000a1c] hover:bg-[#000c20] transition-colors border border-[rgba(80,180,255,0.15)]"
+ className="flex items-center justify-between p-3 bg-[#1c0a00] hover:bg-[#200c00] transition-colors border border-[rgba(255, 80, 80,0.15)]"
  >
  <div>
  <p className="text-white">{source.title}</p>

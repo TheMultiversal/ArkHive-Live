@@ -8,7 +8,7 @@ interface SkeletonProps {
 
 export function Skeleton({ className = '' }: SkeletonProps) {
  return (
- <div className={`animate-pulse bg-[#000a1c] rounded ${className}`} />
+ <div className={`animate-pulse bg-[#1c0a00] rounded ${className}`} />
  );
 }
 
@@ -74,7 +74,7 @@ export function ChatMessageSkeleton() {
 
 export function EvidenceItemSkeleton() {
  return (
- <div className="p-3 bg-[#000a1c] border border-white/[0.04]">
+ <div className="p-3 bg-[#1c0a00] border border-white/[0.04]">
  <div className="flex items-start justify-between mb-2">
  <Skeleton className="w-4 h-4"/>
  <Skeleton className="h-4 w-16"/>

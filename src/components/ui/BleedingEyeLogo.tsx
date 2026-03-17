@@ -58,7 +58,7 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  <svg
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
- style={{ filter: 'drop-shadow(0 0 10px rgba(42, 120, 214, 0.5))' }}
+ style={{ filter: 'drop-shadow(0 0 10px rgba(214, 42, 42, 0.5))' }}
  >
  <defs>
  {/* Gradients */}
@@ -69,8 +69,8 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  </radialGradient>
 
  <radialGradient id="irisGradient"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#003d8f">
- <animate attributeName="stop-color"values="#003d8f;#001333;#003d8f"dur="3s"repeatCount="indefinite"/>
+ <stop offset="0%"stopColor="#8f0000">
+ <animate attributeName="stop-color"values="#8f0000;#001333;#8f0000"dur="3s"repeatCount="indefinite"/>
  </stop>
  <stop offset="50%"stopColor="#001333"/>
  <stop offset="100%"stopColor="#000a1f"/>
@@ -82,13 +82,13 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  </radialGradient>
 
  <linearGradient id="bloodGradient"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#003d8f"/>
- <stop offset="50%"stopColor="#002d6b"/>
+ <stop offset="0%"stopColor="#8f0000"/>
+ <stop offset="50%"stopColor="#6b0000"/>
  <stop offset="100%"stopColor="#001f4d"/>
  </linearGradient>
 
  <linearGradient id="bloodDripGradient"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#003d8f"stopOpacity="0.9"/>
+ <stop offset="0%"stopColor="#8f0000"stopOpacity="0.9"/>
  <stop offset="100%"stopColor="#001333"stopOpacity="1"/>
  </linearGradient>
 
@@ -104,7 +104,7 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  {/* Blood glow */}
  <filter id="bloodGlow"x="-100%"y="-100%"width="300%"height="300%">
  <feGaussianBlur stdDeviation="1.5"result="blur"/>
- <feFlood floodColor="#003d8f"floodOpacity="0.6"/>
+ <feFlood floodColor="#8f0000"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -128,12 +128,12 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
 
  {/* Blood vessels */}
  <g opacity="0.4">
- <path d="M20 45 Q30 48, 35 50"stroke="#003d8f"strokeWidth="0.5"fill="none"opacity="0.6"/>
- <path d="M18 52 Q28 50, 33 49"stroke="#002d6b"strokeWidth="0.4"fill="none"opacity="0.5"/>
- <path d="M22 55 Q30 53, 36 51"stroke="#003d8f"strokeWidth="0.3"fill="none"opacity="0.4"/>
- <path d="M80 45 Q70 48, 65 50"stroke="#003d8f"strokeWidth="0.5"fill="none"opacity="0.6"/>
- <path d="M82 52 Q72 50, 67 49"stroke="#002d6b"strokeWidth="0.4"fill="none"opacity="0.5"/>
- <path d="M78 55 Q70 53, 64 51"stroke="#003d8f"strokeWidth="0.3"fill="none"opacity="0.4"/>
+ <path d="M20 45 Q30 48, 35 50"stroke="#8f0000"strokeWidth="0.5"fill="none"opacity="0.6"/>
+ <path d="M18 52 Q28 50, 33 49"stroke="#6b0000"strokeWidth="0.4"fill="none"opacity="0.5"/>
+ <path d="M22 55 Q30 53, 36 51"stroke="#8f0000"strokeWidth="0.3"fill="none"opacity="0.4"/>
+ <path d="M80 45 Q70 48, 65 50"stroke="#8f0000"strokeWidth="0.5"fill="none"opacity="0.6"/>
+ <path d="M82 52 Q72 50, 67 49"stroke="#6b0000"strokeWidth="0.4"fill="none"opacity="0.5"/>
+ <path d="M78 55 Q70 53, 64 51"stroke="#8f0000"strokeWidth="0.3"fill="none"opacity="0.4"/>
  </g>
 
  {/* Iris */}

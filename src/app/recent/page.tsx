@@ -153,7 +153,7 @@ function RecentItemCard({
  <motion.div
  initial={{ opacity: 0, x: -20 }}
  animate={{ opacity: 1, x: 0 }}
- className="flex items-center gap-4 p-4 hover:bg-[#000a1c] transition-colors group"
+ className="flex items-center gap-4 p-4 hover:bg-[#1c0a00] transition-colors group"
  >
  <div className={`p-2 ${typeColors[item.type]}`}>
  {typeIcons[item.type]}
@@ -187,10 +187,10 @@ function RecentItemCard({
  </button>
  
  {showMenu && (
- <div className="absolute right-0 top-full mt-1 w-32 glass border border-[rgba(60,160,255,0.18)] py-1 z-10">
+ <div className="absolute right-0 top-full mt-1 w-32 glass border border-[rgba(255, 60, 60,0.18)] py-1 z-10">
  <Link
  href={item.url}
- className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#000c20] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#200c00] flex items-center gap-2"
  >
  <ExternalLink className="w-3 h-3"/>
  Open
@@ -200,7 +200,7 @@ function RecentItemCard({
  onRemove(item.id);
  setShowMenu(false);
  }}
- className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[#000c20] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[#200c00] flex items-center gap-2"
  >
  <Trash2 className="w-3 h-3"/>
  Remove
@@ -279,7 +279,7 @@ export default function RecentPage() {
  className={`px-3 py-1 text-xs font-medium capitalize transition-colors ${
  typeFilter === type
  ? 'bg-blood-600 text-white'
- : 'bg-[#000c20] text-zinc-400 hover:text-white'
+ : 'bg-[#200c00] text-zinc-400 hover:text-white'
  }`}
  >
  {type === 'all' ? 'All' : `${type}s`}
@@ -298,7 +298,7 @@ export default function RecentPage() {
  <div key={group}>
  <div className="flex items-center gap-4 mb-3">
  <h2 className="text-sm font-medium text-zinc-500">{group}</h2>
- <div className="h-px flex-1 bg-[#000c20]"/>
+ <div className="h-px flex-1 bg-[#200c00]"/>
  </div>
 
  <div className="glass-card overflow-hidden divide-y divide-zinc-800">

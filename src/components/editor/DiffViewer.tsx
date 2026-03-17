@@ -216,9 +216,9 @@ export default function DiffViewer({
  };
 
  return (
- <div className={cn('bg-[#000a1c] border border-[rgba(80,180,255,0.15)]', className)}>
+ <div className={cn('bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]', className)}>
  {/* Header */}
- <div className="flex items-center justify-between p-3 border-b border-[rgba(80,180,255,0.15)] bg-[#000c20]">
+ <div className="flex items-center justify-between p-3 border-b border-[rgba(255, 80, 80,0.15)] bg-[#200c00]">
  <div className="flex items-center gap-4">
  <div className="flex items-center gap-2">
  <FileText className="w-4 h-4 text-zinc-400"/>
@@ -242,7 +242,7 @@ export default function DiffViewer({
 
  <div className="flex items-center gap-2">
  {/* View mode toggle */}
- <div className="flex items-center border border-[rgba(60,160,255,0.18)]">
+ <div className="flex items-center border border-[rgba(255, 60, 60,0.18)]">
  <button
  onClick={() => setViewMode('unified')}
  className={cn(
@@ -351,17 +351,17 @@ function UnifiedView({ lines, showLineNumbers }: ViewProps) {
  <tr
  key={index}
  className={cn(
- 'border-b border-[rgba(60,160,255,0.08)]',
+ 'border-b border-[rgba(255, 60, 60,0.08)]',
  line.type === 'added' && 'bg-blood-950',
  line.type === 'removed' && 'bg-blood-950'
  )}
  >
  {showLineNumbers && (
  <>
- <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(80,180,255,0.15)]">
+ <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255, 80, 80,0.15)]">
  {line.oldLineNum || ''}
  </td>
- <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(80,180,255,0.15)]">
+ <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255, 80, 80,0.15)]">
  {line.newLineNum || ''}
  </td>
  </>
@@ -411,7 +411,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  <div className="flex divide-x divide-zinc-800">
  {/* Left side (old) */}
  <div className="flex-1 overflow-auto">
- <div className="px-3 py-1 text-xs text-zinc-500 bg-[#000c20] border-b border-[rgba(80,180,255,0.15)] sticky top-0">
+ <div className="px-3 py-1 text-xs text-zinc-500 bg-[#200c00] border-b border-[rgba(255, 80, 80,0.15)] sticky top-0">
  Original
  </div>
  <table className="w-full font-mono text-sm">
@@ -420,12 +420,12 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  <tr
  key={index}
  className={cn(
- 'border-b border-[rgba(60,160,255,0.08)]',
+ 'border-b border-[rgba(255, 60, 60,0.08)]',
  line.type === 'removed' && 'bg-blood-950'
  )}
  >
  {showLineNumbers && (
- <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(80,180,255,0.15)]">
+ <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255, 80, 80,0.15)]">
  {line.oldLineNum || ''}
  </td>
  )}
@@ -448,7 +448,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
 
  {/* Right side (new) */}
  <div className="flex-1 overflow-auto">
- <div className="px-3 py-1 text-xs text-zinc-500 bg-[#000c20] border-b border-[rgba(80,180,255,0.15)] sticky top-0">
+ <div className="px-3 py-1 text-xs text-zinc-500 bg-[#200c00] border-b border-[rgba(255, 80, 80,0.15)] sticky top-0">
  Modified
  </div>
  <table className="w-full font-mono text-sm">
@@ -457,12 +457,12 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  <tr
  key={index}
  className={cn(
- 'border-b border-[rgba(60,160,255,0.08)]',
+ 'border-b border-[rgba(255, 60, 60,0.08)]',
  line.type === 'added' && 'bg-blood-950'
  )}
  >
  {showLineNumbers && (
- <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(80,180,255,0.15)]">
+ <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255, 80, 80,0.15)]">
  {line.newLineNum || ''}
  </td>
  )}

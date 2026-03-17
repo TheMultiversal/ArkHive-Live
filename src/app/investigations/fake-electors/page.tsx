@@ -146,7 +146,7 @@ export default function FakeElectorsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.1 }}
- className="border-2 border-[rgba(80,180,255,0.15)] bg-[rgba(0,6,20,0.90)] p-6 mb-8"
+ className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[rgba(0,6,20,0.90)] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
  <MapPin className="w-5 h-5 text-blood-500"/>
@@ -154,7 +154,7 @@ export default function FakeElectorsPage() {
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
  {investigation.states.map((state, idx) => (
- <div key={idx} className={`p-4 border ${state.prosecuted ? 'border-blood-800 bg-blood-950' : 'border-[rgba(80,180,255,0.15)] bg-zinc-900'}`}>
+ <div key={idx} className={`p-4 border ${state.prosecuted ? 'border-blood-800 bg-blood-950' : 'border-[rgba(255, 80, 80,0.15)] bg-zinc-900'}`}>
  <p className="text-lg font-bold glass-text">{state.name}</p>
  <p className="text-2xl font-black text-blood-500">{state.electors}</p>
  <p className="text-xs text-zinc-500">Electoral Votes</p>
@@ -193,7 +193,7 @@ export default function FakeElectorsPage() {
  </h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
- <div key={idx} className="flex items-start justify-between p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="flex items-start justify-between p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <div className="flex-1">
  {figure.href ? (
  <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">
@@ -224,23 +224,23 @@ export default function FakeElectorsPage() {
  How The Scheme Worked
  </h2>
  <div className="space-y-4 text-sm text-zinc-400">
- <div className="p-3 bg-[#000a1c] border-l-2 border-blood-500">
+ <div className="p-3 bg-[#1c0a00] border-l-2 border-blood-500">
  <p className="font-bold glass-text mb-1">Step 1: Organize Fake Electors</p>
  <p>Trump campaign organized willing Republicans in each state to pose as official electors</p>
  </div>
- <div className="p-3 bg-[#000a1c] border-l-2 border-blood-500">
+ <div className="p-3 bg-[#1c0a00] border-l-2 border-blood-500">
  <p className="font-bold glass-text mb-1">Step 2: Sign Fraudulent Certificates</p>
  <p>On December 14, 2020, fake electors met and signed certificates falsely claiming Trump won</p>
  </div>
- <div className="p-3 bg-[#000a1c] border-l-2 border-blood-500">
+ <div className="p-3 bg-[#1c0a00] border-l-2 border-blood-500">
  <p className="font-bold glass-text mb-1">Step 3: Submit to Government</p>
  <p>Fake certificates were mailed to Congress and the National Archives</p>
  </div>
- <div className="p-3 bg-[#000a1c] border-l-2 border-blood-500">
+ <div className="p-3 bg-[#1c0a00] border-l-2 border-blood-500">
  <p className="font-bold glass-text mb-1">Step 4: Pressure Pence</p>
  <p>Plan required Pence to either accept fake slates or claim ambiguity to delay certification</p>
  </div>
- <div className="p-3 bg-[#000a1c] border-l-2 border-blood-500">
+ <div className="p-3 bg-[#1c0a00] border-l-2 border-blood-500">
  <p className="font-bold glass-text mb-1">Step 5: Pence Refused</p>
  <p>On January 6, Pence rejected the scheme, certified Biden&apos;s victory, and mob attacked Capitol</p>
  </div>
@@ -260,7 +260,7 @@ export default function FakeElectorsPage() {
  </h2>
  <div className="space-y-4">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -284,7 +284,7 @@ export default function FakeElectorsPage() {
  </h3>
  <div className="space-y-3">
  {investigation.charges.map((charge, idx) => (
- <div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <code className="text-xs text-blood-400 font-mono">{charge.statute}</code>
  <p className="text-sm text-zinc-300 mt-1">{charge.description}</p>
  <p className="text-xs text-zinc-500 mt-1">{charge.jurisdiction}</p>
@@ -318,7 +318,7 @@ export default function FakeElectorsPage() {
 
  <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  <motion.div
  initial={{ opacity: 0, x: 20 }}
@@ -336,7 +336,7 @@ export default function FakeElectorsPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#000a1c] transition-colors"
+ className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#1c0a00] transition-colors"
  >
  <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/>
  <div>

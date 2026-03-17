@@ -38,7 +38,7 @@ export function BarChart({
  className,
 }: BarChartProps) {
  const maxValue = Math.max(...data.map((d) => d.value));
- const defaultColors = ['#0055b8', '#0055b8', '#0055b8', '#71717a', '#a855f7'];
+ const defaultColors = ['#b80000', '#b80000', '#b80000', '#71717a', '#a855f7'];
 
  if (orientation === 'horizontal') {
  return (
@@ -50,7 +50,7 @@ export function BarChart({
  {item.label}
  </div>
  )}
- <div className="flex-1 h-6 bg-[#000c20] relative">
+ <div className="flex-1 h-6 bg-[#200c00] relative">
  <motion.div
  initial={animate ? { width: 0 } : false}
  animate={{ width: `${(item.value / maxValue) * 100}%` }}
@@ -133,7 +133,7 @@ export function LineChart({
  data,
  width = 400,
  height = 200,
- color = '#0055b8',
+ color = '#b80000',
  fillArea = true,
  showDots = true,
  showGrid = true,
@@ -267,7 +267,7 @@ export function PieChart({
  const innerRadius = donut ? radius * 0.6 : 0;
 
  const segments = useMemo(() => {
- const defaultColors = ['#0055b8', '#0055b8', '#0055b8', '#71717a', '#a855f7', '#ec4899'];
+ const defaultColors = ['#b80000', '#b80000', '#b80000', '#71717a', '#a855f7', '#ec4899'];
  let currentAngle = -90;
  return data.map((item, index) => {
  const angle = (item.value / total) * 360;
@@ -418,7 +418,7 @@ export function GaugeChart({
  max = 100,
  label,
  size = 200,
- color = '#0055b8',
+ color = '#b80000',
  thresholds,
  showValue = true,
  animate = true,
@@ -526,7 +526,7 @@ export function Sparkline({
  data,
  width = 100,
  height = 30,
- color = '#0055b8',
+ color = '#b80000',
  showDot = true,
  className,
 }: SparklineProps) {

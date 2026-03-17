@@ -47,7 +47,7 @@ const mockTags: TagData[] = [
  id: 'tag_1',
  name: 'Government',
  slug: 'government',
- color: '#0055b8',
+ color: '#b80000',
  description: 'Items related to government agencies and officials',
  category: 'general',
  usageCount: 456,
@@ -77,7 +77,7 @@ const mockTags: TagData[] = [
  id: 'tag_3',
  name: 'Surveillance',
  slug: 'surveillance',
- color: '#2a78d6',
+ color: '#d62a2a',
  description: 'Mass surveillance and privacy violations',
  category: 'investigation',
  usageCount: 289,
@@ -152,7 +152,7 @@ const mockTags: TagData[] = [
  id: 'tag_8',
  name: 'Classified',
  slug: 'classified',
- color: '#003d8f',
+ color: '#8f0000',
  description: 'Highly sensitive classified materials',
  category: 'document',
  usageCount: 89,
@@ -210,12 +210,12 @@ function TagCard({ tag }: { tag: TagData }) {
  </button>
  
  {showMenu && (
- <div className="absolute right-0 top-full mt-1 w-32 glass border border-[rgba(60,160,255,0.18)] py-1 z-10">
- <button className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#000c20] flex items-center gap-2">
+ <div className="absolute right-0 top-full mt-1 w-32 glass border border-[rgba(255, 60, 60,0.18)] py-1 z-10">
+ <button className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#200c00] flex items-center gap-2">
  <Edit2 className="w-3 h-3"/>
  Edit
  </button>
- <button className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[#000c20] flex items-center gap-2">
+ <button className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[#200c00] flex items-center gap-2">
  <Trash2 className="w-3 h-3"/>
  Delete
  </button>
@@ -233,7 +233,7 @@ function TagCard({ tag }: { tag: TagData }) {
  </span>
 
  {/* Stats */}
- <div className="grid grid-cols-3 gap-2 sm:gap-4 pt-4 border-t border-[rgba(80,180,255,0.15)]">
+ <div className="grid grid-cols-3 gap-2 sm:gap-4 pt-4 border-t border-[rgba(255, 80, 80,0.15)]">
  <div className="text-center">
  <div className="flex items-center justify-center gap-1 text-blood-400 mb-1">
  <Target className="w-4 h-4"/>
@@ -263,7 +263,7 @@ function TagCard({ tag }: { tag: TagData }) {
  <span>Total Usage</span>
  <span>{tag.usageCount}</span>
  </div>
- <div className="h-1 bg-[#000c20] overflow-hidden">
+ <div className="h-1 bg-[#200c00] overflow-hidden">
  <motion.div
  initial={{ width: 0 }}
  animate={{ width: `${Math.min((tag.usageCount / 600) * 100, 100)}%` }}
@@ -301,7 +301,7 @@ function CreateTagModal({
  <input
  type="text"
  placeholder="Enter tag name..."
- className="w-full px-4 py-2 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full px-4 py-2 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500"
  />
  </div>
 
@@ -310,13 +310,13 @@ function CreateTagModal({
  <textarea
  placeholder="Describe what this tag is for..."
  rows={3}
- className="w-full px-4 py-2 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
+ className="w-full px-4 py-2 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
  />
  </div>
 
  <div>
  <label className="block text-zinc-400 text-sm mb-2">Category</label>
- <select className="w-full px-4 py-2 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] text-white focus:outline-none focus:border-blood-500">
+ <select className="w-full px-4 py-2 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] text-white focus:outline-none focus:border-blood-500">
  <option value="general">General</option>
  <option value="investigation">Investigation</option>
  <option value="entity">Entity</option>
@@ -327,7 +327,7 @@ function CreateTagModal({
  <div>
  <label className="block text-zinc-400 text-sm mb-2">Color</label>
  <div className="flex gap-2">
- {['#2a78d6', '#71717a', '#10b981', '#0055b8', '#8b5cf6', '#ec4899'].map((color) => (
+ {['#d62a2a', '#71717a', '#10b981', '#b80000', '#8b5cf6', '#ec4899'].map((color) => (
  <button
  key={color}
  className="w-8 h-8 border-2 border-transparent hover:border-white transition-colors"
@@ -409,7 +409,7 @@ export default function TagsPage() {
  { label: 'Categories', value: 4, icon: <Filter className="w-5 h-5 text-blood-500"/> },
  ].map((stat, i) => (
  <div key={i} className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[#000c20]">
+ <div className="p-2 bg-[#200c00]">
  {stat.icon}
  </div>
  <div>

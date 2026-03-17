@@ -9,7 +9,7 @@ export default function RecentLoading() {
  {/* Header */}
  <div className="flex items-center justify-between mb-8">
  <div>
- <div className="h-10 w-48 bg-[#000a1c] animate-pulse mb-2"/>
+ <div className="h-10 w-48 bg-[#1c0a00] animate-pulse mb-2"/>
  <div className="h-5 w-64 bg-zinc-900 animate-pulse"/>
  </div>
  <div className="h-10 w-28 bg-zinc-900 animate-pulse"/>
@@ -31,7 +31,7 @@ export default function RecentLoading() {
  {/* Content */}
  <div className="flex-1">
  <div className="flex items-center gap-2 mb-2">
- <div className="h-5 w-48 bg-[#000c20] animate-pulse"/>
+ <div className="h-5 w-48 bg-[#200c00] animate-pulse"/>
  <div className="h-5 w-20 bg-zinc-900 animate-pulse"/>
  </div>
  <div className="h-4 w-full bg-zinc-900 animate-pulse"/>
@@ -40,7 +40,7 @@ export default function RecentLoading() {
  {/* Timestamp */}
  <div className="text-right flex-shrink-0">
  <div className="h-4 w-20 bg-zinc-900 animate-pulse mb-1"/>
- <div className="h-3 w-16 bg-[#000a1c] animate-pulse"/>
+ <div className="h-3 w-16 bg-[#1c0a00] animate-pulse"/>
  </div>
  </motion.div>
  ))}

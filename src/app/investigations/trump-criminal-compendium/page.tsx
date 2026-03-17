@@ -504,7 +504,7 @@ export default function TrumpCriminalCompendiumPage() {
  <AlertTriangle className="w-3 h-3"/>
  {investigationData.severity.toUpperCase()} THREAT
  </span>
- <span className="px-3 py-1.5 bg-[#000a1c] text-zinc-400 text-xs font-medium border border-[rgba(80,180,255,0.15)]">
+ <span className="px-3 py-1.5 bg-[#1c0a00] text-zinc-400 text-xs font-medium border border-[rgba(255, 80, 80,0.15)]">
  {investigationData.category}
  </span>
  </div>
@@ -602,7 +602,7 @@ export default function TrumpCriminalCompendiumPage() {
  <h3 className="text-xl font-bold glass-text">{section.title}</h3>
  <div className="flex flex-wrap gap-2 mt-2">
  {section.statutes.slice(0, 2).map((statute, i) => (
- <code key={i} className="text-xs bg-[#000a1c] text-zinc-500 px-2 py-1 font-mono">
+ <code key={i} className="text-xs bg-[#1c0a00] text-zinc-500 px-2 py-1 font-mono">
  {statute}
  </code>
  ))}
@@ -619,10 +619,10 @@ export default function TrumpCriminalCompendiumPage() {
  <motion.div
  initial={{ height: 0, opacity: 0 }}
  animate={{ height: 'auto', opacity: 1 }}
- className="px-6 pb-6 border-t border-[rgba(80,180,255,0.15)]"
+ className="px-6 pb-6 border-t border-[rgba(255, 80, 80,0.15)]"
  >
  {/* Full Statutes */}
- <div className="py-4 border-b border-[rgba(60,160,255,0.08)]">
+ <div className="py-4 border-b border-[rgba(255, 60, 60,0.08)]">
  <p className="text-xs text-zinc-500 uppercase tracking-wider mb-2">Applicable Statutes</p>
  <div className="flex flex-wrap gap-2">
  {section.statutes.map((statute, i) => (
@@ -643,7 +643,7 @@ export default function TrumpCriminalCompendiumPage() {
  </div>
 
  {/* Evidence */}
- <div className="pt-4 border-t border-[rgba(60,160,255,0.08)]">
+ <div className="pt-4 border-t border-[rgba(255, 60, 60,0.08)]">
  <p className="text-xs text-zinc-500 uppercase tracking-wider mb-3 flex items-center gap-2">
  <FileText className="w-3 h-3"/>
  Supporting Evidence & Sources
@@ -675,7 +675,7 @@ export default function TrumpCriminalCompendiumPage() {
  <Link
  key={tag}
  href={`/investigations?tag=${encodeURIComponent(tag)}`}
- className="px-3 py-1.5 bg-[#000a1c] hover:bg-[#000c20] text-zinc-400 text-sm border border-[rgba(80,180,255,0.15)] hover:border-blood-700 transition-colors"
+ className="px-3 py-1.5 bg-[#1c0a00] hover:bg-[#200c00] text-zinc-400 text-sm border border-[rgba(255, 80, 80,0.15)] hover:border-blood-700 transition-colors"
  >
  {tag}
  </Link>

@@ -157,7 +157,7 @@ export default function MethodologyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: index * 0.1 }}
- className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-6"
+ className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-6"
  >
  <div className="flex items-start gap-4">
  <div className="bg-blood-950 p-3 shrink-0">
@@ -209,7 +209,7 @@ export default function MethodologyPage() {
  whileInView={{ opacity: 1, scale: 1 }}
  viewport={{ once: true }}
  transition={{ delay: index * 0.05 }}
- className="bg-zinc-900 border border-[rgba(60,160,255,0.08)] p-5 hover:border-blood-800 transition-colors"
+ className="bg-zinc-900 border border-[rgba(255, 60, 60,0.08)] p-5 hover:border-blood-800 transition-colors"
  >
  <principle.icon className="w-8 h-8 text-blood-500 mb-3"/>
  <h3 className="text-white font-semibold mb-2">{principle.title}</h3>
@@ -234,11 +234,11 @@ export default function MethodologyPage() {
  initial={{ opacity: 0 }}
  whileInView={{ opacity: 1 }}
  viewport={{ once: true }}
- className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] overflow-hidden"
+ className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] overflow-hidden"
  >
  <table className="w-full">
  <thead>
- <tr className="bg-[#000c20]">
+ <tr className="bg-[#200c00]">
  <th className="text-left p-4 text-sm font-semibold text-zinc-300">Type</th>
  <th className="text-left p-4 text-sm font-semibold text-zinc-300 hidden md:table-cell">Standard</th>
  <th className="text-left p-4 text-sm font-semibold text-zinc-300">Reliability</th>
@@ -246,7 +246,7 @@ export default function MethodologyPage() {
  </thead>
  <tbody>
  {evidenceTypes.map((evidence, index) => (
- <tr key={evidence.type} className="border-t border-[rgba(80,180,255,0.15)]">
+ <tr key={evidence.type} className="border-t border-[rgba(255, 80, 80,0.15)]">
  <td className="p-4">
  <div className="flex items-center gap-3">
  <evidence.icon className="w-5 h-5 text-blood-500"/>

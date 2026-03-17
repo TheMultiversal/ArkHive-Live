@@ -173,7 +173,7 @@ export default function CharlottesvillePage() {
  <p className="text-4xl font-black text-blood-500">{investigation.casualties.injured}</p>
  <p className="text-xs text-zinc-400">Injured</p>
  </div>
- <div className="col-span-2 p-4 border border-[rgba(80,180,255,0.15)] bg-[#000a1c]">
+ <div className="col-span-2 p-4 border border-[rgba(255, 80, 80,0.15)] bg-[#1c0a00]">
  <p className="text-blood-400 font-bold">{investigation.casualties.victim}</p>
  <p className="text-xs text-zinc-400 mt-1">{investigation.casualties.attacker}</p>
  </div>
@@ -192,7 +192,7 @@ export default function CharlottesvillePage() {
  </h2>
  <div className="space-y-4">
  {investigation.trumpQuotes.map((item, idx) => (
- <div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-xs text-blood-500 font-mono mb-2">{item.date}</p>
  <p className="text-zinc-300 italic">{item.quote}</p>
  </div>
@@ -221,7 +221,7 @@ export default function CharlottesvillePage() {
  </h2>
  <div className="space-y-4">
  {investigation.whatHappened.map((item, idx) => (
- <div key={idx} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.time}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -243,7 +243,7 @@ export default function CharlottesvillePage() {
  </h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
- <div key={idx} className="flex items-start justify-between p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="flex items-start justify-between p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <div className="flex-1">
  {figure.href ? (
  <Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">
@@ -254,7 +254,7 @@ export default function CharlottesvillePage() {
  )}
  <p className="text-sm text-zinc-400 mt-1">{figure.role}</p>
  </div>
- <span className="text-xs px-2 py-1 bg-[#000c20] text-zinc-400 border border-[rgba(60,160,255,0.18)]">
+ <span className="text-xs px-2 py-1 bg-[#200c00] text-zinc-400 border border-[rgba(255, 60, 60,0.18)]">
  {figure.status}
  </span>
  </div>
@@ -263,7 +263,7 @@ export default function CharlottesvillePage() {
  </motion.div>
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="glass-card p-6">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.div>
 
  {/* Who Attended */}
@@ -302,7 +302,7 @@ export default function CharlottesvillePage() {
  Sines v. Kessler: Justice for Victims
  </h2>
  <div className="space-y-4">
- <div className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-sm text-zinc-400">Case: <span className="text-white">{investigation.civilLawsuit.case}</span></p>
  </div>
  <div className="p-4 bg-blood-950 border border-blood-800">
@@ -311,7 +311,7 @@ export default function CharlottesvillePage() {
  <div className="p-4 bg-blood-950 border border-blood-800">
  <p className="text-3xl font-black text-blood-500">{investigation.civilLawsuit.damages}</p>
  </div>
- <div className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <p className="text-sm text-zinc-400">{investigation.civilLawsuit.significance}</p>
  </div>
  </div>
@@ -352,7 +352,7 @@ export default function CharlottesvillePage() {
  </h3>
  <div className="space-y-3">
  {investigation.legalOutcomes.map((item, idx) => (
- <div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <p className="font-bold glass-text text-sm">{item.defendant}</p>
  <p className="text-xs text-zinc-400 mt-1">{item.charge}</p>
  <p className="text-xs text-blood-400 mt-1">{item.outcome}</p>
@@ -378,7 +378,7 @@ export default function CharlottesvillePage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#000a1c] transition-colors"
+ className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#1c0a00] transition-colors"
  >
  <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/>
  <div>

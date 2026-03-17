@@ -152,7 +152,7 @@ export default function WarOnDrugsPage() {
  <p className="text-sm text-zinc-300 mb-3">{investigation.ciaDrugConnection.description}</p>
  <div className="space-y-1">
  {investigation.ciaDrugConnection.sources.map((s, idx) => (
- <a key={idx} href={s.url} target="_blank"rel="noopener noreferrer"className="block text-xs text-zinc-500 pl-4 border-l border-[rgba(60,160,255,0.18)] hover:text-blood-400 transition-colors">{s.title} ({s.date})</a>
+ <a key={idx} href={s.url} target="_blank"rel="noopener noreferrer"className="block text-xs text-zinc-500 pl-4 border-l border-[rgba(255, 60, 60,0.18)] hover:text-blood-400 transition-colors">{s.title} ({s.date})</a>
  ))}
  </div>
  </motion.div>
@@ -169,7 +169,7 @@ export default function WarOnDrugsPage() {
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4">Racial Disparities by Design</h2>
  <div className="space-y-4">
  {investigation.racialDisparities.map((rd, idx) => (
- <div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <p className="font-bold text-blood-400 text-sm">{rd.stat}</p>
  <p className="text-sm text-zinc-300 mt-2">{rd.detail}</p>
  </div>
@@ -182,7 +182,7 @@ export default function WarOnDrugsPage() {
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Lock className="w-5 h-5 text-blood-500"/>Key Legislation</h2>
  <div className="space-y-3">
  {investigation.mandatoryMinimums.map((mm, idx) => (
- <div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <p className="font-bold glass-text text-sm">{mm.law}</p>
  <p className="text-sm text-zinc-300 mt-2">{mm.description}</p>
  </div>
@@ -195,12 +195,12 @@ export default function WarOnDrugsPage() {
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Users className="w-5 h-5 text-blood-500"/>Key Figures</h2>
  <div className="space-y-3">
  {investigation.keyFigures.map((figure, idx) => (
- <div key={idx} className="flex items-start justify-between p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="flex items-start justify-between p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <div className="flex-1">
  {figure.href ? (<Link href={figure.href} className="font-bold text-blood-400 hover:text-blood-300 transition-colors">{figure.name}</Link>) : (<span className="font-bold glass-text">{figure.name}</span>)}
  <p className="text-sm text-zinc-400 mt-1">{figure.role}</p>
  </div>
- <span className="text-xs px-2 py-1 bg-[#000c20] text-zinc-400 border border-[rgba(60,160,255,0.18)] whitespace-nowrap ml-2">{figure.status}</span>
+ <span className="text-xs px-2 py-1 bg-[#200c00] text-zinc-400 border border-[rgba(255, 60, 60,0.18)] whitespace-nowrap ml-2">{figure.status}</span>
  </div>
  ))}
  </div>
@@ -222,7 +222,7 @@ export default function WarOnDrugsPage() {
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Calendar className="w-4 h-4 text-blood-500"/>Timeline</h3>
  <div className="space-y-4">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -235,7 +235,7 @@ export default function WarOnDrugsPage() {
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h3>
  <div className="space-y-3">
  {investigation.legalOutcomes.map((item, idx) => (
- <div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <p className="font-bold glass-text text-sm">{item.defendant}</p>
  <p className="text-xs text-zinc-400 mt-1">{item.charge}</p>
  <p className="text-xs text-blood-400 mt-1">{item.outcome}</p>
@@ -248,7 +248,7 @@ export default function WarOnDrugsPage() {
  <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4">Sources</h3>
  <div className="space-y-2">
  {investigation.sources.map((source, idx) => (
- <a key={idx} href={source.url} target="_blank"rel="noopener noreferrer"className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#000a1c] transition-colors">
+ <a key={idx} href={source.url} target="_blank"rel="noopener noreferrer"className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-blood-400 hover:bg-[#1c0a00] transition-colors">
  <ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/>
  <div><span>{source.title}</span><span className="text-zinc-600 ml-2">({source.date})</span></div>
  </a>

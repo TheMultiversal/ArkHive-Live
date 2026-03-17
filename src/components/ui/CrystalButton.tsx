@@ -34,7 +34,7 @@ export default function CrystalButton({
  bg-transparent border-2 border-blood-600
  text-blood-600
  hover:bg-blood-950 hover:text-blood-500 hover:border-blood-500
- hover:shadow-[0_0_30px_rgba(0,31,77,0.4), inset_0_0_20px_rgba(0,31,77,0.15)]
+ hover:shadow-[0_0_30px_rgba(77, 0, 0,0.4), inset_0_0_20px_rgba(77, 0, 0,0.15)]
  `,
  secondary: `
  bg-transparent border-2 border-zinc-500
@@ -46,7 +46,7 @@ export default function CrystalButton({
  bg-transparent border-2 border-blood-700
  text-blood-600
  hover:bg-blood-900 hover:text-blood-500 hover:border-blood-600
- hover:shadow-[0_0_30px_rgba(0,61,143,0.4), inset_0_0_20px_rgba(0,61,143,0.15)]
+ hover:shadow-[0_0_30px_rgba(143, 0, 0,0.4), inset_0_0_20px_rgba(143, 0, 0,0.15)]
  `,
  };
 

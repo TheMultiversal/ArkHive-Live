@@ -12,8 +12,8 @@ export default function StaticGridBackground() {
  className="absolute inset-0 opacity-20"
  style={{
  backgroundImage: `
- linear-gradient(rgba(0, 31, 77, 0.3) 1px, transparent 1px),
- linear-gradient(90deg, rgba(0, 31, 77, 0.3) 1px, transparent 1px)
+ linear-gradient(rgba(77, 0, 0, 0.3) 1px, transparent 1px),
+ linear-gradient(90deg, rgba(77, 0, 0, 0.3) 1px, transparent 1px)
  `,
  backgroundSize: '60px 60px',
  }}
@@ -37,7 +37,7 @@ export default function StaticGridBackground() {
  <div 
  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 opacity-10"
  style={{
- background: 'radial-gradient(circle, rgba(0, 61, 143, 0.4) 0%, transparent 70%)',
+ background: 'radial-gradient(circle, rgba(143, 0, 0, 0.4) 0%, transparent 70%)',
  }}
  />
  </div>

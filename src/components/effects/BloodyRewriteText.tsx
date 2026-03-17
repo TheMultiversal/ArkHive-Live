@@ -88,8 +88,8 @@ export default function BloodyRewriteText({
  <span 
  className="relative bg-gradient-to-b from-blood-600 via-blood-700 to-blood-800 bg-clip-text text-transparent"
  style={{
- WebkitTextStroke: '1px rgba(0, 31, 77, 0.5)',
- textShadow: '0 0 30px rgba(0, 61, 143, 0.5), 0 0 60px rgba(0, 61, 143, 0.3)',
+ WebkitTextStroke: '1px rgba(77, 0, 0, 0.5)',
+ textShadow: '0 0 30px rgba(143, 0, 0, 0.5), 0 0 60px rgba(143, 0, 0, 0.3)',
  filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.8))',
  }}
  >
@@ -101,7 +101,7 @@ export default function BloodyRewriteText({
  className="inline-block w-1 h-[0.9em] bg-blood-600 ml-1 align-baseline"
  animate={{ opacity: [1, 0, 1] }}
  transition={{ duration: 0.5, repeat: Infinity }}
- style={{ boxShadow: '0 0 10px #003d8f' }}
+ style={{ boxShadow: '0 0 10px #8f0000' }}
  />
  )}
  </span>
@@ -138,8 +138,8 @@ export default function BloodyRewriteText({
  <svg width="8"height="16"viewBox="0 0 8 16">
  <defs>
  <linearGradient id={`dropGrad-${drip.id}`} x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#2a78d6"/>
- <stop offset="50%"stopColor="#003d8f"/>
+ <stop offset="0%"stopColor="#d62a2a"/>
+ <stop offset="50%"stopColor="#8f0000"/>
  <stop offset="100%"stopColor="#001333"/>
  </linearGradient>
  </defs>

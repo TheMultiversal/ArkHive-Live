@@ -70,7 +70,7 @@ export default function DocumentLibrary({ documents, onUpload }: DocumentLibrary
  <div className="flex items-center justify-between mb-3">
  <div className="flex items-center gap-2">
  <h3 className="text-xs font-medium text-white/50 uppercase tracking-widest">Documents</h3>
- <span className="text-[10px] text-white/25 px-1.5 py-0.5 bg-[#000a1c] rounded">
+ <span className="text-[10px] text-white/25 px-1.5 py-0.5 bg-[#1c0a00] rounded">
  {documents.length}
  </span>
  </div>
@@ -92,7 +92,7 @@ export default function DocumentLibrary({ documents, onUpload }: DocumentLibrary
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
  aria-label="Search documents"
- className="w-full pl-7 pr-3 py-1.5 bg-[#000a1c] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full pl-7 pr-3 py-1.5 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
  </div>
@@ -137,7 +137,7 @@ export default function DocumentLibrary({ documents, onUpload }: DocumentLibrary
  {filteredDocuments.length === 0 ? (
  <div className="h-full flex items-center justify-center">
  <div className="text-center">
- <div className="w-10 h-10 mx-auto mb-3 bg-[#000a1c] flex items-center justify-center">
+ <div className="w-10 h-10 mx-auto mb-3 bg-[#1c0a00] flex items-center justify-center">
  <FileText className="w-4 h-4 text-white/15"/>
  </div>
  <p className="text-[11px] text-white/25">No documents found</p>
@@ -205,11 +205,11 @@ function DocumentItem({ document, index, getFileIcon, formatFileSize }: Document
  initial={{ opacity: 0, x: -4 }}
  animate={{ opacity: 1, x: 0 }}
  transition={{ delay: index * 0.02 }}
- className="group flex items-center gap-3 p-2 rounded hover:bg-[#000a1c] transition-colors cursor-pointer"
+ className="group flex items-center gap-3 p-2 rounded hover:bg-[#1c0a00] transition-colors cursor-pointer"
  onMouseEnter={() => setShowActions(true)}
  onMouseLeave={() => setShowActions(false)}
  >
- <div className="w-8 h-8 rounded bg-[#000a1c] flex items-center justify-center text-white/25">
+ <div className="w-8 h-8 rounded bg-[#1c0a00] flex items-center justify-center text-white/25">
  {getFileIcon(document.type)}
  </div>
  
@@ -371,7 +371,7 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  value={name}
  onChange={(e) => setName(e.target.value)}
  placeholder="Document name..."
- className="w-full px-3 py-2 bg-[#000a1c] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full px-3 py-2 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  required
  />
  </div>
@@ -381,7 +381,7 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  <select
  value={folder}
  onChange={(e) => setFolder(e.target.value)}
- className="w-full px-3 py-2 bg-[#000a1c] border border-white/[0.06] rounded text-[11px] text-white/50 focus:outline-none cursor-pointer mb-2"
+ className="w-full px-3 py-2 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/50 focus:outline-none cursor-pointer mb-2"
  >
  <option value=""className="bg-[#0a0a0a]">Select folder...</option>
  {folders.map(f => (
@@ -393,7 +393,7 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  value={newFolder}
  onChange={(e) => setNewFolder(e.target.value)}
  placeholder="Or create new folder..."
- className="w-full px-3 py-2 bg-[#000a1c] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full px-3 py-2 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
 
@@ -401,7 +401,7 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  <button
  type="button"
  onClick={onClose}
- className="flex-1 px-3 py-2 bg-[#000a1c] text-white/40 rounded text-[11px] font-medium hover:bg-[#000c20] transition-colors"
+ className="flex-1 px-3 py-2 bg-[#1c0a00] text-white/40 rounded text-[11px] font-medium hover:bg-[#200c00] transition-colors"
  >
  Cancel
  </button>

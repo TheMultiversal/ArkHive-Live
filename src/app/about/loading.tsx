@@ -8,7 +8,7 @@ export default function AboutLoading() {
  <div className="max-w-4xl mx-auto px-4">
  {/* Header skeleton */}
  <div className="text-center mb-16">
- <div className="h-12 w-48 bg-[#000a1c] animate-pulse mx-auto mb-4"/>
+ <div className="h-12 w-48 bg-[#1c0a00] animate-pulse mx-auto mb-4"/>
  <div className="h-6 w-96 bg-zinc-900 animate-pulse mx-auto"/>
  </div>
 
@@ -21,7 +21,7 @@ export default function AboutLoading() {
  transition={{ delay: i * 0.1 }}
  className="mb-12"
  >
- <div className="h-8 w-48 bg-[#000c20] animate-pulse mb-6"/>
+ <div className="h-8 w-48 bg-[#200c00] animate-pulse mb-6"/>
  <div className="space-y-4">
  <div className="h-4 w-full bg-zinc-900 animate-pulse"/>
  <div className="h-4 w-full bg-zinc-900 animate-pulse"/>
@@ -41,7 +41,7 @@ export default function AboutLoading() {
  className="glass-card p-6 text-center"
  >
  <div className="h-10 w-20 bg-blood-900 animate-pulse mx-auto mb-2"/>
- <div className="h-4 w-24 bg-[#000c20] animate-pulse mx-auto"/>
+ <div className="h-4 w-24 bg-[#200c00] animate-pulse mx-auto"/>
  </motion.div>
  ))}
  </div>

@@ -23,7 +23,7 @@ export default function CrimeSceneDivider({
  },
  'crime-scene': {
  text: 'CRIME SCENE DO NOT CROSS',
- bgColor: '#003d8f',
+ bgColor: '#8f0000',
  textColor: '#fff',
  pattern: 'solid',
  },
@@ -36,7 +36,7 @@ export default function CrimeSceneDivider({
  'classified': {
  text: 'CLASSIFIED • TOP SECRET • CLASSIFIED',
  bgColor: '#1a1a1a',
- textColor: '#003d8f',
+ textColor: '#8f0000',
  pattern: 'dashed',
  },
  };

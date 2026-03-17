@@ -37,8 +37,8 @@ export default function Header() {
  <header
  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
  scrolled
- ?"bg-gradient-to-b from-[#000c20] to-[#000614] border-b border-[rgba(80,180,255,0.20)] shadow-[0_4px_30px_rgba(0,60,140,0.12)] gloss"
- :"bg-gradient-to-b from-[#000c20] to-[#000614] border-b border-[rgba(80,180,255,0.08)]"
+ ?"bg-gradient-to-b from-[#200c00] to-[#140600] border-b border-[rgba(255, 80, 80,0.20)] shadow-[0_4px_30px_rgba(140, 0, 0,0.12)] gloss"
+ :"bg-gradient-to-b from-[#200c00] to-[#140600] border-b border-[rgba(255, 80, 80,0.08)]"
  }`}
  >
  {/* Top accent line */}
@@ -54,9 +54,9 @@ export default function Header() {
  <span className="relative inline-block glass-text-hero">
  ARKHIVE
  </span>
- <sup className="text-blood-500 text-[10px] lg:text-xs font-bold drop-shadow-[0_0_6px_rgba(0,85,184,0.6)]">®</sup>
+ <sup className="text-blood-500 text-[10px] lg:text-xs font-bold drop-shadow-[0_0_6px_rgba(184, 0, 0,0.6)]">®</sup>
  </h1>
- <span className="text-[10px] lg:text-xs font-semibold tracking-[0.25em] glass-text-subtle uppercase drop-shadow-[0_0_8px_rgba(0,85,184,0.4)]">
+ <span className="text-[10px] lg:text-xs font-semibold tracking-[0.25em] glass-text-subtle uppercase drop-shadow-[0_0_8px_rgba(184, 0, 0,0.4)]">
  Investigation Platform
  </span>
  </div>
@@ -108,7 +108,7 @@ export default function Header() {
  {/* Submit Intel */}
  <Link
  href="/submit"
- className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#002050] to-[#001838] hover:from-[#003070] hover:to-[#001838] text-white text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(80,180,255,0.28)] hover:border-[rgba(120,200,255,0.50)] shadow-[0_0_15px_rgba(0,100,220,0.15)] hover:shadow-[0_0_25px_rgba(0,100,220,0.3)] gloss-hover"
+ className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#502000] to-[#381800] hover:from-[#703000] hover:to-[#381800] text-white text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(255, 80, 80,0.28)] hover:border-[rgba(255, 120, 120,0.50)] shadow-[0_0_15px_rgba(220, 0, 0,0.15)] hover:shadow-[0_0_25px_rgba(220, 0, 0,0.3)] gloss-hover"
  >
  <Zap className="w-3.5 h-3.5"/>
  <span>Submit Intel</span>
@@ -117,7 +117,7 @@ export default function Header() {
  {/* Contribute */}
  <Link
  href="/contributor"
- className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-[rgba(80,180,255,0.15)] hover:border-blood-800/50 hover:bg-blood-950 transition-all duration-200"
+ className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-[rgba(255, 80, 80,0.15)] hover:border-blood-800/50 hover:bg-blood-950 transition-all duration-200"
  >
  <UserPlus className="w-3.5 h-3.5"/>
  <span>Contribute</span>
@@ -167,7 +167,7 @@ export default function Header() {
  <Link
  href="/contributor"
  onClick={() => setIsMenuOpen(false)}
- className="flex items-center gap-2 px-4 py-3 mt-1 border border-[rgba(80,180,255,0.15)] text-zinc-400 hover:text-white text-sm font-semibold uppercase tracking-wider transition-colors"
+ className="flex items-center gap-2 px-4 py-3 mt-1 border border-[rgba(255, 80, 80,0.15)] text-zinc-400 hover:text-white text-sm font-semibold uppercase tracking-wider transition-colors"
  >
  <UserPlus className="w-4 h-4"/>
  <span>Contribute</span>

@@ -191,7 +191,7 @@ export default function TaxEvasionPage() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(80,180,255,0.15)]">
+ <div className="border-b border-[rgba(255, 80, 80,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
@@ -205,7 +205,7 @@ export default function TaxEvasionPage() {
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-[#000c20] text-zinc-300 border border-[rgba(60,160,255,0.18)]">
+ <span className="px-3 py-1 text-xs font-medium bg-[#200c00] text-zinc-300 border border-[rgba(255, 60, 60,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -290,7 +290,7 @@ export default function TaxEvasionPage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-500/50 transition-all"
  >
  <div>
  <span className="font-medium text-blood-400">{figure.name}</span>
@@ -351,10 +351,10 @@ export default function TaxEvasionPage() {
  </h2>
  <div className="space-y-4">
  {investigationData.fraudSchemes.map((scheme, index) => (
- <div key={index} className="border border-[rgba(80,180,255,0.15)]">
+ <div key={index} className="border border-[rgba(255, 80, 80,0.15)]">
  <button
  onClick={() => setExpandedScheme(expandedScheme === scheme.scheme ? null : scheme.scheme)}
- className="w-full flex items-center justify-between p-4 hover:bg-[#000a1c] transition-colors"
+ className="w-full flex items-center justify-between p-4 hover:bg-[#1c0a00] transition-colors"
  >
  <div className="text-left">
  <span className="font-bold text-blood-400">{scheme.scheme}</span>
@@ -389,7 +389,7 @@ export default function TaxEvasionPage() {
  <h2 className="text-xl font-bold mb-4">Key Findings</h2>
  <div className="space-y-3">
  {investigationData.keyFindings.map((item, index) => (
- <div key={index} className="flex items-start gap-3 p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]">
+ <div key={index} className="flex items-start gap-3 p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
  <span className="text-blood-500 font-bold">{index + 1}.</span>
  <div>
  <p className="text-zinc-200">{item.finding}</p>
@@ -413,7 +413,7 @@ export default function TaxEvasionPage() {
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(80,180,255,0.15)]">
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
  <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
  <p className="text-xs text-blood-500 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
@@ -425,12 +425,12 @@ export default function TaxEvasionPage() {
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#000a1c] border border-[rgba(80,180,255,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -447,7 +447,7 @@ export default function TaxEvasionPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(80,180,255,0.15)] transition-colors"
+ className="flex items-center justify-between p-3 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

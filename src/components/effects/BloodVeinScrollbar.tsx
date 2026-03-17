@@ -32,7 +32,7 @@ export default function BloodVeinScrollbar() {
  <defs>
  <linearGradient id="veinGradient"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#001f4d"/>
- <stop offset="50%"stopColor="#003d8f"/>
+ <stop offset="50%"stopColor="#8f0000"/>
  <stop offset="100%"stopColor="#001333"/>
  </linearGradient>
  </defs>
@@ -51,7 +51,7 @@ export default function BloodVeinScrollbar() {
  className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-blood-800 via-blood-700 to-blood-600"
  style={{ 
  height: fillHeight,
- boxShadow: '0 -4px 20px rgba(0, 61, 143, 0.5)',
+ boxShadow: '0 -4px 20px rgba(143, 0, 0, 0.5)',
  }}
  >
  {/* Blood surface ripple */}

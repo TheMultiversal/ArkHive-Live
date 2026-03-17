@@ -17,7 +17,7 @@ export default function Skeleton({
  height,
  animation = 'pulse',
 }: SkeletonProps) {
- const baseClasses = 'bg-[#000c20]';
+ const baseClasses = 'bg-[#200c00]';
  
  const variantClasses = {
  text: 'rounded',
@@ -68,7 +68,7 @@ export function SkeletonText({ lines = 3, className }: { lines?: number; classNa
 
 export function SkeletonCard({ className }: { className?: string }) {
  return (
- <div className={cn('p-6 border border-[rgba(80,180,255,0.15)] space-y-4', className)}>
+ <div className={cn('p-6 border border-[rgba(255, 80, 80,0.15)] space-y-4', className)}>
  <div className="flex items-center gap-4">
  <Skeleton variant="circular"width={48} height={48} />
  <div className="flex-1 space-y-2">
@@ -126,14 +126,14 @@ export function SkeletonTable({ rows = 5, columns = 4, className }: { rows?: num
  return (
  <div className={cn('w-full', className)}>
  {/* Header */}
- <div className="flex gap-4 p-4 border-b border-[rgba(80,180,255,0.15)]">
+ <div className="flex gap-4 p-4 border-b border-[rgba(255, 80, 80,0.15)]">
  {Array.from({ length: columns }).map((_, i) => (
  <Skeleton key={i} height={20} className="flex-1"/>
  ))}
  </div>
  {/* Rows */}
  {Array.from({ length: rows }).map((_, rowIndex) => (
- <div key={rowIndex} className="flex gap-4 p-4 border-b border-[rgba(60,160,255,0.08)]">
+ <div key={rowIndex} className="flex gap-4 p-4 border-b border-[rgba(255, 60, 60,0.08)]">
  {Array.from({ length: columns }).map((_, colIndex) => (
  <Skeleton key={colIndex} height={16} className="flex-1"/>
  ))}

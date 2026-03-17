@@ -105,7 +105,7 @@ export default function Modal({
  >
  {/* Header */}
  {title && (
- <div className="flex items-center justify-between p-4 border-b border-[rgba(80,180,255,0.15)]">
+ <div className="flex items-center justify-between p-4 border-b border-[rgba(255, 80, 80,0.15)]">
  <h2
  id="modal-title"
  className="text-lg font-bold glass-text uppercase tracking-wider"

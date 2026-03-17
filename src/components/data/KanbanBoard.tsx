@@ -100,7 +100,7 @@ function KanbanCardItem({ card, onClick }: KanbanCardItemProps) {
  exit={{ opacity: 0, scale: 0.9 }}
  whileHover={{ scale: 1.02 }}
  className={cn(
- 'bg-[#000c20] border border-[rgba(60,160,255,0.18)] p-3 cursor-pointer group',
+ 'bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] p-3 cursor-pointer group',
  'hover:border-zinc-600 transition-colors'
  )}
  onClick={onClick}
@@ -145,7 +145,7 @@ function KanbanCardItem({ card, onClick }: KanbanCardItemProps) {
  )}
 
  {/* Footer */}
- <div className="flex items-center justify-between mt-2 pt-2 border-t border-[rgba(60,160,255,0.18)]">
+ <div className="flex items-center justify-between mt-2 pt-2 border-t border-[rgba(255, 60, 60,0.18)]">
  {/* Due date */}
  {card.dueDate && (
  <div
@@ -218,9 +218,9 @@ function KanbanColumnComponent({
  const isAtLimit = column.limit !== undefined && column.limit > 0 && column.cards.length >= column.limit;
 
  return (
- <div className="flex-shrink-0 w-72 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] flex flex-col">
+ <div className="flex-shrink-0 w-72 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] flex flex-col">
  {/* Header */}
- <div className="flex items-center justify-between p-3 border-b border-[rgba(80,180,255,0.15)]">
+ <div className="flex items-center justify-between p-3 border-b border-[rgba(255, 80, 80,0.15)]">
  <div className="flex items-center gap-2">
  {column.color && (
  <div
@@ -229,7 +229,7 @@ function KanbanColumnComponent({
  />
  )}
  <h3 className="font-medium text-white text-sm">{column.title}</h3>
- <span className="text-xs text-zinc-500 bg-[#000c20] px-1.5 py-0.5">
+ <span className="text-xs text-zinc-500 bg-[#200c00] px-1.5 py-0.5">
  {column.cards.length}
  {column.limit && `/${column.limit}`}
  </span>
@@ -249,7 +249,7 @@ function KanbanColumnComponent({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute right-0 top-full mt-1 w-36 bg-[#000c20] border border-[rgba(60,160,255,0.18)] shadow-lg z-10"
+ className="absolute right-0 top-full mt-1 w-36 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] shadow-lg z-10"
  >
  <button
  onClick={() => {
@@ -304,7 +304,7 @@ function KanbanColumnComponent({
  </div>
 
  {/* Add card button */}
- <div className="p-2 border-t border-[rgba(80,180,255,0.15)]">
+ <div className="p-2 border-t border-[rgba(255, 80, 80,0.15)]">
  <button
  onClick={onAddCard}
  disabled={isAtLimit}
@@ -312,7 +312,7 @@ function KanbanColumnComponent({
  'w-full flex items-center justify-center gap-2 py-2 text-sm transition-colors',
  isAtLimit
  ? 'text-zinc-600 cursor-not-allowed'
- : 'text-zinc-400 hover:text-white hover:bg-[#000c20]'
+ : 'text-zinc-400 hover:text-white hover:bg-[#200c00]'
  )}
  >
  <Plus className="w-4 h-4"/>
@@ -372,9 +372,9 @@ export default function KanbanBoard({
  <div className={cn('flex flex-col h-full', className)}>
  {/* Toolbar */}
  {(showSearch || showFilters) && (
- <div className="flex items-center gap-4 p-4 border-b border-[rgba(80,180,255,0.15)] bg-[#000a1c]">
+ <div className="flex items-center gap-4 p-4 border-b border-[rgba(255, 80, 80,0.15)] bg-[#1c0a00]">
  {showSearch && (
- <div className="flex items-center gap-2 flex-1 max-w-xs bg-[#000c20] px-3 py-1.5">
+ <div className="flex items-center gap-2 flex-1 max-w-xs bg-[#200c00] px-3 py-1.5">
  <Search className="w-4 h-4 text-zinc-500"/>
  <input
  type="text"
@@ -392,7 +392,7 @@ export default function KanbanBoard({
  <select
  value={priorityFilter || ''}
  onChange={(e) => setPriorityFilter(e.target.value || null)}
- className="bg-[#000c20] text-sm text-white px-3 py-1.5 focus:outline-none focus:ring-1 focus:ring-blood-500"
+ className="bg-[#200c00] text-sm text-white px-3 py-1.5 focus:outline-none focus:ring-1 focus:ring-blood-500"
  >
  <option value="">All Priorities</option>
  <option value="critical">Critical</option>
@@ -424,7 +424,7 @@ export default function KanbanBoard({
  {onAddColumn && (
  <button
  onClick={onAddColumn}
- className="flex-shrink-0 w-72 h-full min-h-[200px] border-2 border-dashed border-[rgba(60,160,255,0.18)] hover:border-zinc-600 flex items-center justify-center text-zinc-500 hover:text-zinc-400 transition-colors"
+ className="flex-shrink-0 w-72 h-full min-h-[200px] border-2 border-dashed border-[rgba(255, 60, 60,0.18)] hover:border-zinc-600 flex items-center justify-center text-zinc-500 hover:text-zinc-400 transition-colors"
  >
  <Plus className="w-6 h-6"/>
  </button>

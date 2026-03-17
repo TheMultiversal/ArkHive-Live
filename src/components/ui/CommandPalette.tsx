@@ -242,9 +242,9 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  transition={{ type: 'spring', stiffness: 500, damping: 30 }}
  className="fixed top-[20%] left-1/2 -translate-x-1/2 w-full max-w-lg z-50"
  >
- <div className="bg-[#000a1c] border border-[rgba(80,180,255,0.15)] shadow-2xl overflow-hidden">
+ <div className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] shadow-2xl overflow-hidden">
  {/* Search Input */}
- <div className="flex items-center gap-3 px-4 py-3 border-b border-[rgba(80,180,255,0.15)]">
+ <div className="flex items-center gap-3 px-4 py-3 border-b border-[rgba(255, 80, 80,0.15)]">
  <Search className="w-5 h-5 text-zinc-500"/>
  <input
  ref={inputRef}
@@ -256,7 +256,7 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  className="flex-1 bg-transparent text-white placeholder-zinc-500 outline-none text-sm"
  />
  <div className="flex items-center gap-1 text-xs text-zinc-500">
- <kbd className="px-1.5 py-0.5 bg-[#000c20] border border-[rgba(60,160,255,0.18)]">esc</kbd>
+ <kbd className="px-1.5 py-0.5 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)]">esc</kbd>
  </div>
  <button onClick={onClose} className="text-zinc-500 hover:text-white">
  <X className="w-4 h-4"/>
@@ -272,7 +272,7 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  ) : (
  Object.entries(groupedCommands).map(([category, commands]) => (
  <div key={category}>
- <div className="px-4 py-2 text-xs font-semibold text-zinc-500 uppercase tracking-wider bg-[#000a1c]">
+ <div className="px-4 py-2 text-xs font-semibold text-zinc-500 uppercase tracking-wider bg-[#1c0a00]">
  {category}
  </div>
  {commands.map((command) => {
@@ -285,7 +285,7 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  onClick={() => executeCommand(command)}
  className={`
  w-full flex items-center gap-3 px-4 py-2.5 text-left transition-colors
- ${isSelected ? 'bg-blood-900 text-white' : 'text-zinc-400 hover:bg-[#000c20]'}
+ ${isSelected ? 'bg-blood-900 text-white' : 'text-zinc-400 hover:bg-[#200c00]'}
  `}
  >
  <span className={isSelected ? 'text-blood-500' : 'text-zinc-500'}>
@@ -309,15 +309,15 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  </div>
 
  {/* Footer */}
- <div className="px-4 py-2 border-t border-[rgba(80,180,255,0.15)] flex items-center justify-between text-xs text-zinc-500">
+ <div className="px-4 py-2 border-t border-[rgba(255, 80, 80,0.15)] flex items-center justify-between text-xs text-zinc-500">
  <div className="flex items-center gap-4">
  <span className="flex items-center gap-1">
- <kbd className="px-1 py-0.5 bg-[#000c20] border border-[rgba(60,160,255,0.18)]">↑</kbd>
- <kbd className="px-1 py-0.5 bg-[#000c20] border border-[rgba(60,160,255,0.18)]">↓</kbd>
+ <kbd className="px-1 py-0.5 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)]">↑</kbd>
+ <kbd className="px-1 py-0.5 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)]">↓</kbd>
  to navigate
  </span>
  <span className="flex items-center gap-1">
- <kbd className="px-1 py-0.5 bg-[#000c20] border border-[rgba(60,160,255,0.18)]">↵</kbd>
+ <kbd className="px-1 py-0.5 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)]">↵</kbd>
  to select
  </span>
  </div>

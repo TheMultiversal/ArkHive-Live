@@ -71,8 +71,8 @@ export const ENTITY_COLORS: Record<EntityType, {
  border: 'border-purple-500/50',
  },
  organization: {
- text: 'text-blue-500',
- bg: 'bg-blue-500/10',
- border: 'border-blue-500/50',
+ text: 'text-blood-400',
+ bg: 'bg-blood-500/10',
+ border: 'border-blood-500/50',
  },
 };

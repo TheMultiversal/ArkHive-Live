@@ -107,7 +107,7 @@ export default function HeartbeatBackground() {
  <div 
  className="absolute inset-0 opacity-10"
  style={{
- backgroundImage: `linear-gradient(rgba(0, 61, 143, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 61, 143, 0.3) 1px, transparent 1px)`,
+ backgroundImage: `linear-gradient(rgba(143, 0, 0, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(143, 0, 0, 0.3) 1px, transparent 1px)`,
  backgroundSize: '50px 50px',
  }}
  />
@@ -119,16 +119,16 @@ export default function HeartbeatBackground() {
  y: smoothMouseY,
  translateX: '-50%',
  translateY: '-50%',
- background: `radial-gradient(circle, rgba(0, 61, 143, ${0.15 + mouseSpeed * 0.08}) 0%, transparent 70%)`,
+ background: `radial-gradient(circle, rgba(143, 0, 0, ${0.15 + mouseSpeed * 0.08}) 0%, transparent 70%)`,
  }}
  />
 
- <svg className="absolute inset-0 w-full h-full"style={{ filter: 'drop-shadow(0 0 8px rgba(0, 61, 143, 0.5))' }}>
+ <svg className="absolute inset-0 w-full h-full"style={{ filter: 'drop-shadow(0 0 8px rgba(143, 0, 0, 0.5))' }}>
  <defs>
  <linearGradient id="ecgGrad"x1="0%"y1="0%"x2="100%"y2="0%">
  <stop offset="0%"stopColor="transparent"/>
- <stop offset="5%"stopColor="#003d8f"/>
- <stop offset="95%"stopColor="#003d8f"/>
+ <stop offset="5%"stopColor="#8f0000"/>
+ <stop offset="95%"stopColor="#8f0000"/>
  <stop offset="100%"stopColor="transparent"/>
  </linearGradient>
  <filter id="glow">
@@ -141,7 +141,7 @@ export default function HeartbeatBackground() {
  <path d={generateECGPath(dimensions.height * 0.5, 40, intensity)} fill="none"stroke="url(#ecgGrad)"strokeWidth="2"opacity="0.6"filter="url(#glow)"/>
  <path d={generateECGPath(dimensions.height * 0.75, 80, intensity * 0.7)} fill="none"stroke="url(#ecgGrad)"strokeWidth="1"opacity="0.25"filter="url(#glow)"/>
 
- <motion.rect x={0} y={0} width={3} height={dimensions.height} fill="rgba(0, 61, 143, 0.4)"animate={{ x: [0, dimensions.width] }} transition={{ duration: 5, repeat: Infinity, ease:"linear"}} />
+ <motion.rect x={0} y={0} width={3} height={dimensions.height} fill="rgba(143, 0, 0, 0.4)"animate={{ x: [0, dimensions.width] }} transition={{ duration: 5, repeat: Infinity, ease:"linear"}} />
  </svg>
 
  <div className="absolute top-24 left-4 font-mono text-xs select-none">

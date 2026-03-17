@@ -105,7 +105,7 @@ export default function Timeline({
  {event.tags.map((tag) => (
  <span
  key={tag}
- className="px-2 py-0.5 text-xs bg-[#000c20] text-zinc-400"
+ className="px-2 py-0.5 text-xs bg-[#200c00] text-zinc-400"
  >
  {tag}
  </span>
@@ -290,11 +290,11 @@ export function InvestigationTimeline({
  </div>
 
  {/* Content Card */}
- <div className="flex-1 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-4 hover:border-[rgba(60,160,255,0.18)] transition-colors">
+ <div className="flex-1 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4 hover:border-[rgba(255, 60, 60,0.18)] transition-colors">
  <div className="flex items-start justify-between gap-4">
  <div>
  <div className="flex items-center gap-2 mb-1">
- <span className="text-xs px-2 py-0.5 bg-[#000c20] text-zinc-400">
+ <span className="text-xs px-2 py-0.5 bg-[#200c00] text-zinc-400">
  {config.label}
  </span>
  {event.verified && (

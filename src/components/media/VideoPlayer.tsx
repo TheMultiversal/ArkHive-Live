@@ -489,7 +489,7 @@ export default function VideoPlayer({
  <Subtitles className="w-4 h-4"/>
  </button>
  {showSubtitles && (
- <div className="absolute bottom-full right-0 mb-2 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-2 min-w-[150px]">
+ <div className="absolute bottom-full right-0 mb-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-2 min-w-[150px]">
  <button
  onClick={() => {
  setCurrentSubtitle(null);
@@ -536,7 +536,7 @@ export default function VideoPlayer({
  </button>
 
  {showSettings && (
- <div className="absolute bottom-full right-0 mb-2 bg-[#000a1c] border border-[rgba(80,180,255,0.15)] p-2 min-w-[180px]">
+ <div className="absolute bottom-full right-0 mb-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-2 min-w-[180px]">
  {/* Quality */}
  {showQuality && sources.length > 1 && (
  <div className="mb-2">
@@ -577,7 +577,7 @@ export default function VideoPlayer({
  'px-2 py-1 text-xs',
  playbackSpeed === speed
  ? 'bg-blood-500 text-white'
- : 'bg-[#000c20] text-zinc-400 hover:text-white'
+ : 'bg-[#200c00] text-zinc-400 hover:text-white'
  )}
  >
  {speed}x

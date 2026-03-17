@@ -31,17 +31,17 @@ interface RelationshipGraphProps {
 }
 
 const typeColors = {
- agency: '#0055b8', // blue
+ agency: '#b80000', // blue
  corporation: '#8b5cf6', // purple
  individual: '#71717a', // amber
  organization: '#10b981', // emerald
 };
 
 const riskColors = {
- critical: '#2a78d6',
- high: '#002d6b',
+ critical: '#d62a2a',
+ high: '#6b0000',
  medium: '#71717a',
- low: '#0055b8',
+ low: '#b80000',
 };
 
 export default function RelationshipGraph({
@@ -125,26 +125,26 @@ export default function RelationshipGraph({
  const connectedToHovered = hoveredNode ? getConnectedNodes(hoveredNode) : new Set<string>();
 
  return (
- <div className={`relative bg-[rgba(0,6,20,0.88)] border border-[rgba(80,180,255,0.15)] overflow-hidden ${className}`}>
+ <div className={`relative bg-[rgba(0,6,20,0.88)] border border-[rgba(255, 80, 80,0.15)] overflow-hidden ${className}`}>
  {/* Controls */}
  <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
  <button
  onClick={handleZoomIn}
- className="p-2 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] transition-colors"
  aria-label="Zoom in"
  >
  <ZoomIn className="w-4 h-4"/>
  </button>
  <button
  onClick={handleZoomOut}
- className="p-2 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] transition-colors"
  aria-label="Zoom out"
  >
  <ZoomOut className="w-4 h-4"/>
  </button>
  <button
  onClick={handleResetZoom}
- className="p-2 bg-[#000a1c] hover:bg-[#000c20] border border-[rgba(60,160,255,0.18)] transition-colors"
+ className="p-2 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] transition-colors"
  aria-label="Reset view"
  >
  <Maximize2 className="w-4 h-4"/>
@@ -152,7 +152,7 @@ export default function RelationshipGraph({
  </div>
 
  {/* Legend */}
- <div className="absolute bottom-4 left-4 z-10 p-3 bg-zinc-900/90 border border-[rgba(80,180,255,0.15)] text-xs">
+ <div className="absolute bottom-4 left-4 z-10 p-3 bg-zinc-900/90 border border-[rgba(255, 80, 80,0.15)] text-xs">
  <p className="font-bold mb-2 text-zinc-400">Entity Types</p>
  <div className="space-y-1">
  {Object.entries(typeColors).map(([type, color]) => (
@@ -193,7 +193,7 @@ export default function RelationshipGraph({
  y1={sourcePos.y}
  x2={targetPos.x}
  y2={targetPos.y}
- stroke={isHighlighted ? '#003d8f' : '#3f3f46'}
+ stroke={isHighlighted ? '#8f0000' : '#3f3f46'}
  strokeWidth={isHighlighted ? 2 : 1}
  strokeOpacity={hoveredNode && !isHighlighted ? 0.2 : 0.6}
  strokeDasharray={edge.strength && edge.strength < 3 ? '4,4' : undefined}
@@ -275,7 +275,7 @@ export default function RelationshipGraph({
  initial={{ opacity: 0, y: 10 }}
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: 10 }}
- className="absolute top-4 left-4 p-3 bg-[#000a1c] border border-[rgba(60,160,255,0.18)] shadow-lg z-20 max-w-xs"
+ className="absolute top-4 left-4 p-3 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] shadow-lg z-20 max-w-xs"
  >
  {(() => {
  const node = nodes.find(n => n.id === hoveredNode);

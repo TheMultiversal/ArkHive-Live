@@ -53,7 +53,7 @@ export default function WorkspaceContent() {
  return (
  <div className="min-h-screen pt-16 lg:pt-20 flex items-center justify-center">
  <div className="text-center">
- <div className="w-12 h-12 mx-auto mb-4 bg-[#000a1c] flex items-center justify-center">
+ <div className="w-12 h-12 mx-auto mb-4 bg-[#1c0a00] flex items-center justify-center">
  <FileText className="w-5 h-5 text-white/15"/>
  </div>
  <p className="text-sm text-white/30 mb-4">Workspace not found</p>
@@ -73,7 +73,7 @@ export default function WorkspaceContent() {
  case 'critical': return 'bg-blood-500';
  case 'high': return 'bg-blood-600/80';
  case 'medium': return 'bg-blood-900';
- default: return 'bg-[#000a1c]';
+ default: return 'bg-[#1c0a00]';
  }
  };
 
@@ -101,7 +101,7 @@ export default function WorkspaceContent() {
  <div className="flex items-center gap-3">
  <Link 
  href="/workspaces"
- className="p-1.5 rounded hover:bg-[#000a1c] text-white/25 hover:text-white/40 transition-colors"
+ className="p-1.5 rounded hover:bg-[#1c0a00] text-white/25 hover:text-white/40 transition-colors"
  >
  <ArrowLeft className="w-4 h-4"/>
  </Link>
@@ -224,7 +224,7 @@ export default function WorkspaceContent() {
  <label className="block text-[10px] text-white/30 uppercase tracking-wider mb-2">Tags</label>
  <div className="flex flex-wrap gap-1">
  {workspace.tags.map((tag, i) => (
- <span key={i} className="px-2 py-0.5 bg-[#000a1c] rounded text-[10px] text-white/30">{tag}</span>
+ <span key={i} className="px-2 py-0.5 bg-[#1c0a00] rounded text-[10px] text-white/30">{tag}</span>
  ))}
  </div>
  </div>
