@@ -37,12 +37,12 @@ export default function Header() {
  <header
  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
  scrolled
- ?"bg-gradient-to-b from-[#200c00] to-[#140600] border-b border-[rgba(255, 80, 80,0.20)] shadow-[0_4px_30px_rgba(140, 0, 0,0.12)] gloss"
- :"bg-gradient-to-b from-[#200c00] to-[#140600] border-b border-[rgba(255, 80, 80,0.08)]"
+ ?"bg-gradient-to-b from-[#200c00] to-[#140600] border-b border-[rgba(255,80,80,0.25)] shadow-[0_4px_30px_rgba(140,0,0,0.15)]"
+ :"bg-gradient-to-b from-[#200c00] to-[#140600] border-b border-[rgba(255,80,80,0.08)]"
  }`}
  >
  {/* Top accent line */}
- <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-blood-500/80 to-transparent"/>
+ <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-blood-600/50 to-transparent"/>
 
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="flex items-center justify-between h-16 lg:h-20">
@@ -108,7 +108,7 @@ export default function Header() {
  {/* Submit Intel */}
  <Link
  href="/submit"
- className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#502000] to-[#381800] hover:from-[#703000] hover:to-[#381800] text-white text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(255, 80, 80,0.28)] hover:border-[rgba(255, 120, 120,0.50)] shadow-[0_0_15px_rgba(220, 0, 0,0.15)] hover:shadow-[0_0_25px_rgba(220, 0, 0,0.3)] gloss-hover"
+ className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#502000] to-[#381800] hover:from-[#703000] hover:to-[#381800] text-blood-300 text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(255,80,80,0.28)] hover:border-[rgba(255,120,120,0.50)] shadow-[0_0_15px_rgba(220,0,0,0.15)] hover:shadow-[0_0_25px_rgba(220,0,0,0.3)] rounded-lg"
  >
  <Zap className="w-3.5 h-3.5"/>
  <span>Submit Intel</span>
@@ -117,7 +117,7 @@ export default function Header() {
  {/* Contribute */}
  <Link
  href="/contributor"
- className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-[rgba(255, 80, 80,0.15)] hover:border-blood-800/50 hover:bg-blood-950 transition-all duration-200"
+ className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-blood-300 border border-[rgba(255,80,80,0.15)] hover:border-blood-800/50 hover:bg-blood-950 transition-all duration-200 rounded-lg"
  >
  <UserPlus className="w-3.5 h-3.5"/>
  <span>Contribute</span>

@@ -10,7 +10,7 @@
   --blood-dark: #330000;
   --blood-darker: #1f0000;
   --blood-glow: rgba(184, 0, 0, 0.6);
-  --glass-shine: linear-gradient(135deg, rgba(255,255,255,0.22) 0%, rgba(255,255,255,0.06) 40%, rgba(255,255,255,0) 60%, rgba(255,255,255,0.12) 100%);
+  --glass-shine: linear-gradient(135deg, rgba(255,100,100,0.18) 0%, rgba(255,80,80,0.06) 40%, rgba(255,80,80,0) 60%, rgba(255,100,100,0.10) 100%);
   --glass-border: rgba(214, 42, 42, 0.35);
   --scan-speed: 4s;
 }
@@ -182,7 +182,7 @@ a:focus-visible {
     border-top-color: rgba(255, 160, 160, 0.55);
     border-radius: 16px;
     box-shadow: 
-      inset 0 1px 0 rgba(255, 255, 255, 0.35),
+      inset 0 1px 0 rgba(255, 120, 120, 0.25),
       inset 0 -1px 0 rgba(0, 0, 0, 0.6),
       0 1px 3px rgba(0, 0, 0, 0.7),
       0 0 20px rgba(140, 0, 0, 0.15);
@@ -197,7 +197,7 @@ a:focus-visible {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent 2%, rgba(255, 140, 140, 0.8) 20%, rgba(255, 255, 255, 0.6) 50%, rgba(255, 140, 140, 0.8) 80%, transparent 98%);
+    background: linear-gradient(90deg, transparent 2%, rgba(255, 100, 100, 0.6) 20%, rgba(255, 160, 160, 0.4) 50%, rgba(255, 100, 100, 0.6) 80%, transparent 98%);
     pointer-events: none;
     z-index: 2;
   }
@@ -214,12 +214,12 @@ a:focus-visible {
     position: relative;
     overflow: hidden;
     box-shadow: 
-      inset 0 1px 0 rgba(255, 255, 255, 0.30),
+      inset 0 1px 0 rgba(255, 120, 120, 0.20),
       0 4px 24px rgba(0, 0, 0, 0.7),
       0 0 1px rgba(255, 80, 80, 0.4);
   }
 
-  /* Bright top-edge specular highlight */
+  /* Top-edge specular highlight */
   .glass-card::before {
     content: '';
     position: absolute;
@@ -227,7 +227,7 @@ a:focus-visible {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent 2%, rgba(255, 140, 140, 0.7) 15%, rgba(255, 255, 255, 0.55) 50%, rgba(255, 140, 140, 0.7) 85%, transparent 98%);
+    background: linear-gradient(90deg, transparent 2%, rgba(255, 100, 100, 0.5) 15%, rgba(255, 160, 160, 0.35) 50%, rgba(255, 100, 100, 0.5) 85%, transparent 98%);
     pointer-events: none;
     z-index: 2;
   }
@@ -240,7 +240,7 @@ a:focus-visible {
       0 0 25px rgba(220, 0, 0, 0.25),
       0 0 60px rgba(184, 0, 0, 0.10),
       0 8px 40px rgba(0, 0, 0, 0.6),
-      inset 0 1px 0 rgba(255, 255, 255, 0.40);
+      inset 0 1px 0 rgba(255, 120, 120, 0.30);
     transform: translateY(-2px);
   }
 
@@ -252,68 +252,83 @@ a:focus-visible {
     box-shadow: 0 0 15px rgba(184, 0, 0, 0.4), 0 0 40px rgba(184, 0, 0, 0.15);
   }
 
-  /* Glass text - glistening multi-shade blue gradient with shimmer */
+  /* Glass text - red-white-blue American shimmer */
   .glass-text {
     background: linear-gradient(90deg, 
-      #5499e8 0%,
-      #80b5f0 20%,
-      #d8eafc 45%,
-      #80b5f0 70%,
-      #5499e8 100%);
+      #d64545 0%,
+      #e87070 10%,
+      #f0c0c0 20%,
+      #ffffff 30%,
+      #c0d8f0 40%,
+      #5499e8 50%,
+      #c0d8f0 60%,
+      #ffffff 70%,
+      #f0c0c0 80%,
+      #e87070 90%,
+      #d64545 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glassShimmer 4s ease-in-out infinite;
-    filter: drop-shadow(0 0 10px rgba(84, 153, 232, 0.5)) drop-shadow(0 0 3px rgba(0, 80, 184, 0.7));
+    filter: drop-shadow(0 0 8px rgba(214, 69, 69, 0.4)) drop-shadow(0 0 3px rgba(84, 153, 232, 0.3));
   }
 
-  /* Hero glass text - extra dramatic for titles like ARKHIVE */
+  /* Hero glass text - dramatic red-white-blue for titles */
   .glass-text-hero {
     background: linear-gradient(90deg,
-      #2a6ad6 0%,
-      #5499e8 12%,
-      #aed0f7 28%,
-      #d8eafc 50%,
-      #aed0f7 72%,
-      #5499e8 88%,
-      #2a6ad6 100%);
+      #b83030 0%,
+      #d64545 8%,
+      #f0a0a0 16%,
+      #ffffff 25%,
+      #aed0f7 35%,
+      #5499e8 50%,
+      #aed0f7 65%,
+      #ffffff 75%,
+      #f0a0a0 84%,
+      #d64545 92%,
+      #b83030 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glassShimmer 3s ease-in-out infinite;
-    filter: drop-shadow(0 0 20px rgba(42, 106, 214, 0.7)) drop-shadow(0 0 50px rgba(0, 80, 184, 0.35));
+    filter: drop-shadow(0 0 15px rgba(214, 69, 69, 0.5)) drop-shadow(0 0 30px rgba(84, 153, 232, 0.25));
   }
 
-  /* Subtle glass for secondary text */
+  /* Subtle glass for secondary text - soft red-white-blue */
   .glass-text-subtle {
     background: linear-gradient(90deg,
-      #aed0f7 0%,
-      #d8eafc 40%,
-      #aed0f7 100%);
+      #e8a0a0 0%,
+      #f0d0d0 20%,
+      #ffffff 40%,
+      #d0e0f5 60%,
+      #aed0f7 80%,
+      #d0e0f5 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glassShimmer 5s ease-in-out infinite;
-    filter: drop-shadow(0 0 6px rgba(84, 153, 232, 0.3));
+    filter: drop-shadow(0 0 4px rgba(180, 80, 80, 0.2));
   }
 
-  /* Muted glass for grey/description text - frosted blue-grey */
+  /* Muted glass for grey/description text - soft with hint of color */
   .glass-text-muted {
     background: linear-gradient(90deg,
       #64748b 0%,
-      #94a3b8 25%,
-      #d8eafc 50%,
-      #94a3b8 75%,
+      #94a3b8 20%,
+      #c8c8c8 40%,
+      #b8c8d8 50%,
+      #c8c8c8 60%,
+      #94a3b8 80%,
       #64748b 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glassShimmer 6s ease-in-out infinite;
-    filter: drop-shadow(0 0 4px rgba(84, 153, 232, 0.15));
+    filter: drop-shadow(0 0 3px rgba(100, 100, 140, 0.15));
   }
 
   /* Universal gloss overlay - add to ANY element for glass shine */
@@ -329,7 +344,7 @@ a:focus-visible {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent 2%, rgba(255, 140, 140, 0.7) 20%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 140, 140, 0.7) 80%, transparent 98%);
+    background: linear-gradient(90deg, transparent 2%, rgba(255, 100, 100, 0.5) 20%, rgba(255, 160, 160, 0.35) 50%, rgba(255, 100, 100, 0.5) 80%, transparent 98%);
     pointer-events: none;
     z-index: 2;
   }
@@ -349,9 +364,9 @@ a:focus-visible {
     height: 100%;
     background: linear-gradient(90deg, 
       transparent 0%,
-      rgba(255, 120, 120, 0.10) 30%,
-      rgba(255, 200, 200, 0.25) 50%,
-      rgba(255, 120, 120, 0.10) 70%,
+      rgba(255, 120, 120, 0.08) 30%,
+      rgba(255, 160, 160, 0.18) 50%,
+      rgba(255, 120, 120, 0.08) 70%,
       transparent 100%);
     pointer-events: none;
     z-index: 2;
@@ -387,7 +402,7 @@ a:focus-visible {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), 0 0 1px rgba(255, 80, 80, 0.35);
+    box-shadow: inset 0 1px 0 rgba(255, 120, 120, 0.15), 0 0 1px rgba(255, 80, 80, 0.35);
   }
 
   /* Glass panel - opaque polished dark surface */
@@ -404,7 +419,7 @@ a:focus-visible {
       0 4px 30px rgba(0, 0, 0, 0.7), 
       0 0 1px rgba(255, 80, 80, 0.35),
       0 0 12px rgba(140, 0, 0, 0.12),
-      inset 0 1px 0 rgba(255, 255, 255, 0.25);
+      inset 0 1px 0 rgba(255, 120, 120, 0.18);
     position: relative;
   }
 
@@ -415,7 +430,7 @@ a:focus-visible {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent 2%, rgba(255, 140, 140, 0.65) 20%, rgba(255, 255, 255, 0.45) 50%, rgba(255, 140, 140, 0.65) 80%, transparent 98%);
+    background: linear-gradient(90deg, transparent 2%, rgba(255, 100, 100, 0.5) 20%, rgba(255, 160, 160, 0.3) 50%, rgba(255, 100, 100, 0.5) 80%, transparent 98%);
     pointer-events: none;
     z-index: 2;
   }
@@ -433,7 +448,7 @@ a:focus-visible {
       0 4px 30px rgba(0, 0, 0, 0.5), 
       0 0 1px rgba(255, 80, 80, 0.35),
       0 0 12px rgba(140, 0, 0, 0.08),
-      inset 0 1px 0 rgba(255, 255, 255, 0.15);
+      inset 0 1px 0 rgba(255, 120, 120, 0.12);
     position: relative;
   }
 
@@ -444,7 +459,7 @@ a:focus-visible {
     left: 0;
     right: 0;
     height: 1px;
-    background: linear-gradient(90deg, transparent 2%, rgba(255, 140, 140, 0.65) 20%, rgba(255, 255, 255, 0.45) 50%, rgba(255, 140, 140, 0.65) 80%, transparent 98%);
+    background: linear-gradient(90deg, transparent 2%, rgba(255, 100, 100, 0.5) 20%, rgba(255, 160, 160, 0.3) 50%, rgba(255, 100, 100, 0.5) 80%, transparent 98%);
     pointer-events: none;
     z-index: 2;
   }
@@ -458,13 +473,13 @@ a:focus-visible {
     font-size: 0.875rem;
     transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
     position: relative;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.20), 0 0 1px rgba(255, 80, 80, 0.25);
+    box-shadow: inset 0 1px 0 rgba(255, 120, 120, 0.15), 0 0 1px rgba(255, 80, 80, 0.25);
   }
 
   .entity-tag:hover {
     border-color: rgba(255, 100, 100, 0.55);
     background: linear-gradient(160deg, #421a00, #280c00);
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.20), inset 0 1px 0 rgba(255, 255, 255, 0.30);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.20), inset 0 1px 0 rgba(255, 120, 120, 0.20);
   }
 
   .blood-splatter {

@@ -52,7 +52,7 @@ export default function EnterPage() {
    whileTap={{ scale: 0.97 }}
    onClick={() => router.push('/home')}
    className="px-10 py-3 border border-[rgba(255, 80, 80,0.30)] bg-gradient-to-br from-[#280f00] to-[#160600] text-blood-400 font-semibold tracking-widest uppercase text-sm hover:from-[rgba(0,20,52,0.82)] hover:to-[rgba(0,10,30,0.92)] hover:text-blood-300 hover:border-[rgba(255, 120, 120,0.50)] transition-all duration-300 gloss-hover"
-   style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.2)'}}
+   style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.15)'}}
   >
    Enter the Archive
   </motion.button>

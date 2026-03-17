@@ -55,7 +55,7 @@ export default function Footer() {
  <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-4 lg:mb-0">
  <Link href="/"className="flex items-center gap-3 mb-4 group">
  <div className="relative">
- <div className="relative w-10 h-10 bg-gradient-to-br from-[#502000] to-[#381800] flex items-center justify-center border border-[rgba(255, 80, 80,0.25)] gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.2)'}}>
+ <div className="relative w-10 h-10 bg-gradient-to-br from-[#502000] to-[#381800] flex items-center justify-center border border-[rgba(255, 80, 80,0.25)]" style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.15)'}}>
  <Eye className="w-5 h-5 text-white"/>
  </div>
  </div>
