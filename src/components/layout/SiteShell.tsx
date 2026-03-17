@@ -29,9 +29,15 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
       <Header />
 
       <main id="main-content" className="flex-1 relative z-10">
-        <div className={`${isHome ? 'glass-panel-transparent' : 'glass-panel'} mx-2 my-4 p-2 sm:mx-4 sm:my-6 sm:p-4 lg:mx-8 lg:p-6 overflow-hidden`}>
-          {children}
-        </div>
+        {isHome ? (
+          <div className="mx-2 my-4 sm:mx-4 sm:my-6 lg:mx-8">
+            {children}
+          </div>
+        ) : (
+          <div className="glass-panel mx-2 my-4 p-2 sm:mx-4 sm:my-6 sm:p-4 lg:mx-8 lg:p-6">
+            {children}
+          </div>
+        )}
       </main>
 
       <Footer />

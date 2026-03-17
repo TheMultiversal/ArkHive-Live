@@ -179,7 +179,8 @@ export default function Home() {
  const stats = useStats();
  return (
  <div className="min-h-screen pt-20 lg:pt-24">
- {/* Hero Section */}
+ {/* Hero Panel */}
+ <div className="glass-panel-transparent p-2 sm:p-4 lg:p-6">
  <section className="relative py-16 lg:py-24 overflow-hidden">
  {/* Crystal Clear Background */}
  <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -487,28 +488,31 @@ export default function Home() {
  </div>
  </div>
  </section>
+ </div>
 
- {/* Glitch Divider */}
  <GlitchDivider />
 
- {/* Stats Section */}
- <section className="py-12 lg:py-16 relative overflow-hidden">
+ {/* Stats Panel */}
+ <div className="glass-panel p-2 sm:p-4 lg:p-6 mt-3 sm:mt-4">
+ <section className="py-8 lg:py-12 relative overflow-hidden">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
  <StatsDisplay stats={stats} />
  </div>
  </section>
+ </div>
 
- {/* Glitch Divider */}
  <GlitchDivider showLabel label="CLASSIFIED"/>
 
- {/* Featured Investigations, compact grid */}
+ {/* Featured Investigations Panel */}
+ <div className="glass-panel p-2 sm:p-4 lg:p-6 mt-3 sm:mt-4">
  <FeaturedInvestigationsGrid />
+ </div>
 
- {/* Glitch Divider */}
  <GlitchDivider showLabel label="BIOHAZARD"/>
 
- {/* Entity Categories */}
- <section className="py-12 lg:py-16 bg-black">
+ {/* Entity Categories Panel */}
+ <div className="glass-panel p-2 sm:p-4 lg:p-6 mt-3 sm:mt-4">
+ <section className="py-8 lg:py-12">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="text-center mb-12">
  <TypewriterText
@@ -587,12 +591,13 @@ export default function Home() {
  </div>
  </div>
  </section>
+ </div>
 
- {/* Glitch Divider */}
  <GlitchDivider showLabel label="ALERT"/>
 
- {/* Call to Action */}
- <section className="py-16 lg:py-24">
+ {/* Call to Action Panel */}
+ <div className="glass-panel p-2 sm:p-4 lg:p-6 mt-3 sm:mt-4">
+ <section className="py-12 lg:py-16">
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="glass-card p-4 sm:p-8 lg:p-12 text-center relative overflow-hidden">
  {/* Sharp geometric accent instead of blur */}
@@ -630,6 +635,7 @@ export default function Home() {
  </div>
  </div>
  </section>
+ </div>
 
  {/* Flatline Loader Demo (hidden, but shows on page load) */}
  <div className="fixed bottom-4 right-4 z-50 opacity-0 pointer-events-none">
