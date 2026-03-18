@@ -214,7 +214,10 @@ export default function InvestigationContent() {
         </div>
       </div>
 
-      <AffiliationsSidebar affiliations={investigationData.affiliations as Affiliation[]} isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} title="Connected Entities" />
+      {/* Mobile drawer only - hidden on desktop */}
+      <div className="lg:hidden">
+        <AffiliationsSidebar affiliations={investigationData.affiliations as Affiliation[]} isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} title="Connected Entities" />
+      </div>
     </div>
   );
 }

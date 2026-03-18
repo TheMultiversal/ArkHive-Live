@@ -714,13 +714,15 @@ export default function TrumpCriminalCompendiumPage() {
  </div>
  </div>
 
- {/* Mobile Sidebar */}
+ {/* Mobile Sidebar Only */}
+ <div className="lg:hidden">
  <AffiliationsSidebar
  affiliations={investigationData.affiliations}
  isOpen={isSidebarOpen}
  onClose={() => setIsSidebarOpen(false)}
  title="Connected Entities"
  />
+ </div>
  </div>
  );
 }
