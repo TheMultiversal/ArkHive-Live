@@ -1,5 +1,5 @@
 import Link from"next/link";
-import { Calendar, ArrowRight, Skull, Users, AlertTriangle, FileText, Archive } from "lucide-react";
+import { Calendar, ArrowRight, Skull, Users, AlertTriangle, FileText, Archive, Clock } from "lucide-react";
 
 export interface Investigation {
  id: string;
@@ -8,7 +8,12 @@ export interface Investigation {
  summary: string;
  category: string;
  severity:"critical"|"high"|"medium"|"low";
+ /** @deprecated Use eventOriginDate/lastActivityDate */
  date: string;
+ /** When the event/crime actually occurred */
+ eventOriginDate?: string;
+ /** Most recent development */
+ lastActivityDate?: string;
  entityCount: number;
  imageUrl?: string;
  tags: string[];
@@ -101,8 +106,18 @@ export default function InvestigationCard({ investigation, featured = false }: I
  {/* Content block */}
  <div className="p-4 lg:p-5">
  <div className="flex items-center gap-2 text-zinc-600 text-[10px] uppercase tracking-widest mb-2.5 font-bold">
+ {investigation.lastActivityDate ? (
+ <>
+ <Clock className="w-3 h-3 text-yellow-600"/>
+ <span>{investigation.lastActivityDate}</span>
+ <span className="text-yellow-600">(Active)</span>
+ </>
+ ) : (
+ <>
  <Calendar className="w-3 h-3"/>
- <span>{investigation.date}</span>
+ <span>{investigation.eventOriginDate || investigation.date}</span>
+ </>
+ )}
  </div>
 
  <h3 className={`font-black glass-text mb-2 group-hover:text-blood-500 transition-colors leading-tight ${featured ?"text-xl lg:text-2xl":"text-sm"}`}>

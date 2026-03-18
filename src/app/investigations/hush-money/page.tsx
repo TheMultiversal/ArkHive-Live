@@ -19,12 +19,19 @@ import {
  Clock,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
+import DateDisplay from '@/components/ui/DateDisplay';
 
 const investigation = {
  title: 'Hush Money Election Fraud',
  subtitle: 'The Stormy Daniels Case: 34 Felony Convictions',
  severity: 'critical',
  status: 'CONVICTED - 34 Felonies',
+ 
+ // Three-tier date system
+ eventOriginDate: 'Oct 27, 2016', // Date of the actual hush money payment
+ lastActivityDate: 'Jan 2025',     // Most recent appeals/court activity
+ pageUpdatedDate: 'Mar 17, 2026',  // When this page was last edited
+ 
  summary: 'Donald Trump became the first former U.S. President convicted of felony crimes. A Manhattan jury found him guilty on all 34 counts of falsifying business records to conceal hush money payments made to adult film actress Stormy Daniels to suppress her story of an affair before the 2016 election. The payments were made through Michael Cohen and disguised as legal fees to influence the election.',
  
  statutesViolated: [
@@ -234,7 +241,16 @@ export default function HushMoneyPage() {
  <GlitchText text={investigation.title} />
  </h1>
  <p className="text-lg text-blood-500 font-bold mb-4">{investigation.subtitle}</p>
- <p className="text-zinc-400 leading-relaxed">{investigation.summary}</p>
+ <p className="text-zinc-400 leading-relaxed mb-6">{investigation.summary}</p>
+ 
+ {/* Three-tier Date Display */}
+ <DateDisplay
+ eventOriginDate={investigation.eventOriginDate}
+ lastActivityDate={investigation.lastActivityDate}
+ pageUpdatedDate={investigation.pageUpdatedDate}
+ variant="compact"
+ className="border-t border-zinc-800/50 pt-4"
+ />
  </motion.div>
 
  {/* Verdict */}

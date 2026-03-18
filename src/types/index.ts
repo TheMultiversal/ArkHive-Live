@@ -28,9 +28,31 @@ export interface Investigation {
  category: string;
  /** Severity level indicating urgency/impact */
  severity:"critical"|"high"|"medium"|"low";
- /** Publication date (ISO string) */
+ 
+ // ============================================================
+ // Three-Tier Date System
+ // ============================================================
+ /** 
+  * EVENT ORIGIN: When did the crime/misconduct actually occur?
+  * This is the date the underlying events began, not when they were discovered.
+  * Example: For Hush Money case, this would be Oct 2016 (payment date) or 2006 (affair date)
+  */
+ eventOriginDate?: string;
+ /**
+  * LAST ACTIVITY: Most recent development in this case
+  * Court dates, verdicts, settlements, new evidence, appeals decisions, etc.
+  * This should be updated whenever there's a material development.
+  */
+ lastActivityDate?: string;
+ /**
+  * PAGE UPDATED: When editors last touched this content
+  * Content freshness indicator - when the page text was last edited.
+  */
+ pageUpdatedDate?: string;
+ 
+ /** @deprecated Use eventOriginDate for event timing, pageUpdatedDate for content freshness */
  date: string;
- /** Last update date (ISO string) */
+ /** @deprecated Use pageUpdatedDate instead */
  lastUpdated: string;
  /** Number of entities involved */
  entityCount: number;
