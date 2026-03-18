@@ -31,10 +31,13 @@ export interface IndividualProfile {
  netWorth?: string;
  affiliations: { name: string; role: string; type: 'agency' | 'corporation' | 'organization' }[];
  controversies: string[];
- relatedInvestigations: { title: string; slug: string; severity: string }[];
+ relatedInvestigations: { title: string; slug: string; severity: string }[] | string[];
  timeline: { date: string; event: string }[];
  socialMedia?: { platform: string; handle: string }[];
- charges?: { statute: string; description: string; category: string }[];
+ charges?: (
+ | { statute: string; description: string; category: string }
+ | { charge: string; status?: string; date?: string }
+ )[];
  sources?: { title: string; url?: string; date?: string }[];
  aliases?: string[];
  knownAssociates?: { name: string; relationship: string; href?: string }[];
@@ -189,18 +192,26 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  >
  <h2 className="text-xl font-bold mb-4">Related Investigations</h2>
  <div className="space-y-3">
- {(individual.relatedInvestigations || []).map((investigation) => (
+ {(individual.relatedInvestigations || []).map((investigation, idx) => {
+ // Handle both string and object formats
+ const isString = typeof investigation === 'string';
+ const slug = isString ? investigation.toLowerCase().replace(/[^a-z0-9]+/g, '-') : investigation.slug;
+ const title = isString ? investigation : investigation.title;
+ const severity = isString ? 'medium' : investigation.severity;
+ 
+ return (
  <Link
- key={investigation.slug}
- href={`/investigations/${investigation.slug}`}
+ key={isString ? idx : investigation.slug}
+ href={`/investigations/${slug}`}
  className="flex items-center justify-between p-4 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-800 transition-all"
  >
- <span className="font-medium">{investigation.title}</span>
- <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[investigation.severity as keyof typeof severityColors]}`}>
- {investigation.severity}
+ <span className="font-medium">{title}</span>
+ <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[severity as keyof typeof severityColors]}`}>
+ {severity}
  </span>
  </Link>
- ))}
+ );
+ })}
  </div>
  </motion.section>
 
@@ -217,33 +228,30 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  Criminal Charges & Violations
  </h2>
  <p className="text-sm text-zinc-500 mb-4">
- {individual.charges.length} documented statutory violations across multiple categories
+ {individual.charges.length} documented violations
  </p>
- <div className="space-y-4">
- {/* Group charges by category */}
- {Object.entries(
- individual.charges.reduce((acc, charge) => {
- if (!acc[charge.category]) acc[charge.category] = [];
- acc[charge.category].push(charge);
- return acc;
- }, {} as Record<string, typeof individual.charges>)
- ).map(([category, charges]) => (
- <div key={category} className="border border-[rgba(255, 80, 80,0.15)] p-4">
- <h3 className="text-sm font-bold text-blood-500 uppercase tracking-wider mb-3">
- {category}
- </h3>
  <div className="space-y-2">
- {charges.map((charge, index) => (
- <div key={index} className="flex flex-col sm:flex-row sm:items-start gap-2 text-sm">
- <code className="text-xs bg-[#1c0a00] text-zinc-400 px-2 py-1 font-mono whitespace-nowrap">
- {charge.statute}
+ {individual.charges.map((charge, index) => {
+ // Handle both charge formats
+ const isLegacy = 'charge' in charge;
+ const displayText = isLegacy ? charge.charge : charge.description;
+ const displayCode = isLegacy ? (charge.status || 'Charged') : charge.statute;
+ const displayCategory = isLegacy ? (charge.date || '') : charge.category;
+ 
+ return (
+ <div key={index} className="flex flex-col sm:flex-row sm:items-start gap-2 p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-sm">
+ <code className="text-xs bg-zinc-900 text-zinc-400 px-2 py-1 font-mono whitespace-nowrap shrink-0">
+ {displayCode}
  </code>
- <span className="text-zinc-300">{charge.description}</span>
+ <div className="flex-1">
+ <span className="text-zinc-300">{displayText}</span>
+ {displayCategory && (
+ <span className="text-zinc-600 ml-2 text-xs">({displayCategory})</span>
+ )}
  </div>
- ))}
  </div>
- </div>
- ))}
+ );
+ })}
  </div>
  </motion.section>
  )}

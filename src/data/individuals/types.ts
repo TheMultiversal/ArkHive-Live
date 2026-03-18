@@ -129,10 +129,14 @@ export interface IndividualProfile {
   netWorth?: string;
   affiliations: { name: string; role: string; type: 'agency' | 'corporation' | 'organization' }[];
   controversies: string[];
-  relatedInvestigations: { title: string; slug: string; severity: string }[];
+  relatedInvestigations: { title: string; slug: string; severity: string }[] | string[];
   timeline: { date: string; event: string }[];
   socialMedia?: { platform: string; handle: string }[];
-  charges?: { statute: string; description: string; category: string }[];
+  /** Flexible charge format - supports both legacy and new schema */
+  charges?: (
+    | { statute: string; description: string; category: string }
+    | { charge: string; status?: string; date?: string }
+  )[];
   sources?: { title: string; url?: string; date?: string }[];
   aliases?: string[];
   knownAssociates?: { name: string; relationship: string; href?: string }[];
