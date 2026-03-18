@@ -66,10 +66,9 @@ interface IndividualProfileViewProps {
 
 export default function IndividualProfileView({ individual }: IndividualProfileViewProps) {
  return (
- <div className="min-h-screen bg-black text-white">
+ <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(255, 80, 80,0.15)]">
- <div className="max-w-6xl mx-auto px-6 py-8">
+ <div className="border-b border-[rgba(255,80,80,0.15)] pb-6 mb-6">
  <Link 
  href="/entities/individuals"
  className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-6"
@@ -87,6 +86,11 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[individual.riskLevel]}`}>
  {individual.riskLevel} risk
  </span>
+ {individual.netWorth && (
+ <span className="px-3 py-1 text-xs font-mono bg-zinc-900/50 border border-zinc-700 text-zinc-400">
+ {individual.netWorth}
+ </span>
+ )}
  </div>
  <h1 className="text-4xl font-bold mb-2">
  <GlitchText>{individual.name}</GlitchText>
@@ -94,18 +98,10 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <p className="text-xl text-zinc-400">{individual.title}</p>
  <p className="text-zinc-500">{individual.role}</p>
  </div>
-
- {individual.netWorth && (
- <div className="text-right">
- <p className="text-xs text-zinc-500 uppercase">Net Worth</p>
- <p className="text-2xl font-bold text-blood-500">{individual.netWorth}</p>
- </div>
- )}
- </div>
  </div>
  </div>
 
- <div className="max-w-6xl mx-auto px-6 py-8">
+ <div className="max-w-6xl mx-auto py-4">
  <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
  {/* Main Content */}
  <div className="lg:col-span-2 space-y-8">
