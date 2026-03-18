@@ -283,9 +283,9 @@ export default function Home() {
  <span className="glass-text font-bold">And that&apos;s just one person.</span>
  </p>
  <p className="text-base sm:text-lg glass-text-muted mt-4 leading-relaxed">
- Every day, institutions designed to protect you{""}
- <span className="text-blood-600 font-bold">betray that trust</span>{""}
- while burying the evidence. We dig it up.{""}
+ Every day, institutions designed to protect you{" "}
+ <span className="text-blood-600 font-bold">betray that trust</span>{" "}
+ while burying the evidence. We dig it up.{" "}
  <span className="glass-text font-bold italic">We document everything.</span>
  </p>
  <div className="mt-4 pt-4 border-t border-[rgba(255, 80, 80,0.15)]">
@@ -380,6 +380,14 @@ export default function Home() {
  { name:"Perjury", href:"/categories/perjury"},
  { name:"Sexual Assault", href:"/categories/sexual-assault"},
  { name:"Racketeering", href:"/categories/racketeering"},
+ { name:"Witness Tampering", href:"/categories/obstruction-of-justice"},
+ { name:"Conspiracy to Defraud the US", href:"/categories/conspiracy"},
+ { name:"Insurance Fraud", href:"/categories/financial-fraud"},
+ { name:"Defamation", href:"/categories/defamation"},
+ { name:"Emoluments Violations", href:"/categories/emoluments"},
+ { name:"False Statements", href:"/categories/perjury"},
+ { name:"Espionage Act Violations", href:"/categories/espionage"},
+ { name:"Mishandling Classified Documents", href:"/categories/classified-documents"},
  ].map((crime, i) => (
  <Link key={i} href={crime.href} className="px-2 py-1 bg-blood-950 border border-blood-700 text-blood-500 hover:bg-blood-900 hover:border-blood-500 transition-colors">
  {crime.name}
@@ -407,6 +415,13 @@ export default function Home() {
  { name:"NSA Mass Surveillance", href:"/investigations/nsa-mass-surveillance"},
  { name:"Operation Paperclip", href:"/investigations/operation-paperclip"},
  { name:"Phoenix Program", href:"/investigations/phoenix-program"},
+ { name:"Operation CHAOS", href:"/investigations/operation-chaos"},
+ { name:"Project SHAMROCK", href:"/investigations/project-shamrock"},
+ { name:"Operation Condor", href:"/investigations/operation-condor"},
+ { name:"Operation Gladio", href:"/investigations/operation-gladio"},
+ { name:"PRISM", href:"/investigations/prism"},
+ { name:"Project Artichoke", href:"/investigations/project-artichoke"},
+ { name:"Operation Midnight Climax", href:"/investigations/midnight-climax"},
  ].map((program, i) => (
  <Link key={i} href={program.href} className="px-2 py-1 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-zinc-400 hover:bg-[#200c00] hover:border-zinc-500 transition-colors">
  {program.name}
@@ -415,11 +430,11 @@ export default function Home() {
  </div>
  </div>
 
- {/* Tier 3: Under Investigation, Patterns */}
+ {/* Tier 3: Active Investigations & Documented Patterns */}
  <div className="mb-4">
  <div className="flex items-center gap-2 mb-2">
  <span className="w-3 h-3 bg-zinc-500/70"/>
- <p className="text-sm text-zinc-500/90 font-bold uppercase tracking-wider">Under Investigation, Documented Patterns</p>
+ <p className="text-sm text-zinc-500/90 font-bold uppercase tracking-wider">Active Investigations & Documented Patterns</p>
  </div>
  <div className="flex flex-wrap gap-2 text-xs">
  {[
@@ -431,10 +446,12 @@ export default function Home() {
  { name:"Prison Industrial Complex", href:"/investigations/private-prison-industry"},
  { name:"Medical Experimentation", href:"/investigations/tuskegee-experiment"},
  { name:"Fluoride Research Suppression", href:"/investigations"},
- { name:"Vaccine Injury Concealment", href:"/investigations"},
- { name:"Weather Modification Programs", href:"/investigations"},
- { name:"5G Health Research", href:"/investigations"},
- { name:"Chemtrail Aerosol Programs", href:"/investigations"},
+ { name:"Vaccine Injury Documentation", href:"/investigations"},
+ { name:"Atmospheric Modification & Geoengineering", href:"/investigations"},
+ { name:"Electromagnetic Radiation Health Research", href:"/investigations"},
+ { name:"Opioid Crisis Accountability", href:"/investigations"},
+ { name:"Corporate Environmental Crimes", href:"/investigations"},
+ { name:"Police Misconduct Patterns", href:"/investigations"},
  ].map((pattern, i) => (
  <Link key={i} href={pattern.href} className="px-2 py-1 bg-blood-950 border border-zinc-700 text-zinc-500/80 hover:bg-zinc-800 hover:border-zinc-500 transition-colors">
  {pattern.name}
@@ -443,20 +460,22 @@ export default function Home() {
  </div>
  </div>
 
- {/* Tier 4: Suppressed, Requires Further Investigation */}
+ {/* Tier 4: Patterns Requiring Investigation */}
  <div>
  <div className="flex items-center gap-2 mb-2">
  <span className="w-3 h-3 bg-blood-900"/>
- <p className="text-sm text-blood-500/80 font-bold uppercase tracking-wider">Suppressed Research, Requires Investigation</p>
+ <p className="text-sm text-blood-500/80 font-bold uppercase tracking-wider">Patterns Requiring Investigation</p>
  </div>
  <div className="flex flex-wrap gap-2 text-xs">
  {[
- { name:"Depopulation Agendas", href:"/investigations"},
- { name:"Mind Control Programs", href:"/investigations/mkultra"},
- { name:"Mass Surveillance Networks", href:"/investigations/nsa-mass-surveillance"},
- { name:"Economic Enslavement Systems", href:"/investigations"},
- { name:"Controlled Opposition", href:"/investigations"},
- { name:"Predictive Programming", href:"/investigations"},
+ { name:"Population Control Programs", href:"/investigations"},
+ { name:"Modern Mind Influence Programs", href:"/investigations/mkultra"},
+ { name:"Mass Surveillance Expansion", href:"/investigations/nsa-mass-surveillance"},
+ { name:"Economic Control Systems", href:"/investigations"},
+ { name:"Controlled Opposition Networks", href:"/investigations"},
+ { name:"Predictive Programming in Media", href:"/investigations"},
+ { name:"Central Bank Digital Currency Risks", href:"/investigations"},
+ { name:"Social Credit System Development", href:"/investigations"},
  ].map((topic, i) => (
  <Link key={i} href={topic.href} className="px-2 py-1 bg-blood-950 border border-blood-800 text-blood-500/70 hover:bg-blood-900 hover:border-blood-600 transition-colors">
  {topic.name}
