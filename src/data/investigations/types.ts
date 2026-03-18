@@ -14,6 +14,12 @@ export interface InvestigationSource {
   type: string;
 }
 
+export interface TimelineEvent {
+  date: string;
+  event: string;
+  type?: 'critical' | 'legal' | 'political' | 'financial' | 'default';
+}
+
 export interface InvestigationData {
   title: string;
   subtitle: string;
@@ -21,9 +27,15 @@ export interface InvestigationData {
   category: string;
   date: string;
   lastUpdated: string;
+  // Three-tier date system (optional for backward compatibility)
+  eventOriginDate?: string;
+  lastActivityDate?: string;
+  pageUpdatedDate?: string;
   summary: string;
   content: string[];
   tags: string[];
   sources: InvestigationSource[];
   affiliations: InvestigationAffiliation[];
+  // Timeline events for sidebar display
+  timeline?: TimelineEvent[];
 }

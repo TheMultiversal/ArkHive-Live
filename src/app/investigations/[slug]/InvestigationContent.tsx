@@ -16,6 +16,8 @@ import {
   Tag,
 } from "lucide-react";
 import AffiliationsSidebar, { Affiliation } from"@/components/layout/AffiliationsSidebar";
+import TimelineSidebar from"@/components/layout/TimelineSidebar";
+import DateDisplay from"@/components/ui/DateDisplay";
 import investigationDatabase from"@/data/investigations";
 import type { InvestigationData } from"@/data/investigations/types";
 import { useContributorStore } from "@/store/contributorStore";
@@ -66,11 +68,13 @@ export default function InvestigationContent() {
   const params = useParams();
   const slug = params.slug as string;
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [isTimelineOpen, setIsTimelineOpen] = useState(false);
   const { addBookmark, removeBookmark, isBookmarked, currentUser } = useContributorStore();
 
   const investigationData = investigationDatabase[slug] || defaultInvestigationData;
   const pageHref = `/investigations/${slug}`;
   const saved = isBookmarked(pageHref);
+  const hasTimeline = investigationData.timeline && investigationData.timeline.length > 0;
 
   if (!investigationDatabase[slug] && slug !== "template") {
     notFound();
@@ -106,16 +110,16 @@ export default function InvestigationContent() {
 
               <p className="text-base sm:text-xl text-zinc-400 mb-6 break-words">{investigationData.subtitle}</p>
 
-              <div className="flex flex-wrap items-center gap-4 text-sm text-zinc-500 mb-6">
-                <div className="flex items-center gap-2">
-                  <Calendar className="w-4 h-4" />
-                  <span>{investigationData.date}</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Clock className="w-4 h-4" />
-                  <span>Updated: {investigationData.lastUpdated}</span>
-                </div>
-              </div>
+              {/* Three-tier date display */}
+              <DateDisplay
+                eventOriginDate={investigationData.eventOriginDate}
+                lastActivityDate={investigationData.lastActivityDate}
+                pageUpdatedDate={investigationData.pageUpdatedDate}
+                legacyDate={investigationData.date}
+                legacyLastUpdated={investigationData.lastUpdated}
+                variant="compact"
+                className="mb-6"
+              />
 
               <div className="flex flex-wrap items-center gap-3">
                 <button className="flex items-center gap-2 px-4 py-2 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] text-white text-sm transition-colors">
@@ -151,8 +155,14 @@ export default function InvestigationContent() {
                 </button>
                 <button onClick={() => setIsSidebarOpen(true)} className="lg:hidden flex items-center gap-2 px-4 py-2 bg-blood-700 hover:bg-blood-600 text-white text-sm transition-colors">
                   <ExternalLink className="w-4 h-4" />
-                  View Connections
+                  Connections
                 </button>
+                {hasTimeline && (
+                  <button onClick={() => setIsTimelineOpen(true)} className="lg:hidden flex items-center gap-2 px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-sm transition-colors">
+                    <Clock className="w-4 h-4" />
+                    Timeline
+                  </button>
+                )}
               </div>
             </header>
 
@@ -207,16 +217,32 @@ export default function InvestigationContent() {
           </article>
 
           <aside className="hidden lg:block w-80 xl:w-96 flex-shrink-0">
-            <div className="sticky top-24">
+            <div className="sticky top-24 space-y-6">
               <AffiliationsSidebar affiliations={investigationData.affiliations as Affiliation[]} isOpen={true} onClose={() => {}} title="Connected Entities" />
+              {hasTimeline && (
+                <TimelineSidebar 
+                  events={investigationData.timeline || []} 
+                  isOpen={true} 
+                  onClose={() => {}} 
+                  title="Key Timeline" 
+                />
+              )}
             </div>
           </aside>
         </div>
       </div>
 
-      {/* Mobile drawer only - hidden on desktop */}
+      {/* Mobile drawers - hidden on desktop */}
       <div className="lg:hidden">
         <AffiliationsSidebar affiliations={investigationData.affiliations as Affiliation[]} isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} title="Connected Entities" />
+        {hasTimeline && (
+          <TimelineSidebar 
+            events={investigationData.timeline || []} 
+            isOpen={isTimelineOpen} 
+            onClose={() => setIsTimelineOpen(false)} 
+            title="Key Timeline" 
+          />
+        )}
       </div>
     </div>
   );
