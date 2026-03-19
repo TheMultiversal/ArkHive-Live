@@ -232,7 +232,19 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  </p>
  <div className="space-y-2">
  {individual.charges.map((charge, index) => {
- // Handle both charge formats
+ // Handle string, legacy object, and new object formats
+ if (typeof charge === 'string') {
+ return (
+ <div key={index} className="flex flex-col sm:flex-row sm:items-start gap-2 p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-sm">
+ <code className="text-xs bg-zinc-900 text-zinc-400 px-2 py-1 font-mono whitespace-nowrap shrink-0">
+ Charged
+ </code>
+ <div className="flex-1">
+ <span className="text-zinc-300">{charge}</span>
+ </div>
+ </div>
+ );
+ }
  const isLegacy = 'charge' in charge;
  const displayText = isLegacy ? charge.charge : charge.description;
  const displayCode = isLegacy ? (charge.status || 'Charged') : charge.statute;

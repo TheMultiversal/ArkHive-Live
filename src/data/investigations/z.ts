@@ -25,9 +25,9 @@ const investigations_z: Record<string, InvestigationData> = {
       { id: 'cia', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Installed and supported Mobutu as Cold War proxy', href: '/entities/agencies/cia' },
       { id: 'world-bank', name: 'World Bank', type: 'organization', relationship: 'Continued lending despite known embezzlement', href: '/entities/organizations/world-bank' },
     ],
-   eventOriginDate: '1965-11-25',
-   lastActivityDate: '2025-12-15',
-   pageUpdatedDate: '2025-03-18',
+   eventOriginDate: '1997-01-01',
+   lastActivityDate: '2020-06-30',
+   pageUpdatedDate: '2025-06-18',
   },
   'zero-dark-thirty-torture-debate': {
     title: 'Zero Dark Thirty and the Torture Debate',
@@ -51,9 +51,9 @@ const investigations_z: Record<string, InvestigationData> = {
     affiliations: [
       { id: 'cia', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Provided access and shaped narrative', href: '/entities/agencies/cia' },
     ],
-   eventOriginDate: '2012-12-19',
-   lastActivityDate: '2025-08-20',
-   pageUpdatedDate: '2025-03-18',
+   eventOriginDate: '2012-01-01',
+   lastActivityDate: '2014-01-01',
+   pageUpdatedDate: '2025-06-18',
   },
   'zuckerberg-meta-surveillance': {
     title: 'Zuckerberg and Meta\'s Surveillance Empire',
@@ -80,9 +80,9 @@ const investigations_z: Record<string, InvestigationData> = {
       { id: 'mark-zuckerberg', name: 'Mark Zuckerberg', type: 'individual', relationship: 'Founder, CEO, and controlling shareholder', href: '/entities/individuals/mark-zuckerberg' },
       { id: 'cambridge-analytica', name: 'Cambridge Analytica', type: 'corporation', relationship: 'Harvested 87 million user profiles', href: '/entities/corporations/cambridge-analytica' },
     ],
-   eventOriginDate: '2004-02-04',
-   lastActivityDate: '2026-02-01',
-   pageUpdatedDate: '2025-03-18',
+   eventOriginDate: '2016-01-01',
+   lastActivityDate: '2021-01-01',
+   pageUpdatedDate: '2025-06-18',
   },
 };
 

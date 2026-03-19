@@ -14,7 +14,7 @@ import {
 } from 'lucide-react';
 
 // Import investigation database
-import { investigationDatabase } from '@/data/investigations';
+import investigationDatabase from '@/data/investigations';
 import type { InvestigationData } from '@/data/investigations/types';
 
 export type ExportFormat = 'json' | 'csv' | 'markdown';

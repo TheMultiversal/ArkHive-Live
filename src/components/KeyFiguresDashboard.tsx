@@ -20,7 +20,7 @@ import {
 } from 'lucide-react';
 
 // Import investigation database
-import { investigationDatabase } from '@/data/investigations';
+import investigationDatabase from '@/data/investigations';
 import type { InvestigationData, Defendant } from '@/data/investigations/types';
 
 // Interface for aggregated key figure data
@@ -150,7 +150,7 @@ function extractKeyFigures(): KeyFigure[] {
     ];
 
     for (const name of prominentNames) {
-      const searchText = investigation.content?.toLowerCase() || '';
+      const searchText = (Array.isArray(investigation.content) ? investigation.content.join(' ') : (investigation.content || '')).toLowerCase();
       if (searchText.includes(name.toLowerCase())) {
         const normalized = normalizeName(name);
         

@@ -81,7 +81,7 @@ export default function DateDisplay({
   }
 
   if (variant === 'compact') {
-    // Two-line compact display
+    // Three-line compact display
     return (
       <div className={`space-y-1 ${className}`}>
         {hasEventDate && (
@@ -96,6 +96,13 @@ export default function DateDisplay({
             <Clock className="w-3 h-3 text-yellow-600" />
             <span className="text-zinc-600 font-medium">Latest:</span>
             <span>{formatDate(effectiveActivityDate)}</span>
+          </div>
+        )}
+        {hasPageDate && (
+          <div className="flex items-center gap-2 text-zinc-500 text-xs">
+            <FileEdit className="w-3 h-3 text-zinc-600" />
+            <span className="text-zinc-600 font-medium">Updated:</span>
+            <span>{formatDate(effectivePageDate)}</span>
           </div>
         )}
       </div>

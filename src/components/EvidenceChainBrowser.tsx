@@ -59,7 +59,7 @@ const confidenceConfig = {
  * Determine evidence type from source info
  */
 function determineEvidenceType(source: InvestigationSource): EvidenceItem['evidenceType'] {
-  const typeStr = source.type.toLowerCase();
+  const typeStr = (source.type || 'document').toLowerCase();
   if (typeStr.includes('video')) return 'video';
   if (typeStr.includes('audio')) return 'audio';
   if (typeStr.includes('photo') || typeStr.includes('image')) return 'photo';
@@ -90,11 +90,12 @@ function buildEvidenceChains(): EvidenceChain[] {
           // Link to sources that might support this claim
           const relevantSources = inv.sources.filter(src => {
             // Check if source type seems relevant
-            return src.type.toLowerCase().includes('document') || 
-                   src.type.toLowerCase().includes('report') ||
-                   src.type.toLowerCase().includes('evidence') ||
-                   src.type.toLowerCase().includes('court') ||
-                   src.type.toLowerCase().includes('video');
+            const srcType = (src.type || '').toLowerCase();
+            return srcType.includes('document') || 
+                   srcType.includes('report') ||
+                   srcType.includes('evidence') ||
+                   srcType.includes('court') ||
+                   srcType.includes('video');
           }).slice(0, 3);
           
           if (relevantSources.length > 0 && sentence.length > 50) {

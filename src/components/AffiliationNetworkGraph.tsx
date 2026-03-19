@@ -110,7 +110,7 @@ interface NetworkNodeCardProps {
 }
 
 function NetworkNodeCard({ node, edges, allNodes, isExpanded, onToggle }: NetworkNodeCardProps) {
-  const config = typeConfig[node.type];
+  const config = typeConfig[node.type as keyof typeof typeConfig] || typeConfig.individual;
   const Icon = config.icon;
   
   // Get connected nodes
@@ -172,7 +172,7 @@ function NetworkNodeCard({ node, edges, allNodes, isExpanded, onToggle }: Networ
               const connectedNode = allNodes.get(connectedId);
               if (!connectedNode) return null;
               
-              const connConfig = typeConfig[connectedNode.type];
+              const connConfig = typeConfig[connectedNode.type as keyof typeof typeConfig] || typeConfig.individual;
               const ConnIcon = connConfig.icon;
               
               return (
@@ -301,7 +301,7 @@ export default function AffiliationNetworkGraph({
     return (
       <div className="space-y-2">
         {filteredNodes.slice(0, 8).map(node => {
-          const config = typeConfig[node.type];
+          const config = typeConfig[node.type as keyof typeof typeConfig] || typeConfig.individual;
           const Icon = config.icon;
           return (
             <div 

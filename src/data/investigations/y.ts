@@ -26,9 +26,9 @@ const investigations_y: Record<string, InvestigationData> = {
  { id: '2', name: 'Raytheon Company (now RTX Corporation)', type: 'corporation', relationship: 'Supplied bombs used on civilians', href: '/entities/corporations/raytheon' },
  { id: '3', name: 'Pentagon', type: 'agency', relationship: 'US military support for Saudi campaign', href: '/entities/agencies/pentagon' },
  ],
-   eventOriginDate: '2023-06-06',
-   lastActivityDate: '2025-01-09',
-   pageUpdatedDate: '2025-03-18',
+   eventOriginDate: '2015-01-01',
+   lastActivityDate: '2021-01-01',
+   pageUpdatedDate: '2025-06-18',
  },
   'youtube-extremism': {
  title: 'YouTube\'s Radicalization Pipeline: How the Algorithm Breeds Extremism',
@@ -52,9 +52,9 @@ const investigations_y: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Google', type: 'corporation', relationship: 'YouTube parent company, recommendation algorithm', href: '/entities/corporations/google' },
  ],
-   eventOriginDate: '2020-06-09',
-   lastActivityDate: '2025-08-11',
-   pageUpdatedDate: '2025-03-18',
+   eventOriginDate: '2019-01-01',
+   lastActivityDate: '2020-01-01',
+   pageUpdatedDate: '2025-06-18',
  },
  'youth-incarceration-abuse': {
   title: 'Youth Incarceration and Juvenile Detention Abuse',
@@ -81,9 +81,9 @@ const investigations_y: Record<string, InvestigationData> = {
    { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division investigates juvenile facilities and imposes consent decrees; enforcement varies by administration; PREA data collection chronically delayed', href: '/entities/agencies/doj' },
    { id: '2', name: 'HHS', type: 'agency', relationship: 'Office of Juvenile Justice and Delinquency Prevention (OJJDP) distributes $300M in grants; funding not conditioned on eliminating solitary or reducing racial disparities', href: '/entities/agencies/hhs' },
   ],
-  eventOriginDate: '2024-08-01',
-  lastActivityDate: '2025-02-15',
-  pageUpdatedDate: '2025-03-18',
+  eventOriginDate: '2024-01-01',
+  lastActivityDate: '2024-01-01',
+  pageUpdatedDate: '2025-06-18',
  },
  'predatory-towing-industry': {
   title: 'Predatory Towing Industry',
@@ -110,9 +110,9 @@ const investigations_y: Record<string, InvestigationData> = {
    { id: '1', name: 'FTC', type: 'agency', relationship: 'Has authority over unfair and deceptive practices but has not prioritized towing industry; enforcement deferred to state attorneys general and local consumer protection offices', href: '/entities/agencies/ftc' },
    { id: '2', name: 'DOT', type: 'agency', relationship: 'Regulates interstate motor carriers but non-consensual towing is primarily a local and state matter; no federal towing consumer protection standards exist', href: '/entities/agencies/dot' },
   ],
-  eventOriginDate: '2024-04-02',
-  lastActivityDate: '2025-01-16',
-  pageUpdatedDate: '2025-03-18',
+  eventOriginDate: '2023-01-01',
+  lastActivityDate: '2023-01-01',
+  pageUpdatedDate: '2025-06-18',
  },
 };
 

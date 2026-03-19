@@ -24,9 +24,9 @@ const investigations_1: Record<string, InvestigationData> = {
  { id: '2', name: 'Ivan Boesky', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/ivan-boesky' },
  { id: '3', name: 'Michael Milken', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/michael-milken' },
  ],
-   eventOriginDate: '2012-02-03',
-   lastActivityDate: '2014-06-15',
-   pageUpdatedDate: '2025-03-18',
+   eventOriginDate: '2012-01-01',
+   lastActivityDate: '2012-01-01',
+   pageUpdatedDate: '2025-06-18',
  },
   '1mdb-scandal': {
  title: '1MDB Sovereign Wealth Fund Scandal',
@@ -49,9 +49,9 @@ const investigations_1: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
  { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/goldman-sachs' },
  ],
-   eventOriginDate: '2022-12-19',
-   lastActivityDate: '2023-08-04',
-   pageUpdatedDate: '2025-03-18',
+   eventOriginDate: '2022-01-01',
+   lastActivityDate: '2022-01-01',
+   pageUpdatedDate: '2025-06-18',
  },
  'financial-crisis-accountability-failure': {
   title: '2008 Financial Crisis: The Greatest Accountability Failure in American History',
@@ -78,9 +78,9 @@ const investigations_1: Record<string, InvestigationData> = {
    { id: '1', name: 'DOJ', type: 'agency', relationship: 'AG Holder declared banks too big to jail; zero senior executives prosecuted; settled with deferred prosecution agreements and corporate fines; Holder returned to bank defense firm after DOJ', href: '/entities/agencies/doj' },
    { id: '2', name: 'SEC', type: 'agency', relationship: 'Failed to detect Madoff despite warnings; settled Goldman Sachs Abacus fraud for $550M with no admission; destroyed records of 9,000+ preliminary investigations', href: '/entities/agencies/sec' },
   ],
-  eventOriginDate: '2024-09-15',
-  lastActivityDate: '2025-02-20',
-  pageUpdatedDate: '2025-03-18',
+  eventOriginDate: '2008-01-01',
+  lastActivityDate: '2012-01-01',
+  pageUpdatedDate: '2025-06-18',
  },
 };
 
