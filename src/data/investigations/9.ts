@@ -41,8 +41,13 @@ const investigations_9: Record<string, InvestigationData> = {
  { id: '7', name: 'NSA', type: 'agency', relationship: 'Intercepted al-Qaeda communications', href: '/entities/agencies/nsa' },
  ],
    eventOriginDate: '2001-01-01',
-   lastActivityDate: '2004-01-01',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2022-10-04',
+   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2001', event: 'COVERT ACTION MEMORANDUM: In January 2001, Richard Clarke sent a memo to Condoleezza Rice requesting an urgent cabinet meeting on al-Qaeda', type: 'default' },
+     { date: '2001-08-01', event: 'MOUSSAOUI INVESTIGATION: The FBI arrested Zacarias Moussaoui in August 2001 for suspicious flight training', type: 'default' },
+     { date: '2004', event: 'INTEL REFORMS: The Intelligence Reform Act of 2004 created the Director of National Intelligence to coordinate agencies', type: 'default' },
+   ],
  },
   '9-11-failures': {
  title: '9/11 Intelligence Failures',
@@ -69,8 +74,8 @@ const investigations_9: Record<string, InvestigationData> = {
  { id: '3', name: 'FBI', type: 'agency', relationship: 'Ignored warnings', href: '/entities/agencies/fbi' },
  ],
    eventOriginDate: '2001-01-01',
-   lastActivityDate: '2001-08-06',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2010-09-03',
+   pageUpdatedDate: '2026-03-18',
  },
  'border-militarization-immigration-enforcement': {
   title: 'Border Militarization and Immigration Enforcement Complex',
@@ -98,8 +103,14 @@ const investigations_9: Record<string, InvestigationData> = {
    { id: '2', name: 'ICE', type: 'agency', relationship: 'Manages immigration detention with 34,000 bed mandate; 200+ deaths in custody since 2004; relied on private prison contractors for 80% of detention', href: '/entities/agencies/ice' },
   ],
   eventOriginDate: '1994-01-01',
-  lastActivityDate: '2024-01-01',
-  pageUpdatedDate: '2025-06-18',
+  lastActivityDate: '2025-03-01',
+  pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1994', event: 'By making easy crossing points inaccessible, enforcement strategy deliberately funneled migrants into the most dangerous terrain — a policy called "Prevention Through Deterrence" adopted in 1994', type: 'default' },
+     { date: '2000', event: 'The Border Patrol budget increased from $1.1 billion in 2000 to $6.3 billion in 2024', type: 'political' },
+     { date: '2004', event: 'Over 200 people have died in ICE custody since 2004', type: 'critical' },
+     { date: '2024', event: 'Customs and Border Protection became the largest law enforcement agency in the country with a $19 billion annual budget (2024)', type: 'political' },
+   ],
  },
 };
 

@@ -1,6 +1,16 @@
 import Link from"next/link";
 import { Calendar, ArrowRight, Skull, Users, AlertTriangle, FileText, Archive, Clock } from "lucide-react";
 
+function fmtDate(d: string | undefined): string {
+  if (!d) return "Unknown";
+  if (/[a-zA-Z]/.test(d)) return d;
+  try {
+    const dt = new Date(d);
+    if (isNaN(dt.getTime())) return d;
+    return dt.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+  } catch { return d; }
+}
+
 export interface Investigation {
  id: string;
  slug: string;
@@ -110,13 +120,13 @@ export default function InvestigationCard({ investigation, featured = false }: I
  {investigation.lastActivityDate ? (
  <>
  <Clock className="w-3 h-3 text-yellow-600"/>
- <span>{investigation.lastActivityDate}</span>
+ <span>{fmtDate(investigation.lastActivityDate)}</span>
  <span className="text-yellow-600">(Active)</span>
  </>
  ) : (
  <>
  <Calendar className="w-3 h-3"/>
- <span>{investigation.eventOriginDate || investigation.date}</span>
+ <span>{fmtDate(investigation.eventOriginDate || investigation.date)}</span>
  </>
  )}
  </div>

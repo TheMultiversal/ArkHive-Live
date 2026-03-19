@@ -30,7 +30,12 @@ const investigations_x: Record<string, InvestigationData> = {
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2024-04-01',
-   pageUpdatedDate: '2025-06-18',
+   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'Section 702 of the FISA Amendments Act of 2008 provided the legal framework; but critics; including FISA Court judges; found that the NSA repeatedly exceeded even these permissive boundaries', type: 'legal' },
+     { date: '2015', event: 'The USA FREEDOM Act of 2015 imposed modest restrictions on bulk metadata collection of phone records but did not significantly alter the internet surveillance programs like XKeyscore that operate u...', type: 'default' },
+     { date: '2024-04-01', event: 'The Privacy and Civil Liberties Oversight Board (PCLOB) found that the Section 702 program; which underpins much of XKeyscore\'s authority; raises "serious constitutional questions." Section 702 was...', type: 'default' },
+   ],
   },
   'pfas-forever-chemicals-contamination': {
     title: 'PFAS Forever Chemicals Contamination Crisis',
@@ -57,9 +62,15 @@ const investigations_x: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Delayed enforceable PFAS standards for 50+ years after manufacturers identified risks; MCLs finally issued April 2024; $50-100B compliance costs for water systems', href: '/entities/agencies/epa' },
       { id: '2', name: 'DOD', type: 'agency', relationship: '700+ military installations with PFAS contamination from firefighting foam; cleanup estimated at $30B+; exposed service members and families to cancer-causing levels', href: '/entities/agencies/dod' },
     ],
-   eventOriginDate: '2002-01-01',
-   lastActivityDate: '2024-04-01',
-   pageUpdatedDate: '2025-06-18',
+   eventOriginDate: '1960-01-01',
+   lastActivityDate: '2025-03-01',
+   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2002', event: '3M phased out PFOS production in 2002 but continued to sell existing stocks and fought regulation for years afterward', type: 'default' },
+     { date: '2016', event: 'Despite knowing about the contamination since at least the early 2000s, the EPA did not establish a health advisory level for PFAS until 2016, and even that was non-enforceable', type: 'default' },
+     { date: '2022-06-01', event: 'In June 2022, the EPA revised its health advisory to near-zero levels, essentially acknowledging that no level of PFAS exposure is safe', type: 'default' },
+     { date: '2024-04-01', event: 'The agency finally issued enforceable Maximum Contaminant Levels (MCLs) in April 2024, setting limits of 4 parts per trillion for PFOA and PFOS', type: 'legal' },
+   ],
   },
   'forced-arbitration-consumer-rights': {
     title: 'Forced Arbitration and Consumer Rights',
@@ -87,8 +98,14 @@ const investigations_x: Record<string, InvestigationData> = {
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Has authority to challenge unfair contractual terms but has not used it to address forced arbitration; defers to CFPB on financial product arbitration', href: '/entities/agencies/ftc' },
     ],
    eventOriginDate: '2011-01-01',
-   lastActivityDate: '2022-01-01',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2025-01-30',
+   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2011', event: 'Concepcion (2011) and American Express v', type: 'default' },
+     { date: '2013', event: 'Italian Colors (2013), decisions that Justice Kagan warned would enable companies to insulate themselves from all private enforcement', type: 'default' },
+     { date: '2022', event: 'Congress responded with the Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act of 2022, which exempted those specific claims, but left all other employment disputes subject to ma...', type: 'political' },
+     { date: '2022', event: 'Proposals to require arbitration transparency, expand the 2022 exemption to all employment claims, and ban pre-dispute arbitration agreements in consumer contracts have been introduced repeatedly i...', type: 'default' },
+   ],
   },
 };
 

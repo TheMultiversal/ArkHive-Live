@@ -39,8 +39,14 @@ const investigations_2: Record<string, InvestigationData> = {
  { id: '6', name: 'Antonin Scalia', type: 'individual', relationship: 'Key vote to stop count', href: '/entities/individuals/antonin-scalia' },
  ],
    eventOriginDate: '2000-01-01',
-   lastActivityDate: '2008-01-01',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2026-01-12',
+   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2000-11-07', event: 'ELECTION NIGHT: On November 7, 2000, the presidential race came down to Florida\'s 25 electoral votes', type: 'political' },
+     { date: '2000-11-22', event: 'BROOKS BROTHERS RIOT: On November 22, 2000, Republican operatives staged a violent protest at the Miami-Dade County election office, forcing the canvassing board to stop its recount', type: 'political' },
+     { date: '2000-12-12', event: 'On December 12, 2000, in Bush v', type: 'default' },
+     { date: '2008', event: 'CONSEQUENCES: Bush\'s presidency brought the Iraq War (based on lies), Hurricane Katrina failures, the 2008 financial crisis, and Supreme Court appointments that later overturned Roe v', type: 'legal' },
+   ],
  },
   '2020-election-overturn': {
  title: '2020 Election Overturn Attempt',
@@ -69,8 +75,8 @@ const investigations_2: Record<string, InvestigationData> = {
  { id: '4', name: 'Jeffrey Clark', type: 'individual', relationship: 'Would-be acting AG', href: '/entities/individuals/jeffrey-clark' },
  ],
    eventOriginDate: '2020-01-01',
-   lastActivityDate: '2020-01-01',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2025-05-08',
+   pageUpdatedDate: '2026-03-18',
  },
   '2016-election': {
  title: '2016 Election Interference',
@@ -95,8 +101,8 @@ const investigations_2: Record<string, InvestigationData> = {
  { id: '3', name: 'Internet Research Agency', type: 'organization', relationship: 'Key figure in investigation', href: '/entities/organizations/internet-research-agency' },
  ],
    eventOriginDate: '2016-01-01',
-   lastActivityDate: '2016-01-01',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2025-12-12',
+   pageUpdatedDate: '2026-03-18',
  },
  'pandemic-profiteering-covid-corruption': {
   title: 'COVID-19 Pandemic Profiteering and Government Corruption',
@@ -124,8 +130,12 @@ const investigations_2: Record<string, InvestigationData> = {
    { id: '2', name: 'DOJ', type: 'agency', relationship: 'Charged 3,500+ PPP fraud defendants but recovered fraction of losses; declined to prosecute congressional insider trading; pandemic fraud task force overwhelmed by scale', href: '/entities/agencies/doj' },
   ],
   eventOriginDate: '2020-01-01',
-  lastActivityDate: '2025-01-01',
-  pageUpdatedDate: '2025-06-18',
+  lastActivityDate: '2025-03-10',
+  pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-01-24', event: 'On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity', type: 'political' },
+     { date: '2025', event: 'As of 2025, DOJ has charged approximately 3,500 defendants but recovered only a fraction of the $200 billion estimated fraud', type: 'political' },
+   ],
  },
 };
 

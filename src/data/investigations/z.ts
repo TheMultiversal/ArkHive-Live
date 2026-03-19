@@ -25,9 +25,13 @@ const investigations_z: Record<string, InvestigationData> = {
       { id: 'cia', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Installed and supported Mobutu as Cold War proxy', href: '/entities/agencies/cia' },
       { id: 'world-bank', name: 'World Bank', type: 'organization', relationship: 'Continued lending despite known embezzlement', href: '/entities/organizations/world-bank' },
     ],
-   eventOriginDate: '1997-01-01',
-   lastActivityDate: '2020-06-30',
-   pageUpdatedDate: '2025-06-18',
+   eventOriginDate: '1960-01-01',
+   lastActivityDate: '2025-12-15',
+   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1965', event: 'Mobutu Sese Seko seized power in a CIA-backed coup in 1965 and ruled Zaire until 1997', type: 'default' },
+     { date: '1997', event: 'Mobutu\'s fall came in 1997 when Laurent-Desire Kabila\'s rebel forces, backed by Rwanda and Uganda, marched across the country', type: 'default' },
+   ],
   },
   'zero-dark-thirty-torture-debate': {
     title: 'Zero Dark Thirty and the Torture Debate',
@@ -52,8 +56,8 @@ const investigations_z: Record<string, InvestigationData> = {
       { id: 'cia', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Provided access and shaped narrative', href: '/entities/agencies/cia' },
     ],
    eventOriginDate: '2012-01-01',
-   lastActivityDate: '2014-01-01',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2025-08-20',
+   pageUpdatedDate: '2026-03-18',
   },
   'zuckerberg-meta-surveillance': {
     title: 'Zuckerberg and Meta\'s Surveillance Empire',
@@ -81,8 +85,12 @@ const investigations_z: Record<string, InvestigationData> = {
       { id: 'cambridge-analytica', name: 'Cambridge Analytica', type: 'corporation', relationship: 'Harvested 87 million user profiles', href: '/entities/corporations/cambridge-analytica' },
     ],
    eventOriginDate: '2016-01-01',
-   lastActivityDate: '2021-01-01',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2026-02-01',
+   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'The data was used to build psychological profiles for targeted political advertising during the 2016 US presidential election and the Brexit referendum', type: 'political' },
+     { date: '2021', event: 'Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Facebook\'s own research showed Instagram was harmful to teenage mental health, particularly among teenage girls, but ...', type: 'default' },
+   ],
   },
 };
 

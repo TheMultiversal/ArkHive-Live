@@ -27,8 +27,14 @@ const investigations_y: Record<string, InvestigationData> = {
  { id: '3', name: 'Pentagon', type: 'agency', relationship: 'US military support for Saudi campaign', href: '/entities/agencies/pentagon' },
  ],
    eventOriginDate: '2015-01-01',
-   lastActivityDate: '2021-01-01',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2025-01-09',
+   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2015', event: 'An estimated 85,000 children under five died from hunger and disease between 2015 and 2018 alone', type: 'critical' },
+     { date: '2015-03-01', event: 'The Saudi-led coalition began its air campaign in Yemen in March 2015, intervening in a civil war between the internationally recognized government and Houthi rebels', type: 'political' },
+     { date: '2018', event: 'The United States provided critical support for the Saudi campaign including: precision-guided munitions (over $110 billion in arms sales to Saudi Arabia under the Obama and Trump administrations),...', type: 'political' },
+     { date: '2021', event: 'The UN Human Rights Council established a Group of Eminent Experts to investigate war crimes in Yemen, but Saudi Arabia successfully lobbied to end the investigation in 2021', type: 'default' },
+   ],
  },
   'youtube-extremism': {
  title: 'YouTube\'s Radicalization Pipeline: How the Algorithm Breeds Extremism',
@@ -53,8 +59,12 @@ const investigations_y: Record<string, InvestigationData> = {
  { id: '1', name: 'Google', type: 'corporation', relationship: 'YouTube parent company, recommendation algorithm', href: '/entities/corporations/google' },
  ],
    eventOriginDate: '2019-01-01',
-   lastActivityDate: '2020-01-01',
-   pageUpdatedDate: '2025-06-18',
+   lastActivityDate: '2025-08-11',
+   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019', event: 'The company reduced recommendations of "borderline" content in 2019, removed some extremist channels, and added information panels to conspiracy-related videos', type: 'default' },
+     { date: '2020', event: 'YouTube served as the primary platform for QAnon content before partial restrictions were implemented in 2020', type: 'default' },
+   ],
  },
  'youth-incarceration-abuse': {
   title: 'Youth Incarceration and Juvenile Detention Abuse',
@@ -81,9 +91,9 @@ const investigations_y: Record<string, InvestigationData> = {
    { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division investigates juvenile facilities and imposes consent decrees; enforcement varies by administration; PREA data collection chronically delayed', href: '/entities/agencies/doj' },
    { id: '2', name: 'HHS', type: 'agency', relationship: 'Office of Juvenile Justice and Delinquency Prevention (OJJDP) distributes $300M in grants; funding not conditioned on eliminating solitary or reducing racial disparities', href: '/entities/agencies/hhs' },
   ],
-  eventOriginDate: '2024-01-01',
-  lastActivityDate: '2024-01-01',
-  pageUpdatedDate: '2025-06-18',
+  eventOriginDate: '2024-08-01',
+  lastActivityDate: '2025-02-15',
+  pageUpdatedDate: '2026-03-18',
  },
  'predatory-towing-industry': {
   title: 'Predatory Towing Industry',
@@ -111,8 +121,8 @@ const investigations_y: Record<string, InvestigationData> = {
    { id: '2', name: 'DOT', type: 'agency', relationship: 'Regulates interstate motor carriers but non-consensual towing is primarily a local and state matter; no federal towing consumer protection standards exist', href: '/entities/agencies/dot' },
   ],
   eventOriginDate: '2023-01-01',
-  lastActivityDate: '2023-01-01',
-  pageUpdatedDate: '2025-06-18',
+  lastActivityDate: '2025-01-16',
+  pageUpdatedDate: '2026-03-18',
  },
 };
 
