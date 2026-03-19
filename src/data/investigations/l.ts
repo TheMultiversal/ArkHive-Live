@@ -39,6 +39,9 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '5', name: 'Peter Daszak', type: 'individual', relationship: 'Conflict of interest on investigations', href: '/entities/individuals/peter-daszak' },
  { id: '6', name: 'WHO', type: 'organization', relationship: 'Compromised initial investigation', href: '/entities/organizations/who' },
  ],
+   eventOriginDate: '2020-07-14',
+   lastActivityDate: '2023-07-25',
+   pageUpdatedDate: '2025-03-18',
  },
   'libya-mercenaries': {
  title: 'Libya Intervention and Aftermath',
@@ -73,6 +76,9 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '3', name: 'NATO', type: 'organization', relationship: 'Conducted military operations', href: '/entities/organizations/nato' },
  { id: '4', name: 'Wagner Group', type: 'corporation', relationship: 'Exploited post-intervention chaos', href: '/entities/corporations/wagner-group' },
  ],
+   eventOriginDate: '2011-09-03',
+   lastActivityDate: '2022-10-11',
+   pageUpdatedDate: '2025-03-18',
  },
   'lobbying-corruption': {
  title: 'K Street: The Corruption Industry',
@@ -110,6 +116,9 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '3', name: 'American Petroleum Institute', type: 'organization', relationship: 'Oil and gas lobby', href: '/entities/organizations/api' },
  { id: '4', name: 'Congress', type: 'agency', relationship: 'Target of lobbying', href: '/entities/agencies/congress' },
  ],
+   eventOriginDate: '2013-02-25',
+   lastActivityDate: '2023-06-19',
+   pageUpdatedDate: '2025-03-18',
  },
   'lion-air-610': {
  title: 'Lion Air Flight 610 Crash',
@@ -149,9 +158,12 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '7', name: 'Ed Pierson', type: 'individual', relationship: 'Boeing whistleblower who warned of safety', href: '/entities/individuals/ed-pierson' },
  { id: '8', name: 'Lion Air 610 Victims', type: 'individual', relationship: '189 people murdered by corporate greed', href: '/entities/individuals/lion-air-610-victims' },
  ],
+   eventOriginDate: '2018-10-29',
+   lastActivityDate: '2025-11-22',
+   pageUpdatedDate: '2025-03-18',
  },  'laquan-mcdonald-murder': {
  title: 'Laquan McDonald Murder',
- subtitle: 'Chicago police officer shot Black teenager 16 times while covering up dashcam footage for over a year',
+ subtitle: 'On October 20, 2014, Chicago police officer Jason Van Dyke shot 17-year-old Laquan McDonald 16 times as the teenager walked away holding a small knife.',
  severity: 'critical',
  category: 'Police Violence',
  date: 'February 6, 2018',
@@ -205,6 +217,9 @@ const investigations_l: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Leonard Leo', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/leonard-leo' },
  ],
+   eventOriginDate: '2017-10-11',
+   lastActivityDate: '2025-03-24',
+   pageUpdatedDate: '2025-03-18',
  },
   'lgbtq-discrimination': {
  title: 'LGBTQ+ Discrimination: Systematic Inequality in Law and Practice',
@@ -229,10 +244,13 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '1', name: 'Alliance Defending Freedom', type: 'organization', relationship: 'Anti-LGBTQ litigation organization', href: '/entities/organizations/alliance-defending-freedom' },
  { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Major LGBTQ rights rulings', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2025-09-14',
+   lastActivityDate: '2025-10-14',
+   pageUpdatedDate: '2025-03-18',
  },
   'labor-trafficking-in-agriculture': {
     title: 'Labor Trafficking in Agriculture',
-    subtitle: 'An estimated 100,000-300,000 farmworkers in the United States are trapped in conditions of forced labor; held through debt bondage, document confiscation, threats of deportation, and physical violence while harvesting American food',
+    subtitle: 'Agricultural labor trafficking is one of the most underreported crimes in the United States.',
     severity: 'critical',
     category: 'Human Trafficking',
     date: 'July 17, 2024',
@@ -255,6 +273,9 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '1', name: 'DOL', type: 'agency', relationship: 'Administers H-2A visa program with fewer than 2,000 compliance inspections annually for 370,000+ workers', href: '/entities/agencies/dol' },
  { id: '2', name: 'ICE', type: 'agency', relationship: 'Conducts worksite raids arresting workers but rarely prosecuting employers who exploit trafficked labor', href: '/entities/agencies/ice' },
  ],
+   eventOriginDate: '2024-07-17',
+   lastActivityDate: '2024-08-16',
+   pageUpdatedDate: '2025-03-18',
   },
   'lead-industry-crime-against-humanity': {
     title: 'Lead Industry Crime Against Humanity',
@@ -280,6 +301,9 @@ const investigations_l: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Phased out leaded gasoline between 1975-1996; now oversees Lead and Copper Rule for drinking water but enforcement remains inadequate', href: '/entities/agencies/epa' },
  ],
+   eventOriginDate: '2021-07-05',
+   lastActivityDate: '2023-03-31',
+   pageUpdatedDate: '2025-03-18',
   },
   'license-plate-reader-mass-collection': {
     title: 'License Plate Reader Mass Surveillance',
@@ -306,6 +330,9 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '1', name: 'DHS', type: 'agency', relationship: 'Operates ALPR infrastructure within 100-mile border zone covering two-thirds of US population', href: '/entities/agencies/dhs' },
  { id: '2', name: 'ICE', type: 'agency', relationship: 'Purchased access to 5+ billion plate records from Vigilant Solutions for warrantless immigration enforcement surveillance', href: '/entities/agencies/ice' },
  ],
+   eventOriginDate: '2023-12-28',
+   lastActivityDate: '2025-07-16',
+   pageUpdatedDate: '2025-03-18',
   },
   'local-news-desert-information-crisis': {
     title: 'Local News Desert Information Crisis',
@@ -332,6 +359,9 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '1', name: 'Alden Global Capital', type: 'corporation', relationship: 'Second-largest newspaper chain; extracts profits while cutting newsrooms to skeleton crews at 200+ papers including Denver Post, Chicago Tribune', href: '/entities/corporations/alden-global-capital' },
  { id: '2', name: 'Sinclair Broadcast Group', type: 'corporation', relationship: 'Owns 185 TV stations; imposes centralized conservative editorial content on local broadcasts', href: '/entities/corporations/sinclair' },
  ],
+   eventOriginDate: '2015-04-20',
+   lastActivityDate: '2023-08-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'law-enforcement-social-media-monitoring': {
     title: 'Law Enforcement Social Media Monitoring',
@@ -358,6 +388,9 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Purchases commercial social media surveillance tools; monitored Black Lives Matter, Occupy, Standing Rock; created fabricated "Black Identity Extremist" threat category', href: '/entities/agencies/fbi' },
  { id: '2', name: 'DHS', type: 'agency', relationship: 'Monitors social media of visa applicants, travelers, immigrants, and protesters; produced intelligence reports on journalists during 2020 protests', href: '/entities/agencies/dhs' },
  ],
+   eventOriginDate: '2022-09-24',
+   lastActivityDate: '2023-07-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'long-haul-trucking-route-exploitation': {
     title: 'Long-Haul Trucking Route Exploitation',
@@ -383,6 +416,9 @@ const investigations_l: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'FMCSA', type: 'agency', relationship: 'Approximately 1,000 investigators covering 500,000+ carriers and 3.5 million drivers; unable to adequately enforce hours-of-service or safety regulations', href: '/entities/agencies/fmcsa' },
  ],
+   eventOriginDate: '2023-08-16',
+   lastActivityDate: '2023-09-15',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -439,6 +475,9 @@ const investigations_l: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Barclays', type: 'corporation', relationship: 'Fined $450M', href: '/entities/corporations/barclays' },
     ],
+   eventOriginDate: '2012-06-27',
+   lastActivityDate: '2015-05-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'lobbying-corruption': {
     title: 'Corporate Lobbying and Corruption',
@@ -487,11 +526,14 @@ const investigations_l: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Finalized Lead and Copper Rule Improvements in 2024 requiring full lead pipe replacement in 10 years; set original inadequate 15 ppb action level in 1991', href: '/entities/agencies/epa' },
       { id: '2', name: 'HHS', type: 'agency', relationship: 'CDC states no safe level of lead in children; childhood lead surveillance program chronically underfunded', href: '/entities/agencies/hhs' },
     ],
+   eventOriginDate: '2016-01-21',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'lehman-brothers-2008-financial-collapse': {
     slug: 'lehman-brothers-2008-financial-collapse',
     title: 'Lehman Brothers and the 2008 Financial Collapse',
-    subtitle: 'How Lehman Brothers used fraudulent accounting (Repo 105) to hide $50 billion in debt while executives collected $300 million in bonuses, triggering the worst financial crisis since the Great Depression that cost 8.7 million American jobs',
+    subtitle: 'Lehman Brothers, the fourth-largest U.',
     severity: 'critical',
     category: 'Financial Fraud',
     date: '2008-09-15',
@@ -514,10 +556,13 @@ const investigations_l: Record<string, InvestigationData> = {
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Failed to detect Repo 105 fraud despite examining Lehman; settled civil charges without criminal referral; did not charge any senior executive', href: '/entities/agencies/sec' },
       { id: '2', name: 'Federal Reserve', type: 'agency', relationship: 'Provided emergency lending facilities but refused to bail out Lehman (unlike Bear Stearns 6 months earlier); decision\'s rationale remains disputed', href: '/entities/agencies/federal-reserve' },
     ],
+   eventOriginDate: '2008-09-15',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'lead-poisoning-america': {
     title: 'Lead Poisoning in America: The Century-Long Corporate Cover-Up',
-    subtitle: 'How the lead industry knowingly poisoned millions of American children through leaded gasoline and lead paint while suppressing scientific evidence and capturing regulatory agencies for over 80 years',
+    subtitle: 'The lead industry, led by companies including the Ethyl Corporation (founded by GM and Standard Oil), National Lead Company (now NL Industries), and...',
     severity: 'critical',
     category: 'Public Health / Corporate Crime',
     date: 'January 1, 1923',
@@ -540,6 +585,9 @@ const investigations_l: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Took 60 years to fully ban leaded gasoline; lead drinking water standard set in 1991 has no health basis; lead paint cleanup enforcement minimal', href: '/entities/agencies/epa' },
       { id: '2', name: 'CDC', type: 'agency', relationship: 'Repeatedly lowered "level of concern" for childhood blood lead but acknowledges no safe level; historically influenced by industry-funded research', href: '/entities/agencies/cdc' },
     ],
+   eventOriginDate: '1923-01-01',
+   lastActivityDate: '2026-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'lobbying-dark-money-democracy-corruption': {
     title: 'Lobbying, Dark Money, and the Corruption of American Democracy',
@@ -566,6 +614,9 @@ const investigations_l: Record<string, InvestigationData> = {
       { id: '1', name: 'FEC', type: 'agency', relationship: 'Effectively non-functional; deadlocked 3-3 commission structure prevents enforcement action; has not imposed meaningful penalties on dark money violations', href: '/entities/agencies/fec' },
       { id: '2', name: 'IRS', type: 'agency', relationship: 'Regulates 501(c)(4) dark money organizations but political pressure after 2013 Tea Party targeting scandal led to near-total retreat from oversight of political activity', href: '/entities/agencies/irs' },
     ],
+   eventOriginDate: '2024-08-15',
+   lastActivityDate: '2025-03-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'plastic-recycling-fraud': {
     title: 'The Plastic Recycling Fraud',
@@ -592,6 +643,9 @@ const investigations_l: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Reports plastic recycling rate of 5-6% but promotes industry-friendly recycling programs; no federal microplastic regulation; chemical recycling exempt from oversight in 24 states', href: '/entities/agencies/epa' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Green Guides govern environmental marketing claims but enforcement against misleading recyclability labels is minimal; no action against the chasing arrows symbol', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2024-07-15',
+   lastActivityDate: '2025-02-28',
+   pageUpdatedDate: '2025-03-18',
   },
   'lead-poisoning-housing-crisis': {
     title: 'Lead Poisoning Housing Crisis',
@@ -618,11 +672,14 @@ const investigations_l: Record<string, InvestigationData> = {
       { id: '1', name: 'HUD', type: 'agency', relationship: 'Administers Lead Hazard Control Grant Program at $300M/year, enough for roughly 10,000 homes when millions need remediation; lead disclosure rule poorly enforced in rental market', href: '/entities/agencies/hud' },
       { id: '2', name: 'EPA', type: 'agency', relationship: 'Sets lead paint renovation standards (RRP Rule) but enforcement depends on state certification programs; proposed lower lead dust standards delayed repeatedly under industry pressure', href: '/entities/agencies/epa' },
     ],
+   eventOriginDate: '2024-05-20',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'lobotomy-epidemic-united-states': {
     slug: 'lobotomy-epidemic-united-states',
     title: 'The American Lobotomy Epidemic: How Walter Freeman Destroyed 40,000 Brains (1936-1967)',
-    subtitle: 'How a self-promoting neurologist performed over 3,400 ice-pick lobotomies on patients including children, housewives, and political dissidents, often without informed consent, while the medical establishment celebrated the procedure and its inventor received a Nobel Prize',
+    subtitle: 'Between 1936 and the late 1960s, an estimated 40,000 to 50,000 Americans underwent lobotomy, a surgical procedure that severed connections in the brains prefrontal cortex.',
     severity: 'critical' as const,
     category: 'Medical Tyranny',
     date: '1936-09-14',
@@ -646,6 +703,9 @@ const investigations_l: Record<string, InvestigationData> = {
       { id: '1', name: 'Walter Freeman', type: 'individual', relationship: 'Performed over 3,400 lobotomies including approximately 2,500 transorbital procedures without surgical training; traveled the country in his "lobotomobile" performing assembly-line lobotomies at state hospitals; at least 490 of his patients died; never criminally charged or stripped of medical license', href: '/entities/individuals/walter-freeman' },
       { id: '2', name: 'Joseph P. Kennedy Sr.', type: 'individual', relationship: 'Authorized the lobotomy of his daughter Rosemary Kennedy in 1941 without informing his wife; the procedure left Rosemary permanently incapacitated; the family concealed what had happened for decades', href: '/entities/individuals/joseph-kennedy-sr' },
     ],
+   eventOriginDate: '1936-09-14',
+   lastActivityDate: '2025-06-01',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

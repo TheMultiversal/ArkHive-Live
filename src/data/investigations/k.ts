@@ -30,6 +30,9 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '3', name: 'John Kelly', type: 'individual', relationship: 'Chief of Staff, documented concerns', href: '/entities/individuals/john-kelly' },
  { id: '4', name: 'CIA', type: 'agency', relationship: 'Expressed concerns about Kushner', href: '/entities/agencies/cia' },
  ],
+   eventOriginDate: '2018-02-28',
+   lastActivityDate: '2018-03-30',
+   pageUpdatedDate: '2025-03-18',
  },
   'khashoggi-coverup': {
  title: 'Khashoggi Murder Cover-up',
@@ -66,6 +69,9 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '5', name: 'State Department', type: 'agency', relationship: 'Protected Saudi relationship', href: '/entities/agencies/state-department' },
  { id: '6', name: 'Affinity Partners', type: 'corporation', relationship: 'Kushner firm receiving Saudi billions', href: '/entities/corporations/affinity-partners' },
  ],
+   eventOriginDate: '2018-10-20',
+   lastActivityDate: '2024-01-18',
+   pageUpdatedDate: '2025-03-18',
  },
   'kremlin-oligarchs': {
  title: 'Kremlin Oligarch Connections',
@@ -105,6 +111,9 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '6', name: 'Deutsche Bank', type: 'corporation', relationship: 'Lender despite money laundering history', href: '/entities/corporations/deutsche-bank' },
  { id: '7', name: 'Trump Organization', type: 'corporation', relationship: 'Pursued Russian deals', href: '/entities/corporations/trump-organization' },
  ],
+   eventOriginDate: '2018-03-15',
+   lastActivityDate: '2022-01-14',
+   pageUpdatedDate: '2025-03-18',
  },
   'keystone-pipeline-controversy': {
  title: 'Keystone XL Pipeline Controversy',
@@ -137,6 +146,9 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '4', name: 'Rosebud Sioux Tribe', type: 'organization', relationship: 'Lead tribal opposition', href: '/entities/organizations/rosebud-sioux' },
  { id: '5', name: 'American Petroleum Institute', type: 'organization', relationship: 'Industry lobbying for approval', href: '/entities/organizations/api' },
  ],
+   eventOriginDate: '2014-11-03',
+   lastActivityDate: '2017-10-12',
+   pageUpdatedDate: '2025-03-18',
  },
   'kashmir-suppression': {
  title: 'Kashmir: The World\'s Most Militarized Zone',
@@ -161,6 +173,9 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Received clearance over intelligence objections', href: '/entities/individuals/jared-kushner' },
  { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Ordered clearance for son-in-law', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2021-02-14',
+   lastActivityDate: '2022-11-04',
+   pageUpdatedDate: '2025-03-18',
  },
   'kenosha-shootings': {
  title: 'Kenosha Shootings',
@@ -193,6 +208,9 @@ const investigations_k: Record<string, InvestigationData> = {
  { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Invited Rittenhouse to Mar-a-Lago', href: '/entities/individuals/donald-trump' },
  { id: '3', name: 'Fox News', type: 'corporation', relationship: 'Platformed Rittenhouse as hero', href: '/entities/corporations/fox-news' },
  ],
+   eventOriginDate: '2011-04-01',
+   lastActivityDate: '2012-11-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'kids-for-cash': {
  title: 'Kids for Cash: Judges Who Sold Children to Private Prisons',
@@ -216,6 +234,9 @@ const investigations_k: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Kyle Rittenhouse', type: 'individual', relationship: 'Shooter acquitted of homicide charges', href: '/entities/individuals/kyle-rittenhouse' },
  ],
+   eventOriginDate: '2023-05-11',
+   lastActivityDate: '2025-04-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'korematsu-case': {
  title: 'Korematsu v. United States: The Legalization of Racism',
@@ -239,6 +260,9 @@ const investigations_k: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Upheld Japanese internment', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2022-06-06',
+   lastActivityDate: '2023-06-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'kushner-saudi-deal': {
  title: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence?',
@@ -262,6 +286,9 @@ const investigations_k: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jared-kushner' },
  ],
+   eventOriginDate: '2016-02-12',
+   lastActivityDate: '2018-11-11',
+   pageUpdatedDate: '2025-03-18',
  },
   'khashoggi-murder': {
     title: "Jamal Khashoggi Assassination",
@@ -295,7 +322,7 @@ const investigations_k: Record<string, InvestigationData> = {
   },
   'koch-network-dark-money-politics': {
     title: 'The Koch Network: Dark Money and the Capture of American Democracy',
-    subtitle: 'How Charles and David Koch built a $900 million political network that systematically blocked climate action, gutted labor protections, deregulated industry, and reshaped the federal judiciary through untraceable dark money',
+    subtitle: 'The Koch political network spent over $2 billion through 700+ entities to capture American democracy.',
     severity: 'high',
     category: 'Political Corruption / Dark Money',
     date: 'January 21, 2010',
@@ -318,6 +345,9 @@ const investigations_k: Record<string, InvestigationData> = {
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Failed to enforce prohibition on 501(c)(4) political campaign intervention; abandoned dark money enforcement after conservative backlash', href: '/entities/agencies/irs' },
       { id: '2', name: 'FEC', type: 'agency', relationship: 'Deadlocked on dark money enforcement for over a decade; Republican commissioners block every proposed disclosure rule', href: '/entities/agencies/fec' },
     ],
+   eventOriginDate: '2010-01-21',
+   lastActivityDate: '2026-02-28',
+   pageUpdatedDate: '2025-03-18',
   },
   'kissinger-foreign-policy-war-crimes': {
     title: 'Henry Kissinger\'s Foreign Policy Legacy and War Crimes',
@@ -344,6 +374,9 @@ const investigations_k: Record<string, InvestigationData> = {
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Executed covert operations in Chile, Cambodia, Laos, Indonesia, and East Timor under Kissinger direction; 40 Committee approved covert funding to destabilize Allende', href: '/entities/agencies/cia' },
       { id: '2', name: 'DOD', type: 'agency', relationship: 'Conducted secret bombing of Cambodia with falsified records; provided weapons to Indonesia during East Timor occupation; enabled Pakistani military operations', href: '/entities/agencies/dod' },
     ],
+   eventOriginDate: '2024-06-01',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'congressional-stock-trading': {
     title: 'Congressional Insider Trading and Financial Conflicts',
@@ -370,6 +403,9 @@ const investigations_k: Record<string, InvestigationData> = {
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Has theoretical authority to prosecute congressional insider trading but has never brought a case against a sitting member; STOCK Act enforcement deferred to Ethics Committees', href: '/entities/agencies/sec' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Investigated and dropped cases against Burr and Loeffler for COVID-era trades; Speech or Debate Clause creates high evidentiary bar for prosecution', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2024-10-01',
+   lastActivityDate: '2025-03-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'kickbacks-pharmacy-benefit-managers': {
     title: 'Pharmacy Benefit Manager Kickback Schemes',
@@ -396,6 +432,9 @@ const investigations_k: Record<string, InvestigationData> = {
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Launched 6(b) investigation in 2022; interim report confirmed anticompetitive practices; full enforcement action pending as industry challenges FTC authority post-Loper Bright', href: '/entities/agencies/ftc' },
       { id: '2', name: 'CMS', type: 'agency', relationship: 'Oversees PBMs in Medicare Part D and Medicaid managed care; proposed rebate pass-through rule delayed; spread pricing continues in many state Medicaid contracts despite documented harm', href: '/entities/agencies/cms' },
     ],
+   eventOriginDate: '2024-07-05',
+   lastActivityDate: '2025-02-08',
+   pageUpdatedDate: '2025-03-18',
   },
   'kissinger-foreign-policy-war-crimes': {
     title: 'Henry Kissinger\'s Foreign Policy: War Crimes, Coups, and Crimes Against Humanity',

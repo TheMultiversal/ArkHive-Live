@@ -2,9 +2,10 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { Building2, ChevronRight, Search, Skull, Filter } from "lucide-react";
+import { Building2, Search, Skull, Filter } from "lucide-react";
 import EntityCard from"@/components/cards/EntityCard";
 import corporationData from"@/data/corporations";
+import Breadcrumbs from"@/components/layout/Breadcrumbs";
 
 interface Entity {
   id: string;
@@ -65,13 +66,7 @@ export default function CorporationsPage() {
   return (
     <div className="min-h-screen pt-20 lg:pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6 pt-4">
-          <Link href="/" className="hover:text-blood-600 transition-colors">Home</Link>
-          <ChevronRight className="w-4 h-4" />
-          <Link href="/entities" className="hover:text-blood-600 transition-colors">Entities</Link>
-          <ChevronRight className="w-4 h-4" />
-          <span className="text-blood-600">Corporations</span>
-        </nav>
+        <Breadcrumbs className="mb-6 pt-4" />
 
         <div className="py-8">
           <div className="border-2 border-blood-800/60 bg-[#190800] p-6 lg:p-8 mb-8">

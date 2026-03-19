@@ -32,10 +32,13 @@ const investigations_v: Record<string, InvestigationData> = {
  { id: '2', name: 'Elliott Management', type: 'corporation', relationship: 'World\'s most aggressive vulture fund ($60B AUM); pioneered sovereign debt holdout litigation; corporate activist that extracts short-term value', href: '/entities/corporations/elliott-management' },
  { id: '3', name: 'Republican Party', type: 'organization', relationship: 'Recipient of Singer\'s major donations; blocked Stop VULTURE Act and other reform legislation in committee', href: '/entities/organizations/republican-party' },
  ],
+   eventOriginDate: '2009-10-13',
+   lastActivityDate: '2022-03-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'vietnam-war': {
  title: 'Vietnam War',
- subtitle: 'How fabricated intelligence; political cowardice; and institutional lies killed 58;220 Americans and 2-3 million Vietnamese across two decades of unwinnable war',
+ subtitle: 'The Vietnam War killed 58;220 Americans and an estimated 2-3 million Vietnamese; destabilized all of Southeast Asia; and was built on lies from the beginning.',
  severity: 'critical',
  category: 'War Crimes',
  date: 'October 12, 2009',
@@ -66,10 +69,13 @@ const investigations_v: Record<string, InvestigationData> = {
  { id: '5', name: 'CIA', type: 'agency', relationship: 'Ran Operation Phoenix assassination program; oversaw provincial interrogation centers; provided intelligence throughout the war', href: '/entities/agencies/cia' },
  { id: '6', name: 'Department of Defense', type: 'agency', relationship: 'Conducted the war; fabricated body counts and progress reports; oversaw Operation Ranch Hand chemical spraying', href: '/entities/agencies/dod' },
  ],
+   eventOriginDate: '2009-10-12',
+   lastActivityDate: '2011-01-06',
+   pageUpdatedDate: '2025-03-18',
  },
   'vietnam-crimes': {
  title: 'Vietnam War Crimes',
- subtitle: 'How systematic atrocities by U.S. forces were covered up by the military chain of command; protected by political leadership; and remain largely unprosecuted to this day',
+ subtitle: 'The Vietnam War saw systematic war crimes by U.',
  severity: 'critical',
  category: 'War Crimes',
  date: 'October 18, 2009',
@@ -97,10 +103,13 @@ const investigations_v: Record<string, InvestigationData> = {
  { id: '3', name: 'U.S. Army', type: 'agency', relationship: 'Committed and systematically covered up war crimes; closed Tiger Force investigation without prosecutions; suppressed Working Group files', href: '/entities/agencies/us-army' },
  { id: '4', name: 'Richard Nixon', type: 'individual', relationship: 'Intervened to reduce Calley sentence; expanded war while covering up atrocities; secret bombing of Cambodia', href: '/entities/individuals/richard-nixon' },
  ],
+   eventOriginDate: '2009-10-18',
+   lastActivityDate: '2025-08-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'voting-rights': {
  title: 'Voting Rights Under Attack',
- subtitle: 'The systematic dismantling of the right to vote through judicial decisions; legislative suppression; and structural barriers that disproportionately disenfranchise communities of color',
+ subtitle: 'Since the Supreme Court gutted the Voting Rights Act in Shelby County v.',
  severity: 'critical',
  category: 'Civil Rights',
  date: 'June 25, 2021',
@@ -127,6 +136,9 @@ const investigations_v: Record<string, InvestigationData> = {
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Voting rights enforcement capacity severely diminished after Shelby County stripped preclearance authority', href: '/entities/agencies/doj' },
  { id: '3', name: 'Brian Kemp', type: 'individual', relationship: 'As Georgia Secretary of State oversaw his own 2018 gubernatorial election while purging 340;000+ voters and implementing Exact Match', href: '/entities/individuals/brian-kemp' },
  ],
+   eventOriginDate: '2021-06-25',
+   lastActivityDate: '2024-04-06',
+   pageUpdatedDate: '2025-03-18',
  },
   'venezuela-election': {
  title: 'Venezuela\'s Stolen Elections: The Death of Democracy Under Maduro',
@@ -152,6 +164,9 @@ const investigations_v: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Nicolas Maduro', type: 'individual', relationship: 'Claimed fraudulent 2024 election victory despite overwhelming evidence showing 30-point opposition win; jailed or exiled opposition candidates', href: '/entities/individuals/nicolas-maduro' },
  ],
+   eventOriginDate: '2025-04-01',
+   lastActivityDate: '2025-05-01',
+   pageUpdatedDate: '2025-03-18',
  },
   'venezuela-human-rights': {
  title: 'Venezuela Human Rights Crisis: State Violence and Humanitarian Catastrophe',
@@ -177,6 +192,9 @@ const investigations_v: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Nicolas Maduro', type: 'individual', relationship: 'Presided over 19;000+ extrajudicial killings by FAES; 15;000+ arbitrary political detentions; under ICC investigation for crimes against humanity', href: '/entities/individuals/nicolas-maduro' },
  ],
+   eventOriginDate: '2018-11-18',
+   lastActivityDate: '2024-03-19',
+   pageUpdatedDate: '2025-03-18',
  },
   'vs-pipeline': {
  title: 'Veterans to School-to-Prison Pipeline: Military Recruitment to Mass Incarceration',
@@ -203,6 +221,9 @@ const investigations_v: Record<string, InvestigationData> = {
  { id: '1', name: 'Department of Veterans Affairs', type: 'agency', relationship: 'Failed to provide timely healthcare; at least 40 veterans died waiting for care at Phoenix VA; 20 veteran suicides per day', href: '/entities/agencies/department-of-veterans-affairs' },
  { id: '2', name: 'Department of Defense', type: 'agency', relationship: 'Aggressively recruits in low-income schools; No Child Left Behind required schools to share student contact info with military recruiters', href: '/entities/agencies/dod' },
  ],
+   eventOriginDate: '2016-04-17',
+   lastActivityDate: '2016-12-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'voter-roll-purges-and-suppression-tactics': {
     title: 'Voter Roll Purges and Suppression Tactics',
@@ -229,6 +250,9 @@ const investigations_v: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting rights enforcement gutted after Shelby County; Section 2 VRA cases declined under Trump administration; limited enforcement capacity even under sympathetic administrations', href: '/entities/agencies/doj' },
       { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Shelby County v. Holder (2013) gutted VRA preclearance; Brnovich v. DNC (2021) further weakened Section 2 protections; enabling wave of state-level suppression', href: '/entities/agencies/supreme-court' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2024-09-02',
+   pageUpdatedDate: '2025-03-18',
   },
   'vaccine-injury-compensation-cover-up': {
     title: 'Vaccine Injury Compensation Cover-Up',
@@ -255,6 +279,9 @@ const investigations_v: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves vaccines while co-administering VAERS; structural conflict between promoting vaccination and acknowledging injuries', href: '/entities/agencies/fda' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Actively contests the majority of vaccine injury claims on behalf of HHS; utilizes unlimited government resources against injured families', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1986-01-01',
+   lastActivityDate: '2025-06-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'voting-machine-certification-failures': {
     title: 'Voting Machine Certification Failures',
@@ -280,6 +307,9 @@ const investigations_v: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Dominion Voting Systems', type: 'corporation', relationship: 'Controls approximately 37% of U.S. voting machine market; documented vulnerabilities found by security researchers; resists independent auditing citing proprietary software', href: '/entities/corporations/dominion-voting-systems' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2025-12-23',
+   pageUpdatedDate: '2025-03-18',
   },
   'voter-database-security-breaches': {
     title: 'Voter Database Security Breaches',
@@ -305,6 +335,9 @@ const investigations_v: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'Designated election infrastructure as critical infrastructure in 2017; CISA provides voluntary cybersecurity assistance but coverage remains incomplete across 8,000+ jurisdictions', href: '/entities/agencies/dhs' },
     ],
+   eventOriginDate: '2015-01-01',
+   lastActivityDate: '2025-03-17',
+   pageUpdatedDate: '2025-03-18',
   },
   'vaccine-program-demographic-targeting-claims': {
     title: 'Vaccine Program Demographic Targeting Claims',
@@ -330,10 +363,13 @@ const investigations_v: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Voluntary guidance on clinical trial diversity is unenforceable; approves vaccines based on trials that underrepresent minority populations', href: '/entities/agencies/fda' },
     ],
+   eventOriginDate: '1932-01-01',
+   lastActivityDate: '2025-10-07',
+   pageUpdatedDate: '2025-03-18',
   },
   'vehicle-tracking-data-broker-industry': {
     title: 'Vehicle Tracking Data Broker Industry',
-    subtitle: 'How a $20+ billion industry of data brokers, connected car manufacturers, and license plate reader networks tracks the movements of virtually every vehicle in America; selling location data to police, insurers, and stalkers alike',
+    subtitle: 'The movements of virtually every vehicle in America are tracked, recorded, and sold by an interconnected network of data brokers, connected car...',
     severity: 'critical',
     category: 'Surveillance & Privacy',
     date: 'January 1, 2010',
@@ -355,6 +391,9 @@ const investigations_v: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Limited enforcement actions against connected car data practices but lacks comprehensive authority over vehicle tracking data broker industry', href: '/entities/agencies/federal-trade-commission' },
     ],
+   eventOriginDate: '2010-01-01',
+   lastActivityDate: '2017-05-19',
+   pageUpdatedDate: '2025-03-18',
   },
   'va-healthcare-systemic-failures-veteran-betrayal': {
     title: 'VA Healthcare Systemic Failures: The Betrayal of American Veterans',
@@ -381,10 +420,13 @@ const investigations_v: Record<string, InvestigationData> = {
       { id: '1', name: 'VA', type: 'agency', relationship: 'Central subject of investigation; systemic wait-time fraud, mental health failures, and disability claims backlog across 1,700 facilities', href: '/entities/agencies/va' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined criminal prosecution of Phoenix VA administrators despite documented falsification of records linked to veteran deaths', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2014-04-23',
+   lastActivityDate: '2026-02-28',
+   pageUpdatedDate: '2025-03-18',
   },
   'voter-suppression-modern-assault-on-democracy': {
     title: 'Modern Voter Suppression: The Systematic Assault on American Democracy',
-    subtitle: 'How voter ID laws, purges, gerrymandering, poll closures, and disinformation have disenfranchised millions of Americans - disproportionately Black, Latino, and Indigenous voters - since the Supreme Court gutted the Voting Rights Act',
+    subtitle: 'Over 400 restrictive voting laws enacted since Shelby County gutted the Voting Rights Act.',
     severity: 'critical',
     category: 'Civil Rights / Electoral Integrity',
     date: 'June 25, 2013',
@@ -406,11 +448,14 @@ const investigations_v: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting Section filed zero Section 2 voter suppression cases from 2017-2021; historically responsible for VRA enforcement but capacity severely reduced', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2013-06-25',
+   lastActivityDate: '2026-03-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'volkswagen-emissions-fraud': {
     slug: 'volkswagen-emissions-fraud',
     title: 'Volkswagen Diesel Emissions Fraud',
-    subtitle: 'How Volkswagen installed defeat devices in 11 million vehicles worldwide to cheat emissions tests while producing up to 40 times the legal limit of nitrogen oxides, causing an estimated 1,200 premature deaths in Europe alone',
+    subtitle: 'In September 2015, the EPA revealed that Volkswagen had installed sophisticated software in 11 million diesel vehicles worldwide to detect and cheat emissions tests.',
     severity: 'critical',
     category: 'Corporate Fraud',
     date: '2015-09-18',
@@ -433,10 +478,13 @@ const investigations_v: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Discovered defeat device fraud after ICCT research; secured $14.7B U.S. settlement; approved VW\'s remediation plan', href: '/entities/agencies/epa' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Secured $4.3B criminal plea; indicted 7 employees; former CEO Winterkorn charged but not extradited from Germany', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2015-09-18',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'voter-suppression-systematic': {
     title: 'Systematic Voter Suppression in Modern America',
-    subtitle: 'How partisan officials use voter purges, ID requirements, precinct closures, gerrymandering, and felon disenfranchisement to systematically prevent minorities and low-income citizens from exercising the right to vote',
+    subtitle: 'Since the Supreme Court gutted the Voting Rights Act in Shelby County v.',
     severity: 'high',
     category: 'Civil Rights / Democracy',
     date: 'June 25, 2013',
@@ -458,6 +506,9 @@ const investigations_v: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting Rights Section enforcement varies dramatically by administration; Trump DOJ did not file a single voting rights suit; Biden DOJ resumed enforcement', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2013-06-25',
+   lastActivityDate: '2026-03-08',
+   pageUpdatedDate: '2025-03-18',
   },
   'veterans-affairs-healthcare-scandal': {
     title: 'Veterans Affairs Healthcare System Scandal and Systemic Failures',
@@ -484,10 +535,13 @@ const investigations_v: Record<string, InvestigationData> = {
       { id: '1', name: 'VA', type: 'agency', relationship: '110+ facilities falsified wait time data; Secretary Shinseki resigned; $16B Oracle-Cerner EHR system plagued by safety errors', href: '/entities/agencies/va' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Failed to pursue criminal charges against most administrators who falsified records; only a handful of VA employees faced prosecution', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2024-06-15',
+   lastActivityDate: '2025-02-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'veterans-healthcare-failures': {
     title: 'VA Healthcare System Failures and Veteran Abandonment',
-    subtitle: 'How the Department of Veterans Affairs allowed veterans to die waiting for care, with secret waitlists at 110+ facilities, chronic understaffing, and a $16 billion EHR system that increased patient safety risks',
+    subtitle: 'The VA operates the largest healthcare system in the U.',
     severity: 'critical' as const,
     category: 'Government Failure',
     date: '2024-07-01',
@@ -510,6 +564,9 @@ const investigations_v: Record<string, InvestigationData> = {
       { id: '1', name: 'VA', type: 'agency', relationship: 'Operates 1,298 facilities with 50,000+ unfilled positions; 17.5 veteran suicides per day; $16B EHR system plagued with safety incidents', href: '/entities/agencies/va' },
       { id: '2', name: 'DOD', type: 'agency', relationship: 'Transition from DOD to VA healthcare is fragmented; medical records not seamlessly transferred; discharge characterization determines VA eligibility and excludes many in need', href: '/entities/agencies/dod' },
     ],
+   eventOriginDate: '2024-07-01',
+   lastActivityDate: '2025-02-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'voter-purge-disenfranchisement': {
     title: 'Voter Purge Disenfranchisement',
@@ -536,6 +593,9 @@ const investigations_v: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting Section enforces NVRA list maintenance provisions; Obama DOJ sued states for over-purging; Trump DOJ sued states for under-purging; enforcement direction reverses with each administration', href: '/entities/agencies/doj' },
       { id: '2', name: 'EAC', type: 'agency', relationship: 'Election Assistance Commission collects voter registration data but has no enforcement authority; EAVS survey provides the most comprehensive purge statistics but data is self-reported by states', href: '/entities/agencies/eac' },
     ],
+   eventOriginDate: '2024-08-01',
+   lastActivityDate: '2025-02-14',
+   pageUpdatedDate: '2025-03-18',
   },
   'vioxx-merck-cardiovascular-deaths': {
     slug: 'vioxx-merck-cardiovascular-deaths',
@@ -565,6 +625,9 @@ const investigations_v: Record<string, InvestigationData> = {
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Approved Vioxx in 1999; failed to mandate cardiovascular warnings despite VIGOR trial data; management pressured safety officer David Graham to suppress his findings; post-withdrawal review found systemic failures in post-market drug safety surveillance', href: '/entities/agencies/fda' },
       { id: '3', name: 'David Graham', type: 'individual', relationship: 'FDA Associate Director of Drug Safety who estimated Vioxx caused 88,000-139,000 heart attacks; testified before Congress that FDA management attempted to block his research and retaliate against him; his Senate testimony described the FDA as "incapable of protecting America"', href: '/entities/individuals/david-graham' },
     ],
+   eventOriginDate: '1999-05-20',
+   lastActivityDate: '2025-07-01',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

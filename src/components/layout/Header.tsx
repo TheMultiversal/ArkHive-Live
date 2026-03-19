@@ -5,6 +5,7 @@ import { useState, useEffect } from"react";
 import { usePathname } from"next/navigation";
 import { Menu, X, Search, Zap, UserPlus } from"lucide-react";
 import BleedingPyramidLogo from"@/components/ui/BleedingPyramidLogo";
+import InvestigationsMegaMenu from"./InvestigationsMegaMenu";
 
 export default function Header() {
  const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,14 @@ export default function Header() {
 
  const navLinks = [
  { href:"/", label:"Home"},
- { href:"/investigations", label:"Investigations"},
+ { href:"/statutes", label:"Statutes"},
+ { href:"/money-trail", label:"Money Trail"},
+ { href:"/convictions", label:"Convictions"},
+ { href:"/evidence", label:"Evidence"},
+ { href:"/network", label:"Network"},
+ { href:"/themes", label:"Themes"},
+ { href:"/figures", label:"Figures"},
+ { href:"/geography", label:"Geography"},
  { href:"/workspaces", label:"Workspaces"},
  { href:"/entities/agencies", label:"Agencies"},
  { href:"/entities/corporations", label:"Corporations"},
@@ -35,6 +43,8 @@ export default function Header() {
 
  return (
  <header
+ role="banner"
+ aria-label="ArkHive main header"
  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
  scrolled
  ?"bg-gradient-to-b from-[#200c00] to-[#140600] border-b border-[rgba(255,80,80,0.25)] shadow-[0_4px_30px_rgba(140,0,0,0.15)]"
@@ -63,8 +73,27 @@ export default function Header() {
  </Link>
 
  {/* Desktop Navigation */}
- <nav className="hidden lg:flex items-center gap-0.5">
- {navLinks.map((link) => {
+ <nav className="hidden lg:flex items-center gap-0.5" aria-label="Main navigation">
+ {/* Home link */}
+ <Link
+ href="/"
+ className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
+ pathname ==="/"
+ ?"text-blood-400 bg-blood-900 border-blood-800"
+ :"text-zinc-400 hover:text-white hover:bg-blood-950 hover:border-blood-800"
+ }`}
+ >
+ Home
+ {pathname ==="/" && (
+ <span className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-blood-500"/>
+ )}
+ </Link>
+ 
+ {/* Investigations Mega Menu */}
+ <InvestigationsMegaMenu />
+ 
+ {/* Other links */}
+ {navLinks.filter(link => link.href !== "/").map((link) => {
  const active = isActive(link.href);
  return (
  <Link
@@ -93,12 +122,15 @@ export default function Header() {
  <input
  type="text"
  placeholder="Search investigations..."
+ aria-label="Search investigations"
  className="absolute right-0 top-1/2 -translate-y-1/2 w-64 px-4 py-2 bg-black border border-blood-900/50 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 focus:ring-1 focus:ring-blood-700/30 transition-all duration-300"
  autoFocus
  />
  )}
  <button
  onClick={() => setIsSearchOpen(!isSearchOpen)}
+ aria-label={isSearchOpen ? "Close search" : "Open search"}
+ aria-expanded={isSearchOpen}
  className="p-2 text-zinc-500 hover:text-blood-500 hover:bg-blood-950 transition-colors"
  >
  <Search className="w-5 h-5"/>
@@ -126,6 +158,9 @@ export default function Header() {
  {/* Mobile Menu Toggle */}
  <button
  onClick={() => setIsMenuOpen(!isMenuOpen)}
+ aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+ aria-expanded={isMenuOpen}
+ aria-controls="mobile-menu"
  className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-blood-950 transition-colors"
  >
  {isMenuOpen ? <X className="w-6 h-6"/> : <Menu className="w-6 h-6"/>}
@@ -136,8 +171,8 @@ export default function Header() {
 
  {/* Mobile Menu */}
  {isMenuOpen && (
- <div className="lg:hidden bg-[rgba(0,8,25,0.80)] border-t border-blood-900">
- <nav className="max-w-7xl mx-auto px-4 py-3 space-y-0.5">
+ <div id="mobile-menu" className="lg:hidden bg-[rgba(0,8,25,0.80)] border-t border-blood-900">
+ <nav className="max-w-7xl mx-auto px-4 py-3 space-y-0.5" aria-label="Mobile navigation">
  {navLinks.map((link, index) => {
  const active = isActive(link.href);
  return (

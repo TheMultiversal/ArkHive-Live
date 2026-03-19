@@ -46,6 +46,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '10', name: 'ACLU', type: 'organization', relationship: 'Documented abuses, filed lawsuits', href: '/entities/organizations/aclu' },
  { id: '11', name: 'Clearview AI', type: 'corporation', relationship: 'Provided facial recognition to federal agencies', href: '/entities/corporations/clearview-ai' },
  ],
+   eventOriginDate: '2012-10-15',
+   lastActivityDate: '2025-10-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'securities-fraud': {
  title: 'Securities & Market Fraud',
@@ -88,6 +91,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '7', name: 'DWAC', type: 'corporation', relationship: 'SPAC vehicle, paid $18M SEC penalty', href: '/entities/corporations/dwac' },
  { id: '8', name: 'Jared Kushner', type: 'individual', relationship: 'Saudi investment fund potential conflicts', href: '/entities/individuals/jared-kushner' },
  ],
+   eventOriginDate: '2011-06-18',
+   lastActivityDate: '2025-04-04',
+   pageUpdatedDate: '2025-03-18',
  },
   'secret-agendas': {
  title: 'Secret Agendas & Covert Operations',
@@ -113,6 +119,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '2', name: 'Vladimir Putin', type: 'individual', relationship: 'Secret communications', href: '/entities/individuals/vladimir-putin' },
  { id: '3', name: 'Rudy Giuliani', type: 'individual', relationship: 'Shadow diplomacy', href: '/entities/individuals/rudy-giuliani' },
  ],
+   eventOriginDate: '2012-04-19',
+   lastActivityDate: '2025-03-24',
+   pageUpdatedDate: '2025-03-18',
  },
   'sex-trafficking-network': {
  title: 'Domestic Sex Trafficking Operations',
@@ -141,6 +150,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '3', name: 'Donald Trump', type: 'individual', relationship: 'Epstein associate', href: '/entities/individuals/donald-trump' },
  { id: '4', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Trump associate, convicted trafficker', href: '/entities/individuals/jeffrey-epstein' },
  ],
+   eventOriginDate: '2010-04-27',
+   lastActivityDate: '2025-02-07',
+   pageUpdatedDate: '2025-03-18',
  },
   'second-impeachment': {
  title: 'Second Impeachment, Incitement of Insurrection',
@@ -173,6 +185,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '3', name: 'Mitch McConnell', type: 'individual', relationship: 'Acquitted but blamed Trump', href: '/entities/individuals/mitch-mcconnell' },
  { id: '4', name: 'January 6 Committee', type: 'organization', relationship: 'Investigated events', href: '/entities/organizations/january-6-committee' },
  ],
+   eventOriginDate: '2021-01-13',
+   lastActivityDate: '2026-01-27',
+   pageUpdatedDate: '2025-03-18',
  },
   'sharpiegate': {
  title: 'Sharpiegate, Hurricane Dorian',
@@ -200,6 +215,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Made false claims, displayed altered map', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Wilbur Ross', type: 'individual', relationship: 'Allegedly threatened NOAA officials', href: '/entities/individuals/wilbur-ross' },
  ],
+   eventOriginDate: '2019-09-04',
+   lastActivityDate: '2021-08-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'stop-the-steal': {
  title: 'Stop the Steal Movement',
@@ -236,6 +254,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '5', name: 'Rudy Giuliani', type: 'individual', relationship: 'Led pressure campaign', href: '/entities/individuals/rudy-giuliani' },
  { id: '6', name: 'Ali Alexander', type: 'individual', relationship: 'Rally organizer', href: '/entities/individuals/ali-alexander' },
  ],
+   eventOriginDate: '2020-11-04',
+   lastActivityDate: '2025-06-11',
+   pageUpdatedDate: '2025-03-18',
  },
   'scotus-corruption': {
  title: 'Supreme Court Ethics Scandal',
@@ -272,6 +293,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '5', name: 'Leonard Leo', type: 'individual', relationship: 'Directed payments, network architect', href: '/entities/individuals/leonard-leo' },
  { id: '6', name: 'Supreme Court', type: 'agency', relationship: 'Institution compromised by ethics failures', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2023-04-06',
+   lastActivityDate: '2025-04-11',
+   pageUpdatedDate: '2025-03-18',
  },
   'scotus-ethics': {
  title: 'Supreme Court Ethics Crisis',
@@ -311,6 +335,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '6', name: 'Supreme Court', type: 'agency', relationship: 'Institution in ethics crisis', href: '/entities/agencies/supreme-court' },
  { id: '7', name: 'John Roberts', type: 'individual', relationship: 'Chief Justice, declined Senate testimony', href: '/entities/individuals/john-roberts' },
  ],
+   eventOriginDate: '2023-05-04',
+   lastActivityDate: '2023-06-03',
+   pageUpdatedDate: '2025-03-18',
  },
   'sandy-hook-defamation': {
  title: 'Sandy Hook Defamation',
@@ -348,6 +375,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '5', name: 'Robbie Parker', type: 'individual', relationship: 'Parent of victim Emilie, harassed', href: '/entities/individuals/robbie-parker' },
  { id: '6', name: 'Neil Heslin', type: 'individual', relationship: 'Parent of victim Jesse, sued Jones', href: '/entities/individuals/neil-heslin' },
  ],
+   eventOriginDate: '2022-08-03',
+   lastActivityDate: '2025-08-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'stormy-daniels-hush-money': {
  title: 'Stormy Daniels Hush Money Scheme',
@@ -389,6 +419,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '7', name: 'American Media Inc', type: 'corporation', relationship: 'Catch and kill scheme', href: '/entities/corporations/american-media-inc' },
  { id: '8', name: 'Alvin Bragg', type: 'individual', relationship: 'Manhattan DA who prosecuted', href: '/entities/individuals/alvin-bragg' },
  ],
+   eventOriginDate: '2023-04-04',
+   lastActivityDate: '2025-04-05',
+   pageUpdatedDate: '2025-03-18',
  },
   'seychelles-meeting': {
  title: 'Seychelles Secret Meeting',
@@ -427,6 +460,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '5', name: 'Blackwater', type: 'corporation', relationship: 'Prince\'s private military company', href: '/entities/corporations/blackwater' },
  { id: '6', name: 'FBI', type: 'agency', relationship: 'Investigated meeting', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2018-05-10',
+   lastActivityDate: '2023-05-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'special-plans': {
  title: 'Office of Special Plans',
@@ -465,6 +501,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '5', name: 'Ahmed Chalabi', type: 'individual', relationship: 'Provided fabricated intelligence', href: '/entities/individuals/ahmed-chalabi' },
  { id: '6', name: 'Department of Defense', type: 'agency', relationship: 'Housed OSP', href: '/entities/agencies/department-of-defense' },
  ],
+   eventOriginDate: '2010-10-03',
+   lastActivityDate: '2024-12-11',
+   pageUpdatedDate: '2025-03-18',
  },
   'sovereign-debt': {
  title: 'Sovereign Debt Exploitation',
@@ -501,6 +540,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '3', name: 'Elliott Management', type: 'corporation', relationship: 'Vulture fund targeting nations', href: '/entities/corporations/elliott-management' },
  { id: '4', name: 'Paul Singer', type: 'individual', relationship: 'Leading vulture fund operator', href: '/entities/individuals/paul-singer' },
  ],
+   eventOriginDate: '2009-12-01',
+   lastActivityDate: '2025-05-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'surveillance-state': {
  title: 'The Surveillance State',
@@ -540,6 +582,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '5', name: 'Google', type: 'corporation', relationship: 'PRISM participant', href: '/entities/corporations/google' },
  { id: '6', name: 'Facebook', type: 'corporation', relationship: 'PRISM participant', href: '/entities/corporations/facebook' },
  ],
+   eventOriginDate: '2012-08-23',
+   lastActivityDate: '2025-05-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'serbia-bombing': {
  title: 'NATO Bombing of Serbia/Kosovo',
@@ -572,6 +617,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '3', name: 'NATO', type: 'organization', relationship: 'Conducted bombing campaign', href: '/entities/organizations/nato' },
  { id: '4', name: 'Pentagon', type: 'agency', relationship: 'Military operations', href: '/entities/agencies/pentagon' },
  ],
+   eventOriginDate: '2010-05-15',
+   lastActivityDate: '2022-05-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'supreme-court-corruption': {
  title: 'Supreme Court Ethics Scandal',
@@ -604,6 +652,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '4', name: 'Leonard Leo', type: 'individual', relationship: 'Connected donors to justices', href: '/entities/individuals/leonard-leo' },
  { id: '5', name: 'Supreme Court', type: 'agency', relationship: 'Resisted ethics reforms', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2023-08-03',
+   lastActivityDate: '2024-11-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'social-media-harms': {
  title: 'Social Media Harms',
@@ -628,6 +679,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'Meta', type: 'corporation', relationship: 'Owner of Facebook and Instagram', href: '/entities/corporations/meta' },
  { id: '2', name: 'Mark Zuckerberg', type: 'individual', relationship: 'CEO who suppressed research', href: '/entities/individuals/mark-zuckerberg' },
  ],
+   eventOriginDate: '2021-10-05',
+   lastActivityDate: '2026-01-06',
+   pageUpdatedDate: '2025-03-18',
  },
   'social-media-privacy': {
  title: 'Social Media Privacy Violations',
@@ -651,6 +705,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'Cambridge Analytica', type: 'corporation', relationship: 'Data harvesting firm', href: '/entities/corporations/cambridge-analytica' },
  { id: '2', name: 'Meta', type: 'corporation', relationship: 'Enabled data harvesting', href: '/entities/corporations/meta' },
  ],
+   eventOriginDate: '2021-12-14',
+   lastActivityDate: '2026-02-12',
+   pageUpdatedDate: '2025-03-18',
  },
   'sac-capital': {
  title: 'SAC Capital: The Hedge Fund Built on Insider Trading',
@@ -675,6 +732,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'NSA', type: 'agency', relationship: 'Mass surveillance expansion', href: '/entities/agencies/nsa' },
  { id: '2', name: 'FBI', type: 'agency', relationship: 'Section 702 surveillance expansion', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2024-06-23',
+   lastActivityDate: '2024-08-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'sackler-family': {
  title: 'The Sackler Family: Architects of the Opioid Crisis',
@@ -698,6 +758,9 @@ const investigations_s: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Richard Sackler', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/richard-sackler' },
  ],
+   eventOriginDate: '2017-02-07',
+   lastActivityDate: '2026-01-08',
+   pageUpdatedDate: '2025-03-18',
  },
   'sandy-hook-disinfo': {
  title: 'Sandy Hook Disinformation: The Weaponization of Tragedy',
@@ -722,6 +785,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'Alex Jones', type: 'individual', relationship: 'Spread hoax claims, ordered to pay $1.5B', href: '/entities/individuals/alex-jones' },
  { id: '2', name: 'InfoWars', type: 'corporation', relationship: 'Platform for Sandy Hook denial', href: '/entities/corporations/infowars' },
  ],
+   eventOriginDate: '2018-08-10',
+   lastActivityDate: '2025-08-06',
+   pageUpdatedDate: '2025-03-18',
  },
   'santos-fraud': {
  title: 'George Santos: The Greatest Fraud Ever Elected to Congress',
@@ -747,6 +813,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '2', name: 'Richard Sackler', type: 'individual', relationship: 'Key figure in opioid marketing', href: '/entities/individuals/richard-sackler' },
  { id: '3', name: 'DOJ', type: 'agency', relationship: 'Family avoided criminal prosecution', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2018-08-23',
+   lastActivityDate: '2025-02-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'saudi-arms-sales': {
  title: 'U.S.-Saudi Arms Sales: Arming a War Crimes Machine',
@@ -772,6 +841,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '2', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Saudi arms deals', href: '/entities/corporations/lockheed-martin' },
  { id: '3', name: 'Pentagon', type: 'agency', relationship: 'Arms sale approvals', href: '/entities/agencies/pentagon' },
  ],
+   eventOriginDate: '2014-03-28',
+   lastActivityDate: '2026-02-27',
+   pageUpdatedDate: '2025-03-18',
  },
   'school-shootings': {
  title: 'School Shootings in America: An Epidemic of Inaction',
@@ -797,6 +869,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '2', name: 'FBI', type: 'agency', relationship: 'Failed to act on multiple tips', href: '/entities/agencies/fbi' },
  { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Repeatedly blocked gun legislation', href: '/entities/agencies/congress' },
  ],
+   eventOriginDate: '2021-10-28',
+   lastActivityDate: '2024-01-03',
+   pageUpdatedDate: '2025-03-18',
  },
   'scientology-abuses': {
  title: 'Church of Scientology: Abuse, Coercion, and Institutional Terror',
@@ -820,6 +895,9 @@ const investigations_s: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Church leader, accused of physical abuse and harassment', href: '/entities/individuals/david-miscavige' },
  ],
+   eventOriginDate: '2015-08-25',
+   lastActivityDate: '2022-10-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'sec-failures': {
  title: 'SEC Failures: The Watchdog That Refuses to Bite',
@@ -843,6 +921,9 @@ const investigations_s: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/sec' },
  ],
+   eventOriginDate: '2025-10-17',
+   lastActivityDate: '2026-01-19',
+   pageUpdatedDate: '2025-03-18',
  },
   'september-11': {
  title: 'September 11 Attacks & Accountability Failures',
@@ -878,6 +959,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '3', name: 'NSA', type: 'agency', relationship: 'Intercepted communications from al-Qaeda operatives but failed to disseminate actionable intelligence to other agencies', href: '/entities/agencies/nsa' },
  { id: '4', name: 'Department of Homeland Security', type: 'agency', relationship: 'Created in direct response to 9/11; consolidated 22 federal agencies', href: '/entities/agencies/dhs' },
  ],
+   eventOriginDate: '2001-09-11',
+   lastActivityDate: '2026-03-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'serial-killings': {
  title: 'Serial Killings and Systemic Failures: How Ignored Victims Enable Predators',
@@ -902,6 +986,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Behavioral Analysis Unit investigations', href: '/entities/agencies/fbi' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of serial offenders', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2017-08-16',
+   lastActivityDate: '2022-04-02',
+   pageUpdatedDate: '2025-03-18',
  },
   'sex-trafficking': {
  title: 'Sex Trafficking: A Multi-Billion Dollar Criminal Enterprise',
@@ -927,6 +1014,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '2', name: 'Ghislaine Maxwell', type: 'individual', relationship: 'Convicted recruiter and trafficker', href: '/entities/individuals/ghislaine-maxwell' },
  { id: '3', name: 'FBI', type: 'agency', relationship: 'Investigation and intelligence failures', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2025-10-29',
+   lastActivityDate: '2025-11-27',
+   pageUpdatedDate: '2025-03-18',
  },
   'sexual-exploitation': {
  title: 'Sexual Exploitation in Institutions: Systemic Predation and Cover-Ups',
@@ -951,6 +1041,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of exploitation enabled by Hollywood', href: '/entities/individuals/harvey-weinstein' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human trafficking prosecutions', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2023-02-07',
+   lastActivityDate: '2023-03-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'sexual-harassment': {
  title: 'Sexual Harassment in the Workplace: The #MeToo Reckoning and Beyond',
@@ -975,6 +1068,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Catalyst for #MeToo movement', href: '/entities/individuals/harvey-weinstein' },
  { id: '2', name: 'Bill OReilly', type: 'individual', relationship: 'Fox News serial harasser', href: '/entities/individuals/bill-oreilly' },
  ],
+   eventOriginDate: '2018-09-30',
+   lastActivityDate: '2022-08-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'silicon-valley-politics': {
  title: 'Silicon Valley\'s Political Machine: Tech Oligarchs and Democracy',
@@ -1000,6 +1096,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Failed to act on multiple tips', href: '/entities/agencies/fbi' },
       { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Repeatedly blocked gun legislation', href: '/entities/agencies/congress' },
     ],
+   eventOriginDate: '2016-11-28',
+   lastActivityDate: '2025-03-23',
+   pageUpdatedDate: '2025-03-18',
  },
   'social-engineering-fraud': {
  title: 'Social Engineering Fraud: Hacking the Human Mind',
@@ -1023,6 +1122,9 @@ const investigations_s: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Social engineering fraud investigations', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2017-10-12',
+   lastActivityDate: '2022-03-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'spac-fraud': {
  title: 'SPAC Fraud: Wall Street\'s Blank Check Scam',
@@ -1046,6 +1148,9 @@ const investigations_s: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'SPAC fraud enforcement', href: '/entities/agencies/sec' },
  ],
+   eventOriginDate: '2017-12-16',
+   lastActivityDate: '2024-09-12',
+   pageUpdatedDate: '2025-03-18',
  },
   'spacey-assault': {
  title: 'Kevin Spacey: Power, Predation, and Hollywood\'s Open Secrets',
@@ -1069,6 +1174,9 @@ const investigations_s: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Kevin Spacey', type: 'individual', relationship: 'Accused of multiple sexual assaults', href: '/entities/individuals/kevin-spacey' },
  ],
+   eventOriginDate: '2024-01-23',
+   lastActivityDate: '2024-02-22',
+   pageUpdatedDate: '2025-03-18',
  },
   'stand-your-ground': {
  title: 'Stand Your Ground Laws: Legalizing Racial Violence',
@@ -1093,6 +1201,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Behavioral Analysis Unit investigations', href: '/entities/agencies/fbi' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of serial offenders', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2024-03-14',
+   lastActivityDate: '2024-05-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'stanford-ponzi': {
  title: 'Allen Stanford: The Caribbean Ponzi King',
@@ -1117,6 +1228,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Investigated Stanford Financial Group', href: '/entities/agencies/sec' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Criminal prosecution', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2024-08-04',
+   lastActivityDate: '2025-12-31',
+   pageUpdatedDate: '2025-03-18',
  },
   'starbucks-union-busting': {
  title: 'Starbucks Union Busting: Corporate War on Workers\' Rights',
@@ -1140,6 +1254,9 @@ const investigations_s: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Howard Schultz', type: 'individual', relationship: 'CEO who led anti-union campaign', href: '/entities/individuals/howard-schultz' },
  ],
+   eventOriginDate: '2022-07-30',
+   lastActivityDate: '2024-01-03',
+   pageUpdatedDate: '2025-03-18',
  },
   'startup-fraud': {
  title: 'Startup Fraud: Silicon Valley\'s Culture of Lies',
@@ -1164,6 +1281,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of exploitation', href: '/entities/individuals/harvey-weinstein' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal trafficking prosecutions', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2022-11-25',
+   lastActivityDate: '2025-04-22',
+   pageUpdatedDate: '2025-03-18',
  },
   'surveillance-capitalism': {
  title: 'Surveillance Capitalism: The Colonization of Human Experience',
@@ -1188,6 +1308,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'Google', type: 'corporation', relationship: 'Pioneer of behavioral prediction markets', href: '/entities/corporations/google' },
  { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Surveillance-based advertising model', href: '/entities/corporations/meta-platforms' },
  ],
+   eventOriginDate: '2025-10-20',
+   lastActivityDate: '2026-02-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'sutherland-springs-shooting': {
  title: 'Sutherland Springs Shooting: The Failures That Armed a Mass Killer',
@@ -1211,10 +1334,13 @@ const investigations_s: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'US Air Force', type: 'agency', relationship: 'Failed to report shooter domestic violence conviction', href: '/entities/agencies/us-army' },
  ],
+   eventOriginDate: '2025-07-28',
+   lastActivityDate: '2026-02-18',
+   pageUpdatedDate: '2025-03-18',
  },
   'super-pac-coordination-scandals': {
     title: 'Super PAC Coordination Scandals',
-    subtitle: 'How the post-Citizens United campaign finance system enables unlimited dark money through Super PACs that coordinate illegally with candidates while the FEC refuses to enforce the law',
+    subtitle: 'Citizens United created Super PACs; the coordination prohibition is a fiction and the FEC refuses to enforce.',
     severity: 'critical',
     category: 'Government Corruption',
     date: 'January 21, 2010',
@@ -1237,6 +1363,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'FEC', type: 'agency', relationship: 'Deadlocked 3-3 on partisan lines for over a decade; refused to enforce coordination rules in 200+ cases', href: '/entities/agencies/fec' },
       { id: '2', name: 'Citizens United', type: 'organization', relationship: 'Supreme Court case (2010) that opened unlimited corporate and union spending in elections', href: '/entities/organizations/citizens-united' },
     ],
+   eventOriginDate: '2010-01-21',
+   lastActivityDate: '2025-05-11',
+   pageUpdatedDate: '2025-03-18',
   },
   'spac-fraud-and-regulatory-failures': {
     title: 'SPAC Fraud and Regulatory Failures',
@@ -1262,6 +1391,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Delayed regulatory response until after $250B SPAC bubble collapsed; proposed rules only in 2022 after billions in retail losses', href: '/entities/agencies/sec' },
     ],
+   eventOriginDate: '2020-01-01',
+   lastActivityDate: '2018-08-06',
+   pageUpdatedDate: '2025-03-18',
   },
   'swiss-bank-secrecy-complicity': {
     title: 'Swiss Bank Secrecy Complicity',
@@ -1288,6 +1420,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'Credit Suisse', type: 'corporation', relationship: 'Pleaded guilty in 2014 and paid $2.6B; continued enabling tax evasion with $700M+ in undeclared accounts discovered in 2023', href: '/entities/corporations/credit-suisse' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Swiss Bank Program recovered $1.36B+ in penalties from 80+ banks; failed to prosecute American enablers', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1934-01-01',
+   lastActivityDate: '2025-11-04',
+   pageUpdatedDate: '2025-03-18',
   },
   'sex-trafficking-and-hotel-industry-complicity': {
     title: 'Sex Trafficking and Hotel Industry Complicity',
@@ -1313,6 +1448,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Human trafficking investigations; coordinates with hotel industry through Blue Campaign but enforcement remains reactive', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2010-01-01',
+   lastActivityDate: '2024-10-11',
+   pageUpdatedDate: '2025-03-18',
   },
   'sugar-industry-harvard-corruption': {
     title: 'Sugar Industry Harvard Corruption',
@@ -1338,6 +1476,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: '1981 sugar safety review included scientists with industry funding; failed to regulate added sugars for decades', href: '/entities/agencies/fda' },
     ],
+   eventOriginDate: '1967-01-01',
+   lastActivityDate: '2019-08-04',
+   pageUpdatedDate: '2025-03-18',
   },
   'social-credit-system-western-adoption': {
     title: 'Social Credit System Western Adoption',
@@ -1363,6 +1504,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Gotham platform aggregates government and commercial data for predictive policing and immigration enforcement profiles', href: '/entities/corporations/palantir' },
     ],
+   eventOriginDate: '2014-01-01',
+   lastActivityDate: '2024-09-21',
+   pageUpdatedDate: '2025-03-18',
   },
   'ssri-antidepressant-hidden-trial-data': {
     title: 'SSRI Antidepressant Hidden Trial Data',
@@ -1388,6 +1532,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Delayed black box warning for years despite internal evidence; medical officer Andrew Mosholder prevented from presenting suicide risk findings', href: '/entities/agencies/fda' },
     ],
+   eventOriginDate: '1987-01-01',
+   lastActivityDate: '2025-08-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'social-media-surveillance-partnerships': {
     title: 'Social Media Surveillance Partnerships',
@@ -1414,6 +1561,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'DHS', type: 'agency', relationship: 'Used Dataminr to monitor BLM protests; partners with social media platforms for content monitoring', href: '/entities/agencies/dhs' },
       { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Operates law enforcement portal processing 100K+ government data requests annually; provided abortion-related messages to police', href: '/entities/corporations/meta-platforms' },
     ],
+   eventOriginDate: '2013-01-01',
+   lastActivityDate: '2025-08-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'smart-city-surveillance-infrastructure': {
     title: 'Smart City Surveillance Infrastructure',
@@ -1439,6 +1589,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Competes for smart city contracts; Gotham platform integrates multiple surveillance data streams into centralized analytics', href: '/entities/corporations/palantir' },
     ],
+   eventOriginDate: '2015-01-01',
+   lastActivityDate: '2024-06-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'social-media-radicalization-pipeline': {
     title: 'Social Media Radicalization Pipeline',
@@ -1466,6 +1619,9 @@ const investigations_s: Record<string, InvestigationData> = {
  { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm-driven radicalization', href: '/entities/corporations/meta-platforms' },
  { id: '2', name: 'Google', type: 'corporation', relationship: 'YouTube recommendation engine', href: '/entities/corporations/google' },
  ],
+   eventOriginDate: '2019-09-21',
+   lastActivityDate: '2021-08-25',
+   pageUpdatedDate: '2025-03-18',
   },
   'social-media-censorship-industrial-complex': {
     title: 'Social Media Censorship Industrial Complex',
@@ -1492,6 +1648,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Created special government portal for content removal requests; suppressed COVID-19 and election content at government direction', href: '/entities/corporations/meta-platforms' },
       { id: '2', name: 'DHS', type: 'agency', relationship: 'CISA established MDM team and switchboarding function to route government censorship requests to platforms', href: '/entities/agencies/dhs' },
     ],
+   eventOriginDate: '2020-01-01',
+   lastActivityDate: '2025-11-29',
+   pageUpdatedDate: '2025-03-18',
   },
   'social-media-bot-farm-election-campaigns': {
     title: 'Social Media Bot Farm Election Campaigns',
@@ -1517,6 +1676,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Internet Research Agency', type: 'organization', relationship: 'Operated 1,000+ person troll farm spending $1.25M/month; reached 126 million Americans through Facebook; 13 employees indicted by Mueller', href: '/entities/organizations/internet-research-agency' },
     ],
+   eventOriginDate: '2014-01-01',
+   lastActivityDate: '2025-07-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'state-level-election-fraud-prosecutions': {
     title: 'State-Level Election Fraud Prosecutions',
@@ -1542,6 +1704,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal election fraud prosecution authority; pattern of deference to state-level enforcement even when selective prosecution patterns are documented', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2018-01-01',
+   lastActivityDate: '2024-05-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'superfund-site-cleanup-delay-patterns': {
     title: 'Superfund Site Cleanup Delay Patterns',
@@ -1567,10 +1732,13 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Manages Superfund program with chronic delays; 15-year average cleanup timeline; 60% of sites vulnerable to climate impacts', href: '/entities/agencies/epa' },
     ],
+   eventOriginDate: '1980-01-01',
+   lastActivityDate: '2026-01-09',
+   pageUpdatedDate: '2025-03-18',
   },
   'shell-company-registration-state-analysis': {
     title: 'Shell Company Registration State Analysis',
-    subtitle: 'How Delaware, Wyoming, Nevada, and other states compete to offer the most opaque corporate structures; enabling money laundering, tax evasion, sanctions evasion, and fraud on a massive scale',
+    subtitle: 'The United States is one of the easiest countries in the world to form an anonymous shell company.',
     severity: 'critical',
     category: 'Financial Crime',
     date: 'January 1, 2000',
@@ -1592,6 +1760,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Beneficial ownership enforcement authority; prosecutes money laundering cases using anonymous shell companies', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2024-11-04',
+   pageUpdatedDate: '2025-03-18',
   },
   'school-surveillance-technology-adoption': {
     title: 'School Surveillance Technology Adoption',
@@ -1617,6 +1788,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Clearview AI', type: 'corporation', relationship: 'Facial recognition technology marketed to schools; uses children\'s photos scraped from the internet to train its algorithms', href: '/entities/corporations/clearview-ai' },
     ],
+   eventOriginDate: '2018-01-01',
+   lastActivityDate: '2024-10-09',
+   pageUpdatedDate: '2025-03-18',
   },
   'social-media-addiction-engineering': {
     title: 'Social Media Addiction Engineering',
@@ -1643,6 +1817,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Internal research showed Instagram toxic for 32% of teen girls with body image issues; Zuckerberg rejected safety recommendations to preserve engagement', href: '/entities/corporations/meta-platforms' },
       { id: '2', name: 'Google', type: 'corporation', relationship: 'YouTube autoplay and recommendation algorithms designed for maximum watch time; former Design Ethicist Tristan Harris became leading industry critic', href: '/entities/corporations/google' },
     ],
+   eventOriginDate: '2010-01-01',
+   lastActivityDate: '2026-01-11',
+   pageUpdatedDate: '2025-03-18',
   },
   'subliminal-messaging-in-digital-advertising': {
     title: 'Subliminal Messaging in Digital Advertising',
@@ -1668,6 +1845,9 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Enforcement authority over deceptive advertising practices; brought actions against Epic Games, Amazon, and others but lacks resources for systematic enforcement', href: '/entities/agencies/federal-trade-commission' },
     ],
+   eventOriginDate: '2010-01-01',
+   lastActivityDate: '2025-11-03',
+   pageUpdatedDate: '2025-03-18',
   },
   'structured-finance-fraud-networks': {
     title: 'Structured Finance Fraud Networks',
@@ -1694,6 +1874,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Created ABACUS CDO designed to fail; paid $550M SEC penalty; allowed John Paulson to select toxic assets while selling to unsuspecting investors', href: '/entities/corporations/goldman-sachs' },
       { id: '2', name: 'SEC', type: 'agency', relationship: 'Brought ABACUS fraud case resulting in $550M settlement but no criminal charges against executives; failed to detect CDO fraud during pre-crisis period', href: '/entities/agencies/sec' },
     ],
+   eventOriginDate: '2003-01-01',
+   lastActivityDate: '2023-08-19',
+   pageUpdatedDate: '2025-03-18',
   },
   'smart-home-device-surveillance-economy': {
     title: 'Smart Home Device Surveillance Economy',
@@ -1720,6 +1903,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Ring partnerships with 2,000+ police departments; Alexa recordings reviewed by thousands of human employees; provided video to police without warrants', href: '/entities/corporations/amazon-inc' },
       { id: '2', name: 'Google', type: 'corporation', relationship: 'Acquired Nest for $3.2B for behavioral data; cameras transmit data even when "turned off"; builds occupancy models from thermostat sensors', href: '/entities/corporations/google' },
     ],
+   eventOriginDate: '2017-01-01',
+   lastActivityDate: '2025-05-27',
+   pageUpdatedDate: '2025-03-18',
   },
   'secret-court-fisa-abuse-patterns': {
     title: 'Secret Court FISA Abuse Patterns',
@@ -1746,6 +1932,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'FISA Court', type: 'agency', relationship: 'Approved 99.97% of surveillance applications; secretly authorized bulk metadata collection and PRISM program', href: '/entities/agencies/fisa-court' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Submitted FISA applications with 17 significant errors and omissions in Carter Page case; FBI conducted 278,000 warrantless backdoor searches in one year', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1978-01-01',
+   lastActivityDate: '2025-06-24',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -1822,6 +2011,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Failed to detect $64.8B Madoff Ponzi scheme despite decade of tips; eliminated net capital rule enabling 2008 crisis; revolving door with Wall Street', href: '/entities/agencies/sec' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined to prosecute senior Wall Street executives after 2008 crisis; closed congressional insider trading investigations', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1934-06-06',
+   lastActivityDate: '2026-02-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'school-to-prison-pipeline': {
     title: 'The School-to-Prison Pipeline',
@@ -1848,6 +2040,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'COPS program funds school resource officers; Civil Rights Division has investigated school districts for discriminatory discipline', href: '/entities/agencies/doj' },
       { id: '2', name: 'DOE', type: 'agency', relationship: 'Office for Civil Rights collects discipline data revealing racial disparities; enforcement varies dramatically by administration', href: '/entities/agencies/doe' },
     ],
+   eventOriginDate: '1994-03-31',
+   lastActivityDate: '2025-12-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'supreme-court-ethics-crisis': {
     title: 'The Supreme Court Ethics Crisis: Undisclosed Gifts, Dark Money, and the Corruption of the Highest Court',
@@ -1874,10 +2069,13 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Has authority to investigate bribery and honest services fraud but has not opened criminal investigation into Thomas or Alito gift disclosures', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2023-04-06',
+   lastActivityDate: '2026-03-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'saudi-influence-american-politics': {
     title: 'Saudi Influence on American Politics and Policy',
-    subtitle: 'How the Kingdom of Saudi Arabia spent hundreds of millions to purchase American foreign policy, silence critics of human rights abuses, and secure arms deals worth $110 billion while committing war crimes in Yemen',
+    subtitle: 'Saudi Arabia has spent over $180 million on U.',
     severity: 'high',
     category: 'Foreign Influence / Human Rights',
     date: 'October 2, 2018',
@@ -1901,6 +2099,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '2', name: 'DOD', type: 'agency', relationship: 'Provided targeting assistance, aerial refueling, and intelligence to Saudi coalition bombing Yemen', href: '/entities/agencies/dod' },
       { id: '3', name: 'State Department', type: 'agency', relationship: 'Approved $110B+ in Saudi arms sales despite documented war crimes; declined to apply Leahy Law restrictions', href: '/entities/agencies/state-department' },
     ],
+   eventOriginDate: '2018-10-02',
+   lastActivityDate: '2026-02-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'secret-service-systemic-failures': {
     slug: 'secret-service-systemic-failures',
@@ -1928,6 +2129,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'DHS', type: 'agency', relationship: 'Parent agency; DHS OIG found text messages deleted after being requested as January 6 evidence', href: '/entities/agencies/dhs' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Joint investigation of Butler assassination attempt and security failures', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2024-07-13',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'student-loan-servicing-fraud': {
     slug: 'student-loan-servicing-fraud',
@@ -1955,6 +2159,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Contracts with private servicers to manage $1.77 trillion in student loans; inadequate oversight of servicer performance', href: '/entities/agencies/doe' },
       { id: '2', name: 'CFPB', type: 'agency', relationship: 'Filed landmark lawsuit against Navient; monitors student loan servicing practices', href: '/entities/agencies/cfpb' },
     ],
+   eventOriginDate: '2017-01-18',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'subprime-mortgage-crisis-2008': {
     slug: 'subprime-mortgage-crisis-2008',
@@ -1983,6 +2190,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Collected $100B+ in civil settlements from banks but secured only one criminal conviction (Kareem Serageldin, 30 months) from the entire crisis', href: '/entities/agencies/doj' },
       { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Provided $16T+ in emergency lending to financial institutions; failed to regulate mortgage lending despite warnings from consumer groups', href: '/entities/agencies/federal-reserve' },
     ],
+   eventOriginDate: '2007-08-09',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'stanford-financial-ponzi-scheme': {
     title: 'Stanford Financial: $7 Billion Ponzi Scheme Hidden Behind Fake Caribbean Bank',
@@ -2009,10 +2219,13 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Fort Worth office identified likely Ponzi scheme by 2003 but delayed enforcement for 6+ years; OIG found systemic failure', href: '/entities/agencies/sec' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Secured 110-year fraud sentence for Stanford; prosecuted co-conspirators; extradited bribed Antiguan regulator', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2009-02-17',
+   lastActivityDate: '2024-04-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'student-loan-crisis-predatory-lending': {
     title: 'The Student Loan Crisis: $1.75 Trillion in Predatory Government-Backed Debt',
-    subtitle: 'How the federal government, private lenders, and for-profit colleges created a $1.75 trillion student debt crisis by making loans non-dischargeable in bankruptcy, enabling predatory lending, and allowing for-profit institutions to defraud students while capturing taxpayer-funded financial aid',
+    subtitle: 'The U.',
     severity: 'high',
     category: 'Financial Crime / Education',
     date: 'October 7, 1998',
@@ -2035,6 +2248,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'Department of Education', type: 'agency', relationship: 'Largest student lender; failed to regulate for-profit colleges; loan servicing oversight inadequate; borrower defense claims took years to process', href: '/entities/agencies/department-of-education' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated and settled with for-profit colleges over deceptive advertising; DeVry $100M settlement', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '1998-10-07',
+   lastActivityDate: '2026-03-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'social-media-mental-health-exploitation': {
     title: 'Social Media Platforms and Mental Health Exploitation',
@@ -2061,10 +2277,13 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Enforces COPPA children\'s privacy law but has been underfunded and outmatched by tech company resources; proposed COPPA 2.0 update stalled', href: '/entities/agencies/ftc' },
       { id: '2', name: 'SEC', type: 'agency', relationship: 'Investigates whether Meta misled investors about platform safety; securities fraud implications of suppressing internal harm research', href: '/entities/agencies/sec' },
     ],
+   eventOriginDate: '2024-09-15',
+   lastActivityDate: '2025-03-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'solitary-confinement-torture': {
     title: 'Solitary Confinement as Torture in American Prisons',
-    subtitle: 'How 80,000 to 100,000 Americans are held in solitary confinement on any given day, including children and the mentally ill, in conditions that the UN has classified as torture when exceeding 15 days',
+    subtitle: 'The United States holds an estimated 80,000 to 100,000 people in solitary confinement on any given day, more than any other democratic nation.',
     severity: 'critical' as const,
     category: 'Human Rights',
     date: '2024-06-15',
@@ -2087,6 +2306,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'BOP', type: 'agency', relationship: 'Operates ADX Florence federal supermax; announced restrictions in 2023 but implementation is slow; DOJ Inspector General found widespread mental illness in BOP solitary units', href: '/entities/agencies/bop' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Obama DOJ issued report recommending limits on solitary; Trump DOJ reversed course; Civil Rights Division investigates but enforcement varies by administration', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2024-06-15',
+   lastActivityDate: '2025-02-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'school-to-prison-pipeline': {
     title: 'School-to-Prison Pipeline',
@@ -2113,10 +2335,13 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Office for Civil Rights collects discipline data revealing racial disparities; Obama-era guidance rescinded under Trump; Biden DOE restored partial guidance but without enforcement teeth', href: '/entities/agencies/doe' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Obama DOJ investigated discriminatory discipline in school districts including Ferguson-Florissant; Trump DOJ pulled back from consent decrees; Civil Rights Division role scaled back', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2024-03-20',
+   lastActivityDate: '2025-01-30',
+   pageUpdatedDate: '2025-03-18',
   },
   'sand-creek-massacre-1864': {
     title: 'The Sand Creek Massacre: U.S. Army Atrocity Against Peaceful Cheyenne and Arapaho',
-    subtitle: 'How Colonel John Chivington led 675 U.S. Army troops in the premeditated slaughter and mutilation of approximately 230 Cheyenne and Arapaho people, two-thirds of them women, children, and elders, encamped under a U.S. flag of truce',
+    subtitle: 'On November 29, 1864, approximately 675 U.',
     severity: 'critical' as const,
     category: 'Government Abuse',
     date: '1864-11-29',
@@ -2139,6 +2364,9 @@ const investigations_s: Record<string, InvestigationData> = {
       { id: '1', name: 'John Chivington', type: 'individual', relationship: 'Colonel of the 1st and 3rd Colorado Cavalry who planned and led the attack on a peaceful encampment flying U.S. and white flags; ordered troops to take no prisoners; mustered out of Army to avoid court-martial; never prosecuted', href: '/entities/individuals/john-chivington' },
       { id: '2', name: 'U.S. Army', type: 'agency', relationship: 'Provided the military force that carried out the massacre; three separate federal investigations condemned the attack; Army failed to prevent Chivington from mustering out before trial; set precedent for future atrocities against Indigenous peoples', href: '/entities/agencies/us-army' },
     ],
+   eventOriginDate: '1864-11-29',
+   lastActivityDate: '2025-01-10',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

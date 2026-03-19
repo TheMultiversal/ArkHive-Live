@@ -28,6 +28,9 @@ const investigations_x: Record<string, InvestigationData> = {
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Built and operates XKeyscore across 700+ servers at 150 sites worldwide; processes 20+ terabytes of internet data daily; analysts can search without warrants', href: '/entities/agencies/nsa' },
       { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Leaked classified XKeyscore training materials in 2013; revealed the system\'s capabilities and the minimal oversight governing its use', href: '/entities/individuals/edward-snowden' },
     ],
+   eventOriginDate: '2011-01-28',
+   lastActivityDate: '2013-01-02',
+   pageUpdatedDate: '2025-03-18',
   },
   'pfas-forever-chemicals-contamination': {
     title: 'PFAS Forever Chemicals Contamination Crisis',
@@ -54,6 +57,9 @@ const investigations_x: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Delayed enforceable PFAS standards for 50+ years after manufacturers identified risks; MCLs finally issued April 2024; $50-100B compliance costs for water systems', href: '/entities/agencies/epa' },
       { id: '2', name: 'DOD', type: 'agency', relationship: '700+ military installations with PFAS contamination from firefighting foam; cleanup estimated at $30B+; exposed service members and families to cancer-causing levels', href: '/entities/agencies/dod' },
     ],
+   eventOriginDate: '2024-06-15',
+   lastActivityDate: '2025-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'forced-arbitration-consumer-rights': {
     title: 'Forced Arbitration and Consumer Rights',
@@ -80,6 +86,9 @@ const investigations_x: Record<string, InvestigationData> = {
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Completed 2015 study finding arbitration harmed consumers; issued rule banning class action waivers in 2017; Congress overturned the rule via Congressional Review Act before it took effect', href: '/entities/agencies/cfpb' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Has authority to challenge unfair contractual terms but has not used it to address forced arbitration; defers to CFPB on financial product arbitration', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2024-06-15',
+   lastActivityDate: '2025-01-30',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

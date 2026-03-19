@@ -3,6 +3,7 @@
 import { useState, useMemo, useCallback, useEffect } from"react";
 import { useSearchParams } from"next/navigation";
 import InvestigationCard, { Investigation } from"@/components/cards/InvestigationCard";
+import { InvestigationIndexButton } from"@/components/InvestigationIndex";
 import investigationDatabase from"@/data/investigations";
 import { Search, AlertTriangle, X, ChevronLeft, ChevronRight, Skull, Shield, Scale, Globe, Landmark, Building2, Siren, FileWarning, Microscope, Radio, Crosshair, Flame, Users, DollarSign, Eye, Filter } from"lucide-react";
 
@@ -458,6 +459,9 @@ export default function InvestigationsPage() {
  <option value="medium">Medium</option>
  <option value="low">Low</option>
  </select>
+
+ {/* Quick Index */}
+ <InvestigationIndexButton />
  </div>
 
  {/* ── RESULTS BAR ──────────────────────────────────────── */}
@@ -509,7 +513,7 @@ export default function InvestigationsPage() {
  <div className="w-16 h-16 border-2 border-[rgba(255, 60, 60,0.18)] flex items-center justify-center mx-auto mb-4">
  <AlertTriangle className="w-8 h-8 text-zinc-600"/>
  </div>
- <h3 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">No Files Found</h3>
+ <h2 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">No Files Found</h2>
  <p className="text-zinc-500 max-w-md mx-auto">
  No investigations match your search criteria. Adjust your filters or check back
  as new evidence is declassified.

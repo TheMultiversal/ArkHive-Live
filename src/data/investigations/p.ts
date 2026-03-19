@@ -38,6 +38,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '6', name: 'Robert Mercer', type: 'individual', relationship: 'CA funder, propaganda financier', href: '/entities/individuals/robert-mercer' },
  { id: '7', name: 'Rupert Murdoch', type: 'individual', relationship: 'Fox News owner', href: '/entities/individuals/rupert-murdoch' },
  ],
+   eventOriginDate: '2014-04-03',
+   lastActivityDate: '2015-05-23',
+   pageUpdatedDate: '2025-03-18',
  },
   'pharma-conflicts': {
  title: 'Pharmaceutical Investment Conflicts',
@@ -74,6 +77,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '5', name: 'CDC', type: 'agency', relationship: 'Public health guidance', href: '/entities/agencies/cdc' },
  { id: '6', name: 'Pfizer', type: 'corporation', relationship: 'Major vaccine manufacturer', href: '/entities/corporations/pfizer' },
  ],
+   eventOriginDate: '2018-02-13',
+   lastActivityDate: '2025-05-23',
+   pageUpdatedDate: '2025-03-18',
  },
   'political-funding': {
  title: 'Dark Money & Political Funding Networks',
@@ -108,6 +114,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '4', name: 'Leonard Leo', type: 'individual', relationship: 'Judicial dark money coordinator', href: '/entities/individuals/leonard-leo' },
  { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Beneficiary of dark money, rewarded donors', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2016-08-19',
+   lastActivityDate: '2022-06-19',
+   pageUpdatedDate: '2025-03-18',
  },
   'pandemic-conspiracy': {
  title: 'COVID-19 Conspiracy Theories',
@@ -146,6 +155,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '5', name: 'NIH', type: 'agency', relationship: 'Research politicized', href: '/entities/agencies/nih' },
  { id: '6', name: 'FDA', type: 'agency', relationship: 'Pressured on unproven treatments', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2020-04-07',
+   lastActivityDate: '2025-03-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'presidential-misconduct': {
  title: 'Pattern of Presidential Misconduct',
@@ -187,6 +199,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '7', name: 'DOJ', type: 'agency', relationship: 'Pressured for political purposes', href: '/entities/agencies/doj' },
  { id: '8', name: 'IRS', type: 'agency', relationship: 'Pressured to audit enemies', href: '/entities/agencies/irs' },
  ],
+   eventOriginDate: '2018-09-08',
+   lastActivityDate: '2025-04-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'pentagon-response': {
  title: 'Pentagon January 6 Failures',
@@ -225,6 +240,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '6', name: 'Pentagon', type: 'agency', relationship: 'Failed to respond', href: '/entities/agencies/pentagon' },
  { id: '7', name: 'Donald Trump', type: 'individual', relationship: 'Installed loyalists, did not deploy Guard', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2021-01-08',
+   lastActivityDate: '2025-10-12',
+   pageUpdatedDate: '2025-03-18',
  },
   'proud-boys-terrorism': {
  title: 'Proud Boys Domestic Terrorism',
@@ -264,6 +282,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '6', name: 'DOJ', type: 'agency', relationship: 'Prosecuted seditious conspiracy', href: '/entities/agencies/doj' },
  { id: '7', name: 'FBI', type: 'agency', relationship: 'Investigated as domestic terrorism', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2021-03-08',
+   lastActivityDate: '2025-02-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'plame-leak': {
  title: 'Valerie Plame CIA Leak',
@@ -304,6 +325,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '7', name: 'George W. Bush', type: 'individual', relationship: 'Commuted Libby sentence', href: '/entities/individuals/george-w-bush' },
  { id: '8', name: 'Donald Trump', type: 'individual', relationship: 'Pardoned Libby', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2010-08-08',
+   lastActivityDate: '2026-01-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'phone-hacking': {
  title: 'News Corp Phone Hacking Scandal',
@@ -341,6 +365,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '4', name: 'James Murdoch', type: 'individual', relationship: 'News International chairman', href: '/entities/individuals/james-murdoch' },
  { id: '5', name: 'Metropolitan Police', type: 'agency', relationship: 'Corrupted by payments', href: '/entities/agencies/metropolitan-police' },
  ],
+   eventOriginDate: '2011-07-04',
+   lastActivityDate: '2025-06-08',
+   pageUpdatedDate: '2025-03-18',
  },
   'phone-hacking-scandal': {
  title: 'News International Phone Hacking',
@@ -374,6 +401,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '3', name: 'Andy Coulson', type: 'individual', relationship: 'Editor, convicted', href: '/entities/individuals/andy-coulson' },
  { id: '4', name: 'Fox News', type: 'corporation', relationship: 'Sister company in Murdoch empire', href: '/entities/corporations/fox-news' },
  ],
+   eventOriginDate: '2011-07-10',
+   lastActivityDate: '2012-08-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'private-prisons': {
  title: 'Private Prison Industry',
@@ -401,6 +431,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '2', name: 'GEO Group', type: 'corporation', relationship: 'Second largest', href: '/entities/corporations/geo-group' },
  { id: '3', name: 'DHS', type: 'agency', relationship: 'Immigration detention contracts', href: '/entities/agencies/dhs' },
  ],
+   eventOriginDate: '2013-03-28',
+   lastActivityDate: '2025-11-11',
+   pageUpdatedDate: '2025-03-18',
  },
   'presidential-immunity': {
  title: 'Presidential Immunity Decision',
@@ -425,6 +458,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Issued immunity ruling', href: '/entities/agencies/supreme-court' },
  { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Beneficiary', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2024-07-01',
+   lastActivityDate: '2024-07-31',
+   pageUpdatedDate: '2025-03-18',
  },
   'purdue-pharma-opioids': {
  title: 'Purdue Pharma Opioid Crisis',
@@ -452,6 +488,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'OxyContin manufacturer', href: '/entities/corporations/purdue-pharma' },
  { id: '2', name: 'Richard Sackler', type: 'individual', relationship: 'Family owner, pushed sales', href: '/entities/individuals/richard-sackler' },
  ],
+   eventOriginDate: '2017-12-19',
+   lastActivityDate: '2022-02-11',
+   pageUpdatedDate: '2025-03-18',
  },  'pandemic-response': {
  title: 'Pandemic Response Failures',
  subtitle: 'Catastrophic government failures in COVID-19 response resulted in hundreds of thousands of preventable American deaths',
@@ -514,6 +553,9 @@ const investigations_p: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Federal investigation into university cover-up', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2023-10-16',
+   lastActivityDate: '2025-04-08',
+   pageUpdatedDate: '2025-03-18',
  },
   'penny-stock-fraud': {
  title: 'Penny Stock Fraud and Pump-and-Dump Schemes',
@@ -542,10 +584,13 @@ const investigations_p: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Penny stock fraud enforcement; trading suspensions', href: '/entities/agencies/sec' },
  ],
+   eventOriginDate: '2015-06-27',
+   lastActivityDate: '2015-10-05',
+   pageUpdatedDate: '2025-03-18',
  },
   'petters-ponzi': {
  title: 'Tom Petters $3.7 Billion Ponzi Scheme',
- subtitle: 'How a Minneapolis businessman ran one of the largest Ponzi schemes in American history through fabricated retail merchandise deals',
+ subtitle: 'Tom Petters operated a $3.',
  severity: 'high',
  category: 'Financial Crime',
  date: 'June 8, 2021',
@@ -570,10 +615,13 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Prosecuted $3.7B Ponzi scheme; 50-year sentence', href: '/entities/agencies/doj' },
  { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities fraud enforcement action', href: '/entities/agencies/sec' },
  ],
+   eventOriginDate: '2021-06-08',
+   lastActivityDate: '2025-07-24',
+   pageUpdatedDate: '2025-03-18',
  },
   'pfas-contamination': {
  title: 'PFAS "Forever Chemical" Contamination',
- subtitle: 'How DuPont, 3M, and the chemical industry poisoned the drinking water of 200 million Americans with indestructible synthetic chemicals they knew were toxic',
+ subtitle: 'PFAS (per- and polyfluoroalkyl substances); known as "forever chemicals" because they never break down in the environment; contaminate the drinking water of over 200 million Americans.',
  severity: 'critical',
  category: 'Environmental',
  date: 'August 6, 2016',
@@ -601,6 +649,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '3', name: 'EPA', type: 'agency', relationship: 'Delayed enforceable PFAS drinking water standards for over 20 years', href: '/entities/agencies/epa' },
  { id: '4', name: 'Department of Defense', type: 'agency', relationship: 'Over 700 military bases contaminated with PFAS from firefighting foam', href: '/entities/agencies/department-of-defense' },
  ],
+   eventOriginDate: '2016-08-06',
+   lastActivityDate: '2023-09-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'pharma-pricing': {
  title: 'Pharmaceutical Price Gouging',
@@ -635,6 +686,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '3', name: 'Congress', type: 'agency', relationship: 'Blocked drug price negotiation for decades; passed limited 2022 reform', href: '/entities/agencies/congress' },
  { id: '4', name: 'FDA', type: 'agency', relationship: 'Generic drug approval backlog delays cheaper alternatives', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2012-12-17',
+   lastActivityDate: '2025-07-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'pharmaceutical-fraud': {
  title: 'Pharmaceutical Industry Fraud',
@@ -667,6 +721,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Paid $2.2 billion for illegal Risperdal promotion targeting elderly and children', href: '/entities/corporations/johnson-and-johnson' },
  { id: '4', name: 'DOJ', type: 'agency', relationship: 'Collected billions in settlements but never imprisoned pharmaceutical executives', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2011-11-04',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'philando-castile': {
  title: 'The Killing of Philando Castile',
@@ -697,6 +754,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'Philando Castile', type: 'individual', relationship: 'Licensed gun owner killed during traffic stop while complying with officer instructions', href: '/entities/individuals/philando-castile' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'No federal civil rights charges filed against Officer Yanez', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2016-07-06',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },  'philippine-drug-war': {
  title: 'Philippine Drug War',
  subtitle: 'Rodrigo Duterte\'s extrajudicial killing campaign murdered thousands under the guise of drug enforcement',
@@ -758,6 +818,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Largest producer of single-use plastic polymers; funded recycling deception campaigns', href: '/entities/corporations/exxonmobil' },
  { id: '2', name: 'EPA', type: 'agency', relationship: 'Failed to regulate plastic waste or challenge recycling fraud claims', href: '/entities/agencies/epa' },
  ],
+   eventOriginDate: '2017-01-04',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'platform-discrimination': {
  title: 'Digital Platform Discrimination',
@@ -787,6 +850,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Enabled housing and employment ad discrimination through targeting tools', href: '/entities/corporations/meta-platforms' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Investigating algorithmic discrimination under civil rights statutes', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2022-01-01',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'platform-extremism': {
  title: 'Social Media Platform Extremism',
@@ -817,6 +883,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm recommended extremist groups to 64% of users who joined them', href: '/entities/corporations/meta-platforms' },
  { id: '2', name: 'Mark Zuckerberg', type: 'individual', relationship: 'Personally overruled internal proposals to reduce radicalization', href: '/entities/individuals/mark-zuckerberg' },
  ],
+   eventOriginDate: '2022-06-10',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'polarization': {
  title: 'American Political Polarization',
@@ -847,6 +916,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm-driven political content amplification documented by internal research', href: '/entities/corporations/meta-platforms' },
  { id: '3', name: 'Congress', type: 'agency', relationship: 'Repeated government shutdowns and legislative paralysis from partisan gridlock', href: '/entities/agencies/congress' },
  ],
+   eventOriginDate: '2024-07-20',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'police-accountability-crisis': {
  title: 'Police Accountability Crisis',
@@ -881,6 +953,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '3', name: 'Congress', type: 'agency', relationship: 'Failed to pass George Floyd Justice in Policing Act', href: '/entities/agencies/congress' },
  { id: '4', name: 'Fraternal Order of Police', type: 'organization', relationship: 'Largest police union; lobbies against accountability reforms', href: '/entities/organizations/fop' },
  ],
+   eventOriginDate: '2020-03-10',
+   lastActivityDate: '2024-11-19',
+   pageUpdatedDate: '2025-03-18',
  },
   'political-corruption': {
  title: 'Systemic Political Corruption in America',
@@ -912,6 +987,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Citizens United decision unleashed unlimited corporate campaign spending', href: '/entities/agencies/supreme-court' },
  { id: '3', name: 'Koch Industries', type: 'corporation', relationship: 'Among the largest political donors and lobbying spenders in U.S. history', href: '/entities/corporations/koch-industries' },
  ],
+   eventOriginDate: '2025-01-13',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'political-dark-money': {
  title: 'Dark Money in American Politics',
@@ -944,6 +1022,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '3', name: 'Leonard Leo', type: 'individual', relationship: 'Controls $1.6 billion dark money empire that reshaped the federal judiciary', href: '/entities/individuals/leonard-leo' },
  { id: '4', name: 'Supreme Court', type: 'agency', relationship: 'Citizens United decision unleashed dark money; justices confirmed with dark money support', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2010-09-17',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'political-fraud': {
  title: 'Political Fraud and Campaign Finance Crimes',
@@ -973,6 +1054,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes political fraud but enforcement is inconsistent and often delayed', href: '/entities/agencies/doj' },
  { id: '2', name: 'Congress', type: 'agency', relationship: 'Self-policing ethics system rarely enforces accountability against members', href: '/entities/agencies/congress' },
  ],
+   eventOriginDate: '2019-08-13',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'political-hoaxes': {
  title: 'Political Hoaxes and Manufactured Crises',
@@ -1002,10 +1086,13 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Promoted birtherism for years; manufactured the Big Lie about 2020 election fraud', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Fox News', type: 'corporation', relationship: 'Amplified voter fraud claims and other political hoaxes to partisan audiences', href: '/entities/corporations/fox-news' },
  ],
+   eventOriginDate: '2025-09-21',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'political-hypocrisy': {
  title: 'Political Hypocrisy Exposed',
- subtitle: 'Documented cases of politicians violating the principles they publicly champion; from family values scandals to fiscal responsibility fraud',
+ subtitle: 'American political history is filled with documented hypocrisy; from anti-gay legislators caught in same-sex encounters to deficit hawks who explode...',
  severity: 'high',
  category: 'Political Corruption',
  date: 'May 8, 2022',
@@ -1030,6 +1117,9 @@ const investigations_p: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Congress', type: 'agency', relationship: 'Systematic pattern of rules for constituents that members exempt themselves from', href: '/entities/agencies/congress' },
  ],
+   eventOriginDate: '2022-05-08',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'political-opportunism': {
  title: 'Political Opportunism and Crisis Exploitation',
@@ -1060,6 +1150,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Funded disaster capitalism policy networks and climate denial', href: '/entities/corporations/koch-industries' },
  { id: '3', name: 'Leonard Leo', type: 'individual', relationship: 'Leveraged crisis moments to advance judicial appointments', href: '/entities/individuals/leonard-leo' },
  ],
+   eventOriginDate: '2017-05-21',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },  'political-violence': {
  title: 'Political Violence in America',
  subtitle: 'Rising tide of politically motivated threats, intimidation, and violence targeting officials and institutions',
@@ -1125,10 +1218,13 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '2', name: 'DHS', type: 'agency', relationship: 'Implemented NSEERS; administered travel bans targeting Muslim-majority nations', href: '/entities/agencies/dhs' },
  { id: '3', name: 'DOJ', type: 'agency', relationship: 'Mass detention of 1,200+ Muslim men after 9/11 without terrorism charges', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2016-11-30',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'predatory-lending': {
  title: 'Predatory Lending and Financial Exploitation',
- subtitle: 'How banks; payday lenders; and financial institutions systematically target low-income and minority communities with exploitative loans designed to trap borrowers in debt',
+ subtitle: 'Predatory lending; the practice of offering loans with exploitative terms to vulnerable borrowers; has devastated communities of color and low-income neighborhoods.',
  severity: 'critical',
  category: 'Financial Crime',
  date: 'May 11, 2020',
@@ -1155,10 +1251,13 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '2', name: 'CFPB', type: 'agency', relationship: 'Created to combat predatory lending but faces constant industry and political attacks', href: '/entities/agencies/cfpb' },
  { id: '3', name: 'DOJ', type: 'agency', relationship: 'Settled fair lending cases but penalties rarely match the wealth stripped from communities', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2020-05-11',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'press-freedom': {
  title: 'Press Freedom Under Siege',
- subtitle: 'The escalating war on journalism in America through prosecution of sources; surveillance of reporters; and political attacks designed to delegitimize independent media',
+ subtitle: 'Press freedom in the United States has eroded dramatically.',
  severity: 'critical',
  category: 'Civil Rights',
  date: 'June 18, 2024',
@@ -1184,10 +1283,13 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted sources under Espionage Act and secretly surveilled reporters\' communications', href: '/entities/agencies/doj' },
  { id: '2', name: 'Julian Assange', type: 'individual', relationship: 'First publisher charged under Espionage Act; setting precedent for criminalizing journalism', href: '/entities/individuals/julian-assange' },
  ],
+   eventOriginDate: '2024-06-18',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'press-freedom-violations': {
  title: 'Global Press Freedom Violations',
- subtitle: 'Systematic suppression of journalism worldwide through murder; imprisonment; surveillance; and legal persecution of reporters documenting corruption and abuse',
+ subtitle: 'Journalism is under attack worldwide.',
  severity: 'critical',
  category: 'Civil Rights',
  date: 'September 15, 2021',
@@ -1212,6 +1314,9 @@ const investigations_p: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted sources and surveilled journalists covering national security', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2021-09-15',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'prison-industrial-complex': {
  title: 'The Prison Industrial Complex',
@@ -1243,6 +1348,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '2', name: 'GEO Group', type: 'corporation', relationship: 'Second-largest private prison operator; donated $475,000 to Trump inaugural committee', href: '/entities/corporations/geo-group' },
  { id: '3', name: 'DOJ', type: 'agency', relationship: 'Oversees federal prison system; issued and rescinded guidance on reducing private prison use', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2025-09-03',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'private-equity-abuses': {
  title: 'Private Equity Industry Abuses',
@@ -1273,6 +1381,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '2', name: 'Apollo Global', type: 'corporation', relationship: 'Major PE firm; CEO Leon Black\'s ties to Jeffrey Epstein; aggressive healthcare acquisitions', href: '/entities/corporations/apollo-global' },
  { id: '3', name: 'SEC', type: 'agency', relationship: 'Minimal regulatory oversight of $12 trillion PE industry and its fee practices', href: '/entities/agencies/sec' },
  ],
+   eventOriginDate: '2017-07-16',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'private-equity-housing': {
  title: 'Private Equity\'s Takeover of American Housing',
@@ -1302,6 +1413,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Created Invitation Homes; nation\'s largest single-family landlord with 80,000+ properties', href: '/entities/corporations/blackstone-group' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Investigating algorithmic rent-setting by corporate landlords using RealPage software', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2025-10-04',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'private-prison-corruption': {
  title: 'Private Prison Corruption',
@@ -1331,6 +1445,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'CoreCivic', type: 'corporation', relationship: 'Nation\'s largest private prison company; lobbied for mandatory minimums and immigration detention', href: '/entities/corporations/corecivic' },
  { id: '2', name: 'GEO Group', type: 'corporation', relationship: 'Donated $475,000 to Trump inaugural; operates 80% of private immigration detention beds', href: '/entities/corporations/geo-group' },
  ],
+   eventOriginDate: '2020-01-11',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'prosecutorial-misconduct': {
  title: 'Prosecutorial Misconduct in America',
@@ -1360,6 +1477,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutors who committed misconduct face rare internal discipline', href: '/entities/agencies/doj' },
  { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created absolute immunity doctrine shielding prosecutors from civil liability', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2022-04-13',
+   lastActivityDate: '2025-07-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'protest-violence': {
  title: 'Police Violence Against Protesters: Suppressing Dissent Through Force',
@@ -1384,6 +1504,9 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '1', name: 'DHS', type: 'agency', relationship: 'Deployed federal agents against protesters', href: '/entities/agencies/dhs' },
  { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Called for military force against protesters', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2009-07-09',
+   lastActivityDate: '2026-01-25',
+   pageUpdatedDate: '2025-03-18',
  },
   'public-health-threats': {
  title: 'Manufactured Public Health Threats: Profits Over Prevention',
@@ -1408,6 +1531,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Press freedom prosecutions', href: '/entities/agencies/doj' },
       { id: '2', name: 'Julian Assange', type: 'individual', relationship: 'WikiLeaks publisher, imprisoned for publishing', href: '/entities/individuals/julian-assange' },
     ],
+   eventOriginDate: '2018-03-04',
+   lastActivityDate: '2025-07-18',
+   pageUpdatedDate: '2025-03-18',
  },
   'pulse-shooting': {
  title: 'Pulse Nightclub Shooting: 49 Lives Lost to Hate',
@@ -1431,6 +1557,9 @@ const investigations_p: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Had investigated shooter previously', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2013-05-20',
+   lastActivityDate: '2024-01-08',
+   pageUpdatedDate: '2025-03-18',
  },
   'purdue-pharma': {
  title: 'Purdue Pharma and the Sackler Family: Architects of the Opioid Epidemic',
@@ -1454,6 +1583,9 @@ const investigations_p: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/purdue-pharma' },
  ],
+   eventOriginDate: '2025-04-09',
+   lastActivityDate: '2025-05-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'ppp-loan-fraud-epidemic': {
     title: 'PPP Loan Fraud Epidemic',
@@ -1481,6 +1613,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted 3,000+ PPP fraud defendants but could only address a fraction of estimated $100-200 billion in fraud', href: '/entities/agencies/doj' },
       { id: '2', name: 'Small Business Administration', type: 'agency', relationship: 'Administered PPP with deliberately weakened verification; processed loans without basic identity or payroll confirmation', href: '/entities/agencies/small-business-administration' },
     ],
+   eventOriginDate: '2020-03-27',
+   lastActivityDate: '2024-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'predatory-lending-systematic-exploitation': {
     title: 'Predatory Lending Systematic Exploitation',
@@ -1508,10 +1643,13 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Paid $175 million to settle DOJ allegations of steering Black and Latino borrowers into subprime loans', href: '/entities/corporations/wells-fargo' },
       { id: '2', name: 'CFPB', type: 'agency', relationship: 'Created to address predatory lending but systematically undermined by industry lobbying and political attacks', href: '/entities/agencies/cfpb' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2024-12-30',
+   pageUpdatedDate: '2025-03-18',
   },
   'penny-stock-pump-and-dump-networks': {
     title: 'Penny Stock Pump and Dump Networks',
-    subtitle: 'Organized crime networks, boiler rooms, and social media manipulation schemes that defraud retail investors of billions through coordinated stock promotion fraud',
+    subtitle: 'Penny stock pump-and-dump schemes remain one of the most persistent forms of securities fraud, generating billions in losses for retail investors annually.',
     severity: 'high',
     category: 'Financial Crime',
     date: 'January 1, 2000',
@@ -1534,6 +1672,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Brings 50-75 penny stock enforcement actions annually but cannot keep pace with thousands of active manipulation schemes', href: '/entities/agencies/sec' },
       { id: '2', name: 'FINRA', type: 'agency', relationship: 'Self-regulatory organization monitoring OTC trading patterns for manipulation indicators', href: '/entities/agencies/finra' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2025-04-27',
+   pageUpdatedDate: '2025-03-18',
   },
   'project-mkultra-subproject-registry': {
     title: 'Project MKUltra Subproject Registry',
@@ -1559,6 +1700,9 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Created and operated 149+ MKUltra subprojects from 1953-1973; Director Helms ordered mass file destruction in 1973', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '1953-04-13',
+   lastActivityDate: '2025-06-28',
+   pageUpdatedDate: '2025-03-18',
   },
   'pentagon-papers-full-implications': {
     title: 'Pentagon Papers Full Implications',
@@ -1585,6 +1729,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Commissioned the study documenting four administrations\' systematic deception about Vietnam', href: '/entities/agencies/pentagon' },
       { id: '2', name: 'CIA', type: 'agency', relationship: 'Operations in Vietnam documented in the study; including covert action against Diem government', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '1971-06-13',
+   lastActivityDate: '2022-01-28',
+   pageUpdatedDate: '2025-03-18',
   },
   'prism-surveillance-program': {
     title: 'PRISM Surveillance Program',
@@ -1612,10 +1759,13 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Operated PRISM from 2007; collected communications data from nine major tech companies under Section 702 authority', href: '/entities/agencies/nsa' },
       { id: '2', name: 'Google', type: 'corporation', relationship: 'Provided data access to NSA through PRISM since 2009; later implemented transparency reports and encryption', href: '/entities/corporations/google' },
     ],
+   eventOriginDate: '2013-06-06',
+   lastActivityDate: '2026-01-08',
+   pageUpdatedDate: '2025-03-18',
   },
   'pharmaceutical-influence-on-fda-decisions': {
     title: 'Pharmaceutical Influence on FDA Decisions',
-    subtitle: 'Regulatory capture in action; how the pharmaceutical industry funds, staffs, and controls the agency tasked with protecting the public from unsafe drugs',
+    subtitle: 'The FDA receives over 45% of its drug regulation budget from user fees paid by the pharmaceutical companies it regulates; a financial dependency...',
     severity: 'critical',
     category: 'Public Health',
     date: 'January 1, 1992',
@@ -1638,6 +1788,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Receives 65%+ of drug review budget from pharmaceutical user fees; documented revolving door with industry', href: '/entities/agencies/fda' },
       { id: '2', name: 'Pfizer', type: 'corporation', relationship: 'Major PDUFA fee payer; hired former FDA Commissioner Scott Gottlieb for its board', href: '/entities/corporations/pfizer' },
     ],
+   eventOriginDate: '1992-01-01',
+   lastActivityDate: '2025-08-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'pharmaceutical-lobbying-machine': {
     title: 'Pharmaceutical Lobbying Machine',
@@ -1664,10 +1817,13 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Subject of pharmaceutical lobbying; industry user fees create financial dependency', href: '/entities/agencies/fda' },
       { id: '2', name: 'United States Congress', type: 'agency', relationship: 'Received $92 million from pharma in 2020 cycle; key members blocked drug pricing reforms for decades', href: '/entities/agencies/congress' },
     ],
+   eventOriginDate: '1998-01-01',
+   lastActivityDate: '2025-04-13',
+   pageUpdatedDate: '2025-03-18',
   },
   'pfas-forever-chemicals-cover-up': {
     title: 'PFAS Forever Chemicals Cover-Up',
-    subtitle: 'How DuPont and 3M concealed evidence that PFAS contaminated the blood of 98% of Americans and caused cancer, liver damage, and immune suppression; for over 50 years',
+    subtitle: 'Per- and polyfluoroalkyl substances (PFAS); known as "forever chemicals" because they do not break down in the environment; contaminate the drinking...',
     severity: 'critical',
     category: 'Environmental',
     date: 'January 1, 1970',
@@ -1691,6 +1847,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '2', name: '3M Company', type: 'corporation', relationship: 'Original PFOS manufacturer; knew of blood accumulation since 1970s; settled for $10.3 billion in 2023', href: '/entities/corporations/3m-company' },
       { id: '3', name: 'EPA', type: 'agency', relationship: 'Failed to regulate PFAS for decades despite evidence of widespread contamination and toxicity', href: '/entities/agencies/epa' },
     ],
+   eventOriginDate: '1970-01-01',
+   lastActivityDate: '2024-01-04',
+   pageUpdatedDate: '2025-03-18',
   },
   'pesticide-bee-colony-collapse': {
     title: 'Pesticide Bee Colony Collapse',
@@ -1717,6 +1876,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Delayed neonicotinoid restrictions for 15+ years despite evidence of harm; political appointees overruled scientists', href: '/entities/agencies/epa' },
       { id: '2', name: 'Bayer AG', type: 'corporation', relationship: 'Manufacturer of imidacloprid and clothianidin; funded disinformation campaign to obscure pesticide-bee connection', href: '/entities/corporations/bayer-ag' },
     ],
+   eventOriginDate: '2006-10-01',
+   lastActivityDate: '2025-04-17',
+   pageUpdatedDate: '2025-03-18',
   },
   'predictive-policing-algorithmic-racism': {
     title: 'Predictive Policing Algorithmic Racism',
@@ -1742,10 +1904,13 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Deployed Gotham platform for predictive policing in New Orleans secretly without public knowledge or city council approval', href: '/entities/corporations/palantir' },
     ],
+   eventOriginDate: '2012-01-01',
+   lastActivityDate: '2025-09-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'pharmaceutical-ghost-writing': {
     title: 'Pharmaceutical Ghost Writing',
-    subtitle: 'How drug companies secretly write medical journal articles under the names of academic physicians; corrupting the scientific literature that guides patient care',
+    subtitle: 'Pharmaceutical companies routinely hire medical communications firms to write journal articles promoting their products, then pay academic physicians to attach their names as "authors.',
     severity: 'high',
     category: 'Public Health',
     date: 'January 1, 2000',
@@ -1768,10 +1933,13 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Relies on published literature for drug safety assessments; ghostwritten articles corrupt the evidence base', href: '/entities/agencies/fda' },
       { id: '2', name: 'Pfizer', type: 'corporation', relationship: 'Multiple subsidiaries including Wyeth documented using ghostwriting services to promote hormone therapy drugs', href: '/entities/corporations/pfizer' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2023-12-21',
+   pageUpdatedDate: '2025-03-18',
   },
   'pentagon-budget-black-programs': {
     title: 'Pentagon Budget Black Programs',
-    subtitle: 'The $900+ billion defense budget contains hundreds of billions in classified "black" programs that receive no public scrutiny; and the Pentagon has never passed an audit',
+    subtitle: 'Up to $100 billion in classified programs with virtually no oversight, and the Pentagon fails every audit.',
     severity: 'critical',
     category: 'Military & Defense',
     date: 'September 10, 2001',
@@ -1794,6 +1962,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Failed every financial audit since 2018; cannot account for 61% of $3.8 trillion in assets', href: '/entities/agencies/pentagon' },
       { id: '2', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Largest defense contractor; primary F-35 manufacturer ($1.7 trillion lifetime program cost); major recipient of classified contracts', href: '/entities/corporations/lockheed-martin' },
     ],
+   eventOriginDate: '2001-09-10',
+   lastActivityDate: '2023-11-11',
+   pageUpdatedDate: '2025-03-18',
   },
   'prosecutorial-misconduct-database': {
     title: 'Prosecutorial Misconduct Database',
@@ -1819,6 +1990,9 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutors identified in over 2,000 misconduct findings; no disbarments resulted', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2025-10-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'private-military-contractor-accountability': {
     title: 'Private Military Contractor Accountability',
@@ -1845,6 +2019,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'Blackwater', type: 'corporation', relationship: 'Nisour Square massacre killed 17 Iraqi civilians; four operatives convicted then pardoned by President Trump', href: '/entities/corporations/blackwater' },
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Contractor oversight failures documented by Commission on Wartime Contracting; $300B+ in private military spending', href: '/entities/agencies/pentagon' },
     ],
+   eventOriginDate: '2007-09-16',
+   lastActivityDate: '2022-02-09',
+   pageUpdatedDate: '2025-03-18',
   },
   'propaganda-networks-domestic-operations': {
     title: 'Propaganda Networks Domestic Operations',
@@ -1871,6 +2048,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated Mockingbird program recruiting 400+ journalists; maintained relationships with 25+ major media organizations', href: '/entities/agencies/cia' },
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Ran military analyst program feeding talking points to 75+ TV commentators to promote war narrative', href: '/entities/agencies/pentagon' },
     ],
+   eventOriginDate: '1948-01-01',
+   lastActivityDate: '2025-01-26',
+   pageUpdatedDate: '2025-03-18',
   },
   'prison-industrial-complex-profit-motive': {
     title: 'Prison Industrial Complex Profit Motive',
@@ -1897,6 +2077,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'CoreCivic', type: 'corporation', relationship: 'Largest private prison operator; $2B+ annual revenue; lobbied for harsher sentencing through ALEC', href: '/entities/corporations/corecivic' },
       { id: '2', name: 'GEO Group', type: 'corporation', relationship: 'Second largest private prison operator; donated $475K to pro-Trump PAC; received immigrant detention contracts', href: '/entities/corporations/geo-group' },
     ],
+   eventOriginDate: '1983-01-01',
+   lastActivityDate: '2025-04-09',
+   pageUpdatedDate: '2025-03-18',
   },
   'police-union-misconduct-protection': {
     title: 'Police Union Misconduct Protection',
@@ -1922,6 +2105,9 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Fraternal Order of Police', type: 'organization', relationship: 'Largest police union (365,000 members); opposes body cameras, civilian oversight, qualified immunity reform, and independent prosecution', href: '/entities/organizations/fop' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2025-12-07',
+   pageUpdatedDate: '2025-03-18',
   },
   'pharmaceutical-fertility-side-effects': {
     title: 'Pharmaceutical Fertility Side Effects',
@@ -1947,6 +2133,9 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Required Propecia label changes in 2012 for persistent sexual side effects; inadequate pre-approval fertility assessment requirements', href: '/entities/agencies/fda' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2025-01-28',
+   pageUpdatedDate: '2025-03-18',
   },
   'pharmaceutical-sales-rep-corruption': {
     title: 'Pharmaceutical Sales Rep Corruption',
@@ -1973,6 +2162,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Regulates drug promotion but enforcement is limited; off-label promotion remains pervasive', href: '/entities/agencies/fda' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted off-label marketing and kickback schemes resulting in $35B+ in settlements since 2000', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2025-10-11',
+   pageUpdatedDate: '2025-03-18',
   },
   'port-authority-corruption-investigations': {
     title: 'Port Authority Corruption Investigations',
@@ -1998,6 +2190,9 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigated Bridgegate and multiple Port Authority corruption cases', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '1995-01-01',
+   lastActivityDate: '2025-03-07',
+   pageUpdatedDate: '2025-03-18',
   },
   'psychological-operations-domestic-theater': {
     title: 'Psychological Operations Domestic Theater',
@@ -2024,6 +2219,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Maintains PSYOP forces with capabilities deployed domestically; military analyst program targeted American public opinion', href: '/entities/agencies/pentagon' },
       { id: '2', name: 'CIA', type: 'agency', relationship: 'Historical domestic propaganda operations including Operation Mockingbird and Congress for Cultural Freedom', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '1950-01-01',
+   lastActivityDate: '2025-03-19',
+   pageUpdatedDate: '2025-03-18',
   },
   'plastic-industry-recycling-fraud': {
     title: 'Plastic Industry Recycling Fraud',
@@ -2049,10 +2247,13 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Largest petrochemical producer; promoted chemical recycling while investing $400B+ in new plastic production capacity', href: '/entities/corporations/exxonmobil' },
     ],
+   eventOriginDate: '1988-01-01',
+   lastActivityDate: '2026-01-26',
+   pageUpdatedDate: '2025-03-18',
   },
   'payroll-tax-fraud-industry-analysis': {
     title: 'Payroll Tax Fraud Industry Analysis',
-    subtitle: 'The $20+ billion annual theft from workers and taxpayers through misclassification, off-the-books labor, and shell company payroll schemes concentrated in construction, trucking, and home care',
+    subtitle: 'Payroll tax fraud; encompassing worker misclassification as independent contractors, off-the-books cash payments, and shell company payroll schemes;...',
     severity: 'medium',
     category: 'Financial Crime',
     date: 'January 1, 2000',
@@ -2074,6 +2275,9 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Enforcement capacity degraded by budget cuts; conducts only 6,000 employment tax examinations annually', href: '/entities/agencies/irs' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2023-03-14',
+   pageUpdatedDate: '2025-03-18',
   },
   'pharmaceutical-waste-environmental-impact': {
     title: 'Pharmaceutical Waste Environmental Impact',
@@ -2100,6 +2304,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Has not established maximum contaminant levels for any pharmaceutical compound in drinking water despite decades of evidence', href: '/entities/agencies/epa' },
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Requires no environmental impact assessment for most drug approvals; previously recommended flushing medications into water systems', href: '/entities/agencies/fda' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2023-04-27',
+   pageUpdatedDate: '2025-03-18',
   },
   'port-city-trafficking-hub-analysis': {
     title: 'Port City Trafficking Hub Analysis',
@@ -2126,6 +2333,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'DHS', type: 'agency', relationship: 'Oversees port security and anti-trafficking through ICE HSI; Blue Campaign awareness; inspects less than 5% of inbound containers', href: '/entities/agencies/dhs' },
       { id: '2', name: 'CBP', type: 'agency', relationship: 'Port of entry enforcement and container inspection; relies on algorithm-based targeting due to volume constraints', href: '/entities/agencies/cbp' },
     ],
+   eventOriginDate: '2010-01-01',
+   lastActivityDate: '2024-04-19',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -2345,6 +2555,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '2', name: 'DEA', type: 'agency', relationship: 'Failed to enforce suspicious distribution orders; power to act stripped by pharma-lobbied legislation', href: '/entities/agencies/dea' },
       { id: '3', name: 'DOJ', type: 'agency', relationship: 'Secured 2007 plea deal allowing Purdue to pay $634M fine with no executive imprisonment; no criminal charges against Sackler family', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1995-12-12',
+   lastActivityDate: '2026-04-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'private-prison-industrial-complex': {
     title: 'The Private Prison Industrial Complex',
@@ -2372,6 +2585,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'OIG documented systemic failures in private prison oversight; attempted phase-out reversed by subsequent administration', href: '/entities/agencies/doj' },
       { id: '3', name: 'DHS', type: 'agency', relationship: 'Exempt from Biden executive order on private prisons; OIG documented inhumane conditions in private detention', href: '/entities/agencies/dhs' },
     ],
+   eventOriginDate: '1983-01-28',
+   lastActivityDate: '2026-02-28',
+   pageUpdatedDate: '2025-03-18',
   },
   'pharma-lobbying-congress-prescription-for-corruption': {
     title: 'Pharmaceutical Industry Lobbying: A Prescription for Corruption',
@@ -2399,6 +2615,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: '65% of drug review budget funded by pharmaceutical industry user fees; revolving door with industry documented across all commissioner appointments', href: '/entities/agencies/fda' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Documented $3.5B annual cost of pay-for-delay agreements; limited enforcement against patent gaming strategies', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2020-01-15',
+   lastActivityDate: '2026-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'police-body-camera-manipulation-transparency-theater': {
     title: 'Police Body Camera Manipulation: Transparency Theater',
@@ -2424,10 +2643,13 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Distributed $70M+ in BWC grants; pattern-and-practice investigations reveal systemic activation failures across departments', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2020-06-01',
+   lastActivityDate: '2026-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'predatory-lending-payday-loan-debt-trap': {
     title: 'Predatory Lending and the Payday Loan Debt Trap',
-    subtitle: 'How a $90 billion predatory lending industry traps 12 million Americans annually in cycles of 400% APR debt while spending millions lobbying state legislatures to block interest rate caps',
+    subtitle: 'The payday lending industry extracts $9 billion annually in fees and interest from Americans who are disproportionately low-income, Black, and Latino.',
     severity: 'high',
     category: 'Economic Exploitation / Consumer Protection',
     date: 'March 15, 2019',
@@ -2450,6 +2672,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Created to regulate payday lending; 2017 ability-to-repay rule gutted by Trump-appointed leadership who received payday industry donations', href: '/entities/agencies/cfpb' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Brings deceptive practices cases against payday lenders; Operation Payday enforcement sweep targeted illegal online lenders', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2019-03-15',
+   lastActivityDate: '2025-12-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'pfas-forever-chemicals-coverup': {
     slug: 'pfas-forever-chemicals-coverup',
@@ -2477,6 +2702,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Set first enforceable PFAS drinking water limits in 2024 after 50+ years; fined DuPont only $16.5M for decades of concealment', href: '/entities/agencies/epa' },
       { id: '2', name: 'DOD', type: 'agency', relationship: 'Over 700 military installations with PFAS contamination from AFFF firefighting foam; cleanup costs estimated at tens of billions', href: '/entities/agencies/dod' },
     ],
+   eventOriginDate: '2001-03-06',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'private-equity-healthcare-destruction': {
     slug: 'private-equity-healthcare-destruction',
@@ -2504,6 +2732,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Increased scrutiny of PE healthcare roll-ups; challenged some mergers but resources insufficient for scale of the problem', href: '/entities/agencies/ftc' },
       { id: '2', name: 'HHS', type: 'agency', relationship: 'CMS proposed minimum nursing home staffing rules; OIG investigates PE-backed healthcare fraud', href: '/entities/agencies/hhs' },
     ],
+   eventOriginDate: '2018-06-15',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'police-militarization-1033-program': {
     slug: 'police-militarization-1033-program',
@@ -2531,6 +2762,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Administers 1033 Program through Defense Logistics Agency; transferred $7.4B+ in military equipment to police with minimal oversight', href: '/entities/agencies/dod' },
       { id: '2', name: 'DHS', type: 'agency', relationship: 'Distributed $41B+ in counter-terrorism grants to local police departments for military-style equipment and surveillance since 2001', href: '/entities/agencies/dhs' },
     ],
+   eventOriginDate: '1997-01-01',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'pge-wildfire-criminal-negligence': {
     slug: 'pge-wildfire-criminal-negligence',
@@ -2557,10 +2791,13 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CPUC', type: 'agency', relationship: 'Primary regulator that approved PG&E rate increases while the company deferred maintenance; failed to enforce safety requirements for decades', href: '/entities/agencies/cpuc' },
     ],
+   eventOriginDate: '2018-11-08',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'pfas-forever-chemicals-contamination': {
     title: 'PFAS: The Forever Chemical Contamination of America',
-    subtitle: 'How 3M, DuPont, and other chemical manufacturers knowingly contaminated the water supply of over 200 million Americans with indestructible PFAS compounds linked to cancer, immune dysfunction, and reproductive harm while concealing evidence of toxicity for over 50 years',
+    subtitle: 'Per- and polyfluoroalkyl substances (PFAS), known as "forever chemicals" because they do not break down in the environment, have contaminated the drinking water of an estimated 200 million Americans.',
     severity: 'critical',
     category: 'Environmental Crime / Public Health',
     date: 'January 1, 1951',
@@ -2583,6 +2820,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Failed to regulate PFAS for 50+ years despite evidence of toxicity; 2016 advisory was inadequate; 2023 MCL of 4 ppt implicitly acknowledged decades of failure', href: '/entities/agencies/epa' },
       { id: '2', name: 'DOD', type: 'agency', relationship: 'Used AFFF foam at 700+ installations; contaminated surrounding communities; cleanup timelines extend decades; resisted financial responsibility', href: '/entities/agencies/dod' },
     ],
+   eventOriginDate: '1951-01-01',
+   lastActivityDate: '2026-03-08',
+   pageUpdatedDate: '2025-03-18',
   },
   'police-qualified-immunity-brutality': {
     title: 'Police Qualified Immunity and Systemic Brutality',
@@ -2609,6 +2849,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division conducts pattern-or-practice investigations but political administration changes determine enforcement intensity; Sessions/Barr reversed Obama-era reforms', href: '/entities/agencies/doj' },
       { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created and expanded qualified immunity doctrine with no statutory basis; repeatedly declined to reconsider despite calls from across political spectrum', href: '/entities/agencies/supreme-court' },
     ],
+   eventOriginDate: '2024-11-01',
+   lastActivityDate: '2025-03-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'predatory-lending-post-crisis': {
     title: 'Predatory Lending After the Financial Crisis',
@@ -2635,6 +2878,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Created to combat predatory lending but repeatedly defunded and politically attacked; returned $20B to consumers when functional', href: '/entities/agencies/cfpb' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Shares consumer protection jurisdiction but limited enforcement budget; defers to CFPB on financial products when CFPB is active', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2024-10-15',
+   lastActivityDate: '2025-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'pharmaceutical-patent-abuse': {
     title: 'Pharmaceutical Patent Abuse and Drug Price Manipulation',
@@ -2661,6 +2907,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves patents through Orange Book listings that can be gamed; generic approval process (ANDA) subject to patent evergreening delays; user fee funding model creates industry dependence', href: '/entities/agencies/fda' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Monitors pay-for-delay deals and PBM concentration; challenged Amgen-Horizon merger; limited authority to address patent thickets directly', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2024-09-15',
+   lastActivityDate: '2025-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'pine-ridge-reign-of-terror': {
     title: 'Pine Ridge Reign of Terror: FBI, COINTELPRO, and the War Against the American Indian Movement',
@@ -2716,6 +2965,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '2', name: 'Richard Sackler', type: 'individual', relationship: 'Son of co-founder Raymond Sackler; served as president of Purdue; emails showed he directed aggressive marketing strategy and blamed addicted users as "reckless criminals"; helped extract $10.7 billion from Purdue before bankruptcy; has never been criminally charged', href: '/entities/individuals/richard-sackler' },
       { id: '3', name: 'FDA', type: 'agency', relationship: 'Approved the original OxyContin label that included Purdue-favorable language about lower abuse potential; reviewer Curtis Wright, who approved the label, left the FDA and was hired by Purdue within two years; agency subsequently tightened opioid labeling requirements but was criticized for acting too slowly', href: '/entities/agencies/fda' },
     ],
+   eventOriginDate: '1996-01-01',
+   lastActivityDate: '2025-09-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'puerto-rico-contraceptive-trials': {
     slug: 'puerto-rico-contraceptive-trials',
@@ -2745,6 +2997,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { id: '2', name: 'Gregory Pincus', type: 'individual', relationship: 'Biologist who developed Enovid and chose Puerto Rico as the trial site specifically because its colonial status and poverty enabled research that mainland laws and ethics prevented; dismissed reported side effects as psychosomatic; marginalized Dr. Rice-Wray when she raised safety concerns', href: '/entities/individuals/gregory-pincus' },
       { id: '3', name: 'FDA', type: 'agency', relationship: 'Approved Enovid in 1960 based on Puerto Rico trial data that the medical director herself had called unacceptable; did not investigate three unreported deaths during the trials; did not require adequate informed consent disclosure for the original high-dose formulation', href: '/entities/agencies/fda' },
     ],
+   eventOriginDate: '1955-04-01',
+   lastActivityDate: '2025-05-01',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

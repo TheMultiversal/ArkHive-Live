@@ -41,6 +41,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '6', name: 'Jeanine Pirro', type: 'individual', relationship: 'Spread election fraud claims', href: '/entities/individuals/jeanine-pirro' },
  { id: '7', name: 'Maria Bartiromo', type: 'individual', relationship: 'Platformed Powell, Giuliani lies', href: '/entities/individuals/maria-bartiromo' },
  ],
+   eventOriginDate: '2021-09-08',
+   lastActivityDate: '2024-01-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'mueller-suppression': {
  title: 'Mueller Report Suppression',
@@ -79,6 +82,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '4', name: 'DOJ', type: 'agency', relationship: 'Used to protect Trump', href: '/entities/agencies/doj' },
  { id: '5', name: 'Rod Rosenstein', type: 'individual', relationship: 'Deputy AG who signed off', href: '/entities/individuals/rod-rosenstein' },
  ],
+   eventOriginDate: '2019-04-18',
+   lastActivityDate: '2020-04-01',
+   pageUpdatedDate: '2025-03-18',
  },
   'military-industrial': {
  title: 'Military Industrial Complex',
@@ -118,6 +124,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '5', name: 'Department of Defense', type: 'agency', relationship: 'Pentagon procurement', href: '/entities/agencies/department-of-defense' },
  { id: '6', name: 'Congress', type: 'agency', relationship: 'Appropriates defense budget', href: '/entities/agencies/congress' },
  ],
+   eventOriginDate: '2011-08-19',
+   lastActivityDate: '2023-06-28',
+   pageUpdatedDate: '2025-03-18',
  },
   'media-control': {
  title: 'Media Consolidation and Control',
@@ -155,6 +164,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '4', name: 'FCC', type: 'agency', relationship: 'Enabled consolidation', href: '/entities/agencies/fcc' },
  { id: '5', name: 'Google', type: 'corporation', relationship: 'Platform controlling news distribution', href: '/entities/corporations/google' },
  ],
+   eventOriginDate: '2022-03-19',
+   lastActivityDate: '2026-02-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'medical-tyranny': {
  title: 'COVID Restrictions Debate',
@@ -187,6 +199,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '3', name: 'Ron DeSantis', type: 'individual', relationship: 'Led early reopening in Florida', href: '/entities/individuals/ron-desantis' },
  { id: '4', name: 'ACLU', type: 'organization', relationship: 'Monitored civil liberties impacts', href: '/entities/organizations/aclu' },
  ],
+   eventOriginDate: '2020-04-30',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'media-consolidation': {
  title: 'Media Consolidation',
@@ -209,6 +224,9 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Sinclair Broadcast Group', type: 'corporation', relationship: 'Conservative propaganda network', href: '/entities/corporations/sinclair-broadcast-group' },
  ],
+   eventOriginDate: '2022-05-12',
+   lastActivityDate: '2025-08-25',
+   pageUpdatedDate: '2025-03-18',
  },
   'media-manipulation': {
  title: 'Media Manipulation',
@@ -231,10 +249,13 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Right-wing propaganda outlet', href: '/entities/corporations/fox-news' },
  ],
+   eventOriginDate: '2022-01-25',
+   lastActivityDate: '2026-02-16',
+   pageUpdatedDate: '2025-03-18',
  },
   'madoff-ponzi': {
  title: 'Bernie Madoff Ponzi Scheme',
- subtitle: 'The largest financial fraud in American history; a $64.8 billion Ponzi scheme that destroyed thousands of lives while regulators looked the other way',
+ subtitle: 'Bernard L.',
  severity: 'critical',
  category: 'Financial Crime',
  date: 'December 11, 2008',
@@ -266,6 +287,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Prosecuted Madoff and associates; secured 150-year sentence', href: '/entities/agencies/doj' },
  { id: '3', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Primary bank for Madoff for 20+ years; paid $2.6B penalty for failing to report suspicious activity', href: '/entities/corporations/jpmorgan-chase' },
  ],
+   eventOriginDate: '2008-12-11',
+   lastActivityDate: '2026-03-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'mass-shootings-in-america': {
  title: 'Mass Shootings in America',
@@ -301,6 +325,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '4', name: 'DOJ', type: 'agency', relationship: 'Investigated Uvalde law enforcement response failure', href: '/entities/agencies/doj' },
  { id: '5', name: 'ATF', type: 'agency', relationship: 'Undermined by laws preventing gun purchase database', href: '/entities/agencies/atf' },
  ],
+   eventOriginDate: '2021-04-20',
+   lastActivityDate: '2026-02-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'mccarrick-investigation': {
  title: 'Theodore McCarrick: The Vatican\'s Highest-Ranking Predator',
@@ -326,6 +353,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '2', name: 'FBI', type: 'agency', relationship: 'NICS background check system failures', href: '/entities/agencies/fbi' },
  { id: '3', name: 'United States Congress', type: 'agency', relationship: 'Failed to pass gun legislation', href: '/entities/agencies/congress' },
  ],
+   eventOriginDate: '2019-01-11',
+   lastActivityDate: '2022-03-01',
+   pageUpdatedDate: '2025-03-18',
  },
   'media-fraud': {
  title: 'Media Fraud: Fabrication, Manipulation, and Corporate Deception',
@@ -349,10 +379,13 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Dominion defamation, $787M settlement', href: '/entities/corporations/fox-news' },
  ],
+   eventOriginDate: '2022-04-15',
+   lastActivityDate: '2022-05-27',
+   pageUpdatedDate: '2025-03-18',
  },
   'media-industry-abuse': {
  title: 'Media Industry Abuse',
- subtitle: 'Systemic sexual harassment, toxic workplaces, and exploitation of power across news and entertainment media',
+ subtitle: 'The media industry has harbored serial abusers protected by institutional power for decades.',
  severity: 'critical',
  category: 'Abuse & Exploitation',
  date: 'August 29, 2023',
@@ -382,6 +415,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '2', name: 'Bill O\'Reilly', type: 'individual', relationship: 'Paid $45M in harassment settlements at Fox News', href: '/entities/individuals/bill-oreilly' },
  { id: '3', name: 'Charlie Rose', type: 'individual', relationship: 'Accused by 35 women of harassment', href: '/entities/individuals/charlie-rose' },
  ],
+   eventOriginDate: '2023-08-29',
+   lastActivityDate: '2024-02-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'media-radicalization': {
  title: 'Media Radicalization: The Pipeline from Mainstream to Extremism',
@@ -405,6 +441,9 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of enabled abuse in media', href: '/entities/individuals/harvey-weinstein' },
  ],
+   eventOriginDate: '2022-09-19',
+   lastActivityDate: '2024-07-03',
+   pageUpdatedDate: '2025-03-18',
  },  'medical-ethics': {
  title: 'Medical Ethics Violations',
  subtitle: 'History of unethical medical experimentation and healthcare industry abuses targeting vulnerable populations',
@@ -465,6 +504,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '1', name: 'Bob Menendez', type: 'individual', relationship: 'Senator convicted of bribery', href: '/entities/individuals/bob-menendez' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal corruption prosecution', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2025-12-28',
+   lastActivityDate: '2026-01-27',
+   pageUpdatedDate: '2025-03-18',
  },
   'metoo-media': {
  title: '#MeToo in Media: How Newsrooms Protected Predators',
@@ -488,6 +530,9 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Medical ethics oversight', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2022-11-24',
+   lastActivityDate: '2022-12-24',
+   pageUpdatedDate: '2025-03-18',
  },
   'michael-brown-shooting': {
  title: 'Michael Brown Shooting',
@@ -520,6 +565,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ Civil Rights Division', type: 'agency', relationship: 'Found systemic racial bias in Ferguson PD', href: '/entities/agencies/doj-civil-rights' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined federal civil rights charges against Wilson', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2023-01-14',
+   lastActivityDate: '2023-02-25',
+   pageUpdatedDate: '2025-03-18',
  },
   'military-industrial-ai': {
  title: 'Military AI: Autonomous Weapons and the Race to Lethal Autonomy',
@@ -544,6 +592,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'AI surveillance for military', href: '/entities/corporations/palantir' },
  { id: '2', name: 'Pentagon', type: 'agency', relationship: 'AI weapons development', href: '/entities/agencies/pentagon' },
  ],
+   eventOriginDate: '2025-08-01',
+   lastActivityDate: '2025-08-31',
+   pageUpdatedDate: '2025-03-18',
  },
   'military-industrial-complex': {
  title: 'The Military-Industrial Complex: America\'s Permanent War Economy',
@@ -569,6 +620,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '2', name: 'Raytheon Company (now RTX Corporation)', type: 'corporation', relationship: 'Major weapons manufacturer', href: '/entities/corporations/raytheon' },
  { id: '3', name: 'Pentagon', type: 'agency', relationship: 'Revolving door with contractors', href: '/entities/agencies/pentagon' },
  ],
+   eventOriginDate: '2025-07-26',
+   lastActivityDate: '2025-08-25',
+   pageUpdatedDate: '2025-03-18',
  },
   'military-readiness': {
  title: 'Military Readiness: A Hollow Force Behind the Budget',
@@ -592,6 +646,9 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Defense readiness concerns', href: '/entities/agencies/pentagon' },
  ],
+   eventOriginDate: '2024-11-13',
+   lastActivityDate: '2024-12-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'militia-movement': {
  title: 'America\'s Militia Movement: Armed Extremism and the Threat of Political Violence',
@@ -616,6 +673,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Ferguson pattern-or-practice investigation', href: '/entities/agencies/doj' },
  { id: '2', name: 'Darren Wilson', type: 'individual', relationship: 'Officer who killed Michael Brown', href: '/entities/individuals/darren-wilson' },
  ],
+   eventOriginDate: '2020-09-22',
+   lastActivityDate: '2023-11-25',
+   pageUpdatedDate: '2025-03-18',
  },
   'mississippi-welfare': {
  title: 'Mississippi Welfare Fraud: The Largest Public Fraud in State History',
@@ -640,6 +700,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '1', name: 'Brett Favre', type: 'individual', relationship: 'Received welfare funds for volleyball stadium', href: '/entities/individuals/brett-favre' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal welfare fraud investigation', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2019-04-22',
+   lastActivityDate: '2023-08-21',
+   pageUpdatedDate: '2025-03-18',
  },
   'monsanto-crimes': {
  title: 'Monsanto: Poisoning the World for Profit',
@@ -663,6 +726,9 @@ const investigations_m: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/monsanto' },
  ],
+   eventOriginDate: '2019-03-22',
+   lastActivityDate: '2024-12-12',
+   pageUpdatedDate: '2025-03-18',
  },
   'mortgage-fraud-crisis': {
  title: 'The Mortgage Fraud Crisis: How Banks Robbed Millions of Their Homes',
@@ -687,6 +753,9 @@ const investigations_m: Record<string, InvestigationData> = {
  { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Agent Orange, Roundup, PCBs', href: '/entities/corporations/monsanto' },
  { id: '2', name: 'Bayer AG', type: 'corporation', relationship: 'Acquired Monsanto and its liabilities', href: '/entities/corporations/bayer-ag' },
  ],
+   eventOriginDate: '2018-06-23',
+   lastActivityDate: '2025-02-03',
+   pageUpdatedDate: '2025-03-18',
  },
   'msu-coverup': {
  title: 'Michigan State University: Covering for Larry Nassar',
@@ -711,6 +780,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'AI surveillance for military', href: '/entities/corporations/palantir' },
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'AI weapons development', href: '/entities/agencies/pentagon' },
     ],
+   eventOriginDate: '2025-12-13',
+   lastActivityDate: '2026-01-12',
+   pageUpdatedDate: '2025-03-18',
  },  'music-industry-abuse': {
  title: 'Music Industry Abuse',
  subtitle: 'Exploitation, sexual abuse, and labor theft endemic to the music industry from executives to producers to artists',
@@ -771,6 +843,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal RICO prosecutions targeting MS-13 leadership structure', href: '/entities/agencies/doj' },
       { id: '3', name: 'ICE', type: 'agency', relationship: 'Mass deportation programs that exported MS-13 to Central America, creating transnational expansion', href: '/entities/agencies/ice' },
     ],
+   eventOriginDate: '2023-06-23',
+   lastActivityDate: '2024-09-17',
+   pageUpdatedDate: '2025-03-18',
   },
   'mkultra-full-declassification-analysis': {
     title: 'MKUltra Full Declassification Analysis',
@@ -799,6 +874,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'Sidney Gottlieb', type: 'individual', relationship: 'Director of MKUltra Technical Services Division; personally administered LSD to unwitting subjects; destroyed documents', href: '/entities/individuals/sidney-gottlieb' },
       { id: '3', name: 'Richard Helms', type: 'individual', relationship: 'CIA Director who ordered destruction of all MKUltra files in 1973; pled no contest to lying to Congress', href: '/entities/individuals/richard-helms' },
     ],
+   eventOriginDate: '2017-07-22',
+   lastActivityDate: '2022-06-29',
+   pageUpdatedDate: '2025-03-18',
   },
   'medicare-fraud-systematic-exploitation': {
     title: 'Medicare Fraud Systematic Exploitation',
@@ -828,10 +906,13 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecutes Medicare fraud through Health Care Fraud Unit and Medicare Fraud Strike Force; recovers $3-4B annually', href: '/entities/agencies/doj' },
       { id: '3', name: 'FBI', type: 'agency', relationship: 'Investigates organized Medicare fraud networks in coordination with HHS OIG', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2019-07-28',
+   lastActivityDate: '2025-03-24',
+   pageUpdatedDate: '2025-03-18',
   },
   'mind-control-programs-modern-era': {
     title: 'Mind Control Programs: Modern Era',
-    subtitle: 'Behavioral influence operations, neuroweapons research, and psychological manipulation programs that continued long after MKUltra was supposedly shut down',
+    subtitle: 'While MKUltra was officially terminated in 1973, declassified documents, whistleblower testimony, and FOIA releases reveal that research into...',
     severity: 'critical',
     category: 'Intelligence',
     date: 'March 14, 2012',
@@ -878,6 +959,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '7', name: 'Department of Defense', type: 'agency', relationship: 'Funds directed energy weapons research, DARPA neuroscience programs, and military PSYOP capabilities', href: '/entities/agencies/dod' },
       { id: '8', name: 'National Security Agency', type: 'agency', relationship: 'Signals intelligence capabilities intersect with electronic surveillance and behavioral monitoring programs', href: '/entities/agencies/nsa' },
     ],
+   eventOriginDate: '2012-03-14',
+   lastActivityDate: '2026-01-08',
+   pageUpdatedDate: '2025-03-18',
   },
   'microplastics-health-crisis': {
     title: 'Microplastics Health Crisis',
@@ -906,6 +990,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Has set no enforceable limits on microplastic contamination in drinking water or the environment', href: '/entities/agencies/epa' },
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Does not regulate microplastics in food or food packaging despite evidence of contamination', href: '/entities/agencies/fda' },
     ],
+   eventOriginDate: '2023-09-03',
+   lastActivityDate: '2023-12-23',
+   pageUpdatedDate: '2025-03-18',
   },
   'mass-surveillance-domestic-architecture': {
     title: 'Mass Surveillance Domestic Architecture',
@@ -935,6 +1022,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted 3.4 million warrantless searches of Section 702 data targeting Americans in 2021 alone', href: '/entities/agencies/fbi' },
       { id: '3', name: 'Edward Snowden', type: 'individual', relationship: 'NSA contractor who revealed the scope of domestic surveillance in 2013; charged under Espionage Act', href: '/entities/individuals/edward-snowden' },
     ],
+   eventOriginDate: '2020-03-04',
+   lastActivityDate: '2025-09-11',
+   pageUpdatedDate: '2025-03-18',
   },
   'military-base-environmental-contamination': {
     title: 'Military Base Environmental Contamination',
@@ -964,6 +1054,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'EPA', type: 'agency', relationship: 'Sets environmental cleanup standards that the Pentagon has resisted adopting for military installations', href: '/entities/agencies/epa' },
       { id: '3', name: 'Department of Veterans Affairs', type: 'agency', relationship: 'Administers healthcare for burn pit and contamination-exposed veterans under the PACT Act', href: '/entities/agencies/va' },
     ],
+   eventOriginDate: '2023-02-19',
+   lastActivityDate: '2025-09-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'methane-emissions-underreporting': {
     title: 'Methane Emissions Underreporting',
@@ -991,10 +1084,13 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Relied on industry self-reported emission factors that underestimate actual methane by 60-100%; finalized new rules in 2024', href: '/entities/agencies/epa' },
       { id: '2', name: 'ExxonMobil', type: 'corporation', relationship: 'Major Permian Basin operator; satellite data shows emissions far exceeding reported levels', href: '/entities/corporations/exxonmobil' },
     ],
+   eventOriginDate: '2012-07-24',
+   lastActivityDate: '2015-03-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'military-industrial-complex-profit-pipeline': {
     title: 'Military Industrial Complex Profit Pipeline',
-    subtitle: 'How defense contractors extract $900+ billion annually from taxpayers through the revolving door, cost-plus contracts, and a Pentagon that has never passed an audit',
+    subtitle: 'The United States spends more on its military than the next 10 countries combined; over $900 billion annually in the FY2025 budget.',
     severity: 'critical',
     category: 'Military & Defense',
     date: 'March 17, 2024',
@@ -1020,6 +1116,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Has failed every comprehensive audit since 2018; cannot account for trillions in assets and expenditures', href: '/entities/agencies/pentagon' },
       { id: '3', name: 'RTX Corporation', type: 'corporation', relationship: 'Former employer of two recent Secretaries of Defense; over $30B in annual defense revenue', href: '/entities/corporations/rtx' },
     ],
+   eventOriginDate: '2024-03-17',
+   lastActivityDate: '2024-04-16',
+   pageUpdatedDate: '2025-03-18',
   },
   'media-consolidation-democracy-threat': {
     title: 'Media Consolidation Democracy Threat',
@@ -1048,6 +1147,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'FCC', type: 'agency', relationship: 'Systematically weakened media ownership rules enabling consolidation; captured by the industries it regulates', href: '/entities/agencies/fcc' },
       { id: '3', name: 'Alden Global Capital', type: 'corporation', relationship: 'Hedge fund that is the largest newspaper chain in the U.S.; cuts newsrooms 50-75% while extracting profits', href: '/entities/corporations/alden-global-capital' },
     ],
+   eventOriginDate: '2017-04-12',
+   lastActivityDate: '2024-11-09',
+   pageUpdatedDate: '2025-03-18',
   },
   'massage-parlor-network-investigations': {
     title: 'Massage Parlor Network Investigations',
@@ -1076,10 +1178,13 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of IMB trafficking networks; Operation Massage Parlor dismantled multi-state operation', href: '/entities/agencies/doj' },
       { id: '3', name: 'ICE', type: 'agency', relationship: 'Immigration enforcement often results in deportation of trafficking victims rather than protection', href: '/entities/agencies/ice' },
     ],
+   eventOriginDate: '2016-12-06',
+   lastActivityDate: '2018-11-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'mining-industry-environmental-destruction': {
     title: 'Mining Industry Environmental Destruction',
-    subtitle: 'How the 1872 Mining Law allows corporations to extract billions from public lands while leaving taxpayers with $50+ billion in cleanup costs',
+    subtitle: 'The mining industry has created over 500,000 abandoned mines across the United States, with cleanup costs estimated at $32-72 billion.',
     severity: 'high',
     category: 'Environmental',
     date: 'March 23, 2024',
@@ -1103,6 +1208,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Manages Superfund cleanup of contaminated mining sites; annual budget fraction of needed investment', href: '/entities/agencies/epa' },
       { id: '2', name: 'Interior Department', type: 'agency', relationship: 'Administers public lands under 1872 Mining Law; Bureau of Land Management approves mining permits with minimal royalties', href: '/entities/agencies/interior-department' },
     ],
+   eventOriginDate: '2024-03-23',
+   lastActivityDate: '2025-03-29',
+   pageUpdatedDate: '2025-03-18',
   },
   'mass-formation-psychosis-media-analysis': {
     title: 'Mass Formation Psychosis Media Analysis',
@@ -1130,6 +1238,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Primary amplifier of election denial narratives; Dominion lawsuit settlement of $787.5 million confirmed internal knowledge of false claims', href: '/entities/corporations/fox-news' },
       { id: '2', name: 'Meta', type: 'corporation', relationship: 'Internal documents showed algorithms promoted divisive misinformation for engagement; whistleblower Frances Haugen exposed the system', href: '/entities/corporations/meta' },
     ],
+   eventOriginDate: '2025-09-23',
+   lastActivityDate: '2025-10-23',
+   pageUpdatedDate: '2025-03-18',
   },
   'modern-behavioral-influence-programs': {
     title: 'Modern Behavioral Influence Programs',
@@ -1158,6 +1269,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'DARPA funds $2B+ in neuroscience research; operates information warfare and psychological operations programs globally', href: '/entities/agencies/pentagon' },
       { id: '3', name: 'NSA', type: 'agency', relationship: 'Signals intelligence capabilities intersect with behavioral monitoring and computational influence tracking', href: '/entities/agencies/nsa' },
     ],
+   eventOriginDate: '2013-04-20',
+   lastActivityDate: '2025-08-13',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -1246,6 +1360,9 @@ const investigations_m: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'William Calley', type: 'individual', relationship: 'Convicted platoon leader', href: '/entities/individuals/william-calley' },
     ],
+   eventOriginDate: '1968-03-16',
+   lastActivityDate: '1971-03-29',
+   pageUpdatedDate: '2025-03-18',
   },
   'mk-ultra': {
     title: 'MK-Ultra Mind Control Program',
@@ -1294,6 +1411,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Medicare Fraud Strike Force charged 5,000+ defendants since 2007; False Claims Act generated $72B in recoveries; declines majority of qui tam cases', href: '/entities/agencies/doj' },
       { id: '3', name: 'FBI', type: 'agency', relationship: 'Healthcare fraud is FBI priority; investigates organized fraud rings in South Florida, Houston, Detroit, and other hotspots', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2019-05-20',
+   lastActivityDate: '2025-12-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'maui-wildfire-government-failure': {
     slug: 'maui-wildfire-government-failure',
@@ -1321,11 +1441,14 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'FEMA', type: 'agency', relationship: 'Provided $3.1B+ in disaster assistance; President Biden declared major disaster on August 10, 2023', href: '/entities/agencies/fema' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'ATF conducted origin and cause investigation; federal criminal investigation into HECO and emergency management decisions ongoing', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2023-08-08',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'monsanto-roundup-cancer-coverup': {
     slug: 'monsanto-roundup-cancer-coverup',
     title: 'Monsanto Roundup Cancer Coverup',
-    subtitle: 'How Monsanto concealed evidence that its flagship herbicide Roundup causes cancer, ghostwrote scientific studies, corrupted EPA regulators, and spent decades attacking independent researchers who found health risks',
+    subtitle: 'Monsanto knew Roundup caused cancer for decades while ghostwriting studies and corrupting EPA officials.',
     severity: 'critical',
     category: 'Corporate Coverup',
     date: '2017-03-15',
@@ -1347,10 +1470,13 @@ const investigations_m: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Senior official Jess Rowland allegedly colluded with Monsanto to suppress cancer review; EPA maintained glyphosate was "not likely to be carcinogenic" contrary to IARC finding', href: '/entities/agencies/epa' },
     ],
+   eventOriginDate: '2017-03-15',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'mckinsey-opioid-consulting-scandal': {
     title: 'McKinsey & Company: Consulting Firm That Turbocharged the Opioid Epidemic for Profit',
-    subtitle: 'McKinsey advised Purdue Pharma on how to "turbocharge" OxyContin sales while the opioid crisis killed hundreds of thousands, then destroyed documents to hide its role',
+    subtitle: 'McKinsey consultants proposed turbocharging OxyContin sales and paying rebates per overdose.',
     severity: 'critical' as const,
     category: 'Corporate Malfeasance',
     date: '2021-02-04',
@@ -1373,10 +1499,13 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: 'McKinsey consulted for FDA on opioid policy while simultaneously advising opioid manufacturers on marketing strategies -- a catastrophic conflict of interest', href: '/entities/agencies/fda' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Secured guilty plea from McKinsey partner for document destruction; broader criminal investigation into firm role ongoing', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2021-02-04',
+   lastActivityDate: '2024-12-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'martin-shkreli-pharma-price-gouging': {
     title: 'Martin Shkreli: "Pharma Bro" Who Raised Life-Saving Drug Price 5,000% Overnight',
-    subtitle: 'Turing Pharmaceuticals CEO Martin Shkreli acquired rights to Daraprim, used to treat AIDS patients, and raised the price from $13.50 to $750 per pill, becoming the face of pharmaceutical greed',
+    subtitle: 'Martin Shkreli, CEO of Turing Pharmaceuticals, became the most hated man in America in September 2015 when he raised the price of Daraprim -- a...',
     severity: 'high' as const,
     category: 'Healthcare Fraud',
     date: '2015-09-11',
@@ -1399,6 +1528,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Won lifetime pharmaceutical industry ban against Shkreli and $64.6M disgorgement for anticompetitive Daraprim monopoly maintenance', href: '/entities/agencies/ftc' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Shkreli for securities fraud; secured 7-year federal prison sentence and $7.36M forfeiture', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2015-09-11',
+   lastActivityDate: '2024-06-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'military-sexual-assault-epidemic': {
     title: 'Military Sexual Assault: The Pentagon\'s Institutional Failure',
@@ -1425,6 +1557,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Oversees military justice system producing less than 2% conviction rate; resisted reforms for decades; chain-of-command authority preserved', href: '/entities/agencies/dod' },
       { id: '2', name: 'VA', type: 'agency', relationship: 'Treats MST in veterans but benefit access denied to those with less-than-honorable discharges resulting from trauma-related behavior', href: '/entities/agencies/va' },
     ],
+   eventOriginDate: '2013-11-08',
+   lastActivityDate: '2026-02-28',
+   pageUpdatedDate: '2025-03-18',
   },
   'mass-incarceration-prison-industrial-complex': {
     title: 'Mass Incarceration and the Prison-Industrial Complex',
@@ -1451,6 +1586,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Operates federal prison system (BOP) with 158,000 inmates; enforces federal mandatory minimums; reinstated use of private prisons under Trump', href: '/entities/agencies/doj' },
       { id: '2', name: 'DEA', type: 'agency', relationship: 'Drug enforcement drives mass incarceration; marijuana remains Schedule I despite legalization in 24 states; racial disparities in drug enforcement', href: '/entities/agencies/dea' },
     ],
+   eventOriginDate: '2024-09-01',
+   lastActivityDate: '2025-02-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'maternal-mortality-crisis': {
     title: 'American Maternal Mortality Crisis',
@@ -1477,6 +1615,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Covers 42% of births through Medicaid; does not condition hospital payment on maternal safety protocols; slow to extend postpartum coverage', href: '/entities/agencies/cms' },
       { id: '2', name: 'CDC', type: 'agency', relationship: 'Tracks maternal mortality through PMSS and state Maternal Mortality Review Committees; data is 2-3 years delayed; limited enforcement authority', href: '/entities/agencies/cdc' },
     ],
+   eventOriginDate: '2024-07-01',
+   lastActivityDate: '2025-02-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'military-burn-pit-exposure': {
     title: 'Military Burn Pit Exposure',
@@ -1503,6 +1644,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '1', name: 'VA', type: 'agency', relationship: 'Denied over 70% of burn pit claims before PACT Act; now processing presumptive claims but backlog exceeds 900,000; Airborne Hazards Registry understaffed and underutilized', href: '/entities/agencies/va' },
       { id: '2', name: 'DOD', type: 'agency', relationship: 'Operated burn pits at 230+ sites without environmental review; contracted waste management to KBR/Halliburton; failed to track individual exposures or fund health research during conflicts', href: '/entities/agencies/dod' },
     ],
+   eventOriginDate: '2024-02-28',
+   lastActivityDate: '2025-01-18',
+   pageUpdatedDate: '2025-03-18',
   },
   'mk-ultra-cia-mind-control': {
     title: 'MK-ULTRA: The CIA\'s Secret Program of Human Experimentation and Mind Control',
@@ -1558,6 +1702,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '2', name: 'Supreme Court of the United States', type: 'agency', relationship: 'Upheld compulsory sterilization in Buck v. Bell (1927) in an 8-1 decision; ruling has never been overturned; Justice Holmes wrote "three generations of imbeciles are enough"', href: '/entities/agencies/supreme-court' },
       { id: '3', name: 'Oliver Wendell Holmes Jr.', type: 'individual', relationship: 'Supreme Court Justice who authored the Buck v. Bell opinion upholding forced sterilization; his words were later cited by Nazi defendants at Nuremberg to justify their own eugenics programs', href: '/entities/individuals/oliver-wendell-holmes-jr' },
     ],
+   eventOriginDate: '1907-03-09',
+   lastActivityDate: '2025-06-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'mkultra-cia-human-experimentation': {
     slug: 'mkultra-cia-human-experimentation',
@@ -1588,6 +1735,9 @@ const investigations_m: Record<string, InvestigationData> = {
       { id: '3', name: 'Richard Helms', type: 'individual', relationship: 'CIA Director who ordered destruction of all MK-ULTRA records in January 1973; convicted of perjury for lying to Congress about CIA activities in Chile but received only a suspended sentence and $2,000 fine', href: '/entities/individuals/richard-helms' },
       { id: '4', name: 'Allen Dulles', type: 'individual', relationship: 'CIA Director who formally authorized MK-ULTRA on April 13, 1953; expanded the program despite knowledge that experiments were being conducted on unwitting subjects; never faced any legal consequences', href: '/entities/individuals/allen-dulles' },
     ],
+   eventOriginDate: '1953-04-13',
+   lastActivityDate: '2025-09-01',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

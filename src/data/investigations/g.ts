@@ -45,6 +45,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '9', name: 'Meta', type: 'corporation', relationship: 'WEF partner, metaverse development', href: '/entities/corporations/meta' },
  { id: '10', name: 'Johns Hopkins', type: 'organization', relationship: 'Event 201 co-host', href: '/entities/organizations/johns-hopkins' },
  ],
+   eventOriginDate: '2020-06-03',
+   lastActivityDate: '2025-11-23',
+   pageUpdatedDate: '2025-03-18',
  },
   'global-governance': {
  title: 'Global Governance Networks',
@@ -91,6 +94,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '10', name: 'IMF', type: 'organization', relationship: 'Monetary policy, structural adjustment', href: '/entities/organizations/imf' },
  { id: '11', name: 'Heritage Foundation', type: 'organization', relationship: 'Project 2025, policy capture', href: '/entities/organizations/heritage-foundation' },
  ],
+   eventOriginDate: '2020-09-22',
+   lastActivityDate: '2021-01-19',
+   pageUpdatedDate: '2025-03-18',
  },
   'gender-discrimination': {
  title: 'Gender Discrimination & Sexual Misconduct',
@@ -129,6 +135,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '6', name: 'Jessica Leeds', type: 'individual', relationship: 'Accuser (airplane assault)', href: '/entities/individuals/jessica-leeds' },
  { id: '7', name: 'Jill Harth', type: 'individual', relationship: 'Accuser (attempted rape lawsuit)', href: '/entities/individuals/jill-harth' },
  ],
+   eventOriginDate: '2013-03-15',
+   lastActivityDate: '2025-07-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'global-trafficking': {
  title: 'Global Sex Trafficking Networks',
@@ -160,6 +169,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '6', name: 'Prince Andrew', type: 'individual', relationship: 'Accused by victims', href: '/entities/individuals/prince-andrew' },
  { id: '7', name: 'Alan Dershowitz', type: 'individual', relationship: 'Defense attorney, accused by victims', href: '/entities/individuals/alan-dershowitz' },
  ],
+   eventOriginDate: '2010-02-08',
+   lastActivityDate: '2022-12-01',
+   pageUpdatedDate: '2025-03-18',
  },
   'gaetz-sex-trafficking': {
  title: 'Matt Gaetz Sex Trafficking Investigation',
@@ -194,6 +206,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '4', name: 'DOJ', type: 'agency', relationship: 'Conducted investigation, declined charges', href: '/entities/agencies/doj' },
  { id: '5', name: 'FBI', type: 'agency', relationship: 'Investigated trafficking allegations', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2021-03-30',
+   lastActivityDate: '2023-05-31',
+   pageUpdatedDate: '2025-03-18',
  },
   'gun-lobby-influence': {
  title: 'Gun Lobby Influence on Policy',
@@ -233,6 +248,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '5', name: 'Mitch McConnell', type: 'individual', relationship: 'Blocks gun legislation in Senate', href: '/entities/individuals/mitch-mcconnell' },
  { id: '6', name: 'FBI', type: 'agency', relationship: 'Investigated NRA-Russia ties', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2013-01-30',
+   lastActivityDate: '2022-02-04',
+   pageUpdatedDate: '2025-03-18',
  },
   'ginni-thomas-j6': {
  title: 'Ginni Thomas January 6 Involvement',
@@ -271,6 +289,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Beneficiary of Thomas\'s actions', href: '/entities/individuals/donald-trump' },
  { id: '6', name: 'Supreme Court', type: 'agency', relationship: 'Clarence Thomas serves despite conflicts', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2022-03-24',
+   lastActivityDate: '2025-07-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'green-bay-sweep': {
  title: 'Green Bay Sweep',
@@ -309,6 +330,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '6', name: 'Steve Bannon', type: 'individual', relationship: 'Willard Hotel war room host', href: '/entities/individuals/steve-bannon' },
  { id: '7', name: 'Mark Meadows', type: 'individual', relationship: 'White House coordinator', href: '/entities/individuals/mark-meadows' },
  ],
+   eventOriginDate: '2022-04-15',
+   lastActivityDate: '2023-10-18',
+   pageUpdatedDate: '2025-03-18',
  },
   'guard-deployment-delays': {
  title: 'National Guard Deployment Delays',
@@ -348,6 +372,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '6', name: 'Pentagon', type: 'agency', relationship: 'Source of delays', href: '/entities/agencies/pentagon' },
  { id: '7', name: 'National Guard', type: 'agency', relationship: 'Ready but not deployed', href: '/entities/agencies/national-guard' },
  ],
+   eventOriginDate: '2021-01-07',
+   lastActivityDate: '2023-06-18',
+   pageUpdatedDate: '2025-03-18',
  },
   'gain-of-function': {
  title: 'Gain-of-Function Research Controversy',
@@ -385,6 +412,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '4', name: 'Peter Daszak', type: 'individual', relationship: 'EcoHealth president', href: '/entities/individuals/peter-daszak' },
  { id: '5', name: 'Wuhan Institute of Virology', type: 'organization', relationship: 'Conducted bat coronavirus research', href: '/entities/organizations/wuhan-institute-virology' },
  ],
+   eventOriginDate: '2020-08-05',
+   lastActivityDate: '2026-01-16',
+   pageUpdatedDate: '2025-03-18',
  },
   'global-elite': {
  title: 'Global Elite Networks',
@@ -417,6 +447,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '2', name: 'World Economic Forum', type: 'organization', relationship: 'Hosts Davos gatherings', href: '/entities/organizations/wef' },
  { id: '3', name: 'Trilateral Commission', type: 'organization', relationship: 'Elite coordination body', href: '/entities/organizations/trilateral-commission' },
  ],
+   eventOriginDate: '2023-08-14',
+   lastActivityDate: '2025-12-31',
+   pageUpdatedDate: '2025-03-18',
  },
   'genocide-palestine': {
  title: 'Gaza Genocide',
@@ -452,6 +485,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '4', name: 'Pentagon', type: 'agency', relationship: 'Rushed weapons deliveries', href: '/entities/agencies/pentagon' },
  { id: '5', name: 'Lockheed Martin', type: 'corporation', relationship: 'Weapons manufacturer', href: '/entities/corporations/lockheed-martin' },
  ],
+   eventOriginDate: '2023-10-07',
+   lastActivityDate: '2024-09-22',
+   pageUpdatedDate: '2025-03-18',
  },
   'guatemala-coup': {
  title: 'Guatemala Coup 1954',
@@ -479,6 +515,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '3', name: 'Allen Dulles', type: 'individual', relationship: 'CIA Director with UFC ties', href: '/entities/individuals/allen-dulles' },
  { id: '4', name: 'Dwight Eisenhower', type: 'individual', relationship: 'President who authorized coup', href: '/entities/individuals/dwight-eisenhower' },
  ],
+   eventOriginDate: '2010-10-22',
+   lastActivityDate: '2011-03-05',
+   pageUpdatedDate: '2025-03-18',
  },
   'george-floyd-murder': {
  title: 'Murder of George Floyd',
@@ -504,6 +543,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'Derek Chauvin', type: 'individual', relationship: 'Convicted murderer', href: '/entities/individuals/derek-chauvin' },
  { id: '2', name: 'Minneapolis Police Department', type: 'agency', relationship: 'Pattern of abuse', href: '/entities/agencies/minneapolis-pd' },
  ],
+   eventOriginDate: '2020-05-25',
+   lastActivityDate: '2023-07-31',
+   pageUpdatedDate: '2025-03-18',
  },
   'gun-violence': {
  title: 'Gun Violence Epidemic',
@@ -528,6 +570,9 @@ const investigations_g: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'NRA', type: 'organization', relationship: 'Blocked all reform', href: '/entities/organizations/nra' },
  ],
+   eventOriginDate: '2012-12-14',
+   lastActivityDate: '2025-08-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'galleon-insider-trading': {
  title: 'Galleon Group: The Largest Hedge Fund Insider Trading Ring',
@@ -552,6 +597,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Brought charges and won conviction', href: '/entities/agencies/sec' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Criminal prosecution', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2015-04-30',
+   lastActivityDate: '2023-05-07',
+   pageUpdatedDate: '2025-03-18',
  },
   'gamestop-halt': {
  title: 'GameStop Trading Halt: When Brokers Protected Hedge Funds',
@@ -576,6 +624,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker, conflict of interest', href: '/entities/corporations/citadel' },
  { id: '2', name: 'SEC', type: 'agency', relationship: 'Investigated trading halt', href: '/entities/agencies/sec' },
  ],
+   eventOriginDate: '2011-07-12',
+   lastActivityDate: '2025-03-31',
+   pageUpdatedDate: '2025-03-18',
  },
   'gamestop-manipulation': {
  title: 'GameStop Market Manipulation: The Full Picture',
@@ -600,6 +651,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker influencing trading', href: '/entities/corporations/citadel' },
  { id: '2', name: 'SEC', type: 'agency', relationship: 'Market manipulation investigation', href: '/entities/agencies/sec' },
  ],
+   eventOriginDate: '2025-12-08',
+   lastActivityDate: '2026-01-07',
+   pageUpdatedDate: '2025-03-18',
  },
   'georgia-voter-suppression': {
  title: 'Georgia Voter Suppression',
@@ -633,6 +687,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Sued Georgia over SB 202 Voting Rights Act violations', href: '/entities/agencies/doj' },
  { id: '3', name: 'Supreme Court', type: 'agency', relationship: 'Gutted VRA preclearance in Shelby County decision', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2016-10-09',
+   lastActivityDate: '2025-05-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'ghosn-financial-crimes': {
  title: 'Carlos Ghosn: The Auto Industry\'s Greatest Corporate Crime',
@@ -656,6 +713,9 @@ const investigations_g: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Carlos Ghosn', type: 'individual', relationship: 'Escaped justice, international fugitive', href: '/entities/individuals/carlos-ghosn' },
  ],
+   eventOriginDate: '2024-07-17',
+   lastActivityDate: '2024-08-16',
+   pageUpdatedDate: '2025-03-18',
  },
   'gig-economy-exploitation': {
  title: 'Gig Economy Exploitation: The $200 Billion Misclassification Scam',
@@ -679,6 +739,9 @@ const investigations_g: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Flex drivers, warehouse workers', href: '/entities/corporations/amazon-inc' },
  ],
+   eventOriginDate: '2016-04-17',
+   lastActivityDate: '2025-05-05',
+   pageUpdatedDate: '2025-03-18',
  },
   'global-terrorism-networks': {
  title: 'Global Terrorism Networks',
@@ -714,6 +777,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '4', name: 'DOD', type: 'agency', relationship: 'Military operations generating civilian casualties', href: '/entities/agencies/dod' },
  { id: '5', name: 'Wagner Group', type: 'organization', relationship: 'Russian proxy force conducting operations globally', href: '/entities/organizations/wagner-group' },
  ],
+   eventOriginDate: '2024-05-25',
+   lastActivityDate: '2025-11-05',
+   pageUpdatedDate: '2025-03-18',
  },
   'gm-ignition-switch': {
  title: 'GM Ignition Switch Defect: 124 Deaths, Zero Prison Time',
@@ -737,6 +803,9 @@ const investigations_g: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'World Economic Forum', type: 'organization', relationship: 'Great Reset initiative organizer', href: '/entities/organizations/world-economic-forum' },
  ],
+   eventOriginDate: '2017-01-13',
+   lastActivityDate: '2017-12-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'goldman-sachs-fraud': {
  title: 'Goldman Sachs: A Pattern of Institutional Fraud',
@@ -760,6 +829,9 @@ const investigations_g: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/goldman-sachs' },
  ],
+   eventOriginDate: '2021-04-16',
+   lastActivityDate: '2024-01-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'guatemala-experiments': {
  title: 'Guatemala Syphilis Experiments: U.S. Government Human Experimentation',
@@ -785,6 +857,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities fraud charges', href: '/entities/agencies/sec' },
  { id: '3', name: 'DOJ', type: 'agency', relationship: '1MDB prosecution', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2023-12-19',
+   lastActivityDate: '2025-09-18',
+   pageUpdatedDate: '2025-03-18',
  },
   'gujarat-riots': {
  title: 'Gujarat Riots: State-Sponsored Pogrom Against Muslims',
@@ -808,6 +883,9 @@ const investigations_g: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Narendra Modi', type: 'individual', relationship: 'Chief Minister during riots, accused of complicity', href: '/entities/individuals/narendra-modi' },
  ],
+   eventOriginDate: '2024-11-26',
+   lastActivityDate: '2025-01-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'gulf-war-crimes': {
  title: 'Gulf War: War Crimes and the Highway of Death',
@@ -832,10 +910,13 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Directed military operations', href: '/entities/agencies/pentagon' },
  { id: '2', name: 'CIA', type: 'agency', relationship: 'Intelligence operations', href: '/entities/agencies/cia' },
  ],
+   eventOriginDate: '2020-12-30',
+   lastActivityDate: '2024-03-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'gulf-of-tonkin-fabricated-incident': {
     title: 'Gulf of Tonkin Fabricated Incident',
-    subtitle: 'The August 4, 1964 "attack" in the Gulf of Tonkin never happened; NSA officers manipulated signals intelligence to fabricate evidence of a second North Vietnamese attack, giving President Johnson the pretext to escalate the Vietnam War',
+    subtitle: 'On August 2, 1964, North Vietnamese torpedo boats attacked the USS Maddox in the Gulf of Tonkin during a covert intelligence-gathering operation (DESOTO patrol).',
     severity: 'critical',
     category: 'Government Accountability',
     date: 'September 1, 2020',
@@ -858,6 +939,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'McNamara presented unverified attack as confirmed to Congress; ordered retaliatory strikes before evidence review', href: '/entities/agencies/pentagon' },
  { id: '2', name: 'NSA', type: 'agency', relationship: 'Officers deliberately manipulated SIGINT intercepts to fabricate evidence of the second attack; suppressed contradictory findings for years', href: '/entities/agencies/nsa' },
  ],
+   eventOriginDate: '2020-09-01',
+   lastActivityDate: '2025-08-19',
+   pageUpdatedDate: '2025-03-18',
   },
   'generic-drug-price-fixing-conspiracy': {
     title: 'Generic Drug Price Fixing Conspiracy',
@@ -884,6 +968,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Antitrust Division secured guilty pleas from mid-level executives but no major company CEO convicted; deferred prosecution for Teva', href: '/entities/agencies/doj' },
  { id: '2', name: 'FDA', type: 'agency', relationship: 'Generic drug approval process created market conditions where few competitors made each drug; did not monitor post-approval pricing', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2018-10-01',
+   lastActivityDate: '2024-01-26',
+   pageUpdatedDate: '2025-03-18',
   },
   'glyphosate-cancer-link-cover-up': {
     title: 'Glyphosate Cancer Link Cover-Up',
@@ -911,6 +998,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '2', name: 'Bayer AG', type: 'corporation', relationship: 'Acquired Monsanto for $63B; paid $16B+ in Roundup settlements; continues to defend glyphosate safety', href: '/entities/corporations/bayer-ag' },
  { id: '3', name: 'EPA', type: 'agency', relationship: 'CARC chair Jess Rowland privately communicated with Monsanto; leaked favorable finding; EPA relies on industry-funded studies', href: '/entities/agencies/epa' },
  ],
+   eventOriginDate: '2016-02-12',
+   lastActivityDate: '2018-11-03',
+   pageUpdatedDate: '2025-03-18',
   },
   'gerrymandering-systematic-voter-dilution': {
     title: 'Gerrymandering Systematic Voter Dilution',
@@ -936,6 +1026,9 @@ const investigations_g: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Closed federal courts to partisan gerrymandering claims in Rucho v. Common Cause (2019); gutted VRA preclearance in Shelby County (2013)', href: '/entities/agencies/supreme-court' },
     ],
+   eventOriginDate: '2025-07-13',
+   lastActivityDate: '2025-08-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'global-population-policy-hidden-agendas': {
     title: 'Global Population Policy Hidden Agendas',
@@ -961,10 +1054,13 @@ const investigations_g: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'USAID', type: 'agency', relationship: 'Primary funder of international population programs; conditioned aid on adoption of family planning; funded India and Peru sterilization programs', href: '/entities/agencies/usaid' },
  ],
+   eventOriginDate: '2023-07-28',
+   lastActivityDate: '2023-08-27',
+   pageUpdatedDate: '2025-03-18',
   },
   'gambling-industry-criminal-enterprise': {
     title: 'Gambling Industry Criminal Enterprise',
-    subtitle: 'The US gambling industry generates $110+ billion annually while exploiting addiction; the industry spent $180 million lobbying to expand legalized sports betting to 38 states in just six years',
+    subtitle: 'Explosive gambling expansion after the Supreme Court struck down the federal sports betting ban.',
     severity: 'high',
     category: 'Financial Crime',
     date: 'October 14, 2025',
@@ -986,10 +1082,13 @@ const investigations_g: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Murphy v. NCAA (2018) struck down federal sports betting ban; enabled state-by-state legalization wave', href: '/entities/agencies/supreme-court' },
     ],
+   eventOriginDate: '2025-10-14',
+   lastActivityDate: '2025-11-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'government-contract-fraud-patterns': {
     title: 'Government Contract Fraud Patterns',
-    subtitle: 'Federal contractors defraud the US government of an estimated $100+ billion annually; the Pentagon has never passed an audit despite receiving $886 billion in FY2024; False Claims Act recoveries represent a fraction of total fraud',
+    subtitle: 'Federal government contract fraud is estimated at $100 billion or more annually across all agencies.',
     severity: 'high',
     category: 'Financial Crime',
     date: 'February 3, 2020',
@@ -1012,6 +1111,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Failed every audit since 2018; cannot account for $3.8 trillion in assets; rarely debars fraudulent contractors', href: '/entities/agencies/pentagon' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Recovered $72B+ through False Claims Act since 1987 but settlements represent a fraction of total fraud', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2020-02-03',
+   lastActivityDate: '2025-05-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'government-records-destruction-incidents': {
     title: 'Government Records Destruction Incidents',
@@ -1038,6 +1140,9 @@ const investigations_g: Record<string, InvestigationData> = {
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Jose Rodriguez ordered destruction of 92 interrogation tapes in 2005; no criminal charges resulted from three-year investigation', href: '/entities/agencies/cia' },
  { id: '2', name: 'Donald Trump', type: 'individual', relationship: 'Routinely tore and flushed presidential records; removed 15+ boxes of classified documents to Mar-a-Lago; indicted on 37 counts', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2023-01-23',
+   lastActivityDate: '2023-02-22',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -1131,6 +1236,9 @@ const investigations_g: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Lloyd Blankfein', type: 'individual', relationship: 'CEO during fraud', href: '/entities/individuals/lloyd-blankfein' },
     ],
+   eventOriginDate: '2010-04-16',
+   lastActivityDate: '2010-07-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'gulf-oil-spill': {
     title: 'Deepwater Horizon Oil Spill',
@@ -1152,6 +1260,9 @@ const investigations_g: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Tony Hayward', type: 'individual', relationship: 'BP CEO during spill', href: '/entities/individuals/tony-hayward' },
     ],
+   eventOriginDate: '2010-04-20',
+   lastActivityDate: '2012-11-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'guantanamo-bay-torture-program': {
     title: 'Guantanamo Bay: The Architecture of Indefinite Detention and Torture',
@@ -1179,6 +1290,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Office of Legal Counsel authored the "torture memos" authorizing enhanced interrogation techniques', href: '/entities/agencies/doj' },
       { id: '3', name: 'DOD', type: 'agency', relationship: 'Operated Guantanamo detention facility; ran military commissions; authorized Survival Evasion Resistance Escape techniques on detainees', href: '/entities/agencies/dod' },
     ],
+   eventOriginDate: '2002-01-11',
+   lastActivityDate: '2026-03-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'government-surveillance-of-journalists': {
     title: 'Government Surveillance of Journalists and Whistleblowers',
@@ -1206,6 +1320,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '2', name: 'NSA', type: 'agency', relationship: 'Conducted mass surveillance that targeted journalist communications; source of most major leak prosecutions', href: '/entities/agencies/nsa' },
       { id: '3', name: 'FBI', type: 'agency', relationship: 'Conducted surveillance of journalists; obtained warrants by naming reporters as criminal co-conspirators', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2013-06-06',
+   lastActivityDate: '2026-01-30',
+   pageUpdatedDate: '2025-03-18',
   },
   'gerrymandering-theft-of-representation': {
     title: 'Gerrymandering: The Theft of Democratic Representation',
@@ -1231,6 +1348,9 @@ const investigations_g: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting Section can challenge racial gerrymandering under VRA Section 2; enforcement varies dramatically by administration', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2019-06-27',
+   lastActivityDate: '2026-01-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'google-antitrust-monopoly': {
     slug: 'google-antitrust-monopoly',
@@ -1258,6 +1378,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed two antitrust lawsuits; won historic search monopoly ruling; seeking structural remedies including potential divestiture', href: '/entities/agencies/doj' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Closed Google antitrust investigation in 2013 without action; criticized for failure to act when market power was more addressable', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2020-10-20',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'goldman-sachs-abacus-cdo-fraud': {
     slug: 'goldman-sachs-abacus-cdo-fraud',
@@ -1284,6 +1407,9 @@ const investigations_g: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Settled for $550M (14 days of revenue); found fraud but brought only civil charges; did not charge senior executives or John Paulson', href: '/entities/agencies/sec' },
     ],
+   eventOriginDate: '2010-04-16',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'gun-industry-immunity-violence': {
     title: 'The Gun Industry: Legal Immunity, Lobbying, and 45,000 Annual Deaths',
@@ -1310,10 +1436,13 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '1', name: 'ATF', type: 'agency', relationship: 'Primary firearms regulator; has been without Senate-confirmed director for most of two decades; funding and inspectors insufficient; NRA lobbying blocks modernization', href: '/entities/agencies/atf' },
       { id: '2', name: 'CDC', type: 'agency', relationship: 'Research funding frozen for two decades by Dickey Amendment; declared firearm violence a public health issue only after funding restored in 2020', href: '/entities/agencies/cdc' },
     ],
+   eventOriginDate: '2005-10-26',
+   lastActivityDate: '2026-02-25',
+   pageUpdatedDate: '2025-03-18',
   },
   'genetic-data-privacy-exploitation': {
     title: 'Genetic Data Privacy Exploitation and DNA Surveillance',
-    subtitle: 'How consumer DNA testing companies, law enforcement databases, and pharmaceutical companies exploit the most personal data imaginable — your genetic code',
+    subtitle: 'Over 40 million Americans have submitted DNA to consumer genetic testing companies like 23andMe, Ancestry, and others — creating databases that are...',
     severity: 'high' as const,
     category: 'Privacy',
     date: '2024-10-15',
@@ -1336,6 +1465,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Uses genetic genealogy for cold case investigations; operates CODIS DNA database; interim policy for familial DNA searching lacks meaningful privacy protections', href: '/entities/agencies/fbi' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Primary enforcer of genetic data privacy; fined 1Health.io for sharing genetic data without consent; limited statutory authority over genetic testing companies', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2024-10-15',
+   lastActivityDate: '2025-01-30',
+   pageUpdatedDate: '2025-03-18',
   },
   'gerrymandering-democracy-subversion': {
     title: 'Partisan Gerrymandering and the Subversion of Democracy',
@@ -1362,6 +1494,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division reviews redistricting plans under Section 2 of the Voting Rights Act; enforcement depends on which party controls the administration', href: '/entities/agencies/doj' },
       { id: '2', name: 'FEC', type: 'agency', relationship: 'Oversees campaign finance but has no jurisdiction over redistricting; partisan composition of the commission prevents action on gerrymandering-related campaign spending', href: '/entities/agencies/fec' },
     ],
+   eventOriginDate: '2024-09-15',
+   lastActivityDate: '2025-02-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'gun-industry-liability-shield': {
     title: 'Gun Industry Liability Shield',
@@ -1388,6 +1523,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '1', name: 'ATF', type: 'agency', relationship: 'Traces crime guns and identifies dealers with disproportionate trace volumes; limited authority to revoke licenses; PLCAA moots the civil accountability that trace data could support', href: '/entities/agencies/atf' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Filed amicus briefs defending PLCAA in Mexico lawsuit; Biden DOJ supported repeal legislatively but defended the statute in court while it remains law', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2024-07-12',
+   lastActivityDate: '2025-01-25',
+   pageUpdatedDate: '2025-03-18',
   },
   'genocide-native-american-boarding-schools': {
     title: 'Native American Boarding Schools: A Century of Cultural Genocide',
@@ -1442,6 +1580,9 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '2', name: 'John Charles Cutler', type: 'individual', relationship: 'PHS physician who directed the experiments on-site; personally supervised the deliberate infection of prisoners, psychiatric patients, and soldiers; later participated in the Tuskegee syphilis study; preserved his records which were discovered posthumously in 2010; never faced any legal consequences', href: '/entities/individuals/john-charles-cutler' },
       { id: '3', name: 'National Institutes of Health', type: 'agency', relationship: 'Provided the $111,440 grant that funded the experiments; NIH institutional review mechanisms did not exist at the time; agency later acknowledged the ethical violations in joint statements', href: '/entities/agencies/nih' },
     ],
+   eventOriginDate: '1946-10-01',
+   lastActivityDate: '2025-08-01',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

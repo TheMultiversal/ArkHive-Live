@@ -38,6 +38,9 @@ const investigations_q: Record<string, InvestigationData> = {
  { id: '5', name: 'Mohammed bin Zayed', type: 'individual', relationship: 'Led UAE side of blockade', href: '/entities/individuals/mohammed-bin-zayed' },
  { id: '6', name: 'Kushner Companies', type: 'corporation', relationship: 'Benefited from resolution', href: '/entities/corporations/kushner-companies' },
  ],
+   eventOriginDate: '2017-06-05',
+   lastActivityDate: '2022-08-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'qualified-immunity-police-accountability-gap': {
     title: 'Qualified Immunity Police Accountability Gap',
@@ -64,6 +67,9 @@ const investigations_q: Record<string, InvestigationData> = {
       { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Created qualified immunity in Pierson v. Ray (1967) and dramatically expanded it in Harlow v. Fitzgerald (1982); repeatedly declined to reconsider the doctrine', href: '/entities/agencies/supreme-court' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Pattern-or-practice investigations provide alternative accountability path; Civil Rights Division enforcement has varied dramatically by administration', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1967-06-15',
+   lastActivityDate: '2024-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'prosecutorial-misconduct-wrongful-convictions': {
     title: 'Prosecutorial Misconduct and Wrongful Convictions',
@@ -90,6 +96,9 @@ const investigations_q: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutors maintain 98% conviction rate; Brady compliance is self-policed; Thompson memo on DOJ ethics rarely enforced; no systematic tracking of federal prosecutorial misconduct', href: '/entities/agencies/doj' },
       { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created absolute prosecutorial immunity in Imbler v. Pachtman (1976); established Brady disclosure requirement but provided no enforcement mechanism', href: '/entities/agencies/supreme-court' },
     ],
+   eventOriginDate: '2024-07-15',
+   lastActivityDate: '2025-02-28',
+   pageUpdatedDate: '2025-03-18',
   },
   'qualified-immunity-police-shield': {
     title: 'Qualified Immunity: The Police Accountability Shield',
@@ -116,6 +125,9 @@ const investigations_q: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Can bring pattern-or-practice suits against departments (bypassing individual immunity) but cannot sue individual officers under qualified immunity; consent decree tool depends on political will', href: '/entities/agencies/doj' },
       { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Created and expanded qualified immunity doctrine through judicial interpretation; multiple justices from both ideological wings have called for reexamination but the Court has declined to reconsider', href: '/entities/agencies/supreme-court' },
     ],
+   eventOriginDate: '2024-05-30',
+   lastActivityDate: '2025-02-20',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

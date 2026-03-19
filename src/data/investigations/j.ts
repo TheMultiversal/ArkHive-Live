@@ -43,6 +43,9 @@ const investigations_j: Record<string, InvestigationData> = {
  { id: '8', name: 'Amy Coney Barrett', type: 'individual', relationship: 'Trump SCOTUS appointment', href: '/entities/individuals/amy-coney-barrett' },
  { id: '9', name: 'Supreme Court', type: 'agency', relationship: 'Captured institution', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2023-07-11',
+   lastActivityDate: '2023-08-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'january-6-investigation': {
  title: 'January 6th Insurrection & Congressional Investigation',
@@ -74,6 +77,9 @@ const investigations_j: Record<string, InvestigationData> = {
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Incited the attack; orchestrated multi-part plan to overturn election; failed to act for 187 minutes; later pardoned convicted rioters', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Largest criminal investigation in U.S. history; 1,400+ defendants charged; Special Counsel indicted Trump', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2021-01-06',
+   lastActivityDate: '2026-03-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'january-6th': {
  title: 'January 6th Capitol Attack: The Day Democracy Was Assaulted',
@@ -103,6 +109,9 @@ const investigations_j: Record<string, InvestigationData> = {
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Incited the attack at Ellipse rally; failed to act for 187 minutes; later pardoned convicted rioters', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Prosecuted 1,400+ defendants in the largest federal criminal investigation in history', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2021-01-06',
+   lastActivityDate: '2026-03-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'jj-baby-powder': {
  title: 'Johnson & Johnson Baby Powder: Decades of Asbestos Concealment',
@@ -127,6 +136,9 @@ const investigations_j: Record<string, InvestigationData> = {
  { id: '1', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Concealed asbestos in baby powder for decades', href: '/entities/corporations/johnson-and-johnson' },
  { id: '2', name: 'FDA', type: 'agency', relationship: 'Failed to act on contamination evidence', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2021-05-12',
+   lastActivityDate: '2025-05-19',
+   pageUpdatedDate: '2025-03-18',
  },
   'juul-vaping-epidemic': {
  title: 'JUUL and the Youth Vaping Epidemic',
@@ -150,6 +162,9 @@ const investigations_j: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to regulate e-cigarettes targeting youth', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2024-08-04',
+   lastActivityDate: '2026-01-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'journalistic-source-protection-failures': {
     title: 'Journalistic Source Protection Failures',
@@ -175,6 +190,9 @@ const investigations_j: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Secretly subpoenaed phone and email records of reporters at NYT, Washington Post, AP, and CNN; prosecuted 8 leakers under Espionage Act during Obama era', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2023-07-08',
+   lastActivityDate: '2024-06-23',
+   pageUpdatedDate: '2025-03-18',
   },
   'juvenile-justice-system-failures': {
     title: 'Juvenile Justice System Failures',
@@ -200,6 +218,9 @@ const investigations_j: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division investigates unconstitutional conditions in juvenile facilities; has found violations in virtually every state examined', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2009-02-28',
+   lastActivityDate: '2024-09-04',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -229,11 +250,14 @@ const investigations_j: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Issued emergency orders to Jackson; found Safe Drinking Water Act violations; allocated $600M from Bipartisan Infrastructure Law for Mississippi', href: '/entities/agencies/epa' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Filed civil complaint against Jackson seeking court-appointed water system manager; environmental justice investigation ongoing', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2022-08-29',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'juul-teen-vaping-epidemic': {
     slug: 'juul-teen-vaping-epidemic',
     title: 'JUUL and the Teen Vaping Epidemic',
-    subtitle: 'How JUUL Labs deliberately targeted teenagers with nicotine products through social media marketing, fruity flavors, and school-based campaigns, creating a generation of nicotine addicts while regulators failed to act',
+    subtitle: 'JUUL Labs created a nicotine delivery device that produced a youth vaping epidemic, increasing teen nicotine use by 135% between 2017 and 2019.',
     severity: 'high',
     category: 'Public Health Crisis',
     date: '2018-11-15',
@@ -256,6 +280,9 @@ const investigations_j: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Delayed e-cigarette regulation until 2020 deeming rule; briefly ordered JUUL off market in 2022 then reversed; has not effectively controlled youth vaping', href: '/entities/agencies/fda' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated JUUL\'s marketing practices but relied primarily on state-level enforcement actions', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2018-11-15',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'johnson-and-johnson-talc-cancer': {
     slug: 'johnson-and-johnson-talc-cancer',
@@ -282,6 +309,9 @@ const investigations_j: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Has no pre-market approval authority over cosmetics; found asbestos in J&J powder in 2019 but cannot compel recalls; has never required asbestos testing of talc products', href: '/entities/agencies/fda' },
     ],
+   eventOriginDate: '2018-07-12',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'judicial-corruption-cash-for-kids': {
     title: 'Judicial Corruption: Kids for Cash and the Systemic Rot in American Courts',
@@ -308,6 +338,9 @@ const investigations_j: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Ciavarella (28yr sentence) and Conahan (17yr sentence); Federal prosecutors brought racketeering, fraud, and tax charges', href: '/entities/agencies/doj' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated Luzerne County judicial corruption as part of public corruption task force; traced financial transactions to establish kickback scheme', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2009-01-26',
+   lastActivityDate: '2026-01-30',
+   pageUpdatedDate: '2025-03-18',
   },
   'judicial-cash-bail-wealth-based-detention': {
     title: 'Cash Bail: The Two-Tiered Justice System That Imprisons Poverty',
@@ -334,10 +367,13 @@ const investigations_j: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Under Obama issued "Dear Colleague" letter opposing cash bail for inability to pay; Trump DOJ rescinded; Biden DOJ took no action on federal bail reform', href: '/entities/agencies/doj' },
       { id: '2', name: 'Supreme Court', type: 'agency', relationship: 'Stack v. Boyle (1951) established bail should not be excessive but has declined to rule on wealth-based detention as an equal protection violation', href: '/entities/agencies/supreme-court' },
     ],
+   eventOriginDate: '2024-07-01',
+   lastActivityDate: '2025-02-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'judicial-election-dark-money': {
     title: 'Judicial Election Corruption and Dark Money',
-    subtitle: 'How $700 million in spending on state judicial elections since 2000 has transformed courts into political institutions where judges rule in favor of their donors, with dark money groups targeting races to reshape the law',
+    subtitle: 'Thirty-eight states elect some or all of their judges, and these elections have become multi-million dollar campaigns dominated by special interest money.',
     severity: 'high' as const,
     category: 'Democratic Integrity',
     date: '2024-09-01',
@@ -360,6 +396,9 @@ const investigations_j: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'No federal jurisdiction over state judicial elections; campaign finance enforcement limited to federal races', href: '/entities/agencies/doj' },
       { id: '2', name: 'FEC', type: 'agency', relationship: 'Regulates federal campaign finance only; no authority over state judicial elections where most dark money flows; deadlocked commission rarely enforces existing rules', href: '/entities/agencies/fec' },
     ],
+   eventOriginDate: '2024-09-01',
+   lastActivityDate: '2025-02-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'juvenile-life-without-parole': {
     title: 'Juvenile Life Without Parole',
@@ -386,6 +425,9 @@ const investigations_j: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Under Obama, filed briefs supporting limits on JLWOP; Trump DOJ reversed position; state-level implementation depends on local prosecutors and judges rather than federal enforcement', href: '/entities/agencies/doj' },
       { id: '2', name: 'BOP', type: 'agency', relationship: 'Holds federal juvenile lifers in adult facilities; limited programming for individuals sentenced as children; compassionate release criteria rarely met by younger inmates', href: '/entities/agencies/bop' },
     ],
+   eventOriginDate: '2024-06-10',
+   lastActivityDate: '2025-01-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'japanese-american-internment': {
     title: 'Japanese American Internment: The Mass Incarceration of 120,000 Citizens Without Due Process',

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
 import { useParams, notFound } from "next/navigation";
 import {
@@ -18,6 +18,10 @@ import {
 import AffiliationsSidebar, { Affiliation } from"@/components/layout/AffiliationsSidebar";
 import TimelineSidebar from"@/components/layout/TimelineSidebar";
 import DateDisplay from"@/components/ui/DateDisplay";
+import Breadcrumbs from"@/components/layout/Breadcrumbs";
+import RelatedInvestigations from"@/components/layout/RelatedInvestigations";
+import { useKeyboardNavigation, KeyboardNavIndicator } from"@/hooks/useKeyboardNavigation";
+import ReadingProgress from"@/components/ui/ReadingProgress";
 import investigationDatabase from"@/data/investigations";
 import type { InvestigationData } from"@/data/investigations/types";
 import { useContributorStore } from "@/store/contributorStore";
@@ -76,22 +80,39 @@ export default function InvestigationContent() {
   const saved = isBookmarked(pageHref);
   const hasTimeline = investigationData.timeline && investigationData.timeline.length > 0;
 
+  // Get sorted list of investigation slugs for keyboard navigation
+  const investigationSlugs = useMemo(() => Object.keys(investigationDatabase).sort(), []);
+  
+  // Keyboard navigation: j/k for next/prev, h for list
+  const { hasPrevious, hasNext, currentIndex, totalItems } = useKeyboardNavigation({
+    items: investigationSlugs,
+    currentItem: slug,
+    basePath: "/investigations/",
+  });
+
   if (!investigationDatabase[slug] && slug !== "template") {
     notFound();
   }
 
   return (
-    <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+    <>
+      <ReadingProgress targetSelector="article" position="top" />
+      <div className="min-h-screen pt-20 lg:pt-24 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:gap-8">
           <article className="flex-1 max-w-4xl">
-            <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
-              <Link href="/" className="hover:text-white transition-colors">Home</Link>
-              <ChevronRight className="w-4 h-4" />
-              <Link href="/investigations" className="hover:text-white transition-colors">Investigations</Link>
-              <ChevronRight className="w-4 h-4" />
-              <span className="text-zinc-400">{investigationData.category}</span>
-            </nav>
+            <div className="flex items-center justify-between mb-6">
+              <Breadcrumbs 
+                currentPageTitle={investigationData.title}
+              />
+              <KeyboardNavIndicator
+                hasPrevious={hasPrevious}
+                hasNext={hasNext}
+                currentIndex={currentIndex}
+                totalItems={totalItems}
+                className="hidden sm:flex"
+              />
+            </div>
 
             <header className="mb-8">
               <div className="flex flex-wrap items-center gap-3 mb-4">
@@ -214,6 +235,14 @@ export default function InvestigationContent() {
                 ))}
               </div>
             </div>
+
+            {/* Related Investigations */}
+            <RelatedInvestigations
+              currentSlug={slug}
+              currentData={investigationData}
+              maxRecommendations={4}
+              className="mt-8"
+            />
           </article>
 
           <aside className="hidden lg:block w-80 xl:w-96 flex-shrink-0">
@@ -245,5 +274,6 @@ export default function InvestigationContent() {
         )}
       </div>
     </div>
+    </>
   );
 }

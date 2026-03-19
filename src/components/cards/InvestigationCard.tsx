@@ -58,6 +58,7 @@ export default function InvestigationCard({ investigation, featured = false }: I
  return (
  <Link
  href={`/investigations/${investigation.slug}`}
+ aria-label={`${investigation.title} - ${severity.label} investigation in ${investigation.category} category with ${investigation.entityCount} entities`}
  className={`group block glass-card overflow-hidden ${featured ?"lg:col-span-2 lg:row-span-2":""}`}
  >
  {/* Header band with severity accent */}

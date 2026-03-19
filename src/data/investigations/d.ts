@@ -37,6 +37,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '5', name: 'Federalist Society', type: 'organization', relationship: 'Judicial vetting organization', href: '/entities/organizations/federalist-society' },
  { id: '6', name: 'Supreme Court', type: 'agency', relationship: 'Target of capture campaign', href: '/entities/agencies/supreme-court' },
  ],
+   eventOriginDate: '2021-04-14',
+   lastActivityDate: '2025-08-30',
+   pageUpdatedDate: '2025-03-18',
  },
   'doj-politicization': {
  title: 'DOJ Politicization Under Trump',
@@ -78,6 +81,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '7', name: 'DOJ', type: 'agency', relationship: 'Institution politicized under Trump', href: '/entities/agencies/doj' },
  { id: '8', name: 'FBI', type: 'agency', relationship: 'Director fired, agency attacked', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2017-04-25',
+   lastActivityDate: '2023-01-14',
+   pageUpdatedDate: '2025-03-18',
  },
   'dhs-violations': {
  title: 'DHS Human Rights Violations',
@@ -117,6 +123,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '6', name: 'Donald Trump', type: 'individual', relationship: 'Ordered deterrence through cruelty', href: '/entities/individuals/donald-trump' },
  { id: '7', name: 'Jeff Sessions', type: 'individual', relationship: 'Announced zero tolerance policy', href: '/entities/individuals/jeff-sessions' },
  ],
+   eventOriginDate: '2018-06-15',
+   lastActivityDate: '2022-05-04',
+   pageUpdatedDate: '2025-03-18',
  },
   'dobbs-aftermath': {
  title: 'Post-Dobbs Reproductive Healthcare Crisis',
@@ -158,6 +167,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '7', name: 'Donald Trump', type: 'individual', relationship: 'Appointed three justices who overturned Roe', href: '/entities/individuals/donald-trump' },
  { id: '8', name: 'Federalist Society', type: 'organization', relationship: 'Vetted justices who overturned Roe', href: '/entities/organizations/federalist-society' },
  ],
+   eventOriginDate: '2022-06-24',
+   lastActivityDate: '2022-07-24',
+   pageUpdatedDate: '2025-03-18',
  },
   'doj-corruption': {
  title: 'DOJ Politicization',
@@ -191,6 +203,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '3', name: 'DOJ', type: 'agency', relationship: 'Subject of politicization', href: '/entities/agencies/doj' },
  { id: '4', name: 'James Comey', type: 'individual', relationship: 'Fired FBI Director', href: '/entities/individuals/james-comey' },
  ],
+   eventOriginDate: '2022-12-12',
+   lastActivityDate: '2023-11-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'dakota-access-pipeline': {
  title: 'Dakota Access Pipeline',
@@ -229,6 +244,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '4', name: 'TigerSwan', type: 'corporation', relationship: 'Private security contractor', href: '/entities/corporations/tigerswan' },
  { id: '5', name: 'Army Corps of Engineers', type: 'agency', relationship: 'Permit authority', href: '/entities/agencies/army-corps' },
  ],
+   eventOriginDate: '2016-08-10',
+   lastActivityDate: '2017-11-01',
+   pageUpdatedDate: '2025-03-18',
  },
   'drone-assassinations': {
  title: 'Drone Assassination Program',
@@ -256,6 +274,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '2', name: 'JSOC', type: 'agency', relationship: 'Military drone operations', href: '/entities/agencies/jsoc' },
  { id: '3', name: 'Barack Obama', type: 'individual', relationship: 'Expanded drone program', href: '/entities/individuals/barack-obama' },
  ],
+   eventOriginDate: '2011-09-30',
+   lastActivityDate: '2014-04-28',
+   pageUpdatedDate: '2025-03-18',
  },
   'democratic-backsliding': {
  title: 'Democratic Backsliding',
@@ -280,10 +301,13 @@ const investigations_d: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Republican National Committee', type: 'organization', relationship: 'Drives backsliding', href: '/entities/organizations/rnc' },
  ],
+   eventOriginDate: '2022-08-02',
+   lastActivityDate: '2025-05-04',
+   pageUpdatedDate: '2025-03-18',
  },
   'daniel-shaver-police-killing': {
  title: 'Daniel Shaver Police Killing',
- subtitle: 'Unarmed man executed by police in hotel hallway while crawling and begging for his life',
+ subtitle: 'On January 18, 2016, Mesa, Arizona police officer Philip Brailsford shot and killed Daniel Shaver, an unarmed 26-year-old father of two, in a hotel hallway.',
  severity: 'critical',
  category: 'Police Violence',
  date: 'May 2, 2021',
@@ -310,6 +334,9 @@ const investigations_d: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'No federal civil rights charges filed', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2021-05-02',
+   lastActivityDate: '2022-05-26',
+   pageUpdatedDate: '2025-03-18',
  },
   'defense-tech-oligarchy': {
  title: 'Defense Tech Oligarchy',
@@ -336,6 +363,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '2', name: 'Peter Thiel', type: 'individual', relationship: 'Palantir co-founder, tech oligarch', href: '/entities/individuals/peter-thiel' },
  { id: '3', name: 'Elon Musk', type: 'individual', relationship: 'SpaceX defense contracts, DOGE', href: '/entities/individuals/elon-musk' },
  ],
+   eventOriginDate: '2024-08-15',
+   lastActivityDate: '2024-11-19',
+   pageUpdatedDate: '2025-03-18',
  },
   'disinformation': {
  title: 'Disinformation: The Architecture of Manufactured Reality',
@@ -361,6 +391,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'Facebook', type: 'corporation', relationship: 'Primary platform for disinformation spread', href: '/entities/corporations/meta-platforms' },
  { id: '2', name: 'Fox News', type: 'corporation', relationship: 'Major disinformation broadcaster', href: '/entities/corporations/fox-news' },
  ],
+   eventOriginDate: '2015-02-19',
+   lastActivityDate: '2025-07-07',
+   pageUpdatedDate: '2025-03-18',
  },
   'domestic-extremism': {
  title: 'Domestic Extremism: America\'s Homegrown Terror Threat',
@@ -387,6 +420,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '2', name: 'Koch Industries', type: 'corporation', relationship: 'Largest dark money network operators', href: '/entities/corporations/koch-industries' },
  { id: '3', name: 'Leonard Leo', type: 'individual', relationship: '$1.6B dark money empire', href: '/entities/individuals/leonard-leo' },
  ],
+   eventOriginDate: '2025-07-30',
+   lastActivityDate: '2026-02-01',
+   pageUpdatedDate: '2025-03-18',
  },
   'domestic-terrorism-in-america': {
  title: 'Domestic Terrorism in America',
@@ -423,6 +459,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '5', name: 'Fox News', type: 'corporation', relationship: 'Tucker Carlson promoted Great Replacement theory', href: '/entities/corporations/fox-news' },
  { id: '6', name: 'Donald Trump', type: 'individual', relationship: '"Very fine people on both sides" after Charlottesville', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2016-05-05',
+   lastActivityDate: '2025-01-21',
+   pageUpdatedDate: '2025-03-18',
  },
   'donor-crimes': {
  title: 'Donor Crimes: When Political Money Comes From Criminal Enterprise',
@@ -447,6 +486,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'FEC', type: 'agency', relationship: 'Failed to enforce campaign finance laws', href: '/entities/agencies/fec' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecution of illegal donors', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2012-06-04',
+   lastActivityDate: '2025-05-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'drone-strike-program': {
  title: 'U.S. Drone Strike Program: Assassination by Algorithm',
@@ -477,6 +519,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '4', name: 'Barack Obama', type: 'individual', relationship: 'Expanded and formalized the targeted killing program', href: '/entities/individuals/barack-obama' },
  { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Loosened strike rules, revoked civilian casualty reporting', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2018-03-28',
+   lastActivityDate: '2025-04-26',
+   pageUpdatedDate: '2025-03-18',
  },  'drug-price-gouging': {
  title: 'Pharmaceutical Drug Price Gouging',
  subtitle: 'Systematic exploitation of patients through manufactured scarcity, patent manipulation, and predatory pricing',
@@ -535,6 +580,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'DuPont', type: 'corporation', relationship: 'Concealed PFAS contamination for decades', href: '/entities/corporations/dupont' },
  { id: '2', name: 'EPA', type: 'agency', relationship: 'Failed to regulate PFAS chemicals', href: '/entities/agencies/epa' },
  ],
+   eventOriginDate: '2020-11-08',
+   lastActivityDate: '2025-07-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'disinformation-warfare-infrastructure': {
     title: 'Disinformation Warfare Infrastructure',
@@ -562,6 +610,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'CENTCOM operated fake social media accounts promoting US military interests; removed by Meta and Twitter in 2022', href: '/entities/agencies/pentagon' },
  { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated Russian IRA operations; counterintelligence role in foreign influence campaigns', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2022-05-29',
+   lastActivityDate: '2023-09-19',
+   pageUpdatedDate: '2025-03-18',
   },
   'deutsche-bank-money-laundering': {
     title: 'Deutsche Bank Money Laundering',
@@ -588,6 +639,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: '$7.2 billion MBS fraud settlement; $258 million sanctions violations; no criminal prosecution of executives', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2025-06-29',
+   lastActivityDate: '2025-07-29',
+   pageUpdatedDate: '2025-03-18',
   },
   'domestic-servitude-hidden-victims': {
     title: 'Domestic Servitude Hidden Victims',
@@ -615,6 +669,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Fewer than 20 domestic servitude prosecutions annually; Human Trafficking Prosecution Unit chronically under-resourced', href: '/entities/agencies/doj' },
  { id: '2', name: 'DHS', type: 'agency', relationship: 'A-3/G-5 visa program oversight; T-visa processing delays of 18-24 months', href: '/entities/agencies/dhs' },
  ],
+   eventOriginDate: '2016-12-27',
+   lastActivityDate: '2025-09-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'drug-trafficking-supply-chain-analysis': {
     title: 'Drug Trafficking Supply Chain Analysis',
@@ -640,6 +697,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'DEA', type: 'agency', relationship: 'Primary enforcement agency; seized 60 million fentanyl pills in 2023 but supply continues to increase', href: '/entities/agencies/dea' },
  ],
+   eventOriginDate: '2025-06-17',
+   lastActivityDate: '2025-07-17',
+   pageUpdatedDate: '2025-03-18',
   },
   'depopulation-agendas-exposed': {
     title: 'Depopulation Agendas Exposed',
@@ -666,6 +726,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'DHS', type: 'agency', relationship: 'ICE detention centers under investigation for unauthorized gynecological procedures on detained women', href: '/entities/agencies/dhs' },
  ],
+   eventOriginDate: '2022-07-30',
+   lastActivityDate: '2022-10-06',
+   pageUpdatedDate: '2025-03-18',
   },
   'du-weapons-health-effects-suppression': {
     title: 'DU Weapons Health Effects Suppression',
@@ -693,6 +756,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Deployed 300+ tons of DU munitions; maintains DU poses no significant health risk while restricting research access', href: '/entities/agencies/pentagon' },
  { id: '2', name: 'CIA', type: 'agency', relationship: 'Intelligence assessments of DU health effects in Iraq remain classified', href: '/entities/agencies/cia' },
  ],
+   eventOriginDate: '2019-11-18',
+   lastActivityDate: '2025-06-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'drug-price-gouging-insulin-crisis': {
     title: 'Drug Price Gouging Insulin Crisis',
@@ -719,6 +785,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'Eli Lilly', type: 'corporation', relationship: 'Increased Humalog price 585% from 2009-2017; controls approximately 30% of US insulin market', href: '/entities/corporations/eli-lilly' },
  { id: '2', name: 'FDA', type: 'agency', relationship: 'Biosimilar insulin approval process takes 4-8 years and costs $150M+, preventing generic competition', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2018-06-14',
+   lastActivityDate: '2025-11-25',
+   pageUpdatedDate: '2025-03-18',
   },
   'drone-warfare-civilian-casualties': {
     title: 'Drone Warfare Civilian Casualties',
@@ -746,10 +815,13 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated parallel drone program under Title 50 covert action authorities with minimal oversight', href: '/entities/agencies/cia' },
  { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Undercounted civilian deaths by 5-10x according to independent investigations; failed to conduct post-strike assessments', href: '/entities/agencies/pentagon' },
  ],
+   eventOriginDate: '2024-11-15',
+   lastActivityDate: '2025-10-30',
+   pageUpdatedDate: '2025-03-18',
   },
   'depleted-uranium-battlefield-legacy': {
     title: 'Depleted Uranium Battlefield Legacy',
-    subtitle: 'Iraqi cities bombed with DU munitions in 1991 and 2003 now report childhood cancer rates exceeding Hiroshima; while contaminated sites remain unremediated and veterans are denied care',
+    subtitle: 'The long-term environmental and health consequences of depleted uranium munitions use in Iraq, the Balkans, and other conflict zones constitute an ongoing humanitarian crisis.',
     severity: 'high',
     category: 'Military & Defense',
     date: 'May 21, 2012',
@@ -772,6 +844,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Refuses to provide DU strike location data for Iraqi remediation; rejects liability for civilian health effects', href: '/entities/agencies/pentagon' },
  ],
+   eventOriginDate: '2012-05-21',
+   lastActivityDate: '2026-01-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'deepfake-technology-weaponization': {
     title: 'Deepfake Technology Weaponization',
@@ -797,6 +872,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Warned of exponentially growing deepfake threat in 2021; investigating deepfake-enabled financial fraud schemes', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2022-03-17',
+   lastActivityDate: '2025-05-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'dna-database-privacy-violations': {
     title: 'DNA Database Privacy Violations',
@@ -822,6 +900,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Operates CODIS with 22M+ profiles; secretly accessed FamilyTreeDNA database beginning in 2018', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2014-05-03',
+   lastActivityDate: '2024-09-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'deforestation-corporate-responsibility': {
     title: 'Deforestation Corporate Responsibility',
@@ -847,6 +928,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Committed to zero deforestation in 2010; independent audits found ongoing sourcing from deforestation-linked palm oil suppliers through 2023', href: '/entities/corporations/nestle' },
  ],
+   eventOriginDate: '2013-07-04',
+   lastActivityDate: '2025-12-27',
+   pageUpdatedDate: '2025-03-18',
   },
   'data-broker-industry-expos': {
     title: 'Data Broker Industry Exposé',
@@ -872,6 +956,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'FTC', type: 'agency', relationship: 'Issued three reports calling for data broker regulation; enforcement actions criticized as insufficient deterrents', href: '/entities/agencies/federal-trade-commission' },
  ],
+   eventOriginDate: '2018-09-12',
+   lastActivityDate: '2025-04-04',
+   pageUpdatedDate: '2025-03-18',
   },
   'death-penalty-innocence-cases': {
     title: 'Death Penalty Innocence Cases',
@@ -897,6 +984,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal death penalty prosecutions; AEDPA restrictions on habeas corpus have prevented correction of wrongful convictions', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2022-05-26',
+   lastActivityDate: '2026-01-26',
+   pageUpdatedDate: '2025-03-18',
   },
   'defense-contractor-fraud-and-waste': {
     title: 'Defense Contractor Fraud and Waste',
@@ -923,6 +1013,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Has failed every annual financial audit since 2018; cannot account for 61% of its $3.8 trillion in assets', href: '/entities/agencies/pentagon' },
  ],
+   eventOriginDate: '2011-10-16',
+   lastActivityDate: '2025-11-29',
+   pageUpdatedDate: '2025-03-18',
   },
   'drug-war-racial-disparities': {
     title: 'Drug War Racial Disparities',
@@ -949,6 +1042,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal drug prosecution policies; Smart on Crime initiative rescinded by Sessions; 19.1% sentencing disparity documented', href: '/entities/agencies/doj' },
  { id: '2', name: 'DEA', type: 'agency', relationship: 'Enforcement patterns show consistent racial targeting; higher arrest rates in Black communities despite equal drug use rates', href: '/entities/agencies/dea' },
  ],
+   eventOriginDate: '2013-06-17',
+   lastActivityDate: '2026-01-11',
+   pageUpdatedDate: '2025-03-18',
   },
   'drug-patent-abuse-consumer-impact': {
     title: 'Drug Patent Abuse Consumer Impact',
@@ -974,10 +1070,13 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Generic drug approval process exploited through citizen petitions and 30-month stays; found 81% of blocking petitions filed in bad faith', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2023-12-05',
+   lastActivityDate: '2026-02-19',
+   pageUpdatedDate: '2025-03-18',
   },
   'drug-recall-delay-responsibility': {
     title: 'Drug Recall Delay Responsibility',
-    subtitle: 'From Vioxx to Zantac; pharmaceutical companies and the FDA have repeatedly delayed drug recalls for months or years after safety signals emerged, costing tens of thousands of lives',
+    subtitle: 'The history of pharmaceutical recalls reveals a consistent pattern: safety signals emerge from adverse event reports, clinical data, or independent...',
     severity: 'critical',
     category: 'Public Health',
     date: 'June 4, 2010',
@@ -999,6 +1098,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Initially dismissed NDMA contamination findings; inspects foreign drug facilities once every 11 years vs 2.7 years for domestic', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2010-06-04',
+   lastActivityDate: '2025-01-21',
+   pageUpdatedDate: '2025-03-18',
   },
   'digital-advertising-surveillance-pipeline': {
     title: 'Digital Advertising Surveillance Pipeline',
@@ -1025,6 +1127,9 @@ const investigations_d: Record<string, InvestigationData> = {
  { id: '1', name: 'Google', type: 'corporation', relationship: 'Controls the largest advertising surveillance network; $224B in ad revenue; DOJ antitrust case alleges search monopoly maintenance', href: '/entities/corporations/google' },
  { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Tracks 3.7B users; internal documents showed awareness that ad algorithms amplified harmful content', href: '/entities/corporations/meta-platforms' },
  ],
+   eventOriginDate: '2019-03-10',
+   lastActivityDate: '2025-07-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'drug-supply-chain-vulnerability-analysis': {
     title: 'Drug Supply Chain Vulnerability Analysis',
@@ -1050,6 +1155,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Inspects foreign drug facilities once every 11 years; unable to identify all foreign establishments in the drug supply chain', href: '/entities/agencies/fda' },
  ],
+   eventOriginDate: '2020-03-16',
+   lastActivityDate: '2025-04-30',
+   pageUpdatedDate: '2025-03-18',
   },
   'dark-money-in-local-elections': {
     title: 'Dark Money in Local Elections',
@@ -1075,6 +1183,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'FEC', type: 'agency', relationship: 'Jurisdiction limited to federal elections; unable to regulate dark money in local races where influence is greatest', href: '/entities/agencies/fec' },
  ],
+   eventOriginDate: '2018-10-23',
+   lastActivityDate: '2025-05-25',
+   pageUpdatedDate: '2025-03-18',
   },
   'domestic-worker-visa-abuse-networks': {
     title: 'Domestic Worker Visa Abuse Networks',
@@ -1100,6 +1211,9 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'DHS', type: 'agency', relationship: 'Oversees visa programs that tie workers to employers; T-visa cap for trafficking victims never reached due to identification barriers', href: '/entities/agencies/dhs' },
  ],
+   eventOriginDate: '2021-08-22',
+   lastActivityDate: '2025-01-31',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -1234,6 +1348,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '2', name: 'Arabella Advisors', type: 'organization', relationship: 'Manages Sixteen Thirty Fund', href: '/entities/organizations/arabella-advisors' },
       { id: '3', name: 'U.S. Chamber of Commerce', type: 'organization', relationship: 'Dark money spending', href: '/entities/organizations/us-chamber-of-commerce' },
     ],
+   eventOriginDate: '2013-02-05',
+   lastActivityDate: '2025-10-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'data-privacy-erosion': {
     title: 'Data Privacy Erosion',
@@ -1262,6 +1379,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '2', name: 'Google', type: 'corporation', relationship: 'Location tracking', href: '/entities/corporations/google' },
       { id: '3', name: 'NSA', type: 'agency', relationship: 'Mass surveillance programs', href: '/entities/agencies/nsa' },
     ],
+   eventOriginDate: '2018-03-17',
+   lastActivityDate: '2025-09-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'defense-contracting-fraud': {
     title: 'Defense Contracting Fraud',
@@ -1290,6 +1410,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Procurement waste', href: '/entities/agencies/pentagon' },
       { id: '3', name: 'GAO', type: 'agency', relationship: 'Audits defense waste', href: '/entities/agencies/gao' },
     ],
+   eventOriginDate: '2011-11-12',
+   lastActivityDate: '2025-08-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'darfur-genocide': {
     title: 'Darfur Genocide',
@@ -1323,6 +1446,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '1', name: 'Omar al-Bashir', type: 'individual', relationship: 'President of Sudan who directed genocide; ICC arrest warrant for genocide, crimes against humanity, and war crimes', href: '/individuals/omar-al-bashir' },
       { id: '2', name: 'United Nations', type: 'organization', relationship: 'Security Council referred situation to ICC but failed to enforce warrants; peacekeeping undermined by member state obstruction', href: '/entities/organizations/united-nations' },
     ],
+   eventOriginDate: '2003-02-26',
+   lastActivityDate: '2024-12-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'doj-two-tiered-justice-system': {
     title: 'The Two-Tiered Justice System: DOJ\'s Selective Prosecution',
@@ -1350,11 +1476,14 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigative arm of DOJ; resource allocation reflects prosecutorial priorities - more agents assigned to drug enforcement than white-collar crime', href: '/entities/agencies/fbi' },
       { id: '3', name: 'SEC', type: 'agency', relationship: 'Civil enforcement complements DOJ criminal; neither admit nor deny settlements prevent accountability', href: '/entities/agencies/sec' },
     ],
+   eventOriginDate: '2009-01-20',
+   lastActivityDate: '2026-04-02',
+   pageUpdatedDate: '2025-03-18',
   },
   'deepwater-horizon-bp-disaster': {
     slug: 'deepwater-horizon-bp-disaster',
     title: 'Deepwater Horizon BP Disaster',
-    subtitle: 'The largest marine oil spill in history killed 11 workers and devastated the Gulf of Mexico while BP cut safety corners to save time and money',
+    subtitle: 'On April 20, 2010, the Deepwater Horizon drilling rig exploded in the Gulf of Mexico, killing 11 workers and causing the largest marine oil spill in history.',
     severity: 'critical',
     category: 'Environmental Crimes',
     date: '2010-04-20',
@@ -1377,6 +1506,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Secured $4.5B criminal plea and $20.8B civil settlement; no senior executives imprisoned', href: '/entities/agencies/doj' },
       { id: '2', name: 'EPA', type: 'agency', relationship: 'Oversaw cleanup and dispersant application; banned BP from federal contracts (later lifted)', href: '/entities/agencies/epa' },
     ],
+   eventOriginDate: '2010-04-20',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'dupont-teflon-pfoa-coverup': {
     slug: 'dupont-teflon-pfoa-coverup',
@@ -1404,6 +1536,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Fined DuPont $16.5M (largest TSCA fine at the time) for failing to report PFOA health data; took 50+ years to set drinking water limits for PFAS', href: '/entities/agencies/epa' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined criminal prosecution of DuPont executives despite documented evidence of decades-long concealment of known carcinogen', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1998-08-01',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'drone-program-civilian-casualties': {
     title: 'The U.S. Drone Program: Extrajudicial Killing and Civilian Casualties',
@@ -1430,6 +1565,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated parallel drone program in Pakistan, Yemen, and Somalia under covert action authority; conducted signature strikes on unidentified targets', href: '/entities/agencies/cia' },
       { id: '2', name: 'DOD', type: 'agency', relationship: 'JSOC conducts targeted killings; Pentagon investigated Kabul strike killing 10 civilians including 7 children and found no one at fault', href: '/entities/agencies/dod' },
     ],
+   eventOriginDate: '2002-11-03',
+   lastActivityDate: '2026-03-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'domestic-surveillance-state': {
     title: 'The Domestic Surveillance State: Mass Spying on Americans',
@@ -1456,10 +1594,13 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Operates mass collection programs including PRISM and UPSTREAM; collected metadata on all domestic phone calls; monitors internet backbone', href: '/entities/agencies/nsa' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted 3.4 million warrantless searches of Americans in Section 702 database; uses National Security Letters with gag orders', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2024-07-20',
+   lastActivityDate: '2025-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'disability-benefits-denial-machine': {
     title: 'Social Security Disability Denial Machine',
-    subtitle: 'How the SSA denies 65% of initial disability claims, forces applicants through a 2-5 year appeals process, and allows 10,000 Americans to die each year waiting for benefits they were ultimately owed',
+    subtitle: 'The Social Security disability system has been engineered to deny benefits to people who qualify for them.',
     severity: 'high' as const,
     category: 'Government Failure',
     date: '2024-07-15',
@@ -1482,6 +1623,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '1', name: 'SSA', type: 'agency', relationship: 'Operates the disability determination system; 65% initial denial rate; 10,000 die annually waiting; budget cut 14% in real terms since 2010', href: '/entities/agencies/ssa' },
       { id: '2', name: 'GAO', type: 'agency', relationship: 'Multiple reports documenting ALJ variation, representative payee abuse, and processing backlogs; recommendations largely unimplemented', href: '/entities/agencies/gao' },
     ],
+   eventOriginDate: '2024-07-15',
+   lastActivityDate: '2025-02-25',
+   pageUpdatedDate: '2025-03-18',
   },
   'domestic-violence-system-failures': {
     title: 'Domestic Violence System Failures',
@@ -1508,10 +1652,13 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Administers VAWA grants and Office on Violence Against Women; consent decrees in cities like New Orleans addressed DV response failures; enforcement varies dramatically by administration', href: '/entities/agencies/doj' },
       { id: '2', name: 'HHS', type: 'agency', relationship: 'Funds Family Violence Prevention and Services Act programs; shelter grant funding has not kept pace with need; data systems for tracking DV across agencies remain fragmented', href: '/entities/agencies/hhs' },
     ],
+   eventOriginDate: '2024-05-05',
+   lastActivityDate: '2025-02-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'drone-strikes-civilian-casualties': {
     title: 'The U.S. Drone Strike Program: Extrajudicial Killing and the Civilian Death Toll',
-    subtitle: 'How three successive presidential administrations conducted thousands of drone strikes across at least seven countries, killing an estimated 10,000 to 48,000 people including thousands of civilians, while operating outside judicial oversight and redefining the legal boundaries of executive power to kill',
+    subtitle: 'Since 2001, the United States has conducted over 14,000 confirmed drone strikes across Pakistan, Afghanistan, Yemen, Somalia, Iraq, Syria, and Libya, killing an estimated 10,000 to 48,000 people.',
     severity: 'critical' as const,
     category: 'Government Abuse',
     date: '2001-2024',
@@ -1563,6 +1710,9 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Approved DES for pregnancy use; failed to withdraw approval after the 1953 Dieckmann study proved the drug ineffective and potentially harmful; issued only a non-binding Drug Bulletin advisory in 1971 rather than a formal recall; allowed existing supplies to continue being dispensed', href: '/entities/agencies/fda' },
       { id: '3', name: 'Arthur Herbst', type: 'individual', relationship: 'University of Chicago physician who identified the link between maternal DES use and clear-cell adenocarcinoma in young women in 1971, leading to the end of DES use in pregnancy; established the national DES cancer registry', href: '/entities/individuals/arthur-herbst' },
     ],
+   eventOriginDate: '1938-01-01',
+   lastActivityDate: '2025-06-01',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

@@ -62,10 +62,18 @@ export default function RootLayout({
  return (
  <html lang="en"className={inter.variable}>
  <body className="antialiased min-h-screen flex flex-col cursor-blood-red">
- {/* Skip to main content link for accessibility */}
+ {/* Skip to main content link for accessibility - WCAG 2.4.1 */}
  <a
  href="#main-content"
- className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[200] focus:px-4 focus:py-2 focus:bg-blood-700 focus:text-white focus:font-bold"
+ className="
+   sr-only focus:not-sr-only 
+   focus:absolute focus:top-4 focus:left-4 focus:z-[200] 
+   focus:px-6 focus:py-3 
+   focus:bg-blood-900 focus:border-2 focus:border-blood-500 
+   focus:text-white focus:font-bold focus:text-sm focus:uppercase focus:tracking-wider
+   focus:outline-none focus:ring-2 focus:ring-blood-400 focus:ring-offset-2 focus:ring-offset-black
+   focus:shadow-lg focus:shadow-blood-900/50
+ "
  >
  Skip to main content
  </a>

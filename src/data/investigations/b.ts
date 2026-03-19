@@ -39,6 +39,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '8', name: 'Elliott Broidy', type: 'individual', relationship: 'RNC finance chair, pardoned', href: '/entities/individuals/elliott-broidy' },
  { id: '9', name: 'Trump Organization', type: 'corporation', relationship: 'Properties received foreign payments', href: '/entities/corporations/trump-organization' },
  ],
+   eventOriginDate: '2012-01-09',
+   lastActivityDate: '2023-06-28',
+   pageUpdatedDate: '2025-03-18',
  },
   'biological-experimentation': {
  title: 'Biological Experimentation',
@@ -62,6 +65,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pandemic response', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Anthony Fauci', type: 'individual', relationship: 'NIH research oversight', href: '/entities/individuals/anthony-fauci' },
  ],
+   eventOriginDate: '2010-08-03',
+   lastActivityDate: '2025-12-02',
+   pageUpdatedDate: '2025-03-18',
  },
   'birther-conspiracy': {
  title: 'Birther Conspiracy',
@@ -90,6 +96,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Primary promoter of conspiracy', href: '/entities/individuals/donald-trump' },
  { id: '2', name: 'Barack Obama', type: 'individual', relationship: 'Target of racist conspiracy', href: '/entities/individuals/barack-obama' },
  ],
+   eventOriginDate: '2014-08-05',
+   lastActivityDate: '2017-04-04',
+   pageUpdatedDate: '2025-03-18',
  },
   'billionaire-enablers': {
  title: 'Billionaire Enablers',
@@ -129,6 +138,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '6', name: 'Federalist Society', type: 'organization', relationship: 'Judicial capture network', href: '/entities/organizations/federalist-society' },
  { id: '7', name: 'Heritage Foundation', type: 'organization', relationship: 'Billionaire-funded think tank', href: '/entities/organizations/heritage-foundation' },
  ],
+   eventOriginDate: '2010-06-15',
+   lastActivityDate: '2025-01-03',
+   pageUpdatedDate: '2025-03-18',
  },
   'blackwater-massacre': {
  title: 'Blackwater Nisour Square Massacre',
@@ -161,6 +173,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '3', name: 'Betsy DeVos', type: 'individual', relationship: 'Erik Prince\'s sister, Trump cabinet member', href: '/entities/individuals/betsy-devos' },
  { id: '4', name: 'State Department', type: 'agency', relationship: 'Employed Blackwater contractors', href: '/entities/agencies/state-department' },
  ],
+   eventOriginDate: '2011-06-28',
+   lastActivityDate: '2011-12-12',
+   pageUpdatedDate: '2025-03-18',
  },
   'bush-dynasty': {
  title: 'The Bush Family Dynasty',
@@ -194,6 +209,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '3', name: 'Jeb Bush', type: 'individual', relationship: 'Florida Governor during 2000', href: '/entities/individuals/jeb-bush' },
  { id: '4', name: 'CIA', type: 'agency', relationship: 'H.W. Bush served as Director', href: '/entities/agencies/cia' },
  ],
+   eventOriginDate: '2011-10-11',
+   lastActivityDate: '2022-05-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'bangladesh-genocide': {
  title: '1971 Bangladesh Genocide',
@@ -229,6 +247,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '4', name: 'State Department', type: 'agency', relationship: 'Blood Telegram originated here', href: '/entities/agencies/state-department' },
  { id: '5', name: 'Archer Blood', type: 'individual', relationship: 'Diplomat who documented genocide', href: '/entities/individuals/archer-blood' },
  ],
+   eventOriginDate: '2013-01-13',
+   lastActivityDate: '2013-02-12',
+   pageUpdatedDate: '2025-03-18',
  },
   'boeing-safety-crisis': {
  title: 'Boeing Safety Crisis',
@@ -258,6 +279,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '2', name: 'Dennis Muilenburg', type: 'individual', relationship: 'Former CEO, oversaw cover-up', href: '/entities/individuals/dennis-muilenburg' },
  { id: '3', name: 'FAA', type: 'agency', relationship: 'Failed to regulate', href: '/entities/agencies/faa' },
  ],
+   eventOriginDate: '2019-03-15',
+   lastActivityDate: '2024-04-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'boeing-criminal-enterprise': {
  title: 'Boeing: A Criminal Enterprise',
@@ -301,6 +325,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '9', name: 'John Barnett', type: 'individual', relationship: 'Whistleblower, died during testimony', href: '/entities/individuals/john-barnett' },
  { id: '10', name: 'Spirit AeroSystems', type: 'corporation', relationship: 'Troubled supplier', href: '/entities/corporations/spirit-aerosystems' },
  ],
+   eventOriginDate: '2020-01-07',
+   lastActivityDate: '2022-07-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'boeing-whistleblower-retaliation': {
  title: 'Boeing Whistleblower Deaths and Retaliation',
@@ -336,6 +363,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '4', name: 'Sam Salehpour', type: 'individual', relationship: 'Current 787 whistleblower', href: '/entities/individuals/sam-salehpour' },
  { id: '5', name: 'Boeing', type: 'corporation', relationship: 'Serial retaliator', href: '/entities/corporations/boeing' },
  ],
+   eventOriginDate: '2024-03-12',
+   lastActivityDate: '2024-10-11',
+   pageUpdatedDate: '2025-03-18',
  },
   'big-tobacco-lies': {
  title: 'Big Tobacco Conspiracy',
@@ -362,6 +392,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'Philip Morris', type: 'corporation', relationship: 'Major defendant', href: '/entities/corporations/philip-morris' },
  { id: '2', name: 'R.J. Reynolds', type: 'corporation', relationship: 'Major defendant', href: '/entities/corporations/rj-reynolds' },
  ],
+   eventOriginDate: '2012-07-17',
+   lastActivityDate: '2022-02-22',
+   pageUpdatedDate: '2025-03-18',
  },
   'bhopal-disaster': {
  title: 'Bhopal Gas Disaster',
@@ -388,10 +421,13 @@ const investigations_b: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Dow Chemical', type: 'corporation', relationship: 'Acquired Union Carbide', href: '/entities/corporations/dow-chemical' },
  ],
+   eventOriginDate: '2012-12-03',
+   lastActivityDate: '2025-03-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'bank-discrimination': {
  title: 'Banking Discrimination',
- subtitle: 'Systematic racial discrimination in banking, from redlining to modern algorithmic bias in lending de',
+ subtitle: 'Systematic racial discrimination in banking, from redlining to modern algorithmic bias in lending decisions.',
  severity: 'high',
  category: 'Civil Rights',
  date: 'November 13, 2018',
@@ -411,6 +447,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '2', name: 'Wells Fargo', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/wells-fargo' },
  { id: '3', name: 'Bank of America', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/bank-of-america' },
  ],
+   eventOriginDate: '2018-11-13',
+   lastActivityDate: '2025-10-03',
+   pageUpdatedDate: '2025-03-18',
  },
   'banking-corruption': {
  title: 'Banking Industry Corruption',
@@ -432,6 +471,9 @@ const investigations_b: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/jpmorgan-chase' },
  ],
+   eventOriginDate: '2023-03-28',
+   lastActivityDate: '2023-04-27',
+   pageUpdatedDate: '2025-03-18',
  },
   'banking-crimes': {
  title: 'Banking Sector Criminal Activity',
@@ -453,6 +495,9 @@ const investigations_b: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/wells-fargo' },
  ],
+   eventOriginDate: '2018-04-17',
+   lastActivityDate: '2024-05-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'belarus-repression': {
  title: 'Belarus Repression',
@@ -474,6 +519,9 @@ const investigations_b: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Alexander Lukashenko', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/alexander-lukashenko' },
  ],
+   eventOriginDate: '2021-11-19',
+   lastActivityDate: '2025-04-06',
+   pageUpdatedDate: '2025-03-18',
  },
   'big-tech-monopoly': {
  title: 'Big Tech Monopoly',
@@ -497,6 +545,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '2', name: 'Amazon Corp', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/amazon-corp' },
  { id: '3', name: 'Amazon Inc', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/amazon-inc' },
  ],
+   eventOriginDate: '2021-05-30',
+   lastActivityDate: '2023-11-07',
+   pageUpdatedDate: '2025-03-18',
  },
   'big-tobacco-conspiracy': {
  title: 'Big Tobacco Conspiracy',
@@ -519,6 +570,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'Philip Morris', type: 'corporation', relationship: 'Led industry conspiracy to hide cancer link', href: '/entities/corporations/philip-morris' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal RICO case against tobacco companies', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2025-06-21',
+   lastActivityDate: '2025-08-08',
+   pageUpdatedDate: '2025-03-18',
  },
   'billionaire-tax-avoidance': {
  title: 'Billionaire Tax Avoidance',
@@ -542,6 +596,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '2', name: 'Jeff Bezos', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jeff-bezos' },
  { id: '3', name: 'Warren Buffett', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/warren-buffett' },
  ],
+   eventOriginDate: '2016-03-02',
+   lastActivityDate: '2025-02-02',
+   pageUpdatedDate: '2025-03-18',
  },
   'boarding-schools': {
  title: 'Boarding Schools',
@@ -563,6 +620,9 @@ const investigations_b: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Interior Department', type: 'agency', relationship: 'Bureau of Indian Affairs operated schools', href: '/entities/agencies/interior-department' },
  ],
+   eventOriginDate: '2019-12-28',
+   lastActivityDate: '2020-01-27',
+   pageUpdatedDate: '2025-03-18',
  },
   'boeing-safety-failures': {
  title: 'Boeing Safety Failures',
@@ -585,6 +645,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'FAA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/faa' },
  { id: '2', name: 'Boeing', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/boeing' },
  ],
+   eventOriginDate: '2021-02-09',
+   lastActivityDate: '2025-08-22',
+   pageUpdatedDate: '2025-03-18',
  },
   'bop-failures': {
  title: 'BOP Failures',
@@ -608,6 +671,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '2', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/bop' },
  { id: '3', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/federal-bureau-of-prisons' },
  ],
+   eventOriginDate: '2025-01-26',
+   lastActivityDate: '2025-02-25',
+   pageUpdatedDate: '2025-03-18',
  },
   'border-deaths': {
  title: 'Border Deaths',
@@ -630,6 +696,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'CBP', type: 'agency', relationship: 'Border enforcement causing deaths', href: '/entities/agencies/cbp' },
  { id: '2', name: 'DHS', type: 'agency', relationship: 'Department overseeing border policy', href: '/entities/agencies/dhs' },
  ],
+   eventOriginDate: '2022-06-26',
+   lastActivityDate: '2025-06-23',
+   pageUpdatedDate: '2025-03-18',
  },
   'boston-archdiocese-coverup': {
  title: 'Boston Archdiocese Coverup',
@@ -652,6 +721,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'Cardinal Bernard Law', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/cardinal-bernard-law' },
  { id: '2', name: 'John Geoghan', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/john-geoghan' },
  ],
+   eventOriginDate: '2020-06-24',
+   lastActivityDate: '2025-06-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'botham-jean-murder': {
  title: 'Botham Jean Murder',
@@ -674,6 +746,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'Amber Guyger', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/amber-guyger' },
  { id: '2', name: 'Botham Jean', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/botham-jean' },
  ],
+   eventOriginDate: '2025-02-19',
+   lastActivityDate: '2025-05-04',
+   pageUpdatedDate: '2025-03-18',
  },
   'breonna-taylor': {
  title: 'Breonna Taylor',
@@ -695,6 +770,9 @@ const investigations_b: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Breonna Taylor', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/breonna-taylor' },
  ],
+   eventOriginDate: '2024-11-15',
+   lastActivityDate: '2025-07-28',
+   pageUpdatedDate: '2025-03-18',
  },
   'brian-sicknick': {
  title: 'Brian Sicknick',
@@ -717,6 +795,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'George Tanios', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/george-tanios' },
  { id: '2', name: 'Julian Khater', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/julian-khater' },
  ],
+   eventOriginDate: '2025-08-27',
+   lastActivityDate: '2026-01-05',
+   pageUpdatedDate: '2025-03-18',
  },
   'buffalo-massacre': {
  title: 'Buffalo Massacre',
@@ -739,6 +820,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigated shooter, missed warning signs', href: '/entities/agencies/fbi' },
  { id: '2', name: 'Dylann Roof', type: 'individual', relationship: 'Prior white supremacist mass shooter', href: '/entities/individuals/dylann-roof' },
  ],
+   eventOriginDate: '2017-02-07',
+   lastActivityDate: '2018-05-18',
+   pageUpdatedDate: '2025-03-18',
  },
   'bay-of-pigs-cover-up': {
     title: 'Bay of Pigs Cover-Up',
@@ -766,6 +850,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Planned and executed failed invasion; concealed truth for decades', href: '/entities/agencies/cia' },
  { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Covered up deaths of American pilots in combat missions', href: '/entities/agencies/pentagon' },
  ],
+   eventOriginDate: '2025-01-21',
+   lastActivityDate: '2025-04-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'big-pharma-patent-evergreening': {
     title: 'Big Pharma Patent Evergreening',
@@ -794,6 +881,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '2', name: 'AbbVie', type: 'corporation', relationship: '250+ patents on Humira; $208B in cumulative revenue', href: '/entities/corporations/abbvie' },
  { id: '3', name: 'Eli Lilly', type: 'corporation', relationship: '1,157% insulin price increase through patent evergreening', href: '/entities/corporations/eli-lilly' },
  ],
+   eventOriginDate: '2023-10-02',
+   lastActivityDate: '2024-04-22',
+   pageUpdatedDate: '2025-03-18',
   },
   'banking-lobby-capture-of-fed': {
     title: 'Banking Lobby Capture of the Federal Reserve',
@@ -822,6 +912,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Multiple former executives in Fed leadership; revolving door', href: '/entities/corporations/goldman-sachs' },
  { id: '3', name: 'JPMorgan Chase', type: 'corporation', relationship: 'CEO sat on NY Fed board during bailout; primary beneficiary of Fed policy', href: '/entities/corporations/jpmorgan-chase' },
  ],
+   eventOriginDate: '2021-11-16',
+   lastActivityDate: '2024-08-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'big-tech-antitrust-failures': {
     title: 'Big Tech Antitrust Failures',
@@ -850,6 +943,9 @@ const investigations_b: Record<string, InvestigationData> = {
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Filed landmark cases against Google and Apple', href: '/entities/agencies/doj' },
  { id: '3', name: 'Federal Trade Commission', type: 'agency', relationship: 'Filed antitrust cases against Amazon and Meta', href: '/entities/agencies/federal-trade-commission' },
  ],
+   eventOriginDate: '2025-11-20',
+   lastActivityDate: '2025-12-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'ballot-chain-of-custody-violations': {
     title: 'Ballot Chain of Custody Violations',
@@ -877,6 +973,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '1', name: 'CISA', type: 'agency', relationship: 'Federal election security guidance and coordination', href: '/entities/agencies/cisa' },
       { id: '2', name: 'EAC', type: 'agency', relationship: 'Voluntary voting system standards without enforcement authority', href: '/entities/agencies/eac' },
     ],
+   eventOriginDate: '2023-11-25',
+   lastActivityDate: '2023-12-25',
+   pageUpdatedDate: '2025-03-18',
   },
   'bankruptcy-fraud-hidden-asset-schemes': {
     title: 'Bankruptcy Fraud: Hidden Asset Schemes',
@@ -903,6 +1002,9 @@ const investigations_b: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'US Trustee Program bankruptcy oversight; 40% case review shortfall', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2019-12-26',
+   lastActivityDate: '2024-09-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'birth-rate-manipulation-policy-analysis': {
     title: 'Birth Rate Manipulation: Policy Analysis',
@@ -929,6 +1031,9 @@ const investigations_b: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'ICE detention facility sterilization allegations; DHS IG investigation', href: '/entities/agencies/dhs' },
     ],
+   eventOriginDate: '2025-02-07',
+   lastActivityDate: '2025-05-22',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -997,6 +1102,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '2', name: 'AIG', type: 'corporation', relationship: 'Sold CDS protection, received $182B bailout', href: '/entities/corporations/aig' },
       { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Provided $16T in secret emergency loans', href: '/entities/agencies/federal-reserve' },
     ],
+   eventOriginDate: '2008-09-15',
+   lastActivityDate: '2025-03-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'big-pharma-price-gouging': {
     title: 'Big Pharma Price Gouging',
@@ -1025,6 +1133,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '2', name: 'Eli Lilly', type: 'corporation', relationship: 'Insulin manufacturer, 300% price increases', href: '/entities/corporations/eli-lilly' },
       { id: '3', name: 'Turing Pharmaceuticals', type: 'corporation', relationship: 'Raised Daraprim price 5,000%', href: '/entities/corporations/turing-pharmaceuticals' },
     ],
+   eventOriginDate: '2021-11-20',
+   lastActivityDate: '2025-09-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'bitcoin-regulation-capture': {
     title: 'Bitcoin Regulation Capture',
@@ -1053,6 +1164,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '2', name: 'FTX', type: 'corporation', relationship: 'Collapsed, erasing $8B in customer funds', href: '/entities/corporations/ftx' },
       { id: '3', name: 'SEC', type: 'agency', relationship: 'Settled with Binance, minimal enforcement', href: '/entities/agencies/sec' },
     ],
+   eventOriginDate: '2022-05-10',
+   lastActivityDate: '2025-06-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'bosnian-genocide': {
     title: 'Bosnian Genocide and Srebrenica Massacre',
@@ -1087,6 +1201,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '2', name: 'Ratko Mladic', type: 'individual', relationship: 'Commander of VRS who personally directed Srebrenica massacre; convicted of genocide; sentenced to life imprisonment', href: '/individuals/ratko-mladic' },
       { id: '3', name: 'Slobodan Milosevic', type: 'individual', relationship: 'President of Serbia who supported Bosnian Serb forces; indicted for genocide; died during ICTY trial', href: '/individuals/slobodan-milosevic' },
     ],
+   eventOriginDate: '1992-04-06',
+   lastActivityDate: '2024-12-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'bail-bond-industry-poverty-incarceration': {
     title: 'The Bail Bond Industry: How America Criminalizes Poverty',
@@ -1112,6 +1229,9 @@ const investigations_b: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed statement of interest in Harris County bail case; federal Bail Reform Act sets framework but does not regulate commercial bail bonding', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2018-02-20',
+   lastActivityDate: '2025-11-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'boeing-corporate-manslaughter': {
     slug: 'boeing-corporate-manslaughter',
@@ -1140,6 +1260,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Offered deferred prosecution; no senior executives charged for 346 deaths', href: '/entities/agencies/doj' },
       { id: '3', name: 'NTSB', type: 'agency', relationship: 'Investigated both crashes and 2024 door plug blowout; findings informed regulatory action', href: '/entities/agencies/ntsb' },
     ],
+   eventOriginDate: '2018-10-29',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'big-pharma-price-gouging-crisis': {
     slug: 'big-pharma-price-gouging-crisis',
@@ -1167,6 +1290,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves drugs but has no authority over pricing; generic drug approval process creates 4-year average delay benefiting brand manufacturers', href: '/entities/agencies/fda' },
       { id: '2', name: 'FTC', type: 'agency', relationship: 'Challenged some pay-for-delay agreements; filed lawsuit against major insulin manufacturers in 2024 for price manipulation', href: '/entities/agencies/ftc' },
     ],
+   eventOriginDate: '2016-08-24',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'bear-stearns-2008-collapse': {
     title: 'Bear Stearns: The First Domino of the 2008 Financial Crisis',
@@ -1193,6 +1319,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '1', name: 'Federal Reserve', type: 'agency', relationship: 'Created Maiden Lane LLC with $30B in non-recourse loans to backstop JPMorgan acquisition; set bailout precedent', href: '/entities/agencies/federal-reserve' },
       { id: '2', name: 'SEC', type: 'agency', relationship: 'Had primary regulatory oversight of Bear Stearns; failed to enforce capital adequacy requirements or detect liquidity risk buildup', href: '/entities/agencies/sec' },
     ],
+   eventOriginDate: '2008-03-14',
+   lastActivityDate: '2024-05-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'boeing-starliner-safety-failures': {
     title: 'Boeing Starliner: Billions Over Budget, Years Behind Schedule, and Astronauts Stranded in Space',
@@ -1219,6 +1348,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '1', name: 'NASA', type: 'agency', relationship: 'Awarded $4.2B contract; decided Starliner too risky to return astronauts; relies on SpaceX as backup', href: '/entities/agencies/nasa' },
       { id: '2', name: 'Boeing', type: 'corporation', relationship: 'Prime contractor absorbing $1.5B+ in cost overruns; engineering culture failures mirror 737 MAX crisis', href: '/entities/corporations/boeing' },
     ],
+   eventOriginDate: '2024-06-05',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'banking-libor-manipulation': {
     title: 'LIBOR Manipulation: The Biggest Financial Fraud in History',
@@ -1245,10 +1377,13 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Secured guilty pleas from multiple banks; fines totaled billions but fraction of profits; minimal individual prosecutions', href: '/entities/agencies/doj' },
       { id: '2', name: 'SEC', type: 'agency', relationship: 'Coordinated with CFTC on enforcement; investigated bond market manipulation linked to LIBOR', href: '/entities/agencies/sec' },
     ],
+   eventOriginDate: '2012-06-27',
+   lastActivityDate: '2026-02-18',
+   pageUpdatedDate: '2025-03-18',
   },
   'pentagon-budget-unauditable-waste': {
     title: 'Pentagon Budget: The $886 Billion Unauditable Black Hole',
-    subtitle: 'How the Department of Defense has failed every audit since mandatory auditing began, cannot account for trillions in spending, and operates the largest unaccountable budget in the world',
+    subtitle: 'The Department of Defense, which receives $886 billion in annual appropriations (2024) — more than the next 10 countries combined spend on their...',
     severity: 'critical' as const,
     category: 'Government Accountability',
     date: '2024-11-15',
@@ -1271,6 +1406,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Has failed every financial audit since 2018; cannot account for $3.8T in assets; 2,400+ incompatible financial systems; no consequences for non-compliance', href: '/entities/agencies/dod' },
       { id: '2', name: 'GAO', type: 'agency', relationship: 'Has designated DOD financial management a "high risk" area since 1995; recommendations routinely ignored; limited enforcement authority', href: '/entities/agencies/gao' },
     ],
+   eventOriginDate: '2024-11-15',
+   lastActivityDate: '2025-03-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'body-camera-accountability-gaps': {
     title: 'Police Body Camera Programs and the Accountability Illusion',
@@ -1297,6 +1435,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Distributed billions in body camera grants; no federal standards for activation, retention, or release policies; consent decree cities show only marginal improvement', href: '/entities/agencies/doj' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Does not track body camera compliance nationally; no federal database of footage availability in use-of-force incidents', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2024-08-15',
+   lastActivityDate: '2025-02-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'border-patrol-abuse-patterns': {
     title: 'Border Patrol Abuse Patterns',
@@ -1323,6 +1464,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '1', name: 'CBP', type: 'agency', relationship: 'Largest U.S. law enforcement agency; internal affairs sustains fewer than 5% of abuse complaints; body camera deployment began 2023 but remains incomplete; 100-mile zone authority affects 200M+ Americans', href: '/entities/agencies/cbp' },
       { id: '2', name: 'DHS', type: 'agency', relationship: 'Parent agency with oversight authority; OIG complaints backlogged by thousands; acting leadership during key periods meant accountability structures lacked permanent authority', href: '/entities/agencies/dhs' },
     ],
+   eventOriginDate: '2024-04-25',
+   lastActivityDate: '2025-02-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'british-american-colonial-biological-warfare': {
     slug: 'british-american-colonial-biological-warfare',
@@ -1352,6 +1496,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '2', name: 'Bureau of Indian Affairs', type: 'agency', relationship: 'Administered reservation system that maintained conditions maximizing disease transmission; provided inadequate rations despite treaty obligations; underfunded medical care; operated boarding schools that spread tuberculosis and other diseases among children', href: '/entities/agencies/bureau-of-indian-affairs' },
       { id: '3', name: 'Philip Sheridan', type: 'individual', relationship: 'U.S. Army general who championed the deliberate extermination of the buffalo as a military strategy to starve Plains tribes into submission; lobbied the Texas legislature against buffalo protection; credited hide hunters with doing more to crush Indigenous resistance than the regular army', href: '/entities/individuals/philip-sheridan' },
     ],
+   eventOriginDate: '1763-06-24',
+   lastActivityDate: '2025-05-01',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

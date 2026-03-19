@@ -25,6 +25,9 @@ const investigations_o: Record<string, InvestigationData> = {
  { id: '1', name: 'Oath Keepers', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/oath-keepers' },
  { id: '2', name: 'Oath Keepers', type: 'organization', relationship: 'Key figure in investigation', href: '/entities/organizations/oath-keepers' },
  ],
+   eventOriginDate: '2012-04-26',
+   lastActivityDate: '2025-03-15',
+   pageUpdatedDate: '2025-03-18',
  },
   'obesity-epidemic': {
  title: 'The American Obesity Epidemic: A Manufactured Health Crisis',
@@ -49,6 +52,9 @@ const investigations_o: Record<string, InvestigationData> = {
  { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia involved in Jan 6', href: '/entities/organizations/oath-keepers' },
  { id: '2', name: 'Stewart Rhodes', type: 'individual', relationship: 'Founder convicted of seditious conspiracy', href: '/entities/individuals/stewart-rhodes' },
  ],
+   eventOriginDate: '2025-11-05',
+   lastActivityDate: '2026-02-13',
+   pageUpdatedDate: '2025-03-18',
  },  'ohio-state-abuse': {
  title: 'Ohio State University Abuse',
  subtitle: 'Dr. Richard Strauss sexually abused at least 177 students over two decades with institutional cover-up',
@@ -104,6 +110,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia', href: '/entities/organizations/oath-keepers' },
       { id: '2', name: 'Stewart Rhodes', type: 'individual', relationship: 'Founder convicted of seditious conspiracy', href: '/entities/individuals/stewart-rhodes' },
     ],
+   eventOriginDate: '2022-07-06',
+   lastActivityDate: '2025-04-28',
+   pageUpdatedDate: '2025-03-18',
  },
   'opioid-distribution-networks': {
  title: 'Opioid Distribution Networks',
@@ -139,10 +148,13 @@ const investigations_o: Record<string, InvestigationData> = {
  { id: '4', name: 'DEA', type: 'agency', relationship: 'Enforcement powers gutted by industry-backed legislation', href: '/entities/agencies/dea' },
  { id: '5', name: 'Congress', type: 'agency', relationship: 'Passed law weakening DEA enforcement at industry request', href: '/entities/agencies/congress' },
  ],
+   eventOriginDate: '2013-10-15',
+   lastActivityDate: '2024-03-19',
+   pageUpdatedDate: '2025-03-18',
  },
   'offshore-tax-haven-architecture': {
     title: 'Offshore Tax Haven Architecture: The Global System Hiding $36 Trillion',
-    subtitle: 'How a network of shell companies, secrecy jurisdictions, and complicit professionals enables the wealthy and corporations to hide an estimated $36 trillion offshore; draining public treasuries worldwide while enforcement remains deliberately weak',
+    subtitle: 'The offshore tax haven system shelters an estimated $36 trillion in assets across secrecy jurisdictions; costing governments $427 billion annually in...',
     severity: 'critical',
     category: 'Financial Crime',
     date: 'July 4, 2021',
@@ -166,10 +178,13 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Chronically underfunded enforcement; lost 600+ agents 2010-2021; unable to pursue complex offshore cases', href: '/entities/agencies/irs' },
       { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities enforcement limited by shell company opacity and multi-jurisdictional complexity', href: '/entities/agencies/sec' },
     ],
+   eventOriginDate: '2021-07-04',
+   lastActivityDate: '2022-03-24',
+   pageUpdatedDate: '2025-03-18',
   },
   'organized-crime-in-construction-industry': {
     title: 'Organized Crime in Construction: The Mob\'s Multi-Billion Dollar Industry',
-    subtitle: 'How La Cosa Nostra controlled the New York construction industry for decades through union corruption, bid rigging, and extortion; inflating costs by an estimated 20-30% on every major project while law enforcement struggled to break the grip',
+    subtitle: 'How the Mafia controlled construction through bid rigging, union corruption, and concrete cartels.',
     severity: 'high',
     category: 'Organized Crime',
     date: 'April 6, 2015',
@@ -193,6 +208,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Led RICO investigations against Mafia construction rackets; Commission trial convicted all five family bosses', href: '/entities/agencies/fbi' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil RICO suits against corrupt unions; Laborers and Teamsters consent decrees', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2015-04-06',
+   lastActivityDate: '2015-09-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-chaos-domestic-spying': {
     title: 'Operation CHAOS: The CIA\'s Illegal Domestic Surveillance Machine',
@@ -221,6 +239,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Coordinated with CIA through COINTELPRO; shared intelligence on domestic political targets', href: '/entities/agencies/fbi' },
       { id: '3', name: 'NSA', type: 'agency', relationship: 'MINARET program provided signals intelligence on American citizens at CHAOS request', href: '/entities/agencies/nsa' },
     ],
+   eventOriginDate: '2025-06-19',
+   lastActivityDate: '2025-07-19',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-mockingbird-media-infiltration': {
     title: 'Operation Mockingbird: CIA Infiltration of American Media',
@@ -247,10 +268,13 @@ const investigations_o: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated Mockingbird; recruited 400+ journalists; infiltrated major news organizations for propaganda purposes', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '2022-12-16',
+   lastActivityDate: '2023-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-northwoods-false-flag-planning': {
     title: 'Operation Northwoods: When the Pentagon Proposed Terror Against Americans',
-    subtitle: 'The declassified 1962 plan in which the Joint Chiefs of Staff proposed staging terrorist attacks on American soil; including shooting civilians, sinking refugee boats, and hijacking aircraft; to justify a military invasion of Cuba',
+    subtitle: 'Operation Northwoods was a 1962 Department of Defense plan proposing false flag terrorist operations against American civilians and military targets to create a pretext for invading Cuba.',
     severity: 'critical',
     category: 'Intelligence Abuse',
     date: 'October 1, 2025',
@@ -273,10 +297,13 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Joint Chiefs of Staff proposed false flag attacks on American citizens and military targets', href: '/entities/agencies/pentagon' },
       { id: '2', name: 'CIA', type: 'agency', relationship: 'Involved in false flag planning through proprietary organizations and operational support', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '2025-10-01',
+   lastActivityDate: '2025-10-31',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-paperclip-nazi-scientist-import': {
     title: 'Operation Paperclip: Importing Nazi Scientists to Win the Cold War',
-    subtitle: 'How the United States secretly recruited over 1,600 Nazi scientists, engineers, and technicians; whitewashing war crimes records and bypassing immigration law; to gain technological advantage over the Soviet Union',
+    subtitle: 'Operation Paperclip (1945-1959) was a secret U.',
     severity: 'critical',
     category: 'Intelligence Abuse',
     date: 'January 10, 2019',
@@ -301,6 +328,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'JIOA under the Joint Chiefs falsified records to import over 1,600 Nazi scientists bypassing Truman\'s directive', href: '/entities/agencies/pentagon' },
       { id: '3', name: 'NASA', type: 'agency', relationship: 'Employed former Nazi scientists including von Braun (Saturn V) and Rudolph (later denaturalized for war crimes)', href: '/entities/agencies/nasa' },
     ],
+   eventOriginDate: '2019-01-10',
+   lastActivityDate: '2024-06-05',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-condor-latin-america-terror': {
     title: 'Operation Condor: State Terrorism Across Latin America',
@@ -328,6 +358,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Provided intelligence support, training, and communications equipment to Condor dictatorships', href: '/entities/agencies/cia' },
       { id: '2', name: 'Henry Kissinger', type: 'individual', relationship: 'Authorized continued U.S. support for Condor; delayed warnings about assassination plans', href: '/entities/individuals/henry-kissinger' },
     ],
+   eventOriginDate: '2018-12-02',
+   lastActivityDate: '2022-09-16',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-gladio-stay-behind-networks': {
     title: 'Operation Gladio: NATO\'s Secret Stay-Behind Armies',
@@ -354,6 +387,9 @@ const investigations_o: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Established and funded stay-behind networks across 16+ European nations; linked to strategy of tension', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '2021-02-19',
+   lastActivityDate: '2022-12-23',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-fast-and-furious-gun-walking': {
     title: 'Operation Fast and Furious: ATF\'s Deadly Gun Walking Disaster',
@@ -381,6 +417,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'ATF', type: 'agency', relationship: 'Ran gun-walking operation allowing 2,000+ firearms to reach Mexican cartels; lost track of 1,400 weapons', href: '/entities/agencies/atf' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Oversight failure; AG Holder held in contempt; provided misleading information to Congress', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2019-06-01',
+   lastActivityDate: '2023-08-25',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-pbsuccess-guatemala-coup': {
     title: 'Operation PBSUCCESS: The CIA\'s Guatemala Coup of 1954',
@@ -409,10 +448,13 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '2', name: 'United Fruit Company', type: 'corporation', relationship: 'Corporate beneficiary of coup; had extensive connections to Eisenhower administration through Dulles brothers', href: '/entities/corporations/united-fruit-company' },
       { id: '3', name: 'Henry Kissinger', type: 'individual', relationship: 'Later supported Guatemalan military governments as NSA/Secretary of State', href: '/entities/individuals/henry-kissinger' },
     ],
+   eventOriginDate: '2022-05-12',
+   lastActivityDate: '2022-08-21',
+   pageUpdatedDate: '2025-03-18',
   },
   'opioid-crisis-manufacturer-liability': {
     title: 'Opioid Manufacturers: Engineering an Epidemic for Profit',
-    subtitle: 'How Purdue Pharma, Johnson & Johnson, and other pharmaceutical manufacturers deliberately created the opioid crisis through deceptive marketing, corrupted science, and systematic lies about addiction risk; generating $35 billion in revenue while 600,000 Americans died',
+    subtitle: 'Pharmaceutical manufacturers led by Purdue Pharma deliberately engineered the opioid epidemic through deceptive marketing, fabricated science about...',
     severity: 'critical',
     category: 'Public Health',
     date: 'January 5, 2025',
@@ -437,6 +479,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '2', name: 'DEA', type: 'agency', relationship: 'Enforcement powers weakened by pharmaceutical industry lobbying; failed to impose adequate quotas', href: '/entities/agencies/dea' },
       { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Supplied raw opiate materials through Tasmanian Alkaloids; marketed fentanyl patches; $5B settlement', href: '/entities/corporations/johnson-and-johnson' },
     ],
+   eventOriginDate: '2025-01-05',
+   lastActivityDate: '2025-12-19',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-ajax-iran-coup-1953': {
     title: 'Operation Ajax: The CIA\'s Iran Coup That Shaped the Modern Middle East',
@@ -463,6 +508,9 @@ const investigations_o: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Directed Operation Ajax; spent $1M+ on propaganda, bribes, and mob organization; orchestrated overthrow of democratic government', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '2023-12-09',
+   lastActivityDate: '2025-02-14',
+   pageUpdatedDate: '2025-03-18',
   },
   'ocean-pollution-industrial-scale': {
     title: 'Industrial-Scale Ocean Pollution: The Systematic Destruction of Marine Ecosystems',
@@ -489,6 +537,9 @@ const investigations_o: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Weakened Clean Water Act enforcement; 50% decline in enforcement actions 2006-2020', href: '/entities/agencies/epa' },
     ],
+   eventOriginDate: '2023-11-14',
+   lastActivityDate: '2024-01-09',
+   pageUpdatedDate: '2025-03-18',
   },
   'oil-spill-cover-up-history': {
     title: 'Oil Spill Cover-Ups: A History of Corporate Deception',
@@ -517,6 +568,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '2', name: 'BP', type: 'corporation', relationship: 'Deepwater Horizon; underreported flow rate by 60x; applied 2M gallons dispersant to hide oil; denied worker protections', href: '/entities/corporations/bp-corporation' },
       { id: '3', name: 'EPA', type: 'agency', relationship: 'Approved Corexit dispersant use despite toxicity concerns; inadequate long-term monitoring of spill impacts', href: '/entities/agencies/epa' },
     ],
+   eventOriginDate: '2019-06-04',
+   lastActivityDate: '2020-08-14',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-mockingbird-modern-successors': {
     title: 'Modern Mockingbird: The Evolution of Intelligence-Media Relationships',
@@ -544,6 +598,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Historical media influence through Mockingbird; modern relationships through revolving door and strategic leaks', href: '/entities/agencies/cia' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Regular communications with social media platforms for content flagging; documented in Twitter Files', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2023-01-01',
+   lastActivityDate: '2025-07-24',
+   pageUpdatedDate: '2025-03-18',
   },
   'off-label-drug-promotion-violations': {
     title: 'Off-Label Drug Promotion: Pharmaceutical Companies Selling Drugs for Unapproved Uses',
@@ -572,6 +629,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '2', name: 'Pfizer', type: 'corporation', relationship: 'Paid $2.3B for Bextra off-label promotion (2009); its fourth such settlement; signed repeated Corporate Integrity Agreements', href: '/entities/corporations/pfizer' },
       { id: '3', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Paid $2.2B for promoting Risperdal off-label for elderly and children; concealed gynecomastia risk in boys', href: '/entities/corporations/johnson-and-johnson' },
     ],
+   eventOriginDate: '2025-01-11',
+   lastActivityDate: '2025-09-27',
+   pageUpdatedDate: '2025-03-18',
   },
   'online-radicalization-pipeline-architecture': {
     title: 'Online Radicalization Pipeline: How Algorithms Create Extremists',
@@ -599,10 +659,13 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'Google', type: 'corporation', relationship: 'YouTube recommendation algorithm systematically directed users toward extremist content; company delayed safety changes to protect engagement', href: '/entities/corporations/google' },
       { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Facebook groups facilitated radicalization; 64% of extremist group joins from recommendations; Stop the Steal infrastructure', href: '/entities/corporations/meta-platforms' },
     ],
+   eventOriginDate: '2011-09-06',
+   lastActivityDate: '2025-07-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'online-platform-trafficking-facilitation': {
     title: 'Online Platform Trafficking Facilitation: How Tech Companies Enable Exploitation',
-    subtitle: 'How online platforms including Backpage, social media networks, and encrypted messaging apps have facilitated sex trafficking and labor trafficking; generating billions in revenue while victims are exploited at industrial scale',
+    subtitle: 'Online platforms have become the primary infrastructure for human trafficking operations.',
     severity: 'critical',
     category: 'Human Trafficking',
     date: 'March 18, 2020',
@@ -626,6 +689,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Backpage operators; enforces FOSTA-SESTA; coordinates federal anti-trafficking task forces', href: '/entities/agencies/doj' },
       { id: '2', name: 'Meta Platforms', type: 'corporation', relationship: 'Facebook used in 59% of online minor sex trafficking recruitment cases per Human Trafficking Institute', href: '/entities/corporations/meta-platforms' },
     ],
+   eventOriginDate: '2020-03-18',
+   lastActivityDate: '2022-08-27',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -780,6 +846,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Approved OxyContin with label claiming lower abuse potential; failed to require adequate safety studies', href: '/entities/agencies/fda' },
       { id: '3', name: 'DOJ', type: 'agency', relationship: 'Secured Purdue guilty pleas in 2007 and 2020; no criminal charges against Sackler family members', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1996-01-01',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-condor-cia-latin-america': {
     title: 'Operation Condor: CIA-Backed State Terror Across South America',
@@ -806,6 +875,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Supported 1973 Chilean coup; maintained paid relationship with DINA chief Contreras; provided intelligence to Condor member states; trained officers at School of Americas', href: '/entities/agencies/cia' },
       { id: '2', name: 'DOD', type: 'agency', relationship: 'Operated School of the Americas training Latin American military in counterinsurgency and interrogation; DIA documented awareness of Condor operations', href: '/entities/agencies/dod' },
     ],
+   eventOriginDate: '1975-11-25',
+   lastActivityDate: '2026-02-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'opioid-distribution-supply-chain-complicity': {
     title: 'Opioid Distribution: The Wholesale Drug Companies That Fueled the Epidemic',
@@ -832,6 +904,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement authority stripped by 2016 legislation drafted by industry lobbyists; fined McKesson twice for same violations; allowed billions of suspicious pills to flow', href: '/entities/agencies/dea' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Negotiated $21B distributor settlement with no criminal charges against executives; prioritized financial settlement over individual accountability', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2024-09-10',
+   lastActivityDate: '2025-02-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'pesticide-science-suppression': {
     title: 'Pesticide Industry Science Suppression',
@@ -858,6 +933,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Maintains glyphosate is not likely carcinogenic despite jury verdicts and IARC classification; failed to ban neonicotinoids despite own risk findings; chlorpyrifos ban delayed 20+ years', href: '/entities/agencies/epa' },
       { id: '2', name: 'USDA', type: 'agency', relationship: 'Promotes pesticide-intensive agriculture through crop subsidies and extension services; Pesticide Data Program detects residues but does not regulate them', href: '/entities/agencies/usda' },
     ],
+   eventOriginDate: '2024-08-01',
+   lastActivityDate: '2025-02-20',
+   pageUpdatedDate: '2025-03-18',
   },
   'opioid-settlement-fund-misuse': {
     title: 'Opioid Settlement Fund Misuse',
@@ -884,6 +962,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Negotiated separate federal settlements with Purdue Pharma and distributors; no federal enforcement mechanism for state-level spending compliance; DEA data enabled the crisis through inadequate quota controls', href: '/entities/agencies/doj' },
       { id: '2', name: 'HHS', type: 'agency', relationship: 'SAMHSA administers separate federal addiction treatment grants; settlement funds overlap with but do not replace existing programs; opioid treatment gap remains over 20 million people', href: '/entities/agencies/hhs' },
     ],
+   eventOriginDate: '2024-08-10',
+   lastActivityDate: '2025-02-18',
+   pageUpdatedDate: '2025-03-18',
   },
   'operation-paperclip-nazi-scientists': {
     slug: 'operation-paperclip-nazi-scientists',
@@ -913,6 +994,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '2', name: 'Wernher von Braun', type: 'individual', relationship: 'SS-Sturmbannfuhrer and technical director of the V-2 program that used 60,000 slave laborers from Mittelbau-Dora; became director of NASA Marshall Space Flight Center and architect of the Saturn V rocket; received the National Medal of Science; never investigated for war crimes by the United States', href: '/entities/individuals/wernher-von-braun' },
       { id: '3', name: 'NASA', type: 'agency', relationship: 'Employed dozens of Paperclip scientists in senior positions; von Braun directed the Saturn V program; Strughold served as chief scientist of Aerospace Medical Division; Rudolph managed the Saturn V production; NASA awarded Distinguished Service Medals to individuals later investigated for war crimes', href: '/entities/agencies/nasa' },
     ],
+   eventOriginDate: '1945-09-03',
+   lastActivityDate: '2025-05-01',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 

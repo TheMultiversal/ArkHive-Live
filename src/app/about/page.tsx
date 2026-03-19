@@ -200,7 +200,7 @@ export default function AboutPage() {
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
  <Link href="/entities/individuals" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
  <div className="flex items-center justify-between mb-2">
- <h4 className="text-blood-600 font-bold uppercase tracking-wider">Individuals</h4>
+ <h3 className="text-blood-600 font-bold uppercase tracking-wider">Individuals</h3>
  <span className="text-blood-500 font-mono text-sm font-bold">2,110</span>
  </div>
  <p className="text-zinc-500 text-sm mb-2">Presidents, executives, intelligence directors, judges, lobbyists; the people who made the decisions, signed the orders, and took the money.</p>
@@ -210,7 +210,7 @@ export default function AboutPage() {
  </Link>
  <Link href="/entities/agencies" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
  <div className="flex items-center justify-between mb-2">
- <h4 className="text-blood-600 font-bold uppercase tracking-wider">Government Agencies</h4>
+ <h3 className="text-blood-600 font-bold uppercase tracking-wider">Government Agencies</h3>
  <span className="text-blood-500 font-mono text-sm font-bold">141</span>
  </div>
  <p className="text-zinc-500 text-sm mb-2">CIA, FBI, NSA, DOJ, EPA, DOD, FCC, SEC, FDA; federal, state, and international agencies with documented involvement in institutional crimes.</p>
@@ -220,7 +220,7 @@ export default function AboutPage() {
  </Link>
  <Link href="/entities/corporations" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
  <div className="flex items-center justify-between mb-2">
- <h4 className="text-blood-600 font-bold uppercase tracking-wider">Corporations</h4>
+ <h3 className="text-blood-600 font-bold uppercase tracking-wider">Corporations</h3>
  <span className="text-blood-500 font-mono text-sm font-bold">209</span>
  </div>
  <p className="text-zinc-500 text-sm mb-2">Defense contractors, pharmaceutical giants, Wall Street banks, Big Tech, fossil fuel companies, media conglomerates; profiting from the systems they corrupt.</p>
@@ -230,7 +230,7 @@ export default function AboutPage() {
  </Link>
  <Link href="/entities/organizations" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
  <div className="flex items-center justify-between mb-2">
- <h4 className="text-blood-600 font-bold uppercase tracking-wider">Organizations</h4>
+ <h3 className="text-blood-600 font-bold uppercase tracking-wider">Organizations</h3>
  <span className="text-blood-500 font-mono text-sm font-bold">155</span>
  </div>
  <p className="text-zinc-500 text-sm mb-2">Think tanks, PACs, lobbying groups, extremist networks, NGOs, and international organizations connected to documented investigations.</p>

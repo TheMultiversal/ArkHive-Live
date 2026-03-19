@@ -40,6 +40,9 @@ const investigations_9: Record<string, InvestigationData> = {
  { id: '6', name: 'FBI', type: 'agency', relationship: 'Ignored Phoenix Memo, denied Moussaoui warrant', href: '/entities/agencies/fbi' },
  { id: '7', name: 'NSA', type: 'agency', relationship: 'Intercepted al-Qaeda communications', href: '/entities/agencies/nsa' },
  ],
+   eventOriginDate: '2009-09-18',
+   lastActivityDate: '2022-10-04',
+   pageUpdatedDate: '2025-03-18',
  },
   '9-11-failures': {
  title: '9/11 Intelligence Failures',
@@ -65,6 +68,9 @@ const investigations_9: Record<string, InvestigationData> = {
  { id: '2', name: 'CIA', type: 'agency', relationship: 'Failed to share intelligence', href: '/entities/agencies/cia' },
  { id: '3', name: 'FBI', type: 'agency', relationship: 'Ignored warnings', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2009-09-11',
+   lastActivityDate: '2010-09-03',
+   pageUpdatedDate: '2025-03-18',
  },
  'border-militarization-immigration-enforcement': {
   title: 'Border Militarization and Immigration Enforcement Complex',
@@ -91,6 +97,9 @@ const investigations_9: Record<string, InvestigationData> = {
    { id: '1', name: 'CBP', type: 'agency', relationship: 'Largest federal law enforcement agency with $19B budget; implemented "Prevention Through Deterrence" strategy; 21,000+ Border Patrol agents', href: '/entities/agencies/cbp' },
    { id: '2', name: 'ICE', type: 'agency', relationship: 'Manages immigration detention with 34,000 bed mandate; 200+ deaths in custody since 2004; relied on private prison contractors for 80% of detention', href: '/entities/agencies/ice' },
   ],
+  eventOriginDate: '2024-10-01',
+  lastActivityDate: '2025-03-01',
+  pageUpdatedDate: '2025-03-18',
  },
 };
 

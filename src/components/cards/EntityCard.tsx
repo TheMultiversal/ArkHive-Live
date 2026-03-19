@@ -52,6 +52,7 @@ export default function EntityCard({ entity }: EntityCardProps) {
  return (
  <Link
  href={`/entities/${typePath}/${entity.slug}`}
+ aria-label={`${entity.name} - ${riskLabels[entity.riskLevel]} ${entity.type} with ${entity.investigationCount} linked investigations`}
  className="group block glass-card overflow-hidden"
  >
  <div className="p-4 lg:p-5">

@@ -23,6 +23,9 @@ const investigations_w: Record<string, InvestigationData> = {
  
  ],
  affiliations: [],
+   eventOriginDate: '2009-02-18',
+   lastActivityDate: '2023-11-28',
+   pageUpdatedDate: '2025-03-18',
  },
   'water-privatization': {
  title: 'Water Privatization Schemes',
@@ -63,6 +66,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '8', name: 'American Water', type: 'corporation', relationship: 'Water privatization advocate', href: '/entities/corporations/american-water' },
  { id: '9', name: 'Duke Energy', type: 'corporation', relationship: 'Coal ash contamination sites', href: '/entities/corporations/duke-energy' },
  ],
+   eventOriginDate: '2013-02-09',
+   lastActivityDate: '2022-02-23',
+   pageUpdatedDate: '2025-03-18',
  },
   'white-nationalism': {
  title: 'White Nationalism & Trump',
@@ -101,6 +107,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '5', name: 'Enrique Tarrio', type: 'individual', relationship: 'Proud Boys leader, seditious conspiracy', href: '/entities/individuals/enrique-tarrio' },
  { id: '6', name: 'Stewart Rhodes', type: 'individual', relationship: 'Oath Keepers founder, seditious conspiracy', href: '/entities/individuals/stewart-rhodes' },
  ],
+   eventOriginDate: '2017-08-15',
+   lastActivityDate: '2023-05-26',
+   pageUpdatedDate: '2025-03-18',
  },
   'war-profiteering': {
  title: 'War Profiteering in Iraq and Afghanistan',
@@ -139,6 +148,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '6', name: 'Pentagon', type: 'agency', relationship: 'Contract oversight failures', href: '/entities/agencies/pentagon' },
  { id: '7', name: 'Betsy DeVos', type: 'individual', relationship: 'Erik Prince\'s sister, Trump cabinet', href: '/entities/individuals/betsy-devos' },
  ],
+   eventOriginDate: '2011-04-06',
+   lastActivityDate: '2024-09-06',
+   pageUpdatedDate: '2025-03-18',
  },
   'white-nationalist-media': {
  title: 'White Nationalist Media Ecosystem',
@@ -175,6 +187,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '3', name: 'Fox News', type: 'corporation', relationship: 'Platform for replacement theory', href: '/entities/corporations/fox-corporation' },
  { id: '4', name: 'Google', type: 'corporation', relationship: 'YouTube radicalization algorithm', href: '/entities/corporations/google' },
  ],
+   eventOriginDate: '2017-09-09',
+   lastActivityDate: '2024-09-30',
+   pageUpdatedDate: '2025-03-18',
  },
   'who-china': {
  title: 'WHO-China Relationship Controversy',
@@ -208,6 +223,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '3', name: 'Xi Jinping', type: 'individual', relationship: 'Chinese leader during pandemic', href: '/entities/individuals/xi-jinping' },
  { id: '4', name: 'Donald Trump', type: 'individual', relationship: 'Withdrew U.S. from WHO', href: '/entities/individuals/donald-trump' },
  ],
+   eventOriginDate: '2020-11-10',
+   lastActivityDate: '2022-01-21',
+   pageUpdatedDate: '2025-03-18',
  },
   'wuhan-lab': {
  title: 'Wuhan Institute of Virology Investigation',
@@ -241,6 +259,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '3', name: 'EcoHealth Alliance', type: 'organization', relationship: 'Funded WIV research', href: '/entities/organizations/ecohealth-alliance' },
  { id: '4', name: 'FBI', type: 'agency', relationship: 'Assesses lab leak most likely', href: '/entities/agencies/fbi' },
  ],
+   eventOriginDate: '2020-09-02',
+   lastActivityDate: '2024-04-29',
+   pageUpdatedDate: '2025-03-18',
  },
   'war-crimes': {
  title: 'War Crimes Without Accountability',
@@ -277,6 +298,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '3', name: 'International Committee of the Red Cross', type: 'organization', relationship: 'Geneva Conventions guardian', href: '/entities/organizations/icrc' },
  { id: '4', name: 'United Nations', type: 'agency', relationship: 'International law enforcement', href: '/entities/agencies/united-nations' },
  ],
+   eventOriginDate: '2011-06-09',
+   lastActivityDate: '2012-12-22',
+   pageUpdatedDate: '2025-03-18',
  },
   'wall-street-bailout': {
  title: '2008 Wall Street Bailout',
@@ -302,6 +326,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '2', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Bailout recipient', href: '/entities/corporations/jpmorgan-chase' },
  { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Emergency lending', href: '/entities/agencies/federal-reserve' },
  ],
+   eventOriginDate: '2009-04-03',
+   lastActivityDate: '2024-10-07',
+   pageUpdatedDate: '2025-03-18',
  },
   'worldcom-fraud': {
  title: 'WorldCom Fraud',
@@ -328,6 +355,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '1', name: 'WorldCom', type: 'corporation', relationship: 'Collapsed fraud', href: '/entities/corporations/worldcom' },
  { id: '2', name: 'Bernard Ebbers', type: 'individual', relationship: 'CEO, 25-year sentence', href: '/entities/individuals/bernard-ebbers' },
  ],
+   eventOriginDate: '2009-07-07',
+   lastActivityDate: '2012-05-25',
+   pageUpdatedDate: '2025-03-18',
  },
   'wagner-crimes': {
  title: 'Wagner Group Crimes: Russia\'s Murder-for-Hire Mercenary Army',
@@ -352,6 +382,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '1', name: 'Wagner Group', type: 'organization', relationship: 'Russian private military company', href: '/entities/organizations/wagner-group' },
  { id: '2', name: 'Vladimir Putin', type: 'individual', relationship: 'Kremlin-backed mercenary force', href: '/entities/individuals/vladimir-putin' },
  ],
+   eventOriginDate: '2025-06-16',
+   lastActivityDate: '2025-07-16',
+   pageUpdatedDate: '2025-03-18',
  },
   'wall-street-accountability': {
  title: 'Wall Street Accountability: Too Big to Jail',
@@ -377,6 +410,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '2', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Largest bank, systemic risk', href: '/entities/corporations/jpmorgan-chase' },
  { id: '3', name: 'SEC', type: 'agency', relationship: 'Regulatory capture by Wall Street', href: '/entities/agencies/sec' },
  ],
+   eventOriginDate: '2024-07-14',
+   lastActivityDate: '2024-08-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'wall-street-manipulation': {
  title: 'Wall Street Market Manipulation: Rigging the Game',
@@ -401,6 +437,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Water extraction from public sources', href: '/entities/corporations/nestle' },
  { id: '2', name: 'EPA', type: 'agency', relationship: 'Water quality regulation', href: '/entities/agencies/epa' },
  ],
+   eventOriginDate: '2019-03-18',
+   lastActivityDate: '2024-09-13',
+   pageUpdatedDate: '2025-03-18',
  },
   'walmart-labor': {
  title: 'Walmart Labor Abuses: The Human Cost of Low Prices',
@@ -424,6 +463,9 @@ const investigations_w: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/walmart' },
  ],
+   eventOriginDate: '2023-08-01',
+   lastActivityDate: '2025-06-12',
+   pageUpdatedDate: '2025-03-18',
  },
   'walter-scott-murder': {
  title: 'Walter Scott Murder: Shot in the Back While Running Away',
@@ -447,6 +489,9 @@ const investigations_w: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Walter Scott', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/walter-scott' },
  ],
+   eventOriginDate: '2025-06-13',
+   lastActivityDate: '2025-11-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'war-on-terror-abuses': {
  title: 'War on Terror Abuses: Torture, Black Sites, and Indefinite Detention',
@@ -470,6 +515,9 @@ const investigations_w: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Largest private employer, labor violations', href: '/entities/corporations/walmart' },
  ],
+   eventOriginDate: '2023-07-15',
+   lastActivityDate: '2025-02-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'wartime-civil-liberties': {
  title: 'Wartime Civil Liberties: How America Suspends Freedom in Times of Fear',
@@ -494,10 +542,13 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Patriot Act enforcement', href: '/entities/agencies/doj' },
  { id: '2', name: 'NSA', type: 'agency', relationship: 'Warrantless surveillance programs', href: '/entities/agencies/nsa' },
  ],
+   eventOriginDate: '2020-10-19',
+   lastActivityDate: '2024-05-11',
+   pageUpdatedDate: '2025-03-18',
  },
   'weinstein-sexual-assault': {
  title: 'Harvey Weinstein Sexual Assault & the #MeToo Movement',
- subtitle: 'The serial predator whose downfall triggered a global reckoning with sexual violence, institutional complicity, and the abuse of power',
+ subtitle: 'Harvey Weinstein, one of the most powerful figures in Hollywood, was exposed in 2017 as a serial sexual predator who assaulted and harassed dozens of women over three decades.',
  severity: 'critical',
  category: 'Sexual Assault',
  date: 'October 5, 2017',
@@ -524,6 +575,9 @@ const investigations_w: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Serial predator convicted in New York and Los Angeles; NY conviction overturned on appeal', href: '/entities/individuals/harvey-weinstein' },
  ],
+   eventOriginDate: '2017-10-05',
+   lastActivityDate: '2026-03-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'wework-collapse': {
  title: 'WeWork Collapse: The $47 Billion Delusion',
@@ -547,6 +601,9 @@ const investigations_w: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Walter Scott', type: 'individual', relationship: 'Shot in back fleeing police', href: '/entities/individuals/walter-scott' },
  ],
+   eventOriginDate: '2022-03-26',
+   lastActivityDate: '2026-02-27',
+   pageUpdatedDate: '2025-03-18',
  },
   'white-supremacist-terrorism': {
  title: 'White Supremacist Terrorism: America\'s Deadliest Domestic Threat',
@@ -571,6 +628,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Classified as top domestic terror threat', href: '/entities/agencies/fbi' },
  { id: '2', name: 'DHS', type: 'agency', relationship: 'Threat assessment reports', href: '/entities/agencies/dhs' },
  ],
+   eventOriginDate: '2021-05-14',
+   lastActivityDate: '2023-03-20',
+   pageUpdatedDate: '2025-03-18',
  },
   'white-supremacist-violence': {
  title: 'White Supremacist Violence: The Ongoing Campaign of Racial Terror',
@@ -595,6 +655,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic terrorism investigations', href: '/entities/agencies/fbi' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Hate crime prosecutions', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2023-01-06',
+   lastActivityDate: '2023-07-05',
+   pageUpdatedDate: '2025-03-18',
  },
   'white-supremacy': {
  title: 'White Supremacy in America: The System, Not Just the Extremists',
@@ -619,6 +682,9 @@ const investigations_w: Record<string, InvestigationData> = {
  { id: '1', name: 'FBI', type: 'agency', relationship: 'White supremacy designated top domestic threat', href: '/entities/agencies/fbi' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Hate crime prosecutions', href: '/entities/agencies/doj' },
  ],
+   eventOriginDate: '2024-10-22',
+   lastActivityDate: '2025-04-09',
+   pageUpdatedDate: '2025-03-18',
  },
   'wmd-lies': {
  title: 'WMD Lies: How America Was Deceived Into the Iraq War',
@@ -642,6 +708,9 @@ const investigations_w: Record<string, InvestigationData> = {
  affiliations: [
       { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Largest private employer, violations', href: '/entities/corporations/walmart' },
     ],
+   eventOriginDate: '2018-03-22',
+   lastActivityDate: '2019-03-10',
+   pageUpdatedDate: '2025-03-18',
  },
   'worker-misclassification': {
  title: 'Worker Misclassification: The Gig Economy\'s Billion-Dollar Wage Theft',
@@ -665,10 +734,13 @@ const investigations_w: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Delivery driver misclassification', href: '/entities/corporations/amazon-inc' },
  ],
+   eventOriginDate: '2025-10-19',
+   lastActivityDate: '2025-11-17',
+   pageUpdatedDate: '2025-03-18',
  },
   'wire-fraud-transnational-networks': {
     title: 'Wire Fraud Transnational Networks',
-    subtitle: 'How transnational criminal networks exploit electronic payment systems, correspondent banking, and cryptocurrency to steal billions annually through business email compromise, romance scams, and investment fraud',
+    subtitle: 'Transnational wire fraud networks; primarily based in West Africa, Eastern Europe, and Southeast Asia; steal an estimated $10+ billion annually from...',
     severity: 'critical',
     category: 'Financial Crime',
     date: 'January 1, 2015',
@@ -690,6 +762,9 @@ const investigations_w: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'IC3 receives 880,000+ complaints annually; Recovery Asset Team has frozen $3B; but recovers only a fraction of the $12.5B in annual losses', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2015-01-01',
+   lastActivityDate: '2023-09-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'war-profiteering-iraq-afghanistan': {
     title: 'War Profiteering Iraq Afghanistan',
@@ -717,6 +792,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '2', name: 'Dick Cheney', type: 'individual', relationship: 'Former Halliburton CEO who became VP and was primary architect of Iraq War; received $34M in deferred compensation from Halliburton while in office', href: '/entities/individuals/dick-cheney' },
       { id: '3', name: 'Blackwater', type: 'corporation', relationship: '$2.4B in government contracts; Nisour Square massacre of 17 Iraqi civilians; guards convicted then pardoned by Trump', href: '/entities/corporations/blackwater' },
     ],
+   eventOriginDate: '2003-03-20',
+   lastActivityDate: '2022-04-06',
+   pageUpdatedDate: '2025-03-18',
   },
   'wall-street-capture-of-sec': {
     title: 'Wall Street Capture of SEC',
@@ -743,6 +821,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Subject of capture; 80% of former chairs went to work for financial industry; failed to detect $64.8B Madoff fraud despite direct tips', href: '/entities/agencies/sec' },
       { id: '2', name: 'Goldman Sachs', type: 'corporation', relationship: 'Revolving door pipeline; multiple former executives served at SEC; paid $550M ABACUS settlement; repeat offender with no senior prosecutions', href: '/entities/corporations/goldman-sachs' },
     ],
+   eventOriginDate: '1934-01-01',
+   lastActivityDate: '2022-10-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'whistleblower-retaliation-systematic': {
     title: 'Whistleblower Retaliation Systematic',
@@ -769,6 +850,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes whistleblowers under the Espionage Act while failing to prosecute the wrongdoing they expose; Thomas Drake, Reality Winner, Daniel Hale all charged', href: '/entities/agencies/doj' },
       { id: '2', name: 'Edward Snowden', type: 'individual', relationship: 'Most prominent whistleblower in exile; exposed NSA mass surveillance; charged under Espionage Act; granted Russian citizenship', href: '/entities/individuals/edward-snowden' },
     ],
+   eventOriginDate: '1970-01-01',
+   lastActivityDate: '2023-11-14',
+   pageUpdatedDate: '2025-03-18',
   },
   'wrongful-convictions-systemic-crisis': {
     title: 'Wrongful Convictions Systemic Crisis',
@@ -794,6 +878,9 @@ const investigations_w: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'FBI provided erroneous forensic testimony in 95% of hair analysis cases reviewed; prosecutorial misconduct in 30%+ of wrongful convictions; absolute immunity shields prosecutors from consequences', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1989-01-01',
+   lastActivityDate: '2025-10-04',
+   pageUpdatedDate: '2025-03-18',
   },
   'whistleblower-prosecution-timeline': {
     title: 'Whistleblower Prosecution Timeline',
@@ -822,6 +909,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '3', name: 'Chelsea Manning', type: 'individual', relationship: 'Sentenced to 35 years for leaking Iraq/Afghanistan war documents and diplomatic cables; commuted by Obama after 7 years; jailed again for refusing grand jury testimony', href: '/entities/individuals/chelsea-manning' },
       { id: '4', name: 'Julian Assange', type: 'individual', relationship: 'Indicted on 17 Espionage Act counts for publishing classified documents; spent 5 years in Belmarsh Prison; pleaded guilty June 2024', href: '/entities/individuals/julian-assange' },
     ],
+   eventOriginDate: '2009-01-01',
+   lastActivityDate: '2025-05-19',
+   pageUpdatedDate: '2025-03-18',
   },
   'waste-management-organized-crime-ties': {
     title: 'Waste Management Organized Crime Ties',
@@ -847,6 +937,9 @@ const investigations_w: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted mob-connected waste hauling companies; RICO cases against Gambino and Genovese family members involved in the cartel', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1950-01-01',
+   lastActivityDate: '2026-01-17',
+   pageUpdatedDate: '2025-03-18',
   },
   'wire-transfer-fraud-international-corridors': {
     title: 'Wire Transfer Fraud International Corridors',
@@ -872,6 +965,9 @@ const investigations_w: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes wire transfer fraud and money laundering; HSBC $1.9B, Standard Chartered $1.1B, Deutsche Bank $630M; no senior banker imprisoned', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2010-01-01',
+   lastActivityDate: '2025-06-04',
+   pageUpdatedDate: '2025-03-18',
   },
   'workplace-monitoring-technology-growth': {
     title: 'Workplace Monitoring Technology Growth',
@@ -897,6 +993,9 @@ const investigations_w: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Model for invasive worker surveillance; tracks warehouse workers\' every movement in seconds; AI cameras monitor delivery drivers; injury rate double industry average', href: '/entities/corporations/amazon-inc' },
     ],
+   eventOriginDate: '2019-01-01',
+   lastActivityDate: '2026-01-18',
+   pageUpdatedDate: '2025-03-18',
   },
   'water-treatment-chemical-health-effects': {
     title: 'Water Treatment Chemical Health Effects',
@@ -923,6 +1022,9 @@ const investigations_w: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Regulates only 90 of 86,000+ chemicals in use; went 28 years without adding a new regulated contaminant; finalized first PFAS standard in 2024', href: '/entities/agencies/epa' },
     ],
+   eventOriginDate: '2024-10-21',
+   lastActivityDate: '2026-02-09',
+   pageUpdatedDate: '2025-03-18',
   },
 
 
@@ -962,7 +1064,7 @@ const investigations_w: Record<string, InvestigationData> = {
   },
   'war-on-drugs-mass-incarceration': {
     title: 'The War on Drugs: America\'s Longest War Against Its Own Citizens',
-    subtitle: 'How a racially motivated policy framework criminalized addiction, destroyed communities of color, fueled mass incarceration, and failed every stated objective for over fifty years',
+    subtitle: 'President Nixon declared drug abuse "public enemy number one" on June 17, 1971, launching what became the longest and most destructive domestic policy campaign in American history.',
     severity: 'critical',
     category: 'Criminal Justice / Civil Rights',
     date: 'June 17, 1971',
@@ -987,6 +1089,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Oversees federal drug prosecution; enforced racially disparate sentencing guidelines for decades', href: '/entities/agencies/doj' },
       { id: '3', name: 'CIA', type: 'agency', relationship: 'Maintained relationships with drug traffickers in Central America; IG report confirmed knowledge of Contra-cocaine connections', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '1971-06-17',
+   lastActivityDate: '2026-04-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'weapons-industry-revolving-door': {
     title: 'The Military-Industrial Complex: War Profiteering and the Revolving Door',
@@ -1014,6 +1119,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Failed every audit since 2018; cannot account for $3.8 trillion in assets; revolving door with contractors', href: '/entities/agencies/dod' },
       { id: '2', name: 'CIA', type: 'agency', relationship: 'Operates classified weapons programs outside normal procurement oversight; drone programs use defense contractor platforms', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '1961-01-17',
+   lastActivityDate: '2026-03-08',
+   pageUpdatedDate: '2025-03-18',
   },
   'wells-fargo-fake-accounts-scandal': {
     slug: 'wells-fargo-fake-accounts-scandal',
@@ -1042,6 +1150,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '2', name: 'OCC', type: 'agency', relationship: 'Primary regulator that failed to act on complaints for years; eventually barred CEO and fined executives', href: '/entities/agencies/occ' },
       { id: '3', name: 'DOJ', type: 'agency', relationship: 'Settled with Wells Fargo for $3B in 2020; no individual criminal charges against senior executives', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2016-09-08',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'wage-theft-americas-largest-theft': {
     slug: 'wage-theft-americas-largest-theft',
@@ -1069,6 +1180,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has ~750 investigators for 10.6M workplaces; recovers only fraction of stolen wages', href: '/entities/agencies/dol' },
       { id: '2', name: 'IRS', type: 'agency', relationship: 'Loses $7B+/year in payroll tax revenue from worker misclassification; limited enforcement capacity', href: '/entities/agencies/irs' },
     ],
+   eventOriginDate: '2014-09-11',
+   lastActivityDate: '2025-01-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'worldcom-accounting-fraud': {
     title: 'WorldCom: $11 Billion Accounting Fraud That Destroyed Telecom Giant',
@@ -1095,10 +1209,13 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Failed to detect $11B fraud despite quarterly filing reviews; imposed $750M penalty after collapse', href: '/entities/agencies/sec' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Ebbers (25yr sentence), Sullivan (5yr), and three other executives for fraud conspiracy', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '2002-06-25',
+   lastActivityDate: '2024-03-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'wirecard-german-fraud': {
     title: 'Wirecard: $2 Billion Missing in Germany\'s Biggest Corporate Fraud',
-    subtitle: 'German fintech darling Wirecard fabricated $2 billion in assets across fraudulent Asian subsidiaries while regulators attacked journalists who exposed the truth',
+    subtitle: 'Germany\'s $28 billion fintech darling collapsed after $2.1 billion was found to never exist.',
     severity: 'critical' as const,
     category: 'Corporate Fraud',
     date: '2020-06-18',
@@ -1121,6 +1238,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'BaFin', type: 'agency', relationship: 'German regulator attacked journalists exposing fraud; banned short-selling Wirecard stock; investigated whistleblowers instead of company', href: '/entities/agencies/bafin' },
       { id: '2', name: 'EY', type: 'corporation', relationship: 'Audited Wirecard for decade without detecting $2B fraud; repeatedly issued clean audit opinions on fabricated accounts', href: '/entities/corporations/ey' },
     ],
+   eventOriginDate: '2020-06-18',
+   lastActivityDate: '2024-08-10',
+   pageUpdatedDate: '2025-03-18',
   },
   'water-privatization-crisis': {
     title: 'Water Privatization: When Corporations Control a Human Right',
@@ -1146,6 +1266,9 @@ const investigations_w: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Sets drinking water standards; failed to intervene in Flint for 18 months despite knowing about lead contamination; underfunded enforcement of Safe Drinking Water Act', href: '/entities/agencies/epa' },
     ],
+   eventOriginDate: '2000-01-01',
+   lastActivityDate: '2026-02-15',
+   pageUpdatedDate: '2025-03-18',
   },
   'wage-theft-worker-exploitation': {
     title: 'Wage Theft: The Largest Form of Property Crime in America',
@@ -1172,6 +1295,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has fewer investigators than 1948 despite workforce tripling; recovers only fraction of stolen wages; criminal referrals nearly nonexistent', href: '/entities/agencies/dol' },
       { id: '2', name: 'IRS', type: 'agency', relationship: 'Loses $15B+ annually in payroll tax revenue from worker misclassification; enforcement limited by congressional budget cuts and political pressure from gig economy lobby', href: '/entities/agencies/irs' },
     ],
+   eventOriginDate: '2024-10-01',
+   lastActivityDate: '2025-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'water-infrastructure-crisis': {
     title: 'American Water Infrastructure Crisis and Lead Contamination',
@@ -1198,6 +1324,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'EPA', type: 'agency', relationship: '12,000+ water systems in violation of federal standards at any time; Lead and Copper Rule updated in 2024 but enforcement depends on state implementation', href: '/entities/agencies/epa' },
       { id: '2', name: 'IHS', type: 'agency', relationship: '48% of tribal homes lack adequate water infrastructure; chronic underfunding of Indian Health Service water programs; decades of broken treaty obligations', href: '/entities/agencies/ihs' },
     ],
+   eventOriginDate: '2024-05-15',
+   lastActivityDate: '2025-03-01',
+   pageUpdatedDate: '2025-03-18',
   },
   'whistleblower-retaliation-patterns': {
     title: 'Whistleblower Retaliation Patterns',
@@ -1224,10 +1353,13 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Dodd-Frank whistleblower program paid $2.2B+ in awards; anti-retaliation enforcement is slow and cases take years; corporate pressure to narrow award eligibility ongoing', href: '/entities/agencies/sec' },
       { id: '2', name: 'OSC', type: 'agency', relationship: 'Office of Special Counsel investigates federal whistleblower retaliation but has limited enforcement power; staffing inadequate for incoming case volume; intelligence community largely outside jurisdiction', href: '/entities/agencies/osc' },
     ],
+   eventOriginDate: '2024-06-20',
+   lastActivityDate: '2025-02-12',
+   pageUpdatedDate: '2025-03-18',
   },
   'wilmington-massacre-coup-1898': {
     title: 'The Wilmington Massacre and Coup of 1898: The Only Successful Overthrow of an Elected Government in American History',
-    subtitle: 'How a coordinated campaign of white supremacist violence in Wilmington, North Carolina, overthrew the legitimately elected biracial city government, murdered an estimated 60 to 300 Black citizens, and permanently reversed Reconstruction-era gains',
+    subtitle: 'On November 10, 1898, a mob of approximately 2,000 armed white men, organized by leading Democratic Party politicians, businessmen, and former...',
     severity: 'critical' as const,
     category: 'Government Abuse',
     date: '1898-11-10',
@@ -1250,6 +1382,9 @@ const investigations_w: Record<string, InvestigationData> = {
       { id: '1', name: 'Alfred Moore Waddell', type: 'individual', relationship: 'Former Confederate colonel and congressman who led the armed mob, declared himself mayor after forcing elected officials to resign at gunpoint; served as mayor until 1905; never charged with any crime', href: '/entities/individuals/alfred-moore-waddell' },
       { id: '2', name: 'Josephus Daniels', type: 'individual', relationship: 'Publisher of the Raleigh News & Observer who ran the statewide propaganda campaign inciting racial violence; later appointed Secretary of the Navy by President Woodrow Wilson in 1913', href: '/entities/individuals/josephus-daniels' },
     ],
+   eventOriginDate: '1898-11-10',
+   lastActivityDate: '2025-01-10',
+   pageUpdatedDate: '2025-03-18',
   },
 };
 
