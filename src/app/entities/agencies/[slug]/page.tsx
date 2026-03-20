@@ -1,6 +1,8 @@
 ﻿import AgencyContent from './AgencyContent';
+import agencyDatabase from '@/data/agencies';
 
-const agencySlugs = [
+// Hardcoded slugs for agencies that have full inline profiles in AgencyContent
+const inlineSlugs = [
   'afp',
   'africom',
   'army-corps',
@@ -90,7 +92,8 @@ const agencySlugs = [
 ];
 
 export async function generateStaticParams() {
-  return agencySlugs.map((slug) => ({ slug }));
+  const allSlugs = new Set([...inlineSlugs, ...Object.keys(agencyDatabase)]);
+  return [...allSlugs].map((slug) => ({ slug }));
 }
 
 export default function AgencyDetailPage() {

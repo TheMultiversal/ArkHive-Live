@@ -2004,7 +2004,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'House Committee on Homeland Security - Irwin County Investigation', url: 'https://homeland.house.gov', type: 'Congressional Report' },
     ],
     affiliations: [
-      { id: '1', name: 'Indian Health Service', type: 'agency', relationship: 'Sterilized at least 3,406 Native American women between 1973-1976 without proper consent', href: '/entities/agencies/indian-health-service' },
+      { id: '1', name: 'Indian Health Service', type: 'agency', relationship: 'Sterilized at least 3,406 Native American women between 1973-1976 without proper consent', href: '/entities/agencies/ihs' },
       { id: '2', name: 'ICE', type: 'agency', relationship: 'Oversaw detention facility where mass hysterectomies were performed on immigrant women', href: '/entities/agencies/ice' },
       { id: '3', name: 'DHS', type: 'agency', relationship: 'Parent agency of ICE; OIG investigation into Irwin County criticized as inadequate', href: '/entities/agencies/dhs' },
     ],
@@ -2397,8 +2397,8 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'GAO: Investigation of IHS Sterilizations (1976)', url: 'https://www.gao.gov/', type: 'Government Report' },
     ],
     affiliations: [
-      { id: '1', name: 'U.S. Supreme Court', type: 'agency', relationship: 'Upheld compulsory sterilization in Buck v. Bell (1927) in an 8-1 decision; the ruling has never been explicitly overturned; Justice Holmes\'s opinion was cited by Nazi defendants at Nuremberg as precedent', href: '/entities/agencies/us-supreme-court' },
-      { id: '2', name: 'Indian Health Service', type: 'agency', relationship: 'GAO investigation found IHS sterilized 3,406 Native American women between 1973-1976 without proper consent; some women coerced with threats of losing welfare benefits or custody of children', href: '/entities/agencies/indian-health-service' },
+      { id: '1', name: 'U.S. Supreme Court', type: 'agency', relationship: 'Upheld compulsory sterilization in Buck v. Bell (1927) in an 8-1 decision; the ruling has never been explicitly overturned; Justice Holmes\'s opinion was cited by Nazi defendants at Nuremberg as precedent', href: '/entities/agencies/supreme-court' },
+      { id: '2', name: 'Indian Health Service', type: 'agency', relationship: 'GAO investigation found IHS sterilized 3,406 Native American women between 1973-1976 without proper consent; some women coerced with threats of losing welfare benefits or custody of children', href: '/entities/agencies/ihs' },
     ],
    timeline: [
      { date: '1907', event: 'Indiana became the first state to enact a compulsory sterilization law in 1907, and by 1937, 32 states had followed', type: 'political' },

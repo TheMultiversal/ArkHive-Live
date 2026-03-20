@@ -2166,6 +2166,28 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rudy Giuliani', relationship: 'Trumps personal attorney whose Ukraine dealings intersected with Perrys energy diplomacy', href: '/entities/individuals/rudy-giuliani' },
     ],
   },
+ 'adolf-hitler': {
+   name: "Adolf Hitler",
+   title: "Dictator of Nazi Germany",
+   role: "Historical Figure - War Criminal",
+   riskLevel: "critical",
+   description: "Leader of Nazi Germany responsible for the Holocaust, World War II, and the systematic murder of six million Jews and millions of others. His regime represents the ultimate failure of accountability.",
+   education: [],
+   affiliations: [
+     { name: "Nazi Party", role: "Führer", type: "organization" },
+   ],
+   controversies: [
+     "The Holocaust - systematic genocide of 6 million Jews",
+     "Started World War II causing 70+ million deaths",
+     "Operation Paperclip - Nazi scientists recruited by US after war",
+     "Industrialists who funded Nazi rise to power faced minimal accountability",
+   ],
+   relatedInvestigations: [],
+   timeline: [
+     { date: "1933", event: "Becomes Chancellor of Germany" },
+     { date: "1945", event: "Death in Berlin bunker" },
+   ],
+ },
 };
 
 export default profiles;

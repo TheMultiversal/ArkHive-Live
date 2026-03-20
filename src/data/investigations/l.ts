@@ -588,7 +588,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'Open Secrets Lobbying Database', url: 'https://www.opensecrets.org/federal-lobbying', type: 'Database' },
     ],
     affiliations: [
-      { id: '1', name: 'Pharmaceutical Industry', type: 'industry', relationship: 'Heavy lobbying', href: '/entities/industries/pharmaceutical' },
+      { id: '1', name: 'Pharmaceutical Industry', type: 'industry', relationship: 'Heavy lobbying', href: '/entities/corporations/pfizer' },
     ],
   },
   'lead-pipes-nationwide-poisoning': {

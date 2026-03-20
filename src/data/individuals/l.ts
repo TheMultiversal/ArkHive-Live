@@ -3924,6 +3924,28 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Steve Bannon', relationship: 'Close ally who championed Princes Afghanistan privatization plan and served as political conduit', href: '/entities/individuals/steve-bannon' },
     ],
   },
+ 'leonard-peltier': {
+   name: "Leonard Peltier",
+   title: "Indigenous Rights Activist / Political Prisoner",
+   role: "Activist",
+   riskLevel: "high",
+   description: "Native American activist and member of AIM convicted of killing two FBI agents in 1975. Many consider him a political prisoner, citing coerced witnesses, suppressed evidence, and prosecutorial misconduct.",
+   education: [],
+   affiliations: [
+     { name: "American Indian Movement", role: "Member", type: "organization" },
+   ],
+   controversies: [
+     "Convicted on disputed evidence for killing two FBI agents",
+     "Considered a political prisoner by Amnesty International",
+     "FBI misconduct during investigation",
+     "Multiple appeals and clemency petitions denied",
+   ],
+   relatedInvestigations: [],
+   timeline: [
+     { date: "1975", event: "Pine Ridge shootout - two FBI agents killed" },
+     { date: "1977", event: "Convicted of two counts of first-degree murder" },
+   ],
+ },
 };
 
 export default profiles;

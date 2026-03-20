@@ -2089,6 +2089,48 @@ const profiles: Record<string, IndividualProfile> = {
    { name: 'Masayoshi Son', relationship: 'SoftBank CEO who invested billions in WeWork at inflated valuations; later called it a poor judgment call' },
   ],
  },
+ 'franklin-raines': {
+   name: "Franklin Raines",
+   title: "Former CEO of Fannie Mae",
+   role: "Financial Executive",
+   riskLevel: "high",
+   description: "Franklin Raines served as CEO of Fannie Mae from 1999-2004. Forced to resign after an accounting scandal that overstated earnings by $6.3 billion. The company paid $400 million in fines.",
+   education: ["Harvard University","Oxford University (Rhodes Scholar)"],
+   affiliations: [
+     { name: "Fannie Mae", role: "Former CEO", type: "corporation" },
+   ],
+   controversies: [
+     "$6.3 billion accounting scandal at Fannie Mae",
+     "Received $90 million in compensation based on inflated earnings",
+     "SEC civil charges settled for $24.7 million",
+   ],
+   relatedInvestigations: [],
+   timeline: [
+     { date: "1999", event: "Becomes CEO of Fannie Mae" },
+     { date: "2004", event: "Forced to resign amid accounting scandal" },
+   ],
+ },
+ 'frances-kelsey': {
+   name: "Frances Oldham Kelsey",
+   title: "FDA Pharmacologist",
+   role: "Government Scientist / Whistleblower",
+   riskLevel: "low",
+   description: "FDA reviewer who refused to approve thalidomide for US market despite intense pharmaceutical industry pressure, preventing a major health catastrophe in America.",
+   education: ["McGill University","University of Chicago (PhD, MD)"],
+   affiliations: [
+     { name: "FDA", role: "Drug Reviewer", type: "agency" },
+   ],
+   controversies: [
+     "Faced intense industry pressure to approve thalidomide",
+     "Her resistance saved thousands of American babies from birth defects",
+     "Received Presidents Award for Distinguished Federal Civilian Service",
+   ],
+   relatedInvestigations: [],
+   timeline: [
+     { date: "1960", event: "Refuses to approve thalidomide for US market" },
+     { date: "1962", event: "Receives award from President Kennedy" },
+   ],
+ },
 };
 
 export default profiles;

@@ -7695,6 +7695,27 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Howard Ulfelder', relationship: 'Gynecologic oncologist and co-author of the original DES study who collaborated on the early case identifications' },
     ],
   },
+ 'alfred-moore-waddell': {
+   name: "Alfred Moore Waddell",
+   title: "White Supremacist Coup Leader",
+   role: "Historical Figure",
+   riskLevel: "critical",
+   description: "Led the 1898 Wilmington massacre and coup, the only successful violent overthrow of an elected government in US history. White supremacists murdered Black citizens and installed Waddell as mayor.",
+   education: [],
+   affiliations: [
+     { name: "City of Wilmington", role: "Installed Mayor", type: "agency" },
+   ],
+   controversies: [
+     "Led 1898 Wilmington massacre - only successful US coup",
+     "Mob murdered Black citizens and burned Black-owned newspaper",
+     "Overthrew democratically elected multiracial government",
+     "Installed as mayor by white supremacist mob",
+   ],
+   relatedInvestigations: [],
+   timeline: [
+     { date: "1898-11-10", event: "Leads Wilmington massacre and coup" },
+   ],
+ },
 };
 
 export default profiles;

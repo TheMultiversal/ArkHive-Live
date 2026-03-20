@@ -16,6 +16,7 @@ import {
  Shield,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
+import agencyDatabase from '@/data/agencies';
 
 // Mock agency data - in production, this would come from API/database
 const agencyData: Record<string, {
@@ -2708,8 +2709,81 @@ export default function AgencyContent() {
 
  const agency = agencyData[slug];
 
+ // If not in inline data, check the database file for a basic profile
  if (!agency) {
- notFound();
+   const dbAgency = agencyDatabase[slug];
+   if (!dbAgency) {
+     notFound();
+   }
+
+   // Render a basic profile from the database data
+   return (
+     <div className="min-h-screen text-white">
+       <div className="border-b border-[rgba(255,80,80,0.15)]">
+         <div className="max-w-6xl mx-auto px-6 py-8">
+           <Link
+             href="/entities/agencies"
+             className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-6"
+           >
+             <ArrowLeft className="w-4 h-4" />
+             Back to Agencies
+           </Link>
+           <div className="flex items-center gap-4 mb-2">
+             <Building2 className="w-8 h-8 text-blood-500" />
+             <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[dbAgency.riskLevel]}`}>
+               {dbAgency.riskLevel} risk
+             </span>
+           </div>
+           <h1 className="text-4xl font-bold mb-2">
+             <GlitchText>{dbAgency.name}</GlitchText>
+           </h1>
+           <p className="text-xl text-zinc-400">{dbAgency.role}</p>
+         </div>
+       </div>
+
+       <div className="max-w-6xl mx-auto px-6 py-8">
+         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+           <div className="lg:col-span-2 space-y-8">
+             <motion.section
+               initial={{ opacity: 0, y: 20 }}
+               animate={{ opacity: 1, y: 0 }}
+               className="glass-card p-6"
+             >
+               <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
+                 <FileText className="w-5 h-5 text-blood-500" />
+                 Overview
+               </h2>
+               <p className="text-zinc-300 leading-relaxed">{dbAgency.description}</p>
+             </motion.section>
+           </div>
+
+           <div className="space-y-6">
+             <motion.div
+               initial={{ opacity: 0, x: 20 }}
+               animate={{ opacity: 1, x: 0 }}
+               className="glass-card p-6"
+             >
+               <h3 className="text-lg font-bold mb-4">Quick Facts</h3>
+               <dl className="space-y-4">
+                 <div>
+                   <dt className="text-xs text-zinc-500 uppercase tracking-wider">Type</dt>
+                   <dd className="text-zinc-300">{dbAgency.type}</dd>
+                 </div>
+                 <div>
+                   <dt className="text-xs text-zinc-500 uppercase tracking-wider">Role</dt>
+                   <dd className="text-zinc-300">{dbAgency.role}</dd>
+                 </div>
+                 <div>
+                   <dt className="text-xs text-zinc-500 uppercase tracking-wider">Linked Investigations</dt>
+                   <dd className="text-zinc-300">{dbAgency.investigationCount}</dd>
+                 </div>
+               </dl>
+             </motion.div>
+           </div>
+         </div>
+       </div>
+     </div>
+   );
  }
 
  return (

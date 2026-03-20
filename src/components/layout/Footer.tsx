@@ -70,7 +70,7 @@ export default function Footer() {
  </p>
  <div className="flex items-center gap-1">
  <a
- href="https://x.com"
+ href="https://x.com/ArkHiveLive"
  target="_blank"
  rel="noopener noreferrer"
  className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-950 border border-transparent hover:border-blood-800 transition-all"
@@ -78,7 +78,7 @@ export default function Footer() {
  <Twitter className="w-4 h-4"/>
  </a>
  <a
- href="https://github.com"
+ href="https://github.com/TheMultiversal/ArkHive-Live"
  target="_blank"
  rel="noopener noreferrer"
  className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-950 border border-transparent hover:border-blood-800 transition-all"

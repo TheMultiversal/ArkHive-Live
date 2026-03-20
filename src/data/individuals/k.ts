@@ -3761,6 +3761,28 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Devin Nunes', relationship: 'Former House Intelligence Chairman who employed Patel and backed the memo attacking the FBI' },
     ],
   },
+ 'koch-brothers': {
+   name: "Koch Brothers (Charles & David)",
+   title: "Industrialists & Political Donors",
+   role: "Koch Industries Executives",
+   riskLevel: "critical",
+   description: "Charles and David Koch built a vast political influence network through Koch Industries, funding climate change denial, deregulation efforts, and far-right political campaigns. Their dark money network reshaped American politics.",
+   education: ["MIT (Charles)","MIT (David)"],
+   affiliations: [
+     { name: "Koch Industries", role: "CEO / Executive VP", type: "corporation" },
+   ],
+   controversies: [
+     "Funded climate change denial campaigns for decades",
+     "Built vast dark money political network",
+     "Koch Industries environmental violations",
+     "Anti-union and anti-worker campaigns",
+   ],
+   relatedInvestigations: [],
+   timeline: [
+     { date: "1967", event: "Charles Koch takes control of Koch Industries" },
+     { date: "2010", event: "Koch network becomes major force in Citizens United era" },
+   ],
+ },
 };
 
 export default profiles;

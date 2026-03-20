@@ -1820,7 +1820,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Carlisle Indian Industrial School Digital Archive', url: 'https://carlisleindian.dickinson.edu/', type: 'Research Archive' },
     ],
     affiliations: [
-      { id: '1', name: 'Bureau of Indian Affairs', type: 'agency', relationship: 'Administered the boarding school system for over a century; forcibly removed children from families; BIA agents empowered to withhold food and imprison parents who resisted; in 2000 issued apology acknowledging the system\'s destructive intent', href: '/entities/agencies/bureau-of-indian-affairs' },
+      { id: '1', name: 'Bureau of Indian Affairs', type: 'agency', relationship: 'Administered the boarding school system for over a century; forcibly removed children from families; BIA agents empowered to withhold food and imprison parents who resisted; in 2000 issued apology acknowledging the system\'s destructive intent', href: '/entities/agencies/bia' },
       { id: '2', name: 'Richard Henry Pratt', type: 'individual', relationship: 'U.S. Army captain who founded Carlisle Indian Industrial School in 1879 and coined the doctrine "Kill the Indian, save the man"; his model was replicated across 523 institutions nationwide', href: '/entities/individuals/richard-henry-pratt' },
     ],
    timeline: [
@@ -1860,7 +1860,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'National Archives: Records of the U.S. Public Health Service Guatemala STD Studies', url: 'https://www.archives.gov/research/health/cdc-guatemala', type: 'Government Record' },
     ],
     affiliations: [
-      { id: '1', name: 'U.S. Public Health Service', type: 'agency', relationship: 'Planned, funded, and executed the experiments from 1946-1948; deliberately infected over 1,300 subjects without consent; Surgeon General Thomas Parran was informed and approved the program; no PHS official was ever prosecuted', href: '/entities/agencies/us-public-health-service' },
+      { id: '1', name: 'U.S. Public Health Service', type: 'agency', relationship: 'Planned, funded, and executed the experiments from 1946-1948; deliberately infected over 1,300 subjects without consent; Surgeon General Thomas Parran was informed and approved the program; no PHS official was ever prosecuted', href: '/entities/agencies/public-health-service' },
       { id: '2', name: 'John Charles Cutler', type: 'individual', relationship: 'PHS physician who directed the experiments on-site; personally supervised the deliberate infection of prisoners, psychiatric patients, and soldiers; later participated in the Tuskegee syphilis study; preserved his records which were discovered posthumously in 2010; never faced any legal consequences', href: '/entities/individuals/john-charles-cutler' },
       { id: '3', name: 'National Institutes of Health', type: 'agency', relationship: 'Provided the $111,440 grant that funded the experiments; NIH institutional review mechanisms did not exist at the time; agency later acknowledged the ethical violations in joint statements', href: '/entities/agencies/nih' },
     ],

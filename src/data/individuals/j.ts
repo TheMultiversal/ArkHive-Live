@@ -1,4 +1,4 @@
-﻿// Individual profile data shard
+// Individual profile data shard
 import type { IndividualProfile } from './types';
 
 const profiles: Record<string, IndividualProfile> = {
@@ -8664,6 +8664,50 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Mohammed bin Salman', relationship: 'Saudi Crown Prince who approved $2B investment; maintained back-channel communication during administration' },
     ],
   },
+ 'joseph-kennedy-sr': {
+   name: "Joseph P. Kennedy Sr.",
+   title: "Businessman & Political Figure",
+   role: "Historical Figure",
+   riskLevel: "high",
+   description: "Patriarch of the Kennedy political dynasty. Made fortune through alleged bootlegging, insider trading, and Hollywood dealings. Served as SEC Chairman and Ambassador to the UK.",
+   education: ["Harvard University"],
+   affiliations: [
+     { name: "SEC", role: "First Chairman", type: "agency" },
+   ],
+   controversies: [
+     "Alleged bootlegging operations during Prohibition",
+     "Insider trading before securities regulation",
+     "Lobotomy of daughter Rosemary Kennedy",
+     "Appeasement of Nazi Germany as UK Ambassador",
+   ],
+   relatedInvestigations: [],
+   timeline: [
+     { date: "1934", event: "Appointed first SEC Chairman" },
+     { date: "1938", event: "Ambassador to United Kingdom" },
+   ],
+ },
+ 'josephus-daniels': {
+   name: "Josephus Daniels",
+   title: "Newspaper Publisher / Secretary of the Navy",
+   role: "Historical Figure",
+   riskLevel: "high",
+   description: "Newspaper editor who used his Wilmington paper to incite the 1898 Wilmington massacre through racist propaganda. Later served as Secretary of the Navy under Woodrow Wilson.",
+   education: [],
+   affiliations: [
+     { name: "US Navy", role: "Former Secretary", type: "agency" },
+   ],
+   controversies: [
+     "Used newspaper to incite 1898 Wilmington massacre",
+     "Published racist propaganda targeting Black citizens",
+     "Helped plan the violent overthrow of elected government",
+     "Never held accountable for role in massacre",
+   ],
+   relatedInvestigations: [],
+   timeline: [
+     { date: "1898", event: "Incites Wilmington massacre through newspaper" },
+     { date: "1913", event: "Appointed Secretary of the Navy" },
+   ],
+ },
 };
 
 export default profiles;

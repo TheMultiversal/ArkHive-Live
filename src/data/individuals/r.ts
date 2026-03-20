@@ -7100,6 +7100,27 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Eunice Kennedy Shriver', relationship: 'Sister who founded the Special Olympics partly inspired by Rosemary experiences with disability' },
     ],
   },
+ 'rahm-emanuel': {
+   name: "Rahm Emanuel",
+   title: "Former Mayor of Chicago / Ambassador to Japan",
+   role: "Political Figure",
+   riskLevel: "high",
+   description: "Former White House Chief of Staff, US Representative, and Mayor of Chicago. Accused of covering up the Laquan McDonald shooting video until after his re-election.",
+   education: ["Northwestern University","Sarah Lawrence College"],
+   affiliations: [
+     { name: "City of Chicago", role: "Former Mayor", type: "agency" },
+   ],
+   controversies: [
+     "Alleged cover-up of Laquan McDonald police shooting video",
+     "Closed 50 Chicago public schools in predominantly Black neighborhoods",
+     "Mental health clinic closures under his administration",
+   ],
+   relatedInvestigations: [],
+   timeline: [
+     { date: "2011", event: "Elected Mayor of Chicago" },
+     { date: "2015", event: "Laquan McDonald video cover-up controversy" },
+   ],
+ },
 };
 
 export default profiles;

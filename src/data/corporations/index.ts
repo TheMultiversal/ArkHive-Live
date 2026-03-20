@@ -2103,6 +2103,186 @@ const corporations: Record<string, CorporationProfile> = {
     riskLevel: 'moderate',
   },
 
+  'tyson-foods': {
+      "id": "tyson-1",
+      "slug": "tyson-foods",
+      "name": "Tyson Foods",
+      "type": "corporation",
+      "description": "Major meat processing corporation. Investigations into worker exploitation, environmental contamination, and COVID-19 workplace safety violations.",
+      "role": "Meat Processing Corporation",
+      "investigationCount": 1,
+      "riskLevel": "high"
+  },
+  'israel-aerospace-industries': {
+      "id": "iai-1",
+      "slug": "israel-aerospace-industries",
+      "name": "Israel Aerospace Industries",
+      "type": "corporation",
+      "description": "Israeli defense and aerospace manufacturer. Produces surveillance drones and military technology used in controversial operations.",
+      "role": "Defense Contractor",
+      "investigationCount": 1,
+      "riskLevel": "high"
+  },
+  'anduril': {
+      "id": "anduril-1",
+      "slug": "anduril",
+      "name": "Anduril Industries",
+      "type": "corporation",
+      "description": "Defense technology company founded by Palmer Luckey. Develops AI-powered surveillance systems and autonomous military technology.",
+      "role": "Defense Technology Startup",
+      "investigationCount": 1,
+      "riskLevel": "high"
+  },
+  'wr-grace': {
+      "id": "wrg-1",
+      "slug": "wr-grace",
+      "name": "W.R. Grace and Company",
+      "type": "corporation",
+      "description": "Chemical company responsible for asbestos contamination in Libby, Montana, causing hundreds of deaths. Declared bankruptcy to limit liability.",
+      "role": "Chemical Corporation",
+      "investigationCount": 1,
+      "riskLevel": "extreme"
+  },
+  'manville': {
+      "id": "manville-1",
+      "slug": "manville",
+      "name": "Johns-Manville Corporation",
+      "type": "corporation",
+      "description": "Major asbestos manufacturer that knowingly exposed workers to deadly asbestos fibers for decades while suppressing health studies.",
+      "role": "Asbestos Manufacturer",
+      "investigationCount": 1,
+      "riskLevel": "extreme"
+  },
+  'shell': {
+      "id": "shell-1",
+      "slug": "shell",
+      "name": "Shell (Royal Dutch Shell)",
+      "type": "corporation",
+      "description": "Oil and gas multinational with documented environmental destruction in Nigeria, climate change denial, and complicity in human rights abuses.",
+      "role": "Oil & Gas Corporation",
+      "investigationCount": 1,
+      "riskLevel": "extreme"
+  },
+  'general-atomics': {
+      "id": "ga-1",
+      "slug": "general-atomics",
+      "name": "General Atomics",
+      "type": "corporation",
+      "description": "Defense contractor that manufactures the Predator and Reaper drones used in controversial targeted killing programs across multiple countries.",
+      "role": "Defense Contractor",
+      "investigationCount": 1,
+      "riskLevel": "high"
+  },
+  'abbvie': {
+      "id": "abbvie-1",
+      "slug": "abbvie",
+      "name": "AbbVie",
+      "type": "corporation",
+      "description": "Pharmaceutical corporation known for aggressive patent gaming on Humira and price gouging. Accused of prioritizing profits over patient access.",
+      "role": "Pharmaceutical Corporation",
+      "investigationCount": 1,
+      "riskLevel": "high"
+  },
+  'aig': {
+      "id": "aig-1",
+      "slug": "aig",
+      "name": "American International Group (AIG)",
+      "type": "corporation",
+      "description": "Insurance giant whose reckless credit default swap dealings nearly collapsed the global economy in 2008, requiring a $182 billion taxpayer bailout.",
+      "role": "Insurance Corporation",
+      "investigationCount": 1,
+      "riskLevel": "extreme"
+  },
+  'turing-pharmaceuticals': {
+      "id": "turing-1",
+      "slug": "turing-pharmaceuticals",
+      "name": "Turing Pharmaceuticals",
+      "type": "corporation",
+      "description": "Martin Shkreli's company that infamously raised the price of Daraprim by 5,000%, becoming a symbol of pharmaceutical price gouging.",
+      "role": "Pharmaceutical Corporation",
+      "investigationCount": 1,
+      "riskLevel": "extreme"
+  },
+  'binance': {
+      "id": "binance-1",
+      "slug": "binance",
+      "name": "Binance",
+      "type": "corporation",
+      "description": "Largest cryptocurrency exchange. Charged with money laundering, sanctions violations, and operating an unlicensed money transmitting business.",
+      "role": "Cryptocurrency Exchange",
+      "investigationCount": 1,
+      "riskLevel": "extreme"
+  },
+  'bayer': {
+      "id": "bayer-1",
+      "slug": "bayer",
+      "name": "Bayer AG",
+      "type": "corporation",
+      "description": "German chemical and pharmaceutical corporation. Acquired Monsanto and inherited Roundup cancer lawsuits. Historical ties to IG Farben.",
+      "role": "Chemical/Pharmaceutical Corporation",
+      "investigationCount": 1,
+      "riskLevel": "high"
+  },
+  'barclays': {
+      "id": "barclays-1",
+      "slug": "barclays",
+      "name": "Barclays",
+      "type": "corporation",
+      "description": "British multinational bank involved in LIBOR manipulation scandal, sanctions busting, and enabling Jeffrey Epstein's financial operations.",
+      "role": "Banking Corporation",
+      "investigationCount": 1,
+      "riskLevel": "high"
+  },
+  'gd-searle': {
+      "id": "gds-1",
+      "slug": "gd-searle",
+      "name": "G.D. Searle & Company",
+      "type": "corporation",
+      "description": "Pharmaceutical company that pushed through FDA approval of aspartame despite safety concerns. Later acquired by Monsanto.",
+      "role": "Pharmaceutical Corporation",
+      "investigationCount": 1,
+      "riskLevel": "high"
+  },
+  'us-radium-corporation': {
+      "id": "usrc-1",
+      "slug": "us-radium-corporation",
+      "name": "United States Radium Corporation",
+      "type": "corporation",
+      "description": "Company responsible for the Radium Girls tragedy. Workers were poisoned by radium paint while company executives knew of the dangers.",
+      "role": "Historical Manufacturing",
+      "investigationCount": 1,
+      "riskLevel": "extreme"
+  },
+  'chemie-grunenthal': {
+      "id": "cg-1",
+      "slug": "chemie-grunenthal",
+      "name": "Chemie Grünenthal",
+      "type": "corporation",
+      "description": "German pharmaceutical company that manufactured thalidomide, causing severe birth defects in thousands of children worldwide.",
+      "role": "Pharmaceutical Corporation",
+      "investigationCount": 1,
+      "riskLevel": "extreme"
+  },
+  'merck': {
+      "id": "merck-1",
+      "slug": "merck",
+      "name": "Merck & Co.",
+      "type": "corporation",
+      "description": "Pharmaceutical giant that concealed cardiovascular risks of Vioxx, contributing to tens of thousands of deaths before the drug was withdrawn.",
+      "role": "Pharmaceutical Corporation",
+      "investigationCount": 1,
+      "riskLevel": "extreme"
+  },
+  'ey': {
+      "id": "ey-1",
+      "slug": "ey",
+      "name": "Ernst & Young (EY)",
+      "type": "corporation",
+      "description": "Big Four accounting firm that signed off on Wirecard's fraudulent financials for years, failing in its fundamental auditing duty.",
+      "role": "Accounting/Consulting Firm",
+      "investigationCount": 1,
+      "riskLevel": "high"
+  },
 };
 
 export default corporations;

@@ -1630,7 +1630,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'DEF CON Voting Village', url: 'https://www.defcon.org', type: 'Security Research' },
     ],
     affiliations: [
-      { id: '1', name: 'Russian GRU', type: 'agency', relationship: 'Hacked DNC and election systems', href: '/entities/agencies/russian-gru' },
+      { id: '1', name: 'Russian GRU', type: 'agency', relationship: 'Hacked DNC and election systems', href: '/entities/agencies/gru' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated Russian interference', href: '/entities/agencies/fbi' },
       { id: '3', name: 'CISA', type: 'agency', relationship: 'Election security coordination', href: '/entities/agencies/cisa' },
     ],

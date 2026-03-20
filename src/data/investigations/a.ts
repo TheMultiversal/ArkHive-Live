@@ -1862,7 +1862,7 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'New Mexico Civil Forfeiture Reform', url: 'https://www.nmlegis.gov', type: 'Legislation' },
     ],
     affiliations: [
-      { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Federal asset forfeiture program', href: '/entities/agencies/department-of-justice' },
+      { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Federal asset forfeiture program', href: '/entities/agencies/doj' },
       { id: '2', name: 'DEA', type: 'agency', relationship: 'High-value asset seizures', href: '/entities/agencies/dea' },
       { id: '3', name: 'FBI', type: 'agency', relationship: 'Equitable Sharing Program', href: '/entities/agencies/fbi' },
     ],

@@ -293,7 +293,7 @@ const investigations_v: Record<string, InvestigationData> = {
  { title: 'Bureau of Justice Statistics: Veterans in Prison', url: 'https://bjs.ojp.gov/library/publications/veterans-state-and-federal-prison-2016', type: 'Government Report' },
  ],
  affiliations: [
- { id: '1', name: 'Department of Veterans Affairs', type: 'agency', relationship: 'Failed to provide timely healthcare; at least 40 veterans died waiting for care at Phoenix VA; 20 veteran suicides per day', href: '/entities/agencies/department-of-veterans-affairs' },
+ { id: '1', name: 'Department of Veterans Affairs', type: 'agency', relationship: 'Failed to provide timely healthcare; at least 40 veterans died waiting for care at Phoenix VA; 20 veteran suicides per day', href: '/entities/agencies/va' },
  { id: '2', name: 'Department of Defense', type: 'agency', relationship: 'Aggressively recruits in low-income schools; No Child Left Behind required schools to share student contact info with military recruiters', href: '/entities/agencies/dod' },
  ],
    eventOriginDate: '2001-01-01',

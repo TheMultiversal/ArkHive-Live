@@ -1738,7 +1738,7 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'British Colonial Government', type: 'agency', relationship: 'Lord Jeffrey Amherst explicitly ordered the use of smallpox-contaminated materials against Indigenous peoples in 1763 correspondence preserved in the National Archives; policy of biological warfare was coordinated at the highest levels of military command', href: '/entities/agencies/british-colonial-government' },
-      { id: '2', name: 'Bureau of Indian Affairs', type: 'agency', relationship: 'Administered reservation system that maintained conditions maximizing disease transmission; provided inadequate rations despite treaty obligations; underfunded medical care; operated boarding schools that spread tuberculosis and other diseases among children', href: '/entities/agencies/bureau-of-indian-affairs' },
+      { id: '2', name: 'Bureau of Indian Affairs', type: 'agency', relationship: 'Administered reservation system that maintained conditions maximizing disease transmission; provided inadequate rations despite treaty obligations; underfunded medical care; operated boarding schools that spread tuberculosis and other diseases among children', href: '/entities/agencies/bia' },
       { id: '3', name: 'Philip Sheridan', type: 'individual', relationship: 'U.S. Army general who championed the deliberate extermination of the buffalo as a military strategy to starve Plains tribes into submission; lobbied the Texas legislature against buffalo protection; credited hide hunters with doing more to crush Indigenous resistance than the regular army', href: '/entities/individuals/philip-sheridan' },
     ],
    eventOriginDate: '1800-01-01',

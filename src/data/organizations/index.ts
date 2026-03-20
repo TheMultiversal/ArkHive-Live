@@ -1259,6 +1259,22 @@ const organizations: Record<string, OrganizationProfile> = {
     members: 'Unknown',
   },
 
+  'arabella-advisors': {
+      "name": "Arabella Advisors",
+      "slug": "arabella-advisors",
+      "type": "organization",
+      "description": "Consulting firm managing a network of dark money nonprofit organizations used for political influence on both sides.",
+      "riskLevel": "high",
+      "members": "Unknown"
+  },
+  'china': {
+      "name": "Government of China",
+      "slug": "china",
+      "type": "organization",
+      "description": "Government of the People's Republic of China. Subject of investigations into surveillance, IP theft, Uyghur detention, and technology espionage.",
+      "riskLevel": "critical",
+      "members": "State apparatus"
+  },
 };
 
 export default organizations;

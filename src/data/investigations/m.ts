@@ -2070,7 +2070,7 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'North Carolina Justice for Sterilization Victims Foundation', url: 'https://www.sterilizationvictims.nc.gov/', type: 'Government Record' },
     ],
     affiliations: [
-      { id: '1', name: 'U.S. Public Health Service', type: 'agency', relationship: 'Through the Indian Health Service, conducted systematic sterilization of Native American women in the 1970s; GAO confirmed 3,406 sterilizations in just four of twelve IHS regions; no official was ever prosecuted', href: '/entities/agencies/us-public-health-service' },
+      { id: '1', name: 'U.S. Public Health Service', type: 'agency', relationship: 'Through the Indian Health Service, conducted systematic sterilization of Native American women in the 1970s; GAO confirmed 3,406 sterilizations in just four of twelve IHS regions; no official was ever prosecuted', href: '/entities/agencies/public-health-service' },
       { id: '2', name: 'Supreme Court of the United States', type: 'agency', relationship: 'Upheld compulsory sterilization in Buck v. Bell (1927) in an 8-1 decision; ruling has never been overturned; Justice Holmes wrote "three generations of imbeciles are enough"', href: '/entities/agencies/supreme-court' },
       { id: '3', name: 'Oliver Wendell Holmes Jr.', type: 'individual', relationship: 'Supreme Court Justice who authored the Buck v. Bell opinion upholding forced sterilization; his words were later cited by Nazi defendants at Nuremberg to justify their own eugenics programs', href: '/entities/individuals/oliver-wendell-holmes-jr' },
     ],

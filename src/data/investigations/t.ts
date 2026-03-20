@@ -2288,7 +2288,7 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Presidential Apology for the Tuskegee Study (1997)', url: 'https://clintonwhitehouse4.archives.gov/New/Remarks/Fri/19970516-898.html', type: 'Government Record' },
     ],
     affiliations: [
-      { id: '1', name: 'U.S. Public Health Service', type: 'agency', relationship: 'Designed, funded, and administered the study from 1932 to 1972; deliberately withheld penicillin treatment after 1947; actively prevented participants from receiving treatment through other programs; no official was ever criminally charged', href: '/entities/agencies/us-public-health-service' },
+      { id: '1', name: 'U.S. Public Health Service', type: 'agency', relationship: 'Designed, funded, and administered the study from 1932 to 1972; deliberately withheld penicillin treatment after 1947; actively prevented participants from receiving treatment through other programs; no official was ever criminally charged', href: '/entities/agencies/public-health-service' },
       { id: '2', name: 'CDC', type: 'agency', relationship: 'Assumed responsibility for the study; reviewed it in 1969 and voted to continue; failed to act on internal whistleblower complaints from Peter Buxtun for six years; study only ended after press exposure', href: '/entities/agencies/cdc' },
     ],
    timeline: [
@@ -2381,7 +2381,7 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'Tuskegee University: Legacy Museum and National Center for Bioethics', url: 'https://www.tuskegee.edu/about-us/centers-of-excellence/bioethics-center', type: 'Academic Research' },
     ],
     affiliations: [
-      { id: '1', name: 'U.S. Public Health Service', type: 'agency', relationship: 'Designed, funded, and conducted the 40-year study; deliberately withheld treatment from 399 men with syphilis; actively prevented subjects from receiving treatment elsewhere; no PHS official was ever criminally charged', href: '/entities/agencies/us-public-health-service' },
+      { id: '1', name: 'U.S. Public Health Service', type: 'agency', relationship: 'Designed, funded, and conducted the 40-year study; deliberately withheld treatment from 399 men with syphilis; actively prevented subjects from receiving treatment elsewhere; no PHS official was ever criminally charged', href: '/entities/agencies/public-health-service' },
       { id: '2', name: 'John Charles Cutler', type: 'individual', relationship: 'PHS physician who participated in the Tuskegee study during the 1960s and also directed the contemporaneous Guatemala syphilis experiments; defended the Tuskegee study throughout his life; never faced prosecution for either program', href: '/entities/individuals/john-charles-cutler' },
       { id: '3', name: 'CDC', type: 'agency', relationship: 'Assumed oversight of the study from PHS in the 1960s; a 1969 review committee acknowledged ethical problems but voted to continue the study; only ended the study after media exposure in 1972', href: '/entities/agencies/cdc' },
     ],

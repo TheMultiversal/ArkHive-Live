@@ -1,6 +1,7 @@
 ﻿import CorporationContent from './CorporationContent';
+import corporationDatabase from '@/data/corporations';
 
-const corporationSlugs = [
+const inlineSlugs = [
   '3m-company',
   'affinity-partners',
   'alden-global-capital',
@@ -150,7 +151,8 @@ const corporationSlugs = [
 ];
 
 export async function generateStaticParams() {
-  return corporationSlugs.map((slug) => ({ slug }));
+  const allSlugs = new Set([...inlineSlugs, ...Object.keys(corporationDatabase)]);
+  return [...allSlugs].map((slug) => ({ slug }));
 }
 
 export default function CorporationDetailPage() {
