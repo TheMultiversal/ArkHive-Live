@@ -221,7 +221,7 @@ function RegionCard({ region, config, entities, isExpanded, onToggle }: RegionCa
                   <div className="text-xs text-zinc-600">
                     {item.location.city && `${item.location.city}, `}
                     {item.location.state || item.location.country}
-                    {' ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ '}{item.investigations.length} investigation{item.investigations.length !== 1 ? 's' : ''}
+                    {' • '}{item.investigations.length} investigation{item.investigations.length !== 1 ? 's' : ''}
                   </div>
                 </div>
               </Link>
@@ -316,7 +316,7 @@ export default function GeographicMap({ compact = false }: GeographicMapProps) {
             Geographic Distribution
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {stats.total} entities ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ {stats.dc} in D.C. ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ {stats.international} international
+            {stats.total} entities • {stats.dc} in D.C. • {stats.international} international
           </p>
         </div>
       </div>

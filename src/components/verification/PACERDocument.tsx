@@ -324,7 +324,7 @@ export function CourtDocumentsList({
                 </div>
                 <h4 className="text-sm font-medium text-white truncate">{doc.title}</h4>
                 <p className="text-xs text-zinc-500 mt-1">
-                  {doc.caseNumber} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {doc.court} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {doc.filingDate}
+                  {doc.caseNumber} • {doc.court} • {doc.filingDate}
                 </p>
               </div>
               <div className="flex gap-1">

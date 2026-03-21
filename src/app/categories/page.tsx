@@ -85,7 +85,7 @@ export default function CategoriesIndexPage() {
                           )}
                         </div>
                         <span className="text-zinc-500 text-[10px] font-black uppercase tracking-widest group-hover:text-white">
-                          View All ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢
+                          View All →
                         </span>
                       </div>
                     </Link>

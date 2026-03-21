@@ -123,7 +123,7 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
             onClick={(e) => e.stopPropagation()}
             className="text-xs text-zinc-400 hover:text-white px-2 py-1 hover:bg-zinc-800/30 transition-colors"
           >
-            View Case ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢
+            View Case →
           </Link>
           {isExpanded ? (
             <ChevronDown className="w-4 h-4 text-zinc-500" />
@@ -144,7 +144,7 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
               <ul className="space-y-1">
                 {defendant.charges.map((charge, idx) => (
                   <li key={idx} className="text-sm text-zinc-400 flex items-start gap-2">
-                    <span className="text-zinc-300 mt-1">ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢</span>
+                    <span className="text-zinc-300 mt-1">•</span>
                     {charge}
                   </li>
                 ))}
@@ -343,7 +343,7 @@ export default function ConvictionTracker({ investigationSlug, compact = false, 
               Conviction Tracker
             </h2>
             <p className="text-sm text-zinc-500 mt-1">
-              {stats.total} defendants tracked ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {stats.convicted} convicted ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {stats.pardoned} pardoned
+              {stats.total} defendants tracked • {stats.convicted} convicted • {stats.pardoned} pardoned
             </p>
           </div>
         </div>

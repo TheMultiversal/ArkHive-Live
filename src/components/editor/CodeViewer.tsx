@@ -327,7 +327,7 @@ export default function CodeViewer({
  {/* Collapsed indicator */}
  {collapsed && (
  <div className="p-4 text-center text-zinc-500 text-sm">
- Code collapsed Ã¢â‚¬Â¢ Click to expand
+ Code collapsed • Click to expand
  </div>
  )}
  </div>

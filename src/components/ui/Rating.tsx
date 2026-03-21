@@ -251,7 +251,7 @@ export function TrustRating({
  'text-xs',
  isVerified ? 'text-zinc-400' : 'text-zinc-500'
  )}>
- {isVerified ? 'Ã¢Å“â€œ Verified' : 'Unverified'}
+ {isVerified ? '✓ Verified' : 'Unverified'}
  </p>
  )}
  </div>

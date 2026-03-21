@@ -217,7 +217,7 @@ function DocumentItem({ document, index, getFileIcon, formatFileSize }: Document
  <h4 className="text-[11px] font-medium text-white/60 truncate">{document.name}</h4>
  <div className="flex items-center gap-2 text-[9px] text-white/25">
  <span>{formatFileSize(document.size)}</span>
- <span>ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·</span>
+ <span>·</span>
  <span>{new Date(document.uploadedAt).toLocaleDateString()}</span>
  </div>
  </div>

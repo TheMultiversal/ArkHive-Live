@@ -492,7 +492,7 @@ export function DataExporter() {
                     }`}>
                       {inv.severity}
                     </span>
-                    <span>ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·</span>
+                    <span>·</span>
                     <span>{inv.status}</span>
                   </div>
                 </div>

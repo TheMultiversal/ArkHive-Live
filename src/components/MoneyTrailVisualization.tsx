@@ -212,7 +212,7 @@ function FlowCard({ flow, isExpanded, onToggle }: FlowCardProps) {
                   href={`/investigations/${tx.investigationSlug}`}
                   className="text-xs text-zinc-300 hover:text-white mt-1 inline-block"
                 >
-                  ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ {tx.investigationTitle}
+                  → {tx.investigationTitle}
                 </Link>
               </div>
             </div>
@@ -355,7 +355,7 @@ export default function MoneyTrailVisualization({
             Money Trail Analysis
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {formatCurrency(totalVolume)} tracked ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {totalTransactions} transactions ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {allParties.length} parties
+            {formatCurrency(totalVolume)} tracked • {totalTransactions} transactions • {allParties.length} parties
           </p>
         </div>
         
@@ -523,7 +523,7 @@ export function InvestigationMoneyTrail({ slug }: { slug: string }) {
               <FileX className="w-3 h-3 text-orange-500" />
             )}
             <span className="text-zinc-500 truncate flex-1">
-              {tx.from} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ {tx.to}
+              {tx.from} → {tx.to}
             </span>
             <span className="text-zinc-400 font-semibold">{tx.amount}</span>
           </div>

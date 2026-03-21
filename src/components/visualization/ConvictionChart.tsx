@@ -68,7 +68,7 @@ function parseAmount(amount?: string): number {
 
 // Format months to readable string
 function formatMonths(months: number): string {
-  if (months === 0) return "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â";
+  if (months === 0) return "—";
   if (months >= 600) return "Life";
   if (months >= 12) {
     const years = Math.floor(months / 12);
@@ -81,7 +81,7 @@ function formatMonths(months: number): string {
 
 // Format currency
 function formatCurrency(amount: number): string {
-  if (amount === 0) return "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â";
+  if (amount === 0) return "—";
   if (amount >= 1e9) return `$${(amount / 1e9).toFixed(1)}B`;
   if (amount >= 1e6) return `$${(amount / 1e6).toFixed(1)}M`;
   if (amount >= 1e3) return `$${(amount / 1e3).toFixed(0)}K`;
@@ -311,7 +311,7 @@ export default function ConvictionComparisonChart({
                       href={defendant.href}
                       className="inline-block mt-3 text-xs text-zinc-300 hover:text-white"
                     >
-                      View full profile ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢
+                      View full profile →
                     </Link>
                   )}
                 </div>

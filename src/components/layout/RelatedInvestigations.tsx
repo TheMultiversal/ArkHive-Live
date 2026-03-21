@@ -127,7 +127,7 @@ export default function RelatedInvestigations({
                 {/* Metadata */}
                 <div className="mt-1 flex items-center gap-2 text-[11px]">
                   <span className="text-zinc-500">{rec.category}</span>
-                  <span className="text-zinc-700">ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢</span>
+                  <span className="text-zinc-700">•</span>
                   <span className="text-zinc-300/70">{rec.matchReason}</span>
                 </div>
               </div>

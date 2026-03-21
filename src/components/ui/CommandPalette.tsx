@@ -312,12 +312,12 @@ export default function CommandPalette({ isOpen, onClose, customCommands = [] }:
  <div className="px-4 py-2 border-t border-[rgba(255,255,255,0.15)] flex items-center justify-between text-xs text-zinc-500">
  <div className="flex items-center gap-4">
  <span className="flex items-center gap-1">
- <kbd className="px-1 py-0.5 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)]">ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ</kbd>
- <kbd className="px-1 py-0.5 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)]">ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“</kbd>
+ <kbd className="px-1 py-0.5 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)]">↑</kbd>
+ <kbd className="px-1 py-0.5 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)]">↓</kbd>
  to navigate
  </span>
  <span className="flex items-center gap-1">
- <kbd className="px-1 py-0.5 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)]">ÃƒÂ¢Ã¢â‚¬Â Ã‚Âµ</kbd>
+ <kbd className="px-1 py-0.5 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)]">↵</kbd>
  to select
  </span>
  </div>

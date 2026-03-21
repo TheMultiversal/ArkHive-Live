@@ -251,7 +251,7 @@ export default function GeographicHeatMap({
               onClick={() => setSelectedState(null)}
               className="text-xs text-zinc-600 hover:text-white"
             >
-              Ã¢Å“â€¢
+              ✕
             </button>
           </div>
           <div className="space-y-2 max-h-40 overflow-y-auto">

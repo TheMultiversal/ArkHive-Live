@@ -435,7 +435,7 @@ export function KeyFiguresDashboard() {
               className="px-3 py-2 bg-zinc-900 border border-zinc-700 text-zinc-400 
                        hover:text-white hover:border-zinc-600 transition-colors"
             >
-              ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â Back to Figures
+              ← Back to Figures
             </button>
             <div className="w-12 h-12 bg-zinc-800 flex items-center justify-center">
               <User className="w-6 h-6 text-zinc-500" />
@@ -471,7 +471,7 @@ export function KeyFiguresDashboard() {
                     <ul className="space-y-1">
                       {defendant.charges.map((charge, cidx) => (
                         <li key={cidx} className="text-sm text-zinc-400 flex items-start gap-2">
-                          <span className="text-zinc-300 mt-1">ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
+                          <span className="text-zinc-300 mt-1">•</span>
                           {charge}
                         </li>
                       ))}
@@ -566,7 +566,7 @@ export function TopFiguresWidget({ limit = 5 }: { limit?: number }) {
         href="/figures"
         className="block mt-4 text-center text-sm text-zinc-300 hover:text-white"
       >
-        View All Figures ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢
+        View All Figures →
       </Link>
     </div>
   );

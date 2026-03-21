@@ -204,7 +204,7 @@ export function SourceCard({ source, compact = false, className = "" }: SourceCa
         {/* Publisher and date */}
         <div className="flex items-center gap-2 text-xs text-zinc-500 mb-2">
           {source.publisher && <span>{source.publisher}</span>}
-          {source.publisher && source.publishDate && <span>Ã¢â‚¬Â¢</span>}
+          {source.publisher && source.publishDate && <span>•</span>}
           {source.publishDate && <span>{source.publishDate}</span>}
         </div>
 

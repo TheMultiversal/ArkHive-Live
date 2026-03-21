@@ -259,7 +259,7 @@ export default function SearchInput({
  <div className="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 items-center gap-1 text-xs text-zinc-600 pointer-events-none">
  {!query && (
  <>
- <kbd className="px-1.5 py-0.5 bg-[#0d0d0d] rounded">ÃƒÂ¢Ã…â€™Ã‹Å“</kbd>
+ <kbd className="px-1.5 py-0.5 bg-[#0d0d0d] rounded">⌘</kbd>
  <kbd className="px-1.5 py-0.5 bg-[#0d0d0d] rounded">K</kbd>
  </>
  )}

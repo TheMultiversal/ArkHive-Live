@@ -713,7 +713,7 @@ function NotificationCard({
  href={notification.actionUrl}
  className="inline-block mt-2 text-sm text-zinc-300 hover:text-white transition-colors"
  >
- View details ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢
+ View details →
  </a>
  )}
  </div>

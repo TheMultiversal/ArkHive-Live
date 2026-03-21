@@ -186,7 +186,7 @@ export default function Footer() {
  {/* Bottom Bar */}
  <div className="py-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
  <p className="text-xs text-zinc-600 uppercase tracking-wider">
- ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© {currentYear} ArkHive. All information is provided for educational purposes.
+ © {currentYear} ArkHive. All information is provided for educational purposes.
  </p>
  <div className="flex items-center gap-4">
  <span className="text-[10px] text-zinc-600 uppercase tracking-widest flex items-center gap-2">

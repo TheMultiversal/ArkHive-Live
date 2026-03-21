@@ -265,7 +265,7 @@ export function VerificationResultDisplay({ result, className = "" }: Verificati
           <Clock className="w-3 h-3" />
           <span>Verified against record from {result.timestamp}</span>
           {result.blockNumber && (
-            <span className="text-zinc-600">ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Block #{result.blockNumber}</span>
+            <span className="text-zinc-600">• Block #{result.blockNumber}</span>
           )}
         </div>
       </div>
@@ -362,7 +362,7 @@ export function HashChain({ records, className = "" }: HashChainProps) {
                   </div>
                   <p className="text-[10px] text-zinc-500">
                     {record.timestamp}
-                    {record.blockNumber && ` ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Block #${record.blockNumber}`}
+                    {record.blockNumber && ` • Block #${record.blockNumber}`}
                   </p>
                 </div>
 

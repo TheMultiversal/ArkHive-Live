@@ -208,7 +208,7 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  {getStatusIcon(item.verificationStatus)}
  </span>
  </div>
- <p className="text-[10px] text-white/25 truncate">{item.addedBy} ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· {new Date(item.addedAt).toLocaleDateString()}</p>
+ <p className="text-[10px] text-white/25 truncate">{item.addedBy} · {new Date(item.addedAt).toLocaleDateString()}</p>
  </div>
  <ExternalLink className="w-3 h-3 text-white/15 opacity-0 group-hover:opacity-100 transition-opacity"/>
  </motion.div>

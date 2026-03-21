@@ -221,7 +221,7 @@ function SourceCard({ item, showInvestigation = true }: SourceCardProps) {
               href={`/investigations/${item.investigationSlug}`}
               className="text-xs text-zinc-400 hover:text-white mt-2 inline-block"
             >
-              {item.investigationTitle} ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢
+              {item.investigationTitle} →
             </Link>
           )}
         </div>
@@ -343,7 +343,7 @@ export default function SourceCredibilityDashboard({
             Source Credibility Dashboard
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {stats.total} sources ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Average credibility: {stats.avgScore}/100
+            {stats.total} sources • Average credibility: {stats.avgScore}/100
           </p>
         </div>
         

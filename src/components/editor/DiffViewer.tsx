@@ -223,7 +223,7 @@ export default function DiffViewer({
  <div className="flex items-center gap-2">
  <FileText className="w-4 h-4 text-zinc-400"/>
  <span className="text-sm text-zinc-500">{oldFilename}</span>
- <span className="text-zinc-600">ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢</span>
+ <span className="text-zinc-600">→</span>
  <span className="text-sm text-zinc-300">{newFilename}</span>
  </div>
  

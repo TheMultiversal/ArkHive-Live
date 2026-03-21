@@ -240,7 +240,7 @@ function EvidenceChainCard({ chain, isExpanded, onToggle }: EvidenceChainCardPro
               href={`/investigations/${chain.evidence[0].investigationSlug}`}
               className="inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-white"
             >
-              View Full Investigation ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢
+              View Full Investigation →
             </Link>
           )}
         </div>
@@ -347,7 +347,7 @@ export default function EvidenceChainBrowser({ investigationSlug, compact = fals
             Evidence Chain Browser
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {stats.total} documented claims ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ {stats.verified + stats.corroborated} corroborated
+            {stats.total} documented claims • {stats.verified + stats.corroborated} corroborated
           </p>
         </div>
       </div>

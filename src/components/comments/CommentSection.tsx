@@ -289,7 +289,7 @@ function CommentItem({
  <span className="text-sm font-medium text-white">
  {comment.author.name}
  </span>
- <span className="mx-2 text-zinc-600">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·</span>
+ <span className="mx-2 text-zinc-600">·</span>
  <span className="text-xs text-zinc-500">{timeAgo}</span>
  {comment.edited && (
  <span className="ml-2 text-xs text-zinc-600">(edited)</span>

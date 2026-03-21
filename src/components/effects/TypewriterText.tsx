@@ -185,7 +185,7 @@ export function RedactedTypewriter({
  let result = str;
  redactedWords.forEach(word => {
  const regex = new RegExp(`(${word})`, 'gi');
- result = result.replace(regex, 'Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†');
+ result = result.replace(regex, '██████');
  });
  return result;
  };

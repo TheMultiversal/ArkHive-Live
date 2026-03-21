@@ -343,7 +343,7 @@ function ComparisonRow({
           ) : comparison.result === "conflict" ? (
             <span className="text-sm text-red-400">Disputed</span>
           ) : (
-            <span className="text-sm text-zinc-500">ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â</span>
+            <span className="text-sm text-zinc-500">—</span>
           )}
         </div>
       </div>
@@ -758,7 +758,7 @@ export function SideBySideComparison({
                   </p>
                 </div>
               ) : (
-                <p className="text-sm text-zinc-600 italic">ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â</p>
+                <p className="text-sm text-zinc-600 italic">—</p>
               )}
             </div>
 
@@ -787,7 +787,7 @@ export function SideBySideComparison({
                   </p>
                 </div>
               ) : (
-                <p className="text-sm text-zinc-600 italic">ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â</p>
+                <p className="text-sm text-zinc-600 italic">—</p>
               )}
             </div>
           </div>

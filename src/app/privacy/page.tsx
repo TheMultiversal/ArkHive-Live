@@ -33,11 +33,11 @@ export default function PrivacyPage() {
  Privacy Summary
  </h2>
  <ul className="space-y-2 text-zinc-300/80">
- <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We do not track individual users</li>
- <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We do not sell or share your data</li>
- <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We do not use advertising cookies</li>
- <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We protect whistleblower identity at all costs</li>
- <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We use minimal, privacy-respecting analytics</li>
+ <li>• We do not track individual users</li>
+ <li>• We do not sell or share your data</li>
+ <li>• We do not use advertising cookies</li>
+ <li>• We protect whistleblower identity at all costs</li>
+ <li>• We use minimal, privacy-respecting analytics</li>
  </ul>
  </motion.div>
 

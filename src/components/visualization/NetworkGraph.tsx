@@ -290,7 +290,7 @@ export default function NetworkGraph({
               href={selectedNode.href}
               className="inline-block text-xs text-zinc-300 hover:text-white"
             >
-              View Profile Ã¢â€ â€™
+              View Profile →
             </Link>
           )}
           <div className="mt-2 pt-2 border-t border-zinc-800">

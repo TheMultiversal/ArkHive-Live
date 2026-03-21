@@ -518,7 +518,7 @@ export default function MarkdownEditor({
  {/* Status bar */}
  <div className="flex items-center justify-between px-4 py-2 border-t border-[rgba(255,255,255,0.15)] text-xs text-zinc-500">
  <span>
- {value.length} characters ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ {value.split(/\s+/).filter(Boolean).length} words
+ {value.length} characters • {value.split(/\s+/).filter(Boolean).length} words
  </span>
  <span>Markdown</span>
  </div>

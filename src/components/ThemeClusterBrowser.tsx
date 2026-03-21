@@ -263,7 +263,7 @@ export function ThemeClusterBrowser() {
           <Layers className="w-6 h-6 text-zinc-300" />
           <h2 className="text-2xl font-bold text-white">Theme Clusters</h2>
           <span className="px-2 py-1 bg-zinc-500/20 text-zinc-400 text-sm border border-zinc-600/30">
-            {THEME_DEFINITIONS.length} themes ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· {Object.values(investigationDatabase).length} investigations
+            {THEME_DEFINITIONS.length} themes · {Object.values(investigationDatabase).length} investigations
           </span>
         </div>
 
@@ -390,7 +390,7 @@ export function ThemeClusterBrowser() {
               className="px-3 py-2 bg-zinc-900 border border-zinc-700 text-zinc-400 
                        hover:text-white hover:border-zinc-600 transition-colors"
             >
-              ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â Back to Themes
+              ← Back to Themes
             </button>
             <div className={`${selectedCluster.theme.bgColor} p-2`}>
               {React.createElement(selectedCluster.theme.icon, { 
@@ -524,7 +524,7 @@ export function TopThemesWidget({ limit = 5 }: { limit?: number }) {
         href="/themes"
         className="block mt-4 text-center text-sm text-zinc-300 hover:text-white"
       >
-        View All Themes ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢
+        View All Themes →
       </Link>
     </div>
   );

@@ -3,7 +3,7 @@
  */
 export const SEVERITY_CONFIG = {
  critical: {
- label: 'ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â  CRITICAL',
+ label: '⚠ CRITICAL',
  color: 'bg-zinc-800 text-zinc-300 border-zinc-700',
  description: 'Immediate threat to public safety',
  },

@@ -158,7 +158,7 @@ function NetworkNodeCard({ node, edges, allNodes, isExpanded, onToggle }: Networ
             onClick={(e) => e.stopPropagation()}
             className="shrink-0 px-3 py-1.5 text-xs text-zinc-400 hover:bg-zinc-800/30 transition-colors"
           >
-            View Profile ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢
+            View Profile →
           </Link>
         )}
       </button>
@@ -328,7 +328,7 @@ export default function AffiliationNetworkGraph({
             Affiliation Network
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {entityCount} entities ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {edges.length} connections ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {highConnectors} appear in 3+ investigations
+            {entityCount} entities • {edges.length} connections • {highConnectors} appear in 3+ investigations
           </p>
         </div>
         

@@ -318,7 +318,7 @@ export default function MapView({
 
  {/* Coordinates display */}
  <div className="absolute bottom-4 left-4 px-2 py-1 bg-zinc-800/80 border border-[rgba(255,255,255,0.18)] text-xs text-zinc-400">
- {mapCenter.lat.toFixed(4)}Ã‚Â°, {mapCenter.lng.toFixed(4)}Ã‚Â°
+ {mapCenter.lat.toFixed(4)}°, {mapCenter.lng.toFixed(4)}°
  </div>
 
  {/* Marker count */}
@@ -365,7 +365,7 @@ export default function MapView({
  <div className="p-3">
  <div className="flex items-center gap-2 text-xs text-zinc-500">
  <MapPin className="w-3 h-3"/>
- {selectedMarker.lat.toFixed(4)}Ã‚Â°, {selectedMarker.lng.toFixed(4)}Ã‚Â°
+ {selectedMarker.lat.toFixed(4)}°, {selectedMarker.lng.toFixed(4)}°
  </div>
  </div>
  </motion.div>

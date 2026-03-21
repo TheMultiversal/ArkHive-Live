@@ -137,7 +137,7 @@ export default function InvestigationsMegaMenu() {
               href="/investigations"
               className="text-xs text-zinc-400 hover:text-white font-semibold uppercase tracking-wider"
             >
-              View All ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢
+              View All →
             </Link>
           </div>
           
@@ -170,7 +170,7 @@ export default function InvestigationsMegaMenu() {
                         className="group flex items-start gap-2 text-xs text-zinc-400 hover:text-white transition-colors"
                         onClick={() => setIsOpen(false)}
                       >
-                        <span className={`mt-0.5 ${getSeverityColor(item.severity)}`}>ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
+                        <span className={`mt-0.5 ${getSeverityColor(item.severity)}`}>•</span>
                         <span className="line-clamp-1 group-hover:text-white transition-colors">
                           {item.title}
                         </span>

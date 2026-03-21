@@ -151,10 +151,10 @@ export default function FlatlineLoader({
  animate={{ opacity: [1, 0.5, 1] }}
  transition={{ duration: 0.5, repeat: Infinity }}
  >
- {phase === 'flatline' && 'Ã¢Å¡Â  FLATLINE DETECTED'}
- {phase === 'charging' && 'Ã¢Å¡Â¡ CHARGING DEFIBRILLATOR...'}
- {phase === 'shock' && 'Ã°Å¸â€™Â¥ CLEAR!'}
- {phase === 'heartbeat' && 'Ã¢â„¢Â¥ PULSE RESTORED'}
+ {phase === 'flatline' && '⚠ FLATLINE DETECTED'}
+ {phase === 'charging' && '⚡ CHARGING DEFIBRILLATOR...'}
+ {phase === 'shock' && '💥 CLEAR!'}
+ {phase === 'heartbeat' && '♥ PULSE RESTORED'}
  </motion.span>
 
  <span className="font-mono text-xs text-gray-500">

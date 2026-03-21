@@ -177,7 +177,7 @@ function KeyboardShortcutsHelp({ onClose }: KeyboardShortcutsHelpProps) {
  const formatKey = (shortcut: KeyboardShortcut): string => {
  const parts: string[] = [];
  if (shortcut.ctrlKey) parts.push('Ctrl');
- if (shortcut.metaKey) parts.push('Ã¢Å’Ëœ');
+ if (shortcut.metaKey) parts.push('⌘');
  if (shortcut.shiftKey) parts.push('Shift');
  if (shortcut.altKey) parts.push('Alt');
  parts.push(shortcut.key.toUpperCase());
@@ -204,7 +204,7 @@ function KeyboardShortcutsHelp({ onClose }: KeyboardShortcutsHelpProps) {
  aria-label="Close shortcuts modal"
  className="text-zinc-400 hover:text-white transition-colors"
  >
- Ã¢Å“â€¢
+ ✕
  </button>
  </div>
 
