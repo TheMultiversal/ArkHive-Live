@@ -43,10 +43,13 @@ const investigations_9: Record<string, InvestigationData> = {
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2022-10-04',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2001', event: 'COVERT ACTION MEMORANDUM: In January 2001, Richard Clarke sent a memo to Condoleezza Rice requesting an urgent cabinet meeting on al-Qaeda', type: 'default' },
-     { date: '2001-08-01', event: 'MOUSSAOUI INVESTIGATION: The FBI arrested Zacarias Moussaoui in August 2001 for suspicious flight training', type: 'default' },
-     { date: '2004', event: 'INTEL REFORMS: The Intelligence Reform Act of 2004 created the Director of National Intelligence to coordinate agencies', type: 'default' },
+      timeline: [
+     { date: '2001', event: 'In January 2001, Richard Clarke sent a memo to Condoleezza Rice requesting an urgent cabinet meeting on al-Qaeda.', type: 'default' },
+     { date: '2001-01', event: 'In January 2001, Richard Clarke sent a memo to Condoleezza Rice requesting an urgent cabinet meeting on al-Qaeda.', type: 'default' },
+     { date: '2001-01-01', event: '9/11 Intelligence Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2001-08', event: 'The FBI arrested Zacarias Moussaoui in August 2001 for suspicious flight training.', type: 'default' },
+     { date: '2004', event: 'The Intelligence Reform Act of 2004 created the Director of National Intelligence to coordinate agencies.', type: 'default' },
+     { date: '2022-10-04', event: '9/11 Intelligence Failures — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   '9-11-failures': {
@@ -76,6 +79,10 @@ const investigations_9: Record<string, InvestigationData> = {
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2010-09-03',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2001-01-01', event: '9/11 Intelligence Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2010-09-03', event: '9/11 Intelligence Failures — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
  'border-militarization-immigration-enforcement': {
   title: 'Border Militarization and Immigration Enforcement Complex',

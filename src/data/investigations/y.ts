@@ -84,9 +84,11 @@ const investigations_y: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2025-08-11',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019', event: 'The company reduced recommendations of "borderline" content in 2019, removed some extremist channels, and added information panels to conspiracy-related videos', type: 'default' },
-     { date: '2020', event: 'YouTube served as the primary platform for QAnon content before partial restrictions were implemented in 2020', type: 'default' },
+      timeline: [
+     { date: '2019', event: 'The company reduced recommendations of ;borderline; content in 2019, removed some extremist channels, and added information panels to conspiracy-related videos.', type: 'default' },
+     { date: '2019-01-01', event: 'YouTubes Radicalization Pipeline: How the Algorithm Breeds Extremism investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'YouTube served as the primary platform for QAnon content before partial restrictions were implemented in 2020.', type: 'default' },
+     { date: '2025-08-11', event: 'YouTubes Radicalization Pipeline: How the Algorithm Breeds Extremism — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
  'youth-incarceration-abuse': {
@@ -117,6 +119,10 @@ const investigations_y: Record<string, InvestigationData> = {
   eventOriginDate: '2024-08-01',
   lastActivityDate: '2025-02-15',
   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2024-08-01', event: 'Youth Incarceration and Juvenile Detention Abuse investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-02-15', event: 'Youth Incarceration and Juvenile Detention Abuse — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
  'predatory-towing-industry': {
   title: 'Predatory Towing Industry',
@@ -146,6 +152,11 @@ const investigations_y: Record<string, InvestigationData> = {
   eventOriginDate: '2023-01-01',
   lastActivityDate: '2025-01-16',
   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023', event: 'A 2023 consumer advocacy study found that towing complaints correlate strongly with neighborhood income levels, with the highest predatory towing activity concentrated in low-income and minority neighborhoods.', type: 'default' },
+     { date: '2023-01-01', event: 'Predatory Towing Industry investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-01-16', event: 'Predatory Towing Industry — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
 };
 

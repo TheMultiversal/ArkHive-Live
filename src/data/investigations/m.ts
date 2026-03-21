@@ -44,6 +44,10 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '2021-09-08',
    lastActivityDate: '2024-01-17',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021-09-08', event: 'Fox News & Trump Coordination investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-01-17', event: 'Fox News & Trump Coordination — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'mueller-suppression': {
  title: 'Mueller Report Suppression',
@@ -85,6 +89,12 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2020-04-01',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019', event: 'THE BARR LETTER: On March 24, 2019, two days after receiving the Mueller Report, Barr released a 4-page letter claiming it found ;no collusion ;and insufficient evidence for obstruction.', type: 'default' },
+     { date: '2019-01-01', event: 'Mueller Report Suppression investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019-03-24', event: 'THE BARR LETTER: On March 24, 2019, two days after receiving the Mueller Report, Barr released a 4-page letter claiming it found ;no collusion ;and insufficient evidence for obstruction.', type: 'default' },
+     { date: '2020-04-01', event: 'Mueller Report Suppression — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'military-industrial': {
  title: 'Military Industrial Complex',
@@ -127,9 +137,11 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '1961-01-01',
    lastActivityDate: '2023-06-28',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1961', event: 'EISENHOWER\'S WARNING: In his 1961 farewell address, President Eisenhower, a five-star general who led D-Day, warned that "the conjunction of an immense military establishment and a large arms indus...', type: 'political' },
-     { date: '2001', event: 'THE PERMANENT WAR ECONOMY: America has been at war continuously since 2001', type: 'default' },
+      timeline: [
+     { date: '1961', event: 'EISENHOWER\'S WARNING: In his 1961 farewell address, President Eisenhower, a five-star general who led D-Day, warned that ;the conjunction of an immense military establishment and a large arms industry ;created...', type: 'political' },
+     { date: '1961-01-01', event: 'Military Industrial Complex investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2001', event: 'America has been at war continuously since 2001.', type: 'default' },
+     { date: '2023-06-28', event: 'Military Industrial Complex — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'media-control': {
@@ -171,10 +183,12 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2026-02-13',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1996', event: 'TELECOMMUNICATIONS ACT OF 1996: This law deregulated media ownership, allowing unprecedented consolidation', type: 'political' },
-     { date: '2005', event: 'LOCAL NEWS COLLAPSE: Over 2,500 newspapers have closed since 2005."News deserts "now cover vast areas with no local journalism', type: 'critical' },
-     { date: '2018', event: 'The infamous 2018" script "incident had anchors across the country reading identical pro-Trump propaganda', type: 'default' },
+      timeline: [
+     { date: '1996', event: 'The 1996 Telecommunications Act accelerated consolidation.', type: 'default' },
+     { date: '1996-01-01', event: 'Media Consolidation and Control investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2005', event: 'Over 2,500 newspapers have closed since 2005.;News deserts ;now cover vast areas with no local journalism.', type: 'default' },
+     { date: '2018', event: 'The infamous 2018; script ;incident had anchors across the country reading identical pro-Trump propaganda.', type: 'default' },
+     { date: '2026-02-13', event: 'Media Consolidation and Control — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'medical-tyranny': {
@@ -211,6 +225,11 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-01-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-01-01', event: 'COVID Restrictions Debate investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-03', event: 'LOCKDOWN ORDERS: Beginning in March 2020, governors issued stay-at-home orders closing businesses, schools, and public gatherings.', type: 'default' },
+     { date: '2025-01-15', event: 'COVID Restrictions Debate — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'media-consolidation': {
  title: 'Media Consolidation',
@@ -236,6 +255,12 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '1983-01-01',
    lastActivityDate: '2025-08-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1983', event: 'In 1983, 50 companies controlled 90% of media.', type: 'default' },
+     { date: '1983-01-01', event: 'Media Consolidation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1996', event: 'Since the 1996 Telecommunications Act, media ownership has consolidated until six corporations control 90% of what Americans read, watch, and hear.', type: 'default' },
+     { date: '2025-08-25', event: 'Media Consolidation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'media-manipulation': {
  title: 'Media Manipulation',
@@ -261,6 +286,10 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '2022-01-25',
    lastActivityDate: '2026-02-16',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022-01-25', event: 'Media Manipulation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2026-02-16', event: 'Media Manipulation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'madoff-ponzi': {
  title: 'Bernie Madoff Ponzi Scheme',
@@ -658,10 +687,13 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2022-12-24',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'After Gretchen Carlson filed suit in 2016, over 20 women came forward with similar allegations', type: 'default' },
-     { date: '2017-04-01', event: 'Bill O\'Reilly, Fox News\'s highest-rated host, was fired in April 2017 after revelations that Fox had paid over $45 million to settle harassment claims against him', type: 'political' },
-     { date: '2017-10-01', event: 'Harvey Weinstein\'s exposure in October 2017 by the New York Times and the New Yorker triggered a cascade of revelations across the media industry', type: 'default' },
+      timeline: [
+     { date: '2016', event: 'After Gretchen Carlson filed suit in 2016, over 20 women came forward with similar allegations.', type: 'default' },
+     { date: '2016-01-01', event: '#MeToo in Media: How Newsrooms Protected Predators investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017', event: 'Harvey Weinstein\'s exposure in October 2017 by the New York Times and the New Yorker triggered a cascade of revelations across the media industry.', type: 'default' },
+     { date: '2017-04', event: 'Bill O\'Reilly, Fox News\'s highest-rated host, was fired in April 2017 after revelations that Fox had paid over $45 million to settle harassment claims against him.', type: 'political' },
+     { date: '2017-10', event: 'Harvey Weinstein\'s exposure in October 2017 by the New York Times and the New Yorker triggered a cascade of revelations across the media industry.', type: 'default' },
+     { date: '2022-12-24', event: '#MeToo in Media: How Newsrooms Protected Predators — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'michael-brown-shooting': {
@@ -891,9 +923,12 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'Mississippi\'s Department of Human Services, led by director John Davis, diverted approximately $77 million in federal TANF (Temporary Assistance for Needy Families) funds between 2016 and 2019', type: 'financial' },
-     { date: '2024', event: 'As of 2024, Bryant had not been criminally charged', type: 'default' },
+      timeline: [
+     { date: '2016', event: 'Mississippi\'s Department of Human Services, led by director John Davis, diverted approximately $77 million in federal TANF (Temporary Assistance for Needy Families) funds between 2016 and 2019.', type: 'financial' },
+     { date: '2016-01-01', event: 'Mississippi Welfare Fraud: The Largest Public Fraud in State History investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2019', event: 'Mississippi\'s Department of Human Services, led by director John Davis, diverted approximately $77 million in federal TANF (Temporary Assistance for Needy Families) funds between 2016 and 2019.', type: 'financial' },
+     { date: '2024', event: 'As of 2024, Bryant had not been criminally charged.', type: 'default' },
+     { date: '2024-01-01', event: 'Mississippi Welfare Fraud: The Largest Public Fraud in State History — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'monsanto-crimes': {
@@ -968,10 +1003,13 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2025-02-03',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2003', event: 'Between 2003 and 2007, major banks and mortgage companies originated trillions of dollars in mortgages that they knew were fraudulent', type: 'financial' },
-     { date: '2007', event: 'When the housing market collapsed, banks foreclosed on approximately 10 million homes between 2007 and 2016', type: 'critical' },
-     { date: '2012', event: 'The 2012 National Mortgage Settlement between the five largest servicers and 49 state attorneys general totaled $25 billion; a fraction of the trillions in losses caused by the fraud', type: 'political' },
+      timeline: [
+     { date: '2003', event: 'Between 2003 and 2007, major banks and mortgage companies originated trillions of dollars in mortgages that they knew were fraudulent.', type: 'default' },
+     { date: '2003-01-01', event: 'The Mortgage Fraud Crisis: How Banks Robbed Millions of Their Homes investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2007', event: 'Between 2003 and 2007, major banks and mortgage companies originated trillions of dollars in mortgages that they knew were fraudulent.', type: 'default' },
+     { date: '2012', event: 'The 2012 National Mortgage Settlement between the five largest servicers and 49 state attorneys general totaled $25 billion; a fraction of the trillions in losses caused by the fraud.', type: 'legal' },
+     { date: '2016', event: 'When the housing market collapsed, banks foreclosed on approximately 10 million homes between 2007 and 2016.', type: 'financial' },
+     { date: '2025-02-03', event: 'The Mortgage Fraud Crisis: How Banks Robbed Millions of Their Homes — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'msu-coverup': {
@@ -1644,10 +1682,13 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '1973-01-01',
    lastActivityDate: '2025-08-13',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2002', event: 'The enhanced interrogation program (2002-2009) drew directly on behavioral research with roots in MKUltra-era programs, as documented in the Senate Intelligence Committee\'s Torture Report', type: 'political' },
-     { date: '2010', event: 'Military PSYOP units were rebranded as Military Information Support Operations (MISO) in 2010 but the mission; influencing the perceptions and behavior of target audiences; remained identical', type: 'default' },
-     { date: '2022', event: 'A 2022 investigation revealed the Pentagon operated a vast network of fake social media accounts across Twitter, Facebook, and other platforms for covert influence operations; many targeting popula...', type: 'default' },
+      timeline: [
+     { date: '1973', event: 'While MKUltra was officially terminated in 1973, behavioral influence research continued under different names and institutional arrangements.', type: 'default' },
+     { date: '1973-01-01', event: 'Modern Behavioral Influence Programs investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2002', event: 'The enhanced interrogation program (2002-2009) drew directly on behavioral research with roots in MKUltra-era programs, as documented in the Senate Intelligence Committee\'s Torture Report.', type: 'political' },
+     { date: '2010', event: 'Military PSYOP units were rebranded as Military Information Support Operations (MISO) in 2010 but the mission; influencing the perceptions and behavior of target audiences; remained identical.', type: 'default' },
+     { date: '2022', event: 'A 2022 investigation revealed the Pentagon operated a vast network of fake social media accounts across Twitter, Facebook, and other platforms for covert influence operations; many targeting populations in the Middle...', type: 'default' },
+     { date: '2025-08-13', event: 'Modern Behavioral Influence Programs — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
 
@@ -1689,6 +1730,16 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: "MIT Study: Spread of False Information", url: "https://science.sciencemag.org/content/359/6380/1146", type: "Academic Research" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '1994', event: 'The DSHEA Act of 1994 effectively deregulated supplements; allowing products to be sold without proving safety or efficacy.', type: 'default' },
+     { date: '1998', event: 's fraudulent 1998 Lancet study falsely linking the MMR vaccine to autism.', type: 'default' },
+     { date: '2000', event: 'After measles was declared eliminated in the United States in 2000, declining vaccination rates driven by the anti-vaccine movement led to its return.', type: 'default' },
+     { date: '2019', event: 'Major outbreaks occurred in 2019 (1,282 cases) and again in 2024.', type: 'default' },
+     { date: '2021', event: 'A study in The Lancet estimated that at least 318,981 Americans died from COVID between January 2021 and April 2022 because they were unvaccinated; many influenced by misinformation.', type: 'default' },
+     { date: '2021-01', event: 'A study in The Lancet estimated that at least 318,981 Americans died from COVID between January 2021 and April 2022 because they were unvaccinated; many influenced by misinformation.', type: 'default' },
+     { date: '2022-04', event: 'A study in The Lancet estimated that at least 318,981 Americans died from COVID between January 2021 and April 2022 because they were unvaccinated; many influenced by misinformation.', type: 'default' },
+     { date: '2024', event: 'The politicization has extended beyond COVID to routine childhood vaccinations; measles outbreaks returned in 2024.;, ;UNPROVEN TREATMENTS: Ivermectin and hydroxychloroquine were promoted by President Trump, Senator...', type: 'political' },
+   ],
   },
   'mass-shootings': {
     title: "American Mass Shooting Epidemic",
@@ -1716,6 +1767,20 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: "Everytown for Gun Safety Research", url: "https://everytownresearch.org/", type: "Research" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '1994', event: 'The 1994 Federal Assault Weapons Ban expired in 2004 and was not renewed.', type: 'default' },
+     { date: '1996', event: 'The NRA s Dunblane massacre (1996; 16 children killed), the UK banned handguns.', type: 'critical' },
+     { date: '1999', event: 'There are approximately 400 million guns in civilian hands; more guns than people.;, ;THE TIMELINE: Columbine (1999; 13 killed).', type: 'financial' },
+     { date: '2000', event: 'After Sandy Hook; where 20 first-graders were murdered; the Manchin-Toomey background check bill failed in the Senate with 54 votes in favor (short of the 60 needed to overcome a filibuster).;, ;NRA INFLUENCE: The...', type: 'political' },
+     { date: '2004', event: 'The 1994 Federal Assault Weapons Ban expired in 2004 and was not renewed.', type: 'default' },
+     { date: '2005', event: 'The industry is shielded from most lawsuits by the 2005 Protection of Lawful Commerce in Arms Act.', type: 'default' },
+     { date: '2007', event: 'Virginia Tech (2007; 32 killed).', type: 'critical' },
+     { date: '2012', event: 'Sandy Hook (2012; 26 killed, including 20 children aged 6-7).', type: 'critical' },
+     { date: '2016', event: 'Pulse nightclub (2016; 49 killed).', type: 'critical' },
+     { date: '2017', event: 'Las Vegas (2017; 60 killed).', type: 'critical' },
+     { date: '2018', event: 'Parkland (2018; 17 killed).', type: 'critical' },
+     { date: '2019', event: 'El Paso (2019; 23 killed).', type: 'critical' },
+   ],
   },
   'my-lai-massacre': {
     title: 'My Lai Massacre',
@@ -1740,6 +1805,10 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '1968-03-16',
    lastActivityDate: '1971-03-29',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1968-03-16', event: 'My Lai Massacre investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '1971-03-29', event: 'My Lai Massacre — investigation remains active with ongoing developments', type: 'critical' },
+   ],
   },
   'mk-ultra': {
     title: 'MK-Ultra Mind Control Program',
@@ -2018,6 +2087,11 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-02-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1970-01-01', event: 'Mass Incarceration and the Prison-Industrial Complex investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'CoreCivic (formerly Corrections Corporation of America) and GEO Group, the two largest private prison operators, earned combined revenues exceeding $3.4 billion in 2023.', type: 'financial' },
+     { date: '2025-02-15', event: 'Mass Incarceration and the Prison-Industrial Complex — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'maternal-mortality-crisis': {
     title: 'American Maternal Mortality Crisis',
@@ -2082,9 +2156,11 @@ const investigations_m: Record<string, InvestigationData> = {
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2025-01-18',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2022', event: 'The PACT Act of 2022, signed after years of veteran advocacy and a dramatic last-minute Senate standoff, represents the most significant expansion of VA toxic exposure benefits in decades', type: 'political' },
-     { date: '2025', event: 'As of early 2025, the VA has processed only a fraction of the estimated 3.5 million eligible claims, and many veterans report continued denials and delays', type: 'financial' },
+      timeline: [
+     { date: '2022', event: 'The PACT Act of 2022, signed after years of veteran advocacy and a dramatic last-minute Senate standoff, represents the most significant expansion of VA toxic exposure benefits in decades.', type: 'political' },
+     { date: '2022-01-01', event: 'Military Burn Pit Exposure investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025', event: 'As of early 2025, the VA has processed only a fraction of the estimated 3.5 million eligible claims, and many veterans report continued denials and delays.', type: 'financial' },
+     { date: '2025-01-18', event: 'Military Burn Pit Exposure — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'mk-ultra-cia-mind-control': {

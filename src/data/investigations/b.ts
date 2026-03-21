@@ -42,9 +42,11 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2023-06-28',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2009', event: 'INAUGURAL COMMITTEE CORRUPTION: Trump\'s inaugural committee raised a record $107 million, twice Obama\'s 2009 amount with far fewer events', type: 'financial' },
-     { date: '2018', event: 'The T-Mobile/Sprint merger illustrates the corruption: executives stayed at Trump Hotel while seeking DOJ approval, spending $195,000 in 2018', type: 'default' },
+      timeline: [
+     { date: '2009', event: 'Trump\'s inaugural committee raised a record $107 million, twice Obama\'s 2009 amount with far fewer events.', type: 'financial' },
+     { date: '2009-01-01', event: 'Bribery & Corruption investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2018', event: 'The T-Mobile/Sprint merger illustrates the corruption: executives stayed at Trump Hotel while seeking DOJ approval, spending $195,000 in 2018.', type: 'default' },
+     { date: '2023-06-28', event: 'Bribery & Corruption — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'biological-experimentation': {
@@ -72,6 +74,11 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-12-02',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018', event: 'Despite warnings, the Trump administration disbanded the NSC pandemic response team in 2018.', type: 'default' },
+     { date: '2018-01-01', event: 'Biological Experimentation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-12-02', event: 'Biological Experimentation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'birther-conspiracy': {
  title: 'Birther Conspiracy',
@@ -103,10 +110,13 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2017-04-04',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2011', event: 'TRUMP\'S ROLE: Starting in 2011, Trump became the conspiracy\'s most prominent voice', type: 'default' },
-     { date: '2011-04-01', event: 'THE DEMAND: In April 2011, Obama released his long-form birth certificate from Hawaii', type: 'default' },
-     { date: '2016-09-01', event: 'DELAYED "ADMISSION": In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started...', type: 'political' },
+      timeline: [
+     { date: '2011', event: 'TRUMP\'S ROLE: Starting in 2011, Trump became the conspiracy\'s most prominent voice.', type: 'default' },
+     { date: '2011-01-01', event: 'Birther Conspiracy investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2011-04', event: 'He gave countless interviews demanding Obama\'s birth certificate, claimed to have sent investigators to Hawaii, and said ;they cannot believe what they\'re finding.; THE DEMAND: In April 2011, Obama released his...', type: 'default' },
+     { date: '2016', event: 'DELAYED ;ADMISSION;: In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and...', type: 'political' },
+     { date: '2016-09', event: 'DELAYED ;ADMISSION;: In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and...', type: 'political' },
+     { date: '2017-04-04', event: 'Birther Conspiracy — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'billionaire-enablers': {
@@ -150,6 +160,12 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-01-03',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2014', event: 'ProPublica revealed that the 25 richest Americans paid 3.4% tax rates from 2014-2018.', type: 'financial' },
+     { date: '2014-01-01', event: 'Billionaire Enablers investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018', event: 'ProPublica revealed that the 25 richest Americans paid 3.4% tax rates from 2014-2018.', type: 'financial' },
+     { date: '2025-01-03', event: 'Billionaire Enablers — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'blackwater-massacre': {
  title: 'Blackwater Nisour Square Massacre',
@@ -185,10 +201,13 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2020-12-22',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2007-09-16', event: 'THE MASSACRE: On September 16, 2007, a Blackwater convoy entered Nisour Square in Baghdad', type: 'critical' },
-     { date: '2014', event: 'CONVICTIONS: In 2014, four Blackwater contractors were convicted', type: 'legal' },
-     { date: '2020-12-22', event: 'TRUMP PARDONS: On December 22, 2020, Trump pardoned all four convicted Blackwater contractors', type: 'legal' },
+      timeline: [
+     { date: '2007', event: 'On September 16, 2007, Blackwater private military contractors opened fire on Iraqi civilians in Baghdad\'s Nisour Square, killing 17 including women and children.', type: 'financial' },
+     { date: '2007-01-01', event: 'Blackwater Nisour Square Massacre investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2007-09-16', event: 'On September 16, 2007, Blackwater private military contractors opened fire on Iraqi civilians in Baghdad\'s Nisour Square, killing 17 including women and children.', type: 'financial' },
+     { date: '2014', event: 'In 2014, four Blackwater contractors were convicted.', type: 'legal' },
+     { date: '2020', event: 'Four contractors were eventually convicted, but Trump pardoned them in 2020.', type: 'legal' },
+     { date: '2020-12-22', event: 'On December 22, 2020, Trump pardoned all four convicted Blackwater contractors.', type: 'legal' },
    ],
  },
   'bush-dynasty': {
@@ -361,10 +380,12 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '1997-01-01',
    lastActivityDate: '2024-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1997', event: 'THE MCDONNELL DOUGLAS MERGER (1997): Boeing merged with McDonnell Douglas in 1997', type: 'default' },
-     { date: '2021', event: 'DEFERRED PROSECUTION (2021): Boeing paid $2.5 billion', type: 'political' },
-     { date: '2024', event: 'DPA BREACH (2024): DOJ found Boeing breached the DPA', type: 'default' },
+      timeline: [
+     { date: '1997', event: 'THE MCDONNELL DOUGLAS MERGER (1997): Boeing merged with McDonnell Douglas in 1997.', type: 'default' },
+     { date: '1997-01-01', event: 'Boeing: A Criminal Enterprise investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021', event: 'DEFERRED PROSECUTION (2021): Boeing paid $2.5 billion.', type: 'legal' },
+     { date: '2024', event: 'DPA BREACH (2024): DOJ found Boeing breached the DPA.', type: 'default' },
+     { date: '2024-01-01', event: 'Boeing: A Criminal Enterprise — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'boeing-whistleblower-retaliation': {
@@ -404,10 +425,13 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2024-10-11',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018-06-01', event: 'PIERSON\'S WARNINGS: In June 2018, Pierson emailed:"I am requesting that you shutdown the production line until we have a chance to regroup and reset."Management declined', type: 'default' },
-     { date: '2019', event: 'In 2019, OSHA ruled Boeing retaliated against him', type: 'default' },
-     { date: '2024-03-09', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing', type: 'critical' },
+      timeline: [
+     { date: '2018-01-01', event: 'Boeing Whistleblower Deaths and Retaliation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018-06', event: 'PIERSON\'S WARNINGS: In June 2018, Pierson emailed:;I am requesting that you shutdown the production line until we have a chance to regroup and reset.;Management declined.', type: 'default' },
+     { date: '2019', event: 'In 2019, OSHA ruled Boeing retaliated against him.', type: 'default' },
+     { date: '2024', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' },
+     { date: '2024-03-09', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' },
+     { date: '2024-10-11', event: 'Boeing Whistleblower Deaths and Retaliation — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'big-tobacco-lies': {
@@ -438,10 +462,12 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2022-02-22',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1994', event: '1994 CONGRESSIONAL TESTIMONY: Seven tobacco CEOs swore under oath that nicotine was not addictive', type: 'political' },
-     { date: '1998', event: 'MASTER SETTLEMENT AGREEMENT: In 1998, states settled with tobacco for $206 billion over 25 years', type: 'political' },
-     { date: '2006', event: 'RACKETEERING VERDICT: In 2006, Judge Gladys Kessler ruled tobacco companies violated RICO laws through decades of fraud', type: 'legal' },
+      timeline: [
+     { date: '1950-01-01', event: 'Big Tobacco Conspiracy investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1994', event: '1994 CONGRESSIONAL TESTIMONY: Seven tobacco CEOs swore under oath that nicotine was not addictive.', type: 'default' },
+     { date: '1998', event: 'In 1998, states settled with tobacco for $206 billion over 25 years.', type: 'financial' },
+     { date: '2006', event: 'In 2006, Judge Gladys Kessler ruled tobacco companies violated RICO laws through decades of fraud.', type: 'legal' },
+     { date: '2022-02-22', event: 'Big Tobacco Conspiracy — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'bhopal-disaster': {
@@ -509,6 +535,10 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2018-11-13',
    lastActivityDate: '2025-10-03',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018-11-13', event: 'Banking Discrimination investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-10-03', event: 'Banking Discrimination — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'banking-corruption': {
  title: 'Banking Industry Corruption',
@@ -540,6 +570,11 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-04-27',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'Major global banks including HSBC, Deutsche Bank, and JPMorgan have paid combined penalties exceeding $300 billion since 2008 for various forms of fraud and misconduct.', type: 'financial' },
+     { date: '2008-01-01', event: 'Banking Industry Corruption investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-04-27', event: 'Banking Industry Corruption — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'banking-crimes': {
  title: 'Banking Sector Criminal Activity',
@@ -571,6 +606,10 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2018-04-17',
    lastActivityDate: '2024-05-29',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018-04-17', event: 'Banking Sector Criminal Activity investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-05-29', event: 'Banking Sector Criminal Activity — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'belarus-repression': {
  title: 'Belarus Repression',
@@ -597,6 +636,11 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-04-06',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'Alexander Lukashenko\'s brutal crackdown on pro-democracy protests following the disputed 2020 election resulted in mass arrests, torture, and killings.', type: 'political' },
+     { date: '2020-01-01', event: 'Belarus Repression investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-04-06', event: 'Belarus Repression — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'big-tech-monopoly': {
  title: 'Big Tech Monopoly',
@@ -628,6 +672,10 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2021-05-30',
    lastActivityDate: '2023-11-07',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021-05-30', event: 'Big Tech Monopoly investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-11-07', event: 'Big Tech Monopoly — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'big-tobacco-conspiracy': {
  title: 'Big Tobacco Conspiracy',
@@ -655,6 +703,11 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2025-08-08',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1950-01-01', event: 'Big Tobacco Conspiracy investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1998', event: 'The 1998 Master Settlement Agreement required tobacco companies to pay $206 billion but failed to hold individuals criminally accountable.', type: 'legal' },
+     { date: '2025-08-08', event: 'Big Tobacco Conspiracy — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'billionaire-tax-avoidance': {
  title: 'Billionaire Tax Avoidance',
@@ -683,6 +736,10 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2016-03-02',
    lastActivityDate: '2025-02-02',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016-03-02', event: 'Billionaire Tax Avoidance investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-02-02', event: 'Billionaire Tax Avoidance — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'boarding-schools': {
  title: 'Boarding Schools',
@@ -709,6 +766,11 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '1819-01-01',
    lastActivityDate: '2020-01-27',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1819-01-01', event: 'Boarding Schools investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1969', event: 'Federal Indian boarding schools forcibly removed over 100,000 Native American children from their families between 1819 and 1969.', type: 'default' },
+     { date: '2020-01-27', event: 'Boarding Schools — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'boeing-safety-failures': {
  title: 'Boeing Safety Failures',
@@ -736,6 +798,10 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2021-02-09',
    lastActivityDate: '2025-08-22',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021-02-09', event: 'Boeing Safety Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-08-22', event: 'Boeing Safety Failures — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'bop-failures': {
  title: 'BOP Failures',
@@ -764,6 +830,9 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2025-01-26',
    lastActivityDate: '2025-02-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2025-01-26', event: 'BOP Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'border-deaths': {
  title: 'Border Deaths',
@@ -793,6 +862,10 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2022-06-26',
    lastActivityDate: '2025-06-23',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022-06-26', event: 'Border Deaths investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-06-23', event: 'Border Deaths — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'boston-archdiocese-coverup': {
  title: 'Boston Archdiocese Coverup',
@@ -820,6 +893,10 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2020-06-24',
    lastActivityDate: '2025-06-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-06-24', event: 'Boston Archdiocese Coverup investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-06-20', event: 'Boston Archdiocese Coverup — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'botham-jean-murder': {
  title: 'Botham Jean Murder',
@@ -847,6 +924,12 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-05-04',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018', event: 'Off-duty Dallas police officer Amber Guyger shot and killed Botham Jean, a 26-year-old Black man, in his own apartment on September 6, 2018.', type: 'critical' },
+     { date: '2018-01-01', event: 'Botham Jean Murder investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018-09-06', event: 'Off-duty Dallas police officer Amber Guyger shot and killed Botham Jean, a 26-year-old Black man, in his own apartment on September 6, 2018.', type: 'critical' },
+     { date: '2025-05-04', event: 'Botham Jean Murder — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'breonna-taylor': {
  title: 'Breonna Taylor',
@@ -873,9 +956,12 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-07-28',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020-03-13', event: 'Louisville police killed Breonna Taylor during a botched no-knock raid on March 13, 2020', type: 'critical' },
-     { date: '2022', event: 'Federal civil rights charges followed in 2022', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'Louisville police killed Breonna Taylor during a botched no-knock raid on March 13, 2020.', type: 'critical' },
+     { date: '2020-01-01', event: 'Breonna Taylor investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-03-13', event: 'Louisville police killed Breonna Taylor during a botched no-knock raid on March 13, 2020.', type: 'critical' },
+     { date: '2022', event: 'Federal civil rights charges followed in 2022.', type: 'default' },
+     { date: '2025-07-28', event: 'Breonna Taylor — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'brian-sicknick': {
@@ -904,6 +990,12 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2026-01-05',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021', event: 'Capitol Police Officer Brian Sicknick died on January 7, 2021, one day after being attacked while defending the Capitol during the January 6th insurrection.', type: 'default' },
+     { date: '2021-01-01', event: 'Brian Sicknick investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021-01-07', event: 'Capitol Police Officer Brian Sicknick died on January 7, 2021, one day after being attacked while defending the Capitol during the January 6th insurrection.', type: 'default' },
+     { date: '2026-01-05', event: 'Brian Sicknick — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'buffalo-massacre': {
  title: 'Buffalo Massacre',
@@ -931,6 +1023,11 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2022-05-14',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022', event: 'On May 14, 2022, an 18-year-old white supremacist drove 200 miles to a Black neighborhood in Buffalo and murdered 10 people at a Tops supermarket.', type: 'default' },
+     { date: '2022-01-01', event: 'Buffalo Massacre investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2022-05-14', event: 'On May 14, 2022, an 18-year-old white supremacist drove 200 miles to a Black neighborhood in Buffalo and murdered 10 people at a Tops supermarket.', type: 'default' },
+   ],
  },
   'bay-of-pigs-cover-up': {
     title: 'Bay of Pigs Cover-Up',
@@ -1265,6 +1362,20 @@ const investigations_b: Record<string, InvestigationData> = {
       { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Negotiated deferred prosecution agreement criticized by victims\' families; later found Boeing violated terms', href: '/entities/agencies/doj' },
       { id: '3', name: 'NTSB', type: 'agency', relationship: 'Investigated 737 MAX crashes and door plug blowout; findings contradicted Boeing\'s safety claims', href: '/entities/agencies/ntsb' },
     ],
+   timeline: [
+     { date: '1997', event: 'Boeing\'s safety culture deteriorated after its 1997 merger with McDonnell Douglas.', type: 'default' },
+     { date: '2013', event: 'Boeing agreed to reacquire Spirit in 2024 to regain direct control over fuselage manufacturing.;, ;STOCK BUYBACKS VS SAFETY: Between 2013 and 2019, Boeing spent $43 billion on stock buybacks while investing minimally...', type: 'financial' },
+     { date: '2018', event: 'The company s 18-month investigation concluded that the 737 MAX disasters were s engineers, a lack of transparency on the part of Boeing 737 MAX DISASTERS: Two crashes; Lion Air Flight 610 (October 2018, 189 dead)...', type: 'default' },
+     { date: '2018-10', event: 'The company s 18-month investigation concluded that the 737 MAX disasters were s engineers, a lack of transparency on the part of Boeing 737 MAX DISASTERS: Two crashes; Lion Air Flight 610 (October 2018, 189 dead)...', type: 'default' },
+     { date: '2019', event: 'Boeing agreed to reacquire Spirit in 2024 to regain direct control over fuselage manufacturing.;, ;STOCK BUYBACKS VS SAFETY: Between 2013 and 2019, Boeing spent $43 billion on stock buybacks while investing minimally...', type: 'financial' },
+     { date: '2019-03', event: 'The company s 18-month investigation concluded that the 737 MAX disasters were s engineers, a lack of transparency on the part of Boeing 737 MAX DISASTERS: Two crashes; Lion Air Flight 610 (October 2018, 189 dead)...', type: 'default' },
+     { date: '2021', event: 'Boeing entered a deferred prosecution agreement with DOJ over the MAX crashes in January 2021, paying $2.5 billion; of which only $500 million went to victims\' families.', type: 'legal' },
+     { date: '2021-01', event: 'Boeing entered a deferred prosecution agreement with DOJ over the MAX crashes in January 2021, paying $2.5 billion; of which only $500 million went to victims\' families.', type: 'legal' },
+     { date: '2024', event: 's service life; yet the MAX was not grounded for four more months.;, ;DOOR PLUG BLOWOUT: In January 2024, an Alaska Airlines 737 MAX 9 lost a door plug mid-flight at 16,000 feet, creating a gaping hole in the fuselage.', type: 'default' },
+     { date: '2024-01', event: 's service life; yet the MAX was not grounded for four more months.;, ;DOOR PLUG BLOWOUT: In January 2024, an Alaska Airlines 737 MAX 9 lost a door plug mid-flight at 16,000 feet, creating a gaping hole in the fuselage.', type: 'default' },
+     { date: '2024-03-09', event: 'He was found dead from an apparent self-inflicted gunshot wound on March 9, 2024, during his deposition in a whistleblower lawsuit against Boeing.', type: 'legal' },
+     { date: '2024-04', event: 'Boeing engineer Sam Salehpour testified before Congress in April 2024 that Boeing took shortcuts on the 787 Dreamliner that could cause the fuselage to break apart after thousands of flights.', type: 'political' },
+   ],
   },
   'banking-crisis-manipulation': {
     title: 'Banking Crisis Manipulation',
@@ -1296,10 +1407,12 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2025-03-10',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2007', event: 'Goldman Sachs created Abacus 2007-AC1, a CDO designed to fail, then bet against it', type: 'default' },
-     { date: '2009', event: 'Goldman Sachs paid $11.4 billion in bonuses in 2009, the year after receiving $10 billion in TARP funds', type: 'political' },
-     { date: '2012', event: 'The 2012 National Mortgage Settlement required banks to pay $25 billion but allowed them to buy back their own bad loans at face value, profiting from the scheme', type: 'political' },
+      timeline: [
+     { date: '2007', event: 'Goldman Sachs created Abacus 2007-AC1, a CDO designed to fail, then bet against it.', type: 'default' },
+     { date: '2007-01-01', event: 'Banking Crisis Manipulation investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2009', event: 'Goldman Sachs paid $11.4 billion in bonuses in 2009, the year after receiving $10 billion in TARP funds.', type: 'financial' },
+     { date: '2012', event: 'The 2012 National Mortgage Settlement required banks to pay $25 billion but allowed them to buy back their own bad loans at face value, profiting from the scheme.', type: 'legal' },
+     { date: '2025-03-10', event: 'Banking Crisis Manipulation — investigation remains active with ongoing developments', type: 'critical' },
    ],
   },
   'big-pharma-price-gouging': {
@@ -1332,10 +1445,12 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2025-09-05',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1996', event: 'A vial costing $21 in 1996 now costs $300', type: 'financial' },
-     { date: '2002', event: 'The three manufacturers (Eli Lilly, Novo Nordisk, Sanofi) raised prices 300% since 2002 while production costs fell', type: 'financial' },
-     { date: '2005', event: 'Between 2005-2015, these agreements cost consumers $69 billion', type: 'political' },
+      timeline: [
+     { date: '1996', event: 'A vial costing $21 in 1996 now costs $300.', type: 'default' },
+     { date: '1996-01-01', event: 'Big Pharma Price Gouging investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2002', event: 'The three manufacturers (Eli Lilly, Novo Nordisk, Sanofi) raised prices 300% since 2002 while production costs fell.', type: 'default' },
+     { date: '2005', event: 'Between 2005-2015, these agreements cost consumers $69 billion.', type: 'financial' },
+     { date: '2025-09-05', event: 'Big Pharma Price Gouging — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'bitcoin-regulation-capture': {
@@ -1726,6 +1841,12 @@ const investigations_b: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-02-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2014', event: 'After the killing of Michael Brown in Ferguson (2014), body cameras were promoted as the technological solution to police accountability.', type: 'default' },
+     { date: '2014-01-01', event: 'Police Body Camera Programs and the Accountability Illusion investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024', event: 'By 2024, roughly 80% of large law enforcement agencies have body camera programs.', type: 'default' },
+     { date: '2025-02-20', event: 'Police Body Camera Programs and the Accountability Illusion — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'border-patrol-abuse-patterns': {
     title: 'Border Patrol Abuse Patterns',

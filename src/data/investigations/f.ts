@@ -36,6 +36,11 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2022-05-18',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021', event: 'The full extent wasn\'t publicly known until Land Report investigation revealed it in 2021.', type: 'default' },
+     { date: '2021-01-01', event: 'Agricultural Land Monopolization investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-05-18', event: 'Agricultural Land Monopolization — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'financial-fraud': {
  title: 'Financial Fraud & Securities Violations',
@@ -68,6 +73,10 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2010-12-17',
    lastActivityDate: '2013-02-16',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2010-12-17', event: 'Financial Fraud & Securities Violations investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2013-02-16', event: 'Financial Fraud & Securities Violations — investigation remains active with ongoing developments', type: 'financial' },
+   ],
  },
   'foreign-influence': {
  title: 'Foreign Influence Operations',
@@ -102,6 +111,11 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2026-01-28',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'Throughout the 2016 campaign, the Trump Organization pursued a Trump Tower Moscow project while Trump denied any business dealings with Russia.', type: 'political' },
+     { date: '2016-01-01', event: 'Foreign Influence Operations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2026-01-28', event: 'Foreign Influence Operations — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'foreign-agents': {
  title: 'Foreign Agent Registration Violations',
@@ -137,6 +151,10 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2018-10-22',
    lastActivityDate: '2025-06-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018-10-22', event: 'Foreign Agent Registration Violations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-06-25', event: 'Foreign Agent Registration Violations — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'first-impeachment': {
  title: 'First Impeachment, Ukraine Extortion',
@@ -220,10 +238,14 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-05-27',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2015', event: 'RUSSIAN PAYMENTS: Flynn received payments from Russian entities including $45,000 for attending a 2015 RT (Russian state media) gala where he sat next to Vladimir Putin', type: 'default' },
-     { date: '2017-12-01', event: 'GUILTY PLEA: Flynn pled guilty in December 2017 to making false statements to the FBI', type: 'legal' },
-     { date: '2020-11-01', event: 'TRUMP PARDON: Trump pardoned Flynn in November 2020, eliminating any remaining legal jeopardy', type: 'default' },
+      timeline: [
+     { date: '2015', event: 'Flynn received payments from Russian entities including $45,000 for attending a 2015 RT (Russian state media) gala where he sat next to Vladimir Putin.', type: 'default' },
+     { date: '2015-01-01', event: 'Michael Flynn Russia Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017', event: 'Flynn pled guilty in December 2017 to making false statements to the FBI.', type: 'legal' },
+     { date: '2017-12', event: 'Flynn pled guilty in December 2017 to making false statements to the FBI.', type: 'legal' },
+     { date: '2020', event: 'Trump pardoned Flynn in November 2020, eliminating any remaining legal jeopardy.', type: 'default' },
+     { date: '2020-11', event: 'Trump pardoned Flynn in November 2020, eliminating any remaining legal jeopardy.', type: 'default' },
+     { date: '2025-05-27', event: 'Michael Flynn Russia Scandal — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'federal-election-interference': {
@@ -268,6 +290,11 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-03-30',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'After losing the 2020 election, Trump pressured the Department of Justice to declare the election corrupt and help overturn results.', type: 'political' },
+     { date: '2020-01-01', event: 'Federal Election Interference investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2024-03-30', event: 'Federal Election Interference — investigation remains active with ongoing developments', type: 'political' },
+   ],
  },
   'fox-disinformation': {
  title: 'Fox News Disinformation Machine',
@@ -351,9 +378,13 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-07-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2024', event: 'CASE DISMISSAL: Smith sought to dismiss the case after Trump won the 2024 election, citing DOJ policy against prosecuting sitting presidents', type: 'political' },
-     { date: '2024-07-01', event: 'SUPREME COURT IMMUNITY RULING: On July 1, 2024, the Supreme Court ruled in Trump v', type: 'legal' },
+      timeline: [
+     { date: '2020', event: 'On August 1, 2023, Special Counsel Jack Smith indicted Donald Trump on four federal counts related to his attempt to overturn the 2020 election: conspiracy to defraud the United States, conspiracy to obstruct an...', type: 'legal' },
+     { date: '2020-01-01', event: 'Trump Federal Election Conspiracy Charges investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2023', event: 'On August 1, 2023, Special Counsel Jack Smith indicted Donald Trump on four federal counts related to his attempt to overturn the 2020 election: conspiracy to defraud the United States, conspiracy to obstruct an...', type: 'legal' },
+     { date: '2023-08-01', event: 'On August 1, 2023, Special Counsel Jack Smith indicted Donald Trump on four federal counts related to his attempt to overturn the 2020 election: conspiracy to defraud the United States, conspiracy to obstruct an...', type: 'legal' },
+     { date: '2024', event: 'On July 1, 2024, the Supreme Court ruled in Trump v.', type: 'legal' },
+     { date: '2024-07-01', event: 'On July 1, 2024, the Supreme Court ruled in Trump v.', type: 'legal' },
    ],
  },
   'fbi-surveillance': {
@@ -384,9 +415,12 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '1956-01-01',
    lastActivityDate: '2025-04-16',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1956', event: 'COINTELPRO: From 1956-1971, the FBI illegally surveilled, infiltrated, and disrupted civil rights and anti-war movements', type: 'default' },
-     { date: '1975', event: 'CHURCH COMMITTEE: The 1975 investigation exposed FBI abuses but reforms were temporary', type: 'default' },
+      timeline: [
+     { date: '1956', event: 'From 1956-1971, the FBI illegally surveilled, infiltrated, and disrupted civil rights and anti-war movements.', type: 'default' },
+     { date: '1956-01-01', event: 'FBI Domestic Surveillance investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1971', event: 'From 1956-1971, the FBI illegally surveilled, infiltrated, and disrupted civil rights and anti-war movements.', type: 'default' },
+     { date: '1975', event: 'The 1975 investigation exposed FBI abuses but reforms were temporary.', type: 'default' },
+     { date: '2025-04-16', event: 'FBI Domestic Surveillance — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'fbi-civil-rights': {
@@ -418,6 +452,11 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '1975-01-01',
    lastActivityDate: '2025-08-10',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1975', event: 'The 1975 investigation found systematic abuses targeting civil rights, anti-war, and other movements.', type: 'default' },
+     { date: '1975-01-01', event: 'FBI vs. Civil Rights Movement investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-08-10', event: 'FBI vs. Civil Rights Movement — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'far-right-extremism': {
  title: 'Far-Right Extremism',
@@ -446,10 +485,12 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2024-11-27',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2017', event: 'CHARLOTTESVILLE: In 2017, white supremacists marched with torches chanting "Jews will not replace us."One murdered Heather Heyer', type: 'critical' },
-     { date: '2019', event: 'EL PASO: In 2019, a shooter targeting Hispanics murdered 23 at a Walmart', type: 'critical' },
-     { date: '2022', event: 'BUFFALO: In 2022, a shooter targeting Black people murdered 10 at a grocery store', type: 'critical' },
+      timeline: [
+     { date: '2017', event: 'In 2017, white supremacists marched with torches chanting ;Jews will not replace us.;One murdered Heather Heyer.', type: 'default' },
+     { date: '2017-01-01', event: 'Far-Right Extremism investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019', event: 'Trump said there were; very fine people on both sides.; EL PASO: In 2019, a shooter targeting Hispanics murdered 23 at a Walmart.', type: 'financial' },
+     { date: '2022', event: 'His manifesto echoed Trump\'s language about ;invasion.; BUFFALO: In 2022, a shooter targeting Black people murdered 10 at a grocery store.', type: 'default' },
+     { date: '2024-11-27', event: 'Far-Right Extremism — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'faa-regulatory-capture': {
@@ -488,6 +529,10 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2019-05-07',
    lastActivityDate: '2025-02-04',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019-05-07', event: 'FAA: Captured by Boeing investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-02-04', event: 'FAA: Captured by Boeing — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'ftx-collapse': {
  title: 'FTX Cryptocurrency Collapse',
@@ -553,6 +598,10 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2021-09-14',
    lastActivityDate: '2024-01-19',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021-09-14', event: 'Facebook Mental Health Crisis investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2024-01-19', event: 'Facebook Mental Health Crisis — investigation remains active with ongoing developments', type: 'critical' },
+   ],
  },
   'family-separation-policy': {
  title: 'Family Separation Policy: Zero Tolerance at the Border',
@@ -629,6 +678,11 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2024-08-24',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022', event: 'The Southern Poverty Law Center tracked over 1,225 hate groups operating in the United States in 2022, a number that understates the threat because much organizing has moved online.', type: 'default' },
+     { date: '2022-01-01', event: 'The Far-Right Movement in America: From Fringe to Mainstream investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-08-24', event: 'The Far-Right Movement in America: From Fringe to Mainstream — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'far-right-media': {
  title: 'Far-Right Media Ecosystem: The Radicalization Machine',
@@ -662,9 +716,11 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'A 2020 study by the Institute for Strategic Dialogue found that far-right content creators on YouTube earned an estimated $3.5 million annually from advertising on videos promoting extremist ideolo...', type: 'financial' },
-     { date: '2023', event: 'Tucker Carlson\'s show broadcast "Great Replacement" theory, a white supremacist framework, over 400 times before his firing in 2023', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'A 2020 study by the Institute for Strategic Dialogue found that far-right content creators on YouTube earned an estimated $3.5 million annually from advertising on videos promoting extremist ideologies.', type: 'financial' },
+     { date: '2020-01-01', event: 'Far-Right Media Ecosystem: The Radicalization Machine investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'Tucker Carlson\'s show broadcast ;Great Replacement; theory, a white supremacist framework, over 400 times before his firing in 2023.', type: 'default' },
+     { date: '2023-01-01', event: 'Far-Right Media Ecosystem: The Radicalization Machine — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'fast-food-labor': {
@@ -769,10 +825,12 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2015-03-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2013', event: 'The DOJ found that in 2013 alone, Ferguson issued over 32,000 arrest warrants for a city with a population of 21,000', type: 'legal' },
-     { date: '2014-08-01', event: 'Following the August 2014 killing of Michael Brown by Officer Darren Wilson, the Department of Justice launched a pattern-or-practice investigation into the Ferguson Police Department', type: 'default' },
-     { date: '2015-03-01', event: 'The resulting 105-page report, released in March 2015, documented one of the most comprehensive cases of institutionalized racism in modern American law enforcement', type: 'political' },
+      timeline: [
+     { date: '2013', event: 'The DOJ found that in 2013 alone, Ferguson issued over 32,000 arrest warrants for a city with a population of 21,000.', type: 'default' },
+     { date: '2013-01-01', event: 'Ferguson DOJ Investigation: Systemic Racism as Municipal Policy investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2014-08', event: 'Following the August 2014 killing of Michael Brown by Officer Darren Wilson, the Department of Justice launched a pattern-or-practice investigation into the Ferguson Police Department.', type: 'default' },
+     { date: '2015-03', event: 'The resulting 105-page report, released in March 2015, documented one of the most comprehensive cases of institutionalized racism in modern American law enforcement.', type: 'default' },
+     { date: '2015-03-01', event: 'Ferguson DOJ Investigation: Systemic Racism as Municipal Policy — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'financial-crisis-profiteering': {
@@ -806,9 +864,11 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2024-10-29',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2007', event: 'John Paulson\'s hedge fund made $15 billion in 2007-2008 by betting against the housing market', type: 'political' },
-     { date: '2008', event: 'Banks used bailout funds for executive bonuses: in 2008, the year of the crash, Wall Street firms paid $18.4 billion in bonuses', type: 'critical' },
+      timeline: [
+     { date: '2007', event: 'John Paulson\'s hedge fund made $15 billion in 2007-2008 by betting against the housing market.', type: 'financial' },
+     { date: '2007-01-01', event: 'Financial Crisis Profiteering: How Wall Street Made Billions From the Crash It Created investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2008', event: 'Wall Street banks and hedge funds profited from the 2008 financial crisis at every stage: by creating toxic mortgage products, betting against them, receiving bailouts, then buying foreclosed properties at fire-sale...', type: 'financial' },
+     { date: '2024-10-29', event: 'Financial Crisis Profiteering: How Wall Street Made Billions From the Crash It Created — investigation remains active with ongoing developments', type: 'critical' },
    ],
  },
   'flint-water': {
@@ -928,10 +988,12 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-08-29',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'Russian interference in the 2016 election was documented in exhaustive detail by the Mueller investigation, the Senate Intelligence Committee, and the intelligence community', type: 'political' },
-     { date: '2018', event: 'The DOJ\'s "China Initiative," launched in 2018, investigated hundreds of cases of alleged Chinese espionage at universities and research institutions; though the program was criticized for racial p...', type: 'default' },
-     { date: '2024', event: 'AIPAC\'s affiliated super PAC spent over $100 million in the 2024 election cycle, targeting incumbent members of Congress who criticized Israeli policies', type: 'political' },
+      timeline: [
+     { date: '2016', event: 'Russian interference in the 2016 election was documented in exhaustive detail by the Mueller investigation, the Senate Intelligence Committee, and the intelligence community.', type: 'political' },
+     { date: '2016-01-01', event: 'Foreign Interference in U.S. Democracy investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018', event: 'The DOJ\'s ;China Initiative,; launched in 2018, investigated hundreds of cases of alleged Chinese espionage at universities and research institutions; though the program was criticized for racial profiling.', type: 'default' },
+     { date: '2024', event: 'AIPAC\'s affiliated super PAC spent over $100 million in the 2024 election cycle, targeting incumbent members of Congress who criticized Israeli policies.', type: 'political' },
+     { date: '2025-08-29', event: 'Foreign Interference in U.S. Democracy — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'fossil-fuel-crimes': {
@@ -1006,9 +1068,12 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2024-04-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2000', event: 'Between 2000 and 2024, oil, gas, and coal companies spent over $4.6 billion on federal lobbying, according to OpenSecrets', type: 'political' },
-     { date: '2020', event: 'The fossil fuel industry donated over $100 million to federal candidates in the 2020 election cycle', type: 'political' },
+      timeline: [
+     { date: '2000', event: 'Between 2000 and 2024, oil, gas, and coal companies spent over $4.6 billion on federal lobbying, according to OpenSecrets.', type: 'financial' },
+     { date: '2000-01-01', event: 'Fossil Fuel Lobbying: Buying the Right to Destroy the Planet investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2020', event: 'The fossil fuel industry donated over $100 million to federal candidates in the 2020 election cycle.', type: 'political' },
+     { date: '2024', event: 'Between 2000 and 2024, oil, gas, and coal companies spent over $4.6 billion on federal lobbying, according to OpenSecrets.', type: 'financial' },
+     { date: '2024-04-01', event: 'Fossil Fuel Lobbying: Buying the Right to Destroy the Planet — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'fox-misinformation': {
@@ -1118,10 +1183,12 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-01-24',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2017-04-01', event: 'When attendees arrived on Great Exuma in April 2017, they found no festival', type: 'default' },
-     { date: '2018', event: 'McFarland was sentenced to six years in federal prison in 2018 and ordered to forfeit $26 million', type: 'legal' },
-     { date: '2022', event: 'He was released in 2022 and immediately announced plans for "Fyre Festival II," selling tickets starting at $499', type: 'default' },
+      timeline: [
+     { date: '2017-01-01', event: 'Fyre Festival: The $26 Million Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2017-04', event: 'When attendees arrived on Great Exuma in April 2017, they found no festival.', type: 'default' },
+     { date: '2018', event: 'McFarland was sentenced to six years in federal prison in 2018 and ordered to forfeit $26 million.', type: 'legal' },
+     { date: '2022', event: 'He was released in 2022 and immediately announced plans for ;Fyre Festival II,; selling tickets starting at $499.', type: 'default' },
+     { date: '2025-01-24', event: 'Fyre Festival: The $26 Million Fraud — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'foreign-election-interference-operations': {
@@ -1963,6 +2030,10 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: "NYT O'Reilly Settlement Investigation", url: "https://www.nytimes.com/2017/10/21/business/media/bill-oreilly-sexual-harassment.html", type: "Investigation" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2016', event: 'He resigned in 2016 with a $40 million severance.', type: 'financial' },
+     { date: '2017', event: 'BILL O\'REILLY: Fox paid $45 million to settle harassment claims against O\'Reilly, who was fired in 2017 after the payments became public.', type: 'political' },
+   ],
   },
   'facebook-antitrust': {
     title: 'Facebook Antitrust Violations',
@@ -1989,9 +2060,11 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2024-11-19',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012', event: 'INSTAGRAM ACQUISITION: Facebook acquired Instagram in 2012 for $1B, despite internal documents showing Instagram was a direct competitor', type: 'default' },
-     { date: '2014', event: 'WHATSAPP ACQUISITION: 2014 acquisition for $19B included agreements to keep WhatsApp independent, but Facebook later integrated it, violating antitrust laws', type: 'political' },
+      timeline: [
+     { date: '2012', event: 'Facebook acquired Instagram in 2012 for $1B, despite internal documents showing Instagram was a direct competitor.', type: 'default' },
+     { date: '2012-01-01', event: 'Facebook Antitrust Violations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2014', event: '2014 acquisition for $19B included agreements to keep WhatsApp independent, but Facebook later integrated it, violating antitrust laws.', type: 'default' },
+     { date: '2024-11-19', event: 'Facebook Antitrust Violations — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'fannie-mae-fraud': {
@@ -2017,6 +2090,10 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2004-12-06',
    lastActivityDate: '2006-05-23',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2004-12-06', event: 'Fannie Mae Accounting Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2006-05-23', event: 'Fannie Mae Accounting Fraud — investigation remains active with ongoing developments', type: 'financial' },
+   ],
   },
   'fbi-cointelpro-full-accounting': {
     title: 'FBI COINTELPRO: A Full Accounting of Domestic Political Warfare',
@@ -2446,10 +2523,14 @@ const investigations_f: Record<string, InvestigationData> = {
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2025-02-08',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2011', event: 'Since 2011, more than two dozen states have introduced ag-gag legislation designed to criminalize undercover investigations of agricultural facilities', type: 'political' },
-     { date: '2012', event: 'International comparisons reveal that the European Union banned battery cages in 2012 and gestation crates in 2013, standards the U.S', type: 'default' },
-     { date: '2015', event: 'Reform efforts face an industry that spent $175 million on federal lobbying between 2015 and 2024 and maintains close relationships with USDA leadership through a revolving door of personnel', type: 'financial' },
+      timeline: [
+     { date: '2011', event: 'Since 2011, more than two dozen states have introduced ag-gag legislation designed to criminalize undercover investigations of agricultural facilities.', type: 'political' },
+     { date: '2011-01-01', event: 'Factory Farming Animal Cruelty investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2012', event: 'International comparisons reveal that the European Union banned battery cages in 2012 and gestation crates in 2013, standards the U.S.', type: 'default' },
+     { date: '2013', event: 'International comparisons reveal that the European Union banned battery cages in 2012 and gestation crates in 2013, standards the U.S.', type: 'default' },
+     { date: '2015', event: 'Reform efforts face an industry that spent $175 million on federal lobbying between 2015 and 2024 and maintains close relationships with USDA leadership through a revolving door of personnel.', type: 'financial' },
+     { date: '2024', event: 'Reform efforts face an industry that spent $175 million on federal lobbying between 2015 and 2024 and maintains close relationships with USDA leadership through a revolving door of personnel.', type: 'financial' },
+     { date: '2025-02-08', event: 'Factory Farming Animal Cruelty — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'forced-sterilization-eugenics-programs': {

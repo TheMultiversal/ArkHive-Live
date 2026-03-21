@@ -36,6 +36,10 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '2015-06-27',
    lastActivityDate: '2023-12-17',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2015-06-27', event: 'Global Health Policy Capture investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-12-17', event: 'Global Health Policy Capture — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'helsinki-summit': {
  title: 'Helsinki Summit, Trump Sides with Putin',
@@ -69,6 +73,10 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-06-26',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016-01-01', event: 'Helsinki Summit, Trump Sides with Putin investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-06-26', event: 'Helsinki Summit, Trump Sides with Putin — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'hedge-fund-predation': {
  title: 'Hedge Fund Predatory Practices',
@@ -223,10 +231,12 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2024-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2014', event: 'The Senate investigated the scheme in 2014 but no enforcement action resulted', type: 'political' },
-     { date: '2021-03-01', event: 'Archegos Capital Management\'s collapse in March 2021 demonstrated the systemic risk hedge funds pose', type: 'critical' },
-     { date: '2024', event: 'Hwang was convicted of racketeering, securities fraud, and wire fraud in 2024', type: 'legal' },
+      timeline: [
+     { date: '2014', event: 'The Senate investigated the scheme in 2014 but no enforcement action resulted.', type: 'political' },
+     { date: '2014-01-01', event: 'Hedge Fund Corruption: The $4 Trillion Shadow Banking System investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2021-03', event: 'Archegos Capital Management\'s collapse in March 2021 demonstrated the systemic risk hedge funds pose.', type: 'financial' },
+     { date: '2024', event: 'Hwang was convicted of racketeering, securities fraud, and wire fraud in 2024.', type: 'legal' },
+     { date: '2024-01-01', event: 'Hedge Fund Corruption: The $4 Trillion Shadow Banking System — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'hedge-fund-manipulation': {
@@ -358,10 +368,12 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-01-02',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: 'After the 2008 financial crisis, Blackstone Group spent $10 billion purchasing over 80,000 foreclosed single-family homes through its Invitation Homes subsidiary, creating the largest single-family...', type: 'political' },
-     { date: '2022', event: 'A 2022 investigation by the Atlanta Journal-Constitution found that corporate landlords filed evictions at rates 2-3 times higher than individual landlords', type: 'default' },
-     { date: '2023', event: 'By 2023, Airbnb listed over 1.1 million properties in the United States', type: 'financial' },
+      timeline: [
+     { date: '2008', event: 'After the 2008 financial crisis, Blackstone Group spent $10 billion purchasing over 80,000 foreclosed single-family homes through its Invitation Homes subsidiary, creating the largest single-family landlord in the...', type: 'financial' },
+     { date: '2008-01-01', event: 'Housing Financialization: When Wall Street Became Your Landlord investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022', event: 'A 2022 investigation by the Atlanta Journal-Constitution found that corporate landlords filed evictions at rates 2-3 times higher than individual landlords.', type: 'default' },
+     { date: '2023', event: 'By 2023, Airbnb listed over 1.1 million properties in the United States.', type: 'financial' },
+     { date: '2023-01-02', event: 'Housing Financialization: When Wall Street Became Your Landlord — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'human-trafficking': {
@@ -400,6 +412,11 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2014-06-04',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'His 2008 plea deal, negotiated by Alexander Acosta, was condemned as a sweetheart deal that betrayed victims.', type: 'default' },
+     { date: '2008-01-01', event: 'Human Trafficking Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2014-06-04', event: 'Human Trafficking Networks — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'hedge-fund-market-manipulation': {
     title: 'Hedge Fund Market Manipulation',
@@ -665,6 +682,12 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: "FTC PBM Interim Report", url: "https://www.ftc.gov/reports/pharmacy-benefit-managers-report", type: "Government Report" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2022', event: 'HCA Healthcare; the largest for-profit hospital chain; reported $5.2 billion in net income in 2022 while cutting nurse staffing ratios.', type: 'financial' },
+     { date: '2023', event: 'CEO Andrew Witty earned $22 million in 2023 while the company denied millions of claims.', type: 'financial' },
+     { date: '2024', event: 'Former CEO David Wittman was assassinated in December 2024 in an event that sparked unprecedented public discussion about insurance industry practices.;, ;MEDICAL BANKRUPTCY: Two-thirds of all American bankruptcies...', type: 'critical' },
+     { date: '2024-12', event: 'Former CEO David Wittman was assassinated in December 2024 in an event that sparked unprecedented public discussion about insurance industry practices.;, ;MEDICAL BANKRUPTCY: Two-thirds of all American bankruptcies...', type: 'critical' },
+   ],
   },
   'heroin-trafficking': {
     title: 'CIA Heroin Trafficking in Southeast Asia',
@@ -930,9 +953,11 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-02-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2000', event: 'For-profit hospices now account for 75% of all hospice providers, up from 30% in 2000', type: 'financial' },
-     { date: '2022', event: 'The Senate Finance Committee\'s 2022 investigation found systemic patterns of fraud', type: 'political' },
+      timeline: [
+     { date: '1980-01-01', event: 'Hospice Fraud and End-of-Life Exploitation investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2000', event: 'For-profit hospices grew from 30% of all hospices in 2000 to over 75% today.', type: 'financial' },
+     { date: '2022', event: 'A landmark 2022 Senate Finance Committee investigation found that many for-profit hospices enroll patients who are not terminally ill, provide little to no actual care, bill Medicare for services never delivered, and...', type: 'political' },
+     { date: '2025-02-15', event: 'Hospice Fraud and End-of-Life Exploitation — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'homelessness-criminalization': {

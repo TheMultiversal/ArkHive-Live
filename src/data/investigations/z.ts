@@ -28,9 +28,11 @@ const investigations_z: Record<string, InvestigationData> = {
    eventOriginDate: '1960-01-01',
    lastActivityDate: '2025-12-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1965', event: 'Mobutu Sese Seko seized power in a CIA-backed coup in 1965 and ruled Zaire until 1997', type: 'default' },
-     { date: '1997', event: 'Mobutu\'s fall came in 1997 when Laurent-Desire Kabila\'s rebel forces, backed by Rwanda and Uganda, marched across the country', type: 'default' },
+      timeline: [
+     { date: '1960-01-01', event: 'Mobutus Zaire: The Billion-Dollar Kleptocracy investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '1965', event: 'Mobutu Sese Seko seized power in a CIA-backed coup in 1965 and ruled Zaire until 1997.', type: 'default' },
+     { date: '1997', event: 'Mobutu Sese Seko seized power in a CIA-backed coup in 1965 and ruled Zaire until 1997.', type: 'default' },
+     { date: '2025-12-15', event: 'Mobutus Zaire: The Billion-Dollar Kleptocracy — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'zero-dark-thirty-torture-debate': {
@@ -58,6 +60,11 @@ const investigations_z: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-08-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2012-01-01', event: 'Zero Dark Thirty and the Torture Debate investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2014', event: 'The Senate Intelligence Committee\'s 6,700-page study on the CIA Detention and Interrogation Program, partially declassified in 2014, found that the CIA\'s use of enhanced interrogation techniques was not effective in...', type: 'political' },
+     { date: '2025-08-20', event: 'Zero Dark Thirty and the Torture Debate — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'zuckerberg-meta-surveillance': {
     title: 'Zuckerberg and Meta\'s Surveillance Empire',
@@ -87,9 +94,11 @@ const investigations_z: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2026-02-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'The data was used to build psychological profiles for targeted political advertising during the 2016 US presidential election and the Brexit referendum', type: 'political' },
-     { date: '2021', event: 'Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Facebook\'s own research showed Instagram was harmful to teenage mental health, particularly among teenage girls, but ...', type: 'default' },
+      timeline: [
+     { date: '2016', event: 'From the Cambridge Analytica scandal that influenced the 2016 election, to internal documents showing the company knew its platforms caused harm to teenagers, to enabling genocide in Myanmar, Meta\'s pursuit of...', type: 'political' },
+     { date: '2016-01-01', event: 'Zuckerberg and Metas Surveillance Empire investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021', event: 'Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Facebook\'s own research showed Instagram was harmful to teenage mental health, particularly among teenage girls, but the company...', type: 'default' },
+     { date: '2026-02-01', event: 'Zuckerberg and Metas Surveillance Empire — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
 };

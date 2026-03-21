@@ -41,6 +41,10 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2020-01-01',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'THE BIG LIE: The sustained false claim that the 2020 election was stolen represents the most successful psychological manipulation campaign in modern American history.', type: 'political' },
+     { date: '2020-01-01', event: 'Psychological Manipulation Campaigns investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'pharma-conflicts': {
  title: 'Pharmaceutical Investment Conflicts',
@@ -80,6 +84,10 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2018-02-13',
    lastActivityDate: '2025-05-23',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018-02-13', event: 'Pharmaceutical Investment Conflicts investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-05-23', event: 'Pharmaceutical Investment Conflicts — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'political-funding': {
  title: 'Dark Money & Political Funding Networks',
@@ -164,6 +172,10 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2020-04-07',
    lastActivityDate: '2025-03-17',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-04-07', event: 'COVID-19 Conspiracy Theories investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-03-17', event: 'COVID-19 Conspiracy Theories — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'presidential-misconduct': {
  title: 'Pattern of Presidential Misconduct',
@@ -208,6 +220,11 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-04-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'Trump\'s attempt to overturn the 2020 election represented the culmination of his authoritarian approach, pressuring officials, organizing fake electors, inciting violence, all to stay in power against voter will.', type: 'political' },
+     { date: '2020-01-01', event: 'Pattern of Presidential Misconduct investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2025-04-20', event: 'Pattern of Presidential Misconduct — investigation remains active with ongoing developments', type: 'political' },
+   ],
  },
   'pentagon-response': {
  title: 'Pentagon January 6 Failures',
@@ -249,6 +266,12 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-10-12',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'CONTRAST WITH 2020: During June 2020 BLM protests, military helicopters flew low over crowds, Guard troops were deployed rapidly, and the Chairman of the Joint Chiefs walked with Trump through cleared streets.', type: 'default' },
+     { date: '2020-01-01', event: 'Pentagon January 6 Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-06', event: 'CONTRAST WITH 2020: During June 2020 BLM protests, military helicopters flew low over crowds, Guard troops were deployed rapidly, and the Chairman of the Joint Chiefs walked with Trump through cleared streets.', type: 'default' },
+     { date: '2025-10-12', event: 'Pentagon January 6 Failures — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'proud-boys-terrorism': {
  title: 'Proud Boys Domestic Terrorism',
@@ -388,9 +411,11 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-06-08',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2002', event: 'MILLY DOWLER: The scandal exploded when it emerged that News of the World hacked the phone of murdered schoolgirl Milly Dowler in 2002, deleting messages and giving her parents false hope she was a...', type: 'critical' },
-     { date: '2011-07-01', event: 'NEWS OF THE WORLD CLOSURE: In July 2011, Murdoch closed News of the World after 168 years, ostensibly taking responsibility, actually eliminating evidence and sacrificing one paper to protect the e...', type: 'default' },
+      timeline: [
+     { date: '2002', event: 'The scandal exploded when it emerged that News of the World hacked the phone of murdered schoolgirl Milly Dowler in 2002, deleting messages and giving her parents false hope she was alive.', type: 'default' },
+     { date: '2002-01-01', event: 'News Corp Phone Hacking Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2011-07', event: 'In July 2011, Murdoch closed News of the World after 168 years, ostensibly taking responsibility, actually eliminating evidence and sacrificing one paper to protect the empire.', type: 'default' },
+     { date: '2025-06-08', event: 'News Corp Phone Hacking Scandal — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'phone-hacking-scandal': {
@@ -428,6 +453,12 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2012-08-13',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2011', event: 'On July 7, 2011, Murdoch announced the paper would close after 168 years.', type: 'default' },
+     { date: '2011-01-01', event: 'News International Phone Hacking investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2011-07-07', event: 'On July 7, 2011, Murdoch announced the paper would close after 168 years.', type: 'default' },
+     { date: '2012-08-13', event: 'News International Phone Hacking — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'private-prisons': {
  title: 'Private Prison Industry',
@@ -458,6 +489,10 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2013-03-28',
    lastActivityDate: '2025-11-11',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2013-03-28', event: 'Private Prison Industry investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-11-11', event: 'Private Prison Industry — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'presidential-immunity': {
  title: 'Presidential Immunity Decision',
@@ -485,6 +520,9 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2024-01-01',
    lastActivityDate: '2024-07-31',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2024-01-01', event: 'Presidential Immunity Decision investigation begins — events under scrutiny originate from this period', type: 'political' },
+   ],
  },
   'purdue-pharma-opioids': {
  title: 'Purdue Pharma Opioid Crisis',
@@ -634,6 +672,10 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2015-10-05',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1990-01-01', event: 'Penny Stock Fraud and Pump-and-Dump Schemes investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2015-10-05', event: 'Penny Stock Fraud and Pump-and-Dump Schemes — investigation remains active with ongoing developments', type: 'financial' },
+   ],
  },
   'petters-ponzi': {
  title: 'Tom Petters $3.7 Billion Ponzi Scheme',
@@ -665,10 +707,14 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-07-24',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2002', event: 'SCALE AND VICTIMS: The scheme raised $3.7 billion from investors between 2002 and 2008', type: 'political' },
-     { date: '2008-09-01', event: 'COLLAPSE AND ARREST: The scheme unraveled in September 2008 when co-conspirator Deanna Coleman began cooperating with the FBI', type: 'critical' },
-     { date: '2009-12-01', event: 'CONVICTION AND SENTENCE: In December 2009, Petters was convicted on all 20 counts and sentenced to 50 years in federal prison; one of the longest sentences ever imposed for a financial crime', type: 'legal' },
+      timeline: [
+     { date: '2002', event: 'Tom Petters operated a $3.7 billion Ponzi scheme from 2002 to 2008 by convincing investors they were financing the purchase of consumer electronics that would be resold to big-box retailers like Costco, Sam\'s Club,...', type: 'financial' },
+     { date: '2002-01-01', event: 'Tom Petters $3.7 Billion Ponzi Scheme investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2008', event: 'Tom Petters operated a $3.7 billion Ponzi scheme from 2002 to 2008 by convincing investors they were financing the purchase of consumer electronics that would be resold to big-box retailers like Costco, Sam\'s Club,...', type: 'financial' },
+     { date: '2008-09', event: 'The scheme unraveled in September 2008 when co-conspirator Deanna Coleman began cooperating with the FBI.', type: 'default' },
+     { date: '2009', event: 'In December 2009, Petters was convicted on all 20 counts and sentenced to 50 years in federal prison; one of the longest sentences ever imposed for a financial crime.', type: 'legal' },
+     { date: '2009-12', event: 'In December 2009, Petters was convicted on all 20 counts and sentenced to 50 years in federal prison; one of the longest sentences ever imposed for a financial crime.', type: 'legal' },
+     { date: '2025-07-24', event: 'Tom Petters $3.7 Billion Ponzi Scheme — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'pfas-contamination': {
@@ -1075,9 +1121,12 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1983-01-01',
    lastActivityDate: '2024-11-19',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1983', event: 'This judge-made doctrine, which has no basis in the text of Section 1983, has been the primary barrier to civil accountability for police abuse', type: 'legal' },
-     { date: '2013', event: 'Between 2013 and 2023, 98.1% of killings by police did not result in officers being charged with a crime', type: 'default' },
+      timeline: [
+     { date: '1983', event: 'This judge-made doctrine, which has no basis in the text of Section 1983, has been the primary barrier to civil accountability for police abuse.', type: 'legal' },
+     { date: '1983-01-01', event: 'Police Accountability Crisis investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2013', event: 'Between 2013 and 2023, 98.1% of killings by police did not result in officers being charged with a crime.', type: 'default' },
+     { date: '2023', event: 'Between 2013 and 2023, 98.1% of killings by police did not result in officers being charged with a crime.', type: 'default' },
+     { date: '2024-11-19', event: 'Police Accountability Crisis — investigation remains active with ongoing developments', type: 'critical' },
    ],
  },
   'political-corruption': {
@@ -1273,10 +1322,13 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-07-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012', event: 'Despite the 2012 STOCK Act; studies show that congressional stock trades outperform the market', type: 'political' },
-     { date: '2017', event: 'The 2017 Tax Cuts and Jobs Act; championed by deficit hawks; added $1.9 trillion to the national debt', type: 'default' },
-     { date: '2020', event: 'Senators who received classified COVID-19 briefings in January 2020 sold stocks before the market crash while publicly downplaying the virus', type: 'critical' },
+      timeline: [
+     { date: '2012', event: 'Despite the 2012 STOCK Act; studies show that congressional stock trades outperform the market.', type: 'default' },
+     { date: '2012-01-01', event: 'Political Hypocrisy Exposed investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017', event: 'The 2017 Tax Cuts and Jobs Act; championed by deficit hawks; added $1.9 trillion to the national debt.', type: 'default' },
+     { date: '2020', event: 'Senators who received classified COVID-19 briefings in January 2020 sold stocks before the market crash while publicly downplaying the virus.', type: 'default' },
+     { date: '2020-01', event: 'Senators who received classified COVID-19 briefings in January 2020 sold stocks before the market crash while publicly downplaying the virus.', type: 'default' },
+     { date: '2025-07-15', event: 'Political Hypocrisy Exposed — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'political-opportunism': {
@@ -1554,10 +1606,13 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1972-01-01',
    lastActivityDate: '2025-07-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1972', event: 'prison population exploded from 300,000 in 1972 to over 2 million by 2024', type: 'financial' },
-     { date: '2000', event: 'ICE detention has expanded dramatically since 2000', type: 'default' },
-     { date: '2019', event: 'Private companies earned over $3 billion from immigration detention in 2019', type: 'political' },
+      timeline: [
+     { date: '1972', event: 'prison population exploded from 300,000 in 1972 to over 2 million by 2024.', type: 'financial' },
+     { date: '1972-01-01', event: 'The Prison Industrial Complex investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2000', event: 'ICE detention has expanded dramatically since 2000.', type: 'default' },
+     { date: '2019', event: 'Private companies earned over $3 billion from immigration detention in 2019.', type: 'financial' },
+     { date: '2024', event: 'prison population exploded from 300,000 in 1972 to over 2 million by 2024.', type: 'financial' },
+     { date: '2025-07-15', event: 'The Prison Industrial Complex — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'private-equity-abuses': {
@@ -1592,9 +1647,12 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-07-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: 'HOUSING ACQUISITIONS: After the 2008 financial crisis; PE firms including Blackstone\'s Invitation Homes bought over 100,000 single-family homes at foreclosure prices; then rented them back to displ...', type: 'default' },
-     { date: '2010', event: 'Between 2010 and 2023; PE-owned companies were responsible for 60% of large retail bankruptcies', type: 'financial' },
+      timeline: [
+     { date: '2008', event: 'After the 2008 financial crisis; PE firms including Blackstone\'s Invitation Homes bought over 100,000 single-family homes at foreclosure prices; then rented them back to displaced families at premium rates.', type: 'critical' },
+     { date: '2008-01-01', event: 'Private Equity Industry Abuses investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2010', event: 'Between 2010 and 2023; PE-owned companies were responsible for 60% of large retail bankruptcies.', type: 'default' },
+     { date: '2023', event: 'Between 2010 and 2023; PE-owned companies were responsible for 60% of large retail bankruptcies.', type: 'default' },
+     { date: '2025-07-15', event: 'Private Equity Industry Abuses — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'private-equity-housing': {
@@ -1782,6 +1840,11 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-07-18',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1970-01-01', event: 'Manufactured Public Health Threats: Profits Over Prevention investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'The EPA did not propose drinking water limits until 2023; over 50 years after the dangers were known.', type: 'default' },
+     { date: '2025-07-18', event: 'Manufactured Public Health Threats: Profits Over Prevention — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'pulse-shooting': {
  title: 'Pulse Nightclub Shooting: 49 Lives Lost to Hate',
@@ -1895,9 +1958,11 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2024-03-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020-03-01', event: 'THE SCALE OF THEFT: The Paycheck Protection Program, created by the CARES Act in March 2020, distributed $793 billion in forgivable loans designed to keep workers employed during COVID-19 shutdowns', type: 'political' },
-     { date: '2024', event: 'PROSECUTION CHALLENGES: The DOJ has charged over 3,000 defendants in PPP fraud cases as of 2024; but this represents a tiny fraction of the estimated fraud', type: 'financial' },
+      timeline: [
+     { date: '1980-01-01', event: 'PPP Loan Fraud Epidemic investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2020-03', event: 'The Paycheck Protection Program, created by the CARES Act in March 2020, distributed $793 billion in forgivable loans designed to keep workers employed during COVID-19 shutdowns.', type: 'financial' },
+     { date: '2024', event: 'The DOJ has charged over 3,000 defendants in PPP fraud cases as of 2024; but this represents a tiny fraction of the estimated fraud.', type: 'financial' },
+     { date: '2024-03-01', event: 'PPP Loan Fraud Epidemic — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'predatory-lending-systematic-exploitation': {
@@ -1929,9 +1994,12 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2004-01-01',
    lastActivityDate: '2024-12-30',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2004', event: 'THE SUBPRIME MORTGAGE CATASTROPHE: Between 2004 and 2007, lenders including Countrywide Financial, Washington Mutual, and Ameriquest originated trillions in subprime mortgages with adjustable rates...', type: 'default' },
-     { date: '2008', event: 'REGULATORY FAILURE AND CAPTURE: The Consumer Financial Protection Bureau, created after the 2008 crisis to address predatory lending, has been under sustained political attack since its inception', type: 'critical' },
+      timeline: [
+     { date: '2004', event: 'Between 2004 and 2007, lenders including Countrywide Financial, Washington Mutual, and Ameriquest originated trillions in subprime mortgages with adjustable rates, balloon payments, and prepayment penalties designed...', type: 'default' },
+     { date: '2004-01-01', event: 'Predatory Lending Systematic Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2007', event: 'Between 2004 and 2007, lenders including Countrywide Financial, Washington Mutual, and Ameriquest originated trillions in subprime mortgages with adjustable rates, balloon payments, and prepayment penalties designed...', type: 'default' },
+     { date: '2008', event: 'The 2008 financial crisis was directly caused by predatory mortgage lending that stripped $1 trillion in wealth from Black and Latino homeowners.', type: 'critical' },
+     { date: '2024-12-30', event: 'Predatory Lending Systematic Exploitation — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'penny-stock-pump-and-dump-networks': {
@@ -1962,10 +2030,13 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-04-27',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'SOCIAL MEDIA EVOLUTION: The 2020-2021 retail trading boom transformed penny stock fraud', type: 'financial' },
-     { date: '2021', event: 'The 2021 GameStop phenomenon highlighted how the line between legitimate retail enthusiasm and coordinated manipulation has become increasingly blurred in the social media era', type: 'default' },
-     { date: '2022', event: 'The SEC charged multiple social media influencers in 2022-2023 for promoting stocks while secretly planning to sell', type: 'default' },
+      timeline: [
+     { date: '1990-01-01', event: 'Penny Stock Pump and Dump Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'The 2020-2021 retail trading boom transformed penny stock fraud.', type: 'financial' },
+     { date: '2021', event: 'The 2021 GameStop phenomenon highlighted how the line between legitimate retail enthusiasm and coordinated manipulation has become increasingly blurred in the social media era.', type: 'default' },
+     { date: '2022', event: 'The SEC charged multiple social media influencers in 2022-2023 for promoting stocks while secretly planning to sell.', type: 'default' },
+     { date: '2023', event: 'The SEC charged multiple social media influencers in 2022-2023 for promoting stocks while secretly planning to sell.', type: 'default' },
+     { date: '2025-04-27', event: 'Penny Stock Pump and Dump Networks — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'project-mkultra-subproject-registry': {
@@ -2293,10 +2364,12 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2023-12-21',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2001', event: 'GLAXOSMITHKLINE AND PAXIL: GlaxoSmithKline ghostwrote Study 329; a clinical trial of Paxil (paroxetine) in adolescents that was published in the Journal of the American Academy of Child and Adolesc...', type: 'legal' },
-     { date: '2004', event: 'The drug killed an estimated 27,785 people from heart attacks before its 2004 withdrawal', type: 'critical' },
-     { date: '2015', event: 'When independent researchers reanalyzed the study data in 2015, they found the conclusions were the opposite of what the ghostwritten article claimed', type: 'default' },
+      timeline: [
+     { date: '2001', event: 'GlaxoSmithKline ghostwrote Study 329; a clinical trial of Paxil (paroxetine) in adolescents that was published in the Journal of the American Academy of Child and Adolescent Psychiatry in 2001.', type: 'legal' },
+     { date: '2001-01-01', event: 'Pharmaceutical Ghost Writing investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2004', event: 'The drug killed an estimated 27,785 people from heart attacks before its 2004 withdrawal.', type: 'critical' },
+     { date: '2015', event: 'When independent researchers reanalyzed the study data in 2015, they found the conclusions were the opposite of what the ghostwritten article claimed.', type: 'default' },
+     { date: '2023-12-21', event: 'Pharmaceutical Ghost Writing — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'pentagon-budget-black-programs': {
@@ -2327,10 +2400,12 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2023-11-11',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2013', event: 'Edward Snowden\'s 2013 disclosures revealed that the "black budget" for intelligence alone was $52.6 billion in fiscal year 2013', type: 'political' },
-     { date: '2018', event: 'THE AUDIT FAILURES: Congress mandated that the DoD undergo annual financial audits beginning in 2018', type: 'political' },
-     { date: '2023', event: 'The 2023 audit; conducted by 29 independent accounting firms; found that the Department could not account for 61% of its $3.8 trillion in assets', type: 'default' },
+      timeline: [
+     { date: '2013', event: 'Edward Snowden\'s 2013 disclosures revealed that the ;black budget; for intelligence alone was $52.6 billion in fiscal year 2013.', type: 'financial' },
+     { date: '2013-01-01', event: 'Pentagon Budget Black Programs investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018', event: 'Congress mandated that the DoD undergo annual financial audits beginning in 2018.', type: 'political' },
+     { date: '2023', event: 'The 2023 audit; conducted by 29 independent accounting firms; found that the Department could not account for 61% of its $3.8 trillion in assets.', type: 'default' },
+     { date: '2023-11-11', event: 'Pentagon Budget Black Programs — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'prosecutorial-misconduct-database': {
@@ -2507,6 +2582,10 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-12-07',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2000-01-01', event: 'Police Union Misconduct Protection investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-12-07', event: 'Police Union Misconduct Protection — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'pharmaceutical-fertility-side-effects': {
     title: 'Pharmaceutical Fertility Side Effects',
@@ -2535,10 +2614,12 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1940-01-01',
    lastActivityDate: '2025-01-28',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1971', event: 'DES HISTORICAL PRECEDENT: Diethylstilbestrol (DES), a synthetic estrogen prescribed to millions of pregnant women from the 1940s through 1971 to prevent miscarriage, was later found to cause reprod...', type: 'financial' },
-     { date: '2012', event: 'The FDA required label changes in 2012 to warn of persistent sexual side effects', type: 'default' },
-     { date: '2022', event: 'A 2022 meta-analysis found that SSRI use reduced sperm concentration by 50%, decreased sperm motility, and increased DNA fragmentation in sperm', type: 'default' },
+      timeline: [
+     { date: '1940-01-01', event: 'Pharmaceutical Fertility Side Effects investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1971', event: 'Diethylstilbestrol (DES), a synthetic estrogen prescribed to millions of pregnant women from the 1940s through 1971 to prevent miscarriage, was later found to cause reproductive tract abnormalities, infertility, and...', type: 'default' },
+     { date: '2012', event: 'The FDA required label changes in 2012 to warn of persistent sexual side effects.', type: 'default' },
+     { date: '2022', event: 'A 2022 meta-analysis found that SSRI use reduced sperm concentration by 50%, decreased sperm motility, and increased DNA fragmentation in sperm.', type: 'default' },
+     { date: '2025-01-28', event: 'Pharmaceutical Fertility Side Effects — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'pharmaceutical-sales-rep-corruption': {
@@ -2603,10 +2684,13 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-03-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012', event: 'A 2012 investigation revealed that the agency employed dozens of individuals in positions that appeared to serve political rather than operational purposes', type: 'default' },
-     { date: '2013-09-01', event: 'BRIDGEGATE: In September 2013, allies of New Jersey Governor Chris Christie ordered the closure of local access lanes to the George Washington Bridge; creating massive traffic jams in Fort Lee, New...', type: 'default' },
-     { date: '2020', event: 'United States (2020), ruling that the scheme did not constitute federal fraud; effectively ruling that political abuse of government resources is not a federal crime', type: 'legal' },
+      timeline: [
+     { date: '2012', event: 'A 2012 investigation revealed that the agency employed dozens of individuals in positions that appeared to serve political rather than operational purposes.', type: 'default' },
+     { date: '2012-01-01', event: 'Port Authority Corruption Investigations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2013', event: 'In September 2013, allies of New Jersey Governor Chris Christie ordered the closure of local access lanes to the George Washington Bridge; creating massive traffic jams in Fort Lee, New Jersey.', type: 'default' },
+     { date: '2013-09', event: 'In September 2013, allies of New Jersey Governor Chris Christie ordered the closure of local access lanes to the George Washington Bridge; creating massive traffic jams in Fort Lee, New Jersey.', type: 'default' },
+     { date: '2020', event: 'United States (2020), ruling that the scheme did not constitute federal fraud; effectively ruling that political abuse of government resources is not a federal crime.', type: 'legal' },
+     { date: '2025-03-07', event: 'Port Authority Corruption Investigations — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'psychological-operations-domestic-theater': {
@@ -2637,10 +2721,13 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-03-19',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2001', event: 'The Pentagon\'s Office of Strategic Influence (OSI), created in 2001, was initially tasked with providing misinformation to foreign media; but Secretary Rumsfeld acknowledged that stories planted ov...', type: 'default' },
-     { date: '2001-09-11', event: 'POST-9/11 INFORMATION WARFARE: After September 11, 2001, the boundary between foreign and domestic information operations effectively dissolved', type: 'default' },
-     { date: '2011', event: 'THE SENATOR TARGETING INCIDENT: In 2011, Rolling Stone reporter Michael Hastings published an investigation revealing that Lieutenant General William Caldwell, the commander of the NATO Training Mi...', type: 'default' },
+      timeline: [
+     { date: '2001', event: 'POST-9/11 INFORMATION WARFARE: After September 11, 2001, the boundary between foreign and domestic information operations effectively dissolved.', type: 'default' },
+     { date: '2001-01-01', event: 'Psychological Operations Domestic Theater investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2001-09-11', event: 'POST-9/11 INFORMATION WARFARE: After September 11, 2001, the boundary between foreign and domestic information operations effectively dissolved.', type: 'default' },
+     { date: '2010', event: 'military Psychological Operations (PSYOP); rebranded Military Information Support Operations (MISO) in 2010; are officially prohibited from targeting domestic audiences under the Smith-Mundt Act and DoD directives.', type: 'default' },
+     { date: '2011', event: 'In 2011, Rolling Stone reported that a PSYOP unit at Fort Bragg was ordered to use information operations techniques against visiting U.S.', type: 'default' },
+     { date: '2025-03-19', event: 'Psychological Operations Domestic Theater — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'plastic-industry-recycling-fraud': {
@@ -2705,9 +2792,11 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-03-14',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: 'A 2008 study estimated that the underground economy represented 8-9% of U.S', type: 'default' },
-     { date: '2020', event: 'A 2020 study found that fraudulent construction firms gain a 20-30% cost advantage over legitimate competitors by not paying payroll taxes, workers\' compensation, and benefits', type: 'financial' },
+      timeline: [
+     { date: '2008', event: 'A 2008 study estimated that the underground economy represented 8-9% of U.S.', type: 'default' },
+     { date: '2008-01-01', event: 'Payroll Tax Fraud Industry Analysis investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2020', event: 'A 2020 study found that fraudulent construction firms gain a 20-30% cost advantage over legitimate competitors by not paying payroll taxes, workers\' compensation, and benefits.', type: 'default' },
+     { date: '2023-03-14', event: 'Payroll Tax Fraud Industry Analysis — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'pharmaceutical-waste-environmental-impact': {
@@ -2738,6 +2827,10 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2023-04-27',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2000-01-01', event: 'Pharmaceutical Waste Environmental Impact investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-04-27', event: 'Pharmaceutical Waste Environmental Impact — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'port-city-trafficking-hub-analysis': {
     title: 'Port City Trafficking Hub Analysis',
@@ -2767,9 +2860,11 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2024-04-19',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012', event: 'In 2012, the Signal International case revealed that 500 Indian workers were recruited to Gulf Coast shipyards with promises of green cards, then held in labor camps and had their passports confisc...', type: 'default' },
-     { date: '2017', event: 'In 2017, 39 Vietnamese nationals were found dead in a refrigerated container at Purfleet Port in Essex, England; highlighting the deadly reality of container trafficking', type: 'default' },
+      timeline: [
+     { date: '2012', event: 'In 2012, the Signal International case revealed that 500 Indian workers were recruited to Gulf Coast shipyards with promises of green cards, then held in labor camps and had their passports confiscated; resulting in...', type: 'default' },
+     { date: '2012-01-01', event: 'Port City Trafficking Hub Analysis investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017', event: 'In 2017, 39 Vietnamese nationals were found dead in a refrigerated container at Purfleet Port in Essex, England; highlighting the deadly reality of container trafficking.', type: 'default' },
+     { date: '2024-04-19', event: 'Port City Trafficking Hub Analysis — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
 
@@ -2821,6 +2916,9 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: "Everytown: Unsecured Guns Data", url: "https://everytownresearch.org/report/unsecured-guns/", type: "Research" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2024', event: 'The parents of the 2024 Perry, Iowa school shooter were investigated.', type: 'default' },
+   ],
   },
   'police-reform': {
     title: "Police Reform Failures",
@@ -2849,6 +2947,12 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Conducted pattern-or-practice investigations and entered consent decrees with departments found to violate constitutional rights', href: '/entities/agencies/doj' },
     ],
+   timeline: [
+     { date: '1994', event: 'Police endorsements and the political power of CONSENT DECREES: Since 1994, the DOJ has entered into over 40 consent decrees with police departments found to have patterns of constitutional violations.', type: 'default' },
+     { date: '2020', event: 'By 2023, most budget cuts had been reversed, reform legislation had stalled, and police killings returned to pre-2020 levels.;, ;QUALIFIED IMMUNITY: The Supreme Court-created doctrine of qualified immunity shields...', type: 'legal' },
+     { date: '2020-05', event: 's murder in May 2020 prompted the largest protest movement in American history and unprecedented calls for police reform.', type: 'default' },
+     { date: '2023', event: 'By 2023, most budget cuts had been reversed, reform legislation had stalled, and police killings returned to pre-2020 levels.;, ;QUALIFIED IMMUNITY: The Supreme Court-created doctrine of qualified immunity shields...', type: 'legal' },
+   ],
   },
   'police-brutality-crisis': {
     title: "Police Brutality Crisis in America",
@@ -2877,6 +2981,11 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Pattern-or-practice investigations found constitutional violations in departments across the country', href: '/entities/agencies/doj' },
     ],
+   timeline: [
+     { date: '1997', event: 'The 1033 Program has transferred over $7.4 billion in military equipment to police departments since 1997; including armored vehicles, grenade launchers, and military-grade weapons.', type: 'financial' },
+     { date: '2020', event: 'A 2020 study found that approximately 5% of officers in a department generate 25% of force incidents.', type: 'default' },
+     { date: '2024', event: 'The DOJ finally mandated comprehensive use-of-force reporting in 2024; decades after the need was identified.', type: 'default' },
+   ],
   },
   'pharmaceutical-corruption': {
     title: "Pharmaceutical Industry Corruption",
@@ -2905,6 +3014,14 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Regulatory capture documented; receives 45%+ of drug regulation budget from industry user fees; revolving door with pharmaceutical companies', href: '/entities/agencies/fda' },
     ],
+   timeline: [
+     { date: '1996', event: 'Purdue evergreening s 1996 Trovan trial in Kano, Nigeria; during a meningitis epidemic; resulted in the deaths of 11 children and severe injuries in dozens more.', type: 'legal' },
+     { date: '2000', event: 'Pharmaceutical companies have paid over $40 billion in fraud settlements since 2000 for off-label marketing, suppressing safety data, bribing doctors, and manipulating clinical trials.', type: 'financial' },
+     { date: '2009', event: 'Pfizer paid $2.3 billion (2009) for illegally marketing Bextra.', type: 'financial' },
+     { date: '2012', event: 'Every major drug pricing reform has been weakened or blocked; the Inflation Reduction Act RECORD FINES AS BUSINESS EXPENSES: GlaxoSmithKline paid $3 billion (2012) for marketing Paxil and Wellbutrin for unapproved...', type: 'financial' },
+     { date: '2013', event: 'Johnson & Johnson paid $2.2 billion (2013) for off-label promotion of Risperdal.', type: 'financial' },
+     { date: '2022', event: 'Pfizer settled for $75 million.;, ;LOBBYING SUPREMACY: The pharmaceutical industry is the largest lobbying force in Washington; spending $373 million on federal lobbying in 2022 alone; more than any other industry.', type: 'financial' },
+   ],
   },
   'parkland-shooting': {
     title: "Parkland School Shooting & March for Our Lives",
@@ -2934,6 +3051,19 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Failed to investigate tip identifying Cruz as potential school shooter weeks before the massacre', href: '/entities/agencies/fbi' },
     ],
+   timeline: [
+     { date: '2008', event: 'He was apprehended off-campus within hours.;, ;WARNINGS IGNORED: Cruz had been reported to the FBI s Deputy Scot Peterson, the school s Office had received at least 45 calls related to Cruz or his family between 2008...', type: 'default' },
+     { date: '2016', event: 'The Florida Department of Children and Families had investigated Cruz in 2016 after he posted social media images of self-harm and animal cruelty.', type: 'default' },
+     { date: '2018', event: 'On February 14, 2018, Nikolas Cruz murdered 17 people and wounded 17 others at Marjory Stoneman Douglas High School in Parkland, Florida.', type: 'default' },
+     { date: '2018-01', event: 'Cruz had been reported to the FBI\'s tip line in January 2018; the caller said Cruz had weapons, was making threats, and could potentially carry out a school shooting.', type: 'default' },
+     { date: '2018-02-14', event: 'On February 14, 2018, Nikolas Cruz murdered 17 people and wounded 17 others at Marjory Stoneman Douglas High School in Parkland, Florida.', type: 'default' },
+     { date: '2018-03', event: 'Florida passed the Marjory Stoneman Douglas High School Public Safety Act in March 2018; the first gun control legislation passed by the Republican-controlled Florida legislature in decades.', type: 'political' },
+     { date: '2018-03-24', event: 'The march on Washington on March 24, 2018, drew an estimated 200,000 people to Pennsylvania Avenue, with 800+ sibling marches worldwide.', type: 'default' },
+     { date: '2022', event: 'But federal legislation remained blocked by the Senate.;, ;CRUZ SENTENCING: In October 2022, following a penalty-phase trial, the jury failed to unanimously recommend the death penalty; sentencing Cruz to life in...', type: 'legal' },
+     { date: '2022-10', event: 'But federal legislation remained blocked by the Senate.;, ;CRUZ SENTENCING: In October 2022, following a penalty-phase trial, the jury failed to unanimously recommend the death penalty; sentencing Cruz to life in...', type: 'legal' },
+     { date: '2023-06', event: 'He was fired, charged with child neglect and other counts, but acquitted at trial in June 2023.', type: 'legal' },
+     { date: '2026', event: 'The school building where the massacre occurred was preserved as evidence and remains standing as of 2026; the subject of ongoing debate about demolition.', type: 'critical' },
+   ],
   },
   'police-accountability': {
     title: "Police Accountability Crisis in America",
@@ -2962,6 +3092,9 @@ const investigations_p: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Conducts pattern-or-practice investigations into departments but enforcement depends on political will', href: '/entities/agencies/doj' },
     ],
+   timeline: [
+     { date: '2020', event: 'Cities pay billions in police misconduct settlements annually; over $3 billion in the decade ending 2020 in the 10 largest cities alone.', type: 'financial' },
+   ],
   },
   'purdue-pharma-opioid-crisis': {
     title: 'Purdue Pharma and the Manufactured Opioid Epidemic',
@@ -3392,10 +3525,12 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1967-01-01',
    lastActivityDate: '2025-03-10',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1967', event: 'Qualified immunity, the primary legal barrier to accountability, was invented by the Supreme Court in 1967 and expanded dramatically in subsequent decisions', type: 'legal' },
-     { date: '2005', event: 'Between 2005 and 2023, approximately 18,000 people were killed by police in the U.S', type: 'critical' },
-     { date: '2023', event: 'Officers who report misconduct face retaliation: a 2023 survey found 84% of officers have witnessed fellow officers use excessive force, but only 8% reported it', type: 'default' },
+      timeline: [
+     { date: '1967', event: 'Qualified immunity, the primary legal barrier to accountability, was invented by the Supreme Court in 1967 and expanded dramatically in subsequent decisions.', type: 'legal' },
+     { date: '1967-01-01', event: 'Police Qualified Immunity and Systemic Brutality investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2005', event: 'Between 2005 and 2023, approximately 18,000 people were killed by police in the U.S.', type: 'critical' },
+     { date: '2023', event: 'Between 2005 and 2023, approximately 18,000 people were killed by police in the U.S.', type: 'critical' },
+     { date: '2025-03-10', event: 'Police Qualified Immunity and Systemic Brutality — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'predatory-lending-post-crisis': {
@@ -3625,6 +3760,16 @@ const investigations_p: Record<string, InvestigationData> = {
     eventOriginDate: '1968-06-01',
     lastActivityDate: '1972-12-31',
     pageUpdatedDate: '2026-03-10',
+   timeline: [
+     { date: '1967', event: 'In 1967, CIA officer Robert Komer, serving as deputy to the commander of U.S.', type: 'default' },
+     { date: '1968', event: 'Between 1968 and 1972, the program resulted in 26,369 killings, 33,358 detentions, and 22,013 defections according to official U.S.', type: 'default' },
+     { date: '1968-06', event: 'The program was formally launched in June 1968 under the direction of William Colby, who would later become CIA Director.', type: 'default' },
+     { date: '1968-06-01', event: 'Phoenix Program investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1971', event: 'Congressional hearings in 1971 revealed widespread torture, extrajudicial killings, and the use of assassination quotas.', type: 'critical' },
+     { date: '1972', event: 'Between 1968 and 1972, the program resulted in 26,369 killings, 33,358 detentions, and 22,013 defections according to official U.S.', type: 'default' },
+     { date: '1972-12-31', event: 'Phoenix Program — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2001', event: 'Its techniques and organizational structure influenced operations in Central America during the 1980s, the War on Terror detention and interrogation programs after 2001, and targeted killing programs using drone strikes.', type: 'default' },
+   ],
   },
   'project-shamrock-communications-surveillance': {
     title: 'Project SHAMROCK',
@@ -3653,6 +3798,17 @@ const investigations_p: Record<string, InvestigationData> = {
     eventOriginDate: '1945-08-01',
     lastActivityDate: '1975-05-15',
     pageUpdatedDate: '2026-03-10',
+   timeline: [
+     { date: '1945', event: 'Project SHAMROCK was a signals intelligence collection program operated by the Armed Forces Security Agency (AFSA) and later the National Security Agency (NSA) from 1945 to 1975.', type: 'default' },
+     { date: '1945-08', event: 'Project SHAMROCK began in August 1945 as a continuation of wartime censorship programs.', type: 'default' },
+     { date: '1945-08-01', event: 'Project SHAMROCK investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1967', event: 'In 1967, SHAMROCK was supplemented by Project MINARET, which used the SHAMROCK database to target specific American citizens.', type: 'default' },
+     { date: '1975', event: 'Project SHAMROCK was a signals intelligence collection program operated by the Armed Forces Security Agency (AFSA) and later the National Security Agency (NSA) from 1945 to 1975.', type: 'default' },
+     { date: '1975-05-15', event: 'The program was terminated by NSA Director Allen on May 15, 1975, shortly before the Church Committee hearings.', type: 'default' },
+     { date: '2001', event: 'SHAMROCK established the template for NSA bulk collection programs that would resurface after September 11, 2001.', type: 'default' },
+     { date: '2001-09-11', event: 'SHAMROCK established the template for NSA bulk collection programs that would resurface after September 11, 2001.', type: 'default' },
+     { date: '2013', event: 'The legal arguments used to justify SHAMROCK; executive authority, national security necessity, and voluntary cooperation of private companies; were echoed in the justifications for the Stellar Wind warrantless...', type: 'default' },
+   ],
   },
   'project-artichoke-interrogation-program': {
     title: 'Project Artichoke',
@@ -3681,6 +3837,18 @@ const investigations_p: Record<string, InvestigationData> = {
     eventOriginDate: '1951-08-20',
     lastActivityDate: '1956-12-31',
     pageUpdatedDate: '2026-03-10',
+   timeline: [
+     { date: '1950', event: 'Project Artichoke grew out of Operation Bluebird, established in 1950 to develop defensive measures against Soviet interrogation techniques.', type: 'default' },
+     { date: '1951', event: 'Project Artichoke was a CIA research program that investigated interrogation methods using drugs, hypnosis, and sensory deprivation from 1951 to 1956.', type: 'default' },
+     { date: '1951-08', event: 'The program was renamed Artichoke in August 1951 under the Office of Scientific Intelligence.', type: 'default' },
+     { date: '1951-08-20', event: 'Project Artichoke investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1952', event: 'In one documented case in 1952, a suspected Soviet agent was given a combination of benzedrine and sodium pentothal during interrogation in a European safe house.', type: 'default' },
+     { date: '1953', event: 'In 1953, CIA Technical Services Staff officer Sidney Gottlieb proposed a broader and more systematic research program.', type: 'default' },
+     { date: '1956', event: 'Project Artichoke was a CIA research program that investigated interrogation methods using drugs, hypnosis, and sensory deprivation from 1951 to 1956.', type: 'default' },
+     { date: '1956-12-31', event: 'Project Artichoke — investigation remains active with ongoing developments', type: 'default' },
+     { date: '1973', event: 'Artichoke documents were partially declassified through FOIA requests and the 1977 Senate hearings on MKUltra, when CIA Director Stansfield Turner revealed that a cache of financial records related to MKUltra and its...', type: 'political' },
+     { date: '1977', event: 'Artichoke documents were partially declassified through FOIA requests and the 1977 Senate hearings on MKUltra, when CIA Director Stansfield Turner revealed that a cache of financial records related to MKUltra and its...', type: 'political' },
+   ],
   },
 };
 

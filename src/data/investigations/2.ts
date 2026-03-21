@@ -77,6 +77,11 @@ const investigations_2: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-05-08',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'Trump and allies attempted to overturn the 2020 election through multiple schemes: fake electors, DOJ pressure, state official pressure, Pence pressure, and ultimately violence.', type: 'political' },
+     { date: '2020-01-01', event: '2020 Election Overturn Attempt investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2025-05-08', event: '2020 Election Overturn Attempt — investigation remains active with ongoing developments', type: 'political' },
+   ],
  },
   '2016-election': {
  title: '2016 Election Interference',
@@ -114,6 +119,11 @@ const investigations_2: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-12-12',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'Russian interference in the 2016 U.S.', type: 'default' },
+     { date: '2016-01-01', event: '2016 Election Interference investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2025-12-12', event: '2016 Election Interference — investigation remains active with ongoing developments', type: 'political' },
+   ],
  },
  'pandemic-profiteering-covid-corruption': {
   title: 'COVID-19 Pandemic Profiteering and Government Corruption',
@@ -143,9 +153,12 @@ const investigations_2: Record<string, InvestigationData> = {
   eventOriginDate: '2020-01-01',
   lastActivityDate: '2025-03-10',
   pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020-01-24', event: 'On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity', type: 'political' },
-     { date: '2025', event: 'As of 2025, DOJ has charged approximately 3,500 defendants but recovered only a fraction of the $200 billion estimated fraud', type: 'political' },
+      timeline: [
+     { date: '2020', event: 'On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity.', type: 'political' },
+     { date: '2020-01-01', event: 'COVID-19 Pandemic Profiteering and Government Corruption investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-01-24', event: 'On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity.', type: 'political' },
+     { date: '2025', event: 'As of 2025, DOJ has charged approximately 3,500 defendants but recovered only a fraction of the $200 billion estimated fraud.', type: 'financial' },
+     { date: '2025-03-10', event: 'COVID-19 Pandemic Profiteering and Government Corruption — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
 };

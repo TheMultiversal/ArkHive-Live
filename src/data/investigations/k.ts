@@ -33,6 +33,9 @@ const investigations_k: Record<string, InvestigationData> = {
    eventOriginDate: '2018-02-28',
    lastActivityDate: '2018-03-30',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018-02-28', event: 'Kushner Security Clearance Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'khashoggi-coverup': {
  title: 'Khashoggi Murder Cover-up',
@@ -72,6 +75,12 @@ const investigations_k: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2024-01-18',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018', event: 'THE MURDER: On October 2, 2018, Jamal Khashoggi, a U.S.', type: 'default' },
+     { date: '2018-01-01', event: 'Khashoggi Murder Cover-up investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018-10-02', event: 'THE MURDER: On October 2, 2018, Jamal Khashoggi, a U.S.', type: 'default' },
+     { date: '2024-01-18', event: 'Khashoggi Murder Cover-up — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'kremlin-oligarchs': {
  title: 'Kremlin Oligarch Connections',
@@ -237,9 +246,14 @@ const investigations_k: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2021-11-19',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020-08-23', event: 'JACOB BLAKE SHOOTING: On August 23, 2020, Kenosha police officer Rusten Sheskey shot Jacob Blake, a 29-year-old Black man, seven times in the back at point-blank range while Blake attempted to ente...', type: 'critical' },
-     { date: '2021-11-19', event: 'ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges', type: 'legal' },
+      timeline: [
+     { date: '2020', event: 'On August 25, 2020, 17-year-old Kyle Rittenhouse traveled from Antioch, Illinois, to Kenosha, Wisconsin, during protests following the police shooting of Jacob Blake.', type: 'default' },
+     { date: '2020-01-01', event: 'Kenosha Shootings investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-08-23', event: 'On August 23, 2020, Kenosha police officer Rusten Sheskey shot Jacob Blake, a 29-year-old Black man, seven times in the back at point-blank range while Blake attempted to enter an SUV with his children inside.', type: 'default' },
+     { date: '2020-08-25', event: 'On August 25, 2020, 17-year-old Kyle Rittenhouse traveled from Antioch, Illinois, to Kenosha, Wisconsin, during protests following the police shooting of Jacob Blake.', type: 'default' },
+     { date: '2021', event: 'His acquittal on all charges in November 2021 became a flashpoint in debates over self-defense, guns, vigilantism, and racial justice.', type: 'legal' },
+     { date: '2021-11', event: 'His acquittal on all charges in November 2021 became a flashpoint in debates over self-defense, guns, vigilantism, and racial justice.', type: 'legal' },
+     { date: '2021-11-19', event: 'Judge Bruce Schroeder drew criticism for barring the word ;victims; while allowing the deceased to be called ;rioters; or ;looters.; ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges.', type: 'legal' },
    ],
  },
   'kids-for-cash': {
@@ -272,6 +286,12 @@ const investigations_k: Record<string, InvestigationData> = {
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2025-04-09',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2003', event: 'Between 2003 and 2008, Luzerne County Judge Mark Ciavarella sentenced approximately 3,000 children to juvenile detention facilities, often for trivial offenses.', type: 'legal' },
+     { date: '2003-01-01', event: 'Kids for Cash: Judges Who Sold Children to Private Prisons investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2008', event: 'Between 2003 and 2008, Luzerne County Judge Mark Ciavarella sentenced approximately 3,000 children to juvenile detention facilities, often for trivial offenses.', type: 'legal' },
+     { date: '2025-04-09', event: 'Kids for Cash: Judges Who Sold Children to Private Prisons — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'korematsu-case': {
  title: 'Korematsu v. United States: The Legalization of Racism',
@@ -337,6 +357,10 @@ const investigations_k: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2021-06-01',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021-01-01', event: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence? investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2021-06', event: 'In June 2021, six months after leaving his role as senior White House advisor, Jared Kushner launched Affinity Partners, a private equity firm.', type: 'default' },
+   ],
  },
   'khashoggi-murder': {
     title: "Jamal Khashoggi Assassination",
@@ -367,6 +391,14 @@ const investigations_k: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Concluded with high confidence that MBS ordered the assassination', href: '/entities/agencies/cia' },
     ],
+   timeline: [
+     { date: '2018', event: 'Saudi journalist Jamal Khashoggi was murdered and dismembered inside the Saudi consulate in Istanbul on October 2, 2018.', type: 'default' },
+     { date: '2018-10-02', event: 'Saudi journalist Jamal Khashoggi was murdered and dismembered inside the Saudi consulate in Istanbul on October 2, 2018.', type: 'default' },
+     { date: '2020', event: 'Saudi Arabia held a sham trial in 2020 that sentenced five men to death (later commuted to 20 years) and acquitted senior officials.', type: 'legal' },
+     { date: '2021', event: 'The ODNI released a declassified summary in February 2021 confirming MBS Khashoggi.;, ;THE COVER-UP: Saudi Arabia s fate, to claiming he left the consulate alive, to admitting he died in a to finally acknowledging a...', type: 'default' },
+     { date: '2021-02', event: 'The ODNI released a declassified summary in February 2021 confirming MBS Khashoggi.;, ;THE COVER-UP: Saudi Arabia s fate, to claiming he left the consulate alive, to admitting he died in a to finally acknowledging a...', type: 'default' },
+     { date: '2022', event: 'In 2022, Biden traveled to Saudi Arabia and fist-bumped MBS, effectively normalizing relations.', type: 'default' },
+   ],
   },
   'koch-network-dark-money-politics': {
     title: 'The Koch Network: Dark Money and the Capture of American Democracy',
@@ -475,10 +507,15 @@ const investigations_k: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-03-05',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012', event: 'The STOCK Act (Stop Trading on Congressional Knowledge Act), signed in 2012, was supposed to address the problem', type: 'political' },
-     { date: '2020', event: 'In January 2020, Senator Richard Burr, then chairman of the Senate Intelligence Committee, sold $1.7 million in stocks after receiving classified COVID briefings but before the market crash', type: 'critical' },
-     { date: '2021', event: 'Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences', type: 'default' },
+      timeline: [
+     { date: '2012', event: 'Despite the STOCK Act of 2012, enforcement has been virtually nonexistent.', type: 'default' },
+     { date: '2012-01-01', event: 'Congressional Insider Trading and Financial Conflicts investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'In January 2020, Senator Richard Burr, then chairman of the Senate Intelligence Committee, sold $1.7 million in stocks after receiving classified COVID briefings but before the market crash.', type: 'political' },
+     { date: '2020-01', event: 'In January 2020, Senator Richard Burr, then chairman of the Senate Intelligence Committee, sold $1.7 million in stocks after receiving classified COVID briefings but before the market crash.', type: 'political' },
+     { date: '2021', event: 'Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences.', type: 'default' },
+     { date: '2023', event: 'At least 97 members traded stocks in sectors over which they had direct legislative or oversight authority in 2023 alone.', type: 'political' },
+     { date: '2024', event: 'Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences.', type: 'default' },
+     { date: '2025-03-05', event: 'Congressional Insider Trading and Financial Conflicts — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'kickbacks-pharmacy-benefit-managers': {
@@ -509,9 +546,12 @@ const investigations_k: Record<string, InvestigationData> = {
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2025-02-08',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2022', event: 'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and ...', type: 'default' },
-     { date: '2023', event: 'The three major PBMs and their parent companies collectively spent over $80 million on federal lobbying in 2023 alone', type: 'financial' },
+      timeline: [
+     { date: '2022', event: 'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies.', type: 'default' },
+     { date: '2022-01-01', event: 'Pharmacy Benefit Manager Kickback Schemes investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'The three major PBMs and their parent companies collectively spent over $80 million on federal lobbying in 2023 alone.', type: 'financial' },
+     { date: '2024', event: 'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies.', type: 'default' },
+     { date: '2025-02-08', event: 'Pharmacy Benefit Manager Kickback Schemes — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'kissinger-foreign-policy-war-crimes': {

@@ -229,10 +229,14 @@ const investigations_v: Record<string, InvestigationData> = {
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-05-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2015', event: 'The 2015 National Assembly elections, won overwhelmingly by the opposition, were effectively nullified when Maduro created a parallel Constituent Assembly', type: 'political' },
-     { date: '2018', event: 'The 2018 presidential election was widely boycotted and internationally condemned', type: 'political' },
-     { date: '2024-07-28', event: 'The July 28, 2024 Venezuelan presidential election became one of the most blatant cases of electoral fraud in modern Latin American history', type: 'political' },
+      timeline: [
+     { date: '2015', event: 'The 2015 National Assembly elections, won overwhelmingly by the opposition, were effectively nullified when Maduro created a parallel Constituent Assembly.', type: 'default' },
+     { date: '2015-01-01', event: 'Venezuelas Stolen Elections: The Death of Democracy Under Maduro investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2018', event: 'The 2018 presidential election was widely boycotted and internationally condemned.', type: 'political' },
+     { date: '2024', event: 'The July 28, 2024 Venezuelan presidential election became one of the most blatant cases of electoral fraud in modern Latin American history.', type: 'political' },
+     { date: '2024-07', event: 'The Maduro regime has systematically destroyed Venezuelan democracy through rigged elections, including the July 2024 presidential election where the government declared Maduro the winner despite overwhelming...', type: 'political' },
+     { date: '2024-07-28', event: 'The July 28, 2024 Venezuelan presidential election became one of the most blatant cases of electoral fraud in modern Latin American history.', type: 'political' },
+     { date: '2025-05-01', event: 'Venezuelas Stolen Elections: The Death of Democracy Under Maduro — investigation remains active with ongoing developments', type: 'critical' },
    ],
  },
   'venezuela-human-rights': {
@@ -299,9 +303,11 @@ const investigations_v: Record<string, InvestigationData> = {
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2016-12-09',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2001', event: 'The No Child Left Behind Act of 2001 required public schools to provide student contact information to military recruiters or lose federal funding', type: 'default' },
-     { date: '2014', event: 'A 2014 VA scandal revealed that at least 40 veterans died waiting for care at the Phoenix VA facility, and that employees had falsified wait time records', type: 'critical' },
+      timeline: [
+     { date: '2001', event: 'The No Child Left Behind Act of 2001 required public schools to provide student contact information to military recruiters or lose federal funding.', type: 'financial' },
+     { date: '2001-01-01', event: 'Veterans to School-to-Prison Pipeline: Military Recruitment to Mass Incarceration investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2014', event: 'A 2014 VA scandal revealed that at least 40 veterans died waiting for care at the Phoenix VA facility, and that employees had falsified wait time records.', type: 'default' },
+     { date: '2016-12-09', event: 'Veterans to School-to-Prison Pipeline: Military Recruitment to Mass Incarceration — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'voter-roll-purges-and-suppression-tactics': {
@@ -708,10 +714,14 @@ const investigations_v: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-02-10',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2014-04-01', event: 'The VA wait time scandal became public in April 2014 when CNN reported that at least 40 veterans had died while waiting for appointments at the Phoenix VA Medical Center', type: 'critical' },
-     { date: '2018', event: 'The VA MISSION Act of 2018 expanded veterans\' ability to seek care in the private sector when VA wait times exceed certain thresholds', type: 'default' },
-     { date: '2025', event: 'As of 2025, the VA continues to struggle with staffing shortages, aging infrastructure, and patient safety failures', type: 'default' },
+      timeline: [
+     { date: '2014', event: 'The Veterans Affairs healthcare scandal, which exploded into public view in 2014, revealed that VA hospitals across the country maintained secret waiting lists to hide months-long delays in care for veterans.', type: 'default' },
+     { date: '2014-01-01', event: 'Veterans Affairs Healthcare System Scandal and Systemic Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2014-04', event: 'The VA wait time scandal became public in April 2014 when CNN reported that at least 40 veterans had died while waiting for appointments at the Phoenix VA Medical Center.', type: 'default' },
+     { date: '2018', event: 'The VA MISSION Act of 2018 expanded veterans\' ability to seek care in the private sector when VA wait times exceed certain thresholds.', type: 'default' },
+     { date: '2024', event: 'In 2024, the VA still reports average wait times of 30+ days for specialty care, and the inspector general continues to find patient safety failures causing preventable deaths.', type: 'default' },
+     { date: '2025', event: 'As of 2025, the VA continues to struggle with staffing shortages, aging infrastructure, and patient safety failures.', type: 'default' },
+     { date: '2025-02-10', event: 'Veterans Affairs Healthcare System Scandal and Systemic Failures — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'veterans-healthcare-failures': {
@@ -778,10 +788,12 @@ const investigations_v: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-02-14',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018', event: 'Georgia purged over 300,000 voters before the 2018 gubernatorial election, during which the sitting Secretary of State was simultaneously the Republican candidate', type: 'political' },
-     { date: '2018', event: 'Philip Randolph Institute decision in 2018 upheld Ohios practice of initiating purges based on failure to vote in two consecutive federal elections, a practice that voter advocates argued punished ...', type: 'political' },
-     { date: '2020', event: 'The Brennan Center for Justice documented that between 2020 and 2024, states removed over 33 million names from voter rolls', type: 'political' },
+      timeline: [
+     { date: '2018', event: 'Georgia purged over 300,000 voters before the 2018 gubernatorial election, during which the sitting Secretary of State was simultaneously the Republican candidate.', type: 'political' },
+     { date: '2018-01-01', event: 'Voter Purge Disenfranchisement investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'States have removed more than 33 million voters from registration rolls between 2020 and 2024, with error rates in some jurisdictions exceeding 10%.', type: 'financial' },
+     { date: '2024', event: 'States have removed more than 33 million voters from registration rolls between 2020 and 2024, with error rates in some jurisdictions exceeding 10%.', type: 'financial' },
+     { date: '2025-02-14', event: 'Voter Purge Disenfranchisement — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'vioxx-merck-cardiovascular-deaths': {

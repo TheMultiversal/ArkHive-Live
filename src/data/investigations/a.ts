@@ -37,6 +37,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-12-12',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2017', event: 'In 2017, Trump reversed Obama-era bans on importing elephant trophies from Zimbabwe and Zambia.', type: 'default' },
+     { date: '2017-01-01', event: 'Animal Cruelty & Wildlife Destruction investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-12-12', event: 'Animal Cruelty & Wildlife Destruction — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'agricultural-monopoly': {
  title: 'Agricultural Monopoly',
@@ -62,6 +67,10 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2012-10-25',
    lastActivityDate: '2025-03-16',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2012-10-25', event: 'Agricultural Monopoly investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-03-16', event: 'Agricultural Monopoly — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'alfa-bank': {
  title: 'Alfa Bank Server Investigation',
@@ -92,6 +101,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2023-11-24',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'During the 2016 campaign, researchers detected unusual DNS lookups between Trump Organization servers and Alfa Bank, one of Russia\'s largest banks owned by oligarchs close to Putin.', type: 'political' },
+     { date: '2016-01-01', event: 'Alfa Bank Server Investigation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-11-24', event: 'Alfa Bank Server Investigation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'access-hollywood': {
  title: 'Access Hollywood Tape',
@@ -126,9 +140,13 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2005-01-01',
    lastActivityDate: '2025-01-17',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2005-09-01', event: 'THE RECORDING: In September 2005, Trump was recorded on a hot mic with Access Hollywood host Billy Bush while arriving to film a segment', type: 'political' },
-     { date: '2016-10-07', event: 'THE TIMING: The tape was released at 4:00 PM on October 7, 2016', type: 'default' },
+      timeline: [
+     { date: '2005', event: 'THE RECORDING: In September 2005, Trump was recorded on a hot mic with Access Hollywood host Billy Bush while arriving to film a segment.', type: 'default' },
+     { date: '2005-01-01', event: 'Access Hollywood Tape investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2005-09', event: 'THE RECORDING: In September 2005, Trump was recorded on a hot mic with Access Hollywood host Billy Bush while arriving to film a segment.', type: 'default' },
+     { date: '2016', event: 'You can do anything.; THE TIMING: The tape was released at 4:00 PM on October 7, 2016.', type: 'default' },
+     { date: '2016-10-07', event: 'You can do anything.; THE TIMING: The tape was released at 4:00 PM on October 7, 2016.', type: 'default' },
+     { date: '2025-01-17', event: 'Access Hollywood Tape — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'atlantic-city-fraud': {
@@ -161,9 +179,14 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '1991-01-01',
    lastActivityDate: '2024-01-02',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1991', event: 'THE BANKRUPTCIES: Trump\'s casino businesses filed for bankruptcy six times: 1991, 1992, 2004, 2009, 2014, and again in 2014', type: 'financial' },
-     { date: '1995', event: 'INVESTOR LOSSES: From 1995-2009, Trump\'s publicly traded casino company lost $1.1 billion while Trump personally took home $82 million in salary and bonuses', type: 'political' },
+      timeline: [
+     { date: '1991', event: 'Trump\'s Atlantic City casino empire went through six bankruptcies between 1991 and 2014, costing investors billions while Trump personally extracted hundreds of millions in fees and salary.', type: 'default' },
+     { date: '1991-01-01', event: 'Atlantic City Casino Bankruptcies investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1995', event: 'From 1995-2009, Trump\'s publicly traded casino company lost $1.1 billion while Trump personally took home $82 million in salary and bonuses.', type: 'financial' },
+     { date: '2004', event: 'He claimed to be the ;King of Atlantic City.; THE BANKRUPTCIES: Trump\'s casino businesses filed for bankruptcy six times: 1991, 1992, 2004, 2009, 2014, and again in 2014.', type: 'default' },
+     { date: '2009', event: 'From 1995-2009, Trump\'s publicly traded casino company lost $1.1 billion while Trump personally took home $82 million in salary and bonuses.', type: 'financial' },
+     { date: '2014', event: 'Trump\'s Atlantic City casino empire went through six bankruptcies between 1991 and 2014, costing investors billions while Trump personally extracted hundreds of millions in fees and salary.', type: 'default' },
+     { date: '2024-01-02', event: 'Atlantic City Casino Bankruptcies — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'arms-trafficking': {
@@ -200,6 +223,12 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '1992-01-01',
    lastActivityDate: '2024-11-16',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1992', event: 'On December 24, 1992, President George H.W.', type: 'political' },
+     { date: '1992-01-01', event: 'Iran-Contra Arms Trafficking Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1992-12-24', event: 'On December 24, 1992, President George H.W.', type: 'political' },
+     { date: '2024-11-16', event: 'Iran-Contra Arms Trafficking Scandal — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'africa-destabilization': {
  title: 'Western Destabilization of Africa',
@@ -236,10 +265,12 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2022-05-29',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2007', event: 'Africa Command (established 2007) has expanded military presence across Africa, conducting drone strikes, training militaries, and pursuing "counterterrorism."This military footprint has coincided ...', type: 'default' },
-     { date: '2011', event: 'LIBYA SPILLOVER: The 2011 NATO intervention in Libya destabilized the entire Sahel', type: 'default' },
-     { date: '2013', event: 'French interventions in Mali (2013) and elsewhere failed to restore stability', type: 'default' },
+      timeline: [
+     { date: '2007', event: 'Africa Command (established 2007) has expanded military presence across Africa, conducting drone strikes, training militaries, and pursuing ;counterterrorism.;This military footprint has coincided with increased, not...', type: 'default' },
+     { date: '2007-01-01', event: 'Western Destabilization of Africa investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2011', event: 'The 2011 NATO intervention in Libya destabilized the entire Sahel.', type: 'default' },
+     { date: '2013', event: 'French interventions in Mali (2013) and elsewhere failed to restore stability.', type: 'default' },
+     { date: '2022-05-29', event: 'Western Destabilization of Africa — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'attorney-firings': {
@@ -342,6 +373,10 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2023-06-07',
    lastActivityDate: '2025-12-28',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023-06-07', event: 'International Authoritarian Network investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-12-28', event: 'International Authoritarian Network — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'admin-state-capture': {
  title: 'Administrative State Capture',
@@ -378,6 +413,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-07-08',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'No executive went to prison for the 2008 financial crisis.', type: 'critical' },
+     { date: '2008-01-01', event: 'Administrative State Capture investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-07-08', event: 'Administrative State Capture — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'alaska-airlines-1282': {
  title: 'Alaska Airlines Flight 1282 Door Blowout',
@@ -416,6 +456,9 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2024-01-05',
    lastActivityDate: '2024-09-14',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2024-01-05', event: 'Alaska Airlines Flight 1282 Door Blowout investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'amazon-worker-abuse': {
  title: 'Amazon Worker Exploitation',
@@ -444,6 +487,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-06-16',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'Jeff Bezos added $75 billion to his net worth in 2020 alone while workers struggled.', type: 'financial' },
+     { date: '2020-01-01', event: 'Amazon Worker Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-06-16', event: 'Amazon Worker Exploitation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'ai-safety-concerns': {
  title: 'AI Safety and Ethics Crisis',
@@ -473,6 +521,9 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2023-03-22',
    lastActivityDate: '2023-04-21',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023-03-22', event: 'AI Safety and Ethics Crisis investigation begins — events under scrutiny originate from this period', type: 'critical' },
+   ],
  },
   'abacus-scandal': {
  title: 'Goldman Sachs Abacus CDO Fraud',
@@ -575,6 +626,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-04-28',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2002', event: 'Adelphia filed for bankruptcy in 2002, the sixth-largest bankruptcy in U.S.', type: 'default' },
+     { date: '2002-01-01', event: 'Adelphia Communications Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2025-04-28', event: 'Adelphia Communications Fraud — investigation remains active with ongoing developments', type: 'financial' },
+   ],
  },
   'adelphia-scandal': {
  title: 'Adelphia Corporate Corruption',
@@ -606,6 +662,9 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-03',
    lastActivityDate: '2020-12-12',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-01-03', event: 'Adelphia Corporate Corruption investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'agricultural-policy': {
  title: 'Agricultural Policy & Corporate Farming',
@@ -635,6 +694,10 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2015-02-09',
    lastActivityDate: '2024-04-23',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2015-02-09', event: 'Agricultural Policy & Corporate Farming investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-04-23', event: 'Agricultural Policy & Corporate Farming — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'ahmaud-arbery-murder': {
  title: 'Ahmaud Arbery Murder',
@@ -662,6 +725,12 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-10-10',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'On February 23, 2020, Travis McMichael, Gregory McMichael, and William Bryan pursued Arbery in trucks through a Brunswick, Georgia neighborhood and shot him dead.', type: 'default' },
+     { date: '2020-01-01', event: 'Ahmaud Arbery Murder investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-02-23', event: 'On February 23, 2020, Travis McMichael, Gregory McMichael, and William Bryan pursued Arbery in trucks through a Brunswick, Georgia neighborhood and shot him dead.', type: 'default' },
+     { date: '2025-10-10', event: 'Ahmaud Arbery Murder — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'aids-crisis': {
  title: 'AIDS Crisis Government Failure',
@@ -690,6 +759,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '1985-01-01',
    lastActivityDate: '2025-09-09',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1985', event: 'The Reagan administration ignored the AIDS crisis for years, with Reagan not publicly mentioning AIDS until 1985, four years after the epidemic began.', type: 'critical' },
+     { date: '1985-01-01', event: 'AIDS Crisis Government Failure investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2025-09-09', event: 'AIDS Crisis Government Failure — investigation remains active with ongoing developments', type: 'critical' },
+   ],
  },
   'alt-right': {
  title: 'Alt-Right Movement & Radicalization',
@@ -723,6 +797,10 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2018-11-09',
    lastActivityDate: '2020-02-22',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018-11-09', event: 'Alt-Right Movement & Radicalization investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-02-22', event: 'Alt-Right Movement & Radicalization — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'amazon-labor': {
  title: 'Amazon Labor Exploitation',
@@ -753,6 +831,9 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2023-05-21',
    lastActivityDate: '2023-12-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023-05-21', event: 'Amazon Labor Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'anti-abortion-violence': {
  title: 'Anti-Abortion Violence',
@@ -780,9 +861,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '1993-01-01',
    lastActivityDate: '2025-02-22',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1993', event: 'Since 1993, at least 11 murders, 42 bombings, and 196 arsons have targeted abortion clinics and providers in the United States', type: 'critical' },
-     { date: '2009', event: 'George Tiller was assassinated in his church in 2009 by Scott Roeder, who was motivated by anti-abortion extremism', type: 'default' },
+      timeline: [
+     { date: '1993', event: 'Since 1993, at least 11 murders, 42 bombings, and 196 arsons have targeted abortion clinics and providers in the United States.', type: 'default' },
+     { date: '1993-01-01', event: 'Anti-Abortion Violence investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2009', event: 'George Tiller was assassinated in his church in 2009 by Scott Roeder, who was motivated by anti-abortion extremism.', type: 'critical' },
+     { date: '2025-02-22', event: 'Anti-Abortion Violence — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'anti-lgbtq-extremism': {
@@ -818,6 +901,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2022-01-21',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'The Pulse nightclub massacre in 2016 killed 49 people in the deadliest attack on LGBTQ people in U.S.', type: 'critical' },
+     { date: '2016-01-01', event: 'Anti-LGBTQ Extremism investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-01-21', event: 'Anti-LGBTQ Extremism — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'anti-lgbtq-movement': {
  title: 'Anti-LGBTQ Political Movement',
@@ -844,6 +932,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2026-01-06',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'Anti-trans bills have exploded since 2020, with hundreds introduced targeting healthcare, sports participation, and bathroom access for transgender youth.', type: 'default' },
+     { date: '2020-01-01', event: 'Anti-LGBTQ Political Movement investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2026-01-06', event: 'Anti-LGBTQ Political Movement — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'anti-trans': {
  title: 'Anti-Transgender Campaign',
@@ -877,6 +970,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2023-01-01',
    lastActivityDate: '2025-09-13',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023', event: 'state legislatures in 2023 alone, targeting healthcare, education, and public accommodations.', type: 'political' },
+     { date: '2023-01-01', event: 'Anti-Transgender Campaign investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2025-09-13', event: 'Anti-Transgender Campaign — investigation remains active with ongoing developments', type: 'political' },
+   ],
  },
   'antisemitic-violence': {
  title: 'Antisemitic Violence',
@@ -906,6 +1004,12 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2024-10-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018', event: 'The Tree of Life synagogue shooting in Pittsburgh on October 27, 2018 killed 11 worshippers in the deadliest antisemitic attack in U.S.', type: 'critical' },
+     { date: '2018-01-01', event: 'Antisemitic Violence investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018-10-27', event: 'The Tree of Life synagogue shooting in Pittsburgh on October 27, 2018 killed 11 worshippers in the deadliest antisemitic attack in U.S.', type: 'critical' },
+     { date: '2024-10-25', event: 'Antisemitic Violence — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'antisemitism': {
  title: 'Antisemitism in America',
@@ -936,6 +1040,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '1979-01-01',
    lastActivityDate: '2025-06-19',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1979', event: 'The ADL recorded the highest number of antisemitic incidents since it began tracking in 1979, with over 3,600 incidents in a single year.', type: 'default' },
+     { date: '1979-01-01', event: 'Antisemitism in America investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-06-19', event: 'Antisemitism in America — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'archegos-collapse': {
  title: 'Archegos Capital Management Collapse',
@@ -965,9 +1074,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2024-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2021-03-01', event: 'When ViacomCBS stock dropped in March 2021, triggering margin calls, the resulting fire sale caused over $30 billion in losses at banks including Credit Suisse and Nomura', type: 'political' },
-     { date: '2024', event: 'Bill Hwang was convicted of fraud and market manipulation in 2024 for the scheme that regulators called the biggest individual stock manipulation in history', type: 'legal' },
+      timeline: [
+     { date: '2021-01-01', event: 'Archegos Capital Management Collapse investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021-03', event: 'When ViacomCBS stock dropped in March 2021, triggering margin calls, the resulting fire sale caused over $30 billion in losses at banks including Credit Suisse and Nomura.', type: 'financial' },
+     { date: '2024', event: 'Bill Hwang was convicted of fraud and market manipulation in 2024 for the scheme that regulators called the biggest individual stock manipulation in history.', type: 'legal' },
+     { date: '2024-01-01', event: 'Archegos Capital Management Collapse — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'arpaio-civil-rights': {
@@ -996,6 +1107,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-11-22',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2017', event: 'Trump pardoned Arpaio in 2017 before sentencing, undermining the judicial process and signaling tolerance for civil rights violations.', type: 'legal' },
+     { date: '2017-01-01', event: 'Joe Arpaio Civil Rights Violations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-11-22', event: 'Joe Arpaio Civil Rights Violations — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'aurora-shooting': {
  title: 'Aurora Theater Shooting',
@@ -1022,6 +1138,12 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2024-08-31',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2012', event: 'On July 20, 2012, James Holmes entered a packed movie theater in Aurora, Colorado and opened fire with legally purchased weapons, killing 12 people and wounding 70.', type: 'default' },
+     { date: '2012-01-01', event: 'Aurora Theater Shooting investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2012-07-20', event: 'On July 20, 2012, James Holmes entered a packed movie theater in Aurora, Colorado and opened fire with legally purchased weapons, killing 12 people and wounding 70.', type: 'default' },
+     { date: '2024-08-31', event: 'Aurora Theater Shooting — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'authoritarianism': {
  title: 'Global Authoritarian Trends',
@@ -1049,6 +1171,10 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2022-03-04',
    lastActivityDate: '2026-02-23',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022-03-04', event: 'Global Authoritarian Trends investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2026-02-23', event: 'Global Authoritarian Trends — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'autonomous-weapons': {
  title: 'Autonomous Weapons Development',
@@ -1076,6 +1202,10 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2019-05-19',
    lastActivityDate: '2022-09-09',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019-05-19', event: 'Autonomous Weapons Development investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-09-09', event: 'Autonomous Weapons Development — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'aviation-safety': {
  title: 'Aviation Safety Regulatory Failures',
@@ -1103,6 +1233,10 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2020-09-15',
    lastActivityDate: '2023-02-04',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-09-15', event: 'Aviation Safety Regulatory Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-02-04', event: 'Aviation Safety Regulatory Failures — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'activision-harassment': {
  title: 'Activision Blizzard Workplace Harassment',
@@ -1134,6 +1268,10 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2024-06-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021-01-01', event: 'Activision Blizzard Workplace Harassment investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-06-20', event: 'Activision Blizzard Workplace Harassment — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'agribusiness-capture-of-usda': {
     title: 'Agribusiness Capture of USDA',
@@ -1871,10 +2009,12 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '1961-01-01',
    lastActivityDate: '2025-11-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1961', event: 'The military-industrial complex, warned about by Eisenhower in 1961, has grown to consume 54% of federal discretionary spending', type: 'legal' },
-     { date: '2018', event: 'Between 2018-2022, defense contractors contributed $150 million to members of the House and Senate Armed Services Committees', type: 'political' },
-     { date: '2023', event: 'The top five defense contractors (Lockheed Martin, Raytheon, Boeing, Northrop Grumman, General Dynamics) spent $285 million on lobbying in 2023 alone, employing 800+ lobbyists', type: 'financial' },
+      timeline: [
+     { date: '1961', event: 'The military-industrial complex, warned about by Eisenhower in 1961, has grown to consume 54% of federal discretionary spending.', type: 'default' },
+     { date: '1961-01-01', event: 'Arms Industry Lobbying & Campaign Finance investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2018', event: 'Between 2018-2022, defense contractors contributed $150 million to members of the House and Senate Armed Services Committees.', type: 'political' },
+     { date: '2023', event: 'The top five defense contractors (Lockheed Martin, Raytheon, Boeing, Northrop Grumman, General Dynamics) spent $285 million on lobbying in 2023 alone, employing 800+ lobbyists.', type: 'financial' },
+     { date: '2025-11-15', event: 'Arms Industry Lobbying & Campaign Finance — investigation remains active with ongoing developments', type: 'political' },
    ],
   },
   'artificial-intelligence-arms-race': {
@@ -2312,6 +2452,11 @@ const investigations_a: Record<string, InvestigationData> = {
    eventOriginDate: '1930-01-01',
    lastActivityDate: '2025-01-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1930-01-01', event: 'Agricultural Worker Exploitation and Modern Slavery investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'In 2023, a DOJ investigation uncovered a trafficking ring that exploited hundreds of H-2A workers through force, fraud, and coercion across multiple states.', type: 'financial' },
+     { date: '2025-01-20', event: 'Agricultural Worker Exploitation and Modern Slavery — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'payday-loan-industry-debt-trap': {
     title: 'Payday Loan Industry and Legalized Debt Traps',

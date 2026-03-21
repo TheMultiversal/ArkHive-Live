@@ -37,6 +37,12 @@ const investigations_n: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2022-10-13',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018', event: 'SHITHOLE COUNTRIES: In January 2018, Trump asked why the US would accept immigrants from ;shithole countries ;referring to Haiti, El Salvador, and African nations, expressing preference for Norwegian immigrants.', type: 'default' },
+     { date: '2018-01', event: 'SHITHOLE COUNTRIES: In January 2018, Trump asked why the US would accept immigrants from ;shithole countries ;referring to Haiti, El Salvador, and African nations, expressing preference for Norwegian immigrants.', type: 'default' },
+     { date: '2018-01-01', event: 'Neo-Colonial Exploitation Patterns investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-10-13', event: 'Neo-Colonial Exploitation Patterns — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'nra-russia': {
  title: 'NRA Russia Investigation',
@@ -155,9 +161,12 @@ const investigations_n: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2024-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'CAMPAIGN FINANCE QUESTIONS: The NRA spent $30 million supporting Trump in 2016, triple its 2012 spending', type: 'political' },
-     { date: '2024', event: 'LAPIERRE CIVIL TRIAL: In 2024, a New York jury found LaPierre liable for diverting NRA funds', type: 'legal' },
+      timeline: [
+     { date: '2012', event: 'The NRA spent $30 million supporting Trump in 2016, triple its 2012 spending.', type: 'financial' },
+     { date: '2012-01-01', event: 'NRA Corruption & Russian Infiltration investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2016', event: 'The NRA spent $30 million supporting Trump in 2016, triple its 2012 spending.', type: 'financial' },
+     { date: '2024', event: 'In 2024, a New York jury found LaPierre liable for diverting NRA funds.', type: 'financial' },
+     { date: '2024-01-01', event: 'NRA Corruption & Russian Infiltration — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'neocon-network': {
@@ -199,9 +208,12 @@ const investigations_n: Record<string, InvestigationData> = {
    eventOriginDate: '1997-01-01',
    lastActivityDate: '2025-07-10',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1997', event: 'PROJECT FOR THE NEW AMERICAN CENTURY: Founded in 1997, PNAC\'s founding statement called for "American global leadership "through military strength', type: 'default' },
-     { date: '1998', event: 'THE IRAQ FIXATION: In January 1998, PNAC wrote President Clinton urging" removing Saddam Hussein and his regime from power."They planned Iraq invasion years before 9/11 provided the pretext', type: 'political' },
+      timeline: [
+     { date: '1997', event: 'Founded in 1997, PNAC\'s founding statement called for ;American global leadership ;through military strength.', type: 'default' },
+     { date: '1997-01-01', event: 'Neoconservative Network investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1998', event: 'In January 1998, PNAC wrote President Clinton urging; removing Saddam Hussein and his regime from power.;They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
+     { date: '1998-01', event: 'In January 1998, PNAC wrote President Clinton urging; removing Saddam Hussein and his regime from power.;They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
+     { date: '2025-07-10', event: 'Neoconservative Network — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'nih-wuhan': {
@@ -273,9 +285,13 @@ const investigations_n: Record<string, InvestigationData> = {
    eventOriginDate: '1977-01-01',
    lastActivityDate: '2025-05-26',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1977', event: 'BOYCOTT: In 1977, a global boycott began after publication of "The Baby Killer."It became the largest product boycott in history, lasting until 1984 and resuming in 1988', type: 'default' },
-     { date: '1981', event: 'WHO CODE: In 1981, the World Health Assembly adopted the International Code of Marketing of Breast-milk Substitutes', type: 'default' },
+      timeline: [
+     { date: '1977', event: 'In 1977, a global boycott began after publication of ;The Baby Killer.;It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
+     { date: '1977-01-01', event: 'Nestlé Baby Formula Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1981', event: 'In 1981, the World Health Assembly adopted the International Code of Marketing of Breast-milk Substitutes.', type: 'default' },
+     { date: '1984', event: 'In 1977, a global boycott began after publication of ;The Baby Killer.;It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
+     { date: '1988', event: 'In 1977, a global boycott began after publication of ;The Baby Killer.;It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
+     { date: '2025-05-26', event: 'Nestlé Baby Formula Scandal — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'nbc-misconduct': {
@@ -391,10 +407,13 @@ const investigations_n: Record<string, InvestigationData> = {
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2022-11-30',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2000', event: 'The News of the World, Britain\'s best-selling Sunday newspaper owned by Rupert Murdoch\'s News International, employed private investigators to hack into the voicemail accounts of thousands of peopl...', type: 'default' },
-     { date: '2006', event: 'The police\'s initial investigation in 2006 was deliberately limited; only two people were charged despite evidence of widespread hacking', type: 'default' },
-     { date: '2011-07-01', event: 'The scandal erupted in July 2011 when the Guardian newspaper reported that News of the World journalists had hacked the phone of Milly Dowler, a 13-year-old murder victim, while she was still missing', type: 'critical' },
+      timeline: [
+     { date: '2000', event: 'The News of the World, Britain\'s best-selling Sunday newspaper owned by Rupert Murdoch\'s News International, employed private investigators to hack into the voicemail accounts of thousands of people between 2000 and...', type: 'default' },
+     { date: '2000-01-01', event: 'News of the World Phone Hacking Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2006', event: 'The police\'s initial investigation in 2006 was deliberately limited; only two people were charged despite evidence of widespread hacking.', type: 'default' },
+     { date: '2011', event: 'The News of the World, Britain\'s best-selling Sunday newspaper owned by Rupert Murdoch\'s News International, employed private investigators to hack into the voicemail accounts of thousands of people between 2000 and...', type: 'default' },
+     { date: '2011-07', event: 'The scandal erupted in July 2011 when the Guardian newspaper reported that News of the World journalists had hacked the phone of Milly Dowler, a 13-year-old murder victim, while she was still missing.', type: 'default' },
+     { date: '2022-11-30', event: 'News of the World Phone Hacking Scandal — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'nxivm-cult': {
@@ -431,9 +450,12 @@ const investigations_n: Record<string, InvestigationData> = {
    eventOriginDate: '1998-01-01',
    lastActivityDate: '2025-12-26',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1998', event: 'NXIVM (pronounced "Nexium") was founded by Keith Raniere in 1998 as Executive Success Programs, offering self-improvement courses using a methodology called "Rational Inquiry." The organization att...', type: 'default' },
-     { date: '2018-03-01', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges', type: 'legal' },
+      timeline: [
+     { date: '1998', event: 'NXIVM (pronounced ;Nexium;) was founded by Keith Raniere in 1998 as Executive Success Programs, offering self-improvement courses using a methodology called ;Rational Inquiry.; The organization attracted wealthy and...', type: 'default' },
+     { date: '1998-01-01', event: 'NXIVM: The Sex Cult Disguised as a Self-Help Organization investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018-03', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' },
+     { date: '2019-06', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' },
+     { date: '2025-12-26', event: 'NXIVM: The Sex Cult Disguised as a Self-Help Organization — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'nypd-chokehold': {
@@ -661,10 +683,11 @@ const investigations_n: Record<string, InvestigationData> = {
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-10-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1996', event: 'Promoter Michael Alig murdered drug dealer Andre "Angel" Melendez in 1996, dismembered the body, and disposed of it in the Hudson River; a crime that epitomized the era\'s nightlife excess', type: 'critical' },
-     { date: '1996', event: 'Gatien was indicted on drug conspiracy charges in 1996; he was acquitted at trial but subsequently deported to Canada', type: 'legal' },
-     { date: '2023', event: 'The emergence of fentanyl-laced party drugs has dramatically increased the danger; a 2023 DEA report noted that counterfeit pills containing fentanyl were increasingly detected in nightclub environ...', type: 'default' },
+      timeline: [
+     { date: '1990-01-01', event: 'Nightclub Industry Criminal Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1996', event: 'Promoter Michael Alig murdered drug dealer Andre ;Angel; Melendez in 1996, dismembered the body, and disposed of it in the Hudson River; a crime that epitomized the era\'s nightlife excess.', type: 'default' },
+     { date: '2023', event: 'The emergence of fentanyl-laced party drugs has dramatically increased the danger; a 2023 DEA report noted that counterfeit pills containing fentanyl were increasingly detected in nightclub environments, with...', type: 'default' },
+     { date: '2025-10-07', event: 'Nightclub Industry Criminal Networks — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'nuclear-waste-storage-failure-points': {

@@ -43,10 +43,14 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2023-03-25',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016-07-27', event: 'PUBLIC SOLICITATION OF RUSSIAN HELP: On July 27, 2016, Trump publicly called on Russia to hack his political opponent:"Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that...', type: 'default' },
-     { date: '2017-05-01', event: 'SHARING CLASSIFIED INTELLIGENCE WITH RUSSIA: In May 2017, Trump disclosed highly classified intelligence to Russian Foreign Minister Lavrov and Ambassador Kislyak in the Oval Office', type: 'default' },
-     { date: '2018-07-16', event: 'HELSINKI BETRAYAL: On July 16, 2018, Trump stood beside Putin in Helsinki and said he believed Putin\'s denial of election interference over the unanimous assessment of every U.S', type: 'political' },
+      timeline: [
+     { date: '2016', event: 'On July 27, 2016, Trump publicly called on Russia to hack his political opponent:;Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing.;The Mueller Report confirmed Russian...', type: 'default' },
+     { date: '2016-01-01', event: 'Treason & Foreign Collusion investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2016-07-27', event: 'On July 27, 2016, Trump publicly called on Russia to hack his political opponent:;Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing.;The Mueller Report confirmed Russian...', type: 'default' },
+     { date: '2017-05', event: 'Former CIA Director John Brennan called it ;nothing short of treasonous.; SHARING CLASSIFIED INTELLIGENCE WITH RUSSIA: In May 2017, Trump disclosed highly classified intelligence to Russian Foreign Minister Lavrov...', type: 'default' },
+     { date: '2018', event: 'On July 16, 2018, Trump stood beside Putin in Helsinki and said he believed Putin\'s denial of election interference over the unanimous assessment of every U.S.', type: 'political' },
+     { date: '2018-07-16', event: 'On July 16, 2018, Trump stood beside Putin in Helsinki and said he believed Putin\'s denial of election interference over the unanimous assessment of every U.S.', type: 'political' },
+     { date: '2023-03-25', event: 'Treason & Foreign Collusion — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'trump-tower-meeting': {
@@ -79,9 +83,12 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2018-02-09',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016-06-03', event: 'THE EMAIL: On June 3, 2016, Rob Goldstone emailed Don Jr', type: 'default' },
-     { date: '2017', event: 'THE COVER-UP: When the meeting was revealed in 2017, Trump dictated a misleading statement claiming it was about Russian adoptions', type: 'default' },
+      timeline: [
+     { date: '2016', event: 'THE EMAIL: On June 3, 2016, Rob Goldstone emailed Don Jr.', type: 'default' },
+     { date: '2016-01-01', event: 'Trump Tower Meeting (June 2016) investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2016-06-03', event: 'THE EMAIL: On June 3, 2016, Rob Goldstone emailed Don Jr.', type: 'default' },
+     { date: '2017', event: 'When the meeting was revealed in 2017, Trump dictated a misleading statement claiming it was about Russian adoptions.', type: 'default' },
+     { date: '2018-02-09', event: 'Trump Tower Meeting (June 2016) — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'trump-tower-moscow': {
@@ -116,10 +123,14 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2018-03-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2015-10-01', event: 'Trump signed a letter of intent in October 2015', type: 'default' },
-     { date: '2016', event: 'COHEN\'S TESTIMONY: Michael Cohen initially told Congress the project ended in January 2016', type: 'political' },
-     { date: '2016-06-01', event: 'In fact, negotiations continued through June 2016', type: 'default' },
+      timeline: [
+     { date: '2015', event: 'Trump signed a letter of intent in October 2015.', type: 'default' },
+     { date: '2015-01-01', event: 'Trump Tower Moscow Project investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2015-10', event: 'Trump signed a letter of intent in October 2015.', type: 'default' },
+     { date: '2016', event: 'While publicly denying any business dealings with Russia during the 2016 campaign, Trump was secretly pursuing a Trump Tower Moscow project that would have been his largest deal ever.', type: 'political' },
+     { date: '2016-01', event: 'COHEN\'S TESTIMONY: Michael Cohen initially told Congress the project ended in January 2016.', type: 'political' },
+     { date: '2016-06', event: 'Negotiations continued through June 2016, the same month as the Trump Tower meeting with Russians.', type: 'default' },
+     { date: '2018-03-01', event: 'Trump Tower Moscow Project — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'trump-model-management': {
@@ -190,6 +201,11 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-06-01',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2017', event: 'In 2017, Trump\'s name was removed from the building.', type: 'default' },
+     { date: '2017-01-01', event: 'Trump SoHo Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2025-06-01', event: 'Trump SoHo Fraud — investigation remains active with ongoing developments', type: 'financial' },
+   ],
  },
   'torture-program': {
  title: 'CIA Torture Program',
@@ -227,10 +243,12 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-01-24',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2002', event: 'THE PROGRAM: Beginning in 2002, the CIA operated secret detention facilities ("black sites") in countries including Poland, Romania, Lithuania, Thailand, and Afghanistan', type: 'default' },
-     { date: '2005', event: 'DESTROYED EVIDENCE: In 2005, the CIA destroyed 92 videotapes of interrogation sessions, potentially containing evidence of war crimes', type: 'default' },
-     { date: '2014', event: 'SENATE TORTURE REPORT: The Senate Intelligence Committee conducted a 6,700-page investigation (executive summary released 2014) concluding that: torture did not produce unique intelligence, the CIA...', type: 'political' },
+      timeline: [
+     { date: '2002', event: 'THE PROGRAM: Beginning in 2002, the CIA operated secret detention facilities (;black sites;) in countries including Poland, Romania, Lithuania, Thailand, and Afghanistan.', type: 'default' },
+     { date: '2002-01-01', event: 'CIA Torture Program investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2005', event: 'In 2005, the CIA destroyed 92 videotapes of interrogation sessions, potentially containing evidence of war crimes.', type: 'default' },
+     { date: '2014', event: 'The Senate Intelligence Committee conducted a 6,700-page investigation (executive summary released 2014) concluding that: torture did not produce unique intelligence, the CIA misled oversight bodies, and conditions...', type: 'political' },
+     { date: '2025-01-24', event: 'CIA Torture Program — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'trump-immunity': {
@@ -271,9 +289,11 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2024-01-01',
    lastActivityDate: '2025-06-10',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2024', event: 'TRIAL DELAY: The immunity litigation delayed Trump\'s January 6 trial, likely pushing it past the 2024 election', type: 'legal' },
-     { date: '2024-07-01', event: 'In July 2024, the Court issued a ruling granting broad immunity for "official acts "while creating an uncertain test for what counts as official', type: 'legal' },
+      timeline: [
+     { date: '2024', event: 'The immunity litigation delayed Trump\'s January 6 trial, likely pushing it past the 2024 election.', type: 'legal' },
+     { date: '2024-01-01', event: 'Trump Absolute Immunity Claims investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-07', event: 'In July 2024, the Court issued a ruling granting broad immunity for ;official acts ;while creating an uncertain test for what counts as official.', type: 'legal' },
+     { date: '2025-06-10', event: 'Trump Absolute Immunity Claims — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'tech-censorship': {
@@ -314,6 +334,10 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2022-07-06',
    lastActivityDate: '2025-03-03',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022-07-06', event: 'Big Tech and Content Moderation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-03-03', event: 'Big Tech and Content Moderation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'trump-pardons': {
  title: 'Trump\'s Corrupt Pardon Spree',
@@ -357,6 +381,10 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-20',
    lastActivityDate: '2022-01-10',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021-01-20', event: 'Trumps Corrupt Pardon Spree investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-01-10', event: 'Trumps Corrupt Pardon Spree — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'torture-accountability': {
  title: 'Torture Program Accountability Failure',
@@ -399,6 +427,11 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-07-31',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2002', event: 'Beginning in 2002, the CIA operated a secret detention and interrogation program using ;enhanced interrogation techniques;|a euphemism for torture.', type: 'default' },
+     { date: '2002-01-01', event: 'Torture Program Accountability Failure investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-07-31', event: 'Torture Program Accountability Failure — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'trump-campaign': {
  title: 'Trump Campaign Crimes',
@@ -428,9 +461,11 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2022-12-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'The payments influenced the 2016 election', type: 'political' },
-     { date: '2020', event: 'ONGOING: Trump faces criminal charges for 2020 election interference schemes', type: 'political' },
+      timeline: [
+     { date: '2016', event: 'The payments influenced the 2016 election.', type: 'political' },
+     { date: '2016-01-01', event: 'Trump Campaign Crimes investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2020', event: 'Trump faces criminal charges for 2020 election interference schemes.', type: 'political' },
+     { date: '2022-12-07', event: 'Trump Campaign Crimes — investigation remains active with ongoing developments', type: 'political' },
    ],
  },
   'trump-russia': {
@@ -455,6 +490,10 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-01-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016-01-01', event: 'Trump-Russia Investigation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-01-20', event: 'Trump-Russia Investigation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'tamir-rice-shooting': {
  title: 'Tamir Rice: The 12-Year-Old Killed by Police in Under Two Seconds',
@@ -522,10 +561,11 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2025-06-24',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2013', event: 'Jeff Bezos purchased the Washington Post for $250 million in 2013, adding media ownership to Amazon\'s e-commerce dominance, AWS cloud infrastructure (hosting government systems), and Blue Origin\'s ...', type: 'financial' },
-     { date: '2024', event: 'As of 2024, the combined wealth of the top 10 tech billionaires exceeds $1.5 trillion', type: 'political' },
-     { date: '2024', event: 'His reported $250 million in 2024 election spending through America PAC, followed by his appointment to lead DOGE, created unprecedented conflicts of interest between private wealth, government pow...', type: 'political' },
+      timeline: [
+     { date: '2013', event: 'Jeff Bezos purchased the Washington Post for $250 million in 2013, adding media ownership to Amazon\'s e-commerce dominance, AWS cloud infrastructure (hosting government systems), and Blue Origin\'s aerospace contracts.', type: 'financial' },
+     { date: '2013-01-01', event: 'Tech Billionaire Influence: Plutocracy in the Digital Age investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024', event: 'As of 2024, the combined wealth of the top 10 tech billionaires exceeds $1.5 trillion.', type: 'default' },
+     { date: '2025-06-24', event: 'Tech Billionaire Influence: Plutocracy in the Digital Age — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'tech-industry-sexism': {
@@ -604,9 +644,11 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-07-12',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'A 2020 EPI study found H-1B workers were paid 17% below market rate on average', type: 'financial' },
-     { date: '2023', event: 'A 2023 TIME investigation revealed that Kenyan content moderators for ChatGPT (employed through outsourcing firm Sama) viewed horrific material including child sexual abuse at wages of $1.32-$2.00 ...', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'A 2020 EPI study found H-1B workers were paid 17% below market rate on average.', type: 'financial' },
+     { date: '2020-01-01', event: 'Tech Labor Exploitation: The Invisible Workers Behind the Screen investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'A 2023 TIME investigation revealed that Kenyan content moderators for ChatGPT (employed through outsourcing firm Sama) viewed horrific material including child sexual abuse at wages of $1.32-$2.00 per hour and...', type: 'default' },
+     { date: '2025-07-12', event: 'Tech Labor Exploitation: The Invisible Workers Behind the Screen — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'tech-monopolies': {
@@ -730,9 +772,12 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2026-01-20',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2015', event: 'The youth vaping epidemic was ignited by Juul\'s launch in 2015, which introduced nicotine salt technology that delivered high nicotine concentrations (5% or 59 mg/ml) without the harsh throat hit o...', type: 'default' },
-     { date: '2019', event: 'By 2019, 27.5% of high school students and 10.5% of middle school students reported current e-cigarette use, up from less than 2% in 2011', type: 'default' },
+      timeline: [
+     { date: '2011', event: 'By 2019, 27.5% of high school students and 10.5% of middle school students reported current e-cigarette use, up from less than 2% in 2011.', type: 'default' },
+     { date: '2011-01-01', event: 'Teen Nicotine Addiction: How Big Tobacco Reinvented Youth Marketing investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2015', event: 'The youth vaping epidemic was ignited by Juul\'s launch in 2015, which introduced nicotine salt technology that delivered high nicotine concentrations (5% or 59 mg/ml) without the harsh throat hit of previous products.', type: 'default' },
+     { date: '2019', event: 'E-cigarette companies engineered a youth nicotine epidemic, with teen vaping rising from nearly zero to 27.5% of high school students by 2019 through flavored products, social media campaigns, and nicotine salt...', type: 'default' },
+     { date: '2026-01-20', event: 'Teen Nicotine Addiction: How Big Tobacco Reinvented Youth Marketing — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'telecom-privacy': {
@@ -859,10 +904,12 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2024-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2021-03-01', event: 'Operation Lone Star, launched by Governor Greg Abbott in March 2021, deployed up to 10,000 National Guard troops and Texas Department of Public Safety officers to the border at a cost exceeding $10...', type: 'financial' },
-     { date: '2023', event: 'In 2023, federal agents documented instances where migrants, including a pregnant woman and children, became entangled in the wire and required emergency medical attention', type: 'default' },
-     { date: '2024', event: 'A federal judge ordered the barriers removed, but the Fifth Circuit Court of Appeals partially reversed the ruling, and the barriers remained as of 2024', type: 'legal' },
+      timeline: [
+     { date: '2021-01-01', event: 'Texas Border Cruelty: Operation Lone Star and the Weaponization of Immigration investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021-03', event: 'Operation Lone Star, launched by Governor Greg Abbott in March 2021, deployed up to 10,000 National Guard troops and Texas Department of Public Safety officers to the border at a cost exceeding $10 billion.', type: 'financial' },
+     { date: '2023', event: 'In 2023, federal agents documented instances where migrants, including a pregnant woman and children, became entangled in the wire and required emergency medical attention.', type: 'default' },
+     { date: '2024', event: 'A federal judge ordered the barriers removed, but the Fifth Circuit Court of Appeals partially reversed the ruling, and the barriers remained as of 2024.', type: 'legal' },
+     { date: '2024-01-01', event: 'Texas Border Cruelty: Operation Lone Star and the Weaponization of Immigration — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'texas-grid-failures': {
@@ -895,9 +942,12 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2023-11-12',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2011', event: 'A nearly identical cold weather event in 2011 caused blackouts across Texas, prompting a federal report recommending that Texas winterize its power generation equipment', type: 'default' },
-     { date: '2021-02-01', event: 'During Winter Storm Uri in February 2021, the Texas power grid came within minutes of a total collapse that would have left the state without electricity for weeks or months', type: 'critical' },
+      timeline: [
+     { date: '2011', event: 'A nearly identical cold weather event in 2011 caused blackouts across Texas, prompting a federal report recommending that Texas winterize its power generation equipment.', type: 'default' },
+     { date: '2011-01-01', event: 'Texas Grid Failures: Deregulation, Greed, and Preventable Death investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2021', event: 'Texas\'s deregulated, isolated power grid collapsed during Winter Storm Uri in February 2021, leaving 4.5 million homes without power for days in freezing temperatures.', type: 'financial' },
+     { date: '2021-02', event: 'Texas\'s deregulated, isolated power grid collapsed during Winter Storm Uri in February 2021, leaving 4.5 million homes without power for days in freezing temperatures.', type: 'financial' },
+     { date: '2023-11-12', event: 'Texas Grid Failures: Deregulation, Greed, and Preventable Death — investigation remains active with ongoing developments', type: 'critical' },
    ],
  },
   'three-arrows-capital': {
@@ -1050,10 +1100,13 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-05-13',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018', event: 'The Anti-Defamation League recorded 1,879 antisemitic incidents in 2018 (the third-highest year on record) and the number increased every year after the Tree of Life attack, reaching 3,697 in 2022', type: 'critical' },
-     { date: '2018-10-27', event: 'On the morning of October 27, 2018, Robert Bowers entered the Tree of Life synagogue in Pittsburgh\'s Squirrel Hill neighborhood during Saturday morning Shabbat services and opened fire with an AR-1...', type: 'default' },
-     { date: '2023-08-01', event: 'In August 2023, the jury sentenced Bowers to death', type: 'legal' },
+      timeline: [
+     { date: '2018', event: 'On the morning of October 27, 2018, Robert Bowers entered the Tree of Life synagogue in Pittsburgh\'s Squirrel Hill neighborhood during Saturday morning Shabbat services and opened fire with an AR-15-style rifle and...', type: 'default' },
+     { date: '2018-01-01', event: 'Tree of Life Synagogue Massacre: The Deadliest Antisemitic Attack in U.S. History investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2018-10-27', event: 'On the morning of October 27, 2018, Robert Bowers entered the Tree of Life synagogue in Pittsburgh\'s Squirrel Hill neighborhood during Saturday morning Shabbat services and opened fire with an AR-15-style rifle and...', type: 'default' },
+     { date: '2022', event: 'The Anti-Defamation League recorded 1,879 antisemitic incidents in 2018 (the third-highest year on record) and the number increased every year after the Tree of Life attack, reaching 3,697 in 2022.', type: 'critical' },
+     { date: '2023-08', event: 'In August 2023, the jury sentenced Bowers to death.', type: 'legal' },
+     { date: '2025-05-13', event: 'Tree of Life Synagogue Massacre: The Deadliest Antisemitic Attack in U.S. History — investigation remains active with ongoing developments', type: 'critical' },
    ],
  },
   'trump-admin-2': {
@@ -1086,9 +1139,10 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '1883-01-01',
    lastActivityDate: '2025-01-20',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1883', event: 'This effectively dismantled the merit-based civil service system established by the Pendleton Act of 1883', type: 'default' },
-     { date: '2025-01-20', event: 'The Trump second administration, beginning January 20, 2025, immediately moved to consolidate executive power on a scale not seen in modern American history', type: 'default' },
+      timeline: [
+     { date: '1883-01-01', event: 'Trump Second Administration: The Consolidation of Executive Power investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025', event: 'The Trump second administration (2025-) has pursued unprecedented executive power consolidation through DOGE-led mass federal layoffs, gutting of regulatory agencies, Schedule F reclassification of civil servants,...', type: 'default' },
+     { date: '2025-01-20', event: 'The Trump second administration, beginning January 20, 2025, immediately moved to consolidate executive power on a scale not seen in modern American history.', type: 'default' },
    ],
  },
   'trump-admin-corruption': {
@@ -1121,6 +1175,10 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2023-09-16',
    lastActivityDate: '2024-01-06',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023-09-16', event: 'Trump Administration Corruption: The Grift That Governed investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-01-06', event: 'Trump Administration Corruption: The Grift That Governed — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'trump-administration': {
  title: 'Trump First Administration: Four Years of Constitutional Crisis',
@@ -1152,9 +1210,14 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-10-24',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2021', event: 'The first administration\'s handling of the COVID-19 pandemic resulted in an estimated 400,000+ American deaths by January 2021', type: 'critical' },
-     { date: '2024', event: 'As of 2024, approximately 1,000 children had not been reunited with their parents', type: 'default' },
+      timeline: [
+     { date: '2017', event: 'The Trump first administration (2017-2021) was defined by systematic attacks on democratic institutions, politicization of federal agencies, obstruction of oversight, and an escalating pattern of norm-breaking that...', type: 'default' },
+     { date: '2017-01-01', event: 'Trump First Administration: Four Years of Constitutional Crisis investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2021', event: 'The Trump first administration (2017-2021) was defined by systematic attacks on democratic institutions, politicization of federal agencies, obstruction of oversight, and an escalating pattern of norm-breaking that...', type: 'default' },
+     { date: '2021-01', event: 'The first administration\'s handling of the COVID-19 pandemic resulted in an estimated 400,000+ American deaths by January 2021.', type: 'default' },
+     { date: '2021-01-06', event: 'The Trump first administration (2017-2021) was defined by systematic attacks on democratic institutions, politicization of federal agencies, obstruction of oversight, and an escalating pattern of norm-breaking that...', type: 'default' },
+     { date: '2024', event: 'As of 2024, approximately 1,000 children had not been reunited with their parents.', type: 'default' },
+     { date: '2025-10-24', event: 'Trump First Administration: Four Years of Constitutional Crisis — investigation remains active with ongoing developments', type: 'critical' },
    ],
  },
   'trump-corruption': {
@@ -1470,10 +1533,12 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2024-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2010', event: 'In 2010, 72 migrants were massacred at a ranch in San Fernando, Tamaulipas, reportedly for refusing to work as cartel drug mules', type: 'critical' },
-     { date: '2023', event: 'Honduras had a homicide rate of 38 per 100,000 in 2023', type: 'default' },
-     { date: '2023', event: 'The transfer of unaccompanied children from ORR shelters to sponsors has in multiple documented cases resulted in children being placed with traffickers; a 2023 New York Times investigation found m...', type: 'default' },
+      timeline: [
+     { date: '2010', event: 'In 2010, 72 migrants were massacred at a ranch in San Fernando, Tamaulipas, reportedly for refusing to work as cartel drug mules.', type: 'default' },
+     { date: '2010-01-01', event: 'Trafficking Corridors Central America investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'Honduras had a homicide rate of 38 per 100,000 in 2023.', type: 'default' },
+     { date: '2024', event: 'federal court in 2024.', type: 'legal' },
+     { date: '2024-01-01', event: 'Trafficking Corridors Central America — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'trafficking-in-conflict-zones': {
@@ -1657,9 +1722,11 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '1969-01-01',
    lastActivityDate: '2024-02-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1969', event: 'Philip Morris\'s 1969 memo stated: "Doubt is our product since it is the best means of competing with the \'body of fact\' that exists in the mind of the general public." The pharmaceutical industry h...', type: 'default' },
-     { date: '2010', event: 'A 2010 ProPublica investigation found that pharmaceutical companies paid billions to physicians; with the highest-paid KOLs receiving over $1 million annually from a single company', type: 'political' },
+      timeline: [
+     { date: '1969', event: 'Philip Morris\'s 1969 memo stated: ;Doubt is our product since it is the best means of competing with the \'body of fact\' that exists in the mind of the general public.; The pharmaceutical industry has adopted this...', type: 'default' },
+     { date: '1969-01-01', event: 'Tobacco Industry Playbook in Pharma investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2010', event: 'A 2010 ProPublica investigation found that pharmaceutical companies paid billions to physicians; with the highest-paid KOLs receiving over $1 million annually from a single company.', type: 'financial' },
+     { date: '2024-02-07', event: 'Tobacco Industry Playbook in Pharma — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'toxic-waste-dumping-developing-nations': {
@@ -1725,10 +1792,12 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-07-27',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2015', event: 'In 2015, Walt Disney World laid off 250 IT workers and required them to train their H-1B replacements; workers who would perform the same jobs at lower wages; as a condition of receiving severance', type: 'default' },
-     { date: '2020', event: 'A 2020 study found that H-1B workers are 12% less likely to file complaints with the Department of Labor than comparable American workers', type: 'default' },
-     { date: '2024', event: 'Indian-born workers filing EB-2 or EB-3 green card applications in 2024 face estimated wait times of 50-80+ years; meaning most will never receive a green card', type: 'default' },
+      timeline: [
+     { date: '2015', event: 'In 2015, Walt Disney World laid off 250 IT workers and required them to train their H-1B replacements; workers who would perform the same jobs at lower wages; as a condition of receiving severance.', type: 'default' },
+     { date: '2015-01-01', event: 'Tech Worker Exploitation Visa System investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'A 2020 study found that H-1B workers are 12% less likely to file complaints with the Department of Labor than comparable American workers.', type: 'default' },
+     { date: '2024', event: 'Indian-born workers filing EB-2 or EB-3 green card applications in 2024 face estimated wait times of 50-80+ years; meaning most will never receive a green card.', type: 'default' },
+     { date: '2025-07-27', event: 'Tech Worker Exploitation Visa System — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'think-tank-dark-money-influence': {
@@ -1795,6 +1864,11 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-08-26',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'A 2020 study found that 91% of sex trafficking victims had been arrested at least once.', type: 'default' },
+     { date: '2020-01-01', event: 'Trafficking Victim Identification Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-08-26', event: 'Trafficking Victim Identification Failures — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'trade-based-money-laundering-schemes': {
     title: 'Trade-Based Money Laundering Schemes',
@@ -1823,6 +1897,12 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2004-01-01',
    lastActivityDate: '2026-02-05',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2004', event: 'Global Financial Integrity\'s analysis of trade data from 135 developing countries found $8.7 trillion in illicit financial flows between 2004 and 2013; the majority through trade misinvoicing.', type: 'default' },
+     { date: '2004-01-01', event: 'Trade-Based Money Laundering Schemes investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2013', event: 'Global Financial Integrity\'s analysis of trade data from 135 developing countries found $8.7 trillion in illicit financial flows between 2004 and 2013; the majority through trade misinvoicing.', type: 'default' },
+     { date: '2026-02-05', event: 'Trade-Based Money Laundering Schemes — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'trucking-industry-organized-crime': {
     title: 'Trucking Industry Organized Crime',
@@ -2437,9 +2517,11 @@ const investigations_t: Record<string, InvestigationData> = {
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-01-22',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2010', event: 'Industry lobbyists spent over $20 million between 2010 and 2023 opposing rate caps and disclosure requirements', type: 'financial' },
-     { date: '2023', event: 'A 2023 study by the National Consumer Law Center found that title loan repossessions disproportionately affect Black and Latino households, deepening existing wealth gaps', type: 'political' },
+      timeline: [
+     { date: '2010', event: 'Industry lobbyists spent over $20 million between 2010 and 2023 opposing rate caps and disclosure requirements.', type: 'financial' },
+     { date: '2010-01-01', event: 'Title Loan Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'Industry lobbyists spent over $20 million between 2010 and 2023 opposing rate caps and disclosure requirements.', type: 'financial' },
+     { date: '2025-01-22', event: 'Title Loan Exploitation — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'tuskegee-syphilis-experiment': {

@@ -38,9 +38,12 @@ const investigations_u: Record<string, InvestigationData> = {
    eventOriginDate: '2004-01-01',
    lastActivityDate: '2025-02-23',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2004', event: 'MANAFORT\'S UKRAINE WORK: Paul Manafort earned $65+ million advising pro-Russian Ukrainian President Viktor Yanukovych and his Party of Regions from 2004-2014', type: 'political' },
-     { date: '2014-02-01', event: 'YANUKOVYCH FLIGHT: In February 2014, Yanukovych fled Ukraine after the Maidan revolution', type: 'default' },
+      timeline: [
+     { date: '2004', event: 'MANAFORT\'S UKRAINE WORK: Paul Manafort earned $65+ million advising pro-Russian Ukrainian President Viktor Yanukovych and his Party of Regions from 2004-2014.', type: 'political' },
+     { date: '2004-01-01', event: 'Ukraine Influence & Foreign Agent Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2014', event: 'MANAFORT\'S UKRAINE WORK: Paul Manafort earned $65+ million advising pro-Russian Ukrainian President Viktor Yanukovych and his Party of Regions from 2004-2014.', type: 'political' },
+     { date: '2014-02', event: 'In February 2014, Yanukovych fled Ukraine after the Maidan revolution.', type: 'default' },
+     { date: '2025-02-23', event: 'Ukraine Influence & Foreign Agent Networks — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'usps-interference': {
@@ -73,9 +76,12 @@ const investigations_u: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2026-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020-05-01', event: 'DEJOY\'S APPOINTMENT: In May 2020, Louis DeJoy became Postmaster General, a Trump mega-donor with no postal experience but significant investments in USPS competitors', type: 'default' },
-     { date: '2026', event: 'AFTERMATH: DeJoy remains Postmaster General as of 2026', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'In 2020, Trump donor Louis DeJoy was installed as Postmaster General and immediately began degrading mail service months before an election with unprecedented mail-in voting due to COVID.', type: 'political' },
+     { date: '2020-01-01', event: 'USPS Election Interference investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2020-05', event: 'DEJOY\'S APPOINTMENT: In May 2020, Louis DeJoy became Postmaster General, a Trump mega-donor with no postal experience but significant investments in USPS competitors.', type: 'default' },
+     { date: '2026', event: 'DeJoy remains Postmaster General as of 2026.', type: 'default' },
+     { date: '2026-01-01', event: 'USPS Election Interference — investigation remains active with ongoing developments', type: 'political' },
    ],
  },
   'undocumented-workers': {
@@ -108,9 +114,11 @@ const investigations_u: Record<string, InvestigationData> = {
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2023-05-11',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2015', event: 'THE HYPOCRISY: Trump launched his 2015 campaign calling Mexican immigrants "rapists "and "criminals."His own businesses employed them, exploited them, then discarded them', type: 'political' },
-     { date: '2019', event: 'THE PURGE: After news reports, Trump Organization began firing undocumented workers in early 2019, destroying evidence and casting out workers who had served loyally for years', type: 'default' },
+      timeline: [
+     { date: '2015', event: 'Trump launched his 2015 campaign calling Mexican immigrants ;rapists ;and ;criminals.;His own businesses employed them, exploited them, then discarded them.', type: 'political' },
+     { date: '2015-01-01', event: 'Undocumented Workers at Trump Properties investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019', event: 'After news reports, Trump Organization began firing undocumented workers in early 2019, destroying evidence and casting out workers who had served loyally for years.', type: 'default' },
+     { date: '2023-05-11', event: 'Undocumented Workers at Trump Properties — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'uae-influence': {
@@ -152,9 +160,11 @@ const investigations_u: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-07-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2017-06-01', event: 'THE QATAR BLOCKADE: In June 2017, the UAE and Saudi Arabia launched a blockade of Qatar', type: 'default' },
-     { date: '2021', event: 'TOM BARRACK: Trump\'s close friend and inaugural committee chair Tom Barrack was charged in 2021 with acting as an unregistered UAE agent', type: 'default' },
+      timeline: [
+     { date: '2017-01-01', event: 'UAE Influence Operations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017-06', event: 'In June 2017, the UAE and Saudi Arabia launched a blockade of Qatar.', type: 'default' },
+     { date: '2021', event: 'Trump\'s close friend and inaugural committee chair Tom Barrack was charged in 2021 with acting as an unregistered UAE agent.', type: 'default' },
+     { date: '2025-07-07', event: 'UAE Influence Operations — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'us-backed-dictators': {
@@ -327,9 +337,12 @@ const investigations_u: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2024-11-23',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2014', event: 'The Ukrainian military, bolstered by years of Western training and equipment since 2014, mounted a defense that stunned military analysts', type: 'default' },
-     { date: '2022-02-24', event: 'Russia launched a full-scale invasion of Ukraine on February 24, 2022, following months of military buildup that Western intelligence agencies tracked in detail', type: 'default' },
+      timeline: [
+     { date: '2014', event: 'The Ukrainian military, bolstered by years of Western training and equipment since 2014, mounted a defense that stunned military analysts.', type: 'default' },
+     { date: '2014-01-01', event: 'Russia-Ukraine War: The Largest European Conflict Since World War II investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022', event: 'Russia\'s full-scale invasion of Ukraine beginning February 24, 2022, has killed an estimated 500,000+ soldiers on both sides, displaced 14 million Ukrainians, destroyed $150 billion in infrastructure, and...', type: 'financial' },
+     { date: '2022-02-24', event: 'Russia\'s full-scale invasion of Ukraine beginning February 24, 2022, has killed an estimated 500,000+ soldiers on both sides, displaced 14 million Ukrainians, destroyed $150 billion in infrastructure, and...', type: 'financial' },
+     { date: '2024-11-23', event: 'Russia-Ukraine War: The Largest European Conflict Since World War II — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'ukraine-war-crimes': {
@@ -374,10 +387,13 @@ const investigations_u: Record<string, InvestigationData> = {
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2023-03-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2022-03-01', event: 'The withdrawal of Russian forces from the Kyiv region in late March 2022 revealed evidence of systematic atrocities', type: 'default' },
-     { date: '2022-10-01', event: 'Beginning in October 2022, Russia launched coordinated missile and drone strikes against Ukraine\'s energy grid, destroying approximately 50% of the country\'s power generation capacity before winter', type: 'default' },
-     { date: '2023-03-01', event: 'The ICC issued an arrest warrant for President Putin and Children\'s Rights Commissioner Maria Lvova-Belova in March 2023 specifically for the unlawful deportation of children', type: 'legal' },
+      timeline: [
+     { date: '2022', event: 'Beginning in October 2022, Russia launched coordinated missile and drone strikes against Ukraine\'s energy grid, destroying approximately 50% of the country\'s power generation capacity before winter.', type: 'default' },
+     { date: '2022-01-01', event: 'Russian War Crimes in Ukraine: Systematic Atrocities Against Civilians investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-03', event: 'The withdrawal of Russian forces from the Kyiv region in late March 2022 revealed evidence of systematic atrocities.', type: 'default' },
+     { date: '2022-10', event: 'Beginning in October 2022, Russia launched coordinated missile and drone strikes against Ukraine\'s energy grid, destroying approximately 50% of the country\'s power generation capacity before winter.', type: 'default' },
+     { date: '2023-03', event: 'The ICC issued an arrest warrant for President Putin and Children\'s Rights Commissioner Maria Lvova-Belova in March 2023 specifically for the unlawful deportation of children.', type: 'political' },
+     { date: '2023-03-01', event: 'Russian War Crimes in Ukraine: Systematic Atrocities Against Civilians — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'usa-gymnastics-abuse': {
@@ -449,10 +465,13 @@ const investigations_u: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-11-30',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012', event: 'It was the deadliest school shooting in the United States since Sandy Hook in 2012', type: 'critical' },
-     { date: '2022-05-24', event: 'On May 24, 2022, Salvador Ramos, who had turned 18 ten days earlier, entered Robb Elementary School in Uvalde, Texas, and opened fire with a legally purchased Daniel Defense AR-15-style rifle', type: 'default' },
-     { date: '2022-06-25', event: 'The two mass shootings within weeks of each other led to the passage of the Bipartisan Safer Communities Act, signed June 25, 2022; the first federal gun safety legislation in nearly 30 years', type: 'critical' },
+      timeline: [
+     { date: '2012', event: 'It was the deadliest school shooting in the United States since Sandy Hook in 2012.', type: 'default' },
+     { date: '2012-01-01', event: 'Uvalde School Shooting: 21 Lives Lost at Robb Elementary investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022', event: 'On May 24, 2022, an 18-year-old gunman killed 19 children (ages 9-11) and 2 teachers at Robb Elementary School in Uvalde, Texas, using legally purchased AR-15-style rifles.', type: 'critical' },
+     { date: '2022-05-24', event: 'On May 24, 2022, an 18-year-old gunman killed 19 children (ages 9-11) and 2 teachers at Robb Elementary School in Uvalde, Texas, using legally purchased AR-15-style rifles.', type: 'critical' },
+     { date: '2022-06-25', event: 'The two mass shootings within weeks of each other led to the passage of the Bipartisan Safer Communities Act, signed June 25, 2022; the first federal gun safety legislation in nearly 30 years.', type: 'political' },
+     { date: '2025-11-30', event: 'Uvalde School Shooting: 21 Lives Lost at Robb Elementary — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'uyghur-genocide': {
@@ -568,6 +587,14 @@ const investigations_u: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Conducted critical incident review finding cascading failures at every level of law enforcement response', href: '/entities/agencies/doj' },
     ],
+   timeline: [
+     { date: '2022', event: 'On May 24, 2022, an 18-year-old gunman killed 19 children and 2 teachers at Robb Elementary School in Uvalde, Texas.', type: 'critical' },
+     { date: '2022-05-24', event: 'On May 24, 2022, an 18-year-old gunman killed 19 children and 2 teachers at Robb Elementary School in Uvalde, Texas.', type: 'critical' },
+     { date: '2022-08', event: 'Arredondo was fired in August 2022 and indicted on 29 counts of child endangerment in June 2024.', type: 'legal' },
+     { date: '2024', event: 'McCraw was eventually fired by Governor Abbott for covering up the agency\'s failures.;, ;DOJ CRITICAL INCIDENT REVIEW: The DOJ\'s January 2024 report concluded that the law enforcement response was at every level.', type: 'default' },
+     { date: '2024-01', event: 'McCraw was eventually fired by Governor Abbott for covering up the agency\'s failures.;, ;DOJ CRITICAL INCIDENT REVIEW: The DOJ\'s January 2024 report concluded that the law enforcement response was at every level.', type: 'default' },
+     { date: '2024-06', event: 'Arredondo was fired in August 2022 and indicted on 29 counts of child endangerment in June 2024.', type: 'legal' },
+   ],
   },
   'us-prison-industrial-complex': {
     slug: 'us-prison-industrial-complex',
@@ -789,9 +816,13 @@ const investigations_u: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-01-12',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018', event: 'Between 2018 and 2024, documented cases include hundreds of deaths from heat exposure after air conditioning was disconnected during summer months, hypothermia after heating loss in winter, house f...', type: 'critical' },
-     { date: '2021', event: 'When federal and state shutoff moratoriums expired in 2021 and 2022, utilities initiated a wave of disconnections that affected an estimated 20 million households', type: 'political' },
+      timeline: [
+     { date: '2018', event: 'Between 2018 and 2024, documented cases include hundreds of deaths from heat exposure after air conditioning was disconnected during summer months, hypothermia after heating loss in winter, house fires started by...', type: 'default' },
+     { date: '2018-01-01', event: 'Utility Shutoff Deaths investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021', event: 'When federal and state shutoff moratoriums expired in 2021 and 2022, utilities initiated a wave of disconnections that affected an estimated 20 million households.', type: 'financial' },
+     { date: '2022', event: 'When federal and state shutoff moratoriums expired in 2021 and 2022, utilities initiated a wave of disconnections that affected an estimated 20 million households.', type: 'financial' },
+     { date: '2024', event: 'Between 2018 and 2024, documented cases include hundreds of deaths from heat exposure after air conditioning was disconnected during summer months, hypothermia after heating loss in winter, house fires started by...', type: 'default' },
+     { date: '2025-01-12', event: 'Utility Shutoff Deaths — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'unit-731-japanese-biological-warfare-us-immunity': {

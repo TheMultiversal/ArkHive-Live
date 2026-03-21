@@ -133,6 +133,11 @@ const investigations_l: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-06-19',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'Financial industry lobbying blocked regulation before the 2008 crisis, weakened Dodd-Frank afterward, and continues shaping oversight.', type: 'financial' },
+     { date: '2008-01-01', event: 'K Street: The Corruption Industry investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-06-19', event: 'K Street: The Corruption Industry — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'lion-air-610': {
  title: 'Lion Air Flight 610 Crash',
@@ -245,10 +250,13 @@ const investigations_l: Record<string, InvestigationData> = {
    eventOriginDate: '1991-01-01',
    lastActivityDate: '2025-03-24',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1991', event: 'Leonard Leo served as executive vice president of the Federalist Society from 1991 to 2020, during which time he built a network of interconnected nonprofit organizations that collectively spent ov...', type: 'political' },
-     { date: '2020', event: 'In 2020, electronics billionaire Barre Seid donated the entirety of his company, Tripp Lite, to a Leo-controlled nonprofit; a $1.6 billion gift that was structured to avoid approximately $400 milli...', type: 'political' },
-     { date: '2022', event: 'Wade (Dobbs, 2022), the expansion of gun rights (Bruen, 2022), the curtailing of agency power (Loper Bright, 2024), and the gutting of affirmative action (SFFA v', type: 'default' },
+      timeline: [
+     { date: '1991', event: 'Leonard Leo served as executive vice president of the Federalist Society from 1991 to 2020, during which time he built a network of interconnected nonprofit organizations that collectively spent over $1.6 billion to...', type: 'political' },
+     { date: '1991-01-01', event: 'Leonard Leo: Architect of the Conservative Court investigation begins — events under scrutiny originate from this period', type: 'legal' },
+     { date: '2020', event: 'Leonard Leo served as executive vice president of the Federalist Society from 1991 to 2020, during which time he built a network of interconnected nonprofit organizations that collectively spent over $1.6 billion to...', type: 'political' },
+     { date: '2022', event: 'Wade (Dobbs, 2022), the expansion of gun rights (Bruen, 2022), the curtailing of agency power (Loper Bright, 2024), and the gutting of affirmative action (SFFA v.', type: 'default' },
+     { date: '2024', event: 'Wade (Dobbs, 2022), the expansion of gun rights (Bruen, 2022), the curtailing of agency power (Loper Bright, 2024), and the gutting of affirmative action (SFFA v.', type: 'default' },
+     { date: '2025-03-24', event: 'Leonard Leo: Architect of the Conservative Court — investigation remains active with ongoing developments', type: 'legal' },
    ],
  },
   'lgbtq-discrimination': {
@@ -558,6 +566,13 @@ const investigations_l: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Led the federal investigation; Behavioral Analysis Unit concluded no motive could be determined', href: '/entities/agencies/fbi' },
     ],
+   timeline: [
+     { date: '2017', event: 'The timeline of Campos THE ATTACK: On the night of October 1, 2017, Stephen Paddock, 64, fired over 1,000 rounds from the 32nd floor of the Mandalay Bay Resort and Casino onto a crowd of 22,000 people attending the...', type: 'critical' },
+     { date: '2017-10-01', event: 'The timeline of Campos THE ATTACK: On the night of October 1, 2017, Stephen Paddock, 64, fired over 1,000 rounds from the 32nd floor of the Mandalay Bay Resort and Casino onto a crowd of 22,000 people attending the...', type: 'critical' },
+     { date: '2019', event: 'The FBI\'s Behavioral Analysis Unit concluded in January 2019 that Paddock acted alone and was not motivated by ideology, financial distress, or diagnosed mental illness.', type: 'default' },
+     { date: '2019-01', event: 'The FBI\'s Behavioral Analysis Unit concluded in January 2019 that Paddock acted alone and was not motivated by ideology, financial distress, or diagnosed mental illness.', type: 'default' },
+     { date: '2024', event: 'Cargill (2024) in a 6-3 decision, with the majority ruling that bump stocks did not meet the statutory definition of a machine gun.', type: 'legal' },
+   ],
   },
   'libor-scandal': {
     title: 'LIBOR Rate Manipulation Scandal',
@@ -582,6 +597,10 @@ const investigations_l: Record<string, InvestigationData> = {
    eventOriginDate: '2012-06-27',
    lastActivityDate: '2015-05-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2012-06-27', event: 'LIBOR Rate Manipulation Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2015-05-20', event: 'LIBOR Rate Manipulation Scandal — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'lobbying-corruption': {
     title: 'Corporate Lobbying and Corruption',
@@ -801,10 +820,12 @@ const investigations_l: Record<string, InvestigationData> = {
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-02-28',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1989', event: 'In 1989, facing growing public concern and legislative threats, the plastics industry created the "chasing arrows" recycling symbol and plastered it on virtually all plastic products, regardless of...', type: 'default' },
-     { date: '2018', event: 'China, which accepted 70% of the world\'s plastic waste for decades, banned imports of most plastic waste in 2018 (the "National Sword" policy), exposing the fact that much of what Americans put in ...', type: 'default' },
-     { date: '2022', event: 'A UN Global Plastics Treaty, under negotiation since 2022, faces opposition from petrochemical-producing nations', type: 'default' },
+      timeline: [
+     { date: '1980-01-01', event: 'The Plastic Recycling Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '1989', event: 'In 1989, facing growing public concern and legislative threats, the plastics industry created the ;chasing arrows; recycling symbol and plastered it on virtually all plastic products, regardless of whether they could...', type: 'political' },
+     { date: '2018', event: 'China, which accepted 70% of the world\'s plastic waste for decades, banned imports of most plastic waste in 2018 (the ;National Sword; policy), exposing the fact that much of what Americans put in recycling bins was...', type: 'default' },
+     { date: '2022', event: 'A UN Global Plastics Treaty, under negotiation since 2022, faces opposition from petrochemical-producing nations.', type: 'default' },
+     { date: '2025-02-28', event: 'The Plastic Recycling Fraud — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'lead-poisoning-housing-crisis': {
@@ -835,6 +856,12 @@ const investigations_l: Record<string, InvestigationData> = {
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2025-01-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1950', event: 'Approximately 24 million homes built before 1978 contain deteriorating lead paint, with hazards concentrated in pre-1950 housing stock in older cities.', type: 'financial' },
+     { date: '1950-01-01', event: 'Lead Poisoning Housing Crisis investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '1978', event: 'Despite lead paint being banned since 1978, remediation funding covers less than 1% of affected homes annually while landlords face minimal enforcement.', type: 'financial' },
+     { date: '2025-01-15', event: 'Lead Poisoning Housing Crisis — investigation remains active with ongoing developments', type: 'critical' },
+   ],
   },
   'lobotomy-epidemic-united-states': {
     slug: 'lobotomy-epidemic-united-states',

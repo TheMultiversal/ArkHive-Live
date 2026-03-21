@@ -31,6 +31,11 @@ const investigations_1: Record<string, InvestigationData> = {
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2014-06-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1980-01-01', event: '1980s Insider Trading Scandals investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1986', event: 'Ivan Boesky paid $100 million in fines after admitting to insider trading in 1986.', type: 'financial' },
+     { date: '2014-06-15', event: '1980s Insider Trading Scandals — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   '1mdb-scandal': {
  title: '1MDB Sovereign Wealth Fund Scandal',
@@ -58,6 +63,10 @@ const investigations_1: Record<string, InvestigationData> = {
    eventOriginDate: '2022-12-19',
    lastActivityDate: '2023-08-04',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022-12-19', event: '1MDB Sovereign Wealth Fund Scandal investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2023-08-04', event: '1MDB Sovereign Wealth Fund Scandal — investigation remains active with ongoing developments', type: 'financial' },
+   ],
  },
  'financial-crisis-accountability-failure': {
   title: '2008 Financial Crisis: The Greatest Accountability Failure in American History',
@@ -87,6 +96,12 @@ const investigations_1: Record<string, InvestigationData> = {
   eventOriginDate: '2008-01-01',
   lastActivityDate: '2025-02-20',
   pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'The 2008 financial crisis — caused by systematic fraud in mortgage origination, securitization, and credit ratings — destroyed $11 trillion in household wealth, cost 8.7 million jobs, and triggered the worst economic...', type: 'financial' },
+     { date: '2008-01-01', event: '2008 Financial Crisis: The Greatest Accountability Failure in American History investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2012', event: 'By 2012, the bailed-out banks were larger, more profitable, and more concentrated than before the crisis.', type: 'critical' },
+     { date: '2025-02-20', event: '2008 Financial Crisis: The Greatest Accountability Failure in American History — investigation remains active with ongoing developments', type: 'critical' },
+   ],
  },
 };
 

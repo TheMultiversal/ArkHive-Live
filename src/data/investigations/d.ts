@@ -40,6 +40,11 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-08-30',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'THE $1.6 BILLION: In 2020, electronics magnate Barre Seid transferred $1.6 billion to Leo\'s Marble Freedom Trust, the largest known political donation in American history.', type: 'financial' },
+     { date: '2020-01-01', event: 'Dark Money & Judicial Capture investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-08-30', event: 'Dark Money & Judicial Capture — investigation remains active with ongoing developments', type: 'default' },
+   ],
    moneyTrail: [
      { date: '2020-01-01', from: 'Unknown donors', to: 'Leonard Leo nonprofit network', amount: '$1,600,000,000', purpose: 'Dark money funneled through dozens of nonprofits to reshape the federal judiciary and advance conservative policy goals', documented: true },
      { date: '2020-01-01', from: 'Unknown donors', to: 'Sixteen Thirty Fund', amount: '$410,000,000', purpose: 'Largest progressive dark money vehicle distributed funds without disclosing donors', documented: true },
@@ -91,6 +96,11 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-01-14',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'After losing the 2020 election, Trump pressured DOJ to declare fraud and ;leave the rest to me and the Republican congressmen.;Acting AG Jeffrey Rosen refused.', type: 'political' },
+     { date: '2020-01-01', event: 'DOJ Politicization Under Trump investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-01-14', event: 'DOJ Politicization Under Trump — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'dhs-violations': {
  title: 'DHS Human Rights Violations',
@@ -133,6 +143,12 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2022-05-04',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018', event: 'Jakelin Caal Maquin (7) and Felipe Gómez Alonzo (8) died within weeks of each other in December 2018.', type: 'default' },
+     { date: '2018-01-01', event: 'DHS Human Rights Violations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018-12', event: 'Jakelin Caal Maquin (7) and Felipe Gómez Alonzo (8) died within weeks of each other in December 2018.', type: 'default' },
+     { date: '2022-05-04', event: 'DHS Human Rights Violations — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'dobbs-aftermath': {
  title: 'Post-Dobbs Reproductive Healthcare Crisis',
@@ -177,6 +193,10 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2022-07-24',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022-01-01', event: 'Post-Dobbs Reproductive Healthcare Crisis investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2022-06', event: 'Wade in June 2022, the reproductive healthcare landscape has become a crisis.', type: 'critical' },
+   ],
  },
   'doj-corruption': {
  title: 'DOJ Politicization',
@@ -213,6 +233,11 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2023-11-13',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2017-01-01', event: 'DOJ Politicization investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017-05', event: 'Trump fired FBI Director James Comey in May 2017, later admitting on television it was because of ;the Russia thing.;This obstruction of justice was documented in the Mueller report.', type: 'default' },
+     { date: '2023-11-13', event: 'DOJ Politicization — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'dakota-access-pipeline': {
  title: 'Dakota Access Pipeline',
@@ -291,9 +316,11 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2017-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2011', event: 'AMERICAN CITIZENS: Anwar al-Awlaki was killed by drone in 2011 without trial', type: 'legal' },
-     { date: '2017', event: 'His 8-year-old daughter was killed in a 2017 raid', type: 'critical' },
+      timeline: [
+     { date: '2011', event: 'Anwar al-Awlaki was killed by drone in 2011 without trial.', type: 'legal' },
+     { date: '2011-01-01', event: 'Drone Assassination Program investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2017', event: 'His 8-year-old daughter was killed in a 2017 raid.', type: 'critical' },
+     { date: '2017-01-01', event: 'Drone Assassination Program — investigation remains active with ongoing developments', type: 'critical' },
    ],
  },
   'democratic-backsliding': {
@@ -322,9 +349,10 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-05-04',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'to "flawed democracy "in 2016', type: 'political' },
-     { date: '2016', event: 'democratic quality declining since 2016', type: 'default' },
+      timeline: [
+     { date: '2016', event: 'to ;flawed democracy ;in 2016.', type: 'default' },
+     { date: '2016-01-01', event: 'Democratic Backsliding investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-05-04', event: 'Democratic Backsliding — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'daniel-shaver-police-killing': {
@@ -359,10 +387,12 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2022-05-26',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2017-12-01', event: 'BODY CAMERA SUPPRESSED: The body camera footage was not released until after Brailsford\'s acquittal in December 2017', type: 'legal' },
-     { date: '2017-12-01', event: 'ACQUITTAL: In December 2017, a jury acquitted Brailsford of second-degree murder and reckless manslaughter', type: 'legal' },
-     { date: '2018-08-01', event: 'REHIRED FOR PENSION: In August 2018, the Mesa Police Department temporarily rehired Brailsford specifically so he could apply for an accidental disability pension of $31,000 per year for PTSD he cl...', type: 'default' },
+      timeline: [
+     { date: '2016-01-01', event: 'Daniel Shaver Police Killing investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017', event: 'The body camera footage was not released until after Brailsford\'s acquittal in December 2017.', type: 'legal' },
+     { date: '2017-12', event: 'The body camera footage was not released until after Brailsford\'s acquittal in December 2017.', type: 'legal' },
+     { date: '2018-08', event: 'In August 2018, the Mesa Police Department temporarily rehired Brailsford specifically so he could apply for an accidental disability pension of $31,000 per year for PTSD he claimed to have developed from the shooting.', type: 'default' },
+     { date: '2022-05-26', event: 'Daniel Shaver Police Killing — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'defense-tech-oligarchy': {
@@ -401,6 +431,10 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2024-01-01',
    lastActivityDate: '2024-11-19',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2024', event: 'The company reached a $14 billion valuation by 2024, with virtually no public accountability for the lethal autonomous systems it develops.', type: 'financial' },
+     { date: '2024-01-01', event: 'Defense Tech Oligarchy investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'disinformation': {
  title: 'Disinformation: The Architecture of Manufactured Reality',
@@ -570,10 +604,12 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-05-09',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2010', event: 'The Citizens United decision in 2010 opened floodgates for dark money, making it nearly impossible to trace the origins of political donations', type: 'default' },
-     { date: '2020', event: 'Super PACs and 501(c)(4) organizations became conduits for anonymous money, with total dark money spending exceeding $1 billion in the 2020 election cycle alone', type: 'political' },
-     { date: '2022', event: 'His donations made him one of the largest political donors in the 2022 election cycle before his fraud empire collapsed', type: 'critical' },
+      timeline: [
+     { date: '2010', event: 'The Citizens United decision in 2010 opened floodgates for dark money, making it nearly impossible to trace the origins of political donations.', type: 'default' },
+     { date: '2010-01-01', event: 'Donor Crimes: When Political Money Comes From Criminal Enterprise investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'Super PACs and 501(c)(4) organizations became conduits for anonymous money, with total dark money spending exceeding $1 billion in the 2020 election cycle alone.', type: 'political' },
+     { date: '2022', event: 'His donations made him one of the largest political donors in the 2022 election cycle before his fraud empire collapsed.', type: 'political' },
+     { date: '2025-05-09', event: 'Donor Crimes: When Political Money Comes From Criminal Enterprise — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'drone-strike-program': {
@@ -1682,6 +1718,16 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: "RAND International Drug Price Comparison", url: "https://www.rand.org/pubs/research_reports/RR2956.html", type: "Research" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '1921', event: 'AbbVie filed 165 patents on Humira to create a that delayed generic competition for years beyond the original patent s 2024 investigation found that PBMs INSULIN CRISIS: Insulin was discovered in 1921 and its patent...', type: 'critical' },
+     { date: '2002', event: 'Prices tripled between 2002 and 2018 despite no significant improvements to the drug.', type: 'default' },
+     { date: '2013', event: 'Actavis (2013) that such agreements could violate antitrust law; but the practice continues in modified forms.', type: 'default' },
+     { date: '2015', event: 'pay-for-delay reverse payment votes.;, ;THE SHKRELI EFFECT: In 2015, Martin Shkreli s tactic was merely a visible example of standard industry practice.', type: 'political' },
+     { date: '2018', event: 'Prices tripled between 2002 and 2018 despite no significant improvements to the drug.', type: 'default' },
+     { date: '2022', event: 'The pharmaceutical industry spent $373 million lobbying Congress in 2022; more than any other industry.', type: 'political' },
+     { date: '2024', event: 'AbbVie filed 165 patents on Humira to create a that delayed generic competition for years beyond the original patent s 2024 investigation found that PBMs INSULIN CRISIS: Insulin was discovered in 1921 and its patent...', type: 'critical' },
+     { date: '2026', event: 'Negotiated prices took effect in 2026 and are expected to save $25 billion over a decade.', type: 'financial' },
+   ],
   },
   'domestic-terrorism': {
     title: "Domestic Terrorism in America",
@@ -1713,6 +1759,20 @@ const investigations_d: Record<string, InvestigationData> = {
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Identifies domestic violent extremism as top terrorism threat but resources remain disproportionately focused on international threats', href: '/entities/agencies/fbi' },
       { id: '2', name: 'Department of Homeland Security', type: 'agency', relationship: 'Published threat assessments identifying white supremacist extremism as greatest domestic terrorism threat', href: '/entities/agencies/dhs' },
     ],
+   timeline: [
+     { date: '1995', event: 'OKLAHOMA CITY (1995): Timothy McVeigh and Terry Nichols detonated a truck bomb at the Alfred P.', type: 'default' },
+     { date: '2001', event: 'White supremacist and anti-government extremists have killed more Americans since September 11, 2001, than any foreign terrorist organization.', type: 'critical' },
+     { date: '2001-09-11', event: 'White supremacist and anti-government extremists have killed more Americans since September 11, 2001, than any foreign terrorist organization.', type: 'critical' },
+     { date: '2006', event: 'A 2006 FBI report documented FBI\'S OWN ASSESSMENT: The FBI and DHS have repeatedly identified domestic violent extremism; particularly racially or ethnically motivated violent extremism (REMVE); as the top terrorism...', type: 'default' },
+     { date: '2015', event: 'He was executed in 2001.;, ;THE ACCELERATION: From 2015 to 2025, the pace and lethality of domestic terrorism escalated dramatically.', type: 'default' },
+     { date: '2017', event: 'The Charleston church shooting (2015; 9 killed), the Charlottesville car attack (2017; 1 killed, 35 injured), the Pittsburgh Tree of Life synagogue shooting (2018; 11 killed), the El Paso Walmart shooting (2019; 23...', type: 'critical' },
+     { date: '2018', event: 'The Charleston church shooting (2015; 9 killed), the Charlottesville car attack (2017; 1 killed, 35 injured), the Pittsburgh Tree of Life synagogue shooting (2018; 11 killed), the El Paso Walmart shooting (2019; 23...', type: 'critical' },
+     { date: '2019', event: 'The Charleston church shooting (2015; 9 killed), the Charlottesville car attack (2017; 1 killed, 35 injured), the Pittsburgh Tree of Life synagogue shooting (2018; 11 killed), the El Paso Walmart shooting (2019; 23...', type: 'critical' },
+     { date: '2020', event: 'FBI Director Christopher Wray testified to Congress in 2021 that the number of domestic terrorism investigations had more than doubled since 2020.', type: 'political' },
+     { date: '2021', event: 'FBI Director Christopher Wray testified to Congress in 2021 that the number of domestic terrorism investigations had more than doubled since 2020.', type: 'political' },
+     { date: '2022', event: 'The Charleston church shooting (2015; 9 killed), the Charlottesville car attack (2017; 1 killed, 35 injured), the Pittsburgh Tree of Life synagogue shooting (2018; 11 killed), the El Paso Walmart shooting (2019; 23...', type: 'critical' },
+     { date: '2025', event: 'He was executed in 2001.;, ;THE ACCELERATION: From 2015 to 2025, the pace and lethality of domestic terrorism escalated dramatically.', type: 'default' },
+   ],
   },
   'daniel-shaver-killing': {
     title: "Daniel Shaver Police Execution",
@@ -1740,6 +1800,11 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: "Washington Post Investigation", url: "https://www.washingtonpost.com/investigations/2020/07/09/daniel-shaver-killing/", type: "Investigative Journalism" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2017', event: 's duty rifle had the words RE F***ED s personal modification to his department-issued weapon.;, ;THE ACQUITTAL: In December 2017, a jury acquitted Brailsford of second-degree murder.', type: 'legal' },
+     { date: '2017-12', event: 's duty rifle had the words RE F***ED s personal modification to his department-issued weapon.;, ;THE ACQUITTAL: In December 2017, a jury acquitted Brailsford of second-degree murder.', type: 'legal' },
+     { date: '2018-08', event: 'In August 2018, Brailsford was quietly rehired by the Mesa Police Department for 42 days; specifically so he could apply for accidental disability retirement.', type: 'default' },
+   ],
   },
   'dark-money-networks': {
     title: 'Dark Money Networks',
@@ -1812,6 +1877,11 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-09-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'Facebook harvested 87 million user profiles for Cambridge Analytica, which used the data to influence the 2016 election.', type: 'political' },
+     { date: '2016-01-01', event: 'Data Privacy Erosion investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-09-20', event: 'Data Privacy Erosion — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'defense-contracting-fraud': {
     title: 'Defense Contracting Fraud',
@@ -1843,6 +1913,10 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-08-05',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1980-01-01', event: 'Defense Contracting Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2025-08-05', event: 'Defense Contracting Fraud — investigation remains active with ongoing developments', type: 'financial' },
+   ],
   },
   'darfur-genocide': {
     title: 'Darfur Genocide',
@@ -2072,10 +2146,12 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-03-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2013', event: 'The scale of domestic surveillance revealed by Edward Snowden in 2013 was unprecedented in human history', type: 'default' },
-     { date: '2021', event: 'The FBI conducted approximately 3.4 million warrantless queries of the Section 702 database searching for Americans\' communications in 2021 alone', type: 'financial' },
-     { date: '2023', event: 'A FISC opinion declassified in 2023 found the FBI had systematically violated querying rules, conducting improper searches on Black Lives Matter protesters, congressional campaign donors, and Janua...', type: 'political' },
+      timeline: [
+     { date: '2001-01-01', event: 'The Domestic Surveillance State: Mass Spying on Americans investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2013', event: 'The program, exposed by NSA whistleblower Edward Snowden in 2013, operates through Section 702 of FISA, Executive Order 12333, and secret FISC court orders that have been described by the court\'s own judges as...', type: 'legal' },
+     { date: '2021', event: 'The FBI conducted approximately 3.4 million warrantless queries of the Section 702 database searching for Americans\' communications in 2021 alone.', type: 'financial' },
+     { date: '2023', event: 'A FISC opinion declassified in 2023 found the FBI had systematically violated querying rules, conducting improper searches on Black Lives Matter protesters, congressional campaign donors, and January 6th suspects...', type: 'political' },
+     { date: '2025-03-01', event: 'The Domestic Surveillance State: Mass Spying on Americans — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'disability-benefits-denial-machine': {
@@ -2142,6 +2218,10 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2024-05-05',
    lastActivityDate: '2025-02-01',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2024-05-05', event: 'Domestic Violence System Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-02-01', event: 'Domestic Violence System Failures — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'drone-strikes-civilian-casualties': {
     title: 'The U.S. Drone Strike Program: Extrajudicial Killing and the Civilian Death Toll',

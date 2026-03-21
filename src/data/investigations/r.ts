@@ -43,6 +43,10 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2017-06-19',
    lastActivityDate: '2024-09-26',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2017-06-19', event: 'Regulatory Capture Under Trump investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-09-26', event: 'Regulatory Capture Under Trump — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'russian-money-laundering': {
  title: 'Russian Money Laundering Through Trump Properties',
@@ -192,9 +196,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1981', event: 'Founded in 1981, it has quietly coordinated conservative strategy for decades', type: 'default' },
-     { date: '2025', event: 'PROJECT 2025: Heritage Foundation\'s plan for a second Trump term, shaped by Christian nationalist priorities, calls for using government power to impose traditional values, restrict reproductive ri...', type: 'default' },
+      timeline: [
+     { date: '1970-01-01', event: 'Christian Nationalist Political Machine investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1981', event: 'Founded in 1981, it has quietly coordinated conservative strategy for decades.', type: 'default' },
+     { date: '2025', event: 'PROJECT 2025: Heritage Foundation\'s plan for a second Trump term, shaped by Christian nationalist priorities, calls for using government power to impose traditional values, restrict reproductive rights, and roll back...', type: 'default' },
+     { date: '2025-01-01', event: 'Christian Nationalist Political Machine — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'rendition': {
@@ -237,6 +243,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2022-05-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2003', event: 'CIA agents kidnapped Muslim cleric Hassan Mustafa Osama Nasr (Abu Omar) from a Milan street in 2003 and rendered him to Egypt, where he was tortured.', type: 'default' },
+     { date: '2003-01-01', event: 'Extraordinary Rendition investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-05-20', event: 'Extraordinary Rendition — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'republican-dark-money': {
  title: 'Republican Dark Money Networks',
@@ -278,9 +289,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-01-29',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2010', event: 'CITIZENS UNITED UNLEASHED: The 2010 Citizens United decision allowed unlimited political spending by corporations and nonprofits', type: 'financial' },
-     { date: '2022', event: 'In 2022, electronics billionaire Barre Seid gave Leo\'s Marble Freedom Trust $1.6 billion, the largest political donation ever', type: 'political' },
+      timeline: [
+     { date: '2010', event: 'CITIZENS UNITED UNLEASHED: The 2010 Citizens United decision allowed unlimited political spending by corporations and nonprofits.', type: 'default' },
+     { date: '2010-01-01', event: 'Republican Dark Money Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022', event: 'In 2022, electronics billionaire Barre Seid gave Leo\'s Marble Freedom Trust $1.6 billion, the largest political donation ever.', type: 'financial' },
+     { date: '2025-01-29', event: 'Republican Dark Money Networks — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'russian-disinformation': {
@@ -368,9 +381,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-02-26',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'ELECTION INTERFERENCE: Beyond 2016, Russian intelligence has targeted every U.S', type: 'political' },
-     { date: '2020', event: 'SOLARWINDS BREACH: In 2020, Russian intelligence (likely SVR) compromised SolarWinds software updates, gaining access to 18,000 organizations including multiple U.S', type: 'default' },
+      timeline: [
+     { date: '2016', event: 'Beyond 2016, Russian intelligence has targeted every U.S.', type: 'default' },
+     { date: '2016-01-01', event: 'Russian Intelligence Operations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'In 2020, Russian intelligence (likely SVR) compromised SolarWinds software updates, gaining access to 18,000 organizations including multiple U.S.', type: 'default' },
+     { date: '2024-02-26', event: 'Russian Intelligence Operations — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'royal-coverup': {
@@ -406,9 +421,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2021-01-12',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: 'PRINCE ANDREW AND EPSTEIN: Prince Andrew maintained a close relationship with Jeffrey Epstein even after Epstein\'s 2008 conviction', type: 'legal' },
-     { date: '2019', event: 'THE NEWSNIGHT INTERVIEW: Andrew\'s 2019 BBC interview to explain his Epstein relationship was catastrophic', type: 'default' },
+      timeline: [
+     { date: '2008', event: 'Prince Andrew maintained a close relationship with Jeffrey Epstein even after Epstein\'s 2008 conviction.', type: 'legal' },
+     { date: '2008-01-01', event: 'Royal Family Coverups investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019', event: 'Andrew\'s 2019 BBC interview to explain his Epstein relationship was catastrophic.', type: 'default' },
+     { date: '2021-01-12', event: 'Royal Family Coverups — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'russia-investigation': {
@@ -432,6 +449,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-10-31',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'Comprehensive investigation into Russian interference in the 2016 election and Trump campaign coordination.', type: 'political' },
+     { date: '2016-01-01', event: 'Russia Investigation Overview investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-10-31', event: 'Russia Investigation Overview — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'russian-election-interference': {
  title: 'Russian Election Interference 2016',
@@ -562,6 +584,12 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2023-10-28',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2013', event: 'Egyptian security forces killed at least 1,000 people during the violent dispersal of pro-democracy protest camps in Cairo on August 14, 2013, in what Human Rights Watch has called the worst mass killing in modern...', type: 'critical' },
+     { date: '2013-01-01', event: 'Rabaa Massacre: Egypts Tiananmen Square investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2013-08-14', event: 'Egyptian security forces killed at least 1,000 people during the violent dispersal of pro-democracy protest camps in Cairo on August 14, 2013, in what Human Rights Watch has called the worst mass killing in modern...', type: 'critical' },
+     { date: '2023-10-28', event: 'Rabaa Massacre: Egypts Tiananmen Square — investigation remains active with ongoing developments', type: 'critical' },
+   ],
  },
   'radicalization': {
  title: 'Online Radicalization: From Algorithm to Atrocity',
@@ -594,6 +622,9 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2025-06-30',
    lastActivityDate: '2025-07-30',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2025-06-30', event: 'Online Radicalization: From Algorithm to Atrocity investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'religious-abuse': {
  title: 'Religious Institutional Abuse: A Global Epidemic of Exploitation',
@@ -669,6 +700,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2022-05-26',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2014', event: 'Hobby Lobby (2014), establishing that closely held corporations have religious liberty rights that can exempt them from federal regulations requiring contraception coverage.', type: 'financial' },
+     { date: '2014-01-01', event: 'The Religious Rights Legal War: Reshaping American Law investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-05-26', event: 'The Religious Rights Legal War: Reshaping American Law — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'restitution-evasion': {
  title: 'Restitution Evasion: How White-Collar Criminals Avoid Paying Victims',
@@ -701,6 +737,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-06-02',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'As of 2020, over $100 billion in federal criminal restitution remained uncollected.', type: 'financial' },
+     { date: '2020-01-01', event: 'Restitution Evasion: How White-Collar Criminals Avoid Paying Victims investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-06-02', event: 'Restitution Evasion: How White-Collar Criminals Avoid Paying Victims — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'right-wing-disinfo': {
  title: 'Right-Wing Disinformation Networks: Manufacturing an Alternate Reality',
@@ -733,10 +774,13 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-08-03',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'The 2020 election disinformation campaign demonstrates the ecosystem\'s power', type: 'political' },
-     { date: '2021-09-01', event: 'COVID-19 disinformation promoted through right-wing media contributed to approximately 230,000 preventable American deaths between January and September 2021 alone, according to a study published i...', type: 'critical' },
-     { date: '2022', event: 'Elon Musk\'s acquisition of Twitter (now X) in 2022 removed many content moderation policies, reinstated banned accounts, and amplified right-wing disinformation through algorithmic changes', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'The 2020 election disinformation campaign demonstrates the ecosystem\'s power.', type: 'political' },
+     { date: '2020-01-01', event: 'Right-Wing Disinformation Networks: Manufacturing an Alternate Reality investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021', event: 'COVID-19 disinformation promoted through right-wing media contributed to approximately 230,000 preventable American deaths between January and September 2021 alone, according to a study published in The Lancet.', type: 'default' },
+     { date: '2021-09', event: 'COVID-19 disinformation promoted through right-wing media contributed to approximately 230,000 preventable American deaths between January and September 2021 alone, according to a study published in The Lancet.', type: 'default' },
+     { date: '2022', event: 'Elon Musk\'s acquisition of Twitter (now X) in 2022 removed many content moderation policies, reinstated banned accounts, and amplified right-wing disinformation through algorithmic changes.', type: 'default' },
+     { date: '2023-08-03', event: 'Right-Wing Disinformation Networks: Manufacturing an Alternate Reality — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'right-wing-media': {
@@ -808,10 +852,13 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2005-01-01',
    lastActivityDate: '2026-01-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2005', event: 'Scott Rothstein, the managing shareholder of Rothstein Rosenfeldt Adler (one of the largest law firms in South Florida), ran a $1.2 billion Ponzi scheme between 2005 and 2009 by selling investors s...', type: 'political' },
-     { date: '2009-10-01', event: 'The fraud unraveled in October 2009 when investors attempting to redeem $57 million in settlements discovered that TD Bank accounts supposedly holding their funds were empty', type: 'financial' },
-     { date: '2010-06-01', event: 'Rothstein was sentenced to 50 years in federal prison in June 2010 after pleading guilty to five federal charges including RICO conspiracy, money laundering, and wire fraud', type: 'legal' },
+      timeline: [
+     { date: '2005', event: 'Scott Rothstein, the managing shareholder of Rothstein Rosenfeldt Adler (one of the largest law firms in South Florida), ran a $1.2 billion Ponzi scheme between 2005 and 2009 by selling investors stakes in fabricated...', type: 'financial' },
+     { date: '2005-01-01', event: 'Scott Rothstein: The $1.2 Billion Ponzi Scheme Lawyer investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2009', event: 'Scott Rothstein, the managing shareholder of Rothstein Rosenfeldt Adler (one of the largest law firms in South Florida), ran a $1.2 billion Ponzi scheme between 2005 and 2009 by selling investors stakes in fabricated...', type: 'financial' },
+     { date: '2009-10', event: 'The fraud unraveled in October 2009 when investors attempting to redeem $57 million in settlements discovered that TD Bank accounts supposedly holding their funds were empty.', type: 'financial' },
+     { date: '2010-06', event: 'Rothstein was sentenced to 50 years in federal prison in June 2010 after pleading guilty to five federal charges including RICO conspiracy, money laundering, and wire fraud.', type: 'legal' },
+     { date: '2026-01-15', event: 'Scott Rothstein: The $1.2 Billion Ponzi Scheme Lawyer — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'roundup-cancer': {
@@ -886,9 +933,12 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-02-25',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2014', event: 'The invasion followed eight years of conflict in eastern Ukraine after Russia\'s 2014 annexation of Crimea and backing of separatist forces in Donetsk and Luhansk', type: 'default' },
-     { date: '2022-02-24', event: 'Russia\'s full-scale invasion of Ukraine began on February 24, 2022, with a multi-axis assault aimed at decapitating the Ukrainian government', type: 'default' },
+      timeline: [
+     { date: '2014', event: 'The invasion followed eight years of conflict in eastern Ukraine after Russia\'s 2014 annexation of Crimea and backing of separatist forces in Donetsk and Luhansk.', type: 'default' },
+     { date: '2014-01-01', event: 'Russia-Ukraine War: The Largest European Conflict Since World War II investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022', event: 'Russia\'s full-scale invasion of Ukraine on February 24, 2022, has caused hundreds of thousands of casualties, displaced over 14 million people, reshaped global energy markets, and generated documented war crimes...', type: 'financial' },
+     { date: '2022-02-24', event: 'Russia\'s full-scale invasion of Ukraine on February 24, 2022, has caused hundreds of thousands of casualties, displaced over 14 million people, reshaped global energy markets, and generated documented war crimes...', type: 'financial' },
+     { date: '2025-02-25', event: 'Russia-Ukraine War: The Largest European Conflict Since World War II — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'russian-influence': {
@@ -924,10 +974,12 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-02-13',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'Russian influence operations extend far beyond the documented interference in the 2016 U.S', type: 'default' },
-     { date: '2017', event: 'European intelligence agencies have identified Russian influence campaigns targeting elections in France (Macron email hack 2017), Germany (Bundestag hack, AfD support), the United Kingdom (Brexit ...', type: 'political' },
-     { date: '2020', event: 'In the UK, the Intelligence and Security Committee\'s "Russia Report" (2020) documented how Russian money had become deeply embedded in British politics, finance, and society; describing London as a...', type: 'default' },
+      timeline: [
+     { date: '2016', event: 'Russian influence operations extend far beyond the documented interference in the 2016 U.S.', type: 'default' },
+     { date: '2016-01-01', event: 'Russian Influence Operations: Global Subversion and Election Interference investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2017', event: 'European intelligence agencies have identified Russian influence campaigns targeting elections in France (Macron email hack 2017), Germany (Bundestag hack, AfD support), the United Kingdom (Brexit campaign funding),...', type: 'political' },
+     { date: '2020', event: 'In the UK, the Intelligence and Security Committee\'s ;Russia Report; (2020) documented how Russian money had become deeply embedded in British politics, finance, and society; describing London as a ;laundromat; for...', type: 'default' },
+     { date: '2025-02-13', event: 'Russian Influence Operations: Global Subversion and Election Interference — investigation remains active with ongoing developments', type: 'political' },
    ],
  },
   'russian-war-crimes': {
@@ -1035,10 +1087,12 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '1964-01-01',
    lastActivityDate: '2025-04-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1964', event: 'CIVIL RICO AND CORPORATE CRIME: RICO\'s civil provisions (Section 1964) allow private parties to sue for treble damages when injured by a pattern of racketeering activity', type: 'default' },
-     { date: '1986', event: 'THE COMMISSION CASE: RICO\'s most famous application came in 1986, when U.S', type: 'default' },
-     { date: '2015', event: 'RICO has been used against corrupt judges (Operation Greylord in Chicago convicted 92 officials), prison gangs (the Aryan Brotherhood case resulted in multiple death penalty verdicts), and even the...', type: 'legal' },
+      timeline: [
+     { date: '1964', event: 'RICO\'s civil provisions (Section 1964) allow private parties to sue for treble damages when injured by a pattern of racketeering activity.', type: 'default' },
+     { date: '1964-01-01', event: 'RICO Enterprise Criminal Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1986', event: 'THE COMMISSION CASE: RICO\'s most famous application came in 1986, when U.S.', type: 'default' },
+     { date: '2015', event: 'RICO has been used against corrupt judges (Operation Greylord in Chicago convicted 92 officials), prison gangs (the Aryan Brotherhood case resulted in multiple death penalty verdicts), and even the FIFA soccer...', type: 'legal' },
+     { date: '2025-04-07', event: 'RICO Enterprise Criminal Networks — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'russian-oligarch-us-asset-networks': {
@@ -1103,9 +1157,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2024-09-29',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2003', event: 'THE BILLY TAUZIN MODEL: The revolving door\'s most notorious example is Representative Billy Tauzin (R-LA), who as chairman of the House Energy and Commerce Committee shepherded the Medicare Moderni...', type: 'political' },
-     { date: '2013', event: 'A 2013 study found that SEC attorneys who later took jobs at law firms representing Wall Street were more lenient toward potential violators', type: 'political' },
+      timeline: [
+     { date: '2003', event: 'The revolving door\'s most notorious example is Representative Billy Tauzin (R-LA), who as chairman of the House Energy and Commerce Committee shepherded the Medicare Modernization Act of 2003 through Congress.', type: 'political' },
+     { date: '2003-01-01', event: 'Revolving Door Lobbyist Pipeline investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2013', event: 'A 2013 study found that SEC attorneys who later took jobs at law firms representing Wall Street were more lenient toward potential violators.', type: 'default' },
+     { date: '2024-09-29', event: 'Revolving Door Lobbyist Pipeline — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'regulatory-capture-federal-agencies': {
@@ -1170,6 +1226,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-10-21',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019', event: 'In 2019, Italian authorities working with the FBI dismantled a Ndrangheta money laundering network that operated dozens of restaurants and pizzerias across the eastern United States; laundering proceeds from cocaine...', type: 'default' },
+     { date: '2019-01-01', event: 'Restaurant Industry Money Laundering investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-10-21', event: 'Restaurant Industry Money Laundering — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'redaction-abuse-in-public-documents': {
     title: 'Redaction Abuse in Public Documents',
@@ -1271,9 +1332,11 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-07-12',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'In 2020, Robert Williams, a Black man in Detroit, was wrongfully arrested based on a faulty facial recognition match from a retail theft investigation', type: 'default' },
-     { date: '2023', event: 'THE SCALE OF DEPLOYMENT: A 2023 survey by the advocacy group Fight for the Future found that approximately 70% of the top 100 U.S', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'In 2020, Robert Williams, a Black man in Detroit, was wrongfully arrested based on a faulty facial recognition match from a retail theft investigation.', type: 'default' },
+     { date: '2020-01-01', event: 'Retail Facial Recognition Deployment investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'A 2023 survey by the advocacy group Fight for the Future found that approximately 70% of the top 100 U.S.', type: 'default' },
+     { date: '2025-07-12', event: 'Retail Facial Recognition Deployment — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'redistricting-manipulation-court-cases': {
@@ -1354,6 +1417,16 @@ const investigations_r: Record<string, InvestigationData> = {
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated covert arms shipments to Iran and Contras; maintained relationships with drug traffickers; supported Central American death squads', href: '/entities/agencies/cia' },
       { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Independent Counsel Walsh investigated; convictions overturned; pardons ended accountability', href: '/entities/agencies/doj' },
     ],
+   timeline: [
+     { date: '1982', event: 'Congress passed the Boland Amendment in 1982 and strengthened it in 1984, explicitly banning the use of federal funds to support the Nicaraguan Contras.', type: 'political' },
+     { date: '1984', event: 'Congress passed the Boland Amendment in 1982 and strengthened it in 1984, explicitly banning the use of federal funds to support the Nicaraguan Contras.', type: 'political' },
+     { date: '1986', event: 'When the scheme was exposed, Reagan claimed he could not recall authorizing it; a claim contradicted by his own diary entries and the testimony of multiple administration officials.;, ;OLIVER NORTH AND THE SHREDDING:...', type: 'default' },
+     { date: '1986-11', event: 'When the scheme was exposed, Reagan claimed he could not recall authorizing it; a claim contradicted by his own diary entries and the testimony of multiple administration officials.;, ;OLIVER NORTH AND THE SHREDDING:...', type: 'default' },
+     { date: '1987-05', event: 'Casey died of a brain tumor in May 1987; days after he was scheduled to testify before Congress; taking his secrets with him.', type: 'political' },
+     { date: '1992', event: 'North was convicted of three felonies but the convictions were overturned on appeal because immunized congressional testimony may have influenced the trial.;, ;THE PARDONS: On Christmas Eve 1992, outgoing President...', type: 'legal' },
+     { date: '1996', event: 's 1996 series documented how CIA-connected Nicaraguan Contra drug traffickers; including Oscar Danilo Blandon and Norwin Meneses; funneled tons of cocaine into Los Angeles, where it was converted into crack and sold...', type: 'default' },
+     { date: '1998', event: 'The CIA Inspector General\'s 1998 report confirmed that the agency had relationships with Contra groups involved in drug trafficking and failed to report drug crimes to the DOJ.', type: 'default' },
+   ],
   },
   'rwandan-genocide': {
     title: 'Rwandan Genocide',
@@ -1554,10 +1627,12 @@ const investigations_r: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-02-28',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: 'After the 2008 crash, institutional investors including Blackstone (through Invitation Homes), American Homes 4 Rent, and other Wall Street-backed firms purchased hundreds of thousands of foreclose...', type: 'critical' },
-     { date: '2023', event: 'Homelessness has reached crisis levels with 582,000 Americans unhoused on any given night in 2023, a 12% increase from the prior year and the highest level since tracking began', type: 'political' },
-     { date: '2024-08-01', event: 'In August 2024, the DOJ filed suit against RealPage, alleging the software facilitated price-fixing affecting millions of renters', type: 'financial' },
+      timeline: [
+     { date: '2008', event: 'Since the 2008 financial crisis — which was itself caused by predatory mortgage lending — institutional investors have purchased over 400,000 single-family homes, driving up prices and converting ownership homes into...', type: 'critical' },
+     { date: '2008-01-01', event: 'Real Estate Industry Housing Crisis and Corporate Exploitation investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2023', event: 'Homelessness has reached crisis levels with 582,000 Americans unhoused on any given night in 2023, a 12% increase from the prior year and the highest level since tracking began.', type: 'critical' },
+     { date: '2024-08', event: 'In August 2024, the DOJ filed suit against RealPage, alleging the software facilitated price-fixing affecting millions of renters.', type: 'default' },
+     { date: '2025-02-28', event: 'Real Estate Industry Housing Crisis and Corporate Exploitation — investigation remains active with ongoing developments', type: 'critical' },
    ],
   },
   'railroad-deregulation-safety': {

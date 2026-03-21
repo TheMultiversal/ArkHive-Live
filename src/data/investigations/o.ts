@@ -237,10 +237,12 @@ const investigations_o: Record<string, InvestigationData> = {
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2022-03-24',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2010', event: 'ENFORCEMENT ARCHITECTURE: The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021', type: 'default' },
-     { date: '2016-04-01', event: 'THE PANAMA PAPERS REVELATION: In April 2016, the International Consortium of Investigative Journalists published the Panama Papers; 11.5 million documents leaked from Mossack Fonseca, a Panamanian ...', type: 'financial' },
-     { date: '2021', event: 'The Corporate Transparency Act of 2021 mandated a beneficial ownership registry, but implementation has been delayed and challenged in court', type: 'legal' },
+      timeline: [
+     { date: '2010', event: 'The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021.', type: 'default' },
+     { date: '2010-01-01', event: 'Offshore Tax Haven Architecture: The Global System Hiding $36 Trillion investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2016-04', event: 'In April 2016, the International Consortium of Investigative Journalists published the Panama Papers; 11.5 million documents leaked from Mossack Fonseca, a Panamanian law firm that had created more than 214,000 shell...', type: 'financial' },
+     { date: '2021', event: 'The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021.', type: 'default' },
+     { date: '2022-03-24', event: 'Offshore Tax Haven Architecture: The Global System Hiding $36 Trillion — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'organized-crime-in-construction-industry': {
@@ -381,10 +383,13 @@ const investigations_o: Record<string, InvestigationData> = {
    eventOriginDate: '1962-01-01',
    lastActivityDate: '2025-10-31',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1962-03-13', event: 'THE PROPOSAL: On March 13, 1962, the Joint Chiefs of Staff presented to Secretary of Defense Robert McNamara a top-secret memorandum titled "Justification for US Military Intervention in Cuba." The...', type: 'default' },
-     { date: '1997', event: 'DECLASSIFICATION AND SIGNIFICANCE: The Northwoods documents were declassified in 1997 as part of the JFK Assassination Records Review Board\'s work', type: 'default' },
-     { date: '2001', event: 'Investigative journalist James Bamford brought widespread attention to them in his 2001 book "Body of Secrets." The documents\'s significance lies not in what was ultimately done; Kennedy rejected t...', type: 'default' },
+      timeline: [
+     { date: '1962', event: 'Operation Northwoods was a 1962 Department of Defense plan proposing false flag terrorist operations against American civilians and military targets to create a pretext for invading Cuba.', type: 'default' },
+     { date: '1962-01-01', event: 'Operation Northwoods: When the Pentagon Proposed Terror Against Americans investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1962-03-13', event: 'On March 13, 1962, the Joint Chiefs of Staff presented to Secretary of Defense Robert McNamara a top-secret memorandum titled ;Justification for US Military Intervention in Cuba.; The document, signed by Chairman of...', type: 'default' },
+     { date: '1997', event: 'The documents were declassified in 1997.', type: 'default' },
+     { date: '2001', event: 'Investigative journalist James Bamford brought widespread attention to them in his 2001 book ;Body of Secrets.; The documents\'s significance lies not in what was ultimately done; Kennedy rejected the plan; but in...', type: 'default' },
+     { date: '2025-10-31', event: 'Operation Northwoods: When the Pentagon Proposed Terror Against Americans — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'operation-paperclip-nazi-scientist-import': {
@@ -417,9 +422,14 @@ const investigations_o: Record<string, InvestigationData> = {
    eventOriginDate: '1945-01-01',
    lastActivityDate: '2024-06-05',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1946-09-01', event: 'President Truman authorized the program in September 1946 but explicitly prohibited the recruitment of anyone who had been "a member of the Nazi Party, and more than a nominal participant in its ac...', type: 'political' },
-     { date: '1979', event: 'The Office of Special Investigations, established in 1979 to identify Nazi war criminals in the United States, found and denaturalized several Paperclip scientists including Arthur Rudolph, who sur...', type: 'default' },
+      timeline: [
+     { date: '1945', event: 'Operation Paperclip (1945-1959) was a secret U.S.', type: 'default' },
+     { date: '1945-01-01', event: 'Operation Paperclip: Importing Nazi Scientists to Win the Cold War investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1946', event: 'President Truman authorized the program in September 1946 but explicitly prohibited the recruitment of anyone who had been ;a member of the Nazi Party, and more than a nominal participant in its activities, or an...', type: 'political' },
+     { date: '1946-09', event: 'President Truman authorized the program in September 1946 but explicitly prohibited the recruitment of anyone who had been ;a member of the Nazi Party, and more than a nominal participant in its activities, or an...', type: 'political' },
+     { date: '1979', event: 'The Office of Special Investigations, established in 1979 to identify Nazi war criminals in the United States, found and denaturalized several Paperclip scientists including Arthur Rudolph, who surrendered his...', type: 'default' },
+     { date: '1984', event: 'The Office of Special Investigations, established in 1979 to identify Nazi war criminals in the United States, found and denaturalized several Paperclip scientists including Arthur Rudolph, who surrendered his...', type: 'default' },
+     { date: '2024-06-05', event: 'Operation Paperclip: Importing Nazi Scientists to Win the Cold War — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'operation-condor-latin-america-terror': {
@@ -682,10 +692,13 @@ const investigations_o: Record<string, InvestigationData> = {
    eventOriginDate: '2006-01-01',
    lastActivityDate: '2024-01-09',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2006', event: 'In domestic waters, the EPA has weakened Clean Water Act enforcement; the number of enforcement actions declined 50% between 2006 and 2020', type: 'default' },
-     { date: '2022', event: 'No binding international treaty addresses plastic pollution comprehensively, though negotiations began in 2022', type: 'default' },
-     { date: '2023', event: 'The Fukushima nuclear disaster released radioactive water that Japan began discharging into the Pacific in 2023', type: 'default' },
+      timeline: [
+     { date: '2006', event: 'In domestic waters, the EPA has weakened Clean Water Act enforcement; the number of enforcement actions declined 50% between 2006 and 2020.', type: 'default' },
+     { date: '2006-01-01', event: 'Industrial-Scale Ocean Pollution: The Systematic Destruction of Marine Ecosystems investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'In domestic waters, the EPA has weakened Clean Water Act enforcement; the number of enforcement actions declined 50% between 2006 and 2020.', type: 'default' },
+     { date: '2022', event: 'No binding international treaty addresses plastic pollution comprehensively, though negotiations began in 2022.', type: 'default' },
+     { date: '2023', event: 'The Fukushima nuclear disaster released radioactive water that Japan began discharging into the Pacific in 2023.', type: 'critical' },
+     { date: '2024-01-09', event: 'Industrial-Scale Ocean Pollution: The Systematic Destruction of Marine Ecosystems — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'oil-spill-cover-up-history': {
@@ -865,10 +878,12 @@ const investigations_o: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2023-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018', event: 'The site was seized by the FBI in 2018; Lacey was convicted in 2023', type: 'legal' },
-     { date: '2018', event: 'FOSTA-SESTA AND ITS CONSEQUENCES: The Allow States and Victims to Fight Online Sex Trafficking Act (FOSTA) and Stop Enabling Sex Traffickers Act (SESTA), signed into law in 2018, created exceptions...', type: 'political' },
-     { date: '2021', event: 'A 2021 report by the Human Trafficking Institute found that Facebook was used in 59% of online sex trafficking recruitment cases involving minors', type: 'default' },
+      timeline: [
+     { date: '2018', event: 'The site was seized by the FBI in 2018; Lacey was convicted in 2023.', type: 'legal' },
+     { date: '2018-01-01', event: 'Online Platform Trafficking Facilitation: How Tech Companies Enable Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021', event: 'A 2021 report by the Human Trafficking Institute found that Facebook was used in 59% of online sex trafficking recruitment cases involving minors.', type: 'default' },
+     { date: '2023', event: 'The site was seized by the FBI in 2018; Lacey was convicted in 2023.', type: 'legal' },
+     { date: '2023-01-01', event: 'Online Platform Trafficking Facilitation: How Tech Companies Enable Exploitation — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
 
@@ -914,6 +929,14 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: "Detroit Free Press Investigation", url: "https://www.freep.com/in-depth/news/local/michigan/oakland/oxford-school-shooting/", type: "Investigation" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2021', event: 'On November 30, 2021, Ethan Crumbley, 15, killed four students and wounded seven others at Oxford High School in Michigan.', type: 'critical' },
+     { date: '2021-11-26', event: 'He returned to class and opened fire less than three hours later.;, ;THE GUN PURCHASE: James Crumbley purchased the SIG Sauer on November 26, 2021; with Ethan present at the store and photographed holding the weapon.', type: 'default' },
+     { date: '2021-11-30', event: 'On November 30, 2021, Ethan Crumbley, 15, killed four students and wounded seven others at Oxford High School in Michigan.', type: 'critical' },
+     { date: '2023', event: 'In December 2023, he was sentenced to life in prison without the possibility of parole.', type: 'legal' },
+     { date: '2023-12', event: 'In December 2023, he was sentenced to life in prison without the possibility of parole.', type: 'legal' },
+     { date: '2024', event: 'Both parents attempted to flee after being charged; they were found hiding in a building in Detroit.;, ;THE CRUMBLEY TRIALS: James and Jennifer Crumbley were tried separately in early 2024.', type: 'default' },
+   ],
   },
   'oversight-abuse': {
     title: "Congressional Oversight Abuse",
@@ -939,6 +962,11 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: "Brennan Center: Congressional Oversight Analysis", url: "https://www.brennancenter.org/", type: "Research" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2008', event: 'Congress failed to seriously investigate the 2008 financial crisis, was slow to investigate the intelligence failures that led to the Iraq War, and Republican leadership blocked consideration of the January 6...', type: 'political' },
+     { date: '2012', event: 'During the first impeachment, Republican counsel attempted to expose the whistleblower Select Subcommittee on the Weaponization of the Federal Government s witnesses included conspiracy theorists and former agents...', type: 'political' },
+     { date: '2023', event: 'In 2023, House Republicans created the \'Select Subcommittee on the Weaponization of the Federal Government\'; which critics described as using oversight to weaponize oversight.', type: 'default' },
+   ],
   },
   'operation-chaos': {
     title: "Operation CHAOS",
@@ -968,6 +996,14 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated CHAOS in violation of its charter prohibition on domestic operations; compiled files on 300,000+ Americans', href: '/entities/agencies/cia' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Coordinated with CIA through COINTELPRO to surveil and disrupt domestic political movements', href: '/entities/agencies/fbi' },
     ],
+   timeline: [
+     { date: '1952', event: 'Operatives attended meetings, reported on activities, and identified leaders for further surveillance.;, ;COINTELPRO COLLABORATION: CHAOS worked in tandem with the FBI s legal prohibition on domestic operations.;,...', type: 'default' },
+     { date: '1967-08', event: 's counterintelligence division in August 1967; despite knowing the CIA s liberation, environmental, and Black Power movements.', type: 'default' },
+     { date: '1973', event: 'Operatives attended meetings, reported on activities, and identified leaders for further surveillance.;, ;COINTELPRO COLLABORATION: CHAOS worked in tandem with the FBI s legal prohibition on domestic operations.;,...', type: 'default' },
+     { date: '1975', event: 's fundamental premise; that domestic dissent must be directed by foreign powers; was never supported by evidence; repeated assessments found no significant foreign control.;, ;THE CHURCH COMMITTEE: The program was...', type: 'financial' },
+     { date: '2001', event: 'The committee s findings, President Gerald Ford issued Executive Order 11905 restricting intelligence activities; later replaced by President Reagan s restrictions are largely self-policed by the intelligence...', type: 'political' },
+     { date: '2001-09-11', event: 'The committee s findings, President Gerald Ford issued Executive Order 11905 restricting intelligence activities; later replaced by President Reagan s restrictions are largely self-policed by the intelligence...', type: 'political' },
+   ],
   },
   'opioid-distribution': {
     title: "Opioid Distribution Networks & Corporate Complicity",
@@ -996,6 +1032,15 @@ const investigations_o: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement capability undermined by pharmaceutical industry lobbying; 2016 law stripped key enforcement powers', href: '/entities/agencies/dea' },
     ],
+   timeline: [
+     { date: '1999', event: 'Opioid overdoses killed over 600,000 Americans between 1999 and 2023.', type: 'critical' },
+     { date: '2006', event: 'The three largest drug distributors; McKesson, AmerisourceBergen, and Cardinal Health; shipped 76 billion opioid pills between 2006 and 2012 while ignoring clear signs of diversion to illegal markets.', type: 'financial' },
+     { date: '2012', event: 'The three largest drug distributors; McKesson, AmerisourceBergen, and Cardinal Health; shipped 76 billion opioid pills between 2006 and 2012 while ignoring clear signs of diversion to illegal markets.', type: 'financial' },
+     { date: '2016', event: 'The 2016 Ensuring Patient Access and Effective Drug Enforcement Act; written with industry input and passed through Congress with little debate; stripped the DEA of its most effective enforcement tool by raising the...', type: 'political' },
+     { date: '2016-08', event: 'Huntington, West Virginia; a city of 46,000; saw 26 overdoses in a single four-hour period in August 2016.', type: 'default' },
+     { date: '2022', event: '$26 BILLION SETTLEMENT: In 2022, the Big Three distributors agreed to pay $21 billion to state and local governments over 18 years as part of a $26 billion consolidated settlement that also included Johnson & Johnson...', type: 'legal' },
+     { date: '2023', event: 'Opioid overdoses killed over 600,000 Americans between 1999 and 2023.', type: 'critical' },
+   ],
   },
   'opioid-crisis-corporate-mass-murder': {
     slug: 'opioid-crisis-corporate-mass-murder',
@@ -1186,10 +1231,13 @@ const investigations_o: Record<string, InvestigationData> = {
    eventOriginDate: '1998-01-01',
    lastActivityDate: '2025-02-18',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1998', event: 'The tobacco master settlement of 1998 provides a cautionary precedent', type: 'financial' },
-     { date: '1999', event: 'The opioid epidemic has killed over 600,000 Americans since 1999, driven by pharmaceutical companies that aggressively marketed highly addictive painkillers while concealing their risks', type: 'critical' },
-     { date: '2023', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and ...', type: 'political' },
+      timeline: [
+     { date: '1998', event: 'The tobacco master settlement of 1998 provides a cautionary precedent.', type: 'legal' },
+     { date: '1998-01-01', event: 'Opioid Settlement Fund Misuse investigation begins — events under scrutiny originate from this period', type: 'legal' },
+     { date: '1999', event: 'The opioid epidemic has killed over 600,000 Americans since 1999, driven by pharmaceutical companies that aggressively marketed highly addictive painkillers while concealing their risks.', type: 'critical' },
+     { date: '2023', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures...', type: 'legal' },
+     { date: '2024', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures...', type: 'legal' },
+     { date: '2025-02-18', event: 'Opioid Settlement Fund Misuse — investigation remains active with ongoing developments', type: 'legal' },
    ],
   },
   'operation-paperclip-nazi-scientists': {
@@ -1268,6 +1316,15 @@ const investigations_o: Record<string, InvestigationData> = {
     eventOriginDate: '1954-01-01',
     lastActivityDate: '1966-12-31',
     pageUpdatedDate: '2026-03-10',
+   timeline: [
+     { date: '1954', event: 'The program ran from 1954 to 1966 and involved an unknown number of victims who were never informed they had been experimented upon.', type: 'default' },
+     { date: '1954-01-01', event: 'Operation Midnight Climax investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1966', event: 'The program ran from 1954 to 1966 and involved an unknown number of victims who were never informed they had been experimented upon.', type: 'default' },
+     { date: '1966-12-31', event: 'Operation Midnight Climax — investigation remains active with ongoing developments', type: 'default' },
+     { date: '1973', event: 'Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered.', type: 'political' },
+     { date: '1975', event: 'The program was first partially revealed during the 1975 Church Committee and Rockefeller Commission investigations.', type: 'default' },
+     { date: '1977', event: 'Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered.', type: 'political' },
+   ],
   },
 };
 

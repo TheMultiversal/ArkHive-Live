@@ -43,9 +43,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2026-01-03',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016-06-09', event: 'TRUMP TOWER MEETING: On June 9, 2016, Donald Trump Jr., Jared Kushner, and Paul Manafort met with Russians at Trump Tower expecting "dirt "on Clinton described as "part of Russia and its government...', type: 'default' },
-     { date: '2016-07-27', event: 'THE INVITATION: On July 27, 2016, during a press conference in Doral, Florida, Trump issued an open invitation to Russian hackers:"Russia, if you\'re listening, I hope you\'re able to find the 30,000...', type: 'legal' },
+      timeline: [
+     { date: '2016', event: 'On July 27, 2016, during a press conference in Doral, Florida, Trump issued an open invitation to Russian hackers:;Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing.', type: 'default' },
+     { date: '2016-01-01', event: 'Cybercrimes & Hacking Encouragement investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2016-06-09', event: 'On June 9, 2016, Donald Trump Jr., Jared Kushner, and Paul Manafort met with Russians at Trump Tower expecting ;dirt ;on Clinton described as ;part of Russia and its government\'s support for Mr.', type: 'default' },
+     { date: '2016-07-27', event: 'On July 27, 2016, during a press conference in Doral, Florida, Trump issued an open invitation to Russian hackers:;Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing.', type: 'default' },
+     { date: '2026-01-03', event: 'Cybercrimes & Hacking Encouragement — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'currency-manipulation': {
@@ -83,9 +86,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1992-01-01',
    lastActivityDate: '2024-02-21',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1992-09-16', event: 'BLACK WEDNESDAY (1992): On September 16, 1992, George Soros\'s Quantum Fund bet $10 billion against the British pound', type: 'political' },
-     { date: '1997', event: 'ASIAN FINANCIAL CRISIS (1997): Currency speculation contributed to the 1997 Asian financial crisis that devastated Thailand, Indonesia, South Korea, and Malaysia', type: 'default' },
+      timeline: [
+     { date: '1992', event: 'BLACK WEDNESDAY (1992): On September 16, 1992, George Soros\'s Quantum Fund bet $10 billion against the British pound.', type: 'financial' },
+     { date: '1992-01-01', event: 'Currency & Financial Market Manipulation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1992-09-16', event: 'BLACK WEDNESDAY (1992): On September 16, 1992, George Soros\'s Quantum Fund bet $10 billion against the British pound.', type: 'financial' },
+     { date: '1997', event: 'He became known as ;the man who broke the Bank of England.; ASIAN FINANCIAL CRISIS (1997): Currency speculation contributed to the 1997 Asian financial crisis that devastated Thailand, Indonesia, South Korea, and...', type: 'critical' },
+     { date: '2024-02-21', event: 'Currency & Financial Market Manipulation — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'comey-firing': {
@@ -122,9 +128,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2018-03-22',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2017', event: 'PRIOR PRESSURE: In January 2017, Trump had asked Comey for "loyalty"at a private dinner', type: 'default' },
-     { date: '2017-05-09', event: 'THE FIRING: On May 9, 2017, Trump fired James Comey via letter delivered while Comey was in Los Angeles', type: 'default' },
+      timeline: [
+     { date: '2017', event: 'In January 2017, Trump had asked Comey for ;loyalty;at a private dinner.', type: 'default' },
+     { date: '2017-01', event: 'In January 2017, Trump had asked Comey for ;loyalty;at a private dinner.', type: 'default' },
+     { date: '2017-01-01', event: 'James Comey Firing & Obstruction investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017-05-09', event: 'THE FIRING: On May 9, 2017, Trump fired James Comey via letter delivered while Comey was in Los Angeles.', type: 'default' },
+     { date: '2018-03-22', event: 'James Comey Firing & Obstruction — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'central-park-five': {
@@ -196,9 +205,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2022-02-23',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019', event: 'New York (2019), Chief Justice Roberts wrote the administration\'s stated reason "seems to have been contrived."The question was blocked', type: 'default' },
-     { date: '2020', event: 'THE SCHEME: Trump\'s Commerce Secretary Wilbur Ross pushed to add a citizenship question to the 2020 Census, knowing it would discourage immigrant communities from responding and reduce their count', type: 'financial' },
+      timeline: [
+     { date: '2019', event: 'New York (2019), Chief Justice Roberts wrote the administration\'s stated reason ;seems to have been contrived.;The question was blocked.', type: 'default' },
+     { date: '2019-01-01', event: 'Census Citizenship Question investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'The Trump administration attempted to add a citizenship question to the 2020 Census specifically to undercount Hispanic communities and reduce their political representation.', type: 'default' },
+     { date: '2022-02-23', event: 'Census Citizenship Question — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'campaign-finance': {
@@ -289,6 +300,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2017-02-22',
    lastActivityDate: '2026-02-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2017-02-22', event: 'Civil Rights Rollbacks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2026-02-25', event: 'Civil Rights Rollbacks — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'cabinet-ethics': {
  title: 'Cabinet Ethics Scandals',
@@ -334,10 +349,14 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2022-07-23',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2017-09-01', event: 'He resigned in September 2017 after the scandal exploded', type: 'political' },
-     { date: '2018-07-01', event: 'PRUITT RESIGNATION: After 14 months of cascading scandals, Pruitt resigned in July 2018', type: 'political' },
-     { date: '2018-12-01', event: 'ZINKE RESIGNATION: Zinke resigned in December 2018 facing multiple investigations including a criminal referral for lying to investigators', type: 'political' },
+      timeline: [
+     { date: '2017', event: 'He resigned in September 2017 after the scandal exploded.', type: 'default' },
+     { date: '2017-01-01', event: 'Cabinet Ethics Scandals investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017-09', event: 'He resigned in September 2017 after the scandal exploded.', type: 'default' },
+     { date: '2018', event: 'Zinke resigned in December 2018 facing multiple investigations including a criminal referral for lying to investigators.', type: 'default' },
+     { date: '2018-07', event: 'After 14 months of cascading scandals, Pruitt resigned in July 2018.', type: 'default' },
+     { date: '2018-12', event: 'Zinke resigned in December 2018 facing multiple investigations including a criminal referral for lying to investigators.', type: 'default' },
+     { date: '2022-07-23', event: 'Cabinet Ethics Scandals — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'crow-network': {
@@ -375,6 +394,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2023-06-20',
    lastActivityDate: '2025-01-08',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023-06-20', event: 'Harlan Crow Gift Network investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-01-08', event: 'Harlan Crow Gift Network — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'coffee-county': {
  title: 'Coffee County Election Breach',
@@ -416,6 +439,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2023-11-26',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021', event: 'On January 7, 2021 (one day after the Capitol attack) a team of pro-Trump operatives gained unauthorized access to election equipment in Coffee County, Georgia.', type: 'political' },
+     { date: '2021-01-01', event: 'Coffee County Election Breach investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2021-01-07', event: 'On January 7, 2021 (one day after the Capitol attack) a team of pro-Trump operatives gained unauthorized access to election equipment in Coffee County, Georgia.', type: 'political' },
+     { date: '2023-11-26', event: 'Coffee County Election Breach — investigation remains active with ongoing developments', type: 'political' },
+   ],
  },
   'cia-torture': {
  title: 'CIA Torture Program',
@@ -457,10 +486,14 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-01-22',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2001-09-17', event: 'AUTHORIZATION: On September 17, 2001, President Bush signed a secret Memorandum of Notification authorizing the CIA to capture and detain terrorists', type: 'political' },
-     { date: '2005', event: 'DESTROYED EVIDENCE: In 2005, the CIA destroyed 92 videotapes of interrogations, despite court orders to preserve evidence', type: 'legal' },
-     { date: '2014-12-01', event: 'SENATE TORTURE REPORT: In December 2014, the Senate Intelligence Committee released a 500-page executive summary of its 6,700-page investigation', type: 'political' },
+      timeline: [
+     { date: '2001', event: 'AUTHORIZATION: On September 17, 2001, President Bush signed a secret Memorandum of Notification authorizing the CIA to capture and detain terrorists.', type: 'political' },
+     { date: '2001-01-01', event: 'CIA Torture Program investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2001-09-17', event: 'AUTHORIZATION: On September 17, 2001, President Bush signed a secret Memorandum of Notification authorizing the CIA to capture and detain terrorists.', type: 'political' },
+     { date: '2005', event: 'In 2005, the CIA destroyed 92 videotapes of interrogations, despite court orders to preserve evidence.', type: 'legal' },
+     { date: '2014', event: 'In December 2014, the Senate Intelligence Committee released a 500-page executive summary of its 6,700-page investigation.', type: 'political' },
+     { date: '2014-12', event: 'In December 2014, the Senate Intelligence Committee released a 500-page executive summary of its 6,700-page investigation.', type: 'political' },
+     { date: '2025-01-22', event: 'CIA Torture Program — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'cia-black-sites': {
@@ -550,9 +583,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2022-03-28',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019', event: 'THE PANDEMIC: SARS-CoV-2, the virus causing COVID-19, emerged in Wuhan, China in late 2019', type: 'default' },
-     { date: '2019-11-01', event: 'Researchers reportedly ill in November 2019', type: 'default' },
+      timeline: [
+     { date: '2019', event: 'SARS-CoV-2, the virus causing COVID-19, emerged in Wuhan, China in late 2019.', type: 'default' },
+     { date: '2019-01-01', event: 'COVID-19 Origins Investigation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019-11', event: 'Researchers reportedly ill in November 2019.', type: 'default' },
+     { date: '2022-03-28', event: 'COVID-19 Origins Investigation — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'christian-nationalism': {
@@ -597,10 +632,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2022', event: 'DOBBS DECISION: The 2022 Dobbs decision overturning Roe v', type: 'default' },
-     { date: '2025', event: 'KEY ORGANIZATIONS: The movement includes the Family Research Council, Alliance Defending Freedom, Council for National Policy, and now Heritage Foundation through Project 2025', type: 'default' },
-     { date: '2025', event: 'PROJECT 2025: The Heritage Foundation\'s plan for a second Trump term reflects Christian nationalist priorities: abortion bans, LGBTQ+ discrimination, religious exemptions from civil rights laws, an...', type: 'political' },
+      timeline: [
+     { date: '1970-01-01', event: 'Christian Nationalism investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022', event: 'The 2022 Dobbs decision overturning Roe v.', type: 'default' },
+     { date: '2025', event: 'It has captured the Republican Party, the Supreme Court majority, and now shapes policy through Project 2025 and allied organizations.', type: 'legal' },
+     { date: '2025-01-01', event: 'Christian Nationalism — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'covid-misinfo': {
@@ -637,6 +673,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2020-05-15',
    lastActivityDate: '2021-12-19',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-05-15', event: 'COVID-19 Misinformation Campaign investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2021-12-19', event: 'COVID-19 Misinformation Campaign — investigation remains active with ongoing developments', type: 'political' },
+   ],
  },
   'china-coverup': {
  title: 'China COVID-19 Coverup Allegations',
@@ -673,10 +713,14 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2025-02-20',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019-12-01', event: 'EARLY WARNING SUPPRESSION: In late December 2019, doctors in Wuhan noticed a cluster of unusual pneumonia cases', type: 'default' },
-     { date: '2020-01-20', event: 'DELAYED TRANSMISSION ADMISSION: China did not confirm human-to-human transmission until January 20, 2020, despite evidence of healthcare worker infections weeks earlier', type: 'default' },
-     { date: '2020-02-07', event: 'LI WENLIANG: The ophthalmologist who warned about the virus died from COVID-19 on February 7, 2020', type: 'critical' },
+      timeline: [
+     { date: '2019', event: 'EARLY WARNING SUPPRESSION: In late December 2019, doctors in Wuhan noticed a cluster of unusual pneumonia cases.', type: 'default' },
+     { date: '2019-01-01', event: 'China COVID-19 Coverup Allegations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019-12', event: 'EARLY WARNING SUPPRESSION: In late December 2019, doctors in Wuhan noticed a cluster of unusual pneumonia cases.', type: 'default' },
+     { date: '2020', event: 'The ophthalmologist who warned about the virus died from COVID-19 on February 7, 2020.', type: 'default' },
+     { date: '2020-01-20', event: 'China did not confirm human-to-human transmission until January 20, 2020, despite evidence of healthcare worker infections weeks earlier.', type: 'default' },
+     { date: '2020-02-07', event: 'The ophthalmologist who warned about the virus died from COVID-19 on February 7, 2020.', type: 'default' },
+     { date: '2025-02-20', event: 'China COVID-19 Coverup Allegations — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'cdc-testing': {
@@ -714,6 +758,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-10-22',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'CDC distributed test kits in early February 2020 that were contaminated during manufacturing.', type: 'default' },
+     { date: '2020-01-01', event: 'CDC Testing Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-02', event: 'CDC distributed test kits in early February 2020 that were contaminated during manufacturing.', type: 'default' },
+     { date: '2025-10-22', event: 'CDC Testing Failures — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'colorado-election-breach': {
  title: 'Mesa County Election System Breach',
@@ -798,6 +848,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2014-12-31',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1970-01-01', event: 'Climate Denial Media Network investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2014-12-31', event: 'Climate Denial Media Network — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'crimes-against-humanity': {
  title: 'Crimes Against Humanity',
@@ -838,6 +892,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2023-02-16',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2017', event: 'MYANMAR\'S ROHINGYA: In 2017, Myanmar\'s military conducted ethnic cleansing against Rohingya Muslims.', type: 'default' },
+     { date: '2017-01-01', event: 'Crimes Against Humanity investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-02-16', event: 'Crimes Against Humanity — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'color-revolutions': {
  title: 'Color Revolutions & U.S. Democracy Promotion',
@@ -967,6 +1026,9 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2023-09-28',
    lastActivityDate: '2023-10-28',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023-09-28', event: 'Chinese Influence Operations in America investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'corporate-crime': {
  title: 'Corporate Crime Without Punishment',
@@ -1002,6 +1064,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2022-06-23',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'Despite causing the 2008 financial crisis that cost $22 trillion, no major Wall Street executive went to prison.', type: 'critical' },
+     { date: '2008-01-01', event: 'Corporate Crime Without Punishment investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-06-23', event: 'Corporate Crime Without Punishment — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'cia-assassinations': {
  title: 'CIA Assassination Programs',
@@ -1030,9 +1097,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1961-01-01',
    lastActivityDate: '2024-08-20',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1961', event: 'LUMUMBA: The CIA was involved in the assassination of Congolese leader Patrice Lumumba in 1961', type: 'default' },
-     { date: '1975', event: 'CHURCH COMMITTEE: The 1975 investigation exposed assassination programs', type: 'default' },
+      timeline: [
+     { date: '1961', event: 'The CIA was involved in the assassination of Congolese leader Patrice Lumumba in 1961.', type: 'critical' },
+     { date: '1961-01-01', event: 'CIA Assassination Programs investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '1975', event: 'The 1975 investigation exposed assassination programs.', type: 'critical' },
+     { date: '2024-08-20', event: 'CIA Assassination Programs — investigation remains active with ongoing developments', type: 'critical' },
    ],
  },
   'climate-denial': {
@@ -1063,6 +1132,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-06-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1970-01-01', event: 'Climate Denial Industry investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-06-15', event: 'Climate Denial Industry — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'crypto-scams': {
  title: 'Cryptocurrency Fraud Epidemic',
@@ -1094,6 +1167,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2022-12-21',
    lastActivityDate: '2025-11-03',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022-12-21', event: 'Cryptocurrency Fraud Epidemic investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2025-11-03', event: 'Cryptocurrency Fraud Epidemic — investigation remains active with ongoing developments', type: 'financial' },
+   ],
  },
   'catholic-church-abuse': {
  title: 'Catholic Church Abuse',
@@ -1123,6 +1200,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2023-03-07',
    lastActivityDate: '2026-02-24',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023-03-07', event: 'Catholic Church Abuse investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2026-02-24', event: 'Catholic Church Abuse — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'cbs-sexual-harassment': {
  title: 'CBS Sexual Harassment',
@@ -1153,6 +1234,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-03-04',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018', event: 'CBS CEO Les Moonves was forced to resign in 2018 after multiple women accused him of sexual harassment, assault, and retaliating against those who refused his advances.', type: 'default' },
+     { date: '2018-01-01', event: 'CBS Sexual Harassment investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-03-04', event: 'CBS Sexual Harassment — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'celsius-collapse': {
  title: 'Celsius Collapse',
@@ -1179,6 +1265,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2024-03-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2022-01-01', event: 'Celsius Collapse investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-06', event: 'Celsius froze customer withdrawals in June 2022, trapping $4.7 billion in user funds before filing for bankruptcy.', type: 'financial' },
+     { date: '2024-03-20', event: 'Celsius Collapse — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'central-america-death-squads': {
  title: 'Central America Death Squads',
@@ -1205,6 +1296,9 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2025-08-10',
    lastActivityDate: '2025-09-09',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2025-08-10', event: 'Central America Death Squads investigation begins — events under scrutiny originate from this period', type: 'critical' },
+   ],
  },
   'charleston-massacre': {
  title: 'Charleston Massacre',
@@ -1232,6 +1326,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2023-10-06',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2015', event: 'On June 17, 2015, white supremacist Dylann Roof murdered nine Black worshippers at Emanuel AME Church in Charleston, South Carolina.', type: 'default' },
+     { date: '2015-01-01', event: 'Charleston Massacre investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2015-06-17', event: 'On June 17, 2015, white supremacist Dylann Roof murdered nine Black worshippers at Emanuel AME Church in Charleston, South Carolina.', type: 'default' },
+     { date: '2023-10-06', event: 'Charleston Massacre — investigation remains active with ongoing developments', type: 'critical' },
+   ],
  },
   'charlie-rose-harassment': {
  title: 'Charlie Rose Harassment',
@@ -1261,6 +1361,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2021-09-28',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2017', event: 'Charlie Rose was fired from CBS and PBS in 2017 after 27 women accused him of sexual harassment including unwanted advances, groping, and walking naked in their presence.', type: 'default' },
+     { date: '2017-01-01', event: 'Charlie Rose Harassment investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021-09-28', event: 'Charlie Rose Harassment — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'chevron-ecuador': {
  title: 'Chevron Ecuador',
@@ -1289,6 +1394,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2011-08-03',
    lastActivityDate: '2013-05-28',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2011-08-03', event: 'Chevron Ecuador investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2013-05-28', event: 'Chevron Ecuador — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'chicago-police-coverup': {
  title: 'Chicago Police Coverup',
@@ -1316,6 +1425,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2018-08-28',
    lastActivityDate: '2022-02-26',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018-08-28', event: 'Chicago Police Coverup investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-02-26', event: 'Chicago Police Coverup — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'chicago-police-torture': {
  title: 'Chicago Police Torture',
@@ -1342,6 +1455,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1972-01-01',
    lastActivityDate: '2024-09-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1972', event: 'Chicago Police Commander Jon Burge and officers under his command tortured more than 100 Black men between 1972 and 1991 to extract confessions.', type: 'default' },
+     { date: '1972-01-01', event: 'Chicago Police Torture investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1991', event: 'Chicago Police Commander Jon Burge and officers under his command tortured more than 100 Black men between 1972 and 1991 to extract confessions.', type: 'default' },
+     { date: '2024-09-20', event: 'Chicago Police Torture — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'child-exploitation': {
  title: 'Child Exploitation',
@@ -1369,6 +1488,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2015-04-26',
    lastActivityDate: '2025-04-02',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2015-04-26', event: 'Child Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-04-02', event: 'Child Exploitation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'child-sexual-abuse': {
  title: 'Child Sexual Abuse',
@@ -1399,6 +1522,9 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2025-11-30',
    lastActivityDate: '2025-12-30',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2025-11-30', event: 'Child Sexual Abuse investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
  },
   'china-business-complicity': {
  title: 'China Business Complicity',
@@ -1425,6 +1551,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2020-02-05',
    lastActivityDate: '2023-01-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-02-05', event: 'China Business Complicity investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-01-25', event: 'China Business Complicity — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'china-cyber-espionage': {
  title: 'China Cyber Espionage',
@@ -1452,6 +1582,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-02-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2015', event: 'The OPM breach in 2015 exposed personal data of 22 million federal employees and contractors, compromising U.S.', type: 'financial' },
+     { date: '2015-01-01', event: 'China Cyber Espionage investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-02-25', event: 'China Cyber Espionage — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'china-tech': {
  title: 'China Tech',
@@ -1482,6 +1617,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2019-02-23',
    lastActivityDate: '2025-11-13',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019-02-23', event: 'China Tech investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-11-13', event: 'China Tech — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'cia-origins': {
  title: 'CIA Origins and Operation Paperclip',
@@ -1686,6 +1825,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2025-08-24',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2003', event: 'Between 2003 and 2010, these donor-advised funds distributed $118 million to more than 100 climate denial organizations.', type: 'financial' },
+     { date: '2003-01-01', event: 'Climate Denial Network investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2010', event: 'Between 2003 and 2010, these donor-advised funds distributed $118 million to more than 100 climate denial organizations.', type: 'financial' },
+     { date: '2025-08-24', event: 'Climate Denial Network — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'climate-disinformation': {
  title: 'Climate Disinformation in the Digital Age',
@@ -1719,6 +1864,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2023-07-22',
    lastActivityDate: '2025-05-14',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023-07-22', event: 'Climate Disinformation in the Digital Age investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-05-14', event: 'Climate Disinformation in the Digital Age — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'climate-obstruction': {
  title: 'Climate Legislation Obstruction',
@@ -1830,9 +1979,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1828-01-01',
    lastActivityDate: '2025-10-28',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1828', event: 'Washington Irving\'s 1828 biography popularized myths about Columbus proving the Earth was round (educated Europeans already knew this)', type: 'default' },
-     { date: '1934', event: 'Columbus Day became a federal holiday in 1934', type: 'default' },
+      timeline: [
+     { date: '1828-01-01', event: 'Columbus Legacy and Indigenous Genocide investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1934', event: 'Columbus Day became a federal holiday in 1934.', type: 'default' },
+     { date: '2025-10-28', event: 'Columbus Legacy and Indigenous Genocide — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'congressional-age': {
@@ -2102,9 +2252,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-02-04',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2001', event: 'SEC AND WALL STREET: Between 2001 and 2010, at least 219 former SEC employees filed 789 disclosure statements revealing they planned to represent clients before the agency they recently left', type: 'default' },
-     { date: '2008', event: 'This revolving door explains why the SEC missed the Madoff fraud, failed to prevent the 2008 crisis, and rarely pursues criminal referrals', type: 'financial' },
+      timeline: [
+     { date: '2001', event: 'Between 2001 and 2010, at least 219 former SEC employees filed 789 disclosure statements revealing they planned to represent clients before the agency they recently left.', type: 'default' },
+     { date: '2001-01-01', event: 'Regulatory Capture by Corporate Interests investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2008', event: 'This revolving door explains why the SEC missed the Madoff fraud, failed to prevent the 2008 crisis, and rarely pursues criminal referrals.', type: 'financial' },
+     { date: '2010', event: 'Between 2001 and 2010, at least 219 former SEC employees filed 789 disclosure statements revealing they planned to represent clients before the agency they recently left.', type: 'default' },
+     { date: '2025-02-04', event: 'Regulatory Capture by Corporate Interests — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'corporate-corruption': {
@@ -2138,10 +2291,13 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2020-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2000', event: 'Between 2000 and 2020, over 500 DPAs were signed', type: 'default' },
-     { date: '2008', event: 'TOO BIG TO JAIL: After the 2008 financial crisis, Attorney General Eric Holder acknowledged that some institutions were so large that criminal prosecution might endanger the financial system', type: 'default' },
-     { date: '2010', event: 'CORPORATE PERSONHOOD: The Supreme Court\'s Citizens United decision (2010) granted corporations First Amendment rights to spend unlimited money on political campaigns', type: 'legal' },
+      timeline: [
+     { date: '2000', event: 'Between 2000 and 2020, over 500 DPAs were signed.', type: 'default' },
+     { date: '2000-01-01', event: 'Systemic Corporate Corruption investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2008', event: 'After the 2008 financial crisis, Attorney General Eric Holder acknowledged that some institutions were so large that criminal prosecution might endanger the financial system.', type: 'legal' },
+     { date: '2010', event: 'The Supreme Court\'s Citizens United decision (2010) granted corporations First Amendment rights to spend unlimited money on political campaigns.', type: 'legal' },
+     { date: '2020', event: 'Between 2000 and 2020, over 500 DPAs were signed.', type: 'default' },
+     { date: '2020-01-01', event: 'Systemic Corporate Corruption — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'corporate-fraud-scandals': {
@@ -2293,10 +2449,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2022-07-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2013', event: 'GOVERNMENT ACCESS: The NSA\'s PRISM program, revealed by Edward Snowden in 2013, provided direct access to data from Google, Facebook, Apple, Microsoft, and other tech companies', type: 'default' },
-     { date: '2018', event: 'A 2018 AP investigation found that Google tracked user locations even when location history was turned off', type: 'default' },
-     { date: '2020', event: 'The company operated without public knowledge until a New York Times investigation in 2020', type: 'default' },
+      timeline: [
+     { date: '2013', event: 'The NSA\'s PRISM program, revealed by Edward Snowden in 2013, provided direct access to data from Google, Facebook, Apple, Microsoft, and other tech companies.', type: 'default' },
+     { date: '2013-01-01', event: 'Corporate Mass Surveillance investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018', event: 'A 2018 AP investigation found that Google tracked user locations even when location history was turned off.', type: 'default' },
+     { date: '2020', event: 'The company operated without public knowledge until a New York Times investigation in 2020.', type: 'default' },
+     { date: '2022-07-07', event: 'Corporate Mass Surveillance — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'corporate-tax-avoidance': {
@@ -2369,10 +2527,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1954-01-01',
    lastActivityDate: '2023-03-19',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1954', event: 'DECLINING UNION POWER: Union membership has fallen from 35% of private-sector workers in 1954 to 6% in 2022', type: 'default' },
-     { date: '2021', event: 'AMAZON BESSEMER: Amazon spent an estimated $4.3 million on anti-union consultants during the Bessemer, Alabama warehouse election in 2021', type: 'political' },
-     { date: '2021', event: 'STARBUCKS CAMPAIGN: When Starbucks workers began organizing in 2021, the company closed stores where organizing was active, reduced hours for union supporters, fired over 200 workers involved in un...', type: 'political' },
+      timeline: [
+     { date: '1954', event: 'Union membership has fallen from 35% of private-sector workers in 1954 to 6% in 2022.', type: 'default' },
+     { date: '1954-01-01', event: 'Corporate Union Busting investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021', event: 'Amazon spent an estimated $4.3 million on anti-union consultants during the Bessemer, Alabama warehouse election in 2021.', type: 'political' },
+     { date: '2022', event: 'Union membership has fallen from 35% of private-sector workers in 1954 to 6% in 2022.', type: 'default' },
+     { date: '2023-03-19', event: 'Corporate Union Busting — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'corporate-wage-theft': {
@@ -2406,6 +2566,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-08-05',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2014', event: 'In 2014, Walmart settled a Pennsylvania class action for $188 million covering 187,000 workers whose hours were systematically underreported.', type: 'financial' },
+     { date: '2014-01-01', event: 'Corporate Wage Theft investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-08-05', event: 'Corporate Wage Theft — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'corporate-water-theft': {
  title: 'Corporate Water Theft and Privatization',
@@ -2522,9 +2687,12 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-06-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020-02-13', event: 'Burr sold up to $1.7 million in stocks on February 13, 2020, then publicly downplayed the virus threat', type: 'financial' },
-     { date: '2024', event: 'As of 2024, the DOJ had charged over 3,000 defendants but recovered only a fraction of stolen funds', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'Burr sold up to $1.7 million in stocks on February 13, 2020, then publicly downplayed the virus threat.', type: 'financial' },
+     { date: '2020-01-01', event: 'COVID-19 Pandemic Corruption and Profiteering investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-02-13', event: 'Burr sold up to $1.7 million in stocks on February 13, 2020, then publicly downplayed the virus threat.', type: 'financial' },
+     { date: '2024', event: 'As of 2024, the DOJ had charged over 3,000 defendants but recovered only a fraction of stolen funds.', type: 'financial' },
+     { date: '2024-06-01', event: 'COVID-19 Pandemic Corruption and Profiteering — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'covid-19-disinformation-campaign': {
@@ -2567,9 +2735,11 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-10-27',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020-04-01', event: 'BLEACH AND UV LIGHT: In April 2020, Trump publicly suggested injecting bleach or using UV light inside the body to kill the virus', type: 'default' },
-     { date: '2021-06-01', event: 'PREVENTABLE DEATH TOLL: A Kaiser Family Foundation study estimated that at least 234,000 COVID deaths in the United States since June 2021 could have been prevented with vaccination', type: 'critical' },
+      timeline: [
+     { date: '2020-01-01', event: 'COVID-19 Disinformation Campaign investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2020-04', event: 'In April 2020, Trump publicly suggested injecting bleach or using UV light inside the body to kill the virus.', type: 'default' },
+     { date: '2021-06', event: 'A Kaiser Family Foundation study estimated that at least 234,000 COVID deaths in the United States since June 2021 could have been prevented with vaccination.', type: 'default' },
+     { date: '2023-10-27', event: 'COVID-19 Disinformation Campaign — investigation remains active with ongoing developments', type: 'political' },
    ],
  },
   'crypto-fraud-epidemic': {
@@ -2642,6 +2812,10 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2011-12-07',
    lastActivityDate: '2025-02-18',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2011-12-07', event: 'Cambridge Analytica Global Operations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-02-18', event: 'Cambridge Analytica Global Operations — investigation remains active with ongoing developments', type: 'default' },
+   ],
    moneyTrail: [
      { date: '2014-01-01', from: 'Robert Mercer', to: 'SCL Group / Cambridge Analytica', amount: '$15,000,000', purpose: 'Mercer family investment to found Cambridge Analytica as a US subsidiary of British military contractor SCL Group', documented: true },
      { date: '2016-06-01', from: 'Trump Campaign / Make America Number 1 PAC', to: 'Cambridge Analytica', amount: '$5,900,000', purpose: 'Data analytics and voter targeting services using harvested Facebook data from 87 million users', documented: true },
@@ -2678,6 +2852,9 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2024-07-21',
    lastActivityDate: '2024-08-20',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2024-07-21', event: 'Cryptocurrency Money Laundering Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+   ],
   },
   'credit-default-swap-fraud': {
     title: 'Credit Default Swap Fraud',
@@ -4095,6 +4272,15 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: "FTC Annual Competition Report", url: "https://www.ftc.gov/reports", type: "Government Report" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '1978', event: 'Toys THE BORK REVOLUTION: In 1978, Robert Bork\'s \'The Antitrust Paradox\' redefined antitrust law around a narrow \'consumer welfare\' standard focused solely on prices.', type: 'default' },
+     { date: '2005', event: 'Since 2005, nine major airlines consolidated into four.', type: 'default' },
+     { date: '2008', event: 'The 2008 financial crisis accelerated consolidation as failing banks were absorbed by larger ones.', type: 'critical' },
+     { date: '2020', event: 'These companies used serial acquisitions; Google made 260+ acquisitions, Meta bought Instagram and WhatsApp, Amazon acquired Whole Foods and MGM; to eliminate potential competitors before they could challenge market...', type: 'default' },
+     { date: '2021', event: 'The meatpackers recorded record profits during 2021-2022 inflation; the White House itself accused them of profiteering.;, ;MEDIA CONSOLIDATION: Six companies; Comcast, Disney, Warner Bros.', type: 'default' },
+     { date: '2022', event: 'The meatpackers recorded record profits during 2021-2022 inflation; the White House itself accused them of profiteering.;, ;MEDIA CONSOLIDATION: Six companies; Comcast, Disney, Warner Bros.', type: 'default' },
+     { date: '2024', event: 'Local newspapers collapsed from 8,891 in 2005 to under 6,000 by 2024.', type: 'default' },
+   ],
   },
   'cia-dark-history': {
     title: "CIA Dark History: Covert Operations & Regime Change",
@@ -4126,6 +4312,19 @@ const investigations_c: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'The subject of this investigation; responsible for all documented covert operations, torture programs, and regime change activities', href: '/entities/agencies/cia' },
     ],
+   timeline: [
+     { date: '1953', event: 'Congressional oversight has been repeatedly circumvented; the Senate Intelligence Committee MKULTRA (1953-1973): The CIA conducted mind control experiments on unwitting subjects using LSD, electroshock, sensory...', type: 'political' },
+     { date: '1954', event: 'Guatemala (1954): overthrew President Arbenz, triggering 36 years of civil war and genocide.', type: 'political' },
+     { date: '1961', event: 'The Congo (1961): plotted to assassinate PM Patrice Lumumba.', type: 'critical' },
+     { date: '1965', event: 'Indonesia (1965-66): provided kill lists during the mass killings of 500,000-1,000,000 people.;, ;ASSASSINATION PLOTS: The Church Committee documented CIA plots to assassinate at least five foreign leaders: Fidel...', type: 'critical' },
+     { date: '1967', event: 'Operation CHAOS (1967-1974) compiled files on over 300,000 American citizens for anti-war and civil rights activities; violating the CIA\'s charter prohibition on domestic operations.', type: 'default' },
+     { date: '1973', event: 'CIA Director Richard Helms ordered all MKUltra files destroyed in 1973; surviving documents were found in financial records.', type: 'default' },
+     { date: '1979', event: 'Iran (1953): overthrew PM Mohammed Mossadegh, installed the Shah, leading to the 1979 revolution.', type: 'default' },
+     { date: '1981', event: 'Executive Order 12333 banned assassinations in 1981; but targeted killings continued under different legal frameworks.;, ;PHOENIX PROGRAM (1965-1972): The CIA Enhanced interrogation techniques s charter prohibition...', type: 'political' },
+     { date: '1998', event: 'These programs were revealed by the Church Committee but many experts believe similar activities continued in different forms.;, ;DRUG TRAFFICKING CONNECTIONS: Journalist Gary Webb Dark Alliance s 1998 report...', type: 'default' },
+     { date: '2005', event: 'In November 2005, CIA officer Jose Rodriguez ordered the destruction of 92 videotapes documenting the waterboarding and interrogation of detainees Abu Zubaydah and Abd al-Rahim al-Nashiri; despite court orders and...', type: 'legal' },
+     { date: '2005-11', event: 'In November 2005, CIA officer Jose Rodriguez ordered the destruction of 92 videotapes documenting the waterboarding and interrogation of detainees Abu Zubaydah and Abd al-Rahim al-Nashiri; despite court orders and...', type: 'legal' },
+   ],
   },
   'climate-change-coverup': {
     title: "Climate Change Cover-Up",
@@ -4153,6 +4352,20 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: "Carbon Disclosure Project: Carbon Majors Report", url: "https://www.cdp.net/en/articles/media/new-report-shows-just-100-companies-are-source-of-over-70-of-emissions", type: "Research" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '1965', event: 'Twenty fossil fuel companies; including Chevron, ExxonMobil, BP, and Shell; contributed 35% of all energy-related CO2 and methane emissions worldwide between 1965 and 2017.', type: 'default' },
+     { date: '1977', event: 'Exxon scientists accurately predicted global warming in 1977.', type: 'default' },
+     { date: '1982', event: 's own 1982 memo projected CO2 doubling by 2060 and warming of 1.3-3.1 degrees Celsius; closely matching current scientific consensus.;, ;THE DENIAL MACHINE: The fossil fuel industry spent an estimated $2 billion...', type: 'financial' },
+     { date: '1988', event: 'The same PR firms represented both industries.;, ;CARBON MAJORS: Just 100 companies are responsible for 71% of global greenhouse gas emissions since 1988, according to the Carbon Disclosure Project.', type: 'default' },
+     { date: '1998', event: 's own 1982 memo projected CO2 doubling by 2060 and warming of 1.3-3.1 degrees Celsius; closely matching current scientific consensus.;, ;THE DENIAL MACHINE: The fossil fuel industry spent an estimated $2 billion...', type: 'financial' },
+     { date: '2000', event: 'Between 2000 and 2022, the industry spent over $2.7 billion on federal lobbying alone.', type: 'financial' },
+     { date: '2017', event: 'Twenty fossil fuel companies; including Chevron, ExxonMobil, BP, and Shell; contributed 35% of all energy-related CO2 and methane emissions worldwide between 1965 and 2017.', type: 'default' },
+     { date: '2020', event: 's own 1982 memo projected CO2 doubling by 2060 and warming of 1.3-3.1 degrees Celsius; closely matching current scientific consensus.;, ;THE DENIAL MACHINE: The fossil fuel industry spent an estimated $2 billion...', type: 'financial' },
+     { date: '2021', event: 'In 2021, an Exxon lobbyist was caught on hidden camera naming the senators the company had targeted to weaken climate provisions in infrastructure legislation.;, ;THE TOBACCO PLAYBOOK: Fossil fuel companies...', type: 'political' },
+     { date: '2022', event: 'Between 2000 and 2022, the industry spent over $2.7 billion on federal lobbying alone.', type: 'financial' },
+     { date: '2023', event: 'Extreme weather events intensified; the 2023 Canadian wildfires blanketed the eastern United States in smoke.', type: 'default' },
+     { date: '2025', event: 'As of 2025, over 30 states, cities, and counties have filed lawsuits against fossil fuel companies; alleging consumer fraud, racketeering, and public nuisance.', type: 'financial' },
+   ],
   },
   'corporate-labor': {
     title: "Corporate Labor Exploitation",
@@ -4179,6 +4392,12 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: "DOL Child Labor Investigations", url: "https://www.dol.gov/agencies/whd/child-labor", type: "Government" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2018', event: 'In 2023, the DOL reported a 69% increase in child labor violations since 2018.', type: 'default' },
+     { date: '2021', event: 'In Bessemer, Alabama, the NLRB found Amazon engaged in illegal union-busting tactics during the 2021 vote.;, ;STARBUCKS UNION BUSTING: Beginning in 2021, Starbucks workers organized over 400 stores under Starbucks...', type: 'political' },
+     { date: '2023', event: 'In 2023, the DOL reported a 69% increase in child labor violations since 2018.', type: 'default' },
+     { date: '2024', event: 'The FTC attempted to ban non-competes in 2024 but the rule was blocked by a federal court.', type: 'legal' },
+   ],
   },
   'covid-vaccine-profits': {
     title: "COVID Vaccine Profiteering",
@@ -4205,6 +4424,13 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: "NIH-Moderna Patent Dispute Coverage", url: "https://www.nytimes.com/2021/11/09/us/moderna-vaccine-patent.html", type: "Journalism" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2020', event: 'India and South Africa proposed a TRIPS waiver at the World Trade Organization in October 2020 that would have temporarily waived intellectual property protections for COVID vaccines; enabling production in...', type: 'default' },
+     { date: '2020-10', event: 'India and South Africa proposed a TRIPS waiver at the World Trade Organization in October 2020 that would have temporarily waived intellectual property protections for COVID vaccines; enabling production in...', type: 'default' },
+     { date: '2021', event: 'Both companies s Vaccine Alliance estimated that vaccine inequity contributed to millions of preventable deaths in 2021-2022.', type: 'default' },
+     { date: '2022', event: 'Both companies s Vaccine Alliance estimated that vaccine inequity contributed to millions of preventable deaths in 2021-2022.', type: 'default' },
+     { date: '2022-06', event: 'By the time a diluted version was approved in June 2022, the variant-specific window had passed.', type: 'default' },
+   ],
   },
   'cosby-sexual-assault': {
     title: "Bill Cosby Serial Sexual Assault",
@@ -4231,6 +4457,19 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: "AP Investigation: Cosby Accusers Timeline", url: "https://apnews.com/article/bill-cosby-sexual-assault-accusers-timeline", type: "Investigation" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '1975', event: 'Cosby was released after serving nearly three years of a 3-to-10-year sentence.;, ;CIVIL LITIGATION: In 2022, a civil jury in Los Angeles found Cosby liable for sexually assaulting Judy Huth at the Playboy Mansion in...', type: 'legal' },
+     { date: '2005', event: 'S OWN ADMISSION: In a 2005 deposition in the Andrea Constand civil case, Cosby admitted under oath to obtaining seven prescriptions for Quaaludes with the intent to give them to young women he wanted to have sex with.', type: 'default' },
+     { date: '2014', event: 'This deposition was sealed for a decade.;, ;INSTITUTIONAL PROTECTION: Cosby s October 2014 standup routine calling Cosby a rapist went viral and reignited public attention.', type: 'default' },
+     { date: '2014-10', event: 'This deposition was sealed for a decade.;, ;INSTITUTIONAL PROTECTION: Cosby s October 2014 standup routine calling Cosby a rapist went viral and reignited public attention.', type: 'default' },
+     { date: '2015', event: 'The unsealing of the 2005 deposition in July 2015; ordered by a federal judge who ruled Cosby had forfeited his privacy rights by publicly denying the allegations; provided documentary evidence of drugging.;,...', type: 'legal' },
+     { date: '2015-07', event: 'The unsealing of the 2005 deposition in July 2015; ordered by a federal judge who ruled Cosby had forfeited his privacy rights by publicly denying the allegations; provided documentary evidence of drugging.;,...', type: 'legal' },
+     { date: '2015-12', event: 'The unsealing of the 2005 deposition in July 2015; ordered by a federal judge who ruled Cosby had forfeited his privacy rights by publicly denying the allegations; provided documentary evidence of drugging.;,...', type: 'legal' },
+     { date: '2017-06', event: 'The first trial ended in a mistrial in June 2017.', type: 'legal' },
+     { date: '2018-04', event: 'At the retrial in April 2018, five additional accusers testified about being drugged and assaulted.', type: 'default' },
+     { date: '2021-06', event: 'Cosby was convicted on all three counts.;, ;THE OVERTURNED CONVICTION: In June 2021, the Pennsylvania Supreme Court overturned Cosby s Fifth Amendment rights.', type: 'legal' },
+     { date: '2022', event: 'Cosby was released after serving nearly three years of a 3-to-10-year sentence.;, ;CIVIL LITIGATION: In 2022, a civil jury in Los Angeles found Cosby liable for sexually assaulting Judy Huth at the Playboy Mansion in...', type: 'legal' },
+   ],
   },
   'covid-disinfo': {
     title: "COVID-19 Disinformation Campaign",
@@ -4257,6 +4496,11 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: "Facebook Files (Wall Street Journal)", url: "https://www.wsj.com/articles/the-facebook-files-11631713039", type: "Investigation" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2021', event: '; a conspiracy video featuring discredited researcher Judy Mikovits; was viewed an estimated 8 million times before removal.;, ;DEATH TOLL OF DISINFORMATION: A study published in The Lancet estimated that at least...', type: 'financial' },
+     { date: '2021-01', event: '; a conspiracy video featuring discredited researcher Judy Mikovits; was viewed an estimated 8 million times before removal.;, ;DEATH TOLL OF DISINFORMATION: A study published in The Lancet estimated that at least...', type: 'financial' },
+     { date: '2022-04', event: '; a conspiracy video featuring discredited researcher Judy Mikovits; was viewed an estimated 8 million times before removal.;, ;DEATH TOLL OF DISINFORMATION: A study published in The Lancet estimated that at least...', type: 'financial' },
+   ],
   },
   'campaign-finance-corruption': {
     title: 'Campaign Finance Corruption',
@@ -4367,10 +4611,13 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-07-22',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1990', event: 'The program has not reduced emissions below 1990 levels', type: 'default' },
-     { date: '2008', event: 'The EU Emissions Trading System (ETS) covers 45% of European emissions but prices collapsed from €30/ton in 2008 to €25 in 2020 due to over-allocation', type: 'critical' },
-     { date: '2016', event: 'A 2016 investigation found that 30% of offset credits came from forests that would have been preserved anyway', type: 'default' },
+      timeline: [
+     { date: '1990', event: 'The program has not reduced emissions below 1990 levels.', type: 'default' },
+     { date: '1990-01-01', event: 'Carbon Emissions Trading Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2008', event: 'The EU Emissions Trading System (ETS) covers 45% of European emissions but prices collapsed from €30/ton in 2008 to €25 in 2020 due to over-allocation.', type: 'default' },
+     { date: '2016', event: 'A 2016 investigation found that 30% of offset credits came from forests that would have been preserved anyway.', type: 'default' },
+     { date: '2020', event: 'The EU Emissions Trading System (ETS) covers 45% of European emissions but prices collapsed from €30/ton in 2008 to €25 in 2020 due to over-allocation.', type: 'default' },
+     { date: '2025-07-22', event: 'Carbon Emissions Trading Fraud — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'cambodian-genocide': {
@@ -4896,10 +5143,16 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-01-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020-03-01', event: 'In response to the COVID-19 pandemic, Congress passed multiple relief packages totaling over $5 trillion, including the CARES Act ($2.2 trillion, March 2020), the Consolidated Appropriations Act ($...', type: 'political' },
-     { date: '2021', event: 'The DOJ established the COVID-19 Fraud Enforcement Task Force in 2021 and by 2024 had charged over 3,500 defendants with pandemic fraud totaling over $2 billion', type: 'political' },
-     { date: '2025', event: 'As of 2025, only a small percentage of stolen funds have been recovered', type: 'default' },
+      timeline: [
+     { date: '1980-01-01', event: 'COVID Pandemic Fraud: Trillion Dollar Theft investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2020', event: 'In response to the COVID-19 pandemic, Congress passed multiple relief packages totaling over $5 trillion, including the CARES Act ($2.2 trillion, March 2020), the Consolidated Appropriations Act ($900 billion,...', type: 'political' },
+     { date: '2020-03', event: 'In response to the COVID-19 pandemic, Congress passed multiple relief packages totaling over $5 trillion, including the CARES Act ($2.2 trillion, March 2020), the Consolidated Appropriations Act ($900 billion,...', type: 'political' },
+     { date: '2020-12', event: 'In response to the COVID-19 pandemic, Congress passed multiple relief packages totaling over $5 trillion, including the CARES Act ($2.2 trillion, March 2020), the Consolidated Appropriations Act ($900 billion,...', type: 'political' },
+     { date: '2021', event: 'The DOJ established the COVID-19 Fraud Enforcement Task Force in 2021 and by 2024 had charged over 3,500 defendants with pandemic fraud totaling over $2 billion.', type: 'financial' },
+     { date: '2021-03', event: 'In response to the COVID-19 pandemic, Congress passed multiple relief packages totaling over $5 trillion, including the CARES Act ($2.2 trillion, March 2020), the Consolidated Appropriations Act ($900 billion,...', type: 'political' },
+     { date: '2024', event: 'The DOJ established the COVID-19 Fraud Enforcement Task Force in 2021 and by 2024 had charged over 3,500 defendants with pandemic fraud totaling over $2 billion.', type: 'financial' },
+     { date: '2025', event: 'As of 2025, only a small percentage of stolen funds have been recovered.', type: 'financial' },
+     { date: '2025-01-15', event: 'COVID Pandemic Fraud: Trillion Dollar Theft — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'credit-suisse-collapse-scandal': {
@@ -5010,9 +5263,13 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-03-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2021', event: 'In a stunning reversal of a century of progressive labor reform, at least 14 states since 2021 have introduced or passed laws weakening child labor protections', type: 'political' },
-     { date: '2023-02-01', event: 'In February 2023, the Department of Labor announced a $1.5 million penalty against Packers Sanitation Services Inc', type: 'financial' },
+      timeline: [
+     { date: '2015', event: 'Child labor violations in the United States have increased 283% since 2015, with the Department of Labor discovering children working in slaughterhouses, meat processing plants, automobile factories, and roofing...', type: 'default' },
+     { date: '2015-01-01', event: 'Child Labor Resurgence in America investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021', event: 'In a stunning reversal of a century of progressive labor reform, at least 14 states since 2021 have introduced or passed laws weakening child labor protections.', type: 'default' },
+     { date: '2023', event: 'In 2023, the DOL found 5,792 children employed in violation of federal law, including 502 in hazardous occupations.', type: 'default' },
+     { date: '2023-02', event: 'In February 2023, the Department of Labor announced a $1.5 million penalty against Packers Sanitation Services Inc.', type: 'financial' },
+     { date: '2025-03-01', event: 'Child Labor Resurgence in America — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'corporate-tax-avoidance-offshore': {
@@ -5078,10 +5335,13 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2025-02-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2003', event: 'The Fair Credit Reporting Act, last substantially updated in 2003, provides inadequate penalties that bureaus treat as a cost of doing business', type: 'financial' },
-     { date: '2017', event: 'The 2017 Equifax breach, which exposed sensitive data for 147 million Americans, illustrated the fundamental power imbalance', type: 'financial' },
-     { date: '2018', event: 'The three bureaus collectively spent over $30 million on federal lobbying between 2018 and 2024 while generating combined annual revenues exceeding $12 billion from the data of consumers who never ...', type: 'political' },
+      timeline: [
+     { date: '2003', event: 'The Fair Credit Reporting Act, last substantially updated in 2003, provides inadequate penalties that bureaus treat as a cost of doing business.', type: 'default' },
+     { date: '2003-01-01', event: 'Credit Reporting Errors and Consumer Harm investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017', event: 'The 2017 Equifax breach, which exposed sensitive data for 147 million Americans, illustrated the fundamental power imbalance.', type: 'financial' },
+     { date: '2018', event: 'The three bureaus collectively spent over $30 million on federal lobbying between 2018 and 2024 while generating combined annual revenues exceeding $12 billion from the data of consumers who never consented to the...', type: 'financial' },
+     { date: '2024', event: 'The three bureaus collectively spent over $30 million on federal lobbying between 2018 and 2024 while generating combined annual revenues exceeding $12 billion from the data of consumers who never consented to the...', type: 'financial' },
+     { date: '2025-02-15', event: 'Credit Reporting Errors and Consumer Harm — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'chicago-police-torture-ring': {

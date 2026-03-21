@@ -113,9 +113,13 @@ const investigations_q: Record<string, InvestigationData> = {
    eventOriginDate: '1963-01-01',
    lastActivityDate: '2025-02-28',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1963', event: 'Maryland (1963) requires prosecutors to disclose all evidence favorable to the defendant', type: 'legal' },
-     { date: '1976', event: 'Pachtman (1976), shields prosecutors from civil liability for actions taken in their prosecutorial capacity, even when those actions involve deliberate misconduct', type: 'legal' },
+      timeline: [
+     { date: '1963', event: 'Maryland (1963) requires prosecutors to disclose all evidence favorable to the defendant.', type: 'legal' },
+     { date: '1963-01-01', event: 'Prosecutorial Misconduct and Wrongful Convictions investigation begins — events under scrutiny originate from this period', type: 'legal' },
+     { date: '1976', event: 'Pachtman (1976), shields prosecutors from civil liability for actions taken in their prosecutorial capacity, even when those actions involve deliberate misconduct.', type: 'legal' },
+     { date: '1989', event: 'The National Registry of Exonerations has documented over 3,400 wrongful convictions since 1989, with prosecutors contributing to the wrongful conviction through misconduct in 30% of cases.', type: 'legal' },
+     { date: '2020', event: 'A 2020 study found that only 4% of prosecutors found to have committed misconduct faced any disciplinary action.', type: 'legal' },
+     { date: '2025-02-28', event: 'Prosecutorial Misconduct and Wrongful Convictions — investigation remains active with ongoing developments', type: 'legal' },
    ],
   },
   'qualified-immunity-police-shield': {
@@ -146,10 +150,11 @@ const investigations_q: Record<string, InvestigationData> = {
    eventOriginDate: '1871-01-01',
    lastActivityDate: '2025-02-20',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1983', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional r...', type: 'default' },
-     { date: '1983', event: 'Legal scholars have demonstrated that the historical record supports no immunity defense for the type of constitutional violations Section 1983 was designed to address', type: 'default' },
-     { date: '1983', event: 'An analysis of Section 1983 cases in federal courts found that qualified immunity was raised in over 60% of excessive force cases and granted in more than half of those', type: 'legal' },
+      timeline: [
+     { date: '1871', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights.', type: 'default' },
+     { date: '1871-01-01', event: 'Qualified Immunity: The Police Accountability Shield investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1983', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights.', type: 'default' },
+     { date: '2025-02-20', event: 'Qualified Immunity: The Police Accountability Shield — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
 };

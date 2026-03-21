@@ -31,10 +31,12 @@ const investigations_x: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2024-04-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: 'Section 702 of the FISA Amendments Act of 2008 provided the legal framework; but critics; including FISA Court judges; found that the NSA repeatedly exceeded even these permissive boundaries', type: 'legal' },
-     { date: '2015', event: 'The USA FREEDOM Act of 2015 imposed modest restrictions on bulk metadata collection of phone records but did not significantly alter the internet surveillance programs like XKeyscore that operate u...', type: 'default' },
-     { date: '2024-04-01', event: 'The Privacy and Civil Liberties Oversight Board (PCLOB) found that the Section 702 program; which underpins much of XKeyscore\'s authority; raises "serious constitutional questions." Section 702 was...', type: 'default' },
+      timeline: [
+     { date: '2008', event: 'Section 702 of the FISA Amendments Act of 2008 provided the legal framework; but critics; including FISA Court judges; found that the NSA repeatedly exceeded even these permissive boundaries.', type: 'legal' },
+     { date: '2008-01-01', event: 'XKeyscore Universal Data Collection investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2015', event: 'The USA FREEDOM Act of 2015 imposed modest restrictions on bulk metadata collection of phone records but did not significantly alter the internet surveillance programs like XKeyscore that operate under Section 702.', type: 'default' },
+     { date: '2024-04', event: 'The Privacy and Civil Liberties Oversight Board (PCLOB) found that the Section 702 program; which underpins much of XKeyscore\'s authority; raises ;serious constitutional questions.; Section 702 was reauthorized in...', type: 'default' },
+     { date: '2024-04-01', event: 'XKeyscore Universal Data Collection — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'pfas-forever-chemicals-contamination': {

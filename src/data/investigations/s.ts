@@ -49,9 +49,12 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-10-20',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018', event: 'FISA RENEWAL & EXPANSION: Despite campaign rhetoric criticizing surveillance ("wiretapping "claims against Obama), Trump signed legislation renewing Section 702 of FISA in January 2018, which allow...', type: 'political' },
-     { date: '2020', event: 'PROTEST SURVEILLANCE 2020: During Black Lives Matter protests following George Floyds murder, DHS deployed RC-26 reconnaissance aircraft over Minneapolis, Washington D.C., and other cities', type: 'critical' },
+      timeline: [
+     { date: '2018', event: 'Despite campaign rhetoric criticizing surveillance (;wiretapping ;claims against Obama), Trump signed legislation renewing Section 702 of FISA in January 2018, which allows warrantless surveillance of foreign targets...', type: 'political' },
+     { date: '2018-01', event: 'Despite campaign rhetoric criticizing surveillance (;wiretapping ;claims against Obama), Trump signed legislation renewing Section 702 of FISA in January 2018, which allows warrantless surveillance of foreign targets...', type: 'political' },
+     { date: '2018-01-01', event: 'Surveillance State Expansion investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'PROTEST SURVEILLANCE 2020: During Black Lives Matter protests following George Floyds murder, DHS deployed RC-26 reconnaissance aircraft over Minneapolis, Washington D.C., and other cities.', type: 'default' },
+     { date: '2025-10-20', event: 'Surveillance State Expansion — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'securities-fraud': {
@@ -132,6 +135,10 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2012-04-19',
    lastActivityDate: '2025-03-24',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2012-04-19', event: 'Secret Agendas & Covert Operations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-03-24', event: 'Secret Agendas & Covert Operations — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'sex-trafficking-network': {
  title: 'Domestic Sex Trafficking Operations',
@@ -163,6 +170,10 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2010-04-27',
    lastActivityDate: '2025-02-07',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2010-04-27', event: 'Domestic Sex Trafficking Operations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-02-07', event: 'Domestic Sex Trafficking Operations — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'second-impeachment': {
  title: 'Second Impeachment, Incitement of Insurrection',
@@ -198,9 +209,11 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2026-01-27',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2021', event: 'SENATE TRIAL: The trial was held February 9-13, 2021, after Trump left office', type: 'legal' },
-     { date: '2023', event: 'Criminal charges followed in 2023', type: 'default' },
+      timeline: [
+     { date: '2021', event: 'The trial was held February 9-13, 2021, after Trump left office.', type: 'legal' },
+     { date: '2021-01-01', event: 'Second Impeachment, Incitement of Insurrection investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2023', event: 'Criminal charges followed in 2023.', type: 'default' },
+     { date: '2026-01-27', event: 'Second Impeachment, Incitement of Insurrection — investigation remains active with ongoing developments', type: 'political' },
    ],
  },
   'sharpiegate': {
@@ -232,6 +245,12 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2021-08-17',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019', event: 'THE TWEET: On September 1, 2019, Trump tweeted that Alabama would ;most likely be hit (much) harder than anticipated ;by Hurricane Dorian.', type: 'default' },
+     { date: '2019-01-01', event: 'Sharpiegate, Hurricane Dorian investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019-09-01', event: 'THE TWEET: On September 1, 2019, Trump tweeted that Alabama would ;most likely be hit (much) harder than anticipated ;by Hurricane Dorian.', type: 'default' },
+     { date: '2021-08-17', event: 'Sharpiegate, Hurricane Dorian — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'stop-the-steal': {
  title: 'Stop the Steal Movement',
@@ -271,9 +290,13 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-06-11',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'ORIGINS: Roger Stone trademarked "Stop the Steal "in 2016 and revived it after Trump\'s 2020 loss', type: 'default' },
-     { date: '2021-01-06', event: 'THE INSURRECTION: On January 6, 2021, thousands stormed the Capitol seeking to stop certification', type: 'default' },
+      timeline: [
+     { date: '2016', event: 'ORIGINS: Roger Stone trademarked ;Stop the Steal ;in 2016 and revived it after Trump\'s 2020 loss.', type: 'default' },
+     { date: '2016-01-01', event: 'Stop the Steal Movement investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'ORIGINS: Roger Stone trademarked ;Stop the Steal ;in 2016 and revived it after Trump\'s 2020 loss.', type: 'default' },
+     { date: '2021', event: 'On January 6, 2021, thousands stormed the Capitol seeking to stop certification.', type: 'default' },
+     { date: '2021-01-06', event: 'On January 6, 2021, thousands stormed the Capitol seeking to stop certification.', type: 'default' },
+     { date: '2025-06-11', event: 'Stop the Steal Movement — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'scotus-corruption': {
@@ -314,6 +337,10 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2023-04-06',
    lastActivityDate: '2025-04-11',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023-04-06', event: 'Supreme Court Ethics Scandal investigation begins — events under scrutiny originate from this period', type: 'legal' },
+     { date: '2025-04-11', event: 'Supreme Court Ethics Scandal — investigation remains active with ongoing developments', type: 'legal' },
+   ],
  },
   'scotus-ethics': {
  title: 'Supreme Court Ethics Crisis',
@@ -356,6 +383,11 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2023-01-01',
    lastActivityDate: '2023-11-01',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023', event: 'Under pressure, the Court adopted a code of conduct in November 2023, but explicitly stated it codified existing practices and created no enforcement mechanism.', type: 'legal' },
+     { date: '2023-01-01', event: 'Supreme Court Ethics Crisis investigation begins — events under scrutiny originate from this period', type: 'legal' },
+     { date: '2023-11', event: 'Under pressure, the Court adopted a code of conduct in November 2023, but explicitly stated it codified existing practices and created no enforcement mechanism.', type: 'legal' },
+   ],
  },
   'sandy-hook-defamation': {
  title: 'Sandy Hook Defamation',
@@ -396,10 +428,14 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-08-17',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012-12-14', event: 'THE MASSACRE: On December 14, 2012, a gunman killed 20 first-graders and 6 staff members at Sandy Hook Elementary School in Newtown, Connecticut', type: 'critical' },
-     { date: '2022-08-01', event: 'TEXAS VERDICT: In August 2022, a Texas jury awarded Neil Heslin and Scarlett Lewis, parents of 6-year-old Jesse Lewis, $45.2 million in damages', type: 'legal' },
-     { date: '2022-10-01', event: 'CONNECTICUT VERDICT: In October 2022, a Connecticut jury awarded families $965 million', type: 'legal' },
+      timeline: [
+     { date: '2012', event: 'THE MASSACRE: On December 14, 2012, a gunman killed 20 first-graders and 6 staff members at Sandy Hook Elementary School in Newtown, Connecticut.', type: 'critical' },
+     { date: '2012-01-01', event: 'Sandy Hook Defamation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2012-12-14', event: 'THE MASSACRE: On December 14, 2012, a gunman killed 20 first-graders and 6 staff members at Sandy Hook Elementary School in Newtown, Connecticut.', type: 'critical' },
+     { date: '2022', event: 'In October 2022, a Connecticut jury awarded families $965 million.', type: 'financial' },
+     { date: '2022-08', event: 'Later, he submitted to depositions where he admitted Sandy Hook was;100% real.; TEXAS VERDICT: In August 2022, a Texas jury awarded Neil Heslin and Scarlett Lewis, parents of 6-year-old Jesse Lewis, $45.2 million in...', type: 'legal' },
+     { date: '2022-10', event: 'In October 2022, a Connecticut jury awarded families $965 million.', type: 'financial' },
+     { date: '2025-08-17', event: 'Sandy Hook Defamation — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'stormy-daniels-hush-money': {
@@ -501,10 +537,13 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2023-05-09',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2007', event: 'BLACKWATER CONNECTION: Prince founded Blackwater, the private military contractor notorious for the 2007 Nisour Square massacre in Baghdad, where contractors killed 17 Iraqi civilians', type: 'critical' },
-     { date: '2017-01-11', event: 'THE SETUP: On January 11, 2017, just nine days before Trump\'s inauguration, Prince flew to the Seychelles islands in the Indian Ocean', type: 'default' },
-     { date: '2017-11-01', event: 'PRINCE\'S LIES: When Prince testified to the House Intelligence Committee in November 2017, he claimed the meeting was a chance encounter, lasted only one beer, and he had no plan to meet with Russians', type: 'political' },
+      timeline: [
+     { date: '2007', event: 'Prince founded Blackwater, the private military contractor notorious for the 2007 Nisour Square massacre in Baghdad, where contractors killed 17 Iraqi civilians.', type: 'financial' },
+     { date: '2007-01-01', event: 'Seychelles Secret Meeting investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017', event: 'On January 11, 2017, just nine days before Trump\'s inauguration, Prince flew to the Seychelles islands in the Indian Ocean.', type: 'default' },
+     { date: '2017-01-11', event: 'On January 11, 2017, just nine days before Trump\'s inauguration, Prince flew to the Seychelles islands in the Indian Ocean.', type: 'default' },
+     { date: '2017-11', event: 'PRINCE\'S LIES: When Prince testified to the House Intelligence Committee in November 2017, he claimed the meeting was a chance encounter, lasted only one beer, and he had no plan to meet with Russians.', type: 'default' },
+     { date: '2023-05-09', event: 'Seychelles Secret Meeting — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'special-plans': {
@@ -547,10 +586,13 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2024-12-11',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2002', event: 'CREATING OSP: In 2002, Secretary Rumsfeld and Undersecretary Douglas Feith created the Office of Special Plans within the Pentagon', type: 'default' },
-     { date: '2003-02-01', event: 'POWELL\'S PRESENTATION: Secretary Powell\'s February 2003 UN presentation relied partly on OSP-promoted intelligence', type: 'default' },
-     { date: '2005', event: 'Douglas Feith left government in 2005 and wrote a book defending his actions', type: 'default' },
+      timeline: [
+     { date: '2002', event: 'CREATING OSP: In 2002, Secretary Rumsfeld and Undersecretary Douglas Feith created the Office of Special Plans within the Pentagon.', type: 'default' },
+     { date: '2002-01-01', event: 'Office of Special Plans investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2003', event: 'POWELL\'S PRESENTATION: Secretary Powell\'s February 2003 UN presentation relied partly on OSP-promoted intelligence.', type: 'default' },
+     { date: '2003-02', event: 'POWELL\'S PRESENTATION: Secretary Powell\'s February 2003 UN presentation relied partly on OSP-promoted intelligence.', type: 'default' },
+     { date: '2005', event: 'Douglas Feith left government in 2005 and wrote a book defending his actions.', type: 'default' },
+     { date: '2024-12-11', event: 'Office of Special Plans — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'sovereign-debt': {
@@ -591,6 +633,10 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-05-29',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1970-01-01', event: 'Sovereign Debt Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-05-29', event: 'Sovereign Debt Exploitation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'surveillance-state': {
  title: 'The Surveillance State',
@@ -633,6 +679,10 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2012-08-23',
    lastActivityDate: '2025-05-17',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2012-08-23', event: 'The Surveillance State investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-05-17', event: 'The Surveillance State — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'serbia-bombing': {
  title: 'NATO Bombing of Serbia/Kosovo',
@@ -711,6 +761,11 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-11-10',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'She pressed to overturn the 2020 election.', type: 'political' },
+     { date: '2020-01-01', event: 'Supreme Court Ethics Scandal investigation begins — events under scrutiny originate from this period', type: 'legal' },
+     { date: '2024-11-10', event: 'Supreme Court Ethics Scandal — investigation remains active with ongoing developments', type: 'legal' },
+   ],
  },
   'social-media-harms': {
  title: 'Social Media Harms',
@@ -738,6 +793,12 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2026-01-06',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'Social media was a vector for foreign interference and domestic disinformation in 2016 and 2020.', type: 'default' },
+     { date: '2016-01-01', event: 'Social Media Harms investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'Social media was a vector for foreign interference and domestic disinformation in 2016 and 2020.', type: 'default' },
+     { date: '2026-01-06', event: 'Social Media Harms — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'social-media-privacy': {
  title: 'Social Media Privacy Violations',
@@ -764,6 +825,10 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2021-12-14',
    lastActivityDate: '2026-02-12',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021-12-14', event: 'Social Media Privacy Violations investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2026-02-12', event: 'Social Media Privacy Violations — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'sac-capital': {
  title: 'SAC Capital: The Hedge Fund Built on Insider Trading',
@@ -1057,6 +1122,11 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2022-10-29',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1970-01-01', event: 'Church of Scientology: Abuse, Coercion, and Institutional Terror investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1993', event: 'The Church\'s 501(c)(3) tax-exempt status, obtained in 1993 after a decades-long battle with the IRS, shields it from financial transparency requirements.', type: 'default' },
+     { date: '2022-10-29', event: 'Church of Scientology: Abuse, Coercion, and Institutional Terror — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'sec-failures': {
  title: 'SEC Failures: The Watchdog That Refuses to Bite',
@@ -1088,9 +1158,12 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2026-01-19',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2000', event: 'Whistleblower Harry Markopolos submitted detailed, mathematically rigorous complaints to the SEC five times between 2000 and 2008, explicitly stating that Madoff\'s returns were mathematically impos...', type: 'default' },
-     { date: '2013', event: 'A 2013 Project on Government Oversight study found that 419 former SEC employees filed 1,949 disclosure statements indicating they intended to represent clients before the agency within two years o...', type: 'default' },
+      timeline: [
+     { date: '2000', event: 'Whistleblower Harry Markopolos submitted detailed, mathematically rigorous complaints to the SEC five times between 2000 and 2008, explicitly stating that Madoff\'s returns were mathematically impossible and could...', type: 'default' },
+     { date: '2000-01-01', event: 'SEC Failures: The Watchdog That Refuses to Bite investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2008', event: 'Whistleblower Harry Markopolos submitted detailed, mathematically rigorous complaints to the SEC five times between 2000 and 2008, explicitly stating that Madoff\'s returns were mathematically impossible and could...', type: 'default' },
+     { date: '2013', event: 'A 2013 Project on Government Oversight study found that 419 former SEC employees filed 1,949 disclosure statements indicating they intended to represent clients before the agency within two years of leaving.', type: 'default' },
+     { date: '2026-01-19', event: 'SEC Failures: The Watchdog That Refuses to Bite — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'september-11': {
@@ -1250,9 +1323,13 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2023-03-09',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2002', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary "Surviving R', type: 'legal' },
-     { date: '2021', event: 'Kelly was convicted on federal racketeering charges in 2021 and sentenced to 30 years in prison', type: 'legal' },
+      timeline: [
+     { date: '2002', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary ;Surviving R.', type: 'legal' },
+     { date: '2002-01-01', event: 'Sexual Exploitation in Institutions: Systemic Predation and Cover-Ups investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2008', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary ;Surviving R.', type: 'legal' },
+     { date: '2019', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary ;Surviving R.', type: 'legal' },
+     { date: '2021', event: 'Kelly was convicted on federal racketeering charges in 2021 and sentenced to 30 years in prison.', type: 'legal' },
+     { date: '2023-03-09', event: 'Sexual Exploitation in Institutions: Systemic Predation and Cover-Ups — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'sexual-harassment': {
@@ -1410,10 +1487,13 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-09-12',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019', event: 'A Stanford Law School study found that SPACs between 2019 and 2021 destroyed an average of 38% of investor value within one year of their mergers', type: 'political' },
-     { date: '2020', event: 'The SPAC boom of 2020-2021 saw over 600 SPACs raise more than $160 billion', type: 'political' },
-     { date: '2022', event: 'The SEC under Chair Gary Gensler proposed rules in 2022 to increase SPAC disclosure requirements and align liability standards with traditional IPOs', type: 'default' },
+      timeline: [
+     { date: '2019', event: 'A Stanford Law School study found that SPACs between 2019 and 2021 destroyed an average of 38% of investor value within one year of their mergers.', type: 'default' },
+     { date: '2019-01-01', event: 'SPAC Fraud: Wall Streets Blank Check Scam investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2020', event: 'The 2020-2021 SPAC boom saw over 600 blank-check companies raise over $160 billion, enriching sponsors with guaranteed profits while retail investors suffered average losses of 70%.', type: 'financial' },
+     { date: '2021', event: 'A Stanford Law School study found that SPACs between 2019 and 2021 destroyed an average of 38% of investor value within one year of their mergers.', type: 'default' },
+     { date: '2022', event: 'The SEC under Chair Gary Gensler proposed rules in 2022 to increase SPAC disclosure requirements and align liability standards with traditional IPOs.', type: 'default' },
+     { date: '2024-09-12', event: 'SPAC Fraud: Wall Streets Blank Check Scam — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'spacey-assault': {
@@ -1480,9 +1560,11 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2005-01-01',
    lastActivityDate: '2024-05-13',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2005', event: 'Stand Your Ground (SYG) laws, enacted in 38 states since Florida\'s 2005 passage, eliminate the common law duty to retreat before using lethal force in self-defense', type: 'political' },
-     { date: '2012', event: 'The Trayvon Martin case (2012) brought national attention to SYG laws', type: 'political' },
+      timeline: [
+     { date: '2005', event: 'Stand Your Ground (SYG) laws, enacted in 38 states since Florida\'s 2005 passage, eliminate the common law duty to retreat before using lethal force in self-defense.', type: 'default' },
+     { date: '2005-01-01', event: 'Stand Your Ground Laws: Legalizing Racial Violence investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2012', event: 'The Trayvon Martin case (2012) brought national attention to SYG laws.', type: 'default' },
+     { date: '2024-05-13', event: 'Stand Your Ground Laws: Legalizing Racial Violence — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'stanford-ponzi': {
@@ -1553,9 +1635,12 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2024-01-03',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2021-12-01', event: 'The Starbucks unionization movement began in December 2021 when workers at a Buffalo, New York store became the first company-owned Starbucks location to unionize, joining Workers United (an SEIU a...', type: 'default' },
-     { date: '2024', event: 'As of 2024, Starbucks had not reached a single collective bargaining agreement with any unionized store', type: 'default' },
+      timeline: [
+     { date: '2021', event: 'The Starbucks unionization movement began in December 2021 when workers at a Buffalo, New York store became the first company-owned Starbucks location to unionize, joining Workers United (an SEIU affiliate).', type: 'default' },
+     { date: '2021-01-01', event: 'Starbucks Union Busting: Corporate War on Workers Rights investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021-12', event: 'The Starbucks unionization movement began in December 2021 when workers at a Buffalo, New York store became the first company-owned Starbucks location to unionize, joining Workers United (an SEIU affiliate).', type: 'default' },
+     { date: '2024', event: 'As of 2024, Starbucks had not reached a single collective bargaining agreement with any unionized store.', type: 'default' },
+     { date: '2024-01-03', event: 'Starbucks Union Busting: Corporate War on Workers Rights — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'startup-fraud': {
@@ -1588,9 +1673,12 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2025-04-22',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2003', event: 'Theranos, founded by Elizabeth Holmes in 2003, claimed to have developed technology that could run hundreds of medical tests from a single drop of blood', type: 'default' },
-     { date: '2022-11-01', event: 'FTX, the cryptocurrency exchange founded by Sam Bankman-Fried, collapsed in November 2022 after revelations that customer deposits were being used to fund his hedge fund Alameda Research\'s risky be...', type: 'critical' },
+      timeline: [
+     { date: '2003', event: 'Theranos, founded by Elizabeth Holmes in 2003, claimed to have developed technology that could run hundreds of medical tests from a single drop of blood.', type: 'default' },
+     { date: '2003-01-01', event: 'Startup Fraud: Silicon Valleys Culture of Lies investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2022', event: 'FTX, the cryptocurrency exchange founded by Sam Bankman-Fried, collapsed in November 2022 after revelations that customer deposits were being used to fund his hedge fund Alameda Research\'s risky bets, personal real...', type: 'financial' },
+     { date: '2022-11', event: 'FTX, the cryptocurrency exchange founded by Sam Bankman-Fried, collapsed in November 2022 after revelations that customer deposits were being used to fund his hedge fund Alameda Research\'s risky bets, personal real...', type: 'financial' },
+     { date: '2025-04-22', event: 'Startup Fraud: Silicon Valleys Culture of Lies — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'surveillance-capitalism': {
@@ -1661,10 +1749,13 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2026-02-18',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012', event: 'In 2012, he was court-martialed by the U.S', type: 'legal' },
-     { date: '2017-11-05', event: 'On November 5, 2017, Devin Patrick Kelley entered First Baptist Church in Sutherland Springs, Texas, during Sunday services and opened fire, killing 26 people ranging in age from 18 months to 77 ye...', type: 'default' },
-     { date: '2022', event: 'In 2022, federal judge Xavier Rodriguez ruled the government was 60% responsible for the massacre and awarded $230 million in damages', type: 'legal' },
+      timeline: [
+     { date: '2012', event: 'In 2012, he was court-martialed by the U.S.', type: 'legal' },
+     { date: '2012-01-01', event: 'Sutherland Springs Shooting: The Failures That Armed a Mass Killer investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017', event: 'On November 5, 2017, a gunman killed 26 people and wounded 22 others at First Baptist Church in Sutherland Springs, Texas, in the deadliest church shooting in American history.', type: 'critical' },
+     { date: '2017-11-05', event: 'On November 5, 2017, a gunman killed 26 people and wounded 22 others at First Baptist Church in Sutherland Springs, Texas, in the deadliest church shooting in American history.', type: 'critical' },
+     { date: '2022', event: 'In 2022, federal judge Xavier Rodriguez ruled the government was 60% responsible for the massacre and awarded $230 million in damages.', type: 'legal' },
+     { date: '2026-02-18', event: 'Sutherland Springs Shooting: The Failures That Armed a Mass Killer — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'super-pac-coordination-scandals': {
@@ -1808,9 +1899,11 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-10-11',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019', event: 'LEGAL LIABILITY: Since 2019, hundreds of lawsuits have been filed against major hotel chains under the Trafficking Victims Protection Reauthorization Act (TVPRA), which provides civil remedies for ...', type: 'legal' },
-     { date: '2023', event: 'In 2023, a federal jury in Ohio awarded $111 million against Red Roof Inns and other defendants in a sex trafficking case', type: 'financial' },
+      timeline: [
+     { date: '2019', event: 'Since 2019, hundreds of lawsuits have been filed against major hotel chains under the Trafficking Victims Protection Reauthorization Act (TVPRA), which provides civil remedies for trafficking victims.', type: 'default' },
+     { date: '2019-01-01', event: 'Sex Trafficking and Hotel Industry Complicity investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'In 2023, a federal jury in Ohio awarded $111 million against Red Roof Inns and other defendants in a sex trafficking case.', type: 'financial' },
+     { date: '2024-10-11', event: 'Sex Trafficking and Hotel Industry Complicity — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'sugar-industry-harvard-corruption': {
@@ -1878,6 +1971,10 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2024-09-21',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2014-01-01', event: 'Social Credit System Western Adoption investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-09-21', event: 'Social Credit System Western Adoption — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'ssri-antidepressant-hidden-trial-data': {
     title: 'SSRI Antidepressant Hidden Trial Data',
@@ -1977,6 +2074,11 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2024-06-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021', event: 'A 2021 Chicago Inspector General report found that 89% of ShotSpotter-triggered police deployments found no evidence of gunfire or gun-related crime.', type: 'default' },
+     { date: '2021-01-01', event: 'Smart City Surveillance Infrastructure investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-06-15', event: 'Smart City Surveillance Infrastructure — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'social-media-radicalization-pipeline': {
     title: 'Social Media Radicalization Pipeline',
@@ -2007,6 +2109,10 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2019-09-21',
    lastActivityDate: '2021-08-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019-09-21', event: 'Social Media Radicalization Pipeline investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021-08-25', event: 'Social Media Radicalization Pipeline — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'social-media-censorship-industrial-complex': {
     title: 'Social Media Censorship Industrial Complex',
@@ -2219,10 +2325,12 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2024-10-09',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018', event: 'FACIAL RECOGNITION IN SCHOOLS: Following the 2018 Parkland shooting, multiple school districts deployed facial recognition systems', type: 'critical' },
-     { date: '2021', event: 'A 2021 RAND Corporation study found "no evidence that the presence of cameras in schools reduces crime, violence, or other safety threats." Schools with the most extensive surveillance systems tend...', type: 'default' },
-     { date: '2022', event: 'A 2022 investigation found that Gaggle\'s system disproportionately flags LGBTQ+ students, students of color, and students discussing normal developmental topics like relationships and body image', type: 'default' },
+      timeline: [
+     { date: '2018', event: 'Following the 2018 Parkland shooting, multiple school districts deployed facial recognition systems.', type: 'default' },
+     { date: '2018-01-01', event: 'School Surveillance Technology Adoption investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021', event: 'A 2021 RAND Corporation study found ;no evidence that the presence of cameras in schools reduces crime, violence, or other safety threats.; Schools with the most extensive surveillance systems tend to be schools...', type: 'default' },
+     { date: '2022', event: 'A 2022 investigation found that Gaggle\'s system disproportionately flags LGBTQ+ students, students of color, and students discussing normal developmental topics like relationships and body image.', type: 'default' },
+     { date: '2024-10-09', event: 'School Surveillance Technology Adoption — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'social-media-addiction-engineering': {
@@ -2287,9 +2395,11 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2025-11-03',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019', event: 'A 2019 Princeton/University of Chicago study found dark patterns on 11.1% of the 11,000 shopping websites analyzed', type: 'default' },
-     { date: '2021', event: 'A 2021 study found that adults encounter 6,000-10,000 advertisements per day across digital platforms; the vast majority processed unconsciously', type: 'default' },
+      timeline: [
+     { date: '1950-01-01', event: 'Subliminal Messaging in Digital Advertising investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019', event: 'A 2019 Princeton/University of Chicago study found dark patterns on 11.1% of the 11,000 shopping websites analyzed.', type: 'default' },
+     { date: '2021', event: 'A 2021 study found that adults encounter 6,000-10,000 advertisements per day across digital platforms; the vast majority processed unconsciously.', type: 'default' },
+     { date: '2025-11-03', event: 'Subliminal Messaging in Digital Advertising — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'structured-finance-fraud-networks': {
@@ -2452,6 +2562,17 @@ const investigations_s: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Confirmed Syrian government responsibility for chemical attacks through intelligence assessments; supported opposition forces', href: '/entities/agencies/cia' },
     ],
+   timeline: [
+     { date: '2011', event: 'Russia vetoed 16 Syria-related resolutions between 2011 and 2023; including efforts to establish attribution mechanisms and refer Syria to the International Criminal Court.', type: 'legal' },
+     { date: '2012-08', event: 'S RED LINE: In August 2012, President Obama declared that the use of chemical weapons was a that would trigger American military intervention.', type: 'political' },
+     { date: '2013', event: 'The GHOUTA MASSACRE (2013): On August 21, 2013, Syrian government forces launched rockets carrying sarin nerve agent into the opposition-held suburbs of Eastern and Western Ghouta in the Damascus countryside.', type: 'critical' },
+     { date: '2013-08-21', event: 'The GHOUTA MASSACRE (2013): On August 21, 2013, Syrian government forces launched rockets carrying sarin nerve agent into the opposition-held suburbs of Eastern and Western Ghouta in the Damascus countryside.', type: 'critical' },
+     { date: '2017', event: 'KHAN SHAYKHUN (2017): On April 4, 2017, Syrian government aircraft dropped sarin-containing munitions on the town of Khan Shaykhun in Idlib province, killing over 90 people including 30 children.', type: 'default' },
+     { date: '2017-04-04', event: 'KHAN SHAYKHUN (2017): On April 4, 2017, Syrian government aircraft dropped sarin-containing munitions on the town of Khan Shaykhun in Idlib province, killing over 90 people including 30 children.', type: 'default' },
+     { date: '2018', event: 'DOUMA (2018): On April 7, 2018, chlorine-containing canisters were dropped on the city of Douma, killing over 40 people.', type: 'default' },
+     { date: '2018-04-07', event: 'DOUMA (2018): On April 7, 2018, chlorine-containing canisters were dropped on the city of Douma, killing over 40 people.', type: 'default' },
+     { date: '2023', event: 'Russia vetoed 16 Syria-related resolutions between 2011 and 2023; including efforts to establish attribution mechanisms and refer Syria to the International Criminal Court.', type: 'legal' },
+   ],
   },
   'sec-failure-to-regulate-wall-street': {
     title: 'SEC Failure to Regulate Wall Street: A History of Captured Oversight',
@@ -2828,10 +2949,13 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2025-03-05',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2011', event: 'Between 2011 and 2023: teen depression increased 60%, teen anxiety diagnoses doubled, emergency room visits for self-harm among girls aged 10-14 tripled, and teen suicide rates increased 30%', type: 'default' },
-     { date: '2021-09-01', event: 'In September 2021, whistleblower Frances Haugen leaked thousands of internal Meta documents to Congress and the Wall Street Journal', type: 'political' },
-     { date: '2023', event: 'The Surgeon General\'s 2023 advisory stated social media presents "a profound risk of harm to the mental health and well-being of children and adolescents." Multiple studies show a dose-response rel...', type: 'default' },
+      timeline: [
+     { date: '2011', event: 'The Surgeon General declared a youth mental health crisis in 2021, with teen depression up 60% and suicide attempts up 30% since 2011 — coinciding precisely with smartphone and social media adoption.', type: 'critical' },
+     { date: '2011-01-01', event: 'Social Media Platforms and Mental Health Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2021', event: 'The Facebook Files, leaked by whistleblower Frances Haugen in 2021, showed Instagram\'s own researchers found the platform made body image issues worse for 1 in 3 teen girls.', type: 'default' },
+     { date: '2021-09', event: 'In September 2021, whistleblower Frances Haugen leaked thousands of internal Meta documents to Congress and the Wall Street Journal.', type: 'political' },
+     { date: '2023', event: 'Between 2011 and 2023: teen depression increased 60%, teen anxiety diagnoses doubled, emergency room visits for self-harm among girls aged 10-14 tripled, and teen suicide rates increased 30%.', type: 'default' },
+     { date: '2025-03-05', event: 'Social Media Platforms and Mental Health Exploitation — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'solitary-confinement-torture': {
@@ -2897,9 +3021,11 @@ const investigations_s: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-01-30',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018', event: 'The Trump administration rescinded that guidance in 2018, calling it federal overreach', type: 'default' },
-     { date: '2023', event: 'A 2023 analysis found that schools with SROs had 3.5 times more arrests than comparable schools without police presence, with no measurable improvement in school safety outcomes', type: 'default' },
+      timeline: [
+     { date: '2018', event: 'The Trump administration rescinded that guidance in 2018, calling it federal overreach.', type: 'default' },
+     { date: '2018-01-01', event: 'School-to-Prison Pipeline investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'A 2023 analysis found that schools with SROs had 3.5 times more arrests than comparable schools without police presence, with no measurable improvement in school safety outcomes.', type: 'default' },
+     { date: '2025-01-30', event: 'School-to-Prison Pipeline — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'sand-creek-massacre-1864': {

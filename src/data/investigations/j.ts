@@ -128,6 +128,12 @@ const investigations_j: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2026-03-10',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021', event: 'The January 6, 2021 attack on the U.S.', type: 'critical' },
+     { date: '2021-01-01', event: 'January 6th Capitol Attack: The Day Democracy Was Assaulted investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2021-01-06', event: 'The January 6, 2021 attack on the U.S.', type: 'critical' },
+     { date: '2026-03-10', event: 'January 6th Capitol Attack: The Day Democracy Was Assaulted — investigation remains active with ongoing developments', type: 'critical' },
+   ],
  },
   'jj-baby-powder': {
  title: 'Johnson & Johnson Baby Powder: Decades of Asbestos Concealment',

@@ -26,6 +26,10 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2009-02-18',
    lastActivityDate: '2023-11-28',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2009-02-18', event: 'Welcome to the ArkHive Platform investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-11-28', event: 'Welcome to the ArkHive Platform — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'water-privatization': {
  title: 'Water Privatization Schemes',
@@ -69,6 +73,12 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2022-02-23',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'The ;Navigable Waters Protection Rule;(finalized January 2020) excluded ephemeral streams, wetlands not adjacent to navigable waters, and groundwater from federal protection.', type: 'default' },
+     { date: '2020-01', event: 'The ;Navigable Waters Protection Rule;(finalized January 2020) excluded ephemeral streams, wetlands not adjacent to navigable waters, and groundwater from federal protection.', type: 'default' },
+     { date: '2020-01-01', event: 'Water Privatization Schemes investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-02-23', event: 'Water Privatization Schemes — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'white-nationalism': {
  title: 'White Nationalism & Trump',
@@ -157,9 +167,12 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2024-09-06',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2007', event: 'BLACKWATER WAR CRIMES: Private military contractor Blackwater (founded by Erik Prince) committed the Nisour Square massacre in 2007, killing 17 Iraqi civilians including children', type: 'critical' },
-     { date: '2020-12-01', event: 'NISOUR SQUARE PARDONS: In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians', type: 'legal' },
+      timeline: [
+     { date: '2007', event: 'Private military contractor Blackwater (founded by Erik Prince) committed the Nisour Square massacre in 2007, killing 17 Iraqi civilians including children.', type: 'financial' },
+     { date: '2007-01-01', event: 'War Profiteering in Iraq and Afghanistan investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians.', type: 'legal' },
+     { date: '2020-12', event: 'In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians.', type: 'legal' },
+     { date: '2024-09-06', event: 'War Profiteering in Iraq and Afghanistan — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'white-nationalist-media': {
@@ -200,6 +213,11 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2023-01-01',
    lastActivityDate: '2024-09-30',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023', event: 'Tucker Carlson, until his 2023 firing, regularly promoted ;great replacement ;theory, the white nationalist claim that elites are deliberately replacing white Americans with immigrants.', type: 'default' },
+     { date: '2023-01-01', event: 'White Nationalist Media Ecosystem investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-09-30', event: 'White Nationalist Media Ecosystem — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'who-china': {
  title: 'WHO-China Relationship Controversy',
@@ -236,10 +254,12 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2022-01-21',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'EARLY PRAISE FOR CHINA: In January 2020, WHO praised China\'s "transparency "and "commitment to sharing information "while China was actively suppressing whistleblowers and concealing data', type: 'default' },
-     { date: '2020', event: 'TRAVEL RESTRICTION ADVICE: WHO recommended against travel restrictions to China in January 2020, advice that may have accelerated global spread', type: 'default' },
-     { date: '2020-03-11', event: 'DELAYED PANDEMIC DECLARATION: WHO waited until March 11, 2020 to declare COVID-19 a pandemic, weeks after it had clearly met criteria', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'In January 2020, WHO praised China\'s ;transparency ;and ;commitment to sharing information ;while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
+     { date: '2020-01', event: 'In January 2020, WHO praised China\'s ;transparency ;and ;commitment to sharing information ;while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
+     { date: '2020-01-01', event: 'WHO-China Relationship Controversy investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-03-11', event: 'WHO waited until March 11, 2020 to declare COVID-19 a pandemic, weeks after it had clearly met criteria.', type: 'default' },
+     { date: '2022-01-21', event: 'WHO-China Relationship Controversy — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'wuhan-lab': {
@@ -277,9 +297,12 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-04-29',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019-09-01', event: 'DATABASE DELETION: WIV took its virus database offline in September 2019, before the pandemic', type: 'default' },
-     { date: '2019-11-01', event: 'intelligence indicates several WIV researchers became ill with COVID-like symptoms in November 2019, before the official outbreak recognition', type: 'default' },
+      timeline: [
+     { date: '2019', event: 'Intelligence reports indicate WIV researchers became ill with COVID-like symptoms in November 2019.', type: 'default' },
+     { date: '2019-01-01', event: 'Wuhan Institute of Virology Investigation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019-09', event: 'WIV took its virus database offline in September 2019, before the pandemic.', type: 'default' },
+     { date: '2019-11', event: 'Intelligence reports indicate WIV researchers became ill with COVID-like symptoms in November 2019.', type: 'default' },
+     { date: '2024-04-29', event: 'Wuhan Institute of Virology Investigation — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'war-crimes': {
@@ -320,6 +343,10 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2011-06-09',
    lastActivityDate: '2012-12-22',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2011-06-09', event: 'War Crimes Without Accountability investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2012-12-22', event: 'War Crimes Without Accountability — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'wall-street-bailout': {
  title: '2008 Wall Street Bailout',
@@ -348,6 +375,11 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2024-10-07',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008-01-01', event: '2008 Wall Street Bailout investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2011', event: 'The 2011 Occupy Wall Street movement emerged from rage at bailout injustice.', type: 'default' },
+     { date: '2024-10-07', event: '2008 Wall Street Bailout — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'worldcom-fraud': {
  title: 'WorldCom Fraud',
@@ -377,6 +409,11 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2012-05-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'Similar frauds continued, Tyco, HealthSouth, and later the 2008 financial crisis showed corporate crime remained endemic.', type: 'critical' },
+     { date: '2008-01-01', event: 'WorldCom Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2012-05-25', event: 'WorldCom Fraud — investigation remains active with ongoing developments', type: 'financial' },
+   ],
  },
   'wagner-crimes': {
  title: 'Wagner Group Crimes: Russia\'s Murder-for-Hire Mercenary Army',
@@ -460,10 +497,12 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2024-08-13',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: 'The 2008 financial crisis, caused by Wall Street\'s systematic packaging and sale of fraudulent mortgage-backed securities, destroyed $11 trillion in household wealth, eliminated 8.7 million jobs, a...', type: 'political' },
-     { date: '2008', event: 'The Dodd-Frank Act\'s regulatory reforms were systematically weakened through lobbying; the financial industry spent over $1.5 billion on lobbying between 2008 and 2016', type: 'political' },
-     { date: '2010', event: 'While banks received bailouts, 3.8 million families had their homes foreclosed in 2010 alone', type: 'financial' },
+      timeline: [
+     { date: '2008', event: 'The 2008 financial crisis, caused by Wall Street\'s systematic packaging and sale of fraudulent mortgage-backed securities, destroyed $11 trillion in household wealth, eliminated 8.7 million jobs, and caused 10...', type: 'financial' },
+     { date: '2008-01-01', event: 'Wall Street Accountability: Too Big to Jail investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2010', event: 'While banks received bailouts, 3.8 million families had their homes foreclosed in 2010 alone.', type: 'financial' },
+     { date: '2016', event: 'The Dodd-Frank Act\'s regulatory reforms were systematically weakened through lobbying; the financial industry spent over $1.5 billion on lobbying between 2008 and 2016.', type: 'financial' },
+     { date: '2024-08-13', event: 'Wall Street Accountability: Too Big to Jail — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'wall-street-manipulation': {
@@ -496,6 +535,11 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2024-09-13',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2013', event: 'Foreign exchange market manipulation was exposed through a series of investigations beginning in 2013.', type: 'default' },
+     { date: '2013-01-01', event: 'Wall Street Market Manipulation: Rigging the Game investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-09-13', event: 'Wall Street Market Manipulation: Rigging the Game — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'walmart-labor': {
  title: 'Walmart Labor Abuses: The Human Cost of Low Prices',
@@ -571,10 +615,14 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-11-20',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2015-04-04', event: 'On April 4, 2015, North Charleston, South Carolina police officer Michael Slager pulled over 50-year-old Walter Scott for a broken brake light', type: 'default' },
-     { date: '2016-12-01', event: 'The state murder trial ended in a hung jury in December 2016 (one juror refused to convict)', type: 'legal' },
-     { date: '2017-05-01', event: 'Slager then pleaded guilty to federal civil rights charges in May 2017', type: 'legal' },
+      timeline: [
+     { date: '2015', event: 'On April 4, 2015, North Charleston police officer Michael Slager shot unarmed Walter Scott five times in the back as he ran from a traffic stop.', type: 'default' },
+     { date: '2015-01-01', event: 'Walter Scott Murder: Shot in the Back While Running Away investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2015-04-04', event: 'On April 4, 2015, North Charleston police officer Michael Slager shot unarmed Walter Scott five times in the back as he ran from a traffic stop.', type: 'default' },
+     { date: '2016', event: 'The state murder trial ended in a hung jury in December 2016 (one juror refused to convict).', type: 'legal' },
+     { date: '2016-12', event: 'The state murder trial ended in a hung jury in December 2016 (one juror refused to convict).', type: 'legal' },
+     { date: '2017-05', event: 'Slager then pleaded guilty to federal civil rights charges in May 2017.', type: 'legal' },
+     { date: '2025-11-20', event: 'Walter Scott Murder: Shot in the Back While Running Away — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'war-on-terror-abuses': {
@@ -775,10 +823,17 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2023-03-20',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2010', event: 'Between 2010 and 2023, white supremacist and far-right extremists were responsible for the majority of domestic terrorism fatalities', type: 'critical' },
-     { date: '2015-06-01', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsbu...', type: 'critical' },
-     { date: '2020', event: 'A 2020 DHS whistleblower alleged that the Trump administration directed analysts to downplay the white supremacist terrorism threat to align with the president\'s political interests', type: 'political' },
+      timeline: [
+     { date: '2010', event: 'Between 2010 and 2023, white supremacist and far-right extremists were responsible for the majority of domestic terrorism fatalities.', type: 'default' },
+     { date: '2010-01-01', event: 'White Supremacist Terrorism: Americas Deadliest Domestic Threat investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2015-06', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018,...', type: 'critical' },
+     { date: '2018', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018,...', type: 'critical' },
+     { date: '2018-10', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018,...', type: 'critical' },
+     { date: '2019-08', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018,...', type: 'critical' },
+     { date: '2020', event: 'A 2020 DHS whistleblower alleged that the Trump administration directed analysts to downplay the white supremacist terrorism threat to align with the president\'s political interests.', type: 'political' },
+     { date: '2022-05', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018,...', type: 'critical' },
+     { date: '2023', event: 'Between 2010 and 2023, white supremacist and far-right extremists were responsible for the majority of domestic terrorism fatalities.', type: 'default' },
+     { date: '2023-03-20', event: 'White Supremacist Terrorism: Americas Deadliest Domestic Threat — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'white-supremacist-violence': {
@@ -863,9 +918,11 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '1935-01-01',
    lastActivityDate: '2025-04-09',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1935', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American ge...', type: 'default' },
-     { date: '1968', event: 'The Fair Housing Act of 1968 outlawed explicit racial discrimination but did not address existing segregation or resource disparities', type: 'political' },
+      timeline: [
+     { date: '1935', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography.', type: 'default' },
+     { date: '1935-01-01', event: 'White Supremacy in America: The System, Not Just the Extremists investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1968', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography.', type: 'default' },
+     { date: '2025-04-09', event: 'White Supremacy in America: The System, Not Just the Extremists — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'wmd-lies': {
@@ -895,10 +952,16 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '1991-01-01',
    lastActivityDate: '2019-03-10',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2002-10-01', event: 'The intelligence community\'s October 2002 National Intelligence Estimate on Iraqi WMDs contained dissents from the State Department\'s Bureau of Intelligence and Research and the Department of Energ...', type: 'default' },
-     { date: '2003-02-01', event: 'Secretary of State Colin Powell\'s February 2003 UN presentation, which he later called a "blot" on his career, asserted that Iraq possessed mobile biological weapons labs, had reconstituted its nuc...', type: 'default' },
-     { date: '2004-09-01', event: 'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and ...', type: 'default' },
+      timeline: [
+     { date: '1991', event: 'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and had no active programs.', type: 'default' },
+     { date: '1991-01-01', event: 'WMD Lies: How America Was Deceived Into the Iraq War investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2002', event: 'The intelligence community\'s October 2002 National Intelligence Estimate on Iraqi WMDs contained dissents from the State Department\'s Bureau of Intelligence and Research and the Department of Energy, which challenged...', type: 'default' },
+     { date: '2002-10', event: 'The intelligence community\'s October 2002 National Intelligence Estimate on Iraqi WMDs contained dissents from the State Department\'s Bureau of Intelligence and Research and the Department of Energy, which challenged...', type: 'default' },
+     { date: '2003', event: 'The Bush administration systematically fabricated and exaggerated intelligence about Iraqi weapons of mass destruction to justify the 2003 invasion.', type: 'default' },
+     { date: '2003-02', event: 'Secretary of State Colin Powell\'s February 2003 UN presentation, which he later called a ;blot; on his career, asserted that Iraq possessed mobile biological weapons labs, had reconstituted its nuclear program, and...', type: 'default' },
+     { date: '2004', event: 'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and had no active programs.', type: 'default' },
+     { date: '2004-09', event: 'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and had no active programs.', type: 'default' },
+     { date: '2019-03-10', event: 'WMD Lies: How America Was Deceived Into the Iraq War — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'worker-misclassification': {
@@ -931,9 +994,10 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-11-17',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'A 2020 study found that up to 40% of construction workers in some states were misclassified', type: 'default' },
-     { date: '2020', event: 'California\'s AB5 law (2020) attempted to address gig worker misclassification by codifying a stricter "ABC test" for independent contractor status', type: 'political' },
+      timeline: [
+     { date: '2020', event: 'A 2020 study found that up to 40% of construction workers in some states were misclassified.', type: 'default' },
+     { date: '2020-01-01', event: 'Worker Misclassification: The Gig Economys Billion-Dollar Wage Theft investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2025-11-17', event: 'Worker Misclassification: The Gig Economys Billion-Dollar Wage Theft — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'wire-fraud-transnational-networks': {
@@ -1001,10 +1065,14 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2007-01-01',
    lastActivityDate: '2022-04-06',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2007-09-16', event: 'The September 16, 2007 Nisour Square massacre, in which Blackwater guards killed 17 Iraqi civilians, led to international outrage', type: 'critical' },
-     { date: '2020-12-01', event: 'Four guards were eventually convicted; but President Trump pardoned all four in December 2020', type: 'legal' },
-     { date: '2021-08-01', event: 'The Afghan military; trained and equipped at a cost of $88 billion; collapsed in 11 days when the Taliban advanced in August 2021, abandoning $7.1 billion in U.S.-supplied equipment', type: 'critical' },
+      timeline: [
+     { date: '2007', event: 'Blackwater (later Academi) received $2.4 billion in contracts despite numerous atrocity allegations, including the 2007 Nisour Square massacre of 17 Iraqi civilians.', type: 'financial' },
+     { date: '2007-01-01', event: 'War Profiteering Iraq Afghanistan investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2007-09-16', event: 'The September 16, 2007 Nisour Square massacre, in which Blackwater guards killed 17 Iraqi civilians, led to international outrage.', type: 'critical' },
+     { date: '2020', event: 'Four guards were eventually convicted; but President Trump pardoned all four in December 2020.', type: 'legal' },
+     { date: '2020-12', event: 'Four guards were eventually convicted; but President Trump pardoned all four in December 2020.', type: 'legal' },
+     { date: '2021-08', event: 'The Afghan military; trained and equipped at a cost of $88 billion; collapsed in 11 days when the Taliban advanced in August 2021, abandoning $7.1 billion in U.S.-supplied equipment.', type: 'financial' },
+     { date: '2022-04-06', event: 'War Profiteering Iraq Afghanistan — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'wall-street-capture-of-sec': {
@@ -1071,6 +1139,11 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2023-11-14',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2010', event: 'The Dodd-Frank Act\'s SEC whistleblower program (created in 2010) has improved financial incentives for securities fraud whistleblowers; but retaliation protections remain weak.', type: 'financial' },
+     { date: '2010-01-01', event: 'Whistleblower Retaliation Systematic investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-11-14', event: 'Whistleblower Retaliation Systematic — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'wrongful-convictions-systemic-crisis': {
     title: 'Wrongful Convictions Systemic Crisis',
@@ -1171,10 +1244,12 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2026-01-17',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1996', event: 'The New York Trade Waste Commission, established by Mayor Giuliani in 1996, found that this cartel inflated commercial waste removal costs by 40-50%; costing New York City businesses an estimated $...', type: 'financial' },
-     { date: '1996', event: 'THE TRADE WASTE COMMISSION: Mayor Rudolph Giuliani established the New York Trade Waste Commission in 1996 (renamed the Business Integrity Commission in 2002) with the specific mandate of breaking ...', type: 'default' },
-     { date: '1999', event: 'James "Jimmy Brown" Failla, a Gambino captain, was the acknowledged "boss" of the cartel industry association (the Association of Trade Waste Removers of Greater New York) from the 1970s until his ...', type: 'default' },
+      timeline: [
+     { date: '1970-01-01', event: 'Waste Management Organized Crime Ties investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1996', event: 'The New York Trade Waste Commission, established by Mayor Giuliani in 1996, found that this cartel inflated commercial waste removal costs by 40-50%; costing New York City businesses an estimated $500 million per...', type: 'financial' },
+     { date: '1999', event: 'James ;Jimmy Brown; Failla, a Gambino captain, was the acknowledged ;boss; of the cartel industry association (the Association of Trade Waste Removers of Greater New York) from the 1970s until his death in 1999.', type: 'critical' },
+     { date: '2002', event: 'Mayor Rudolph Giuliani established the New York Trade Waste Commission in 1996 (renamed the Business Integrity Commission in 2002) with the specific mandate of breaking the organized crime cartel in the waste industry.', type: 'default' },
+     { date: '2026-01-17', event: 'Waste Management Organized Crime Ties — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'wire-transfer-fraud-international-corridors': {
@@ -1204,9 +1279,11 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-06-04',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012', event: 'HSBC paid $1.9 billion in 2012 for laundering hundreds of millions for Mexican drug cartels; the bank processed $881 million in drug money through its U.S', type: 'political' },
-     { date: '2023', event: 'Chainalysis estimated that $22.2 billion in cryptocurrency was received by illicit addresses in 2023', type: 'political' },
+      timeline: [
+     { date: '2012', event: 'HSBC paid $1.9 billion in 2012 for laundering hundreds of millions for Mexican drug cartels; the bank processed $881 million in drug money through its U.S.', type: 'financial' },
+     { date: '2012-01-01', event: 'Wire Transfer Fraud International Corridors investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2023', event: 'Chainalysis estimated that $22.2 billion in cryptocurrency was received by illicit addresses in 2023.', type: 'financial' },
+     { date: '2025-06-04', event: 'Wire Transfer Fraud International Corridors — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'workplace-monitoring-technology-growth': {
@@ -1236,10 +1313,13 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '1986-01-01',
    lastActivityDate: '2026-01-18',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1986', event: 'The Electronic Communications Privacy Act (ECPA) of 1986 contains a "business use exception" that permits employers to monitor communications on their systems for legitimate business purposes and a...', type: 'political' },
-     { date: '2020', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021', type: 'default' },
-     { date: '2023', event: 'A 2023 Harvard Business Review study found that monitored employees were more likely to engage in rule-breaking, take unapproved breaks, and work with less care', type: 'default' },
+      timeline: [
+     { date: '1986', event: 'The Electronic Communications Privacy Act (ECPA) of 1986 contains a ;business use exception; that permits employers to monitor communications on their systems for legitimate business purposes and a ;consent...', type: 'default' },
+     { date: '1986-01-01', event: 'Workplace Monitoring Technology Growth investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021.', type: 'default' },
+     { date: '2021', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021.', type: 'default' },
+     { date: '2023', event: 'A 2023 Harvard Business Review study found that monitored employees were more likely to engage in rule-breaking, take unapproved breaks, and work with less care.', type: 'default' },
+     { date: '2026-01-18', event: 'Workplace Monitoring Technology Growth — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'water-treatment-chemical-health-effects': {
@@ -1320,6 +1400,12 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: "Bretton Woods Project", url: "https://www.brettonwoodsproject.org/", type: "Research" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '1996', event: 'The Heavily Indebted Poor Countries (HIPC) initiative provided partial relief beginning in 1996; but required additional reforms that critics described as continued conditionality.', type: 'default' },
+     { date: '2014', event: 'Former chief economist Joseph Stiglitz criticized the Bank FORCED DISPLACEMENT: A 2015 ICIJ investigation found that World Bank-funded projects displaced an estimated 3.4 million people in the decade ending 2014.', type: 'financial' },
+     { date: '2015', event: 'Former chief economist Joseph Stiglitz criticized the Bank FORCED DISPLACEMENT: A 2015 ICIJ investigation found that World Bank-funded projects displaced an estimated 3.4 million people in the decade ending 2014.', type: 'financial' },
+     { date: '2021', event: 'Between 2015 and 2021, the Bank Group provided over $14 billion in financing for fossil fuels, according to analysis by the Big Shift Campaign.', type: 'political' },
+   ],
   },
   'war-on-drugs-mass-incarceration': {
     title: 'The War on Drugs: America\'s Longest War Against Its Own Citizens',
@@ -1471,6 +1557,11 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-01-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2009', event: 'A landmark 2009 survey of over 4,000 low-wage workers in three cities found that 26% were paid less than minimum wage, 76% of overtime-eligible workers were not paid the required overtime rate, and 70% of tipped...', type: 'financial' },
+     { date: '2009-01-01', event: 'Wage Theft: Americas Largest Theft investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-01-15', event: 'Wage Theft: Americas Largest Theft — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'worldcom-accounting-fraud': {
     title: 'WorldCom: $11 Billion Accounting Fraud That Destroyed Telecom Giant',
@@ -1617,9 +1708,11 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2025-03-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1948', event: 'The Wage and Hour Division (WHD) employed 1,600 investigators in 1948 to cover 22.6 million workers', type: 'financial' },
-     { date: '2009', event: 'A 2009 landmark study of 4,387 workers in Chicago, Los Angeles, and New York found that 26% of low-wage workers were paid less than the minimum wage, 76% were not paid the legally required overtime...', type: 'financial' },
+      timeline: [
+     { date: '1948', event: 'Despite the scale, enforcement is minimal: the Department of Labor\'s Wage and Hour Division has fewer investigators than at any time since 1948, even as the workforce has more than doubled.', type: 'default' },
+     { date: '1948-01-01', event: 'Wage Theft: The Largest Form of Property Crime in America investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2009', event: 'A 2009 landmark study of 4,387 workers in Chicago, Los Angeles, and New York found that 26% of low-wage workers were paid less than the minimum wage, 76% were not paid the legally required overtime rate, and 17%...', type: 'financial' },
+     { date: '2025-03-01', event: 'Wage Theft: The Largest Form of Property Crime in America — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'water-infrastructure-crisis': {
@@ -1687,9 +1780,10 @@ const investigations_w: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-02-12',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2012', event: 'The Dodd-Frank financial whistleblower program has been remarkably successful at generating tips, paying out over $2.2 billion in awards since 2012, but the protection against retaliation exists pr...', type: 'political' },
-     { date: '2012', event: 'The Whistleblower Protection Enhancement Act of 2012 strengthened some federal protections but left intelligence community employees unprotected', type: 'default' },
+      timeline: [
+     { date: '2012', event: 'The Dodd-Frank financial whistleblower program has been remarkably successful at generating tips, paying out over $2.2 billion in awards since 2012, but the protection against retaliation exists primarily in theory.', type: 'financial' },
+     { date: '2012-01-01', event: 'Whistleblower Retaliation Patterns investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-02-12', event: 'Whistleblower Retaliation Patterns — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'wilmington-massacre-coup-1898': {

@@ -35,6 +35,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2013-12-05',
    lastActivityDate: '2024-05-03',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2013-12-05', event: 'Intellectual Property Theft & Contractor Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2024-05-03', event: 'Intellectual Property Theft & Contractor Fraud — investigation remains active with ongoing developments', type: 'financial' },
+   ],
  },
   'iraq-war-deception': {
  title: 'Iraq War Deception',
@@ -78,10 +82,12 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2023-07-13',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2002-07-01', event: 'DOWNING STREET MEMO: A leaked British memo from July 2002 revealed that Bush had already decided to invade Iraq and "the intelligence and facts were being fixed around the policy."This confirmed th...', type: 'political' },
-     { date: '2003', event: 'YELLOWCAKE URANIUM: In his 2003 State of the Union, Bush said:"The British government has learned that Saddam Hussein recently sought significant quantities of uranium from Africa."This claim was b...', type: 'default' },
-     { date: '2003-02-05', event: 'POWELL\'S UN SPEECH: On February 5, 2003, Secretary of State Colin Powell presented the case for war to the UN Security Council', type: 'default' },
+      timeline: [
+     { date: '1990-01-01', event: 'Iraq War Deception investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2002-07', event: 'A leaked British memo from July 2002 revealed that Bush had already decided to invade Iraq and ;the intelligence and facts were being fixed around the policy.;This confirmed the deception was deliberate.', type: 'default' },
+     { date: '2003', event: 'In his 2003 State of the Union, Bush said:;The British government has learned that Saddam Hussein recently sought significant quantities of uranium from Africa.;This claim was based on forged documents.', type: 'default' },
+     { date: '2003-02-05', event: 'POWELL\'S UN SPEECH: On February 5, 2003, Secretary of State Colin Powell presented the case for war to the UN Security Council.', type: 'default' },
+     { date: '2023-07-13', event: 'Iraq War Deception — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'iraq-sanctions': {
@@ -170,6 +176,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2011-02-14',
    lastActivityDate: '2025-07-05',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2011-02-14', event: 'Iraq and Afghanistan War Profiteering investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-07-05', event: 'Iraq and Afghanistan War Profiteering — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'iraq-war': {
  title: 'Iraq War',
@@ -201,6 +211,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2009-12-02',
    lastActivityDate: '2022-10-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2009-12-02', event: 'Iraq War investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-10-15', event: 'Iraq War — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'iraq-war-crimes': {
  title: 'Iraq War Crimes',
@@ -230,6 +244,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2009-12-15',
    lastActivityDate: '2011-12-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2009-12-15', event: 'Iraq War Crimes investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2011-12-25', event: 'Iraq War Crimes — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'iran-coup-1953': {
  title: 'Iranian Coup (Operation Ajax)',
@@ -256,9 +274,11 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '1953-01-01',
    lastActivityDate: '2022-02-10',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1953', event: 'LEGACY: Iran\'s distrust of America, nuclear program, and regional policies all trace back to 1953', type: 'default' },
-     { date: '1979', event: 'REVOLUTION: In 1979, the Shah was overthrown', type: 'default' },
+      timeline: [
+     { date: '1953', event: 'The 1953 coup became the template for U.S.', type: 'default' },
+     { date: '1953-01-01', event: 'Iranian Coup (Operation Ajax) investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1979', event: 'In 1979, the Shah was overthrown.', type: 'default' },
+     { date: '2022-02-10', event: 'Iranian Coup (Operation Ajax) — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'immigration-detention': {
@@ -289,6 +309,11 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2022-09-10',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2003', event: 'Since 2003, over 200 have died in custody.', type: 'default' },
+     { date: '2003-01-01', event: 'Immigration Detention System investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-09-10', event: 'Immigration Detention System — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'icc-fugitives': {
  title: 'ICC Fugitives: War Criminals Beyond the Reach of Justice',
@@ -484,6 +509,11 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-02-14',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019', event: 'A 2019 Georgetown Law study found that ICE conducted facial recognition searches against state driver\'s license databases without the knowledge of state officials.', type: 'default' },
+     { date: '2019-01-01', event: 'Immigration Tech: The Surveillance-Industrial Complex at the Border investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-02-14', event: 'Immigration Tech: The Surveillance-Industrial Complex at the Border — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'social-media-influencer-abuse': {
  title: 'Social Media Influencer Abuse',
@@ -519,6 +549,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2019-03-15',
    lastActivityDate: '2023-03-06',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019-03-15', event: 'Social Media Influencer Abuse investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-03-06', event: 'Social Media Influencer Abuse — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'influencer-scams': {
  title: 'Influencer Scams: The Billion-Dollar Fraud Economy',
@@ -586,10 +620,11 @@ const investigations_i: Record<string, InvestigationData> = {
  { id: '3', name: 'CoreCivic', type: 'corporation', relationship: 'Private prison operator, abuse documented', href: '/entities/corporations/corecivic' },
  { id: '4', name: 'GEO Group', type: 'corporation', relationship: 'Private prison/detention operator', href: '/entities/corporations/geo-group' },
  ],
-   timeline: [
-     { date: '2016', event: 'The FTC brought its first influencer enforcement action in 2016 against Lord & Taylor; seven years after Instagram launched', type: 'default' },
-     { date: '2016', event: 'Between 2016 and 2023, the FTC brought fewer than 20 influencer-related cases despite millions of violations', type: 'financial' },
-     { date: '2023', event: 'A 2023 study by the University of Baltimore found that only 25% of paid Instagram posts included adequate disclosure', type: 'financial' },
+      timeline: [
+     { date: '2016', event: 'The FTC brought its first influencer enforcement action in 2016 against Lord & Taylor; seven years after Instagram launched.', type: 'default' },
+     { date: '2016-01-01', event: 'Influencer Scams: The Billion-Dollar Fraud Economy investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2023', event: 'A 2023 study by the University of Baltimore found that only 25% of paid Instagram posts included adequate disclosure.', type: 'financial' },
+     { date: '2023-05-11', event: 'Influencer Scams: The Billion-Dollar Fraud Economy — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'insurance-denials': {
@@ -657,9 +692,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2025-10-13',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019', event: 'In 2019, Kapoor and four other executives were found guilty of racketeering conspiracy for operating what prosecutors described as a nationwide bribery and fraud scheme', type: 'legal' },
-     { date: '2019', event: 'Insys filed for bankruptcy in 2019 after agreeing to pay $225 million to settle federal charges', type: 'financial' },
+      timeline: [
+     { date: '2019', event: 'In 2019, Kapoor and four other executives were found guilty of racketeering conspiracy for operating what prosecutors described as a nationwide bribery and fraud scheme.', type: 'legal' },
+     { date: '2019-01-01', event: 'Insys Therapeutics: Bribing Doctors to Push Fentanyl investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-10-13', event: 'Insys Therapeutics: Bribing Doctors to Push Fentanyl — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'insys-prosecutions': {
@@ -694,6 +730,11 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2025-09-22',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2019-01-01', event: 'Insys Prosecutions: Holding Pharma Executives Accountable investigation begins — events under scrutiny originate from this period', type: 'legal' },
+     { date: '2019-05', event: 'CEO John Kapoor, former VP Sunrise Lee, former VP of sales Richard Simon, former regional sales director Joseph Rowan, and former national director of sales Michael Gurry were all found guilty in May 2019 after a...', type: 'legal' },
+     { date: '2025-09-22', event: 'Insys Prosecutions: Holding Pharma Executives Accountable — investigation remains active with ongoing developments', type: 'legal' },
+   ],
  },
   'intelligence-impunity': {
  title: 'Intelligence Impunity: Above the Law and Beyond Accountability',
@@ -723,10 +764,12 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '1975-01-01',
    lastActivityDate: '2026-01-17',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1975', event: 'When the Church Committee exposed these abuses in 1975, reforms were enacted; but subsequent administrations systematically weakened oversight', type: 'default' },
-     { date: '2002', event: 'The CIA\'s targeted killing program using drones has killed thousands of people across Pakistan, Yemen, Somalia, and other countries since 2002', type: 'critical' },
-     { date: '2013', event: 'The NSA\'s mass surveillance programs, revealed by Edward Snowden in 2013, collected the phone records of virtually every American, intercepted internet communications through the PRISM program, and...', type: 'default' },
+      timeline: [
+     { date: '1975', event: 'When the Church Committee exposed these abuses in 1975, reforms were enacted; but subsequent administrations systematically weakened oversight.', type: 'default' },
+     { date: '1975-01-01', event: 'Intelligence Impunity: Above the Law and Beyond Accountability investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2002', event: 'The CIA\'s targeted killing program using drones has killed thousands of people across Pakistan, Yemen, Somalia, and other countries since 2002.', type: 'critical' },
+     { date: '2013', event: 'The NSA\'s mass surveillance programs, revealed by Edward Snowden in 2013, collected the phone records of virtually every American, intercepted internet communications through the PRISM program, and tapped the phones...', type: 'default' },
+     { date: '2026-01-17', event: 'Intelligence Impunity: Above the Law and Beyond Accountability — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'insider-trading-congressional-members': {
@@ -1078,6 +1121,20 @@ const investigations_i: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Failed to enforce water quality standards in Flint and thousands of other communities; slow to act on PFAS contamination', href: '/entities/agencies/epa' },
     ],
+   timeline: [
+     { date: '1990', event: 'The bridge had been rated structurally deficient since 1990 but was not prioritized for replacement due to funding constraints.', type: 'financial' },
+     { date: '2003', event: 'Major blackouts affected millions in 2003 (Northeast), 2011 (Southwest), 2021 (Texas and Pacific Northwest), and 2022 (multiple regions).', type: 'default' },
+     { date: '2007', event: 'The I-35W Mississippi River bridge collapse in Minneapolis on August 1, 2007, killed 13 people and injured 145.', type: 'critical' },
+     { date: '2007-08-01', event: 'The I-35W Mississippi River bridge collapse in Minneapolis on August 1, 2007, killed 13 people and injured 145.', type: 'critical' },
+     { date: '2011', event: 'Major blackouts affected millions in 2003 (Northeast), 2011 (Southwest), 2021 (Texas and Pacific Northwest), and 2022 (multiple regions).', type: 'default' },
+     { date: '2014', event: 'Jackson, Mississippi FLINT WATER CRISIS: In 2014, Flint, Michigan switched its water source to the Flint River without proper corrosion control; exposing 100,000 residents to lead-contaminated water for 18 months...', type: 'critical' },
+     { date: '2017', event: 'Failures of the Oroville Dam spillway in California (2017) forced 188,000 evacuations.', type: 'default' },
+     { date: '2020-05', event: 'In May 2020, the Edenville and Sanford Dams in Michigan failed, forcing 10,000 evacuations.', type: 'default' },
+     { date: '2021', event: 'In February 2021, Winter Storm Uri caused the Texas power grid to collapse; leaving 4.5 million homes without electricity in freezing temperatures for days.', type: 'financial' },
+     { date: '2021-02', event: 'In February 2021, Winter Storm Uri caused the Texas power grid to collapse; leaving 4.5 million homes without electricity in freezing temperatures for days.', type: 'financial' },
+     { date: '2022', event: 'The Fern Hollow Bridge in Pittsburgh collapsed in January 2022; hours before President Biden s deregulated, isolated power system (ERCOT) that was not winterized because regulations were opposed by the energy industry.', type: 'political' },
+     { date: '2022-01', event: 'The Fern Hollow Bridge in Pittsburgh collapsed in January 2022; hours before President Biden s deregulated, isolated power system (ERCOT) that was not winterized because regulations were opposed by the energy industry.', type: 'political' },
+   ],
   },
   'influencer-abuse': {
     title: "Social Media Influencer Abuse & Exploitation",
@@ -1104,6 +1161,9 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: "Meta Internal Research (Wall Street Journal)", url: "https://www.wsj.com/articles/facebook-knows-instagram-is-toxic-for-teen-girls-company-documents-show-11631620739", type: "Investigation" },
     ],
     affiliations: [],
+   timeline: [
+     { date: '2023', event: 'A 2023 study found that only 25% of Instagram posts containing paid promotions included adequate disclosure.', type: 'financial' },
+   ],
   },
   'israel-lobby-influence': {
     title: 'Israel Lobby Influence Operations',
@@ -1128,6 +1188,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2006-03-24',
    lastActivityDate: '2024-10-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2006-03-24', event: 'Israel Lobby Influence Operations investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2024-10-15', event: 'Israel Lobby Influence Operations — investigation remains active with ongoing developments', type: 'financial' },
+   ],
   },
   'iran-contra-scandal': {
     title: 'Iran-Contra Affair',
@@ -1153,6 +1217,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '1986-11-25',
    lastActivityDate: '1992-12-19',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1986-11-25', event: 'Iran-Contra Affair investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1992-12-19', event: 'Iran-Contra Affair — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'israel-palestine-conflict': {
     title: 'Israel-Palestine Conflict and War Crimes',
@@ -1181,9 +1249,11 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-10-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1948', event: 'NAKBA ETHNIC CLEANSING: In 1948, Zionist forces expelled 750,000 Palestinians from their homes, destroying 531 villages', type: 'default' },
-     { date: '2000', event: 'DISPROPORTIONATE FORCE: Israeli military operations have killed over 30,000 Palestinians since 2000', type: 'critical' },
+      timeline: [
+     { date: '1948', event: 'In 1948, Zionist forces expelled 750,000 Palestinians from their homes, destroying 531 villages.', type: 'default' },
+     { date: '1948-01-01', event: 'Israel-Palestine Conflict and War Crimes investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2000', event: 'Israeli military operations have killed over 30,000 Palestinians since 2000.', type: 'critical' },
+     { date: '2024-10-07', event: 'Israel-Palestine Conflict and War Crimes — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'iraq-sanctions': {
@@ -1211,6 +1281,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '1990-08-06',
    lastActivityDate: '2003-05-12',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1990-08-06', event: 'Iraq Sanctions and Humanitarian Disaster investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2003-05-12', event: 'Iraq Sanctions and Humanitarian Disaster — investigation remains active with ongoing developments', type: 'critical' },
+   ],
   },
   'indonesian-mass-killings-1965': {
     title: 'Indonesian Mass Killings of 1965-66',
@@ -1443,10 +1517,12 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-03-10',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2009', event: 'A 2009 Harvard Medical School study found 45,000 excess deaths per year associated with lack of health insurance', type: 'critical' },
-     { date: '2022', event: 'A 2022 OIG report found that 13% of prior authorization denials and 18% of payment denials by Medicare Advantage plans were for services that met Medicare coverage rules', type: 'default' },
-     { date: '2023', event: 'In 2023 alone, prior authorization processes consumed an estimated $31 billion in administrative costs', type: 'political' },
+      timeline: [
+     { date: '2009', event: 'A 2009 Harvard Medical School study found 45,000 excess deaths per year associated with lack of health insurance.', type: 'default' },
+     { date: '2009-01-01', event: 'Health Insurance Systematic Claim Denial and Prior Authorization Abuse investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022', event: 'A 2022 OIG report found that 13% of prior authorization denials and 18% of payment denials by Medicare Advantage plans were for services that met Medicare coverage rules.', type: 'default' },
+     { date: '2023', event: 'A 2023 ProPublica investigation revealed that Cigna\'s system allowed medical directors to deny 300,000 claims in 2 months without reviewing patient files.', type: 'default' },
+     { date: '2025-03-10', event: 'Health Insurance Systematic Claim Denial and Prior Authorization Abuse — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'immigration-detention-abuse': {

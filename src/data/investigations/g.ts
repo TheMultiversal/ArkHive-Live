@@ -48,9 +48,12 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2025-11-23',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019-10-01', event: 'PANDEMIC PREPAREDNESS: Event 201, a WEF-hosted pandemic exercise in October 2019, preceded COVID-19 by weeks', type: 'default' },
-     { date: '2020-06-01', event: 'WEF INITIATIVE LAUNCH: Klaus Schwab and Prince Charles launched "The Great Reset "in June 2020, calling to use COVID-19 as an opportunity to reshape global capitalism', type: 'default' },
+      timeline: [
+     { date: '2019', event: 'Event 201, a WEF-hosted pandemic exercise in October 2019, preceded COVID-19 by weeks.', type: 'default' },
+     { date: '2019-01-01', event: 'The Great Reset Agenda investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019-10', event: 'Event 201, a WEF-hosted pandemic exercise in October 2019, preceded COVID-19 by weeks.', type: 'default' },
+     { date: '2020-06', event: 'WEF INITIATIVE LAUNCH: Klaus Schwab and Prince Charles launched ;The Great Reset ;in June 2020, calling to use COVID-19 as an opportunity to reshape global capitalism.', type: 'default' },
+     { date: '2025-11-23', event: 'The Great Reset Agenda — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'global-governance': {
@@ -194,6 +197,11 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2022-12-01',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'The 2008 sweetheart deal negotiated by Alex Acosta demonstrated how wealth and connections provided protection.', type: 'default' },
+     { date: '2008-01-01', event: 'Global Sex Trafficking Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-12-01', event: 'Global Sex Trafficking Networks — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'gaetz-sex-trafficking': {
  title: 'Matt Gaetz Sex Trafficking Investigation',
@@ -231,6 +239,11 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2023-01-01',
    lastActivityDate: '2023-05-31',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2023', event: 'In February 2023, DOJ reportedly informed Gaetz\'s lawyers it would not charge him.', type: 'default' },
+     { date: '2023-01-01', event: 'Matt Gaetz Sex Trafficking Investigation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-02', event: 'In February 2023, DOJ reportedly informed Gaetz\'s lawyers it would not charge him.', type: 'default' },
+   ],
  },
   'gun-lobby-influence': {
  title: 'Gun Lobby Influence on Policy',
@@ -321,9 +334,13 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-07-17',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'She answered questions about her activities but denied doing anything wrong and refused to say the 2020 election was legitimate', type: 'political' },
-     { date: '2020-11-01', event: 'MEADOWS TEXTS: The January 6 Committee obtained 29 text messages between Ginni Thomas and Mark Meadows from November 2020 to January 2021', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'MEADOWS TEXTS: The January 6 Committee obtained 29 text messages between Ginni Thomas and Mark Meadows from November 2020 to January 2021.', type: 'default' },
+     { date: '2020-01-01', event: 'Ginni Thomas January 6 Involvement investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-11', event: 'MEADOWS TEXTS: The January 6 Committee obtained 29 text messages between Ginni Thomas and Mark Meadows from November 2020 to January 2021.', type: 'default' },
+     { date: '2021', event: 'MEADOWS TEXTS: The January 6 Committee obtained 29 text messages between Ginni Thomas and Mark Meadows from November 2020 to January 2021.', type: 'default' },
+     { date: '2021-01', event: 'MEADOWS TEXTS: The January 6 Committee obtained 29 text messages between Ginni Thomas and Mark Meadows from November 2020 to January 2021.', type: 'default' },
+     { date: '2025-07-17', event: 'Ginni Thomas January 6 Involvement — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'green-bay-sweep': {
@@ -366,6 +383,12 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-10-18',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020', event: 'In seven states Biden won, Republicans met on December 14, 2020 and signed fraudulent electoral certificates claiming Trump won.', type: 'default' },
+     { date: '2020-01-01', event: 'Green Bay Sweep investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-12-14', event: 'In seven states Biden won, Republicans met on December 14, 2020 and signed fraudulent electoral certificates claiming Trump won.', type: 'default' },
+     { date: '2023-10-18', event: 'Green Bay Sweep — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'guard-deployment-delays': {
  title: 'National Guard Deployment Delays',
@@ -408,6 +431,11 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-06-18',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-01-01', event: 'National Guard Deployment Delays investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-06', event: 'During Black Lives Matter protests in June 2020, the National Guard was deployed almost immediately.', type: 'default' },
+     { date: '2023-06-18', event: 'National Guard Deployment Delays — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'gain-of-function': {
  title: 'Gain-of-Function Research Controversy',
@@ -448,10 +476,13 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2026-01-16',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2014', event: 'THE MORATORIUM: In 2014, following lab accidents and concerns about creating pandemic pathogens, the Obama administration paused funding for gain-of-function research on influenza, MERS, and SARS v...', type: 'default' },
-     { date: '2014', event: 'THE MORATORIUM GAP: Critics note that research continued during the supposed 2014-2017 moratorium through exemptions', type: 'default' },
-     { date: '2021-10-01', event: 'NIH ACKNOWLEDGMENT: In October 2021, NIH admitted that EcoHealth Alliance had conducted experiments that enhanced a bat coronavirus\'s ability to infect human cells', type: 'default' },
+      timeline: [
+     { date: '2014', event: 'In 2014, following lab accidents and concerns about creating pandemic pathogens, the Obama administration paused funding for gain-of-function research on influenza, MERS, and SARS viruses.', type: 'financial' },
+     { date: '2014-01-01', event: 'Gain-of-Function Research Controversy investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2017', event: 'The pause lasted until 2017.', type: 'default' },
+     { date: '2021', event: 'In October 2021, NIH admitted that EcoHealth Alliance had conducted experiments that enhanced a bat coronavirus\'s ability to infect human cells.', type: 'default' },
+     { date: '2021-10', event: 'In October 2021, NIH admitted that EcoHealth Alliance had conducted experiments that enhanced a bat coronavirus\'s ability to infect human cells.', type: 'default' },
+     { date: '2026-01-16', event: 'Gain-of-Function Research Controversy — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'global-elite': {
@@ -488,9 +519,11 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '1954-01-01',
    lastActivityDate: '2025-12-31',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1954', event: 'BILDERBERG MEETINGS: Annual private gatherings since 1954 bring together 150 leaders in politics, business, media, and academia', type: 'default' },
-     { date: '1973', event: 'TRILATERAL COMMISSION: Founded by David Rockefeller in 1973, the Commission brings together elites from North America, Europe, and Asia-Pacific', type: 'default' },
+      timeline: [
+     { date: '1954', event: 'Annual private gatherings since 1954 bring together 150 leaders in politics, business, media, and academia.', type: 'default' },
+     { date: '1954-01-01', event: 'Global Elite Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1973', event: 'Founded by David Rockefeller in 1973, the Commission brings together elites from North America, Europe, and Asia-Pacific.', type: 'default' },
+     { date: '2025-12-31', event: 'Global Elite Networks — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'genocide-palestine': {
@@ -530,10 +563,15 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-09-22',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1948', event: 'Palestinians have faced displacement since 1948', type: 'default' },
-     { date: '2007', event: 'Gaza has been under siege since 2007', type: 'default' },
-     { date: '2024', event: 'ICJ RULING: The International Court of Justice ruled in January 2024 that South Africa\'s genocide case against Israel was plausible and ordered provisional measures', type: 'legal' },
+      timeline: [
+     { date: '1948', event: 'Palestinians have faced displacement since 1948.', type: 'default' },
+     { date: '1948-01-01', event: 'Gaza Genocide investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2007', event: 'Gaza has been under siege since 2007.', type: 'default' },
+     { date: '2023', event: 'Since October 2023, Israel has killed over 40,000 Palestinians in Gaza, mostly civilians, using U.S.', type: 'critical' },
+     { date: '2023-10', event: 'Since October 2023, Israel has killed over 40,000 Palestinians in Gaza, mostly civilians, using U.S.', type: 'critical' },
+     { date: '2024', event: 'The International Court of Justice ruled in January 2024 that South Africa\'s genocide case against Israel was plausible and ordered provisional measures.', type: 'legal' },
+     { date: '2024-01', event: 'The International Court of Justice ruled in January 2024 that South Africa\'s genocide case against Israel was plausible and ordered provisional measures.', type: 'legal' },
+     { date: '2024-09-22', event: 'Gaza Genocide — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'guatemala-coup': {
@@ -565,6 +603,11 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2011-03-05',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1980-01-01', event: 'Guatemala Coup 1954 investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1997', event: 'CIA documents released in 1997 confirmed the coup was driven by corporate interests, not communism.', type: 'default' },
+     { date: '2011-03-05', event: 'Guatemala Coup 1954 — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'george-floyd-murder': {
  title: 'Murder of George Floyd',
@@ -593,6 +636,10 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2020-05-25',
    lastActivityDate: '2023-07-31',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-05-25', event: 'Murder of George Floyd investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-07-31', event: 'Murder of George Floyd — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'gun-violence': {
  title: 'Gun Violence Epidemic',
@@ -620,6 +667,12 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2025-08-29',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1996', event: 'From 1996-2019, Congress prohibited CDC from studying gun violence as a public health issue.', type: 'political' },
+     { date: '1996-01-01', event: 'Gun Violence Epidemic investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019', event: 'From 1996-2019, Congress prohibited CDC from studying gun violence as a public health issue.', type: 'political' },
+     { date: '2025-08-29', event: 'Gun Violence Epidemic — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'galleon-insider-trading': {
  title: 'Galleon Group: The Largest Hedge Fund Insider Trading Ring',
@@ -651,9 +704,11 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-05-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: 'Gupta tipped Rajaratnam about Goldman\'s $5 billion investment from Warren Buffett during the 2008 financial crisis, among other material non-public information', type: 'political' },
-     { date: '2011', event: 'Raj Rajaratnam, founder of the Galleon Group hedge fund, was convicted in 2011 of securities fraud and conspiracy for operating the largest insider trading ring in hedge fund history', type: 'legal' },
+      timeline: [
+     { date: '2008', event: 'Gupta tipped Rajaratnam about Goldman\'s $5 billion investment from Warren Buffett during the 2008 financial crisis, among other material non-public information.', type: 'financial' },
+     { date: '2008-01-01', event: 'Galleon Group: The Largest Hedge Fund Insider Trading Ring investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2011', event: 'Raj Rajaratnam, founder of the Galleon Group hedge fund, was convicted in 2011 of securities fraud and conspiracy for operating the largest insider trading ring in hedge fund history.', type: 'legal' },
+     { date: '2023-05-07', event: 'Galleon Group: The Largest Hedge Fund Insider Trading Ring — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'gamestop-halt': {
@@ -684,9 +739,12 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2025-03-31',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2021-01-28', event: 'On January 28, 2021, Robinhood, TD Ameritrade, Interactive Brokers, and other retail brokerages simultaneously restricted or halted buying of GameStop (GME) and several other stocks at the height o...', type: 'default' },
-     { date: '2021-10-01', event: 'The SEC\'s subsequent investigation, released in October 2021, acknowledged the trading restrictions but declined to bring enforcement actions', type: 'default' },
+      timeline: [
+     { date: '2021', event: 'On January 28, 2021, Robinhood, TD Ameritrade, Interactive Brokers, and other retail brokerages simultaneously restricted or halted buying of GameStop (GME) and several other stocks at the height of a retail-driven...', type: 'default' },
+     { date: '2021-01-01', event: 'GameStop Trading Halt: When Brokers Protected Hedge Funds investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2021-01-28', event: 'On January 28, 2021, Robinhood, TD Ameritrade, Interactive Brokers, and other retail brokerages simultaneously restricted or halted buying of GameStop (GME) and several other stocks at the height of a retail-driven...', type: 'default' },
+     { date: '2021-10', event: 'The SEC\'s subsequent investigation, released in October 2021, acknowledged the trading restrictions but declined to bring enforcement actions.', type: 'default' },
+     { date: '2025-03-31', event: 'GameStop Trading Halt: When Brokers Protected Hedge Funds — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'gamestop-manipulation': {
@@ -717,9 +775,11 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2026-01-07',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2021', event: 'At the peak of the GameStop short squeeze in January 2021, short interest exceeded 140% of the available float; meaning more shares had been sold short than actually existed', type: 'default' },
-     { date: '2021', event: 'Failures to deliver (FTDs) on GameStop shares spiked to extreme levels during January 2021, indicating widespread settlement failures consistent with naked short selling', type: 'financial' },
+      timeline: [
+     { date: '2021', event: 'At the peak of the GameStop short squeeze in January 2021, short interest exceeded 140% of the available float; meaning more shares had been sold short than actually existed.', type: 'default' },
+     { date: '2021-01', event: 'At the peak of the GameStop short squeeze in January 2021, short interest exceeded 140% of the available float; meaning more shares had been sold short than actually existed.', type: 'default' },
+     { date: '2021-01-01', event: 'GameStop Market Manipulation: The Full Picture investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2026-01-07', event: 'GameStop Market Manipulation: The Full Picture — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'georgia-voter-suppression': {
@@ -797,10 +857,14 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2024-08-16',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018-11-01', event: 'Carlos Ghosn, who led the Renault-Nissan-Mitsubishi Alliance and was celebrated as one of the most successful auto executives in history, was arrested in Tokyo in November 2018 on charges of underr...', type: 'default' },
-     { date: '2019-12-01', event: 'In December 2019, Ghosn escaped Japan while awaiting trial by hiding inside a large audio equipment case that was loaded onto a private jet', type: 'legal' },
-     { date: '2022', event: 'Greg Kelly, a Nissan executive arrested alongside Ghosn, was convicted in 2022 of helping conceal compensation', type: 'legal' },
+      timeline: [
+     { date: '2018', event: 'Carlos Ghosn, who led the Renault-Nissan-Mitsubishi Alliance and was celebrated as one of the most successful auto executives in history, was arrested in Tokyo in November 2018 on charges of underreporting his...', type: 'default' },
+     { date: '2018-01-01', event: 'Carlos Ghosn: The Auto Industrys Greatest Corporate Crime investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018-11', event: 'Carlos Ghosn, who led the Renault-Nissan-Mitsubishi Alliance and was celebrated as one of the most successful auto executives in history, was arrested in Tokyo in November 2018 on charges of underreporting his...', type: 'default' },
+     { date: '2019', event: 'In December 2019, Ghosn escaped Japan while awaiting trial by hiding inside a large audio equipment case that was loaded onto a private jet.', type: 'legal' },
+     { date: '2019-12', event: 'In December 2019, Ghosn escaped Japan while awaiting trial by hiding inside a large audio equipment case that was loaded onto a private jet.', type: 'legal' },
+     { date: '2022', event: 'Greg Kelly, a Nissan executive arrested alongside Ghosn, was convicted in 2022 of helping conceal compensation.', type: 'legal' },
+     { date: '2024-08-16', event: 'Carlos Ghosn: The Auto Industrys Greatest Corporate Crime — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'gig-economy-exploitation': {
@@ -833,10 +897,12 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-05-05',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'A 2020 study by the Economic Policy Institute found that Uber and Lyft drivers earned a median of $9.73 per hour after deducting vehicle expenses, insurance, and self-employment taxes; below the fe...', type: 'default' },
-     { date: '2020-11-01', event: 'In November 2020, California\'s Proposition 22 demonstrated the industry\'s political power', type: 'default' },
-     { date: '2023', event: 'A 2023 DoorDash study found that 29% of deliveries resulted in drivers earning less than $0 after expenses', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'A 2020 study by the Economic Policy Institute found that Uber and Lyft drivers earned a median of $9.73 per hour after deducting vehicle expenses, insurance, and self-employment taxes; below the federal minimum wage.', type: 'default' },
+     { date: '2020-01-01', event: 'Gig Economy Exploitation: The $200 Billion Misclassification Scam investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2020-11', event: 'In November 2020, California\'s Proposition 22 demonstrated the industry\'s political power.', type: 'default' },
+     { date: '2023', event: 'A 2023 DoorDash study found that 29% of deliveries resulted in drivers earning less than $0 after expenses.', type: 'default' },
+     { date: '2025-05-05', event: 'Gig Economy Exploitation: The $200 Billion Misclassification Scam — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'global-terrorism-networks': {
@@ -876,6 +942,10 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-11-05',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1980-01-01', event: 'Global Terrorism Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-11-05', event: 'Global Terrorism Networks — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'gm-ignition-switch': {
  title: 'GM Ignition Switch Defect: 124 Deaths, Zero Prison Time',
@@ -984,10 +1054,14 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '1932-01-01',
    lastActivityDate: '2025-09-18',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1932', event: 'The same researchers simultaneously conducted the Tuskegee syphilis study (1932-1972), which withheld treatment from 399 Black men in Alabama', type: 'default' },
-     { date: '2010', event: 'The experiments were not discovered until 2010, when Wellesley College historian Susan Reverby found Dr', type: 'default' },
-     { date: '2012', event: 'A Presidential Commission for the Study of Bioethical Issues confirmed the experiments and called them "clearly unethical." However, a federal judge dismissed a lawsuit by Guatemalan victims in 201...', type: 'legal' },
+      timeline: [
+     { date: '1932', event: 'The same researchers simultaneously conducted the Tuskegee syphilis study (1932-1972), which withheld treatment from 399 Black men in Alabama.', type: 'default' },
+     { date: '1932-01-01', event: 'Guatemala Syphilis Experiments: U.S. Government Human Experimentation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1946', event: 'Public Health Service researchers deliberately infected at least 1,308 Guatemalan citizens with syphilis, gonorrhea, and chancroid without consent between 1946 and 1948.', type: 'default' },
+     { date: '1948', event: 'Public Health Service researchers deliberately infected at least 1,308 Guatemalan citizens with syphilis, gonorrhea, and chancroid without consent between 1946 and 1948.', type: 'default' },
+     { date: '2010', event: 'The experiments were not discovered until 2010, when Wellesley College historian Susan Reverby found Dr.', type: 'default' },
+     { date: '2012', event: 'A Presidential Commission for the Study of Bioethical Issues confirmed the experiments and called them ;clearly unethical.; However, a federal judge dismissed a lawsuit by Guatemalan victims in 2012, ruling that the U.S.', type: 'legal' },
+     { date: '2025-09-18', event: 'Guatemala Syphilis Experiments: U.S. Government Human Experimentation — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'gujarat-riots': {
@@ -1415,6 +1489,20 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Prosecuted federal civil rights case against all four officers; opened pattern-or-practice investigation into Minneapolis PD', href: '/entities/agencies/doj' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted federal investigation into potential civil rights violations', href: '/entities/agencies/fbi' },
     ],
+   timeline: [
+     { date: '2015', event: 'Minneapolis police used neck restraints at least 237 times from 2015 to 2020, rendering 44 people unconscious.', type: 'default' },
+     { date: '2020', event: 'Minneapolis police officer Derek Chauvin murdered George Floyd by kneeling on his neck for 9 minutes and 29 seconds on May 25, 2020.', type: 'default' },
+     { date: '2020-05-25', event: 'Minneapolis police officer Derek Chauvin murdered George Floyd by kneeling on his neck for 9 minutes and 29 seconds on May 25, 2020.', type: 'default' },
+     { date: '2020-06', event: 'Federal police reform remains unachieved.;, ;MINNEAPOLIS RESPONSE: The Minneapolis City Council voted unanimously to disband the police department in June 2020.', type: 'political' },
+     { date: '2020-08-22', event: 'An estimated 15 to 26 million Americans participated between May 26 and August 22, 2020; making it the largest protest movement in American history.', type: 'financial' },
+     { date: '2021', event: 'He said t breathe s actions would likely have been described in the initial police statement as a during a Frazier received a Pulitzer Prize Special Citation in 2021.;, ;THE UPRISING: Protests erupted within hours in...', type: 'default' },
+     { date: '2021-04-20', event: 'The Minneapolis Police Department s death was not an anomaly; it was a documented pattern.;, ;CONVICTIONS: Derek Chauvin was convicted of second-degree unintentional murder, third-degree murder, and second-degree...', type: 'legal' },
+     { date: '2021-11', event: 'A ballot measure to replace MPD with a Department of Public Safety was defeated by voters in November 2021.', type: 'default' },
+     { date: '2022', event: 'All four officers were convicted of federal civil rights charges in 2022.;, ;THE GEORGE FLOYD JUSTICE IN POLICING ACT: Introduced in Congress, the bill would have banned chokeholds and no-knock warrants at the...', type: 'legal' },
+     { date: '2023', event: 'Police budgets in most major cities increased rather than decreased by 2023.', type: 'default' },
+     { date: '2023-06', event: 'The DOJ opened a pattern-or-practice investigation into MPD in June 2023 and found systemic racial discrimination and excessive force.;, ;CORPORATE AND CULTURAL RESPONSE: Corporations pledged over $50 billion to...', type: 'financial' },
+     { date: '2023-11', event: 'Chauvin was stabbed in prison in November 2023 by a fellow inmate.;, ;LEGACY: George Floyd THE MURDER: On May 25, 2020, Minneapolis police officer Derek Chauvin knelt on George Floyd\'s neck for 9 minutes and 29...', type: 'default' },
+   ],
   },
   'global-terrorism': {
     title: "Global Terrorism Networks & State Sponsorship",
@@ -1447,6 +1535,16 @@ const investigations_g: Record<string, InvestigationData> = {
       { id: '2', name: 'NSA', type: 'agency', relationship: 'Expanded mass surveillance after 9/11 under PRISM and other programs; intercepted but failed to act on pre-attack intelligence', href: '/entities/agencies/nsa' },
       { id: '3', name: 'FBI', type: 'agency', relationship: 'Failed to connect intelligence dots before 9/11; transitioned to domestic counterterrorism focus after attacks', href: '/entities/agencies/fbi' },
     ],
+   timeline: [
+     { date: '1988', event: 'AL-QAEDA\'S RISE: Osama bin Laden, a Saudi national who had fought in Afghanistan, founded al-Qaeda in 1988 with the goal of expelling Western influence from Muslim lands.', type: 'default' },
+     { date: '1993', event: 'The organization carried out the 1993 World Trade Center bombing, the 1998 East Africa embassy bombings (224 killed), and the 2000 USS Cole attack (17 killed) before executing the September 11 attacks that killed...', type: 'critical' },
+     { date: '1998', event: 'The organization carried out the 1993 World Trade Center bombing, the 1998 East Africa embassy bombings (224 killed), and the 2000 USS Cole attack (17 killed) before executing the September 11 attacks that killed...', type: 'critical' },
+     { date: '2000', event: 'The organization carried out the 1993 World Trade Center bombing, the 1998 East Africa embassy bombings (224 killed), and the 2000 USS Cole attack (17 killed) before executing the September 11 attacks that killed...', type: 'critical' },
+     { date: '2001', event: 'aid between 2001 and 2018 while simultaneously harboring Taliban leadership and maintaining ties to extremist groups.', type: 'default' },
+     { date: '2014', event: 'At its peak in 2014-2015, ISIS controlled territory across Iraq and Syria roughly the size of the United Kingdom; governing an estimated 8 million people.', type: 'financial' },
+     { date: '2015', event: 'At its peak in 2014-2015, ISIS controlled territory across Iraq and Syria roughly the size of the United Kingdom; governing an estimated 8 million people.', type: 'financial' },
+     { date: '2018', event: 'aid between 2001 and 2018 while simultaneously harboring Taliban leadership and maintaining ties to extremist groups.', type: 'default' },
+   ],
   },
   'goldman-sachs-fraud': {
     title: 'Goldman Sachs Securities Fraud',
@@ -1471,6 +1569,11 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2010-07-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'Goldman Sachs created and marketed toxic mortgage-backed securities while betting against them, defrauding investors and contributing to the 2008 financial crisis.', type: 'critical' },
+     { date: '2008-01-01', event: 'Goldman Sachs Securities Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2010-07-15', event: 'Goldman Sachs Securities Fraud — investigation remains active with ongoing developments', type: 'financial' },
+   ],
   },
   'gulf-oil-spill': {
     title: 'Deepwater Horizon Oil Spill',
@@ -1495,6 +1598,10 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2010-04-20',
    lastActivityDate: '2012-11-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2010-04-20', event: 'Deepwater Horizon Oil Spill investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2012-11-15', event: 'Deepwater Horizon Oil Spill — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'guantanamo-bay-torture-program': {
     title: 'Guantanamo Bay: The Architecture of Indefinite Detention and Torture',
@@ -1756,10 +1863,12 @@ const investigations_g: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-01-30',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2018', event: 'The technique, which became famous with the 2018 identification of the Golden State Killer, involves uploading crime scene DNA to public genetic genealogy databases like GEDmatch and FamilyTreeDNA,...', type: 'default' },
-     { date: '2023', event: 'After a 2023 data breach exposed 6.9 million users\' genetic data including ancestry information exploited to target specific ethnic groups, 23andMe\'s stock collapsed 98% from its peak', type: 'critical' },
-     { date: '2024', event: 'The 23andMe bankruptcy crisis of 2024-2025 illustrates the catastrophic risks', type: 'financial' },
+      timeline: [
+     { date: '2018', event: 'The technique, which became famous with the 2018 identification of the Golden State Killer, involves uploading crime scene DNA to public genetic genealogy databases like GEDmatch and FamilyTreeDNA, then building...', type: 'default' },
+     { date: '2018-01-01', event: 'Genetic Data Privacy Exploitation and DNA Surveillance investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: '23andMe suffered a data breach in 2023 exposing the genetic data of 6.9 million users.', type: 'financial' },
+     { date: '2024', event: 'The company then filed for bankruptcy in 2024, raising alarm about what would happen to its massive DNA database in liquidation.', type: 'default' },
+     { date: '2025-01-30', event: 'Genetic Data Privacy Exploitation and DNA Surveillance — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'gerrymandering-democracy-subversion': {

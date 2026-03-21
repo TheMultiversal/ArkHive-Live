@@ -38,10 +38,12 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-03-12',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2016', event: 'HAVANA OUTBREAK: Beginning in late 2016, US diplomats at the Havana embassy reported sudden onset of strange symptoms: intense pressure or vibration in the head, vertigo, cognitive difficulties, an...', type: 'default' },
-     { date: '2020', event: 'SCIENTIFIC INVESTIGATION: The National Academy of Sciences concluded in 2020 that "directed, pulsed radio frequency energy "was the most plausible cause', type: 'default' },
-     { date: '2023', event: 'INTELLIGENCE COMMUNITY SPLIT: A 2023 IC assessment controversially concluded it was "very unlikely "a foreign adversary was responsible, drawing criticism from victims and some officials who saw th...', type: 'default' },
+      timeline: [
+     { date: '2016', event: 'HAVANA OUTBREAK: Beginning in late 2016, US diplomats at the Havana embassy reported sudden onset of strange symptoms: intense pressure or vibration in the head, vertigo, cognitive difficulties, and hearing loss.', type: 'default' },
+     { date: '2016-01-01', event: 'Havana Syndrome & Directed Energy Attacks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'The National Academy of Sciences concluded in 2020 that ;directed, pulsed radio frequency energy ;was the most plausible cause.', type: 'default' },
+     { date: '2023', event: 'A 2023 IC assessment controversially concluded it was ;very unlikely ;a foreign adversary was responsible, drawing criticism from victims and some officials who saw the conclusion as politically motivated cover-up.', type: 'default' },
+     { date: '2025-03-12', event: 'Havana Syndrome & Directed Energy Attacks — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'economic-manipulation': {
@@ -70,6 +72,10 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2011-06-11',
    lastActivityDate: '2022-03-23',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2011-06-11', event: 'Economic Manipulation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-03-23', event: 'Economic Manipulation — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'elite-trafficking': {
  title: 'Elite Trafficking Networks',
@@ -190,9 +196,11 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-01-13',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2000', event: 'THE ELECTION: On election night 2000, Florida was too close to call', type: 'political' },
-     { date: '2000-12-12', event: 'GORE: On December 12, 2000, the Supreme Court voted 5-4 to stop the recount, effectively awarding Florida\'s electoral votes and the presidency to Bush', type: 'legal' },
+      timeline: [
+     { date: '2000', event: 'The 2000 presidential election was decided by the Supreme Court in Bush v.', type: 'legal' },
+     { date: '2000-01-01', event: 'Election 2000, Bush v. Gore investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2000-12-12', event: 'On December 12, 2000, the Supreme Court voted 5-4 to stop the recount, effectively awarding Florida\'s electoral votes and the presidency to Bush.', type: 'legal' },
+     { date: '2025-01-13', event: 'Election 2000, Bush v. Gore — investigation remains active with ongoing developments', type: 'political' },
    ],
  },
   'election-disinformation': {
@@ -236,9 +244,11 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-03-04',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020', event: 'LASTING BELIEF: Despite all evidence, polls show a majority of Republicans still believe the 2020 election was stolen', type: 'political' },
-     { date: '2024', event: 'False claims about 2024 voting have already begun', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'Despite all evidence, polls show a majority of Republicans still believe the 2020 election was stolen.', type: 'political' },
+     { date: '2020-01-01', event: 'Election Disinformation Campaign investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2024', event: 'False claims about 2024 voting have already begun.', type: 'default' },
+     { date: '2025-03-04', event: 'Election Disinformation Campaign — investigation remains active with ongoing developments', type: 'political' },
    ],
  },
   'epa-capture': {
@@ -282,6 +292,11 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2023-06-21',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018-01-01', event: 'EPA Regulatory Capture investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2018-07', event: 'Pruitt resigned in July 2018 facing 18 federal investigations.', type: 'default' },
+     { date: '2023-06-21', event: 'EPA Regulatory Capture — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'east-timor': {
  title: 'East Timor Genocide and U.S. Support',
@@ -356,6 +371,10 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2012-01-24',
    lastActivityDate: '2014-12-28',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2012-01-24', event: 'Bush White House Email Deletion Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2014-12-28', event: 'Bush White House Email Deletion Scandal — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'election-interference': {
  title: 'Election Interference Patterns',
@@ -435,6 +454,10 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2022-10-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1970-01-01', event: 'Corporate Environmental Destruction investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022-10-25', event: 'Corporate Environmental Destruction — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'ecohealth': {
  title: 'EcoHealth Alliance Investigation',
@@ -471,9 +494,12 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-01-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2020-02-01', event: 'LANCET LETTER: In February 2020, Daszak organized a letter in The Lancet condemning lab leak "conspiracy theories."He concealed his role in organizing it and his direct conflict of interest as WIV ...', type: 'default' },
-     { date: '2024', event: 'HHS DEBARMENT: In 2024, the Department of Health and Human Services debarred EcoHealth Alliance and Daszak from federal funding', type: 'default' },
+      timeline: [
+     { date: '2020', event: 'In February 2020, Daszak organized a letter in The Lancet condemning lab leak ;conspiracy theories.;He concealed his role in organizing it and his direct conflict of interest as WIV funder.', type: 'financial' },
+     { date: '2020-01-01', event: 'EcoHealth Alliance Investigation investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020-02', event: 'In February 2020, Daszak organized a letter in The Lancet condemning lab leak ;conspiracy theories.;He concealed his role in organizing it and his direct conflict of interest as WIV funder.', type: 'financial' },
+     { date: '2024', event: 'In 2024, the Department of Health and Human Services debarred EcoHealth Alliance and Daszak from federal funding.', type: 'financial' },
+     { date: '2024-01-01', event: 'EcoHealth Alliance Investigation — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'elite-pedophiles': {
@@ -511,10 +537,13 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-12-12',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: '2008 SWEETHEART DEAL: When Florida prosecutors built a case, Epstein received a federal non-prosecution agreement arranged by Alexander Acosta (later Trump\'s Labor Secretary)', type: 'legal' },
-     { date: '2019-08-01', event: 'DEATH IN CUSTODY: Epstein died in his Manhattan jail cell in August 2019, officially by suicide', type: 'critical' },
-     { date: '2021', event: 'GHISLAINE MAXWELL: Maxwell, Epstein\'s partner and procurer, was convicted of sex trafficking in 2021 and sentenced to 20 years', type: 'legal' },
+      timeline: [
+     { date: '2008', event: 'His 2008 sweetheart deal and 2019 death in custody while awaiting trial raised questions about elite impunity.', type: 'legal' },
+     { date: '2008-01-01', event: 'Elite Pedophile Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2019', event: 'His 2008 sweetheart deal and 2019 death in custody while awaiting trial raised questions about elite impunity.', type: 'legal' },
+     { date: '2019-08', event: 'Epstein died in his Manhattan jail cell in August 2019, officially by suicide.', type: 'default' },
+     { date: '2021', event: 'Maxwell, Epstein\'s partner and procurer, was convicted of sex trafficking in 2021 and sentenced to 20 years.', type: 'legal' },
+     { date: '2023-12-12', event: 'Elite Pedophile Networks — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'environmental-corruption': {
@@ -556,6 +585,10 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2013-10-29',
    lastActivityDate: '2025-04-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2013-10-29', event: 'Environmental Regulatory Corruption investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-04-25', event: 'Environmental Regulatory Corruption — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'election-denial': {
  title: 'Election Denial Movement',
@@ -580,6 +613,10 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-07-14',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2020-01-01', event: 'Election Denial Movement investigation begins — events under scrutiny originate from this period', type: 'political' },
+     { date: '2025-07-14', event: 'Election Denial Movement — investigation remains active with ongoing developments', type: 'political' },
+   ],
  },
   'environmental-crimes': {
  title: 'Corporate Environmental Crimes',
@@ -607,6 +644,10 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2013-07-08',
    lastActivityDate: '2024-07-02',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2013-07-08', event: 'Corporate Environmental Crimes investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2024-07-02', event: 'Corporate Environmental Crimes — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'environmental-racism': {
  title: 'Environmental Racism',
@@ -632,6 +673,11 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '1982-01-01',
    lastActivityDate: '2025-12-25',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1982', event: 'In 1982, North Carolina chose a poor Black community for toxic PCB dumping.', type: 'default' },
+     { date: '1982-01-01', event: 'Environmental Racism investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-12-25', event: 'Environmental Racism — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'ethiopian-airlines-302': {
  title: 'Ethiopian Airlines Flight 302 Crash',
@@ -673,6 +719,11 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2025-01-17',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2021', event: 'Boeing\'s 2021 Deferred Prosecution Agreement was breached.', type: 'legal' },
+     { date: '2021-01-01', event: 'Ethiopian Airlines Flight 302 Crash investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-01-17', event: 'Ethiopian Airlines Flight 302 Crash — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'educational-propaganda': {
  title: 'Educational Propaganda: Rewriting History in Real Time',
@@ -704,9 +755,12 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2025-03-11',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2021', event: 'Between 2021 and 2025, more than 40 U.S', type: 'default' },
-     { date: '2022', event: 'schools during the 2022-2023 school year, targeting works by Black, Latino, LGBTQ+, and Indigenous authors', type: 'default' },
+      timeline: [
+     { date: '2021', event: 'Between 2021 and 2025, more than 40 U.S.', type: 'default' },
+     { date: '2021-01-01', event: 'Educational Propaganda: Rewriting History in Real Time investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2022', event: 'schools during the 2022-2023 school year, targeting works by Black, Latino, LGBTQ+, and Indigenous authors.', type: 'default' },
+     { date: '2025', event: 'Between 2021 and 2025, more than 40 U.S.', type: 'default' },
+     { date: '2025-03-11', event: 'Educational Propaganda: Rewriting History in Real Time — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'egypt-dictatorship': {
@@ -736,10 +790,12 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2025-03-31',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2013', event: 'Abdel Fattah el-Sisi seized power in a 2013 military coup against Egypt\'s first democratically elected president, Mohamed Morsi', type: 'political' },
-     { date: '2020', event: 'lobbying firms between 2020 and 2024', type: 'default' },
-     { date: '2024', event: 'A 2024 report by Amnesty International documented widespread practices including electric shock, stress positions, sexual violence, and prolonged solitary confinement', type: 'political' },
+      timeline: [
+     { date: '2013', event: 'Abdel Fattah el-Sisi seized power in a 2013 military coup against Egypt\'s first democratically elected president, Mohamed Morsi.', type: 'political' },
+     { date: '2013-01-01', event: 'Egypt Under Sisi: U.S.-Funded Dictatorship investigation begins — events under scrutiny originate from this period', type: 'financial' },
+     { date: '2020', event: 'lobbying firms between 2020 and 2024.', type: 'financial' },
+     { date: '2024', event: 'A 2024 report by Amnesty International documented widespread practices including electric shock, stress positions, sexual violence, and prolonged solitary confinement.', type: 'default' },
+     { date: '2025-03-31', event: 'Egypt Under Sisi: U.S.-Funded Dictatorship — investigation remains active with ongoing developments', type: 'financial' },
    ],
  },
   'el-paso-walmart-massacre': {
@@ -779,9 +835,13 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-01-23',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2019-09-01', event: 'In September 2019, Walmart announced it would stop selling handgun ammunition and certain rifle ammunition', type: 'default' },
-     { date: '2023', event: 'DEATH PENALTY AND SENTENCING: Crusius pled guilty to federal hate crimes in January 2023 and was sentenced to 90 consecutive life sentences without parole', type: 'legal' },
+      timeline: [
+     { date: '2019', event: 'In September 2019, Walmart announced it would stop selling handgun ammunition and certain rifle ammunition.', type: 'default' },
+     { date: '2019-01-01', event: 'El Paso Walmart Massacre investigation begins — events under scrutiny originate from this period', type: 'critical' },
+     { date: '2019-09', event: 'In September 2019, Walmart announced it would stop selling handgun ammunition and certain rifle ammunition.', type: 'default' },
+     { date: '2023', event: 'Crusius pled guilty to federal hate crimes in January 2023 and was sentenced to 90 consecutive life sentences without parole.', type: 'legal' },
+     { date: '2023-01', event: 'Crusius pled guilty to federal hate crimes in January 2023 and was sentenced to 90 consecutive life sentences without parole.', type: 'legal' },
+     { date: '2024-01-23', event: 'El Paso Walmart Massacre — investigation remains active with ongoing developments', type: 'critical' },
    ],
  },
   'elite-coordination': {
@@ -812,6 +872,11 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2024-01-01',
    lastActivityDate: '2025-10-09',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2024', event: 'By 2024, the network had spent over $2 billion on political campaigns and lobbying, more than either major political party spent on many election cycles.', type: 'political' },
+     { date: '2024-01-01', event: 'Elite Coordination: How the Powerful Align Against the Public investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2025-10-09', event: 'Elite Coordination: How the Powerful Align Against the Public — investigation remains active with ongoing developments', type: 'default' },
+   ],
  },
   'epipen-price-gouging': {
  title: 'EpiPen Price Gouging: Profiting From Allergic Children',
@@ -1600,6 +1665,17 @@ const investigations_e: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Destroyed 92 videotapes of enhanced interrogation sessions despite court orders', href: '/entities/agencies/cia' },
     ],
+   timeline: [
+     { date: '1986', event: 'The DHS IG referred the matter to the DOJ; no charges were filed.;, ;IRAN-CONTRA SHREDDING: Oliver North and Fawn Hall shredded thousands of documents related to the Iran-Contra affair in November 1986, just as...', type: 'default' },
+     { date: '1986-11', event: 'The DHS IG referred the matter to the DOJ; no charges were filed.;, ;IRAN-CONTRA SHREDDING: Oliver North and Fawn Hall shredded thousands of documents related to the Iran-Contra affair in November 1986, just as...', type: 'default' },
+     { date: '2002', event: 'The firm was convicted of obstruction of justice in 2002; though the conviction was later overturned by the Supreme Court on narrow grounds.;, ;SECRET SERVICE JANUARY 6 TEXTS: The Secret Service deleted text messages...', type: 'legal' },
+     { date: '2005', event: 'Rose Mary Woods, Nixon litigation hold malfunction CIA TORTURE TAPES: In November 2005, CIA officer Jose Rodriguez ordered the destruction of 92 videotapes documenting the waterboarding and interrogation of CIA...', type: 'default' },
+     { date: '2005-11', event: 'Rose Mary Woods, Nixon litigation hold malfunction CIA TORTURE TAPES: In November 2005, CIA officer Jose Rodriguez ordered the destruction of 92 videotapes documenting the waterboarding and interrogation of CIA...', type: 'default' },
+     { date: '2006', event: 'When the EFF sued AT&T in 2006 for assisting NSA warrantless wiretapping (Hepting v.', type: 'legal' },
+     { date: '2008', event: 'The FISA Amendments Act of 2008 granted retroactive immunity to telecommunications companies; effectively destroying the legal avenue for discovering the full scope of illegal surveillance.', type: 'default' },
+     { date: '2021', event: 'The firm was convicted of obstruction of justice in 2002; though the conviction was later overturned by the Supreme Court on narrow grounds.;, ;SECRET SERVICE JANUARY 6 TEXTS: The Secret Service deleted text messages...', type: 'legal' },
+     { date: '2021-01-06', event: 'The firm was convicted of obstruction of justice in 2002; though the conviction was later overturned by the Supreme Court on narrow grounds.;, ;SECRET SERVICE JANUARY 6 TEXTS: The Secret Service deleted text messages...', type: 'legal' },
+   ],
   },
   'el-paso-massacre': {
     title: "El Paso Walmart Massacre",
@@ -1629,6 +1705,13 @@ const investigations_e: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigated as domestic terrorism and hate crime; federal prosecution secured 90 consecutive life sentences', href: '/entities/agencies/fbi' },
     ],
+   timeline: [
+     { date: '2020', event: 'The store was rebuilt and reopened in 2020; a decision that divided the community.', type: 'default' },
+     { date: '2021', event: 'Governor Greg Abbott initially expressed support for some gun safety measures; then signed permitless carry into law in 2021.;, ;THE RADICALIZATION PIPELINE: Crusius was radicalized online through 8chan (later 8kun),...', type: 'default' },
+     { date: '2023', event: 'The massacre strained U.S.-Mexico relations and traumatized cross-border communities.;, ;HATE CRIME PROSECUTION: In February 2023, Crusius pleaded guilty to 90 federal charges including 23 counts of hate crime...', type: 'legal' },
+     { date: '2023-02', event: 'The massacre strained U.S.-Mexico relations and traumatized cross-border communities.;, ;HATE CRIME PROSECUTION: In February 2023, Crusius pleaded guilty to 90 federal charges including 23 counts of hate crime...', type: 'legal' },
+     { date: '2026', event: 'In a separate Texas state proceeding, prosecutors sought the death penalty; the state case remains pending as of 2026.;, ;POLITICAL RESPONSE AND INACTION: After the shooting, President Trump visited El Paso.', type: 'legal' },
+   ],
   },
   'election-security-threats': {
     title: 'Election Security Threats',
@@ -1697,9 +1780,11 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '1987-01-01',
    lastActivityDate: '2025-06-15',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1987', event: 'A 1987 GAO study found that three out of five Superfund sites were in areas where the majority of residents were people of color', type: 'default' },
-     { date: '1990', event: 'The "Cancer Alley" designation came from a 1990 front-page Times-Picasso article highlighting the corridor from Baton Rouge to New Orleans', type: 'default' },
+      timeline: [
+     { date: '1987', event: 'A 1987 GAO study found that three out of five Superfund sites were in areas where the majority of residents were people of color.', type: 'default' },
+     { date: '1987-01-01', event: 'Environmental Racism investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1990', event: 'The ;Cancer Alley; designation came from a 1990 front-page Times-Picasso article highlighting the corridor from Baton Rouge to New Orleans.', type: 'default' },
+     { date: '2025-06-15', event: 'Environmental Racism — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'executive-compensation-gouging': {
@@ -1732,6 +1817,12 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '1965-01-01',
    lastActivityDate: '2025-07-30',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1965', event: 'CEO pay ratio reached 307:1 in 2020, up from 20:1 in 1965.', type: 'default' },
+     { date: '1965-01-01', event: 'Executive Compensation Gouging investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2020', event: 'CEO pay ratio reached 307:1 in 2020, up from 20:1 in 1965.', type: 'default' },
+     { date: '2025-07-30', event: 'Executive Compensation Gouging — investigation remains active with ongoing developments', type: 'default' },
+   ],
   },
   'epa-regulatory-capture': {
     title: 'EPA Regulatory Capture: The Systematic Neutering of Environmental Protection',
@@ -2123,10 +2214,12 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '1982-01-01',
    lastActivityDate: '2025-02-20',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '1982', event: 'Warren County, North Carolina — where the environmental justice movement was born in 1982 when residents protested a PCB landfill sited in a Black community — still bears the contamination four dec...', type: 'default' },
-     { date: '1987', event: 'The landmark 1987 United Church of Christ report "Toxic Wastes and Race" found race to be the most significant variable associated with the location of hazardous waste facilities', type: 'default' },
-     { date: '2016', event: 'A 2016 update confirmed the disparity had worsened: communities of color are still disproportionately burdened with toxic facilities', type: 'political' },
+      timeline: [
+     { date: '1982', event: 'Warren County, North Carolina — where the environmental justice movement was born in 1982 when residents protested a PCB landfill sited in a Black community — still bears the contamination four decades later.', type: 'default' },
+     { date: '1982-01-01', event: 'Environmental Racism and Toxic Exposure in Minority Communities investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1987', event: 'The landmark 1987 United Church of Christ report ;Toxic Wastes and Race; found race to be the most significant variable associated with the location of hazardous waste facilities.', type: 'default' },
+     { date: '2016', event: 'A 2016 update confirmed the disparity had worsened: communities of color are still disproportionately burdened with toxic facilities.', type: 'default' },
+     { date: '2025-02-20', event: 'Environmental Racism and Toxic Exposure in Minority Communities — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'elder-financial-exploitation': {
@@ -2157,10 +2250,12 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-03-01',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2010', event: 'The Elder Justice Act of 2010 authorized $777 million in funding that has never been appropriated', type: 'financial' },
-     { date: '2013', event: 'Banks report suspicious activity through SARs (Suspicious Activity Reports), which increased 300% for elder exploitation between 2013 and 2023', type: 'default' },
-     { date: '2023', event: 'The FBI\'s Internet Crime Complaint Center reported that Americans over 60 lost $3.4 billion to fraud in 2023, a 14% increase from the prior year', type: 'political' },
+      timeline: [
+     { date: '2010', event: 'The Elder Justice Act of 2010 authorized $777 million in funding that has never been appropriated.', type: 'financial' },
+     { date: '2010-01-01', event: 'Elder Financial Exploitation and Guardianship Abuse investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2013', event: 'Banks report suspicious activity through SARs (Suspicious Activity Reports), which increased 300% for elder exploitation between 2013 and 2023.', type: 'default' },
+     { date: '2023', event: 'Banks report suspicious activity through SARs (Suspicious Activity Reports), which increased 300% for elder exploitation between 2013 and 2023.', type: 'default' },
+     { date: '2025-03-01', event: 'Elder Financial Exploitation and Guardianship Abuse — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'emergency-room-surprise-billing': {
@@ -2191,9 +2286,12 @@ const investigations_e: Record<string, InvestigationData> = {
    eventOriginDate: '2022-01-01',
    lastActivityDate: '2025-02-10',
    pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2022', event: 'The No Surprises Act, effective January 2022, represents the most significant federal intervention in the crisis', type: 'default' },
-     { date: '2023', event: 'A 2023 analysis found that 18% of all emergency room visits result in at least one surprise bill, with average charges exceeding $1,200 above what insurance covers', type: 'political' },
+      timeline: [
+     { date: '2022', event: 'The No Surprises Act, effective January 2022, represents the most significant federal intervention in the crisis.', type: 'critical' },
+     { date: '2022-01', event: 'The No Surprises Act, effective January 2022, represents the most significant federal intervention in the crisis.', type: 'critical' },
+     { date: '2022-01-01', event: 'Emergency Room Surprise Billing investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023', event: 'A 2023 analysis found that 18% of all emergency room visits result in at least one surprise bill, with average charges exceeding $1,200 above what insurance covers.', type: 'political' },
+     { date: '2025-02-10', event: 'Emergency Room Surprise Billing — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'enhanced-interrogation-cia-black-sites': {
