@@ -638,7 +638,11 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Insider Trading Cases', url: 'https://www.sec.gov/spotlight/insidertrading/cases.shtml', type: 'Government' },
+ { title: 'Bloomberg Markets Coverage', url: 'https://www.bloomberg.com/markets', type: 'Analysis' },
+ { title: 'WSJ Markets Coverage', url: 'https://www.wsj.com/news/markets', type: 'Analysis' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Brought charges and won conviction', href: '/entities/agencies/sec' },
@@ -669,7 +673,9 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Financial Times Markets Coverage', url: 'https://www.ft.com/markets', type: 'Analysis' },
+ { title: 'SEC Filing Archives', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', type: 'Document' },
+ { title: 'Bloomberg Corporate Investigations', url: 'https://www.bloomberg.com/news/articles', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker, conflict of interest', href: '/entities/corporations/citadel' },
@@ -700,7 +706,9 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker influencing trading', href: '/entities/corporations/citadel' },
@@ -779,7 +787,9 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'Carlos Ghosn', type: 'individual', relationship: 'Escaped justice, international fugitive', href: '/entities/individuals/carlos-ghosn' },
@@ -810,7 +820,12 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Labor Rights', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
+ { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
+ { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Flex drivers, warehouse workers', href: '/entities/corporations/amazon-inc' },
@@ -879,7 +894,9 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'World Economic Forum', type: 'organization', relationship: 'Great Reset initiative organizer', href: '/entities/organizations/world-economic-forum' },
@@ -914,7 +931,9 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/goldman-sachs' },
@@ -953,7 +972,9 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Subject of investigation', href: '/entities/corporations/goldman-sachs' },
@@ -986,7 +1007,14 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
+ { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
+ { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
+ { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
+ { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Narendra Modi', type: 'individual', relationship: 'Chief Minister during riots, accused of complicity', href: '/entities/individuals/narendra-modi' },
@@ -1018,14 +1046,15 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'UN OHCHR Reports on Iraq', url: 'https://www.ohchr.org/en/countries/iraq', type: 'Report' },
+ { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
+ { title: 'Human Rights Watch - Iraq Reports', url: 'https://www.hrw.org/middle-east/n-africa/iraq', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Directed military operations', href: '/entities/agencies/pentagon' },
  { id: '2', name: 'CIA', type: 'agency', relationship: 'Intelligence operations', href: '/entities/agencies/cia' },
  ],
    eventOriginDate: '1990-01-01',
-   lastActivityDate: '2024-03-17',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1991', event: 'On the night of February 26-27, 1991, U.S', type: 'default' },

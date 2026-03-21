@@ -19,7 +19,18 @@ const investigations_o: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
+ { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
+ { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
+ { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
+ { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
+ { title: 'Human Rights Campaign - Anti-Trans Legislation', url: 'https://www.hrc.org/resources/attacks-on-gender-affirming-care-by-state-map', type: 'Report' },
+ { title: 'ACLU Transgender Rights', url: 'https://www.aclu.org/issues/lgbtq-rights/transgender-rights', type: 'Report' },
+ { title: 'Williams Institute Research', url: 'https://williamsinstitute.law.ucla.edu/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Oath Keepers', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/oath-keepers' },
@@ -52,7 +63,11 @@ const investigations_o: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
+ { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government' },
+ { title: 'NIH National Library of Medicine', url: 'https://pubmed.ncbi.nlm.nih.gov/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia involved in Jan 6', href: '/entities/organizations/oath-keepers' },
@@ -122,7 +137,12 @@ const investigations_o: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
+ { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
+ { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
  ],
  affiliations: [
       { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia', href: '/entities/organizations/oath-keepers' },

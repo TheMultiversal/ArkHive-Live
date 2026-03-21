@@ -52,11 +52,14 @@ export default function NetworkPage() {
               <div className="text-white font-semibold">Corporations</div>
             </Link>
             
-            <div className="glass-card border border-purple-500/30 p-4">
+            <Link 
+              href="/entities/organizations"
+              className="glass-card border border-purple-500/30 p-4 hover:border-purple-500/60 transition-colors"
+            >
               <Users className="w-5 h-5 text-purple-400 mb-2" />
               <div className="text-xs text-zinc-500">Explore</div>
               <div className="text-white font-semibold">Organizations</div>
-            </div>
+            </Link>
           </div>
         </div>
         

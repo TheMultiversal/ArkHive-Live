@@ -1,178 +1,94 @@
-"use client";
+'use client';
 
-import { useState, useMemo } from "react";
-import Link from "next/link";
-import { Users, Search, Skull, Filter } from "lucide-react";
-import individualData from"@/data/individuals";
-import EntityCard from"@/components/cards/EntityCard";
-import Breadcrumbs from"@/components/layout/Breadcrumbs";
+import { useParams } from 'next/navigation';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { ArrowLeft, AlertTriangle, Users, Shield } from 'lucide-react';
+import GlitchText from '@/components/effects/GlitchText';
+import organizationData from '@/data/organizations';
+import investigationDatabase from '@/data/investigations';
 
-interface Entity {
-  id: string;
-  slug: string;
-  name: string;
-  type: "agency" | "corporation" | "individual" | "organization";
-  description: string;
-  role: string;
-  investigationCount: number;
-  riskLevel: "extreme" | "high" | "moderate" | "low";
-  imageUrl?: string;
-}
-
-// Map profile riskLevel to EntityCard riskLevel
-const riskMap: Record<string, "extreme" | "high" | "moderate" | "low"> = {
-  critical: "extreme",
-  high: "high",
-  medium: "moderate",
-  low: "low",
+const riskColors: Record<string, string> = {
+  critical: 'border-red-600 text-red-400 bg-red-950/30',
+  high: 'border-orange-600 text-orange-400 bg-orange-950/30',
+  medium: 'border-yellow-600 text-yellow-400 bg-yellow-950/30',
+  low: 'border-zinc-600 text-zinc-400 bg-zinc-900/30',
 };
 
-// Build entity list from live shard data
-const individuals: Entity[] = Object.entries(individualData).map(([slug, profile]: [string, any], i) => ({
-  id: `ind-${i}`,
-  slug,
-  name: profile.name,
-  type: "individual" as const,
-  description:
-    (profile.description?.substring(0, 200) +
-      (profile.description?.length > 200 ? "..." : "")) ||
-    "Profile under investigation.",
-  role: profile.role || profile.title || "Under Investigation",
-  investigationCount: profile.relatedInvestigations?.length || 0,
-  riskLevel: riskMap[profile.riskLevel] || "low",
-}));
+export default function OrganizationDetailPage() {
+  const params = useParams();
+  const slug = typeof params.slug === 'string' ? params.slug : '';
+  const org = organizationData[slug];
 
-// Sort: highest risk first, then alphabetical
-const riskOrder: Record<string, number> = { extreme: 0, high: 1, moderate: 2, low: 3 };
-individuals.sort(
-  (a, b) => riskOrder[a.riskLevel] - riskOrder[b.riskLevel] || a.name.localeCompare(b.name)
-);
+  if (!org) {
+    return (
+      <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
+          <AlertTriangle className="w-16 h-16 text-zinc-600 mx-auto mb-6" />
+          <h1 className="text-3xl font-black text-white uppercase tracking-wider mb-4">Organization Not Found</h1>
+          <p className="text-zinc-400 mb-8">The organization could not be located in the database.</p>
+          <Link href="/entities/organizations" className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 border border-zinc-700 text-zinc-300 hover:text-white hover:border-zinc-500 transition-all">
+            <ArrowLeft className="w-4 h-4" />
+            Back to Organizations
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
-type RiskFilter = "all" | "extreme" | "high" | "moderate" | "low";
-
-export default function IndividualsPage() {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [riskFilter, setRiskFilter] = useState<RiskFilter>("all");
-
-  const filtered = useMemo(() => {
-    return individuals.filter((ind) => {
-      const matchesSearch =
-        ind.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        ind.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        ind.role.toLowerCase().includes(searchQuery.toLowerCase());
-      const matchesRisk = riskFilter === "all" || ind.riskLevel === riskFilter;
-      return matchesSearch && matchesRisk;
-    });
-  }, [searchQuery, riskFilter]);
-
-  const riskCounts = useMemo(
-    () => ({
-      all: individuals.length,
-      extreme: individuals.filter((i) => i.riskLevel === "extreme").length,
-      high: individuals.filter((i) => i.riskLevel === "high").length,
-      moderate: individuals.filter((i) => i.riskLevel === "moderate").length,
-      low: individuals.filter((i) => i.riskLevel === "low").length,
-    }),
-    []
+  const relatedInvestigations = Object.entries(investigationDatabase).filter(([, inv]) =>
+    inv.affiliations?.some((a) => a.href === `/entities/organizations/${slug}`)
   );
 
   return (
     <div className="min-h-screen pt-20 lg:pt-24 pb-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Breadcrumb */}
-        <Breadcrumbs className="mb-6 pt-4" />
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Link href="/entities/organizations" className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-6 pt-4">
+          <ArrowLeft className="w-4 h-4" />
+          Back to Organizations
+        </Link>
 
-        {/* Header */}
-        <div className="py-8">
-          <div className="border-2 border-zinc-800/60 bg-[#080808] p-6 lg:p-8 mb-8">
-            <div className="flex items-center gap-4 mb-6">
-              <span className="h-[2px] flex-1 bg-gradient-to-r from-zinc-700 to-transparent" />
-              <Users className="w-6 h-6 text-zinc-500" />
-              <span className="h-[2px] flex-1 bg-gradient-to-l from-zinc-700 to-transparent" />
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="border-2 border-zinc-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8">
+          <div className="flex items-center gap-3 mb-4">
+            <Users className="w-6 h-6 text-zinc-400" />
+            <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[org.riskLevel] || riskColors.medium}`}>
+              {org.riskLevel} risk
+            </span>
+            <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-700 bg-zinc-900 text-zinc-400">
+              {org.type}
+            </span>
+          </div>
+          <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-4">
+            <GlitchText text={org.name} />
+          </h1>
+          <p className="text-zinc-400 leading-relaxed">{org.description}</p>
+          {org.members && (
+            <p className="text-zinc-500 text-sm mt-4">Members: {org.members}</p>
+          )}
+        </motion.div>
+
+        {relatedInvestigations.length > 0 && (
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6 mb-8">
+            <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+              <Shield className="w-5 h-5 text-zinc-300" />
+              Related Investigations ({relatedInvestigations.length})
+            </h2>
+            <div className="space-y-3">
+              {relatedInvestigations.map(([invSlug, inv]) => (
+                <Link key={invSlug} href={`/investigations/${invSlug}`} className="block p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-600 transition-colors">
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h3 className="font-bold text-zinc-300">{inv.title}</h3>
+                      <p className="text-xs text-zinc-500 mt-1">{inv.category}</p>
+                    </div>
+                    <span className={`px-2 py-1 text-[10px] font-bold uppercase border ${riskColors[inv.severity] || ''}`}>
+                      {inv.severity}
+                    </span>
+                  </div>
+                </Link>
+              ))}
             </div>
-
-            <div className="text-center mb-6">
-              <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">
-                KEY INDIVIDUALS
-              </h1>
-              <p className="text-lg text-zinc-500 font-bold uppercase tracking-[0.15em]">
-                The Names Behind The Crimes
-              </p>
-              <p className="text-sm text-zinc-500 mt-2">
-                {individuals.length.toLocaleString()} individuals documented in the archive
-              </p>
-            </div>
-
-            <p className="text-zinc-400 text-center max-w-2xl mx-auto leading-relaxed">
-              Politicians, executives, operatives, and enablers. Every profile maps their crimes,
-              connections, and place in the network of institutional corruption. Independently
-              researched and maintained since 2009.
-            </p>
-          </div>
-        </div>
-
-        {/* Search + Filters */}
-        <div className="flex flex-col sm:flex-row gap-4 mb-8">
-          <div className="relative flex-1 max-w-md">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search individuals..."
-              className="w-full pl-12 pr-4 py-3 bg-[#080808] border-2 border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 transition-colors"
-            />
-          </div>
-
-          <div className="flex items-center gap-2 flex-wrap">
-            <Filter className="w-4 h-4 text-zinc-500" />
-            {(["all","extreme","high","moderate","low"] as RiskFilter[]).map((level) => (
-              <button
-                key={level}
-                onClick={() => setRiskFilter(level)}
-                className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${
-                  riskFilter === level
-                    ? level === "extreme"
-                      ? " border-zinc-700 bg-zinc-800 text-zinc-400"
-                      : level === "high"
-                        ? " border-zinc-700 bg-zinc-800 text-zinc-300"
-                        : level === "moderate"
-                          ? " border-zinc-600 bg-[#0a0a0a] text-zinc-300"
-                          : level === "low"
-                            ? " border-[rgba(255,255,255,0.18)] bg-zinc-900 text-zinc-400"
-                            :"border-zinc-700 bg-zinc-800 text-white"
-                    :"border-[rgba(255,255,255,0.15)] bg-transparent text-zinc-500 hover:border-zinc-600"
-                }`}
-              >
-                {level} ({riskCounts[level]})
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Results count */}
-        <div className="text-sm text-zinc-500 mb-4">
-          Showing {filtered.length.toLocaleString()} of{" "}
-          {individuals.length.toLocaleString()} individuals
-        </div>
-
-        {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filtered.map((individual) => (
-            <EntityCard key={individual.id} entity={individual} />
-          ))}
-        </div>
-
-        {filtered.length === 0 && (
-          <div className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-12 text-center">
-            <div className="w-16 h-16 border-2 border-[rgba(255,255,255,0.18)] flex items-center justify-center mx-auto mb-4">
-              <Skull className="w-8 h-8 text-zinc-600" />
-            </div>
-            <h3 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">
-              No Individuals Found
-            </h3>
-            <p className="text-zinc-500">No individuals match your search criteria.</p>
-          </div>
+          </motion.div>
         )}
       </div>
     </div>

@@ -17,7 +17,11 @@ const investigations_1: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Insider Trading Cases', url: 'https://www.sec.gov/spotlight/insidertrading/cases.shtml', type: 'Government' },
+ { title: 'Bloomberg Markets Coverage', url: 'https://www.bloomberg.com/markets', type: 'Analysis' },
+ { title: 'WSJ Markets Coverage', url: 'https://www.wsj.com/news/markets', type: 'Analysis' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/sec' },
@@ -43,7 +47,9 @@ const investigations_1: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },

@@ -1,71 +1,93 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-import BloodSumerianRain from '@/components/effects/BloodSumerianRain';
+import { useParams } from 'next/navigation';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { ArrowLeft, AlertTriangle, Landmark, Shield } from 'lucide-react';
+import GlitchText from '@/components/effects/GlitchText';
+import agencyData from '@/data/agencies';
+import investigationDatabase from '@/data/investigations';
 
-export default function EnterPage() {
- const router = useRouter();
+const riskColors: Record<string, string> = {
+  extreme: 'border-red-600 text-red-400 bg-red-950/30',
+  high: 'border-orange-600 text-orange-400 bg-orange-950/30',
+  moderate: 'border-yellow-600 text-yellow-400 bg-yellow-950/30',
+  low: 'border-zinc-600 text-zinc-400 bg-zinc-900/30',
+};
 
- return (
- <div className="min-h-screen flex flex-col items-center justify-center bg-black text-zinc-200 relative overflow-hidden">
- <BloodSumerianRain />
+export default function AgencyDetailPage() {
+  const params = useParams();
+  const slug = typeof params.slug === 'string' ? params.slug : '';
+  const agency = agencyData[slug];
 
- <motion.div
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1.2, ease: 'easeOut' }}
-  className="z-10 flex flex-col items-center text-center px-6"
- >
-  <motion.h1
-   initial={{ opacity: 0, letterSpacing: '0.5em' }}
-   animate={{ opacity: 1, letterSpacing: '0.3em' }}
-   transition={{ duration: 2, ease: 'easeOut' }}
-   className="text-5xl sm:text-7xl font-black text-zinc-300 tracking-[0.3em] mb-4"
-  >
-   ARKHIVE
-  </motion.h1>
+  if (!agency) {
+    return (
+      <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
+          <AlertTriangle className="w-16 h-16 text-zinc-600 mx-auto mb-6" />
+          <h1 className="text-3xl font-black text-white uppercase tracking-wider mb-4">Agency Not Found</h1>
+          <p className="text-zinc-400 mb-8">The agency could not be located in the database.</p>
+          <Link href="/entities/agencies" className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 border border-zinc-700 text-zinc-300 hover:text-white hover:border-zinc-500 transition-all">
+            <ArrowLeft className="w-4 h-4" />
+            Back to Agencies
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
-  <motion.div
-   initial={{ scaleX: 0 }}
-   animate={{ scaleX: 1 }}
-   transition={{ duration: 1.5, delay: 0.5, ease: 'easeOut' }}
-   className="w-48 h-px bg-zinc-700 mb-6"
-  />
+  const relatedInvestigations = Object.entries(investigationDatabase).filter(([, inv]) =>
+    inv.affiliations?.some((a) => a.href === `/entities/agencies/${slug}`)
+  );
 
-  <motion.p
-   initial={{ opacity: 0 }}
-   animate={{ opacity: 1 }}
-   transition={{ duration: 1, delay: 1 }}
-   className="text-sm sm:text-base text-zinc-400 max-w-md mb-10 leading-relaxed"
-  >
-   Investigative documentation platform. Political corruption, financial crimes,
-   and institutional accountability; through court records, primary sources,
-   and verified evidence.
-  </motion.p>
+  return (
+    <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Link href="/entities/agencies" className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-6 pt-4">
+          <ArrowLeft className="w-4 h-4" />
+          Back to Agencies
+        </Link>
 
-  <motion.button
-   initial={{ opacity: 0, scale: 0.9 }}
-   animate={{ opacity: 1, scale: 1 }}
-   transition={{ duration: 0.6, delay: 1.5 }}
-   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(180, 180, 180,0.4)' }}
-   whileTap={{ scale: 0.97 }}
-   onClick={() => router.push('/')}
-   className="px-10 py-3 border border-[rgba(255,255,255,0.30)] bg-gradient-to-br from-[#111111] to-[#160600] text-zinc-400 font-semibold tracking-widest uppercase text-sm hover:from-[rgba(0,20,52,0.82)] hover:to-[rgba(0,10,30,0.92)] hover:text-white hover:border-[rgba(255,255,255,0.50)] transition-all duration-300 gloss-hover"
-   style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.15)'}}  >
-   Enter the Archive
-  </motion.button>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="border-2 border-zinc-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8">
+          <div className="flex items-center gap-3 mb-4">
+            <Landmark className="w-6 h-6 text-zinc-400" />
+            <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[agency.riskLevel] || riskColors.moderate}`}>
+              {agency.riskLevel} risk
+            </span>
+            <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-700 bg-zinc-900 text-zinc-400">
+              {agency.role}
+            </span>
+          </div>
+          <h1 className="text-3xl lg:text-4xl font-black text-white uppercase tracking-wider mb-4">
+            <GlitchText text={agency.name} />
+          </h1>
+          <p className="text-zinc-400 leading-relaxed">{agency.description}</p>
+        </motion.div>
 
-  <motion.p
-   initial={{ opacity: 0 }}
-   animate={{ opacity: 0.3 }}
-   transition={{ duration: 1, delay: 2.5 }}
-   className="mt-8 text-xs text-zinc-600"
-  >
-   The truth does not require your belief.
-  </motion.p>
- </motion.div>
- </div>
- );
+        {relatedInvestigations.length > 0 && (
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6 mb-8">
+            <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+              <Shield className="w-5 h-5 text-zinc-300" />
+              Related Investigations ({relatedInvestigations.length})
+            </h2>
+            <div className="space-y-3">
+              {relatedInvestigations.map(([invSlug, inv]) => (
+                <Link key={invSlug} href={`/investigations/${invSlug}`} className="block p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-600 transition-colors">
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h3 className="font-bold text-zinc-300">{inv.title}</h3>
+                      <p className="text-xs text-zinc-500 mt-1">{inv.category}</p>
+                    </div>
+                    <span className={`px-2 py-1 text-[10px] font-bold uppercase border ${riskColors[inv.severity] || ''}`}>
+                      {inv.severity}
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </div>
+    </div>
+  );
 }
-

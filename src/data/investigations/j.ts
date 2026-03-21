@@ -146,7 +146,9 @@ const investigations_j: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Concealed asbestos in baby powder for decades', href: '/entities/corporations/johnson-and-johnson' },
@@ -182,7 +184,17 @@ const investigations_j: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
+ { title: 'FDA Center for Tobacco Products', url: 'https://www.fda.gov/tobacco-products', type: 'Government' },
+ { title: 'Stanford Research into the Impact of Tobacco Advertising', url: 'https://tobacco.stanford.edu/', type: 'Report' },
+ { title: 'Truth Initiative Research', url: 'https://truthinitiative.org/research-resources', type: 'Report' },
+ { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government' },
+ { title: 'NIH National Library of Medicine', url: 'https://pubmed.ncbi.nlm.nih.gov/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to regulate e-cigarettes targeting youth', href: '/entities/agencies/fda' },

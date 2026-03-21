@@ -552,7 +552,9 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
+ { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Abdel Fattah el-Sisi', type: 'individual', relationship: 'Military leader who ordered crackdown', href: '/entities/individuals/abdel-fattah-el-sisi' },
@@ -578,7 +580,12 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic radicalization investigations', href: '/entities/agencies/fbi' },
@@ -605,7 +612,14 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
+ { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'Americans United for Separation', url: 'https://www.au.org/', type: 'Report' },
+ { title: 'Religious Liberty Archive', url: 'https://www.bc.edu/bc-web/schools/law/academics-faculty/programs/cloughcenter.html', type: 'Archive' },
+ { title: 'The Conversation - Religion', url: 'https://theconversation.com/us/topics/religion-702', type: 'Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Scientology leader accused of abuse', href: '/entities/individuals/david-miscavige' },
@@ -638,7 +652,15 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Institutional Abuse', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
+ { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
+ { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
+ { title: 'Americans United for Separation', url: 'https://www.au.org/', type: 'Report' },
+ { title: 'Religious Liberty Archive', url: 'https://www.bc.edu/bc-web/schools/law/academics-faculty/programs/cloughcenter.html', type: 'Archive' },
+ { title: 'The Conversation - Religion', url: 'https://theconversation.com/us/topics/religion-702', type: 'Analysis' },
+ { title: 'Human Rights Campaign', url: 'https://www.hrc.org/resources', type: 'Report' },
+ { title: 'Movement Advancement Project', url: 'https://www.lgbtmap.org/', type: 'Report' },
+ { title: 'ACLU LGBTQ Rights', url: 'https://www.aclu.org/issues/lgbtq-rights', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Federalist Society', type: 'corporation', relationship: 'Controlled judicial nominations', href: '/entities/corporations/federalist-society' },
@@ -665,7 +687,11 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Crypto Enforcement', url: 'https://www.sec.gov/spotlight/cybersecurity-enforcement-actions', type: 'Government' },
+ { title: 'CFTC Enforcement Actions', url: 'https://www.cftc.gov/LawRegulation/Enforcement', type: 'Government' },
+ { title: 'CoinDesk Investigation', url: 'https://www.coindesk.com/policy/', type: 'Investigation' },
+ { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
+ { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Wall Street capture of financial regulation', href: '/entities/agencies/sec' },
@@ -693,7 +719,12 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Major disinformation platform', href: '/entities/corporations/fox-news' },
@@ -725,7 +756,12 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Dominant conservative media outlet', href: '/entities/corporations/fox-news' },
@@ -759,7 +795,11 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Enforcement Actions - Ponzi Schemes', url: 'https://www.sec.gov/spotlight/enf-actions-ponzi.shtml', type: 'Government' },
+ { title: 'FBI Financial Crimes Report', url: 'https://www.fbi.gov/investigate/white-collar-crime', type: 'Government' },
+ { title: 'DOJ Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of $1.2 billion Ponzi scheme', href: '/entities/agencies/doj' },
@@ -791,7 +831,9 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Manufactured Roundup, concealed cancer link', href: '/entities/corporations/monsanto' },
@@ -825,7 +867,17 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Military-Industrial', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
+ { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
+ { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
+ { title: 'UN Human Rights Monitoring Mission in Ukraine', url: 'https://www.ohchr.org/en/countries/ukraine', type: 'Report' },
+ { title: 'International Criminal Court - Ukraine', url: 'https://www.icc-cpi.int/ukraine', type: 'Document' },
+ { title: 'Bellingcat Open Source Investigations', url: 'https://www.bellingcat.com/tag/ukraine/', type: 'Investigation' },
+ { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
+ { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
+ { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
+ { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Initiated invasion of Ukraine', href: '/entities/individuals/vladimir-putin' },
@@ -856,7 +908,15 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
+ { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },
+ { title: 'ProPublica Electionland', url: 'https://www.propublica.org/electionland', type: 'Investigation' },
+ { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
+ { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
+ { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
  ],
  affiliations: [
       { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Scientology leader accused of abuse', href: '/entities/individuals/david-miscavige' },
@@ -887,7 +947,17 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
+ { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
+ { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
+ { title: 'UN Human Rights Monitoring Mission in Ukraine', url: 'https://www.ohchr.org/en/countries/ukraine', type: 'Report' },
+ { title: 'International Criminal Court - Ukraine', url: 'https://www.icc-cpi.int/ukraine', type: 'Document' },
+ { title: 'Bellingcat Open Source Investigations', url: 'https://www.bellingcat.com/tag/ukraine/', type: 'Investigation' },
+ { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
+ { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
+ { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
+ { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'ICC arrest warrant for war crimes', href: '/entities/individuals/vladimir-putin' },
@@ -920,7 +990,9 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
+ { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
+ { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Alexander Lukashenko', type: 'individual', relationship: 'Ordered hijacking of Ryanair flight', href: '/entities/individuals/alexander-lukashenko' },

@@ -1,4 +1,5 @@
 import type { InvestigationData } from './types';
+import moneyTrails from './moneyTrails';
 
 import shard_1 from './1';
 import shard_2 from './2';
@@ -61,6 +62,13 @@ const investigationDatabase: Record<string, InvestigationData> = {
   ...shard_y,
   ...shard_z,
 };
+
+// Merge centralized moneyTrail data into investigations that don't already have it
+for (const [slug, trails] of Object.entries(moneyTrails)) {
+  if (investigationDatabase[slug] && !investigationDatabase[slug].moneyTrail?.length) {
+    investigationDatabase[slug].moneyTrail = trails;
+  }
+}
 
 export default investigationDatabase;
 export type { InvestigationData, InvestigationAffiliation, InvestigationSource } from './types';

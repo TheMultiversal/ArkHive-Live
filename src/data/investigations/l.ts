@@ -235,7 +235,9 @@ const investigations_l: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Leonard Leo', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/leonard-leo' },
@@ -266,7 +268,18 @@ const investigations_l: Record<string, InvestigationData> = {
  ],
  tags: ['Civil Rights', 'Human Rights', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
+ { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
+ { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
+ { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
+ { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
+ { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
+ { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' },
+ { title: 'Human Rights Campaign', url: 'https://www.hrc.org/resources', type: 'Report' },
+ { title: 'Movement Advancement Project', url: 'https://www.lgbtmap.org/', type: 'Report' },
+ { title: 'ACLU LGBTQ Rights', url: 'https://www.aclu.org/issues/lgbtq-rights', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Alliance Defending Freedom', type: 'organization', relationship: 'Anti-LGBTQ litigation organization', href: '/entities/organizations/alliance-defending-freedom' },

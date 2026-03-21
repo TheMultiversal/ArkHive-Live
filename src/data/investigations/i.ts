@@ -307,7 +307,11 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
+ { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
+ { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
+ { title: 'UN Special Adviser on Prevention of Genocide', url: 'https://www.un.org/en/genocideprevention/', type: 'Report' },
+ { title: 'United States Holocaust Memorial Museum', url: 'https://www.ushmm.org/genocide-prevention', type: 'Archive' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'IP theft investigations', href: '/entities/agencies/fbi' },
@@ -379,7 +383,17 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Criminal Justice', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
+ { title: 'DHS Office of Inspector General Reports', url: 'https://www.oig.dhs.gov/reports', type: 'Government' },
+ { title: 'American Immigration Council', url: 'https://www.americanimmigrationcouncil.org/research', type: 'Report' },
+ { title: 'Human Rights First', url: 'https://humanrightsfirst.org/', type: 'Report' },
+ { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/reports/advisory/recommendations', type: 'Government' },
+ { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Report' },
+ { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
+ { title: 'UN OHCHR Country Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
+ { title: 'Human Rights Watch World Report', url: 'https://www.hrw.org/world-report', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'ICE', type: 'agency', relationship: 'Operated detention centers where people died', href: '/entities/agencies/ice' },
@@ -413,7 +427,9 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
+ { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
+ { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'ICE', type: 'agency', relationship: 'Immigration enforcement abuses', href: '/entities/agencies/ice' },
@@ -448,7 +464,18 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Criminal Justice', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
+ { title: 'The Intercept', url: 'https://theintercept.com/collections/the-surveillance-catalogue/', type: 'Investigation' },
+ { title: 'ACLU Surveillance Technologies', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies', type: 'Report' },
+ { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds/tech', type: 'Government' },
+ { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
+ { title: 'The Markup Tech Accountability', url: 'https://themarkup.org/', type: 'Investigation' },
+ { title: 'DHS Office of Inspector General Reports', url: 'https://www.oig.dhs.gov/reports', type: 'Government' },
+ { title: 'American Immigration Council', url: 'https://www.americanimmigrationcouncil.org/research', type: 'Report' },
+ { title: 'Human Rights First', url: 'https://humanrightsfirst.org/', type: 'Report' },
+ { title: 'CBP Use of Force Statistics', url: 'https://www.cbp.gov/newsroom/stats/cbp-use-force', type: 'Government' },
+ { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border', type: 'Report' },
+ { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/series/border-land', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'ICE surveillance technology provider', href: '/entities/corporations/palantir' },
@@ -510,7 +537,15 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
+ { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
+ { title: 'SEC Crypto Enforcement', url: 'https://www.sec.gov/spotlight/cybersecurity-enforcement-actions', type: 'Government' },
+ { title: 'CFTC Enforcement Actions', url: 'https://www.cftc.gov/LawRegulation/Enforcement', type: 'Government' },
+ { title: 'CoinDesk Investigation', url: 'https://www.coindesk.com/policy/', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Influencer disclosure enforcement', href: '/entities/agencies/federal-trade-commission' },
@@ -574,7 +609,9 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Corporate Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Institutional civil rights investigations', href: '/entities/agencies/doj' },
@@ -606,7 +643,12 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC WONDER Drug Overdose Data', url: 'https://wonder.cdc.gov/mcd-icd10.html', type: 'Government' },
+ { title: 'STAT News Opioid Coverage', url: 'https://www.statnews.com/tag/opioids/', type: 'Investigation' },
+ { title: 'National Institute on Drug Abuse', url: 'https://nida.nih.gov/research-topics/opioids', type: 'Report' },
+ { title: 'FDA Enforcement Reports', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Government' },
+ { title: 'DOJ Healthcare Fraud Unit', url: 'https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit', type: 'Government' },
+ { title: 'STAT News Pharma Coverage', url: 'https://www.statnews.com/tag/pharmaceuticals/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'RICO prosecution of executives', href: '/entities/agencies/doj' },
@@ -637,7 +679,14 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC WONDER Drug Overdose Data', url: 'https://wonder.cdc.gov/mcd-icd10.html', type: 'Government' },
+ { title: 'STAT News Opioid Coverage', url: 'https://www.statnews.com/tag/opioids/', type: 'Investigation' },
+ { title: 'National Institute on Drug Abuse', url: 'https://nida.nih.gov/research-topics/opioids', type: 'Report' },
+ { title: 'FDA Enforcement Reports', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Government' },
+ { title: 'DOJ Healthcare Fraud Unit', url: 'https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit', type: 'Government' },
+ { title: 'STAT News Pharma Coverage', url: 'https://www.statnews.com/tag/pharmaceuticals/', type: 'Investigation' },
+ { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
+ { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'First opioid executives convicted under RICO', href: '/entities/agencies/doj' },
@@ -663,7 +712,9 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
+ { title: 'The Intercept', url: 'https://theintercept.com/collections/the-surveillance-catalogue/', type: 'Investigation' },
+ { title: 'ACLU Surveillance Technologies', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Intelligence community accountability failures', href: '/entities/agencies/cia' },

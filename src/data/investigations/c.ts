@@ -1110,7 +1110,11 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'John Jay College Clergy Abuse Study', url: 'https://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf', type: 'Report' },
+ { title: 'AP Catholic Church Coverage', url: 'https://apnews.com/hub/sexual-abuse-by-clergy', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Cardinal Bernard Law', type: 'individual', relationship: 'Covered up abuse in Boston Archdiocese', href: '/entities/individuals/cardinal-bernard-law' },
@@ -1135,7 +1139,13 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
+ { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data/sexual-harassment-charges', type: 'Government' },
+ { title: 'Time\'s Up Legal Defense Fund', url: 'https://timesupnow.org/', type: 'Report' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Les Moonves', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/les-moonves' },
@@ -1159,7 +1169,9 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Financial Times Markets Coverage', url: 'https://www.ft.com/markets', type: 'Analysis' },
+ { title: 'SEC Filing Archives', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', type: 'Document' },
+ { title: 'Bloomberg Corporate Investigations', url: 'https://www.bloomberg.com/news/articles', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Alex Mashinsky', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/alex-mashinsky' },
@@ -1183,7 +1195,9 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/cia' },
@@ -1207,7 +1221,9 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
+ { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/fbi' },
@@ -1232,7 +1248,12 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data/sexual-harassment-charges', type: 'Government' },
+ { title: 'Time\'s Up Legal Defense Fund', url: 'https://timesupnow.org/', type: 'Report' },
+ { title: 'New York Times #MeToo Coverage', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Charlie Rose', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/charlie-rose' },
@@ -1256,7 +1277,9 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Steven Donziger', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/steven-donziger' },
@@ -1282,7 +1305,9 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Police Accountability', 'Law Enforcement', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
+ { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
+ { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
@@ -1307,7 +1332,9 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Police Accountability', 'Law Enforcement', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
+ { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
+ { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Jon Burge', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jon-burge' },
@@ -1331,7 +1358,9 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Operation Cross Country investigations', href: '/entities/agencies/fbi' },
@@ -1356,7 +1385,11 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
+ { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Most prominent case of elite child sex abuse', href: '/entities/individuals/jeffrey-epstein' },
@@ -1382,7 +1415,9 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional-Executive Commission on China', url: 'https://www.cecc.gov/', type: 'Government' },
+ { title: 'Australian Strategic Policy Institute', url: 'https://www.aspi.org.au/report/uyghurs-sale', type: 'Report' },
+ { title: 'Human Rights Watch - China', url: 'https://www.hrw.org/asia/china-and-tibet', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Apple Inc', type: 'corporation', relationship: 'Manufacturing in China despite human rights abuses', href: '/entities/corporations/apple-inc' },
@@ -1406,7 +1441,9 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional-Executive Commission on China', url: 'https://www.cecc.gov/', type: 'Government' },
+ { title: 'Australian Strategic Policy Institute', url: 'https://www.aspi.org.au/report/uyghurs-sale', type: 'Report' },
+ { title: 'Human Rights Watch - China', url: 'https://www.hrw.org/asia/china-and-tibet', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Chinese cyber espionage investigations', href: '/entities/agencies/fbi' },
@@ -1431,7 +1468,12 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional-Executive Commission on China', url: 'https://www.cecc.gov/', type: 'Government' },
+ { title: 'Australian Strategic Policy Institute', url: 'https://www.aspi.org.au/report/uyghurs-sale', type: 'Report' },
+ { title: 'Human Rights Watch - China', url: 'https://www.hrw.org/asia/china-and-tibet', type: 'Report' },
+ { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds/tech', type: 'Government' },
+ { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
+ { title: 'The Markup Tech Accountability', url: 'https://themarkup.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Tiktok', type: 'corporation', relationship: 'Chinese-owned app, data security concerns', href: '/entities/corporations/tiktok' },

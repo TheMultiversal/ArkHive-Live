@@ -391,7 +391,13 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
+ { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'John Jay College Clergy Abuse Study', url: 'https://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf', type: 'Report' },
+ { title: 'AP Catholic Church Coverage', url: 'https://apnews.com/hub/sexual-abuse-by-clergy', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'NRA', type: 'corporation', relationship: 'Blocked gun reform after every shooting', href: '/entities/corporations/nra' },
@@ -427,7 +433,15 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
+ { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Dominion defamation, $787M settlement', href: '/entities/corporations/fox-news' },
@@ -501,7 +515,21 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
+ { title: 'The Trace - Gun Violence Reporting', url: 'https://www.thetrace.org/', type: 'Investigation' },
+ { title: 'Washington Post Fatal Force Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', type: 'Archive' },
+ { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
+ { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
+ { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of enabled abuse in media', href: '/entities/individuals/harvey-weinstein' },
@@ -578,7 +606,9 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Political Corruption', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
+ { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
+ { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Bob Menendez', type: 'individual', relationship: 'Senator convicted of bribery', href: '/entities/individuals/bob-menendez' },
@@ -611,7 +641,16 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
+ { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data/sexual-harassment-charges', type: 'Government' },
+ { title: 'Time\'s Up Legal Defense Fund', url: 'https://timesupnow.org/', type: 'Report' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Medical ethics oversight', href: '/entities/agencies/fda' },
@@ -685,7 +724,9 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Military-Industrial', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
+ { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'AI surveillance for military', href: '/entities/corporations/palantir' },
@@ -718,7 +759,12 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Military-Industrial', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
+ { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
+ { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
+ { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
+ { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Largest defense contractor', href: '/entities/corporations/lockheed-martin' },
@@ -753,7 +799,12 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Military-Industrial', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
+ { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
+ { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Defense readiness concerns', href: '/entities/agencies/pentagon' },
@@ -788,7 +839,12 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
+ { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Ferguson pattern-or-practice investigation', href: '/entities/agencies/doj' },
@@ -821,7 +877,12 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
+ { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
+ { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
+ { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
+ { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Brett Favre', type: 'individual', relationship: 'Received welfare funds for volleyball stadium', href: '/entities/individuals/brett-favre' },
@@ -852,7 +913,9 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'EPA Enforcement & Compliance History', url: 'https://echo.epa.gov/', type: 'Government' },
+ { title: 'Inside Climate News', url: 'https://insideclimatenews.org/', type: 'Investigation' },
+ { title: 'Center for Biological Diversity', url: 'https://www.biologicaldiversity.org/campaigns/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/monsanto' },
@@ -886,7 +949,17 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
+ { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
+ { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
+ { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
+ { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
+ { title: 'CFPB Enforcement Actions', url: 'https://www.consumerfinance.gov/enforcement/actions/', type: 'Government' },
+ { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government' },
+ { title: 'ProPublica Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Agent Orange, Roundup, PCBs', href: '/entities/corporations/monsanto' },
@@ -918,7 +991,11 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
+ { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
       { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'AI surveillance for military', href: '/entities/corporations/palantir' },

@@ -1,306 +1,164 @@
 'use client';
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useEffect, useState } from 'react';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
 import { 
  ArrowLeft, 
- Lock, 
- Globe, 
- AlertTriangle,
- ChevronDown,
- Plus,
- X,
- Users
+ Users,
+ MessageSquare,
+ FileText,
+ Shield,
+ Clock,
+ Eye,
+ Lock,
+ Globe,
+ AlertTriangle
 } from 'lucide-react';
 import { useWorkspaceStore } from '@/store/workspaceStore';
-import { WorkspacePriority, WorkspaceVisibility } from '@/types/workspace';
-import ContributorGate from '@/components/auth/ContributorGate';
+import { EvidenceBoard, ChatPanel, MemberList, DocumentLibrary } from '@/components/workspace';
 
-function CreateWorkspaceContent() {
- const router = useRouter();
- const { createWorkspace } = useWorkspaceStore();
- 
- const [name, setName] = useState('');
- const [description, setDescription] = useState('');
- const [priority, setPriority] = useState<WorkspacePriority>('medium');
- const [visibility, setVisibility] = useState<WorkspaceVisibility>('private');
- const [tags, setTags] = useState<string[]>([]);
- const [tagInput, setTagInput] = useState('');
- const [isSubmitting, setIsSubmitting] = useState(false);
+type TabId = 'evidence' | 'chat' | 'documents' | 'members';
 
- const handleAddTag = () => {
- const tag = tagInput.trim().toLowerCase();
- if (tag && !tags.includes(tag)) {
- setTags([...tags, tag]);
- setTagInput('');
+function WorkspaceDetailContent() {
+ const params = useParams();
+ const id = params.id as string;
+ const { currentWorkspace, setCurrentWorkspace, addEvidence, addDocument } = useWorkspaceStore();
+ const [activeTab, setActiveTab] = useState<TabId>('evidence');
+
+ useEffect(() => {
+ if (id) setCurrentWorkspace(id);
+ }, [id, setCurrentWorkspace]);
+
+ if (!currentWorkspace) {
+ return (
+ <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+ <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
+ <AlertTriangle className="w-16 h-16 text-zinc-600 mx-auto mb-6" />
+ <h1 className="text-3xl font-black text-white uppercase tracking-wider mb-4">Workspace Not Found</h1>
+ <p className="text-zinc-400 mb-8">This workspace does not exist or you do not have access.</p>
+ <Link href="/workspaces" className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 border border-zinc-700 text-zinc-300 hover:text-white hover:border-zinc-500 transition-all">
+ <ArrowLeft className="w-4 h-4" /> Back to Workspaces
+ </Link>
+ </div>
+ </div>
+ );
  }
+
+ const workspace = currentWorkspace;
+ const onlineMembers = workspace.members.filter(m => m.isOnline).length;
+
+ const priorityColors: Record<string, string> = {
+ critical: 'text-red-400 bg-red-500/10 border-red-500/20',
+ high: 'text-orange-400 bg-orange-500/10 border-orange-500/20',
+ medium: 'text-yellow-400 bg-yellow-500/10 border-yellow-500/20',
+ low: 'text-zinc-400 bg-zinc-500/10 border-zinc-500/20',
  };
 
- const handleRemoveTag = (tagToRemove: string) => {
- setTags(tags.filter(t => t !== tagToRemove));
- };
+ const visibilityIcon = workspace.visibility === 'public' ? <Globe className="w-3.5 h-3.5" /> : workspace.visibility === 'team' ? <Users className="w-3.5 h-3.5" /> : <Lock className="w-3.5 h-3.5" />;
 
- const handleSubmit = async (e: React.FormEvent) => {
- e.preventDefault();
- if (!name.trim()) return;
-
- setIsSubmitting(true);
-
- const newWorkspace = createWorkspace({
- name: name.trim(),
- description: description.trim(),
- investigation: '',
- status: 'active',
- priority,
- visibility,
- createdBy: '1',
- members: [{
- id: '1',
- name: 'You',
- role: 'owner',
- joinedAt: new Date(),
- lastActive: new Date(),
- contributions: 0,
- isOnline: true,
- }],
- tags,
- isPublic: visibility === 'public',
- });
-
- setTimeout(() => {
- router.push(`/workspaces/${newWorkspace.id}`);
- }, 300);
- };
-
- const priorityOptions: { value: WorkspacePriority; label: string; description: string }[] = [
- { value: 'critical', label: 'Critical', description: 'Urgent investigation requiring immediate attention' },
- { value: 'high', label: 'High', description: 'Important investigation with significant implications' },
- { value: 'medium', label: 'Medium', description: 'Standard priority investigation' },
- { value: 'low', label: 'Low', description: 'Background research or long-term investigation' },
+ const tabs: { id: TabId; label: string; icon: React.ReactNode; count?: number }[] = [
+ { id: 'evidence', label: 'Evidence Board', icon: <Shield className="w-4 h-4" />, count: workspace.evidence.length },
+ { id: 'chat', label: 'Discussion', icon: <MessageSquare className="w-4 h-4" />, count: workspace.messages.length },
+ { id: 'documents', label: 'Documents', icon: <FileText className="w-4 h-4" />, count: workspace.documents.length },
+ { id: 'members', label: 'Members', icon: <Users className="w-4 h-4" />, count: workspace.members.length },
  ];
-
- const getPriorityColor = (p: WorkspacePriority) => {
- switch (p) {
- case 'critical': return 'bg-zinc-600';
- case 'high': return 'bg-zinc-700/80';
- case 'medium': return 'bg-zinc-800';
- default: return 'bg-[#0d0d0d]';
- }
- };
 
  return (
  <div className="min-h-screen pt-16 lg:pt-20">
- {/* Page Header */}
+ {/* Header */}
  <div className="border-b border-white/[0.04]">
- <div className="max-w-2xl mx-auto px-6 py-6">
- <div className="flex items-center gap-3">
- <Link 
- href="/workspaces"
- className="p-1.5 rounded hover:bg-[#0a0a0a] text-white/25 hover:text-white/40 transition-colors"
- >
- <ArrowLeft className="w-4 h-4"/>
+ <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+ <div className="flex items-center gap-3 mb-4">
+ <Link href="/workspaces" className="p-1.5 hover:bg-[#0a0a0a] text-white/25 hover:text-white/40 transition-colors">
+ <ArrowLeft className="w-4 h-4" />
  </Link>
- <div>
- <h1 className="text-sm font-medium text-white/70">Create Workspace</h1>
- <p className="text-[10px] text-white/25">Set up a new collaborative investigation</p>
- </div>
- </div>
- </div>
- </div>
-
- {/* Form */}
- <div className="max-w-2xl mx-auto px-6 py-8">
- <form onSubmit={handleSubmit} className="space-y-6">
- {/* Name */}
- <div>
- <label className="block text-[10px] text-white/30 uppercase tracking-widest mb-2">
- Workspace Name <span className="text-zinc-300/60">*</span>
- </label>
- <input
- type="text"
- value={name}
- onChange={(e) => setName(e.target.value)}
- placeholder="e.g., FDA Approval Investigation"
- className="w-full px-4 py-3 bg-[#0a0a0a] border border-white/[0.06] text-sm text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
- required
- />
- </div>
-
- {/* Description */}
- <div>
- <label className="block text-[10px] text-white/30 uppercase tracking-widest mb-2">
- Description
- </label>
- <textarea
- value={description}
- onChange={(e) => setDescription(e.target.value)}
- placeholder="Brief overview of the investigation scope and objectives..."
- rows={4}
- className="w-full px-4 py-3 bg-[#0a0a0a] border border-white/[0.06] text-sm text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors resize-none"
- />
- </div>
-
- {/* Priority & Visibility */}
- <div className="grid grid-cols-2 gap-4">
- {/* Priority */}
- <div>
- <label className="block text-[10px] text-white/30 uppercase tracking-widest mb-2">
- Priority
- </label>
- <div className="space-y-1">
- {priorityOptions.map((option) => (
- <button
- key={option.value}
- type="button"
- onClick={() => setPriority(option.value)}
- className={`w-full flex items-center gap-3 p-3 border transition-all text-left ${
- priority === option.value 
- ? 'bg-[#0a0a0a] border-white/[0.1]' 
- : 'border-white/[0.04] hover:border-white/[0.06]'
- }`}
- >
- <div className={`w-2 h-2 ${getPriorityColor(option.value)}`} />
- <div>
- <div className={`text-[11px] font-medium ${priority === option.value ? 'text-white/60' : 'text-white/40'}`}>
- {option.label}
- </div>
- </div>
- </button>
- ))}
- </div>
- </div>
-
- {/* Visibility */}
- <div>
- <label className="block text-[10px] text-white/30 uppercase tracking-widest mb-2">
- Visibility
- </label>
- <div className="space-y-1">
- <button
- type="button"
- onClick={() => setVisibility('private')}
- className={`w-full flex items-center gap-3 p-3 border transition-all text-left ${
- visibility === 'private' 
- ? 'bg-[#0a0a0a] border-white/[0.1]' 
- : 'border-white/[0.04] hover:border-white/[0.06]'
- }`}
- >
- <Lock className={`w-4 h-4 ${visibility === 'private' ? 'text-white/40' : 'text-white/20'}`} />
- <div>
- <div className={`text-[11px] font-medium ${visibility === 'private' ? 'text-white/60' : 'text-white/40'}`}>
- Private
- </div>
- <div className="text-[10px] text-white/25">Invite only</div>
- </div>
- </button>
- <button
- type="button"
- onClick={() => setVisibility('team')}
- className={`w-full flex items-center gap-3 p-3 border transition-all text-left ${
- visibility === 'team' 
- ? 'bg-[#0a0a0a] border-white/[0.1]' 
- : 'border-white/[0.04] hover:border-white/[0.06]'
- }`}
- >
- <Users className={`w-4 h-4 ${visibility === 'team' ? 'text-white/40' : 'text-white/20'}`} />
- <div>
- <div className={`text-[11px] font-medium ${visibility === 'team' ? 'text-white/60' : 'text-white/40'}`}>
- Team
- </div>
- <div className="text-[10px] text-white/25">All team members</div>
- </div>
- </button>
- <button
- type="button"
- onClick={() => setVisibility('public')}
- className={`w-full flex items-center gap-3 p-3 border transition-all text-left ${
- visibility === 'public' 
- ? 'bg-[#0a0a0a] border-white/[0.1]' 
- : 'border-white/[0.04] hover:border-white/[0.06]'
- }`}
- >
- <Globe className={`w-4 h-4 ${visibility === 'public' ? 'text-white/40' : 'text-white/20'}`} />
- <div>
- <div className={`text-[11px] font-medium ${visibility === 'public' ? 'text-white/60' : 'text-white/40'}`}>
- Public
- </div>
- <div className="text-[10px] text-white/25">Anyone can view</div>
- </div>
- </button>
- </div>
- </div>
- </div>
-
- {/* Tags */}
- <div>
- <label className="block text-[10px] text-white/30 uppercase tracking-widest mb-2">
- Tags
- </label>
- <div className="flex flex-wrap gap-1.5 mb-2">
- {tags.map((tag) => (
- <span
- key={tag}
- className="flex items-center gap-1 px-2 py-1 bg-[#0a0a0a] rounded text-[10px] text-white/40"
- >
- {tag}
- <button
- type="button"
- onClick={() => handleRemoveTag(tag)}
- className="text-white/20 hover:text-white/40 transition-colors"
- >
- <X className="w-2.5 h-2.5"/>
- </button>
+ <span className={`px-2 py-0.5 text-[10px] uppercase tracking-widest border ${priorityColors[workspace.priority] || priorityColors.medium}`}>
+ {workspace.priority}
  </span>
+ <span className="flex items-center gap-1 text-[10px] text-white/30">
+ {visibilityIcon} {workspace.visibility}
+ </span>
+ </div>
+ <h1 className="text-xl font-black text-white uppercase tracking-wider mb-2">{workspace.name}</h1>
+ {workspace.description && (
+ <p className="text-sm text-white/40 max-w-3xl">{workspace.description}</p>
+ )}
+ <div className="flex items-center gap-6 mt-4 text-[11px] text-white/30">
+ <span className="flex items-center gap-1.5">
+ <Users className="w-3.5 h-3.5" /> {workspace.members.length} members ({onlineMembers} online)
+ </span>
+ <span className="flex items-center gap-1.5">
+ <Eye className="w-3.5 h-3.5" /> {workspace.viewCount} views
+ </span>
+ <span className="flex items-center gap-1.5">
+ <Clock className="w-3.5 h-3.5" /> {new Date(workspace.lastActivity).toLocaleDateString()}
+ </span>
+ </div>
+ {workspace.tags.length > 0 && (
+ <div className="flex flex-wrap gap-1.5 mt-3">
+ {workspace.tags.map(tag => (
+ <span key={tag} className="px-2 py-0.5 bg-[#0a0a0a] border border-white/[0.04] text-[10px] text-white/30">{tag}</span>
  ))}
  </div>
- <div className="flex gap-2">
- <input
- type="text"
- value={tagInput}
- onChange={(e) => setTagInput(e.target.value)}
- onKeyDown={(e) => e.key === 'Enter' && (e.preventDefault(), handleAddTag())}
- placeholder="Add tags..."
- className="flex-1 px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
- />
- <button
- type="button"
- onClick={handleAddTag}
- className="px-3 py-2 bg-[#0a0a0a] text-white/40 rounded text-[11px] hover:bg-[#0d0d0d] transition-colors"
- >
- <Plus className="w-3.5 h-3.5"/>
- </button>
+ )}
  </div>
  </div>
 
- {/* Submit */}
- <div className="flex gap-3 pt-4 border-t border-white/[0.04]">
- <Link
- href="/workspaces"
- className="flex-1 px-4 py-3 bg-[#0a0a0a] text-white/40 text-[11px] font-medium text-center hover:bg-white/[0.04] transition-colors"
+ {/* Tabs */}
+ <div className="border-b border-white/[0.04]">
+ <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+ <div className="flex gap-0">
+ {tabs.map(tab => (
+ <button
+ key={tab.id}
+ onClick={() => setActiveTab(tab.id)}
+ className={`flex items-center gap-2 px-4 py-3 text-[11px] font-medium uppercase tracking-wider border-b-2 transition-all ${
+ activeTab === tab.id
+ ? 'border-white/20 text-white/70'
+ : 'border-transparent text-white/25 hover:text-white/40'
+ }`}
  >
- Cancel
- </Link>
- <motion.button
- type="submit"
- disabled={!name.trim() || isSubmitting}
- className="flex-1 px-4 py-3 bg-zinc-800 text-zinc-400/80 text-[11px] font-medium hover:bg-zinc-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
- whileTap={{ scale: 0.98 }}
- >
- {isSubmitting ? 'Creating...' : 'Create Workspace'}
- </motion.button>
+ {tab.icon}
+ {tab.label}
+ {tab.count !== undefined && (
+ <span className="text-[9px] text-white/20">{tab.count}</span>
+ )}
+ </button>
+ ))}
  </div>
- </form>
+ </div>
+ </div>
+
+ {/* Tab Content */}
+ <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+ {activeTab === 'evidence' && (
+ <EvidenceBoard
+ evidence={workspace.evidence}
+ onAddEvidence={(evidence) => addEvidence(workspace.id, evidence)}
+ />
+ )}
+ {activeTab === 'chat' && (
+ <ChatPanel
+ workspaceId={workspace.id}
+ messages={workspace.messages}
+ members={workspace.members}
+ />
+ )}
+ {activeTab === 'documents' && (
+ <DocumentLibrary
+ documents={workspace.documents}
+ onUpload={(doc) => addDocument(workspace.id, doc)}
+ />
+ )}
+ {activeTab === 'members' && (
+ <MemberList members={workspace.members} />
+ )}
  </div>
  </div>
  );
 }
 
-export default function CreateWorkspacePage() {
- return (
- <ContributorGate action="create a workspace">
- <CreateWorkspaceContent />
- </ContributorGate>
- );
+export default function WorkspaceDetailPage() {
+ return <WorkspaceDetailContent />;
 }

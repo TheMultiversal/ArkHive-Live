@@ -494,7 +494,12 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Civil Rights', 'Human Rights', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FDIC Enforcement Decisions', url: 'https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
+ { title: 'OCC Enforcement Actions', url: 'https://www.occ.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html', type: 'Government' },
+ { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
+ { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
+ { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
+ { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/jpmorgan-chase' },
@@ -520,7 +525,14 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Corporate Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FDIC Enforcement Decisions', url: 'https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
+ { title: 'OCC Enforcement Actions', url: 'https://www.occ.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html', type: 'Government' },
+ { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
+ { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
+ { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
+ { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/jpmorgan-chase' },
@@ -544,7 +556,14 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Corporate Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
+ { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
+ { title: 'FDIC Enforcement Decisions', url: 'https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
+ { title: 'OCC Enforcement Actions', url: 'https://www.occ.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html', type: 'Government' },
+ { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/wells-fargo' },
@@ -568,7 +587,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Alexander Lukashenko', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/alexander-lukashenko' },
@@ -592,7 +613,12 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Technology & Privacy', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FTC Competition Enforcement', url: 'https://www.ftc.gov/enforcement/competition-matters', type: 'Government' },
+ { title: 'DOJ Antitrust Division', url: 'https://www.justice.gov/atr', type: 'Government' },
+ { title: 'The Verge Tech Policy', url: 'https://www.theverge.com/tech', type: 'Investigation' },
+ { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds/tech', type: 'Government' },
+ { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
+ { title: 'The Markup Tech Accountability', url: 'https://themarkup.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
@@ -618,7 +644,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Truth Tobacco Industry Documents', url: 'https://www.industrydocuments.ucsf.edu/tobacco/', type: 'Archive' },
+ { title: 'Campaign for Tobacco-Free Kids', url: 'https://www.tobaccofreekids.org/', type: 'Report' },
+ { title: 'WHO Framework Convention Reports', url: 'https://fctc.who.int/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Philip Morris', type: 'corporation', relationship: 'Led industry conspiracy to hide cancer link', href: '/entities/corporations/philip-morris' },
@@ -643,7 +671,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
+ { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
+ { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Elon Musk', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/elon-musk' },
@@ -669,7 +699,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Institutional Abuse', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Interior Department', type: 'agency', relationship: 'Bureau of Indian Affairs operated schools', href: '/entities/agencies/interior-department' },
@@ -693,7 +725,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FAA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/faa' },
@@ -718,7 +752,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jeffrey-epstein' },
@@ -744,7 +780,11 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Criminal Justice', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CBP Use of Force Statistics', url: 'https://www.cbp.gov/newsroom/stats/cbp-use-force', type: 'Government' },
+ { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border', type: 'Report' },
+ { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/series/border-land', type: 'Investigation' },
+ { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
+ { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'CBP', type: 'agency', relationship: 'Border enforcement causing deaths', href: '/entities/agencies/cbp' },
@@ -769,7 +809,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Cardinal Bernard Law', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/cardinal-bernard-law' },
@@ -794,7 +836,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Press Releases', url: 'https://www.justice.gov/usao/pressreleases', type: 'Government' },
+ { title: 'Court Records via PACER', url: 'https://www.pacer.gov/', type: 'Document' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Amber Guyger', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/amber-guyger' },
@@ -819,7 +863,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Breonna Taylor', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/breonna-taylor' },
@@ -847,7 +893,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'George Tanios', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/george-tanios' },
@@ -872,7 +920,9 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
+ { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigated shooter, missed warning signs', href: '/entities/agencies/fbi' },

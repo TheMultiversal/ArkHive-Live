@@ -571,7 +571,12 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
+ { title: 'Citizens for Responsibility and Ethics in Washington', url: 'https://www.citizensforethics.org/', type: 'Report' },
+ { title: 'CBP Use of Force Statistics', url: 'https://www.cbp.gov/newsroom/stats/cbp-use-force', type: 'Government' },
+ { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border', type: 'Report' },
+ { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/series/border-land', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Ordered zero tolerance policy', href: '/entities/individuals/donald-trump' },
@@ -606,7 +611,15 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
+ { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
+ { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
+ { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Proud Boys', type: 'organization', relationship: 'Far-right extremist group', href: '/entities/organizations/proud-boys' },
@@ -634,7 +647,12 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Mainstream platform for far-right messaging', href: '/entities/corporations/fox-news' },
@@ -666,7 +684,12 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Labor Rights', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
+ { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
+ { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
+ { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
+ { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
+ { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Andy Puzder', type: 'individual', relationship: 'CKE CEO, labor law violator, Trump nominee', href: '/entities/individuals/andy-puzder' },
@@ -701,7 +724,9 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/fbi' },
@@ -734,7 +759,9 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
+ { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
+ { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
@@ -765,7 +792,11 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CFPB Enforcement Actions', url: 'https://www.consumerfinance.gov/enforcement/actions/', type: 'Government' },
+ { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government' },
+ { title: 'ProPublica Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Profited from crisis it helped create', href: '/entities/corporations/goldman-sachs' },
@@ -840,7 +871,9 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
+ { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
+ { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'FCPA enforcement', href: '/entities/agencies/doj' },
@@ -873,7 +906,21 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
+ { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },
+ { title: 'ProPublica Electionland', url: 'https://www.propublica.org/electionland', type: 'Investigation' },
+ { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
+ { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
+ { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
+ { title: 'UN Panel of Experts on Yemen', url: 'https://www.securitycouncilreport.org/un-documents/yemen/', type: 'Report' },
+ { title: 'Human Rights Watch - Saudi Arabia', url: 'https://www.hrw.org/middle-east/n-africa/saudi-arabia', type: 'Report' },
+ { title: 'Amnesty International - Saudi Arabia', url: 'https://www.amnesty.org/en/location/middle-east-and-north-africa/saudi-arabia/', type: 'Report' },
+ { title: 'Congressional-Executive Commission on China', url: 'https://www.cecc.gov/', type: 'Government' },
+ { title: 'Australian Strategic Policy Institute', url: 'https://www.aspi.org.au/report/uyghurs-sale', type: 'Report' },
+ { title: 'Human Rights Watch - China', url: 'https://www.hrw.org/asia/china-and-tibet', type: 'Report' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'COINTELPRO assassination operations', href: '/entities/agencies/fbi' },
@@ -904,7 +951,12 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Environment', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'EPA Enforcement & Compliance History', url: 'https://echo.epa.gov/', type: 'Government' },
+ { title: 'Inside Climate News', url: 'https://insideclimatenews.org/', type: 'Investigation' },
+ { title: 'Center for Biological Diversity', url: 'https://www.biologicaldiversity.org/campaigns/', type: 'Report' },
+ { title: 'Inside Climate News - Exxon Investigation', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
+ { title: 'Climate Accountability Institute', url: 'https://climateaccountability.org/', type: 'Report' },
+ { title: 'Carbon Tracker Initiative', url: 'https://carbontracker.org/', type: 'Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Climate fraud and environmental destruction', href: '/entities/corporations/exxonmobil' },
@@ -939,7 +991,12 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Environmental', 'Environment', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'EPA Enforcement & Compliance History', url: 'https://echo.epa.gov/', type: 'Government' },
+ { title: 'Inside Climate News', url: 'https://insideclimatenews.org/', type: 'Investigation' },
+ { title: 'Center for Biological Diversity', url: 'https://www.biologicaldiversity.org/campaigns/', type: 'Report' },
+ { title: 'Inside Climate News - Exxon Investigation', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
+ { title: 'Climate Accountability Institute', url: 'https://climateaccountability.org/', type: 'Report' },
+ { title: 'Carbon Tracker Initiative', url: 'https://carbontracker.org/', type: 'Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Top spender on climate lobbying', href: '/entities/corporations/exxonmobil' },
@@ -971,7 +1028,18 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
+ { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
+ { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
+ { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },
+ { title: 'ProPublica Electionland', url: 'https://www.propublica.org/electionland', type: 'Investigation' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: '$787M Dominion settlement for election lies', href: '/entities/corporations/fox-news' },
@@ -1040,7 +1108,9 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
+ { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Billy McFarland', type: 'individual', relationship: 'Convicted fraudster, Festival organizer', href: '/entities/individuals/billy-mcfarland' },

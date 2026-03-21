@@ -24,7 +24,7 @@ function NavDropdown({ label, items, isActive }: { label: string; items: { href:
  <div ref={ref} className="relative">
  <button
  onClick={() => setOpen(!open)}
- className={`relative flex items-center gap-1 px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
+ className={`relative flex items-center gap-1 px-2 xl:px-3 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
  anyActive
  ?"text-zinc-400 bg-zinc-800 border-zinc-800"
  :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
@@ -129,7 +129,7 @@ export default function Header() {
  {/* Top accent line */}
  <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-zinc-700/50 to-transparent"/>
 
- <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+ <div className="w-full max-w-[1400px] mx-auto px-3 sm:px-4 lg:px-6">
  <div className="flex items-center justify-between h-16 lg:h-20">
  {/* Logo */}
  <Link href="/"className="flex items-center gap-3 group">
@@ -148,11 +148,11 @@ export default function Header() {
  </Link>
 
  {/* Desktop Navigation */}
- <nav className="hidden lg:flex items-center gap-0.5" aria-label="Main navigation">
+ <nav className="hidden lg:flex items-center gap-0 flex-shrink min-w-0" aria-label="Main navigation">
  {/* Home link */}
  <Link
  href="/"
- className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
+ className={`relative px-2 xl:px-3 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
  pathname ==="/"
  ?"text-zinc-400 bg-zinc-800 border-zinc-800"
  :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
@@ -174,7 +174,7 @@ export default function Header() {
  <Link
  key={link.href}
  href={link.href}
- className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent whitespace-nowrap ${
+ className={`relative px-2 xl:px-3 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent whitespace-nowrap ${
  active
  ?"text-zinc-400 bg-zinc-800 border-zinc-800"
  :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
@@ -196,7 +196,7 @@ export default function Header() {
  </nav>
 
  {/* Actions */}
- <div className="flex items-center gap-2">
+ <div className="flex items-center gap-1 flex-shrink-0">
  {/* Search */}
  <div className="relative">
  {isSearchOpen && (

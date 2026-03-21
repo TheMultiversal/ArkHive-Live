@@ -132,7 +132,9 @@ const investigations_h: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Drug and food safety regulation', href: '/entities/agencies/fda' },
@@ -203,7 +205,17 @@ const investigations_h: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FDIC Enforcement Decisions', url: 'https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
+ { title: 'OCC Enforcement Actions', url: 'https://www.occ.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html', type: 'Government' },
+ { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
+ { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
+ { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
+ { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
+ { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
+ { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
+ { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Pharmaceutical industry capture', href: '/entities/agencies/fda' },
@@ -234,7 +246,11 @@ const investigations_h: Record<string, InvestigationData> = {
  ],
  tags: ['Corporate Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
+ { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
+ { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market manipulation allegations', href: '/entities/corporations/citadel' },
@@ -296,7 +312,9 @@ const investigations_h: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
+ { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
+ { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of sexual abuse enabled by industry', href: '/entities/individuals/harvey-weinstein' },
@@ -329,7 +347,9 @@ const investigations_h: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
+ { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
+ { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Largest corporate landlord', href: '/entities/corporations/blackstone-group' },

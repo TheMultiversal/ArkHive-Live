@@ -691,7 +691,12 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
+ { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
+ { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+ { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
+ { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
+ { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Heritage Foundation', type: 'corporation', relationship: 'Push for curriculum restrictions', href: '/entities/corporations/heritage-foundation' },
@@ -721,7 +726,9 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
+ { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'Abdel Fattah el-Sisi', type: 'individual', relationship: 'Military dictator', href: '/entities/individuals/abdel-fattah-el-sisi' },
@@ -794,7 +801,9 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'World Economic Forum', type: 'organization', relationship: 'Global elite coordination forum', href: '/entities/organizations/world-economic-forum' },
@@ -821,7 +830,9 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Criminal Justice', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'FDA Enforcement Reports', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Government' },
+ { title: 'DOJ Healthcare Fraud Unit', url: 'https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit', type: 'Government' },
+ { title: 'STAT News Pharma Coverage', url: 'https://www.statnews.com/tag/pharmaceuticals/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Mylan', type: 'individual', relationship: 'Heather Bresch, CEO who raised prices 500%', href: '/entities/individuals/heather-bresch' },
@@ -855,7 +866,9 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
+ { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
+ { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Eric Garner', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/eric-garner' },
@@ -889,7 +902,14 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
+ { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
+ { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
+ { title: 'SEC Insider Trading Cases', url: 'https://www.sec.gov/spotlight/insidertrading/cases.shtml', type: 'Government' },
+ { title: 'Bloomberg Markets Coverage', url: 'https://www.bloomberg.com/markets', type: 'Analysis' },
+ { title: 'WSJ Markets Coverage', url: 'https://www.wsj.com/news/markets', type: 'Analysis' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'Tesla Motors', type: 'corporation', relationship: 'Autopilot safety fraud allegations', href: '/entities/corporations/tesla-motors' },
@@ -967,7 +987,9 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Environment', 'Fraud', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'EPA Enforcement & Compliance History', url: 'https://echo.epa.gov/', type: 'Government' },
+ { title: 'Inside Climate News', url: 'https://insideclimatenews.org/', type: 'Investigation' },
+ { title: 'Center for Biological Diversity', url: 'https://www.biologicaldiversity.org/campaigns/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/exxonmobil' },
@@ -999,12 +1021,13 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'EPA Response to Exxon Valdez', url: 'https://www.epa.gov/emergency-response/exxon-valdez-oil-spill', type: 'Government' },
+ { title: 'NOAA Exxon Valdez Oil Spill Assessment', url: 'https://response.restoration.noaa.gov/oil-and-chemical-spills/significant-incidents/exxon-valdez-oil-spill', type: 'Report' },
+ { title: 'Inside Climate News', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/exxonmobil' },
  ],
-   eventOriginDate: '1989-01-01',
    lastActivityDate: '2017-12-18',
    pageUpdatedDate: '2026-03-18',
    timeline: [

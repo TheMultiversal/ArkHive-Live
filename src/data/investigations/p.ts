@@ -1730,7 +1730,12 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Violence & Justice', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
+ { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
+ { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
+ { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
+ { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
+ { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
  ],
  affiliations: [
  { id: '1', name: 'DHS', type: 'agency', relationship: 'Deployed federal agents against protesters', href: '/entities/agencies/dhs' },
@@ -1764,7 +1769,11 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Public Health', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
+ { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government' },
+ { title: 'NIH National Library of Medicine', url: 'https://pubmed.ncbi.nlm.nih.gov/', type: 'Report' },
  ],
  affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Press freedom prosecutions', href: '/entities/agencies/doj' },
@@ -1791,7 +1800,12 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
+ { title: 'The Trace - Gun Violence Reporting', url: 'https://www.thetrace.org/', type: 'Investigation' },
+ { title: 'Washington Post Fatal Force Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', type: 'Archive' },
+ { title: 'Human Rights Campaign', url: 'https://www.hrc.org/resources', type: 'Report' },
+ { title: 'Movement Advancement Project', url: 'https://www.lgbtmap.org/', type: 'Report' },
+ { title: 'ACLU LGBTQ Rights', url: 'https://www.aclu.org/issues/lgbtq-rights', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Had investigated shooter previously', href: '/entities/agencies/fbi' },
@@ -1824,7 +1838,17 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Public Health', 'Investigation', 'Accountability'],
  sources: [
- { title: 'Public Records', url: 'https://www.documentcloud.org/', type: 'Government' },
+ { title: 'CDC WONDER Drug Overdose Data', url: 'https://wonder.cdc.gov/mcd-icd10.html', type: 'Government' },
+ { title: 'STAT News Opioid Coverage', url: 'https://www.statnews.com/tag/opioids/', type: 'Investigation' },
+ { title: 'National Institute on Drug Abuse', url: 'https://nida.nih.gov/research-topics/opioids', type: 'Report' },
+ { title: 'FDA Enforcement Reports', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Government' },
+ { title: 'DOJ Healthcare Fraud Unit', url: 'https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit', type: 'Government' },
+ { title: 'STAT News Pharma Coverage', url: 'https://www.statnews.com/tag/pharmaceuticals/', type: 'Investigation' },
+ { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
+ { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
+ { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
+ { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government' },
+ { title: 'NIH National Library of Medicine', url: 'https://pubmed.ncbi.nlm.nih.gov/', type: 'Report' },
  ],
  affiliations: [
  { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/purdue-pharma' },
