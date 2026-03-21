@@ -108,7 +108,7 @@ export default function VerificationDashboard() {
           <p className="text-zinc-400">{error}</p>
           <button
             onClick={fetchStatus}
-            className="mt-4 px-4 py-2 bg-blood-900 text-zinc-200 font-mono hover:bg-blood-800 transition-colors"
+            className="mt-4 px-4 py-2 bg-zinc-800 text-zinc-200 font-mono hover:bg-zinc-800 transition-colors"
           >
             Retry
           </button>
@@ -134,7 +134,7 @@ export default function VerificationDashboard() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-mono text-zinc-200 tracking-wider flex items-center gap-3">
-                <Shield className="text-blood-500" />
+                <Shield className="text-zinc-300" />
                 VERIFICATION DASHBOARD
               </h1>
               <p className="text-zinc-500 text-sm mt-1">
@@ -166,7 +166,7 @@ export default function VerificationDashboard() {
               <h3 className="text-sm font-mono text-zinc-400 uppercase tracking-wider">
                 Investigations
               </h3>
-              <Activity className="text-blood-500" size={20} />
+              <Activity className="text-zinc-300" size={20} />
             </div>
             <div className="text-3xl font-mono text-zinc-200 mb-2">
               {status.investigations.total.toLocaleString()}
@@ -198,7 +198,7 @@ export default function VerificationDashboard() {
               <h3 className="text-sm font-mono text-zinc-400 uppercase tracking-wider">
                 Evidence Sources
               </h3>
-              <Link2 className="text-blood-500" size={20} />
+              <Link2 className="text-zinc-300" size={20} />
             </div>
             <div className="text-3xl font-mono text-zinc-200 mb-2">
               {status.evidence.totalSources.toLocaleString()}
@@ -235,7 +235,7 @@ export default function VerificationDashboard() {
                 Crawler Status
               </h3>
               <RefreshCw 
-                className={`text-blood-500 ${status.crawlerStatus === 'running' ? 'animate-spin' : ''}`} 
+                className={`text-zinc-300 ${status.crawlerStatus === 'running' ? 'animate-spin' : ''}`} 
                 size={20} 
               />
             </div>
@@ -272,7 +272,7 @@ export default function VerificationDashboard() {
               <h3 className="text-sm font-mono text-zinc-400 uppercase tracking-wider">
                 Top Contributors
               </h3>
-              <Users className="text-blood-500" size={20} />
+              <Users className="text-zinc-300" size={20} />
             </div>
             <div className="space-y-2">
               {status.topContributors.slice(0, 3).map((contributor, index) => (
@@ -298,7 +298,7 @@ export default function VerificationDashboard() {
           className="glass-card p-6"
         >
           <h3 className="text-lg font-mono text-zinc-200 tracking-wider mb-6 flex items-center gap-2">
-            <TrendingUp className="text-blood-500" />
+            <TrendingUp className="text-zinc-300" />
             VERIFICATION HEALTH
           </h3>
           <div className="space-y-4">
@@ -325,7 +325,7 @@ export default function VerificationDashboard() {
           className="glass-card p-6"
         >
           <h3 className="text-lg font-mono text-zinc-200 tracking-wider mb-6 flex items-center gap-2">
-            <Clock className="text-blood-500" />
+            <Clock className="text-zinc-300" />
             RECENT ACTIVITY
           </h3>
           <div className="space-y-4">
@@ -349,7 +349,7 @@ export default function VerificationDashboard() {
                   <div className="flex items-center gap-2">
                     <Link 
                       href={`/investigations/${activity.investigationId}`}
-                      className="text-zinc-200 hover:text-blood-400 transition-colors"
+                      className="text-zinc-200 hover:text-white transition-colors"
                     >
                       {activity.investigationTitle}
                     </Link>
@@ -401,7 +401,7 @@ export default function VerificationDashboard() {
             Refresh Status
           </button>
           <button
-            className="px-6 py-3 bg-blood-900 border border-blood-700 text-zinc-200 font-mono hover:bg-blood-800 transition-colors flex items-center gap-2"
+            className="px-6 py-3 bg-zinc-800 border border-zinc-700 text-zinc-200 font-mono hover:bg-zinc-800 transition-colors flex items-center gap-2"
           >
             <Activity size={16} />
             Run Full Verification

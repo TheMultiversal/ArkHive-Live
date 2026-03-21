@@ -23,20 +23,20 @@ export default function CrimeSceneDivider({
  },
  'crime-scene': {
  text: 'CRIME SCENE DO NOT CROSS',
- bgColor: '#8f0000',
+ bgColor: '#3d3d3d',
  textColor: '#fff',
  pattern: 'solid',
  },
  'biohazard': {
- text: '☣ BIOHAZARD ☣',
- bgColor: '#4d0000',
+ text: 'â˜£ BIOHAZARD â˜£',
+ bgColor: '#2a2a2a',
  textColor: '#e85454',
  pattern: 'warning',
  },
  'classified': {
- text: 'CLASSIFIED • TOP SECRET • CLASSIFIED',
+ text: 'CLASSIFIED â€¢ TOP SECRET â€¢ CLASSIFIED',
  bgColor: '#1a1a1a',
- textColor: '#8f0000',
+ textColor: '#3d3d3d',
  pattern: 'dashed',
  },
  };
@@ -98,8 +98,8 @@ export default function CrimeSceneDivider({
  {/* Dashed border for classified */}
  {config.pattern === 'dashed' && (
  <>
- <div className="absolute top-0 left-0 right-0 h-1 border-t-2 border-dashed border-blood-700"/>
- <div className="absolute bottom-0 left-0 right-0 h-1 border-b-2 border-dashed border-blood-700"/>
+ <div className="absolute top-0 left-0 right-0 h-1 border-t-2 border-dashed border-zinc-700"/>
+ <div className="absolute bottom-0 left-0 right-0 h-1 border-b-2 border-dashed border-zinc-700"/>
  </>
  )}
 
@@ -175,9 +175,9 @@ export default function CrimeSceneDivider({
  transition={{ delay: 0.5 }}
  >
  <svg width="40"height="40"viewBox="0 0 40 40">
- <circle cx="20"cy="20"r="8"fill="#4d0000"/>
- <ellipse cx="15"cy="30"rx="3"ry="5"fill="#4d0000"/>
- <ellipse cx="28"cy="28"rx="2"ry="4"fill="#4d0000"/>
+ <circle cx="20"cy="20"r="8"fill="#2a2a2a"/>
+ <ellipse cx="15"cy="30"rx="3"ry="5"fill="#2a2a2a"/>
+ <ellipse cx="28"cy="28"rx="2"ry="4"fill="#2a2a2a"/>
  </svg>
  </motion.div>
  <motion.div

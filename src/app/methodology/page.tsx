@@ -132,7 +132,7 @@ export default function MethodologyPage() {
  className="text-center mb-16"
  >
  <h1 className="text-4xl md:text-5xl font-bold glass-text mb-4">
- Our <span className="text-blood-500">Methodology</span>
+ Our <span className="text-zinc-300">Methodology</span>
  </h1>
  <p className="text-lg text-zinc-400 max-w-2xl mx-auto">
  Rigorous journalism demands rigorous methods. Here&apos;s how we ensure 
@@ -157,15 +157,15 @@ export default function MethodologyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: index * 0.1 }}
- className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-6"
+ className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-6"
  >
  <div className="flex items-start gap-4">
- <div className="bg-blood-950 p-3 shrink-0">
- <step.icon className="w-6 h-6 text-blood-500"/>
+ <div className="bg-zinc-900 p-3 shrink-0">
+ <step.icon className="w-6 h-6 text-zinc-300"/>
  </div>
  <div>
  <div className="flex items-center gap-2 mb-2">
- <span className="text-blood-500 font-mono text-sm">
+ <span className="text-zinc-300 font-mono text-sm">
  STEP {index + 1}
  </span>
  </div>
@@ -178,7 +178,7 @@ export default function MethodologyPage() {
  <ul className="space-y-2">
  {step.details.map((detail, i) => (
  <li key={i} className="flex items-start gap-2 text-sm text-zinc-500">
- <CheckCircle2 className="w-4 h-4 text-blood-500 shrink-0 mt-0.5"/>
+ <CheckCircle2 className="w-4 h-4 text-zinc-300 shrink-0 mt-0.5"/>
  {detail}
  </li>
  ))}
@@ -209,9 +209,9 @@ export default function MethodologyPage() {
  whileInView={{ opacity: 1, scale: 1 }}
  viewport={{ once: true }}
  transition={{ delay: index * 0.05 }}
- className="bg-zinc-900 border border-[rgba(255, 60, 60,0.08)] p-5 hover:border-blood-800 transition-colors"
+ className="bg-zinc-900 border border-[rgba(255,255,255,0.08)] p-5 hover:border-zinc-800 transition-colors"
  >
- <principle.icon className="w-8 h-8 text-blood-500 mb-3"/>
+ <principle.icon className="w-8 h-8 text-zinc-300 mb-3"/>
  <h3 className="text-white font-semibold mb-2">{principle.title}</h3>
  <p className="text-zinc-500 text-sm">{principle.description}</p>
  </motion.div>
@@ -234,11 +234,11 @@ export default function MethodologyPage() {
  initial={{ opacity: 0 }}
  whileInView={{ opacity: 1 }}
  viewport={{ once: true }}
- className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] overflow-hidden"
+ className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] overflow-hidden"
  >
  <table className="w-full">
  <thead>
- <tr className="bg-[#200c00]">
+ <tr className="bg-[#0d0d0d]">
  <th className="text-left p-4 text-sm font-semibold text-zinc-300">Type</th>
  <th className="text-left p-4 text-sm font-semibold text-zinc-300 hidden md:table-cell">Standard</th>
  <th className="text-left p-4 text-sm font-semibold text-zinc-300">Reliability</th>
@@ -246,10 +246,10 @@ export default function MethodologyPage() {
  </thead>
  <tbody>
  {evidenceTypes.map((evidence, index) => (
- <tr key={evidence.type} className="border-t border-[rgba(255, 80, 80,0.15)]">
+ <tr key={evidence.type} className="border-t border-[rgba(255,255,255,0.15)]">
  <td className="p-4">
  <div className="flex items-center gap-3">
- <evidence.icon className="w-5 h-5 text-blood-500"/>
+ <evidence.icon className="w-5 h-5 text-zinc-300"/>
  <span className="text-white font-medium">{evidence.type}</span>
  </div>
  </td>
@@ -259,9 +259,9 @@ export default function MethodologyPage() {
  <td className="p-4">
  <span className={`px-2 py-1 text-xs font-medium ${
  evidence.reliability === 'Highest' 
- ? 'bg-blood-950 text-blood-400'
+ ? 'bg-zinc-900 text-zinc-400'
  : evidence.reliability === 'High'
- ? 'bg-blood-950 text-blood-400'
+ ? 'bg-zinc-900 text-zinc-400'
  : evidence.reliability === 'Moderate-High'
  ? 'bg-zinc-900 text-zinc-300'
  : 'bg-zinc-900 text-zinc-400'
@@ -282,7 +282,7 @@ export default function MethodologyPage() {
  initial={{ opacity: 0 }}
  whileInView={{ opacity: 1 }}
  viewport={{ once: true }}
- className="bg-blood-900 border border-blood-800/50 p-8"
+ className="bg-zinc-800 border border-zinc-700/50 p-8"
  >
  <h2 className="text-2xl font-bold glass-text mb-4">Corrections Policy</h2>
  <div className="text-zinc-300 space-y-4">
@@ -293,20 +293,20 @@ export default function MethodologyPage() {
  </p>
  <ul className="space-y-2">
  <li className="flex items-start gap-2">
- <CheckCircle2 className="w-5 h-5 text-blood-500 shrink-0 mt-0.5"/>
+ <CheckCircle2 className="w-5 h-5 text-zinc-300 shrink-0 mt-0.5"/>
  <span>Minor corrections (typos, dates) are noted at article bottom</span>
  </li>
  <li className="flex items-start gap-2">
- <CheckCircle2 className="w-5 h-5 text-blood-500 shrink-0 mt-0.5"/>
+ <CheckCircle2 className="w-5 h-5 text-zinc-300 shrink-0 mt-0.5"/>
  <span>Significant corrections are noted prominently at article top</span>
  </li>
  <li className="flex items-start gap-2">
- <CheckCircle2 className="w-5 h-5 text-blood-500 shrink-0 mt-0.5"/>
+ <CheckCircle2 className="w-5 h-5 text-zinc-300 shrink-0 mt-0.5"/>
  <span>Major errors may result in article retraction with explanation</span>
  </li>
  </ul>
  <p className="text-sm text-zinc-400 mt-4">
- To report an error, contact: <span className="text-blood-400">corrections@arkhive.org</span>
+ To report an error, contact: <span className="text-zinc-400">corrections@arkhive.org</span>
  </p>
  </div>
  </motion.div>
@@ -322,7 +322,7 @@ export default function MethodologyPage() {
  <p className="text-zinc-400 mb-4">Questions about our methodology?</p>
  <Link
  href="/contact"
- className="inline-block bg-blood-600 hover:bg-blood-700 text-white font-semibold px-6 py-3 transition-colors"
+ className="inline-block bg-zinc-700 hover:bg-zinc-700 text-white font-semibold px-6 py-3 transition-colors"
  >
  Contact Us
  </Link>

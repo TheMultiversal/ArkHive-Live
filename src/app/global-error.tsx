@@ -48,9 +48,9 @@ Stack: ${error.stack || 'N/A'}
  duration: 2, 
  repeat: Infinity,
  }}
- className="w-20 h-20 mx-auto mb-6 bg-blood-950 flex items-center justify-center"
+ className="w-20 h-20 mx-auto mb-6 bg-zinc-900 flex items-center justify-center"
  >
- <AlertTriangle className="w-10 h-10 text-blood-500"/>
+ <AlertTriangle className="w-10 h-10 text-zinc-300"/>
  </motion.div>
 
  {/* Title */}
@@ -64,9 +64,9 @@ Stack: ${error.stack || 'N/A'}
  </p>
 
  {/* Error Details */}
- <div className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4 mb-6">
+ <div className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-4 mb-6">
  <div className="flex items-center justify-between mb-2">
- <div className="flex items-center gap-2 text-blood-400">
+ <div className="flex items-center gap-2 text-zinc-400">
  <Bug className="w-4 h-4"/>
  <span className="text-sm font-medium">Error Details</span>
  </div>
@@ -78,7 +78,7 @@ Stack: ${error.stack || 'N/A'}
  <Copy className="w-4 h-4"/>
  </button>
  </div>
- <p className="text-sm text-blood-400 font-mono break-all">
+ <p className="text-sm text-zinc-400 font-mono break-all">
  {error.message || 'Unknown error occurred'}
  </p>
  {error.digest && (
@@ -94,7 +94,7 @@ Stack: ${error.stack || 'N/A'}
  whileHover={{ scale: 1.02 }}
  whileTap={{ scale: 0.98 }}
  onClick={reset}
- className="px-6 py-3 bg-blood-500 text-white font-medium flex items-center justify-center gap-2 hover:bg-blood-600 transition-colors"
+ className="px-6 py-3 bg-zinc-600 text-white font-medium flex items-center justify-center gap-2 hover:bg-zinc-700 transition-colors"
  >
  <RefreshCw className="w-4 h-4"/>
  Try Again
@@ -104,7 +104,7 @@ Stack: ${error.stack || 'N/A'}
  <motion.button
  whileHover={{ scale: 1.02 }}
  whileTap={{ scale: 0.98 }}
- className="w-full px-6 py-3 bg-[#200c00] text-zinc-300 font-medium flex items-center justify-center gap-2 hover:bg-zinc-700 transition-colors"
+ className="w-full px-6 py-3 bg-[#0d0d0d] text-zinc-300 font-medium flex items-center justify-center gap-2 hover:bg-zinc-700 transition-colors"
  >
  <Home className="w-4 h-4"/>
  Return Home

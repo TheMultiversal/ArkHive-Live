@@ -181,7 +181,7 @@ function generateCourtCaseCitation(source: CitationSource, style: CitationStyle)
 function generateStatuteCitation(source: CitationSource, style: CitationStyle): string {
   switch (style) {
     case "bluebook":
-      return `${source.title}, ${source.volume || ""} U.S.C. § ${source.page || ""} (${source.publishYear || ""}).`;
+      return `${source.title}, ${source.volume || ""} U.S.C. Â§ ${source.page || ""} (${source.publishYear || ""}).`;
     default:
       return `${source.title} (${source.publishYear || ""})`;
   }
@@ -350,7 +350,7 @@ export function CitationDisplay({
       {/* Header */}
       <div className="px-4 py-3 border-b border-zinc-800/50 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <FileText className="w-4 h-4 text-blood-500" />
+          <FileText className="w-4 h-4 text-zinc-300" />
           <span className="text-xs font-bold text-white uppercase tracking-wider">Citation</span>
         </div>
 
@@ -374,7 +374,7 @@ export function CitationDisplay({
                       key={key}
                       onClick={() => { setStyle(key); setDropdownOpen(false); }}
                       className={`w-full flex items-center gap-2 px-3 py-2 text-xs text-left hover:bg-zinc-800 transition-colors ${
-                        style === key ? "text-blood-400 bg-blood-950/50" : "text-zinc-400"
+                        style === key ? "text-zinc-400 bg-zinc-900/50" : "text-zinc-400"
                       }`}
                     >
                       <StyleIcon className="w-3 h-3" />

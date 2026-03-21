@@ -191,12 +191,12 @@ const timelineEvents: TimelineEvent[] = [
  {
  date:"January 11, 2002",
  sortDate:"2002-01-11",
- title:"Guantánamo Bay Opens",
+ title:"GuantÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡namo Bay Opens",
  description:"Indefinite detention without trial begins. Torture including waterboarding, force-feeding. 780 detained, most never charged.",
  category:"War Crimes",
  severity:"critical",
  slug:"cia-torture-program",
- tags: ["Guantánamo","Torture"],
+ tags: ["GuantÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡namo","Torture"],
  },
  {
  date:"March 20, 2003",
@@ -751,8 +751,8 @@ const timelineEvents: TimelineEvent[] = [
  {
  date:"1982-1983",
  sortDate:"1982-01-01",
- title:"Guatemala Genocide (Ríos Montt)",
- description:"U.S.-backed dictator Ríos Montt oversaw genocide of Mayan people. 200,000 killed during 36-year civil war. Reagan praised him.",
+ title:"Guatemala Genocide (RÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­os Montt)",
+ description:"U.S.-backed dictator RÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­os Montt oversaw genocide of Mayan people. 200,000 killed during 36-year civil war. Reagan praised him.",
  category:"War Crimes",
  severity:"critical",
  slug:"guatemala-genocide",
@@ -2925,7 +2925,7 @@ const timelineEvents: TimelineEvent[] = [
  date: 'June 7, 2023',
  sortDate: '2023-06-07',
  title: 'International Authoritarian Network',
- description: 'Putin, Xi, Orbán, and the global strongman alliance',
+ description: 'Putin, Xi, OrbÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡n, and the global strongman alliance',
  category: 'Geopolitics',
  severity: 'high',
  slug: 'authoritarian-network',
@@ -3494,7 +3494,7 @@ const timelineEvents: TimelineEvent[] = [
  {
  date: 'October 30, 2012',
  sortDate: '2012-10-30',
- title: 'Nestlé Baby Formula Scandal',
+ title: 'NestlÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© Baby Formula Scandal',
  description: 'Marketing that killed infants',
  category: 'Corporate Malfeasance',
  severity: 'critical',
@@ -3549,10 +3549,10 @@ const sortedEvents = [...timelineEvents].sort((a, b) =>
 );
 
 const severityColors = {
- critical: 'bg-blood-500',
- high: 'bg-blood-700',
+ critical: 'bg-zinc-600',
+ high: 'bg-zinc-700',
  medium: 'bg-zinc-400',
- low: 'bg-blood-500',
+ low: 'bg-zinc-600',
 };
 
 export default function TimelinePage() {
@@ -3568,9 +3568,9 @@ export default function TimelinePage() {
  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header */}
  <div className="py-12">
- <div className="border-2 border-blood-800/50 bg-[#190800] p-8 text-center">
- <div className="w-16 h-16 mx-auto mb-6 border-2 border-blood-700 bg-blood-950 flex items-center justify-center">
- <Calendar className="w-8 h-8 text-blood-600"/>
+ <div className="border-2 border-zinc-700/50 bg-[#080808] p-8 text-center">
+ <div className="w-16 h-16 mx-auto mb-6 border-2 border-zinc-700 bg-zinc-900 flex items-center justify-center">
+ <Calendar className="w-8 h-8 text-zinc-500"/>
  </div>
  <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-4">
  INVESTIGATION TIMELINE
@@ -3579,7 +3579,7 @@ export default function TimelinePage() {
  A chronological record of documented crimes against the American people.
  {filteredEvents.length} events spanning {timelineEvents[timelineEvents.length-1]?.date} to present.
  </p>
- <div className="flex items-center justify-center gap-2 text-sm text-blood-500">
+ <div className="flex items-center justify-center gap-2 text-sm text-zinc-300">
  <AlertTriangle className="w-4 h-4"/>
  <span>Click any event to view full investigation</span>
  </div>
@@ -3594,8 +3594,8 @@ export default function TimelinePage() {
  onClick={() => setFilter("all")}
  className={`px-3 py-1 text-sm border transition-colors ${
  filter ==="all"
- ?"border-blood-500 bg-blood-950 text-blood-400"
- :"border-[rgba(255, 60, 60,0.18)] text-zinc-400 hover:border-zinc-600"
+ ?"border-zinc-600 bg-zinc-900 text-zinc-400"
+ :"border-[rgba(255,255,255,0.18)] text-zinc-400 hover:border-zinc-600"
  }`}
  >
  All ({sortedEvents.length})
@@ -3606,8 +3606,8 @@ export default function TimelinePage() {
  onClick={() => setFilter(cat)}
  className={`px-3 py-1 text-sm border transition-colors ${
  filter === cat 
- ?"border-blood-500 bg-blood-950 text-blood-400"
- :"border-[rgba(255, 60, 60,0.18)] text-zinc-400 hover:border-zinc-600"
+ ?"border-zinc-600 bg-zinc-900 text-zinc-400"
+ :"border-[rgba(255,255,255,0.18)] text-zinc-400 hover:border-zinc-600"
  }`}
  >
  {cat}
@@ -3619,7 +3619,7 @@ export default function TimelinePage() {
  {/* Timeline */}
  <div className="relative">
  {/* Timeline Line */}
- <div className="absolute left-8 top-0 bottom-0 w-[2px] bg-[#200c00]"/>
+ <div className="absolute left-8 top-0 bottom-0 w-[2px] bg-[#0d0d0d]"/>
  
  {filteredEvents.map((event, i) => (
  <Link 
@@ -3628,27 +3628,27 @@ export default function TimelinePage() {
  className="block relative pl-20 pb-8 group"
  >
  {/* Dot */}
- <div className={`absolute left-[22px] w-[14px] h-[14px] border-2 border-zinc-600 group-hover:border-blood-500 transition-colors ${severityColors[event.severity]}`} />
+ <div className={`absolute left-[22px] w-[14px] h-[14px] border-2 border-zinc-600 group-hover:border-zinc-600 transition-colors ${severityColors[event.severity]}`} />
  
  {/* Card */}
- <div className="border border-[rgba(255, 80, 80,0.15)] bg-[#1c0a00] p-5 hover:border-blood-500/50 hover:bg-zinc-900/80 transition-all">
+ <div className="border border-[rgba(255,255,255,0.15)] bg-[#0a0a0a] p-5 hover:border-zinc-600/50 hover:bg-zinc-900/80 transition-all">
  <div className="flex items-start justify-between gap-4 mb-2">
  <span className="text-sm text-zinc-500 uppercase tracking-wider">{event.date}</span>
  <span className={`px-2 py-0.5 text-xs uppercase ${
- event.severity === 'critical' ? 'bg-blood-950 text-blood-400' :
- event.severity === 'high' ? 'bg-blood-950 text-blood-600' :
+ event.severity === 'critical' ? 'bg-zinc-900 text-zinc-400' :
+ event.severity === 'high' ? 'bg-zinc-900 text-zinc-500' :
  'bg-zinc-900 text-zinc-300'
  }`}>
  {event.severity}
  </span>
  </div>
- <h3 className="text-lg font-bold glass-text group-hover:text-blood-500 transition-colors mb-2">
+ <h3 className="text-lg font-bold glass-text group-hover:text-white transition-colors mb-2">
  {event.title}
  </h3>
  <p className="text-zinc-400 text-sm mb-3">{event.description}</p>
  <div className="flex flex-wrap gap-2">
  {event.tags.map(tag => (
- <span key={tag} className="text-xs px-2 py-1 bg-[#200c00] text-zinc-500">
+ <span key={tag} className="text-xs px-2 py-1 bg-[#0d0d0d] text-zinc-500">
  {tag}
  </span>
  ))}

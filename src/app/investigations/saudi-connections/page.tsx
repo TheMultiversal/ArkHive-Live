@@ -81,13 +81,13 @@ const investigation = {
  { defendant: 'Trump (Emoluments)', charge: 'Saudi government spending at Trump properties while seeking favorable U.S. policy', outcome: 'Documented Saudi spending at Trump International Hotel Washington D.C.; emoluments lawsuits dismissed on standing' },
  ],
  charges: [
- { statute: '18 U.S.C. § 1519', description: 'Obstruction, suppressing and withholding CIA intelligence assessment on Khashoggi murder from Congress', count: 'Ongoing obstruction from Oct 2018 through Jan 2021' },
- { statute: '18 U.S.C. § 208', description: 'Conflicts of interest, Kushner conducting Saudi policy while maintaining undisclosed business relationships', count: 'Pattern spanning 2017-2021' },
- { statute: 'Foreign Emoluments Clause (Art. I, § 9)', description: 'Accepting benefits from Saudi government through hotel stays and business deals without Congressional consent', count: 'Multiple documented instances 2017-2021' },
- { statute: '50 U.S.C. § 3024 (Intelligence Authorization)', description: 'Withholding mandatory intelligence briefing to Congress regarding foreign leader\'s role in murder of U.S. resident', count: '1 count covering Khashoggi assessment suppression' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud the United States by providing cover for a foreign government\'s extrajudicial killing of a journalist', count: '1 count' },
- { statute: '18 U.S.C. § 1346', description: 'Honest services fraud, Kushner using government position to cultivate business relationships with Saudi officials', count: 'Pattern culminating in $2B post-government investment' },
- { statute: 'Global Magnitsky Act (22 U.S.C. § 2656)', description: 'Failure to impose mandatory sanctions on MBS despite credible evidence of ordering extrajudicial killing', count: 'Ongoing failure from 2018' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1519', description: 'Obstruction, suppressing and withholding CIA intelligence assessment on Khashoggi murder from Congress', count: 'Ongoing obstruction from Oct 2018 through Jan 2021' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 208', description: 'Conflicts of interest, Kushner conducting Saudi policy while maintaining undisclosed business relationships', count: 'Pattern spanning 2017-2021' },
+ { statute: 'Foreign Emoluments Clause (Art. I, ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 9)', description: 'Accepting benefits from Saudi government through hotel stays and business deals without Congressional consent', count: 'Multiple documented instances 2017-2021' },
+ { statute: '50 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 3024 (Intelligence Authorization)', description: 'Withholding mandatory intelligence briefing to Congress regarding foreign leader\'s role in murder of U.S. resident', count: '1 count covering Khashoggi assessment suppression' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy to defraud the United States by providing cover for a foreign government\'s extrajudicial killing of a journalist', count: '1 count' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1346', description: 'Honest services fraud, Kushner using government position to cultivate business relationships with Saudi officials', count: 'Pattern culminating in $2B post-government investment' },
+ { statute: 'Global Magnitsky Act (22 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2656)', description: 'Failure to impose mandatory sanctions on MBS despite credible evidence of ordering extrajudicial killing', count: 'Ongoing failure from 2018' },
  ],
  coverup: [
  'Trump personally defended MBS after the CIA concluded with high confidence that the crown prince ordered Khashoggi\'s murder, issuing a statement saying "Maybe he did, maybe he didn\'t"and refusing to listen to the audio recording.',
@@ -113,7 +113,7 @@ export default function SaudiConnectionsPage() {
  <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
  <Link
  href="/investigations"
- className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-6 pt-4"
+ className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-6 pt-4"
  >
  <ArrowLeft className="w-4 h-4"/>
  Back to Investigations
@@ -123,10 +123,10 @@ export default function SaudiConnectionsPage() {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8"
+ className="border-2 border-zinc-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8"
  >
  <div className="flex items-center gap-3 mb-4">
- <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-800 bg-blood-950 text-blood-400">
+ <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-800 bg-zinc-900 text-zinc-400">
  {investigation.severity}
  </span>
  <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-700 bg-zinc-900 text-zinc-300">
@@ -136,7 +136,7 @@ export default function SaudiConnectionsPage() {
  <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">
  <GlitchText text={investigation.title} />
  </h1>
- <p className="text-lg text-blood-500 font-bold mb-4">{investigation.subtitle}</p>
+ <p className="text-lg text-zinc-300 font-bold mb-4">{investigation.subtitle}</p>
  <p className="text-zinc-400 leading-relaxed">{investigation.summary}</p>
  </motion.div>
 
@@ -145,19 +145,19 @@ export default function SaudiConnectionsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.1 }}
- className="border-2 border-blood-800/60 bg-blood-950 p-6 mb-8"
+ className="border-2 border-zinc-800/60 bg-zinc-900 p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <Skull className="w-5 h-5 text-blood-500"/>
+ <Skull className="w-5 h-5 text-zinc-300"/>
  Khashoggi Murder - {investigation.khashoggiMurder.date}
  </h2>
  <div className="space-y-4">
- <div className="border border-blood-800/50 bg-black p-4">
+ <div className="border border-zinc-700/50 bg-black p-4">
  <p className="glass-text font-bold">{investigation.khashoggiMurder.victim}</p>
  <p className="text-zinc-400">{investigation.khashoggiMurder.location}</p>
- <p className="text-blood-400 mt-2">{investigation.khashoggiMurder.method}</p>
+ <p className="text-zinc-400 mt-2">{investigation.khashoggiMurder.method}</p>
  </div>
- <div className="border border-[rgba(255, 80, 80,0.15)] bg-zinc-900 p-4">
+ <div className="border border-[rgba(255,255,255,0.15)] bg-zinc-900 p-4">
  <p className="text-zinc-300 font-bold">CIA Conclusion:</p>
  <p className="text-zinc-300">{investigation.khashoggiMurder.mbsRole}</p>
  </div>
@@ -165,8 +165,8 @@ export default function SaudiConnectionsPage() {
  <h3 className="glass-text font-bold mb-2">Trump&apos;s Response:</h3>
  <div className="space-y-2">
  {investigation.khashoggiMurder.trumpResponse.map((response, idx) => (
- <div key={idx} className="flex items-start gap-2 text-zinc-300 border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-3">
- <span className="text-blood-500">■</span>
+ <div key={idx} className="flex items-start gap-2 text-zinc-300 border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-3">
+ <span className="text-zinc-300">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â </span>
  {response}
  </div>
  ))}
@@ -187,20 +187,20 @@ export default function SaudiConnectionsPage() {
  Kushner-Saudi Connection
  </h2>
  <div className="space-y-3">
- <div className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
+ <div className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
  <p className="text-zinc-300 font-bold">Security Clearance Override</p>
  <p className="text-zinc-300">{investigation.kushnerSaudi.securityClearance}</p>
  </div>
- <div className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
+ <div className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
  <p className="text-zinc-300 font-bold">WhatsApp Communications</p>
  <p className="text-zinc-300">{investigation.kushnerSaudi.whatsAppWithMBS}</p>
  </div>
- <div className="border border-blood-800/50 bg-blood-950 p-4">
- <p className="text-blood-400 font-bold">$2 Billion Saudi Investment</p>
+ <div className="border border-zinc-700/50 bg-zinc-900 p-4">
+ <p className="text-zinc-400 font-bold">$2 Billion Saudi Investment</p>
  <p className="text-zinc-300">{investigation.kushnerSaudi.investment}</p>
  </div>
- <div className="border border-blood-800/50 bg-blood-950 p-4">
- <p className="text-blood-400 font-bold">&quot;In His Pocket&quot;</p>
+ <div className="border border-zinc-700/50 bg-zinc-900 p-4">
+ <p className="text-zinc-400 font-bold">&quot;In His Pocket&quot;</p>
  <p className="text-zinc-300">{investigation.kushnerSaudi.inPocket}</p>
  </div>
  </div>
@@ -211,15 +211,15 @@ export default function SaudiConnectionsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.2 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <AlertTriangle className="w-5 h-5 text-blood-500"/>
+ <AlertTriangle className="w-5 h-5 text-zinc-300"/>
  Arms Deals
  </h2>
  <div className="space-y-3">
  {investigation.armsDeals.map((deal, idx) => (
- <div key={idx} className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
+ <div key={idx} className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
  <div className="flex justify-between items-start mb-2">
  <h3 className="font-bold glass-text">{deal.deal}</h3>
  <span className="text-xs text-zinc-400">{deal.date}</span>
@@ -235,19 +235,19 @@ export default function SaudiConnectionsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.25 }}
- className="border-2 border-blood-900/80 bg-blood-950 p-6 mb-8"
+ className="border-2 border-zinc-800/80 bg-zinc-900 p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4">
  Yemen War Complicity
  </h2>
  <p className="text-zinc-300 mb-4">{investigation.yemenWar.description}</p>
  <div className="grid grid-cols-2 gap-4">
- <div className="border border-blood-800/50 bg-black p-4 text-center">
- <p className="text-3xl font-bold text-blood-500">{investigation.yemenWar.casualties}</p>
+ <div className="border border-zinc-700/50 bg-black p-4 text-center">
+ <p className="text-3xl font-bold text-zinc-300">{investigation.yemenWar.casualties}</p>
  <p className="text-sm text-zinc-400">Estimated Dead</p>
  </div>
- <div className="border border-blood-800/50 bg-black p-4 text-center">
- <p className="text-xl font-bold text-blood-400">{investigation.yemenWar.famine}</p>
+ <div className="border border-zinc-700/50 bg-black p-4 text-center">
+ <p className="text-xl font-bold text-zinc-400">{investigation.yemenWar.famine}</p>
  </div>
  </div>
  <p className="text-zinc-400 mt-4">{investigation.yemenWar.trumpRole}</p>
@@ -258,15 +258,15 @@ export default function SaudiConnectionsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.3 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <Users className="w-5 h-5 text-blood-500"/>
+ <Users className="w-5 h-5 text-zinc-300"/>
  Key Figures
  </h2>
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-zinc-300"/>The Cover-Up</h2>
+ <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900 border border-zinc-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -274,14 +274,14 @@ export default function SaudiConnectionsPage() {
  <Link
  key={idx}
  href={figure.href}
- className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4 hover:border-blood-600 transition-colors group"
+ className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4 hover:border-zinc-700 transition-colors group"
  >
  <div className="flex justify-between items-start">
  <div>
- <h3 className="font-bold glass-text group-hover:text-blood-500">{figure.name}</h3>
+ <h3 className="font-bold glass-text group-hover:text-white">{figure.name}</h3>
  <p className="text-sm text-zinc-400">{figure.role}</p>
  </div>
- <span className="text-xs text-blood-400">{figure.status}</span>
+ <span className="text-xs text-zinc-400">{figure.status}</span>
  </div>
  </Link>
  ))}
@@ -293,16 +293,16 @@ export default function SaudiConnectionsPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.35 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <Calendar className="w-5 h-5 text-blood-500"/>
+ <Calendar className="w-5 h-5 text-zinc-300"/>
  Timeline
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="flex gap-4 border-l-2 border-[rgba(255, 60, 60,0.18)] pl-4 hover:border-blood-500 transition-colors">
- <span className="text-blood-500 font-mono text-sm whitespace-nowrap min-w-[100px]">{item.date}</span>
+ <div key={idx} className="flex gap-4 border-l-2 border-[rgba(255,255,255,0.18)] pl-4 hover:border-zinc-600 transition-colors">
+ <span className="text-zinc-300 font-mono text-sm whitespace-nowrap min-w-[100px]">{item.date}</span>
  <span className="text-zinc-300">{item.event}</span>
  </div>
  ))}
@@ -310,24 +310,24 @@ export default function SaudiConnectionsPage() {
  </motion.div>
 
  
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-zinc-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.div>
  
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Applicable Charges &amp; Statutes</h2>
+ <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold text-zinc-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-zinc-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.div>
  {/* Sources */}
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.4 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <FileText className="w-5 h-5 text-blood-500"/>
+ <FileText className="w-5 h-5 text-zinc-300"/>
  Sources & Documentation
  </h2>
  <div className="space-y-3">
@@ -337,13 +337,13 @@ export default function SaudiConnectionsPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-3 hover:border-blood-600 transition-colors group"
+ className="flex items-center justify-between border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-3 hover:border-zinc-700 transition-colors group"
  >
  <div>
- <h3 className="text-zinc-300 group-hover:text-blood-500 transition-colors">{source.title}</h3>
+ <h3 className="text-zinc-300 group-hover:text-white transition-colors">{source.title}</h3>
  <p className="text-xs text-zinc-500">{source.date}</p>
  </div>
- <ExternalLink className="w-4 h-4 text-zinc-500 group-hover:text-blood-500"/>
+ <ExternalLink className="w-4 h-4 text-zinc-500 group-hover:text-white"/>
  </a>
  ))}
  </div>

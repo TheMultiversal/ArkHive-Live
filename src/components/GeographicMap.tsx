@@ -188,7 +188,7 @@ function RegionCard({ region, config, entities, isExpanded, onToggle }: RegionCa
     <div className="glass-card border border-zinc-800">
       <button
         onClick={onToggle}
-        className="w-full p-4 flex items-center gap-3 text-left hover:bg-blood-900/10 transition-colors"
+        className="w-full p-4 flex items-center gap-3 text-left hover:bg-zinc-800/10 transition-colors"
       >
         <MapPin className={`w-5 h-5 ${config.color}`} />
         <div className="flex-1">
@@ -213,7 +213,7 @@ function RegionCard({ region, config, entities, isExpanded, onToggle }: RegionCa
               <Link
                 key={idx}
                 href={item.entity.href}
-                className="flex items-center gap-2 p-2 bg-zinc-900/50 hover:bg-blood-900/20 transition-colors"
+                className="flex items-center gap-2 p-2 bg-zinc-900/50 hover:bg-zinc-800/20 transition-colors"
               >
                 <Icon className={`w-4 h-4 ${typeConf.color}`} />
                 <div className="flex-1 min-w-0">
@@ -221,7 +221,7 @@ function RegionCard({ region, config, entities, isExpanded, onToggle }: RegionCa
                   <div className="text-xs text-zinc-600">
                     {item.location.city && `${item.location.city}, `}
                     {item.location.state || item.location.country}
-                    {' • '}{item.investigations.length} investigation{item.investigations.length !== 1 ? 's' : ''}
+                    {' ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ '}{item.investigations.length} investigation{item.investigations.length !== 1 ? 's' : ''}
                   </div>
                 </div>
               </Link>
@@ -312,11 +312,11 @@ export default function GeographicMap({ compact = false }: GeographicMapProps) {
       <div className="flex flex-col md:flex-row md:items-center gap-4">
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
-            <Globe className="w-6 h-6 text-blood-500" />
+            <Globe className="w-6 h-6 text-zinc-300" />
             Geographic Distribution
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {stats.total} entities • {stats.dc} in D.C. • {stats.international} international
+            {stats.total} entities ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ {stats.dc} in D.C. ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ {stats.international} international
           </p>
         </div>
       </div>
@@ -349,7 +349,7 @@ export default function GeographicMap({ compact = false }: GeographicMapProps) {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search entities..."
-          className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+          className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
         />
         {searchQuery && (
           <button
@@ -399,8 +399,8 @@ export function TopLocationsWidget() {
   const intl = entities.filter(e => e.location.region === 'international').length;
   
   return (
-    <div className="glass-card border border-blood-900/30 p-4">
-      <h3 className="text-sm font-semibold text-blood-400 mb-3 flex items-center gap-2">
+    <div className="glass-card border border-zinc-800/30 p-4">
+      <h3 className="text-sm font-semibold text-zinc-400 mb-3 flex items-center gap-2">
         <Globe className="w-4 h-4" />
         Geographic Focus
       </h3>

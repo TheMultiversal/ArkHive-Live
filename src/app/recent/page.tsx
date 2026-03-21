@@ -119,10 +119,10 @@ const typeIcons = {
 };
 
 const typeColors = {
- investigation: 'text-blood-500 bg-blood-950',
+ investigation: 'text-zinc-300 bg-zinc-900',
  entity: 'text-zinc-400 bg-zinc-900',
- document: 'text-blood-500 bg-blood-950',
- workspace: 'text-blood-500 bg-blood-950',
+ document: 'text-zinc-300 bg-zinc-900',
+ workspace: 'text-zinc-300 bg-zinc-900',
 };
 
 // ============================================================
@@ -153,7 +153,7 @@ function RecentItemCard({
  <motion.div
  initial={{ opacity: 0, x: -20 }}
  animate={{ opacity: 1, x: 0 }}
- className="flex items-center gap-4 p-4 hover:bg-[#1c0a00] transition-colors group"
+ className="flex items-center gap-4 p-4 hover:bg-[#0a0a0a] transition-colors group"
  >
  <div className={`p-2 ${typeColors[item.type]}`}>
  {typeIcons[item.type]}
@@ -161,7 +161,7 @@ function RecentItemCard({
  
  <div className="flex-1 min-w-0">
  <Link href={item.url} className="block">
- <h3 className="text-white font-medium group-hover:text-blood-400 transition-colors">
+ <h3 className="text-white font-medium group-hover:text-white transition-colors">
  {item.title}
  </h3>
  <p className="text-zinc-500 text-sm truncate">{item.description}</p>
@@ -187,10 +187,10 @@ function RecentItemCard({
  </button>
  
  {showMenu && (
- <div className="absolute right-0 top-full mt-1 w-32 glass border border-[rgba(255, 60, 60,0.18)] py-1 z-10">
+ <div className="absolute right-0 top-full mt-1 w-32 glass border border-[rgba(255,255,255,0.18)] py-1 z-10">
  <Link
  href={item.url}
- className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#200c00] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#0d0d0d] flex items-center gap-2"
  >
  <ExternalLink className="w-3 h-3"/>
  Open
@@ -200,7 +200,7 @@ function RecentItemCard({
  onRemove(item.id);
  setShowMenu(false);
  }}
- className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[#200c00] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#0d0d0d] flex items-center gap-2"
  >
  <Trash2 className="w-3 h-3"/>
  Remove
@@ -261,7 +261,7 @@ export default function RecentPage() {
  <button
  onClick={handleClearAll}
  disabled={recentItems.length === 0}
- className="flex items-center gap-2 px-4 py-2 text-blood-400 hover:text-blood-400 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+ className="flex items-center gap-2 px-4 py-2 text-zinc-400 hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
  >
  <Trash2 className="w-4 h-4"/>
  Clear History
@@ -278,8 +278,8 @@ export default function RecentPage() {
  onClick={() => setTypeFilter(type)}
  className={`px-3 py-1 text-xs font-medium capitalize transition-colors ${
  typeFilter === type
- ? 'bg-blood-600 text-white'
- : 'bg-[#200c00] text-zinc-400 hover:text-white'
+ ? 'bg-zinc-700 text-white'
+ : 'bg-[#0d0d0d] text-zinc-400 hover:text-white'
  }`}
  >
  {type === 'all' ? 'All' : `${type}s`}
@@ -298,7 +298,7 @@ export default function RecentPage() {
  <div key={group}>
  <div className="flex items-center gap-4 mb-3">
  <h2 className="text-sm font-medium text-zinc-500">{group}</h2>
- <div className="h-px flex-1 bg-[#200c00]"/>
+ <div className="h-px flex-1 bg-[#0d0d0d]"/>
  </div>
 
  <div className="glass-card overflow-hidden divide-y divide-zinc-800">

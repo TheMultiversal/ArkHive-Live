@@ -16,12 +16,12 @@ interface BadgeProps {
 }
 
 const variantClasses: Record<BadgeVariant, string> = {
- default: 'bg-[#200c00] text-zinc-300 border-[rgba(255, 60, 60,0.18)]',
- primary: 'bg-blood-900 text-blood-400 border-blood-700',
- success: 'bg-blood-900 text-blood-400 border-blood-700',
- warning: 'bg-[#200c00] text-zinc-300 border-zinc-600/50',
- danger: 'bg-blood-900 text-blood-400 border-blood-700',
- info: 'bg-blood-900 text-blood-400 border-blood-700',
+ default: 'bg-[#0d0d0d] text-zinc-300 border-[rgba(255,255,255,0.18)]',
+ primary: 'bg-zinc-800 text-zinc-400 border-zinc-700',
+ success: 'bg-zinc-800 text-zinc-400 border-zinc-700',
+ warning: 'bg-[#0d0d0d] text-zinc-300 border-zinc-600/50',
+ danger: 'bg-zinc-800 text-zinc-400 border-zinc-700',
+ info: 'bg-zinc-800 text-zinc-400 border-zinc-700',
  outline: 'bg-transparent text-zinc-400 border-zinc-600',
 };
 

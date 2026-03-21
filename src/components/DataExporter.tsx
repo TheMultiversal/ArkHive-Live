@@ -323,7 +323,7 @@ export function DataExporter() {
     <div className="space-y-6">
       {/* Header */}
       <div className="flex items-center gap-3">
-        <Download className="w-6 h-6 text-blood-500" />
+        <Download className="w-6 h-6 text-zinc-300" />
         <h2 className="text-2xl font-bold text-white">Export Data</h2>
       </div>
 
@@ -340,7 +340,7 @@ export function DataExporter() {
                   onClick={() => setOptions({ ...options, format: fmt })}
                   className={`p-3 border flex flex-col items-center gap-2 transition-colors ${
                     options.format === fmt
-                      ? 'bg-blood-500/20 border-blood-500 text-blood-400'
+                      ? 'bg-zinc-500/20 border-zinc-600 text-zinc-400'
                       : 'bg-zinc-900 border-zinc-700 text-zinc-400 hover:border-zinc-600'
                   }`}
                 >
@@ -370,7 +370,7 @@ export function DataExporter() {
                     value={opt.value}
                     checked={options.scope === opt.value}
                     onChange={() => setOptions({ ...options, scope: opt.value as ExportScope })}
-                    className="accent-blood-500"
+                    className="accent-zinc-500"
                   />
                   <span className="text-zinc-300">{opt.label}</span>
                 </label>
@@ -401,7 +401,7 @@ export function DataExporter() {
                       ...options, 
                       [opt.key]: e.target.checked 
                     })}
-                    className="accent-blood-500"
+                    className="accent-zinc-500"
                   />
                   <span className="text-zinc-300">{opt.label}</span>
                 </label>
@@ -415,7 +415,7 @@ export function DataExporter() {
             disabled={isExporting || exportList.length === 0}
             className={`w-full py-3 px-4 flex items-center justify-center gap-2 font-bold transition-colors ${
               exportList.length > 0
-                ? 'bg-blood-500 hover:bg-blood-600 text-white'
+                ? 'bg-zinc-600 hover:bg-zinc-700 text-white'
                 : 'bg-zinc-800 text-zinc-500 cursor-not-allowed'
             }`}
           >
@@ -472,12 +472,12 @@ export function DataExporter() {
                 onClick={() => toggleSelect(inv.slug)}
                 className={`w-full p-2 flex items-center gap-3 text-left transition-colors ${
                   selectedSlugs.has(inv.slug)
-                    ? 'bg-blood-500/10 border-l-2 border-blood-500'
+                    ? 'bg-zinc-500/10 border-l-2 border-zinc-600'
                     : 'hover:bg-zinc-800/50'
                 }`}
               >
                 {selectedSlugs.has(inv.slug) ? (
-                  <CheckSquare className="w-4 h-4 text-blood-500 flex-shrink-0" />
+                  <CheckSquare className="w-4 h-4 text-zinc-300 flex-shrink-0" />
                 ) : (
                   <Square className="w-4 h-4 text-zinc-600 flex-shrink-0" />
                 )}
@@ -492,7 +492,7 @@ export function DataExporter() {
                     }`}>
                       {inv.severity}
                     </span>
-                    <span>·</span>
+                    <span>ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·</span>
                     <span>{inv.status}</span>
                   </div>
                 </div>
@@ -541,14 +541,14 @@ export function QuickExportButton({ investigation }: { investigation: Investigat
     <div className="flex gap-2">
       <button
         onClick={() => handleQuickExport('json')}
-        className="p-2 bg-zinc-800 border border-zinc-700 hover:border-blood-500 transition-colors"
+        className="p-2 bg-zinc-800 border border-zinc-700 hover:border-zinc-600 transition-colors"
         title="Export as JSON"
       >
         <FileJson className="w-4 h-4 text-zinc-400" />
       </button>
       <button
         onClick={() => handleQuickExport('markdown')}
-        className="p-2 bg-zinc-800 border border-zinc-700 hover:border-blood-500 transition-colors"
+        className="p-2 bg-zinc-800 border border-zinc-700 hover:border-zinc-600 transition-colors"
         title="Export as Markdown"
       >
         <FileText className="w-4 h-4 text-zinc-400" />

@@ -191,7 +191,7 @@ export const DialogContent = forwardRef<HTMLDivElement, DialogContentProps>(
  exit={{ opacity: 0, scale: 0.95 }}
  transition={{ duration: 0.2 }}
  className={cn(
- 'relative w-full bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] shadow-xl',
+ 'relative w-full bg-[#0a0a0a] border border-[rgba(255,255,255,0.18)] shadow-xl',
  'focus:outline-none',
  sizeStyles[size],
  className

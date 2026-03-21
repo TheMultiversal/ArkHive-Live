@@ -36,8 +36,8 @@ function groupByLetter(investigations: typeof allInvestigations) {
 
 // Severity badge colors
 const severityConfig = {
-  critical: { bg: 'bg-blood-900/80', text: 'text-blood-400', icon: Skull },
-  high: { bg: 'bg-blood-950/80', text: 'text-blood-500', icon: AlertTriangle },
+  critical: { bg: 'bg-zinc-800/80', text: 'text-zinc-400', icon: Skull },
+  high: { bg: 'bg-zinc-900/80', text: 'text-zinc-300', icon: AlertTriangle },
   medium: { bg: 'bg-zinc-800/80', text: 'text-zinc-400', icon: FileText },
   low: { bg: 'bg-zinc-900/80', text: 'text-zinc-500', icon: Archive },
 };
@@ -137,40 +137,40 @@ export default function InvestigationIndex({
   const containerClasses = isModal 
     ? 'fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex items-center justify-center p-4'
     : compact 
-      ? 'bg-zinc-950 border border-blood-900/30'
-      : 'bg-zinc-950 border border-blood-900/30 p-4';
+      ? 'bg-zinc-950 border border-zinc-800/30'
+      : 'bg-zinc-950 border border-zinc-800/30 p-4';
 
   const contentClasses = isModal
-    ? 'bg-zinc-950 border border-blood-900/50 w-full max-w-4xl max-h-[85vh] overflow-hidden flex flex-col'
+    ? 'bg-zinc-950 border border-zinc-800/50 w-full max-w-4xl max-h-[85vh] overflow-hidden flex flex-col'
     : '';
 
   return (
     <div className={containerClasses}>
       <div className={contentClasses}>
         {/* Header */}
-        <div className={`flex items-center justify-between gap-4 ${isModal ? 'p-4 border-b border-blood-900/30' : compact ? 'p-3' : 'mb-4'}`}>
+        <div className={`flex items-center justify-between gap-4 ${isModal ? 'p-4 border-b border-zinc-800/30' : compact ? 'p-3' : 'mb-4'}`}>
           <div className="flex items-center gap-3">
             <h2 className={`font-mono font-bold tracking-wide text-zinc-200 ${compact ? 'text-sm' : 'text-lg'}`}>
               INVESTIGATION INDEX
             </h2>
-            <span className="text-xs text-blood-500 font-mono">
+            <span className="text-xs text-zinc-300 font-mono">
               {totalCount} RECORDS
             </span>
           </div>
           
           <div className="flex items-center gap-2">
             {/* View toggle */}
-            <div className="flex border border-blood-900/30 divide-x divide-blood-900/30">
+            <div className="flex border border-zinc-800/30 divide-x divide-zinc-800/30">
               <button
                 onClick={() => setViewMode('alpha')}
-                className={`p-1.5 ${viewMode === 'alpha' ? 'bg-blood-900/30 text-blood-400' : 'text-zinc-500 hover:text-zinc-300'}`}
+                className={`p-1.5 ${viewMode === 'alpha' ? 'bg-zinc-800/30 text-zinc-400' : 'text-zinc-500 hover:text-zinc-300'}`}
                 title="Alphabetical"
               >
                 <List className="w-4 h-4" />
               </button>
               <button
                 onClick={() => setViewMode('recent')}
-                className={`p-1.5 ${viewMode === 'recent' ? 'bg-blood-900/30 text-blood-400' : 'text-zinc-500 hover:text-zinc-300'}`}
+                className={`p-1.5 ${viewMode === 'recent' ? 'bg-zinc-800/30 text-zinc-400' : 'text-zinc-500 hover:text-zinc-300'}`}
                 title="Recent Activity"
               >
                 <Grid3X3 className="w-4 h-4" />
@@ -197,7 +197,7 @@ export default function InvestigationIndex({
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search investigations..."
-              className="w-full pl-10 pr-4 py-2 bg-black/50 border border-blood-900/30 text-zinc-200 placeholder:text-zinc-600 text-sm font-mono focus:outline-none focus:border-blood-600"
+              className="w-full pl-10 pr-4 py-2 bg-black/50 border border-zinc-800/30 text-zinc-200 placeholder:text-zinc-600 text-sm font-mono focus:outline-none focus:border-zinc-700"
             />
             {searchQuery && (
               <button
@@ -230,7 +230,7 @@ export default function InvestigationIndex({
                   className={`w-7 h-7 text-xs font-mono font-bold flex items-center justify-center transition-colors
                     ${hasInvestigations 
                       ? hasCritical
-                        ? 'bg-blood-900/30 text-blood-400 hover:bg-blood-900/50 border border-blood-800/50'
+                        ? 'bg-zinc-800/30 text-zinc-400 hover:bg-zinc-800/50 border border-zinc-700/50'
                         : 'bg-zinc-900/50 text-zinc-400 hover:bg-zinc-800 border border-zinc-800'
                       : 'bg-zinc-950 text-zinc-700 cursor-not-allowed border border-zinc-900'
                     }`}
@@ -274,19 +274,19 @@ export default function InvestigationIndex({
                   return a.localeCompare(b);
                 })
                 .map(([letter, investigations]) => (
-                  <div key={letter} id={`letter-${letter}`} className="border border-blood-900/20">
+                  <div key={letter} id={`letter-${letter}`} className="border border-zinc-800/20">
                     {/* Letter header */}
                     <button
                       onClick={() => toggleLetter(letter)}
                       className="w-full flex items-center justify-between px-3 py-2 bg-zinc-900/50 hover:bg-zinc-900 transition-colors"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="text-2xl font-bold font-mono text-blood-500">{letter}</span>
+                        <span className="text-2xl font-bold font-mono text-zinc-300">{letter}</span>
                         <span className="text-xs text-zinc-500 font-mono">
                           {investigations.length} investigations
                         </span>
                         {alphabetStats[letter]?.critical > 0 && (
-                          <span className="text-xs bg-blood-900/50 text-blood-400 px-1.5 py-0.5 font-mono">
+                          <span className="text-xs bg-zinc-800/50 text-zinc-400 px-1.5 py-0.5 font-mono">
                             {alphabetStats[letter].critical} CRITICAL
                           </span>
                         )}
@@ -321,7 +321,7 @@ export default function InvestigationIndex({
                                 <span className={`text-xs px-1.5 py-0.5 ${severity.bg} ${severity.text} font-mono uppercase`}>
                                   {inv.severity}
                                 </span>
-                                <ArrowRight className="w-4 h-4 text-zinc-600 group-hover:text-blood-500 transition-colors" />
+                                <ArrowRight className="w-4 h-4 text-zinc-600 group-hover:text-white transition-colors" />
                               </div>
                             </Link>
                           );
@@ -360,7 +360,7 @@ export default function InvestigationIndex({
                         )}
                       </div>
                     </div>
-                    <ArrowRight className="w-4 h-4 text-zinc-600 group-hover:text-blood-500 transition-colors flex-shrink-0" />
+                    <ArrowRight className="w-4 h-4 text-zinc-600 group-hover:text-white transition-colors flex-shrink-0" />
                   </Link>
                 );
               })}
@@ -380,7 +380,7 @@ export function InvestigationIndexButton({ className = '' }: { className?: strin
     <>
       <button
         onClick={() => setIsOpen(true)}
-        className={`flex items-center gap-2 px-3 py-2 bg-zinc-900 border border-blood-900/30 text-zinc-300 hover:text-blood-400 hover:border-blood-600 transition-colors font-mono text-sm ${className}`}
+        className={`flex items-center gap-2 px-3 py-2 bg-zinc-900 border border-zinc-800/30 text-zinc-300 hover:text-white hover:border-zinc-700 transition-colors font-mono text-sm ${className}`}
       >
         <List className="w-4 h-4" />
         INDEX

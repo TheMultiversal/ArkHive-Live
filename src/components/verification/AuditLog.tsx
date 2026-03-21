@@ -249,7 +249,7 @@ function AuditEntryRow({
               e.stopPropagation();
               onClick();
             }}
-            className="p-2 text-zinc-500 hover:text-blood-400 transition-colors"
+            className="p-2 text-zinc-500 hover:text-white transition-colors"
             aria-label="View details"
           >
             <ArrowUpRight className="w-4 h-4" />
@@ -412,7 +412,7 @@ function AuditFilters({
             placeholder="Search audit log..."
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
-            className="w-full pl-10 pr-4 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 transition-colors"
+            className="w-full pl-10 pr-4 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 transition-colors"
           />
         </div>
 
@@ -421,14 +421,14 @@ function AuditFilters({
           onClick={() => setShowFilters(!showFilters)}
           className={`flex items-center gap-2 px-3 py-2 border transition-colors ${
             activeFilterCount > 0
-              ? "bg-blood-600/20 border-blood-500/50 text-blood-400"
+              ? "bg-zinc-700/20 border-zinc-600/50 text-zinc-400"
               : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white"
           }`}
         >
           <Filter className="w-4 h-4" />
           Filters
           {activeFilterCount > 0 && (
-            <span className="px-1.5 py-0.5 text-xs bg-blood-600 text-white">
+            <span className="px-1.5 py-0.5 text-xs bg-zinc-700 text-white">
               {activeFilterCount}
             </span>
           )}
@@ -489,7 +489,7 @@ function AuditFilters({
                       onClick={() => onCategoryToggle(category)}
                       className={`px-2 py-1 text-sm border transition-colors ${
                         selectedCategories.has(category)
-                          ? "bg-blood-600/20 border-blood-500/50 text-blood-400"
+                          ? "bg-zinc-700/20 border-zinc-600/50 text-zinc-400"
                           : "bg-zinc-900 border-zinc-700 text-zinc-400 hover:text-white"
                       }`}
                     >
@@ -639,7 +639,7 @@ export default function AuditLog({
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-zinc-800">
         <h3 className="flex items-center gap-2 text-lg font-semibold text-white">
-          <History className="w-5 h-5 text-blood-500" />
+          <History className="w-5 h-5 text-zinc-300" />
           Audit Log
         </h3>
         <div className="flex items-center gap-3">

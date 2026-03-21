@@ -133,9 +133,9 @@ export default function Dropdown({
  onKeyDown={handleKeyDown}
  disabled={disabled}
  className={cn(
- 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[#1c0a00] border text-left transition-colors',
- isOpen ? 'border-blood-500' : 'border-[rgba(255, 60, 60,0.18)] hover:border-zinc-600',
- error && 'border-blood-500',
+ 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[#0a0a0a] border text-left transition-colors',
+ isOpen ? 'border-zinc-600' : 'border-[rgba(255,255,255,0.18)] hover:border-zinc-600',
+ error && 'border-zinc-600',
  disabled && 'opacity-50 cursor-not-allowed'
  )}
  aria-haspopup="listbox"
@@ -160,7 +160,7 @@ export default function Dropdown({
  </button>
 
  {error && (
- <p className="mt-1 text-sm text-blood-500">{error}</p>
+ <p className="mt-1 text-sm text-zinc-300">{error}</p>
  )}
 
  <AnimatePresence>
@@ -170,17 +170,17 @@ export default function Dropdown({
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: -10 }}
  transition={{ duration: 0.15 }}
- className="absolute z-50 w-full mt-1 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] shadow-xl max-h-60 overflow-hidden"
+ className="absolute z-50 w-full mt-1 bg-[#0a0a0a] border border-[rgba(255,255,255,0.18)] shadow-xl max-h-60 overflow-hidden"
  >
  {searchable && (
- <div className="p-2 border-b border-[rgba(255, 80, 80,0.15)]">
+ <div className="p-2 border-b border-[rgba(255,255,255,0.15)]">
  <input
  ref={inputRef}
  type="text"
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
  placeholder="Search..."
- className="w-full px-3 py-2 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full px-3 py-2 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-zinc-600"
  />
  </div>
  )}
@@ -203,8 +203,8 @@ export default function Dropdown({
  onMouseEnter={() => setHighlightedIndex(index)}
  className={cn(
  'px-4 py-3 cursor-pointer transition-colors flex items-center justify-between',
- index === highlightedIndex && 'bg-[#200c00]',
- option.value === value && 'bg-blood-900',
+ index === highlightedIndex && 'bg-[#0d0d0d]',
+ option.value === value && 'bg-zinc-800',
  option.disabled && 'opacity-50 cursor-not-allowed'
  )}
  >
@@ -220,7 +220,7 @@ export default function Dropdown({
  </div>
  </div>
  {option.value === value && (
- <Check className="w-4 h-4 text-blood-500"/>
+ <Check className="w-4 h-4 text-zinc-300"/>
  )}
  </li>
  ))
@@ -285,9 +285,9 @@ export function MultiSelect({
  onClick={() => !disabled && setIsOpen(!isOpen)}
  disabled={disabled}
  className={cn(
- 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[#1c0a00] border text-left transition-colors min-h-[48px]',
- isOpen ? 'border-blood-500' : 'border-[rgba(255, 60, 60,0.18)] hover:border-zinc-600',
- error && 'border-blood-500',
+ 'w-full flex items-center justify-between gap-2 px-4 py-3 bg-[#0a0a0a] border text-left transition-colors min-h-[48px]',
+ isOpen ? 'border-zinc-600' : 'border-[rgba(255,255,255,0.18)] hover:border-zinc-600',
+ error && 'border-zinc-600',
  disabled && 'opacity-50 cursor-not-allowed'
  )}
  >
@@ -296,7 +296,7 @@ export function MultiSelect({
  selectedOptions.map((opt) => (
  <span
  key={opt.value}
- className="inline-flex items-center gap-1 px-2 py-0.5 bg-blood-900 text-blood-300 text-xs"
+ className="inline-flex items-center gap-1 px-2 py-0.5 bg-zinc-800 text-zinc-300 text-xs"
  >
  {opt.label}
  </span>
@@ -317,13 +317,13 @@ export function MultiSelect({
  initial={{ opacity: 0, y: -10 }}
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, y: -10 }}
- className="absolute z-50 w-full mt-1 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] shadow-xl max-h-60 overflow-y-auto"
+ className="absolute z-50 w-full mt-1 bg-[#0a0a0a] border border-[rgba(255,255,255,0.18)] shadow-xl max-h-60 overflow-y-auto"
  >
  {options.map((option) => (
  <label
  key={option.value}
  className={cn(
- 'flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-[#200c00] transition-colors',
+ 'flex items-center gap-3 px-4 py-3 cursor-pointer hover:bg-[#0d0d0d] transition-colors',
  option.disabled && 'opacity-50 cursor-not-allowed'
  )}
  >
@@ -332,7 +332,7 @@ export function MultiSelect({
  checked={values.includes(option.value)}
  onChange={() => toggleOption(option.value)}
  disabled={option.disabled}
- className="w-4 h-4 rounded border-zinc-600 bg-[#200c00] text-blood-500 focus:ring-blood-500 focus:ring-offset-0"
+ className="w-4 h-4 rounded border-zinc-600 bg-[#0d0d0d] text-zinc-300 focus:ring-zinc-600 focus:ring-offset-0"
  />
  <span className="text-white text-sm">{option.label}</span>
  </label>

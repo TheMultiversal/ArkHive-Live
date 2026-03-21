@@ -21,29 +21,29 @@ interface StatCardProps {
 
 const variantStyles = {
  default: {
- card: 'bg-[#1c0a00] border-[rgba(255, 80, 80,0.15)] hover:border-[rgba(255, 60, 60,0.18)]',
+ card: 'bg-[#0a0a0a] border-[rgba(255,255,255,0.15)] hover:border-[rgba(255,255,255,0.18)]',
  value: 'text-white',
  icon: 'text-zinc-400',
  },
  primary: {
- card: 'bg-blood-900 border-blood-800/50 hover:border-blood-700',
- value: 'text-blood-400',
- icon: 'text-blood-500',
+ card: 'bg-zinc-800 border-zinc-700/50 hover:border-zinc-700',
+ value: 'text-zinc-400',
+ icon: 'text-zinc-300',
  },
  danger: {
- card: 'bg-blood-900 border-blood-800/50 hover:border-blood-700',
- value: 'text-blood-400',
- icon: 'text-blood-500',
+ card: 'bg-zinc-800 border-zinc-700/50 hover:border-zinc-700',
+ value: 'text-zinc-400',
+ icon: 'text-zinc-300',
  },
  warning: {
- card: 'bg-zinc-900 border-[rgba(255, 80, 80,0.15)] hover:border-zinc-600/50',
+ card: 'bg-zinc-900 border-[rgba(255,255,255,0.15)] hover:border-zinc-600/50',
  value: 'text-zinc-300',
  icon: 'text-zinc-400',
  },
  success: {
- card: 'bg-blood-900 border-blood-800/50 hover:border-blood-700',
- value: 'text-blood-400',
- icon: 'text-blood-500',
+ card: 'bg-zinc-800 border-zinc-700/50 hover:border-zinc-700',
+ value: 'text-zinc-400',
+ icon: 'text-zinc-300',
  },
 };
 
@@ -97,9 +97,9 @@ export default function StatCard({
  : Minus;
 
  const trendColor = computedTrend === 'up'
- ? 'text-blood-400'
+ ? 'text-zinc-400'
  : computedTrend === 'down'
- ? 'text-blood-400'
+ ? 'text-zinc-400'
  : 'text-zinc-400';
 
  const content = (
@@ -159,7 +159,7 @@ interface SparklineStatCardProps extends StatCardProps {
 
 export function SparklineStatCard({
  data,
- sparklineColor = '#b80000',
+ sparklineColor = '#4a4a4a',
  ...props
 }: SparklineStatCardProps) {
  const max = Math.max(...data);
@@ -246,7 +246,7 @@ export function ComparisonStat({
  return (
  <motion.div
  className={cn(
- 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4',
+ 'bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -267,12 +267,12 @@ export function ComparisonStat({
  </div>
 
  <div className={cn(
- 'mt-3 pt-3 border-t border-[rgba(255, 80, 80,0.15)] flex items-center justify-between',
+ 'mt-3 pt-3 border-t border-[rgba(255,255,255,0.15)] flex items-center justify-between',
  )}>
  <span className="text-sm text-zinc-400">Change</span>
  <span className={cn(
  'flex items-center gap-1 text-sm font-medium',
- isPositive ? 'text-blood-400' : change < 0 ? 'text-blood-400' : 'text-zinc-400'
+ isPositive ? 'text-zinc-400' : change < 0 ? 'text-zinc-400' : 'text-zinc-400'
  )}>
  {isPositive ? <ArrowUp className="w-4 h-4"/> : change < 0 ? <ArrowDown className="w-4 h-4"/> : null}
  {Math.abs(change)} ({isPositive ? '+' : ''}{percentChange}%)
@@ -301,7 +301,7 @@ export function LiveStat({
  return (
  <motion.div
  className={cn(
- 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4',
+ 'bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -311,8 +311,8 @@ export function LiveStat({
  <p className="text-sm text-zinc-400 uppercase tracking-wider">{title}</p>
  {isLive && (
  <div className="flex items-center gap-2">
- <Activity className="w-4 h-4 text-blood-400 animate-pulse"/>
- <span className="text-xs text-blood-400">LIVE</span>
+ <Activity className="w-4 h-4 text-zinc-400 animate-pulse"/>
+ <span className="text-xs text-zinc-400">LIVE</span>
  </div>
  )}
  </div>
@@ -353,16 +353,16 @@ export function PercentageStat({
  className,
 }: PercentageStatProps) {
  const barColors = {
- default: 'bg-blood-500',
- danger: 'bg-blood-500',
+ default: 'bg-zinc-600',
+ danger: 'bg-zinc-600',
  warning: 'bg-zinc-400',
- success: 'bg-blood-500',
+ success: 'bg-zinc-600',
  };
 
  return (
  <motion.div
  className={cn(
- 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4',
+ 'bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-4',
  className
  )}
  initial={{ opacity: 0, y: 10 }}
@@ -374,7 +374,7 @@ export function PercentageStat({
  </div>
  
  {showBar && (
- <div className="h-2 bg-[#200c00] overflow-hidden">
+ <div className="h-2 bg-[#0d0d0d] overflow-hidden">
  <motion.div
  className={cn('h-full', barColors[variant])}
  initial={{ width: 0 }}

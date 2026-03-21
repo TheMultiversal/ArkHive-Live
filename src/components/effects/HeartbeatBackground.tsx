@@ -127,8 +127,8 @@ export default function HeartbeatBackground() {
  <defs>
  <linearGradient id="ecgGrad"x1="0%"y1="0%"x2="100%"y2="0%">
  <stop offset="0%"stopColor="transparent"/>
- <stop offset="5%"stopColor="#8f0000"/>
- <stop offset="95%"stopColor="#8f0000"/>
+ <stop offset="5%"stopColor="#3d3d3d"/>
+ <stop offset="95%"stopColor="#3d3d3d"/>
  <stop offset="100%"stopColor="transparent"/>
  </linearGradient>
  <filter id="glow">
@@ -145,12 +145,12 @@ export default function HeartbeatBackground() {
  </svg>
 
  <div className="absolute top-24 left-4 font-mono text-xs select-none">
- <div className="flex items-center gap-2 text-blood-600/70">
+ <div className="flex items-center gap-2 text-zinc-500/70">
  <motion.span className="text-lg"animate={{ scale: [1, 1.3, 1], opacity: [0.6, 1, 0.6] }} transition={{ duration: 60 / heartRate, repeat: Infinity }}>♥</motion.span>
- <span className="text-blood-500">{Math.round(heartRate)} BPM</span>
+ <span className="text-zinc-300">{Math.round(heartRate)} BPM</span>
  </div>
  {heartRate > 100 && <motion.div className="text-zinc-400 mt-1 text-[10px]"animate={{ opacity: [0.5, 1, 0.5] }} transition={{ duration: 0.5, repeat: Infinity }}>⚠ ELEVATED</motion.div>}
- {heartRate > 140 && <motion.div className="text-blood-600 mt-1 text-[10px]"animate={{ opacity: [0.3, 1, 0.3] }} transition={{ duration: 0.3, repeat: Infinity }}>⚠ DANGER</motion.div>}
+ {heartRate > 140 && <motion.div className="text-zinc-500 mt-1 text-[10px]"animate={{ opacity: [0.3, 1, 0.3] }} transition={{ duration: 0.3, repeat: Infinity }}>⚠ DANGER</motion.div>}
  </div>
 
  <div className="absolute inset-0 pointer-events-none"style={{ background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.7) 100%)' }} />

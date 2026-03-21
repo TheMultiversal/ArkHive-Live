@@ -47,7 +47,7 @@ const mockTags: TagData[] = [
  id: 'tag_1',
  name: 'Government',
  slug: 'government',
- color: '#b80000',
+ color: '#4a4a4a',
  description: 'Items related to government agencies and officials',
  category: 'general',
  usageCount: 456,
@@ -77,7 +77,7 @@ const mockTags: TagData[] = [
  id: 'tag_3',
  name: 'Surveillance',
  slug: 'surveillance',
- color: '#d62a2a',
+ color: '#6b6b6b',
  description: 'Mass surveillance and privacy violations',
  category: 'investigation',
  usageCount: 289,
@@ -152,7 +152,7 @@ const mockTags: TagData[] = [
  id: 'tag_8',
  name: 'Classified',
  slug: 'classified',
- color: '#8f0000',
+ color: '#3d3d3d',
  description: 'Highly sensitive classified materials',
  category: 'document',
  usageCount: 89,
@@ -166,9 +166,9 @@ const mockTags: TagData[] = [
 ];
 
 const categoryColors = {
- investigation: 'bg-blood-600 text-white',
- entity: 'bg-blood-600 text-white',
- document: 'bg-blood-600 text-white',
+ investigation: 'bg-zinc-700 text-white',
+ entity: 'bg-zinc-700 text-white',
+ document: 'bg-zinc-700 text-white',
  general: 'bg-zinc-600 text-white',
 };
 
@@ -194,7 +194,7 @@ function TagCard({ tag }: { tag: TagData }) {
  />
  <h3 className="text-lg font-semibold text-white">{tag.name}</h3>
  {tag.trending && (
- <span className="flex items-center gap-1 px-2 py-0.5 bg-blood-950 text-blood-400 text-xs">
+ <span className="flex items-center gap-1 px-2 py-0.5 bg-zinc-900 text-zinc-400 text-xs">
  <TrendingUp className="w-3 h-3"/>
  Trending
  </span>
@@ -210,12 +210,12 @@ function TagCard({ tag }: { tag: TagData }) {
  </button>
  
  {showMenu && (
- <div className="absolute right-0 top-full mt-1 w-32 glass border border-[rgba(255, 60, 60,0.18)] py-1 z-10">
- <button className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#200c00] flex items-center gap-2">
+ <div className="absolute right-0 top-full mt-1 w-32 glass border border-[rgba(255,255,255,0.18)] py-1 z-10">
+ <button className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#0d0d0d] flex items-center gap-2">
  <Edit2 className="w-3 h-3"/>
  Edit
  </button>
- <button className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[#200c00] flex items-center gap-2">
+ <button className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#0d0d0d] flex items-center gap-2">
  <Trash2 className="w-3 h-3"/>
  Delete
  </button>
@@ -233,9 +233,9 @@ function TagCard({ tag }: { tag: TagData }) {
  </span>
 
  {/* Stats */}
- <div className="grid grid-cols-3 gap-2 sm:gap-4 pt-4 border-t border-[rgba(255, 80, 80,0.15)]">
+ <div className="grid grid-cols-3 gap-2 sm:gap-4 pt-4 border-t border-[rgba(255,255,255,0.15)]">
  <div className="text-center">
- <div className="flex items-center justify-center gap-1 text-blood-400 mb-1">
+ <div className="flex items-center justify-center gap-1 text-zinc-400 mb-1">
  <Target className="w-4 h-4"/>
  </div>
  <p className="text-white font-semibold">{tag.investigations}</p>
@@ -249,7 +249,7 @@ function TagCard({ tag }: { tag: TagData }) {
  <p className="text-zinc-500 text-xs">Entities</p>
  </div>
  <div className="text-center">
- <div className="flex items-center justify-center gap-1 text-blood-400 mb-1">
+ <div className="flex items-center justify-center gap-1 text-zinc-400 mb-1">
  <FileText className="w-4 h-4"/>
  </div>
  <p className="text-white font-semibold">{tag.documents}</p>
@@ -263,7 +263,7 @@ function TagCard({ tag }: { tag: TagData }) {
  <span>Total Usage</span>
  <span>{tag.usageCount}</span>
  </div>
- <div className="h-1 bg-[#200c00] overflow-hidden">
+ <div className="h-1 bg-[#0d0d0d] overflow-hidden">
  <motion.div
  initial={{ width: 0 }}
  animate={{ width: `${Math.min((tag.usageCount / 600) * 100, 100)}%` }}
@@ -301,7 +301,7 @@ function CreateTagModal({
  <input
  type="text"
  placeholder="Enter tag name..."
- className="w-full px-4 py-2 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full px-4 py-2 bg-[#0a0a0a] border border-[rgba(255,255,255,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-zinc-600"
  />
  </div>
 
@@ -310,13 +310,13 @@ function CreateTagModal({
  <textarea
  placeholder="Describe what this tag is for..."
  rows={3}
- className="w-full px-4 py-2 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
+ className="w-full px-4 py-2 bg-[#0a0a0a] border border-[rgba(255,255,255,0.18)] text-white placeholder:text-zinc-500 focus:outline-none focus:border-zinc-600 resize-none"
  />
  </div>
 
  <div>
  <label className="block text-zinc-400 text-sm mb-2">Category</label>
- <select className="w-full px-4 py-2 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] text-white focus:outline-none focus:border-blood-500">
+ <select className="w-full px-4 py-2 bg-[#0a0a0a] border border-[rgba(255,255,255,0.18)] text-white focus:outline-none focus:border-zinc-600">
  <option value="general">General</option>
  <option value="investigation">Investigation</option>
  <option value="entity">Entity</option>
@@ -327,7 +327,7 @@ function CreateTagModal({
  <div>
  <label className="block text-zinc-400 text-sm mb-2">Color</label>
  <div className="flex gap-2">
- {['#d62a2a', '#71717a', '#10b981', '#b80000', '#8b5cf6', '#ec4899'].map((color) => (
+ {['#6b6b6b', '#71717a', '#10b981', '#4a4a4a', '#8b5cf6', '#ec4899'].map((color) => (
  <button
  key={color}
  className="w-8 h-8 border-2 border-transparent hover:border-white transition-colors"
@@ -345,7 +345,7 @@ function CreateTagModal({
  >
  Cancel
  </button>
- <button className="px-6 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors">
+ <button className="px-6 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors">
  Create Tag
  </button>
  </div>
@@ -393,7 +393,7 @@ export default function TagsPage() {
 
  <button
  onClick={() => setShowCreateModal(true)}
- className="flex items-center gap-2 px-6 py-3 bg-blood-600 text-white hover:bg-blood-500 transition-colors"
+ className="flex items-center gap-2 px-6 py-3 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors"
  >
  <Plus className="w-5 h-5"/>
  Create Tag
@@ -404,12 +404,12 @@ export default function TagsPage() {
  <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
  {[
  { label: 'Total Tags', value: mockTags.length, icon: <Tag className="w-5 h-5"/> },
- { label: 'Trending', value: mockTags.filter(t => t.trending).length, icon: <TrendingUp className="w-5 h-5 text-blood-500"/> },
- { label: 'Total Usage', value: mockTags.reduce((acc, t) => acc + t.usageCount, 0).toLocaleString(), icon: <Hash className="w-5 h-5 text-blood-500"/> },
- { label: 'Categories', value: 4, icon: <Filter className="w-5 h-5 text-blood-500"/> },
+ { label: 'Trending', value: mockTags.filter(t => t.trending).length, icon: <TrendingUp className="w-5 h-5 text-zinc-300"/> },
+ { label: 'Total Usage', value: mockTags.reduce((acc, t) => acc + t.usageCount, 0).toLocaleString(), icon: <Hash className="w-5 h-5 text-zinc-300"/> },
+ { label: 'Categories', value: 4, icon: <Filter className="w-5 h-5 text-zinc-300"/> },
  ].map((stat, i) => (
  <div key={i} className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[#200c00]">
+ <div className="p-2 bg-[#0d0d0d]">
  {stat.icon}
  </div>
  <div>
@@ -429,7 +429,7 @@ export default function TagsPage() {
  placeholder="Search tags..."
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
- className="w-full pl-12 pr-4 py-3 glass text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full pl-12 pr-4 py-3 glass text-white placeholder:text-zinc-500 focus:outline-none focus:border-zinc-600"
  />
  </div>
 
@@ -440,7 +440,7 @@ export default function TagsPage() {
  onClick={() => setSelectedCategory(category)}
  className={`px-4 py-2 text-sm font-medium capitalize transition-colors ${
  selectedCategory === category
- ? 'bg-blood-600 text-white'
+ ? 'bg-zinc-700 text-white'
  : 'text-zinc-400 hover:text-white'
  }`}
  >
@@ -453,7 +453,7 @@ export default function TagsPage() {
  {/* Trending Tags */}
  <div className="mb-8">
  <h2 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
- <TrendingUp className="w-5 h-5 text-blood-500"/>
+ <TrendingUp className="w-5 h-5 text-zinc-300"/>
  Trending Tags
  </h2>
  <div className="flex flex-wrap gap-3">
@@ -461,7 +461,7 @@ export default function TagsPage() {
  <motion.button
  key={tag.id}
  whileHover={{ scale: 1.05 }}
- className="flex items-center gap-2 px-4 py-2 glass hover:border-blood-500 transition-colors"
+ className="flex items-center gap-2 px-4 py-2 glass hover:border-zinc-600 transition-colors"
  >
  <div className="w-3 h-3"style={{ backgroundColor: tag.color }} />
  <span className="text-white">{tag.name}</span>

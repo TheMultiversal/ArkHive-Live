@@ -88,7 +88,7 @@ export const InfiniteScroll = forwardRef<HTMLDivElement, InfiniteScrollProps>(
 
  const defaultLoader = (
  <div className="flex items-center justify-center py-4">
- <Loader2 className="w-6 h-6 animate-spin text-blood-500"/>
+ <Loader2 className="w-6 h-6 animate-spin text-zinc-300"/>
  <span className="ml-2 text-zinc-500">Loading more...</span>
  </div>
  );

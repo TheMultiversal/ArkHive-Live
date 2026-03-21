@@ -192,10 +192,10 @@ const investigationData = {
 };
 
 const severityColors = {
- critical: 'bg-blood-900 text-blood-400 border-blood-800',
- high: 'bg-blood-950 text-blood-600 border-blood-800',
+ critical: 'bg-zinc-800 text-zinc-400 border-zinc-800',
+ high: 'bg-zinc-900 text-zinc-500 border-zinc-800',
  medium: 'bg-zinc-900 text-zinc-300 border-zinc-700',
- low: 'bg-blood-900 text-blood-400 border-blood-800',
+ low: 'bg-zinc-800 text-zinc-400 border-zinc-800',
 };
 
 export default function TrumpUniversityPage() {
@@ -204,21 +204,21 @@ export default function TrumpUniversityPage() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(255, 80, 80,0.15)]">
+ <div className="border-b border-[rgba(255,255,255,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
  <ChevronRight className="w-4 h-4"/>
  <Link href="/investigations"className="hover:text-white transition-colors">Investigations</Link>
  <ChevronRight className="w-4 h-4"/>
- <span className="text-blood-500">Trump University</span>
+ <span className="text-zinc-300">Trump University</span>
  </nav>
 
  <div className="flex items-center gap-4 mb-4">
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-[#200c00] text-zinc-300 border border-[rgba(255, 60, 60,0.18)]">
+ <span className="px-3 py-1 text-xs font-medium bg-[#0d0d0d] text-zinc-300 border border-[rgba(255,255,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -245,24 +245,24 @@ export default function TrumpUniversityPage() {
  className="mb-12"
  >
  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <DollarSign className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.fraudStats.settlementAmount}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <DollarSign className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.fraudStats.settlementAmount}</p>
  <p className="text-xs text-zinc-400">Settlement</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <Users className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.fraudStats.victimCount}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <Users className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.fraudStats.victimCount}</p>
  <p className="text-xs text-zinc-400">Victims</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-800">
- <GraduationCap className="w-6 h-6 text-blood-700 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-700">{investigationData.fraudStats.maxTuition}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-800">
+ <GraduationCap className="w-6 h-6 text-zinc-600 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-600">{investigationData.fraudStats.maxTuition}</p>
  <p className="text-xs text-zinc-400">Max Charged</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-800">
- <Calendar className="w-6 h-6 text-blood-700 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-700">{investigationData.fraudStats.yearsOperating}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-800">
+ <Calendar className="w-6 h-6 text-zinc-600 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-600">{investigationData.fraudStats.yearsOperating}</p>
  <p className="text-xs text-zinc-400">Years Operating</p>
  </div>
  <div className="glass-card p-4 text-center border-l-4 border-zinc-500">
@@ -281,7 +281,7 @@ export default function TrumpUniversityPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <FileText className="w-5 h-5 text-blood-500"/>
+ <FileText className="w-5 h-5 text-zinc-300"/>
  Executive Summary
  </h2>
  <p className="text-zinc-300 leading-relaxed">{investigationData.summary}</p>
@@ -295,7 +295,7 @@ export default function TrumpUniversityPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Users className="w-5 h-5 text-blood-500"/>
+ <Users className="w-5 h-5 text-zinc-300"/>
  Key Figures
  </h2>
  <div className="space-y-3">
@@ -303,10 +303,10 @@ export default function TrumpUniversityPage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-600/50 transition-all"
  >
  <div>
- <span className="font-medium text-blood-400">{figure.name}</span>
+ <span className="font-medium text-zinc-400">{figure.name}</span>
  <p className="text-sm text-zinc-500">{figure.role}</p>
  </div>
  <ExternalLink className="w-4 h-4 text-zinc-600"/>
@@ -323,17 +323,17 @@ export default function TrumpUniversityPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <AlertTriangle className="w-5 h-5 text-blood-500"/>
+ <AlertTriangle className="w-5 h-5 text-zinc-300"/>
  Documented Fraud Tactics
  </h2>
  <div className="space-y-4">
  {investigationData.fraudTactics.map((item) => (
- <div key={item.tactic} className="border border-[rgba(255, 80, 80,0.15)]">
+ <div key={item.tactic} className="border border-[rgba(255,255,255,0.15)]">
  <button
  onClick={() => setExpandedTactic(expandedTactic === item.tactic ? null : item.tactic)}
- className="w-full flex items-center justify-between p-4 hover:bg-[#1c0a00] transition-colors"
+ className="w-full flex items-center justify-between p-4 hover:bg-[#0a0a0a] transition-colors"
  >
- <span className="font-bold text-blood-400">{item.tactic}</span>
+ <span className="font-bold text-zinc-400">{item.tactic}</span>
  <ChevronRight className={`w-5 h-5 transition-transform ${expandedTactic === item.tactic ? 'rotate-90' : ''}`} />
  </button>
  {expandedTactic === item.tactic && (
@@ -341,7 +341,7 @@ export default function TrumpUniversityPage() {
  <ul className="space-y-2">
  {item.details.map((detail, i) => (
  <li key={i} className="flex items-start gap-2 text-sm text-zinc-300">
- <span className="text-blood-500 mt-1">•</span>
+ <span className="text-zinc-300 mt-1">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
  {detail}
  </li>
  ))}
@@ -361,13 +361,13 @@ export default function TrumpUniversityPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Scale className="w-5 h-5 text-blood-500"/>
+ <Scale className="w-5 h-5 text-zinc-300"/>
  Legal Cases
  </h2>
  <div className="space-y-4">
  {investigationData.lawsuits.map((lawsuit, index) => (
- <div key={index} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
- <h3 className="font-bold text-blood-400 mb-2">{lawsuit.case}</h3>
+ <div key={index} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
+ <h3 className="font-bold text-zinc-400 mb-2">{lawsuit.case}</h3>
  <div className="grid grid-cols-2 gap-2 text-sm">
  <div>
  <span className="text-zinc-500">Court:</span>
@@ -383,7 +383,7 @@ export default function TrumpUniversityPage() {
  </div>
  <div>
  <span className="text-zinc-500">Outcome:</span>
- <span className="text-blood-400 ml-2 font-medium">{lawsuit.outcome}</span>
+ <span className="text-zinc-400 ml-2 font-medium">{lawsuit.outcome}</span>
  </div>
  </div>
  </div>
@@ -401,8 +401,8 @@ export default function TrumpUniversityPage() {
  <h2 className="text-xl font-bold mb-4">Internal Documents Revealed</h2>
  <div className="space-y-3">
  {investigationData.internalDocuments.map((doc, index) => (
- <div key={index} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
- <span className="font-medium text-blood-400">{doc.document}</span>
+ <div key={index} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
+ <span className="font-medium text-zinc-400">{doc.document}</span>
  <p className="text-sm text-zinc-400 mt-1">{doc.revelation}</p>
  </div>
  ))}
@@ -414,14 +414,14 @@ export default function TrumpUniversityPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.35 }}
- className="glass-card p-6 mb-8 border-l-4 border-blood-600"
+ className="glass-card p-6 mb-8 border-l-4 border-zinc-700"
  >
  <h2 className="text-xl font-bold mb-4">Trump Deposition Highlights</h2>
  <p className="text-zinc-400 text-sm mb-4">Under oath, Trump admitted:</p>
  <ul className="space-y-2">
  {investigationData.trumpDepositionHighlights.map((highlight, i) => (
  <li key={i} className="flex items-start gap-2 text-sm text-zinc-300">
- <span className="text-blood-500">•</span>
+ <span className="text-zinc-300">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
  {highlight}
  </li>
  ))}
@@ -438,7 +438,7 @@ export default function TrumpUniversityPage() {
  <h2 className="text-xl font-bold mb-4">Victim Testimonies</h2>
  <div className="space-y-4">
  {investigationData.victimTestimonies.map((testimony, index) => (
- <blockquote key={index} className="border-l-2 border-blood-600 pl-4">
+ <blockquote key={index} className="border-l-2 border-zinc-700 pl-4">
  <p className="text-zinc-300 italic">&quot;{testimony.statement}&quot;</p>
  <footer className="text-sm text-zinc-500 mt-2">| {testimony.victim}</footer>
  </blockquote>
@@ -454,14 +454,14 @@ export default function TrumpUniversityPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Calendar className="w-5 h-5 text-blood-500"/>
+ <Calendar className="w-5 h-5 text-zinc-300"/>
  Timeline
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
- <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
- <p className="text-xs text-blood-500 font-mono">{item.date}</p>
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(255,255,255,0.15)]">
+ <div className="absolute -left-[5px] top-0 w-2 h-2 bg-zinc-600"/>
+ <p className="text-xs text-zinc-300 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
  </div>
  ))}
@@ -469,19 +469,19 @@ export default function TrumpUniversityPage() {
  </motion.section>
 
  
- <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-zinc-300"/>The Cover-Up</h2>
+ <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900 border border-zinc-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-zinc-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Applicable Charges &amp; Statutes</h2>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold text-zinc-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-zinc-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -498,7 +498,7 @@ export default function TrumpUniversityPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] transition-colors"
+ className="flex items-center justify-between p-3 bg-[#0a0a0a] hover:bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

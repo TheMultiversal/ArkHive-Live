@@ -25,11 +25,11 @@ export default function ContributorGate({ children, action = 'perform this actio
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-8 mt-8"
+ className="border-2 border-zinc-800/60 bg-[rgba(0,6,20,0.90)] p-8 mt-8"
  >
  <div className="flex items-center gap-3 mb-6">
- <div className="w-12 h-12 border-2 border-blood-700 flex items-center justify-center">
- <Lock className="w-6 h-6 text-blood-500"/>
+ <div className="w-12 h-12 border-2 border-zinc-700 flex items-center justify-center">
+ <Lock className="w-6 h-6 text-zinc-300"/>
  </div>
  <div>
  <h1 className="text-xl font-black glass-text uppercase tracking-wider">Contributor Access Required</h1>
@@ -46,7 +46,7 @@ export default function ContributorGate({ children, action = 'perform this actio
  <div className="flex flex-col gap-3">
  <Link
  href="/contributor"
- className="w-full px-4 py-3 bg-blood-700 hover:bg-blood-600 glass-text font-bold uppercase tracking-wider text-center transition-colors text-sm flex items-center justify-center gap-2"
+ className="w-full px-4 py-3 bg-zinc-700 hover:bg-zinc-700 glass-text font-bold uppercase tracking-wider text-center transition-colors text-sm flex items-center justify-center gap-2"
  >
  <UserPlus className="w-4 h-4"/>
  {currentUser ? 'Verify Email' : 'Sign In / Create Account'}
@@ -54,8 +54,8 @@ export default function ContributorGate({ children, action = 'perform this actio
  </div>
 
  {/* Zero Data Promise */}
- <div className="mt-6 pt-4 border-t border-[rgba(255, 80, 80,0.15)] flex items-start gap-2">
- <Shield className="w-4 h-4 text-blood-500 flex-shrink-0 mt-0.5"/>
+ <div className="mt-6 pt-4 border-t border-[rgba(255,255,255,0.15)] flex items-start gap-2">
+ <Shield className="w-4 h-4 text-zinc-300 flex-shrink-0 mt-0.5"/>
  <p className="text-xs text-zinc-500 leading-relaxed">
  ArkHive collects zero personal data. Your account is stored only in your browser&apos;s local storage. No data is ever sent to our servers.
  </p>

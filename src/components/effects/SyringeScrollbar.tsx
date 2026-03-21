@@ -59,18 +59,18 @@ export default function DNAScrollbar() {
  >
  <defs>
  <linearGradient id="dnaStrand1"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#d62a2a"/>
- <stop offset="50%"stopColor="#8f0000"/>
+ <stop offset="0%"stopColor="#6b6b6b"/>
+ <stop offset="50%"stopColor="#3d3d3d"/>
  <stop offset="100%"stopColor="#330000"/>
  </linearGradient>
  <linearGradient id="dnaStrand2"x1="0%"y1="0%"x2="0%"y2="100%">
  <stop offset="0%"stopColor="#330000"/>
- <stop offset="50%"stopColor="#4d0000"/>
+ <stop offset="50%"stopColor="#2a2a2a"/>
  <stop offset="100%"stopColor="#000a1f"/>
  </linearGradient>
  <filter id="dnaGlow">
  <feGaussianBlur stdDeviation="2"result="blur"/>
- <feFlood floodColor="#8f0000"floodOpacity="0.6"/>
+ <feFlood floodColor="#3d3d3d"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -100,7 +100,7 @@ export default function DNAScrollbar() {
  y1={y}
  x2={x2}
  y2={y}
- stroke={i % 2 === 0 ? '#d62a2a' : '#e85454'}
+ stroke={i % 2 === 0 ? '#6b6b6b' : '#e85454'}
  strokeWidth="2"
  opacity={0.6}
  strokeLinecap="round"
@@ -138,7 +138,7 @@ export default function DNAScrollbar() {
  
  return (
  <g key={i}>
- <circle cx={x1} cy={y} r="3"fill="#d62a2a"opacity={0.8 + Math.sin(angle) * 0.2} />
+ <circle cx={x1} cy={y} r="3"fill="#6b6b6b"opacity={0.8 + Math.sin(angle) * 0.2} />
  <circle cx={x2} cy={y} r="3"fill="#330000"opacity={0.8 - Math.sin(angle) * 0.2} />
  </g>
  );
@@ -166,20 +166,20 @@ export default function DNAScrollbar() {
  />
 
  {/* Top cap */}
- <circle cx="20"cy="15"r="6"fill="#1a1a1a"stroke="#8f0000"strokeWidth="1"/>
- <text x="20"y="18"textAnchor="middle"fill="#8f0000"fontSize="6"fontFamily="monospace">DNA</text>
+ <circle cx="20"cy="15"r="6"fill="#1a1a1a"stroke="#3d3d3d"strokeWidth="1"/>
+ <text x="20"y="18"textAnchor="middle"fill="#3d3d3d"fontSize="6"fontFamily="monospace">DNA</text>
 
  {/* Bottom cap */}
- <circle cx="20"cy="285"r="6"fill="#1a1a1a"stroke="#8f0000"strokeWidth="1"/>
+ <circle cx="20"cy="285"r="6"fill="#1a1a1a"stroke="#3d3d3d"strokeWidth="1"/>
  
  {/* Percentage display */}
- <text x="20"y="298"textAnchor="middle"fill="#8f0000"fontSize="8"fontFamily="monospace"opacity="0.8">
+ <text x="20"y="298"textAnchor="middle"fill="#3d3d3d"fontSize="8"fontFamily="monospace"opacity="0.8">
  {scrollPercent}%
  </text>
  </motion.svg>
 
  {/* Side label */}
- <div className="absolute -left-12 top-1/2 transform -translate-y-1/2 -rotate-90 font-mono text-[10px] text-blood-600/50 whitespace-nowrap">
+ <div className="absolute -left-12 top-1/2 transform -translate-y-1/2 -rotate-90 font-mono text-[10px] text-zinc-500/50 whitespace-nowrap">
  GENETIC CORRUPTION
  </div>
  </div>

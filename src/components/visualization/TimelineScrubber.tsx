@@ -199,11 +199,11 @@ export default function TimelineScrubber({
   }
   
   return (
-    <div className={`bg-zinc-950 border border-blood-900/30 ${className}`}>
+    <div className={`bg-zinc-950 border border-zinc-800/30 ${className}`}>
       {/* Header */}
-      <div className="border-b border-blood-900/30 px-4 py-3 flex items-center justify-between">
+      <div className="border-b border-zinc-800/30 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Calendar className="w-4 h-4 text-blood-500" />
+          <Calendar className="w-4 h-4 text-zinc-300" />
           <h3 className="text-sm font-bold text-white uppercase tracking-wider">{title}</h3>
         </div>
         
@@ -211,35 +211,35 @@ export default function TimelineScrubber({
         <div className="flex items-center gap-1">
           <button
             onClick={() => setIsPlaying(!isPlaying)}
-            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-blood-600 transition-colors"
+            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-700 transition-colors"
             title={isPlaying ? "Pause" : "Play"}
           >
             {isPlaying ? <Pause className="w-3 h-3" /> : <Play className="w-3 h-3" />}
           </button>
           <button
             onClick={handlePanLeft}
-            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-blood-600 transition-colors"
+            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-700 transition-colors"
             title="Pan Left"
           >
             <ChevronLeft className="w-3 h-3" />
           </button>
           <button
             onClick={handlePanRight}
-            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-blood-600 transition-colors"
+            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-700 transition-colors"
             title="Pan Right"
           >
             <ChevronRight className="w-3 h-3" />
           </button>
           <button
             onClick={handleZoomIn}
-            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-blood-600 transition-colors"
+            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-700 transition-colors"
             title="Zoom In"
           >
             <ZoomIn className="w-3 h-3" />
           </button>
           <button
             onClick={handleZoomOut}
-            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-blood-600 transition-colors"
+            className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-700 transition-colors"
             title="Zoom Out"
           >
             <ZoomOut className="w-3 h-3" />
@@ -262,7 +262,7 @@ export default function TimelineScrubber({
         >
           {/* Selection range */}
           <div
-            className="absolute top-0 bottom-0 bg-blood-900/30 border-x border-blood-600"
+            className="absolute top-0 bottom-0 bg-zinc-800/30 border-x border-zinc-700"
             style={{
               left: `${rangeStart}%`,
               width: `${rangeEnd - rangeStart}%`,

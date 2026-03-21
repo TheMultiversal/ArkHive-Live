@@ -36,10 +36,10 @@ interface OrganizationProfile {
 }
 
 const riskColors = {
- critical: { bg: 'bg-blood-950', border: 'border-blood-500', text: 'text-blood-500' },
- high: { bg: 'bg-blood-950', border: 'border-blood-700', text: 'text-blood-700' },
+ critical: { bg: 'bg-zinc-900', border: 'border-zinc-600', text: 'text-zinc-300' },
+ high: { bg: 'bg-zinc-900', border: 'border-zinc-700', text: 'text-zinc-600' },
  medium: { bg: 'bg-zinc-900', border: 'border-zinc-400', text: 'text-zinc-400' },
- low: { bg: 'bg-blood-950', border: 'border-blood-500', text: 'text-blood-500' },
+ low: { bg: 'bg-zinc-900', border: 'border-zinc-600', text: 'text-zinc-300' },
 };
 
 interface OrganizationProfileViewProps {
@@ -55,7 +55,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  {/* Back Link */}
  <Link
  href="/entities/organizations"
- className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-8"
+ className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-8"
  >
  <ArrowLeft className="w-4 h-4"/>
  Back to Organizations
@@ -68,8 +68,8 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  className="mb-8"
  >
  <div className="flex items-start gap-6">
- <div className="w-20 h-20 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] flex items-center justify-center">
- <Network className="w-10 h-10 text-blood-500"/>
+ <div className="w-20 h-20 bg-[#0a0a0a] border border-[rgba(255,255,255,0.18)] flex items-center justify-center">
+ <Network className="w-10 h-10 text-zinc-300"/>
  </div>
  <div className="flex-1">
  <div className="flex items-center gap-4 mb-2">
@@ -97,12 +97,12 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  className="glass-card p-6"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <FileText className="w-5 h-5 text-blood-500"/>
+ <FileText className="w-5 h-5 text-zinc-300"/>
  Overview
  </h2>
  <p className="text-zinc-300 leading-relaxed">{org.description}</p>
  {org.mission && (
- <div className="mt-4 p-4 bg-[#1c0a00] border-l-2 border-blood-500">
+ <div className="mt-4 p-4 bg-[#0a0a0a] border-l-2 border-zinc-600">
  <p className="text-sm text-zinc-400">
  <strong className="text-zinc-300">Stated Mission:</strong> {org.mission}
  </p>
@@ -119,13 +119,13 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  className="glass-card p-6"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <AlertTriangle className="w-5 h-5 text-blood-500"/>
+ <AlertTriangle className="w-5 h-5 text-zinc-300"/>
  Controversies & Crimes
  </h2>
  <ul className="space-y-3">
  {org.controversies.map((controversy, index) => (
  <li key={index} className="flex gap-3">
- <span className="text-blood-500 mt-1">▸</span>
+ <span className="text-zinc-300 mt-1">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸</span>
  <span className="text-zinc-300">{controversy}</span>
  </li>
  ))}
@@ -139,21 +139,21 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.25 }}
- className="glass-card p-6 border-blood-500"
+ className="glass-card p-6 border-zinc-600"
  >
- <h2 className="text-xl font-bold mb-4 flex items-center gap-2 text-blood-500">
+ <h2 className="text-xl font-bold mb-4 flex items-center gap-2 text-zinc-300">
  <Scale className="w-5 h-5"/>
  Criminal Charges & Legal Violations
  </h2>
  <div className="space-y-4">
  {org.charges.map((charge, index) => (
- <div key={index} className="p-4 bg-blood-950 border border-blood-800">
+ <div key={index} className="p-4 bg-zinc-900 border border-zinc-800">
  <div className="flex items-center gap-2 mb-2">
- <span className="text-xs px-2 py-1 bg-blood-950 text-blood-400 border border-blood-500/50">
+ <span className="text-xs px-2 py-1 bg-zinc-900 text-zinc-400 border border-zinc-600/50">
  {charge.category}
  </span>
  </div>
- <p className="font-mono text-sm text-blood-400 mb-1">{charge.statute}</p>
+ <p className="font-mono text-sm text-zinc-400 mb-1">{charge.statute}</p>
  <p className="text-zinc-300 text-sm">{charge.description}</p>
  </div>
  ))}
@@ -170,14 +170,14 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  className="glass-card p-6"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Users className="w-5 h-5 text-blood-500"/>
+ <Users className="w-5 h-5 text-zinc-300"/>
  Key Figures
  </h2>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
  {org.keyFigures.map((figure, index) => (
- <div key={index} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div key={index} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  {figure.href ? (
- <Link href={figure.href} className="hover:text-blood-500 transition-colors">
+ <Link href={figure.href} className="hover:text-white transition-colors">
  <p className="font-semibold">{figure.name}</p>
  </Link>
  ) : (
@@ -199,13 +199,13 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  className="glass-card p-6"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Calendar className="w-5 h-5 text-blood-500"/>
+ <Calendar className="w-5 h-5 text-zinc-300"/>
  Timeline
  </h2>
  <div className="space-y-4">
  {org.timeline.map((item, index) => (
  <div key={index} className="flex gap-4">
- <span className="text-blood-500 font-mono text-sm min-w-[100px]">
+ <span className="text-zinc-300 font-mono text-sm min-w-[100px]">
  {item.date}
  </span>
  <span className="text-zinc-300">{item.event}</span>
@@ -225,7 +225,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  transition={{ delay: 0.2 }}
  className="glass-card p-6"
  >
- <h3 className="font-bold mb-4 text-blood-500">Quick Facts</h3>
+ <h3 className="font-bold mb-4 text-zinc-300">Quick Facts</h3>
  <div className="space-y-3 text-sm">
  <div>
  <span className="text-zinc-500">Founded:</span>
@@ -255,7 +255,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  href={org.website}
  target="_blank"
  rel="noopener noreferrer"
- className="text-blood-500 hover:underline flex items-center gap-1"
+ className="text-zinc-300 hover:underline flex items-center gap-1"
  >
  <Globe className="w-4 h-4"/>
  Official Website
@@ -274,18 +274,18 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  transition={{ delay: 0.3 }}
  className="glass-card p-6"
  >
- <h3 className="font-bold mb-4 text-blood-500">Related Investigations</h3>
+ <h3 className="font-bold mb-4 text-zinc-300">Related Investigations</h3>
  <div className="space-y-2">
  {org.relatedInvestigations.map((inv, index) => (
  <Link
  key={index}
  href={`/investigations/${inv.slug}`}
- className="block p-3 bg-[#1c0a00] hover:bg-[#200c00] transition-colors"
+ className="block p-3 bg-[#0a0a0a] hover:bg-[#0d0d0d] transition-colors"
  >
  <p className="text-sm font-medium">{inv.title}</p>
  <span className={`text-xs ${
- inv.severity === 'critical' ? 'text-blood-500' :
- inv.severity === 'high' ? 'text-blood-700' :
+ inv.severity === 'critical' ? 'text-zinc-300' :
+ inv.severity === 'high' ? 'text-zinc-600' :
  'text-zinc-400'
  }`}>
  {inv.severity.toUpperCase()}
@@ -304,12 +304,12 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  transition={{ delay: 0.4 }}
  className="glass-card p-6"
  >
- <h3 className="font-bold mb-4 text-blood-500">Affiliated Organizations</h3>
+ <h3 className="font-bold mb-4 text-zinc-300">Affiliated Organizations</h3>
  <div className="space-y-2">
  {org.affiliatedOrganizations.map((aff, index) => (
- <div key={index} className="p-3 bg-[#1c0a00]">
+ <div key={index} className="p-3 bg-[#0a0a0a]">
  {aff.href ? (
- <Link href={aff.href} className="hover:text-blood-500 transition-colors">
+ <Link href={aff.href} className="hover:text-white transition-colors">
  <p className="text-sm font-medium">{aff.name}</p>
  </Link>
  ) : (
@@ -330,7 +330,7 @@ export default function OrganizationProfileView({ organization: org }: Organizat
  transition={{ delay: 0.5 }}
  className="glass-card p-6"
  >
- <h3 className="font-bold mb-4 text-blood-500">Sources</h3>
+ <h3 className="font-bold mb-4 text-zinc-300">Sources</h3>
  <div className="space-y-2 text-sm">
  {org.sources.map((source, index) => (
  <div key={index} className="text-zinc-400">

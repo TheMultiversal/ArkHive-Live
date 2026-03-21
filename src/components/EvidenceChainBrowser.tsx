@@ -143,7 +143,7 @@ function EvidenceChainCard({ chain, isExpanded, onToggle }: EvidenceChainCardPro
     <div className={`glass-card border ${confConfig.border}`}>
       <button
         onClick={onToggle}
-        className="w-full p-4 flex items-start gap-4 text-left hover:bg-blood-900/10 transition-colors"
+        className="w-full p-4 flex items-start gap-4 text-left hover:bg-zinc-800/10 transition-colors"
       >
         <div className={`shrink-0 w-10 h-10 ${confConfig.bg} ${confConfig.border} border flex items-center justify-center`}>
           {chain.confidence === 'verified' ? (
@@ -180,7 +180,7 @@ function EvidenceChainCard({ chain, isExpanded, onToggle }: EvidenceChainCardPro
       </button>
       
       {isExpanded && (
-        <div className="border-t border-blood-900/30 bg-black/30 p-4 space-y-4">
+        <div className="border-t border-zinc-800/30 bg-black/30 p-4 space-y-4">
           {/* Claim Display */}
           <div className="bg-zinc-900/50 p-3">
             <div className="text-xs text-zinc-500 mb-1">CLAIM</div>
@@ -208,7 +208,7 @@ function EvidenceChainCard({ chain, isExpanded, onToggle }: EvidenceChainCardPro
                         href={item.source.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm text-zinc-300 hover:text-blood-400 flex items-center gap-1"
+                        className="text-sm text-zinc-300 hover:text-white flex items-center gap-1"
                       >
                         {item.source.title}
                         <ExternalLink className="w-3 h-3 shrink-0" />
@@ -238,9 +238,9 @@ function EvidenceChainCard({ chain, isExpanded, onToggle }: EvidenceChainCardPro
           {chain.evidence[0] && (
             <Link
               href={`/investigations/${chain.evidence[0].investigationSlug}`}
-              className="inline-flex items-center gap-2 text-sm text-blood-400 hover:text-blood-300"
+              className="inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-white"
             >
-              View Full Investigation →
+              View Full Investigation ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢
             </Link>
           )}
         </div>
@@ -343,11 +343,11 @@ export default function EvidenceChainBrowser({ investigationSlug, compact = fals
       <div className="flex flex-col md:flex-row md:items-center gap-4">
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
-            <Link2 className="w-6 h-6 text-blood-500" />
+            <Link2 className="w-6 h-6 text-zinc-300" />
             Evidence Chain Browser
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {stats.total} documented claims • {stats.verified + stats.corroborated} corroborated
+            {stats.total} documented claims ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ {stats.verified + stats.corroborated} corroborated
           </p>
         </div>
       </div>
@@ -382,7 +382,7 @@ export default function EvidenceChainBrowser({ investigationSlug, compact = fals
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search claims..."
-            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
           />
           {searchQuery && (
             <button
@@ -405,7 +405,7 @@ export default function EvidenceChainBrowser({ investigationSlug, compact = fals
                 onClick={() => setConfidenceFilter(conf as typeof confidenceFilter)}
                 className={`px-3 py-2 text-xs capitalize transition-colors ${
                   isSelected
-                    ? config ? `${config.bg} ${config.color} border ${config.border}` : 'bg-blood-500/20 text-blood-400 border border-blood-500'
+                    ? config ? `${config.bg} ${config.color} border ${config.border}` : 'bg-zinc-500/20 text-zinc-400 border border-zinc-600'
                     : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-zinc-700'
                 }`}
               >
@@ -447,8 +447,8 @@ export function EvidenceVerificationWidget() {
   const corroborated = chains.filter(c => c.confidence === 'corroborated').length;
   
   return (
-    <div className="glass-card border border-blood-900/30 p-4">
-      <h3 className="text-sm font-semibold text-blood-400 mb-3 flex items-center gap-2">
+    <div className="glass-card border border-zinc-800/30 p-4">
+      <h3 className="text-sm font-semibold text-zinc-400 mb-3 flex items-center gap-2">
         <Link2 className="w-4 h-4" />
         Evidence Verification
       </h3>

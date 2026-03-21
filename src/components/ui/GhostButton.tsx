@@ -31,9 +31,9 @@ export default function GhostButton({
 
  const variantStyles = {
  primary: `
- border-blood-700 text-blood-500
- hover:bg-blood-700 hover:text-white hover:border-blood-600
- active:bg-blood-800
+ border-zinc-700 text-zinc-300
+ hover:bg-zinc-700 hover:text-white hover:border-zinc-700
+ active:bg-zinc-800
  `,
  secondary: `
  border-gray-600 text-gray-400

@@ -53,8 +53,8 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="group relative flex items-center gap-4 bg-[#0a0a0a] border border-white/[0.06] hover:border-white/[0.12] transition-all duration-200 cursor-pointer overflow-hidden p-4">
  {/* Priority accent */}
  <div className={`absolute left-0 top-0 bottom-0 w-[2px] ${
- workspace.priority === 'critical' ? 'bg-blood-500' :
- workspace.priority === 'high' ? 'bg-blood-900' :
+ workspace.priority === 'critical' ? 'bg-zinc-600' :
+ workspace.priority === 'high' ? 'bg-zinc-800' :
  'bg-white/[0.08]'
  }`} />
 
@@ -62,7 +62,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="flex-1 min-w-0 pl-2">
  <div className="flex items-center gap-2 mb-1">
  {workspace.priority === 'critical' && (
- <Flame className="w-3 h-3 text-blood-500"/>
+ <Flame className="w-3 h-3 text-zinc-300"/>
  )}
  <h3 className="text-sm font-medium text-white/80 group-hover:text-white transition-colors truncate">
  {workspace.name}
@@ -95,7 +95,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="hidden md:flex items-center gap-2 flex-shrink-0">
  <div className="w-16 h-1 bg-white/[0.04] overflow-hidden">
  <div 
- className="h-full bg-blood-500/80"
+ className="h-full bg-zinc-600/80"
  style={{ width: `${progressPercent}%` }}
  />
  </div>
@@ -107,7 +107,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="flex items-center gap-3 flex-shrink-0">
  {onlineMembers > 0 && (
  <div className="flex items-center gap-1">
- <span className="w-1.5 h-1.5 bg-blood-500/80"/>
+ <span className="w-1.5 h-1.5 bg-zinc-600/80"/>
  <span className="text-[10px] text-white/25">{onlineMembers}</span>
  </div>
  )}
@@ -134,8 +134,8 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="group relative bg-[#0a0a0a] border border-white/[0.06] hover:border-white/[0.12] transition-all duration-200 cursor-pointer overflow-hidden">
  {/* Priority accent */}
  <div className={`absolute left-0 top-0 bottom-0 w-[2px] ${
- workspace.priority === 'critical' ? 'bg-blood-500' :
- workspace.priority === 'high' ? 'bg-blood-900' :
+ workspace.priority === 'critical' ? 'bg-zinc-600' :
+ workspace.priority === 'high' ? 'bg-zinc-800' :
  'bg-white/[0.08]'
  }`} />
 
@@ -145,7 +145,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="flex-1 min-w-0">
  <div className="flex items-center gap-2 mb-2">
  {workspace.priority === 'critical' && (
- <Flame className="w-3 h-3 text-blood-500"/>
+ <Flame className="w-3 h-3 text-zinc-300"/>
  )}
  <span className="text-[10px] font-medium uppercase tracking-widest text-white/30">
  {workspace.priority}
@@ -171,7 +171,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  {workspace.tags.slice(0, 3).map((tag, i) => (
  <span 
  key={i}
- className="px-2 py-0.5 text-[10px] font-medium tracking-wide bg-[#1c0a00] text-white/40 rounded"
+ className="px-2 py-0.5 text-[10px] font-medium tracking-wide bg-[#0a0a0a] text-white/40 rounded"
  >
  {tag}
  </span>
@@ -192,7 +192,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  </div>
  <div className="h-[3px] bg-white/[0.04] overflow-hidden">
  <motion.div 
- className="h-full bg-blood-500/80"
+ className="h-full bg-zinc-600/80"
  initial={{ width: 0 }}
  animate={{ width: `${progressPercent}%` }}
  transition={{ duration: 0.6, delay: index * 0.04 + 0.15 }}
@@ -221,7 +221,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="flex items-center gap-2">
  {onlineMembers > 0 && (
  <div className="flex items-center gap-1">
- <span className="w-1 h-1 bg-blood-500/80"/>
+ <span className="w-1 h-1 bg-zinc-600/80"/>
  <span className="text-[10px] text-white/25">{onlineMembers}</span>
  </div>
  )}
@@ -238,7 +238,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  {workspace.members.slice(0, 4).map((member) => (
  <div 
  key={member.id}
- className="w-5 h-5 bg-blood-900 flex items-center justify-center text-[9px] font-medium text-white/60 border border-[#0a0a0a]"
+ className="w-5 h-5 bg-zinc-800 flex items-center justify-center text-[9px] font-medium text-white/60 border border-[#0a0a0a]"
  >
  {member.name.charAt(0)}
  </div>

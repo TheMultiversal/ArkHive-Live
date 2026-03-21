@@ -1,482 +1,133 @@
-"use client";
+'use client';
 
-import { useState, useMemo, useCallback } from "react";
-import Link from "next/link";
-import { useParams, notFound } from "next/navigation";
-import {
-  AlertTriangle,
-  Share2,
-  Bookmark,
-  BookmarkCheck,
-  ExternalLink,
-  FileText,
-  Clock,
-  Tag,
-  Copy,
-  Check,
-  Users,
-  BookOpen,
-  Hash,
-  Shield,
-  ChevronDown,
-  ChevronUp,
-  BarChart3,
-} from "lucide-react";
-import AffiliationsSidebar, { Affiliation } from "@/components/layout/AffiliationsSidebar";
-import TimelineSidebar from "@/components/layout/TimelineSidebar";
-import DateDisplay from "@/components/ui/DateDisplay";
-import Breadcrumbs from "@/components/layout/Breadcrumbs";
-import RelatedInvestigations from "@/components/layout/RelatedInvestigations";
-import { useKeyboardNavigation, KeyboardNavIndicator } from "@/hooks/useKeyboardNavigation";
-import ReadingProgress from "@/components/ui/ReadingProgress";
-import investigationDatabase from "@/data/investigations";
-import type { InvestigationData } from "@/data/investigations/types";
-import { useContributorStore } from "@/store/contributorStore";
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { ArrowLeft, AlertTriangle, Users, Calendar, FileText, ExternalLink, Scale, ShieldAlert, Skull } from 'lucide-react';
+import GlitchText from '@/components/effects/GlitchText';
 
-/* ── Helpers ─────────────────────────────────────────── */
-
-interface ParsedSection {
-  id: string;
-  header: string | null;
-  body: string;
-}
-
-function parseContent(content: string[]): ParsedSection[] {
-  return content.map((paragraph, index) => {
-    const match = paragraph.match(/^([A-Z][A-Z\s'''\-&.,/()0-9]{2,}?):\s*(.+)$/s);
-    if (match) {
-      return { id: `section-${index}`, header: match[1].trim(), body: match[2].trim() };
-    }
-    return { id: `section-${index}`, header: null, body: paragraph };
-  });
-}
-
-function readingStats(content: string[]) {
-  const words = content.join(" ").split(/\s+/).filter(Boolean).length;
-  return { words, minutes: Math.max(1, Math.ceil(words / 250)) };
-}
-
-function investigationStatus(data: InvestigationData) {
-  const raw = data.lastActivityDate || data.lastUpdated;
-  if (!raw) return { label: "Unknown", cls: "text-zinc-500 border-zinc-700" };
-  try {
-    const months = (Date.now() - new Date(raw).getTime()) / 2.592e9;
-    if (months < 6) return { label: "Active", cls: "text-blood-400 border-blood-700" };
-    if (months < 24) return { label: "Monitoring", cls: "text-yellow-500 border-yellow-800" };
-    return { label: "Historical", cls: "text-zinc-400 border-zinc-700" };
-  } catch {
-    return { label: "Unknown", cls: "text-zinc-500 border-zinc-700" };
-  }
-}
-
-function sourceTypeSummary(sources: { type: string }[]) {
-  const counts: Record<string, number> = {};
-  sources.forEach(s => { counts[s.type] = (counts[s.type] || 0) + 1; });
-  return Object.entries(counts).sort((a, b) => b[1] - a[1]);
-}
-
-/* ── Constants ───────────────────────────────────────── */
-
-const defaultInvestigationData: InvestigationData = {
-  title: "Investigation Template",
-  subtitle: "This page will display detailed investigation content",
-  severity: "medium",
-  category: "Platform",
-  date: "January 31, 2026",
-  lastUpdated: "January 31, 2026",
-  summary: "This is where the investigation summary will appear.",
-  content: [
-    "Investigation content will be populated with detailed findings.",
-  ],
-  tags: ["Template"],
-  sources: [{ title: "Sources will be listed here", url: "#", type: "Document" }],
-  affiliations: [
-    { id: "1", name: "Department of Justice", type: "agency", relationship: "Related", href: "/entities/agencies/doj" },
-  ],
+const investigation = {
+ title: 'Yemen War: America\'s Hidden Genocide',
+ subtitle: 'U.S.-backed Saudi coalition killed 377,000+ people, created the world\'s worst humanitarian crisis',
+ severity: 'critical',
+ status: 'ONGOING',
+ summary: 'Since 2015, the United States has provided extensive military support to a Saudi-led coalition waging war in Yemen, including weapons sales exceeding $100 billion, aerial refueling, intelligence sharing, and maintenance of warplanes. The coalition has systematically bombed hospitals, schools, weddings, funerals, school buses, and water treatment facilities. Over 377,000 people have died, including an estimated 150,000 children under five from starvation and preventable disease caused by the coalition\'s naval blockade. Yemen has been called the world\'s worst humanitarian crisis, with 80% of the population (24 million people) requiring aid. Despite clear evidence of war crimes, U.S. arms sales to Saudi Arabia continued under multiple administrations.',
+ keyFigures: [
+ { name: 'Barack Obama', role: 'President who authorized U.S. support for the Saudi-led coalition from 2015', href: '/entities/individuals/barack-obama', status: 'Living' },
+ { name: 'Donald Trump', role: 'President who vetoed Congressional resolution to end U.S. involvement and expanded arms sales', href: '/entities/individuals/donald-trump', status: 'Living' },
+ { name: 'Joe Biden', role: 'Initially paused arms sales but resumed them; approved $650M weapons deal in 2021', href: '/entities/individuals/joe-biden', status: 'Living' },
+ { name: 'Mohammed bin Salman', role: 'Saudi Crown Prince and architect of the Yemen war', href: '/entities/individuals/mohammed-bin-salman', status: 'Active' },
+ { name: 'Mohammed bin Zayed', role: 'UAE Crown Prince who co-led coalition and backed separatist militias', href: '/entities/individuals/mohammed-bin-zayed', status: 'Active' },
+ { name: 'James Mattis', role: 'Secretary of Defense who advocated continued support for Saudi coalition', href: '/entities/individuals/james-mattis', status: 'Living' },
+ { name: 'Mike Pompeo', role: 'Secretary of State who certified Saudi efforts to minimize civilian casualties despite evidence', href: '/entities/individuals/mike-pompeo', status: 'Living' },
+ { name: 'Raytheon / RTX', role: 'Manufacturer of precision-guided munitions used in strikes on civilians', href: '/entities/corporations/raytheon', status: 'Active, Profiting' },
+ { name: 'Lockheed Martin', role: 'Manufacturer of F-15 jets and bombs used by Saudi coalition', href: '/entities/corporations/lockheed-martin', status: 'Active, Profiting' },
+ { name: 'Bernie Sanders', role: 'Senator who led effort to invoke War Powers Resolution to end U.S. involvement', href: '/entities/individuals/bernie-sanders', status: 'Active' },
+ { name: 'Chris Murphy', role: 'Senator who co-led bipartisan effort to halt arms sales to Saudi Arabia', href: '/entities/individuals/chris-murphy', status: 'Active' },
+ ],
+ timeline: [
+ { date: 'September 2014', event: 'Houthi forces capture Sana\'a, Yemen\'s capital' },
+ { date: 'March 26, 2015', event: 'Saudi-led coalition begins bombing Yemen with U.S. logistical and intelligence support' },
+ { date: 'April 2015', event: 'Coalition imposes naval and air blockade on Yemen, restricting food, fuel, and medicine' },
+ { date: 'October 2015', event: 'MSF hospital in Haydan bombed by coalition; Saudi Arabia claims it was a"military target"' },
+ { date: 'March 2016', event: 'Coalition bombs a market in Mastaba, killing 97 civilians including 25 children' },
+ { date: 'October 8, 2016', event: 'Coalition bombs funeral in Sana\'a using U.S.-supplied Paveway bombs, killing 140 mourners' },
+ { date: 'January 2017', event: 'Yemen declared worst cholera outbreak in history; 1 million+ cases by October' },
+ { date: 'August 9, 2018', event: 'Coalition strikes school bus in Dahyan, killing 40 children; bomb identified as Lockheed Martin MK-82' },
+ { date: 'October 2018', event: 'Khashoggi murder temporarily halts some arms sales; Congress passes War Powers Resolution' },
+ { date: 'April 2019', event: 'Trump vetoes Congressional resolution invoking War Powers Act to end U.S. involvement in Yemen' },
+ { date: 'September 2019', event: 'Houthi drone attacks on Saudi Aramco facilities temporarily disrupt global oil supply' },
+ { date: 'February 2021', event: 'Biden announces end to "offensive" arms sales but approves $650M defensive weapons package' },
+ { date: 'January 2022', event: 'Coalition airstrikes on detention facility in Saada kill at least 80 people' },
+ { date: 'April 2022', event: 'UN-brokered truce begins; expired in October 2022' },
+ { date: '2023', event: 'UN estimates 377,000+ have died from the conflict and its secondary effects' },
+ { date: '2024', event: 'Houthi attacks on Red Sea shipping bring renewed international attention to Yemen conflict' },
+ { date: 'Ongoing', event: 'An estimated 21 million Yemenis (70% of population) remain in need of humanitarian assistance' },
+ ],
+ legalOutcomes: [
+ { defendant: 'Saudi-led Coalition', charge: 'Systematic bombing of civilian infrastructure', outcome: 'No accountability; U.S. continues to shield Saudi Arabia from international investigations' },
+ { defendant: 'United States', charge: 'Complicity in war crimes through arms sales, refueling, and intelligence sharing', outcome: 'Congress passed War Powers Resolution; Trump vetoed it' },
+ { defendant: 'Mike Pompeo', charge: 'False certification to Congress that Saudi Arabia was minimizing civilian casualties', outcome: 'State Department IG investigation was shut down by Pompeo himself' },
+ { defendant: 'Raytheon / Lockheed Martin', charge: 'Manufacturing weapons used in attacks on civilians, including children', outcome: 'Companies continued receiving contracts; stock prices rose' },
+ { defendant: 'Saudi Arabia', charge: 'Naval blockade causing mass starvation and disease', outcome: 'UN investigations yielded reports but no enforcement mechanism' },
+ { defendant: 'UAE', charge: 'Operating secret prisons in Yemen with reported torture', outcome: 'AP investigation exposed prisons; no consequences for UAE' },
+ { defendant: 'All Parties', charge: 'Use of child soldiers', outcome: 'Documented by UN but no prosecutions' },
+ { defendant: 'U.S. Government', charge: 'Circumventing Congressional arms sale oversight through emergency declarations', outcome: 'Trump declared "emergency" to push $8B arms sales; challenged but not blocked' },
+ ],
+ charges: [
+ { statute: 'Geneva Convention (IV): Art. 3 & 27', description: 'Protection of civilians; prohibition on violence, murder, and cruel treatment', count: '377,000+ deaths including 150,000+ children under five' },
+ { statute: 'Rome Statute, Art. 8(2)(b)(ii)', description: 'War crime of intentionally directing attacks against civilian objects (hospitals, schools, markets)', count: '100+ documented strikes on medical facilities; 200+ strikes on schools' },
+ { statute: 'Rome Statute, Art. 8(2)(b)(xxv)', description: 'War crime of using starvation of civilians as a method of warfare', count: 'Naval blockade caused near-famine conditions for 24+ million people' },
+ { statute: 'War Powers Resolution (50 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1541)', description: 'U.S. military involvement without Congressional authorization', count: '8+ years of military support including refueling, intelligence, and targeting assistance' },
+ { statute: 'Arms Export Control Act (22 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2778)', description: 'Arms may not be sold when likely to be used in violation of international law', count: '$100+ billion in arms sales to Saudi Arabia despite documented war crimes' },
+ { statute: 'Leahy Law (22 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2378d)', description: 'Prohibition on military assistance to foreign units that commit gross human rights violations', count: 'Continued support despite UN Panel of Experts documenting systematic violations' },
+ { statute: 'Convention on the Rights of the Child', description: 'Protection of children in armed conflict', count: '11,000+ children killed or maimed; recruitment of child soldiers by multiple parties' },
+ { statute: 'Protocol I, Art. 54: Starvation as Method of Warfare', description: 'Prohibition on attacking objects indispensable to the survival of the civilian population', count: 'Systematic destruction of food production, water treatment, and medical infrastructure' },
+ ],
+ coverup: [
+ 'The Obama administration authorized U.S. support for the coalition partly to "placate" Saudi Arabia after the Iran nuclear deal, trading Yemeni lives for diplomatic capital.',
+ 'Secretary of State Pompeo falsely certified to Congress that Saudi Arabia was taking steps to minimize civilian casualties, directly contradicting evidence from the Pentagon\'s own assessments.',
+ 'When the State Department Inspector General began investigating the emergency arms sale declaration, Pompeo fired the IG, Steve Linick.',
+ 'U.S.-manufactured munitions have been found at the sites of attacks on civilian targets, but the Pentagon has consistently claimed it cannot track weapons after sale.',
+ 'Media coverage of Yemen has been minimal compared to other conflicts, a 2019 study found Yemen received less than 1% of the coverage given to comparable crises.',
+ 'The coalition has restricted journalist access to Yemen, making independent verification of casualties and conditions extremely difficult.',
+ 'The Trump administration declared a false "emergency" to bypass Congressional review of $8 billion in arms sales to Saudi Arabia and the UAE.',
+ 'Saudi Arabia\'s own internal investigation committee, the JIAT, has systematically cleared the coalition of wrongdoing in virtually every incident examined.',
+ 'The role of U.S. military personnel in selecting targets and providing real-time intelligence for coalition strikes has been systematically downplayed.',
+ ],
+ sources: [
+ { title: 'UNDP, Assessing the Impact of War on Development in Yemen', url: 'https://www.undp.org/yemen/publications/assessing-impact-war-yemen-pathways-recovery', date: '2021' },
+ { title: 'Human Rights Watch, Yemen: Coalition Bus Bombing Apparent War Crime', url: 'https://www.hrw.org/news/2018/09/02/yemen-coalition-bus-bombing-apparent-war-crime', date: '2018' },
+ { title: 'AP, Inside Yemen\'s Secret Prisons', url: 'https://apnews.com/article/4925f7f0fa654853bd523d1067e1132d', date: '2018' },
+ { title: 'CNN, Made in America: Shrapnel in Yemen Points to U.S.-Made Bomb', url: 'https://www.cnn.com/2018/08/17/middleeast/us-saudi-yemen-bus-bomb-intl/index.html', date: '2018' },
+ { title: 'UN Panel of Experts on Yemen Reports', url: 'https://www.securitycouncilreport.org/un-documents/yemen/', date: '2023' },
+ { title: 'Save the Children, Yemen: 85,000 Children May Have Died from Hunger', url: 'https://www.savethechildren.org/us/about-us/media-and-news/2018-press-releases/yemen-85000-children-may-have-died-from-starvation', date: '2018' },
+ { title: 'The Intercept, The Saudi Coalition\'s Attacks on Civilian Infrastructure', url: 'https://theintercept.com/collections/yemen/', date: '2019' },
+ { title: 'Mwatana for Human Rights, Day of Judgment Report', url: 'https://mwatana.org/en/day-of-judgment/', date: '2019' },
+ ],
 };
 
-const severityColors: Record<string, string> = {
-  critical: "bg-blood-900 text-blood-400 border-blood-600",
-  high: "bg-blood-950 text-blood-500 border-blood-700",
-  medium: "bg-blood-900 text-blood-500 border-blood-600",
-  low: "bg-blood-950 text-blood-400 border-blood-500",
-};
-
-const severityBarColors: Record<string, string> = {
-  critical: "from-blood-800 via-blood-500 to-blood-800",
-  high: "from-blood-900 via-blood-600 to-blood-900",
-  medium: "from-[#3a1500] via-[#6b2400] to-[#3a1500]",
-  low: "from-zinc-800 via-zinc-600 to-zinc-800",
-};
-
-/* ── Component ───────────────────────────────────────── */
-
-export default function InvestigationContent() {
-  const params = useParams();
-  const slug = params.slug as string;
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [isTimelineOpen, setIsTimelineOpen] = useState(false);
-  const [copied, setCopied] = useState(false);
-  const [tocOpen, setTocOpen] = useState(false);
-  const { addBookmark, removeBookmark, isBookmarked, currentUser } = useContributorStore();
-
-  const data = investigationDatabase[slug] || defaultInvestigationData;
-  const pageHref = `/investigations/${slug}`;
-  const saved = isBookmarked(pageHref);
-  const hasTimeline = data.timeline && data.timeline.length > 0;
-
-  const investigationSlugs = useMemo(() => Object.keys(investigationDatabase).sort(), []);
-  const { hasPrevious, hasNext, currentIndex, totalItems } = useKeyboardNavigation({
-    items: investigationSlugs,
-    currentItem: slug,
-    basePath: "/investigations/",
-  });
-
-  const sections = useMemo(() => parseContent(data.content), [data.content]);
-  const stats = useMemo(() => readingStats(data.content), [data.content]);
-  const status = useMemo(() => investigationStatus(data), [data]);
-  const srcSummary = useMemo(() => sourceTypeSummary(data.sources), [data.sources]);
-  const tocSections = useMemo(() => sections.filter(s => s.header), [sections]);
-
-  const handleCopyLink = useCallback(() => {
-    const url = typeof window !== "undefined" ? window.location.href : "";
-    navigator.clipboard.writeText(url).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    });
-  }, []);
-
-  const handleShare = useCallback(() => {
-    if (typeof navigator !== "undefined" && navigator.share) {
-      navigator.share({ title: data.title, text: data.subtitle, url: window.location.href });
-    } else {
-      handleCopyLink();
-    }
-  }, [data.title, data.subtitle, handleCopyLink]);
-
-  const scrollToSection = useCallback((id: string) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: "smooth", block: "start" });
-  }, []);
-
-  if (!investigationDatabase[slug] && slug !== "template") {
-    notFound();
-  }
-
-  const entityCount = data.affiliations.length;
-  const sourceCount = data.sources.length;
-  const timelineCount = data.timeline?.length || 0;
-
-  return (
-    <>
-      <ReadingProgress targetSelector="article" position="top" />
-
-      {/* ── Severity indicator bar ── */}
-      <div className={`h-1 bg-gradient-to-r ${severityBarColors[data.severity]}`} />
-
-      <div className="min-h-screen pt-20 lg:pt-24 pb-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:flex lg:gap-8">
-
-            {/* ── MAIN ARTICLE ── */}
-            <article className="flex-1 max-w-4xl">
-
-              {/* Breadcrumbs + keyboard nav */}
-              <div className="flex items-center justify-between mb-6">
-                <Breadcrumbs currentPageTitle={data.title} />
-                <KeyboardNavIndicator
-                  hasPrevious={hasPrevious}
-                  hasNext={hasNext}
-                  currentIndex={currentIndex}
-                  totalItems={totalItems}
-                  className="hidden sm:flex"
-                />
-              </div>
-
-              {/* ── HEADER ── */}
-              <header className="mb-8">
-                {/* Severity + Category + Status badges */}
-                <div className="flex flex-wrap items-center gap-3 mb-4">
-                  <span className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold border ${severityColors[data.severity]}`}>
-                    <AlertTriangle className="w-3 h-3" />
-                    {data.severity.toUpperCase()}
-                  </span>
-                  <span className="px-3 py-1.5 bg-[#1c0a00] text-zinc-400 text-xs font-medium border border-[rgba(255,80,80,0.15)]">
-                    {data.category}
-                  </span>
-                  <span className={`px-3 py-1.5 text-xs font-bold border ${status.cls} bg-black/50`}>
-                    {status.label}
-                  </span>
-                </div>
-
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-black glass-text mb-4 leading-tight break-words">
-                  {data.title}
-                </h1>
-                <p className="text-base sm:text-xl text-zinc-400 mb-6 break-words">
-                  {data.subtitle}
-                </p>
-
-                {/* ── Investigation at a Glance ── */}
-                <div className="flex flex-wrap gap-4 mb-6">
-                  <DateDisplay
-                    eventOriginDate={data.eventOriginDate}
-                    lastActivityDate={data.lastActivityDate}
-                    pageUpdatedDate={data.pageUpdatedDate}
-                    legacyDate={data.date}
-                    legacyLastUpdated={data.lastUpdated}
-                    variant="full"
-                    className="flex-1 min-w-[260px]"
-                  />
-                  <div className="glass-card p-4 flex-1 min-w-[200px]">
-                    <h4 className="text-[10px] font-black uppercase tracking-widest text-zinc-500 border-b border-zinc-800 pb-2 mb-3">
-                      At a Glance
-                    </h4>
-                    <div className="grid grid-cols-2 gap-3">
-                      <div className="flex items-center gap-2">
-                        <BookOpen className="w-4 h-4 text-zinc-500" />
-                        <div>
-                          <div className="text-sm text-zinc-300">{stats.minutes} min</div>
-                          <div className="text-[10px] text-zinc-600">{stats.words.toLocaleString()} words</div>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <Users className="w-4 h-4 text-zinc-500" />
-                        <div>
-                          <div className="text-sm text-zinc-300">{entityCount}</div>
-                          <div className="text-[10px] text-zinc-600">entities</div>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-2">
-                        <FileText className="w-4 h-4 text-zinc-500" />
-                        <div>
-                          <div className="text-sm text-zinc-300">{sourceCount}</div>
-                          <div className="text-[10px] text-zinc-600">sources</div>
-                        </div>
-                      </div>
-                      {timelineCount > 0 && (
-                        <div className="flex items-center gap-2">
-                          <BarChart3 className="w-4 h-4 text-zinc-500" />
-                          <div>
-                            <div className="text-sm text-zinc-300">{timelineCount}</div>
-                            <div className="text-[10px] text-zinc-600">events</div>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-
-                {/* Action buttons */}
-                <div className="flex flex-wrap items-center gap-3">
-                  <button onClick={handleShare} className="flex items-center gap-2 px-4 py-2 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255,80,80,0.15)] text-white text-sm transition-colors">
-                    <Share2 className="w-4 h-4" />
-                    Share
-                  </button>
-                  <button onClick={handleCopyLink} className="flex items-center gap-2 px-4 py-2 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255,80,80,0.15)] text-white text-sm transition-colors">
-                    {copied ? <Check className="w-4 h-4 text-green-400" /> : <Copy className="w-4 h-4" />}
-                    {copied ? "Copied" : "Copy Link"}
-                  </button>
-                  <button
-                    onClick={() => {
-                      if (!currentUser) { window.location.href = "/contributor"; return; }
-                      if (saved) { removeBookmark(pageHref); } else {
-                        addBookmark({ type: "investigation", title: data.title, href: pageHref, category: data.category, severity: data.severity });
-                      }
-                    }}
-                    className={`flex items-center gap-2 px-4 py-2 border text-sm transition-colors ${
-                      saved ? "bg-blood-900 border-blood-700 text-blood-400 hover:bg-blood-800" : "bg-[#1c0a00] hover:bg-[#200c00] border-[rgba(255,80,80,0.15)] text-white"
-                    }`}
-                  >
-                    {saved ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
-                    {saved ? "Saved" : "Save"}
-                  </button>
-                  <button onClick={() => setIsSidebarOpen(true)} className="lg:hidden flex items-center gap-2 px-4 py-2 bg-blood-700 hover:bg-blood-600 text-white text-sm transition-colors">
-                    <ExternalLink className="w-4 h-4" />
-                    Connections
-                  </button>
-                  {hasTimeline && (
-                    <button onClick={() => setIsTimelineOpen(true)} className="lg:hidden flex items-center gap-2 px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-sm transition-colors">
-                      <Clock className="w-4 h-4" />
-                      Timeline
-                    </button>
-                  )}
-                </div>
-              </header>
-
-              {/* ── SUMMARY ── */}
-              <div className="glass-card p-6 mb-8 border-l-4 border-blood-600">
-                <h2 className="text-lg font-bold glass-text mb-3 flex items-center gap-2">
-                  <FileText className="w-5 h-5 text-blood-500" />
-                  Summary
-                </h2>
-                <p className="text-zinc-400 leading-relaxed">{data.summary}</p>
-              </div>
-
-              {/* ── TABLE OF CONTENTS ── */}
-              {tocSections.length >= 3 && (
-                <div className="glass-card mb-8 overflow-hidden">
-                  <button
-                    onClick={() => setTocOpen(v => !v)}
-                    className="w-full flex items-center justify-between p-4 text-left"
-                  >
-                    <span className="flex items-center gap-2 text-sm font-bold text-zinc-300">
-                      <Hash className="w-4 h-4 text-blood-500" />
-                      Table of Contents
-                      <span className="text-[10px] text-zinc-600 font-normal ml-1">
-                        {tocSections.length} sections
-                      </span>
-                    </span>
-                    {tocOpen ? <ChevronUp className="w-4 h-4 text-zinc-500" /> : <ChevronDown className="w-4 h-4 text-zinc-500" />}
-                  </button>
-                  {tocOpen && (
-                    <div className="px-4 pb-4 border-t border-zinc-800/50">
-                      <ol className="space-y-1 mt-3">
-                        {tocSections.map((s, i) => (
-                          <li key={s.id}>
-                            <button
-                              onClick={() => scrollToSection(s.id)}
-                              className="flex items-center gap-2 w-full text-left py-1.5 px-2 hover:bg-blood-950/40 transition-colors text-sm group"
-                            >
-                              <span className="text-[10px] text-zinc-600 w-5 text-right font-mono">{i + 1}</span>
-                              <span className="text-zinc-400 group-hover:text-blood-400 transition-colors">
-                                {s.header!.split(" ").map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(" ")}
-                              </span>
-                            </button>
-                          </li>
-                        ))}
-                      </ol>
-                    </div>
-                  )}
-                </div>
-              )}
-
-              {/* ── CONTENT WITH AUTO SECTION HEADERS ── */}
-              <div className="prose prose-invert prose-lg max-w-none mb-12 space-y-0">
-                {sections.map((section) => (
-                  <div key={section.id} id={section.id} className="mb-8 scroll-mt-28">
-                    {section.header && (
-                      <h3 className="text-base sm:text-lg font-black text-zinc-200 mb-2 flex items-center gap-2 border-b border-zinc-800/60 pb-2">
-                        <span className="w-1 h-5 bg-blood-600 inline-block flex-shrink-0" />
-                        {section.header.split(" ").map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(" ")}
-                      </h3>
-                    )}
-                    <p className="text-zinc-400 leading-relaxed">{section.body}</p>
-                  </div>
-                ))}
-              </div>
-
-              {/* ── KEY ACCOUNTABILITY ── */}
-              {data.affiliations.length > 0 && (
-                <div className="glass-card p-6 mb-8 border-l-4 border-blood-800">
-                  <h3 className="text-lg font-bold glass-text mb-4 flex items-center gap-2">
-                    <Shield className="w-5 h-5 text-blood-500" />
-                    Key Accountability
-                  </h3>
-                  <div className="grid gap-3 sm:grid-cols-2">
-                    {data.affiliations.map((aff) => (
-                      <Link
-                        key={aff.id}
-                        href={aff.href}
-                        className="flex items-start gap-3 p-3 bg-black/40 hover:bg-blood-950/30 border border-zinc-800/50 hover:border-blood-800/50 transition-colors group"
-                      >
-                        <span className={`flex-shrink-0 w-8 h-8 flex items-center justify-center text-[10px] font-bold border ${
-                          aff.type === "individual" ? "bg-blood-950 border-blood-800 text-blood-400"
-                          : aff.type === "agency" ? "bg-blue-950 border-blue-800 text-blue-400"
-                          : aff.type === "corporation" ? "bg-yellow-950 border-yellow-800 text-yellow-400"
-                          : "bg-zinc-900 border-zinc-700 text-zinc-400"
-                        }`}>
-                          {aff.type === "individual" ? "IND" : aff.type === "agency" ? "GOV" : aff.type === "corporation" ? "CORP" : "ORG"}
-                        </span>
-                        <div className="min-w-0">
-                          <div className="text-sm font-semibold text-zinc-200 group-hover:text-blood-400 transition-colors truncate">
-                            {aff.name}
-                          </div>
-                          <div className="text-[11px] text-zinc-500 leading-snug">
-                            {aff.relationship}
-                          </div>
-                        </div>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* ── TAGS ── */}
-              <div className="mb-8">
-                <h3 className="text-sm font-semibold text-zinc-500 mb-3 flex items-center gap-2">
-                  <Tag className="w-4 h-4" />
-                  Tags
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {data.tags.map((tag) => (
-                    <Link key={tag} href={`/investigations?tag=${encodeURIComponent(tag)}`} className="px-3 py-1.5 bg-[#1c0a00] hover:bg-[#200c00] text-zinc-400 text-sm transition-colors border border-transparent hover:border-blood-900/50">
-                      {tag}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-
-              {/* ── SOURCES & DOCUMENTS ── */}
-              <div className="glass-card p-6 mb-8">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-lg font-bold glass-text flex items-center gap-2">
-                    <FileText className="w-5 h-5 text-blood-500" />
-                    Sources & Documents
-                  </h3>
-                  <div className="flex items-center gap-2 text-[10px] text-zinc-600">
-                    {srcSummary.map(([type, count]) => (
-                      <span key={type} className="px-2 py-0.5 bg-black/40 border border-zinc-800/50">
-                        {count} {type}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  {data.sources.map((source, index) => (
-                    <a key={index} href={source.url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-3 bg-black/30 hover:bg-blood-950/20 border border-zinc-800/40 hover:border-blood-900/40 transition-colors group">
-                      <div className="flex items-center gap-3 min-w-0">
-                        <FileText className="w-4 h-4 text-zinc-600 flex-shrink-0" />
-                        <div className="min-w-0">
-                          <span className="text-sm text-zinc-300 group-hover:text-blood-400 transition-colors block truncate">
-                            {source.title}
-                          </span>
-                          <span className="text-[10px] text-zinc-600">{source.type}</span>
-                        </div>
-                      </div>
-                      <ExternalLink className="w-3.5 h-3.5 text-zinc-600 group-hover:text-blood-500 flex-shrink-0 ml-2" />
-                    </a>
-                  ))}
-                </div>
-              </div>
-
-              {/* Related Investigations */}
-              <RelatedInvestigations
-                currentSlug={slug}
-                currentData={data}
-                maxRecommendations={4}
-                className="mt-8"
-              />
-            </article>
-
-            {/* ── SIDEBAR ── */}
-            <aside className="hidden lg:block w-80 xl:w-96 flex-shrink-0">
-              <div className="sticky top-24 space-y-6">
-                <AffiliationsSidebar affiliations={data.affiliations as Affiliation[]} isOpen={true} onClose={() => {}} title="Connected Entities" />
-                {hasTimeline && (
-                  <TimelineSidebar events={data.timeline || []} isOpen={true} onClose={() => {}} title="Key Timeline" />
-                )}
-              </div>
-            </aside>
-          </div>
-        </div>
-
-        {/* Mobile drawers */}
-        <div className="lg:hidden">
-          <AffiliationsSidebar affiliations={data.affiliations as Affiliation[]} isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} title="Connected Entities" />
-          {hasTimeline && (
-            <TimelineSidebar events={data.timeline || []} isOpen={isTimelineOpen} onClose={() => setIsTimelineOpen(false)} title="Key Timeline" />
-          )}
-        </div>
-      </div>
-    </>
-  );
+export default function YemenWarPage() {
+ return (
+ <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+ <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+ <Link href="/investigations"className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-6 pt-4"><ArrowLeft className="w-4 h-4"/>Back to Investigations</Link>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="border-2 border-zinc-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8">
+ <div className="flex items-center gap-3 mb-4"><span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-800 bg-zinc-900 text-zinc-400">{investigation.severity}</span><span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-700 bg-zinc-900 text-zinc-400">{investigation.status}</span></div>
+ <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2"><GlitchText text={investigation.title} /></h1>
+ <p className="text-lg text-zinc-300 font-bold mb-4">{investigation.subtitle}</p>
+ <p className="text-zinc-400 leading-relaxed">{investigation.summary}</p>
+ </motion.div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-zinc-300"/>The Cover-Up</h2>
+ <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900 border border-zinc-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ </motion.div>
+ <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+ <div className="lg:col-span-2 space-y-8">
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="glass-card p-6">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Users className="w-5 h-5 text-zinc-300"/>Key Figures</h2>
+ <div className="space-y-3">{investigation.keyFigures.map((figure, idx) => (<div key={idx} className="flex items-start justify-between p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><div className="flex-1">{figure.href ? (<Link href={figure.href} className="font-bold text-zinc-400 hover:text-white transition-colors">{figure.name}</Link>) : (<span className="font-bold glass-text">{figure.name}</span>)}<p className="text-sm text-zinc-400 mt-1">{figure.role}</p></div><span className="text-xs px-2 py-1 bg-[#0d0d0d] text-zinc-400 border border-[rgba(255,255,255,0.18)] whitespace-nowrap ml-2">{figure.status}</span></div>))}</div>
+ </motion.div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }} className="glass-card p-6">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Applicable Charges &amp; Statutes</h2>
+ <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold text-zinc-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-zinc-400 mt-1">{charge.count}</p></div>))}</div>
+ </motion.div>
+ </div>
+ <div className="space-y-6">
+ <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="glass-card p-6">
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Calendar className="w-4 h-4 text-zinc-300"/>Timeline</h3>
+ <div className="space-y-4">{investigation.timeline.map((item, idx) => (<div key={idx} className="relative pl-4 border-l-2 border-[rgba(255,255,255,0.15)]"><div className="absolute -left-[5px] top-0 w-2 h-2 bg-zinc-600"/><p className="text-xs text-zinc-300 font-mono">{item.date}</p><p className="text-sm text-zinc-300">{item.event}</p></div>))}</div>
+ </motion.div>
+ <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.1 }} className="glass-card p-6">
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Legal Outcomes</h3>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-zinc-400 mt-1">{item.outcome}</p></div>))}</div>
+ </motion.div>
+ <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }} className="glass-card p-6">
+ <h3 className="text-lg font-bold glass-text uppercase tracking-wider mb-4">Sources</h3>
+ <div className="space-y-2">{investigation.sources.map((source, idx) => (<a key={idx} href={source.url} target="_blank"rel="noopener noreferrer"className="flex items-start gap-2 p-2 text-sm text-zinc-400 hover:text-white hover:bg-[#0a0a0a] transition-colors"><ExternalLink className="w-4 h-4 mt-0.5 flex-shrink-0"/><div><span>{source.title}</span><span className="text-zinc-600 ml-2">({source.date})</span></div></a>))}</div>
+ </motion.div>
+ </div>
+ </div>
+ </div>
+ </div>
+ );
 }

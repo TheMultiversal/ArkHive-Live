@@ -40,8 +40,8 @@ export default async function Image() {
  right: 0,
  bottom: 0,
  backgroundImage: `
- linear-gradient(rgba(184, 0, 0, 0.03) 1px, transparent 1px),
- linear-gradient(90deg, rgba(184, 0, 0, 0.03) 1px, transparent 1px)
+ linear-gradient(rgba(150, 150, 150, 0.03) 1px, transparent 1px),
+ linear-gradient(90deg, rgba(150, 150, 150, 0.03) 1px, transparent 1px)
  `,
  backgroundSize: '50px 50px',
  }}
@@ -55,7 +55,7 @@ export default async function Image() {
  left: 0,
  right: 0,
  height: '4px',
- background: 'linear-gradient(90deg, transparent 0%, #b80000 50%, transparent 100%)',
+ background: 'linear-gradient(90deg, transparent 0%, #4a4a4a 50%, transparent 100%)',
  }}
  />
 
@@ -76,7 +76,7 @@ export default async function Image() {
  viewBox="0 0 100 100"
  style={{ 
  marginBottom: '30px',
- filter: 'drop-shadow(0 0 20px rgba(184, 0, 0, 0.6))',
+ filter: 'drop-shadow(0 0 20px rgba(150, 150, 150, 0.6))',
  }}
  >
  {/* Eye white (sclera) */}
@@ -91,14 +91,14 @@ export default async function Image() {
  {/* Blood veins in sclera */}
  <path
  d="M15 45 Q25 42, 32 45"
- stroke="#8f0000"
+ stroke="#3d3d3d"
  strokeWidth="0.8"
  fill="none"
  opacity="0.6"
  />
  <path
  d="M68 45 Q75 42, 85 45"
- stroke="#8f0000"
+ stroke="#3d3d3d"
  strokeWidth="0.8"
  fill="none"
  opacity="0.6"
@@ -123,7 +123,7 @@ export default async function Image() {
  cx="50"
  cy="45"
  r="18"
- fill="#8f0000"
+ fill="#3d3d3d"
  />
  <circle
  cx="50"
@@ -153,7 +153,7 @@ export default async function Image() {
  {/* Blood drip 1 - main center */}
  <path
  d="M50 73 Q50 82, 48 92 Q47 97, 50 100 Q53 97, 52 92 Q50 82, 50 73"
- fill="#8f0000"
+ fill="#3d3d3d"
  />
  
  {/* Blood drip 2 - left */}
@@ -198,7 +198,7 @@ export default async function Image() {
  style={{
  fontSize: 32,
  fontWeight: 500,
- color: '#b80000',
+ color: '#4a4a4a',
  textAlign: 'center',
  letterSpacing: '0.05em',
  textTransform: 'uppercase',
@@ -231,7 +231,7 @@ export default async function Image() {
  left: 0,
  right: 0,
  height: '4px',
- background: 'linear-gradient(90deg, transparent 0%, #b80000 50%, transparent 100%)',
+ background: 'linear-gradient(90deg, transparent 0%, #4a4a4a 50%, transparent 100%)',
  }}
  />
 
@@ -243,8 +243,8 @@ export default async function Image() {
  left: '20px',
  width: '40px',
  height: '40px',
- borderTop: '2px solid #b80000',
- borderLeft: '2px solid #b80000',
+ borderTop: '2px solid #4a4a4a',
+ borderLeft: '2px solid #4a4a4a',
  }}
  />
  <div
@@ -254,8 +254,8 @@ export default async function Image() {
  right: '20px',
  width: '40px',
  height: '40px',
- borderTop: '2px solid #b80000',
- borderRight: '2px solid #b80000',
+ borderTop: '2px solid #4a4a4a',
+ borderRight: '2px solid #4a4a4a',
  }}
  />
  <div
@@ -265,8 +265,8 @@ export default async function Image() {
  left: '20px',
  width: '40px',
  height: '40px',
- borderBottom: '2px solid #b80000',
- borderLeft: '2px solid #b80000',
+ borderBottom: '2px solid #4a4a4a',
+ borderLeft: '2px solid #4a4a4a',
  }}
  />
  <div
@@ -276,8 +276,8 @@ export default async function Image() {
  right: '20px',
  width: '40px',
  height: '40px',
- borderBottom: '2px solid #b80000',
- borderRight: '2px solid #b80000',
+ borderBottom: '2px solid #4a4a4a',
+ borderRight: '2px solid #4a4a4a',
  }}
  />
  </div>

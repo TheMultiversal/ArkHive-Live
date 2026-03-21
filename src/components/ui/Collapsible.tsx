@@ -108,7 +108,7 @@ export const CollapsibleTrigger = forwardRef<HTMLButtonElement, CollapsibleTrigg
  aria-expanded={isOpen}
  className={cn(
  'flex items-center justify-between w-full text-left',
- 'focus:outline-none focus-visible:ring-2 focus-visible:ring-blood-500',
+ 'focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-600',
  className
  )}
  {...props}

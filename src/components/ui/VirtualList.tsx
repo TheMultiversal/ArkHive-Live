@@ -136,7 +136,7 @@ export default function VirtualList<T>({
         <div className="flex items-center justify-center py-4">
           {loadingState || (
             <div className="flex items-center gap-2 text-zinc-500">
-              <div className="w-4 h-4 border-2 border-blood-600 border-t-transparent rounded-full animate-spin" />
+              <div className="w-4 h-4 border-2 border-zinc-700 border-t-transparent rounded-full animate-spin" />
               <span className="text-sm uppercase tracking-wider">Loading...</span>
             </div>
           )}
@@ -278,7 +278,7 @@ export function InfiniteScrollTrigger({
     <div ref={triggerRef} className="flex items-center justify-center py-4">
       {isLoading && (
         <div className="flex items-center gap-2 text-zinc-500">
-          <div className="w-4 h-4 border-2 border-blood-600 border-t-transparent rounded-full animate-spin" />
+          <div className="w-4 h-4 border-2 border-zinc-700 border-t-transparent rounded-full animate-spin" />
           <span className="text-sm uppercase tracking-wider">Loading more...</span>
         </div>
       )}

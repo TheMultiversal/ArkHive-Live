@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { Search, Filter, SlidersHorizontal, Grid, List, X, Calendar, AlertTriangle, Building, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useDebounce } from '@/hooks/useDebounce';
@@ -62,14 +63,15 @@ type ResultType = 'all' | 'investigations' | 'entities' | 'documents';
 type SortOption = 'relevance' | 'date' | 'severity';
 
 const severityColors = {
- critical: 'bg-blood-500',
- high: 'bg-blood-700',
+ critical: 'bg-zinc-600',
+ high: 'bg-zinc-700',
  medium: 'bg-zinc-400',
- low: 'bg-blood-500',
+ low: 'bg-zinc-600',
 };
 
 export default function SearchPage() {
- const [query, setQuery] = useState('');
+ const searchParams = useSearchParams();
+ const [query, setQuery] = useState(searchParams.get('q') || '');
  const [resultType, setResultType] = useState<ResultType>('all');
  const [sortBy, setSortBy] = useState<SortOption>('relevance');
  const [viewMode, setViewMode] = useState<'grid' | 'list'>('list');
@@ -137,7 +139,7 @@ export default function SearchPage() {
  value={query}
  onChange={(e) => setQuery(e.target.value)}
  placeholder="Search investigations, entities, documents..."
- className="w-full pl-12 pr-12 py-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-white text-lg placeholder-zinc-500 focus:outline-none focus:border-blood-500 transition-colors"
+ className="w-full pl-12 pr-12 py-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-white text-lg placeholder-zinc-500 focus:outline-none focus:border-zinc-600 transition-colors"
  autoFocus
  />
  {query && (
@@ -162,8 +164,8 @@ export default function SearchPage() {
  className={cn(
  'px-4 py-2 text-sm font-medium transition-colors',
  resultType === type
- ? 'bg-blood-600 text-white'
- : 'bg-[#1c0a00] text-zinc-400 hover:text-white hover:bg-[#200c00]'
+ ? 'bg-zinc-700 text-white'
+ : 'bg-[#0a0a0a] text-zinc-400 hover:text-white hover:bg-[#0d0d0d]'
  )}
  >
  {type.charAt(0).toUpperCase() + type.slice(1)}
@@ -179,8 +181,8 @@ export default function SearchPage() {
  className={cn(
  'flex items-center gap-2 px-4 py-2 text-sm transition-colors',
  showFilters
- ? 'bg-blood-600 text-white'
- : 'bg-[#1c0a00] text-zinc-400 hover:text-white'
+ ? 'bg-zinc-700 text-white'
+ : 'bg-[#0a0a0a] text-zinc-400 hover:text-white'
  )}
  >
  <SlidersHorizontal className="w-4 h-4"/>
@@ -190,19 +192,19 @@ export default function SearchPage() {
  <select
  value={sortBy}
  onChange={(e) => setSortBy(e.target.value as SortOption)}
- className="px-4 py-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-zinc-300 text-sm focus:outline-none focus:border-blood-500"
+ className="px-4 py-2 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-zinc-300 text-sm focus:outline-none focus:border-zinc-600"
  >
  <option value="relevance">Sort by Relevance</option>
  <option value="date">Sort by Date</option>
  <option value="severity">Sort by Severity</option>
  </select>
 
- <div className="flex border border-[rgba(255, 80, 80,0.15)]">
+ <div className="flex border border-[rgba(255,255,255,0.15)]">
  <button
  onClick={() => setViewMode('list')}
  className={cn(
  'p-2 transition-colors',
- viewMode === 'list' ? 'bg-[#200c00] text-white' : 'text-zinc-500 hover:text-white'
+ viewMode === 'list' ? 'bg-[#0d0d0d] text-white' : 'text-zinc-500 hover:text-white'
  )}
  >
  <List className="w-5 h-5"/>
@@ -211,7 +213,7 @@ export default function SearchPage() {
  onClick={() => setViewMode('grid')}
  className={cn(
  'p-2 transition-colors',
- viewMode === 'grid' ? 'bg-[#200c00] text-white' : 'text-zinc-500 hover:text-white'
+ viewMode === 'grid' ? 'bg-[#0d0d0d] text-white' : 'text-zinc-500 hover:text-white'
  )}
  >
  <Grid className="w-5 h-5"/>
@@ -226,7 +228,7 @@ export default function SearchPage() {
  initial={{ height: 0, opacity: 0 }}
  animate={{ height: 'auto', opacity: 1 }}
  exit={{ height: 0, opacity: 0 }}
- className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-6 mb-6"
+ className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-6 mb-6"
  >
  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
  {/* Date Range */}
@@ -240,13 +242,13 @@ export default function SearchPage() {
  type="date"
  value={dateRange.from}
  onChange={(e) => setDateRange({ ...dateRange, from: e.target.value })}
- className="flex-1 px-3 py-2 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] text-white text-sm"
+ className="flex-1 px-3 py-2 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] text-white text-sm"
  />
  <input
  type="date"
  value={dateRange.to}
  onChange={(e) => setDateRange({ ...dateRange, to: e.target.value })}
- className="flex-1 px-3 py-2 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] text-white text-sm"
+ className="flex-1 px-3 py-2 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] text-white text-sm"
  />
  </div>
  </div>
@@ -261,7 +263,7 @@ export default function SearchPage() {
  {['critical', 'high', 'medium', 'low'].map((sev) => (
  <button
  key={sev}
- className="px-3 py-1 text-xs bg-[#200c00] text-zinc-300 hover:bg-zinc-700 capitalize"
+ className="px-3 py-1 text-xs bg-[#0d0d0d] text-zinc-300 hover:bg-zinc-700 capitalize"
  >
  {sev}
  </button>
@@ -279,7 +281,7 @@ export default function SearchPage() {
  {['agency', 'corporation', 'individual'].map((type) => (
  <button
  key={type}
- className="px-3 py-1 text-xs bg-[#200c00] text-zinc-300 hover:bg-zinc-700 capitalize"
+ className="px-3 py-1 text-xs bg-[#0d0d0d] text-zinc-300 hover:bg-zinc-700 capitalize"
  >
  {type}
  </button>
@@ -373,12 +375,12 @@ function SearchResultCard({
  <Link
  href={getLink()}
  className={cn(
- 'block bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4 hover:border-blood-500/50 transition-colors group',
+ 'block bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-4 hover:border-zinc-600/50 transition-colors group',
  viewMode === 'list' && 'flex gap-4'
  )}
  >
  <div className={cn(
- 'flex items-center justify-center bg-[#200c00] text-zinc-400 group-hover:text-blood-500 transition-colors',
+ 'flex items-center justify-center bg-[#0d0d0d] text-zinc-400 group-hover:text-white transition-colors',
  viewMode === 'grid' ? 'w-full h-24 mb-4' : 'w-12 h-12 flex-shrink-0'
  )}>
  {getIcon()}
@@ -386,7 +388,7 @@ function SearchResultCard({
 
  <div className="flex-1 min-w-0">
  <div className="flex items-center gap-2 mb-1">
- <span className="text-xs px-2 py-0.5 bg-[#200c00] text-zinc-400 capitalize">
+ <span className="text-xs px-2 py-0.5 bg-[#0d0d0d] text-zinc-400 capitalize">
  {result.type}
  </span>
  {result.severity && (
@@ -396,7 +398,7 @@ function SearchResultCard({
  )} />
  )}
  </div>
- <h3 className="font-semibold text-white group-hover:text-blood-400 transition-colors truncate">
+ <h3 className="font-semibold text-white group-hover:text-white transition-colors truncate">
  {result.title}
  </h3>
  <p className="text-sm text-zinc-500 mt-1 line-clamp-2">

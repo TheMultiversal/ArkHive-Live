@@ -26,14 +26,14 @@ interface TimelineProps {
 const statusConfig = {
  completed: {
  icon: <CheckCircle className="w-4 h-4"/>,
- dotClass: 'bg-blood-500 border-blood-600',
- lineClass: 'bg-blood-950',
+ dotClass: 'bg-zinc-600 border-zinc-700',
+ lineClass: 'bg-zinc-900',
  textClass: 'text-zinc-300',
  },
  current: {
  icon: <Circle className="w-4 h-4"/>,
- dotClass: 'bg-blood-500 border-blood-600 animate-pulse',
- lineClass: 'bg-blood-950',
+ dotClass: 'bg-zinc-600 border-zinc-700 animate-pulse',
+ lineClass: 'bg-zinc-900',
  textClass: 'text-white',
  },
  upcoming: {
@@ -105,7 +105,7 @@ export default function Timeline({
  {event.tags.map((tag) => (
  <span
  key={tag}
- className="px-2 py-0.5 text-xs bg-[#200c00] text-zinc-400"
+ className="px-2 py-0.5 text-xs bg-[#0d0d0d] text-zinc-400"
  >
  {tag}
  </span>
@@ -199,7 +199,7 @@ export function HorizontalTimeline({
  className={cn(
  'w-16 h-px mx-2',
  event.status === 'completed'
- ? 'bg-blood-9500'
+ ? 'bg-zinc-9000'
  : 'bg-zinc-700'
  )}
  />
@@ -231,22 +231,22 @@ interface InvestigationTimelineProps {
 const eventTypeConfig = {
  document: {
  icon: <FileText className="w-4 h-4"/>,
- color: 'bg-blood-500 border-blood-600',
+ color: 'bg-zinc-600 border-zinc-700',
  label: 'Document',
  },
  interview: {
  icon: <Users className="w-4 h-4"/>,
- color: 'bg-blood-500 border-blood-600',
+ color: 'bg-zinc-600 border-zinc-700',
  label: 'Interview',
  },
  discovery: {
  icon: <Circle className="w-4 h-4"/>,
- color: 'bg-blood-500 border-blood-600',
+ color: 'bg-zinc-600 border-zinc-700',
  label: 'Discovery',
  },
  leak: {
  icon: <AlertCircle className="w-4 h-4"/>,
- color: 'bg-blood-500 border-blood-600',
+ color: 'bg-zinc-600 border-zinc-700',
  label: 'Leak',
  },
  publication: {
@@ -263,7 +263,7 @@ export function InvestigationTimeline({
  return (
  <div className={cn('relative', className)}>
  {/* Vertical line */}
- <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-blood-500/50 via-zinc-700 to-zinc-800"/>
+ <div className="absolute left-4 top-0 bottom-0 w-px bg-gradient-to-b from-zinc-600/50 via-zinc-700 to-zinc-800"/>
 
  <div className="space-y-8">
  {events.map((event, index) => {
@@ -290,15 +290,15 @@ export function InvestigationTimeline({
  </div>
 
  {/* Content Card */}
- <div className="flex-1 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4 hover:border-[rgba(255, 60, 60,0.18)] transition-colors">
+ <div className="flex-1 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-4 hover:border-[rgba(255,255,255,0.18)] transition-colors">
  <div className="flex items-start justify-between gap-4">
  <div>
  <div className="flex items-center gap-2 mb-1">
- <span className="text-xs px-2 py-0.5 bg-[#200c00] text-zinc-400">
+ <span className="text-xs px-2 py-0.5 bg-[#0d0d0d] text-zinc-400">
  {config.label}
  </span>
  {event.verified && (
- <span className="text-xs px-2 py-0.5 bg-blood-900 text-blood-400 flex items-center gap-1">
+ <span className="text-xs px-2 py-0.5 bg-zinc-800 text-zinc-400 flex items-center gap-1">
  <CheckCircle className="w-3 h-3"/>
  Verified
  </span>

@@ -128,26 +128,26 @@ export default function NetworkGraph({
   }
   
   return (
-    <div className={`relative bg-zinc-950 border border-blood-900/30 overflow-hidden ${className}`}>
+    <div className={`relative bg-zinc-950 border border-zinc-800/30 overflow-hidden ${className}`}>
       {/* Controls */}
       <div className="absolute top-2 right-2 z-10 flex items-center gap-1">
         <button
           onClick={handleZoomIn}
-          className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-blood-600 transition-colors"
+          className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-700 transition-colors"
           title="Zoom In"
         >
           <ZoomIn className="w-4 h-4" />
         </button>
         <button
           onClick={handleZoomOut}
-          className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-blood-600 transition-colors"
+          className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-700 transition-colors"
           title="Zoom Out"
         >
           <ZoomOut className="w-4 h-4" />
         </button>
         <button
           onClick={handleReset}
-          className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-blood-600 transition-colors"
+          className="p-1.5 bg-black/80 border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-700 transition-colors"
           title="Reset"
         >
           <Maximize2 className="w-4 h-4" />
@@ -191,7 +191,7 @@ export default function NetworkGraph({
                   y1={sourcePos.y}
                   x2={targetPos.x}
                   y2={targetPos.y}
-                  stroke={isHighlighted ? "#d64545" : "#333"}
+                  stroke={isHighlighted ? "#6b6b6b" : "#333"}
                   strokeWidth={isHighlighted ? 2 : 1}
                   strokeOpacity={isHighlighted ? 1 : 0.5}
                   className="transition-all duration-200"
@@ -272,7 +272,7 @@ export default function NetworkGraph({
       
       {/* Node Detail Panel */}
       {selectedNode && (
-        <div className="absolute top-12 left-2 right-2 sm:right-auto sm:w-64 bg-black/95 border border-blood-800/50 p-3 z-20">
+        <div className="absolute top-12 left-2 right-2 sm:right-auto sm:w-64 bg-black/95 border border-zinc-700/50 p-3 z-20">
           <div className="flex items-start justify-between gap-2 mb-2">
             <h4 className="text-sm font-bold text-white">{selectedNode.name}</h4>
             <button
@@ -288,9 +288,9 @@ export default function NetworkGraph({
           {selectedNode.href && (
             <Link
               href={selectedNode.href}
-              className="inline-block text-xs text-blood-500 hover:text-blood-400"
+              className="inline-block text-xs text-zinc-300 hover:text-white"
             >
-              View Profile →
+              View Profile Ã¢â€ â€™
             </Link>
           )}
           <div className="mt-2 pt-2 border-t border-zinc-800">

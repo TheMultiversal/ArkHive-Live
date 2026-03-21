@@ -86,10 +86,10 @@ interface SeverityRatingProps {
 }
 
 const severityConfig = {
- 1: { label: 'Low', color: 'text-blood-500', bgColor: 'bg-blood-500' },
+ 1: { label: 'Low', color: 'text-zinc-300', bgColor: 'bg-zinc-600' },
  2: { label: 'Medium', color: 'text-zinc-400', bgColor: 'bg-zinc-400' },
- 3: { label: 'High', color: 'text-blood-700', bgColor: 'bg-blood-700' },
- 4: { label: 'Critical', color: 'text-blood-500', bgColor: 'bg-blood-500' },
+ 3: { label: 'High', color: 'text-zinc-600', bgColor: 'bg-zinc-700' },
+ 4: { label: 'Critical', color: 'text-zinc-300', bgColor: 'bg-zinc-600' },
 };
 
 export function SeverityRating({
@@ -149,10 +149,10 @@ export function RiskRating({
  className,
 }: RiskRatingProps) {
  const getColor = (v: number) => {
- if (v < 25) return 'text-blood-500';
+ if (v < 25) return 'text-zinc-300';
  if (v < 50) return 'text-zinc-400';
- if (v < 75) return 'text-blood-700';
- return 'text-blood-500';
+ if (v < 75) return 'text-zinc-600';
+ return 'text-zinc-300';
  };
 
  const getIcon = (v: number) => {
@@ -172,10 +172,10 @@ export function RiskRating({
  <motion.div
  className={cn(
  'h-full',
- value < 25 && 'bg-blood-500',
+ value < 25 && 'bg-zinc-600',
  value >= 25 && value < 50 && 'bg-zinc-400',
- value >= 50 && value < 75 && 'bg-blood-700',
- value >= 75 && 'bg-blood-500'
+ value >= 50 && value < 75 && 'bg-zinc-700',
+ value >= 75 && 'bg-zinc-600'
  )}
  initial={{ width: 0 }}
  animate={{ width: `${value}%` }}
@@ -231,9 +231,9 @@ export function TrustRating({
  strokeWidth="4"
  strokeLinecap="round"
  className={cn(
- value < 2 && 'text-blood-500',
+ value < 2 && 'text-zinc-300',
  value >= 2 && value < 3.5 && 'text-zinc-400',
- value >= 3.5 && 'text-blood-500'
+ value >= 3.5 && 'text-zinc-300'
  )}
  initial={{ strokeDasharray: '0 100' }}
  animate={{ strokeDasharray: `${percentage} 100` }}
@@ -249,9 +249,9 @@ export function TrustRating({
  {showVerified && (
  <p className={cn(
  'text-xs',
- isVerified ? 'text-blood-400' : 'text-zinc-500'
+ isVerified ? 'text-zinc-400' : 'text-zinc-500'
  )}>
- {isVerified ? '✓ Verified' : 'Unverified'}
+ {isVerified ? 'Ã¢Å“â€œ Verified' : 'Unverified'}
  </p>
  )}
  </div>

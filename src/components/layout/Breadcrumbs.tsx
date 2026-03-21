@@ -112,7 +112,7 @@ export default function Breadcrumbs({
               )}
               
               {isLast ? (
-                <span className="text-blood-400 font-medium truncate max-w-[200px]">
+                <span className="text-zinc-400 font-medium truncate max-w-[200px]">
                   {crumb.label}
                 </span>
               ) : (

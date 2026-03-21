@@ -947,7 +947,7 @@ export function ConnectionStatusIndicator({
     },
     error: {
       icon: <AlertCircle className={iconSize} />,
-      color: 'text-blood-500',
+      color: 'text-zinc-300',
       label: 'Connection Error',
     },
   };
@@ -963,7 +963,7 @@ export function ConnectionStatusIndicator({
       {(status === 'disconnected' || status === 'error') && onReconnect && (
         <button
           onClick={onReconnect}
-          className="text-xs text-blood-400 hover:text-blood-300 underline"
+          className="text-xs text-zinc-400 hover:text-white underline"
         >
           Reconnect
         </button>

@@ -8,11 +8,11 @@ interface AnimatedLettersProps {
 export default function AnimatedLetters({ lines, className = '' }: AnimatedLettersProps) {
  return (
  <div className={`${className}`}>
- <div className="inline-block px-6 py-4 border-2 border-blood-800/50 bg-black animate-fade-in"style={{ animationDelay: '200ms' }}>
+ <div className="inline-block px-6 py-4 border-2 border-zinc-700/50 bg-black animate-fade-in"style={{ animationDelay: '200ms' }}>
  {lines.map((line, lineIndex) => (
  <p 
  key={lineIndex} 
- className="text-xl sm:text-2xl lg:text-3xl font-black uppercase tracking-[0.15em] text-blood-600 animate-blood-pulse"
+ className="text-xl sm:text-2xl lg:text-3xl font-black uppercase tracking-[0.15em] text-zinc-500 animate-blood-pulse"
  style={{
  animationDelay: `${lineIndex * 0.15}s`,
  }}

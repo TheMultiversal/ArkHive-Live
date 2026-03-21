@@ -26,10 +26,10 @@ const typeIcons: Record<string, React.ReactNode> = {
 };
 
 const severityColors: Record<string, string> = {
- critical: 'text-blood-400 bg-blood-900 border-blood-800',
- high: 'text-blood-500 bg-blood-950 border-blood-800',
- medium: 'text-blood-500 bg-blood-900 border-blood-800',
- low: 'text-blood-400 bg-blood-950 border-blood-800',
+ critical: 'text-zinc-400 bg-zinc-800 border-zinc-800',
+ high: 'text-zinc-300 bg-zinc-900 border-zinc-800',
+ medium: 'text-zinc-300 bg-zinc-800 border-zinc-800',
+ low: 'text-zinc-400 bg-zinc-900 border-zinc-800',
 };
 
 function SavedPageCard({
@@ -49,21 +49,21 @@ function SavedPageCard({
  >
  <div className="flex items-start justify-between mb-3">
  <div className="flex items-center gap-2">
- <div className="p-1.5 bg-[#200c00] text-zinc-400">
+ <div className="p-1.5 bg-[#0d0d0d] text-zinc-400">
  {typeIcons[item.type] || <Bookmark className="w-4 h-4"/>}
  </div>
- <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[#200c00] text-zinc-500">
+ <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[#0d0d0d] text-zinc-500">
  {item.type}
  </span>
  {item.severity && (
- <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-[#200c00] border-[rgba(255, 60, 60,0.18)]'}`}>
+ <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-[#0d0d0d] border-[rgba(255,255,255,0.18)]'}`}>
  {item.severity}
  </span>
  )}
  </div>
  <button
  onClick={() => onRemove(item.href)}
- className="p-1.5 text-zinc-600 hover:text-blood-500 opacity-0 group-hover:opacity-100 transition-all"
+ className="p-1.5 text-zinc-600 hover:text-white opacity-0 group-hover:opacity-100 transition-all"
  title="Remove from saved"
  >
  <Trash2 className="w-4 h-4"/>
@@ -71,7 +71,7 @@ function SavedPageCard({
  </div>
 
  <Link href={item.href} className="block group/link">
- <h3 className="text-white font-semibold mb-1 group-hover/link:text-blood-500 transition-colors line-clamp-2">
+ <h3 className="text-white font-semibold mb-1 group-hover/link:text-zinc-300 transition-colors line-clamp-2">
  {item.title}
  </h3>
  {item.category && (
@@ -79,12 +79,12 @@ function SavedPageCard({
  )}
  </Link>
 
- <div className="flex items-center justify-between pt-3 border-t border-[rgba(255, 80, 80,0.15)] text-xs text-zinc-500">
+ <div className="flex items-center justify-between pt-3 border-t border-[rgba(255,255,255,0.15)] text-xs text-zinc-500">
  <div className="flex items-center gap-1">
  <Clock className="w-3 h-3"/>
  Saved {formatDistanceToNow(new Date(item.savedAt), { addSuffix: true })}
  </div>
- <Link href={item.href} className="flex items-center gap-1 text-zinc-600 hover:text-blood-500 transition-colors">
+ <Link href={item.href} className="flex items-center gap-1 text-zinc-600 hover:text-white transition-colors">
  <ExternalLink className="w-3 h-3"/>
  Open
  </Link>
@@ -103,7 +103,7 @@ export default function SavedPagesPage() {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16">
  <div className="max-w-2xl mx-auto px-6 py-12 text-center">
- <div className="w-16 h-16 mx-auto mb-6 border-2 border-[rgba(255, 60, 60,0.18)] flex items-center justify-center">
+ <div className="w-16 h-16 mx-auto mb-6 border-2 border-[rgba(255,255,255,0.18)] flex items-center justify-center">
  <Bookmark className="w-8 h-8 text-zinc-600"/>
  </div>
  <h1 className="text-3xl font-black glass-text mb-3 uppercase tracking-wider">
@@ -114,7 +114,7 @@ export default function SavedPagesPage() {
  </p>
  <Link
  href="/contributor"
- className="inline-flex items-center gap-2 px-6 py-3 bg-blood-700 hover:bg-blood-600 glass-text font-bold uppercase tracking-wider text-sm transition-colors"
+ className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-700 hover:bg-zinc-700 glass-text font-bold uppercase tracking-wider text-sm transition-colors"
  >
  <UserPlus className="w-4 h-4"/>
  Sign In / Create Account
@@ -161,8 +161,8 @@ export default function SavedPagesPage() {
  {bookmarks.length > 0 && (
  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[#200c00]">
- <BookmarkCheck className="w-5 h-5 text-blood-500"/>
+ <div className="p-2 bg-[#0d0d0d]">
+ <BookmarkCheck className="w-5 h-5 text-zinc-300"/>
  </div>
  <div>
  <p className="text-white text-xl font-bold">{bookmarks.length}</p>
@@ -170,8 +170,8 @@ export default function SavedPagesPage() {
  </div>
  </div>
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[#200c00]">
- <Target className="w-5 h-5 text-blood-500"/>
+ <div className="p-2 bg-[#0d0d0d]">
+ <Target className="w-5 h-5 text-zinc-300"/>
  </div>
  <div>
  <p className="text-white text-xl font-bold">{investigationCount}</p>
@@ -179,7 +179,7 @@ export default function SavedPagesPage() {
  </div>
  </div>
  <div className="glass-card p-4 flex items-center gap-4">
- <div className="p-2 bg-[#200c00]">
+ <div className="p-2 bg-[#0d0d0d]">
  <Users className="w-5 h-5 text-zinc-400"/>
  </div>
  <div>
@@ -200,7 +200,7 @@ export default function SavedPagesPage() {
  placeholder="Search saved pages..."
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
- className="w-full pl-12 pr-4 py-3 glass text-white placeholder:text-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+ className="w-full pl-12 pr-4 py-3 glass text-white placeholder:text-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
  />
  </div>
  <div className="flex items-center gap-2">
@@ -210,8 +210,8 @@ export default function SavedPagesPage() {
  onClick={() => setTypeFilter(type)}
  className={`px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors ${
  typeFilter === type
- ? 'bg-blood-600 text-white'
- : 'bg-[#200c00] text-zinc-400 hover:text-white'
+ ? 'bg-zinc-700 text-white'
+ : 'bg-[#0d0d0d] text-zinc-400 hover:text-white'
  }`}
  >
  {type === 'all' ? 'All' : type === 'investigation' ? 'Investigations' : 'Entities'}
@@ -250,7 +250,7 @@ export default function SavedPagesPage() {
  </p>
  <Link
  href="/investigations"
- className="inline-flex items-center gap-2 px-5 py-2.5 border border-[rgba(255, 60, 60,0.18)] text-zinc-300 hover:border-blood-700 hover:text-white text-sm transition-colors"
+ className="inline-flex items-center gap-2 px-5 py-2.5 border border-[rgba(255,255,255,0.18)] text-zinc-300 hover:border-zinc-700 hover:text-white text-sm transition-colors"
  >
  <Target className="w-4 h-4"/>
  Browse Investigations
@@ -260,9 +260,9 @@ export default function SavedPagesPage() {
  </AnimatePresence>
 
  {/* Privacy Note */}
- <div className="mt-12 border border-[rgba(255, 80, 80,0.15)] bg-[#1c0a00] p-4">
+ <div className="mt-12 border border-[rgba(255,255,255,0.15)] bg-[#0a0a0a] p-4">
  <div className="flex items-start gap-3">
- <AlertTriangle className="w-5 h-5 text-blood-500 flex-shrink-0 mt-0.5"/>
+ <AlertTriangle className="w-5 h-5 text-zinc-300 flex-shrink-0 mt-0.5"/>
  <div>
  <h3 className="text-sm font-bold glass-text uppercase tracking-wider mb-1">Local Storage Only</h3>
  <p className="text-xs text-zinc-500 leading-relaxed">

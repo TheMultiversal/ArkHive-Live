@@ -254,11 +254,11 @@ export function PageErrorFallback({ error, componentStack, onReset }: ErrorFallb
     <div className="min-h-screen bg-black flex items-center justify-center p-8">
       <div className="max-w-2xl w-full glass-card p-8">
         <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 bg-blood-900/50 flex items-center justify-center">
-            <AlertTriangle className="w-6 h-6 text-blood-400" />
+          <div className="w-12 h-12 bg-zinc-800/50 flex items-center justify-center">
+            <AlertTriangle className="w-6 h-6 text-zinc-400" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-blood-400">Something went wrong</h1>
+            <h1 className="text-xl font-bold text-zinc-400">Something went wrong</h1>
             <p className="text-sm text-zinc-500">An unexpected error has occurred</p>
           </div>
         </div>
@@ -271,7 +271,7 @@ export function PageErrorFallback({ error, componentStack, onReset }: ErrorFallb
           {onReset && (
             <button
               onClick={onReset}
-              className="px-4 py-2 bg-blood-600 hover:bg-blood-500 text-white text-sm flex items-center gap-2"
+              className="px-4 py-2 bg-zinc-700 hover:bg-zinc-600 text-white text-sm flex items-center gap-2"
             >
               <RefreshCw className="w-4 h-4" />
               Try Again
@@ -331,9 +331,9 @@ export function SectionErrorFallback({ error, onReset }: ErrorFallbackProps): Re
   return (
     <div className="bg-zinc-900/50 border border-zinc-800 p-6">
       <div className="flex items-start gap-3">
-        <AlertTriangle className="w-5 h-5 text-blood-400 flex-shrink-0 mt-0.5" />
+        <AlertTriangle className="w-5 h-5 text-zinc-400 flex-shrink-0 mt-0.5" />
         <div className="flex-1">
-          <h3 className="text-sm font-medium text-blood-400">Section Error</h3>
+          <h3 className="text-sm font-medium text-zinc-400">Section Error</h3>
           <p className="text-xs text-zinc-400 mt-1">{error.message}</p>
           {onReset && (
             <button
@@ -352,13 +352,13 @@ export function SectionErrorFallback({ error, onReset }: ErrorFallbackProps): Re
 
 export function ComponentErrorFallback({ error, onReset }: ErrorFallbackProps): React.ReactElement {
   return (
-    <div className="inline-flex items-center gap-2 px-3 py-2 bg-blood-900/30 border border-blood-800/50 text-xs">
-      <AlertTriangle className="w-3 h-3 text-blood-400" />
-      <span className="text-blood-300">Error loading component</span>
+    <div className="inline-flex items-center gap-2 px-3 py-2 bg-zinc-800/30 border border-zinc-700/50 text-xs">
+      <AlertTriangle className="w-3 h-3 text-zinc-400" />
+      <span className="text-zinc-300">Error loading component</span>
       {onReset && (
         <button
           onClick={onReset}
-          className="text-blood-400 hover:text-blood-300"
+          className="text-zinc-400 hover:text-white"
         >
           <RefreshCw className="w-3 h-3" />
         </button>
@@ -380,8 +380,8 @@ export function ErrorToast({ error, onDismiss }: ErrorToastProps): React.ReactEl
   const severityConfig = {
     info: { bg: 'bg-blue-900/80', border: 'border-blue-700', icon: 'text-blue-400' },
     warning: { bg: 'bg-yellow-900/80', border: 'border-yellow-700', icon: 'text-yellow-400' },
-    error: { bg: 'bg-blood-900/80', border: 'border-blood-700', icon: 'text-blood-400' },
-    critical: { bg: 'bg-blood-900', border: 'border-blood-500', icon: 'text-blood-300' },
+    error: { bg: 'bg-zinc-800/80', border: 'border-zinc-700', icon: 'text-zinc-400' },
+    critical: { bg: 'bg-zinc-800', border: 'border-zinc-600', icon: 'text-zinc-300' },
   };
 
   const config = severityConfig[error.severity];
@@ -502,8 +502,8 @@ export function SeverityBadge({ severity }: SeverityBadgeProps): React.ReactElem
   const config = {
     info: 'bg-blue-900/50 text-blue-400',
     warning: 'bg-yellow-900/50 text-yellow-400',
-    error: 'bg-blood-900/50 text-blood-400',
-    critical: 'bg-blood-800 text-blood-300',
+    error: 'bg-zinc-800/50 text-zinc-400',
+    critical: 'bg-zinc-800 text-zinc-300',
   };
 
   return (

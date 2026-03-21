@@ -35,10 +35,10 @@ export const SEVERITY_COLORS: Record<SeverityLevel, {
  badge: 'bg-yellow-600 text-black',
  },
  low: {
- text: 'text-blood-400',
- bg: 'bg-blood-500/10',
- border: 'border-blood-500/50',
- badge: 'bg-blood-600 text-white',
+ text: 'text-zinc-400',
+ bg: 'bg-zinc-500/10',
+ border: 'border-zinc-600/50',
+ badge: 'bg-zinc-700 text-white',
  },
 };
 

@@ -56,18 +56,18 @@ export default function EntitiesPage() {
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header, Crystal Clear */}
  <div className="py-8 lg:py-12">
- <div className="border-2 border-blood-800/60 bg-[#190800] p-6 lg:p-8 mb-8">
+ <div className="border-2 border-zinc-800/60 bg-[#080808] p-6 lg:p-8 mb-8">
  <div className="flex items-center gap-4 mb-6">
- <span className="h-[2px] flex-1 bg-gradient-to-r from-blood-700 to-transparent"/>
+ <span className="h-[2px] flex-1 bg-gradient-to-r from-zinc-700 to-transparent"/>
  <span className="text-xs text-zinc-600 uppercase tracking-[0.3em]">Entity Database</span>
- <span className="h-[2px] flex-1 bg-gradient-to-l from-blood-700 to-transparent"/>
+ <span className="h-[2px] flex-1 bg-gradient-to-l from-zinc-700 to-transparent"/>
  </div>
 
  <div className="text-center mb-6">
  <h1 className="text-4xl lg:text-5xl font-black glass-text uppercase tracking-wider mb-2">
  THE PERPETRATORS
  </h1>
- <p className="text-lg text-blood-600 font-bold uppercase tracking-[0.2em]">
+ <p className="text-lg text-zinc-500 font-bold uppercase tracking-[0.2em]">
  Every Crime Has A Name Attached
  </p>
  </div>
@@ -85,16 +85,16 @@ export default function EntitiesPage() {
  <Link
  key={category.type}
  href={`/entities/${category.type}`}
- className="group block border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8 hover:border-blood-700 transition-all duration-300"
+ className="group block border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-8 hover:border-zinc-700 transition-all duration-300"
  >
- <div className="w-16 h-16 border-2 border-blood-800/60 bg-blood-950 flex items-center justify-center mb-6 group-hover:border-blood-700 transition-colors">
- <category.icon className="w-8 h-8 text-blood-600"/>
+ <div className="w-16 h-16 border-2 border-zinc-800/60 bg-zinc-900 flex items-center justify-center mb-6 group-hover:border-zinc-700 transition-colors">
+ <category.icon className="w-8 h-8 text-zinc-500"/>
  </div>
  
- <h2 className="text-xl font-black glass-text mb-1 group-hover:text-blood-500 transition-colors uppercase tracking-wider">
+ <h2 className="text-xl font-black glass-text mb-1 group-hover:text-white transition-colors uppercase tracking-wider">
  {category.label}
  </h2>
- <p className="text-sm text-blood-600 font-bold uppercase tracking-wider mb-4">
+ <p className="text-sm text-zinc-500 font-bold uppercase tracking-wider mb-4">
  {category.subtitle}
  </p>
  
@@ -102,11 +102,11 @@ export default function EntitiesPage() {
  {category.description}
  </p>
  
- <div className="flex items-center justify-between pt-4 border-t border-[rgba(255, 80, 80,0.15)]">
+ <div className="flex items-center justify-between pt-4 border-t border-[rgba(255,255,255,0.15)]">
  <span className="text-zinc-600 text-sm">
  <span className="text-xl font-bold glass-text">{category.count}</span> entries
  </span>
- <span className="flex items-center gap-2 text-blood-600 font-bold uppercase tracking-wider text-sm group-hover:gap-3 transition-all">
+ <span className="flex items-center gap-2 text-zinc-500 font-bold uppercase tracking-wider text-sm group-hover:gap-3 transition-all">
  Access <ArrowRight className="w-5 h-5"/>
  </span>
  </div>
@@ -115,7 +115,7 @@ export default function EntitiesPage() {
  </div>
 
  {/* Info Section - Sharp */}
- <div className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8 lg:p-12">
+ <div className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-8 lg:p-12">
  <div className="text-center mb-8">
  <h3 className="text-2xl font-black glass-text uppercase tracking-wider mb-2">
  How Entity Tracking Works
@@ -126,18 +126,18 @@ export default function EntitiesPage() {
  </p>
  </div>
  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
- <div className="p-5 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <div className="text-blood-600 font-black text-2xl mb-2">01</div>
+ <div className="p-5 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <div className="text-zinc-500 font-black text-2xl mb-2">01</div>
  <div className="glass-text font-bold mb-2 uppercase tracking-wider">Document</div>
  <p className="text-zinc-500 text-sm">Every role, position, and documented crime recorded.</p>
  </div>
- <div className="p-5 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <div className="text-blood-600 font-black text-2xl mb-2">02</div>
+ <div className="p-5 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <div className="text-zinc-500 font-black text-2xl mb-2">02</div>
  <div className="glass-text font-bold mb-2 uppercase tracking-wider">Connect</div>
  <p className="text-zinc-500 text-sm">Map relationships between agencies, corporations, and individuals.</p>
  </div>
- <div className="p-5 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <div className="text-blood-600 font-black text-2xl mb-2">03</div>
+ <div className="p-5 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <div className="text-zinc-500 font-black text-2xl mb-2">03</div>
  <div className="glass-text font-bold mb-2 uppercase tracking-wider">Track</div>
  <p className="text-zinc-500 text-sm">Follow patterns of harm across multiple investigations.</p>
  </div>

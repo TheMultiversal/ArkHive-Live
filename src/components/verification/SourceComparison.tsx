@@ -225,7 +225,7 @@ function SourceHeader({
               href={source.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-500 hover:text-blood-500 transition-colors"
+              className="text-zinc-500 hover:text-white transition-colors"
               aria-label="View source"
             >
               <Link2 className="w-4 h-4" />
@@ -343,7 +343,7 @@ function ComparisonRow({
           ) : comparison.result === "conflict" ? (
             <span className="text-sm text-red-400">Disputed</span>
           ) : (
-            <span className="text-sm text-zinc-500">—</span>
+            <span className="text-sm text-zinc-500">ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â</span>
           )}
         </div>
       </div>
@@ -421,7 +421,7 @@ function ComparisonSummary({ comparisons }: ComparisonSummaryProps) {
     <div className="glass-card p-4 mb-4">
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-lg font-semibold text-white flex items-center gap-2">
-          <Scale className="w-5 h-5 text-blood-500" />
+          <Scale className="w-5 h-5 text-zinc-300" />
           Comparison Summary
         </h3>
         <div className="flex items-center gap-2">
@@ -533,7 +533,7 @@ export default function SourceComparison({
         {onAddSource && (
           <button
             onClick={onAddSource}
-            className="inline-flex items-center gap-2 px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors"
           >
             <Plus className="w-4 h-4" />
             Add Source
@@ -556,7 +556,7 @@ export default function SourceComparison({
         {onAddSource && (
           <button
             onClick={onAddSource}
-            className="inline-flex items-center gap-2 px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors"
+            className="inline-flex items-center gap-2 px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors"
           >
             <Plus className="w-4 h-4" />
             Add Source
@@ -578,7 +578,7 @@ export default function SourceComparison({
             onClick={() => setShowDifferences(!showDifferences)}
             className={`flex items-center gap-2 px-3 py-1.5 border transition-colors text-sm ${
               showDifferences
-                ? "bg-blood-600/20 border-blood-500/50 text-blood-400"
+                ? "bg-zinc-700/20 border-zinc-600/50 text-zinc-400"
                 : "bg-zinc-800/50 border-zinc-700 text-zinc-400 hover:text-zinc-300"
             }`}
           >
@@ -618,7 +618,7 @@ export default function SourceComparison({
           {onAddSource && (
             <button
               onClick={onAddSource}
-              className="flex items-center gap-2 px-3 py-1.5 bg-blood-600 text-white hover:bg-blood-500 transition-colors text-sm"
+              className="flex items-center gap-2 px-3 py-1.5 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors text-sm"
             >
               <Plus className="w-4 h-4" />
               Add Source
@@ -758,7 +758,7 @@ export function SideBySideComparison({
                   </p>
                 </div>
               ) : (
-                <p className="text-sm text-zinc-600 italic">—</p>
+                <p className="text-sm text-zinc-600 italic">ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â</p>
               )}
             </div>
 
@@ -787,7 +787,7 @@ export function SideBySideComparison({
                   </p>
                 </div>
               ) : (
-                <p className="text-sm text-zinc-600 italic">—</p>
+                <p className="text-sm text-zinc-600 italic">ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â</p>
               )}
             </div>
           </div>

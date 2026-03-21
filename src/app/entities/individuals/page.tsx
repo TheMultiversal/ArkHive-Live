@@ -84,18 +84,18 @@ export default function IndividualsPage() {
 
         {/* Header */}
         <div className="py-8">
-          <div className="border-2 border-blood-800/60 bg-[#190800] p-6 lg:p-8 mb-8">
+          <div className="border-2 border-zinc-800/60 bg-[#080808] p-6 lg:p-8 mb-8">
             <div className="flex items-center gap-4 mb-6">
-              <span className="h-[2px] flex-1 bg-gradient-to-r from-blood-700 to-transparent" />
-              <Users className="w-6 h-6 text-blood-600" />
-              <span className="h-[2px] flex-1 bg-gradient-to-l from-blood-700 to-transparent" />
+              <span className="h-[2px] flex-1 bg-gradient-to-r from-zinc-700 to-transparent" />
+              <Users className="w-6 h-6 text-zinc-500" />
+              <span className="h-[2px] flex-1 bg-gradient-to-l from-zinc-700 to-transparent" />
             </div>
 
             <div className="text-center mb-6">
               <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">
                 KEY INDIVIDUALS
               </h1>
-              <p className="text-lg text-blood-600 font-bold uppercase tracking-[0.15em]">
+              <p className="text-lg text-zinc-500 font-bold uppercase tracking-[0.15em]">
                 The Names Behind The Crimes
               </p>
               <p className="text-sm text-zinc-500 mt-2">
@@ -120,7 +120,7 @@ export default function IndividualsPage() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search individuals..."
-              className="w-full pl-12 pr-4 py-3 bg-[#190800] border-2 border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
+              className="w-full pl-12 pr-4 py-3 bg-[#080808] border-2 border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 transition-colors"
             />
           </div>
 
@@ -133,15 +133,15 @@ export default function IndividualsPage() {
                 className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${
                   riskFilter === level
                     ? level === "extreme"
-                      ? " border-blood-600 bg-blood-900 text-blood-400"
+                      ? " border-zinc-700 bg-zinc-800 text-zinc-400"
                       : level === "high"
-                        ? " border-blood-700 bg-blood-900 text-blood-500"
+                        ? " border-zinc-700 bg-zinc-800 text-zinc-300"
                         : level === "moderate"
-                          ? " border-zinc-600 bg-[#1c0a00] text-zinc-300"
+                          ? " border-zinc-600 bg-[#0a0a0a] text-zinc-300"
                           : level === "low"
-                            ? " border-[rgba(255, 60, 60,0.18)] bg-zinc-900 text-zinc-400"
-                            :"border-blood-700 bg-blood-900 text-white"
-                    :"border-[rgba(255, 80, 80,0.15)] bg-transparent text-zinc-500 hover:border-zinc-600"
+                            ? " border-[rgba(255,255,255,0.18)] bg-zinc-900 text-zinc-400"
+                            :"border-zinc-700 bg-zinc-800 text-white"
+                    :"border-[rgba(255,255,255,0.15)] bg-transparent text-zinc-500 hover:border-zinc-600"
                 }`}
               >
                 {level} ({riskCounts[level]})
@@ -164,8 +164,8 @@ export default function IndividualsPage() {
         </div>
 
         {filtered.length === 0 && (
-          <div className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-12 text-center">
-            <div className="w-16 h-16 border-2 border-[rgba(255, 60, 60,0.18)] flex items-center justify-center mx-auto mb-4">
+          <div className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-12 text-center">
+            <div className="w-16 h-16 border-2 border-[rgba(255,255,255,0.18)] flex items-center justify-center mx-auto mb-4">
               <Skull className="w-8 h-8 text-zinc-600" />
             </div>
             <h3 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">

@@ -86,7 +86,7 @@ export default function RandomWordPopups({
  }}
  >
  <span 
- className="font-black tracking-wider text-blood-800/80"
+ className="font-black tracking-wider text-zinc-700/80"
  style={{
  textShadow: '0 0 2px #000, 0 0 4px #000, 2px 2px 0 #000',
  WebkitTextStroke: '0.5px rgba(0,0,0,0.5)',

@@ -57,10 +57,10 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
 
  const getStatusColor = (status: VerificationStatus) => {
  switch (status) {
- case 'verified': return 'text-blood-400/70 bg-blood-950';
+ case 'verified': return 'text-zinc-400/70 bg-zinc-900';
  case 'disputed': return 'text-zinc-300/70 bg-zinc-900';
- case 'pending': return 'text-white/40 bg-[#190800]';
- default: return 'text-white/40 bg-[#190800]';
+ case 'pending': return 'text-white/40 bg-[#080808]';
+ default: return 'text-white/40 bg-[#080808]';
  }
  };
 
@@ -88,7 +88,7 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  <div className="flex items-center justify-between mb-3">
  <div className="flex items-center gap-2">
  <h3 className="text-xs font-medium text-white/50 uppercase tracking-widest">Evidence</h3>
- <span className="text-[10px] text-white/25 px-1.5 py-0.5 bg-[#1c0a00] rounded">
+ <span className="text-[10px] text-white/25 px-1.5 py-0.5 bg-[#0a0a0a] rounded">
  {filteredEvidence.length}
  </span>
  </div>
@@ -109,7 +109,7 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  </button>
  <button
  onClick={() => setShowAddModal(true)}
- className="ml-2 flex items-center gap-1 px-2 py-1 bg-blood-900 text-blood-400/80 rounded text-[10px] font-medium hover:bg-blood-900 transition-colors"
+ className="ml-2 flex items-center gap-1 px-2 py-1 bg-zinc-800 text-zinc-400/80 rounded text-[10px] font-medium hover:bg-zinc-800 transition-colors"
  >
  <Plus className="w-3 h-3"/>
  Add
@@ -126,13 +126,13 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  placeholder="Search evidence..."
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
- className="w-full pl-7 pr-3 py-1.5 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full pl-7 pr-3 py-1.5 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
  <select
  value={filterType}
  onChange={(e) => setFilterType(e.target.value as EvidenceType | 'all')}
- className="px-2 py-1.5 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/50 focus:outline-none cursor-pointer"
+ className="px-2 py-1.5 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/50 focus:outline-none cursor-pointer"
  >
  {typeOptions.map(option => (
  <option key={option.value} value={option.value} className="bg-[#0a0a0a]">{option.label}</option>
@@ -146,7 +146,7 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  {filteredEvidence.length === 0 ? (
  <div className="h-full flex items-center justify-center">
  <div className="text-center">
- <div className="w-10 h-10 mx-auto mb-3 bg-[#1c0a00] flex items-center justify-center">
+ <div className="w-10 h-10 mx-auto mb-3 bg-[#0a0a0a] flex items-center justify-center">
  <FileText className="w-4 h-4 text-white/15"/>
  </div>
  <p className="text-[11px] text-white/25">No evidence found</p>
@@ -161,7 +161,7 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  animate={{ opacity: 1, scale: 1 }}
  transition={{ delay: index * 0.02 }}
  onClick={() => setSelectedEvidence(item)}
- className="group p-3 bg-[#1c0a00] border border-white/[0.04] cursor-pointer hover:bg-[#1c0a00] hover:border-white/[0.06] transition-all"
+ className="group p-3 bg-[#0a0a0a] border border-white/[0.04] cursor-pointer hover:bg-[#0a0a0a] hover:border-white/[0.06] transition-all"
  >
  <div className="flex items-start justify-between mb-2">
  <div className="text-white/30">{getTypeIcon(item.type)}</div>
@@ -177,7 +177,7 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  {item.tags && item.tags.length > 0 && (
  <div className="flex flex-wrap gap-1">
  {item.tags.slice(0, 2).map((tag, i) => (
- <span key={i} className="px-1.5 py-0.5 bg-[#1c0a00] rounded text-[9px] text-white/30">{tag}</span>
+ <span key={i} className="px-1.5 py-0.5 bg-[#0a0a0a] rounded text-[9px] text-white/30">{tag}</span>
  ))}
  {item.tags.length > 2 && (
  <span className="text-[9px] text-white/20">+{item.tags.length - 2}</span>
@@ -196,9 +196,9 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  animate={{ opacity: 1, x: 0 }}
  transition={{ delay: index * 0.02 }}
  onClick={() => setSelectedEvidence(item)}
- className="group flex items-center gap-3 p-2.5 bg-[#1c0a00] border border-white/[0.04] rounded cursor-pointer hover:bg-[#1c0a00] hover:border-white/[0.06] transition-all"
+ className="group flex items-center gap-3 p-2.5 bg-[#0a0a0a] border border-white/[0.04] rounded cursor-pointer hover:bg-[#0a0a0a] hover:border-white/[0.06] transition-all"
  >
- <div className="w-8 h-8 rounded bg-[#1c0a00] flex items-center justify-center text-white/25">
+ <div className="w-8 h-8 rounded bg-[#0a0a0a] flex items-center justify-center text-white/25">
  {getTypeIcon(item.type)}
  </div>
  <div className="flex-1 min-w-0">
@@ -208,7 +208,7 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  {getStatusIcon(item.verificationStatus)}
  </span>
  </div>
- <p className="text-[10px] text-white/25 truncate">{item.addedBy} · {new Date(item.addedAt).toLocaleDateString()}</p>
+ <p className="text-[10px] text-white/25 truncate">{item.addedBy} ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· {new Date(item.addedAt).toLocaleDateString()}</p>
  </div>
  <ExternalLink className="w-3 h-3 text-white/15 opacity-0 group-hover:opacity-100 transition-opacity"/>
  </motion.div>
@@ -268,7 +268,7 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  {selectedEvidence.sourceUrl && (
  <div className="flex justify-between">
  <span>Source</span>
- <a href={selectedEvidence.sourceUrl} target="_blank"rel="noopener noreferrer"className="text-blood-400/70 hover:text-blood-400 flex items-center gap-1">
+ <a href={selectedEvidence.sourceUrl} target="_blank"rel="noopener noreferrer"className="text-zinc-400/70 hover:text-white flex items-center gap-1">
  View <ExternalLink className="w-2.5 h-2.5"/>
  </a>
  </div>
@@ -278,7 +278,7 @@ export default function EvidenceBoard({ evidence, onAddEvidence }: EvidenceBoard
  {selectedEvidence.tags && selectedEvidence.tags.length > 0 && (
  <div className="flex flex-wrap gap-1 pt-3 border-t border-white/[0.04]">
  {selectedEvidence.tags.map((tag, i) => (
- <span key={i} className="px-2 py-0.5 bg-[#1c0a00] rounded text-[10px] text-white/30">{tag}</span>
+ <span key={i} className="px-2 py-0.5 bg-[#0a0a0a] rounded text-[10px] text-white/30">{tag}</span>
  ))}
  </div>
  )}
@@ -364,7 +364,7 @@ function AddEvidenceModal({ onClose, onAdd }: AddEvidenceModalProps) {
  value={title}
  onChange={(e) => setTitle(e.target.value)}
  placeholder="Evidence title..."
- className="w-full px-3 py-2 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  required
  />
  </div>
@@ -374,7 +374,7 @@ function AddEvidenceModal({ onClose, onAdd }: AddEvidenceModalProps) {
  <select
  value={type}
  onChange={(e) => setType(e.target.value as EvidenceType)}
- className="w-full px-3 py-2 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/50 focus:outline-none cursor-pointer"
+ className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/50 focus:outline-none cursor-pointer"
  >
  <option value="document"className="bg-[#0a0a0a]">Document</option>
  <option value="image"className="bg-[#0a0a0a]">Image</option>
@@ -391,7 +391,7 @@ function AddEvidenceModal({ onClose, onAdd }: AddEvidenceModalProps) {
  onChange={(e) => setDescription(e.target.value)}
  placeholder="Brief description..."
  rows={3}
- className="w-full px-3 py-2 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors resize-none"
+ className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors resize-none"
  />
  </div>
 
@@ -402,7 +402,7 @@ function AddEvidenceModal({ onClose, onAdd }: AddEvidenceModalProps) {
  value={sourceUrl}
  onChange={(e) => setSourceUrl(e.target.value)}
  placeholder="https://..."
- className="w-full px-3 py-2 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
 
@@ -413,7 +413,7 @@ function AddEvidenceModal({ onClose, onAdd }: AddEvidenceModalProps) {
  value={tags}
  onChange={(e) => setTags(e.target.value)}
  placeholder="foia, government, health..."
- className="w-full px-3 py-2 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
 
@@ -421,13 +421,13 @@ function AddEvidenceModal({ onClose, onAdd }: AddEvidenceModalProps) {
  <button
  type="button"
  onClick={onClose}
- className="flex-1 px-3 py-2 bg-[#1c0a00] text-white/40 rounded text-[11px] font-medium hover:bg-[#200c00] transition-colors"
+ className="flex-1 px-3 py-2 bg-[#0a0a0a] text-white/40 rounded text-[11px] font-medium hover:bg-[#0d0d0d] transition-colors"
  >
  Cancel
  </button>
  <button
  type="submit"
- className="flex-1 px-3 py-2 bg-blood-900 text-blood-400/80 rounded text-[11px] font-medium hover:bg-blood-900 transition-colors"
+ className="flex-1 px-3 py-2 bg-zinc-800 text-zinc-400/80 rounded text-[11px] font-medium hover:bg-zinc-800 transition-colors"
  >
  Add Evidence
  </button>

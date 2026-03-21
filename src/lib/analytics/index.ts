@@ -591,7 +591,7 @@ export function EventList({ events, maxItems = 50 }: EventListProps): ReactEleme
             className="flex items-center justify-between p-2 bg-black/50 border border-zinc-800"
           >
             <div>
-              <span className="text-blood-400 font-medium">{event.name}</span>
+              <span className="text-zinc-400 font-medium">{event.name}</span>
               <span className="text-zinc-500 ml-2 text-sm">{event.category}</span>
             </div>
             <span className="text-xs text-zinc-600">
@@ -625,7 +625,7 @@ export function FunnelChart({ steps }: FunnelChartProps): ReactElement {
             </div>
             <div className="h-6 bg-black/50 relative">
               <div 
-                className="h-full bg-blood-600"
+                className="h-full bg-zinc-700"
                 style={{ width: `${(step.count / maxCount) * 100}%` }}
               />
             </div>

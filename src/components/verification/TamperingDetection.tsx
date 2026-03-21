@@ -244,7 +244,7 @@ export function IntegrityPanel({ report, onReanalyze, className = "" }: Integrit
       {/* Header */}
       <div className="border-b border-zinc-800 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Fingerprint className="w-4 h-4 text-blood-500" />
+          <Fingerprint className="w-4 h-4 text-zinc-300" />
           <span className="text-sm font-bold text-white uppercase tracking-wider">Evidence Integrity</span>
         </div>
         {onReanalyze && (
@@ -377,7 +377,7 @@ export function IntegrityPanel({ report, onReanalyze, className = "" }: Integrit
           <ul className="space-y-1">
             {report.recommendations.map((rec, idx) => (
               <li key={idx} className="text-xs text-zinc-400 flex items-start gap-2">
-                <Shield className="w-3 h-3 flex-shrink-0 mt-0.5 text-blood-600" />
+                <Shield className="w-3 h-3 flex-shrink-0 mt-0.5 text-zinc-500" />
                 {rec}
               </li>
             ))}

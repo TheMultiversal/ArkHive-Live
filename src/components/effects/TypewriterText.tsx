@@ -22,7 +22,7 @@ export default function TypewriterText({
  speed = 50,
  delay = 0,
  cursor = true,
- cursorColor = '#8f0000',
+ cursorColor = '#3d3d3d',
  sound = false,
  onComplete,
  classified = false,
@@ -89,8 +89,8 @@ export default function TypewriterText({
  animate={{ scale: 1, opacity: 1 }}
  transition={{ duration: 0.2, ease: 'easeOut' }}
  >
- <div className="border-4 border-blood-700 px-3 py-1 bg-transparent">
- <span className="text-blood-700 font-bold text-lg tracking-widest font-mono">
+ <div className="border-4 border-zinc-700 px-3 py-1 bg-transparent">
+ <span className="text-zinc-600 font-bold text-lg tracking-widest font-mono">
  CLASSIFIED
  </span>
  </div>
@@ -185,7 +185,7 @@ export function RedactedTypewriter({
  let result = str;
  redactedWords.forEach(word => {
  const regex = new RegExp(`(${word})`, 'gi');
- result = result.replace(regex, '██████');
+ result = result.replace(regex, 'Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†Ã¢â€“Ë†');
  });
  return result;
  };
@@ -195,7 +195,7 @@ export function RedactedTypewriter({
  <span>{processText(displayedText)}</span>
  {!isComplete && (
  <motion.span
- className="inline-block w-[2px] h-[1em] bg-blood-600 ml-[2px]"
+ className="inline-block w-[2px] h-[1em] bg-zinc-700 ml-[2px]"
  animate={{ opacity: [1, 0, 1] }}
  transition={{ duration: 0.8, repeat: Infinity }}
  />

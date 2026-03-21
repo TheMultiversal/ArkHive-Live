@@ -14,7 +14,7 @@ export default function TermsPage() {
  animate={{ opacity: 1, y: 0 }}
  className="mb-12"
  >
- <Scale className="w-16 h-16 text-blood-500 mb-4"/>
+ <Scale className="w-16 h-16 text-zinc-300 mb-4"/>
  <h1 className="text-2xl sm:text-4xl font-bold glass-text mb-4">Terms of Service</h1>
  <p className="text-zinc-400">
  Last updated: January 15, 2025
@@ -142,7 +142,7 @@ export default function TermsPage() {
  className="mb-12"
  >
  <h2 className="text-2xl font-bold glass-text mb-4">5. Source Protection</h2>
- <div className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-6 text-zinc-300 space-y-4">
+ <div className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-6 text-zinc-300 space-y-4">
  <p>
  Protecting the identity and safety of sources is fundamental to our mission. 
  Any attempt to identify, locate, or harm whistleblowers or sources using 
@@ -235,7 +235,7 @@ export default function TermsPage() {
  public interest.
  </p>
  <p>
- For DMCA concerns, contact: <span className="text-blood-400">legal@arkhive.org</span>
+ For DMCA concerns, contact: <span className="text-zinc-400">legal@arkhive.org</span>
  </p>
  <p>
  Note: We will vigorously defend fair use rights and will not remove 
@@ -257,10 +257,10 @@ export default function TermsPage() {
  </p>
  <ul className="space-y-2">
  <li>
- Email: <span className="text-blood-400">legal@arkhive.org</span>
+ Email: <span className="text-zinc-400">legal@arkhive.org</span>
  </li>
  <li>
- See our <Link href="/contact"className="text-blood-400 underline">Contact page</Link> for secure communication options
+ See our <Link href="/contact"className="text-zinc-400 underline">Contact page</Link> for secure communication options
  </li>
  </ul>
  </div>
@@ -272,19 +272,19 @@ export default function TermsPage() {
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  transition={{ delay: 0.6 }}
- className="mt-12 pt-8 border-t border-[rgba(255, 80, 80,0.15)]"
+ className="mt-12 pt-8 border-t border-[rgba(255,255,255,0.15)]"
  >
  <h3 className="text-lg font-semibold text-white mb-4">Related Documents</h3>
  <div className="flex flex-wrap gap-4">
  <Link
  href="/privacy"
- className="flex items-center gap-2 text-zinc-400 hover:text-blood-400 transition-colors"
+ className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
  >
  Privacy Policy <ExternalLink className="w-4 h-4"/>
  </Link>
  <Link
  href="/methodology"
- className="flex items-center gap-2 text-zinc-400 hover:text-blood-400 transition-colors"
+ className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
  >
  Methodology <ExternalLink className="w-4 h-4"/>
  </Link>

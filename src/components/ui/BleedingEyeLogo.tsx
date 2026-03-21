@@ -35,16 +35,16 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  >
  {/* Outer atmospheric glow - multiple layers */}
  <div className="absolute inset-0 scale-150">
- <div className="absolute inset-0 bg-blood-900 blur-xl animate-pulse"style={{ animationDuration: '3s' }} />
- <div className="absolute inset-0 bg-blood-950 blur-2xl animate-pulse"style={{ animationDuration: '4s', animationDelay: '1s' }} />
- <div className="absolute inset-0 bg-blood-900 blur-3xl animate-pulse"style={{ animationDuration: '5s', animationDelay: '2s' }} />
+ <div className="absolute inset-0 bg-zinc-800 blur-xl animate-pulse"style={{ animationDuration: '3s' }} />
+ <div className="absolute inset-0 bg-zinc-900 blur-2xl animate-pulse"style={{ animationDuration: '4s', animationDelay: '1s' }} />
+ <div className="absolute inset-0 bg-zinc-800 blur-3xl animate-pulse"style={{ animationDuration: '5s', animationDelay: '2s' }} />
  </div>
 
  {/* Main container with glass morphism */}
  <div className={`relative ${s.container} overflow-hidden transition-all duration-500 ${isHovered ? 'scale-110' : 'scale-100'}`}>
  {/* Animated gradient border */}
- <div className="absolute inset-0 p-[2px] bg-gradient-to-br from-blood-500 via-blood-700 to-blood-900 animate-gradient-rotate">
- <div className="absolute inset-0 bg-gradient-to-br from-blood-600/50 via-transparent to-blood-900/50 animate-spin-slow"style={{ animationDuration: '8s' }} />
+ <div className="absolute inset-0 p-[2px] bg-gradient-to-br from-zinc-600 via-zinc-700 to-zinc-800 animate-gradient-rotate">
+ <div className="absolute inset-0 bg-gradient-to-br from-zinc-700/50 via-transparent to-zinc-800/50 animate-spin-slow"style={{ animationDuration: '8s' }} />
  </div>
 
  {/* Inner background */}
@@ -58,7 +58,7 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  <svg
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
- style={{ filter: 'drop-shadow(0 0 10px rgba(214, 42, 42, 0.5))' }}
+ style={{ filter: 'drop-shadow(0 0 10px rgba(160, 160, 160, 0.5))' }}
  >
  <defs>
  {/* Gradients */}
@@ -69,8 +69,8 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  </radialGradient>
 
  <radialGradient id="irisGradient"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#8f0000">
- <animate attributeName="stop-color"values="#8f0000;#330000;#8f0000"dur="3s"repeatCount="indefinite"/>
+ <stop offset="0%"stopColor="#3d3d3d">
+ <animate attributeName="stop-color"values="#3d3d3d;#330000;#3d3d3d"dur="3s"repeatCount="indefinite"/>
  </stop>
  <stop offset="50%"stopColor="#330000"/>
  <stop offset="100%"stopColor="#000a1f"/>
@@ -82,13 +82,13 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  </radialGradient>
 
  <linearGradient id="bloodGradient"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#8f0000"/>
+ <stop offset="0%"stopColor="#3d3d3d"/>
  <stop offset="50%"stopColor="#6b0000"/>
- <stop offset="100%"stopColor="#4d0000"/>
+ <stop offset="100%"stopColor="#2a2a2a"/>
  </linearGradient>
 
  <linearGradient id="bloodDripGradient"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#8f0000"stopOpacity="0.9"/>
+ <stop offset="0%"stopColor="#3d3d3d"stopOpacity="0.9"/>
  <stop offset="100%"stopColor="#330000"stopOpacity="1"/>
  </linearGradient>
 
@@ -104,7 +104,7 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  {/* Blood glow */}
  <filter id="bloodGlow"x="-100%"y="-100%"width="300%"height="300%">
  <feGaussianBlur stdDeviation="1.5"result="blur"/>
- <feFlood floodColor="#8f0000"floodOpacity="0.6"/>
+ <feFlood floodColor="#3d3d3d"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -128,12 +128,12 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
 
  {/* Blood vessels */}
  <g opacity="0.4">
- <path d="M20 45 Q30 48, 35 50"stroke="#8f0000"strokeWidth="0.5"fill="none"opacity="0.6"/>
+ <path d="M20 45 Q30 48, 35 50"stroke="#3d3d3d"strokeWidth="0.5"fill="none"opacity="0.6"/>
  <path d="M18 52 Q28 50, 33 49"stroke="#6b0000"strokeWidth="0.4"fill="none"opacity="0.5"/>
- <path d="M22 55 Q30 53, 36 51"stroke="#8f0000"strokeWidth="0.3"fill="none"opacity="0.4"/>
- <path d="M80 45 Q70 48, 65 50"stroke="#8f0000"strokeWidth="0.5"fill="none"opacity="0.6"/>
+ <path d="M22 55 Q30 53, 36 51"stroke="#3d3d3d"strokeWidth="0.3"fill="none"opacity="0.4"/>
+ <path d="M80 45 Q70 48, 65 50"stroke="#3d3d3d"strokeWidth="0.5"fill="none"opacity="0.6"/>
  <path d="M82 52 Q72 50, 67 49"stroke="#6b0000"strokeWidth="0.4"fill="none"opacity="0.5"/>
- <path d="M78 55 Q70 53, 64 51"stroke="#8f0000"strokeWidth="0.3"fill="none"opacity="0.4"/>
+ <path d="M78 55 Q70 53, 64 51"stroke="#3d3d3d"strokeWidth="0.3"fill="none"opacity="0.4"/>
  </g>
 
  {/* Iris */}
@@ -142,7 +142,7 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  </circle>
 
  {/* Iris detail rings */}
- <circle cx="50"cy="50"r="12"fill="none"stroke="#4d0000"strokeWidth="0.5"opacity="0.5"/>
+ <circle cx="50"cy="50"r="12"fill="none"stroke="#2a2a2a"strokeWidth="0.5"opacity="0.5"/>
  <circle cx="50"cy="50"r="10"fill="none"stroke="#000a1f"strokeWidth="0.3"opacity="0.3"/>
 
  {/* Iris radial lines */}
@@ -235,20 +235,20 @@ export default function BleedingEyeLogo({ size ="md", className =""}: BleedingEy
  </svg>
 
  {/* Pulsing red overlay on hover */}
- <div className={`absolute inset-0 bg-blood-950 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`} />
+ <div className={`absolute inset-0 bg-zinc-900 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`} />
 
  {/* Corner accents */}
- <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-blood-600/50 rounded-tl-lg"/>
- <div className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-blood-600/50 rounded-tr-lg"/>
- <div className="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-blood-600/50 rounded-bl-lg"/>
- <div className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-blood-600/50 rounded-br-lg"/>
+ <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-zinc-700/50 rounded-tl-lg"/>
+ <div className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-zinc-700/50 rounded-tr-lg"/>
+ <div className="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-zinc-700/50 rounded-bl-lg"/>
+ <div className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-zinc-700/50 rounded-br-lg"/>
  </div>
  </div>
 
  {/* Status indicator - pulsing dot */}
  <div className="absolute -top-1 -right-1 w-3 h-3">
- <span className="absolute inset-0 bg-blood-700 rounded-full animate-ping opacity-75"style={{ animationDuration: '2s' }} />
- <span className="absolute inset-0 bg-gradient-to-br from-blood-500 to-blood-700 shadow-lg shadow-blood-600/50"/>
+ <span className="absolute inset-0 bg-zinc-700 rounded-full animate-ping opacity-75"style={{ animationDuration: '2s' }} />
+ <span className="absolute inset-0 bg-gradient-to-br from-zinc-600 to-zinc-700 shadow-lg shadow-zinc-800-600/50"/>
  </div>
  </div>
  );

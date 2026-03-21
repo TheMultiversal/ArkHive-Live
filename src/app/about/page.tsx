@@ -30,12 +30,12 @@ export default function AboutPage() {
  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header */}
  <div className="py-12">
- <div className="border-2 border-blood-800/60 bg-[#190800] p-8 lg:p-12 text-center">
- <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-800 bg-blood-950 flex items-center justify-center">
- <Skull className="w-10 h-10 text-blood-700"/>
+ <div className="border-2 border-zinc-800/60 bg-[#080808] p-8 lg:p-12 text-center">
+ <div className="w-20 h-20 mx-auto mb-6 border-2 border-zinc-800 bg-zinc-900 flex items-center justify-center">
+ <Skull className="w-10 h-10 text-zinc-600"/>
  </div>
  <h1 className="text-4xl lg:text-5xl font-black glass-text uppercase tracking-wider mb-4">
- ABOUT <span className="text-blood-600">ARKHIVE<sup className="text-blood-700 text-lg">®</sup></span>
+ ABOUT <span className="text-zinc-500">ARKHIVE<sup className="text-zinc-600 text-lg">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®</sup></span>
  </h1>
  <p className="text-lg text-zinc-400 max-w-2xl mx-auto mb-8">
  The largest open-source investigative accountability platform on the internet.
@@ -43,24 +43,24 @@ export default function AboutPage() {
  </p>
  {/* Live Stats Bar */}
  <div className="flex flex-wrap justify-center gap-4 text-xs font-mono">
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">{INVESTIGATION_COUNT.toLocaleString()}</span>
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-zinc-800 bg-black">
+ <span className="text-zinc-300 font-bold">{INVESTIGATION_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Investigations</span>
  </div>
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">{INDIVIDUAL_COUNT.toLocaleString()}</span>
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-zinc-800 bg-black">
+ <span className="text-zinc-300 font-bold">{INDIVIDUAL_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Individuals Tracked</span>
  </div>
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">{AGENCY_COUNT.toLocaleString()}</span>
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-zinc-800 bg-black">
+ <span className="text-zinc-300 font-bold">{AGENCY_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Agencies</span>
  </div>
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">{CORPORATION_COUNT.toLocaleString()}</span>
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-zinc-800 bg-black">
+ <span className="text-zinc-300 font-bold">{CORPORATION_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Corporations</span>
  </div>
- <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">{ORGANIZATION_COUNT.toLocaleString()}</span>
+ <div className="flex items-center gap-2 px-3 py-1.5 border border-zinc-800 bg-black">
+ <span className="text-zinc-300 font-bold">{ORGANIZATION_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Organizations</span>
  </div>
  </div>
@@ -68,13 +68,13 @@ export default function AboutPage() {
  </div>
 
  {/* What Is ArkHive */}
- <section className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8 mb-6">
+ <section className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-8 mb-6">
  <div className="flex items-center gap-3 mb-4">
- <Database className="w-6 h-6 text-blood-700"/>
+ <Database className="w-6 h-6 text-zinc-600"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">What Is ArkHive</h2>
  </div>
  <p className="text-zinc-400 leading-relaxed mb-4">
- <span className="glass-text font-bold">ArkHive®</span> is a comprehensive investigative accountability
+ <span className="glass-text font-bold">ArkHiveÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â®</span> is a comprehensive investigative accountability
  database that documents institutional crimes, systemic corruption, and abuses of power across governments,
  corporations, intelligence agencies, and the individuals who operate them. Every investigation is
  cross-referenced with named entities; creating an interconnected map of who did what, when, and with whom.
@@ -92,35 +92,35 @@ export default function AboutPage() {
  </section>
 
  {/* Mission */}
- <section className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8 mb-6">
+ <section className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-8 mb-6">
  <div className="flex items-center gap-3 mb-4">
- <Target className="w-6 h-6 text-blood-700"/>
+ <Target className="w-6 h-6 text-zinc-600"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">Our Mission</h2>
  </div>
  <div className="space-y-4">
- <div className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <div className="w-2 bg-blood-700 shrink-0"/>
+ <div className="flex gap-4 p-4 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <div className="w-2 bg-zinc-700 shrink-0"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Permanent Documentation</h3>
  <p className="text-zinc-500 text-sm">Create an indestructible public record of institutional crimes that cannot be memory-holed, redacted, or classified away. Once it&apos;s in the archive, it stays.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <div className="w-2 bg-blood-700 shrink-0"/>
+ <div className="flex gap-4 p-4 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <div className="w-2 bg-zinc-700 shrink-0"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Connection Mapping</h3>
  <p className="text-zinc-500 text-sm">Reveal how power operates through networks. A single investigation is a story. {INVESTIGATION_COUNT.toLocaleString()} investigations cross-referenced with {ENTITY_COUNT.toLocaleString()} entities across {CONNECTION_COUNT.toLocaleString()} mapped connections is a map of systemic corruption.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <div className="w-2 bg-blood-700 shrink-0"/>
+ <div className="flex gap-4 p-4 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <div className="w-2 bg-zinc-700 shrink-0"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Public Accessibility</h3>
  <p className="text-zinc-500 text-sm">No paywalls. No subscriptions. No donor-influenced editorial boards. The archive is free because accountability shouldn&apos;t have a price tag.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <div className="w-2 bg-blood-700 shrink-0"/>
+ <div className="flex gap-4 p-4 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <div className="w-2 bg-zinc-700 shrink-0"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Pattern Recognition</h3>
  <p className="text-zinc-500 text-sm">Individual crimes look like anomalies. Documented patterns reveal systems. The same corporations, the same agencies, the same individuals; appearing across decades of investigations.</p>
@@ -130,13 +130,13 @@ export default function AboutPage() {
  </section>
 
 {/* What We Cover */}
-            <section className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8 mb-6">
+            <section className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-8 mb-6">
               <div className="flex items-center gap-3 mb-6">
-                <FileText className="w-6 h-6 text-blood-700"/>
+                <FileText className="w-6 h-6 text-zinc-600"/>
                 <h2 className="text-xl font-black glass-text uppercase tracking-wider">What We Cover</h2>
               </div>
               <p className="text-zinc-500 text-sm mb-2">
-                Investigations span <span className="text-blood-500 font-bold">138+ categories</span> across every major domain of institutional power. Below are the primary domains and representative coverage areas:
+                Investigations span <span className="text-zinc-300 font-bold">138+ categories</span> across every major domain of institutional power. Below are the primary domains and representative coverage areas:
               </p>
               <p className="text-zinc-600 text-xs mb-5">
                 Each investigation is tagged with specific categories. Many cross multiple domains; a single case of corporate fraud may also involve government corruption, environmental crime, and whistleblower retaliation.
@@ -164,8 +164,8 @@ export default function AboutPage() {
                   { label:"Whistleblower & Transparency", desc:"Whistleblower retaliation, transparency, accountability, cover-ups" },
                   { label:"Animal Welfare & Other", desc:"Animal welfare, assassination, food & agriculture, research ethics" },
  ].map((item) => (
- <div key={item.label} className="flex gap-3 p-3 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <span className="w-1.5 h-1.5 bg-blood-700 shrink-0 mt-1.5"/>
+ <div key={item.label} className="flex gap-3 p-3 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <span className="w-1.5 h-1.5 bg-zinc-700 shrink-0 mt-1.5"/>
  <div>
  <span className="text-zinc-300 text-xs font-semibold">{item.label}</span>
  <p className="text-zinc-600 text-[10px] leading-tight mt-0.5">{item.desc}</p>
@@ -176,9 +176,9 @@ export default function AboutPage() {
  </section>
 
  {/* How It Works */}
- <section className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8 mb-6">
+ <section className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-8 mb-6">
  <div className="flex items-center gap-3 mb-6">
- <Eye className="w-6 h-6 text-blood-700"/>
+ <Eye className="w-6 h-6 text-zinc-600"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">How The Archive Works</h2>
  </div>
  <div className="space-y-4">
@@ -189,8 +189,8 @@ export default function AboutPage() {
  { num:"04", title:"SEVERITY CLASSIFICATION", desc:"Every investigation is rated by severity: Critical (ongoing serious harm), High (significant documented damage), Medium (systemic issues), or Low (historical documentation). This helps prioritize what demands attention." },
  { num:"05", title:"PERMANENT ARCHIVAL", desc:"Published investigations become part of the permanent archive. They are updated when new information emerges (court rulings, new documents, additional entities identified) but never deleted." },
  ].map((step) => (
- <div key={step.num} className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <div className="text-blood-600 font-black text-xl">{step.num}</div>
+ <div key={step.num} className="flex gap-4 p-4 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <div className="text-zinc-500 font-black text-xl">{step.num}</div>
  <div>
  <h3 className="font-bold glass-text mb-1 uppercase tracking-wider">{step.title}</h3>
  <p className="text-zinc-500 text-sm">{step.desc}</p>
@@ -201,9 +201,9 @@ export default function AboutPage() {
  </section>
 
  {/* Entity Tracking */}
- <section className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8 mb-6">
+ <section className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-8 mb-6">
  <div className="flex items-center gap-3 mb-4">
- <Users className="w-6 h-6 text-blood-700"/>
+ <Users className="w-6 h-6 text-zinc-600"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">Entity Tracking System</h2>
  </div>
  <p className="text-zinc-400 leading-relaxed mb-6">
@@ -211,43 +211,43 @@ export default function AboutPage() {
  When you open an entity profile, you see every investigation they appear in. The network becomes visible.
  </p>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
- <Link href="/entities/individuals" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
+ <Link href="/entities/individuals" className="p-5 border border-zinc-800/50 bg-zinc-900 hover:bg-zinc-800/80 transition-colors group">
  <div className="flex items-center justify-between mb-2">
- <h3 className="text-blood-600 font-bold uppercase tracking-wider">Individuals</h3>
- <span className="text-blood-500 font-mono text-sm font-bold">2,110</span>
+ <h3 className="text-zinc-500 font-bold uppercase tracking-wider">Individuals</h3>
+ <span className="text-zinc-300 font-mono text-sm font-bold">2,110</span>
  </div>
  <p className="text-zinc-500 text-sm mb-2">Presidents, executives, intelligence directors, judges, lobbyists; the people who made the decisions, signed the orders, and took the money.</p>
- <span className="text-blood-700 text-xs font-medium flex items-center gap-1 group-hover:text-blood-500 transition-colors">
+ <span className="text-zinc-600 text-xs font-medium flex items-center gap-1 group-hover:text-white transition-colors">
  Browse Individuals <ArrowRight className="w-3 h-3"/>
  </span>
  </Link>
- <Link href="/entities/agencies" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
+ <Link href="/entities/agencies" className="p-5 border border-zinc-800/50 bg-zinc-900 hover:bg-zinc-800/80 transition-colors group">
  <div className="flex items-center justify-between mb-2">
- <h3 className="text-blood-600 font-bold uppercase tracking-wider">Government Agencies</h3>
- <span className="text-blood-500 font-mono text-sm font-bold">141</span>
+ <h3 className="text-zinc-500 font-bold uppercase tracking-wider">Government Agencies</h3>
+ <span className="text-zinc-300 font-mono text-sm font-bold">141</span>
  </div>
  <p className="text-zinc-500 text-sm mb-2">CIA, FBI, NSA, DOJ, EPA, DOD, FCC, SEC, FDA; federal, state, and international agencies with documented involvement in institutional crimes.</p>
- <span className="text-blood-700 text-xs font-medium flex items-center gap-1 group-hover:text-blood-500 transition-colors">
+ <span className="text-zinc-600 text-xs font-medium flex items-center gap-1 group-hover:text-white transition-colors">
  Browse Agencies <ArrowRight className="w-3 h-3"/>
  </span>
  </Link>
- <Link href="/entities/corporations" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
+ <Link href="/entities/corporations" className="p-5 border border-zinc-800/50 bg-zinc-900 hover:bg-zinc-800/80 transition-colors group">
  <div className="flex items-center justify-between mb-2">
- <h3 className="text-blood-600 font-bold uppercase tracking-wider">Corporations</h3>
- <span className="text-blood-500 font-mono text-sm font-bold">209</span>
+ <h3 className="text-zinc-500 font-bold uppercase tracking-wider">Corporations</h3>
+ <span className="text-zinc-300 font-mono text-sm font-bold">209</span>
  </div>
  <p className="text-zinc-500 text-sm mb-2">Defense contractors, pharmaceutical giants, Wall Street banks, Big Tech, fossil fuel companies, media conglomerates; profiting from the systems they corrupt.</p>
- <span className="text-blood-700 text-xs font-medium flex items-center gap-1 group-hover:text-blood-500 transition-colors">
+ <span className="text-zinc-600 text-xs font-medium flex items-center gap-1 group-hover:text-white transition-colors">
  Browse Corporations <ArrowRight className="w-3 h-3"/>
  </span>
  </Link>
- <Link href="/entities/organizations" className="p-5 border border-blood-900/50 bg-blood-950 hover:bg-blood-950 transition-colors group">
+ <Link href="/entities/organizations" className="p-5 border border-zinc-800/50 bg-zinc-900 hover:bg-zinc-800/80 transition-colors group">
  <div className="flex items-center justify-between mb-2">
- <h3 className="text-blood-600 font-bold uppercase tracking-wider">Organizations</h3>
- <span className="text-blood-500 font-mono text-sm font-bold">155</span>
+ <h3 className="text-zinc-500 font-bold uppercase tracking-wider">Organizations</h3>
+ <span className="text-zinc-300 font-mono text-sm font-bold">155</span>
  </div>
  <p className="text-zinc-500 text-sm mb-2">Think tanks, PACs, lobbying groups, extremist networks, NGOs, and international organizations connected to documented investigations.</p>
- <span className="text-blood-700 text-xs font-medium flex items-center gap-1 group-hover:text-blood-500 transition-colors">
+ <span className="text-zinc-600 text-xs font-medium flex items-center gap-1 group-hover:text-white transition-colors">
  Browse Organizations <ArrowRight className="w-3 h-3"/>
  </span>
  </Link>
@@ -255,35 +255,35 @@ export default function AboutPage() {
  </section>
 
  {/* Principles */}
- <section className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8 mb-6">
+ <section className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-8 mb-6">
  <div className="flex items-center gap-3 mb-6">
- <Scale className="w-6 h-6 text-blood-700"/>
+ <Scale className="w-6 h-6 text-zinc-600"/>
  <h2 className="text-xl font-black glass-text uppercase tracking-wider">Editorial Principles</h2>
  </div>
  <div className="space-y-4">
- <div className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <Shield className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
+ <div className="flex gap-4 p-4 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <Shield className="w-5 h-5 text-zinc-600 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Source-Based Documentation</h3>
  <p className="text-zinc-500 text-sm">Every investigation cites its sources: court records, government reports, congressional testimony, FOIA documents, and investigative journalism from established outlets. We link to primary documents whenever possible.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <Globe className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
+ <div className="flex gap-4 p-4 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <Globe className="w-5 h-5 text-zinc-600 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Non-Partisan Accountability</h3>
  <p className="text-zinc-500 text-sm">Corruption has no political party. The archive documents crimes regardless of who committed them: Democrat, Republican, foreign government, multinational corporation. Power is the common denominator.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <AlertTriangle className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
+ <div className="flex gap-4 p-4 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <AlertTriangle className="w-5 h-5 text-zinc-600 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Living Documents</h3>
  <p className="text-zinc-500 text-sm">Investigations are updated as new information surfaces: new court rulings, declassified documents, whistleblower testimony, or newly identified entities. The archive grows and the picture gets clearer.</p>
  </div>
  </div>
- <div className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">
- <Zap className="w-5 h-5 text-blood-700 shrink-0 mt-0.5"/>
+ <div className="flex gap-4 p-4 border border-[rgba(255,255,255,0.15)] bg-zinc-900">
+ <Zap className="w-5 h-5 text-zinc-600 shrink-0 mt-0.5"/>
  <div>
  <h3 className="font-bold glass-text mb-1">No Advertising. No Sponsors. No Compromise.</h3>
  <p className="text-zinc-500 text-sm">ArkHive accepts no advertising revenue, corporate sponsorship, or government funding. An accountability platform funded by the people it investigates is not an accountability platform.</p>
@@ -293,7 +293,7 @@ export default function AboutPage() {
  </section>
 
  {/* Disclaimer */}
- <section className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-6">
+ <section className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-6">
  <p className="text-zinc-600 text-xs leading-relaxed">
  <span className="text-zinc-500 font-bold">DISCLAIMER:</span> ArkHive is a documentation and research platform.
  Investigations compile publicly available information from cited sources including government reports,
@@ -305,9 +305,9 @@ export default function AboutPage() {
  </section>
 
  {/* CTA */}
- <section className="border-2 border-blood-800/60 bg-[#190800] p-8 text-center">
- <div className="w-12 h-12 border-2 border-blood-800 flex items-center justify-center mx-auto mb-4">
- <Lock className="w-6 h-6 text-blood-700"/>
+ <section className="border-2 border-zinc-800/60 bg-[#080808] p-8 text-center">
+ <div className="w-12 h-12 border-2 border-zinc-800 flex items-center justify-center mx-auto mb-4">
+ <Lock className="w-6 h-6 text-zinc-600"/>
  </div>
  <h2 className="text-2xl font-black glass-text uppercase tracking-wider mb-4">
  Help Build The Archive
@@ -318,7 +318,7 @@ export default function AboutPage() {
  </p>
  <Link
  href="/submit"
- className="inline-flex items-center gap-2 px-8 py-4 border-2 border-blood-700 bg-transparent text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-950 transition-all"
+ className="inline-flex items-center gap-2 px-8 py-4 border-2 border-zinc-700 bg-transparent text-zinc-500 font-bold uppercase tracking-wider hover:bg-zinc-800/80 transition-all"
  >
  Submit Information
  <ArrowRight className="w-5 h-5"/>

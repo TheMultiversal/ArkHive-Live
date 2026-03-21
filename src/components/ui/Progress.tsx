@@ -33,10 +33,10 @@ const sizeStyles = {
 };
 
 const variantStyles = {
- default: 'bg-blood-500',
- success: 'bg-blood-500',
+ default: 'bg-zinc-600',
+ success: 'bg-zinc-600',
  warning: 'bg-zinc-400',
- danger: 'bg-blood-500',
+ danger: 'bg-zinc-600',
 };
 
 export const Progress = forwardRef<HTMLDivElement, ProgressProps>(
@@ -70,7 +70,7 @@ export const Progress = forwardRef<HTMLDivElement, ProgressProps>(
  )}
  <div
  className={cn(
- 'w-full bg-[#200c00] overflow-hidden rounded-none',
+ 'w-full bg-[#0d0d0d] overflow-hidden rounded-none',
  sizeStyles[size]
  )}
  role="progressbar"
@@ -119,10 +119,10 @@ interface CircularProgressProps extends HTMLAttributes<SVGSVGElement> {
 }
 
 const circularVariantStyles = {
- default: 'stroke-blood-500',
- success: 'stroke-blood-500',
+ default: 'stroke-zinc-400',
+ success: 'stroke-zinc-400',
  warning: 'stroke-zinc-400',
- danger: 'stroke-blood-500',
+ danger: 'stroke-zinc-400',
 };
 
 export const CircularProgress = forwardRef<SVGSVGElement, CircularProgressProps>(

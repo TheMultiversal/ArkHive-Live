@@ -639,7 +639,7 @@ export function JobStatusBadge({ status }: JobStatusBadgeProps): React.ReactElem
     },
     failed: {
       icon: <XCircle className="w-3 h-3" />,
-      color: 'bg-blood-900/50 text-blood-400',
+      color: 'bg-zinc-800/50 text-zinc-400',
       label: 'Failed',
     },
     cancelled: {
@@ -674,7 +674,7 @@ export function JobProgressBar({ progress, status }: JobProgressBarProps): React
     pending: 'bg-zinc-600',
     processing: 'bg-blue-500',
     completed: 'bg-emerald-500',
-    failed: 'bg-blood-500',
+    failed: 'bg-zinc-600',
     cancelled: 'bg-zinc-500',
     retrying: 'bg-yellow-500',
   };
@@ -719,7 +719,7 @@ export function JobCard({ job, onCancel, onRetry }: JobCardProps): React.ReactEl
       )}
 
       {job.error && (
-        <p className="text-xs text-blood-400 mb-3 font-mono">
+        <p className="text-xs text-zinc-400 mb-3 font-mono">
           Error: {job.error}
         </p>
       )}
@@ -732,7 +732,7 @@ export function JobCard({ job, onCancel, onRetry }: JobCardProps): React.ReactEl
           {job.status === 'processing' && onCancel && (
             <button
               onClick={onCancel}
-              className="text-zinc-400 hover:text-blood-400"
+              className="text-zinc-400 hover:text-white"
             >
               Cancel
             </button>
@@ -772,7 +772,7 @@ export function QueueStatsDisplay({ stats }: QueueStatsDisplayProps): React.Reac
       </div>
       <div className="bg-zinc-900 border border-zinc-800 p-4">
         <p className="text-xs text-zinc-500 uppercase tracking-wider">Failed</p>
-        <p className="text-2xl font-mono text-blood-400 mt-1">{stats.failed}</p>
+        <p className="text-2xl font-mono text-zinc-400 mt-1">{stats.failed}</p>
       </div>
     </div>
   );

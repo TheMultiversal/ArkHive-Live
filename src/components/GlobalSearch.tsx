@@ -36,7 +36,7 @@ interface SearchResult {
 }
 
 const typeConfig = {
-  investigation: { icon: Eye, color: 'text-blood-400', bg: 'bg-blood-500/20' },
+  investigation: { icon: Eye, color: 'text-zinc-400', bg: 'bg-zinc-500/20' },
   entity: { icon: User, color: 'text-blue-400', bg: 'bg-blue-500/20' },
   statute: { icon: Scale, color: 'text-purple-400', bg: 'bg-purple-500/20' },
   source: { icon: FileText, color: 'text-emerald-400', bg: 'bg-emerald-500/20' },
@@ -313,7 +313,7 @@ export default function GlobalSearch({
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
           autoFocus={autoFocus}
-          className="w-full pl-12 pr-20 py-3 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+          className="w-full pl-12 pr-20 py-3 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
         />
         <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
           {query && (
@@ -331,7 +331,7 @@ export default function GlobalSearch({
             onClick={() => setShowFilters(!showFilters)}
             className={`p-1.5 transition-colors ${
               showFilters || filters.types.length > 0 
-                ? 'text-blood-400' 
+                ? 'text-zinc-400' 
                 : 'text-zinc-500 hover:text-white'
             }`}
           >
@@ -396,7 +396,7 @@ export default function GlobalSearch({
                       }
                       handleResultClick(result);
                     }}
-                    className="flex items-start gap-3 p-3 hover:bg-blood-900/20 border-b border-zinc-800/50 last:border-0"
+                    className="flex items-start gap-3 p-3 hover:bg-zinc-800/20 border-b border-zinc-800/50 last:border-0"
                   >
                     <div className={`shrink-0 w-8 h-8 ${config.bg} flex items-center justify-center`}>
                       <Icon className={`w-4 h-4 ${config.color}`} />

@@ -36,7 +36,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  >
  {/* Outer ring */}
  <div
- className="absolute inset-0 border border-blood-800"
+ className="absolute inset-0 border border-zinc-800"
  style={{ boxShadow: 'inset 0 0 40px rgba(107, 0, 0, 0.1)' }}
  />
 
@@ -44,7 +44,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  {[0.8, 0.6, 0.4, 0.2].map((scale, i) => (
  <div
  key={i}
- className="absolute border border-blood-800"
+ className="absolute border border-zinc-800"
  style={{
  width: `${scale * 100}%`,
  height: `${scale * 100}%`,
@@ -55,8 +55,8 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  ))}
 
  {/* Cross hairs */}
- <div className="absolute top-0 left-1/2 w-px h-full bg-blood-900"/>
- <div className="absolute left-0 top-1/2 w-full h-px bg-blood-900"/>
+ <div className="absolute top-0 left-1/2 w-px h-full bg-zinc-800"/>
+ <div className="absolute left-0 top-1/2 w-full h-px bg-zinc-800"/>
 
  {/* Sweeping line */}
  <motion.div
@@ -95,7 +95,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
 
  {/* Center dot */}
  <div
- className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-blood-600"
+ className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-zinc-700"
  style={{ boxShadow: '0 0 10px #330000, 0 0 20px #330000' }}
  />
 
@@ -103,7 +103,7 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  {blips.map((blip) => (
  <motion.div
  key={blip.id}
- className="absolute bg-blood-600"
+ className="absolute bg-zinc-700"
  style={{
  width: blip.size,
  height: blip.size,
@@ -118,24 +118,24 @@ export default function RadarScanner({ className = '', size = 400 }: RadarScanne
  ))}
 
  {/* Labels */}
- <span className="absolute top-2 left-1/2 -translate-x-1/2 font-mono text-[8px] text-blood-600/50">
+ <span className="absolute top-2 left-1/2 -translate-x-1/2 font-mono text-[8px] text-zinc-500/50">
  N
  </span>
- <span className="absolute bottom-2 left-1/2 -translate-x-1/2 font-mono text-[8px] text-blood-600/50">
+ <span className="absolute bottom-2 left-1/2 -translate-x-1/2 font-mono text-[8px] text-zinc-500/50">
  S
  </span>
- <span className="absolute left-2 top-1/2 -translate-y-1/2 font-mono text-[8px] text-blood-600/50">
+ <span className="absolute left-2 top-1/2 -translate-y-1/2 font-mono text-[8px] text-zinc-500/50">
  W
  </span>
- <span className="absolute right-2 top-1/2 -translate-y-1/2 font-mono text-[8px] text-blood-600/50">
+ <span className="absolute right-2 top-1/2 -translate-y-1/2 font-mono text-[8px] text-zinc-500/50">
  E
  </span>
 
  {/* Corner decorations */}
- <div className="absolute -top-1 -left-1 w-3 h-3 border-l border-t border-blood-600/50"/>
- <div className="absolute -top-1 -right-1 w-3 h-3 border-r border-t border-blood-600/50"/>
- <div className="absolute -bottom-1 -left-1 w-3 h-3 border-l border-b border-blood-600/50"/>
- <div className="absolute -bottom-1 -right-1 w-3 h-3 border-r border-b border-blood-600/50"/>
+ <div className="absolute -top-1 -left-1 w-3 h-3 border-l border-t border-zinc-700/50"/>
+ <div className="absolute -top-1 -right-1 w-3 h-3 border-r border-t border-zinc-700/50"/>
+ <div className="absolute -bottom-1 -left-1 w-3 h-3 border-l border-b border-zinc-700/50"/>
+ <div className="absolute -bottom-1 -right-1 w-3 h-3 border-r border-b border-zinc-700/50"/>
  </div>
  );
 }

@@ -63,7 +63,7 @@ export default function OptimizedImage({
         >
           <div className="text-center p-4">
             <svg 
-              className="w-8 h-8 text-blood-800 mx-auto mb-2" 
+              className="w-8 h-8 text-zinc-700 mx-auto mb-2" 
               fill="none" 
               stroke="currentColor" 
               viewBox="0 0 24 24"
@@ -126,11 +126,11 @@ export function EntityAvatar({
   if (!src) {
     return (
       <div 
-        className={`${sizeConfig.className} bg-blood-950 border border-blood-900/50 flex items-center justify-center ${className}`}
+        className={`${sizeConfig.className} bg-zinc-900 border border-zinc-800/50 flex items-center justify-center ${className}`}
         role="img"
         aria-label={alt}
       >
-        <span className="text-blood-700 font-black text-lg uppercase">
+        <span className="text-zinc-600 font-black text-lg uppercase">
           {alt.charAt(0)}
         </span>
       </div>
@@ -183,8 +183,8 @@ export function CoverImage({
         <div 
           className="absolute inset-0 opacity-[0.06]"
           style={{
-            backgroundImage: `linear-gradient(rgba(184, 0, 0, 0.5) 1px, transparent 1px),
-                              linear-gradient(90deg, rgba(184, 0, 0, 0.5) 1px, transparent 1px)`,
+            backgroundImage: `linear-gradient(rgba(150, 150, 150, 0.5) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(150, 150, 150, 0.5) 1px, transparent 1px)`,
             backgroundSize: '16px 16px'
           }}
         />

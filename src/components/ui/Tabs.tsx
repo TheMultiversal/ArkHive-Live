@@ -61,9 +61,9 @@ interface TabListProps {
 
 export function TabList({ children, variant = 'default', className }: TabListProps) {
  const variantClasses = {
- default: 'flex gap-1 p-1 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]',
+ default: 'flex gap-1 p-1 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]',
  pills: 'flex gap-2',
- underline: 'flex gap-6 border-b border-[rgba(255, 80, 80,0.15)]',
+ underline: 'flex gap-6 border-b border-[rgba(255,255,255,0.15)]',
  };
 
  return (
@@ -97,21 +97,21 @@ export function Tab({
  const { activeTab, setActiveTab, baseId } = useTabsContext();
  const isActive = activeTab === id;
 
- const baseClasses = 'relative flex items-center gap-2 font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blood-500';
+ const baseClasses = 'relative flex items-center gap-2 font-medium transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-600';
  
  const variantClasses = {
  default: cn(
  'px-4 py-2 text-sm',
  isActive
- ? 'bg-blood-900 text-white'
- : 'text-zinc-400 hover:text-white hover:bg-[#200c00]',
+ ? 'bg-zinc-800 text-white'
+ : 'text-zinc-400 hover:text-white hover:bg-[#0d0d0d]',
  disabled && 'opacity-50 cursor-not-allowed'
  ),
  pills: cn(
  'px-4 py-2 text-sm border',
  isActive
- ? 'bg-blood-700 border-blood-600 text-white'
- : 'bg-transparent border-[rgba(255, 60, 60,0.18)] text-zinc-400 hover:text-white hover:border-zinc-600',
+ ? 'bg-zinc-700 border-zinc-700 text-white'
+ : 'bg-transparent border-[rgba(255,255,255,0.18)] text-zinc-400 hover:text-white hover:border-zinc-600',
  disabled && 'opacity-50 cursor-not-allowed'
  ),
  underline: cn(
@@ -139,7 +139,7 @@ export function Tab({
  {variant === 'underline' && isActive && (
  <motion.div
  layoutId={`${baseId}-underline`}
- className="absolute bottom-0 left-0 right-0 h-0.5 bg-blood-500"
+ className="absolute bottom-0 left-0 right-0 h-0.5 bg-zinc-600"
  />
  )}
  </button>

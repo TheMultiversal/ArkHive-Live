@@ -52,7 +52,7 @@ export function DefaultLoadingFallback(): ReactElement {
   return (
     <div className="flex items-center justify-center p-8">
       <div className="flex flex-col items-center gap-3">
-        <div className="w-8 h-8 border-2 border-blood-500 border-t-transparent animate-spin" />
+        <div className="w-8 h-8 border-2 border-zinc-600 border-t-transparent animate-spin" />
         <span className="text-sm text-zinc-500">Loading...</span>
       </div>
     </div>
@@ -70,9 +70,9 @@ export function SkeletonFallback({ height = 200 }: { height?: number }): ReactEl
 
 export function DefaultErrorFallback({ error }: { error: Error }): ReactElement {
   return (
-    <div className="flex items-center justify-center p-8 bg-blood-900/20 border border-blood-800">
+    <div className="flex items-center justify-center p-8 bg-zinc-800/20 border border-zinc-800">
       <div className="text-center">
-        <p className="text-blood-400 text-sm">Failed to load component</p>
+        <p className="text-zinc-400 text-sm">Failed to load component</p>
         <p className="text-xs text-zinc-500 mt-1">{error.message}</p>
       </div>
     </div>

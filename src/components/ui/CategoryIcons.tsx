@@ -28,12 +28,12 @@ export function GovernmentIcon({ size = 32, className = '' }: CategoryIconProps)
         </linearGradient>
         <linearGradient id="gov-iris" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#ff4444" />
-          <stop offset="50%" stopColor="#b80000" />
+          <stop offset="50%" stopColor="#4a4a4a" />
           <stop offset="100%" stopColor="#6b0000" />
         </linearGradient>
         <filter id="gov-glow" x="-30%" y="-30%" width="160%" height="160%">
           <feGaussianBlur stdDeviation="2" result="blur" />
-          <feFlood floodColor="rgba(184, 0, 0, 0.5)" />
+          <feFlood floodColor="rgba(150, 150, 150, 0.5)" />
           <feComposite in2="blur" operator="in" />
           <feMerge>
             <feMergeNode />
@@ -73,7 +73,7 @@ export function GovernmentIcon({ size = 32, className = '' }: CategoryIconProps)
           <path
             d="M30 48 Q40 34 50 34 Q60 34 70 48 Q60 62 50 62 Q40 62 30 48 Z"
             fill="#1a0000"
-            stroke="#8f0000"
+            stroke="#3d3d3d"
             strokeWidth="1"
           />
           {/* Iris */}
@@ -92,7 +92,7 @@ export function GovernmentIcon({ size = 32, className = '' }: CategoryIconProps)
           <circle cx="47" cy="50" r="1" fill="#fff" opacity="0.4" />
           {/* Iris detail rings */}
           <circle cx="50" cy="48" r="7" fill="none" stroke="#ff3333" strokeWidth="0.3" opacity="0.6" />
-          <circle cx="50" cy="48" r="5.5" fill="none" stroke="#d62a2a" strokeWidth="0.2" opacity="0.4" />
+          <circle cx="50" cy="48" r="5.5" fill="none" stroke="#6b6b6b" strokeWidth="0.2" opacity="0.4" />
         </motion.g>
 
         {/* Surveillance rays emanating from eye */}
@@ -106,7 +106,7 @@ export function GovernmentIcon({ size = 32, className = '' }: CategoryIconProps)
             <motion.line
               key={i}
               x1={x1} y1={y1} x2={x2} y2={y2}
-              stroke="#b80000"
+              stroke="#4a4a4a"
               strokeWidth="0.5"
               opacity="0.4"
               animate={{ opacity: [0.2, 0.6, 0.2] }}
@@ -162,7 +162,7 @@ export function CorporationIcon({ size = 32, className = '' }: CategoryIconProps
         </linearGradient>
         <filter id="corp-glow" x="-30%" y="-30%" width="160%" height="160%">
           <feGaussianBlur stdDeviation="2" result="blur" />
-          <feFlood floodColor="rgba(184, 0, 0, 0.4)" />
+          <feFlood floodColor="rgba(150, 150, 150, 0.4)" />
           <feComposite in2="blur" operator="in" />
           <feMerge>
             <feMergeNode />
@@ -183,7 +183,7 @@ export function CorporationIcon({ size = 32, className = '' }: CategoryIconProps
               y={28 + row * 7.5}
               width="4"
               height="5"
-              fill={row === 0 && col === 1 ? '#b80000' : '#1a1a1a'}
+              fill={row === 0 && col === 1 ? '#4a4a4a' : '#1a1a1a'}
               animate={
                 Math.random() > 0.6
                   ? { fill: ['#1a1a1a', '#332200', '#1a1a1a'] }
@@ -228,7 +228,7 @@ export function CorporationIcon({ size = 32, className = '' }: CategoryIconProps
         <line x1="50" y1="22" x2="50" y2="12" stroke="#aaa" strokeWidth="1.5" />
         <motion.circle
           cx="50" cy="10" r="2"
-          fill="#b80000"
+          fill="#4a4a4a"
           animate={{ opacity: [0.4, 1, 0.4], r: [1.5, 2.5, 1.5] }}
           transition={{ duration: 1.5, repeat: Infinity }}
         />
@@ -301,7 +301,7 @@ export function IndividualIcon({ size = 32, className = '' }: CategoryIconProps)
         </linearGradient>
         <filter id="ind-glow" x="-30%" y="-30%" width="160%" height="160%">
           <feGaussianBlur stdDeviation="2" result="blur" />
-          <feFlood floodColor="rgba(184, 0, 0, 0.5)" />
+          <feFlood floodColor="rgba(150, 150, 150, 0.5)" />
           <feComposite in2="blur" operator="in" />
           <feMerge>
             <feMergeNode />
@@ -326,7 +326,7 @@ export function IndividualIcon({ size = 32, className = '' }: CategoryIconProps)
           style={{ transformOrigin: '50px 45px' }}
         >
           {/* Outer ring */}
-          <circle cx="50" cy="45" r="30" fill="none" stroke="#b80000" strokeWidth="0.8" opacity="0.6" />
+          <circle cx="50" cy="45" r="30" fill="none" stroke="#4a4a4a" strokeWidth="0.8" opacity="0.6" />
           {/* Tick marks on ring */}
           {[0, 90, 180, 270].map((angle, i) => {
             const rad = angle * Math.PI / 180;
@@ -337,7 +337,7 @@ export function IndividualIcon({ size = 32, className = '' }: CategoryIconProps)
                 y1={45 + Math.sin(rad) * 27}
                 x2={50 + Math.cos(rad) * 33}
                 y2={45 + Math.sin(rad) * 33}
-                stroke="#b80000"
+                stroke="#4a4a4a"
                 strokeWidth="1"
                 opacity="0.7"
               />
@@ -346,12 +346,12 @@ export function IndividualIcon({ size = 32, className = '' }: CategoryIconProps)
         </motion.g>
 
         {/* Inner crosshair - static */}
-        <circle cx="50" cy="45" r="18" fill="none" stroke="#d62a2a" strokeWidth="0.5" opacity="0.4" strokeDasharray="2 2" />
+        <circle cx="50" cy="45" r="18" fill="none" stroke="#6b6b6b" strokeWidth="0.5" opacity="0.4" strokeDasharray="2 2" />
         {/* Crosshair lines */}
-        <line x1="50" y1="10" x2="50" y2="38" stroke="#b80000" strokeWidth="0.7" opacity="0.5" />
-        <line x1="50" y1="52" x2="50" y2="80" stroke="#b80000" strokeWidth="0.7" opacity="0.5" />
-        <line x1="15" y1="45" x2="42" y2="45" stroke="#b80000" strokeWidth="0.7" opacity="0.5" />
-        <line x1="58" y1="45" x2="85" y2="45" stroke="#b80000" strokeWidth="0.7" opacity="0.5" />
+        <line x1="50" y1="10" x2="50" y2="38" stroke="#4a4a4a" strokeWidth="0.7" opacity="0.5" />
+        <line x1="50" y1="52" x2="50" y2="80" stroke="#4a4a4a" strokeWidth="0.7" opacity="0.5" />
+        <line x1="15" y1="45" x2="42" y2="45" stroke="#4a4a4a" strokeWidth="0.7" opacity="0.5" />
+        <line x1="58" y1="45" x2="85" y2="45" stroke="#4a4a4a" strokeWidth="0.7" opacity="0.5" />
         {/* Center dot */}
         <motion.circle
           cx="50" cy="45" r="2"
@@ -371,7 +371,7 @@ export function IndividualIcon({ size = 32, className = '' }: CategoryIconProps)
             <motion.line
               x1="50" y1="45"
               x2={target.x} y2={target.y}
-              stroke="#b80000"
+              stroke="#4a4a4a"
               strokeWidth="0.5"
               strokeDasharray="3 3"
               opacity="0.3"
@@ -381,7 +381,7 @@ export function IndividualIcon({ size = 32, className = '' }: CategoryIconProps)
             <motion.circle
               cx={target.x} cy={target.y} r="3"
               fill="none"
-              stroke="#8f0000"
+              stroke="#3d3d3d"
               strokeWidth="0.5"
               animate={{ r: [2, 4, 2], opacity: [0.3, 0.6, 0.3] }}
               transition={{ duration: 2, repeat: Infinity, delay: i * 0.5 }}
@@ -397,7 +397,7 @@ export function IndividualIcon({ size = 32, className = '' }: CategoryIconProps)
             y1={55 + i * 6}
             x2={85 + Math.random() * 10}
             y2={55 + i * 6}
-            stroke="#8f0000"
+            stroke="#3d3d3d"
             strokeWidth="1"
             opacity="0.3"
             animate={{ x2: [80, 92, 80] }}
@@ -451,16 +451,16 @@ export function OrganizationIcon({ size = 32, className = '' }: CategoryIconProp
       <defs>
         <radialGradient id="org-node" cx="40%" cy="40%" r="60%">
           <stop offset="0%" stopColor="#ff5555" />
-          <stop offset="100%" stopColor="#8f0000" />
+          <stop offset="100%" stopColor="#3d3d3d" />
         </radialGradient>
         <radialGradient id="org-hub" cx="40%" cy="40%" r="60%">
           <stop offset="0%" stopColor="#ff6666" />
-          <stop offset="50%" stopColor="#d62a2a" />
+          <stop offset="50%" stopColor="#6b6b6b" />
           <stop offset="100%" stopColor="#6b0000" />
         </radialGradient>
         <filter id="org-glow" x="-30%" y="-30%" width="160%" height="160%">
           <feGaussianBlur stdDeviation="2" result="blur" />
-          <feFlood floodColor="rgba(184, 0, 0, 0.5)" />
+          <feFlood floodColor="rgba(150, 150, 150, 0.5)" />
           <feComposite in2="blur" operator="in" />
           <feMerge>
             <feMergeNode />
@@ -478,7 +478,7 @@ export function OrganizationIcon({ size = 32, className = '' }: CategoryIconProp
             y1={nodes[from].y}
             x2={nodes[to].x}
             y2={nodes[to].y}
-            stroke="#b80000"
+            stroke="#4a4a4a"
             strokeWidth={from === 0 || to === 0 ? 1.2 : 0.6}
             opacity={from === 0 || to === 0 ? 0.6 : 0.3}
             strokeDasharray={from === 0 || to === 0 ? 'none' : '2 2'}
@@ -520,7 +520,7 @@ export function OrganizationIcon({ size = 32, className = '' }: CategoryIconProp
                 cy={node.y}
                 r={node.r}
                 fill="none"
-                stroke="#d62a2a"
+                stroke="#6b6b6b"
                 strokeWidth="0.5"
                 animate={{ r: [node.r, node.r + 6, node.r], opacity: [0.5, 0, 0.5] }}
                 transition={{ duration: 2, repeat: Infinity }}
@@ -532,7 +532,7 @@ export function OrganizationIcon({ size = 32, className = '' }: CategoryIconProp
               cy={node.y}
               r={node.r}
               fill={node.primary ? 'url(#org-hub)' : 'url(#org-node)'}
-              stroke={node.primary ? '#fff' : '#d62a2a'}
+              stroke={node.primary ? '#fff' : '#6b6b6b'}
               strokeWidth={node.primary ? 1 : 0.5}
               animate={
                 !node.primary
@@ -583,7 +583,7 @@ export function VaultSubmitIcon({ size = 32, className = '' }: CategoryIconProps
         </linearGradient>
         <linearGradient id="vault-iris" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#ff4444" />
-          <stop offset="50%" stopColor="#b80000" />
+          <stop offset="50%" stopColor="#4a4a4a" />
           <stop offset="100%" stopColor="#6b0000" />
         </linearGradient>
         <linearGradient id="vault-doc" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -592,7 +592,7 @@ export function VaultSubmitIcon({ size = 32, className = '' }: CategoryIconProps
         </linearGradient>
         <filter id="vault-glow" x="-30%" y="-30%" width="160%" height="160%">
           <feGaussianBlur stdDeviation="2" result="blur" />
-          <feFlood floodColor="rgba(184, 0, 0, 0.5)" />
+          <feFlood floodColor="rgba(150, 150, 150, 0.5)" />
           <feComposite in2="blur" operator="in" />
           <feMerge>
             <feMergeNode />
@@ -624,7 +624,7 @@ export function VaultSubmitIcon({ size = 32, className = '' }: CategoryIconProps
           <path
             d="M30 57 Q36 48 42 48 Q48 48 54 57 Q48 66 42 66 Q36 66 30 57 Z"
             fill="#0d0000"
-            stroke="#8f0000"
+            stroke="#3d3d3d"
             strokeWidth="0.8"
           />
           {/* Iris */}
@@ -673,8 +673,8 @@ export function VaultSubmitIcon({ size = 32, className = '' }: CategoryIconProps
           <line x1="66" y1="26" x2="79" y2="26" stroke="#aaa" strokeWidth="0.7" />
           <line x1="66" y1="29" x2="74" y2="29" stroke="#aaa" strokeWidth="0.7" />
           {/* Classified stamp */}
-          <rect x="67" y="32" width="16" height="5" fill="none" stroke="#b80000" strokeWidth="0.8" opacity="0.7" />
-          <text x="75" y="36" fill="#b80000" fontSize="3.5" fontWeight="bold" textAnchor="middle" opacity="0.8">CLASSIFIED</text>
+          <rect x="67" y="32" width="16" height="5" fill="none" stroke="#4a4a4a" strokeWidth="0.8" opacity="0.7" />
+          <text x="75" y="36" fill="#4a4a4a" fontSize="3.5" fontWeight="bold" textAnchor="middle" opacity="0.8">CLASSIFIED</text>
         </motion.g>
 
         {/* Arrow indicating insertion direction */}
@@ -682,8 +682,8 @@ export function VaultSubmitIcon({ size = 32, className = '' }: CategoryIconProps
           animate={{ opacity: [0.3, 0.8, 0.3], y: [0, 2, 0] }}
           transition={{ duration: 1.5, repeat: Infinity }}
         >
-          <path d="M72 42 L68 46 L76 46 Z" fill="#b80000" opacity="0.6" />
-          <line x1="72" y1="38" x2="72" y2="42" stroke="#b80000" strokeWidth="1.5" opacity="0.6" />
+          <path d="M72 42 L68 46 L76 46 Z" fill="#4a4a4a" opacity="0.6" />
+          <line x1="72" y1="38" x2="72" y2="42" stroke="#4a4a4a" strokeWidth="1.5" opacity="0.6" />
         </motion.g>
 
         {/* Security scan lines on vault face */}

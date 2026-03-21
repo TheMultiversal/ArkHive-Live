@@ -11,7 +11,7 @@ export default function ExportPage() {
         {/* Header */}
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-2">
-            <Download className="w-8 h-8 text-blood-500" />
+            <Download className="w-8 h-8 text-zinc-300" />
             <h1 className="text-4xl font-bold tracking-tight">Data Export</h1>
           </div>
           <p className="text-zinc-400 max-w-2xl">

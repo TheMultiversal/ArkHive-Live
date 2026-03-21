@@ -97,12 +97,12 @@ export const Stepper = forwardRef<HTMLDivElement, StepperProps>(
  className={cn(
  'flex items-center justify-center rounded-none border-2 transition-colors',
  sizes.step,
- isCompleted && 'bg-blood-500 border-blood-500 text-white',
- isCurrent && 'border-blood-500 text-blood-500 bg-black',
+ isCompleted && 'bg-zinc-600 border-zinc-600 text-white',
+ isCurrent && 'border-zinc-600 text-zinc-300 bg-black',
  !isCompleted &&
  !isCurrent &&
- 'border-[rgba(255, 60, 60,0.18)] text-zinc-500 bg-black',
- isClickable && 'cursor-pointer hover:border-blood-400',
+ 'border-[rgba(255,255,255,0.18)] text-zinc-500 bg-black',
+ isClickable && 'cursor-pointer hover:border-zinc-500',
  !isClickable && 'cursor-default'
  )}
  whileHover={isClickable ? { scale: 1.05 } : {}}
@@ -129,7 +129,7 @@ export const Stepper = forwardRef<HTMLDivElement, StepperProps>(
  )}
  >
  <motion.div
- className="h-full bg-blood-500"
+ className="h-full bg-zinc-600"
  initial={{ width: 0 }}
  animate={{
  width: isCompleted ? '100%' : '0%',
@@ -151,7 +151,7 @@ export const Stepper = forwardRef<HTMLDivElement, StepperProps>(
  className={cn(
  'font-medium',
  sizes.label,
- isCurrent && 'text-blood-500',
+ isCurrent && 'text-zinc-300',
  isCompleted && 'text-zinc-300',
  !isCompleted && !isCurrent && 'text-zinc-500'
  )}

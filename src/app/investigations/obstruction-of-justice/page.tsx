@@ -170,13 +170,13 @@ const investigationData = {
  ],
 
  charges: [
- { statute: '18 U.S.C. § 1512(b)', description: 'Witness tampering, corruptly persuading witnesses to withhold testimony, alter documents, or evade legal process', count: 'Multiple instances documented in Mueller Report' },
- { statute: '18 U.S.C. § 1512(c)', description: 'Obstruction of official proceeding, obstructing, influencing, or impeding congressional and FBI investigations', count: '10+ instances identified by Mueller' },
- { statute: '18 U.S.C. § 1505', description: 'Obstruction of proceedings before departments, agencies, and committees, interfering with FBI and congressional investigations', count: 'Multiple instances' },
- { statute: '18 U.S.C. § 1001', description: 'False statements, making materially false statements to federal investigators and Congress', count: 'Multiple defendants convicted' },
- { statute: '18 U.S.C. § 1503', description: 'Obstruction of justice, corruptly endeavoring to influence, obstruct, or impede the due administration of justice', count: 'Multiple instances' },
- { statute: '18 U.S.C. § 3', description: 'Accessory after the fact, pardoning co-conspirators who refused to cooperate with investigations', count: '6 pardons for investigation-related crimes' },
- { statute: '2 U.S.C. § 192', description: 'Contempt of Congress, directing subordinates to defy congressional subpoenas', count: 'Multiple instances' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1512(b)', description: 'Witness tampering, corruptly persuading witnesses to withhold testimony, alter documents, or evade legal process', count: 'Multiple instances documented in Mueller Report' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1512(c)', description: 'Obstruction of official proceeding, obstructing, influencing, or impeding congressional and FBI investigations', count: '10+ instances identified by Mueller' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1505', description: 'Obstruction of proceedings before departments, agencies, and committees, interfering with FBI and congressional investigations', count: 'Multiple instances' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1001', description: 'False statements, making materially false statements to federal investigators and Congress', count: 'Multiple defendants convicted' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1503', description: 'Obstruction of justice, corruptly endeavoring to influence, obstruct, or impede the due administration of justice', count: 'Multiple instances' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 3', description: 'Accessory after the fact, pardoning co-conspirators who refused to cooperate with investigations', count: '6 pardons for investigation-related crimes' },
+ { statute: '2 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 192', description: 'Contempt of Congress, directing subordinates to defy congressional subpoenas', count: 'Multiple instances' },
  ],
 
  coverup: [
@@ -200,10 +200,10 @@ const investigationData = {
 };
 
 const severityColors = {
- critical: 'bg-blood-900 text-blood-400 border-blood-800',
- high: 'bg-blood-950 text-blood-600 border-blood-800',
+ critical: 'bg-zinc-800 text-zinc-400 border-zinc-800',
+ high: 'bg-zinc-900 text-zinc-500 border-zinc-800',
  medium: 'bg-zinc-900 text-zinc-300 border-zinc-700',
- low: 'bg-blood-900 text-blood-400 border-blood-800',
+ low: 'bg-zinc-800 text-zinc-400 border-zinc-800',
 };
 
 export default function ObstructionPage() {
@@ -212,21 +212,21 @@ export default function ObstructionPage() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(255, 80, 80,0.15)]">
+ <div className="border-b border-[rgba(255,255,255,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
  <ChevronRight className="w-4 h-4"/>
  <Link href="/investigations"className="hover:text-white transition-colors">Investigations</Link>
  <ChevronRight className="w-4 h-4"/>
- <span className="text-blood-500">Obstruction of Justice</span>
+ <span className="text-zinc-300">Obstruction of Justice</span>
  </nav>
 
  <div className="flex items-center gap-4 mb-4">
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-[#200c00] text-zinc-300 border border-[rgba(255, 60, 60,0.18)]">
+ <span className="px-3 py-1 text-xs font-medium bg-[#0d0d0d] text-zinc-300 border border-[rgba(255,255,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -253,24 +253,24 @@ export default function ObstructionPage() {
  className="mb-12"
  >
  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <Shield className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.obstructionStats.muellerInstances}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <Shield className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.obstructionStats.muellerInstances}</p>
  <p className="text-xs text-zinc-400">Mueller Instances</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <Users className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.obstructionStats.witnessesIntimidated}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <Users className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.obstructionStats.witnessesIntimidated}</p>
  <p className="text-xs text-zinc-400">Witnesses Intimidated</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-800">
- <XCircle className="w-6 h-6 text-blood-700 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-700">{investigationData.obstructionStats.firingAttempts}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-800">
+ <XCircle className="w-6 h-6 text-zinc-600 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-600">{investigationData.obstructionStats.firingAttempts}</p>
  <p className="text-xs text-zinc-400">Firing Attempts</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-800">
- <Scale className="w-6 h-6 text-blood-700 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-700">{investigationData.obstructionStats.pardonsOffered}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-800">
+ <Scale className="w-6 h-6 text-zinc-600 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-600">{investigationData.obstructionStats.pardonsOffered}</p>
  <p className="text-xs text-zinc-400">Pardons for Silence</p>
  </div>
  <div className="glass-card p-4 text-center border-l-4 border-zinc-500">
@@ -289,7 +289,7 @@ export default function ObstructionPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <FileText className="w-5 h-5 text-blood-500"/>
+ <FileText className="w-5 h-5 text-zinc-300"/>
  Executive Summary
  </h2>
  <p className="text-zinc-300 leading-relaxed">{investigationData.summary}</p>
@@ -303,7 +303,7 @@ export default function ObstructionPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Users className="w-5 h-5 text-blood-500"/>
+ <Users className="w-5 h-5 text-zinc-300"/>
  Key Figures
  </h2>
  <div className="space-y-3">
@@ -311,10 +311,10 @@ export default function ObstructionPage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-600/50 transition-all"
  >
  <div>
- <span className="font-medium text-blood-400">{figure.name}</span>
+ <span className="font-medium text-zinc-400">{figure.name}</span>
  <p className="text-sm text-zinc-500">{figure.role}</p>
  </div>
  <ExternalLink className="w-4 h-4 text-zinc-600"/>
@@ -328,12 +328,12 @@ export default function ObstructionPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.2 }}
- className="glass-card p-6 mb-8 border-l-4 border-blood-600"
+ className="glass-card p-6 mb-8 border-l-4 border-zinc-700"
  >
  <h2 className="text-xl font-bold mb-4">Mueller Report Conclusions</h2>
  <div className="space-y-4">
  {investigationData.muellerConclusions.map((quote, index) => (
- <blockquote key={index} className="text-zinc-300 italic border-l-2 border-[rgba(255, 60, 60,0.18)] pl-4">
+ <blockquote key={index} className="text-zinc-300 italic border-l-2 border-[rgba(255,255,255,0.18)] pl-4">
  {quote}
  </blockquote>
  ))}
@@ -349,18 +349,18 @@ export default function ObstructionPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <AlertTriangle className="w-5 h-5 text-blood-500"/>
+ <AlertTriangle className="w-5 h-5 text-zinc-300"/>
  10 Documented Obstruction Instances
  </h2>
  <div className="space-y-4">
  {investigationData.muellerObstructionInstances.map((item) => (
- <div key={item.instance} className="border border-[rgba(255, 80, 80,0.15)]">
+ <div key={item.instance} className="border border-[rgba(255,255,255,0.15)]">
  <button
  onClick={() => setExpandedInstance(expandedInstance === item.instance ? null : item.instance)}
- className="w-full flex items-center justify-between p-4 hover:bg-[#1c0a00] transition-colors"
+ className="w-full flex items-center justify-between p-4 hover:bg-[#0a0a0a] transition-colors"
  >
  <div className="text-left">
- <span className="font-bold text-blood-400">#{item.instance}: {item.title}</span>
+ <span className="font-bold text-zinc-400">#{item.instance}: {item.title}</span>
  </div>
  <ChevronRight className={`w-5 h-5 transition-transform ${expandedInstance === item.instance ? 'rotate-90' : ''}`} />
  </button>
@@ -369,7 +369,7 @@ export default function ObstructionPage() {
  <p className="text-zinc-300">{item.description}</p>
  <div className="text-sm">
  <p className="text-zinc-500">Evidence: <span className="text-zinc-400">{item.evidence}</span></p>
- <p className="text-zinc-500 mt-1">Legal Elements: <span className="text-blood-400">{item.elements}</span></p>
+ <p className="text-zinc-500 mt-1">Legal Elements: <span className="text-zinc-400">{item.elements}</span></p>
  </div>
  </div>
  )}
@@ -386,14 +386,14 @@ export default function ObstructionPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Calendar className="w-5 h-5 text-blood-500"/>
+ <Calendar className="w-5 h-5 text-zinc-300"/>
  Comey Firing Timeline
  </h2>
  <div className="space-y-4">
  {investigationData.comeyTimeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-blood-600">
- <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
- <p className="text-xs text-blood-500 font-mono">{item.date}</p>
+ <div key={index} className="relative pl-4 border-l-2 border-zinc-700">
+ <div className="absolute -left-[5px] top-0 w-2 h-2 bg-zinc-600"/>
+ <p className="text-xs text-zinc-300 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
  </div>
  ))}
@@ -411,9 +411,9 @@ export default function ObstructionPage() {
  <p className="text-zinc-400 text-sm mb-4">Trump pardoned co-conspirators who refused to cooperate with investigators:</p>
  <div className="space-y-3">
  {investigationData.pardonsForObstruction.map((pardon, index) => (
- <div key={index} className="flex items-center justify-between p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div key={index} className="flex items-center justify-between p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <div>
- <span className="font-medium text-blood-400">{pardon.name}</span>
+ <span className="font-medium text-zinc-400">{pardon.name}</span>
  <p className="text-xs text-zinc-500">{pardon.crime}</p>
  </div>
  <span className="text-xs text-zinc-500">{pardon.date}</span>
@@ -430,14 +430,14 @@ export default function ObstructionPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Calendar className="w-5 h-5 text-blood-500"/>
+ <Calendar className="w-5 h-5 text-zinc-300"/>
  Complete Timeline
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
- <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
- <p className="text-xs text-blood-500 font-mono">{item.date}</p>
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(255,255,255,0.15)]">
+ <div className="absolute -left-[5px] top-0 w-2 h-2 bg-zinc-600"/>
+ <p className="text-xs text-zinc-300 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
  </div>
  ))}
@@ -445,19 +445,19 @@ export default function ObstructionPage() {
  </motion.section>
 
  
- <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-zinc-300"/>The Cover-Up</h2>
+ <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900 border border-zinc-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-zinc-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Applicable Charges &amp; Statutes</h2>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold text-zinc-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-zinc-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -474,7 +474,7 @@ export default function ObstructionPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] transition-colors"
+ className="flex items-center justify-between p-3 bg-[#0a0a0a] hover:bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

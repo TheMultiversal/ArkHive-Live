@@ -62,27 +62,27 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  <div 
  className="absolute inset-0 opacity-30"
  style={{
- background: `conic-gradient(from ${scanAngle}deg, transparent, rgba(214, 42, 42, 0.5), transparent)`,
+ background: `conic-gradient(from ${scanAngle}deg, transparent, rgba(160, 160, 160, 0.5), transparent)`,
  }}
  />
- <div className="absolute inset-0 bg-blood-950 blur-xl animate-pulse"style={{ animationDuration: '2s' }} />
+ <div className="absolute inset-0 bg-zinc-900 blur-xl animate-pulse"style={{ animationDuration: '2s' }} />
  </div>
 
  {/* Lock-on flash */}
  {lockingOn && (
- <div className="absolute inset-0 bg-blood-900 animate-pulse z-20"/>
+ <div className="absolute inset-0 bg-zinc-800 animate-pulse z-20"/>
  )}
 
  {/* Main container */}
  <div className={`relative ${s.container} overflow-hidden transition-all duration-300 ${isHovered ? 'scale-110' : 'scale-100'}`}>
  {/* Tactical border */}
- <div className="absolute inset-0 border-2 border-blood-600/50"/>
+ <div className="absolute inset-0 border-2 border-zinc-700/50"/>
  
  {/* Corner brackets */}
- <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-blood-600"/>
- <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-blood-600"/>
- <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-blood-600"/>
- <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-blood-600"/>
+ <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-zinc-700"/>
+ <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-zinc-700"/>
+ <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-zinc-700"/>
+ <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-zinc-700"/>
 
  {/* Inner background */}
  <div className="absolute inset-[2px] bg-gradient-to-br from-dark-900 via-dark-950 to-black overflow-hidden">
@@ -91,8 +91,8 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  className="absolute inset-0 opacity-10"
  style={{
  backgroundImage: `
- linear-gradient(rgba(214, 42, 42, 0.3) 1px, transparent 1px),
- linear-gradient(90deg, rgba(214, 42, 42, 0.3) 1px, transparent 1px)
+ linear-gradient(rgba(160, 160, 160, 0.3) 1px, transparent 1px),
+ linear-gradient(90deg, rgba(160, 160, 160, 0.3) 1px, transparent 1px)
  `,
  backgroundSize: '10% 10%',
  }}
@@ -102,7 +102,7 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  <svg
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
- style={{ filter: 'drop-shadow(0 0 5px rgba(214, 42, 42, 0.5))' }}
+ style={{ filter: 'drop-shadow(0 0 5px rgba(160, 160, 160, 0.5))' }}
  >
  <defs>
  {/* Gradients */}
@@ -113,11 +113,11 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  </radialGradient>
 
  <radialGradient id="chIrisGradient"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#d62a2a">
- <animate attributeName="stop-color"values="#d62a2a;#8f0000;#d62a2a"dur="2s"repeatCount="indefinite"/>
+ <stop offset="0%"stopColor="#6b6b6b">
+ <animate attributeName="stop-color"values="#6b6b6b;#3d3d3d;#6b6b6b"dur="2s"repeatCount="indefinite"/>
  </stop>
  <stop offset="60%"stopColor="#6b0000"/>
- <stop offset="100%"stopColor="#4d0000"/>
+ <stop offset="100%"stopColor="#2a2a2a"/>
  </radialGradient>
 
  <radialGradient id="chPupilGradient"cx="30%"cy="30%"r="60%">
@@ -128,14 +128,14 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  {/* Scanning beam gradient */}
  <linearGradient id="scanBeam"x1="0%"y1="0%"x2="100%"y2="0%">
  <stop offset="0%"stopColor="transparent"/>
- <stop offset="50%"stopColor="#d62a2a"stopOpacity="0.8"/>
+ <stop offset="50%"stopColor="#6b6b6b"stopOpacity="0.8"/>
  <stop offset="100%"stopColor="transparent"/>
  </linearGradient>
 
  {/* Glow filter */}
  <filter id="chGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="1.5"result="blur"/>
- <feFlood floodColor="#d62a2a"floodOpacity="0.6"/>
+ <feFlood floodColor="#6b6b6b"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -151,7 +151,7 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
 
  {/* Outer rotating crosshair ring */}
  <g style={{ transform: `rotate(${scanAngle}deg)`, transformOrigin: '50px 50px' }}>
- <circle cx="50"cy="50"r="42"fill="none"stroke="#d62a2a"strokeWidth="0.5"strokeDasharray="4 8"opacity="0.5"/>
+ <circle cx="50"cy="50"r="42"fill="none"stroke="#6b6b6b"strokeWidth="0.5"strokeDasharray="4 8"opacity="0.5"/>
  {/* Tick marks */}
  {[0, 90, 180, 270].map((angle) => (
  <line
@@ -160,7 +160,7 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  y1={50 + 38 * Math.sin((angle * Math.PI) / 180)}
  x2={50 + 44 * Math.cos((angle * Math.PI) / 180)}
  y2={50 + 44 * Math.sin((angle * Math.PI) / 180)}
- stroke="#d62a2a"
+ stroke="#6b6b6b"
  strokeWidth="2"
  opacity="0.8"
  />
@@ -170,18 +170,18 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  {/* Static crosshairs */}
  <g filter="url(#chGlow)">
  {/* Horizontal crosshair */}
- <line x1="5"y1="50"x2="30"y2="50"stroke="#d62a2a"strokeWidth="1.5"/>
- <line x1="70"y1="50"x2="95"y2="50"stroke="#d62a2a"strokeWidth="1.5"/>
+ <line x1="5"y1="50"x2="30"y2="50"stroke="#6b6b6b"strokeWidth="1.5"/>
+ <line x1="70"y1="50"x2="95"y2="50"stroke="#6b6b6b"strokeWidth="1.5"/>
  
  {/* Vertical crosshair */}
- <line x1="50"y1="5"x2="50"y2="30"stroke="#d62a2a"strokeWidth="1.5"/>
- <line x1="50"y1="70"x2="50"y2="95"stroke="#d62a2a"strokeWidth="1.5"/>
+ <line x1="50"y1="5"x2="50"y2="30"stroke="#6b6b6b"strokeWidth="1.5"/>
+ <line x1="50"y1="70"x2="50"y2="95"stroke="#6b6b6b"strokeWidth="1.5"/>
 
  {/* Center target brackets */}
- <path d="M35 35 L35 40 L40 40"fill="none"stroke="#d62a2a"strokeWidth="1.5"/>
- <path d="M65 35 L65 40 L60 40"fill="none"stroke="#d62a2a"strokeWidth="1.5"/>
- <path d="M35 65 L35 60 L40 60"fill="none"stroke="#d62a2a"strokeWidth="1.5"/>
- <path d="M65 65 L65 60 L60 60"fill="none"stroke="#d62a2a"strokeWidth="1.5"/>
+ <path d="M35 35 L35 40 L40 40"fill="none"stroke="#6b6b6b"strokeWidth="1.5"/>
+ <path d="M65 35 L65 40 L60 40"fill="none"stroke="#6b6b6b"strokeWidth="1.5"/>
+ <path d="M35 65 L35 60 L40 60"fill="none"stroke="#6b6b6b"strokeWidth="1.5"/>
+ <path d="M65 65 L65 60 L60 60"fill="none"stroke="#6b6b6b"strokeWidth="1.5"/>
  </g>
 
  {/* The Eye - being targeted */}
@@ -191,9 +191,9 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
 
  {/* Blood vessels */}
  <g opacity="0.3">
- <path d="M30 45 Q38 48, 42 50"stroke="#8f0000"strokeWidth="0.4"fill="none"/>
+ <path d="M30 45 Q38 48, 42 50"stroke="#3d3d3d"strokeWidth="0.4"fill="none"/>
  <path d="M28 52 Q36 50, 40 49"stroke="#6b0000"strokeWidth="0.3"fill="none"/>
- <path d="M70 45 Q62 48, 58 50"stroke="#8f0000"strokeWidth="0.4"fill="none"/>
+ <path d="M70 45 Q62 48, 58 50"stroke="#3d3d3d"strokeWidth="0.4"fill="none"/>
  <path d="M72 52 Q64 50, 60 49"stroke="#6b0000"strokeWidth="0.3"fill="none"/>
  </g>
 
@@ -203,7 +203,7 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  </circle>
 
  {/* Iris detail */}
- <circle cx={targetData.x} cy={targetData.y} r="8"fill="none"stroke="#4d0000"strokeWidth="0.3"opacity="0.5"/>
+ <circle cx={targetData.x} cy={targetData.y} r="8"fill="none"stroke="#2a2a2a"strokeWidth="0.3"opacity="0.5"/>
 
  {/* Pupil */}
  <circle cx={targetData.x} cy={targetData.y} r="5"fill="url(#chPupilGradient)">
@@ -222,16 +222,16 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  <ellipse cx="50"cy="50"rx="22"ry="16"fill="none"stroke="#333"strokeWidth="1"/>
 
  {/* Targeting data readout simulation */}
- <g opacity="0.7"className="text-[4px]"fill="#d62a2a">
+ <g opacity="0.7"className="text-[4px]"fill="#6b6b6b">
  <text x="8"y="15"fontSize="4"fontFamily="monospace">TGT:LOCK</text>
- <text x="70"y="15"fontSize="4"fontFamily="monospace">{lockingOn ?"■■■■":"■■□□"}</text>
+ <text x="70"y="15"fontSize="4"fontFamily="monospace">{lockingOn ?"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ":"ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡"}</text>
  <text x="8"y="92"fontSize="4"fontFamily="monospace">ID:ARKH1V3</text>
  <text x="70"y="92"fontSize="4"fontFamily="monospace">ACTIVE</text>
  </g>
 
  {/* Pulsing center dot when locked */}
  {lockingOn && (
- <circle cx="50"cy="50"r="2"fill="#d62a2a">
+ <circle cx="50"cy="50"r="2"fill="#6b6b6b">
  <animate attributeName="r"values="2;4;2"dur="0.25s"repeatCount="indefinite"/>
  <animate attributeName="opacity"values="1;0.5;1"dur="0.25s"repeatCount="indefinite"/>
  </circle>
@@ -243,7 +243,7 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
  y1="50"
  x2={50 + 45 * Math.cos((scanAngle * Math.PI) / 180)}
  y2={50 + 45 * Math.sin((scanAngle * Math.PI) / 180)}
- stroke="#d62a2a"
+ stroke="#6b6b6b"
  strokeWidth="0.5"
  opacity="0.3"
  />
@@ -251,7 +251,7 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
 
  {/* HUD scan line */}
  <div 
- className="absolute left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-blood-600 to-transparent opacity-50"
+ className="absolute left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-zinc-700 to-transparent opacity-50"
  style={{ 
  top: `${50 + Math.sin(scanAngle * 0.05) * 30}%`,
  }}
@@ -261,8 +261,8 @@ export default function CrosshairEyeLogo({ size ="md", className =""}: Crosshair
 
  {/* Status indicator */}
  <div className="absolute -top-1 -right-1 w-3 h-3">
- <span className={`absolute inset-0 rounded-full ${lockingOn ? 'bg-blood-500 animate-none' : 'bg-blood-700 animate-ping'}`} style={{ animationDuration: '2s' }} />
- <span className="absolute inset-0 bg-gradient-to-br from-blood-500 to-blood-700 shadow-lg shadow-blood-600/50"/>
+ <span className={`absolute inset-0 rounded-full ${lockingOn ? 'bg-zinc-600 animate-none' : 'bg-zinc-700 animate-ping'}`} style={{ animationDuration: '2s' }} />
+ <span className="absolute inset-0 bg-gradient-to-br from-zinc-600 to-zinc-700 shadow-lg shadow-zinc-800-600/50"/>
  </div>
  </div>
  );

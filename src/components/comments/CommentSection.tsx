@@ -99,7 +99,7 @@ export default function CommentSection({
  {/* Header */}
  <div className="flex items-center justify-between">
  <div className="flex items-center gap-2">
- <MessageSquare className="w-5 h-5 text-blood-500"/>
+ <MessageSquare className="w-5 h-5 text-zinc-300"/>
  <h3 className="font-semibold text-white">
  Comments ({comments.length})
  </h3>
@@ -112,7 +112,7 @@ export default function CommentSection({
  <select
  value={sortBy}
  onChange={(e) => onSortChange(e.target.value as typeof sortBy)}
- className="px-2 py-1 text-sm bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] text-white focus:outline-none focus:border-blood-500"
+ className="px-2 py-1 text-sm bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] text-white focus:outline-none focus:border-zinc-600"
  >
  <option value="newest">Newest</option>
  <option value="oldest">Oldest</option>
@@ -129,13 +129,13 @@ export default function CommentSection({
  onChange={(e) => setNewComment(e.target.value)}
  placeholder="Add a comment..."
  rows={3}
- className="w-full px-4 py-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none"
+ className="w-full px-4 py-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 resize-none"
  />
  <div className="flex justify-end">
  <button
  type="submit"
  disabled={!newComment.trim() || submitting}
- className="flex items-center gap-2 px-4 py-2 bg-blood-600 text-white font-medium hover:bg-blood-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+ className="flex items-center gap-2 px-4 py-2 bg-zinc-700 text-white font-medium hover:bg-zinc-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
  >
  <Send className="w-4 h-4"/>
  {submitting ? 'Posting...' : 'Post Comment'}
@@ -262,11 +262,11 @@ function CommentItem({
  exit={{ opacity: 0, height: 0 }}
  className={cn(
  'relative',
- depth > 0 && 'ml-6 pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]'
+ depth > 0 && 'ml-6 pl-4 border-l-2 border-[rgba(255,255,255,0.15)]'
  )}
  >
  <div className={cn(
- 'p-4 bg-[#1c0a00]',
+ 'p-4 bg-[#0a0a0a]',
  comment.deleted && 'opacity-50'
  )}>
  {/* Header */}
@@ -289,7 +289,7 @@ function CommentItem({
  <span className="text-sm font-medium text-white">
  {comment.author.name}
  </span>
- <span className="mx-2 text-zinc-600">·</span>
+ <span className="mx-2 text-zinc-600">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·</span>
  <span className="text-xs text-zinc-500">{timeAgo}</span>
  {comment.edited && (
  <span className="ml-2 text-xs text-zinc-600">(edited)</span>
@@ -312,7 +312,7 @@ function CommentItem({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute right-0 top-full mt-1 w-36 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] shadow-lg z-10"
+ className="absolute right-0 top-full mt-1 w-36 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] shadow-lg z-10"
  >
  {isOwner && (
  <>
@@ -331,7 +331,7 @@ function CommentItem({
  handleDelete();
  setShowMenu(false);
  }}
- className="w-full flex items-center gap-2 px-3 py-2 text-sm text-blood-400 hover:bg-zinc-700"
+ className="w-full flex items-center gap-2 px-3 py-2 text-sm text-zinc-400 hover:bg-zinc-700"
  >
  <Trash2 className="w-4 h-4"/>
  Delete
@@ -367,13 +367,13 @@ function CommentItem({
  value={editContent}
  onChange={(e) => setEditContent(e.target.value)}
  rows={3}
- className="w-full px-3 py-2 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] text-white focus:outline-none focus:border-blood-500 resize-none text-sm"
+ className="w-full px-3 py-2 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] text-white focus:outline-none focus:border-zinc-600 resize-none text-sm"
  />
  <div className="flex gap-2">
  <button
  onClick={handleEdit}
  disabled={submitting}
- className="px-3 py-1 text-sm bg-blood-600 text-white hover:bg-blood-700 disabled:opacity-50"
+ className="px-3 py-1 text-sm bg-zinc-700 text-white hover:bg-zinc-700 disabled:opacity-50"
  >
  Save
  </button>
@@ -404,15 +404,15 @@ function CommentItem({
  className={cn(
  'p-1 transition-colors',
  comment.userVote === 'up'
- ? 'text-blood-500'
- : 'text-zinc-500 hover:text-blood-500'
+ ? 'text-zinc-300'
+ : 'text-zinc-500 hover:text-white'
  )}
  >
  <ThumbsUp className="w-4 h-4"/>
  </button>
  <span className={cn(
  'text-sm font-medium min-w-[20px] text-center',
- netVotes > 0 ? 'text-blood-500' : netVotes < 0 ? 'text-blood-500' : 'text-zinc-500'
+ netVotes > 0 ? 'text-zinc-300' : netVotes < 0 ? 'text-zinc-300' : 'text-zinc-500'
  )}>
  {netVotes}
  </span>
@@ -421,8 +421,8 @@ function CommentItem({
  className={cn(
  'p-1 transition-colors',
  comment.userVote === 'down'
- ? 'text-blood-500'
- : 'text-zinc-500 hover:text-blood-500'
+ ? 'text-zinc-300'
+ : 'text-zinc-500 hover:text-white'
  )}
  >
  <ThumbsDown className="w-4 h-4"/>
@@ -471,14 +471,14 @@ function CommentItem({
  onChange={(e) => setReplyContent(e.target.value)}
  placeholder="Write a reply..."
  rows={2}
- className="w-full px-3 py-2 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 resize-none text-sm"
+ className="w-full px-3 py-2 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 resize-none text-sm"
  autoFocus
  />
  <div className="flex gap-2">
  <button
  onClick={handleReply}
  disabled={!replyContent.trim() || submitting}
- className="px-3 py-1 text-sm bg-blood-600 text-white hover:bg-blood-700 disabled:opacity-50"
+ className="px-3 py-1 text-sm bg-zinc-700 text-white hover:bg-zinc-700 disabled:opacity-50"
  >
  Reply
  </button>

@@ -267,7 +267,7 @@ export function ContributorList({ contributors, title = 'Contributors' }: Contri
   return (
     <div className="space-y-4">
       <h3 className="text-lg font-mono text-zinc-200 tracking-wider flex items-center gap-2">
-        <Award size={18} className="text-blood-500" />
+        <Award size={18} className="text-zinc-300" />
         {title}
       </h3>
       <div className="space-y-3">

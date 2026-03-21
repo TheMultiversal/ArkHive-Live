@@ -199,7 +199,7 @@ function SourceCard({ item, showInvestigation = true }: SourceCardProps) {
             href={item.source.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white hover:text-blood-400 font-medium flex items-center gap-1"
+            className="text-white hover:text-white font-medium flex items-center gap-1"
           >
             {item.source.title}
             <ExternalLink className="w-3.5 h-3.5 shrink-0" />
@@ -219,9 +219,9 @@ function SourceCard({ item, showInvestigation = true }: SourceCardProps) {
           {showInvestigation && (
             <Link
               href={`/investigations/${item.investigationSlug}`}
-              className="text-xs text-blood-400 hover:text-blood-300 mt-2 inline-block"
+              className="text-xs text-zinc-400 hover:text-white mt-2 inline-block"
             >
-              {item.investigationTitle} →
+              {item.investigationTitle} ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢
             </Link>
           )}
         </div>
@@ -339,11 +339,11 @@ export default function SourceCredibilityDashboard({
       <div className="flex flex-col md:flex-row md:items-center gap-4">
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
-            <Shield className="w-6 h-6 text-blood-500" />
+            <Shield className="w-6 h-6 text-zinc-300" />
             Source Credibility Dashboard
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {stats.total} sources • Average credibility: {stats.avgScore}/100
+            {stats.total} sources ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Average credibility: {stats.avgScore}/100
           </p>
         </div>
         
@@ -351,7 +351,7 @@ export default function SourceCredibilityDashboard({
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as typeof sortBy)}
-            className="px-3 py-1.5 text-xs bg-zinc-900 border border-zinc-800 text-zinc-400 focus:outline-none focus:border-blood-500"
+            className="px-3 py-1.5 text-xs bg-zinc-900 border border-zinc-800 text-zinc-400 focus:outline-none focus:border-zinc-600"
           >
             <option value="credibility">By Credibility</option>
             <option value="title">Alphabetical</option>
@@ -390,7 +390,7 @@ export default function SourceCredibilityDashboard({
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search sources..."
-          className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+          className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
         />
         {searchQuery && (
           <button
@@ -450,8 +450,8 @@ export function SourceCredibilityWidget() {
   const percentage = sources.length > 0 ? Math.round((highQuality / sources.length) * 100) : 0;
   
   return (
-    <div className="glass-card border border-blood-900/30 p-4">
-      <h3 className="text-sm font-semibold text-blood-400 mb-3 flex items-center gap-2">
+    <div className="glass-card border border-zinc-800/30 p-4">
+      <h3 className="text-sm font-semibold text-zinc-400 mb-3 flex items-center gap-2">
         <Shield className="w-4 h-4" />
         Source Quality
       </h3>

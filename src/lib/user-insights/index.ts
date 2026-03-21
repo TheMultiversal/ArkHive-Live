@@ -582,8 +582,8 @@ export function HeatmapOverlay({ data, intensity = 0.5 }: HeatmapOverlayProps): 
         click.x, click.y, 0,
         click.x, click.y, 30
       );
-      gradient.addColorStop(0, `rgba(214, 69, 69, ${intensity})`);
-      gradient.addColorStop(1, 'rgba(214, 69, 69, 0)');
+      gradient.addColorStop(0, `rgba(160, 160, 160, ${intensity})`);
+      gradient.addColorStop(1, 'rgba(160, 160, 160, 0)');
 
       ctx.fillStyle = gradient;
       ctx.beginPath();
@@ -622,7 +622,7 @@ export function ScrollDepthChart({ data }: ScrollDepthChartProps): ReactElement 
             </div>
             <div className="h-4 bg-black/50">
               <div 
-                className="h-full bg-blood-600"
+                className="h-full bg-zinc-700"
                 style={{ width: total > 0 ? `${(count / total) * 100}%` : '0%' }}
               />
             </div>
@@ -643,7 +643,7 @@ export function EngagementScore({ score, label = 'Engagement' }: EngagementScore
     if (score >= 75) return 'text-green-400';
     if (score >= 50) return 'text-yellow-400';
     if (score >= 25) return 'text-orange-400';
-    return 'text-blood-400';
+    return 'text-zinc-400';
   };
 
   return (
@@ -654,7 +654,7 @@ export function EngagementScore({ score, label = 'Engagement' }: EngagementScore
       <div className="text-sm text-zinc-500 mt-1">{label} Score</div>
       <div className="mt-3 h-2 bg-black/50">
         <div 
-          className={`h-full ${score >= 75 ? 'bg-green-600' : score >= 50 ? 'bg-yellow-600' : score >= 25 ? 'bg-orange-600' : 'bg-blood-600'}`}
+          className={`h-full ${score >= 75 ? 'bg-green-600' : score >= 50 ? 'bg-yellow-600' : score >= 25 ? 'bg-orange-600' : 'bg-zinc-700'}`}
           style={{ width: `${score}%` }}
         />
       </div>
@@ -678,7 +678,7 @@ export function InteractionList({ interactions }: InteractionListProps): ReactEl
           >
             <div className="flex items-center gap-3">
               <span className="text-sm text-zinc-500 w-6">{index + 1}.</span>
-              <code className="text-sm text-blood-400 truncate max-w-[200px]">
+              <code className="text-sm text-zinc-400 truncate max-w-[200px]">
                 {item.element}
               </code>
             </div>

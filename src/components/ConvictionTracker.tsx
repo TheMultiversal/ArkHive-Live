@@ -74,7 +74,7 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
     <div className={`glass-card border ${status.border}`}>
       <button
         onClick={onToggle}
-        className="w-full p-4 flex items-start gap-4 text-left hover:bg-blood-900/10 transition-colors"
+        className="w-full p-4 flex items-start gap-4 text-left hover:bg-zinc-800/10 transition-colors"
       >
         <div className={`shrink-0 w-10 h-10 ${status.bg} ${status.border} border flex items-center justify-center`}>
           <User className={`w-5 h-5 ${status.color}`} />
@@ -121,9 +121,9 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
           <Link
             href={`/investigations/${defendant.investigationSlug}`}
             onClick={(e) => e.stopPropagation()}
-            className="text-xs text-blood-400 hover:text-blood-300 px-2 py-1 hover:bg-blood-900/30 transition-colors"
+            className="text-xs text-zinc-400 hover:text-white px-2 py-1 hover:bg-zinc-800/30 transition-colors"
           >
-            View Case →
+            View Case ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢
           </Link>
           {isExpanded ? (
             <ChevronDown className="w-4 h-4 text-zinc-500" />
@@ -134,7 +134,7 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
       </button>
       
       {isExpanded && (
-        <div className="border-t border-blood-900/30 bg-black/30 p-4 space-y-4">
+        <div className="border-t border-zinc-800/30 bg-black/30 p-4 space-y-4">
           {/* Charges */}
           {defendant.charges && defendant.charges.length > 0 && (
             <div>
@@ -144,7 +144,7 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
               <ul className="space-y-1">
                 {defendant.charges.map((charge, idx) => (
                   <li key={idx} className="text-sm text-zinc-400 flex items-start gap-2">
-                    <span className="text-blood-500 mt-1">•</span>
+                    <span className="text-zinc-300 mt-1">ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢</span>
                     {charge}
                   </li>
                 ))}
@@ -230,7 +230,7 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
           {/* Investigation link */}
           <Link
             href={`/investigations/${defendant.investigationSlug}`}
-            className="inline-flex items-center gap-2 text-sm text-blood-400 hover:text-blood-300"
+            className="inline-flex items-center gap-2 text-sm text-zinc-400 hover:text-white"
           >
             <ExternalLink className="w-3.5 h-3.5" />
             {defendant.investigationTitle}
@@ -339,11 +339,11 @@ export default function ConvictionTracker({ investigationSlug, compact = false, 
         <div className="flex flex-col md:flex-row md:items-center gap-4">
           <div>
             <h2 className="text-xl font-bold text-white flex items-center gap-2">
-              <Scale className="w-6 h-6 text-blood-500" />
+              <Scale className="w-6 h-6 text-zinc-300" />
               Conviction Tracker
             </h2>
             <p className="text-sm text-zinc-500 mt-1">
-              {stats.total} defendants tracked • {stats.convicted} convicted • {stats.pardoned} pardoned
+              {stats.total} defendants tracked ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {stats.convicted} convicted ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {stats.pardoned} pardoned
             </p>
           </div>
         </div>
@@ -381,7 +381,7 @@ export default function ConvictionTracker({ investigationSlug, compact = false, 
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search defendants..."
-            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
           />
           {searchQuery && (
             <button
@@ -399,7 +399,7 @@ export default function ConvictionTracker({ investigationSlug, compact = false, 
             onClick={() => setStatusFilter('all')}
             className={`px-3 py-2 text-xs transition-colors ${
               statusFilter === 'all'
-                ? 'bg-blood-500/20 text-blood-400 border border-blood-500'
+                ? 'bg-zinc-500/20 text-zinc-400 border border-zinc-600'
                 : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-zinc-700'
             }`}
           >
@@ -453,8 +453,8 @@ export function ConvictionSummaryWidget() {
   const pardoned = defendants.filter(d => d.status === 'pardoned');
   
   return (
-    <div className="glass-card border border-blood-900/30 p-4">
-      <h3 className="text-sm font-semibold text-blood-400 mb-3 flex items-center gap-2">
+    <div className="glass-card border border-zinc-800/30 p-4">
+      <h3 className="text-sm font-semibold text-zinc-400 mb-3 flex items-center gap-2">
         <Scale className="w-4 h-4" />
         Accountability Tracker
       </h3>

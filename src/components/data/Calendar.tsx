@@ -123,7 +123,7 @@ interface EventChipProps {
 }
 
 function EventChip({ event, onClick, compact = false }: EventChipProps) {
- const eventColor = event.color || '#b80000';
+ const eventColor = event.color || '#4a4a4a';
 
  return (
  <motion.button
@@ -190,10 +190,10 @@ function DayCell({
  <div
  onClick={onSelect}
  className={cn(
- 'min-h-[100px] p-1 border-b border-r border-[rgba(255, 80, 80,0.15)] cursor-pointer transition-colors group',
- !isCurrentMonth && 'bg-[#1c0a00]',
- isSelected && 'ring-2 ring-inset ring-blood-500',
- 'hover:bg-[#200c00]'
+ 'min-h-[100px] p-1 border-b border-r border-[rgba(255,255,255,0.15)] cursor-pointer transition-colors group',
+ !isCurrentMonth && 'bg-[#0a0a0a]',
+ isSelected && 'ring-2 ring-inset ring-zinc-600',
+ 'hover:bg-[#0d0d0d]'
  )}
  >
  <div className="flex items-center justify-between mb-1">
@@ -205,7 +205,7 @@ function DayCell({
  'text-sm w-6 h-6 flex items-center justify-center',
  !isCurrentMonth && 'text-zinc-600',
  isCurrentMonth && 'text-zinc-300',
- isToday && 'bg-blood-500 glass-text font-bold'
+ isToday && 'bg-zinc-600 glass-text font-bold'
  )}
  >
  {date.getDate()}
@@ -251,7 +251,7 @@ function DayCell({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute z-20 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] p-2 shadow-lg min-w-[200px]"
+ className="absolute z-20 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] p-2 shadow-lg min-w-[200px]"
  onClick={(e) => e.stopPropagation()}
  >
  <div className="flex items-center justify-between mb-2">
@@ -345,20 +345,20 @@ export default function Calendar({
  };
 
  return (
- <div className={cn('bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]', className)}>
+ <div className={cn('bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]', className)}>
  {/* Header */}
- <div className="flex items-center justify-between p-4 border-b border-[rgba(255, 80, 80,0.15)]">
+ <div className="flex items-center justify-between p-4 border-b border-[rgba(255,255,255,0.15)]">
  <div className="flex items-center gap-4">
  <div className="flex items-center gap-1">
  <button
  onClick={() => navigateMonth(-1)}
- className="p-2 text-zinc-400 hover:text-white hover:bg-[#200c00] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white hover:bg-[#0d0d0d] transition-colors"
  >
  <ChevronLeft className="w-4 h-4"/>
  </button>
  <button
  onClick={() => navigateMonth(1)}
- className="p-2 text-zinc-400 hover:text-white hover:bg-[#200c00] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white hover:bg-[#0d0d0d] transition-colors"
  >
  <ChevronRight className="w-4 h-4"/>
  </button>
@@ -372,13 +372,13 @@ export default function Calendar({
  <div className="flex items-center gap-2">
  <button
  onClick={goToToday}
- className="px-3 py-1.5 text-sm text-zinc-300 hover:text-white bg-[#200c00] hover:bg-zinc-700 transition-colors"
+ className="px-3 py-1.5 text-sm text-zinc-300 hover:text-white bg-[#0d0d0d] hover:bg-zinc-700 transition-colors"
  >
  Today
  </button>
 
  {/* View selector */}
- <div className="flex items-center border border-[rgba(255, 60, 60,0.18)]">
+ <div className="flex items-center border border-[rgba(255,255,255,0.18)]">
  <button
  className={cn(
  'px-3 py-1.5 text-sm transition-colors',
@@ -416,7 +416,7 @@ export default function Calendar({
  {/* Day headers */}
  <div
  className={cn(
- 'grid border-b border-[rgba(255, 80, 80,0.15)]',
+ 'grid border-b border-[rgba(255,255,255,0.15)]',
  showWeekNumbers ? 'grid-cols-8' : 'grid-cols-7'
  )}
  >
@@ -426,7 +426,7 @@ export default function Calendar({
  {dayNames.map((day) => (
  <div
  key={day}
- className="p-2 text-xs text-zinc-500 text-center border-r border-[rgba(255, 80, 80,0.15)] last:border-r-0"
+ className="p-2 text-xs text-zinc-500 text-center border-r border-[rgba(255,255,255,0.15)] last:border-r-0"
  >
  {day}
  </div>
@@ -450,7 +450,7 @@ export default function Calendar({
  {showWeekNum && (
  <div
  key={`week-${index}`}
- className="p-1 text-[10px] text-zinc-600 text-center border-b border-r border-[rgba(255, 80, 80,0.15)] flex items-center justify-center"
+ className="p-1 text-[10px] text-zinc-600 text-center border-b border-r border-[rgba(255,255,255,0.15)] flex items-center justify-center"
  >
  {getWeekNumber(day.date)}
  </div>

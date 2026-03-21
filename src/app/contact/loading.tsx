@@ -8,7 +8,7 @@ export default function ContactLoading() {
  <div className="max-w-2xl mx-auto px-4">
  {/* Header skeleton */}
  <div className="text-center mb-12">
- <div className="h-10 w-48 bg-[#1c0a00] animate-pulse mx-auto mb-4"/>
+ <div className="h-10 w-48 bg-[#0a0a0a] animate-pulse mx-auto mb-4"/>
  <div className="h-5 w-80 bg-zinc-900 animate-pulse mx-auto"/>
  </div>
 
@@ -20,30 +20,30 @@ export default function ContactLoading() {
  >
  {/* Name field */}
  <div className="mb-6">
- <div className="h-4 w-16 bg-[#200c00] animate-pulse mb-2"/>
+ <div className="h-4 w-16 bg-[#0d0d0d] animate-pulse mb-2"/>
  <div className="h-12 w-full bg-zinc-900 animate-pulse"/>
  </div>
 
  {/* Email field */}
  <div className="mb-6">
- <div className="h-4 w-12 bg-[#200c00] animate-pulse mb-2"/>
+ <div className="h-4 w-12 bg-[#0d0d0d] animate-pulse mb-2"/>
  <div className="h-12 w-full bg-zinc-900 animate-pulse"/>
  </div>
 
  {/* Subject field */}
  <div className="mb-6">
- <div className="h-4 w-16 bg-[#200c00] animate-pulse mb-2"/>
+ <div className="h-4 w-16 bg-[#0d0d0d] animate-pulse mb-2"/>
  <div className="h-12 w-full bg-zinc-900 animate-pulse"/>
  </div>
 
  {/* Message field */}
  <div className="mb-8">
- <div className="h-4 w-20 bg-[#200c00] animate-pulse mb-2"/>
+ <div className="h-4 w-20 bg-[#0d0d0d] animate-pulse mb-2"/>
  <div className="h-32 w-full bg-zinc-900 animate-pulse"/>
  </div>
 
  {/* Submit button */}
- <div className="h-12 w-full bg-blood-900 animate-pulse"/>
+ <div className="h-12 w-full bg-zinc-800 animate-pulse"/>
  </motion.div>
 
  {/* Alternative contact methods */}
@@ -56,9 +56,9 @@ export default function ContactLoading() {
  transition={{ delay: 0.2 + i * 0.1 }}
  className="glass-card p-4 flex items-center gap-4"
  >
- <div className="w-10 h-10 bg-blood-900 animate-pulse"/>
+ <div className="w-10 h-10 bg-zinc-800 animate-pulse"/>
  <div>
- <div className="h-4 w-20 bg-[#200c00] animate-pulse mb-2"/>
+ <div className="h-4 w-20 bg-[#0d0d0d] animate-pulse mb-2"/>
  <div className="h-3 w-32 bg-zinc-900 animate-pulse"/>
  </div>
  </motion.div>

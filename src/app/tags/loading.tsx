@@ -8,7 +8,7 @@ export default function TagsLoading() {
  <div className="max-w-5xl mx-auto px-4">
  {/* Header */}
  <div className="text-center mb-12">
- <div className="h-10 w-32 bg-[#1c0a00] animate-pulse mx-auto mb-4"/>
+ <div className="h-10 w-32 bg-[#0a0a0a] animate-pulse mx-auto mb-4"/>
  <div className="h-5 w-64 bg-zinc-900 animate-pulse mx-auto"/>
  </div>
 
@@ -19,7 +19,7 @@ export default function TagsLoading() {
 
  {/* Popular tags section */}
  <div className="mb-12">
- <div className="h-6 w-32 bg-[#200c00] animate-pulse mb-6"/>
+ <div className="h-6 w-32 bg-[#0d0d0d] animate-pulse mb-6"/>
  <div className="flex flex-wrap gap-3">
  {[...Array(12)].map((_, i) => (
  <motion.div
@@ -36,7 +36,7 @@ export default function TagsLoading() {
 
  {/* All tags */}
  <div>
- <div className="h-6 w-24 bg-[#200c00] animate-pulse mb-6"/>
+ <div className="h-6 w-24 bg-[#0d0d0d] animate-pulse mb-6"/>
  
  {/* Tag cloud */}
  <div className="glass-card p-8">
@@ -60,7 +60,7 @@ export default function TagsLoading() {
 
  {/* Trending */}
  <div className="mt-12">
- <div className="h-6 w-28 bg-[#200c00] animate-pulse mb-6"/>
+ <div className="h-6 w-28 bg-[#0d0d0d] animate-pulse mb-6"/>
  <div className="grid grid-cols-3 gap-4">
  {[...Array(6)].map((_, i) => (
  <motion.div
@@ -70,9 +70,9 @@ export default function TagsLoading() {
  transition={{ delay: 0.8 + i * 0.05 }}
  className="glass-card p-4 flex items-center gap-3"
  >
- <div className="w-8 h-8 bg-blood-900 animate-pulse"/>
+ <div className="w-8 h-8 bg-zinc-800 animate-pulse"/>
  <div className="flex-1">
- <div className="h-5 w-24 bg-[#200c00] animate-pulse mb-1"/>
+ <div className="h-5 w-24 bg-[#0d0d0d] animate-pulse mb-1"/>
  <div className="h-4 w-16 bg-zinc-900 animate-pulse"/>
  </div>
  </motion.div>

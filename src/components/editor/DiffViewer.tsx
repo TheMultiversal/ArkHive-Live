@@ -216,24 +216,24 @@ export default function DiffViewer({
  };
 
  return (
- <div className={cn('bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]', className)}>
+ <div className={cn('bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]', className)}>
  {/* Header */}
- <div className="flex items-center justify-between p-3 border-b border-[rgba(255, 80, 80,0.15)] bg-[#200c00]">
+ <div className="flex items-center justify-between p-3 border-b border-[rgba(255,255,255,0.15)] bg-[#0d0d0d]">
  <div className="flex items-center gap-4">
  <div className="flex items-center gap-2">
  <FileText className="w-4 h-4 text-zinc-400"/>
  <span className="text-sm text-zinc-500">{oldFilename}</span>
- <span className="text-zinc-600">→</span>
+ <span className="text-zinc-600">ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢</span>
  <span className="text-sm text-zinc-300">{newFilename}</span>
  </div>
  
  {/* Stats */}
  <div className="flex items-center gap-2 text-xs">
- <span className="flex items-center gap-1 text-blood-500">
+ <span className="flex items-center gap-1 text-zinc-300">
  <Plus className="w-3 h-3"/>
  {stats.additions}
  </span>
- <span className="flex items-center gap-1 text-blood-500">
+ <span className="flex items-center gap-1 text-zinc-300">
  <Minus className="w-3 h-3"/>
  {stats.deletions}
  </span>
@@ -242,7 +242,7 @@ export default function DiffViewer({
 
  <div className="flex items-center gap-2">
  {/* View mode toggle */}
- <div className="flex items-center border border-[rgba(255, 60, 60,0.18)]">
+ <div className="flex items-center border border-[rgba(255,255,255,0.18)]">
  <button
  onClick={() => setViewMode('unified')}
  className={cn(
@@ -273,7 +273,7 @@ export default function DiffViewer({
  className={cn(
  'p-1.5 transition-colors',
  showOnlyChanges
- ? 'text-blood-500'
+ ? 'text-zinc-300'
  : 'text-zinc-400 hover:text-white'
  )}
  title={showOnlyChanges ? 'Show all lines' : 'Show only changes'}
@@ -292,7 +292,7 @@ export default function DiffViewer({
  title="Copy diff"
  >
  {copied ? (
- <Check className="w-4 h-4 text-blood-500"/>
+ <Check className="w-4 h-4 text-zinc-300"/>
  ) : (
  <Copy className="w-4 h-4"/>
  )}
@@ -351,35 +351,35 @@ function UnifiedView({ lines, showLineNumbers }: ViewProps) {
  <tr
  key={index}
  className={cn(
- 'border-b border-[rgba(255, 60, 60,0.08)]',
- line.type === 'added' && 'bg-blood-950',
- line.type === 'removed' && 'bg-blood-950'
+ 'border-b border-[rgba(255,255,255,0.08)]',
+ line.type === 'added' && 'bg-zinc-900',
+ line.type === 'removed' && 'bg-zinc-900'
  )}
  >
  {showLineNumbers && (
  <>
- <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255, 80, 80,0.15)]">
+ <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255,255,255,0.15)]">
  {line.oldLineNum || ''}
  </td>
- <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255, 80, 80,0.15)]">
+ <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255,255,255,0.15)]">
  {line.newLineNum || ''}
  </td>
  </>
  )}
  <td className="px-2 py-0.5 w-6 text-center select-none">
  {line.type === 'added' && (
- <Plus className="w-3 h-3 text-blood-500 inline"/>
+ <Plus className="w-3 h-3 text-zinc-300 inline"/>
  )}
  {line.type === 'removed' && (
- <Minus className="w-3 h-3 text-blood-500 inline"/>
+ <Minus className="w-3 h-3 text-zinc-300 inline"/>
  )}
  </td>
  <td className="px-2 py-0.5">
  <pre
  className={cn(
  'whitespace-pre-wrap',
- line.type === 'added' && 'text-blood-400',
- line.type === 'removed' && 'text-blood-400',
+ line.type === 'added' && 'text-zinc-400',
+ line.type === 'removed' && 'text-zinc-400',
  line.type === 'unchanged' && 'text-zinc-400'
  )}
  >
@@ -411,7 +411,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  <div className="flex divide-x divide-zinc-800">
  {/* Left side (old) */}
  <div className="flex-1 overflow-auto">
- <div className="px-3 py-1 text-xs text-zinc-500 bg-[#200c00] border-b border-[rgba(255, 80, 80,0.15)] sticky top-0">
+ <div className="px-3 py-1 text-xs text-zinc-500 bg-[#0d0d0d] border-b border-[rgba(255,255,255,0.15)] sticky top-0">
  Original
  </div>
  <table className="w-full font-mono text-sm">
@@ -420,12 +420,12 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  <tr
  key={index}
  className={cn(
- 'border-b border-[rgba(255, 60, 60,0.08)]',
- line.type === 'removed' && 'bg-blood-950'
+ 'border-b border-[rgba(255,255,255,0.08)]',
+ line.type === 'removed' && 'bg-zinc-900'
  )}
  >
  {showLineNumbers && (
- <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255, 80, 80,0.15)]">
+ <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255,255,255,0.15)]">
  {line.oldLineNum || ''}
  </td>
  )}
@@ -433,7 +433,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  <pre
  className={cn(
  'whitespace-pre-wrap',
- line.type === 'removed' && 'text-blood-400',
+ line.type === 'removed' && 'text-zinc-400',
  line.type === 'unchanged' && 'text-zinc-400'
  )}
  >
@@ -448,7 +448,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
 
  {/* Right side (new) */}
  <div className="flex-1 overflow-auto">
- <div className="px-3 py-1 text-xs text-zinc-500 bg-[#200c00] border-b border-[rgba(255, 80, 80,0.15)] sticky top-0">
+ <div className="px-3 py-1 text-xs text-zinc-500 bg-[#0d0d0d] border-b border-[rgba(255,255,255,0.15)] sticky top-0">
  Modified
  </div>
  <table className="w-full font-mono text-sm">
@@ -457,12 +457,12 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  <tr
  key={index}
  className={cn(
- 'border-b border-[rgba(255, 60, 60,0.08)]',
- line.type === 'added' && 'bg-blood-950'
+ 'border-b border-[rgba(255,255,255,0.08)]',
+ line.type === 'added' && 'bg-zinc-900'
  )}
  >
  {showLineNumbers && (
- <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255, 80, 80,0.15)]">
+ <td className="px-2 py-0.5 text-right text-zinc-600 select-none w-12 border-r border-[rgba(255,255,255,0.15)]">
  {line.newLineNum || ''}
  </td>
  )}
@@ -470,7 +470,7 @@ function SplitView({ lines, showLineNumbers }: ViewProps) {
  <pre
  className={cn(
  'whitespace-pre-wrap',
- line.type === 'added' && 'text-blood-400',
+ line.type === 'added' && 'text-zinc-400',
  line.type === 'unchanged' && 'text-zinc-400'
  )}
  >

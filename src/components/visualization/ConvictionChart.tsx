@@ -68,7 +68,7 @@ function parseAmount(amount?: string): number {
 
 // Format months to readable string
 function formatMonths(months: number): string {
-  if (months === 0) return "—";
+  if (months === 0) return "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â";
   if (months >= 600) return "Life";
   if (months >= 12) {
     const years = Math.floor(months / 12);
@@ -81,7 +81,7 @@ function formatMonths(months: number): string {
 
 // Format currency
 function formatCurrency(amount: number): string {
-  if (amount === 0) return "—";
+  if (amount === 0) return "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â";
   if (amount >= 1e9) return `$${(amount / 1e9).toFixed(1)}B`;
   if (amount >= 1e6) return `$${(amount / 1e6).toFixed(1)}M`;
   if (amount >= 1e3) return `$${(amount / 1e3).toFixed(0)}K`;
@@ -151,11 +151,11 @@ export default function ConvictionComparisonChart({
   }
   
   return (
-    <div className={`bg-zinc-950 border border-blood-900/30 ${className}`}>
+    <div className={`bg-zinc-950 border border-zinc-800/30 ${className}`}>
       {/* Header */}
-      <div className="border-b border-blood-900/30 px-4 py-3 flex items-center justify-between">
+      <div className="border-b border-zinc-800/30 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Scale className="w-4 h-4 text-blood-500" />
+          <Scale className="w-4 h-4 text-zinc-300" />
           <h3 className="text-sm font-bold text-white uppercase tracking-wider">{title}</h3>
         </div>
         
@@ -163,7 +163,7 @@ export default function ConvictionComparisonChart({
         <select
           value={currentSort}
           onChange={(e) => setCurrentSort(e.target.value as typeof currentSort)}
-          className="text-xs bg-black border border-zinc-700 text-zinc-400 px-2 py-1 focus:outline-none focus:border-blood-600"
+          className="text-xs bg-black border border-zinc-700 text-zinc-400 px-2 py-1 focus:outline-none focus:border-zinc-700"
         >
           <option value="prisonTerm">Sort by Prison Term</option>
           <option value="fine">Sort by Financial Penalty</option>
@@ -185,7 +185,7 @@ export default function ConvictionComparisonChart({
               {/* Main row */}
               <button
                 onClick={() => setExpandedId(isExpanded ? null : defendant.id)}
-                className="w-full p-4 hover:bg-blood-950/20 transition-colors text-left"
+                className="w-full p-4 hover:bg-zinc-800/80/20 transition-colors text-left"
               >
                 <div className="flex items-center gap-4">
                   {/* Status badge */}
@@ -262,7 +262,7 @@ export default function ConvictionComparisonChart({
                         <ul className="space-y-0.5">
                           {defendant.charges.map((charge, i) => (
                             <li key={i} className="flex items-start gap-1.5 text-zinc-300">
-                              <AlertTriangle className="w-3 h-3 text-blood-500 mt-0.5 flex-shrink-0" />
+                              <AlertTriangle className="w-3 h-3 text-zinc-300 mt-0.5 flex-shrink-0" />
                               <span>{charge}</span>
                             </li>
                           ))}
@@ -309,9 +309,9 @@ export default function ConvictionComparisonChart({
                   {defendant.href && (
                     <Link
                       href={defendant.href}
-                      className="inline-block mt-3 text-xs text-blood-500 hover:text-blood-400"
+                      className="inline-block mt-3 text-xs text-zinc-300 hover:text-white"
                     >
-                      View full profile →
+                      View full profile ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢
                     </Link>
                   )}
                 </div>

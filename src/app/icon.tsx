@@ -32,7 +32,7 @@ export default function Icon() {
  width="28"
  height="28"
  viewBox="0 0 100 100"
- style={{ filter: 'drop-shadow(0 0 2px rgba(184, 0, 0, 0.8))' }}
+ style={{ filter: 'drop-shadow(0 0 2px rgba(150, 150, 150, 0.8))' }}
  >
  {/* Eye white (sclera) */}
  <ellipse
@@ -48,7 +48,7 @@ export default function Icon() {
  cx="50"
  cy="45"
  r="18"
- fill="#8f0000"
+ fill="#3d3d3d"
  />
  
  {/* Pupil */}
@@ -72,7 +72,7 @@ export default function Icon() {
  {/* Blood drip 1 - main */}
  <path
  d="M50 73 Q50 80, 48 90 Q47 95, 50 98 Q53 95, 52 90 Q50 80, 50 73"
- fill="#8f0000"
+ fill="#3d3d3d"
  />
  
  {/* Blood drip 2 - left */}

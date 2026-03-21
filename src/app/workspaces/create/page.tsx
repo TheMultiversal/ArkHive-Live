@@ -83,10 +83,10 @@ function CreateWorkspaceContent() {
 
  const getPriorityColor = (p: WorkspacePriority) => {
  switch (p) {
- case 'critical': return 'bg-blood-500';
- case 'high': return 'bg-blood-600/80';
- case 'medium': return 'bg-blood-900';
- default: return 'bg-[#200c00]';
+ case 'critical': return 'bg-zinc-600';
+ case 'high': return 'bg-zinc-700/80';
+ case 'medium': return 'bg-zinc-800';
+ default: return 'bg-[#0d0d0d]';
  }
  };
 
@@ -98,7 +98,7 @@ function CreateWorkspaceContent() {
  <div className="flex items-center gap-3">
  <Link 
  href="/workspaces"
- className="p-1.5 rounded hover:bg-[#1c0a00] text-white/25 hover:text-white/40 transition-colors"
+ className="p-1.5 rounded hover:bg-[#0a0a0a] text-white/25 hover:text-white/40 transition-colors"
  >
  <ArrowLeft className="w-4 h-4"/>
  </Link>
@@ -116,14 +116,14 @@ function CreateWorkspaceContent() {
  {/* Name */}
  <div>
  <label className="block text-[10px] text-white/30 uppercase tracking-widest mb-2">
- Workspace Name <span className="text-blood-500/60">*</span>
+ Workspace Name <span className="text-zinc-300/60">*</span>
  </label>
  <input
  type="text"
  value={name}
  onChange={(e) => setName(e.target.value)}
  placeholder="e.g., FDA Approval Investigation"
- className="w-full px-4 py-3 bg-[#1c0a00] border border-white/[0.06] text-sm text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full px-4 py-3 bg-[#0a0a0a] border border-white/[0.06] text-sm text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  required
  />
  </div>
@@ -138,7 +138,7 @@ function CreateWorkspaceContent() {
  onChange={(e) => setDescription(e.target.value)}
  placeholder="Brief overview of the investigation scope and objectives..."
  rows={4}
- className="w-full px-4 py-3 bg-[#1c0a00] border border-white/[0.06] text-sm text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors resize-none"
+ className="w-full px-4 py-3 bg-[#0a0a0a] border border-white/[0.06] text-sm text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors resize-none"
  />
  </div>
 
@@ -157,7 +157,7 @@ function CreateWorkspaceContent() {
  onClick={() => setPriority(option.value)}
  className={`w-full flex items-center gap-3 p-3 border transition-all text-left ${
  priority === option.value 
- ? 'bg-[#1c0a00] border-white/[0.1]' 
+ ? 'bg-[#0a0a0a] border-white/[0.1]' 
  : 'border-white/[0.04] hover:border-white/[0.06]'
  }`}
  >
@@ -183,7 +183,7 @@ function CreateWorkspaceContent() {
  onClick={() => setVisibility('private')}
  className={`w-full flex items-center gap-3 p-3 border transition-all text-left ${
  visibility === 'private' 
- ? 'bg-[#1c0a00] border-white/[0.1]' 
+ ? 'bg-[#0a0a0a] border-white/[0.1]' 
  : 'border-white/[0.04] hover:border-white/[0.06]'
  }`}
  >
@@ -200,7 +200,7 @@ function CreateWorkspaceContent() {
  onClick={() => setVisibility('team')}
  className={`w-full flex items-center gap-3 p-3 border transition-all text-left ${
  visibility === 'team' 
- ? 'bg-[#1c0a00] border-white/[0.1]' 
+ ? 'bg-[#0a0a0a] border-white/[0.1]' 
  : 'border-white/[0.04] hover:border-white/[0.06]'
  }`}
  >
@@ -217,7 +217,7 @@ function CreateWorkspaceContent() {
  onClick={() => setVisibility('public')}
  className={`w-full flex items-center gap-3 p-3 border transition-all text-left ${
  visibility === 'public' 
- ? 'bg-[#1c0a00] border-white/[0.1]' 
+ ? 'bg-[#0a0a0a] border-white/[0.1]' 
  : 'border-white/[0.04] hover:border-white/[0.06]'
  }`}
  >
@@ -242,7 +242,7 @@ function CreateWorkspaceContent() {
  {tags.map((tag) => (
  <span
  key={tag}
- className="flex items-center gap-1 px-2 py-1 bg-[#1c0a00] rounded text-[10px] text-white/40"
+ className="flex items-center gap-1 px-2 py-1 bg-[#0a0a0a] rounded text-[10px] text-white/40"
  >
  {tag}
  <button
@@ -262,12 +262,12 @@ function CreateWorkspaceContent() {
  onChange={(e) => setTagInput(e.target.value)}
  onKeyDown={(e) => e.key === 'Enter' && (e.preventDefault(), handleAddTag())}
  placeholder="Add tags..."
- className="flex-1 px-3 py-2 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="flex-1 px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  <button
  type="button"
  onClick={handleAddTag}
- className="px-3 py-2 bg-[#1c0a00] text-white/40 rounded text-[11px] hover:bg-[#200c00] transition-colors"
+ className="px-3 py-2 bg-[#0a0a0a] text-white/40 rounded text-[11px] hover:bg-[#0d0d0d] transition-colors"
  >
  <Plus className="w-3.5 h-3.5"/>
  </button>
@@ -278,14 +278,14 @@ function CreateWorkspaceContent() {
  <div className="flex gap-3 pt-4 border-t border-white/[0.04]">
  <Link
  href="/workspaces"
- className="flex-1 px-4 py-3 bg-[#1c0a00] text-white/40 text-[11px] font-medium text-center hover:bg-white/[0.04] transition-colors"
+ className="flex-1 px-4 py-3 bg-[#0a0a0a] text-white/40 text-[11px] font-medium text-center hover:bg-white/[0.04] transition-colors"
  >
  Cancel
  </Link>
  <motion.button
  type="submit"
  disabled={!name.trim() || isSubmitting}
- className="flex-1 px-4 py-3 bg-blood-900 text-blood-400/80 text-[11px] font-medium hover:bg-blood-900 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+ className="flex-1 px-4 py-3 bg-zinc-800 text-zinc-400/80 text-[11px] font-medium hover:bg-zinc-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
  whileTap={{ scale: 0.98 }}
  >
  {isSubmitting ? 'Creating...' : 'Create Workspace'}

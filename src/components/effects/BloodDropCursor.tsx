@@ -75,7 +75,7 @@ export default function BloodDropCursor() {
  <svg width="8"height="12"viewBox="0 0 8 12">
  <path
  d="M4 0 C4 0 0 5 0 8 C0 10.5 1.8 12 4 12 C6.2 12 8 10.5 8 8 C8 5 4 0 4 0Z"
- fill="#8f0000"
+ fill="#3d3d3d"
  opacity={0.6 - index * 0.08}
  />
  </svg>
@@ -106,13 +106,13 @@ export default function BloodDropCursor() {
  >
  <defs>
  <linearGradient id="bloodGradient"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#d62a2a"/>
- <stop offset="50%"stopColor="#8f0000"/>
+ <stop offset="0%"stopColor="#6b6b6b"/>
+ <stop offset="50%"stopColor="#3d3d3d"/>
  <stop offset="100%"stopColor="#330000"/>
  </linearGradient>
  <radialGradient id="bloodHighlight"cx="30%"cy="30%"r="50%">
  <stop offset="0%"stopColor="#e85454"stopOpacity="0.5"/>
- <stop offset="100%"stopColor="#8f0000"stopOpacity="0"/>
+ <stop offset="100%"stopColor="#3d3d3d"stopOpacity="0"/>
  </radialGradient>
  </defs>
 
@@ -144,7 +144,7 @@ export default function BloodDropCursor() {
 
  {/* Outer ring indicator */}
  <motion.div
- className="fixed pointer-events-none z-[9998] border border-blood-800"
+ className="fixed pointer-events-none z-[9998] border border-zinc-800"
  style={{
  x: smoothX,
  y: smoothY,
@@ -156,7 +156,7 @@ export default function BloodDropCursor() {
  animate={{
  scale: isClicking ? 1.3 : 1,
  opacity: isClicking ? 0 : 0.5,
- borderColor: isHovering ? 'rgba(214, 42, 42, 0.6)' : 'rgba(143, 0, 0, 0.3)',
+ borderColor: isHovering ? 'rgba(160, 160, 160, 0.6)' : 'rgba(143, 0, 0, 0.3)',
  }}
  transition={{ duration: 0.2 }}
  />

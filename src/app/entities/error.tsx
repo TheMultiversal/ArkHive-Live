@@ -26,9 +26,9 @@ export default function EntitiesError({ error, reset }: ErrorProps) {
  initial={{ scale: 0 }}
  animate={{ scale: 1 }}
  transition={{ delay: 0.2, type: 'spring' }}
- className="w-20 h-20 mx-auto mb-8 border-2 border-blood-600 flex items-center justify-center"
+ className="w-20 h-20 mx-auto mb-8 border-2 border-zinc-700 flex items-center justify-center"
  >
- <AlertTriangle className="w-10 h-10 text-blood-500"/>
+ <AlertTriangle className="w-10 h-10 text-zinc-300"/>
  </motion.div>
 
  <h1 className="text-3xl font-bold glass-text mb-4">
@@ -49,7 +49,7 @@ export default function EntitiesError({ error, reset }: ErrorProps) {
  <div className="flex flex-col sm:flex-row gap-4 justify-center">
  <button
  onClick={reset}
- className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-blood-600 text-white font-medium hover:bg-blood-700 transition-colors"
+ className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-zinc-700 text-white font-medium hover:bg-zinc-700 transition-colors"
  >
  <RefreshCw className="w-4 h-4"/>
  Try Again
@@ -57,7 +57,7 @@ export default function EntitiesError({ error, reset }: ErrorProps) {
  
  <Link
  href="/entities"
- className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-[rgba(255, 60, 60,0.18)] text-zinc-300 font-medium hover:border-blood-700 hover:text-white transition-colors"
+ className="inline-flex items-center justify-center gap-2 px-6 py-3 border border-[rgba(255,255,255,0.18)] text-zinc-300 font-medium hover:border-zinc-700 hover:text-white transition-colors"
  >
  <ChevronLeft className="w-4 h-4"/>
  Back to Entities
@@ -66,7 +66,7 @@ export default function EntitiesError({ error, reset }: ErrorProps) {
 
  <Link
  href="/"
- className="inline-flex items-center gap-2 text-zinc-500 hover:text-blood-500 mt-8 text-sm transition-colors"
+ className="inline-flex items-center gap-2 text-zinc-500 hover:text-white mt-8 text-sm transition-colors"
  >
  <Home className="w-4 h-4"/>
  Return to Home

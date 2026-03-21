@@ -50,10 +50,10 @@ export class ErrorBoundary extends Component<Props, State> {
  return (
  <div className="min-h-screen bg-black flex items-center justify-center p-4">
  <div className="max-w-lg w-full">
- <div className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-8 text-center">
+ <div className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-8 text-center">
  {/* Icon */}
- <div className="inline-flex items-center justify-center w-16 h-16 bg-blood-950 mb-6">
- <AlertTriangle className="w-8 h-8 text-blood-500"/>
+ <div className="inline-flex items-center justify-center w-16 h-16 bg-zinc-900 mb-6">
+ <AlertTriangle className="w-8 h-8 text-zinc-300"/>
  </div>
 
  {/* Title */}
@@ -70,8 +70,8 @@ export class ErrorBoundary extends Component<Props, State> {
  {/* Error details (dev only) */}
  {process.env.NODE_ENV === 'development' && this.state.error && (
  <div className="mb-6 text-left">
- <details className="bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] p-4">
- <summary className="text-blood-400 cursor-pointer flex items-center gap-2">
+ <details className="bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] p-4">
+ <summary className="text-zinc-400 cursor-pointer flex items-center gap-2">
  <Bug className="w-4 h-4"/>
  Error Details
  </summary>
@@ -93,14 +93,14 @@ export class ErrorBoundary extends Component<Props, State> {
  <div className="flex flex-col sm:flex-row gap-3 justify-center">
  <button
  onClick={this.handleRetry}
- className="inline-flex items-center justify-center gap-2 bg-blood-600 hover:bg-blood-700 text-white font-semibold px-6 py-3 transition-colors"
+ className="inline-flex items-center justify-center gap-2 bg-zinc-700 hover:bg-zinc-700 text-white font-semibold px-6 py-3 transition-colors"
  >
  <RefreshCw className="w-5 h-5"/>
  Try Again
  </button>
  <Link
  href="/"
- className="inline-flex items-center justify-center gap-2 bg-[#200c00] hover:bg-zinc-700 text-white font-semibold px-6 py-3 transition-colors"
+ className="inline-flex items-center justify-center gap-2 bg-[#0d0d0d] hover:bg-zinc-700 text-white font-semibold px-6 py-3 transition-colors"
  >
  <Home className="w-5 h-5"/>
  Go Home
@@ -111,7 +111,7 @@ export class ErrorBoundary extends Component<Props, State> {
  {/* Help text */}
  <p className="text-center text-zinc-500 text-sm mt-4">
  If this problem persists, please{' '}
- <Link href="/contact"className="text-blood-400 hover:underline">
+ <Link href="/contact"className="text-zinc-400 hover:underline">
  contact support
  </Link>
  </p>
@@ -153,14 +153,14 @@ export function ErrorDisplay({
  className = '',
 }: ErrorDisplayProps) {
  return (
- <div className={`bg-blood-900 border border-blood-800/50 p-6 text-center ${className}`}>
- <AlertTriangle className="w-8 h-8 text-blood-500 mx-auto mb-3"/>
- <h3 className="text-lg font-semibold text-blood-400 mb-1">{title}</h3>
- <p className="text-blood-400/70 text-sm mb-4">{message}</p>
+ <div className={`bg-zinc-800 border border-zinc-700/50 p-6 text-center ${className}`}>
+ <AlertTriangle className="w-8 h-8 text-zinc-300 mx-auto mb-3"/>
+ <h3 className="text-lg font-semibold text-zinc-400 mb-1">{title}</h3>
+ <p className="text-zinc-400/70 text-sm mb-4">{message}</p>
  {onRetry && (
  <button
  onClick={onRetry}
- className="inline-flex items-center gap-2 text-blood-400 hover:text-blood-400 text-sm"
+ className="inline-flex items-center gap-2 text-zinc-400 hover:text-white text-sm"
  >
  <RefreshCw className="w-4 h-4"/>
  Try Again
@@ -178,7 +178,7 @@ interface InlineErrorProps {
 
 export function InlineError({ message, className = '' }: InlineErrorProps) {
  return (
- <p className={`text-blood-400 text-sm mt-1 flex items-center gap-1 ${className}`}>
+ <p className={`text-zinc-400 text-sm mt-1 flex items-center gap-1 ${className}`}>
  <AlertTriangle className="w-3.5 h-3.5"/>
  {message}
  </p>

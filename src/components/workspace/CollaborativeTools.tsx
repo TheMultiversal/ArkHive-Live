@@ -259,13 +259,13 @@ export function CollaboratorList({
     <div className={`glass-card ${className}`}>
       <div className="flex items-center justify-between p-4 border-b border-zinc-800">
         <h3 className="flex items-center gap-2 font-semibold text-white">
-          <Users className="w-5 h-5 text-blood-500" />
+          <Users className="w-5 h-5 text-zinc-300" />
           Collaborators
         </h3>
         {onInvite && (
           <button
             onClick={onInvite}
-            className="flex items-center gap-1 text-sm text-blood-400 hover:text-blood-300 transition-colors"
+            className="flex items-center gap-1 text-sm text-zinc-400 hover:text-white transition-colors"
           >
             <UserPlus className="w-4 h-4" />
             Invite
@@ -304,7 +304,7 @@ export function CollaboratorList({
                 <div
                   key={collaborator.id}
                   className={`flex items-center gap-3 p-3 border-b border-zinc-800/50 hover:bg-zinc-900/50 transition-colors ${
-                    collaborator.id === currentUserId ? "bg-blood-900/10" : ""
+                    collaborator.id === currentUserId ? "bg-zinc-800/10" : ""
                   }`}
                 >
                   {/* Avatar */}
@@ -438,7 +438,7 @@ export function AnnotationPin({
           }`}
         />
         {annotation.replies.length > 0 && (
-          <span className="absolute -top-1 -right-1 w-4 h-4 bg-blood-600 text-white text-xs flex items-center justify-center">
+          <span className="absolute -top-1 -right-1 w-4 h-4 bg-zinc-700 text-white text-xs flex items-center justify-center">
             {annotation.replies.length}
           </span>
         )}
@@ -585,13 +585,13 @@ export function AnnotationPanel({
                   value={replyContent}
                   onChange={(e) => setReplyContent(e.target.value)}
                   placeholder="Add a reply..."
-                  className="flex-1 px-3 py-1.5 bg-zinc-900 border border-zinc-800 text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+                  className="flex-1 px-3 py-1.5 bg-zinc-900 border border-zinc-800 text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-zinc-600"
                   onKeyDown={(e) => e.key === "Enter" && handleSubmitReply()}
                 />
                 <button
                   onClick={handleSubmitReply}
                   disabled={!replyContent.trim()}
-                  className="p-1.5 bg-blood-600 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blood-500 transition-colors"
+                  className="p-1.5 bg-zinc-700 text-white disabled:opacity-50 disabled:cursor-not-allowed hover:bg-zinc-600 transition-colors"
                 >
                   <Send className="w-4 h-4" />
                 </button>
@@ -668,7 +668,7 @@ export function CollaborationToolbar({
         onClick={onToggleAnnotating}
         className={`p-2 transition-colors ${
           isAnnotating
-            ? "bg-blood-600 text-white"
+            ? "bg-zinc-700 text-white"
             : "text-zinc-400 hover:text-white hover:bg-zinc-800"
         }`}
         title={isAnnotating ? "Stop annotating" : "Add annotation"}
@@ -754,17 +754,17 @@ export function TypingIndicator({
         <motion.span
           animate={{ opacity: [1, 0.4, 1] }}
           transition={{ duration: 1.5, repeat: Infinity }}
-          className="w-1.5 h-1.5 bg-blood-500 rounded-full"
+          className="w-1.5 h-1.5 bg-zinc-600 rounded-full"
         />
         <motion.span
           animate={{ opacity: [1, 0.4, 1] }}
           transition={{ duration: 1.5, repeat: Infinity, delay: 0.2 }}
-          className="w-1.5 h-1.5 bg-blood-500 rounded-full"
+          className="w-1.5 h-1.5 bg-zinc-600 rounded-full"
         />
         <motion.span
           animate={{ opacity: [1, 0.4, 1] }}
           transition={{ duration: 1.5, repeat: Infinity, delay: 0.4 }}
-          className="w-1.5 h-1.5 bg-blood-500 rounded-full"
+          className="w-1.5 h-1.5 bg-zinc-600 rounded-full"
         />
       </div>
       <span className="text-zinc-400">{message}</span>

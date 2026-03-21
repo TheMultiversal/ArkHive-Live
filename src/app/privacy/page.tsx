@@ -14,7 +14,7 @@ export default function PrivacyPage() {
  animate={{ opacity: 1, y: 0 }}
  className="mb-12"
  >
- <Shield className="w-16 h-16 text-blood-500 mb-4"/>
+ <Shield className="w-16 h-16 text-zinc-300 mb-4"/>
  <h1 className="text-2xl sm:text-4xl font-bold glass-text mb-4">Privacy Policy</h1>
  <p className="text-zinc-400">
  Last updated: January 15, 2025
@@ -26,18 +26,18 @@ export default function PrivacyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.1 }}
- className="bg-blood-900 border border-blood-700 p-6 mb-12"
+ className="bg-zinc-800 border border-zinc-700 p-6 mb-12"
  >
- <h2 className="text-xl font-semibold text-blood-400 mb-4 flex items-center gap-2">
+ <h2 className="text-xl font-semibold text-zinc-400 mb-4 flex items-center gap-2">
  <Lock className="w-5 h-5"/>
  Privacy Summary
  </h2>
- <ul className="space-y-2 text-blood-300/80">
- <li>• We do not track individual users</li>
- <li>• We do not sell or share your data</li>
- <li>• We do not use advertising cookies</li>
- <li>• We protect whistleblower identity at all costs</li>
- <li>• We use minimal, privacy-respecting analytics</li>
+ <ul className="space-y-2 text-zinc-300/80">
+ <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We do not track individual users</li>
+ <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We do not sell or share your data</li>
+ <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We do not use advertising cookies</li>
+ <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We protect whistleblower identity at all costs</li>
+ <li>ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ We use minimal, privacy-respecting analytics</li>
  </ul>
  </motion.div>
 
@@ -51,7 +51,7 @@ export default function PrivacyPage() {
  className="mb-12"
  >
  <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
- <FileText className="w-6 h-6 text-blood-500"/>
+ <FileText className="w-6 h-6 text-zinc-300"/>
  Introduction
  </h2>
  <div className="text-zinc-300 space-y-4">
@@ -76,7 +76,7 @@ export default function PrivacyPage() {
  className="mb-12"
  >
  <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
- <Database className="w-6 h-6 text-blood-500"/>
+ <Database className="w-6 h-6 text-zinc-300"/>
  Information We Collect
  </h2>
  <div className="text-zinc-300 space-y-4">
@@ -113,10 +113,10 @@ export default function PrivacyPage() {
  className="mb-12"
  >
  <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
- <Eye className="w-6 h-6 text-blood-500"/>
+ <Eye className="w-6 h-6 text-zinc-300"/>
  Source Protection
  </h2>
- <div className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-6 text-zinc-300 space-y-4">
+ <div className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-6 text-zinc-300 space-y-4">
  <p className="font-semibold text-white">
  Protecting our sources is our highest priority.
  </p>
@@ -148,7 +148,7 @@ export default function PrivacyPage() {
  className="mb-12"
  >
  <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-3">
- <Server className="w-6 h-6 text-blood-500"/>
+ <Server className="w-6 h-6 text-zinc-300"/>
  Data Security
  </h2>
  <div className="text-zinc-300 space-y-4">
@@ -253,7 +253,7 @@ export default function PrivacyPage() {
  <li>Lodge a complaint with relevant authorities</li>
  </ul>
  <p>
- To exercise these rights, contact us at <span className="text-blood-400">privacy@arkhive.org</span>
+ To exercise these rights, contact us at <span className="text-zinc-400">privacy@arkhive.org</span>
  </p>
  </div>
  </motion.section>
@@ -288,10 +288,10 @@ export default function PrivacyPage() {
  </p>
  <ul className="space-y-2">
  <li>
- Email: <span className="text-blood-400">privacy@arkhive.org</span>
+ Email: <span className="text-zinc-400">privacy@arkhive.org</span>
  </li>
  <li>
- PGP Key: Available on our <Link href="/contact"className="text-blood-400 underline">contact page</Link>
+ PGP Key: Available on our <Link href="/contact"className="text-zinc-400 underline">contact page</Link>
  </li>
  </ul>
  </div>
@@ -303,19 +303,19 @@ export default function PrivacyPage() {
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  transition={{ delay: 0.7 }}
- className="mt-12 pt-8 border-t border-[rgba(255, 80, 80,0.15)]"
+ className="mt-12 pt-8 border-t border-[rgba(255,255,255,0.15)]"
  >
  <h3 className="text-lg font-semibold text-white mb-4">Related Documents</h3>
  <div className="flex flex-wrap gap-4">
  <Link
  href="/terms"
- className="flex items-center gap-2 text-zinc-400 hover:text-blood-400 transition-colors"
+ className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
  >
  Terms of Service <ExternalLink className="w-4 h-4"/>
  </Link>
  <Link
  href="/methodology"
- className="flex items-center gap-2 text-zinc-400 hover:text-blood-400 transition-colors"
+ className="flex items-center gap-2 text-zinc-400 hover:text-white transition-colors"
  >
  Methodology <ExternalLink className="w-4 h-4"/>
  </Link>

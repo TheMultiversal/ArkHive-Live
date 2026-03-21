@@ -96,14 +96,14 @@ export function SurveillanceWarning() {
 
  return (
  <motion.div
- className="fixed pointer-events-none z-50 font-mono text-[10px] text-blood-600/60"
+ className="fixed pointer-events-none z-50 font-mono text-[10px] text-zinc-500/60"
  style={{ left: `${position.x}%`, top: `${position.y}%` }}
  initial={{ opacity: 0, scale: 0.8 }}
  animate={{ opacity: [0, 1, 1, 0], scale: [0.8, 1, 1, 0.8] }}
  transition={{ duration: 2 }}
  >
- <div className="flex items-center gap-2 bg-black px-2 py-1 border border-blood-800">
- <span className="w-1.5 h-1.5 bg-blood-600 animate-pulse"/>
+ <div className="flex items-center gap-2 bg-black px-2 py-1 border border-zinc-800">
+ <span className="w-1.5 h-1.5 bg-zinc-700 animate-pulse"/>
  <span>MONITORING ACTIVE</span>
  </div>
  </motion.div>
@@ -116,12 +116,12 @@ export function DataCorruption() {
 
  useEffect(() => {
  const corruptStrings = [
- '▓▒░ ERR0R ░▒▓',
- '██ DATA BREACH ██',
- '■□ CORRUPT □■',
- '░░ OVERRIDE ░░',
- '▒▒ INJECT ▒▒',
- '█ NULL █',
+ 'ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬Å“ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬â„¢ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬Ëœ ERR0R ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬ËœÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬â„¢ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬Å“',
+ 'ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€  DATA BREACH ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ',
+ 'ÃƒÂ¢Ã¢â‚¬â€œÃ‚Â ÃƒÂ¢Ã¢â‚¬â€œÃ‚Â¡ CORRUPT ÃƒÂ¢Ã¢â‚¬â€œÃ‚Â¡ÃƒÂ¢Ã¢â‚¬â€œÃ‚Â ',
+ 'ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬ËœÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬Ëœ OVERRIDE ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬ËœÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬Ëœ',
+ 'ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬â„¢ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬â„¢ INJECT ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬â„¢ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬â„¢',
+ 'ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€  NULL ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ',
  ];
 
  const corrupt = () => {
@@ -143,7 +143,7 @@ export function DataCorruption() {
 
  return (
  <motion.div
- className="fixed pointer-events-none z-50 font-mono text-xs text-blood-600/40"
+ className="fixed pointer-events-none z-50 font-mono text-xs text-zinc-500/40"
  style={{ left: `${corrupt.x}%`, top: `${corrupt.y}%` }}
  initial={{ opacity: 0, scaleX: 0 }}
  animate={{ opacity: [0, 1, 1, 0], scaleX: [0, 1.2, 1, 0] }}
@@ -184,14 +184,14 @@ export function TimestampOverlay() {
  return (
  <div className="fixed bottom-4 left-4 z-40 pointer-events-none">
  <motion.div
- className="font-mono text-[10px] text-blood-600/40 flex items-center gap-2"
+ className="font-mono text-[10px] text-zinc-500/40 flex items-center gap-2"
  animate={glitch ? { x: [0, 2, -2, 0], opacity: [1, 0.5, 1] } : {}}
  transition={{ duration: 0.1 }}
  >
- <span className="w-1 h-1 bg-blood-900"/>
+ <span className="w-1 h-1 bg-zinc-800"/>
  <span>REC</span>
  <span className="text-zinc-600">|</span>
- <span>{glitch ? '██:██:██' : time}</span>
+ <span>{glitch ? 'ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ :ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ :ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ' : time}</span>
  </motion.div>
  </div>
  );

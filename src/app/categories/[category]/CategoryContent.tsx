@@ -1,186 +1,279 @@
 'use client';
 
-import { useParams, notFound } from 'next/navigation';
+import { useState } from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { ArrowLeft, User, AlertTriangle, ExternalLink, Shield, Scale, Skull, Users } from 'lucide-react';
-import GlitchText from '@/components/effects/GlitchText';
-import { categoryDatabase } from '@/data/categories';
+import { motion, AnimatePresence } from 'framer-motion';
+import {
+ Bookmark,
+ BookmarkCheck,
+ Target,
+ Users,
+ Search,
+ Trash2,
+ ExternalLink,
+ Clock,
+ AlertTriangle,
+ UserPlus,
+} from 'lucide-react';
+import { formatDistanceToNow } from 'date-fns';
+import { useContributorStore } from '@/store/contributorStore';
+import type { BookmarkedPage } from '@/store/contributorStore';
+import { GlitchText } from '@/components/effects/GlitchText';
 
-const riskColors: Record<string, string> = {
-  critical: 'text-blood-500 bg-blood-950 border-blood-800',
-  high: 'text-blood-700 bg-blood-950 border-blood-800',
-  medium: 'text-zinc-400 bg-zinc-900 border-zinc-700',
-  low: 'text-zinc-500 bg-zinc-900 border-zinc-700',
+const typeIcons: Record<string, React.ReactNode> = {
+ investigation: <Target className="w-4 h-4"/>,
+ entity: <Users className="w-4 h-4"/>,
 };
 
-const riskIcons: Record<string, typeof Skull> = {
-  critical: Skull,
-  high: AlertTriangle,
-  medium: Shield,
-  low: Shield,
+const severityColors: Record<string, string> = {
+ critical: 'text-zinc-400 bg-zinc-800 border-zinc-800',
+ high: 'text-zinc-300 bg-zinc-900 border-zinc-800',
+ medium: 'text-zinc-300 bg-zinc-800 border-zinc-800',
+ low: 'text-zinc-400 bg-zinc-900 border-zinc-800',
 };
 
-export default function CategoryContent() {
-  const { category } = useParams<{ category: string }>();
-  const categoryData = categoryDatabase[category];
+function SavedPageCard({
+ item,
+ onRemove,
+}: {
+ item: BookmarkedPage;
+ onRemove: (href: string) => void;
+}) {
+ return (
+ <motion.div
+ layout
+ initial={{ opacity: 0, y: 20 }}
+ animate={{ opacity: 1, y: 0 }}
+ exit={{ opacity: 0, scale: 0.95 }}
+ className="glass-card p-5 group"
+ >
+ <div className="flex items-start justify-between mb-3">
+ <div className="flex items-center gap-2">
+ <div className="p-1.5 bg-[#0d0d0d] text-zinc-400">
+ {typeIcons[item.type] || <Bookmark className="w-4 h-4"/>}
+ </div>
+ <span className="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-[#0d0d0d] text-zinc-500">
+ {item.type}
+ </span>
+ {item.severity && (
+ <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${severityColors[item.severity] || 'text-zinc-400 bg-[#0d0d0d] border-[rgba(255,255,255,0.18)]'}`}>
+ {item.severity}
+ </span>
+ )}
+ </div>
+ <button
+ onClick={() => onRemove(item.href)}
+ className="p-1.5 text-zinc-600 hover:text-white opacity-0 group-hover:opacity-100 transition-all"
+ title="Remove from saved"
+ >
+ <Trash2 className="w-4 h-4"/>
+ </button>
+ </div>
 
-  if (!categoryData) {
-    notFound();
-  }
+ <Link href={item.href} className="block group/link">
+ <h3 className="text-white font-semibold mb-1 group-hover/link:text-zinc-300 transition-colors line-clamp-2">
+ {item.title}
+ </h3>
+ {item.category && (
+ <p className="text-zinc-500 text-xs mb-3">{item.category}</p>
+ )}
+ </Link>
 
-  const { name, description, individuals } = categoryData;
+ <div className="flex items-center justify-between pt-3 border-t border-[rgba(255,255,255,0.15)] text-xs text-zinc-500">
+ <div className="flex items-center gap-1">
+ <Clock className="w-3 h-3"/>
+ Saved {formatDistanceToNow(new Date(item.savedAt), { addSuffix: true })}
+ </div>
+ <Link href={item.href} className="flex items-center gap-1 text-zinc-600 hover:text-white transition-colors">
+ <ExternalLink className="w-3 h-3"/>
+ Open
+ </Link>
+ </div>
+ </motion.div>
+ );
+}
 
-  // Group by risk level
-  const criticalCount = individuals.filter(i => i.riskLevel === 'critical').length;
-  const highCount = individuals.filter(i => i.riskLevel === 'high').length;
-  const mediumCount = individuals.filter(i => i.riskLevel === 'medium').length;
-  const lowCount = individuals.filter(i => i.riskLevel === 'low').length;
+export default function SavedPagesPage() {
+ const { currentUser, getBookmarks, removeBookmark } = useContributorStore();
+ const [searchQuery, setSearchQuery] = useState('');
+ const [typeFilter, setTypeFilter] = useState<string>('all');
 
-  return (
-    <div className="min-h-screen bg-black text-white">
-      {/* Header */}
-      <div className="border-b border-[rgba(255, 80, 80,0.15)]">
-        <div className="max-w-7xl mx-auto px-6 py-8">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-6"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Home
-          </Link>
+ // Not signed in
+ if (!currentUser) {
+ return (
+ <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+ <div className="max-w-2xl mx-auto px-6 py-12 text-center">
+ <div className="w-16 h-16 mx-auto mb-6 border-2 border-[rgba(255,255,255,0.18)] flex items-center justify-center">
+ <Bookmark className="w-8 h-8 text-zinc-600"/>
+ </div>
+ <h1 className="text-3xl font-black glass-text mb-3 uppercase tracking-wider">
+ <GlitchText text="SAVED PAGES"/>
+ </h1>
+ <p className="text-zinc-400 mb-8">
+ Sign in to save investigations and entities to your personal collection.
+ </p>
+ <Link
+ href="/contributor"
+ className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-700 hover:bg-zinc-700 glass-text font-bold uppercase tracking-wider text-sm transition-colors"
+ >
+ <UserPlus className="w-4 h-4"/>
+ Sign In / Create Account
+ </Link>
+ </div>
+ </div>
+ );
+ }
 
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-            <div>
-              <div className="flex items-center gap-3 mb-3">
-                <Scale className="w-8 h-8 text-blood-500" />
-                <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-800 bg-blood-950 text-blood-500">
-                  Category Index
-                </span>
-              </div>
-              <h1 className="text-4xl md:text-5xl font-black mb-3 tracking-tight">
-                <GlitchText>{name}</GlitchText>
-              </h1>
-              <p className="text-zinc-400 max-w-2xl leading-relaxed">{description}</p>
-            </div>
+ const bookmarks = getBookmarks();
 
-            <div className="flex gap-4">
-              <div className="text-center">
-                <p className="text-3xl font-black text-blood-500">{individuals.length}</p>
-                <p className="text-xs text-zinc-500 uppercase tracking-wider">Individuals</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+ const filteredItems = bookmarks.filter((item) => {
+ if (searchQuery) {
+ const search = searchQuery.toLowerCase();
+ if (!item.title.toLowerCase().includes(search) && !(item.category || '').toLowerCase().includes(search)) {
+ return false;
+ }
+ }
+ if (typeFilter !== 'all' && item.type !== typeFilter) return false;
+ return true;
+ });
 
-      {/* Stats Bar */}
-      <div className="border-b border-[rgba(255, 60, 60,0.08)] bg-zinc-950">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="flex items-center gap-2">
-              <Skull className="w-4 h-4 text-blood-500" />
-              <span className="text-sm text-zinc-400">
-                <span className="font-bold text-blood-500">{criticalCount}</span> Critical Risk
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <AlertTriangle className="w-4 h-4 text-blood-700" />
-              <span className="text-sm text-zinc-400">
-                <span className="font-bold text-blood-700">{highCount}</span> High Risk
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-4 h-4 text-zinc-400" />
-              <span className="text-sm text-zinc-400">
-                <span className="font-bold text-zinc-300">{mediumCount}</span> Medium Risk
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-4 h-4 text-zinc-600" />
-              <span className="text-sm text-zinc-400">
-                <span className="font-bold text-zinc-500">{lowCount}</span> Low Risk
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+ const investigationCount = bookmarks.filter(b => b.type === 'investigation').length;
+ const entityCount = bookmarks.filter(b => b.type === 'entity').length;
 
-      {/* Individual Grid */}
-      <div className="max-w-7xl mx-auto px-6 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {individuals.map((person, index) => {
-            const RiskIcon = riskIcons[person.riskLevel] || Shield;
-            return (
-              <motion.div
-                key={person.slug}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: Math.min(index * 0.02, 0.5) }}
-              >
-                <Link
-                  href={`/entities/individuals/${person.slug}`}
-                  className={`block p-4 border bg-zinc-950 hover:bg-[#1c0a00] transition-all group ${
-                    person.riskLevel === 'critical'
-                      ? 'border-blood-800 hover:border-blood-500/50'
-                      : person.riskLevel === 'high'
-                      ? 'border-blood-800 hover:border-blood-700'
-                      : 'border-[rgba(255, 80, 80,0.15)] hover:border-zinc-600'
-                  }`}
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="flex items-start gap-3 flex-1 min-w-0">
-                      <div className="w-10 h-10 bg-[#1c0a00] flex items-center justify-center flex-shrink-0">
-                        <User className="w-5 h-5 text-zinc-600 group-hover:text-blood-500 transition-colors" />
-                      </div>
-                      <div className="min-w-0">
-                        <h3 className="font-bold glass-text group-hover:text-blood-400 transition-colors truncate">
-                          {person.name}
-                        </h3>
-                        <p className="text-xs text-zinc-500 truncate mt-0.5">{person.title}</p>
-                      </div>
-                    </div>
-                    <div className="flex items-center gap-1.5 flex-shrink-0">
-                      <span className={`px-2 py-0.5 text-[10px] font-bold uppercase border ${riskColors[person.riskLevel]}`}>
-                        <RiskIcon className="w-3 h-3 inline mr-1" />
-                        {person.riskLevel}
-                      </span>
-                    </div>
-                  </div>
-                </Link>
-              </motion.div>
-            );
-          })}
-        </div>
+ return (
+ <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+ <div className="max-w-6xl mx-auto px-6 py-12">
+ {/* Header */}
+ <div className="flex items-center justify-between mb-8">
+ <div>
+ <h1 className="text-2xl sm:text-4xl font-black tracking-tighter text-white mb-2">
+ <GlitchText text="SAVED PAGES"/>
+ </h1>
+ <p className="text-zinc-400">
+ {bookmarks.length} saved {bookmarks.length === 1 ? 'item' : 'items'}
+ <span className="text-zinc-600 mx-2">|</span>
+ <span className="text-zinc-500">{currentUser.email}</span>
+ </p>
+ </div>
+ </div>
 
-        {individuals.length === 0 && (
-          <div className="text-center py-16">
-            <Users className="w-12 h-12 text-zinc-700 mx-auto mb-4" />
-            <p className="text-zinc-500">No individuals currently documented in this category.</p>
-          </div>
-        )}
-      </div>
+ {/* Stats */}
+ {bookmarks.length > 0 && (
+ <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
+ <div className="glass-card p-4 flex items-center gap-4">
+ <div className="p-2 bg-[#0d0d0d]">
+ <BookmarkCheck className="w-5 h-5 text-zinc-300"/>
+ </div>
+ <div>
+ <p className="text-white text-xl font-bold">{bookmarks.length}</p>
+ <p className="text-zinc-500 text-sm">Total Saved</p>
+ </div>
+ </div>
+ <div className="glass-card p-4 flex items-center gap-4">
+ <div className="p-2 bg-[#0d0d0d]">
+ <Target className="w-5 h-5 text-zinc-300"/>
+ </div>
+ <div>
+ <p className="text-white text-xl font-bold">{investigationCount}</p>
+ <p className="text-zinc-500 text-sm">Investigations</p>
+ </div>
+ </div>
+ <div className="glass-card p-4 flex items-center gap-4">
+ <div className="p-2 bg-[#0d0d0d]">
+ <Users className="w-5 h-5 text-zinc-400"/>
+ </div>
+ <div>
+ <p className="text-white text-xl font-bold">{entityCount}</p>
+ <p className="text-zinc-500 text-sm">Entities</p>
+ </div>
+ </div>
+ </div>
+ )}
 
-      {/* Related Categories Footer */}
-      <div className="border-t border-[rgba(255, 80, 80,0.15)]">
-        <div className="max-w-7xl mx-auto px-6 py-8">
-          <h2 className="text-lg font-bold glass-text uppercase tracking-wider mb-4">Other Categories</h2>
-          <div className="flex flex-wrap gap-2">
-            {Object.entries(categoryDatabase)
-              .filter(([slug]) => slug !== category)
-              .map(([slug, cat]) => (
-                <Link
-                  key={slug}
-                  href={`/categories/${slug}`}
-                  className="px-3 py-1.5 text-xs border border-[rgba(255, 80, 80,0.15)] text-zinc-400 hover:border-blood-500/50 hover:text-blood-500 transition-colors"
-                >
-                  {cat.name}
-                  <span className="ml-1.5 text-zinc-600">({cat.individuals.length})</span>
-                </Link>
-              ))}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+ {/* Filters */}
+ {bookmarks.length > 0 && (
+ <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-8">
+ <div className="flex-1 relative w-full">
+ <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500"/>
+ <input
+ type="text"
+ placeholder="Search saved pages..."
+ value={searchQuery}
+ onChange={(e) => setSearchQuery(e.target.value)}
+ className="w-full pl-12 pr-4 py-3 glass text-white placeholder:text-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
+ />
+ </div>
+ <div className="flex items-center gap-2">
+ {['all', 'investigation', 'entity'].map((type) => (
+ <button
+ key={type}
+ onClick={() => setTypeFilter(type)}
+ className={`px-3 py-1.5 text-xs font-bold uppercase tracking-wider transition-colors ${
+ typeFilter === type
+ ? 'bg-zinc-700 text-white'
+ : 'bg-[#0d0d0d] text-zinc-400 hover:text-white'
+ }`}
+ >
+ {type === 'all' ? 'All' : type === 'investigation' ? 'Investigations' : 'Entities'}
+ </button>
+ ))}
+ </div>
+ </div>
+ )}
+
+ {/* Grid */}
+ <AnimatePresence mode="popLayout">
+ {filteredItems.length > 0 ? (
+ <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+ {filteredItems.map((item) => (
+ <SavedPageCard
+ key={item.id}
+ item={item}
+ onRemove={removeBookmark}
+ />
+ ))}
+ </motion.div>
+ ) : (
+ <motion.div
+ initial={{ opacity: 0 }}
+ animate={{ opacity: 1 }}
+ className="text-center py-16"
+ >
+ <Bookmark className="w-16 h-16 text-zinc-700 mx-auto mb-4"/>
+ <h3 className="text-xl font-semibold text-white mb-2">
+ {searchQuery || typeFilter !== 'all' ? 'No matches found' : 'No saved pages yet'}
+ </h3>
+ <p className="text-zinc-400 mb-6">
+ {searchQuery || typeFilter !== 'all'
+ ? 'Try adjusting your search or filters'
+ : 'Click the Save button on any investigation to add it here'}
+ </p>
+ <Link
+ href="/investigations"
+ className="inline-flex items-center gap-2 px-5 py-2.5 border border-[rgba(255,255,255,0.18)] text-zinc-300 hover:border-zinc-700 hover:text-white text-sm transition-colors"
+ >
+ <Target className="w-4 h-4"/>
+ Browse Investigations
+ </Link>
+ </motion.div>
+ )}
+ </AnimatePresence>
+
+ {/* Privacy Note */}
+ <div className="mt-12 border border-[rgba(255,255,255,0.15)] bg-[#0a0a0a] p-4">
+ <div className="flex items-start gap-3">
+ <AlertTriangle className="w-5 h-5 text-zinc-300 flex-shrink-0 mt-0.5"/>
+ <div>
+ <h3 className="text-sm font-bold glass-text uppercase tracking-wider mb-1">Local Storage Only</h3>
+ <p className="text-xs text-zinc-500 leading-relaxed">
+ Saved pages are stored in your browser&apos;s local storage. They are tied to your contributor account
+ and will persist until you clear your browser data or delete your account.
+ No bookmark data is transmitted to our servers.
+ </p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ );
 }

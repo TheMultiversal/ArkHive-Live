@@ -554,14 +554,14 @@ export function RateLimitWarning({ info, message }: RateLimitWarningProps): Reac
   }, [info.retryAfter]);
 
   return (
-    <div className="bg-blood-900/30 border border-blood-800 p-4 flex items-start gap-3">
-      <AlertCircle className="w-5 h-5 text-blood-400 flex-shrink-0 mt-0.5" />
+    <div className="bg-zinc-800/30 border border-zinc-800 p-4 flex items-start gap-3">
+      <AlertCircle className="w-5 h-5 text-zinc-400 flex-shrink-0 mt-0.5" />
       <div>
-        <p className="text-sm text-blood-300">
+        <p className="text-sm text-zinc-300">
           {message || 'You have been rate limited. Please wait before trying again.'}
         </p>
         {countdown > 0 && (
-          <p className="text-xs text-blood-400 mt-1 flex items-center gap-1">
+          <p className="text-xs text-zinc-400 mt-1 flex items-center gap-1">
             <Clock className="w-3 h-3" />
             Retry in {countdown} second{countdown !== 1 ? 's' : ''}
           </p>
@@ -592,7 +592,7 @@ export function RateLimitStatus({ remaining, limit, showWarning = 5 }: RateLimit
           className={`h-full transition-all duration-300 ${
             percentage > 50 ? 'bg-emerald-500' :
             percentage > 20 ? 'bg-yellow-500' :
-            'bg-blood-500'
+            'bg-zinc-600'
           }`}
           style={{ width: `${percentage}%` }}
         />
@@ -639,7 +639,7 @@ export function RateLimitedButton({
       </button>
       
       {isLimited && (
-        <span className="absolute -top-2 -right-2 text-xs bg-blood-500 text-white px-1.5 py-0.5">
+        <span className="absolute -top-2 -right-2 text-xs bg-zinc-600 text-white px-1.5 py-0.5">
           {retryAfter}s
         </span>
       )}

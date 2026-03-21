@@ -165,7 +165,7 @@ export function ListSuspense({
  {Array.from({ length: count }).map((_, i) => (
  <div 
  key={i} 
- className="h-16 bg-[#1c0a00] animate-pulse"
+ className="h-16 bg-[#0a0a0a] animate-pulse"
  />
  ))}
  </div>
@@ -195,7 +195,7 @@ export function SectionSuspense({
  <Suspense
  fallback={
  <div className="animate-pulse">
- <div className="h-32 bg-[#1c0a00]"/>
+ <div className="h-32 bg-[#0a0a0a]"/>
  </div>
  }
  >

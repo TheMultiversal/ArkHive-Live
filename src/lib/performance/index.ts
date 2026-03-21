@@ -544,7 +544,7 @@ export function MetricCard({ metric }: MetricCardProps): React.ReactElement {
   const ratingColors = {
     good: 'text-emerald-400 bg-emerald-900/30',
     'needs-improvement': 'text-yellow-400 bg-yellow-900/30',
-    poor: 'text-blood-400 bg-blood-900/30',
+    poor: 'text-zinc-400 bg-zinc-800/30',
   };
 
   const formatValue = (name: MetricName, value: number): string => {
@@ -584,7 +584,7 @@ export function PerformanceDashboard({ showDetails = false }: PerformanceDashboa
     <div className="space-y-4">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Activity className="w-5 h-5 text-blood-400" />
+          <Activity className="w-5 h-5 text-zinc-400" />
           <h2 className="text-lg font-medium text-zinc-200">Performance</h2>
         </div>
         <button

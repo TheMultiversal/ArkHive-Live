@@ -12,8 +12,8 @@ export default function StaticGridBackground() {
  className="absolute inset-0 opacity-20"
  style={{
  backgroundImage: `
- linear-gradient(rgba(77, 0, 0, 0.3) 1px, transparent 1px),
- linear-gradient(90deg, rgba(77, 0, 0, 0.3) 1px, transparent 1px)
+ linear-gradient(rgba(60, 60, 60, 0.3) 1px, transparent 1px),
+ linear-gradient(90deg, rgba(60, 60, 60, 0.3) 1px, transparent 1px)
  `,
  backgroundSize: '60px 60px',
  }}
@@ -28,10 +28,10 @@ export default function StaticGridBackground() {
  />
  
  {/* Corner accents - static */}
- <div className="absolute top-0 left-0 w-40 h-40 border-l border-t border-blood-900"/>
- <div className="absolute top-0 right-0 w-40 h-40 border-r border-t border-blood-900"/>
- <div className="absolute bottom-0 left-0 w-40 h-40 border-l border-b border-blood-900"/>
- <div className="absolute bottom-0 right-0 w-40 h-40 border-r border-b border-blood-900"/>
+ <div className="absolute top-0 left-0 w-40 h-40 border-l border-t border-zinc-800"/>
+ <div className="absolute top-0 right-0 w-40 h-40 border-r border-t border-zinc-800"/>
+ <div className="absolute bottom-0 left-0 w-40 h-40 border-l border-b border-zinc-800"/>
+ <div className="absolute bottom-0 right-0 w-40 h-40 border-r border-b border-zinc-800"/>
  
  {/* Center subtle glow - CSS only */}
  <div 

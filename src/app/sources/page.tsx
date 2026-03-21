@@ -597,7 +597,7 @@ export default function SourcesPage() {
  className="mb-12"
  >
  <h1 className="text-2xl sm:text-4xl font-bold glass-text mb-4">
- Our <span className="text-blood-500">Sources</span>
+ Our <span className="text-zinc-300">Sources</span>
  </h1>
  <p className="text-lg text-zinc-400 max-w-2xl">
  We rely on verified, authoritative sources for our investigations. 
@@ -610,16 +610,16 @@ export default function SourcesPage() {
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  transition={{ delay: 0.1 }}
- className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-4 mb-8"
+ className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-4 mb-8"
  >
  <div className="flex flex-wrap gap-6 items-center">
  <span className="text-sm text-zinc-400">Reliability Rating:</span>
  <div className="flex items-center gap-2">
- <CheckCircle2 className="w-4 h-4 text-blood-500"/>
+ <CheckCircle2 className="w-4 h-4 text-zinc-300"/>
  <span className="text-sm text-zinc-300">Verified; Primary official source</span>
  </div>
  <div className="flex items-center gap-2">
- <CheckCircle2 className="w-4 h-4 text-blood-500"/>
+ <CheckCircle2 className="w-4 h-4 text-zinc-300"/>
  <span className="text-sm text-zinc-300">Established; Reputable secondary source</span>
  </div>
  <div className="flex items-center gap-2">
@@ -644,7 +644,7 @@ export default function SourcesPage() {
  placeholder="Search sources..."
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
- className="w-full bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-white pl-10 pr-4 py-2.5 placeholder-zinc-500 focus:border-blood-500 focus:outline-none"
+ className="w-full bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-white pl-10 pr-4 py-2.5 placeholder-zinc-500 focus:border-zinc-600 focus:outline-none"
  />
  </div>
 
@@ -654,7 +654,7 @@ export default function SourcesPage() {
  <select
  value={selectedCategory}
  onChange={(e) => setSelectedCategory(e.target.value)}
- className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-white px-4 py-2.5 focus:border-blood-500 focus:outline-none"
+ className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-white px-4 py-2.5 focus:border-zinc-600 focus:outline-none"
  >
  {categories.map(category => (
  <option key={category} value={category}>{category}</option>
@@ -672,8 +672,8 @@ export default function SourcesPage() {
  onClick={() => setSelectedType(selectedType === type ? null : type)}
  className={`p-2.5 border transition-colors ${
  selectedType === type
- ? 'bg-blood-950 border-blood-500 text-blood-400'
- : 'bg-[#1c0a00] border-[rgba(255, 80, 80,0.15)] text-zinc-400 hover:border-zinc-600'
+ ? 'bg-zinc-900 border-zinc-600 text-zinc-400'
+ : 'bg-[#0a0a0a] border-[rgba(255,255,255,0.15)] text-zinc-400 hover:border-zinc-600'
  }`}
  title={typeLabels[type]}
  >
@@ -702,11 +702,11 @@ export default function SourcesPage() {
  animate={{ opacity: 1, y: 0 }}
  exit={{ opacity: 0, scale: 0.95 }}
  transition={{ delay: index * 0.05 }}
- className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-5 hover:border-[rgba(255, 60, 60,0.18)] transition-colors"
+ className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-5 hover:border-[rgba(255,255,255,0.18)] transition-colors"
  >
  <div className="flex items-start justify-between mb-3">
  <div className="flex items-center gap-3">
- <div className="bg-[#200c00] p-2">
+ <div className="bg-[#0d0d0d] p-2">
  <Icon className="w-5 h-5 text-zinc-400"/>
  </div>
  <div>
@@ -717,9 +717,9 @@ export default function SourcesPage() {
  <CheckCircle2 
  className={`w-5 h-5 ${
  source.reliability === 'verified' 
- ? 'text-blood-500'
+ ? 'text-zinc-300'
  : source.reliability === 'established'
- ? 'text-blood-500'
+ ? 'text-zinc-300'
  : 'text-zinc-400'
  }`}
  />
@@ -734,7 +734,7 @@ export default function SourcesPage() {
  {source.categories.map(cat => (
  <span
  key={cat}
- className="px-2 py-0.5 bg-[#200c00] text-zinc-400 text-xs"
+ className="px-2 py-0.5 bg-[#0d0d0d] text-zinc-400 text-xs"
  >
  {cat}
  </span>
@@ -744,7 +744,7 @@ export default function SourcesPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="text-blood-400 hover:text-blood-300 transition-colors"
+ className="text-zinc-400 hover:text-white transition-colors"
  >
  <ExternalLink className="w-5 h-5"/>
  </a>
@@ -771,26 +771,26 @@ export default function SourcesPage() {
  initial={{ opacity: 0 }}
  whileInView={{ opacity: 1 }}
  viewport={{ once: true }}
- className="mt-16 pt-8 border-t border-[rgba(255, 80, 80,0.15)]"
+ className="mt-16 pt-8 border-t border-[rgba(255,255,255,0.15)]"
  >
  <h2 className="text-2xl font-bold glass-text mb-6">How We Protect Sources</h2>
  <div className="grid md:grid-cols-3 gap-4">
- <div className="bg-zinc-900 border border-[rgba(255, 60, 60,0.08)] p-5">
- <Lock className="w-8 h-8 text-blood-500 mb-3"/>
+ <div className="bg-zinc-900 border border-[rgba(255,255,255,0.08)] p-5">
+ <Lock className="w-8 h-8 text-zinc-300 mb-3"/>
  <h3 className="text-white font-semibold mb-2">Encryption</h3>
  <p className="text-zinc-500 text-sm">
  All communications use end-to-end encryption. We accept documents via SecureDrop.
  </p>
  </div>
- <div className="bg-zinc-900 border border-[rgba(255, 60, 60,0.08)] p-5">
- <Shield className="w-8 h-8 text-blood-500 mb-3"/>
+ <div className="bg-zinc-900 border border-[rgba(255,255,255,0.08)] p-5">
+ <Shield className="w-8 h-8 text-zinc-300 mb-3"/>
  <h3 className="text-white font-semibold mb-2">Anonymity</h3>
  <p className="text-zinc-500 text-sm">
  We never require identification. Our systems are designed to protect anonymity.
  </p>
  </div>
- <div className="bg-zinc-900 border border-[rgba(255, 60, 60,0.08)] p-5">
- <Eye className="w-8 h-8 text-blood-500 mb-3"/>
+ <div className="bg-zinc-900 border border-[rgba(255,255,255,0.08)] p-5">
+ <Eye className="w-8 h-8 text-zinc-300 mb-3"/>
  <h3 className="text-white font-semibold mb-2">Legal Protection</h3>
  <p className="text-zinc-500 text-sm">
  We will fight any attempt to compel source disclosure through legal means.
@@ -809,7 +809,7 @@ export default function SourcesPage() {
  <p className="text-zinc-400 mb-4">Have information to share?</p>
  <Link
  href="/submit"
- className="inline-block bg-blood-600 hover:bg-blood-700 text-white font-semibold px-6 py-3 transition-colors"
+ className="inline-block bg-zinc-700 hover:bg-zinc-700 text-white font-semibold px-6 py-3 transition-colors"
  >
  Submit a Tip Securely
  </Link>

@@ -151,10 +151,10 @@ export default function MoneyFlowDiagram({
   }
   
   return (
-    <div className={`bg-zinc-950 border border-blood-900/30 ${className}`}>
+    <div className={`bg-zinc-950 border border-zinc-800/30 ${className}`}>
       {/* Header */}
-      <div className="border-b border-blood-900/30 px-4 py-3 flex items-center gap-2">
-        <DollarSign className="w-4 h-4 text-blood-500" />
+      <div className="border-b border-zinc-800/30 px-4 py-3 flex items-center gap-2">
+        <DollarSign className="w-4 h-4 text-zinc-300" />
         <h3 className="text-sm font-bold text-white uppercase tracking-wider">{title}</h3>
       </div>
       
@@ -190,7 +190,7 @@ export default function MoneyFlowDiagram({
                 fill="none"
                 stroke="transparent"
                 strokeWidth={thickness + 10}
-                className="group-hover:stroke-blood-500/20"
+                className="group-hover:stroke-zinc-400/20"
               />
               {/* Main link */}
               <path
@@ -198,7 +198,7 @@ export default function MoneyFlowDiagram({
                 fill="none"
                 stroke="url(#flowGradient)"
                 strokeWidth={thickness}
-                className="transition-all duration-200 group-hover:stroke-blood-500"
+                className="transition-all duration-200 group-hover:stroke-zinc-400"
               />
               {/* Amount label on hover */}
               <title>

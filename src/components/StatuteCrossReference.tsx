@@ -89,7 +89,7 @@ function getStatutesWithInvestigations(): StatuteWithInvestigations[] {
 }
 
 const severityConfig = {
-  critical: { color: 'text-blood-500', bg: 'bg-blood-500/10' },
+  critical: { color: 'text-zinc-300', bg: 'bg-zinc-500/10' },
   high: { color: 'text-orange-400', bg: 'bg-orange-400/10' },
   medium: { color: 'text-yellow-400', bg: 'bg-yellow-400/10' },
   low: { color: 'text-zinc-400', bg: 'bg-zinc-400/10' }
@@ -106,14 +106,14 @@ function StatuteCard({ data, isExpanded, onToggle }: StatuteCardProps) {
   const categoryInfo = STATUTE_CATEGORIES[statute.category];
   
   return (
-    <div className="glass-card border border-blood-900/30">
+    <div className="glass-card border border-zinc-800/30">
       <button
         onClick={onToggle}
-        className="w-full p-4 flex items-start gap-4 text-left hover:bg-blood-900/10 transition-colors"
+        className="w-full p-4 flex items-start gap-4 text-left hover:bg-zinc-800/10 transition-colors"
       >
         <div className="shrink-0 mt-1">
           {isExpanded ? (
-            <ChevronDown className="w-5 h-5 text-blood-500" />
+            <ChevronDown className="w-5 h-5 text-zinc-300" />
           ) : (
             <ChevronRight className="w-5 h-5 text-zinc-500" />
           )}
@@ -121,8 +121,8 @@ function StatuteCard({ data, isExpanded, onToggle }: StatuteCardProps) {
         
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1">
-            <Scale className="w-4 h-4 text-blood-500" />
-            <code className="text-blood-400 font-mono text-sm">{statute.code}</code>
+            <Scale className="w-4 h-4 text-zinc-300" />
+            <code className="text-zinc-400 font-mono text-sm">{statute.code}</code>
           </div>
           
           <h3 className="text-white font-semibold mb-1">{statute.title}</h3>
@@ -142,7 +142,7 @@ function StatuteCard({ data, isExpanded, onToggle }: StatuteCardProps) {
             )}
             
             {count > 0 && (
-              <span className="text-xs text-blood-400 flex items-center gap-1">
+              <span className="text-xs text-zinc-400 flex items-center gap-1">
                 <Link2 className="w-3 h-3" />
                 {count} investigation{count !== 1 ? 's' : ''}
               </span>
@@ -152,10 +152,10 @@ function StatuteCard({ data, isExpanded, onToggle }: StatuteCardProps) {
       </button>
       
       {isExpanded && (
-        <div className="border-t border-blood-900/30 bg-black/30 p-4">
+        <div className="border-t border-zinc-800/30 bg-black/30 p-4">
           {count > 0 ? (
             <div className="space-y-3">
-              <h4 className="text-sm font-semibold text-blood-400 flex items-center gap-2">
+              <h4 className="text-sm font-semibold text-zinc-400 flex items-center gap-2">
                 <FileText className="w-4 h-4" />
                 Related Investigations
               </h4>
@@ -164,13 +164,13 @@ function StatuteCard({ data, isExpanded, onToggle }: StatuteCardProps) {
                   <Link
                     key={inv.slug}
                     href={`/investigations/${inv.slug}`}
-                    className="flex items-center gap-3 p-2 bg-zinc-900/50 hover:bg-blood-900/20 transition-colors group"
+                    className="flex items-center gap-3 p-2 bg-zinc-900/50 hover:bg-zinc-800/20 transition-colors group"
                   >
                     <span className={`w-2 h-2 ${severityConfig[inv.severity].bg} ${severityConfig[inv.severity].color}`} />
                     <span className="text-sm text-zinc-300 group-hover:text-white flex-1 truncate">
                       {inv.title}
                     </span>
-                    <ExternalLink className="w-4 h-4 text-zinc-600 group-hover:text-blood-500" />
+                    <ExternalLink className="w-4 h-4 text-zinc-600 group-hover:text-white" />
                   </Link>
                 ))}
               </div>
@@ -299,13 +299,13 @@ export default function StatuteCrossReference({
           <Link
             key={data.statute.code}
             href={`/statutes#${encodeURIComponent(data.statute.code)}`}
-            className="flex items-center gap-2 p-2 bg-zinc-900/50 hover:bg-blood-900/20 transition-colors group"
+            className="flex items-center gap-2 p-2 bg-zinc-900/50 hover:bg-zinc-800/20 transition-colors group"
           >
-            <Scale className="w-4 h-4 text-blood-500" />
-            <code className="text-xs text-blood-400 font-mono">{data.statute.code}</code>
+            <Scale className="w-4 h-4 text-zinc-300" />
+            <code className="text-xs text-zinc-400 font-mono">{data.statute.code}</code>
             <span className="text-sm text-zinc-400 truncate flex-1">{data.statute.shortName}</span>
             {data.count > 0 && (
-              <span className="text-xs text-blood-500">+{data.count}</span>
+              <span className="text-xs text-zinc-300">+{data.count}</span>
             )}
           </Link>
         ))}
@@ -319,11 +319,11 @@ export default function StatuteCrossReference({
       <div className="flex flex-col md:flex-row md:items-center gap-4">
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
-            <Scale className="w-6 h-6 text-blood-500" />
+            <Scale className="w-6 h-6 text-zinc-300" />
             Federal Statute Reference
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {FEDERAL_STATUTES.length} statutes • {linkedCount} with investigations • {totalInvLinks} total links
+            {FEDERAL_STATUTES.length} statutes ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ {linkedCount} with investigations ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ {totalInvLinks} total links
           </p>
         </div>
         
@@ -353,7 +353,7 @@ export default function StatuteCrossReference({
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search statutes..."
-            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
           />
           {searchQuery && (
             <button
@@ -371,7 +371,7 @@ export default function StatuteCrossReference({
           <select
             value={categoryFilter}
             onChange={(e) => setCategoryFilter(e.target.value as StatuteCategory | 'all')}
-            className="pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white text-sm appearance-none cursor-pointer focus:outline-none focus:border-blood-500"
+            className="pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white text-sm appearance-none cursor-pointer focus:outline-none focus:border-zinc-600"
           >
             <option value="all">All Categories</option>
             {Object.entries(STATUTE_CATEGORIES).map(([key, info]) => (
@@ -385,7 +385,7 @@ export default function StatuteCrossReference({
           onClick={() => setShowLinkedOnly(!showLinkedOnly)}
           className={`px-4 py-2 text-sm flex items-center gap-2 transition-colors ${
             showLinkedOnly 
-              ? 'bg-blood-500/20 text-blood-400 border border-blood-500'
+              ? 'bg-zinc-500/20 text-zinc-400 border border-zinc-600'
               : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-zinc-700'
           }`}
         >
@@ -432,7 +432,7 @@ export function StatuteBadges({ codes }: { codes: string[] }) {
           <Link
             key={statute.code}
             href={`/statutes#${encodeURIComponent(statute.code)}`}
-            className={`inline-flex items-center gap-1.5 px-2 py-1 text-xs ${categoryInfo.color} bg-zinc-900/80 border border-zinc-800 hover:border-blood-500 transition-colors`}
+            className={`inline-flex items-center gap-1.5 px-2 py-1 text-xs ${categoryInfo.color} bg-zinc-900/80 border border-zinc-800 hover:border-zinc-600 transition-colors`}
             title={statute.title}
           >
             <Scale className="w-3 h-3" />
@@ -454,8 +454,8 @@ export function InvestigationStatutes({ slug }: { slug: string }) {
   }
   
   return (
-    <div className="glass-card border border-blood-900/30 p-4">
-      <h3 className="text-sm font-semibold text-blood-400 mb-3 flex items-center gap-2">
+    <div className="glass-card border border-zinc-800/30 p-4">
+      <h3 className="text-sm font-semibold text-zinc-400 mb-3 flex items-center gap-2">
         <Scale className="w-4 h-4" />
         Related Statutes
       </h3>

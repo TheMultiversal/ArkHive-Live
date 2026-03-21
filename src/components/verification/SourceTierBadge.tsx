@@ -173,7 +173,7 @@ interface SourceCardProps {
 export function SourceCard({ source, compact = false, className = "" }: SourceCardProps) {
   return (
     <div 
-      className={`bg-zinc-950 border border-zinc-800 hover:border-blood-900/50 transition-colors ${className}`}
+      className={`bg-zinc-950 border border-zinc-800 hover:border-zinc-800/50 transition-colors ${className}`}
     >
       <div className={compact ? "p-3" : "p-4"}>
         {/* Header with badges */}
@@ -187,7 +187,7 @@ export function SourceCard({ source, compact = false, className = "" }: SourceCa
               href={source.archiveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-500 hover:text-blood-500 transition-colors"
+              className="text-zinc-500 hover:text-white transition-colors"
               title="View archived version"
               aria-label="View archived version of source"
             >
@@ -204,7 +204,7 @@ export function SourceCard({ source, compact = false, className = "" }: SourceCa
         {/* Publisher and date */}
         <div className="flex items-center gap-2 text-xs text-zinc-500 mb-2">
           {source.publisher && <span>{source.publisher}</span>}
-          {source.publisher && source.publishDate && <span>•</span>}
+          {source.publisher && source.publishDate && <span>Ã¢â‚¬Â¢</span>}
           {source.publishDate && <span>{source.publishDate}</span>}
         </div>
 
@@ -220,7 +220,7 @@ export function SourceCard({ source, compact = false, className = "" }: SourceCa
           href={source.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 text-xs text-blood-500 hover:text-blood-400 font-medium uppercase tracking-wider transition-colors"
+          className="inline-flex items-center gap-1 text-xs text-zinc-300 hover:text-white font-medium uppercase tracking-wider transition-colors"
           aria-label={`View source: ${source.title} (opens in new tab)`}
         >
           View Source

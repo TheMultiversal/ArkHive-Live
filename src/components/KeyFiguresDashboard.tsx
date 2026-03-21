@@ -271,9 +271,9 @@ export function KeyFiguresDashboard() {
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div className="flex items-center gap-3">
-          <Users className="w-6 h-6 text-blood-500" />
+          <Users className="w-6 h-6 text-zinc-300" />
           <h2 className="text-2xl font-bold text-white">Key Figures</h2>
-          <span className="px-2 py-1 bg-blood-500/20 text-blood-400 text-sm border border-blood-500/30">
+          <span className="px-2 py-1 bg-zinc-500/20 text-zinc-400 text-sm border border-zinc-600/30">
             {filteredFigures.length} individuals
           </span>
         </div>
@@ -288,7 +288,7 @@ export function KeyFiguresDashboard() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="pl-10 pr-4 py-2 bg-zinc-900 border border-zinc-700 text-white 
-                       placeholder-zinc-500 focus:outline-none focus:border-blood-500 w-48"
+                       placeholder-zinc-500 focus:outline-none focus:border-zinc-600 w-48"
             />
           </div>
 
@@ -308,13 +308,13 @@ export function KeyFiguresDashboard() {
           <div className="flex border border-zinc-700">
             <button
               onClick={() => setViewMode('grid')}
-              className={`p-2 ${viewMode === 'grid' ? 'bg-blood-500 text-white' : 'bg-zinc-900 text-zinc-400 hover:text-white'}`}
+              className={`p-2 ${viewMode === 'grid' ? 'bg-zinc-600 text-white' : 'bg-zinc-900 text-zinc-400 hover:text-white'}`}
             >
               <Grid className="w-4 h-4" />
             </button>
             <button
               onClick={() => setViewMode('list')}
-              className={`p-2 ${viewMode === 'list' ? 'bg-blood-500 text-white' : 'bg-zinc-900 text-zinc-400 hover:text-white'}`}
+              className={`p-2 ${viewMode === 'list' ? 'bg-zinc-600 text-white' : 'bg-zinc-900 text-zinc-400 hover:text-white'}`}
             >
               <List className="w-4 h-4" />
             </button>
@@ -359,7 +359,7 @@ export function KeyFiguresDashboard() {
               <button
                 key={figure.normalizedName}
                 onClick={() => setSelectedFigure(figure)}
-                className={`glass-card p-4 text-left transition-all hover:border-blood-500 group
+                className={`glass-card p-4 text-left transition-all hover:border-zinc-600 group
                   ${viewMode === 'list' ? 'flex items-center gap-4' : ''}`}
               >
                 {/* Avatar / Risk indicator */}
@@ -373,7 +373,7 @@ export function KeyFiguresDashboard() {
 
                 {/* Content */}
                 <div className={`${viewMode === 'list' ? 'flex-1' : ''}`}>
-                  <h3 className="text-white font-semibold group-hover:text-blood-400 transition-colors">
+                  <h3 className="text-white font-semibold group-hover:text-white transition-colors">
                     {figure.name}
                   </h3>
                   <p className="text-sm text-zinc-500">{figure.role}</p>
@@ -417,7 +417,7 @@ export function KeyFiguresDashboard() {
                       {figure.riskScore}
                     </span>
                   </div>
-                  <ChevronRight className="w-5 h-5 text-zinc-600 group-hover:text-blood-500" />
+                  <ChevronRight className="w-5 h-5 text-zinc-600 group-hover:text-white" />
                 </div>
               </button>
             );
@@ -433,9 +433,9 @@ export function KeyFiguresDashboard() {
             <button
               onClick={() => setSelectedFigure(null)}
               className="px-3 py-2 bg-zinc-900 border border-zinc-700 text-zinc-400 
-                       hover:text-white hover:border-blood-500 transition-colors"
+                       hover:text-white hover:border-zinc-600 transition-colors"
             >
-              ← Back to Figures
+              ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â Back to Figures
             </button>
             <div className="w-12 h-12 bg-zinc-800 flex items-center justify-center">
               <User className="w-6 h-6 text-zinc-500" />
@@ -462,7 +462,7 @@ export function KeyFiguresDashboard() {
           {selectedFigure.defendants.length > 0 && (
             <div className="glass-card p-4">
               <h4 className="text-white font-semibold mb-3 flex items-center gap-2">
-                <Gavel className="w-4 h-4 text-blood-500" />
+                <Gavel className="w-4 h-4 text-zinc-300" />
                 Criminal Charges
               </h4>
               {selectedFigure.defendants.map((defendant, idx) => (
@@ -471,7 +471,7 @@ export function KeyFiguresDashboard() {
                     <ul className="space-y-1">
                       {defendant.charges.map((charge, cidx) => (
                         <li key={cidx} className="text-sm text-zinc-400 flex items-start gap-2">
-                          <span className="text-blood-500 mt-1">•</span>
+                          <span className="text-zinc-300 mt-1">ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
                           {charge}
                         </li>
                       ))}
@@ -493,7 +493,7 @@ export function KeyFiguresDashboard() {
           {/* Investigations */}
           <div className="glass-card p-4">
             <h4 className="text-white font-semibold mb-3 flex items-center gap-2">
-              <FileText className="w-4 h-4 text-blood-500" />
+              <FileText className="w-4 h-4 text-zinc-300" />
               Related Investigations ({selectedFigure.investigations.length})
             </h4>
             <div className="space-y-2">
@@ -501,11 +501,11 @@ export function KeyFiguresDashboard() {
                 <Link
                   key={investigation.slug}
                   href={`/investigations/${investigation.slug}`}
-                  className="block p-3 bg-zinc-900/50 border border-zinc-800 hover:border-blood-500 transition-colors"
+                  className="block p-3 bg-zinc-900/50 border border-zinc-800 hover:border-zinc-600 transition-colors"
                 >
                   <div className="flex items-center justify-between">
                     <div>
-                      <h5 className="text-white font-medium hover:text-blood-400">
+                      <h5 className="text-white font-medium hover:text-white">
                         {investigation.title}
                       </h5>
                       <p className="text-sm text-zinc-500">Role: {role}</p>
@@ -536,7 +536,7 @@ export function TopFiguresWidget({ limit = 5 }: { limit?: number }) {
   return (
     <div className="glass-card p-4">
       <div className="flex items-center gap-2 mb-4">
-        <Star className="w-4 h-4 text-blood-500" />
+        <Star className="w-4 h-4 text-zinc-300" />
         <h3 className="font-semibold text-white">Top Key Figures</h3>
       </div>
 
@@ -564,9 +564,9 @@ export function TopFiguresWidget({ limit = 5 }: { limit?: number }) {
 
       <Link 
         href="/figures"
-        className="block mt-4 text-center text-sm text-blood-500 hover:text-blood-400"
+        className="block mt-4 text-center text-sm text-zinc-300 hover:text-white"
       >
-        View All Figures →
+        View All Figures ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢
       </Link>
     </div>
   );

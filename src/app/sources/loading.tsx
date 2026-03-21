@@ -8,7 +8,7 @@ export default function SourcesLoading() {
  <div className="max-w-5xl mx-auto px-4">
  {/* Header skeleton */}
  <div className="text-center mb-12">
- <div className="h-10 w-48 bg-[#1c0a00] animate-pulse mx-auto mb-4"/>
+ <div className="h-10 w-48 bg-[#0a0a0a] animate-pulse mx-auto mb-4"/>
  <div className="h-5 w-96 bg-zinc-900 animate-pulse mx-auto"/>
  </div>
 
@@ -30,11 +30,11 @@ export default function SourcesLoading() {
  className="glass-card p-6"
  >
  <div className="flex items-start gap-4">
- <div className="w-10 h-10 bg-blood-900 animate-pulse flex-shrink-0"/>
+ <div className="w-10 h-10 bg-zinc-800 animate-pulse flex-shrink-0"/>
  <div className="flex-1">
  <div className="flex items-center gap-3 mb-2">
- <div className="h-5 w-64 bg-[#200c00] animate-pulse"/>
- <div className="h-5 w-20 bg-blood-900 animate-pulse"/>
+ <div className="h-5 w-64 bg-[#0d0d0d] animate-pulse"/>
+ <div className="h-5 w-20 bg-zinc-800 animate-pulse"/>
  </div>
  <div className="h-4 w-full bg-zinc-900 animate-pulse mb-2"/>
  <div className="h-4 w-3/4 bg-zinc-900 animate-pulse mb-3"/>

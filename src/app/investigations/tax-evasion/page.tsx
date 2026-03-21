@@ -179,10 +179,10 @@ const investigationData = {
 };
 
 const severityColors = {
- critical: 'bg-blood-900 text-blood-400 border-blood-800',
- high: 'bg-blood-950 text-blood-600 border-blood-800',
+ critical: 'bg-zinc-800 text-zinc-400 border-zinc-800',
+ high: 'bg-zinc-900 text-zinc-500 border-zinc-800',
  medium: 'bg-zinc-900 text-zinc-300 border-zinc-700',
- low: 'bg-blood-900 text-blood-400 border-blood-800',
+ low: 'bg-zinc-800 text-zinc-400 border-zinc-800',
 };
 
 export default function TaxEvasionPage() {
@@ -191,21 +191,21 @@ export default function TaxEvasionPage() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(255, 80, 80,0.15)]">
+ <div className="border-b border-[rgba(255,255,255,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
  <ChevronRight className="w-4 h-4"/>
  <Link href="/investigations"className="hover:text-white transition-colors">Investigations</Link>
  <ChevronRight className="w-4 h-4"/>
- <span className="text-blood-500">Tax Evasion</span>
+ <span className="text-zinc-300">Tax Evasion</span>
  </nav>
 
  <div className="flex items-center gap-4 mb-4">
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-[#200c00] text-zinc-300 border border-[rgba(255, 60, 60,0.18)]">
+ <span className="px-3 py-1 text-xs font-medium bg-[#0d0d0d] text-zinc-300 border border-[rgba(255,255,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -232,24 +232,24 @@ export default function TaxEvasionPage() {
  className="mb-12"
  >
  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <DollarSign className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.financialStats.totalEvaded}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <DollarSign className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.financialStats.totalEvaded}</p>
  <p className="text-xs text-zinc-400">Total Evaded</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <Building className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.financialStats.inheritanceFraud}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <Building className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.financialStats.inheritanceFraud}</p>
  <p className="text-xs text-zinc-400">Inheritance Fraud</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-800">
- <Calendar className="w-6 h-6 text-blood-700 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-700">{investigationData.financialStats.yearsNoIncomeTax}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-800">
+ <Calendar className="w-6 h-6 text-zinc-600 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-600">{investigationData.financialStats.yearsNoIncomeTax}</p>
  <p className="text-xs text-zinc-400">Years No Tax</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-800">
- <Scale className="w-6 h-6 text-blood-700 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-700">{investigationData.financialStats.auditYears}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-800">
+ <Scale className="w-6 h-6 text-zinc-600 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-600">{investigationData.financialStats.auditYears}</p>
  <p className="text-xs text-zinc-400">Under Audit</p>
  </div>
  <div className="glass-card p-4 text-center border-l-4 border-zinc-500">
@@ -268,7 +268,7 @@ export default function TaxEvasionPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <FileText className="w-5 h-5 text-blood-500"/>
+ <FileText className="w-5 h-5 text-zinc-300"/>
  Executive Summary
  </h2>
  <p className="text-zinc-300 leading-relaxed">{investigationData.summary}</p>
@@ -282,7 +282,7 @@ export default function TaxEvasionPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Users className="w-5 h-5 text-blood-500"/>
+ <Users className="w-5 h-5 text-zinc-300"/>
  Key Figures
  </h2>
  <div className="space-y-3">
@@ -290,10 +290,10 @@ export default function TaxEvasionPage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-600/50 transition-all"
  >
  <div>
- <span className="font-medium text-blood-400">{figure.name}</span>
+ <span className="font-medium text-zinc-400">{figure.name}</span>
  <p className="text-sm text-zinc-500">{figure.role}</p>
  </div>
  <ExternalLink className="w-4 h-4 text-zinc-600"/>
@@ -307,12 +307,12 @@ export default function TaxEvasionPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.2 }}
- className="glass-card p-6 mb-8 border-l-4 border-blood-600"
+ className="glass-card p-6 mb-8 border-l-4 border-zinc-700"
  >
  <h2 className="text-xl font-bold mb-4">New York Civil Fraud Judgment</h2>
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-zinc-300"/>The Cover-Up</h2>
+ <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900 border border-zinc-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -322,7 +322,7 @@ export default function TaxEvasionPage() {
  </div>
  <div>
  <p className="text-xs text-zinc-500 uppercase">Judgment Amount</p>
- <p className="text-3xl font-black text-blood-500">{investigationData.civilFraudCase.judgment}</p>
+ <p className="text-3xl font-black text-zinc-300">{investigationData.civilFraudCase.judgment}</p>
  </div>
  </div>
  <div>
@@ -330,7 +330,7 @@ export default function TaxEvasionPage() {
  <ul className="space-y-1">
  {investigationData.civilFraudCase.penalties.map((penalty, i) => (
  <li key={i} className="flex items-start gap-2 text-sm text-zinc-300">
- <span className="text-blood-500">•</span>
+ <span className="text-zinc-300">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
  {penalty}
  </li>
  ))}
@@ -346,18 +346,18 @@ export default function TaxEvasionPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <AlertTriangle className="w-5 h-5 text-blood-500"/>
+ <AlertTriangle className="w-5 h-5 text-zinc-300"/>
  Documented Fraud Schemes
  </h2>
  <div className="space-y-4">
  {investigationData.fraudSchemes.map((scheme, index) => (
- <div key={index} className="border border-[rgba(255, 80, 80,0.15)]">
+ <div key={index} className="border border-[rgba(255,255,255,0.15)]">
  <button
  onClick={() => setExpandedScheme(expandedScheme === scheme.scheme ? null : scheme.scheme)}
- className="w-full flex items-center justify-between p-4 hover:bg-[#1c0a00] transition-colors"
+ className="w-full flex items-center justify-between p-4 hover:bg-[#0a0a0a] transition-colors"
  >
  <div className="text-left">
- <span className="font-bold text-blood-400">{scheme.scheme}</span>
+ <span className="font-bold text-zinc-400">{scheme.scheme}</span>
  <p className="text-sm text-zinc-500">Amount: {scheme.amount}</p>
  </div>
  <ChevronRight className={`w-5 h-5 transition-transform ${expandedScheme === scheme.scheme ? 'rotate-90' : ''}`} />
@@ -367,7 +367,7 @@ export default function TaxEvasionPage() {
  <ul className="space-y-2">
  {scheme.details.map((detail, i) => (
  <li key={i} className="flex items-start gap-2 text-sm text-zinc-300">
- <span className="text-blood-500 mt-1">•</span>
+ <span className="text-zinc-300 mt-1">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
  {detail}
  </li>
  ))}
@@ -389,8 +389,8 @@ export default function TaxEvasionPage() {
  <h2 className="text-xl font-bold mb-4">Key Findings</h2>
  <div className="space-y-3">
  {investigationData.keyFindings.map((item, index) => (
- <div key={index} className="flex items-start gap-3 p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
- <span className="text-blood-500 font-bold">{index + 1}.</span>
+ <div key={index} className="flex items-start gap-3 p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
+ <span className="text-zinc-300 font-bold">{index + 1}.</span>
  <div>
  <p className="text-zinc-200">{item.finding}</p>
  <p className="text-xs text-zinc-500 mt-1">Source: {item.source}</p>
@@ -408,14 +408,14 @@ export default function TaxEvasionPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Calendar className="w-5 h-5 text-blood-500"/>
+ <Calendar className="w-5 h-5 text-zinc-300"/>
  Timeline
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
- <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
- <p className="text-xs text-blood-500 font-mono">{item.date}</p>
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(255,255,255,0.15)]">
+ <div className="absolute -left-[5px] top-0 w-2 h-2 bg-zinc-600"/>
+ <p className="text-xs text-zinc-300 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
  </div>
  ))}
@@ -424,13 +424,13 @@ export default function TaxEvasionPage() {
 
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-zinc-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Applicable Charges &amp; Statutes</h2>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold text-zinc-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-zinc-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -447,7 +447,7 @@ export default function TaxEvasionPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] transition-colors"
+ className="flex items-center justify-between p-3 bg-[#0a0a0a] hover:bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

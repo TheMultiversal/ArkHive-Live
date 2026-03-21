@@ -74,7 +74,7 @@ export default function DateDisplay({
         <Calendar className="w-3 h-3" />
         <span>{formatDate(displayDate)}</span>
         {effectiveActivityDate && (
-          <span className="text-blood-600">(Active)</span>
+          <span className="text-zinc-500">(Active)</span>
         )}
       </div>
     );
@@ -86,7 +86,7 @@ export default function DateDisplay({
       <div className={`space-y-1 ${className}`}>
         {hasEventDate && (
           <div className="flex items-center gap-2 text-zinc-500 text-xs">
-            <AlertCircle className="w-3 h-3 text-blood-600" />
+            <AlertCircle className="w-3 h-3 text-zinc-500" />
             <span className="text-zinc-600 font-medium">Origin:</span>
             <span>{formatDate(effectiveEventDate)}</span>
           </div>
@@ -118,8 +118,8 @@ export default function DateDisplay({
       
       {/* Event Origin */}
       <div className="flex items-start gap-3">
-        <div className="flex-shrink-0 w-8 h-8 bg-blood-950 border border-blood-800 flex items-center justify-center">
-          <AlertCircle className="w-4 h-4 text-blood-500" />
+        <div className="flex-shrink-0 w-8 h-8 bg-zinc-900 border border-zinc-800 flex items-center justify-center">
+          <AlertCircle className="w-4 h-4 text-zinc-300" />
         </div>
         <div className="flex-1 min-w-0">
           <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-600">

@@ -543,7 +543,7 @@ const CATEGORY_ICONS: Record<AuditCategory, ReactElement> = {
 };
 
 const SEVERITY_COLORS: Record<SeverityLevel, string> = {
-  critical: 'bg-blood-900/50 text-blood-300 border-blood-700',
+  critical: 'bg-zinc-800/50 text-zinc-300 border-zinc-700',
   high: 'bg-orange-900/50 text-orange-300 border-orange-700',
   medium: 'bg-yellow-900/50 text-yellow-300 border-yellow-700',
   low: 'bg-blue-900/50 text-blue-300 border-blue-700',
@@ -587,7 +587,7 @@ function ScoreCard({ score }: ScoreCardProps): ReactElement {
     if (score.score >= 90) return 'text-green-400';
     if (score.score >= 70) return 'text-yellow-400';
     if (score.score >= 50) return 'text-orange-400';
-    return 'text-blood-400';
+    return 'text-zinc-400';
   };
 
   return (
@@ -604,7 +604,7 @@ function ScoreCard({ score }: ScoreCardProps): ReactElement {
       </div>
       <div className="mt-3 h-2 bg-black/50">
         <div 
-          className={`h-full transition-all duration-500 ${score.score >= 90 ? 'bg-green-600' : score.score >= 70 ? 'bg-yellow-600' : score.score >= 50 ? 'bg-orange-600' : 'bg-blood-600'}`}
+          className={`h-full transition-all duration-500 ${score.score >= 90 ? 'bg-green-600' : score.score >= 70 ? 'bg-yellow-600' : score.score >= 50 ? 'bg-orange-600' : 'bg-zinc-700'}`}
           style={{ width: `${score.score}%` }}
         />
       </div>
@@ -732,7 +732,7 @@ export function ProductionAudit({ config = {}, onComplete }: ProductionAuditProp
           <button
             onClick={runAudit}
             disabled={status === 'running'}
-            className="px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 disabled:opacity-50 transition-colors flex items-center gap-2"
+            className="px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 disabled:opacity-50 transition-colors flex items-center gap-2"
           >
             {status === 'running' ? (
               <RefreshCw className="w-4 h-4 animate-spin" />
@@ -753,7 +753,7 @@ export function ProductionAudit({ config = {}, onComplete }: ProductionAuditProp
           </div>
           <div className="h-2 bg-black/50">
             <div 
-              className="h-full bg-blood-600 transition-all duration-300"
+              className="h-full bg-zinc-700 transition-all duration-300"
               style={{ width: `${progress}%` }}
             />
           </div>
@@ -768,7 +768,7 @@ export function ProductionAudit({ config = {}, onComplete }: ProductionAuditProp
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-6">
                 <div className="text-center">
-                  <div className={`text-5xl font-bold ${result.overallScore >= 90 ? 'text-green-400' : result.overallScore >= 70 ? 'text-yellow-400' : result.overallScore >= 50 ? 'text-orange-400' : 'text-blood-400'}`}>
+                  <div className={`text-5xl font-bold ${result.overallScore >= 90 ? 'text-green-400' : result.overallScore >= 70 ? 'text-yellow-400' : result.overallScore >= 50 ? 'text-orange-400' : 'text-zinc-400'}`}>
                     {result.overallScore}
                   </div>
                   <div className="text-sm text-zinc-500 mt-1">Overall Score</div>
@@ -790,7 +790,7 @@ export function ProductionAudit({ config = {}, onComplete }: ProductionAuditProp
                     </div>
                   )}
                   {result.status === 'fail' && (
-                    <div className="flex items-center gap-2 text-blood-400">
+                    <div className="flex items-center gap-2 text-zinc-400">
                       <XCircle className="w-6 h-6" />
                       <span className="font-medium">Critical Issues Found</span>
                     </div>
@@ -800,7 +800,7 @@ export function ProductionAudit({ config = {}, onComplete }: ProductionAuditProp
 
               <div className="flex items-center gap-4 text-sm">
                 {result.criticalCount > 0 && (
-                  <span className="text-blood-400">{result.criticalCount} Critical</span>
+                  <span className="text-zinc-400">{result.criticalCount} Critical</span>
                 )}
                 {result.highCount > 0 && (
                   <span className="text-orange-400">{result.highCount} High</span>

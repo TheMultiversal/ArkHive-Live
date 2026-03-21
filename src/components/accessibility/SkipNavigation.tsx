@@ -21,11 +21,11 @@ export default function SkipNavigation({
       className="
         absolute left-4 -top-16 z-[100]
         px-6 py-3 
-        bg-blood-900 border-2 border-blood-500 
+        bg-zinc-800 border-2 border-zinc-600 
         text-white font-bold text-sm uppercase tracking-wider
         focus:top-4 
         transition-all duration-200
-        focus:outline-none focus:ring-2 focus:ring-blood-400 focus:ring-offset-2 focus:ring-offset-black
+        focus:outline-none focus:ring-2 focus:ring-zinc-500 focus:ring-offset-2 focus:ring-offset-black
       "
       style={{
         // Ensure visible on focus

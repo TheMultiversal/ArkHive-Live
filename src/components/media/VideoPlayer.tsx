@@ -377,7 +377,7 @@ export default function VideoPlayer({
  <motion.div
  initial={{ scale: 0.8, opacity: 0 }}
  animate={{ scale: 1, opacity: 1 }}
- className="p-5 bg-blood-500/80 hover:bg-blood-500 transition-colors"
+ className="p-5 bg-zinc-600/80 hover:bg-zinc-600 transition-colors"
  >
  <Play className="w-12 h-12 text-white"/>
  </motion.div>
@@ -407,12 +407,12 @@ export default function VideoPlayer({
  />
  {/* Progress */}
  <div
- className="absolute h-1 bg-blood-500"
+ className="absolute h-1 bg-zinc-600"
  style={{ width: `${(currentTime / duration) * 100}%` }}
  />
  {/* Scrubber */}
  <div
- className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-blood-500 opacity-0 group-hover/progress:opacity-100 transition-opacity"
+ className="absolute top-1/2 -translate-y-1/2 w-3 h-3 bg-zinc-600 opacity-0 group-hover/progress:opacity-100 transition-opacity"
  style={{ left: `${(currentTime / duration) * 100}%` }}
  />
  </div>
@@ -422,7 +422,7 @@ export default function VideoPlayer({
  <div className="flex items-center gap-2">
  <button
  onClick={togglePlay}
- className="p-2 text-white hover:text-blood-500 transition-colors"
+ className="p-2 text-white hover:text-white transition-colors"
  >
  {isPlaying ? (
  <Pause className="w-5 h-5"/>
@@ -433,7 +433,7 @@ export default function VideoPlayer({
 
  <button
  onClick={() => skip(-10)}
- className="p-2 text-white hover:text-blood-500 transition-colors"
+ className="p-2 text-white hover:text-white transition-colors"
  title="Rewind 10s"
  >
  <Rewind className="w-4 h-4"/>
@@ -441,7 +441,7 @@ export default function VideoPlayer({
 
  <button
  onClick={() => skip(10)}
- className="p-2 text-white hover:text-blood-500 transition-colors"
+ className="p-2 text-white hover:text-white transition-colors"
  title="Forward 10s"
  >
  <FastForward className="w-4 h-4"/>
@@ -451,7 +451,7 @@ export default function VideoPlayer({
  <div className="flex items-center gap-1 group/vol">
  <button
  onClick={toggleMute}
- className="p-2 text-white hover:text-blood-500 transition-colors"
+ className="p-2 text-white hover:text-white transition-colors"
  >
  <VolumeIcon className="w-4 h-4"/>
  </button>
@@ -482,14 +482,14 @@ export default function VideoPlayer({
  className={cn(
  'p-2 transition-colors',
  currentSubtitle
- ? 'text-blood-500'
- : 'text-white hover:text-blood-500'
+ ? 'text-zinc-300'
+ : 'text-white hover:text-white'
  )}
  >
  <Subtitles className="w-4 h-4"/>
  </button>
  {showSubtitles && (
- <div className="absolute bottom-full right-0 mb-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-2 min-w-[150px]">
+ <div className="absolute bottom-full right-0 mb-2 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-2 min-w-[150px]">
  <button
  onClick={() => {
  setCurrentSubtitle(null);
@@ -498,7 +498,7 @@ export default function VideoPlayer({
  className={cn(
  'block w-full text-left px-2 py-1 text-sm',
  !currentSubtitle
- ? 'text-blood-500'
+ ? 'text-zinc-300'
  : 'text-zinc-400 hover:text-white'
  )}
  >
@@ -514,7 +514,7 @@ export default function VideoPlayer({
  className={cn(
  'block w-full text-left px-2 py-1 text-sm',
  currentSubtitle === sub.language
- ? 'text-blood-500'
+ ? 'text-zinc-300'
  : 'text-zinc-400 hover:text-white'
  )}
  >
@@ -530,13 +530,13 @@ export default function VideoPlayer({
  <div className="relative">
  <button
  onClick={() => setShowSettings(!showSettings)}
- className="p-2 text-white hover:text-blood-500 transition-colors"
+ className="p-2 text-white hover:text-white transition-colors"
  >
  <Settings className="w-4 h-4"/>
  </button>
 
  {showSettings && (
- <div className="absolute bottom-full right-0 mb-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-2 min-w-[180px]">
+ <div className="absolute bottom-full right-0 mb-2 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-2 min-w-[180px]">
  {/* Quality */}
  {showQuality && sources.length > 1 && (
  <div className="mb-2">
@@ -551,7 +551,7 @@ export default function VideoPlayer({
  className={cn(
  'block w-full text-left px-2 py-1 text-sm',
  currentQuality === source.quality
- ? 'text-blood-500'
+ ? 'text-zinc-300'
  : 'text-zinc-400 hover:text-white'
  )}
  >
@@ -576,8 +576,8 @@ export default function VideoPlayer({
  className={cn(
  'px-2 py-1 text-xs',
  playbackSpeed === speed
- ? 'bg-blood-500 text-white'
- : 'bg-[#200c00] text-zinc-400 hover:text-white'
+ ? 'bg-zinc-600 text-white'
+ : 'bg-[#0d0d0d] text-zinc-400 hover:text-white'
  )}
  >
  {speed}x
@@ -594,7 +594,7 @@ export default function VideoPlayer({
  {showPIP && document.pictureInPictureEnabled && (
  <button
  onClick={togglePIP}
- className="p-2 text-white hover:text-blood-500 transition-colors"
+ className="p-2 text-white hover:text-white transition-colors"
  title="Picture in Picture"
  >
  <PictureInPicture className="w-4 h-4"/>
@@ -606,7 +606,7 @@ export default function VideoPlayer({
  <a
  href={currentSource?.src}
  download
- className="p-2 text-white hover:text-blood-500 transition-colors"
+ className="p-2 text-white hover:text-white transition-colors"
  >
  <Download className="w-4 h-4"/>
  </a>
@@ -615,7 +615,7 @@ export default function VideoPlayer({
  {/* Fullscreen */}
  <button
  onClick={toggleFullscreen}
- className="p-2 text-white hover:text-blood-500 transition-colors"
+ className="p-2 text-white hover:text-white transition-colors"
  >
  {isFullscreen ? (
  <Minimize className="w-4 h-4"/>

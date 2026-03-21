@@ -44,9 +44,9 @@ export default function Footer() {
  };
 
  return (
- <footer className="relative z-20 mt-auto border-t border-[rgba(255, 80, 80,0.15)] bg-gradient-to-b from-[#200c00] to-[#120600] gloss">
+ <footer className="relative z-20 mt-auto border-t border-[rgba(255,255,255,0.15)] bg-gradient-to-b from-[#0d0d0d] to-[#070707] gloss">
  {/* Top accent line */}
- <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-blood-600/50 to-transparent"/>
+ <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-zinc-700/50 to-transparent"/>
 
  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Main Footer Content */}
@@ -55,13 +55,13 @@ export default function Footer() {
  <div className="col-span-2 md:col-span-4 lg:col-span-1 mb-4 lg:mb-0">
  <Link href="/"className="flex items-center gap-3 mb-4 group">
  <div className="relative">
- <div className="relative w-10 h-10 bg-gradient-to-br from-[#502000] to-[#381800] flex items-center justify-center border border-[rgba(255, 80, 80,0.25)]" style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.15)'}}>
+ <div className="relative w-10 h-10 bg-gradient-to-br from-[#1a1a1a] to-[#111111] flex items-center justify-center border border-[rgba(255,255,255,0.25)]" style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.15)'}}>
  <Eye className="w-5 h-5 text-white"/>
  </div>
  </div>
  <div>
  <h3 className="text-lg font-black tracking-tight glass-text-hero">ARKHIVE</h3>
- <p className="text-[10px] tracking-[0.15em] text-blood-600/70 uppercase">Truth Archive</p>
+ <p className="text-[10px] tracking-[0.15em] text-zinc-500/70 uppercase">Truth Archive</p>
  </div>
  </Link>
  <p className="text-sm glass-text-muted mb-4 max-w-xs leading-relaxed">
@@ -73,13 +73,13 @@ export default function Footer() {
  href="https://x.com/ArkHiveLives"
  target="_blank"
  rel="noopener noreferrer"
- className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-950 border border-transparent hover:border-blood-800 transition-all"
+ className="p-2.5 text-zinc-600 hover:text-white hover:bg-zinc-800/80 border border-transparent hover:border-zinc-800 transition-all"
  >
  <Twitter className="w-4 h-4"/>
  </a>
  <a
  href="mailto:tips@arkhive.org"
- className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-950 border border-transparent hover:border-blood-800 transition-all"
+ className="p-2.5 text-zinc-600 hover:text-white hover:bg-zinc-800/80 border border-transparent hover:border-zinc-800 transition-all"
  >
  <Mail className="w-4 h-4"/>
  </a>
@@ -89,7 +89,7 @@ export default function Footer() {
  {/* Links */}
  <div>
  <h4 className="text-sm font-semibold text-white mb-4 flex items-center gap-2">
- <span className="w-1 h-3 bg-blood-600"/>
+ <span className="w-1 h-3 bg-zinc-700"/>
  Investigations
  </h4>
  <ul className="space-y-2">
@@ -97,7 +97,7 @@ export default function Footer() {
  <li key={link.href}>
  <Link
  href={link.href}
- className="text-sm text-zinc-500 hover:text-blood-500 transition-colors"
+ className="text-sm text-zinc-500 hover:text-white transition-colors"
  >
  {link.label}
  </Link>
@@ -108,7 +108,7 @@ export default function Footer() {
 
  <div>
  <h4 className="text-sm font-semibold text-white mb-4 flex items-center gap-2">
- <span className="w-1 h-3 bg-blood-600"/>
+ <span className="w-1 h-3 bg-zinc-700"/>
  Entities
  </h4>
  <ul className="space-y-2">
@@ -116,7 +116,7 @@ export default function Footer() {
  <li key={link.href}>
  <Link
  href={link.href}
- className="text-sm text-zinc-500 hover:text-blood-500 transition-colors"
+ className="text-sm text-zinc-500 hover:text-white transition-colors"
  >
  {link.label}
  </Link>
@@ -127,7 +127,7 @@ export default function Footer() {
 
  <div>
  <h4 className="text-sm font-semibold text-white mb-4 flex items-center gap-2">
- <span className="w-1 h-3 bg-blood-600"/>
+ <span className="w-1 h-3 bg-zinc-700"/>
  Resources
  </h4>
  <ul className="space-y-2">
@@ -135,7 +135,7 @@ export default function Footer() {
  <li key={link.href}>
  <Link
  href={link.href}
- className="text-sm text-zinc-500 hover:text-blood-500 transition-colors"
+ className="text-sm text-zinc-500 hover:text-white transition-colors"
  >
  {link.label}
  </Link>
@@ -146,7 +146,7 @@ export default function Footer() {
 
  <div>
  <h4 className="text-sm font-semibold text-white mb-4 flex items-center gap-2">
- <span className="w-1 h-3 bg-blood-600"/>
+ <span className="w-1 h-3 bg-zinc-700"/>
  About
  </h4>
  <ul className="space-y-2">
@@ -154,7 +154,7 @@ export default function Footer() {
  <li key={link.href}>
  <Link
  href={link.href}
- className="text-sm text-zinc-500 hover:text-blood-500 transition-colors"
+ className="text-sm text-zinc-500 hover:text-white transition-colors"
  >
  {link.label}
  </Link>
@@ -165,7 +165,7 @@ export default function Footer() {
 
  <div>
  <h4 className="text-sm font-semibold text-white mb-4 flex items-center gap-2">
- <span className="w-1 h-3 bg-blood-600"/>
+ <span className="w-1 h-3 bg-zinc-700"/>
  Platform
  </h4>
  <ul className="space-y-2">
@@ -173,7 +173,7 @@ export default function Footer() {
  <li key={link.href}>
  <Link
  href={link.href}
- className="text-sm text-zinc-500 hover:text-blood-500 transition-colors"
+ className="text-sm text-zinc-500 hover:text-white transition-colors"
  >
  {link.label}
  </Link>
@@ -184,15 +184,15 @@ export default function Footer() {
  </div>
 
  {/* Bottom Bar */}
- <div className="py-6 border-t border-blood-900 flex flex-col sm:flex-row items-center justify-between gap-4">
+ <div className="py-6 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
  <p className="text-xs text-zinc-600 uppercase tracking-wider">
- © {currentYear} ArkHive. All information is provided for educational purposes.
+ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© {currentYear} ArkHive. All information is provided for educational purposes.
  </p>
  <div className="flex items-center gap-4">
  <span className="text-[10px] text-zinc-600 uppercase tracking-widest flex items-center gap-2">
  <span className="relative flex h-1.5 w-1.5">
- <span className="animate-ping absolute inline-flex h-full w-full bg-blood-500 opacity-75"></span>
- <span className="relative inline-flex h-1.5 w-1.5 bg-blood-600"></span>
+ <span className="animate-ping absolute inline-flex h-full w-full bg-zinc-500 opacity-75"></span>
+ <span className="relative inline-flex h-1.5 w-1.5 bg-zinc-500"></span>
  </span>
  Documenting the truth
  </span>

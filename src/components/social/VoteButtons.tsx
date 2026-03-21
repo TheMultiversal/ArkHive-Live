@@ -90,8 +90,8 @@ export default function VoteButtons({
  'relative transition-all',
  sizeClasses[size],
  userVote === 'up'
- ? 'text-blood-500 bg-blood-950'
- : 'text-zinc-500 hover:text-blood-500 hover:bg-blood-950',
+ ? 'text-zinc-300 bg-zinc-900'
+ : 'text-zinc-500 hover:text-white hover:bg-zinc-800/80',
  disabled && 'cursor-not-allowed opacity-50'
  )}
  >
@@ -108,7 +108,7 @@ export default function VoteButtons({
  initial={{ opacity: 1, scale: 0 }}
  animate={{ opacity: 0, scale: 2 }}
  transition={{ duration: 0.5 }}
- className="absolute inset-0 bg-blood-950"
+ className="absolute inset-0 bg-zinc-900"
  />
  )}
  </button>
@@ -123,7 +123,7 @@ export default function VoteButtons({
  animate={{ opacity: 1, y: 0 }}
  className={cn(
  'font-medium',
- netVotes > 0 ? 'text-blood-500' : netVotes < 0 ? 'text-blood-500' : 'text-zinc-500'
+ netVotes > 0 ? 'text-zinc-300' : netVotes < 0 ? 'text-zinc-300' : 'text-zinc-500'
  )}
  >
  {netVotes > 0 ? `+${netVotes}` : netVotes}
@@ -137,7 +137,7 @@ export default function VoteButtons({
  key={upvotes}
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
- className="text-blood-500 font-medium"
+ className="text-zinc-300 font-medium"
  >
  {upvotes}
  </motion.span>
@@ -146,7 +146,7 @@ export default function VoteButtons({
  key={downvotes}
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
- className="text-blood-500 font-medium"
+ className="text-zinc-300 font-medium"
  >
  {downvotes}
  </motion.span>
@@ -163,8 +163,8 @@ export default function VoteButtons({
  'relative transition-all',
  sizeClasses[size],
  userVote === 'down'
- ? 'text-blood-500 bg-blood-950'
- : 'text-zinc-500 hover:text-blood-500 hover:bg-blood-950',
+ ? 'text-zinc-300 bg-zinc-900'
+ : 'text-zinc-500 hover:text-white hover:bg-zinc-800/80',
  disabled && 'cursor-not-allowed opacity-50'
  )}
  >
@@ -181,7 +181,7 @@ export default function VoteButtons({
  initial={{ opacity: 1, scale: 0 }}
  animate={{ opacity: 0, scale: 2 }}
  transition={{ duration: 0.5 }}
- className="absolute inset-0 bg-blood-950"
+ className="absolute inset-0 bg-zinc-900"
  />
  )}
  </button>
@@ -214,8 +214,8 @@ export function SimpleVoteButton({
 }: SimpleVoteButtonProps) {
  const [animating, setAnimating] = useState(false);
  const Icon = direction === 'up' ? ThumbsUp : ThumbsDown;
- const activeColor = direction === 'up' ? 'text-blood-500 bg-blood-950' : 'text-blood-500 bg-blood-950';
- const hoverColor = direction === 'up' ? 'hover:text-blood-500' : 'hover:text-blood-500';
+ const activeColor = direction === 'up' ? 'text-zinc-300 bg-zinc-900' : 'text-zinc-300 bg-zinc-900';
+ const hoverColor = direction === 'up' ? 'hover:text-white' : 'hover:text-white';
 
  const sizeClasses = {
  sm: 'px-2 py-1 gap-1 text-xs',
@@ -246,7 +246,7 @@ export function SimpleVoteButton({
  className={cn(
  'inline-flex items-center transition-all',
  sizeClasses[size],
- voted ? activeColor : cn('text-zinc-500 bg-[#200c00]', hoverColor),
+ voted ? activeColor : cn('text-zinc-500 bg-[#0d0d0d]', hoverColor),
  disabled && 'cursor-not-allowed opacity-50',
  className
  )}

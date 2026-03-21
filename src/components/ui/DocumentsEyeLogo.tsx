@@ -77,14 +77,14 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  }}
  >
  <div 
- className="w-[2px] bg-gradient-to-b from-blood-700 to-blood-900"
+ className="w-[2px] bg-gradient-to-b from-zinc-700 to-zinc-800"
  style={{
  height: `${10 + Math.sin(frameCount * 0.04 + i) * 5}px`,
  opacity: 0.8,
  }}
  />
  <div 
- className="w-2 h-3 bg-gradient-to-b from-blood-600 to-blood-800 -ml-[3px]"
+ className="w-2 h-3 bg-gradient-to-b from-zinc-700 to-zinc-800 -ml-[3px]"
  style={{
  transform: `translateY(${Math.sin(frameCount * 0.06 + i * 2) * 3}px)`,
  }}
@@ -96,7 +96,7 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  {/* Main container */}
  <div className={`relative ${s.container} overflow-hidden transition-all duration-300 ${isHovered ? 'scale-110' : 'scale-100'}`}>
  {/* Solid border - no blur */}
- <div className="absolute inset-0 border-2 border-blood-700 bg-black"/>
+ <div className="absolute inset-0 border-2 border-zinc-700 bg-black"/>
 
  {/* Inner content */}
  <div className="absolute inset-[2px] bg-black overflow-hidden">
@@ -104,7 +104,7 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  <svg
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
- style={{ filter: 'drop-shadow(0 0 6px rgba(214, 42, 42, 0.5))' }}
+ style={{ filter: 'drop-shadow(0 0 6px rgba(160, 160, 160, 0.5))' }}
  >
  <defs>
  {/* Gradients */}
@@ -126,23 +126,23 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  <radialGradient id="docEyeGradient"cx="50%"cy="40%"r="50%">
  <stop offset="0%"stopColor="#ffffff"/>
  <stop offset="60%"stopColor="#fecaca"/>
- <stop offset="100%"stopColor="#8f0000"/>
+ <stop offset="100%"stopColor="#3d3d3d"/>
  </radialGradient>
 
  <radialGradient id="docIrisGradient"cx="50%"cy="50%"r="50%">
- <stop offset="0%"stopColor="#d62a2a"/>
+ <stop offset="0%"stopColor="#6b6b6b"/>
  <stop offset="60%"stopColor="#6b0000"/>
- <stop offset="100%"stopColor="#4d0000"/>
+ <stop offset="100%"stopColor="#2a2a2a"/>
  </radialGradient>
 
  <linearGradient id="docBloodStream"x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#8f0000"stopOpacity="0.9"/>
- <stop offset="100%"stopColor="#4d0000"stopOpacity="0.8"/>
+ <stop offset="0%"stopColor="#3d3d3d"stopOpacity="0.9"/>
+ <stop offset="100%"stopColor="#2a2a2a"stopOpacity="0.8"/>
  </linearGradient>
 
  <filter id="docBloodGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="1"result="blur"/>
- <feFlood floodColor="#8f0000"floodOpacity="0.6"/>
+ <feFlood floodColor="#3d3d3d"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -186,9 +186,9 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  <line x1="30"y1="58"x2="60"y2="58"stroke="#d6d3d1"strokeWidth="0.5"/>
  <line x1="30"y1="63"x2="55"y2="63"stroke="#d6d3d1"strokeWidth="0.5"/>
  {/* Blood stains on document */}
- <circle cx="55"cy="75"r="6"fill="#8f0000"opacity="0.4"/>
+ <circle cx="55"cy="75"r="6"fill="#3d3d3d"opacity="0.4"/>
  <circle cx="35"cy="82"r="4"fill="#6b0000"opacity="0.3"/>
- <ellipse cx="50"cy="85"rx="8"ry="3"fill="#4d0000"opacity="0.3"/>
+ <ellipse cx="50"cy="85"rx="8"ry="3"fill="#2a2a2a"opacity="0.3"/>
  </g>
  </g>
 
@@ -202,9 +202,9 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
 
  {/* Blood vessels */}
  <g opacity="0.6">
- <path d="M35 48 Q42 49, 45 50"stroke="#8f0000"strokeWidth="0.6"fill="none"/>
+ <path d="M35 48 Q42 49, 45 50"stroke="#3d3d3d"strokeWidth="0.6"fill="none"/>
  <path d="M34 52 Q40 51, 44 50"stroke="#6b0000"strokeWidth="0.5"fill="none"/>
- <path d="M65 48 Q58 49, 55 50"stroke="#8f0000"strokeWidth="0.6"fill="none"/>
+ <path d="M65 48 Q58 49, 55 50"stroke="#3d3d3d"strokeWidth="0.6"fill="none"/>
  <path d="M66 52 Q60 51, 56 50"stroke="#6b0000"strokeWidth="0.5"fill="none"/>
  </g>
 
@@ -252,7 +252,7 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  cy="95"
  rx={12 + Math.sin(frameCount * 0.02) * 2}
  ry="3"
- fill="#4d0000"
+ fill="#2a2a2a"
  opacity="0.7"
  />
  </g>
@@ -265,15 +265,15 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  cy={drop.y}
  rx={drop.size * 0.5}
  ry={drop.size}
- fill="#8f0000"
+ fill="#3d3d3d"
  opacity="0.8"
  />
  ))}
 
  {/*"CLASSIFIED"stamp - bloody */}
  <g transform="rotate(-20, 50, 30)">
- <rect x="20"y="12"width="45"height="12"fill="none"stroke="#8f0000"strokeWidth="1.5"rx="1"/>
- <text x="42.5"y="21"textAnchor="middle"fill="#8f0000"fontSize="6"fontFamily="monospace"fontWeight="bold">CLASSIFIED</text>
+ <rect x="20"y="12"width="45"height="12"fill="none"stroke="#3d3d3d"strokeWidth="1.5"rx="1"/>
+ <text x="42.5"y="21"textAnchor="middle"fill="#3d3d3d"fontSize="6"fontFamily="monospace"fontWeight="bold">CLASSIFIED</text>
  </g>
 
  {/* Blood drips from corners */}
@@ -284,15 +284,15 @@ export default function DocumentsEyeLogo({ size ="md", className =""}: Documents
  </svg>
 
  {/* Blood smears on edges */}
- <div className="absolute bottom-0 left-0 right-0 h-4 bg-gradient-to-t from-blood-900/60 to-transparent"/>
- <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-b from-blood-900/40 to-transparent"/>
+ <div className="absolute bottom-0 left-0 right-0 h-4 bg-gradient-to-t from-zinc-800/60 to-transparent"/>
+ <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-b from-zinc-800/40 to-transparent"/>
  </div>
  </div>
 
  {/* Status indicator */}
  <div className="absolute -top-1 -right-1 w-3 h-3">
- <span className="absolute inset-0 bg-blood-700 rounded-full animate-ping opacity-75"style={{ animationDuration: '1.5s' }} />
- <span className="absolute inset-0 bg-gradient-to-br from-blood-500 to-blood-700 shadow-lg shadow-blood-600/50"/>
+ <span className="absolute inset-0 bg-zinc-700 rounded-full animate-ping opacity-75"style={{ animationDuration: '1.5s' }} />
+ <span className="absolute inset-0 bg-gradient-to-br from-zinc-600 to-zinc-700 shadow-lg shadow-zinc-800-600/50"/>
  </div>
  </div>
  );

@@ -378,7 +378,7 @@ export function generateHtmlReport(stats: BundleStats, budgets?: BundleBudget[])
 <head>
   <title>Bundle Analysis Report - ArkHive</title>
   <style>
-    :root { --blood: #d64545; --bg: #0a0a0a; --card: #18181b; --border: #27272a; --text: #e4e4e7; --muted: #71717a; }
+    :root { --blood: #6b6b6b; --bg: #0a0a0a; --card: #18181b; --border: #27272a; --text: #e4e4e7; --muted: #71717a; }
     body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 2rem; }
     h1, h2 { color: var(--blood); }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
@@ -389,7 +389,7 @@ export function generateHtmlReport(stats: BundleStats, budgets?: BundleBudget[])
     th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid var(--border); }
     th { background: var(--card); }
     .passed { background: rgba(34, 197, 94, 0.1); }
-    .failed { background: rgba(214, 69, 69, 0.1); }
+    .failed { background: rgba(160, 160, 160, 0.1); }
     .truncate { max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .recommendations { background: var(--card); border: 1px solid var(--border); padding: 1.5rem; }
     .recommendations li { margin: 0.5rem 0; color: var(--muted); }

@@ -77,7 +77,7 @@ export default function NeuralNetworkBackground() {
  <svg className="absolute inset-0 w-full h-full opacity-[0.08]">
  <defs>
  <pattern id="sharpGrid"width="40"height="40"patternUnits="userSpaceOnUse">
- <path d="M 40 0 L 0 0 0 40"fill="none"stroke="#8f0000"strokeWidth="1"/>
+ <path d="M 40 0 L 0 0 0 40"fill="none"stroke="#3d3d3d"strokeWidth="1"/>
  </pattern>
  </defs>
  <rect width="100%"height="100%"fill="url(#sharpGrid)"/>
@@ -88,7 +88,7 @@ export default function NeuralNetworkBackground() {
  <defs>
  {/* Sharp glow filter - minimal blur */}
  <filter id="nodeGlow"x="-100%"y="-100%"width="300%"height="300%">
- <feFlood floodColor="#8f0000"floodOpacity="0.8"/>
+ <feFlood floodColor="#3d3d3d"floodOpacity="0.8"/>
  <feComposite in2="SourceGraphic"operator="in"/>
  <feGaussianBlur stdDeviation="1"/>
  <feMerge>
@@ -108,7 +108,7 @@ export default function NeuralNetworkBackground() {
  y1={`${from.y}%`}
  x2={`${to.x}%`}
  y2={`${to.y}%`}
- stroke="#8f0000"
+ stroke="#3d3d3d"
  strokeWidth={isActive ? 2 : 0.5}
  opacity={isActive ? 0.8 : 0.15}
  animate={{
@@ -132,7 +132,7 @@ export default function NeuralNetworkBackground() {
  cx={`${node.x}%`}
  cy={`${node.y}%`}
  r={isActive ? 6 : 3}
- fill={isActive ? '#d62a2a' : '#8f0000'}
+ fill={isActive ? '#6b6b6b' : '#3d3d3d'}
  opacity={isActive ? 1 : 0.4}
  filter={isActive ? 'url(#nodeGlow)' : undefined}
  animate={{
@@ -166,8 +166,8 @@ export default function NeuralNetworkBackground() {
  />
  <defs>
  <radialGradient id="cursorInfluence">
- <stop offset="0%"stopColor="#8f0000"stopOpacity="0.2"/>
- <stop offset="100%"stopColor="#8f0000"stopOpacity="0"/>
+ <stop offset="0%"stopColor="#3d3d3d"stopOpacity="0.2"/>
+ <stop offset="100%"stopColor="#3d3d3d"stopOpacity="0"/>
  </radialGradient>
  </defs>
  </svg>
@@ -185,7 +185,7 @@ export default function NeuralNetworkBackground() {
  {[0, 1, 2].map((i) => (
  <motion.div
  key={i}
- className="absolute border border-blood-600"
+ className="absolute border border-zinc-700"
  style={{
  width: 20,
  height: 20,
@@ -210,48 +210,48 @@ export default function NeuralNetworkBackground() {
  {/* Corner frame accents - sharp lines */}
  <div className="absolute top-4 left-4">
  <motion.div 
- className="w-16 h-px bg-blood-600"
+ className="w-16 h-px bg-zinc-700"
  animate={{ opacity: [0.5, 1, 0.5], width: ['60px', '70px', '60px'] }}
  transition={{ duration: 3, repeat: Infinity }}
  />
  <motion.div 
- className="w-px h-16 bg-blood-600"
+ className="w-px h-16 bg-zinc-700"
  animate={{ opacity: [0.5, 1, 0.5], height: ['60px', '70px', '60px'] }}
  transition={{ duration: 3, repeat: Infinity }}
  />
  </div>
  <div className="absolute top-4 right-4">
  <motion.div 
- className="w-16 h-px bg-blood-600 ml-auto"
+ className="w-16 h-px bg-zinc-700 ml-auto"
  animate={{ opacity: [0.5, 1, 0.5] }}
  transition={{ duration: 3, repeat: Infinity, delay: 0.5 }}
  />
  <motion.div 
- className="w-px h-16 bg-blood-600 ml-auto"
+ className="w-px h-16 bg-zinc-700 ml-auto"
  animate={{ opacity: [0.5, 1, 0.5] }}
  transition={{ duration: 3, repeat: Infinity, delay: 0.5 }}
  />
  </div>
  <div className="absolute bottom-4 left-4">
  <motion.div 
- className="w-px h-16 bg-blood-600"
+ className="w-px h-16 bg-zinc-700"
  animate={{ opacity: [0.5, 1, 0.5] }}
  transition={{ duration: 3, repeat: Infinity, delay: 1 }}
  />
  <motion.div 
- className="w-16 h-px bg-blood-600"
+ className="w-16 h-px bg-zinc-700"
  animate={{ opacity: [0.5, 1, 0.5] }}
  transition={{ duration: 3, repeat: Infinity, delay: 1 }}
  />
  </div>
  <div className="absolute bottom-4 right-4">
  <motion.div 
- className="w-px h-16 bg-blood-600 ml-auto"
+ className="w-px h-16 bg-zinc-700 ml-auto"
  animate={{ opacity: [0.5, 1, 0.5] }}
  transition={{ duration: 3, repeat: Infinity, delay: 1.5 }}
  />
  <motion.div 
- className="w-16 h-px bg-blood-600 ml-auto"
+ className="w-16 h-px bg-zinc-700 ml-auto"
  animate={{ opacity: [0.5, 1, 0.5] }}
  transition={{ duration: 3, repeat: Infinity, delay: 1.5 }}
  />

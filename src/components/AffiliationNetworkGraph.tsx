@@ -98,7 +98,7 @@ const typeConfig = {
   agency: { icon: Landmark, color: 'text-emerald-400', bg: 'bg-emerald-500/20', border: 'border-emerald-500/50' },
   corporation: { icon: Building2, color: 'text-orange-400', bg: 'bg-orange-500/20', border: 'border-orange-500/50' },
   organization: { icon: Users, color: 'text-purple-400', bg: 'bg-purple-500/20', border: 'border-purple-500/50' },
-  investigation: { icon: Eye, color: 'text-blood-400', bg: 'bg-blood-500/20', border: 'border-blood-500/50' },
+  investigation: { icon: Eye, color: 'text-zinc-400', bg: 'bg-zinc-500/20', border: 'border-zinc-600/50' },
 };
 
 interface NetworkNodeCardProps {
@@ -125,7 +125,7 @@ function NetworkNodeCard({ node, edges, allNodes, isExpanded, onToggle }: Networ
     <div className={`glass-card border ${config.border}`}>
       <button
         onClick={onToggle}
-        className="w-full p-4 flex items-start gap-4 text-left hover:bg-blood-900/10 transition-colors"
+        className="w-full p-4 flex items-start gap-4 text-left hover:bg-zinc-800/10 transition-colors"
       >
         <div className={`shrink-0 w-10 h-10 ${config.bg} ${config.border} border flex items-center justify-center`}>
           <Icon className={`w-5 h-5 ${config.color}`} />
@@ -135,7 +135,7 @@ function NetworkNodeCard({ node, edges, allNodes, isExpanded, onToggle }: Networ
           <div className="flex items-center gap-2 mb-1">
             <h3 className="text-white font-semibold truncate">{node.name}</h3>
             {node.investigations.length > 1 && (
-              <span className="text-xs text-blood-400 px-1.5 py-0.5 bg-blood-500/10">
+              <span className="text-xs text-zinc-400 px-1.5 py-0.5 bg-zinc-500/10">
                 {node.investigations.length} investigations
               </span>
             )}
@@ -156,15 +156,15 @@ function NetworkNodeCard({ node, edges, allNodes, isExpanded, onToggle }: Networ
           <Link
             href={node.href}
             onClick={(e) => e.stopPropagation()}
-            className="shrink-0 px-3 py-1.5 text-xs text-blood-400 hover:bg-blood-900/30 transition-colors"
+            className="shrink-0 px-3 py-1.5 text-xs text-zinc-400 hover:bg-zinc-800/30 transition-colors"
           >
-            View Profile →
+            View Profile ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢
           </Link>
         )}
       </button>
       
       {isExpanded && (
-        <div className="border-t border-blood-900/30 bg-black/30 p-4">
+        <div className="border-t border-zinc-800/30 bg-black/30 p-4">
           <h4 className="text-xs font-semibold text-zinc-500 uppercase mb-3">Connections</h4>
           <div className="space-y-2 max-h-60 overflow-y-auto">
             {connectedEdges.slice(0, 20).map((edge, idx) => {
@@ -310,7 +310,7 @@ export default function AffiliationNetworkGraph({
             >
               <Icon className={`w-4 h-4 ${config.color}`} />
               <span className="text-zinc-300 truncate flex-1">{node.name}</span>
-              <span className="text-xs text-blood-400">{node.connections}</span>
+              <span className="text-xs text-zinc-400">{node.connections}</span>
             </div>
           );
         })}
@@ -324,11 +324,11 @@ export default function AffiliationNetworkGraph({
       <div className="flex flex-col md:flex-row md:items-center gap-4">
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
-            <Network className="w-6 h-6 text-blood-500" />
+            <Network className="w-6 h-6 text-zinc-300" />
             Affiliation Network
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {entityCount} entities • {edges.length} connections • {highConnectors} appear in 3+ investigations
+            {entityCount} entities ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {edges.length} connections ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {highConnectors} appear in 3+ investigations
           </p>
         </div>
         
@@ -336,7 +336,7 @@ export default function AffiliationNetworkGraph({
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as typeof sortBy)}
-            className="px-3 py-1.5 text-xs bg-zinc-900 border border-zinc-800 text-zinc-400 focus:outline-none focus:border-blood-500"
+            className="px-3 py-1.5 text-xs bg-zinc-900 border border-zinc-800 text-zinc-400 focus:outline-none focus:border-zinc-600"
           >
             <option value="connections">Most Connected</option>
             <option value="investigations">Most Investigations</option>
@@ -355,7 +355,7 @@ export default function AffiliationNetworkGraph({
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search entities..."
-            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
           />
           {searchQuery && (
             <button
@@ -378,7 +378,7 @@ export default function AffiliationNetworkGraph({
                 onClick={() => setSelectedType(type)}
                 className={`px-3 py-2 text-xs capitalize transition-colors ${
                   isSelected
-                    ? 'bg-blood-500/20 text-blood-400 border border-blood-500'
+                    ? 'bg-zinc-500/20 text-zinc-400 border border-zinc-600'
                     : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-zinc-700'
                 }`}
               >
@@ -418,8 +418,8 @@ export default function AffiliationNetworkGraph({
  */
 export function TopConnectedEntities({ limit = 5 }: { limit?: number }) {
   return (
-    <div className="glass-card border border-blood-900/30 p-4">
-      <h3 className="text-sm font-semibold text-blood-400 mb-3 flex items-center gap-2">
+    <div className="glass-card border border-zinc-800/30 p-4">
+      <h3 className="text-sm font-semibold text-zinc-400 mb-3 flex items-center gap-2">
         <Network className="w-4 h-4" />
         Most Connected Entities
       </h3>

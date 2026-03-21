@@ -52,9 +52,9 @@ const Toggle = forwardRef<HTMLButtonElement, ToggleProps>(({
  disabled={disabled}
  onClick={() => onChange(!checked)}
  className={cn(
- 'relative inline-flex items-center shrink-0 cursor-pointer transition-colors focus:outline-none focus:ring-2 focus:ring-blood-500 focus:ring-offset-2 focus:ring-offset-black',
+ 'relative inline-flex items-center shrink-0 cursor-pointer transition-colors focus:outline-none focus:ring-2 focus:ring-zinc-600 focus:ring-offset-2 focus:ring-offset-black',
  config.track,
- checked ? 'bg-blood-600' : 'bg-zinc-700',
+ checked ? 'bg-zinc-700' : 'bg-zinc-700',
  disabled && 'opacity-50 cursor-not-allowed',
  !label && className
  )}
@@ -116,7 +116,7 @@ export function IconSwitch({
  onClick={() => onChange(!checked)}
  className={cn(
  'relative w-16 h-8 flex items-center cursor-pointer transition-colors',
- checked ? 'bg-blood-600' : 'bg-zinc-700',
+ checked ? 'bg-zinc-700' : 'bg-zinc-700',
  disabled && 'opacity-50 cursor-not-allowed',
  className
  )}
@@ -178,7 +178,7 @@ export function ToggleGroup({
  return (
  <div
  className={cn(
- 'inline-flex border border-[rgba(255, 80, 80,0.15)] bg-[#1c0a00]',
+ 'inline-flex border border-[rgba(255,255,255,0.15)] bg-[#0a0a0a]',
  disabled && 'opacity-50',
  className
  )}
@@ -198,8 +198,8 @@ export function ToggleGroup({
  'relative flex items-center gap-2 transition-colors',
  sizeClasses[size],
  isSelected
- ? 'bg-blood-600 text-white'
- : 'text-zinc-400 hover:text-white hover:bg-[#200c00]',
+ ? 'bg-zinc-700 text-white'
+ : 'text-zinc-400 hover:text-white hover:bg-[#0d0d0d]',
  disabled && 'cursor-not-allowed'
  )}
  >

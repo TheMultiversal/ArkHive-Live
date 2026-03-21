@@ -24,10 +24,10 @@ const sizeClasses: Record<AvatarSize, { container: string; text: string; status:
 };
 
 const statusColors: Record<AvatarStatus, string> = {
- online: 'bg-blood-500',
+ online: 'bg-zinc-600',
  offline: 'bg-zinc-500',
  away: 'bg-zinc-400',
- busy: 'bg-blood-500',
+ busy: 'bg-zinc-600',
 };
 
 function getInitials(name: string): string {
@@ -41,14 +41,14 @@ function getInitials(name: string): string {
 
 function getColorFromName(name: string): string {
  const colors = [
- 'bg-blood-700',
- 'bg-blood-700',
- 'bg-blood-700',
- 'bg-blood-700',
- 'bg-blood-900',
- 'bg-blood-700',
+ 'bg-zinc-700',
+ 'bg-zinc-700',
+ 'bg-zinc-700',
+ 'bg-zinc-700',
+ 'bg-zinc-800',
+ 'bg-zinc-700',
  'bg-teal-700',
- 'bg-blood-700',
+ 'bg-zinc-700',
  ];
  
  let hash = 0;
@@ -80,14 +80,14 @@ export default function Avatar({
  width={64}
  height={64}
  className={cn(
- ' object-cover border-2 border-[rgba(255, 80, 80,0.15)]',
+ ' object-cover border-2 border-[rgba(255,255,255,0.15)]',
  sizeConfig.container
  )}
  />
  ) : (
  <div
  className={cn(
- ' flex items-center justify-center font-semibold text-white border-2 border-[rgba(255, 80, 80,0.15)]',
+ ' flex items-center justify-center font-semibold text-white border-2 border-[rgba(255,255,255,0.15)]',
  sizeConfig.container,
  sizeConfig.text,
  bgColor
@@ -155,7 +155,7 @@ export function AvatarGroup({
  overlapClass[size],
  sizeClasses[size].container,
  sizeClasses[size].text,
- ' flex items-center justify-center font-semibold bg-[#200c00] text-zinc-400 border-2 border-black'
+ ' flex items-center justify-center font-semibold bg-[#0d0d0d] text-zinc-400 border-2 border-black'
  )}
  >
  +{remaining}

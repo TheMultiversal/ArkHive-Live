@@ -1,62 +1,71 @@
 'use client';
 
-import { useEffect } from 'react';
-import { Landmark, RefreshCw, ArrowLeft } from 'lucide-react';
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import BloodSumerianRain from '@/components/effects/BloodSumerianRain';
+import { motion } from 'framer-motion';
 
-interface ErrorProps {
- error: Error & { digest?: string };
- reset: () => void;
-}
-
-export default function AgencyError({ error, reset }: ErrorProps) {
- useEffect(() => {
- console.error('Agency error:', error);
- }, [error]);
+export default function EnterPage() {
+ const router = useRouter();
 
  return (
- <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
- <div className="max-w-lg mx-auto px-4 text-center">
- <div className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-8">
- <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-700 bg-blood-950 flex items-center justify-center">
- <Landmark className="w-10 h-10 text-blood-600"/>
- </div>
+ <div className="min-h-screen flex flex-col items-center justify-center bg-black text-zinc-200 relative overflow-hidden">
+ <BloodSumerianRain />
 
- <h1 className="text-xl font-black glass-text uppercase tracking-wider mb-3">
- AGENCY FILE INACCESSIBLE
- </h1>
-
- <p className="text-zinc-400 mb-6 text-sm leading-relaxed">
- Unable to retrieve the requested agency records. 
- The files may be classified, under review, or restricted.
- </p>
-
- {error.digest && (
- <div className="mb-6 p-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
- <span className="text-xs text-zinc-600 font-mono">
- Reference: {error.digest}
- </span>
- </div>
- )}
-
- <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
- <button
- onClick={reset}
- className="flex items-center gap-2 px-5 py-2.5 border border-blood-700 bg-blood-950 text-blood-500 text-sm font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
+ <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1.2, ease: 'easeOut' }}
+  className="z-10 flex flex-col items-center text-center px-6"
  >
- <RefreshCw className="w-4 h-4"/>
- Retry Access
- </button>
- <Link
- href="/entities/agencies"
- className="flex items-center gap-2 px-5 py-2.5 border border-[rgba(255, 60, 60,0.18)] text-zinc-400 text-sm font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
- >
- <ArrowLeft className="w-4 h-4"/>
- All Agencies
- </Link>
- </div>
- </div>
- </div>
+  <motion.h1
+   initial={{ opacity: 0, letterSpacing: '0.5em' }}
+   animate={{ opacity: 1, letterSpacing: '0.3em' }}
+   transition={{ duration: 2, ease: 'easeOut' }}
+   className="text-5xl sm:text-7xl font-black text-zinc-300 tracking-[0.3em] mb-4"
+  >
+   ARKHIVE
+  </motion.h1>
+
+  <motion.div
+   initial={{ scaleX: 0 }}
+   animate={{ scaleX: 1 }}
+   transition={{ duration: 1.5, delay: 0.5, ease: 'easeOut' }}
+   className="w-48 h-px bg-zinc-700 mb-6"
+  />
+
+  <motion.p
+   initial={{ opacity: 0 }}
+   animate={{ opacity: 1 }}
+   transition={{ duration: 1, delay: 1 }}
+   className="text-sm sm:text-base text-zinc-400 max-w-md mb-10 leading-relaxed"
+  >
+   Investigative documentation platform. Political corruption, financial crimes,
+   and institutional accountability; through court records, primary sources,
+   and verified evidence.
+  </motion.p>
+
+  <motion.button
+   initial={{ opacity: 0, scale: 0.9 }}
+   animate={{ opacity: 1, scale: 1 }}
+   transition={{ duration: 0.6, delay: 1.5 }}
+   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(180, 180, 180,0.4)' }}
+   whileTap={{ scale: 0.97 }}
+   onClick={() => router.push('/')}
+   className="px-10 py-3 border border-[rgba(255,255,255,0.30)] bg-gradient-to-br from-[#111111] to-[#160600] text-zinc-400 font-semibold tracking-widest uppercase text-sm hover:from-[rgba(0,20,52,0.82)] hover:to-[rgba(0,10,30,0.92)] hover:text-white hover:border-[rgba(255,255,255,0.50)] transition-all duration-300 gloss-hover"
+   style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.15)'}}  >
+   Enter the Archive
+  </motion.button>
+
+  <motion.p
+   initial={{ opacity: 0 }}
+   animate={{ opacity: 0.3 }}
+   transition={{ duration: 1, delay: 2.5 }}
+   className="mt-8 text-xs text-zinc-600"
+  >
+   The truth does not require your belief.
+  </motion.p>
+ </motion.div>
  </div>
  );
 }
+

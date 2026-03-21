@@ -173,8 +173,8 @@ function TreeNodeItem({
  className={cn(
  'flex items-center gap-1 py-1 px-2 cursor-pointer transition-colors group',
  isSelected
- ? 'bg-blood-950 text-blood-400'
- : 'text-zinc-400 hover:bg-[#200c00] hover:text-white',
+ ? 'bg-zinc-900 text-zinc-400'
+ : 'text-zinc-400 hover:bg-[#0d0d0d] hover:text-white',
  node.disabled && 'opacity-50 cursor-not-allowed'
  )}
  style={{ paddingLeft: `${depth * 16 + 8}px` }}
@@ -221,7 +221,7 @@ function TreeNodeItem({
  onChange={(e) => setEditName(e.target.value)}
  onBlur={handleRename}
  onKeyDown={handleKeyDown}
- className="flex-1 px-1 bg-[#200c00] border border-blood-500 text-white text-sm focus:outline-none"
+ className="flex-1 px-1 bg-[#0d0d0d] border border-zinc-600 text-white text-sm focus:outline-none"
  autoFocus
  onClick={(e) => e.stopPropagation()}
  />
@@ -248,7 +248,7 @@ function TreeNodeItem({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute right-0 top-full mt-1 w-36 bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] shadow-lg z-10"
+ className="absolute right-0 top-full mt-1 w-36 bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] shadow-lg z-10"
  onClick={(e) => e.stopPropagation()}
  >
  {isFolder && (
@@ -273,7 +273,7 @@ function TreeNodeItem({
  <FolderPlus className="w-3.5 h-3.5"/>
  New Folder
  </button>
- <div className="border-t border-[rgba(255, 60, 60,0.18)] my-1"/>
+ <div className="border-t border-[rgba(255,255,255,0.18)] my-1"/>
  </>
  )}
  <button
@@ -296,13 +296,13 @@ function TreeNodeItem({
  <Copy className="w-3.5 h-3.5"/>
  Duplicate
  </button>
- <div className="border-t border-[rgba(255, 60, 60,0.18)] my-1"/>
+ <div className="border-t border-[rgba(255,255,255,0.18)] my-1"/>
  <button
  onClick={() => {
  onDelete?.();
  setShowMenu(false);
  }}
- className="w-full flex items-center gap-2 px-3 py-1.5 text-sm text-blood-400 hover:bg-zinc-700"
+ className="w-full flex items-center gap-2 px-3 py-1.5 text-sm text-zinc-400 hover:bg-zinc-700"
  >
  <Trash2 className="w-3.5 h-3.5"/>
  Delete
@@ -428,9 +428,9 @@ export default function TreeView({
  };
 
  return (
- <div className={cn('bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]', className)}>
+ <div className={cn('bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]', className)}>
  {/* Header */}
- <div className="flex items-center justify-between p-2 border-b border-[rgba(255, 80, 80,0.15)] bg-[#200c00]">
+ <div className="flex items-center justify-between p-2 border-b border-[rgba(255,255,255,0.15)] bg-[#0d0d0d]">
  {showSearch ? (
  <div className="flex items-center gap-2 flex-1">
  <Search className="w-4 h-4 text-zinc-500"/>

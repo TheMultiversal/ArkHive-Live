@@ -74,7 +74,7 @@ export default function BloodyRewriteText({
  >
  {/* Text shadow layer for depth */}
  <span 
- className="absolute inset-0 text-blood-950 select-none"
+ className="absolute inset-0 text-zinc-900 select-none"
  style={{ 
  transform: 'translate(2px, 2px)',
  WebkitTextStroke: '0px',
@@ -86,9 +86,9 @@ export default function BloodyRewriteText({
 
  {/* Main bloody text */}
  <span 
- className="relative bg-gradient-to-b from-blood-600 via-blood-700 to-blood-800 bg-clip-text text-transparent"
+ className="relative bg-gradient-to-b from-zinc-700 via-zinc-700 to-zinc-800 bg-clip-text text-transparent"
  style={{
- WebkitTextStroke: '1px rgba(77, 0, 0, 0.5)',
+ WebkitTextStroke: '1px rgba(60, 60, 60, 0.5)',
  textShadow: '0 0 30px rgba(143, 0, 0, 0.5), 0 0 60px rgba(143, 0, 0, 0.3)',
  filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.8))',
  }}
@@ -98,17 +98,17 @@ export default function BloodyRewriteText({
  {/* Cursor while writing */}
  {isWriting && (
  <motion.span
- className="inline-block w-1 h-[0.9em] bg-blood-600 ml-1 align-baseline"
+ className="inline-block w-1 h-[0.9em] bg-zinc-700 ml-1 align-baseline"
  animate={{ opacity: [1, 0, 1] }}
  transition={{ duration: 0.5, repeat: Infinity }}
- style={{ boxShadow: '0 0 10px #8f0000' }}
+ style={{ boxShadow: '0 0 10px #3d3d3d' }}
  />
  )}
  </span>
 
  {/* Wet/fresh blood shine effect */}
  <motion.span 
- className="absolute inset-0 bg-gradient-to-br from-blood-500/30 via-transparent to-transparent bg-clip-text text-transparent pointer-events-none select-none"
+ className="absolute inset-0 bg-gradient-to-br from-zinc-600/30 via-transparent to-transparent bg-clip-text text-transparent pointer-events-none select-none"
  animate={{ opacity: [0.3, 0.6, 0.3] }}
  transition={{ duration: 2, repeat: Infinity }}
  aria-hidden="true"
@@ -138,8 +138,8 @@ export default function BloodyRewriteText({
  <svg width="8"height="16"viewBox="0 0 8 16">
  <defs>
  <linearGradient id={`dropGrad-${drip.id}`} x1="0%"y1="0%"x2="0%"y2="100%">
- <stop offset="0%"stopColor="#d62a2a"/>
- <stop offset="50%"stopColor="#8f0000"/>
+ <stop offset="0%"stopColor="#6b6b6b"/>
+ <stop offset="50%"stopColor="#3d3d3d"/>
  <stop offset="100%"stopColor="#330000"/>
  </linearGradient>
  </defs>
@@ -167,7 +167,7 @@ export default function BloodyRewriteText({
  {[...Array(5)].map((_, i) => (
  <motion.div
  key={i}
- className="absolute w-1 h-1 bg-blood-700"
+ className="absolute w-1 h-1 bg-zinc-700"
  style={{ left: `${10 + i * 20}%` }}
  initial={{ scale: 0, y: 0 }}
  animate={{ 

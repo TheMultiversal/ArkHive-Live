@@ -9,7 +9,7 @@ import { categoryDatabase } from '@/data/categories';
 const tierConfig: Record<string, { label: string; color: string; categories: string[] }> = {
   'documented-crimes': {
     label: 'Documented, Court Records & Indictments',
-    color: 'blood-600',
+    color: 'zinc-700',
     categories: ['sexual-assault', 'election-interference', 'financial-fraud', 'human-trafficking', 'seditious-conspiracy', 'obstruction-of-justice', 'tax-evasion', 'money-laundering', 'bribery-corruption', 'campaign-finance', 'racketeering', 'perjury', 'wire-fraud', 'securities-fraud'],
   },
   'state-crimes': {
@@ -22,18 +22,18 @@ const tierConfig: Record<string, { label: string; color: string; categories: str
 export default function CategoriesIndexPage() {
   return (
     <div className="min-h-screen bg-black text-white">
-      <div className="border-b border-[rgba(255, 80, 80,0.15)]">
+      <div className="border-b border-[rgba(255,255,255,0.15)]">
         <div className="max-w-7xl mx-auto px-6 py-8">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-6"
+            className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-6"
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Home
           </Link>
 
           <div className="flex items-center gap-3 mb-3">
-            <Scale className="w-8 h-8 text-blood-500" />
+            <Scale className="w-8 h-8 text-zinc-300" />
           </div>
           <h1 className="text-4xl md:text-5xl font-black mb-3 tracking-tight">
             <GlitchText>Crime Categories</GlitchText>
@@ -65,9 +65,9 @@ export default function CategoriesIndexPage() {
                   >
                     <Link
                       href={`/categories/${catSlug}`}
-                      className="block p-5 border border-[rgba(255, 80, 80,0.15)] bg-zinc-950 hover:border-blood-800 hover:bg-zinc-900 transition-all group"
+                      className="block p-5 border border-[rgba(255,255,255,0.15)] bg-zinc-950 hover:border-zinc-800 hover:bg-zinc-900 transition-all group"
                     >
-                      <h3 className="text-lg font-bold glass-text group-hover:text-blood-400 transition-colors mb-1">
+                      <h3 className="text-lg font-bold glass-text group-hover:text-white transition-colors mb-1">
                         {cat.name}
                       </h3>
                       <p className="text-xs text-zinc-500 mb-3 line-clamp-2">{cat.description}</p>
@@ -78,14 +78,14 @@ export default function CategoriesIndexPage() {
                             <span className="font-bold glass-text">{cat.individuals.length}</span> individuals
                           </span>
                           {critCount > 0 && (
-                            <span className="flex items-center gap-1 text-xs text-blood-500">
+                            <span className="flex items-center gap-1 text-xs text-zinc-300">
                               <Skull className="w-3.5 h-3.5" />
                               {critCount} critical
                             </span>
                           )}
                         </div>
-                        <span className="text-blood-600 text-[10px] font-black uppercase tracking-widest group-hover:text-blood-400">
-                          View All →
+                        <span className="text-zinc-500 text-[10px] font-black uppercase tracking-widest group-hover:text-white">
+                          View All ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢
                         </span>
                       </div>
                     </Link>

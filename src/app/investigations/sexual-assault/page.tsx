@@ -147,12 +147,12 @@ const investigationData = {
  { defendant: 'Donald Trump (Access Hollywood)', charge: 'Admission of sexual assault on tape:"grab them by the pussy"', outcome: 'Carroll jury cited tape as corroborating evidence; no criminal charges filed' },
  ],
  charges: [
- { statute: 'N.Y. Penal Law § 130.55', description: 'Sexual abuse in the third degree, subjecting another person to sexual contact without consent', count: 'Jury found liable in Carroll case (civil standard); at least 26 public accusations' },
- { statute: '18 U.S.C. § 1512(b)', description: 'Witness tampering through threats and intimidation against accusers who came forward publicly', count: 'Pattern across multiple accusers since 2016' },
- { statute: 'N.Y. Civil Rights Law § 70-a', description: 'Adult Survivors Act enabling civil claims for sexual assault outside normal statute of limitations', count: 'Carroll case filed under this 2022 lookback window' },
- { statute: '18 U.S.C. § 1341', description: 'Mail fraud, using NDAs and hush money payments to conceal sexual misconduct from voters', count: 'Multiple instances connected to 2016 campaign' },
- { statute: '52 U.S.C. § 30101 (FECA)', description: 'Campaign finance violations, hush money payments to suppress sexual misconduct allegations before 2016 election', count: 'Stormy Daniels ($130,000) and Karen McDougal ($150,000) payments' },
- { statute: 'N.Y. Penal Law § 130.35', description: 'Rape in the first degree, forcible sexual intercourse without consent', count: 'Carroll alleged rape; jury found sexual abuse but not rape under narrow legal definition' },
+ { statute: 'N.Y. Penal Law ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 130.55', description: 'Sexual abuse in the third degree, subjecting another person to sexual contact without consent', count: 'Jury found liable in Carroll case (civil standard); at least 26 public accusations' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1512(b)', description: 'Witness tampering through threats and intimidation against accusers who came forward publicly', count: 'Pattern across multiple accusers since 2016' },
+ { statute: 'N.Y. Civil Rights Law ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 70-a', description: 'Adult Survivors Act enabling civil claims for sexual assault outside normal statute of limitations', count: 'Carroll case filed under this 2022 lookback window' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1341', description: 'Mail fraud, using NDAs and hush money payments to conceal sexual misconduct from voters', count: 'Multiple instances connected to 2016 campaign' },
+ { statute: '52 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 30101 (FECA)', description: 'Campaign finance violations, hush money payments to suppress sexual misconduct allegations before 2016 election', count: 'Stormy Daniels ($130,000) and Karen McDougal ($150,000) payments' },
+ { statute: 'N.Y. Penal Law ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 130.35', description: 'Rape in the first degree, forcible sexual intercourse without consent', count: 'Carroll alleged rape; jury found sexual abuse but not rape under narrow legal definition' },
  ],
  coverup: [
  'Michael Cohen arranged a $130,000 hush money payment to Stormy Daniels just 11 days before the 2016 election, funneled through a shell company to conceal its purpose, Trump was later convicted of 34 felony counts for falsifying business records to hide this payment.',
@@ -175,10 +175,10 @@ const investigationData = {
 };
 
 const severityColors = {
- critical: 'bg-blood-900 text-blood-400 border-blood-800',
- high: 'bg-blood-950 text-blood-600 border-blood-800',
+ critical: 'bg-zinc-800 text-zinc-400 border-zinc-800',
+ high: 'bg-zinc-900 text-zinc-500 border-zinc-800',
  medium: 'bg-zinc-900 text-zinc-300 border-zinc-700',
- low: 'bg-blood-900 text-blood-400 border-blood-800',
+ low: 'bg-zinc-800 text-zinc-400 border-zinc-800',
 };
 
 export default function SexualAssaultPage() {
@@ -187,9 +187,9 @@ export default function SexualAssaultPage() {
  return (
  <div className="min-h-screen text-white">
  {/* Content Warning */}
- <div className="bg-blood-900 border-b border-blood-600">
+ <div className="bg-zinc-800 border-b border-zinc-700">
  <div className="max-w-6xl mx-auto px-6 py-3">
- <p className="text-sm text-blood-400 flex items-center gap-2">
+ <p className="text-sm text-zinc-400 flex items-center gap-2">
  <AlertTriangle className="w-4 h-4"/>
  Content Warning: This page contains descriptions of sexual assault and misconduct.
  </p>
@@ -197,21 +197,21 @@ export default function SexualAssaultPage() {
  </div>
 
  {/* Header */}
- <div className="border-b border-[rgba(255, 80, 80,0.15)]">
+ <div className="border-b border-[rgba(255,255,255,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
  <ChevronRight className="w-4 h-4"/>
  <Link href="/investigations"className="hover:text-white transition-colors">Investigations</Link>
  <ChevronRight className="w-4 h-4"/>
- <span className="text-blood-500">Sexual Assault</span>
+ <span className="text-zinc-300">Sexual Assault</span>
  </nav>
 
  <div className="flex items-center gap-4 mb-4">
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-[#200c00] text-zinc-300 border border-[rgba(255, 60, 60,0.18)]">
+ <span className="px-3 py-1 text-xs font-medium bg-[#0d0d0d] text-zinc-300 border border-[rgba(255,255,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -238,24 +238,24 @@ export default function SexualAssaultPage() {
  className="mb-12"
  >
  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <Users className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.accuserStats.totalAccusers}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <Users className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.accuserStats.totalAccusers}</p>
  <p className="text-xs text-zinc-400">Accusers</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <Scale className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.accuserStats.carrollVerdict1}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <Scale className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.accuserStats.carrollVerdict1}</p>
  <p className="text-xs text-zinc-400">Carroll Verdict 1</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <Scale className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.accuserStats.carrollVerdict2}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <Scale className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.accuserStats.carrollVerdict2}</p>
  <p className="text-xs text-zinc-400">Carroll Verdict 2</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-800">
- <Calendar className="w-6 h-6 text-blood-700 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-700">{investigationData.accuserStats.accessHollywoodYear}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-800">
+ <Calendar className="w-6 h-6 text-zinc-600 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-600">{investigationData.accuserStats.accessHollywoodYear}</p>
  <p className="text-xs text-zinc-400">Access Hollywood</p>
  </div>
  <div className="glass-card p-4 text-center border-l-4 border-zinc-500">
@@ -274,7 +274,7 @@ export default function SexualAssaultPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <FileText className="w-5 h-5 text-blood-500"/>
+ <FileText className="w-5 h-5 text-zinc-300"/>
  Executive Summary
  </h2>
  <p className="text-zinc-300 leading-relaxed">{investigationData.summary}</p>
@@ -285,31 +285,31 @@ export default function SexualAssaultPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.15 }}
- className="glass-card p-6 mb-8 border-l-4 border-blood-600"
+ className="glass-card p-6 mb-8 border-l-4 border-zinc-700"
  >
  <h2 className="text-xl font-bold mb-4">E. Jean Carroll: Verdict Established Liability</h2>
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-zinc-300"/>The Cover-Up</h2>
+ <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900 border border-zinc-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
  
  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
- <div className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase">Trial 1 - May 2023</p>
- <p className="text-2xl font-black text-blood-500">{investigationData.carrollCase.trial1.award}</p>
+ <p className="text-2xl font-black text-zinc-300">{investigationData.carrollCase.trial1.award}</p>
  <p className="text-sm text-zinc-400">{investigationData.carrollCase.trial1.findings}</p>
  </div>
- <div className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase">Trial 2 - January 2024</p>
- <p className="text-2xl font-black text-blood-500">{investigationData.carrollCase.trial2.award}</p>
+ <p className="text-2xl font-black text-zinc-300">{investigationData.carrollCase.trial2.award}</p>
  <p className="text-sm text-zinc-400">{investigationData.carrollCase.trial2.findings}</p>
  </div>
  </div>
 
- <div className="p-4 bg-blood-900 border border-blood-800">
- <p className="text-xs text-blood-400 uppercase mb-1">Total Verdict</p>
- <p className="text-3xl font-black text-blood-500">{investigationData.carrollCase.totalAward}</p>
+ <div className="p-4 bg-zinc-800 border border-zinc-800">
+ <p className="text-xs text-zinc-400 uppercase mb-1">Total Verdict</p>
+ <p className="text-3xl font-black text-zinc-300">{investigationData.carrollCase.totalAward}</p>
  <p className="text-sm text-zinc-400 mt-2">{investigationData.carrollCase.juryNote}</p>
  </div>
  </motion.section>
@@ -326,7 +326,7 @@ export default function SexualAssaultPage() {
  
  <div className="space-y-3">
  {investigationData.accessHollywood.quotes.map((quote, index) => (
- <blockquote key={index} className="text-zinc-300 italic border-l-2 border-blood-600 pl-4">
+ <blockquote key={index} className="text-zinc-300 italic border-l-2 border-zinc-700 pl-4">
  {quote}
  </blockquote>
  ))}
@@ -342,14 +342,14 @@ export default function SexualAssaultPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Users className="w-5 h-5 text-blood-500"/>
+ <Users className="w-5 h-5 text-zinc-300"/>
  Public Accusers ({investigationData.publicAccusers.length}+)
  </h2>
  <div className="space-y-3">
  {(showAllAccusers ? investigationData.publicAccusers : investigationData.publicAccusers.slice(0, 6)).map((accuser, index) => (
- <div key={index} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div key={index} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <div className="flex justify-between items-start">
- <span className="font-medium text-blood-400">{accuser.name}</span>
+ <span className="font-medium text-zinc-400">{accuser.name}</span>
  <span className="text-xs text-zinc-500">{accuser.outcome}</span>
  </div>
  <p className="text-sm text-zinc-400 mt-1">{accuser.allegation}</p>
@@ -359,7 +359,7 @@ export default function SexualAssaultPage() {
  {investigationData.publicAccusers.length > 6 && (
  <button
  onClick={() => setShowAllAccusers(!showAllAccusers)}
- className="mt-4 text-blood-400 text-sm hover:text-blood-300 transition-colors"
+ className="mt-4 text-zinc-400 text-sm hover:text-white transition-colors"
  >
  {showAllAccusers ? 'Show fewer' : `Show all ${investigationData.publicAccusers.length} accusers`}
  </button>
@@ -379,13 +379,13 @@ export default function SexualAssaultPage() {
  <ul className="space-y-2 mb-4">
  {investigationData.pageantMisconduct.allegations.map((allegation, i) => (
  <li key={i} className="flex items-start gap-2 text-sm text-zinc-300">
- <span className="text-blood-500">•</span>
+ <span className="text-zinc-300">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
  {allegation}
  </li>
  ))}
  </ul>
 
- <blockquote className="text-zinc-400 italic border-l-2 border-[rgba(255, 60, 60,0.18)] pl-4 text-sm">
+ <blockquote className="text-zinc-400 italic border-l-2 border-[rgba(255,255,255,0.18)] pl-4 text-sm">
  {investigationData.pageantMisconduct.howardSternQuote}
  <footer className="text-zinc-500 mt-2">| Donald Trump, Howard Stern Show</footer>
  </blockquote>
@@ -403,7 +403,7 @@ export default function SexualAssaultPage() {
  <ul className="space-y-2">
  {investigationData.defamationPattern.map((pattern, i) => (
  <li key={i} className="flex items-start gap-2 text-sm text-zinc-300">
- <span className="text-blood-500">•</span>
+ <span className="text-zinc-300">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
  {pattern}
  </li>
  ))}
@@ -418,14 +418,14 @@ export default function SexualAssaultPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Scale className="w-5 h-5 text-blood-500"/>
+ <Scale className="w-5 h-5 text-zinc-300"/>
  Legal Status
  </h2>
  <div className="space-y-3">
  {investigationData.legalStatus.map((item, index) => (
- <div key={index} className="flex items-center justify-between p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div key={index} className="flex items-center justify-between p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <div>
- <span className="font-medium text-blood-400">{item.case}</span>
+ <span className="font-medium text-zinc-400">{item.case}</span>
  <p className="text-sm text-zinc-500">{item.outcome}</p>
  </div>
  <span className="text-sm text-zinc-400">{item.status}</span>
@@ -442,14 +442,14 @@ export default function SexualAssaultPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Calendar className="w-5 h-5 text-blood-500"/>
+ <Calendar className="w-5 h-5 text-zinc-300"/>
  Timeline
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
- <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
- <p className="text-xs text-blood-500 font-mono">{item.date}</p>
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(255,255,255,0.15)]">
+ <div className="absolute -left-[5px] top-0 w-2 h-2 bg-zinc-600"/>
+ <p className="text-xs text-zinc-300 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
  </div>
  ))}
@@ -458,13 +458,13 @@ export default function SexualAssaultPage() {
 
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-zinc-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Applicable Charges &amp; Statutes</h2>
+ <div className="space-y-3">{investigationData.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold text-zinc-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-zinc-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -481,7 +481,7 @@ export default function SexualAssaultPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] transition-colors"
+ className="flex items-center justify-between p-3 bg-[#0a0a0a] hover:bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

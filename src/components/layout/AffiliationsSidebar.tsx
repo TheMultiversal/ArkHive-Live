@@ -27,11 +27,11 @@ const typeIcons = {
 };
 
 const typeColors = {
- agency:"text-blood-500 bg-blood-950 border-blood-800",
- corporation:"text-blood-400 bg-blood-950 border-blood-800",
- individual:"text-blood-500 bg-blood-950 border-blood-800",
- organization:"text-blood-600 bg-blood-950 border-blood-800",
- other:"text-blood-500 bg-blood-950 border-blood-800",
+ agency:"text-zinc-300 bg-zinc-900 border-zinc-800",
+ corporation:"text-zinc-400 bg-zinc-900 border-zinc-800",
+ individual:"text-zinc-300 bg-zinc-900 border-zinc-800",
+ organization:"text-zinc-500 bg-zinc-900 border-zinc-800",
+ other:"text-zinc-300 bg-zinc-900 border-zinc-800",
 };
 
 export default function AffiliationsSidebar({
@@ -59,14 +59,14 @@ export default function AffiliationsSidebar({
  {/* Overlay */}
  {isOpen && (
  <div
- className="fixed inset-0 bg-[#190800] z-40 lg:hidden"
+ className="fixed inset-0 bg-[#080808] z-40 lg:hidden"
  onClick={onClose}
  />
  )}
 
  {/* Sidebar */}
  <aside
- className={`fixed top-0 right-0 h-full w-[calc(100vw-3rem)] max-w-80 lg:max-w-96 lg:w-96 glass border-l border-[rgba(255, 60, 60,0.08)] z-50 transform transition-transform duration-300 ease-out overflow-y-auto ${
+ className={`fixed top-0 right-0 h-full w-[calc(100vw-3rem)] max-w-80 lg:max-w-96 lg:w-96 glass border-l border-[rgba(255,255,255,0.08)] z-50 transform transition-transform duration-300 ease-out overflow-y-auto ${
  isOpen ?"translate-x-0":"translate-x-full"
  } lg:relative lg:top-auto lg:right-auto lg:h-auto lg:transform-none lg:z-auto`}
  >
@@ -74,12 +74,12 @@ export default function AffiliationsSidebar({
  {/* Header */}
  <div className="flex items-center justify-between mb-6">
  <h3 className="text-lg font-bold glass-text flex items-center gap-2">
- <ExternalLink className="w-5 h-5 text-blood-500"/>
+ <ExternalLink className="w-5 h-5 text-zinc-300"/>
  {title}
  </h3>
  <button
  onClick={onClose}
- className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-[#1c0a00] transition-colors"
+ className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-[#0a0a0a] transition-colors"
  >
  <X className="w-5 h-5"/>
  </button>
@@ -88,7 +88,7 @@ export default function AffiliationsSidebar({
  {/* Connection Stats */}
  <div className="grid grid-cols-2 gap-3 mb-6">
  <div className="glass-card p-3 text-center">
- <span className="block text-2xl font-bold text-blood-500">{affiliations.length}</span>
+ <span className="block text-2xl font-bold text-zinc-300">{affiliations.length}</span>
  <span className="text-xs text-zinc-500">Total Connections</span>
  </div>
  <div className="glass-card p-3 text-center">

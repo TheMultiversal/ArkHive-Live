@@ -124,7 +124,7 @@ export default function FAQPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  >
- <HelpCircle className="w-16 h-16 text-blood-500 mx-auto mb-4"/>
+ <HelpCircle className="w-16 h-16 text-zinc-300 mx-auto mb-4"/>
  <h1 className="text-2xl sm:text-4xl font-bold glass-text mb-4">
  Frequently Asked Questions
  </h1>
@@ -144,7 +144,7 @@ export default function FAQPage() {
  onChange={(e) => setSearchQuery(e.target.value)}
  placeholder="Search questions..."
  aria-label="Search frequently asked questions"
- className="w-full pl-12 pr-4 py-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500"
+ className="w-full pl-12 pr-4 py-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600"
  />
  </div>
  </div>
@@ -158,8 +158,8 @@ export default function FAQPage() {
  className={cn(
  'px-4 py-2 text-sm font-medium transition-colors',
  !activeCategory
- ? 'bg-blood-600 text-white'
- : 'bg-[#1c0a00] text-zinc-400 hover:text-white'
+ ? 'bg-zinc-700 text-white'
+ : 'bg-[#0a0a0a] text-zinc-400 hover:text-white'
  )}
  >
  All Categories
@@ -171,8 +171,8 @@ export default function FAQPage() {
  className={cn(
  'px-4 py-2 text-sm font-medium transition-colors',
  activeCategory === category.id
- ? 'bg-blood-600 text-white'
- : 'bg-[#1c0a00] text-zinc-400 hover:text-white'
+ ? 'bg-zinc-700 text-white'
+ : 'bg-[#0a0a0a] text-zinc-400 hover:text-white'
  )}
  >
  {category.name}
@@ -192,7 +192,7 @@ export default function FAQPage() {
  animate={{ opacity: 1, y: 0 }}
  >
  <h2 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
- <ChevronRight className="w-5 h-5 text-blood-500"/>
+ <ChevronRight className="w-5 h-5 text-zinc-300"/>
  {category.name}
  </h2>
  <div className="space-y-2">
@@ -203,7 +203,7 @@ export default function FAQPage() {
  return (
  <div
  key={questionId}
- className="bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"
+ className="bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"
  >
  <button
  onClick={() =>
@@ -256,7 +256,7 @@ export default function FAQPage() {
 
  {/* Contact CTA */}
  <motion.div
- className="mt-16 text-center bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] p-8"
+ className="mt-16 text-center bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] p-8"
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  transition={{ delay: 0.3 }}
@@ -269,7 +269,7 @@ export default function FAQPage() {
  </p>
  <Link
  href="/contact"
- className="inline-flex items-center gap-2 px-6 py-3 bg-blood-600 text-white font-medium hover:bg-blood-700 transition-colors"
+ className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-700 text-white font-medium hover:bg-zinc-700 transition-colors"
  >
  Contact Us
  <ExternalLink className="w-4 h-4"/>

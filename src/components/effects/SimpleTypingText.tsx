@@ -14,7 +14,7 @@ export default function SimpleTypingText({
  return (
  <div className={`relative ${className}`}>
  <span 
- className="bg-gradient-to-b from-blood-600 via-blood-700 to-blood-800 bg-clip-text text-transparent animate-fade-in"
+ className="bg-gradient-to-b from-zinc-700 via-zinc-700 to-zinc-800 bg-clip-text text-transparent animate-fade-in"
  style={{
  filter: 'drop-shadow(0 0 30px rgba(143, 0, 0, 0.5))',
  }}

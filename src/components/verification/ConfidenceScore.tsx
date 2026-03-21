@@ -442,7 +442,7 @@ export default function ConfidenceScoreDisplay({
       <div className="p-4 border-b border-zinc-800">
         <div className="flex items-center justify-between">
           <h3 className="flex items-center gap-2 text-lg font-semibold text-white">
-            <Target className="w-5 h-5 text-blood-500" />
+            <Target className="w-5 h-5 text-zinc-300" />
             Confidence Score
           </h3>
           {showDetails && (
@@ -493,7 +493,7 @@ export default function ConfidenceScoreDisplay({
               {score.lastUpdated.toLocaleTimeString()}
             </span>
             <button
-              className="flex items-center gap-1 text-blood-400 hover:text-blood-300 transition-colors"
+              className="flex items-center gap-1 text-zinc-400 hover:text-white transition-colors"
               onClick={() => {}}
             >
               <BarChart3 className="w-3 h-3" />
@@ -611,7 +611,7 @@ export function ConfidenceCalculator({
     <div className={`glass-card ${className}`}>
       <div className="p-4 border-b border-zinc-800">
         <h3 className="flex items-center gap-2 text-lg font-semibold text-white">
-          <Calculator className="w-5 h-5 text-blood-500" />
+          <Calculator className="w-5 h-5 text-zinc-300" />
           Confidence Calculator
         </h3>
       </div>
@@ -625,7 +625,7 @@ export function ConfidenceCalculator({
             </p>
             <button
               onClick={addDefaultFactors}
-              className="px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors"
+              className="px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors"
             >
               Use Default Factors
             </button>
@@ -693,7 +693,7 @@ export function ConfidenceCalculator({
 
               <button
                 onClick={handleCalculate}
-                className="px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors"
+                className="px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors"
               >
                 Calculate Score
               </button>

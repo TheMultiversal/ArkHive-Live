@@ -11,8 +11,8 @@ export default function GeographyPage() {
         {/* Header */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-blood-500/20 border border-blood-500/50 flex items-center justify-center">
-              <Globe className="w-6 h-6 text-blood-500" />
+            <div className="w-12 h-12 bg-zinc-500/20 border border-zinc-600/50 flex items-center justify-center">
+              <Globe className="w-6 h-6 text-zinc-300" />
             </div>
             <div>
               <h1 className="text-3xl font-black text-white tracking-tighter">

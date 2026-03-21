@@ -253,22 +253,22 @@ function renderMarkdown(markdown: string): string {
  html = html.replace(/~~(.*?)~~/gim, '<del class="text-zinc-500">$1</del>');
 
  // Inline code
- html = html.replace(/`(.*?)`/gim, '<code class="px-1 py-0.5 bg-[#200c00] text-blood-400 font-mono text-sm">$1</code>');
+ html = html.replace(/`(.*?)`/gim, '<code class="px-1 py-0.5 bg-[#0d0d0d] text-zinc-400 font-mono text-sm">$1</code>');
 
  // Code blocks
- html = html.replace(/```([\s\S]*?)```/gim, '<pre class="p-4 bg-[#200c00] overflow-x-auto my-2"><code class="text-sm font-mono text-zinc-300">$1</code></pre>');
+ html = html.replace(/```([\s\S]*?)```/gim, '<pre class="p-4 bg-[#0d0d0d] overflow-x-auto my-2"><code class="text-sm font-mono text-zinc-300">$1</code></pre>');
 
  // Links
- html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/gim, '<a href="$2"class="text-blood-500 hover:underline"target="_blank">$1</a>');
+ html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/gim, '<a href="$2"class="text-zinc-300 hover:underline"target="_blank">$1</a>');
 
  // Images
  html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/gim, '<img src="$2"alt="$1"class="max-w-full my-2"/>');
 
  // Blockquotes
- html = html.replace(/^> (.*$)/gim, '<blockquote class="border-l-4 border-blood-500 pl-4 py-1 my-2 text-zinc-400">$1</blockquote>');
+ html = html.replace(/^> (.*$)/gim, '<blockquote class="border-l-4 border-zinc-600 pl-4 py-1 my-2 text-zinc-400">$1</blockquote>');
 
  // Horizontal rules
- html = html.replace(/^---$/gim, '<hr class="border-[rgba(255, 60, 60,0.18)] my-4"/>');
+ html = html.replace(/^---$/gim, '<hr class="border-[rgba(255,255,255,0.18)] my-4"/>');
 
  // Unordered lists
  html = html.replace(/^\- (.*$)/gim, '<li class="ml-4 list-disc text-zinc-300">$1</li>');
@@ -277,7 +277,7 @@ function renderMarkdown(markdown: string): string {
  html = html.replace(/^\d+\. (.*$)/gim, '<li class="ml-4 list-decimal text-zinc-300">$1</li>');
 
  // Checklists
- html = html.replace(/^\- \[x\] (.*$)/gim, '<li class="ml-4 flex items-center gap-2"><input type="checkbox"checked disabled class="accent-blood-500"/><span class="text-zinc-300 line-through">$1</span></li>');
+ html = html.replace(/^\- \[x\] (.*$)/gim, '<li class="ml-4 flex items-center gap-2"><input type="checkbox"checked disabled class="accent-zinc-500"/><span class="text-zinc-300 line-through">$1</span></li>');
  html = html.replace(/^\- \[ \] (.*$)/gim, '<li class="ml-4 flex items-center gap-2"><input type="checkbox"disabled /><span class="text-zinc-300">$1</span></li>');
 
  // Line breaks
@@ -377,13 +377,13 @@ export default function MarkdownEditor({
  }, [value, selection, handleToolbarAction]);
 
  const containerStyle = isFullscreen
- ? 'fixed inset-0 z-50 bg-[#1c0a00]'
+ ? 'fixed inset-0 z-50 bg-[#0a0a0a]'
  : '';
 
  return (
  <div
  className={cn(
- 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] flex flex-col',
+ 'bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] flex flex-col',
  containerStyle,
  className
  )}
@@ -392,7 +392,7 @@ export default function MarkdownEditor({
  >
  {/* Toolbar */}
  {showToolbar && !readOnly && (
- <div className="flex items-center flex-wrap gap-1 p-2 border-b border-[rgba(255, 80, 80,0.15)] bg-[#200c00]">
+ <div className="flex items-center flex-wrap gap-1 p-2 border-b border-[rgba(255,255,255,0.15)] bg-[#0d0d0d]">
  {/* Formatting buttons */}
  {toolbarButtons.map((button, index) => (
  <button
@@ -409,7 +409,7 @@ export default function MarkdownEditor({
 
  {/* View mode toggle */}
  {showPreview && (
- <div className="flex items-center border border-[rgba(255, 60, 60,0.18)]">
+ <div className="flex items-center border border-[rgba(255,255,255,0.18)]">
  <button
  onClick={() => setViewMode('edit')}
  className={cn(
@@ -516,9 +516,9 @@ export default function MarkdownEditor({
  </div>
 
  {/* Status bar */}
- <div className="flex items-center justify-between px-4 py-2 border-t border-[rgba(255, 80, 80,0.15)] text-xs text-zinc-500">
+ <div className="flex items-center justify-between px-4 py-2 border-t border-[rgba(255,255,255,0.15)] text-xs text-zinc-500">
  <span>
- {value.length} characters • {value.split(/\s+/).filter(Boolean).length} words
+ {value.length} characters ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ {value.split(/\s+/).filter(Boolean).length} words
  </span>
  <span>Markdown</span>
  </div>

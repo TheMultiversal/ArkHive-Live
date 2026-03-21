@@ -132,13 +132,13 @@ const activityColors: Record<ActivityType, string> = {
   member_joined: "text-emerald-400 bg-emerald-500/10",
   member_left: "text-zinc-400 bg-zinc-500/10",
   member_role_changed: "text-amber-400 bg-amber-500/10",
-  workspace_created: "text-blood-400 bg-blood-500/10",
+  workspace_created: "text-zinc-400 bg-zinc-500/10",
   workspace_updated: "text-zinc-400 bg-zinc-500/10",
   investigation_linked: "text-blue-400 bg-blue-500/10",
   source_verified: "text-emerald-400 bg-emerald-500/10",
   source_rejected: "text-red-400 bg-red-500/10",
   export_completed: "text-emerald-400 bg-emerald-500/10",
-  mention: "text-blood-400 bg-blood-500/10",
+  mention: "text-zinc-400 bg-zinc-500/10",
 };
 
 const categoryLabels: Record<ActivityCategory, string> = {
@@ -224,13 +224,13 @@ function ActivityItemRow({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -10 }}
       className={`group relative flex items-start gap-3 p-3 hover:bg-zinc-900/50 transition-colors cursor-pointer ${
-        !activity.read ? "bg-blood-900/5" : ""
+        !activity.read ? "bg-zinc-800/5" : ""
       }`}
       onClick={onClick}
     >
       {/* Unread indicator */}
       {!activity.read && (
-        <span className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-8 bg-blood-500" />
+        <span className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-8 bg-zinc-600" />
       )}
 
       {/* Icon */}
@@ -391,7 +391,7 @@ function ActivityFilters({
             onChange={(e) =>
               onFilterChange({ ...filter, searchQuery: e.target.value })
             }
-            className="w-full pl-10 pr-4 py-2 bg-zinc-900 border border-zinc-800 text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-blood-500 transition-colors"
+            className="w-full pl-10 pr-4 py-2 bg-zinc-900 border border-zinc-800 text-white text-sm placeholder-zinc-500 focus:outline-none focus:border-zinc-600 transition-colors"
           />
         </div>
 
@@ -400,7 +400,7 @@ function ActivityFilters({
           onClick={() => setShowFilters(!showFilters)}
           className={`flex items-center gap-2 px-3 py-2 border transition-colors ${
             activeFilterCount > 0
-              ? "bg-blood-600/20 border-blood-500/50 text-blood-400"
+              ? "bg-zinc-700/20 border-zinc-600/50 text-zinc-400"
               : "bg-zinc-900 border-zinc-800 text-zinc-400 hover:text-white"
           }`}
         >
@@ -433,7 +433,7 @@ function ActivityFilters({
                       onClick={() => toggleCategory(category)}
                       className={`px-2 py-1 text-sm border transition-colors ${
                         filter.categories.has(category)
-                          ? "bg-blood-600/20 border-blood-500/50 text-blood-400"
+                          ? "bg-zinc-700/20 border-zinc-600/50 text-zinc-400"
                           : "bg-zinc-900 border-zinc-700 text-zinc-400 hover:text-white"
                       }`}
                     >
@@ -562,10 +562,10 @@ export default function ActivityFeed({
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-zinc-800">
         <h3 className="flex items-center gap-2 font-semibold text-white">
-          <Activity className="w-5 h-5 text-blood-500" />
+          <Activity className="w-5 h-5 text-zinc-300" />
           Activity
           {unreadCount > 0 && (
-            <span className="px-2 py-0.5 text-xs bg-blood-600 text-white">
+            <span className="px-2 py-0.5 text-xs bg-zinc-700 text-white">
               {unreadCount}
             </span>
           )}
@@ -573,7 +573,7 @@ export default function ActivityFeed({
         {onMarkAllRead && unreadCount > 0 && (
           <button
             onClick={onMarkAllRead}
-            className="text-sm text-blood-400 hover:text-blood-300 transition-colors"
+            className="text-sm text-zinc-400 hover:text-white transition-colors"
           >
             Mark all read
           </button>
@@ -657,11 +657,11 @@ export function ActivityWidget({
     <div className={`glass-card ${className}`}>
       <div className="flex items-center justify-between p-3 border-b border-zinc-800">
         <h4 className="flex items-center gap-2 text-sm font-medium text-white">
-          <Activity className="w-4 h-4 text-blood-500" />
+          <Activity className="w-4 h-4 text-zinc-300" />
           Recent Activity
         </h4>
         {unreadCount > 0 && (
-          <span className="px-1.5 py-0.5 text-xs bg-blood-600 text-white">
+          <span className="px-1.5 py-0.5 text-xs bg-zinc-700 text-white">
             {unreadCount}
           </span>
         )}
@@ -686,7 +686,7 @@ export function ActivityWidget({
       {onViewAll && activities.length > maxItems && (
         <button
           onClick={onViewAll}
-          className="w-full flex items-center justify-center gap-2 p-3 text-sm text-blood-400 hover:text-blood-300 hover:bg-zinc-900/50 transition-colors border-t border-zinc-800"
+          className="w-full flex items-center justify-center gap-2 p-3 text-sm text-zinc-400 hover:text-white hover:bg-zinc-900/50 transition-colors border-t border-zinc-800"
         >
           View all activity
           <ArrowUpRight className="w-4 h-4" />
@@ -737,7 +737,7 @@ export function NotificationBell({
       >
         <Bell className="w-5 h-5" />
         {unreadCount > 0 && (
-          <span className="absolute top-0 right-0 w-5 h-5 flex items-center justify-center text-xs bg-blood-600 text-white">
+          <span className="absolute top-0 right-0 w-5 h-5 flex items-center justify-center text-xs bg-zinc-700 text-white">
             {unreadCount > 99 ? "99+" : unreadCount}
           </span>
         )}
@@ -761,7 +761,7 @@ export function NotificationBell({
                     onMarkAllRead();
                     setIsOpen(false);
                   }}
-                  className="text-xs text-blood-400 hover:text-blood-300 transition-colors"
+                  className="text-xs text-zinc-400 hover:text-white transition-colors"
                 >
                   Mark all read
                 </button>

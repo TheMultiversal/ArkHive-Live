@@ -1,37 +1,71 @@
-import { Landmark } from 'lucide-react';
+'use client';
 
-export default function Loading() {
+import { useRouter } from 'next/navigation';
+import BloodSumerianRain from '@/components/effects/BloodSumerianRain';
+import { motion } from 'framer-motion';
+
+export default function EnterPage() {
+ const router = useRouter();
+
  return (
- <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
- <div className="text-center">
- {/* Animated Icon */}
- <div className="w-20 h-20 mx-auto mb-6 border-2 border-blood-700 bg-blood-950 flex items-center justify-center animate-pulse">
- <Landmark className="w-10 h-10 text-blood-600"/>
- </div>
+ <div className="min-h-screen flex flex-col items-center justify-center bg-black text-zinc-200 relative overflow-hidden">
+ <BloodSumerianRain />
 
- {/* Loading Text */}
- <div className="space-y-2">
- <p className="text-lg font-bold glass-text uppercase tracking-wider">
- ACCESSING AGENCY DOSSIER
- </p>
- <p className="text-sm text-zinc-500">
- Retrieving classified profile...
- </p>
- </div>
+ <motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1.2, ease: 'easeOut' }}
+  className="z-10 flex flex-col items-center text-center px-6"
+ >
+  <motion.h1
+   initial={{ opacity: 0, letterSpacing: '0.5em' }}
+   animate={{ opacity: 1, letterSpacing: '0.3em' }}
+   transition={{ duration: 2, ease: 'easeOut' }}
+   className="text-5xl sm:text-7xl font-black text-zinc-300 tracking-[0.3em] mb-4"
+  >
+   ARKHIVE
+  </motion.h1>
 
- {/* Progress Bar */}
- <div className="mt-8 w-64 mx-auto">
- <div className="h-1 bg-[#1c0a00] overflow-hidden">
- <div className="h-full w-1/2 bg-gradient-to-r from-blood-900 via-blood-600 to-blood-900 animate-shimmer"
- style={{ backgroundSize: '200% 100%' }} />
- </div>
- </div>
+  <motion.div
+   initial={{ scaleX: 0 }}
+   animate={{ scaleX: 1 }}
+   transition={{ duration: 1.5, delay: 0.5, ease: 'easeOut' }}
+   className="w-48 h-px bg-zinc-700 mb-6"
+  />
 
- {/* Warning */}
- <p className="mt-6 text-xs text-zinc-700 uppercase tracking-widest">
- Your connection is being monitored
- </p>
- </div>
+  <motion.p
+   initial={{ opacity: 0 }}
+   animate={{ opacity: 1 }}
+   transition={{ duration: 1, delay: 1 }}
+   className="text-sm sm:text-base text-zinc-400 max-w-md mb-10 leading-relaxed"
+  >
+   Investigative documentation platform. Political corruption, financial crimes,
+   and institutional accountability; through court records, primary sources,
+   and verified evidence.
+  </motion.p>
+
+  <motion.button
+   initial={{ opacity: 0, scale: 0.9 }}
+   animate={{ opacity: 1, scale: 1 }}
+   transition={{ duration: 0.6, delay: 1.5 }}
+   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(180, 180, 180,0.4)' }}
+   whileTap={{ scale: 0.97 }}
+   onClick={() => router.push('/')}
+   className="px-10 py-3 border border-[rgba(255,255,255,0.30)] bg-gradient-to-br from-[#111111] to-[#160600] text-zinc-400 font-semibold tracking-widest uppercase text-sm hover:from-[rgba(0,20,52,0.82)] hover:to-[rgba(0,10,30,0.92)] hover:text-white hover:border-[rgba(255,255,255,0.50)] transition-all duration-300 gloss-hover"
+   style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.15)'}}  >
+   Enter the Archive
+  </motion.button>
+
+  <motion.p
+   initial={{ opacity: 0 }}
+   animate={{ opacity: 0.3 }}
+   transition={{ duration: 1, delay: 2.5 }}
+   className="mt-8 text-xs text-zinc-600"
+  >
+   The truth does not require your belief.
+  </motion.p>
+ </motion.div>
  </div>
  );
 }
+

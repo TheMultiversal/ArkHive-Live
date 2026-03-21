@@ -31,7 +31,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
  className="block text-sm font-bold glass-text uppercase tracking-wider"
  >
  {label}
- {props.required && <span className="text-blood-600 ml-1">*</span>}
+ {props.required && <span className="text-zinc-500 ml-1">*</span>}
  </label>
  )}
  <select
@@ -41,8 +41,8 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
  'w-full px-4 py-3 bg-black border-2 text-white',
  'focus:outline-none transition-colors',
  error
- ? 'border-blood-600 focus:border-blood-500'
- : 'border-[rgba(255, 80, 80,0.15)] focus:border-blood-700',
+ ? 'border-zinc-700 focus:border-zinc-600'
+ : 'border-[rgba(255,255,255,0.15)] focus:border-zinc-700',
  className
  )}
  aria-invalid={error ? 'true' : undefined}
@@ -68,7 +68,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
  </p>
  )}
  {error && (
- <p id={`${selectId}-error`} className="text-xs text-blood-500"role="alert">
+ <p id={`${selectId}-error`} className="text-xs text-zinc-300"role="alert">
  {error}
  </p>
  )}

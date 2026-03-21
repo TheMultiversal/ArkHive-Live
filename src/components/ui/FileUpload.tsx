@@ -196,8 +196,8 @@ export default function FileUpload({
  className={cn(
  'relative border-2 border-dashed p-8 text-center cursor-pointer transition-colors',
  isDragging
- ? 'border-blood-500 bg-blood-950'
- : 'border-[rgba(255, 60, 60,0.18)] hover:border-zinc-600',
+ ? 'border-zinc-600 bg-zinc-900'
+ : 'border-[rgba(255,255,255,0.18)] hover:border-zinc-600',
  disabled && 'opacity-50 cursor-not-allowed'
  )}
  >
@@ -217,7 +217,7 @@ export default function FileUpload({
  >
  <div className={cn(
  'w-16 h-16 flex items-center justify-center',
- isDragging ? 'text-blood-500' : 'text-zinc-500'
+ isDragging ? 'text-zinc-300' : 'text-zinc-500'
  )}>
  <Upload className="w-10 h-10"/>
  </div>
@@ -227,7 +227,7 @@ export default function FileUpload({
  </p>
  <p className="text-sm text-zinc-500 mt-1">
  {accept ? `Accepted: ${accept}` : 'All file types accepted'}
- {maxSize && ` • Max ${formatFileSize(maxSize)}`}
+ {maxSize && ` ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ Max ${formatFileSize(maxSize)}`}
  </p>
  </div>
  </motion.div>
@@ -251,12 +251,12 @@ export default function FileUpload({
  className={cn(
  'flex items-center gap-4 p-3 border',
  uploadFile.status === 'error'
- ? 'border-blood-800 bg-blood-900'
- : 'border-[rgba(255, 80, 80,0.15)] bg-[#1c0a00]'
+ ? 'border-zinc-800 bg-zinc-800'
+ : 'border-[rgba(255,255,255,0.15)] bg-[#0a0a0a]'
  )}
  >
  {/* Preview or icon */}
- <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-[#200c00] relative overflow-hidden">
+ <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-[#0d0d0d] relative overflow-hidden">
  {uploadFile.preview ? (
  <Image
  src={uploadFile.preview}
@@ -285,7 +285,7 @@ export default function FileUpload({
  {uploadFile.status === 'uploading' && (
  <div className="mt-2 h-1 bg-zinc-700 overflow-hidden">
  <motion.div
- className="h-full bg-blood-500"
+ className="h-full bg-zinc-600"
  initial={{ width: 0 }}
  animate={{ width: `${uploadFile.progress}%` }}
  />
@@ -294,20 +294,20 @@ export default function FileUpload({
  
  {/* Error message */}
  {uploadFile.error && (
- <p className="text-xs text-blood-400 mt-1">{uploadFile.error}</p>
+ <p className="text-xs text-zinc-400 mt-1">{uploadFile.error}</p>
  )}
  </div>
 
  {/* Status icon */}
  <div className="flex-shrink-0">
  {uploadFile.status === 'complete' && (
- <CheckCircle className="w-5 h-5 text-blood-500"/>
+ <CheckCircle className="w-5 h-5 text-zinc-300"/>
  )}
  {uploadFile.status === 'error' && (
- <AlertCircle className="w-5 h-5 text-blood-500"/>
+ <AlertCircle className="w-5 h-5 text-zinc-300"/>
  )}
  {uploadFile.status === 'uploading' && (
- <div className="w-5 h-5 border-2 border-blood-500 border-t-transparent animate-spin"/>
+ <div className="w-5 h-5 border-2 border-zinc-600 border-t-transparent animate-spin"/>
  )}
  </div>
 
@@ -363,7 +363,7 @@ export function SimpleFileInput({
  <div
  onClick={() => inputRef.current?.click()}
  className={cn(
- 'relative border-2 border-dashed border-[rgba(255, 60, 60,0.18)] hover:border-zinc-600 cursor-pointer transition-colors overflow-hidden',
+ 'relative border-2 border-dashed border-[rgba(255,255,255,0.18)] hover:border-zinc-600 cursor-pointer transition-colors overflow-hidden',
  className
  )}
  >

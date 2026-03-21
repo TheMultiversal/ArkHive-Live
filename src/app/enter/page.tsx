@@ -21,7 +21,7 @@ export default function EnterPage() {
    initial={{ opacity: 0, letterSpacing: '0.5em' }}
    animate={{ opacity: 1, letterSpacing: '0.3em' }}
    transition={{ duration: 2, ease: 'easeOut' }}
-   className="text-5xl sm:text-7xl font-black text-blood-500 tracking-[0.3em] mb-4"
+   className="text-5xl sm:text-7xl font-black text-zinc-300 tracking-[0.3em] mb-4"
   >
    ARKHIVE
   </motion.h1>
@@ -30,7 +30,7 @@ export default function EnterPage() {
    initial={{ scaleX: 0 }}
    animate={{ scaleX: 1 }}
    transition={{ duration: 1.5, delay: 0.5, ease: 'easeOut' }}
-   className="w-48 h-px bg-blood-600 mb-6"
+   className="w-48 h-px bg-zinc-700 mb-6"
   />
 
   <motion.p
@@ -48,10 +48,10 @@ export default function EnterPage() {
    initial={{ opacity: 0, scale: 0.9 }}
    animate={{ opacity: 1, scale: 1 }}
    transition={{ duration: 0.6, delay: 1.5 }}
-   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(220, 0, 0,0.4)' }}
+   whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(180, 180, 180,0.4)' }}
    whileTap={{ scale: 0.97 }}
    onClick={() => router.push('/')}
-   className="px-10 py-3 border border-[rgba(255, 80, 80,0.30)] bg-gradient-to-br from-[#280f00] to-[#160600] text-blood-400 font-semibold tracking-widest uppercase text-sm hover:from-[rgba(0,20,52,0.82)] hover:to-[rgba(0,10,30,0.92)] hover:text-blood-300 hover:border-[rgba(255, 120, 120,0.50)] transition-all duration-300 gloss-hover"
+   className="px-10 py-3 border border-[rgba(255,255,255,0.30)] bg-gradient-to-br from-[#111111] to-[#160600] text-zinc-400 font-semibold tracking-widest uppercase text-sm hover:from-[rgba(0,20,52,0.82)] hover:to-[rgba(0,10,30,0.92)] hover:text-white hover:border-[rgba(255,255,255,0.50)] transition-all duration-300 gloss-hover"
    style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.15)'}}  >
    Enter the Archive
   </motion.button>

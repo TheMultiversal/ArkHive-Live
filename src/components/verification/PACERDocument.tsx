@@ -140,7 +140,7 @@ export function PACERDocumentCard({ document, onVerify, className = "" }: PACERD
       {/* Header */}
       <div className="border-b border-zinc-800/50 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Scale className="w-4 h-4 text-blood-600" />
+          <Scale className="w-4 h-4 text-zinc-500" />
           <span className="text-xs font-bold text-white uppercase tracking-wider">Federal Court Record</span>
         </div>
         {document.verified && (
@@ -216,7 +216,7 @@ export function PACERDocumentCard({ document, onVerify, className = "" }: PACERD
               href={document.pacerUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 px-3 py-1.5 bg-blood-950 border border-blood-800 text-blood-400 hover:bg-blood-900 text-[10px] font-bold uppercase tracking-wider transition-colors"
+              className="inline-flex items-center gap-1 px-3 py-1.5 bg-zinc-900 border border-zinc-800 text-zinc-400 hover:bg-zinc-800 text-[10px] font-bold uppercase tracking-wider transition-colors"
             >
               <ExternalLink className="w-3 h-3" />
               PACER
@@ -265,7 +265,7 @@ export function PACERCitation({ caseNumber, caseName, court, className = "" }: P
       className={`inline-flex items-center gap-1 px-1.5 py-0.5 bg-zinc-900 border border-zinc-700 text-[10px] font-mono ${className}`}
       title={caseName ? `${caseName}${court ? ` (${court})` : ""}` : undefined}
     >
-      <Gavel className="w-3 h-3 text-blood-600" />
+      <Gavel className="w-3 h-3 text-zinc-500" />
       <span className="text-zinc-300">{caseNumber}</span>
     </span>
   );
@@ -298,10 +298,10 @@ export function CourtDocumentsList({
   }
 
   return (
-    <div className={`bg-zinc-950 border border-blood-900/30 ${className}`}>
-      <div className="border-b border-blood-900/30 px-4 py-3 flex items-center justify-between">
+    <div className={`bg-zinc-950 border border-zinc-800/30 ${className}`}>
+      <div className="border-b border-zinc-800/30 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Scale className="w-4 h-4 text-blood-500" />
+          <Scale className="w-4 h-4 text-zinc-300" />
           <h3 className="text-sm font-bold text-white uppercase tracking-wider">{title}</h3>
         </div>
         <span className="text-xs text-zinc-500">{documents.length} documents</span>
@@ -324,7 +324,7 @@ export function CourtDocumentsList({
                 </div>
                 <h4 className="text-sm font-medium text-white truncate">{doc.title}</h4>
                 <p className="text-xs text-zinc-500 mt-1">
-                  {doc.caseNumber} • {doc.court} • {doc.filingDate}
+                  {doc.caseNumber} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {doc.court} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {doc.filingDate}
                 </p>
               </div>
               <div className="flex gap-1">
@@ -342,7 +342,7 @@ export function CourtDocumentsList({
                     href={doc.pacerUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-1.5 text-zinc-600 hover:text-blood-500 transition-colors"
+                    className="p-1.5 text-zinc-600 hover:text-white transition-colors"
                     title="View on PACER"
                   >
                     <ExternalLink className="w-4 h-4" />

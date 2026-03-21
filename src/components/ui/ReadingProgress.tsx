@@ -115,7 +115,7 @@ export default function ReadingProgress({
       {/* Percentage indicator (optional) */}
       {showPercentage && progress > 0 && (
         <div
-          className="absolute top-full mt-1 px-2 py-0.5 bg-black/90 border border-blood-900/50 text-[10px] text-blood-400 font-mono pointer-events-none"
+          className="absolute top-full mt-1 px-2 py-0.5 bg-black/90 border border-zinc-800/50 text-[10px] text-zinc-400 font-mono pointer-events-none"
           style={{
             left: `${Math.min(progress, 95)}%`,
             transform: "translateX(-50%)",

@@ -365,7 +365,7 @@ function StatusIcon({ status }: { status: CheckStatus }): ReactElement {
     case 'passed':
       return <CheckCircle2 className="w-5 h-5 text-green-500" />;
     case 'failed':
-      return <XCircle className="w-5 h-5 text-blood-500" />;
+      return <XCircle className="w-5 h-5 text-zinc-300" />;
     case 'warning':
       return <AlertCircle className="w-5 h-5 text-yellow-500" />;
     case 'running':
@@ -379,7 +379,7 @@ function StatusIcon({ status }: { status: CheckStatus }): ReactElement {
 
 function PriorityBadge({ priority }: { priority: CheckItem['priority'] }): ReactElement {
   const colors: Record<string, string> = {
-    critical: 'bg-blood-900/50 text-blood-300 border-blood-700',
+    critical: 'bg-zinc-800/50 text-zinc-300 border-zinc-700',
     high: 'bg-orange-900/50 text-orange-300 border-orange-700',
     medium: 'bg-yellow-900/50 text-yellow-300 border-yellow-700',
     low: 'bg-zinc-800 text-zinc-400 border-zinc-700',
@@ -438,7 +438,7 @@ function CheckItemRow({ item, onRun, onToggle }: CheckItemRowProps): ReactElemen
         {item.type === 'auto' && item.status === 'pending' && onRun && (
           <button
             onClick={onRun}
-            className="p-2 text-zinc-500 hover:text-blood-400 transition-colors"
+            className="p-2 text-zinc-500 hover:text-white transition-colors"
             aria-label="Run check"
           >
             <Play className="w-4 h-4" />
@@ -461,8 +461,8 @@ function CheckItemRow({ item, onRun, onToggle }: CheckItemRowProps): ReactElemen
               onClick={() => onToggle(false)}
               className={`px-3 py-1 text-xs border transition-colors ${
                 item.status === 'failed'
-                  ? 'bg-blood-900/50 border-blood-700 text-blood-300'
-                  : 'border-zinc-700 text-zinc-400 hover:border-blood-700 hover:text-blood-400'
+                  ? 'bg-zinc-800/50 border-zinc-700 text-zinc-300'
+                  : 'border-zinc-700 text-zinc-400 hover:border-zinc-700 hover:text-white'
               }`}
             >
               Fail
@@ -520,7 +520,7 @@ function CategorySection({
             <span className="text-sm text-green-400">{passedCount} passed</span>
           )}
           {failedCount > 0 && (
-            <span className="text-sm text-blood-400">{failedCount} failed</span>
+            <span className="text-sm text-zinc-400">{failedCount} failed</span>
           )}
           <span className="text-sm text-zinc-500">
             {passedCount}/{totalCount}
@@ -665,7 +665,7 @@ export function LaunchChecklist({
           </button>
           <button
             onClick={handleExport}
-            className="px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors"
+            className="px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors"
           >
             Export Report
           </button>
@@ -677,7 +677,7 @@ export function LaunchChecklist({
         <div className="flex items-center justify-between mb-2">
           <div className="flex items-center gap-4">
             <span className="text-green-400">{progress.passed} passed</span>
-            <span className="text-blood-400">{progress.failed} failed</span>
+            <span className="text-zinc-400">{progress.failed} failed</span>
             <span className="text-zinc-500">
               {progress.total - progress.completed} pending
             </span>
@@ -686,7 +686,7 @@ export function LaunchChecklist({
           {isReady ? (
             <span className="text-green-400 font-medium">Ready to Launch</span>
           ) : progress.critical > 0 ? (
-            <span className="text-blood-400 font-medium">
+            <span className="text-zinc-400 font-medium">
               {progress.critical} critical issues
             </span>
           ) : (
@@ -700,7 +700,7 @@ export function LaunchChecklist({
             style={{ width: `${(progress.passed / progress.total) * 100}%` }}
           />
           <div 
-            className="h-full bg-blood-600 transition-all duration-300"
+            className="h-full bg-zinc-700 transition-all duration-300"
             style={{ width: `${(progress.failed / progress.total) * 100}%` }}
           />
         </div>

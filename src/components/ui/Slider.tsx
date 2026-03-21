@@ -22,9 +22,9 @@ interface SliderProps {
 
 const variantColors = {
  default: 'bg-zinc-500',
- danger: 'bg-blood-500',
- success: 'bg-blood-500',
- blood: 'bg-blood-500',
+ danger: 'bg-zinc-600',
+ success: 'bg-zinc-600',
+ blood: 'bg-zinc-600',
 };
 
 export default function Slider({
@@ -383,7 +383,7 @@ export function SteppedSlider({
  >
  {/* Track fill */}
  <div
- className="absolute inset-y-0 left-0 bg-blood-500"
+ className="absolute inset-y-0 left-0 bg-zinc-600"
  style={{ width: `${percentage}%` }}
  />
 
@@ -397,8 +397,8 @@ export function SteppedSlider({
  disabled={disabled}
  className={cn(
  'w-4 h-4 -mt-1 transition-colors',
- index <= currentIndex ? 'bg-blood-500' : 'bg-zinc-600',
- !disabled && 'hover:bg-blood-400'
+ index <= currentIndex ? 'bg-zinc-600' : 'bg-zinc-600',
+ !disabled && 'hover:bg-zinc-600'
  )}
  />
  ))}

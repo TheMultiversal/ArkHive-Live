@@ -31,9 +31,9 @@ function SubmitPageContent() {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
  <div className="max-w-lg mx-auto px-4 text-center">
- <div className="border-2 border-blood-800/60 bg-[#190800] p-12">
- <div className="w-16 h-16 border-2 border-blood-700 flex items-center justify-center mx-auto mb-6">
- <CheckCircle className="w-8 h-8 text-blood-600"/>
+ <div className="border-2 border-zinc-800/60 bg-[#080808] p-12">
+ <div className="w-16 h-16 border-2 border-zinc-700 flex items-center justify-center mx-auto mb-6">
+ <CheckCircle className="w-8 h-8 text-zinc-500"/>
  </div>
  <h1 className="text-2xl font-black glass-text mb-4 uppercase tracking-wider">Information Received</h1>
  <p className="text-zinc-400 mb-6">
@@ -42,7 +42,7 @@ function SubmitPageContent() {
  </p>
  <button
  onClick={() => setIsSubmitted(false)}
- className="px-6 py-3 border-2 border-[rgba(255, 60, 60,0.18)] bg-transparent text-zinc-400 hover:border-blood-700 hover:text-blood-600 transition-colors uppercase tracking-wider font-bold"
+ className="px-6 py-3 border-2 border-[rgba(255,255,255,0.18)] bg-transparent text-zinc-400 hover:border-zinc-700 hover:text-zinc-500 transition-colors uppercase tracking-wider font-bold"
  >
  Submit Another
  </button>
@@ -57,9 +57,9 @@ function SubmitPageContent() {
  <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header, Crystal Clear */}
  <div className="py-12">
- <div className="border-2 border-blood-800/60 bg-[#190800] p-8 text-center">
- <div className="w-16 h-16 mx-auto mb-6 border-2 border-blood-700 bg-blood-950 flex items-center justify-center">
- <AlertTriangle className="w-8 h-8 text-blood-600"/>
+ <div className="border-2 border-zinc-800/60 bg-[#080808] p-8 text-center">
+ <div className="w-16 h-16 mx-auto mb-6 border-2 border-zinc-700 bg-zinc-900 flex items-center justify-center">
+ <AlertTriangle className="w-8 h-8 text-zinc-500"/>
  </div>
  <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-4">
  SUBMIT INFORMATION
@@ -72,23 +72,23 @@ function SubmitPageContent() {
  </div>
 
  {/* Security Notice - Sharp */}
- <div className="border-l-4 border-blood-700 bg-[#190800] border border-[rgba(255, 80, 80,0.15)] p-6 mb-8">
+ <div className="border-l-4 border-zinc-700 bg-[#080808] border border-[rgba(255,255,255,0.15)] p-6 mb-8">
  <div className="flex items-start gap-4">
- <Lock className="w-6 h-6 text-blood-600 flex-shrink-0 mt-1"/>
+ <Lock className="w-6 h-6 text-zinc-500 flex-shrink-0 mt-1"/>
  <div>
  <h3 className="text-lg font-bold glass-text mb-2 uppercase tracking-wider">Submission Guidelines</h3>
  <ul className="text-zinc-500 text-sm space-y-2">
- <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-blood-700"/> All submissions are reviewed for research and verification</li>
- <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-blood-700"/> Provide as much detail as possible including dates, names, and sources</li>
- <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-blood-700"/> Contact information is optional but helps with follow-up questions</li>
- <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-blood-700"/> Each submission will be researched for all connected entities</li>
+ <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-zinc-700"/> All submissions are reviewed for research and verification</li>
+ <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-zinc-700"/> Provide as much detail as possible including dates, names, and sources</li>
+ <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-zinc-700"/> Contact information is optional but helps with follow-up questions</li>
+ <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 bg-zinc-700"/> Each submission will be researched for all connected entities</li>
  </ul>
  </div>
  </div>
  </div>
 
  {/* Form, Sharp */}
- <form onSubmit={handleSubmit} className="border border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8">
+ <form onSubmit={handleSubmit} className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-8">
  <div className="space-y-6">
  {/* Subject */}
  <div>
@@ -103,7 +103,7 @@ function SubmitPageContent() {
  onChange={handleChange}
  required
  placeholder="Brief title for this information"
- className="w-full px-4 py-3 bg-black border-2 border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
+ className="w-full px-4 py-3 bg-black border-2 border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 transition-colors"
  />
  </div>
 
@@ -118,7 +118,7 @@ function SubmitPageContent() {
  value={formData.category}
  onChange={handleChange}
  required
- className="w-full px-4 py-3 bg-black border-2 border-[rgba(255, 80, 80,0.15)] text-white focus:outline-none focus:border-blood-700 transition-colors"
+ className="w-full px-4 py-3 bg-black border-2 border-[rgba(255,255,255,0.15)] text-white focus:outline-none focus:border-zinc-700 transition-colors"
  >
  <option value="">Select a category</option>
  <option value="public-health">Public Health Crimes</option>
@@ -145,7 +145,7 @@ function SubmitPageContent() {
  required
  rows={8}
  placeholder="Provide as much detail as possible. Include dates, locations, specific events, and any other relevant information..."
- className="w-full px-4 py-3 bg-black border-2 border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors resize-none"
+ className="w-full px-4 py-3 bg-black border-2 border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 transition-colors resize-none"
  />
  </div>
 
@@ -161,7 +161,7 @@ function SubmitPageContent() {
  onChange={handleChange}
  rows={4}
  placeholder="List any agencies, companies, or individuals you know are involved (one per line)..."
- className="w-full px-4 py-3 bg-black border-2 border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors resize-none"
+ className="w-full px-4 py-3 bg-black border-2 border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 transition-colors resize-none"
  />
  <p className="text-xs text-zinc-600 mt-2">We will research and identify additional connected entities</p>
  </div>
@@ -178,7 +178,7 @@ function SubmitPageContent() {
  onChange={handleChange}
  rows={4}
  placeholder="Links to documents, news articles, or other sources that support this information..."
- className="w-full px-4 py-3 bg-black border-2 border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors resize-none"
+ className="w-full px-4 py-3 bg-black border-2 border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 transition-colors resize-none"
  />
  </div>
 
@@ -194,7 +194,7 @@ function SubmitPageContent() {
  value={formData.contact}
  onChange={handleChange}
  placeholder="Email or other way to reach you for follow-up questions"
- className="w-full px-4 py-3 bg-black border-2 border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
+ className="w-full px-4 py-3 bg-black border-2 border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 transition-colors"
  />
  <p className="text-xs text-zinc-600 mt-2">Only used for clarifying questions about your submission</p>
  </div>
@@ -205,13 +205,13 @@ function SubmitPageContent() {
  Upload Documents / Evidence
  </label>
  <div
- className="border-2 border-dashed border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-8 text-center cursor-pointer hover:border-blood-700 transition-colors"
+ className="border-2 border-dashed border-[rgba(255,255,255,0.15)] bg-[#080808] p-8 text-center cursor-pointer hover:border-zinc-700 transition-colors"
  onClick={() => fileInputRef.current?.click()}
- onDragOver={(e) => { e.preventDefault(); e.currentTarget.classList.add('border-blood-700'); }}
- onDragLeave={(e) => { e.currentTarget.classList.remove('border-blood-700'); }}
+ onDragOver={(e) => { e.preventDefault(); e.currentTarget.classList.add('border-zinc-700'); }}
+ onDragLeave={(e) => { e.currentTarget.classList.remove('border-zinc-700'); }}
  onDrop={(e) => {
  e.preventDefault();
- e.currentTarget.classList.remove('border-blood-700');
+ e.currentTarget.classList.remove('border-zinc-700');
  const droppedFiles = Array.from(e.dataTransfer.files);
  setFiles(prev => [...prev, ...droppedFiles]);
  }}
@@ -235,7 +235,7 @@ function SubmitPageContent() {
  {files.length > 0 && (
  <div className="mt-3 space-y-2">
  {files.map((file, i) => (
- <div key={i} className="flex items-center justify-between p-3 border border-[rgba(255, 80, 80,0.15)] bg-black/40">
+ <div key={i} className="flex items-center justify-between p-3 border border-[rgba(255,255,255,0.15)] bg-black/40">
  <div className="flex items-center gap-3 min-w-0">
  <Paperclip className="w-4 h-4 text-zinc-500 flex-shrink-0"/>
  <div className="min-w-0">
@@ -246,7 +246,7 @@ function SubmitPageContent() {
  <button
  type="button"
  onClick={() => setFiles(files.filter((_, idx) => idx !== i))}
- className="p-1 text-zinc-600 hover:text-blood-600 transition-colors flex-shrink-0"
+ className="p-1 text-zinc-600 hover:text-zinc-500 transition-colors flex-shrink-0"
  >
  <X className="w-4 h-4"/>
  </button>
@@ -259,7 +259,7 @@ function SubmitPageContent() {
  {/* Submit Button */}
  <button
  type="submit"
- className="w-full flex items-center justify-center gap-2 px-8 py-4 border-2 border-blood-700 bg-blood-950 text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
+ className="w-full flex items-center justify-center gap-2 px-8 py-4 border-2 border-zinc-700 bg-zinc-900 text-zinc-500 font-bold uppercase tracking-wider hover:bg-zinc-700 hover:text-white transition-all"
  >
  <Send className="w-5 h-5"/>
  Submit Information

@@ -34,17 +34,17 @@ const toastIcons = {
 
 // Toast colors by type
 const toastColors = {
- success: 'border-blood-600 bg-blood-950/80',
- error: 'border-blood-600 bg-blood-950/80',
+ success: 'border-zinc-700 bg-zinc-900/80',
+ error: 'border-zinc-700 bg-zinc-900/80',
  warning: 'border-zinc-500 bg-zinc-900/80',
- info: 'border-blood-600 bg-blood-950/80',
+ info: 'border-zinc-700 bg-zinc-900/80',
 };
 
 const iconColors = {
- success: 'text-blood-500',
- error: 'text-blood-500',
+ success: 'text-zinc-300',
+ error: 'text-zinc-300',
  warning: 'text-zinc-400',
- info: 'text-blood-500',
+ info: 'text-zinc-300',
 };
 
 // Individual Toast Component
@@ -98,9 +98,9 @@ function ToastItem({ toast, onRemove }: { toast: Toast; onRemove: () => void }) 
  animate={{ scaleX: 0 }}
  transition={{ duration: duration / 1000, ease: 'linear' }}
  className={`absolute bottom-0 left-0 right-0 h-0.5 origin-left ${
- toast.type === 'success' ? 'bg-blood-500' :
- toast.type === 'error' ? 'bg-blood-500' :
- toast.type === 'warning' ? 'bg-zinc-400' : 'bg-blood-500'
+ toast.type === 'success' ? 'bg-zinc-600' :
+ toast.type === 'error' ? 'bg-zinc-600' :
+ toast.type === 'warning' ? 'bg-zinc-400' : 'bg-zinc-600'
  }`}
  />
  )}

@@ -11,8 +11,8 @@ export default function NetworkPage() {
         {/* Header */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-blood-500/20 border border-blood-500/50 flex items-center justify-center">
-              <Network className="w-6 h-6 text-blood-500" />
+            <div className="w-12 h-12 bg-zinc-500/20 border border-zinc-600/50 flex items-center justify-center">
+              <Network className="w-6 h-6 text-zinc-300" />
             </div>
             <div>
               <h1 className="text-3xl font-black text-white tracking-tighter">
@@ -61,9 +61,9 @@ export default function NetworkPage() {
         </div>
         
         {/* Network Info */}
-        <div className="glass-card border border-blood-900/30 p-4 mb-8">
+        <div className="glass-card border border-zinc-800/30 p-4 mb-8">
           <div className="flex items-start gap-3">
-            <Link2 className="w-5 h-5 text-blood-500 mt-0.5 shrink-0" />
+            <Link2 className="w-5 h-5 text-zinc-300 mt-0.5 shrink-0" />
             <div>
               <h3 className="text-white font-semibold mb-1">Understanding the Network</h3>
               <p className="text-sm text-zinc-400">

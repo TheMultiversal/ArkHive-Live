@@ -78,7 +78,7 @@ export default function MemberList({ members, currentUserId = '1' }: MemberListP
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
  aria-label="Search team members"
- className="w-full pl-7 pr-3 py-1.5 bg-[#1c0a00] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full pl-7 pr-3 py-1.5 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
  </div>
@@ -158,7 +158,7 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  >
  <div 
  className={`group flex items-center gap-2 p-2 rounded cursor-pointer transition-colors ${
- isCurrentUser ? 'bg-blood-950' : 'hover:bg-[#1c0a00]'
+ isCurrentUser ? 'bg-zinc-900' : 'hover:bg-[#0a0a0a]'
  }`}
  onClick={() => setIsExpanded(!isExpanded)}
  role="button"
@@ -168,10 +168,10 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  onKeyDown={(e) => e.key === 'Enter' && setIsExpanded(!isExpanded)}
  >
  <div className="relative">
- <div className={`w-6 h-6 bg-blood-900 flex items-center justify-center text-[10px] font-medium text-white/50 ${!member.isOnline ? 'opacity-50' : ''}`}>
+ <div className={`w-6 h-6 bg-zinc-800 flex items-center justify-center text-[10px] font-medium text-white/50 ${!member.isOnline ? 'opacity-50' : ''}`}>
  {member.name.charAt(0)}
  </div>
- <div className={`absolute -bottom-0.5 -right-0.5 w-2 h-2 border border-[#050505] ${member.isOnline ? 'bg-blood-500/80' : 'bg-[#200c00]'}`} />
+ <div className={`absolute -bottom-0.5 -right-0.5 w-2 h-2 border border-[#050505] ${member.isOnline ? 'bg-zinc-600/80' : 'bg-[#0d0d0d]'}`} />
  </div>
 
  <div className="flex-1 min-w-0">
@@ -179,7 +179,7 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  <span className={`text-[11px] font-medium truncate ${member.isOnline ? 'text-white/60' : 'text-white/30'}`}>
  {member.name}
  </span>
- {isCurrentUser && <span className="text-[9px] text-blood-500/60">you</span>}
+ {isCurrentUser && <span className="text-[9px] text-zinc-300/60">you</span>}
  <span className="text-white/20">{getRoleIcon(member.role)}</span>
  </div>
  {!member.isOnline && (
@@ -205,7 +205,7 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  {member.expertise && (
  <div className="flex flex-wrap gap-1 mt-1">
  {member.expertise.map((exp, i) => (
- <span key={i} className="px-1.5 py-0.5 bg-[#1c0a00] rounded text-white/30">{exp}</span>
+ <span key={i} className="px-1.5 py-0.5 bg-[#0a0a0a] rounded text-white/30">{exp}</span>
  ))}
  </div>
  )}

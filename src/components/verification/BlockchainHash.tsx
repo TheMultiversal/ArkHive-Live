@@ -133,7 +133,7 @@ export function HashRecordCard({ record, onVerify, className = "" }: HashRecordC
     <div className={`bg-zinc-950 border border-zinc-800 ${className}`}>
       <div className="px-4 py-3 border-b border-zinc-800/50 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Fingerprint className="w-4 h-4 text-blood-500" />
+          <Fingerprint className="w-4 h-4 text-zinc-300" />
           <span className="text-xs font-bold text-white uppercase tracking-wider">Hash Record</span>
         </div>
         {record.verified && (
@@ -198,7 +198,7 @@ export function HashRecordCard({ record, onVerify, className = "" }: HashRecordC
         {onVerify && (
           <button
             onClick={onVerify}
-            className="w-full flex items-center justify-center gap-2 px-3 py-2 bg-blood-950 border border-blood-800 text-blood-400 hover:bg-blood-900 text-[10px] font-bold uppercase tracking-wider transition-colors"
+            className="w-full flex items-center justify-center gap-2 px-3 py-2 bg-zinc-900 border border-zinc-800 text-zinc-400 hover:bg-zinc-800 text-[10px] font-bold uppercase tracking-wider transition-colors"
           >
             <Shield className="w-3 h-3" />
             Verify Integrity
@@ -265,7 +265,7 @@ export function VerificationResultDisplay({ result, className = "" }: Verificati
           <Clock className="w-3 h-3" />
           <span>Verified against record from {result.timestamp}</span>
           {result.blockNumber && (
-            <span className="text-zinc-600">• Block #{result.blockNumber}</span>
+            <span className="text-zinc-600">ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Block #{result.blockNumber}</span>
           )}
         </div>
       </div>
@@ -326,7 +326,7 @@ export function HashChain({ records, className = "" }: HashChainProps) {
   return (
     <div className={`bg-zinc-950 border border-zinc-800 ${className}`}>
       <div className="px-4 py-3 border-b border-zinc-800/50 flex items-center gap-2">
-        <Link2 className="w-4 h-4 text-blood-500" />
+        <Link2 className="w-4 h-4 text-zinc-300" />
         <span className="text-xs font-bold text-white uppercase tracking-wider">Hash Chain</span>
         <span className="text-[10px] text-zinc-500 ml-auto">{records.length} records</span>
       </div>
@@ -362,7 +362,7 @@ export function HashChain({ records, className = "" }: HashChainProps) {
                   </div>
                   <p className="text-[10px] text-zinc-500">
                     {record.timestamp}
-                    {record.blockNumber && ` • Block #${record.blockNumber}`}
+                    {record.blockNumber && ` ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ Block #${record.blockNumber}`}
                   </p>
                 </div>
 

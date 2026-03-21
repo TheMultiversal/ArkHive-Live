@@ -172,10 +172,10 @@ const investigationData = {
 };
 
 const severityColors = {
- critical: 'bg-blood-900 text-blood-400 border-blood-800',
- high: 'bg-blood-950 text-blood-600 border-blood-800',
+ critical: 'bg-zinc-800 text-zinc-400 border-zinc-800',
+ high: 'bg-zinc-900 text-zinc-500 border-zinc-800',
  medium: 'bg-zinc-900 text-zinc-300 border-zinc-700',
- low: 'bg-blood-900 text-blood-400 border-blood-800',
+ low: 'bg-zinc-800 text-zinc-400 border-zinc-800',
 };
 
 export default function BuildTheWallFraudPage() {
@@ -184,21 +184,21 @@ export default function BuildTheWallFraudPage() {
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(255, 80, 80,0.15)]">
+ <div className="border-b border-[rgba(255,255,255,0.15)]">
  <div className="max-w-6xl mx-auto px-6 py-8">
  <nav className="flex items-center gap-2 text-sm text-zinc-500 mb-6">
  <Link href="/"className="hover:text-white transition-colors">Home</Link>
  <ChevronRight className="w-4 h-4"/>
  <Link href="/investigations"className="hover:text-white transition-colors">Investigations</Link>
  <ChevronRight className="w-4 h-4"/>
- <span className="text-blood-500">Build the Wall Fraud</span>
+ <span className="text-zinc-300">Build the Wall Fraud</span>
  </nav>
 
  <div className="flex items-center gap-4 mb-4">
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${severityColors[investigationData.severity]}`}>
  {investigationData.severity} SEVERITY
  </span>
- <span className="px-3 py-1 text-xs font-medium bg-[#200c00] text-zinc-300 border border-[rgba(255, 60, 60,0.18)]">
+ <span className="px-3 py-1 text-xs font-medium bg-[#0d0d0d] text-zinc-300 border border-[rgba(255,255,255,0.18)]">
  {investigationData.status}
  </span>
  </div>
@@ -225,24 +225,24 @@ export default function BuildTheWallFraudPage() {
  className="mb-12"
  >
  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <DollarSign className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.financials.totalRaised}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <DollarSign className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.financials.totalRaised}</p>
  <p className="text-xs text-zinc-400">Total Raised</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-600">
- <Coins className="w-6 h-6 text-blood-500 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-500">{investigationData.financials.allegedStolen}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-700">
+ <Coins className="w-6 h-6 text-zinc-300 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-300">{investigationData.financials.allegedStolen}</p>
  <p className="text-xs text-zinc-400">Allegedly Stolen</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-800">
- <DollarSign className="w-6 h-6 text-blood-700 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-700">{investigationData.financials.bannonTake}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-800">
+ <DollarSign className="w-6 h-6 text-zinc-600 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-600">{investigationData.financials.bannonTake}</p>
  <p className="text-xs text-zinc-400">Bannon&apos;s Take</p>
  </div>
- <div className="glass-card p-4 text-center border-l-4 border-blood-800">
- <DollarSign className="w-6 h-6 text-blood-700 mx-auto mb-2"/>
- <p className="text-xl font-black text-blood-700">{investigationData.financials.kolfageTake}</p>
+ <div className="glass-card p-4 text-center border-l-4 border-zinc-800">
+ <DollarSign className="w-6 h-6 text-zinc-600 mx-auto mb-2"/>
+ <p className="text-xl font-black text-zinc-600">{investigationData.financials.kolfageTake}</p>
  <p className="text-xs text-zinc-400">Kolfage&apos;s Take</p>
  </div>
  <div className="glass-card p-4 text-center border-l-4 border-zinc-500">
@@ -261,7 +261,7 @@ export default function BuildTheWallFraudPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <FileText className="w-5 h-5 text-blood-500"/>
+ <FileText className="w-5 h-5 text-zinc-300"/>
  Executive Summary
  </h2>
  <p className="text-zinc-300 leading-relaxed">{investigationData.summary}</p>
@@ -275,7 +275,7 @@ export default function BuildTheWallFraudPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Users className="w-5 h-5 text-blood-500"/>
+ <Users className="w-5 h-5 text-zinc-300"/>
  Key Figures
  </h2>
  <div className="space-y-3">
@@ -283,10 +283,10 @@ export default function BuildTheWallFraudPage() {
  <Link
  key={index}
  href={figure.href}
- className="flex items-center justify-between p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-500/50 transition-all"
+ className="flex items-center justify-between p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-600/50 transition-all"
  >
  <div>
- <span className="font-medium text-blood-400">{figure.name}</span>
+ <span className="font-medium text-zinc-400">{figure.name}</span>
  <p className="text-sm text-zinc-500">{figure.role}</p>
  </div>
  <ExternalLink className="w-4 h-4 text-zinc-600"/>
@@ -300,22 +300,22 @@ export default function BuildTheWallFraudPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.2 }}
- className="glass-card p-6 mb-8 border-l-4 border-blood-600"
+ className="glass-card p-6 mb-8 border-l-4 border-zinc-700"
  >
  <h2 className="text-xl font-bold mb-4">The Fraud Scheme</h2>
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-zinc-300"/>The Cover-Up</h2>
+ <div className="space-y-3">{investigationData.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900 border border-zinc-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
- <div className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase">Public Promise</p>
  <p className="text-zinc-200 text-lg">{investigationData.scheme.publicPitch}</p>
  </div>
- <div className="p-4 bg-[#1c0a00] border border-blood-600/50">
- <p className="text-xs text-blood-500 uppercase">Reality</p>
- <p className="text-blood-400">{investigationData.scheme.reality}</p>
+ <div className="p-4 bg-[#0a0a0a] border border-zinc-700/50">
+ <p className="text-xs text-zinc-300 uppercase">Reality</p>
+ <p className="text-zinc-400">{investigationData.scheme.reality}</p>
  </div>
  </div>
 
@@ -323,7 +323,7 @@ export default function BuildTheWallFraudPage() {
  <ul className="space-y-1 mb-4">
  {investigationData.scheme.method.map((step, i) => (
  <li key={i} className="flex items-start gap-2 text-sm text-zinc-300">
- <span className="text-blood-500">{i + 1}.</span>
+ <span className="text-zinc-300">{i + 1}.</span>
  {step}
  </li>
  ))}
@@ -334,7 +334,7 @@ export default function BuildTheWallFraudPage() {
  <p className="text-xs text-zinc-500 uppercase mb-2">Kolfage Expenses</p>
  <div className="flex flex-wrap gap-2">
  {investigationData.scheme.kolfageExpenses.map((expense, i) => (
- <span key={i} className="px-2 py-1 bg-blood-950 text-blood-600 text-xs border border-blood-800">
+ <span key={i} className="px-2 py-1 bg-zinc-900 text-zinc-500 text-xs border border-zinc-800">
  {expense}
  </span>
  ))}
@@ -344,7 +344,7 @@ export default function BuildTheWallFraudPage() {
  <p className="text-xs text-zinc-500 uppercase mb-2">Bannon Expenses</p>
  <ul className="space-y-1">
  {investigationData.scheme.bannonExpenses.map((expense, i) => (
- <li key={i} className="text-sm text-blood-400">• {expense}</li>
+ <li key={i} className="text-sm text-zinc-400">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ {expense}</li>
  ))}
  </ul>
  </div>
@@ -359,7 +359,7 @@ export default function BuildTheWallFraudPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Gavel className="w-5 h-5 text-blood-500"/>
+ <Gavel className="w-5 h-5 text-zinc-300"/>
  Federal Charges
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
@@ -369,7 +369,7 @@ export default function BuildTheWallFraudPage() {
  </div>
  <div>
  <p className="text-xs text-zinc-500 uppercase">Max Sentence</p>
- <p className="text-blood-400">{investigationData.federalCharges.maxSentence}</p>
+ <p className="text-zinc-400">{investigationData.federalCharges.maxSentence}</p>
  </div>
  <div>
  <p className="text-xs text-zinc-500 uppercase">Bannon Arrested</p>
@@ -379,8 +379,8 @@ export default function BuildTheWallFraudPage() {
  <p className="text-xs text-zinc-500 uppercase mb-2">Charges</p>
  <div className="space-y-2">
  {investigationData.federalCharges.charges.map((charge, i) => (
- <div key={i} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
- <span className="text-blood-400">{charge}</span>
+ <div key={i} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
+ <span className="text-zinc-400">{charge}</span>
  </div>
  ))}
  </div>
@@ -391,7 +391,7 @@ export default function BuildTheWallFraudPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.3 }}
- className="glass-card p-6 mb-8 border-l-4 border-blood-600"
+ className="glass-card p-6 mb-8 border-l-4 border-zinc-700"
  >
  <h2 className="text-xl font-bold mb-4">The Presidential Pardon</h2>
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
@@ -401,7 +401,7 @@ export default function BuildTheWallFraudPage() {
  </div>
  <div>
  <p className="text-xs text-zinc-500 uppercase">Timing</p>
- <p className="text-blood-600">{investigationData.trumpPardon.timing}</p>
+ <p className="text-zinc-500">{investigationData.trumpPardon.timing}</p>
  </div>
  <div>
  <p className="text-xs text-zinc-500 uppercase">Scope</p>
@@ -409,10 +409,10 @@ export default function BuildTheWallFraudPage() {
  </div>
  <div>
  <p className="text-xs text-zinc-500 uppercase">Co-Defendants</p>
- <p className="text-blood-400">{investigationData.trumpPardon.coDefendants}</p>
+ <p className="text-zinc-400">{investigationData.trumpPardon.coDefendants}</p>
  </div>
  </div>
- <div className="p-4 bg-blood-900 border border-blood-800">
+ <div className="p-4 bg-zinc-800 border border-zinc-800">
  <p className="text-sm text-zinc-400">Prosecutors had called the scheme &quot;brazen&quot; fraud, yet Trump pardoned Bannon despite publicly claiming he &quot;didn&apos;t know&quot; about the project.</p>
  </div>
  </motion.section>
@@ -425,20 +425,20 @@ export default function BuildTheWallFraudPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Scale className="w-5 h-5 text-blood-500"/>
+ <Scale className="w-5 h-5 text-zinc-300"/>
  Case Outcomes
  </h2>
  <div className="space-y-3">
  {investigationData.outcomes.map((outcome, index) => (
- <div key={index} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div key={index} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <div className="flex justify-between items-start mb-2">
- <span className="font-bold text-blood-400">{outcome.person}</span>
+ <span className="font-bold text-zinc-400">{outcome.person}</span>
  <span className="text-sm text-zinc-400">{outcome.sentence}</span>
  </div>
  <div className="grid grid-cols-2 gap-4 text-sm">
  <div>
  <p className="text-xs text-zinc-500">Federal</p>
- <p className={outcome.federal === 'Pardoned' ? 'text-blood-600' : 'text-zinc-300'}>{outcome.federal}</p>
+ <p className={outcome.federal === 'Pardoned' ? 'text-zinc-500' : 'text-zinc-300'}>{outcome.federal}</p>
  </div>
  <div>
  <p className="text-xs text-zinc-500">State</p>
@@ -465,14 +465,14 @@ export default function BuildTheWallFraudPage() {
  <p className="text-xs text-zinc-500 uppercase mb-2">State Charges</p>
  <div className="space-y-2 mb-4">
  {investigationData.newYorkCharges.charges.map((charge, i) => (
- <div key={i} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div key={i} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <span className="text-zinc-300">{charge}</span>
  </div>
  ))}
  </div>
- <div className="p-4 bg-blood-950 border border-blood-800">
- <p className="text-xs text-blood-700 uppercase mb-1">Status</p>
- <p className="text-sm text-blood-600">{investigationData.newYorkCharges.status}</p>
+ <div className="p-4 bg-zinc-900 border border-zinc-800">
+ <p className="text-xs text-zinc-600 uppercase mb-1">Status</p>
+ <p className="text-sm text-zinc-500">{investigationData.newYorkCharges.status}</p>
  </div>
  <p className="text-xs text-zinc-500 mt-3">{investigationData.newYorkCharges.note}</p>
  </motion.section>
@@ -486,24 +486,24 @@ export default function BuildTheWallFraudPage() {
  >
  <h2 className="text-xl font-bold mb-4">Trump Distancing Act</h2>
  <div className="space-y-3">
- <div className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <p className="text-xs text-zinc-500">Before Arrest</p>
  <p className="text-zinc-300">{investigationData.trumpDistancing.beforeArrest}</p>
  </div>
- <div className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <p className="text-xs text-zinc-500">After Arrest</p>
  <p className="text-zinc-300">{investigationData.trumpDistancing.afterArrest}</p>
  </div>
- <blockquote className="border-l-4 border-blood-600 pl-4 italic text-zinc-400">
+ <blockquote className="border-l-4 border-zinc-700 pl-4 italic text-zinc-400">
  {investigationData.trumpDistancing.quote}
  </blockquote>
- <div className="p-3 bg-blood-900 border border-blood-800">
- <p className="text-xs text-blood-500">Reality</p>
- <p className="text-blood-400">{investigationData.trumpDistancing.reality}</p>
+ <div className="p-3 bg-zinc-800 border border-zinc-800">
+ <p className="text-xs text-zinc-300">Reality</p>
+ <p className="text-zinc-400">{investigationData.trumpDistancing.reality}</p>
  </div>
- <div className="p-3 bg-blood-950 border border-blood-800">
- <p className="text-xs text-blood-700">Pardon</p>
- <p className="text-blood-600">{investigationData.trumpDistancing.pardon}</p>
+ <div className="p-3 bg-zinc-900 border border-zinc-800">
+ <p className="text-xs text-zinc-600">Pardon</p>
+ <p className="text-zinc-500">{investigationData.trumpDistancing.pardon}</p>
  </div>
  </div>
  </motion.section>
@@ -516,13 +516,13 @@ export default function BuildTheWallFraudPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Building2 className="w-5 h-5 text-blood-500"/>
+ <Building2 className="w-5 h-5 text-zinc-300"/>
  Wall Actually Built
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
  <div>
  <p className="text-xs text-zinc-500 uppercase">We Build the Wall</p>
- <p className="text-blood-400 font-bold">{investigationData.wallClaimed.milesBuilt}</p>
+ <p className="text-zinc-400 font-bold">{investigationData.wallClaimed.milesBuilt}</p>
  </div>
  <div>
  <p className="text-xs text-zinc-500 uppercase">Location</p>
@@ -530,7 +530,7 @@ export default function BuildTheWallFraudPage() {
  </div>
  <div>
  <p className="text-xs text-zinc-500 uppercase">Quality</p>
- <p className="text-blood-600">{investigationData.wallClaimed.quality}</p>
+ <p className="text-zinc-500">{investigationData.wallClaimed.quality}</p>
  </div>
  <div>
  <p className="text-xs text-zinc-500 uppercase">Federal Total</p>
@@ -547,14 +547,14 @@ export default function BuildTheWallFraudPage() {
  className="glass-card p-6 mb-8"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Calendar className="w-5 h-5 text-blood-500"/>
+ <Calendar className="w-5 h-5 text-zinc-300"/>
  Timeline
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto">
  {investigationData.timeline.map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
- <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
- <p className="text-xs text-blood-500 font-mono">{item.date}</p>
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(255,255,255,0.15)]">
+ <div className="absolute -left-[5px] top-0 w-2 h-2 bg-zinc-600"/>
+ <p className="text-xs text-zinc-300 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
  </div>
  ))}
@@ -563,8 +563,8 @@ export default function BuildTheWallFraudPage() {
 
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigationData.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-zinc-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -581,7 +581,7 @@ export default function BuildTheWallFraudPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] transition-colors"
+ className="flex items-center justify-between p-3 bg-[#0a0a0a] hover:bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] transition-colors"
  >
  <div>
  <span className="text-zinc-200">{source.title}</span>

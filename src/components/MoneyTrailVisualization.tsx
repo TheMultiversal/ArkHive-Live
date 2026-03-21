@@ -142,14 +142,14 @@ interface FlowCardProps {
 
 function FlowCard({ flow, isExpanded, onToggle }: FlowCardProps) {
   return (
-    <div className="glass-card border border-blood-900/30">
+    <div className="glass-card border border-zinc-800/30">
       <button
         onClick={onToggle}
-        className="w-full p-4 flex items-center gap-4 text-left hover:bg-blood-900/10 transition-colors"
+        className="w-full p-4 flex items-center gap-4 text-left hover:bg-zinc-800/10 transition-colors"
       >
         <div className="shrink-0">
           {isExpanded ? (
-            <ChevronDown className="w-5 h-5 text-blood-500" />
+            <ChevronDown className="w-5 h-5 text-zinc-300" />
           ) : (
             <ChevronRight className="w-5 h-5 text-zinc-500" />
           )}
@@ -163,9 +163,9 @@ function FlowCard({ flow, isExpanded, onToggle }: FlowCardProps) {
           </div>
           
           <div className="flex items-center gap-1 shrink-0">
-            <div className="h-[2px] w-8 bg-gradient-to-r from-blood-900 to-blood-500" />
-            <ArrowRight className="w-4 h-4 text-blood-500" />
-            <div className="h-[2px] w-8 bg-gradient-to-r from-blood-500 to-blood-900" />
+            <div className="h-[2px] w-8 bg-gradient-to-r from-zinc-800 to-zinc-500" />
+            <ArrowRight className="w-4 h-4 text-zinc-300" />
+            <div className="h-[2px] w-8 bg-gradient-to-r from-zinc-600 to-zinc-800" />
           </div>
           
           <div className="flex items-center gap-2 min-w-0 flex-1">
@@ -176,7 +176,7 @@ function FlowCard({ flow, isExpanded, onToggle }: FlowCardProps) {
         
         {/* Amount */}
         <div className="shrink-0 text-right">
-          <div className="text-lg font-bold text-blood-400">
+          <div className="text-lg font-bold text-zinc-400">
             {formatCurrency(flow.totalAmount)}
           </div>
           <div className="text-xs text-zinc-500">
@@ -186,7 +186,7 @@ function FlowCard({ flow, isExpanded, onToggle }: FlowCardProps) {
       </button>
       
       {isExpanded && (
-        <div className="border-t border-blood-900/30 bg-black/30 p-4 space-y-3">
+        <div className="border-t border-zinc-800/30 bg-black/30 p-4 space-y-3">
           {flow.transactions.map((tx, idx) => (
             <div key={idx} className="flex items-start gap-3 text-sm">
               <div className="shrink-0 mt-0.5">
@@ -205,14 +205,14 @@ function FlowCard({ flow, isExpanded, onToggle }: FlowCardProps) {
                 <div className="flex items-center gap-2 mb-1">
                   <Calendar className="w-3 h-3 text-zinc-500" />
                   <span className="text-zinc-400">{tx.date}</span>
-                  <span className="text-blood-400 font-semibold">{tx.amount}</span>
+                  <span className="text-zinc-400 font-semibold">{tx.amount}</span>
                 </div>
                 <p className="text-zinc-400">{tx.purpose}</p>
                 <Link
                   href={`/investigations/${tx.investigationSlug}`}
-                  className="text-xs text-blood-500 hover:text-blood-400 mt-1 inline-block"
+                  className="text-xs text-zinc-300 hover:text-white mt-1 inline-block"
                 >
-                  → {tx.investigationTitle}
+                  ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ {tx.investigationTitle}
                 </Link>
               </div>
             </div>
@@ -332,11 +332,11 @@ export default function MoneyTrailVisualization({
             key={`${flow.from}|${flow.to}`}
             className="flex items-center gap-2 p-2 bg-zinc-900/50 text-sm"
           >
-            <DollarSign className="w-4 h-4 text-blood-500" />
+            <DollarSign className="w-4 h-4 text-zinc-300" />
             <span className="text-zinc-400 truncate">{flow.from}</span>
             <ArrowRight className="w-3 h-3 text-zinc-600" />
             <span className="text-zinc-400 truncate">{flow.to}</span>
-            <span className="text-blood-400 ml-auto font-semibold">
+            <span className="text-zinc-400 ml-auto font-semibold">
               {formatCurrency(flow.totalAmount)}
             </span>
           </div>
@@ -351,11 +351,11 @@ export default function MoneyTrailVisualization({
       <div className="flex flex-col md:flex-row md:items-center gap-4">
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
-            <DollarSign className="w-6 h-6 text-blood-500" />
+            <DollarSign className="w-6 h-6 text-zinc-300" />
             Money Trail Analysis
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {formatCurrency(totalVolume)} tracked • {totalTransactions} transactions • {allParties.length} parties
+            {formatCurrency(totalVolume)} tracked ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {totalTransactions} transactions ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¢ {allParties.length} parties
           </p>
         </div>
         
@@ -364,7 +364,7 @@ export default function MoneyTrailVisualization({
             onClick={() => setViewMode('flows')}
             className={`px-3 py-1.5 text-xs transition-colors ${
               viewMode === 'flows'
-                ? 'bg-blood-500/20 text-blood-400 border border-blood-500'
+                ? 'bg-zinc-500/20 text-zinc-400 border border-zinc-600'
                 : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-zinc-700'
             }`}
           >
@@ -374,7 +374,7 @@ export default function MoneyTrailVisualization({
             onClick={() => setViewMode('parties')}
             className={`px-3 py-1.5 text-xs transition-colors ${
               viewMode === 'parties'
-                ? 'bg-blood-500/20 text-blood-400 border border-blood-500'
+                ? 'bg-zinc-500/20 text-zinc-400 border border-zinc-600'
                 : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-zinc-700'
             }`}
           >
@@ -392,7 +392,7 @@ export default function MoneyTrailVisualization({
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search parties or purposes..."
-            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
           />
           {searchQuery && (
             <button
@@ -441,7 +441,7 @@ export default function MoneyTrailVisualization({
           {filteredParties.map(party => (
             <div 
               key={party.name}
-              className="glass-card border border-blood-900/30 p-4"
+              className="glass-card border border-zinc-800/30 p-4"
             >
               <div className="flex items-start gap-3 mb-3">
                 <Building2 className="w-5 h-5 text-zinc-500" />
@@ -509,8 +509,8 @@ export function InvestigationMoneyTrail({ slug }: { slug: string }) {
   );
   
   return (
-    <div className="glass-card border border-blood-900/30 p-4">
-      <h3 className="text-sm font-semibold text-blood-400 mb-3 flex items-center gap-2">
+    <div className="glass-card border border-zinc-800/30 p-4">
+      <h3 className="text-sm font-semibold text-zinc-400 mb-3 flex items-center gap-2">
         <DollarSign className="w-4 h-4" />
         Money Trail ({formatCurrency(total)})
       </h3>
@@ -523,9 +523,9 @@ export function InvestigationMoneyTrail({ slug }: { slug: string }) {
               <FileX className="w-3 h-3 text-orange-500" />
             )}
             <span className="text-zinc-500 truncate flex-1">
-              {tx.from} → {tx.to}
+              {tx.from} ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ {tx.to}
             </span>
-            <span className="text-blood-400 font-semibold">{tx.amount}</span>
+            <span className="text-zinc-400 font-semibold">{tx.amount}</span>
           </div>
         ))}
         {investigation.moneyTrail.length > 5 && (

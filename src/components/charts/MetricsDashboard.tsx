@@ -105,8 +105,8 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  metric.changeType === 'decrease' ? TrendingDown : Minus;
  
  const changeColor =
- metric.changeType === 'increase' ? 'text-blood-500' :
- metric.changeType === 'decrease' ? 'text-blood-500' : 'text-zinc-500';
+ metric.changeType === 'increase' ? 'text-zinc-300' :
+ metric.changeType === 'decrease' ? 'text-zinc-300' : 'text-zinc-500';
 
  const progress = metric.target
  ? (Number(metric.value) / metric.target) * 100
@@ -116,16 +116,16 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] p-4"
+ className="bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] p-4"
  >
  <div className="flex items-start justify-between mb-2">
  <div
  className="p-2"
- style={{ backgroundColor: `${metric.color || '#b80000'}20` }}
+ style={{ backgroundColor: `${metric.color || '#4a4a4a'}20` }}
  >
  <Icon
  className="w-5 h-5"
- style={{ color: metric.color || '#b80000' }}
+ style={{ color: metric.color || '#4a4a4a' }}
  />
  </div>
  {metric.sparklineData && (
@@ -133,7 +133,7 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  data={metric.sparklineData}
  width={80}
  height={24}
- color={metric.color || '#b80000'}
+ color={metric.color || '#4a4a4a'}
  />
  )}
  </div>
@@ -168,7 +168,7 @@ function MetricCardItem({ metric }: MetricCardItemProps) {
  animate={{ width: `${Math.min(progress, 100)}%` }}
  transition={{ duration: 0.5 }}
  className="h-full"
- style={{ backgroundColor: metric.color || '#b80000' }}
+ style={{ backgroundColor: metric.color || '#4a4a4a' }}
  />
  </div>
  </div>
@@ -244,7 +244,7 @@ function ChartCard({ chart }: ChartCardProps) {
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  className={cn(
- 'bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] p-4',
+ 'bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] p-4',
  sizeClasses[chart.size || 'medium']
  )}
  >
@@ -305,7 +305,7 @@ export default function MetricsDashboard({
 
  <div className="flex items-center gap-2">
  {/* Date range selector */}
- <div className="flex items-center border border-[rgba(255, 60, 60,0.18)]">
+ <div className="flex items-center border border-[rgba(255,255,255,0.18)]">
  {['24h', '7d', '30d', '90d'].map((range) => (
  <button
  key={range}
@@ -327,7 +327,7 @@ export default function MetricsDashboard({
  <button
  onClick={onRefresh}
  aria-label="Refresh data"
- className="p-2 text-zinc-400 hover:text-white bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] transition-colors"
  >
  <RefreshCw className="w-4 h-4"/>
  </button>
@@ -338,7 +338,7 @@ export default function MetricsDashboard({
  <button
  onClick={onExport}
  aria-label="Export data"
- className="p-2 text-zinc-400 hover:text-white bg-[#200c00] border border-[rgba(255, 60, 60,0.18)] transition-colors"
+ className="p-2 text-zinc-400 hover:text-white bg-[#0d0d0d] border border-[rgba(255,255,255,0.18)] transition-colors"
  >
  <Download className="w-4 h-4"/>
  </button>

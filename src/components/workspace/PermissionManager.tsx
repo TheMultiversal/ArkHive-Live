@@ -89,7 +89,7 @@ export const DEFAULT_ROLES: Role[] = [
     description: "Full control over the workspace",
     permissions: ["view", "comment", "edit", "delete", "manage", "admin"],
     isSystem: true,
-    color: "#d64545",
+    color: "#6b6b6b",
   },
   {
     id: "admin",
@@ -191,7 +191,7 @@ export function PermissionBadge({
     edit: "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
     delete: "bg-red-500/20 text-red-400 border-red-500/30",
     manage: "bg-amber-500/20 text-amber-400 border-amber-500/30",
-    admin: "bg-blood-500/20 text-blood-400 border-blood-500/30",
+    admin: "bg-zinc-500/20 text-zinc-400 border-zinc-600/30",
   };
 
   return (
@@ -566,7 +566,7 @@ export function InviteMemberDialog({
       >
         <div className="flex items-center justify-between p-4 border-b border-zinc-800">
           <h3 className="flex items-center gap-2 text-lg font-semibold text-white">
-            <UserPlus className="w-5 h-5 text-blood-500" />
+            <UserPlus className="w-5 h-5 text-zinc-300" />
             Invite Member
           </h3>
           <button
@@ -590,7 +590,7 @@ export function InviteMemberDialog({
                 setError(null);
               }}
               placeholder="colleague@example.com"
-              className="w-full px-4 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 transition-colors"
+              className="w-full px-4 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 transition-colors"
             />
             {error && (
               <p className="text-sm text-red-400 mt-1">{error}</p>
@@ -617,7 +617,7 @@ export function InviteMemberDialog({
           </button>
           <button
             onClick={handleSubmit}
-            className="px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors"
+            className="px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors"
           >
             Send Invite
           </button>
@@ -661,12 +661,12 @@ export function AccessLinkManager({
     <div className={`glass-card ${className}`}>
       <div className="flex items-center justify-between p-4 border-b border-zinc-800">
         <h3 className="flex items-center gap-2 font-semibold text-white">
-          <Key className="w-5 h-5 text-blood-500" />
+          <Key className="w-5 h-5 text-zinc-300" />
           Access Links
         </h3>
         <button
           onClick={() => setShowCreate(!showCreate)}
-          className="flex items-center gap-1 text-sm text-blood-400 hover:text-blood-300 transition-colors"
+          className="flex items-center gap-1 text-sm text-zinc-400 hover:text-white transition-colors"
         >
           <Plus className="w-4 h-4" />
           Create Link
@@ -697,7 +697,7 @@ export function AccessLinkManager({
                   onCreateLink(newLinkRole);
                   setShowCreate(false);
                 }}
-                className="px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors"
+                className="px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors"
               >
                 Create
               </button>

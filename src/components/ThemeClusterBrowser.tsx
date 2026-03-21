@@ -260,10 +260,10 @@ export function ThemeClusterBrowser() {
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div className="flex items-center gap-3">
-          <Layers className="w-6 h-6 text-blood-500" />
+          <Layers className="w-6 h-6 text-zinc-300" />
           <h2 className="text-2xl font-bold text-white">Theme Clusters</h2>
-          <span className="px-2 py-1 bg-blood-500/20 text-blood-400 text-sm border border-blood-500/30">
-            {THEME_DEFINITIONS.length} themes · {Object.values(investigationDatabase).length} investigations
+          <span className="px-2 py-1 bg-zinc-500/20 text-zinc-400 text-sm border border-zinc-600/30">
+            {THEME_DEFINITIONS.length} themes ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· {Object.values(investigationDatabase).length} investigations
           </span>
         </div>
 
@@ -277,7 +277,7 @@ export function ThemeClusterBrowser() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="pl-10 pr-4 py-2 bg-zinc-900 border border-zinc-700 text-white 
-                       placeholder-zinc-500 focus:outline-none focus:border-blood-500 w-48"
+                       placeholder-zinc-500 focus:outline-none focus:border-zinc-600 w-48"
             />
           </div>
 
@@ -296,13 +296,13 @@ export function ThemeClusterBrowser() {
           <div className="flex border border-zinc-700">
             <button
               onClick={() => setViewMode('grid')}
-              className={`p-2 ${viewMode === 'grid' ? 'bg-blood-500 text-white' : 'bg-zinc-900 text-zinc-400 hover:text-white'}`}
+              className={`p-2 ${viewMode === 'grid' ? 'bg-zinc-600 text-white' : 'bg-zinc-900 text-zinc-400 hover:text-white'}`}
             >
               <Grid className="w-4 h-4" />
             </button>
             <button
               onClick={() => setViewMode('list')}
-              className={`p-2 ${viewMode === 'list' ? 'bg-blood-500 text-white' : 'bg-zinc-900 text-zinc-400 hover:text-white'}`}
+              className={`p-2 ${viewMode === 'list' ? 'bg-zinc-600 text-white' : 'bg-zinc-900 text-zinc-400 hover:text-white'}`}
             >
               <List className="w-4 h-4" />
             </button>
@@ -326,7 +326,7 @@ export function ThemeClusterBrowser() {
               <button
                 key={cluster.theme.id}
                 onClick={() => setSelectedTheme(cluster.theme.id)}
-                className={`glass-card p-4 text-left transition-all hover:border-blood-500 group
+                className={`glass-card p-4 text-left transition-all hover:border-zinc-600 group
                   ${viewMode === 'list' ? 'flex items-center gap-4' : ''}`}
               >
                 {/* Icon */}
@@ -337,7 +337,7 @@ export function ThemeClusterBrowser() {
                 {/* Content */}
                 <div className={`${viewMode === 'list' ? 'flex-1' : ''}`}>
                   <div className="flex items-center gap-2 mb-1">
-                    <h3 className="text-white font-semibold group-hover:text-blood-400 transition-colors">
+                    <h3 className="text-white font-semibold group-hover:text-white transition-colors">
                       {cluster.theme.name}
                     </h3>
                     <span className="px-2 py-0.5 bg-zinc-800 text-zinc-400 text-xs">
@@ -371,7 +371,7 @@ export function ThemeClusterBrowser() {
                   )}
                 </div>
 
-                <ChevronRight className={`w-5 h-5 text-zinc-600 group-hover:text-blood-500 transition-colors
+                <ChevronRight className={`w-5 h-5 text-zinc-600 group-hover:text-white transition-colors
                   ${viewMode === 'list' ? '' : 'absolute right-4 top-1/2 -translate-y-1/2'}`} 
                 />
               </button>
@@ -388,9 +388,9 @@ export function ThemeClusterBrowser() {
             <button
               onClick={() => setSelectedTheme(null)}
               className="px-3 py-2 bg-zinc-900 border border-zinc-700 text-zinc-400 
-                       hover:text-white hover:border-blood-500 transition-colors"
+                       hover:text-white hover:border-zinc-600 transition-colors"
             >
-              ← Back to Themes
+              ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â Back to Themes
             </button>
             <div className={`${selectedCluster.theme.bgColor} p-2`}>
               {React.createElement(selectedCluster.theme.icon, { 
@@ -419,14 +419,14 @@ export function ThemeClusterBrowser() {
               <Link
                 key={investigation.slug}
                 href={`/investigations/${investigation.slug}`}
-                className="glass-card p-4 flex items-center gap-4 hover:border-blood-500 transition-colors group"
+                className="glass-card p-4 flex items-center gap-4 hover:border-zinc-600 transition-colors group"
               >
                 {/* Severity indicator */}
                 <div className={`w-2 h-12 ${severityColors[investigation.severity]}`} />
 
                 {/* Content */}
                 <div className="flex-1">
-                  <h4 className="font-semibold text-white group-hover:text-blood-400 transition-colors">
+                  <h4 className="font-semibold text-white group-hover:text-white transition-colors">
                     {investigation.title}
                   </h4>
                   <p className="text-sm text-zinc-500 line-clamp-1">
@@ -466,7 +466,7 @@ export function ThemeClusterBrowser() {
                   </p>
                 </div>
 
-                <ChevronRight className="w-5 h-5 text-zinc-600 group-hover:text-blood-500" />
+                <ChevronRight className="w-5 h-5 text-zinc-600 group-hover:text-white" />
               </Link>
             ))}
           </div>
@@ -501,7 +501,7 @@ export function TopThemesWidget({ limit = 5 }: { limit?: number }) {
   return (
     <div className="glass-card p-4">
       <div className="flex items-center gap-2 mb-4">
-        <Layers className="w-4 h-4 text-blood-500" />
+        <Layers className="w-4 h-4 text-zinc-300" />
         <h3 className="font-semibold text-white">Top Themes</h3>
       </div>
 
@@ -522,9 +522,9 @@ export function TopThemesWidget({ limit = 5 }: { limit?: number }) {
 
       <Link 
         href="/themes"
-        className="block mt-4 text-center text-sm text-blood-500 hover:text-blood-400"
+        className="block mt-4 text-center text-sm text-zinc-300 hover:text-white"
       >
-        View All Themes →
+        View All Themes ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢
       </Link>
     </div>
   );
@@ -560,7 +560,7 @@ export function ThemeDistributionChart() {
   return (
     <div className="glass-card p-4">
       <div className="flex items-center gap-2 mb-4">
-        <TrendingUp className="w-4 h-4 text-blood-500" />
+        <TrendingUp className="w-4 h-4 text-zinc-300" />
         <h3 className="font-semibold text-white">Theme Distribution</h3>
       </div>
 

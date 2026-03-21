@@ -88,7 +88,7 @@ export default function GlitchText({
  <>
  {/* Red offset layer */}
  <motion.span
- className="absolute inset-0 text-blood-600 z-0"
+ className="absolute inset-0 text-zinc-500 z-0"
  initial={{ opacity: 0 }}
  animate={{ 
  opacity: [0, 0.8, 0],
@@ -105,7 +105,7 @@ export default function GlitchText({
 
  {/* Cyan offset layer */}
  <motion.span
- className="absolute inset-0 text-blood-500 z-0"
+ className="absolute inset-0 text-zinc-300 z-0"
  initial={{ opacity: 0 }}
  animate={{ 
  opacity: [0, 0.8, 0],
@@ -133,7 +133,7 @@ export default function GlitchText({
 
  {/* Random character corruption */}
  <motion.span
- className="absolute inset-0 z-30 text-blood-600 font-mono"
+ className="absolute inset-0 z-30 text-zinc-500 font-mono"
  initial={{ opacity: 0 }}
  animate={{ opacity: [0, 1, 0] }}
  exit={{ opacity: 0 }}

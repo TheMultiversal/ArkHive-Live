@@ -73,8 +73,8 @@ export const FILE_UPLOAD = {
 export const SEVERITY_LEVELS = {
  critical: {
  label: 'Critical',
- color: '#d62a2a',
- bgColor: '#d62a2a20',
+ color: '#6b6b6b',
+ bgColor: '#6b6b6b20',
  priority: 1,
  },
  high: {
@@ -106,7 +106,7 @@ export const ENTITY_TYPES = {
  label: 'Agency',
  plural: 'Agencies',
  icon: 'building',
- color: '#b80000',
+ color: '#4a4a4a',
  },
  corporation: {
  label: 'Corporation',
@@ -136,7 +136,7 @@ export const DOCUMENT_STATUS = {
  draft: { label: 'Draft', color: '#6b7280' },
  pending: { label: 'Pending Review', color: '#f59e0b' },
  approved: { label: 'Approved', color: '#22c55e' },
- rejected: { label: 'Rejected', color: '#d62a2a' },
+ rejected: { label: 'Rejected', color: '#6b6b6b' },
  archived: { label: 'Archived', color: '#6b7280' },
 } as const;
 
@@ -184,14 +184,14 @@ export const WORKSPACE_ROLES = {
 // ============================================================
 
 export const NOTIFICATION_TYPES = {
- info: { icon: 'info', color: '#b80000' },
+ info: { icon: 'info', color: '#4a4a4a' },
  success: { icon: 'check-circle', color: '#22c55e' },
  warning: { icon: 'alert-triangle', color: '#f59e0b' },
- error: { icon: 'x-circle', color: '#d62a2a' },
+ error: { icon: 'x-circle', color: '#6b6b6b' },
  investigation: { icon: 'search', color: '#8b5cf6' },
  entity: { icon: 'building', color: '#14b8a6' },
  document: { icon: 'file-text', color: '#ec4899' },
- workspace: { icon: 'users', color: '#b80000' },
+ workspace: { icon: 'users', color: '#4a4a4a' },
  system: { icon: 'settings', color: '#6b7280' },
 } as const;
 
@@ -304,11 +304,11 @@ export const COLORS = {
  100: '#f7aeae',
  200: '#f08080',
  300: '#e85454',
- 400: '#d62a2a',
- 500: '#b80000',
- 600: '#8f0000',
+ 400: '#6b6b6b',
+ 500: '#4a4a4a',
+ 600: '#3d3d3d',
  700: '#6b0000',
- 800: '#4d0000',
+ 800: '#2a2a2a',
  900: '#330000',
  950: '#000a1f',
  },

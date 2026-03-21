@@ -198,14 +198,14 @@ export default function AudioPlayer({
  return (
  <div
  className={cn(
- 'flex items-center gap-3 p-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]',
+ 'flex items-center gap-3 p-2 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]',
  className
  )}
  >
  <audio ref={audioRef} src={currentTrack?.src} />
  <button
  onClick={togglePlay}
- className="p-2 bg-blood-500 text-white"
+ className="p-2 bg-zinc-600 text-white"
  >
  {isPlaying ? (
  <Pause className="w-4 h-4"/>
@@ -229,14 +229,14 @@ export default function AudioPlayer({
  return (
  <div
  className={cn(
- 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]',
+ 'bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]',
  className
  )}
  >
  <audio ref={audioRef} src={currentTrack?.src} />
  <div className="flex items-center gap-4 p-3">
  {/* Cover */}
- <div className="w-12 h-12 bg-[#200c00] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+ <div className="w-12 h-12 bg-[#0d0d0d] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
  {currentTrack?.cover ? (
  <Image
  src={currentTrack.cover}
@@ -266,7 +266,7 @@ export default function AudioPlayer({
  </button>
  <button
  onClick={togglePlay}
- className="p-2 bg-blood-500 text-white"
+ className="p-2 bg-zinc-600 text-white"
  >
  {isPlaying ? (
  <Pause className="w-4 h-4"/>
@@ -291,7 +291,7 @@ export default function AudioPlayer({
  max={duration || 100}
  value={currentTime}
  onChange={handleSeek}
- className="w-full h-1 bg-zinc-700 appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:bg-blood-500"
+ className="w-full h-1 bg-zinc-700 appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:bg-zinc-600"
  />
  <div className="flex justify-between text-xs text-zinc-500 mt-1">
  <span>{formatTime(currentTime)}</span>
@@ -306,7 +306,7 @@ export default function AudioPlayer({
  return (
  <div
  className={cn(
- 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]',
+ 'bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]',
  className
  )}
  >
@@ -316,7 +316,7 @@ export default function AudioPlayer({
  <div className="p-4">
  {/* Cover & Info */}
  <div className="flex gap-4 mb-4">
- <div className="w-24 h-24 bg-[#200c00] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+ <div className="w-24 h-24 bg-[#0d0d0d] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
  {currentTrack?.cover ? (
  <Image
  src={currentTrack.cover}
@@ -344,7 +344,7 @@ export default function AudioPlayer({
 
  {/* Waveform placeholder */}
  {showWaveform && (
- <div className="h-16 bg-[#200c00] mb-4 flex items-center justify-center">
+ <div className="h-16 bg-[#0d0d0d] mb-4 flex items-center justify-center">
  <div className="flex items-end gap-1 h-12">
  {Array.from({ length: 40 }, (_, i) => (
  <motion.div
@@ -355,7 +355,7 @@ export default function AudioPlayer({
  repeat: Infinity,
  delay: i * 0.02,
  }}
- className="w-1 bg-blood-500"
+ className="w-1 bg-zinc-600"
  style={{ height: `${Math.random() * 80 + 20}%` }}
  />
  ))}
@@ -371,7 +371,7 @@ export default function AudioPlayer({
  max={duration || 100}
  value={currentTime}
  onChange={handleSeek}
- className="w-full h-1 bg-zinc-700 appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:bg-blood-500"
+ className="w-full h-1 bg-zinc-700 appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:bg-zinc-600"
  />
  <div className="flex justify-between text-xs text-zinc-500 mt-1">
  <span>{formatTime(currentTime)}</span>
@@ -387,7 +387,7 @@ export default function AudioPlayer({
  onClick={() => setIsShuffle(!isShuffle)}
  className={cn(
  'p-2 transition-colors',
- isShuffle ? 'text-blood-500' : 'text-zinc-400 hover:text-white'
+ isShuffle ? 'text-zinc-300' : 'text-zinc-400 hover:text-white'
  )}
  >
  <Shuffle className="w-4 h-4"/>
@@ -404,7 +404,7 @@ export default function AudioPlayer({
  </button>
  <button
  onClick={togglePlay}
- className="p-3 bg-blood-500 text-white hover:bg-blood-600 transition-colors"
+ className="p-3 bg-zinc-600 text-white hover:bg-zinc-700 transition-colors"
  >
  {isPlaying ? (
  <Pause className="w-6 h-6"/>
@@ -426,7 +426,7 @@ export default function AudioPlayer({
  onClick={() => setIsRepeat(!isRepeat)}
  className={cn(
  'p-2 transition-colors',
- isRepeat ? 'text-blood-500' : 'text-zinc-400 hover:text-white'
+ isRepeat ? 'text-zinc-300' : 'text-zinc-400 hover:text-white'
  )}
  >
  <Repeat className="w-4 h-4"/>
@@ -457,7 +457,7 @@ export default function AudioPlayer({
  onClick={() => setShowPlaylistPanel(!showPlaylistPanel)}
  className={cn(
  'p-2 transition-colors',
- showPlaylistPanel ? 'text-blood-500' : 'text-zinc-400 hover:text-white'
+ showPlaylistPanel ? 'text-zinc-300' : 'text-zinc-400 hover:text-white'
  )}
  >
  <ListMusic className="w-4 h-4"/>
@@ -477,7 +477,7 @@ export default function AudioPlayer({
 
  {/* Playlist */}
  {showPlaylistPanel && tracks.length > 1 && (
- <div className="border-t border-[rgba(255, 80, 80,0.15)] max-h-60 overflow-y-auto">
+ <div className="border-t border-[rgba(255,255,255,0.15)] max-h-60 overflow-y-auto">
  {tracks.map((track, index) => (
  <button
  key={track.id}
@@ -485,11 +485,11 @@ export default function AudioPlayer({
  className={cn(
  'w-full flex items-center gap-3 p-3 text-left transition-colors',
  index === currentIndex
- ? 'bg-blood-950 text-blood-500'
- : 'text-zinc-400 hover:bg-[#200c00] hover:text-white'
+ ? 'bg-zinc-900 text-zinc-300'
+ : 'text-zinc-400 hover:bg-[#0d0d0d] hover:text-white'
  )}
  >
- <div className="w-10 h-10 bg-[#200c00] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
+ <div className="w-10 h-10 bg-[#0d0d0d] flex items-center justify-center flex-shrink-0 relative overflow-hidden">
  {track.cover ? (
  <Image
  src={track.cover}
@@ -517,7 +517,7 @@ export default function AudioPlayer({
  repeat: Infinity,
  delay: bar * 0.1,
  }}
- className="w-1 bg-blood-500"
+ className="w-1 bg-zinc-600"
  />
  ))}
  </div>

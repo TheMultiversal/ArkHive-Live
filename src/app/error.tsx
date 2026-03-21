@@ -18,10 +18,10 @@ export default function Error({ error, reset }: ErrorProps) {
  return (
  <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
  <div className="max-w-lg mx-auto px-4 text-center">
- <div className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-12">
+ <div className="border-2 border-zinc-800/60 bg-[rgba(0,6,20,0.90)] p-12">
  {/* Icon */}
- <div className="w-24 h-24 mx-auto mb-8 border-2 border-blood-700 bg-blood-950 flex items-center justify-center animate-pulse">
- <AlertTriangle className="w-12 h-12 text-blood-600"/>
+ <div className="w-24 h-24 mx-auto mb-8 border-2 border-zinc-700 bg-zinc-900 flex items-center justify-center animate-pulse">
+ <AlertTriangle className="w-12 h-12 text-zinc-500"/>
  </div>
 
  {/* Error Title */}
@@ -35,7 +35,7 @@ export default function Error({ error, reset }: ErrorProps) {
 
  {/* Error Details */}
  {error.digest && (
- <div className="mb-6 p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]">
+ <div className="mb-6 p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
  <span className="text-xs text-zinc-600 font-mono">
  Error ID: {error.digest}
  </span>
@@ -44,8 +44,8 @@ export default function Error({ error, reset }: ErrorProps) {
 
  {/* Error Message (in dev) */}
  {process.env.NODE_ENV === 'development' && (
- <div className="mb-6 p-4 bg-blood-950 border border-blood-900/50 text-left">
- <p className="text-xs text-blood-600 font-mono break-all">
+ <div className="mb-6 p-4 bg-zinc-900 border border-zinc-800/50 text-left">
+ <p className="text-xs text-zinc-500 font-mono break-all">
  {error.message}
  </p>
  </div>
@@ -55,14 +55,14 @@ export default function Error({ error, reset }: ErrorProps) {
  <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
  <button
  onClick={reset}
- className="flex items-center gap-2 px-6 py-3 border-2 border-blood-700 bg-blood-950 text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
+ className="flex items-center gap-2 px-6 py-3 border-2 border-zinc-700 bg-zinc-900 text-zinc-500 font-bold uppercase tracking-wider hover:bg-zinc-700 hover:text-white transition-all"
  >
  <RefreshCw className="w-5 h-5"/>
  Try Again
  </button>
  <Link
  href="/"
- className="flex items-center gap-2 px-6 py-3 border-2 border-[rgba(255, 60, 60,0.18)] text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
+ className="flex items-center gap-2 px-6 py-3 border-2 border-[rgba(255,255,255,0.18)] text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
  >
  <Home className="w-5 h-5"/>
  Return Home

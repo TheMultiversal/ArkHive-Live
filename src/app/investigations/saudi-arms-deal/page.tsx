@@ -87,13 +87,13 @@ const investigation = {
  { defendant: 'Trump (presidential veto)', charge: 'Vetoing bipartisan Congressional resolution to end U.S. support for Yemen war', outcome: 'Veto sustained Apr 2019; Congress unable to override; war continued' },
  ],
  charges: [
- { statute: '22 U.S.C. § 2753 (Arms Export Control Act)', description: 'Circumventing Congressional notification requirements by fabricating an emergency to approve arms sales', count: '22 separate arms sales totaling $8.1 billion' },
- { statute: '18 U.S.C. § 371', description: 'Conspiracy to defraud Congress by falsely declaring an emergency to bypass mandatory review period', count: '1 count covering the emergency declaration scheme' },
- { statute: '18 U.S.C. § 1505', description: 'Obstruction of congressional proceedings, firing IG Steve Linick while investigating the arms sale bypass', count: '1 count' },
- { statute: 'War Crimes Act (18 U.S.C. § 2441)', description: 'Aiding and abetting war crimes by providing weapons used to deliberately target civilian infrastructure in Yemen', count: 'Ongoing complicity documented by UN Panel of Experts' },
- { statute: '22 U.S.C. § 2304 (Leahy Law)', description: 'Providing military assistance to Saudi units credibly accused of gross human rights violations', count: 'Multiple violations documented by State Department\'s own reports' },
- { statute: '18 U.S.C. § 208', description: 'Conflicts of interest, Kushner\'s personal financial relationships with Saudi principals while negotiating deals', count: 'Pattern spanning 2017-2021' },
- { statute: '50 U.S.C. § 1701 (IEEPA)', description: 'Potential violations related to nuclear technology transfer discussions with Saudi Arabia without safeguards', count: 'Multiple instances per House Oversight Committee report' },
+ { statute: '22 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2753 (Arms Export Control Act)', description: 'Circumventing Congressional notification requirements by fabricating an emergency to approve arms sales', count: '22 separate arms sales totaling $8.1 billion' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 371', description: 'Conspiracy to defraud Congress by falsely declaring an emergency to bypass mandatory review period', count: '1 count covering the emergency declaration scheme' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1505', description: 'Obstruction of congressional proceedings, firing IG Steve Linick while investigating the arms sale bypass', count: '1 count' },
+ { statute: 'War Crimes Act (18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2441)', description: 'Aiding and abetting war crimes by providing weapons used to deliberately target civilian infrastructure in Yemen', count: 'Ongoing complicity documented by UN Panel of Experts' },
+ { statute: '22 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 2304 (Leahy Law)', description: 'Providing military assistance to Saudi units credibly accused of gross human rights violations', count: 'Multiple violations documented by State Department\'s own reports' },
+ { statute: '18 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 208', description: 'Conflicts of interest, Kushner\'s personal financial relationships with Saudi principals while negotiating deals', count: 'Pattern spanning 2017-2021' },
+ { statute: '50 U.S.C. ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ 1701 (IEEPA)', description: 'Potential violations related to nuclear technology transfer discussions with Saudi Arabia without safeguards', count: 'Multiple instances per House Oversight Committee report' },
  ],
  coverup: [
  'Secretary Pompeo declared a fabricated "emergency" in May 2019 to bypass the mandatory 30-day Congressional review of arms sales, citing an Iranian threat that intelligence agencies said did not justify the declaration.',
@@ -114,10 +114,10 @@ const investigation = {
 };
 
 const severityColors = {
- critical: 'text-blood-500 bg-blood-950 border-blood-800',
- high: 'text-blood-700 bg-blood-950 border-blood-800',
- medium: 'text-zinc-400 bg-[#1c0a00] border-zinc-700',
- low: 'text-blood-500 bg-blood-950 border-blood-800',
+ critical: 'text-zinc-300 bg-zinc-900 border-zinc-800',
+ high: 'text-zinc-600 bg-zinc-900 border-zinc-800',
+ medium: 'text-zinc-400 bg-[#0a0a0a] border-zinc-700',
+ low: 'text-zinc-300 bg-zinc-900 border-zinc-800',
 };
 
 export default function SaudiArmsDealPage() {
@@ -126,7 +126,7 @@ export default function SaudiArmsDealPage() {
  <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
  <Link
  href="/investigations"
- className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-6 pt-4"
+ className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-6 pt-4"
  >
  <ArrowLeft className="w-4 h-4"/>
  Back to Investigations
@@ -158,7 +158,7 @@ export default function SaudiArmsDealPage() {
  className="glass-card p-6 mb-8"
  >
  <div className="flex items-start gap-3">
- <AlertTriangle className="w-6 h-6 text-blood-500 flex-shrink-0 mt-1"/>
+ <AlertTriangle className="w-6 h-6 text-zinc-300 flex-shrink-0 mt-1"/>
  <p className="text-zinc-300 leading-relaxed">{investigation.summary}</p>
  </div>
  </motion.div>
@@ -171,31 +171,31 @@ export default function SaudiArmsDealPage() {
  className="mb-8"
  >
  <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
- <DollarSign className="w-6 h-6 text-blood-500"/>
+ <DollarSign className="w-6 h-6 text-zinc-300"/>
  Deal Overview
  </h2>
  <div className="glass-card p-6">
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-zinc-300"/>The Cover-Up</h2>
+ <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900 border border-zinc-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
- <div className="bg-[#1c0a00] p-4 border border-[rgba(255, 80, 80,0.15)]">
+ <div className="bg-[#0a0a0a] p-4 border border-[rgba(255,255,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Announced Value</p>
- <p className="text-blood-400 font-mono text-lg">{investigation.dealOverview.announcedValue}</p>
+ <p className="text-zinc-400 font-mono text-lg">{investigation.dealOverview.announcedValue}</p>
  </div>
- <div className="bg-[#1c0a00] p-4 border border-[rgba(255, 80, 80,0.15)]">
+ <div className="bg-[#0a0a0a] p-4 border border-[rgba(255,255,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Reality</p>
- <p className="text-blood-400">{investigation.dealOverview.actualValue}</p>
+ <p className="text-zinc-400">{investigation.dealOverview.actualValue}</p>
  </div>
- <div className="bg-[#1c0a00] p-4 border border-[rgba(255, 80, 80,0.15)]">
+ <div className="bg-[#0a0a0a] p-4 border border-[rgba(255,255,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Emergency Bypass Sales</p>
- <p className="text-blood-600 font-mono">{investigation.dealOverview.emergencySales}</p>
+ <p className="text-zinc-500 font-mono">{investigation.dealOverview.emergencySales}</p>
  </div>
- <div className="bg-[#1c0a00] p-4 border border-[rgba(255, 80, 80,0.15)]">
+ <div className="bg-[#0a0a0a] p-4 border border-[rgba(255,255,255,0.15)]">
  <p className="text-xs text-zinc-500 uppercase mb-1">Nuclear Plans</p>
- <p className="text-blood-400">{investigation.dealOverview.nuclearPlans}</p>
+ <p className="text-zinc-400">{investigation.dealOverview.nuclearPlans}</p>
  </div>
  </div>
  </div>
@@ -209,15 +209,15 @@ export default function SaudiArmsDealPage() {
  className="mb-8"
  >
  <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
- <AlertTriangle className="w-6 h-6 text-blood-500"/>
+ <AlertTriangle className="w-6 h-6 text-zinc-300"/>
  Congressional Bypass
  </h2>
  <div className="space-y-4">
  {investigation.congressionalBypass.map((bypass, index) => (
  <div key={index} className="glass-card p-4">
  <div className="flex items-start justify-between mb-2">
- <span className="text-blood-500 font-mono text-sm">{bypass.date}</span>
- <span className="text-xs bg-blood-950 text-blood-400 px-2 py-1">{bypass.action}</span>
+ <span className="text-zinc-300 font-mono text-sm">{bypass.date}</span>
+ <span className="text-xs bg-zinc-900 text-zinc-400 px-2 py-1">{bypass.action}</span>
  </div>
  <p className="text-zinc-300">{bypass.detail}</p>
  {bypass.weapons && (
@@ -236,18 +236,18 @@ export default function SaudiArmsDealPage() {
  className="mb-8"
  >
  <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
- <Target className="w-6 h-6 text-blood-500"/>
+ <Target className="w-6 h-6 text-zinc-300"/>
  Yemen War Consequences
  </h2>
- <div className="glass-card p-6 border-l-4 border-blood-500">
+ <div className="glass-card p-6 border-l-4 border-zinc-600">
  <p className="text-zinc-300 mb-4">{investigation.yemenConsequences.description}</p>
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
  <div className="text-center">
- <p className="text-3xl font-bold text-blood-500">377,000+</p>
+ <p className="text-3xl font-bold text-zinc-300">377,000+</p>
  <p className="text-xs text-zinc-500">Total Deaths</p>
  </div>
  <div className="text-center">
- <p className="text-xl font-bold text-blood-700">Worst</p>
+ <p className="text-xl font-bold text-zinc-600">Worst</p>
  <p className="text-xs text-zinc-500">Humanitarian Crisis</p>
  </div>
  <div className="text-center">
@@ -255,7 +255,7 @@ export default function SaudiArmsDealPage() {
  <p className="text-xs text-zinc-500">Documented</p>
  </div>
  <div className="text-center">
- <p className="text-xl font-bold text-blood-400">U.S. Complicity</p>
+ <p className="text-xl font-bold text-zinc-400">U.S. Complicity</p>
  <p className="text-xs text-zinc-500">{investigation.yemenConsequences.usComplicity}</p>
  </div>
  </div>
@@ -270,7 +270,7 @@ export default function SaudiArmsDealPage() {
  className="mb-8"
  >
  <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
- <DollarSign className="w-6 h-6 text-blood-500"/>
+ <DollarSign className="w-6 h-6 text-zinc-300"/>
  Defense Contractor Profits
  </h2>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -278,7 +278,7 @@ export default function SaudiArmsDealPage() {
  <div key={index} className="glass-card p-4">
  <div className="flex justify-between items-start mb-2">
  <h3 className="glass-text font-bold">{contractor.company}</h3>
- <span className="text-blood-400 font-mono">{contractor.amount}</span>
+ <span className="text-zinc-400 font-mono">{contractor.amount}</span>
  </div>
  <p className="text-zinc-400 text-sm">{contractor.weapons}</p>
  </div>
@@ -294,7 +294,7 @@ export default function SaudiArmsDealPage() {
  className="mb-8"
  >
  <h2 className="text-2xl font-bold glass-text mb-4 flex items-center gap-2">
- <Users className="w-6 h-6 text-blood-500"/>
+ <Users className="w-6 h-6 text-zinc-300"/>
  Key Figures
  </h2>
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -302,11 +302,11 @@ export default function SaudiArmsDealPage() {
  <Link
  key={index}
  href={figure.href}
- className="glass-card p-4 hover:border-blood-500 transition-colors"
+ className="glass-card p-4 hover:border-zinc-600 transition-colors"
  >
  <div className="flex items-start justify-between mb-2">
- <h3 className="glass-text font-bold hover:text-blood-400">{figure.name}</h3>
- <span className="text-xs bg-[#200c00] text-zinc-400 px-2 py-1">{figure.status}</span>
+ <h3 className="glass-text font-bold hover:text-white">{figure.name}</h3>
+ <span className="text-xs bg-[#0d0d0d] text-zinc-400 px-2 py-1">{figure.status}</span>
  </div>
  <p className="text-zinc-400 text-sm">{figure.role}</p>
  </Link>
@@ -329,7 +329,7 @@ export default function SaudiArmsDealPage() {
  <div className="space-y-4">
  {investigation.timeline.map((event, index) => (
  <div key={index} className="flex gap-4 items-start">
- <span className="text-blood-500 font-mono text-sm whitespace-nowrap min-w-[100px]">
+ <span className="text-zinc-300 font-mono text-sm whitespace-nowrap min-w-[100px]">
  {event.date}
  </span>
  <span className="text-zinc-300">{event.event}</span>
@@ -341,13 +341,13 @@ export default function SaudiArmsDealPage() {
 
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-zinc-400 mt-1">{item.outcome}</p></div>))}</div>
  </motion.section>
  
  <motion.section initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }} className="glass-card p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Applicable Charges &amp; Statutes</h2>
- <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold text-blood-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-blood-400 mt-1">{charge.count}</p></div>))}</div>
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Applicable Charges &amp; Statutes</h2>
+ <div className="space-y-3">{investigation.charges.map((charge, idx) => (<div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold text-zinc-400 text-sm font-mono">{charge.statute}</p><p className="text-sm text-zinc-300 mt-1">{charge.description}</p><p className="text-xs text-zinc-400 mt-1">{charge.count}</p></div>))}</div>
  </motion.section>
  {/* Sources */}
  <motion.section
@@ -367,7 +367,7 @@ export default function SaudiArmsDealPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between p-3 bg-[#1c0a00] hover:bg-[#200c00] transition-colors border border-[rgba(255, 80, 80,0.15)]"
+ className="flex items-center justify-between p-3 bg-[#0a0a0a] hover:bg-[#0d0d0d] transition-colors border border-[rgba(255,255,255,0.15)]"
  >
  <div>
  <p className="text-white">{source.title}</p>

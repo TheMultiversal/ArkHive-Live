@@ -443,7 +443,7 @@ export function PendingChangesPanel<T>({
               <button
                 onClick={onSync}
                 disabled={isSyncing}
-                className="flex-1 flex items-center justify-center gap-2 px-3 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors disabled:opacity-50"
+                className="flex-1 flex items-center justify-center gap-2 px-3 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors disabled:opacity-50"
               >
                 {isSyncing ? (
                   <Loader2 className="w-4 h-4 animate-spin" />
@@ -552,7 +552,7 @@ export function ConflictResolutionDialog<T>({
           </button>
           <button
             onClick={() => onResolve("merge")}
-            className="px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors"
+            className="px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors"
           >
             Merge Changes
           </button>

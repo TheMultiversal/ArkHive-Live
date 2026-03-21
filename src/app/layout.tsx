@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
- themeColor:"#8f0000",
+ themeColor:"#3d3d3d",
  width:"device-width",
  initialScale: 1,
 };
@@ -69,10 +69,10 @@ export default function RootLayout({
    sr-only focus:not-sr-only 
    focus:absolute focus:top-4 focus:left-4 focus:z-[200] 
    focus:px-6 focus:py-3 
-   focus:bg-blood-900 focus:border-2 focus:border-blood-500 
+   focus:bg-zinc-800 focus:border-2 focus:border-zinc-600 
    focus:text-white focus:font-bold focus:text-sm focus:uppercase focus:tracking-wider
-   focus:outline-none focus:ring-2 focus:ring-blood-400 focus:ring-offset-2 focus:ring-offset-black
-   focus:shadow-lg focus:shadow-blood-900/50
+   focus:outline-none focus:ring-2 focus:ring-zinc-500 focus:ring-offset-2 focus:ring-offset-black
+   focus:shadow-lg focus:shadow-zinc-800/50
  "
  >
  Skip to main content

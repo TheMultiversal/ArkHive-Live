@@ -62,7 +62,7 @@ export default function FilterBar({
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
  placeholder="Search investigations..."
- className="w-full pl-11 pr-4 py-3 bg-black border-2 border-[rgba(255, 80, 80,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-blood-700 transition-colors"
+ className="w-full pl-11 pr-4 py-3 bg-black border-2 border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 transition-colors"
  />
  {searchQuery && (
  <button
@@ -80,14 +80,14 @@ export default function FilterBar({
  onClick={() => setShowFilters(!showFilters)}
  className={`flex items-center gap-2 px-4 py-3 border-2 transition-colors ${
  showFilters || activeFiltersCount > 0
- ? 'border-blood-700 bg-blood-950 text-blood-600'
- : 'border-[rgba(255, 80, 80,0.15)] text-zinc-500 hover:border-[rgba(255, 60, 60,0.18)]'
+ ? 'border-zinc-700 bg-zinc-900 text-zinc-500'
+ : 'border-[rgba(255,255,255,0.15)] text-zinc-500 hover:border-[rgba(255,255,255,0.18)]'
  }`}
  >
  <Filter className="w-4 h-4"/>
  <span className="text-sm font-medium">Filters</span>
  {activeFiltersCount > 0 && (
- <span className="px-2 py-0.5 bg-blood-700 text-white text-xs font-bold">
+ <span className="px-2 py-0.5 bg-zinc-700 text-white text-xs font-bold">
  {activeFiltersCount}
  </span>
  )}
@@ -97,7 +97,7 @@ export default function FilterBar({
 
  {/* Filter Options */}
  {showFilters && (
- <div className="p-4 border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] space-y-4">
+ <div className="p-4 border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] space-y-4">
  <div className="flex flex-wrap gap-6">
  {/* Severity Filter */}
  <div className="space-y-2">
@@ -110,7 +110,7 @@ export default function FilterBar({
  className={`px-3 py-1.5 border text-xs font-medium transition-colors ${
  currentSeverity === key
  ? config.color
- : 'border-[rgba(255, 80, 80,0.15)] text-zinc-500 hover:border-[rgba(255, 60, 60,0.18)]'
+ : 'border-[rgba(255,255,255,0.15)] text-zinc-500 hover:border-[rgba(255,255,255,0.18)]'
  }`}
  >
  {config.label}
@@ -129,8 +129,8 @@ export default function FilterBar({
  onClick={() => onCategoryChange(currentCategory === category ? null : category)}
  className={`px-3 py-1.5 border text-xs font-medium transition-colors ${
  currentCategory === category
- ? 'border-blood-700 bg-blood-950 text-blood-600'
- : 'border-[rgba(255, 80, 80,0.15)] text-zinc-500 hover:border-[rgba(255, 60, 60,0.18)]'
+ ? 'border-zinc-700 bg-zinc-900 text-zinc-500'
+ : 'border-[rgba(255,255,255,0.15)] text-zinc-500 hover:border-[rgba(255,255,255,0.18)]'
  }`}
  >
  {category}
@@ -145,7 +145,7 @@ export default function FilterBar({
  <select
  value={currentSort}
  onChange={(e) => onSortChange(e.target.value)}
- className="px-3 py-1.5 bg-black border-2 border-[rgba(255, 80, 80,0.15)] text-zinc-400 text-sm focus:outline-none focus:border-blood-700"
+ className="px-3 py-1.5 bg-black border-2 border-[rgba(255,255,255,0.15)] text-zinc-400 text-sm focus:outline-none focus:border-zinc-700"
  >
  <option value="date">Most Recent</option>
  <option value="severity">Severity</option>
@@ -157,10 +157,10 @@ export default function FilterBar({
 
  {/* Clear Filters */}
  {activeFiltersCount > 0 && (
- <div className="pt-4 border-t border-[rgba(255, 80, 80,0.15)]">
+ <div className="pt-4 border-t border-[rgba(255,255,255,0.15)]">
  <button
  onClick={clearFilters}
- className="text-sm text-zinc-500 hover:text-blood-600 transition-colors"
+ className="text-sm text-zinc-500 hover:text-zinc-500 transition-colors"
  >
  Clear all filters
  </button>

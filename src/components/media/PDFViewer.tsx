@@ -135,18 +135,18 @@ export default function PDFViewer({
  <div
  ref={containerRef}
  className={cn(
- 'flex flex-col bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]',
+ 'flex flex-col bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]',
  isFullscreen && 'fixed inset-0 z-50',
  className
  )}
  >
  {/* Toolbar */}
  {showToolbar && (
- <div className="flex items-center justify-between p-2 border-b border-[rgba(255, 80, 80,0.15)] bg-[#200c00]">
+ <div className="flex items-center justify-between p-2 border-b border-[rgba(255,255,255,0.15)] bg-[#0d0d0d]">
  {/* Left: Title and page info */}
  <div className="flex items-center gap-4">
  <div className="flex items-center gap-2 text-white">
- <FileText className="w-4 h-4 text-blood-500"/>
+ <FileText className="w-4 h-4 text-zinc-300"/>
  <span className="text-sm truncate max-w-[200px]">
  {title || 'Document'}
  </span>
@@ -168,7 +168,7 @@ export default function PDFViewer({
  onChange={(e) => handlePageChange(parseInt(e.target.value) || 1)}
  min={1}
  max={numPages}
- className="w-12 px-2 py-1 bg-zinc-700 border border-zinc-600 text-white text-center focus:outline-none focus:border-blood-500"
+ className="w-12 px-2 py-1 bg-zinc-700 border border-zinc-600 text-white text-center focus:outline-none focus:border-zinc-600"
  />
  <span className="text-zinc-500">/ {numPages}</span>
  </div>
@@ -219,7 +219,7 @@ export default function PDFViewer({
  className={cn(
  'p-1.5 transition-colors',
  showSearch
- ? 'text-blood-500'
+ ? 'text-zinc-300'
  : 'text-zinc-400 hover:text-white'
  )}
  title="Search"
@@ -265,7 +265,7 @@ export default function PDFViewer({
  initial={{ height: 0, opacity: 0 }}
  animate={{ height: 'auto', opacity: 1 }}
  exit={{ height: 0, opacity: 0 }}
- className="border-b border-[rgba(255, 80, 80,0.15)] bg-zinc-800"
+ className="border-b border-[rgba(255,255,255,0.15)] bg-zinc-800"
  >
  <div className="flex items-center gap-2 p-2">
  <Search className="w-4 h-4 text-zinc-500"/>
@@ -284,9 +284,9 @@ export default function PDFViewer({
  <div className="flex-1 relative overflow-auto">
  {/* Loading state */}
  {loading && (
- <div className="absolute inset-0 flex items-center justify-center bg-[#1c0a00]">
+ <div className="absolute inset-0 flex items-center justify-center bg-[#0a0a0a]">
  <div className="flex flex-col items-center gap-3">
- <Loader2 className="w-8 h-8 text-blood-500 animate-spin"/>
+ <Loader2 className="w-8 h-8 text-zinc-300 animate-spin"/>
  <span className="text-sm text-zinc-400">Loading document...</span>
  </div>
  </div>
@@ -294,16 +294,16 @@ export default function PDFViewer({
 
  {/* Error state */}
  {error && (
- <div className="absolute inset-0 flex items-center justify-center bg-[#1c0a00]">
+ <div className="absolute inset-0 flex items-center justify-center bg-[#0a0a0a]">
  <div className="flex flex-col items-center gap-3 text-center p-6">
- <AlertCircle className="w-12 h-12 text-blood-500"/>
+ <AlertCircle className="w-12 h-12 text-zinc-300"/>
  <div>
  <p className="text-white font-medium">Failed to load document</p>
  <p className="text-sm text-zinc-400 mt-1">{error}</p>
  </div>
  <button
  onClick={() => window.location.reload()}
- className="px-4 py-2 bg-[#200c00] text-white hover:bg-zinc-700 transition-colors"
+ className="px-4 py-2 bg-[#0d0d0d] text-white hover:bg-zinc-700 transition-colors"
  >
  Try again
  </button>
@@ -336,7 +336,7 @@ export default function PDFViewer({
 
  {/* Page thumbnails sidebar (optional) */}
  {numPages && numPages > 1 && (
- <div className="border-t border-[rgba(255, 80, 80,0.15)] bg-[#200c00] p-2">
+ <div className="border-t border-[rgba(255,255,255,0.15)] bg-[#0d0d0d] p-2">
  <div className="flex gap-2 overflow-x-auto">
  {Array.from({ length: Math.min(numPages, 10) }, (_, i) => (
  <button
@@ -345,7 +345,7 @@ export default function PDFViewer({
  className={cn(
  'flex-shrink-0 w-12 h-16 flex items-center justify-center text-xs transition-all',
  currentPage === i + 1
- ? 'bg-blood-500 text-white'
+ ? 'bg-zinc-600 text-white'
  : 'bg-zinc-700 text-zinc-400 hover:bg-zinc-600'
  )}
  >

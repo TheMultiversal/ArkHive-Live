@@ -144,18 +144,18 @@ export default function GeographicHeatMap({
   const hoveredStateData = hoveredState ? stateData.get(hoveredState) : null;
   
   return (
-    <div className={`bg-zinc-950 border border-blood-900/30 ${className}`}>
+    <div className={`bg-zinc-950 border border-zinc-800/30 ${className}`}>
       {/* Header */}
-      <div className="border-b border-blood-900/30 px-4 py-3 flex items-center justify-between">
+      <div className="border-b border-zinc-800/30 px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <MapPin className="w-4 h-4 text-blood-500" />
+          <MapPin className="w-4 h-4 text-zinc-300" />
           <h3 className="text-sm font-bold text-white uppercase tracking-wider">{title}</h3>
         </div>
         {hoveredStateInfo && (
           <div className="text-xs text-zinc-400">
             {hoveredStateInfo.name}
             {hoveredStateData && (
-              <span className="text-blood-400 ml-2">
+              <span className="text-zinc-400 ml-2">
                 {hoveredStateData.total} incidents
               </span>
             )}
@@ -195,7 +195,7 @@ export default function GeographicHeatMap({
                     : "cursor-default opacity-30"
                   }
                   ${isSelected ? "ring-2 ring-white ring-offset-1 ring-offset-black z-20" : ""}
-                  ${isHovered && !isSelected ? "ring-1 ring-blood-500" : ""}
+                  ${isHovered && !isSelected ? "ring-1 ring-zinc-600" : ""}
                 `}
                 style={{
                   gridRow: pos.row - minRow + 1,
@@ -207,7 +207,7 @@ export default function GeographicHeatMap({
               >
                 {abbr}
                 {hasData && data.total > 1 && (
-                  <span className="absolute -top-1 -right-1 w-3 h-3 bg-blood-600 text-[7px] flex items-center justify-center rounded-full">
+                  <span className="absolute -top-1 -right-1 w-3 h-3 bg-zinc-700 text-[7px] flex items-center justify-center rounded-full">
                     {data.total > 9 ? "9+" : data.total}
                   </span>
                 )}
@@ -237,7 +237,7 @@ export default function GeographicHeatMap({
       
       {/* Selected State Detail */}
       {selectedState && selectedStateData && (
-        <div className="border-t border-blood-900/30 p-4 bg-black/50">
+        <div className="border-t border-zinc-800/30 p-4 bg-black/50">
           <div className="flex items-start justify-between mb-3">
             <div>
               <h4 className="text-sm font-bold text-white">
@@ -251,7 +251,7 @@ export default function GeographicHeatMap({
               onClick={() => setSelectedState(null)}
               className="text-xs text-zinc-600 hover:text-white"
             >
-              ✕
+              Ã¢Å“â€¢
             </button>
           </div>
           <div className="space-y-2 max-h-40 overflow-y-auto">

@@ -730,7 +730,7 @@ export function CacheStatsDisplay({ stats }: CacheStatsDisplayProps): React.Reac
   return (
     <div className="bg-zinc-900 border border-zinc-800 p-4">
       <div className="flex items-center gap-2 mb-4">
-        <Database className="w-4 h-4 text-blood-400" />
+        <Database className="w-4 h-4 text-zinc-400" />
         <h3 className="text-sm font-medium text-zinc-300">Cache Statistics</h3>
       </div>
 
@@ -752,7 +752,7 @@ export function CacheStatsDisplay({ stats }: CacheStatsDisplayProps): React.Reac
           <p className="text-lg font-mono text-zinc-300">
             <span className="text-emerald-400">{stats.hits}</span>
             {' / '}
-            <span className="text-blood-400">{stats.misses}</span>
+            <span className="text-zinc-400">{stats.misses}</span>
           </p>
         </div>
         <div>
@@ -769,7 +769,7 @@ export function CacheStatsDisplay({ stats }: CacheStatsDisplayProps): React.Reac
         </div>
         <div className="h-2 bg-zinc-800">
           <div
-            className="h-full bg-blood-500 transition-all duration-300"
+            className="h-full bg-zinc-600 transition-all duration-300"
             style={{ width: `${(stats.size / stats.maxSize) * 100}%` }}
           />
         </div>
@@ -813,7 +813,7 @@ export function CacheEntryList({ entries, onDelete }: CacheEntryListProps): Reac
           {onDelete && (
             <button
               onClick={() => onDelete(key)}
-              className="p-1 text-zinc-500 hover:text-blood-400"
+              className="p-1 text-zinc-500 hover:text-white"
             >
               <Trash2 className="w-4 h-4" />
             </button>
@@ -863,7 +863,7 @@ export function CacheManager({ cache }: CacheManagerProps): React.ReactElement {
             cache.clear();
             setStats(cache.getStats());
           }}
-          className="px-3 py-1.5 text-sm bg-blood-900/50 text-blood-400 hover:bg-blood-900 flex items-center gap-2"
+          className="px-3 py-1.5 text-sm bg-zinc-800/50 text-zinc-400 hover:bg-zinc-800 flex items-center gap-2"
         >
           <Trash2 className="w-4 h-4" />
           Clear Cache

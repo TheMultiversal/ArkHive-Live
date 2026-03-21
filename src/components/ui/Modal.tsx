@@ -97,7 +97,7 @@ export default function Modal({
  animate={{ opacity: 1, scale: 1, y: 0 }}
  exit={{ opacity: 0, scale: 0.95, y: 20 }}
  transition={{ duration: 0.2 }}
- className={`relative w-full ${sizeClasses[size]} bg-black border-2 border-blood-800/60 max-h-[90vh] overflow-hidden flex flex-col ${className}`}
+ className={`relative w-full ${sizeClasses[size]} bg-black border-2 border-zinc-800/60 max-h-[90vh] overflow-hidden flex flex-col ${className}`}
  role="dialog"
  aria-modal="true"
  aria-labelledby={title ? 'modal-title' : undefined}
@@ -105,7 +105,7 @@ export default function Modal({
  >
  {/* Header */}
  {title && (
- <div className="flex items-center justify-between p-4 border-b border-[rgba(255, 80, 80,0.15)]">
+ <div className="flex items-center justify-between p-4 border-b border-[rgba(255,255,255,0.15)]">
  <h2
  id="modal-title"
  className="text-lg font-bold glass-text uppercase tracking-wider"
@@ -114,7 +114,7 @@ export default function Modal({
  </h2>
  <button
  onClick={onClose}
- className="p-2 text-zinc-500 hover:text-blood-600 transition-colors"
+ className="p-2 text-zinc-500 hover:text-zinc-500 transition-colors"
  aria-label="Close modal"
  >
  <X className="w-5 h-5"/>
@@ -126,7 +126,7 @@ export default function Modal({
  {!title && (
  <button
  onClick={onClose}
- className="absolute top-4 right-4 p-2 text-zinc-500 hover:text-blood-600 transition-colors z-10"
+ className="absolute top-4 right-4 p-2 text-zinc-500 hover:text-zinc-500 transition-colors z-10"
  aria-label="Close modal"
  >
  <X className="w-5 h-5"/>

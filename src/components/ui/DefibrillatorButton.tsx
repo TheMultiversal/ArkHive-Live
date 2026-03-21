@@ -53,9 +53,9 @@ export default function DefibrillatorButton({
  };
 
  const variantStyles = {
- primary: 'from-blood-800 to-blood-900 hover:from-blood-700 hover:to-blood-800',
+ primary: 'from-zinc-800 to-zinc-800 hover:from-zinc-700 hover:to-zinc-800',
  secondary: 'from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-800',
- danger: 'from-blood-800 to-blood-950 hover:from-blood-800 hover:to-blood-900',
+ danger: 'from-zinc-800 to-zinc-900 hover:from-zinc-800 hover:to-zinc-800',
  };
 
  const sizeStyles = {
@@ -70,7 +70,7 @@ export default function DefibrillatorButton({
  relative overflow-hidden
  ${sizeStyles[size]} 
  bg-gradient-to-b ${variantStyles[variant]}
- border border-blood-900/50
+ border border-zinc-800/50
  font-bold glass-text uppercase tracking-wider
  transition-all duration-300
  ${className}
@@ -124,7 +124,7 @@ export default function DefibrillatorButton({
  <AnimatePresence>
  {showClear && (
  <motion.div
- className="absolute inset-0 flex items-center justify-center bg-blood-900/90"
+ className="absolute inset-0 flex items-center justify-center bg-zinc-800/90"
  initial={{ opacity: 0, scale: 0.5 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 1.5 }}

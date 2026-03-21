@@ -95,22 +95,22 @@ export default function RelatedInvestigations({
   if (topRecommendations.length === 0) return null;
   
   return (
-    <div className={`border border-blood-900/40 bg-gradient-to-b from-[#0a0505] to-[#050202] ${className}`}>
+    <div className={`border border-zinc-800/40 bg-gradient-to-b from-[#0a0a0a] to-[#050202] ${className}`}>
       {/* Header */}
-      <div className="border-b border-blood-900/30 px-4 py-3 flex items-center gap-2">
-        <Lightbulb className="w-4 h-4 text-blood-500" />
+      <div className="border-b border-zinc-800/30 px-4 py-3 flex items-center gap-2">
+        <Lightbulb className="w-4 h-4 text-zinc-300" />
         <h3 className="text-sm font-bold text-white uppercase tracking-wider">
           You Might Also Investigate
         </h3>
       </div>
       
       {/* Recommendations */}
-      <div className="divide-y divide-blood-950/50">
+      <div className="divide-y divide-zinc-800/50">
         {topRecommendations.map((rec) => (
           <Link
             key={rec.slug}
             href={`/investigations/${rec.slug}`}
-            className="block p-4 hover:bg-blood-950/30 transition-colors group"
+            className="block p-4 hover:bg-zinc-800/80/30 transition-colors group"
           >
             <div className="flex items-start gap-3">
               {/* Severity indicator */}
@@ -127,23 +127,23 @@ export default function RelatedInvestigations({
                 {/* Metadata */}
                 <div className="mt-1 flex items-center gap-2 text-[11px]">
                   <span className="text-zinc-500">{rec.category}</span>
-                  <span className="text-zinc-700">•</span>
-                  <span className="text-blood-500/70">{rec.matchReason}</span>
+                  <span className="text-zinc-700">ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢</span>
+                  <span className="text-zinc-300/70">{rec.matchReason}</span>
                 </div>
               </div>
               
               {/* Arrow */}
-              <ArrowRight className="w-4 h-4 text-zinc-600 group-hover:text-blood-500 transition-colors flex-shrink-0 mt-1" />
+              <ArrowRight className="w-4 h-4 text-zinc-600 group-hover:text-white transition-colors flex-shrink-0 mt-1" />
             </div>
           </Link>
         ))}
       </div>
       
       {/* View all link */}
-      <div className="border-t border-blood-900/30 px-4 py-2">
+      <div className="border-t border-zinc-800/30 px-4 py-2">
         <Link
           href={`/investigations?category=${encodeURIComponent(currentData.category)}`}
-          className="text-xs text-blood-500 hover:text-blood-400 font-medium flex items-center gap-1 transition-colors"
+          className="text-xs text-zinc-300 hover:text-white font-medium flex items-center gap-1 transition-colors"
         >
           <span>View all {currentData.category} investigations</span>
           <ArrowRight className="w-3 h-3" />

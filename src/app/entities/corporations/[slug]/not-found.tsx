@@ -1,63 +1,125 @@
-'use client';
+"use client";
 
-import { Building2, AlertTriangle, ArrowLeft, Home } from"lucide-react";
-import Link from"next/link";
+import { useState, useMemo } from "react";
+import Link from "next/link";
+import { Landmark, Search, Skull, Filter } from "lucide-react";
+import EntityCard from"@/components/cards/EntityCard";
+import agencyData from"@/data/agencies";
+import Breadcrumbs from"@/components/layout/Breadcrumbs";
 
-export default function CorporationNotFound() {
- return (
- <div className="min-h-screen pt-20 lg:pt-24 pb-16 flex items-center justify-center">
- <div className="max-w-lg mx-auto px-4 text-center">
- <div className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-12">
- {/* Icon */}
- <div className="w-24 h-24 mx-auto mb-8 border-2 border-blood-700 bg-blood-950 flex items-center justify-center">
- <Building2 className="w-12 h-12 text-blood-600"/>
- </div>
+interface Entity {
+  id: string;
+  slug: string;
+  name: string;
+  type: "agency" | "corporation" | "individual" | "organization";
+  description: string;
+  role: string;
+  investigationCount: number;
+  riskLevel: "extreme" | "high" | "moderate" | "low";
+  imageUrl?: string;
+}
 
- {/* Error Code */}
- <div className="mb-6">
- <span className="text-8xl font-black text-blood-700">404</span>
- </div>
+// Build entity list from live shard data
+const agencies: Entity[] = Object.values(agencyData).map((a: any) => ({
+  id: a.id || a.slug,
+  slug: a.slug,
+  name: a.name,
+  type: "agency" as const,
+  description: a.description,
+  role: a.role,
+  investigationCount: a.investigationCount || 0,
+  riskLevel: a.riskLevel as Entity["riskLevel"],
+}));
 
- {/* Message */}
- <h1 className="text-2xl font-black glass-text uppercase tracking-wider mb-4">
- CORPORATION NOT FOUND
- </h1>
- 
- <p className="text-zinc-400 mb-8 leading-relaxed">
- This corporate record has been <span className="text-blood-600 font-bold">sealed</span>, 
- is under legal protection, or does not exist in our database.
- </p>
+const riskOrder: Record<string, number> = { extreme: 0, high: 1, moderate: 2, low: 3 };
+agencies.sort(
+  (a, b) => riskOrder[a.riskLevel] - riskOrder[b.riskLevel] || a.name.localeCompare(b.name)
+);
 
- {/* Warning */}
- <div className="flex items-center justify-center gap-2 text-zinc-600 text-sm mb-8">
- <AlertTriangle className="w-4 h-4"/>
- <span>Your access attempt has been logged.</span>
- </div>
+type RiskFilter = "all" | "extreme" | "high" | "moderate" | "low";
 
- {/* Actions */}
- <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
- <Link
- href="/entities/corporations"
- className="flex items-center gap-2 px-6 py-3 border-2 border-blood-700 bg-blood-950 text-blood-600 font-bold uppercase tracking-wider hover:bg-blood-700 hover:text-white transition-all"
- >
- <ArrowLeft className="w-5 h-5"/>
- All Corporations
- </Link>
- <Link
- href="/"
- className="flex items-center gap-2 px-6 py-3 border-2 border-[rgba(255, 60, 60,0.18)] text-zinc-400 font-bold uppercase tracking-wider hover:border-zinc-600 hover:text-zinc-300 transition-all"
- >
- <Home className="w-5 h-5"/>
- Return Home
- </Link>
- </div>
- </div>
+export default function AgenciesPage() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [riskFilter, setRiskFilter] = useState<RiskFilter>("all");
 
- {/* Decorative */}
- <div className="mt-8 text-xs text-zinc-700 uppercase tracking-widest">
- Error Code: CORPORATE_RECORD_SEALED
- </div>
- </div>
- </div>
- );
+  const filtered = useMemo(() => {
+    return agencies.filter((a) => {
+      const matchesSearch =
+        a.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        a.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        a.role.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesRisk = riskFilter === "all" || a.riskLevel === riskFilter;
+      return matchesSearch && matchesRisk;
+    });
+  }, [searchQuery, riskFilter]);
+
+  const riskCounts = useMemo(
+    () => ({
+      all: agencies.length,
+      extreme: agencies.filter((i) => i.riskLevel === "extreme").length,
+      high: agencies.filter((i) => i.riskLevel === "high").length,
+      moderate: agencies.filter((i) => i.riskLevel === "moderate").length,
+      low: agencies.filter((i) => i.riskLevel === "low").length,
+    }),
+    []
+  );
+
+  return (
+    <div className="min-h-screen pt-20 lg:pt-24 pb-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Breadcrumbs className="mb-6 pt-4" />
+
+        <div className="py-8">
+          <div className="border-2 border-zinc-800/60 bg-[#080808] p-6 lg:p-8 mb-8">
+            <div className="flex items-center gap-4 mb-6">
+              <span className="h-[2px] flex-1 bg-gradient-to-r from-zinc-700 to-transparent" />
+              <Landmark className="w-6 h-6 text-zinc-500" />
+              <span className="h-[2px] flex-1 bg-gradient-to-l from-zinc-700 to-transparent" />
+            </div>
+            <div className="text-center mb-6">
+              <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">GOVERNMENT AGENCIES</h1>
+              <p className="text-lg text-zinc-500 font-bold uppercase tracking-[0.15em]">The Machinery of State Power</p>
+              <p className="text-sm text-zinc-500 mt-2">{agencies.length.toLocaleString()} agencies documented in the archive</p>
+            </div>
+            <p className="text-zinc-400 text-center max-w-2xl mx-auto leading-relaxed">
+              Federal departments, intelligence agencies, and regulatory bodies. Every agency entry documents their role, investigations, and connections. Independently researched and maintained since 2009.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col sm:flex-row gap-4 mb-8">
+          <div className="relative flex-1 max-w-md">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-zinc-500" />
+            <input type="text" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Search agencies..." className="w-full pl-12 pr-4 py-3 bg-[#080808] border-2 border-[rgba(255,255,255,0.15)] text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 transition-colors" />
+          </div>
+          <div className="flex items-center gap-2 flex-wrap">
+            <Filter className="w-4 h-4 text-zinc-500" />
+            {(["all","extreme","high","moderate","low"] as RiskFilter[]).map((level) => (
+              <button key={level} onClick={() => setRiskFilter(level)} className={`px-3 py-2 text-xs font-bold uppercase tracking-wider border transition-colors ${riskFilter === level ? level === "extreme" ? "border-zinc-700 bg-zinc-800 text-zinc-400" : level === "high" ? "border-zinc-700 bg-zinc-800 text-zinc-300" : level === "moderate" ? "border-zinc-600 bg-[#0a0a0a] text-zinc-300" : level === "low" ? "border-[rgba(255,255,255,0.18)] bg-zinc-900 text-zinc-400" :"border-zinc-700 bg-zinc-800 text-white" :"border-[rgba(255,255,255,0.15)] bg-transparent text-zinc-500 hover:border-zinc-600"}`}>
+                {level} ({riskCounts[level]})
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="text-sm text-zinc-500 mb-4">
+          Showing {filtered.length.toLocaleString()} of {agencies.length.toLocaleString()} agencies
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filtered.map((agency) => (<EntityCard key={agency.id} entity={agency} />))}
+        </div>
+
+        {filtered.length === 0 && (
+          <div className="border border-[rgba(255,255,255,0.15)] bg-[#080808] p-12 text-center">
+            <div className="w-16 h-16 border-2 border-[rgba(255,255,255,0.18)] flex items-center justify-center mx-auto mb-4">
+              <Skull className="w-8 h-8 text-zinc-600" />
+            </div>
+            <h3 className="text-xl font-bold glass-text mb-2 uppercase tracking-wider">No Agencies Found</h3>
+            <p className="text-zinc-500">No agencies match your search criteria.</p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
 }

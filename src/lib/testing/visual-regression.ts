@@ -308,12 +308,12 @@ export function formatReportAsHtml(report: VisualTestReport): string {
   <title>Visual Regression Report</title>
   <style>
     body { font-family: system-ui, sans-serif; margin: 2rem; background: #0a0a0a; color: #e4e4e7; }
-    h1 { color: #d64545; }
+    h1 { color: #6b6b6b; }
     table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
     th, td { padding: 0.75rem; text-align: left; border-bottom: 1px solid #27272a; }
     th { background: #18181b; }
     .passed { background: rgba(34, 197, 94, 0.1); }
-    .failed { background: rgba(214, 69, 69, 0.1); }
+    .failed { background: rgba(160, 160, 160, 0.1); }
     .summary { display: flex; gap: 2rem; margin: 1rem 0; }
     .stat { padding: 1rem; background: #18181b; }
     .stat-value { font-size: 2rem; font-weight: bold; }
@@ -334,7 +334,7 @@ export function formatReportAsHtml(report: VisualTestReport): string {
       <div class="stat-label">Passed</div>
     </div>
     <div class="stat">
-      <div class="stat-value" style="color: #d64545;">${summary.failed}</div>
+      <div class="stat-value" style="color: #6b6b6b;">${summary.failed}</div>
       <div class="stat-label">Failed</div>
     </div>
     <div class="stat">

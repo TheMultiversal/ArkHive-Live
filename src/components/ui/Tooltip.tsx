@@ -65,7 +65,7 @@ export default function Tooltip({
  className={`absolute z-50 ${positionClasses[position]}`}
  role="tooltip"
  >
- <div className="px-3 py-2 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-xs text-zinc-300 whitespace-nowrap">
+ <div className="px-3 py-2 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-xs text-zinc-300 whitespace-nowrap">
  {content}
  </div>
  {/* Arrow */}

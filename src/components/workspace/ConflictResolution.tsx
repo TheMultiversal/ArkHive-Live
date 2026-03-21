@@ -421,7 +421,7 @@ export function FieldResolver({
       <div>
         <button
           onClick={() => setShowCustom(!showCustom)}
-          className="flex items-center gap-2 text-sm text-blood-400 hover:text-blood-300 transition-colors"
+          className="flex items-center gap-2 text-sm text-zinc-400 hover:text-white transition-colors"
         >
           {showCustom ? (
             <ChevronDown className="w-4 h-4" />
@@ -442,13 +442,13 @@ export function FieldResolver({
               <textarea
                 value={customValue}
                 onChange={(e) => setCustomValue(e.target.value)}
-                className="w-full p-3 bg-zinc-900 border border-zinc-700 text-white text-sm font-mono resize-none focus:outline-none focus:border-blood-500"
+                className="w-full p-3 bg-zinc-900 border border-zinc-700 text-white text-sm font-mono resize-none focus:outline-none focus:border-zinc-600"
                 rows={4}
               />
               <div className="flex justify-end mt-2">
                 <button
                   onClick={() => onResolve("custom", customValue)}
-                  className="px-3 py-1.5 bg-blood-600 text-white text-sm hover:bg-blood-500 transition-colors"
+                  className="px-3 py-1.5 bg-zinc-700 text-white text-sm hover:bg-zinc-600 transition-colors"
                 >
                   Use This
                 </button>
@@ -647,7 +647,7 @@ export function ConflictCard({
                     onResolve(conflict.id, "merge", resolved);
                   }}
                   disabled={!allFieldsResolved}
-                  className="flex items-center gap-2 px-4 py-2 bg-blood-600 text-white hover:bg-blood-500 transition-colors text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="flex items-center gap-2 px-4 py-2 bg-zinc-700 text-white hover:bg-zinc-600 transition-colors text-sm disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <GitMerge className="w-4 h-4" />
                   Resolve Conflict

@@ -601,11 +601,11 @@ const typeIcons = {
 };
 
 const typeColors = {
- alert: 'text-blood-500 bg-blood-950',
- investigation: 'text-blood-500 bg-blood-950',
- document: 'text-blood-500 bg-blood-950',
- team: 'text-blood-500 bg-blood-950',
- comment: 'text-blood-500 bg-blood-950',
+ alert: 'text-zinc-300 bg-zinc-900',
+ investigation: 'text-zinc-300 bg-zinc-900',
+ document: 'text-zinc-300 bg-zinc-900',
+ team: 'text-zinc-300 bg-zinc-900',
+ comment: 'text-zinc-300 bg-zinc-900',
  system: 'text-zinc-500 bg-zinc-900',
 };
 
@@ -631,9 +631,9 @@ function NotificationCard({
  exit={{ opacity: 0, x: 20 }}
  className={`p-4 border-l-2 ${
  notification.read 
- ? 'border-[rgba(255, 60, 60,0.18)] bg-transparent' 
- : 'border-blood-500 bg-blood-950'
- } hover:bg-[#1c0a00] transition-colors relative group`}
+ ? 'border-[rgba(255,255,255,0.18)] bg-transparent' 
+ : 'border-zinc-600 bg-zinc-900'
+ } hover:bg-[#0a0a0a] transition-colors relative group`}
  >
  <div className="flex gap-4">
  <div className={`p-2 h-fit ${typeColors[notification.type]}`}>
@@ -668,7 +668,7 @@ function NotificationCard({
  initial={{ opacity: 0, scale: 0.95 }}
  animate={{ opacity: 1, scale: 1 }}
  exit={{ opacity: 0, scale: 0.95 }}
- className="absolute right-0 top-full mt-1 w-36 glass border border-[rgba(255, 60, 60,0.18)] py-1 z-10"
+ className="absolute right-0 top-full mt-1 w-36 glass border border-[rgba(255,255,255,0.18)] py-1 z-10"
  >
  {!notification.read && (
  <button
@@ -676,7 +676,7 @@ function NotificationCard({
  onMarkRead(notification.id);
  setShowMenu(false);
  }}
- className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#200c00] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#0d0d0d] flex items-center gap-2"
  >
  <Check className="w-3 h-3"/>
  Mark as read
@@ -685,7 +685,7 @@ function NotificationCard({
  {notification.actionUrl && (
  <a
  href={notification.actionUrl}
- className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#200c00] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#0d0d0d] flex items-center gap-2"
  >
  <Eye className="w-3 h-3"/>
  View details
@@ -696,7 +696,7 @@ function NotificationCard({
  onDelete(notification.id);
  setShowMenu(false);
  }}
- className="w-full px-3 py-2 text-left text-sm text-blood-400 hover:text-blood-400 hover:bg-[#200c00] flex items-center gap-2"
+ className="w-full px-3 py-2 text-left text-sm text-zinc-400 hover:text-white hover:bg-[#0d0d0d] flex items-center gap-2"
  >
  <Trash2 className="w-3 h-3"/>
  Delete
@@ -711,9 +711,9 @@ function NotificationCard({
  {notification.actionUrl && (
  <a
  href={notification.actionUrl}
- className="inline-block mt-2 text-sm text-blood-500 hover:text-blood-400 transition-colors"
+ className="inline-block mt-2 text-sm text-zinc-300 hover:text-white transition-colors"
  >
- View details →
+ View details ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢
  </a>
  )}
  </div>
@@ -803,7 +803,7 @@ export default function NotificationsPage() {
  <button
  onClick={() => setFilter('all')}
  className={`px-4 py-2 text-sm font-medium transition-colors ${
- filter === 'all' ? 'bg-blood-600 text-white' : 'text-zinc-400 hover:text-white'
+ filter === 'all' ? 'bg-zinc-700 text-white' : 'text-zinc-400 hover:text-white'
  }`}
  >
  All
@@ -811,7 +811,7 @@ export default function NotificationsPage() {
  <button
  onClick={() => setFilter('unread')}
  className={`px-4 py-2 text-sm font-medium transition-colors ${
- filter === 'unread' ? 'bg-blood-600 text-white' : 'text-zinc-400 hover:text-white'
+ filter === 'unread' ? 'bg-zinc-700 text-white' : 'text-zinc-400 hover:text-white'
  }`}
  >
  Unread ({unreadCount})
@@ -821,7 +821,7 @@ export default function NotificationsPage() {
  <select
  value={typeFilter}
  onChange={(e) => setTypeFilter(e.target.value)}
- className="px-3 py-2 bg-[#1c0a00] border border-[rgba(255, 60, 60,0.18)] text-white text-sm focus:outline-none focus:border-blood-500"
+ className="px-3 py-2 bg-[#0a0a0a] border border-[rgba(255,255,255,0.18)] text-white text-sm focus:outline-none focus:border-zinc-600"
  >
  <option value="all">All types</option>
  <option value="alert">Alerts</option>
@@ -845,7 +845,7 @@ export default function NotificationsPage() {
  <button
  onClick={handleClearAll}
  disabled={notifications.length === 0}
- className="flex items-center gap-2 px-4 py-2 text-blood-400 hover:text-blood-400 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+ className="flex items-center gap-2 px-4 py-2 text-zinc-400 hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
  >
  <Trash2 className="w-4 h-4"/>
  Clear all

@@ -217,7 +217,7 @@ export default function HushMoneyPage() {
  <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
  <Link
  href="/investigations"
- className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-6 pt-4"
+ className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-6 pt-4"
  >
  <ArrowLeft className="w-4 h-4"/>
  Back to Investigations
@@ -227,20 +227,20 @@ export default function HushMoneyPage() {
  <motion.div
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
- className="border-2 border-blood-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8"
+ className="border-2 border-zinc-800/60 bg-[rgba(0,6,20,0.90)] p-6 lg:p-8 mb-8"
  >
  <div className="flex items-center gap-3 mb-4">
- <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-800 bg-blood-950 text-blood-400">
+ <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-800 bg-zinc-900 text-zinc-400">
  {investigation.severity}
  </span>
- <span className="px-3 py-1 text-xs font-bold uppercase border border-blood-800 bg-blood-950 text-blood-400 animate-pulse">
+ <span className="px-3 py-1 text-xs font-bold uppercase border border-zinc-800 bg-zinc-900 text-zinc-400 animate-pulse">
  {investigation.status}
  </span>
  </div>
  <h1 className="text-3xl lg:text-4xl font-black glass-text uppercase tracking-wider mb-2">
  <GlitchText text={investigation.title} />
  </h1>
- <p className="text-lg text-blood-500 font-bold mb-4">{investigation.subtitle}</p>
+ <p className="text-lg text-zinc-300 font-bold mb-4">{investigation.subtitle}</p>
  <p className="text-zinc-400 leading-relaxed mb-6">{investigation.summary}</p>
  
  {/* Three-tier Date Display */}
@@ -258,22 +258,22 @@ export default function HushMoneyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.1 }}
- className="border-2 border-blood-800/60 bg-blood-950 p-6 mb-8"
+ className="border-2 border-zinc-800/60 bg-zinc-900 p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <Scale className="w-5 h-5 text-blood-500"/>
+ <Scale className="w-5 h-5 text-zinc-300"/>
  Historic Conviction - {investigation.verdict.date}
  </h2>
  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
- <div className="border border-blood-800/50 bg-black p-4 text-center">
- <p className="text-4xl font-bold text-blood-500">{investigation.verdict.counts}</p>
+ <div className="border border-zinc-700/50 bg-black p-4 text-center">
+ <p className="text-4xl font-bold text-zinc-300">{investigation.verdict.counts}</p>
  <p className="text-sm text-zinc-400">Felony Counts</p>
  </div>
- <div className="border border-blood-800/50 bg-black p-4 text-center col-span-2">
- <p className="text-2xl font-bold text-blood-400">{investigation.verdict.verdict}</p>
+ <div className="border border-zinc-700/50 bg-black p-4 text-center col-span-2">
+ <p className="text-2xl font-bold text-zinc-400">{investigation.verdict.verdict}</p>
  <p className="text-sm text-zinc-400">Unanimous Jury Verdict</p>
  </div>
- <div className="border border-blood-800/50 bg-black p-4 text-center">
+ <div className="border border-zinc-700/50 bg-black p-4 text-center">
  <p className="text-xl font-bold text-zinc-300">{investigation.verdict.juryDeliberation}</p>
  <p className="text-sm text-zinc-400">Deliberation</p>
  </div>
@@ -290,38 +290,38 @@ export default function HushMoneyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.15 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <DollarSign className="w-5 h-5 text-blood-500"/>
+ <DollarSign className="w-5 h-5 text-zinc-300"/>
  The Payment Scheme
  </h2>
  <div className="space-y-3">
- <div className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
+ <div className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
  <div className="flex justify-between items-start">
  <span className="text-white">Stormy Daniels Payment</span>
- <span className="text-blood-500 font-bold">{investigation.paymentScheme.danielsPayment}</span>
+ <span className="text-zinc-300 font-bold">{investigation.paymentScheme.danielsPayment}</span>
  </div>
  </div>
- <div className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
+ <div className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
  <div className="flex justify-between items-start">
  <span className="text-white">Karen McDougal Payment</span>
- <span className="text-blood-500 font-bold">{investigation.paymentScheme.mcdougalPayment}</span>
+ <span className="text-zinc-300 font-bold">{investigation.paymentScheme.mcdougalPayment}</span>
  </div>
  </div>
- <div className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
+ <div className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
  <div className="flex justify-between items-start">
  <span className="text-white">Doorman Payment</span>
- <span className="text-blood-500 font-bold">{investigation.paymentScheme.doormanPayment}</span>
+ <span className="text-zinc-300 font-bold">{investigation.paymentScheme.doormanPayment}</span>
  </div>
  </div>
- <div className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
+ <div className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
  <div className="flex justify-between items-start">
  <span className="text-white">Cohen Reimbursement (grossed up)</span>
- <span className="text-blood-500 font-bold">{investigation.paymentScheme.cohenReimbursement}</span>
+ <span className="text-zinc-300 font-bold">{investigation.paymentScheme.cohenReimbursement}</span>
  </div>
  </div>
- <div className="border border-[rgba(255, 80, 80,0.15)] bg-zinc-900 p-4">
+ <div className="border border-[rgba(255,255,255,0.15)] bg-zinc-900 p-4">
  <p className="text-zinc-300 font-bold">Falsification Method:</p>
  <p className="text-zinc-300">{investigation.paymentScheme.falsification}</p>
  </div>
@@ -333,15 +333,15 @@ export default function HushMoneyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.2 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <Users className="w-5 h-5 text-blood-500"/>
+ <Users className="w-5 h-5 text-zinc-300"/>
  Key Figures
  </h2>
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-blood-600">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-blood-500"/>The Cover-Up</h2>
- <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-blood-950 border border-blood-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="glass-card p-6 mb-8 border-l-4 border-zinc-700">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><ShieldAlert className="w-5 h-5 text-zinc-300"/>The Cover-Up</h2>
+ <div className="space-y-3">{investigation.coverup.map((item, idx) => (<div key={idx} className="p-3 bg-zinc-900 border border-zinc-800"><p className="text-sm text-zinc-300">{item}</p></div>))}</div>
  </motion.div>
 
  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -349,14 +349,14 @@ export default function HushMoneyPage() {
  <Link
  key={idx}
  href={figure.href}
- className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4 hover:border-blood-600 transition-colors group"
+ className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4 hover:border-zinc-700 transition-colors group"
  >
  <div className="flex justify-between items-start">
  <div>
- <h3 className="font-bold glass-text group-hover:text-blood-500">{figure.name}</h3>
+ <h3 className="font-bold glass-text group-hover:text-white">{figure.name}</h3>
  <p className="text-sm text-zinc-400">{figure.role}</p>
  </div>
- <span className="text-xs text-blood-400">{figure.status}</span>
+ <span className="text-xs text-zinc-400">{figure.status}</span>
  </div>
  </Link>
  ))}
@@ -368,18 +368,18 @@ export default function HushMoneyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.25 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <Scale className="w-5 h-5 text-blood-500"/>
+ <Scale className="w-5 h-5 text-zinc-300"/>
  34 Felony Counts - Falsifying Business Records
  </h2>
  <div className="space-y-3">
  {investigation.charges.map((charge, idx) => (
- <div key={idx} className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
+ <div key={idx} className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
  <div className="flex justify-between items-start mb-2">
- <span className="text-blood-500 font-bold">Counts {charge.count}</span>
- <span className="text-xs text-blood-400">GUILTY</span>
+ <span className="text-zinc-300 font-bold">Counts {charge.count}</span>
+ <span className="text-xs text-zinc-400">GUILTY</span>
  </div>
  <p className="text-zinc-300">{charge.description}</p>
  <p className="text-sm text-zinc-500 mt-1">Evidence: {charge.evidence}</p>
@@ -401,13 +401,13 @@ export default function HushMoneyPage() {
  </h2>
  <div className="space-y-3">
  {investigation.catchAndKill.map((item, idx) => (
- <div key={idx} className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
+ <div key={idx} className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
  <div className="flex justify-between items-start mb-2">
  <h3 className="font-bold glass-text">{item.story}</h3>
- <span className="text-blood-500">{item.payment}</span>
+ <span className="text-zinc-300">{item.payment}</span>
  </div>
  <p className="text-sm text-zinc-400">Outlet: {item.outlet}</p>
- <p className="text-xs text-blood-400">{item.status}</p>
+ <p className="text-xs text-zinc-400">{item.status}</p>
  </div>
  ))}
  </div>
@@ -418,15 +418,15 @@ export default function HushMoneyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.35 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4">
  Key Trial Testimony
  </h2>
  <div className="space-y-3">
  {investigation.keyTestimony.map((test, idx) => (
- <div key={idx} className="border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-4">
- <h3 className="font-bold text-blood-500">{test.witness}</h3>
+ <div key={idx} className="border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-4">
+ <h3 className="font-bold text-zinc-300">{test.witness}</h3>
  <p className="text-zinc-300">{test.revelation}</p>
  </div>
  ))}
@@ -438,16 +438,16 @@ export default function HushMoneyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.4 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <Calendar className="w-5 h-5 text-blood-500"/>
+ <Calendar className="w-5 h-5 text-zinc-300"/>
  Timeline
  </h2>
  <div className="space-y-4 max-h-96 overflow-y-auto pr-2">
  {investigation.timeline.map((item, idx) => (
- <div key={idx} className="flex gap-4 border-l-2 border-[rgba(255, 60, 60,0.18)] pl-4 hover:border-blood-500 transition-colors">
- <span className="text-blood-500 font-mono text-sm whitespace-nowrap min-w-[100px]">{item.date}</span>
+ <div key={idx} className="flex gap-4 border-l-2 border-[rgba(255,255,255,0.18)] pl-4 hover:border-zinc-600 transition-colors">
+ <span className="text-zinc-300 font-mono text-sm whitespace-nowrap min-w-[100px]">{item.date}</span>
  <span className="text-zinc-300">{item.event}</span>
  </div>
  ))}
@@ -455,51 +455,51 @@ export default function HushMoneyPage() {
  </motion.div>
 
  
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-blood-500"/>Legal Outcomes</h2>
- <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-blood-400 mt-1">{item.outcome}</p><p className="text-xs text-zinc-500 mt-1">Statute: {item.statute}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Scale className="w-5 h-5 text-zinc-300"/>Legal Outcomes</h2>
+ <div className="space-y-3">{investigation.legalOutcomes.map((item, idx) => (<div key={idx} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><p className="font-bold glass-text text-sm">{item.defendant}</p><p className="text-xs text-zinc-400 mt-1">{item.charge}</p><p className="text-xs text-zinc-400 mt-1">{item.outcome}</p><p className="text-xs text-zinc-500 mt-1">Statute: {item.statute}</p></div>))}</div>
  </motion.div>
 
  {/* Statutes Violated */}
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.52 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Gavel className="w-5 h-5 text-blood-500"/>Statutes Violated</h2>
- <div className="space-y-3">{investigation.statutesViolated.map((statute, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><div className="flex justify-between items-start mb-2"><span className="font-mono text-blood-500 font-bold">{statute.code}</span><span className="text-xs text-zinc-500">Max: {statute.maxPenalty}</span></div><p className="font-bold text-white text-sm">{statute.name}</p><p className="text-xs text-zinc-400 mt-1">{statute.description}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.52 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Gavel className="w-5 h-5 text-zinc-300"/>Statutes Violated</h2>
+ <div className="space-y-3">{investigation.statutesViolated.map((statute, idx) => (<div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><div className="flex justify-between items-start mb-2"><span className="font-mono text-zinc-300 font-bold">{statute.code}</span><span className="text-xs text-zinc-500">Max: {statute.maxPenalty}</span></div><p className="font-bold text-white text-sm">{statute.name}</p><p className="text-xs text-zinc-400 mt-1">{statute.description}</p></div>))}</div>
  </motion.div>
 
  {/* Money Trail */}
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.54 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Banknote className="w-5 h-5 text-blood-500"/>Money Trail</h2>
- <div className="space-y-3">{investigation.moneyTrail.map((item, idx) => (<div key={idx} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]"><div className="flex justify-between items-start mb-2"><span className="font-mono text-zinc-400 text-xs">{item.date}</span><span className="text-blood-500 font-bold">{item.amount}</span></div><div className="text-sm"><span className="text-zinc-500">From:</span> <span className="text-white">{item.from}</span></div><div className="text-sm"><span className="text-zinc-500">To:</span> <span className="text-white">{item.to}</span></div><p className="text-xs text-zinc-400 mt-2">{item.purpose}</p></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.54 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Banknote className="w-5 h-5 text-zinc-300"/>Money Trail</h2>
+ <div className="space-y-3">{investigation.moneyTrail.map((item, idx) => (<div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]"><div className="flex justify-between items-start mb-2"><span className="font-mono text-zinc-400 text-xs">{item.date}</span><span className="text-zinc-300 font-bold">{item.amount}</span></div><div className="text-sm"><span className="text-zinc-500">From:</span> <span className="text-white">{item.from}</span></div><div className="text-sm"><span className="text-zinc-500">To:</span> <span className="text-white">{item.to}</span></div><p className="text-xs text-zinc-400 mt-2">{item.purpose}</p></div>))}</div>
  </motion.div>
 
  {/* Appeals Status */}
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.56 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Clock className="w-5 h-5 text-blood-500"/>Appeals Status</h2>
- <div className="space-y-3">{investigation.appealsStatus.map((item, idx) => (<div key={idx} className="flex gap-4 border-l-2 border-[rgba(255, 60, 60,0.18)] pl-4"><span className="text-blood-500 font-mono text-sm whitespace-nowrap min-w-[80px]">{item.date}</span><div className="flex-1"><p className="text-zinc-300 text-sm">{item.action}</p><span className="text-xs text-blood-400">{item.status}</span></div></div>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.56 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Clock className="w-5 h-5 text-zinc-300"/>Appeals Status</h2>
+ <div className="space-y-3">{investigation.appealsStatus.map((item, idx) => (<div key={idx} className="flex gap-4 border-l-2 border-[rgba(255,255,255,0.18)] pl-4"><span className="text-zinc-300 font-mono text-sm whitespace-nowrap min-w-[80px]">{item.date}</span><div className="flex-1"><p className="text-zinc-300 text-sm">{item.action}</p><span className="text-xs text-zinc-400">{item.status}</span></div></div>))}</div>
  </motion.div>
 
  {/* Related Investigations */}
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.58 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Link2 className="w-5 h-5 text-blood-500"/>Related Investigations</h2>
- <div className="grid grid-cols-1 md:grid-cols-2 gap-3">{investigation.relatedInvestigations.map((inv, idx) => (<Link key={idx} href={inv.href} className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-600 transition-colors group"><p className="font-bold glass-text group-hover:text-blood-500 text-sm">{inv.title}</p><p className="text-xs text-zinc-500 mt-1">{inv.connection}</p></Link>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.58 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Link2 className="w-5 h-5 text-zinc-300"/>Related Investigations</h2>
+ <div className="grid grid-cols-1 md:grid-cols-2 gap-3">{investigation.relatedInvestigations.map((inv, idx) => (<Link key={idx} href={inv.href} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-700 transition-colors group"><p className="font-bold glass-text group-hover:text-white text-sm">{inv.title}</p><p className="text-xs text-zinc-500 mt-1">{inv.connection}</p></Link>))}</div>
  </motion.div>
 
  {/* Prosecution Team */}
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Gavel className="w-5 h-5 text-blood-500"/>Prosecution Team</h2>
- <div className="grid grid-cols-1 md:grid-cols-2 gap-3">{investigation.prosecution.map((person, idx) => (<Link key={idx} href={person.href} className="p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-600 transition-colors group"><p className="font-bold glass-text group-hover:text-blood-500 text-sm">{person.name}</p><p className="text-xs text-zinc-500">{person.role}</p></Link>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Gavel className="w-5 h-5 text-zinc-300"/>Prosecution Team</h2>
+ <div className="grid grid-cols-1 md:grid-cols-2 gap-3">{investigation.prosecution.map((person, idx) => (<Link key={idx} href={person.href} className="p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-700 transition-colors group"><p className="font-bold glass-text group-hover:text-white text-sm">{person.name}</p><p className="text-xs text-zinc-500">{person.role}</p></Link>))}</div>
  </motion.div>
 
  {/* Defense Team */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.62 }} className="border-2 border-zinc-800/60 bg-zinc-900 p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Users className="w-5 h-5 text-zinc-500"/>Defense Team</h2>
- <div className="grid grid-cols-1 md:grid-cols-3 gap-3">{investigation.defense.map((person, idx) => (<Link key={idx} href={person.href} className="p-3 bg-[#1c0a00] border border-zinc-700 hover:border-zinc-500 transition-colors group"><p className="font-bold text-zinc-300 group-hover:text-white text-sm">{person.name}</p><p className="text-xs text-zinc-500">{person.role}</p></Link>))}</div>
+ <div className="grid grid-cols-1 md:grid-cols-3 gap-3">{investigation.defense.map((person, idx) => (<Link key={idx} href={person.href} className="p-3 bg-[#0a0a0a] border border-zinc-700 hover:border-zinc-500 transition-colors group"><p className="font-bold text-zinc-300 group-hover:text-white text-sm">{person.name}</p><p className="text-xs text-zinc-500">{person.role}</p></Link>))}</div>
  </motion.div>
 
  {/* Entities Involved */}
- <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.64 }} className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6 mb-8">
- <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Building2 className="w-5 h-5 text-blood-500"/>Entities Involved</h2>
- <div className="space-y-3">{investigation.entitiesInvolved.map((entity, idx) => (<Link key={idx} href={entity.href} className="block p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-600 transition-colors group"><div className="flex justify-between items-start"><p className="font-bold glass-text group-hover:text-blood-500">{entity.name}</p><span className="text-xs text-blood-400">{entity.status}</span></div><p className="text-xs text-zinc-400 mt-1">{entity.role}</p></Link>))}</div>
+ <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.64 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
+ <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Building2 className="w-5 h-5 text-zinc-300"/>Entities Involved</h2>
+ <div className="space-y-3">{investigation.entitiesInvolved.map((entity, idx) => (<Link key={idx} href={entity.href} className="block p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-700 transition-colors group"><div className="flex justify-between items-start"><p className="font-bold glass-text group-hover:text-white">{entity.name}</p><span className="text-xs text-zinc-400">{entity.status}</span></div><p className="text-xs text-zinc-400 mt-1">{entity.role}</p></Link>))}</div>
  </motion.div>
 
  {/* Sources */}
@@ -507,10 +507,10 @@ export default function HushMoneyPage() {
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.45 }}
- className="border-2 border-[rgba(255, 80, 80,0.15)] bg-[#190800] p-6"
+ className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6"
  >
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2">
- <FileText className="w-5 h-5 text-blood-500"/>
+ <FileText className="w-5 h-5 text-zinc-300"/>
  Sources & Documentation
  </h2>
  <div className="space-y-3">
@@ -520,13 +520,13 @@ export default function HushMoneyPage() {
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-center justify-between border border-[rgba(255, 60, 60,0.18)] bg-[#1c0a00] p-3 hover:border-blood-600 transition-colors group"
+ className="flex items-center justify-between border border-[rgba(255,255,255,0.18)] bg-[#0a0a0a] p-3 hover:border-zinc-700 transition-colors group"
  >
  <div>
- <h3 className="text-zinc-300 group-hover:text-blood-500 transition-colors">{source.title}</h3>
+ <h3 className="text-zinc-300 group-hover:text-white transition-colors">{source.title}</h3>
  <p className="text-xs text-zinc-500">{source.date}</p>
  </div>
- <ExternalLink className="w-4 h-4 text-zinc-500 group-hover:text-blood-500"/>
+ <ExternalLink className="w-4 h-4 text-zinc-500 group-hover:text-white"/>
  </a>
  ))}
  </div>

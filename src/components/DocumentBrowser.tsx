@@ -76,14 +76,14 @@ function DocumentCard({ doc, isExpanded, onToggle }: DocumentCardProps) {
   const CredIcon = cred.icon;
   
   return (
-    <div className="glass-card border border-blood-900/30">
+    <div className="glass-card border border-zinc-800/30">
       <button
         onClick={onToggle}
-        className="w-full p-4 flex items-start gap-4 text-left hover:bg-blood-900/10 transition-colors"
+        className="w-full p-4 flex items-start gap-4 text-left hover:bg-zinc-800/10 transition-colors"
       >
         <div className="shrink-0 mt-1">
           {isExpanded ? (
-            <ChevronDown className="w-5 h-5 text-blood-500" />
+            <ChevronDown className="w-5 h-5 text-zinc-300" />
           ) : (
             <ChevronRight className="w-5 h-5 text-zinc-500" />
           )}
@@ -91,7 +91,7 @@ function DocumentCard({ doc, isExpanded, onToggle }: DocumentCardProps) {
         
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1">
-            <FileText className="w-4 h-4 text-blood-500 shrink-0" />
+            <FileText className="w-4 h-4 text-zinc-300 shrink-0" />
             <h3 className="text-white font-semibold truncate">{doc.title}</h3>
           </div>
           
@@ -99,7 +99,7 @@ function DocumentCard({ doc, isExpanded, onToggle }: DocumentCardProps) {
             <span className="px-2 py-0.5 bg-zinc-900 text-zinc-400 text-xs">{doc.type}</span>
             <Link
               href={`/investigations/${doc.investigationSlug}`}
-              className="text-blood-400 hover:text-blood-300 truncate"
+              className="text-zinc-400 hover:text-white truncate"
               onClick={(e) => e.stopPropagation()}
             >
               {doc.investigationTitle}
@@ -132,7 +132,7 @@ function DocumentCard({ doc, isExpanded, onToggle }: DocumentCardProps) {
       </button>
       
       {isExpanded && (
-        <div className="border-t border-blood-900/30 bg-black/30 p-4 space-y-3">
+        <div className="border-t border-zinc-800/30 bg-black/30 p-4 space-y-3">
           {/* Metadata */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
             {doc.author && (
@@ -170,7 +170,7 @@ function DocumentCard({ doc, isExpanded, onToggle }: DocumentCardProps) {
               href={doc.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-3 py-1.5 bg-blood-900/30 text-blood-400 hover:bg-blood-900/50 text-sm transition-colors"
+              className="flex items-center gap-2 px-3 py-1.5 bg-zinc-800/30 text-zinc-400 hover:bg-zinc-800/50 text-sm transition-colors"
             >
               <ExternalLink className="w-4 h-4" />
               View Source
@@ -301,12 +301,12 @@ export default function DocumentBrowser({
             href={doc.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 p-2 bg-zinc-900/50 hover:bg-blood-900/20 transition-colors text-sm group"
+            className="flex items-center gap-2 p-2 bg-zinc-900/50 hover:bg-zinc-800/20 transition-colors text-sm group"
           >
-            <FileText className="w-4 h-4 text-blood-500" />
+            <FileText className="w-4 h-4 text-zinc-300" />
             <span className="text-zinc-300 truncate flex-1">{doc.title}</span>
             <span className="text-xs text-zinc-500">{doc.type}</span>
-            <ExternalLink className="w-3 h-3 text-zinc-600 group-hover:text-blood-500" />
+            <ExternalLink className="w-3 h-3 text-zinc-600 group-hover:text-white" />
           </a>
         ))}
       </div>
@@ -319,11 +319,11 @@ export default function DocumentBrowser({
       <div className="flex flex-col md:flex-row md:items-center gap-4">
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
-            <FileText className="w-6 h-6 text-blood-500" />
+            <FileText className="w-6 h-6 text-zinc-300" />
             Document Archive
           </h2>
           <p className="text-sm text-zinc-500 mt-1">
-            {allDocs.length} documents • {primaryCount} primary sources • {totalInvestigations} investigations
+            {allDocs.length} documents ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ {primaryCount} primary sources ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ {totalInvestigations} investigations
           </p>
         </div>
       </div>
@@ -339,7 +339,7 @@ export default function DocumentBrowser({
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search documents..."
-              className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-blood-500 text-sm"
+              className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
             />
             {searchQuery && (
               <button
@@ -357,7 +357,7 @@ export default function DocumentBrowser({
             <select
               value={selectedCredibility}
               onChange={(e) => setSelectedCredibility(e.target.value)}
-              className="pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white text-sm appearance-none cursor-pointer focus:outline-none focus:border-blood-500"
+              className="pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white text-sm appearance-none cursor-pointer focus:outline-none focus:border-zinc-600"
             >
               <option value="all">All Credibility</option>
               {Object.entries(credibilityConfig).map(([key, info]) => (
@@ -385,7 +385,7 @@ export default function DocumentBrowser({
                   onClick={() => toggleTag(tag as DocumentTag)}
                   className={`text-xs px-2 py-1 transition-colors flex items-center gap-1 ${
                     isSelected
-                      ? `${config.color} bg-zinc-800 border border-blood-500`
+                      ? `${config.color} bg-zinc-800 border border-zinc-600`
                       : 'text-zinc-500 bg-zinc-900 border border-zinc-800 hover:border-zinc-700'
                   }`}
                 >
@@ -429,8 +429,8 @@ export function InvestigationDocuments({ slug }: { slug: string }) {
   }
   
   return (
-    <div className="glass-card border border-blood-900/30 p-4">
-      <h3 className="text-sm font-semibold text-blood-400 mb-3 flex items-center gap-2">
+    <div className="glass-card border border-zinc-800/30 p-4">
+      <h3 className="text-sm font-semibold text-zinc-400 mb-3 flex items-center gap-2">
         <FileText className="w-4 h-4" />
         Source Documents ({investigation.sources.length})
       </h3>

@@ -21,9 +21,9 @@ interface TimelineSidebarProps {
 const eventTypeConfig = {
   critical: {
     icon: AlertTriangle,
-    color: 'text-blood-500',
-    borderColor: 'border-blood-600',
-    bgColor: 'bg-blood-950',
+    color: 'text-zinc-300',
+    borderColor: 'border-zinc-700',
+    bgColor: 'bg-zinc-900',
   },
   legal: {
     icon: Gavel,
@@ -82,11 +82,11 @@ export default function TimelineSidebar({
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ type: 'spring', damping: 20 }}
-            className="fixed top-0 right-0 h-full w-80 bg-[#0a0a0a] border-l border-[rgba(255,80,80,0.15)] z-50 overflow-y-auto lg:hidden"
+            className="fixed top-0 right-0 h-full w-80 bg-[#0a0a0a] border-l border-[rgba(255,255,255,0.15)] z-50 overflow-y-auto lg:hidden"
           >
-            <div className="p-4 border-b border-[rgba(255,80,80,0.15)] flex items-center justify-between sticky top-0 bg-[#0a0a0a]">
+            <div className="p-4 border-b border-[rgba(255,255,255,0.15)] flex items-center justify-between sticky top-0 bg-[#0a0a0a]">
               <h3 className="text-lg font-bold flex items-center gap-2">
-                <Clock className="w-5 h-5 text-blood-500" />
+                <Clock className="w-5 h-5 text-zinc-300" />
                 {title}
               </h3>
               <button onClick={onClose} className="p-2 hover:bg-[rgba(255,80,80,0.1)] transition-colors">
@@ -112,7 +112,7 @@ export default function TimelineSidebar({
   const desktopSidebar = (
     <div className="hidden lg:block glass-card p-4">
       <h3 className="text-sm font-bold uppercase tracking-wider text-zinc-500 mb-4 flex items-center gap-2 border-b border-zinc-800 pb-3">
-        <Clock className="w-4 h-4 text-blood-500" />
+        <Clock className="w-4 h-4 text-zinc-300" />
         {title}
         <span className="ml-auto text-xs text-zinc-600">{events.length} events</span>
       </h3>
@@ -178,7 +178,7 @@ function TimelineContent({
       {hasMore && (
         <button
           onClick={onToggle}
-          className="w-full mt-4 pt-3 border-t border-zinc-800 flex items-center justify-center gap-2 text-xs text-zinc-500 hover:text-blood-500 transition-colors"
+          className="w-full mt-4 pt-3 border-t border-zinc-800 flex items-center justify-center gap-2 text-xs text-zinc-500 hover:text-white transition-colors"
         >
           {isExpanded ? (
             <>

@@ -194,7 +194,7 @@ export function ArchiveStatus({
           href={getSaveToWaybackUrl(url)}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 px-2 py-1 bg-blood-950 border border-blood-800 text-blood-400 hover:bg-blood-900 hover:text-blood-300 transition-colors text-[10px] font-bold uppercase tracking-wider"
+          className="inline-flex items-center gap-1 px-2 py-1 bg-zinc-900 border border-zinc-800 text-zinc-400 hover:bg-zinc-800 hover:text-white transition-colors text-[10px] font-bold uppercase tracking-wider"
           title="Save to Wayback Machine"
           aria-label="Save this URL to Wayback Machine"
         >
@@ -223,7 +223,7 @@ export function ArchiveLink({ url, timestamp, children, className = "" }: Archiv
       href={getWaybackUrl(url, timestamp)}
       target="_blank"
       rel="noopener noreferrer"
-      className={`inline-flex items-center gap-1 text-blood-500 hover:text-blood-400 transition-colors ${className}`}
+      className={`inline-flex items-center gap-1 text-zinc-300 hover:text-white transition-colors ${className}`}
       aria-label="View archived version (opens in new tab)"
     >
       <Clock className="w-3 h-3" />
@@ -250,7 +250,7 @@ export function SourceArchivePanel({ url, title, className = "" }: SourceArchive
     <div className={`bg-zinc-950 border border-zinc-800 p-4 ${className}`}>
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center gap-2">
-          <Archive className="w-4 h-4 text-blood-600" />
+          <Archive className="w-4 h-4 text-zinc-500" />
           <h4 className="text-xs font-bold text-white uppercase tracking-wider">Archive Status</h4>
         </div>
         <button
@@ -317,7 +317,7 @@ export function SourceArchivePanel({ url, title, className = "" }: SourceArchive
             href={getSaveToWaybackUrl(url)}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-1 px-3 py-2 mt-3 bg-blood-950 border border-blood-800 text-blood-400 hover:bg-blood-900 text-xs font-bold uppercase tracking-wider transition-colors"
+            className="flex items-center justify-center gap-1 px-3 py-2 mt-3 bg-zinc-900 border border-zinc-800 text-zinc-400 hover:bg-zinc-800 text-xs font-bold uppercase tracking-wider transition-colors"
           >
             <Archive className="w-3 h-3" />
             Save to Archive

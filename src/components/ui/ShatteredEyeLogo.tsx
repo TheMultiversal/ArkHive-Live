@@ -63,23 +63,23 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  >
  {/* Outer atmospheric glow - multiple layers */}
  <div className="absolute inset-0 scale-150">
- <div className="absolute inset-0 bg-blood-900 blur-xl animate-pulse"style={{ animationDuration: '3s' }} />
- <div className="absolute inset-0 bg-blood-950 blur-2xl animate-pulse"style={{ animationDuration: '4s', animationDelay: '1s' }} />
+ <div className="absolute inset-0 bg-zinc-800 blur-xl animate-pulse"style={{ animationDuration: '3s' }} />
+ <div className="absolute inset-0 bg-zinc-900 blur-2xl animate-pulse"style={{ animationDuration: '4s', animationDelay: '1s' }} />
  </div>
 
  {/* Glitch layers */}
  {glitchFrame > 0 && (
  <>
- <div className="absolute inset-0 bg-blood-900 translate-x-1"/>
- <div className="absolute inset-0 bg-blood-950 -translate-x-1"/>
+ <div className="absolute inset-0 bg-zinc-800 translate-x-1"/>
+ <div className="absolute inset-0 bg-zinc-900 -translate-x-1"/>
  </>
  )}
 
  {/* Main container */}
  <div className={`relative ${s.container} overflow-hidden transition-all duration-500 ${isHovered ? 'scale-110' : 'scale-100'}`}>
  {/* Animated border */}
- <div className="absolute inset-0 p-[2px] bg-gradient-to-br from-blood-500 via-blood-700 to-blood-900">
- <div className="absolute inset-0 bg-gradient-conic from-blood-600 via-transparent to-blood-600 animate-spin-slow opacity-50"style={{ animationDuration: '6s' }} />
+ <div className="absolute inset-0 p-[2px] bg-gradient-to-br from-zinc-600 via-zinc-700 to-zinc-800">
+ <div className="absolute inset-0 bg-gradient-conic from-zinc-700 via-transparent to-zinc-700 animate-spin-slow opacity-50"style={{ animationDuration: '6s' }} />
  </div>
 
  {/* Inner background */}
@@ -89,8 +89,8 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  <svg viewBox="0 0 100 100"className="w-full h-full">
  <defs>
  <linearGradient id="crackGradient"x1="0%"y1="0%"x2="100%"y2="100%">
- <stop offset="0%"stopColor="#8f0000"stopOpacity="0.5"/>
- <stop offset="100%"stopColor="#4d0000"stopOpacity="0.2"/>
+ <stop offset="0%"stopColor="#3d3d3d"stopOpacity="0.5"/>
+ <stop offset="100%"stopColor="#2a2a2a"stopOpacity="0.2"/>
  </linearGradient>
  </defs>
  {/* Crack lines radiating from center */}
@@ -111,20 +111,20 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  <svg
  viewBox="0 0 100 100"
  className="absolute inset-0 w-full h-full"
- style={{ filter: 'drop-shadow(0 0 8px rgba(214, 42, 42, 0.4))' }}
+ style={{ filter: 'drop-shadow(0 0 8px rgba(160, 160, 160, 0.4))' }}
  >
  <defs>
  {/* Gradients */}
  <radialGradient id="shardGradient"cx="50%"cy="50%"r="50%">
  <stop offset="0%"stopColor="#e85454"/>
- <stop offset="50%"stopColor="#8f0000"/>
- <stop offset="100%"stopColor="#4d0000"/>
+ <stop offset="50%"stopColor="#3d3d3d"/>
+ <stop offset="100%"stopColor="#2a2a2a"/>
  </radialGradient>
 
  <radialGradient id="centerEyeGradient"cx="50%"cy="40%"r="60%">
  <stop offset="0%"stopColor="#ffffff"/>
  <stop offset="40%"stopColor="#fecaca"/>
- <stop offset="100%"stopColor="#8f0000"/>
+ <stop offset="100%"stopColor="#3d3d3d"/>
  </radialGradient>
 
  <radialGradient id="pupilGradient2"cx="30%"cy="30%"r="70%">
@@ -134,13 +134,13 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
 
  <linearGradient id="shardEdge"x1="0%"y1="0%"x2="100%"y2="100%">
  <stop offset="0%"stopColor="#e85454"stopOpacity="0.8"/>
- <stop offset="100%"stopColor="#4d0000"stopOpacity="0.3"/>
+ <stop offset="100%"stopColor="#2a2a2a"stopOpacity="0.3"/>
  </linearGradient>
 
  {/* Glow filters */}
  <filter id="shardGlow"x="-50%"y="-50%"width="200%"height="200%">
  <feGaussianBlur stdDeviation="1"result="blur"/>
- <feFlood floodColor="#d62a2a"floodOpacity="0.5"/>
+ <feFlood floodColor="#6b6b6b"floodOpacity="0.5"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -150,7 +150,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
 
  <filter id="innerGlow"x="-100%"y="-100%"width="300%"height="300%">
  <feGaussianBlur stdDeviation="3"result="blur"/>
- <feFlood floodColor="#8f0000"floodOpacity="0.6"/>
+ <feFlood floodColor="#3d3d3d"floodOpacity="0.6"/>
  <feComposite in2="blur"operator="in"/>
  <feMerge>
  <feMergeNode />
@@ -200,8 +200,8 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  </ellipse>
 
  {/* Iris */}
- <circle cx="50"cy="50"r="8"fill="#8f0000">
- <animate attributeName="fill"values="#8f0000;#6b0000;#8f0000"dur="3s"repeatCount="indefinite"/>
+ <circle cx="50"cy="50"r="8"fill="#3d3d3d">
+ <animate attributeName="fill"values="#3d3d3d;#6b0000;#3d3d3d"dur="3s"repeatCount="indefinite"/>
  </circle>
 
  {/* Iris inner ring */}
@@ -230,7 +230,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  cx="50"
  cy="50"
  r="0"
- fill="#d62a2a"
+ fill="#6b6b6b"
  opacity="0.8"
  >
  <animateMotion
@@ -266,7 +266,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
  y1="50"
  x2={50 + Math.cos(angle * Math.PI / 180) * 35}
  y2={50 + Math.sin(angle * Math.PI / 180) * 35}
- stroke="#d62a2a"
+ stroke="#6b6b6b"
  strokeWidth="0.3"
  strokeDasharray="1 3"
  opacity={0.3 + Math.sin(shatterPhase * 0.05 + i) * 0.2}
@@ -277,7 +277,7 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
 
  {/* Glitch scan line */}
  <div 
- className="absolute left-0 right-0 h-[2px] bg-blood-900 pointer-events-none"
+ className="absolute left-0 right-0 h-[2px] bg-zinc-800 pointer-events-none"
  style={{ 
  top: `${(shatterPhase * 2) % 100}%`,
  boxShadow: '0 0 10px rgba(107, 0, 0, 0.5)'
@@ -286,20 +286,20 @@ export default function ShatteredEyeLogo({ size ="md", className =""}: Shattered
 
  {/* Corner fracture marks */}
  <div className="absolute top-1 left-1 w-4 h-4">
- <div className="absolute top-0 left-2 w-[1px] h-3 bg-blood-900 rotate-45"/>
- <div className="absolute top-2 left-0 w-3 h-[1px] bg-blood-900 rotate-45"/>
+ <div className="absolute top-0 left-2 w-[1px] h-3 bg-zinc-800 rotate-45"/>
+ <div className="absolute top-2 left-0 w-3 h-[1px] bg-zinc-800 rotate-45"/>
  </div>
  <div className="absolute top-1 right-1 w-4 h-4">
- <div className="absolute top-0 right-2 w-[1px] h-3 bg-blood-900 -rotate-45"/>
- <div className="absolute top-2 right-0 w-3 h-[1px] bg-blood-900 -rotate-45"/>
+ <div className="absolute top-0 right-2 w-[1px] h-3 bg-zinc-800 -rotate-45"/>
+ <div className="absolute top-2 right-0 w-3 h-[1px] bg-zinc-800 -rotate-45"/>
  </div>
  </div>
  </div>
 
  {/* Status indicator */}
  <div className="absolute -top-1 -right-1 w-3 h-3">
- <span className="absolute inset-0 bg-blood-700 rounded-full animate-ping opacity-75"style={{ animationDuration: '2s' }} />
- <span className="absolute inset-0 bg-gradient-to-br from-blood-500 to-blood-700 shadow-lg shadow-blood-600/50"/>
+ <span className="absolute inset-0 bg-zinc-700 rounded-full animate-ping opacity-75"style={{ animationDuration: '2s' }} />
+ <span className="absolute inset-0 bg-gradient-to-br from-zinc-600 to-zinc-700 shadow-lg shadow-zinc-800-600/50"/>
  </div>
  </div>
  );

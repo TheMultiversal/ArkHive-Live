@@ -111,8 +111,8 @@ export default function InvestigationsMegaMenu() {
         aria-label="Investigations menu"
         className={`relative flex items-center gap-1 px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
           isOpen
-            ? "text-blood-400 bg-blood-900 border-blood-800"
-            : "text-zinc-400 hover:text-white hover:bg-blood-950 hover:border-blood-800"
+            ? "text-zinc-400 bg-zinc-800 border-zinc-800"
+            : "text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
         }`}
       >
         Investigations
@@ -125,19 +125,19 @@ export default function InvestigationsMegaMenu() {
           id="investigations-mega-menu"
           role="menu"
           aria-label="Investigation categories"
-          className="absolute left-1/2 -translate-x-1/2 top-full mt-0 w-[900px] max-h-[600px] overflow-y-auto bg-gradient-to-b from-[#0a0505] to-[#050202] border border-blood-900/50 shadow-[0_8px_40px_rgba(140,0,0,0.25)] z-50"
+          className="absolute left-1/2 -translate-x-1/2 top-full mt-0 w-[900px] max-h-[600px] overflow-y-auto bg-gradient-to-b from-[#0a0a0a] to-[#050202] border border-zinc-800/50 shadow-[0_8px_40px_rgba(100,100,100,0.25)] z-50"
         >
           {/* Header */}
-          <div className="sticky top-0 bg-gradient-to-r from-blood-950 to-[#0a0505] border-b border-blood-900/30 px-6 py-3 flex items-center justify-between">
+          <div className="sticky top-0 bg-gradient-to-r from-zinc-900 to-[#0a0a0a] border-b border-zinc-800/30 px-6 py-3 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <FileSearch className="w-5 h-5 text-blood-500" />
+              <FileSearch className="w-5 h-5 text-zinc-300" />
               <span className="text-sm font-bold text-white uppercase tracking-wider">Investigation Categories</span>
             </div>
             <Link 
               href="/investigations"
-              className="text-xs text-blood-400 hover:text-blood-300 font-semibold uppercase tracking-wider"
+              className="text-xs text-zinc-400 hover:text-white font-semibold uppercase tracking-wider"
             >
-              View All →
+              View All ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢
             </Link>
           </div>
           
@@ -146,11 +146,11 @@ export default function InvestigationsMegaMenu() {
             {categories.slice(0, 15).map((category) => (
               <div 
                 key={category.name}
-                className="border-b border-r border-blood-950/50 p-4 hover:bg-blood-950/30 transition-colors"
+                className="border-b border-r border-zinc-900/50 p-4 hover:bg-zinc-800/80/30 transition-colors"
               >
                 {/* Category Header */}
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-blood-500">
+                  <span className="text-zinc-300">
                     {categoryIcons[category.name] || categoryIcons["default"]}
                   </span>
                   <h3 className="text-xs font-bold text-white uppercase tracking-wider truncate">
@@ -170,8 +170,8 @@ export default function InvestigationsMegaMenu() {
                         className="group flex items-start gap-2 text-xs text-zinc-400 hover:text-white transition-colors"
                         onClick={() => setIsOpen(false)}
                       >
-                        <span className={`mt-0.5 ${getSeverityColor(item.severity)}`}>•</span>
-                        <span className="line-clamp-1 group-hover:text-blood-300 transition-colors">
+                        <span className={`mt-0.5 ${getSeverityColor(item.severity)}`}>ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
+                        <span className="line-clamp-1 group-hover:text-white transition-colors">
                           {item.title}
                         </span>
                       </Link>
@@ -183,7 +183,7 @@ export default function InvestigationsMegaMenu() {
                 {category.totalCount > 4 && (
                   <Link
                     href={`/investigations?category=${encodeURIComponent(category.name)}`}
-                    className="mt-2 inline-block text-[10px] text-blood-500 hover:text-blood-400 font-semibold"
+                    className="mt-2 inline-block text-[10px] text-zinc-300 hover:text-white font-semibold"
                     onClick={() => setIsOpen(false)}
                   >
                     +{category.totalCount - 4} more
@@ -195,10 +195,10 @@ export default function InvestigationsMegaMenu() {
           
           {/* Footer - Show more categories link */}
           {categories.length > 15 && (
-            <div className="border-t border-blood-900/30 px-6 py-3 bg-gradient-to-r from-[#0a0505] to-blood-950">
+            <div className="border-t border-zinc-800/30 px-6 py-3 bg-gradient-to-r from-[#0a0a0a] to-zinc-900">
               <Link 
                 href="/investigations"
-                className="flex items-center gap-2 text-xs text-zinc-400 hover:text-blood-400 font-semibold"
+                className="flex items-center gap-2 text-xs text-zinc-400 hover:text-white font-semibold"
                 onClick={() => setIsOpen(false)}
               >
                 <Zap className="w-3 h-3" />

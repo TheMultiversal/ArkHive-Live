@@ -11,8 +11,8 @@ export default function EvidencePage() {
         {/* Header */}
         <div className="mb-12">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 bg-blood-500/20 border border-blood-500/50 flex items-center justify-center">
-              <Link2 className="w-6 h-6 text-blood-500" />
+            <div className="w-12 h-12 bg-zinc-500/20 border border-zinc-600/50 flex items-center justify-center">
+              <Link2 className="w-6 h-6 text-zinc-300" />
             </div>
             <div>
               <h1 className="text-3xl font-black text-white tracking-tighter">
@@ -86,10 +86,10 @@ export default function EvidencePage() {
             <div>
               <h4 className="text-white font-semibold mb-2">Source Types</h4>
               <ul className="space-y-1">
-                <li>• <span className="text-blue-400">Court Filings</span> - Indictments, motions, verdicts</li>
-                <li>• <span className="text-emerald-400">Government Reports</span> - Congressional, IG, agency reports</li>
-                <li>• <span className="text-purple-400">Primary Evidence</span> - Recordings, documents, photos</li>
-                <li>• <span className="text-zinc-400">News Reports</span> - Verified journalism with sources</li>
+                <li>Ã¢â‚¬Â¢ <span className="text-blue-400">Court Filings</span> - Indictments, motions, verdicts</li>
+                <li>Ã¢â‚¬Â¢ <span className="text-emerald-400">Government Reports</span> - Congressional, IG, agency reports</li>
+                <li>Ã¢â‚¬Â¢ <span className="text-purple-400">Primary Evidence</span> - Recordings, documents, photos</li>
+                <li>Ã¢â‚¬Â¢ <span className="text-zinc-400">News Reports</span> - Verified journalism with sources</li>
               </ul>
             </div>
             <div>

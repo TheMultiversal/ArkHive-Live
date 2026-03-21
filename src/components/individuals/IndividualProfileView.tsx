@@ -44,22 +44,22 @@ export interface IndividualProfile {
 }
 
 const riskColors = {
- critical: 'text-blood-500 bg-blood-950 border-blood-800',
- high: 'text-blood-700 bg-blood-950 border-blood-800',
+ critical: 'text-zinc-300 bg-zinc-900 border-zinc-800',
+ high: 'text-zinc-600 bg-zinc-900 border-zinc-800',
  medium: 'text-zinc-400 bg-zinc-900 border-zinc-700',
- low: 'text-blood-500 bg-blood-950 border-blood-800',
+ low: 'text-zinc-300 bg-zinc-900 border-zinc-800',
 };
 
 const severityColors = {
- critical: 'bg-blood-950 text-blood-400',
- high: 'bg-blood-950 text-blood-600',
+ critical: 'bg-zinc-900 text-zinc-400',
+ high: 'bg-zinc-900 text-zinc-500',
  medium: 'bg-zinc-900 text-zinc-300',
- low: 'bg-blood-950 text-blood-400',
+ low: 'bg-zinc-900 text-zinc-400',
 };
 
 const affiliationTypeColors = {
- agency: 'bg-blood-950 border-blood-800 text-blood-400',
- corporation: 'bg-blood-950 border-blood-800 text-blood-400',
+ agency: 'bg-zinc-900 border-zinc-800 text-zinc-400',
+ corporation: 'bg-zinc-900 border-zinc-800 text-zinc-400',
  organization: 'bg-zinc-900 border-zinc-700 text-zinc-400',
 };
 
@@ -71,10 +71,10 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
- <div className="border-b border-[rgba(255,80,80,0.15)] pb-6 mb-6">
+ <div className="border-b border-[rgba(255,255,255,0.15)] pb-6 mb-6">
  <Link 
  href="/entities/individuals"
- className="inline-flex items-center gap-2 text-zinc-400 hover:text-blood-500 transition-colors mb-6"
+ className="inline-flex items-center gap-2 text-zinc-400 hover:text-white transition-colors mb-6"
  >
  <ArrowLeft className="w-4 h-4"/>
  Back to Individuals
@@ -83,8 +83,8 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
  <div>
  <div className="flex items-center gap-4 mb-2">
- <div className="w-12 h-12 bg-[#200c00] flex items-center justify-center">
- <User className="w-6 h-6 text-blood-500"/>
+ <div className="w-12 h-12 bg-[#0d0d0d] flex items-center justify-center">
+ <User className="w-6 h-6 text-zinc-300"/>
  </div>
  <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[individual.riskLevel]}`}>
  {individual.riskLevel} risk
@@ -115,7 +115,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  className="glass-card p-6"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <FileText className="w-5 h-5 text-blood-500"/>
+ <FileText className="w-5 h-5 text-zinc-300"/>
  Overview
  </h2>
  <p className="text-zinc-300 leading-relaxed">{individual.description}</p>
@@ -129,7 +129,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  className="glass-card p-6"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Link2 className="w-5 h-5 text-blood-500"/>
+ <Link2 className="w-5 h-5 text-zinc-300"/>
  Key Affiliations
  </h2>
  <div className="space-y-3">
@@ -141,15 +141,15 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <Link
  key={index}
  href={href}
- className={`flex items-center justify-between p-4 border hover:border-blood-500/50 transition-all group ${affiliationTypeColors[affiliation.type]}`}
+ className={`flex items-center justify-between p-4 border hover:border-zinc-600/50 transition-all group ${affiliationTypeColors[affiliation.type]}`}
  >
  <div>
- <p className="font-medium group-hover:text-blood-400 transition-colors">{affiliation.name}</p>
+ <p className="font-medium group-hover:text-white transition-colors">{affiliation.name}</p>
  <p className="text-sm text-zinc-500">{affiliation.role}</p>
  </div>
  <div className="flex items-center gap-2">
  <span className="text-xs uppercase">{affiliation.type}</span>
- <ExternalLink className="w-3 h-3 text-zinc-600 group-hover:text-blood-500 transition-colors"/>
+ <ExternalLink className="w-3 h-3 text-zinc-600 group-hover:text-white transition-colors"/>
  </div>
  </Link>
  );
@@ -165,17 +165,17 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  className="glass-card p-6"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <AlertTriangle className="w-5 h-5 text-blood-500"/>
+ <AlertTriangle className="w-5 h-5 text-zinc-300"/>
  Controversies & Concerns
  </h2>
              <div className="space-y-3">
  {(individual.controversies || []).map((controversy, index) => (
  <div
  key={index}
- className="p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-800 transition-all"
+ className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-800 transition-all"
  >
  <div className="flex items-start gap-3">
- <AlertTriangle className="w-4 h-4 text-blood-500/60 mt-0.5 flex-shrink-0"/>
+ <AlertTriangle className="w-4 h-4 text-zinc-300/60 mt-0.5 flex-shrink-0"/>
  <p className="text-zinc-300 text-sm leading-relaxed">{controversy}</p>
  </div>
  </div>
@@ -203,7 +203,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <Link
  key={isString ? idx : investigation.slug}
  href={`/investigations/${slug}`}
- className="flex items-center justify-between p-4 bg-[#1c0a00] hover:bg-[#200c00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-800 transition-all"
+ className="flex items-center justify-between p-4 bg-[#0a0a0a] hover:bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] hover:border-zinc-800 transition-all"
  >
  <span className="font-medium">{title}</span>
  <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[severity as keyof typeof severityColors]}`}>
@@ -221,10 +221,10 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  initial={{ opacity: 0, y: 20 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: 0.25 }}
- className="glass-card p-6 border-l-4 border-blood-600"
+ className="glass-card p-6 border-l-4 border-zinc-700"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Scale className="w-5 h-5 text-blood-500"/>
+ <Scale className="w-5 h-5 text-zinc-300"/>
  Criminal Charges & Violations
  </h2>
  <p className="text-sm text-zinc-500 mb-4">
@@ -235,7 +235,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  // Handle string, legacy object, and new object formats
  if (typeof charge === 'string') {
  return (
- <div key={index} className="flex flex-col sm:flex-row sm:items-start gap-2 p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-sm">
+ <div key={index} className="flex flex-col sm:flex-row sm:items-start gap-2 p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-sm">
  <code className="text-xs bg-zinc-900 text-zinc-400 px-2 py-1 font-mono whitespace-nowrap shrink-0">
  Charged
  </code>
@@ -251,7 +251,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  const displayCategory = isLegacy ? (charge.date || '') : charge.category;
  
  return (
- <div key={index} className="flex flex-col sm:flex-row sm:items-start gap-2 p-3 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] text-sm">
+ <div key={index} className="flex flex-col sm:flex-row sm:items-start gap-2 p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-sm">
  <code className="text-xs bg-zinc-900 text-zinc-400 px-2 py-1 font-mono whitespace-nowrap shrink-0">
  {displayCode}
  </code>
@@ -277,18 +277,18 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  className="glass-card p-6"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <Users className="w-5 h-5 text-blood-500"/>
+ <Users className="w-5 h-5 text-zinc-300"/>
  Known Associates & Connections
  </h2>
  <div className="space-y-3">
  {(individual.knownAssociates || []).map((associate, index) => (
  <div
  key={index}
- className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)] hover:border-blood-800 transition-all"
+ className="flex flex-col sm:flex-row sm:items-center justify-between p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-800 transition-all"
  >
  <div className="flex-1">
  {associate.href ? (
- <Link href={associate.href} className="font-medium text-blood-400 hover:text-blood-300 transition-colors">
+ <Link href={associate.href} className="font-medium text-zinc-400 hover:text-white transition-colors">
  {associate.name}
  </Link>
  ) : (
@@ -314,7 +314,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  className="glass-card p-6"
  >
  <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
- <BookOpen className="w-5 h-5 text-blood-500"/>
+ <BookOpen className="w-5 h-5 text-zinc-300"/>
  Sources & Documentation
  </h2>
  <p className="text-sm text-zinc-500 mb-4">
@@ -328,11 +328,11 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  href={source.url}
  target="_blank"
  rel="noopener noreferrer"
- className="flex items-start gap-3 p-3 bg-zinc-900 border border-[rgba(255, 60, 60,0.08)] text-sm hover:border-blood-500/50 hover:bg-zinc-900 transition-all group"
+ className="flex items-start gap-3 p-3 bg-zinc-900 border border-[rgba(255,255,255,0.08)] text-sm hover:border-zinc-600/50 hover:bg-zinc-900 transition-all group"
  >
- <ExternalLink className="w-4 h-4 text-zinc-600 group-hover:text-blood-500 mt-0.5 flex-shrink-0 transition-colors"/>
+ <ExternalLink className="w-4 h-4 text-zinc-600 group-hover:text-white mt-0.5 flex-shrink-0 transition-colors"/>
  <div className="flex-1">
- <span className="text-zinc-300 group-hover:text-blood-400 transition-colors">{source.title}</span>
+ <span className="text-zinc-300 group-hover:text-white transition-colors">{source.title}</span>
  {source.date && (
  <span className="text-zinc-600 ml-2">({source.date})</span>
  )}
@@ -341,7 +341,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  ) : (
  <div
  key={index}
- className="flex items-start gap-3 p-3 bg-zinc-900 border border-[rgba(255, 60, 60,0.08)] text-sm"
+ className="flex items-start gap-3 p-3 bg-zinc-900 border border-[rgba(255,255,255,0.08)] text-sm"
  >
  <FileText className="w-4 h-4 text-zinc-500 mt-0.5 flex-shrink-0"/>
  <div>
@@ -405,13 +405,13 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  className="glass-card p-6"
  >
  <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
- <Briefcase className="w-5 h-5 text-blood-500"/>
+ <Briefcase className="w-5 h-5 text-zinc-300"/>
  Education
  </h3>
  <ul className="space-y-2">
  {(individual.education || []).map((edu, index) => (
  <li key={index} className="text-sm text-zinc-400 flex items-start gap-2">
- <span className="text-blood-500">•</span>
+ <span className="text-zinc-300">ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢</span>
  {edu}
  </li>
  ))}
@@ -428,9 +428,9 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <h3 className="text-lg font-bold mb-4">Key Timeline</h3>
  <div className="space-y-4">
  {(individual.timeline || []).map((item, index) => (
- <div key={index} className="relative pl-4 border-l-2 border-[rgba(255, 80, 80,0.15)]">
- <div className="absolute -left-[5px] top-0 w-2 h-2 bg-blood-500"/>
- <p className="text-xs text-blood-500 font-mono">{item.date}</p>
+ <div key={index} className="relative pl-4 border-l-2 border-[rgba(255,255,255,0.15)]">
+ <div className="absolute -left-[5px] top-0 w-2 h-2 bg-zinc-600"/>
+ <p className="text-xs text-zinc-300 font-mono">{item.date}</p>
  <p className="text-sm text-zinc-300">{item.event}</p>
  </div>
  ))}

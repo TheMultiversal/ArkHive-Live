@@ -8,7 +8,7 @@ export default function FAQLoading() {
  <div className="max-w-3xl mx-auto px-4">
  {/* Header skeleton */}
  <div className="text-center mb-12">
- <div className="h-10 w-80 bg-[#1c0a00] animate-pulse mx-auto mb-4"/>
+ <div className="h-10 w-80 bg-[#0a0a0a] animate-pulse mx-auto mb-4"/>
  <div className="h-5 w-96 bg-zinc-900 animate-pulse mx-auto"/>
  </div>
 
@@ -29,7 +29,7 @@ export default function FAQLoading() {
  >
  <div className="p-6 flex items-center justify-between">
  <div className="flex-1">
- <div className="h-5 w-3/4 bg-[#200c00] animate-pulse"/>
+ <div className="h-5 w-3/4 bg-[#0d0d0d] animate-pulse"/>
  </div>
  <div className="w-6 h-6 bg-zinc-900 animate-pulse ml-4"/>
  </div>
@@ -44,9 +44,9 @@ export default function FAQLoading() {
  transition={{ delay: 0.5 }}
  className="mt-12 glass-card p-8 text-center"
  >
- <div className="h-6 w-64 bg-[#200c00] animate-pulse mx-auto mb-4"/>
+ <div className="h-6 w-64 bg-[#0d0d0d] animate-pulse mx-auto mb-4"/>
  <div className="h-4 w-80 bg-zinc-900 animate-pulse mx-auto mb-6"/>
- <div className="h-10 w-32 bg-blood-900 animate-pulse mx-auto"/>
+ <div className="h-10 w-32 bg-zinc-800 animate-pulse mx-auto"/>
  </motion.div>
  </div>
  </div>

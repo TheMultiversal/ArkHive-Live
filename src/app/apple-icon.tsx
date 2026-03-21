@@ -32,7 +32,7 @@ export default function AppleIcon() {
  width="140"
  height="140"
  viewBox="0 0 100 100"
- style={{ filter: 'drop-shadow(0 0 8px rgba(184, 0, 0, 0.6))' }}
+ style={{ filter: 'drop-shadow(0 0 8px rgba(150, 150, 150, 0.6))' }}
  >
  {/* Eye white (sclera) */}
  <ellipse
@@ -46,14 +46,14 @@ export default function AppleIcon() {
  {/* Blood veins in sclera */}
  <path
  d="M15 45 Q25 42, 32 45"
- stroke="#8f0000"
+ stroke="#3d3d3d"
  strokeWidth="0.5"
  fill="none"
  opacity="0.5"
  />
  <path
  d="M68 45 Q75 42, 85 45"
- stroke="#8f0000"
+ stroke="#3d3d3d"
  strokeWidth="0.5"
  fill="none"
  opacity="0.5"
@@ -78,7 +78,7 @@ export default function AppleIcon() {
  cx="50"
  cy="45"
  r="18"
- fill="#8f0000"
+ fill="#3d3d3d"
  />
  <circle
  cx="50"
@@ -116,7 +116,7 @@ export default function AppleIcon() {
  {/* Blood drip 1 - main center */}
  <path
  d="M50 73 Q50 82, 48 92 Q47 97, 50 100 Q53 97, 52 92 Q50 82, 50 73"
- fill="#8f0000"
+ fill="#3d3d3d"
  />
  
  {/* Blood drip 2 - left */}

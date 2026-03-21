@@ -85,8 +85,8 @@ export default function TargetingCursor() {
  >
  <defs>
  <linearGradient id="reticleGradient"x1="0%"y1="0%"x2="100%"y2="100%">
- <stop offset="0%"stopColor="#d62a2a"/>
- <stop offset="100%"stopColor="#8f0000"/>
+ <stop offset="0%"stopColor="#6b6b6b"/>
+ <stop offset="100%"stopColor="#3d3d3d"/>
  </linearGradient>
  </defs>
 
@@ -107,14 +107,14 @@ export default function TargetingCursor() {
  <circle
  cx="50"cy="50"r={isHovering ? 25 : 20}
  fill="none"
- stroke="#8f0000"
+ stroke="#3d3d3d"
  strokeWidth="1.5"
  opacity="0.8"
  style={{ transition: 'r 0.15s' }}
  />
 
  {/* Crosshairs */}
- <g stroke="#8f0000"strokeWidth="1.5"opacity="0.9">
+ <g stroke="#3d3d3d"strokeWidth="1.5"opacity="0.9">
  {/* Top */}
  <line x1="50"y1="5"x2="50"y2="30"/>
  <line x1="45"y1="10"x2="55"y2="10"/>
@@ -130,7 +130,7 @@ export default function TargetingCursor() {
  </g>
 
  {/* Corner brackets */}
- <g stroke="#d62a2a"strokeWidth="2"fill="none"opacity={isHovering ? 1 : 0.6} style={{ transition: 'opacity 0.15s' }}>
+ <g stroke="#6b6b6b"strokeWidth="2"fill="none"opacity={isHovering ? 1 : 0.6} style={{ transition: 'opacity 0.15s' }}>
  <path d="M15,30 L15,15 L30,15"/>
  <path d="M70,15 L85,15 L85,30"/>
  <path d="M85,70 L85,85 L70,85"/>
@@ -150,7 +150,7 @@ export default function TargetingCursor() {
  <motion.circle
  cx="50"cy="50"
  r={innerSize}
- fill="#8f0000"
+ fill="#3d3d3d"
  animate={isClicking ? { scale: [1, 2, 1], opacity: [1, 0.5, 1] } : {}}
  transition={{ duration: 0.2 }}
  />
@@ -162,8 +162,8 @@ export default function TargetingCursor() {
  animate={{ scale: 1, opacity: 1 }}
  exit={{ scale: 0.5, opacity: 0 }}
  >
- <circle cx="50"cy="50"r="35"fill="none"stroke="#d62a2a"strokeWidth="2"/>
- <text x="50"y="98"textAnchor="middle"fill="#d62a2a"fontSize="8"fontFamily="monospace">LOCKED</text>
+ <circle cx="50"cy="50"r="35"fill="none"stroke="#6b6b6b"strokeWidth="2"/>
+ <text x="50"y="98"textAnchor="middle"fill="#6b6b6b"fontSize="8"fontFamily="monospace">LOCKED</text>
  </motion.g>
  )}
  </svg>
@@ -171,7 +171,7 @@ export default function TargetingCursor() {
 
  {/* Coordinate display */}
  <div
- className="fixed pointer-events-none z-[10000] font-mono text-[10px] text-blood-600/60"
+ className="fixed pointer-events-none z-[10000] font-mono text-[10px] text-zinc-500/60"
  style={{
  left: cursorPos.x + 30,
  top: cursorPos.y + 30,

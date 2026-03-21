@@ -41,23 +41,23 @@ interface CodeViewerProps {
 
 const languageColors: Record<string, string> = {
  javascript: 'text-zinc-300',
- typescript: 'text-blood-400',
- python: 'text-blood-400',
- rust: 'text-blood-600',
- go: 'text-blood-400',
- java: 'text-blood-400',
- csharp: 'text-blood-400',
- cpp: 'text-blood-400',
- c: 'text-blood-400',
- html: 'text-blood-500',
- css: 'text-blood-500',
+ typescript: 'text-zinc-400',
+ python: 'text-zinc-400',
+ rust: 'text-zinc-500',
+ go: 'text-zinc-400',
+ java: 'text-zinc-400',
+ csharp: 'text-zinc-400',
+ cpp: 'text-zinc-400',
+ c: 'text-zinc-400',
+ html: 'text-zinc-300',
+ css: 'text-zinc-300',
  json: 'text-zinc-400',
  markdown: 'text-zinc-300',
- sql: 'text-blood-400',
- bash: 'text-blood-400',
- shell: 'text-blood-400',
- yaml: 'text-blood-400',
- toml: 'text-blood-500',
+ sql: 'text-zinc-400',
+ bash: 'text-zinc-400',
+ shell: 'text-zinc-400',
+ yaml: 'text-zinc-400',
+ toml: 'text-zinc-300',
  xml: 'text-zinc-400',
 };
 
@@ -83,7 +83,7 @@ function highlightSyntax(code: string, language: string): string {
  // Strings
  highlighted = highlighted.replace(
  /(["'`])(?:(?!\1|\\).|\\.)*\1/g,
- '<span class="text-blood-400">$&</span>'
+ '<span class="text-zinc-400">$&</span>'
  );
 
  // Comments
@@ -95,20 +95,20 @@ function highlightSyntax(code: string, language: string): string {
  // Numbers
  highlighted = highlighted.replace(
  /\b(\d+\.?\d*)\b/g,
- '<span class="text-blood-400">$1</span>'
+ '<span class="text-zinc-400">$1</span>'
  );
 
  // Keywords
  const pattern = keywordPatterns[language] || keywordPatterns.javascript;
  highlighted = highlighted.replace(
  pattern,
- '<span class="text-blood-400 font-semibold">$&</span>'
+ '<span class="text-zinc-400 font-semibold">$&</span>'
  );
 
  // Function calls
  highlighted = highlighted.replace(
  /\b([a-zA-Z_]\w*)\s*\(/g,
- '<span class="text-blood-400">$1</span>('
+ '<span class="text-zinc-400">$1</span>('
  );
 
  return highlighted;
@@ -169,13 +169,13 @@ export default function CodeViewer({
  return (
  <div
  className={cn(
- 'bg-[#1c0a00] border border-[rgba(255, 80, 80,0.15)]',
+ 'bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]',
  isFullscreen && 'fixed inset-0 z-50',
  className
  )}
  >
  {/* Header */}
- <div className="flex items-center justify-between p-2 border-b border-[rgba(255, 80, 80,0.15)] bg-[#200c00]">
+ <div className="flex items-center justify-between p-2 border-b border-[rgba(255,255,255,0.15)] bg-[#0d0d0d]">
  <div className="flex items-center gap-2">
  <button
  onClick={() => setCollapsed(!collapsed)}
@@ -191,7 +191,7 @@ export default function CodeViewer({
  {filename && (
  <span className="text-sm text-zinc-300">{filename}</span>
  )}
- <span className="text-xs text-zinc-500 bg-[#200c00] px-2 py-0.5">
+ <span className="text-xs text-zinc-500 bg-[#0d0d0d] px-2 py-0.5">
  {language}
  </span>
  <span className="text-xs text-zinc-600">
@@ -206,7 +206,7 @@ export default function CodeViewer({
  className={cn(
  'p-1.5 transition-colors',
  showSearchBar
- ? 'text-blood-500'
+ ? 'text-zinc-300'
  : 'text-zinc-400 hover:text-white'
  )}
  >
@@ -220,7 +220,7 @@ export default function CodeViewer({
  title="Copy code"
  >
  {copied ? (
- <Check className="w-4 h-4 text-blood-500"/>
+ <Check className="w-4 h-4 text-zinc-300"/>
  ) : (
  <Copy className="w-4 h-4"/>
  )}
@@ -254,7 +254,7 @@ export default function CodeViewer({
  initial={{ height: 0, opacity: 0 }}
  animate={{ height: 'auto', opacity: 1 }}
  exit={{ height: 0, opacity: 0 }}
- className="border-b border-[rgba(255, 80, 80,0.15)]"
+ className="border-b border-[rgba(255,255,255,0.15)]"
  >
  <div className="flex items-center gap-2 p-2">
  <Search className="w-4 h-4 text-zinc-500"/>
@@ -291,15 +291,15 @@ export default function CodeViewer({
  <tr
  key={index}
  className={cn(
- 'hover:bg-[#200c00] transition-colors',
- isHighlighted && 'bg-blood-950'
+ 'hover:bg-[#0d0d0d] transition-colors',
+ isHighlighted && 'bg-zinc-900'
  )}
  >
  {showLineNumbers && (
- <td className="px-3 py-0.5 text-right text-zinc-600 select-none border-r border-[rgba(255, 80, 80,0.15)] sticky left-0 bg-[#1c0a00]">
+ <td className="px-3 py-0.5 text-right text-zinc-600 select-none border-r border-[rgba(255,255,255,0.15)] sticky left-0 bg-[#0a0a0a]">
  <span className="flex items-center justify-end gap-1">
  {isHighlighted && (
- <Hash className="w-3 h-3 text-blood-500"/>
+ <Hash className="w-3 h-3 text-zinc-300"/>
  )}
  {lineNum}
  </span>
@@ -327,7 +327,7 @@ export default function CodeViewer({
  {/* Collapsed indicator */}
  {collapsed && (
  <div className="p-4 text-center text-zinc-500 text-sm">
- Code collapsed • Click to expand
+ Code collapsed Ã¢â‚¬Â¢ Click to expand
  </div>
  )}
  </div>

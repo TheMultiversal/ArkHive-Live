@@ -92,17 +92,17 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  {/* Pinned Banner */}
  {pinnedMessages.length > 0 && (
  <button 
- className="w-full bg-blood-950 border-b border-blood-900 px-4 py-2 cursor-pointer hover:bg-blood-950 transition-colors text-left"
+ className="w-full bg-zinc-900 border-b border-zinc-800 px-4 py-2 cursor-pointer hover:bg-zinc-800/80 transition-colors text-left"
  onClick={() => setShowPinnedMessages(!showPinnedMessages)}
  aria-expanded={showPinnedMessages}
  aria-label={`${pinnedMessages.length} pinned messages. Click to ${showPinnedMessages ? 'hide' : 'show'}`}
  >
  <div className="flex items-center justify-between">
- <div className="flex items-center gap-2 text-xs text-blood-400/80">
+ <div className="flex items-center gap-2 text-xs text-zinc-400/80">
  <Pin className="w-3 h-3"aria-hidden="true"/>
  <span>{pinnedMessages.length} pinned</span>
  </div>
- <ChevronDown className={`w-3 h-3 text-blood-400/60 transition-transform ${showPinnedMessages ? 'rotate-180' : ''}`} aria-hidden="true"/>
+ <ChevronDown className={`w-3 h-3 text-zinc-400/60 transition-transform ${showPinnedMessages ? 'rotate-180' : ''}`} aria-hidden="true"/>
  </div>
  
  <AnimatePresence>
@@ -152,13 +152,13 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  className={`group ${message.type === 'system' ? 'flex justify-center' : ''}`}
  >
  {message.type === 'system' ? (
- <div className="px-3 py-1.5 bg-[#1c0a00] rounded text-[11px] text-white/30 italic">
+ <div className="px-3 py-1.5 bg-[#0a0a0a] rounded text-[11px] text-white/30 italic">
  {message.content}
  </div>
  ) : (
  <div className="flex gap-2.5 py-1 px-2 -mx-2 rounded hover:bg-white/[0.015] transition-colors">
  <div className="flex-shrink-0 pt-0.5">
- <div className="w-7 h-7 bg-blood-900 flex items-center justify-center text-[10px] font-medium text-white/50">
+ <div className="w-7 h-7 bg-zinc-800 flex items-center justify-center text-[10px] font-medium text-white/50">
  {message.authorName.charAt(0)}
  </div>
  </div>
@@ -176,7 +176,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  <div className="flex items-baseline gap-2 mb-0.5">
  <span className="text-[12px] font-medium text-white/70">{message.authorName}</span>
  <span className="text-[10px] text-white/20">{formatTime(message.timestamp)}</span>
- {message.isPinned && <Pin className="w-2.5 h-2.5 text-blood-500/60"/>}
+ {message.isPinned && <Pin className="w-2.5 h-2.5 text-zinc-300/60"/>}
  </div>
 
  <p className="text-[13px] text-white/55 leading-relaxed">{message.content}</p>
@@ -184,21 +184,21 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
 
  <div className="opacity-0 group-hover:opacity-100 transition-opacity flex items-start gap-0.5 pt-1">
  <button 
- className="p-1 hover:bg-[#200c00] rounded text-white/20 hover:text-white/40 transition-colors"
+ className="p-1 hover:bg-[#0d0d0d] rounded text-white/20 hover:text-white/40 transition-colors"
  onClick={() => setReplyingTo(message.id)}
  aria-label={`Reply to ${message.authorName}'s message`}
  >
  <Reply className="w-3 h-3"aria-hidden="true"/>
  </button>
  <button 
- className="p-1 hover:bg-[#200c00] rounded text-white/20 hover:text-blood-400/60 transition-colors"
+ className="p-1 hover:bg-[#0d0d0d] rounded text-white/20 hover:text-white/60 transition-colors"
  onClick={() => pinMessage(workspaceId, message.id)}
  aria-label={`${message.isPinned ? 'Unpin' : 'Pin'} message`}
  >
  <Pin className="w-3 h-3"aria-hidden="true"/>
  </button>
  <button 
- className="p-1 hover:bg-[#200c00] rounded text-white/20 hover:text-white/40 transition-colors"
+ className="p-1 hover:bg-[#0d0d0d] rounded text-white/20 hover:text-white/40 transition-colors"
  aria-label="More options"
  >
  <MoreHorizontal className="w-3 h-3"aria-hidden="true"/>
@@ -221,7 +221,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  initial={{ height: 0, opacity: 0 }}
  animate={{ height: 'auto', opacity: 1 }}
  exit={{ height: 0, opacity: 0 }}
- className="px-4 py-2 bg-blood-950 border-t border-blood-900"
+ className="px-4 py-2 bg-zinc-900 border-t border-zinc-800"
  >
  <div className="flex items-center justify-between">
  <div className="flex items-center gap-2 text-xs">
@@ -233,7 +233,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  onClick={() => setReplyingTo(null)} 
  className="text-white/30 hover:text-white/50 text-sm"
  aria-label="Cancel reply"
- >×</button>
+ >ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â</button>
  </div>
  </motion.div>
  )}
@@ -242,7 +242,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  {/* Input */}
  <div className="p-4 border-t border-white/[0.04]">
  <div className="flex items-end gap-2">
- <div className="flex-1 bg-[#1c0a00] border border-white/[0.06] focus-within:border-white/[0.1] transition-colors">
+ <div className="flex-1 bg-[#0a0a0a] border border-white/[0.06] focus-within:border-white/[0.1] transition-colors">
  <textarea
  value={newMessage}
  onChange={(e) => setNewMessage(e.target.value)}
@@ -267,7 +267,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  onClick={handleSendMessage}
  disabled={!newMessage.trim()}
  aria-label="Send message"
- className="p-2.5 bg-blood-600/80 text-white/90 hover:bg-blood-500/80 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+ className="p-2.5 bg-zinc-700/80 text-white/90 hover:bg-zinc-600/80 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
  >
  <Send className="w-4 h-4"aria-hidden="true"/>
  </motion.button>
