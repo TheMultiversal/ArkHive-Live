@@ -1,4 +1,22 @@
 {
   "diffEditor.maxComputationTime": 0,
-  "diffEditor.maxFileSize": 0
+  "diffEditor.maxFileSize": 0,
+  "diffEditor.diffAlgorithm": "advanced",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": true,
+  "git.decorations.enabled": true,
+  "git.autoRefresh": false,
+  "git.autoRepositoryDetection": "openEditors",
+  "git.enabled": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.next/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/out": true
+  }
 }
