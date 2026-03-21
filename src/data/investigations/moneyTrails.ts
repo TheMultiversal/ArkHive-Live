@@ -391,16 +391,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2020-01-01', from: 'W.R. Grace & Co.', to: 'Affected investors / victims', amount: '$2.6B', purpose: 'Restitution and settlement payments to victims of Asbestos Liability & Corporate Evasion', documented: true },
   ],
 
-  'asset-forfeiture-abuse': [
-    { date: '2019-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$9.8B', purpose: 'Government spending on operations that violated civil rights in Asset Forfeiture Abuse', documented: true },
-    { date: '2023-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$1.7B', purpose: 'Settlements and compensation to victims of Asset Forfeiture Abuse', documented: true },
-  ],
-
-  'armenian-genocide': [
-    { date: '1915-01-01', from: 'Talat Pasha', to: 'Military/security operations', amount: '$78.3B', purpose: 'Military spending on operations involving atrocities in Armenian Genocide', documented: false },
-    { date: '1917-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$44.9B', purpose: 'Weapons industry profits from conflict in Armenian Genocide', documented: true },
-    { date: '1920-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$8.6B', purpose: 'Reparations and frozen assets related to Armenian Genocide', documented: true },
-  ],
 
   'apartheid-south-africa': [
     { date: '1948-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$14.1B', purpose: 'Government spending on operations that violated civil rights in Apartheid in South Africa', documented: true },
@@ -1977,20 +1967,10 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2015-01-01', from: 'DuPont', to: 'Environmental lobbying', amount: '$105M', purpose: 'Lobbying to weaken regulations related to Corporate Environmental Crimes', documented: true },
   ],
 
-  'environmental-racism': [
-    { date: '2013-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$10.2B', purpose: 'Government spending on operations that violated civil rights in Environmental Racism', documented: true },
-    { date: '2017-01-01', from: 'Federal/state government', to: 'Victim restitution and settlements', amount: '$6.6B', purpose: 'Settlements and compensation to victims of Environmental Racism', documented: true },
-  ],
 
   'ethiopian-airlines-302': [
     { date: '2019-01-01', from: 'Boeing', to: 'Revenue from harmful practices', amount: '$36.9B', purpose: 'Boeing revenue while engaging in practices exposed by Ethiopian Airlines Flight 302 Crash', documented: true },
     { date: '2021-01-01', from: 'Boeing', to: 'Anti-regulation lobbying', amount: '$138M', purpose: 'Lobbying spending by Boeing to avoid accountability in Ethiopian Airlines Flight 302 Crash', documented: true },
-    { date: '2023-01-01', from: 'Boeing', to: 'Legal penalties and settlements', amount: '$15.3B', purpose: 'Fines and settlements resulting from Ethiopian Airlines Flight 302 Crash', documented: true },
-  ],
-
-  'educational-propaganda': [
-    { date: '2023-01-01', from: 'Heritage Foundation', to: 'Revenue from disinformation', amount: '$45.6B', purpose: 'Revenue generated while spreading misleading content in Educational Propaganda: Rewriting History in Real Time', documented: true },
-    { date: '2025-01-01', from: 'Heritage Foundation', to: 'Legal penalties', amount: '$6.8B', purpose: 'Legal costs and settlements for misconduct in Educational Propaganda: Rewriting History in Real Time', documented: true },
   ],
 
   'egypt-dictatorship': [
@@ -2028,11 +2008,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'Tesla Motors', to: 'Affected investors / victims', amount: '$3.6B', purpose: 'Restitution and settlement payments to victims of Electric Vehicle Industry Fraud: The SPAC and Startup Deception', documented: true },
   ],
 
-  'exxon-climate-fraud': [
-    { date: '2024-01-01', from: 'ExxonMobil', to: 'Revenue from polluting operations', amount: '$83.4B', purpose: 'Revenue from operations causing environmental damage in ExxonMobil Climate Fraud: 50 Years of Knowing and Lying', documented: true },
-    { date: '2025-01-01', from: 'ExxonMobil', to: 'EPA fines and cleanup costs', amount: '$16.6B', purpose: 'Environmental remediation and regulatory penalties for ExxonMobil Climate Fraud: 50 Years of Knowing and Lying', documented: true },
-    { date: '2025-01-01', from: 'ExxonMobil', to: 'Environmental lobbying', amount: '$191M', purpose: 'Lobbying to weaken regulations related to ExxonMobil Climate Fraud: 50 Years of Knowing and Lying', documented: true },
-  ],
 
   'exxon-valdez': [
     { date: '2017-01-01', from: 'ExxonMobil', to: 'Revenue from polluting operations', amount: '$109.2B', purpose: 'Revenue from operations causing environmental damage in Exxon Valdez: The Oil Spill That Changed Nothing', documented: true },
@@ -2041,12 +2016,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
   ],
 
   'electoral-college-manipulation': [
-    { date: '2023-01-01', from: 'US taxpayers', to: 'DOJ', amount: '$30.2B', purpose: 'Government spending on programs implicated in Electoral College Manipulation', documented: true },
-    { date: '2025-01-01', from: 'DOJ', to: 'Legal settlements and remediation', amount: '$9.0B', purpose: 'Settlement costs and remediation arising from Electoral College Manipulation', documented: true },
-    { date: '2024-01-01', from: 'Donald Trump', to: 'Oversight and investigation costs', amount: '$1.1B', purpose: 'Congressional and inspector general investigation costs for Electoral College Manipulation', documented: false },
-  ],
-
-  'epstein-network-full-mapping': [
     { date: '2025-01-01', from: 'City/county taxpayers', to: 'Police department', amount: '$1.2B', purpose: 'Department funding during period of misconduct in Epstein Network Full Mapping', documented: true },
     { date: '2025-01-01', from: 'Municipal government', to: 'Misconduct settlements', amount: '$1.9B', purpose: 'Taxpayer-funded settlements for misconduct exposed in Epstein Network Full Mapping', documented: true },
     { date: '2025-01-01', from: 'Police department', to: 'Militarized equipment purchases', amount: '$621M', purpose: 'Equipment and training spending related to Epstein Network Full Mapping', documented: true },
@@ -2735,11 +2704,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2021-01-01', from: 'World Economic Forum', to: 'Legal penalties and settlements', amount: '$13.4B', purpose: 'Fines and settlements resulting from GM Ignition Switch Defect: 124 Deaths, Zero Prison Time', documented: true },
   ],
 
-  'goldman-sachs-fraud': [
-    { date: '2021-01-01', from: 'Goldman Sachs', to: 'Illicit financial flows', amount: '$8.5B', purpose: 'Fraudulent financial activity in Goldman Sachs: A Pattern of Institutional Fraud', documented: true },
-    { date: '2024-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against Goldman Sachs', amount: '$3.6B', purpose: 'Fines and penalties imposed for violations uncovered in Goldman Sachs: A Pattern of Institutional Fraud', documented: true },
-    { date: '2023-01-01', from: 'Goldman Sachs', to: 'Affected investors / victims', amount: '$13.1B', purpose: 'Restitution and settlement payments to victims of Goldman Sachs: A Pattern of Institutional Fraud', documented: true },
-  ],
 
   'guatemala-experiments': [
     { date: '2023-01-01', from: 'Goldman Sachs', to: 'Military/security operations', amount: '$141.0B', purpose: 'Military spending on operations involving atrocities in Guatemala Syphilis Experiments: U.S. Government Human Experimentation', documented: false },
@@ -2753,11 +2717,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2025-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$3.4B', purpose: 'Reparations and frozen assets related to Gujarat Riots: State-Sponsored Pogrom Against Muslims', documented: true },
   ],
 
-  'gulf-war-crimes': [
-    { date: '2020-01-01', from: 'Pentagon', to: 'Military/security operations', amount: '$30.9B', purpose: 'Military spending on operations involving atrocities in Gulf War: War Crimes and the Highway of Death', documented: false },
-    { date: '2022-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$16.4B', purpose: 'Weapons industry profits from conflict in Gulf War: War Crimes and the Highway of Death', documented: true },
-    { date: '2025-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$8.4B', purpose: 'Reparations and frozen assets related to Gulf War: War Crimes and the Highway of Death', documented: true },
-  ],
 
   'gulf-of-tonkin-fabricated-incident': [
     { date: '2020-01-01', from: 'US taxpayers', to: 'Pentagon', amount: '$17.1B', purpose: 'Government spending on programs implicated in Gulf of Tonkin Fabricated Incident', documented: true },
@@ -3055,11 +3014,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2015-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$11.2B', purpose: 'Reparations and frozen assets related to Iraq War Deception', documented: true },
   ],
 
-  'iraq-sanctions': [
-    { date: '2010-01-01', from: 'Madeleine Albright', to: 'Military/security operations', amount: '$166.0B', purpose: 'Military spending on operations involving atrocities in Iraq Sanctions and the Death of 500,000 Children', documented: false },
-    { date: '2012-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$3.9B', purpose: 'Weapons industry profits from conflict in Iraq Sanctions and the Death of 500,000 Children', documented: true },
-    { date: '2015-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$6.2B', purpose: 'Reparations and frozen assets related to Iraq Sanctions and the Death of 500,000 Children', documented: true },
-  ],
 
   'iraq-war-profiteering': [
     { date: '2011-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$5.7B', purpose: 'Undisclosed political spending connected to Iraq and Afghanistan War Profiteering', documented: false },
@@ -3077,12 +3031,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2009-01-01', from: 'Donald Rumsfeld', to: 'Military/security operations', amount: '$87.5B', purpose: 'Military spending on operations involving atrocities in Iraq War Crimes', documented: false },
     { date: '2011-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$18.2B', purpose: 'Weapons industry profits from conflict in Iraq War Crimes', documented: true },
     { date: '2014-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$17.2B', purpose: 'Reparations and frozen assets related to Iraq War Crimes', documented: true },
-  ],
-
-  'iran-coup-1953': [
-    { date: '2010-01-01', from: 'US taxpayers', to: 'CIA', amount: '$31.6B', purpose: 'Budget allocation for operations connected to Iranian Coup (Operation Ajax)', documented: false },
-    { date: '2011-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$50.3B', purpose: 'Contractor profits from programs related to Iranian Coup (Operation Ajax)', documented: true },
-    { date: '2013-01-01', from: 'CIA', to: 'Classified / black budget programs', amount: '$24.8B', purpose: 'Classified spending on programs exposed in Iranian Coup (Operation Ajax)', documented: false },
   ],
 
   'immigration-detention': [
@@ -3254,11 +3202,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2023-01-01', from: 'Pharmaceutical/healthcare industry', to: 'Settlements and victim compensation', amount: '$28.2B', purpose: 'Legal settlements and compensation arising from Insulin Pricing Scandal', documented: true },
   ],
 
-  'immigration-detention-abuse': [
-    { date: '2001-01-01', from: 'ICE', to: 'Military/security operations', amount: '$17.9B', purpose: 'Military spending on operations involving atrocities in Immigration Detention: Abuse, Deaths, and Profit in America\'s Shadow Prison System', documented: false },
-    { date: '2003-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$64.4B', purpose: 'Weapons industry profits from conflict in Immigration Detention: Abuse, Deaths, and Profit in America\'s Shadow Prison System', documented: true },
-    { date: '2006-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$5.2B', purpose: 'Reparations and frozen assets related to Immigration Detention: Abuse, Deaths, and Profit in America\'s Shadow Prison System', documented: true },
-  ],
 
   'indigenous-land-rights-resource-extraction': [
     { date: '2024-01-01', from: 'DOI', to: 'Military/security operations', amount: '$71.9B', purpose: 'Military spending on operations involving atrocities in Indigenous Land Rights Violations and Resource Extraction', documented: false },
@@ -3282,12 +3225,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2001-01-01', from: 'US taxpayers', to: 'Federal government', amount: '$43.1B', purpose: 'Government spending on programs implicated in Iraq War False Intelligence: The Fabrication of WMD Claims and the Crime of Aggressive War', documented: true },
     { date: '2004-01-01', from: 'Federal government', to: 'Legal settlements and remediation', amount: '$10.0B', purpose: 'Settlement costs and remediation arising from Iraq War False Intelligence: The Fabrication of WMD Claims and the Crime of Aggressive War', documented: true },
     { date: '2002-01-01', from: 'George W. Bush', to: 'Oversight and investigation costs', amount: '$557M', purpose: 'Congressional and inspector general investigation costs for Iraq War False Intelligence: The Fabrication of WMD Claims and the Crime of Aggressive War', documented: false },
-  ],
-
-
-  // ========== J ==========
-
-  'judicial-capture': [
     { date: '2023-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$10.8B', purpose: 'Undisclosed political spending connected to Judicial Capture by Federalist Society', documented: false },
     { date: '2024-01-01', from: 'Corporate donors', to: 'Donald Trump', amount: '$1.5B', purpose: 'Campaign contributions and financial benefits flowing through Judicial Capture by Federalist Society', documented: true },
     { date: '2025-01-01', from: 'Donald Trump', to: 'Personal financial enrichment', amount: '$228M', purpose: 'Personal financial benefits gained through corruption in Judicial Capture by Federalist Society', documented: false },
@@ -3441,11 +3378,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2012-01-01', from: 'IRS', to: 'Personal financial enrichment', amount: '$437M', purpose: 'Personal financial benefits gained through corruption in The Koch Network: Dark Money and the Capture of American Democracy', documented: false },
   ],
 
-  'kissinger-foreign-policy-war-crimes': [
-    { date: '2024-01-01', from: 'CIA', to: 'Military/security operations', amount: '$91.8B', purpose: 'Military spending on operations involving atrocities in Henry Kissinger\'s Foreign Policy Legacy and War Crimes', documented: false },
-    { date: '2025-01-01', from: 'Defense contractors', to: 'Arms and equipment sales', amount: '$4.9B', purpose: 'Weapons industry profits from conflict in Henry Kissinger\'s Foreign Policy Legacy and War Crimes', documented: true },
-    { date: '2025-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$9.0B', purpose: 'Reparations and frozen assets related to Henry Kissinger\'s Foreign Policy Legacy and War Crimes', documented: true },
-  ],
 
 
   // ========== C ==========
@@ -3474,22 +3406,12 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== L ==========
 
-  'lab-leak': [
-    { date: '2020-01-01', from: 'EcoHealth Alliance', to: 'Revenue from harmful products/practices', amount: '$21.9B', purpose: 'Revenue generated from products or practices at center of COVID-19 Lab Leak Theory', documented: true },
-    { date: '2022-01-01', from: 'EcoHealth Alliance', to: 'Lobbying and political influence', amount: '$942M', purpose: 'Lobbying expenditures to prevent regulation related to COVID-19 Lab Leak Theory', documented: true },
-    { date: '2024-01-01', from: 'EcoHealth Alliance', to: 'Settlements and victim compensation', amount: '$13.3B', purpose: 'Legal settlements and compensation arising from COVID-19 Lab Leak Theory', documented: true },
-  ],
 
   'libya-mercenaries': [
     { date: '2011-01-01', from: 'Foreign state actors', to: 'Influence operations', amount: '$3.7B', purpose: 'Foreign spending on influence operations in Libya Intervention and Aftermath', documented: false },
     { date: '2013-01-01', from: 'US Government', to: 'Counter-operations and investigations', amount: '$870M', purpose: 'US government response costs for Libya Intervention and Aftermath', documented: true },
   ],
 
-  'lobbying-corruption': [
-    { date: '2013-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$1.9B', purpose: 'Undisclosed political spending connected to K Street: The Corruption Industry', documented: false },
-    { date: '2014-01-01', from: 'Corporate donors', to: 'PhRMA', amount: '$85M', purpose: 'Campaign contributions and financial benefits flowing through K Street: The Corruption Industry', documented: true },
-    { date: '2015-01-01', from: 'PhRMA', to: 'Personal financial enrichment', amount: '$220M', purpose: 'Personal financial benefits gained through corruption in K Street: The Corruption Industry', documented: false },
-  ],
 
   'lion-air-610': [
     { date: '2018-01-01', from: 'Boeing', to: 'Revenue from harmful practices', amount: '$38.7B', purpose: 'Boeing revenue while engaging in practices exposed by Lion Air Flight 610 Crash', documented: true },
@@ -3523,12 +3445,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
   'license-plate-reader-mass-collection': [
     { date: '2023-01-01', from: 'Government agencies', to: 'License Plate Reader Mass Surveillance', amount: '$20.7B', purpose: 'Contracts for surveillance technology related to License Plate Reader Mass Surveillance', documented: false },
     { date: '2024-01-01', from: 'License Plate Reader Mass Surveillance', to: 'Data monetization revenue', amount: '$72.5B', purpose: 'Revenue from data collection practices exposed in License Plate Reader Mass Surveillance', documented: true },
-    { date: '2025-01-01', from: 'License Plate Reader Mass Surveillance', to: 'Regulatory fines and settlements', amount: '$5.1B', purpose: 'Privacy violation penalties resulting from License Plate Reader Mass Surveillance', documented: true },
-  ],
-
-  'local-news-desert-information-crisis': [
-    { date: '2015-01-01', from: 'Sinclair Broadcast Group', to: 'Revenue from disinformation', amount: '$37.5B', purpose: 'Revenue generated while spreading misleading content in Local News Desert Information Crisis', documented: true },
-    { date: '2017-01-01', from: 'Sinclair Broadcast Group', to: 'Legal penalties', amount: '$3.6B', purpose: 'Legal costs and settlements for misconduct in Local News Desert Information Crisis', documented: true },
   ],
 
   'law-enforcement-social-media-monitoring': [
@@ -4773,11 +4689,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2022-01-01', from: 'CPUC', to: 'Legal penalties and settlements', amount: '$18.2B', purpose: 'Fines and settlements resulting from PG&E Wildfire Criminal Negligence', documented: true },
   ],
 
-  'pfas-forever-chemicals-contamination': [
-    { date: '1951-01-01', from: 'DOD', to: 'Revenue from harmful products/practices', amount: '$58.3B', purpose: 'Revenue generated from products or practices at center of PFAS: The Forever Chemical Contamination of America', documented: true },
-    { date: '1953-01-01', from: 'DOD', to: 'Lobbying and political influence', amount: '$689M', purpose: 'Lobbying expenditures to prevent regulation related to PFAS: The Forever Chemical Contamination of America', documented: true },
-    { date: '1955-01-01', from: 'DOD', to: 'Settlements and victim compensation', amount: '$1.1B', purpose: 'Legal settlements and compensation arising from PFAS: The Forever Chemical Contamination of America', documented: true },
-  ],
 
   'police-qualified-immunity-brutality': [
     { date: '2024-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$4.6B', purpose: 'Government spending on operations that violated civil rights in Police Qualified Immunity and Systemic Brutality', documented: true },
@@ -4816,12 +4727,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
   'phoenix-program-vietnam-assassination': [
     { date: '1968-01-01', from: 'US taxpayers', to: 'CIA', amount: '$50.6B', purpose: 'Budget allocation for operations connected to Phoenix Program', documented: false },
     { date: '1969-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$40.1B', purpose: 'Contractor profits from programs related to Phoenix Program', documented: true },
-    { date: '1971-01-01', from: 'CIA', to: 'Classified / black budget programs', amount: '$990M', purpose: 'Classified spending on programs exposed in Phoenix Program', documented: false },
-  ],
-
-  'project-shamrock-communications-surveillance': [
-    { date: '1945-01-01', from: 'US taxpayers', to: 'NSA', amount: '$30.9B', purpose: 'Budget allocation for operations connected to Project SHAMROCK', documented: false },
-    { date: '1946-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$21.8B', purpose: 'Contractor profits from programs related to Project SHAMROCK', documented: true },
     { date: '1948-01-01', from: 'NSA', to: 'Classified / black budget programs', amount: '$649M', purpose: 'Classified spending on programs exposed in Project SHAMROCK', documented: false },
   ],
 
@@ -5495,11 +5400,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '1936-01-01', from: 'SEC', to: 'Affected investors / victims', amount: '$2.2B', purpose: 'Restitution and settlement payments to victims of SEC Failure to Regulate Wall Street: A History of Captured Oversight', documented: true },
   ],
 
-  'school-to-prison-pipeline': [
-    { date: '1994-01-01', from: 'City/county taxpayers', to: 'Police department', amount: '$6.8B', purpose: 'Department funding during period of misconduct in The School-to-Prison Pipeline', documented: true },
-    { date: '1996-01-01', from: 'Municipal government', to: 'Misconduct settlements', amount: '$587M', purpose: 'Taxpayer-funded settlements for misconduct exposed in The School-to-Prison Pipeline', documented: true },
-    { date: '1995-01-01', from: 'Police department', to: 'Militarized equipment purchases', amount: '$101M', purpose: 'Equipment and training spending related to The School-to-Prison Pipeline', documented: true },
-  ],
 
   'supreme-court-ethics-crisis': [
     { date: '2023-01-01', from: 'Dark money groups and PACs', to: 'Political influence campaigns', amount: '$492M', purpose: 'Undisclosed political spending connected to The Supreme Court Ethics Crisis: Undisclosed Gifts, Dark Money, and the Corruption of the Highest Court', documented: false },
@@ -5543,11 +5443,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2000-01-01', from: 'The Student Loan', to: 'Affected investors / victims', amount: '$521M', purpose: 'Restitution and settlement payments to victims of The Student Loan Crisis: $1.75 Trillion in Predatory Government-Backed Debt', documented: true },
   ],
 
-  'social-media-mental-health-exploitation': [
-    { date: '2024-01-01', from: 'Government agencies', to: 'Social Media Platforms and Mental Health Exploitation', amount: '$8.0B', purpose: 'Contracts for surveillance technology related to Social Media Platforms and Mental Health Exploitation', documented: false },
-    { date: '2025-01-01', from: 'Social Media Platforms and Mental Health Exploitation', to: 'Data monetization revenue', amount: '$46.1B', purpose: 'Revenue from data collection practices exposed in Social Media Platforms and Mental Health Exploitation', documented: true },
-    { date: '2025-01-01', from: 'Social Media Platforms and Mental Health Exploitation', to: 'Regulatory fines and settlements', amount: '$7.7B', purpose: 'Privacy violation penalties resulting from Social Media Platforms and Mental Health Exploitation', documented: true },
-  ],
 
   'solitary-confinement-torture': [
     { date: '2024-01-01', from: 'BOP', to: 'Military/security operations', amount: '$194.4B', purpose: 'Military spending on operations involving atrocities in Solitary Confinement as Torture in American Prisons', documented: false },
@@ -5872,10 +5767,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '1506-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$12.2B', purpose: 'Reparations and frozen assets related to Transatlantic Slave Trade', documented: true },
   ],
 
-  'tuskegee-syphilis-experiment': [
-    { date: '1972-01-01', from: 'U.S. Public Health Service', to: 'Operations and activities', amount: '$23.3B', purpose: 'Financial flows connected to Tuskegee Syphilis Experiment', documented: true },
-    { date: '1975-01-01', from: 'U.S. Public Health Service', to: 'Legal and remediation costs', amount: '$4.6B', purpose: 'Accountability costs arising from Tuskegee Syphilis Experiment', documented: true },
-  ],
 
   'total-information-awareness': [
     { date: '2013-01-01', from: 'Government agencies', to: 'Programs violating civil rights', amount: '$7.0B', purpose: 'Government spending on operations that violated civil rights in Total Information Awareness and Mass Surveillance Architecture', documented: true },
@@ -5924,12 +5815,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
   ],
 
   'tech-monopoly-antitrust-failures': [
-    { date: '2024-01-01', from: 'Big Tech Monopoly Power and Antitrust Enforcement Failures', to: 'Revenue from harmful practices', amount: '$41.7B', purpose: 'Big Tech Monopoly Power and Antitrust Enforcement Failures revenue while engaging in practices exposed by Big Tech Monopoly Power and Antitrust Enforcement Failures', documented: true },
-    { date: '2025-01-01', from: 'Big Tech Monopoly Power and Antitrust Enforcement Failures', to: 'Anti-regulation lobbying', amount: '$390M', purpose: 'Lobbying spending by Big Tech Monopoly Power and Antitrust Enforcement Failures to avoid accountability in Big Tech Monopoly Power and Antitrust Enforcement Failures', documented: true },
-    { date: '2025-01-01', from: 'Big Tech Monopoly Power and Antitrust Enforcement Failures', to: 'Legal penalties and settlements', amount: '$3.0B', purpose: 'Fines and settlements resulting from Big Tech Monopoly Power and Antitrust Enforcement Failures', documented: true },
-  ],
-
-  'ticketmaster-live-nation-monopoly': [
     { date: '2024-01-01', from: 'Ticketmaster/Live Nation Monopoly and Consumer Exploitation', to: 'Revenue from harmful practices', amount: '$19.1B', purpose: 'Ticketmaster/Live Nation Monopoly and Consumer Exploitation revenue while engaging in practices exposed by Ticketmaster/Live Nation Monopoly and Consumer Exploitation', documented: true },
     { date: '2025-01-01', from: 'Ticketmaster/Live Nation Monopoly and Consumer Exploitation', to: 'Anti-regulation lobbying', amount: '$690M', purpose: 'Lobbying spending by Ticketmaster/Live Nation Monopoly and Consumer Exploitation to avoid accountability in Ticketmaster/Live Nation Monopoly and Consumer Exploitation', documented: true },
     { date: '2025-01-01', from: 'Ticketmaster/Live Nation Monopoly and Consumer Exploitation', to: 'Legal penalties and settlements', amount: '$11.4B', purpose: 'Fines and settlements resulting from Ticketmaster/Live Nation Monopoly and Consumer Exploitation', documented: true },
@@ -5953,10 +5838,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '1961-01-01', from: 'Chemie Grunenthal', to: 'Settlements and victim compensation', amount: '$889M', purpose: 'Legal settlements and compensation arising from Thalidomide: The Pharmaceutical Catastrophe That Deformed 10,000+ Children', documented: true },
   ],
 
-  'tuskegee-syphilis-experiment': [
-    { date: '1932-01-01', from: 'U.S. Public Health Service', to: 'Operations and activities', amount: '$36.3B', purpose: 'Financial flows connected to The Tuskegee Syphilis Study: 40 Years of Medical Racism (1932-1972)', documented: true },
-    { date: '1935-01-01', from: 'U.S. Public Health Service', to: 'Legal and remediation costs', amount: '$1.4B', purpose: 'Accountability costs arising from The Tuskegee Syphilis Study: 40 Years of Medical Racism (1932-1972)', documented: true },
-  ],
 
 
   // ========== U ==========
@@ -6009,11 +5890,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2023-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$3.1B', purpose: 'Reparations and frozen assets related to Russian War Crimes in Ukraine: Systematic Atrocities Against Civilians', documented: true },
   ],
 
-  'usa-gymnastics-abuse': [
-    { date: '2022-01-01', from: 'Larry Nassar', to: 'Hush money and NDAs', amount: '$149M', purpose: 'Payments to suppress allegations related to USA Gymnastics Abuse: The Largest Sexual Abuse Scandal in Sports History', documented: false },
-    { date: '2024-01-01', from: 'Larry Nassar', to: 'Civil lawsuit settlements', amount: '$1.6B', purpose: 'Legal settlements in civil cases arising from USA Gymnastics Abuse: The Largest Sexual Abuse Scandal in Sports History', documented: true },
-    { date: '2025-01-01', from: 'Larry Nassar', to: 'Criminal defense costs', amount: '$48M', purpose: 'Legal defense spending in USA Gymnastics Abuse: The Largest Sexual Abuse Scandal in Sports History', documented: true },
-  ],
 
   'uvalde-shooting': [
     { date: '2024-01-01', from: 'Gun manufacturers', to: 'Firearms industry revenue', amount: '$41.1B', purpose: 'Gun industry revenue during period of Uvalde School Shooting: 21 Lives Lost at Robb Elementary', documented: true },
