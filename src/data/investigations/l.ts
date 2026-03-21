@@ -677,7 +677,7 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2007-01-01', from: 'Lehman Brothers (real estate holdings)', to: 'Commercial and residential assets', amount: '$111,000,000,000', purpose: 'Real estate portfolio was 4.2x total equity; leverage ratio of 30.7:1 meant 3.3% decline would wipe out all equity', documented: true },
      { date: '2008-09-15', from: 'Lehman Brothers', to: 'Bankruptcy (total liabilities)', amount: '$613,000,000,000', purpose: 'Largest bankruptcy filing in US history; triggered global financial panic and credit market freeze', documented: true },
      { date: '2008-10-01', from: 'US Treasury (TARP)', to: 'Wall Street banks (bailout)', amount: '$700,000,000,000', purpose: 'Emergency Economic Stabilization Act; taxpayer-funded bailout of financial institutions after Lehman collapse catalyzed crisis', documented: true },
-     { date: '2008-01-01', from: 'Ernst & Young (auditor)', to: 'Lehman Brothers (clean audits)', amount: '$0', purpose: 'Ernst & Young gave Lehman clean audit opinions despite Repo 105 manipulations; settled investor lawsuit for $99M', documented: true },
+     { date: '2013-01-01', from: 'Ernst & Young', to: 'Investor lawsuit settlement', amount: '$99,000,000', purpose: 'Ernst & Young settled for giving Lehman clean audit opinions despite knowledge of Repo 105 balance sheet manipulations', documented: true },
    ],
   },
   'lead-poisoning-america': {

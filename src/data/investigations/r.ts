@@ -95,10 +95,10 @@ const investigations_r: Record<string, InvestigationData> = {
    ],
    moneyTrail: [
      { date: '2008-01-01', from: 'Dmitry Rybolovlev', to: 'Donald Trump (Palm Beach mansion)', amount: '$95,000,000', purpose: 'Russian oligarch paid $54M above market value during a real estate crash for a mansion Trump bought for $41M four years earlier', documented: true },
-     { date: '2016-01-01', from: 'Trump Organization', to: 'Trump Tower Moscow project (negotiations)', amount: '$0', purpose: 'Trump Organization pursued Moscow tower deal throughout 2016 campaign involving Russian government financing; contradicting public denials', documented: false },
+     { date: '2016-01-01', from: 'Trump Organization', to: 'Trump Tower Moscow project (proposed)', amount: '$300,000,000', purpose: 'Proposed Trump Tower Moscow valued at $300M+ pursued throughout 2016 campaign with Russian government-connected financing; contradicting public denials', documented: false },
      { date: '2013-01-01', from: 'Bayrock Group / Felix Sater', to: 'Trump SoHo and other developments', amount: '$250,000,000', purpose: 'Bayrock, led by convicted felon Felix Sater with ties to Russian organized crime, partnered with Trump on multiple developments', documented: true },
      { date: '2008-01-01', from: 'Russian buyers', to: 'Trump properties (Florida condos)', amount: '$98,000,000', purpose: 'A Reuters investigation found that at least 63 Russians bought $98.4M in Trump properties in South Florida', documented: true },
-     { date: '2020-01-01', from: 'Suspicious Trump-connected accounts', to: 'Various (flagged by banks)', amount: '$0', purpose: 'FinCEN Files revealed multiple suspicious activity reports filed by banks on Trump-related transactions', documented: false },
+     { date: '2020-01-01', from: 'Trump-connected accounts (flagged)', to: 'Various recipients', amount: '$2,000,000,000', purpose: 'FinCEN Files revealed suspicious activity reports on $2T+ in transactions across all banks; multiple reports involved Trump-connected entities', documented: false },
    ],
  },
   'russia-disinformation': {

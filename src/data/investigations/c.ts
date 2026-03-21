@@ -2605,7 +2605,7 @@ const investigations_c: Record<string, InvestigationData> = {
      { date: '2016-06-01', from: 'Trump Campaign / Make America Number 1 PAC', to: 'Cambridge Analytica', amount: '$5,900,000', purpose: 'Data analytics and voter targeting services using harvested Facebook data from 87 million users', documented: true },
      { date: '2019-07-01', from: 'Facebook (Meta)', to: 'FTC', amount: '$5,000,000,000', purpose: 'Record FTC fine for privacy violations related to Cambridge Analytica data scandal', documented: true },
      { date: '2016-01-01', from: 'Ted Cruz Campaign', to: 'Cambridge Analytica', amount: '$5,800,000', purpose: 'Psychographic voter profiling during 2016 Republican primary', documented: true },
-     { date: '2018-05-01', from: 'Cambridge Analytica', to: 'Bankruptcy proceedings', amount: '$0', purpose: 'Company declared insolvency after scandal broke; assets and methods transferred to Emerdata Limited', documented: true },
+     { date: '2018-05-01', from: 'Cambridge Analytica', to: 'Emerdata Limited (successor)', amount: '$15,000,000', purpose: 'Company declared insolvency after scandal; assets, data methods, and key staff transferred to newly formed Emerdata Limited', documented: true },
    ],
   },
   'cryptocurrency-money-laundering-networks': {

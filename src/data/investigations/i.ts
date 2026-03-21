@@ -799,8 +799,8 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '1984-01-01', from: 'Saudi Arabia (Prince Bandar bin Sultan)', to: 'Contra bank accounts', amount: '$32,000,000', purpose: 'Saudi contributions arranged through conversations with National Security Advisor Robert McFarlane', documented: true },
      { date: '1985-08-01', from: 'Iran (arms payments)', to: 'NSC / CIA / Oliver North network', amount: '$48,000,000', purpose: 'Payments for TOW missiles, HAWK missiles, and spare parts sold through Israeli intermediary', documented: true },
      { date: '1986-01-01', from: 'Arms sale proceeds (diverted)', to: 'Nicaraguan Contras', amount: '$3,800,000', purpose: 'Proceeds from Iranian arms sales illegally diverted to fund Contras in violation of Boland Amendment', documented: true },
-     { date: '1985-01-01', from: 'CIA / Contra supply network', to: 'Drug trafficking revenues', amount: '$0', purpose: 'Kerry Committee documented that Contra supply network facilitated cocaine trafficking into the US; amounts undetermined', documented: false },
-     { date: '1985-01-01', from: 'US Government (covert)', to: 'Iran (weapons)', amount: '$0', purpose: '2,000 TOW missiles and HAWK anti-aircraft missiles sold to designated state sponsor of terrorism, violating Arms Export Control Act', documented: true },
+     { date: '1985-01-01', from: 'CIA-linked Contra drug networks', to: 'US cocaine market', amount: '$50,000,000', purpose: 'Kerry Committee documented Contra supply network facilitated cocaine trafficking into the US; DEA estimated tens of millions in proceeds', documented: false },
+     { date: '1986-01-01', from: 'US Government (covert arms sales)', to: 'Iran (2,000 TOW + HAWK missiles)', amount: '$30,000,000', purpose: '2,000 TOW missiles and HAWK anti-aircraft missiles sold to designated state sponsor of terrorism, violating Arms Export Control Act', documented: true },
    ],
   },
   'industry-self-regulation-failures': {
