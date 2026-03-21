@@ -1080,6 +1080,55 @@ export const categoryDatabase: Record<string, CategoryData> = {
       { slug: 'ryan-salame', name: 'Ryan Salame', title: 'Co-CEO of FTX Digital Markets; made illegal political contributions at Bankman-Fried', riskLevel: 'high' },
     ],
   },
+  'conspiracy': {
+    name: 'Conspiracy to Defraud the United States',
+    description: 'Individuals charged with or convicted of conspiracy to defraud the United States government, including obstruction of government functions and fraudulent schemes against federal agencies.',
+    individuals: [
+      { slug: 'donald-trump', name: 'Donald John Trump', title: '45th & 47th President of the United States', riskLevel: 'critical' },
+      { slug: 'roger-stone', name: 'Roger Stone', title: 'Political Consultant', riskLevel: 'high' },
+      { slug: 'paul-manafort', name: 'Paul Manafort', title: 'Former Trump Campaign Chairman', riskLevel: 'critical' },
+      { slug: 'michael-flynn', name: 'Michael Flynn', title: 'Former National Security Advisor', riskLevel: 'high' },
+      { slug: 'steve-bannon', name: 'Steve Bannon', title: 'Former White House Chief Strategist', riskLevel: 'high' },
+      { slug: 'rudy-giuliani', name: 'Rudy Giuliani', title: 'Former Mayor of New York City', riskLevel: 'critical' },
+    ],
+  },
+  'defamation': {
+    name: 'Defamation',
+    description: 'Individuals found liable for or credibly accused of defamation, including spreading false statements that damaged the reputation of others.',
+    individuals: [
+      { slug: 'alex-jones', name: 'Alex Jones', title: 'InfoWars Host', riskLevel: 'critical' },
+      { slug: 'donald-trump', name: 'Donald John Trump', title: '45th & 47th President of the United States', riskLevel: 'critical' },
+      { slug: 'rudy-giuliani', name: 'Rudy Giuliani', title: 'Former Mayor of New York City', riskLevel: 'high' },
+    ],
+  },
+  'emoluments': {
+    name: 'Emoluments Violations',
+    description: 'Individuals accused of violating the Emoluments Clause of the U.S. Constitution by receiving payments, gifts, or benefits from foreign or domestic governments while holding federal office.',
+    individuals: [
+      { slug: 'donald-trump', name: 'Donald John Trump', title: '45th & 47th President of the United States', riskLevel: 'critical' },
+      { slug: 'jared-kushner', name: 'Jared Kushner', title: 'Former Senior Advisor to the President', riskLevel: 'high' },
+    ],
+  },
+  'espionage': {
+    name: 'Espionage Act Violations',
+    description: 'Individuals charged under or investigated for violations of the Espionage Act, including unauthorized retention of classified documents and transmission of national defense information.',
+    individuals: [
+      { slug: 'donald-trump', name: 'Donald John Trump', title: '45th & 47th President of the United States', riskLevel: 'critical' },
+      { slug: 'edward-snowden', name: 'Edward Snowden', title: 'NSA Whistleblower', riskLevel: 'high' },
+      { slug: 'chelsea-manning', name: 'Chelsea Manning', title: 'Army Intelligence Analyst, Whistleblower', riskLevel: 'high' },
+      { slug: 'julian-assange', name: 'Julian Assange', title: 'WikiLeaks Founder', riskLevel: 'high' },
+    ],
+  },
+  'classified-documents': {
+    name: 'Mishandling Classified Documents',
+    description: 'Individuals investigated for or charged with unauthorized possession, storage, or transmission of classified national defense information.',
+    individuals: [
+      { slug: 'donald-trump', name: 'Donald John Trump', title: '45th & 47th President of the United States', riskLevel: 'critical' },
+      { slug: 'hillary-clinton', name: 'Hillary Clinton', title: 'Former Secretary of State', riskLevel: 'high' },
+      { slug: 'david-petraeus', name: 'David Petraeus', title: 'Former CIA Director', riskLevel: 'high' },
+      { slug: 'sandy-berger', name: 'Sandy Berger', title: 'Former National Security Advisor', riskLevel: 'medium' },
+    ],
+  },
 };
 
-export const allCategorySlugs = ["sexual-assault","election-interference","financial-fraud","human-trafficking","obstruction-of-justice","tax-evasion","money-laundering","bribery-corruption","campaign-finance","seditious-conspiracy","racketeering","war-crimes","environmental-crimes","civil-rights-violations","government-surveillance","corporate-homicide","perjury","wire-fraud","securities-fraud"];
+export const allCategorySlugs = ["sexual-assault","election-interference","financial-fraud","human-trafficking","obstruction-of-justice","tax-evasion","money-laundering","bribery-corruption","campaign-finance","seditious-conspiracy","racketeering","war-crimes","environmental-crimes","civil-rights-violations","government-surveillance","corporate-homicide","perjury","wire-fraud","securities-fraud","conspiracy","defamation","emoluments","espionage","classified-documents"];

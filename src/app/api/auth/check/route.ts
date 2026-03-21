@@ -3,12 +3,13 @@ import { cookies } from 'next/headers';
 
 export const dynamic = 'force-dynamic';
 
+const AUTH_TOKEN = 'site_authenticated';
+
 export async function GET() {
   const cookieStore = await cookies();
   const token = cookieStore.get('site_auth')?.value;
-  const SITE_PASSWORD = process.env.SITE_PASSWORD || 'Apples1!';
 
-  if (token && token === SITE_PASSWORD) {
+  if (token === AUTH_TOKEN) {
     return NextResponse.json({ authenticated: true });
   }
 

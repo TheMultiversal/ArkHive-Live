@@ -1,5 +1,5 @@
 import Link from"next/link";
-import { Eye, Github, Twitter, Mail, ExternalLink, Skull } from"lucide-react";
+import { Eye, Twitter, Mail, ExternalLink, Skull } from"lucide-react";
 
 export default function Footer() {
  const currentYear = new Date().getFullYear();
@@ -7,10 +7,10 @@ export default function Footer() {
  const footerLinks = {
  investigations: [
  { href:"/investigations", label:"All Investigations"},
- { href:"/investigations?category=health", label:"Public Health"},
- { href:"/investigations?category=environment", label:"Environment"},
- { href:"/investigations?category=surveillance", label:"Surveillance"},
- { href:"/investigations?category=corruption", label:"Corruption"},
+ { href:"/investigations?category=Public Health", label:"Public Health"},
+ { href:"/investigations?category=Environment", label:"Environment"},
+ { href:"/investigations?category=Technology & Privacy", label:"Surveillance"},
+ { href:"/investigations?category=Corruption & Ethics", label:"Corruption"},
  ],
  entities: [
  { href:"/entities/agencies", label:"Government Agencies"},
@@ -70,20 +70,12 @@ export default function Footer() {
  </p>
  <div className="flex items-center gap-1">
  <a
- href="https://x.com/ArkHiveLive"
+ href="https://x.com/ArkHiveLives"
  target="_blank"
  rel="noopener noreferrer"
  className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-950 border border-transparent hover:border-blood-800 transition-all"
  >
  <Twitter className="w-4 h-4"/>
- </a>
- <a
- href="https://github.com/TheMultiversal/ArkHive-Live"
- target="_blank"
- rel="noopener noreferrer"
- className="p-2.5 text-zinc-600 hover:text-blood-500 hover:bg-blood-950 border border-transparent hover:border-blood-800 transition-all"
- >
- <Github className="w-4 h-4"/>
  </a>
  <a
  href="mailto:tips@arkhive.org"

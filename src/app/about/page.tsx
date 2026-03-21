@@ -1,13 +1,26 @@
 import type { Metadata } from "next";
 import Link from"next/link";
 import { Skull, Target, Eye, FileText, Users, Lock, ArrowRight, Database, Shield, AlertTriangle, Globe, Scale, Zap } from "lucide-react";
+import investigationDatabase from '@/data/investigations';
+import agencyDatabase from '@/data/agencies';
+import corporationDatabase from '@/data/corporations';
+import individualDatabase from '@/data/individuals';
+import organizationDatabase from '@/data/organizations';
+
+const INVESTIGATION_COUNT = Object.keys(investigationDatabase).length;
+const AGENCY_COUNT = Object.keys(agencyDatabase).length;
+const CORPORATION_COUNT = Object.keys(corporationDatabase).length;
+const INDIVIDUAL_COUNT = Object.keys(individualDatabase).length;
+const ORGANIZATION_COUNT = Object.keys(organizationDatabase).length;
+const ENTITY_COUNT = AGENCY_COUNT + CORPORATION_COUNT + INDIVIDUAL_COUNT + ORGANIZATION_COUNT;
+const CONNECTION_COUNT = Object.values(investigationDatabase).reduce((sum, inv) => sum + (inv.affiliations?.length || 0), 0);
 
 export const metadata: Metadata = {
  title:"About ArkHive, The Accountability Archive",
- description:"826 investigations. 2,615 tracked entities. 3,140 mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.",
+ description:`${INVESTIGATION_COUNT} investigations. ${ENTITY_COUNT} tracked entities. ${CONNECTION_COUNT} mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.`,
  openGraph: {
  title:"About ArkHive, The Accountability Archive",
- description:"826 investigations. 2,615 tracked entities. 3,140 mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.",
+ description:`${INVESTIGATION_COUNT} investigations. ${ENTITY_COUNT} tracked entities. ${CONNECTION_COUNT} mapped connections. ArkHive is the largest open-source investigative accountability platform on the internet.`,
  },
 };
 
@@ -26,28 +39,28 @@ export default function AboutPage() {
  </h1>
  <p className="text-lg text-zinc-400 max-w-2xl mx-auto mb-8">
  The largest open-source investigative accountability platform on the internet.
- 826 investigations. 2,615 tracked entities. 3,140 mapped connections. Zero corporate sponsors. Zero government approval.
+ {INVESTIGATION_COUNT.toLocaleString()} investigations. {ENTITY_COUNT.toLocaleString()} tracked entities. {CONNECTION_COUNT.toLocaleString()} mapped connections. Zero corporate sponsors. Zero government approval.
  </p>
  {/* Live Stats Bar */}
  <div className="flex flex-wrap justify-center gap-4 text-xs font-mono">
  <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">826</span>
+ <span className="text-blood-500 font-bold">{INVESTIGATION_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Investigations</span>
  </div>
  <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">2,110</span>
+ <span className="text-blood-500 font-bold">{INDIVIDUAL_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Individuals Tracked</span>
  </div>
  <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">141</span>
+ <span className="text-blood-500 font-bold">{AGENCY_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Agencies</span>
  </div>
  <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">209</span>
+ <span className="text-blood-500 font-bold">{CORPORATION_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Corporations</span>
  </div>
  <div className="flex items-center gap-2 px-3 py-1.5 border border-blood-900 bg-black">
- <span className="text-blood-500 font-bold">155</span>
+ <span className="text-blood-500 font-bold">{ORGANIZATION_COUNT.toLocaleString()}</span>
  <span className="text-zinc-500">Organizations</span>
  </div>
  </div>
@@ -96,7 +109,7 @@ export default function AboutPage() {
  <div className="w-2 bg-blood-700 shrink-0"/>
  <div>
  <h3 className="font-bold glass-text mb-1">Connection Mapping</h3>
- <p className="text-zinc-500 text-sm">Reveal how power operates through networks. A single investigation is a story. 826 investigations cross-referenced with 2,615 entities across 3,140 mapped connections is a map of systemic corruption.</p>
+ <p className="text-zinc-500 text-sm">Reveal how power operates through networks. A single investigation is a story. {INVESTIGATION_COUNT.toLocaleString()} investigations cross-referenced with {ENTITY_COUNT.toLocaleString()} entities across {CONNECTION_COUNT.toLocaleString()} mapped connections is a map of systemic corruption.</p>
  </div>
  </div>
  <div className="flex gap-4 p-4 border border-[rgba(255, 80, 80,0.15)] bg-zinc-900">

@@ -37,9 +37,9 @@ export default function WorkspacesPage() {
  })
  .sort((a, b) => {
  switch (sortBy) {
- case 'recent': return new Date(b.lastActivity).getTime(); new Date(a.lastActivity).getTime();
+ case 'recent': return new Date(b.lastActivity).getTime() - new Date(a.lastActivity).getTime();
  case 'name': return a.name.localeCompare(b.name);
- case 'members': return b.members.length; a.members.length;
+ case 'members': return b.members.length - a.members.length;
  default: return 0;
  }
  });

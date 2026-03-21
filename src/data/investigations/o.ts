@@ -1213,6 +1213,34 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2002', event: 'Von Braun later claimed he was unaware of the worst conditions, but his SS personnel file, obtained by the BBC in 2002, included a letter recommending that he approve the transfer of additional sla...', type: 'default' },
    ],
   },
+  'operation-midnight-climax-lsd-experiments': {
+    title: 'Operation Midnight Climax',
+    subtitle: 'The CIA-operated safe houses in San Francisco and New York where unwitting citizens were drugged with LSD and monitored through one-way mirrors from 1954 to 1966',
+    severity: 'critical',
+    category: 'Intelligence Abuse',
+    date: 'January 1, 1954',
+    lastUpdated: 'March 10, 2026',
+    summary: 'Operation Midnight Climax was a sub-project of MKUltra in which the CIA operated safe houses in San Francisco, New York City, and Marin County where unwitting subjects were lured by government-employed prostitutes and dosed with LSD and other psychoactive drugs. CIA agents observed the subjects through one-way mirrors while recording their behavior. The operation was supervised by narcotics agent George Hunter White under the direction of CIA chemist Sidney Gottlieb. The program ran from 1954 to 1966 and involved an unknown number of victims who were never informed they had been experimented upon.',
+    content: [
+      'OPERATIONS: Under the cover of a federal narcotics investigation, the CIA established safe houses at 225 Chestnut Street in San Francisco\'s Telegraph Hill neighborhood, in Greenwich Village in New York City, and later in Marin County. The apartments were outfitted with one-way mirrors, recording equipment, and surveillance devices. CIA-hired prostitutes would lure unsuspecting men from bars to the safe houses, where their drinks were spiked with LSD. CIA operatives, hidden behind the mirrors, observed and recorded the subjects\' reactions to the drug. George Hunter White, a Federal Bureau of Narcotics agent acting on behalf of the CIA, managed the day-to-day operations.',
+      'GEORGE HUNTER WHITE: White was a colorful and ruthless narcotics agent who had worked for the Office of Strategic Services during World War II. He maintained detailed diaries of Midnight Climax operations, writing candidly about dosing unwitting subjects and observing their reactions. In a letter discovered after his death, White wrote: "I was a very minor missionary, actually a heretic, but I toiled wholeheartedly in the vineyards because it was fun, fun, fun. Where else could a red-blooded American boy lie, kill, cheat, steal, rape, and pillage with the sanction and blessing of the All-Highest?" The letter provided a rare candid admission of the program\'s lawlessness.',
+      'SCOPE AND VICTIMS: The exact number of people drugged during Midnight Climax is unknown. The program operated for over a decade, and no records were kept of victim identities. Subjects included American citizens with no connection to intelligence or national security. The selection was entirely random; men who happened to be in certain bars and who were attracted to the prostitutes became test subjects. Many experienced severe psychological reactions to the LSD, including paranoia, hallucinations, and panic. There is no evidence that any victim was ever provided medical care, follow-up, or notification of what had been done to them.',
+      'EXPOSURE: The program was first partially revealed during the 1975 Church Committee and Rockefeller Commission investigations. Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered. Journalist Seymour Hersh\'s reporting in the New York Times helped bring the broader MKUltra program, including Midnight Climax, to public attention. Despite the revelations, no CIA officer was prosecuted. Sidney Gottlieb was granted immunity in exchange for testimony. George Hunter White had died in 1975.',
+      'LEGAL AND ETHICAL VIOLATIONS: Midnight Climax violated multiple laws including: federal statutes prohibiting the administration of drugs without consent; state assault and battery laws; the Fourth Amendment prohibition on unreasonable searches; the Nuremberg Code requirement for voluntary informed consent in human experimentation; and CIA regulations prohibiting domestic operations against U.S. citizens. The program represented the intersection of intelligence overreach, sexual exploitation, and chemical experimentation on the American public. No victim has ever been formally identified, notified, or compensated.',
+    ],
+    tags: ['Operation Midnight Climax', 'MKUltra', 'CIA', 'LSD', 'Human Experimentation', 'Sidney Gottlieb', 'George Hunter White', 'Intelligence Abuse'],
+    sources: [
+      { title: 'Senate Select Committee on Intelligence: MKULTRA Hearings, 1977', url: 'https://www.intelligence.senate.gov/', type: 'Government Report' },
+      { title: 'Church Committee Final Report', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Government Report' },
+      { title: 'CIA FOIA: MKUltra Collection', url: 'https://www.cia.gov/readingroom/collection/mkultra', type: 'Declassified Documents' },
+    ],
+    affiliations: [
+      { id: '1', name: 'CIA', type: 'agency', relationship: 'Funded and directed Operation Midnight Climax safe houses where unwitting American citizens were drugged with LSD', href: '/entities/agencies/cia' },
+    ],
+    eventOriginDate: '1954-01-01',
+    lastActivityDate: '1966-12-31',
+    pageUpdatedDate: '2026-03-10',
+  },
 };
 
 export default investigations_o;

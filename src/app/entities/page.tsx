@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import Link from"next/link";
 import { Landmark, Building2, Users, ArrowRight } from "lucide-react";
+import agencyDatabase from '@/data/agencies';
+import corporationDatabase from '@/data/corporations';
+import individualDatabase from '@/data/individuals';
+import organizationDatabase from '@/data/organizations';
 
 export const metadata: Metadata = {
  title:"Entities",
@@ -18,7 +22,7 @@ const entityCategories = [
  subtitle:"The Architects of Control",
  description:"Federal, state, and local agencies that implement policies of harm. Their crimes, their cover-ups, their connections.",
  icon: Landmark,
- count: 143,
+ count: Object.keys(agencyDatabase).length,
  },
  {
  type:"corporations",
@@ -26,7 +30,7 @@ const entityCategories = [
  subtitle:"Profit Over People",
  description:"Big Pharma, Big Tech, defense contractors. Companies that put shareholder value above human life.",
  icon: Building2,
- count: 210,
+ count: Object.keys(corporationDatabase).length,
  },
  {
  type:"individuals",
@@ -34,7 +38,7 @@ const entityCategories = [
  subtitle:"The Names Behind The Crimes",
  description:"Politicians, executives, bureaucrats. The faces behind the policies of death and destruction.",
  icon: Users,
- count: 2051,
+ count: Object.keys(individualDatabase).length,
  },
  {
  type:"organizations",
@@ -42,7 +46,7 @@ const entityCategories = [
  subtitle:"The Shadow Networks",
  description:"Think tanks, lobbying groups, dark money networks. The organizations that pull the strings from behind the curtain.",
  icon: Building2,
- count: 156,
+ count: Object.keys(organizationDatabase).length,
  },
 ];
 
