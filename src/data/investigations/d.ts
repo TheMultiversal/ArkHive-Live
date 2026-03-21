@@ -40,6 +40,13 @@ const investigations_d: Record<string, InvestigationData> = {
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-08-30',
    pageUpdatedDate: '2026-03-18',
+   moneyTrail: [
+     { date: '2020-01-01', from: 'Unknown donors', to: 'Leonard Leo nonprofit network', amount: '$1,600,000,000', purpose: 'Dark money funneled through dozens of nonprofits to reshape the federal judiciary and advance conservative policy goals', documented: true },
+     { date: '2020-01-01', from: 'Unknown donors', to: 'Sixteen Thirty Fund', amount: '$410,000,000', purpose: 'Largest progressive dark money vehicle distributed funds without disclosing donors', documented: true },
+     { date: '2016-01-01', from: 'Koch Industries / Freedom Partners', to: 'Americans for Prosperity', amount: '$400,000,000', purpose: 'Political engagement spending in the 2016 election cycle', documented: true },
+     { date: '2010-01-01', from: 'Dark money organizations', to: 'Federal election campaigns', amount: '$1,000,000,000', purpose: 'Total dark money spent on federal elections from 2010-2022 per Brennan Center analysis', documented: true },
+     { date: '2022-01-01', from: 'Barre Seid', to: 'Marble Freedom Trust (Leonard Leo)', amount: '$1,600,000,000', purpose: 'Single largest known political donation in US history — electronics company sale proceeds', documented: true },
+   ],
  },
   'doj-politicization': {
  title: 'DOJ Politicization Under Trump',
@@ -736,6 +743,16 @@ const investigations_d: Record<string, InvestigationData> = {
      { date: '2018', event: 'It paid $220 million to settle allegations of rigging ISDAfix, a benchmark interest rate (2018)', type: 'financial' },
      { date: '2020-07-01', event: 'The New York Department of Financial Services fined Deutsche Bank $150 million in July 2020 for "significant compliance failures" in the Epstein relationship', type: 'financial' },
      { date: '2023', event: 'Deutsche Bank paid $186 million to the Federal Reserve in 2023 for its role', type: 'financial' },
+   ],
+   moneyTrail: [
+     { date: '2011-01-01', from: 'Russian clients', to: 'Deutsche Bank Moscow → Deutsche Bank London', amount: '$10,000,000,000', purpose: 'Mirror trading scheme: simultaneous buy/sell orders in rubles and dollars to launder money out of Russia', documented: true },
+     { date: '2007-01-01', from: 'Russia / Azerbaijan / Former Soviet states', to: 'Danske Bank Estonia → Deutsche Bank (correspondent)', amount: '$230,000,000,000', purpose: 'Suspicious transactions through correspondent banking relationship that Deutsche Bank failed to terminate despite warnings', documented: true },
+     { date: '2017-01-01', from: 'Deutsche Bank', to: 'US Department of Justice', amount: '$7,200,000,000', purpose: 'Settlement for mortgage-backed securities fraud that fueled the 2008 financial crisis', documented: true },
+     { date: '2015-01-01', from: 'Deutsche Bank', to: 'US / UK regulators', amount: '$2,500,000,000', purpose: 'Fines for role in LIBOR interest rate manipulation scandal', documented: true },
+     { date: '2017-01-01', from: 'Deutsche Bank', to: 'US / UK regulators', amount: '$630,000,000', purpose: 'Fines for Russian mirror trading scheme — no individual executives criminally charged', documented: true },
+     { date: '2015-01-01', from: 'Deutsche Bank', to: 'US Treasury (OFAC)', amount: '$258,000,000', purpose: 'Fines for violating sanctions against Iran, Syria, Libya, Myanmar, and Sudan', documented: true },
+     { date: '2020-07-01', from: 'Deutsche Bank', to: 'NY Dept of Financial Services', amount: '$150,000,000', purpose: 'Fine for compliance failures in Jeffrey Epstein banking relationship (2013-2018)', documented: true },
+     { date: '2023-01-01', from: 'Deutsche Bank', to: 'Federal Reserve', amount: '$186,000,000', purpose: 'Additional fine related to compliance and money laundering failures', documented: true },
    ],
   },
   'domestic-servitude-hidden-victims': {

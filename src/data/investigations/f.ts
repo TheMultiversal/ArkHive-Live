@@ -1171,6 +1171,13 @@ const investigations_f: Record<string, InvestigationData> = {
      { date: '2023', event: 'The accounting firm Prager Metis (which audited FTX) was itself charged by the SEC in 2023; Armanino (which audited FTX US) withdrew and is facing lawsuits', type: 'legal' },
      { date: '2023-11-01', event: 'SBF was convicted on all seven federal charges (wire fraud, securities fraud, money laundering, campaign finance violations) in November 2023 and sentenced to 25 years in prison in March 2024', type: 'legal' },
    ],
+   moneyTrail: [
+     { date: '2019-01-01', from: 'FTX customer deposits', to: 'Alameda Research', amount: '$8,000,000,000', purpose: 'Customer funds secretly diverted to sister trading firm to cover losses, make venture investments, and purchase luxury real estate', documented: true },
+     { date: '2021-01-01', from: 'Sequoia Capital', to: 'FTX', amount: '$214,000,000', purpose: 'Investment after a single Zoom call with SBF (who was reportedly playing League of Legends during the pitch)', documented: true },
+     { date: '2021-01-01', from: 'Sam Bankman-Fried', to: 'Political campaigns and PACs', amount: '$70,000,000', purpose: 'Second-largest individual donor to Democrats in 2021-2022 (after George Soros); also secretly funded Republican candidates', documented: true },
+     { date: '2022-11-02', from: 'Alameda Research (balance sheet)', to: 'FTT token holdings (illiquid)', amount: '$5,000,000,000', purpose: 'Majority of Alameda assets were FTT tokens; essentially IOUs from sister company FTX, revealed by CoinDesk leak', documented: true },
+     { date: '2024-03-01', from: 'FTX bankruptcy estate', to: 'Creditors (ongoing recovery)', amount: '$16,000,000,000', purpose: 'Estimated customer and creditor losses; recovery efforts ongoing under new CEO John J. Ray III', documented: true },
+   ],
   },
   'forced-labor-in-us-prison-system': {
     title: 'Forced Labor in US Prison System',

@@ -315,6 +315,13 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2014-09-01', event: 'Andrew Madoff died of lymphoma in September 2014, having maintained he knew nothing of the fraud', type: 'critical' },
      { date: '2021-04-14', event: 'He died in prison on April 14, 2021, at age 82', type: 'critical' },
    ],
+   moneyTrail: [
+     { date: '1990-01-01', from: 'Investors (worldwide)', to: 'Bernard L. Madoff Investment Securities', amount: '$17,500,000,000', purpose: 'Actual invested principal lost in the Ponzi scheme; Madoff claimed $65 billion in assets that never existed', documented: true },
+     { date: '2008-12-10', from: 'Madoff (claimed assets)', to: 'Fictitious returns', amount: '$65,000,000,000', purpose: 'Total fictitious value of client accounts at collapse; Madoff fabricated trading records and account statements for decades', documented: false },
+     { date: '2008-12-01', from: 'Investors', to: 'Redemption requests (unfulfilled)', amount: '$7,000,000,000', purpose: 'Wave of redemption requests during 2008 financial crisis exposed the fraud when Madoff could not honor withdrawals', documented: true },
+     { date: '2009-01-01', from: 'Feeder funds (Fairfield Greenwich, Tremont, others)', to: 'Madoff Securities', amount: '$10,000,000,000', purpose: 'Feeder funds channeled billions from investors to Madoff without conducting due diligence, collecting massive fees along the way', documented: true },
+     { date: '2024-01-01', from: 'Recovered assets (Irving Picard, Trustee)', to: 'Madoff victims', amount: '$14,700,000,000', purpose: 'Trustee Irving Picard recovered and distributed over $14.7 billion to victims through clawback lawsuits and settlements', documented: true },
+   ],
  },
   'mass-shootings-in-america': {
  title: 'Mass Shootings in America',

@@ -671,6 +671,14 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2008-09-15', event: 'When Lehman filed for bankruptcy on September 15, 2008 (the largest bankruptcy filing in U.S', type: 'financial' },
      { date: '2010-03-01', event: 'The Lehman bankruptcy examiner\'s report, prepared by Anton Valukas and released in March 2010, revealed that Lehman used an accounting device called "Repo 105" to temporarily remove approximately $...', type: 'financial' },
    ],
+   moneyTrail: [
+     { date: '2010-03-01', from: 'Lehman Brothers', to: 'Off-balance-sheet (Repo 105)', amount: '$50,000,000,000', purpose: 'Used Repo 105 accounting device to temporarily hide $50B in assets from balance sheet before quarterly reports', documented: true },
+     { date: '2000-01-01', from: 'Lehman Brothers', to: 'CEO Richard Fuld (compensation)', amount: '$484,000,000', purpose: 'Fuld received $484M in total compensation from 2000-2007, including $34M in 2007 as subprime crisis was already unfolding', documented: true },
+     { date: '2007-01-01', from: 'Lehman Brothers (real estate holdings)', to: 'Commercial and residential assets', amount: '$111,000,000,000', purpose: 'Real estate portfolio was 4.2x total equity; leverage ratio of 30.7:1 meant 3.3% decline would wipe out all equity', documented: true },
+     { date: '2008-09-15', from: 'Lehman Brothers', to: 'Bankruptcy (total liabilities)', amount: '$613,000,000,000', purpose: 'Largest bankruptcy filing in US history; triggered global financial panic and credit market freeze', documented: true },
+     { date: '2008-10-01', from: 'US Treasury (TARP)', to: 'Wall Street banks (bailout)', amount: '$700,000,000,000', purpose: 'Emergency Economic Stabilization Act; taxpayer-funded bailout of financial institutions after Lehman collapse catalyzed crisis', documented: true },
+     { date: '2008-01-01', from: 'Ernst & Young (auditor)', to: 'Lehman Brothers (clean audits)', amount: '$0', purpose: 'Ernst & Young gave Lehman clean audit opinions despite Repo 105 manipulations; settled investor lawsuit for $99M', documented: true },
+   ],
   },
   'lead-poisoning-america': {
     title: 'Lead Poisoning in America: The Century-Long Corporate Cover-Up',

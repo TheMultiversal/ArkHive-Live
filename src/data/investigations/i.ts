@@ -795,6 +795,13 @@ const investigations_i: Record<string, InvestigationData> = {
      { date: '1992', event: 'On Christmas Eve 1992, outgoing President George H.W', type: 'political' },
      { date: '1998', event: 'officials involved in Central America failed to address the drug issue for fear of jeopardizing the war effort." CIA Inspector General Frederick Hitz later confirmed in 1998 that the CIA had mainta...', type: 'political' },
    ],
+   moneyTrail: [
+     { date: '1984-01-01', from: 'Saudi Arabia (Prince Bandar bin Sultan)', to: 'Contra bank accounts', amount: '$32,000,000', purpose: 'Saudi contributions arranged through conversations with National Security Advisor Robert McFarlane', documented: true },
+     { date: '1985-08-01', from: 'Iran (arms payments)', to: 'NSC / CIA / Oliver North network', amount: '$48,000,000', purpose: 'Payments for TOW missiles, HAWK missiles, and spare parts sold through Israeli intermediary', documented: true },
+     { date: '1986-01-01', from: 'Arms sale proceeds (diverted)', to: 'Nicaraguan Contras', amount: '$3,800,000', purpose: 'Proceeds from Iranian arms sales illegally diverted to fund Contras in violation of Boland Amendment', documented: true },
+     { date: '1985-01-01', from: 'CIA / Contra supply network', to: 'Drug trafficking revenues', amount: '$0', purpose: 'Kerry Committee documented that Contra supply network facilitated cocaine trafficking into the US; amounts undetermined', documented: false },
+     { date: '1985-01-01', from: 'US Government (covert)', to: 'Iran (weapons)', amount: '$0', purpose: '2,000 TOW missiles and HAWK anti-aircraft missiles sold to designated state sponsor of terrorism, violating Arms Export Control Act', documented: true },
+   ],
   },
   'industry-self-regulation-failures': {
     title: 'Industry Self-Regulation Failures',

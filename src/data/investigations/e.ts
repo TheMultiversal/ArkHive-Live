@@ -1989,6 +1989,14 @@ const investigations_e: Record<string, InvestigationData> = {
      { date: '2008', event: 'Yet critics note that the financial crisis of 2008 demonstrated that the fundamental incentives for corporate fraud remained unchanged', type: 'financial' },
      { date: '2019', event: 'Jeffrey Skilling was convicted of 19 counts of conspiracy, fraud, and insider trading and sentenced to 24 years (later reduced to 14 years; released in 2019)', type: 'legal' },
    ],
+   moneyTrail: [
+     { date: '1999-01-01', from: 'Enron insiders (Lay, Skilling, Fastow, others)', to: 'Personal accounts (stock sales)', amount: '$1,100,000,000', purpose: 'Insider stock sales while publicly promoting the company; CEO Lay sold $300M, Skilling sold $66M', documented: true },
+     { date: '2000-01-01', from: 'Enron (reported)', to: 'Shareholders (fraudulent)', amount: '$979,000,000', purpose: 'Fraudulent reported net income for 2000 achieved through mark-to-market accounting manipulation and SPE fraud', documented: false },
+     { date: '2001-12-02', from: 'Enron employee 401(k) plans', to: 'Destroyed in bankruptcy', amount: '$1,200,000,000', purpose: 'Employee retirement savings lost; workers were locked out of selling stock during critical price collapse period', documented: true },
+     { date: '1996-01-01', from: 'Enron (stated revenue)', to: 'Revenue reports (inflated)', amount: '$100,800,000,000', purpose: 'Enron grew stated revenue from $13.3B (1996) to $100.8B (2000) through fraudulent accounting, becoming 7th largest US company', documented: false },
+     { date: '2001-01-01', from: 'Enron', to: 'Special Purpose Entities (SPEs)', amount: '$1,000,000,000', purpose: 'Billions in debt hidden through off-balance-sheet SPEs designed by CFO Andrew Fastow; who personally profited $30M from them', documented: true },
+     { date: '2002-01-01', from: 'Arthur Andersen', to: 'Destroyed (firm collapse)', amount: '$0', purpose: 'Andersen shredded audit documents; convicted of obstruction (later reversed). Firm destroyed; 85,000 jobs lost globally', documented: true },
+   ],
   },
   'elizabeth-holmes-theranos-fraud': {
     title: 'Elizabeth Holmes and Theranos: Silicon Valley\'s Billion-Dollar Blood Testing Fraud',

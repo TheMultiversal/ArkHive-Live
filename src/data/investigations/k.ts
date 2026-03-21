@@ -386,6 +386,13 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2011', event: 'AFP led campaigns for "right-to-work" laws in states including Wisconsin (2011, supporting Governor Scott Walker\'s Act 10), Michigan, Indiana, and West Virginia, dramatically reducing union members...', type: 'political' },
      { date: '2015', event: 'When the Paris Agreement was adopted in 2015, the Koch network lobbied the Trump administration to withdraw, which it did in 2017', type: 'default' },
    ],
+   moneyTrail: [
+     { date: '1997-01-01', from: 'Koch network', to: 'Climate denial organizations', amount: '$145,000,000', purpose: 'Spent on climate denial between 1997-2018 per internal Koch documents obtained by Greenpeace', documented: true },
+     { date: '2016-01-01', from: 'Koch Industries / Freedom Partners', to: 'Americans for Prosperity and affiliates', amount: '$400,000,000', purpose: 'Political engagement spending in the 2016 cycle, funding candidates and issue campaigns', documented: true },
+     { date: '2011-01-01', from: 'AFP / Koch network', to: 'Right-to-work campaigns (WI, MI, IN, WV)', amount: '$50,000,000', purpose: 'Campaigns to pass right-to-work laws, including support for Governor Walker Act 10, dramatically reducing union membership', documented: true },
+     { date: '2009-01-01', from: 'Koch network', to: 'Anti-cap-and-trade lobbying', amount: '$25,000,000', purpose: 'Organized opposition to Waxman-Markey bill, pressuring Republican legislators to reverse initial support', documented: true },
+     { date: '2022-01-01', from: 'Koch donor network (biannual summits)', to: 'Political and policy organizations', amount: '$889,000,000', purpose: 'Koch network disclosed raising $889 million budget for 2016 election cycle across all affiliated organizations', documented: true },
+   ],
   },
   'kissinger-foreign-policy-war-crimes': {
     title: 'Henry Kissinger\'s Foreign Policy Legacy and War Crimes',

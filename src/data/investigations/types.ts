@@ -1,5 +1,14 @@
 // Investigation data interface, shared by all investigation shard files
 
+export interface MoneyTransaction {
+  date: string;
+  from: string;
+  to: string;
+  amount: string;
+  purpose: string;
+  documented: boolean;
+}
+
 export interface InvestigationAffiliation {
   id: string;
   name: string;
@@ -38,4 +47,6 @@ export interface InvestigationData {
   affiliations: InvestigationAffiliation[];
   // Timeline events for sidebar display
   timeline?: TimelineEvent[];
+  // Money trail data for financial flow visualization
+  moneyTrail?: MoneyTransaction[];
 }

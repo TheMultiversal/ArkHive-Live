@@ -1015,6 +1015,14 @@ const investigations_o: Record<string, InvestigationData> = {
      { date: '2022', event: 'In 2022, the three major distributors settled for $21 billion', type: 'political' },
      { date: '2023', event: 'The opioid crisis continues: in 2023, over 80,000 Americans died from opioid overdoses, with illicit fentanyl now the primary driver', type: 'critical' },
    ],
+   moneyTrail: [
+     { date: '1996-01-01', from: 'OxyContin sales', to: 'Purdue Pharma / Sackler family', amount: '$35,000,000,000', purpose: 'Total OxyContin revenue from 1996-2020 while over 500,000 Americans died from opioid overdoses', documented: true },
+     { date: '2007-01-01', from: 'Purdue Pharma', to: 'US Department of Justice (fine)', amount: '$635,000,000', purpose: 'First guilty plea to federal criminal charges for misleading the public about OxyContin addiction risk', documented: true },
+     { date: '2020-01-01', from: 'Purdue Pharma', to: 'US Department of Justice (settlement)', amount: '$8,300,000,000', purpose: 'Second criminal guilty plea; company admitted to impeding DEA efforts and paying kickbacks to doctors', documented: true },
+     { date: '2022-01-01', from: 'McKesson, Cardinal Health, AmerisourceBergen', to: 'National opioid settlement', amount: '$21,000,000,000', purpose: 'Three major distributors settled lawsuits for shipping 76 billion opioid pills across America without adequate controls', documented: true },
+     { date: '2021-01-01', from: 'Sackler family (personal transfers)', to: 'Offshore accounts / trusts', amount: '$10,400,000,000', purpose: 'Sackler family withdrew over $10.4 billion from Purdue Pharma before bankruptcy, shielding personal wealth from victims', documented: true },
+     { date: '2006-01-01', from: 'Opioid distributors', to: 'US pharmacies (76B pills)', amount: '$76,000,000,000', purpose: 'Estimated wholesale value of 76 billion opioid pills shipped between 2006-2014 into communities across America', documented: true },
+   ],
   },
   'operation-condor-cia-latin-america': {
     title: 'Operation Condor: CIA-Backed State Terror Across South America',

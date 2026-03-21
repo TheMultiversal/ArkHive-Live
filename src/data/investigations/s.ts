@@ -453,6 +453,13 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2024-05-01', event: 'THE TRIAL: In April-May 2024, Trump stood trial in Manhattan', type: 'legal' },
      { date: '2024-05-30', event: 'THE CONVICTION: On May 30, 2024, the jury convicted Trump on all 34 counts', type: 'legal' },
    ],
+   moneyTrail: [
+     { date: '2016-10-27', from: 'Michael Cohen (Essential Consultants LLC)', to: 'Stormy Daniels (Stephanie Clifford)', amount: '$130,000', purpose: 'Hush money payment to silence affair allegation before 2016 election', documented: true },
+     { date: '2016-08-05', from: 'American Media Inc (National Enquirer)', to: 'Karen McDougal', amount: '$150,000', purpose: 'Catch-and-kill payment to suppress affair story', documented: true },
+     { date: '2017-02-14', from: 'Trump Organization', to: 'Michael Cohen', amount: '$420,000', purpose: 'Reimbursement disguised as legal retainer fees — the basis of 34 felony falsified business records charges', documented: true },
+     { date: '2016-10-26', from: 'Michael Cohen (personal HELOC)', to: 'Essential Consultants LLC', amount: '$130,000', purpose: 'Cohen took out home equity line of credit to fund the Daniels payment', documented: true },
+     { date: '2017-01-01', from: 'Allen Weisselberg', to: 'Michael Cohen', amount: '$50,000', purpose: 'Reimbursement for tech services payments, grossed up for taxes', documented: true },
+   ],
  },
   'seychelles-meeting': {
  title: 'Seychelles Secret Meeting',

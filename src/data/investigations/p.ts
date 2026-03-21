@@ -515,6 +515,13 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1999-01-01',
    lastActivityDate: '2022-02-11',
    pageUpdatedDate: '2026-03-18',
+   moneyTrail: [
+     { date: '1996-01-01', from: 'OxyContin sales', to: 'Purdue Pharma', amount: '$35,000,000,000', purpose: 'Total OxyContin revenue 1996-2020; marketed as less addictive despite knowing the opposite', documented: true },
+     { date: '2020-01-01', from: 'Sackler family', to: 'Offshore trusts and accounts', amount: '$10,400,000,000', purpose: 'Family withdrew billions from Purdue before bankruptcy filing, shielding personal wealth from creditors and victims', documented: true },
+     { date: '2007-01-01', from: 'Purdue Pharma', to: 'DOJ (criminal fine)', amount: '$635,000,000', purpose: 'First federal guilty plea for misbranding OxyContin with intent to defraud', documented: true },
+     { date: '2020-01-01', from: 'Purdue Pharma', to: 'DOJ (criminal settlement)', amount: '$8,300,000,000', purpose: 'Second guilty plea; admitted to impeding DEA efforts and paying kickbacks to prescribing doctors', documented: true },
+     { date: '1996-01-01', from: 'Purdue Pharma', to: 'Physician payments / marketing', amount: '$207,000,000', purpose: 'Aggressive marketing budget targeting doctors; sales reps earned bonuses up to $240,000 for pushing OxyContin prescriptions', documented: true },
+   ],
  },  'pandemic-response': {
  title: 'Pandemic Response Failures',
  subtitle: 'Catastrophic government failures in COVID-19 response resulted in hundreds of thousands of preventable American deaths',

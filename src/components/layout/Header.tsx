@@ -1,11 +1,60 @@
 "use client";
 
 import Link from"next/link";
-import { useState, useEffect } from"react";
+import { useState, useEffect, useRef } from"react";
 import { usePathname, useRouter } from"next/navigation";
-import { Menu, X, Search, Zap, UserPlus } from"lucide-react";
+import { Menu, X, Search, Zap, UserPlus, ChevronDown } from"lucide-react";
 import BleedingPyramidLogo from"@/components/ui/BleedingPyramidLogo";
 import InvestigationsMegaMenu from"./InvestigationsMegaMenu";
+
+function NavDropdown({ label, items, isActive }: { label: string; items: { href: string; label: string }[]; isActive: (href: string) => boolean }) {
+ const [open, setOpen] = useState(false);
+ const ref = useRef<HTMLDivElement>(null);
+ const anyActive = items.some(i => isActive(i.href));
+
+ useEffect(() => {
+ const handler = (e: MouseEvent) => {
+ if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+ };
+ document.addEventListener("mousedown", handler);
+ return () => document.removeEventListener("mousedown", handler);
+ }, []);
+
+ return (
+ <div ref={ref} className="relative">
+ <button
+ onClick={() => setOpen(!open)}
+ className={`relative flex items-center gap-1 px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
+ anyActive
+ ?"text-zinc-400 bg-zinc-800 border-zinc-800"
+ :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
+ }`}
+ >
+ {label}
+ <ChevronDown className={`w-3 h-3 transition-transform ${open ? "rotate-180" : ""}`} />
+ {anyActive && <span className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-zinc-600"/>}
+ </button>
+ {open && (
+ <div className="absolute top-full left-0 mt-1 min-w-[180px] bg-[#0d0d0d] border border-zinc-800 shadow-xl z-50">
+ {items.map(item => (
+ <Link
+ key={item.href}
+ href={item.href}
+ onClick={() => setOpen(false)}
+ className={`block px-4 py-2.5 text-xs font-semibold uppercase tracking-wider transition-all duration-200 ${
+ isActive(item.href)
+ ?"text-white bg-zinc-800"
+ :"text-zinc-400 hover:text-white hover:bg-zinc-800/80"
+ }`}
+ >
+ {item.label}
+ </Link>
+ ))}
+ </div>
+ )}
+ </div>
+ );
+}
 
 export default function Header() {
  const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,6 +86,30 @@ export default function Header() {
  { href:"/entities/individuals", label:"Individuals"},
  { href:"/entities/organizations", label:"Organizations"},
  { href:"/timeline", label:"Timeline"},
+ { href:"/about", label:"About"},
+ ];
+
+ const topLinks = [
+ { href:"/statutes", label:"Statutes"},
+ { href:"/money-trail", label:"Money Trail"},
+ { href:"/convictions", label:"Convictions"},
+ { href:"/evidence", label:"Evidence"},
+ { href:"/network", label:"Network"},
+ { href:"/timeline", label:"Timeline"},
+ ];
+
+ const entitiesLinks = [
+ { href:"/entities/agencies", label:"Agencies"},
+ { href:"/entities/corporations", label:"Corporations"},
+ { href:"/entities/individuals", label:"Individuals"},
+ { href:"/entities/organizations", label:"Organizations"},
+ { href:"/figures", label:"Figures"},
+ ];
+
+ const moreLinks = [
+ { href:"/themes", label:"Themes"},
+ { href:"/geography", label:"Geography"},
+ { href:"/workspaces", label:"Workspaces"},
  { href:"/about", label:"About"},
  ];
 
@@ -94,14 +167,14 @@ export default function Header() {
  {/* Investigations Mega Menu */}
  <InvestigationsMegaMenu />
  
- {/* Other links */}
- {navLinks.filter(link => link.href !== "/").map((link) => {
+ {/* Top-level links */}
+ {topLinks.map((link) => {
  const active = isActive(link.href);
  return (
  <Link
  key={link.href}
  href={link.href}
- className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
+ className={`relative px-3 py-2 text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent whitespace-nowrap ${
  active
  ?"text-zinc-400 bg-zinc-800 border-zinc-800"
  :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
@@ -114,6 +187,12 @@ export default function Header() {
  </Link>
  );
  })}
+
+ {/* Entities dropdown */}
+ <NavDropdown label="Entities" items={entitiesLinks} isActive={isActive} />
+
+ {/* More dropdown */}
+ <NavDropdown label="More" items={moreLinks} isActive={isActive} />
  </nav>
 
  {/* Actions */}

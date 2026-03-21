@@ -2600,6 +2600,13 @@ const investigations_c: Record<string, InvestigationData> = {
    eventOriginDate: '2011-12-07',
    lastActivityDate: '2025-02-18',
    pageUpdatedDate: '2026-03-18',
+   moneyTrail: [
+     { date: '2014-01-01', from: 'Robert Mercer', to: 'SCL Group / Cambridge Analytica', amount: '$15,000,000', purpose: 'Mercer family investment to found Cambridge Analytica as a US subsidiary of British military contractor SCL Group', documented: true },
+     { date: '2016-06-01', from: 'Trump Campaign / Make America Number 1 PAC', to: 'Cambridge Analytica', amount: '$5,900,000', purpose: 'Data analytics and voter targeting services using harvested Facebook data from 87 million users', documented: true },
+     { date: '2019-07-01', from: 'Facebook (Meta)', to: 'FTC', amount: '$5,000,000,000', purpose: 'Record FTC fine for privacy violations related to Cambridge Analytica data scandal', documented: true },
+     { date: '2016-01-01', from: 'Ted Cruz Campaign', to: 'Cambridge Analytica', amount: '$5,800,000', purpose: 'Psychographic voter profiling during 2016 Republican primary', documented: true },
+     { date: '2018-05-01', from: 'Cambridge Analytica', to: 'Bankruptcy proceedings', amount: '$0', purpose: 'Company declared insolvency after scandal broke; assets and methods transferred to Emerdata Limited', documented: true },
+   ],
   },
   'cryptocurrency-money-laundering-networks': {
     title: 'Cryptocurrency Money Laundering Networks',
@@ -3494,6 +3501,14 @@ const investigations_c: Record<string, InvestigationData> = {
      { date: '2022', event: 'Wade (Dobbs, 2022), weakening EPA authority (West Virginia v', type: 'default' },
      { date: '2022', event: 'EPA, 2022), eliminating affirmative action (SFFA v', type: 'default' },
      { date: '2023', event: 'Harvard, 2023), and dismantling the administrative state (Loper Bright, 2024)', type: 'default' },
+   ],
+   moneyTrail: [
+     { date: '2016-01-01', from: 'Koch Industries / Freedom Partners', to: 'Americans for Prosperity (AFP)', amount: '$400,000,000', purpose: 'Political engagement spending in the 2016 cycle alone, funding candidates opposed to campaign finance reform', documented: true },
+     { date: '2020-01-01', from: 'Undisclosed donors', to: 'Sixteen Thirty Fund (Arabella Advisors)', amount: '$410,000,000', purpose: 'Largest dark money vehicle on the progressive side distributed funds without any donor disclosure', documented: true },
+     { date: '2022-01-01', from: 'Leonard Leo (Federalist Society network)', to: 'Judicial confirmation campaigns', amount: '$1,600,000,000', purpose: 'Directed through dozens of nonprofits to reshape the federal judiciary, including Supreme Court confirmations', documented: true },
+     { date: '2010-01-01', from: 'Fossil fuel industry', to: 'Political campaigns / lobbying', amount: '$500,000,000', purpose: 'Successfully blocked climate legislation despite overwhelming public support for action', documented: true },
+     { date: '2022-01-01', from: 'Barre Seid', to: 'Marble Freedom Trust (Leonard Leo)', amount: '$1,600,000,000', purpose: 'Largest known single political donation in US history; proceeds from sale of electronics company Tripp Lite', documented: true },
+     { date: '2010-01-01', from: 'Dark money organizations (total)', to: 'Federal elections', amount: '$1,000,000,000', purpose: 'Total dark money spent on federal elections 2010-2022 per Brennan Center for Justice', documented: true },
    ],
   },
   'classification-system-reform-failures': {

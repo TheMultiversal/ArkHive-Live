@@ -928,6 +928,13 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2023', event: 'In 2023, Goldman generated $46 billion in revenue', type: 'political' },
      { date: '2024', event: 'The CFPB ordered Goldman to pay $89 million in 2024 for illegal practices on Apple Card accounts, including failing to investigate customer disputes, enrolling customers in interest-bearing loans w...', type: 'financial' },
    ],
+   moneyTrail: [
+     { date: '2000-01-01', from: 'Goldman Sachs', to: 'Regulators (total fines since 2000)', amount: '$16,000,000,000', purpose: 'Total fines and settlements while remaining one of the most profitable banks in the world', documented: true },
+     { date: '2008-01-01', from: 'Goldman Sachs', to: 'Abacus 2007-AC1 CDO investors', amount: '$1,000,000,000', purpose: 'Investors lost $1B on a CDO Goldman designed to fail; John Paulson made $1B shorting it with Goldman help', documented: true },
+     { date: '2016-01-01', from: 'Goldman Sachs', to: 'DOJ (MBS settlement)', amount: '$5,060,000,000', purpose: 'Settlement for role in selling toxic mortgage-backed securities that fueled the 2008 financial crisis', documented: true },
+     { date: '2024-01-01', from: 'Goldman Sachs', to: 'CFPB (Apple Card fine)', amount: '$89,000,000', purpose: 'Fined for illegal practices on Apple Card accounts; failing to investigate disputes and enrolling customers without consent', documented: true },
+     { date: '2023-01-01', from: 'Goldman Sachs (revenue)', to: 'Annual revenue', amount: '$46,000,000,000', purpose: 'Goldman generated $46 billion in revenue in 2023; demonstrating fines are merely cost of doing business', documented: true },
+   ],
  },
   'guatemala-experiments': {
  title: 'Guatemala Syphilis Experiments: U.S. Government Human Experimentation',
