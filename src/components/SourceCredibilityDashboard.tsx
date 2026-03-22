@@ -49,9 +49,9 @@ export const CREDIBILITY_TIERS = {
   reporting: {
     label: 'Quality Reporting',
     description: 'Professional journalism with sourcing standards',
-    color: 'text-blue-400',
-    bg: 'bg-blue-500/20',
-    border: 'border-blue-500/50',
+    color: 'text-blood-400',
+    bg: 'bg-blood-500/20',
+    border: 'border-blood-500/50',
     icon: Newspaper,
     score: 75,
     examples: ['Major news organizations', 'Investigative journalism', 'Wire services'],

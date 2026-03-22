@@ -5,11 +5,11 @@
 :root {
   --background: #000000;
   --foreground: #f8fafc;
-  --accent: #3b82f6;
-  --accent-dark: #1e40af;
+  --accent: #b80000;
+  --accent-dark: #6b0000;
   --blood-dark: #111111;
   --blood-darker: #0a0a0a;
-  --blood-glow: rgba(59, 130, 246, 0.4);
+  --blood-glow: rgba(184, 0, 0, 0.5);
   --glass-shine: linear-gradient(135deg, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0.04) 40%, rgba(255,255,255,0) 60%, rgba(255,255,255,0.06) 100%);
   --glass-border: rgba(255, 255, 255, 0.12);
   --scan-speed: 4s;
@@ -92,7 +92,7 @@ body::after {
    ACCESSIBILITY - Focus Visible Styles
    ============================================================ */
 *:focus-visible {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #b80000;
   outline-offset: 2px;
 }
 
@@ -104,23 +104,23 @@ body::after {
 /* Specific focus styles for buttons */
 button:focus-visible,
 [role="button"]:focus-visible {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #b80000;
   outline-offset: 2px;
-  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 0 0 4px rgba(184, 0, 0, 0.2);
 }
 
 /* Input focus styles */
 input:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #b80000;
   outline-offset: 0;
-  border-color: #3b82f6;
+  border-color: #b80000;
 }
 
 /* Link focus styles */
 a:focus-visible {
-  outline: 2px solid #3b82f6;
+  outline: 2px solid #b80000;
   outline-offset: 2px;
   text-decoration: underline;
 }
@@ -130,7 +130,7 @@ a:focus-visible {
   position: absolute;
   top: -40px;
   left: 0;
-  background: #3b82f6;
+  background: #b80000;
   color: white;
   padding: 8px 16px;
   z-index: 10000;
@@ -224,34 +224,34 @@ a:focus-visible {
   }
 
   .glass-card:hover {
-    border-color: rgba(255, 255, 255, 0.20);
-    border-top-color: rgba(255, 255, 255, 0.30);
+    border-color: rgba(184, 0, 0, 0.25);
+    border-top-color: rgba(184, 0, 0, 0.40);
     box-shadow: 
-      0 0 1px rgba(255, 255, 255, 0.3),
-      0 0 25px rgba(255, 255, 255, 0.05),
+      0 0 1px rgba(184, 0, 0, 0.4),
+      0 0 25px rgba(184, 0, 0, 0.08),
       0 8px 40px rgba(0, 0, 0, 0.6),
-      inset 0 1px 0 rgba(255, 255, 255, 0.10);
+      inset 0 1px 0 rgba(184, 0, 0, 0.15);
     transform: translateY(-2px);
   }
 
   .glow-text {
-    text-shadow: 0 0 20px rgba(59, 130, 246, 0.4), 0 0 60px rgba(59, 130, 246, 0.15);
+    text-shadow: 0 0 20px rgba(184, 0, 0, 0.5), 0 0 60px rgba(184, 0, 0, 0.2);
   }
 
   .glow-border {
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.08), 0 0 40px rgba(255, 255, 255, 0.04);
   }
 
-  /* Glass text - clean white-silver shimmer */
+  /* Glass text - dark blood red shimmer */
   .glass-text {
     background: linear-gradient(90deg, 
       #a0a0a0 0%,
       #c8c8c8 10%,
       #e0e0e0 20%,
       #ffffff 30%,
-      #c0d8f0 40%,
-      #5499e8 50%,
-      #c0d8f0 60%,
+      #f08080 40%,
+      #d62a2a 50%,
+      #f08080 60%,
       #ffffff 70%,
       #e0e0e0 80%,
       #c8c8c8 90%,
@@ -261,19 +261,19 @@ a:focus-visible {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glassShimmer 4s ease-in-out infinite;
-    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.2)) drop-shadow(0 0 3px rgba(84, 153, 232, 0.3));
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.2)) drop-shadow(0 0 3px rgba(184, 0, 0, 0.4));
   }
 
-  /* Hero glass text - dramatic white-silver-blue for titles */
+  /* Hero glass text - dramatic white-silver-blood-red for titles */
   .glass-text-hero {
     background: linear-gradient(90deg,
       #888888 0%,
       #b0b0b0 8%,
       #d8d8d8 16%,
       #ffffff 25%,
-      #aed0f7 35%,
-      #5499e8 50%,
-      #aed0f7 65%,
+      #f7aeae 35%,
+      #d62a2a 50%,
+      #f7aeae 65%,
       #ffffff 75%,
       #d8d8d8 84%,
       #b0b0b0 92%,
@@ -283,18 +283,18 @@ a:focus-visible {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glassShimmer 3s ease-in-out infinite;
-    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3)) drop-shadow(0 0 30px rgba(84, 153, 232, 0.25));
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.3)) drop-shadow(0 0 30px rgba(184, 0, 0, 0.3));
   }
 
-  /* Subtle glass for secondary text - soft silver-blue */
+  /* Subtle glass for secondary text - soft silver-blood-red */
   .glass-text-subtle {
     background: linear-gradient(90deg,
       #b0b0b0 0%,
       #d0d0d0 20%,
       #ffffff 40%,
-      #d0e0f5 60%,
-      #aed0f7 80%,
-      #d0e0f5 100%);
+      #f5d0d0 60%,
+      #f7aeae 80%,
+      #f5d0d0 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;
     background-clip: text;
@@ -303,13 +303,13 @@ a:focus-visible {
     filter: drop-shadow(0 0 4px rgba(150, 150, 150, 0.2));
   }
 
-  /* Muted glass for grey/description text - soft with hint of color */
+  /* Muted glass for grey/description text - soft with hint of blood-red */
   .glass-text-muted {
     background: linear-gradient(90deg,
       #64748b 0%,
       #94a3b8 20%,
       #c8c8c8 40%,
-      #b8c8d8 50%,
+      #c8b0b0 50%,
       #c8c8c8 60%,
       #94a3b8 80%,
       #64748b 100%);
@@ -318,7 +318,7 @@ a:focus-visible {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glassShimmer 6s ease-in-out infinite;
-    filter: drop-shadow(0 0 3px rgba(100, 100, 140, 0.15));
+    filter: drop-shadow(0 0 3px rgba(140, 80, 80, 0.15));
   }
 
   /* Universal gloss overlay - add to ANY element for glass shine */
@@ -508,8 +508,8 @@ a:focus-visible {
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 5px rgba(59, 130, 246, 0.3); }
-  50% { box-shadow: 0 0 25px rgba(59, 130, 246, 0.6); }
+  0%, 100% { box-shadow: 0 0 5px rgba(184, 0, 0, 0.3); }
+  50% { box-shadow: 0 0 25px rgba(184, 0, 0, 0.6); }
 }
 
 @keyframes shimmer {
@@ -553,9 +553,9 @@ a:focus-visible {
 }
 
 @keyframes pulseRing {
-  0% { transform: scale(0.95); opacity: 0.7; box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.3); }
-  70% { transform: scale(1); opacity: 1; box-shadow: 0 0 0 6px rgba(59, 130, 246, 0); }
-  100% { transform: scale(0.95); opacity: 0.7; box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+  0% { transform: scale(0.95); opacity: 0.7; box-shadow: 0 0 0 0 rgba(184, 0, 0, 0.3); }
+  70% { transform: scale(1); opacity: 1; box-shadow: 0 0 0 6px rgba(184, 0, 0, 0); }
+  100% { transform: scale(0.95); opacity: 0.7; box-shadow: 0 0 0 0 rgba(184, 0, 0, 0); }
 }
 
 @keyframes typeIn {

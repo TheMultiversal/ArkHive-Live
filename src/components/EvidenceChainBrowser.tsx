@@ -39,7 +39,7 @@ interface EvidenceChain {
 }
 
 const evidenceTypeConfig = {
-  document: { icon: FileText, color: 'text-blue-400', label: 'Document' },
+  document: { icon: FileText, color: 'text-blood-400', label: 'Document' },
   video: { icon: Video, color: 'text-pink-400', label: 'Video' },
   audio: { icon: Mic, color: 'text-rose-400', label: 'Audio' },
   photo: { icon: Camera, color: 'text-fuchsia-400', label: 'Photo' },
@@ -50,7 +50,7 @@ const evidenceTypeConfig = {
 
 const confidenceConfig = {
   verified: { label: 'Verified', color: 'text-green-400', bg: 'bg-green-500/20', border: 'border-green-500/50', description: 'Confirmed by multiple independent primary sources' },
-  corroborated: { label: 'Corroborated', color: 'text-blue-400', bg: 'bg-blue-500/20', border: 'border-blue-500/50', description: 'Supported by multiple sources' },
+  corroborated: { label: 'Corroborated', color: 'text-blood-400', bg: 'bg-blood-500/20', border: 'border-blood-500/50', description: 'Supported by multiple sources' },
   'single-source': { label: 'Single Source', color: 'text-yellow-400', bg: 'bg-yellow-500/20', border: 'border-yellow-500/50', description: 'Based on one source, awaiting corroboration' },
   disputed: { label: 'Disputed', color: 'text-red-400', bg: 'bg-red-500/20', border: 'border-red-500/50', description: 'Conflicting evidence exists' },
 };
@@ -362,8 +362,8 @@ export default function EvidenceChainBrowser({ investigationSlug, compact = fals
           <div className="text-2xl font-bold text-green-500">{stats.verified}</div>
           <div className="text-xs text-zinc-500">Verified</div>
         </div>
-        <div className="glass-card border border-blue-500/30 p-4">
-          <div className="text-2xl font-bold text-blue-500">{stats.corroborated}</div>
+        <div className="glass-card border border-blood-500/30 p-4">
+          <div className="text-2xl font-bold text-blood-500">{stats.corroborated}</div>
           <div className="text-xs text-zinc-500">Corroborated</div>
         </div>
         <div className="glass-card border border-yellow-500/30 p-4">
@@ -458,7 +458,7 @@ export function EvidenceVerificationWidget() {
           <div className="text-xs text-zinc-500">Verified</div>
         </div>
         <div className="text-center">
-          <div className="text-xl font-bold text-blue-500">{corroborated}</div>
+          <div className="text-xl font-bold text-blood-500">{corroborated}</div>
           <div className="text-xs text-zinc-500">Corroborated</div>
         </div>
       </div>

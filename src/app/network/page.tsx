@@ -27,9 +27,9 @@ export default function NetworkPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-6">
             <Link 
               href="/entities/individuals"
-              className="glass-card border border-blue-500/30 p-4 hover:border-blue-500/60 transition-colors"
+              className="glass-card border border-blood-500/30 p-4 hover:border-blood-500/60 transition-colors"
             >
-              <User className="w-5 h-5 text-blue-400 mb-2" />
+              <User className="w-5 h-5 text-blood-400 mb-2" />
               <div className="text-xs text-zinc-500">Explore</div>
               <div className="text-white font-semibold">Individuals</div>
             </Link>

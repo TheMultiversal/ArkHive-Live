@@ -68,9 +68,9 @@ export default function GeographyPage() {
             
             <Link 
               href="/entities/individuals"
-              className="glass-card border border-blue-900/30 p-4 hover:border-blue-500/50 transition-colors"
+              className="glass-card border border-blood-900/30 p-4 hover:border-blood-500/50 transition-colors"
             >
-              <Building2 className="w-5 h-5 text-blue-400 mb-2" />
+              <Building2 className="w-5 h-5 text-blood-400 mb-2" />
               <div className="text-white font-medium">Individuals</div>
               <div className="text-xs text-zinc-500">Key figures</div>
             </Link>

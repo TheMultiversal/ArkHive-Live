@@ -36,9 +36,9 @@ const statusConfig: Record<VerificationStatus, {
   likely: {
     label: 'HIGHLY LIKELY',
     icon: Shield,
-    bgColor: 'bg-blue-900/30',
-    textColor: 'text-blue-400',
-    borderColor: 'border-blue-500',
+    bgColor: 'bg-blood-900/30',
+    textColor: 'text-blood-400',
+    borderColor: 'border-blood-500',
     description: 'Strong documentary evidence with minor gaps, 70-99% verification score',
   },
   alleged: {
@@ -122,7 +122,7 @@ interface VerificationProgressProps {
 export function VerificationProgress({ score, label }: VerificationProgressProps) {
   const getProgressColor = (score: number): string => {
     if (score >= 100) return 'bg-emerald-500';
-    if (score >= 70) return 'bg-blue-500';
+    if (score >= 70) return 'bg-blood-500';
     if (score >= 30) return 'bg-yellow-500';
     return 'bg-zinc-500';
   };
@@ -192,7 +192,7 @@ export function VerificationSummaryCard({
             <span className="text-zinc-300 font-mono">{confirmedClaims}/{totalClaims}</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-blue-400">Likely</span>
+            <span className="text-blood-400">Likely</span>
             <span className="text-zinc-300 font-mono">{likelyClaims}/{totalClaims}</span>
           </div>
           <div className="flex justify-between text-sm">

@@ -31,7 +31,7 @@ interface NetworkGraphProps {
 // Node type to color mapping
 const nodeColors: Record<string, string> = {
   individual: "#ef4444", // red-500
-  agency: "#3b82f6", // blue-500
+  agency: "#b80000", // blood-500
   corporation: "#22c55e", // green-500
   organization: "#a855f7", // purple-500
   investigation: "#f97316", // orange-500

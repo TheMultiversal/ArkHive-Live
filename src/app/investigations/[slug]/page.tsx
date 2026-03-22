@@ -172,7 +172,7 @@ export default function InvestigationPage() {
                   {investigation.timeline.map((item, idx) => {
                     const typeColors: Record<string, string> = {
                       critical: 'border-red-600',
-                      legal: 'border-blue-600',
+                      legal: 'border-blood-600',
                       political: 'border-purple-600',
                       financial: 'border-yellow-600',
                       default: 'border-zinc-600',

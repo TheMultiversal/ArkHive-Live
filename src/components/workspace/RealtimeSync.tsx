@@ -271,7 +271,7 @@ export function SyncStatusIndicator({
     },
     syncing: {
       icon: <Loader2 className="w-4 h-4 animate-spin" />,
-      color: "text-blue-400",
+      color: "text-blood-400",
       label: "Syncing...",
     },
     pending: {
@@ -540,7 +540,7 @@ export function ConflictResolutionDialog<T>({
           </button>
           <button
             onClick={() => onResolve("server")}
-            className="px-4 py-2 border border-blue-500/50 text-blue-400 hover:bg-blue-500/10 transition-colors"
+            className="px-4 py-2 border border-blood-500/50 text-blood-400 hover:bg-blood-500/10 transition-colors"
           >
             Use Server
           </button>

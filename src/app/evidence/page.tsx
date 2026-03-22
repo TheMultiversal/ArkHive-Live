@@ -36,9 +36,9 @@ export default function EvidencePage() {
                 </div>
               </div>
               <div className="flex items-start gap-2">
-                <Link2 className="w-4 h-4 text-blue-400 mt-0.5 shrink-0" />
+                <Link2 className="w-4 h-4 text-blood-400 mt-0.5 shrink-0" />
                 <div>
-                  <div className="text-blue-400 font-medium">Corroborated</div>
+                  <div className="text-blood-400 font-medium">Corroborated</div>
                   <div className="text-xs text-zinc-500">Supported by multiple sources</div>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export default function EvidencePage() {
             <div>
               <h4 className="text-white font-semibold mb-2">Source Types</h4>
               <ul className="space-y-1">
-                <li>• <span className="text-blue-400">Court Filings</span> - Indictments, motions, verdicts</li>
+                <li>• <span className="text-blood-400">Court Filings</span> - Indictments, motions, verdicts</li>
                 <li>• <span className="text-emerald-400">Government Reports</span> - Congressional, IG, agency reports</li>
                 <li>• <span className="text-purple-400">Primary Evidence</span> - Recordings, documents, photos</li>
                 <li>• <span className="text-zinc-400">News Reports</span> - Verified journalism with sources</li>

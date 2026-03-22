@@ -59,7 +59,7 @@ function formatDate(date: Date): string {
 // Event type colors
 const eventTypeColors = {
   critical: "#ef4444",
-  legal: "#3b82f6",
+  legal: "#b80000",
   political: "#a855f7",
   financial: "#22c55e",
   default: "#f97316",

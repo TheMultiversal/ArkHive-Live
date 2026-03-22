@@ -38,7 +38,7 @@ export const STATUTE_CATEGORIES: Record<StatuteCategory, { name: string; color: 
   'fraud': { name: 'Fraud', color: 'text-red-400' },
   'obstruction': { name: 'Obstruction', color: 'text-orange-400' },
   'corruption': { name: 'Corruption', color: 'text-purple-400' },
-  'campaign-finance': { name: 'Campaign Finance', color: 'text-blue-400' },
+  'campaign-finance': { name: 'Campaign Finance', color: 'text-blood-400' },
   'foreign-influence': { name: 'Foreign Influence', color: 'text-yellow-400' },
   'tax': { name: 'Tax', color: 'text-green-400' },
   'securities': { name: 'Securities', color: 'text-cyan-400' },

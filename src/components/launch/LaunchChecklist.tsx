@@ -369,7 +369,7 @@ function StatusIcon({ status }: { status: CheckStatus }): ReactElement {
     case 'warning':
       return <AlertCircle className="w-5 h-5 text-yellow-500" />;
     case 'running':
-      return <RefreshCw className="w-5 h-5 text-blue-500 animate-spin" />;
+      return <RefreshCw className="w-5 h-5 text-blood-500 animate-spin" />;
     case 'skipped':
       return <Clock className="w-5 h-5 text-zinc-500" />;
     default:

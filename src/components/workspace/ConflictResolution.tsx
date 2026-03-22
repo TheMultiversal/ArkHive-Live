@@ -99,7 +99,7 @@ const conflictTypeLabels: Record<ConflictType, string> = {
 const conflictTypeColors: Record<ConflictType, string> = {
   edit: "text-amber-400 bg-amber-500/10 border-amber-500/30",
   delete: "text-red-400 bg-red-500/10 border-red-500/30",
-  move: "text-blue-400 bg-blue-500/10 border-blue-500/30",
+  move: "text-blood-400 bg-blood-500/10 border-blood-500/30",
   concurrent: "text-purple-400 bg-purple-500/10 border-purple-500/30",
   schema: "text-orange-400 bg-orange-500/10 border-orange-500/30",
 };

@@ -33,9 +33,9 @@ const eventTypeConfig = {
   },
   political: {
     icon: Building2,
-    color: 'text-blue-500',
-    borderColor: 'border-blue-600',
-    bgColor: 'bg-blue-950',
+    color: 'text-blood-500',
+    borderColor: 'border-blood-600',
+    bgColor: 'bg-blood-950',
   },
   financial: {
     icon: DollarSign,

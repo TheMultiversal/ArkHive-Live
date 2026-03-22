@@ -1830,6 +1830,22 @@ const investigations_m: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Conducted the program', href: '/entities/agencies/cia' },
     ],
+    eventOriginDate: '1953-04-13',
+    lastActivityDate: '1975-07-26',
+    pageUpdatedDate: '2026-03-18',
+    timeline: [
+      { date: '1950', event: 'CIA establishes Project BLUEBIRD, the first systematic program to develop interrogation and mind control techniques', type: 'political' },
+      { date: '1951', event: 'Project BLUEBIRD renamed to Project ARTICHOKE; expanded from defensive research to offensive interrogation development including drugs and hypnosis', type: 'political' },
+      { date: '1953-04-13', event: 'MK-Ultra officially authorized by CIA Director Allen Dulles; Dr. Sidney Gottlieb placed in charge of the program under the Technical Services Staff', type: 'critical' },
+      { date: '1953-11-28', event: 'Army scientist Frank Olson dies after falling from a 13th-floor hotel window, nine days after being secretly dosed with LSD by CIA operatives', type: 'critical' },
+      { date: '1955', event: 'Program expands to 149 sub-projects across 80 institutions including 44 universities, 15 research facilities, 12 hospitals, and 3 prisons', type: 'default' },
+      { date: '1957', event: 'Dr. Donald Ewen Cameron begins CIA-funded experiments at Allan Memorial Institute in Montreal, subjecting patients to extreme sensory deprivation and electroshock', type: 'critical' },
+      { date: '1963', event: 'CIA Inspector General discovers MK-Ultra program and raises concerns; Sidney Gottlieb ordered to scale back operations', type: 'default' },
+      { date: '1964', event: 'MK-Ultra renamed to MK-SEARCH; program continues with reduced scope but similar experimental methods', type: 'default' },
+      { date: '1973', event: 'CIA Director Richard Helms orders destruction of nearly all MK-Ultra records; thousands of documents are shredded before Congressional investigation', type: 'critical' },
+      { date: '1975-07-26', event: 'Church Committee investigation exposes MK-Ultra program to the public; Senate hearings reveal scope of illegal human experimentation', type: 'legal' },
+      { date: '1977', event: '20,000 pages of financial documents discovered misfiled; Senate hearings chaired by Senator Edward Kennedy produce testimony from CIA officials acknowledging program illegality', type: 'legal' },
+    ],
   },
   'medicare-medicaid-fraud-trillion-dollar-theft': {
     title: 'Medicare and Medicaid Fraud: The Trillion-Dollar Theft From America\'s Sick and Elderly',

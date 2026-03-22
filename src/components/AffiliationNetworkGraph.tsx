@@ -94,7 +94,7 @@ function buildNetwork(): { nodes: Map<string, NetworkNode>; edges: NetworkEdge[]
 }
 
 const typeConfig = {
-  individual: { icon: User, color: 'text-blue-400', bg: 'bg-blue-500/20', border: 'border-blue-500/50' },
+  individual: { icon: User, color: 'text-blood-400', bg: 'bg-blood-500/20', border: 'border-blood-500/50' },
   agency: { icon: Landmark, color: 'text-emerald-400', bg: 'bg-emerald-500/20', border: 'border-emerald-500/50' },
   corporation: { icon: Building2, color: 'text-orange-400', bg: 'bg-orange-500/20', border: 'border-orange-500/50' },
   organization: { icon: Users, color: 'text-purple-400', bg: 'bg-purple-500/20', border: 'border-purple-500/50' },

@@ -26,7 +26,7 @@ const statusConfig: Record<ConvictionStatus, { label: string; color: string; bg:
   convicted: { label: 'Convicted', color: 'text-red-500', bg: 'bg-red-500/20', border: 'border-red-500/50' },
   indicted: { label: 'Indicted', color: 'text-orange-500', bg: 'bg-orange-500/20', border: 'border-orange-500/50' },
   charged: { label: 'Charged', color: 'text-yellow-500', bg: 'bg-yellow-500/20', border: 'border-yellow-500/50' },
-  acquitted: { label: 'Acquitted', color: 'text-blue-400', bg: 'bg-blue-500/20', border: 'border-blue-500/50' },
+  acquitted: { label: 'Acquitted', color: 'text-blood-400', bg: 'bg-blood-500/20', border: 'border-blood-500/50' },
   pardoned: { label: 'Pardoned', color: 'text-purple-500', bg: 'bg-purple-500/20', border: 'border-purple-500/50' },
   pending: { label: 'Pending', color: 'text-zinc-400', bg: 'bg-zinc-500/20', border: 'border-zinc-500/50' },
   settled: { label: 'Settled', color: 'text-green-400', bg: 'bg-green-500/20', border: 'border-green-500/50' },

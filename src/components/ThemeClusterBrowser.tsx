@@ -55,8 +55,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Election Integrity',
     description: 'Cases involving election interference, voter fraud claims, and certification',
     icon: Vote,
-    color: 'text-blue-500',
-    bgColor: 'bg-blue-500/10',
+    color: 'text-blood-500',
+    bgColor: 'bg-blood-500/10',
     keywords: ['election', 'vote', 'voter', 'ballot', 'certification', 'january 6', 'electoral', 'poll', 'campaign']
   },
   {

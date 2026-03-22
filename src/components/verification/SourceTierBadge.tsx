@@ -34,8 +34,8 @@ const tierConfig = {
     label: "Secondary Source",
     description: "Verified journalism, academic research, official reports",
     icon: FileCheck,
-    classes: "bg-blue-900/80 border-blue-600 text-blue-400",
-    iconClasses: "text-blue-500",
+    classes: "bg-blood-900/80 border-blood-600 text-blood-400",
+    iconClasses: "text-blood-500",
   },
   tertiary: {
     label: "Tertiary Source",

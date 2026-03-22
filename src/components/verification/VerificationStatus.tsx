@@ -51,9 +51,9 @@ const levelConfig = {
     label: "Partially Verified",
     description: "Some checks passed, others pending",
     icon: CheckCircle,
-    color: "text-blue-400",
-    bgColor: "bg-blue-900/50",
-    borderColor: "border-blue-700",
+    color: "text-blood-400",
+    bgColor: "bg-blood-900/50",
+    borderColor: "border-blood-700",
   },
   pending: {
     label: "Verification Pending",

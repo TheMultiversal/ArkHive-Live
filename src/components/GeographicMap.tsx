@@ -84,7 +84,7 @@ const REGIONS: Record<string, { label: string; states: string[]; color: string }
   northeast: { 
     label: 'Northeast', 
     states: ['CT', 'DE', 'MA', 'MD', 'ME', 'NH', 'NJ', 'NY', 'PA', 'RI', 'VT'],
-    color: 'text-blue-400'
+    color: 'text-blood-400'
   },
   southeast: { 
     label: 'Southeast', 
@@ -119,7 +119,7 @@ const REGIONS: Record<string, { label: string; states: string[]; color: string }
 };
 
 const entityTypeConfig = {
-  individual: { icon: User, color: 'text-blue-400' },
+  individual: { icon: User, color: 'text-blood-400' },
   agency: { icon: Landmark, color: 'text-emerald-400' },
   corporation: { icon: Building2, color: 'text-orange-400' },
   organization: { icon: Users, color: 'text-purple-400' },
@@ -331,8 +331,8 @@ export default function GeographicMap({ compact = false }: GeographicMapProps) {
           <div className="text-2xl font-bold text-yellow-500">{stats.dc}</div>
           <div className="text-xs text-zinc-500">Washington D.C.</div>
         </div>
-        <div className="glass-card border border-blue-500/30 p-4">
-          <div className="text-2xl font-bold text-blue-500">{stats.domestic}</div>
+        <div className="glass-card border border-blood-500/30 p-4">
+          <div className="text-2xl font-bold text-blood-500">{stats.domestic}</div>
           <div className="text-xs text-zinc-500">Other U.S.</div>
         </div>
         <div className="glass-card border border-cyan-500/30 p-4">

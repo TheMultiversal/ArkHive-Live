@@ -121,7 +121,7 @@ export default function VerificationDashboard() {
 
   const getHealthColor = (health: number) => {
     if (health >= 90) return 'text-emerald-400';
-    if (health >= 70) return 'text-blue-400';
+    if (health >= 70) return 'text-blood-400';
     if (health >= 50) return 'text-yellow-400';
     return 'text-red-400';
   };
@@ -177,7 +177,7 @@ export default function VerificationDashboard() {
                 <span className="text-zinc-300">{status.investigations.fullyVerified}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-blue-400">Partially Verified</span>
+                <span className="text-blood-400">Partially Verified</span>
                 <span className="text-zinc-300">{status.investigations.partiallyVerified}</span>
               </div>
               <div className="flex justify-between">
@@ -209,7 +209,7 @@ export default function VerificationDashboard() {
                 <span className="text-zinc-300">{status.evidence.verified.toLocaleString()}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-blue-400">Archived</span>
+                <span className="text-blood-400">Archived</span>
                 <span className="text-zinc-300">{status.evidence.archived.toLocaleString()}</span>
               </div>
               <div className="flex justify-between">
@@ -342,7 +342,7 @@ export default function VerificationDashboard() {
                     <AlertTriangle className="text-red-500" size={20} />
                   )}
                   {activity.type === 'archive_created' && (
-                    <Archive className="text-blue-500" size={20} />
+                    <Archive className="text-blood-500" size={20} />
                   )}
                 </div>
                 <div className="flex-1">
@@ -367,7 +367,7 @@ export default function VerificationDashboard() {
                       </span>
                     )}
                     {activity.type === 'archive_created' && (
-                      <span className="text-blue-400">
+                      <span className="text-blood-400">
                         New archive created for source
                       </span>
                     )}

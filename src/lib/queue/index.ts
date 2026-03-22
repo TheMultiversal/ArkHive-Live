@@ -629,7 +629,7 @@ export function JobStatusBadge({ status }: JobStatusBadgeProps): React.ReactElem
     },
     processing: {
       icon: <Loader2 className="w-3 h-3 animate-spin" />,
-      color: 'bg-blue-900/50 text-blue-400',
+      color: 'bg-blood-900/50 text-blood-400',
       label: 'Processing',
     },
     completed: {
@@ -672,7 +672,7 @@ interface JobProgressBarProps {
 export function JobProgressBar({ progress, status }: JobProgressBarProps): React.ReactElement {
   const colorClasses: Record<JobStatus, string> = {
     pending: 'bg-zinc-600',
-    processing: 'bg-blue-500',
+    processing: 'bg-blood-500',
     completed: 'bg-emerald-500',
     failed: 'bg-zinc-600',
     cancelled: 'bg-zinc-500',
@@ -764,7 +764,7 @@ export function QueueStatsDisplay({ stats }: QueueStatsDisplayProps): React.Reac
       </div>
       <div className="bg-zinc-900 border border-zinc-800 p-4">
         <p className="text-xs text-zinc-500 uppercase tracking-wider">Processing</p>
-        <p className="text-2xl font-mono text-blue-400 mt-1">{stats.processing}</p>
+        <p className="text-2xl font-mono text-blood-400 mt-1">{stats.processing}</p>
       </div>
       <div className="bg-zinc-900 border border-zinc-800 p-4">
         <p className="text-xs text-zinc-500 uppercase tracking-wider">Completed</p>

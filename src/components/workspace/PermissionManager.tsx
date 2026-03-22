@@ -113,7 +113,7 @@ export const DEFAULT_ROLES: Role[] = [
     description: "Can view and comment only",
     permissions: ["view", "comment"],
     isSystem: true,
-    color: "#3b82f6",
+    color: "#b80000",
   },
   {
     id: "viewer",
@@ -187,7 +187,7 @@ export function PermissionBadge({
 }: PermissionBadgeProps) {
   const colors: Record<Permission, string> = {
     view: "bg-zinc-500/20 text-zinc-400 border-zinc-500/30",
-    comment: "bg-blue-500/20 text-blue-400 border-blue-500/30",
+    comment: "bg-blood-500/20 text-blood-400 border-blood-500/30",
     edit: "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
     delete: "bg-red-500/20 text-red-400 border-red-500/30",
     manage: "bg-amber-500/20 text-amber-400 border-amber-500/30",

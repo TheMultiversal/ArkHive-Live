@@ -546,7 +546,7 @@ const SEVERITY_COLORS: Record<SeverityLevel, string> = {
   critical: 'bg-zinc-800/50 text-zinc-300 border-zinc-700',
   high: 'bg-orange-900/50 text-orange-300 border-orange-700',
   medium: 'bg-yellow-900/50 text-yellow-300 border-yellow-700',
-  low: 'bg-blue-900/50 text-blue-300 border-blue-700',
+  low: 'bg-blood-900/50 text-blood-300 border-blood-700',
   info: 'bg-zinc-800 text-zinc-400 border-zinc-700',
 };
 
@@ -809,7 +809,7 @@ export function ProductionAudit({ config = {}, onComplete }: ProductionAuditProp
                   <span className="text-yellow-400">{result.mediumCount} Medium</span>
                 )}
                 {result.lowCount > 0 && (
-                  <span className="text-blue-400">{result.lowCount} Low</span>
+                  <span className="text-blood-400">{result.lowCount} Low</span>
                 )}
                 <span className="text-zinc-500">
                   <Clock className="w-4 h-4 inline mr-1" />

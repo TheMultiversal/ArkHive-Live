@@ -37,7 +37,7 @@ interface SearchResult {
 
 const typeConfig = {
   investigation: { icon: Eye, color: 'text-zinc-400', bg: 'bg-zinc-500/20' },
-  entity: { icon: User, color: 'text-blue-400', bg: 'bg-blue-500/20' },
+  entity: { icon: User, color: 'text-blood-400', bg: 'bg-blood-500/20' },
   statute: { icon: Scale, color: 'text-purple-400', bg: 'bg-purple-500/20' },
   source: { icon: FileText, color: 'text-emerald-400', bg: 'bg-emerald-500/20' },
   defendant: { icon: User, color: 'text-red-400', bg: 'bg-red-500/20' },

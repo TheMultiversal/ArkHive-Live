@@ -33,7 +33,7 @@ export function ContributorCard({
 
   const getTrustColor = (score: number): string => {
     if (score >= 90) return 'text-emerald-400';
-    if (score >= 70) return 'text-blue-400';
+    if (score >= 70) return 'text-blood-400';
     if (score >= 50) return 'text-yellow-400';
     return 'text-zinc-400';
   };

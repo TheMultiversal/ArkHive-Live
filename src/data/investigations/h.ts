@@ -709,6 +709,21 @@ const investigations_h: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Facilitated trafficking', href: '/entities/agencies/cia' },
     ],
+    eventOriginDate: '1965-01-01',
+    lastActivityDate: '1998-12-01',
+    pageUpdatedDate: '2026-03-18',
+    timeline: [
+      { date: '1955', event: 'CIA begins covert operations in Laos, establishing relationships with Hmong tribal leaders who control opium production in the Golden Triangle', type: 'political' },
+      { date: '1959', event: 'CIA establishes Air America, a civilian airline covertly owned and operated by the agency, for logistics support in Southeast Asia', type: 'political' },
+      { date: '1965', event: 'Escalation of Vietnam War leads to expanded CIA operations in Laos; Air America facilitates transport of opium and heroin from Hmong-controlled territory', type: 'critical' },
+      { date: '1967', event: 'Laos becomes the world\'s leading heroin producer under CIA protection of Hmong warlord Vang Pao and associated traffickers', type: 'critical' },
+      { date: '1970', event: 'Heroin addiction epidemic among U.S. troops in Vietnam; estimated 10-15% of American soldiers using heroin sourced from CIA-protected supply chains', type: 'critical' },
+      { date: '1972', event: 'Alfred McCoy publishes "The Politics of Heroin in Southeast Asia" documenting CIA complicity in drug trafficking; CIA attempts to suppress the book', type: 'default' },
+      { date: '1975', event: 'Fall of Saigon ends the Vietnam War; Air America ceases operations after two decades of covert activity', type: 'political' },
+      { date: '1986', event: 'Senate Foreign Relations Committee begins investigating allegations of CIA involvement in drug trafficking through the Kerry Committee', type: 'legal' },
+      { date: '1989', event: 'Kerry Committee report confirms that U.S. foreign policy and CIA operations facilitated drug trafficking in Central America and Southeast Asia', type: 'legal' },
+      { date: '1998', event: 'CIA Inspector General publishes report acknowledging agency awareness of drug trafficking by its assets and partners', type: 'default' },
+    ],
   },
   'holocaust-denial': {
     title: 'Holocaust Denial and Revisionism',
@@ -729,6 +744,21 @@ const investigations_h: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Adolf Hitler', type: 'individual', relationship: 'Nazi leader', href: '/entities/individuals/adolf-hitler' },
+    ],
+    eventOriginDate: '1945-05-08',
+    lastActivityDate: '2024-01-27',
+    pageUpdatedDate: '2026-03-18',
+    timeline: [
+      { date: '1945', event: 'End of World War II and liberation of Nazi concentration camps; overwhelming documentary evidence of the Holocaust is preserved by Allied forces', type: 'critical' },
+      { date: '1945-11-20', event: 'Nuremberg Trials begin, establishing comprehensive legal record of Nazi genocide including testimony from perpetrators and survivors', type: 'legal' },
+      { date: '1948', event: 'Paul Rassinier, a French socialist and concentration camp survivor, publishes early revisionist works questioning aspects of Holocaust accounts', type: 'default' },
+      { date: '1961', event: 'Trial of Adolf Eichmann in Jerusalem produces extensive testimony and documentation further establishing the historical record', type: 'legal' },
+      { date: '1978', event: 'Institute for Historical Review founded in California as primary organization promoting Holocaust denial under the guise of academic revisionism', type: 'political' },
+      { date: '1985', event: 'Ernst Zundel tried in Canada for publishing Holocaust denial material; trial becomes platform for denial claims and generates significant public attention', type: 'legal' },
+      { date: '1990', event: 'France passes the Gayssot Act criminalizing Holocaust denial; multiple European countries follow with similar legislation', type: 'legal' },
+      { date: '2000', event: 'David Irving loses libel case against Deborah Lipstadt; British court rules Irving is a Holocaust denier who deliberately falsified historical evidence', type: 'legal' },
+      { date: '2007', event: 'United Nations General Assembly passes resolution condemning Holocaust denial and urging member states to reject denial of the Holocaust as a historical event', type: 'political' },
+      { date: '2024-01-27', event: 'International Holocaust Remembrance Day; denial and revisionism persist on social media platforms despite content moderation efforts', type: 'default' },
     ],
   },
   'holodomor-ukraine-famine': {

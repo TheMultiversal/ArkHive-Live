@@ -59,7 +59,7 @@ function aggregateDocuments(): DocumentWithContext[] {
 
 const credibilityConfig = {
   primary: { label: 'Primary Source', color: 'text-green-400', bg: 'bg-green-500/10', icon: CheckCircle },
-  verified: { label: 'Verified', color: 'text-blue-400', bg: 'bg-blue-500/10', icon: Shield },
+  verified: { label: 'Verified', color: 'text-blood-400', bg: 'bg-blood-500/10', icon: Shield },
   reporting: { label: 'News Reporting', color: 'text-yellow-400', bg: 'bg-yellow-500/10', icon: FileText },
   analysis: { label: 'Analysis', color: 'text-purple-400', bg: 'bg-purple-500/10', icon: AlertCircle },
   unverified: { label: 'Unverified', color: 'text-zinc-400', bg: 'bg-zinc-500/10', icon: HelpCircle },

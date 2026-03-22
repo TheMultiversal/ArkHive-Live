@@ -148,7 +148,7 @@ export default function Header() {
  </Link>
 
  {/* Desktop Navigation */}
- <nav className="hidden lg:flex items-center gap-0 flex-shrink min-w-0" aria-label="Main navigation">
+ <nav className="hidden lg:flex items-center gap-1 xl:gap-1.5 flex-shrink min-w-0 overflow-hidden" aria-label="Main navigation">
  {/* Home link */}
  <Link
  href="/"
@@ -196,7 +196,7 @@ export default function Header() {
  </nav>
 
  {/* Actions */}
- <div className="flex items-center gap-1 flex-shrink-0">
+ <div className="flex items-center gap-2 flex-shrink-0 ml-2">
  {/* Search */}
  <div className="relative">
  {isSearchOpen && (
