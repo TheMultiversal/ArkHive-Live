@@ -602,27 +602,6 @@ const investigations_l: Record<string, InvestigationData> = {
      { date: '2015-05-20', event: 'LIBOR Rate Manipulation Scandal — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
-  'lobbying-corruption': {
-    title: 'Corporate Lobbying and Corruption',
-    subtitle: 'How money influences legislation and policy',
-    severity: 'high',
-    category: 'Political Corruption',
-    date: 'Ongoing',
-    lastUpdated: 'November 15, 2024',
-    summary: 'Corporations spend billions annually on lobbying to influence legislation, often at the expense of public interest. This legalized corruption shapes policy in favor of wealthy interests.',
-    content: [
-      'BILLIONS SPENT: Corporations spend over $3B annually on lobbying.',
-      'REVOLVING DOOR: Former officials become lobbyists.',
-      'CAMPAIGN CONTRIBUTIONS: Money buys access and influence.',
-    ],
-    tags: ['Lobbying', 'Corruption', 'Political Influence'],
-    sources: [
-      { title: 'Open Secrets Lobbying Database', url: 'https://www.opensecrets.org/federal-lobbying', type: 'Database' },
-    ],
-    affiliations: [
-      { id: '1', name: 'Pharmaceutical Industry', type: 'industry', relationship: 'Heavy lobbying', href: '/entities/corporations/pfizer' },
-    ],
-  },
   'lead-pipes-nationwide-poisoning': {
     slug: 'lead-pipes-nationwide-poisoning',
     title: 'Lead Pipes Nationwide Poisoning',

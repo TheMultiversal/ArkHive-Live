@@ -1546,35 +1546,6 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '2018', event: 'aid between 2001 and 2018 while simultaneously harboring Taliban leadership and maintaining ties to extremist groups.', type: 'default' },
    ],
   },
-  'goldman-sachs-fraud': {
-    title: 'Goldman Sachs Securities Fraud',
-    subtitle: 'Abacus CDO scheme and mortgage-backed securities manipulation',
-    severity: 'high',
-    category: 'Financial Fraud',
-    date: 'April 16, 2010',
-    lastUpdated: 'July 15, 2010',
-    summary: 'Goldman Sachs created and marketed toxic mortgage-backed securities while betting against them, defrauding investors and contributing to the 2008 financial crisis.',
-    content: [
-      'ABACUS CDO: Goldman created CDO with Paulson & Co., allowing Paulson to select toxic mortgages while Goldman marketed it as AAA-rated.',
-      'SEC CHARGES: Goldman paid $550M fine for misleading investors.',
-      'EXECUTIVE COMPENSATION: Lloyd Blankfein received $68M bonus despite fraud.',
-    ],
-    tags: ['Goldman Sachs', 'Securities Fraud', 'CDO', 'Financial Crisis'],
-    sources: [
-      { title: 'SEC v. Goldman Sachs', url: 'https://www.sec.gov/news/press/2010/2010-59.htm', type: 'SEC Release' },
-    ],
-    affiliations: [
-      { id: '1', name: 'Lloyd Blankfein', type: 'individual', relationship: 'CEO during fraud', href: '/entities/individuals/lloyd-blankfein' },
-    ],
-   eventOriginDate: '2008-01-01',
-   lastActivityDate: '2010-07-15',
-   pageUpdatedDate: '2026-03-18',
-   timeline: [
-     { date: '2008', event: 'Goldman Sachs created and marketed toxic mortgage-backed securities while betting against them, defrauding investors and contributing to the 2008 financial crisis.', type: 'critical' },
-     { date: '2008-01-01', event: 'Goldman Sachs Securities Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
-     { date: '2010-07-15', event: 'Goldman Sachs Securities Fraud — investigation remains active with ongoing developments', type: 'financial' },
-   ],
-  },
   'gulf-oil-spill': {
     title: 'Deepwater Horizon Oil Spill',
     subtitle: 'BP negligence and environmental disaster',
