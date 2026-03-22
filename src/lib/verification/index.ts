@@ -1,7 +1,7 @@
 // Verification utilities for the ArkHive verify API
 // URL validation and archive checking
 
-export async function checkUrl(url: string): Promise<{ status: number; accessible: boolean; redirected: boolean; finalUrl: string }> {
+export async function checkUrl(url: string): Promise<{ status: number; ok: boolean; accessible: boolean; redirected: boolean; finalUrl: string; contentType: string | null; checkedAt: string; error?: string }> {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 10000);
@@ -9,12 +9,15 @@ export async function checkUrl(url: string): Promise<{ status: number; accessibl
     clearTimeout(timeout);
     return {
       status: res.status,
+      ok: res.ok,
       accessible: res.ok,
       redirected: res.redirected,
       finalUrl: res.url,
+      contentType: res.headers.get('content-type'),
+      checkedAt: new Date().toISOString(),
     };
-  } catch {
-    return { status: 0, accessible: false, redirected: false, finalUrl: url };
+  } catch (e) {
+    return { status: 0, ok: false, accessible: false, redirected: false, finalUrl: url, contentType: null, checkedAt: new Date().toISOString(), error: e instanceof Error ? e.message : 'Unknown error' };
   }
 }
 
@@ -37,8 +40,8 @@ export async function requestWaybackArchive(url: string): Promise<string | null>
   }
 }
 
-export async function verifyContent(url: string, claims: string[]): Promise<{ url: string; claimsChecked: number; verified: boolean }> {
-  return { url, claimsChecked: claims.length, verified: false };
+export async function verifyContent(url: string, claims: string[]): Promise<{ url: string; claimsChecked: number; verified: boolean; verificationScore: number; foundContent: boolean[]; issues: string[]; checkedAt: string }> {
+  return { url, claimsChecked: claims.length, verified: false, verificationScore: 0, foundContent: claims.map(() => false), issues: ['Content verification not yet implemented'], checkedAt: new Date().toISOString() };
 }
 
 export function validateCaseNumber(value: string): boolean {

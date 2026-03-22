@@ -998,7 +998,6 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'ajit-pai': {
     name: 'Ajit Pai',
-    slug: 'ajit-pai',
     bio: 'Ajit Varadaraj Pai served as Chairman of the Federal Communications Commission from 2017 to 2021. A former Verizon associate general counsel, Pai led the FCC\'s repeal of net neutrality rules in December 2017, overriding 83% public opposition and millions of public comments (many later found to be fabricated by the broadband industry using stolen identities). The repeal eliminated rules preventing ISPs from throttling, blocking, or charging extra for internet content, handing enormous power to Comcast, AT&T, Verizon, and Charter — his former employer\'s competitors and the industry he was supposed to regulate. Pai also relaxed media ownership rules, allowing greater consolidation, and used flawed broadband maps that overstated internet access by tens of millions of Americans.',
     riskLevel: 'high' as const,
     status: 'active',

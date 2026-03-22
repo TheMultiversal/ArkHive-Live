@@ -2060,7 +2060,6 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'eric-holder': {
     name: 'Eric Holder',
-    slug: 'eric-holder',
     bio: 'Eric Himpton Holder Jr. served as the 82nd Attorney General of the United States from 2009 to 2015 under President Obama. As the nation\'s chief law enforcement officer during the aftermath of the 2008 financial crisis, Holder made the consequential decision not to criminally prosecute any senior Wall Street executive, articulating the doctrine that some banks were "too big to jail." His DOJ settled with banks for $150+ billion in fines while securing zero criminal convictions of CEOs or senior management. Before and after his tenure as AG, Holder was a partner at Covington & Burling, a corporate law firm whose clients include many of the same banks his DOJ declined to prosecute. His tenure is widely cited as the definitive case study in the failure of accountability for institutional financial crime.',
     riskLevel: 'high' as const,
     status: 'active',

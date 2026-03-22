@@ -320,7 +320,8 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Congressional Testimony', url: 'https://www.congress.gov/', date: '2018' },
  { title: 'UK Parliament Testimony', url: 'https://scholar.google.com/scholar?q=UK%20Parliament%20Testimony', date: '2018' },
  ],
- },
+ },
+
 
 
 
@@ -584,7 +585,8 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
+ },
+
 
  'christopher-miller': {
  name: 'Christopher Miller',
@@ -2243,7 +2245,8 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
+ },
+
 
  'c-everett-koop': {
  name: 'C. Everett Koop',

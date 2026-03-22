@@ -1,7 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import Link from 'next/link';
+import { motion } from'framer-motion';
+import Link from'next/link';
 import { 
  Users, 
  MessageSquare, 
@@ -11,16 +11,16 @@ import {
  Lock,
  ChevronRight,
  Flame
-} from 'lucide-react';
-import { Workspace } from '@/types/workspace';
+} from'lucide-react';
+import { Workspace } from'@/types/workspace';
 
 interface WorkspaceCardProps {
  workspace: Workspace;
  index?: number;
- viewMode?: 'grid' | 'list';
+ viewMode?:'grid' |'list';
 }
 
-export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' }: WorkspaceCardProps) {
+export default function WorkspaceCard({ workspace, index = 0, viewMode ='grid' }: WorkspaceCardProps) {
  const formatTimeAgo = (date: Date) => {
  const now = new Date();
  const diffMs = now.getTime() - new Date(date).getTime();
@@ -28,7 +28,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  const diffHours = Math.floor(diffMs / 3600000);
  const diffDays = Math.floor(diffMs / 86400000);
 
- if (diffMins < 1) return 'Just now';
+ if (diffMins < 1) return'Just now';
  if (diffMins < 60) return `${diffMins}m ago`;
  if (diffHours < 24) return `${diffHours}h ago`;
  if (diffDays < 7) return `${diffDays}d ago`;
@@ -42,7 +42,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  : 0;
 
  // List view variant
- if (viewMode === 'list') {
+ if (viewMode ==='list') {
  return (
  <motion.div
  initial={{ opacity: 0, x: -8 }}
@@ -53,15 +53,15 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="group relative flex items-center gap-4 bg-[#0a0a0a] border border-white/[0.06] hover:border-white/[0.12] transition-all duration-200 cursor-pointer overflow-hidden p-4">
  {/* Priority accent */}
  <div className={`absolute left-0 top-0 bottom-0 w-[2px] ${
- workspace.priority === 'critical' ? 'bg-zinc-600' :
- workspace.priority === 'high' ? 'bg-zinc-800' :
- 'bg-white/[0.08]'
+ workspace.priority ==='critical' ?'bg-zinc-600' :
+ workspace.priority ==='high' ?'bg-zinc-800' :
+'bg-white/[0.08]'
  }`} />
 
  {/* Main content */}
  <div className="flex-1 min-w-0 pl-2">
  <div className="flex items-center gap-2 mb-1">
- {workspace.priority === 'critical' && (
+ {workspace.priority ==='critical' && (
  <Flame className="w-3 h-3 text-zinc-300"/>
  )}
  <h3 className="text-sm font-medium text-white/80 group-hover:text-white transition-colors truncate">
@@ -134,9 +134,9 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="group relative bg-[#0a0a0a] border border-white/[0.06] hover:border-white/[0.12] transition-all duration-200 cursor-pointer overflow-hidden">
  {/* Priority accent */}
  <div className={`absolute left-0 top-0 bottom-0 w-[2px] ${
- workspace.priority === 'critical' ? 'bg-zinc-600' :
- workspace.priority === 'high' ? 'bg-zinc-800' :
- 'bg-white/[0.08]'
+ workspace.priority ==='critical' ?'bg-zinc-600' :
+ workspace.priority ==='high' ?'bg-zinc-800' :
+'bg-white/[0.08]'
  }`} />
 
  <div className="p-5 pl-6">
@@ -144,7 +144,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  <div className="flex items-start justify-between mb-3">
  <div className="flex-1 min-w-0">
  <div className="flex items-center gap-2 mb-2">
- {workspace.priority === 'critical' && (
+ {workspace.priority ==='critical' && (
  <Flame className="w-3 h-3 text-zinc-300"/>
  )}
  <span className="text-[10px] font-medium uppercase tracking-widest text-white/30">
@@ -171,7 +171,7 @@ export default function WorkspaceCard({ workspace, index = 0, viewMode = 'grid' 
  {workspace.tags.slice(0, 3).map((tag, i) => (
  <span 
  key={i}
- className="px-2 py-0.5 text-[10px] font-medium tracking-wide bg-[#0a0a0a] text-white/40 rounded"
+ className="px-2 py-0.5 text-[10px] font-medium tracking-wide bg-[#0a0a0a] text-white/40"
  >
  {tag}
  </span>

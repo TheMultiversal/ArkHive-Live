@@ -31,7 +31,6 @@ export default function ShareButton({
  await navigator.share(shareData);
  } catch (err) {
  // User cancelled or error - fail silently
- console.log('Share cancelled or failed');
  }
  } else {
  // Fallback: Copy to clipboard

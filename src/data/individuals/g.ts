@@ -913,7 +913,8 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Richard Nixon', relationship: 'Predecessor, pardoned', href: '/entities/individuals/richard-nixon' },
  ],
- },
+ },
+
 
 
 
@@ -1274,7 +1275,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Jeffrey Wigand', relationship: 'Whistleblower who exposed tobacco industry practices', href: '/entities/individuals/jeffrey-wigand' }
  ],
 
- },'guy-reffitt': {
+ },
+'guy-reffitt': {
  name: 'Guy Reffitt',
  title: 'Convicted January 6 Rioter',
  role: 'Texas Three Percenter, First J6 Trial CONVICTED',
@@ -1541,7 +1543,8 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
+ },
+
  'gary-wang': {
  name: 'Gary Wang',
  title: 'Co-founder and CTO of FTX; built the secret backdoor allowing Alameda to access customer funds',
@@ -2895,7 +2898,6 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'gina-haspel': {
     name: 'Gina Haspel',
-    slug: 'gina-haspel',
     bio: 'Gina Cheri Haspel served as the Director of the Central Intelligence Agency from 2018 to 2021, the first woman to hold the position. Her appointment was deeply controversial due to her role in the CIA\'s post-9/11 torture program. In 2002, Haspel oversaw a CIA black site in Thailand (codenamed "Cat\'s Eye") where detainees were subjected to waterboarding, sleep deprivation, confinement boxes, and other forms of torture. In 2005, she drafted the order to destroy 92 videotapes documenting the interrogation sessions — evidence that was under preservation requests from Congress, federal courts, and the 9/11 Commission. Despite the destruction of evidence and her direct involvement in torture, she was confirmed as CIA Director by the Senate 54-45.',
     riskLevel: 'high' as const,
     status: 'active',

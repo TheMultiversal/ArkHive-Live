@@ -138,10 +138,10 @@ function classifyInvestigation(investigation: InvestigationData): string[] {
   const themes: string[] = [];
   const searchText = `
     ${investigation.title} 
-    ${investigation.description} 
+    ${investigation.summary} 
     ${investigation.content} 
-    ${investigation.keyFacts?.join(' ') || ''}
-    ${investigation.sources?.map(s => s.description || '').join(' ') || ''}
+    ${investigation.tags?.join(' ') || ''}
+    ${investigation.sources?.map(s => s.title || '').join(' ') || ''}
   `.toLowerCase();
 
   for (const theme of THEME_DEFINITIONS) {
@@ -162,6 +162,7 @@ function classifyInvestigation(investigation: InvestigationData): string[] {
 
 interface ClusteredInvestigation {
   investigation: InvestigationData;
+  slug: string;
   themes: string[];
   primaryTheme: string;
 }
@@ -181,13 +182,14 @@ export function ThemeClusterBrowser() {
 
   // Process all investigations
   const clusteredData = useMemo(() => {
-    const investigations = Object.values(investigationDatabase);
+    const entries = Object.entries(investigationDatabase);
     
     // Classify each investigation
-    const classified: ClusteredInvestigation[] = investigations.map(inv => {
+    const classified: ClusteredInvestigation[] = entries.map(([slug, inv]) => {
       const themes = classifyInvestigation(inv);
       return {
         investigation: inv,
+        slug,
         themes,
         primaryTheme: themes[0]
       };
@@ -415,10 +417,10 @@ export function ThemeClusterBrowser() {
 
           {/* Investigation list */}
           <div className="grid gap-3">
-            {selectedCluster.investigations.map(({ investigation, themes }) => (
+            {selectedCluster.investigations.map(({ investigation, slug, themes }) => (
               <Link
-                key={investigation.slug}
-                href={`/investigations/${investigation.slug}`}
+                key={slug}
+                href={`/investigations/${slug}`}
                 className="glass-card p-4 flex items-center gap-4 hover:border-zinc-600 transition-colors group"
               >
                 {/* Severity indicator */}
@@ -430,7 +432,7 @@ export function ThemeClusterBrowser() {
                     {investigation.title}
                   </h4>
                   <p className="text-sm text-zinc-500 line-clamp-1">
-                    {investigation.description}
+                    {investigation.summary}
                   </p>
                   {/* Cross-theme tags */}
                   {themes.length > 1 && (
@@ -462,7 +464,7 @@ export function ThemeClusterBrowser() {
                     {investigation.severity}
                   </span>
                   <p className="text-xs text-zinc-600 mt-1">
-                    {investigation.status}
+                    {investigation.category}
                   </p>
                 </div>
 

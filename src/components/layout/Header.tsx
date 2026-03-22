@@ -217,7 +217,7 @@ export default function Header() {
  setSearchQuery("");
  }
  }}
- className="absolute right-0 top-1/2 -translate-y-1/2 w-64 px-4 py-2 bg-black border border-zinc-800/50 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 focus:ring-1 focus:ring-zinc-600/30 transition-all duration-300 rounded-lg"
+ className="absolute right-0 top-1/2 -translate-y-1/2 w-64 px-4 py-2 bg-black border border-zinc-800/50 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 focus:ring-1 focus:ring-zinc-600/30 transition-all duration-300"
  autoFocus
  />
  )}
@@ -234,7 +234,7 @@ export default function Header() {
  {/* Submit Intel */}
  <Link
  href="/submit"
- className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#1a1a1a] to-[#111111] hover:from-[#222222] hover:to-[#111111] text-zinc-300 text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(255,255,255,0.28)] hover:border-[rgba(255,255,255,0.50)] shadow-[0_0_15px_rgba(255,255,255,0.15)] hover:shadow-[0_0_25px_rgba(255,255,255,0.3)] rounded-lg"
+ className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#1a1a1a] to-[#111111] hover:from-[#222222] hover:to-[#111111] text-zinc-300 text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(255,255,255,0.28)] hover:border-[rgba(255,255,255,0.50)] shadow-[0_0_15px_rgba(255,255,255,0.15)] hover:shadow-[0_0_25px_rgba(255,255,255,0.3)]"
  >
  <Zap className="w-3.5 h-3.5"/>
  <span>Submit Intel</span>
@@ -243,7 +243,7 @@ export default function Header() {
  {/* Contribute */}
  <Link
  href="/contributor"
- className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-[rgba(255,255,255,0.15)] hover:border-zinc-700/50 hover:bg-zinc-800/80 transition-all duration-200 rounded-lg"
+ className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-[rgba(255,255,255,0.15)] hover:border-zinc-700/50 hover:bg-zinc-800/80 transition-all duration-200"
  >
  <UserPlus className="w-3.5 h-3.5"/>
  <span>Contribute</span>

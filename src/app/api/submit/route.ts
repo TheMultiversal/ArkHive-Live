@@ -38,9 +38,6 @@ export async function POST(request: Request) {
  // Store submission (in production, save to database)
  submissions.push(submission);
 
- // Log for development
- console.log('New submission received:', submission.id);
-
  return NextResponse.json({
  success: true,
  message: 'Submission received successfully',

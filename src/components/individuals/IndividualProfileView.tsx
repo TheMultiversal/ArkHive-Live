@@ -17,31 +17,9 @@ import {
  BookOpen,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
+import type { IndividualProfile } from '@/data/individuals/types';
 
-// Individual profile data interface
-export interface IndividualProfile {
- name: string;
- title: string;
- role: string;
- riskLevel: 'critical' | 'high' | 'medium' | 'low';
- description: string;
- birthDate?: string;
- birthPlace?: string;
- education: string[];
- netWorth?: string;
- affiliations: { name: string; role: string; type: 'agency' | 'corporation' | 'organization' }[];
- controversies: string[];
- relatedInvestigations: { title: string; slug: string; severity: string }[] | string[];
- timeline: { date: string; event: string }[];
- socialMedia?: { platform: string; handle: string }[];
- charges?: (
- | { statute: string; description: string; category: string }
- | { charge: string; status?: string; date?: string }
- )[];
- sources?: { title: string; url?: string; date?: string }[];
- aliases?: string[];
- knownAssociates?: { name: string; relationship: string; href?: string }[];
-}
+export type { IndividualProfile };
 
 const riskColors = {
  critical: 'text-zinc-300 bg-zinc-900 border-zinc-800',
@@ -57,10 +35,11 @@ const severityColors = {
  low: 'bg-zinc-900 text-zinc-400',
 };
 
-const affiliationTypeColors = {
+const affiliationTypeColors: Record<string, string> = {
  agency: 'bg-zinc-900 border-zinc-800 text-zinc-400',
  corporation: 'bg-zinc-900 border-zinc-800 text-zinc-400',
  organization: 'bg-zinc-900 border-zinc-700 text-zinc-400',
+ individual: 'bg-zinc-900 border-zinc-700 text-zinc-400',
 };
 
 interface IndividualProfileViewProps {
@@ -86,8 +65,8 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <div className="w-12 h-12 bg-[#0d0d0d] flex items-center justify-center">
  <User className="w-6 h-6 text-zinc-300"/>
  </div>
- <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[individual.riskLevel]}`}>
- {individual.riskLevel} risk
+ <span className={`px-3 py-1 text-xs font-bold uppercase border ${riskColors[individual.riskLevel || 'medium']}`}>
+ {individual.riskLevel || 'medium'} risk
  </span>
  {individual.netWorth && (
  <span className="px-3 py-1 text-xs font-mono bg-zinc-900/50 border border-zinc-700 text-zinc-400">
@@ -135,7 +114,7 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  <div className="space-y-3">
  {(individual.affiliations || []).map((affiliation, index) => {
  const slug = affiliation.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
- const typePathMap = { agency: 'agencies', corporation: 'corporations', organization: 'organizations' };
+ const typePathMap: Record<string, string> = { agency: 'agencies', corporation: 'corporations', organization: 'organizations', individual: 'individuals' };
  const href = `/entities/${typePathMap[affiliation.type]}/${slug}`;
  return (
  <Link
@@ -246,9 +225,10 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  );
  }
  const isLegacy = 'charge' in charge;
+ const isStatute = 'statute' in charge;
  const displayText = isLegacy ? charge.charge : charge.description;
- const displayCode = isLegacy ? (charge.status || 'Charged') : charge.statute;
- const displayCategory = isLegacy ? (charge.date || '') : charge.category;
+ const displayCode = isLegacy ? (charge.status || 'Charged') : isStatute ? (charge as { statute: string }).statute : 'N/A';
+ const displayCategory = isLegacy ? (charge.date || '') : isStatute ? ((charge as { category?: string }).category || '') : '';
  
  return (
  <div key={index} className="flex flex-col sm:flex-row sm:items-start gap-2 p-3 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] text-sm">

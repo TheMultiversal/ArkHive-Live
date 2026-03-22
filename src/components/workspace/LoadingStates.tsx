@@ -1,19 +1,19 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion } from'framer-motion';
 
 interface SkeletonProps {
  className?: string;
 }
 
-export function Skeleton({ className = '' }: SkeletonProps) {
+export function Skeleton({ className ='' }: SkeletonProps) {
  return (
- <div className={`animate-pulse bg-[#0a0a0a] rounded ${className}`} />
+ <div className={`animate-pulse bg-[#0a0a0a] ${className}`} />
  );
 }
 
-export function WorkspaceCardSkeleton({ viewMode = 'grid' }: { viewMode?: 'grid' | 'list' }) {
- if (viewMode === 'list') {
+export function WorkspaceCardSkeleton({ viewMode ='grid' }: { viewMode?:'grid' |'list' }) {
+ if (viewMode ==='list') {
  return (
  <div className="flex items-center gap-4 bg-[#0a0a0a] border border-white/[0.06] p-4">
  <div className="flex-1">
@@ -92,7 +92,7 @@ export function EvidenceItemSkeleton() {
 export function DocumentItemSkeleton() {
  return (
  <div className="flex items-center gap-3 p-2">
- <Skeleton className="w-8 h-8 rounded"/>
+ <Skeleton className="w-8 h-8"/>
  <div className="flex-1">
  <Skeleton className="h-3 w-40 mb-1"/>
  <Skeleton className="h-2 w-24"/>

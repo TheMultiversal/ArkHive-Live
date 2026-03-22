@@ -4,12 +4,12 @@ import investigationData from '@/data/investigations';
 export const dynamic = 'force-static';
 
 export async function GET() {
-  const allInvestigations = Object.values(investigationData);
+  const entries = Object.entries(investigationData);
 
-  const events = allInvestigations
-    .filter((inv) => inv.date)
-    .map((inv) => ({
-      slug: inv.slug,
+  const events = entries
+    .filter(([, inv]) => inv.date)
+    .map(([slug, inv]) => ({
+      slug,
       title: inv.title,
       date: inv.date,
       category: inv.category,

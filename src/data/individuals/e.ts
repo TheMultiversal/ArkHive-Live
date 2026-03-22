@@ -3235,7 +3235,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
   'eric-adams': {
-    slug: 'eric-adams',
     name: 'Eric Adams',
     title: 'Mayor of New York City (2022-present)',
     photo: '/images/individuals/eric-adams.webp',
@@ -3274,7 +3273,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
   'eric-greitens': {
-    slug: 'eric-greitens',
     name: 'Eric Greitens',
     title: 'Former Governor of Missouri (2017-2018)',
     photo: '/images/individuals/eric-greitens.webp',
@@ -3380,7 +3378,6 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'andrew-wheeler': {
     name: 'Andrew Wheeler',
-    slug: 'andrew-wheeler',
     bio: 'Andrew R. Wheeler served as the Administrator of the Environmental Protection Agency from 2019 to 2021, after serving as Acting Administrator from 2018. Before joining the EPA, Wheeler spent a decade as a coal industry lobbyist, representing Murray Energy — the largest private coal company in America — whose CEO Bob Murray had presented Trump with an "action plan" to dismantle Obama-era environmental regulations. As EPA head, Wheeler systematically implemented that plan: rolling back methane emission regulations, weakening fuel efficiency standards, relaxing coal plant pollution rules, narrowing the scope of the Waters of the United States rule, and weakening the scientific basis of EPA rulemaking by restricting which studies could be used. He is the textbook case of regulatory capture — a lobbyist appointed to dismantle the agency he once lobbied against.',
     riskLevel: 'high' as const,
     status: 'active',

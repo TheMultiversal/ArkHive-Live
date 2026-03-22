@@ -7288,7 +7288,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
   'aaron-schock': {
-    slug: 'aaron-schock',
     name: 'Aaron Schock',
     title: 'Former U.S. Representative (R-IL, 2009-2015)',
     photo: '/images/individuals/aaron-schock.webp',

@@ -20,6 +20,10 @@ import type { InvestigationData } from '@/data/investigations/types';
 export type ExportFormat = 'json' | 'csv' | 'markdown';
 export type ExportScope = 'all' | 'selected' | 'filtered';
 
+interface InvestigationWithSlug extends InvestigationData {
+  slug: string;
+}
+
 interface ExportOptions {
   format: ExportFormat;
   scope: ExportScope;
@@ -27,27 +31,30 @@ interface ExportOptions {
   includeSources: boolean;
   includeDefendants: boolean;
   includeAffiliations: boolean;
-  includeKeyFacts: boolean;
   includeStatutes: boolean;
 }
 
+function getInvestigationsWithSlugs(): InvestigationWithSlug[] {
+  return Object.entries(investigationDatabase).map(([slug, inv]) => ({ ...inv, slug }));
+}
+
 // Convert investigation to CSV row
-function investigationToCSVRow(inv: InvestigationData, includeAll: boolean): string[] {
+function investigationToCSVRow(inv: InvestigationWithSlug, includeAll: boolean): string[] {
   const row = [
     inv.slug,
     inv.title,
     inv.severity,
-    inv.status,
-    inv.description,
+    inv.category,
+    inv.summary,
     inv.lastUpdated || '',
     inv.defendants?.length.toString() || '0',
     inv.sources?.length.toString() || '0',
-    inv.keyFacts?.length.toString() || '0'
+    inv.tags?.length.toString() || '0'
   ];
 
   if (includeAll) {
     row.push(
-      inv.content?.substring(0, 500) || '',
+      inv.content?.join(' ').substring(0, 500) || '',
       inv.defendants?.map(d => d.name).join('; ') || '',
       inv.sources?.map(s => s.title || s.url).join('; ') || ''
     );
@@ -57,24 +64,16 @@ function investigationToCSVRow(inv: InvestigationData, includeAll: boolean): str
 }
 
 // Convert investigation to Markdown
-function investigationToMarkdown(inv: InvestigationData, options: ExportOptions): string {
+function investigationToMarkdown(inv: InvestigationWithSlug, options: ExportOptions): string {
   let md = `# ${inv.title}\n\n`;
   md += `**Slug:** ${inv.slug}\n`;
   md += `**Severity:** ${inv.severity.toUpperCase()}\n`;
-  md += `**Status:** ${inv.status}\n`;
+  md += `**Category:** ${inv.category}\n`;
   md += `**Last Updated:** ${inv.lastUpdated || 'Unknown'}\n\n`;
-  md += `## Description\n\n${inv.description}\n\n`;
+  md += `## Summary\n\n${inv.summary}\n\n`;
 
   if (options.includeContent && inv.content) {
-    md += `## Full Content\n\n${inv.content}\n\n`;
-  }
-
-  if (options.includeKeyFacts && inv.keyFacts && inv.keyFacts.length > 0) {
-    md += `## Key Facts\n\n`;
-    for (const fact of inv.keyFacts) {
-      md += `- ${fact}\n`;
-    }
-    md += '\n';
+    md += `## Full Content\n\n${inv.content.join('\n\n')}\n\n`;
   }
 
   if (options.includeDefendants && inv.defendants && inv.defendants.length > 0) {
@@ -99,17 +98,15 @@ function investigationToMarkdown(inv: InvestigationData, options: ExportOptions)
   if (options.includeSources && inv.sources && inv.sources.length > 0) {
     md += `## Sources (${inv.sources.length})\n\n`;
     for (const s of inv.sources) {
-      md += `- [${s.title || s.url}](${s.url})`;
-      if (s.date) md += ` (${s.date})`;
-      md += '\n';
+      md += `- [${s.title || s.url}](${s.url})\n`;
     }
     md += '\n';
   }
 
-  if (options.includeStatutes && inv.relatedStatutes && inv.relatedStatutes.length > 0) {
+  if (options.includeStatutes && inv.statutes && inv.statutes.length > 0) {
     md += `## Related Statutes\n\n`;
-    for (const statute of inv.relatedStatutes) {
-      md += `- ${statute}\n`;
+    for (const statute of inv.statutes) {
+      md += `- ${statute.code}${statute.description ? ': ' + statute.description : ''}\n`;
     }
     md += '\n';
   }
@@ -117,7 +114,7 @@ function investigationToMarkdown(inv: InvestigationData, options: ExportOptions)
   if (options.includeAffiliations && inv.affiliations && inv.affiliations.length > 0) {
     md += `## Affiliations (${inv.affiliations.length})\n\n`;
     for (const a of inv.affiliations) {
-      md += `- **${a.entityName}** (${a.entityType}): ${a.relationship}\n`;
+      md += `- **${a.name}** (${a.type}): ${a.relationship}\n`;
     }
     md += '\n';
   }
@@ -128,7 +125,7 @@ function investigationToMarkdown(inv: InvestigationData, options: ExportOptions)
 
 // Generate export file
 function generateExport(
-  investigations: InvestigationData[],
+  investigations: InvestigationWithSlug[],
   options: ExportOptions
 ): { content: string; filename: string; mimeType: string } {
   const timestamp = new Date().toISOString().split('T')[0];
@@ -140,16 +137,15 @@ function generateExport(
           slug: inv.slug,
           title: inv.title,
           severity: inv.severity,
-          status: inv.status,
-          description: inv.description,
+          category: inv.category,
+          summary: inv.summary,
           lastUpdated: inv.lastUpdated
         };
 
         if (options.includeContent) obj.content = inv.content;
-        if (options.includeKeyFacts) obj.keyFacts = inv.keyFacts;
         if (options.includeDefendants) obj.defendants = inv.defendants;
         if (options.includeSources) obj.sources = inv.sources;
-        if (options.includeStatutes) obj.relatedStatutes = inv.relatedStatutes;
+        if (options.includeStatutes) obj.statutes = inv.statutes;
         if (options.includeAffiliations) obj.affiliations = inv.affiliations;
 
         return obj;
@@ -164,8 +160,8 @@ function generateExport(
 
     case 'csv': {
       const headers = [
-        'Slug', 'Title', 'Severity', 'Status', 'Description', 
-        'Last Updated', 'Defendant Count', 'Source Count', 'Key Facts Count'
+        'Slug', 'Title', 'Severity', 'Category', 'Summary', 
+        'Last Updated', 'Defendant Count', 'Source Count', 'Tag Count'
       ];
 
       if (options.includeContent) {
@@ -240,7 +236,6 @@ export function DataExporter() {
     includeSources: true,
     includeDefendants: true,
     includeAffiliations: true,
-    includeKeyFacts: true,
     includeStatutes: true
   });
 
@@ -248,7 +243,7 @@ export function DataExporter() {
   const [severityFilter, setSeverityFilter] = useState<string>('all');
   const [isExporting, setIsExporting] = useState(false);
 
-  const investigations = useMemo(() => Object.values(investigationDatabase), []);
+  const investigations = useMemo(() => getInvestigationsWithSlugs(), []);
 
   // Apply filters
   const filteredInvestigations = useMemo(() => {
@@ -384,7 +379,6 @@ export function DataExporter() {
             <div className="space-y-2">
               {[
                 { key: 'includeKeyFacts', label: 'Key Facts' },
-                { key: 'includeDefendants', label: 'Defendants' },
                 { key: 'includeSources', label: 'Sources' },
                 { key: 'includeStatutes', label: 'Related Statutes' },
                 { key: 'includeAffiliations', label: 'Affiliations' },
@@ -493,7 +487,7 @@ export function DataExporter() {
                       {inv.severity}
                     </span>
                     <span>·</span>
-                    <span>{inv.status}</span>
+                    <span>{inv.category}</span>
                   </div>
                 </div>
               </button>
@@ -520,7 +514,7 @@ export function DataExporter() {
 }
 
 // Quick export button for single investigation
-export function QuickExportButton({ investigation }: { investigation: InvestigationData }) {
+export function QuickExportButton({ slug, investigation }: { slug: string; investigation: InvestigationData }) {
   const handleQuickExport = (format: ExportFormat) => {
     const options: ExportOptions = {
       format,
@@ -529,11 +523,10 @@ export function QuickExportButton({ investigation }: { investigation: Investigat
       includeSources: true,
       includeDefendants: true,
       includeAffiliations: true,
-      includeKeyFacts: true,
       includeStatutes: true
     };
 
-    const { content, filename, mimeType } = generateExport([investigation], options);
+    const { content, filename, mimeType } = generateExport([{ ...investigation, slug }], options);
     downloadFile(content, filename, mimeType);
   };
 

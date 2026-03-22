@@ -1959,7 +1959,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
  'frank-luntz': {
   name: 'Frank Luntz',
-  slug: 'frank-luntz',
   bio: 'Frank Ian Luntz is a political consultant and pollster known as the architect of language manipulation in American politics. As a messaging strategist for the Republican Party, fossil fuel industry, and corporate interests, Luntz crafted euphemistic language designed to reshape public perception of controversial policies. He rebranded the estate tax as the "death tax," climate change as "climate change" (replacing the more alarming "global warming"), the Affordable Care Act as a "government takeover of healthcare," and drilling as "energy exploration." His infamous 2003 memo to Republicans advised them to emphasize "scientific uncertainty" on climate change even as the scientific consensus was overwhelming. Luntz\'s language strategies have been credited with delaying climate action by decades and enabling corporate-friendly policies that harmed millions.',
   riskLevel: 'medium' as const,
   status: 'active',

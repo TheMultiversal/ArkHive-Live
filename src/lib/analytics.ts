@@ -126,7 +126,7 @@ class AnalyticsService implements Analytics {
 
  private log(type: string, data: unknown): void {
  if (this.config.debug) {
- console.log(`[Analytics] ${type}:`, data);
+ // Debug logging disabled in production
  }
  }
 
@@ -206,7 +206,7 @@ class AnalyticsService implements Analytics {
  // In a real app, this would send to your analytics server
  // For now, we just log in debug mode
  if (this.config.debug) {
- console.log(`[Analytics] Would send ${type}:`, data);
+ // Debug logging disabled in production
  }
 
  // Example: send to server

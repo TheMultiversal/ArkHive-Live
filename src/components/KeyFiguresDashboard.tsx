@@ -30,6 +30,7 @@ export interface KeyFigure {
   role: string;
   party?: string;
   investigations: {
+    slug: string;
     investigation: InvestigationData;
     role: string;
     context?: string;
@@ -56,7 +57,7 @@ function normalizeName(name: string): string {
 function extractKeyFigures(): KeyFigure[] {
   const figureMap: Record<string, KeyFigure> = {};
 
-  for (const investigation of Object.values(investigationDatabase)) {
+  for (const [slug, investigation] of Object.entries(investigationDatabase)) {
     // Extract from defendants
     if (investigation.defendants) {
       for (const defendant of investigation.defendants) {
@@ -92,10 +93,11 @@ function extractKeyFigures(): KeyFigure[] {
 
         // Add investigation link
         const existingInv = figureMap[normalized].investigations.find(
-          i => i.investigation.slug === investigation.slug
+          i => i.slug === slug
         );
         if (!existingInv) {
           figureMap[normalized].investigations.push({
+            slug,
             investigation,
             role: defendant.role,
             context: defendant.notes
@@ -107,12 +109,12 @@ function extractKeyFigures(): KeyFigure[] {
     // Extract from affiliations
     if (investigation.affiliations) {
       for (const affiliation of investigation.affiliations) {
-        if (affiliation.entityType === 'individual') {
-          const normalized = normalizeName(affiliation.entityName);
+        if (affiliation.type === 'individual') {
+          const normalized = normalizeName(affiliation.name);
           
           if (!figureMap[normalized]) {
             figureMap[normalized] = {
-              name: affiliation.entityName,
+              name: affiliation.name,
               normalizedName: normalized,
               role: affiliation.relationship || 'Key Figure',
               investigations: [],
@@ -128,13 +130,14 @@ function extractKeyFigures(): KeyFigure[] {
           figureMap[normalized].affiliations++;
 
           const existingInv = figureMap[normalized].investigations.find(
-            i => i.investigation.slug === investigation.slug
+            i => i.slug === slug
           );
           if (!existingInv) {
             figureMap[normalized].investigations.push({
+              slug,
               investigation,
               role: affiliation.relationship || 'Related',
-              context: affiliation.description
+              context: affiliation.relationship
             });
           }
         }
@@ -170,10 +173,11 @@ function extractKeyFigures(): KeyFigure[] {
         }
 
         const existingInv = figureMap[normalized].investigations.find(
-          i => i.investigation.slug === investigation.slug
+          i => i.slug === slug
         );
         if (!existingInv) {
           figureMap[normalized].investigations.push({
+            slug,
             investigation,
             role: 'Mentioned',
             context: undefined
@@ -497,10 +501,10 @@ export function KeyFiguresDashboard() {
               Related Investigations ({selectedFigure.investigations.length})
             </h4>
             <div className="space-y-2">
-              {selectedFigure.investigations.map(({ investigation, role, context }) => (
+              {selectedFigure.investigations.map(({ slug, investigation, role, context }) => (
                 <Link
-                  key={investigation.slug}
-                  href={`/investigations/${investigation.slug}`}
+                  key={slug}
+                  href={`/investigations/${slug}`}
                   className="block p-3 bg-zinc-900/50 border border-zinc-800 hover:border-zinc-600 transition-colors"
                 >
                   <div className="flex items-center justify-between">

@@ -7,11 +7,6 @@ const nextConfig: NextConfig = {
   // Customize powered by header
   poweredByHeader: false,
 
-  // Bypass TypeScript errors during build to unblock deployment
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-
   images: {
     remotePatterns: [
       {

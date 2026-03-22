@@ -29,6 +29,25 @@ export interface TimelineEvent {
   type?: 'critical' | 'legal' | 'political' | 'financial' | 'default';
 }
 
+export type ConvictionStatus = 'convicted' | 'indicted' | 'charged' | 'acquitted' | 'pardoned' | 'pending' | 'settled' | 'appealing' | 'incarcerated' | 'released';
+
+export interface Defendant {
+  name: string;
+  role: string;
+  status: ConvictionStatus;
+  charges?: string[];
+  sentence?: string;
+  fine?: string;
+  restitution?: string;
+  indictmentDate?: string;
+  convictionDate?: string;
+  releaseDate?: string;
+  pardonDate?: string;
+  pardonedBy?: string;
+  appealStatus?: 'pending' | 'granted' | 'denied' | 'withdrawn';
+  notes?: string;
+}
+
 export interface InvestigationData {
   title: string;
   subtitle: string;
@@ -51,4 +70,6 @@ export interface InvestigationData {
   moneyTrail?: MoneyTransaction[];
   // Related federal statutes
   statutes?: { code: string; description?: string }[];
+  // Defendants tracked for conviction data
+  defendants?: Defendant[];
 }

@@ -2469,7 +2469,6 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'peter-thiel': {
     name: 'Peter Thiel',
-    slug: 'peter-thiel',
     bio: 'Peter Andreas Thiel is a billionaire venture capitalist, co-founder of PayPal and Palantir Technologies, and one of the most influential political donors in Silicon Valley. Palantir, which Thiel co-founded with $2 million in CIA venture capital funding, provides data analytics to the NSA, CIA, FBI, ICE, and military intelligence agencies. The company\'s software was used by ICE to track and deport immigrants, by the NSA for mass surveillance analysis, and by the Pentagon for targeting in drone strikes. Thiel was the first major tech figure to endorse Donald Trump (2016), spending $15 million supporting the campaign. He funded the Hulk Hogan v. Gawker lawsuit that bankrupted the media outlet in what critics characterized as a billionaire\'s revenge against a free press. His political protegés include J.D. Vance (Vice President) and Blake Masters.',
     riskLevel: 'high' as const,
     status: 'active',

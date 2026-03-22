@@ -943,7 +943,8 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'NY Fraud Trial Testimony', url: 'https://scholar.google.com/scholar?q=NY%20Fraud%20Trial%20Testimony', date: '2023' },
  ],
- },
+ },
+
 
  'richard-spencer': {
  name: 'Richard Spencer',
@@ -1578,7 +1579,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Condoleezza Rice', relationship: 'National Security Advisor', href: '/entities/individuals/condoleezza-rice' },
  { name: 'Scooter Libby', relationship: 'Co-leaker who was prosecuted', href: '/entities/individuals/scooter-libby' },
  ],
- },
+ },
+
 
 
 
@@ -6409,7 +6411,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
   'robert-bentley': {
-    slug: 'robert-bentley',
     name: 'Robert Bentley',
     title: 'Former Governor of Alabama (2011-2017)',
     photo: '/images/individuals/robert-bentley.webp',
@@ -6445,7 +6446,6 @@ const profiles: Record<string, IndividualProfile> = {
     ],
   },
   'ralph-shortey': {
-    slug: 'ralph-shortey',
     name: 'Ralph Shortey',
     title: 'Former Oklahoma State Senator (R, 2010-2017)',
     photo: '/images/individuals/ralph-shortey.webp',
@@ -6646,7 +6646,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Vladimir Putin', relationship: 'Russian president who awarded Tillerson Order of Friendship for Exxon-Rosneft partnership' },
       { name: 'Donald Trump', relationship: 'President who appointed and later fired Tillerson as Secretary of State', href: '/entities/individuals/donald-trump' },
     ],
-  },  'ryan-zinke': {
+  },
+  'ryan-zinke': {
     name: 'Ryan Zinke',
     title: 'Former Secretary of the Interior',
     role: 'Public Lands Selloff Architect with Ethics Violations',

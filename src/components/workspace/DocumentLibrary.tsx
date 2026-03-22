@@ -1,7 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState } from'react';
+import { motion } from'framer-motion';
 import { 
  FileText, 
  Download, 
@@ -20,19 +20,19 @@ import {
  X,
  Check,
  FolderOpen
-} from 'lucide-react';
-import { WorkspaceDocument } from '@/types/workspace';
+} from'lucide-react';
+import { WorkspaceDocument } from'@/types/workspace';
 
 interface DocumentLibraryProps {
  documents: WorkspaceDocument[];
- onUpload?: (doc: Omit<WorkspaceDocument, 'id' | 'uploadedAt'>) => void;
+ onUpload?: (doc: Omit<WorkspaceDocument,'id' |'uploadedAt'>) => void;
 }
 
 export default function DocumentLibrary({ documents, onUpload }: DocumentLibraryProps) {
  const [searchQuery, setSearchQuery] = useState('');
  const [selectedFolder, setSelectedFolder] = useState<string | null>(null);
  const [showUploadModal, setShowUploadModal] = useState(false);
- const [viewMode, setViewMode] = useState<'list' | 'grid'>('list');
+ const [viewMode, setViewMode] = useState<'list' |'grid'>('list');
 
  const getFileIcon = (type: string) => {
  if (type.includes('image')) return <ImageIcon className="w-4 h-4"/>;
@@ -57,7 +57,7 @@ export default function DocumentLibrary({ documents, onUpload }: DocumentLibrary
  });
 
  const groupedByFolder = filteredDocuments.reduce((acc, doc) => {
- const folder = doc.folder || 'Uncategorized';
+ const folder = doc.folder ||'Uncategorized';
  if (!acc[folder]) acc[folder] = [];
  acc[folder].push(doc);
  return acc;
@@ -70,13 +70,13 @@ export default function DocumentLibrary({ documents, onUpload }: DocumentLibrary
  <div className="flex items-center justify-between mb-3">
  <div className="flex items-center gap-2">
  <h3 className="text-xs font-medium text-white/50 uppercase tracking-widest">Documents</h3>
- <span className="text-[10px] text-white/25 px-1.5 py-0.5 bg-[#0a0a0a] rounded">
+ <span className="text-[10px] text-white/25 px-1.5 py-0.5 bg-[#0a0a0a]">
  {documents.length}
  </span>
  </div>
  <button
  onClick={() => setShowUploadModal(true)}
- className="flex items-center gap-1 px-2 py-1 bg-zinc-800 text-zinc-400/80 rounded text-[10px] font-medium hover:bg-zinc-800 transition-colors"
+ className="flex items-center gap-1 px-2 py-1 bg-zinc-800 text-zinc-400/80 text-[10px] font-medium hover:bg-zinc-800 transition-colors"
  aria-label="Upload document"
  >
  <Upload className="w-3 h-3"aria-hidden="true"/>
@@ -92,7 +92,7 @@ export default function DocumentLibrary({ documents, onUpload }: DocumentLibrary
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
  aria-label="Search documents"
- className="w-full pl-7 pr-3 py-1.5 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full pl-7 pr-3 py-1.5 bg-[#0a0a0a] border border-white/[0.06] text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
  </div>
@@ -108,8 +108,8 @@ export default function DocumentLibrary({ documents, onUpload }: DocumentLibrary
  onClick={() => setSelectedFolder(null)}
  role="tab"
  aria-selected={!selectedFolder}
- className={`flex items-center gap-1 px-2 py-1 rounded text-[10px] transition-colors shrink-0 ${
- !selectedFolder ? 'bg-white/[0.06] text-white/50' : 'text-white/25 hover:text-white/40'
+ className={`flex items-center gap-1 px-2 py-1 text-[10px] transition-colors shrink-0 ${
+ !selectedFolder ?'bg-white/[0.06] text-white/50' :'text-white/25 hover:text-white/40'
  }`}
  >
  <FolderOpen className="w-3 h-3"aria-hidden="true"/>
@@ -121,8 +121,8 @@ export default function DocumentLibrary({ documents, onUpload }: DocumentLibrary
  onClick={() => setSelectedFolder(folder)}
  role="tab"
  aria-selected={selectedFolder === folder}
- className={`flex items-center gap-1 px-2 py-1 rounded text-[10px] transition-colors shrink-0 ${
- selectedFolder === folder ? 'bg-white/[0.06] text-white/50' : 'text-white/25 hover:text-white/40'
+ className={`flex items-center gap-1 px-2 py-1 text-[10px] transition-colors shrink-0 ${
+ selectedFolder === folder ?'bg-white/[0.06] text-white/50' :'text-white/25 hover:text-white/40'
  }`}
  >
  <Folder className="w-3 h-3"aria-hidden="true"/>
@@ -205,11 +205,11 @@ function DocumentItem({ document, index, getFileIcon, formatFileSize }: Document
  initial={{ opacity: 0, x: -4 }}
  animate={{ opacity: 1, x: 0 }}
  transition={{ delay: index * 0.02 }}
- className="group flex items-center gap-3 p-2 rounded hover:bg-[#0a0a0a] transition-colors cursor-pointer"
+ className="group flex items-center gap-3 p-2 hover:bg-[#0a0a0a] transition-colors cursor-pointer"
  onMouseEnter={() => setShowActions(true)}
  onMouseLeave={() => setShowActions(false)}
  >
- <div className="w-8 h-8 rounded bg-[#0a0a0a] flex items-center justify-center text-white/25">
+ <div className="w-8 h-8 bg-[#0a0a0a] flex items-center justify-center text-white/25">
  {getFileIcon(document.type)}
  </div>
  
@@ -222,9 +222,9 @@ function DocumentItem({ document, index, getFileIcon, formatFileSize }: Document
  </div>
  </div>
 
- <div className={`flex items-center gap-1 transition-opacity ${showActions ? 'opacity-100' : 'opacity-0'}`}>
+ <div className={`flex items-center gap-1 transition-opacity ${showActions ?'opacity-100' :'opacity-0'}`}>
  <button 
- className="p-1.5 rounded hover:bg-white/[0.04] text-white/25 hover:text-white/40 transition-colors"
+ className="p-1.5 hover:bg-white/[0.04] text-white/25 hover:text-white/40 transition-colors"
  aria-label={`Download ${document.name}`}
  onClick={(e) => {
  e.stopPropagation();
@@ -233,19 +233,19 @@ function DocumentItem({ document, index, getFileIcon, formatFileSize }: Document
  `Document: ${document.name}`,
  `Type: ${document.type}`,
  `Size: ${formatFileSize(document.size)}`,
- `Uploaded by: ${document.uploadedByName || 'Unknown'}`,
+ `Uploaded by: ${document.uploadedByName ||'Unknown'}`,
  `Date: ${new Date(document.uploadedAt).toLocaleDateString()}`,
- `Category: ${document.category || 'General'}`,
- document.description ? `Description: ${document.description}` : '',
- '',
- 'This is a placeholder document from the ArkHive workspace.',
- 'In a production environment, this would contain the actual file contents.',
+ `Category: ${document.category ||'General'}`,
+ document.description ? `Description: ${document.description}` :'',
+'',
+'This is a placeholder document from the ArkHive workspace.',
+'In a production environment, this would contain the actual file contents.',
  ].filter(Boolean).join('\n');
- const blob = new Blob([content], { type: 'text/plain' });
+ const blob = new Blob([content], { type:'text/plain' });
  const url = URL.createObjectURL(blob);
  const a = window.document.createElement('a');
  a.href = url;
- a.download = document.name.replace(/\.[^.]+$/, '') + '.txt';
+ a.download = document.name.replace(/\.[^.]+$/,'') +'.txt';
  window.document.body.appendChild(a);
  a.click();
  window.document.body.removeChild(a);
@@ -255,7 +255,7 @@ function DocumentItem({ document, index, getFileIcon, formatFileSize }: Document
  <Download className="w-3 h-3"aria-hidden="true"/>
  </button>
  <button 
- className="p-1.5 rounded hover:bg-white/[0.04] text-white/25 hover:text-white/40 transition-colors"
+ className="p-1.5 hover:bg-white/[0.04] text-white/25 hover:text-white/40 transition-colors"
  aria-label={`More options for ${document.name}`}
  >
  <MoreHorizontal className="w-3 h-3"aria-hidden="true"/>
@@ -267,7 +267,7 @@ function DocumentItem({ document, index, getFileIcon, formatFileSize }: Document
 
 interface UploadModalProps {
  onClose: () => void;
- onUpload: (doc: Omit<WorkspaceDocument, 'id' | 'uploadedAt'>) => void;
+ onUpload: (doc: Omit<WorkspaceDocument,'id' |'uploadedAt'>) => void;
  folders: string[];
 }
 
@@ -291,13 +291,13 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
 
  onUpload({
  name: name.trim(),
- type: selectedFile?.type || 'application/pdf',
+ type: selectedFile?.type ||'application/pdf',
  size: selectedFile?.size || Math.floor(Math.random() * 5000000) + 100000,
- url: selectedFile ? URL.createObjectURL(selectedFile) : '#',
- uploadedBy: '1',
- uploadedByName: 'You',
+ url: selectedFile ? URL.createObjectURL(selectedFile) :'#',
+ uploadedBy:'1',
+ uploadedByName:'You',
  folder: newFolder.trim() || folder || undefined,
- category: 'general',
+ category:'general',
  downloads: 0,
  isPublic: false,
  });
@@ -328,7 +328,7 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  {/* Drop Zone */}
  <div
  className={`border-2 border-dashed p-6 text-center mb-4 transition-colors cursor-pointer ${
- isDragging ? 'border-zinc-600/50 bg-zinc-900' : 'border-white/[0.08] hover:border-white/[0.12]'
+ isDragging ?'border-zinc-600/50 bg-zinc-900' :'border-white/[0.08] hover:border-white/[0.12]'
  }`}
  onDragOver={(e) => { e.preventDefault(); setIsDragging(true); }}
  onDragLeave={() => setIsDragging(false)}
@@ -340,8 +340,8 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  }}
  onClick={() => {
  const input = window.document.createElement('input');
- input.type = 'file';
- input.accept = '.pdf,.doc,.docx,.xls,.xlsx,.csv,.txt,.png,.jpg,.jpeg,.gif,.zip';
+ input.type ='file';
+ input.accept ='.pdf,.doc,.docx,.xls,.xlsx,.csv,.txt,.png,.jpg,.jpeg,.gif,.zip';
  input.onchange = (ev) => {
  const file = (ev.target as HTMLInputElement).files?.[0];
  if (file) handleFileSelect(file);
@@ -371,7 +371,7 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  value={name}
  onChange={(e) => setName(e.target.value)}
  placeholder="Document name..."
- className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  required
  />
  </div>
@@ -381,7 +381,7 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  <select
  value={folder}
  onChange={(e) => setFolder(e.target.value)}
- className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/50 focus:outline-none cursor-pointer mb-2"
+ className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] text-[11px] text-white/50 focus:outline-none cursor-pointer mb-2"
  >
  <option value=""className="bg-[#0a0a0a]">Select folder...</option>
  {folders.map(f => (
@@ -393,7 +393,7 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  value={newFolder}
  onChange={(e) => setNewFolder(e.target.value)}
  placeholder="Or create new folder..."
- className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
 
@@ -401,13 +401,13 @@ function UploadModal({ onClose, onUpload, folders }: UploadModalProps) {
  <button
  type="button"
  onClick={onClose}
- className="flex-1 px-3 py-2 bg-[#0a0a0a] text-white/40 rounded text-[11px] font-medium hover:bg-[#0d0d0d] transition-colors"
+ className="flex-1 px-3 py-2 bg-[#0a0a0a] text-white/40 text-[11px] font-medium hover:bg-[#0d0d0d] transition-colors"
  >
  Cancel
  </button>
  <button
  type="submit"
- className="flex-1 px-3 py-2 bg-zinc-800 text-zinc-400/80 rounded text-[11px] font-medium hover:bg-zinc-800 transition-colors"
+ className="flex-1 px-3 py-2 bg-zinc-800 text-zinc-400/80 text-[11px] font-medium hover:bg-zinc-800 transition-colors"
  >
  Upload
  </button>

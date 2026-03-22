@@ -111,8 +111,7 @@ function buildEvidenceChains(): EvidenceChain[] {
               claim: sentence.slice(0, 300) + (sentence.length > 300 ? '...' : ''),
               claimSource: inv.title,
               evidence: evidenceItems,
-              confidence: relevantSources.length >= 2 ? 'corroborated' : 
-                         relevantSources.some(s => s.credibility === 'primary') ? 'verified' : 'single-source',
+              confidence: relevantSources.length >= 2 ? 'corroborated' : 'single-source',
             });
           }
         }
@@ -215,11 +214,6 @@ function EvidenceChainCard({ chain, isExpanded, onToggle }: EvidenceChainCardPro
                       </a>
                       <div className="flex items-center gap-2 mt-1 text-xs text-zinc-500">
                         <span>{item.source.type}</span>
-                        {item.source.credibility && (
-                          <span className="px-1.5 py-0.5 bg-zinc-800">
-                            {item.source.credibility}
-                          </span>
-                        )}
                       </div>
                     </div>
                   </div>

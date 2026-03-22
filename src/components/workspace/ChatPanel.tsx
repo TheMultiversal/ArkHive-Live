@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useRef, useEffect } from'react';
+import { motion, AnimatePresence } from'framer-motion';
 import { 
  Send, 
  Paperclip, 
@@ -9,9 +9,9 @@ import {
  Reply, 
  MoreHorizontal,
  ChevronDown
-} from 'lucide-react';
-import { WorkspaceMessage, WorkspaceMember } from '@/types/workspace';
-import { useWorkspaceStore } from '@/store/workspaceStore';
+} from'lucide-react';
+import { WorkspaceMessage, WorkspaceMember } from'@/types/workspace';
+import { useWorkspaceStore } from'@/store/workspaceStore';
 
 interface ChatPanelProps {
  workspaceId: string;
@@ -20,7 +20,7 @@ interface ChatPanelProps {
  currentUserId?: string;
 }
 
-export default function ChatPanel({ workspaceId, messages, members, currentUserId = '1' }: ChatPanelProps) {
+export default function ChatPanel({ workspaceId, messages, members, currentUserId ='1' }: ChatPanelProps) {
  const [newMessage, setNewMessage] = useState('');
  const [replyingTo, setReplyingTo] = useState<string | null>(null);
  const [showPinnedMessages, setShowPinnedMessages] = useState(false);
@@ -30,13 +30,13 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  const pinnedMessages = messages.filter(m => m.isPinned);
 
  useEffect(() => {
- messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+ messagesEndRef.current?.scrollIntoView({ behavior:'smooth' });
  }, [messages]);
 
  const formatTime = (date: Date) => {
  return new Date(date).toLocaleTimeString('en-US', { 
- hour: '2-digit', 
- minute: '2-digit' 
+ hour:'2-digit', 
+ minute:'2-digit' 
  });
  };
 
@@ -44,13 +44,13 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  const today = new Date();
  const msgDate = new Date(date);
  
- if (msgDate.toDateString() === today.toDateString()) return 'Today';
+ if (msgDate.toDateString() === today.toDateString()) return'Today';
  
  const yesterday = new Date(today);
  yesterday.setDate(yesterday.getDate() - 1);
- if (msgDate.toDateString() === yesterday.toDateString()) return 'Yesterday';
+ if (msgDate.toDateString() === yesterday.toDateString()) return'Yesterday';
  
- return msgDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+ return msgDate.toLocaleDateString('en-US', { month:'short', day:'numeric' });
  };
 
  const handleSendMessage = () => {
@@ -59,9 +59,9 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  
  addMessage(workspaceId, {
  authorId: currentUserId,
- authorName: currentMember?.name || 'Anonymous',
+ authorName: currentMember?.name ||'Anonymous',
  content: newMessage,
- type: 'text',
+ type:'text',
  replyTo: replyingTo || undefined,
  });
 
@@ -70,7 +70,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  };
 
  const handleKeyPress = (e: React.KeyboardEvent) => {
- if (e.key === 'Enter' && !e.shiftKey) {
+ if (e.key ==='Enter' && !e.shiftKey) {
  e.preventDefault();
  handleSendMessage();
  }
@@ -95,28 +95,28 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  className="w-full bg-zinc-900 border-b border-zinc-800 px-4 py-2 cursor-pointer hover:bg-zinc-800/80 transition-colors text-left"
  onClick={() => setShowPinnedMessages(!showPinnedMessages)}
  aria-expanded={showPinnedMessages}
- aria-label={`${pinnedMessages.length} pinned messages. Click to ${showPinnedMessages ? 'hide' : 'show'}`}
+ aria-label={`${pinnedMessages.length} pinned messages. Click to ${showPinnedMessages ?'hide' :'show'}`}
  >
  <div className="flex items-center justify-between">
  <div className="flex items-center gap-2 text-xs text-zinc-400/80">
  <Pin className="w-3 h-3"aria-hidden="true"/>
  <span>{pinnedMessages.length} pinned</span>
  </div>
- <ChevronDown className={`w-3 h-3 text-zinc-400/60 transition-transform ${showPinnedMessages ? 'rotate-180' : ''}`} aria-hidden="true"/>
+ <ChevronDown className={`w-3 h-3 text-zinc-400/60 transition-transform ${showPinnedMessages ?'rotate-180' :''}`} aria-hidden="true"/>
  </div>
  
  <AnimatePresence>
  {showPinnedMessages && (
  <motion.div
  initial={{ height: 0, opacity: 0 }}
- animate={{ height: 'auto', opacity: 1 }}
+ animate={{ height:'auto', opacity: 1 }}
  exit={{ height: 0, opacity: 0 }}
  className="mt-2 space-y-1 overflow-hidden"
  role="list"
  aria-label="Pinned messages"
  >
  {pinnedMessages.map(msg => (
- <div key={msg.id} className="bg-black/30 rounded px-2 py-1.5 text-xs"role="listitem">
+ <div key={msg.id} className="bg-black/30 px-2 py-1.5 text-xs"role="listitem">
  <span className="text-white/50">{msg.authorName}: </span>
  <span className="text-white/70">{msg.content}</span>
  </div>
@@ -149,14 +149,14 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  initial={{ opacity: 0, y: 8 }}
  animate={{ opacity: 1, y: 0 }}
  transition={{ delay: index * 0.015 }}
- className={`group ${message.type === 'system' ? 'flex justify-center' : ''}`}
+ className={`group ${message.type ==='system' ?'flex justify-center' :''}`}
  >
- {message.type === 'system' ? (
- <div className="px-3 py-1.5 bg-[#0a0a0a] rounded text-[11px] text-white/30 italic">
+ {message.type ==='system' ? (
+ <div className="px-3 py-1.5 bg-[#0a0a0a] text-[11px] text-white/30 italic">
  {message.content}
  </div>
  ) : (
- <div className="flex gap-2.5 py-1 px-2 -mx-2 rounded hover:bg-white/[0.015] transition-colors">
+ <div className="flex gap-2.5 py-1 px-2 -mx-2 hover:bg-white/[0.015] transition-colors">
  <div className="flex-shrink-0 pt-0.5">
  <div className="w-7 h-7 bg-zinc-800 flex items-center justify-center text-[10px] font-medium text-white/50">
  {message.authorName.charAt(0)}
@@ -184,21 +184,21 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
 
  <div className="opacity-0 group-hover:opacity-100 transition-opacity flex items-start gap-0.5 pt-1">
  <button 
- className="p-1 hover:bg-[#0d0d0d] rounded text-white/20 hover:text-white/40 transition-colors"
+ className="p-1 hover:bg-[#0d0d0d] text-white/20 hover:text-white/40 transition-colors"
  onClick={() => setReplyingTo(message.id)}
  aria-label={`Reply to ${message.authorName}'s message`}
  >
  <Reply className="w-3 h-3"aria-hidden="true"/>
  </button>
  <button 
- className="p-1 hover:bg-[#0d0d0d] rounded text-white/20 hover:text-white/60 transition-colors"
+ className="p-1 hover:bg-[#0d0d0d] text-white/20 hover:text-white/60 transition-colors"
  onClick={() => pinMessage(workspaceId, message.id)}
- aria-label={`${message.isPinned ? 'Unpin' : 'Pin'} message`}
+ aria-label={`${message.isPinned ?'Unpin' :'Pin'} message`}
  >
  <Pin className="w-3 h-3"aria-hidden="true"/>
  </button>
  <button 
- className="p-1 hover:bg-[#0d0d0d] rounded text-white/20 hover:text-white/40 transition-colors"
+ className="p-1 hover:bg-[#0d0d0d] text-white/20 hover:text-white/40 transition-colors"
  aria-label="More options"
  >
  <MoreHorizontal className="w-3 h-3"aria-hidden="true"/>
@@ -219,7 +219,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  {replyingTo && (
  <motion.div
  initial={{ height: 0, opacity: 0 }}
- animate={{ height: 'auto', opacity: 1 }}
+ animate={{ height:'auto', opacity: 1 }}
  exit={{ height: 0, opacity: 0 }}
  className="px-4 py-2 bg-zinc-900 border-t border-zinc-800"
  >
@@ -254,7 +254,7 @@ export default function ChatPanel({ workspaceId, messages, members, currentUserI
  />
  <div className="flex items-center px-2 pb-2">
  <button 
- className="p-1.5 hover:bg-white/[0.04] rounded text-white/20 hover:text-white/40 transition-colors"
+ className="p-1.5 hover:bg-white/[0.04] text-white/20 hover:text-white/40 transition-colors"
  aria-label="Attach file"
  >
  <Paperclip className="w-3.5 h-3.5"aria-hidden="true"/>

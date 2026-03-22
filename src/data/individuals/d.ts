@@ -1868,7 +1868,8 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Rick Snyder', relationship: 'Governor who appointed him', href: '/entities/individuals/rick-snyder' },
  ],
- },
+ },
+
 
  'daniel-elwell': {
  name: 'Daniel Elwell',
@@ -2292,7 +2293,8 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
+ },
+
 
 
 
@@ -4189,7 +4191,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Harry Markopolos', relationship: 'Whistleblower whose Madoff warnings Kotz investigated SEC for ignoring', href: '/entities/individuals/harry-markopolos' },
  { name: 'Bernie Madoff', relationship: 'SEC Inspector General who investigated agency failure to catch Madoff', href: '/entities/individuals/bernie-madoff' },
  ],
- },
+ },
+
 
 
 
@@ -6464,7 +6467,6 @@ const profiles: Record<string, IndividualProfile> = {
   },
   'david-petraeus': {
     name: 'David Petraeus',
-    slug: 'david-petraeus',
     bio: 'David Howell Petraeus is a retired four-star Army general who served as Commander of U.S. Central Command, Commander of forces in Iraq and Afghanistan, and Director of the CIA (2011-2012). He resigned from the CIA after an FBI investigation revealed he had shared classified information, including the identities of covert officers and war strategy documents, with his biographer and mistress Paula Broadwell. Despite the severity of the leak — which included the names of covert operatives, information more sensitive than anything Edward Snowden disclosed according to some analysts — Petraeus was allowed to plead guilty to a single misdemeanor and received no prison time. The disparity between his treatment and that of lower-ranking service members and whistleblowers who received years in prison for similar or lesser offenses became a landmark example of the two-tiered justice system.',
     riskLevel: 'high' as const,
     status: 'active',

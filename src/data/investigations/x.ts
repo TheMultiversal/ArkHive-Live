@@ -72,8 +72,8 @@ const investigations_x: Record<string, InvestigationData> = {
    timeline: [
      { date: '2011', event: 'Concepcion (2011) and American Express v', type: 'default' },
      { date: '2013', event: 'Italian Colors (2013), decisions that Justice Kagan warned would enable companies to insulate themselves from all private enforcement', type: 'default' },
-     { date: '2022', event: 'Congress responded with the Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act of 2022, which exempted those specific claims, but left all other employment disputes subject to ma...', type: 'political' },
-     { date: '2022', event: 'Proposals to require arbitration transparency, expand the 2022 exemption to all employment claims, and ban pre-dispute arbitration agreements in consumer contracts have been introduced repeatedly i...', type: 'default' },
+     { date: '2022', event: 'Congress responded with the Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act of 2022, which exempted those specific claims, but left all other employment disputes subject to ma', type: 'political' },
+     { date: '2022', event: 'Proposals to require arbitration transparency, expand the 2022 exemption to all employment claims, and ban pre-dispute arbitration agreements in consumer contracts have been introduced repeatedly i', type: 'default' },
    ],
   },
 };

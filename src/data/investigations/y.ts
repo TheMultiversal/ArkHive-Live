@@ -42,7 +42,7 @@ const investigations_y: Record<string, InvestigationData> = {
    timeline: [
      { date: '2015', event: 'An estimated 85,000 children under five died from hunger and disease between 2015 and 2018 alone', type: 'critical' },
      { date: '2015-03-01', event: 'The Saudi-led coalition began its air campaign in Yemen in March 2015, intervening in a civil war between the internationally recognized government and Houthi rebels', type: 'political' },
-     { date: '2018', event: 'The United States provided critical support for the Saudi campaign including: precision-guided munitions (over $110 billion in arms sales to Saudi Arabia under the Obama and Trump administrations),...', type: 'political' },
+     { date: '2018', event: 'The United States provided critical support for the Saudi campaign including: precision-guided munitions (over $110 billion in arms sales to Saudi Arabia under the Obama and Trump administrations),', type: 'political' },
      { date: '2021', event: 'The UN Human Rights Council established a Group of Eminent Experts to investigate war crimes in Yemen, but Saudi Arabia successfully lobbied to end the investigation in 2021', type: 'default' },
    ],
  },

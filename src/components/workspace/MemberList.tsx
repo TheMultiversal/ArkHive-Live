@@ -1,7 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState } from'react';
+import { motion } from'framer-motion';
 import { 
  Crown, 
  Shield, 
@@ -11,24 +11,24 @@ import {
  MoreHorizontal,
  Clock,
  ChevronDown
-} from 'lucide-react';
-import { WorkspaceMember, WorkspaceRole } from '@/types/workspace';
+} from'lucide-react';
+import { WorkspaceMember, WorkspaceRole } from'@/types/workspace';
 
 interface MemberListProps {
  members: WorkspaceMember[];
  currentUserId?: string;
 }
 
-export default function MemberList({ members, currentUserId = '1' }: MemberListProps) {
+export default function MemberList({ members, currentUserId ='1' }: MemberListProps) {
  const [searchQuery, setSearchQuery] = useState('');
  const [showOffline, setShowOffline] = useState(true);
 
  const getRoleIcon = (role: WorkspaceRole) => {
  switch (role) {
- case 'owner': return <Crown className="w-3 h-3"/>;
- case 'admin': return <Shield className="w-3 h-3"/>;
- case 'investigator': return <SearchIcon className="w-3 h-3"/>;
- case 'viewer': return <Eye className="w-3 h-3"/>;
+ case'owner': return <Crown className="w-3 h-3"/>;
+ case'admin': return <Shield className="w-3 h-3"/>;
+ case'investigator': return <SearchIcon className="w-3 h-3"/>;
+ case'viewer': return <Eye className="w-3 h-3"/>;
  default: return <User className="w-3 h-3"/>;
  }
  };
@@ -40,7 +40,7 @@ export default function MemberList({ members, currentUserId = '1' }: MemberListP
  const diffHours = Math.floor(diffMs / 3600000);
  const diffDays = Math.floor(diffMs / 86400000);
 
- if (diffMins < 1) return 'now';
+ if (diffMins < 1) return'now';
  if (diffMins < 60) return `${diffMins}m`;
  if (diffHours < 24) return `${diffHours}h`;
  return `${diffDays}d`;
@@ -78,7 +78,7 @@ export default function MemberList({ members, currentUserId = '1' }: MemberListP
  value={searchQuery}
  onChange={(e) => setSearchQuery(e.target.value)}
  aria-label="Search team members"
- className="w-full pl-7 pr-3 py-1.5 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="w-full pl-7 pr-3 py-1.5 bg-[#0a0a0a] border border-white/[0.06] text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  </div>
  </div>
@@ -157,26 +157,26 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  transition={{ delay: index * 0.02 }}
  >
  <div 
- className={`group flex items-center gap-2 p-2 rounded cursor-pointer transition-colors ${
- isCurrentUser ? 'bg-zinc-900' : 'hover:bg-[#0a0a0a]'
+ className={`group flex items-center gap-2 p-2 cursor-pointer transition-colors ${
+ isCurrentUser ?'bg-zinc-900' :'hover:bg-[#0a0a0a]'
  }`}
  onClick={() => setIsExpanded(!isExpanded)}
  role="button"
  aria-expanded={isExpanded}
- aria-label={`${member.name}, ${member.role}${member.isOnline ? ', online' : ', offline'}. Click to ${isExpanded ? 'collapse' : 'expand'} details`}
+ aria-label={`${member.name}, ${member.role}${member.isOnline ?', online' :', offline'}. Click to ${isExpanded ?'collapse' :'expand'} details`}
  tabIndex={0}
- onKeyDown={(e) => e.key === 'Enter' && setIsExpanded(!isExpanded)}
+ onKeyDown={(e) => e.key ==='Enter' && setIsExpanded(!isExpanded)}
  >
  <div className="relative">
- <div className={`w-6 h-6 bg-zinc-800 flex items-center justify-center text-[10px] font-medium text-white/50 ${!member.isOnline ? 'opacity-50' : ''}`}>
+ <div className={`w-6 h-6 bg-zinc-800 flex items-center justify-center text-[10px] font-medium text-white/50 ${!member.isOnline ?'opacity-50' :''}`}>
  {member.name.charAt(0)}
  </div>
- <div className={`absolute -bottom-0.5 -right-0.5 w-2 h-2 border border-[#050505] ${member.isOnline ? 'bg-zinc-600/80' : 'bg-[#0d0d0d]'}`} />
+ <div className={`absolute -bottom-0.5 -right-0.5 w-2 h-2 border border-[#050505] ${member.isOnline ?'bg-zinc-600/80' :'bg-[#0d0d0d]'}`} />
  </div>
 
  <div className="flex-1 min-w-0">
  <div className="flex items-center gap-1.5">
- <span className={`text-[11px] font-medium truncate ${member.isOnline ? 'text-white/60' : 'text-white/30'}`}>
+ <span className={`text-[11px] font-medium truncate ${member.isOnline ?'text-white/60' :'text-white/30'}`}>
  {member.name}
  </span>
  {isCurrentUser && <span className="text-[9px] text-zinc-300/60">you</span>}
@@ -190,13 +190,13 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  )}
  </div>
 
- <ChevronDown className={`w-3 h-3 text-white/15 transition-transform ${isExpanded ? 'rotate-180' : ''}`} />
+ <ChevronDown className={`w-3 h-3 text-white/15 transition-transform ${isExpanded ?'rotate-180' :''}`} />
  </div>
 
  {isExpanded && (
  <motion.div
  initial={{ height: 0, opacity: 0 }}
- animate={{ height: 'auto', opacity: 1 }}
+ animate={{ height:'auto', opacity: 1 }}
  className="px-2 pb-2 ml-8"
  >
  <div className="text-[10px] text-white/25 space-y-1">
@@ -205,7 +205,7 @@ function MemberItem({ member, index, getRoleIcon, formatLastActive, isCurrentUse
  {member.expertise && (
  <div className="flex flex-wrap gap-1 mt-1">
  {member.expertise.map((exp, i) => (
- <span key={i} className="px-1.5 py-0.5 bg-[#0a0a0a] rounded text-white/30">{exp}</span>
+ <span key={i} className="px-1.5 py-0.5 bg-[#0a0a0a] text-white/30">{exp}</span>
  ))}
  </div>
  )}

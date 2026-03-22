@@ -33,7 +33,7 @@ const investigations_1: Record<string, InvestigationData> = {
    lastActivityDate: '2014-06-15',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '1980-01-01', event: 'Wall Street insider trading ring involving Ivan Boesky, Michael Milken, and others that defined an era of financial excess and regulatory...', type: 'financial' },
+     { date: '1980-01-01', event: 'Wall Street insider trading ring involving Ivan Boesky, Michael Milken, and others that defined an era of financial excess and regulatory', type: 'financial' },
      { date: '1986', event: 'Ivan Boesky paid $100 million in fines after admitting to insider trading in 1986.', type: 'financial' },
      ],
  },
@@ -99,7 +99,7 @@ const investigations_1: Record<string, InvestigationData> = {
   lastActivityDate: '2025-02-20',
   pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2008', event: 'The 2008 financial crisis — caused by systematic fraud in mortgage origination, securitization, and credit ratings — destroyed $11 trillion in household wealth, cost 8.7 million jobs, and triggered the worst economic...', type: 'financial' },
+     { date: '2008', event: 'The 2008 financial crisis — caused by systematic fraud in mortgage origination, securitization, and credit ratings — destroyed $11 trillion in household wealth, cost 8.', type: 'financial' },
      { date: '2012', event: 'By 2012, the bailed-out banks were larger, more profitable, and more concentrated than before the crisis.', type: 'critical' },
      ],
  },

@@ -118,24 +118,32 @@ export interface NetworkEdge {
 
 export interface IndividualProfile {
   name: string;
-  title: string;
-  role: string;
-  riskLevel: 'critical' | 'high' | 'medium' | 'low';
-  description: string;
+  title?: string;
+  role?: string;
+  riskLevel?: 'critical' | 'high' | 'medium' | 'low';
+  description?: string;
+  bio?: string;
+  status?: string;
+  photo?: string;
+  background?: string;
+  lastKnownLocation?: string;
   birthDate?: string;
   birthPlace?: string;
   deathDate?: string;
-  education: string[];
+  education?: string[];
   netWorth?: string;
-  affiliations: { name: string; role: string; type: 'agency' | 'corporation' | 'organization' }[];
-  controversies: string[];
-  relatedInvestigations: { title: string; slug: string; severity: string }[] | string[];
-  timeline: { date: string; event: string }[];
+  affiliations?: { name: string; role: string; type: 'agency' | 'corporation' | 'organization' | 'individual' }[];
+  controversies?: string[];
+  relatedInvestigations?: { title: string; slug: string; severity: string }[] | string[];
+  timeline?: { date: string; event: string }[];
+  criminalHistory?: string[] | string;
   socialMedia?: { platform: string; handle: string }[];
   /** Flexible charge format - supports both legacy and new schema */
   charges?: (
-    | { statute: string; description: string; category: string }
-    | { charge: string; status?: string; date?: string }
+    | { statute: string; description: string; category: string; source?: string }
+    | { charge: string; status?: string; date?: string; source?: string }
+    | { description: string; status?: string; source?: string }
+    | string
   )[];
   sources?: { title: string; url?: string; date?: string }[];
   aliases?: string[];
@@ -170,4 +178,6 @@ export interface IndividualProfile {
   networkNodes?: NetworkNode[];
   /** Network graph edges */
   networkEdges?: NetworkEdge[];
+  /** Financial information summary */
+  financialInfo?: string;
 }

@@ -4,7 +4,7 @@ import agencyDatabase from '@/data/agencies';
 import corporationDatabase from '@/data/corporations';
 import organizationDatabase from '@/data/organizations';
 
-export const dynamic = 'force-static';
+export const dynamic = 'force-dynamic';
 
 export async function GET() {
  try {

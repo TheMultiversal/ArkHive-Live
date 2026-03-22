@@ -3786,7 +3786,6 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
     ],
   },
   'tim-nolan': {
-    slug: 'tim-nolan',
     name: 'Tim Nolan',
     title: 'Former Campbell County Judge and Trump Campaign Chairman (Kentucky)',
     photo: '/images/individuals/tim-nolan.webp',

@@ -97,7 +97,6 @@ export const useContributorStore = create<ContributorState>()(
 
  // Generate verification code
  const code = generateVerificationCode(normalizedEmail);
- console.log(`[ArkHive] Verification code for ${normalizedEmail}: ${code}`);
 
  set({
  accounts: [...state.accounts, account],
