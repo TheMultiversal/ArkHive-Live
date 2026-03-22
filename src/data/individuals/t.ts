@@ -1,45 +1,7 @@
 // Individual profile data shard
 import type { IndividualProfile } from './types';
 
-const profiles: Record<string, IndividualProfile> = {
- 'tom-price': {
- name: 'Thomas Edmunds Price',
- title: 'Former HHS Secretary',
- role: 'Healthcare, Private Jet Scandal',
- riskLevel: 'medium',
- description: 'Thomas Edmunds Price served as Secretary of Health and Human Services from 2017 to September 2017. He was forced to resign after just seven months amid revelations that he spent over $1 million in taxpayer funds on private and military jet travel, violating government travel policies.',
- birthDate: 'October 8, 1954',
- birthPlace: 'Lansing, Michigan, USA',
- education: [
- 'M.D., University of Michigan Medical School',
- 'B.A., University of Michigan',
- ],
- netWorth: '$13+ million',
- affiliations: [
- { name: 'HHS', role: 'Secretary (2017)', type: 'agency' },
- { name: 'U.S. Congress', role: 'Representative GA-6 (2005-2017)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'HHS Secretary appointee', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- '$400,000+ in private jet travel',
- 'Stock trading in healthcare companies while legislating',
- 'Shortest-serving HHS Secretary',
- ],
- relatedInvestigations: [
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- ],
- timeline: [
- { date: '1954', event: 'Born in Michigan' },
- { date: '2017', event: 'Confirmed as HHS Secretary (February)' },
- { date: '2017', event: 'Resigns amid travel scandal (September)' },
- ],
- sources: [
- { title: 'HHS IG Report', url: 'https://oig.hhs.gov/', date: '2017' },
- ],
- },
- 'tom-barrack': {
+const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  name: 'Thomas Joseph Barrack Jr.',
  title: 'Billionaire Real Estate Investor',
  role: 'Trump Inaugural Chair, Charged as Foreign Agent',
@@ -1067,30 +1029,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2016', event: 'Chilcot Report criticizes war' },
  ],
  sources: [{ title: 'Wikipedia: Tony Blair', url: 'https://en.wikipedia.org/wiki/Tony_Blair' }, { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' }, { title: 'Military Times: Tony Blair', url: 'https://www.militarytimes.com/' }, { title: 'BBC News', url: 'https://www.bbc.com/news' }],
- },
- 'thomas-homan': {
- name: 'Thomas Homan',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Thomas Homan. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Public filings and regulatory records indicate Thomas Homan facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [ ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
 
 
@@ -2885,40 +2824,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Tom Saffer', relationship: 'Senator who championed atomic veterans Saffer represented', href: '/entities/individuals/tom-saffer' },
  ],
- },
-
- 'tom-hayes': {
- name: 'Tom Hayes',
- title: 'Former UBS and Citigroup trader; the first person convicted of LIBOR manipulation, establishing the legal precedent',
- role: 'Former UBS and Citigroup trader; the first person convicted of LIBOR manipulation, establishing the legal precedent',
- riskLevel: 'high',
- description: 'Tom Hayes. Profile pending review.',
- education: [],
- affiliations: [
- { name: 'Independent', role: 'Wikipedia: Tom Harkin', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Libor Scandal', slug: 'libor-scandal', severity: 'high' },
- ],
- timeline: [
- { date: 'Ongoing', event: 'Active in role as Former UBS and Citigroup trader; the first person convicted of LIBOR manipulation, establishing the ' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Wikipedia: Tom Hayes', url: 'https://en.wikipedia.org/wiki/Tom_Hayes', date: '' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'Bob Diamond', relationship: 'Barclays CEO during LIBOR manipulation Hayes participated in', href: '/entities/individuals/bob-diamond' },
- { name: 'Terry Farr', relationship: 'Fellow LIBOR manipulation figure', href: '/entities/individuals/terry-farr' },
- { name: 'Philippe Moryoussef', relationship: 'Fellow LIBOR trader', href: '/entities/individuals/philippe-moryoussef' },
- ],
- },
-
+ },
  'tom-saffer': {
  name: 'Tom Saffer',
  title: 'Atomic veteran and co-author documenting military nuclear testing exposure',

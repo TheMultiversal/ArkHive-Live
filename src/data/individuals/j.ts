@@ -296,37 +296,7 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
  ],
- },
- 'jeff-sessions': {
- name: 'Jeff Sessions',
- title: 'Person of Interest',
- role: 'Documented based on entity connections',
- riskLevel: 'medium',
- description: 'Jeff Sessions. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Jeff Sessions has connections to entities under active investigation that have raised questions about accountability, tracked through public records and official documentation.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- { date: '2022-06-09', event: 'Profile documented based on review of public records and institutional affiliations' },
- { date: '2024-11-17', event: 'Documentation updated based on newly available public records and filings' },
- ],
- socialMedia: [],
- sources: [
- { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2022-06-09' },
- { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2024-11-17' },
- { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2025-12-01' },
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
  'jack-smith': {
  name: 'John Luman"Jack"Smith',
  title: 'Former Special Counsel',
@@ -2987,32 +2957,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'John Kapoor', relationship: 'Fellow pharma executive convicted in opioid-related case', href: '/entities/individuals/john-kapoor' }
  ],
 
- },
- 'john-brennan': {
- name: 'John Brennan',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'John Brennan. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Network analysis reveals John Brennan holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
  'john-ashcroft': {
  name: 'John Ashcroft',
@@ -8252,97 +8197,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Tom DeLay', relationship: 'House Majority Leader; close ally who took Abramoff-funded trips', href: '/entities/individuals/tom-delay' },
     ],
   },
-  'john-eastman': {
-    name: 'John Eastman',
-    title: 'Former Law Professor and Trump Legal Advisor',
-    role: 'Architect of the legal theory that Vice President Pence could unilaterally reject electoral votes to overturn the 2020 election; disbarred and indicted',
-    riskLevel: 'critical',
-    description: 'John Charles Eastman is a former law professor and conservative legal scholar who authored the "Eastman memos" outlining a theory that Vice President Mike Pence had the authority to unilaterally reject or delay certification of electoral votes on January 6, 2021. The memos laid out a step-by-step plan for Pence to declare Trump the winner or send the election back to state legislatures. Eastman spoke at the Ellipse rally on January 6 immediately before the Capitol breach. He was disbarred by the California State Bar in March 2024 for dishonesty, corruption, and moral turpitude related to his efforts to overturn the election. He was indicted in August 2023 in the Fulton County, Georgia RICO case alongside Trump and 16 others. He was also indicted in Arizona in April 2024 in connection with the fake electors scheme. Legal scholars across the political spectrum condemned the Eastman theory as unconstitutional.',
-    birthDate: 'April 2, 1960',
-    birthPlace: 'Lincoln, Nebraska',
-    education: ['University of Dallas (B.A.)', 'University of Chicago Law School (J.D.)'],
-    affiliations: [
-      { name: 'Chapman University Fowler School of Law', role: 'Professor and Former Dean', type: 'organization' as const },
-      { name: 'Claremont Institute', role: 'Senior Fellow', type: 'organization' as const },
-      { name: 'Trump Legal Team', role: 'Legal Advisor', type: 'organization' as const },
-    ],
-    controversies: [
-      'Authored "Eastman memos" theory for VP to unilaterally reject electoral votes',
-      'Spoke at Ellipse rally on January 6 immediately before Capitol breach',
-      'Disbarred by California State Bar for dishonesty and moral turpitude',
-      'Pressured Pence to reject or delay certification of electoral votes',
-      'Indicted in Georgia RICO case and Arizona fake electors case',
-    ],
-    charges: [
-      { statute: 'O.C.G.A. 16-14-4', description: 'RICO conspiracy - Georgia Racketeer Influenced and Corrupt Organizations Act', category: 'state' },
-      { statute: 'A.R.S. 13-2310', description: 'Conspiracy, fraud, and forgery related to fake electors scheme (Arizona)', category: 'state' },
-    ],
-    relatedInvestigations: ['/investigations/january-6-insurrection'],
-    timeline: [
-      { date: '2020-12', event: 'Authors "Eastman memos" for Pence to reject electoral votes' },
-      { date: '2021-01-04', event: 'Presents plan to Trump and Pence in Oval Office' },
-      { date: '2021-01-06', event: 'Speaks at Ellipse rally before Capitol breach' },
-      { date: '2022-06', event: 'January 6 Committee obtains and publishes Eastman emails' },
-      { date: '2023-08-14', event: 'Indicted in Fulton County RICO case' },
-      { date: '2024-03-27', event: 'Disbarred by California State Bar' },
-      { date: '2024-04-24', event: 'Indicted in Arizona fake electors case' },
-    ],
-    sources: [
-      { title: 'January 6 Committee: Eastman Memos Analysis', url: 'https://www.govinfo.gov/committee/house-january6th', date: '2022' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Co-defendant; client who relied on Eastman theory', href: '/entities/individuals/donald-trump' },
-      { name: 'Rudy Giuliani', relationship: 'Co-counsel in election overturn efforts', href: '/entities/individuals/rudy-giuliani' },
-    ],
-  },
-  'jared-kushner': {
-    name: 'Jared Kushner',
-    title: 'Former Senior Advisor to the President',
-    role: 'Trump son-in-law who received $2 billion from Saudi sovereign wealth fund shortly after leaving the White House despite his firm having no track record in managing such funds',
-    riskLevel: 'critical',
-    description: 'Jared Corey Kushner served as Senior Advisor to President Trump from 2017 to 2021, despite initially being denied a top-secret security clearance by career officials. He was given an unprecedented portfolio including Middle East peace, government innovation, criminal justice reform, and the COVID-19 pandemic response. In 2022, Kushner\'s newly formed private equity firm, Affinity Partners, received $2 billion in investment from Saudi Arabia\'s Public Investment Fund (PIF), led by Crown Prince Mohammed bin Salman. The PIF\'s own screening panel had flagged concerns about Affinity\'s "icheduled fee structure," "management inexperience," and that the firm had "icheduled performance" but was overruled by MBS. This followed Kushner building a close personal relationship with MBS while serving as the primary U.S. liaison to Saudi Arabia in the White House. A separate $1 billion investment from the UAE and Qatar sovereign funds followed. Kushner\'s family firm, Kushner Companies, also received a $1.1 billion bailout on its troubled 666 Fifth Avenue property from Brookfield Asset Management, a Canadian firm with ties to Qatar.',
-    birthDate: 'January 10, 1981',
-    birthPlace: 'Livingston, New Jersey',
-    education: ['Harvard University (A.B.)', 'NYU School of Law (J.D.)', 'NYU Stern School of Business (M.B.A.)'],
-    affiliations: [
-      { name: 'White House', role: 'Senior Advisor to the President', type: 'agency' as const },
-      { name: 'Affinity Partners', role: 'Founder and Managing Partner', type: 'corporation' as const },
-      { name: 'Kushner Companies', role: 'Former CEO', type: 'corporation' as const },
-    ],
-    controversies: [
-      'Received $2 billion from Saudi sovereign wealth fund after leaving White House',
-      'PIF screening panel flagged "management inexperience" - overruled by MBS',
-      'Initially denied security clearance; overridden by Trump',
-      'Family firm received $1.1 billion bailout on 666 Fifth Avenue from Brookfield',
-      'Built close personal relationship with MBS as official White House liaison',
-      'Supported MBS despite CIA assessment that MBS ordered Khashoggi murder',
-      'Led COVID-19 supply chain task force accused of favoring political allies',
-    ],
-    charges: [
-      { statute: '18 U.S.C. 208', description: 'Potential conflict of interest - official acts benefiting personal/family financial interests (not charged)', category: 'federal' },
-      { statute: '18 U.S.C. 201', description: 'Potential bribery/gratuity - receiving $2B after favorable official actions toward Saudi Arabia (not charged)', category: 'federal' },
-    ],
-    relatedInvestigations: ['/investigations/saudi-influence-american-politics'],
-    timeline: [
-      { date: '2017-01-20', event: 'Appointed Senior Advisor to the President' },
-      { date: '2017', event: 'Denied security clearance by career officials; overridden by Trump' },
-      { date: '2018-10-02', event: 'Khashoggi murdered; Kushner maintains MBS relationship' },
-      { date: '2019-02', event: '666 Fifth Avenue bailout finalized' },
-      { date: '2021-01-20', event: 'Leaves White House' },
-      { date: '2021-06', event: 'Founds Affinity Partners' },
-      { date: '2022-04', event: 'Receives $2 billion from Saudi PIF' },
-    ],
-    sources: [
-      { title: 'NYT: Jared Kushner\'s $2 Billion Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', date: '2022' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Father-in-law and President who appointed him', href: '/entities/individuals/donald-trump' },
-      { name: 'Mohammed bin Salman', relationship: 'Saudi Crown Prince who approved $2B investment' },
-      { name: 'Ivanka Trump', relationship: 'Wife; fellow White House advisor' },
-    ],
-  },
+
+
   'jeff-bezos': {
     name: 'Jeff Bezos',
     title: 'Founder and Executive Chairman of Amazon',

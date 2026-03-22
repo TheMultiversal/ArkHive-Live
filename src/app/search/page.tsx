@@ -7,59 +7,20 @@ import { useSearchParams } from 'next/navigation';
 import { Search, Filter, SlidersHorizontal, Grid, List, X, Calendar, AlertTriangle, Building, User } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { useDebounce } from '@/hooks/useDebounce';
+import investigationDatabase from '@/data/investigations';
 
-// Mock search results
-const mockResults: { investigations: SearchResult[]; entities: SearchResult[]; documents: SearchResult[] } = {
- investigations: [
- {
- id: '1',
- type: 'investigation',
- title: 'Operation Nightfall: CIA Black Sites',
- description: 'Classified documents reveal network of secret detention facilities across Eastern Europe.',
- severity: 'critical',
- date: '2024-01-15',
- tags: ['CIA', 'Black Sites', 'Torture'],
- },
- {
- id: '2',
- type: 'investigation',
- title: 'Pharma Price Fixing Scandal',
- description: 'Exposing how pharmaceutical companies coordinated pricing strategies.',
- severity: 'high',
- date: '2024-02-20',
- tags: ['Healthcare', 'Corruption', 'Pharmaceuticals'],
- },
- ],
- entities: [
- {
- id: '3',
- type: 'entity',
- entityType: 'agency',
- title: 'Central Intelligence Agency',
- description: 'United States foreign intelligence service',
- riskLevel: 'high',
- },
- {
- id: '4',
- type: 'entity',
- entityType: 'corporation',
- title: 'Blackwater/Academi',
- description: 'Private military company with documented human rights violations',
- riskLevel: 'critical',
- },
- ],
- documents: [
- {
- id: '5',
- type: 'document',
- title: 'FOIA Response, Surveillance Programs',
- description: 'Declassified documents on domestic surveillance',
- date: '2023-11-10',
- },
- ],
-};
+// Build search results from actual investigation data
+const investigationResults: SearchResult[] = Object.entries(investigationDatabase).map(([slug, inv]) => ({
+  id: slug,
+  type: 'investigation' as const,
+  title: inv.title,
+  description: inv.summary || inv.subtitle,
+  severity: inv.severity as 'critical' | 'high' | 'medium' | 'low',
+  date: inv.lastUpdated || inv.date,
+  tags: inv.tags || [],
+}));
 
-type ResultType = 'all' | 'investigations' | 'entities' | 'documents';
+type ResultType = 'all' | 'investigations';
 type SortOption = 'relevance' | 'date' | 'severity';
 
 const severityColors = {
@@ -83,17 +44,7 @@ export default function SearchPage() {
 
  // Filter and sort results
  const results = useMemo(() => {
- let allResults: SearchResult[] = [];
- 
- if (resultType === 'all' || resultType === 'investigations') {
- allResults = [...allResults, ...mockResults.investigations];
- }
- if (resultType === 'all' || resultType === 'entities') {
- allResults = [...allResults, ...mockResults.entities];
- }
- if (resultType === 'all' || resultType === 'documents') {
- allResults = [...allResults, ...mockResults.documents];
- }
+ let allResults: SearchResult[] = [...investigationResults];
 
  // Filter by query
  if (debouncedQuery) {
@@ -101,7 +52,8 @@ export default function SearchPage() {
  allResults = allResults.filter(
  (r) =>
  r.title.toLowerCase().includes(q) ||
- r.description.toLowerCase().includes(q)
+ r.description.toLowerCase().includes(q) ||
+ (r.tags && r.tags.some(t => t.toLowerCase().includes(q)))
  );
  }
 
@@ -112,16 +64,17 @@ export default function SearchPage() {
  const dateB = b.date || '';
  return dateB.localeCompare(dateA);
  });
+ } else if (sortBy === 'severity') {
+ const sevOrder = { critical: 0, high: 1, medium: 2, low: 3 };
+ allResults.sort((a, b) => (sevOrder[a.severity || 'low'] || 3) - (sevOrder[b.severity || 'low'] || 3));
  }
 
- return allResults;
+ return allResults.slice(0, 100);
  }, [debouncedQuery, resultType, sortBy]);
 
  const resultCounts = {
- all: mockResults.investigations.length + mockResults.entities.length + mockResults.documents.length,
- investigations: mockResults.investigations.length,
- entities: mockResults.entities.length,
- documents: mockResults.documents.length,
+ all: results.length,
+ investigations: results.length,
  };
 
  return (
@@ -157,7 +110,7 @@ export default function SearchPage() {
  <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
  {/* Type Tabs */}
  <div className="flex gap-2">
- {(['all', 'investigations', 'entities', 'documents'] as const).map((type) => (
+ {(['all', 'investigations'] as const).map((type) => (
  <button
  key={type}
  onClick={() => setResultType(type)}
@@ -351,10 +304,6 @@ function SearchResultCard({
  switch (result.type) {
  case 'investigation':
  return `/investigations/${result.id}`;
- case 'entity':
- return `/entities/${result.entityType}s/${result.id}`;
- case 'document':
- return `/documents/${result.id}`;
  default:
  return '#';
  }

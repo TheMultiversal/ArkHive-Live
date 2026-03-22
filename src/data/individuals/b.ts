@@ -271,99 +271,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Pressured him to overturn election', href: '/entities/individuals/donald-trump' },
  { name: 'Mark Meadows', relationship: 'On call pressuring to find votes', href: '/entities/individuals/mark-meadows' },
  ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 'betsy-devos': {
- name: 'Elisabeth Dee DeVos',
- title: 'Former U.S. Secretary of Education',
- role: 'Education Secretary 2017-2021, Billionaire Republican Donor',
- riskLevel: 'high',
- description: 'Betsy DeVos served as Secretary of Education under Trump despite having no public education experience. A billionaire Republican mega-donor, she pushed school privatization, rolled back protections for student loan borrowers, weakened Title IX protections for sexual assault survivors, and resigned after January 6 while criticizing Trump; but too late to invoke the 25th Amendment.',
- birthDate: 'January 8, 1958',
- birthPlace: 'Holland, Michigan',
- netWorth: '$5.4 billion (family wealth)',
- education: ['Calvin College (B.A. Business Administration)'],
- affiliations: [
- { name: 'U.S. Department of Education', role: 'Secretary (2017-2021)', type: 'agency' },
- { name: 'Amway', role: 'Heir (husband\'s family)', type: 'corporation' },
- { name: 'Republican National Committee', role: 'Major Donor', type: 'organization' },
- ],
- controversies: [
- 'No public education experience before appointment',
- 'Family donated $200+ million to Republican causes',
- 'Pushed vouchers and charter schools over public education',
- 'Rolled back Obama-era student loan protections',
- 'Weakened Title IX sexual assault guidelines',
- 'Protected for-profit colleges that defrauded students',
- 'Resigned after January 6 but refused to invoke 25th Amendment',
- 'Brother Erik Prince founded Blackwater (private military)',
- ],
- charges: [
- { statute: '20 U.S.C. § 1087e', description: 'Violation of Student Loan Provisions; Illegally delayed and obstructed borrower defense regulations, found in contempt by federal court', category: 'Federal Education' },
- { statute: 'Federal Court Contempt Order', description: 'Civil Contempt; Federal judge held DeVos/DOE in contempt for collecting on loans from defrauded students after court order', category: 'Court Contempt' },
- { statute: '20 U.S.C. § 1681 (Title IX)', description: 'Weakened Protections; Rolled back Title IX protections for sexual assault survivors, allowing schools to ignore complaints', category: 'Federal Education' },
- { statute: '5 C.F.R. § 2635.702', description: 'Potential Use of Office for Private Gain; Policies benefited for-profit education sector where family has investments', category: 'Potential Ethics' },
- { statute: '18 U.S.C. § 208', description: 'Potential Conflict of Interest; Financial interests in education companies affected by DOE policies', category: 'Potential Ethics' },
- { statute: '5 U.S.C. § 3331', description: 'Oath of Office Concerns; Refused to invoke 25th Amendment despite believing Trump unfit after January 6', category: 'Constitutional' },
- ],
- relatedInvestigations: [
- ],
- timeline: [
- { date: '2017', event: 'February: Confirmed as Education Secretary (VP tie-breaker)' },
- { date: '2017', event: 'Begins rolling back Obama education policies' },
- { date: '2020', event: 'Pushed school reopening during pandemic' },
- { date: '2021', event: 'January 7: Resigns citing January 6' },
- ],
- socialMedia: [],
- sources: [
- { title: 'DeVos Confirmation Hearings', url: 'https://scholar.google.com/scholar?q=DeVos%20Confirmation%20Hearings', date: '2017' }, ],
- aliases: ['Betsy DeVos'],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Cabinet member, mega-donor', href: '/entities/individuals/donald-trump' },
- { name: 'Erik Prince', relationship: 'Brother, Blackwater founder', href: '/entities/individuals/erik-prince' },
- ],
- },
-
+ },
 
 
 
@@ -1709,48 +1617,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Abdel Fattah el-Sisi', relationship: 'Egyptian president, Menendez accused of acting as foreign agent for Egypt', href: '/entities/individuals/abdel-fattah-el-sisi' }
  ],
 
- },
- 'brian-kemp': {
- name: 'Brian Kemp',
- title: 'Governor of Georgia',
- role: 'Georgia Governor, Voter Suppression',
- riskLevel: 'high',
- description: 'Brian Kemp became Georgia Governor after overseeing his own election as Secretary of State, during which he purged 340,000 voters and oversaw mass voter suppression. He signed restrictive voting laws after 2020 and initially resisted Trump\'s pressure to overturn the election.',
- birthDate: 'November 2, 1963',
- birthPlace: 'Athens, Georgia',
- education: ['University of Georgia'],
- affiliations: [
- { name: 'State of Georgia', role: 'Governor', type: 'agency' as const },
- ],
- controversies: [
- 'SELF-OVERSEEN ELECTION: Ran own election as SoS',
- '340,000 PURGED: Mass voter roll purges',
- 'EXACT MATCH: Blocked registrations for typos',
- 'SB 202: Restrictive voting law after 2020',
- 'STACEY ABRAMS: Accusations of stolen election',
- 'VOTING RESTRICTIONS: Made giving water to voters illegal',
- ],
- charges: [
- { statute: 'Voting Rights Act', description: 'Voter suppression allegations', category: 'ONGOING LITIGATION' },
- ],
- relatedInvestigations: [
- { title: 'Georgia Voter Suppression', slug: 'georgia-voter-suppression', severity: 'high' },
- ],
- timeline: [
- { date: 'November 2, 1963', event: 'Born in Georgia' },
- { date: '2010', event: 'Becomes Secretary of State' },
- { date: '2018', event: 'Elected Governor while overseeing own election' },
- { date: '2021', event: 'Signs SB 202 voting restrictions' },
- ],
- sources: [{ title: 'Wikipedia: Brian Kemp', url: 'https://en.wikipedia.org/wiki/Brian_Kemp' }, { title: 'NYT: Brian Kemp Profile', url: 'https://www.nytimes.com/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
- knownAssociates: [
- { name: 'Greg Abbott', relationship: 'Fellow Republican governor', href: '/entities/individuals/greg-abbott' },
- { name: 'Donald Trump', relationship: 'Refused Trump\'s pressure to overturn Georgia 2020 results', href: '/entities/individuals/donald-trump' },
- { name: 'Fani Willis', relationship: 'Fulton County DA who investigated election interference in Kemp\'s state', href: '/entities/individuals/fani-willis' }
- ],
-
- },
- 'bill-cosby': {
+ }, 'bill-cosby': {
  name: 'Bill Cosby',
  title: 'Convicted Sexual Predator (Overturned)',
  role: 'Entertainer, Serial Sexual Assault',

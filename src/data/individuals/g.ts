@@ -913,89 +913,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Richard Nixon', relationship: 'Predecessor, pardoned', href: '/entities/individuals/richard-nixon' },
  ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 'gina-haspel': {
- name: 'Gina Haspel',
- title: 'CIA Director (2018-2021)',
- role: 'Ran CIA black site in Thailand where prisoners were tortured; later became CIA Director',
- riskLevel: 'critical',
- description: 'Gina Haspel ran the CIA\'s"Cat\'s Eye"black site in Thailand in 2002 where detainees were waterboarded and tortured. She later drafted the order to destroy 92 interrogation videotapes to conceal evidence of torture. Despite this history, she was confirmed as CIA Director in 2018, rewarded rather than prosecuted for overseeing torture.',
- birthDate: 'October 1, 1956',
- birthPlace: 'Ashland, Kentucky',
- education: ['University of Kentucky', 'University of Louisville'],
- affiliations: [
- { name: 'Central Intelligence Agency', role: 'Director (2018-2021)', type: 'agency' },
- ],
- controversies: [
- 'BLACK SITE CHIEF: Ran Thailand black site where Abu Zubaydah was waterboarded 83 times',
- 'TAPE DESTRUCTION: Drafted cable ordering destruction of 92 interrogation videos to hide torture evidence',
- 'REWARDED FOR TORTURE: Rather than prosecution, she was promoted to CIA Director',
- 'REFUSED TO CONDEMN: At confirmation, declined to say torture was immoral',
- ],
- charges: [
- { statute: 'Convention Against Torture', description: 'Oversaw torture of detainees at black site', category: 'International Crime' },
- { statute: '18 U.S.C. § 2340A', description: 'Torture of persons in custody', category: 'Federal Crime' },
- { statute: '18 U.S.C. § 1519', description: 'Destruction of evidence (torture tapes)', category: 'Obstruction' },
- ],
- relatedInvestigations: [
- { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
- { title: 'Rendition', slug: 'rendition', severity: 'critical' },
- ],
- timeline: [
- { date: 'October 1, 1956', event: 'Born in Ashland, Kentucky' },
- { date: '1985', event: 'Joins CIA' },
- { date: '2002', event: 'Runs Thailand black site' },
- { date: '2005', event: 'Drafts cable to destroy torture tapes' },
- { date: 'May 21, 2018', event: 'Confirmed as CIA Director' },
- { date: 'January 2021', event: 'Leaves CIA' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Senate Torture Report', url: 'https://scholar.google.com/scholar?q=Senate%20Torture%20Report', date: '2014' },
- { title: 'CIA declassified documents', url: 'https://www.cia.gov/readingroom/', date: 'Various' }, ],
- aliases: [],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Appointed her CIA Director', href: '/entities/individuals/donald-trump' },
- ],
- },
-
+ },
 
 
 
@@ -1356,83 +1274,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Jeffrey Wigand', relationship: 'Whistleblower who exposed tobacco industry practices', href: '/entities/individuals/jeffrey-wigand' }
  ],
 
- },
- 'george-santos': {
- name: 'George Santos',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'George Santos. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Investigative analysis reveals George Santos was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
- 'Investigative journalists have documented a pattern of revolving-door employment between George Santos\'s operations and the regulatory bodies meant to provide oversight.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
-
-
-
-
-
-
-
- 'greg-abbott': {
- name: 'Greg Abbott',
- title: 'Governor of Texas',
- role: 'Texas Governor, Border Cruelty, Grid Failures',
- riskLevel: 'critical',
- description: 'Greg Abbott has been Texas Governor since 2015, overseeing deadly power grid failures that killed hundreds, implementing cruel border policies including floating barriers that drowned migrants, busing migrants to Democratic cities, and signing extreme anti-abortion and anti-trans laws.',
- birthDate: 'November 13, 1957',
- birthPlace: 'Wichita Falls, Texas',
- education: ['Vanderbilt University', 'Vanderbilt Law School'],
- affiliations: [
- { name: 'State of Texas', role: 'Governor', type: 'agency' as const },
- ],
- controversies: [
- 'POWER GRID: 2021 freeze killed 246+ people',
- 'BUOY BARRIERS: Migrants drowned at border',
- 'BUSING MIGRANTS: Political stunts with human beings',
- 'ABORTION BAN: Extreme restrictions',
- 'TRANS ATTACKS: Targeting transgender children',
- 'PARDONED MURDERER: Pardoned man who shot BLM protester',
- ],
- charges: [
- { statute: 'Federal Immigration Law', description: 'Border enforcement interference', category: 'FEDERAL DISPUTES' },
- { statute: 'Rome Statute Article 7(1)(k)', description: 'Crimes Against Humanity, Inhumane acts at border', category: 'INTERNATIONAL' },
- ],
- relatedInvestigations: [
- { title: 'Texas Border Cruelty', slug: 'texas-border-cruelty', severity: 'critical' },
- { title: 'Texas Grid Failures', slug: 'texas-grid-failures', severity: 'critical' },
- ],
- timeline: [
- { date: 'November 13, 1957', event: 'Born in Texas' },
- { date: '2015', event: 'Becomes Governor' },
- { date: 'February 2021', event: 'Grid failure kills 246+' },
- { date: '2023', event: 'Implements border buoy barriers' },
- ],
- sources: [{ title: 'Wikipedia: Greg Abbott', url: 'https://en.wikipedia.org/wiki/Greg_Abbott' }, { title: 'Washington Post: Greg Abbott', url: 'https://www.washingtonpost.com/' }],
- knownAssociates: [
- { name: 'Brian Kemp', relationship: 'Fellow Republican governor implementing restrictive policies', href: '/entities/individuals/brian-kemp' },
- { name: 'Ron DeSantis', relationship: 'Fellow GOP governor competing on border enforcement', href: '/entities/individuals/ron-desantis' },
- { name: 'Donald Trump', relationship: 'Key Trump ally on border and immigration enforcement', href: '/entities/individuals/donald-trump' }
- ],
-
- },
- 'guy-reffitt': {
+ },'guy-reffitt': {
  name: 'Guy Reffitt',
  title: 'Convicted January 6 Rioter',
  role: 'Texas Three Percenter, First J6 Trial CONVICTED',
@@ -1699,40 +1541,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
-
-
-
-
-
-
-
-
-
- 'gary-gensler': {
- name: 'Gary Gensler',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Gary Gensler. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
  'gary-wang': {
  name: 'Gary Wang',
  title: 'Co-founder and CTO of FTX; built the secret backdoor allowing Alameda to access customer funds',
@@ -3001,44 +2810,7 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
-  'greg-abbott': {
-    name: 'Greg Abbott',
-    title: 'Governor of Texas',
-    role: 'Architect of Operation Lone Star, the Texas power grid failure cover-up, and extreme anti-immigration policies including transporting migrants as political props',
-    riskLevel: 'high',
-    description: 'Gregory Wayne Abbott has served as the 48th Governor of Texas since 2015. He has overseen a period of extraordinary controversy including the catastrophic 2021 power grid failure that killed hundreds of Texans, which he initially blamed on renewable energy despite natural gas failures being the primary cause. Abbott launched Operation Lone Star in March 2021, deploying the Texas National Guard and state troopers to the border at a cost exceeding $11 billion, with documented reports of civil rights violations, sexual assault of migrants, and at least 5 deaths in custody. He signed a law allowing Texas to arrest migrants for illegal entry, directly challenging federal immigration authority. Abbott directed the busing of thousands of migrants to Democratic cities as a political stunt. He signed one of the most restrictive abortion bans in the nation with no exceptions for rape or incest, and has signed legislation restricting trans healthcare, banning books from school libraries, and loosening gun laws after the Uvalde school shooting that killed 21 people.',
-    birthDate: 'November 13, 1956',
-    birthPlace: 'Wichita Falls, Texas',
-    education: ['University of Texas at Austin (B.B.A.)', 'Vanderbilt University Law School (J.D.)'],
-    affiliations: [
-      { name: 'State of Texas', role: 'Governor', type: 'agency' as const },
-      { name: 'Republican Governors Association', role: 'Former Chairman', type: 'organization' as const },
-    ],
-    controversies: [
-      'Power grid failure: 2021 Winter Storm Uri killed 246-702 Texans; Abbott blamed renewables despite natural gas failures',
-      'Operation Lone Star: $11B+ border operation with documented civil rights abuse, sexual assault in custody, and deaths',
-      'Migrant busing: Used taxpayer money to bus migrants to Democratic cities as political theater',
-      'Uvalde response: Signed gun-loosening legislation after Uvalde school massacre; blocked accountability efforts',
-      'Abortion ban: Signed near-total ban with no rape/incest exceptions; women denied emergency care',
-    ],
-    charges: [],
-    relatedInvestigations: ['/investigations/texas-power-grid-failure'],
-    timeline: [
-      { date: '2015-01-20', event: 'Inaugurated as Governor of Texas' },
-      { date: '2021-02-13', event: 'Winter Storm Uri causes catastrophic power grid failure; 246-702 deaths' },
-      { date: '2021-03', event: 'Launches Operation Lone Star border deployment' },
-      { date: '2022-04', event: 'Begins busing migrants to Democratic cities' },
-      { date: '2022-05-24', event: 'Uvalde school shooting kills 21; Abbott attends NRA convention days later' },
-    ],
-    sources: [
-      { title: 'Texas Tribune: Greg Abbott Coverage', url: 'https://www.texastribune.org/about/staff/greg-abbott/', date: '2024' },
-      { title: 'ProPublica: Operation Lone Star Investigation', url: 'https://www.propublica.org/', date: '2023' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Ken Paxton', relationship: 'Texas AG whom Abbott shielded from accountability despite securities fraud indictment and impeachment' },
-    ],
-  },
+
   'george-santos': {
     name: 'George Santos',
     title: 'Former U.S. Representative (R-NY-3)',

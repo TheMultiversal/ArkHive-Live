@@ -59,57 +59,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Jeffrey Epstein', relationship: 'Close friend, convicted sex trafficker', href: '/entities/individuals/jeffrey-epstein' },
  { name: 'Ghislaine Maxwell', relationship: 'Friend who introduced him to Epstein, convicted sex trafficker', href: '/entities/individuals/ghislaine-maxwell' },
  ],
- },
-
- 'peter-navarro': {
- name: 'Peter Kent Navarro',
- title: 'Former White House Trade Advisor',
- role: 'Economist and convicted contemnor',
- riskLevel: 'medium',
- description: 'Peter Kent Navarro served as Assistant to the President and Director of Trade and Manufacturing Policy under President Trump. He became the first senior White House advisor in modern history to be imprisoned for contempt of Congress after refusing to comply with a subpoena from the January 6th Select Committee.',
- birthDate: 'July 15, 1949',
- birthPlace: 'Cambridge, Massachusetts, USA',
- netWorth: '$5+ million',
- education: ['Tufts University, BA', 'Harvard University, MPA', 'Harvard University, PhD Economics 1986'],
- affiliations: [
- { name: 'White House', role: 'Trade and Manufacturing Policy Director (2017-2021)', type: 'agency' },
- ],
- controversies: [
- 'Convicted of two counts of contempt of Congress for defying a subpoena from the January 6th Select Committee, sentenced to four months in federal prison',
- 'Authored two memos in December 2020 and January 2021 outlining a strategy to overturn the 2020 election results through the Vice President rejecting Electoral College votes',
- 'Cited a fabricated trade expert named "Ron Vara" (an anagram of Navarro) in multiple books as an authoritative source on China trade policy',
- 'Violated the Hatch Act by using his official position to advocate for Trump reelection during a media interview',
- 'Promoted unproven COVID-19 treatments including hydroxychloroquine against the advice of FDA and public health officials',
- ],
- charges: [
- { statute: '2 USC 192', description: 'Contempt of Congress (two counts)', category: 'Obstruction' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Election Disinformation', slug: 'election-disinformation', severity: 'critical' },
- ],
- timeline: [
- { date: '2017-01-20', event: 'Appointed Director of the White House National Trade Council' },
- { date: '2020-12-21', event: 'Authored memo outlining strategy to overturn 2020 election results' },
- { date: '2021-01-20', event: 'Left White House' },
- { date: '2022-06-03', event: 'Indicted on two counts of contempt of Congress' },
- { date: '2023-09-07', event: 'Convicted of contempt of Congress by federal jury' },
- { date: '2024-01-25', event: 'Sentenced to four months in federal prison' },
- { date: '2024-03-19', event: 'Reported to federal prison in Miami' },
- { date: '2024-07-17', event: 'Released from prison; spoke at Republican National Convention same day' },
- ],
- socialMedia: [],
- sources: [
- { title: 'DOJ: Navarro Indictment', url: 'https://www.justice.gov/usao-dc/pr/peter-navarro-indicted-contempt-congress', date: '2022-06-03' },
- { title: 'January 6th Select Committee Final Report', url: 'https://www.govinfo.gov/committee/house-january6th', date: '2022-12-22' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Former employer, White House principal', href: '/entities/individuals/donald-trump' },
- { name: 'Steve Bannon', relationship: 'Fellow Trump advisor also convicted of contempt of Congress', href: '/entities/individuals/steve-bannon' },
- ],
- },
-
+ },
  'pat-cipollone': {
  name: 'Pasquale Anthony Cipollone',
  title: 'Former White House Counsel',
@@ -446,31 +396,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'DOJ IG Report on Texts', url: 'https://www.justice.gov/', date: '2018' },
  { title: 'Congressional Testimony', url: 'https://www.congress.gov/', date: '2018' },
  ],
- },
- 'peter-thiel': {
- name: 'Peter Thiel',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Peter Thiel. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
  'paul-wolfowitz': {
  name: 'Paul Dundes Wolfowitz',

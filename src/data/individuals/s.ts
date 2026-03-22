@@ -1,36 +1,7 @@
 // Individual profile data shard
 import type { IndividualProfile } from './types';
 
-const profiles: Record<string, IndividualProfile> = {
- 'scott-pruitt': {
- name: 'Scott Pruitt',
- title: 'Public Official',
- role: 'Documented for accountability tracking',
- riskLevel: 'medium',
- description: 'Scott Pruitt. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Public records and investigative cross-referencing have identified patterns of concern related to Scott Pruitt and their institutional affiliations and documented activities.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- { date: '2020-08-05', event: 'Documentation updated based on newly available public records and filings' },
- ],
- socialMedia: [],
- sources: [
- { title: 'OpenSecrets Financial Records', url: 'https://www.opensecrets.org', date: '2016-07-06' },
- { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2020-08-05' },
- { title: 'Government Accountability Office', url: 'https://www.gao.gov', date: '2021-03-09' },
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+const profiles: Record<string, IndividualProfile> = {
  'sergey-kislyak': {
  name: 'Sergey Kislyak',
  title: 'Documented Individual',
@@ -58,37 +29,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
-
- 'stephen-miller': {
- name: 'Stephen Miller',
- title: 'Public Official',
- role: 'Subject of ongoing documentation',
- riskLevel: 'medium',
- description: 'Stephen Miller. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Analysis of government records and financial disclosures has identified patterns related to Stephen Miller that warrant continued documentation and public scrutiny.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- { date: '2019-09-15', event: 'Documentation updated based on newly available public records and filings' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2019-09-15' },
- { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2021-03-13' },
- { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2024-03-08' },
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
  'stormy-daniels': {
  name: 'Stephanie Gregory Clifford',
  title: 'Adult Film Actress, Director',
@@ -1360,30 +1301,7 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Supreme Court opinions', url: 'https://scholar.google.com/scholar?q=Supreme%20Court%20opinions', date: 'Various' },
  ],
- },
- 'sam-bankman-fried': {
- name: 'Sam Bankman Fried',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Sam Bankman Fried. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
  'sam-altman': {
  name: 'Sam Altman',
@@ -2151,31 +2069,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Omar Mateen', relationship: 'Perpetrator of Pulse nightclub shooting in similar era', href: '/entities/individuals/omar-mateen' }
  ],
 
- },
- 'steve-mnuchin': {
- name: 'Steve Mnuchin',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Steve Mnuchin. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Investigative journalists have documented a pattern of revolving-door employment between Steve Mnuchin\'s operations and the regulatory bodies meant to provide oversight.',
- 'Investigative analysis reveals Steve Mnuchin was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [ ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
 
 

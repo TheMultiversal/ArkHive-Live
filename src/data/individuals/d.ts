@@ -1868,41 +1868,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Rick Snyder', relationship: 'Governor who appointed him', href: '/entities/individuals/rick-snyder' },
  ],
- },
-
-
-
-
-
-
-
-
-
-
-
- 'dennis-muilenburg': {
- name: 'Dennis Muilenburg',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Dennis Muilenburg. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
  'daniel-elwell': {
  name: 'Daniel Elwell',
@@ -2326,33 +2292,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
-
-
- 'do-kwon': {
- name: 'Do Kwon',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Do Kwon. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Network analysis reveals Do Kwon holds overlapping roles across multiple entities with conflicting interests, creating accountability gaps that shield questionable activities from public scrutiny.',
- 'Public filings and regulatory records indicate Do Kwon facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [ ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
 
 
@@ -4249,33 +4189,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Harry Markopolos', relationship: 'Whistleblower whose Madoff warnings Kotz investigated SEC for ignoring', href: '/entities/individuals/harry-markopolos' },
  { name: 'Bernie Madoff', relationship: 'SEC Inspector General who investigated agency failure to catch Madoff', href: '/entities/individuals/bernie-madoff' },
  ],
- },
-
- 'david-petraeus': {
- name: 'David Petraeus',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'David Petraeus. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Third-party audit reports flagged irregularities in programs overseen by David Petraeus, though no formal investigation was initiated at the time.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
 
 

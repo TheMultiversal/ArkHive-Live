@@ -256,58 +256,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Roger Stone', relationship: 'Political ally, used Proud Boys as personal security', href: '/entities/individuals/roger-stone' },
  { name: 'Stewart Rhodes', relationship: 'Fellow seditious conspirator, Oath Keepers founder', href: '/entities/individuals/stewart-rhodes' },
  ],
- },
-
- 'elaine-chao': {
- name: 'Elaine Lan Chao',
- title: 'Former U.S. Secretary of Transportation',
- role: 'Transportation Secretary 2017-2021, Wife of Mitch McConnell',
- riskLevel: 'high',
- description: 'Elaine Chao served as Transportation Secretary under Trump and is married to Senate Republican Leader Mitch McConnell. She faced multiple ethics investigations for potential conflicts of interest involving her family\'s Chinese shipping business and for using her position to benefit Kentucky (McConnell\'s state). She resigned after January 6.',
- birthDate: 'March 26, 1953',
- birthPlace: 'Taipei, Taiwan',
- netWorth: '$30 million+',
- education: ['Harvard Business School (M.B.A.)', 'Mount Holyoke College (B.A.)'],
- affiliations: [
- { name: 'U.S. Department of Transportation', role: 'Secretary (2017-2021)', type: 'agency' },
- { name: 'U.S. Department of Labor', role: 'Secretary (2001-2009)', type: 'agency' },
- { name: 'Foremost Group', role: 'Family shipping company', type: 'corporation' },
- ],
- controversies: [
- 'Family shipping business ties to Chinese government',
- 'IG investigations into ethics violations',
- 'Used staff to assist with family business matters',
- 'Favored Kentucky in federal transportation grants',
- 'Father\'s company built ships in China',
- 'Resigned after January 6',
- 'DOJ declined to pursue IG referral',
- ],
- charges: [
- { statute: '18 U.S.C. § 208', description: 'OIG Referral; Financial conflict of interest by participating in matters affecting family shipping business with Chinese government ties (DOJ declined)', category: 'Ethics Referral' },
- { statute: '5 C.F.R. § 2635.702', description: 'Use of Public Office for Private Gain; IG found she used DOT staff to assist with personal matters and family business', category: 'Ethics' },
- { statute: '5 C.F.R. § 2635.705', description: 'Use of Government Property; Used official resources to benefit family\'s Foremost Group shipping company', category: 'Ethics' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Failed to disclose full extent of family business connections on ethics forms', category: 'Potential Federal' },
- { statute: '22 U.S.C. § 618 (FARA)', description: 'Potential Violation; Family business ties to Chinese government raise foreign influence concerns', category: 'Potential National Security' },
- { statute: '31 U.S.C. § 1301', description: 'Potential Misappropriation; Directed federal transportation grants disproportionately to Kentucky (husband\'s state)', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- ],
- timeline: [
- { date: '2017', event: 'January: Confirmed as Transportation Secretary' },
- { date: '2019', event: 'Ethics investigations opened' },
- { date: '2021', event: 'January 7: Resigns citing January 6' },
- { date: '2021', event: 'IG refers matter to DOJ' },
- { date: '2022', event: 'DOJ declines prosecution' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Transportation IG Report', url: 'https://www.ignet.gov/', date: '2021' }, ],
- aliases: ['Chao'],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Cabinet member', href: '/entities/individuals/donald-trump' },
- ],
- },
-
+ },
 
 
 
@@ -1710,40 +1659,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Joseph McCarthy', relationship: 'Confronted McCarthy on CBS, helping end Red Scare', href: '/entities/individuals/joseph-mccarthy' },
  { name: 'Ben Bradlee', relationship: 'Fellow pioneering journalist of the era', href: '/entities/individuals/ben-bradlee' },
  ],
- },
-
- 'edward-teller': {
- name: 'Edward Teller',
- title: 'Father of the hydrogen bomb, advocated for continued atmospheric testing',
- role: 'Father of the hydrogen bomb, advocated for continued atmospheric testing',
- riskLevel: 'high',
- description: 'Edward Teller. Profile pending review.',
- education: [],
- affiliations: [
- { name: 'Civil Society', role: 'Activist', type: 'organization' },
- ],
- controversies: [
- 'Connected to 1 documented investigation',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'Nuclear Testing Victims', slug: 'nuclear-testing-victims', severity: 'high' },
- ],
- timeline: [
- { date: 'Ongoing', event: 'Active in role as Father of the hydrogen bomb, advocated for continued atmospheric testing' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Wikipedia: Edward Teller', url: 'https://en.wikipedia.org/wiki/Edward_Teller', date: '' },
- ],
- aliases: [],
- knownAssociates: [
- { name: 'J. Robert Oppenheimer', relationship: 'Testified against Oppenheimer in security clearance hearing', href: '/entities/individuals/j-robert-oppenheimer' },
- { name: 'Lewis Strauss', relationship: 'AEC chairman who sided with Teller against Oppenheimer', href: '/entities/individuals/lewis-strauss' },
- { name: 'Wernher von Braun', relationship: 'Fellow Cold War weapons scientist', href: '/entities/individuals/wernher-von-braun' },
- ],
- },
-
+ },
  'edwin-gray': {
  name: 'Edwin Gray',
  title: 'Federal Home Loan Bank Board Chairman who tried to re-regulate thrifts and was politically undermined',

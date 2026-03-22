@@ -2633,66 +2633,6 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
-  'alex-mashinsky': {
-    name: 'Alex Mashinsky',
-    title: 'Celsius Network Founder; Convicted of Securities Fraud and Wire Fraud',
-    role: 'Founder and Former CEO; Celsius Network; Convicted Crypto Fraudster',
-    riskLevel: 'critical',
-    description: 'Alexander "Alex" Mashinsky is the founder and former CEO of Celsius Network; a cryptocurrency lending platform that collapsed in June 2022 owing customers approximately $4.7 billion. Born in Ukraine and raised in Israel; Mashinsky emigrated to the United States and became a serial entrepreneur in the telecom industry; claiming to hold patents related to Voice over Internet Protocol (VoIP) technology. He founded Celsius Network in 2017; marketing it as a crypto alternative to traditional banking that offered high-yield interest accounts by lending out deposited cryptocurrency. Mashinsky positioned himself as a populist champion of the "unbanked" and regularly hosted "Ask Mashinsky Anything" sessions on YouTube and Twitter where he assured customers their funds were safe. Behind the scenes; Celsius was operating more like a Ponzi scheme; using new customer deposits to fund withdrawals and prop up unsustainable yields. Mashinsky personally withdrew $68 million from the platform; including approximately $44 million in the months before the collapse. On June 12; 2022; Celsius froze all customer withdrawals; trapping billions in customer funds. The company filed for Chapter 11 bankruptcy in July 2022. In July 2023; Mashinsky was arrested and charged by the DOJ with securities fraud; commodities fraud; and wire fraud. The SEC; CFTC; and FTC all filed parallel civil enforcement actions. In December 2024; Mashinsky pleaded guilty to two counts of fraud; admitting he had misled customers about the safety of their investments and Celsius\'s financial health. He faces up to 30 years in prison.',
-    birthDate: '1965',
-    birthPlace: 'Ukraine; Soviet Union (now Ukraine)',
-    education: [],
-    affiliations: [
-      { name: 'Celsius Network', role: 'Founder and CEO (2017-2022)', type: 'corporation' },
-    ],
-    controversies: [
-      'Celsius Network froze customer withdrawals on June 12; 2022; trapping approximately $4.7 billion in customer assets',
-      'Personally withdrew $68 million from Celsius; including $44 million in the months before the platform\'s collapse',
-      'Assured customers their funds were safe in public "Ask Mashinsky Anything" sessions while Celsius was insolvent',
-      'Celsius used new customer deposits to fund withdrawals and prop up unsustainable high-yield returns in a Ponzi-like structure',
-      'Arrested in July 2023; charged by DOJ with securities fraud; commodities fraud; and wire fraud',
-      'SEC; CFTC; and FTC all filed parallel civil enforcement actions against Mashinsky',
-      'Pleaded guilty to two counts of fraud in December 2024; faces up to 30 years in prison',
-      'Falsely claimed Celsius was "safer than a bank" and that all assets were fully backed; when they were not',
-    ],
-    charges: [
-      { charge: 'Securities fraud', status: 'Pleaded guilty; December 2024', date: '2023-07-13' },
-      { charge: 'Wire fraud', status: 'Pleaded guilty; December 2024', date: '2023-07-13' },
-      { charge: 'Commodities fraud', status: 'Pleaded guilty; December 2024', date: '2023-07-13' },
-    ],
-    relatedInvestigations: [],
-    timeline: [
-      { date: '1965', event: 'Born in Ukraine (then Soviet Union)' },
-      { date: '2017', event: 'Founds Celsius Network; a crypto lending and borrowing platform' },
-      { date: '2021', event: 'Celsius reaches peak of $25 billion in assets under management' },
-      { date: 'June 12; 2022', event: 'Celsius freezes all customer withdrawals; trapping approximately $4.7 billion' },
-      { date: 'July 13; 2022', event: 'Celsius files for Chapter 11 bankruptcy' },
-      { date: 'July 13; 2023', event: 'Mashinsky arrested; charged by DOJ with securities fraud; commodities fraud; and wire fraud' },
-      { date: 'July 2023', event: 'SEC; CFTC; and FTC file parallel civil enforcement actions' },
-      { date: 'December 2024', event: 'Pleads guilty to two counts of fraud; faces up to 30 years in prison' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'DOJ: Celsius Founder Arrested for Fraud', url: 'https://www.justice.gov/usao-sdny/pr/celsius-founder-alex-mashinsky-arrested-charged-fraud', date: '2023' },
-      { title: 'SEC: SEC Charges Celsius and Alex Mashinsky', url: 'https://www.sec.gov/news/press-release/2023-133', date: '2023' },
-      { title: 'Wikipedia: Celsius Network', url: 'https://en.wikipedia.org/wiki/Celsius_Network', date: '' },
-    ],
-    aliases: ['Alexander Mashinsky'],
-    knownAssociates: [],
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   'allen-stanford': {
     name: 'Allen Stanford',
@@ -4489,52 +4429,6 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'BC Franklin', relationship: 'Fellow Tulsa lawyer who documented the massacre', href: '/entities/individuals/bc-franklin' },
     ],
   },
-
-
-  'ajit-pai': {
-    name: 'Ajit Pai',
-    title: 'FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans',
-    role: 'FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans',
-    riskLevel: 'high',
-    description: 'Ajit Pai is documented in ArkHive investigations for their role as FCC Chairman who relaxed ownership rules benefiting Sinclair\'s expansion plans.',
-    education: [],
-    affiliations: [
-      { name: 'Academia', role: 'Academic/Researcher', type: 'organization' },
-    ],
-    controversies: [
-      'Connected to 1 documented investigation',
-    ],
-    charges: [],
-    relatedInvestigations: [
-      { title: 'Sinclair Broadcasting', slug: 'sinclair-broadcasting', severity: 'high' },
-    ],
-    timeline: [
-      { date: 'Ongoing', event: 'Active in role as FCC Chairman who relaxed ownership rules benefiting Sinclair' },
-    ],
-    socialMedia: [],
-    sources: [
-      { title: 'Wikipedia: Ajit Pai', url: 'https://en.wikipedia.org/wiki/Ajit_Pai', date: '' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Trump-appointed FCC Chairman from 2017-2021 who controversially repealed Obama-era net neutrality protections', href: '/entities/individuals/donald-trump' },
-      { name: 'Mitch McConnell', relationship: 'Senate Republican leader who championed Pai\'s FCC nomination and supported his deregulatory agenda', href: '/entities/individuals/mitch-mcconnell' },
-      { name: 'Mark Zuckerberg', relationship: 'Meta CEO whose platforms were directly affected by FCC regulatory decisions on internet governance', href: '/entities/individuals/mark-zuckerberg' },
-    ],
-  },
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -7467,79 +7361,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Brendan Carr', relationship: 'FCC Commissioner and ally on deregulatory agenda' },
     ],
-  },
-  'allen-dulles': {
-    name: 'Allen Dulles',
-    title: 'Former Director of Central Intelligence',
-    role: 'Intelligence Director',
-    riskLevel: 'critical' as const,
-    description: 'Longest-serving CIA Director (1953-1961) who transformed the agency from an intelligence-gathering organization into a covert action powerhouse. Orchestrated coups that overthrew democratically elected governments in Iran (1953) and Guatemala (1954), establishing the template for Cold War regime change. Oversaw the Bay of Pigs invasion, MKUltra mind control experiments, and assassination plots against foreign leaders. Fired by President Kennedy after the Bay of Pigs disaster, then appointed to the Warren Commission investigating Kennedy\'s assassination — a profound conflict of interest.',
-    birthDate: '1893-04-07',
-    birthPlace: 'Watertown, New York',
-    education: ['B.A., Princeton University (1914)', 'LL.M., George Washington University (1916)'],
-    affiliations: [
-      { name: 'Central Intelligence Agency', role: 'Director of Central Intelligence (1953-1961)', type: 'agency' as const },
-      { name: 'Sullivan & Cromwell', role: 'Senior Partner (pre-CIA)', type: 'corporation' as const },
-      { name: 'Warren Commission', role: 'Commissioner (1963-1964)', type: 'agency' as const },
-    ],
-    controversies: [
-      'Orchestrated 1953 Iranian coup (Operation Ajax) overthrowing democratically elected PM Mossadegh; installed Shah dictatorship',
-      'Directed 1954 Guatemalan coup (Operation PBSUCCESS) overthrowing President Arbenz; led to 36-year civil war killing 200,000',
-      'Oversaw MKUltra program conducting involuntary mind control experiments on unwitting American and Canadian citizens',
-      'Authorized assassination plots against foreign leaders including Patrice Lumumba (Congo) and Fidel Castro',
-      'Planned the disastrous Bay of Pigs invasion of Cuba in 1961; misled President Kennedy about chances of success',
-      'Appointed to Warren Commission investigating Kennedy assassination despite having been fired by Kennedy — massive conflict of interest',
-      'As corporate lawyer at Sullivan & Cromwell, represented United Fruit Company whose interests drove the Guatemala coup',
-      'Oversaw Operation Mockingbird infiltrating American media organizations to spread CIA propaganda domestically',
-    ],
-    charges: [
-      {
-        statute: 'International Law - Violations of Sovereignty',
-        description: 'Orchestrated covert overthrow of democratically elected governments in Iran and Guatemala in violation of international law',
-        category: 'human-rights',
-      },
-      {
-        statute: 'Nuremberg Principles - Crimes Against Peace',
-        description: 'Directed covert wars and regime change operations causing mass civilian casualties without congressional authorization',
-        category: 'human-rights',
-      },
-      {
-        statute: 'U.S. Constitutional Violations - Domestic Operations',
-        description: 'MKUltra and Operation Mockingbird programs violated constitutional protections against domestic intelligence operations on U.S. citizens',
-        category: 'constitutional',
-      },
-    ],
-    relatedInvestigations: [
-      { title: 'U.S.-Backed Coups and Regime Change Operations', slug: 'us-backed-coups-regime-change', severity: 'critical' },
-      { title: 'Operation Condor: CIA-Backed State Terror in Latin America', slug: 'operation-condor-cia-latin-america', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '1893-04-07', event: 'Born in Watertown, New York; nephew of Secretary of State Robert Lansing' },
-      { date: '1926', event: 'Joins Sullivan & Cromwell law firm; represents United Fruit Company and German industrialists' },
-      { date: '1942', event: 'Joins Office of Strategic Services (OSS) in Bern, Switzerland during WWII' },
-      { date: '1953-02-26', event: 'Appointed Director of Central Intelligence by President Eisenhower' },
-      { date: '1953-08', event: 'Operation Ajax: CIA overthrows Iranian PM Mossadegh; installs Shah Pahlavi' },
-      { date: '1954-06', event: 'Operation PBSUCCESS: CIA overthrows Guatemalan President Arbenz' },
-      { date: '1953-1964', event: 'MKUltra program conducts mind control experiments on unwitting subjects using LSD and torture' },
-      { date: '1960', event: 'Authorizes CIA assassination plots against Patrice Lumumba and Fidel Castro' },
-      { date: '1961-04-17', event: 'Bay of Pigs invasion fails catastrophically; 1,400 Cuban exiles killed or captured' },
-      { date: '1961-11-29', event: 'Fired as CIA Director by President Kennedy following Bay of Pigs disaster' },
-      { date: '1963-11-29', event: 'Appointed to Warren Commission investigating JFK assassination despite conflict of interest' },
-      { date: '1969-01-29', event: 'Dies in Washington, D.C. at age 75' },
-    ],
-    sources: [
-      { title: 'The Devils Chessboard: Allen Dulles, the CIA, and the Rise of America\'s Secret Government by David Talbot', date: '2015' },
-      { title: 'National Security Archive: CIA Covert Operations Declassified', url: 'https://nsarchive.gwu.edu/', date: '2023' },
-      { title: 'CIA FOIA Reading Room: MKUltra Documents', url: 'https://www.cia.gov/readingroom/collection/mkultra', date: '2023' },
-    ],
-    aliases: ['The Great White Case Officer'],
-    knownAssociates: [
-      { name: 'John Foster Dulles', relationship: 'Brother; served as Secretary of State simultaneously, creating unprecedented overlap of covert and diplomatic power' },
-      { name: 'Kermit Roosevelt Jr.', relationship: 'CIA officer who led the Iran coup (Operation Ajax) under Dulles\'s direction' },
-      { name: 'Henry Kissinger', relationship: 'Later continued the CIA regime change approach Dulles established', href: '/entities/individuals/henry-kissinger' },
-    ],
-  },
-  'alex-mashinsky': {
+  },  'alex-mashinsky': {
     name: 'Alex Mashinsky',
     title: 'Former CEO of Celsius Network',
     role: 'Cryptocurrency Executive',

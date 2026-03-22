@@ -102,74 +102,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
- 'nancy-pelosi': {
- name: 'Nancy Patricia Pelosi',
- title: 'Former Speaker of the House',
- role: 'House Speaker during both Trump Impeachments',
- riskLevel: 'low' as const,
- description: 'First female Speaker of the House who led both impeachments of Donald Trump. Target of January 6 insurrectionists who chanted "Where\'s Nancy?"while searching the Capitol. Her office was ransacked and her staff hid under a table.',
- birthDate: 'March 26, 1940',
- birthPlace: 'Baltimore, Maryland',
- education: [
- 'Trinity College (B.A.)',
- ],
- affiliations: [
- { name: 'Democratic Party', role: 'House Speaker (2019-2023)', type: 'organization' },
- { name: 'U.S. House of Representatives', role: 'Representative (1987-present)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Joe Biden', relationship: 'Democratic ally', href: '/entities/individuals/joe-biden' },
- { name: 'Adam Kinzinger', relationship: 'January 6 Committee appointment', href: '/entities/individuals/adam-kinzinger' },
- { name: 'Liz Cheney', relationship: 'January 6 Committee appointment', href: '/entities/individuals/liz-cheney' },
- { name: 'Bennie Thompson', relationship: 'January 6 Committee Chair', href: '/entities/individuals/bennie-thompson' },
- ],
- controversies: [
- 'Target of January 6 insurrectionists',
- 'Husband Paul Pelosi attacked by conspiracy theorist',
- 'Demonized by Trump and right-wing media',
- ],
- charges: [],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 2019', event: 'Announces first Trump impeachment' },
- { date: 'January 2020', event: 'Delivers articles of impeachment' },
- { date: 'January 6, 2021', event: 'Office ransacked by insurrectionists' },
- { date: 'January 2021', event: 'Second Trump impeachment' },
- { date: 'June 2021', event: 'Establishes January 6 Select Committee' },
- ],
- sources: [
- { title: 'January 6 Committee Records', url: 'https://scholar.google.com/scholar?q=January%206%20Committee%20Records', date: '2022' },
- ],
- },
- 'nikki-haley': {
- name: 'Nikki Haley',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Nikki Haley. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Public filings and regulatory records indicate Nikki Haley facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- 'Investigative analysis reveals Nikki Haley was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
-
 
 
  'neil-gorsuch': {
@@ -1842,39 +1774,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Paul Pelosi', relationship: 'Husband; venture capitalist whose stock trades track congressional activity' },
     ],
   },
-  'nikki-haley': {
-    name: 'Nikki Haley',
-    slug: 'nikki-haley',
-    bio: 'Nimrata Nikki Haley served as the U.S. Ambassador to the United Nations (2017-2018) and Governor of South Carolina (2011-2017). At the UN, she championed withdrawing from the UN Human Rights Council, pulling out of the Paris Climate Agreement, and defunding UNRWA (the UN agency for Palestinian refugees). As Governor, she oversaw a state government where one of the worst dam safety records in the nation led to catastrophic failures in the 2015 floods that killed 19 people. After leaving government, she joined the board of Boeing and received $8 million in speaking fees in a single year, capitalizing on her government service. Her 2024 presidential campaign was largely funded by defense industry and Wall Street donors.',
-    riskLevel: 'medium' as const,
-    status: 'active',
-    lastKnownLocation: 'Kiawah Island, South Carolina',
-    birthDate: 'January 20, 1972',
-    education: [
-      'B.S., Accounting, Clemson University (1994)',
-    ],
-    affiliations: [
-      { name: 'U.S. Department of State', role: 'UN Ambassador (2017-2018)', type: 'agency' as const },
-      { name: 'Boeing', role: 'Board Member (2019-2020)', type: 'corporation' as const },
-    ],
-    relatedInvestigations: [
-      { title: 'Lobbying and Dark Money', slug: 'lobbying-dark-money-democracy-corruption', severity: 'critical' },
-    ],
-    charges: [
-      { statute: 'N/A - Revolving Door', description: 'Joined Boeing board immediately after leaving government; resigned before 737 MAX crisis deepened', category: 'Conflict of interest' },
-      { statute: 'N/A - Policy', description: 'Led U.S. withdrawal from UN Human Rights Council and Paris Climate Agreement', category: 'Policy decision' },
-    ],
-    criminalHistory: 'No criminal charges or investigations. Ethics questions raised about the speed of her transition from government to lucrative corporate board and speaking engagements.',
-    financialInfo: 'Earned $8 million in speaking fees in 2022 alone. Net worth estimated at $8-10 million, accumulated primarily after leaving government. Boeing board compensation approximately $300,000 annually.',
-    sources: [
-      { title: 'FEC: Haley 2024 Campaign Finance Disclosures', url: 'https://www.fec.gov/', date: '2024' },
-      { title: 'OpenSecrets: Nikki Haley Donor Profile', url: 'https://www.opensecrets.org/', date: '2024' },
-    ],
-    aliases: ['Nimrata Nikki Randhawa'],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Appointed her UN Ambassador; she later ran against him in 2024 primary' },
-    ],
-  },
+
   'robert-mercer': {
     name: 'Robert Mercer',
     title: 'Former Co-CEO of Renaissance Technologies',

@@ -165,64 +165,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: '$110B arms deal, Khashoggi cover-up', href: '/entities/individuals/donald-trump' },
  { name: 'Jared Kushner', relationship: '$2 billion investment after leaving office', href: '/entities/individuals/jared-kushner' },
  ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 'mark-meadows': {
- name: 'Mark Meadows',
- title: 'Person of Interest',
- role: 'Documented based on entity connections',
- riskLevel: 'high',
- description: 'Mark Meadows. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Analysis of government records and financial disclosures has identified patterns related to Mark Meadows that warrant continued documentation and public scrutiny.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- { date: '2020-11-05', event: 'Documentation updated based on newly available public records and filings' },
- { date: '2023-04-05', event: 'Initial records compiled from public financial disclosures and government databases' },
- ],
- socialMedia: [],
- sources: [
- { title: 'SEC EDGAR Public Filings', url: 'https://www.sec.gov/edgar', date: '2020-11-05' },
- { title: 'Congressional Record', url: 'https://www.congress.gov', date: '2023-04-05' },
- { title: 'Public Records and Government Databases', url: 'https://www.archives.gov', date: '2025-01-11' },
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
  'mike-pence': {
  name: 'Michael Richard Pence',
  title: '48th Vice President of the United States',
@@ -2541,64 +2484,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  ],
  },
-
-
-
-
-
- 'mark-ciavarella': {
- name: 'Mark Ciavarella',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Mark Ciavarella. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Investigative analysis reveals Mark Ciavarella was involved in decision-making processes that bypassed established oversight mechanisms, raising questions about institutional accountability.',
- 'Investigative journalists have documented a pattern of revolving-door employment between Mark Ciavarella\'s operations and the regulatory bodies meant to provide oversight.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [ ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
-
-
-
-
- 'michael-conahan': {
- name: 'Michael Conahan',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Michael Conahan. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Public filings and regulatory records indicate Michael Conahan facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
 
 
 

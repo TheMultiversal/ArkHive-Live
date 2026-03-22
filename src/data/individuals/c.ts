@@ -320,58 +320,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Congressional Testimony', url: 'https://www.congress.gov/', date: '2018' },
  { title: 'UK Parliament Testimony', url: 'https://scholar.google.com/scholar?q=UK%20Parliament%20Testimony', date: '2018' },
  ],
- },
- 'chad-wolf': {
- name: 'Chad Frederick Wolf',
- title: 'Former Acting Secretary of Homeland Security',
- role: 'Acting DHS Secretary 2019-2021 (illegally appointed)',
- riskLevel: 'high',
- description: 'Chad Wolf served as Acting DHS Secretary under Trump, though federal courts ruled his appointment was illegal under the Vacancies Act. He oversaw family separations, deployment of federal agents against protesters in Portland, and the Lafayette Square clearing. GAO ruled he was serving unlawfully.',
- birthDate: 'February 2, 1976',
- birthPlace: 'Texas',
- education: ['George Mason University School of Law (J.D.)', 'Southern Methodist University (B.A.)'],
- affiliations: [
- { name: 'Department of Homeland Security', role: 'Acting Secretary (2019-2021)', type: 'agency' },
- ],
- controversies: [
- 'GAO ruled his appointment violated federal law',
- 'Federal courts invalidated actions due to illegal appointment',
- 'Oversaw deployment of federal agents in Portland',
- 'Family separation policy implementation',
- 'Lafayette Square protest clearing',
- 'DHS intelligence gathering on journalists',
- 'Refused to acknowledge Biden election victory',
- ],
- charges: [
- { statute: '5 U.S.C. §§ 3345-3349d (Federal Vacancies Reform Act)', description: 'Violation; GAO ruled Wolf\'s appointment as Acting DHS Secretary was illegal, making his official actions invalid', category: 'Federal' },
- { statute: '42 U.S.C. § 1983', description: 'Deprivation of Rights Under Color of Law; Ordered deployment of federal agents against Portland protesters, violating First and Fourth Amendment rights', category: 'Civil Rights' },
- { statute: '18 U.S.C. § 242', description: 'Deprivation of Rights; Family separation policy implementation caused lasting harm to children', category: 'Civil Rights' },
- { statute: '5 U.S.C. § 552a (Privacy Act)', description: 'Potential Violations; DHS intelligence gathering on journalists and protesters', category: 'Potential Federal' },
- { statute: 'First Amendment', description: 'Constitutional Violations; Lafayette Square clearing violated peaceful protesters\' rights', category: 'Constitutional' },
- { statute: '8 U.S.C. § 1232 (Trafficking Victims Protection)', description: 'Potential Violations; Family separation policy may have violated child protection requirements', category: 'Potential Federal' },
- { statute: '18 U.S.C. § 1001', description: 'Potential False Statements; Misrepresented legality of his appointment and authority', category: 'Potential Federal' },
- ],
- relatedInvestigations: [
- { title: 'Family Separation', slug: 'family-separation', severity: 'critical' },
- { title: 'Lafayette Square', slug: 'lafayette-square', severity: 'high' },
- ],
- timeline: [
- { date: '2019', event: 'November: Becomes Acting DHS Secretary' },
- { date: '2020', event: 'June: Lafayette Square incident' },
- { date: '2020', event: 'Summer: Portland federal agent deployment' },
- { date: '2020', event: 'August: GAO rules appointment illegal' },
- { date: '2021', event: 'January: Resigns' },
- ],
- socialMedia: [],
- sources: [
- { title: 'GAO Ruling on Wolf Appointment', url: 'https://scholar.google.com/scholar?q=GAO%20Ruling%20on%20Wolf%20Appointment', date: '2020' }, ],
- aliases: ['Wolf'],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Appointed him Acting Secretary', href: '/entities/individuals/donald-trump' },
- { name: 'Stephen Miller', relationship: 'Immigration policy collaboration', href: '/entities/individuals/stephen-miller' },
- ],
- },
-
+ },
 
 
 
@@ -635,30 +584,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
- 'charles-koch': {
- name: 'Charles Koch',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Charles Koch. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
  'christopher-miller': {
  name: 'Christopher Miller',
@@ -2317,41 +2243,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
  ],
- },
-
-
-
-
-
-
-
-
-
-
-
- 'curtis-lemay': {
- name: 'Curtis Lemay',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Curtis Lemay. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
  'c-everett-koop': {
  name: 'C. Everett Koop',

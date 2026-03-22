@@ -133,54 +133,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Cabinet member, business associate', href: '/entities/individuals/donald-trump' },
  { name: 'Vladimir Putin', relationship: 'Business ties through Russian oligarchs', href: '/entities/individuals/vladimir-putin' },
  ],
- },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 'wayne-lapierre': {
- name: 'Wayne Lapierre',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Wayne Lapierre. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
+ },
 
  'william-casey': {
  name: 'William Casey',
@@ -2087,93 +2040,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Oliver North', relationship: 'Former NRA President who clashed with LaPierre over finances; ousted' },
       { name: 'Angus McQueen', relationship: 'Head of Ackerman McQueen; NRA\'s long-time ad agency that facilitated personal spending' },
     ],
-  },
-  'william-barr': {
-    name: 'William Barr',
-    slug: 'william-barr',
-    bio: 'William Pelham Barr served as the 77th and 85th Attorney General of the United States (1991-1993 under George H.W. Bush, 2019-2020 under Donald Trump). During his second tenure, Barr issued a misleading four-page summary of the Mueller Report that mischaracterized its findings, prompting a rebuke from Special Counsel Mueller himself. He ordered federal agents to use tear gas and rubber bullets to clear peaceful protesters from Lafayette Square for a Trump photo op. He intervened in the sentencing recommendations for Trump associates Roger Stone and Michael Flynn, prompting mass resignations from career prosecutors. He launched politically motivated investigations into the origins of the Russia probe (Durham investigation) that cost $6.5 million and produced zero significant convictions.',
-    riskLevel: 'high' as const,
-    status: 'active',
-    lastKnownLocation: 'McLean, Virginia',
-    birthDate: 'May 23, 1950',
-    education: [
-      'B.A., Government, Columbia University (1971)',
-      'M.A., Government/Chinese Studies, Columbia University (1973)',
-      'J.D., George Washington University Law School (1977)',
-    ],
-    affiliations: [
-      { name: 'DOJ', role: 'Attorney General (1991-1993, 2019-2020)', type: 'agency' as const },
-      { name: 'Verizon/GTE', role: 'General Counsel and EVP (1994-2008)', type: 'corporation' as const },
-    ],
-    relatedInvestigations: [
-      { title: 'Domestic Surveillance State', slug: 'domestic-surveillance-state', severity: 'critical' },
-      { title: 'Police Qualified Immunity', slug: 'police-qualified-immunity-brutality', severity: 'critical' },
-    ],
-    charges: [
-      { statute: 'N/A - Abuse of Power', description: 'Mischaracterized Mueller Report findings in misleading summary; Mueller wrote to complain it created public confusion', category: 'Obstruction/Misleading Congress' },
-      { statute: 'N/A - Political Interference', description: 'Intervened in Roger Stone and Michael Flynn sentencing; career prosecutors resigned in protest', category: 'Politicization of justice' },
-      { statute: 'N/A - Civil Rights', description: 'Ordered tear gas and rubber bullets against peaceful Lafayette Square protesters for presidential photo op', category: 'Civil rights violation' },
-    ],
-    criminalHistory: 'No criminal charges. Inspector General reviewed the Lafayette Square clearing but referred to DOJ which took no action. During his first tenure as AG, Barr advised George H.W. Bush to pardon Iran-Contra defendants, effectively ending the investigation.',
-    financialInfo: 'Earned estimated $5-10 million annually as Verizon/GTE executive. Net worth estimated at $40-74 million. After leaving DOJ the second time, returned to private legal practice.',
-    sources: [
-      { title: 'Mueller Letter to Barr Regarding Summary', url: 'https://www.justice.gov/', date: '2019' },
-      { title: 'DOJ IG: Review of Lafayette Square Clearing', url: 'https://oig.justice.gov/', date: '2021' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'President who appointed him; Barr later publicly stated Trump should not be president again' },
-      { name: 'John Durham', relationship: 'Special Counsel appointed by Barr to investigate Russia probe origins; produced zero significant convictions' },
-    ],
-  },
-  'wilbur-ross': {
-    name: 'Wilbur Ross',
-    title: 'Former Secretary of Commerce',
-    role: 'Billionaire Vulture Capitalist with Hidden Conflicts',
-    riskLevel: 'high' as const,
-    description: 'Wilbur Ross served as Commerce Secretary from 2017 to 2021 while maintaining financial interests in companies with ties to Russian oligarchs and the Kremlin. Known as the "King of Bankruptcy" for profiting from distressed company acquisitions, his tenure included a citizenship question on the census designed to suppress minority counts and a coal mine safety record that included 12 worker deaths.',
-    birthDate: '1937-11-28',
-    birthPlace: 'Weehawken, New Jersey',
-    education: [
-      'B.A., Yale University (1959)',
-      'M.B.A., Harvard Business School (1961)',
-    ],
-    affiliations: [
-      { name: 'Department of Commerce', role: 'Secretary (2017-2021)', type: 'agency' as const },
-      { name: 'WL Ross & Co.', role: 'Founder and Chairman', type: 'corporation' as const },
-    ],
-    controversies: [
-      'Maintained financial interests in Navigator Holdings, which had business dealings with Russian oligarch Leonid Mikhelson and a Kremlin-connected shipping firm',
-      'Forbes investigation found Ross had been inflating his net worth by $2 billion for years to maintain his spot on their billionaire list',
-      'Added citizenship question to 2020 census against Census Bureau advice; Supreme Court blocked it after finding the stated rationale was pretextual',
-      'Fell asleep in cabinet meetings and during official events, earning media attention for apparent disengagement',
-      'Sago Mine disaster in 2006 killed 12 miners at an operation owned by his company International Coal Group; mine had received 208 safety citations the previous year',
-      'Shorted stocks of companies his department had regulatory power over before publicly announcing policy changes',
-      'Failed to divest from dozens of financial holdings as required by ethics agreements; OGE flagged multiple violations',
-    ],
-    relatedInvestigations: [
-      { title: 'Congressional Stock Trading', slug: 'congressional-stock-trading', severity: 'high' },
-    ],
-    timeline: [
-      { date: '2000', event: 'Founded WL Ross & Co.; built fortune buying bankrupt companies including steel and coal firms' },
-      { date: '2006', event: 'Sago Mine explosion killed 12 workers at International Coal Group operation' },
-      { date: '2017-02', event: 'Confirmed as Commerce Secretary' },
-      { date: '2017-11', event: 'Paradise Papers revealed financial ties to Navigator Holdings and Russian connections' },
-      { date: '2018-03', event: 'Announced citizenship question on 2020 census' },
-      { date: '2019-06', event: 'Supreme Court blocked census citizenship question' },
-      { date: '2020', event: 'OGE identified failure to divest required holdings; no penalties applied' },
-    ],
-    sources: [
-      { title: 'Forbes: The Wilbur Ross Net Worth Problem', url: 'https://www.forbes.com/', date: '2018' },
-      { title: 'ICIJ Paradise Papers: Wilbur Ross Navigator Holdings Connection', date: '2017' },
-      { title: 'Department of Commerce v. New York (Census Case)', date: '2019' },
-    ],
-    aliases: ['The King of Bankruptcy'],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Long-time business acquaintance; Ross helped Trump navigate Atlantic City casino bankruptcies before joining cabinet', href: '/entities/individuals/donald-trump' },
-    ],
-  },
-  'sidney-powell': {
+  }, 'sidney-powell': {
     name: 'Sidney Powell',
     title: 'Former Federal Prosecutor and Trump Campaign Attorney',
     role: 'Election Conspiracy Attorney Who Pled Guilty in Georgia',

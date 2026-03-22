@@ -221,32 +221,6 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
 
- 'henry-kissinger': {
- name: 'Henry Kissinger',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Henry Kissinger. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- 'Public filings and regulatory records indicate Henry Kissinger facilitated transactions flagged by financial monitoring systems for unusual patterns consistent with structured concealment.',
- 'Congressional hearing transcripts reference Henry Kissinger in connection with policy decisions that disproportionately benefited associated financial interests.',
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [ ],
- aliases: [],
- knownAssociates: [
- ],
- },
-
-
  'h-r-haldeman': {
  name: 'H. R. Haldeman',
  title: 'Former White House Chief of Staff',

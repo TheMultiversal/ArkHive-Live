@@ -299,60 +299,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'David Pecker', relationship: 'Paid her $150K for silence', href: '/entities/individuals/david-pecker' },
  { name: 'Michael Cohen', relationship: 'Coordinated payment', href: '/entities/individuals/michael-cohen' },
  ],
- },
- 'kash-patel': {
- name: 'Kashyap Pramod Patel',
- title: 'FBI Director Nominee',
- role: 'Trump Loyalist, Former NSC Official',
- riskLevel: 'critical',
- description: 'Kashyap Pramod Patel is a former federal prosecutor and Trump loyalist who served in multiple national security roles. He was a key figure in Republican efforts to discredit the Russia investigation as a Devin Nunes aide. Trump appointed him FBI Director in 2025 despite having no FBI experience.',
- birthDate: '1980',
- birthPlace: 'Long Island, New York',
- netWorth: 'Unknown',
- education: ['J.D., Pace University School of Law', 'Law Diploma, University College London', 'B.A., University of Richmond'],
- affiliations: [
- { name: 'FBI', role: 'Director Nominee (2025)', type: 'agency' },
- { name: 'Department of Defense', role: 'Chief of Staff to Acting SecDef (2020)', type: 'agency' },
- { name: 'National Security Council', role: 'Senior Director (2019-2020)', type: 'agency' },
- { name: 'House Intelligence Committee', role: 'Staff (2017-2019)', type: 'agency' },
- ],
- controversies: [
- 'Co-authored discredited Nunes memo',
- 'Published"enemies list"in book',
- 'Called for dismantling FBI',
- 'Raised concerns about loyalty-based governance',
- 'Involved in Trump document case as witness',
- 'Children\'s book depicting Trump as hero fighting"deep state"',
- ],
- charges: [
- { statute: '18 U.S.C. § 793 (Espionage Act)', description: 'Potential Classified Information Mishandling; False claims about Trump declassifying documents; witness in Mar-a-Lago case', category: 'Potential National Security' },
- { statute: '18 U.S.C. § 1001 (False Statements)', description: 'Potential False Statements; Claims about document declassification contradicted by evidence', category: 'Potential Federal' },
- { statute: '50 U.S.C. § 3033 (Intelligence Community)', description: 'Politicization Concerns; Nunes memo selectively declassified intelligence to defend Trump', category: 'Intelligence Abuse' },
- { statute: '18 U.S.C. § 1512 (Obstruction)', description: 'Potential Obstruction; Actions during documents investigation may constitute obstruction', category: 'Potential Obstruction' },
- { statute: '5 U.S.C. § 2302 (Prohibited Personnel Practices)', description: 'Enemies List Publication; Book naming perceived Trump opponents raises retaliation concerns', category: 'Ethics' },
- { statute: 'Hatch Act Concerns', description: 'Political Activity; Children\'s book promoting Trump while holding federal position', category: 'Potential Ethics' },
- ],
- relatedInvestigations: [
- { title: 'Classified Documents at Mar-a-Lago', slug: 'mar-a-lago-documents', severity: 'critical' },
- ],
- timeline: [
- { date: '2017-2019', event: 'Works on Nunes memo' },
- { date: '2019', event: 'Joins NSC' },
- { date: '2020', event: 'Made DoD Chief of Staff in final days' },
- { date: '2023', event: 'Witness in Mar-a-Lago documents case' },
- { date: '2024', event: 'November: Nominated as FBI Director' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Senate Confirmation Hearings', url: 'https://www.congress.gov/', date: '2025' },
- { title: 'FOIA Documents', url: 'https://scholar.google.com/scholar?q=FOIA%20Documents', date: '2020-2024' }, ],
- aliases: ['Kash'],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Loyal ally, FBI Director pick', href: '/entities/individuals/donald-trump' },
- { name: 'Devin Nunes', relationship: 'Former boss, Nunes memo co-author', href: '/entities/individuals/devin-nunes' },
- ],
- },
-
+ },
 
  'kellyanne-conway': {
  name: 'Kellyanne Elizabeth Conway',
@@ -818,52 +765,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Richard Burr', relationship: 'Fellow COVID insider trader', href: '/entities/individuals/richard-burr' },
  ],
- },
-
-
- 'ken-paxton': {
- name: 'Warren Kenneth Paxton Jr.',
- title: 'Texas Attorney General',
- role: 'Election Lawsuit Filer, Impeached AG',
- riskLevel: 'high',
- description: 'Ken Paxton is the Texas Attorney General who filed a lawsuit attempting to overturn the 2020 election by throwing out votes in four states. The Supreme Court rejected the case. Paxton has been under federal securities fraud indictment since 2015 and was impeached by the Texas House in 2023 (acquitted by Senate). He is accused of using his office to benefit a donor.',
- birthDate: 'December 23, 1962',
- birthPlace: 'Minot, North Dakota',
- education: ['J.D., University of Virginia School of Law (1991)', 'MBA, University of Virginia (1991)', 'B.A., Baylor University (1984)'],
- affiliations: [
- { name: 'Texas Attorney General Office', role: 'Attorney General (2015-present)', type: 'agency' },
- ],
- controversies: [
- 'ELECTION LAWSUIT: Filed SCOTUS case to overturn election in 4 states (rejected)',
- 'SECURITIES FRAUD INDICTMENT: Under indictment since 2015, case repeatedly delayed',
- 'IMPEACHMENT: Impeached by Texas House 2023, acquitted by Senate',
- 'DONOR FAVORS: Accused of using office to benefit real estate developer donor',
- ],
- charges: [
- { statute: 'Texas Securities Act', description: 'Securities Fraud; indicted 2015, still pending', category: 'State' },
- ],
- relatedInvestigations: [
- { title: 'January 6 Insurrection', slug: 'january-6-insurrection', severity: 'critical' },
- { title: 'Fake Electors Scheme', slug: 'fake-electors', severity: 'critical' },
- ],
- timeline: [
- { date: 'December 23, 1962', event: 'Born in Minot, North Dakota' },
- { date: '2015', event: 'Becomes Texas Attorney General' },
- { date: '2015', event: 'Indicted for securities fraud' },
- { date: 'December 8, 2020', event: 'Files SCOTUS election lawsuit' },
- { date: 'December 11, 2020', event: 'Supreme Court rejects case' },
- { date: 'May 2023', event: 'Impeached by Texas House' },
- { date: 'September 2023', event: 'Acquitted by Texas Senate' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Texas v. Pennsylvania', url: 'https://www.supremecourt.gov/orders/courtorders/121120zr_p860.pdf', date: '2020' }, ],
- aliases: [],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Filed lawsuit to overturn election', href: '/entities/individuals/donald-trump' },
- ],
- },
-
+ },
 
  'karl-rove': {
  name: 'Karl Christian Rove',
@@ -3511,95 +3413,7 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Kim Jong-il', relationship: 'Father and predecessor as Supreme Leader', href: '/individuals/kim-jong-il' },
     ],
-  },
-  'ken-paxton': {
-    name: 'Ken Paxton',
-    title: 'Texas Attorney General',
-    role: 'State attorney general indicted for securities fraud, impeached for corruption and bribery, acquitted by partisan vote, and under FBI investigation while serving as chief law enforcement officer',
-    riskLevel: 'critical',
-    description: 'Warren Kenneth Paxton Jr. has served as the Attorney General of Texas since 2015. In 2015, he was indicted on felony securities fraud charges for allegedly soliciting investors for a technology company without disclosing he was being compensated for the referrals. The case has been delayed for nearly a decade through procedural maneuvers. In September 2023, Paxton was impeached by the Texas House of Representatives on 20 articles including bribery, dereliction of duty, and obstruction of justice related to his relationship with political donor Nate Paul, a real estate developer. Paxton allegedly used his office to benefit Paul in exchange for favors including a job for a woman with whom Paxton was having an extramarital affair and renovations to his home. The Texas Senate acquitted Paxton in a party-line vote. Separately, Paxton is under FBI investigation for abuse of office. He has used his position to personally sue the Biden administration over 50 times and attempted to overturn the 2020 presidential election results by filing a lawsuit seeking to invalidate millions of votes in four other states.',
-    birthDate: 'July 5, 1963',
-    birthPlace: 'Minot, North Dakota',
-    education: ['Baylor University (B.A.)', 'University of Virginia School of Law (J.D.)'],
-    affiliations: [
-      { name: 'State of Texas', role: 'Attorney General', type: 'agency' as const },
-      { name: 'Texas House of Representatives', role: 'Former Member (2003-2012)', type: 'agency' as const },
-    ],
-    controversies: [
-      'Securities fraud indictment (2015): Charged with two first-degree felonies; case delayed nearly a decade',
-      'Impeachment (2023): 20 articles including bribery, abuse of office, and obstruction; acquitted by partisan Senate vote',
-      'Nate Paul scandal: Used AG office to benefit political donor in exchange for personal favors',
-      'Extramarital affair: Whistleblowers allege Paxton hired his mistress using donor\'s money',
-      'Election overthrow attempt: Filed Texas v. Pennsylvania lawsuit seeking to invalidate millions of votes in 4 states',
-      'FBI investigation: Ongoing federal probe into corruption and abuse of power',
-    ],
-    charges: [
-      { statute: 'Texas Securities Act Sec. 29(b)', description: 'Securities fraud - first-degree felony for soliciting investments without disclosing compensation', category: 'state' },
-      { statute: 'Texas Securities Act Sec. 29(c)', description: 'Failure to register with state securities board', category: 'state' },
-    ],
-    relatedInvestigations: ['/investigations/voter-suppression-modern-assault-on-democracy'],
-    timeline: [
-      { date: '2015-01-05', event: 'Inaugurated as Texas Attorney General' },
-      { date: '2015-07-28', event: 'Indicted on securities fraud charges' },
-      { date: '2020-12-08', event: 'Files Texas v. Pennsylvania lawsuit to overturn election; rejected by Supreme Court' },
-      { date: '2023-05-25', event: 'Impeached by Texas House of Representatives on 20 articles' },
-      { date: '2023-09-16', event: 'Acquitted by Texas Senate in party-line vote' },
-    ],
-    sources: [
-      { title: 'Texas Tribune: Ken Paxton Impeachment Coverage', url: 'https://www.texastribune.org/series/ken-paxton-impeachment/', date: '2023' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Nate Paul', relationship: 'Real estate developer and political donor; central figure in Paxton impeachment' },
-      { name: 'Greg Abbott', relationship: 'Governor of Texas; shielded Paxton from accountability', href: '/entities/individuals/greg-abbott' },
-    ],
-  },
-  'keith-raniere': {
-    name: 'Keith Raniere',
-    title: 'Founder, NXIVM',
-    role: 'Cult leader convicted of sex trafficking, forced labor, and racketeering',
-    riskLevel: 'critical',
-    description: 'Keith Raniere founded NXIVM, a purported self-improvement organization that functioned as a coercive cult. Raniere created a secret sub-group called DOS (Dominus Obsequious Sororium) in which women were branded with his initials using a cauterizing pen, required to provide "collateral" (compromising photographs and confessions), and subjected to sexual exploitation. He was convicted in June 2019 on all seven counts including sex trafficking, racketeering conspiracy, and forced labor, and sentenced to 120 years in federal prison. NXIVM recruited members from influential families and entertainment industry figures.',
-    birthDate: 'August 26, 1960',
-    birthPlace: 'Brooklyn, New York',
-    education: ['Rensselaer Polytechnic Institute (B.S. Mathematics, Biology, Physics)'],
-    affiliations: [
-      { name: 'NXIVM', role: 'Founder and Leader', type: 'organization' as const },
-    ],
-    controversies: [
-      'Created secret sub-group DOS where women were branded with his initials',
-      'Required members to provide compromising "collateral" including nude photos and confessions',
-      'Exploited and trafficked women within NXIVM organization',
-      'Engaged in sexual relationships with members including minors',
-      'Recruited from wealthy and influential families to extract money and control',
-      'Previous organization (Consumers Buyline) was shut down by New York AG as illegal pyramid scheme',
-    ],
-    charges: [
-      { statute: '18 U.S.C. 1591', description: 'Sex Trafficking', category: 'Sexual Crime' },
-      { statute: '18 U.S.C. 1962', description: 'Racketeering Conspiracy (RICO)', category: 'Organized Crime' },
-      { statute: '18 U.S.C. 1589', description: 'Forced Labor', category: 'Human Trafficking' },
-      { statute: '18 U.S.C. 1343', description: 'Wire Fraud Conspiracy', category: 'Financial Crime' },
-      { statute: '18 U.S.C. 1594', description: 'Sex Trafficking Conspiracy', category: 'Sexual Crime' },
-    ],
-    relatedInvestigations: [],
-    timeline: [
-      { date: '1998', event: 'Founded NXIVM (originally Executive Success Programs) in Albany, New York' },
-      { date: '2015', event: 'Created secret DOS sub-group with branded women and forced labor' },
-      { date: 'March 2018', event: 'Arrested in Mexico by FBI following New York Times expose' },
-      { date: 'June 2019', event: 'Convicted on all seven counts including sex trafficking' },
-      { date: 'October 2020', event: 'Sentenced to 120 years in federal prison' },
-    ],
-    sources: [
-      { title: 'DOJ: United States v. Keith Raniere', url: 'https://www.justice.gov/usao-edny/united-states-v-keith-raniere-et-al', date: '2019' },
-    ],
-    aliases: ['Vanguard'],
-    knownAssociates: [
-      { name: 'Allison Mack', relationship: 'Actress; DOS slave master; sentenced to 3 years' },
-      { name: 'Clare Bronfman', relationship: 'Seagram heiress; NXIVM financier; sentenced to 6+ years' },
-      { name: 'Nancy Salzman', relationship: 'NXIVM president; pleaded guilty to racketeering' },
-    ],
-  },
-  'kris-kobach': {
+  },  'kris-kobach': {
     name: 'Kris Kobach',
     title: 'Kansas Attorney General / Former Secretary of State',
     role: 'State Official',
