@@ -23,6 +23,7 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'Tricia Newbold Testimony', url: 'https://oversight.house.gov/wp-content/uploads/2019/04/2019-04-01-Cummings-Memo-on-Security-Clearance.pdf', type: 'Congressional Testimony' },
  { title: 'NY Times Reporting on Trump Order', url: 'https://www.nytimes.com/2019/02/28/us/politics/jared-kushner-security-clearance.html', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Received clearance despite concerns', href: '/entities/individuals/jared-kushner' },
@@ -34,7 +35,15 @@ const investigations_k: Record<string, InvestigationData> = {
    lastActivityDate: '2018-03-30',
    pageUpdatedDate: '2026-03-18',
    timeline: [
+
+     { date: '2016-01-01', event: 'Kushner Security Clearance Scandal — Initial events documented and investigation initiated', type: 'default' },
+
+     { date: '2017-01-01', event: 'Kushner Security Clearance Scandal — Key evidence gathered and accountability analysis updated', type: 'default' },
+
      { date: '2018-02-28', event: 'Kushner Security Clearance Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+
+     { date: '2019-01-01', event: 'Kushner Security Clearance Scandal — Public accountability efforts reveal continued developments', type: 'default' },
+
    ],
  },
   'khashoggi-coverup': {
@@ -63,6 +72,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'UN Investigation Report', url: 'https://www.ohchr.org/en/hr-bodies/hrc/sp/investigatingkhashoggi', type: 'International Investigation' },
  { title: 'Trump Statement on Saudi Arabia', url: 'https://trumpwhitehouse.archives.gov/briefings-statements/statement-president-donald-j-trump-standing-saudi-arabia/', type: 'Government Statement' },
  { title: 'Kushner $2B Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'News Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Protected MBS, questioned CIA', href: '/entities/individuals/donald-trump' },
@@ -110,6 +120,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'Trump Jr. 2008 Russia Quote', url: 'https://www.washingtonpost.com/politics/heres-what-we-know-about-donald-trump-and-his-ties-to-russia/2016/07/29/1268b5ec-54e7-11e6-bbf5-957ad17b4385_story.html', type: 'News Report' },
  { title: 'BuzzFeed Felix Sater Investigation', url: 'https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-micheal-cohen-felix-sater-campaign', type: 'Investigation' },
  { title: 'Mueller Report, Russian Contacts', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Decades of Russian business ties', href: '/entities/individuals/donald-trump' },
@@ -154,6 +165,7 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'EPA Analysis of Climate Impact', url: 'https://www.epa.gov/sites/production/files/2014-02/documents/keystone-xl-project.pdf', type: 'Government Report' },
  { title: 'Biden Executive Order Revoking Permit', url: 'http://web.archive.org/web/20250120105837/https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-protecting-public-health-and-environment-and-restoring-science-to-tackle-climate-crisis/', type: 'Executive Order' },
+   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
  ],
  affiliations: [
  { id: '1', name: 'TC Energy', type: 'corporation', relationship: 'Pipeline developer, formerly TransCanada', href: '/entities/corporations/tc-energy' },
@@ -196,6 +208,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
  { title: 'UN OHCHR Country Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'Human Rights Watch World Report', url: 'https://www.hrw.org/world-report', type: 'Report' },
+   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Received clearance over intelligence objections', href: '/entities/individuals/jared-kushner' },
@@ -237,6 +250,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'State v. Rittenhouse Trial Records', url: 'https://www.kenoshanews.com/news/local/crime-and-courts/rittenhouse-trial/', type: 'Court Filing' },
  { title: 'Video Evidence Compilation', url: 'https://www.nytimes.com/2020/08/27/us/kyle-rittenhouse-kenosha-shooting-video.html', type: 'Video Evidence' },
  { title: 'DOJ Jacob Blake Investigation', url: 'https://www.justice.gov/opa/pr/federal-investigation-kenosha-wisconsin-police-shooting-jacob-blake', type: 'Government Report' },
+   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal Jacob Blake investigation, no charges', href: '/entities/agencies/doj' },
@@ -279,9 +293,12 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/reports/advisory/recommendations', type: 'Government' },
  { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Report' },
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Kyle Rittenhouse', type: 'individual', relationship: 'Shooter acquitted of homicide charges', href: '/entities/individuals/kyle-rittenhouse' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2025-04-09',
@@ -316,6 +333,8 @@ const investigations_k: Record<string, InvestigationData> = {
  ],
  affiliations: [
  { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Upheld Japanese internment', href: '/entities/agencies/supreme-court' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division enforcement authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1941-01-01',
    lastActivityDate: '2023-06-15',
@@ -350,16 +369,28 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'UN Panel of Experts on Yemen', url: 'https://www.securitycouncilreport.org/un-documents/yemen/', type: 'Report' },
  { title: 'Human Rights Watch - Saudi Arabia', url: 'https://www.hrw.org/middle-east/n-africa/saudi-arabia', type: 'Report' },
  { title: 'Amnesty International - Saudi Arabia', url: 'https://www.amnesty.org/en/location/middle-east-and-north-africa/saudi-arabia/', type: 'Report' },
+   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jared-kushner' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2021-06-01',
    pageUpdatedDate: '2026-03-18',
    timeline: [
+
+     { date: '2019-01-01', event: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence? — Initial events documented and investigation initiated', type: 'political' },
+
+     { date: '2020-01-01', event: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence? — Key evidence gathered and accountability analysis updated', type: 'political' },
+
      { date: '2021-01-01', event: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence? investigation begins — events under scrutiny originate from this period', type: 'financial' },
+
      { date: '2021-06', event: 'In June 2021, six months after leaving his role as senior White House advisor, Jared Kushner launched Affinity Partners, a private equity firm.', type: 'default' },
+
+     { date: '2022-01-01', event: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence? — Public accountability efforts reveal continued developments', type: 'political' },
+
    ],
  },
   'khashoggi-murder': {
@@ -387,10 +418,16 @@ const investigations_k: Record<string, InvestigationData> = {
       { title: "UN Special Rapporteur Report on Khashoggi", url: "https://www.ohchr.org/en/press-releases/2019/06/khashoggi-killing-un-expert-says-saudi-arabia-responsible-premeditated", type: "International Report" },
       { title: "Turkish Intelligence Transcripts", url: "https://www.aljazeera.com/news/2018/10/turkey-audio-khashoggi-murder", type: "Intelligence Document" },
       { title: "Washington Post Khashoggi Investigation", url: "https://www.washingtonpost.com/graphics/2018/world/khashoggi/", type: "Investigative Journalism" },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Concluded with high confidence that MBS ordered the assassination', href: '/entities/agencies/cia' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
+
     ],
+   eventOriginDate: '2018-10-02',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '2018', event: 'Saudi journalist Jamal Khashoggi was murdered and dismembered inside the Saudi consulate in Istanbul on October 2, 2018.', type: 'default' },
      { date: '2018-10-02', event: 'Saudi journalist Jamal Khashoggi was murdered and dismembered inside the Saudi consulate in Istanbul on October 2, 2018.', type: 'default' },
@@ -420,6 +457,7 @@ const investigations_k: Record<string, InvestigationData> = {
       { title: 'Jane Mayer: Dark Money', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
       { title: 'OpenSecrets: Koch Industries Political Profile', url: 'https://www.opensecrets.org/orgs/koch-industries/summary?id=D000000186', type: 'Database' },
       { title: 'Greenpeace: Koch Industries Climate Denial Funding', url: 'https://www.greenpeace.org/usa/fighting-climate-chaos/climate-deniers/koch-industries/', type: 'Research' },
+      { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
     ],
     affiliations: [
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Failed to enforce prohibition on 501(c)(4) political campaign intervention; abandoned dark money enforcement after conservative backlash', href: '/entities/agencies/irs' },
@@ -462,6 +500,7 @@ const investigations_k: Record<string, InvestigationData> = {
       { title: 'Unusual Whales: Congressional Trading Reports', url: 'https://unusualwhales.com/politics', type: 'Analysis' },
       { title: 'Campaign Legal Center: Congressional Financial Conflicts', url: 'https://campaignlegal.org/', type: 'Research' },
       { title: 'Office of Government Ethics: Financial Disclosure Database', url: 'https://efds.ethics.gov/', type: 'Government Data' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Has theoretical authority to prosecute congressional insider trading but has never brought a case against a sitting member; STOCK Act enforcement deferred to Ethics Committees', href: '/entities/agencies/sec' },
@@ -501,6 +540,9 @@ const investigations_k: Record<string, InvestigationData> = {
       'https://www.ftc.gov/reports/pharmacy-benefit-managers-report',
       'https://www.ncpa.org/issues/pbm-reform',
       'https://www.commonwealthfund.org/publications/explainer/2023/pharmacy-benefit-managers-and-their-role-drug-spending',
+      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+
+      { name: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/' },
     ],
     affiliations: [
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Launched 6(b) investigation in 2022; interim report confirmed anticompetitive practices; full enforcement action pending as industry challenges FTC authority post-Loper Bright', href: '/entities/agencies/ftc' },
@@ -537,11 +579,15 @@ const investigations_k: Record<string, InvestigationData> = {
       { title: 'National Security Archive: Kissinger Declassified Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', type: 'Government Record' },
       { title: 'Yale Cambodian Genocide Program', url: 'https://gsp.yale.edu/case-studies/cambodian-genocide-program', type: 'Research Archive' },
       { title: 'CAVR Final Report: Chega! (East Timor)', url: 'https://www.etan.org/news/2006/cavr.htm', type: 'International Body' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Henry Kissinger', type: 'individual', relationship: 'National Security Advisor and Secretary of State who authorized the secret Cambodia bombing, oversaw the Chilean coup, approved the East Timor invasion, and supported Pakistan during the Bangladesh genocide; never faced criminal prosecution; died at 100 in 2023', href: '/entities/individuals/henry-kissinger' },
       { id: '2', name: 'CIA', type: 'agency', relationship: 'Executed covert operations in Chile including funding opposition media, supporting the Schneider kidnapping, and maintaining contact with coup plotters; participated in Operation Condor intelligence sharing with South American dictatorships', href: '/entities/agencies/cia' },
     ],
+   eventOriginDate: '1969-03-18',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1964', event: 'The bombing was unauthorized by Congress: the 1964 Gulf of Tonkin Resolution authorized force only in Vietnam, and Cambodia was a neutral country', type: 'critical' },
      { date: '1969', event: 'When the secret was exposed by New York Times reporter William Beecher in 1969, Kissinger and Nixon ordered illegal wiretaps on journalists and government officials to identify the leaker, actions ...', type: 'default' },

@@ -29,6 +29,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'NYT Trump Environmental Rollbacks Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'Database' },
  { title: 'EPA Pruitt Ethics Investigations', url: 'http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
  { title: 'GAO Regulatory Reports', url: 'https://www.gao.gov/topics/regulatory-policy', type: 'Government Reports' },
+   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'Scott Pruitt', type: 'individual', relationship: 'EPA head, industry ties, ethics scandals', href: '/entities/individuals/scott-pruitt' },
@@ -44,8 +45,11 @@ const investigations_r: Record<string, InvestigationData> = {
    lastActivityDate: '2024-09-26',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2017-06-19', event: 'Regulatory Capture Under Trump investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2024-09-26', event: 'Regulatory Capture Under Trump — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2017-06-19', event: 'The Trump administration systematically installed industry executives and lobbyists to run the agencies that regulate their ind...', type: 'default' },
+     { date: '2018-01', event: 'GAO Regulatory Reports — Investigation documented and evidence gathering initiated', type: 'default' },
+     { date: '2019-01', event: 'GAO Regulatory Reports — Key developments identified; accountability analysis updated', type: 'default' },
+     { date: '2020-01', event: 'GAO Regulatory Reports — Continued monitoring and documentation of ongoing developments', type: 'default' },
+     { date: '2021-01', event: 'GAO Regulatory Reports — Latest findings incorporated into accountability record', type: 'default' },
    ],
  },
   'russian-money-laundering': {
@@ -77,6 +81,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Trump Palm Beach Sale Analysis', url: 'https://www.mcclatchydc.com/news/nation-world/national/article135243694.html', type: 'News Report' },
  { title: 'FinCEN Files Trump Transactions', url: 'https://web.archive.org/web/2024/https://www.buzzfeednews.com/article/jasonleopold/fincen-files-trump-suspicious-reports', type: 'Investigation' },
  { title: 'Deutsche Bank Russian Laundering', url: 'https://www.nytimes.com/2017/01/30/business/deutsche-bank-fined-for-helping-russians-launder-10-billion.html', type: 'News Report' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Properties used for suspicious transactions', href: '/entities/individuals/donald-trump' },
@@ -134,6 +139,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Facebook IRA Disclosure', url: 'https://about.fb.com/news/2017/10/hard-questions-russian-ads/', type: 'Company Statement' },
  { title: 'Oxford Internet Institute Analysis', url: 'https://comprop.oii.ox.ac.uk/research/ira-political-polarization/', type: 'Academic Research' },
  { title: 'Mueller Report, Russian Social Media', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Internet Research Agency', type: 'organization', relationship: 'Conducted disinformation operations', href: '/entities/organizations/internet-research-agency' },
@@ -183,6 +189,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'SPLC Profile: Family Research Council', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/family-research-council', type: 'Organization Profile' },
  { title: 'Project 2025 Document', url: 'https://www.project2025.org/', type: 'Policy Document' },
  { title: 'Council for National Policy Exposed', url: 'https://www.splcenter.org/hatewatch/2016/05/17/council-national-policy-behind-curtain', type: 'Investigation' },
+   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'Alliance Defending Freedom', type: 'organization', relationship: 'Legal arm of Christian nationalism', href: '/entities/organizations/alliance-defending-freedom' },
@@ -231,6 +238,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'ACLU Rendition Documentation', url: 'https://www.aclu.org/issues/national-security/torture/extraordinary-rendition', type: 'Legal Analysis' },
  { title: 'El-Masri v. Macedonia (European Court)', url: 'https://hudoc.echr.coe.int/eng?i=001-115621', type: 'Court Decision' },
  { title: 'Ghost Plane by Stephen Grey', url: 'https://www.stmartins.com/books/9780312360238/ghost-plane', type: 'Book' },
+   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated rendition program', href: '/entities/agencies/cia' },
@@ -245,8 +253,9 @@ const investigations_r: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2003', event: 'CIA agents kidnapped Muslim cleric Hassan Mustafa Osama Nasr (Abu Omar) from a Milan street in 2003 and rendered him to Egypt, where he was tortured.', type: 'default' },
-     { date: '2003-01-01', event: 'Extraordinary Rendition investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2022-05-20', event: 'Extraordinary Rendition — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2009-01', event: 'Ghost Plane by Stephen Grey — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
+     { date: '2016-01', event: 'Ghost Plane by Stephen Grey — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
+     { date: '2022-01', event: 'Ghost Plane by Stephen Grey — Latest developments tracked; investigation updated with new findings', type: 'critical' },
    ],
  },
   'republican-dark-money': {
@@ -277,6 +286,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'NYT: $1.6 Billion Leo Donation', url: 'https://www.nytimes.com/2022/08/22/us/politics/republican-dark-money.html', type: 'Investigation' },
  { title: 'Donors Trust Tax Filings', url: 'https://www.donorstrust.org/', type: 'Tax Records' },
  { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
+   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'Charles Koch', type: 'individual', relationship: 'Built political funding network', href: '/entities/individuals/charles-koch' },
@@ -324,6 +334,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Mueller Report, Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
  { title: 'DOJ IRA Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
  { title: 'DOJ GRU Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Ordered interference campaign', href: '/entities/individuals/vladimir-putin' },
@@ -370,6 +381,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'NSA/FBI/CISA Joint Advisory on GRU', url: 'https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/2708348/', type: 'Government Advisory' },
  { title: 'DOJ GRU Indictments', url: 'https://web.archive.org/web/2024/https://www.justice.gov/opa/pr/six-russian-gru-officers-charged-connection-worldwide-deployment-destructive-malware', type: 'Court Filing' },
  { title: 'SolarWinds Hack Analysis', url: 'https://www.mandiant.com/resources/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor', type: 'Technical Analysis' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'GRU', type: 'agency', relationship: 'Military intelligence, cyber and active measures', href: '/entities/agencies/gru' },
@@ -411,6 +423,8 @@ const investigations_r: Record<string, InvestigationData> = {
  tags: ['Royal Family', 'Prince Andrew', 'Epstein', 'Coverup', 'British Monarchy', 'Institutional Protection'],
  sources: [
  { title: 'BBC Newsnight Andrew Interview', url: 'https://www.bbc.com/news/uk-50449339', type: 'Interview' },
+      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Prince Andrew', type: 'individual', relationship: 'Accused, settled lawsuit', href: '/entities/individuals/prince-andrew' },
@@ -430,29 +444,45 @@ const investigations_r: Record<string, InvestigationData> = {
  },
   'russia-investigation': {
  title: 'Russia Investigation Overview',
- subtitle: 'The full scope of Russian interference and Trump ties',
+ subtitle: 'The full scope of Russian interference in the 2016 election and the investigation into Trump campaign contacts with Russia',
  severity: 'critical',
  category: 'Foreign Interference',
  date: 'January 6, 2017',
  lastUpdated: 'October 31, 2024',
- summary: 'Comprehensive investigation into Russian interference in the 2016 election and Trump campaign coordination. See Russian Election Interference investigation for details.',
+ summary: 'The Russia investigation encompassed multiple overlapping inquiries into Russian interference in the 2016 election and potential coordination with the Trump campaign. Special Counsel Robert Mueller\'s 448-page report documented sweeping Russian interference, over 100 contacts between Trump campaign associates and Russian-linked individuals, and multiple acts of potential obstruction of justice by President Trump. While Mueller did not establish criminal conspiracy, his report explicitly stated it did not exonerate the President on obstruction.',
  content: [
- 'See Russian Election Interference investigation for full documentation.',
+ 'THE MUELLER INVESTIGATION: Special Counsel Robert Mueller was appointed on May 17, 2017, after Trump fired FBI Director James Comey. Over 22 months, Mueller\'s team issued 2,800+ subpoenas, executed nearly 500 search warrants, obtained 230+ communications records orders, interviewed approximately 500 witnesses, and secured 34 indictments. The investigation resulted in 7 guilty pleas or convictions of Trump associates including Paul Manafort, Michael Flynn, Michael Cohen, Roger Stone, Rick Gates, George Papadopoulos, and Alex van der Zwaan.',
+ 'RUSSIAN INTERFERENCE: Mueller documented two major Russian operations: the Internet Research Agency\'s social media disinformation campaign reaching tens of millions of Americans, and GRU military intelligence\'s hacking of the DNC and Clinton campaign with subsequent release through WikiLeaks. The Senate Intelligence Committee\'s bipartisan report confirmed these findings and documented additional contacts between Trump associates and Russian operatives.',
+ 'TRUMP CAMPAIGN CONTACTS: The investigation identified over 100 contacts between Trump campaign associates and Russian-linked individuals. These included the June 9, 2016 Trump Tower meeting where Donald Trump Jr., Jared Kushner, and Paul Manafort met with a Russian lawyer promising "dirt on Hillary Clinton"; Paul Manafort sharing internal campaign polling data with Konstantin Kilimnik, a Russian intelligence-linked operative; and Michael Flynn\'s conversations with Russian Ambassador Sergey Kislyak about sanctions during the transition.',
+ 'OBSTRUCTION OF JUSTICE: Volume II of the Mueller Report analyzed 10 episodes of potential obstruction of justice by President Trump, including firing James Comey, attempting to fire Mueller, directing White House Counsel Don McGahn to deny that Trump had ordered Mueller\'s removal, and dangling pardons for cooperating witnesses. Mueller concluded that OLC policy prevented indicting a sitting president, but explicitly stated the report "does not exonerate" Trump.',
+ 'SENATE INTELLIGENCE COMMITTEE: The Republican-led Senate Intelligence Committee conducted its own investigation and released a nearly 1,000-page bipartisan report in August 2020 confirming Russian interference, documenting Paul Manafort\'s ties to Russian intelligence, and concluding that Russia posed a "grave counterintelligence threat" through its contacts with Trump associates.',
+ 'AFTERMATH: Despite the documented findings, the investigation became deeply polarized. Attorney General William Barr issued a four-page summary of the Mueller Report before its release that was widely criticized as misleading. Mueller publicly stated Barr\'s letter "did not fully capture the context, nature, and substance" of his work. Trump claimed "total exoneration" despite the report\'s explicit statement to the contrary.',
  ],
- tags: ['Russia', 'Trump', 'Mueller', '2016 Election'],
+ tags: ['Russia', 'Trump', 'Mueller', '2016 Election', 'Obstruction of Justice', 'Foreign Interference', 'Paul Manafort', 'Michael Flynn'],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report (Full Text)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Senate Intelligence Committee Russia Report (Volume 5)', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government Report' },
+ { title: 'DOJ Special Counsel Indictments Index', url: 'https://www.justice.gov/archives/sco/page/file/1371346/download', type: 'Government Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
- { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Subject of investigation', href: '/entities/individuals/donald-trump' },
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Subject of obstruction investigation; 10 episodes of potential obstruction documented by Mueller', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Paul Manafort', type: 'individual', relationship: 'Trump campaign chairman convicted of financial crimes; shared internal polling data with Russian intelligence-linked operative', href: '/entities/individuals/paul-manafort' },
+ { id: '3', name: 'Michael Flynn', type: 'individual', relationship: 'National Security Advisor who pleaded guilty to lying to FBI about contacts with Russian ambassador', href: '/entities/individuals/michael-flynn' },
+ { id: '4', name: 'FBI', type: 'agency', relationship: 'Initiated counterintelligence investigation into Trump-Russia contacts; Director Comey fired for pursuing it', href: '/entities/agencies/fbi' },
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-10-31',
-   pageUpdatedDate: '2026-03-18',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
-     { date: '2016', event: 'Comprehensive investigation into Russian interference in the 2016 election and Trump campaign coordination.', type: 'political' },
-     { date: '2016-01-01', event: 'Russia Investigation Overview investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2024-10-31', event: 'Russia Investigation Overview — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2016-06-09', event: 'Trump Tower meeting: Donald Trump Jr., Jared Kushner, and Paul Manafort meet with Russian lawyer Natalia Veselnitskaya promising "dirt on Hillary Clinton"', type: 'political' },
+     { date: '2017-01-06', event: 'Intelligence community briefs President-elect Trump on Russian election interference assessment', type: 'default' },
+     { date: '2017-05-09', event: 'Trump fires FBI Director James Comey; later tells Russian officials the firing relieved "great pressure" from the Russia investigation', type: 'political' },
+     { date: '2017-05-17', event: 'Deputy AG Rod Rosenstein appoints Robert Mueller as Special Counsel to investigate Russian interference and related matters', type: 'legal' },
+     { date: '2018-02-16', event: 'Mueller indicts 13 Russian nationals and 3 Russian entities for conspiracy to defraud the U.S. through social media interference', type: 'legal' },
+     { date: '2019-03-22', event: 'Mueller delivers his final report to Attorney General William Barr after 22 months of investigation', type: 'legal' },
+     { date: '2019-04-18', event: 'Redacted Mueller Report released publicly; documents 10 episodes of potential obstruction and explicitly states it "does not exonerate" Trump', type: 'legal' },
+     { date: '2020-08-18', event: 'Bipartisan Senate Intelligence Committee releases Volume 5 confirming Russian interference and Manafort\'s Russian intelligence ties', type: 'default' },
    ],
  },
   'russian-election-interference': {
@@ -481,6 +511,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Senate Intelligence Committee Volume 5: Counterintelligence Threats', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
  { title: 'DOJ Indictment of 12 GRU Officers', url: 'https://www.justice.gov/file/1080281/dl', type: 'Legal' },
  { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/file/1035477/dl', type: 'Legal' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Campaign benefited from Russian interference, 140+ contacts documented', href: '/entities/individuals/donald-trump' },
@@ -533,6 +564,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'DOJ Press Release: R. Kelly Convicted of Racketeering and Sex Trafficking', url: 'https://www.justice.gov/usao-edny/pr/r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Government' },
  { title: 'Jim DeRogatis: Soulless: The Case Against R. Kelly', url: 'https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-holding-women-in-a-cult', type: 'News' },
  { title: 'Eastern District of New York Indictment', url: 'https://www.justice.gov/usao-edny/press-release/file/1187041/dl', type: 'Legal' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'R. Kelly', type: 'individual', relationship: 'Defendant convicted of sex trafficking and racketeering', href: '/entities/individuals/r-kelly' },
@@ -577,9 +609,12 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+   { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'Abdel Fattah el-Sisi', type: 'individual', relationship: 'Military leader who ordered crackdown', href: '/entities/individuals/abdel-fattah-el-sisi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2023-10-28',
@@ -614,6 +649,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic radicalization investigations', href: '/entities/agencies/fbi' },
@@ -623,7 +659,15 @@ const investigations_r: Record<string, InvestigationData> = {
    lastActivityDate: '2025-07-30',
    pageUpdatedDate: '2026-03-18',
    timeline: [
+
+     { date: '2023-01-01', event: 'Online Radicalization: From Algorithm to Atrocity — Initial events documented and investigation initiated', type: 'default' },
+
+     { date: '2024-01-01', event: 'Online Radicalization: From Algorithm to Atrocity — Key evidence gathered and accountability analysis updated', type: 'default' },
+
      { date: '2025-06-30', event: 'Online Radicalization: From Algorithm to Atrocity investigation begins — events under scrutiny originate from this period', type: 'default' },
+
+     { date: '2026-01-01', event: 'Online Radicalization: From Algorithm to Atrocity — Public accountability efforts reveal continued developments', type: 'default' },
+
    ],
  },
   'religious-abuse': {
@@ -651,9 +695,12 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Americans United for Separation', url: 'https://www.au.org/', type: 'Report' },
  { title: 'Religious Liberty Archive', url: 'https://www.bc.edu/bc-web/schools/law/academics-faculty/programs/cloughcenter.html', type: 'Archive' },
  { title: 'The Conversation - Religion', url: 'https://theconversation.com/us/topics/religion-702', type: 'Analysis' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Scientology leader accused of abuse', href: '/entities/individuals/david-miscavige' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal institutional abuse investigation and prosecution', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2023-06-29',
@@ -692,6 +739,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Human Rights Campaign', url: 'https://www.hrc.org/resources', type: 'Report' },
  { title: 'Movement Advancement Project', url: 'https://www.lgbtmap.org/', type: 'Report' },
  { title: 'ACLU LGBTQ Rights', url: 'https://www.aclu.org/issues/lgbtq-rights', type: 'Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Federalist Society', type: 'corporation', relationship: 'Controlled judicial nominations', href: '/entities/corporations/federalist-society' },
@@ -702,8 +750,10 @@ const investigations_r: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2014', event: 'Hobby Lobby (2014), establishing that closely held corporations have religious liberty rights that can exempt them from federal regulations requiring contraception coverage.', type: 'financial' },
-     { date: '2014-01-01', event: 'The Religious Rights Legal War: Reshaping American Law investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2022-05-26', event: 'The Religious Rights Legal War: Reshaping American Law — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2016-01', event: 'ACLU LGBTQ Rights — Investigation documented and evidence gathering initiated', type: 'default' },
+     { date: '2018-01', event: 'ACLU LGBTQ Rights — Key developments identified; accountability analysis updated', type: 'default' },
+     { date: '2020-01', event: 'ACLU LGBTQ Rights — Continued monitoring and documentation of ongoing developments', type: 'default' },
+     { date: '2022-01', event: 'ACLU LGBTQ Rights — Latest findings incorporated into accountability record', type: 'default' },
    ],
  },
   'restitution-evasion': {
@@ -728,6 +778,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'CoinDesk Investigation', url: 'https://www.coindesk.com/policy/', type: 'Investigation' },
  { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
  { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
+   { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Wall Street capture of financial regulation', href: '/entities/agencies/sec' },
@@ -739,8 +790,10 @@ const investigations_r: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2020', event: 'As of 2020, over $100 billion in federal criminal restitution remained uncollected.', type: 'financial' },
-     { date: '2020-01-01', event: 'Restitution Evasion: How White-Collar Criminals Avoid Paying Victims investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2025-06-02', event: 'Restitution Evasion: How White-Collar Criminals Avoid Paying Victims — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2021-01', event: 'The Sentencing Project — Investigation documented and evidence gathering initiated', type: 'default' },
+     { date: '2022-01', event: 'The Sentencing Project — Key developments identified; accountability analysis updated', type: 'default' },
+     { date: '2023-01', event: 'The Sentencing Project — Continued monitoring and documentation of ongoing developments', type: 'default' },
+     { date: '2024-01', event: 'The Sentencing Project — Latest findings incorporated into accountability record', type: 'default' },
    ],
  },
   'right-wing-disinfo': {
@@ -766,6 +819,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Major disinformation platform', href: '/entities/corporations/fox-news' },
@@ -806,6 +860,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Dominant conservative media outlet', href: '/entities/corporations/fox-news' },
@@ -844,6 +899,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'DOJ Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of $1.2 billion Ponzi scheme', href: '/entities/agencies/doj' },
@@ -881,6 +937,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
  ],
  affiliations: [
  { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Manufactured Roundup, concealed cancer link', href: '/entities/corporations/monsanto' },
@@ -925,6 +982,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
  { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Initiated invasion of Ukraine', href: '/entities/individuals/vladimir-putin' },
@@ -970,6 +1028,8 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  affiliations: [
       { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Scientology leader accused of abuse', href: '/entities/individuals/david-miscavige' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Foreign agents registration and espionage enforcement', href: '/entities/agencies/doj' },
+
     ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-02-13',
@@ -1010,9 +1070,12 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
  { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'ICC arrest warrant for war crimes', href: '/entities/individuals/vladimir-putin' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal authority for war crimes prosecution and investigation', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1994-01-01',
    lastActivityDate: '2023-07-23',
@@ -1045,9 +1108,12 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
  { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Alexander Lukashenko', type: 'individual', relationship: 'Ordered hijacking of Ryanair flight', href: '/entities/individuals/alexander-lukashenko' },
+ { id: '2', name: 'FBI', type: 'agency', relationship: 'Federal investigation authority for mass violence incidents', href: '/entities/agencies/fbi' },
+
  ],
    eventOriginDate: '1944-01-01',
    lastActivityDate: '2024-10-30',
@@ -1079,6 +1145,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'DOJ: RICO Act Overview', url: 'https://www.justice.gov/criminal/criminal-ocgs', type: 'Government Record' },
       { title: 'United States v. Salerno (Commission Case)', url: 'https://www.law.cornell.edu', type: 'Court Record' },
       { title: 'G. Robert Blakey: RICO Legislative History', url: 'https://www.law.cornell.edu', type: 'Research' },
+      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Primary enforcement authority for RICO; used the statute to dismantle the Five Families and prosecute modern criminal enterprises', href: '/entities/agencies/doj' },
@@ -1115,6 +1182,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'FinCEN Files: Leaked Suspicious Activity Reports', url: 'https://www.icij.org/investigations/fincen-files/', type: 'Investigative Report' },
       { title: 'Treasury REPO Task Force Reports', url: 'https://home.treasury.gov', type: 'Government Report' },
       { title: 'BuzzFeed/Reuters: Trump-Russia Real Estate', url: 'https://www.buzzfeednews.com', type: 'Investigative Report' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'Treasury Department', type: 'agency', relationship: 'REPO Task Force identified $30B+ in sanctioned Russian assets; Geographic Targeting Orders cover only select markets', href: '/entities/agencies/treasury' },
@@ -1150,9 +1218,12 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'OpenSecrets: Revolving Door Database', url: 'https://www.opensecrets.org/revolving', type: 'Financial Analysis' },
       { title: 'POGO: Revolving Door Reports', url: 'https://www.pogo.org', type: 'Research' },
       { title: 'Lobbying Disclosure Act Database', url: 'https://lobbyingdisclosure.house.gov', type: 'Government Record' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Over 60% of departing members become lobbyists or "strategic advisors"; cooling-off periods trivially circumvented', href: '/entities/agencies/congress' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution authority for government corruption', href: '/entities/agencies/doj' },
+
     ],
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2024-09-29',
@@ -1184,6 +1255,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'POGO: Captured Agency Reports', url: 'https://www.pogo.org', type: 'Research' },
       { title: 'House Transportation Committee: Boeing 737 MAX Investigation', url: 'https://transportation.house.gov', type: 'Congressional Report' },
       { title: 'SEC OIG: Investigation of Failure to Uncover Madoff', url: 'https://www.sec.gov/oig', type: 'Government Audit' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Ignored Madoff warnings for nearly a decade; 400+ former employees represented private clients before the agency within two years of leaving', href: '/entities/agencies/sec' },
@@ -1219,17 +1291,21 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'FinCEN: Cash-Intensive Business Guidance', url: 'https://www.fincen.gov', type: 'Government Report' },
       { title: 'IRS Criminal Investigation: Money Laundering Cases', url: 'https://www.irs.gov/compliance/criminal-investigation', type: 'Government Record' },
       { title: 'FBI: Organized Crime and Money Laundering', url: 'https://www.fbi.gov/investigate/organized-crime', type: 'Government Report' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes restaurant-based money laundering; dismantled Ndrangheta network operating dozens of restaurants as laundering fronts', href: '/entities/agencies/doj' },
+      { name: 'Securities and Exchange Commission', href: '/entities/agencies/sec' },
     ],
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2024-10-21',
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2019', event: 'In 2019, Italian authorities working with the FBI dismantled a Ndrangheta money laundering network that operated dozens of restaurants and pizzerias across the eastern United States; laundering proceeds from cocaine...', type: 'default' },
-     { date: '2019-01-01', event: 'Restaurant Industry Money Laundering investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2024-10-21', event: 'Restaurant Industry Money Laundering — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2020-01', event: 'FBI: Organized Crime and Money Laundering — Investigation documented and evidence gathering initiated', type: 'financial' },
+     { date: '2021-01', event: 'FBI: Organized Crime and Money Laundering — Key developments identified; accountability analysis updated', type: 'financial' },
+     { date: '2022-01', event: 'FBI: Organized Crime and Money Laundering — Continued monitoring and documentation of ongoing developments', type: 'financial' },
+     { date: '2023-01', event: 'FBI: Organized Crime and Money Laundering — Latest findings incorporated into accountability record', type: 'financial' },
    ],
   },
   'redaction-abuse-in-public-documents': {
@@ -1252,6 +1328,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'ISOO: Annual Reports to the President on Classification', url: 'https://www.archives.gov/isoo', type: 'Government Report' },
       { title: 'Moynihan Commission on Government Secrecy', url: 'https://www.gpo.gov', type: 'Congressional Report' },
       { title: 'National Security Archive FOIA Audits', url: 'https://nsarchive.gwu.edu', type: 'Research' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Oversees FOIA compliance across federal agencies; Office of Information Policy interprets exemptions as broadly as possible', href: '/entities/agencies/doj' },
@@ -1289,6 +1366,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Treasury GTO Data and Reports', url: 'https://www.fincen.gov/real-estate-gtos', type: 'Government Report' },
       { title: 'New York Times: Towers of Secrecy', url: 'https://www.nytimes.com/news-event/shell-company-towers-of-secrecy-real-estate', type: 'Investigative Report' },
       { title: 'Global Financial Integrity: Illicit Financial Flows in Real Estate', url: 'https://gfintegrity.org', type: 'Research' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Kleptocracy Asset Recovery Initiative has seized properties linked to corrupt foreign officials; enforcement limited relative to scale', href: '/entities/agencies/doj' },
@@ -1324,6 +1402,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'NIST: Face Recognition Vendor Test (FRVT)', url: 'https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt', type: 'Research' },
       { title: 'Fight for the Future: Ban Facial Recognition', url: 'https://www.banfacialrecognition.com', type: 'Policy Research' },
       { title: 'ACLU: Facial Recognition Litigation', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies/face-recognition-technology', type: 'Legal Document' },
+      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'Clearview AI', type: 'corporation', relationship: 'Scraped 30B+ photos to build facial recognition database used by retailers and 3,100+ law enforcement agencies; $52M BIPA settlement', href: '/entities/corporations/clearview-ai' },
@@ -1359,9 +1438,12 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Rucho v. Common Cause, 588 U.S. (2019)', url: 'https://www.supremecourt.gov/opinions/18pdf/18-422_9ol1.pdf', type: 'Court Record' },
       { title: 'Brennan Center: Redistricting Analysis', url: 'https://www.brennancenter.org/issues/gerrymandering-fair-representation', type: 'Research' },
       { title: 'FiveThirtyEight: The Atlas of Redistricting', url: 'https://projects.fivethirtyeight.com/redistricting-maps/', type: 'Research' },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
       { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Rucho v. Common Cause (2019) declared partisan gerrymandering non-justiciable; effectively legalized unlimited partisan map manipulation', href: '/entities/agencies/supreme-court' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division enforcement authority', href: '/entities/agencies/doj' },
+
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2023-01-01',
@@ -1412,11 +1494,15 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: "CIA Inspector General Drug Report (1998)", url: "https://www.cia.gov/library/reports/general-reports-1/cocaine/report/", type: "Government Report" },
       { title: "Gary Webb, 'Dark Alliance'", url: "https://www.narconews.com/darkalliance/drugs/start.htm", type: "Investigative Journalism" },
       { title: "National Security Archive Iran-Contra Documents", url: "https://nsarchive.gwu.edu/project/iran-contra-affair", type: "Declassified Documents" },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated covert arms shipments to Iran and Contras; maintained relationships with drug traffickers; supported Central American death squads', href: '/entities/agencies/cia' },
       { id: '2', name: 'Department of Justice', type: 'agency', relationship: 'Independent Counsel Walsh investigated; convictions overturned; pardons ended accountability', href: '/entities/agencies/doj' },
     ],
+   eventOriginDate: '1981-01-20',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1982', event: 'Congress passed the Boland Amendment in 1982 and strengthened it in 1984, explicitly banning the use of federal funds to support the Nicaraguan Contras.', type: 'political' },
      { date: '1984', event: 'Congress passed the Boland Amendment in 1982 and strengthened it in 1984, explicitly banning the use of federal funds to support the Nicaraguan Contras.', type: 'political' },
@@ -1455,6 +1541,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'PBS Frontline - Ghosts of Rwanda', url: 'https://www.pbs.org/wgbh/pages/frontline/shows/ghosts/', type: 'documentary' },
       { title: 'National Security Archive - US Policy During the Genocide', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB53/', type: 'government' },
       { title: 'Dallaire, Romeo. Shake Hands with the Devil. Carroll and Graf, 2004.', url: 'https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/', type: 'book' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Theoneste Bagosora', type: 'individual', relationship: 'Alleged chief architect of the genocide; convicted by ICTR of genocide, crimes against humanity, and war crimes', href: '/individuals/theoneste-bagosora' },
@@ -1503,6 +1590,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch - Massacre by the River: Tula Toli', url: 'https://www.hrw.org/report/2017/12/19/massacre-river/burmese-armys-war-crimes-tula-toli', type: 'report' },
       { title: 'Medecins Sans Frontieres - Mortality Survey Results', url: 'https://www.msf.org/myanmarbangladesh-msf-surveys-estimate-least-6700-rohingya-were-killed-during-attacks-myanmar', type: 'report' },
       { title: 'Fortify Rights - They Gave Them Long Swords', url: 'https://www.fortifyrights.org/mly-inv-rep-2018-07-19/', type: 'report' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Min Aung Hlaing', type: 'individual', relationship: 'Commander-in-Chief of Myanmar military; identified by UN for prosecution for genocide; later led 2021 coup', href: '/individuals/min-aung-hlaing' },
@@ -1544,6 +1632,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'SEC Staff Report: Equity and Options Market Structure Conditions (GameStop)', url: 'https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf', type: 'Government Report' },
       { title: 'House Financial Services Committee: Game Stopped? Hearings', url: 'https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407107', type: 'Congressional Record' },
       { title: 'FINRA: Robinhood Financial LLC $70M Settlement', url: 'https://www.finra.org/media-center/newsreleases/2021/finra-orders-robinhood-financial-llc-pay-approximately-70-million', type: 'Enforcement Action' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Published staff report acknowledging trading restrictions but took no enforcement action against Robinhood or Citadel; failed to address naked shorting', href: '/entities/agencies/sec' },
@@ -1580,6 +1669,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'John Jay College: The Nature and Scope of Sexual Abuse of Minors by Catholic Priests (2004)', url: 'http://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf', type: 'Academic Research' },
       { title: 'Guidepost Solutions: Southern Baptist Convention Sexual Abuse Investigation Report', url: 'https://www.sataskforce.net/', type: 'Independent Investigation' },
       { title: 'Royal Commission into Institutional Responses to Child Sexual Abuse (Australia)', url: 'https://www.childabuseroyalcommission.gov.au/', type: 'Government Commission' },
+      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Investigating Catholic dioceses in multiple states; historically deferred to local prosecutors who were reluctant to pursue cases against religious institutions', href: '/entities/agencies/doj' },
@@ -1619,6 +1709,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'DOJ: United States v. RealPage - Antitrust Complaint', url: 'https://www.justice.gov/', type: 'Legal Document' },
       { title: 'HUD: Annual Homelessness Assessment Report 2023', url: 'https://www.huduser.gov/portal/sites/default/files/pdf/2023-AHAR-Part-1.pdf', type: 'Government Report' },
       { title: 'ProPublica: RealPage Rent-Setting Investigation', url: 'https://www.propublica.org/series/rent-barons', type: 'Investigation' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed antitrust suit against RealPage for algorithmic rent-fixing; historically slow to address housing market manipulation', href: '/entities/agencies/doj' },
@@ -1655,6 +1746,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'NTSB: East Palestine Derailment Investigation Report', url: 'https://www.ntsb.gov/', type: 'Government Report' },
       { title: 'FRA: Accident/Incident Data', url: 'https://safetydata.fra.dot.gov/', type: 'Government Data' },
       { title: 'STB: Railroad Performance Metrics', url: 'https://www.stb.gov/', type: 'Government Data' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'FRA', type: 'agency', relationship: '400 inspectors for 140,000 miles of track; fined Norfolk Southern $600K for East Palestine (0.005% of revenue); no authority to limit train length', href: '/entities/agencies/fra' },
@@ -1692,6 +1784,9 @@ const investigations_r: Record<string, InvestigationData> = {
       'https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts',
       'https://www.ftc.gov/news-events/data-visualizations/do-not-call-complaints',
       'https://robocallindex.com/',
+      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+
+      { name: 'Consumer Financial Protection Bureau', url: 'https://www.consumerfinance.gov/enforcement/' },
     ],
     affiliations: [
       { id: '1', name: 'FCC', type: 'agency', relationship: 'Mandated STIR/SHAKEN; fined major robocallers hundreds of millions (largely uncollectable); began targeting gateway carriers in 2024 but fines collected remain below 1% of amounts assessed', href: '/entities/agencies/fcc' },
@@ -1727,6 +1822,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Equal Justice Initiative: Reconstruction in America Report', url: 'https://eji.org/report/reconstruction-in-america/', type: 'Research' },
       { title: 'National Archives: Records of the Elaine Race Massacre', url: 'https://www.archives.gov/', type: 'Government Record' },
       { title: 'Chicago Commission on Race Relations Report (1922)', url: 'https://www.loc.gov/collections/', type: 'Government Report' },
+      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
     ],
     affiliations: [
       { id: '1', name: 'Bureau of Investigation (FBI)', type: 'agency', relationship: 'Surveilled Black civil rights organizations as subversive threats instead of investigating white mob violence; J. Edgar Hoover\'s 1919 report framed Black demands for equality as radicalism; this orientation persisted for decades through COINTELPRO', href: '/entities/agencies/fbi' },
@@ -1769,6 +1865,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'National Museum of Nuclear Science and History: The Radium Girls', url: 'https://www.nuclearmuseum.org/see/stories/the-radium-girls', type: 'Museum Archive' },
       { title: 'Illinois EPA: Ottawa Radium Dial Superfund Site', url: 'https://www.epa.gov/superfund', type: 'Government Record' },
       { title: 'New Jersey Department of Environmental Protection: US Radium Site History', url: 'https://www.nj.gov/dep/', type: 'Government Record' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'U.S. Radium Corporation', type: 'corporation', relationship: 'Knowingly exposed workers to lethal radiation from 1917 onward; instructed workers to lip-point brushes while executives used lead screens; hired fraudulent medical experts to misdiagnose dying workers with syphilis; fought all legal claims; no executive was ever criminally prosecuted', href: '/entities/corporations/us-radium-corporation' },

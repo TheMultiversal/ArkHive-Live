@@ -2188,6 +2188,55 @@ const profiles: Record<string, IndividualProfile> = {
      { date: "1945", event: "Death in Berlin bunker" },
    ],
  },
+ 'harriet-miers': {
+   name: 'Harriet Ellan Miers',
+   title: 'Former White House Counsel',
+   role: 'Bush Administration Official, Attorney Firings Architect',
+   riskLevel: 'high',
+   description: 'Harriet Miers served as White House Counsel under George W. Bush from 2005 to 2007. She proposed replacing all 93 U.S. Attorneys with Bush loyalists in January 2005, a plan so extreme it was scaled back to a targeted purge of nine prosecutors. The DOJ Inspector General found Miers was "at the center of the effort" to politicize federal law enforcement. She refused to comply with congressional subpoenas, claiming executive privilege, and was held in contempt of Congress. Bush briefly nominated her to the Supreme Court in 2005, but she withdrew after bipartisan criticism of her lack of judicial experience.',
+   birthDate: 'August 10, 1945',
+   birthPlace: 'Dallas, Texas, USA',
+   education: ['B.S., Southern Methodist University', 'J.D., Southern Methodist University Dedman School of Law'],
+   affiliations: [
+     { name: 'White House', role: 'White House Counsel (2005-2007)', type: 'agency' },
+     { name: 'DOJ', role: 'Directed politicization of U.S. Attorney appointments', type: 'agency' },
+   ],
+   controversies: [
+     'Proposed replacing all 93 U.S. Attorneys with Bush loyalists',
+     'Found by DOJ IG to be "at the center" of the attorney firings effort',
+     'Held in contempt of Congress for refusing to testify',
+     'Failed Supreme Court nomination withdrawn October 2005',
+     'Claimed executive privilege to block congressional investigation',
+   ],
+   charges: [
+     { statute: '2 U.S.C. § 192', description: 'Contempt of Congress - held in contempt for refusing to comply with House Judiciary Committee subpoena', category: 'Federal' },
+     { statute: '18 U.S.C. § 1505', description: 'Potential obstruction of congressional proceedings by refusing testimony', category: 'Potential Federal' },
+   ],
+   relatedInvestigations: [
+     { title: 'Bush Administration U.S. Attorney Firings', slug: 'attorney-firings', severity: 'high' },
+   ],
+   timeline: [
+     { date: '1945', event: 'Born in Dallas, Texas' },
+     { date: '1970', event: 'Receives J.D. from SMU Dedman School of Law' },
+     { date: '2001', event: 'Appointed White House Staff Secretary under George W. Bush' },
+     { date: '2005-01', event: 'Proposes replacing all 93 U.S. Attorneys with Bush loyalists; plan deemed too extreme' },
+     { date: '2005-02', event: 'Becomes White House Counsel, replacing Alberto Gonzales' },
+     { date: '2005-10', event: 'Nominated to Supreme Court by Bush; withdraws after bipartisan criticism' },
+     { date: '2006-12-07', event: 'Seven U.S. Attorneys fired in coordinated political purge she helped architect' },
+     { date: '2007-06-13', event: 'Subpoenaed by House Judiciary Committee; refuses to appear' },
+     { date: '2007-07-25', event: 'House Judiciary Committee votes to hold her in contempt of Congress' },
+     { date: '2008-09', event: 'DOJ IG report finds she was "at the center of the effort" to politicize DOJ' },
+   ],
+   sources: [
+     { title: 'DOJ Inspector General Joint Report on U.S. Attorney Dismissals', url: 'http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf', date: '2008' },
+     { title: 'House Judiciary Committee Contempt Citation', url: 'https://web.archive.org/web/20090514012413/http://judiciary.house.gov/issues/issues_USAttorneys.html', date: '2007' },
+   ],
+   knownAssociates: [
+     { name: 'George W. Bush', relationship: 'President she served as White House Counsel', href: '/entities/individuals/george-w-bush' },
+     { name: 'Alberto Gonzales', relationship: 'Predecessor as White House Counsel, successor as AG who executed the firings', href: '/entities/individuals/alberto-gonzales' },
+     { name: 'Karl Rove', relationship: 'Fellow architect of attorney firings scheme', href: '/entities/individuals/karl-rove' },
+   ],
+ },
 };
 
 export default profiles;

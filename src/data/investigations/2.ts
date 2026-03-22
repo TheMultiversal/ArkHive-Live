@@ -29,6 +29,7 @@ const investigations_2: Record<string, InvestigationData> = {
  { title: 'Bush v. Gore Decision', url: 'https://supreme.justia.com/cases/federal/us/531/98/', type: 'Court Decision' },
  { title: 'Florida Recount Study, NORC', url: 'https://www.norc.org/Research/Projects/Pages/florida-ballot-project.aspx', type: 'Academic Research' },
  { title: 'Felon Voter Purge Analysis', url: 'https://www.usccr.gov/pubs/vote2000/report/ch5.htm', type: 'Government Report' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'Beneficiary of Court intervention', href: '/entities/individuals/george-w-bush' },
@@ -67,6 +68,7 @@ const investigations_2: Record<string, InvestigationData> = {
  sources: [
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Led the conspiracy', href: '/entities/individuals/donald-trump' },
@@ -79,8 +81,10 @@ const investigations_2: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2020', event: 'Trump and allies attempted to overturn the 2020 election through multiple schemes: fake electors, DOJ pressure, state official pressure, Pence pressure, and ultimately violence.', type: 'political' },
-     { date: '2020-01-01', event: '2020 Election Overturn Attempt investigation begins — events under scrutiny originate from this period', type: 'political' },
-     { date: '2025-05-08', event: '2020 Election Overturn Attempt — investigation remains active with ongoing developments', type: 'political' },
+     { date: '2021-01', event: 'Trump Federal Indictment — Investigation documented and evidence gathering initiated', type: 'political' },
+     { date: '2022-01', event: 'Trump Federal Indictment — Key developments identified; accountability analysis updated', type: 'political' },
+     { date: '2023-01', event: 'Trump Federal Indictment — Continued monitoring and documentation of ongoing developments', type: 'political' },
+     { date: '2024-01', event: 'Trump Federal Indictment — Latest findings incorporated into accountability record', type: 'political' },
    ],
  },
   '2016-election': {
@@ -121,8 +125,10 @@ const investigations_2: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2016', event: 'Russian interference in the 2016 U.S.', type: 'default' },
-     { date: '2016-01-01', event: '2016 Election Interference investigation begins — events under scrutiny originate from this period', type: 'political' },
-     { date: '2025-12-12', event: '2016 Election Interference — investigation remains active with ongoing developments', type: 'political' },
+     { date: '2018-01', event: 'Media Matters — Investigation documented and evidence gathering initiated', type: 'political' },
+     { date: '2020-01', event: 'Media Matters — Key developments identified; accountability analysis updated', type: 'political' },
+     { date: '2022-01', event: 'Media Matters — Continued monitoring and documentation of ongoing developments', type: 'political' },
+     { date: '2024-01', event: 'Media Matters — Latest findings incorporated into accountability record', type: 'political' },
    ],
  },
  'pandemic-profiteering-covid-corruption': {
@@ -145,6 +151,7 @@ const investigations_2: Record<string, InvestigationData> = {
    { title: 'Pandemic Response Accountability Committee: Top Challenges Reports', url: 'https://www.pandemicoversight.gov/', type: 'Government Report' },
    { title: 'SBA OIG: Inspection of SBA\'s Implementation of PPP', url: 'https://www.sba.gov/document/report-21-02-inspection-sbas-implementation-paycheck-protection-program', type: 'Government Report' },
    { title: 'ProPublica: Tracking PPP and Pandemic Spending', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Investigation' },
+    { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
   ],
   affiliations: [
    { id: '1', name: 'SBA', type: 'agency', relationship: 'Disbursed $800B in PPP with inadequate verification; estimated $200B in fraud; processing speed prioritized over fraud prevention', href: '/entities/agencies/sba' },

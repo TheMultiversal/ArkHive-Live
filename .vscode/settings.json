@@ -8,6 +8,8 @@
   "git.autoRefresh": false,
   "git.autoRepositoryDetection": "openEditors",
   "git.enabled": true,
+  "git.diffDecorations": "none",
+  "scm.diffDecorationsGutterWidth": 1,
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,

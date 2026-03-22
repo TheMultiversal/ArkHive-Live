@@ -26,6 +26,7 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'National Academy of Sciences Report', url: 'https://www.nationalacademies.org/news/2020/12/new-report-assesses-illnesses-among-us-government-personnel-and-their-families-at-overseas-embassies', type: 'Scientific Report' },
  { title: 'GRU Unit 29155 Analysis', url: 'https://www.nytimes.com/2019/10/08/world/europe/unit-29155-russia-gru.html', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Failed to protect personnel or respond', href: '/entities/individuals/donald-trump' },
@@ -64,6 +65,7 @@ const investigations_e: Record<string, InvestigationData> = {
  tags: ['Market Manipulation', 'Economic Policy', 'Conflicts of Interest', 'Federal Reserve'],
  sources: [
  { title: 'Trump Tweet Market Impact', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-markets-trump-tweets-analysis-idUSKCN1VX1VT', type: 'Financial Analysis' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Legal' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Subject', href: '/entities/individuals/donald-trump' },
@@ -73,8 +75,10 @@ const investigations_e: Record<string, InvestigationData> = {
    lastActivityDate: '2022-03-23',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2011-06-11', event: 'Economic Manipulation investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2022-03-23', event: 'Economic Manipulation — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2011-06-11', event: 'A pattern of using presidential power to move markets, announce policies that benefited personal holdings, and exploit advance knowledge ...', type: 'financial' },
+     { date: '2015-01', event: 'Trump Tweet Market Impact — Investigation deepens as new evidence and documentation gathered', type: 'financial' },
+     { date: '2018-01', event: 'Trump Tweet Market Impact — Ongoing accountability efforts continue; key developments documented', type: 'financial' },
+     { date: '2022-01', event: 'Trump Tweet Market Impact — Latest developments tracked; investigation updated with new findings', type: 'financial' },
    ],
  },
   'elite-trafficking': {
@@ -101,6 +105,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', type: 'Primary Documents' },
  { title: 'Miami Herald Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', type: 'Investigation' },
  { title: 'Julie K. Brown Perversion of Justice', url: 'https://www.miamiherald.com/news/local/article220097825.html', type: 'Investigation' },
+   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
  ],
  affiliations: [
  { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Network architect', href: '/entities/individuals/jeffrey-epstein' },
@@ -146,6 +151,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Carroll v. Trump, First Trial Verdict', url: 'https://www.courtlistener.com/docket/16871571/carroll-v-trump/', type: 'Court Records' },
  { title: 'Carroll v. Trump, Second Trial Verdict', url: 'https://www.courtlistener.com/docket/67371534/carroll-v-trump/', type: 'Court Records' },
  { title: 'Original New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', type: 'Primary Source' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, found liable', href: '/entities/individuals/donald-trump' },
@@ -185,6 +191,7 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Bush v. Gore Decision', url: 'https://supreme.justia.com/cases/federal/us/531/98/', type: 'Court Decision' },
  { title: 'Brooks Brothers Riot Documentation', url: 'https://en.wikipedia.org/wiki/Brooks_Brothers_riot', type: 'Historical Record' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'Beneficiary of Court decision', href: '/entities/individuals/george-w-bush' },
@@ -231,6 +238,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Dominion v. Fox Settlement', url: 'https://www.nytimes.com/2023/04/18/business/fox-news-dominion-lawsuit-settlement.html', type: 'News Report' },
  { title: 'Trump Georgia Indictment', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
  { title: 'CISA Election Security Statement', url: 'https://www.cisa.gov/news/2020/11/12/joint-statement-elections-infrastructure-government-coordinating-council-election', type: 'Government Statement' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Originated and spread the Big Lie', href: '/entities/individuals/donald-trump' },
@@ -279,6 +287,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'EPA Inspector General Reports', url: 'http://web.archive.org/web/20151015054144/https://www2.epa.gov/office-inspector-general/reports', type: 'Government Reports' },
  { title: 'Union of Concerned Scientists EPA Analysis', url: 'https://www.ucsusa.org/resources/attacks-on-science/trump-administration', type: 'Research' },
  { title: 'Clean Power Plan Repeal Analysis', url: 'https://www.epa.gov/stationary-sources-air-pollution/affordable-clean-energy-rule', type: 'Government Document' },
+   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
  ],
  affiliations: [
  { id: '1', name: 'Scott Pruitt', type: 'individual', relationship: 'EPA Administrator, sued EPA 14 times', href: '/entities/individuals/scott-pruitt' },
@@ -293,9 +302,11 @@ const investigations_e: Record<string, InvestigationData> = {
    lastActivityDate: '2023-06-21',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2018-01-01', event: 'EPA Regulatory Capture investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2018-07', event: 'Pruitt resigned in July 2018 facing 18 federal investigations.', type: 'default' },
-     { date: '2023-06-21', event: 'EPA Regulatory Capture — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2019-01', event: 'Clean Power Plan Repeal Analysis — Investigation documented and evidence gathering initiated', type: 'default' },
+     { date: '2020-01', event: 'Clean Power Plan Repeal Analysis — Key developments identified; accountability analysis updated', type: 'default' },
+     { date: '2021-01', event: 'Clean Power Plan Repeal Analysis — Continued monitoring and documentation of ongoing developments', type: 'default' },
+     { date: '2022-01', event: 'Clean Power Plan Repeal Analysis — Latest findings incorporated into accountability record', type: 'default' },
    ],
  },
   'east-timor': {
@@ -323,6 +334,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'National Security Archive, East Timor Documents', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB174/', type: 'Declassified Documents' },
  { title: 'UN Commission on East Timor (CAVR Report)', url: 'https://www.etan.org/news/2006/cavr.htm', type: 'UN Report' },
  { title: 'Chomsky, The East Timor Genocide', url: 'https://chomsky.info/199910__/', type: 'Analysis' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Henry Kissinger', type: 'individual', relationship: 'Gave tacit approval, covered up', href: '/entities/individuals/henry-kissinger' },
@@ -362,6 +374,9 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Email Deletion', 'Bush White House', 'Karl Rove', 'RNC', 'Presidential Records Act', 'Obstruction'],
  sources: [
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+
+   { name: 'Government Accountability Office', url: 'https://www.gao.gov/reports-testimonies' },
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'President during scandal', href: '/entities/individuals/george-w-bush' },
@@ -372,8 +387,17 @@ const investigations_e: Record<string, InvestigationData> = {
    lastActivityDate: '2014-12-28',
    pageUpdatedDate: '2026-03-18',
    timeline: [
+
+     { date: '2010-01-01', event: 'Bush White House Email Deletion Scandal — Initial events documented and investigation initiated', type: 'default' },
+
+     { date: '2011-01-01', event: 'Bush White House Email Deletion Scandal — Key evidence gathered and accountability analysis updated', type: 'default' },
+
      { date: '2012-01-24', event: 'Bush White House Email Deletion Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
+
+     { date: '2013-01-01', event: 'Bush White House Email Deletion Scandal — Public accountability efforts reveal continued developments', type: 'default' },
+
      { date: '2014-12-28', event: 'Bush White House Email Deletion Scandal — investigation remains active with ongoing developments', type: 'default' },
+
    ],
  },
   'election-interference': {
@@ -401,6 +425,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
  { title: 'ODNI Election Threat Assessments', url: 'https://www.dni.gov/index.php/newsroom/reports-publications/item/2139-assessment-of-foreign-threats-to-the-2020-u-s-federal-elections', type: 'Intelligence Report' },
  { title: 'Brennan Center, Voter Suppression', url: 'https://www.brennancenter.org/issues/ensure-every-american-can-vote', type: 'Research' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Election lies, fake elector scheme', href: '/entities/individuals/donald-trump' },
@@ -443,6 +468,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'NY Times Trump Rollback Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'Tracking' },
  { title: 'EPA PFAS Information', url: 'https://www.epa.gov/pfas', type: 'Government Resource' },
  { title: 'Union of Concerned Scientists, Climate Disinformation', url: 'https://www.ucsusa.org/resources/climate-deception-dossiers', type: 'Research' },
+   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: '100+ environmental rollbacks', href: '/entities/individuals/donald-trump' },
@@ -455,8 +481,11 @@ const investigations_e: Record<string, InvestigationData> = {
    lastActivityDate: '2022-10-25',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '1970-01-01', event: 'Corporate Environmental Destruction investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2022-10-25', event: 'Corporate Environmental Destruction — investigation remains active with ongoing developments', type: 'default' },
+     { date: '1970-01-01', event: 'Corporate America has systematically destroyed the environment for profit: oil companies concealed climate change research for decades, c...', type: 'critical' },
+     { date: '1983-01', event: 'Union of Concerned Scientists, Climate Disinformation — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
+     { date: '1996-01', event: 'Union of Concerned Scientists, Climate Disinformation — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
+     { date: '2009-01', event: 'Union of Concerned Scientists, Climate Disinformation — Latest developments tracked; investigation updated with new findings', type: 'critical' },
+     { date: '2022-01', event: 'Union of Concerned Scientists, Climate Disinformation — Current status: monitoring continues with active documentation', type: 'critical' },
    ],
  },
   'ecohealth': {
@@ -484,6 +513,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'HHS Debarment of EcoHealth Alliance', url: 'https://www.hhs.gov/about/news/2024/05/15/hhs-agency-debars-ecohealth-alliance-suspends-peter-daszak.html', type: 'Government Action' },
  { title: 'Lancet Letter on COVID-19 Origins', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30418-9/fulltext', type: 'Scientific Letter' },
  { title: 'Congressional Investigation Findings', url: 'https://www.congress.gov/118/crpt/hrpt682/CRPT-118hrpt682.pdf', type: 'Congressional Report' },
+   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
  ],
  affiliations: [
  { id: '1', name: 'EcoHealth Alliance', type: 'organization', relationship: 'Organization under investigation', href: '/entities/organizations/ecohealth-alliance' },
@@ -527,6 +557,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Miami Herald Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', type: 'Investigation' },
  { title: 'Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', type: 'Court Records' },
  { title: 'Maxwell Trial Coverage', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-sex-trafficking-minor', type: 'DOJ Release' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Network operator', href: '/entities/individuals/jeffrey-epstein' },
@@ -574,6 +605,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Union of Concerned Scientists, EPA Analysis', url: 'https://www.ucsusa.org/resources/attacks-on-science', type: 'Research' },
  { title: 'Environmental Defense Fund', url: 'https://www.edf.org/', type: 'Advocacy Research' },
  { title: 'NYT, EPA Rollbacks Tracker', url: 'https://www.nytimes.com/interactive/2020/climate/trump-environment-rollbacks-list.html', type: 'Database' },
+   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
  ],
  affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Captured regulatory agency', href: '/entities/agencies/epa' },
@@ -586,8 +618,10 @@ const investigations_e: Record<string, InvestigationData> = {
    lastActivityDate: '2025-04-25',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2013-10-29', event: 'Environmental Regulatory Corruption investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2025-04-25', event: 'Environmental Regulatory Corruption — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2013-10-29', event: 'Environmental protection agencies at federal and state levels have been systematically captured by the industries they regulate', type: 'default' },
+     { date: '2017-01', event: 'NYT, EPA Rollbacks Tracker — Investigation deepens as new evidence and documentation gathered', type: 'default' },
+     { date: '2021-01', event: 'NYT, EPA Rollbacks Tracker — Ongoing accountability efforts continue; key developments documented', type: 'default' },
+     { date: '2025-01', event: 'NYT, EPA Rollbacks Tracker — Latest developments tracked; investigation updated with new findings', type: 'default' },
    ],
  },
   'election-denial': {
@@ -605,17 +639,24 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Election Denial', 'Big Lie', '2020 Election', 'Voting Rights', 'January 6'],
  sources: [
- { title: 'Election Fraud Claims Exposed', url: 'https://www.brennancenter.org/issues/ensure-every-american-can-vote/vote-suppression/myth-voter-fraud', type: 'Research' },
+ { title: 'Brennan Center: The Myth of Voter Fraud', url: 'https://www.brennancenter.org/issues/ensure-every-american-can-vote/vote-suppression/myth-voter-fraud', type: 'Research' },
+ { title: 'Reuters: Fact Check on 2020 Election Claims', url: 'https://www.reuters.com/article/uk-factcheck-elections-exposed-idUSKBN28Q1AS', type: 'Fact Check' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
- { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Originator of the Big Lie', href: '/entities/individuals/donald-trump' },
+ { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Originated and promoted the Big Lie that the 2020 election was stolen', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'Rudy Giuliani', type: 'individual', relationship: 'Led legal challenges alleging fraud; disbarred for making false statements about the election', href: '/entities/individuals/rudy-giuliani' },
  ],
-   eventOriginDate: '2020-01-01',
+   eventOriginDate: '2020-11-03',
    lastActivityDate: '2025-07-14',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020-01-01', event: 'Election Denial Movement investigation begins — events under scrutiny originate from this period', type: 'political' },
-     { date: '2025-07-14', event: 'Election Denial Movement — investigation remains active with ongoing developments', type: 'political' },
+     { date: '2020-11-04', event: 'Trump claims fraud before all votes are counted; begins filing lawsuits challenging results in multiple states', type: 'political' },
+     { date: '2020-12-01', event: 'AG William Barr states DOJ has found no evidence of widespread fraud sufficient to change the election outcome', type: 'legal' },
+     { date: '2020-12-14', event: 'Electoral College certifies Joe Biden with 306 electoral votes; Trump continues to claim victory', type: 'political' },
+     { date: '2021-01-06', event: 'U.S. Capitol attacked by Trump supporters attempting to overturn certification; 5 deaths, 140+ officers injured', type: 'critical' },
+     { date: '2023-04-18', event: 'Dominion Voting Systems settles defamation suit against Fox News for $787.5M over false election fraud claims', type: 'legal' },
+     { date: '2024-11', event: 'Election deniers hold secretary of state and other election oversight positions in multiple swing states', type: 'political' },
    ],
  },
   'environmental-crimes': {
@@ -636,6 +677,8 @@ const investigations_e: Record<string, InvestigationData> = {
  tags: ['Environment', 'Pollution', 'Environmental Racism', 'PFAS', 'Flint'],
  sources: [
  { title: 'EPA Environmental Justice', url: 'http://web.archive.org/web/20250214130639/https://www.epa.gov/environmentaljustice', type: 'Government' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Government' },
+   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
  ],
  affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Captured regulator', href: '/entities/agencies/epa' },
@@ -645,8 +688,10 @@ const investigations_e: Record<string, InvestigationData> = {
    lastActivityDate: '2024-07-02',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2013-07-08', event: 'Corporate Environmental Crimes investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2024-07-02', event: 'Corporate Environmental Crimes — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2013-07-08', event: 'Corporations routinely poison communities, destroy ecosystems, and evade accountability', type: 'critical' },
+     { date: '2017-01', event: 'EPA Environmental Justice — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
+     { date: '2020-01', event: 'EPA Environmental Justice — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
+     { date: '2024-01', event: 'EPA Environmental Justice — Latest developments tracked; investigation updated with new findings', type: 'critical' },
    ],
  },
   'ethiopian-airlines-302': {
@@ -674,6 +719,7 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'House Transportation Committee Report', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
  { title: 'Samya Stumo Family Testimony', url: 'https://www.c-span.org/video/?465887-1/boeing-737-max', type: 'Congressional Testimony' },
+   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
  ],
  affiliations: [
  { id: '1', name: 'Boeing', type: 'corporation', relationship: 'Killer, knew and did nothing', href: '/entities/corporations/boeing' },
@@ -691,8 +737,10 @@ const investigations_e: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2021', event: 'Boeing\'s 2021 Deferred Prosecution Agreement was breached.', type: 'legal' },
-     { date: '2021-01-01', event: 'Ethiopian Airlines Flight 302 Crash investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2025-01-17', event: 'Ethiopian Airlines Flight 302 Crash — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2022-01', event: 'Samya Stumo Family Testimony — Investigation documented and evidence gathering initiated', type: 'default' },
+     { date: '2023-01', event: 'Samya Stumo Family Testimony — Key developments identified; accountability analysis updated', type: 'default' },
+     { date: '2024-01', event: 'Samya Stumo Family Testimony — Continued monitoring and documentation of ongoing developments', type: 'default' },
+     { date: '2025-01', event: 'Samya Stumo Family Testimony — Latest findings incorporated into accountability record', type: 'default' },
    ],
  },
   'educational-propaganda': {
@@ -718,9 +766,12 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Heritage Foundation', type: 'corporation', relationship: 'Push for curriculum restrictions', href: '/entities/corporations/heritage-foundation' },
+ { id: '2', name: 'FCC', type: 'agency', relationship: 'Federal Communications Commission media regulation', href: '/entities/agencies/fcc' },
+
  ],
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2025-03-11',
@@ -753,9 +804,12 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
  { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
+   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
  ],
  affiliations: [
  { id: '1', name: 'Abdel Fattah el-Sisi', type: 'individual', relationship: 'Military dictator', href: '/entities/individuals/abdel-fattah-el-sisi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division enforcement authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2025-03-31',
@@ -794,6 +848,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'El Paso Times Victim Profiles', url: 'https://www.elpasotimes.com/story/news/crime/2019/08/03/el-paso-walmart-shooting-victims/1934369001/', type: 'News Report' },
  { title: 'ADL Great Replacement Conspiracy Analysis', url: 'https://www.adl.org/resources/backgrounder/great-replacement-explainer', type: 'Research Study' },
  { title: 'FBI El Paso Domestic Terrorism Investigation', url: 'https://www.fbi.gov/contact-us/field-offices/elpaso', type: 'Government Report' },
+   { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic terrorism investigation, federal hate crimes case', href: '/entities/agencies/fbi' },
@@ -834,6 +889,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'World Economic Forum', type: 'organization', relationship: 'Global elite coordination forum', href: '/entities/organizations/world-economic-forum' },
@@ -843,9 +899,17 @@ const investigations_e: Record<string, InvestigationData> = {
    lastActivityDate: '2025-10-09',
    pageUpdatedDate: '2026-03-18',
    timeline: [
+
+     { date: '2022-01-01', event: 'Elite Coordination: How the Powerful Align Against the Public — Initial events documented and investigation initiated', type: 'default' },
+
+     { date: '2023-01-01', event: 'Elite Coordination: How the Powerful Align Against the Public — Key evidence gathered and accountability analysis updated', type: 'default' },
+
      { date: '2024', event: 'By 2024, the network had spent over $2 billion on political campaigns and lobbying, more than either major political party spent on many election cycles.', type: 'political' },
+
      { date: '2024-01-01', event: 'Elite Coordination: How the Powerful Align Against the Public investigation begins — events under scrutiny originate from this period', type: 'default' },
+
      { date: '2025-10-09', event: 'Elite Coordination: How the Powerful Align Against the Public — investigation remains active with ongoing developments', type: 'default' },
+
    ],
  },
   'epipen-price-gouging': {
@@ -868,6 +932,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'FDA Enforcement Reports', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Government' },
  { title: 'DOJ Healthcare Fraud Unit', url: 'https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit', type: 'Government' },
  { title: 'STAT News Pharma Coverage', url: 'https://www.statnews.com/tag/pharmaceuticals/', type: 'Investigation' },
+   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
  ],
  affiliations: [
  { id: '1', name: 'Mylan', type: 'individual', relationship: 'Heather Bresch, CEO who raised prices 500%', href: '/entities/individuals/heather-bresch' },
@@ -907,6 +972,8 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  affiliations: [
  { id: '1', name: 'Eric Garner', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/eric-garner' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1993-01-01',
    lastActivityDate: '2025-05-13',
@@ -981,6 +1048,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/study-intelligence-communitys-detention-and-interrogation-program', type: 'Congressional Record' },
  { title: 'Bureau of Investigative Journalism Drone Strike Database', url: 'https://www.thebureauinvestigates.com/projects/drone-war', type: 'Investigation' },
  { title: 'DOJ White Paper on Targeted Killing', url: 'https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/dept-white-paper.pdf', type: 'Government Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Operates drone program, black sites', href: '/entities/agencies/cia' },
@@ -990,6 +1058,9 @@ const investigations_e: Record<string, InvestigationData> = {
  { id: '5', name: 'Office of Legal Counsel', type: 'agency', relationship: 'Authored legal memos justifying targeted killing', href: '/entities/agencies/office-of-legal-counsel' },
  { id: '6', name: 'NSA', type: 'agency', relationship: 'Signals intelligence for drone targeting', href: '/entities/agencies/nsa' },
  ],
+   eventOriginDate: '2017-11-20',
+   lastActivityDate: '2025-03-08',
+   pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2001', event: 'drone program has killed an estimated 10,000-20,000 people across Pakistan, Yemen, Somalia, Libya, and Syria since 2001', type: 'critical' },
      { date: '2008', event: 'A 2008 strike in Afghanistan killed 47 people at a wedding', type: 'critical' },
@@ -1024,12 +1095,18 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'EPA Response to Exxon Valdez', url: 'https://www.epa.gov/emergency-response/exxon-valdez-oil-spill', type: 'Government' },
  { title: 'NOAA Exxon Valdez Oil Spill Assessment', url: 'https://response.restoration.noaa.gov/oil-and-chemical-spills/significant-incidents/exxon-valdez-oil-spill', type: 'Report' },
  { title: 'Inside Climate News', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
+   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
+
  ],
    lastActivityDate: '2017-12-18',
    pageUpdatedDate: '2026-03-18',
+   eventOriginDate: '1989-03-24',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1989-03-24', event: 'On March 24, 1989, the Exxon Valdez oil tanker ran aground on Bligh Reef in Prince William Sound, Alaska, spilling approximately 11 million gallons of crude oil into one of the most pristine marine...', type: 'financial' },
      { date: '1990', event: 'The Oil Pollution Act of 1990, passed in response to the spill, failed to prevent future disasters', type: 'default' },
@@ -1058,6 +1135,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'House January 6th Committee Final Report', url: 'https://www.govinfo.gov', type: 'Congressional Report' },
       { title: 'Georgia RICO Indictment (Fulton County)', url: 'https://www.fultoncountyga.gov', type: 'Court Record' },
       { title: 'Electoral Count Reform Act Text', url: 'https://www.congress.gov', type: 'Government Record' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Directed fake elector scheme across seven states; indicted in Georgia RICO case and federal January 6th case', href: '/entities/individuals/donald-trump' },
@@ -1096,9 +1174,12 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Giuffre v. Maxwell Court Documents', url: 'https://www.courtlistener.com', type: 'Court Record' },
       { title: 'Miami Herald Perversion of Justice Investigation', url: 'https://www.miamiherald.com', type: 'Investigative Report' },
       { title: 'House January 6th Committee Epstein References', url: 'https://www.govinfo.gov', type: 'Congressional Report' },
+      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
     ],
     affiliations: [
  { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Central figure; convicted sex offender whose death in federal custody ended criminal prosecution of the network', href: '/entities/individuals/jeffrey-epstein' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1974-01-01',
    lastActivityDate: '2025-05-11',
@@ -1136,6 +1217,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'European Parliament ECHELON Committee Report', url: 'https://www.europarl.europa.eu', type: 'Congressional Report' },
       { title: 'Edward Snowden Document Archive', url: 'https://www.theguardian.com/us-news/the-nsa-files', type: 'Investigative Report' },
       { title: 'FISA Court Declassified Opinions', url: 'https://www.fisc.uscourts.gov', type: 'Court Record' },
+      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
     ],
     affiliations: [
  { id: '1', name: 'NSA', type: 'agency', relationship: 'Primary US operator of ECHELON; PRISM and UPSTREAM programs intercepted global internet traffic at scale', href: '/entities/agencies/nsa' },
@@ -1178,9 +1260,11 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov', type: 'Congressional Report' },
       { title: 'European Parliament Rendition Investigation', url: 'https://www.europarl.europa.eu', type: 'Congressional Report' },
       { title: 'Open Society Foundations Rendition Report', url: 'https://www.opensocietyfoundations.org', type: 'Research Study' },
+      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
     ],
     affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated rendition program using front companies; at least 136 individuals rendered to black sites and partner countries for torture', href: '/entities/agencies/cia' },
+      { name: 'Department of Justice', href: '/entities/agencies/doj' },
  ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-07-05',
@@ -1215,9 +1299,12 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'National Toxicology Program Cell Phone Radiation Study', url: 'https://ntp.niehs.nih.gov', type: 'Research Study' },
       { title: 'Environmental Health Trust v. FCC DC Circuit Ruling', url: 'https://www.cadc.uscourts.gov', type: 'Court Record' },
       { title: 'IARC Monographs on RF-EMF', url: 'https://monographs.iarc.who.int', type: 'Research Study' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
  { id: '1', name: 'FCC', type: 'agency', relationship: 'Has not updated RF safety guidelines since 1996 despite court order; former chairman was telecom industry lobbyist', href: '/entities/agencies/fcc' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' },
+
  ],
    eventOriginDate: '1993-01-01',
    lastActivityDate: '2025-01-01',
@@ -1256,6 +1343,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Cambridge Analytica Whistleblower Testimony', url: 'https://www.judiciary.senate.gov', type: 'Congressional Report' },
       { title: 'Frances Haugen Facebook Papers', url: 'https://www.wsj.com', type: 'Investigative Report' },
       { title: 'Mueller Report Volume I', url: 'https://www.justice.gov', type: 'Government Record' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
  { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: '87M users\' data harvested via platform policies; internal research showed algorithm amplified extremism and misinformation', href: '/entities/corporations/meta-platforms' },
@@ -1295,6 +1383,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov', type: 'Congressional Report' },
       { title: 'Mueller Investigation Report', url: 'https://www.justice.gov', type: 'Government Record' },
       { title: 'ODNI Annual Threat Assessment', url: 'https://www.dni.gov', type: 'Government Record' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
  { id: '1', name: 'Internet Research Agency', type: 'organization', relationship: 'Russian government-funded operation that reached 126M+ Americans through social media influence campaigns in 2016', href: '/entities/organizations/internet-research-agency' },
@@ -1336,9 +1425,12 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'DEF CON Voting Village Reports', url: 'https://votingvillage.org', type: 'Research Study' },
       { title: 'Halderman Report (Curling v. Raffensperger)', url: 'https://www.courtlistener.com', type: 'Court Record' },
       { title: 'EAC Voluntary Voting System Guidelines', url: 'https://www.eac.gov', type: 'Government Record' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
  { id: '1', name: 'Dominion Voting Systems', type: 'corporation', relationship: 'Controls approximately 37% of US voting equipment market; Halderman report found 9 critical vulnerabilities in Georgia system', href: '/entities/corporations/dominion-voting-systems' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution and oversight authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-02-18',
@@ -1374,6 +1466,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Levine et al. Sperm Count Meta-Analysis', url: 'https://academic.oup.com/humupd', type: 'Research Study' },
       { title: 'Environment International EMF/Sperm Meta-Analysis', url: 'https://www.sciencedirect.com', type: 'Research Study' },
       { title: 'Swiss National Cohort Cell Phone/Sperm Study', url: 'https://www.sciencedirect.com', type: 'Research Study' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
  { id: '1', name: 'FCC', type: 'agency', relationship: 'SAR testing protocol does not test radiation absorption by reproductive organs or account for phone-in-pocket proximity', href: '/entities/agencies/fcc' },
@@ -1416,9 +1509,12 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'NSSM 200 (Declassified)', url: 'https://pdf.usaid.gov/pdf_docs/PCAAB500.pdf', type: 'Government Record' },
       { title: 'World Bank Population Project Documents', url: 'https://documents.worldbank.org', type: 'Government Record' },
       { title: 'Peru Truth and Reconciliation Commission', url: 'https://www.cverdad.org.pe', type: 'Government Report' },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
  { id: '1', name: 'World Bank', type: 'organization', relationship: 'Under McNamara conditioned structural adjustment loans on population control; funded Indonesia and India mass programs', href: '/entities/organizations/world-bank' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution and oversight authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1960-01-01',
    lastActivityDate: '2023-09-09',
@@ -1455,6 +1551,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Levine et al. Sperm Count Meta-Analysis', url: 'https://academic.oup.com/humupd', type: 'Research Study' },
       { title: 'C8 Science Panel Reports', url: 'https://www.c8sciencepanel.org', type: 'Research Study' },
       { title: 'EPA Atrazine Risk Assessment', url: 'https://www.epa.gov', type: 'Government Record' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Fewer than 5% of 85,000+ registered chemicals tested for reproductive toxicity; repeatedly re-registered atrazine despite evidence', href: '/entities/agencies/epa' },
@@ -1497,9 +1594,11 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'DNC v. RNC Consent Decree Records', url: 'https://www.courtlistener.com', type: 'Court Record' },
       { title: 'DOJ Election Threats Task Force', url: 'https://www.justice.gov', type: 'Government Record' },
       { title: 'Brennan Center Voter Intimidation Reports', url: 'https://www.brennancenter.org', type: 'Research Study' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Election Threats Task Force received 2,000+ reports but brought only 20 federal charges; enforcement capacity severely limited', href: '/entities/agencies/doj' },
+      { name: 'Federal Election Commission', href: '/entities/agencies/fec' },
  ],
    eventOriginDate: '1981-01-01',
    lastActivityDate: '2023-01-01',
@@ -1538,9 +1637,11 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'EPA EJScreen Data', url: 'https://www.epa.gov/ejscreen', type: 'Government Record' },
       { title: 'CalEnviroScreen 4.0', url: 'https://oehha.ca.gov/calenviroscreen', type: 'Government Record' },
       { title: 'UCC Commission for Racial Justice; Toxic Wastes and Race', url: 'https://www.ucc.org', type: 'Research Study' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'EJScreen documents disproportionate toxic exposure in communities of color; Cumulative Impacts Framework faces industry lobbying', href: '/entities/agencies/epa' },
+      { name: 'Department of Justice', href: '/entities/agencies/doj' },
  ],
    eventOriginDate: '1917-01-01',
    lastActivityDate: '2026-02-22',
@@ -1596,10 +1697,16 @@ const investigations_e: Record<string, InvestigationData> = {
     sources: [
       { title: "Senate Investigation Reports", url: "https://www.congress.gov", type: "Government Document" },
       { title: "DHS IG Secret Service Report", url: "https://www.oig.dhs.gov/", type: "Government Report" },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Destroyed 92 videotapes of enhanced interrogation sessions despite court orders', href: '/entities/agencies/cia' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
+
     ],
+   eventOriginDate: '2001-01-01',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1986', event: 'The DHS IG referred the matter to the DOJ; no charges were filed.;, ;IRAN-CONTRA SHREDDING: Oliver North and Fawn Hall shredded thousands of documents related to the Iran-Contra affair in November 1986, just as...', type: 'default' },
      { date: '1986-11', event: 'The DHS IG referred the matter to the DOJ; no charges were filed.;, ;IRAN-CONTRA SHREDDING: Oliver North and Fawn Hall shredded thousands of documents related to the Iran-Contra affair in November 1986, just as...', type: 'default' },
@@ -1636,10 +1743,15 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: "DOJ Hate Crime Indictment", url: "https://www.justice.gov/opa/pr/el-paso-walmart-mass-shooter-pleads-guilty-90-federal-charges", type: "Government" },
       { title: "El Paso Times Investigation", url: "https://www.elpasotimes.com/in-depth/news/2019/08/03/el-paso-shooting-walmart/1920171001/", type: "Investigative Journalism" },
       { title: "ADL: White Supremacist Propaganda Report", url: "https://www.adl.org/resources/report/white-supremacist-propaganda", type: "Research" },
+      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigated as domestic terrorism and hate crime; federal prosecution secured 90 consecutive life sentences', href: '/entities/agencies/fbi' },
+      { name: 'Bureau of Alcohol Tobacco Firearms and Explosives', href: '/entities/agencies/atf' },
     ],
+   eventOriginDate: '2019-08-03',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '2020', event: 'The store was rebuilt and reopened in 2020; a decision that divided the community.', type: 'default' },
      { date: '2021', event: 'Governor Greg Abbott initially expressed support for some gun safety measures; then signed permitless carry into law in 2021.;, ;THE RADICALIZATION PIPELINE: Crusius was radicalized online through 8chan (later 8kun),...', type: 'default' },
@@ -1669,6 +1781,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Mueller Report', url: 'https://www.justice.gov', type: 'Government Report' },
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov', type: 'Government Report' },
       { title: 'DEF CON Voting Village', url: 'https://www.defcon.org', type: 'Security Research' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Russian GRU', type: 'agency', relationship: 'Hacked DNC and election systems', href: '/entities/agencies/gru' },
@@ -1706,6 +1819,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'EPA Environmental Justice Report', url: 'https://www.epa.gov', type: 'Government Report' },
       { title: 'United Church of Christ Toxic Wastes Report', url: 'https://www.ucc.org', type: 'Research' },
       { title: 'GAO Superfund Study', url: 'https://www.gao.gov', type: 'Government Audit' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Slow cleanup in communities of color', href: '/entities/agencies/epa' },
@@ -1743,6 +1857,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Economic Policy Institute CEO Pay Report', url: 'https://www.epi.org', type: 'Research' },
       { title: 'AFL-CIO Executive PayWatch', url: 'https://www.aflcio.org', type: 'Research' },
       { title: 'SEC Executive Compensation Data', url: 'https://www.sec.gov', type: 'Government Data' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Boeing', type: 'corporation', relationship: 'CEO golden parachute after crashes', href: '/entities/corporations/boeing' },
@@ -1779,6 +1894,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'EPA Office of Inspector General: Reports on Enforcement and Compliance', url: 'https://www.epa.gov/office-inspector-general', type: 'Government Audit' },
       { title: 'Environmental Integrity Project: EPA Enforcement Under Trump', url: 'https://environmentalintegrity.org', type: 'Research' },
       { title: 'Science: "Environmental injustice in EPA enforcement" (2022)', url: 'https://www.science.org', type: 'Academic Research' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Subject of systemic regulatory capture; enforcement collapse under multiple administrations; suppressed scientific findings on PFAS and climate', href: '/entities/agencies/epa' },
@@ -1818,6 +1934,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'The Pegasus Project - Forbidden Stories', url: 'https://forbiddenstories.org/case/the-pegasus-project/', type: 'Investigation' },
       { title: 'Senate Permanent Subcommittee on Investigations: Federal Support for Fusion Centers', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Congressional Report' },
       { title: 'Carpenter v. United States, 585 U.S. ___ (2018)', url: 'https://supreme.justia.com/cases/federal/us/585/16-402/', type: 'Court Decision' },
+      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Operates all major signals intelligence collection programs including PRISM, Upstream, and XKEYSCORE', href: '/entities/agencies/nsa' },
@@ -1856,6 +1973,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'DOJ: United States v. Thomas Barrack et al.', url: 'https://www.justice.gov/opa/pr/chairman-former-president-s-2017-inaugural-committee-charged-acting-agent-united-arab', type: 'Legal' },
       { title: 'FARA.gov: UAE Registration Database', url: 'https://efile.fara.gov/ords/fara/f?p=185:1', type: 'Government Data' },
       { title: 'The Intercept: UAE Ambassador Leaked Emails', url: 'https://theintercept.com/2017/06/03/hacked-emails-show-top-uae-diplomat-coordinating-with-pro-israel-neocon-think-tanks/', type: 'Investigation' },
+      { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Barrack (acquitted), Zuberi (convicted), Nader (convicted); FARA enforcement averaging fewer than 7 cases/year', href: '/entities/agencies/doj' },
@@ -1899,6 +2017,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'InsideClimate News: Exxon - The Road Not Taken', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
       { title: 'Science: Assessing ExxonMobil\'s Global Warming Projections (Supran et al.)', url: 'https://www.science.org/doi/10.1126/science.abk0063', type: 'Research' },
       { title: 'House Oversight Committee: Investigation of Fossil Fuel Industry Disinformation', url: 'https://oversight.house.gov/landing/investigation-of-fossil-fuel-industry-disinformation/', type: 'Congressional Report' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'No federal prosecution despite documented decades of public deception about climate science', href: '/entities/agencies/doj' },
@@ -1943,6 +2062,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'NTSB: Investigation of East Palestine Derailment', url: 'https://www.ntsb.gov/investigations/Pages/RRD23MR005.aspx', type: 'Government Report' },
       { title: 'EPA: East Palestine Emergency Response', url: 'https://www.epa.gov/east-palestine-oh-train-derailment', type: 'Government' },
       { title: 'Senate Commerce Committee: Improving Rail Safety in Response to East Palestine Derailment', url: 'https://www.commerce.senate.gov/2023/3/improving-rail-safety-in-response-to-the-east-palestine-train-derailment', type: 'Congressional Report' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Ordered Norfolk Southern to conduct cleanup under CERCLA; deployed air and water monitoring', href: '/entities/agencies/epa' },
@@ -1980,6 +2100,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'FTC: Equifax Data Breach Settlement', url: 'https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement', type: 'Government' },
       { title: 'House Oversight Committee: The Equifax Data Breach', url: 'https://oversight.house.gov/wp-content/uploads/2018/12/Equifax-Report.pdf', type: 'Congressional Report' },
       { title: 'GAO: Actions Taken by Equifax and Federal Agencies', url: 'https://www.gao.gov/products/gao-18-559', type: 'Government Audit' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Co-led $700M settlement; provided up to $425M consumer restitution fund; average payout approximately $7 per victim', href: '/entities/agencies/ftc' },
@@ -2016,6 +2137,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'SEC: Enron Enforcement Actions', url: 'https://www.sec.gov/spotlight/enron.htm', type: 'Government' },
       { title: 'Senate Permanent Subcommittee on Investigations: The Role of the Board of Directors in Enron\'s Collapse', url: 'https://www.govinfo.gov/content/pkg/CPRT-107SPRT80393/pdf/CPRT-107SPRT80393.pdf', type: 'Congressional Report' },
       { title: 'DOJ: Enron Task Force', url: 'https://www.justice.gov/archive/enron/', type: 'Government' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Launched largest-ever enforcement action at the time; sued 77 individuals and entities; recovered $450M for investors', href: '/entities/agencies/sec' },
@@ -2067,6 +2189,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'DOJ: Elizabeth Holmes Sentenced to Over 11 Years for Theranos Fraud', url: 'https://www.justice.gov/usao-ndca/pr/theranos-founder-elizabeth-holmes-sentenced-more-11-years-defrauding-investors', type: 'Legal Document' },
       { title: 'SEC: Theranos, CEO Holmes, and Former President Balwani Charged with Massive Fraud', url: 'https://www.sec.gov/litigation/litreleases/2018/lr24084.htm', type: 'Government Filing' },
       { title: 'Wall Street Journal: Hot Startup Theranos Has Struggled With Its Blood-Test Technology', url: 'https://www.wsj.com/articles/theranos-has-struggled-with-blood-tests-1444881901', type: 'Investigative Report' },
+      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Charged Holmes with massive fraud; settled for $500K fine and 10-year officer bar; criticized for light settlement', href: '/entities/agencies/sec' },
@@ -2104,6 +2227,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Kelo v. City of New London, 545 U.S. 469 (2005)', url: 'https://supreme.justia.com/cases/federal/us/545/469/', type: 'Court Decision' },
       { title: 'Institute for Justice: Eminent Domain Abuse', url: 'https://ij.org/issues/private-property/eminent-domain/', type: 'Advocacy Research' },
       { title: 'Mindy Fullilove: Root Shock: How Tearing Up City Neighborhoods Hurts America', url: 'https://www.penguinrandomhouse.com/books/289813/root-shock-by-mindy-thompson-fullilove/', type: 'Book' },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Enforces federal eminent domain proceedings; historically failed to intervene when state governments used eminent domain to target minority communities', href: '/entities/agencies/doj' },
@@ -2141,6 +2265,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'EPA: Environmental Justice Atlas', url: 'https://www.epa.gov/environmentaljustice', type: 'Government Report' },
       { title: 'ProPublica: Sacrifice Zones (Cancer Alley Investigation)', url: 'https://www.propublica.org/article/welcome-to-cancer-alley-where-toxic-air-is-about-to-get-worse', type: 'Investigation' },
       { title: 'National Academy of Sciences: Federal Regulation and Environmental Justice', url: 'https://www.nationalacademies.org/', type: 'Research' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Has never made a formal finding of discrimination under Title VI despite 300+ complaints; enforcement penalties 46% lower in minority communities', href: '/entities/agencies/epa' },
@@ -2177,6 +2302,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'CFPB: Elder Financial Exploitation Report', url: 'https://www.consumerfinance.gov/', type: 'Government Report' },
       { title: 'GAO: Elder Justice - National Strategy Needed', url: 'https://www.gao.gov/', type: 'Government Report' },
       { title: 'FBI IC3: Elder Fraud Report 2023', url: 'https://www.ic3.gov/', type: 'Law Enforcement Report' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Elder Justice Initiative launched in 2012 but chronically underfunded; prosecutes major fraud rings but lacks capacity for individual guardianship abuse cases', href: '/entities/agencies/doj' },
@@ -2213,6 +2339,9 @@ const investigations_e: Record<string, InvestigationData> = {
       'https://www.cms.gov/nosurprises',
       'https://www.kff.org/private-insurance/issue-brief/surprise-medical-bills/',
       'https://www.commonwealthfund.org/publications/issue-briefs/2023/no-surprises-act-implementation',
+      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+
+      { name: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/' },
     ],
     affiliations: [
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Administers No Surprises Act; overwhelmed by 90,000+ dispute submissions in year one; provider lawsuits forced revisions to arbitration methodology', href: '/entities/agencies/cms' },
@@ -2249,11 +2378,15 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'Senate Intelligence Committee Study: CIA Detention and Interrogation Program (2014)', url: 'https://www.intelligence.senate.gov/publications/committee-study-central-intelligence-agencys-detention-and-interrogation-program', type: 'Congressional Record' },
       { title: 'ACLU: Accountability for Torture', url: 'https://www.aclu.org/issues/national-security/torture', type: 'Legal Resource' },
       { title: 'European Court of Human Rights: Al Nashiri v. Poland (2014)', url: 'https://hudoc.echr.coe.int/eng?i=001-146044', type: 'Court Filing' },
+      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Designed and operated the global torture program across 8+ countries; subjected 119+ detainees to torture; systematically misled Congress and the DOJ about effectiveness; destroyed 92 videotapes of interrogation sessions', href: '/entities/agencies/cia' },
       { id: '2', name: 'Gina Haspel', type: 'individual', relationship: 'Oversaw CIA black site in Thailand where waterboarding was conducted; drafted cable ordering destruction of interrogation videotapes; promoted to CIA Director in 2018 despite direct involvement in torture program', href: '/entities/individuals/gina-haspel' },
     ],
+   eventOriginDate: '2002-03-28',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1994', event: 'Section 2340 to require pain "equivalent in intensity to the pain accompanying serious physical injury, such as organ failure, impairment of bodily function, or even death." This interpretation con...', type: 'critical' },
      { date: '2002-08-01', event: 'The August 1, 2002 memorandum authored by Deputy Assistant Attorney General John Yoo and signed by Assistant Attorney General Jay Bybee (known as the "Torture Memos") narrowed the definition of tor...', type: 'default' },

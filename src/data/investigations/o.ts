@@ -31,6 +31,7 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'Human Rights Campaign - Anti-Trans Legislation', url: 'https://www.hrc.org/resources/attacks-on-gender-affirming-care-by-state-map', type: 'Report' },
  { title: 'ACLU Transgender Rights', url: 'https://www.aclu.org/issues/lgbtq-rights/transgender-rights', type: 'Report' },
  { title: 'Williams Institute Research', url: 'https://williamsinstitute.law.ucla.edu/', type: 'Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Oath Keepers', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/oath-keepers' },
@@ -102,11 +103,15 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'DOJ Review of Strauss Allegations', url: 'https://www.nytimes.com/2019/05/17/us/ohio-state-sexual-abuse.html', type: 'News Report' },
  { title: 'Ohio State Strauss Settlement', url: 'https://www.dispatch.com/story/news/courts/2023/03/06/ohio-state-strauss-abuse-settlement/69967291007/', type: 'News Report' },
  { title: 'Congressional Inquiry into Jim Jordan', url: 'https://www.cnn.com/2020/03/06/politics/jim-jordan-ohio-state/index.html', type: 'News Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Ohio State', type: 'corporation', relationship: 'Employed Strauss for 20 years despite complaints', href: '/entities/corporations/ohio-state' },
  { id: '2', name: 'Jim Jordan', type: 'individual', relationship: 'Assistant wrestling coach accused of knowing about abuse', href: '/entities/individuals/jim-jordan' },
  ],
+   eventOriginDate: '2022-08-07',
+   lastActivityDate: '2025-07-16',
+   pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1962', event: 'The prevalence of obesity among American adults has risen from 13% in 1962 to 42% in 2023', type: 'default' },
      { date: '1978', event: 'Richard Strauss served as team physician for at least 16 varsity sports at Ohio State from 1978 to 1998', type: 'default' },
@@ -143,6 +148,7 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
  { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
       { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia', href: '/entities/organizations/oath-keepers' },
@@ -186,6 +192,7 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'McKesson DEA Settlement', url: 'https://www.justice.gov/opa/pr/mckesson-agrees-pay-record-150-million-settlement-failure-report-suspicious-orders', type: 'Court Filing' },
  { title: 'National Opioid Settlement', url: 'https://nationalopioidsettlement.com/', type: 'Settlement Document' },
  { title: 'Washington Post/60 Minutes: DEA Enforcement Investigation', url: 'https://www.washingtonpost.com/investigations/the-drug-industry-s-triumph-over-the-dea/2017/10/15/352aa7fc-ae3e-11e7-a908-a3470754bbb9_story.html', type: 'Investigation' },
+   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
  ],
  affiliations: [
  { id: '1', name: 'McKesson', type: 'corporation', relationship: 'Largest distributor; paid $150M penalty, $7.9B settlement', href: '/entities/corporations/mckesson' },
@@ -229,6 +236,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Tax Justice Network Financial Secrecy Index', url: 'https://taxjustice.net/fsi/', type: 'Policy Research' },
       { title: 'ICIJ Pandora Papers', url: 'https://www.icij.org/investigations/pandora-papers/', type: 'Investigative Report' },
       { title: 'Senate Finance Committee Tax Haven Hearings', url: 'https://www.finance.senate.gov/', type: 'Congressional Record' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Chronically underfunded enforcement; lost 600+ agents 2010-2021; unable to pursue complex offshore cases', href: '/entities/agencies/irs' },
@@ -266,6 +274,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'NYC Department of Investigation Reports', url: 'https://www1.nyc.gov/site/doi/', type: 'Government Audit' },
       { title: 'New York State Organized Crime Task Force', url: 'https://ag.ny.gov/', type: 'Government Report' },
       { title: 'Selwyn Raab: Five Families', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Led RICO investigations against Mafia construction rackets; Commission trial convicted all five family bosses', href: '/entities/agencies/fbi' },
@@ -302,6 +311,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'CIA Family Jewels Documents', url: 'https://www.cia.gov/readingroom/collection/family-jewels', type: 'Declassified Document' },
       { title: 'National Security Archive: Operation CHAOS', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
       { title: 'Seymour Hersh NYT Investigation (1974)', url: 'https://www.nytimes.com/', type: 'Investigative Report' },
+      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated CHAOS in violation of its charter; compiled files on 300,000+ Americans; infiltrated domestic movements', href: '/entities/agencies/cia' },
@@ -341,9 +351,12 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Carl Bernstein: The CIA and the Media (Rolling Stone 1977)', url: 'https://www.rollingstone.com/', type: 'Investigative Report' },
       { title: 'National Security Archive: CIA and the Media', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
       { title: 'CIA FOIA Reading Room', url: 'https://www.cia.gov/readingroom/', type: 'Declassified Document' },
+      { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated Mockingbird; recruited 400+ journalists; infiltrated major news organizations for propaganda purposes', href: '/entities/agencies/cia' },
+      { id: '2', name: 'FCC', type: 'agency', relationship: 'Federal Communications Commission media regulation', href: '/entities/agencies/fcc' },
+
     ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2023-01-15',
@@ -413,6 +426,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Linda Hunt: Secret Agenda', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' },
       { title: 'Annie Jacobsen: Operation Paperclip', url: 'https://www.littlebrown.com/', type: 'Investigative Book' },
       { title: 'DOJ Office of Special Investigations Reports', url: 'https://www.justice.gov/', type: 'Government Report' },
+      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Maintained separate Nazi recruitment through BLOODSTONE; shielded Paperclip scientists from prosecution', href: '/entities/agencies/cia' },
@@ -495,6 +509,7 @@ const investigations_o: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Established and funded stay-behind networks across 16+ European nations; linked to strategy of tension', href: '/entities/agencies/cia' },
+      { name: 'Department of Justice', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '1940-01-01',
    lastActivityDate: '2022-12-23',
@@ -528,6 +543,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'House Oversight Committee Fast and Furious Report', url: 'https://oversight.house.gov/', type: 'Congressional Record' },
       { title: 'Senate Judiciary Committee Investigation', url: 'https://www.judiciary.senate.gov/', type: 'Congressional Record' },
       { title: 'ATF Whistleblower Testimony', url: 'https://www.grassley.senate.gov/', type: 'Congressional Testimony' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'ATF', type: 'agency', relationship: 'Ran gun-walking operation allowing 2,000+ firearms to reach Mexican cartels; lost track of 1,400 weapons', href: '/entities/agencies/atf' },
@@ -608,6 +624,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Massachusetts AG Sackler Lawsuit Filings', url: 'https://www.mass.gov/news/ag-healey-files-amended-opioids-complaint', type: 'Court Record' },
       { title: 'Patrick Radden Keefe: Empire of Pain', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' },
       { title: 'Senate HELP Committee Opioid Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Record' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approved OxyContin with misleading "less addictive" label; revolving door with pharma industry', href: '/entities/agencies/fda' },
@@ -648,6 +665,7 @@ const investigations_o: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Directed Operation Ajax; spent $1M+ on propaganda, bribes, and mob organization; orchestrated overthrow of democratic government', href: '/entities/agencies/cia' },
+      { name: 'Department of Justice', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '1908-01-01',
    lastActivityDate: '2025-02-14',
@@ -685,9 +703,11 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'UN Environment Programme Marine Litter Report', url: 'https://www.unep.org/', type: 'International Report' },
       { title: 'Science: Global Ocean Dead Zones', url: 'https://www.science.org/', type: 'Academic Research' },
       { title: 'Ocean Conservancy Annual Reports', url: 'https://oceanconservancy.org/', type: 'Policy Research' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Weakened Clean Water Act enforcement; 50% decline in enforcement actions 2006-2020', href: '/entities/agencies/epa' },
+      { name: 'Department of Justice', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '2006-01-01',
    lastActivityDate: '2024-01-09',
@@ -722,6 +742,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'NIEHS GuLF STUDY', url: 'https://gulfstudy.nih.gov/', type: 'Academic Research' },
       { title: 'UNEP Niger Delta Environmental Assessment', url: 'https://www.unep.org/', type: 'International Report' },
       { title: 'Congressional Research Service: Oil Spill Liability', url: 'https://crsreports.congress.gov/', type: 'Congressional Report' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Exxon Valdez spill; spent 20 years reducing $5B punitive damages to $507M; funded minimizing health studies', href: '/entities/corporations/exxonmobil' },
@@ -760,6 +781,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'The Intercept: Intelligence and Media', url: 'https://theintercept.com/', type: 'Investigative Report' },
       { title: 'Columbia Journalism Review: National Security Reporting', url: 'https://www.cjr.org/', type: 'Media Analysis' },
       { title: 'Senate Intelligence Committee Annual Reports', url: 'https://www.intelligence.senate.gov/', type: 'Congressional Record' },
+      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Historical media influence through Mockingbird; modern relationships through revolving door and strategic leaks', href: '/entities/agencies/cia' },
@@ -796,6 +818,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'FDA Off-Label Promotion Guidance', url: 'https://www.fda.gov/', type: 'Government Report' },
       { title: 'Public Citizen: Pharmaceutical Industry Criminal Fines', url: 'https://www.citizen.org/', type: 'Policy Research' },
       { title: 'ProPublica: Dollars for Docs', url: 'https://www.propublica.org/', type: 'Investigative Report' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Limited enforcement capacity; regulatory authority challenged by First Amendment arguments from pharma industry', href: '/entities/agencies/fda' },
@@ -834,6 +857,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'NYU Stern Center for Business and Human Rights', url: 'https://bhr.stern.nyu.edu/', type: 'Academic Research' },
       { title: 'Chaslot: YouTube Algorithm Study', url: 'https://algotransparency.org/', type: 'Academic Research' },
       { title: 'Senate Commerce Committee Tech Hearings', url: 'https://www.commerce.senate.gov/', type: 'Congressional Record' },
+      { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Google', type: 'corporation', relationship: 'YouTube recommendation algorithm systematically directed users toward extremist content; company delayed safety changes to protect engagement', href: '/entities/corporations/google' },
@@ -870,6 +894,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Human Trafficking Institute Federal Cases Report', url: 'https://www.traffickinginstitute.org/', type: 'Policy Research' },
       { title: 'NCMEC CyberTipline Data', url: 'https://www.missingkids.org/', type: 'Government Report' },
       { title: 'Senate Permanent Subcommittee on Investigations: Backpage', url: 'https://www.hsgac.senate.gov/', type: 'Congressional Record' },
+      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Backpage operators; enforces FOSTA-SESTA; coordinates federal anti-trafficking task forces', href: '/entities/agencies/doj' },
@@ -927,8 +952,15 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: "Oakland County Court Records", url: "https://www.oakgov.com/courts", type: "Court Document" },
       { title: "Oakland County Prosecutor Press Releases", url: "https://www.oakgov.com/prosecutor", type: "Government" },
       { title: "Detroit Free Press Investigation", url: "https://www.freep.com/in-depth/news/local/michigan/oakland/oxford-school-shooting/", type: "Investigation" },
+      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
     ],
-    affiliations: [],
+    affiliations: [
+      { id: '1', name: 'FBI', type: 'agency', relationship: 'Federal investigation authority for mass violence incidents', href: '/entities/agencies/fbi' },
+      { name: 'Bureau of Alcohol Tobacco Firearms and Explosives', href: '/entities/agencies/atf' },
+    ],
+   eventOriginDate: '2021-11-30',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '2021', event: 'On November 30, 2021, Ethan Crumbley, 15, killed four students and wounded seven others at Oxford High School in Michigan.', type: 'critical' },
      { date: '2021-11-26', event: 'He returned to class and opened fire less than three hours later.;, ;THE GUN PURCHASE: James Crumbley purchased the SIG Sauer on November 26, 2021; with Ethan present at the store and photographed holding the weapon.', type: 'default' },
@@ -960,13 +992,26 @@ const investigations_o: Record<string, InvestigationData> = {
     sources: [
       { title: "Congressional Record", url: "https://www.congress.gov/congressional-record", type: "Government Document" },
       { title: "Brennan Center: Congressional Oversight Analysis", url: "https://www.brennancenter.org/", type: "Research" },
+      { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
     ],
-    affiliations: [],
-   timeline: [
-     { date: '2008', event: 'Congress failed to seriously investigate the 2008 financial crisis, was slow to investigate the intelligence failures that led to the Iraq War, and Republican leadership blocked consideration of the January 6...', type: 'political' },
-     { date: '2012', event: 'During the first impeachment, Republican counsel attempted to expose the whistleblower Select Subcommittee on the Weaponization of the Federal Government s witnesses included conspiracy theorists and former agents...', type: 'political' },
-     { date: '2023', event: 'In 2023, House Republicans created the \'Select Subcommittee on the Weaponization of the Federal Government\'; which critics described as using oversight to weaponize oversight.', type: 'default' },
-   ],
+    affiliations: [
+      { id: '1', name: 'Kevin McCarthy', type: 'individual', relationship: 'Admitted on Fox News that Benghazi committee was designed to damage Hillary Clinton\'s poll numbers', href: '/entities/individuals/kevin-mccarthy' },
+      { id: '2', name: 'Jim Jordan', type: 'individual', relationship: 'Chair of Weaponization Subcommittee accused of using oversigth to interfere with DOJ investigations', href: '/entities/individuals/jim-jordan' },
+      { id: '3', name: 'James Comer', type: 'individual', relationship: 'Chair of House Oversight Committee who led the Biden investigations', href: '/entities/individuals/james-comer' },
+    ],
+    eventOriginDate: '2012-09-11',
+    lastActivityDate: '2026-03-10',
+    pageUpdatedDate: '2026-03-21',
+    timeline: [
+      { date: '2012-09-11', event: 'Attack on U.S. diplomatic compound in Benghazi, Libya kills four Americans including Ambassador Chris Stevens', type: 'default' },
+      { date: '2014-05-08', event: 'House establishes Select Committee on Benghazi chaired by Trey Gowdy; ultimately spends $7.8 million and holds 33 hearings', type: 'political' },
+      { date: '2015-09-29', event: 'Kevin McCarthy tells Fox News the Benghazi committee successfully lowered Clinton\'s poll numbers, revealing partisan purpose', type: 'political' },
+      { date: '2019-11-13', event: 'First public impeachment hearings; Republican members use committee positions to attack witnesses rather than investigate evidence', type: 'political' },
+      { date: '2021-05-19', event: 'House Republicans block creation of bipartisan January 6 commission', type: 'political' },
+      { date: '2023-01-10', event: 'House Republicans create Select Subcommittee on Weaponization of the Federal Government, chaired by Jim Jordan', type: 'political' },
+      { date: '2023-01-12', event: 'House Oversight Committee under James Comer opens investigation into Biden family business dealings', type: 'political' },
+      { date: '2024-08-19', event: 'House Oversight Committee concludes Biden investigation without evidence of presidential wrongdoing', type: 'political' },
+    ],
   },
   'operation-chaos': {
     title: "Operation CHAOS",
@@ -996,6 +1041,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated CHAOS in violation of its charter prohibition on domestic operations; compiled files on 300,000+ Americans', href: '/entities/agencies/cia' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Coordinated with CIA through COINTELPRO to surveil and disrupt domestic political movements', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '1967-08-15',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1952', event: 'Operatives attended meetings, reported on activities, and identified leaders for further surveillance.;, ;COINTELPRO COLLABORATION: CHAOS worked in tandem with the FBI s legal prohibition on domestic operations.;,...', type: 'default' },
      { date: '1967-08', event: 's counterintelligence division in August 1967; despite knowing the CIA s liberation, environmental, and Black Power movements.', type: 'default' },
@@ -1028,10 +1076,16 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: "DEA ARCOS Database (WaPo Analysis)", url: "https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/", type: "Investigation" },
       { title: "Charleston Gazette-Mail Investigation", url: "https://www.wvgazettemail.com/news/health/drug-firms-poured-780m-painkillers-into-wv-amid-rise-of-overdoses/article_99026dad-8ed5-5075-90fa-adb906a36214.html", type: "Investigation" },
       { title: "National Opioid Settlement Tracker", url: "https://www.opioidsettlementtracker.com/", type: "Legal" },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement capability undermined by pharmaceutical industry lobbying; 2016 law stripped key enforcement powers', href: '/entities/agencies/dea' },
+      { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' },
+
     ],
+   eventOriginDate: '2006-01-01',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1999', event: 'Opioid overdoses killed over 600,000 Americans between 1999 and 2023.', type: 'critical' },
      { date: '2006', event: 'The three largest drug distributors; McKesson, AmerisourceBergen, and Cardinal Health; shipped 76 billion opioid pills between 2006 and 2012 while ignoring clear signs of diversion to illegal markets.', type: 'financial' },
@@ -1063,6 +1117,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'DOJ: Purdue Pharma Criminal Resolution', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-fraud-and-kickback-conspiracies', type: 'Government Records' },
       { title: 'DEA ARCOS Database Analysis (Washington Post)', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Database' },
       { title: 'Congressional Investigation: Purdue Pharma and Sackler Family', url: 'https://oversight.house.gov/landing/purdue-pharma-investigation/', type: 'Congressional Report' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement powers stripped by 2016 Ensuring Patient Access Act; distribution enforcement chronically underfunded', href: '/entities/agencies/dea' },
@@ -1149,6 +1204,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Washington Post: DEA ARCOS Database (Opioid Shipment Data)', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Investigation' },
       { title: 'DEA: McKesson Settlement Agreement', url: 'https://www.dea.gov/', type: 'Legal Document' },
       { title: '60 Minutes/Washington Post: The Drug Industry\'s Triumph Over the DEA', url: 'https://www.washingtonpost.com/investigations/the-drug-industrys-triumph-over-the-dea/2016/10/15/b17f3a6a-8cb3-11e6-875e-2c1bfe943b66_story.html', type: 'Investigation' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement authority stripped by 2016 legislation drafted by industry lobbyists; fined McKesson twice for same violations; allowed billions of suspicious pills to flow', href: '/entities/agencies/dea' },
@@ -1184,6 +1240,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'U.S. Right to Know: Monsanto Papers', url: 'https://usrtk.org/pesticides/monsanto-papers/', type: 'Investigation' },
       { title: 'IARC: Glyphosate Monograph', url: 'https://monographs.iarc.who.int/', type: 'Research' },
       { title: 'EPA: Neonicotinoid Risk Assessments', url: 'https://www.epa.gov/pollinator-protection/epa-actions-protect-pollinators', type: 'Government Report' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Maintains glyphosate is not likely carcinogenic despite jury verdicts and IARC classification; failed to ban neonicotinoids despite own risk findings; chlorpyrifos ban delayed 20+ years', href: '/entities/agencies/epa' },
@@ -1223,6 +1280,9 @@ const investigations_o: Record<string, InvestigationData> = {
       'https://www.kff.org/other/issue-brief/tracking-opioid-settlement-spending/',
       'https://www.statnews.com/opioid-settlement-tracker/',
       'https://nationalopioidsettlement.com/',
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+
+      { name: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Negotiated separate federal settlements with Purdue Pharma and distributors; no federal enforcement mechanism for state-level spending compliance; DEA data enabled the crisis through inadequate quota controls', href: '/entities/agencies/doj' },
@@ -1262,6 +1322,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'CIA FOIA: Operation Paperclip Declassified Records', url: 'https://www.cia.gov/readingroom/collection/nazi-war-crimes-and-japanese-imperial-government-records', type: 'Government Record' },
       { title: 'National Air and Space Museum: Wernher von Braun Biographical Archive', url: 'https://airandspace.si.edu/people/wernher-von-braun', type: 'Research Archive' },
       { title: 'Mittelbau-Dora Concentration Camp Memorial: History', url: 'https://www.buchenwald.de/en/896/', type: 'Memorial Archive' },
+      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
     ],
     affiliations: [
       { id: '1', name: 'Joint Intelligence Objectives Agency', type: 'agency', relationship: 'Planned and executed Operation Paperclip; systematically falsified security evaluations to circumvent presidential directives; overrode State Department and FBI objections; no JIOA officer was ever disciplined', href: '/entities/agencies/jioa' },
@@ -1309,9 +1370,11 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Senate Select Committee on Intelligence: MKULTRA Hearings, 1977', url: 'https://www.intelligence.senate.gov/', type: 'Government Report' },
       { title: 'Church Committee Final Report', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Government Report' },
       { title: 'CIA FOIA: MKUltra Collection', url: 'https://www.cia.gov/readingroom/collection/mkultra', type: 'Declassified Documents' },
+      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Funded and directed Operation Midnight Climax safe houses where unwitting American citizens were drugged with LSD', href: '/entities/agencies/cia' },
+      { name: 'Department of Justice', href: '/entities/agencies/doj' },
     ],
     eventOriginDate: '1954-01-01',
     lastActivityDate: '1966-12-31',

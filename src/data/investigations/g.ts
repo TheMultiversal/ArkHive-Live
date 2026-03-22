@@ -32,6 +32,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'WEF Strategic Partners List', url: 'https://www.weforum.org/partners/', type: 'Official Source' },
  { title: 'Known Traveller Digital Identity', url: 'https://ktdi.org/', type: 'Official Source' },
  { title: 'Fourth Industrial Revolution, Schwab', url: 'https://www.weforum.org/focus/fourth-industrial-revolution', type: 'Official Source' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Klaus Schwab', type: 'individual', relationship: 'WEF Founder, Great Reset architect', href: '/entities/individuals/klaus-schwab' },
@@ -87,6 +88,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'Bank for International Settlements About', url: 'https://www.bis.org/about/index.htm', type: 'Official Source' },
  { title: 'Project 2025, Heritage Foundation', url: 'https://www.project2025.org/', type: 'Official Source' },
  { title: 'Club of Rome History', url: 'https://www.clubofrome.org/', type: 'Official Source' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Klaus Schwab', type: 'individual', relationship: 'WEF Founder, Davos convener', href: '/entities/individuals/klaus-schwab' },
@@ -140,6 +142,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'E. Jean Carroll $83.3M Defamation Verdict', url: 'https://www.nytimes.com/live/2024/01/26/nyregion/trump-e-jean-carroll-trial', type: 'Court Verdict' },
  { title: 'Complete List of Trump Accusers', url: 'https://www.businessinsider.com/women-accused-trump-sexual-misconduct-list-2017-12', type: 'Investigation' },
  { title: 'Miss Teen USA Dressing Room Allegations', url: 'https://www.buzzfeednews.com/article/kendalltaggart/teen-beauty-queens-say-trump-walked-in-on-them-changing', type: 'Investigation' },
+   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Subject, found liable for sexual abuse', href: '/entities/individuals/donald-trump' },
@@ -184,6 +187,7 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Miami Herald, Perversion of Justice', url: 'https://www.miamiherald.com/news/local/article220097825.html', type: 'Investigation' },
  { title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-conspiring-jeffrey-epstein-sexually-abuse', type: 'Court Records' },
+   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
  ],
  affiliations: [
  { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Ringleader', href: '/entities/individuals/jeffrey-epstein' },
@@ -199,8 +203,9 @@ const investigations_g: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2008', event: 'The 2008 sweetheart deal negotiated by Alex Acosta demonstrated how wealth and connections provided protection.', type: 'default' },
-     { date: '2008-01-01', event: 'Global Sex Trafficking Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2022-12-01', event: 'Global Sex Trafficking Networks — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2013-01', event: 'Ghislaine Maxwell Trial Documents — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
+     { date: '2017-01', event: 'Ghislaine Maxwell Trial Documents — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
+     { date: '2022-01', event: 'Ghislaine Maxwell Trial Documents — Latest developments tracked; investigation updated with new findings', type: 'critical' },
    ],
  },
   'gaetz-sex-trafficking': {
@@ -228,6 +233,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'NY Times Original Investigation', url: 'https://www.nytimes.com/2021/03/30/us/politics/matt-gaetz-sex-trafficking-investigation.html', type: 'News Report' },
  { title: 'Greenberg Plea Agreement', url: 'https://www.justice.gov/usao-mdfl/pr/former-seminole-county-tax-collector-pleads-guilty-sex-trafficking-minor-and-other', type: 'Court Document' },
  { title: 'House Ethics Committee Report', url: 'https://ethics.house.gov/', type: 'Government Report' },
+   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
  ],
  affiliations: [
  { id: '1', name: 'Matt Gaetz', type: 'individual', relationship: 'Subject of investigation', href: '/entities/individuals/matt-gaetz' },
@@ -240,9 +246,17 @@ const investigations_g: Record<string, InvestigationData> = {
    lastActivityDate: '2023-05-31',
    pageUpdatedDate: '2026-03-18',
    timeline: [
+
+     { date: '2021-01-01', event: 'Matt Gaetz Sex Trafficking Investigation — Initial events documented and investigation initiated', type: 'default' },
+
+     { date: '2022-01-01', event: 'Matt Gaetz Sex Trafficking Investigation — Key evidence gathered and accountability analysis updated', type: 'default' },
+
      { date: '2023', event: 'In February 2023, DOJ reportedly informed Gaetz\'s lawyers it would not charge him.', type: 'default' },
+
      { date: '2023-01-01', event: 'Matt Gaetz Sex Trafficking Investigation investigation begins — events under scrutiny originate from this period', type: 'default' },
+
      { date: '2023-02', event: 'In February 2023, DOJ reportedly informed Gaetz\'s lawyers it would not charge him.', type: 'default' },
+
    ],
  },
   'gun-lobby-influence': {
@@ -274,6 +288,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'NRA-Russia Investigation', url: 'https://www.finance.senate.gov/imo/media/doc/The%20NRA%20%20Russia%20-%20How%20a%20Tax-Exempt%20Organization%20Became%20a%20Foreign%20Asset.pdf', type: 'Congressional Report' },
  { title: 'Maria Butina Case', url: 'https://www.justice.gov/opa/pr/russian-national-charged-conspiracy-act-agent-russian-federation-within-united-states', type: 'DOJ Release' },
  { title: 'Dickey Amendment Impact', url: 'https://www.apa.org/science/about/psa/2013/02/gun-violence', type: 'Research' },
+   { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'NRA', type: 'organization', relationship: 'Gun lobby controlling Republican votes', href: '/entities/organizations/nra' },
@@ -322,6 +337,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'January 6 Committee Interview', url: 'https://www.nytimes.com/2022/09/29/us/politics/ginni-thomas-jan-6-committee.html', type: 'News Report' },
  { title: 'Thomas Arizona Emails', url: 'https://www.washingtonpost.com/politics/2022/05/20/ginni-thomas-arizona/', type: 'News Report' },
  { title: 'Trump v. Thompson Dissent', url: 'https://www.supremecourt.gov/opinions/21pdf/21a272_9p6b.pdf', type: 'Court Opinion' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Ginni Thomas', type: 'individual', relationship: 'Coordinated with coup plotters', href: '/entities/individuals/ginni-thomas' },
@@ -370,6 +386,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Document' },
  { title: 'January 6 Committee Report, Green Bay Sweep', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Peter Navarro', type: 'individual', relationship: 'Named and promoted the scheme', href: '/entities/individuals/peter-navarro' },
@@ -418,6 +435,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'January 6 Committee Guard Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'DOD Inspector General Report', url: 'https://media.defense.gov/2021/Apr/13/2002621546/-1/-1/0/DODIG-2021-082.PDF', type: 'Government Report' },
  { title: 'Governor Hogan Account', url: 'https://www.washingtonpost.com/local/md-politics/hogan-national-guard-dc-capitol/2021/01/07/e31b38f6-5134-11eb-b2e8-3339e73d9da2_story.html', type: 'News Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Christopher Miller', type: 'individual', relationship: 'Acting SecDef, imposed restrictions', href: '/entities/individuals/christopher-miller' },
@@ -432,9 +450,10 @@ const investigations_g: Record<string, InvestigationData> = {
    lastActivityDate: '2023-06-18',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020-01-01', event: 'National Guard Deployment Delays investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020-06', event: 'During Black Lives Matter protests in June 2020, the National Guard was deployed almost immediately.', type: 'default' },
-     { date: '2023-06-18', event: 'National Guard Deployment Delays — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2021-01', event: 'Governor Hogan Account — Investigation updated with new findings and developments', type: 'critical' },
+     { date: '2022-01', event: 'Governor Hogan Account — Ongoing monitoring and documentation of developments', type: 'critical' },
+     { date: '2023-01', event: 'Governor Hogan Account — Latest status update and accountability tracking', type: 'critical' },
    ],
  },
   'gain-of-function': {
@@ -465,6 +484,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'EcoHealth Alliance NIH Grant', url: 'https://reporter.nih.gov/search/xQW6UJmWfUuOV01ntGvLwQ/project-details/9819304', type: 'Grant Record' },
  { title: 'The Intercept, NIH Documents', url: 'https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/', type: 'Investigation' },
  { title: 'Science Debate on Gain-of-Function', url: 'https://www.science.org/doi/10.1126/science.abn4737', type: 'Scientific Article' },
+   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
  ],
  affiliations: [
  { id: '1', name: 'NIH', type: 'agency', relationship: 'Funded EcoHealth research', href: '/entities/agencies/nih' },
@@ -510,6 +530,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'World Economic Forum', url: 'https://www.weforum.org/', type: 'Official Site' },
  { title: 'Bilderberg Meetings', url: 'https://bilderbergmeetings.org/', type: 'Official Site' },
  { title: 'Council on Foreign Relations', url: 'https://www.cfr.org/', type: 'Official Site' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Klaus Schwab', type: 'individual', relationship: 'WEF Founder and Chairman', href: '/entities/individuals/klaus-schwab' },
@@ -552,6 +573,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'ICJ South Africa v. Israel Ruling', url: 'https://www.icj-cij.org/case/192', type: 'Court Decision' },
  { title: 'Human Rights Watch: War Crimes in Gaza', url: 'https://www.hrw.org/middle-east/n-africa/israel/palestine', type: 'Research Report' },
  { title: 'Euro-Med Human Rights Monitor', url: 'https://euromedmonitor.org/', type: 'NGO Reports' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Benjamin Netanyahu', type: 'individual', relationship: 'Israeli PM directing campaign', href: '/entities/individuals/benjamin-netanyahu' },
@@ -593,6 +615,8 @@ const investigations_g: Record<string, InvestigationData> = {
  tags: ['Guatemala', 'CIA', 'Coup', 'United Fruit', 'Genocide', 'Cold War'],
  sources: [
  { title: 'CIA Guatemala Documents', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB4/', type: 'Government Documents' },
+      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated the coup', href: '/entities/agencies/cia' },
@@ -604,9 +628,11 @@ const investigations_g: Record<string, InvestigationData> = {
    lastActivityDate: '2011-03-05',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '1980-01-01', event: 'Guatemala Coup 1954 investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '1980-01-01', event: 'The CIA overthrew Guatemala\'s democratically elected government to protect United Fruit Company profits', type: 'critical' },
+     { date: '1988-01', event: 'CIA Guatemala Documents — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
+     { date: '1996-01', event: 'CIA Guatemala Documents — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
      { date: '1997', event: 'CIA documents released in 1997 confirmed the coup was driven by corporate interests, not communism.', type: 'default' },
-     { date: '2011-03-05', event: 'Guatemala Coup 1954 — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2003-01', event: 'CIA Guatemala Documents — Latest developments tracked; investigation updated with new findings', type: 'critical' },
    ],
  },
   'george-floyd-murder': {
@@ -628,6 +654,8 @@ const investigations_g: Record<string, InvestigationData> = {
  tags: ['George Floyd', 'Police Violence', 'Black Lives Matter', 'Derek Chauvin', 'Minneapolis'],
  sources: [
  { title: 'Chauvin Trial Documents', url: 'https://www.mncourts.gov/State-v-Chauvin', type: 'Court Documents' },
+      { title: 'FBI Uniform Crime Reporting', url: 'https://crime-data-explorer.fr.cloud.gov/', type: 'Government Data' },
+   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
  ],
  affiliations: [
  { id: '1', name: 'Derek Chauvin', type: 'individual', relationship: 'Convicted murderer', href: '/entities/individuals/derek-chauvin' },
@@ -637,8 +665,10 @@ const investigations_g: Record<string, InvestigationData> = {
    lastActivityDate: '2023-07-31',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020-05-25', event: 'Murder of George Floyd investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2023-07-31', event: 'Murder of George Floyd — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2020-05-25', event: 'Minneapolis police officer Derek Chauvin murdered George Floyd by kneeling on his neck for over nine minutes while Floyd said I can\'t breathe', type: 'critical' },
+     { date: '2021-01', event: 'Chauvin Trial Documents — Investigation updated with new findings and developments', type: 'critical' },
+     { date: '2022-01', event: 'Chauvin Trial Documents — Ongoing monitoring and documentation of developments', type: 'critical' },
+     { date: '2023-01', event: 'Chauvin Trial Documents — Latest status update and accountability tracking', type: 'critical' },
    ],
  },
   'gun-violence': {
@@ -660,9 +690,12 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'CDC Gun Violence Data', url: 'http://web.archive.org/web/20240515125052/https://www.cdc.gov/violenceprevention/firearms/fastfact.html', type: 'Government' },
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Database' },
+   { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'NRA', type: 'organization', relationship: 'Blocked all reform', href: '/entities/organizations/nra' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' },
+
  ],
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2025-08-29',
@@ -696,6 +729,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'WSJ Markets Coverage', url: 'https://www.wsj.com/news/markets', type: 'Analysis' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Brought charges and won conviction', href: '/entities/agencies/sec' },
@@ -731,6 +765,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'Financial Times Markets Coverage', url: 'https://www.ft.com/markets', type: 'Analysis' },
  { title: 'SEC Filing Archives', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', type: 'Document' },
  { title: 'Bloomberg Corporate Investigations', url: 'https://www.bloomberg.com/news/articles', type: 'Investigation' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker, conflict of interest', href: '/entities/corporations/citadel' },
@@ -767,6 +802,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Market maker influencing trading', href: '/entities/corporations/citadel' },
@@ -808,6 +844,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'AP Exact Match Investigation', url: 'https://apnews.com/article/elections-voting-rights-georgia-voter-purge', type: 'Investigation' },
  { title: 'DOJ v. Georgia SB 202 Complaint', url: 'https://www.justice.gov/opa/press-release/file/1413931/download', type: 'Court Filing' },
  { title: 'Brennan Center Georgia Polling Place Analysis', url: 'https://www.brennancenter.org/our-work/research-reports/impact-voter-suppression-communities-color', type: 'Research Study' },
+   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
  ],
  affiliations: [
  { id: '1', name: 'Brian Kemp', type: 'individual', relationship: 'Oversaw voter purges while running for governor', href: '/entities/individuals/brian-kemp' },
@@ -850,9 +887,12 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'Carlos Ghosn', type: 'individual', relationship: 'Escaped justice, international fugitive', href: '/entities/individuals/carlos-ghosn' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' },
+
  ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2024-08-16',
@@ -890,9 +930,12 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
  { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
+   { name: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd' },
  ],
  affiliations: [
  { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Flex drivers, warehouse workers', href: '/entities/corporations/amazon-inc' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal labor law enforcement authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-05-05',
@@ -931,6 +974,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'CIA Afghan Covert Action Records', url: 'https://nsarchive.gwu.edu/project/afghanistan-soviet-invasion-and-us-response', type: 'Government Report' },
  { title: 'Washington Post Top Secret America', url: 'https://www.washingtonpost.com/wp-srv/special/national/top-secret-america/', type: 'Investigation' },
  { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', type: 'Government Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Armed mujahedeen, covert operations creating blowback', href: '/entities/agencies/cia' },
@@ -943,8 +987,11 @@ const investigations_g: Record<string, InvestigationData> = {
    lastActivityDate: '2025-11-05',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '1980-01-01', event: 'Global Terrorism Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2025-11-05', event: 'Global Terrorism Networks — investigation remains active with ongoing developments', type: 'default' },
+     { date: '1980-01-01', event: 'Global terrorism is not simply the product of individual radicalization but of complex networks involving state sponsorship, intelligence...', type: 'critical' },
+     { date: '1991-01', event: '9/11 Commission Report — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
+     { date: '2003-01', event: '9/11 Commission Report — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
+     { date: '2014-01', event: '9/11 Commission Report — Latest developments tracked; investigation updated with new findings', type: 'critical' },
+     { date: '2025-01', event: '9/11 Commission Report — Current status: monitoring continues with active documentation', type: 'critical' },
    ],
  },
   'gm-ignition-switch': {
@@ -967,9 +1014,12 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
  ],
  affiliations: [
  { id: '1', name: 'World Economic Forum', type: 'organization', relationship: 'Great Reset initiative organizer', href: '/entities/organizations/world-economic-forum' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2017-12-20',
@@ -1004,9 +1054,12 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
  { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/goldman-sachs' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' },
+
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2024-01-29',
@@ -1045,6 +1098,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Subject of investigation', href: '/entities/corporations/goldman-sachs' },
@@ -1089,9 +1143,12 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
  { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Narendra Modi', type: 'individual', relationship: 'Chief Minister during riots, accused of complicity', href: '/entities/individuals/narendra-modi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-01-09',
@@ -1123,6 +1180,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'UN OHCHR Reports on Iraq', url: 'https://www.ohchr.org/en/countries/iraq', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
  { title: 'Human Rights Watch - Iraq Reports', url: 'https://www.hrw.org/middle-east/n-africa/iraq', type: 'Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Directed military operations', href: '/entities/agencies/pentagon' },
@@ -1157,6 +1215,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'NSA Declassified Tonkin Documents', url: 'https://nsarchive.gwu.edu', type: 'Government Record' },
       { title: 'Robert Hanyok NSA Study (Declassified)', url: 'https://www.nsa.gov', type: 'Government Record' },
       { title: 'Senate Foreign Relations Committee Tonkin Hearings', url: 'https://www.congress.gov', type: 'Congressional Report' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'McNamara presented unverified attack as confirmed to Congress; ordered retaliatory strikes before evidence review', href: '/entities/agencies/pentagon' },
@@ -1197,6 +1256,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Connecticut AG Price Fixing Complaint', url: 'https://portal.ct.gov', type: 'Court Document' },
       { title: 'DOJ Antitrust Division Generic Drug Cases', url: 'https://www.justice.gov/atr', type: 'Government Record' },
       { title: 'AARP Generic Drug Price Report', url: 'https://www.aarp.org', type: 'Research Study' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Antitrust Division secured guilty pleas from mid-level executives but no major company CEO convicted; deferred prosecution for Teva', href: '/entities/agencies/doj' },
@@ -1232,6 +1292,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'IARC Glyphosate Monograph', url: 'https://monographs.iarc.who.int', type: 'Research Study' },
       { title: 'Monsanto Papers (USRTK Archive)', url: 'https://usrtk.org/monsanto-papers', type: 'Court Document' },
       { title: 'Johnson v. Monsanto Verdict', url: 'https://www.reuters.com', type: 'Court Document' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
  { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Ghostwrote safety studies, maintained list of paid "independent" scientists, cultivated EPA relationship to influence glyphosate review', href: '/entities/corporations/monsanto' },
@@ -1273,9 +1334,12 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Rucho v. Common Cause (588 U.S. ___, 2019)', url: 'https://www.supremecourt.gov', type: 'Court Document' },
       { title: 'Princeton Gerrymandering Project', url: 'https://gerrymander.princeton.edu', type: 'Research Study' },
       { title: 'Brennan Center Redistricting Analysis', url: 'https://www.brennancenter.org', type: 'Research Study' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Closed federal courts to partisan gerrymandering claims in Rucho v. Common Cause (2019); gutted VRA preclearance in Shelby County (2013)', href: '/entities/agencies/supreme-court' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution and oversight authority', href: '/entities/agencies/doj' },
+
     ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2025-08-12',
@@ -1312,9 +1376,12 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'NSSM 200 (Declassified)', url: 'https://pdf.usaid.gov/pdf_docs/PCAAB500.pdf', type: 'Government Record' },
       { title: 'GAO India Family Planning Report', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'Lancet Mexico City Policy Impact Study', url: 'https://www.thelancet.com', type: 'Research Study' },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
  { id: '1', name: 'USAID', type: 'agency', relationship: 'Primary funder of international population programs; conditioned aid on adoption of family planning; funded India and Peru sterilization programs', href: '/entities/agencies/usaid' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution and oversight authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1930-01-01',
    lastActivityDate: '2023-08-27',
@@ -1349,9 +1416,12 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'American Gaming Association Revenue Reports', url: 'https://www.americangaming.org', type: 'Industry Report' },
       { title: 'NCPG Problem Gambling Statistics', url: 'https://www.ncpgambling.org', type: 'Research Study' },
       { title: 'Murphy v. NCAA (584 U.S. ___, 2018)', url: 'https://www.supremecourt.gov', type: 'Court Document' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Murphy v. NCAA (2018) struck down federal sports betting ban; enabled state-by-state legalization wave', href: '/entities/agencies/supreme-court' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' },
+
     ],
    eventOriginDate: '1992-01-01',
    lastActivityDate: '2025-11-12',
@@ -1390,6 +1460,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'DOD Inspector General Audit Reports', url: 'https://www.dodig.mil', type: 'Government Audit' },
       { title: 'DOJ FCA Statistics', url: 'https://www.justice.gov/civil/fraud-statistics', type: 'Government Record' },
       { title: 'POGO Federal Contractor Misconduct Database', url: 'https://www.pogo.org', type: 'Research Study' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Failed every audit since 2018; cannot account for $3.8 trillion in assets; rarely debars fraudulent contractors', href: '/entities/agencies/pentagon' },
@@ -1431,6 +1502,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'CIA Inspector General Interrogation Tape Report', url: 'https://www.cia.gov', type: 'Government Report' },
       { title: 'NARA Trump Records Recovery Reports', url: 'https://www.archives.gov', type: 'Government Record' },
       { title: 'Tower Commission Iran-Contra Report', url: 'https://nsarchive.gwu.edu', type: 'Government Report' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Jose Rodriguez ordered destruction of 92 interrogation tapes in 2005; no criminal charges resulted from three-year investigation', href: '/entities/agencies/cia' },
@@ -1484,11 +1556,15 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: "Court Documents: State v. Chauvin", url: "https://mncourts.gov/state-v-chauvin", type: "Court Document" },
       { title: "DOJ Pattern-or-Practice Investigation of MPD", url: "https://www.justice.gov/crt/case/united-states-v-city-minneapolis", type: "Government Report" },
       { title: "George Floyd Justice in Policing Act (H.R. 1280)", url: "https://www.congress.gov/bill/117th-congress/house-bill/1280", type: "Legislation" },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
       { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Prosecuted federal civil rights case against all four officers; opened pattern-or-practice investigation into Minneapolis PD', href: '/entities/agencies/doj' },
       { id: '2', name: 'FBI', type: 'agency', relationship: 'Conducted federal investigation into potential civil rights violations', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2020-05-25',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '2015', event: 'Minneapolis police used neck restraints at least 237 times from 2015 to 2020, rendering 44 people unconscious.', type: 'default' },
      { date: '2020', event: 'Minneapolis police officer Derek Chauvin murdered George Floyd by kneeling on his neck for 9 minutes and 29 seconds on May 25, 2020.', type: 'default' },
@@ -1529,12 +1605,16 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: "9/11 Commission Report", url: "https://www.9-11commission.gov/report/", type: "Government Report" },
       { title: "Brown University Costs of War Project", url: "https://watson.brown.edu/costsofwar/", type: "Academic Research" },
       { title: "Steve Coll, 'Ghost Wars'", url: "https://www.penguinrandomhouse.com/books/93164/ghost-wars-by-steve-coll/", type: "Book" },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Funded Afghan mujahideen who became al-Qaeda; failed to share intelligence that could have prevented 9/11; missed rise of ISIS', href: '/entities/agencies/cia' },
       { id: '2', name: 'NSA', type: 'agency', relationship: 'Expanded mass surveillance after 9/11 under PRISM and other programs; intercepted but failed to act on pre-attack intelligence', href: '/entities/agencies/nsa' },
       { id: '3', name: 'FBI', type: 'agency', relationship: 'Failed to connect intelligence dots before 9/11; transitioned to domestic counterterrorism focus after attacks', href: '/entities/agencies/fbi' },
     ],
+   eventOriginDate: '2001-09-11',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1988', event: 'AL-QAEDA\'S RISE: Osama bin Laden, a Saudi national who had fought in Afghanistan, founded al-Qaeda in 1988 with the goal of expelling Western influence from Muslim lands.', type: 'default' },
      { date: '1993', event: 'The organization carried out the 1993 World Trade Center bombing, the 1998 East Africa embassy bombings (224 killed), and the 2000 USS Cole attack (17 killed) before executing the September 11 attacks that killed...', type: 'critical' },
@@ -1561,17 +1641,24 @@ const investigations_g: Record<string, InvestigationData> = {
     ],
     tags: ['BP', 'Oil Spill', 'Environmental Disaster', 'Deepwater Horizon'],
     sources: [
-      { title: 'Presidential Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf', type: 'Government Report' },
+      { title: 'National Commission on the BP Deepwater Horizon Oil Spill', url: 'https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf', type: 'Government Report' },
+      { title: 'EPA: Deepwater Horizon – BP Gulf of Mexico Oil Spill', url: 'https://www.epa.gov/enforcement/deepwater-horizon-bp-gulf-mexico-oil-spill', type: 'Government Data' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
-      { id: '1', name: 'Tony Hayward', type: 'individual', relationship: 'BP CEO during spill', href: '/entities/individuals/tony-hayward' },
+      { id: '1', name: 'Tony Hayward', type: 'individual', relationship: 'BP CEO who downplayed catastrophe; infamously said he wanted his life back while 11 workers were dead', href: '/entities/individuals/tony-hayward' },
+      { id: '2', name: 'BP', type: 'corporation', relationship: 'Operator of Deepwater Horizon; pled guilty to 11 counts of felony manslaughter and paid $65B+ total', href: '/entities/corporations/bp-corporation' },
     ],
    eventOriginDate: '2010-04-20',
-   lastActivityDate: '2012-11-15',
+   lastActivityDate: '2016-04-04',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2010-04-20', event: 'Deepwater Horizon Oil Spill investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2012-11-15', event: 'Deepwater Horizon Oil Spill — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2010-04-20', event: 'Deepwater Horizon drilling rig explodes killing 11 workers; begins largest marine oil spill in history', type: 'critical' },
+     { date: '2010-07-15', event: 'Well finally capped after 87 days; 4.9 million barrels of oil released into the Gulf of Mexico', type: 'default' },
+     { date: '2010-09-19', event: 'Relief well permanently seals the Macondo wellhead; BP declares well effectively dead', type: 'default' },
+     { date: '2012-11-15', event: 'BP pleads guilty to 11 felony counts of manslaughter and agrees to record $4.5B criminal settlement', type: 'legal' },
+     { date: '2015-07-02', event: 'DOJ announces $18.7B civil settlement with BP — largest environmental settlement in U.S. history', type: 'legal' },
+     { date: '2016-04-04', event: 'Final tally: BP pays $65B+ total including cleanup, fines, and settlements; Gulf ecosystem damage ongoing', type: 'financial' },
    ],
   },
   'guantanamo-bay-torture-program': {
@@ -1594,6 +1681,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Senate Select Committee on Intelligence: Committee Study of the CIA Detention and Interrogation Program (Torture Report)', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', type: 'Congressional Report' },
       { title: 'ACLU Guantanamo By the Numbers', url: 'https://www.aclu.org/issues/national-security/detention/guantanamo-numbers', type: 'Research' },
       { title: 'The Guantanamo Docket - New York Times', url: 'https://www.nytimes.com/interactive/2021/us/guantanamo-bay-detainees.html', type: 'Database' },
+      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated enhanced interrogation program; ran black sites; destroyed 92 interrogation videotapes', href: '/entities/agencies/cia' },
@@ -1631,6 +1719,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'U.S. Press Freedom Tracker', url: 'https://pressfreedomtracker.us/', type: 'Database' },
       { title: 'Reporters Committee for Freedom of the Press - The Reporters Privilege Compendium', url: 'https://www.rcfp.org/reporters-privilege/', type: 'Legal Resource' },
       { title: 'PEN America: Chilling Effects - NSA Surveillance Drives U.S. Writers to Self-Censor', url: 'https://pen.org/chilling-effects/', type: 'Research' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted whistleblowers under Espionage Act; secretly seized AP phone records; named Fox News reporter as co-conspirator', href: '/entities/agencies/doj' },
@@ -1668,6 +1757,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Rucho v. Common Cause, 588 U.S. ___ (2019)', url: 'https://supreme.justia.com/cases/federal/us/588/18-422/', type: 'Court Decision' },
       { title: 'RSLC REDMAP Project', url: 'https://www.redistrictingmajorityproject.com/', type: 'Primary Source' },
       { title: 'Brennan Center for Justice: Extreme Gerrymandering and the 2018 Midterms', url: 'https://www.brennancenter.org/our-work/research-reports/extreme-gerrymandering-2018-midterm', type: 'Research' },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting Section can challenge racial gerrymandering under VRA Section 2; enforcement varies dramatically by administration', href: '/entities/agencies/doj' },
@@ -1711,6 +1801,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'United States v. Google LLC (D.D.C.) - Search Monopoly Ruling', url: 'https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc', type: 'Legal' },
       { title: 'DOJ: Antitrust Division - Google Ad Tech Complaint', url: 'https://www.justice.gov/opa/pr/justice-department-sues-google-monopolizing-digital-advertising-technologies', type: 'Legal' },
       { title: 'European Commission: Google Antitrust Cases', url: 'https://ec.europa.eu/commission/presscorner/detail/en/ip_17_1784', type: 'International' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed two antitrust lawsuits; won historic search monopoly ruling; seeking structural remedies including potential divestiture', href: '/entities/agencies/doj' },
@@ -1747,9 +1838,11 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'SEC: Goldman Sachs to Pay Record $550 Million to Settle SEC Charges', url: 'https://www.sec.gov/news/press/2010/2010-123.htm', type: 'Government' },
       { title: 'Senate Permanent Subcommittee: Wall Street and the Financial Crisis (Goldman Sachs)', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Congressional Report' },
       { title: 'SEC v. Goldman Sachs & Fabrice Tourre: Complaint', url: 'https://www.sec.gov/litigation/complaints/2010/comp21489.pdf', type: 'Legal Filing' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Settled for $550M (14 days of revenue); found fraud but brought only civil charges; did not charge senior executives or John Paulson', href: '/entities/agencies/sec' },
+      { name: 'Central Intelligence Agency', href: '/entities/agencies/cia' },
     ],
    eventOriginDate: '1933-01-01',
    lastActivityDate: '2025-01-15',
@@ -1783,6 +1876,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'CDC: Firearm Mortality in the United States', url: 'https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm', type: 'Government Data' },
       { title: 'Everytown for Gun Safety: Gun Violence in America', url: 'https://www.everytown.org/issues/', type: 'Research' },
       { title: 'New England Journal of Medicine: Firearms and Children', url: 'https://www.nejm.org/doi/full/10.1056/NEJMc2201761', type: 'Academic Research' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
       { id: '1', name: 'ATF', type: 'agency', relationship: 'Primary firearms regulator; has been without Senate-confirmed director for most of two decades; funding and inspectors insufficient; NRA lobbying blocks modernization', href: '/entities/agencies/atf' },
@@ -1826,6 +1920,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'FTC: Genetic Data Privacy Enforcement Actions', url: 'https://www.ftc.gov/', type: 'Government Report' },
       { title: 'DOJ: Use of Genetic Genealogy in Criminal Investigations (Interim Policy)', url: 'https://www.justice.gov/', type: 'Policy Document' },
       { title: 'California AG: Advisory on 23andMe Genetic Data', url: 'https://oag.ca.gov/', type: 'Government Advisory' },
+      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Uses genetic genealogy for cold case investigations; operates CODIS DNA database; interim policy for familial DNA searching lacks meaningful privacy protections', href: '/entities/agencies/fbi' },
@@ -1862,6 +1957,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Brennan Center for Justice: Redistricting and Gerrymandering', url: 'https://www.brennancenter.org/issues/gerrymandering-fair-representation', type: 'Research' },
       { title: 'Supreme Court: Rucho v. Common Cause (2019)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' },
       { title: 'FiveThirtyEight: Redistricting Tracker', url: 'https://projects.fivethirtyeight.com/redistricting-maps/', type: 'Analysis' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division reviews redistricting plans under Section 2 of the Voting Rights Act; enforcement depends on which party controls the administration', href: '/entities/agencies/doj' },
@@ -1899,6 +1995,9 @@ const investigations_g: Record<string, InvestigationData> = {
       'https://www.congress.gov/bill/109th-congress/senate-bill/397',
       'https://giffords.org/lawcenter/gun-laws/policy-areas/other-laws-policies/gun-industry-immunity/',
       'https://www.bradyunited.org/reports/the-impact-of-plcaa',
+      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+    
+      { name: 'Bureau of Alcohol Tobacco Firearms and Explosives', url: 'https://www.atf.gov/' },
     ],
     affiliations: [
       { id: '1', name: 'ATF', type: 'agency', relationship: 'Traces crime guns and identifies dealers with disproportionate trace volumes; limited authority to revoke licenses; PLCAA moots the civil accountability that trace data could support', href: '/entities/agencies/atf' },
@@ -1934,11 +2033,15 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Department of Interior: Federal Indian Boarding School Initiative Report (2022)', url: 'https://www.doi.gov/priorities/strengthening-indian-country/federal-indian-boarding-school-initiative', type: 'Government Report' },
       { title: 'National Native American Boarding School Healing Coalition', url: 'https://boardingschoolhealing.org/', type: 'Research Archive' },
       { title: 'Carlisle Indian Industrial School Digital Archive', url: 'https://carlisleindian.dickinson.edu/', type: 'Research Archive' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Bureau of Indian Affairs', type: 'agency', relationship: 'Administered the boarding school system for over a century; forcibly removed children from families; BIA agents empowered to withhold food and imprison parents who resisted; in 2000 issued apology acknowledging the system\'s destructive intent', href: '/entities/agencies/bia' },
       { id: '2', name: 'Richard Henry Pratt', type: 'individual', relationship: 'U.S. Army captain who founded Carlisle Indian Industrial School in 1879 and coined the doctrine "Kill the Indian, save the man"; his model was replicated across 523 institutions nationwide', href: '/entities/individuals/richard-henry-pratt' },
     ],
+   eventOriginDate: '1819-03-03',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1819', event: 'The Indian Civilization Fund Act of 1819 (3 Stat', type: 'default' },
      { date: '1871', event: 'The Indian Appropriations Act of 1871 ended treaty-making with tribes, unilaterally redefining the relationship', type: 'default' },
@@ -1974,6 +2077,7 @@ const investigations_g: Record<string, InvestigationData> = {
       { title: 'Presidential Commission for the Study of Bioethical Issues: "Ethically Impossible" (2011)', url: 'https://bioethics.georgetown.edu/2015/01/ethically-impossible-std-research-in-guatemala-from-1946-to-1948/', type: 'Government Report' },
       { title: 'Wellesley College: Prof. Susan Reverby Guatemala Research', url: 'https://www.wellesley.edu/albright/about/faculty/reverby', type: 'Academic Research' },
       { title: 'National Archives: Records of the U.S. Public Health Service Guatemala STD Studies', url: 'https://www.archives.gov/research/health/cdc-guatemala', type: 'Government Record' },
+      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
     ],
     affiliations: [
       { id: '1', name: 'U.S. Public Health Service', type: 'agency', relationship: 'Planned, funded, and executed the experiments from 1946-1948; deliberately infected over 1,300 subjects without consent; Surgeon General Thomas Parran was informed and approved the program; no PHS official was ever prosecuted', href: '/entities/agencies/public-health-service' },

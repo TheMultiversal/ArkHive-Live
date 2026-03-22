@@ -26,6 +26,7 @@ const investigations_v: Record<string, InvestigationData> = {
  { title: 'Jubilee USA Network: Vulture Funds and Poor Country Debt', url: 'https://www.jubileeusa.org/vulture_funds', type: 'Advocacy Report' },
  { title: 'NYT: Paul Singer; Doomsday Investor; Has a Doomsday Machine', url: 'https://www.nytimes.com/2018/07/21/business/paul-singer-elliott-management.html', type: 'Profile' },
  { title: 'International Tribunal for the Law of the Sea: ARA Libertad Case', url: 'https://www.itlos.org/en/main/cases/list-of-cases/case-no-20/', type: 'Legal Filing' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Paul Singer', type: 'individual', relationship: 'Elliott Management founder; leading vulture fund operator; extracted $2.4B from Argentina; major Republican donor with $80M+ in political contributions', href: '/entities/individuals/paul-singer' },
@@ -77,6 +78,7 @@ const investigations_v: Record<string, InvestigationData> = {
  { title: 'My Lai Courts-Martial Documentation', url: 'https://www.law.umkc.edu/faculty/projects/ftrials/mylai/mylai.htm', type: 'Historical Archive' },
  { title: 'NSA Gulf of Tonkin Declassified Documents', url: 'https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/gulf-of-tonkin/articles/rel1_gulf_tonkin_2.pdf', type: 'Declassified Intelligence' },
  { title: 'VA: Agent Orange Registry', url: 'https://www.publichealth.va.gov/exposures/agentorange/', type: 'Government Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Lyndon B. Johnson', type: 'individual', relationship: 'Escalated the war based on the fabricated Gulf of Tonkin incident; privately acknowledged the war was unwinnable while sending 500;000+ troops', href: '/entities/individuals/lyndon-b-johnson' },
@@ -130,6 +132,7 @@ const investigations_v: Record<string, InvestigationData> = {
  { title: 'Nick Turse; Kill Anything That Moves: The Real American War in Vietnam', url: 'https://www.goodreads.com/book/show/13592285-kill-anything-that-moves', type: 'Book' },
  { title: 'Seymour Hersh; My Lai 4: A Report on the Massacre and Its Aftermath', url: 'https://www.goodreads.com/book/show/173435.My_Lai_4', type: 'Book' },
  { title: 'National Archives: Vietnam War Crimes Working Group Files', url: 'https://www.archives.gov/research/vietnam-war', type: 'Government Documents' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'William Calley', type: 'individual', relationship: 'Only person convicted for My Lai massacre; sentenced to life but served 3.5 years house arrest after Nixon intervention', href: '/entities/individuals/william-calley' },
@@ -175,6 +178,7 @@ const investigations_v: Record<string, InvestigationData> = {
  { title: 'Brennan Center: Voting Laws Roundup 2013-2023', url: 'https://www.brennancenter.org/our-work/research-reports', type: 'Research' },
  { title: 'Shelby County v. Holder (2013)', url: 'https://www.supremecourt.gov/opinions/12pdf/12-96_6k47.pdf', type: 'Court Record' },
  { title: 'Leadership Conference: Democracy Diverted', url: 'https://civilrights.org/democracy-diverted/', type: 'Research' },
+   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
  ],
  affiliations: [
  { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Gutted VRA preclearance in Shelby County v. Holder (2013); barred partisan gerrymandering claims in Rucho v. Common Cause (2019)', href: '/entities/agencies/supreme-court' },
@@ -222,9 +226,12 @@ const investigations_v: Record<string, InvestigationData> = {
  { title: 'Carter Center: Preliminary Report on 2024 Venezuelan Election', url: 'https://www.cartercenter.org/news/pr/2024/venezuela-073024.html', type: 'Election Observation' },
  { title: 'AP: Venezuela Election 2024', url: 'https://apnews.com/hub/venezuela-election', type: 'News Coverage' },
  { title: 'UNHCR: Venezuela Refugee Crisis', url: 'https://www.unhcr.org/emergencies/venezuela-situation', type: 'Humanitarian Report' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Nicolas Maduro', type: 'individual', relationship: 'Claimed fraudulent 2024 election victory despite overwhelming evidence showing 30-point opposition win; jailed or exiled opposition candidates', href: '/entities/individuals/nicolas-maduro' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal election law enforcement', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-05-01',
@@ -259,9 +266,12 @@ const investigations_v: Record<string, InvestigationData> = {
  { title: 'UN Fact-Finding Mission on Venezuela: Report (2020)', url: 'https://www.ohchr.org/en/hr-bodies/hrc/ffmv/index', type: 'International Investigation' },
  { title: 'ICC: Situation in Venezuela', url: 'https://www.icc-cpi.int/venezuela', type: 'Legal Filing' },
  { title: 'Human Rights Watch: Venezuela Events', url: 'https://www.hrw.org/americas/venezuela', type: 'Research' },
+   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
  ],
  affiliations: [
  { id: '1', name: 'Nicolas Maduro', type: 'individual', relationship: 'Presided over 19;000+ extrajudicial killings by FAES; 15;000+ arbitrary political detentions; under ICC investigation for crimes against humanity', href: '/entities/individuals/nicolas-maduro' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human rights enforcement authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2024-03-19',
@@ -295,6 +305,7 @@ const investigations_v: Record<string, InvestigationData> = {
  { title: 'VA: National Veteran Suicide Prevention Annual Report', url: 'https://www.mentalhealth.va.gov/suicide_prevention/data.asp', type: 'Government Report' },
  { title: 'HUD: Annual Homeless Assessment Report (Veterans)', url: 'https://www.huduser.gov/portal/sites/default/files/pdf/2023-AHAR-Part-1.pdf', type: 'Government Report' },
  { title: 'Bureau of Justice Statistics: Veterans in Prison', url: 'https://bjs.ojp.gov/library/publications/veterans-state-and-federal-prison-2016', type: 'Government Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Department of Veterans Affairs', type: 'agency', relationship: 'Failed to provide timely healthcare; at least 40 veterans died waiting for care at Phoenix VA; 20 veteran suicides per day', href: '/entities/agencies/va' },
@@ -330,6 +341,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Brennan Center: Voter Purge Rates After Shelby', url: 'https://www.brennancenter.org', type: 'Research' },
       { title: 'Leadership Conference: Polling Place Closures', url: 'https://civilrights.org/democracy-diverted/', type: 'Research' },
       { title: 'Greg Palast: Interstate Crosscheck Investigation', url: 'https://www.gregpalast.com', type: 'Investigative Report' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting rights enforcement gutted after Shelby County; Section 2 VRA cases declined under Trump administration; limited enforcement capacity even under sympathetic administrations', href: '/entities/agencies/doj' },
@@ -368,6 +380,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'HRSA: VICP Statistics', url: 'https://www.hrsa.gov/vaccine-compensation', type: 'Government Report' },
       { title: 'Bruesewitz v. Wyeth (2011)', url: 'https://www.supremecourt.gov', type: 'Court Record' },
       { title: 'Harvard Pilgrim Healthcare: VAERS Underreporting Study', url: 'https://digital.ahrq.gov/sites/default/files/docs/publication/r18hs017045-lazarus-final-report-2011.pdf', type: 'Research' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves vaccines while co-administering VAERS; structural conflict between promoting vaccination and acknowledging injuries', href: '/entities/agencies/fda' },
@@ -405,9 +418,12 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'DEF CON Voting Village Reports', url: 'https://votingvillage.org', type: 'Research' },
       { title: 'Brennan Center: Voting Machine Security', url: 'https://www.brennancenter.org', type: 'Research' },
       { title: 'EAC: Voting System Certification', url: 'https://www.eac.gov/voting-equipment/system-certification', type: 'Government Report' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Dominion Voting Systems', type: 'corporation', relationship: 'Controls approximately 37% of U.S. voting machine market; documented vulnerabilities found by security researchers; resists independent auditing citing proprietary software', href: '/entities/corporations/dominion-voting-systems' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal election law enforcement', href: '/entities/agencies/doj' },
+
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-12-23',
@@ -441,9 +457,12 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Senate Intelligence Committee: Russian Interference Report Vol. 1', url: 'https://www.intelligence.senate.gov', type: 'Congressional Report' },
       { title: 'Verified Voting: Election Infrastructure Assessment', url: 'https://verifiedvoting.org', type: 'Research' },
       { title: 'CISA: Election Security Resources', url: 'https://www.cisa.gov/election-security', type: 'Government Report' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'Designated election infrastructure as critical infrastructure in 2017; CISA provides voluntary cybersecurity assistance but coverage remains incomplete across 8,000+ jurisdictions', href: '/entities/agencies/dhs' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal election law enforcement', href: '/entities/agencies/doj' },
+
     ],
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-03-17',
@@ -476,9 +495,11 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'CDC: Tuskegee Syphilis Study Timeline', url: 'https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Report' },
       { title: 'Presidential Commission on Guatemala Experiments', url: 'https://bioethicsarchive.georgetown.edu/pcsbi/node/654.html', type: 'Government Report' },
       { title: 'KFF: COVID-19 Vaccination Rates by Race/Ethnicity', url: 'https://www.kff.org/coronavirus-covid-19/', type: 'Research' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Voluntary guidance on clinical trial diversity is unenforceable; approves vaccines based on trials that underrepresent minority populations', href: '/entities/agencies/fda' },
+      { name: 'Department of Health and Human Services', href: '/entities/agencies/hhs' },
     ],
    eventOriginDate: '1932-01-01',
    lastActivityDate: '2025-10-07',
@@ -510,9 +531,12 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'EFF: Automated License Plate Readers', url: 'https://www.eff.org/pages/automated-license-plate-readers-alpr', type: 'Research' },
       { title: 'New York Times: GM Insurance Data Sharing', url: 'https://www.nytimes.com', type: 'Investigative Report' },
       { title: 'ACLU: You Are Being Tracked', url: 'https://www.aclu.org/issues/privacy-technology/location-tracking', type: 'Research' },
+      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Limited enforcement actions against connected car data practices but lacks comprehensive authority over vehicle tracking data broker industry', href: '/entities/agencies/federal-trade-commission' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+
     ],
    eventOriginDate: '1994-01-01',
    lastActivityDate: '2023-01-01',
@@ -545,6 +569,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'VA OIG: Review of Alleged Patient Deaths, Patient Wait Times, and Scheduling Practices at the Phoenix VA', url: 'https://www.va.gov/oig/pubs/VAOIG-14-02603-267.pdf', type: 'Government Audit' },
       { title: 'GAO: VA Mental Health - Sustained Attention Needed', url: 'https://www.gao.gov/products/gao-23-105655', type: 'Government Audit' },
       { title: 'VA Office of Suicide Prevention: National Veteran Suicide Prevention Annual Report', url: 'https://www.mentalhealth.va.gov/suicide_prevention/data.asp', type: 'Government Data' },
+      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
     ],
     affiliations: [
       { id: '1', name: 'VA', type: 'agency', relationship: 'Central subject of investigation; systemic wait-time fraud, mental health failures, and disability claims backlog across 1,700 facilities', href: '/entities/agencies/va' },
@@ -586,9 +611,11 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Brennan Center for Justice: Voting Laws Roundup', url: 'https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup', type: 'Research' },
       { title: 'Shelby County v. Holder, 570 U.S. 529 (2013)', url: 'https://supreme.justia.com/cases/federal/us/570/529/', type: 'Court Decision' },
       { title: 'Leadership Conference on Civil and Human Rights: The Great Poll Closure', url: 'https://civilrights.org/resource/the-great-poll-closure/', type: 'Research' },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting Section filed zero Section 2 voter suppression cases from 2017-2021; historically responsible for VRA enforcement but capacity severely reduced', href: '/entities/agencies/doj' },
+      { name: 'Federal Election Commission', href: '/entities/agencies/fec' },
     ],
    eventOriginDate: '1965-01-01',
    lastActivityDate: '2026-03-05',
@@ -632,6 +659,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'EPA: Volkswagen Light Duty Diesel Vehicle Violations', url: 'https://www.epa.gov/vw', type: 'Government' },
       { title: 'DOJ: Volkswagen AG Agrees to Plead Guilty - $4.3B Criminal Penalty', url: 'https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties', type: 'Government' },
       { title: 'ICCT: From Laboratory to Road (Real-World Emissions Study)', url: 'https://theicct.org/publications/laboratory-road', type: 'Research' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Discovered defeat device fraud after ICCT research; secured $14.7B U.S. settlement; approved VW\'s remediation plan', href: '/entities/agencies/epa' },
@@ -667,9 +695,11 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Brennan Center for Justice: Voting Laws Roundup', url: 'https://www.brennancenter.org/our-work/research-reports/voting-laws-roundup', type: 'Research' },
       { title: 'Shelby County v. Holder, 570 U.S. 529 (2013)', url: 'https://supreme.justia.com/cases/federal/us/570/529/', type: 'Court Decision' },
       { title: 'Leadership Conference on Civil and Human Rights: The Great Poll Closure', url: 'https://civilrights.org/resource/the-great-poll-closure/', type: 'Research' },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting Rights Section enforcement varies dramatically by administration; Trump DOJ did not file a single voting rights suit; Biden DOJ resumed enforcement', href: '/entities/agencies/doj' },
+      { name: 'Federal Election Commission', href: '/entities/agencies/fec' },
     ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2026-03-08',
@@ -706,6 +736,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'VA Inspector General: Review of Alleged Patient Deaths and Wait Times', url: 'https://www.va.gov/oig/', type: 'Government Report' },
       { title: 'GAO: VA Health Care: Scheduling and Wait Time Policies', url: 'https://www.gao.gov/products/gao-14-709', type: 'Government Report' },
       { title: 'Senate Veterans Affairs Committee: Hearing on VA Wait Times', url: 'https://www.veterans.senate.gov/', type: 'Congressional Record' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'VA', type: 'agency', relationship: '110+ facilities falsified wait time data; Secretary Shinseki resigned; $16B Oracle-Cerner EHR system plagued by safety errors', href: '/entities/agencies/va' },
@@ -744,6 +775,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'VA OIG: Review of Patient Wait Times', url: 'https://www.va.gov/oig/', type: 'Government Report' },
       { title: 'VA: National Veteran Suicide Prevention Annual Report', url: 'https://www.mentalhealth.va.gov/suicide_prevention/', type: 'Government Report' },
       { title: 'GAO: VA Electronic Health Record Modernization', url: 'https://www.gao.gov/', type: 'Government Report' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'VA', type: 'agency', relationship: 'Operates 1,298 facilities with 50,000+ unfilled positions; 17.5 veteran suicides per day; $16B EHR system plagued with safety incidents', href: '/entities/agencies/va' },
@@ -780,6 +812,9 @@ const investigations_v: Record<string, InvestigationData> = {
       'https://www.brennancenter.org/our-work/research-reports/voter-purges',
       'https://www.aclu.org/issues/voting-rights',
       'https://www.supremecourt.gov/opinions/17pdf/16-980_f2q3.pdf',
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
+    
+      { name: 'Election Assistance Commission', url: 'https://www.eac.gov/' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting Section enforces NVRA list maintenance provisions; Obama DOJ sued states for over-purging; Trump DOJ sued states for under-purging; enforcement direction reverses with each administration', href: '/entities/agencies/doj' },
@@ -818,6 +853,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'Senate Finance Committee: FDA, Merck, and Vioxx Hearing (Nov 2004)', url: 'https://www.finance.senate.gov/hearings/fda-merck-and-vioxx-putting-patient-safety-first', type: 'Congressional Record' },
       { title: 'NEJM: Expression of Concern re: Bombardier et al. VIGOR Study (2005)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMe058314', type: 'Medical Literature' },
       { title: 'The Lancet: Vioxx Withdrawal and Cardiovascular Risk Assessment', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(04)17441-5/fulltext', type: 'Medical Literature' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'Merck & Co.', type: 'corporation', relationship: 'Manufactured, marketed, and sold Vioxx while concealing evidence of cardiovascular harm; earned $11 billion in revenue before withdrawal; paid $4.85 billion in civil settlements and $950 million in criminal fines; admitted no wrongdoing; no executive was criminally prosecuted', href: '/entities/corporations/merck' },

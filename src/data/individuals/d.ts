@@ -6717,6 +6717,48 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Charles Grassley', relationship: 'U.S. Senator (R-IA) who chaired the Finance Committee investigation and provided Graham with whistleblower protections' },
     ],
   },
+  'david-iglesias': {
+    name: 'David Iglesias',
+    title: 'Former U.S. Attorney for the District of New Mexico',
+    role: 'Fired Federal Prosecutor, Whistleblower',
+    riskLevel: 'low',
+    description: 'David Iglesias served as U.S. Attorney for New Mexico from 2001 until his firing on December 7, 2006, as part of the Bush administration\'s political purge of federal prosecutors. A Navy JAG officer and the real-life inspiration for the Tom Cruise character in "A Few Good Men," Iglesias was fired after refusing to bring voter fraud indictments against Democrats before the 2006 midterm elections despite direct improper pressure from Republican Senator Pete Domenici and Congresswoman Heather Wilson. His case became a central example of the politicization of the Department of Justice under Attorney General Alberto Gonzales.',
+    birthDate: '1960',
+    birthPlace: 'United States',
+    education: ['B.A., Wheaton College', 'J.D., University of New Mexico School of Law'],
+    affiliations: [
+      { name: 'DOJ', role: 'U.S. Attorney, District of New Mexico (2001-2006)', type: 'agency' },
+      { name: 'U.S. Navy', role: 'JAG Officer', type: 'agency' },
+    ],
+    controversies: [
+      'Fired for refusing politically motivated prosecutions',
+      'Received improper contact from Senator Pete Domenici and Rep. Heather Wilson',
+      'Became key whistleblower in the U.S. Attorney firings scandal',
+      'Inspiration for the Tom Cruise character in "A Few Good Men"',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Bush Administration U.S. Attorney Firings', slug: 'attorney-firings', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2001', event: 'Appointed U.S. Attorney for the District of New Mexico by President George W. Bush' },
+      { date: '2006-10-16', event: 'Senator Pete Domenici calls Iglesias at home asking about sealed indictments against Democrats before the election; Iglesias says they won\'t come before November' },
+      { date: '2006-10-16', event: 'Congresswoman Heather Wilson makes similar improper call about pending cases' },
+      { date: '2006-12-07', event: 'Fired as part of coordinated purge of seven U.S. Attorneys' },
+      { date: '2007-03', event: 'Testifies before Congress about political pressure to bring partisan prosecutions' },
+      { date: '2007-06', event: 'Publishes "In Justice: Inside the Scandal That Rocked the Bush Administration"' },
+      { date: '2008-09', event: 'DOJ Inspector General report confirms his firing was politically motivated' },
+    ],
+    sources: [
+      { title: 'David Iglesias, In Justice: Inside the Scandal That Rocked the Bush Administration', url: 'https://www.amazon.com/Justice-Inside-Scandal-Rocked-Administration/dp/0470261986', date: '2007' },
+      { title: 'DOJ Inspector General Report on U.S. Attorney Dismissals', url: 'http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf', date: '2008' },
+    ],
+    knownAssociates: [
+      { name: 'Alberto Gonzales', relationship: 'Attorney General who authorized his firing', href: '/entities/individuals/alberto-gonzales' },
+      { name: 'Karl Rove', relationship: 'Senior Bush advisor involved in selecting prosecutors for removal', href: '/entities/individuals/karl-rove' },
+      { name: 'Harriet Miers', relationship: 'White House Counsel who architected the attorney purge plan', href: '/entities/individuals/harriet-miers' },
+    ],
+  },
 };
 
 export default profiles;

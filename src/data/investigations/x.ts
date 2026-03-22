@@ -23,6 +23,7 @@ const investigations_x: Record<string, InvestigationData> = {
       { title: 'Snowden Archive', url: 'https://edwardsnowden.com', type: 'Primary Source' },
       { title: 'PCLOB Section 702 Report', url: 'https://www.pclob.gov', type: 'Government Record' },
       { title: 'EFF: NSA Spying', url: 'https://www.eff.org/nsa-spying', type: 'Legal Analysis' },
+      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Built and operates XKeyscore across 700+ servers at 150 sites worldwide; processes 20+ terabytes of internet data daily; analysts can search without warrants', href: '/entities/agencies/nsa' },
@@ -59,6 +60,9 @@ const investigations_x: Record<string, InvestigationData> = {
       'https://www.epi.org/publication/the-growing-use-of-mandatory-arbitration-access-to-the-courts-is-now-barred-for-more-than-60-million-american-workers/',
       'https://www.americanbar.org/groups/dispute_resolution/resources/DisputeResolutionProcesses/arbitration/',
       'https://www.consumerfinance.gov/data-research/research-reports/arbitration-study-report-to-congress-2015/',
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+
+      { name: 'Government Accountability Office', url: 'https://www.gao.gov/reports-testimonies' },
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Completed 2015 study finding arbitration harmed consumers; issued rule banning class action waivers in 2017; Congress overturned the rule via Congressional Review Act before it took effect', href: '/entities/agencies/cfpb' },

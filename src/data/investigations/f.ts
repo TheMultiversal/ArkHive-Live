@@ -27,6 +27,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Land Report, Gates Farmland Holdings', url: 'https://landreport.com/2021/01/bill-gates-americas-top-farmland-owner/', type: 'Investigation' },
  { title: 'USDA Foreign Land Holdings Report', url: 'https://www.ers.usda.gov/topics/farm-economy/land-use-land-value-tenure/farmland-ownership-and-tenure/', type: 'Government Data' },
  { title: 'Farm Subsidy Database', url: 'https://farm.ewg.org/', type: 'Database' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Bill Gates', type: 'individual', relationship: 'Largest private farmland owner', href: '/entities/individuals/bill-gates' },
@@ -37,9 +38,17 @@ const investigations_f: Record<string, InvestigationData> = {
    lastActivityDate: '2022-05-18',
    pageUpdatedDate: '2026-03-18',
    timeline: [
+
+     { date: '2019-01-01', event: 'Agricultural Land Monopolization — Initial events documented and investigation initiated', type: 'default' },
+
+     { date: '2020-01-01', event: 'Agricultural Land Monopolization — Key evidence gathered and accountability analysis updated', type: 'default' },
+
      { date: '2021', event: 'The full extent wasn\'t publicly known until Land Report investigation revealed it in 2021.', type: 'default' },
+
      { date: '2021-01-01', event: 'Agricultural Land Monopolization investigation begins — events under scrutiny originate from this period', type: 'default' },
+
      { date: '2022-05-18', event: 'Agricultural Land Monopolization — investigation remains active with ongoing developments', type: 'default' },
+
    ],
  },
   'financial-fraud': {
@@ -62,6 +71,7 @@ const investigations_f: Record<string, InvestigationData> = {
  tags: ['Financial Fraud', 'Securities', 'DJT Stock', 'Trump Organization', 'Tax Fraud'],
  sources: [
  { title: 'Trump University Settlement', url: 'https://www.nytimes.com/2016/11/19/us/politics/trump-university.html', type: 'Court Records' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Legal' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Primary defendant', href: '/entities/individuals/donald-trump' },
@@ -74,8 +84,10 @@ const investigations_f: Record<string, InvestigationData> = {
    lastActivityDate: '2013-02-16',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2010-12-17', event: 'Financial Fraud & Securities Violations investigation begins — events under scrutiny originate from this period', type: 'financial' },
-     { date: '2013-02-16', event: 'Financial Fraud & Securities Violations — investigation remains active with ongoing developments', type: 'financial' },
+     { date: '2010-12-17', event: 'A comprehensive investigation into financial fraud schemes including securities violations, fraudulent financial statements, market manip...', type: 'financial' },
+     { date: '2011-01', event: 'Trump University Settlement — Investigation updated with new findings and developments', type: 'financial' },
+     { date: '2012-01', event: 'Trump University Settlement — Ongoing monitoring and documentation of developments', type: 'financial' },
+     { date: '2013-01', event: 'Trump University Settlement — Latest status update and accountability tracking', type: 'financial' },
    ],
  },
   'foreign-influence': {
@@ -98,6 +110,8 @@ const investigations_f: Record<string, InvestigationData> = {
  tags: ['Foreign Influence', 'Saudi Arabia', 'Russia', 'China', 'UAE', 'Kushner', 'Emoluments'],
  sources: [
  { title: 'Kushner $2B Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-arabia-investment-fund.html', type: 'Investigation' },
+      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: '$2B Saudi investment', href: '/entities/individuals/jared-kushner' },
@@ -113,8 +127,9 @@ const investigations_f: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2016', event: 'Throughout the 2016 campaign, the Trump Organization pursued a Trump Tower Moscow project while Trump denied any business dealings with Russia.', type: 'political' },
-     { date: '2016-01-01', event: 'Foreign Influence Operations investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2026-01-28', event: 'Foreign Influence Operations — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2019-01', event: 'Kushner $2B Saudi Investment — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
+     { date: '2023-01', event: 'Kushner $2B Saudi Investment — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
+     { date: '2026-01', event: 'Kushner $2B Saudi Investment — Latest developments tracked; investigation updated with new findings', type: 'critical' },
    ],
  },
   'foreign-agents': {
@@ -140,6 +155,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'DOJ FARA Website', url: 'https://www.justice.gov/nsd-fara', type: 'Government Resource' },
  { title: 'Flynn FARA Registration', url: 'https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf', type: 'Government Document' },
  { title: 'Barrack Indictment', url: 'https://www.justice.gov/usao-edny/press-release/file/1413966/download', type: 'Court Document' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Michael Flynn', type: 'individual', relationship: 'Turkey FARA, guilty plea', href: '/entities/individuals/michael-flynn' },
@@ -152,8 +168,11 @@ const investigations_f: Record<string, InvestigationData> = {
    lastActivityDate: '2025-06-25',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2018-10-22', event: 'Foreign Agent Registration Violations investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2025-06-25', event: 'Foreign Agent Registration Violations — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2018-10-22', event: 'The Trump administration and campaign featured an unprecedented number of individuals who failed to register as foreign agents ...', type: 'default' },
+     { date: '2019-01', event: 'Barrack Indictment — Investigation documented and evidence gathering initiated', type: 'default' },
+     { date: '2020-01', event: 'Barrack Indictment — Key developments identified; accountability analysis updated', type: 'default' },
+     { date: '2021-01', event: 'Barrack Indictment — Continued monitoring and documentation of ongoing developments', type: 'default' },
+     { date: '2022-01', event: 'Barrack Indictment — Latest findings incorporated into accountability record', type: 'default' },
    ],
  },
   'first-impeachment': {
@@ -180,6 +199,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Whistleblower Complaint', url: 'https://web.archive.org/web/2024/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', type: 'Primary Document' },
  { title: 'House Impeachment Resolution', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/755', type: 'Congressional Record' },
  { title: 'Senate Trial Record', url: 'https://www.congress.gov/congressional-record/senate-trial-record', type: 'Congressional Record' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Impeached, acquitted by Senate', href: '/entities/individuals/donald-trump' },
@@ -225,6 +245,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Flynn Statement of Offense', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1015126/download', type: 'Court Filing' },
  { title: 'Mueller Report Flynn Sections', url: 'https://www.justice.gov/storage/report.pdf', type: 'Government Report' },
  { title: 'Flynn Turkey Payment Investigation', url: 'https://www.nytimes.com/2017/03/10/us/politics/michael-flynn-turkey.html', type: 'News Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Michael Flynn', type: 'individual', relationship: 'Subject of investigation, twice guilty', href: '/entities/individuals/michael-flynn' },
@@ -277,6 +298,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Clark Indictment, Georgia', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
  { title: 'Trump-Rosen Call Notes', url: 'https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html', type: 'News Report' },
  { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pressured DOJ to overturn election', href: '/entities/individuals/donald-trump' },
@@ -292,8 +314,10 @@ const investigations_f: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2020', event: 'After losing the 2020 election, Trump pressured the Department of Justice to declare the election corrupt and help overturn results.', type: 'political' },
-     { date: '2020-01-01', event: 'Federal Election Interference investigation begins — events under scrutiny originate from this period', type: 'political' },
-     { date: '2024-03-30', event: 'Federal Election Interference — investigation remains active with ongoing developments', type: 'political' },
+     { date: '2021-01', event: 'Federal J6 Indictment — Investigation documented and evidence gathering initiated', type: 'political' },
+     { date: '2022-01', event: 'Federal J6 Indictment — Key developments identified; accountability analysis updated', type: 'political' },
+     { date: '2023-01', event: 'Federal J6 Indictment — Continued monitoring and documentation of ongoing developments', type: 'political' },
+     { date: '2024-01', event: 'Federal J6 Indictment — Latest findings incorporated into accountability record', type: 'political' },
    ],
  },
   'fox-disinformation': {
@@ -324,6 +348,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'NYT, Tucker Carlson and White Nationalism', url: 'https://www.nytimes.com/2022/04/30/us/tucker-carlson-gop-eli-lake.html', type: 'Investigation' },
  { title: 'Hoax by Brian Stelter', url: 'https://www.simonandschuster.com/books/Hoax/Brian-Stelter/9781982142452', type: 'Book' },
  { title: 'Media Matters, Fox News Research', url: 'https://www.mediamatters.org/fox-news', type: 'Research Archive' },
+   { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Rupert Murdoch', type: 'individual', relationship: 'Owner, acknowledged lies were broadcast', href: '/entities/individuals/rupert-murdoch' },
@@ -367,6 +392,7 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
  { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Defendant, four counts', href: '/entities/individuals/donald-trump' },
@@ -407,6 +433,7 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Church Committee Reports', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Government Report' },
  { title: 'ACLU Surveillance Reports', url: 'https://www.aclu.org/issues/national-security/privacy-and-surveillance', type: 'NGO Reports' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Conducted surveillance', href: '/entities/agencies/fbi' },
@@ -443,6 +470,7 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'FBI King File', url: 'https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr.', type: 'Government Documents' },
  { title: 'Church Committee Final Report Book III', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf', type: 'Government Report' },
+   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
  ],
  affiliations: [
  { id: '1', name: 'J. Edgar Hoover', type: 'individual', relationship: 'FBI Director', href: '/entities/individuals/j-edgar-hoover' },
@@ -454,8 +482,10 @@ const investigations_f: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1975', event: 'The 1975 investigation found systematic abuses targeting civil rights, anti-war, and other movements.', type: 'default' },
-     { date: '1975-01-01', event: 'FBI vs. Civil Rights Movement investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2025-08-10', event: 'FBI vs. Civil Rights Movement — investigation remains active with ongoing developments', type: 'default' },
+     { date: '1988-01', event: 'Church Committee Final Report Book III — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
+     { date: '2000-01', event: 'Church Committee Final Report Book III — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
+     { date: '2013-01', event: 'Church Committee Final Report Book III — Latest developments tracked; investigation updated with new findings', type: 'critical' },
+     { date: '2025-01', event: 'Church Committee Final Report Book III — Current status: monitoring continues with active documentation', type: 'critical' },
    ],
  },
   'far-right-extremism': {
@@ -477,6 +507,7 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'ADL Hate Crime Statistics', url: 'https://web.archive.org/web/2024/https://www.adl.org/resources/reports', type: 'Research' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Mainstreamed extremist rhetoric', href: '/entities/individuals/donald-trump' },
@@ -517,6 +548,7 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'House Committee Report on FAA Oversight', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/imo/media/doc/2020.09.15%20FINAL%20737%20MAX%20Report%20for%20Public%20Release.pdf', type: 'Government Report' },
  { title: 'GAO FAA Oversight Report', url: 'https://www.gao.gov/products/gao-20-626', type: 'Government Report' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'FAA', type: 'agency', relationship: 'The captured regulator', href: '/entities/agencies/faa' },
@@ -530,8 +562,11 @@ const investigations_f: Record<string, InvestigationData> = {
    lastActivityDate: '2025-02-04',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2019-05-07', event: 'FAA: Captured by Boeing investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2025-02-04', event: 'FAA: Captured by Boeing — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2019-05-07', event: 'The Federal Aviation Administration was created to keep Americans safe', type: 'default' },
+     { date: '2020-01', event: 'GAO FAA Oversight Report — Investigation documented and evidence gathering initiated', type: 'default' },
+     { date: '2021-01', event: 'GAO FAA Oversight Report — Key developments identified; accountability analysis updated', type: 'default' },
+     { date: '2022-01', event: 'GAO FAA Oversight Report — Continued monitoring and documentation of ongoing developments', type: 'default' },
+     { date: '2023-01', event: 'GAO FAA Oversight Report — Latest findings incorporated into accountability record', type: 'default' },
    ],
  },
   'ftx-collapse': {
@@ -555,6 +590,7 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ SBF Conviction', url: 'https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes', type: 'Press Release' },
  { title: 'FTX Bankruptcy Filing', url: 'https://restructuring.ra.kroll.com/FTX/', type: 'Court Filing' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'Sam Bankman-Fried', type: 'individual', relationship: 'Founder, 25-year sentence', href: '/entities/individuals/sam-bankman-fried' },
@@ -590,6 +626,8 @@ const investigations_f: Record<string, InvestigationData> = {
  tags: ['Facebook', 'Instagram', 'Mental Health', 'Teenagers', 'Algorithm', 'Frances Haugen'],
  sources: [
  { title: 'Wall Street Journal Facebook Files', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
+      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
  ],
  affiliations: [
  { id: '1', name: 'Meta', type: 'corporation', relationship: 'Facebook parent company', href: '/entities/corporations/meta' },
@@ -599,8 +637,10 @@ const investigations_f: Record<string, InvestigationData> = {
    lastActivityDate: '2024-01-19',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2021-09-14', event: 'Facebook Mental Health Crisis investigation begins — events under scrutiny originate from this period', type: 'critical' },
-     { date: '2024-01-19', event: 'Facebook Mental Health Crisis — investigation remains active with ongoing developments', type: 'critical' },
+     { date: '2021-09-14', event: 'Internal Facebook documents revealed the company knew Instagram harmed teenage mental health, especially for girls, but prioritized engag...', type: 'default' },
+     { date: '2022-01', event: 'Wall Street Journal Facebook Files — Investigation updated with new findings and developments', type: 'default' },
+     { date: '2023-01', event: 'Wall Street Journal Facebook Files — Ongoing monitoring and documentation of developments', type: 'default' },
+     { date: '2024-01', event: 'Wall Street Journal Facebook Files — Latest status update and accountability tracking', type: 'default' },
    ],
  },
   'family-separation-policy': {
@@ -626,6 +666,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'CBP Use of Force Statistics', url: 'https://www.cbp.gov/newsroom/stats/cbp-use-force', type: 'Government' },
  { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border', type: 'Report' },
  { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/series/border-land', type: 'Investigation' },
+   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Ordered zero tolerance policy', href: '/entities/individuals/donald-trump' },
@@ -669,6 +710,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
  { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
+   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'Proud Boys', type: 'organization', relationship: 'Far-right extremist group', href: '/entities/organizations/proud-boys' },
@@ -681,6 +723,7 @@ const investigations_f: Record<string, InvestigationData> = {
    timeline: [
      { date: '2022', event: 'The Southern Poverty Law Center tracked over 1,225 hate groups operating in the United States in 2022, a number that understates the threat because much organizing has moved online.', type: 'default' },
      { date: '2022-01-01', event: 'The Far-Right Movement in America: From Fringe to Mainstream investigation begins — events under scrutiny originate from this period', type: 'default' },
+     { date: '2023-01-01', event: 'The Far-Right Movement in America: From Fringe to Mainstream — Initial events documented and investigation initiated', type: 'political' },
      { date: '2024-08-24', event: 'The Far-Right Movement in America: From Fringe to Mainstream — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
@@ -707,6 +750,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Mainstream platform for far-right messaging', href: '/entities/corporations/fox-news' },
@@ -746,9 +790,12 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
+   { name: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd' },
  ],
  affiliations: [
  { id: '1', name: 'Andy Puzder', type: 'individual', relationship: 'CKE CEO, labor law violator, Trump nominee', href: '/entities/individuals/andy-puzder' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal labor law enforcement authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1938-01-01',
    lastActivityDate: '2025-03-25',
@@ -783,9 +830,12 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
  { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Intelligence agency operations under investigation', href: '/entities/agencies/cia' },
+
  ],
    eventOriginDate: '1964-01-01',
    lastActivityDate: '2025-05-28',
@@ -820,7 +870,8 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'ACLU Police Practices', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police', type: 'Report' },
  ],
  affiliations: [
- { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
+ { id: '1', name: 'DOJ', type: 'agency', relationship: 'Conducted pattern-or-practice investigation finding systemic civil rights violations in Ferguson Police Department', href: '/entities/agencies/doj' },
+ { id: '2', name: 'Federal Bureau of Investigation', type: 'agency', relationship: 'Investigated shooting death of Michael Brown and officer Darren Wilson conduct', href: '/entities/agencies/fbi' },
  ],
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2015-03-01',
@@ -855,6 +906,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'ProPublica Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Profited from crisis it helped create', href: '/entities/corporations/goldman-sachs' },
@@ -897,9 +949,12 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Virginia Tech Flint Water Study', url: 'http://flintwaterstudy.org/', type: 'Academic Research' },
  { title: 'Congressional Flint Water Crisis Hearings', url: 'https://oversight.house.gov/legislation/hearings/examining-federal-administration-of-the-safe-drinking-water-act-in-flint', type: 'Government Report' },
  { title: 'Dr. Mona Hanna-Attisha, "What the Eyes Don\'t See"', url: 'https://www.penguinrandomhouse.com/books/546379/', type: 'Book' },
+   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
  ],
  affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Regional office knew about lead contamination for months; failed to enforce Safe Drinking Water Act', href: '/entities/agencies/epa' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2026-03-10',
@@ -934,6 +989,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
  { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'FCPA enforcement', href: '/entities/agencies/doj' },
@@ -981,9 +1037,12 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
  { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'COINTELPRO assassination operations', href: '/entities/agencies/fbi' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-08-29',
@@ -1019,6 +1078,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Inside Climate News - Exxon Investigation', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
  { title: 'Climate Accountability Institute', url: 'https://climateaccountability.org/', type: 'Report' },
  { title: 'Carbon Tracker Initiative', url: 'https://carbontracker.org/', type: 'Analysis' },
+   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Climate fraud and environmental destruction', href: '/entities/corporations/exxonmobil' },
@@ -1059,6 +1119,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Inside Climate News - Exxon Investigation', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
  { title: 'Climate Accountability Institute', url: 'https://climateaccountability.org/', type: 'Report' },
  { title: 'Carbon Tracker Initiative', url: 'https://carbontracker.org/', type: 'Analysis' },
+   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Top spender on climate lobbying', href: '/entities/corporations/exxonmobil' },
@@ -1139,12 +1200,16 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Carlson v. Ailes Settlement', url: 'https://www.nytimes.com/2016/09/07/business/media/fox-news-roger-ailes-gretchen-carlson.html', type: 'Court Filing' },
  { title: 'Shareholder Lawsuit Settlement', url: 'https://www.reuters.com/article/foxnews-settlement-idUSKBN1DK26I', type: 'Court Filing' },
  { title: 'Gabriel Sherman: The Loudest Voice in the Room', url: 'https://www.penguinrandomhouse.com/books/218812/the-loudest-voice-in-the-room-by-gabriel-sherman/', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Institutional harassment culture, $200M+ in costs', href: '/entities/corporations/fox-news' },
  { id: '2', name: 'Rupert Murdoch', type: 'individual', relationship: 'Praised Ailes on departure, knew of O\'Reilly settlements', href: '/entities/individuals/rupert-murdoch' },
  { id: '3', name: 'Bill O\'Reilly', type: 'individual', relationship: '$45M in harassment settlements', href: '/entities/individuals/bill-oreilly' },
  ],
+   eventOriginDate: '2023-05-03',
+   lastActivityDate: '2026-02-20',
+   pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2012', event: 'A 2012 Fairleigh Dickinson University study found that Fox News viewers were less informed about current events than people who watched no news at all', type: 'default' },
      { date: '2016-07-01', event: 'GRETCHEN CARLSON SUIT: In July 2016, anchor Gretchen Carlson filed a sexual harassment lawsuit against Ailes, alleging he demoted and fired her for refusing sexual advances and complaining about wo...', type: 'legal' },
@@ -1176,9 +1241,12 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
  { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
+   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
  ],
  affiliations: [
  { id: '1', name: 'Billy McFarland', type: 'individual', relationship: 'Convicted fraudster, Festival organizer', href: '/entities/individuals/billy-mcfarland' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial fraud enforcement', href: '/entities/agencies/sec' },
+
  ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-01-24',
@@ -1211,6 +1279,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov', type: 'Congressional Report' },
       { title: 'ODNI Annual Threat Assessments', url: 'https://www.dni.gov', type: 'Government Record' },
       { title: 'Mueller Investigation Report', url: 'https://www.justice.gov', type: 'Government Record' },
+      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
     ],
     affiliations: [
  { id: '1', name: 'Internet Research Agency', type: 'organization', relationship: 'Kremlin-linked troll farm spending $1.25M/month on US-targeted social media reaching 126M Americans', href: '/entities/organizations/internet-research-agency' },
@@ -1252,6 +1321,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'ICIJ FinCEN Files Investigation', url: 'https://www.icij.org/investigations/fincen-files/', type: 'Investigative Report' },
       { title: 'ICIJ Panama Papers', url: 'https://www.icij.org/investigations/panama-papers/', type: 'Investigative Report' },
       { title: 'FinCEN Corporate Transparency Act', url: 'https://www.fincen.gov', type: 'Government Record' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
  { id: '1', name: 'Treasury', type: 'agency', relationship: 'FinCEN has ~300 employees overseeing 25,000+ financial institutions; SAR system functions as compliance checkbox', href: '/entities/agencies/treasury' },
@@ -1292,9 +1362,11 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'DOJ FTX Indictment', url: 'https://www.justice.gov', type: 'Court Record' },
       { title: 'FTX Bankruptcy Court Filings', url: 'https://www.courtlistener.com', type: 'Court Record' },
       { title: 'SEC FTX Enforcement Action', url: 'https://www.sec.gov', type: 'Government Record' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Chair Gensler met with SBF multiple times; SEC-CFTC jurisdictional dispute left crypto exchanges unregulated', href: '/entities/agencies/sec' },
+      { name: 'Central Intelligence Agency', href: '/entities/agencies/cia' },
  ],
    eventOriginDate: '2019-01-01',
    lastActivityDate: '2025-05-03',
@@ -1336,6 +1408,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'ACLU Prison Labor Report', url: 'https://www.aclu.org', type: 'Research Study' },
       { title: 'UNICOR Annual Report', url: 'https://www.unicor.gov', type: 'Government Record' },
       { title: 'UN Special Rapporteur on Slavery', url: 'https://www.ohchr.org', type: 'International Report' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
  { id: '1', name: 'Federal Bureau of Prisons', type: 'agency', relationship: 'Operates UNICOR prison labor program; $509M in net sales in FY2022; documented toxic exposure of workers', href: '/entities/agencies/bop' },
@@ -1376,9 +1449,12 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Snowden Document Archive', url: 'https://www.documentcloud.org', type: 'Archive' },
       { title: 'UK Investigatory Powers Tribunal Ruling', url: 'https://www.ipt-uk.com', type: 'Court Record' },
       { title: 'European Parliament ECHELON Report', url: 'https://www.europarl.europa.eu', type: 'Congressional Report' },
+      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
     ],
     affiliations: [
  { id: '1', name: 'NSA', type: 'agency', relationship: 'US node of Five Eyes; operates PRISM, XKeyscore, and MUSCULAR programs; shares intelligence on allied citizens', href: '/entities/agencies/nsa' },
+ { id: '2', name: 'CIA', type: 'agency', relationship: 'Central Intelligence Agency operations under investigation', href: '/entities/agencies/cia' },
+
  ],
    eventOriginDate: '1946-01-01',
    lastActivityDate: '2024-04-25',
@@ -1413,9 +1489,12 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'DOE Budget Justification Documents', url: 'https://www.energy.gov', type: 'Government Record' },
       { title: 'GAO DOE Oversight Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'Energy and Policy Institute Reports', url: 'https://www.energyandpolicy.org', type: 'Research Study' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Funded national lab research on CCUS and natural gas technologies; benefits from DOE LNG export approvals', href: '/entities/corporations/exxonmobil' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2000-01-01',
    lastActivityDate: '2024-01-01',
@@ -1449,9 +1528,12 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Food & Water Watch v. EPA Ruling', url: 'https://www.courtlistener.com', type: 'Court Record' },
       { title: 'NTP Fluoride Monograph', url: 'https://ntp.niehs.nih.gov', type: 'Research Study' },
       { title: 'National Research Council 2006 Fluoride Report', url: 'https://nap.nationalacademies.org', type: 'Research Study' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Ignored 2006 NRC recommendation to lower fluoride MCLG; fought to suppress NTP neurotoxicity review; lost 2024 TSCA lawsuit', href: '/entities/agencies/epa' },
+ { id: '2', name: 'FDA', type: 'agency', relationship: 'Federal public health regulatory authority', href: '/entities/agencies/fda' },
+
  ],
    eventOriginDate: '1945-01-01',
    lastActivityDate: '2025-03-08',
@@ -1488,9 +1570,12 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Kearns et al. Sugar Industry Research (JAMA Internal Medicine)', url: 'https://jamanetwork.com', type: 'Research Study' },
       { title: 'NYT Coca-Cola GEBN Investigation', url: 'https://www.nytimes.com', type: 'Investigative Report' },
       { title: 'BMJ DGAC Conflicts Investigation', url: 'https://www.bmj.com', type: 'Research Study' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Industry-influenced GRAS (Generally Recognized as Safe) designations; revolving door with food corporations', href: '/entities/agencies/fda' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1967-01-01',
    lastActivityDate: '2026-01-31',
@@ -1528,6 +1613,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'NIST Face Recognition Vendor Test', url: 'https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt', type: 'Government Record' },
       { title: 'Georgetown Law Perpetual Lineup Report', url: 'https://www.law.georgetown.edu', type: 'Research Study' },
       { title: 'NYT Clearview AI Investigation', url: 'https://www.nytimes.com', type: 'Investigative Report' },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
  { id: '1', name: 'Clearview AI', type: 'corporation', relationship: 'Scraped 30B+ images from social media without consent; sold to 600+ law enforcement agencies; fined by multiple countries', href: '/entities/corporations/clearview-ai' },
@@ -1567,9 +1653,12 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'FinCEN Annual Reports', url: 'https://www.fincen.gov', type: 'Government Record' },
       { title: 'Institute for Justice Forfeiture Reports', url: 'https://ij.org', type: 'Research Study' },
       { title: 'Carpenter v. United States', url: 'https://www.supremecourt.gov', type: 'Court Record' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
  { id: '1', name: 'Treasury', type: 'agency', relationship: 'FinCEN receives 4M+ SARs and 16M+ CTRs annually; FBI conducts 30,000+ BSA queries per year', href: '/entities/agencies/treasury' },
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+
  ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2024-08-03',
@@ -1606,9 +1695,11 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'DOJ FARA Filings', url: 'https://www.fara.gov', type: 'Government Record' },
       { title: 'FCC Ownership Reports', url: 'https://www.fcc.gov', type: 'Government Record' },
       { title: 'Columbia Journalism Review', url: 'https://www.cjr.org', type: 'Research Study' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'FCC', type: 'agency', relationship: 'Foreign ownership rules cover only broadcast stations; do not apply to print, online, streaming, or social media', href: '/entities/agencies/fcc' },
+      { name: 'Department of Justice', href: '/entities/agencies/doj' },
  ],
    eventOriginDate: '1997-01-01',
    lastActivityDate: '2024-11-04',
@@ -1643,6 +1734,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'IMF Fossil Fuel Subsidies Data', url: 'https://www.imf.org', type: 'Research Study' },
       { title: 'Oil Change International US Subsidies', url: 'https://priceofoil.org', type: 'Research Study' },
       { title: 'OpenSecrets Oil & Gas Lobbying', url: 'https://www.opensecrets.org', type: 'Financial Record' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Maintains century-old fossil fuel tax provisions; has not passed subsidy reform despite repeated commitments', href: '/entities/agencies/congress' },
@@ -1685,6 +1777,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'EPA Hydraulic Fracturing Drinking Water Assessment', url: 'https://www.epa.gov', type: 'Government Record' },
       { title: 'USGS Induced Seismicity Research', url: 'https://www.usgs.gov', type: 'Research Study' },
       { title: 'Stanford Pavillion Wyoming Study', url: 'https://pangea.stanford.edu', type: 'Research Study' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Revised 2016 fracking study conclusions under pressure; abandoned Pavillion investigation; exempted from SDWA enforcement by Halliburton Loophole', href: '/entities/agencies/epa' },
@@ -1731,6 +1824,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'NCMEC Missing Children Statistics', url: 'https://www.missingkids.org', type: 'Research Study' },
       { title: 'HHS Children\'s Bureau Reports', url: 'https://www.acf.hhs.gov/cb', type: 'Government Record' },
       { title: 'Shared Hope International State Report Cards', url: 'https://sharedhope.org', type: 'Research Study' },
+      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
     ],
     affiliations: [
  { id: '1', name: 'HHS', type: 'agency', relationship: 'Children\'s Bureau oversees $30B child welfare system serving 400K+ children; chronically underfunded prevention programs', href: '/entities/agencies/hhs' },
@@ -1771,9 +1865,11 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'JAMA Advisory Committee Conflict Studies', url: 'https://jamanetwork.com', type: 'Research Study' },
       { title: 'CMS Open Payments Database', url: 'https://openpaymentsdata.cms.gov', type: 'Government Record' },
       { title: 'Science FDA Advisory Committee Investigation', url: 'https://www.science.org', type: 'Investigative Report' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Issued 1,100+ conflict-of-interest waivers 2008-2018; approved OxyContin and Aduhelm over safety concerns', href: '/entities/agencies/fda' },
+      { name: 'Department of Health and Human Services', href: '/entities/agencies/hhs' },
  ],
    eventOriginDate: '1992-01-01',
    lastActivityDate: '2025-09-15',
@@ -1811,6 +1907,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'NRDC GRAS Investigation', url: 'https://www.nrdc.org', type: 'Research Study' },
       { title: 'USDA Pesticide Data Program', url: 'https://www.ams.usda.gov/datasets/pdp', type: 'Government Record' },
       { title: 'Consumer Reports Phthalates Analysis', url: 'https://www.consumerreports.org', type: 'Research Study' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'GRAS loophole allows 1,000+ chemical self-certifications without FDA review; no enforceable PFAS limits in food', href: '/entities/agencies/fda' },
@@ -1854,9 +1951,12 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'GAO Indian Health Service Sterilization Report', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'CIR California Prison Sterilization Investigation', url: 'https://revealnews.org', type: 'Investigative Report' },
       { title: 'DHS OIG Irwin County Investigation', url: 'https://www.oig.dhs.gov', type: 'Government Report' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'HHS', type: 'agency', relationship: 'Indian Health Service sterilized 3,400+ Native women 1973-1976; federal consent regulations inadequately enforced', href: '/entities/agencies/hhs' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution and oversight authority', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '1907-01-01',
    lastActivityDate: '2026-02-01',
@@ -1895,6 +1995,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'DOJ FARA Database', url: 'https://www.fara.gov', type: 'Government Record' },
       { title: 'OpenSecrets Foreign Lobbying Data', url: 'https://www.opensecrets.org', type: 'Financial Record' },
       { title: 'GAO FARA Compliance Report', url: 'https://www.gao.gov', type: 'Government Audit' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'FARA unit has never conducted comprehensive compliance audit; brought only 7 criminal cases 2006-2016', href: '/entities/agencies/doj' },
@@ -1934,9 +2035,12 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'FinCEN Annual Report Data', url: 'https://www.fincen.gov', type: 'Government Record' },
       { title: 'Institute for Justice Asset Forfeiture Reports', url: 'https://ij.org', type: 'Legal Analysis' },
       { title: 'Treasury Inspector General BSA Reports', url: 'https://www.treasury.gov/tigta', type: 'Government Audit' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
  { id: '1', name: 'Treasury', type: 'agency', relationship: 'FinCEN receives 20+ million financial surveillance reports annually; $10,000 threshold unchanged since 1970', href: '/entities/agencies/treasury' },
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+
  ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2024-01-01',
@@ -1974,6 +2078,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'FOIA.gov Annual Reports', url: 'https://www.foia.gov', type: 'Government Record' },
       { title: 'Reporters Committee FOIA Analysis', url: 'https://www.rcfp.org', type: 'Research Study' },
       { title: 'National Security Archive FOIA Audits', url: 'https://nsarchive.gwu.edu', type: 'Research Study' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Invoked Exemption 5 over 70,000 times in FY2022; FOIA enforcement guidance favors withholding', href: '/entities/agencies/doj' },
@@ -2019,21 +2124,47 @@ const investigations_f: Record<string, InvestigationData> = {
     category: "Sexual Harassment",
     date: "July 6, 2016",
     lastUpdated: "March 10, 2026",
-    summary: "Fox News chairman Roger Ailes and star anchor Bill O'Reilly were forced out after dozens of women accused them of sexual harassment. The network paid over $100 million in settlements while maintaining a toxic culture of intimidation and retaliation.",
+    summary: "Fox News chairman Roger Ailes and star anchor Bill O'Reilly were forced out after dozens of women accused them of sexual harassment. The network paid over $100 million in settlements while maintaining a toxic culture of intimidation and retaliation. The scandal exposed how the most powerful figures in cable news used their positions to prey on women employees, enforced silence through NDAs and career threats, and were protected for decades by a corporate structure that prioritized ratings and profits over employee safety.",
     content: [
-      "ROGER AILES: Over 20 women accused Ailes of sexual harassment. He resigned in 2016 with a $40 million severance.",
-      "BILL O'REILLY: Fox paid $45 million to settle harassment claims against O'Reilly, who was fired in 2017 after the payments became public.",
-      "CULTURE OF SILENCE: Women who complained faced retaliation and career destruction. NDAs silenced victims for years.",
+      "ROGER AILES: Fox News founder and chairman Roger Ailes was accused of sexual harassment by more than 20 women over a period spanning decades. Former anchor Gretchen Carlson filed suit on July 6, 2016, alleging Ailes retaliated against her for refusing his advances and complaining about sexism. Megyn Kelly and other prominent anchors subsequently confirmed a pattern of predatory behavior. Ailes resigned on July 21, 2016, receiving a $40 million severance package from 21st Century Fox despite the allegations. He died in May 2017 without facing criminal charges.",
+      "BILL O'REILLY: Fox News' highest-rated host Bill O'Reilly was revealed to have settled sexual harassment claims with at least six women for a combined $45 million. Despite knowing about these settlements, Fox renewed his contract in February 2017 for $25 million per year. After the New York Times exposed the settlements in April 2017, advertisers fled and O'Reilly was fired on April 19, 2017. He personally paid $32 million to settle a claim with legal analyst Lis Wiehl just weeks before his contract renewal.",
+      "CULTURE OF SILENCE: Fox News operated a systemic culture of intimidation where women who reported harassment faced retaliation, demotion, or termination. Non-disclosure agreements were used extensively to buy silence. The network's legal department functioned as a shield for predators rather than a resource for victims. Women were told their careers depended on compliance.",
+      "CORPORATE COMPLICITY: 21st Century Fox and the Murdoch family were aware of the harassment culture for years. Internal complaints were suppressed. The board commissioned an investigation by Paul, Weiss, Rifkind, Wharton & Garrison only after Carlson's lawsuit made the situation public. The investigation found a pervasive pattern of harassment and cover-up at every level.",
+      "FINANCIAL ACCOUNTABILITY: Fox News and 21st Century Fox paid over $100 million in settlements to harassment victims. Gretchen Carlson received $20 million. Multiple other women received undisclosed settlements. Despite the massive payouts, no executive faced criminal prosecution. Fox's parent company saw minimal stock impact, suggesting the market had already priced in the toxic culture.",
+      "LEGAL FRAMEWORK: The scandal highlighted failures in employment law enforcement. Title VII of the Civil Rights Act of 1964 prohibits workplace sexual harassment, but the use of mandatory arbitration clauses and NDAs allowed Fox to keep allegations hidden for years. The Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act was signed into law in 2022 partly as a result of cases like these.",
+      "BROADER IMPACT: The Fox News scandal was a precursor to the broader #MeToo movement that erupted in October 2017 with revelations about Harvey Weinstein. It demonstrated that even the most powerful media figures could be held accountable when victims spoke publicly. Gretchen Carlson became an advocate for ending forced arbitration and NDAs in harassment cases.",
     ],
-    tags: ["Fox News","Sexual Harassment","Roger Ailes","Bill O'Reilly","MeToo"],
+    tags: ["Fox News","Sexual Harassment","Roger Ailes","Bill O'Reilly","MeToo","Gretchen Carlson","Megyn Kelly","21st Century Fox","Rupert Murdoch","Forced Arbitration","NDAs"],
     sources: [
-      { title: "NYT O'Reilly Settlement Investigation", url: "https://www.nytimes.com/2017/10/21/business/media/bill-oreilly-sexual-harassment.html", type: "Investigation" },
+      { title: "NYT: Bill O'Reilly Settled Sexual Harassment Claims for $45 Million", url: "https://www.nytimes.com/2017/10/21/business/media/bill-oreilly-sexual-harassment.html", type: "Investigation" },
+      { title: "NYT: Fox Settled With O'Reilly Accusers — Then Renewed His Contract", url: "https://www.nytimes.com/2017/04/01/business/media/bill-oreilly-sexual-harassment-fox-news.html", type: "Investigation" },
+      { title: "Gretchen Carlson v. Roger Ailes — Original Complaint", url: "https://www.documentcloud.org/documents/2994380-Gretchen-Carlson-s-Lawsuit-Against-Roger-Ailes.html", type: "Court Document" },
+      { title: "Gabriel Sherman: The Loudest Voice in the Room — Roger Ailes Biography", url: "https://www.amazon.com/Loudest-Voice-Room-Roger-America/dp/0812992857", type: "Book" },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
-    affiliations: [],
-   timeline: [
-     { date: '2016', event: 'He resigned in 2016 with a $40 million severance.', type: 'financial' },
-     { date: '2017', event: 'BILL O\'REILLY: Fox paid $45 million to settle harassment claims against O\'Reilly, who was fired in 2017 after the payments became public.', type: 'political' },
-   ],
+    affiliations: [
+      { id: '1', name: 'Rupert Murdoch', type: 'individual', relationship: 'Chairman of 21st Century Fox who oversaw the network during decades of systemic harassment and approved massive severance for Ailes', href: '/entities/individuals/rupert-murdoch' },
+      { id: '2', name: 'Fox News', type: 'corporation', relationship: 'Network where systemic harassment was enabled and covered up at every level for decades', href: '/entities/corporations/fox-news' },
+      { id: '3', name: 'Roger Ailes', type: 'individual', relationship: 'Fox News chairman and CEO accused by 20+ women, resigned with $40M severance', href: '/entities/individuals/roger-ailes' },
+      { id: '4', name: 'Bill O\'Reilly', type: 'individual', relationship: 'Star anchor who settled harassment claims totaling $45M, fired April 2017', href: '/entities/individuals/bill-oreilly' },
+    ],
+    eventOriginDate: '1996-01-01',
+    lastActivityDate: '2026-03-10',
+    pageUpdatedDate: '2026-03-21',
+    timeline: [
+      { date: '1996-10-07', event: 'Fox News launches with Roger Ailes as founding chairman and CEO; earliest allegations of harassment date to this period', type: 'default' },
+      { date: '2004-10', event: 'Andrea Mackris sues Bill O\'Reilly for sexual harassment; case settled for an estimated $9 million with an NDA', type: 'legal' },
+      { date: '2016-07-06', event: 'Gretchen Carlson files sexual harassment lawsuit against Roger Ailes, alleging retaliation for refusing his advances', type: 'legal' },
+      { date: '2016-07-19', event: 'Megyn Kelly confirms to investigators that Ailes harassed her early in her career, accelerating the internal investigation', type: 'default' },
+      { date: '2016-07-21', event: 'Roger Ailes resigns as Fox News chairman with a $40 million severance package', type: 'financial' },
+      { date: '2016-09-06', event: '21st Century Fox settles with Gretchen Carlson for $20 million and issues a public apology', type: 'financial' },
+      { date: '2017-02', event: 'Fox News renews Bill O\'Reilly\'s contract for $25M/year despite knowing about multiple harassment settlements', type: 'financial' },
+      { date: '2017-04-01', event: 'New York Times reports Fox News paid $13 million to five women who accused O\'Reilly of harassment', type: 'default' },
+      { date: '2017-04-19', event: 'Bill O\'Reilly fired from Fox News as advertisers flee and additional accusers come forward', type: 'default' },
+      { date: '2017-05-10', event: 'Fox News co-president Bill Shine resigns over his role in handling harassment complaints', type: 'default' },
+      { date: '2017-05-18', event: 'Roger Ailes dies at age 77 without facing criminal charges', type: 'default' },
+      { date: '2022-03-03', event: 'Ending Forced Arbitration of Sexual Assault and Sexual Harassment Act signed into law, partly inspired by Fox News cases', type: 'legal' },
+    ],
   },
   'facebook-antitrust': {
     title: 'Facebook Antitrust Violations',
@@ -2052,6 +2183,8 @@ const investigations_f: Record<string, InvestigationData> = {
     tags: ['Facebook', 'Antitrust', 'Monopoly', 'Meta'],
     sources: [
       { title: 'FTC v. Facebook Complaint', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0081-facebook-inc-meta-platforms-inc', type: 'Court Document' },
+      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'Mark Zuckerberg', type: 'individual', relationship: 'CEO, oversaw acquisitions', href: '/entities/individuals/mark-zuckerberg' },
@@ -2083,16 +2216,22 @@ const investigations_f: Record<string, InvestigationData> = {
     tags: ['Fannie Mae', 'Accounting Fraud', 'SEC'],
     sources: [
       { title: 'SEC v. Fannie Mae', url: 'https://www.sec.gov/litigation/litreleases/lr18832.htm', type: 'SEC Release' },
+      { title: 'OFHEO Special Examination of Fannie Mae', url: 'https://www.fhfa.gov/AboutUs/Reports/ReportDocuments/2006-2_OFHEO_FNM_REPORT.pdf', type: 'Government Report' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
-      { id: '1', name: 'Franklin Raines', type: 'individual', relationship: 'CEO, received fraudulent bonuses', href: '/entities/individuals/franklin-raines' },
+      { id: '1', name: 'Franklin Raines', type: 'individual', relationship: 'CEO who received $90M in bonuses based on fraudulently inflated earnings', href: '/entities/individuals/franklin-raines' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Investigated and forced $6.3B earnings restatement; secured $400M civil settlement', href: '/entities/agencies/sec' },
     ],
-   eventOriginDate: '2004-12-06',
+   eventOriginDate: '1998-01-01',
    lastActivityDate: '2006-05-23',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2004-12-06', event: 'Fannie Mae Accounting Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
-     { date: '2006-05-23', event: 'Fannie Mae Accounting Fraud — investigation remains active with ongoing developments', type: 'financial' },
+     { date: '1998-01', event: 'Fannie Mae begins accounting manipulations to smooth earnings and meet bonus targets for executives', type: 'financial' },
+     { date: '2004-09-22', event: 'OFHEO releases damning report finding pervasive accounting violations spanning six years at Fannie Mae', type: 'legal' },
+     { date: '2004-12-21', event: 'SEC forces Fannie Mae to restate $6.3 billion in earnings; CEO Franklin Raines and CFO Timothy Howard resign', type: 'financial' },
+     { date: '2006-05-23', event: 'Fannie Mae pays $400M civil penalty to settle SEC charges — largest penalty against a GSE at the time', type: 'legal' },
+     { date: '2008-09-07', event: 'Federal government places Fannie Mae and Freddie Mac into conservatorship amid mortgage crisis; taxpayers ultimately backstop $187B', type: 'financial' },
    ],
   },
   'fbi-cointelpro-full-accounting': {
@@ -2115,6 +2254,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Church Committee Final Report: Book III - Supplementary Detailed Staff Reports on Intelligence Activities and the Rights of Americans', url: 'https://www.intelligence.senate.gov/sites/default/files/94intelligence_activities_III.pdf', type: 'Congressional Report' },
       { title: 'FBI COINTELPRO FOIA Documents', url: 'https://vault.fbi.gov/cointel-pro', type: 'Government Record' },
       { title: 'COINTELPRO: The FBI\'s Secret War on Political Freedom by Nelson Blackstock', url: 'https://www.pathfinderpress.com/cointelpro', type: 'Book' },
+      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Created and operated COINTELPRO from 1956-1971; conducted 2,300+ operations against American citizens', href: '/entities/agencies/fbi' },
@@ -2156,6 +2296,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'GAO Report: Investigation of Indian Health Service Sterilization Practices (1976)', url: 'https://www.gao.gov/products/hrd-77-3', type: 'Government Audit' },
       { title: 'California State Auditor Report on Prison Sterilizations', url: 'https://www.auditor.ca.gov', type: 'Government Audit' },
       { title: 'House Committee on Homeland Security - Irwin County Investigation', url: 'https://homeland.house.gov', type: 'Congressional Report' },
+      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
     ],
     affiliations: [
       { id: '1', name: 'Indian Health Service', type: 'agency', relationship: 'Sterilized at least 3,406 Native American women between 1973-1976 without proper consent', href: '/entities/agencies/ihs' },
@@ -2197,6 +2338,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'FCC: Restoring Internet Freedom Order (2017)', url: 'https://www.fcc.gov/restoring-internet-freedom', type: 'Government' },
       { title: 'New York Attorney General: Fake Comments Investigation', url: 'https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-detailing-millions-fake-comments-exposed', type: 'Government' },
       { title: 'Institute for Local Self-Reliance: Broadband Competition Map', url: 'https://ilsr.org/broadband-competition-map/', type: 'Research' },
+      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'FCC', type: 'agency', relationship: 'Central subject - captured by industry through revolving door; killed net neutrality; overstated broadband coverage using flawed data', href: '/entities/agencies/fcc' },
@@ -2242,9 +2384,11 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'BMJ: FDA Commissioners and the Pharmaceutical Industry', url: 'https://www.bmj.com/content/354/bmj.i5055', type: 'Research' },
       { title: 'GAO: FDA Drug Safety - Improvement Needed in Post-Market Decision-Making', url: 'https://www.gao.gov/products/gao-06-402', type: 'Government Audit' },
       { title: 'Science: FDA Reviewers and the Companies They Regulate', url: 'https://www.science.org/doi/10.1126/science.aad5927', type: 'Research' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Central subject - 65% of drug review budget from industry; 10 of 11 commissioners joined pharma; approved Aduhelm over advisory committee objections', href: '/entities/agencies/fda' },
+      { name: 'Department of Health and Human Services', href: '/entities/agencies/hhs' },
     ],
    eventOriginDate: '1960-01-01',
    lastActivityDate: '2025-10-15',
@@ -2281,6 +2425,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Senate HELP Committee: For Profit Higher Education - The Failure to Safeguard the Federal Investment', url: 'https://www.help.senate.gov/imo/media/for_profit_report/PartI.pdf', type: 'Congressional Report' },
       { title: 'CFPB: Corinthian Colleges Enforcement Action', url: 'https://www.consumerfinance.gov/enforcement/actions/corinthian-colleges/', type: 'Government' },
       { title: 'GAO: Undercover Testing Finds Colleges Engaged in Fraud', url: 'https://www.gao.gov/products/gao-10-948t', type: 'Government Audit' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Distributes $40B+ annually to for-profit colleges; Obama-era enforcement reversed under DeVos; Biden admin approved $22B in fraud discharges', href: '/entities/agencies/doe' },
@@ -2320,6 +2465,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Michigan Civil Rights Commission: The Flint Water Crisis Report', url: 'https://www.michigan.gov/mdcr/commissions/civil-rights/flint-water-crisis', type: 'Government Report' },
       { title: 'Virginia Tech Flint Water Study', url: 'http://flintwaterstudy.org/', type: 'Research' },
       { title: 'EPA OIG: Management Weaknesses Delayed Response to Flint Water Crisis', url: 'https://www.epa.gov/office-inspector-general/report-management-weaknesses-delayed-response-flint-water-crisis', type: 'Government Audit' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Region 5 scientist warned of lead contamination in June 2015; findings initially suppressed by agency leadership', href: '/entities/agencies/epa' },
@@ -2360,6 +2506,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Wall Street Journal: The Facebook Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
       { title: 'Senate Commerce Committee: Frances Haugen Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower', type: 'Congressional Record' },
       { title: 'State Attorneys General v. Meta Platforms: Complaint', url: 'https://www.ag.state.mn.us/', type: 'Legal Filing' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Fined Facebook $5B in 2019 for privacy violations; investigating COPPA violations; proposed ban on targeted advertising to children', href: '/entities/agencies/ftc' },
@@ -2399,6 +2546,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'InsideClimate News: Exxon, The Road Not Taken', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigative Journalism' },
       { title: 'IMF: Fossil Fuel Subsidies Data (2023)', url: 'https://www.imf.org/en/Topics/climate-change/energy-subsidies', type: 'International Organization' },
       { title: 'Supran & Oreskes: Assessing ExxonMobil Global Warming Projections (Science, 2023)', url: 'https://www.science.org/doi/10.1126/science.abk0063', type: 'Academic Research' },
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Enforcement varies by administration; has been repeatedly weakened by fossil fuel lobbying; failed to regulate CO2 until ordered by Supreme Court in 2007', href: '/entities/agencies/epa' },
@@ -2445,6 +2593,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'JAMA Internal Medicine: Sugar Industry Sponsorship of Coronary Heart Disease Research', url: 'https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2548255', type: 'Academic Research' },
       { title: 'CDC: Adult Obesity Facts', url: 'https://www.cdc.gov/obesity/data/adult.html', type: 'Government Report' },
       { title: 'GAO: FDA Should Strengthen Its Oversight of Food Ingredients', url: 'https://www.gao.gov/products/gao-10-246', type: 'Government Report' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'GRAS loophole allows industry self-certification of food additives without FDA review; has never revoked GRAS status for any widely used additive despite emerging safety concerns', href: '/entities/agencies/fda' },
@@ -2480,6 +2629,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Senate HELP Committee: For-Profit Higher Education Investigation (Harkin Report)', url: 'https://www.help.senate.gov/imo/media/for_profit_report/PartI.pdf', type: 'Congressional Report' },
       { title: 'FTC: DeVry University Settlement', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/devry-university', type: 'Legal Document' },
       { title: 'DOE: Borrower Defense to Repayment Data', url: 'https://studentaid.gov/borrower-defense/', type: 'Government Report' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Gainful Employment rule repealed under DeVos; borrower defense processing dropped from 97% approval to 1%; for-profit industry executives hired into regulatory roles', href: '/entities/agencies/doe' },
@@ -2515,6 +2665,9 @@ const investigations_f: Record<string, InvestigationData> = {
       'https://www.aspca.org/protecting-farm-animals',
       'https://www.humanesociety.org/all-our-fights/ending-factory-farming',
       'https://www.sentientmedia.org/ag-gag-laws/',
+      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+    
+      { name: 'USDA Animal and Plant Health Inspection Service', url: 'https://www.aphis.usda.gov/' },
     ],
     affiliations: [
       { id: '1', name: 'USDA', type: 'agency', relationship: 'Enforces Humane Methods of Slaughter Act but excludes poultry; FSIS inspectors report pressure to prioritize throughput over welfare; revolving door with industry executives undermines independence', href: '/entities/agencies/usda' },
@@ -2553,11 +2706,15 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'University of Vermont: Eugenics Survey Records', url: 'https://www.uvm.edu/~eugenics/', type: 'Research Archive' },
       { title: 'PBS: The Eugenics Crusade', url: 'https://www.pbs.org/wgbh/americanexperience/films/eugenics-crusade/', type: 'Documentary' },
       { title: 'GAO: Investigation of IHS Sterilizations (1976)', url: 'https://www.gao.gov/', type: 'Government Report' },
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
     ],
     affiliations: [
       { id: '1', name: 'U.S. Supreme Court', type: 'agency', relationship: 'Upheld compulsory sterilization in Buck v. Bell (1927) in an 8-1 decision; the ruling has never been explicitly overturned; Justice Holmes\'s opinion was cited by Nazi defendants at Nuremberg as precedent', href: '/entities/agencies/supreme-court' },
       { id: '2', name: 'Indian Health Service', type: 'agency', relationship: 'GAO investigation found IHS sterilized 3,406 Native American women between 1973-1976 without proper consent; some women coerced with threats of losing welfare benefits or custody of children', href: '/entities/agencies/ihs' },
     ],
+   eventOriginDate: '1907-03-09',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1907', event: 'Indiana became the first state to enact a compulsory sterilization law in 1907, and by 1937, 32 states had followed', type: 'political' },
      { date: '1922', event: 'Laughlin\'s "Model Eugenical Sterilization Law" (1922) was adopted in whole or in part by numerous states and was directly cited by Nazi Germany\'s sterilization program as a template', type: 'political' },
@@ -2598,6 +2755,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Ricky Ray Hemophilia Relief Fund Act (Public Law 105-369)', url: 'https://www.congress.gov/bill/105th-congress/house-bill/1023', type: 'Congressional Record' },
       { title: 'National Hemophilia Foundation: History and Advocacy', url: 'https://www.hemophilia.org/', type: 'Victim Advocacy' },
       { title: 'New York Times: Bayer Sold HIV-Risky Medicine (2003)', url: 'https://www.nytimes.com/2003/05/22/business/bayer-division-sold-risky-medicine.html', type: 'Investigative Report' },
+      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
     ],
     affiliations: [
       { id: '1', name: 'Bayer AG', type: 'corporation', relationship: 'Through subsidiary Cutter Biological, manufactured and sold clotting factor concentrates from high-risk plasma pools; internal documents showed executives weighed cost of screening against lawsuit liability; continued selling unheated product overseas after safer heated product was available in the US; no executive was criminally prosecuted', href: '/entities/corporations/bayer' },

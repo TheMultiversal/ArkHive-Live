@@ -26,6 +26,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Treasury Kilimnik Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0126', type: 'Government Document' },
  { title: 'Senate Intelligence Report Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government Report' },
  { title: 'Manafort EDVA Conviction', url: 'https://www.courtlistener.com/docket/6183591/united-states-v-manafort/', type: 'Court Records' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Paul Manafort', type: 'individual', relationship: 'Primary Ukraine consultant', href: '/entities/individuals/paul-manafort' },
@@ -68,6 +69,7 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'Trump Fox Business Admission', url: 'https://www.forbes.com/sites/alisondurkee/2020/08/13/trump-admits-hes-blocking-usps-funding-to-stop-mail-in-voting/', type: 'News' },
  { title: 'Sorting Machine Removal', url: 'https://www.washingtonpost.com/business/2020/08/20/postal-service-mail-sorting-machines/', type: 'Investigation' },
+   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Admitted blocking USPS funding', href: '/entities/individuals/donald-trump' },
@@ -106,6 +108,7 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'NY Times Investigation', url: 'https://www.nytimes.com/2018/12/06/us/trump-bedminster-golf-undocumented-workers.html', type: 'Investigation' },
  { title: 'Washington Post Workers Come Forward', url: 'https://www.washingtonpost.com/politics/more-undocumented-workers-say-they-worked-at-trump-golf-course/2019/01/26/a9491c4c-2073-11e9-8e21-59a09ff1e2a1_story.html', type: 'Investigation' },
+   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Owner of properties employing undocumented workers', href: '/entities/individuals/donald-trump' },
@@ -148,6 +151,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'NYT, UAE Influence Operation', url: 'https://www.nytimes.com/2018/03/21/us/politics/george-nader-elliott-broidy-uae-saudi-arabia.html', type: 'Investigation' },
  { title: 'Washington Post, Kushner-MBZ Relationship', url: 'https://www.washingtonpost.com/world/national-security/kushner-and-the-saudis/2018/03/27/', type: 'Investigation' },
  { title: 'FARA Filings, UAE Lobbying', url: 'https://efile.fara.gov/ords/fara/f?p=1235:10:0::NO:RP,10:P10_COUNTRY:UNITED%20ARAB%20EMIRATES', type: 'Government Records' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Mohammed bin Zayed', type: 'individual', relationship: 'UAE leader, directed influence campaign', href: '/entities/individuals/mohammed-bin-zayed' },
@@ -196,6 +200,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'CIA Covert Operations Declassified', url: 'https://www.cia.gov/readingroom/', type: 'Primary Documents' },
  { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Research Archive' },
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/', type: 'Reports' },
+   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Installed and supported dictators', href: '/entities/agencies/cia' },
@@ -241,9 +246,12 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
  { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
+   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'First impeachment for Ukraine pressure', href: '/entities/individuals/donald-trump' },
+ { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and corporate fraud enforcement', href: '/entities/agencies/sec' },
+
  ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2026-01-02',
@@ -288,6 +296,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Bellingcat Open Source Investigations', url: 'https://www.bellingcat.com/tag/ukraine/', type: 'Investigation' },
  { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
  { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
+   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Ukraine aid controversy', href: '/entities/individuals/donald-trump' },
@@ -330,9 +339,12 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
  { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
  { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Ordered invasion', href: '/entities/individuals/vladimir-putin' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal authority for war crimes prosecution and investigation', href: '/entities/agencies/doj' },
+
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2024-11-23',
@@ -379,6 +391,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
  { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
+   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
  ],
  affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Supported dictators worldwide', href: '/entities/agencies/cia' },
@@ -418,6 +431,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
  { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Larry Nassar', type: 'individual', relationship: 'Team doctor who sexually abused 500+ gymnasts', href: '/entities/individuals/larry-nassar' },
@@ -457,6 +471,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Washington Post Fatal Force Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', type: 'Archive' },
  { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+   { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
  ],
  affiliations: [
  { id: '1', name: 'NRA', type: 'corporation', relationship: 'Held convention days after massacre', href: '/entities/corporations/nra' },
@@ -506,6 +521,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'UN OHCHR Assessment on Xinjiang', url: 'https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region', type: 'Report' },
  { title: 'Uyghur Human Rights Project', url: 'https://uhrp.org/reports/', type: 'Report' },
  { title: 'Australian Strategic Policy Institute - Xinjiang Data', url: 'https://xjdp.aspi.org.au/', type: 'Archive' },
+   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
  ],
  affiliations: [
  { id: '1', name: 'Xi Jinping', type: 'individual', relationship: 'CCP leader overseeing genocide', href: '/entities/individuals/xi-jinping' },
@@ -542,9 +558,12 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: 'PBGC: Multiemployer Program Statistics', url: 'https://www.pbgc.gov', type: 'Government Report' },
       { title: 'DOL EBSA: Enforcement Statistics', url: 'https://www.dol.gov/agencies/ebsa', type: 'Government Report' },
       { title: 'Senate HELP Committee: Pension Crisis Hearings', url: 'https://www.help.senate.gov', type: 'Congressional Record' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Teamsters pension fraud cases; oversaw consent decree governing union from 1989-2015; criminal investigations into fiduciary breaches', href: '/entities/agencies/doj' },
+      { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' },
+
     ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2025-05-02',
@@ -583,10 +602,16 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: "Texas House Investigative Committee Report", url: "https://house.texas.gov/uvalde", type: "Government Report" },
       { title: "DOJ Critical Incident Review", url: "https://www.justice.gov/d9/2024-01/uvalde_critical_incident_review.pdf", type: "Government Report" },
       { title: "Texas Tribune Uvalde Investigation", url: "https://www.texastribune.org/series/uvalde-texas-school-shooting/", type: "Investigative Journalism" },
+      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
     ],
     affiliations: [
       { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Conducted critical incident review finding cascading failures at every level of law enforcement response', href: '/entities/agencies/doj' },
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
+
     ],
+   eventOriginDate: '2022-05-24',
+   lastActivityDate: '2026-03-21',
+   pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '2022', event: 'On May 24, 2022, an 18-year-old gunman killed 19 children and 2 teachers at Robb Elementary School in Uvalde, Texas.', type: 'critical' },
      { date: '2022-05-24', event: 'On May 24, 2022, an 18-year-old gunman killed 19 children and 2 teachers at Robb Elementary School in Uvalde, Texas.', type: 'critical' },
@@ -617,6 +642,7 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: 'Bureau of Justice Statistics: Prisoners Series', url: 'https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps-program', type: 'Government Data' },
       { title: 'The Sentencing Project: Trends in U.S. Incarceration', url: 'https://www.sentencingproject.org/', type: 'Database' },
       { title: 'Prison Policy Initiative: Mass Incarceration: The Whole Pie', url: 'https://www.prisonpolicy.org/reports/pie2024.html', type: 'Report' },
+      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'BOP operates 122 federal prisons; Obama ordered phase-out of private prisons; Trump reversed; Biden reinstated', href: '/entities/agencies/doj' },
@@ -652,6 +678,7 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: 'New York Times: How Uber Deceives the Authorities Worldwide', url: 'https://www.nytimes.com/2017/03/03/technology/uber-greyball-program-evade-authorities.html', type: 'Investigative Report' },
       { title: 'DOJ: United States v. Joseph Sullivan - Uber Data Breach Coverup', url: 'https://www.justice.gov/usao-ndca/pr/former-chief-security-officer-uber-convicted-federal-charges-covering-data-breach', type: 'Legal Document' },
       { title: 'The Guardian: Uber Files - Leaked Documents Investigation', url: 'https://www.theguardian.com/news/series/uber-files', type: 'Investigative Report' },
+      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Investigated Greyball; convicted CSO Sullivan for breach coverup; deferred prosecution agreement for regulatory obstruction', href: '/entities/agencies/doj' },
@@ -689,6 +716,7 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: 'National Security Archive: CIA Coup Collections', url: 'https://nsarchive.gwu.edu/', type: 'Document Archive' },
       { title: 'CIA FOIA Reading Room: Declassified Documents on Covert Operations', url: 'https://www.cia.gov/readingroom/', type: 'Government Archive' },
       { title: 'Dov Levin: Partisan Electoral Interventions by the Great Powers Database', url: 'https://doi.org/10.1177/0738894216661190', type: 'Academic Research' },
+      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Orchestrated coups in Iran, Guatemala, Chile, and supported regime change in 60+ countries; provided kill lists in Indonesia; armed proxy forces', href: '/entities/agencies/cia' },
@@ -734,6 +762,7 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: 'Economic Policy Institute: Unlawful Employer Interference in Union Elections', url: 'https://www.epi.org/publication/unlawful-employer-interference/', type: 'Research' },
       { title: 'NLRB: Starbucks Unfair Labor Practice Complaints', url: 'https://www.nlrb.gov/', type: 'Government Filing' },
       { title: 'BLS: Union Membership Annual Survey', url: 'https://www.bls.gov/news.release/union2.nr0.htm', type: 'Government Report' },
+      { name: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd' },
     ],
     affiliations: [
       { id: '1', name: 'NLRB', type: 'agency', relationship: 'Primary enforcement body for labor rights; remedies limited to reinstatement and back pay; no punitive damages or criminal penalties; chronically underfunded with 30% fewer staff than 2010', href: '/entities/agencies/nlrb' },
@@ -769,6 +798,7 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: 'DOJ: United States v. Samuel Bankman-Fried', url: 'https://www.justice.gov/', type: 'Legal Document' },
       { title: 'Chainalysis: Crypto Crime Report 2024', url: 'https://www.chainalysis.com/', type: 'Research' },
       { title: 'SEC: Crypto Assets and Enforcement Actions', url: 'https://www.sec.gov/spotlight/cybersecurity', type: 'Government Report' },
+      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Filed enforcement actions against Coinbase, Binance, and others; classified most tokens as securities; industry lobbying to remove chair Gensler succeeded after 2024 election', href: '/entities/agencies/sec' },
@@ -808,6 +838,9 @@ const investigations_u: Record<string, InvestigationData> = {
       'https://www.nclc.org/issue/utility-consumer-protections/',
       'https://liheapch.acf.hhs.gov/',
       'https://www.aceee.org/research-report/u2006',
+      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+
+      { name: 'Energy Information Administration', url: 'https://www.eia.gov/' },
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Administers Weatherization Assistance Program but funding reaches fewer than 40,000 homes annually against 37 million eligible; no authority over shutoff policies', href: '/entities/agencies/doe' },
@@ -847,6 +880,7 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: 'Khabarovsk Trial: Materials on the Trial of Former Servicemen of the Japanese Army (1950)', url: 'https://www.loc.gov/collections/', type: 'Court Record' },
       { title: 'Congressional Hearing: Japanese Imperial Armys Biological Warfare Program (2004)', url: 'https://www.congress.gov/', type: 'Congressional Record' },
       { title: 'Unit 731 Museum: Harbin, China (Exhibition Archive)', url: 'https://www.unit731.org/', type: 'Museum Archive' },
+      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
     ],
     affiliations: [
       { id: '1', name: 'U.S. Army', type: 'agency', relationship: 'Through Fort Detrick and MacArthur command, negotiated the immunity deal that protected Ishii and all Unit 731 researchers from prosecution in exchange for biological weapons data; used the data to advance the U.S. biological weapons program; classified the records for decades', href: '/entities/agencies/us-army' },

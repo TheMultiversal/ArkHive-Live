@@ -207,7 +207,7 @@ function RegionCard({ region, config, entities, isExpanded, onToggle }: RegionCa
       {isExpanded && (
         <div className="border-t border-zinc-800 p-4 space-y-2">
           {entities.map((item, idx) => {
-            const typeConf = entityTypeConfig[item.entity.type];
+            const typeConf = entityTypeConfig[item.entity.type as keyof typeof entityTypeConfig] ?? entityTypeConfig.organization;
             const Icon = typeConf.icon;
             return (
               <Link

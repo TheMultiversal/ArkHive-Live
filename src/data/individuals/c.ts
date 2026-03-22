@@ -5069,6 +5069,48 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Jared Kushner', relationship: 'Husband and fellow senior advisor; together they reported $640 million in income during White House tenure', href: '/entities/individuals/jared-kushner' },
     ],
   },
+  'carol-lam': {
+    name: 'Carol Chieko Lam',
+    title: 'Former U.S. Attorney for the Southern District of California',
+    role: 'Fired Federal Prosecutor, Anti-Corruption Champion',
+    riskLevel: 'low',
+    description: 'Carol Lam served as U.S. Attorney for the Southern District of California from 2002 until her firing on February 15, 2007, as part of the Bush administration\'s political purge of federal prosecutors. Lam successfully prosecuted Republican Congressman Randy "Duke" Cunningham for accepting $2.4 million in bribes, the largest congressional bribery case in U.S. history. She was fired while actively investigating defense contractor Brent Wilkes and CIA executive director Kyle "Dusty" Foggo. Internal DOJ emails from Kyle Sampson explicitly cited her corruption prosecutions as the reason she needed to be replaced: "The real problem we have right now with Carol Lam."',
+    birthDate: '1959',
+    birthPlace: 'United States',
+    education: ['B.A., Yale University', 'J.D., Stanford Law School'],
+    affiliations: [
+      { name: 'DOJ', role: 'U.S. Attorney, Southern District of California (2002-2007)', type: 'agency' },
+    ],
+    controversies: [
+      'Fired for prosecuting Republican corruption',
+      'Was actively investigating CIA executive Dusty Foggo when removed',
+      'Kyle Sampson emails explicitly targeted her for removal due to Cunningham prosecution',
+      'Her firing directly obstructed ongoing anti-corruption investigations',
+    ],
+    charges: [],
+    relatedInvestigations: [
+      { title: 'Bush Administration U.S. Attorney Firings', slug: 'attorney-firings', severity: 'high' },
+    ],
+    timeline: [
+      { date: '2002', event: 'Appointed U.S. Attorney for the Southern District of California' },
+      { date: '2005-11-28', event: 'Congressman Duke Cunningham pleads guilty to $2.4 million in bribes — largest congressional bribery case in history' },
+      { date: '2006-03', event: 'Secures Cunningham sentencing; continues investigating defense contractor Brent Wilkes and CIA official Kyle "Dusty" Foggo' },
+      { date: '2006-11', event: 'Kyle Sampson emails state "The real problem we have right now with Carol Lam" — recommending her replacement be ready immediately' },
+      { date: '2007-01', event: 'Notified of termination as part of the coordinated U.S. Attorney purge' },
+      { date: '2007-02-15', event: 'Officially removed from office; ongoing corruption investigations disrupted' },
+      { date: '2007-06', event: 'Despite her removal, the Foggo investigation continues and Foggo is eventually convicted of fraud and conspiracy' },
+      { date: '2008-09', event: 'DOJ Inspector General report confirms her firing was improperly political' },
+    ],
+    sources: [
+      { title: 'DOJ Inspector General Report on U.S. Attorney Dismissals', url: 'http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf', date: '2008' },
+      { title: 'Cunningham Bribery Case — DOJ Press Release', url: 'https://www.justice.gov/archive/usao/cas/press/cas60303.html', date: '2006' },
+    ],
+    knownAssociates: [
+      { name: 'Alberto Gonzales', relationship: 'Attorney General who authorized her firing', href: '/entities/individuals/alberto-gonzales' },
+      { name: 'David Iglesias', relationship: 'Fellow fired U.S. Attorney and whistleblower', href: '/entities/individuals/david-iglesias' },
+      { name: 'Harriet Miers', relationship: 'White House Counsel who architected the attorney purge plan', href: '/entities/individuals/harriet-miers' },
+    ],
+  },
 };
 
 export default profiles;
