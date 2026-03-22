@@ -2468,7 +2468,7 @@ const timelineEvents: TimelineEvent[] = [
  description: 'The warnings that were ignored before September 11, 2001',
  category: 'Intelligence Failures',
  severity: 'critical',
- slug: '911-intelligence',
+ slug: 'september-11',
  tags: ['CIA'],
  },
  {
@@ -3420,16 +3420,6 @@ const timelineEvents: TimelineEvent[] = [
  severity: 'critical',
  slug: '2020-election-overturn',
  tags: ['Elections'],
- },
- {
- date: 'September 11, 2009',
- sortDate: '2009-09-11',
- title: '9/11 Intelligence Failures',
- description: 'The warnings ignored, the attack enabled',
- category: 'Intelligence Failures',
- severity: 'critical',
- slug: '9-11-failures',
- tags: ['CIA'],
  },
  {
  date: 'March 15, 2019',

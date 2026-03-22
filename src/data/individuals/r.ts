@@ -2174,7 +2174,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  charges: [],
  relatedInvestigations: [
- { title: '9/11 Intelligence Failures', slug: '9-11-failures', severity: 'critical' },
+ { title: 'September 11 Attacks & Accountability Failures', slug: 'september-11', severity: 'critical' },
  ],
  timeline: [
  { date: 'October 27, 1950', event: 'Born in Boston' },

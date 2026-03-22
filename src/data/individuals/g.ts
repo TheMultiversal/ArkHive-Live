@@ -580,7 +580,7 @@ const profiles: Record<string, IndividualProfile> = {
  relatedInvestigations: [
  { title: 'CIA Torture Program', slug: 'cia-torture', severity: 'critical' },
  { title: 'Iraq War Deception', slug: 'iraq-war-deception', severity: 'critical' },
- { title: '9/11 Intelligence Failures', slug: '911-intelligence', severity: 'critical' },
+ { title: 'September 11 Attacks & Accountability Failures', slug: 'september-11', severity: 'critical' },
  { title: 'Extraordinary Rendition', slug: 'rendition', severity: 'critical' },
  { title: 'Evidence Destruction', slug: 'evidence-destruction', severity: 'high' },
  ],

@@ -63,17 +63,7 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
 
   // ========== 9 ==========
 
-  '911-intelligence': [
-    { date: '2009-01-01', from: 'US taxpayers', to: 'CIA', amount: '$36.6B', purpose: 'Budget allocation for operations connected to 9/11 Intelligence Failures', documented: false },
-    { date: '2010-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$50.8B', purpose: 'Contractor profits from programs related to 9/11 Intelligence Failures', documented: true },
-    { date: '2012-01-01', from: 'CIA', to: 'Classified / black budget programs', amount: '$2.6B', purpose: 'Classified spending on programs exposed in 9/11 Intelligence Failures', documented: false },
-  ],
 
-  '9-11-failures': [
-    { date: '2009-01-01', from: 'US taxpayers', to: 'CIA', amount: '$92.9B', purpose: 'Budget allocation for operations connected to 9/11 Intelligence Failures', documented: false },
-    { date: '2010-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$57.9B', purpose: 'Contractor profits from programs related to 9/11 Intelligence Failures', documented: true },
-    { date: '2012-01-01', from: 'CIA', to: 'Classified / black budget programs', amount: '$32.4B', purpose: 'Classified spending on programs exposed in 9/11 Intelligence Failures', documented: false },
-  ],
 
 
   // ========== B ==========
