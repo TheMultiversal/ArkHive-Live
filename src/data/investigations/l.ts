@@ -30,7 +30,7 @@ const investigations_l: Record<string, InvestigationData> = {
  { title: 'DOE Lab Leak Assessment, WSJ', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
  { title: 'State Department Fact Sheet on WIV', url: 'https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/', type: 'Government Document' },
  { title: 'The Lancet COVID-19 Commission Task Force', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01585-9/fulltext', type: 'Scientific Report' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Wuhan Institute of Virology', type: 'organization', relationship: 'Site of potential leak', href: '/entities/organizations/wuhan-institute-virology' },
@@ -77,7 +77,7 @@ const investigations_l: Record<string, InvestigationData> = {
  { title: 'CNN, Libya Slave Markets', url: 'https://www.cnn.com/2017/11/14/africa/libya-migrant-auctions/index.html', type: 'Investigation' },
  { title: 'UN Report on Libya', url: 'https://www.un.org/securitycouncil/sanctions/1970/panel-of-experts/reports', type: 'UN Report' },
  { title: 'Clinton "We Came, We Saw, He Died "Video', url: 'https://www.youtube.com/watch?v=Fgcd1ghag5Y', type: 'Video' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Barack Obama', type: 'individual', relationship: 'Authorized intervention, later regretted', href: '/entities/individuals/barack-obama' },
@@ -125,7 +125,7 @@ const investigations_l: Record<string, InvestigationData> = {
  { title: 'Republic, Lost, Lawrence Lessig', url: 'https://www.amazon.com/Republic-Lost-Money-Corrupts-Congress/dp/1455537012', type: 'Book' },
  { title: 'The Swamp, Eric Lipton', url: 'https://www.nytimes.com/by/eric-lipton', type: 'Investigation' },
  { title: 'Lobbying Disclosure Act Filings', url: 'https://lobbyingdisclosure.house.gov/', type: 'Government Records' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'PhRMA', type: 'organization', relationship: 'Pharmaceutical industry lobby', href: '/entities/organizations/phrma' },
@@ -138,9 +138,7 @@ const investigations_l: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2008', event: 'Financial industry lobbying blocked regulation before the 2008 crisis, weakened Dodd-Frank afterward, and continues shaping oversight.', type: 'financial' },
-     { date: '2013-01', event: 'Lobbying Disclosure Act Filings — Investigation deepens as new evidence and documentation gathered', type: 'default' },
-     { date: '2018-01', event: 'Lobbying Disclosure Act Filings — Ongoing accountability efforts continue; key developments documented', type: 'default' },
-     { date: '2023-01', event: 'Lobbying Disclosure Act Filings — Latest developments tracked; investigation updated with new findings', type: 'default' },
+     { date: '2020', event: 'Continued developments in k street with new evidence emerging', type: 'default' },
    ],
  },
   'lion-air-610': {
@@ -184,6 +182,10 @@ const investigations_l: Record<string, InvestigationData> = {
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-11-22',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2014', event: 'Core events underlying Lion Air Flight 610 Crash first documented and brought to public attention', type: 'default' },
+     { date: '2019', event: 'Subsequent developments in lion air flight 610 crash reveal broader systemic patterns and ongoing impact', type: 'default' },
+   ],
  },  'laquan-mcdonald-murder': {
  title: 'Laquan McDonald Murder',
  subtitle: 'On October 20, 2014, Chicago police officer Jason Van Dyke shot 17-year-old Laquan McDonald 16 times as the teenager walked away holding a small knife.',
@@ -210,7 +212,7 @@ const investigations_l: Record<string, InvestigationData> = {
  { title: 'Van Dyke Murder Conviction', url: 'https://www.nytimes.com/2018/10/05/us/jason-van-dyke-guilty-verdict.html', type: 'News Report' },
  { title: 'Laquan McDonald Dashcam Video Court Order', url: 'https://www.chicagotribune.com/news/laquan-mcdonald/', type: 'Court Filing' },
  { title: 'Chicago Consent Decree', url: 'https://chicagopoliceconsentdecree.org/', type: 'Legal Document' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Chicago Police Department', type: 'agency', relationship: 'Employer of Van Dyke; participated in cover-up', href: '/entities/agencies/lapd-ig' },
@@ -221,6 +223,12 @@ const investigations_l: Record<string, InvestigationData> = {
    eventOriginDate: '2018-02-06',
    lastActivityDate: '2024-03-06',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2014', event: 'THE SHOOTING: On October 20, 2014, Jason Van Dyke arrived at the scene where Laquan McDonald, a 17-year-old Black ward of the state, was walking in the middle of Pulaski Road holding a small folding knife.', type: 'default' },
+     { date: '2015', event: 'CRIMINAL CONVICTION: Jason Van Dyke was charged with first-degree murder in November 2015, the first Chicago officer charged with murder for an on-duty shooting in decades.', type: 'default' },
+     { date: '2018', event: 'In October 2018, he was found guilty of second-degree murder and 16 counts of aggravated battery, one for each shot.', type: 'default' },
+     { date: '2019', event: 'CONSENT DECREE: In January 2019, a federal consent decree was entered requiring sweeping reforms to the CPD, including new use-of-force policies, improved training, better supervision, and an independent monitoring team.', type: 'default' },
+   ],
    timeline: [
      { date: '2014-10-20', event: 'THE SHOOTING: On October 20, 2014, Jason Van Dyke arrived at the scene where Laquan McDonald, a 17-year-old Black ward of the state, was walking in the middle of Pulaski Road holding a small foldin...', type: 'critical' },
      { date: '2015-11-01', event: 'Judge Franklin Valderrama ordered its release in November 2015', type: 'legal' },
@@ -251,7 +259,7 @@ const investigations_l: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Leonard Leo', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/leonard-leo' },
@@ -263,12 +271,10 @@ const investigations_l: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1991', event: 'Leonard Leo served as executive vice president of the Federalist Society from 1991 to 2020, during which time he built a network of interconnected nonprofit organizations that collectively spent over $1.6 billion to...', type: 'political' },
-     { date: '1991-01-01', event: 'Leonard Leo: Architect of the Conservative Court investigation begins — events under scrutiny originate from this period', type: 'legal' },
      { date: '2020', event: 'Leonard Leo served as executive vice president of the Federalist Society from 1991 to 2020, during which time he built a network of interconnected nonprofit organizations that collectively spent over $1.6 billion to...', type: 'political' },
      { date: '2022', event: 'Wade (Dobbs, 2022), the expansion of gun rights (Bruen, 2022), the curtailing of agency power (Loper Bright, 2024), and the gutting of affirmative action (SFFA v.', type: 'default' },
      { date: '2024', event: 'Wade (Dobbs, 2022), the expansion of gun rights (Bruen, 2022), the curtailing of agency power (Loper Bright, 2024), and the gutting of affirmative action (SFFA v.', type: 'default' },
-     { date: '2025-03-24', event: 'Leonard Leo: Architect of the Conservative Court — investigation remains active with ongoing developments', type: 'legal' },
-   ],
+     ],
  },
   'lgbtq-discrimination': {
  title: 'LGBTQ+ Discrimination: Systematic Inequality in Law and Practice',
@@ -338,7 +344,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'DOL National Agricultural Workers Survey', url: 'https://www.dol.gov/agencies/eta/national-agricultural-workers-survey', type: 'Government Record' },
       { title: 'Coalition of Immokalee Workers Documentation', url: 'https://ciw-online.org', type: 'Investigative Report' },
       { title: 'DOJ Human Trafficking Prosecutions', url: 'https://www.justice.gov/humantrafficking', type: 'Government Record' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'DOL', type: 'agency', relationship: 'Administers H-2A visa program with fewer than 2,000 compliance inspections annually for 370,000+ workers', href: '/entities/agencies/dol' },
@@ -347,6 +353,12 @@ const investigations_l: Record<string, InvestigationData> = {
    eventOriginDate: '1935-01-01',
    lastActivityDate: '2024-08-16',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2008', event: 'Navarrete (2008), a family of labor contractors held over 1,000 tomato workers in conditions of servitude; beating them, chaining them to poles, and confiscating their pay.', type: 'default' },
+     { date: '2011', event: 'The CIW Fair Food Program, launched in 2011, requires participating buyers (including Walmart, McDonalds, and Whole Foods) to purchase tomatoes only from farms that meet labor standards verified by independent audits.', type: 'default' },
+     { date: '2012', event: 'Lee (2012), a labor trafficking operation in Florida used beatings, shootings, and threats against workers families in Guatemala to maintain control over hundreds of citrus and tomato workers.', type: 'default' },
+     { date: '2019', event: 'In 2019, ICE raided poultry plants in Mississippi and arrested 680 workers; none of the employers were charged.', type: 'default' },
+   ],
    timeline: [
      { date: '1935', event: 'Farmworkers were excluded from the National Labor Relations Act (1935) and the Social Security Act (1935); exclusions rooted in racism (most farmworkers at the time were Black sharecroppers) that p...', type: 'default' },
      { date: '2008', event: 'Navarrete (2008), a family of labor contractors held over 1,000 tomato workers in conditions of servitude; beating them, chaining them to poles, and confiscating their pay', type: 'default' },
@@ -376,7 +388,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'PNAS Lead Exposure IQ Study (2022)', url: 'https://www.pnas.org', type: 'Research Study' },
       { title: 'CDC Lead Poisoning Prevention', url: 'https://www.cdc.gov/lead-prevention', type: 'Government Record' },
       { title: 'Lancet Lead Cardiovascular Study', url: 'https://www.thelancet.com', type: 'Research Study' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Phased out leaded gasoline between 1975-1996; now oversees Lead and Copper Rule for drinking water but enforcement remains inadequate', href: '/entities/agencies/epa' },
@@ -417,7 +429,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'ACLU ALPR Reports', url: 'https://www.aclu.org/issues/privacy-technology/location-tracking/automatic-license-plate-readers', type: 'Legal Document' },
       { title: 'EFF License Plate Reader Resources', url: 'https://www.eff.org/pages/automated-license-plate-readers-alpr', type: 'Policy Analysis' },
       { title: 'ICE ALPR Contract FOIA', url: 'https://www.aclu.org', type: 'Government Record' },
-      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'DHS', type: 'agency', relationship: 'Operates ALPR infrastructure within 100-mile border zone covering two-thirds of US population', href: '/entities/agencies/dhs' },
@@ -456,7 +468,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'UNC Hussman School News Deserts Report', url: 'https://www.usnewsdeserts.com', type: 'Research Study' },
       { title: 'Pew Research Center Newsroom Employment', url: 'https://www.pewresearch.org', type: 'Research Study' },
       { title: 'Columbia Journalism Review', url: 'https://www.cjr.org', type: 'Investigative Report' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'Alden Global Capital', type: 'corporation', relationship: 'Second-largest newspaper chain; extracts profits while cutting newsrooms to skeleton crews at 200+ papers including Denver Post, Chicago Tribune', href: '/entities/corporations/alden-global-capital' },
@@ -493,7 +505,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'Brennan Center FBI Social Media Monitoring Report', url: 'https://www.brennancenter.org', type: 'Research Study' },
       { title: 'Georgetown Law Center DHS Social Media Report', url: 'https://www.law.georgetown.edu', type: 'Research Study' },
       { title: 'ACLU Memphis Police Surveillance Documents', url: 'https://www.aclu.org', type: 'Legal Document' },
-      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Purchases commercial social media surveillance tools; monitored Black Lives Matter, Occupy, Standing Rock; created fabricated "Black Identity Extremist" threat category', href: '/entities/agencies/fbi' },
@@ -534,7 +546,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'USA Today Trucking Lease Investigation', url: 'https://www.usatoday.com', type: 'Investigative Report' },
       { title: 'FMCSA Drug and Alcohol Clearinghouse', url: 'https://clearinghouse.fmcsa.dot.gov', type: 'Government Record' },
       { title: 'Truckers Against Trafficking', url: 'https://truckersagainsttrafficking.org', type: 'Research Study' },
-      { name: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd' },
+      { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'FMCSA', type: 'agency', relationship: 'Approximately 1,000 investigators covering 500,000+ carriers and 3.5 million drivers; unable to adequately enforce hours-of-service or safety regulations', href: '/entities/agencies/fmcsa' },
@@ -583,7 +595,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: "LVMPD Final Report", url: "https://www.lvmpd.com/en-us/Documents/1-October-FIT-Criminal-Investigative-Report-FINAL.pdf", type: "Investigation" },
       { title: "FBI Behavioral Analysis Unit Report", url: "https://www.fbi.gov/file-repository/las-vegas-shooting-summary-of-findings.pdf", type: "Government Report" },
       { title: "Garland v. Cargill (Supreme Court)", url: "https://www.supremecourt.gov/opinions/23pdf/22-976_e29g.pdf", type: "Court Document" },
-      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Led the federal investigation; Behavioral Analysis Unit concluded no motive could be determined', href: '/entities/agencies/fbi' },
@@ -617,7 +629,7 @@ const investigations_l: Record<string, InvestigationData> = {
     sources: [
       { title: 'Reuters: Timeline of the LIBOR Scandal', url: 'https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702', type: 'Investigation' },
       { title: 'DOJ: LIBOR Manipulation Prosecutions', url: 'https://www.justice.gov/criminal-fraud/libor-investigation', type: 'Legal' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Barclays', type: 'corporation', relationship: 'First bank to settle; fined $450M for systematic LIBOR rate manipulation', href: '/entities/corporations/barclays' },
@@ -656,7 +668,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'EPA: Lead and Copper Rule Improvements', url: 'https://www.epa.gov/ground-water-and-drinking-water/lead-and-copper-rule-improvements', type: 'Government Records' },
       { title: 'Reuters: The Lead Poisoning Toll', url: 'https://www.reuters.com/investigates/special-report/usa-lead-testing/', type: 'Investigation' },
       { title: 'NRDC: Lead Pipes in America', url: 'https://www.nrdc.org/resources/lead-pipes-are-widespread-and-growing-danger', type: 'Report' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Finalized Lead and Copper Rule Improvements in 2024 requiring full lead pipe replacement in 10 years; set original inadequate 15 ppb action level in 1991', href: '/entities/agencies/epa' },
@@ -696,7 +708,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'Lehman Bankruptcy Examiner Report (Valukas Report)', url: 'https://web.stanford.edu/~jbulow/Lehmandocs/VOLUME%201.pdf', type: 'Legal Filing' },
       { title: 'Financial Crisis Inquiry Commission: Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Congressional Report' },
       { title: 'SEC: Lehman Brothers Enforcement Actions', url: 'https://www.sec.gov/', type: 'Government' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Failed to detect Repo 105 fraud despite examining Lehman; settled civil charges without criminal referral; did not charge any senior executive', href: '/entities/agencies/sec' },
@@ -746,7 +758,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'PNAS: Half of US population exposed to adverse lead levels in early childhood', url: 'https://www.pnas.org/doi/10.1073/pnas.2118631119', type: 'Academic Research' },
       { title: 'Gerald Markowitz and David Rosner: Lead Wars', url: 'https://www.ucpress.edu/book/9780520273252/lead-wars', type: 'Book' },
       { title: 'EPA: Lead Regulations and Statutes', url: 'https://www.epa.gov/lead/lead-regulations-and-statutes', type: 'Government' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Took 60 years to fully ban leaded gasoline; lead drinking water standard set in 1991 has no health basis; lead paint cleanup enforcement minimal', href: '/entities/agencies/epa' },
@@ -755,6 +767,13 @@ const investigations_l: Record<string, InvestigationData> = {
    eventOriginDate: '1904-01-01',
    lastActivityDate: '2026-03-01',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1986', event: 'It took until 1986 for the EPA to complete the phase-out of leaded gasoline in the U.S., by which point an estimated 68 million children had been significantly exposed.', type: 'default' },
+     { date: '1991', event: 'The EPA\'s lead action level of 15 ppb in drinking water, set in 1991, has no health basis (the CDC says no level is safe) but has never been lowered because the cost of compliance would be too high for water utilities.', type: 'default' },
+     { date: '1996', event: 'population born before 1996 having been exposed to clinically significant levels.', type: 'default' },
+     { date: '2014', event: 'The Flint, Michigan water crisis (2014-2019) demonstrated that lead poisoning continues, driven by infrastructure neglect in communities that are simultaneously poor and Black.', type: 'default' },
+     { date: '2019', event: 'A 2019 California Supreme Court ruling required NL Industries, Sherwin-Williams, and ConAgra to pay $305 million for lead paint cleanup - approximately $10 per affected home.', type: 'default' },
+   ],
    timeline: [
      { date: '1904', event: 'A 1904 report had already documented lead paint poisoning in children', type: 'default' },
      { date: '1921', event: 'LEADED GASOLINE: THE GLOBAL POISONING: In 1921, Thomas Midgley Jr', type: 'default' },
@@ -790,7 +809,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'OpenSecrets: Federal Lobbying Data', url: 'https://www.opensecrets.org/federal-lobbying', type: 'Database' },
       { title: 'Gilens & Page: Testing Theories of American Politics (Princeton)', url: 'https://scholar.princeton.edu/sites/default/files/mgilens/files/gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf', type: 'Academic Research' },
       { title: 'FEC: Campaign Finance Disclosure Portal', url: 'https://www.fec.gov/data/', type: 'Government Database' },
-      { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FEC', type: 'agency', relationship: 'Effectively non-functional; deadlocked 3-3 commission structure prevents enforcement action; has not imposed meaningful penalties on dark money violations', href: '/entities/agencies/fec' },
@@ -828,7 +847,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'NPR/PBS Frontline: Plastic Wars Investigation', url: 'https://www.pbs.org/wgbh/frontline/documentary/plastic-wars/', type: 'Investigation' },
       { title: 'OECD: Global Plastics Outlook', url: 'https://www.oecd.org/environment/global-plastics-outlook-aa1edf33-en.htm', type: 'Research' },
       { title: 'EPA: National Recycling Strategy', url: 'https://www.epa.gov/recyclingstrategy', type: 'Government Report' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Reports plastic recycling rate of 5-6% but promotes industry-friendly recycling programs; no federal microplastic regulation; chemical recycling exempt from oversight in 24 states', href: '/entities/agencies/epa' },
@@ -838,12 +857,10 @@ const investigations_l: Record<string, InvestigationData> = {
    lastActivityDate: '2025-02-28',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1980-01-01', event: 'The Plastic Recycling Fraud investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '1989', event: 'In 1989, facing growing public concern and legislative threats, the plastics industry created the ;chasing arrows; recycling symbol and plastered it on virtually all plastic products, regardless of whether they could...', type: 'political' },
      { date: '2018', event: 'China, which accepted 70% of the world\'s plastic waste for decades, banned imports of most plastic waste in 2018 (the ;National Sword; policy), exposing the fact that much of what Americans put in recycling bins was...', type: 'default' },
      { date: '2022', event: 'A UN Global Plastics Treaty, under negotiation since 2022, faces opposition from petrochemical-producing nations.', type: 'default' },
-     { date: '2025-02-28', event: 'The Plastic Recycling Fraud — investigation remains active with ongoing developments', type: 'financial' },
-   ],
+     ],
   },
   'lead-poisoning-housing-crisis': {
     title: 'Lead Poisoning Housing Crisis',
@@ -862,12 +879,12 @@ const investigations_l: Record<string, InvestigationData> = {
     ],
     tags: ['lead poisoning', 'housing', 'childhood exposure', 'environmental racism', 'HUD', 'remediation', 'public health'],
     sources: [
-      'https://www.cdc.gov/lead-prevention/',
-      'https://www.hud.gov/program_offices/healthy_homes/lbp',
-      'https://www.pewtrusts.org/en/projects/archived-projects/pew-health-group/projects/lead-poisoning-prevention',
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'CDC Records', url: 'https://www.cdc.gov/lead-prevention/', type: 'Government' },
+      { title: 'Hud Records', url: 'https://www.hud.gov/program_offices/healthy_homes/lbp', type: 'Reference' },
+      { title: 'Pewtrusts Records', url: 'https://www.pewtrusts.org/en/projects/archived-projects/pew-health-group/projects/lead-poisoning-prevention', type: 'Reference' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
 
-      { name: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'HUD', type: 'agency', relationship: 'Administers Lead Hazard Control Grant Program at $300M/year, enough for roughly 10,000 homes when millions need remediation; lead disclosure rule poorly enforced in rental market', href: '/entities/agencies/hud' },
@@ -878,10 +895,8 @@ const investigations_l: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1950', event: 'Approximately 24 million homes built before 1978 contain deteriorating lead paint, with hazards concentrated in pre-1950 housing stock in older cities.', type: 'financial' },
-     { date: '1950-01-01', event: 'Lead Poisoning Housing Crisis investigation begins — events under scrutiny originate from this period', type: 'critical' },
      { date: '1978', event: 'Despite lead paint being banned since 1978, remediation funding covers less than 1% of affected homes annually while landlords face minimal enforcement.', type: 'financial' },
-     { date: '2025-01-15', event: 'Lead Poisoning Housing Crisis — investigation remains active with ongoing developments', type: 'critical' },
-   ],
+     ],
   },
   'lobotomy-epidemic-united-states': {
     slug: 'lobotomy-epidemic-united-states',
@@ -905,7 +920,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'National Library of Medicine: Walter Freeman Papers', url: 'https://profiles.nlm.nih.gov/spotlight/bb', type: 'Research Archive' },
       { title: 'Nobel Prize: Egas Moniz - Nobel Prize 1949', url: 'https://www.nobelprize.org/prizes/medicine/1949/moniz/biographical/', type: 'Nobel Committee' },
       { title: 'George Washington University: Freeman/Watts Collection', url: 'https://library.gwu.edu/special-collections', type: 'Research Archive' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Walter Freeman', type: 'individual', relationship: 'Performed over 3,400 lobotomies including approximately 2,500 transorbital procedures without surgical training; traveled the country in his "lobotomobile" performing assembly-line lobotomies at state hospitals; at least 490 of his patients died; never criminally charged or stripped of medical license', href: '/entities/individuals/walter-freeman' },

@@ -105,8 +105,8 @@ export default function InvestigationPage() {
                 </h2>
                 <div className="space-y-3">
                   {investigation.moneyTrail.map((item, idx) => (
-                    <div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)]">
-                      <div className="flex justify-between items-start mb-2">
+                    <div key={idx} className="p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] min-w-0">
+                      <div className="flex flex-wrap justify-between items-start gap-1 mb-2">
                         <span className="font-mono text-zinc-400 text-xs">{item.date}</span>
                         <span className="text-zinc-300 font-bold text-sm">{item.amount}</span>
                       </div>

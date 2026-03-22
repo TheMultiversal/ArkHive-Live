@@ -22,7 +22,7 @@ const investigations_9: Record<string, InvestigationData> = {
    { title: 'American Immigration Council: The Cost of Immigration Enforcement', url: 'https://www.americanimmigrationcouncil.org/', type: 'Research' },
    { title: 'DHS Inspector General: Immigration Detention Facility Inspections', url: 'https://www.oig.dhs.gov/', type: 'Government Report' },
    { title: 'Missing Migrants Project (IOM): Deaths at the U.S.-Mexico Border', url: 'https://missingmigrants.iom.int/', type: 'International Organization' },
-    { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
   ],
   affiliations: [
    { id: '1', name: 'CBP', type: 'agency', relationship: 'Largest federal law enforcement agency with $19B budget; implemented "Prevention Through Deterrence" strategy; 21,000+ Border Patrol agents', href: '/entities/agencies/cbp' },

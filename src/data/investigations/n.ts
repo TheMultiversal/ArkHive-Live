@@ -27,7 +27,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'Trump Shithole Comments', url: 'https://www.washingtonpost.com/politics/trump-attacks-protections-for-immigrants-from-shithole-countries-in-oval-office-meeting/2018/01/11/bfc0725c-f711-11e7-91af-31ac729add94_story.html', type: 'News Report' },
  { title: 'IMF Structural Adjustment Analysis', url: 'https://www.imf.org/external/np/exr/facts/prsp.htm', type: 'Research' },
  { title: 'TPS Termination for Haiti', url: 'https://www.dhs.gov/news/2017/11/20/acting-secretary-elaine-duke-announcement-temporary-protected-status-haiti', type: 'Government' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Shithole comments, TPS termination', href: '/entities/individuals/donald-trump' },
@@ -41,9 +41,7 @@ const investigations_n: Record<string, InvestigationData> = {
    timeline: [
      { date: '2018', event: 'SHITHOLE COUNTRIES: In January 2018, Trump asked why the US would accept immigrants from ;shithole countries ;referring to Haiti, El Salvador, and African nations, expressing preference for Norwegian immigrants.', type: 'default' },
      { date: '2018-01', event: 'SHITHOLE COUNTRIES: In January 2018, Trump asked why the US would accept immigrants from ;shithole countries ;referring to Haiti, El Salvador, and African nations, expressing preference for Norwegian immigrants.', type: 'default' },
-     { date: '2018-01-01', event: 'Neo-Colonial Exploitation Patterns investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2022-10-13', event: 'Neo-Colonial Exploitation Patterns — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'nra-russia': {
  title: 'NRA Russia Investigation',
@@ -65,7 +63,7 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'Senate Finance Committee Investigation', url: 'https://www.finance.senate.gov/ranking-members-news/wyden-launches-investigation-of-nra-links-to-russia', type: 'Investigation' },
       { title: 'DOJ FARA Registration Database', url: 'https://www.justice.gov/nsd-fara', type: 'Government' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Maria Butina', type: 'individual', relationship: 'Russian agent who infiltrated NRA', href: '/entities/individuals/maria-butina' },
@@ -153,7 +151,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'NY AG NRA Lawsuit', url: 'https://ag.ny.gov/press-release/2020/attorney-general-james-files-lawsuit-dissolve-nra', type: 'Court Filing' },
  { title: 'Senate NRA-Russia Report', url: 'https://www.finance.senate.gov/imo/media/doc/The%20NRA%20&%20Russia%20-%20How%20a%20Tax-Exempt%20Organization%20Became%20a%20Foreign%20Asset.pdf', type: 'Congressional Report' },
  { title: 'Butina Plea Agreement', url: 'https://www.justice.gov/opa/pr/russian-national-charged-conspiracy-act-agent-russian-federation-within-united-states', type: 'Court Document' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Wayne LaPierre', type: 'individual', relationship: 'CEO, found liable for corruption', href: '/entities/individuals/wayne-lapierre' },
@@ -168,11 +166,9 @@ const investigations_n: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2012', event: 'The NRA spent $30 million supporting Trump in 2016, triple its 2012 spending.', type: 'financial' },
-     { date: '2012-01-01', event: 'NRA Corruption & Russian Infiltration investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2016', event: 'The NRA spent $30 million supporting Trump in 2016, triple its 2012 spending.', type: 'financial' },
      { date: '2024', event: 'In 2024, a New York jury found LaPierre liable for diverting NRA funds.', type: 'financial' },
-     { date: '2024-01-01', event: 'NRA Corruption & Russian Infiltration — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'neocon-network': {
  title: 'Neoconservative Network',
@@ -200,7 +196,7 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'PNAC Statement of Principles', url: 'https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm', type: 'Primary Document' },
  { title: 'PNAC Letter to Clinton on Iraq (1998)', url: 'https://web.archive.org/web/20050205045044/http://www.newamericancentury.org/iraqclintonletter.htm', type: 'Primary Document' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Dick Cheney', type: 'individual', relationship: 'PNAC signatory, VP', href: '/entities/individuals/dick-cheney' },
@@ -216,11 +212,9 @@ const investigations_n: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1997', event: 'Founded in 1997, PNAC\'s founding statement called for ;American global leadership ;through military strength.', type: 'default' },
-     { date: '1997-01-01', event: 'Neoconservative Network investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1998', event: 'In January 1998, PNAC wrote President Clinton urging; removing Saddam Hussein and his regime from power.;They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
      { date: '1998-01', event: 'In January 1998, PNAC wrote President Clinton urging; removing Saddam Hussein and his regime from power.;They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
-     { date: '2025-07-10', event: 'Neoconservative Network — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'nih-wuhan': {
  title: 'NIH Funding to Wuhan Institute of Virology',
@@ -247,7 +241,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'NIH Letter Acknowledging EcoHealth Research', url: 'https://republicans-oversight.house.gov/wp-content/uploads/2021/10/NIH-Document.pdf', type: 'Government Document' },
  { title: 'House Select Subcommittee Investigation', url: 'https://www.congress.gov/118/crpt/hrpt682/CRPT-118hrpt682.pdf', type: 'Congressional Report' },
  { title: 'EcoHealth Alliance Grant Details', url: 'https://reporter.nih.gov/search/nLNMBSGSn0GHOhIwLCVCeQ/project-details/9819304', type: 'Grant Database' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'NIH', type: 'agency', relationship: 'Funded WIV research through EcoHealth', href: '/entities/agencies/nih' },
@@ -286,7 +280,7 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'WHO Breast-milk Substitute Code', url: 'http://web.archive.org/web/20210703052254/https://www.who.int/nutrition/netcode/resolutions/en/', type: 'International Code' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Legal' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Nestlé', type: 'corporation', relationship: 'Primary offender', href: '/entities/corporations/nestle' },
@@ -298,12 +292,10 @@ const investigations_n: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1977', event: 'In 1977, a global boycott began after publication of ;The Baby Killer.;It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
-     { date: '1977-01-01', event: 'Nestlé Baby Formula Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1981', event: 'In 1981, the World Health Assembly adopted the International Code of Marketing of Breast-milk Substitutes.', type: 'default' },
      { date: '1984', event: 'In 1977, a global boycott began after publication of ;The Baby Killer.;It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
      { date: '1988', event: 'In 1977, a global boycott began after publication of ;The Baby Killer.;It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
-     { date: '2025-05-26', event: 'Nestlé Baby Formula Scandal — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'nbc-misconduct': {
  title: 'NBC\'s Pattern of Institutional Misconduct',
@@ -325,7 +317,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
  { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'World Bank', type: 'organization', relationship: 'Structural adjustment programs', href: '/entities/organizations/world-bank' },
@@ -367,7 +359,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'Center for Biological Diversity', url: 'https://www.biologicaldiversity.org/campaigns/', type: 'Report' },
  { title: 'UN OHCHR Country Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'Human Rights Watch World Report', url: 'https://www.hrw.org/world-report', type: 'Report' },
-   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Child labor, water privatization, baby formula deaths', href: '/entities/corporations/nestle' },
@@ -417,7 +409,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
  { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Rupert Murdoch', type: 'individual', relationship: 'Owner of News Corp empire', href: '/entities/individuals/rupert-murdoch' },
@@ -429,12 +421,10 @@ const investigations_n: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2000', event: 'The News of the World, Britain\'s best-selling Sunday newspaper owned by Rupert Murdoch\'s News International, employed private investigators to hack into the voicemail accounts of thousands of people between 2000 and...', type: 'default' },
-     { date: '2000-01-01', event: 'News of the World Phone Hacking Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2006', event: 'The police\'s initial investigation in 2006 was deliberately limited; only two people were charged despite evidence of widespread hacking.', type: 'default' },
      { date: '2011', event: 'The News of the World, Britain\'s best-selling Sunday newspaper owned by Rupert Murdoch\'s News International, employed private investigators to hack into the voicemail accounts of thousands of people between 2000 and...', type: 'default' },
      { date: '2011-07', event: 'The scandal erupted in July 2011 when the Guardian newspaper reported that News of the World journalists had hacked the phone of Milly Dowler, a 13-year-old murder victim, while she was still missing.', type: 'default' },
-     { date: '2022-11-30', event: 'News of the World Phone Hacking Scandal — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'nxivm-cult': {
  title: 'NXIVM: The Sex Cult Disguised as a Self-Help Organization',
@@ -462,7 +452,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org/en/statistics', type: 'Report' },
  { title: 'DOJ Human Trafficking Prosecution Unit', url: 'https://www.justice.gov/criminal/criminal-ceos/human-trafficking-prosecution-unit-htpu', type: 'Government' },
  { title: 'Polaris Project Reports', url: 'https://polarisproject.org/resources/', type: 'Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Keith Raniere', type: 'individual', relationship: 'NXIVM cult leader, convicted of sex trafficking', href: '/entities/individuals/keith-raniere' },
@@ -473,11 +463,9 @@ const investigations_n: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1998', event: 'NXIVM (pronounced ;Nexium;) was founded by Keith Raniere in 1998 as Executive Success Programs, offering self-improvement courses using a methodology called ;Rational Inquiry.; The organization attracted wealthy and...', type: 'default' },
-     { date: '1998-01-01', event: 'NXIVM: The Sex Cult Disguised as a Self-Help Organization investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2018-03', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' },
      { date: '2019-06', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' },
-     { date: '2025-12-26', event: 'NXIVM: The Sex Cult Disguised as a Self-Help Organization — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'nypd-chokehold': {
  title: 'NYPD Chokehold Deaths: Banned in Policy, Used in Practice',
@@ -578,7 +566,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'EFF: AT&T Room 641A Documents', url: 'https://www.eff.org/nsa-spying/timeline', type: 'Legal Document' },
       { title: 'New York Times: Bush Lets U.S. Spy on Callers Without Courts', url: 'https://www.nytimes.com/2005/12/16/politics/bush-lets-us-spy-on-callers-without-courts.html', type: 'Investigative Report' },
       { title: 'ACLU: FISA Amendments Act Litigation', url: 'https://www.aclu.org', type: 'Legal Document' },
-      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Operated STELLARWIND warrantless surveillance program from 2001; intercepted millions of Americans\' communications without warrants', href: '/entities/agencies/nsa' },
@@ -621,7 +609,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'DOL: Energy Employees Occupational Illness Compensation Program', url: 'https://www.dol.gov/agencies/owcp/energy', type: 'Government Record' },
       { title: 'Hanford Challenge: Independent Oversight', url: 'https://www.hanfordchallenge.org', type: 'Investigative Report' },
       { title: 'Kristen Iversen: Full Body Burden (Rocky Flats)', url: 'https://www.kristeniversen.com/full-body-burden', type: 'Book' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Manages nuclear weapons complex cleanup across 107 sites; $400B+ estimated liability; operated facilities under national security secrecy', href: '/entities/agencies/doe' },
@@ -664,7 +652,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'DOJ: United States v. Google LLC Antitrust', url: 'https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc-2020', type: 'Legal Document' },
       { title: 'Wall Street Journal: YouTube Algorithm Investigation', url: 'https://www.wsj.com', type: 'Investigative Report' },
       { title: 'Google Transparency Report', url: 'https://transparencyreport.google.com', type: 'Corporate Report' },
-      { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
+      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Google', type: 'corporation', relationship: 'Controls 92% of global search; algorithms determine information access for 4.3 billion users without accountability', href: '/entities/corporations/google' },
@@ -702,7 +690,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'DEA: Drug Threat Assessment', url: 'https://www.dea.gov/drug-information/drug-data-and-documents', type: 'Government Report' },
       { title: 'FinCEN: Anti-Money Laundering Guidance for Cash-Intensive Businesses', url: 'https://www.fincen.gov', type: 'Government Record' },
       { title: 'Frank Owen: Clubland (The Fabulous Rise and Murderous Fall of Club Culture)', url: 'https://www.amazon.com/Clubland-Fabulous-Murderous-Club-Culture/dp/0767917537', type: 'Book' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigates organized crime infiltration of nightlife industry and nightclub-based drug trafficking networks', href: '/entities/agencies/fbi' },
@@ -712,11 +700,9 @@ const investigations_n: Record<string, InvestigationData> = {
    lastActivityDate: '2025-10-07',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1990-01-01', event: 'Nightclub Industry Criminal Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1996', event: 'Promoter Michael Alig murdered drug dealer Andre ;Angel; Melendez in 1996, dismembered the body, and disposed of it in the Hudson River; a crime that epitomized the era\'s nightlife excess.', type: 'default' },
      { date: '2023', event: 'The emergence of fentanyl-laced party drugs has dramatically increased the danger; a 2023 DEA report noted that counterfeit pills containing fentanyl were increasingly detected in nightclub environments, with...', type: 'default' },
-     { date: '2025-10-07', event: 'Nightclub Industry Criminal Networks — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'nuclear-waste-storage-failure-points': {
     title: 'Nuclear Waste Storage Failure Points',
@@ -739,7 +725,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'GAO: Nuclear Waste Disposal Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'Blue Ribbon Commission on America\'s Nuclear Future', url: 'https://www.energy.gov/ne/blue-ribbon-commission-americas-nuclear-future-report', type: 'Government Report' },
       { title: 'DOE: Nuclear Waste Fund Annual Report', url: 'https://www.energy.gov/em', type: 'Government Record' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Responsible for nuclear waste disposal; failed to meet 1998 deadline; abandoned Yucca Mountain after $40B+ spent', href: '/entities/agencies/doe' },
@@ -785,7 +771,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Memorial Hall of the Victims in Nanjing Massacre', url: 'http://www.nj1937.org/en/', type: 'memorial' },
       { title: 'Yale Divinity School Library - Nanjing Massacre Documents', url: 'https://divinity-adhoc.library.yale.edu/NanjingMassacre/', type: 'archive' },
       { title: 'International Military Tribunal for the Far East - Judgment', url: 'https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf', type: 'legal' },
-      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Iwane Matsui', type: 'individual', relationship: 'Commander of Central China Area Army; convicted of war crimes by Tokyo Tribunal; executed 1948', href: '/individuals/iwane-matsui' },
@@ -828,7 +814,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Committee for Human Rights in North Korea - The Hidden Gulag', url: 'https://www.hrnk.org/publications/', type: 'report' },
       { title: 'Shin Dong-hyuk Testimony - Escape from Camp 14', url: 'https://www.penguinrandomhouse.com/books/211895/escape-from-camp-14-by-blaine-harden/', type: 'book' },
       { title: 'Amnesty International - Images Reveal Scale of North Korean Political Prison Camps', url: 'https://www.amnesty.org/en/latest/news/2013/12/north-korea-new-images-show-scale-blighted-political-prison-camps/', type: 'report' },
-      { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Kim Jong-un', type: 'individual', relationship: 'Supreme Leader who maintains and oversees the prison camp system; personally named by UN Commission for accountability', href: '/individuals/kim-jong-un' },
@@ -864,7 +850,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Advisory Committee on Human Radiation Experiments (ACHRE) Report', url: 'https://bioethicsarchive.georgetown.edu/achre/final/report.html', type: 'Government Report' },
       { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report', type: 'Government Report' },
       { title: 'Eileen Welsome: The Plutonium Files', url: 'https://www.penguinrandomhouse.com/books/332009/the-plutonium-files-by-eileen-welsome/', type: 'Book' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Conducted nuclear tests exposing 400,000 service members; funded radiation experiments on civilians; classified exposure data', href: '/entities/agencies/dod' },
@@ -906,7 +892,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Privacy and Civil Liberties Oversight Board: Report on Section 702', url: 'https://www.pclob.gov/library/702-Report-2.pdf', type: 'Government Report' },
       { title: 'The Snowden Archive (curated by Canadian Journalists for Free Expression)', url: 'https://snowdenarchive.cjfe.org/', type: 'Document Archive' },
       { title: 'FISA Court Declassified Opinions', url: 'https://www.fisc.uscourts.gov/public-filings', type: 'Court Documents' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Conducted mass warrantless surveillance of American communications under Stellar Wind, PRISM, and Upstream Collection programs', href: '/entities/agencies/nsa' },
@@ -948,7 +934,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'PNAS: Does Private Equity Investment in Healthcare Benefit Patients?', url: 'https://www.pnas.org/doi/10.1073/pnas.2018017118', type: 'Research' },
       { title: 'GAO: COVID-19 in Nursing Homes', url: 'https://www.gao.gov/products/gao-21-191', type: 'Government Audit' },
       { title: 'CMS: Minimum Staffing Standards for Long-Term Care Facilities', url: 'https://www.cms.gov/newsroom/fact-sheets/medicare-and-medicaid-programs-minimum-staffing-standards-long-term-care-facilities', type: 'Government' },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Oversees Medicare/Medicaid certification; inadequate inspection and enforcement; proposed minimum staffing rule in 2024', href: '/entities/agencies/cms' },
@@ -987,7 +973,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Desert Sun: Nestle Bottling Water in Drought-Stricken California on Expired Permit', url: 'https://www.desertsun.com/story/news/2015/03/05/bottling-water-california-drought/24505431/', type: 'Investigation' },
       { title: 'Michigan DEQ: Nestle Water Extraction Permit Decision', url: 'https://www.michigan.gov/egle/', type: 'Government' },
       { title: 'Story of Stuff: The Story of Bottled Water', url: 'https://www.storyofstuff.org/movies/story-of-bottled-water/', type: 'Report' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'USDA', type: 'agency', relationship: 'U.S. Forest Service allowed Nestle to extract water on 27-year-expired permit from San Bernardino National Forest during historic drought', href: '/entities/agencies/usda' },
@@ -1025,7 +1011,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report', type: 'Government Research' },
       { title: 'DOE OpenNet: Declassified Nuclear Testing Documents', url: 'https://www.osti.gov/opennet/', type: 'Government Archive' },
       { title: 'RECA: Radiation Exposure Compensation Act Trust Fund', url: 'https://www.justice.gov/civil/common/reca', type: 'Government Program' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Successor to AEC that conducted tests; manages nuclear legacy cleanup; RECA trust fund administered through DOJ', href: '/entities/agencies/doe' },
@@ -1065,7 +1051,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'The Guardian: NSA Files Decoded (Snowden Documents)', url: 'https://www.theguardian.com/us-news/the-nsa-files', type: 'Investigation' },
       { title: 'ODNI: Annual Statistical Transparency Report (Section 702)', url: 'https://www.intel.gov/ic-on-the-record/annual-statistical-transparency-report', type: 'Government Report' },
       { title: 'Privacy and Civil Liberties Oversight Board: Report on Section 702', url: 'https://www.pclob.gov/', type: 'Government Report' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Operates the largest surveillance apparatus in history; bulk collection programs exceeded statutory authority; minimization procedures inadequate to protect Americans\' rights', href: '/entities/agencies/nsa' },
@@ -1102,7 +1088,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'CMS: Nursing Home Compare Database', url: 'https://www.medicare.gov/care-compare/', type: 'Government Database' },
       { title: 'NBER: Does Private Equity Investment in Healthcare Benefit Patients? Evidence from Nursing Homes', url: 'https://www.nber.org/papers/w28474', type: 'Academic Research' },
       { title: 'GAO: CMS Needs to Do More to Ensure Nursing Home Quality', url: 'https://www.gao.gov/products/gao-23-104813', type: 'Government Report' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Regulates 15,000 nursing homes through survey and certification but enforcement actions are rare; 80% of homes cited for deficiencies with only 2% fined', href: '/entities/agencies/cms' },
@@ -1139,7 +1125,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'GAO: Nuclear Waste Management', url: 'https://www.gao.gov/', type: 'Government Report' },
       { title: 'NRC: Spent Fuel Storage', url: 'https://www.nrc.gov/waste/spent-fuel-storage.html', type: 'Government Report' },
       { title: 'DOE: Nuclear Waste Fund Financial Statements', url: 'https://www.energy.gov/', type: 'Government Report' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'NRC', type: 'agency', relationship: 'Continues to license reactors and dry cask storage without a permanent waste solution; approved Holtec interim facility over state objections; Yucca Mountain license review suspended', href: '/entities/agencies/nrc' },

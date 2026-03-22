@@ -31,7 +31,7 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'Human Rights Campaign - Anti-Trans Legislation', url: 'https://www.hrc.org/resources/attacks-on-gender-affirming-care-by-state-map', type: 'Report' },
  { title: 'ACLU Transgender Rights', url: 'https://www.aclu.org/issues/lgbtq-rights/transgender-rights', type: 'Report' },
  { title: 'Williams Institute Research', url: 'https://williamsinstitute.law.ucla.edu/', type: 'Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Oath Keepers', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/oath-keepers' },
@@ -40,6 +40,23 @@ const investigations_o: Record<string, InvestigationData> = {
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-03-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1992', event: 'McVeigh, a Gulf War veteran, was motivated by far-right anti-government ideology and specifically by anger over the federal government\'s handling of the 1992 Ruby Ridge standoff and the 1993 Waco siege.', type: 'default' },
+     { date: '1995-04-19', event: 'on April 19, 1995, Timothy McVeigh detonated a truck bomb containing approximately 4,800 pounds of ammonium nitrate fertilizer and fuel oil outside the Alfred P.', type: 'default' },
+     { date: '1996', event: 'The bombing led to the Antiterrorism and Effective Death Penalty Act of 1996, which expanded federal law enforcement powers and restricted habeas corpus appeals.', type: 'default' },
+     { date: '2001-06-11', event: 'He was tried, convicted, and executed by lethal injection on June 11, 2001; the first federal execution in 38 years.', type: 'default' },
+     { date: '2021-01-06', event: 'Resources and political focus shifted overwhelmingly to international Islamic terrorism after 9/11, despite FBI assessments that domestic extremism remained a significant and growing threat; a blind spot that persisted through the January 6, 2021 Capitol attack.', type: 'default' },
+   ],
+   timeline: [
+     { date: '1978', event: 'Richard Strauss served as team physician for at least 16 varsity sports at Ohio State from 1978 to 1998.', type: 'default' },
+     { date: '1986', event: 'JIM JORDAN ALLEGATIONS: Republican Congressman Jim Jordan served as assistant wrestling coach at Ohio State from 1986 to 1994.', type: 'default' },
+     { date: '1998', event: 'He retired from Ohio State in 1998 and was never disciplined.', type: 'default' },
+     { date: '2019-05', event: 'The 232-page report, released in May 2019, concluded that university officials had knowledge of complaints about Strauss as early as 1979 and failed to investigate adequately or take appropriate corrective action.', type: 'default' },
+   ],
+   timeline: [
+     { date: '1962', event: 'The prevalence of obesity among American adults has risen from 13% in 1962 to 42% in 2023.', type: 'default' },
+     { date: '2011', event: 'The industry has defeated or weakened every major attempt to regulate food marketing to children, including voluntary guidelines proposed by four federal agencies in 2011 that were abandoned after industry lobbying.', type: 'default' },
+   ],
    timeline: [
      { date: '2009', event: 'The Oath Keepers was founded in 2009 by Stewart Rhodes, a Yale Law School graduate and former Army paratrooper, as an organization for current and former military, police, and first responders who ...', type: 'political' },
      { date: '2021-01-06', event: 'On January 6, 2021, Oath Keepers members formed a military-style "stack" formation and breached the Capitol building', type: 'default' },
@@ -77,6 +94,11 @@ const investigations_o: Record<string, InvestigationData> = {
    eventOriginDate: '1962-01-01',
    lastActivityDate: '2026-02-13',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1962', event: 'The prevalence of obesity among American adults has risen from 13% in 1962 to 42% in 2023.', type: 'default' },
+     { date: '1995', event: 'Between 1995 and 2020, the U.S.', type: 'default' },
+     { date: '2011', event: 'The industry has defeated or weakened every major attempt to regulate food marketing to children, including voluntary guidelines proposed by four federal agencies in 2011 that were abandoned after industry lobbying.', type: 'default' },
+   ],
  },  'ohio-state-abuse': {
  title: 'Ohio State University Abuse',
  subtitle: 'Dr. Richard Strauss sexually abused at least 177 students over two decades with institutional cover-up',
@@ -103,7 +125,7 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'DOJ Review of Strauss Allegations', url: 'https://www.nytimes.com/2019/05/17/us/ohio-state-sexual-abuse.html', type: 'News Report' },
  { title: 'Ohio State Strauss Settlement', url: 'https://www.dispatch.com/story/news/courts/2023/03/06/ohio-state-strauss-abuse-settlement/69967291007/', type: 'News Report' },
  { title: 'Congressional Inquiry into Jim Jordan', url: 'https://www.cnn.com/2020/03/06/politics/jim-jordan-ohio-state/index.html', type: 'News Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Ohio State', type: 'corporation', relationship: 'Employed Strauss for 20 years despite complaints', href: '/entities/corporations/ohio-state' },
@@ -112,6 +134,13 @@ const investigations_o: Record<string, InvestigationData> = {
    eventOriginDate: '2022-08-07',
    lastActivityDate: '2025-07-16',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1978', event: 'Richard Strauss served as team physician for at least 16 varsity sports at Ohio State from 1978 to 1998.', type: 'default' },
+     { date: '1986', event: 'JIM JORDAN ALLEGATIONS: Republican Congressman Jim Jordan served as assistant wrestling coach at Ohio State from 1986 to 1994.', type: 'default' },
+     { date: '1998', event: 'He retired from Ohio State in 1998 and was never disciplined.', type: 'default' },
+     { date: '2005', event: 'Strauss died by suicide in 2005.', type: 'default' },
+     { date: '2019', event: 'The 232-page report, released in May 2019, concluded that university officials had knowledge of complaints about Strauss as early as 1979 and failed to investigate adequately or take appropriate corrective action.', type: 'default' },
+   ],
    timeline: [
      { date: '1962', event: 'The prevalence of obesity among American adults has risen from 13% in 1962 to 42% in 2023', type: 'default' },
      { date: '1978', event: 'Richard Strauss served as team physician for at least 16 varsity sports at Ohio State from 1978 to 1998', type: 'default' },
@@ -148,7 +177,7 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
  { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
       { id: '1', name: 'Oath Keepers', type: 'organization', relationship: 'Anti-government militia', href: '/entities/organizations/oath-keepers' },
@@ -192,7 +221,7 @@ const investigations_o: Record<string, InvestigationData> = {
  { title: 'McKesson DEA Settlement', url: 'https://www.justice.gov/opa/pr/mckesson-agrees-pay-record-150-million-settlement-failure-report-suspicious-orders', type: 'Court Filing' },
  { title: 'National Opioid Settlement', url: 'https://nationalopioidsettlement.com/', type: 'Settlement Document' },
  { title: 'Washington Post/60 Minutes: DEA Enforcement Investigation', url: 'https://www.washingtonpost.com/investigations/the-drug-industry-s-triumph-over-the-dea/2017/10/15/352aa7fc-ae3e-11e7-a908-a3470754bbb9_story.html', type: 'Investigation' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'McKesson', type: 'corporation', relationship: 'Largest distributor; paid $150M penalty, $7.9B settlement', href: '/entities/corporations/mckesson' },
@@ -236,7 +265,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Tax Justice Network Financial Secrecy Index', url: 'https://taxjustice.net/fsi/', type: 'Policy Research' },
       { title: 'ICIJ Pandora Papers', url: 'https://www.icij.org/investigations/pandora-papers/', type: 'Investigative Report' },
       { title: 'Senate Finance Committee Tax Haven Hearings', url: 'https://www.finance.senate.gov/', type: 'Congressional Record' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Chronically underfunded enforcement; lost 600+ agents 2010-2021; unable to pursue complex offshore cases', href: '/entities/agencies/irs' },
@@ -247,11 +276,9 @@ const investigations_o: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2010', event: 'The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021.', type: 'default' },
-     { date: '2010-01-01', event: 'Offshore Tax Haven Architecture: The Global System Hiding $36 Trillion investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2016-04', event: 'In April 2016, the International Consortium of Investigative Journalists published the Panama Papers; 11.5 million documents leaked from Mossack Fonseca, a Panamanian law firm that had created more than 214,000 shell...', type: 'financial' },
      { date: '2021', event: 'The IRS Criminal Investigation division has been chronically underfunded; its enforcement staff fell from 2,200 agents in 2010 to under 1,600 by 2021.', type: 'default' },
-     { date: '2022-03-24', event: 'Offshore Tax Haven Architecture: The Global System Hiding $36 Trillion — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'organized-crime-in-construction-industry': {
     title: 'Organized Crime in Construction: The Mob\'s Multi-Billion Dollar Industry',
@@ -274,7 +301,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'NYC Department of Investigation Reports', url: 'https://www1.nyc.gov/site/doi/', type: 'Government Audit' },
       { title: 'New York State Organized Crime Task Force', url: 'https://ag.ny.gov/', type: 'Government Report' },
       { title: 'Selwyn Raab: Five Families', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Led RICO investigations against Mafia construction rackets; Commission trial convicted all five family bosses', href: '/entities/agencies/fbi' },
@@ -311,7 +338,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'CIA Family Jewels Documents', url: 'https://www.cia.gov/readingroom/collection/family-jewels', type: 'Declassified Document' },
       { title: 'National Security Archive: Operation CHAOS', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
       { title: 'Seymour Hersh NYT Investigation (1974)', url: 'https://www.nytimes.com/', type: 'Investigative Report' },
-      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated CHAOS in violation of its charter; compiled files on 300,000+ Americans; infiltrated domestic movements', href: '/entities/agencies/cia' },
@@ -351,7 +378,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Carl Bernstein: The CIA and the Media (Rolling Stone 1977)', url: 'https://www.rollingstone.com/', type: 'Investigative Report' },
       { title: 'National Security Archive: CIA and the Media', url: 'https://nsarchive.gwu.edu/', type: 'Archive' },
       { title: 'CIA FOIA Reading Room', url: 'https://www.cia.gov/readingroom/', type: 'Declassified Document' },
-      { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
+      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated Mockingbird; recruited 400+ journalists; infiltrated major news organizations for propaganda purposes', href: '/entities/agencies/cia' },
@@ -398,12 +425,10 @@ const investigations_o: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1962', event: 'Operation Northwoods was a 1962 Department of Defense plan proposing false flag terrorist operations against American civilians and military targets to create a pretext for invading Cuba.', type: 'default' },
-     { date: '1962-01-01', event: 'Operation Northwoods: When the Pentagon Proposed Terror Against Americans investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1962-03-13', event: 'On March 13, 1962, the Joint Chiefs of Staff presented to Secretary of Defense Robert McNamara a top-secret memorandum titled ;Justification for US Military Intervention in Cuba.; The document, signed by Chairman of...', type: 'default' },
      { date: '1997', event: 'The documents were declassified in 1997.', type: 'default' },
      { date: '2001', event: 'Investigative journalist James Bamford brought widespread attention to them in his 2001 book ;Body of Secrets.; The documents\'s significance lies not in what was ultimately done; Kennedy rejected the plan; but in...', type: 'default' },
-     { date: '2025-10-31', event: 'Operation Northwoods: When the Pentagon Proposed Terror Against Americans — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'operation-paperclip-nazi-scientist-import': {
     title: 'Operation Paperclip: Importing Nazi Scientists to Win the Cold War',
@@ -426,7 +451,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Linda Hunt: Secret Agenda', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' },
       { title: 'Annie Jacobsen: Operation Paperclip', url: 'https://www.littlebrown.com/', type: 'Investigative Book' },
       { title: 'DOJ Office of Special Investigations Reports', url: 'https://www.justice.gov/', type: 'Government Report' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Maintained separate Nazi recruitment through BLOODSTONE; shielded Paperclip scientists from prosecution', href: '/entities/agencies/cia' },
@@ -438,13 +463,11 @@ const investigations_o: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1945', event: 'Operation Paperclip (1945-1959) was a secret U.S.', type: 'default' },
-     { date: '1945-01-01', event: 'Operation Paperclip: Importing Nazi Scientists to Win the Cold War investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1946', event: 'President Truman authorized the program in September 1946 but explicitly prohibited the recruitment of anyone who had been ;a member of the Nazi Party, and more than a nominal participant in its activities, or an...', type: 'political' },
      { date: '1946-09', event: 'President Truman authorized the program in September 1946 but explicitly prohibited the recruitment of anyone who had been ;a member of the Nazi Party, and more than a nominal participant in its activities, or an...', type: 'political' },
      { date: '1979', event: 'The Office of Special Investigations, established in 1979 to identify Nazi war criminals in the United States, found and denaturalized several Paperclip scientists including Arthur Rudolph, who surrendered his...', type: 'default' },
      { date: '1984', event: 'The Office of Special Investigations, established in 1979 to identify Nazi war criminals in the United States, found and denaturalized several Paperclip scientists including Arthur Rudolph, who surrendered his...', type: 'default' },
-     { date: '2024-06-05', event: 'Operation Paperclip: Importing Nazi Scientists to Win the Cold War — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'operation-condor-latin-america-terror': {
     title: 'Operation Condor: State Terrorism Across Latin America',
@@ -543,7 +566,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'House Oversight Committee Fast and Furious Report', url: 'https://oversight.house.gov/', type: 'Congressional Record' },
       { title: 'Senate Judiciary Committee Investigation', url: 'https://www.judiciary.senate.gov/', type: 'Congressional Record' },
       { title: 'ATF Whistleblower Testimony', url: 'https://www.grassley.senate.gov/', type: 'Congressional Testimony' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'ATF', type: 'agency', relationship: 'Ran gun-walking operation allowing 2,000+ firearms to reach Mexican cartels; lost track of 1,400 weapons', href: '/entities/agencies/atf' },
@@ -624,7 +647,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Massachusetts AG Sackler Lawsuit Filings', url: 'https://www.mass.gov/news/ag-healey-files-amended-opioids-complaint', type: 'Court Record' },
       { title: 'Patrick Radden Keefe: Empire of Pain', url: 'https://www.penguinrandomhouse.com/', type: 'Investigative Book' },
       { title: 'Senate HELP Committee Opioid Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Record' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approved OxyContin with misleading "less addictive" label; revolving door with pharma industry', href: '/entities/agencies/fda' },
@@ -703,7 +726,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'UN Environment Programme Marine Litter Report', url: 'https://www.unep.org/', type: 'International Report' },
       { title: 'Science: Global Ocean Dead Zones', url: 'https://www.science.org/', type: 'Academic Research' },
       { title: 'Ocean Conservancy Annual Reports', url: 'https://oceanconservancy.org/', type: 'Policy Research' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Weakened Clean Water Act enforcement; 50% decline in enforcement actions 2006-2020', href: '/entities/agencies/epa' },
@@ -714,12 +737,10 @@ const investigations_o: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2006', event: 'In domestic waters, the EPA has weakened Clean Water Act enforcement; the number of enforcement actions declined 50% between 2006 and 2020.', type: 'default' },
-     { date: '2006-01-01', event: 'Industrial-Scale Ocean Pollution: The Systematic Destruction of Marine Ecosystems investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020', event: 'In domestic waters, the EPA has weakened Clean Water Act enforcement; the number of enforcement actions declined 50% between 2006 and 2020.', type: 'default' },
      { date: '2022', event: 'No binding international treaty addresses plastic pollution comprehensively, though negotiations began in 2022.', type: 'default' },
      { date: '2023', event: 'The Fukushima nuclear disaster released radioactive water that Japan began discharging into the Pacific in 2023.', type: 'critical' },
-     { date: '2024-01-09', event: 'Industrial-Scale Ocean Pollution: The Systematic Destruction of Marine Ecosystems — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'oil-spill-cover-up-history': {
     title: 'Oil Spill Cover-Ups: A History of Corporate Deception',
@@ -742,7 +763,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'NIEHS GuLF STUDY', url: 'https://gulfstudy.nih.gov/', type: 'Academic Research' },
       { title: 'UNEP Niger Delta Environmental Assessment', url: 'https://www.unep.org/', type: 'International Report' },
       { title: 'Congressional Research Service: Oil Spill Liability', url: 'https://crsreports.congress.gov/', type: 'Congressional Report' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Exxon Valdez spill; spent 20 years reducing $5B punitive damages to $507M; funded minimizing health studies', href: '/entities/corporations/exxonmobil' },
@@ -781,7 +802,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'The Intercept: Intelligence and Media', url: 'https://theintercept.com/', type: 'Investigative Report' },
       { title: 'Columbia Journalism Review: National Security Reporting', url: 'https://www.cjr.org/', type: 'Media Analysis' },
       { title: 'Senate Intelligence Committee Annual Reports', url: 'https://www.intelligence.senate.gov/', type: 'Congressional Record' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Historical media influence through Mockingbird; modern relationships through revolving door and strategic leaks', href: '/entities/agencies/cia' },
@@ -818,7 +839,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'FDA Off-Label Promotion Guidance', url: 'https://www.fda.gov/', type: 'Government Report' },
       { title: 'Public Citizen: Pharmaceutical Industry Criminal Fines', url: 'https://www.citizen.org/', type: 'Policy Research' },
       { title: 'ProPublica: Dollars for Docs', url: 'https://www.propublica.org/', type: 'Investigative Report' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Limited enforcement capacity; regulatory authority challenged by First Amendment arguments from pharma industry', href: '/entities/agencies/fda' },
@@ -857,7 +878,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'NYU Stern Center for Business and Human Rights', url: 'https://bhr.stern.nyu.edu/', type: 'Academic Research' },
       { title: 'Chaslot: YouTube Algorithm Study', url: 'https://algotransparency.org/', type: 'Academic Research' },
       { title: 'Senate Commerce Committee Tech Hearings', url: 'https://www.commerce.senate.gov/', type: 'Congressional Record' },
-      { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
+      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Google', type: 'corporation', relationship: 'YouTube recommendation algorithm systematically directed users toward extremist content; company delayed safety changes to protect engagement', href: '/entities/corporations/google' },
@@ -894,7 +915,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Human Trafficking Institute Federal Cases Report', url: 'https://www.traffickinginstitute.org/', type: 'Policy Research' },
       { title: 'NCMEC CyberTipline Data', url: 'https://www.missingkids.org/', type: 'Government Report' },
       { title: 'Senate Permanent Subcommittee on Investigations: Backpage', url: 'https://www.hsgac.senate.gov/', type: 'Congressional Record' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Backpage operators; enforces FOSTA-SESTA; coordinates federal anti-trafficking task forces', href: '/entities/agencies/doj' },
@@ -905,11 +926,9 @@ const investigations_o: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2018', event: 'The site was seized by the FBI in 2018; Lacey was convicted in 2023.', type: 'legal' },
-     { date: '2018-01-01', event: 'Online Platform Trafficking Facilitation: How Tech Companies Enable Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2021', event: 'A 2021 report by the Human Trafficking Institute found that Facebook was used in 59% of online sex trafficking recruitment cases involving minors.', type: 'default' },
      { date: '2023', event: 'The site was seized by the FBI in 2018; Lacey was convicted in 2023.', type: 'legal' },
-     { date: '2023-01-01', event: 'Online Platform Trafficking Facilitation: How Tech Companies Enable Exploitation — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
 
 
@@ -952,7 +971,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: "Oakland County Court Records", url: "https://www.oakgov.com/courts", type: "Court Document" },
       { title: "Oakland County Prosecutor Press Releases", url: "https://www.oakgov.com/prosecutor", type: "Government" },
       { title: "Detroit Free Press Investigation", url: "https://www.freep.com/in-depth/news/local/michigan/oakland/oxford-school-shooting/", type: "Investigation" },
-      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Federal investigation authority for mass violence incidents', href: '/entities/agencies/fbi' },
@@ -992,7 +1011,7 @@ const investigations_o: Record<string, InvestigationData> = {
     sources: [
       { title: "Congressional Record", url: "https://www.congress.gov/congressional-record", type: "Government Document" },
       { title: "Brennan Center: Congressional Oversight Analysis", url: "https://www.brennancenter.org/", type: "Research" },
-      { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Kevin McCarthy', type: 'individual', relationship: 'Admitted on Fox News that Benghazi committee was designed to damage Hillary Clinton\'s poll numbers', href: '/entities/individuals/kevin-mccarthy' },
@@ -1045,12 +1064,12 @@ const investigations_o: Record<string, InvestigationData> = {
    lastActivityDate: '2026-03-21',
    pageUpdatedDate: '2026-03-21',
    timeline: [
-     { date: '1952', event: 'Operatives attended meetings, reported on activities, and identified leaders for further surveillance.;, ;COINTELPRO COLLABORATION: CHAOS worked in tandem with the FBI s legal prohibition on domestic operations.;,...', type: 'default' },
-     { date: '1967-08', event: 's counterintelligence division in August 1967; despite knowing the CIA s liberation, environmental, and Black Power movements.', type: 'default' },
-     { date: '1973', event: 'Operatives attended meetings, reported on activities, and identified leaders for further surveillance.;, ;COINTELPRO COLLABORATION: CHAOS worked in tandem with the FBI s legal prohibition on domestic operations.;,...', type: 'default' },
-     { date: '1975', event: 's fundamental premise; that domestic dissent must be directed by foreign powers; was never supported by evidence; repeated assessments found no significant foreign control.;, ;THE CHURCH COMMITTEE: The program was...', type: 'financial' },
-     { date: '2001', event: 'The committee s findings, President Gerald Ford issued Executive Order 11905 restricting intelligence activities; later replaced by President Reagan s restrictions are largely self-policed by the intelligence...', type: 'political' },
-     { date: '2001-09-11', event: 'The committee s findings, President Gerald Ford issued Executive Order 11905 restricting intelligence activities; later replaced by President Reagan s restrictions are largely self-policed by the intelligence...', type: 'political' },
+     { date: '1967-08', event: 'CIA Director Richard Helms establishes Special Operations Group under James Angleton to investigate domestic anti-war movements, code-named MHCHAOS', type: 'political' },
+     { date: '1969', event: 'Operation CHAOS expands to infiltrate student groups, civil rights organizations, and anti-war movements; files compiled on over 300,000 Americans', type: 'default' },
+     { date: '1973', event: 'HTLINGUAL mail-opening program exposed; CIA had opened and photographed over 215,000 pieces of first-class mail since 1952', type: 'default' },
+     { date: '1974', event: 'Operation CHAOS officially terminated after indexing 7,200 citizens in computerized database', type: 'default' },
+     { date: '1975', event: 'Church Committee exposes CHAOS and other intelligence abuses; Senator Frank Church documents sweeping range of intelligence community overreach', type: 'political' },
+     { date: '2001-09-11', event: 'Post-9/11 expansion of domestic surveillance programs echoes CHAOS-era practices under new legal authorities including the PATRIOT Act', type: 'political' },
    ],
   },
   'opioid-distribution': {
@@ -1076,7 +1095,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: "DEA ARCOS Database (WaPo Analysis)", url: "https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/", type: "Investigation" },
       { title: "Charleston Gazette-Mail Investigation", url: "https://www.wvgazettemail.com/news/health/drug-firms-poured-780m-painkillers-into-wv-amid-rise-of-overdoses/article_99026dad-8ed5-5075-90fa-adb906a36214.html", type: "Investigation" },
       { title: "National Opioid Settlement Tracker", url: "https://www.opioidsettlementtracker.com/", type: "Legal" },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement capability undermined by pharmaceutical industry lobbying; 2016 law stripped key enforcement powers', href: '/entities/agencies/dea' },
@@ -1117,7 +1136,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'DOJ: Purdue Pharma Criminal Resolution', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-fraud-and-kickback-conspiracies', type: 'Government Records' },
       { title: 'DEA ARCOS Database Analysis (Washington Post)', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Database' },
       { title: 'Congressional Investigation: Purdue Pharma and Sackler Family', url: 'https://oversight.house.gov/landing/purdue-pharma-investigation/', type: 'Congressional Report' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement powers stripped by 2016 Ensuring Patient Access Act; distribution enforcement chronically underfunded', href: '/entities/agencies/dea' },
@@ -1204,7 +1223,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Washington Post: DEA ARCOS Database (Opioid Shipment Data)', url: 'https://www.washingtonpost.com/graphics/2019/investigations/dea-pain-pill-database/', type: 'Investigation' },
       { title: 'DEA: McKesson Settlement Agreement', url: 'https://www.dea.gov/', type: 'Legal Document' },
       { title: '60 Minutes/Washington Post: The Drug Industry\'s Triumph Over the DEA', url: 'https://www.washingtonpost.com/investigations/the-drug-industrys-triumph-over-the-dea/2016/10/15/b17f3a6a-8cb3-11e6-875e-2c1bfe943b66_story.html', type: 'Investigation' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Enforcement authority stripped by 2016 legislation drafted by industry lobbyists; fined McKesson twice for same violations; allowed billions of suspicious pills to flow', href: '/entities/agencies/dea' },
@@ -1240,7 +1259,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'U.S. Right to Know: Monsanto Papers', url: 'https://usrtk.org/pesticides/monsanto-papers/', type: 'Investigation' },
       { title: 'IARC: Glyphosate Monograph', url: 'https://monographs.iarc.who.int/', type: 'Research' },
       { title: 'EPA: Neonicotinoid Risk Assessments', url: 'https://www.epa.gov/pollinator-protection/epa-actions-protect-pollinators', type: 'Government Report' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Maintains glyphosate is not likely carcinogenic despite jury verdicts and IARC classification; failed to ban neonicotinoids despite own risk findings; chlorpyrifos ban delayed 20+ years', href: '/entities/agencies/epa' },
@@ -1277,12 +1296,12 @@ const investigations_o: Record<string, InvestigationData> = {
     ],
     tags: ['opioid settlement', 'addiction treatment', 'fund diversion', 'public health', 'Purdue Pharma', 'tobacco settlement', 'substance abuse'],
     sources: [
-      'https://www.kff.org/other/issue-brief/tracking-opioid-settlement-spending/',
-      'https://www.statnews.com/opioid-settlement-tracker/',
-      'https://nationalopioidsettlement.com/',
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'Kff Records', url: 'https://www.kff.org/other/issue-brief/tracking-opioid-settlement-spending/', type: 'Reference' },
+      { title: 'Statnews Records', url: 'https://www.statnews.com/opioid-settlement-tracker/', type: 'Reference' },
+      { title: 'Nationalopioidsettlement Records', url: 'https://nationalopioidsettlement.com/', type: 'Reference' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
 
-      { name: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Negotiated separate federal settlements with Purdue Pharma and distributors; no federal enforcement mechanism for state-level spending compliance; DEA data enabled the crisis through inadequate quota controls', href: '/entities/agencies/doj' },
@@ -1293,12 +1312,10 @@ const investigations_o: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1998', event: 'The tobacco master settlement of 1998 provides a cautionary precedent.', type: 'legal' },
-     { date: '1998-01-01', event: 'Opioid Settlement Fund Misuse investigation begins — events under scrutiny originate from this period', type: 'legal' },
      { date: '1999', event: 'The opioid epidemic has killed over 600,000 Americans since 1999, driven by pharmaceutical companies that aggressively marketed highly addictive painkillers while concealing their risks.', type: 'critical' },
      { date: '2023', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures...', type: 'legal' },
      { date: '2024', event: 'A KFF investigation of 2023 and 2024 spending data found that multiple states directed opioid settlement funds toward general law enforcement equipment, jail construction, county road repairs, and other expenditures...', type: 'legal' },
-     { date: '2025-02-18', event: 'Opioid Settlement Fund Misuse — investigation remains active with ongoing developments', type: 'legal' },
-   ],
+     ],
   },
   'operation-paperclip-nazi-scientists': {
     slug: 'operation-paperclip-nazi-scientists',
@@ -1322,7 +1339,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'CIA FOIA: Operation Paperclip Declassified Records', url: 'https://www.cia.gov/readingroom/collection/nazi-war-crimes-and-japanese-imperial-government-records', type: 'Government Record' },
       { title: 'National Air and Space Museum: Wernher von Braun Biographical Archive', url: 'https://airandspace.si.edu/people/wernher-von-braun', type: 'Research Archive' },
       { title: 'Mittelbau-Dora Concentration Camp Memorial: History', url: 'https://www.buchenwald.de/en/896/', type: 'Memorial Archive' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Joint Intelligence Objectives Agency', type: 'agency', relationship: 'Planned and executed Operation Paperclip; systematically falsified security evaluations to circumvent presidential directives; overrode State Department and FBI objections; no JIOA officer was ever disciplined', href: '/entities/agencies/jioa' },
@@ -1370,7 +1387,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'Senate Select Committee on Intelligence: MKULTRA Hearings, 1977', url: 'https://www.intelligence.senate.gov/', type: 'Government Report' },
       { title: 'Church Committee Final Report', url: 'https://www.intelligence.senate.gov/resources/intelligence-related-commissions', type: 'Government Report' },
       { title: 'CIA FOIA: MKUltra Collection', url: 'https://www.cia.gov/readingroom/collection/mkultra', type: 'Declassified Documents' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Funded and directed Operation Midnight Climax safe houses where unwitting American citizens were drugged with LSD', href: '/entities/agencies/cia' },
@@ -1381,9 +1398,7 @@ const investigations_o: Record<string, InvestigationData> = {
     pageUpdatedDate: '2026-03-10',
    timeline: [
      { date: '1954', event: 'The program ran from 1954 to 1966 and involved an unknown number of victims who were never informed they had been experimented upon.', type: 'default' },
-     { date: '1954-01-01', event: 'Operation Midnight Climax investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1966', event: 'The program ran from 1954 to 1966 and involved an unknown number of victims who were never informed they had been experimented upon.', type: 'default' },
-     { date: '1966-12-31', event: 'Operation Midnight Climax — investigation remains active with ongoing developments', type: 'default' },
      { date: '1973', event: 'Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered.', type: 'political' },
      { date: '1975', event: 'The program was first partially revealed during the 1975 Church Committee and Rockefeller Commission investigations.', type: 'default' },
      { date: '1977', event: 'Further details emerged in 1977 during Senate hearings when a cache of MKUltra financial records that had survived CIA Director Richard Helms\' 1973 destruction order was discovered.', type: 'political' },

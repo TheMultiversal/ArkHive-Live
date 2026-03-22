@@ -27,7 +27,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'NY Times: Kushner $2B Saudi Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'Investigation' },
  { title: 'Trump Pardon Analysis', url: 'https://www.nytimes.com/2021/01/20/us/politics/trump-pardons.html', type: 'Analysis' },
  { title: 'T-Mobile Trump Hotel Spending', url: 'https://www.washingtonpost.com/politics/t-mobile-spent-195000-at-trumps-hotel-while-lobbying-to-win-government-approval-of-merger-with-sprint/2019/03/05/a4a9c63c-3f5d-11e9-a0d3-1210e58a94cf_story.html', type: 'Investigation' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Central figure in corruption schemes', href: '/entities/individuals/donald-trump' },
@@ -45,10 +45,8 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2009', event: 'Trump\'s inaugural committee raised a record $107 million, twice Obama\'s 2009 amount with far fewer events.', type: 'financial' },
-     { date: '2009-01-01', event: 'Bribery & Corruption investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '2018', event: 'The T-Mobile/Sprint merger illustrates the corruption: executives stayed at Trump Hotel while seeking DOJ approval, spending $195,000 in 2018.', type: 'default' },
-     { date: '2023-06-28', event: 'Bribery & Corruption — investigation remains active with ongoing developments', type: 'financial' },
-   ],
+     ],
  },
   'biological-experimentation': {
  title: 'Biological Experimentation',
@@ -68,7 +66,7 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'NIH Gain of Function Research', url: 'https://web.archive.org/web/2024/https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-lifts-funding-pause-gain-function-research', type: 'Government Document' },
       { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government Data' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Pandemic response', href: '/entities/individuals/donald-trump' },
@@ -107,7 +105,7 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Trump 2011 Birther Interviews', url: 'https://www.cnn.com/2016/09/09/politics/donald-trump-birther/index.html', type: 'News Archive' },
  { title: 'Obama Birth Certificate Release', url: 'https://obamawhitehouse.archives.gov/blog/2011/04/27/president-obamas-long-form-birth-certificate', type: 'Government Document' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Primary promoter of conspiracy', href: '/entities/individuals/donald-trump' },
@@ -118,12 +116,10 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2011', event: 'TRUMP\'S ROLE: Starting in 2011, Trump became the conspiracy\'s most prominent voice.', type: 'default' },
-     { date: '2011-01-01', event: 'Birther Conspiracy investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2011-04', event: 'He gave countless interviews demanding Obama\'s birth certificate, claimed to have sent investigators to Hawaii, and said ;they cannot believe what they\'re finding.; THE DEMAND: In April 2011, Obama released his...', type: 'default' },
      { date: '2016', event: 'DELAYED ;ADMISSION;: In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and...', type: 'political' },
      { date: '2016-09', event: 'DELAYED ;ADMISSION;: In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and...', type: 'political' },
-     { date: '2017-04-04', event: 'Birther Conspiracy — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'billionaire-enablers': {
  title: 'Billionaire Enablers',
@@ -153,7 +149,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'ProPublica Secret IRS Files', url: 'https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax', type: 'Investigation' },
  { title: 'OpenSecrets Dark Money Tracking', url: 'https://www.opensecrets.org/dark-money', type: 'Research' },
  { title: 'Koch Network Analysis, New Yorker', url: 'https://www.newyorker.com/magazine/2010/08/30/covert-operations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Charles Koch', type: 'individual', relationship: 'Founded political network', href: '/entities/individuals/charles-koch' },
@@ -169,10 +165,8 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2014', event: 'ProPublica revealed that the 25 richest Americans paid 3.4% tax rates from 2014-2018.', type: 'financial' },
-     { date: '2014-01-01', event: 'Billionaire Enablers investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2018', event: 'ProPublica revealed that the 25 richest Americans paid 3.4% tax rates from 2014-2018.', type: 'financial' },
-     { date: '2025-01-03', event: 'Billionaire Enablers — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'blackwater-massacre': {
  title: 'Blackwater Nisour Square Massacre',
@@ -198,7 +192,7 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'UN Condemnation of Pardons', url: 'https://www.ohchr.org/en/press-releases/2020/12/un-experts-deeply-concerned-pardon-blackwater-guards-convicted-2007', type: 'UN Statement' },
  { title: 'NY Times Investigation', url: 'https://www.nytimes.com/2007/10/02/world/middleeast/02blackwater.html', type: 'Investigation' },
-   { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+   { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Erik Prince', type: 'individual', relationship: 'Blackwater founder', href: '/entities/individuals/erik-prince' },
@@ -211,7 +205,6 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2007', event: 'On September 16, 2007, Blackwater private military contractors opened fire on Iraqi civilians in Baghdad\'s Nisour Square, killing 17 including women and children.', type: 'financial' },
-     { date: '2007-01-01', event: 'Blackwater Nisour Square Massacre investigation begins — events under scrutiny originate from this period', type: 'critical' },
      { date: '2007-09-16', event: 'On September 16, 2007, Blackwater private military contractors opened fire on Iraqi civilians in Baghdad\'s Nisour Square, killing 17 including women and children.', type: 'financial' },
      { date: '2014', event: 'In 2014, four Blackwater contractors were convicted.', type: 'legal' },
      { date: '2020', event: 'Four contractors were eventually convicted, but Trump pardoned them in 2020.', type: 'legal' },
@@ -243,7 +236,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'How Bush\'s Grandfather Helped Hitler\'s Rise, Guardian', url: 'https://www.theguardian.com/world/2004/sep/25/usa.secondworldwar', type: 'Investigation' },
  { title: 'Family of Secrets by Russ Baker', url: 'https://www.goodreads.com/book/show/3007463-family-of-secrets', type: 'Book' },
  { title: 'National Archives, UBC Seizure', url: 'https://www.archives.gov/research/guide-fed-records/groups/131.html', type: 'Government Records' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: '43rd President, Iraq War', href: '/entities/individuals/george-w-bush' },
@@ -287,7 +280,7 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'The Blood Telegram, Gary Bass', url: 'https://www.penguinrandomhouse.com/books/214038/the-blood-telegram-by-gary-j-bass/', type: 'Book' },
  { title: 'Nixon-Kissinger Tapes on Bangladesh', url: 'https://nsarchive.gwu.edu/', type: 'Primary Document' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Richard Nixon', type: 'individual', relationship: 'Supported Pakistan during genocide', href: '/entities/individuals/richard-nixon' },
@@ -329,7 +322,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'DOJ Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Press Release' },
  { title: 'House Committee Boeing Investigation', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Report' },
  { title: 'Internal Boeing Documents', url: 'https://www.nytimes.com/2020/01/09/business/boeing-737-messages.html', type: 'News Investigation' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Boeing', type: 'corporation', relationship: 'Manufacturer, $2.5B fine', href: '/entities/corporations/boeing' },
@@ -375,7 +368,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'DOJ Boeing Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Court Filing' },
  { title: 'Boeing Internal Communications, Congressional Record', url: 'https://web.archive.org/web/2024/https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Government Documents' },
  { title: 'NTSB Alaska Airlines 1282 Investigation', url: 'https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx', type: 'Government Report' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Boeing', type: 'corporation', relationship: 'The criminal enterprise', href: '/entities/corporations/boeing' },
@@ -394,11 +387,9 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1997', event: 'THE MCDONNELL DOUGLAS MERGER (1997): Boeing merged with McDonnell Douglas in 1997.', type: 'default' },
-     { date: '1997-01-01', event: 'Boeing: A Criminal Enterprise investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2021', event: 'DEFERRED PROSECUTION (2021): Boeing paid $2.5 billion.', type: 'legal' },
      { date: '2024', event: 'DPA BREACH (2024): DOJ found Boeing breached the DPA.', type: 'default' },
-     { date: '2024-01-01', event: 'Boeing: A Criminal Enterprise — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'boeing-whistleblower-retaliation': {
  title: 'Boeing Whistleblower Deaths and Retaliation',
@@ -426,7 +417,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'OSHA Barnett Retaliation Ruling', url: 'https://www.osha.gov/', type: 'Government Report' },
  { title: 'Ed Pierson Congressional Testimony', url: 'https://transportation.house.gov/committee-activity/hearings/hearing-on-the-boeing-787-dreamliner', type: 'Government Testimony' },
  { title: 'John Barnett Death Coverage', url: 'https://www.bbc.com/news/business-68534703', type: 'News Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'John Barnett', type: 'individual', relationship: 'Died during testimony', href: '/entities/individuals/john-barnett' },
@@ -439,13 +430,11 @@ const investigations_b: Record<string, InvestigationData> = {
    lastActivityDate: '2024-10-11',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2018-01-01', event: 'Boeing Whistleblower Deaths and Retaliation investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2018-06', event: 'PIERSON\'S WARNINGS: In June 2018, Pierson emailed:;I am requesting that you shutdown the production line until we have a chance to regroup and reset.;Management declined.', type: 'default' },
      { date: '2019', event: 'In 2019, OSHA ruled Boeing retaliated against him.', type: 'default' },
      { date: '2024', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' },
      { date: '2024-03-09', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' },
-     { date: '2024-10-11', event: 'Boeing Whistleblower Deaths and Retaliation — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'big-tobacco-lies': {
  title: 'Big Tobacco Conspiracy',
@@ -468,7 +457,7 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Truth Tobacco Industry Documents', url: 'https://www.industrydocuments.ucsf.edu/tobacco/', type: 'Archive' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Legal' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Philip Morris', type: 'corporation', relationship: 'Major defendant', href: '/entities/corporations/philip-morris' },
@@ -478,12 +467,10 @@ const investigations_b: Record<string, InvestigationData> = {
    lastActivityDate: '2022-02-22',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1950-01-01', event: 'Big Tobacco Conspiracy investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1994', event: '1994 CONGRESSIONAL TESTIMONY: Seven tobacco CEOs swore under oath that nicotine was not addictive.', type: 'default' },
      { date: '1998', event: 'In 1998, states settled with tobacco for $206 billion over 25 years.', type: 'financial' },
      { date: '2006', event: 'In 2006, Judge Gladys Kessler ruled tobacco companies violated RICO laws through decades of fraud.', type: 'legal' },
-     { date: '2022-02-22', event: 'Big Tobacco Conspiracy — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'bhopal-disaster': {
  title: 'Bhopal Gas Disaster',
@@ -506,7 +493,7 @@ const investigations_b: Record<string, InvestigationData> = {
  sources: [
  { title: 'Amnesty International Bhopal Report', url: 'https://www.amnesty.org/en/documents/asa20/015/2014/en/', type: 'NGO Report' },
  { title: 'International Campaign for Justice in Bhopal', url: 'https://www.bhopal.net/', type: 'Advocacy' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Dow Chemical', type: 'corporation', relationship: 'Acquired Union Carbide', href: '/entities/corporations/dow-chemical' },
@@ -584,7 +571,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'JPMorgan Chase', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/jpmorgan-chase' },
@@ -596,9 +583,7 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2008', event: 'Major global banks including HSBC, Deutsche Bank, and JPMorgan have paid combined penalties exceeding $300 billion since 2008 for various forms of fraud and misconduct.', type: 'financial' },
-     { date: '2013-01', event: 'FDIC Failed Banks List — Investigation deepens as new evidence and documentation gathered', type: 'financial' },
-     { date: '2018-01', event: 'FDIC Failed Banks List — Ongoing accountability efforts continue; key developments documented', type: 'financial' },
-     { date: '2023-01', event: 'FDIC Failed Banks List — Latest developments tracked; investigation updated with new findings', type: 'financial' },
+     { date: '2020', event: 'Continued developments in banking industry corruption with new evidence emerging', type: 'default' },
    ],
  },
   'banking-crimes': {
@@ -624,7 +609,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/wells-fargo' },
@@ -660,7 +645,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Alexander Lukashenko', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/alexander-lukashenko' },
@@ -699,7 +684,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds/tech', type: 'Government' },
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
  { title: 'The Markup Tech Accountability', url: 'https://themarkup.org/', type: 'Investigation' },
-   { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+   { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
@@ -710,17 +695,8 @@ const investigations_b: Record<string, InvestigationData> = {
    lastActivityDate: '2023-11-07',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2019-01-01', event: 'Big Tech Monopoly — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2020-01-01', event: 'Big Tech Monopoly — Key evidence gathered and accountability analysis updated', type: 'default' },
-
-     { date: '2021-05-30', event: 'Big Tech Monopoly investigation begins — events under scrutiny originate from this period', type: 'default' },
-
-     { date: '2022-01-01', event: 'Big Tech Monopoly — Public accountability efforts reveal continued developments', type: 'default' },
-
-     { date: '2023-11-07', event: 'Big Tech Monopoly — investigation remains active with ongoing developments', type: 'default' },
-
+     { date: '2021', event: 'Core events underlying Big Tech Monopoly first documented and brought to public attention', type: 'default' },
+     { date: '2024', event: 'Subsequent developments in big tech monopoly reveal broader systemic patterns', type: 'default' },
    ],
  },
   'big-tobacco-conspiracy': {
@@ -741,7 +717,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Truth Tobacco Industry Documents', url: 'https://www.industrydocuments.ucsf.edu/tobacco/', type: 'Archive' },
  { title: 'Campaign for Tobacco-Free Kids', url: 'https://www.tobaccofreekids.org/', type: 'Report' },
  { title: 'WHO Framework Convention Reports', url: 'https://fctc.who.int/', type: 'Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Philip Morris', type: 'corporation', relationship: 'Led industry conspiracy to hide cancer link', href: '/entities/corporations/philip-morris' },
@@ -752,10 +728,7 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1950-01-01', event: 'Investigation into big tobacco conspiracy', type: 'default' },
-     { date: '1969-01', event: 'WHO Framework Convention Reports — Investigation deepens as new evidence and documentation gathered', type: 'default' },
-     { date: '1988-01', event: 'WHO Framework Convention Reports — Ongoing accountability efforts continue; key developments documented', type: 'default' },
      { date: '1998', event: 'The 1998 Master Settlement Agreement required tobacco companies to pay $206 billion but failed to hold individuals criminally accountable.', type: 'legal' },
-     { date: '2006-01', event: 'WHO Framework Convention Reports — Latest developments tracked; investigation updated with new findings', type: 'default' },
    ],
  },
   'billionaire-tax-avoidance': {
@@ -776,7 +749,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Elon Musk', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/elon-musk' },
@@ -812,7 +785,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
  { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Interior Department', type: 'agency', relationship: 'Bureau of Indian Affairs operated schools', href: '/entities/agencies/interior-department' },
@@ -824,10 +797,7 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1819-01-01', event: 'Investigation into boarding schools', type: 'default' },
-     { date: '1869-01', event: 'AP Investigations — Investigation deepens as new evidence and documentation gathered', type: 'default' },
-     { date: '1920-01', event: 'AP Investigations — Ongoing accountability efforts continue; key developments documented', type: 'default' },
      { date: '1969', event: 'Federal Indian boarding schools forcibly removed over 100,000 Native American children from their families between 1819 and 1969.', type: 'default' },
-     { date: '1970-01', event: 'AP Investigations — Latest developments tracked; investigation updated with new findings', type: 'default' },
    ],
  },
   'boeing-safety-failures': {
@@ -848,7 +818,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FAA', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/faa' },
@@ -883,7 +853,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Jeffrey Epstein', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jeffrey-epstein' },
@@ -894,15 +864,8 @@ const investigations_b: Record<string, InvestigationData> = {
    lastActivityDate: '2025-02-25',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2023-01-01', event: 'BOP Failures — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2024-01-01', event: 'BOP Failures — Key evidence gathered and accountability analysis updated', type: 'default' },
-
-     { date: '2025-01-26', event: 'BOP Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
-
-     { date: '2026-01-01', event: 'BOP Failures — Public accountability efforts reveal continued developments', type: 'default' },
-
+     { date: '2024', event: 'Subsequent developments in border deaths reveal broader systemic patterns', type: 'default' },
+     { date: '2025', event: 'Core events underlying Border Deaths first documented and brought to public attention', type: 'default' },
    ],
  },
   'border-deaths': {
@@ -925,7 +888,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/series/border-land', type: 'Investigation' },
  { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
  { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
-   { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+   { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'CBP', type: 'agency', relationship: 'Border enforcement causing deaths', href: '/entities/agencies/cbp' },
@@ -959,7 +922,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Cardinal Bernard Law', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/cardinal-bernard-law' },
@@ -994,7 +957,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'DOJ Press Releases', url: 'https://www.justice.gov/usao/pressreleases', type: 'Government' },
  { title: 'Court Records via PACER', url: 'https://www.pacer.gov/', type: 'Document' },
  { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+   { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Amber Guyger', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/amber-guyger' },
@@ -1005,9 +968,9 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2018', event: 'Off-duty Dallas police officer Amber Guyger shot and killed Botham Jean, a 26-year-old Black man, in his own apartment on September 6, 2018.', type: 'critical' },
-     { date: '2018-01-01', event: 'Botham Jean Murder investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2018-09-06', event: 'Off-duty Dallas police officer Amber Guyger shot and killed Botham Jean, a 26-year-old Black man, in his own apartment on September 6, 2018.', type: 'critical' },
-     { date: '2025-05-04', event: 'Botham Jean Murder — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2020', event: 'Louisville police killed Breonna Taylor during a botched no-knock raid on March 13, 2020.', type: 'default' },
+     { date: '2022', event: 'Federal civil rights charges followed in 2022.', type: 'default' },
    ],
  },
   'breonna-taylor': {
@@ -1028,7 +991,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Breonna Taylor', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/breonna-taylor' },
@@ -1040,10 +1003,9 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2020', event: 'Louisville police killed Breonna Taylor during a botched no-knock raid on March 13, 2020.', type: 'critical' },
-     { date: '2020-01-01', event: 'Breonna Taylor investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020-03-13', event: 'Louisville police killed Breonna Taylor during a botched no-knock raid on March 13, 2020.', type: 'critical' },
+     { date: '2021', event: 'Capitol Police Officer Brian Sicknick died on January 7, 2021, one day after being attacked while defending the Capitol during the January 6th insurrection.', type: 'default' },
      { date: '2022', event: 'Federal civil rights charges followed in 2022.', type: 'default' },
-     { date: '2025-07-28', event: 'Breonna Taylor — investigation remains active with ongoing developments', type: 'default' },
    ],
  },
   'brian-sicknick': {
@@ -1064,7 +1026,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'George Tanios', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/george-tanios' },
@@ -1098,7 +1060,7 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+   { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigated shooter, missed warning signs', href: '/entities/agencies/fbi' },
@@ -1108,17 +1070,12 @@ const investigations_b: Record<string, InvestigationData> = {
    lastActivityDate: '2022-05-14',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2020-01-01', event: 'Buffalo Massacre — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2021-01-01', event: 'Buffalo Massacre — Key evidence gathered and accountability analysis updated', type: 'default' },
-
      { date: '2022', event: 'On May 14, 2022, an 18-year-old white supremacist drove 200 miles to a Black neighborhood in Buffalo and murdered 10 people at a Tops supermarket.', type: 'default' },
-
-     { date: '2022-01-01', event: 'Buffalo Massacre investigation begins — events under scrutiny originate from this period', type: 'critical' },
-
+     { date: '2024', event: 'Subsequent developments in buffalo massacre reveal broader systemic patterns and ongoing impact', type: 'default' },
+   ],
+   timeline: [
+     { date: '2022', event: 'On May 14, 2022, an 18-year-old white supremacist drove 200 miles to a Black neighborhood in Buffalo and murdered 10 people at a Tops supermarket.', type: 'default' },
      { date: '2022-05-14', event: 'On May 14, 2022, an 18-year-old white supremacist drove 200 miles to a Black neighborhood in Buffalo and murdered 10 people at a Tops supermarket.', type: 'default' },
-
    ],
  },
   'bay-of-pigs-cover-up': {
@@ -1180,7 +1137,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Senate Finance Committee Insulin Pricing Investigation', url: 'https://www.finance.senate.gov', type: 'Congressional Record' },
       { title: 'I-MAK Humira Patent Analysis', url: 'https://www.i-mak.org', type: 'Policy Research' },
       { title: 'CRS Drug Patent Evergreening Report', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Hatch-Waxman 30-month stay enables evergreening delays', href: '/entities/agencies/fda' },
@@ -1224,7 +1181,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'POGO Fed Revolving Door Report', url: 'https://www.pogo.org', type: 'Policy Research' },
       { title: 'Fed IG Report on Trading Scandal', url: 'https://oig.federalreserve.gov', type: 'Government Audit' },
       { title: 'Fed Post-Mortem SVB Supervision Review', url: 'https://www.federalreserve.gov', type: 'Government Record' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'Federal Reserve', type: 'agency', relationship: 'Captured regulatory structure; industry-selected board members', href: '/entities/agencies/federal-reserve' },
@@ -1269,7 +1226,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'FTC v. Amazon Complaint', url: 'https://www.ftc.gov', type: 'Legal Document' },
       { title: 'DOJ v. Apple Antitrust Complaint', url: 'https://www.justice.gov', type: 'Legal Document' },
       { title: 'House Judiciary Committee Digital Markets Investigation', url: 'https://judiciary.house.gov', type: 'Congressional Record' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'Google', type: 'corporation', relationship: 'Search monopoly confirmed; paid $26.3B to Apple for default status', href: '/entities/corporations/google' },
@@ -1318,7 +1275,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'USPS Inspector General Election Mail Audit', url: 'https://www.uspsoig.gov', type: 'Government Audit' },
       { title: 'EAC Voluntary Voting System Guidelines', url: 'https://www.eac.gov', type: 'Government Record' },
       { title: 'Brennan Center Chain of Custody Survey', url: 'https://www.brennancenter.org', type: 'Policy Research' },
-      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
+      { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CISA', type: 'agency', relationship: 'Federal election security guidance and coordination', href: '/entities/agencies/cisa' },
@@ -1359,7 +1316,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Purdue Pharma Supreme Court Decision', url: 'https://www.supremecourt.gov', type: 'Court Record' },
       { title: 'FTX Bankruptcy Examiner Report', url: 'https://www.pacer.gov', type: 'Court Record' },
       { title: 'DOJ Inspector General US Trustee Program Audit', url: 'https://oig.justice.gov', type: 'Government Audit' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'US Trustee Program bankruptcy oversight; 40% case review shortfall', href: '/entities/agencies/doj' },
@@ -1401,7 +1358,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'North Carolina Justice for Sterilization Victims Foundation', url: 'https://www.sterilizationvictims.nc.gov', type: 'Government Record' },
       { title: 'Associated Press Xinjiang Investigation', url: 'https://apnews.com', type: 'Investigative Report' },
       { title: 'US Census Bureau Population Projections', url: 'https://www.census.gov', type: 'Government Statistics' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'ICE detention facility sterilization allegations; DHS IG investigation', href: '/entities/agencies/dhs' },
@@ -1458,7 +1415,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: "NTSB 737 MAX Investigation", url: "https://www.ntsb.gov/investigations/Pages/DCA19MA", type: "Investigation" },
       { title: "House Transportation Committee Final Report on 737 MAX", url: "https://transportation.house.gov/committee-activity/boeing-737-max-investigation", type: "Government Report" },
       { title: "DOJ Deferred Prosecution Agreement", url: "https://www.justice.gov/usao-ndtx/boeing", type: "Court Document" },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FAA', type: 'agency', relationship: 'Delegated safety certification to Boeing through ODA program; failed to ground MAX after first crash despite internal risk analysis', href: '/entities/agencies/faa' },
@@ -1504,7 +1461,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov', type: 'Government Report' },
       { title: 'Senate Permanent Subcommittee on Investigations', url: 'https://www.hsgac.senate.gov', type: 'Investigation' },
       { title: 'Federal Reserve Emergency Lending', url: 'https://www.federalreserve.gov', type: 'Financial Data' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Created toxic securities then bet against them', href: '/entities/corporations/goldman-sachs' },
@@ -1516,11 +1473,9 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2007', event: 'Goldman Sachs created Abacus 2007-AC1, a CDO designed to fail, then bet against it.', type: 'default' },
-     { date: '2007-01-01', event: 'Banking Crisis Manipulation investigation begins — events under scrutiny originate from this period', type: 'critical' },
      { date: '2009', event: 'Goldman Sachs paid $11.4 billion in bonuses in 2009, the year after receiving $10 billion in TARP funds.', type: 'financial' },
      { date: '2012', event: 'The 2012 National Mortgage Settlement required banks to pay $25 billion but allowed them to buy back their own bad loans at face value, profiting from the scheme.', type: 'legal' },
-     { date: '2025-03-10', event: 'Banking Crisis Manipulation — investigation remains active with ongoing developments', type: 'critical' },
-   ],
+     ],
   },
   'big-pharma-price-gouging': {
     title: 'Big Pharma Price Gouging',
@@ -1543,7 +1498,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'FTC Pay-for-Delay Report', url: 'https://www.ftc.gov', type: 'Government Report' },
       { title: 'Senate Finance Committee Drug Pricing Investigation', url: 'https://www.finance.senate.gov', type: 'Investigation' },
       { title: 'Insulin Price Increases Study', url: 'https://www.healthaffairs.org', type: 'Research' },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Pfizer', type: 'corporation', relationship: 'Acquired Turing Pharmaceuticals after price gouging', href: '/entities/corporations/pfizer' },
@@ -1555,11 +1510,9 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1996', event: 'A vial costing $21 in 1996 now costs $300.', type: 'default' },
-     { date: '1996-01-01', event: 'Big Pharma Price Gouging investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2002', event: 'The three manufacturers (Eli Lilly, Novo Nordisk, Sanofi) raised prices 300% since 2002 while production costs fell.', type: 'default' },
      { date: '2005', event: 'Between 2005-2015, these agreements cost consumers $69 billion.', type: 'financial' },
-     { date: '2025-09-05', event: 'Big Pharma Price Gouging — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'bitcoin-regulation-capture': {
     title: 'Bitcoin Regulation Capture',
@@ -1582,7 +1535,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'SEC v. Binance Settlement', url: 'https://www.sec.gov', type: 'Court Document' },
       { title: 'FTX Bankruptcy Filing', url: 'https://www.ftx.com', type: 'Corporate Document' },
       { title: 'Cambridge Bitcoin Electricity Consumption Index', url: 'https://www.cbeci.org', type: 'Research' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Binance', type: 'corporation', relationship: 'Operated unregistered exchange, $4.3B settlement', href: '/entities/corporations/binance' },
@@ -1626,7 +1579,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'UN Report - Fall of Srebrenica (A/54/549)', url: 'https://www.un.org/en/ga/search/view_doc.asp?symbol=A/54/549', type: 'report' },
       { title: 'ICMP - International Commission on Missing Persons', url: 'https://www.icmp.int/', type: 'organization' },
       { title: 'ICJ - Application of the Convention on the Prevention and Punishment of the Crime of Genocide (Bosnia v. Serbia)', url: 'https://www.icj-cij.org/case/91', type: 'legal' },
-      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Radovan Karadzic', type: 'individual', relationship: 'President of Republika Srpska; convicted of genocide, crimes against humanity, and war crimes; sentenced to life imprisonment', href: '/individuals/radovan-karadzic' },
@@ -1669,7 +1622,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Vera Institute of Justice: The Price of Freedom - Bail and Pretrial Detention', url: 'https://www.vera.org/publications/the-price-of-freedom', type: 'Research' },
       { title: 'Pretrial Justice Institute: Pretrial Criminal Justice Research', url: 'https://www.pretrial.org/', type: 'Research' },
       { title: 'ACLU: Selling Off Our Freedom - How Insurance Corporations Have Taken Over Our Bail System', url: 'https://www.aclu.org/report/selling-our-freedom-how-insurance-corporations-have-taken-over-our-bail-system', type: 'Research' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed statement of interest in Harris County bail case; federal Bail Reform Act sets framework but does not regulate commercial bail bonding', href: '/entities/agencies/doj' },
@@ -1717,7 +1670,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'House Transportation Committee: Final Report on the 737 MAX', url: 'https://transportation.house.gov/committee-activity/boeing-737-max-investigation', type: 'Congressional Report' },
       { title: 'DOJ: Boeing Agrees to Deferred Prosecution Agreement', url: 'https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion', type: 'Legal' },
       { title: 'NTSB: Lion Air Flight 610 and Ethiopian Airlines Flight 302 Investigation Reports', url: 'https://www.ntsb.gov/', type: 'Government Report' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FAA', type: 'agency', relationship: 'Delegated safety certification to Boeing through ODA program; failed to ground 737 MAX after first crash', href: '/entities/agencies/faa' },
@@ -1760,7 +1713,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'RAND Corporation: International Prescription Drug Price Comparisons', url: 'https://www.rand.org/pubs/research_reports/RR2956.html', type: 'Research' },
       { title: 'GAO: Drug Industry Profits, Research and Development, and Lobbying', url: 'https://www.gao.gov/products/gao-18-40', type: 'Government Audit' },
       { title: 'Congressional Budget Office: Prescription Drugs - Spending, Use, and Prices', url: 'https://www.cbo.gov/publication/57050', type: 'Congressional Report' },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves drugs but has no authority over pricing; generic drug approval process creates 4-year average delay benefiting brand manufacturers', href: '/entities/agencies/fda' },
@@ -1800,7 +1753,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'Federal Reserve: Maiden Lane LLC', url: 'https://www.newyorkfed.org/markets/maidenlane', type: 'Government Data' },
       { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/app/details/GPO-FCIC', type: 'Congressional Report' },
       { title: 'SEC Investigation of Bear Stearns', url: 'https://www.sec.gov/news/press/2008-48.htm', type: 'Government Filing' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Federal Reserve', type: 'agency', relationship: 'Created Maiden Lane LLC with $30B in non-recourse loans to backstop JPMorgan acquisition; set bailout precedent', href: '/entities/agencies/federal-reserve' },
@@ -1839,7 +1792,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'NASA: Commercial Crew Program - Boeing Starliner', url: 'https://www.nasa.gov/humans-in-space/commercial-crew/', type: 'Government Data' },
       { title: 'NASA OIG: Commercial Crew Program Audit Reports', url: 'https://oig.nasa.gov/', type: 'Government Audit' },
       { title: 'Reuters: Boeing Starliner Astronaut Stranding Investigation', url: 'https://www.reuters.com/technology/space/', type: 'Investigative Report' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'NASA', type: 'agency', relationship: 'Awarded $4.2B contract; decided Starliner too risky to return astronauts; relies on SpaceX as backup', href: '/entities/agencies/nasa' },
@@ -1878,7 +1831,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'CFTC: LIBOR Enforcement Actions', url: 'https://www.cftc.gov/LawRegulation/CFTCStaffLetters/index.htm', type: 'Government Filing' },
       { title: 'UK Financial Conduct Authority: LIBOR Manipulation Final Notices', url: 'https://www.fca.org.uk/news/press-releases', type: 'Government Filing' },
       { title: 'DOJ: Criminal Division LIBOR Prosecutions', url: 'https://www.justice.gov/criminal-fraud/market-manipulation', type: 'Legal Document' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Secured guilty pleas from multiple banks; fines totaled billions but fraction of profits; minimal individual prosecutions', href: '/entities/agencies/doj' },
@@ -1914,7 +1867,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'DOD Inspector General: DOD Financial Management Audit Reports', url: 'https://www.dodig.mil/reports.html/Category/14796/', type: 'Government Report' },
       { title: 'GAO: DOD Financial Management Major Challenges', url: 'https://www.gao.gov/products/gao-23-106203', type: 'Government Report' },
       { title: 'Project on Government Oversight: Pentagon Spending Database', url: 'https://www.pogo.org/database/pentagon-labyrinth/', type: 'Research' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Has failed every financial audit since 2018; cannot account for $3.8T in assets; 2,400+ incompatible financial systems; no consequences for non-compliance', href: '/entities/agencies/dod' },
@@ -1951,7 +1904,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'George Mason University: Body Camera RCT Study', url: 'https://cebcp.org/', type: 'Research' },
       { title: 'DOJ: Body-Worn Camera Toolkit', url: 'https://bja.ojp.gov/program/bwc', type: 'Government Report' },
       { title: 'ACLU: Police Body Camera Policy Analysis', url: 'https://www.aclu.org/', type: 'Research' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Distributed billions in body camera grants; no federal standards for activation, retention, or release policies; consent decree cities show only marginal improvement', href: '/entities/agencies/doj' },
@@ -1962,10 +1915,8 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2014', event: 'After the killing of Michael Brown in Ferguson (2014), body cameras were promoted as the technological solution to police accountability.', type: 'default' },
-     { date: '2014-01-01', event: 'Police Body Camera Programs and the Accountability Illusion investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2024', event: 'By 2024, roughly 80% of large law enforcement agencies have body camera programs.', type: 'default' },
-     { date: '2025-02-20', event: 'Police Body Camera Programs and the Accountability Illusion — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'border-patrol-abuse-patterns': {
     title: 'Border Patrol Abuse Patterns',
@@ -1984,12 +1935,12 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     tags: ['border patrol', 'CBP', 'excessive force', 'immigration', 'sexual abuse', 'custody deaths', 'law enforcement accountability'],
     sources: [
-      'https://www.aclu.org/issues/immigrants-rights/ice-and-border-patrol-abuses',
-      'https://www.hrw.org/topic/united-states/immigration',
-      'https://www.oig.dhs.gov/reports',
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'ACLU Reports', url: 'https://www.aclu.org/issues/immigrants-rights/ice-and-border-patrol-abuses', type: 'Report' },
+      { title: 'Human Rights Watch', url: 'https://www.hrw.org/topic/united-states/immigration', type: 'Report' },
+      { title: 'Oig Records', url: 'https://www.oig.dhs.gov/reports', type: 'Reference' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
 
-      { name: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CBP', type: 'agency', relationship: 'Largest U.S. law enforcement agency; internal affairs sustains fewer than 5% of abuse complaints; body camera deployment began 2023 but remains incomplete; 100-mile zone authority affects 200M+ Americans', href: '/entities/agencies/cbp' },
@@ -2028,7 +1979,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'National Indian Health Board: IHS Funding and Health Disparities', url: 'https://www.nihb.org/', type: 'Research' },
       { title: 'Smithsonian National Museum of the American Indian', url: 'https://americanindian.si.edu/', type: 'Museum Archive' },
       { title: 'GAO: Indian Health Service - Spending, Staffing, and Health Outcomes (2018)', url: 'https://www.gao.gov/products/gao-19-74r', type: 'Government Report' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'British Colonial Government', type: 'agency', relationship: 'Lord Jeffrey Amherst explicitly ordered the use of smallpox-contaminated materials against Indigenous peoples in 1763 correspondence preserved in the National Archives; policy of biological warfare was coordinated at the highest levels of military command', href: '/entities/agencies/british-colonial-government' },

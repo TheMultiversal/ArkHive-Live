@@ -28,7 +28,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Facebook Whistleblower Frances Haugen Documents', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
  { title: 'MIT Study: False News Spreads Faster', url: 'https://science.sciencemag.org/content/359/6380/1146', type: 'Academic Study' },
  { title: 'January 6 Committee Report on Disinformation', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Primary propagandist, Big Lie creator', href: '/entities/individuals/donald-trump' },
@@ -43,17 +43,34 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2020-01-01',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2018-01-01', event: 'Psychological Manipulation Campaigns — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2019-01-01', event: 'Psychological Manipulation Campaigns — Key evidence gathered and accountability analysis updated', type: 'default' },
-
+     { date: '1963', event: 'The Kennedy administration actively engineered the 1963 coup against South Vietnamese President Diem.', type: 'default' },
+     { date: '1964', event: 'The Johnson administration planned the escalation of the war months before the 1964 Gulf of Tonkin Resolution; and the Tonkin incident itself was largely fabricated.', type: 'default' },
+     { date: '1967', event: 'involvement in Vietnam from the Truman administration through 1967.', type: 'default' },
+     { date: '1969', event: 'He photocopied the entire study over several months in late 1969 with the help of former colleague Anthony Russo.', type: 'default' },
+     { date: '1971-06-13', event: 'The Times began publishing on June 13, 1971.', type: 'default' },
+     { date: '1973', event: 'Charges against Ellsberg were dismissed in 1973 due to government misconduct.', type: 'default' },
+   ],
+   timeline: [
+     { date: '2017-06-14', event: 'CONGRESSIONAL BASEBALL SHOOTING: On June 14, 2017, a gunman opened fire at a congressional baseball practice in Alexandria, Virginia, shooting House Majority Whip Steve Scalise and four others.', type: 'default' },
+     { date: '2018-10', event: 'PIPE BOMBS: In October 2018, Cesar Sayoc mailed 16 pipe bombs to prominent Democrats including Barack Obama, Hillary Clinton, Joe Biden, and CNN.', type: 'default' },
+     { date: '2020', event: 'The Michigan militia plot to kidnap Governor Gretchen Whitmer in 2020 demonstrated the potential for organized political violence.', type: 'default' },
+     { date: '2021-01-06', event: 'JANUARY 6 CAPITOL ATTACK: On January 6, 2021, a mob incited by Donald Trump stormed the U.S.', type: 'default' },
+     { date: '2022-10', event: 'PAUL PELOSI ATTACK: In October 2022, David DePape broke into the home of House Speaker Nancy Pelosi and attacked her husband Paul with a hammer, fracturing his skull.', type: 'default' },
+     { date: '2024', event: 'ASSASSINATION ATTEMPTS: In 2024, Donald Trump survived two assassination attempts.', type: 'default' },
+   ],
+   timeline: [
+     { date: '2005', event: 'KATRINA EXPLOITATION: Hurricane Katrina in 2005 devastated New Orleans; but the political response was designed to benefit developers and charter school operators.', type: 'default' },
+     { date: '2018', event: 'The 2018 "migrant caravan" dominated news coverage in the weeks before midterms.', type: 'default' },
+     { date: '2021', event: 'INFLATION OPPORTUNISM: When inflation surged in 2021-2023; corporate profits hit record highs as companies raised prices beyond what cost increases justified.', type: 'default' },
+   ],
+   timeline: [
+     { date: '2002', event: 'Despite having no criminal record, he had been pulled over by police 49 times since 2002; accumulating over $6,000 in fines; a pattern consistent with racial profiling.', type: 'default' },
+     { date: '2016-07-06', event: 'THE TRAFFIC STOP: On July 6, 2016, Officer Jeronimo Yanez pulled over Philando Castile in Falcon Heights, Minnesota; reportedly for a broken taillight.', type: 'default' },
+     { date: '2017-06', event: 'In June 2017, a jury acquitted Yanez on all charges after five days of deliberation.', type: 'default' },
+   ],
+   timeline: [
      { date: '2020', event: 'THE BIG LIE: The sustained false claim that the 2020 election was stolen represents the most successful psychological manipulation campaign in modern American history.', type: 'political' },
-
-     { date: '2020-01-01', event: 'Psychological Manipulation Campaigns investigation begins — events under scrutiny originate from this period', type: 'default' },
-
-     { date: '2021-01-01', event: 'Psychological Manipulation Campaigns — Public accountability efforts reveal continued developments', type: 'default' },
-
+     { date: '2025', event: 'Continued developments in psychological manipulation campaigns with new evidence emerging', type: 'default' },
    ],
  },
   'pharma-conflicts': {
@@ -82,7 +99,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'WHO Funding Sources', url: 'https://www.who.int/about/funding', type: 'Government Data' },
  { title: 'Congressional Stock Trading Investigation', url: 'https://www.nytimes.com/2020/03/19/us/politics/richard-burr-stocks-sold-coronavirus.html', type: 'Investigation' },
  { title: 'FDA User Fee Funding', url: 'https://www.fda.gov/industry/fda-user-fee-programs', type: 'Government Source' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Bill Gates', type: 'individual', relationship: 'Foundation co-chair, major pharma investor', href: '/entities/individuals/bill-gates' },
@@ -128,7 +145,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Open Society Foundations', url: 'https://www.opensocietyfoundations.org/', type: 'Official Source' },
  { title: 'OpenSecrets Dark Money Tracking', url: 'https://www.opensecrets.org/dark-money', type: 'Database' },
  { title: 'Koch Network Investigation', url: 'https://www.newyorker.com/magazine/2010/08/30/covert-operations', type: 'Investigation' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'George Soros', type: 'individual', relationship: 'Major progressive donor', href: '/entities/individuals/george-soros' },
@@ -175,7 +192,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'FDA Hydroxychloroquine Warning', url: 'https://www.fda.gov/drugs/drug-safety-and-availability/fda-cautions-against-use-hydroxychloroquine-or-chloroquine-covid-19-outside-hospital-setting-or', type: 'Government Warning' },
  { title: 'CDC Excess Deaths Data', url: 'https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm', type: 'Government Data' },
  { title: 'Study on Partisan COVID Deaths', url: 'https://www.nber.org/papers/w30512', type: 'Academic Study' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Spread COVID misinformation, downplayed virus', href: '/entities/individuals/donald-trump' },
@@ -225,7 +242,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'CREW Trump Ethics Violations', url: 'https://www.citizensforethics.org/reports-investigations/crew-reports/president-trump-legacy-corruption/', type: 'Investigation' },
  { title: 'Presidential Pardons Analysis', url: 'https://www.pogo.org/analysis/2021/01/a-pardon-for-corruption/', type: 'Analysis' },
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'President who abused power', href: '/entities/individuals/donald-trump' },
@@ -275,7 +292,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'DOD Inspector General Report', url: 'https://media.defense.gov/2021/Apr/13/2002621546/-1/-1/0/DODIG-2021-082.PDF', type: 'Government Report' },
  { title: 'January 6 Committee Pentagon Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Miller Memo on Guard Restrictions', url: 'https://www.washingtonpost.com/national-security/dc-national-guard-deployment-orders/2021/01/11/c3f6f64a-5467-11eb-a931-5b162d0d033d_story.html', type: 'Document' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Christopher Miller', type: 'individual', relationship: 'Acting SecDef, restricted Guard', href: '/entities/individuals/christopher-miller' },
@@ -291,10 +308,8 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2020', event: 'CONTRAST WITH 2020: During June 2020 BLM protests, military helicopters flew low over crowds, Guard troops were deployed rapidly, and the Chairman of the Joint Chiefs walked with Trump through cleared streets.', type: 'default' },
-     { date: '2020-01-01', event: 'Pentagon January 6 Failures investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020-06', event: 'CONTRAST WITH 2020: During June 2020 BLM protests, military helicopters flew low over crowds, Guard troops were deployed rapidly, and the Chairman of the Joint Chiefs walked with Trump through cleared streets.', type: 'default' },
-     { date: '2025-10-12', event: 'Pentagon January 6 Failures — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'proud-boys-terrorism': {
  title: 'Proud Boys Domestic Terrorism',
@@ -324,7 +339,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Proud Boys Profile, SPLC', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/proud-boys', type: 'Organization Profile' },
  { title: 'January 6 Committee Proud Boys Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Trial Evidence, Court Documents', url: 'https://www.courtlistener.com/docket/60038297/united-states-v-nordean/', type: 'Court Filing' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Enrique Tarrio', type: 'individual', relationship: 'Chairman, 22 year sentence', href: '/entities/individuals/enrique-tarrio' },
@@ -373,7 +388,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Novak Column Exposing Plame', url: 'https://www.washingtonpost.com/wp-dyn/content/article/2005/07/14/AR2005071402269.html', type: 'News Column' },
  { title: 'Libby Indictment', url: 'https://www.justice.gov/archive/osc/documents/libby_indictment_28102005.pdf', type: 'Court Filing' },
  { title: 'Fair Game, Valerie Plame Memoir', url: 'https://www.simonandschuster.com/books/Fair-Game/Valerie-Plame-Wilson/9781416537625', type: 'Book' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Valerie Plame', type: 'individual', relationship: 'Exposed CIA officer', href: '/entities/individuals/valerie-plame' },
@@ -425,7 +440,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Guardian Phone Hacking Coverage', url: 'https://www.theguardian.com/media/phone-hacking', type: 'Investigation' },
  { title: 'Hack Attack, Nick Davies', url: 'https://www.penguin.co.uk/books/251/251478/hack-attack/9780099572541.html', type: 'Book' },
  { title: 'NYT, Phone Hacking Timeline', url: 'https://www.nytimes.com/2011/07/11/world/europe/11hacking-timeline.html', type: 'Timeline' },
-   { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
+   { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Rupert Murdoch', type: 'individual', relationship: 'Owner of News Corp', href: '/entities/individuals/rupert-murdoch' },
@@ -439,10 +454,8 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2002', event: 'The scandal exploded when it emerged that News of the World hacked the phone of murdered schoolgirl Milly Dowler in 2002, deleting messages and giving her parents false hope she was alive.', type: 'default' },
-     { date: '2002-01-01', event: 'News Corp Phone Hacking Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2011-07', event: 'In July 2011, Murdoch closed News of the World after 168 years, ostensibly taking responsibility, actually eliminating evidence and sacrificing one paper to protect the empire.', type: 'default' },
-     { date: '2025-06-08', event: 'News Corp Phone Hacking Scandal — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'phone-hacking-scandal': {
  title: 'News International Phone Hacking',
@@ -469,7 +482,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Leveson Inquiry Report', url: 'https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press', type: 'Government Report' },
  { title: 'Guardian Phone Hacking Coverage', url: 'https://www.theguardian.com/media/phone-hacking', type: 'News Coverage' },
  { title: 'House of Commons Media Committee Report', url: 'https://publications.parliament.uk/pa/cm201012/cmselect/cmcumeds/903/903.pdf', type: 'Government Report' },
-   { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
+   { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Rupert Murdoch', type: 'individual', relationship: 'Owner of News International', href: '/entities/individuals/rupert-murdoch' },
@@ -482,10 +495,8 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2011', event: 'On July 7, 2011, Murdoch announced the paper would close after 168 years.', type: 'default' },
-     { date: '2011-01-01', event: 'News International Phone Hacking investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2011-07-07', event: 'On July 7, 2011, Murdoch announced the paper would close after 168 years.', type: 'default' },
-     { date: '2012-08-13', event: 'News International Phone Hacking — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'private-prisons': {
  title: 'Private Prison Industry',
@@ -507,7 +518,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'In the Public Interest Report', url: 'https://www.inthepublicinterest.org/', type: 'Research' },
  { title: 'Sentencing Project Private Prison Report', url: 'https://www.sentencingproject.org/publications/capitalizing-on-mass-incarceration-u-s-growth-in-private-prisons/', type: 'Research Report' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'CoreCivic', type: 'corporation', relationship: 'Largest private prison company', href: '/entities/corporations/corecivic' },
@@ -519,9 +530,7 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2013-03-28', event: 'Private prison corporations make billions by incarcerating human beings', type: 'legal' },
-     { date: '2017-01', event: 'Sentencing Project Private Prison Report — Investigation deepens as new evidence and documentation gathered', type: 'legal' },
-     { date: '2021-01', event: 'Sentencing Project Private Prison Report — Ongoing accountability efforts continue; key developments documented', type: 'legal' },
-     { date: '2025-01', event: 'Sentencing Project Private Prison Report — Latest developments tracked; investigation updated with new findings', type: 'legal' },
+     { date: '2018', event: 'Subsequent developments in private prison industry reveal broader systemic patterns', type: 'default' },
    ],
  },
   'presidential-immunity': {
@@ -552,15 +561,8 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2024-07-31',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2022-01-01', event: 'Presidential Immunity Decision — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2023-01-01', event: 'Presidential Immunity Decision — Key evidence gathered and accountability analysis updated', type: 'default' },
-
-     { date: '2024-01-01', event: 'Presidential Immunity Decision investigation begins — events under scrutiny originate from this period', type: 'political' },
-
-     { date: '2025-01-01', event: 'Presidential Immunity Decision — Public accountability efforts reveal continued developments', type: 'default' },
-
+     { date: '2024', event: 'Trump v. United States Decision — initial events and core patterns documented', type: 'default' },
+     { date: '2029', event: 'Continued developments in trump v. united states decision with new evidence emerging', type: 'default' },
    ],
  },
   'purdue-pharma-opioids': {
@@ -592,6 +594,10 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1999-01-01',
    lastActivityDate: '2022-02-11',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1999', event: 'DEATH TOLL: Over 500,000 Americans have died from opioid overdoses since 1999.', type: 'default' },
+     { date: '2019', event: 'BANKRUPTCY SHIELD: Purdue declared bankruptcy in 2019 to resolve thousands of lawsuits.', type: 'default' },
+   ],
    moneyTrail: [
      { date: '1996-01-01', from: 'OxyContin sales', to: 'Purdue Pharma', amount: '$35,000,000,000', purpose: 'Total OxyContin revenue 1996-2020; marketed as less addictive despite knowing the opposite', documented: true },
      { date: '2020-01-01', from: 'Sackler family', to: 'Offshore trusts and accounts', amount: '$10,400,000,000', purpose: 'Family withdrew billions from Purdue before bankruptcy filing, shielding personal wealth from creditors and victims', documented: true },
@@ -625,7 +631,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'CDC COVID-19 Testing Timeline', url: 'https://www.cdc.gov/museum/timeline/covid19.html', type: 'Government Report' },
  { title: 'NSC Pandemic Team Disbandment', url: 'https://apnews.com/article/ap-fact-check-joe-biden-pandemics-public-health-government-and-politics-d36d6c4de29f4d04beda3db00cb46104', type: 'News Report' },
  { title: 'APM Research Lab: COVID Race Data', url: 'https://www.apmresearchlab.org/covid/deaths-by-race', type: 'Research Report' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Disbanded pandemic team, promoted unproven treatments, resisted masks', href: '/entities/individuals/donald-trump' },
@@ -669,7 +675,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Freeh Report', url: 'https://www.documentcloud.org/documents/396512-freeh-report.html', type: 'Investigation' },
  { title: 'Grand Jury Presentment', url: 'https://www.documentcloud.org/documents/259343-sandusky-grand-jury-presentment.html', type: 'Court Filing' },
  { title: 'CNN Sandusky Trial Coverage', url: 'https://www.cnn.com/2012/06/22/justice/pennsylvania-sandusky-trial', type: 'News Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Federal investigation into university cover-up', href: '/entities/agencies/doj' },
@@ -711,7 +717,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'SEC Penny Stock Fraud Alerts', url: 'https://www.sec.gov/fast-answers/answerspennyhtm.html', type: 'Government' },
  { title: 'FBI: Securities Fraud', url: 'https://www.fbi.gov/investigate/white-collar-crime/securities-and-commodities-fraud', type: 'Government' },
  { title: 'FINRA: Penny Stock Risks', url: 'https://www.finra.org/investors/insights/penny-stock-fraud', type: 'Research' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Penny stock fraud enforcement; trading suspensions', href: '/entities/agencies/sec' },
@@ -722,9 +728,6 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1990-01-01', event: 'Penny stock fraud', type: 'financial' },
-     { date: '1996-01', event: 'FINRA: Penny Stock Risks — Investigation deepens as new evidence and documentation gathered', type: 'financial' },
-     { date: '2003-01', event: 'FINRA: Penny Stock Risks — Ongoing accountability efforts continue; key developments documented', type: 'financial' },
-     { date: '2009-01', event: 'FINRA: Penny Stock Risks — Latest developments tracked; investigation updated with new findings', type: 'financial' },
      { date: '2015-01', event: 'FINRA: Penny Stock Risks — Current status: monitoring continues with active documentation', type: 'financial' },
    ],
  },
@@ -750,7 +753,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ Press Release: Petters Conviction', url: 'https://www.justice.gov/archive/usao/mn/press/petters.html', type: 'Government' },
  { title: 'Minneapolis Star Tribune Investigation', url: 'https://www.startribune.com/topic/tom-petters/', type: 'News Report' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Prosecuted $3.7B Ponzi scheme; 50-year sentence', href: '/entities/agencies/doj' },
@@ -761,13 +764,11 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2002', event: 'Tom Petters operated a $3.7 billion Ponzi scheme from 2002 to 2008 by convincing investors they were financing the purchase of consumer electronics that would be resold to big-box retailers like Costco, Sam\'s Club,...', type: 'financial' },
-     { date: '2002-01-01', event: 'Tom Petters $3.7 Billion Ponzi Scheme investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '2008', event: 'Tom Petters operated a $3.7 billion Ponzi scheme from 2002 to 2008 by convincing investors they were financing the purchase of consumer electronics that would be resold to big-box retailers like Costco, Sam\'s Club,...', type: 'financial' },
      { date: '2008-09', event: 'The scheme unraveled in September 2008 when co-conspirator Deanna Coleman began cooperating with the FBI.', type: 'default' },
      { date: '2009', event: 'In December 2009, Petters was convicted on all 20 counts and sentenced to 50 years in federal prison; one of the longest sentences ever imposed for a financial crime.', type: 'legal' },
      { date: '2009-12', event: 'In December 2009, Petters was convicted on all 20 counts and sentenced to 50 years in federal prison; one of the longest sentences ever imposed for a financial crime.', type: 'legal' },
-     { date: '2025-07-24', event: 'Tom Petters $3.7 Billion Ponzi Scheme — investigation remains active with ongoing developments', type: 'financial' },
-   ],
+     ],
  },
   'pfas-contamination': {
  title: 'PFAS "Forever Chemical" Contamination',
@@ -792,7 +793,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'C8 Science Panel Findings', url: 'http://www.c8sciencepanel.org/', type: 'Research Study' },
  { title: 'EPA PFAS Strategic Roadmap', url: 'https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitment-action-2021-2024', type: 'Government' },
  { title: 'EWG PFAS Contamination Map', url: 'https://www.ewg.org/interactive-maps/pfas_contamination/', type: 'Research' },
-   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DuPont', type: 'corporation', relationship: 'Concealed C8 toxicity data for decades while poisoning communities', href: '/entities/corporations/dupont' },
@@ -836,7 +837,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'House Oversight: Drug Pricing Investigation', url: 'https://oversight.house.gov/landing/drug-pricing-investigation/', type: 'Congressional Record' },
  { title: 'Inflation Reduction Act: Drug Pricing Provisions', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare', type: 'Legislation' },
  { title: 'PhRMA Lobbying Disclosures', url: 'https://www.opensecrets.org/federal-lobbying/industries/summary?id=H04', type: 'Financial Disclosure' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Pfizer', type: 'corporation', relationship: 'Sued to block Medicare drug price negotiation', href: '/entities/corporations/pfizer' },
@@ -881,7 +882,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'DOJ: GSK $3 Billion Settlement', url: 'https://www.justice.gov/opa/pr/glaxosmithkline-plead-guilty-and-pay-3-billion-resolve-fraud-allegations-and-failure-report', type: 'Government' },
  { title: 'Public Citizen: Pharmaceutical Industry Criminal and Civil Penalties', url: 'https://www.citizen.org/article/twenty-seven-years-of-pharmaceutical-industry-criminal-and-civil-penalties/', type: 'Research' },
  { title: 'DOJ: Pharmaceutical Fraud Enforcement', url: 'https://www.justice.gov/civil/pages/attachments/2019/02/04/fraud_statistics_-_fca_1986-2018.pdf', type: 'Government' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to prevent off-label promotion and delayed enforcement against concealed safety data', href: '/entities/agencies/fda' },
@@ -935,6 +936,11 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-07-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2002', event: 'Despite having no criminal record, he had been pulled over by police 49 times since 2002; accumulating over $6,000 in fines; a pattern consistent with racial profiling.', type: 'default' },
+     { date: '2016', event: 'THE TRAFFIC STOP: On July 6, 2016, Officer Jeronimo Yanez pulled over Philando Castile in Falcon Heights, Minnesota; reportedly for a broken taillight.', type: 'default' },
+     { date: '2017', event: 'In June 2017, a jury acquitted Yanez on all charges after five days of deliberation.', type: 'default' },
+   ],
  },  'philippine-drug-war': {
  title: 'Philippine Drug War',
  subtitle: 'Rodrigo Duterte\'s extrajudicial killing campaign murdered thousands under the guise of drug enforcement',
@@ -961,7 +967,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'ICC Investigation Authorization', url: 'https://www.icc-cpi.int/philippines', type: 'Court Filing' },
  { title: 'Amnesty International: They Just Kill', url: 'https://www.amnesty.org/en/documents/asa35/5517/2017/en/', type: 'Investigation' },
  { title: 'Reuters: Philippine Drug War Death Toll', url: 'https://www.reuters.com/investigates/special-report/philippines-drugs-surveillance/', type: 'Investigation' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'ICC', type: 'agency', relationship: 'Authorized investigation for crimes against humanity', href: '/entities/agencies/icc' },
@@ -970,6 +976,10 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2022-07-31',
    lastActivityDate: '2025-09-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'CHILDREN KILLED: At least 122 children were killed in the drug war between 2016 and 2019, according to the Philippine Commission on Human Rights.', type: 'default' },
+     { date: '2019', event: 'Duterte withdrew the Philippines from the ICC in 2019 to avoid jurisdiction, but the ICC ruled it could investigate crimes committed while the Philippines was a member.', type: 'default' },
+   ],
    timeline: [
      { date: '2002', event: 'Despite having no criminal record, he had been pulled over by police 49 times since 2002; accumulating over $6,000 in fines; a pattern consistent with racial profiling', type: 'financial' },
      { date: '2016', event: 'CHILDREN KILLED: At least 122 children were killed in the drug war between 2016 and 2019, according to the Philippine Commission on Human Rights', type: 'critical' },
@@ -1006,7 +1016,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'NPR/PBS Frontline: Plastic Wars', url: 'https://www.pbs.org/wgbh/frontline/documentary/plastic-wars/', type: 'Investigation' },
  { title: 'OECD: Global Plastics Outlook', url: 'https://www.oecd.org/en/publications/global-plastics-outlook_de747aef-en.html', type: 'Research Report' },
  { title: 'Break Free From Plastic: Brand Audit', url: 'https://www.breakfreefromplastic.org/brandaudit/', type: 'Research' },
-   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Largest producer of single-use plastic polymers; funded recycling deception campaigns', href: '/entities/corporations/exxonmobil' },
@@ -1015,6 +1025,13 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2025-07-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1950', event: 'PRODUCTION EXPLOSION: Global plastic production has increased from 2 million tons in 1950 to over 400 million tons in 2024.', type: 'default' },
+     { date: '2000', event: 'More than half of all plastic ever produced was made after 2000.', type: 'default' },
+     { date: '2020', event: 'THE RECYCLING DECEPTION: Internal industry documents from the 1970s and 1980s; uncovered by NPR and PBS Frontline in 2020; reveal that plastics manufacturers knew recycling was not economically viable for most plastic types.', type: 'default' },
+     { date: '2021', event: 'Amazon alone generated 709 million pounds of plastic packaging waste in 2021.', type: 'default' },
+     { date: '2022', event: 'GLOBAL TREATY NEGOTIATIONS: The United Nations began negotiating a Global Plastics Treaty in 2022; with the goal of a binding agreement by 2025.', type: 'default' },
+   ],
    timeline: [
      { date: '1950', event: 'PRODUCTION EXPLOSION: Global plastic production has increased from 2 million tons in 1950 to over 400 million tons in 2024', type: 'critical' },
      { date: '2000', event: 'More than half of all plastic ever produced was made after 2000', type: 'default' },
@@ -1047,7 +1064,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'HUD v. Facebook: Fair Housing Charge', url: 'https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_035', type: 'Government' },
  { title: 'Buolamwini & Gebru: Gender Shades', url: 'http://gendershades.org/', type: 'Research' },
  { title: 'Obermeyer et al: Healthcare Algorithm Bias (Science)', url: 'https://www.science.org/doi/10.1126/science.aax2342', type: 'Research Study' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Enabled housing and employment ad discrimination through targeting tools', href: '/entities/corporations/meta-platforms' },
@@ -1089,7 +1106,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Facebook Papers: Internal Research Documents', url: 'https://www.documentcloud.org/documents/21394479-facebook-papers', type: 'Internal Document' },
  { title: 'NYT: The Radicalization of YouTube', url: 'https://www.nytimes.com/interactive/2019/06/08/technology/youtube-radical.html', type: 'Investigation' },
  { title: 'UN Mission: Facebook Role in Myanmar', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', type: 'Investigation' },
-   { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
+   { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Meta Platforms', type: 'corporation', relationship: 'Algorithm recommended extremist groups to 64% of users who joined them', href: '/entities/corporations/meta-platforms' },
@@ -1131,7 +1148,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Pew Research: Political Polarization Trends', url: 'https://www.pewresearch.org/politics/2014/06/12/political-polarization-in-the-american-public/', type: 'Research Report' },
  { title: 'Berkman Klein: Network Propaganda', url: 'https://cyber.harvard.edu/publications/2018/11/MediaCloud', type: 'Research' },
  { title: 'FiveThirtyEight: The Gerrymandering Project', url: 'https://fivethirtyeight.com/tag/redistricting/', type: 'Data Analysis' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Primary driver of right-wing media ecosystem fueling partisan division', href: '/entities/corporations/fox-news' },
@@ -1174,7 +1191,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'DOJ Pattern or Practice Investigations', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government Report' },
  { title: 'SCOTUS Qualified Immunity Doctrine', url: 'https://www.supremecourt.gov/opinions/17pdf/17-467_bq7d.pdf', type: 'Court Ruling' },
  { title: 'George Floyd Justice in Policing Act', url: 'https://www.congress.gov/bill/117th-congress/house-bill/1280', type: 'Legislation' },
-   { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+   { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Conducts pattern-or-practice investigations', href: '/entities/agencies/doj' },
@@ -1187,11 +1204,9 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1983', event: 'This judge-made doctrine, which has no basis in the text of Section 1983, has been the primary barrier to civil accountability for police abuse.', type: 'legal' },
-     { date: '1983-01-01', event: 'Police Accountability Crisis investigation begins — events under scrutiny originate from this period', type: 'critical' },
      { date: '2013', event: 'Between 2013 and 2023, 98.1% of killings by police did not result in officers being charged with a crime.', type: 'default' },
      { date: '2023', event: 'Between 2013 and 2023, 98.1% of killings by police did not result in officers being charged with a crime.', type: 'default' },
-     { date: '2024-11-19', event: 'Police Accountability Crisis — investigation remains active with ongoing developments', type: 'critical' },
-   ],
+     ],
  },
   'political-corruption': {
  title: 'Systemic Political Corruption in America',
@@ -1217,7 +1232,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Gilens & Page: Testing Theories of American Politics', url: 'https://scholar.princeton.edu/sites/default/files/mgilens/files/gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf', type: 'Research Study' },
  { title: 'OpenSecrets: Lobbying Database', url: 'https://www.opensecrets.org/federal-lobbying', type: 'Data' },
  { title: 'Citizens United v. FEC', url: 'https://www.supremecourt.gov/opinions/09pdf/08-205.pdf', type: 'Court Ruling' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Public corruption unit prosecutes bribery but legalized corruption remains beyond reach', href: '/entities/agencies/doj' },
@@ -1258,7 +1273,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'ProPublica: Leonard Leo $1.6B Donation', url: 'https://www.propublica.org/article/dark-money-leonard-leo-barre-seid', type: 'Investigation' },
  { title: 'OpenSecrets: Dark Money Database', url: 'https://www.opensecrets.org/dark-money', type: 'Data' },
  { title: 'Brennan Center: Secret Spending in the States', url: 'https://www.brennancenter.org/our-work/research-reports/secret-spending-states', type: 'Research' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FEC', type: 'agency', relationship: 'Structurally deadlocked 3-3; hundreds of dark money complaints uninvestigated', href: '/entities/agencies/fec' },
@@ -1300,7 +1315,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'DOJ: George Santos Indictment', url: 'https://www.justice.gov/usao-edny/pr/congressman-george-santos-charged-fraud-money-laundering-and-theft-public-funds', type: 'Court Filing' },
  { title: 'House Ethics Committee Santos Report', url: 'https://ethics.house.gov/press-releases', type: 'Congressional Record' },
  { title: 'DOJ: We Build the Wall Fraud Charges', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', type: 'Court Filing' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes political fraud but enforcement is inconsistent and often delayed', href: '/entities/agencies/doj' },
@@ -1342,7 +1357,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Senate Intelligence Committee: Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications/report-us-intelligence-communitys-prewar-intelligence-assessments-iraq', type: 'Congressional Record' },
  { title: 'National Archives: Gulf of Tonkin Documents', url: 'https://www.archives.gov/research/pentagon-papers', type: 'Government' },
  { title: 'Heritage Foundation: Voter Fraud Database', url: 'https://www.heritage.org/voterfraud', type: 'Data' },
-   { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
+   { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Promoted birtherism for years; manufactured the Big Lie about 2020 election fraud', href: '/entities/individuals/donald-trump' },
@@ -1383,7 +1398,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Roll Call: Congressional Stock Trading Tracker', url: 'https://www.rollcall.com/stock-trading/', type: 'Data' },
  { title: 'OpenSecrets: Personal Finances of Congress', url: 'https://www.opensecrets.org/personal-finances', type: 'Data' },
  { title: 'Washington Post: Political Hypocrisy Database', url: 'https://www.washingtonpost.com/politics/', type: 'Investigation' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Congress', type: 'agency', relationship: 'Systematic pattern of rules for constituents that members exempt themselves from', href: '/entities/agencies/congress' },
@@ -1395,12 +1410,10 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2012', event: 'Despite the 2012 STOCK Act; studies show that congressional stock trades outperform the market.', type: 'default' },
-     { date: '2012-01-01', event: 'Political Hypocrisy Exposed investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2017', event: 'The 2017 Tax Cuts and Jobs Act; championed by deficit hawks; added $1.9 trillion to the national debt.', type: 'default' },
      { date: '2020', event: 'Senators who received classified COVID-19 briefings in January 2020 sold stocks before the market crash while publicly downplaying the virus.', type: 'default' },
      { date: '2020-01', event: 'Senators who received classified COVID-19 briefings in January 2020 sold stocks before the market crash while publicly downplaying the virus.', type: 'default' },
-     { date: '2025-07-15', event: 'Political Hypocrisy Exposed — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'political-opportunism': {
  title: 'Political Opportunism and Crisis Exploitation',
@@ -1434,6 +1447,13 @@ const investigations_p: Record<string, InvestigationData> = {
    eventOriginDate: '2005-01-01',
    lastActivityDate: '2025-07-15',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2017', event: 'CONGRESSIONAL BASEBALL SHOOTING: On June 14, 2017, a gunman opened fire at a congressional baseball practice in Alexandria, Virginia, shooting House Majority Whip Steve Scalise and four others.', type: 'default' },
+     { date: '2018', event: 'PIPE BOMBS: In October 2018, Cesar Sayoc mailed 16 pipe bombs to prominent Democrats including Barack Obama, Hillary Clinton, Joe Biden, and CNN.', type: 'default' },
+     { date: '2020', event: 'THREATS AGAINST ELECTION WORKERS: After the 2020 election, election officials and poll workers across the country received death threats.', type: 'default' },
+     { date: '2021', event: 'JANUARY 6 CAPITOL ATTACK: On January 6, 2021, a mob incited by Donald Trump stormed the U.S.', type: 'default' },
+     { date: '2022', event: 'PAUL PELOSI ATTACK: In October 2022, David DePape broke into the home of House Speaker Nancy Pelosi and attacked her husband Paul with a hammer, fracturing his skull.', type: 'default' },
+   ],
  },  'political-violence': {
  title: 'Political Violence in America',
  subtitle: 'Rising tide of politically motivated threats, intimidation, and violence targeting officials and institutions',
@@ -1460,7 +1480,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Reuters: Election Worker Threats Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-election-threats/', type: 'Investigation' },
  { title: 'Capitol Police Threat Assessment Data', url: 'https://www.uscp.gov/media-center/press-releases/us-capitol-police-releases-2021-annual-report', type: 'Government Report' },
  { title: 'DOJ Oath Keepers Seditious Conspiracy Convictions', url: 'https://www.justice.gov/usao-dc/pr/oath-keepers-leader-found-guilty-seditious-conspiracy', type: 'Court Filing' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Incited January 6 attack; rhetoric fuels political violence', href: '/entities/individuals/donald-trump' },
@@ -1510,7 +1530,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'AP: NYPD Muslim Surveillance Investigation', url: 'https://www.ap.org/explore/nypd/', type: 'Investigation' },
  { title: 'Human Rights Watch: Illusion of Justice', url: 'https://www.hrw.org/report/2014/07/21/illusion-justice/human-rights-abuses-us-terrorism-prosecutions', type: 'Research Report' },
  { title: 'DOJ Inspector General: 9/11 Detainee Report', url: 'https://oig.justice.gov/special/0306/', type: 'Government' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Deployed 15,000+ informants in Muslim communities; entrapment-heavy prosecution tactics', href: '/entities/agencies/fbi' },
@@ -1552,7 +1572,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'DOJ: Wells Fargo Fair Lending Settlement', url: 'https://www.justice.gov/opa/pr/department-justice-reaches-settlement-wells-fargo-resulting-more-175-million-relief', type: 'Government' },
  { title: 'CFPB: Payday Lending Data', url: 'https://www.consumerfinance.gov/data-research/research-reports/payday-lending/', type: 'Research Report' },
  { title: 'National Fair Housing Alliance: Lending Discrimination Report', url: 'https://nationalfairhousing.org/reports-research/', type: 'Research' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Steered minority borrowers to high-cost subprime "ghetto loans"', href: '/entities/corporations/wells-fargo' },
@@ -1592,7 +1612,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Reporters Without Borders: U.S. Press Freedom Index', url: 'https://rsf.org/en/country/united-states', type: 'Research Report' },
  { title: 'U.S. Press Freedom Tracker', url: 'https://pressfreedomtracker.us/', type: 'Data' },
  { title: 'Northwestern: Local News Initiative', url: 'https://localnewsinitiative.northwestern.edu/', type: 'Research' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted sources under Espionage Act and secretly surveilled reporters\' communications', href: '/entities/agencies/doj' },
@@ -1633,7 +1653,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Committee to Protect Journalists: Data', url: 'https://cpj.org/data/', type: 'Data' },
  { title: 'Reporters Without Borders: World Press Freedom Index', url: 'https://rsf.org/en/index', type: 'Research Report' },
  { title: 'Forbidden Stories: Pegasus Project', url: 'https://forbiddenstories.org/case/the-pegasus-project/', type: 'Investigation' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted sources and surveilled journalists covering national security', href: '/entities/agencies/doj' },
@@ -1676,7 +1696,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Prison Policy Initiative: Mass Incarceration (Whole Pie)', url: 'https://www.prisonpolicy.org/reports/pie2024.html', type: 'Research Report' },
  { title: 'The Sentencing Project: Racial Disparities', url: 'https://www.sentencingproject.org/research/', type: 'Research' },
  { title: 'Worth Rises: Prison Industry Report', url: 'https://worthrises.org/theprisonindustry', type: 'Research' },
-   { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+   { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'CoreCivic', type: 'corporation', relationship: 'Largest private prison company; lobbies for harsher sentencing to fill beds', href: '/entities/corporations/corecivic' },
@@ -1688,12 +1708,10 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1972', event: 'prison population exploded from 300,000 in 1972 to over 2 million by 2024.', type: 'financial' },
-     { date: '1972-01-01', event: 'The Prison Industrial Complex investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2000', event: 'ICE detention has expanded dramatically since 2000.', type: 'default' },
      { date: '2019', event: 'Private companies earned over $3 billion from immigration detention in 2019.', type: 'financial' },
      { date: '2024', event: 'prison population exploded from 300,000 in 1972 to over 2 million by 2024.', type: 'financial' },
-     { date: '2025-07-15', event: 'The Prison Industrial Complex — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'private-equity-abuses': {
  title: 'Private Equity Industry Abuses',
@@ -1718,7 +1736,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Americans for Financial Reform: PE Data Hub', url: 'https://pestakeholder.org/', type: 'Research' },
  { title: 'JAMA: PE Nursing Home Mortality Study', url: 'https://jamanetwork.com/journals/jama/article-abstract/2769549', type: 'Research Study' },
  { title: 'SEC: Private Fund Advisor Data', url: 'https://www.sec.gov/divisions/investment/private-funds-statistics.shtml', type: 'Government' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Largest PE firm; bought 100,000+ homes at foreclosure prices and rented them back at premium rates', href: '/entities/corporations/blackstone-group' },
@@ -1730,11 +1748,9 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2008', event: 'After the 2008 financial crisis; PE firms including Blackstone\'s Invitation Homes bought over 100,000 single-family homes at foreclosure prices; then rented them back to displaced families at premium rates.', type: 'critical' },
-     { date: '2008-01-01', event: 'Private Equity Industry Abuses investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2010', event: 'Between 2010 and 2023; PE-owned companies were responsible for 60% of large retail bankruptcies.', type: 'default' },
      { date: '2023', event: 'Between 2010 and 2023; PE-owned companies were responsible for 60% of large retail bankruptcies.', type: 'default' },
-     { date: '2025-07-15', event: 'Private Equity Industry Abuses — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'private-equity-housing': {
  title: 'Private Equity\'s Takeover of American Housing',
@@ -1759,7 +1775,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'PE Stakeholder Project: Corporate Landlord Reports', url: 'https://pestakeholder.org/reports/', type: 'Research' },
  { title: 'ProPublica: RealPage Rent-Setting Investigation', url: 'https://www.propublica.org/article/yieldstar-rent-increase-realpage-rent', type: 'Investigation' },
  { title: 'National Association of Realtors: Institutional Buyer Data', url: 'https://www.nar.realtor/research-and-statistics', type: 'Data' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Created Invitation Homes; nation\'s largest single-family landlord with 80,000+ properties', href: '/entities/corporations/blackstone-group' },
@@ -1800,7 +1816,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'DOJ IG: Private Prison Safety Report', url: 'https://oig.justice.gov/reports/review-federal-bureau-prisons-monitoring-contract-prisons', type: 'Government' },
  { title: 'Sentencing Project: Private Prison Data', url: 'https://www.sentencingproject.org/publications/private-prisons-united-states/', type: 'Research' },
  { title: 'AP: Kids for Cash Coverage', url: 'https://apnews.com/article/kids-for-cash-pennsylvania-corruption', type: 'Investigation' },
-   { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+   { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'CoreCivic', type: 'corporation', relationship: 'Nation\'s largest private prison company; lobbied for mandatory minimums and immigration detention', href: '/entities/corporations/corecivic' },
@@ -1839,7 +1855,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'National Registry of Exonerations', url: 'https://www.law.umich.edu/special/exoneration/', type: 'Data' },
  { title: 'Innocence Project: Prosecutorial Misconduct Report', url: 'https://innocenceproject.org/prosecutorial-misconduct/', type: 'Research' },
  { title: 'Brady v. Maryland (1963)', url: 'https://supreme.justia.com/cases/federal/us/373/83/', type: 'Court Ruling' },
-   { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+   { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutors who committed misconduct face rare internal discipline', href: '/entities/agencies/doj' },
@@ -1916,7 +1932,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
  { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government' },
  { title: 'NIH National Library of Medicine', url: 'https://pubmed.ncbi.nlm.nih.gov/', type: 'Report' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Press freedom prosecutions', href: '/entities/agencies/doj' },
@@ -1927,9 +1943,6 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1970-01-01', event: 'The most serious public health threats facing Americans are manufactured or perpetuated by corporate influence over regulatory agencies, ...', type: 'critical' },
-     { date: '1984-01', event: 'NIH National Library of Medicine — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
-     { date: '1998-01', event: 'NIH National Library of Medicine — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
-     { date: '2011-01', event: 'NIH National Library of Medicine — Latest developments tracked; investigation updated with new findings', type: 'critical' },
      { date: '2023', event: 'The EPA did not propose drinking water limits until 2023; over 50 years after the dangers were known.', type: 'default' },
    ],
  },
@@ -1956,7 +1969,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Human Rights Campaign', url: 'https://www.hrc.org/resources', type: 'Report' },
  { title: 'Movement Advancement Project', url: 'https://www.lgbtmap.org/', type: 'Report' },
  { title: 'ACLU LGBTQ Rights', url: 'https://www.aclu.org/issues/lgbtq-rights', type: 'Report' },
-   { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+   { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Had investigated shooter previously', href: '/entities/agencies/fbi' },
@@ -2001,7 +2014,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
  { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government' },
  { title: 'NIH National Library of Medicine', url: 'https://pubmed.ncbi.nlm.nih.gov/', type: 'Report' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/purdue-pharma' },
@@ -2042,7 +2055,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Secret Service Pandemic Fraud Estimates', url: 'https://www.secretservice.gov', type: 'Government Report' },
       { title: 'ProPublica PPP Loan Database', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Database' },
       { title: 'DOJ Pandemic Fraud Strike Force', url: 'https://www.justice.gov/criminal-fraud/covid-19-fraud-enforcement', type: 'Government Report' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted 3,000+ PPP fraud defendants but could only address a fraction of estimated $100-200 billion in fraud', href: '/entities/agencies/doj' },
@@ -2052,11 +2065,9 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2024-03-01',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1980-01-01', event: 'PPP Loan Fraud Epidemic investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '2020-03', event: 'The Paycheck Protection Program, created by the CARES Act in March 2020, distributed $793 billion in forgivable loans designed to keep workers employed during COVID-19 shutdowns.', type: 'financial' },
      { date: '2024', event: 'The DOJ has charged over 3,000 defendants in PPP fraud cases as of 2024; but this represents a tiny fraction of the estimated fraud.', type: 'financial' },
-     { date: '2024-03-01', event: 'PPP Loan Fraud Epidemic — investigation remains active with ongoing developments', type: 'financial' },
-   ],
+     ],
   },
   'predatory-lending-systematic-exploitation': {
     title: 'Predatory Lending Systematic Exploitation',
@@ -2079,7 +2090,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'CFPB Payday Lending Report', url: 'https://www.consumerfinance.gov', type: 'Government Report' },
       { title: 'DOJ Fair Lending Enforcement Actions', url: 'https://www.justice.gov/crt/fair-lending', type: 'Government Report' },
       { title: 'National Fair Housing Alliance Report', url: 'https://nationalfairhousing.org', type: 'Research' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Wells Fargo', type: 'corporation', relationship: 'Paid $175 million to settle DOJ allegations of steering Black and Latino borrowers into subprime loans', href: '/entities/corporations/wells-fargo' },
@@ -2090,11 +2101,9 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2004', event: 'Between 2004 and 2007, lenders including Countrywide Financial, Washington Mutual, and Ameriquest originated trillions in subprime mortgages with adjustable rates, balloon payments, and prepayment penalties designed...', type: 'default' },
-     { date: '2004-01-01', event: 'Predatory Lending Systematic Exploitation investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2007', event: 'Between 2004 and 2007, lenders including Countrywide Financial, Washington Mutual, and Ameriquest originated trillions in subprime mortgages with adjustable rates, balloon payments, and prepayment penalties designed...', type: 'default' },
      { date: '2008', event: 'The 2008 financial crisis was directly caused by predatory mortgage lending that stripped $1 trillion in wealth from Black and Latino homeowners.', type: 'critical' },
-     { date: '2024-12-30', event: 'Predatory Lending Systematic Exploitation — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'penny-stock-pump-and-dump-networks': {
     title: 'Penny Stock Pump and Dump Networks',
@@ -2116,7 +2125,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'SEC Penny Stock Enforcement Actions', url: 'https://www.sec.gov/divisions/enforce/claims.htm', type: 'Government Report' },
       { title: 'FINRA Investor Alerts', url: 'https://www.finra.org/investors/insights', type: 'Regulatory Filing' },
       { title: 'FBI Securities Fraud Unit', url: 'https://www.fbi.gov/investigate/white-collar-crime/securities-and-commodities-fraud', type: 'Government Report' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Brings 50-75 penny stock enforcement actions annually but cannot keep pace with thousands of active manipulation schemes', href: '/entities/agencies/sec' },
@@ -2126,13 +2135,11 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2025-04-27',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1990-01-01', event: 'Penny Stock Pump and Dump Networks investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020', event: 'The 2020-2021 retail trading boom transformed penny stock fraud.', type: 'financial' },
      { date: '2021', event: 'The 2021 GameStop phenomenon highlighted how the line between legitimate retail enthusiasm and coordinated manipulation has become increasingly blurred in the social media era.', type: 'default' },
      { date: '2022', event: 'The SEC charged multiple social media influencers in 2022-2023 for promoting stocks while secretly planning to sell.', type: 'default' },
      { date: '2023', event: 'The SEC charged multiple social media influencers in 2022-2023 for promoting stocks while secretly planning to sell.', type: 'default' },
-     { date: '2025-04-27', event: 'Penny Stock Pump and Dump Networks — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'project-mkultra-subproject-registry': {
     title: 'Project MKUltra Subproject Registry',
@@ -2194,7 +2201,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'National Archives: Pentagon Papers', url: 'https://www.archives.gov/research/pentagon-papers', type: 'Government Record' },
       { title: 'Supreme Court: New York Times Co. v. United States (1971)', url: 'https://supreme.justia.com/cases/federal/us/403/713/', type: 'Court Record' },
       { title: 'National Security Archive: Pentagon Papers Collection', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
-      { name: 'Congressional Research Service', url: 'https://crsreports.congress.gov/' },
+      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Commissioned the study documenting four administrations\' systematic deception about Vietnam', href: '/entities/agencies/pentagon' },
@@ -2237,7 +2244,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Privacy and Civil Liberties Oversight Board: Section 702 Report', url: 'https://www.pclob.gov', type: 'Government Report' },
       { title: 'FISA Court Declassified Opinions', url: 'https://www.fisc.uscourts.gov/public-filings', type: 'Court Record' },
       { title: 'NSA Civil Liberties and Privacy Office Reports', url: 'https://www.nsa.gov/about/civil-liberties/', type: 'Government Report' },
-      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Operated PRISM from 2007; collected communications data from nine major tech companies under Section 702 authority', href: '/entities/agencies/nsa' },
@@ -2275,7 +2282,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'BMJ: FDA Reviewer Conflicts of Interest Study', url: 'https://www.bmj.com', type: 'Research' },
       { title: 'Science: FDA Advisory Committee Conflicts', url: 'https://www.science.org', type: 'Research' },
       { title: 'Senate Finance Committee: FDA Oversight', url: 'https://www.finance.senate.gov', type: 'Congressional Report' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Receives 65%+ of drug review budget from pharmaceutical user fees; documented revolving door with industry', href: '/entities/agencies/fda' },
@@ -2312,7 +2319,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'OpenSecrets: Pharmaceutical Lobbying Data', url: 'https://www.opensecrets.org/industries/indus?ind=H04', type: 'Financial Record' },
       { title: 'Senate Finance Committee: Drug Pricing Investigations', url: 'https://www.finance.senate.gov', type: 'Congressional Report' },
       { title: 'GAO: Medicare Part D Price Negotiation Analysis', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Subject of pharmaceutical lobbying; industry user fees create financial dependency', href: '/entities/agencies/fda' },
@@ -2348,7 +2355,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'EPA PFAS Strategic Roadmap', url: 'https://www.epa.gov/pfas', type: 'Government Report' },
       { title: 'ATSDR PFAS Exposure Assessments', url: 'https://www.atsdr.cdc.gov/pfas/', type: 'Government Report' },
       { title: 'C8 Science Panel Findings', url: 'http://www.c8sciencepanel.org', type: 'Research' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DuPont', type: 'corporation', relationship: 'Concealed evidence of PFOA toxicity and water contamination for 50+ years; settled 3,550 claims for $670 million', href: '/entities/corporations/dupont' },
@@ -2385,7 +2392,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'USDA Colony Loss Survey', url: 'https://www.ars.usda.gov', type: 'Government Report' },
       { title: 'European Food Safety Authority: Neonicotinoid Assessments', url: 'https://www.efsa.europa.eu', type: 'Research' },
       { title: 'EPA Pollinator Risk Assessments', url: 'https://www.epa.gov/pollinator-protection', type: 'Government Report' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Delayed neonicotinoid restrictions for 15+ years despite evidence of harm; political appointees overruled scientists', href: '/entities/agencies/epa' },
@@ -2424,7 +2431,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Nature: Predictive Policing and Racial Bias', url: 'https://www.nature.com', type: 'Research' },
       { title: 'RAND Corporation: Chicago Strategic Subject List Evaluation', url: 'https://www.rand.org', type: 'Research' },
       { title: 'ProPublica: Machine Bias (COMPAS Investigation)', url: 'https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing', type: 'Investigative Report' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'Deployed Gotham platform for predictive policing in New Orleans secretly without public knowledge or city council approval', href: '/entities/corporations/palantir' },
@@ -2461,7 +2468,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'PLOS Medicine: Ghostwriting in Medical Literature', url: 'https://journals.plos.org/plosmedicine/', type: 'Research' },
       { title: 'JAMA: Prevalence of Ghost Authorship', url: 'https://jamanetwork.com', type: 'Research' },
       { title: 'BMJ: Restoring Study 329 Reanalysis', url: 'https://www.bmj.com', type: 'Research' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Relies on published literature for drug safety assessments; ghostwritten articles corrupt the evidence base', href: '/entities/agencies/fda' },
@@ -2472,11 +2479,9 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2001', event: 'GlaxoSmithKline ghostwrote Study 329; a clinical trial of Paxil (paroxetine) in adolescents that was published in the Journal of the American Academy of Child and Adolescent Psychiatry in 2001.', type: 'legal' },
-     { date: '2001-01-01', event: 'Pharmaceutical Ghost Writing investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2004', event: 'The drug killed an estimated 27,785 people from heart attacks before its 2004 withdrawal.', type: 'critical' },
      { date: '2015', event: 'When independent researchers reanalyzed the study data in 2015, they found the conclusions were the opposite of what the ghostwritten article claimed.', type: 'default' },
-     { date: '2023-12-21', event: 'Pharmaceutical Ghost Writing — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'pentagon-budget-black-programs': {
     title: 'Pentagon Budget Black Programs',
@@ -2498,7 +2503,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'DoD Comptroller: Financial Audit Results', url: 'https://comptroller.defense.gov/ODCFO/audit.aspx', type: 'Government Audit' },
       { title: 'Government Accountability Office: DoD Financial Management', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'Washington Post: The Black Budget (Snowden Documents)', url: 'https://www.washingtonpost.com/world/national-security/black-budget-summary-details-us-spy-networks-successes-failures-and-objectives/2013/08/29/', type: 'Investigative Report' },
-      { name: 'Congressional Research Service', url: 'https://crsreports.congress.gov/' },
+      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Failed every financial audit since 2018; cannot account for 61% of $3.8 trillion in assets', href: '/entities/agencies/pentagon' },
@@ -2509,11 +2514,9 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2013', event: 'Edward Snowden\'s 2013 disclosures revealed that the ;black budget; for intelligence alone was $52.6 billion in fiscal year 2013.', type: 'financial' },
-     { date: '2013-01-01', event: 'Pentagon Budget Black Programs investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2018', event: 'Congress mandated that the DoD undergo annual financial audits beginning in 2018.', type: 'political' },
      { date: '2023', event: 'The 2023 audit; conducted by 29 independent accounting firms; found that the Department could not account for 61% of its $3.8 trillion in assets.', type: 'default' },
-     { date: '2023-11-11', event: 'Pentagon Budget Black Programs — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'prosecutorial-misconduct-database': {
     title: 'Prosecutorial Misconduct Database',
@@ -2535,7 +2538,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'National Registry of Exonerations', url: 'https://www.law.umich.edu/special/exoneration/Pages/about.aspx', type: 'Database' },
       { title: 'Innocence Project: Prosecutorial Oversight', url: 'https://innocenceproject.org/prosecutorial-oversight/', type: 'Research' },
       { title: 'USA Today: Federal Prosecutorial Misconduct Investigation', url: 'https://www.usatoday.com', type: 'Investigative Report' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutors identified in over 2,000 misconduct findings; no disbarments resulted', href: '/entities/agencies/doj' },
@@ -2572,7 +2575,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Congressional Research Service: Private Military Contractors', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
       { title: 'Commission on Wartime Contracting Final Report', url: 'https://cybercemetery.unt.edu/archive/cwc/20110929213820/', type: 'Government Report' },
       { title: 'DoD Inspector General: Contractor Oversight', url: 'https://www.dodig.mil', type: 'Government Audit' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Blackwater', type: 'corporation', relationship: 'Nisour Square massacre killed 17 Iraqi civilians; four operatives convicted then pardoned by President Trump', href: '/entities/corporations/blackwater' },
@@ -2613,7 +2616,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Church Committee Reports: CIA and the Media', url: 'https://www.intelligence.senate.gov', type: 'Congressional Report' },
       { title: 'New York Times: Pentagon Military Analyst Program', url: 'https://www.nytimes.com/2008/04/20/us/20LateralAnnex.html', type: 'Investigative Report' },
       { title: 'National Security Archive: Propaganda Documents', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
-      { name: 'Columbia Journalism Review', url: 'https://www.cjr.org/' },
+      { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated Mockingbird program recruiting 400+ journalists; maintained relationships with 25+ major media organizations', href: '/entities/agencies/cia' },
@@ -2651,7 +2654,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Bureau of Justice Statistics: Prisoners Series', url: 'https://bjs.ojp.gov/data-collections/prisoners', type: 'Government Report' },
       { title: 'Sentencing Project: Mass Incarceration Trends', url: 'https://www.sentencingproject.org', type: 'Research' },
       { title: 'In the Public Interest: Criminal Justice Privatization', url: 'https://www.inthepublicinterest.org', type: 'Research' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CoreCivic', type: 'corporation', relationship: 'Largest private prison operator; $2B+ annual revenue; lobbied for harsher sentencing through ALEC', href: '/entities/corporations/corecivic' },
@@ -2687,7 +2690,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Campaign Zero: Police Union Contract Analysis', url: 'https://www.checkthepolice.org', type: 'Research' },
       { title: 'Reuters: Police Arbitration and Reinstatement', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
       { title: 'OpenSecrets: Police Union Political Spending', url: 'https://www.opensecrets.org', type: 'Financial Record' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Fraternal Order of Police', type: 'organization', relationship: 'Largest police union (365,000 members); opposes body cameras, civilian oversight, qualified immunity reform, and independent prosecution', href: '/entities/organizations/fop' },
@@ -2698,9 +2701,6 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2000-01-01', event: 'Police unions', type: 'default' },
-     { date: '2006-01', event: 'OpenSecrets: Police Union Political Spending — Investigation deepens as new evidence and documentation gathered', type: 'default' },
-     { date: '2013-01', event: 'OpenSecrets: Police Union Political Spending — Ongoing accountability efforts continue; key developments documented', type: 'default' },
-     { date: '2019-01', event: 'OpenSecrets: Police Union Political Spending — Latest developments tracked; investigation updated with new findings', type: 'default' },
      { date: '2025-01', event: 'OpenSecrets: Police Union Political Spending — Current status: monitoring continues with active documentation', type: 'default' },
    ],
   },
@@ -2724,7 +2724,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'FDA Drug Safety Communications: Finasteride', url: 'https://www.fda.gov/drugs/drug-safety-and-availability', type: 'Government Report' },
       { title: 'Post-Finasteride Syndrome Foundation', url: 'https://www.pfsfoundation.org', type: 'Research' },
       { title: 'CDC DES Update', url: 'https://www.cdc.gov/des/', type: 'Government Report' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Required Propecia label changes in 2012 for persistent sexual side effects; inadequate pre-approval fertility assessment requirements', href: '/entities/agencies/fda' },
@@ -2734,12 +2734,10 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2025-01-28',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1940-01-01', event: 'Pharmaceutical Fertility Side Effects investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1971', event: 'Diethylstilbestrol (DES), a synthetic estrogen prescribed to millions of pregnant women from the 1940s through 1971 to prevent miscarriage, was later found to cause reproductive tract abnormalities, infertility, and...', type: 'default' },
      { date: '2012', event: 'The FDA required label changes in 2012 to warn of persistent sexual side effects.', type: 'default' },
      { date: '2022', event: 'A 2022 meta-analysis found that SSRI use reduced sperm concentration by 50%, decreased sperm motility, and increased DNA fragmentation in sperm.', type: 'default' },
-     { date: '2025-01-28', event: 'Pharmaceutical Fertility Side Effects — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'pharmaceutical-sales-rep-corruption': {
     title: 'Pharmaceutical Sales Rep Corruption',
@@ -2761,7 +2759,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'ProPublica: Dollars for Docs', url: 'https://projects.propublica.org/docdollars/', type: 'Database' },
       { title: 'CMS Open Payments', url: 'https://openpaymentsdata.cms.gov', type: 'Government Data' },
       { title: 'JAMA: Physician Payments and Prescribing', url: 'https://jamanetwork.com', type: 'Research' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Regulates drug promotion but enforcement is limited; off-label promotion remains pervasive', href: '/entities/agencies/fda' },
@@ -2797,7 +2795,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Port Authority Inspector General Reports', url: 'https://www.panynj.gov/corporate/en/inspector-general.html', type: 'Government Audit' },
       { title: 'Supreme Court: Kelly v. United States (2020)', url: 'https://supreme.justia.com/cases/federal/us/590/17-1960/', type: 'Court Record' },
       { title: 'NJ Watchdog: Port Authority Investigations', url: 'https://www.njspotlightnews.org', type: 'Investigative Report' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Investigated Bridgegate and multiple Port Authority corruption cases', href: '/entities/agencies/fbi' },
@@ -2808,12 +2806,11 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2025-03-07',
    pageUpdatedDate: '2026-03-18',
       timeline: [
+     { date: '2001-09-11', event: 'POST-9/11 INFORMATION WARFARE: After September 11, 2001, the boundary between foreign and domestic information operations effectively dissolved.', type: 'default' },
      { date: '2012', event: 'A 2012 investigation revealed that the agency employed dozens of individuals in positions that appeared to serve political rather than operational purposes.', type: 'default' },
-     { date: '2012-01-01', event: 'Port Authority Corruption Investigations investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2013', event: 'In September 2013, allies of New Jersey Governor Chris Christie ordered the closure of local access lanes to the George Washington Bridge; creating massive traffic jams in Fort Lee, New Jersey.', type: 'default' },
      { date: '2013-09', event: 'In September 2013, allies of New Jersey Governor Chris Christie ordered the closure of local access lanes to the George Washington Bridge; creating massive traffic jams in Fort Lee, New Jersey.', type: 'default' },
      { date: '2020', event: 'United States (2020), ruling that the scheme did not constitute federal fraud; effectively ruling that political abuse of government resources is not a federal crime.', type: 'legal' },
-     { date: '2025-03-07', event: 'Port Authority Corruption Investigations — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'psychological-operations-domestic-theater': {
@@ -2836,7 +2833,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Rolling Stone: The Runaway General (Michael Hastings)', url: 'https://www.rollingstone.com', type: 'Investigative Report' },
       { title: 'Church Committee Reports: Domestic Intelligence Activities', url: 'https://www.intelligence.senate.gov', type: 'Congressional Report' },
       { title: 'DoD Directive 3321.01: Overt Psychological Operations', url: 'https://www.esd.whs.mil/Directives/', type: 'Government Record' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Maintains PSYOP forces with capabilities deployed domestically; military analyst program targeted American public opinion', href: '/entities/agencies/pentagon' },
@@ -2846,12 +2843,12 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2025-03-19',
    pageUpdatedDate: '2026-03-18',
       timeline: [
+     { date: '1950', event: 'plastic production continues to increase; from 2 million tons in 1950 to over 400 million tons annually; with the petrochemical industry investing $400 billion in new plastic production capacity.', type: 'default' },
+     { date: '1988', event: 'THE CHASING ARROWS DECEPTION: In 1988, the Society of the Plastics Industry introduced the resin identification coding system; numbers 1-7 inside the chasing arrows recycling symbol; on plastic products.', type: 'default' },
      { date: '2001', event: 'POST-9/11 INFORMATION WARFARE: After September 11, 2001, the boundary between foreign and domestic information operations effectively dissolved.', type: 'default' },
-     { date: '2001-01-01', event: 'Psychological Operations Domestic Theater investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2001-09-11', event: 'POST-9/11 INFORMATION WARFARE: After September 11, 2001, the boundary between foreign and domestic information operations effectively dissolved.', type: 'default' },
      { date: '2010', event: 'military Psychological Operations (PSYOP); rebranded Military Information Support Operations (MISO) in 2010; are officially prohibited from targeting domestic audiences under the Smith-Mundt Act and DoD directives.', type: 'default' },
      { date: '2011', event: 'In 2011, Rolling Stone reported that a PSYOP unit at Fort Bragg was ordered to use information operations techniques against visiting U.S.', type: 'default' },
-     { date: '2025-03-19', event: 'Psychological Operations Domestic Theater — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'plastic-industry-recycling-fraud': {
@@ -2874,7 +2871,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'NPR/PBS Frontline: Plastic Wars', url: 'https://www.pbs.org/wgbh/frontline/documentary/plastic-wars/', type: 'Investigative Report' },
       { title: 'Reuters: The Recycling Myth (Chemical Recycling)', url: 'https://www.reuters.com/investigates', type: 'Investigative Report' },
       { title: 'Science: Production, Use, and Fate of All Plastics', url: 'https://www.science.org', type: 'Research' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'ExxonMobil', type: 'corporation', relationship: 'Largest petrochemical producer; promoted chemical recycling while investing $400B+ in new plastic production capacity', href: '/entities/corporations/exxonmobil' },
@@ -2912,7 +2909,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'IRS: Employment Tax Fraud', url: 'https://www.irs.gov/compliance/criminal-investigation/payroll-tax-fraud', type: 'Government Report' },
       { title: 'National Employment Law Project: Misclassification', url: 'https://www.nelp.org', type: 'Research' },
       { title: 'Treasury Inspector General: Employment Tax Gap', url: 'https://www.treasury.gov/tigta', type: 'Government Audit' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Enforcement capacity degraded by budget cuts; conducts only 6,000 employment tax examinations annually', href: '/entities/agencies/irs' },
@@ -2923,9 +2920,7 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2008', event: 'A 2008 study estimated that the underground economy represented 8-9% of U.S.', type: 'default' },
-     { date: '2008-01-01', event: 'Payroll Tax Fraud Industry Analysis investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '2020', event: 'A 2020 study found that fraudulent construction firms gain a 20-30% cost advantage over legitimate competitors by not paying payroll taxes, workers\' compensation, and benefits.', type: 'default' },
-     { date: '2023-03-14', event: 'Payroll Tax Fraud Industry Analysis — investigation remains active with ongoing developments', type: 'financial' },
    ],
   },
   'pharmaceutical-waste-environmental-impact': {
@@ -2948,7 +2943,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'AP: Pharmaceuticals Found in Drinking Water', url: 'https://www.ap.org', type: 'Investigative Report' },
       { title: 'WHO: Antimicrobial Resistance Global Report', url: 'https://www.who.int/health-topics/antimicrobial-resistance', type: 'Research' },
       { title: 'Environmental Science & Technology: Endocrine Disruption', url: 'https://pubs.acs.org/journal/esthag', type: 'Research' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Has not established maximum contaminant levels for any pharmaceutical compound in drinking water despite decades of evidence', href: '/entities/agencies/epa' },
@@ -2959,9 +2954,6 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2000-01-01', event: 'Pharmaceutical compounds have been detected in the drinking water systems of at least 41 million Americans and in waterways across every ...', type: 'critical' },
-     { date: '2006-01', event: 'Environmental Science & Technology: Endocrine Disruption — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
-     { date: '2012-01', event: 'Environmental Science & Technology: Endocrine Disruption — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
-     { date: '2017-01', event: 'Environmental Science & Technology: Endocrine Disruption — Latest developments tracked; investigation updated with new findings', type: 'critical' },
      { date: '2023-01', event: 'Environmental Science & Technology: Endocrine Disruption — Current status: monitoring continues with active documentation', type: 'critical' },
    ],
   },
@@ -2985,7 +2977,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Polaris Project: National Human Trafficking Hotline Data', url: 'https://polarisproject.org', type: 'Research' },
       { title: 'DHS Blue Campaign: Port City Trafficking Analysis', url: 'https://www.dhs.gov/blue-campaign', type: 'Government Report' },
       { title: 'DOJ: Federal Human Trafficking Prosecutions', url: 'https://www.justice.gov/humantrafficking', type: 'Government Record' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'Oversees port security and anti-trafficking through ICE HSI; Blue Campaign awareness; inspects less than 5% of inbound containers', href: '/entities/agencies/dhs' },
@@ -2996,9 +2988,7 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2012', event: 'In 2012, the Signal International case revealed that 500 Indian workers were recruited to Gulf Coast shipyards with promises of green cards, then held in labor camps and had their passports confiscated; resulting in...', type: 'default' },
-     { date: '2012-01-01', event: 'Port City Trafficking Hub Analysis investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2017', event: 'In 2017, 39 Vietnamese nationals were found dead in a refrigerated container at Purfleet Port in Essex, England; highlighting the deadly reality of container trafficking.', type: 'default' },
-     { date: '2024-04-19', event: 'Port City Trafficking Hub Analysis — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
 
@@ -3048,7 +3038,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: "Giffords Law Center: Child Access Prevention", url: "https://giffords.org/lawcenter/gun-laws/policy-areas/child-consumer-safety/child-access-prevention/", type: "Research" },
       { title: "Everytown: Unsecured Guns Data", url: "https://everytownresearch.org/report/unsecured-guns/", type: "Research" },
-      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
@@ -3059,7 +3049,6 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '2021-11-30', event: 'Parental Accountability in Mass Shootings', type: 'legal' },
-     { date: '2022-01-01', event: 'Parental Accountability in Mass Shootings — Initial events documented and investigation initiated', type: 'legal' },
      { date: '2023-01-01', event: 'Parental Accountability in Mass Shootings — Key evidence gathered; pattern of wrongdoing established', type: 'legal' },
      { date: '2024', event: 'The parents of the 2024 Perry, Iowa school shooter were investigated.', type: 'default' },
      { date: '2025-01', event: 'Everytown: Unsecured Guns Data — continued developments and accountability tracking documented', type: 'legal' },
@@ -3088,7 +3077,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: "Mapping Police Violence", url: "https://mappingpoliceviolence.us/", type: "Database" },
       { title: "DOJ Pattern-or-Practice Investigations", url: "https://www.justice.gov/crt/special-litigation-section-cases-and-matters/download", type: "Government" },
       { title: "Campaign Zero Policy Analysis", url: "https://campaignzero.org/", type: "Research" },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Conducted pattern-or-practice investigations and entered consent decrees with departments found to violate constitutional rights', href: '/entities/agencies/doj' },
@@ -3126,7 +3115,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: "Fatal Encounters Database", url: "https://fatalencounters.org/", type: "Database" },
       { title: "Mapping Police Violence", url: "https://mappingpoliceviolence.us/", type: "Database" },
       { title: "Washington Post: Fatal Force", url: "https://www.washingtonpost.com/graphics/investigations/police-shootings-database/", type: "Investigation" },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Pattern-or-practice investigations found constitutional violations in departments across the country', href: '/entities/agencies/doj' },
@@ -3166,7 +3155,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: "Public Citizen Pharma Penalties Report", url: "https://www.citizen.org/article/twenty-seven-years-of-pharmaceutical-industry-criminal-and-civil-penalties/", type: "Research" },
       { title: "Open Payments Database", url: "https://openpaymentsdata.cms.gov/", type: "Government Data" },
       { title: "Senate Finance Committee Drug Pricing Investigation", url: "https://www.finance.senate.gov/drug-pricing", type: "Government Report" },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Regulatory capture documented; receives 45%+ of drug regulation budget from industry user fees; revolving door with pharmaceutical companies', href: '/entities/agencies/fda' },
@@ -3208,7 +3197,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: "MSD Public Safety Commission Report", url: "http://www.fdle.state.fl.us/MSDHS/CommissionReport.pdf", type: "Government Report" },
       { title: "FBI Tip Line Failure Report", url: "https://oig.justice.gov/reports/review-federal-bureau-investigations-response-tips-about-potential-parkland-school-shooter", type: "Government Report" },
       { title: "Sun Sentinel Investigation: BSO Failures", url: "https://www.sun-sentinel.com/parkland-school-shooting/", type: "Investigative Journalism" },
-      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Failed to investigate tip identifying Cruz as potential school shooter weeks before the massacre', href: '/entities/agencies/fbi' },
@@ -3254,7 +3243,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: "Reuters: Shielded (Qualified Immunity Investigation)", url: "https://www.reuters.com/investigates/special-report/usa-police-immunity/", type: "Investigation" },
       { title: "Washington Post: Fatal Force Database", url: "https://www.washingtonpost.com/graphics/investigations/police-shootings-database/", type: "Data" },
       { title: "Campaign Zero Police Accountability Analysis", url: "https://campaignzero.org/", type: "Research" },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Conducts pattern-or-practice investigations into departments but enforcement depends on political will', href: '/entities/agencies/doj' },
@@ -3266,10 +3255,11 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1967-01-01', event: 'Police Accountability Crisis in America', type: 'legal' },
-     { date: '1981-01-01', event: 'Police Accountability Crisis in America — Initial events documented and investigation initiated', type: 'legal' },
      { date: '1995-01-01', event: 'Police Accountability Crisis in America — Key evidence gathered; pattern of wrongdoing established', type: 'legal' },
-     { date: '2020', event: 'Cities pay billions in police misconduct settlements annually; over $3 billion in the decade ending 2020 in the 10 largest cities alone.', type: 'financial' },
-     { date: '2021-01', event: 'Campaign Zero Police Accountability Analysis — continued developments and accountability tracking documented', type: 'default' },
+     { date: '1999', event: 'THE BODY COUNT: The CDC estimates that from 1999 to 2023, over 600,000 Americans died from opioid overdoses, with the crisis evolving in three waves: prescription opioids (1999-2010), heroin (2010-2013, as patients cut off from prescriptions turned to street drugs), and synthetic fentanyl (2013-present).', type: 'default' },
+     { date: '2008', event: 'THE SACKLER ESCAPE: The Sackler family extracted approximately $10.7 billion from Purdue Pharma between 2008 and 2018, transferring wealth to family trusts, offshore accounts, and personal holdings while the company faced mounting litigation.', type: 'default' },
+     { date: '2016', event: 'Congress, lobbied by the pharmaceutical industry, passed the Ensuring Patient Access and Effective Drug Enforcement Act in 2016, which stripped the DEA of its ability to freeze suspicious opioid shipments.', type: 'default' },
+     { date: '2019', event: 'In 2019, Purdue filed for Chapter 11 bankruptcy.', type: 'default' },
    ],
   },
   'purdue-pharma-opioid-crisis': {
@@ -3293,7 +3283,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'GAO Report: Opioid Crisis - Status of Public Health Emergency Authorities', url: 'https://www.gao.gov/products/gao-18-685t', type: 'Government Audit' },
       { title: 'CDC WONDER - Multiple Cause of Death Data', url: 'https://wonder.cdc.gov/mcd.html', type: 'Government Data' },
       { title: '60 Minutes: The Whistleblower (DEA vs. Congress)', url: 'https://www.cbsnews.com/news/60-minutes-the-whistleblower/', type: 'Investigation' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approved OxyContin with misleading labeling; revolving door with Purdue Pharma executives', href: '/entities/agencies/fda' },
@@ -3332,7 +3322,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'DOJ OIG: Review of the Federal Bureau of Prisons Monitoring of Contract Prisons', url: 'https://oig.justice.gov/reports/2016/e1606.pdf', type: 'Government Audit' },
       { title: 'Sentencing Project: Private Prisons in the United States', url: 'https://www.sentencingproject.org/publications/private-prisons-united-states/', type: 'Research' },
       { title: 'American Civil Liberties Union: Banking on Bondage', url: 'https://www.aclu.org/report/banking-bondage-private-prisons-and-mass-incarceration', type: 'Research' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'ICE', type: 'agency', relationship: '73% of immigration detention beds operated by private companies; maintained 34,000-bed congressional quota', href: '/entities/agencies/ice' },
@@ -3375,7 +3365,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Kaiser Family Foundation: Americans\' Challenges with Health Care Costs', url: 'https://www.kff.org/health-costs/issue-brief/americans-challenges-with-health-care-costs/', type: 'Research' },
       { title: 'FTC: Pay-for-Delay Agreements', url: 'https://www.ftc.gov/news-events/topics/competition-enforcement/pay-delay', type: 'Government' },
       { title: 'House Committee on Oversight: Drug Pricing Investigation', url: 'https://oversight.house.gov/legislation/hearings/the-cost-of-rising-prescription-drug-prices', type: 'Congressional' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: '65% of drug review budget funded by pharmaceutical industry user fees; revolving door with industry documented across all commissioner appointments', href: '/entities/agencies/fda' },
@@ -3419,7 +3409,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'George Mason University: Randomized Controlled Trial of BWCs', url: 'https://cebcp.org/wp-content/evidence-based-policing/body-worn-cameras/BWCMeta.pdf', type: 'Research' },
       { title: 'DOJ Bureau of Justice Assistance: BWC Policy and Implementation Program', url: 'https://bja.ojp.gov/program/body-worn-cameras-bwcs/overview', type: 'Government' },
       { title: 'Upturn: The Illusion of Accuracy - How Body-Worn Camera Programs Undermine Police Accountability', url: 'https://www.upturn.org/work/the-illusion-of-accuracy/', type: 'Research' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Distributed $70M+ in BWC grants; pattern-and-practice investigations reveal systemic activation failures across departments', href: '/entities/agencies/doj' },
@@ -3456,7 +3446,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'CFPB: Payday Lending Rule - Final Rule', url: 'https://www.consumerfinance.gov/rules-policy/final-rules/payday-vehicle-title-and-certain-high-cost-installment-loans/', type: 'Government' },
       { title: 'Pew Charitable Trusts: Payday Lending in America', url: 'https://www.pewtrusts.org/en/research-and-analysis/reports/2012/07/19/who-borrows-where-they-borrow-and-why', type: 'Research' },
       { title: 'Center for Responsible Lending: Payday Lending Research', url: 'https://www.responsiblelending.org/payday-lending', type: 'Research' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Created to regulate payday lending; 2017 ability-to-repay rule gutted by Trump-appointed leadership who received payday industry donations', href: '/entities/agencies/cfpb' },
@@ -3498,7 +3488,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'EPA: PFAS Strategic Roadmap', url: 'https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitments-action-2021-2024', type: 'Government Report' },
       { title: 'CDC/ATSDR: PFAS Exposure and Health Effects', url: 'https://www.atsdr.cdc.gov/pfas/', type: 'Government Data' },
       { title: 'The Intercept: The Teflon Toxin', url: 'https://theintercept.com/collections/the-teflon-toxin/', type: 'Investigation' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Set first enforceable PFAS drinking water limits in 2024 after 50+ years; fined DuPont only $16.5M for decades of concealment', href: '/entities/agencies/epa' },
@@ -3538,7 +3528,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'NBER: Does Private Equity Investment in Healthcare Benefit Patients?', url: 'https://www.nber.org/papers/w28474', type: 'Academic Study' },
       { title: 'JAMA: Private Equity and Hospital Quality', url: 'https://jamanetwork.com/', type: 'Academic Study' },
       { title: 'Senate HELP Committee: Investigation of Steward Health Care', url: 'https://www.help.senate.gov/', type: 'Congressional Report' },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Increased scrutiny of PE healthcare roll-ups; challenged some mergers but resources insufficient for scale of the problem', href: '/entities/agencies/ftc' },
@@ -3578,7 +3568,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Defense Logistics Agency: 1033 Program Data', url: 'https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/ProgramFAQs/', type: 'Government Data' },
       { title: 'ACLU: War Comes Home - The Excessive Militarization of American Policing', url: 'https://www.aclu.org/report/war-comes-home-excessive-militarization-american-police', type: 'Report' },
       { title: 'Marshall Project: The Pentagon Finally Details Its Weapons-for-Cops Giveaway', url: 'https://www.themarshallproject.org/2014/12/03/the-pentagon-finally-details-its-weapons-for-cops-giveaway', type: 'Investigation' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Administers 1033 Program through Defense Logistics Agency; transferred $7.4B+ in military equipment to police with minimal oversight', href: '/entities/agencies/dod' },
@@ -3624,7 +3614,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Cal Fire: Camp Fire Investigation Report', url: 'https://www.fire.ca.gov/incidents/2018/11/8/camp-fire/', type: 'Government Report' },
       { title: 'Butte County District Attorney: People v. PG&E - Camp Fire Criminal Case', url: 'https://www.buttecounty.net/da', type: 'Legal Filing' },
       { title: 'CPUC: PG&E Safety Investigation', url: 'https://www.cpuc.ca.gov/', type: 'Government' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CPUC', type: 'agency', relationship: 'Primary regulator that approved PG&E rate increases while the company deferred maintenance; failed to enforce safety requirements for decades', href: '/entities/agencies/cpuc' },
@@ -3667,7 +3657,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'EPA: PFAS Strategic Roadmap', url: 'https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitments-action-2021-2024', type: 'Government' },
       { title: 'National Academies: Guidance on PFAS Exposure, Testing, and Clinical Follow-Up', url: 'https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up', type: 'Academic Research' },
       { title: 'Robert Bilott: Exposure - Poisoned Water, Corporate Greed, and the Fight for Justice', url: 'https://www.simonandschuster.com/books/Exposure/Robert-Bilott/9781982106768', type: 'Book' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Failed to regulate PFAS for 50+ years despite evidence of toxicity; 2016 advisory was inadequate; 2023 MCL of 4 ppt implicitly acknowledged decades of failure', href: '/entities/agencies/epa' },
@@ -3715,10 +3705,8 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1967', event: 'Qualified immunity, the primary legal barrier to accountability, was invented by the Supreme Court in 1967 and expanded dramatically in subsequent decisions.', type: 'legal' },
-     { date: '1967-01-01', event: 'Police Qualified Immunity and Systemic Brutality investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2005', event: 'Between 2005 and 2023, approximately 18,000 people were killed by police in the U.S.', type: 'critical' },
      { date: '2023', event: 'Between 2005 and 2023, approximately 18,000 people were killed by police in the U.S.', type: 'critical' },
-     { date: '2025-03-10', event: 'Police Qualified Immunity and Systemic Brutality — investigation remains active with ongoing developments', type: 'default' },
    ],
   },
   'predatory-lending-post-crisis': {
@@ -3741,7 +3729,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'CFPB: Consumer Complaint Database', url: 'https://www.consumerfinance.gov/data-research/consumer-complaints/', type: 'Government Database' },
       { title: 'National Consumer Law Center: Predatory Lending Practices', url: 'https://www.nclc.org/', type: 'Research' },
       { title: 'Federal Reserve: Household Debt and Credit Report', url: 'https://www.newyorkfed.org/microeconomics/hhdc', type: 'Government Report' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Created to combat predatory lending but repeatedly defunded and politically attacked; returned $20B to consumers when functional', href: '/entities/agencies/cfpb' },
@@ -3777,7 +3765,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'FTC: Pay-for-Delay Agreements Report', url: 'https://www.ftc.gov/reports/pay-delay-how-drug-company-pay-offs-cost-consumers-billions', type: 'Government Report' },
       { title: 'CMS: Medicare Drug Price Negotiation Program', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation', type: 'Government Report' },
       { title: 'Senate Finance Committee: Insulin Pricing Investigation', url: 'https://www.finance.senate.gov/', type: 'Congressional Record' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves patents through Orange Book listings that can be gamed; generic approval process (ANDA) subject to patent evergreening delays; user fee funding model creates industry dependence', href: '/entities/agencies/fda' },
@@ -3817,7 +3805,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'U.S. Commission on Civil Rights: Events at Wounded Knee (1974)', url: 'https://www.usccr.gov/', type: 'Government Report' },
       { title: 'Amnesty International: Leonard Peltier Case', url: 'https://www.amnesty.org/en/latest/news/2024/07/usa-authorities-must-grant-leonard-peltier-parole/', type: 'International Body' },
       { title: 'FBI FOIA: American Indian Movement Records', url: 'https://vault.fbi.gov/american-indian-movement', type: 'Government Record' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Deployed over 250 agents; applied COINTELPRO tactics against AIM; armed and supported GOON squads; fabricated affidavits for Peltier extradition; withheld exculpatory ballistics evidence; failed to investigate 64 murders', href: '/entities/agencies/fbi' },
@@ -3864,7 +3852,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Senate HELP Committee: Purdue Pharma and Opioid Crisis Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Record' },
       { title: 'Massachusetts AG Complaint: Purdue Pharma and Sackler Family (2019)', url: 'https://www.mass.gov/lists/ag-purdue-pharma-documents', type: 'Court Record' },
       { title: 'CDC: Understanding the Opioid Overdose Epidemic', url: 'https://www.cdc.gov/opioids/basics/epidemic.html', type: 'Government Record' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'Manufactured and aggressively marketed OxyContin while knowing it was fueling widespread addiction and death; pleaded guilty to federal charges twice (2007 and 2020); generated $35+ billion in OxyContin revenue; filed for bankruptcy in 2019 while Sackler family retained billions; no family member has been criminally charged', href: '/entities/corporations/purdue-pharma' },
@@ -3909,7 +3897,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'FDA: History of the Birth Control Pill', url: 'https://www.fda.gov/consumers/consumer-updates/birth-control-types-effectiveness-and-side-effects', type: 'Government Record' },
       { title: 'National Library of Medicine: Gregory Pincus Papers', url: 'https://profiles.nlm.nih.gov/spotlight/qg', type: 'Research Archive' },
       { title: 'Planned Parenthood: History of the Birth Control Pill', url: 'https://www.plannedparenthood.org/learn/birth-control/birth-control-pill/what-is-the-history-of-the-birth-control-pill', type: 'Organization Archive' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'G.D. Searle & Company', type: 'corporation', relationship: 'Manufactured Enovid; submitted Puerto Rico trial data to the FDA without adequate disclosure of adverse reactions or deaths; profited enormously from FDA approval; no executive was ever held accountable for the uninvestigated deaths or lack of informed consent', href: '/entities/corporations/gd-searle' },
@@ -3961,11 +3949,9 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1967', event: 'In 1967, CIA officer Robert Komer, serving as deputy to the commander of U.S.', type: 'default' },
      { date: '1968', event: 'Between 1968 and 1972, the program resulted in 26,369 killings, 33,358 detentions, and 22,013 defections according to official U.S.', type: 'default' },
      { date: '1968-06', event: 'The program was formally launched in June 1968 under the direction of William Colby, who would later become CIA Director.', type: 'default' },
-     { date: '1968-06-01', event: 'Phoenix Program investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1971', event: 'Congressional hearings in 1971 revealed widespread torture, extrajudicial killings, and the use of assassination quotas.', type: 'critical' },
      { date: '1972', event: 'Between 1968 and 1972, the program resulted in 26,369 killings, 33,358 detentions, and 22,013 defections according to official U.S.', type: 'default' },
-     { date: '1972-12-31', event: 'Phoenix Program — investigation remains active with ongoing developments', type: 'default' },
-     { date: '2001', event: 'Its techniques and organizational structure influenced operations in Central America during the 1980s, the War on Terror detention and interrogation programs after 2001, and targeted killing programs using drone strikes.', type: 'default' },
+     { date: '1975', event: 'The program was terminated by NSA Director Allen on May 15, 1975, shortly before the Church Committee hearings.', type: 'default' },
    ],
   },
   'project-shamrock-communications-surveillance': {
@@ -4000,13 +3986,10 @@ const investigations_p: Record<string, InvestigationData> = {
    timeline: [
      { date: '1945', event: 'Project SHAMROCK was a signals intelligence collection program operated by the Armed Forces Security Agency (AFSA) and later the National Security Agency (NSA) from 1945 to 1975.', type: 'default' },
      { date: '1945-08', event: 'Project SHAMROCK began in August 1945 as a continuation of wartime censorship programs.', type: 'default' },
-     { date: '1945-08-01', event: 'Project SHAMROCK investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '1967', event: 'In 1967, SHAMROCK was supplemented by Project MINARET, which used the SHAMROCK database to target specific American citizens.', type: 'default' },
-     { date: '1975', event: 'Project SHAMROCK was a signals intelligence collection program operated by the Armed Forces Security Agency (AFSA) and later the National Security Agency (NSA) from 1945 to 1975.', type: 'default' },
-     { date: '1975-05-15', event: 'The program was terminated by NSA Director Allen on May 15, 1975, shortly before the Church Committee hearings.', type: 'default' },
-     { date: '2001', event: 'SHAMROCK established the template for NSA bulk collection programs that would resurface after September 11, 2001.', type: 'default' },
-     { date: '2001-09-11', event: 'SHAMROCK established the template for NSA bulk collection programs that would resurface after September 11, 2001.', type: 'default' },
-     { date: '2013', event: 'The legal arguments used to justify SHAMROCK; executive authority, national security necessity, and voluntary cooperation of private companies; were echoed in the justifications for the Stellar Wind warrantless...', type: 'default' },
+     { date: '1950', event: 'ORIGINS: Project Artichoke grew out of Operation Bluebird, established in 1950 to develop defensive measures against Soviet interrogation techniques.', type: 'default' },
+     { date: '1951-08', event: 'The program was renamed Artichoke in August 1951 under the Office of Scientific Intelligence.', type: 'default' },
+     { date: '1953', event: 'TRANSITION TO MKULTRA: In 1953, CIA Technical Services Staff officer Sidney Gottlieb proposed a broader and more systematic research program.', type: 'default' },
+     { date: '1956', event: 'Artichoke continued to operate separately until approximately 1956, with some organizational overlap with MKUltra.', type: 'default' },
    ],
   },
   'project-artichoke-interrogation-program': {

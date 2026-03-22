@@ -3558,7 +3558,7 @@ export default function TimelinePage() {
  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
  {/* Header */}
  <div className="py-12">
- <div className="border-2 border-zinc-700/50 bg-[#080808] p-8 text-center">
+ <div className="border-2 border-zinc-700/50 bg-[#080808] p-4 sm:p-8 text-center">
  <div className="w-16 h-16 mx-auto mb-6 border-2 border-zinc-700 bg-zinc-900 flex items-center justify-center">
  <Calendar className="w-8 h-8 text-zinc-500"/>
  </div>
@@ -3615,7 +3615,7 @@ export default function TimelinePage() {
  <Link 
  key={i} 
  href={`/investigations/${event.slug}`}
- className="block relative pl-20 pb-8 group"
+ className="block relative pl-14 sm:pl-20 pb-8 group"
  >
  {/* Dot */}
  <div className={`absolute left-[22px] w-[14px] h-[14px] border-2 border-zinc-600 group-hover:border-zinc-600 transition-colors ${severityColors[event.severity]}`} />

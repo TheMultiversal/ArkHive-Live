@@ -20,7 +20,7 @@ const investigations_z: Record<string, InvestigationData> = {
       { title: 'Mobutu: King of Zaire (Documentary)', url: 'https://www.pbs.org/frontlineworld/stories/congo/', type: 'Documentary' },
       { title: 'The Looting Machine: Warlords, Oligarchs, Smugglers, and the Theft of Africa\'s Wealth', url: 'https://www.publicaffairsbooks.com/titles/tom-burgis/the-looting-machine/9781610394390/', type: 'Book' },
       { title: 'CIA and Mobutu: A Cold War Partnership', url: 'https://nsarchive.gwu.edu/briefing-book/intelligence/2020-06-30/cia-congo', type: 'Government Archive' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: 'cia', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Installed and supported Mobutu as Cold War proxy', href: '/entities/agencies/cia' },
@@ -30,11 +30,9 @@ const investigations_z: Record<string, InvestigationData> = {
    lastActivityDate: '2025-12-15',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1960-01-01', event: 'Mobutus Zaire: The Billion-Dollar Kleptocracy investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '1965', event: 'Mobutu Sese Seko seized power in a CIA-backed coup in 1965 and ruled Zaire until 1997.', type: 'default' },
      { date: '1997', event: 'Mobutu Sese Seko seized power in a CIA-backed coup in 1965 and ruled Zaire until 1997.', type: 'default' },
-     { date: '2025-12-15', event: 'Mobutus Zaire: The Billion-Dollar Kleptocracy — investigation remains active with ongoing developments', type: 'financial' },
-   ],
+     ],
   },
   'zero-dark-thirty-torture-debate': {
     title: 'Zero Dark Thirty and the Torture Debate',
@@ -54,7 +52,7 @@ const investigations_z: Record<string, InvestigationData> = {
     sources: [
       { title: 'Senate Intelligence Committee Study on CIA Detention and Interrogation Program', url: 'https://www.intelligence.senate.gov/study-intelligence-committee-cia-detention-interrogation-program', type: 'Government Report' },
       { title: 'The CIA\'s Mop-Up Man: L.A. Times Investigation', url: 'https://www.latimes.com/entertainment/movies/la-et-mn-zero-dark-thirty-cia-20150910-story.html', type: 'Investigation' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: 'cia', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Provided access and shaped narrative', href: '/entities/agencies/cia' },
@@ -67,10 +65,7 @@ const investigations_z: Record<string, InvestigationData> = {
    timeline: [
      { date: '2012-01-01', event: 'The 2012 film Zero Dark Thirty, directed by Kathryn Bigelow, depicted CIA torture techniques as instrumental in locating Osama bin Laden', type: 'default' },
      { date: '2014', event: 'The Senate Intelligence Committee\'s 6,700-page study on the CIA Detention and Interrogation Program, partially declassified in 2014, found that the CIA\'s use of enhanced interrogation techniques was not effective in...', type: 'political' },
-     { date: '2016-01', event: 'The CIA\ — Investigation deepens as new evidence and documentation gathered', type: 'default' },
-     { date: '2021-01', event: 'The CIA\ — Ongoing accountability efforts continue; key developments documented', type: 'default' },
-     { date: '2025-01', event: 'The CIA\ — Latest developments tracked; investigation updated with new findings', type: 'default' },
-   ],
+     ],
   },
   'zuckerberg-meta-surveillance': {
     title: 'Zuckerberg and Meta\'s Surveillance Empire',
@@ -92,7 +87,7 @@ const investigations_z: Record<string, InvestigationData> = {
       { title: 'FTC $5 Billion Settlement with Facebook', url: 'https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook', type: 'Government Record' },
       { title: 'UN Myanmar Report on Facebook\'s Role', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', type: 'International Report' },
       { title: 'Frances Haugen Senate Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower', type: 'Congressional Hearing' },
-      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: 'mark-zuckerberg', name: 'Mark Zuckerberg', type: 'individual', relationship: 'Founder, CEO, and controlling shareholder', href: '/entities/individuals/mark-zuckerberg' },
@@ -103,10 +98,8 @@ const investigations_z: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2016', event: 'From the Cambridge Analytica scandal that influenced the 2016 election, to internal documents showing the company knew its platforms caused harm to teenagers, to enabling genocide in Myanmar, Meta\'s pursuit of...', type: 'political' },
-     { date: '2016-01-01', event: 'Zuckerberg and Metas Surveillance Empire investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2021', event: 'Internal documents leaked by whistleblower Frances Haugen in 2021 revealed that Facebook\'s own research showed Instagram was harmful to teenage mental health, particularly among teenage girls, but the company...', type: 'default' },
-     { date: '2026-02-01', event: 'Zuckerberg and Metas Surveillance Empire — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
 };
 

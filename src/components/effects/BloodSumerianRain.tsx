@@ -14,7 +14,7 @@ export default function BloodSumerianRain() {
  let w = (canvas.width = window.innerWidth);
  let h = (canvas.height = window.innerHeight);
 
- const cols = Math.floor(w / 18);
+ const cols = Math.floor(w / 28);
  const yPositions = new Array(cols).fill(0).map(() => Math.random() * h);
 
  // glyphs that evoke cuneiform/sumerian + fallback characters
@@ -33,31 +33,34 @@ export default function BloodSumerianRain() {
  last = now;
 
  // translucent black to create trail effect
- ctx.fillStyle = 'rgba(0,0,0,0.15)';
+ ctx.fillStyle = 'rgba(0,0,0,0.12)';
  ctx.fillRect(0, 0, w, h);
 
- ctx.font = '16px ui-monospace, SFMono-Regular, Menlo, Monaco, monospace';
+ ctx.font = '15px ui-monospace, SFMono-Regular, Menlo, Monaco, monospace';
  ctx.textAlign = 'center';
 
  for (let i = 0; i < cols; i++) {
- const x = i * 18 + 9; // center offset
+ // skip ~30% of columns each frame for sparser look
+ if (Math.random() < 0.3) continue;
+
+ const x = i * 28 + 14; // center offset
  const glyph = glyphs[Math.floor(Math.random() * glyphs.length)];
 
  const y = yPositions[i];
 
  // blood-red glow for lead glyph
- ctx.fillStyle = 'rgba(37,99,235,0.95)';
- ctx.shadowColor = 'rgba(37,99,235,0.9)';
- ctx.shadowBlur = 8;
+ ctx.fillStyle = 'rgba(184,0,0,0.7)';
+ ctx.shadowColor = 'rgba(184,0,0,0.6)';
+ ctx.shadowBlur = 6;
  ctx.fillText(glyph, x, y);
 
  // dim trailing characters (slightly above)
- ctx.fillStyle = 'rgba(120,8,8,0.35)';
+ ctx.fillStyle = 'rgba(120,8,8,0.2)';
  ctx.shadowBlur = 0;
- ctx.fillText(glyphs[(Math.floor(Math.random() * glyphs.length))], x, y - 18);
+ ctx.fillText(glyphs[(Math.floor(Math.random() * glyphs.length))], x, y - 28);
 
- // advance y
- yPositions[i] = (y + 18 + Math.random() * 10 * (dt / 16)) % (h + 100);
+ // advance y — slower speed
+ yPositions[i] = (y + 12 + Math.random() * 5 * (dt / 16)) % (h + 100);
  }
 
  rafId = requestAnimationFrame(draw);

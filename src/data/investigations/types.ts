@@ -49,4 +49,6 @@ export interface InvestigationData {
   timeline?: TimelineEvent[];
   // Money trail data for financial flow visualization
   moneyTrail?: MoneyTransaction[];
+  // Related federal statutes
+  statutes?: { code: string; description?: string }[];
 }

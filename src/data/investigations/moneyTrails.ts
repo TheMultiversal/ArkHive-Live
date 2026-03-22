@@ -6423,6 +6423,69 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2007-01-01', from: 'Mark Zuckerberg', to: 'Regulatory fines and settlements', amount: '$17.8B', purpose: 'Privacy violation penalties resulting from Zuckerberg and Meta\'s Surveillance Empire', documented: true },
   ],
 
+  'armenian-genocide': [
+    { date: '1915-01-01', from: 'Ottoman Empire', to: 'Systematic extermination campaign', amount: 'N/A', purpose: 'State-directed genocide of 1.5 million Armenians; property confiscation and forced death marches', documented: true },
+    { date: '2019-01-01', from: 'Turkish government', to: 'Lobbying firms in Washington', amount: '$4.3M', purpose: 'Annual lobbying expenditure to prevent U.S. recognition of the Armenian Genocide', documented: true },
+  ],
+
+  'educational-propaganda': [
+    { date: '2020-01-01', from: 'Koch-affiliated foundations', to: 'University programs', amount: '$500M+', purpose: 'Funding academic centers with influence over curriculum and hiring at public universities', documented: true },
+    { date: '2022-01-01', from: 'State legislatures', to: 'Textbook revision programs', amount: '$45M', purpose: 'State-funded curriculum changes restricting teaching of slavery, racism, and systemic inequality', documented: true },
+  ],
+
+  'epstein-network-full-mapping': [
+    { date: '2008-01-01', from: 'Jeffrey Epstein', to: 'Legal defense and plea deal', amount: '$12M', purpose: 'Legal fees securing unprecedented non-prosecution agreement in 2008 Florida case', documented: true },
+    { date: '2019-01-01', from: 'Epstein estate', to: 'Victim compensation fund', amount: '$125M', purpose: 'Compensation fund established after Epstein death for trafficking victims', documented: true },
+    { date: '2022-01-01', from: 'JPMorgan Chase', to: 'Settlement with Epstein victims', amount: '$290M', purpose: 'Settlement for facilitating Epstein financial transactions despite red flags', documented: true },
+  ],
+
+  'gulf-war-crimes': [
+    { date: '1991-01-01', from: 'U.S. Department of Defense', to: 'Gulf War operations', amount: '$61B', purpose: 'Total cost of Gulf War military operations; allies reimbursed $54B', documented: true },
+    { date: '2004-01-01', from: 'Iraqi civilian families', to: 'Legal claims (largely denied)', amount: '$500M+', purpose: 'Estimated civilian property destruction and loss of life claims, largely uncompensated', documented: false },
+  ],
+
+  'iran-coup-1953': [
+    { date: '1953-01-01', from: 'CIA / MI6', to: 'Operation Ajax operatives', amount: '$1M', purpose: 'CIA budget for Operation Ajax to overthrow democratically elected PM Mossadegh', documented: true },
+    { date: '1954-01-01', from: 'Anglo-Iranian Oil Company', to: 'International oil consortium', amount: '$600M', purpose: 'Post-coup restructuring gave U.S. and British oil companies 40% each of Iranian oil profits', documented: true },
+  ],
+
+  'judicial-capture': [
+    { date: '2020-01-01', from: 'Federalist Society donors', to: 'Judicial selection infrastructure', amount: '$250M+', purpose: 'Dark money spent building the pipeline for federal judicial appointments', documented: true },
+    { date: '2022-01-01', from: 'Anonymous donors', to: 'Judicial Crisis Network', amount: '$35M+', purpose: 'Funds for Supreme Court confirmation campaigns for Gorsuch, Kavanaugh, and Barrett', documented: true },
+  ],
+
+  'lab-leak': [
+    { date: '2014-01-01', from: 'NIH / NIAID', to: 'EcoHealth Alliance', amount: '$3.7M', purpose: 'Federal grant funding for bat coronavirus research at Wuhan Institute of Virology via EcoHealth Alliance', documented: true },
+    { date: '2021-01-01', from: 'U.S. intelligence community', to: 'COVID origins investigation', amount: '$1.2M', purpose: 'Appropriated for classified intelligence assessment of COVID-19 origins', documented: true },
+  ],
+
+  'local-news-desert-information-crisis': [
+    { date: '2019-01-01', from: 'Hedge funds (Alden Global Capital)', to: 'Local newspaper acquisitions', amount: '$2.2B', purpose: 'Tribune Publishing and other newspaper chain acquisitions, followed by mass layoffs and asset stripping', documented: true },
+    { date: '2023-01-01', from: 'Community impact', to: 'Lost local accountability', amount: '$0', purpose: 'Over 2,500 newspapers closed since 2005; communities without local journalism see higher corruption and municipal borrowing costs', documented: true },
+  ],
+
+  'project-shamrock-communications-surveillance': [
+    { date: '1945-01-01', from: 'NSA / Armed Forces Security Agency', to: 'Western Union, ITT, RCA', amount: 'Classified', purpose: 'Secret agreements with telegraph companies to provide copies of all international telegrams entering or leaving the U.S.', documented: true },
+    { date: '1975-01-01', from: 'Church Committee investigation', to: 'Public disclosure', amount: '$0', purpose: 'Congressional investigation exposed 30 years of warrantless mass surveillance of American communications', documented: true },
+  ],
+
+  'social-media-mental-health-exploitation': [
+    { date: '2021-01-01', from: 'Meta (Facebook/Instagram)', to: 'Ad revenue from minors', amount: '$11B', purpose: 'Estimated annual advertising revenue generated from users under 18, despite internal research showing platform harms', documented: true },
+    { date: '2023-01-01', from: 'State attorneys general', to: 'Lawsuits against Meta', amount: '$0', purpose: '41 state AGs filed suit alleging Meta designed addictive features targeting children', documented: true },
+  ],
+
+  'ticketmaster-live-nation-monopoly': [
+    { date: '2010-01-01', from: 'Live Nation / Ticketmaster', to: 'DOJ-approved merger', amount: '$2.5B', purpose: 'Merger creating monopoly controlling 70%+ of major concert venue ticketing despite antitrust concerns', documented: true },
+    { date: '2023-01-01', from: 'Ticketmaster', to: 'Service fee revenue', amount: '$4.5B', purpose: 'Annual service fees averaging 27% of ticket face value, enabled by monopoly position', documented: true },
+    { date: '2024-01-01', from: 'DOJ Antitrust Division', to: 'Lawsuit to break up Live Nation', amount: '$0', purpose: 'Federal antitrust suit seeking divestiture of Ticketmaster from Live Nation', documented: true },
+  ],
+
+  'usa-gymnastics-abuse': [
+    { date: '2018-01-01', from: 'Michigan State University', to: 'Nassar victim settlement', amount: '$500M', purpose: 'Settlement with 332 victims of Larry Nassar sexual abuse enabled by institutional failures', documented: true },
+    { date: '2021-01-01', from: 'USA Gymnastics', to: 'Victim compensation fund', amount: '$380M', purpose: 'Bankruptcy settlement establishing compensation fund for Nassar victims', documented: true },
+    { date: '2022-01-01', from: 'FBI', to: 'Inspector General investigation', amount: '$0', purpose: 'IG report found FBI agents made false statements and failed to investigate Nassar tips for over a year', documented: true },
+  ],
+
 };
 
 export default moneyTrails;

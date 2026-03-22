@@ -27,7 +27,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'WHO Funding Sources', url: 'https://www.who.int/about/funding', type: 'Official Source' },
  { title: 'Lancet Analysis of Gates Foundation', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(09)60885-0/fulltext', type: 'Academic' },
  { title: 'GAVI Funding Structure', url: 'https://www.gavi.org/investing-gavi/funding', type: 'Official Source' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Bill Gates', type: 'individual', relationship: 'Foundation co-chair', href: '/entities/individuals/bill-gates' },
@@ -37,6 +37,13 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '2015-06-27',
    lastActivityDate: '2023-12-17',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2009', event: 'Hate Crimes Prevention Act of 2009 expanded federal jurisdiction but has been sparingly used.', type: 'default' },
+     { date: '2019', event: 'The 2019 El Paso Walmart shooting (23 dead, targeting Latinos), the 2018 Tree of Life synagogue shooting (11 dead), the 2016 Pulse nightclub shooting (49 dead, targeting LGBTQ+ individuals), and the 2015 Charleston Emanuel AME shooting (9 dead, targeting Black churchgoers) all targeted vulnerable communities.', type: 'default' },
+     { date: '2020', event: 'Anti-LGBTQ+ hate crimes, particularly targeting transgender individuals, have risen sharply since 2020.', type: 'default' },
+     { date: '2022', event: 'FBI data reported over 11,634 hate crime incidents in 2022, the highest level since the bureau began comprehensive tracking.', type: 'default' },
+     { date: '2023', event: 'Anti-Jewish hate crimes rose 37% in 2023 to their highest level since ADL record-keeping began.', type: 'default' },
+   ],
    timeline: [
      { date: '2015-06-27', event: 'The Gates Foundation exercises enormous influence over global health policy through funding of WHO, research institutions, univ...', type: 'default' },
      { date: '2017-01', event: 'GAVI Funding Structure — Investigation documented and evidence gathering initiated', type: 'default' },
@@ -68,7 +75,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'Full Press Conference Video', url: 'https://www.c-span.org/video/?448333-1/president-trump-russian-president-putin-hold-joint-news-conference', type: 'Primary Source' },
  { title: 'ODNI Assessment', url: 'https://www.dni.gov/files/documents/ICA_2017_01.pdf', type: 'Government Report' },
  { title: 'Interpreter Notes Reporting', url: 'https://www.washingtonpost.com/world/national-security/trump-has-concealed-details-of-his-face-to-face-encounters-with-putin-from-senior-officials-in-administration/2019/01/12/65f6686c-1434-11e9-b6ad-9cfd62dbb0a8_story.html', type: 'Investigation' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Sided with Putin over US intelligence', href: '/entities/individuals/donald-trump' },
@@ -114,7 +121,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'GameStop Congressional Hearing', url: 'http://web.archive.org/web/20221209105844/https://financialservices.house.gov/events/eventsingle.aspx?EventID=407107', type: 'Congressional' },
  { title: 'NYT, How Private Equity Killed Toys R Us', url: 'https://www.nytimes.com/2018/03/15/business/toys-r-us-bankruptcy.html', type: 'Investigation' },
  { title: 'Flash Boys by Michael Lewis', url: 'https://wwnorton.com/books/9780393351590', type: 'Book' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Citadel', type: 'corporation', relationship: 'Major hedge fund, GameStop involvement', href: '/entities/corporations/citadel' },
@@ -160,6 +167,13 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-07-08',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2009', event: 'Hate Crimes Prevention Act of 2009 expanded federal jurisdiction but has been sparingly used.', type: 'default' },
+     { date: '2019', event: 'The 2019 El Paso Walmart shooting (23 dead, targeting Latinos), the 2018 Tree of Life synagogue shooting (11 dead), the 2016 Pulse nightclub shooting (49 dead, targeting LGBTQ+ individuals), and the 2015 Charleston Emanuel AME shooting (9 dead, targeting Black churchgoers) all targeted vulnerable communities.', type: 'default' },
+     { date: '2020', event: 'Anti-LGBTQ+ hate crimes, particularly targeting transgender individuals, have risen sharply since 2020.', type: 'default' },
+     { date: '2022', event: 'FBI data reported over 11,634 hate crime incidents in 2022, the highest level since the bureau began comprehensive tracking.', type: 'default' },
+     { date: '2023', event: 'Anti-Jewish hate crimes rose 37% in 2023 to their highest level since ADL record-keeping began.', type: 'default' },
+   ],
  },  'healthcare-capture': {
  title: 'Healthcare Regulatory Capture',
  subtitle: 'The U.',
@@ -185,7 +199,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'Science Magazine FDA Revolving Door Study', url: 'https://www.science.org/doi/10.1126/science.aaz9344', type: 'Research Study' },
  { title: 'OpenSecrets Healthcare Lobbying Data', url: 'https://www.opensecrets.org/federal-lobbying/industries', type: 'Research Study' },
  { title: 'Senate Finance Committee Opioid Investigation', url: 'https://www.finance.senate.gov/imo/media/doc/Bipartisan%20Staff%20Report.pdf', type: 'Congressional Record' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Revolving door with industry, captured approval process', href: '/entities/agencies/fda' },
@@ -198,15 +212,18 @@ const investigations_h: Record<string, InvestigationData> = {
    lastActivityDate: '2025-10-20',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2009', event: 'Hate Crimes Prevention Act of 2009 expanded federal jurisdiction but has been sparingly used', type: 'default' },
-     { date: '2010', event: 'Between 2010 and 2023, the DOJ brought fewer than 200 federal hate crime prosecutions despite tens of thousands of documented incidents', type: 'default' },
-     { date: '2019', event: 'The 2019 El Paso Walmart shooting (23 dead, targeting Latinos), the 2018 Tree of Life synagogue shooting (11 dead), the 2016 Pulse nightclub shooting (49 dead, targeting LGBTQ+ individuals), and th...', type: 'critical' },
-     { date: '2019', event: 'A 2019 ProPublica investigation found that approximately 85% of police agencies reported zero hate crimes in their jurisdiction; a statistical impossibility', type: 'default' },
-     { date: '2020', event: 'Anti-LGBTQ+ hate crimes, particularly targeting transgender individuals, have risen sharply since 2020', type: 'default' },
-     { date: '2021', event: 'In 2021, PhRMA and its member companies spent $356 million and deployed 1,835 lobbyists, more than three for every member of Congress', type: 'political' },
-     { date: '2021', event: 'INSURANCE INDUSTRY CAPTURE: Health insurance companies spent $174 million lobbying in 2021', type: 'financial' },
-     { date: '2022', event: 'FBI data reported over 11,634 hate crime incidents in 2022, the highest level since the bureau began comprehensive tracking', type: 'default' },
-     { date: '2023', event: 'Anti-Jewish hate crimes rose 37% in 2023 to their highest level since ADL record-keeping began', type: 'default' },
+     { date: '2021', event: 'In 2021, PhRMA and its member companies spent $356 million and deployed 1,835 lobbyists, more than three for every member of Congress.', type: 'default' },
+     { date: '2014', event: 'Subsequent developments in healthcare regulatory capture reveal broader systemic patterns and ongoing impact', type: 'default' },
+   ],
+   timeline: [
+     { date: '2003', event: 'Medicare Modernization Act of 2003 prohibited Medicare from negotiating drug prices, a provision driven by pharmaceutical industry lobbying worth $116 million that year', type: 'political' },
+     { date: '2009', event: 'During ACA negotiations, the pharmaceutical industry secured a deal with the Obama White House limiting drug pricing reforms in exchange for $80 billion in industry concessions and $150 million in pro-ACA advertising', type: 'political' },
+     { date: '2015', event: 'Martin Shkreli raised the price of Daraprim from $13.50 to $750 per pill overnight, exposing the lack of regulatory controls on drug pricing. FDA enforcement against price gouging remained nonexistent', type: 'critical' },
+     { date: '2019', event: 'Exposed: 55 FDA advisory committee members who voted on drug approvals had undisclosed financial conflicts of interest with the companies whose products they evaluated', type: 'default' },
+     { date: '2021', event: 'PhRMA and member companies spent $356 million and deployed 1,835 lobbyists — more than three for every member of Congress — to influence healthcare legislation', type: 'financial' },
+     { date: '2021', event: 'Health insurance companies spent $174 million lobbying Congress. UnitedHealth Group alone reported $113 billion revenue while denying 32% of in-network claims', type: 'financial' },
+     { date: '2022', event: 'Inflation Reduction Act allowed Medicare to negotiate prices on just 10 drugs starting 2026 — decades after every other developed nation implemented drug price controls', type: 'political' },
+     { date: '2023', event: 'Investigation revealed FDA approved 73% of novel drugs through accelerated pathways requiring only surrogate endpoints, with 40% lacking confirmatory evidence of clinical benefit years later', type: 'default' },
    ],
  },
   'hedge-fund-corruption': {
@@ -237,7 +254,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Pharmaceutical industry capture', href: '/entities/agencies/fda' },
@@ -246,14 +263,19 @@ const investigations_h: Record<string, InvestigationData> = {
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2024-01-01',
+   timeline: [
+     { date: '1968', event: 'These regulations have explicitly racist origins rooted in post-1968 efforts to maintain residential segregation.', type: 'default' },
+     { date: '2008', event: 'Invitation Homes (created from Blackstone\'s post-2008 buying spree), American Homes 4 Rent, and similar entities own over 300,000 single-family rental homes, using their market power to increase rents while reducing maintenance.', type: 'default' },
+     { date: '2015', event: 'Chronic homelessness increased 77% between 2015 and 2023.', type: 'default' },
+     { date: '2020', event: 'Between 2020 and 2024, institutional investors purchased over $100 billion in single-family homes, often outbidding individual buyers with all-cash offers and algorithmic pricing.', type: 'default' },
+     { date: '2023-01', event: 'The January 2023 Point-in-Time count found 653,104 people experiencing homelessness on a single night; the highest number since counting began in 2007.', type: 'default' },
+   ],
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2014', event: 'The Senate investigated the scheme in 2014 but no enforcement action resulted.', type: 'political' },
-     { date: '2014-01-01', event: 'Hedge Fund Corruption: The $4 Trillion Shadow Banking System investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '2021-03', event: 'Archegos Capital Management\'s collapse in March 2021 demonstrated the systemic risk hedge funds pose.', type: 'financial' },
      { date: '2024', event: 'Hwang was convicted of racketeering, securities fraud, and wire fraud in 2024.', type: 'legal' },
-     { date: '2024-01-01', event: 'Hedge Fund Corruption: The $4 Trillion Shadow Banking System — investigation remains active with ongoing developments', type: 'financial' },
-   ],
+     ],
  },
   'hedge-fund-manipulation': {
  title: 'Hedge Fund Market Manipulation: Rigged Games',
@@ -285,6 +307,10 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2025-11-24',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2018', event: 'He was fired in 2018 but fought for his $120 million severance.', type: 'default' },
+     { date: '2018', event: 'Subsequent developments in doj child exploitation office reveal broader systemic patterns and ongoing impact', type: 'default' },
+   ],
  },  'hollywood-abuse': {
  title: 'Hollywood Sexual Abuse and Power',
  subtitle: 'Systematic exploitation, harassment, and assault enabled by the entertainment industry\'s power structures',
@@ -310,7 +336,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'NY Times Weinstein Investigation', url: 'https://www.nytimes.com/2017/10/05/us/harvey-weinstein-harassment-allegations.html', type: 'Investigation' },
  { title: 'Ronan Farrow New Yorker Investigation', url: 'https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories', type: 'Investigation' },
  { title: 'CBS Moonves Investigation Report', url: 'https://www.nytimes.com/2018/12/04/business/media/les-moonves-cbs-sexual-misconduct.html', type: 'News Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Fox News', type: 'corporation', relationship: 'Parallel harassment culture in media industry', href: '/entities/corporations/fox-news' },
@@ -321,10 +347,12 @@ const investigations_h: Record<string, InvestigationData> = {
    lastActivityDate: '2025-04-20',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2013', event: 'SAC Capital Advisors, founded by Steven Cohen, paid $1.8 billion in 2013 to settle insider trading charges; the largest such penalty in history', type: 'political' },
-     { date: '2014', event: 'A 2014 investigation by New York Attorney General Eric Schneiderman found that Barclays\' dark pool gave high-frequency trading firms preferential access, contradicting its marketing to institutiona...', type: 'default' },
-     { date: '2017-10-01', event: 'METOO MOVEMENT: The October 2017 New York Times and New Yorker investigations exposing Weinstein launched the global #MeToo movement', type: 'default' },
-     { date: '2018', event: 'He was fired in 2018 but fought for his $120 million severance', type: 'financial' },
+     { date: '2004', event: 'Courtney Love publicly accused industry figures of sexual abuse at a Pamela Anderson roast, warning young women about predators in Hollywood. She was blacklisted.', type: 'default' },
+     { date: '2015', event: 'NYPD investigated Harvey Weinstein after model Ambra Battilana Gutierrez recorded him admitting to groping. Manhattan DA Cyrus Vance declined to prosecute despite audio evidence', type: 'critical' },
+     { date: '2017-10-05', event: 'New York Times published Jodi Kantor and Megan Twohey\'s investigation revealing decades of sexual harassment settlements by Harvey Weinstein, triggering the global #MeToo movement', type: 'critical' },
+     { date: '2018', event: 'CBS CEO Les Moonves forced out after accusations from 12 women. He was fired in 2018 and fought for his $120 million severance package, which CBS ultimately denied', type: 'financial' },
+     { date: '2020', event: 'Harvey Weinstein convicted of criminal sexual assault and rape in New York, sentenced to 23 years. Over 80 women had accused him by this point', type: 'default' },
+     { date: '2023', event: 'New York appeals court overturned Weinstein\'s 2020 conviction on procedural grounds, ruling the trial judge improperly allowed testimony about prior uncharged conduct', type: 'default' },
    ],
  },
   'housing-crisis': {
@@ -347,12 +375,12 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
  { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
  { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
- { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Decades of sexual abuse enabled by industry', href: '/entities/individuals/harvey-weinstein' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+ { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Created Invitation Homes, largest single-family corporate landlord, from post-2008 foreclosure purchases', href: '/entities/corporations/blackstone-group' },
+ { id: '2', name: 'HUD', type: 'agency', relationship: 'Federal housing policy and enforcement authority', href: '/entities/agencies/hud' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Fair housing enforcement and antitrust oversight', href: '/entities/agencies/doj' },
  ],
    eventOriginDate: '1968-01-01',
    lastActivityDate: '2024-01-01',
@@ -385,7 +413,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
  { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
  { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Largest corporate landlord', href: '/entities/corporations/blackstone-group' },
@@ -396,11 +424,9 @@ const investigations_h: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2008', event: 'After the 2008 financial crisis, Blackstone Group spent $10 billion purchasing over 80,000 foreclosed single-family homes through its Invitation Homes subsidiary, creating the largest single-family landlord in the...', type: 'financial' },
-     { date: '2008-01-01', event: 'Housing Financialization: When Wall Street Became Your Landlord investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2022', event: 'A 2022 investigation by the Atlanta Journal-Constitution found that corporate landlords filed evictions at rates 2-3 times higher than individual landlords.', type: 'default' },
      { date: '2023', event: 'By 2023, Airbnb listed over 1.1 million properties in the United States.', type: 'financial' },
-     { date: '2023-01-02', event: 'Housing Financialization: When Wall Street Became Your Landlord — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'human-trafficking': {
  title: 'Human Trafficking Networks',
@@ -428,7 +454,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org/en/statistics', type: 'Research Study' },
  { title: 'State Department Trafficking in Persons Report', url: 'https://www.state.gov/trafficking-in-persons-report/', type: 'Government Report' },
  { title: 'DOJ Human Trafficking Prosecution Data', url: 'https://www.justice.gov/humantrafficking', type: 'Government Report' },
-   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal trafficking prosecutions, low conviction rate', href: '/entities/agencies/doj' },
@@ -467,7 +493,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'SEC Enforcement Actions Database', url: 'https://www.sec.gov/litigation', type: 'Government Record' },
       { title: 'CFTC Spoofing Enforcement Actions', url: 'https://www.cftc.gov', type: 'Government Record' },
       { title: 'Bloomberg Hedge Fund Coordination Investigation', url: 'https://www.bloomberg.com', type: 'Investigative Report' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Brings fewer than 50 market manipulation cases annually; "neither admit nor deny" settlements prevent public accountability', href: '/entities/agencies/sec' },
@@ -506,7 +532,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'State Department TIP Report', url: 'https://www.state.gov/trafficking-in-persons-report', type: 'Government Report' },
       { title: 'ILO Global Estimates of Modern Slavery', url: 'https://www.ilo.org', type: 'Research Study' },
       { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org', type: 'Research Study' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Leads federal anti-trafficking task forces; Operation Cross Country recovers child trafficking victims annually', href: '/entities/agencies/fbi' },
@@ -515,6 +541,12 @@ const investigations_h: Record<string, InvestigationData> = {
    eventOriginDate: '1997-01-01',
    lastActivityDate: '2024-02-23',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1997', event: 'Between 1997 and 2014, the DOJ prosecuted nine slavery operations in Florida agriculture alone.', type: 'default' },
+     { date: '2018', event: 'Backpage.com (seized by the DOJ in 2018) facilitated an estimated 75% of online sex trafficking ads before its shutdown; its founders were convicted of facilitating sex trafficking and money laundering.', type: 'default' },
+     { date: '2022', event: 'The International Labour Organization (ILO) estimated in 2022 that 27.6 million people are in forced labor globally; 17.3 million in private sector exploitation (including domestic work, construction, agriculture, and manufacturing) and 6.3 million in forced commercial sexual exploitation.', type: 'default' },
+     { date: '2023', event: 'In 2023, the New York Times reported that HHS\'s Office of Refugee Resettlement had lost contact with approximately 85,000 unaccompanied children after placement.', type: 'default' },
+   ],
    timeline: [
      { date: '1997', event: 'Between 1997 and 2014, the DOJ prosecuted nine slavery operations in Florida agriculture alone', type: 'default' },
      { date: '2018', event: 'Backpage.com (seized by the DOJ in 2018) facilitated an estimated 75% of online sex trafficking ads before its shutdown; its founders were convicted of facilitating sex trafficking and money launde...', type: 'legal' },
@@ -547,7 +579,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'HSI Human Smuggling Reports', url: 'https://www.ice.gov/hsi', type: 'Government Report' },
       { title: 'IOM Missing Migrants Project', url: 'https://missingmigrants.iom.int', type: 'Research Study' },
       { title: 'CBP IG Corruption Reports', url: 'https://www.oig.dhs.gov', type: 'Government Audit' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'HSI leads smuggling investigations; CBP has had 200+ agents arrested for corruption since 2004', href: '/entities/agencies/dhs' },
@@ -584,7 +616,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'JAMA Hospital Price Transparency Study', url: 'https://jamanetwork.com', type: 'Research Study' },
       { title: 'PatientRightsAdvocate.org Compliance Reports', url: 'https://www.patientrightsadvocate.org', type: 'Research Study' },
       { title: 'CMS Hospital Price Transparency Rule', url: 'https://www.cms.gov', type: 'Government Record' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'CMS', type: 'agency', relationship: 'Issued price transparency mandate but penalized only ~12 hospitals; maximum $2M annual penalty is trivial for billion-dollar institutions', href: '/entities/agencies/cms' },
@@ -625,7 +657,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org', type: 'Investigative Report' },
       { title: 'ProPublica Hotel Training Investigation', url: 'https://www.propublica.org', type: 'Investigative Report' },
       { title: 'DOJ Anti-Trafficking Resources', url: 'https://www.justice.gov', type: 'Government Record' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Enforces TVPRA civil and criminal liability provisions; approves California SB 970 hotel training curriculum', href: '/entities/agencies/doj' },
@@ -666,7 +698,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'HHS Office for Civil Rights Enforcement Data', url: 'https://www.hhs.gov/ocr', type: 'Government Record' },
       { title: 'FTC Health Privacy Enforcement Actions', url: 'https://www.ftc.gov', type: 'Government Record' },
       { title: 'Duke University Data Broker Study', url: 'https://techpolicy.sanford.duke.edu', type: 'Research Study' },
-      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'HHS', type: 'agency', relationship: 'Office for Civil Rights oversees HIPAA enforcement with roughly 200 staff covering 700,000+ entities; chronically underfunded at $39M annually', href: '/entities/agencies/hhs' },
@@ -721,7 +753,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: "CMS National Health Expenditure Data", url: "https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata", type: "Government Data" },
       { title: "KFF Health Costs Survey", url: "https://www.kff.org/health-costs/", type: "Research" },
       { title: "FTC PBM Interim Report", url: "https://www.ftc.gov/reports/pharmacy-benefit-managers-report", type: "Government Report" },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Federal healthcare regulatory authority', href: '/entities/agencies/fda' },
@@ -754,7 +786,7 @@ const investigations_h: Record<string, InvestigationData> = {
     sources: [
       { title: 'Senate Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/report_volume5.pdf', type: 'Government Report' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Facilitated trafficking', href: '/entities/agencies/cia' },
@@ -794,7 +826,7 @@ const investigations_h: Record<string, InvestigationData> = {
     sources: [
       { title: 'USHMM Holocaust Facts', url: 'https://www.ushmm.org/learn/holocaust-denial', type: 'Educational' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Adolf Hitler', type: 'individual', relationship: 'Nazi leader', href: '/entities/individuals/adolf-hitler' },
@@ -842,7 +874,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Holodomor Research and Education Consortium', url: 'https://holodomor.ca/', type: 'academic' },
       { title: 'Timothy Snyder - Bloodlands: Europe Between Hitler and Stalin', url: 'https://www.timothysnyder.org/books/bloodlands', type: 'book' },
       { title: 'Robert Conquest - The Harvest of Sorrow', url: 'https://global.oup.com/academic/product/the-harvest-of-sorrow-9780195051803', type: 'book' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Joseph Stalin', type: 'individual', relationship: 'Soviet dictator who ordered and directed the famine through forced collectivization and grain confiscation policies', href: '/individuals/joseph-stalin' },
@@ -886,7 +918,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'HUD OIG: Semiannual Reports to Congress', url: 'https://www.hudoig.gov/reports-publications/semiannual-reports', type: 'Government Audit' },
       { title: 'National Low Income Housing Coalition: The Gap', url: 'https://nlihc.org/gap', type: 'Research' },
       { title: 'GAO: Public Housing - HUD Should Strengthen Oversight of Physical Conditions', url: 'https://www.gao.gov/products/gao-18-259', type: 'Government Audit' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'HUD', type: 'agency', relationship: 'Central subject - $70B repair backlog, Section 8 waitlists exceeding 10 years, OIG identified $105B in questioned and unsupported costs', href: '/entities/agencies/hud' },
@@ -929,7 +961,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Commission on Wartime Contracting: Final Report to Congress', url: 'https://cybercemetery.unt.edu/archive/cwc/20110929213820/http://www.wartimecontracting.gov/', type: 'Congressional Report' },
       { title: 'DCAA: Audit Reports on KBR LOGCAP Contracts', url: 'https://www.dcaa.mil/', type: 'Government Audit' },
       { title: 'DOJ: KBR Settlement Agreements', url: 'https://www.justice.gov/civil/fraud-statistics', type: 'Government' },
-      { name: 'Congressional Research Service', url: 'https://crsreports.congress.gov/' },
+      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Awarded $39.5B+ in contracts to Halliburton/KBR; DCAA identified $1.4B in questioned costs but collected fraction', href: '/entities/agencies/dod' },
@@ -965,7 +997,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'DHS Office of Inspector General: Multiple Reports on CBP and ICE Operations', url: 'https://www.oig.dhs.gov/', type: 'Government Audit' },
       { title: 'ACLU: The Constitution in the 100-Mile Border Zone', url: 'https://www.aclu.org/other/constitution-100-mile-border-zone', type: 'Research' },
       { title: 'Oregon DOJ: Investigation of Federal Actions in Portland', url: 'https://www.doj.state.or.us/', type: 'Government Report' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'Parent department operating $60B budget with minimal oversight; deployed agents against protesters; compiled intelligence on journalists', href: '/entities/agencies/dhs' },
@@ -1003,7 +1035,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'CMS: National Health Expenditure Data 2023', url: 'https://www.cms.gov/research-statistics-data-and-systems/statistics-trends-and-reports/nationalhealthexpenddata', type: 'Government Report' },
       { title: 'Commonwealth Fund: Mirror, Mirror 2024', url: 'https://www.commonwealthfund.org/publications/fund-reports/2024/sep/mirror-mirror-2024', type: 'Research' },
       { title: 'Senate HELP Committee: Price of Insulin Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Report' },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves drugs and devices but cannot negotiate prices; revolving door with pharma industry; 46% of FDA budget comes from industry user fees', href: '/entities/agencies/fda' },
@@ -1040,7 +1072,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Senate Finance Committee: Hospice Industry Investigation', url: 'https://www.finance.senate.gov/', type: 'Congressional Report' },
       { title: 'HHS OIG: Vulnerabilities in the Medicare Hospice Program', url: 'https://oig.hhs.gov/', type: 'Government Report' },
       { title: 'ProPublica: Dying for Profit (Hospice Investigation)', url: 'https://www.propublica.org/', type: 'Investigation' },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Surveys hospices on average every 6.5 years; decertifies only 1% annually; $6 billion in improper payments identified by OIG in a single year', href: '/entities/agencies/cms' },
@@ -1050,11 +1082,9 @@ const investigations_h: Record<string, InvestigationData> = {
    lastActivityDate: '2025-02-15',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1980-01-01', event: 'Hospice Fraud and End-of-Life Exploitation investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '2000', event: 'For-profit hospices grew from 30% of all hospices in 2000 to over 75% today.', type: 'financial' },
      { date: '2022', event: 'A landmark 2022 Senate Finance Committee investigation found that many for-profit hospices enroll patients who are not terminally ill, provide little to no actual care, bill Medicare for services never delivered, and...', type: 'political' },
-     { date: '2025-02-15', event: 'Hospice Fraud and End-of-Life Exploitation — investigation remains active with ongoing developments', type: 'financial' },
-   ],
+     ],
   },
   'homelessness-criminalization': {
     title: 'Criminalization of Homelessness in America',
@@ -1076,7 +1106,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'HUD: Annual Homeless Assessment Report (AHAR)', url: 'https://www.huduser.gov/portal/sites/default/files/pdf/2023-AHAR-Part-1.pdf', type: 'Government Report' },
       { title: 'Supreme Court: Grants Pass v. Johnson (2024)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' },
       { title: 'NLIHC: Gap Report - Housing Shortage', url: 'https://nlihc.org/gap', type: 'Research' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'HUD', type: 'agency', relationship: 'Reports 653,000 homeless on any given night; Section 8 waitlists average 2.5 years; only 1 in 4 eligible households receive federal housing assistance', href: '/entities/agencies/hud' },

@@ -23,7 +23,7 @@ const investigations_x: Record<string, InvestigationData> = {
       { title: 'Snowden Archive', url: 'https://edwardsnowden.com', type: 'Primary Source' },
       { title: 'PCLOB Section 702 Report', url: 'https://www.pclob.gov', type: 'Government Record' },
       { title: 'EFF: NSA Spying', url: 'https://www.eff.org/nsa-spying', type: 'Legal Analysis' },
-      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'NSA', type: 'agency', relationship: 'Built and operates XKeyscore across 700+ servers at 150 sites worldwide; processes 20+ terabytes of internet data daily; analysts can search without warrants', href: '/entities/agencies/nsa' },
@@ -34,11 +34,9 @@ const investigations_x: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2008', event: 'Section 702 of the FISA Amendments Act of 2008 provided the legal framework; but critics; including FISA Court judges; found that the NSA repeatedly exceeded even these permissive boundaries.', type: 'legal' },
-     { date: '2008-01-01', event: 'XKeyscore Universal Data Collection investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2015', event: 'The USA FREEDOM Act of 2015 imposed modest restrictions on bulk metadata collection of phone records but did not significantly alter the internet surveillance programs like XKeyscore that operate under Section 702.', type: 'default' },
      { date: '2024-04', event: 'The Privacy and Civil Liberties Oversight Board (PCLOB) found that the Section 702 program; which underpins much of XKeyscore\'s authority; raises ;serious constitutional questions.; Section 702 was reauthorized in...', type: 'default' },
-     { date: '2024-04-01', event: 'XKeyscore Universal Data Collection — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'forced-arbitration-consumer-rights': {
     title: 'Forced Arbitration and Consumer Rights',
@@ -57,12 +55,12 @@ const investigations_x: Record<string, InvestigationData> = {
     ],
     tags: ['forced arbitration', 'class action waiver', 'consumer rights', 'employment law', 'arbitration clause', 'corporate immunity', 'access to justice'],
     sources: [
-      'https://www.epi.org/publication/the-growing-use-of-mandatory-arbitration-access-to-the-courts-is-now-barred-for-more-than-60-million-american-workers/',
-      'https://www.americanbar.org/groups/dispute_resolution/resources/DisputeResolutionProcesses/arbitration/',
-      'https://www.consumerfinance.gov/data-research/research-reports/arbitration-study-report-to-congress-2015/',
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'Epi Records', url: 'https://www.epi.org/publication/the-growing-use-of-mandatory-arbitration-access-to-the-courts-is-now-barred-for-more-than-60-million-american-workers/', type: 'Reference' },
+      { title: 'Americanbar Records', url: 'https://www.americanbar.org/groups/dispute_resolution/resources/DisputeResolutionProcesses/arbitration/', type: 'Reference' },
+      { title: 'Consumerfinance Records', url: 'https://www.consumerfinance.gov/data-research/research-reports/arbitration-study-report-to-congress-2015/', type: 'Reference' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
 
-      { name: 'Government Accountability Office', url: 'https://www.gao.gov/reports-testimonies' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov/reports-testimonies', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Completed 2015 study finding arbitration harmed consumers; issued rule banning class action waivers in 2017; Congress overturned the rule via Congressional Review Act before it took effect', href: '/entities/agencies/cfpb' },

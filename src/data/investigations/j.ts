@@ -31,7 +31,7 @@ const investigations_j: Record<string, InvestigationData> = {
  { title: 'Dobbs v. Jackson Decision', url: 'https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf', type: 'Court Opinion' },
  { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
  { title: 'ABA Not Qualified Ratings', url: 'https://www.americanbar.org/groups/committees/federal_judiciary/ratings/', type: 'Professional Rating' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Federalist Society', type: 'organization', relationship: 'Judicial selection machine', href: '/entities/organizations/federalist-society' },
@@ -83,7 +83,7 @@ const investigations_j: Record<string, InvestigationData> = {
  { title: 'DOJ Capitol Breach Investigation', url: 'https://www.justice.gov/usao-dc/capitol-breach-cases', type: 'Government' },
  { title: 'Jack Smith Indictment (U.S. v. Trump)', url: 'https://www.justice.gov/storage/US_v_Trump_23_cr_257.pdf', type: 'Court Document' },
  { title: 'Select Committee Public Hearings', url: 'https://january6th.house.gov/legislation/hearings', type: 'Government' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Incited the attack; orchestrated multi-part plan to overturn election; failed to act for 187 minutes; later pardoned convicted rioters', href: '/entities/individuals/donald-trump' },
@@ -122,7 +122,7 @@ const investigations_j: Record<string, InvestigationData> = {
  { title: 'House Select Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Senate HSGAC/Rules Committee Report on Security Failures', url: 'https://www.rules.senate.gov/imo/media/doc/Jan%206%20HSGAC%20Rules%20Report.pdf', type: 'Government Report' },
  { title: 'Capitol Police Inspector General Report', url: 'https://www.uscp.gov/media-center/press-releases', type: 'Government Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Incited the attack at Ellipse rally; failed to act for 187 minutes; later pardoned convicted rioters', href: '/entities/individuals/donald-trump' },
@@ -133,10 +133,8 @@ const investigations_j: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2021', event: 'The January 6, 2021 attack on the U.S.', type: 'critical' },
-     { date: '2021-01-01', event: 'January 6th Capitol Attack: The Day Democracy Was Assaulted investigation begins — events under scrutiny originate from this period', type: 'critical' },
      { date: '2021-01-06', event: 'The January 6, 2021 attack on the U.S.', type: 'critical' },
-     { date: '2026-03-10', event: 'January 6th Capitol Attack: The Day Democracy Was Assaulted — investigation remains active with ongoing developments', type: 'critical' },
-   ],
+     ],
  },
   'jj-baby-powder': {
  title: 'Johnson & Johnson Baby Powder: Decades of Asbestos Concealment',
@@ -158,7 +156,7 @@ const investigations_j: Record<string, InvestigationData> = {
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
  { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Johnson & Johnson', type: 'corporation', relationship: 'Concealed asbestos in baby powder for decades', href: '/entities/corporations/johnson-and-johnson' },
@@ -205,7 +203,7 @@ const investigations_j: Record<string, InvestigationData> = {
  { title: 'Truth Initiative Research', url: 'https://truthinitiative.org/research-resources', type: 'Report' },
  { title: 'CDC MMWR Reports', url: 'https://www.cdc.gov/mmwr/', type: 'Government' },
  { title: 'NIH National Library of Medicine', url: 'https://pubmed.ncbi.nlm.nih.gov/', type: 'Report' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Failed to regulate e-cigarettes targeting youth', href: '/entities/agencies/fda' },
@@ -242,7 +240,7 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'Reporters Committee for Freedom of the Press', url: 'https://www.rcfp.org', type: 'Legal Document' },
       { title: 'PEN America Chilling Effects Report', url: 'https://pen.org', type: 'Research Study' },
       { title: 'DOJ Media Guidelines', url: 'https://www.justice.gov', type: 'Government Record' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Secretly subpoenaed phone and email records of reporters at NYT, Washington Post, AP, and CNN; prosecuted 8 leakers under Espionage Act during Obama era', href: '/entities/agencies/doj' },
@@ -283,7 +281,7 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'DOJ Civil Rights Division Juvenile Justice Investigations', url: 'https://www.justice.gov/crt', type: 'Government Record' },
       { title: 'Sentencing Project Racial Disparities Report', url: 'https://www.sentencingproject.org', type: 'Research Study' },
       { title: 'Annie E. Casey Foundation JDAI', url: 'https://www.aecf.org', type: 'Research Study' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division investigates unconstitutional conditions in juvenile facilities; has found violations in virtually every state examined', href: '/entities/agencies/doj' },
@@ -326,7 +324,7 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'EPA: Jackson Mississippi Water System Emergency Order', url: 'https://www.epa.gov/ms-water', type: 'Government Records' },
       { title: 'DOJ: United States v. City of Jackson', url: 'https://www.justice.gov/', type: 'Court Records' },
       { title: 'Mississippi Today: Jackson Water Crisis Coverage', url: 'https://mississippitoday.org/water-crisis/', type: 'Investigation' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Issued emergency orders to Jackson; found Safe Drinking Water Act violations; allocated $600M from Bipartisan Infrastructure Law for Mississippi', href: '/entities/agencies/epa' },
@@ -369,7 +367,7 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'FDA: JUUL Premarket Tobacco Product Applications', url: 'https://www.fda.gov/tobacco-products/market-and-distribute-tobacco-product/juul-labs-inc', type: 'Government' },
       { title: 'CDC: National Youth Tobacco Survey Data', url: 'https://www.cdc.gov/tobacco/data_statistics/surveys/nyts/', type: 'Government Data' },
       { title: 'State of Massachusetts v. JUUL Labs: Complaint', url: 'https://www.mass.gov/news/ag-healey-sues-juul-for-creating-youth-vaping-epidemic', type: 'Legal Filing' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Delayed e-cigarette regulation until 2020 deeming rule; briefly ordered JUUL off market in 2022 then reversed; has not effectively controlled youth vaping', href: '/entities/agencies/fda' },
@@ -410,7 +408,7 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'Reuters Investigation: Johnson & Johnson Knew for Decades that Asbestos Lurked in its Baby Powder', url: 'https://www.reuters.com/investigates/special-report/johnsonandjohnson-cancer/', type: 'Investigation' },
       { title: 'Third Circuit: In re LTL Management LLC Decision', url: 'https://www2.ca3.uscourts.gov/', type: 'Court Decision' },
       { title: 'FDA: Talc Testing and Safety Information', url: 'https://www.fda.gov/cosmetics/cosmetic-ingredients/talc', type: 'Government' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Has no pre-market approval authority over cosmetics; found asbestos in J&J powder in 2019 but cannot compel recalls; has never required asbestos testing of talc products', href: '/entities/agencies/fda' },
@@ -452,7 +450,7 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'DOJ: United States v. Ciavarella and Conahan', url: 'https://www.justice.gov/usao-mdpa/press-releases', type: 'Court Filing' },
       { title: 'Reuters: The Teflon Robe - How Judges Escape Accountability', url: 'https://www.reuters.com/investigates/section/usa-judges/', type: 'Investigative Journalism' },
       { title: 'Juvenile Law Center: Luzerne County Kids for Cash Case', url: 'https://jlc.org/luzerne-county-kids-cash-case', type: 'Advocacy Research' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Ciavarella (28yr sentence) and Conahan (17yr sentence); Federal prosecutors brought racketeering, fraud, and tax charges', href: '/entities/agencies/doj' },
@@ -491,7 +489,7 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'Prison Policy Initiative: Detaining the Poor - Cash Bail', url: 'https://www.prisonpolicy.org/reports/incomejails.html', type: 'Research' },
       { title: 'Vera Institute of Justice: The Price of Freedom - Bail in America', url: 'https://www.vera.org/publications/past-due-costs-and-consequences-of-charging-for-justice-in-new-orleans', type: 'Research' },
       { title: 'Bureau of Justice Statistics: Jail Inmates in 2022', url: 'https://bjs.ojp.gov/', type: 'Government Report' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Under Obama issued "Dear Colleague" letter opposing cash bail for inability to pay; Trump DOJ rescinded; Biden DOJ took no action on federal bail reform', href: '/entities/agencies/doj' },
@@ -527,7 +525,7 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'Brennan Center: Judicial Election Spending Tracker', url: 'https://www.brennancenter.org/judicial-selection', type: 'Research' },
       { title: 'Tulane Law Review: Campaign Contributions and Judicial Decisions', url: 'https://law.tulane.edu/', type: 'Academic Study' },
       { title: 'Supreme Court: Caperton v. A.T. Massey Coal (2009)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' },
-      { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
+      { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'No federal jurisdiction over state judicial elections; campaign finance enforcement limited to federal races', href: '/entities/agencies/doj' },
@@ -560,12 +558,12 @@ const investigations_j: Record<string, InvestigationData> = {
     ],
     tags: ['juvenile LWOP', 'life without parole', 'juvenile justice', 'racial disparity', 'Miller v Alabama', 'Supreme Court', 'sentencing'],
     sources: [
-      'https://www.sentencingproject.org/policy-brief/juvenile-life-without-parole/',
-      'https://eji.org/issues/children-in-prison/',
-      'https://www.supremecourt.gov/opinions/11pdf/10-9646g2i8.pdf',
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'Sentencingproject Records', url: 'https://www.sentencingproject.org/policy-brief/juvenile-life-without-parole/', type: 'Reference' },
+      { title: 'Eji Records', url: 'https://eji.org/issues/children-in-prison/', type: 'Reference' },
+      { title: 'Supreme Court Records', url: 'https://www.supremecourt.gov/opinions/11pdf/10-9646g2i8.pdf', type: 'Government' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
 
-      { name: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Under Obama, filed briefs supporting limits on JLWOP; Trump DOJ reversed position; state-level implementation depends on local prosecutors and judges rather than federal enforcement', href: '/entities/agencies/doj' },
@@ -602,7 +600,7 @@ const investigations_j: Record<string, InvestigationData> = {
       { title: 'National Archives: Japanese American Internment Records', url: 'https://www.archives.gov/research/japanese-americans/wra', type: 'Government Record' },
       { title: 'Densho: Japanese American Incarceration Digital Archive', url: 'https://densho.org/', type: 'Research Archive' },
       { title: 'Commission on Wartime Relocation: Personal Justice Denied (1983)', url: 'https://www.archives.gov/research/japanese-americans/justice-denied', type: 'Government Report' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Franklin D. Roosevelt', type: 'individual', relationship: 'President who signed Executive Order 9066 authorizing the mass internment of 120,000 Japanese Americans despite intelligence assessments that they posed no security threat; rejected alternatives proposed by FBI Director Hoover and ONI analysts', href: '/entities/individuals/franklin-d-roosevelt' },

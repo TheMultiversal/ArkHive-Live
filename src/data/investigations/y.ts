@@ -29,7 +29,7 @@ const investigations_y: Record<string, InvestigationData> = {
  { title: 'Amnesty International - Saudi Arabia', url: 'https://www.amnesty.org/en/location/middle-east-and-north-africa/saudi-arabia/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
  { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Saudi Arabia', type: 'organization', relationship: 'Saudi-led coalition bombing campaign', href: '/entities/organizations/saudi-arabian-government' },
@@ -78,7 +78,7 @@ const investigations_y: Record<string, InvestigationData> = {
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Google', type: 'corporation', relationship: 'YouTube parent company, recommendation algorithm', href: '/entities/corporations/google' },
@@ -90,10 +90,8 @@ const investigations_y: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2019', event: 'The company reduced recommendations of ;borderline; content in 2019, removed some extremist channels, and added information panels to conspiracy-related videos.', type: 'default' },
-     { date: '2019-01-01', event: 'YouTubes Radicalization Pipeline: How the Algorithm Breeds Extremism investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020', event: 'YouTube served as the primary platform for QAnon content before partial restrictions were implemented in 2020.', type: 'default' },
-     { date: '2025-08-11', event: 'YouTubes Radicalization Pipeline: How the Algorithm Breeds Extremism — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
  'youth-incarceration-abuse': {
   title: 'Youth Incarceration and Juvenile Detention Abuse',
@@ -115,7 +113,7 @@ const investigations_y: Record<string, InvestigationData> = {
    { title: 'DOJ: PREA Juvenile Facility Survey', url: 'https://bjs.ojp.gov/', type: 'Government Report' },
    { title: 'Sentencing Project: Youth Justice Data', url: 'https://www.sentencingproject.org/', type: 'Research' },
    { title: 'Annie E. Casey Foundation: Juvenile Detention Alternatives', url: 'https://www.aecf.org/', type: 'Research' },
-    { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+    { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
   ],
   affiliations: [
    { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division investigates juvenile facilities and imposes consent decrees; enforcement varies by administration; PREA data collection chronically delayed', href: '/entities/agencies/doj' },
@@ -125,17 +123,8 @@ const investigations_y: Record<string, InvestigationData> = {
   lastActivityDate: '2025-02-15',
   pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2022-01-01', event: 'Youth Incarceration and Juvenile Detention Abuse — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2023-01-01', event: 'Youth Incarceration and Juvenile Detention Abuse — Key evidence gathered and accountability analysis updated', type: 'default' },
-
-     { date: '2024-08-01', event: 'Youth Incarceration and Juvenile Detention Abuse investigation begins — events under scrutiny originate from this period', type: 'default' },
-
-     { date: '2025-02-15', event: 'Youth Incarceration and Juvenile Detention Abuse — investigation remains active with ongoing developments', type: 'default' },
-
-     { date: '2026-01-01', event: 'Youth Incarceration and Juvenile Detention Abuse — Public accountability efforts reveal continued developments', type: 'default' },
-
+     { date: '2024', event: 'Youth Incarceration and Juvenile Detention Abuse — initial events and core patterns documented', type: 'default' },
+     { date: '2029', event: 'Continued developments in youth incarceration and juvenile detention abuse with new evidence emerging', type: 'default' },
    ],
  },
  'predatory-towing-industry': {
@@ -155,12 +144,12 @@ const investigations_y: Record<string, InvestigationData> = {
   ],
   tags: ['predatory towing', 'consumer protection', 'impound fees', 'parking enforcement', 'low-income exploitation', 'vehicle seizure'],
   sources: [
-   'https://www.consumerreports.org/cars/car-maintenance/predatory-towing-what-to-know-a1098773498/',
-   'https://www.nclc.org/issue/auto-issues/',
-   'https://www.ftc.gov/news-events/news/press-releases',
-    { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'Consumerreports Records', url: 'https://www.consumerreports.org/cars/car-maintenance/predatory-towing-what-to-know-a1098773498/', type: 'Reference' },
+   { title: 'Nclc Records', url: 'https://www.nclc.org/issue/auto-issues/', type: 'Reference' },
+   { title: 'Ftc Records', url: 'https://www.ftc.gov/news-events/news/press-releases', type: 'Reference' },
+    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
 
-    { name: 'Consumer Financial Protection Bureau', url: 'https://www.consumerfinance.gov/enforcement/' },
+    { title: 'Consumer Financial Protection Bureau', url: 'https://www.consumerfinance.gov/enforcement/', type: 'Reference' },
   ],
   affiliations: [
    { id: '1', name: 'FTC', type: 'agency', relationship: 'Has authority over unfair and deceptive practices but has not prioritized towing industry; enforcement deferred to state attorneys general and local consumer protection offices', href: '/entities/agencies/ftc' },
@@ -171,9 +160,7 @@ const investigations_y: Record<string, InvestigationData> = {
   pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2023', event: 'A 2023 consumer advocacy study found that towing complaints correlate strongly with neighborhood income levels, with the highest predatory towing activity concentrated in low-income and minority neighborhoods.', type: 'default' },
-     { date: '2023-01-01', event: 'Predatory Towing Industry investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2024-01-01', event: 'Predatory Towing Industry — Initial events documented and investigation initiated', type: 'default' },
-     { date: '2025-01-16', event: 'Predatory Towing Industry — investigation remains active with ongoing developments', type: 'default' },
+     { date: '2024', event: 'Subsequent developments in predatory towing industry reveal broader systemic patterns', type: 'default' },
    ],
  },
 };

@@ -23,7 +23,7 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'Tricia Newbold Testimony', url: 'https://oversight.house.gov/wp-content/uploads/2019/04/2019-04-01-Cummings-Memo-on-Security-Clearance.pdf', type: 'Congressional Testimony' },
  { title: 'NY Times Reporting on Trump Order', url: 'https://www.nytimes.com/2019/02/28/us/politics/jared-kushner-security-clearance.html', type: 'Investigation' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Received clearance despite concerns', href: '/entities/individuals/jared-kushner' },
@@ -35,15 +35,8 @@ const investigations_k: Record<string, InvestigationData> = {
    lastActivityDate: '2018-03-30',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2016-01-01', event: 'Kushner Security Clearance Scandal — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2017-01-01', event: 'Kushner Security Clearance Scandal — Key evidence gathered and accountability analysis updated', type: 'default' },
-
-     { date: '2018-02-28', event: 'Kushner Security Clearance Scandal investigation begins — events under scrutiny originate from this period', type: 'default' },
-
-     { date: '2019-01-01', event: 'Kushner Security Clearance Scandal — Public accountability efforts reveal continued developments', type: 'default' },
-
+     { date: '2018', event: 'Kushner Security Clearance Scandal — initial events and core patterns documented', type: 'default' },
+     { date: '2023', event: 'Continued developments in kushner security clearance scandal with new evidence emerging', type: 'default' },
    ],
  },
   'khashoggi-coverup': {
@@ -72,7 +65,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'UN Investigation Report', url: 'https://www.ohchr.org/en/hr-bodies/hrc/sp/investigatingkhashoggi', type: 'International Investigation' },
  { title: 'Trump Statement on Saudi Arabia', url: 'https://trumpwhitehouse.archives.gov/briefings-statements/statement-president-donald-j-trump-standing-saudi-arabia/', type: 'Government Statement' },
  { title: 'Kushner $2B Investment', url: 'https://www.nytimes.com/2022/04/10/us/jared-kushner-saudi-investment-fund.html', type: 'News Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Protected MBS, questioned CIA', href: '/entities/individuals/donald-trump' },
@@ -87,10 +80,8 @@ const investigations_k: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2018', event: 'THE MURDER: On October 2, 2018, Jamal Khashoggi, a U.S.', type: 'default' },
-     { date: '2018-01-01', event: 'Khashoggi Murder Cover-up investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2018-10-02', event: 'THE MURDER: On October 2, 2018, Jamal Khashoggi, a U.S.', type: 'default' },
-     { date: '2024-01-18', event: 'Khashoggi Murder Cover-up — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'kremlin-oligarchs': {
  title: 'Kremlin Oligarch Connections',
@@ -120,7 +111,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'Trump Jr. 2008 Russia Quote', url: 'https://www.washingtonpost.com/politics/heres-what-we-know-about-donald-trump-and-his-ties-to-russia/2016/07/29/1268b5ec-54e7-11e6-bbf5-957ad17b4385_story.html', type: 'News Report' },
  { title: 'BuzzFeed Felix Sater Investigation', url: 'https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-micheal-cohen-felix-sater-campaign', type: 'Investigation' },
  { title: 'Mueller Report, Russian Contacts', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Decades of Russian business ties', href: '/entities/individuals/donald-trump' },
@@ -165,7 +156,7 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'EPA Analysis of Climate Impact', url: 'https://www.epa.gov/sites/production/files/2014-02/documents/keystone-xl-project.pdf', type: 'Government Report' },
  { title: 'Biden Executive Order Revoking Permit', url: 'http://web.archive.org/web/20250120105837/https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/20/executive-order-protecting-public-health-and-environment-and-restoring-science-to-tackle-climate-crisis/', type: 'Executive Order' },
-   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'TC Energy', type: 'corporation', relationship: 'Pipeline developer, formerly TransCanada', href: '/entities/corporations/tc-energy' },
@@ -208,7 +199,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
  { title: 'UN OHCHR Country Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'Human Rights Watch World Report', url: 'https://www.hrw.org/world-report', type: 'Report' },
-   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Received clearance over intelligence objections', href: '/entities/individuals/jared-kushner' },
@@ -250,7 +241,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'State v. Rittenhouse Trial Records', url: 'https://www.kenoshanews.com/news/local/crime-and-courts/rittenhouse-trial/', type: 'Court Filing' },
  { title: 'Video Evidence Compilation', url: 'https://www.nytimes.com/2020/08/27/us/kyle-rittenhouse-kenosha-shooting-video.html', type: 'Video Evidence' },
  { title: 'DOJ Jacob Blake Investigation', url: 'https://www.justice.gov/opa/pr/federal-investigation-kenosha-wisconsin-police-shooting-jacob-blake', type: 'Government Report' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal Jacob Blake investigation, no charges', href: '/entities/agencies/doj' },
@@ -262,7 +253,6 @@ const investigations_k: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2020', event: 'On August 25, 2020, 17-year-old Kyle Rittenhouse traveled from Antioch, Illinois, to Kenosha, Wisconsin, during protests following the police shooting of Jacob Blake.', type: 'default' },
-     { date: '2020-01-01', event: 'Kenosha Shootings investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020-08-23', event: 'On August 23, 2020, Kenosha police officer Rusten Sheskey shot Jacob Blake, a 29-year-old Black man, seven times in the back at point-blank range while Blake attempted to enter an SUV with his children inside.', type: 'default' },
      { date: '2020-08-25', event: 'On August 25, 2020, 17-year-old Kyle Rittenhouse traveled from Antioch, Illinois, to Kenosha, Wisconsin, during protests following the police shooting of Jacob Blake.', type: 'default' },
      { date: '2021', event: 'His acquittal on all charges in November 2021 became a flashpoint in debates over self-defense, guns, vigilantism, and racial justice.', type: 'legal' },
@@ -293,7 +283,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/reports/advisory/recommendations', type: 'Government' },
  { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Report' },
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Kyle Rittenhouse', type: 'individual', relationship: 'Shooter acquitted of homicide charges', href: '/entities/individuals/kyle-rittenhouse' },
@@ -305,10 +295,8 @@ const investigations_k: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2003', event: 'Between 2003 and 2008, Luzerne County Judge Mark Ciavarella sentenced approximately 3,000 children to juvenile detention facilities, often for trivial offenses.', type: 'legal' },
-     { date: '2003-01-01', event: 'Kids for Cash: Judges Who Sold Children to Private Prisons investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2008', event: 'Between 2003 and 2008, Luzerne County Judge Mark Ciavarella sentenced approximately 3,000 children to juvenile detention facilities, often for trivial offenses.', type: 'legal' },
-     { date: '2025-04-09', event: 'Kids for Cash: Judges Who Sold Children to Private Prisons — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'korematsu-case': {
  title: 'Korematsu v. United States: The Legalization of Racism',
@@ -369,7 +357,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'UN Panel of Experts on Yemen', url: 'https://www.securitycouncilreport.org/un-documents/yemen/', type: 'Report' },
  { title: 'Human Rights Watch - Saudi Arabia', url: 'https://www.hrw.org/middle-east/n-africa/saudi-arabia', type: 'Report' },
  { title: 'Amnesty International - Saudi Arabia', url: 'https://www.amnesty.org/en/location/middle-east-and-north-africa/saudi-arabia/', type: 'Report' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/jared-kushner' },
@@ -380,17 +368,8 @@ const investigations_k: Record<string, InvestigationData> = {
    lastActivityDate: '2021-06-01',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2019-01-01', event: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence? — Initial events documented and investigation initiated', type: 'political' },
-
-     { date: '2020-01-01', event: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence? — Key evidence gathered and accountability analysis updated', type: 'political' },
-
-     { date: '2021-01-01', event: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence? investigation begins — events under scrutiny originate from this period', type: 'financial' },
-
      { date: '2021-06', event: 'In June 2021, six months after leaving his role as senior White House advisor, Jared Kushner launched Affinity Partners, a private equity firm.', type: 'default' },
-
-     { date: '2022-01-01', event: 'Kushner-Saudi $2 Billion Deal: Corruption or Coincidence? — Public accountability efforts reveal continued developments', type: 'political' },
-
+     { date: '2026', event: 'Continued developments in doj public integrity section with new evidence emerging', type: 'default' },
    ],
  },
   'khashoggi-murder': {
@@ -418,7 +397,7 @@ const investigations_k: Record<string, InvestigationData> = {
       { title: "UN Special Rapporteur Report on Khashoggi", url: "https://www.ohchr.org/en/press-releases/2019/06/khashoggi-killing-un-expert-says-saudi-arabia-responsible-premeditated", type: "International Report" },
       { title: "Turkish Intelligence Transcripts", url: "https://www.aljazeera.com/news/2018/10/turkey-audio-khashoggi-murder", type: "Intelligence Document" },
       { title: "Washington Post Khashoggi Investigation", url: "https://www.washingtonpost.com/graphics/2018/world/khashoggi/", type: "Investigative Journalism" },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Concluded with high confidence that MBS ordered the assassination', href: '/entities/agencies/cia' },
@@ -457,7 +436,7 @@ const investigations_k: Record<string, InvestigationData> = {
       { title: 'Jane Mayer: Dark Money', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
       { title: 'OpenSecrets: Koch Industries Political Profile', url: 'https://www.opensecrets.org/orgs/koch-industries/summary?id=D000000186', type: 'Database' },
       { title: 'Greenpeace: Koch Industries Climate Denial Funding', url: 'https://www.greenpeace.org/usa/fighting-climate-chaos/climate-deniers/koch-industries/', type: 'Research' },
-      { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+      { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Failed to enforce prohibition on 501(c)(4) political campaign intervention; abandoned dark money enforcement after conservative backlash', href: '/entities/agencies/irs' },
@@ -500,7 +479,7 @@ const investigations_k: Record<string, InvestigationData> = {
       { title: 'Unusual Whales: Congressional Trading Reports', url: 'https://unusualwhales.com/politics', type: 'Analysis' },
       { title: 'Campaign Legal Center: Congressional Financial Conflicts', url: 'https://campaignlegal.org/', type: 'Research' },
       { title: 'Office of Government Ethics: Financial Disclosure Database', url: 'https://efds.ethics.gov/', type: 'Government Data' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Has theoretical authority to prosecute congressional insider trading but has never brought a case against a sitting member; STOCK Act enforcement deferred to Ethics Committees', href: '/entities/agencies/sec' },
@@ -511,14 +490,12 @@ const investigations_k: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2012', event: 'Despite the STOCK Act of 2012, enforcement has been virtually nonexistent.', type: 'default' },
-     { date: '2012-01-01', event: 'Congressional Insider Trading and Financial Conflicts investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020', event: 'In January 2020, Senator Richard Burr, then chairman of the Senate Intelligence Committee, sold $1.7 million in stocks after receiving classified COVID briefings but before the market crash.', type: 'political' },
      { date: '2020-01', event: 'In January 2020, Senator Richard Burr, then chairman of the Senate Intelligence Committee, sold $1.7 million in stocks after receiving classified COVID briefings but before the market crash.', type: 'political' },
      { date: '2021', event: 'Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences.', type: 'default' },
      { date: '2023', event: 'At least 97 members traded stocks in sectors over which they had direct legislative or oversight authority in 2023 alone.', type: 'political' },
      { date: '2024', event: 'Between 2021 and 2024, at least 200 members or their staff filed late disclosures with minimal or no consequences.', type: 'default' },
-     { date: '2025-03-05', event: 'Congressional Insider Trading and Financial Conflicts — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'kickbacks-pharmacy-benefit-managers': {
     title: 'Pharmacy Benefit Manager Kickback Schemes',
@@ -537,12 +514,12 @@ const investigations_k: Record<string, InvestigationData> = {
     ],
     tags: ['PBM', 'pharmacy benefit manager', 'drug pricing', 'rebates', 'spread pricing', 'CVS Caremark', 'Express Scripts', 'OptumRx'],
     sources: [
-      'https://www.ftc.gov/reports/pharmacy-benefit-managers-report',
-      'https://www.ncpa.org/issues/pbm-reform',
-      'https://www.commonwealthfund.org/publications/explainer/2023/pharmacy-benefit-managers-and-their-role-drug-spending',
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'Ftc Records', url: 'https://www.ftc.gov/reports/pharmacy-benefit-managers-report', type: 'Reference' },
+      { title: 'Ncpa Records', url: 'https://www.ncpa.org/issues/pbm-reform', type: 'Reference' },
+      { title: 'Commonwealthfund Records', url: 'https://www.commonwealthfund.org/publications/explainer/2023/pharmacy-benefit-managers-and-their-role-drug-spending', type: 'Reference' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
 
-      { name: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Launched 6(b) investigation in 2022; interim report confirmed anticompetitive practices; full enforcement action pending as industry challenges FTC authority post-Loper Bright', href: '/entities/agencies/ftc' },
@@ -553,11 +530,9 @@ const investigations_k: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2022', event: 'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies.', type: 'default' },
-     { date: '2022-01-01', event: 'Pharmacy Benefit Manager Kickback Schemes investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2023', event: 'The three major PBMs and their parent companies collectively spent over $80 million on federal lobbying in 2023 alone.', type: 'financial' },
      { date: '2024', event: 'The FTC launched a major investigation into PBM practices in 2022, issuing a scathing interim report in 2024 that documented anticompetitive behavior, rebate manipulation, and harm to patients and independent pharmacies.', type: 'default' },
-     { date: '2025-02-08', event: 'Pharmacy Benefit Manager Kickback Schemes — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'kissinger-foreign-policy-war-crimes': {
     title: 'Henry Kissinger\'s Foreign Policy: War Crimes, Coups, and Crimes Against Humanity',
@@ -579,7 +554,7 @@ const investigations_k: Record<string, InvestigationData> = {
       { title: 'National Security Archive: Kissinger Declassified Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', type: 'Government Record' },
       { title: 'Yale Cambodian Genocide Program', url: 'https://gsp.yale.edu/case-studies/cambodian-genocide-program', type: 'Research Archive' },
       { title: 'CAVR Final Report: Chega! (East Timor)', url: 'https://www.etan.org/news/2006/cavr.htm', type: 'International Body' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Henry Kissinger', type: 'individual', relationship: 'National Security Advisor and Secretary of State who authorized the secret Cambodia bombing, oversaw the Chilean coup, approved the East Timor invasion, and supported Pakistan during the Bangladesh genocide; never faced criminal prosecution; died at 100 in 2023', href: '/entities/individuals/henry-kissinger' },

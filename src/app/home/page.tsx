@@ -196,11 +196,11 @@ export default function Home() {
  </svg>
  </div>
 
- <div className="relative max-w-7xl mx-auto px-1 sm:px-6 lg:px-8">
+ <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
  <div className="text-center max-w-4xl mx-auto">
  {/* Large Bleeding Pyramid Logo, Sharp & Clear */}
  <div className="flex justify-center mb-8">
- <SharpBleedingPyramid size={160} showWords={true} />
+ <SharpBleedingPyramid size={120} showWords={true} />
  </div>
 
  {/* Alert Badge, Sharp edges */}
@@ -218,7 +218,7 @@ export default function Home() {
  </p>
  {/* Line 2 (HIDDEN) emphasized */}
  <p className="text-4xl sm:text-6xl lg:text-8xl font-black uppercase tracking-tight">
- <span className="text-zinc-500"style={{ filter: 'drop-shadow(0 0 30px rgba(60, 60, 60,0.7)) drop-shadow(0 0 60px rgba(143, 0, 0,0.4))' }}>
+ <span className="text-blood-500" style={{ filter: 'drop-shadow(0 0 20px rgba(184, 0, 0, 0.6)) drop-shadow(0 0 50px rgba(184, 0, 0, 0.3))', textShadow: '0 0 40px rgba(184, 0, 0, 0.4), 0 0 80px rgba(184, 0, 0, 0.15)' }}>
  YOU&apos;LL NEVER
  </span>
  </p>
@@ -274,7 +274,7 @@ export default function Home() {
  </div>
 
  {/* Opening Declaration, Crystal Clear */}
- <div className="max-w-3xl mx-auto mb-8 bg-gradient-to-br from-[#111111] to-[#080808] border border-[rgba(255,255,255,0.15)] p-2 sm:p-6 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.18), 0 4px 20px rgba(0,0,0,0.3)'}}>
+ <div className="max-w-3xl mx-auto mb-8 bg-gradient-to-br from-[#111111] to-[#080808] border border-[rgba(255,255,255,0.15)] p-4 sm:p-6 gloss" style={{boxShadow: 'inset 0 1px 0 rgba(255,120,120,0.18), 0 4px 20px rgba(0,0,0,0.3)'}}>
  <p className="text-base sm:text-xl glass-text-subtle leading-relaxed">
  <span className="text-zinc-500 font-black uppercase">91 criminal charges.</span>
  <br />

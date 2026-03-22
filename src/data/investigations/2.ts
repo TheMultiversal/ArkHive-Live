@@ -29,7 +29,7 @@ const investigations_2: Record<string, InvestigationData> = {
  { title: 'Bush v. Gore Decision', url: 'https://supreme.justia.com/cases/federal/us/531/98/', type: 'Court Decision' },
  { title: 'Florida Recount Study, NORC', url: 'https://www.norc.org/Research/Projects/Pages/florida-ballot-project.aspx', type: 'Academic Research' },
  { title: 'Felon Voter Purge Analysis', url: 'https://www.usccr.gov/pubs/vote2000/report/ch5.htm', type: 'Government Report' },
-   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
+   { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'Beneficiary of Court intervention', href: '/entities/individuals/george-w-bush' },
@@ -68,7 +68,7 @@ const investigations_2: Record<string, InvestigationData> = {
  sources: [
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
-   { name: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/' },
+   { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Led the conspiracy', href: '/entities/individuals/donald-trump' },
@@ -151,7 +151,7 @@ const investigations_2: Record<string, InvestigationData> = {
    { title: 'Pandemic Response Accountability Committee: Top Challenges Reports', url: 'https://www.pandemicoversight.gov/', type: 'Government Report' },
    { title: 'SBA OIG: Inspection of SBA\'s Implementation of PPP', url: 'https://www.sba.gov/document/report-21-02-inspection-sbas-implementation-paycheck-protection-program', type: 'Government Report' },
    { title: 'ProPublica: Tracking PPP and Pandemic Spending', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Investigation' },
-    { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
   ],
   affiliations: [
    { id: '1', name: 'SBA', type: 'agency', relationship: 'Disbursed $800B in PPP with inadequate verification; estimated $200B in fraud; processing speed prioritized over fraud prevention', href: '/entities/agencies/sba' },
@@ -162,11 +162,9 @@ const investigations_2: Record<string, InvestigationData> = {
   pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2020', event: 'On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity.', type: 'political' },
-     { date: '2020-01-01', event: 'COVID-19 Pandemic Profiteering and Government Corruption investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020-01-24', event: 'On January 24, 2020, the Senate Intelligence Committee received a classified briefing on the pandemic\'s potential severity.', type: 'political' },
      { date: '2025', event: 'As of 2025, DOJ has charged approximately 3,500 defendants but recovered only a fraction of the $200 billion estimated fraud.', type: 'financial' },
-     { date: '2025-03-10', event: 'COVID-19 Pandemic Profiteering and Government Corruption — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
 };
 

@@ -29,7 +29,7 @@ const investigations_q: Record<string, InvestigationData> = {
  { title: 'NYT, 666 Fifth Avenue Bailout', url: 'https://www.nytimes.com/2018/08/03/nyregion/kushners-building-fifth-avenue-brookfield-lease.html', type: 'News Report' },
  { title: 'Brookfield Qatar Investment Connection', url: 'https://www.bloomberg.com/news/articles/2018-08-03/kushner-cos-deal-for-666-fifth-ave-is-said-to-be-near-close', type: 'News Report' },
  { title: 'Kushner Security Clearance Issues', url: 'https://www.washingtonpost.com/politics/2019/01/24/jared-kushners-security-clearance-was-initially-denied-due-concerns-about-foreign-influence/', type: 'Investigation' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Jared Kushner', type: 'individual', relationship: 'Central figure with conflicting interests', href: '/entities/individuals/jared-kushner' },
@@ -70,7 +70,7 @@ const investigations_q: Record<string, InvestigationData> = {
       { title: 'Reuters: For Cops Who Kill, Special Supreme Court Protection', url: 'https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/', type: 'Investigative Report' },
       { title: 'Joanna Schwartz: The Case Against Qualified Immunity', url: 'https://www.law.ucla.edu', type: 'Research' },
       { title: 'William Baude: Is Qualified Immunity Unlawful?', url: 'https://www.californialawreview.org', type: 'Research' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Supreme Court', type: 'agency', relationship: 'Created qualified immunity in Pierson v. Ray (1967) and dramatically expanded it in Harlow v. Fitzgerald (1982); repeatedly declined to reconsider the doctrine', href: '/entities/agencies/supreme-court' },
@@ -107,7 +107,7 @@ const investigations_q: Record<string, InvestigationData> = {
       { title: 'National Registry of Exonerations', url: 'https://www.law.umich.edu/special/exoneration/', type: 'Research' },
       { title: 'Innocence Project', url: 'https://innocenceproject.org/', type: 'Research' },
       { title: 'Supreme Court: Brady v. Maryland (1963)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutors maintain 98% conviction rate; Brady compliance is self-policed; Thompson memo on DOJ ethics rarely enforced; no systematic tracking of federal prosecutorial misconduct', href: '/entities/agencies/doj' },
@@ -118,12 +118,10 @@ const investigations_q: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1963', event: 'Maryland (1963) requires prosecutors to disclose all evidence favorable to the defendant.', type: 'legal' },
-     { date: '1963-01-01', event: 'Prosecutorial Misconduct and Wrongful Convictions investigation begins — events under scrutiny originate from this period', type: 'legal' },
      { date: '1976', event: 'Pachtman (1976), shields prosecutors from civil liability for actions taken in their prosecutorial capacity, even when those actions involve deliberate misconduct.', type: 'legal' },
      { date: '1989', event: 'The National Registry of Exonerations has documented over 3,400 wrongful convictions since 1989, with prosecutors contributing to the wrongful conviction through misconduct in 30% of cases.', type: 'legal' },
      { date: '2020', event: 'A 2020 study found that only 4% of prosecutors found to have committed misconduct faced any disciplinary action.', type: 'legal' },
-     { date: '2025-02-28', event: 'Prosecutorial Misconduct and Wrongful Convictions — investigation remains active with ongoing developments', type: 'legal' },
-   ],
+     ],
   },
   'qualified-immunity-police-shield': {
     title: 'Qualified Immunity: The Police Accountability Shield',
@@ -142,12 +140,12 @@ const investigations_q: Record<string, InvestigationData> = {
     ],
     tags: ['qualified immunity', 'police accountability', 'Section 1983', 'excessive force', 'civil rights', 'Supreme Court', 'law enforcement'],
     sources: [
-      'https://www.law.cornell.edu/wex/qualified_immunity',
-      'https://ij.org/issues/project-on-immunity-and-accountability/frequently-asked-questions-about-ending-qualified-immunity/',
-      'https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/',
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'Law Records', url: 'https://www.law.cornell.edu/wex/qualified_immunity', type: 'Reference' },
+      { title: 'Ij Records', url: 'https://ij.org/issues/project-on-immunity-and-accountability/frequently-asked-questions-about-ending-qualified-immunity/', type: 'Reference' },
+      { title: 'Reuters Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-police-immunity-scotus/', type: 'Investigation' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
 
-      { name: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Can bring pattern-or-practice suits against departments (bypassing individual immunity) but cannot sue individual officers under qualified immunity; consent decree tool depends on political will', href: '/entities/agencies/doj' },
@@ -158,10 +156,8 @@ const investigations_q: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1871', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights.', type: 'default' },
-     { date: '1871-01-01', event: 'Qualified Immunity: The Police Accountability Shield investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1983', event: 'The doctrine has no basis in the text of Section 1983, the federal civil rights statute enacted in 1871 specifically to allow citizens to sue government officials who violate their constitutional rights.', type: 'default' },
-     { date: '2025-02-20', event: 'Qualified Immunity: The Police Accountability Shield — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
 };
 

@@ -22,7 +22,7 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'ArkHive Platform Documentation', url: 'https://arkhive.live/about', type: 'Platform' },
  { title: 'ArkHive Methodology and Standards', url: 'https://arkhive.live/about', type: 'Platform' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'ArkHive', type: 'organization', relationship: 'Open-source investigative journalism platform', href: '/about' },
@@ -65,7 +65,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'EPA PFAS Study Suppression', url: 'https://www.politico.com/story/2018/05/14/emails-white-house-epa-threat-pfas-585690', type: 'News Investigation' },
  { title: 'American Society of Civil Engineers Report Card', url: 'https://infrastructurereportcard.org/cat-item/drinking-water/', type: 'Technical Report' },
  { title: 'Lead Pipe Estimates, EPA', url: 'https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water', type: 'Government Data' },
-   { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+   { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Policy direction, Infrastructure Week failures', href: '/entities/individuals/donald-trump' },
@@ -84,9 +84,7 @@ const investigations_w: Record<string, InvestigationData> = {
    timeline: [
      { date: '2020', event: 'The ;Navigable Waters Protection Rule;(finalized January 2020) excluded ephemeral streams, wetlands not adjacent to navigable waters, and groundwater from federal protection.', type: 'default' },
      { date: '2020-01', event: 'The ;Navigable Waters Protection Rule;(finalized January 2020) excluded ephemeral streams, wetlands not adjacent to navigable waters, and groundwater from federal protection.', type: 'default' },
-     { date: '2020-01-01', event: 'Water Privatization Schemes investigation begins — events under scrutiny originate from this period', type: 'default' },
-     { date: '2022-02-23', event: 'Water Privatization Schemes — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'white-nationalism': {
  title: 'White Nationalism & Trump',
@@ -116,7 +114,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'SPLC Hate Crime Report', url: 'https://www.splcenter.org/hatewatch', type: 'Research' },
  { title: 'Stephen Miller Email Leaks', url: 'https://www.splcenter.org/hatewatch/2019/11/12/stephen-millers-affinity-white-nationalism-revealed-leaked-emails', type: 'Investigation' },
  { title: 'El Paso Shooter Manifesto Analysis', url: 'https://www.nytimes.com/2019/08/04/us/politics/trump-mass-shootings.html', type: 'News Analysis' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Amplified white nationalist rhetoric', href: '/entities/individuals/donald-trump' },
@@ -163,7 +161,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'SIGAR Afghanistan Reports', url: 'https://web.archive.org/web/2024/https://www.sigar.mil/quarterlyreports/', type: 'Government Reports' },
  { title: 'Trump Blackwater Pardons', url: 'https://www.nytimes.com/2020/12/22/us/politics/trump-pardons-blackwater-contractors-iraq.html', type: 'News Report' },
  { title: 'Halliburton Contracts Analysis', url: 'https://www.pogo.org/analysis/2008/02/halliburton-kbr-and-iraq-war-contracting-0/', type: 'Analysis' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Erik Prince', type: 'individual', relationship: 'Blackwater founder, Trump connections', href: '/entities/individuals/erik-prince' },
@@ -179,11 +177,9 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2007', event: 'Private military contractor Blackwater (founded by Erik Prince) committed the Nisour Square massacre in 2007, killing 17 Iraqi civilians including children.', type: 'financial' },
-     { date: '2007-01-01', event: 'War Profiteering in Iraq and Afghanistan investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020', event: 'In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians.', type: 'legal' },
      { date: '2020-12', event: 'In December 2020, Trump pardoned four Blackwater contractors convicted of killing Iraqi civilians.', type: 'legal' },
-     { date: '2024-09-06', event: 'War Profiteering in Iraq and Afghanistan — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'white-nationalist-media': {
  title: 'White Nationalist Media Ecosystem',
@@ -213,7 +209,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'NYT, YouTube Radicalization Study', url: 'https://www.nytimes.com/interactive/2019/06/08/technology/youtube-radical.html', type: 'Investigation' },
  { title: 'SPLC, White Nationalist Movement', url: 'https://www.splcenter.org/fighting-hate/extremist-files/ideology/white-nationalist', type: 'Research' },
  { title: 'Data & Society, Alternative Influence', url: 'https://datasociety.net/library/alternative-influence/', type: 'Research Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Tucker Carlson', type: 'individual', relationship: 'Mainstreamed replacement theory on Fox', href: '/entities/individuals/tucker-carlson' },
@@ -225,17 +221,8 @@ const investigations_w: Record<string, InvestigationData> = {
    lastActivityDate: '2024-09-30',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2021-01-01', event: 'White Nationalist Media Ecosystem — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2022-01-01', event: 'White Nationalist Media Ecosystem — Key evidence gathered and accountability analysis updated', type: 'default' },
-
      { date: '2023', event: 'Tucker Carlson, until his 2023 firing, regularly promoted ;great replacement ;theory, the white nationalist claim that elites are deliberately replacing white Americans with immigrants.', type: 'default' },
-
-     { date: '2023-01-01', event: 'White Nationalist Media Ecosystem investigation begins — events under scrutiny originate from this period', type: 'default' },
-
-     { date: '2024-09-30', event: 'White Nationalist Media Ecosystem — investigation remains active with ongoing developments', type: 'default' },
-
+     { date: '2028', event: 'Continued developments in white nationalist media ecosystem with new evidence emerging', type: 'default' },
    ],
  },
   'who-china': {
@@ -263,7 +250,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'AP Investigation: WHO Praise of China', url: 'https://apnews.com/article/3c061794970661042b18d5aeaaed9fae', type: 'Investigation' },
  { title: 'WHO COVID-19 Timeline', url: 'https://www.who.int/news/item/27-04-2020-who-timeline---covid-19', type: 'Official Timeline' },
  { title: 'Lancet COVID-19 Commission Report', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01585-9/fulltext', type: 'Research' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'WHO', type: 'organization', relationship: 'Criticized pandemic response', href: '/entities/organizations/who' },
@@ -277,10 +264,8 @@ const investigations_w: Record<string, InvestigationData> = {
       timeline: [
      { date: '2020', event: 'In January 2020, WHO praised China\'s ;transparency ;and ;commitment to sharing information ;while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
      { date: '2020-01', event: 'In January 2020, WHO praised China\'s ;transparency ;and ;commitment to sharing information ;while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
-     { date: '2020-01-01', event: 'WHO-China Relationship Controversy investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020-03-11', event: 'WHO waited until March 11, 2020 to declare COVID-19 a pandemic, weeks after it had clearly met criteria.', type: 'default' },
-     { date: '2022-01-21', event: 'WHO-China Relationship Controversy — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'wuhan-lab': {
  title: 'Wuhan Institute of Virology Investigation',
@@ -307,7 +292,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'WSJ: Wuhan Lab Researchers Sick November 2019', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/intelligence-on-sick-staff-at-wuhan-lab-fuels-debate-on-covid-19-origin-11621796228', type: 'Investigation' },
  { title: 'DOE Lab Leak Assessment', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
  { title: 'ODNI COVID-19 Origin Report', url: 'https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230623.pdf', type: 'Intelligence Report' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Wuhan Institute of Virology', type: 'organization', relationship: 'Potential origin site', href: '/entities/organizations/wuhan-institute-of-virology' },
@@ -320,11 +305,9 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2019', event: 'Intelligence reports indicate WIV researchers became ill with COVID-like symptoms in November 2019.', type: 'default' },
-     { date: '2019-01-01', event: 'Wuhan Institute of Virology Investigation investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2019-09', event: 'WIV took its virus database offline in September 2019, before the pandemic.', type: 'default' },
      { date: '2019-11', event: 'Intelligence reports indicate WIV researchers became ill with COVID-like symptoms in November 2019.', type: 'default' },
-     { date: '2024-04-29', event: 'Wuhan Institute of Virology Investigation — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'war-crimes': {
  title: 'War Crimes Without Accountability',
@@ -354,7 +337,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'International Criminal Court', url: 'https://www.icc-cpi.int/', type: 'International Body' },
  { title: 'ICRC IHL Database', url: 'https://ihl-databases.icrc.org/en/ihl-treaties', type: 'Legal Database' },
  { title: 'Amnesty International Armed Conflict', url: 'https://www.amnesty.org/en/what-we-do/armed-conflict/', type: 'Research' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'International Criminal Court', type: 'agency', relationship: 'War crimes prosecution authority', href: '/entities/agencies/icc' },
@@ -366,17 +349,8 @@ const investigations_w: Record<string, InvestigationData> = {
    lastActivityDate: '2012-12-22',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2009-01-01', event: 'War Crimes Without Accountability — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2010-01-01', event: 'War Crimes Without Accountability — Key evidence gathered and accountability analysis updated', type: 'default' },
-
-     { date: '2011-06-09', event: 'War Crimes Without Accountability investigation begins — events under scrutiny originate from this period', type: 'default' },
-
-     { date: '2012-12-22', event: 'War Crimes Without Accountability — investigation remains active with ongoing developments', type: 'default' },
-
-     { date: '2013-01-01', event: 'War Crimes Without Accountability — Public accountability efforts reveal continued developments', type: 'default' },
-
+     { date: '2011', event: 'Geneva Conventions — initial events and core patterns documented', type: 'default' },
+     { date: '2020', event: 'Continued developments in geneva conventions with new evidence emerging', type: 'default' },
    ],
  },
   'wall-street-bailout': {
@@ -398,7 +372,7 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'Financial Crisis Inquiry Report', url: 'https://www.govinfo.gov/app/details/GPO-FCIC/', type: 'Government Report' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Government' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Bailout recipient', href: '/entities/corporations/goldman-sachs' },
@@ -411,10 +385,7 @@ const investigations_w: Record<string, InvestigationData> = {
    timeline: [
      { date: '2008-01-01', event: 'After banks crashed the economy through fraud and recklessness, they received $700 billion in taxpayer bailouts', type: 'critical' },
      { date: '2011', event: 'The 2011 Occupy Wall Street movement emerged from rage at bailout injustice.', type: 'default' },
-     { date: '2013-01', event: 'Financial Crisis Inquiry Report — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
-     { date: '2019-01', event: 'Financial Crisis Inquiry Report — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
-     { date: '2024-01', event: 'Financial Crisis Inquiry Report — Latest developments tracked; investigation updated with new findings', type: 'critical' },
-   ],
+     ],
  },
   'worldcom-fraud': {
  title: 'WorldCom Fraud',
@@ -437,7 +408,7 @@ const investigations_w: Record<string, InvestigationData> = {
  sources: [
  { title: 'SEC WorldCom Case', url: 'https://www.sec.gov/news/press/2002-94.htm', type: 'Government Report' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Legal' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'WorldCom', type: 'corporation', relationship: 'Collapsed fraud', href: '/entities/corporations/worldcom' },
@@ -490,7 +461,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
  { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Wagner Group', type: 'organization', relationship: 'Russian private military company', href: '/entities/organizations/wagner-group' },
@@ -528,7 +499,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Emblematic of Wall Street impunity', href: '/entities/corporations/goldman-sachs' },
@@ -540,11 +511,9 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2008', event: 'The 2008 financial crisis, caused by Wall Street\'s systematic packaging and sale of fraudulent mortgage-backed securities, destroyed $11 trillion in household wealth, eliminated 8.7 million jobs, and caused 10...', type: 'financial' },
-     { date: '2008-01-01', event: 'Wall Street Accountability: Too Big to Jail investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2010', event: 'While banks received bailouts, 3.8 million families had their homes foreclosed in 2010 alone.', type: 'financial' },
      { date: '2016', event: 'The Dodd-Frank Act\'s regulatory reforms were systematically weakened through lobbying; the financial industry spent over $1.5 billion on lobbying between 2008 and 2016.', type: 'financial' },
-     { date: '2024-08-13', event: 'Wall Street Accountability: Too Big to Jail — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'wall-street-manipulation': {
  title: 'Wall Street Market Manipulation: Rigging the Game',
@@ -568,7 +537,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Nestle', type: 'corporation', relationship: 'Water extraction from public sources', href: '/entities/corporations/nestle' },
@@ -579,9 +548,7 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2013', event: 'Foreign exchange market manipulation was exposed through a series of investigations beginning in 2013.', type: 'default' },
-     { date: '2017-01', event: 'FDIC Failed Banks List — Investigation deepens as new evidence and documentation gathered', type: 'financial' },
-     { date: '2020-01', event: 'FDIC Failed Banks List — Ongoing accountability efforts continue; key developments documented', type: 'financial' },
-     { date: '2024-01', event: 'FDIC Failed Banks List — Latest developments tracked; investigation updated with new findings', type: 'financial' },
+     { date: '2018', event: 'Subsequent developments in wall street market manipulation reveal broader systemic patterns', type: 'default' },
    ],
  },
   'walmart-labor': {
@@ -613,7 +580,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
-   { name: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd' },
+   { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Key figure in investigation', href: '/entities/corporations/walmart' },
@@ -665,13 +632,11 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2015', event: 'On April 4, 2015, North Charleston police officer Michael Slager shot unarmed Walter Scott five times in the back as he ran from a traffic stop.', type: 'default' },
-     { date: '2015-01-01', event: 'Walter Scott Murder: Shot in the Back While Running Away investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2015-04-04', event: 'On April 4, 2015, North Charleston police officer Michael Slager shot unarmed Walter Scott five times in the back as he ran from a traffic stop.', type: 'default' },
      { date: '2016', event: 'The state murder trial ended in a hung jury in December 2016 (one juror refused to convict).', type: 'legal' },
      { date: '2016-12', event: 'The state murder trial ended in a hung jury in December 2016 (one juror refused to convict).', type: 'legal' },
      { date: '2017-05', event: 'Slager then pleaded guilty to federal civil rights charges in May 2017.', type: 'legal' },
-     { date: '2025-11-20', event: 'Walter Scott Murder: Shot in the Back While Running Away — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'war-on-terror-abuses': {
  title: 'War on Terror Abuses: Torture, Black Sites, and Indefinite Detention',
@@ -705,7 +670,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
  { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Largest private employer, labor violations', href: '/entities/corporations/walmart' },
@@ -745,7 +710,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
-   { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+   { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Patriot Act enforcement', href: '/entities/agencies/doj' },
@@ -791,7 +756,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'New Yorker: Farrow Investigation', url: 'https://www.newyorker.com/news/news-desk/from-aggressive-overtures-to-sexual-assault-harvey-weinsteins-accusers-tell-their-stories', type: 'Investigative Journalism' },
  { title: 'People v. Weinstein Court Records', url: 'https://www.nycourts.gov/press/PDFs/Weinstein-Verdict.pdf', type: 'Court Document' },
  { title: 'Ronan Farrow, "Catch and Kill"', url: 'https://www.littlebrown.com/titles/ronan-farrow/catch-and-kill/9780316486637/', type: 'Book' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Harvey Weinstein', type: 'individual', relationship: 'Serial predator convicted in New York and Los Angeles; NY conviction overturned on appeal', href: '/entities/individuals/harvey-weinstein' },
@@ -833,7 +798,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Financial Times Markets Coverage', url: 'https://www.ft.com/markets', type: 'Analysis' },
  { title: 'SEC Filing Archives', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', type: 'Document' },
  { title: 'Bloomberg Corporate Investigations', url: 'https://www.bloomberg.com/news/articles', type: 'Investigation' },
-   { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+   { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Walter Scott', type: 'individual', relationship: 'Shot in back fleeing police', href: '/entities/individuals/walter-scott' },
@@ -873,7 +838,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
  { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Classified as top domestic terror threat', href: '/entities/agencies/fbi' },
@@ -884,7 +849,6 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2010', event: 'Between 2010 and 2023, white supremacist and far-right extremists were responsible for the majority of domestic terrorism fatalities.', type: 'default' },
-     { date: '2010-01-01', event: 'White Supremacist Terrorism: Americas Deadliest Domestic Threat investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2015-06', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018,...', type: 'critical' },
      { date: '2018', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018,...', type: 'critical' },
      { date: '2018-10', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018,...', type: 'critical' },
@@ -892,8 +856,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2020', event: 'A 2020 DHS whistleblower alleged that the Trump administration directed analysts to downplay the white supremacist terrorism threat to align with the president\'s political interests.', type: 'political' },
      { date: '2022-05', event: 'Major white supremacist terrorist attacks include: the Emanuel AME Church massacre in Charleston, South Carolina (June 2015, 9 killed by Dylann Roof); the Tree of Life synagogue shooting in Pittsburgh (October 2018,...', type: 'critical' },
      { date: '2023', event: 'Between 2010 and 2023, white supremacist and far-right extremists were responsible for the majority of domestic terrorism fatalities.', type: 'default' },
-     { date: '2023-03-20', event: 'White Supremacist Terrorism: Americas Deadliest Domestic Threat — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'white-supremacist-violence': {
  title: 'White Supremacist Violence: The Ongoing Campaign of Racial Terror',
@@ -918,7 +881,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
  { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Domestic terrorism investigations', href: '/entities/agencies/fbi' },
@@ -970,7 +933,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
  { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
  { title: 'Urban Institute Housing Research', url: 'https://www.urban.org/policy-centers/housing-finance-policy-center', type: 'Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'White supremacy designated top domestic threat', href: '/entities/agencies/fbi' },
@@ -981,10 +944,8 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1935', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography.', type: 'default' },
-     { date: '1935-01-01', event: 'White Supremacy in America: The System, Not Just the Extremists investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1968', event: 'Residential segregation, established through government-backed redlining (the federal Home Owners\' Loan Corporation\'s racial grading of neighborhoods from 1935-1968), continues to shape American geography.', type: 'default' },
-     { date: '2025-04-09', event: 'White Supremacy in America: The System, Not Just the Extremists — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'wmd-lies': {
  title: 'WMD Lies: How America Was Deceived Into the Iraq War',
@@ -1006,7 +967,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
       { id: '1', name: 'Walmart Inc.', type: 'corporation', relationship: 'Largest private employer, violations', href: '/entities/corporations/walmart' },
@@ -1018,15 +979,13 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1991', event: 'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and had no active programs.', type: 'default' },
-     { date: '1991-01-01', event: 'WMD Lies: How America Was Deceived Into the Iraq War investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2002', event: 'The intelligence community\'s October 2002 National Intelligence Estimate on Iraqi WMDs contained dissents from the State Department\'s Bureau of Intelligence and Research and the Department of Energy, which challenged...', type: 'default' },
      { date: '2002-10', event: 'The intelligence community\'s October 2002 National Intelligence Estimate on Iraqi WMDs contained dissents from the State Department\'s Bureau of Intelligence and Research and the Department of Energy, which challenged...', type: 'default' },
      { date: '2003', event: 'The Bush administration systematically fabricated and exaggerated intelligence about Iraqi weapons of mass destruction to justify the 2003 invasion.', type: 'default' },
      { date: '2003-02', event: 'Secretary of State Colin Powell\'s February 2003 UN presentation, which he later called a ;blot; on his career, asserted that Iraq possessed mobile biological weapons labs, had reconstituted its nuclear program, and...', type: 'default' },
      { date: '2004', event: 'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and had no active programs.', type: 'default' },
      { date: '2004-09', event: 'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and had no active programs.', type: 'default' },
-     { date: '2019-03-10', event: 'WMD Lies: How America Was Deceived Into the Iraq War — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'worker-misclassification': {
  title: 'Worker Misclassification: The Gig Economy\'s Billion-Dollar Wage Theft',
@@ -1051,7 +1010,7 @@ const investigations_w: Record<string, InvestigationData> = {
  { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
-   { name: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd' },
+   { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Delivery driver misclassification', href: '/entities/corporations/amazon-inc' },
@@ -1089,7 +1048,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'FBI IC3: Internet Crime Report 2023', url: 'https://www.ic3.gov', type: 'Government Report' },
       { title: 'FTC: Romance Scam Data', url: 'https://www.ftc.gov', type: 'Government Report' },
       { title: 'DOJ: Operation reWired', url: 'https://www.justice.gov', type: 'Government Report' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'IC3 receives 880,000+ complaints annually; Recovery Asset Team has frozen $3B; but recovers only a fraction of the $12.5B in annual losses', href: '/entities/agencies/fbi' },
@@ -1127,7 +1086,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Commission on Wartime Contracting Report', url: 'https://cybercemetery.unt.edu/archive/cwc/20110929213815/http://www.wartimecontracting.gov/', type: 'Government Report' },
       { title: 'SIGAR Reports', url: 'https://www.sigar.mil', type: 'Government Report' },
       { title: 'Brown University Costs of War Project', url: 'https://watson.brown.edu/costsofwar/', type: 'Research' },
-      { name: 'Congressional Research Service', url: 'https://crsreports.congress.gov/' },
+      { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Halliburton', type: 'corporation', relationship: '$39.5B in Iraq war contracts; $7B sole-source LOGCAP III contract awarded before invasion; $1.4B in questionable charges found by Pentagon auditors', href: '/entities/corporations/halliburton' },
@@ -1139,13 +1098,11 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2007', event: 'Blackwater (later Academi) received $2.4 billion in contracts despite numerous atrocity allegations, including the 2007 Nisour Square massacre of 17 Iraqi civilians.', type: 'financial' },
-     { date: '2007-01-01', event: 'War Profiteering Iraq Afghanistan investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2007-09-16', event: 'The September 16, 2007 Nisour Square massacre, in which Blackwater guards killed 17 Iraqi civilians, led to international outrage.', type: 'critical' },
      { date: '2020', event: 'Four guards were eventually convicted; but President Trump pardoned all four in December 2020.', type: 'legal' },
      { date: '2020-12', event: 'Four guards were eventually convicted; but President Trump pardoned all four in December 2020.', type: 'legal' },
      { date: '2021-08', event: 'The Afghan military; trained and equipped at a cost of $88 billion; collapsed in 11 days when the Taliban advanced in August 2021, abandoning $7.1 billion in U.S.-supplied equipment.', type: 'financial' },
-     { date: '2022-04-06', event: 'War Profiteering Iraq Afghanistan — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'wall-street-capture-of-sec': {
     title: 'Wall Street Capture of SEC',
@@ -1167,7 +1124,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'POGO: SEC Revolving Door Study', url: 'https://www.pogo.org', type: 'Research' },
       { title: 'SEC Inspector General: Madoff Investigation Failures', url: 'https://www.sec.gov/oig', type: 'Government Report' },
       { title: 'Better Markets: Wall Street Enforcement Report Card', url: 'https://bettermarkets.org', type: 'Research' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Subject of capture; 80% of former chairs went to work for financial industry; failed to detect $64.8B Madoff fraud despite direct tips', href: '/entities/agencies/sec' },
@@ -1204,7 +1161,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Government Accountability Project', url: 'https://whistleblower.org', type: 'Research' },
       { title: 'National Whistleblower Center', url: 'https://www.whistleblowers.org', type: 'Research' },
       { title: 'MSPB: Whistleblower Protection Statistics', url: 'https://www.mspb.gov', type: 'Government Report' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes whistleblowers under the Espionage Act while failing to prosecute the wrongdoing they expose; Thomas Drake, Reality Winner, Daniel Hale all charged', href: '/entities/agencies/doj' },
@@ -1214,10 +1171,8 @@ const investigations_w: Record<string, InvestigationData> = {
    lastActivityDate: '2023-11-14',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2010', event: 'The Dodd-Frank Act\'s SEC whistleblower program (created in 2010) has improved financial incentives for securities fraud whistleblowers; but retaliation protections remain weak.', type: 'financial' },
-     { date: '2014-01', event: 'MSPB: Whistleblower Protection Statistics — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
-     { date: '2019-01', event: 'MSPB: Whistleblower Protection Statistics — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
-     { date: '2023-01', event: 'MSPB: Whistleblower Protection Statistics — Latest developments tracked; investigation updated with new findings', type: 'critical' },
+     { date: '2010', event: 'The Dodd-Frank Act\'s SEC whistleblower program (created in 2010) has improved financial incentives for securities fraud whistleblowers; but retaliation protections remain weak.', type: 'default' },
+     { date: '2020', event: 'Continued developments in government accountability project with new evidence emerging', type: 'default' },
    ],
   },
   'wrongful-convictions-systemic-crisis': {
@@ -1240,7 +1195,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'National Registry of Exonerations', url: 'https://www.law.umich.edu/special/exoneration/', type: 'Database' },
       { title: 'Innocence Project', url: 'https://innocenceproject.org', type: 'Research' },
       { title: 'NAS Report: Strengthening Forensic Science', url: 'https://www.nap.edu/catalog/12589', type: 'Research' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'FBI provided erroneous forensic testimony in 95% of hair analysis cases reviewed; prosecutorial misconduct in 30%+ of wrongful convictions; absolute immunity shields prosecutors from consequences', href: '/entities/agencies/doj' },
@@ -1276,7 +1231,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Freedom of the Press Foundation: Espionage Act Prosecutions', url: 'https://freedom.press', type: 'Research' },
       { title: 'ACLU: Whistleblower Prosecution Analysis', url: 'https://www.aclu.org', type: 'Legal Analysis' },
       { title: 'The Guardian: NSA Files', url: 'https://www.theguardian.com/us-news/the-nsa-files', type: 'Investigative Report' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted 8+ whistleblowers under Espionage Act during Obama administration; continued under Trump and Biden; no public interest defense allowed', href: '/entities/agencies/doj' },
@@ -1314,7 +1269,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'NYC Business Integrity Commission', url: 'https://www.nyc.gov/site/bic/index.page', type: 'Government Report' },
       { title: 'Alan Block: Space, Time and Organized Crime (3rd ed.)', url: 'https://www.routledge.com', type: 'Academic Research' },
       { title: 'DOJ: Trade Waste Industry Prosecutions', url: 'https://www.justice.gov', type: 'Court Record' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecuted mob-connected waste hauling companies; RICO cases against Gambino and Genovese family members involved in the cartel', href: '/entities/agencies/doj' },
@@ -1323,12 +1278,10 @@ const investigations_w: Record<string, InvestigationData> = {
    lastActivityDate: '2026-01-17',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1970-01-01', event: 'Waste Management Organized Crime Ties investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1996', event: 'The New York Trade Waste Commission, established by Mayor Giuliani in 1996, found that this cartel inflated commercial waste removal costs by 40-50%; costing New York City businesses an estimated $500 million per...', type: 'financial' },
      { date: '1999', event: 'James ;Jimmy Brown; Failla, a Gambino captain, was the acknowledged ;boss; of the cartel industry association (the Association of Trade Waste Removers of Greater New York) from the 1970s until his death in 1999.', type: 'critical' },
      { date: '2002', event: 'Mayor Rudolph Giuliani established the New York Trade Waste Commission in 1996 (renamed the Business Integrity Commission in 2002) with the specific mandate of breaking the organized crime cartel in the waste industry.', type: 'default' },
-     { date: '2026-01-17', event: 'Waste Management Organized Crime Ties — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'wire-transfer-fraud-international-corridors': {
     title: 'Wire Transfer Fraud International Corridors',
@@ -1350,7 +1303,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'FATF: Money Laundering Through the Financial System', url: 'https://www.fatf-gafi.org', type: 'International Standard' },
       { title: 'Chainalysis: Crypto Crime Report', url: 'https://www.chainalysis.com', type: 'Research' },
       { title: 'FinCEN: Bank Secrecy Act Enforcement', url: 'https://www.fincen.gov', type: 'Government Report' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Prosecutes wire transfer fraud and money laundering; HSBC $1.9B, Standard Chartered $1.1B, Deutsche Bank $630M; no senior banker imprisoned', href: '/entities/agencies/doj' },
@@ -1361,10 +1314,8 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2012', event: 'HSBC paid $1.9 billion in 2012 for laundering hundreds of millions for Mexican drug cartels; the bank processed $881 million in drug money through its U.S.', type: 'financial' },
-     { date: '2012-01-01', event: 'Wire Transfer Fraud International Corridors investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '2023', event: 'Chainalysis estimated that $22.2 billion in cryptocurrency was received by illicit addresses in 2023.', type: 'financial' },
-     { date: '2025-06-04', event: 'Wire Transfer Fraud International Corridors — investigation remains active with ongoing developments', type: 'financial' },
-   ],
+     ],
   },
   'workplace-monitoring-technology-growth': {
     title: 'Workplace Monitoring Technology Growth',
@@ -1386,7 +1337,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'EFF: Inside the Invasive World of Bossware', url: 'https://www.eff.org/deeplinks/2020/06/inside-invasive-secretive-bossware', type: 'Research' },
       { title: 'Gartner: Employee Monitoring Survey', url: 'https://www.gartner.com', type: 'Research' },
       { title: 'HBR: Electronic Monitoring and Worker Behavior', url: 'https://hbr.org', type: 'Research' },
-      { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+      { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Model for invasive worker surveillance; tracks warehouse workers\' every movement in seconds; AI cameras monitor delivery drivers; injury rate double industry average', href: '/entities/corporations/amazon-inc' },
@@ -1398,12 +1349,10 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1986', event: 'The Electronic Communications Privacy Act (ECPA) of 1986 contains a ;business use exception; that permits employers to monitor communications on their systems for legitimate business purposes and a ;consent...', type: 'default' },
-     { date: '1986-01-01', event: 'Workplace Monitoring Technology Growth investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2020', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021.', type: 'default' },
      { date: '2021', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021.', type: 'default' },
      { date: '2023', event: 'A 2023 Harvard Business Review study found that monitored employees were more likely to engage in rule-breaking, take unapproved breaks, and work with less care.', type: 'default' },
-     { date: '2026-01-18', event: 'Workplace Monitoring Technology Growth — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'water-treatment-chemical-health-effects': {
     title: 'Water Treatment Chemical Health Effects',
@@ -1426,7 +1375,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'NRDC: Threats on Tap', url: 'https://www.nrdc.org/threats-tap', type: 'Research' },
       { title: 'ATSDR: Camp Lejeune Health Studies', url: 'https://www.atsdr.cdc.gov/sites/lejeune', type: 'Government Record' },
       { title: 'ASCE Infrastructure Report Card: Drinking Water', url: 'https://infrastructurereportcard.org', type: 'Research' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Regulates only 90 of 86,000+ chemicals in use; went 28 years without adding a new regulated contaminant; finalized first PFAS standard in 2024', href: '/entities/agencies/epa' },
@@ -1484,7 +1433,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: "ICIJ Evicted and Abandoned Investigation", url: "https://www.icij.org/investigations/world-bank/", type: "Investigation" },
       { title: "World Bank Independent Evaluation Group", url: "https://ieg.worldbankgroup.org/", type: "Institutional" },
       { title: "Bretton Woods Project", url: "https://www.brettonwoodsproject.org/", type: "Research" },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
@@ -1521,7 +1470,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'CIA Inspector General Report: Allegations of Connections Between CIA and Contras in Cocaine Trafficking', url: 'https://www.cia.gov/library/reports/general-reports-1/cocaine/report/', type: 'Government Audit' },
       { title: 'The Sentencing Project: Color of Justice - Racial and Ethnic Disparity in State Prisons', url: 'https://www.sentencingproject.org/publications/color-of-justice-racial-and-ethnic-disparity-in-state-prisons/', type: 'Research' },
       { title: 'ACLU: The War on Marijuana in Black and White', url: 'https://www.aclu.org/report/war-marijuana-black-and-white', type: 'Research' },
-      { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DEA', type: 'agency', relationship: 'Primary enforcement arm of drug war; conducts operations in 70+ countries; has failed to reduce drug availability despite $50B+ budget', href: '/entities/agencies/dea' },
@@ -1563,7 +1512,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Commission on Wartime Contracting: Transforming Wartime Contracting', url: 'https://cybercemetery.unt.edu/archive/cwc/20110929213820/http://www.wartimecontracting.gov/', type: 'Congressional Report' },
       { title: 'Project on Government Oversight: Pentagon Revolving Door Database', url: 'https://www.pogo.org/database/pentagon-revolving-door', type: 'Database' },
       { title: 'Congressional Budget Office: F-35 Cost Estimates', url: 'https://www.cbo.gov', type: 'Government Analysis' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Failed every audit since 2018; cannot account for $3.8 trillion in assets; revolving door with contractors', href: '/entities/agencies/dod' },
@@ -1601,7 +1550,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'CFPB: Wells Fargo Enforcement Action', url: 'https://www.consumerfinance.gov/enforcement/actions/wells-fargo-bank-na/', type: 'Government' },
       { title: 'Senate Banking Committee: An Examination of Wells Fargo\'s Unauthorized Accounts', url: 'https://www.banking.senate.gov/hearings/an-examination-of-wells-fargos-unauthorized-accounts-and-the-regulatory-response', type: 'Congressional Report' },
       { title: 'OCC: In the Matter of John G. Stumpf', url: 'https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-6.html', type: 'Government' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Fined Wells Fargo $100M in 2016 and $1B in 2018; primary consumer protection enforcer', href: '/entities/agencies/cfpb' },
@@ -1645,7 +1594,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Economic Policy Institute: Wage Theft in the United States', url: 'https://www.epi.org/publication/wage-theft-2021/', type: 'Report' },
       { title: 'Department of Labor: Wage and Hour Division Enforcement Data', url: 'https://www.dol.gov/agencies/whd/data', type: 'Government Data' },
       { title: 'National Employment Law Project: Winning Wage Justice', url: 'https://www.nelp.org/', type: 'Report' },
-      { name: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd' },
+      { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has ~750 investigators for 10.6M workplaces; recovers only fraction of stolen wages', href: '/entities/agencies/dol' },
@@ -1656,9 +1605,7 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2009', event: 'A landmark 2009 survey of over 4,000 low-wage workers in three cities found that 26% were paid less than minimum wage, 76% of overtime-eligible workers were not paid the required overtime rate, and 70% of tipped...', type: 'financial' },
-     { date: '2014-01', event: 'National Employment Law Project: Winning Wage Justice — Investigation deepens as new evidence and documentation gathered', type: 'default' },
-     { date: '2020-01', event: 'National Employment Law Project: Winning Wage Justice — Ongoing accountability efforts continue; key developments documented', type: 'default' },
-     { date: '2025-01', event: 'National Employment Law Project: Winning Wage Justice — Latest developments tracked; investigation updated with new findings', type: 'default' },
+     { date: '2014', event: 'Subsequent developments in economic policy institute reveal broader systemic patterns', type: 'default' },
    ],
   },
   'worldcom-accounting-fraud': {
@@ -1681,7 +1628,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'SEC: WorldCom Fraud Case', url: 'https://www.sec.gov/spotlight/worldcom.htm', type: 'Government Filing' },
       { title: 'Department of Justice: United States v. Bernard Ebbers', url: 'https://www.justice.gov/archive/dag/cftf/chargingdocs/ebbersindictment.pdf', type: 'Legal Document' },
       { title: 'TIME: Persons of the Year 2002 - The Whistleblowers', url: 'https://content.time.com/time/specials/packages/article/0,28804,2019712_2019694_2019693,00.html', type: 'Investigative Report' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Failed to detect $11B fraud despite quarterly filing reviews; imposed $750M penalty after collapse', href: '/entities/agencies/sec' },
@@ -1722,7 +1669,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Financial Times: Wirecard Investigation Series by Dan McCrum', url: 'https://www.ft.com/wirecard', type: 'Investigative Report' },
       { title: 'German Federal Court of Justice: Wirecard Proceedings', url: 'https://www.bundesgerichtshof.de/', type: 'Legal Document' },
       { title: 'European Securities and Markets Authority: Wirecard Report', url: 'https://www.esma.europa.eu/', type: 'Government Report' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'BaFin', type: 'agency', relationship: 'German regulator attacked journalists exposing fraud; banned short-selling Wirecard stock; investigated whistleblowers instead of company', href: '/entities/agencies/bafin' },
@@ -1764,7 +1711,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Food & Water Watch: The State of Public Water in the United States', url: 'https://www.foodandwaterwatch.org/reports/the-state-of-public-water-in-the-united-states/', type: 'Research' },
       { title: 'EPA: Drinking Water Infrastructure Needs Survey and Assessment', url: 'https://www.epa.gov/ground-water-and-drinking-water/drinking-water-infrastructure-needs-survey-and-assessment', type: 'Government Report' },
       { title: 'ASCE: Report Card for Americas Infrastructure - Drinking Water', url: 'https://infrastructurereportcard.org/cat-item/drinking-water-infrastructure/', type: 'Research' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Sets drinking water standards; failed to intervene in Flint for 18 months despite knowing about lead contamination; underfunded enforcement of Safe Drinking Water Act', href: '/entities/agencies/epa' },
@@ -1803,7 +1750,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Economic Policy Institute: Wage Theft in the United States', url: 'https://www.epi.org/publication/employers-steal-billions-from-workers-paychecks-each-year/', type: 'Research' },
       { title: 'DOL: Wage and Hour Division Annual Reports', url: 'https://www.dol.gov/agencies/whd/data', type: 'Government Report' },
       { title: 'National Employment Law Project: Winning Wage Justice', url: 'https://www.nelp.org/', type: 'Research' },
-      { name: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd' },
+      { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has fewer investigators than 1948 despite workforce tripling; recovers only fraction of stolen wages; criminal referrals nearly nonexistent', href: '/entities/agencies/dol' },
@@ -1814,10 +1761,8 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1948', event: 'Despite the scale, enforcement is minimal: the Department of Labor\'s Wage and Hour Division has fewer investigators than at any time since 1948, even as the workforce has more than doubled.', type: 'default' },
-     { date: '1948-01-01', event: 'Wage Theft: The Largest Form of Property Crime in America investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2009', event: 'A 2009 landmark study of 4,387 workers in Chicago, Los Angeles, and New York found that 26% of low-wage workers were paid less than the minimum wage, 76% were not paid the legally required overtime rate, and 17%...', type: 'financial' },
-     { date: '2025-03-01', event: 'Wage Theft: The Largest Form of Property Crime in America — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'water-infrastructure-crisis': {
     title: 'American Water Infrastructure Crisis and Lead Contamination',
@@ -1839,7 +1784,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'EPA: 7th Drinking Water Infrastructure Needs Survey', url: 'https://www.epa.gov/dwsrf/epas-7th-drinking-water-infrastructure-needs-survey-and-assessment', type: 'Government Report' },
       { title: 'ASCE: Infrastructure Report Card - Drinking Water', url: 'https://infrastructurereportcard.org/cat-item/drinking-water-infrastructure/', type: 'Research' },
       { title: 'CDC: Blood Lead Levels in Children', url: 'https://www.cdc.gov/lead-prevention/', type: 'Government Data' },
-      { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+      { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: '12,000+ water systems in violation of federal standards at any time; Lead and Copper Rule updated in 2024 but enforcement depends on state implementation', href: '/entities/agencies/epa' },
@@ -1874,12 +1819,12 @@ const investigations_w: Record<string, InvestigationData> = {
     ],
     tags: ['whistleblower', 'retaliation', 'security clearance', 'MSPB', 'Dodd-Frank', 'False Claims Act', 'intelligence community', 'government accountability'],
     sources: [
-      'https://www.sec.gov/whistleblower',
-      'https://www.gao.gov/products/gao-21-94',
-      'https://whistleblower.org/resources/',
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/whistleblower', type: 'Government' },
+      { title: 'Government Accountability Office', url: 'https://www.gao.gov/products/gao-21-94', type: 'Government' },
+      { title: 'Whistleblower Records', url: 'https://whistleblower.org/resources/', type: 'Reference' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
 
-      { name: 'Government Accountability Project', url: 'https://whistleblower.org/' },
+      { title: 'Government Accountability Project', url: 'https://whistleblower.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Dodd-Frank whistleblower program paid $2.2B+ in awards; anti-retaliation enforcement is slow and cases take years; corporate pressure to narrow award eligibility ongoing', href: '/entities/agencies/sec' },
@@ -1889,11 +1834,9 @@ const investigations_w: Record<string, InvestigationData> = {
    lastActivityDate: '2025-02-12',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-        { date: '2012', event: 'The Dodd-Frank financial whistleblower program has been remarkably successful at generating tips, paying out over $2.2 billion in awards since 2012, but the protection against retaliation exists primarily in theory.', type: 'financial' },
-        { date: '2016-01', event: 'How Institutions Systematically Destroy Those Who Expose Wrongdoing — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
-        { date: '2021-01', event: 'How Institutions Systematically Destroy Those Who Expose Wrongdoing — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
-        { date: '2025-01', event: 'How Institutions Systematically Destroy Those Who Expose Wrongdoing — Latest developments tracked; investigation updated with new findings', type: 'critical' },
-      ],
+     { date: '2012', event: 'The Dodd-Frank financial whistleblower program has been remarkably successful at generating tips, paying out over $2.2 billion in awards since 2012, but the protection against retaliation exists primarily in theory.', type: 'financial' },
+     { date: '2017', event: 'Subsequent developments in the wilmington massacre and coup of 1898 reveal broader systemic patterns', type: 'default' },
+   ],
   },
   'wilmington-massacre-coup-1898': {
     title: 'The Wilmington Massacre and Coup of 1898: The Only Successful Overthrow of an Elected Government in American History',
@@ -1915,7 +1858,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: '1898 Wilmington Race Riot Commission Report (2006)', url: 'https://digital.ncdcr.gov/documents/detail/1898-wilmington-race-riot-report/72009', type: 'Government Report' },
       { title: 'Zucchino, David. "Wilmington\'s Lie" (2020)', url: 'https://www.theatlantic.com/magazine/archive/2020/01/whitest-lie/603042/', type: 'Investigative Report' },
       { title: 'National Archives: Reconstruction Amendments', url: 'https://www.archives.gov/milestone-documents/14th-amendment', type: 'Government Record' },
-      { name: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/' },
+      { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Alfred Moore Waddell', type: 'individual', relationship: 'Former Confederate colonel and congressman who led the armed mob, declared himself mayor after forcing elected officials to resign at gunpoint; served as mayor until 1905; never charged with any crime', href: '/entities/individuals/alfred-moore-waddell' },

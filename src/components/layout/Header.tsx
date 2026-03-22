@@ -130,25 +130,25 @@ export default function Header() {
  <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-zinc-700/50 to-transparent"/>
 
  <div className="w-full max-w-[1400px] mx-auto px-3 sm:px-4 lg:px-6">
- <div className="flex items-center justify-between h-16 lg:h-20">
+ <div className="flex items-center justify-between h-16 xl:h-20">
  {/* Logo */}
  <Link href="/"className="flex items-center gap-3 group">
  <BleedingPyramidLogo size={55} showWords={false} />
  <div className="hidden sm:block">
- <h1 className="text-lg lg:text-xl font-black tracking-tight text-white leading-tight relative">
+ <h1 className="text-lg xl:text-xl font-black tracking-tight text-white leading-tight relative">
  <span className="relative inline-block glass-text-hero">
  ARKHIVE
  </span>
- <sup className="text-zinc-300 text-[10px] lg:text-xs font-bold drop-shadow-[0_0_6px_rgba(255,255,255,0.2)]">®</sup>
+ <sup className="text-zinc-300 text-[10px] xl:text-xs font-bold drop-shadow-[0_0_6px_rgba(255,255,255,0.2)]">®</sup>
  </h1>
- <span className="text-[10px] lg:text-xs font-semibold tracking-[0.25em] glass-text-subtle uppercase drop-shadow-[0_0_6px_rgba(255,255,255,0.2)]">
+ <span className="text-[10px] xl:text-xs font-semibold tracking-[0.25em] glass-text-subtle uppercase drop-shadow-[0_0_6px_rgba(255,255,255,0.2)]">
  Investigation Platform
  </span>
  </div>
  </Link>
 
  {/* Desktop Navigation */}
- <nav className="hidden lg:flex items-center gap-1 xl:gap-1.5 flex-shrink min-w-0 overflow-hidden" aria-label="Main navigation">
+ <nav className="hidden xl:flex items-center gap-1 2xl:gap-1.5 flex-shrink min-w-0 overflow-hidden" aria-label="Main navigation">
  {/* Home link */}
  <Link
  href="/"
@@ -255,7 +255,7 @@ export default function Header() {
  aria-label={isMenuOpen ? "Close menu" : "Open menu"}
  aria-expanded={isMenuOpen}
  aria-controls="mobile-menu"
- className="lg:hidden p-2 text-zinc-500 hover:text-white hover:bg-zinc-800/80 transition-colors"
+ className="xl:hidden p-2 text-zinc-500 hover:text-white hover:bg-zinc-800/80 transition-colors"
  >
  {isMenuOpen ? <X className="w-6 h-6"/> : <Menu className="w-6 h-6"/>}
  </button>
@@ -265,7 +265,7 @@ export default function Header() {
 
  {/* Mobile Menu */}
  {isMenuOpen && (
- <div id="mobile-menu" className="lg:hidden bg-[rgba(0,8,25,0.80)] border-t border-zinc-800">
+ <div id="mobile-menu" className="xl:hidden bg-[rgba(0,8,25,0.80)] border-t border-zinc-800">
  <nav className="max-w-7xl mx-auto px-4 py-3 space-y-0.5" aria-label="Mobile navigation">
  {navLinks.map((link, index) => {
  const active = isActive(link.href);

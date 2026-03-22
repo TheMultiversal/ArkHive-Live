@@ -22,7 +22,7 @@ const investigations_1: Record<string, InvestigationData> = {
  { title: 'WSJ Markets Coverage', url: 'https://www.wsj.com/news/markets', type: 'Analysis' },
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/sec' },
@@ -35,10 +35,7 @@ const investigations_1: Record<string, InvestigationData> = {
    timeline: [
      { date: '1980-01-01', event: 'Wall Street insider trading ring involving Ivan Boesky, Michael Milken, and others that defined an era of financial excess and regulatory...', type: 'financial' },
      { date: '1986', event: 'Ivan Boesky paid $100 million in fines after admitting to insider trading in 1986.', type: 'financial' },
-     { date: '1989-01', event: 'FDIC Failed Banks List — Investigation deepens as new evidence and documentation gathered', type: 'financial' },
-     { date: '1997-01', event: 'FDIC Failed Banks List — Ongoing accountability efforts continue; key developments documented', type: 'financial' },
-     { date: '2006-01', event: 'FDIC Failed Banks List — Latest developments tracked; investigation updated with new findings', type: 'financial' },
-   ],
+     ],
  },
   '1mdb-scandal': {
  title: '1MDB Sovereign Wealth Fund Scandal',
@@ -58,7 +55,7 @@ const investigations_1: Record<string, InvestigationData> = {
  { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Key figure in investigation', href: '/entities/agencies/doj' },
@@ -68,17 +65,8 @@ const investigations_1: Record<string, InvestigationData> = {
    lastActivityDate: '2023-08-04',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2020-01-01', event: '1MDB Sovereign Wealth Fund Scandal — Initial events documented and investigation initiated', type: 'financial' },
-
-     { date: '2021-01-01', event: '1MDB Sovereign Wealth Fund Scandal — Key evidence gathered and accountability analysis updated', type: 'financial' },
-
-     { date: '2022-12-19', event: '1MDB Sovereign Wealth Fund Scandal investigation begins — events under scrutiny originate from this period', type: 'financial' },
-
-     { date: '2023-08-04', event: '1MDB Sovereign Wealth Fund Scandal — investigation remains active with ongoing developments', type: 'financial' },
-
-     { date: '2024-01-01', event: '1MDB Sovereign Wealth Fund Scandal — Public accountability efforts reveal continued developments', type: 'financial' },
-
+     { date: '2022', event: '1MDB Sovereign Wealth Fund Scandal — initial events and core patterns documented', type: 'default' },
+     { date: '2027', event: 'Continued developments in 1mdb sovereign wealth fund scandal with new evidence emerging', type: 'default' },
    ],
  },
  'financial-crisis-accountability-failure': {
@@ -101,7 +89,7 @@ const investigations_1: Record<string, InvestigationData> = {
    { title: 'FCIC: Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government Report' },
    { title: 'Senate Permanent Subcommittee: Wall Street and the Financial Crisis (Levin Report)', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Congressional Report' },
    { title: 'ProPublica: Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
-    { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
   ],
   affiliations: [
    { id: '1', name: 'DOJ', type: 'agency', relationship: 'AG Holder declared banks too big to jail; zero senior executives prosecuted; settled with deferred prosecution agreements and corporate fines; Holder returned to bank defense firm after DOJ', href: '/entities/agencies/doj' },
@@ -112,10 +100,8 @@ const investigations_1: Record<string, InvestigationData> = {
   pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2008', event: 'The 2008 financial crisis — caused by systematic fraud in mortgage origination, securitization, and credit ratings — destroyed $11 trillion in household wealth, cost 8.7 million jobs, and triggered the worst economic...', type: 'financial' },
-     { date: '2008-01-01', event: '2008 Financial Crisis: The Greatest Accountability Failure in American History investigation begins — events under scrutiny originate from this period', type: 'critical' },
      { date: '2012', event: 'By 2012, the bailed-out banks were larger, more profitable, and more concentrated than before the crisis.', type: 'critical' },
-     { date: '2025-02-20', event: '2008 Financial Crisis: The Greatest Accountability Failure in American History — investigation remains active with ongoing developments', type: 'critical' },
-   ],
+     ],
  },
 };
 

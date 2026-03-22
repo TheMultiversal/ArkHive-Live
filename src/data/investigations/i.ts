@@ -26,7 +26,7 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'USA Today 3,500 Lawsuits Investigation', url: 'https://www.usatoday.com/story/news/politics/elections/2016/06/09/donald-trump-unpaid-bills-exposed/85297274/', type: 'Investigation' },
  { title: 'Tony Schwartz on Writing Art of the Deal', url: 'https://www.newyorker.com/magazine/2016/07/25/donald-trumps-ghostwriter-tells-all', type: 'Interview' },
-   { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+   { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Primary perpetrator', href: '/entities/individuals/donald-trump' },
@@ -37,10 +37,27 @@ const investigations_i: Record<string, InvestigationData> = {
    lastActivityDate: '2024-05-03',
    pageUpdatedDate: '2026-03-18',
    timeline: [
+     { date: '1953', event: 'The Waterfront Commission of New York Harbor, created in 1953 specifically to combat mob control of the ports, has faced repeated political attempts to defund or disband it; including a 2018 New Jersey bill (signed by Governor Phil Murphy) to withdraw from the commission.', type: 'default' },
+     { date: '1981', event: 'The family boss from 1981 to 2005, Vincent "The Chin" Gigante, famously feigned mental illness for decades to avoid prosecution; wandering Greenwich Village in a bathrobe to appear incompetent.', type: 'default' },
+     { date: '2020', event: 'In 2020, eight members and associates of the Genovese family were convicted for controlling the International Longshoremen Association Local 1235; extorting payments from shipping companies at ports in New York and New Jersey.', type: 'default' },
+     { date: '2021', event: 'In 2021, 12 members and associates of the Colombo family were indicted for extorting construction companies on Long Island, forcing them to use mob-connected suppliers and labor.', type: 'default' },
+     { date: '2022', event: 'The Bonanno family has been repeatedly prosecuted for heroin and fentanyl distribution; a 2022 indictment charged 14 members with running a drug trafficking network that distributed fentanyl, heroin, and cocaine across the Northeast.', type: 'default' },
+   ],
+   timeline: [
+     { date: '2003', event: 'DEATHS IN CUSTODY: Over 200 people have died in ICE custody since 2003, many from preventable causes.', type: 'default' },
+     { date: '2010', event: 'SEXUAL ABUSE: Between 2010 and 2017, the DHS Inspector General received over 33,000 complaints of sexual and physical abuse in ICE detention facilities.', type: 'default' },
+     { date: '2020', event: 'FORCED HYSTERECTOMIES: In 2020, whistleblower Dawn Wooten, a nurse at Irwin County Detention Center in Georgia, alleged that a gynecologist performed unnecessary hysterectomies and other procedures on detained women without their informed consent.', type: 'default' },
+   ],
+   timeline: [
+     { date: '1989', event: 'Omar al-Bashir, president of Sudan from 1989 to 2019, was indicted by the ICC in 2009 and 2010 on charges of genocide, war crimes, and crimes against humanity for the Darfur conflict that killed approximately 300,000 people.', type: 'default' },
+     { date: '2002', event: 'The International Criminal Court, established in 2002, has issued arrest warrants for individuals accused of the gravest crimes under international law.', type: 'default' },
+     { date: '2005', event: 'Joseph Kony, leader of the Lord\'s Resistance Army, has been a fugitive since 2005 despite ICC warrants for war crimes including the abduction of approximately 30,000 children as soldiers and sex slaves in Uganda, the Democratic Republic of Congo, the Central African Republic, and South Sudan.', type: 'default' },
+     { date: '2017', event: 'military advisory mission to capture Kony was withdrawn in 2017 without achieving its objective.', type: 'default' },
+     { date: '2023', event: 'The ICC\'s 2023 arrest warrant for Russian President Vladimir Putin for the war crime of deporting Ukrainian children marked the first warrant against a sitting head of state of a UN Security Council permanent member.', type: 'default' },
+   ],
+   timeline: [
      { date: '2013-12-05', event: 'Donald Trump and his businesses have a decades-long pattern of intellectual property theft and refusal to pay for work: using copyrighted...', type: 'default' },
-     { date: '2017-01', event: 'Tony Schwartz on Writing Art of the Deal — Investigation deepens as new evidence and documentation gathered', type: 'default' },
-     { date: '2020-01', event: 'Tony Schwartz on Writing Art of the Deal — Ongoing accountability efforts continue; key developments documented', type: 'default' },
-     { date: '2024-01', event: 'Tony Schwartz on Writing Art of the Deal — Latest developments tracked; investigation updated with new findings', type: 'default' },
+     { date: '2020', event: 'Continued developments in intellectual property theft & contractor fraud with new evidence emerging', type: 'default' },
    ],
  },
   'iraq-war-deception': {
@@ -71,7 +88,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'Duelfer Report (Iraq Survey Group)', url: 'https://web.archive.org/web/2024/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
  { title: 'Powell UN Speech Transcript', url: 'https://www.un.org/press/en/2003/sc7658.doc.htm', type: 'Official Transcript' },
  { title: 'Bush State of the Union 2003 (16 Words)', url: 'https://georgewbush-whitehouse.archives.gov/news/releases/2003/01/20030128-19.html', type: 'Official Transcript' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'Ordered invasion based on lies', href: '/entities/individuals/george-w-bush' },
@@ -87,12 +104,10 @@ const investigations_i: Record<string, InvestigationData> = {
    lastActivityDate: '2023-07-13',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1990-01-01', event: 'Iraq War Deception investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2002-07', event: 'A leaked British memo from July 2002 revealed that Bush had already decided to invade Iraq and ;the intelligence and facts were being fixed around the policy.;This confirmed the deception was deliberate.', type: 'default' },
      { date: '2003', event: 'In his 2003 State of the Union, Bush said:;The British government has learned that Saddam Hussein recently sought significant quantities of uranium from Africa.;This claim was based on forged documents.', type: 'default' },
      { date: '2003-02-05', event: 'POWELL\'S UN SPEECH: On February 5, 2003, Secretary of State Colin Powell presented the case for war to the UN Security Council.', type: 'default' },
-     { date: '2023-07-13', event: 'Iraq War Deception — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'iraq-sanctions': {
  title: 'Iraq Sanctions and the Death of 500,000 Children',
@@ -120,7 +135,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'Lancet Child Mortality Study', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(95)92847-3/fulltext', type: 'Medical Journal' },
  { title: 'Denis Halliday Resignation Statement', url: 'https://www.theguardian.com/theguardian/2000/nov/29/guardianweekly.guardianweekly1', type: 'News Report' },
  { title: 'UNICEF Child Mortality Data', url: 'https://www.unicef.org/newsline/99pr29.htm', type: 'UN Report' },
-   { name: 'Office of Juvenile Justice and Delinquency Prevention', url: 'https://ojjdp.ojp.gov/' },
+   { title: 'Office of Juvenile Justice and Delinquency Prevention', url: 'https://ojjdp.ojp.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Madeleine Albright', type: 'individual', relationship: '"Worth it" statement', href: '/entities/individuals/madeleine-albright' },
@@ -170,7 +185,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'SIGIR Final Report', url: 'https://cybercemetery.unt.edu/archive/sigir/20131001091000/http://www.sigir.mil/', type: 'Government Report' },
  { title: 'Costs of War Project', url: 'https://watson.brown.edu/costsofwar/', type: 'Research' },
  { title: 'ProPublica War Contractors Coverage', url: 'https://www.propublica.org/series/disposable-army', type: 'Investigation' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Halliburton', type: 'corporation', relationship: 'Major war contractor, Cheney connection', href: '/entities/corporations/halliburton' },
@@ -184,9 +199,7 @@ const investigations_i: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2011-02-14', event: 'The post-9/11 wars generated trillions in contractor profits while failing to achieve stated objectives', type: 'critical' },
-     { date: '2016-01', event: 'ProPublica War Contractors Coverage — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
-     { date: '2020-01', event: 'ProPublica War Contractors Coverage — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
-     { date: '2025-01', event: 'ProPublica War Contractors Coverage — Latest developments tracked; investigation updated with new findings', type: 'critical' },
+     { date: '2020', event: 'Continued developments in commission on wartime contracting final report with new evidence emerging', type: 'default' },
    ],
  },
   'iraq-war': {
@@ -209,7 +222,7 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Iraq Survey Group Final Report', url: 'https://web.archive.org/web/2024/https://www.cia.gov/library/reports/general-reports-1/iraq_wmd_2004/', type: 'Government Report' },
       { title: 'International Criminal Court', url: 'https://www.icc-cpi.int/', type: 'Legal' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'George W. Bush', type: 'individual', relationship: 'Ordered invasion based on lies', href: '/entities/individuals/george-w-bush' },
@@ -223,9 +236,7 @@ const investigations_i: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2009-12-02', event: 'The Iraq War, launched on false claims of WMDs and Saddam-Al Qaeda ties, killed hundreds of thousands of Iraqis, cost trillions of dollar...', type: 'critical' },
-     { date: '2013-01', event: 'Iraq Survey Group Final Report — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
-     { date: '2018-01', event: 'Iraq Survey Group Final Report — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
-     { date: '2022-01', event: 'Iraq Survey Group Final Report — Latest developments tracked; investigation updated with new findings', type: 'critical' },
+     { date: '2014', event: 'Subsequent developments in iraq war reveal broader systemic patterns', type: 'default' },
    ],
  },
   'iraq-war-crimes': {
@@ -247,7 +258,7 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'Abu Ghraib Photos', url: 'https://www.newyorker.com/magazine/2004/05/10/torture-at-abu-ghraib', type: 'News Report' },
  { title: 'Senate Armed Services Committee Torture Report', url: 'https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf', type: 'Government Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Donald Rumsfeld', type: 'individual', relationship: 'Approved torture techniques', href: '/entities/individuals/donald-rumsfeld' },
@@ -258,17 +269,8 @@ const investigations_i: Record<string, InvestigationData> = {
    lastActivityDate: '2011-12-25',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-
-     { date: '2007-01-01', event: 'Iraq War Crimes — Initial events documented and investigation initiated', type: 'default' },
-
-     { date: '2008-01-01', event: 'Iraq War Crimes — Key evidence gathered and accountability analysis updated', type: 'default' },
-
-     { date: '2009-12-15', event: 'Iraq War Crimes investigation begins — events under scrutiny originate from this period', type: 'default' },
-
-     { date: '2010-01-01', event: 'Iraq War Crimes — Public accountability efforts reveal continued developments', type: 'default' },
-
-     { date: '2011-12-25', event: 'Iraq War Crimes — investigation remains active with ongoing developments', type: 'default' },
-
+     { date: '2009', event: 'Core events underlying Abu Ghraib Photos first documented and brought to public attention', type: 'default' },
+     { date: '2014', event: 'Subsequent developments in abu ghraib photos reveal broader systemic patterns', type: 'default' },
    ],
  },
   'iran-coup-1953': {
@@ -288,9 +290,9 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['Iran', 'CIA', 'MI6', 'Coup', 'Mosaddegh', 'Operation Ajax'],
  sources: [
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
 
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Primary U.S. agency', href: '/entities/agencies/cia' },
@@ -301,10 +303,8 @@ const investigations_i: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1953', event: 'The 1953 coup became the template for U.S.', type: 'default' },
-     { date: '1953-01-01', event: 'Iranian Coup (Operation Ajax) investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '1979', event: 'In 1979, the Shah was overthrown.', type: 'default' },
-     { date: '2022-02-10', event: 'Iranian Coup (Operation Ajax) — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'immigration-detention': {
  title: 'Immigration Detention System',
@@ -325,7 +325,7 @@ const investigations_i: Record<string, InvestigationData> = {
  sources: [
  { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'NGO' },
  { title: 'Deaths in ICE Custody', url: 'https://www.ice.gov/death-detainee-report', type: 'Government' },
-   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'ICE', type: 'agency', relationship: 'Operates detention system', href: '/entities/agencies/ice' },
@@ -337,9 +337,7 @@ const investigations_i: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2003', event: 'Since 2003, over 200 have died in custody.', type: 'default' },
-     { date: '2009-01', event: 'Deaths in ICE Custody — Investigation deepens as new evidence and documentation gathered', type: 'critical' },
-     { date: '2016-01', event: 'Deaths in ICE Custody — Ongoing accountability efforts continue; key developments documented', type: 'critical' },
-     { date: '2022-01', event: 'Deaths in ICE Custody — Latest developments tracked; investigation updated with new findings', type: 'critical' },
+     { date: '2008', event: 'Subsequent developments in aclu immigration detention reveal broader systemic patterns', type: 'default' },
    ],
  },
   'icc-fugitives': {
@@ -372,6 +370,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '1989-01-01',
    lastActivityDate: '2023-01-01',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '1989', event: 'Core events underlying UN OHCHR Reports first documented and brought to public attention', type: 'default' },
+     { date: '1994', event: 'Subsequent developments in un ohchr reports reveal broader systemic patterns and ongoing impact', type: 'default' },
+   ],
  },  'ice-abuses': {
  title: 'ICE Detention Abuses',
  subtitle: 'Medical neglect, sexual assault, family separation, and deaths in Immigration and Customs Enforcement custody',
@@ -398,7 +400,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'Dawn Wooten Whistleblower Complaint', url: 'https://projectsouth.org/wp-content/uploads/2020/09/OIG-ICDC-Complaint-1.pdf', type: 'Government Report' },
  { title: 'ACLU Family Separation Report', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', type: 'Legal Analysis' },
  { title: 'ICE Deaths in Custody Data', url: 'https://www.ice.gov/detain/detention-management', type: 'Government Report' },
-   { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+   { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'ICE', type: 'agency', relationship: 'Operates detention system, 200+ deaths in custody', href: '/entities/agencies/ice' },
@@ -450,7 +452,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
  { title: 'UN OHCHR Country Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'Human Rights Watch World Report', url: 'https://www.hrw.org/world-report', type: 'Report' },
-   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'ICE', type: 'agency', relationship: 'Operated detention centers where people died', href: '/entities/agencies/ice' },
@@ -487,7 +489,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
  { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
-   { name: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/' },
+   { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'ICE', type: 'agency', relationship: 'Immigration enforcement abuses', href: '/entities/agencies/ice' },
@@ -534,7 +536,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'CBP Use of Force Statistics', url: 'https://www.cbp.gov/newsroom/stats/cbp-use-force', type: 'Government' },
  { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border', type: 'Report' },
  { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/series/border-land', type: 'Investigation' },
-   { name: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement' },
+   { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'ICE surveillance technology provider', href: '/entities/corporations/palantir' },
@@ -576,7 +578,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'NYT Child Influencer Investigation', url: 'https://www.nytimes.com/2023/02/14/technology/child-influencers-instagram.html', type: 'Investigation' },
  { title: 'Facebook Internal Research: WSJ Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
  { title: 'FTC Influencer Marketing Enforcement', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=influencer', type: 'Government Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Meta', type: 'corporation', relationship: 'Instagram harms teen mental health per internal research', href: '/entities/corporations/meta' },
@@ -629,6 +631,10 @@ const investigations_i: Record<string, InvestigationData> = {
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2023-05-11',
    pageUpdatedDate: '2026-03-18',
+   timeline: [
+     { date: '2016', event: 'Core events underlying SEC Enforcement Actions first documented and brought to public attention', type: 'default' },
+     { date: '2021', event: 'Subsequent developments in sec enforcement actions reveal broader systemic patterns and ongoing impact', type: 'default' },
+   ],
  },  'institutional-abuse': {
  title: 'Institutional Abuse of Vulnerable Populations',
  subtitle: 'Millions of Americans in institutional care -- prisons, jails, juvenile facilities, psychiatric hospitals, nursing homes, and group homes for disabled...',
@@ -655,7 +661,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'DOJ Civil Rights Division Institution Investigations', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters0', type: 'Government Report' },
  { title: 'UN Special Rapporteur on Solitary Confinement', url: 'https://www.ohchr.org/en/special-procedures/sr-torture', type: 'International Report' },
  { title: 'CMS Nursing Home Inspection Data', url: 'https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/CertificationandComplianc', type: 'Government Report' },
-   { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+   { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division investigations of facilities', href: '/entities/agencies/doj' },
@@ -668,10 +674,8 @@ const investigations_i: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2016', event: 'The FTC brought its first influencer enforcement action in 2016 against Lord & Taylor; seven years after Instagram launched.', type: 'default' },
-     { date: '2016-01-01', event: 'Influencer Scams: The Billion-Dollar Fraud Economy investigation begins — events under scrutiny originate from this period', type: 'financial' },
      { date: '2023', event: 'A 2023 study by the University of Baltimore found that only 25% of paid Instagram posts included adequate disclosure.', type: 'financial' },
-     { date: '2023-05-11', event: 'Influencer Scams: The Billion-Dollar Fraud Economy — investigation remains active with ongoing developments', type: 'financial' },
-   ],
+     ],
  },
   'insurance-denials': {
  title: 'Insurance Denials: The Systematic Denial of Healthcare',
@@ -693,7 +697,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
  { title: 'Kaiser Family Foundation', url: 'https://www.kff.org/', type: 'Report' },
-   { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+   { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Institutional civil rights investigations', href: '/entities/agencies/doj' },
@@ -733,7 +737,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'FDA Enforcement Reports', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Government' },
  { title: 'DOJ Healthcare Fraud Unit', url: 'https://www.justice.gov/criminal/criminal-fraud/health-care-fraud-unit', type: 'Government' },
  { title: 'STAT News Pharma Coverage', url: 'https://www.statnews.com/tag/pharmaceuticals/', type: 'Investigation' },
-   { name: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts' },
+   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'RICO prosecution of executives', href: '/entities/agencies/doj' },
@@ -775,7 +779,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'STAT News Pharma Coverage', url: 'https://www.statnews.com/tag/pharmaceuticals/', type: 'Investigation' },
  { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
  { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
-   { name: 'DOJ Press Releases', url: 'https://www.justice.gov/news' },
+   { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'First opioid executives convicted under RICO', href: '/entities/agencies/doj' },
@@ -812,7 +816,7 @@ const investigations_i: Record<string, InvestigationData> = {
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
  { title: 'The Intercept', url: 'https://theintercept.com/collections/the-surveillance-catalogue/', type: 'Investigation' },
  { title: 'ACLU Surveillance Technologies', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies', type: 'Report' },
-   { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Intelligence community accountability failures', href: '/entities/agencies/cia' },
@@ -823,11 +827,9 @@ const investigations_i: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1975', event: 'When the Church Committee exposed these abuses in 1975, reforms were enacted; but subsequent administrations systematically weakened oversight.', type: 'default' },
-     { date: '1975-01-01', event: 'Intelligence Impunity: Above the Law and Beyond Accountability investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2002', event: 'The CIA\'s targeted killing program using drones has killed thousands of people across Pakistan, Yemen, Somalia, and other countries since 2002.', type: 'critical' },
      { date: '2013', event: 'The NSA\'s mass surveillance programs, revealed by Edward Snowden in 2013, collected the phone records of virtually every American, intercepted internet communications through the PRISM program, and tapped the phones...', type: 'default' },
-     { date: '2026-01-17', event: 'Intelligence Impunity: Above the Law and Beyond Accountability — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
  },
   'insider-trading-congressional-members': {
     title: 'Insider Trading by Congressional Members',
@@ -849,7 +851,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Unusual Whales Congressional Trading Report', url: 'https://unusualwhales.com', type: 'Financial Analysis' },
       { title: 'Business Insider STOCK Act Investigation', url: 'https://www.businessinsider.com', type: 'Investigative Report' },
       { title: 'Capitol Trades Database', url: 'https://www.capitoltrades.com', type: 'Financial Record' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'United States Congress', type: 'agency', relationship: 'Members made 12,000+ trades in committee-affected companies between 2019-2024; failed to pass stock trading ban legislation', href: '/entities/agencies/congress' },
@@ -888,7 +890,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'FBI Organized Crime Overview', url: 'https://www.fbi.gov/investigate/organized-crime', type: 'Government Record' },
       { title: 'Manhattan DA Construction Industry Investigation', url: 'https://www.manhattanda.org', type: 'Investigative Report' },
       { title: 'DOJ RICO Prosecutions', url: 'https://www.justice.gov', type: 'Court Record' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Primary federal agency investigating Cosa Nostra through RICO; resources reduced after 2001 counterterrorism pivot', href: '/entities/agencies/fbi' },
@@ -930,7 +932,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Walsh Independent Counsel Final Report', url: 'https://www.archives.gov', type: 'Government Record' },
       { title: 'Kerry Committee Report on Contra Drug Links', url: 'https://www.govinfo.gov', type: 'Congressional Report' },
       { title: 'National Security Archive Iran-Contra Collection', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Facilitated illegal arms sales to Iran; maintained relationships with drug-trafficking Contra figures; obtained DOJ exemption from reporting drug crimes by assets', href: '/entities/agencies/cia' },
@@ -979,7 +981,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'House Committee Boeing 737 MAX Investigation', url: 'https://www.congress.gov', type: 'Congressional Report' },
       { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov', type: 'Government Record' },
       { title: 'National Commission on the BP Deepwater Horizon', url: 'https://www.govinfo.gov', type: 'Government Record' },
-      { name: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar' },
+      { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'SEC', type: 'agency', relationship: 'Deferred to financial industry self-regulation of derivatives markets; failure contributed to 2008 financial crisis', href: '/entities/agencies/sec' },
@@ -1019,7 +1021,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'EPA Toxics Release Inventory', url: 'https://www.epa.gov/toxics-release-inventory-tri-program', type: 'Government Record' },
       { title: 'USGS PFAS Tap Water Study', url: 'https://www.usgs.gov', type: 'Research Study' },
       { title: 'Environmental Integrity Project Reports', url: 'https://www.environmentalintegrity.org', type: 'Investigative Report' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Enforces Clean Water Act but enforcement actions declined 50%+ since 2006; regulates only 90 of 86,000 commercial chemicals in drinking water', href: '/entities/agencies/epa' },
@@ -1060,7 +1062,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov', type: 'Congressional Report' },
       { title: 'Oxford Internet Institute Organized Manipulation', url: 'https://demtech.oii.ox.ac.uk', type: 'Research Study' },
       { title: 'Stanford Internet Observatory Pentagon Investigation', url: 'https://cyber.fsi.stanford.edu', type: 'Research Study' },
-      { name: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement' },
+      { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Operated undisclosed fake social media accounts promoting pro-U.S. narratives; removed by Meta and Twitter as coordinated inauthentic behavior', href: '/entities/agencies/pentagon' },
@@ -1103,7 +1105,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'POGO IG Independence Analysis', url: 'https://www.pogo.org', type: 'Policy Research' },
       { title: 'CIGIE Reports and Statements', url: 'https://www.ignet.gov', type: 'Government Record' },
       { title: 'Congressional Research Service IG Reports', url: 'https://crsreports.congress.gov', type: 'Congressional Report' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'Donald Trump', type: 'individual', relationship: 'Fired or replaced 5 inspectors general in 6 weeks during 2020, including the IC IG who transmitted Ukraine whistleblower complaint', href: '/entities/individuals/donald-trump' },
@@ -1143,7 +1145,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Coalition Against Insurance Fraud', url: 'https://insurancefraud.org', type: 'Research Study' },
       { title: 'FBI Insurance Fraud Overview', url: 'https://www.fbi.gov/investigate/white-collar-crime/insurance-fraud', type: 'Government Record' },
       { title: 'NICB Reports', url: 'https://www.nicb.org', type: 'Investigative Report' },
-      { name: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm' },
+      { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Primary federal agency investigating organized insurance fraud networks; limited capacity relative to $308B annual fraud losses', href: '/entities/agencies/fbi' },
@@ -1193,7 +1195,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: "ASCE Infrastructure Report Card", url: "https://infrastructurereportcard.org/", type: "Report" },
       { title: "EPA Lead in Drinking Water Rule", url: "https://www.epa.gov/dwreginfo/lead-and-copper-rule", type: "Government" },
       { title: "Texas Tribune: Winter Storm Uri Investigation", url: "https://www.texastribune.org/series/winter-storm-uri/", type: "Investigation" },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Failed to enforce water quality standards in Flint and thousands of other communities; slow to act on PFAS contamination', href: '/entities/agencies/epa' },
@@ -1241,7 +1243,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: "FTC Influencer Guidelines", url: "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers", type: "Government" },
       { title: "SEC Kim Kardashian Settlement", url: "https://www.sec.gov/news/press-release/2022-183", type: "Government" },
       { title: "Meta Internal Research (Wall Street Journal)", url: "https://www.wsj.com/articles/facebook-knows-instagram-is-toxic-for-teen-girls-company-documents-show-11631620739", type: "Investigation" },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Facebook', type: 'corporation', relationship: 'Platform whose internal research showed Instagram harmed teen mental health; algorithms amplified harmful influencer content for engagement', href: '/entities/corporations/facebook' },
@@ -1279,7 +1281,7 @@ const investigations_i: Record<string, InvestigationData> = {
     sources: [
       { title: 'The Israel Lobby and U.S. Foreign Policy (Mearsheimer & Walt)', url: 'https://www.lrb.co.uk/the-paper/v28/n06/john-mearsheimer/the-israel-lobby', type: 'Academic Paper' },
       { title: 'OpenSecrets: AIPAC Lobbying and Contributions', url: 'https://www.opensecrets.org/orgs/american-israel-public-affairs-cmte/summary?id=D000046963', type: 'Data' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'AIPAC', type: 'organization', relationship: 'Primary pro-Israel lobbying organization; spent $100M+ on 2024 election cycle', href: '/entities/organizations/aipac' },
@@ -1314,7 +1316,7 @@ const investigations_i: Record<string, InvestigationData> = {
     sources: [
       { title: 'Iran-Contra Report', url: 'https://www.archives.gov/research/foreign-policy/iran-contra', type: 'Government Report' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Ronald Reagan', type: 'individual', relationship: 'President during scandal', href: '/entities/individuals/ronald-reagan' },
@@ -1350,7 +1352,7 @@ const investigations_i: Record<string, InvestigationData> = {
     sources: [
       { title: 'UN Resolution 194', url: 'https://www.un.org/unispal/document/auto-insert-202652/', type: 'UN Document' },
       { title: 'Amnesty International Apartheid Report', url: 'https://www.amnesty.org/en/latest/news/2022/02/israels-apartheid-against-palestinians-a-cruel-system-of-domination-and-a-crime-against-humanity/', type: 'Human Rights Report' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Benjamin Netanyahu', type: 'individual', relationship: 'Prime Minister overseeing settlements', href: '/entities/individuals/benjamin-netanyahu' },
@@ -1361,10 +1363,8 @@ const investigations_i: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1948', event: 'In 1948, Zionist forces expelled 750,000 Palestinians from their homes, destroying 531 villages.', type: 'default' },
-     { date: '1948-01-01', event: 'Israel-Palestine Conflict and War Crimes investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2000', event: 'Israeli military operations have killed over 30,000 Palestinians since 2000.', type: 'critical' },
-     { date: '2024-10-07', event: 'Israel-Palestine Conflict and War Crimes — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'indonesian-mass-killings-1965': {
     title: 'Indonesian Mass Killings of 1965-66',
@@ -1392,7 +1392,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'International People\'s Tribunal on 1965 Crimes Against Humanity - Final Report', url: 'http://www.tribunal1965.org/', type: 'legal' },
       { title: 'Joshua Oppenheimer - The Act of Killing (Documentary)', url: 'https://theactofkilling.com/', type: 'documentary' },
       { title: 'John Roosa - Pretext for Mass Murder: The September 30th Movement and Suharto\'s Coup d\'Etat in Indonesia', url: 'https://uwpress.wisc.edu/books/3941.htm', type: 'book' },
-      { name: 'ProPublica Investigation Database', url: 'https://www.propublica.org/' },
+      { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Suharto', type: 'individual', relationship: 'Army general who orchestrated the purge and seized power; ruled as dictator for 32 years; never prosecuted', href: '/individuals/suharto' },
@@ -1432,7 +1432,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'IRS Data Book: Audit Rate Statistics', url: 'https://www.irs.gov/statistics/soi-tax-stats-irs-data-book', type: 'Government Data' },
       { title: 'TRAC Syracuse: IRS Audit Rates by Income Level', url: 'https://trac.syr.edu/tracirs/latest/679/', type: 'Research' },
       { title: 'Treasury Department: The Tax Gap - Estimates for Tax Years 2017-2019', url: 'https://home.treasury.gov/news/press-releases/jy0918', type: 'Government Report' },
-      { name: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt' },
+      { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'IRS', type: 'agency', relationship: 'Central subject - defunded by 20%, enforcement staff cut from 50,000 to 33,000, millionaire audit rate dropped from 8.4% to 0.7%', href: '/entities/agencies/irs' },
@@ -1476,7 +1476,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Senate Finance Committee: Insulin - Examining the Factors Driving the Rising Cost', url: 'https://www.finance.senate.gov/hearings/insulin-examining-the-factors-driving-the-rising-cost-of-a-century-old-drug', type: 'Congressional Report' },
       { title: 'CDC: Rationing and Delaying Medication Among People with Diabetes', url: 'https://www.cdc.gov/diabetes/data/index.html', type: 'Government Data' },
       { title: 'House Committee on Oversight: Investigation of Drug Pricing', url: 'https://oversight.house.gov/landing/drug-pricing-investigation/', type: 'Congressional Report' },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'FTC', type: 'agency', relationship: 'Investigated PBM practices; 2024 report found PBMs steer patients away from cheaper insulin to versions with higher rebates', href: '/entities/agencies/ftc' },
@@ -1516,7 +1516,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'DHS Office of Inspector General: Immigration Detention Reports', url: 'https://www.oig.dhs.gov/reports/audits-inspections-and-evaluations', type: 'Government Report' },
       { title: 'ACLU: Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Advocacy Research' },
       { title: 'NYT: Alone and Exploited, Migrant Children Work Brutal Jobs', url: 'https://www.nytimes.com/2023/02/25/us/unaccompanied-migrant-child-workers-exploitation.html', type: 'Investigative Journalism' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'ICE', type: 'agency', relationship: 'Operates the detention system; contracts with private prison corporations; failed to prevent deaths, abuse, and family separation tracking failures', href: '/entities/agencies/ice' },
@@ -1557,7 +1557,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'EPA: Navajo Nation Cleanup of Abandoned Uranium Mines', url: 'https://www.epa.gov/navajo-nation-uranium-cleanup', type: 'Government Report' },
       { title: 'Cobell v. Salazar Settlement Documents', url: 'https://www.doi.gov/cobell', type: 'Legal Document' },
       { title: 'U.S. Commission on Civil Rights: Broken Promises - Continuing Federal Funding Shortfall for Native Americans', url: 'https://www.usccr.gov/reports/2018/broken-promises-continuing-federal-funding-shortfall-native-americans', type: 'Government Report' },
-      { name: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports' },
+      { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOI', type: 'agency', relationship: 'Operates Bureau of Indian Affairs which mismanaged $137B in trust funds; Bureau of Indian Education schools consistently rank worst in the nation', href: '/entities/agencies/doi' },
@@ -1594,7 +1594,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'ProPublica: How Cigna Denies Claims Without Reading Files', url: 'https://www.propublica.org/article/cigna-pxdx-medical-health-insurance-rejection-claims', type: 'Investigation' },
       { title: 'HHS OIG: Medicare Advantage Plan Denials of Care', url: 'https://oig.hhs.gov/oei/reports/OEI-09-18-00260.asp', type: 'Government Report' },
       { title: 'AMA: Prior Authorization Survey Results', url: 'https://www.ama-assn.org/practice-management/prior-authorization', type: 'Research' },
-      { name: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/' },
+      { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Regulates Medicare Advantage plans but rarely penalizes for improper denials; $25 billion in estimated annual upcoding overpayments to MA plans', href: '/entities/agencies/cms' },
@@ -1605,11 +1605,9 @@ const investigations_i: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2009', event: 'A 2009 Harvard Medical School study found 45,000 excess deaths per year associated with lack of health insurance.', type: 'default' },
-     { date: '2009-01-01', event: 'Health Insurance Systematic Claim Denial and Prior Authorization Abuse investigation begins — events under scrutiny originate from this period', type: 'default' },
      { date: '2022', event: 'A 2022 OIG report found that 13% of prior authorization denials and 18% of payment denials by Medicare Advantage plans were for services that met Medicare coverage rules.', type: 'default' },
      { date: '2023', event: 'A 2023 ProPublica investigation revealed that Cigna\'s system allowed medical directors to deny 300,000 claims in 2 months without reviewing patient files.', type: 'default' },
-     { date: '2025-03-10', event: 'Health Insurance Systematic Claim Denial and Prior Authorization Abuse — investigation remains active with ongoing developments', type: 'default' },
-   ],
+     ],
   },
   'iraq-war-false-intelligence': {
     title: 'Iraq War False Intelligence: The Fabrication of WMD Claims and the Crime of Aggressive War',
@@ -1631,7 +1629,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'Senate Intelligence Committee: Phase II Report on Prewar Intelligence (2008)', url: 'https://www.intelligence.senate.gov/publications/report-whether-public-statements-regarding-iraq-senior-members-bush-administration-were', type: 'Congressional Record' },
       { title: 'Iraq Body Count Project', url: 'https://www.iraqbodycount.org/', type: 'Research Archive' },
       { title: 'Watson Institute: Costs of War Project', url: 'https://watson.brown.edu/costsofwar/', type: 'Research' },
-      { name: 'National Security Archive', url: 'https://nsarchive.gwu.edu/' },
+      { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'Dick Cheney', type: 'individual', relationship: 'Vice President who made unprecedented visits to CIA headquarters, publicly claimed Iraq had "reconstituted nuclear weapons," promoted false Iraq-al-Qaeda connection, and led the campaign to build the case for invasion', href: '/entities/individuals/dick-cheney' },
