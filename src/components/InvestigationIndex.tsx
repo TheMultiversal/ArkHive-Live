@@ -135,7 +135,7 @@ export default function InvestigationIndex({
   const alphabet = '#ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
   const containerClasses = isModal 
-    ? 'fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex items-center justify-center p-4'
+    ? 'fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4'
     : compact 
       ? 'bg-zinc-950 border border-zinc-800/30'
       : 'bg-zinc-950 border border-zinc-800/30 p-4';

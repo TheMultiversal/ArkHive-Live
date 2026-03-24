@@ -29,8 +29,6 @@ export { default as RadarScanner } from './effects/RadarScanner';
 
 // UI Components
 export { default as CrystalButton } from './ui/CrystalButton';
-export { default as GhostButton } from './ui/GhostButton';
-export { default as DefibrillatorButton } from './ui/DefibrillatorButton';
 export { default as SearchFilter } from './ui/SearchFilter';
 export { default as StatsDisplay } from './ui/StatsDisplay';
 export { default as GlitchDivider } from './ui/GlitchDivider';
@@ -69,12 +67,3 @@ export {
  ButtonLoader,
  SkeletonGrid,
 } from './LoadingStates';
-export {
- SuspenseBoundary,
- AnimatedSuspense,
- PageSuspense,
- CardGridSuspense,
- ListSuspense,
- SectionSuspense,
- withSuspense,
-} from './SuspenseBoundary';

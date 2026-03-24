@@ -20,7 +20,7 @@ export default function Skeleton({
  const baseClasses = 'bg-[#0d0d0d]';
  
  const variantClasses = {
- text: 'rounded',
+ text: '',
  circular: '',
  rectangular: '',
  };

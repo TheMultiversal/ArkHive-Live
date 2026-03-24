@@ -98,7 +98,7 @@ function CreateWorkspaceContent() {
  <div className="flex items-center gap-3">
  <Link 
  href="/workspaces"
- className="p-1.5 rounded hover:bg-[#0a0a0a] text-white/25 hover:text-white/40 transition-colors"
+ className="p-1.5 hover:bg-[#0a0a0a] text-white/25 hover:text-white/40 transition-colors"
  >
  <ArrowLeft className="w-4 h-4"/>
  </Link>
@@ -242,7 +242,7 @@ function CreateWorkspaceContent() {
  {tags.map((tag) => (
  <span
  key={tag}
- className="flex items-center gap-1 px-2 py-1 bg-[#0a0a0a] rounded text-[10px] text-white/40"
+ className="flex items-center gap-1 px-2 py-1 bg-[#0a0a0a] text-[10px] text-white/40"
  >
  {tag}
  <button
@@ -262,12 +262,12 @@ function CreateWorkspaceContent() {
  onChange={(e) => setTagInput(e.target.value)}
  onKeyDown={(e) => e.key === 'Enter' && (e.preventDefault(), handleAddTag())}
  placeholder="Add tags..."
- className="flex-1 px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] rounded text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
+ className="flex-1 px-3 py-2 bg-[#0a0a0a] border border-white/[0.06] text-[11px] text-white/70 placeholder-white/20 focus:outline-none focus:border-white/[0.1] transition-colors"
  />
  <button
  type="button"
  onClick={handleAddTag}
- className="px-3 py-2 bg-[#0a0a0a] text-white/40 rounded text-[11px] hover:bg-[#0d0d0d] transition-colors"
+ className="px-3 py-2 bg-[#0a0a0a] text-white/40 text-[11px] hover:bg-[#0d0d0d] transition-colors"
  >
  <Plus className="w-3.5 h-3.5"/>
  </button>
