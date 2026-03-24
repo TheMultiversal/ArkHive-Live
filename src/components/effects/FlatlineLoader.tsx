@@ -91,7 +91,7 @@ export default function FlatlineLoader({
  </div>
 
  {/* ECG Display */}
- <div className="mt-6 h-24 bg-black rounded border border-gray-800 overflow-hidden">
+ <div className="mt-6 h-24 bg-black border border-gray-800 overflow-hidden">
  <svg viewBox="0 0 300 100"className="w-full h-full"preserveAspectRatio="none">
  <defs>
  <linearGradient id="ecgLineGradient"x1="0%"y1="0%"x2="100%"y2="0%">

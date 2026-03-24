@@ -332,7 +332,7 @@ export function MultiSelect({
  checked={values.includes(option.value)}
  onChange={() => toggleOption(option.value)}
  disabled={option.disabled}
- className="w-4 h-4 rounded border-zinc-600 bg-[#0d0d0d] text-zinc-300 focus:ring-zinc-600 focus:ring-offset-0"
+ className="w-4 h-4 border-zinc-600 bg-[#0d0d0d] text-zinc-300 focus:ring-zinc-600 focus:ring-offset-0"
  />
  <span className="text-white text-sm">{option.label}</span>
  </label>
