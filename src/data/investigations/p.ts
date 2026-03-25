@@ -855,7 +855,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ: GSK $3 Billion Settlement', url: 'https://www.justice.gov/opa/pr/glaxosmithkline-plead-guilty-and-pay-3-billion-resolve-fraud-allegations-and-failure-report', type: 'Government' },
  { title: 'Public Citizen: Pharmaceutical Industry Criminal and Civil Penalties', url: 'https://www.citizen.org/article/twenty-seven-years-of-pharmaceutical-industry-criminal-and-civil-penalties/', type: 'Research' },
- { title: 'DOJ: Pharmaceutical Fraud Enforcement', url: 'https://www.justice.gov/civil/fraud-prevention', type: 'Government' },
+ { title: 'DOJ: Pharmaceutical Fraud Enforcement', url: 'https://www.justice.gov/civil', type: 'Government' },
    { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [

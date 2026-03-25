@@ -4955,7 +4955,7 @@ const investigations_c: Record<string, InvestigationData> = {
     tags: ['child-labor', 'supply-chains', 'cobalt', 'chocolate', 'fast-fashion', 'corporate-accountability', 'human-rights', 'exploitation', 'DRC', 'Apple', 'Nestle'],
     sources: [
       { title: 'International Labour Organization: Global Estimates of Child Labour (2020)', url: 'https://www.ilo.org/global/topics/child-labour/lang--en/index.htm', type: 'International Organization' },
-      { title: 'Amnesty International: This Is What We Die For - Human Rights Abuses in the DRC', url: 'https://www.amnesty.org/en/afr62/3183/2016/en/', type: 'Research' },
+      { title: 'Amnesty International: This Is What We Die For - Human Rights Abuses in the DRC', url: 'https://www.amnesty.org/en/documents/afr62/3183/2016/en/', type: 'Research' },
       { title: 'NORC: Assessing Progress in Reducing Child Labor in Cocoa Growing Areas (2020)', url: 'https://www.norc.org/Research/Projects/Pages/assessing-progress-in-reducing-child-labor-in-cocoa-growing-areas-of-c%C3%B4te-d%E2%80%99ivoire-and-ghana.aspx', type: 'Academic Research' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],

@@ -710,7 +710,7 @@ const investigations_s: Record<string, InvestigationData> = {
  tags: ['Serbia', 'Kosovo', 'NATO', 'Clinton', 'Bombing', 'War Crimes', 'Humanitarian Intervention'],
  sources: [
  { title: 'Human Rights Watch, Civilian Deaths in NATO Campaign', url: 'https://www.hrw.org/reports/2000/nato/', type: 'Human Rights Report' },
- { title: 'Amnesty International, NATO Violations', url: 'https://www.amnesty.org/en/eur70/018/2000/en/', type: 'Human Rights Report' },
+ { title: 'Amnesty International, NATO Violations', url: 'https://www.amnesty.org/en/documents/eur70/018/2000/en/', type: 'Human Rights Report' },
    { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [

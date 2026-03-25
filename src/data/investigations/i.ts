@@ -377,7 +377,7 @@ const investigations_i: Record<string, InvestigationData> = {
  ],
  tags: ['ICE', 'Immigration', 'Detention', 'Family Separation', 'Private Prisons', 'Medical Neglect', 'Forced Sterilization'],
  sources: [
- { title: 'DHS OIG ICE Detention Conditions Reports', url: 'https://www.oig.dhs.gov//2019/concerns-about-ice-detainee-treatment-and-care-four-detention-facilities/oig-19-47-jun19', type: 'Government Report' },
+ { title: 'DHS OIG ICE Detention Conditions Reports', url: 'https://www.oig.dhs.gov/', type: 'Government Report' },
  { title: 'Dawn Wooten Whistleblower Complaint', url: 'https://projectsouth.org/wp-content/uploads/2020/09/OIG-ICDC-Complaint-1.pdf', type: 'Government Report' },
  { title: 'ACLU Family Separation Report', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation', type: 'Legal Analysis' },
  { title: 'ICE Deaths in Custody Data', url: 'https://www.ice.gov/detain/detention-management', type: 'Government Report' },
@@ -1493,7 +1493,7 @@ const investigations_i: Record<string, InvestigationData> = {
     ],
     tags: ['immigration-detention', 'ICE', 'private-prisons', 'family-separation', 'forced-sterilization', 'CoreCivic', 'GEO-Group', 'human-rights'],
     sources: [
-      { title: 'DHS Office of Inspector General: Immigration Detention Reports', url: 'https://www.oig.dhs.gov//audits-inspections-and-evaluations', type: 'Government Report' },
+      { title: 'DHS Office of Inspector General: Immigration Detention Reports', url: 'https://www.oig.dhs.gov/', type: 'Government Report' },
       { title: 'ACLU: Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Advocacy Research' },
       { title: 'NYT: Alone and Exploited, Migrant Children Work Brutal Jobs', url: 'https://www.nytimes.com/2023/02/25/us/unaccompanied-migrant-child-workers-exploitation.html', type: 'Investigative Journalism' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
