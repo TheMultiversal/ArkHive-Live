@@ -939,7 +939,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Human Rights Watch: Philippine Drug War Report', url: 'https://www.hrw.org/report/2017/03/02/license-kill/philippine-police-killings-dutertes-war-drugs', type: 'Investigation' },
  { title: 'ICC Investigation Authorization', url: 'https://www.icc-cpi.int/philippines', type: 'Court Filing' },
- { title: 'Amnesty International: They Just Kill', url: 'https://www.amnesty.org/en/asa35/5517/2017/en/', type: 'Investigation' },
+ { title: 'Amnesty International: They Just Kill', url: 'https://www.amnesty.org/en/documents/asa35/5517/2017/en/', type: 'Investigation' },
  { title: 'Reuters: Philippine Drug War Death Toll', url: 'https://www.reuters.com/investigates/special-report/philippines-drugs-surveillance/', type: 'Investigation' },
    { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
@@ -3371,7 +3371,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: 'George Mason University: Randomized Controlled Trial of BWCs', url: 'https://cebcp.org/', type: 'Research' },
       { title: 'DOJ Bureau of Justice Assistance: BWC Policy and Implementation Program', url: 'https://bja.ojp.gov/program/body-worn-cameras-bwcs/overview', type: 'Government' },
-      { title: 'Upturn: The Illusion of Accuracy - How Body-Worn Camera Programs Undermine Police Accountability', url: 'https://www.upturn.org//work/the-illusion-of-accuracy/', type: 'Research' },
+      { title: 'Upturn: The Illusion of Accuracy - How Body-Worn Camera Programs Undermine Police Accountability', url: 'https://www.upturn.org/', type: 'Research' },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
@@ -3809,7 +3809,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'DOJ: Purdue Pharma Guilty Plea and Criminal Penalties (2020)', url: 'https://www.justice.gov/archives/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-charges', type: 'Government Record' },
       { title: 'Senate HELP Committee: Purdue Pharma and Opioid Crisis Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Record' },
       { title: 'Massachusetts AG Complaint: Purdue Pharma and Sackler Family (2019)', url: 'https://www.mass.gov/lists/ag-purdue-pharma-documents', type: 'Court Record' },
-      { title: 'CDC: Understanding the Opioid Overdose Epidemic', url: 'https://web.archive.org/web/20241227221355/https://www.cdc.gov/opioids/basics/epidemic.html', type: 'Government Record' },
+      { title: 'CDC: Understanding the Opioid Overdose Epidemic', url: 'https://www.cdc.gov/opioids/', type: 'Government Record' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
