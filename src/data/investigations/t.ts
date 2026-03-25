@@ -24,7 +24,7 @@ const investigations_t: Record<string, InvestigationData> = {
  ],
  tags: ['Treason', 'Russia', 'National Security', 'Classified Information', 'Foreign Collusion', 'Putin', 'NATO', 'Ukraine', 'Helsinki'],
  sources: [
- { title: 'Mueller Report, Full Text', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report, Full Text', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Trump Russia Hacking Request Video', url: 'https://www.youtube.com/watch?v=3kxG8uJUsWU', type: 'Video Evidence' },
  { title: 'Helsinki Summit Coverage', url: 'https://www.nytimes.com/2018/07/16/world/europe/trump-putin-election-intelligence.html', type: 'News Report' },
  { title: 'Senate Intelligence Committee Russia Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', type: 'Government Report' },
@@ -70,7 +70,7 @@ const investigations_t: Record<string, InvestigationData> = {
  ],
  tags: ['Russia', 'Trump Tower', 'Don Jr', 'Manafort', 'Kushner', 'Campaign Finance'],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Legal Document' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', type: 'Legal Document' },
  { title: 'Don Jr. Emails Released', url: 'https://www.nytimes.com/interactive/2017/07/11/us/politics/donald-trump-jr-email-text.html', type: 'Primary Document' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
@@ -110,7 +110,7 @@ const investigations_t: Record<string, InvestigationData> = {
  tags: ['Trump Tower Moscow', 'Russia', 'Michael Cohen', 'Putin', 'Felix Sater', 'Campaign Finance'],
  sources: [
  { title: 'Cohen Plea Agreement', url: 'http://web.archive.org/web/20240114000029/https://www.justice.gov/file/1115596/download', type: 'Legal Document' },
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Legal Document' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', type: 'Legal Document' },
  { title: 'Cohen Congressional Testimony', url: 'https://docs.house.gov/meetings/GO/GO00/20190227/108969/HHRG-116-GO00-Wstate-CohenM-20190227.pdf', type: 'Congressional Record' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
@@ -368,7 +368,7 @@ const investigations_t: Record<string, InvestigationData> = {
  { title: 'DOJ Pardon Records', url: 'https://web.archive.org/web/2024/https://www.justice.gov/pardon/pardons-granted-president-donald-trump', type: 'Government Records' },
  { title: 'NYT, Trump Pardon Spree', url: 'https://www.nytimes.com/2021/01/20/us/politics/trump-pardons.html', type: 'News Report' },
  { title: 'Blackwater Massacre Pardons', url: 'https://www.nytimes.com/2020/12/22/us/politics/blackwater-pardons.html', type: 'News Report' },
- { title: 'Mueller Report on Stone/Manafort', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report on Stone/Manafort', url: 'https://www.justice.gov/archives', type: 'Government Report' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -454,7 +454,7 @@ const investigations_t: Record<string, InvestigationData> = {
  ],
  tags: ['Trump Campaign', 'Russia', '2016 Election', 'Campaign Finance', 'Mueller'],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', type: 'Government Report' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Government' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
@@ -486,7 +486,7 @@ const investigations_t: Record<string, InvestigationData> = {
  ],
  tags: ['Trump', 'Russia', 'Mueller', '2016 Election', 'Collusion'],
  sources: [
- { title: 'Mueller Report (Full Text)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report (Full Text)', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Senate Intelligence Committee Report on Russian Interference', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government Report' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],

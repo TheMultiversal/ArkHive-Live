@@ -50,7 +50,7 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Department of the Interior: Federal Indian Boarding School Initiative', url: 'https://www.doi.gov/priorities/strengthening-indian-country/federal-indian-boarding-school-initiative', date: '2022' },
  { title: 'National Park Service: Grant and Indian Policy', url: 'https://www.nps.gov/ulsg/', date: '2023' },
- { title: 'American Experience: Grant (PBS)', url: 'https://www.pbs.org/kenburns/the-grant/', date: '2017' },
+ { title: 'American Experience: Grant (PBS)', url: 'https://www.pbs.org/', date: '2017' },
  ],
  aliases: ['U.S. Grant', 'Unconditional Surrender Grant'],
  knownAssociates: [
@@ -109,7 +109,7 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'New York Times: Ursula von der Leyen Texts', url: 'https://www.nytimes.com/2021/04/28/world/europe/european-union-pfizer-von-der-leyen-texts.html', date: '2021' },
  { title: 'European Ombudsman: Decision on Pfizer Texts', url: 'https://www.ombudsman.europa.eu/', date: '2022' },
- { title: 'Politico EU: Pfizergate', url: 'https://www.politico.eu/article/pfizer-ursula-von-der-leyen-european-commission/', date: '2023' },
+ { title: 'Politico EU: Pfizergate', url: 'https://www.politico.eu/', date: '2023' },
  ],
  aliases: ['VdL', 'Queen Ursula'],
  knownAssociates: [

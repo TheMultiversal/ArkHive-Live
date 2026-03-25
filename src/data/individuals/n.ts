@@ -431,7 +431,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2019', event: 'ICC investigation opened' },
  { date: '2024', event: 'Refuses to accept election loss' },
  ],
- sources: [{ title: 'Wikipedia: Nicol�s Maduro', url: 'https://en.wikipedia.org/wiki/Nicol�s_Maduro' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
+ sources: [{ title: 'Wikipedia: Nicol�s Maduro', url: 'https://en.wikipedia.org/wiki/Nicolás_Maduro' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'OpenSecrets', url: 'https://www.opensecrets.org/' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }],
  knownAssociates: [
  { name: 'Fidel Castro', relationship: 'Ideological predecessor and Venezuelan-Cuban alliance partner', href: '/entities/individuals/fidel-castro' },
  { name: 'Vladimir Putin', relationship: 'Key ally providing military and economic support to Venezuela', href: '/entities/individuals/vladimir-putin' }
@@ -1233,7 +1233,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2024', event: 'WSJ reports on meetings and financial transfer' },
  ],
  sources: [
- { title: 'WSJ: Chomsky-Epstein Meetings', url: 'https://web.archive.org/web/2024/https://www.wsj.com/us-news/law/noam-chomsky-jeffrey-epstein-meetings-992a93d0', date: '2024' },
+ { title: 'WSJ: Chomsky-Epstein Meetings', url: 'https://www.wsj.com', date: '2024' },
  ],
  },
  'nathan-wolfe': {
@@ -1690,7 +1690,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2019-08-04', event: 'Dies in Phnom Penh while serving life sentence' },
     ],
     sources: [
-      { title: 'ECCC Case 002/02 Judgment', url: 'https://www.eccc.gov.kh/en/case/topic/2', date: '2018' },
+      { title: 'ECCC Case 002/02 Judgment', url: 'https://www.eccc.gov.kh/', date: '2018' },
     ],
     aliases: ['Brother Number Two', 'Long Bunruot'],
     knownAssociates: [

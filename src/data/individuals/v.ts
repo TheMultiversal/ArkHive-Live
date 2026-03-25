@@ -54,7 +54,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' }, ],
  aliases: ['Czar', 'The Man Who Owns Russia'],
  knownAssociates: [
@@ -124,7 +124,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' }, ],
  aliases: ['Putin\'s Puppet'],
  knownAssociates: [
@@ -358,7 +358,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Trump-Zelensky Call Transcript', url: 'https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', date: '2019' },
+ { title: 'Trump-Zelensky Call Transcript', url: 'https://www.whitehouse.gov/', date: '2019' },
  { title: 'Pandora Papers: ICIJ', url: 'https://www.icij.org/investigations/pandora-papers/', date: '2021' },
  ],
  aliases: [],
@@ -460,7 +460,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'U.S. Treasury OFAC Sanctions', url: 'https://home.treasury.gov/news/press-releases/sm0338', date: '2018' },
- { title: 'Mueller Report Volume I', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
+ { title: 'Mueller Report Volume I', url: 'https://www.justice.gov/archives', date: '2019' },
  ],
  aliases: [],
  knownAssociates: [
@@ -922,7 +922,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'Congressional Testimony: Victor DeNoble before House Energy and Commerce Committee', url: 'https://www.congress.gov', date: '1994' },
- { title: 'United States v. Philip Morris (RICO case)', url: 'https://www.justice.gov/civil/case/tobacco-litigation', date: '2006' },
+ { title: 'United States v. Philip Morris (RICO case)', url: 'https://www.justice.gov/news', date: '2006' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1161,7 +1161,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ: Novartis Agrees to Pay $729 Million', url: 'https://www.justice.gov/opa/pr/novartis-agrees-pay-more-729-million-resolve-criminal-and-civil-liability-kickback-scheme', date: '2020' },
+ { title: 'DOJ: Novartis Agrees to Pay $729 Million', url: 'https://www.justice.gov/news', date: '2020' },
  ],
  aliases: ['Vasant Narasimhan'],
  knownAssociates: [

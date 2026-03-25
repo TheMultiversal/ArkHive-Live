@@ -225,7 +225,7 @@ const investigations_d: Record<string, InvestigationData> = {
  ],
  tags: ['DOJ', 'Justice Department', 'Political Weaponization', 'Trump', 'Barr', 'Rule of Law', 'Prosecutorial Independence'],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Stone Case Prosecutor Resignations', url: 'https://www.nytimes.com/2020/02/11/us/politics/roger-stone-sentencing.html', type: 'News Report' },
  { title: 'Inspector General Reports', url: 'https://oig.justice.gov/reports', type: 'Government' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
@@ -777,7 +777,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     tags: ['Disinformation', 'Information Warfare', 'Internet Research Agency', 'Pentagon IO', 'AI-Generated Content', 'Troll Farms'],
     sources: [
-      { title: 'Mueller Report Vol. I', url: 'https://www.justice.gov/archives/sco', type: 'Government Record' },
+      { title: 'Mueller Report Vol. I', url: 'https://www.justice.gov/archives', type: 'Government Record' },
       { title: 'Stanford Internet Observatory Pentagon IO Report', url: 'https://cyber.fsi.stanford.edu', type: 'Research Study' },
       { title: 'Harvard Study on Chinese 50 Cent Army', url: 'https://gking.harvard.edu', type: 'Research Study' },
       { title: 'Meta Coordinated Inauthentic Behavior Reports', url: 'https://about.fb.com/news/tag/coordinated-inauthentic-behavior', type: 'Research Study' },

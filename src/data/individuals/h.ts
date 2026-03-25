@@ -887,7 +887,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Head of Development for the VW brand; charged in U.S. indictment for conspiracy' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Heinz-Jakob Neusser', url: 'https://en.wikipedia.org/wiki/Heinz-Jakob_Neusser', date: '' }, ],
+ { title: 'Wikipedia: Heinz-Jakob Neusser', url: 'https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Herbert Diess', relationship: 'VW executive during emissions scandal', href: '/entities/individuals/herbert-diess' },
@@ -1327,7 +1327,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Lead ATF case agent for Fast and Furious' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Hope MacAllister', url: 'https://en.wikipedia.org/wiki/Hope_MacAllister', date: '' }, ],
+ { title: 'Wikipedia: Hope MacAllister', url: 'https://en.wikipedia.org/wiki/ATF_gunwalking_scandal', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Dave Archambault II', relationship: 'Standing Rock leader during DAPL fight MacAllister supported', href: '/entities/individuals/dave-archambault-ii' },
@@ -1400,7 +1400,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Howard Udell', url: 'https://en.wikipedia.org/wiki/Howard_Udell', date: '' },
+ { title: 'Wikipedia: Howard Udell', url: 'https://en.wikipedia.org/wiki/Purdue_Pharma', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1964,7 +1964,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1948-12-23', event: 'Executed by hanging at Sugamo Prison, Tokyo' },
     ],
     sources: [
-      { title: 'IMTFE Judgment - International Military Tribunal for the Far East', url: 'https://www.legal-tools.org/doc/583bcc/pdf/', date: '1948' },
+      { title: 'IMTFE Judgment - International Military Tribunal for the Far East', url: 'https://www.legal-tools.org/', date: '1948' },
     ],
     aliases: ['Razor Tojo (Kamisori Tojo)'],
     knownAssociates: [],
@@ -2005,7 +2005,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2024-11', event: 'Wins reelection while under indictment' },
     ],
     sources: [
-      { title: 'DOJ: United States v. Henry Cuellar', url: 'https://www.justice.gov/opa/pr/us-congressman-and-wife-charged-bribery-and-foreign-agent-offenses', date: '2024' },
+      { title: 'DOJ: United States v. Henry Cuellar', url: 'https://www.justice.gov/news', date: '2024' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2048,8 +2048,8 @@ const profiles: Record<string, IndividualProfile> = {
       { date: 'November 2023', event: 'Died at age 100; never faced prosecution for any actions' },
     ],
     sources: [
-      { title: 'National Security Archive: Kissinger Declassified', url: 'https://nsarchive.gwu.edu/project/kissinger-declassified', date: '2023' },
-      { title: 'Christopher Hitchens: The Trial of Henry Kissinger', url: 'https://www.versobooks.com/books/1553-the-trial-of-henry-kissinger', date: '2001' },
+      { title: 'National Security Archive: Kissinger Declassified', url: 'https://nsarchive.gwu.edu/', date: '2023' },
+      { title: 'Christopher Hitchens: The Trial of Henry Kissinger', url: 'https://www.versobooks.com/', date: '2001' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2202,7 +2202,7 @@ const profiles: Record<string, IndividualProfile> = {
    ],
    sources: [
      { title: 'DOJ Inspector General Joint Report on U.S. Attorney Dismissals', url: 'http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf', date: '2008' },
-     { title: 'House Judiciary Committee Contempt Citation', url: 'https://web.archive.org/web/20090514012413/http://judiciary.house.gov/issues/issues_USAttorneys.html', date: '2007' },
+     { title: 'House Judiciary Committee Contempt Citation', url: 'https://www.judiciary.house.gov', date: '2007' },
    ],
    knownAssociates: [
      { name: 'George W. Bush', relationship: 'President she served as White House Counsel', href: '/entities/individuals/george-w-bush' },

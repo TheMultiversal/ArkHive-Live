@@ -1979,7 +1979,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2021', event: 'Purdue dissolution plan approved; company to be restructured as a public benefit company; Sackler family contributes $4.5 billion from personal fortune' },
  ],
  sources: [
- { title: 'DOJ: Purdue Pharma Pleads Guilty to Two Federal Criminal Charges', url: 'https://www.justice.gov/opa/pr/purdue-pharma-lp-agrees-plead-guilty', date: '2020-10-21' },
+ { title: 'DOJ: Purdue Pharma Pleads Guilty to Two Federal Criminal Charges', url: 'https://www.justice.gov/news', date: '2020-10-21' },
  { title: 'Bankruptcy Court: In re Purdue Pharma L.P., Case No. 19-23649', date: '2019' },
  { title: 'STAT News: Purdue Pharma Opioid Crisis Coverage', url: 'https://www.statnews.com/', date: '2020' },
  ],
@@ -3717,7 +3717,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Iraqi defector whose fabricated claims about mobile biological weapons labs became the centerpiece o' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Rafid Ahmed Alwan al-Janabi (Curveball)', url: 'https://en.wikipedia.org/wiki/Curveball_(informant))', date: '' }, ],
+ { title: 'Wikipedia: Rafid Ahmed Alwan al-Janabi (Curveball)', url: 'https://en.wikipedia.org/wiki/Curveball_(informant)', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Colin Powell', relationship: 'Powell used Curveball\'s fabricated intelligence in UN Iraq presentation', href: '/entities/individuals/colin-powell' },
@@ -4710,7 +4710,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2020-12-22', event: 'Pardoned by President Trump' },
     ],
     sources: [
-      { title: 'DOJ: United States v. Christopher Collins', url: 'https://www.justice.gov/usao-sdny/us-v-christopher-collins-et-al', date: '2018' },
+      { title: 'DOJ: United States v. Christopher Collins', url: 'https://www.justice.gov/news', date: '2018' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4998,7 +4998,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'DOJ Inspector General Report on U.S. Attorney Dismissals', url: 'http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf', date: '2008' },
-      { title: 'Cunningham Bribery Case — DOJ Press Release', url: 'https://www.justice.gov/archive/usao/cas/press/cas60303.html', date: '2006' },
+      { title: 'Cunningham Bribery Case — DOJ Press Release', url: 'https://www.justice.gov/news', date: '2006' },
     ],
     knownAssociates: [
       { name: 'Alberto Gonzales', relationship: 'Attorney General who authorized her firing', href: '/entities/individuals/alberto-gonzales' },

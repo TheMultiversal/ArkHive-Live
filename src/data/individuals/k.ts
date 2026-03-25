@@ -145,7 +145,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Treasury OFAC Designation', url: 'https://home.treasury.gov/news/press-releases/jy0126', date: '2021' },
  { title: 'FBI Most Wanted', url: 'https://www.fbi.gov/wanted/counterintelligence/konstantin-viktorovich-kilimnik', date: '2025' },
  ],
@@ -289,7 +289,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'CNN Interview', url: 'https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html', date: '2018' },
+ { title: 'CNN Interview', url: 'https://www.cnn.com/', date: '2018' },
  { title: 'AMI Settlement', url: 'https://www.courtlistener.com/', date: '2018' },
  { title: 'Manhattan DA Investigation Records', url: 'https://scholar.google.com/scholar?q=Manhattan%20DA%20Investigation%20Records', date: '2023' },
  ],
@@ -915,7 +915,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', date: '2020' },
  { title: 'Treasury OFAC Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0628', date: '2022' },
  { title: 'EU Sanctions List', url: 'https://www.sanctionsmap.eu/', date: '2022' },
@@ -1710,7 +1710,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
-  { title: 'United States v. Raniere; Case No. 1:18-cr-00204', url: 'https://www.justice.gov/usao-edny/us-v-keith-raniere-et-al', date: '2018' },
+  { title: 'United States v. Raniere; Case No. 1:18-cr-00204', url: 'https://www.justice.gov/news', date: '2018' },
   { title: 'New York Times: Inside a Secretive Group', url: 'https://www.nytimes.com', date: 'October 17, 2017' },
   { title: 'HBO Documentary: The Vow', url: 'https://www.hbo.com', date: '2020' },
  ],
@@ -1967,7 +1967,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: K. Barton Osborn', url: 'https://en.wikipedia.org/wiki/K._Barton_Osborn', date: '' },
+ { title: 'Wikipedia: K. Barton Osborn', url: 'https://en.wikipedia.org/wiki/Phoenix_program', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2330,7 +2330,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Kenneth Fadeley', url: 'https://en.wikipedia.org/wiki/Kenneth_Fadeley', date: '' },
+ { title: 'Wikipedia: Kenneth Fadeley', url: 'https://en.wikipedia.org/wiki/Ruby_Ridge', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2544,7 +2544,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Khalil Islam (Thomas 15X Johnson)', url: 'https://en.wikipedia.org/wiki/Khalil_Islam)', date: '' },
+ { title: 'Wikipedia: Khalil Islam (Thomas 15X Johnson)', url: 'https://en.wikipedia.org/wiki/Khalil_Islam', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2797,7 +2797,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Morton County Sheriff (Kyle Kirchmeier)', url: 'https://en.wikipedia.org/wiki/Morton_County,_North_Dakota)', date: '' },
+ { title: 'Wikipedia: Morton County Sheriff (Kyle Kirchmeier)', url: 'https://en.wikipedia.org/wiki/Morton_County,_North_Dakota', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3308,7 +3308,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Trial of Klaus Barbie', url: 'https://www.justice.gov/archives/opa/blog/remembering-klaus-barbie', date: '1987' },
+      { title: 'Trial of Klaus Barbie', url: 'https://www.justice.gov/archives', date: '1987' },
     ],
     aliases: ['Butcher of Lyon'],
     knownAssociates: [

@@ -73,7 +73,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Stone Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1124706/download', date: '2019' },
  { title: 'House Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', date: '2020' },
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
@@ -200,7 +200,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Gates Plea Agreement', url: 'https://www.courtlistener.com/docket/6183591/united-states-v-manafort/', date: '2018' }, ],
  aliases: ['Manafort\'s Deputy'],
  knownAssociates: [
@@ -356,7 +356,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Congressional Testimony', url: 'https://www.c-span.org/video/?462628-1/robert-mueller-testifies-house-judiciary-committee', date: '2019' }, ],
  aliases: [],
  knownAssociates: [
@@ -600,7 +600,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'DOJ Inspector General Report', url: 'https://www.justice.gov/storage/120919-examination.pdf', date: '2019' }, ],
  aliases: [],
  knownAssociates: [
@@ -1023,7 +1023,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ: United States v. Roger Stone Indictment', url: 'https://www.justice.gov/file/1124706/dl', date: '2019-01-25' },
+ { title: 'DOJ: United States v. Roger Stone Indictment', url: 'https://www.justice.gov/news', date: '2019-01-25' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1476,7 +1476,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report: Seychelles Meeting', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
+ { title: 'Mueller Report: Seychelles Meeting', url: 'https://www.justice.gov/archives', date: '2019' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2914,7 +2914,7 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Wikipedia: Riley June Williams', url: 'https://en.wikipedia.org/wiki/Riley_June_Williams', date: '' },
  { title: 'DOJ Press Release', url: 'https://www.justice.gov/news', date: '' },
- { title: 'Reuters: Russia Coverage', url: 'https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/', date: '' },
+ { title: 'Reuters: Russia Coverage', url: 'https://www.reuters.com', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3473,7 +3473,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as PHS physician who assisted Cutler in Guatemala and helped design infection protocols' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Dr. R.C. Arnold', url: 'https://en.wikipedia.org/wiki/R._C._Arnold', date: '' }, ],
+ { title: 'Wikipedia: Dr. R.C. Arnold', url: 'https://en.wikipedia.org/wiki/Three_Mile_Island_accident', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Thomas Parran', relationship: 'Fellow PHS figure connected to unethical experiments', href: '/entities/individuals/thomas-parran' },
@@ -4663,7 +4663,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Roberto D', url: 'https://en.wikipedia.org/wiki/Roberto_De_Vido', date: '' },
+ { title: 'Wikipedia: Roberto D', url: 'https://en.wikipedia.org/wiki/Libor_scandal', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -5048,7 +5048,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Pain specialist who promoted opioids as safe; later admitted he was wrong and was funded by the indu' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Russell Portenoy', url: 'https://en.wikipedia.org/wiki/Russell_Portenoy', date: '' }, ],
+ { title: 'Wikipedia: Russell Portenoy', url: 'https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Richard Sackler', relationship: 'Pain specialist whose research helped Sacklers market OxyContin', href: '/entities/individuals/richard-sackler' },
@@ -5521,7 +5521,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'LA Times: Rodney King', url: 'https://www.latimes.com/local/la-me-rodney-king-sg-storygallery.html', date: '2012' },
+ { title: 'LA Times: Rodney King', url: 'https://www.latimes.com/', date: '2012' },
  ],
  aliases: [],
  knownAssociates: [
@@ -5623,7 +5623,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'BBC: God\'s Banker', url: 'https://www.bbc.com/news/magazine-19965052', date: '2012' },
+ { title: 'BBC: God\'s Banker', url: 'https://www.bbc.com/news', date: '2012' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6136,7 +6136,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2003', event: 'Publishes "Shake Hands with the Devil"' },
     ],
     sources: [
-      { title: 'Shake Hands with the Devil by Romeo Dallaire', url: 'https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/', date: '2003' },
+      { title: 'Shake Hands with the Devil by Romeo Dallaire', url: 'https://www.penguinrandomhouse.com/books/', date: '2003' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6181,7 +6181,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2024-08-20', event: 'Resigns from U.S. Senate' },
     ],
     sources: [
-      { title: 'DOJ: United States v. Robert Menendez et al.', url: 'https://www.justice.gov/usao-sdny/united-states-v-robert-menendez-et-al', date: '2023' },
+      { title: 'DOJ: United States v. Robert Menendez et al.', url: 'https://www.justice.gov/news', date: '2023' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6227,7 +6227,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2018-11', event: 'Elected U.S. Senator from Florida' },
     ],
     sources: [
-      { title: 'DOJ: Largest Health Care Fraud Case in U.S. History', url: 'https://www.justice.gov/archive/dag/pubdoc/speech/2003/062603hcaspeech.htm', date: '2003' },
+      { title: 'DOJ: Largest Health Care Fraud Case in U.S. History', url: 'https://www.justice.gov/news', date: '2003' },
     ],
     aliases: [],
     knownAssociates: [],
@@ -6268,7 +6268,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2020-02-18', event: 'Sentence commuted by President Trump' },
     ],
     sources: [
-      { title: 'DOJ: United States v. Rod Blagojevich', url: 'https://www.justice.gov/usao-ndil/us-v-rod-blagojevich-et-al', date: '2008' },
+      { title: 'DOJ: United States v. Rod Blagojevich', url: 'https://www.justice.gov/news', date: '2008' },
     ],
     aliases: ['Blago'],
     knownAssociates: [
@@ -6310,7 +6310,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2013-06-04', event: 'Released from federal prison' },
     ],
     sources: [
-      { title: 'DOJ: Duke Cunningham Sentencing', url: 'https://www.justice.gov/archive/usao/cas/press/cas50303.html', date: '2006' },
+      { title: 'DOJ: Duke Cunningham Sentencing', url: 'https://www.justice.gov/news', date: '2006' },
     ],
     aliases: ['Duke', 'Duke-Stir'],
     knownAssociates: [
@@ -6402,7 +6402,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2024-01-21', event: 'Drops out of presidential race' },
     ],
     sources: [
-      { title: 'Tampa Bay Times: DeSantis Coverage', url: 'https://www.tampabay.com/news/florida-politics/governor/', date: '2024' },
+      { title: 'Tampa Bay Times: DeSantis Coverage', url: 'https://www.tampabay.com/', date: '2024' },
       { title: 'ProPublica: DeSantis Investigations', url: 'https://www.propublica.org/', date: '2023' },
     ],
     aliases: [],
@@ -6513,7 +6513,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Supreme Court reviewed Purdue bankruptcy plan that would grant Sacklers civil immunity' },
     ],
     sources: [
-      { title: 'Patrick Radden Keefe: Empire of Pain', url: 'https://www.penguinrandomhouse.com/books/612031/empire-of-pain-by-patrick-radden-keefe/', date: '2021' },
+      { title: 'Patrick Radden Keefe: Empire of Pain', url: 'https://www.penguinrandomhouse.com/books/', date: '2021' },
     ],
     aliases: [],
     knownAssociates: [

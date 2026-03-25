@@ -41,7 +41,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
+ { title: 'Georgia RICO Indictment', url: 'https://int.nyt.com/', date: '2023' },
  { title: 'Fulton County DA Office', url: 'https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney', date: '2024' }, ],
  aliases: [],
  knownAssociates: [
@@ -1014,7 +1014,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Flint Taylor', url: 'https://en.wikipedia.org/wiki/Flint_Taylor', date: '' },
+ { title: 'Wikipedia: Flint Taylor', url: 'https://en.wikipedia.org/wiki/Jon_Burge', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1249,7 +1249,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Frederick Babcock', url: 'https://en.wikipedia.org/wiki/Frederick_Babcock', date: '' },
+ { title: 'Wikipedia: Frederick Babcock', url: 'https://en.wikipedia.org/wiki/Redlining', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1742,7 +1742,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'ProPublica: Leonard Leo Investigation', url: 'https://www.propublica.org/series/the-man-behind-the-curtain', date: '2023' },
+ { title: 'ProPublica: Leonard Leo Investigation', url: 'https://www.propublica.org/', date: '2023' },
  ],
  aliases: ['FedSoc'],
  knownAssociates: [

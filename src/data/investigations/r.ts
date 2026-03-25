@@ -138,7 +138,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Senate Intelligence Committee Report Vol. 2', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/Report_Volume2.pdf', type: 'Government Report' },
  { title: 'Facebook IRA Disclosure', url: 'https://about.fb.com/news/2017/10/hard-questions-russian-ads/', type: 'Company Statement' },
  { title: 'Oxford Internet Institute Analysis', url: 'https://comprop.oii.ox.ac.uk/research/ira-political-polarization/', type: 'Academic Research' },
- { title: 'Mueller Report, Russian Social Media', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report, Russian Social Media', url: 'https://www.justice.gov/archives', type: 'Government Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -325,7 +325,7 @@ const investigations_r: Record<string, InvestigationData> = {
  tags: ['Russia', 'Disinformation', 'Internet Research Agency', 'Election Interference', 'GRU', 'Social Media', 'Putin'],
  sources: [
  { title: 'Senate Intelligence Committee Russia Report', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Congressional Report' },
- { title: 'Mueller Report, Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report, Russian Interference', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'DOJ IRA Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1035477/download', type: 'Court Filing' },
  { title: 'DOJ GRU Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -450,9 +450,9 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Russia', 'Trump', 'Mueller', '2016 Election', 'Obstruction of Justice', 'Foreign Interference', 'Paul Manafort', 'Michael Flynn'],
  sources: [
- { title: 'Mueller Report (Full Text)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report (Full Text)', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Senate Intelligence Committee Russia Report (Volume 5)', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government Report' },
- { title: 'DOJ Special Counsel Indictments Index', url: 'https://www.justice.gov/archives/sco/page/file/1371346/download', type: 'Government Report' },
+ { title: 'DOJ Special Counsel Indictments Index', url: 'https://www.justice.gov/archives/page/file/1371346/download', type: 'Government Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -497,7 +497,7 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Russia', '2016 Election', 'Hacking', 'Disinformation', 'GRU', 'Mueller Investigation', 'IRA', 'Cyber Warfare', 'Foreign Interference', 'WikiLeaks'],
  sources: [
- { title: 'Mueller Report: Report on the Investigation into Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Government' },
+ { title: 'Mueller Report: Report on the Investigation into Russian Interference', url: 'https://www.justice.gov/archives', type: 'Government' },
  { title: 'Senate Intelligence Committee Volume 5: Counterintelligence Threats', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
  { title: 'DOJ Indictment of 12 GRU Officers', url: 'https://www.justice.gov/archives/file/1080281/dl', type: 'Legal' },
  { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/archives/file/1035477/dl', type: 'Legal' },

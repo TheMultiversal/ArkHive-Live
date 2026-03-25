@@ -90,9 +90,9 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'SDNY Federal Indictment', url: 'https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-sex-trafficking-minors', date: '2019' },
+ { title: 'SDNY Federal Indictment', url: 'https://www.justice.gov/usao-sdny', date: '2019' },
  { title: 'Miami Herald: Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '2018' },
- { title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison', date: '2021' },
+ { title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny', date: '2021' },
  { title: 'Unsealed Giuffre v. Maxwell Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
  { title: 'Epstein Flight Logs', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2019-2025' },
  { title: 'Palm Beach Police Reports', url: 'https://palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/', date: '2005' },
@@ -247,8 +247,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'DOJ Indictment', url: 'https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy', date: '2019' }, ],
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
+ { title: 'DOJ Indictment', url: 'https://www.justice.gov/news', date: '2019' }, ],
  aliases: ['WikiLeaks'],
  knownAssociates: [
  { name: 'Roger Stone', relationship: 'Coordinated 2016 email releases', href: '/entities/individuals/roger-stone' },
@@ -294,7 +294,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2018', event: 'Refuses plea deal, threatens lawsuit' },
  ],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  ],
  },
  'jack-smith': {
@@ -342,7 +342,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },
- { title: 'January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: '2023' },
+ { title: 'January 6 Indictment', url: 'https://www.justice.gov/news', date: '2023' },
  { title: 'Special Counsel Appointment Order', url: 'https://www.justice.gov/opa/pr/appointment-special-counsel', date: '2022' },
  ],
  aliases: [],
@@ -398,7 +398,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'Comey Senate Testimony', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/os-jcomey-060817.pdf', date: '2017' },
- { title: 'Mueller Report: Obstruction Section', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report: Obstruction Section', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: '"A Higher Loyalty"Memoir', url: 'https://www.amazon.com/Higher-Loyalty-Truth-Lies-Leadership/dp/1250192455', date: '2018' },
  ],
  aliases: [],
@@ -560,7 +560,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' }, ],
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' }, ],
  aliases: ['The Professor'],
  knownAssociates: [
  { name: 'George Papadopoulos', relationship: 'Told him about Russian dirt', href: '/entities/individuals/george-papadopoulos' },
@@ -2345,7 +2345,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'BBC Investigation: Boeing Whistleblower', url: 'https://www.bbc.com/news/business-67760406', date: '2023' },
+ { title: 'BBC Investigation: Boeing Whistleblower', url: 'https://www.bbc.com/news', date: '2023' },
  ],
  aliases: [],
  knownAssociates: [],
@@ -2668,7 +2668,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Javier de Luis', url: 'https://en.wikipedia.org/wiki/Javier_de_Luis', date: '' },
+ { title: 'Wikipedia: Javier de Luis', url: 'https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302', date: '' },
  { title: 'Associated Press: Javier de Luis', url: 'https://apnews.com/', date: '' },
  ],
  aliases: [],
@@ -4011,7 +4011,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Jack Remondi', url: 'https://en.wikipedia.org/wiki/Jack_Remondi', date: '' },
+ { title: 'Wikipedia: Jack Remondi', url: 'https://en.wikipedia.org/wiki/Student_debt', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4301,7 +4301,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Federal judge who ordered environmental review but allowed pipeline to continue operating' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: James Bosbous', url: 'https://en.wikipedia.org/wiki/James_Bosbous', date: '' }, ],
+ { title: 'Wikipedia: James Bosbous', url: 'https://en.wikipedia.org/wiki/Waco_siege', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Thomas Beasley', relationship: 'CCA private prison colleague', href: '/entities/individuals/thomas-beasley' },
@@ -4611,7 +4611,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Earthjustice attorney representing Standing Rock Sioux in legal challenges to DAPL' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Jan Hasselman', url: 'https://en.wikipedia.org/wiki/Jan_Hasselman', date: '' }, ],
+ { title: 'Wikipedia: Jan Hasselman', url: 'https://en.wikipedia.org/wiki/Dakota_Access_Pipeline_protests', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Chase Iron Eyes', relationship: 'Standing Rock legal ally', href: '/entities/individuals/chase-iron-eyes' },
@@ -4706,7 +4706,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Lead attorney for plaintiffs; obtained internal playbook documents through discovery' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Jason Forge', url: 'https://en.wikipedia.org/wiki/Jason_Forge', date: '' }, ],
+ { title: 'Wikipedia: Jason Forge', url: 'https://en.wikipedia.org/wiki/Enron_scandal', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Allen Stanford', relationship: 'Prosecutor who convicted Stanford of Ponzi scheme', href: '/entities/individuals/allen-stanford' },
@@ -4801,7 +4801,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Oklahoma Governor who declared martial law but did not protect Black community' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: J.B.A. Robertson', url: 'https://en.wikipedia.org/wiki/J.B.A._Robertson', date: '' }, ],
+ { title: 'Wikipedia: J.B.A. Robertson', url: 'https://en.wikipedia.org/wiki/Tulsa_race_massacre', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'AJ Smitherman', relationship: 'Governor during Tulsa Race Massacre', href: '/entities/individuals/aj-smitherman' },
@@ -4833,7 +4833,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Ethyl Corporation executive who promoted leaded gasoline safety claims' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: J.C. Robert', url: 'https://en.wikipedia.org/wiki/J.C._Robert', date: '' }, ],
+ { title: 'Wikipedia: J.C. Robert', url: 'https://en.wikipedia.org/wiki/Tobacco_industry', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Thomas Parran', relationship: 'Fellow public health official during unethical research era', href: '/entities/individuals/thomas-parran' },
@@ -4928,7 +4928,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Jeff Brantingham', url: 'https://en.wikipedia.org/wiki/Jeff_Brantingham', date: '' },
+ { title: 'Wikipedia: Jeff Brantingham', url: 'https://en.wikipedia.org/wiki/Predictive_policing', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -5556,7 +5556,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: John Africa (Vincent Leaphart)', url: 'https://en.wikipedia.org/wiki/John_Africa)', date: '' },
+ { title: 'Wikipedia: John Africa (Vincent Leaphart)', url: 'https://en.wikipedia.org/wiki/John_Africa', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6078,7 +6078,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Director of the PHS Venereal Disease Research Laboratory who oversaw Cutler' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Dr. John Mahoney', url: 'https://en.wikipedia.org/wiki/John_Mahoney_(physician)', date: '' }, ],
+ { title: 'Wikipedia: Dr. John Mahoney', url: 'https://en.wikipedia.org/wiki/John_Mahoney_(politician)', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Thomas Parran', relationship: 'PHS colleague during Tuskegee/Guatemala experiments', href: '/entities/individuals/thomas-parran' },
@@ -6274,11 +6274,11 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'jose-napoleon-duarte': {
- name: 'JosÃ© NapoleÃ³n Duarte',
+ name: 'José Napoleón Duarte',
  title: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
  role: 'President of El Salvador (1984-1989) who served as democratic facade while military controlled operations',
  riskLevel: 'high',
- description: 'JosÃ© NapoleÃ³n Duarte. Profile pending review.',
+ description: 'José Napoleón Duarte. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Department of Defense', role: 'Defense Official', type: 'agency' },
@@ -6286,8 +6286,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  controversies: [
  'Connected to 1 documented investigation',
- 'Investigative journalists have documented a pattern of revolving-door employment between JosÃ© NapoleÃ³n Duarte\'s operations and the regulatory bodies meant to provide oversight.',
- 'Internal documents obtained through litigation discovery show JosÃ© NapoleÃ³n Duarte was briefed on risks later downplayed in public communications.',
+ 'Investigative journalists have documented a pattern of revolving-door employment between José Napoleón Duarte\'s operations and the regulatory bodies meant to provide oversight.',
+ 'Internal documents obtained through litigation discovery show José Napoleón Duarte was briefed on risks later downplayed in public communications.',
  ],
  charges: [],
  relatedInvestigations: [
@@ -6296,7 +6296,7 @@ const profiles: Record<string, IndividualProfile> = {
  timeline: [ ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: JosÃ© NapoleÃ³n Duarte', url: 'https://en.wikipedia.org/wiki/JosÃ©_NapoleÃ³n_Duarte', date: '' }, ],
+ { title: 'Wikipedia: José Napoleón Duarte', url: 'https://en.wikipedia.org/wiki/José_Napoleón_Duarte', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Roberto DAubuisson', relationship: 'Political rival and death squad leader Duarte opposed', href: '/entities/individuals/roberto-daubuisson' },
@@ -6306,14 +6306,14 @@ const profiles: Record<string, IndividualProfile> = {
 
 
  'jose-ramos-horta': {
- name: 'JosÃ© Ramos-Horta',
+ name: 'José Ramos-Horta',
  title: 'East Timorese resistance leader, Nobel Peace Prize laureate, later President',
  role: 'East Timorese resistance leader, Nobel Peace Prize laureate, later President',
  riskLevel: 'high',
- description: 'JosÃ© Ramos-Horta. Profile pending review.',
+ description: 'José Ramos-Horta. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: JosÃ© NapoleÃ³n Duarte', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: José Napoleón Duarte', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -6327,7 +6327,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: JosÃ© Ramos-Horta', url: 'https://en.wikipedia.org/wiki/JosÃ©_Ramos-Horta', date: '' },
+ { title: 'Wikipedia: José Ramos-Horta', url: 'https://en.wikipedia.org/wiki/José_Ramos-Horta', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6492,7 +6492,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Commander of the joint task force that executed the invasion' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Admiral Joseph Metcalf III', url: 'https://en.wikipedia.org/wiki/Admiral_Joseph_Metcalf_III', date: '' }, ],
+ { title: 'Wikipedia: Admiral Joseph Metcalf III', url: 'https://en.wikipedia.org/wiki/Joseph_Metcalf_III', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Hudson Austin', relationship: 'Grenada coup leader whom Metcalf\'s invasion force fought', href: '/entities/individuals/hudson-austin' },
@@ -6615,7 +6615,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Joshua Jaynes', url: 'https://en.wikipedia.org/wiki/Joshua_Jaynes', date: '' },
+ { title: 'Wikipedia: Joshua Jaynes', url: 'https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6811,11 +6811,11 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'jurgen-mossack': {
- name: 'JÃ¼rgen Mossack',
+ name: 'Jürgen Mossack',
  title: 'Co-founder of Mossack Fonseca; created the law firm that became the world\'s fourth-largest offshore services provider',
  role: 'Co-founder of Mossack Fonseca; created the law firm that became the world\'s fourth-largest offshore services provider',
  riskLevel: 'high',
- description: 'JÃ¼rgen Mossack. Profile pending review.',
+ description: 'Jürgen Mossack. Profile pending review.',
  education: [],
  affiliations: [
  { name: 'Independent', role: 'Wikipedia: Julius Rosenberg', type: 'organization' },
@@ -6832,7 +6832,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: JÃ¼rgen Mossack', url: 'https://en.wikipedia.org/wiki/JÃ¼rgen_Mossack', date: '' },
+ { title: 'Wikipedia: Jürgen Mossack', url: 'https://en.wikipedia.org/wiki/Jürgen_Mossack', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6841,14 +6841,14 @@ const profiles: Record<string, IndividualProfile> = {
  },
 
  'juvenal-habyarimana': {
- name: 'JuvÃ©nal Habyarimana',
+ name: 'Juvénal Habyarimana',
  title: 'Rwandan President whose assassination triggered the genocide',
  role: 'Rwandan President whose assassination triggered the genocide',
  riskLevel: 'high',
- description: 'JuvÃ©nal Habyarimana. Profile pending review.',
+ description: 'Juvénal Habyarimana. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: JÃ¼rgen Mossack', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: Jürgen Mossack', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -6862,7 +6862,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: JuvÃ©nal Habyarimana', url: 'https://en.wikipedia.org/wiki/JuvÃ©nal_Habyarimana', date: '' },
+ { title: 'Wikipedia: Juvénal Habyarimana', url: 'https://en.wikipedia.org/wiki/Juvénal_Habyarimana', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6879,7 +6879,7 @@ const profiles: Record<string, IndividualProfile> = {
  description: 'J.W. Milam. Profile pending review.',
  education: [],
  affiliations: [
- { name: 'Independent', role: 'Wikipedia: JuvÃ©nal Habyarimana', type: 'organization' },
+ { name: 'Independent', role: 'Wikipedia: Juvénal Habyarimana', type: 'organization' },
  ],
  controversies: [
  'Connected to 1 documented investigation',
@@ -7375,7 +7375,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Sentenced to life plus 419 years' }, ],
  socialMedia: [],
  sources: [
- { title: 'DOJ: Fields Sentencing', url: 'https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-related-august-2017-car-attack', date: '2019' }, ],
+ { title: 'DOJ: Fields Sentencing', url: 'https://www.justice.gov/news', date: '2019' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Rally inspired by Trump rhetoric, Trump equivocated after attack', href: '/entities/individuals/donald-trump' },
@@ -7442,7 +7442,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Named in sexual assault civil suit' }, ],
  socialMedia: [],
  sources: [
- { title: 'BBC: Jay-Z Legal Issues', url: 'https://www.bbc.com/news/entertainment-arts', date: '2024' }, ],
+ { title: 'BBC: Jay-Z Legal Issues', url: 'https://www.bbc.com/news', date: '2024' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Sean Combs', relationship: 'Fellow music mogul, long-time industry associate', href: '/entities/individuals/sean-combs' },
@@ -7474,7 +7474,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'AP: Burkman Wohl Convicted', url: 'https://apnews.com/article/burkman-wohl-robocall-conviction', date: '2022' },
+ { title: 'AP: Burkman Wohl Convicted', url: 'https://apnews.com/', date: '2022' },
  ],
  aliases: [],
  knownAssociates: [
@@ -8145,7 +8145,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2015-03', event: 'Released from prison' },
     ],
     sources: [
-      { title: 'DOJ: United States v. Jesse L. Jackson Jr.', url: 'https://www.justice.gov/usao-dc/pr/former-congressman-jesse-l-jackson-jr-sentenced-30-months-prison', date: '2013' },
+      { title: 'DOJ: United States v. Jesse L. Jackson Jr.', url: 'https://www.justice.gov/usao-dc', date: '2013' },
     ],
     aliases: ['Junior'],
     knownAssociates: [

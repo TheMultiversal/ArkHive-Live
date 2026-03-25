@@ -25,7 +25,7 @@ const investigations_c: Record<string, InvestigationData> = {
  tags: ['Hacking', 'Russia', 'WikiLeaks', 'Election Interference', 'GRU', 'Cyber Attack', 'Roger Stone', 'Podesta Emails', 'DNC Hack'],
  sources: [
  { title: 'Trump Russia Hacking Request, Full Video', url: 'https://www.youtube.com/watch?v=3kxG8uJUsWU', type: 'Video Evidence' },
- { title: 'Mueller Report on Russian Hacking', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report on Russian Hacking', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'GRU Officer Indictments', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1080281/download', type: 'Court Filing' },
  { title: 'Roger Stone Indictment', url: 'https://web.archive.org/web/2024/https://www.justice.gov/file/1124706/download', type: 'Court Filing' },
  { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', type: 'Government Report' },
@@ -113,7 +113,7 @@ const investigations_c: Record<string, InvestigationData> = {
  tags: ['Comey', 'FBI', 'Obstruction', 'Mueller', 'Russia Investigation'],
  sources: [
  { title: 'Trump Lester Holt Interview', url: 'https://www.nbcnews.com/news/us-news/trump-reveals-he-asked-comey-whether-he-was-under-investigation-n757821', type: 'Primary Source' },
- { title: 'Mueller Report Vol. II', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report Vol. II', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Comey Opening Statement', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/os-jcomey-060817.pdf', type: 'Congressional Testimony' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
@@ -5284,7 +5284,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     tags: ['camp-lejeune', 'military', 'water-contamination', 'tce', 'cancer', 'marine-corps', 'veterans', 'superfund', 'coverup'],
     sources: [
-      { title: 'ATSDR: Camp Lejeune Contamination Studies', url: 'https://web.archive.org/web/2024/https://www.atsdr.cdc.gov/sites/lejeune//', type: 'Government Report' },
+      { title: 'ATSDR: Camp Lejeune Contamination Studies', url: 'https://web.archive.org/web/2024/https://www.cdc.gov//', type: 'Government Report' },
       { title: 'Camp Lejeune Justice Act of 2022 (PACT Act)', url: 'https://www.congress.gov/bill/117th-congress/house-bill/3967', type: 'Legislation' },
       { title: 'GAO: DOD Efforts to Address Contamination at Camp Lejeune', url: 'https://www.gao.gov/', type: 'Government Report' },
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },

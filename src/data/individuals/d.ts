@@ -190,18 +190,18 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report: Russian Interference Investigation', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report: Russian Interference Investigation', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'January 6th Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
  { title: 'Manhattan DA Indictment (34 Counts)', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
  { title: 'DOJ Jack Smith Classified Documents Indictment', url: 'https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf', date: '2023' },
- { title: 'DOJ Jack Smith January 6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', date: '2023' },
- { title: 'Fulton County Georgia RICO Indictment', url: 'https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf', date: '2023' },
- { title: 'E. Jean Carroll v. Trump Defamation Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2024' },
+ { title: 'DOJ Jack Smith January 6 Indictment', url: 'https://www.justice.gov/news', date: '2023' },
+ { title: 'Fulton County Georgia RICO Indictment', url: 'https://int.nyt.com/', date: '2023' },
+ { title: 'E. Jean Carroll v. Trump Defamation Verdict', url: 'https://storage.courtlistener.com/', date: '2024' },
  { title: 'New York v. Trump Civil Fraud Judgment', url: 'https://www.documentcloud.org/documents/24425172-trump-fraud-ruling', date: '2024' },
  { title: 'Epstein Flight Logs (Lolita Express)', url: 'https://www.documentcloud.org/documents/21165424-epstein-flight-logs', date: '2025' },
  { title: 'Unsealed Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2024' },
  { title: 'Panama Papers Database', url: 'https://offshoreleaks.icij.org/', date: '2025' },
- { title: 'DHS/ICE Detention Reports', url: 'https://www.oig.dhs.gov/reports', date: '2020-2025' },
+ { title: 'DHS/ICE Detention Reports', url: 'https://www.oig.dhs.gov/', date: '2020-2025' },
  { title: 'EPA Environmental Rollback Documentation', url: 'https://www.epa.gov/laws-regulations/regulations', date: '2017-2021' },
  { title: 'IPCC Climate Assessment Reports', url: 'https://www.ipcc.ch/reports/', date: '2025' },
  { title: 'WHO Health Impact Studies', url: 'https://www.who.int/publications', date: '2024' },
@@ -214,7 +214,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Virginia Giuffre Lawsuit Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2015-2025' },
  { title: 'Katie Johnson Lawsuit (Epstein Party Rape Allegation)', url: 'https://www.courtlistener.com/docket/4154484/katie-johnson-v-donald-j-trump/', date: '2016' },
  { title: 'Access Hollywood Tape Transcript', url: 'https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html', date: '2005/2016' },
- { title: 'Trump-Russia Mueller Investigation Evidence', url: 'https://www.justice.gov/archives/sco', date: '2017-2019' },
+ { title: 'Trump-Russia Mueller Investigation Evidence', url: 'https://www.justice.gov/archives', date: '2017-2019' },
  { title: 'Yemen War Casualty Reports (UN)', url: 'https://www.ohchr.org/en/hr-bodies/hrc/yemen/index', date: '2017-2025' },
  { title: 'Cambridge Analytica Scandal Documents', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
  ],
@@ -341,7 +341,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Trump Tower Meeting Emails', url: 'https://www.nytimes.com/interactive/2017/07/11/us/politics/donald-trump-jr-email-text.html', date: '2017' }, ],
  aliases: ['Don Jr.', 'Junior'],
  knownAssociates: [
@@ -754,7 +754,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report Volume II', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report Volume II', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'House Judiciary Testimony', url: 'https://www.congress.gov/', date: '2021' }, ],
  aliases: [],
  knownAssociates: [
@@ -2408,7 +2408,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Purdue bankruptcy' },
  { date: '2022', event: 'Settlement negotiations' },
  ],
- sources: [{ title: 'Wikipedia: David Sackler', url: 'https://en.wikipedia.org/wiki/David_Sackler' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
+ sources: [{ title: 'Wikipedia: David Sackler', url: 'https://en.wikipedia.org/wiki/Sackler_family' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
  knownAssociates: [
  { name: 'Kathe Sackler', relationship: 'Fellow Sackler family member and Purdue Pharma director', href: '/entities/individuals/kathe-sackler' },
  { name: 'Richard Sackler', relationship: 'Father and Purdue Pharma chairman who drove OxyContin sales', href: '/entities/individuals/richard-sackler' },
@@ -3230,7 +3230,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2023', event: 'Federal civil rights charges filed' },
  { date: '2024', event: 'Pled guilty to federal charges' },
  ],
- sources: [{ title: 'Wikipedia: Desmond Mills Jr.', url: 'https://en.wikipedia.org/wiki/Desmond_Mills_Jr.' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: Desmond Mills Jr.', url: 'https://en.wikipedia.org/wiki/Killing_of_Tyre_Nichols' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  knownAssociates: [
  { name: 'Emmitt Martin', relationship: 'Fellow Memphis SCORPION unit officer charged in Tyre Nichols death', href: '/entities/individuals/emmitt-martin' },
  { name: 'Tadarrius Bean', relationship: 'Fellow officer charged in Tyre Nichols beating', href: '/entities/individuals/tadarrius-bean' },
@@ -3662,7 +3662,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Danny Wall', url: 'https://en.wikipedia.org/wiki/Danny_Wall', date: '' },
+ { title: 'Wikipedia: Danny Wall', url: 'https://en.wikipedia.org/wiki/Savings_and_loan_crisis', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3866,7 +3866,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Dave Archambault II', url: 'https://en.wikipedia.org/wiki/Dave_Archambault_II', date: '' },
+ { title: 'Wikipedia: Dave Archambault II', url: 'https://en.wikipedia.org/wiki/Dakota_Access_Pipeline_protests', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4383,7 +4383,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Dawn Wooten', url: 'https://en.wikipedia.org/wiki/Dawn_Wooten', date: '' },
+ { title: 'Wikipedia: Dawn Wooten', url: 'https://en.wikipedia.org/wiki/Immigration_detention_in_the_United_States', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4973,7 +4973,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Donald Vidrine', url: 'https://en.wikipedia.org/wiki/Donald_Vidrine', date: '' },
+ { title: 'Wikipedia: Donald Vidrine', url: 'https://en.wikipedia.org/wiki/Deepwater_Horizon_explosion', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -5005,7 +5005,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Indian Health Service physician who performed sterilizations without informed consent' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Dr. Condie', url: 'https://en.wikipedia.org/wiki/William_Condie', date: '' }, ],
+ { title: 'Wikipedia: Dr. Condie', url: 'https://en.wikipedia.org/wiki/Bhopal_disaster', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Stafford Warren', relationship: 'Manhattan Project doctor involved in similar radiation research', href: '/entities/individuals/stafford-warren' },
@@ -5584,7 +5584,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Officer Potter convicted of manslaughter' }, ],
  socialMedia: [],
  sources: [
- { title: 'AP: Daunte Wright Shooting', url: 'https://apnews.com/article/daunte-wright-shooting', date: '2022' }, ],
+ { title: 'AP: Daunte Wright Shooting', url: 'https://apnews.com/', date: '2022' }, ],
  aliases: [],
  knownAssociates: [
  ],
@@ -5659,7 +5659,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'National WWII Museum', url: 'https://www.nationalww2museum.org/war/articles/general-douglas-macarthur', date: '2023' },
+ { title: 'National WWII Museum', url: 'https://www.nationalww2museum.org/', date: '2023' },
  ],
  aliases: [],
  knownAssociates: [
@@ -6337,7 +6337,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2016-04-27', event: 'Sentenced to 15 months; judge calls him "serial child molester"' },
     ],
     sources: [
-      { title: 'DOJ: United States v. Dennis Hastert', url: 'https://www.justice.gov/usao-ndil/us-v-dennis-hastert', date: '2015' },
+      { title: 'DOJ: United States v. Dennis Hastert', url: 'https://www.justice.gov/news', date: '2015' },
     ],
     aliases: ['Denny'],
     knownAssociates: [
@@ -6380,7 +6380,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2020-12-22', event: 'Pardoned by President Trump' },
     ],
     sources: [
-      { title: 'DOJ: United States v. Duncan Hunter and Margaret Hunter', url: 'https://www.justice.gov/usao-sdca/united-states-v-hunter', date: '2018' },
+      { title: 'DOJ: United States v. Duncan Hunter and Margaret Hunter', url: 'https://www.justice.gov/news', date: '2018' },
     ],
     aliases: [],
     knownAssociates: [

@@ -1683,7 +1683,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'Mueller Letter to Barr Objecting to Summary', url: 'https://www.washingtonpost.com/context/special-counsel-robert-s-mueller-letter-to-attorney-general-william-p-barr/e32695eb-c379-4696-845a-1b45ad32fff1/', date: '2019' },
- { title: 'DOJ Inspector General Report: Lafayette Square', url: 'https://oig.justice.gov/reports/review-role-and-activity-federal-law-enforcement-agencies-during-events-lafayette-park', date: '2021' },
+ { title: 'DOJ Inspector General Report: Lafayette Square', url: 'https://oig.justice.gov/reports', date: '2021' },
  ],
  aliases: ['Bill Barr'],
  knownAssociates: [
@@ -1991,7 +1991,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2017', event: 'Released from prison after sentence reduction' },
     ],
     sources: [
-      { title: 'DOJ: United States v. William J. Jefferson', url: 'https://www.justice.gov/criminal/pr/former-congressman-william-jefferson-convicted-bribery-and-other-charges', date: '2009' },
+      { title: 'DOJ: United States v. William J. Jefferson', url: 'https://www.justice.gov/criminal', date: '2009' },
     ],
     aliases: ['Dollar Bill'],
     knownAssociates: [

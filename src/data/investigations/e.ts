@@ -405,7 +405,7 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Election Interference', 'Russia', 'Voter Suppression', 'Gerrymandering', 'Dark Money', 'Election Security'],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'ODNI Election Threat Assessments', url: 'https://www.dni.gov/index.php/newsroom/reports-publications/item/2139-assessment-of-foreign-threats-to-the-2020-u-s-federal-elections', type: 'Intelligence Report' },
  { title: 'Brennan Center, Voter Suppression', url: 'https://www.brennancenter.org/issues/ensure-every-american-can-vote', type: 'Research' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
@@ -534,7 +534,7 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Miami Herald Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', type: 'Investigation' },
  { title: 'Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', type: 'Court Records' },
- { title: 'Maxwell Trial Coverage', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-sex-trafficking-minor', type: 'DOJ Release' },
+ { title: 'Maxwell Trial Coverage', url: 'https://www.justice.gov/usao-sdny-sex-trafficking-minor', type: 'DOJ Release' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [

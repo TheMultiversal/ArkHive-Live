@@ -48,7 +48,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ: Deripaska Indictment', url: 'https://www.justice.gov/usao-sdny/pr/russian-oligarch-charged-violating-us-sanctions', date: '2022' },
+ { title: 'DOJ: Deripaska Indictment', url: 'https://www.justice.gov/usao-sdny', date: '2022' },
  { title: 'Treasury: CAATSA Sanctions', url: 'https://home.treasury.gov/news/press-releases/sm0338', date: '2018' },
  { title: 'Senate Intelligence Committee Report Vol. 5', url: 'https://www.intelligence.senate.gov/publications', date: '2020' },
  ],
@@ -316,7 +316,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'ICC: Al Bashir Case', url: 'https://www.icc-cpi.int/darfur/albashir', date: '2010' },
- { title: 'UN Commission of Inquiry on Darfur', url: 'https://www.un.org/news/dh/sudan/com_inq_darfur.pdf', date: '2005' },
+ { title: 'UN Commission of Inquiry on Darfur', url: 'https://www.un.org/', date: '2005' },
  { title: 'Human Rights Watch: Darfur', url: 'https://www.hrw.org/africa/sudan', date: '2023' },
  ],
  aliases: ['al-Bashir'],
@@ -780,7 +780,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ: Oath Keepers Seditious Conspiracy Case', url: 'https://www.justice.gov/usao-dc/case-multi-defendant/case/oath-keepers', date: '2023' },
+ { title: 'DOJ: Oath Keepers Seditious Conspiracy Case', url: 'https://www.justice.gov/news', date: '2023' },
  { title: 'January 6th Committee: Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', date: '2022' },
  ],
  aliases: [],

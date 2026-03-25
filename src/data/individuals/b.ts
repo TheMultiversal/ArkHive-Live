@@ -174,7 +174,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', date: '2020' }, ],
+ { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny', date: '2020' }, ],
  aliases: ['Border Wall Scammer'],
  knownAssociates: [
  { name: 'Steve Bannon', relationship: 'We Build the Wall co-conspirator (pardoned)', href: '/entities/individuals/steve-bannon' },
@@ -1821,7 +1821,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
-  { title: 'United States v. Madoff, Criminal Docket No. 09-CR-213', url: 'https://www.justice.gov/usao-sdny/madoff', date: 'March 12, 2009' },
+  { title: 'United States v. Madoff, Criminal Docket No. 09-CR-213', url: 'https://www.justice.gov/news', date: 'March 12, 2009' },
   { title: 'SEC OIG Report: Investigation of Failure to Uncover Madoff Ponzi Scheme', url: 'https://www.sec.gov/news/studies/2009/oig-509.pdf', date: 'August 31, 2009' },
   { title: 'Harry Markopolos; "No One Would Listen"', url: 'https://www.wiley.com', date: '2010' },
   { title: 'Diana Henriques; "The Wizard of Lies"', url: 'https://www.nytimes.com', date: '2011' },
@@ -1879,8 +1879,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
-  { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/study2014/sscistudy1.pdf', date: 'December 9, 2014' },
-  { title: 'Salim v. Mitchell; No. 2:15-cv-286 (E.D. Wash.)', url: 'https://www.aclu.org/cases/salim-v-mitchell', date: '2015' },
+  { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/publications', date: 'December 9, 2014' },
+  { title: 'Salim v. Mitchell; No. 2:15-cv-286 (E.D. Wash.)', url: 'https://www.aclu.org/cases', date: '2015' },
   { title: 'CIA Inspector General Special Review (2004)', url: 'https://www.cia.gov', date: '2004' },
  ],
  aliases: ['James Elmer Jessen'],

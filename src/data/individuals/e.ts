@@ -142,7 +142,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Carroll v. Trump: Sexual Abuse Verdict', url: 'https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf', date: '2023' },
+ { title: 'Carroll v. Trump: Sexual Abuse Verdict', url: 'https://storage.courtlistener.com/', date: '2023' },
  { title: 'Carroll v. Trump: $83.3M Defamation Verdict', url: 'https://www.courtlistener.com/docket/17595029/carroll-v-trump/', date: '2024' },
  { title: 'New York Magazine Article', url: 'https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html', date: '2019' },
  { title: '"What Do We Need Men For?"Book', url: 'https://amazon.com/What-Do-Need-Men-Hideous/dp/1250215420', date: '2019' },
@@ -249,7 +249,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/usao-dc/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', date: '2023' },
+ { title: 'DOJ Seditious Conspiracy Conviction', url: 'https://www.justice.gov/usao-dc', date: '2023' },
  ],
  aliases: ['Henry Tarrio'],
  knownAssociates: [
@@ -1586,7 +1586,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Edward Horrigan', url: 'https://en.wikipedia.org/wiki/Edward_Horrigan', date: '' },
+ { title: 'Wikipedia: Edward Horrigan', url: 'https://en.wikipedia.org/wiki/Tobacco_industry', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1749,7 +1749,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Burmese refugee and Christian rock band manager who had $53,000 seized by Oklahoma police on I-40' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Eh Wah', url: 'https://en.wikipedia.org/wiki/Eh_Wah', date: '' }, ],
+ { title: 'Wikipedia: Eh Wah', url: 'https://en.wikipedia.org/wiki/Civil_forfeiture_in_the_United_States', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Jeff Sessions', relationship: 'DOJ under Sessions pursued civil forfeiture case against Eh Wah', href: '/entities/individuals/jeff-sessions' },
@@ -1787,7 +1787,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Sterilized at age 14 in North Carolina; became prominent activist for survivors' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Elaine Riddick', url: 'https://en.wikipedia.org/wiki/Elaine_Riddick', date: '' }, ],
+ { title: 'Wikipedia: Elaine Riddick', url: 'https://en.wikipedia.org/wiki/Eugenics_in_the_United_States', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Carrie Buck', relationship: 'Fellow forced sterilization victim', href: '/entities/individuals/carrie-buck' },
@@ -1985,7 +1985,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Admiral Elmo Zumwalt Jr.', url: 'https://en.wikipedia.org/wiki/Admiral_Elmo_Zumwalt_Jr.', date: '' },
+ { title: 'Wikipedia: Admiral Elmo Zumwalt Jr.', url: 'https://en.wikipedia.org/wiki/Elmo_Zumwalt', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2018,7 +2018,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Elmo Zumwalt III', url: 'https://en.wikipedia.org/wiki/Elmo_Zumwalt_III', date: '' },
+ { title: 'Wikipedia: Elmo Zumwalt III', url: 'https://en.wikipedia.org/wiki/Elmo_Zumwalt', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2210,7 +2210,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Erika Cheung', url: 'https://en.wikipedia.org/wiki/Erika_Cheung', date: '' },
+ { title: 'Wikipedia: Erika Cheung', url: 'https://en.wikipedia.org/wiki/Theranos', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2865,7 +2865,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'NYT: Eric Garner Case', url: 'https://www.nytimes.com/news-event/eric-garner-case', date: '2019' }, ],
+ { title: 'NYT: Eric Garner Case', url: 'https://www.nytimes.com/', date: '2019' }, ],
  aliases: [],
  knownAssociates: [
  ],
@@ -3045,7 +3045,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Standing Rock Sioux Tribe Legal Challenge', url: 'https://earthjustice.org/case/standing-rock-sioux-tribe-v-us-army-corps-of-engineers', date: '2016' },
+ { title: 'Standing Rock Sioux Tribe Legal Challenge', url: 'https://earthjustice.org/', date: '2016' },
  ],
  aliases: ['ET', 'DAPL Operator'],
  knownAssociates: [],
@@ -3183,7 +3183,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1922-08-04', event: 'Killed by Red Army forces in Tajikistan' },
     ],
     sources: [
-      { title: 'A Shameful Act by Taner Akcam', url: 'https://www.penguinrandomhouse.com/books/295440/a-shameful-act-by-taner-akcam/', date: '2006' },
+      { title: 'A Shameful Act by Taner Akcam', url: 'https://www.penguinrandomhouse.com/books/', date: '2006' },
     ],
     aliases: ['Ismail Enver', 'Enver Bey'],
     knownAssociates: [
@@ -3225,7 +3225,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2021-01-20', event: 'Pardoned by President Trump' },
     ],
     sources: [
-      { title: 'DOJ: Elliott Broidy Pleads Guilty', url: 'https://www.justice.gov/opa/pr/elliott-broidy-pleads-guilty-one-count-conspiracy', date: '2020' },
+      { title: 'DOJ: Elliott Broidy Pleads Guilty', url: 'https://www.justice.gov/news', date: '2020' },
     ],
     aliases: [],
     knownAssociates: [

@@ -1527,7 +1527,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  { date: 'January 2023', event: 'Fired and charged' },
  { date: '2024', event: 'Convicted federally' },
  ],
- sources: [{ title: 'Wikipedia: Tadarrius Bean', url: 'https://en.wikipedia.org/wiki/Tadarrius_Bean' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: Tadarrius Bean', url: 'https://en.wikipedia.org/wiki/Killing_of_Tyre_Nichols' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  knownAssociates: [
  { name: 'Timothy McVeigh', relationship: 'Co-conspirator who detonated the bomb, executed in 2001', href: '/entities/individuals/timothy-mcveigh' },
  ],
@@ -1584,7 +1584,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Tamika Palmer', url: 'https://en.wikipedia.org/wiki/Tamika_Palmer', date: '' },
+ { title: 'Wikipedia: Tamika Palmer', url: 'https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1646,7 +1646,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  { date: 'Ongoing', event: 'Active in role as Original lead plaintiff; testified about high-pressure upselling tactics' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Tarla Makaeff', url: 'https://en.wikipedia.org/wiki/Tarla_Makaeff', date: '' }, ],
+ { title: 'Wikipedia: Tarla Makaeff', url: 'https://en.wikipedia.org/wiki/Herbalife', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Lead plaintiff in Trump University fraud lawsuit', href: '/entities/individuals/donald-trump' },
@@ -1680,7 +1680,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  { date: 'Ongoing', event: 'Active in role as Court-appointed third-party manager of Jackson water system' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Ted Henifin', url: 'https://en.wikipedia.org/wiki/Ted_Henifin', date: '' }, ],
+ { title: 'Wikipedia: Ted Henifin', url: 'https://en.wikipedia.org/wiki/Flint_water_crisis', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Marc Edwards', relationship: 'Worked with Edwards on Flint water crisis infrastructure', href: '/entities/individuals/marc-edwards' },
@@ -2330,7 +2330,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Col. Thomas Pappas', url: 'https://en.wikipedia.org/wiki/Thomas_Pappas_(general)', date: '' },
+ { title: 'Wikipedia: Col. Thomas Pappas', url: 'https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2720,7 +2720,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Timothy Purdon', url: 'https://en.wikipedia.org/wiki/Timothy_Purdon', date: '' },
+ { title: 'Wikipedia: Timothy Purdon', url: 'https://en.wikipedia.org/wiki/Missing_and_murdered_Indigenous_women', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2848,7 +2848,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Tom Saffer', url: 'https://en.wikipedia.org/wiki/Tom_Saffer', date: '' },
+ { title: 'Wikipedia: Tom Saffer', url: 'https://en.wikipedia.org/wiki/Atomic_veterans', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3144,7 +3144,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Teresa Helm', url: 'https://en.wikipedia.org/wiki/Teresa_Helm', date: '' },
+ { title: 'Wikipedia: Teresa Helm', url: 'https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal', date: '' },
  { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
  ],
  aliases: [],
@@ -3181,7 +3181,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ Investigation', url: 'https://www.justice.gov/crt/file/836416/download', date: '2012' },
+ { title: 'DOJ Investigation', url: 'https://www.justice.gov/news', date: '2012' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3218,7 +3218,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  ],
  socialMedia: [],
  sources: [
- { title: 'Supreme Court Historical Society', url: 'https://supremecourthistory.org/history-of-the-court/the-current-court/justice-thurgood-marshall/', date: '2023' },
+ { title: 'Supreme Court Historical Society', url: 'https://supremecourthistory.org/', date: '2023' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3635,7 +3635,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
     sources: [
       { title: 'Taner Akcam - A Shameful Act: The Armenian Genocide and Turkish Responsibility', url: 'https://us.macmillan.com/books/9780805086652/', date: '2006' },
       { title: 'Ottoman Courts-Martial Proceedings (1919-1920)', url: 'https://www.armenian-genocide.org/', date: '1919' },
-      { title: 'Ambassador Morgenthau\'s Story - Contemporary Account', url: 'https://archive.org/details/ambassadormorgenstory00morgrich', date: '1918' },
+      { title: 'Ambassador Morgenthau\'s Story - Contemporary Account', url: 'https://archive.org/', date: '1918' },
     ],
     aliases: ['Talaat Pasha', 'Mehmed Talaat', 'Talat Bey'],
     knownAssociates: [
@@ -3690,7 +3690,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
     ],
     sources: [
       { title: 'ICTR - Prosecutor v. Bagosora et al. (Military I Case)', url: 'https://unictr.irmct.org/en/cases/ictr-98-41', date: '2008' },
-      { title: 'Dallaire, Romeo - Shake Hands with the Devil', url: 'https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/', date: '2004' },
+      { title: 'Dallaire, Romeo - Shake Hands with the Devil', url: 'https://www.penguinrandomhouse.com/books/', date: '2004' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3734,7 +3734,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
       { date: '2013-09-19', event: 'Conviction overturned by Texas Third Court of Appeals' },
     ],
     sources: [
-      { title: 'Texas v. DeLay: Travis County District Court', url: 'https://www.texastribune.org/2010/11/24/delay-found-guilty-money-laundering/', date: '2010' },
+      { title: 'Texas v. DeLay: Travis County District Court', url: 'https://www.texastribune.org/', date: '2010' },
     ],
     aliases: ['The Hammer'],
     knownAssociates: [
@@ -3777,7 +3777,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
       { date: '2010-08-09', event: 'Dies in plane crash in Alaska' },
     ],
     sources: [
-      { title: 'DOJ: Report on the Investigation of Senator Ted Stevens', url: 'https://www.justice.gov/opr/report-investigation-senator-ted-stevens', date: '2012' },
+      { title: 'DOJ: Report on the Investigation of Senator Ted Stevens', url: 'https://www.justice.gov/opr', date: '2012' },
     ],
     aliases: ['King of Pork', 'Uncle Ted'],
     knownAssociates: [

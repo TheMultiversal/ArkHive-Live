@@ -65,11 +65,11 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'SDNY Plea Agreement', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign', date: '2018' },
- { title: 'Congressional Testimony Transcript', url: 'https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/', date: '2019' },
+ { title: 'SDNY Plea Agreement', url: 'https://www.justice.gov/usao-sdny', date: '2018' },
+ { title: 'Congressional Testimony Transcript', url: 'https://oversight.house.gov/', date: '2019' },
  { title: 'Manhattan DA People v. Trump Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
  { title: 'Cohen Sentencing Memo', url: 'https://www.courtlistener.com/docket/7593912/united-states-v-cohen/', date: '2018' },
- { title: 'Mueller Report (Trump Tower Moscow)', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report (Trump Tower Moscow)', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Cohen Book: Disloyal: A Memoir', url: 'https://www.simonandschuster.com/books/Disloyal-A-Memoir/Michael-Cohen/9781510764699', date: '2020' },
  ],
  aliases: ['Trump\'s Fixer', 'Personal Attorney', 'Ray Donovan'],
@@ -2782,7 +2782,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Malcolm X (El-Hajj Malik El-Shabazz)', url: 'https://en.wikipedia.org/wiki/Malcolm_X)', date: '' },
+ { title: 'Wikipedia: Malcolm X (El-Hajj Malik El-Shabazz)', url: 'https://en.wikipedia.org/wiki/Malcolm_X', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2846,7 +2846,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Mandrel Stuart', url: 'https://en.wikipedia.org/wiki/Mandrel_Stuart', date: '' },
+ { title: 'Wikipedia: Mandrel Stuart', url: 'https://en.wikipedia.org/wiki/Civil_forfeiture_in_the_United_States', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -2877,7 +2877,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: General Marc Cisneros', url: 'https://en.wikipedia.org/wiki/Marc_Cisneros', date: '' },
+ { title: 'Wikipedia: General Marc Cisneros', url: 'https://en.wikipedia.org/wiki/United_States_invasion_of_Panama', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3473,7 +3473,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Maude DeVictor', url: 'https://en.wikipedia.org/wiki/Maude_DeVictor', date: '' },
+ { title: 'Wikipedia: Maude DeVictor', url: 'https://en.wikipedia.org/wiki/Agent_Orange', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4197,7 +4197,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Muhammad Abdul Aziz (Norman 3X Butler)', url: 'https://en.wikipedia.org/wiki/Muhammad_Abdul_Aziz)', date: '' },
+ { title: 'Wikipedia: Muhammad Abdul Aziz (Norman 3X Butler)', url: 'https://en.wikipedia.org/wiki/Muhammad_Abdul_Aziz', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4229,7 +4229,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Self-confessed assassin who testified that Aziz and Islam were innocent and named the real accomplic' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Mujahid Abdul Halim (Talmadge Hayer)', url: 'https://en.wikipedia.org/wiki/Mujahid_Abdul_Halim)', date: '' }, ],
+ { title: 'Wikipedia: Mujahid Abdul Halim (Talmadge Hayer)', url: 'https://en.wikipedia.org/wiki/Mujahid_Abdul_Halim', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Malcolm X', relationship: 'Actual shooter who killed Malcolm X', href: '/entities/individuals/malcolm-x' },
@@ -4645,7 +4645,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Under scrutiny for Epstein connection' },
  ],
  sources: [
- { title: 'Harvard Epstein Donations', url: 'https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/', date: '2020' },
+ { title: 'Harvard Epstein Donations', url: 'https://www.thecrimson.com/', date: '2020' },
  ],
  },
  'maria-farmer': {
@@ -4898,7 +4898,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2019 Oct', event: 'Released findings contradicting suicide ruling' },
  ],
  sources: [
- { title: 'Dr. Baden Autopsy Findings', url: 'https://www.foxnews.com/us/forensic-pathologist-jeffrey-epstein-homicide', date: '2019' },
+ { title: 'Dr. Baden Autopsy Findings', url: 'https://www.foxnews.com/', date: '2019' },
  ],
  },
  'mike-huckabee': {
@@ -4925,7 +4925,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Nominated as Ambassador to Israel' }, ],
  socialMedia: [],
  sources: [
- { title: 'AP: Huckabee Ambassador', url: 'https://apnews.com/article/huckabee-ambassador-israel', date: '2024' }, ],
+ { title: 'AP: Huckabee Ambassador', url: 'https://apnews.com/', date: '2024' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Appointed Ambassador to Israel', href: '/entities/individuals/donald-trump' },
@@ -4997,7 +4997,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2018', event: 'Facilitated inter-Korean summit at Panmunjom' }, ],
  socialMedia: [],
  sources: [
- { title: 'BBC: Moon Jae-in Profile', url: 'https://www.bbc.com/news/world-asia-40108032', date: '2022' }, ],
+ { title: 'BBC: Moon Jae-in Profile', url: 'https://www.bbc.com/news', date: '2022' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Facilitated North Korea diplomacy', href: '/entities/individuals/donald-trump' },
@@ -5199,7 +5199,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'DOJ Minneapolis Pattern and Practice Report', url: 'https://www.justice.gov/opa/pr/justice-department-finds-minneapolis-police-department-engages-pattern-or-practice', date: '2023' },
+ { title: 'DOJ Minneapolis Pattern and Practice Report', url: 'https://www.justice.gov/news', date: '2023' },
  ],
  aliases: ['MPD Minneapolis'],
  knownAssociates: [
@@ -5480,7 +5480,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2020-12', event: 'Publicly calls for martial law to overturn election' },
     ],
     sources: [
-      { title: 'Special Counsel Mueller: United States v. Michael T. Flynn', url: 'https://www.justice.gov/sco/case/united-states-v-michael-t-flynn', date: '2017' },
+      { title: 'Special Counsel Mueller: United States v. Michael T. Flynn', url: 'https://www.justice.gov/news', date: '2017' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5572,7 +5572,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Ordered to pay $200 million restitution to approximately 2,400 victims' },
     ],
     sources: [
-      { title: 'DOJ: Ciavarella Conviction', url: 'https://www.justice.gov/usao-mdpa/press-releases', date: '2011' },
+      { title: 'DOJ: Ciavarella Conviction', url: 'https://www.justice.gov/usao-mdpa', date: '2011' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5638,7 +5638,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Released to home confinement; ordered to pay restitution' },
     ],
     sources: [
-      { title: 'DOJ: Conahan Sentencing Press Release', url: 'https://www.justice.gov/usao-mdpa/press-releases', date: '2011' },
+      { title: 'DOJ: Conahan Sentencing Press Release', url: 'https://www.justice.gov/usao-mdpa', date: '2011' },
       { title: 'Kids for Cash: Two Judges, Thousands of Children, and a $2.8 Million Kickback Scheme', date: '2012' },
       { title: 'Interbranch Commission on Juvenile Justice Report', date: '2010' },
     ],

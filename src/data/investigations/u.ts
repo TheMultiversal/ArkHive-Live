@@ -22,7 +22,7 @@ const investigations_u: Record<string, InvestigationData> = {
  ],
  tags: ['Ukraine', 'FARA', 'Manafort', 'Foreign Agents', 'Russia', 'Yanukovych', 'Kilimnik'],
  sources: [
- { title: 'Mueller Report Vol. I', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report Vol. I', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Treasury Kilimnik Sanctions', url: 'https://home.treasury.gov/news/press-releases/jy0126', type: 'Government Document' },
  { title: 'Senate Intelligence Report Vol. 5', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government Report' },
  { title: 'Manafort EDVA Conviction', url: 'https://www.courtlistener.com/docket/6183591/united-states-v-manafort/', type: 'Court Records' },

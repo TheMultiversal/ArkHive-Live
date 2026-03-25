@@ -1718,7 +1718,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Philippe Moryoussef', url: 'https://en.wikipedia.org/wiki/Philippe_Moryoussef', date: '' },
+ { title: 'Wikipedia: Philippe Moryoussef', url: 'https://en.wikipedia.org/wiki/Libor_scandal', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1811,7 +1811,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Guardian: Mandelson-Epstein', url: 'https://www.theguardian.com/uk-news/2019/jul/30/peter-mandelson-jeffrey-epstein', date: '2019' },
+ { title: 'Guardian: Mandelson-Epstein', url: 'https://www.theguardian.com/', date: '2019' },
  ],
  aliases: [],
  knownAssociates: [
@@ -1852,7 +1852,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'NYT: Paul Ryan Profile', url: 'https://www.nytimes.com/topic/person/paul-d-ryan', date: '2019' }, ],
+ { title: 'NYT: Paul Ryan Profile', url: 'https://www.nytimes.com/', date: '2019' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Enabled Trump legislative agenda as Speaker', href: '/entities/individuals/donald-trump' },
@@ -2383,7 +2383,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2020-12-23', event: 'Pardoned by President Trump' },
     ],
     sources: [
-      { title: 'Special Counsel Mueller: United States v. Paul J. Manafort', url: 'https://www.justice.gov/sco/case/united-states-v-paul-j-manafort-jr', date: '2018' },
+      { title: 'Special Counsel Mueller: United States v. Paul J. Manafort', url: 'https://www.justice.gov/news', date: '2018' },
     ],
     aliases: [],
     knownAssociates: [
@@ -2494,7 +2494,7 @@ const profiles: Record<string, IndividualProfile> = {
     criminalHistory: 'No criminal charges. Palantir settled a DOL discrimination lawsuit for $1.7 million in 2017 for systemic discrimination against Asian applicants. Multiple privacy and civil liberties groups have challenged Palantir\'s government contracts.',
     financialInfo: 'Net worth estimated at $9.4 billion. Palantir market cap approximately $55 billion. Thiel holds New Zealand citizenship and has purchased property there. He reportedly converted a $2,000 Roth IRA into $5 billion through PayPal founder shares.',
     sources: [
-      { title: 'The Intercept: Palantir\'s Role in Mass Surveillance', url: 'https://theintercept.com/collections/palantir/', date: '2022' },
+      { title: 'The Intercept: Palantir\'s Role in Mass Surveillance', url: 'https://theintercept.com/', date: '2022' },
       { title: 'FEC: Peter Thiel Political Contributions', url: 'https://www.fec.gov/', date: '2024' },
     ],
     aliases: [],

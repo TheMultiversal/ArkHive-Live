@@ -142,7 +142,7 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Washington Post Original Story', url: 'https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html', type: 'News Article' },
  { title: 'Full Video Transcript', url: 'https://www.nytimes.com/2016/10/08/us/donald-trump-tape-transcript.html', type: 'Primary Document' },
- { title: 'Mueller Report on WikiLeaks Timing', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Legal Document' },
+ { title: 'Mueller Report on WikiLeaks Timing', url: 'https://www.justice.gov/archives', type: 'Legal Document' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -2653,7 +2653,7 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'VA: Agent Orange Exposure and Presumptive Conditions', url: 'https://www.va.gov/disability/eligibility/hazardous-materials-exposure/agent-orange/', type: 'Government Record' },
       { title: 'NIH: Agent Orange and Cancer Risk (NCI)', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/substances', type: 'Government Record' },
       { title: 'Congressional Research Service: Agent Orange - Background and Policy', url: 'https://sgp.fas.org/crs/misc/R44268.pdf', type: 'Congressional Record' },
-      { title: 'USAID: Environmental Remediation of Dioxin in Vietnam', url: 'https://web.archive.org/web/20250110002913/https://www.usaid.gov/vietnam/environmental-remediation', type: 'Government Record' },
+      { title: 'USAID: Environmental Remediation of Dioxin in Vietnam', url: 'https://web.archive.org/web/20250110002913/https://www.usaid.gov/', type: 'Government Record' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [

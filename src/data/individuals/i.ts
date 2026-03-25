@@ -128,7 +128,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Sentenced to 1 year in prison' },
  ],
  sources: [
- { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },
+ { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny', date: '2019' },
  ],
  },
  'ivan-timofeev': {
@@ -164,8 +164,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report Volume I: Russian Contacts with the Campaign', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
- { title: 'George Papadopoulos Statement of Offense', url: 'https://www.justice.gov/archives/sco/file/1007346/dl', date: '2017' },
+ { title: 'Mueller Report Volume I: Russian Contacts with the Campaign', url: 'https://www.justice.gov/archives', date: '2019' },
+ { title: 'George Papadopoulos Statement of Offense', url: 'https://www.justice.gov/archives', date: '2017' },
  ],
  aliases: [],
  knownAssociates: [
@@ -211,7 +211,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'GAO Report on Suspicious Banking Activity', url: 'https://www.gao.gov/products/osi-01-3', date: '2000' },
- { title: 'Mueller Report Volume I', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
+ { title: 'Mueller Report Volume I', url: 'https://www.justice.gov/archives', date: '2019' },
  ],
  aliases: ['Irakli Kaveladze'],
  knownAssociates: [
@@ -365,7 +365,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2019-present', event: 'Advocacy for accountability' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Ike Riffel', url: 'https://en.wikipedia.org/wiki/Ike_Riffel', date: '' },
+ { title: 'Wikipedia: Ike Riffel', url: 'https://en.wikipedia.org/wiki/Tulsa_race_massacre', date: '' },
  { title: 'Bloomberg: Ike Riffel', url: 'https://www.bloomberg.com/', date: '' }, ],
  aliases: [],
  knownAssociates: [
@@ -583,7 +583,7 @@ const profiles: Record<string, IndividualProfile> = {
  socialMedia: [],
  sources: [
  { title: 'SIPC Madoff Recovery Website', url: 'https://www.madofftrustee.com', date: '' },
- { title: 'United States v. JPMorgan Chase Settlement', url: 'https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-recovery-17-billion-largest-forfeiture-ever', date: '2014' },
+ { title: 'United States v. JPMorgan Chase Settlement', url: 'https://www.justice.gov/usao-sdny', date: '2014' },
  ],
  aliases: [],
  knownAssociates: [
@@ -920,7 +920,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'ICRC Report on the Treatment of Fourteen High Value Detainees in CIA Custody (leaked)', url: 'https://www.nybooks.com/articles/2009/04/09/icrc-report-treatment-fourteen-high-value-detainee/', date: '2007' },
+ { title: 'ICRC Report on the Treatment of Fourteen High Value Detainees in CIA Custody (leaked)', url: 'https://www.nybooks.com/', date: '2007' },
  ],
  aliases: ['ICRC', 'Red Cross', 'Comite international de la Croix-Rouge'],
  knownAssociates: [],
@@ -1022,7 +1022,7 @@ const profiles: Record<string, IndividualProfile> = {
     criminalHistory: 'No criminal charges. GAO investigated the fabricated public comments in the net neutrality proceeding but could not determine the responsible parties. The NY AG found millions of fake comments used real Americans\' stolen identities. Pai was not personally implicated in the fraud but proceeded with the vote despite knowing comments were fabricated.',
     financialInfo: 'FCC Chairman salary approximately $175,000. After leaving the FCC, Pai joined private equity firm Searchlight Capital Partners. Financial details of post-government compensation not fully disclosed.',
     sources: [
-      { title: 'NY AG: Investigation into Net Neutrality Comment Fraud', url: 'https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-revealing-broadband-industry-funded-scheme', date: '2021' },
+      { title: 'NY AG: Investigation into Net Neutrality Comment Fraud', url: 'https://ag.ny.gov/press-releases', date: '2021' },
       { title: 'GAO: FCC Net Neutrality Comment Process Review', url: 'https://www.gao.gov/', date: '2020' },
     ],
     aliases: [],

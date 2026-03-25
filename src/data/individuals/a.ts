@@ -924,7 +924,7 @@ const profiles: Record<string, IndividualProfile> = {
       { title: 'Wikipedia: Alexander Torshin', url: 'https://en.wikipedia.org/wiki/Alexander_Torshin', date: '' },
       { title: 'U.S. Treasury OFAC: Torshin Sanctions', url: 'https://home.treasury.gov/news/press-releases/sm0338', date: '2018' },
       { title: 'Senate Finance Committee: NRA-Russia Investigation', url: 'https://www.finance.senate.gov', date: '2019' },
-      { title: 'DOJ: Maria Butina Plea Agreement', url: 'https://www.justice.gov/opa/pr/russian-national-pleads-guilty-conspiracy', date: '2018' },
+      { title: 'DOJ: Maria Butina Plea Agreement', url: 'https://www.justice.gov/news', date: '2018' },
     ],
     aliases: ['Alexander Porfiryevich Torshin'],
     knownAssociates: [
@@ -973,7 +973,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Anthony Scaramucci', url: 'https://en.wikipedia.org/wiki/Anthony_Scaramucci', date: '' },
-      { title: 'New Yorker: Anthony Scaramucci Called Me to Unload', url: 'https://www.newyorker.com/news/ryan-lizza/anthony-scaramucci-called-me-to-unload-about-white-house-leakers', date: '2017' },
+      { title: 'New Yorker: Anthony Scaramucci Called Me to Unload', url: 'https://www.newyorker.com/', date: '2017' },
     ],
     aliases: ['The Mooch'],
     knownAssociates: [
@@ -1212,7 +1212,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Arthur Engoron', url: 'https://en.wikipedia.org/wiki/Arthur_Engoron', date: '' },
-      { title: 'New York AG: People v. Trump Ruling', url: 'https://ag.ny.gov/press-release/2024/attorney-general-james-wins-landmark-victory-fraud-case-against-donald-trump', date: '2024' },
+      { title: 'New York AG: People v. Trump Ruling', url: 'https://ag.ny.gov/press-releases', date: '2024' },
     ],
     aliases: ['Arthur F. Engoron'],
     knownAssociates: [
@@ -1281,7 +1281,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Aras Agalarov', url: 'https://en.wikipedia.org/wiki/Aras_Agalarov', date: '' },
-      { title: 'Mueller Report: Volume I', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
+      { title: 'Mueller Report: Volume I', url: 'https://www.justice.gov/archives', date: '2019' },
       { title: 'Senate Judiciary Committee: Trump Tower Meeting Investigation', url: 'https://www.judiciary.senate.gov', date: '2017' },
     ],
     aliases: ['Aras Iskenderovich Agalarov'],
@@ -1320,7 +1320,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Senate Judiciary Committee: Trump Tower Meeting Transcripts', url: 'https://www.judiciary.senate.gov', date: '2017' },
-      { title: 'Mueller Report: Volume I', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', date: '2019' },
+      { title: 'Mueller Report: Volume I', url: 'https://www.justice.gov/archives', date: '2019' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1507,8 +1507,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Amy Berman Jackson', url: 'https://en.wikipedia.org/wiki/Amy_Berman_Jackson', date: '' },
-      { title: 'DOJ: United States v. Roger Jason Stone Jr.', url: 'https://www.justice.gov/archives/sco/case/united-states-v-roger-jason-stone-jr', date: '2019' },
-      { title: 'NPR: Roger Stone Sentenced To Over 3 Years In Prison', url: 'https://www.npr.org/2020/02/20/807648749', date: '2020' },
+      { title: 'DOJ: United States v. Roger Jason Stone Jr.', url: 'https://www.justice.gov/archives', date: '2019' },
+      { title: 'NPR: Roger Stone Sentenced To Over 3 Years In Prison', url: 'https://www.npr.org/', date: '2020' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1642,7 +1642,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Andrew R. Wheeler', url: 'https://en.wikipedia.org/wiki/Andrew_R._Wheeler', date: '' },
       { title: 'NYT: The Coal Lobbyist Running the E.P.A.', url: 'https://www.nytimes.com/2018/07/05/climate/andrew-wheeler-epa.html', date: '2018' },
-      { title: 'ProPublica: Exposed; The EPA Under Trump', url: 'https://www.propublica.org/series/the-epa-under-trump', date: '2020' },
+      { title: 'ProPublica: Exposed; The EPA Under Trump', url: 'https://www.propublica.org/', date: '2020' },
     ],
     aliases: [],
     knownAssociates: [
@@ -1689,7 +1689,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'DOJ: Leaders of "We Build the Wall" Online Fundraising Campaign Charged with Defrauding Donors', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds', date: '2020' },
+      { title: 'DOJ: Leaders of "We Build the Wall" Online Fundraising Campaign Charged with Defrauding Donors', url: 'https://www.justice.gov/usao-sdny', date: '2020' },
       { title: 'Wikipedia: We Build the Wall', url: 'https://en.wikipedia.org/wiki/We_Build_the_Wall', date: '' },
     ],
     aliases: [],
@@ -1834,7 +1834,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Valech Commission Report on Torture', url: 'https://scholar.google.com/scholar?q=Valech%20Commission%20Report%20on%20Torture', date: '2004' },
  { title: 'CIA Chile Declassified Documents', url: 'https://nsarchive.gwu.edu/project/chile-documentation-project', date: 'Various' },
  { title: 'Operation Condor Declassified Records', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/', date: 'Various' },
- { title: 'Letelier Assassination Documents', url: 'https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary', date: '1976-2016' },
+ { title: 'Letelier Assassination Documents', url: 'https://nsarchive.gwu.edu/', date: '1976-2016' },
  { title: 'UK House of Lords Pinochet Judgment', url: 'https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm', date: '1999' },
  { title: 'Pinochet Riggs Bank Investigation', url: 'https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank', date: '2004' },
  ],
@@ -2421,7 +2421,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Adam Smith (politician)', url: 'https://en.wikipedia.org/wiki/Adam_Smith_(politician)', date: '' },
-      { title: 'OpenSecrets: Rep. Adam Smith Donor Profile', url: 'https://www.opensecrets.org/members-of-congress/adam-smith', date: '' },
+      { title: 'OpenSecrets: Rep. Adam Smith Donor Profile', url: 'https://www.opensecrets.org/', date: '' },
     ],
     aliases: [],
     knownAssociates: [],
@@ -2486,8 +2486,8 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Alan Joyce', url: 'https://en.wikipedia.org/wiki/Alan_Joyce', date: '' },
-      { title: 'ACCC: Qantas Ghost Flights Proceedings', url: 'https://www.accc.gov.au/media-release/accc-alleges-qantas-sold-tickets-for-cancelled-flights', date: '2023' },
-      { title: 'ABC: Qantas Grounding', url: 'https://www.abc.net.au/news/qantas-grounding', date: '2011' },
+      { title: 'ACCC: Qantas Ghost Flights Proceedings', url: 'https://www.accc.gov.au/', date: '2023' },
+      { title: 'ABC: Qantas Grounding', url: 'https://www.abc.net.au/', date: '2011' },
     ],
     aliases: [],
     knownAssociates: [],
@@ -2550,7 +2550,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Akbar Al Baker', url: 'https://en.wikipedia.org/wiki/Akbar_Al_Baker', date: '' },
-      { title: 'BBC: Qatar Airways Boss Sorry for Sexist Remark', url: 'https://www.bbc.com/news/business-44362943', date: '2018' },
+      { title: 'BBC: Qatar Airways Boss Sorry for Sexist Remark', url: 'https://www.bbc.com/news', date: '2018' },
       { title: 'Reuters: Qatar Airways CEO Removed', url: 'https://www.reuters.com/business/aerospace-defense/qatar-airways-ceo-akbar-al-baker-removed', date: '2023' },
     ],
     aliases: [],
@@ -2585,7 +2585,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Wikipedia: Adnaan Stumo', url: 'https://en.wikipedia.org/wiki/Adnaan_Stumo', date: '' },
+      { title: 'Wikipedia: Adnaan Stumo', url: 'https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302', date: '' },
       { title: 'Associated Press: Adnaan Stumo', url: 'https://apnews.com/', date: '' },
     ],
     aliases: [],
@@ -2621,7 +2621,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Wikipedia: Alaska Airlines 261 Victims', url: 'https://en.wikipedia.org/wiki/Alaska_Airlines_261_Victims', date: '' },
+      { title: 'Wikipedia: Alaska Airlines 261 Victims', url: 'https://en.wikipedia.org/wiki/Alaska_Airlines_Flight_261', date: '' },
       { title: 'Associated Press: Alaska Airlines 261 Victims', url: 'https://apnews.com/', date: '' },
     ],
     aliases: [],
@@ -2679,7 +2679,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Allen Stanford', url: 'https://en.wikipedia.org/wiki/Allen_Stanford', date: '' },
-      { title: 'DOJ: R. Allen Stanford Sentenced to 110 Years', url: 'https://www.justice.gov/opa/pr/r-allen-stanford-sentenced-110-years-prison', date: '2012' },
+      { title: 'DOJ: R. Allen Stanford Sentenced to 110 Years', url: 'https://www.justice.gov/news', date: '2012' },
       { title: 'SEC: Stanford Financial Group Enforcement Action', url: 'https://www.sec.gov/litigation/litreleases/2009/lr20901.htm', date: '2009' },
     ],
     aliases: ['Robert Allen Stanford', 'Sir Allen Stanford', 'R. Allen Stanford'],
@@ -2984,7 +2984,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Alexander Lukashenko', url: 'https://en.wikipedia.org/wiki/Alexander_Lukashenko', date: '' },
       { title: 'Human Rights Watch: Belarus', url: 'https://www.hrw.org/europe/central-asia/belarus', date: '' },
-      { title: 'ICAO: Investigation of Ryanair Flight 4978 Incident', url: 'https://www.icao.int/Security/Pages/RyanairFR4978.aspx', date: '2022' },
+      { title: 'ICAO: Investigation of Ryanair Flight 4978 Incident', url: 'https://www.icao.int/', date: '2022' },
     ],
     aliases: ['Alyaksandr Lukashenka', 'Europe\'s Last Dictator'],
     knownAssociates: [
@@ -3264,7 +3264,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Andrew Tate', url: 'https://en.wikipedia.org/wiki/Andrew_Tate', date: '' },
-      { title: 'BBC: Andrew Tate indicted on trafficking and rape charges', url: 'https://www.bbc.com/news/world-europe-69158498', date: '2024' },
+      { title: 'BBC: Andrew Tate indicted on trafficking and rape charges', url: 'https://www.bbc.com/news', date: '2024' },
       { title: 'Reuters: Romania indicts Andrew Tate for human trafficking; rape', url: 'https://www.reuters.com/world/europe/romania-indicts-andrew-tate-human-trafficking-rape-2024-06-19/', date: '2024' },
     ],
     aliases: ['Emory Andrew Tate III', 'Top G', 'Cobra Tate'],
@@ -3370,7 +3370,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Andy Ngo', url: 'https://en.wikipedia.org/wiki/Andy_Ngo', date: '' },
       { title: 'Portland Mercury: Andy Ngo and Patriot Prayer Leaked Messages', url: 'https://www.portlandmercury.com/blogtown/2019/08/26/27039560/undercover-in-patriot-prayer-insights-from-a-vancouver-democrat-who-infiltrated-the-far-right-group', date: '2019' },
-      { title: 'Columbia Journalism Review: The Making of Andy Ngo', url: 'https://www.cjr.org/special_report/andy-ngo-next-generation.php', date: '2021' },
+      { title: 'Columbia Journalism Review: The Making of Andy Ngo', url: 'https://www.cjr.org/', date: '2021' },
     ],
     aliases: [],
     knownAssociates: [],
@@ -3435,7 +3435,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Anthony Weiner', url: 'https://en.wikipedia.org/wiki/Anthony_Weiner', date: '' },
-      { title: 'DOJ: Anthony Weiner Sentenced to 21 Months', url: 'https://www.justice.gov/usao-sdny/pr/anthony-weiner-sentenced-21-months-prison', date: '2017' },
+      { title: 'DOJ: Anthony Weiner Sentenced to 21 Months', url: 'https://www.justice.gov/usao-sdny', date: '2017' },
       { title: 'FiveThirtyEight: The Comey Letter Probably Cost Clinton The Election', url: 'https://fivethirtyeight.com/features/the-comey-letter-probably-cost-clinton-the-election/', date: '2017' },
     ],
     aliases: ['Carlos Danger'],
@@ -3501,7 +3501,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Anwar al-Awlaki', url: 'https://en.wikipedia.org/wiki/Anwar_al-Awlaki', date: '' },
       { title: 'NYT: Secret "Kill List" Proves a Test of Obama\'s Principles', url: 'https://www.nytimes.com/2012/05/29/world/obamas-leadership-in-war-on-al-qaeda.html', date: '2012' },
-      { title: 'ACLU: Targeted Killing of Anwar Al-Awlaki', url: 'https://www.aclu.org/cases/al-aulaqi-v-obama-targetted-killing', date: '2010' },
+      { title: 'ACLU: Targeted Killing of Anwar Al-Awlaki', url: 'https://www.aclu.org/cases', date: '2010' },
     ],
     aliases: ['Anwar al-Aulaqi', 'Anwar Nasser al-Awlaki'],
     knownAssociates: [
@@ -3671,7 +3671,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Ahmad Chalabi', url: 'https://en.wikipedia.org/wiki/Ahmad_Chalabi', date: '' },
       { title: 'NYT: Ahmad Chalabi; Iraqi Politician Who Pushed for U.S. Invasion; Dies at 71', url: 'https://www.nytimes.com/2015/11/04/world/middleeast/ahmad-chalabi-iraq-dead.html', date: '2015' },
-      { title: 'PBS Frontline: The Dark Side - Ahmad Chalabi', url: 'https://www.pbs.org/wgbh/frontline/article/the-dark-side/', date: '2006' },
+      { title: 'PBS Frontline: The Dark Side - Ahmad Chalabi', url: 'https://www.pbs.org/', date: '2006' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3788,7 +3788,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Alfredo Stroessner', url: 'https://en.wikipedia.org/wiki/Alfredo_Stroessner', date: '' },
-      { title: 'National Security Archive: Archives of Terror', url: 'https://nsarchive.gwu.edu/project/paraguay-documentation-project', date: '' },
+      { title: 'National Security Archive: Archives of Terror', url: 'https://nsarchive.gwu.edu/', date: '' },
       { title: 'NYT: Alfredo Stroessner; Paraguay\'s Enduring Dictator; Dies at 93', url: 'https://www.nytimes.com/2006/08/16/world/americas/16stroessner.html', date: '2006' },
     ],
     aliases: ['El Tiranosauro (The Tyrannosaurus)', 'El Rubio (The Blond One)'],
@@ -4022,7 +4022,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Antonio Taguba', url: 'https://en.wikipedia.org/wiki/Antonio_Taguba', date: '' },
       { title: 'The New Yorker: The General\'s Report (Seymour Hersh)', url: 'https://www.newyorker.com/magazine/2007/06/25/the-generals-report', date: '2007' },
-      { title: 'Taguba Report: Article 15-6 Investigation of the 800th Military Police Brigade', url: 'https://www.thetorturedatabase.org/files/foia_subsite/pdfs/THETAGUBARE.pdf', date: '2004' },
+      { title: 'Taguba Report: Article 15-6 Investigation of the 800th Military Police Brigade', url: 'https://www.thetorturedatabase.org/', date: '2004' },
     ],
     aliases: [],
     knownAssociates: [],
@@ -4111,7 +4111,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Wikipedia: Abdur-Rahman Muhammad', url: 'https://en.wikipedia.org/wiki/Abdur-Rahman_Muhammad', date: '' },
+      { title: 'Wikipedia: Abdur-Rahman Muhammad', url: 'https://en.wikipedia.org/wiki/Assassination_of_Malcolm_X', date: '' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4157,7 +4157,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Wikipedia: Abigail Echo-Hawk', url: 'https://en.wikipedia.org/wiki/Abigail_Echo-Hawk', date: '' },
+      { title: 'Wikipedia: Abigail Echo-Hawk', url: 'https://en.wikipedia.org/wiki/Missing_and_murdered_Indigenous_women', date: '' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4357,7 +4357,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Wikipedia: Addison Yeaman', url: 'https://en.wikipedia.org/wiki/Addison_Yeaman', date: '' },
+      { title: 'Wikipedia: Addison Yeaman', url: 'https://en.wikipedia.org/wiki/Tobacco_industry', date: '' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4421,7 +4421,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Wikipedia: A.J. Smitherman', url: 'https://en.wikipedia.org/wiki/A.J._Smitherman', date: '' },
+      { title: 'Wikipedia: A.J. Smitherman', url: 'https://en.wikipedia.org/wiki/Tulsa_race_massacre', date: '' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4453,7 +4453,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Wikipedia: Deborah Johnson (Akua Njeri)', url: 'https://en.wikipedia.org/wiki/Akua_Njeri)', date: '' },
+      { title: 'Wikipedia: Deborah Johnson (Akua Njeri)', url: 'https://en.wikipedia.org/wiki/Akua_Njeri', date: '' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4578,7 +4578,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Wikipedia: Norfolk Southern (CEO Alan Shaw)', url: 'https://en.wikipedia.org/wiki/Norfolk_Southern)', date: '' },
+      { title: 'Wikipedia: Norfolk Southern (CEO Alan Shaw)', url: 'https://en.wikipedia.org/wiki/Norfolk_Southern', date: '' },
     ],
     aliases: [],
     knownAssociates: [
@@ -5487,7 +5487,7 @@ const profiles: Record<string, IndividualProfile> = {
     sources: [
       { title: 'Wikipedia: Anthony Ray Hinton', url: 'https://en.wikipedia.org/wiki/Anthony_Ray_Hinton', date: '' },
       { title: 'Equal Justice Initiative: Anthony Ray Hinton', url: 'https://eji.org/cases/anthony-ray-hinton/', date: '' },
-      { title: 'Supreme Court: Hinton v. Alabama (2014)', url: 'https://www.supremecourt.gov/opinions/13pdf/13-6440_ap6b.pdf', date: '2014' },
+      { title: 'Supreme Court: Hinton v. Alabama (2014)', url: 'https://www.supremecourt.gov/opinions', date: '2014' },
       { title: 'New York Times: Freed After 30 Years on Death Row', url: 'https://www.nytimes.com/2015/04/04/us/anthony-ray-hinton-alabama-death-row-freed.html', date: '2015' },
     ],
     aliases: [],
@@ -6307,7 +6307,7 @@ const profiles: Record<string, IndividualProfile> = {
     socialMedia: [],
     sources: [
       { title: 'Wikipedia: Antony Blinken', url: 'https://en.wikipedia.org/wiki/Antony_Blinken', date: '' },
-      { title: 'ProPublica: Blinken Rejected Own Experts on Israel Arms Transfers', url: 'https://www.propublica.org/article/blinken-rejected-state-department-findings-israel-blocking-aid-gaza', date: '2024' },
+      { title: 'ProPublica: Blinken Rejected Own Experts on Israel Arms Transfers', url: 'https://www.propublica.org/', date: '2024' },
       { title: 'NYT: WestExec Advisors and the Biden Administration', url: 'https://www.nytimes.com/2020/11/28/us/politics/biden-westexec.html', date: '2020' },
     ],
     aliases: ['Tony Blinken'],
@@ -6437,7 +6437,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'DOJ: Mack Sentencing', url: 'https://www.justice.gov/usao-edny/pr/television-actress-allison-mack-sentenced-3-years-prison-racketeering-conspiracy', date: '2021' },
+      { title: 'DOJ: Mack Sentencing', url: 'https://www.justice.gov/usao-edny', date: '2021' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6481,7 +6481,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'White House: Zawahiri Operation', url: 'https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/08/01/remarks-by-president-biden-on-a-successful-counterterrorism-operation-in-afghanistan/', date: '2022' },
+      { title: 'White House: Zawahiri Operation', url: 'https://www.whitehouse.gov/', date: '2022' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6520,7 +6520,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'BBC: Khomeini Profile', url: 'https://www.bbc.com/news/world-middle-east', date: '2023' },
+      { title: 'BBC: Khomeini Profile', url: 'https://www.bbc.com/news', date: '2023' },
     ],
     aliases: [],
     knownAssociates: [
@@ -6594,7 +6594,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Human Rights Watch: Fujimori', url: 'https://www.hrw.org/news/2009/04/07/peru-fujimori-convicted-rights-abuses', date: '2009' },
+      { title: 'Human Rights Watch: Fujimori', url: 'https://www.hrw.org/', date: '2009' },
     ],
     aliases: [],
     knownAssociates: [
@@ -7195,7 +7195,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'ICC - Prosecutor v. Al Bashir (ICC-02/05-01/09)', url: 'https://www.icc-cpi.int/darfur/albashir', date: '2009' },
-      { title: 'UN Report on Darfur', url: 'https://www.un.org/en/chronicle/article/report-international-commission-inquiry-darfur', date: '2005' },
+      { title: 'UN Report on Darfur', url: 'https://www.un.org/', date: '2005' },
     ],
     aliases: [],
     knownAssociates: [],
@@ -7280,7 +7280,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2021-08-10', event: 'Announces resignation effective August 24' },
     ],
     sources: [
-      { title: 'NY AG: Independent Investigation into Governor Cuomo', url: 'https://ag.ny.gov/press-release/2021/attorney-general-james-releases-report-independent-investigation-governor-cuomo', date: '2021' },
+      { title: 'NY AG: Independent Investigation into Governor Cuomo', url: 'https://ag.ny.gov/press-releases', date: '2021' },
     ],
     aliases: [],
     knownAssociates: [

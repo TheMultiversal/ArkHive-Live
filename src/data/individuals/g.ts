@@ -96,9 +96,9 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'United States v. Maxwell Federal Indictment', url: 'https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/', date: '2020' },
  { title: 'Maxwell Trial Transcripts', url: 'https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/', date: '2021' },
  { title: 'Giuffre v. Maxwell Lawsuit Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', date: '2015-2025' },
- { title: 'SDNY Sentencing Memorandum', url: 'https://www.justice.gov/usao-sdny/press-release/file/1515231/download', date: '2022' },
+ { title: 'SDNY Sentencing Memorandum', url: 'https://www.justice.gov/usao-sdny', date: '2022' },
  { title: 'Victim Impact Statements', url: 'https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/', date: '2022' },
- { title: 'FBI Arrest Affidavit', url: 'https://www.justice.gov/usao-sdny/press-release/file/1291481/download', date: '2020' },
+ { title: 'FBI Arrest Affidavit', url: 'https://www.justice.gov/usao-sdny', date: '2020' },
  ],
  aliases: ['The Madam', 'Epstein\'s Procurer', 'G-Max'],
  knownAssociates: [
@@ -211,7 +211,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf', date: '2019' },
+ { title: 'House Impeachment Testimony', url: 'https://www.congress.gov/', date: '2019' },
  ],
  aliases: ['Three Amigos'],
  knownAssociates: [
@@ -267,7 +267,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  { title: 'Papadopoulos Plea Agreement', url: 'https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/', date: '2017' }, ],
  aliases: ['Coffee Boy (Trump dismissal)'],
  knownAssociates: [
@@ -731,8 +731,8 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', date: '2019' },
- { title: 'DOJ Press Release: Nader Sentencing', url: 'https://www.justice.gov/usao-edva/pr/businessman-sentenced-ten-years-child-sex-trafficking-and-transporting-child-pornography', date: '2020' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
+ { title: 'DOJ Press Release: Nader Sentencing', url: 'https://www.justice.gov/usao-edva', date: '2020' },
  { title: 'EDVA Criminal Case Documents', url: 'https://www.courtlistener.com/docket/15455937/united-states-v-nader/', date: '2019-2020' },
  { title: 'Senate Intelligence Committee Report', url: 'https://www.intelligence.senate.gov/', date: '2020' },
  { title: 'New York Times: Nader UAE Role', url: 'https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html', date: '2018' },
@@ -1452,7 +1452,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'March 2021', event: 'Arrested' },
  { date: 'July 2022', event: 'Pleads guilty' },
  ],
- sources: [{ title: 'Wikipedia: George Tanios', url: 'https://en.wikipedia.org/wiki/George_Tanios' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
+ sources: [{ title: 'Wikipedia: George Tanios', url: 'https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack' }, { title: 'DOJ Press Release', url: 'https://www.justice.gov/news' }, { title: 'ACLU Case Profile', url: 'https://www.aclu.org/' }],
  },
  'greg-gutfeld': {
  name: 'Greg Gutfeld',
@@ -1630,7 +1630,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Researcher who published peer-reviewed analysis proving Exxon' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Geoffrey Supran', url: 'https://en.wikipedia.org/wiki/Geoffrey_Supran', date: '' }, ],
+ { title: 'Wikipedia: Geoffrey Supran', url: 'https://en.wikipedia.org/wiki/ExxonMobil_climate_change_controversy', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Naomi Oreskes', relationship: 'Co-researcher documenting fossil fuel industry climate disinformation', href: '/entities/individuals/naomi-oreskes' },
@@ -1923,7 +1923,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as DuPont toxicologist who found evidence of C8 causing birth defects in rats; findings were buried' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Gerald Kennedy', url: 'https://en.wikipedia.org/wiki/Gerald_Kennedy', date: '' }, ],
+ { title: 'Wikipedia: Gerald Kennedy', url: 'https://en.wikipedia.org/wiki/COINTELPRO', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Robert Houghton', relationship: 'LAPD investigation connected to RFK assassination', href: '/entities/individuals/robert-houghton' },
@@ -2061,7 +2061,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in role as Head of SISMI (Italian military intelligence), P2 member' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Giuseppe Santovito', url: 'https://en.wikipedia.org/wiki/Giuseppe_Santovito', date: '' }, ],
+ { title: 'Wikipedia: Giuseppe Santovito', url: 'https://en.wikipedia.org/wiki/Propaganda_Due', date: '' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Licio Gelli', relationship: 'P2 Lodge member and Italian intelligence chief', href: '/entities/individuals/licio-gelli' },
@@ -2850,7 +2850,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2024-08-19', event: 'Pleads guilty to wire fraud and aggravated identity theft' },
     ],
     sources: [
-      { title: 'DOJ: United States v. George Santos', url: 'https://www.justice.gov/usao-edny/us-v-george-santos', date: '2024' },
+      { title: 'DOJ: United States v. George Santos', url: 'https://www.justice.gov/news', date: '2024' },
       { title: 'House Ethics Committee: Report on Santos', url: 'https://ethics.house.gov/', date: '2023' },
     ],
     aliases: ['Anthony Devolder', 'Kitara Ravache (drag queen name in Brazil)'],
@@ -2920,7 +2920,7 @@ const profiles: Record<string, IndividualProfile> = {
     financialInfo: 'Career CIA officer. Financial details largely classified. Net worth estimated at $2-4 million based on senior government service pay scales.',
     sources: [
       { title: 'Senate Intelligence Committee: SSCI Torture Report (Executive Summary)', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', date: '2014' },
-      { title: 'ProPublica: What Gina Haspel Did at the CIA Black Site', url: 'https://www.propublica.org/article/cia-black-site-gina-haspel', date: '2018' },
+      { title: 'ProPublica: What Gina Haspel Did at the CIA Black Site', url: 'https://www.propublica.org/', date: '2018' },
     ],
     aliases: [],
     knownAssociates: [

@@ -184,7 +184,7 @@ const investigations_g: Record<string, InvestigationData> = {
  tags: ['Sex Trafficking', 'Epstein', 'Human Trafficking', 'International', 'Abuse of Power'],
  sources: [
  { title: 'Miami Herald, Perversion of Justice', url: 'https://www.miamiherald.com/news/local/article220097825.html', type: 'Investigation' },
- { title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison-conspiring-jeffrey-epstein-sexually-abuse', type: 'Court Records' },
+ { title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny-conspiring-jeffrey-epstein-sexually-abuse', type: 'Court Records' },
    { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
  affiliations: [
@@ -371,7 +371,7 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Document' },
  { title: 'January 6 Committee Report, Green Bay Sweep', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
- { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/archives/sco/case-document/file/1617866/dl', type: 'Court Filing' },
+ { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/archives/case-document/file/1617866/dl', type: 'Court Filing' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [

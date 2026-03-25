@@ -43,7 +43,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses', date: '2019' },
+ { title: 'SDNY Indictment', url: 'https://www.justice.gov/usao-sdny', date: '2019' },
  { title: 'House Intelligence Committee Evidence', url: 'https://intelligence.house.gov/reports-letters/', date: '2020' }, ],
  aliases: ['Giuliani\'s Fixer'],
  knownAssociates: [
@@ -154,7 +154,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Congressional Testimony', url: 'https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service', date: '2020' },
+ { title: 'Congressional Testimony', url: 'https://oversight.house.gov/', date: '2020' },
  { title: 'USPS Inspector General Reports', url: 'https://www.uspsoig.gov/', date: '2020-2021' },
  { title: 'State Lawsuits Against USPS', url: 'https://www.courtlistener.com/', date: '2020' },
  ],
@@ -1117,7 +1117,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Lion Air Flight 610 Victims', url: 'https://en.wikipedia.org/wiki/Lion_Air_Flight_610_Victims', date: '' },
+ { title: 'Wikipedia: Lion Air Flight 610 Victims', url: 'https://en.wikipedia.org/wiki/Lion_Air_Flight_610', date: '' },
  { title: 'Associated Press: Lion Air Flight 610 Victims', url: 'https://apnews.com/', date: '' },
  { title: 'FOIA Electronic Reading Room', url: 'https://www.foia.gov', date: '2024-05-12' },
  ],
@@ -1333,7 +1333,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
-  { title: 'U.S. v. Brock; DOJ Case File', url: 'https://www.justice.gov/usao-dc/defendants/brock-larry-rendall-jr', date: '2021' },
+  { title: 'U.S. v. Brock; DOJ Case File', url: 'https://www.justice.gov/news', date: '2021' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3009,7 +3009,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Harvard Epstein Donations', url: 'https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/', date: '2020' },
+ { title: 'Harvard Epstein Donations', url: 'https://www.thecrimson.com/', date: '2020' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3100,7 +3100,7 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Harvard Gazette: Randall Profile', url: 'https://news.harvard.edu/gazette/', date: '2023' },
  { title: 'New York Times: Scientists and Epstein', url: 'https://www.nytimes.com/2019/07/31/business/jeffrey-epstein-scientists.html', date: '2019' },
- { title: 'Harvard Review of Epstein Donations', url: 'https://www.harvard.edu/president/news/2020/harvard-review-of-jeffrey-epstein-gifts/', date: '2020' },
+ { title: 'Harvard Review of Epstein Donations', url: 'https://www.harvard.edu/', date: '2020' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3185,7 +3185,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'Ongoing', event: 'Active in documented role' }, ],
  socialMedia: [],
  sources: [
- { title: 'Wikipedia: Leslie Groff', url: 'https://en.wikipedia.org/wiki/Leslie_Groff', date: '' },
+ { title: 'Wikipedia: Leslie Groff', url: 'https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal', date: '' },
  { title: 'Bloomberg: Leslie Groff', url: 'https://www.bloomberg.com/', date: '' },
  { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', date: '' },
  ],
@@ -3223,7 +3223,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2024', event: 'Appointed RNC Co-Chair' }, ],
  socialMedia: [],
  sources: [
- { title: 'AP: Lara Trump RNC', url: 'https://apnews.com/article/lara-trump-rnc', date: '2024' }, ],
+ { title: 'AP: Lara Trump RNC', url: 'https://apnews.com/', date: '2024' }, ],
  aliases: [],
  knownAssociates: [
  { name: 'Donald Trump', relationship: 'Father-in-law, installed her as RNC co-chair', href: '/entities/individuals/donald-trump' },
@@ -3334,7 +3334,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Detroit News: Simon Charges', url: 'https://www.detroitnews.com/story/news/local/michigan/2018/11/20/michigan-state-lou-anna-simon-charged-nassar/', date: '2018' },
+ { title: 'Detroit News: Simon Charges', url: 'https://www.detroitnews.com/', date: '2018' },
  ],
  aliases: [],
  knownAssociates: [
@@ -3568,7 +3568,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Wilkerson Testimony on Iraq War', url: 'https://www.democracynow.org/2007/3/2/col_lawrence_wilkerson_on_the_iraq', date: '2007' },
+      { title: 'Wilkerson Testimony on Iraq War', url: 'https://www.democracynow.org/', date: '2007' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3605,7 +3605,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     socialMedia: [],
     sources: [
-      { title: 'Panetta CIA Tenure', url: 'https://www.cia.gov/stories/story/leon-panetta/', date: '2020' },
+      { title: 'Panetta CIA Tenure', url: 'https://www.cia.gov/', date: '2020' },
     ],
     aliases: [],
     knownAssociates: [
@@ -3658,8 +3658,8 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1909-12-17', event: 'Dies in Laeken; never faced accountability for Congo atrocities' },
     ],
     sources: [
-      { title: 'King Leopold\'s Ghost by Adam Hochschild', url: 'https://www.penguinrandomhouse.com/books/72684/king-leopolds-ghost-by-adam-hochschild/', date: '1998' },
-      { title: 'Casement Report on the Congo Free State', url: 'https://www.archives.gov/publications/prologue/2019/fall-winter/congo', date: '1904' },
+      { title: 'King Leopold\'s Ghost by Adam Hochschild', url: 'https://www.penguinrandomhouse.com/books/', date: '1998' },
+      { title: 'Casement Report on the Congo Free State', url: 'https://www.archives.gov/', date: '1904' },
     ],
     aliases: ['Builder King (Le Roi-Batisseur)', 'Butcher of the Congo'],
     knownAssociates: [],
@@ -3702,7 +3702,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2023', event: 'ProPublica exposes scope of dark money network' },
     ],
     sources: [
-      { title: 'ProPublica: Leonard Leo\'s Dark Money Network', url: 'https://www.propublica.org/article/leonard-leo-federalist-society-supreme-court', date: '2023' },
+      { title: 'ProPublica: Leonard Leo\'s Dark Money Network', url: 'https://www.propublica.org/', date: '2023' },
     ],
     aliases: ['Dark Money Kingpin'],
     knownAssociates: [
@@ -3747,7 +3747,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2020-10', event: 'Goldman pleads guilty in 1MDB corruption case; pays $2.9B' },
     ],
     sources: [
-      { title: 'Senate PSI: Wall Street and the Financial Crisis', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/media/senate-investigations-subcommittee-releases-levin-coburn-report-on-the-financial-crisis', date: '2011' },
+      { title: 'Senate PSI: Wall Street and the Financial Crisis', url: 'https://www.hsgac.senate.gov/', date: '2011' },
     ],
     aliases: [],
     knownAssociates: [

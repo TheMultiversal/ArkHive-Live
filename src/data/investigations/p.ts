@@ -215,7 +215,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'Brookings Presidential Misconduct Report', url: 'https://www.brookings.edu/research/tracking-turnover-in-the-trump-administration/', type: 'Research' },
  { title: 'CREW Trump Ethics Violations', url: 'https://www.citizensforethics.org/reports-investigations/crew-reports/president-trump-legacy-corruption/', type: 'Investigation' },
  { title: 'Presidential Pardons Analysis', url: 'https://www.pogo.org/analysis/2021/01/a-pardon-for-corruption/', type: 'Analysis' },
- { title: 'Mueller Report', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report', url: 'https://www.justice.gov/archives', type: 'Government Report' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -309,7 +309,7 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Proud Boys', 'January 6', 'Seditious Conspiracy', 'Enrique Tarrio', 'Domestic Terrorism', 'Political Violence'],
  sources: [
- { title: 'DOJ Proud Boys Seditious Conspiracy Verdict', url: 'https://www.justice.gov/usao-dc/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach', type: 'Press Release' },
+ { title: 'DOJ Proud Boys Seditious Conspiracy Verdict', url: 'https://www.justice.gov/usao-dc', type: 'Press Release' },
  { title: 'Proud Boys Profile, SPLC', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/proud-boys', type: 'Organization Profile' },
  { title: 'January 6 Committee Proud Boys Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Trial Evidence, Court Documents', url: 'https://www.courtlistener.com/docket/60038297/united-states-v-nordean/', type: 'Court Filing' },
@@ -1194,7 +1194,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Gilens & Page: Testing Theories of American Politics', url: 'https://scholar.princeton.edu/sites/default/files/mgilens/files/gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf', type: 'Research Study' },
  { title: 'OpenSecrets: Lobbying Database', url: 'https://www.opensecrets.org/federal-lobbying', type: 'Data' },
- { title: 'Citizens United v. FEC', url: 'https://web.archive.org/web/20250101014917/https://www.supremecourt.gov/opinions/09pdf/08-205.pdf', type: 'Court Ruling' },
+ { title: 'Citizens United v. FEC', url: 'https://web.archive.org/web/20250101014917/https://www.supremecourt.gov/opinions', type: 'Court Ruling' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -1277,7 +1277,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ: George Santos Indictment', url: 'https://www.justice.gov/usao-edny/pr/congressman-george-santos-charged-fraud-money-laundering-and-theft-public-funds', type: 'Court Filing' },
  { title: 'House Ethics Committee Santos Report', url: 'https://ethics.house.gov/press-releases', type: 'Congressional Record' },
- { title: 'DOJ: We Build the Wall Fraud Charges', url: 'https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands', type: 'Court Filing' },
+ { title: 'DOJ: We Build the Wall Fraud Charges', url: 'https://www.justice.gov/usao-sdny', type: 'Court Filing' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [

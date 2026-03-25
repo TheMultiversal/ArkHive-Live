@@ -78,7 +78,7 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Barr Letter March 24, 2019', url: 'https://www.justice.gov/ag/page/file/1147981/download', type: 'Government Document' },
  { title: 'Mueller Letter to Barr', url: 'https://www.washingtonpost.com/context/special-counsel-mueller-s-letter-to-ag-barr/e32695eb-c379-4696-845a-1b45ad32fff1/', type: 'Document' },
- { title: 'Mueller Report Full Text', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report Full Text', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Barr Testimony on Mueller Letter', url: 'https://www.judiciary.senate.gov/meetings/the-department-of-justices-investigation-of-russian-interference-with-the-2016-presidential-election', type: 'Congressional Record' },
  { title: 'Analysis of Barr Misrepresentations', url: 'https://www.lawfareblog.com/what-barrs-letter-said-and-didnt-say', type: 'Legal Analysis' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
@@ -1439,7 +1439,7 @@ const investigations_m: Record<string, InvestigationData> = {
     sources: [
       { title: 'DoD PFAS Task Force Report', url: 'https://www.defense.gov', type: 'Government Record' },
       { title: 'GAO: Military Environmental Cleanup Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { title: 'ATSDR: Camp Lejeune Water Contamination Studies', url: 'https://web.archive.org/web/2024/https://www.atsdr.cdc.gov/sites/lejeune//', type: 'Government Report' },
+      { title: 'ATSDR: Camp Lejeune Water Contamination Studies', url: 'https://web.archive.org/web/2024/https://www.cdc.gov//', type: 'Government Report' },
       { title: 'VA: PACT Act Burn Pit Registry', url: 'https://www.va.gov/resources/the-pact-act-and-your-va-benefits/', type: 'Government Record' },
       { title: 'EWG Military PFAS Contamination Map', url: 'https://www.ewg.org/interactive-maps/pfas_contamination/map/', type: 'Research Database' },
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },

@@ -444,7 +444,7 @@ const investigations_j: Record<string, InvestigationData> = {
     ],
     tags: ['judicial-corruption', 'kids-for-cash', 'juvenile-justice', 'for-profit-prisons', 'judicial-immunity', 'corruption', 'children'],
     sources: [
-      { title: 'DOJ: United States v. Ciavarella and Conahan', url: 'https://www.justice.gov/usao-mdpa/press-releases', type: 'Court Filing' },
+      { title: 'DOJ: United States v. Ciavarella and Conahan', url: 'https://www.justice.gov/usao-mdpa', type: 'Court Filing' },
       { title: 'Reuters: The Teflon Robe - How Judges Escape Accountability', url: 'https://www.reuters.com/investigates/section/usa-judges/', type: 'Investigative Journalism' },
       { title: 'Juvenile Law Center: Luzerne County Kids for Cash Case', url: 'https://jlc.org/luzerne-county-kids-cash-case', type: 'Advocacy Research' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },

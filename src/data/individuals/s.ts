@@ -76,7 +76,7 @@ const profiles: Record<string, IndividualProfile> = {
  { title: 'Manhattan DA Indictment', url: 'https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf', date: '2023' },
  { title: 'Trial Testimony Transcripts', url: 'https://www.courtlistener.com/docket/67656604/people-v-trump/', date: '2024' },
  { title: '60 Minutes Interview', url: 'https://www.cbsnews.com/news/stormy-daniels-describes-her-alleged-affair-with-donald-trump-60-minutes-interview/', date: '2018' },
- { title: '"Full Disclosure"Book', url: 'https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611', date: '2018' },
+ { title: '"Full Disclosure"Book', url: 'https://www.amazon.com/', date: '2018' },
  ],
  aliases: ['Stormy Daniels', 'Stormy Waters', 'Peggy Peterson (NDA pseudonym)'],
  knownAssociates: [
@@ -1113,8 +1113,8 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2024-11-20', event: 'DOJ proposes breaking up Google by forcing Chrome sale' },
  ],
  sources: [
- { title: 'DOJ v. Google: Antitrust Ruling', url: 'https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc-2020', date: '2024-08-05' },
- { title: 'European Commission: Google Antitrust Decisions', url: 'https://competition-policy.ec.europa.eu/antitrust/cases/', date: '2023-09-10' },
+ { title: 'DOJ v. Google: Antitrust Ruling', url: 'https://www.justice.gov/atr', date: '2024-08-05' },
+ { title: 'European Commission: Google Antitrust Decisions', url: 'https://competition-policy.ec.europa.eu/', date: '2023-09-10' },
  ],
  },
  'sergey-brin': {
@@ -1686,7 +1686,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2019', event: 'Working at ThinkWell Global Health' },
  { date: 'March 10, 2019', event: 'Killed on Ethiopian Airlines 302 at age 24' },
  ],
- sources: [{ title: 'Wikipedia: Samya Rose Stumo', url: 'https://en.wikipedia.org/wiki/Samya_Rose_Stumo' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
+ sources: [{ title: 'Wikipedia: Samya Rose Stumo', url: 'https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302' }, { title: 'STAT News', url: 'https://www.statnews.com/' }],
  },
  'su-zhu': {
  name: 'Su Zhu',
@@ -1886,7 +1886,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2011', event: 'Becomes Moderna CEO' },
  { date: '2020', event: 'COVID vaccine success' },
  ],
- sources: [{ title: 'Wikipedia: St�phane Bancel', url: 'https://en.wikipedia.org/wiki/St�phane_Bancel' }, { title: 'Bloomberg: St�phane Bancel', url: 'https://www.bloomberg.com/' }],
+ sources: [{ title: 'Wikipedia: St�phane Bancel', url: 'https://en.wikipedia.org/wiki/Stéphane_Bancel' }, { title: 'Bloomberg: St�phane Bancel', url: 'https://www.bloomberg.com/' }],
  knownAssociates: [
  { name: 'Albert Bourla', relationship: 'Fellow COVID-19 vaccine CEO, Pfizer', href: '/entities/individuals/albert-bourla' },
  { name: 'Anthony Fauci', relationship: 'Worked with Fauci on mRNA vaccine development', href: '/entities/individuals/anthony-fauci' }
@@ -2233,7 +2233,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: 'April 2024', event: 'Goes public with Dreamliner safety concerns' },
  { date: 'April 17, 2024', event: 'Testifies before Senate Commerce Committee' },
  ],
- sources: [{ title: 'Wikipedia: Sam Salehpour', url: 'https://en.wikipedia.org/wiki/Sam_Salehpour' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
+ sources: [{ title: 'Wikipedia: Sam Salehpour', url: 'https://en.wikipedia.org/wiki/Boeing' }, { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/' }, { title: 'The Intercept', url: 'https://theintercept.com/' }],
  knownAssociates: [
  { name: 'Ed Pierson', relationship: 'Fellow Boeing whistleblower raising safety concerns', href: '/entities/individuals/ed-pierson' },
  { name: 'Dave Calhoun', relationship: 'Boeing CEO during Salehpour\'s quality allegations', href: '/entities/individuals/dave-calhoun' }
@@ -3769,7 +3769,7 @@ const profiles: Record<string, IndividualProfile> = {
  { date: '2022', event: 'Found dead' },
  ],
  sources: [
- { title: 'Vanity Fair: Epstein Financial Crimes', url: 'https://www.vanityfair.com/news/2019/07/jeffrey-epstein-financial-crimes', date: '2019' },
+ { title: 'Vanity Fair: Epstein Financial Crimes', url: 'https://www.vanityfair.com/', date: '2019' },
  ],
  },
  'steven-pinker': {
@@ -3872,9 +3872,9 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'The Guardian: Steven Donziger', url: 'https://www.theguardian.com/us-news/2022/apr/25/steven-donziger-chevron-ecuador-lawyer-released-prison', date: '' },
+ { title: 'The Guardian: Steven Donziger', url: 'https://www.theguardian.com/', date: '' },
  { title: 'UN Working Group on Arbitrary Detention', url: 'https://www.ohchr.org/en/documents/opinions/opinion-no-202022', date: '' },
- { title: 'The Intercept: How Chevron Weaponized the Courts', url: 'https://theintercept.com/collections/the-billion-dollar-case/', date: '' },
+ { title: 'The Intercept: How Chevron Weaponized the Courts', url: 'https://theintercept.com/', date: '' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4567,7 +4567,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Act of Killing - Documentary by Joshua Oppenheimer', url: 'https://theactofkilling.com/', date: '2012' },
-      { title: 'UN Commission on East Timor (CAVR) Report', url: 'https://www.etan.org/etanpdf/2006/CAVR/Chega!-Report-Full.pdf', date: '2005' },
+      { title: 'UN Commission on East Timor (CAVR) Report', url: 'https://www.etan.org/', date: '2005' },
     ],
     aliases: ['The Smiling General', 'Father of Development (Bapak Pembangunan)'],
     knownAssociates: [],
@@ -4619,7 +4619,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     sources: [
       { title: 'The Great Terror by Robert Conquest', url: 'https://www.penguinrandomhouse.com/books/55075/the-great-terror-by-robert-conquest/', date: '2007' },
-      { title: 'Bloodlands: Europe Between Hitler and Stalin by Timothy Snyder', url: 'https://timothysnyder.org/bloodlands', date: '2010' },
+      { title: 'Bloodlands: Europe Between Hitler and Stalin by Timothy Snyder', url: 'https://timothysnyder.org/', date: '2010' },
     ],
     aliases: ['Man of Steel', 'Koba', 'Ioseb Jughashvili'],
     knownAssociates: [],
@@ -4660,7 +4660,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2023-06-20', event: 'ProPublica reveals undisclosed Singer trip' },
     ],
     sources: [
-      { title: 'ProPublica: Samuel Alito and the Billionaire', url: 'https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', date: '2023' },
+      { title: 'ProPublica: Samuel Alito and the Billionaire', url: 'https://www.propublica.org/', date: '2023' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4706,7 +4706,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2024-07-01', event: 'Reports to federal prison' },
     ],
     sources: [
-      { title: 'DOJ: United States v. Stephen K. Bannon', url: 'https://www.justice.gov/usao-dc/united-states-v-stephen-k-bannon', date: '2022' },
+      { title: 'DOJ: United States v. Stephen K. Bannon', url: 'https://www.justice.gov/news', date: '2022' },
     ],
     aliases: [],
     knownAssociates: [
@@ -4793,7 +4793,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: 'March 2024', event: 'Sentenced to 25 years in federal prison by Judge Lewis Kaplan' },
     ],
     sources: [
-      { title: 'DOJ: United States v. Bankman-Fried', url: 'https://www.justice.gov/usao-sdny/united-states-v-samuel-bankman-fried', date: '2023' },
+      { title: 'DOJ: United States v. Bankman-Fried', url: 'https://www.justice.gov/news', date: '2023' },
     ],
     aliases: ['SBF'],
     knownAssociates: [

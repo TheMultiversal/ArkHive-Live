@@ -110,7 +110,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'Senate Intelligence Committee Vol. 5', url: 'https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf', type: 'Government Report' },
  { title: 'Trump Jr. 2008 Russia Quote', url: 'https://www.washingtonpost.com/politics/heres-what-we-know-about-donald-trump-and-his-ties-to-russia/2016/07/29/1268b5ec-54e7-11e6-bbf5-957ad17b4385_story.html', type: 'News Report' },
  { title: 'BuzzFeed Felix Sater Investigation', url: 'https://www.buzzfeednews.com/article/anthonycormier/trump-moscow-micheal-cohen-felix-sater-campaign', type: 'Investigation' },
- { title: 'Mueller Report, Russian Contacts', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report, Russian Contacts', url: 'https://www.justice.gov/archives', type: 'Government Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [

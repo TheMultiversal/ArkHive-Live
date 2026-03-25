@@ -31,7 +31,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "purdue-pharma-oxycontin",
     "downloadCount": 326,
     "previewAvailable": true,
-    "url": "https://www.supremecourt.gov/opinions/23pdf/23-124_k536.pdf"
+    "url": "https://www.supremecourt.gov/opinions"
   },
   {
     "id": "2",
@@ -46,7 +46,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "whistleblower-persecution",
     "downloadCount": 3820,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/wikileaks-founder-julian-assange-charged-conspiracy-commit-computer-intrusion"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "3",
@@ -76,7 +76,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "ftx-crypto-fraud",
     "downloadCount": 3817,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes"
+    "url": "https://www.justice.gov/usao-sdny"
   },
   {
     "id": "5",
@@ -121,7 +121,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "2008-financial-crisis",
     "downloadCount": 826,
     "previewAvailable": true,
-    "url": "https://www.hsgac.senate.gov/subcommittees/investigations/media/senate-investigations-subcommittee-releases-levin-coburn-report-on-the-financial-crisis"
+    "url": "https://www.hsgac.senate.gov/"
   },
   {
     "id": "8",
@@ -181,7 +181,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "2008-financial-crisis",
     "downloadCount": 3048,
     "previewAvailable": true,
-    "url": "https://www.responsiblelending.org/mortgage-lending/research-analysis/lost-ground-2011.html"
+    "url": "https://www.responsiblelending.org/"
   },
   {
     "id": "12",
@@ -286,7 +286,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "amazon-labor-abuses",
     "downloadCount": 3866,
     "previewAvailable": true,
-    "url": "https://www.osha.gov/news/newsreleases/region5/04122022"
+    "url": "https://www.osha.gov/"
   },
   {
     "id": "19",
@@ -301,7 +301,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "amazon-labor-abuses",
     "downloadCount": 2485,
     "previewAvailable": true,
-    "url": "https://www.theverge.com/2021/4/2/22364243/amazon-apologizes-tweet-warehouse-workers-pee-bottles"
+    "url": "https://www.theverge.com/"
   },
   {
     "id": "20",
@@ -361,7 +361,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "build-the-wall-fraud",
     "downloadCount": 4440,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands"
+    "url": "https://www.justice.gov/usao-sdny"
   },
   {
     "id": "24",
@@ -376,7 +376,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "build-the-wall-fraud",
     "downloadCount": 170,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-sdny/press-release/file/1305571/download"
+    "url": "https://www.justice.gov/usao-sdny"
   },
   {
     "id": "25",
@@ -391,7 +391,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "build-the-wall-fraud",
     "downloadCount": 2367,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-sdny/pr/brian-kolfage-sentenced-more-four-years-prison-connection-we-build-wall-fraud-scheme"
+    "url": "https://www.justice.gov/usao-sdny"
   },
   {
     "id": "26",
@@ -481,7 +481,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "bush-v-gore",
     "downloadCount": 4065,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2007/https://www.norc.org/projects/florida+ballot+project.htm"
+    "url": "https://www.norc.org"
   },
   {
     "id": "32",
@@ -646,7 +646,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "chile-coup",
     "downloadCount": 2705,
     "previewAvailable": true,
-    "url": "https://www.intelligence.senate.gov/sites/default/files/hearings/ciaactivitiesinchile.pdf"
+    "url": "https://www.intelligence.senate.gov/publications"
   },
   {
     "id": "43",
@@ -706,7 +706,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "chile-coup",
     "downloadCount": 1407,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/briefing-book/chile/2020-09-11/kissinger-chile-declassified-record-regime-change"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "47",
@@ -736,7 +736,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cia-coups",
     "downloadCount": 1105,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/project/cia-covert-operations"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "49",
@@ -886,7 +886,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "corporate-homicide",
     "downloadCount": 1191,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-admits-guilt"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "59",
@@ -1141,7 +1141,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "drone-assassination-program",
     "downloadCount": 3499,
     "previewAvailable": true,
-    "url": "https://fas.org/irp/eprint/doj-lethal.pdf"
+    "url": "https://fas.org/"
   },
   {
     "id": "76",
@@ -1186,7 +1186,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "el-salvador-death-squads",
     "downloadCount": 4174,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/project/el-salvador-project"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "79",
@@ -1201,7 +1201,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "el-salvador-death-squads",
     "downloadCount": 3960,
     "previewAvailable": true,
-    "url": "https://www.bbc.com/news/world-latin-america-54075067"
+    "url": "https://www.bbc.com/news"
   },
   {
     "id": "80",
@@ -1231,7 +1231,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "emmett-till",
     "downloadCount": 327,
     "previewAvailable": false,
-    "url": "https://vault.fbi.gov/Emmett%20Till"
+    "url": "https://vault.fbi.gov/"
   },
   {
     "id": "82",
@@ -1246,7 +1246,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "emmett-till",
     "downloadCount": 1088,
     "previewAvailable": true,
-    "url": "https://www.pbs.org/wgbh/americanexperience/features/till-killers-confess/"
+    "url": "https://www.pbs.org/"
   },
   {
     "id": "83",
@@ -1276,7 +1276,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "emoluments",
     "downloadCount": 1270,
     "previewAvailable": true,
-    "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-wins-landmark-victory-fraud-case-against-donald-trump"
+    "url": "https://ag.ny.gov/press-releases"
   },
   {
     "id": "85",
@@ -1291,7 +1291,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 1566,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.wsj.com/us-news/law/noam-chomsky-jeffrey-epstein-meetings-992a93d0"
+    "url": "https://www.wsj.com"
   },
   {
     "id": "86",
@@ -1426,7 +1426,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "forced-sterilization",
     "downloadCount": 3724,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2022/01/05/1070311271/california-forced-sterilization-reparations"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "95",
@@ -1471,7 +1471,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "georgia-rico",
     "downloadCount": 3887,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/legal/giuliani-ordered-pay-148-million-georgia-election-workers-2023-12-15/"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "98",
@@ -1516,7 +1516,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "guatemala-genocide",
     "downloadCount": 4380,
     "previewAvailable": true,
-    "url": "https://www.ijmonitor.org/category/efrain-rios-montt/"
+    "url": "https://www.ijmonitor.org/"
   },
   {
     "id": "101",
@@ -1576,7 +1576,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "gulf-of-tonkin",
     "downloadCount": 2998,
     "previewAvailable": true,
-    "url": "https://millercenter.org/the-presidency/educational-resources/gulf-of-tonkin"
+    "url": "https://millercenter.org/"
   },
   {
     "id": "105",
@@ -1636,7 +1636,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "gun-violence-inaction",
     "downloadCount": 2285,
     "previewAvailable": true,
-    "url": "https://www.supremecourt.gov/opinions/07pdf/07-290.pdf"
+    "url": "https://www.supremecourt.gov/opinions"
   },
   {
     "id": "109",
@@ -1666,7 +1666,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "gun-violence-inaction",
     "downloadCount": 1451,
     "previewAvailable": true,
-    "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-wins-case-against-nra-and-wayne-lapierre"
+    "url": "https://ag.ny.gov/press-releases"
   },
   {
     "id": "111",
@@ -1696,7 +1696,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "haiti-exploitation",
     "downloadCount": 3403,
     "previewAvailable": true,
-    "url": "https://www.thenation.com/article/world/wikileaks-haiti-minimum-wage/"
+    "url": "https://www.thenation.com/"
   },
   {
     "id": "113",
@@ -1816,7 +1816,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "health-insurance-deaths",
     "downloadCount": 1139,
     "previewAvailable": true,
-    "url": "https://www.nytimes.com/interactive/2019/09/26/health/hospitals-emergency-room-cost.html"
+    "url": "https://www.nytimes.com/"
   },
   {
     "id": "121",
@@ -1876,7 +1876,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "hush-money",
     "downloadCount": 2648,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-sdny/press-release/file/1115006/dl"
+    "url": "https://www.justice.gov/usao-sdny"
   },
   {
     "id": "125",
@@ -1921,7 +1921,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "indian-boarding-schools",
     "downloadCount": 1624,
     "previewAvailable": true,
-    "url": "https://www.bia.gov/sites/default/files/dup/inline-files/bsi_investigative_report_vol2_july_2024.pdf"
+    "url": "https://www.bia.gov/"
   },
   {
     "id": "128",
@@ -1996,7 +1996,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "indian-boarding-schools",
     "downloadCount": 2666,
     "previewAvailable": true,
-    "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2024/10/25/"
+    "url": "https://www.whitehouse.gov/"
   },
   {
     "id": "133",
@@ -2026,7 +2026,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "iran-coup",
     "downloadCount": 4476,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/briefing-book/iran/2013-08-19/cia-confirms-role-1953-iran-coup"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "135",
@@ -2056,7 +2056,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "iran-coup",
     "downloadCount": 1799,
     "previewAvailable": true,
-    "url": "https://www.theguardian.com/uk/2000/aug/20/iran.richardnortontaylor"
+    "url": "https://www.theguardian.com/"
   },
   {
     "id": "137",
@@ -2131,7 +2131,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "jackson-water-crisis",
     "downloadCount": 884,
     "previewAvailable": true,
-    "url": "https://www.epa.gov/ms-jackson-water"
+    "url": "https://www.epa.gov/"
   },
   {
     "id": "142",
@@ -2146,7 +2146,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "jackson-water-crisis",
     "downloadCount": 2158,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/enrd/case/united-states-v-city-jackson-mississippi"
+    "url": "https://www.justice.gov/enrd"
   },
   {
     "id": "143",
@@ -2161,7 +2161,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "jackson-water-crisis",
     "downloadCount": 2301,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2022/08/30/1120029787/jackson-mississippi-water-system-failure"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "144",
@@ -2356,7 +2356,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "libya-intervention",
     "downloadCount": 428,
     "previewAvailable": true,
-    "url": "https://www.amnesty.org/en/documents/mde19/7602/2024/en/"
+    "url": "https://www.amnesty.org/"
   },
   {
     "id": "157",
@@ -2446,7 +2446,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "mar-a-lago-documents",
     "downloadCount": 291,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2022/08/12/1117200680/trump-mar-a-lago-search-warrant-released"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "163",
@@ -2476,7 +2476,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "mar-a-lago-documents",
     "downloadCount": 3274,
     "previewAvailable": true,
-    "url": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.648652/gov.uscourts.flsd.648652.510.0_1.pdf"
+    "url": "https://storage.courtlistener.com/"
   },
   {
     "id": "165",
@@ -2581,7 +2581,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "mass-incarceration",
     "downloadCount": 4248,
     "previewAvailable": true,
-    "url": "https://eji.org/news/history-racial-injustice-slavery-to-mass-incarceration/"
+    "url": "https://eji.org/"
   },
   {
     "id": "172",
@@ -2986,7 +2986,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "nsa-mass-surveillance",
     "downloadCount": 1221,
     "previewAvailable": true,
-    "url": "https://www.aclu.org/cases/aclu-v-clapper"
+    "url": "https://www.aclu.org/cases"
   },
   {
     "id": "199",
@@ -3046,7 +3046,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "nsa-mass-surveillance",
     "downloadCount": 1790,
     "previewAvailable": true,
-    "url": "https://www.c-span.org/video/?c4439580/user-clip-james-clapper-testimony"
+    "url": "https://www.c-span.org/"
   },
   {
     "id": "203",
@@ -3151,7 +3151,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "oath-keepers-sedition",
     "downloadCount": 1917,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/oath-keepers-leader-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "210",
@@ -3181,7 +3181,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "oath-keepers-sedition",
     "downloadCount": 4369,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2022/10/03/1126550834/oath-keepers-trial-jan-6-seditious-conspiracy"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "212",
@@ -3226,7 +3226,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "obstruction-of-justice",
     "downloadCount": 1755,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/archives/sco/file/1373816/download"
+    "url": "https://www.justice.gov/archives"
   },
   {
     "id": "215",
@@ -3301,7 +3301,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-condor",
     "downloadCount": 2605,
     "previewAvailable": true,
-    "url": "https://www.cels.org.ar/web/en/publicaciones/the-condor-trial/"
+    "url": "https://www.cels.org.ar/"
   },
   {
     "id": "220",
@@ -3331,7 +3331,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-condor",
     "downloadCount": 3872,
     "previewAvailable": true,
-    "url": "https://www.amnesty.org/en/latest/news/2016/05/operation-condor-former-head-secret-police/"
+    "url": "https://www.amnesty.org/"
   },
   {
     "id": "222",
@@ -3361,7 +3361,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-fast-and-furious",
     "downloadCount": 687,
     "previewAvailable": true,
-    "url": "https://oig.justice.gov/reports/2012/s1209.pdf"
+    "url": "https://oig.justice.gov/reports"
   },
   {
     "id": "224",
@@ -3646,7 +3646,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "patriot-act",
     "downloadCount": 4099,
     "previewAvailable": true,
-    "url": "https://oig.justice.gov/reports/2007/nsl/nsl-report.htm"
+    "url": "https://oig.justice.gov/reports"
   },
   {
     "id": "243",
@@ -3736,7 +3736,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "private-prison-industry",
     "downloadCount": 2658,
     "previewAvailable": true,
-    "url": "https://www.oig.dhs.gov/reports/ice"
+    "url": "https://www.oig.dhs.gov/"
   },
   {
     "id": "249",
@@ -3751,7 +3751,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "purdue-pharma-oxycontin",
     "downloadCount": 1002,
     "previewAvailable": true,
-    "url": "https://www.cdc.gov/opioids/basics/epidemic.html"
+    "url": "https://www.cdc.gov/"
   },
   {
     "id": "250",
@@ -3781,7 +3781,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "redlining-housing-discrimination",
     "downloadCount": 2947,
     "previewAvailable": true,
-    "url": "https://nationalfairhousing.org/reports-research/"
+    "url": "https://nationalfairhousing.org/"
   },
   {
     "id": "252",
@@ -3826,7 +3826,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "savings-and-loan-crisis",
     "downloadCount": 2194,
     "previewAvailable": true,
-    "url": "https://www.fdic.gov/bank/historical/sandl/"
+    "url": "https://www.fdic.gov/"
   },
   {
     "id": "255",
@@ -3901,7 +3901,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "sexual-assault",
     "downloadCount": 4325,
     "previewAvailable": true,
-    "url": "https://apnews.com/article/trump-carroll-defamation-damages-trial-83200c109982f58c9575b0743e7c3771"
+    "url": "https://apnews.com/"
   },
   {
     "id": "260",
@@ -4036,7 +4036,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "standing-rock",
     "downloadCount": 1636,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-pipeline-spill-idUSKBN22N2JK"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "269",
@@ -4081,7 +4081,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "student-debt-crisis",
     "downloadCount": 116,
     "previewAvailable": true,
-    "url": "https://www.consumerfinance.gov/enforcement/actions/navient-corporation/"
+    "url": "https://www.consumerfinance.gov/"
   },
   {
     "id": "272",
@@ -4126,7 +4126,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "student-debt-crisis",
     "downloadCount": 4352,
     "previewAvailable": true,
-    "url": "https://www.ed.gov/news/press-releases/department-education-approves-58-billion-group-discharge-cancel-remaining-loans-560000-former-corinthian-colleges-students"
+    "url": "https://www.ed.gov/"
   },
   {
     "id": "275",
@@ -4171,7 +4171,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "sundown-towns",
     "downloadCount": 1074,
     "previewAvailable": true,
-    "url": "https://www.oregonhistoryproject.org/articles/black-exclusion-laws-in-oregon/"
+    "url": "https://www.oregonhistoryproject.org/"
   },
   {
     "id": "278",
@@ -4186,7 +4186,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "sundown-towns",
     "downloadCount": 927,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2020/09/15/913272007/a-history-of-sundown-towns"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "279",
@@ -4396,7 +4396,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "trump-university",
     "downloadCount": 3762,
     "previewAvailable": true,
-    "url": "https://www.politico.com/f/?id=00000154-eafe-d152-afde-eefecd360001"
+    "url": "https://www.politico.com/"
   },
   {
     "id": "293",
@@ -4501,7 +4501,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "ukraine-extortion",
     "downloadCount": 2858,
     "previewAvailable": true,
-    "url": "http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf"
+    "url": "http://web.archive.org/web/20210113040119/https://www.whitehouse.gov/"
   },
   {
     "id": "300",
@@ -4726,7 +4726,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "watergate",
     "downloadCount": 3848,
     "previewAvailable": true,
-    "url": "https://www.nixonlibrary.gov/watergate"
+    "url": "https://www.nixonlibrary.gov/"
   },
   {
     "id": "315",
@@ -4771,7 +4771,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "defamation",
     "downloadCount": 2137,
     "previewAvailable": true,
-    "url": "https://apnews.com/article/giuliani-defamation-damages-georgia-election-workers-bfb32ce3e7c34e72a1e6e2d6e3c0f135"
+    "url": "https://apnews.com/"
   },
   {
     "id": "318",
@@ -4786,7 +4786,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "ftx-crypto-fraud",
     "downloadCount": 4308,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-convicted-defrauding-customers-and-investors-ftx"
+    "url": "https://www.justice.gov/usao-sdny"
   },
   {
     "id": "319",
@@ -4861,7 +4861,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "dupont-pfas-poisoning",
     "downloadCount": 644,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/legal/3m-reaches-103-bln-settlement-forever-chemicals-us-water-supplies-2023-06-22/"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "324",
@@ -4906,7 +4906,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "leonard-leo-network",
     "downloadCount": 558,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2023/04/25/1171647302/leonard-leo-dark-money-judicial-activism"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "327",
@@ -4921,7 +4921,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "defamation",
     "downloadCount": 1371,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/legal/fox-news-settles-dominion-defamation-case-2023-04-18/"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "328",
@@ -4951,7 +4951,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "leonard-leo-network",
     "downloadCount": 2334,
     "previewAvailable": true,
-    "url": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-billionaire-harlan-crow"
+    "url": "https://www.propublica.org/"
   },
   {
     "id": "330",
@@ -4966,7 +4966,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "october-surprise-1980",
     "downloadCount": 4337,
     "previewAvailable": true,
-    "url": "https://theintercept.com/2023/03/18/october-surprise-ben-barnes-iran-hostages/"
+    "url": "https://theintercept.com/"
   },
   {
     "id": "331",
@@ -4996,7 +4996,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "dark-money-politics",
     "downloadCount": 2623,
     "previewAvailable": true,
-    "url": "https://campaignlegal.org/update/exposed-dark-money-atm-conservative-movement"
+    "url": "https://campaignlegal.org/"
   },
   {
     "id": "333",
@@ -5011,7 +5011,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "defamation",
     "downloadCount": 750,
     "previewAvailable": true,
-    "url": "https://www.cnn.com/2023/03/08/media/fox-news-dominion-private-messages/index.html"
+    "url": "https://www.cnn.com/"
   },
   {
     "id": "334",
@@ -5026,7 +5026,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "no-knock-raids",
     "downloadCount": 3490,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/justice-department-finds-civil-rights-violations-louisville-jefferson-county-metro-government"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "335",
@@ -5056,7 +5056,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "jfk-assassination",
     "downloadCount": 4516,
     "previewAvailable": true,
-    "url": "https://www.maryferrell.org/pages/Featured_CIA_and_the_JFK_Assassination.html"
+    "url": "https://www.maryferrell.org/"
   },
   {
     "id": "337",
@@ -5086,7 +5086,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cia-drug-trafficking",
     "downloadCount": 3280,
     "previewAvailable": true,
-    "url": "https://www.nytimes.com/topic/subject/iran-contra-affair"
+    "url": "https://www.nytimes.com/"
   },
   {
     "id": "339",
@@ -5191,7 +5191,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "civil-asset-forfeiture",
     "downloadCount": 4169,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/afp/fund-reports"
+    "url": "https://www.justice.gov/afp"
   },
   {
     "id": "346",
@@ -5281,7 +5281,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 940,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/legal/jpmorgan-settlement-with-epstein-victims-gets-final-approval-2023-11-28/"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "352",
@@ -5296,7 +5296,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 431,
     "previewAvailable": true,
-    "url": "https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-monitoring-jeffrey-epstein-following-his"
+    "url": "https://oig.justice.gov/reports"
   },
   {
     "id": "353",
@@ -5311,7 +5311,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 967,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/business/finance/jpmorgan-sues-former-executive-jes-staley-over-epstein-ties-2023-03-08/"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "354",
@@ -5326,7 +5326,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 993,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/jpmorgan-chase-bank-na-agrees-pay-75-million-resolve-claims-related-sex-trafficking"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "355",
@@ -5341,7 +5341,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 981,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/legal/us-virgin-islands-attorney-general-who-sued-jpmorgan-over-epstein-was-fired-2023-01-03/"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "356",
@@ -5386,7 +5386,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "fake-electors",
     "downloadCount": 694,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "359",
@@ -5401,7 +5401,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "fake-electors",
     "downloadCount": 3848,
     "previewAvailable": true,
-    "url": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf"
+    "url": "https://int.nyt.com/"
   },
   {
     "id": "360",
@@ -5446,7 +5446,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "fox-news-propaganda",
     "downloadCount": 2868,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2023/04/18/1170634296/fox-news-dominion-voting-settlement"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "363",
@@ -5461,7 +5461,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "fox-news-propaganda",
     "downloadCount": 2058,
     "previewAvailable": true,
-    "url": "https://www.vanityfair.com/news/2023/02/rupert-murdoch-fox-news-dominion"
+    "url": "https://www.vanityfair.com/"
   },
   {
     "id": "364",
@@ -5491,7 +5491,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "guatemala-syphilis-experiments",
     "downloadCount": 3201,
     "previewAvailable": true,
-    "url": "https://www.cdc.gov/tuskegee/timeline.htm"
+    "url": "https://www.cdc.gov/"
   },
   {
     "id": "366",
@@ -5536,7 +5536,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "ice-detention-abuses",
     "downloadCount": 1134,
     "previewAvailable": true,
-    "url": "https://www.aclu.org/issues/immigrants-rights/ice-and-border-patrol-abuses/deaths-ice-custody"
+    "url": "https://www.aclu.org"
   },
   {
     "id": "369",
@@ -5566,7 +5566,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "kissinger-crimes",
     "downloadCount": 3603,
     "previewAvailable": true,
-    "url": "https://theintercept.com/2023/11/29/henry-kissinger-obituary/"
+    "url": "https://theintercept.com/"
   },
   {
     "id": "371",
@@ -5596,7 +5596,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "kissinger-crimes",
     "downloadCount": 3430,
     "previewAvailable": true,
-    "url": "https://jacobin.com/2023/11/henry-kissinger-death-united-states-foreign-policy-war-crimes"
+    "url": "https://jacobin.com/"
   },
   {
     "id": "373",
@@ -5656,7 +5656,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "malcolm-x-assassination",
     "downloadCount": 3787,
     "previewAvailable": true,
-    "url": "https://kinginstitute.stanford.edu/assassination-malcolm-x"
+    "url": "https://kinginstitute.stanford.edu/"
   },
   {
     "id": "377",
@@ -5716,7 +5716,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "mccarthyism-red-scare",
     "downloadCount": 2909,
     "previewAvailable": true,
-    "url": "https://www.fbi.gov/history/famous-cases/venona"
+    "url": "https://www.fbi.gov/investigate/counterintelligence"
   },
   {
     "id": "381",
@@ -5731,7 +5731,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "mccarthyism-red-scare",
     "downloadCount": 4485,
     "previewAvailable": true,
-    "url": "https://www.aclu.org/news/civil-liberties/the-history-of-mccarthyism"
+    "url": "https://www.aclu.org/"
   },
   {
     "id": "382",
@@ -5791,7 +5791,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "native-american-genocide",
     "downloadCount": 4296,
     "previewAvailable": true,
-    "url": "https://www.doi.gov/missing-and-murdered-indigenous-peoples"
+    "url": "https://www.doi.gov/"
   },
   {
     "id": "386",
@@ -5806,7 +5806,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "no-knock-raids",
     "downloadCount": 2616,
     "previewAvailable": true,
-    "url": "https://www.brennancenter.org/our-work/research-reports/ending-no-knock-warrants"
+    "url": "https://www.brennancenter.org/"
   },
   {
     "id": "387",
@@ -5821,7 +5821,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "october-surprise-1980",
     "downloadCount": 672,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/briefing-book/iran/2023-01-19/october-surprise-x-files"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "388",
@@ -5866,7 +5866,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "police-brutality",
     "downloadCount": 922,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/crt/case/investigation-city-minneapolis-and-minneapolis-police-department"
+    "url": "https://www.justice.gov/crt"
   },
   {
     "id": "391",
@@ -5881,7 +5881,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "proud-boys-sedition",
     "downloadCount": 334,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-dc/pr/proud-boys-leader-sentenced-22-years-prison-seditious-conspiracy"
+    "url": "https://www.justice.gov/usao-dc"
   },
   {
     "id": "392",
@@ -5896,7 +5896,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "roe-v-wade-overturn",
     "downloadCount": 1298,
     "previewAvailable": true,
-    "url": "https://www.propublica.org/article/texas-abortion-ban-emergency-rooms-pregnant-women"
+    "url": "https://www.propublica.org/"
   },
   {
     "id": "393",
@@ -5926,7 +5926,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "sinclair-broadcasting",
     "downloadCount": 3967,
     "previewAvailable": true,
-    "url": "https://www.freepress.net/issues/media-control/media-consolidation/sinclair-broadcast-group"
+    "url": "https://www.freepress.net/"
   },
   {
     "id": "395",
@@ -6106,7 +6106,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "water-contamination-nationwide",
     "downloadCount": 4305,
     "previewAvailable": true,
-    "url": "https://www.atsdr.cdc.gov/sites/lejeune/"
+    "url": "https://www.cdc.gov/"
   },
   {
     "id": "407",
@@ -6151,7 +6151,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "jfk-assassination",
     "downloadCount": 1163,
     "previewAvailable": true,
-    "url": "https://www.bbc.com/news/world-us-canada-64001972"
+    "url": "https://www.bbc.com/news"
   },
   {
     "id": "410",
@@ -6211,7 +6211,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "roe-v-wade-overturn",
     "downloadCount": 3321,
     "previewAvailable": true,
-    "url": "https://www.commonwealthfund.org/publications/issue-briefs/2022/dec/state-abortion-policy-landscape-year-after-dobbs"
+    "url": "https://www.commonwealthfund.org/"
   },
   {
     "id": "414",
@@ -6226,7 +6226,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "theranos-fraud",
     "downloadCount": 4581,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-ndca/pr/theranos-founder-elizabeth-holmes-sentenced-more-11-years-federal-prison"
+    "url": "https://www.justice.gov/usao-ndca"
   },
   {
     "id": "415",
@@ -6331,7 +6331,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "theranos-fraud",
     "downloadCount": 1755,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/legal/theranos-executive-sunny-balwani-convicted-fraud-2022-07-07/"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "422",
@@ -6421,7 +6421,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "malcolm-x-assassination",
     "downloadCount": 3092,
     "previewAvailable": true,
-    "url": "https://apnews.com/article/malcolm-x-wrongful-conviction-lawsuit-new-york-a5c8f15aeb24a2b5d5f0b3c2"
+    "url": "https://apnews.com/"
   },
   {
     "id": "428",
@@ -6436,7 +6436,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "no-knock-raids",
     "downloadCount": 3295,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2022/02/08/1079128685/no-knock-warrants-amir-locke-breonna-taylor"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "429",
@@ -6451,7 +6451,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "amazon-labor-abuses",
     "downloadCount": 4102,
     "previewAvailable": true,
-    "url": "https://thesoc.org/amazon-primed-for-pain/"
+    "url": "https://thesoc.org/"
   },
   {
     "id": "430",
@@ -6466,7 +6466,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "emmett-till",
     "downloadCount": 804,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/crt/case/united-states-v-roy-bryant-and-jw-milam"
+    "url": "https://www.justice.gov/crt"
   },
   {
     "id": "431",
@@ -6511,7 +6511,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "georgia-rico",
     "downloadCount": 3705,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-election-georgia-breach/"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "434",
@@ -6541,7 +6541,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "jackson-water-crisis",
     "downloadCount": 318,
     "previewAvailable": true,
-    "url": "https://naacp.org/resources/jackson-mississippi-water-crisis"
+    "url": "https://naacp.org/"
   },
   {
     "id": "436",
@@ -6586,7 +6586,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "missing-murdered-indigenous-women",
     "downloadCount": 4008,
     "previewAvailable": true,
-    "url": "https://www.brennancenter.org/our-work/analysis-opinion/crisis-missing-murdered-indigenous-women"
+    "url": "https://www.brennancenter.org/"
   },
   {
     "id": "439",
@@ -6616,7 +6616,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "no-knock-raids",
     "downloadCount": 2877,
     "previewAvailable": true,
-    "url": "https://www.aclu.org/news/criminal-law-reform/no-knock-warrants-have-got-to-go"
+    "url": "https://www.aclu.org/"
   },
   {
     "id": "441",
@@ -6706,7 +6706,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "roe-v-wade-overturn",
     "downloadCount": 2167,
     "previewAvailable": true,
-    "url": "https://www.brennancenter.org/our-work/analysis-opinion/unprecedented-unaccountable-undoing-roe"
+    "url": "https://www.brennancenter.org/"
   },
   {
     "id": "447",
@@ -6751,7 +6751,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "union-busting",
     "downloadCount": 1821,
     "previewAvailable": true,
-    "url": "https://www.nlrb.gov/news-outreach/news-story/nlrb-general-counsel-issues-consolidated-complaint-against-starbucks"
+    "url": "https://www.nlrb.gov/"
   },
   {
     "id": "450",
@@ -6811,7 +6811,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "volkswagen-emissions",
     "downloadCount": 107,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/business/autos-transportation/former-vw-ceo-winterkorn-goes-trial-over-dieselgate-2021-09-16/"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "454",
@@ -6871,7 +6871,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "whistleblower-persecution",
     "downloadCount": 2774,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/former-intelligence-analyst-sentenced-45-months-prison-disclosure-classified-information"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "458",
@@ -6901,7 +6901,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "vietnam-war-crimes",
     "downloadCount": 4368,
     "previewAvailable": true,
-    "url": "https://www.nytimes.com/interactive/2021/06/09/us/pentagon-papers-50th-anniversary.html"
+    "url": "https://www.nytimes.com/"
   },
   {
     "id": "460",
@@ -6916,7 +6916,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "move-bombing",
     "downloadCount": 1986,
     "previewAvailable": true,
-    "url": "https://apnews.com/article/philadelphia-move-bombing-anniversary-apology-7b8a48c82d6f4e7d9b3a0e5c8f1d2a4b"
+    "url": "https://apnews.com/"
   },
   {
     "id": "461",
@@ -6946,7 +6946,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "defamation",
     "downloadCount": 4176,
     "previewAvailable": true,
-    "url": "https://www.bbc.com/news/world-us-canada-55973883"
+    "url": "https://www.bbc.com/news"
   },
   {
     "id": "463",
@@ -7066,7 +7066,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 140,
     "previewAvailable": true,
-    "url": "https://www.innercitypress.com/sdny16maxwell.html"
+    "url": "https://www.innercitypress.com/"
   },
   {
     "id": "471",
@@ -7096,7 +7096,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 2430,
     "previewAvailable": true,
-    "url": "https://www.bbc.com/news/world-us-canada-59553395"
+    "url": "https://www.bbc.com/news"
   },
   {
     "id": "473",
@@ -7111,7 +7111,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "facial-recognition-surveillance",
     "downloadCount": 4379,
     "previewAvailable": true,
-    "url": "https://www.technologyreview.com/2021/02/05/1017388/activists-fighting-facial-recognition/"
+    "url": "https://www.technologyreview.com/"
   },
   {
     "id": "474",
@@ -7411,7 +7411,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "tulsa-race-massacre",
     "downloadCount": 2357,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/623918/the-ground-breaking-by-scott-ellsworth/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "494",
@@ -7486,7 +7486,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "ice-detention-abuses",
     "downloadCount": 3566,
     "previewAvailable": true,
-    "url": "https://theintercept.com/2020/09/15/icE-detention-center-hysterectomies/"
+    "url": "https://theintercept.com/"
   },
   {
     "id": "499",
@@ -7546,7 +7546,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "move-bombing",
     "downloadCount": 286,
     "previewAvailable": true,
-    "url": "https://www.inquirer.com/news/move-bombing-35th-anniversary-philadelphia-osage-avenue-20200510.html"
+    "url": "https://www.inquirer.com/"
   },
   {
     "id": "503",
@@ -7576,7 +7576,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "boeing-737-max",
     "downloadCount": 3284,
     "previewAvailable": true,
-    "url": "https://www.bbc.com/news/business-50265531"
+    "url": "https://www.bbc.com/news"
   },
   {
     "id": "505",
@@ -7591,7 +7591,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "wells-fargo-fraud",
     "downloadCount": 3871,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/wells-fargo-agrees-pay-3-billion-resolve-criminal-and-civil-investigations"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "506",
@@ -7741,7 +7741,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 589,
     "previewAvailable": true,
-    "url": "https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/"
+    "url": "https://www.thecrimson.com/"
   },
   {
     "id": "516",
@@ -7906,7 +7906,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "guatemala-coup-1954",
     "downloadCount": 2001,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/briefing-book/guatemala/2020-05-15/cias-1954-covert-operation-guatemala"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "527",
@@ -7921,7 +7921,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "gun-violence-inaction",
     "downloadCount": 3888,
     "previewAvailable": true,
-    "url": "https://www.rand.org/research/gun-policy/analysis/essays/federal-funding-for-gun-violence-research.html"
+    "url": "https://www.rand.org/"
   },
   {
     "id": "528",
@@ -8071,7 +8071,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "no-knock-raids",
     "downloadCount": 2432,
     "previewAvailable": true,
-    "url": "https://www.courier-journal.com/story/news/local/breonna-taylor/2020/05/12/breonna-taylor-shooting-what-we-know/3115870001/"
+    "url": "https://www.courier-journal.com/"
   },
   {
     "id": "538",
@@ -8086,7 +8086,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "pharmaceutical-price-gouging",
     "downloadCount": 3853,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/atr/case/us-and-plaintiff-states-v-teva-pharmaceuticals-usa-inc-et-al"
+    "url": "https://www.justice.gov/atr"
   },
   {
     "id": "539",
@@ -8116,7 +8116,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "police-brutality",
     "downloadCount": 324,
     "previewAvailable": true,
-    "url": "https://www.aclu.org/news/criminal-law-reform/the-supreme-court-has-a-chance-to-end-qualified-immunity"
+    "url": "https://www.aclu.org/"
   },
   {
     "id": "541",
@@ -8311,7 +8311,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "fred-hampton-assassination",
     "downloadCount": 2980,
     "previewAvailable": true,
-    "url": "https://chicagoreader.com/news-politics/the-black-panthers-and-the-assassination-of-fred-hampton/"
+    "url": "https://chicagoreader.com/"
   },
   {
     "id": "554",
@@ -8341,7 +8341,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "boeing-737-max",
     "downloadCount": 131,
     "previewAvailable": true,
-    "url": "https://knkt.go.id/KNKT/templateB/Investigation/IFP/Aircraft%20Accident%20Investigation%20Report%20-%20PT.%20Lion%20Mentari%20Airlines%20Boeing%20737-8%20(MAX).pdf"
+    "url": "https://knkt.go.id/"
   },
   {
     "id": "556",
@@ -8401,7 +8401,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "missing-murdered-indigenous-women",
     "downloadCount": 2140,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2019/08/20/752774811/a-third-of-native-american-criminal-cases-are-declined-by-u-s-attorneys"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "560",
@@ -8521,7 +8521,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "alec-model-legislation",
     "downloadCount": 1260,
     "previewAvailable": true,
-    "url": "https://www.brennancenter.org/our-work/research-reports/new-voter-restrictions-america"
+    "url": "https://www.brennancenter.org/"
   },
   {
     "id": "568",
@@ -8536,7 +8536,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "charlottesville",
     "downloadCount": 4371,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/ohio-man-sentenced-life-plus-419-years-federal-hate-crimes"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "569",
@@ -8611,7 +8611,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "emoluments",
     "downloadCount": 336,
     "previewAvailable": true,
-    "url": "https://www.gsaig.gov/content/gsa%E2%80%99s-management-old-post-office-building-lease"
+    "url": "https://www.gsaig.gov/"
   },
   {
     "id": "574",
@@ -8626,7 +8626,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 4149,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-sex-trafficking-minors"
+    "url": "https://www.justice.gov/usao-sdny"
   },
   {
     "id": "575",
@@ -8656,7 +8656,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 2439,
     "previewAvailable": true,
-    "url": "https://www.foxnews.com/us/forensic-pathologist-jeffrey-epstein-homicide"
+    "url": "https://www.foxnews.com/"
   },
   {
     "id": "577",
@@ -8716,7 +8716,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 2487,
     "previewAvailable": true,
-    "url": "https://www.theguardian.com/us-news/2019/aug/22/ghislaine-maxwell-what-is-known-about-the-life-of-jeffrey-epsteins-closest-associate"
+    "url": "https://www.theguardian.com/"
   },
   {
     "id": "581",
@@ -8761,7 +8761,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 2627,
     "previewAvailable": true,
-    "url": "https://www.vanityfair.com/news/2019/07/jeffrey-epstein-financial-crimes"
+    "url": "https://www.vanityfair.com/"
   },
   {
     "id": "584",
@@ -8776,7 +8776,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 1647,
     "previewAvailable": true,
-    "url": "https://www.theguardian.com/uk-news/2019/jul/30/peter-mandelson-jeffrey-epstein"
+    "url": "https://www.theguardian.com/"
   },
   {
     "id": "585",
@@ -8791,7 +8791,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 3753,
     "previewAvailable": true,
-    "url": "https://www.mintpressnews.com/ehud-barak-jeffrey-epstein-carbyne911/261726/"
+    "url": "https://www.mintpressnews.com/"
   },
   {
     "id": "586",
@@ -8896,7 +8896,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "kissinger-crimes",
     "downloadCount": 613,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/briefing-book/southern-cone/2019-05-28/operation-condor-trial-legal-proceedings-unprecedented-latin-american-cold-war"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "593",
@@ -8956,7 +8956,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "mkultra",
     "downloadCount": 1872,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/533751/the-poisoner-in-chief-by-stephen-kinzer/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "597",
@@ -8986,7 +8986,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "predictive-policing",
     "downloadCount": 4529,
     "previewAvailable": true,
-    "url": "https://www.oig.lacity.org/reports"
+    "url": "https://www.oig.lacity.org/"
   },
   {
     "id": "599",
@@ -9016,7 +9016,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "predictive-policing",
     "downloadCount": 2738,
     "previewAvailable": true,
-    "url": "https://www.rand.org/pubs/research_reports/RR3010.html"
+    "url": "https://www.rand.org/"
   },
   {
     "id": "601",
@@ -9031,7 +9031,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "qanon-radicalization",
     "downloadCount": 1012,
     "previewAvailable": true,
-    "url": "https://www.justsecurity.org/wp-content/uploads/2019/08/420379775-fbi-conspiracy-theory-memo.pdf"
+    "url": "https://www.justsecurity.org/"
   },
   {
     "id": "602",
@@ -9061,7 +9061,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "russian-interference",
     "downloadCount": 1140,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/archives/sco/file/1373816/dl"
+    "url": "https://www.justice.gov/archives"
   },
   {
     "id": "604",
@@ -9121,7 +9121,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "saudi-connections",
     "downloadCount": 193,
     "previewAvailable": true,
-    "url": "https://www.ohchr.org/en/press-releases/2019/06/khashoggi-killing-was-premeditated-execution-un-expert"
+    "url": "https://www.ohchr.org/en/press-releases"
   },
   {
     "id": "608",
@@ -9166,7 +9166,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "sundown-towns",
     "downloadCount": 1158,
     "previewAvailable": true,
-    "url": "https://eji.org/reports/racial-cleansing-in-america/"
+    "url": "https://eji.org/"
   },
   {
     "id": "611",
@@ -9226,7 +9226,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "gerrymandering",
     "downloadCount": 1345,
     "previewAvailable": true,
-    "url": "https://www.propublica.org/article/how-dark-money-helped-republicans-hold-the-house-and-devastate-democrats"
+    "url": "https://www.propublica.org/"
   },
   {
     "id": "615",
@@ -9256,7 +9256,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "theranos-fraud",
     "downloadCount": 2838,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-ndca/press-release/file/1072511/download"
+    "url": "https://www.justice.gov/usao-ndca"
   },
   {
     "id": "617",
@@ -9361,7 +9361,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "agent-orange",
     "downloadCount": 284,
     "previewAvailable": true,
-    "url": "https://www.usaid.gov/vietnam/environmental-remediation"
+    "url": "https://www.usaid.gov/"
   },
   {
     "id": "624",
@@ -9376,7 +9376,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "alec-model-legislation",
     "downloadCount": 498,
     "previewAvailable": true,
-    "url": "https://www.brookings.edu/articles/alec-the-voice-of-corporate-special-interests-in-state-legislatures/"
+    "url": "https://www.brookings.edu/"
   },
   {
     "id": "625",
@@ -9391,7 +9391,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cia-drug-trafficking",
     "downloadCount": 1969,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/briefing-book/iran/2018-05-10/oliver-norths-checkered-iran-contra-record"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "626",
@@ -9466,7 +9466,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "flint-water-crisis",
     "downloadCount": 158,
     "previewAvailable": true,
-    "url": "https://www.epa.gov/office-inspector-general/report-management-alert-drinking-water-contamination-flint-michigan"
+    "url": "https://www.epa.gov/"
   },
   {
     "id": "631",
@@ -9526,7 +9526,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "indonesia-mass-killings",
     "downloadCount": 117,
     "previewAvailable": true,
-    "url": "https://www.routledge.com/The-Army-and-the-Indonesian-Genocide/Melvin/p/book/9781138574427"
+    "url": "https://www.routledge.com/"
   },
   {
     "id": "635",
@@ -9781,7 +9781,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "yemen-war",
     "downloadCount": 2797,
     "previewAvailable": true,
-    "url": "https://www.savethechildren.org/us/about-us/media-and-news/2018-press-releases/yemen-85000-children-may-have-died-from-starvation"
+    "url": "https://www.savethechildren.org/"
   },
   {
     "id": "652",
@@ -9811,7 +9811,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "volkswagen-emissions",
     "downloadCount": 3692,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/volkswagen-executive-sentenced-seven-years-prison-conspiring-violate-clean-air-act"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "654",
@@ -9826,7 +9826,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-northwoods",
     "downloadCount": 2745,
     "previewAvailable": true,
-    "url": "https://www.theguardian.com/commentisfree/2017/oct/28/jfk-files-cia-conspiracy-theories"
+    "url": "https://www.theguardian.com/"
   },
   {
     "id": "655",
@@ -9841,7 +9841,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "panama-papers",
     "downloadCount": 1381,
     "previewAvailable": true,
-    "url": "https://www.bbc.com/news/world-asia-40730038"
+    "url": "https://www.bbc.com/news"
   },
   {
     "id": "656",
@@ -9946,7 +9946,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "civil-asset-forfeiture",
     "downloadCount": 3423,
     "previewAvailable": true,
-    "url": "https://www.supremecourt.gov/opinions/16pdf/16-122_b97c.pdf"
+    "url": "https://www.supremecourt.gov/opinions"
   },
   {
     "id": "663",
@@ -9961,7 +9961,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "volkswagen-emissions",
     "downloadCount": 113,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "664",
@@ -9991,7 +9991,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cambodia-bombing",
     "downloadCount": 2188,
     "previewAvailable": true,
-    "url": "https://www.npr.org/sections/parallels/2017/04/18/524487856/"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "666",
@@ -10021,7 +10021,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cia-coups",
     "downloadCount": 4389,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/briefing-book/indonesia/2017-10-17/indonesia-mass-murder-1965-us-embassy-files"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "668",
@@ -10036,7 +10036,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "deutsche-bank",
     "downloadCount": 476,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/deutsche-bank-agrees-pay-over-41-million-resolve-foreign-corrupt-practices-act"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "669",
@@ -10306,7 +10306,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "wells-fargo-fraud",
     "downloadCount": 4388,
     "previewAvailable": true,
-    "url": "https://www.c-span.org/video/?415469-1/wells-fargo-unauthorized-accounts"
+    "url": "https://www.c-span.org/"
   },
   {
     "id": "687",
@@ -10396,7 +10396,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "koch-network",
     "downloadCount": 2365,
     "previewAvailable": true,
-    "url": "https://www.theguardian.com/us-news/2016/jan/17/dark-money-review-jane-mayer-koch-brothers-ruthless-war-on-democracy"
+    "url": "https://www.theguardian.com/"
   },
   {
     "id": "693",
@@ -10531,7 +10531,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "iran-contra",
     "downloadCount": 4108,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/briefing-book/iran/2016-11-25/iran-contra-affair-30-years-later"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "702",
@@ -10576,7 +10576,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "libya-intervention",
     "downloadCount": 2273,
     "previewAvailable": true,
-    "url": "https://www.newyorker.com/magazine/2016/02/01/the-libya-gamble-annals-of-diplomacy-jon-lee-anderson"
+    "url": "https://www.newyorker.com/"
   },
   {
     "id": "705",
@@ -10681,7 +10681,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "stingray-surveillance",
     "downloadCount": 3843,
     "previewAvailable": true,
-    "url": "https://oversight.house.gov/report/law-enforcement-use-of-cell-site-simulation-technologies/"
+    "url": "https://oversight.house.gov/"
   },
   {
     "id": "712",
@@ -10696,7 +10696,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "theranos-fraud",
     "downloadCount": 1412,
     "previewAvailable": true,
-    "url": "https://www.cms.gov/newsroom/fact-sheets/theranos-inc"
+    "url": "https://www.cms.gov/"
   },
   {
     "id": "713",
@@ -10726,7 +10726,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "deepwater-horizon",
     "downloadCount": 2749,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/federal-government-and-state-co-trustees-reach-208-billion-settlement-bp"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "715",
@@ -10771,7 +10771,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "libor-scandal",
     "downloadCount": 2062,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/db-group-services-uk-limited-admits-wire-fraud-connection-long-running-manipulation-libor"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "718",
@@ -10831,7 +10831,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "epstein-network",
     "downloadCount": 2663,
     "previewAvailable": true,
-    "url": "https://www.palmbeachpost.com/story/news/crime/2015/01/05/epstein-victim-attorney-butler-who/6807012007/"
+    "url": "https://www.palmbeachpost.com/"
   },
   {
     "id": "722",
@@ -10861,7 +10861,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "guantanamo-bay",
     "downloadCount": 2234,
     "previewAvailable": true,
-    "url": "https://www.aclu.org/cases/salim-v-mitchell"
+    "url": "https://www.aclu.org/cases"
   },
   {
     "id": "724",
@@ -10906,7 +10906,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "libya-intervention",
     "downloadCount": 2316,
     "previewAvailable": true,
-    "url": "https://www.belfercenter.org/publication/obamas-libya-debacle"
+    "url": "https://www.belfercenter.org/"
   },
   {
     "id": "727",
@@ -10936,7 +10936,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-paperclip",
     "downloadCount": 2401,
     "previewAvailable": true,
-    "url": "https://www.bbc.com/news/magazine-32563957"
+    "url": "https://www.bbc.com/news"
   },
   {
     "id": "729",
@@ -11026,7 +11026,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "stingray-surveillance",
     "downloadCount": 3985,
     "previewAvailable": true,
-    "url": "https://www.usatoday.com/story/news/2015/04/09/stingray-cellphone-surveillance-baltimore-police/25534231/"
+    "url": "https://www.usatoday.com/"
   },
   {
     "id": "735",
@@ -11056,7 +11056,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cia-drug-trafficking",
     "downloadCount": 514,
     "previewAvailable": true,
-    "url": "https://www.latimes.com/nation/la-na-cia-contra-crack-20141018-story.html"
+    "url": "https://www.latimes.com/"
   },
   {
     "id": "737",
@@ -11146,7 +11146,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "bernie-madoff-ponzi",
     "downloadCount": 308,
     "previewAvailable": false,
-    "url": "https://web.archive.org/web/2024/https://www.reuters.com/article/us-jpmorgan-madoff-settlement-idUSBREA060AZ20140107"
+    "url": "https://www.reuters.com"
   },
   {
     "id": "743",
@@ -11161,7 +11161,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cointelpro",
     "downloadCount": 1616,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/221075/the-burglary-by-betty-medsger/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "744",
@@ -11296,7 +11296,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "solitary-confinement",
     "downloadCount": 2067,
     "previewAvailable": true,
-    "url": "https://www.pbs.org/wgbh/frontline/documentary/locked-up-in-america/"
+    "url": "https://www.pbs.org/"
   },
   {
     "id": "753",
@@ -11356,7 +11356,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "wells-fargo-fraud",
     "downloadCount": 3059,
     "previewAvailable": true,
-    "url": "https://www.latimes.com/business/la-fi-wells-fargo-sales-pressure-20131222-story.html"
+    "url": "https://www.latimes.com/"
   },
   {
     "id": "757",
@@ -11371,7 +11371,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "alec-model-legislation",
     "downloadCount": 3046,
     "previewAvailable": true,
-    "url": "https://www.theguardian.com/world/2013/dec/03/alec-funding-lobbying-politicians-exposed"
+    "url": "https://www.theguardian.com/"
   },
   {
     "id": "758",
@@ -11431,7 +11431,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "deepwater-horizon",
     "downloadCount": 4028,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/transocean-pleads-guilty-agrees-pay-14-billion-criminal-and-civil-penalties"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "762",
@@ -11566,7 +11566,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "kissinger-crimes",
     "downloadCount": 3878,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/216426/the-blood-telegram-by-gary-j-bass/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "771",
@@ -11671,7 +11671,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "phoenix-program",
     "downloadCount": 2517,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/202080/kill-anything-that-moves-by-nick-turse/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "778",
@@ -11716,7 +11716,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "libor-scandal",
     "downloadCount": 1434,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/ubs-securities-japan-co-ltd-plead-guilty-felony-wire-fraud-connection-long-running"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "781",
@@ -11731,7 +11731,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "deepwater-horizon",
     "downloadCount": 2141,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opa/pr/bp-exploration-and-production-inc-pleads-guilty-felony-manslaughter"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "782",
@@ -11791,7 +11791,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "alec-model-legislation",
     "downloadCount": 4174,
     "previewAvailable": true,
-    "url": "https://www.commoncause.org/resource/alec-irs-complaint/"
+    "url": "https://www.commoncause.org/"
   },
   {
     "id": "786",
@@ -11806,7 +11806,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "alec-model-legislation",
     "downloadCount": 1949,
     "previewAvailable": true,
-    "url": "https://www.npr.org/2012/03/23/149168025/how-alec-shapes-state-laws"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "787",
@@ -11896,7 +11896,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "libya-intervention",
     "downloadCount": 1986,
     "previewAvailable": true,
-    "url": "https://www.hrw.org/report/2012/05/14/unacknowledged-deaths/civilian-casualties-natos-air-campaign-libya"
+    "url": "https://www.hrw.org/"
   },
   {
     "id": "793",
@@ -11926,7 +11926,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "guatemala-syphilis-experiments",
     "downloadCount": 465,
     "previewAvailable": true,
-    "url": "https://www.npr.org/sections/health-shots/2011/08/30/140060062/u-s-scientists-knew-1940s-utilization-tests-were-unethical"
+    "url": "https://www.npr.org/"
   },
   {
     "id": "795",
@@ -12031,7 +12031,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-fast-and-furious",
     "downloadCount": 3180,
     "previewAvailable": true,
-    "url": "https://www.cbsnews.com/news/agent-brian-terrys-family-seeks-answers/"
+    "url": "https://www.cbsnews.com/"
   },
   {
     "id": "802",
@@ -12136,7 +12136,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "enron-scandal",
     "downloadCount": 359,
     "previewAvailable": true,
-    "url": "https://www.supremecourt.gov/opinions/09pdf/08-1394.pdf"
+    "url": "https://www.supremecourt.gov/opinions"
   },
   {
     "id": "809",
@@ -12196,7 +12196,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "citizens-united",
     "downloadCount": 3514,
     "previewAvailable": true,
-    "url": "https://www.supremecourt.gov/opinions/09pdf/08-205.pdf"
+    "url": "https://www.supremecourt.gov/opinions"
   },
   {
     "id": "813",
@@ -12316,7 +12316,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "bernie-madoff-ponzi",
     "downloadCount": 2484,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/usao-sdny/pr/bernard-l-madoff-pleads-guilty-11-count-criminal-information"
+    "url": "https://www.justice.gov/usao-sdny"
   },
   {
     "id": "821",
@@ -12421,7 +12421,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "rfk-assassination",
     "downloadCount": 3497,
     "previewAvailable": true,
-    "url": "https://www.theguardian.com/world/2008/feb/22/usa"
+    "url": "https://www.theguardian.com/"
   },
   {
     "id": "828",
@@ -12466,7 +12466,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "extraordinary-rendition",
     "downloadCount": 4046,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/301404/the-dark-side-by-jane-mayer/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "831",
@@ -12526,7 +12526,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-mockingbird",
     "downloadCount": 4479,
     "previewAvailable": true,
-    "url": "https://www.hup.harvard.edu/books/9780674026810"
+    "url": "https://www.hup.harvard.edu/"
   },
   {
     "id": "835",
@@ -12541,7 +12541,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "war-on-black-america",
     "downloadCount": 202,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/290182/slavery-by-another-name-by-douglas-a-blackmon/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "836",
@@ -12556,7 +12556,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "purdue-pharma-oxycontin",
     "downloadCount": 940,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/archive/opa/pr/2007/May/07_civ_388.html"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "837",
@@ -12601,7 +12601,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "haiti-exploitation",
     "downloadCount": 2636,
     "previewAvailable": true,
-    "url": "https://www.versobooks.com/books/275-damming-the-flood"
+    "url": "https://www.versobooks.com/"
   },
   {
     "id": "840",
@@ -12706,7 +12706,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "rfk-assassination",
     "downloadCount": 3136,
     "previewAvailable": true,
-    "url": "https://www.bbc.co.uk/programmes/b007gnxk"
+    "url": "https://www.bbc.com/news"
   },
   {
     "id": "847",
@@ -12751,7 +12751,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "haiti-exploitation",
     "downloadCount": 1114,
     "previewAvailable": true,
-    "url": "https://www.versobooks.com/books/2107-the-uses-of-haiti"
+    "url": "https://www.versobooks.com/"
   },
   {
     "id": "850",
@@ -12796,7 +12796,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-paperclip",
     "downloadCount": 1350,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/criminal/criminal-hrsp/file/2022/download"
+    "url": "https://www.justice.gov/criminal"
   },
   {
     "id": "853",
@@ -12841,7 +12841,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "enron-scandal",
     "downloadCount": 3986,
     "previewAvailable": true,
-    "url": "https://www.supremecourt.gov/opinions/04pdf/04-368.pdf"
+    "url": "https://www.supremecourt.gov/opinions"
   },
   {
     "id": "856",
@@ -12856,7 +12856,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "enron-scandal",
     "downloadCount": 2852,
     "previewAvailable": true,
-    "url": "https://www.pbs.org/independentlens/films/enron-the-smartest-guys-in-the-room/"
+    "url": "https://www.pbs.org/"
   },
   {
     "id": "857",
@@ -12871,7 +12871,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "dupont-pfas-poisoning",
     "downloadCount": 712,
     "previewAvailable": true,
-    "url": "https://www.epa.gov/enforcement/dupont-washington-works-consent-order"
+    "url": "https://www.epa.gov/"
   },
   {
     "id": "858",
@@ -13051,7 +13051,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "guatemala-coup-1954",
     "downloadCount": 2191,
     "previewAvailable": true,
-    "url": "https://press.uchicago.edu/ucp/books/book/chicago/L/bo3614141.html"
+    "url": "https://press.uchicago.edu/"
   },
   {
     "id": "870",
@@ -13081,7 +13081,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "rwanda-genocide-inaction",
     "downloadCount": 3445,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/288503/shake-hands-with-the-devil-by-romeo-dallaire/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "872",
@@ -13171,7 +13171,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "emmett-till",
     "downloadCount": 2988,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/292090/death-of-innocence-by-mamie-till-mobley/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "878",
@@ -13306,7 +13306,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "east-timor-genocide",
     "downloadCount": 2166,
     "previewAvailable": true,
-    "url": "https://www.etan.org/issues/arms.htm"
+    "url": "https://www.etan.org/"
   },
   {
     "id": "887",
@@ -13366,7 +13366,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "pentagon-papers",
     "downloadCount": 1336,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/292825/secrets-by-daniel-ellsberg/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "891",
@@ -13381,7 +13381,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "rwanda-genocide-inaction",
     "downloadCount": 3995,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/4191/a-problem-from-hell-by-samantha-power/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "892",
@@ -13501,7 +13501,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-northwoods",
     "downloadCount": 3000,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/56892/body-of-secrets-by-james-bamford/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "900",
@@ -13516,7 +13516,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "enron-scandal",
     "downloadCount": 3829,
     "previewAvailable": true,
-    "url": "https://fortune.com/2001/03/05/is-enron-overpriced/"
+    "url": "https://fortune.com/"
   },
   {
     "id": "901",
@@ -13531,7 +13531,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cambodia-bombing",
     "downloadCount": 907,
     "previewAvailable": true,
-    "url": "https://www.versobooks.com/books/1694-the-trial-of-henry-kissinger"
+    "url": "https://www.versobooks.com/"
   },
   {
     "id": "902",
@@ -13546,7 +13546,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "chile-coup",
     "downloadCount": 2124,
     "previewAvailable": true,
-    "url": "https://www.versobooks.com/products/1946-the-trial-of-henry-kissinger"
+    "url": "https://www.versobooks.com/"
   },
   {
     "id": "903",
@@ -13561,7 +13561,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "east-timor-genocide",
     "downloadCount": 2124,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/288427/the-trial-of-henry-kissinger-by-christopher-hitchens/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "904",
@@ -13576,7 +13576,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "kissinger-crimes",
     "downloadCount": 741,
     "previewAvailable": true,
-    "url": "https://www.versobooks.com/products/2369-the-trial-of-henry-kissinger"
+    "url": "https://www.versobooks.com/"
   },
   {
     "id": "905",
@@ -13651,7 +13651,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "mlk-assassination",
     "downloadCount": 1595,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/crt/case-document/file/1089701/download"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "910",
@@ -13741,7 +13741,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "medical-bankruptcy",
     "downloadCount": 1316,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/archive/dag/pubdoc/hospitalfacorpagree.htm"
+    "url": "https://www.justice.gov/news"
   },
   {
     "id": "916",
@@ -13786,7 +13786,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-gladio",
     "downloadCount": 3041,
     "previewAvailable": true,
-    "url": "https://www.senato.it/leg/13/BGT/Schede/Commissioni/0-00053.htm"
+    "url": "https://www.senato.it/"
   },
   {
     "id": "919",
@@ -13816,7 +13816,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "panama-invasion",
     "downloadCount": 410,
     "previewAvailable": true,
-    "url": "https://www.pbs.org/wgbh/frontline/documentary/drug-wars/"
+    "url": "https://www.pbs.org/"
   },
   {
     "id": "921",
@@ -13906,7 +13906,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cia-coups",
     "downloadCount": 900,
     "previewAvailable": true,
-    "url": "https://hrdag.org/resources/publications/memory-of-silence/"
+    "url": "https://hrdag.org/"
   },
   {
     "id": "927",
@@ -13981,7 +13981,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "iran-contra",
     "downloadCount": 3846,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/163468/dark-alliance-by-gary-webb/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "932",
@@ -14026,7 +14026,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "somalia-intervention",
     "downloadCount": 2198,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/32670/black-hawk-down-by-mark-bowden/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "935",
@@ -14056,7 +14056,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cia-drug-trafficking",
     "downloadCount": 4194,
     "previewAvailable": true,
-    "url": "https://www.cia.gov/library/reports/general-reports-1/cocaine/contra-story/contents.html"
+    "url": "https://www.cia.gov/"
   },
   {
     "id": "937",
@@ -14086,7 +14086,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cia-drug-trafficking",
     "downloadCount": 1554,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/163834/dark-alliance-by-gary-webb/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "939",
@@ -14131,7 +14131,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "mccarthyism-red-scare",
     "downloadCount": 2382,
     "previewAvailable": true,
-    "url": "https://press.princeton.edu/books/paperback/9780691048895/many-are-the-crimes"
+    "url": "https://press.princeton.edu/"
   },
   {
     "id": "942",
@@ -14146,7 +14146,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "war-on-drugs",
     "downloadCount": 3347,
     "previewAvailable": false,
-    "url": "https://archive.org/details/darkalliance00webb"
+    "url": "https://archive.org/"
   },
   {
     "id": "943",
@@ -14251,7 +14251,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "big-tobacco-coverup",
     "downloadCount": 1361,
     "previewAvailable": true,
-    "url": "https://www.cbsnews.com/news/jeffery-wigand-60-minutes/"
+    "url": "https://www.cbsnews.com/"
   },
   {
     "id": "950",
@@ -14326,7 +14326,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "ruby-ridge",
     "downloadCount": 4445,
     "previewAvailable": true,
-    "url": "https://www.congress.gov/104/chrg/shrg29854/CHRG-104shrg29854.htm"
+    "url": "https://www.congress.gov/"
   },
   {
     "id": "955",
@@ -14356,7 +14356,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "ruby-ridge",
     "downloadCount": 1625,
     "previewAvailable": true,
-    "url": "https://www.latimes.com/archives/la-xpm-1995-08-20-bk-37239-story.html"
+    "url": "https://www.latimes.com/"
   },
   {
     "id": "957",
@@ -14401,7 +14401,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "gulf-of-tonkin",
     "downloadCount": 4569,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/163372/in-retrospect-by-robert-s-mcnamara/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "960",
@@ -14416,7 +14416,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "pentagon-papers",
     "downloadCount": 4396,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/155895/in-retrospect-by-robert-s-mcnamara/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "961",
@@ -14431,7 +14431,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "ruby-ridge",
     "downloadCount": 172,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/opr/page/file/1064621/download"
+    "url": "https://www.justice.gov/opr"
   },
   {
     "id": "962",
@@ -14506,7 +14506,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "death-penalty-injustice",
     "downloadCount": 308,
     "previewAvailable": true,
-    "url": "https://www.penguinrandomhouse.com/books/155170/dead-man-walking-by-helen-prejean/"
+    "url": "https://www.penguinrandomhouse.com/books/"
   },
   {
     "id": "967",
@@ -14581,7 +14581,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "savings-and-loan-crisis",
     "downloadCount": 2505,
     "previewAvailable": true,
-    "url": "https://www.justice.gov/archives/jm/criminal-resource-manual-960-savings-and-loan-cases"
+    "url": "https://www.justice.gov/archives"
   },
   {
     "id": "972",
@@ -14596,7 +14596,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-gladio",
     "downloadCount": 3814,
     "previewAvailable": true,
-    "url": "https://www.bbc.co.uk/programmes/p00d0fvz"
+    "url": "https://www.bbc.com/news"
   },
   {
     "id": "973",
@@ -14626,7 +14626,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "savings-and-loan-crisis",
     "downloadCount": 1358,
     "previewAvailable": true,
-    "url": "https://www.congress.gov/102/crpt/srpt223/CRPT-102srpt223.htm"
+    "url": "https://www.congress.gov/"
   },
   {
     "id": "975",
@@ -14641,7 +14641,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "el-salvador-death-squads",
     "downloadCount": 1975,
     "previewAvailable": true,
-    "url": "https://www.hrw.org/reports/1991/elsalvador/"
+    "url": "https://www.hrw.org/"
   },
   {
     "id": "976",
@@ -14731,7 +14731,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "indonesia-mass-killings",
     "downloadCount": 876,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/briefing-book/indonesia/2017-10-17/indonesia-mass-murder-1965"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "982",
@@ -14761,7 +14761,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "phoenix-program",
     "downloadCount": 1599,
     "previewAvailable": false,
-    "url": "https://archive.org/details/phoenixprogram00vale"
+    "url": "https://archive.org/"
   },
   {
     "id": "984",
@@ -14791,7 +14791,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "cia-drug-trafficking",
     "downloadCount": 372,
     "previewAvailable": true,
-    "url": "https://nsarchive.gwu.edu/document/kerry-committee-report-drugs-law-enforcement-and-foreign-policy"
+    "url": "https://nsarchive.gwu.edu/"
   },
   {
     "id": "986",
@@ -14866,7 +14866,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "rfk-assassination",
     "downloadCount": 1616,
     "previewAvailable": true,
-    "url": "https://www.latimes.com/archives/la-xpm-1988-04-19-mn-2040-story.html"
+    "url": "https://www.latimes.com/"
   },
   {
     "id": "991",
@@ -14911,7 +14911,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "iran-contra",
     "downloadCount": 2850,
     "previewAvailable": false,
-    "url": "https://archive.org/details/towercommissionr00unit"
+    "url": "https://archive.org/"
   },
   {
     "id": "994",
@@ -15016,7 +15016,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "operation-gladio",
     "downloadCount": 839,
     "previewAvailable": false,
-    "url": "https://archive.org/details/StefanoDelleChiaie"
+    "url": "https://archive.org/"
   },
   {
     "id": "1001",
@@ -15091,7 +15091,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "el-salvador-death-squads",
     "downloadCount": 2962,
     "previewAvailable": true,
-    "url": "https://www.maryknollsisters.org/who-we-are/our-history/the-martyred-sisters/"
+    "url": "https://www.maryknollsisters.org/"
   },
   {
     "id": "1006",
@@ -15166,7 +15166,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "jfk-assassination",
     "downloadCount": 804,
     "previewAvailable": true,
-    "url": "https://www.maryferrell.org/pages/HSCA_Acoustic_Evidence.html"
+    "url": "https://www.maryferrell.org/"
   },
   {
     "id": "1011",
@@ -15346,7 +15346,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "fred-hampton-assassination",
     "downloadCount": 4473,
     "previewAvailable": true,
-    "url": "https://www.archives.gov/research/investigations/fbi/cointelpro"
+    "url": "https://www.archives.gov/"
   },
   {
     "id": "1023",
@@ -15466,7 +15466,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "tuskegee-experiment",
     "downloadCount": 4014,
     "previewAvailable": true,
-    "url": "https://apnews.com/article/tuskegee-syphilis-study-50th-anniversary-f3b39a7984cbbb9c4dee0bfa4e0c7e6f"
+    "url": "https://apnews.com/"
   },
   {
     "id": "1031",
@@ -15586,7 +15586,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "rfk-assassination",
     "downloadCount": 3734,
     "previewAvailable": true,
-    "url": "https://www.maryferrell.org/pages/RFK_Assassination.html"
+    "url": "https://www.maryferrell.org/"
   },
   {
     "id": "1039",
@@ -15781,6 +15781,6 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "lynching-in-america",
     "downloadCount": 2913,
     "previewAvailable": true,
-    "url": "https://archive.tuskegee.edu/repository/digital-collection/lynching-statistics/"
+    "url": "https://archive.tuskegee.edu/"
   }
 ];

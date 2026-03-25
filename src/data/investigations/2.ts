@@ -67,7 +67,7 @@ const investigations_2: Record<string, InvestigationData> = {
  tags: ['2020 Election', 'Fake Electors', 'January 6', 'Trump', 'Election Interference'],
  sources: [
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
- { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/archives/sco/case-document/file/1617866/dl', type: 'Court Filing' },
+ { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/archives/case-document/file/1617866/dl', type: 'Court Filing' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [

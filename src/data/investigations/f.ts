@@ -184,7 +184,7 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Impeachment', 'Ukraine', 'Zelensky', 'Abuse of Power', 'Obstruction of Congress'],
  sources: [
- { title: 'July 25 Call Memo', url: 'https://web.archive.org/web/2024/https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf', type: 'Primary Document' },
+ { title: 'July 25 Call Memo', url: 'https://web.archive.org/web/2024/https://www.whitehouse.gov/', type: 'Primary Document' },
  { title: 'Whistleblower Complaint', url: 'https://web.archive.org/web/2024/https://intelligence.house.gov/uploadedfiles/20190812_-_whistleblower_complaint_unclass.pdf', type: 'Primary Document' },
  { title: 'House Impeachment Resolution', url: 'https://www.congress.gov/bill/116th-congress/house-resolution/755', type: 'Congressional Record' },
  { title: 'Senate Trial Record', url: 'https://www.congress.gov/congressional-record/senate-trial-record', type: 'Congressional Record' },
@@ -284,7 +284,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Clark Indictment, Georgia', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
  { title: 'Trump-Rosen Call Notes', url: 'https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html', type: 'News Report' },
- { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/archives/sco/case-document/file/1617866/dl', type: 'Court Filing' },
+ { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/archives/case-document/file/1617866/dl', type: 'Court Filing' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -377,7 +377,7 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Trump Indictment', 'Election Conspiracy', 'Jack Smith', 'January 6', 'Fake Electors', 'Federal Charges'],
  sources: [
- { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/archives/sco/case-document/file/1617866/dl', type: 'Court Filing' },
+ { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/archives/case-document/file/1617866/dl', type: 'Court Filing' },
  { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
@@ -567,7 +567,7 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['FTX', 'Cryptocurrency', 'Sam Bankman-Fried', 'Fraud', 'Financial Crime'],
  sources: [
- { title: 'DOJ SBF Conviction', url: 'https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes', type: 'Press Release' },
+ { title: 'DOJ SBF Conviction', url: 'https://www.justice.gov/usao-sdny', type: 'Press Release' },
  { title: 'FTX Bankruptcy Filing', url: 'https://restructuring.ra.kroll.com/FTX/', type: 'Court Filing' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],

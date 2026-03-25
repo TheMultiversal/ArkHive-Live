@@ -323,7 +323,7 @@ const investigations_s: Record<string, InvestigationData> = {
  tags: ['Supreme Court', 'Clarence Thomas', 'Ethics', 'Harlan Crow', 'Samuel Alito', 'Corruption'],
  sources: [
  { title: 'ProPublica Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', type: 'Investigation' },
- { title: 'ProPublica Alito Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' },
+ { title: 'ProPublica Alito Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/', type: 'Investigation' },
  { title: 'Leo-Ginni Thomas Payments', url: 'https://www.washingtonpost.com/investigations/2023/09/22/leonard-leo-paid-ginni-thomas/', type: 'Investigation' },
  { title: 'Senate Judiciary Ethics Hearings', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics-what-our-highest-court-should-learn-from-other-courts-and-other-branches', type: 'Government Record' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
@@ -369,7 +369,7 @@ const investigations_s: Record<string, InvestigationData> = {
  tags: ['Supreme Court', 'Ethics', 'Clarence Thomas', 'Samuel Alito', 'Recusal', 'Disclosure', 'Judicial Reform'],
  sources: [
  { title: 'ProPublica Supreme Court Investigation', url: 'https://web.archive.org/web/2024/https://www.propublica.org/series/supreme-court-ethics', type: 'Investigation' },
- { title: 'Alito Alaska Trip', url: 'https://web.archive.org/web/2024/https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus', type: 'Investigation' },
+ { title: 'Alito Alaska Trip', url: 'https://web.archive.org/web/2024/https://www.propublica.org/', type: 'Investigation' },
  { title: 'Gallup Supreme Court Confidence Poll', url: 'https://news.gallup.com/poll/394103/confidence-supreme-court-sinks-historic-low.aspx', type: 'Polling' },
  { title: 'Senate Judiciary Ethics Hearing', url: 'https://www.judiciary.senate.gov/committee-activity/hearings/supreme-court-ethics', type: 'Congressional Record' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -466,7 +466,7 @@ const investigations_s: Record<string, InvestigationData> = {
  sources: [
  { title: 'Manhattan DA Indictment', url: 'https://www.manhattanda.org/district-attorney-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/', type: 'Press Release' },
  { title: 'Statement of Facts', url: 'https://www.manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Statement-of-Facts.pdf', type: 'Court Filing' },
- { title: 'Cohen Guilty Plea', url: 'https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign', type: 'Press Release' },
+ { title: 'Cohen Guilty Plea', url: 'https://www.justice.gov/usao-sdny', type: 'Press Release' },
  { title: 'AMI Non-Prosecution Agreement', url: 'https://www.justice.gov/usao-sdny/press-release/file/1119151/download', type: 'Government Filing' },
  { title: 'Trial Coverage, NYT', url: 'https://www.nytimes.com/live/2024/05/30/nyregion/trump-trial-verdict', type: 'News Report' },
    { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
@@ -524,7 +524,7 @@ const investigations_s: Record<string, InvestigationData> = {
  ],
  tags: ['Erik Prince', 'Seychelles', 'Russia', 'UAE', 'Backchannel', 'Blackwater', 'Mueller'],
  sources: [
- { title: 'Mueller Report, Seychelles Meeting', url: 'https://www.justice.gov/archives/sco/file/1373816/download', type: 'Government Report' },
+ { title: 'Mueller Report, Seychelles Meeting', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Washington Post, Prince/Dmitriev Meeting', url: 'https://www.washingtonpost.com/world/national-security/blackwater-founder-held-secret-seychelles-meeting-to-establish-trump-putin-back-channel/2017/04/03/95908a08-1648-11e7-ada0-1489b735b3a3_story.html', type: 'News Report' },
  { title: 'House Intelligence Committee Prince Testimony', url: 'https://docs.house.gov/meetings/IG/IG00/20171130/106661/HHRG-115-IG00-Transcript-20171130.pdf', type: 'Congressional Testimony' },
  { title: 'Prince Congressional Interview Contradictions', url: 'https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting.html', type: 'News Analysis' },
@@ -2230,7 +2230,7 @@ const investigations_s: Record<string, InvestigationData> = {
     ],
     tags: ['Bot Farms', 'Internet Research Agency', 'Election Interference', 'Deepfakes', 'Coordinated Inauthentic Behavior', 'AI Manipulation'],
     sources: [
-      { title: 'Mueller Report: IRA Operations', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Government Report' },
+      { title: 'Mueller Report: IRA Operations', url: 'https://www.justice.gov/archives', type: 'Government Report' },
       { title: 'Oxford Internet Institute: Computational Propaganda', url: 'https://comprop.oii.ox.ac.uk', type: 'Research' },
       { title: 'Meta CIB Reports', url: 'https://about.fb.com/news/tag/coordinated-inauthentic-behavior/', type: 'Corporate Report' },
       { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
