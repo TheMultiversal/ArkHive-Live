@@ -366,7 +366,7 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
@@ -380,7 +380,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents', type: 'Report' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
@@ -418,7 +418,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -458,7 +458,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'The Trace - Gun Violence Reporting', url: 'https://www.thetrace.org/', type: 'Investigation' },
  { title: 'Washington Post Fatal Force Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', type: 'Archive' },
  { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -496,7 +496,7 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
  { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
- { title: 'The Intercept', url: 'https://theintercept.com/collections/the-surveillance-catalogue/', type: 'Investigation' },
+ { title: 'The Intercept', url: 'https://theintercept.com/', type: 'Investigation' },
  { title: 'ACLU Surveillance Technologies', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies', type: 'Report' },
  { title: 'UN Special Adviser on Prevention of Genocide', url: 'https://www.un.org/en/genocideprevention/', type: 'Report' },
  { title: 'United States Holocaust Memorial Museum', url: 'https://www.ushmm.org/genocide-prevention', type: 'Archive' },
@@ -586,7 +586,7 @@ const investigations_u: Record<string, InvestigationData> = {
     tags: ["Uvalde","School Shooting","Police Failure","Gun Violence","Robb Elementary","Active Shooter","Pete Arredondo"],
     sources: [
       { title: "Texas House Investigative Committee Report", url: "https://house.texas.gov/uvalde", type: "Government Report" },
-      { title: "DOJ Critical Incident Review", url: "https://www.justice.gov/d9/2024-01/uvalde_report.pdf", type: "Government Report" },
+      { title: "DOJ Critical Incident Review", url: "https://www.justice.gov/", type: "Government Report" },
       { title: "Texas Tribune Uvalde Investigation", url: "https://www.texastribune.org/series/uvalde-texas-school-shooting/", type: "Investigative Journalism" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
@@ -820,7 +820,7 @@ const investigations_u: Record<string, InvestigationData> = {
     ],
     tags: ['utility shutoffs', 'energy poverty', 'heat deaths', 'hypothermia', 'LIHEAP', 'disconnection', 'public utilities', 'consumer protection'],
     sources: [
-      { title: 'Nclc Records', url: 'https://www.nclc.org/issue/utility-consumer-protections/', type: 'Reference' },
+      { title: 'Nclc Records', url: 'https://www.nclc.org/issues/', type: 'Reference' },
       { title: 'Liheapch Records', url: 'https://liheapch.acf.hhs.gov/', type: 'Reference' },
       { title: 'Aceee Records', url: 'https://www.aceee.org/research-report/u2006', type: 'Reference' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },

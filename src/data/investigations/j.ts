@@ -155,7 +155,7 @@ const investigations_j: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
@@ -362,7 +362,7 @@ const investigations_j: Record<string, InvestigationData> = {
     ],
     tags: ['juul', 'vaping', 'teen-nicotine', 'fda', 'tobacco', 'youth-marketing', 'public-health', 'e-cigarettes', 'altria'],
     sources: [
-      { title: 'FDA: JUUL Premarket Tobacco Product Applications', url: 'https://www.fda.gov/tobacco-products/market-and-distribute-tobacco-product/juul-labs-inc', type: 'Government' },
+      { title: 'FDA: JUUL Premarket Tobacco Product Applications', url: 'https://www.fda.gov/tobacco-products', type: 'Government' },
       { title: 'CDC: National Youth Tobacco Survey Data', url: 'https://www.cdc.gov/tobacco/data_statistics/surveys/nyts/', type: 'Government Data' },
       { title: 'State of Massachusetts v. JUUL Labs: Complaint', url: 'https://www.mass.gov/news/ag-healey-sues-juul-for-creating-youth-vaping-epidemic', type: 'Legal Filing' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
@@ -519,7 +519,7 @@ const investigations_j: Record<string, InvestigationData> = {
     ],
     tags: ['judicial elections', 'dark money', 'court capture', 'Citizens United', 'Chamber of Commerce', 'Wisconsin', 'campaign finance', 'judicial independence', 'Federalist Society', 'tort reform'],
     sources: [
-      { title: 'Brennan Center: Judicial Election Spending Tracker', url: 'https://www.brennancenter.org/judicial-selection', type: 'Research' },
+      { title: 'Brennan Center: Judicial Election Spending Tracker', url: 'https://www.brennancenter.org/issues/strengthen-our-courts', type: 'Research' },
       { title: 'Tulane Law Review: Campaign Contributions and Judicial Decisions', url: 'https://law.tulane.edu/', type: 'Academic Study' },
       { title: 'Supreme Court: Caperton v. A.T. Massey Coal (2009)', url: 'https://www.supremecourt.gov/', type: 'Legal Document' },
       { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },

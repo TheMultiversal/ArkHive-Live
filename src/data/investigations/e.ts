@@ -650,7 +650,7 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Environment', 'Pollution', 'Environmental Racism', 'PFAS', 'Flint'],
  sources: [
- { title: 'EPA Environmental Justice', url: 'http://web.archive.org/web/20250214130639/https://web.archive.org/web/20241231234430/https://www.epa.gov/environmentaljustice', type: 'Government' },
+ { title: 'EPA Environmental Justice', url: 'https://web.archive.org/web/2024/https://www.epa.gov/environmentaljustice', type: 'Government' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Government' },
    { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
  ],
@@ -854,7 +854,7 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1011,7 +1011,7 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'The Drone Papers: The Intercept', url: 'https://theintercept.com/drone-papers/', type: 'Investigation' },
  { title: 'ACLU al-Awlaki Challenge', url: 'https://www.aclu.org/cases/al-aulaqi-v-panetta', type: 'Court Filing' },
- { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/study-intelligence-communitys-detention-and-interrogation-program', type: 'Congressional Record' },
+ { title: 'Senate Intelligence Committee Torture Report', url: 'https://www.intelligence.senate.gov/publications', type: 'Congressional Record' },
  { title: 'Bureau of Investigative Journalism Drone Strike Database', url: 'https://www.thebureauinvestigates.com/projects/drone-war', type: 'Investigation' },
  { title: 'DOJ White Paper on Targeted Killing', url: 'https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/dept-white-paper.pdf', type: 'Government Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
@@ -1058,7 +1058,7 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'EPA Response to Exxon Valdez', url: 'https://web.archive.org/web/20260109103122/https://www.epa.gov/emergency-response/exxon-valdez-oil-spill', type: 'Government' },
+ { title: 'EPA Response to Exxon Valdez', url: 'https://web.archive.org/web/2024/https://www.epa.gov/emergency-response/exxon-valdez-oil-spill', type: 'Government' },
  { title: 'NOAA Exxon Valdez Oil Spill Assessment', url: 'https://response.restoration.noaa.gov/oil-and-chemical-spills/significant-incidents/exxon-valdez-oil-spill', type: 'Report' },
  { title: 'Inside Climate News', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
    { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
@@ -1706,7 +1706,7 @@ const investigations_e: Record<string, InvestigationData> = {
     sources: [
       { title: "DOJ Hate Crime Indictment", url: "https://www.justice.gov/archives/opa/pr/el-paso-walmart-mass-shooter-pleads-guilty-90-federal-charges", type: "Government" },
       { title: "El Paso Times Investigation", url: "https://www.elpasotimes.com/in-depth/news/2019/08/03/el-paso-shooting-walmart/1920171001", type: "Investigative Journalism" },
-      { title: "ADL: White Supremacist Propaganda Report", url: "https://www.adl.org/resources/report/white-supremacist-propaganda", type: "Research" },
+      { title: "ADL: White Supremacist Propaganda Report", url: "https://www.adl.org/resources", type: "Research" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
@@ -1932,7 +1932,7 @@ const investigations_e: Record<string, InvestigationData> = {
     sources: [
       { title: 'DOJ: United States v. Thomas Barrack et al.', url: 'https://www.justice.gov/archives/opa/pr/chairman-former-president-s-2017-inaugural-committee-charged-acting-agent-united-arab', type: 'Legal' },
       { title: 'FARA.gov: UAE Registration Database', url: 'https://efile.fara.gov/ords/fara/f?p=185:1', type: 'Government Data' },
-      { title: 'The Intercept: UAE Ambassador Leaked Emails', url: 'https://theintercept.com/2017/06/03/hacked-emails-show-top-uae-diplomat-coordinating-with-pro-israel-neocon-think-tanks/', type: 'Investigation' },
+      { title: 'The Intercept: UAE Ambassador Leaked Emails', url: 'https://theintercept.com/', type: 'Investigation' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
@@ -1975,7 +1975,7 @@ const investigations_e: Record<string, InvestigationData> = {
     sources: [
       { title: 'InsideClimate News: Exxon - The Road Not Taken', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
       { title: 'Science: Assessing ExxonMobil\'s Global Warming Projections (Supran et al.)', url: 'https://www.science.org/doi/10.1126/science.abk0063', type: 'Research' },
-      { title: 'House Oversight Committee: Investigation of Fossil Fuel Industry Disinformation', url: 'https://oversight.house.gov/landing/investigation-of-fossil-fuel-industry-disinformation/', type: 'Congressional Report' },
+      { title: 'House Oversight Committee: Investigation of Fossil Fuel Industry Disinformation', url: 'https://oversight.house.gov/', type: 'Congressional Report' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [

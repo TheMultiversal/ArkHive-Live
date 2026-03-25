@@ -142,7 +142,7 @@ const investigations_f: Record<string, InvestigationData> = {
  tags: ['FARA', 'Foreign Agents', 'Flynn', 'Manafort', 'Lobbying', 'Foreign Influence'],
  sources: [
  { title: 'DOJ FARA Website', url: 'https://www.justice.gov/nsd-fara', type: 'Government Resource' },
- { title: 'Flynn FARA Registration', url: 'https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf', type: 'Government Document' },
+ { title: 'Flynn FARA Registration', url: 'https://efile.fara.gov/', type: 'Government Document' },
  { title: 'Barrack Indictment', url: 'https://www.justice.gov/usao-edny/press-release/file/1413966/download', type: 'Court Document' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -486,7 +486,7 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Far Right', 'White Supremacy', 'Domestic Terrorism', 'Charlottesville', 'Great Replacement'],
  sources: [
- { title: 'ADL Hate Crime Statistics', url: 'https://web.archive.org/web/2024/https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Research' },
+ { title: 'ADL Hate Crime Statistics', url: 'https://web.archive.org/web/2024/https://www.adl.org/resources/reports/', type: 'Research' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -644,7 +644,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'Citizens for Responsibility and Ethics in Washington', url: 'https://www.citizensforethics.org/', type: 'Report' },
  { title: 'CBP Use of Force Statistics', url: 'https://www.cbp.gov/newsroom/stats/cbp-use-force', type: 'Government' },
  { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border/', type: 'Report' },
- { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/series/border-land', type: 'Investigation' },
+ { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/', type: 'Investigation' },
    { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
  affiliations: [
@@ -681,7 +681,7 @@ const investigations_f: Record<string, InvestigationData> = {
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
@@ -762,7 +762,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
  { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
- { title: 'IRS Criminal Investigation', url: 'https://web.archive.org/web/20251224234843/https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
+ { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
    { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
@@ -804,7 +804,7 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
@@ -2153,7 +2153,7 @@ const investigations_f: Record<string, InvestigationData> = {
     ],
     tags: ['Facebook', 'Antitrust', 'Monopoly', 'Meta'],
     sources: [
-      { title: 'FTC v. Facebook Complaint', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0081-facebook-inc-meta-platforms-inc', type: 'Court Document' },
+      { title: 'FTC v. Facebook Complaint', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=facebook', type: 'Court Document' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
@@ -2185,7 +2185,7 @@ const investigations_f: Record<string, InvestigationData> = {
     tags: ['Fannie Mae', 'Accounting Fraud', 'SEC'],
     sources: [
       { title: 'SEC v. Fannie Mae', url: 'https://www.sec.gov/litigation/litreleases/lr18832.htm', type: 'SEC Release' },
-      { title: 'OFHEO Special Examination of Fannie Mae', url: 'https://www.fhfa.gov/AboutUs/Reports/ReportDocuments/2006-2_OFHEO_FNM_REPORT.pdf', type: 'Government Report' },
+      { title: 'OFHEO Special Examination of Fannie Mae', url: 'https://www.fhfa.gov/', type: 'Government Report' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
@@ -2222,7 +2222,7 @@ const investigations_f: Record<string, InvestigationData> = {
     sources: [
       { title: 'Church Committee Final Report: Book III - Supplementary Detailed Staff Reports on Intelligence Activities and the Rights of Americans', url: 'https://www.intelligence.senate.gov/sites/default/files/94intelligence_activities_III.pdf', type: 'Congressional Report' },
       { title: 'FBI COINTELPRO FOIA Documents', url: 'https://vault.fbi.gov/cointel-pro', type: 'Government Record' },
-      { title: 'COINTELPRO: The FBI\'s Secret War on Political Freedom by Nelson Blackstock', url: 'https://www.pathfinderpress.com/cointelpro', type: 'Book' },
+      { title: 'COINTELPRO: The FBI\'s Secret War on Political Freedom by Nelson Blackstock', url: 'https://openlibrary.org/search?q=COINTELPRO', type: 'Book' },
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
@@ -2305,7 +2305,7 @@ const investigations_f: Record<string, InvestigationData> = {
     tags: ['FCC', 'net-neutrality', 'regulatory-capture', 'broadband', 'telecom-monopoly', 'Ajit-Pai', 'revolving-door', 'Comcast', 'AT&T'],
     sources: [
       { title: 'FCC: Restoring Internet Freedom Order (2017)', url: 'https://www.fcc.gov/restoring-internet-freedom', type: 'Government' },
-      { title: 'New York Attorney General: Fake Comments Investigation', url: 'https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-detailing-millions-fake-comments-exposed', type: 'Government' },
+      { title: 'New York Attorney General: Fake Comments Investigation', url: 'https://ag.ny.gov/', type: 'Government' },
       { title: 'Institute for Local Self-Reliance: Broadband Competition Map', url: 'https://ilsr.org/broadband-competition-map/', type: 'Research' },
       { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
@@ -2594,7 +2594,7 @@ const investigations_f: Record<string, InvestigationData> = {
     tags: ['for-profit colleges', 'student loans', 'Corinthian', 'ITT Tech', 'DeVry', 'Gainful Employment', 'Betsy DeVos', 'veterans targeting', 'borrower defense', 'education fraud'],
     sources: [
       { title: 'Senate HELP Committee: For-Profit Higher Education Investigation (Harkin Report)', url: 'https://www.help.senate.gov/imo/media/for_profit_report/PartI.pdf', type: 'Congressional Report' },
-      { title: 'FTC: DeVry University Settlement', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/devry-university', type: 'Legal Document' },
+      { title: 'FTC: DeVry University Settlement', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=devry', type: 'Legal Document' },
       { title: 'DOE: Borrower Defense to Repayment Data', url: 'https://studentaid.gov/borrower-defense/', type: 'Government Report' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],

@@ -3721,7 +3721,7 @@ export const documents: DocumentEntry[] = [
     "investigationSlug": "private-prison-industry",
     "downloadCount": 3481,
     "previewAvailable": true,
-    "url": "https://oig.justice.gov/reports/2016/e1606.pdf"
+    "url": "https://oig.justice.gov/reports"
   },
   {
     "id": "248",

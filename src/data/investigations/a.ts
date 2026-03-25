@@ -605,10 +605,10 @@ const investigations_a: Record<string, InvestigationData> = {
  tags: ['Civil Rights', 'Surveillance', 'COINTELPRO', 'Black Lives Matter', 'Standing Rock', 'Environmental Justice', 'First Amendment'],
  sources: [
  { title: 'FBI COINTELPRO Documents: Church Committee', url: 'https://www.intelligence.senate.gov/sites/default/files/94755_III.pdf', type: 'Congressional Record' },
- { title: 'TigerSwan Internal Documents', url: 'https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-ichinery/', type: 'Leaked Document' },
+ { title: 'TigerSwan Internal Documents', url: 'https://theintercept.com/', type: 'Leaked Document' },
  { title: 'FBI Black Identity Extremism Report', url: 'https://www.documentcloud.org/documents/4067711-BIE-Redacted.html', type: 'Government Report' },
  { title: 'ICNL US Protest Law Tracker', url: 'https://www.icnl.org/usprotestlawtracker/', type: 'Legal Analysis' },
- { title: 'ACLU Anti-Protest Legislation Report', url: 'https://web.archive.org/web/20250104184245/https://www.aclu.org/issues/free-speech/rights-protesters/anti-protest-bills-around-country', type: 'Legal Analysis' },
+ { title: 'ACLU Anti-Protest Legislation Report', url: 'https://www.aclu.org/issues/free-speech', type: 'Legal Analysis' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
@@ -757,7 +757,7 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ Press Releases', url: 'https://www.justice.gov/usao/pressreleases', type: 'Government' },
  { title: 'Court Records via PACER', url: 'https://www.pacer.gov/', type: 'Document' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
@@ -823,7 +823,7 @@ const investigations_a: Record<string, InvestigationData> = {
  tags: ['Extremism', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
@@ -928,7 +928,7 @@ const investigations_a: Record<string, InvestigationData> = {
  tags: ['Hate Crimes', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
  { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
@@ -1045,8 +1045,8 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
- { title: 'ADL Audit of Antisemitic Incidents', url: 'https://www.adl.org/resources/report/audit-antisemitic-incidents', type: 'Report' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
+ { title: 'ADL Audit of Antisemitic Incidents', url: 'https://www.adl.org/resources', type: 'Report' },
  { title: 'FBI Hate Crime Statistics', url: 'https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr/hate-crime', type: 'Government' },
  { title: 'United States Holocaust Memorial Museum', url: 'https://www.ushmm.org/', type: 'Archive' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -1083,7 +1083,7 @@ const investigations_a: Record<string, InvestigationData> = {
  { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
  { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
  { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' },
- { title: 'ADL Audit of Antisemitic Incidents', url: 'https://www.adl.org/resources/report/audit-antisemitic-incidents', type: 'Report' },
+ { title: 'ADL Audit of Antisemitic Incidents', url: 'https://www.adl.org/resources', type: 'Report' },
  { title: 'FBI Hate Crime Statistics', url: 'https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr/hate-crime', type: 'Government' },
  { title: 'United States Holocaust Memorial Museum', url: 'https://www.ushmm.org/', type: 'Archive' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -1152,7 +1152,7 @@ const investigations_a: Record<string, InvestigationData> = {
  ],
  tags: ['Civil Rights', 'Human Rights', 'Investigation', 'Accountability'],
  sources: [
- { title: 'DHS OIG Detention Facility Reports', url: 'https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports//advisory/recommendations', type: 'Government' },
+ { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/', type: 'Government' },
  { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Report' },
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
@@ -1222,7 +1222,7 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1291,7 +1291,7 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1326,8 +1326,8 @@ const investigations_a: Record<string, InvestigationData> = {
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
- { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data/sexual-harassment-charges', type: 'Government' },
- { title: 'Time\'s Up Legal Defense Fund', url: 'https://web.archive.org/web/20241227142956/https://timesupnow.org/', type: 'Report' },
+ { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data', type: 'Government' },
+ { title: 'Time\'s Up Legal Defense Fund', url: 'https://en.wikipedia.org/wiki/Time%27s_Up_(organization)', type: 'Report' },
  { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
  { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
  { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' },
@@ -2050,7 +2050,7 @@ const investigations_a: Record<string, InvestigationData> = {
     tags: ['Foreign Policy', 'Imperialism', 'Military Interventions', 'Regime Change', 'Economic Exploitation'],
     sources: [
       { title: 'Overthrow: America\'s Century of Regime Change', url: 'https://www.amazon.com/Overthrow-Americas-Century-Regime-Change/dp/0805082409', type: 'Book' },
-      { title: 'Killing Hope: U.S. Military and CIA Interventions', url: 'https://www.amazon.com/Killing-Hope-Military-Interventions-Since/dp/2159', type: 'Book' },
+      { title: 'Killing Hope: U.S. Military and CIA Interventions', url: 'https://openlibrary.org/works/OL2754632W/Killing_Hope', type: 'Book' },
       { title: 'The Jakarta Method', url: 'https://www.amazon.com/Jakarta-Method-Washington-Anticommunist-Crimes/dp/1541742400', type: 'Book' },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
@@ -2610,7 +2610,7 @@ const investigations_a: Record<string, InvestigationData> = {
     sources: [
       { title: 'The Taguba Report on Abu Ghraib (2004)', url: 'https://irp.fas.org/agency/dod/taguba.pdf', type: 'Government Report' },
       { title: 'Senate Armed Services Committee: Detainee Treatment Investigation', url: 'https://www.armed-services.senate.gov/hearings/treatment-of-iraqi-prisoners', type: 'Congressional Record' },
-      { title: 'ICRC Report on Treatment of Detainees in Iraq', url: 'https://www.icrc.org/en/document/iraq-icrc-deplores-abuse-detained-persons-calls-respect-international-humanitarian-law', type: 'International Body' },
+      { title: 'ICRC Report on Treatment of Detainees in Iraq', url: 'https://www.icrc.org/en', type: 'International Body' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
@@ -2651,7 +2651,7 @@ const investigations_a: Record<string, InvestigationData> = {
     tags: ['Agent Orange', 'dioxin', 'Vietnam War', 'Operation Ranch Hand', 'Dow Chemical', 'Monsanto', 'chemical warfare', 'birth defects', 'VA disability', 'PACT Act', 'medical tyranny', 'herbicide', 'TCDD', 'environmental contamination', 'crimes against humanity', 'intergenerational harm'],
     sources: [
       { title: 'VA: Agent Orange Exposure and Presumptive Conditions', url: 'https://www.va.gov/disability/eligibility/hazardous-materials-exposure/agent-orange/', type: 'Government Record' },
-      { title: 'NIH: Agent Orange and Cancer Risk (NCI)', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/agent-orange', type: 'Government Record' },
+      { title: 'NIH: Agent Orange and Cancer Risk (NCI)', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/substances', type: 'Government Record' },
       { title: 'Congressional Research Service: Agent Orange - Background and Policy', url: 'https://sgp.fas.org/crs/misc/R44268.pdf', type: 'Congressional Record' },
       { title: 'USAID: Environmental Remediation of Dioxin in Vietnam', url: 'https://web.archive.org/web/20250110002913/https://www.usaid.gov/vietnam/environmental-remediation', type: 'Government Record' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },

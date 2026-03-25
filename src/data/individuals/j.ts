@@ -8236,7 +8236,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2023-09-26', event: 'FTC files landmark antitrust lawsuit against Amazon' },
     ],
     sources: [
-      { title: 'FTC v. Amazon.com, Inc.', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings/amazon-com-inc-ftc-v', date: '2023' },
+      { title: 'FTC v. Amazon.com, Inc.', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=amazon-com-inc-ftc-v', date: '2023' },
     ],
     aliases: [],
     knownAssociates: [

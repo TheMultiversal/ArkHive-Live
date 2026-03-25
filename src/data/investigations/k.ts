@@ -21,7 +21,7 @@ const investigations_k: Record<string, InvestigationData> = {
  ],
  tags: ['Security Clearance', 'Kushner', 'National Security', 'Nepotism'],
  sources: [
- { title: 'Tricia Newbold Testimony', url: 'https://oversight.house.gov/wp-content/uploads/2019/04/2019-04-01-Cummings-Memo-on-Security-Clearance.pdf', type: 'Congressional Testimony' },
+ { title: 'Tricia Newbold Testimony', url: 'https://oversight.house.gov/', type: 'Congressional Testimony' },
  { title: 'NY Times Reporting on Trump Order', url: 'https://www.nytimes.com/2019/02/28/us/politics/jared-kushner-security-clearance.html', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -194,7 +194,7 @@ const investigations_k: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'DHS OIG Detention Facility Reports', url: 'https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports//advisory/recommendations', type: 'Government' },
+ { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/', type: 'Government' },
  { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Report' },
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
  { title: 'UN OHCHR Country Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
@@ -280,7 +280,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
  { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
- { title: 'DHS OIG Detention Facility Reports', url: 'https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports//advisory/recommendations', type: 'Government' },
+ { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/', type: 'Government' },
  { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Report' },
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
@@ -395,7 +395,7 @@ const investigations_k: Record<string, InvestigationData> = {
     sources: [
       { title: "ODNI Assessment of Khashoggi Murder", url: "https://www.dni.gov/files/ODNI/documents/assessments/Assessment-Saudi-Gov-Role-in-JK-Death-20210226v2.pdf", type: "Intelligence Report" },
       { title: "UN Special Rapporteur Report on Khashoggi", url: "https://www.ohchr.org/en/press-releases/2019/06/khashoggi-killing-un-expert-says-saudi-arabia-responsible-premeditated", type: "International Report" },
-      { title: "Turkish Intelligence Transcripts", url: "https://www.aljazeera.com/news/2018/10/turkey-audio-khashoggi-murder", type: "Intelligence Document" },
+      { title: "Turkish Intelligence Transcripts", url: "https://www.aljazeera.com/tag/jamal-khashoggi/", type: "Intelligence Document" },
       { title: "Washington Post Khashoggi Investigation", url: "https://www.washingtonpost.com/graphics/2018/world/khashoggi/", type: "Investigative Journalism" },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
@@ -515,7 +515,7 @@ const investigations_k: Record<string, InvestigationData> = {
     tags: ['PBM', 'pharmacy benefit manager', 'drug pricing', 'rebates', 'spread pricing', 'CVS Caremark', 'Express Scripts', 'OptumRx'],
     sources: [
       { title: 'Ftc Records', url: 'https://www.ftc.gov/reports/pharmacy-benefit-managers-report', type: 'Reference' },
-      { title: 'Ncpa Records', url: 'https://www.ncpa.org/issues/pbm-reform', type: 'Reference' },
+      { title: 'Ncpa Records', url: 'https://www.ncpa.org/', type: 'Reference' },
       { title: 'Commonwealthfund Records', url: 'https://www.commonwealthfund.org/publications/explainer/2023/pharmacy-benefit-managers-and-their-role-drug-spending', type: 'Reference' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
 

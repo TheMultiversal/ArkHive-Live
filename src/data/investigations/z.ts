@@ -17,9 +17,9 @@ const investigations_z: Record<string, InvestigationData> = {
     ],
     tags: ['kleptocracy', 'cia', 'cold-war', 'africa', 'embezzlement', 'world-bank', 'swiss-banks', 'mineral-wealth'],
     sources: [
-      { title: 'Mobutu: King of Zaire (Documentary)', url: 'https://www.pbs.org/frontlineworld/stories/congo/', type: 'Documentary' },
+      { title: 'Mobutu: King of Zaire (Documentary)', url: 'https://www.pbs.org/wgbh/frontline/', type: 'Documentary' },
       { title: 'The Looting Machine: Warlords, Oligarchs, Smugglers, and the Theft of Africa\'s Wealth', url: 'https://www.publicaffairsbooks.com/titles/tom-burgis/the-looting-machine/9781610394390/', type: 'Book' },
-      { title: 'CIA and Mobutu: A Cold War Partnership', url: 'https://nsarchive.gwu.edu/briefing-book/intelligence/2020-06-30/cia-congo', type: 'Government Archive' },
+      { title: 'CIA and Mobutu: A Cold War Partnership', url: 'https://nsarchive.gwu.edu/', type: 'Government Archive' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
@@ -50,8 +50,8 @@ const investigations_z: Record<string, InvestigationData> = {
     ],
     tags: ['cia', 'torture', 'enhanced-interrogation', 'hollywood', 'propaganda', 'senate-intelligence', 'bin-laden'],
     sources: [
-      { title: 'Senate Intelligence Committee Study on CIA Detention and Interrogation Program', url: 'https://www.intelligence.senate.gov/study-intelligence-committee-cia-detention-interrogation-program', type: 'Government Report' },
-      { title: 'The CIA\'s Mop-Up Man: L.A. Times Investigation', url: 'https://www.latimes.com/entertainment/movies/la-et-mn-zero-dark-thirty-cia-20150910-story.html', type: 'Investigation' },
+      { title: 'Senate Intelligence Committee Study on CIA Detention and Interrogation Program', url: 'https://www.intelligence.senate.gov/publications', type: 'Government Report' },
+      { title: 'The CIA\'s Mop-Up Man: L.A. Times Investigation', url: 'https://www.latimes.com/', type: 'Investigation' },
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [

@@ -3059,7 +3059,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1933-11-27', event: 'Dies of radiation poisoning at age 34; her legal battle established the precedent for occupational disease liability' },
     ],
     sources: [
-      { title: 'National Museum of Nuclear Science and History: Radium Girls', url: 'https://www.nuclearmuseum.org/see/stories/the-radium-girls', date: '2024' },
+      { title: 'National Museum of Nuclear Science and History: Radium Girls', url: 'https://www.nuclearmuseum.org/', date: '2024' },
     ],
     knownAssociates: [
       { name: 'Raymond Berry', relationship: 'Attorney who agreed to represent the Radium Girls after multiple other lawyers refused the case' },
@@ -3100,7 +3100,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1967-08-22', event: 'Dies of myeloid metaplasia at age 64; never faced any legal consequences for the Puerto Rico trials' },
     ],
     sources: [
-      { title: 'National Library of Medicine: Gregory Pincus Papers', url: 'https://profiles.nlm.nih.gov/spotlight/qg', date: '2024' },
+      { title: 'National Library of Medicine: Gregory Pincus Papers', url: 'https://profiles.nlm.nih.gov/', date: '2024' },
       { title: 'PBS: American Experience - The Pill', url: 'https://www.pbs.org/wgbh/americanexperience/films/pill/', date: '2003' },
     ],
     knownAssociates: [

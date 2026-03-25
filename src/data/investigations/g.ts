@@ -770,7 +770,7 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
@@ -934,7 +934,7 @@ const investigations_g: Record<string, InvestigationData> = {
  tags: ['Terrorism', 'CIA', 'al-Qaeda', 'Taliban', 'Saudi Arabia', 'State Sponsorship', 'War on Terror', 'Blowback'],
  sources: [
  { title: 'Steve Coll: Ghost Wars', url: 'https://openlibrary.org/works/OL2725850W/Ghost_Wars', type: 'Investigation' },
- { title: 'CIA Afghan Covert Action Records', url: 'https://nsarchive.gwu.edu/project/afghanistan-soviet-invasion-and-us-response', type: 'Government Report' },
+ { title: 'CIA Afghan Covert Action Records', url: 'https://nsarchive.gwu.edu/', type: 'Government Report' },
  { title: 'Washington Post Top Secret America', url: 'https://www.washingtonpost.com/wp-srv/special/national/top-secret-america/', type: 'Investigation' },
  { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', type: 'Government Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -973,7 +973,7 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
@@ -1057,7 +1057,7 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1096,12 +1096,12 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents', type: 'Report' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1511,7 +1511,7 @@ const investigations_g: Record<string, InvestigationData> = {
     ],
     tags: ["George Floyd","Police Violence","BLM","Racial Justice","Derek Chauvin","Minneapolis","Darnella Frazier","Police Reform"],
     sources: [
-      { title: "MPD Body Camera Footage", url: "https://www.hennepinattorney.org/floyd", type: "Evidence" },
+      { title: "MPD Body Camera Footage", url: "https://www.hennepinattorney.org/", type: "Evidence" },
       { title: "Court Documents: State v. Chauvin", url: "https://mncourts.gov/state-v-chauvin/", type: "Court Document" },
       { title: "DOJ Pattern-or-Practice Investigation of MPD", url: "https://www.justice.gov/archives/crt/case/united-states-v-city-minneapolis", type: "Government Report" },
       { title: "George Floyd Justice in Policing Act (H.R. 1280)", url: "https://www.congress.gov/bill/117th-congress/house-bill/1280", type: "Legislation" },
@@ -1638,7 +1638,7 @@ const investigations_g: Record<string, InvestigationData> = {
     tags: ['Guantanamo', 'torture', 'indefinite-detention', 'CIA', 'enhanced-interrogation', 'war-on-terror', 'human-rights', 'Geneva-Conventions', 'military-commissions'],
     sources: [
       { title: 'Senate Select Committee on Intelligence: Committee Study of the CIA Detention and Interrogation Program (Torture Report)', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', type: 'Congressional Report' },
-      { title: 'ACLU Guantanamo By the Numbers', url: 'https://web.archive.org/web/20250101134744/https://www.aclu.org/issues/national-security/detention/guantanamo-numbers', type: 'Research' },
+      { title: 'ACLU Guantanamo By the Numbers', url: 'https://www.aclu.org/issues/national-security', type: 'Research' },
       { title: 'The Guantanamo Docket - New York Times', url: 'https://www.nytimes.com/interactive/2021/us/guantanamo-bay-detainees.html', type: 'Database' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],

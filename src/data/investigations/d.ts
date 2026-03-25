@@ -428,9 +428,9 @@ const investigations_d: Record<string, InvestigationData> = {
  tags: ['Technology & Privacy', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
- { title: 'The Intercept', url: 'https://theintercept.com/collections/the-surveillance-catalogue/', type: 'Investigation' },
+ { title: 'The Intercept', url: 'https://theintercept.com/', type: 'Investigation' },
  { title: 'ACLU Surveillance Technologies', url: 'https://www.aclu.org/issues/privacy-technology/surveillance-technologies', type: 'Report' },
- { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds/tech', type: 'Government' },
+ { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds', type: 'Government' },
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
  { title: 'The Markup Tech Accountability', url: 'https://themarkup.org/', type: 'Investigation' },
  { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
@@ -510,7 +510,7 @@ const investigations_d: Record<string, InvestigationData> = {
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
@@ -560,7 +560,7 @@ const investigations_d: Record<string, InvestigationData> = {
  tags: ['Domestic Terrorism', 'White Supremacy', 'Far-Right', 'Mass Shootings', 'January 6', 'Radicalization'],
  sources: [
  { title: 'DHS Domestic Terrorism Threat Assessment', url: 'https://www.dhs.gov/sites/default/files/publications/2020_10_06_homeland-threat-assessment.pdf', type: 'Government Report' },
- { title: 'ADL Murder & Extremism Report', url: 'https://www.adl.org/resources/report/murder-and-extremism-united-states', type: 'Research Study' },
+ { title: 'ADL Murder & Extremism Report', url: 'https://www.adl.org/resources', type: 'Research Study' },
  { title: 'FBI Director Congressional Testimony on DVE', url: 'https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-091721', type: 'Congressional Record' },
  { title: '2009 DHS Right-Wing Extremism Report', url: 'https://web.archive.org/web/20241228115719/https://fas.org/irp/eprint/rightwing.pdf', type: 'Government Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -689,7 +689,7 @@ const investigations_d: Record<string, InvestigationData> = {
  ],
  tags: ['Pharma', 'Drug Pricing', 'Insulin', 'EpiPen', 'Patent Abuse', 'Medicare', 'Lobbying'],
  sources: [
- { title: 'House Oversight Drug Pricing Investigation', url: 'https://oversight.house.gov/landing/drug-pricing-investigation/', type: 'Congressional Record' },
+ { title: 'House Oversight Drug Pricing Investigation', url: 'https://oversight.house.gov/', type: 'Congressional Record' },
  { title: 'FTC Report on PBMs', url: 'https://www.ftc.gov/reports/pharmacy-benefit-managers-report', type: 'Government Report' },
  { title: 'RAND Drug Price Comparison Study', url: 'https://www.rand.org/pubs/research_reports/RRA788-1.html', type: 'Research Study' },
  { title: 'T1International Insulin Rationing Survey', url: 'https://www.t1international.com/access-survey/', type: 'Research Study' },
@@ -1627,7 +1627,7 @@ const investigations_d: Record<string, InvestigationData> = {
     tags: ['Drug Supply Chain', 'API Manufacturing', 'China Dependency', 'Drug Shortages', 'FDA Inspections', 'Reshoring', 'Heparin Contamination'],
     sources: [
       { title: 'GAO Foreign Drug Manufacturing Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { title: 'FDA Drug Shortage Database', url: 'https://web.archive.org/web/20241204172132/https://www.fda.gov/drugs/drug-shortages/', type: 'Government Record' },
+      { title: 'FDA Drug Shortage Database', url: 'https://www.fda.gov/drugs/', type: 'Government Record' },
       { title: 'Katherine Eban, "Bottle of Lies"', url: 'https://www.penguinrandomhouse.com', type: 'Investigative Report' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
@@ -1788,7 +1788,7 @@ const investigations_d: Record<string, InvestigationData> = {
     tags: ["Drug Pricing","Pharmaceutical","Insulin","Healthcare","Lobbying","Patent","PBM","Inflation Reduction Act"],
     sources: [
       { title: "Senate Finance Committee Drug Pricing Investigation", url: "https://www.finance.senate.gov/hearings", type: "Government Report" },
-      { title: "FTC Pay-for-Delay Report", url: "https://www.ftc.gov/reports/pay-delay-how-drug-company-pay-offs-cost-consumers-billions", type: "Government Report" },
+      { title: "FTC Pay-for-Delay Report", url: "https://www.ftc.gov/policy/reports", type: "Government Report" },
       { title: "RAND International Drug Price Comparison", url: "https://www.rand.org/pubs/research_reports/RR2956.html", type: "Research" },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
@@ -1834,7 +1834,7 @@ const investigations_d: Record<string, InvestigationData> = {
     sources: [
       { title: "DHS Domestic Terrorism Threat Assessment", url: "https://www.dhs.gov/publication/homeland-threat-assessment", type: "Government Report" },
       { title: "FBI Domestic Terrorism Investigations Data", url: "https://www.fbi.gov/investigate/terrorism", type: "Government" },
-      { title: "Anti-Defamation League Murder and Extremism Report", url: "https://www.adl.org/murder-and-extremism", type: "Research" },
+      { title: "Anti-Defamation League Murder and Extremism Report", url: "https://www.adl.org/resources", type: "Research" },
       { title: "Brennan Center: Law Enforcement and Extremism", url: "https://www.brennancenter.org/our-work/research-reports", type: "Research" },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
@@ -1882,7 +1882,7 @@ const investigations_d: Record<string, InvestigationData> = {
     tags: ["Police Violence","Daniel Shaver","Use of Force","Police Accountability","Philip Brailsford","Mesa Police"],
     sources: [
       { title: "Mesa PD Body Camera Footage", url: "https://www.azcentral.com/story/news/local/mesa/2017/12/08/daniel-shaver-philip-brailsford-mesa-police-shooting/933873001/", type: "Video Evidence" },
-      { title: "Court Records: State v. Brailsford", url: "https://www.maricopa.gov/5441/Superior-Court", type: "Court Document" },
+      { title: "Court Records: State v. Brailsford", url: "https://www.maricopa.gov/", type: "Court Document" },
       { title: "Washington Post Investigation", url: "https://www.washingtonpost.com/investigations/2020/07/09/daniel-shaver-killing/", type: "Investigative Journalism" },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
@@ -2088,7 +2088,7 @@ const investigations_d: Record<string, InvestigationData> = {
     tags: ['DOJ', 'two-tiered-justice', 'corporate-impunity', 'financial-crisis', 'police-accountability', 'deferred-prosecution', 'racial-disparity', 'intelligence-immunity'],
     sources: [
       { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Congressional Report' },
-      { title: 'U.S. Sentencing Commission Annual Report and Sourcebook', url: 'https://www.ussc.gov/research/annual-reports-and-sourcebooks', type: 'Government Data' },
+      { title: 'U.S. Sentencing Commission Annual Report and Sourcebook', url: 'https://www.ussc.gov/research', type: 'Government Data' },
       { title: 'Corporate Prosecution Registry - University of Virginia School of Law', url: 'https://corporate-prosecution-registry.com/', type: 'Database' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
@@ -2315,7 +2315,7 @@ const investigations_d: Record<string, InvestigationData> = {
     sources: [
       { title: 'Ncadv Records', url: 'https://ncadv.org/statistics', type: 'Reference' },
       { title: 'Nnedv Records', url: 'https://nnedv.org/content/domestic-violence-counts/', type: 'Reference' },
-      { title: 'Bjs Records', url: 'https://bjs.ojp.gov/content/pub/pdf/ipv9311.pdf', type: 'Reference' },
+      { title: 'Bjs Records', url: 'https://bjs.ojp.gov/', type: 'Reference' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
 
       { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },
@@ -2395,7 +2395,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     tags: ['DES', 'diethylstilbestrol', 'pharmaceutical fraud', 'pregnancy drug', 'clear-cell adenocarcinoma', 'DES daughters', 'DES sons', 'birth defects', 'intergenerational harm', 'medical tyranny', 'FDA failure', 'market share liability', 'Sindell v. Abbott', 'drug safety', 'endocrine disruptor'],
     sources: [
-      { title: 'CDC: DES (Diethylstilbestrol) Overview and Health Exposure Risks', url: 'https://web.archive.org/web/20241225231000/https://www.cdc.gov/des', type: 'Government Record' },
+      { title: 'CDC: DES (Diethylstilbestrol) Overview and Health Exposure Risks', url: 'https://www.cdc.gov/', type: 'Government Record' },
       { title: 'NCI: DES Follow-Up Study and Cancer Risk Data', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/des-fact-sheet', type: 'Government Record' },
       { title: 'DES Action USA: Advocacy and Exposure Registry', url: 'https://www.desaction.org/', type: 'Victim Advocacy' },
       { title: 'NEJM: Herbst, Ulfelder, and Poskanzer (1971) - Adenocarcinoma and Prenatal DES Exposure', url: 'https://www.nejm.org/doi/full/10.1056/NEJM197104222841604', type: 'Medical Literature' },

@@ -316,7 +316,7 @@ const investigations_n: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -448,7 +448,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org/en/statistics', type: 'Report' },
  { title: 'DOJ Human Trafficking Prosecution Unit', url: 'https://www.justice.gov/archives/criminal/criminal-ceos/human-trafficking-prosecution-unit-htpu', type: 'Government' },
  { title: 'Polaris Project Reports', url: 'https://polarisproject.org/resources/', type: 'Report' },
@@ -604,7 +604,7 @@ const investigations_n: Record<string, InvestigationData> = {
     ],
     tags: ['Nuclear Weapons', 'Hanford', 'Rocky Flats', 'Radioactive Contamination', 'DOE', 'Worker Health', 'Environmental Crime'],
     sources: [
-      { title: 'DOE: Environmental Management Cleanup Sites', url: 'https://www.energy.gov/em/environmental-management', type: 'Government Record' },
+      { title: 'DOE: Environmental Management Cleanup Sites', url: 'https://www.energy.gov/em', type: 'Government Record' },
       { title: 'GAO: Nuclear Waste Management Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'DOL: Energy Employees Occupational Illness Compensation Program', url: 'https://www.dol.gov/agencies/owcp/energy', type: 'Government Record' },
       { title: 'Hanford Challenge: Independent Oversight', url: 'https://www.hanfordchallenge.org', type: 'Investigative Report' },
@@ -723,7 +723,7 @@ const investigations_n: Record<string, InvestigationData> = {
     sources: [
       { title: 'NRC: Spent Fuel Storage', url: 'https://www.nrc.gov/waste/spent-fuel-storage.html', type: 'Government Record' },
       { title: 'GAO: Nuclear Waste Disposal Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { title: 'Blue Ribbon Commission on America\'s Nuclear Future', url: 'https://www.energy.gov/ne/blue-ribbon-commission-americas-nuclear-future-report', type: 'Government Report' },
+      { title: 'Blue Ribbon Commission on America\'s Nuclear Future', url: 'https://www.energy.gov/ne', type: 'Government Report' },
       { title: 'DOE: Nuclear Waste Fund Annual Report', url: 'https://www.energy.gov/em', type: 'Government Record' },
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
@@ -769,7 +769,7 @@ const investigations_n: Record<string, InvestigationData> = {
     sources: [
       { title: 'Iris Chang - The Rape of Nanking: The Forgotten Holocaust of World War II', url: 'https://www.hachettebookgroup.com/titles/iris-chang/the-rape-of-nanking/9780465068364/', type: 'book' },
       { title: 'Memorial Hall of the Victims in Nanjing Massacre', url: 'http://www.nj1937.org/en/', type: 'memorial' },
-      { title: 'Yale Divinity School Library - Nanjing Massacre Documents', url: 'https://divinity-adhoc.library.yale.edu/NanjingMassacre/', type: 'archive' },
+      { title: 'Yale Divinity School Library - Nanjing Massacre Documents', url: 'https://library.yale.edu/', type: 'archive' },
       { title: 'International Military Tribunal for the Far East - Judgment', url: 'https://web.archive.org/web/20241219170539/https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf', type: 'legal' },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
@@ -848,7 +848,7 @@ const investigations_n: Record<string, InvestigationData> = {
     tags: ['nuclear-testing', 'radiation-experiments', 'human-experimentation', 'downwinders', 'Marshall-Islands', 'AEC', 'DoD', 'medical-ethics', 'cover-up'],
     sources: [
       { title: 'Advisory Committee on Human Radiation Experiments (ACHRE) Report', url: 'https://bioethicsarchive.georgetown.edu/achre/final/report.html', type: 'Government Report' },
-      { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://web.archive.org/web/20250720112349/https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report', type: 'Government Report' },
+      { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation', type: 'Government Report' },
       { title: 'Eileen Welsome: The Plutonium Files', url: 'https://openlibrary.org/works/OL2668497W/The_Plutonium_Files', type: 'Book' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
@@ -932,7 +932,7 @@ const investigations_n: Record<string, InvestigationData> = {
     sources: [
       { title: 'PNAS: Does Private Equity Investment in Healthcare Benefit Patients?', url: 'https://www.pnas.org/doi/10.1073/pnas.2018017118', type: 'Research' },
       { title: 'GAO: COVID-19 in Nursing Homes', url: 'https://www.gao.gov/products/gao-21-191', type: 'Government Audit' },
-      { title: 'CMS: Minimum Staffing Standards for Long-Term Care Facilities', url: 'https://www.cms.gov/newsroom/fact-sheets/medicare-and-medicaid-programs-minimum-staffing-standards-long-term-care-facilities', type: 'Government' },
+      { title: 'CMS: Minimum Staffing Standards for Long-Term Care Facilities', url: 'https://www.cms.gov/newsroom', type: 'Government' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
@@ -1006,7 +1006,7 @@ const investigations_n: Record<string, InvestigationData> = {
     ],
     tags: ['nuclear-testing', 'atomic-veterans', 'downwinders', 'Marshall-Islands', 'radiation', 'RECA', 'uranium-mining', 'Navajo-Nation', 'Castle-Bravo'],
     sources: [
-      { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://web.archive.org/web/20250720112349/https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report', type: 'Government Research' },
+      { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation', type: 'Government Research' },
       { title: 'DOE OpenNet: Declassified Nuclear Testing Documents', url: 'https://www.osti.gov/opennet/', type: 'Government Archive' },
       { title: 'RECA: Radiation Exposure Compensation Act Trust Fund', url: 'https://www.justice.gov/civil/common/reca', type: 'Government Program' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },

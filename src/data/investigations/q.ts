@@ -27,7 +27,7 @@ const investigations_q: Record<string, InvestigationData> = {
  tags: ['Jared Kushner', 'Qatar', '666 Fifth Avenue', 'Conflict of Interest', 'Saudi Arabia', 'UAE', 'Corruption'],
  sources: [
  { title: 'NYT, 666 Fifth Avenue Bailout', url: 'https://www.nytimes.com/2018/08/03/nyregion/kushners-building-fifth-avenue-brookfield-lease.html', type: 'News Report' },
- { title: 'Brookfield Qatar Investment Connection', url: 'https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles//2018-08-03/kushner-cos-deal-for-666-fifth-ave-is-said-to-be-near-close', type: 'News Report' },
+ { title: 'Brookfield Qatar Investment Connection', url: 'https://www.bloomberg.com/news', type: 'News Report' },
  { title: 'Kushner Security Clearance Issues', url: 'https://www.washingtonpost.com/politics/2019/01/24/jared-kushners-security-clearance-was-initially-denied-due-concerns-about-foreign-influence/', type: 'Investigation' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],

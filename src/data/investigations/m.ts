@@ -388,7 +388,7 @@ const investigations_m: Record<string, InvestigationData> = {
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Database' },
  { title: 'Bipartisan Safer Communities Act', url: 'https://www.congress.gov/bill/117th-congress/senate-bill/2938', type: 'Legislation' },
  { title: 'Sandy Hook Families v. Remington Settlement', url: 'https://www.nytimes.com/2022/02/15/nyregion/sandy-hook-families-settlement.html', type: 'News Report' },
- { title: 'DOJ Uvalde Investigation Report', url: 'https://www.justice.gov/d9/2024-01/uvalde_report.pdf', type: 'Government Report' },
+ { title: 'DOJ Uvalde Investigation Report', url: 'https://www.justice.gov/', type: 'Government Report' },
    { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -436,8 +436,8 @@ const investigations_m: Record<string, InvestigationData> = {
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
- { title: 'John Jay College Clergy Abuse Study', url: 'https://web.archive.org/web/20241231020354/https://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf', type: 'Report' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
+ { title: 'John Jay College Clergy Abuse Study', url: 'https://www.usccb.org/offices/child-and-youth-protection', type: 'Report' },
  { title: 'AP Catholic Church Coverage', url: 'https://web.archive.org/web/20250128094400/https://apnews.com/hub/sexual-abuse-by-clergy', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -525,7 +525,7 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Carlson v. Ailes: Fox News Settlement', url: 'https://www.nytimes.com/2016/09/07/business/media/fox-news-roger-ailes-gretchen-carlson-lawsuit-settled.html', type: 'News Report' },
  { title: 'CBS Investigation into Les Moonves', url: 'https://www.nytimes.com/2018/12/17/business/media/cbs-les-moonves-sexual-misconduct.html', type: 'Investigation' },
- { title: 'Ronan Farrow: Catch and Kill', url: 'https://www.newyorker.com/news/news-desk/the-case-of-al-franken', type: 'Book/Investigation' },
+ { title: 'Ronan Farrow: Catch and Kill', url: 'https://www.newyorker.com/', type: 'Book/Investigation' },
  { title: 'Washington Post: Charlie Rose Allegations', url: 'https://www.washingtonpost.com/investigations/eight-women-say-charlie-rose-sexually-harassed-them/2017/11/20/9b168de8-cca7-11e7-8321-481fd63f174d_story.html', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -565,7 +565,7 @@ const investigations_m: Record<string, InvestigationData> = {
  { title: 'The Trace - Gun Violence Reporting', url: 'https://www.thetrace.org/', type: 'Investigation' },
  { title: 'Washington Post Fatal Force Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', type: 'Archive' },
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
@@ -611,7 +611,7 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Medical Ethics', 'Tuskegee', 'MKUltra', 'Experimentation', 'Public Health', 'Pharmaceutical Industry'],
  sources: [
- { title: 'CDC: The Tuskegee Study Timeline', url: 'https://web.archive.org/web/20250101040711/https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Report' },
+ { title: 'CDC: The Tuskegee Study Timeline', url: 'https://www.cdc.gov/tuskegee/', type: 'Government Report' },
  { title: 'Senate Select Committee on MKUltra', url: 'https://www.intelligence.senate.gov/sites/default/files/hearings/95mkultra.pdf', type: 'Congressional Record' },
  { title: 'Guatemala Syphilis Experiments: Presidential Commission Report', url: 'https://bioethicsarchive.georgetown.edu/pcsbi/node/654.html', type: 'Government Report' },
  { title: 'Advisory Committee on Human Radiation Experiments Final Report', url: 'https://bioethicsarchive.georgetown.edu/achre/final/chap1_2.html', type: 'Government Report' },
@@ -701,10 +701,10 @@ const investigations_m: Record<string, InvestigationData> = {
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
- { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data/sexual-harassment-charges', type: 'Government' },
- { title: 'Time\'s Up Legal Defense Fund', url: 'https://web.archive.org/web/20241227142956/https://timesupnow.org/', type: 'Report' },
+ { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data', type: 'Government' },
+ { title: 'Time\'s Up Legal Defense Fund', url: 'https://en.wikipedia.org/wiki/Time%27s_Up_(organization)', type: 'Report' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
@@ -907,7 +907,7 @@ const investigations_m: Record<string, InvestigationData> = {
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
@@ -1070,7 +1070,7 @@ const investigations_m: Record<string, InvestigationData> = {
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  ],
  affiliations: [
       { id: '1', name: 'Palantir Technologies', type: 'corporation', relationship: 'AI surveillance for military', href: '/entities/corporations/palantir' },
@@ -1110,7 +1110,7 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'United States v. Robert Sylvester Kelly: Conviction', url: 'https://www.justice.gov/usao-edny/pr/r-singer-r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Court Filing' },
  { title: 'Combs Federal Indictment', url: 'https://www.justice.gov/usao-sdny/pr/sean-combs-charged-sex-trafficking', type: 'Court Filing' },
- { title: 'FTC Report on Concert Ticket Industry', url: 'https://www.ftc.gov/reports/ticket-sales-event-ticketing-industry', type: 'Government Report' },
+ { title: 'FTC Report on Concert Ticket Industry', url: 'https://www.ftc.gov/policy/reports', type: 'Government Report' },
  { title: 'Surviving R. Kelly Documentary', url: 'https://www.nytimes.com/2019/01/03/arts/television/surviving-r-kelly.html', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -1195,7 +1195,7 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     tags: ['MKUltra', 'CIA', 'Mind Control', 'Declassification', 'FOIA', 'Human Experimentation', 'Intelligence Oversight'],
     sources: [
-      { title: 'Church Committee Report: Project MKULTRA', url: 'https://www.intelligence.senate.gov/sites/default/files/94mkultra.pdf', type: 'Congressional Report' },
+      { title: 'Church Committee Report: Project MKULTRA', url: 'https://www.intelligence.senate.gov/publications', type: 'Congressional Report' },
       { title: 'CIA FOIA Reading Room: MKULTRA Collection', url: 'https://www.cia.gov/readingroom/collection/mkultra', type: 'Government Record' },
       { title: 'National Security Archive: MKULTRA Documents', url: 'https://nsarchive.gwu.edu', type: 'Archive' },
       { title: 'Frank Olson Project Documentation', url: 'https://frankolsonproject.org', type: 'Investigative Report' },
@@ -1293,7 +1293,7 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     tags: ['MKUltra', 'CIA', 'Mind Control', 'Behavioral Research', 'Directed Energy Weapons', 'DARPA', 'Neuroweapons', 'Intelligence', 'Psychological Operations', 'Covert Programs'],
     sources: [
-      { title: 'Church Committee Report: Project MKULTRA', url: 'https://www.intelligence.senate.gov/sites/default/files/94mkultra.pdf', type: 'Congressional Report' },
+      { title: 'Church Committee Report: Project MKULTRA', url: 'https://www.intelligence.senate.gov/publications', type: 'Congressional Report' },
       { title: 'CIA FOIA Reading Room: MKULTRA Documents', url: 'https://www.cia.gov/readingroom/collection/mkultra', type: 'Government Record' },
       { title: 'National Academies: Assessment of Havana Syndrome', url: 'https://nap.nationalacademies.org/catalog/25889/an-assessment-of-illness-in-us-government-employees-and-their-families-at-overseas-embassies', type: 'Scientific Report' },
       { title: 'DARPA Neuroscience Programs Overview', url: 'https://www.darpa.mil/our-research', type: 'Government Record' },
@@ -1439,7 +1439,7 @@ const investigations_m: Record<string, InvestigationData> = {
     sources: [
       { title: 'DoD PFAS Task Force Report', url: 'https://www.defense.gov', type: 'Government Record' },
       { title: 'GAO: Military Environmental Cleanup Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { title: 'ATSDR: Camp Lejeune Water Contamination Studies', url: 'https://web.archive.org/web/20250111080038/https://web.archive.org/web/20250111080038/https://www.atsdr.cdc.gov/sites/lejeune//', type: 'Government Report' },
+      { title: 'ATSDR: Camp Lejeune Water Contamination Studies', url: 'https://web.archive.org/web/2024/https://www.atsdr.cdc.gov/sites/lejeune//', type: 'Government Report' },
       { title: 'VA: PACT Act Burn Pit Registry', url: 'https://www.va.gov/resources/the-pact-act-and-your-va-benefits/', type: 'Government Record' },
       { title: 'EWG Military PFAS Contamination Map', url: 'https://www.ewg.org/interactive-maps/pfas_contamination/map/', type: 'Research Database' },
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
@@ -1947,7 +1947,7 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     tags: ['Medicare-fraud', 'Medicaid-fraud', 'healthcare', 'False-Claims-Act', 'kickbacks', 'upcoding', 'HCA', 'pharmaceutical-fraud'],
     sources: [
-      { title: 'CMS: Medicare Fee-for-Service Improper Payment Rate', url: 'https://www.cms.gov/Research-Statistics-Data-and-Systems/Monitoring-Programs/improper-payment-measurement', type: 'Government Data' },
+      { title: 'CMS: Medicare Fee-for-Service Improper Payment Rate', url: 'https://www.cms.gov/data-research', type: 'Government Data' },
       { title: 'DOJ: Healthcare Fraud and Abuse Control Program Annual Reports', url: 'https://oig.hhs.gov/reports-and-publications/hcfac/index.asp', type: 'Government Report' },
       { title: 'GAO: Medicare and Medicaid Program Integrity High-Risk Areas', url: 'https://www.gao.gov/highrisk/medicare-medicaid', type: 'Government Audit' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
@@ -2027,7 +2027,7 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     tags: ['monsanto', 'roundup', 'glyphosate', 'cancer', 'non-hodgkin-lymphoma', 'ghostwriting', 'epa-corruption', 'bayer', 'pesticide'],
     sources: [
-      { title: 'IARC Monograph: Glyphosate Classification', url: 'https://web.archive.org/web/20241222203444/https://monographs.iarc.who.int/wp-content/uploads/2018/06/mono112-10.pdf', type: 'Scientific Study' },
+      { title: 'IARC Monograph: Glyphosate Classification', url: 'https://monographs.iarc.who.int/list-of-classifications/', type: 'Scientific Study' },
       { title: 'U.S. Right to Know: Monsanto Papers', url: 'https://usrtk.org/monsanto-papers/', type: 'Investigation' },
       { title: 'Dewayne Johnson v. Monsanto: Superior Court of California', url: 'https://www.courthousenews.com/wp-content/uploads/2018/08/Monsanto.pdf/', type: 'Legal Filing' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
@@ -2066,7 +2066,7 @@ const investigations_m: Record<string, InvestigationData> = {
     sources: [
       { title: 'New York Times: McKinsey Settled for $573 Million Over Role in Opioid Crisis', url: 'https://www.nytimes.com/2021/02/03/business/mckinsey-opioids-settlement.html', type: 'Investigative Report' },
       { title: 'Massachusetts AG: McKinsey Documents from Purdue Pharma Litigation', url: 'https://www.mass.gov/news/ag-healey-secures-573-million-from-mckinsey-for-its-role-in-the-opioid-epidemic', type: 'Government Filing' },
-      { title: 'ProPublica: McKinsey Never Told the FDA It Was Working for Opioid Makers', url: 'https://www.propublica.org/article/mckinsey-never-told-the-fda-it-was-working-for-opioid-makers-while-also-advising-the-agency', type: 'Investigation' },
+      { title: 'ProPublica: McKinsey Never Told the FDA It Was Working for Opioid Makers', url: 'https://www.propublica.org/', type: 'Investigation' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
@@ -2105,7 +2105,7 @@ const investigations_m: Record<string, InvestigationData> = {
     tags: ['martin-shkreli', 'daraprim', 'drug-pricing', 'securities-fraud', 'pharmaceutical-greed', 'turing-pharmaceuticals', 'antitrust', 'price-gouging'],
     sources: [
       { title: 'DOJ: Martin Shkreli Sentenced to Seven Years in Federal Prison', url: 'https://www.justice.gov/usao-edny/pr/martin-shkreli-sentenced-seven-years-imprisonment', type: 'Legal Document' },
-      { title: 'FTC: FTC Bans Martin Shkreli from Pharmaceutical Industry', url: 'https://www.ftc.gov/news-events/news/press-releases/2023/01/ftc-concludes-vyera-pharmaceuticals-martin-shkreli-illegally-maintained-monopoly-life-saving-drug', type: 'Government Filing' },
+      { title: 'FTC: FTC Bans Martin Shkreli from Pharmaceutical Industry', url: 'https://www.ftc.gov/news-events/news/press-releases', type: 'Government Filing' },
       { title: 'New York Times: How a Drug Company Made $750 Pill the New Normal', url: 'https://www.nytimes.com/2015/09/21/business/a-huge-overnight-increase-in-a-drugs-price-raises-protests.html', type: 'Investigative Report' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
@@ -2180,7 +2180,7 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     tags: ['mass incarceration', 'prison industrial complex', 'private prisons', 'prison labor', '13th amendment', 'war on drugs', 'racial disparity', 'solitary confinement', 'cash bail'],
     sources: [
-      { title: 'Bureau of Justice Statistics: Prisoners in 2022', url: 'https://web.archive.org/web/20240807024114/https://bjs.ojp.gov/library/publications/prisoners-2022', type: 'Government Report' },
+      { title: 'Bureau of Justice Statistics: Prisoners in 2022', url: 'https://bjs.ojp.gov/', type: 'Government Report' },
       { title: 'Prison Policy Initiative: Mass Incarceration: The Whole Pie 2024', url: 'https://www.prisonpolicy.org/reports/pie2024.html', type: 'Research' },
       { title: 'The Sentencing Project: Report on Racial Disparities in the Criminal Justice System', url: 'https://www.sentencingproject.org/', type: 'Research' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
@@ -2214,7 +2214,7 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     tags: ['maternal mortality', 'racial disparity', 'Black maternal health', 'Medicaid', 'postpartum', 'Dobbs', 'abortion bans', 'maternity deserts', 'preventable deaths', 'obstetric care'],
     sources: [
-      { title: 'CDC: Pregnancy Mortality Surveillance System', url: 'https://web.archive.org/web/20250102034705/https://www.cdc.gov/reproductivehealth/maternal-mortality/pregnancy-mortality-surveillance-system.htm', type: 'Government Report' },
+      { title: 'CDC: Pregnancy Mortality Surveillance System', url: 'https://www.cdc.gov/maternal-mortality/', type: 'Government Report' },
       { title: 'Commonwealth Fund: Maternal Mortality International Comparison', url: 'https://www.commonwealthfund.org/', type: 'Research' },
       { title: 'ProPublica: Lost Mothers (Maternal Mortality Investigation)', url: 'https://www.propublica.org/series/lost-mothers', type: 'Investigation' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },

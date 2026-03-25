@@ -690,7 +690,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'SEC Penny Stock Fraud Alerts', url: 'https://www.sec.gov/fast-answers/answerspennyhtm.html', type: 'Government' },
  { title: 'FBI: Securities Fraud', url: 'https://www.fbi.gov/investigate/white-collar-crime/securities-and-commodities-fraud', type: 'Government' },
- { title: 'FINRA: Penny Stock Risks', url: 'https://www.finra.org/investors/insights/penny-stock-fraud', type: 'Research' },
+ { title: 'FINRA: Penny Stock Risks', url: 'https://www.finra.org/investors/insights', type: 'Research' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
@@ -808,7 +808,7 @@ const investigations_p: Record<string, InvestigationData> = {
  tags: ['Pharmaceutical', 'Drug Pricing', 'PhRMA', 'Insulin', 'Lobbying', 'Medicare', 'Patent Abuse'],
  sources: [
  { title: 'RAND Corporation: U.S. Drug Price Comparison', url: 'https://www.rand.org/pubs/research_reports/RRA788-1.html', type: 'Research Report' },
- { title: 'House Oversight: Drug Pricing Investigation', url: 'https://oversight.house.gov/landing/drug-pricing-investigation/', type: 'Congressional Record' },
+ { title: 'House Oversight: Drug Pricing Investigation', url: 'https://oversight.house.gov/', type: 'Congressional Record' },
  { title: 'Inflation Reduction Act: Drug Pricing Provisions', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare', type: 'Legislation' },
  { title: 'PhRMA Lobbying Disclosures', url: 'https://www.opensecrets.org/federal-lobbying/industries/summary?id=H04', type: 'Financial Disclosure' },
    { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
@@ -855,7 +855,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ: GSK $3 Billion Settlement', url: 'https://www.justice.gov/opa/pr/glaxosmithkline-plead-guilty-and-pay-3-billion-resolve-fraud-allegations-and-failure-report', type: 'Government' },
  { title: 'Public Citizen: Pharmaceutical Industry Criminal and Civil Penalties', url: 'https://www.citizen.org/article/twenty-seven-years-of-pharmaceutical-industry-criminal-and-civil-penalties/', type: 'Research' },
- { title: 'DOJ: Pharmaceutical Fraud Enforcement', url: 'https://www.justice.gov/d9/2024-10/fca_stats.pdf', type: 'Government' },
+ { title: 'DOJ: Pharmaceutical Fraud Enforcement', url: 'https://www.justice.gov/civil/fraud-prevention', type: 'Government' },
    { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
@@ -901,7 +901,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Minnesota v. Yanez: Trial Records', url: 'https://www.mncourts.gov/media/StateofMinnesotavJeronimoYanez.aspx', type: 'Court Filing' },
  { title: 'ACLU: Picked Apart; The Hidden Struggles of Philando Castile', url: 'https://www.aclumn.org/en/picked-apart', type: 'Research' },
- { title: 'NPR: What Happened When Philando Castile Was Killed', url: 'https://www.npr.org/sections/thetwo-way/2017/06/20/533863171/aftermath-of-philando-castile-shooting', type: 'Investigation' },
+ { title: 'NPR: What Happened When Philando Castile Was Killed', url: 'https://www.npr.org/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'Philando Castile', type: 'individual', relationship: 'Licensed gun owner killed during traffic stop while complying with officer instructions', href: '/entities/individuals/philando-castile' },
@@ -939,7 +939,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Human Rights Watch: Philippine Drug War Report', url: 'https://www.hrw.org/report/2017/03/02/license-kill/philippine-police-killings-dutertes-war-drugs', type: 'Investigation' },
  { title: 'ICC Investigation Authorization', url: 'https://www.icc-cpi.int/philippines', type: 'Court Filing' },
- { title: 'Amnesty International: They Just Kill', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentsasa35/5517/2017/en/', type: 'Investigation' },
+ { title: 'Amnesty International: They Just Kill', url: 'https://www.amnesty.org/en/asa35/5517/2017/en/', type: 'Investigation' },
  { title: 'Reuters: Philippine Drug War Death Toll', url: 'https://www.reuters.com/investigates/special-report/philippines-drugs-surveillance/', type: 'Investigation' },
    { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
@@ -1024,7 +1024,7 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Algorithmic Discrimination', 'Facebook', 'AI Bias', 'Housing Discrimination', 'Facial Recognition', 'Civil Rights', 'Big Tech'],
  sources: [
- { title: 'HUD v. Facebook: Fair Housing Charge', url: 'https://web.archive.org/web/20241223090642/https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_035', type: 'Government' },
+ { title: 'HUD v. Facebook: Fair Housing Charge', url: 'https://www.hud.gov/press', type: 'Government' },
  { title: 'Buolamwini & Gebru: Gender Shades', url: 'http://gendershades.org/', type: 'Research' },
  { title: 'Obermeyer et al: Healthcare Algorithm Bias (Science)', url: 'https://www.science.org/doi/10.1126/science.aax2342', type: 'Research Study' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
@@ -1109,7 +1109,7 @@ const investigations_p: Record<string, InvestigationData> = {
  tags: ['Polarization', 'Partisanship', 'Gerrymandering', 'Social Media', 'Media Silos', 'Democracy', 'Government Dysfunction'],
  sources: [
  { title: 'Pew Research: Political Polarization Trends', url: 'https://www.pewresearch.org/politics/2014/06/12/political-polarization-in-the-american-public/', type: 'Research Report' },
- { title: 'Berkman Klein: Network Propaganda', url: 'https://cyber.harvard.edu/publications/2018/11/MediaCloud', type: 'Research' },
+ { title: 'Berkman Klein: Network Propaganda', url: 'https://cyber.harvard.edu/', type: 'Research' },
  { title: 'FiveThirtyEight: The Gerrymandering Project', url: 'https://fivethirtyeight.com/tag/redistricting/', type: 'Data Analysis' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
@@ -1317,7 +1317,7 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Political Hoaxes', 'WMD', 'Birtherism', 'QAnon', 'Voter Fraud Myth', 'Disinformation', 'Pizzagate', 'Crisis Actors'],
  sources: [
- { title: 'Senate Intelligence Committee: Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications/report-us-intelligence-communitys-prewar-intelligence-assessments-iraq', type: 'Congressional Record' },
+ { title: 'Senate Intelligence Committee: Iraq WMD Report', url: 'https://www.intelligence.senate.gov/publications', type: 'Congressional Record' },
  { title: 'National Archives: Gulf of Tonkin Documents', url: 'https://www.archives.gov/research/pentagon-papers', type: 'Government' },
  { title: 'Heritage Foundation: Voter Fraud Database', url: 'https://www.heritage.org/voterfraud', type: 'Data' },
    { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
@@ -1400,7 +1400,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Naomi Klein: The Shock Doctrine', url: 'https://naomiklein.org/the-shock-doctrine/', type: 'Book' },
  { title: 'ProPublica: PPP Loan Data', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Data' },
- { title: 'Brookings: Katrina and Education Reform', url: 'https://www.brookings.edu/articles/the-new-orleans-school-reforms/', type: 'Research' },
+ { title: 'Brookings: Katrina and Education Reform', url: 'https://www.brookings.edu/', type: 'Research' },
  ],
  affiliations: [
  { id: '1', name: 'Congress', type: 'agency', relationship: 'Uses crises for fundraising while blocking responsive legislation', href: '/entities/agencies/congress' },
@@ -1441,7 +1441,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Congressional Record' },
  { title: 'Reuters: Election Worker Threats Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-election-threats/', type: 'Investigation' },
- { title: 'Capitol Police Threat Assessment Data', url: 'https://www.uscp.gov/media-center/press-releases/us-capitol-police-releases-2021-annual-report', type: 'Government Report' },
+ { title: 'Capitol Police Threat Assessment Data', url: 'https://www.uscp.gov/', type: 'Government Report' },
  { title: 'DOJ Oath Keepers Seditious Conspiracy Convictions', url: 'https://www.justice.gov/usao-dc/pr/oath-keepers-leader-found-guilty-seditious-conspiracy', type: 'Court Filing' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
@@ -1490,9 +1490,9 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Post-9/11', 'Muslim Americans', 'Surveillance', 'Entrapment', 'Muslim Ban', 'Guantanamo', 'FBI', 'NYPD', 'Civil Rights'],
  sources: [
- { title: 'AP: NYPD Muslim Surveillance Investigation', url: 'https://www.ap.org/explore/nypd/', type: 'Investigation' },
+ { title: 'AP: NYPD Muslim Surveillance Investigation', url: 'https://www.ap.org/', type: 'Investigation' },
  { title: 'Human Rights Watch: Illusion of Justice', url: 'https://www.hrw.org/report/2014/07/21/illusion-justice/human-rights-abuses-us-terrorism-prosecutions', type: 'Research Report' },
- { title: 'DOJ Inspector General: 9/11 Detainee Report', url: 'https://oig.justice.gov/special/0306/', type: 'Government' },
+ { title: 'DOJ Inspector General: 9/11 Detainee Report', url: 'https://oig.justice.gov/', type: 'Government' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
@@ -1534,7 +1534,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ: Wells Fargo Fair Lending Settlement', url: 'https://www.justice.gov/archives/opa/pr/department-justice-reaches-settlement-wells-fargo-resulting-more-175-million-relief', type: 'Government' },
  { title: 'CFPB: Payday Lending Data', url: 'https://www.consumerfinance.gov/data-research/research-reports/payday-lending', type: 'Research Report' },
- { title: 'National Fair Housing Alliance: Lending Discrimination Report', url: 'https://web.archive.org/web/20250123104019/https://nationalfairhousing.org/reports-research/', type: 'Research' },
+ { title: 'National Fair Housing Alliance: Lending Discrimination Report', url: 'https://nationalfairhousing.org/', type: 'Research' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
@@ -2014,10 +2014,10 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['PPP Fraud', 'Pandemic Relief', 'CARES Act', 'Financial Crime', 'Government Waste'],
     sources: [
-      { title: 'SBA Inspector General Pandemic Response Reports', url: 'https://web.archive.org/web/20250123125334/https://www.sba.gov/office-inspector-general', type: 'Government Audit' },
+      { title: 'SBA Inspector General Pandemic Response Reports', url: 'https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general', type: 'Government Audit' },
       { title: 'Secret Service Pandemic Fraud Estimates', url: 'https://www.secretservice.gov', type: 'Government Report' },
       { title: 'ProPublica PPP Loan Database', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Database' },
-      { title: 'DOJ Pandemic Fraud Strike Force', url: 'https://web.archive.org/web/20251224234829/https://www.justice.gov/criminal-fraud/covid-19-fraud-enforcement', type: 'Government Report' },
+      { title: 'DOJ Pandemic Fraud Strike Force', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government Report' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
@@ -2614,7 +2614,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['Private Prisons', 'Mass Incarceration', 'Prison Labor', 'CoreCivic', 'GEO Group', 'ALEC', 'Criminal Justice Reform'],
     sources: [
-      { title: 'Bureau of Justice Statistics: Prisoners Series', url: 'https://bjs.ojp.gov/data-collections/prisoners', type: 'Government Report' },
+      { title: 'Bureau of Justice Statistics: Prisoners Series', url: 'https://bjs.ojp.gov/data-collections', type: 'Government Report' },
       { title: 'Sentencing Project: Mass Incarceration Trends', url: 'https://www.sentencingproject.org', type: 'Research' },
       { title: 'In the Public Interest: Criminal Justice Privatization', url: 'https://www.inthepublicinterest.org', type: 'Research' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
@@ -2686,7 +2686,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: 'FDA Drug Safety Communications: Finasteride', url: 'https://www.fda.gov/drugs/drug-safety-and-availability', type: 'Government Report' },
       { title: 'Post-Finasteride Syndrome Foundation', url: 'https://www.pfsfoundation.org', type: 'Research' },
-      { title: 'CDC DES Update', url: 'https://web.archive.org/web/20241225231000/https://www.cdc.gov/des', type: 'Government Report' },
+      { title: 'CDC DES Update', url: 'https://www.cdc.gov/', type: 'Government Report' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
@@ -2755,7 +2755,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['Port Authority', 'Bridgegate', 'Political Corruption', 'Patronage', 'Chris Christie', 'Infrastructure', 'Government Accountability'],
     sources: [
-      { title: 'Port Authority Inspector General Reports', url: 'https://www.panynj.gov/corporate/en/inspector-general.html', type: 'Government Audit' },
+      { title: 'Port Authority Inspector General Reports', url: 'https://www.panynj.gov/', type: 'Government Audit' },
       { title: 'Supreme Court: Kelly v. United States (2020)', url: 'https://supreme.justia.com/cases/federal/us/590/17-1960/', type: 'Court Record' },
       { title: 'NJ Watchdog: Port Authority Investigations', url: 'https://www.njspotlightnews.org', type: 'Investigative Report' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -2869,7 +2869,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['Payroll Fraud', 'Worker Misclassification', 'Tax Evasion', 'Underground Economy', 'Construction Industry', 'Labor Exploitation'],
     sources: [
-      { title: 'IRS: Employment Tax Fraud', url: 'https://www.irs.gov/compliance/criminal-investigation/payroll-tax-fraud', type: 'Government Report' },
+      { title: 'IRS: Employment Tax Fraud', url: 'https://www.irs.gov/compliance/criminal-investigation', type: 'Government Report' },
       { title: 'National Employment Law Project: Misclassification', url: 'https://www.nelp.org', type: 'Research' },
       { title: 'Treasury Inspector General: Employment Tax Gap', url: 'https://www.treasury.gov/tigta', type: 'Government Audit' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
@@ -3000,7 +3000,7 @@ const investigations_p: Record<string, InvestigationData> = {
     tags: ["Parental Accountability","Gun Violence","Legal Precedent","Oxford","Safe Storage","Child Access Prevention"],
     sources: [
       { title: "Giffords Law Center: Child Access Prevention", url: "https://giffords.org/lawcenter/gun-laws/policy-areas/child-consumer-safety/child-access-prevention/", type: "Research" },
-      { title: "Everytown: Unsecured Guns Data", url: "https://everytownresearch.org/report/unsecured-guns/", type: "Research" },
+      { title: "Everytown: Unsecured Guns Data", url: "https://everytownresearch.org/", type: "Research" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
@@ -3158,7 +3158,7 @@ const investigations_p: Record<string, InvestigationData> = {
     tags: ["Parkland","School Shooting","March for Our Lives","Gun Violence","NRA","Nikolas Cruz","Red Flag Laws"],
     sources: [
       { title: "MSD Public Safety Commission Report", url: "http://www.fdle.state.fl.us/MSDHS/CommissionReport.pdf", type: "Government Report" },
-      { title: "FBI Tip Line Failure Report", url: "https://oig.justice.gov/reports/review-federal-bureau-investigations-response-tips-about-potential-parkland-school-shooter", type: "Government Report" },
+      { title: "FBI Tip Line Failure Report", url: "https://oig.justice.gov/reports", type: "Government Report" },
       { title: "Sun Sentinel Investigation: BSO Failures", url: "https://www.sun-sentinel.com/parkland-school-shooting/", type: "Investigative Journalism" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
@@ -3282,7 +3282,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['private-prisons', 'mass-incarceration', 'CoreCivic', 'GEO-Group', 'immigration-detention', 'criminal-justice' , 'lobbying', 'ICE', 'ALEC'],
     sources: [
-      { title: 'DOJ OIG: Review of the Federal Bureau of Prisons Monitoring of Contract Prisons', url: 'https://oig.justice.gov/reports/2016/e1606.pdf', type: 'Government Audit' },
+      { title: 'DOJ OIG: Review of the Federal Bureau of Prisons Monitoring of Contract Prisons', url: 'https://oig.justice.gov/reports', type: 'Government Audit' },
       { title: 'Sentencing Project: Private Prisons in the United States', url: 'https://www.sentencingproject.org/publications/private-prisons-united-states/', type: 'Research' },
       { title: 'American Civil Liberties Union: Banking on Bondage', url: 'https://www.aclu.org/report/banking-bondage-private-prisons-and-mass-incarceration', type: 'Research' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
@@ -3327,7 +3327,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'OpenSecrets: Pharmaceutical Manufacturing Lobbying Profile', url: 'https://www.opensecrets.org/federal-lobbying/industries/summary?cycle=2023&id=H4300', type: 'Database' },
       { title: 'Kaiser Family Foundation: Americans\' Challenges with Health Care Costs', url: 'https://www.kff.org/health-costs/issue-brief/americans-challenges-with-health-care-costs/', type: 'Research' },
       { title: 'FTC: Pay-for-Delay Agreements', url: 'https://www.ftc.gov/news-events/topics/competition-enforcement/pay-delay', type: 'Government' },
-      { title: 'House Committee on Oversight: Drug Pricing Investigation', url: 'https://oversight.house.gov/legislation/hearings/the-cost-of-rising-prescription-drug-prices', type: 'Congressional' },
+      { title: 'House Committee on Oversight: Drug Pricing Investigation', url: 'https://oversight.house.gov/', type: 'Congressional' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
@@ -3369,9 +3369,9 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['body-cameras', 'police-accountability', 'transparency', 'use-of-force', 'Axon', 'police-unions', 'BWC', 'qualified-immunity'],
     sources: [
-      { title: 'George Mason University: Randomized Controlled Trial of BWCs', url: 'https://cebcp.org/wp-content/evidence-based-policing/body-worn-cameras/BWCMeta.pdf', type: 'Research' },
+      { title: 'George Mason University: Randomized Controlled Trial of BWCs', url: 'https://cebcp.org/', type: 'Research' },
       { title: 'DOJ Bureau of Justice Assistance: BWC Policy and Implementation Program', url: 'https://bja.ojp.gov/program/body-worn-cameras-bwcs/overview', type: 'Government' },
-      { title: 'Upturn: The Illusion of Accuracy - How Body-Worn Camera Programs Undermine Police Accountability', url: 'https://www.upturn.org/work/the-illusion-of-accuracy/', type: 'Research' },
+      { title: 'Upturn: The Illusion of Accuracy - How Body-Worn Camera Programs Undermine Police Accountability', url: 'https://www.upturn.org//work/the-illusion-of-accuracy/', type: 'Research' },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
@@ -3721,7 +3721,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['pharmaceutical', 'drug prices', 'patent thickets', 'pay-for-delay', 'insulin', 'Humira', 'AbbVie', 'PhRMA', 'Medicare negotiation', 'IRA'],
     sources: [
-      { title: 'FTC: Pay-for-Delay Agreements Report', url: 'https://www.ftc.gov/reports/pay-delay-how-drug-company-pay-offs-cost-consumers-billions', type: 'Government Report' },
+      { title: 'FTC: Pay-for-Delay Agreements Report', url: 'https://www.ftc.gov/policy/reports', type: 'Government Report' },
       { title: 'CMS: Medicare Drug Price Negotiation Program', url: 'https://www.cms.gov/inflation-reduction-act-and-medicare/medicare-drug-price-negotiation', type: 'Government Report' },
       { title: 'Senate Finance Committee: Insulin Pricing Investigation', url: 'https://www.finance.senate.gov/', type: 'Congressional Record' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
@@ -3851,8 +3851,8 @@ const investigations_p: Record<string, InvestigationData> = {
     tags: ['Puerto Rico', 'birth control pill', 'Enovid', 'human experimentation', 'Gregory Pincus', 'John Rock', 'Margaret Sanger', 'colonial exploitation', 'informed consent', 'medical tyranny', 'contraceptive trials', 'G.D. Searle', 'Edris Rice-Wray', 'reproductive rights', 'pharmaceutical fraud'],
     sources: [
       { title: 'PBS: American Experience - The Pill', url: 'https://www.pbs.org/wgbh/americanexperience/films/pill/', type: 'Documentary' },
-      { title: 'FDA: History of the Birth Control Pill', url: 'https://www.fda.gov/consumers/consumer-updates/birth-control-types-effectiveness-and-side-effects', type: 'Government Record' },
-      { title: 'National Library of Medicine: Gregory Pincus Papers', url: 'https://profiles.nlm.nih.gov/spotlight/qg', type: 'Research Archive' },
+      { title: 'FDA: History of the Birth Control Pill', url: 'https://www.fda.gov/consumers/consumer-updates', type: 'Government Record' },
+      { title: 'National Library of Medicine: Gregory Pincus Papers', url: 'https://profiles.nlm.nih.gov/', type: 'Research Archive' },
       { title: 'Planned Parenthood: History of the Birth Control Pill', url: 'https://www.plannedparenthood.org/learn/birth-control/birth-control-pill/what-is-the-history-of-the-birth-control-pill/', type: 'Organization Archive' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],

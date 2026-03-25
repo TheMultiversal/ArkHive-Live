@@ -151,7 +151,7 @@ const investigations_h: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  ],
  affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Drug and food safety regulation', href: '/entities/agencies/fda' },
@@ -232,13 +232,13 @@ const investigations_h: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'FDIC Enforcement Decisions', url: 'https://web.archive.org/web/20241216194049/https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
+ { title: 'FDIC Enforcement Decisions', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/', type: 'Government' },
  { title: 'OCC Enforcement Actions', url: 'https://www.occ.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html', type: 'Government' },
- { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
+ { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg.htm', type: 'Government' },
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
  { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
- { title: 'IRS Criminal Investigation', url: 'https://web.archive.org/web/20251224234843/https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
+ { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
  { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
@@ -278,7 +278,7 @@ const investigations_h: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
@@ -760,7 +760,7 @@ const investigations_h: Record<string, InvestigationData> = {
     ],
     tags: ['CIA', 'Heroin', 'Vietnam War', 'Drug Trafficking'],
     sources: [
-      { title: 'Senate Committee Report', url: 'https://www.intelligence.senate.gov/sites/default/files/report_volume5.pdf', type: 'Government Report' },
+      { title: 'Senate Committee Report', url: 'https://www.intelligence.senate.gov/publications', type: 'Government Report' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],

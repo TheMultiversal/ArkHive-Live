@@ -1203,8 +1203,8 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
- { title: 'John Jay College Clergy Abuse Study', url: 'https://web.archive.org/web/20241231020354/https://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf', type: 'Report' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
+ { title: 'John Jay College Clergy Abuse Study', url: 'https://www.usccb.org/offices/child-and-youth-protection', type: 'Report' },
  { title: 'AP Catholic Church Coverage', url: 'https://web.archive.org/web/20250128094400/https://apnews.com/hub/sexual-abuse-by-clergy', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -1240,10 +1240,10 @@ const investigations_c: Record<string, InvestigationData> = {
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
- { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data/sexual-harassment-charges', type: 'Government' },
- { title: 'Time\'s Up Legal Defense Fund', url: 'https://web.archive.org/web/20241227142956/https://timesupnow.org/', type: 'Report' },
+ { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data', type: 'Government' },
+ { title: 'Time\'s Up Legal Defense Fund', url: 'https://en.wikipedia.org/wiki/Time%27s_Up_(organization)', type: 'Report' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1312,7 +1312,7 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1345,7 +1345,7 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -1376,12 +1376,12 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
  sources: [
- { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data/sexual-harassment-charges', type: 'Government' },
- { title: 'Time\'s Up Legal Defense Fund', url: 'https://web.archive.org/web/20241227142956/https://timesupnow.org/', type: 'Report' },
+ { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data', type: 'Government' },
+ { title: 'Time\'s Up Legal Defense Fund', url: 'https://en.wikipedia.org/wiki/Time%27s_Up_(organization)', type: 'Report' },
  { title: 'New York Times #MeToo Coverage', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1417,7 +1417,7 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1516,7 +1516,7 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'Office of Juvenile Justice and Delinquency Prevention', url: 'https://ojjdp.ojp.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -1550,7 +1550,7 @@ const investigations_c: Record<string, InvestigationData> = {
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'Office of Juvenile Justice and Delinquency Prevention', url: 'https://ojjdp.ojp.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -1651,7 +1651,7 @@ const investigations_c: Record<string, InvestigationData> = {
  { title: 'Congressional-Executive Commission on China', url: 'https://www.cecc.gov/', type: 'Government' },
  { title: 'Australian Strategic Policy Institute', url: 'https://www.aspi.org.au/report/uyghurs-sale', type: 'Report' },
  { title: 'Human Rights Watch - China', url: 'https://www.hrw.org/asia/china-and-tibet', type: 'Report' },
- { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds/tech', type: 'Government' },
+ { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds', type: 'Government' },
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
  { title: 'The Markup Tech Accountability', url: 'https://themarkup.org/', type: 'Investigation' },
    { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
@@ -2548,7 +2548,7 @@ const investigations_c: Record<string, InvestigationData> = {
  tags: ['Tax Avoidance', 'Corporate Tax', 'Apple', 'Amazon', 'Offshore Profits', 'IRS', 'Tax Havens'],
  sources: [
  { title: 'ITEP: Corporate Tax Avoidance Reports', url: 'https://itep.org/corporate-tax-avoidance-in-the-first-year-of-the-trump-tax-law/', type: 'Research Study' },
- { title: 'Senate PSI Apple Tax Investigation', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/hearings/offshore-profit-shifting-and-the-us-tax-code_part-2/', type: 'Congressional Record' },
+ { title: 'Senate PSI Apple Tax Investigation', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Congressional Record' },
  { title: 'ProPublica: Secret IRS Files', url: 'https://www.propublica.org/article/the-secret-irs-files-trove-of-never-before-seen-records-reveal-how-the-wealthiest-avoid-income-tax', type: 'Investigation' },
    { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
@@ -2705,7 +2705,7 @@ const investigations_c: Record<string, InvestigationData> = {
  tags: ['Sexual Assault', 'Cosby', 'MeToo', 'Institutional Cover-up', 'Celebrity Crime', 'Temple University'],
  sources: [
  { title: 'Cosby Quaalude Deposition', url: 'https://www.documentcloud.org/documents/2155399-cosby-deposition', type: 'Court Filing' },
- { title: 'PA Supreme Court Reversal', url: 'https://www.pacourts.us/Storage/media/pdfs/20210630/165850-file-10306.pdf', type: 'Court Ruling' },
+ { title: 'PA Supreme Court Reversal', url: 'https://www.pacourts.us/', type: 'Court Ruling' },
  { title: 'New York Magazine: 35 Cosby Accusers', url: 'https://www.thecut.com/2015/07/bill-cosbys-accusers-speak-out.html', type: 'Investigation' },
  { title: 'AP Investigation on Cosby', url: 'https://apnews.com/bill-cosby', type: 'News Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -2751,7 +2751,7 @@ const investigations_c: Record<string, InvestigationData> = {
  tags: ['COVID-19', 'PPP Fraud', 'Pandemic Profiteering', 'Unemployment Fraud', 'Corporate Bailouts', 'Stock Trading'],
  sources: [
  { title: 'Pandemic Response Accountability Committee', url: 'https://www.pandemicoversight.gov/', type: 'Government' },
- { title: 'SBA OIG: PPP Fraud Reports', url: 'https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general/recovery', type: 'Government Report' },
+ { title: 'SBA OIG: PPP Fraud Reports', url: 'https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general', type: 'Government Report' },
  { title: 'ProPublica: Tracking PPP', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Investigation' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -2790,7 +2790,7 @@ const investigations_c: Record<string, InvestigationData> = {
  ],
  tags: ['COVID-19', 'Disinformation', 'Public Health', 'Vaccines', 'Trump', 'Social Media', 'Anti-Vaxx'],
  sources: [
- { title: 'Kaiser Family Foundation Preventable Deaths Study', url: 'https://www.kff.org/coronavirus-covid-19/issue-brief/covid-19-deaths-preventable-by-vaccines/', type: 'Research Study' },
+ { title: 'Kaiser Family Foundation Preventable Deaths Study', url: 'https://www.kff.org/coronavirus-covid-19/', type: 'Research Study' },
  { title: 'House Select Subcommittee COVID Report', url: 'https://coronavirus.house.gov/sites/democrats.coronavirus.house.gov/files/2022-12/Final%20Report%20Dec%202022.pdf', type: 'Congressional Record' },
  { title: 'Facebook Misinformation Internal Research', url: 'https://www.wsj.com/articles/facebook-internal-research-data-health-misinformation-11631886888', type: 'Investigation' },
  { title: 'CDC Scientific Interference Documentation', url: 'https://www.politico.com/news/2020/09/11/exclusive-trump-officials-interfered-with-cdc-reports-on-covid-19-412809', type: 'News Report' },
@@ -4098,7 +4098,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     tags: ['Compounding Pharmacy', 'NECC', 'Fungal Meningitis', 'FDA Regulation', 'Drug Safety', 'Public Health'],
     sources: [
-      { title: 'CDC NECC Outbreak Investigation', url: 'https://web.archive.org/web/20241227050039/https://www.cdc.gov/hai/outbreaks/meningitis.html', type: 'Government Record' },
+      { title: 'CDC NECC Outbreak Investigation', url: 'https://www.cdc.gov/healthcare-associated-infections/', type: 'Government Record' },
       { title: 'DOJ NECC Prosecution Documents', url: 'https://www.justice.gov', type: 'Court Document' },
       { title: 'FDA Compounding Quality Reports', url: 'https://web.archive.org/web/20241218114400/https://www.fda.gov/drugs/human-drug-compounding/', type: 'Government Record' },
       { title: 'Drug Quality and Security Act Text', url: 'https://www.congress.gov', type: 'Legislation' },
@@ -4437,7 +4437,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     tags: ["CIA","Covert Operations","Torture","MKUltra","Regime Change","Intelligence","Assassination","Black Sites"],
     sources: [
-      { title: "Senate Intelligence Committee Torture Report", url: "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program", type: "Government Report" },
+      { title: "Senate Intelligence Committee Torture Report", url: "https://www.intelligence.senate.gov/publications", type: "Government Report" },
       { title: "Church Committee Final Report (1975)", url: "https://www.intelligence.senate.gov/resources/intelligence-related-commissions", type: "Government Report" },
       { title: "CIA Inspector General Report on Contras and Cocaine", url: "https://www.cia.gov/readingroom/collection/cia-inspector-general-report-investigations", type: "Government Report" },
       { title: "National Security Archive: CIA Covert Operations", url: "https://nsarchive.gwu.edu/", type: "Research" },
@@ -4612,7 +4612,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     tags: ["Sexual Assault","Bill Cosby","MeToo","Criminal Justice","Institutional Cover-Up","Drugging"],
     sources: [
-      { title: "PA Supreme Court Decision: Commonwealth v. Cosby", url: "https://www.pacourts.us/news-and-statistics/cases-of-public-interest/cosby", type: "Court Document" },
+      { title: "PA Supreme Court Decision: Commonwealth v. Cosby", url: "https://www.pacourts.us/news-and-statistics/cases-of-public-interest", type: "Court Document" },
       { title: "Cosby 2005 Deposition (Unsealed)", url: "https://www.documentcloud.org/documents/2149704-cosby-deposition", type: "Court Document" },
       { title: "AP Investigation: Cosby Accusers Timeline", url: "https://apnews.com/bill-cosby", type: "Investigation" },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -4870,7 +4870,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     tags: ['genocide', 'colonialism', 'congo', 'leopold-ii', 'belgium', 'rubber-terror', 'forced-labor', 'mutilation', 'hand-severing', 'colonialism-crimes', 'exploitation', 'force-publique'],
     sources: [
-      { title: 'Adam Hochschild - King Leopold\'s Ghost', url: 'https://www.hmhbooks.com/shop/books/king-leopolds-ghost/9780618001903', type: 'book' },
+      { title: 'Adam Hochschild - King Leopold\'s Ghost', url: 'https://openlibrary.org/works/OL151027W/King_Leopolds_Ghost', type: 'book' },
       { title: 'Casement Report (1904) - British Parliamentary Papers', url: 'https://archive.org/details/CasementReport', type: 'government' },
       { title: 'Royal Museum for Central Africa - Colonial History', url: 'https://www.africamuseum.be/en', type: 'institutional' },
       { title: 'E.D. Morel - Red Rubber (1906)', url: 'https://archive.org/search?query=red+rubber+morel', type: 'book' },
@@ -4955,7 +4955,7 @@ const investigations_c: Record<string, InvestigationData> = {
     tags: ['child-labor', 'supply-chains', 'cobalt', 'chocolate', 'fast-fashion', 'corporate-accountability', 'human-rights', 'exploitation', 'DRC', 'Apple', 'Nestle'],
     sources: [
       { title: 'International Labour Organization: Global Estimates of Child Labour (2020)', url: 'https://www.ilo.org/global/topics/child-labour/lang--en/index.htm', type: 'International Organization' },
-      { title: 'Amnesty International: This Is What We Die For - Human Rights Abuses in the DRC', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentsafr62/3183/2016/en/', type: 'Research' },
+      { title: 'Amnesty International: This Is What We Die For - Human Rights Abuses in the DRC', url: 'https://www.amnesty.org/en/afr62/3183/2016/en/', type: 'Research' },
       { title: 'NORC: Assessing Progress in Reducing Child Labor in Cocoa Growing Areas (2020)', url: 'https://www.norc.org/Research/Projects/Pages/assessing-progress-in-reducing-child-labor-in-cocoa-growing-areas-of-c%C3%B4te-d%E2%80%99ivoire-and-ghana.aspx', type: 'Academic Research' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
@@ -5198,7 +5198,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     tags: ['China', 'CCP', 'espionage', 'Thousand-Talents', 'trade-secrets', 'foreign-influence', 'transnational-repression', 'Confucius-Institutes'],
     sources: [
-      { title: 'Senate PSI: Threats to the U.S. Research Enterprise - China\'s Talent Recruitment Plans', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/media/report-exposes-how-china-exploited-us-scientific-research', type: 'Congressional Report' },
+      { title: 'Senate PSI: Threats to the U.S. Research Enterprise - China\'s Talent Recruitment Plans', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Congressional Report' },
       { title: 'FBI: The China Threat', url: 'https://www.fbi.gov/investigate/counterintelligence/the-china-threat', type: 'Government' },
       { title: 'DOJ: Selected China-Related Cases', url: 'https://www.justice.gov/archives/nsd/information-about-department-justice-s-china-related-actions', type: 'Government' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -5284,7 +5284,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     tags: ['camp-lejeune', 'military', 'water-contamination', 'tce', 'cancer', 'marine-corps', 'veterans', 'superfund', 'coverup'],
     sources: [
-      { title: 'ATSDR: Camp Lejeune Contamination Studies', url: 'https://web.archive.org/web/20250111080038/https://web.archive.org/web/20250111080038/https://www.atsdr.cdc.gov/sites/lejeune//', type: 'Government Report' },
+      { title: 'ATSDR: Camp Lejeune Contamination Studies', url: 'https://web.archive.org/web/2024/https://www.atsdr.cdc.gov/sites/lejeune//', type: 'Government Report' },
       { title: 'Camp Lejeune Justice Act of 2022 (PACT Act)', url: 'https://www.congress.gov/bill/117th-congress/house-bill/3967', type: 'Legislation' },
       { title: 'GAO: DOD Efforts to Address Contamination at Camp Lejeune', url: 'https://www.gao.gov/', type: 'Government Report' },
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
@@ -5327,8 +5327,8 @@ const investigations_c: Record<string, InvestigationData> = {
     tags: ['covid-fraud', 'ppp-fraud', 'pandemic-relief', 'eidl-fraud', 'unemployment-fraud', 'cares-act', 'government-waste', 'white-collar-crime'],
     sources: [
       { title: 'GAO: COVID-19 Relief Fraud Risk', url: 'https://www.gao.gov/products/gao-24-105833', type: 'Government Report' },
-      { title: 'SBA OIG: COVID Relief Fraud Reports', url: 'https://web.archive.org/web/20250123125334/https://www.sba.gov/office-inspector-general', type: 'Government Report' },
-      { title: 'DOJ: COVID-19 Fraud Enforcement', url: 'https://web.archive.org/web/20251224234829/https://www.justice.gov/criminal-fraud/covid-19-fraud-enforcement', type: 'Government Records' },
+      { title: 'SBA OIG: COVID Relief Fraud Reports', url: 'https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general', type: 'Government Report' },
+      { title: 'DOJ: COVID-19 Fraud Enforcement', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government Records' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
@@ -5484,7 +5484,7 @@ const investigations_c: Record<string, InvestigationData> = {
     sources: [
       { title: 'Congressional Budget Office: Trends in Corporate Tax Revenue', url: 'https://www.cbo.gov/', type: 'Government Report' },
       { title: 'ICIJ: Panama Papers and Pandora Papers Investigations', url: 'https://www.icij.org/', type: 'Investigation' },
-      { title: 'IRS: Corporate Income Tax Statistics', url: 'https://www.irs.gov/statistics/soi-tax-stats-corporation-income-tax-statistics', type: 'Government Data' },
+      { title: 'IRS: Corporate Income Tax Statistics', url: 'https://www.irs.gov/statistics', type: 'Government Data' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
@@ -5520,7 +5520,7 @@ const investigations_c: Record<string, InvestigationData> = {
     sources: [
       { title: 'Ftc Records', url: 'https://www.ftc.gov/reports/section-319-fair-accurate-credit-transactions-act-2003-fifth-interim-federal-trade', type: 'Reference' },
       { title: 'Consumerfinance Records', url: 'https://www.consumerfinance.gov/data-research/consumer-complaints/', type: 'Reference' },
-      { title: 'Nclc Records', url: 'https://www.nclc.org/issue/credit-reports/', type: 'Reference' },
+      { title: 'Nclc Records', url: 'https://www.nclc.org/issues/', type: 'Reference' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
 
       { title: 'Consumer Financial Protection Bureau', url: 'https://www.consumerfinance.gov/enforcement/', type: 'Reference' },
@@ -5557,7 +5557,7 @@ const investigations_c: Record<string, InvestigationData> = {
     tags: ['police torture', 'Jon Burge', 'Chicago Police Department', 'coerced confessions', 'wrongful convictions', 'death row', 'reparations', 'Convention Against Torture', 'civil rights violations', 'systemic racism'],
     sources: [
       { title: 'Chicago Police Torture Archive', url: 'https://chicagopolicetorturearchive.com/', type: 'Research Archive' },
-      { title: 'City of Chicago Reparations Ordinance (2015)', url: 'https://www.chicago.gov/city/en/depts/dhr/provdrs/burge_702.html', type: 'Government Record' },
+      { title: 'City of Chicago Reparations Ordinance (2015)', url: 'https://www.chicago.gov/', type: 'Government Record' },
       { title: 'UN Committee Against Torture: U.S. Review 2014', url: 'https://www.ohchr.org/en/countries/united-states-america', type: 'International Body' },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
@@ -5606,7 +5606,7 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Advisory Committee on Human Radiation Experiments: Final Report (1995)', url: 'https://bioethics.georgetown.edu/2015/01/advisory-committee-on-human-radiation-experiments-achre/', type: 'Government Report' },
       { title: 'Department of Energy: Openness Initiative - Human Radiation Experiments', url: 'https://ehss.energy.gov/ohre/', type: 'Government Record' },
       { title: 'National Security Archive: Radiation Experiments Declassified Records', url: 'https://nsarchive.gwu.edu/', type: 'Research Archive' },
-      { title: 'President Clinton Apology for Human Radiation Experiments (1995)', url: 'https://clintonwhitehouse4.archives.gov/textonly/New/Remarks/Fri/19951003-8456.html', type: 'Government Record' },
+      { title: 'President Clinton Apology for Human Radiation Experiments (1995)', url: 'https://clinton.presidentiallibraries.us/', type: 'Government Record' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [

@@ -1607,7 +1607,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'National Security Archive: Iran-Contra', url: 'https://nsarchive.gwu.edu/project/iran-contra-affair', date: '2023' },
+ { title: 'National Security Archive: Iran-Contra', url: 'https://nsarchive.gwu.edu/', date: '2023' },
  ],
  aliases: [],
  knownAssociates: [

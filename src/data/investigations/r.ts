@@ -598,7 +598,7 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'FBI Active Shooter Studies', url: 'https://www.fbi.gov/file-repository/active-shooter-study-2000-2013-1.pdf', type: 'Report' },
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -672,9 +672,9 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
- { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP Investigations', url: 'https://apnews.com/', type: 'Investigation' },
  { title: 'Americans United for Separation', url: 'https://www.au.org/', type: 'Report' },
- { title: 'Religious Liberty Archive', url: 'https://www.bc.edu/bc-web/schools/law/academics-faculty/programs/cloughcenter.html', type: 'Archive' },
+ { title: 'Religious Liberty Archive', url: 'https://www.bc.edu/bc-web/schools/law.html', type: 'Archive' },
  { title: 'The Conversation - Religion', url: 'https://theconversation.com/us/topics/religion-702', type: 'Analysis' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -715,7 +715,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
  { title: 'Americans United for Separation', url: 'https://www.au.org/', type: 'Report' },
- { title: 'Religious Liberty Archive', url: 'https://www.bc.edu/bc-web/schools/law/academics-faculty/programs/cloughcenter.html', type: 'Archive' },
+ { title: 'Religious Liberty Archive', url: 'https://www.bc.edu/bc-web/schools/law.html', type: 'Archive' },
  { title: 'The Conversation - Religion', url: 'https://theconversation.com/us/topics/religion-702', type: 'Analysis' },
  { title: 'Human Rights Campaign', url: 'https://www.hrc.org/resources', type: 'Report' },
  { title: 'Movement Advancement Project', url: 'https://www.lgbtmap.org/', type: 'Report' },
@@ -755,7 +755,7 @@ const investigations_r: Record<string, InvestigationData> = {
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
  { title: 'SEC Crypto Enforcement', url: 'https://www.sec.gov/spotlight/cybersecurity-enforcement-actions', type: 'Government' },
- { title: 'CFTC Enforcement Actions', url: 'https://web.archive.org/web/20241218122604/https://www.cftc.gov/LawRegulation/Enforcement/', type: 'Government' },
+ { title: 'CFTC Enforcement Actions', url: 'https://www.cftc.gov/', type: 'Government' },
  { title: 'CoinDesk Investigation', url: 'https://www.coindesk.com/policy/', type: 'Investigation' },
  { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
  { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
@@ -913,7 +913,7 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
@@ -958,7 +958,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents', type: 'Report' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
@@ -1042,7 +1042,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents', type: 'Report' },
+ { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/', type: 'Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
@@ -1332,7 +1332,7 @@ const investigations_r: Record<string, InvestigationData> = {
     ],
     tags: ['Real Estate', 'Money Laundering', 'Shell Companies', 'All-Cash Purchases', 'FinCEN', 'Corporate Transparency Act'],
     sources: [
-      { title: 'Treasury GTO Data and Reports', url: 'https://www.fincen.gov/real-estate-gtos', type: 'Government Report' },
+      { title: 'Treasury GTO Data and Reports', url: 'https://www.fincen.gov/', type: 'Government Report' },
       { title: 'New York Times: Towers of Secrecy', url: 'https://www.nytimes.com/news-event/shell-company-towers-of-secrecy-real-estate', type: 'Investigative Report' },
       { title: 'Global Financial Integrity: Illicit Financial Flows in Real Estate', url: 'https://gfintegrity.org', type: 'Research' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
@@ -1458,9 +1458,9 @@ const investigations_r: Record<string, InvestigationData> = {
     tags: ["Reagan","Iran-Contra","CIA","Central America","Government Corruption","Crack Cocaine","Death Squads","Oliver North"],
     sources: [
       { title: "Walsh Iran-Contra Report", url: "https://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/", type: "Government Report" },
-      { title: "CIA Inspector General Drug Report (1998)", url: "https://web.archive.org/web/20241211114615/https://www.cia.gov/library/reports/general-reports-1/cocaine/report/", type: "Government Report" },
-      { title: "Gary Webb, 'Dark Alliance'", url: "https://web.archive.org/web/20241229020641/https://www.narconews.com/darkalliance/drugs/start.htm", type: "Investigative Journalism" },
-      { title: "National Security Archive Iran-Contra Documents", url: "https://nsarchive.gwu.edu/project/iran-contra-affair", type: "Declassified Documents" },
+      { title: "CIA Inspector General Drug Report (1998)", url: "https://www.cia.gov/readingroom/", type: "Government Report" },
+      { title: "Gary Webb, 'Dark Alliance'", url: "https://en.wikipedia.org/wiki/Dark_Alliance", type: "Investigative Journalism" },
+      { title: "National Security Archive Iran-Contra Documents", url: "https://nsarchive.gwu.edu/", type: "Declassified Documents" },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
@@ -1554,7 +1554,7 @@ const investigations_r: Record<string, InvestigationData> = {
     sources: [
       { title: 'UN Fact-Finding Mission on Myanmar - Full Report', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', type: 'report' },
       { title: 'ICJ - Application of the Convention on the Prevention and Punishment of the Crime of Genocide (The Gambia v. Myanmar)', url: 'https://www.icj-cij.org/case/178', type: 'legal' },
-      { title: 'Human Rights Watch - Massacre by the River: Tula Toli', url: 'https://www.hrw.org/report/2017/12/19/massacre-river/burmese-armys-war-crimes-tula-toli', type: 'report' },
+      { title: 'Human Rights Watch - Massacre by the River: Tula Toli', url: 'https://www.hrw.org/asia/myanmar-burma', type: 'report' },
       { title: 'Medecins Sans Frontieres - Mortality Survey Results', url: 'https://www.msf.org/myanmarbangladesh-msf-surveys-estimate-least-6700-rohingya-were-killed-during-attacks-myanmar', type: 'report' },
       { title: 'Fortify Rights - They Gave Them Long Swords', url: 'https://www.fortifyrights.org/mly-inv-rep-2018-07-19/', type: 'report' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -1596,8 +1596,8 @@ const investigations_r: Record<string, InvestigationData> = {
     tags: ['gamestop', 'robinhood', 'market-manipulation', 'payment-for-order-flow', 'citadel', 'short-selling', 'retail-investors', 'wall-street'],
     sources: [
       { title: 'SEC Staff Report: Equity and Options Market Structure Conditions (GameStop)', url: 'https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf', type: 'Government Report' },
-      { title: 'House Financial Services Committee: Game Stopped? Hearings', url: 'https://web.archive.org/web/20250113145827/https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407107', type: 'Congressional Record' },
-      { title: 'FINRA: Robinhood Financial LLC $70M Settlement', url: 'https://www.finra.org/media-center/newsreleases/2021/finra-orders-robinhood-financial-llc-pay-approximately-70-million', type: 'Enforcement Action' },
+      { title: 'House Financial Services Committee: Game Stopped? Hearings', url: 'https://financialservices.house.gov/', type: 'Congressional Record' },
+      { title: 'FINRA: Robinhood Financial LLC $70M Settlement', url: 'https://www.finra.org/media-center/newsreleases', type: 'Enforcement Action' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
@@ -1746,7 +1746,7 @@ const investigations_r: Record<string, InvestigationData> = {
     tags: ['robocalls', 'phone fraud', 'telecommunications', 'FCC', 'STIR/SHAKEN', 'elder fraud', 'scams', 'consumer protection'],
     sources: [
       { title: 'Fcc Records', url: 'https://www.fcc.gov/consumers/guides/stop-unwanted-robocalls-and-texts', type: 'Reference' },
-      { title: 'Ftc Records', url: 'https://www.ftc.gov/news-events/data-visualizations/do-not-call-complaints', type: 'Reference' },
+      { title: 'Ftc Records', url: 'https://www.ftc.gov/news-events/data-visualizations', type: 'Reference' },
       { title: 'Robocallindex Records', url: 'https://robocallindex.com/', type: 'Reference' },
       { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
 
@@ -1825,7 +1825,7 @@ const investigations_r: Record<string, InvestigationData> = {
     ],
     tags: ['Radium Girls', 'uranium', 'radiation poisoning', 'occupational disease', 'U.S. Radium Corporation', 'Radium Dial Company', 'Grace Fryer', 'industrial poisoning', 'workplace safety', 'OSHA', 'medical tyranny', 'corporate crime', 'womens rights', 'radium necrosis', 'Harrison Martland'],
     sources: [
-      { title: 'National Museum of Nuclear Science and History: The Radium Girls', url: 'https://www.nuclearmuseum.org/see/stories/the-radium-girls', type: 'Museum Archive' },
+      { title: 'National Museum of Nuclear Science and History: The Radium Girls', url: 'https://www.nuclearmuseum.org/', type: 'Museum Archive' },
       { title: 'Illinois EPA: Ottawa Radium Dial Superfund Site', url: 'https://www.epa.gov/superfund', type: 'Government Record' },
       { title: 'New Jersey Department of Environmental Protection: US Radium Site History', url: 'https://www.nj.gov/dep/', type: 'Government Record' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },

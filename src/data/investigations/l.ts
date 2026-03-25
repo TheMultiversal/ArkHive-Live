@@ -252,7 +252,7 @@ const investigations_l: Record<string, InvestigationData> = {
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
- { title: 'AP News Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
+ { title: 'AP News Investigations', url: 'https://apnews.com/', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -897,7 +897,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'NPR: "My Lobotomy" - Howard Dully Story', url: 'https://www.npr.org/2005/11/16/5014080/my-lobotomy-howard-dullys-journey', type: 'Investigative Report' },
       { title: 'National Library of Medicine: Walter Freeman Papers', url: 'https://profiles.nlm.nih.gov/spotlight/bb', type: 'Research Archive' },
       { title: 'Nobel Prize: Egas Moniz - Nobel Prize 1949', url: 'https://www.nobelprize.org/prizes/medicine/1949/moniz/biographical/', type: 'Nobel Committee' },
-      { title: 'George Washington University: Freeman/Watts Collection', url: 'https://library.gwu.edu/special-collections', type: 'Research Archive' },
+      { title: 'George Washington University: Freeman/Watts Collection', url: 'https://library.gwu.edu/', type: 'Research Archive' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [

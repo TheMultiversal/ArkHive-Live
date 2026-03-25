@@ -224,7 +224,7 @@ const investigations_v: Record<string, InvestigationData> = {
  tags: ['Election Integrity', 'Venezuela', 'Electoral Fraud', 'Maduro', 'Authoritarianism', 'Opposition Suppression'],
  sources: [
  { title: 'Carter Center: Preliminary Report on 2024 Venezuelan Election', url: 'https://www.cartercenter.org/news/pr/2024/venezuela-073024.html', type: 'Election Observation' },
- { title: 'AP: Venezuela Election 2024', url: 'https://apnews.com/hub/venezuela-election', type: 'News Coverage' },
+ { title: 'AP: Venezuela Election 2024', url: 'https://apnews.com/', type: 'News Coverage' },
  { title: 'UNHCR: Venezuela Refugee Crisis', url: 'https://www.unhcr.org/emergencies/venezuela-situation', type: 'Humanitarian Report' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
@@ -302,7 +302,7 @@ const investigations_v: Record<string, InvestigationData> = {
  sources: [
  { title: 'VA: National Veteran Suicide Prevention Annual Report', url: 'https://www.mentalhealth.va.gov/suicide_prevention/data.asp', type: 'Government Report' },
  { title: 'HUD: Annual Homeless Assessment Report (Veterans)', url: 'https://www.huduser.gov/portal/sites/default/files/pdf/2023-AHAR-Part-1.pdf', type: 'Government Report' },
- { title: 'Bureau of Justice Statistics: Veterans in Prison', url: 'https://bjs.ojp.gov/library/publications/veterans-state-and-federal-prison-2016', type: 'Government Report' },
+ { title: 'Bureau of Justice Statistics: Veterans in Prison', url: 'https://bjs.ojp.gov/', type: 'Government Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
@@ -413,7 +413,7 @@ const investigations_v: Record<string, InvestigationData> = {
     sources: [
       { title: 'DEF CON Voting Village Reports', url: 'https://votingvillage.org', type: 'Research' },
       { title: 'Brennan Center: Voting Machine Security', url: 'https://www.brennancenter.org', type: 'Research' },
-      { title: 'EAC: Voting System Certification', url: 'https://www.eac.gov/voting-equipment/system-certification', type: 'Government Report' },
+      { title: 'EAC: Voting System Certification', url: 'https://www.eac.gov/', type: 'Government Report' },
       { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
     ],
     affiliations: [
@@ -488,7 +488,7 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     tags: ['Medical Experimentation', 'Tuskegee', 'Vaccine Access', 'Clinical Trials', 'Health Disparities', 'Demographic Targeting'],
     sources: [
-      { title: 'CDC: Tuskegee Syphilis Study Timeline', url: 'https://web.archive.org/web/20250101040711/https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Report' },
+      { title: 'CDC: Tuskegee Syphilis Study Timeline', url: 'https://www.cdc.gov/tuskegee/', type: 'Government Report' },
       { title: 'Presidential Commission on Guatemala Experiments', url: 'https://bioethicsarchive.georgetown.edu/pcsbi/node/654.html', type: 'Government Report' },
       { title: 'KFF: COVID-19 Vaccination Rates by Race/Ethnicity', url: 'https://www.kff.org/coronavirus-covid-19/', type: 'Research' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
@@ -562,7 +562,7 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     tags: ['VA', 'veterans', 'healthcare-fraud', 'wait-times', 'veteran-suicide', 'disability-claims', 'PACT-Act', 'Phoenix-VA'],
     sources: [
-      { title: 'VA OIG: Review of Alleged Patient Deaths, Patient Wait Times, and Scheduling Practices at the Phoenix VA', url: 'https://web.archive.org/web/20250102045243/https://www.va.gov/OIG/PUBS/VAOIG-14-02603-267.PDF', type: 'Government Audit' },
+      { title: 'VA OIG: Review of Alleged Patient Deaths, Patient Wait Times, and Scheduling Practices at the Phoenix VA', url: 'https://www.va.gov/oig/', type: 'Government Audit' },
       { title: 'GAO: VA Mental Health - Sustained Attention Needed', url: 'https://www.gao.gov/products/gao-23-105655', type: 'Government Audit' },
       { title: 'VA Office of Suicide Prevention: National Veteran Suicide Prevention Annual Report', url: 'https://www.mentalhealth.va.gov/suicide_prevention/data.asp', type: 'Government Data' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
@@ -652,7 +652,7 @@ const investigations_v: Record<string, InvestigationData> = {
     tags: ['volkswagen', 'dieselgate', 'emissions-fraud', 'defeat-device', 'epa', 'clean-air-act', 'nitrogen-oxide', 'corporate-fraud'],
     sources: [
       { title: 'EPA: Volkswagen Light Duty Diesel Vehicle Violations', url: 'https://www.epa.gov/vw', type: 'Government' },
-      { title: 'DOJ: Volkswagen AG Agrees to Plead Guilty - $4.3B Criminal Penalty', url: 'https://web.archive.org/web/20250410143330/https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties', type: 'Government' },
+      { title: 'DOJ: Volkswagen AG Agrees to Plead Guilty - $4.3B Criminal Penalty', url: 'https://www.justice.gov/archives/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties', type: 'Government' },
       { title: 'ICCT: From Laboratory to Road (Real-World Emissions Study)', url: 'https://theicct.org/publications/laboratory-road', type: 'Research' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
