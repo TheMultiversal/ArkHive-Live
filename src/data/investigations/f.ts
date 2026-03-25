@@ -284,7 +284,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Clark Indictment, Georgia', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
  { title: 'Trump-Rosen Call Notes', url: 'https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html', type: 'News Report' },
- { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+ { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/archives/sco/case-document/file/1617866/dl', type: 'Court Filing' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -377,7 +377,7 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Trump Indictment', 'Election Conspiracy', 'Jack Smith', 'January 6', 'Fake Electors', 'Federal Charges'],
  sources: [
- { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+ { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/archives/sco/case-document/file/1617866/dl', type: 'Court Filing' },
  { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
@@ -486,7 +486,7 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Far Right', 'White Supremacy', 'Domestic Terrorism', 'Charlottesville', 'Great Replacement'],
  sources: [
- { title: 'ADL Hate Crime Statistics', url: 'https://web.archive.org/web/2024/https://www.adl.org/resources/reports', type: 'Research' },
+ { title: 'ADL Hate Crime Statistics', url: 'https://web.archive.org/web/2024/https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Research' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -643,7 +643,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
  { title: 'Citizens for Responsibility and Ethics in Washington', url: 'https://www.citizensforethics.org/', type: 'Report' },
  { title: 'CBP Use of Force Statistics', url: 'https://www.cbp.gov/newsroom/stats/cbp-use-force', type: 'Government' },
- { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border', type: 'Report' },
+ { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border/', type: 'Report' },
  { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/series/border-land', type: 'Investigation' },
    { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
@@ -681,7 +681,7 @@ const investigations_f: Record<string, InvestigationData> = {
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
@@ -762,7 +762,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
  { title: 'Economic Policy Institute Reports', url: 'https://www.epi.org/research/', type: 'Report' },
- { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
+ { title: 'IRS Criminal Investigation', url: 'https://web.archive.org/web/20251224234843/https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
    { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
@@ -877,7 +877,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'CFPB Enforcement Actions', url: 'https://www.consumerfinance.gov/enforcement/actions/', type: 'Government' },
  { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government' },
  { title: 'ProPublica Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -918,8 +918,8 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Michigan Civil Rights Commission: The Flint Water Crisis Report', url: 'https://www.michigan.gov/mdcr/0,4613,7-138--452044--,00.html', type: 'Government Report' },
  { title: 'Virginia Tech Flint Water Study', url: 'http://flintwaterstudy.org/', type: 'Academic Research' },
- { title: 'Congressional Flint Water Crisis Hearings', url: 'https://oversight.house.gov/legislation/hearings/examining-federal-administration-of-the-safe-drinking-water-act-in-flint', type: 'Government Report' },
- { title: 'Dr. Mona Hanna-Attisha, "What the Eyes Don\'t See"', url: 'https://www.penguinrandomhouse.com/books/546379/', type: 'Book' },
+ { title: 'Congressional Flint Water Crisis Hearings', url: 'https://web.archive.org/web/20221226124733/https://oversight.house.gov/legislation/hearings/examining-federal-administration-of-the-safe-drinking-water-act-in-flint', type: 'Government Report' },
+ { title: 'Dr. Mona Hanna-Attisha, "What the Eyes Don\'t See"', url: 'https://openlibrary.org/search?q=penguin+random+house+546379', type: 'Book' },
    { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
  ],
  affiliations: [
@@ -2471,7 +2471,7 @@ const investigations_f: Record<string, InvestigationData> = {
     tags: ['facebook', 'instagram', 'meta', 'teen-mental-health', 'social-media', 'algorithm', 'frances-haugen', 'whistleblower', 'eating-disorders', 'suicide'],
     sources: [
       { title: 'Wall Street Journal: The Facebook Files', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
-      { title: 'Senate Commerce Committee: Frances Haugen Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower', type: 'Congressional Record' },
+      { title: 'Senate Commerce Committee: Frances Haugen Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower/', type: 'Congressional Record' },
       { title: 'State Attorneys General v. Meta Platforms: Complaint', url: 'https://www.ag.state.mn.us/', type: 'Legal Filing' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
@@ -2558,7 +2558,7 @@ const investigations_f: Record<string, InvestigationData> = {
     tags: ['food industry', 'regulatory capture', 'obesity', 'USDA', 'FDA', 'GRAS', 'sugar', 'processed food', 'dietary guidelines', 'food additives'],
     sources: [
       { title: 'JAMA Internal Medicine: Sugar Industry Sponsorship of Coronary Heart Disease Research', url: 'https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2548255', type: 'Academic Research' },
-      { title: 'CDC: Adult Obesity Facts', url: 'https://www.cdc.gov/obesity/data/adult.html', type: 'Government Report' },
+      { title: 'CDC: Adult Obesity Facts', url: 'https://web.archive.org/web/20220101063334/https://www.cdc.gov/obesity/data/adult.html', type: 'Government Report' },
       { title: 'GAO: FDA Should Strengthen Its Oversight of Food Ingredients', url: 'https://www.gao.gov/products/gao-10-246', type: 'Government Report' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],

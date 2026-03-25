@@ -20,7 +20,7 @@ const investigations_o: Record<string, InvestigationData> = {
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
@@ -148,7 +148,7 @@ const investigations_o: Record<string, InvestigationData> = {
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
@@ -464,7 +464,7 @@ const investigations_o: Record<string, InvestigationData> = {
     sources: [
       { title: 'National Security Archive: Operation Condor', url: 'https://nsarchive.gwu.edu/project/southern-cone-documentation-project', type: 'Archive' },
       { title: 'Italian Court Condor Verdict (2016)', url: 'https://www.reuters.com/', type: 'Court Record' },
-      { title: 'State Dept Declassified Cables', url: 'https://www.state.gov/historicaldocuments/', type: 'Declassified Document' },
+      { title: 'State Dept Declassified Cables', url: 'https://web.archive.org/web/20250329164500/https://www.state.gov/historicaldocuments/', type: 'Declassified Document' },
       { title: 'John Dinges: The Condor Years', url: 'https://thenewpress.com/', type: 'Investigative Book' },
     ],
     affiliations: [
@@ -946,7 +946,7 @@ const investigations_o: Record<string, InvestigationData> = {
     sources: [
       { title: "Oakland County Court Records", url: "https://www.oakgov.com/courts", type: "Court Document" },
       { title: "Oakland County Prosecutor Press Releases", url: "https://www.oakgov.com/prosecutor", type: "Government" },
-      { title: "Detroit Free Press Investigation", url: "https://www.freep.com/in-depth/news/local/michigan/oakland/oxford-school-shooting/", type: "Investigation" },
+      { title: "Detroit Free Press Investigation", url: "https://www.freep.com/in-depth/news/local/michigan/oakland/oxford-school-shooting", type: "Investigation" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
@@ -1312,7 +1312,7 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'National Archives: Records of the Joint Intelligence Objectives Agency (JIOA)', url: 'https://www.archives.gov/iwg/declassified-records/rg-330-defense-secretary', type: 'Government Record' },
       { title: 'CIA FOIA: Operation Paperclip Declassified Records', url: 'https://www.cia.gov/readingroom/collection/nazi-war-crimes-and-japanese-imperial-government-records', type: 'Government Record' },
       { title: 'National Air and Space Museum: Wernher von Braun Biographical Archive', url: 'https://airandspace.si.edu/people/wernher-von-braun', type: 'Research Archive' },
-      { title: 'Mittelbau-Dora Concentration Camp Memorial: History', url: 'https://www.buchenwald.de/en/896/', type: 'Memorial Archive' },
+      { title: 'Mittelbau-Dora Concentration Camp Memorial: History', url: 'https://web.archive.org/web/20230323194743/https://www.buchenwald.de/en/896/', type: 'Memorial Archive' },
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [

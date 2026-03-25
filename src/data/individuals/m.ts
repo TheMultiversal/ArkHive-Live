@@ -165,7 +165,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: '$110B arms deal, Khashoggi cover-up', href: '/entities/individuals/donald-trump' },
  { name: 'Jared Kushner', relationship: '$2 billion investment after leaving office', href: '/entities/individuals/jared-kushner' },
  ],
- },
+ },
+
  'mike-pence': {
  name: 'Michael Richard Pence',
  title: '48th Vice President of the United States',
@@ -5434,7 +5435,7 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '1976-09-09', event: 'Dies in Beijing; never faced accountability' },
     ],
     sources: [
-      { title: 'Mao\'s Great Famine by Frank Dikotter', url: 'https://www.bloomsbury.com/us/maos-great-famine-9781620403471/', date: '2010' },
+      { title: 'Mao\'s Great Famine by Frank Dikotter', url: 'https://openlibrary.org/works/OL15589567W/Maos_Great_Famine', date: '2010' },
       { title: 'Tombstone: The Great Chinese Famine by Yang Jisheng', url: 'https://us.macmillan.com/books/9780374533991/tombstone', date: '2012' },
     ],
     aliases: ['Chairman Mao', 'The Great Helmsman'],

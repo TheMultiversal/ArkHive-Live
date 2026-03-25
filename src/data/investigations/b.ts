@@ -491,7 +491,7 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Bhopal', 'Union Carbide', 'Industrial Disaster', 'Warren Anderson', 'Dow Chemical', 'Environmental Crime'],
  sources: [
- { title: 'Amnesty International Bhopal Report', url: 'https://www.amnesty.org/en/documents/asa20/015/2014/en/', type: 'NGO Report' },
+ { title: 'Amnesty International Bhopal Report', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentsasa20/015/2014/en/', type: 'NGO Report' },
  { title: 'International Campaign for Justice in Bhopal', url: 'https://www.bhopal.net/', type: 'Advocacy' },
    { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
@@ -525,7 +525,7 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Civil Rights', 'Human Rights', 'Investigation', 'Accountability'],
  sources: [
- { title: 'FDIC Enforcement Decisions', url: 'https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
+ { title: 'FDIC Enforcement Decisions', url: 'https://web.archive.org/web/20241216194049/https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
  { title: 'OCC Enforcement Actions', url: 'https://www.occ.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html', type: 'Government' },
  { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
  { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
@@ -563,13 +563,13 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Corporate Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'FDIC Enforcement Decisions', url: 'https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
+ { title: 'FDIC Enforcement Decisions', url: 'https://web.archive.org/web/20241216194049/https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
  { title: 'OCC Enforcement Actions', url: 'https://www.occ.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html', type: 'Government' },
  { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
  { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -604,10 +604,10 @@ const investigations_b: Record<string, InvestigationData> = {
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
  { title: 'Reuters Financial Crime Coverage', url: 'https://www.reuters.com/legal/', type: 'Investigation' },
- { title: 'FDIC Enforcement Decisions', url: 'https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
+ { title: 'FDIC Enforcement Decisions', url: 'https://web.archive.org/web/20241216194049/https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
  { title: 'OCC Enforcement Actions', url: 'https://www.occ.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html', type: 'Government' },
  { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -746,7 +746,7 @@ const investigations_b: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
+ { title: 'IRS Criminal Investigation', url: 'https://web.archive.org/web/20251224234843/https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -884,7 +884,7 @@ const investigations_b: Record<string, InvestigationData> = {
  tags: ['Criminal Justice', 'Investigation', 'Accountability'],
  sources: [
  { title: 'CBP Use of Force Statistics', url: 'https://www.cbp.gov/newsroom/stats/cbp-use-force', type: 'Government' },
- { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border', type: 'Report' },
+ { title: 'ACLU Border Rights', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border/', type: 'Report' },
  { title: 'ProPublica Border Coverage', url: 'https://www.propublica.org/series/border-land', type: 'Investigation' },
  { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
  { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
@@ -1407,10 +1407,10 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     tags: ["Boeing","737 MAX","Aviation Safety","Corporate Negligence","Whistleblower","FAA","MCAS","Regulatory Capture"],
     sources: [
-      { title: "Senate Commerce Committee Boeing Investigation", url: "https://www.commerce.senate.gov/boeing", type: "Government Report" },
+      { title: "Senate Commerce Committee Boeing Investigation", url: "https://www.commerce.senate.gov/boeing/", type: "Government Report" },
       { title: "NTSB 737 MAX Investigation", url: "https://www.ntsb.gov/investigations/Pages/DCA19MA", type: "Investigation" },
       { title: "House Transportation Committee Final Report on 737 MAX", url: "https://transportation.house.gov/committee-activity/boeing-737-max-investigation", type: "Government Report" },
-      { title: "DOJ Deferred Prosecution Agreement", url: "https://www.justice.gov/usao-ndtx/boeing", type: "Court Document" },
+      { title: "DOJ Deferred Prosecution Agreement", url: "https://www.justice.gov/archives/usao-ndtx/boeing", type: "Court Document" },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
@@ -1615,7 +1615,7 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     tags: ['bail-bonds', 'pretrial-detention', 'cash-bail', 'poverty', 'criminal-justice', 'racial-disparity', 'bail-reform', 'mass-incarceration'],
     sources: [
-      { title: 'Vera Institute of Justice: The Price of Freedom - Bail and Pretrial Detention', url: 'https://www.vera.org/publications/the-price-of-freedom', type: 'Research' },
+      { title: 'Vera Institute of Justice: The Price of Freedom - Bail and Pretrial Detention', url: 'https://www.vera.org/publications/the-price-of-freedom/', type: 'Research' },
       { title: 'Pretrial Justice Institute: Pretrial Criminal Justice Research', url: 'https://www.pretrial.org/', type: 'Research' },
       { title: 'ACLU: Selling Off Our Freedom - How Insurance Corporations Have Taken Over Our Bail System', url: 'https://www.aclu.org/report/selling-our-freedom-how-insurance-corporations-have-taken-over-our-bail-system', type: 'Research' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
@@ -1823,8 +1823,8 @@ const investigations_b: Record<string, InvestigationData> = {
     tags: ['LIBOR', 'banking-fraud', 'interest-rate-manipulation', 'financial-crime', 'Barclays', 'Deutsche-Bank', 'UBS', 'derivatives', 'CFTC'],
     sources: [
       { title: 'CFTC: LIBOR Enforcement Actions', url: 'https://www.cftc.gov/LawRegulation/CFTCStaffLetters/index.htm', type: 'Government Filing' },
-      { title: 'UK Financial Conduct Authority: LIBOR Manipulation Final Notices', url: 'https://www.fca.org.uk/news/press-releases', type: 'Government Filing' },
-      { title: 'DOJ: Criminal Division LIBOR Prosecutions', url: 'https://www.justice.gov/criminal-fraud/market-manipulation', type: 'Legal Document' },
+      { title: 'UK Financial Conduct Authority: LIBOR Manipulation Final Notices', url: 'https://web.archive.org/web/20250328094556/https://www.fca.org.uk/news/press-releases/', type: 'Government Filing' },
+      { title: 'DOJ: Criminal Division LIBOR Prosecutions', url: 'https://web.archive.org/web/20150911181803/http://www.justice.gov/criminal-fraud/market-manipulation', type: 'Legal Document' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
@@ -1931,7 +1931,7 @@ const investigations_b: Record<string, InvestigationData> = {
     sources: [
       { title: 'ACLU Reports', url: 'https://www.aclu.org/issues/immigrants-rights/ice-and-border-patrol-abuses', type: 'Report' },
       { title: 'Human Rights Watch', url: 'https://www.hrw.org/topic/united-states/immigration', type: 'Report' },
-      { title: 'Oig Records', url: 'https://www.oig.dhs.gov/reports', type: 'Reference' },
+      { title: 'Oig Records', url: 'https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports/', type: 'Reference' },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
 
       { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },

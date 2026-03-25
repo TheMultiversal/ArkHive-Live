@@ -378,9 +378,9 @@ const investigations_u: Record<string, InvestigationData> = {
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
- { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
+ { title: 'Amnesty International Reports', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents', type: 'Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
@@ -416,7 +416,7 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
- { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
  { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -586,7 +586,7 @@ const investigations_u: Record<string, InvestigationData> = {
     tags: ["Uvalde","School Shooting","Police Failure","Gun Violence","Robb Elementary","Active Shooter","Pete Arredondo"],
     sources: [
       { title: "Texas House Investigative Committee Report", url: "https://house.texas.gov/uvalde", type: "Government Report" },
-      { title: "DOJ Critical Incident Review", url: "https://www.justice.gov/d9/2024-01/uvalde_critical_incident_review.pdf", type: "Government Report" },
+      { title: "DOJ Critical Incident Review", url: "https://www.justice.gov/d9/2024-01/uvalde_report.pdf", type: "Government Report" },
       { title: "Texas Tribune Uvalde Investigation", url: "https://www.texastribune.org/series/uvalde-texas-school-shooting/", type: "Investigative Journalism" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],

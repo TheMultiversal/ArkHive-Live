@@ -62,7 +62,7 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Market Manipulation', 'Economic Policy', 'Conflicts of Interest', 'Federal Reserve'],
  sources: [
- { title: 'Trump Tweet Market Impact', url: 'https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-markets-trump-tweets-analysis-idUSKCN1VX1VT', type: 'Financial Analysis' },
+ { title: 'Trump Tweet Market Impact', url: 'https://www.reuters.com/markets/', type: 'Financial Analysis' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Legal' },
  ],
  affiliations: [
@@ -650,7 +650,7 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Environment', 'Pollution', 'Environmental Racism', 'PFAS', 'Flint'],
  sources: [
- { title: 'EPA Environmental Justice', url: 'http://web.archive.org/web/20250214130639/https://www.epa.gov/environmentaljustice', type: 'Government' },
+ { title: 'EPA Environmental Justice', url: 'http://web.archive.org/web/20250214130639/https://web.archive.org/web/20241231234430/https://www.epa.gov/environmentaljustice', type: 'Government' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Government' },
    { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
  ],
@@ -812,7 +812,7 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Mass Shooting', 'White Supremacy', 'El Paso', 'Great Replacement', 'Hate Crime', 'Walmart', 'Domestic Terrorism'],
  sources: [
- { title: 'Federal Hate Crimes Indictment', url: 'https://www.justice.gov/opa/pr/texas-man-charged-90-count-federal-indictment-mass-shooting-el-paso', type: 'Court Filing' },
+ { title: 'Federal Hate Crimes Indictment', url: 'https://www.justice.gov/archives/opa/pr/texas-man-charged-90-count-federal-indictment-mass-shooting-el-paso', type: 'Court Filing' },
  { title: 'El Paso Times Victim Profiles', url: 'https://www.elpasotimes.com/story/news/crime/2019/08/03/el-paso-walmart-shooting-victims/1934369001/', type: 'News Report' },
  { title: 'ADL Great Replacement Conspiracy Analysis', url: 'https://www.adl.org/resources/backgrounder/great-replacement-explainer', type: 'Research Study' },
  { title: 'FBI El Paso Domestic Terrorism Investigation', url: 'https://www.fbi.gov/contact-us/field-offices/elpaso', type: 'Government Report' },
@@ -970,7 +970,7 @@ const investigations_e: Record<string, InvestigationData> = {
  { title: 'SEC Insider Trading Cases', url: 'https://www.sec.gov/spotlight/insidertrading/cases.shtml', type: 'Government' },
  { title: 'Bloomberg Markets Coverage', url: 'https://www.bloomberg.com/markets', type: 'Analysis' },
  { title: 'WSJ Markets Coverage', url: 'https://www.wsj.com/news/markets', type: 'Analysis' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
@@ -1058,7 +1058,7 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'EPA Response to Exxon Valdez', url: 'https://www.epa.gov/emergency-response/exxon-valdez-oil-spill', type: 'Government' },
+ { title: 'EPA Response to Exxon Valdez', url: 'https://web.archive.org/web/20260109103122/https://www.epa.gov/emergency-response/exxon-valdez-oil-spill', type: 'Government' },
  { title: 'NOAA Exxon Valdez Oil Spill Assessment', url: 'https://response.restoration.noaa.gov/oil-and-chemical-spills/significant-incidents/exxon-valdez-oil-spill', type: 'Report' },
  { title: 'Inside Climate News', url: 'https://insideclimatenews.org/project/exxon-the-road-not-taken/', type: 'Investigation' },
    { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
@@ -1598,7 +1598,7 @@ const investigations_e: Record<string, InvestigationData> = {
     ],
     tags: ['Environmental Justice', 'Cancer Alley', 'Flint Water Crisis', 'EJScreen', 'Fence-Line Communities', 'Environmental Racism', 'Justice40'],
     sources: [
-      { title: 'EPA EJScreen Data', url: 'https://www.epa.gov/ejscreen', type: 'Government Record' },
+      { title: 'EPA EJScreen Data', url: 'https://web.archive.org/web/20241231200507/https://www.epa.gov/ejscreen', type: 'Government Record' },
       { title: 'CalEnviroScreen 4.0', url: 'https://oehha.ca.gov/calenviroscreen', type: 'Government Record' },
       { title: 'UCC Commission for Racial Justice; Toxic Wastes and Race', url: 'https://www.ucc.org', type: 'Research Study' },
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
@@ -1704,8 +1704,8 @@ const investigations_e: Record<string, InvestigationData> = {
     ],
     tags: ["El Paso","Mass Shooting","White Supremacy","Hate Crime","Domestic Terrorism","Great Replacement","8chan"],
     sources: [
-      { title: "DOJ Hate Crime Indictment", url: "https://www.justice.gov/opa/pr/el-paso-walmart-mass-shooter-pleads-guilty-90-federal-charges", type: "Government" },
-      { title: "El Paso Times Investigation", url: "https://www.elpasotimes.com/in-depth/news/2019/08/03/el-paso-shooting-walmart/1920171001/", type: "Investigative Journalism" },
+      { title: "DOJ Hate Crime Indictment", url: "https://www.justice.gov/archives/opa/pr/el-paso-walmart-mass-shooter-pleads-guilty-90-federal-charges", type: "Government" },
+      { title: "El Paso Times Investigation", url: "https://www.elpasotimes.com/in-depth/news/2019/08/03/el-paso-shooting-walmart/1920171001", type: "Investigative Journalism" },
       { title: "ADL: White Supremacist Propaganda Report", url: "https://www.adl.org/resources/report/white-supremacist-propaganda", type: "Research" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
@@ -1930,7 +1930,7 @@ const investigations_e: Record<string, InvestigationData> = {
     ],
     tags: ['UAE', 'foreign-influence', 'FARA', 'Thomas-Barrack', 'Al-Otaiba', 'campaign-finance', 'lobbying', 'Yemen', 'arms-sales'],
     sources: [
-      { title: 'DOJ: United States v. Thomas Barrack et al.', url: 'https://www.justice.gov/opa/pr/chairman-former-president-s-2017-inaugural-committee-charged-acting-agent-united-arab', type: 'Legal' },
+      { title: 'DOJ: United States v. Thomas Barrack et al.', url: 'https://www.justice.gov/archives/opa/pr/chairman-former-president-s-2017-inaugural-committee-charged-acting-agent-united-arab', type: 'Legal' },
       { title: 'FARA.gov: UAE Registration Database', url: 'https://efile.fara.gov/ords/fara/f?p=185:1', type: 'Government Data' },
       { title: 'The Intercept: UAE Ambassador Leaked Emails', url: 'https://theintercept.com/2017/06/03/hacked-emails-show-top-uae-diplomat-coordinating-with-pro-israel-neocon-think-tanks/', type: 'Investigation' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
@@ -2019,7 +2019,7 @@ const investigations_e: Record<string, InvestigationData> = {
     sources: [
       { title: 'NTSB: Investigation of East Palestine Derailment', url: 'https://www.ntsb.gov/investigations/Pages/RRD23MR005.aspx', type: 'Government Report' },
       { title: 'EPA: East Palestine Emergency Response', url: 'https://www.epa.gov/east-palestine-oh-train-derailment', type: 'Government' },
-      { title: 'Senate Commerce Committee: Improving Rail Safety in Response to East Palestine Derailment', url: 'https://www.commerce.senate.gov/2023/3/improving-rail-safety-in-response-to-the-east-palestine-train-derailment', type: 'Congressional Report' },
+      { title: 'Senate Commerce Committee: Improving Rail Safety in Response to East Palestine Derailment', url: 'https://www.commerce.senate.gov/2023/3/improving-rail-safety-in-response-to-the-east-palestine-train-derailment/', type: 'Congressional Report' },
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
@@ -2182,7 +2182,7 @@ const investigations_e: Record<string, InvestigationData> = {
     sources: [
       { title: 'Kelo v. City of New London, 545 U.S. 469 (2005)', url: 'https://supreme.justia.com/cases/federal/us/545/469/', type: 'Court Decision' },
       { title: 'Institute for Justice: Eminent Domain Abuse', url: 'https://ij.org/issues/private-property/eminent-domain/', type: 'Advocacy Research' },
-      { title: 'Mindy Fullilove: Root Shock: How Tearing Up City Neighborhoods Hurts America', url: 'https://www.penguinrandomhouse.com/books/289813/root-shock-by-mindy-thompson-fullilove/', type: 'Book' },
+      { title: 'Mindy Fullilove: Root Shock: How Tearing Up City Neighborhoods Hurts America', url: 'https://openlibrary.org/works/OL3283043W/Root_Shock', type: 'Book' },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
@@ -2218,7 +2218,7 @@ const investigations_e: Record<string, InvestigationData> = {
     ],
     tags: ['environmental racism', 'Cancer Alley', 'toxic exposure', 'sacrifice zones', 'environmental justice', 'redlining', 'air pollution', 'petrochemical', 'EPA enforcement', 'Title VI'],
     sources: [
-      { title: 'EPA: Environmental Justice Atlas', url: 'https://www.epa.gov/environmentaljustice', type: 'Government Report' },
+      { title: 'EPA: Environmental Justice Atlas', url: 'https://web.archive.org/web/20241231234430/https://www.epa.gov/environmentaljustice', type: 'Government Report' },
       { title: 'ProPublica: Sacrifice Zones (Cancer Alley Investigation)', url: 'https://www.propublica.org/article/welcome-to-cancer-alley-where-toxic-air-is-about-to-get-worse', type: 'Investigation' },
       { title: 'National Academy of Sciences: Federal Regulation and Environmental Justice', url: 'https://www.nationalacademies.org/', type: 'Research' },
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },

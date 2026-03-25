@@ -28,7 +28,7 @@ const investigations_y: Record<string, InvestigationData> = {
  { title: 'Human Rights Watch - Saudi Arabia', url: 'https://www.hrw.org/middle-east/n-africa/saudi-arabia', type: 'Report' },
  { title: 'Amnesty International - Saudi Arabia', url: 'https://www.amnesty.org/en/location/middle-east-and-north-africa/saudi-arabia/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
+ { title: 'Amnesty International Reports', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents', type: 'Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
@@ -64,7 +64,7 @@ const investigations_y: Record<string, InvestigationData> = {
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
@@ -144,7 +144,7 @@ const investigations_y: Record<string, InvestigationData> = {
   ],
   tags: ['predatory towing', 'consumer protection', 'impound fees', 'parking enforcement', 'low-income exploitation', 'vehicle seizure'],
   sources: [
-   { title: 'Consumerreports Records', url: 'https://www.consumerreports.org/cars/car-maintenance/predatory-towing-what-to-know-a1098773498/', type: 'Reference' },
+   { title: 'Consumerreports Records', url: 'https://www.consumerreports.org/cars/car-maintenance/predatory-towing-what-to-know-a1098773498', type: 'Reference' },
    { title: 'Nclc Records', url: 'https://www.nclc.org/issue/auto-issues/', type: 'Reference' },
    { title: 'Ftc Records', url: 'https://www.ftc.gov/news-events/news/press-releases', type: 'Reference' },
     { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },

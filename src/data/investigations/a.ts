@@ -307,9 +307,9 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ Inspector General and OPR Joint Report on the Dismissal of U.S. Attorneys', url: 'http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf', type: 'Government Report' },
  { title: 'Dismissal of U.S. Attorneys Controversy, Wikipedia', url: 'https://en.wikipedia.org/wiki/Dismissal_of_U.S._attorneys_controversy', type: 'Reference' },
- { title: 'Senate Judiciary Committee Investigation Records', url: 'https://web.archive.org/web/20090228041651/http://judiciary.senate.gov/resources/documents/USAttorneyResources.cfm', type: 'Congressional' },
+ { title: 'Senate Judiciary Committee Investigation Records', url: 'https://www.judiciary.senate.gov/', type: 'Congressional' },
  { title: 'David Iglesias, In Justice: Inside the Scandal That Rocked the Bush Administration', url: 'https://www.amazon.com/Justice-Inside-Scandal-Rocked-Administration/dp/0470261986', type: 'Book' },
- { title: 'House Judiciary Committee Report on US Attorney Firings', url: 'https://web.archive.org/web/20090514012413/http://judiciary.house.gov/issues/issues_USAttorneys.html', type: 'Congressional' },
+ { title: 'House Judiciary Committee Report on US Attorney Firings', url: 'https://judiciary.house.gov/', type: 'Congressional' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -567,7 +567,7 @@ const investigations_a: Record<string, InvestigationData> = {
  { title: 'CFPB Enforcement Actions', url: 'https://www.consumerfinance.gov/enforcement/actions/', type: 'Government' },
  { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government' },
  { title: 'ProPublica Bailout Tracker', url: 'https://projects.propublica.org/bailout/', type: 'Investigation' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
@@ -608,7 +608,7 @@ const investigations_a: Record<string, InvestigationData> = {
  { title: 'TigerSwan Internal Documents', url: 'https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-ichinery/', type: 'Leaked Document' },
  { title: 'FBI Black Identity Extremism Report', url: 'https://www.documentcloud.org/documents/4067711-BIE-Redacted.html', type: 'Government Report' },
  { title: 'ICNL US Protest Law Tracker', url: 'https://www.icnl.org/usprotestlawtracker/', type: 'Legal Analysis' },
- { title: 'ACLU Anti-Protest Legislation Report', url: 'https://www.aclu.org/issues/free-speech/rights-protesters/anti-protest-bills-around-country', type: 'Legal Analysis' },
+ { title: 'ACLU Anti-Protest Legislation Report', url: 'https://web.archive.org/web/20250104184245/https://www.aclu.org/issues/free-speech/rights-protesters/anti-protest-bills-around-country', type: 'Legal Analysis' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
@@ -823,7 +823,7 @@ const investigations_a: Record<string, InvestigationData> = {
  tags: ['Extremism', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
@@ -928,7 +928,7 @@ const investigations_a: Record<string, InvestigationData> = {
  tags: ['Hate Crimes', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
  { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
@@ -1119,8 +1119,8 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Financial Times Markets Coverage', url: 'https://www.ft.com/markets', type: 'Analysis' },
  { title: 'SEC Filing Archives', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', type: 'Document' },
- { title: 'Bloomberg Corporate Investigations', url: 'https://www.bloomberg.com/news/articles', type: 'Investigation' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'Bloomberg Corporate Investigations', url: 'https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles/', type: 'Investigation' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -1152,7 +1152,7 @@ const investigations_a: Record<string, InvestigationData> = {
  ],
  tags: ['Civil Rights', 'Human Rights', 'Investigation', 'Accountability'],
  sources: [
- { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/reports/advisory/recommendations', type: 'Government' },
+ { title: 'DHS OIG Detention Facility Reports', url: 'https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports//advisory/recommendations', type: 'Government' },
  { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Report' },
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
@@ -1325,9 +1325,9 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
- { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'EEOC Sexual Harassment Data', url: 'https://www.eeoc.gov/data/sexual-harassment-charges', type: 'Government' },
- { title: 'Time\'s Up Legal Defense Fund', url: 'https://timesupnow.org/', type: 'Report' },
+ { title: 'Time\'s Up Legal Defense Fund', url: 'https://web.archive.org/web/20241227142956/https://timesupnow.org/', type: 'Report' },
  { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
  { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
  { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' },
@@ -2212,7 +2212,7 @@ const investigations_a: Record<string, InvestigationData> = {
     sources: [
       { title: 'United States Holocaust Memorial Museum - Armenian Genocide', url: 'https://www.ushmm.org/genocide-prevention/countries/armenia', type: 'institutional' },
       { title: 'International Association of Genocide Scholars - Resolution on Armenian Genocide', url: 'https://genocidescholars.org/resolutions/', type: 'academic' },
-      { title: 'Ambassador Morgenthau\'s Story (1918) - Contemporary Account', url: 'https://archive.org/details/ambassadormorgenstory00morgrich', type: 'book' },
+      { title: 'Ambassador Morgenthau\'s Story (1918) - Contemporary Account', url: 'https://archive.org/search?query=ambassador+morgenthau+story', type: 'book' },
       { title: 'Armenian National Institute - Genocide Documentation', url: 'https://www.armenian-genocide.org/', type: 'archive' },
       { title: 'Taner Akcam - A Shameful Act: The Armenian Genocide and the Question of Turkish Responsibility', url: 'https://us.macmillan.com/books/9780805086652/', type: 'book' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -2261,9 +2261,9 @@ const investigations_a: Record<string, InvestigationData> = {
     tags: ['apartheid', 'south-africa', 'racial-segregation', 'state-violence', 'crimes-against-humanity', 'forced-removals', 'sharpeville', 'soweto', 'mandela', 'truth-reconciliation', 'biological-warfare', 'nuclear-weapons', 'international-complicity'],
     sources: [
       { title: 'South African Truth and Reconciliation Commission - Final Report', url: 'https://www.justice.gov.za/trc/', type: 'government' },
-      { title: 'UN International Convention on the Suppression and Punishment of the Crime of Apartheid', url: 'https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.10_International%20Convention%20on%20the%20Suppression%20and%20Punishment%20of%20the%20Crime%20of%20Apartheid.pdf', type: 'legal' },
+      { title: 'UN International Convention on the Suppression and Punishment of the Crime of Apartheid', url: 'https://web.archive.org/web/20241231135709/https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.10_International%20Convention%20on%20the%20Suppression%20and%20Punishment%20of%20the%20Crime%20of%20Apartheid.pdf', type: 'legal' },
       { title: 'Human Rights Watch - South Africa Reports', url: 'https://www.hrw.org/africa/south-africa', type: 'report' },
-      { title: 'Desmond Tutu - No Future Without Forgiveness', url: 'https://www.penguinrandomhouse.com/books/167950/no-future-without-forgiveness-by-desmond-tutu/', type: 'book' },
+      { title: 'Desmond Tutu - No Future Without Forgiveness', url: 'https://openlibrary.org/works/OL1920491W/No_Future_Without_Forgiveness', type: 'book' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
@@ -2388,7 +2388,7 @@ const investigations_a: Record<string, InvestigationData> = {
     sources: [
       { title: 'ProPublica: Machine Bias - Risk Assessment in Criminal Sentencing', url: 'https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing', type: 'Investigation' },
       { title: 'NIST: Face Recognition Vendor Test (Demographic Effects)', url: 'https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt', type: 'Government Report' },
-      { title: 'EEOC: AI and Algorithmic Fairness Initiative', url: 'https://www.eeoc.gov/ai', type: 'Government Records' },
+      { title: 'EEOC: AI and Algorithmic Fairness Initiative', url: 'https://web.archive.org/web/20241223203410/https://www.eeoc.gov/ai', type: 'Government Records' },
       { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
@@ -2534,7 +2534,7 @@ const investigations_a: Record<string, InvestigationData> = {
     ],
     tags: ['payday lending', 'predatory lending', 'debt trap', 'CFPB', 'usury', 'tribal lending', 'financial exploitation', 'low-income', 'racial targeting', 'consumer protection'],
     sources: [
-      { title: 'CFPB: Payday Loans and Deposit Advance Products', url: 'https://www.consumerfinance.gov/data-research/research-reports/payday-loans-and-deposit-advance-products/', type: 'Government Report' },
+      { title: 'CFPB: Payday Loans and Deposit Advance Products', url: 'https://www.consumerfinance.gov/data-research/research-reports/payday-loans-and-deposit-advance-products', type: 'Government Report' },
       { title: 'Pew Charitable Trusts: Payday Lending in America', url: 'https://www.pewtrusts.org/en/projects/small-dollar-loans-research-project', type: 'Research' },
       { title: 'Center for Responsible Lending: Payday Industry Research', url: 'https://www.responsiblelending.org/', type: 'Research' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
@@ -2570,7 +2570,7 @@ const investigations_a: Record<string, InvestigationData> = {
     ],
     tags: ['asbestos', 'mesothelioma', 'Johns Manville', 'W.R. Grace', 'Libby Montana', 'EPA ban', 'TSCA', 'corporate cover-up', 'occupational health', 'legacy contamination'],
     sources: [
-      { title: 'EPA: Asbestos Risk Evaluation and Ban', url: 'https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/risk-evaluation-asbestos', type: 'Government Report' },
+      { title: 'EPA: Asbestos Risk Evaluation and Ban', url: 'https://www.epa.gov/archive/assessing-and-managing-chemicals-under-tsca/risk-evaluation-asbestos', type: 'Government Report' },
       { title: 'NIOSH: Asbestos and Other Fibers', url: 'https://www.cdc.gov/niosh/topics/asbestos/', type: 'Government Report' },
       { title: 'GAO: Asbestos Injury Compensation', url: 'https://www.gao.gov/', type: 'Government Report' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
@@ -2653,7 +2653,7 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'VA: Agent Orange Exposure and Presumptive Conditions', url: 'https://www.va.gov/disability/eligibility/hazardous-materials-exposure/agent-orange/', type: 'Government Record' },
       { title: 'NIH: Agent Orange and Cancer Risk (NCI)', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/agent-orange', type: 'Government Record' },
       { title: 'Congressional Research Service: Agent Orange - Background and Policy', url: 'https://sgp.fas.org/crs/misc/R44268.pdf', type: 'Congressional Record' },
-      { title: 'USAID: Environmental Remediation of Dioxin in Vietnam', url: 'https://www.usaid.gov/vietnam/environmental-remediation', type: 'Government Record' },
+      { title: 'USAID: Environmental Remediation of Dioxin in Vietnam', url: 'https://web.archive.org/web/20250110002913/https://www.usaid.gov/vietnam/environmental-remediation', type: 'Government Record' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [

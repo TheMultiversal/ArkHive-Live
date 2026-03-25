@@ -320,7 +320,7 @@ const investigations_j: Record<string, InvestigationData> = {
     ],
     tags: ['jackson-mississippi', 'water-crisis', 'infrastructure', 'environmental-racism', 'safe-drinking-water', 'disinvestment', 'racial-inequality'],
     sources: [
-      { title: 'EPA: Jackson Mississippi Water System Emergency Order', url: 'https://www.epa.gov/ms-water', type: 'Government Records' },
+      { title: 'EPA: Jackson Mississippi Water System Emergency Order', url: 'https://www.epa.gov/archive/ms-water', type: 'Government Records' },
       { title: 'DOJ: United States v. City of Jackson', url: 'https://www.justice.gov/', type: 'Court Records' },
       { title: 'Mississippi Today: Jackson Water Crisis Coverage', url: 'https://mississippitoday.org/water-crisis/', type: 'Investigation' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -484,7 +484,7 @@ const investigations_j: Record<string, InvestigationData> = {
     tags: ['cash bail', 'pretrial detention', 'bail bond industry', 'criminal justice reform', 'wealth-based detention', 'plea deals', 'racial disparities', 'mass incarceration', 'bail reform'],
     sources: [
       { title: 'Prison Policy Initiative: Detaining the Poor - Cash Bail', url: 'https://www.prisonpolicy.org/reports/incomejails.html', type: 'Research' },
-      { title: 'Vera Institute of Justice: The Price of Freedom - Bail in America', url: 'https://www.vera.org/publications/past-due-costs-and-consequences-of-charging-for-justice-in-new-orleans', type: 'Research' },
+      { title: 'Vera Institute of Justice: The Price of Freedom - Bail in America', url: 'https://www.vera.org/publications/past-due-costs-and-consequences-of-charging-for-justice-in-new-orleans/', type: 'Research' },
       { title: 'Bureau of Justice Statistics: Jail Inmates in 2022', url: 'https://bjs.ojp.gov/', type: 'Government Report' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
@@ -557,7 +557,7 @@ const investigations_j: Record<string, InvestigationData> = {
     sources: [
       { title: 'Sentencingproject Records', url: 'https://www.sentencingproject.org/policy-brief/juvenile-life-without-parole/', type: 'Reference' },
       { title: 'Eji Records', url: 'https://eji.org/issues/children-in-prison/', type: 'Reference' },
-      { title: 'Supreme Court Records', url: 'https://www.supremecourt.gov/opinions/11pdf/10-9646g2i8.pdf', type: 'Government' },
+      { title: 'Supreme Court Records', url: 'https://web.archive.org/web/20250108192737/https://www.supremecourt.gov/opinions/11pdf/10-9646g2i8.pdf', type: 'Government' },
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
 
       { title: 'DOJ Civil Rights Division Reports', url: 'https://www.justice.gov/crt', type: 'Reference' },

@@ -232,16 +232,16 @@ const investigations_h: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'FDIC Enforcement Decisions', url: 'https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
+ { title: 'FDIC Enforcement Decisions', url: 'https://web.archive.org/web/20241216194049/https://www.fdic.gov/bank/individual/enforcement/', type: 'Government' },
  { title: 'OCC Enforcement Actions', url: 'https://www.occ.gov/topics/laws-and-regulations/enforcement-actions/index-enforcement-actions.html', type: 'Government' },
  { title: 'Federal Reserve Enforcement Actions', url: 'https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm', type: 'Government' },
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
  { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
- { title: 'IRS Criminal Investigation', url: 'https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
+ { title: 'IRS Criminal Investigation', url: 'https://web.archive.org/web/20251224234843/https://www.irs.gov/statistics/criminal-investigation-data-and-statistics', type: 'Government' },
  { title: 'ProPublica Tax Coverage', url: 'https://www.propublica.org/series/the-secret-irs-files', type: 'Investigation' },
  { title: 'Institute on Taxation and Economic Policy', url: 'https://itep.org/', type: 'Report' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -279,7 +279,7 @@ const investigations_h: Record<string, InvestigationData> = {
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
  { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  ],
  affiliations: [
@@ -434,7 +434,7 @@ const investigations_h: Record<string, InvestigationData> = {
  sources: [
  { title: 'ILO Global Estimates of Modern Slavery', url: 'https://www.ilo.org/wcmsp5/groups/public/---ed_norm/---ipec/documents/publication/wcms_854733.pdf', type: 'International Report' },
  { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org/en/statistics', type: 'Research Study' },
- { title: 'State Department Trafficking in Persons Report', url: 'https://www.state.gov/trafficking-in-persons-report/', type: 'Government Report' },
+ { title: 'State Department Trafficking in Persons Report', url: 'https://web.archive.org/web/20241231212516/https://www.state.gov/trafficking-in-persons-report//', type: 'Government Report' },
  { title: 'DOJ Human Trafficking Prosecution Data', url: 'https://www.justice.gov/humantrafficking', type: 'Government Report' },
    { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
@@ -511,7 +511,7 @@ const investigations_h: Record<string, InvestigationData> = {
     ],
     tags: ['Human Trafficking', 'Forced Labor', 'Sex Trafficking', 'Supply Chain', 'TVPA', 'Child Trafficking', 'Agricultural Workers'],
     sources: [
-      { title: 'State Department TIP Report', url: 'https://www.state.gov/trafficking-in-persons-report', type: 'Government Report' },
+      { title: 'State Department TIP Report', url: 'https://web.archive.org/web/20241231212516/https://www.state.gov/trafficking-in-persons-report/', type: 'Government Report' },
       { title: 'ILO Global Estimates of Modern Slavery', url: 'https://www.ilo.org', type: 'Research Study' },
       { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org', type: 'Research Study' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
@@ -935,7 +935,7 @@ const investigations_h: Record<string, InvestigationData> = {
     sources: [
       { title: 'Commission on Wartime Contracting: Final Report to Congress', url: 'https://cybercemetery.unt.edu/archive/cwc/20110929213820/http://www.wartimecontracting.gov/', type: 'Congressional Report' },
       { title: 'DCAA: Audit Reports on KBR LOGCAP Contracts', url: 'https://www.dcaa.mil/', type: 'Government Audit' },
-      { title: 'DOJ: KBR Settlement Agreements', url: 'https://www.justice.gov/civil/fraud-statistics', type: 'Government' },
+      { title: 'DOJ: KBR Settlement Agreements', url: 'https://www.justice.gov/archives/civil/fraud-statistics', type: 'Government' },
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [

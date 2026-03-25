@@ -61,7 +61,7 @@ const investigations_n: Record<string, InvestigationData> = {
  ],
  tags: ['Russia', 'NRA', 'Maria Butina', 'Foreign Interference', 'Campaign Finance'],
  sources: [
- { title: 'Senate Finance Committee Investigation', url: 'https://www.finance.senate.gov/ranking-members-news/wyden-launches-investigation-of-nra-links-to-russia', type: 'Investigation' },
+ { title: 'Senate Finance Committee Investigation', url: 'https://www.finance.senate.gov/ranking-members-news', type: 'Investigation' },
       { title: 'DOJ FARA Registration Database', url: 'https://www.justice.gov/nsd-fara', type: 'Government' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -450,7 +450,7 @@ const investigations_n: Record<string, InvestigationData> = {
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
  { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org/en/statistics', type: 'Report' },
- { title: 'DOJ Human Trafficking Prosecution Unit', url: 'https://www.justice.gov/criminal/criminal-ceos/human-trafficking-prosecution-unit-htpu', type: 'Government' },
+ { title: 'DOJ Human Trafficking Prosecution Unit', url: 'https://www.justice.gov/archives/criminal/criminal-ceos/human-trafficking-prosecution-unit-htpu', type: 'Government' },
  { title: 'Polaris Project Reports', url: 'https://polarisproject.org/resources/', type: 'Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -608,7 +608,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'GAO: Nuclear Waste Management Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'DOL: Energy Employees Occupational Illness Compensation Program', url: 'https://www.dol.gov/agencies/owcp/energy', type: 'Government Record' },
       { title: 'Hanford Challenge: Independent Oversight', url: 'https://www.hanfordchallenge.org', type: 'Investigative Report' },
-      { title: 'Kristen Iversen: Full Body Burden (Rocky Flats)', url: 'https://www.kristeniversen.com/full-body-burden', type: 'Book' },
+      { title: 'Kristen Iversen: Full Body Burden (Rocky Flats)', url: 'https://web.archive.org/web/20191219030423/http://www.kristeniversen.com/full-body-burden', type: 'Book' },
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
@@ -649,7 +649,7 @@ const investigations_n: Record<string, InvestigationData> = {
     tags: ['Search Algorithms', 'Google', 'Information Control', 'AI Search', 'Content Moderation', 'Section 230', 'Digital Monopoly'],
     sources: [
       { title: 'AIBRT: Search Engine Manipulation Effect Research', url: 'https://aibrt.org', type: 'Academic Research' },
-      { title: 'DOJ: United States v. Google LLC Antitrust', url: 'https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc-2020', type: 'Legal Document' },
+      { title: 'DOJ: United States v. Google LLC Antitrust', url: 'https://www.justice.gov/archives/atr/case/us-and-plaintiff-states-v-google-llc-2020', type: 'Legal Document' },
       { title: 'Wall Street Journal: YouTube Algorithm Investigation', url: 'https://www.wsj.com', type: 'Investigative Report' },
       { title: 'Google Transparency Report', url: 'https://transparencyreport.google.com', type: 'Corporate Report' },
       { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Reference' },
@@ -770,7 +770,7 @@ const investigations_n: Record<string, InvestigationData> = {
       { title: 'Iris Chang - The Rape of Nanking: The Forgotten Holocaust of World War II', url: 'https://www.hachettebookgroup.com/titles/iris-chang/the-rape-of-nanking/9780465068364/', type: 'book' },
       { title: 'Memorial Hall of the Victims in Nanjing Massacre', url: 'http://www.nj1937.org/en/', type: 'memorial' },
       { title: 'Yale Divinity School Library - Nanjing Massacre Documents', url: 'https://divinity-adhoc.library.yale.edu/NanjingMassacre/', type: 'archive' },
-      { title: 'International Military Tribunal for the Far East - Judgment', url: 'https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf', type: 'legal' },
+      { title: 'International Military Tribunal for the Far East - Judgment', url: 'https://web.archive.org/web/20241219170539/https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf', type: 'legal' },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
@@ -812,8 +812,8 @@ const investigations_n: Record<string, InvestigationData> = {
     sources: [
       { title: 'UN Commission of Inquiry on Human Rights in the DPRK - Report (A/HRC/25/63)', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/commission-inquiry-on-hr-in-dprk', type: 'report' },
       { title: 'Committee for Human Rights in North Korea - The Hidden Gulag', url: 'https://www.hrnk.org/publications/', type: 'report' },
-      { title: 'Shin Dong-hyuk Testimony - Escape from Camp 14', url: 'https://www.penguinrandomhouse.com/books/211895/escape-from-camp-14-by-blaine-harden/', type: 'book' },
-      { title: 'Amnesty International - Images Reveal Scale of North Korean Political Prison Camps', url: 'https://www.amnesty.org/en/latest/news/2013/12/north-korea-new-images-show-scale-blighted-political-prison-camps/', type: 'report' },
+      { title: 'Shin Dong-hyuk Testimony - Escape from Camp 14', url: 'https://openlibrary.org/works/OL16487515W/Escape_from_Camp_14', type: 'book' },
+      { title: 'Amnesty International - Images Reveal Scale of North Korean Political Prison Camps', url: 'https://www.amnesty.org/en/latest/news/2013/12/north-korea-new-images-show-scale-blighted-political-prison-camps', type: 'report' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
@@ -848,8 +848,8 @@ const investigations_n: Record<string, InvestigationData> = {
     tags: ['nuclear-testing', 'radiation-experiments', 'human-experimentation', 'downwinders', 'Marshall-Islands', 'AEC', 'DoD', 'medical-ethics', 'cover-up'],
     sources: [
       { title: 'Advisory Committee on Human Radiation Experiments (ACHRE) Report', url: 'https://bioethicsarchive.georgetown.edu/achre/final/report.html', type: 'Government Report' },
-      { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report', type: 'Government Report' },
-      { title: 'Eileen Welsome: The Plutonium Files', url: 'https://www.penguinrandomhouse.com/books/332009/the-plutonium-files-by-eileen-welsome/', type: 'Book' },
+      { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://web.archive.org/web/20250720112349/https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report', type: 'Government Report' },
+      { title: 'Eileen Welsome: The Plutonium Files', url: 'https://openlibrary.org/works/OL2668497W/The_Plutonium_Files', type: 'Book' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
@@ -1006,7 +1006,7 @@ const investigations_n: Record<string, InvestigationData> = {
     ],
     tags: ['nuclear-testing', 'atomic-veterans', 'downwinders', 'Marshall-Islands', 'radiation', 'RECA', 'uranium-mining', 'Navajo-Nation', 'Castle-Bravo'],
     sources: [
-      { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report', type: 'Government Research' },
+      { title: 'National Cancer Institute: Estimated Exposures and Thyroid Doses from NTS Fallout', url: 'https://web.archive.org/web/20250720112349/https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report', type: 'Government Research' },
       { title: 'DOE OpenNet: Declassified Nuclear Testing Documents', url: 'https://www.osti.gov/opennet/', type: 'Government Archive' },
       { title: 'RECA: Radiation Exposure Compensation Act Trust Fund', url: 'https://www.justice.gov/civil/common/reca', type: 'Government Program' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },

@@ -67,7 +67,7 @@ const investigations_2: Record<string, InvestigationData> = {
  tags: ['2020 Election', 'Fake Electors', 'January 6', 'Trump', 'Election Interference'],
  sources: [
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
- { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+ { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/archives/sco/case-document/file/1617866/dl', type: 'Court Filing' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -149,7 +149,7 @@ const investigations_2: Record<string, InvestigationData> = {
   tags: ['COVID-19', 'pandemic', 'PPP fraud', 'insider trading', 'pharmaceutical profiteering', 'Moderna', 'Pfizer', 'PPE', 'inspector general', 'corruption'],
   sources: [
    { title: 'Pandemic Response Accountability Committee: Top Challenges Reports', url: 'https://www.pandemicoversight.gov/', type: 'Government Report' },
-   { title: 'SBA OIG: Inspection of SBA\'s Implementation of PPP', url: 'https://www.sba.gov/document/report-21-02-inspection-sbas-implementation-paycheck-protection-program', type: 'Government Report' },
+   { title: 'SBA OIG: Inspection of SBA\'s Implementation of PPP', url: 'https://www.sba.gov/document/report-21-02-inspection-sbas-implementation-paycheck-protection-program/', type: 'Government Report' },
    { title: 'ProPublica: Tracking PPP and Pandemic Spending', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Investigation' },
     { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
   ],

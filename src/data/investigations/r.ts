@@ -77,9 +77,9 @@ const investigations_r: Record<string, InvestigationData> = {
  tags: ['Russia', 'Money Laundering', 'Trump Organization', 'Felix Sater', 'Bayrock', 'Deutsche Bank', 'Oligarchs'],
  sources: [
  { title: 'Trump Jr. 2008 Statement on Russians', url: 'https://www.eturbonews.com/9788/executive-talk-donald-trump-jr-bullish-russia-and-potential-f/', type: 'News Report' },
- { title: 'Reuters Sater Investigation', url: 'https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-trump-russia-sater/', type: 'Investigation' },
+ { title: 'Reuters Sater Investigation', url: 'https://www.reuters.com/investigates/', type: 'Investigation' },
  { title: 'Trump Palm Beach Sale Analysis', url: 'https://www.mcclatchydc.com/news/nation-world/national/article135243694.html', type: 'News Report' },
- { title: 'FinCEN Files Trump Transactions', url: 'https://web.archive.org/web/2024/https://www.buzzfeednews.com/article/jasonleopold/fincen-files-trump-suspicious-reports', type: 'Investigation' },
+ { title: 'FinCEN Files Trump Transactions', url: 'https://web.archive.org/web/20211001000000*/buzzfeednews.com/article/jasonleopold/fincen-files*', type: 'Investigation' },
  { title: 'Deutsche Bank Russian Laundering', url: 'https://www.nytimes.com/2017/01/30/business/deutsche-bank-fined-for-helping-russians-launder-10-billion.html', type: 'News Report' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -184,7 +184,7 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Christian Nationalism', 'Religious Right', 'Federalist Society', 'ADF', 'FRC', 'Project 2025', 'Dominionism'],
  sources: [
- { title: 'The Power Worshippers by Katherine Stewart', url: 'https://www.bloomsbury.com/us/power-worshippers-9781635573435/', type: 'Book' },
+ { title: 'The Power Worshippers by Katherine Stewart', url: 'https://openlibrary.org/works/OL20981898W/The_Power_Worshippers', type: 'Book' },
  { title: 'SPLC Profile: Alliance Defending Freedom', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/alliance-defending-freedom', type: 'Organization Profile' },
  { title: 'SPLC Profile: Family Research Council', url: 'https://www.splcenter.org/fighting-hate/extremist-files/group/family-research-council', type: 'Organization Profile' },
  { title: 'Project 2025 Document', url: 'https://www.project2025.org/', type: 'Policy Document' },
@@ -499,8 +499,8 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Mueller Report: Report on the Investigation into Russian Interference', url: 'https://www.justice.gov/archives/sco/file/1373816/dl', type: 'Government' },
  { title: 'Senate Intelligence Committee Volume 5: Counterintelligence Threats', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
- { title: 'DOJ Indictment of 12 GRU Officers', url: 'https://www.justice.gov/file/1080281/dl', type: 'Legal' },
- { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/file/1035477/dl', type: 'Legal' },
+ { title: 'DOJ Indictment of 12 GRU Officers', url: 'https://www.justice.gov/archives/file/1080281/dl', type: 'Legal' },
+ { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/archives/file/1035477/dl', type: 'Legal' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -552,7 +552,7 @@ const investigations_r: Record<string, InvestigationData> = {
  tags: ['Sex Trafficking', 'Child Sexual Exploitation', 'Racketeering', 'Music Industry', 'Abuse', 'R. Kelly', 'RICO', 'Surviving R. Kelly'],
  sources: [
  { title: 'DOJ Press Release: R. Kelly Convicted of Racketeering and Sex Trafficking', url: 'https://www.justice.gov/usao-edny/pr/r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Government' },
- { title: 'Jim DeRogatis: Soulless: The Case Against R. Kelly', url: 'https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-holding-women-in-a-cult', type: 'News' },
+ { title: 'Jim DeRogatis: Soulless: The Case Against R. Kelly', url: 'https://web.archive.org/web/20211001000000*/buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly*', type: 'News' },
  { title: 'Eastern District of New York Indictment', url: 'https://www.justice.gov/usao-edny/press-release/file/1187041/dl', type: 'Legal' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -670,7 +670,7 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
- { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment', type: 'Investigation' },
+ { title: 'New York Times Investigations', url: 'https://www.nytimes.com/spotlight/sexual-harassment/', type: 'Investigation' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
  { title: 'AP Investigations', url: 'https://apnews.com/hub/investigations', type: 'Investigation' },
  { title: 'Americans United for Separation', url: 'https://www.au.org/', type: 'Report' },
@@ -755,7 +755,7 @@ const investigations_r: Record<string, InvestigationData> = {
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
  { title: 'SEC Crypto Enforcement', url: 'https://www.sec.gov/spotlight/cybersecurity-enforcement-actions', type: 'Government' },
- { title: 'CFTC Enforcement Actions', url: 'https://www.cftc.gov/LawRegulation/Enforcement', type: 'Government' },
+ { title: 'CFTC Enforcement Actions', url: 'https://web.archive.org/web/20241218122604/https://www.cftc.gov/LawRegulation/Enforcement/', type: 'Government' },
  { title: 'CoinDesk Investigation', url: 'https://www.coindesk.com/policy/', type: 'Investigation' },
  { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
  { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
@@ -876,7 +876,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'SEC Enforcement Actions - Ponzi Schemes', url: 'https://www.sec.gov/spotlight/enf-actions-ponzi.shtml', type: 'Government' },
  { title: 'FBI Financial Crimes Report', url: 'https://www.fbi.gov/investigate/white-collar-crime', type: 'Government' },
  { title: 'DOJ Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -958,7 +958,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
+ { title: 'Amnesty International Reports', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents', type: 'Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
@@ -1042,7 +1042,7 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'Bellingcat Russia Investigations', url: 'https://www.bellingcat.com/tag/russia/', type: 'Investigation' },
  { title: 'Atlantic Council Digital Forensic Research Lab', url: 'https://www.atlanticcouncil.org/programs/digital-forensic-research-lab/', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
+ { title: 'Amnesty International Reports', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents', type: 'Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
@@ -1458,8 +1458,8 @@ const investigations_r: Record<string, InvestigationData> = {
     tags: ["Reagan","Iran-Contra","CIA","Central America","Government Corruption","Crack Cocaine","Death Squads","Oliver North"],
     sources: [
       { title: "Walsh Iran-Contra Report", url: "https://www.brown.edu/Research/Understanding_the_Iran_Contra_Affair/", type: "Government Report" },
-      { title: "CIA Inspector General Drug Report (1998)", url: "https://www.cia.gov/library/reports/general-reports-1/cocaine/report/", type: "Government Report" },
-      { title: "Gary Webb, 'Dark Alliance'", url: "https://www.narconews.com/darkalliance/drugs/start.htm", type: "Investigative Journalism" },
+      { title: "CIA Inspector General Drug Report (1998)", url: "https://web.archive.org/web/20241211114615/https://www.cia.gov/library/reports/general-reports-1/cocaine/report/", type: "Government Report" },
+      { title: "Gary Webb, 'Dark Alliance'", url: "https://web.archive.org/web/20241229020641/https://www.narconews.com/darkalliance/drugs/start.htm", type: "Investigative Journalism" },
       { title: "National Security Archive Iran-Contra Documents", url: "https://nsarchive.gwu.edu/project/iran-contra-affair", type: "Declassified Documents" },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
@@ -1507,7 +1507,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch - Leave None to Tell the Story: Genocide in Rwanda', url: 'https://www.hrw.org/reports/1999/rwanda/', type: 'report' },
       { title: 'PBS Frontline - Ghosts of Rwanda', url: 'https://www.pbs.org/wgbh/pages/frontline/shows/ghosts/', type: 'documentary' },
       { title: 'National Security Archive - US Policy During the Genocide', url: 'https://nsarchive2.gwu.edu/NSAEBB/NSAEBB53/', type: 'government' },
-      { title: 'Dallaire, Romeo. Shake Hands with the Devil. Carroll and Graf, 2004.', url: 'https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/', type: 'book' },
+      { title: 'Dallaire, Romeo. Shake Hands with the Devil. Carroll and Graf, 2004.', url: 'https://openlibrary.org/works/OL3918651W/Shake_Hands_with_the_Devil', type: 'book' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
@@ -1596,7 +1596,7 @@ const investigations_r: Record<string, InvestigationData> = {
     tags: ['gamestop', 'robinhood', 'market-manipulation', 'payment-for-order-flow', 'citadel', 'short-selling', 'retail-investors', 'wall-street'],
     sources: [
       { title: 'SEC Staff Report: Equity and Options Market Structure Conditions (GameStop)', url: 'https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf', type: 'Government Report' },
-      { title: 'House Financial Services Committee: Game Stopped? Hearings', url: 'https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407107', type: 'Congressional Record' },
+      { title: 'House Financial Services Committee: Game Stopped? Hearings', url: 'https://web.archive.org/web/20250113145827/https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407107', type: 'Congressional Record' },
       { title: 'FINRA: Robinhood Financial LLC $70M Settlement', url: 'https://www.finra.org/media-center/newsreleases/2021/finra-orders-robinhood-financial-llc-pay-approximately-70-million', type: 'Enforcement Action' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],

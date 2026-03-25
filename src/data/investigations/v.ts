@@ -176,7 +176,7 @@ const investigations_v: Record<string, InvestigationData> = {
  tags: ['Voting Rights', 'Shelby County', 'Voter Suppression', 'Gerrymandering', 'VRA', 'Voter ID', 'Felony Disenfranchisement', 'Preclearance'],
  sources: [
  { title: 'Brennan Center: Voting Laws Roundup 2013-2023', url: 'https://www.brennancenter.org/our-work/research-reports', type: 'Research' },
- { title: 'Shelby County v. Holder (2013)', url: 'https://www.supremecourt.gov/opinions/12pdf/12-96_6k47.pdf', type: 'Court Record' },
+ { title: 'Shelby County v. Holder (2013)', url: 'https://web.archive.org/web/20241231105755/https://www.supremecourt.gov/opinions/12pdf/12-96_6k47.pdf', type: 'Court Record' },
  { title: 'Leadership Conference: Democracy Diverted', url: 'https://civilrights.org/democracy-diverted/', type: 'Research' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
@@ -488,7 +488,7 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     tags: ['Medical Experimentation', 'Tuskegee', 'Vaccine Access', 'Clinical Trials', 'Health Disparities', 'Demographic Targeting'],
     sources: [
-      { title: 'CDC: Tuskegee Syphilis Study Timeline', url: 'https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Report' },
+      { title: 'CDC: Tuskegee Syphilis Study Timeline', url: 'https://web.archive.org/web/20250101040711/https://www.cdc.gov/tuskegee/timeline.htm', type: 'Government Report' },
       { title: 'Presidential Commission on Guatemala Experiments', url: 'https://bioethicsarchive.georgetown.edu/pcsbi/node/654.html', type: 'Government Report' },
       { title: 'KFF: COVID-19 Vaccination Rates by Race/Ethnicity', url: 'https://www.kff.org/coronavirus-covid-19/', type: 'Research' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
@@ -562,7 +562,7 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     tags: ['VA', 'veterans', 'healthcare-fraud', 'wait-times', 'veteran-suicide', 'disability-claims', 'PACT-Act', 'Phoenix-VA'],
     sources: [
-      { title: 'VA OIG: Review of Alleged Patient Deaths, Patient Wait Times, and Scheduling Practices at the Phoenix VA', url: 'https://www.va.gov/oig/pubs/VAOIG-14-02603-267.pdf', type: 'Government Audit' },
+      { title: 'VA OIG: Review of Alleged Patient Deaths, Patient Wait Times, and Scheduling Practices at the Phoenix VA', url: 'https://web.archive.org/web/20250102045243/https://www.va.gov/OIG/PUBS/VAOIG-14-02603-267.PDF', type: 'Government Audit' },
       { title: 'GAO: VA Mental Health - Sustained Attention Needed', url: 'https://www.gao.gov/products/gao-23-105655', type: 'Government Audit' },
       { title: 'VA Office of Suicide Prevention: National Veteran Suicide Prevention Annual Report', url: 'https://www.mentalhealth.va.gov/suicide_prevention/data.asp', type: 'Government Data' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
@@ -652,7 +652,7 @@ const investigations_v: Record<string, InvestigationData> = {
     tags: ['volkswagen', 'dieselgate', 'emissions-fraud', 'defeat-device', 'epa', 'clean-air-act', 'nitrogen-oxide', 'corporate-fraud'],
     sources: [
       { title: 'EPA: Volkswagen Light Duty Diesel Vehicle Violations', url: 'https://www.epa.gov/vw', type: 'Government' },
-      { title: 'DOJ: Volkswagen AG Agrees to Plead Guilty - $4.3B Criminal Penalty', url: 'https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties', type: 'Government' },
+      { title: 'DOJ: Volkswagen AG Agrees to Plead Guilty - $4.3B Criminal Penalty', url: 'https://web.archive.org/web/20250410143330/https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties', type: 'Government' },
       { title: 'ICCT: From Laboratory to Road (Real-World Emissions Study)', url: 'https://theicct.org/publications/laboratory-road', type: 'Research' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
@@ -839,8 +839,8 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     tags: ['Vioxx', 'Merck', 'rofecoxib', 'pharmaceutical fraud', 'cardiovascular deaths', 'FDA', 'David Graham', 'VIGOR trial', 'ghostwriting', 'drug safety', 'medical tyranny', 'corporate crime', 'COX-2 inhibitor', 'clinical trial fraud', 'whistleblower'],
     sources: [
-      { title: 'FDA: Vioxx (Rofecoxib) Information', url: 'https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/vioxx-rofecoxib-information', type: 'Government Record' },
-      { title: 'Senate Finance Committee: FDA, Merck, and Vioxx Hearing (Nov 2004)', url: 'https://www.finance.senate.gov/hearings/fda-merck-and-vioxx-putting-patient-safety-first', type: 'Congressional Record' },
+      { title: 'FDA: Vioxx (Rofecoxib) Information', url: 'https://www.fda.gov/drugs/drug-safety-and-availability', type: 'Government Record' },
+      { title: 'Senate Finance Committee: FDA, Merck, and Vioxx Hearing (Nov 2004)', url: 'https://www.finance.senate.gov/hearings', type: 'Congressional Record' },
       { title: 'NEJM: Expression of Concern re: Bombardier et al. VIGOR Study (2005)', url: 'https://www.nejm.org/doi/full/10.1056/NEJMe058314', type: 'Medical Literature' },
       { title: 'The Lancet: Vioxx Withdrawal and Cardiovascular Risk Assessment', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(04)17441-5/fulltext', type: 'Medical Literature' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },

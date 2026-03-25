@@ -208,7 +208,7 @@ const investigations_l: Record<string, InvestigationData> = {
  ],
  tags: ['Police Violence', 'Cover-up', 'Chicago', 'Laquan McDonald', 'Jason Van Dyke', 'DOJ', 'Consent Decree'],
  sources: [
- { title: 'DOJ Investigation of the Chicago Police Department', url: 'https://www.justice.gov/crt/file/925846/download', type: 'Government Report' },
+ { title: 'DOJ Investigation of the Chicago Police Department', url: 'https://www.justice.gov/archives/crt/file/925846/download', type: 'Government Report' },
  { title: 'Van Dyke Murder Conviction', url: 'https://www.nytimes.com/2018/10/05/us/jason-van-dyke-guilty-verdict.html', type: 'News Report' },
  { title: 'Laquan McDonald Dashcam Video Court Order', url: 'https://www.chicagotribune.com/news/laquan-mcdonald/', type: 'Court Filing' },
  { title: 'Chicago Consent Decree', url: 'https://chicagopoliceconsentdecree.org/', type: 'Legal Document' },
@@ -581,7 +581,7 @@ const investigations_l: Record<string, InvestigationData> = {
     tags: ["Mass Shooting","Las Vegas","Gun Violence","Bump Stocks","Mandalay Bay","Stephen Paddock"],
     sources: [
       { title: "LVMPD Final Report", url: "https://www.lvmpd.com/en-us/Documents/1-October-FIT-Criminal-Investigative-Report-FINAL.pdf", type: "Investigation" },
-      { title: "FBI Behavioral Analysis Unit Report", url: "https://www.fbi.gov/file-repository/las-vegas-shooting-summary-of-findings.pdf", type: "Government Report" },
+      { title: "FBI Behavioral Analysis Unit Report", url: "https://www.fbi.gov/file-repository/las-vegas-shooting-summary-of-findings.pdf/", type: "Government Report" },
       { title: "Garland v. Cargill (Supreme Court)", url: "https://www.supremecourt.gov/opinions/23pdf/22-976_e29g.pdf", type: "Court Document" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
@@ -616,7 +616,7 @@ const investigations_l: Record<string, InvestigationData> = {
     tags: ['LIBOR', 'Rate Manipulation', 'Banks', 'Financial Fraud'],
     sources: [
       { title: 'Reuters: Timeline of the LIBOR Scandal', url: 'https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702', type: 'Investigation' },
-      { title: 'DOJ: LIBOR Manipulation Prosecutions', url: 'https://www.justice.gov/criminal-fraud/libor-investigation', type: 'Legal' },
+      { title: 'DOJ: LIBOR Manipulation Prosecutions', url: 'https://www.justice.gov/archives/criminal-fraud/libor-investigation', type: 'Legal' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
@@ -743,7 +743,7 @@ const investigations_l: Record<string, InvestigationData> = {
     sources: [
       { title: 'PNAS: Half of US population exposed to adverse lead levels in early childhood', url: 'https://www.pnas.org/doi/10.1073/pnas.2118631119', type: 'Academic Research' },
       { title: 'Gerald Markowitz and David Rosner: Lead Wars', url: 'https://www.ucpress.edu/book/9780520273252/lead-wars', type: 'Book' },
-      { title: 'EPA: Lead Regulations and Statutes', url: 'https://www.epa.gov/lead/lead-regulations-and-statutes', type: 'Government' },
+      { title: 'EPA: Lead Regulations and Statutes', url: 'https://www.epa.gov/archive/lead/lead-regulations-and-statutes', type: 'Government' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
@@ -859,7 +859,7 @@ const investigations_l: Record<string, InvestigationData> = {
     tags: ['lead poisoning', 'housing', 'childhood exposure', 'environmental racism', 'HUD', 'remediation', 'public health'],
     sources: [
       { title: 'CDC Records', url: 'https://www.cdc.gov/lead-prevention/', type: 'Government' },
-      { title: 'Hud Records', url: 'https://www.hud.gov/program_offices/healthy_homes/lbp', type: 'Reference' },
+      { title: 'Hud Records', url: 'https://web.archive.org/web/20250110182355/https://www.hud.gov/program_offices/healthy_homes/lbp', type: 'Reference' },
       { title: 'Pewtrusts Records', url: 'https://www.pewtrusts.org/en/projects/archived-projects/pew-health-group/projects/lead-poisoning-prevention', type: 'Reference' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
 

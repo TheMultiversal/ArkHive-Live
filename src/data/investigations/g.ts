@@ -371,7 +371,7 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Document' },
  { title: 'January 6 Committee Report, Green Bay Sweep', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
- { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf', type: 'Court Filing' },
+ { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/archives/sco/case-document/file/1617866/dl', type: 'Court Filing' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -629,7 +629,7 @@ const investigations_g: Record<string, InvestigationData> = {
  tags: ['George Floyd', 'Police Violence', 'Black Lives Matter', 'Derek Chauvin', 'Minneapolis'],
  sources: [
  { title: 'Chauvin Trial Documents', url: 'https://www.mncourts.gov/State-v-Chauvin', type: 'Court Documents' },
-      { title: 'FBI Uniform Crime Reporting', url: 'https://crime-data-explorer.fr.cloud.gov/', type: 'Government Data' },
+      { title: 'FBI Uniform Crime Reporting', url: 'https://web.archive.org/web/20250107145642/https://crime-data-explorer.fr.cloud.gov/', type: 'Government Data' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
  affiliations: [
@@ -700,7 +700,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'SEC Insider Trading Cases', url: 'https://www.sec.gov/spotlight/insidertrading/cases.shtml', type: 'Government' },
  { title: 'Bloomberg Markets Coverage', url: 'https://www.bloomberg.com/markets', type: 'Analysis' },
  { title: 'WSJ Markets Coverage', url: 'https://www.wsj.com/news/markets', type: 'Analysis' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -735,7 +735,7 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Financial Times Markets Coverage', url: 'https://www.ft.com/markets', type: 'Analysis' },
  { title: 'SEC Filing Archives', url: 'https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany', type: 'Document' },
- { title: 'Bloomberg Corporate Investigations', url: 'https://www.bloomberg.com/news/articles', type: 'Investigation' },
+ { title: 'Bloomberg Corporate Investigations', url: 'https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles/', type: 'Investigation' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
@@ -808,8 +808,8 @@ const investigations_g: Record<string, InvestigationData> = {
  tags: ['Voter Suppression', 'Georgia', 'Voting Rights', 'Brian Kemp', 'Stacey Abrams', 'SB 202', 'Racial Discrimination'],
  sources: [
  { title: 'APM Reports Georgia Voter Purge Investigation', url: 'https://www.apmreports.org/story/2018/10/19/georgia-voter-purge', type: 'Investigation' },
- { title: 'AP Exact Match Investigation', url: 'https://apnews.com/article/elections-voting-rights-georgia-voter-purge', type: 'Investigation' },
- { title: 'DOJ v. Georgia SB 202 Complaint', url: 'https://www.justice.gov/opa/press-release/file/1413931/download', type: 'Court Filing' },
+ { title: 'AP Exact Match Investigation', url: 'https://apnews.com/voting-rights', type: 'Investigation' },
+ { title: 'DOJ v. Georgia SB 202 Complaint', url: 'https://www.justice.gov/archives/opa/press-release/file/1413931/download', type: 'Court Filing' },
  { title: 'Brennan Center Georgia Polling Place Analysis', url: 'https://www.brennancenter.org/our-work/research-reports/impact-voter-suppression-communities-color', type: 'Research Study' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
@@ -851,7 +851,7 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Financial Crime', 'Investigation', 'Accountability'],
  sources: [
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
@@ -933,7 +933,7 @@ const investigations_g: Record<string, InvestigationData> = {
  ],
  tags: ['Terrorism', 'CIA', 'al-Qaeda', 'Taliban', 'Saudi Arabia', 'State Sponsorship', 'War on Terror', 'Blowback'],
  sources: [
- { title: 'Steve Coll: Ghost Wars', url: 'https://www.penguinrandomhouse.com/books/286508/ghost-wars-by-steve-coll/', type: 'Investigation' },
+ { title: 'Steve Coll: Ghost Wars', url: 'https://openlibrary.org/works/OL2725850W/Ghost_Wars', type: 'Investigation' },
  { title: 'CIA Afghan Covert Action Records', url: 'https://nsarchive.gwu.edu/project/afghanistan-soviet-invasion-and-us-response', type: 'Government Report' },
  { title: 'Washington Post Top Secret America', url: 'https://www.washingtonpost.com/wp-srv/special/national/top-secret-america/', type: 'Investigation' },
  { title: '9/11 Commission Report', url: 'https://www.9-11commission.gov/report/', type: 'Government Report' },
@@ -1101,7 +1101,7 @@ const investigations_g: Record<string, InvestigationData> = {
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
  { title: 'International Court of Justice', url: 'https://www.icj-cij.org/', type: 'Document' },
- { title: 'Amnesty International Reports', url: 'https://www.amnesty.org/en/documents/', type: 'Report' },
+ { title: 'Amnesty International Reports', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents', type: 'Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1417,7 +1417,7 @@ const investigations_g: Record<string, InvestigationData> = {
     tags: ['DOD Audit Failure', 'False Claims Act', 'Defense Contractor Fraud', 'Healthcare Fraud', 'KBR', 'Debarment Gap', 'Revolving Door'],
     sources: [
       { title: 'DOD Inspector General Audit Reports', url: 'https://www.dodig.mil', type: 'Government Audit' },
-      { title: 'DOJ FCA Statistics', url: 'https://www.justice.gov/civil/fraud-statistics', type: 'Government Record' },
+      { title: 'DOJ FCA Statistics', url: 'https://www.justice.gov/archives/civil/fraud-statistics', type: 'Government Record' },
       { title: 'POGO Federal Contractor Misconduct Database', url: 'https://www.pogo.org', type: 'Research Study' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
@@ -1512,8 +1512,8 @@ const investigations_g: Record<string, InvestigationData> = {
     tags: ["George Floyd","Police Violence","BLM","Racial Justice","Derek Chauvin","Minneapolis","Darnella Frazier","Police Reform"],
     sources: [
       { title: "MPD Body Camera Footage", url: "https://www.hennepinattorney.org/floyd", type: "Evidence" },
-      { title: "Court Documents: State v. Chauvin", url: "https://mncourts.gov/state-v-chauvin", type: "Court Document" },
-      { title: "DOJ Pattern-or-Practice Investigation of MPD", url: "https://www.justice.gov/crt/case/united-states-v-city-minneapolis", type: "Government Report" },
+      { title: "Court Documents: State v. Chauvin", url: "https://mncourts.gov/state-v-chauvin/", type: "Court Document" },
+      { title: "DOJ Pattern-or-Practice Investigation of MPD", url: "https://www.justice.gov/archives/crt/case/united-states-v-city-minneapolis", type: "Government Report" },
       { title: "George Floyd Justice in Policing Act (H.R. 1280)", url: "https://www.congress.gov/bill/117th-congress/house-bill/1280", type: "Legislation" },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
@@ -1563,7 +1563,7 @@ const investigations_g: Record<string, InvestigationData> = {
     sources: [
       { title: "9/11 Commission Report", url: "https://www.9-11commission.gov/report/", type: "Government Report" },
       { title: "Brown University Costs of War Project", url: "https://watson.brown.edu/costsofwar/", type: "Academic Research" },
-      { title: "Steve Coll, 'Ghost Wars'", url: "https://www.penguinrandomhouse.com/books/93164/ghost-wars-by-steve-coll/", type: "Book" },
+      { title: "Steve Coll, 'Ghost Wars'", url: "https://openlibrary.org/works/OL2725850W/Ghost_Wars", type: "Book" },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
@@ -1638,7 +1638,7 @@ const investigations_g: Record<string, InvestigationData> = {
     tags: ['Guantanamo', 'torture', 'indefinite-detention', 'CIA', 'enhanced-interrogation', 'war-on-terror', 'human-rights', 'Geneva-Conventions', 'military-commissions'],
     sources: [
       { title: 'Senate Select Committee on Intelligence: Committee Study of the CIA Detention and Interrogation Program (Torture Report)', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', type: 'Congressional Report' },
-      { title: 'ACLU Guantanamo By the Numbers', url: 'https://www.aclu.org/issues/national-security/detention/guantanamo-numbers', type: 'Research' },
+      { title: 'ACLU Guantanamo By the Numbers', url: 'https://web.archive.org/web/20250101134744/https://www.aclu.org/issues/national-security/detention/guantanamo-numbers', type: 'Research' },
       { title: 'The Guantanamo Docket - New York Times', url: 'https://www.nytimes.com/interactive/2021/us/guantanamo-bay-detainees.html', type: 'Database' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
@@ -1830,7 +1830,7 @@ const investigations_g: Record<string, InvestigationData> = {
     ],
     tags: ['gun-violence', 'NRA', 'PLCAA', 'firearms', 'children', 'Dickey-Amendment', 'ghost-guns', 'school-shootings', 'ATF', 'public-health'],
     sources: [
-      { title: 'CDC: Firearm Mortality in the United States', url: 'https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm', type: 'Government Data' },
+      { title: 'CDC: Firearm Mortality in the United States', url: 'https://web.archive.org/web/20250102213121/https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm', type: 'Government Data' },
       { title: 'Everytown for Gun Safety: Gun Violence in America', url: 'https://www.everytown.org/issues/', type: 'Research' },
       { title: 'New England Journal of Medicine: Firearms and Children', url: 'https://www.nejm.org/doi/full/10.1056/NEJMc2201761', type: 'Academic Research' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
@@ -2030,7 +2030,7 @@ const investigations_g: Record<string, InvestigationData> = {
     sources: [
       { title: 'Presidential Commission for the Study of Bioethical Issues: "Ethically Impossible" (2011)', url: 'https://bioethics.georgetown.edu/2015/01/ethically-impossible-std-research-in-guatemala-from-1946-to-1948/', type: 'Government Report' },
       { title: 'Wellesley College: Prof. Susan Reverby Guatemala Research', url: 'https://www.wellesley.edu/albright/about/faculty/reverby', type: 'Academic Research' },
-      { title: 'National Archives: Records of the U.S. Public Health Service Guatemala STD Studies', url: 'https://www.archives.gov/research/health/cdc-guatemala', type: 'Government Record' },
+      { title: 'National Archives: Records of the U.S. Public Health Service Guatemala STD Studies', url: 'https://www.archives.gov/research/health/cdc-guatemala/', type: 'Government Record' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [

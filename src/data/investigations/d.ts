@@ -510,7 +510,7 @@ const investigations_d: Record<string, InvestigationData> = {
  tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
- { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources/reports', type: 'Report' },
+ { title: 'ADL Hate Extremism & Terrorism', url: 'https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/', type: 'Report' },
  { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
@@ -562,7 +562,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'DHS Domestic Terrorism Threat Assessment', url: 'https://www.dhs.gov/sites/default/files/publications/2020_10_06_homeland-threat-assessment.pdf', type: 'Government Report' },
  { title: 'ADL Murder & Extremism Report', url: 'https://www.adl.org/resources/report/murder-and-extremism-united-states', type: 'Research Study' },
  { title: 'FBI Director Congressional Testimony on DVE', url: 'https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-091721', type: 'Congressional Record' },
- { title: '2009 DHS Right-Wing Extremism Report', url: 'https://fas.org/irp/eprint/rightwing.pdf', type: 'Government Report' },
+ { title: '2009 DHS Right-Wing Extremism Report', url: 'https://web.archive.org/web/20241228115719/https://fas.org/irp/eprint/rightwing.pdf', type: 'Government Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -612,7 +612,7 @@ const investigations_d: Record<string, InvestigationData> = {
  { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
  { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },
  { title: 'ProPublica Electionland', url: 'https://www.propublica.org/electionland', type: 'Investigation' },
- { title: 'FinCEN Enforcement Actions', url: 'https://www.fincen.gov/news/news-releases', type: 'Government' },
+ { title: 'FinCEN Enforcement Actions', url: 'https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/', type: 'Government' },
  { title: 'FDIC Failed Banks List', url: 'https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/', type: 'Government' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -1088,7 +1088,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     tags: ['Drone Strikes', 'Civilian Casualties', 'War on Terror', 'CIA Drone Program', 'Pentagon', 'AUMF'],
     sources: [
-      { title: 'NYT Civilian Casualty Files', url: 'https://www.nytimes.com/spotlight/civilian-casualty-files', type: 'Investigative Report' },
+      { title: 'NYT Civilian Casualty Files', url: 'https://www.nytimes.com/spotlight/civilian-casualty-files/', type: 'Investigative Report' },
       { title: 'Bureau of Investigative Journalism Drone Strike Database', url: 'https://www.thebureauinvestigates.com', type: 'Research Study' },
       { title: 'Airwars Civilian Casualty Tracking', url: 'https://airwars.org', type: 'Research Study' },
       { title: 'The Intercept Drone Papers', url: 'https://theintercept.com/drone-papers', type: 'Investigative Report' },
@@ -1403,7 +1403,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     tags: ['Defense Spending', 'Contractor Fraud', 'F-35', 'Pentagon Audit', 'Revolving Door', 'False Claims Act', 'Wartime Contracting'],
     sources: [
-      { title: 'DOJ False Claims Act Statistics', url: 'https://www.justice.gov/civil/fraud-statistics', type: 'Government Record' },
+      { title: 'DOJ False Claims Act Statistics', url: 'https://www.justice.gov/archives/civil/fraud-statistics', type: 'Government Record' },
       { title: 'GAO F-35 Program Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'POGO Revolving Door Database', url: 'https://www.pogo.org', type: 'Research Study' },
       { title: 'SIGAR Quarterly Reports', url: 'https://www.sigar.mil', type: 'Government Audit' },
@@ -1627,7 +1627,7 @@ const investigations_d: Record<string, InvestigationData> = {
     tags: ['Drug Supply Chain', 'API Manufacturing', 'China Dependency', 'Drug Shortages', 'FDA Inspections', 'Reshoring', 'Heparin Contamination'],
     sources: [
       { title: 'GAO Foreign Drug Manufacturing Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
-      { title: 'FDA Drug Shortage Database', url: 'https://www.fda.gov/drugs/drug-shortages', type: 'Government Record' },
+      { title: 'FDA Drug Shortage Database', url: 'https://web.archive.org/web/20241204172132/https://www.fda.gov/drugs/drug-shortages/', type: 'Government Record' },
       { title: 'Katherine Eban, "Bottle of Lies"', url: 'https://www.penguinrandomhouse.com', type: 'Investigative Report' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
@@ -1787,7 +1787,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     tags: ["Drug Pricing","Pharmaceutical","Insulin","Healthcare","Lobbying","Patent","PBM","Inflation Reduction Act"],
     sources: [
-      { title: "Senate Finance Committee Drug Pricing Investigation", url: "https://www.finance.senate.gov/drug-pricing", type: "Government Report" },
+      { title: "Senate Finance Committee Drug Pricing Investigation", url: "https://www.finance.senate.gov/hearings", type: "Government Report" },
       { title: "FTC Pay-for-Delay Report", url: "https://www.ftc.gov/reports/pay-delay-how-drug-company-pay-offs-cost-consumers-billions", type: "Government Report" },
       { title: "RAND International Drug Price Comparison", url: "https://www.rand.org/pubs/research_reports/RR2956.html", type: "Research" },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
@@ -2044,7 +2044,7 @@ const investigations_d: Record<string, InvestigationData> = {
     tags: ['genocide', 'darfur', 'sudan', 'janjaweed', 'al-bashir', 'ICC', 'ethnic-cleansing', 'mass-rape', 'forced-displacement', 'crimes-against-humanity', 'african-union', 'responsibility-to-protect'],
     sources: [
       { title: 'ICC - Situation in Darfur, Sudan', url: 'https://www.icc-cpi.int/darfur', type: 'legal' },
-      { title: 'UN International Commission of Inquiry on Darfur - Report to the Secretary-General', url: 'https://www.un.org/news/dh/sudan/com_inq_darfur.pdf', type: 'report' },
+      { title: 'UN International Commission of Inquiry on Darfur - Report to the Secretary-General', url: 'https://web.archive.org/web/20241229085221/https://www.un.org/News/dh/sudan/com_inq_darfur.pdf', type: 'report' },
       { title: 'Human Rights Watch - Darfur Reports', url: 'https://www.hrw.org/africa/sudan', type: 'report' },
       { title: 'US State Department - Documenting Atrocities in Darfur', url: 'https://2001-2009.state.gov/g/drl/rls/36028.htm', type: 'government' },
       { title: 'Physicians for Human Rights - Darfur Investigation', url: 'https://phr.org/our-work/resources/darfur-assault-on-survival/', type: 'report' },
@@ -2125,7 +2125,7 @@ const investigations_d: Record<string, InvestigationData> = {
     tags: ['deepwater-horizon', 'bp', 'oil-spill', 'gulf-of-mexico', 'environmental-disaster', 'corporate-manslaughter', 'clean-water-act'],
     sources: [
       { title: 'National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling', url: 'https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf', type: 'Government Report' },
-      { title: 'DOJ: BP Exploration and Production Inc. Agrees to Plead Guilty', url: 'https://www.justice.gov/opa/pr/bp-exploration-and-production-inc-agrees-plead-guilty-felony-manslaughter', type: 'Legal' },
+      { title: 'DOJ: BP Exploration and Production Inc. Agrees to Plead Guilty', url: 'https://www.justice.gov/archives/opa/pr/bp-exploration-and-production-inc-agrees-plead-guilty-felony-manslaughter', type: 'Legal' },
       { title: 'CSB: Investigation Report - Macondo Blowout and Explosion', url: 'https://www.csb.gov/macondo-blowout-and-explosion/', type: 'Government Report' },
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
@@ -2161,7 +2161,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     tags: ['dupont', 'pfoa', 'teflon', 'forever-chemicals', 'pfas', 'cancer', 'water-contamination', 'corporate-coverup', 'environmental-crime'],
     sources: [
-      { title: 'EPA: DuPont PFOA Settlement', url: 'https://www.epa.gov/enforcement/dupont-washington-works-settlement', type: 'Government' },
+      { title: 'EPA: DuPont PFOA Settlement', url: 'https://www.epa.gov/archive/enforcement/dupont-washington-works-settlement', type: 'Government' },
       { title: 'C8 Science Panel: Probable Link Reports', url: 'http://www.c8sciencepanel.org/prob_link.html', type: 'Scientific Study' },
       { title: 'The Intercept: The Teflon Toxin (Investigative Series)', url: 'https://theintercept.com/collections/the-teflon-toxin/', type: 'Investigation' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
@@ -2395,7 +2395,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     tags: ['DES', 'diethylstilbestrol', 'pharmaceutical fraud', 'pregnancy drug', 'clear-cell adenocarcinoma', 'DES daughters', 'DES sons', 'birth defects', 'intergenerational harm', 'medical tyranny', 'FDA failure', 'market share liability', 'Sindell v. Abbott', 'drug safety', 'endocrine disruptor'],
     sources: [
-      { title: 'CDC: DES (Diethylstilbestrol) Overview and Health Exposure Risks', url: 'https://www.cdc.gov/des/', type: 'Government Record' },
+      { title: 'CDC: DES (Diethylstilbestrol) Overview and Health Exposure Risks', url: 'https://web.archive.org/web/20241225231000/https://www.cdc.gov/des', type: 'Government Record' },
       { title: 'NCI: DES Follow-Up Study and Cancer Risk Data', url: 'https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/des-fact-sheet', type: 'Government Record' },
       { title: 'DES Action USA: Advocacy and Exposure Registry', url: 'https://www.desaction.org/', type: 'Victim Advocacy' },
       { title: 'NEJM: Herbst, Ulfelder, and Poskanzer (1971) - Adenocarcinoma and Prenatal DES Exposure', url: 'https://www.nejm.org/doi/full/10.1056/NEJM197104222841604', type: 'Medical Literature' },

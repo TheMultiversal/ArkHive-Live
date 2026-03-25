@@ -725,7 +725,7 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Ponzi Scheme', 'Tom Petters', 'Financial Crime', 'Wire Fraud', 'Minneapolis', 'Investment Fraud'],
  sources: [
- { title: 'DOJ Press Release: Petters Conviction', url: 'https://www.justice.gov/archive/usao/mn/press/petters.html', type: 'Government' },
+ { title: 'DOJ Press Release: Petters Conviction', url: 'https://www.justice.gov/archives/usao/mn/press/petters.html', type: 'Government' },
  { title: 'Minneapolis Star Tribune Investigation', url: 'https://www.startribune.com/topic/tom-petters/', type: 'News Report' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -765,7 +765,7 @@ const investigations_p: Record<string, InvestigationData> = {
  tags: ['PFAS', 'Forever Chemicals', 'DuPont', '3M', 'Water Contamination', 'Cancer', 'EPA', 'Environment'],
  sources: [
  { title: 'C8 Science Panel Findings', url: 'http://www.c8sciencepanel.org/', type: 'Research Study' },
- { title: 'EPA PFAS Strategic Roadmap', url: 'https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitment-action-2021-2024', type: 'Government' },
+ { title: 'EPA PFAS Strategic Roadmap', url: 'https://www.epa.gov/archive/pfas/pfas-strategic-roadmap-epas-commitment-action-2021-2024', type: 'Government' },
  { title: 'EWG PFAS Contamination Map', url: 'https://www.ewg.org/interactive-maps/pfas_contamination/', type: 'Research' },
    { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
  ],
@@ -855,7 +855,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ: GSK $3 Billion Settlement', url: 'https://www.justice.gov/opa/pr/glaxosmithkline-plead-guilty-and-pay-3-billion-resolve-fraud-allegations-and-failure-report', type: 'Government' },
  { title: 'Public Citizen: Pharmaceutical Industry Criminal and Civil Penalties', url: 'https://www.citizen.org/article/twenty-seven-years-of-pharmaceutical-industry-criminal-and-civil-penalties/', type: 'Research' },
- { title: 'DOJ: Pharmaceutical Fraud Enforcement', url: 'https://www.justice.gov/civil/pages/attachments/2019/02/04/fraud_statistics_-_fca_1986-2018.pdf', type: 'Government' },
+ { title: 'DOJ: Pharmaceutical Fraud Enforcement', url: 'https://www.justice.gov/d9/2024-10/fca_stats.pdf', type: 'Government' },
    { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
  ],
  affiliations: [
@@ -939,7 +939,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Human Rights Watch: Philippine Drug War Report', url: 'https://www.hrw.org/report/2017/03/02/license-kill/philippine-police-killings-dutertes-war-drugs', type: 'Investigation' },
  { title: 'ICC Investigation Authorization', url: 'https://www.icc-cpi.int/philippines', type: 'Court Filing' },
- { title: 'Amnesty International: They Just Kill', url: 'https://www.amnesty.org/en/documents/asa35/5517/2017/en/', type: 'Investigation' },
+ { title: 'Amnesty International: They Just Kill', url: 'https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentsasa35/5517/2017/en/', type: 'Investigation' },
  { title: 'Reuters: Philippine Drug War Death Toll', url: 'https://www.reuters.com/investigates/special-report/philippines-drugs-surveillance/', type: 'Investigation' },
    { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
@@ -1024,7 +1024,7 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Algorithmic Discrimination', 'Facebook', 'AI Bias', 'Housing Discrimination', 'Facial Recognition', 'Civil Rights', 'Big Tech'],
  sources: [
- { title: 'HUD v. Facebook: Fair Housing Charge', url: 'https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_035', type: 'Government' },
+ { title: 'HUD v. Facebook: Fair Housing Charge', url: 'https://web.archive.org/web/20241223090642/https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_035', type: 'Government' },
  { title: 'Buolamwini & Gebru: Gender Shades', url: 'http://gendershades.org/', type: 'Research' },
  { title: 'Obermeyer et al: Healthcare Algorithm Bias (Science)', url: 'https://www.science.org/doi/10.1126/science.aax2342', type: 'Research Study' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
@@ -1152,7 +1152,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Mapping Police Violence Database', url: 'https://mappingpoliceviolence.us/', type: 'Database' },
  { title: 'DOJ Pattern or Practice Investigations', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government Report' },
- { title: 'SCOTUS Qualified Immunity Doctrine', url: 'https://www.supremecourt.gov/opinions/17pdf/17-467_bq7d.pdf', type: 'Court Ruling' },
+ { title: 'SCOTUS Qualified Immunity Doctrine', url: 'https://www.supremecourt.gov/opinions/17pdf/17-467_bq7d.pdf/', type: 'Court Ruling' },
  { title: 'George Floyd Justice in Policing Act', url: 'https://www.congress.gov/bill/117th-congress/house-bill/1280', type: 'Legislation' },
    { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
  ],
@@ -1194,7 +1194,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'Gilens & Page: Testing Theories of American Politics', url: 'https://scholar.princeton.edu/sites/default/files/mgilens/files/gilens_and_page_2014_-testing_theories_of_american_politics.doc.pdf', type: 'Research Study' },
  { title: 'OpenSecrets: Lobbying Database', url: 'https://www.opensecrets.org/federal-lobbying', type: 'Data' },
- { title: 'Citizens United v. FEC', url: 'https://www.supremecourt.gov/opinions/09pdf/08-205.pdf', type: 'Court Ruling' },
+ { title: 'Citizens United v. FEC', url: 'https://web.archive.org/web/20250101014917/https://www.supremecourt.gov/opinions/09pdf/08-205.pdf', type: 'Court Ruling' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -1532,9 +1532,9 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Predatory Lending', 'Subprime', 'Wells Fargo', 'Payday Loans', 'Redlining', 'Racial Wealth Gap', 'Financial Crisis', 'CFPB'],
  sources: [
- { title: 'DOJ: Wells Fargo Fair Lending Settlement', url: 'https://www.justice.gov/opa/pr/department-justice-reaches-settlement-wells-fargo-resulting-more-175-million-relief', type: 'Government' },
- { title: 'CFPB: Payday Lending Data', url: 'https://www.consumerfinance.gov/data-research/research-reports/payday-lending/', type: 'Research Report' },
- { title: 'National Fair Housing Alliance: Lending Discrimination Report', url: 'https://nationalfairhousing.org/reports-research/', type: 'Research' },
+ { title: 'DOJ: Wells Fargo Fair Lending Settlement', url: 'https://www.justice.gov/archives/opa/pr/department-justice-reaches-settlement-wells-fargo-resulting-more-175-million-relief', type: 'Government' },
+ { title: 'CFPB: Payday Lending Data', url: 'https://www.consumerfinance.gov/data-research/research-reports/payday-lending', type: 'Research Report' },
+ { title: 'National Fair Housing Alliance: Lending Discrimination Report', url: 'https://web.archive.org/web/20250123104019/https://nationalfairhousing.org/reports-research/', type: 'Research' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
@@ -1778,7 +1778,7 @@ const investigations_p: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ IG: Private Prison Safety Report', url: 'https://oig.justice.gov/reports/review-federal-bureau-prisons-monitoring-contract-prisons', type: 'Government' },
  { title: 'Sentencing Project: Private Prison Data', url: 'https://www.sentencingproject.org/publications/private-prisons-united-states/', type: 'Research' },
- { title: 'AP: Kids for Cash Coverage', url: 'https://apnews.com/article/kids-for-cash-pennsylvania-corruption', type: 'Investigation' },
+ { title: 'AP: Kids for Cash Coverage', url: 'https://apnews.com/pennsylvania', type: 'Investigation' },
    { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
  ],
  affiliations: [
@@ -2014,10 +2014,10 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['PPP Fraud', 'Pandemic Relief', 'CARES Act', 'Financial Crime', 'Government Waste'],
     sources: [
-      { title: 'SBA Inspector General Pandemic Response Reports', url: 'https://www.sba.gov/office-inspector-general', type: 'Government Audit' },
+      { title: 'SBA Inspector General Pandemic Response Reports', url: 'https://web.archive.org/web/20250123125334/https://www.sba.gov/office-inspector-general', type: 'Government Audit' },
       { title: 'Secret Service Pandemic Fraud Estimates', url: 'https://www.secretservice.gov', type: 'Government Report' },
       { title: 'ProPublica PPP Loan Database', url: 'https://projects.propublica.org/coronavirus/bailouts/', type: 'Database' },
-      { title: 'DOJ Pandemic Fraud Strike Force', url: 'https://www.justice.gov/criminal-fraud/covid-19-fraud-enforcement', type: 'Government Report' },
+      { title: 'DOJ Pandemic Fraud Strike Force', url: 'https://web.archive.org/web/20251224234829/https://www.justice.gov/criminal-fraud/covid-19-fraud-enforcement', type: 'Government Report' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
@@ -2051,7 +2051,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: 'Center for Responsible Lending Research', url: 'https://www.responsiblelending.org', type: 'Research' },
       { title: 'CFPB Payday Lending Report', url: 'https://www.consumerfinance.gov', type: 'Government Report' },
-      { title: 'DOJ Fair Lending Enforcement Actions', url: 'https://www.justice.gov/crt/fair-lending', type: 'Government Report' },
+      { title: 'DOJ Fair Lending Enforcement Actions', url: 'https://www.justice.gov/archives/crt/fair-lending', type: 'Government Report' },
       { title: 'National Fair Housing Alliance Report', url: 'https://nationalfairhousing.org', type: 'Research' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
@@ -2686,7 +2686,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: 'FDA Drug Safety Communications: Finasteride', url: 'https://www.fda.gov/drugs/drug-safety-and-availability', type: 'Government Report' },
       { title: 'Post-Finasteride Syndrome Foundation', url: 'https://www.pfsfoundation.org', type: 'Research' },
-      { title: 'CDC DES Update', url: 'https://www.cdc.gov/des/', type: 'Government Report' },
+      { title: 'CDC DES Update', url: 'https://web.archive.org/web/20241225231000/https://www.cdc.gov/des', type: 'Government Report' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
@@ -3117,7 +3117,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: "Public Citizen Pharma Penalties Report", url: "https://www.citizen.org/article/twenty-seven-years-of-pharmaceutical-industry-criminal-and-civil-penalties/", type: "Research" },
       { title: "Open Payments Database", url: "https://openpaymentsdata.cms.gov/", type: "Government Data" },
-      { title: "Senate Finance Committee Drug Pricing Investigation", url: "https://www.finance.senate.gov/drug-pricing", type: "Government Report" },
+      { title: "Senate Finance Committee Drug Pricing Investigation", url: "https://www.finance.senate.gov/hearings", type: "Government Report" },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
@@ -3245,7 +3245,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Commonwealth of Massachusetts v. Purdue Pharma - Unredacted Complaint and Exhibits', url: 'https://www.mass.gov/lists/ag-documents-related-to-purdue-pharma', type: 'Legal Filing' },
       { title: 'GAO Report: Opioid Crisis - Status of Public Health Emergency Authorities', url: 'https://www.gao.gov/products/gao-18-685t', type: 'Government Audit' },
       { title: 'CDC WONDER - Multiple Cause of Death Data', url: 'https://wonder.cdc.gov/mcd.html', type: 'Government Data' },
-      { title: '60 Minutes: The Whistleblower (DEA vs. Congress)', url: 'https://www.cbsnews.com/news/60-minutes-the-whistleblower/', type: 'Investigation' },
+      { title: '60 Minutes: The Whistleblower (DEA vs. Congress)', url: 'https://www.cbsnews.com/news/60-minutes-the-whistleblower', type: 'Investigation' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
@@ -3653,7 +3653,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: 'Mapping Police Violence', url: 'https://mappingpoliceviolence.us/', type: 'Database' },
       { title: 'Reuters: Shielded by Qualified Immunity (Investigative Series)', url: 'https://www.reuters.com/investigates/special-report/usa-police-immunity-civil-rights/', type: 'Investigation' },
-      { title: 'DOJ Civil Rights Division: Pattern or Practice Investigations', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters/pattern-or-practice', type: 'Government Report' },
+      { title: 'DOJ Civil Rights Division: Pattern or Practice Investigations', url: 'https://www.justice.gov/archives/crt/special-litigation-section-cases-and-matters/pattern-or-practice', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division conducts pattern-or-practice investigations but political administration changes determine enforcement intensity; Sessions/Barr reversed Obama-era reforms', href: '/entities/agencies/doj' },
@@ -3762,7 +3762,7 @@ const investigations_p: Record<string, InvestigationData> = {
     tags: ['Pine Ridge', 'AIM', 'Leonard Peltier', 'COINTELPRO', 'FBI', 'Wounded Knee', 'Indigenous rights', 'political prisoner', 'Dick Wilson', 'GOON squads', 'treaty violations'],
     sources: [
       { title: 'U.S. Commission on Civil Rights: Events at Wounded Knee (1974)', url: 'https://www.usccr.gov/', type: 'Government Report' },
-      { title: 'Amnesty International: Leonard Peltier Case', url: 'https://www.amnesty.org/en/latest/news/2024/07/usa-authorities-must-grant-leonard-peltier-parole/', type: 'International Body' },
+      { title: 'Amnesty International: Leonard Peltier Case', url: 'https://www.amnesty.org/en/latest/news/2024/07/usa-authorities-must-grant-leonard-peltier-parole', type: 'International Body' },
       { title: 'FBI FOIA: American Indian Movement Records', url: 'https://vault.fbi.gov/american-indian-movement', type: 'Government Record' },
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
@@ -3806,10 +3806,10 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['OxyContin', 'Purdue Pharma', 'Sackler family', 'opioid epidemic', 'pharmaceutical fraud', 'opioid overdose', 'Richard Sackler', 'misbranding', 'Pain as Fifth Vital Sign', 'addiction', 'medical tyranny', 'corporate crime', 'FDA', 'DEA', 'Appalachia', 'fentanyl crisis'],
     sources: [
-      { title: 'DOJ: Purdue Pharma Guilty Plea and Criminal Penalties (2020)', url: 'https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-charges', type: 'Government Record' },
+      { title: 'DOJ: Purdue Pharma Guilty Plea and Criminal Penalties (2020)', url: 'https://www.justice.gov/archives/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-charges', type: 'Government Record' },
       { title: 'Senate HELP Committee: Purdue Pharma and Opioid Crisis Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Record' },
       { title: 'Massachusetts AG Complaint: Purdue Pharma and Sackler Family (2019)', url: 'https://www.mass.gov/lists/ag-purdue-pharma-documents', type: 'Court Record' },
-      { title: 'CDC: Understanding the Opioid Overdose Epidemic', url: 'https://www.cdc.gov/opioids/basics/epidemic.html', type: 'Government Record' },
+      { title: 'CDC: Understanding the Opioid Overdose Epidemic', url: 'https://web.archive.org/web/20241227221355/https://www.cdc.gov/opioids/basics/epidemic.html', type: 'Government Record' },
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
@@ -3853,7 +3853,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'PBS: American Experience - The Pill', url: 'https://www.pbs.org/wgbh/americanexperience/films/pill/', type: 'Documentary' },
       { title: 'FDA: History of the Birth Control Pill', url: 'https://www.fda.gov/consumers/consumer-updates/birth-control-types-effectiveness-and-side-effects', type: 'Government Record' },
       { title: 'National Library of Medicine: Gregory Pincus Papers', url: 'https://profiles.nlm.nih.gov/spotlight/qg', type: 'Research Archive' },
-      { title: 'Planned Parenthood: History of the Birth Control Pill', url: 'https://www.plannedparenthood.org/learn/birth-control/birth-control-pill/what-is-the-history-of-the-birth-control-pill', type: 'Organization Archive' },
+      { title: 'Planned Parenthood: History of the Birth Control Pill', url: 'https://www.plannedparenthood.org/learn/birth-control/birth-control-pill/what-is-the-history-of-the-birth-control-pill/', type: 'Organization Archive' },
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [

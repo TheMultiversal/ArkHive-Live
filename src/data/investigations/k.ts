@@ -194,7 +194,7 @@ const investigations_k: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/reports/advisory/recommendations', type: 'Government' },
+ { title: 'DHS OIG Detention Facility Reports', url: 'https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports//advisory/recommendations', type: 'Government' },
  { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Report' },
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
  { title: 'UN OHCHR Country Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
@@ -240,7 +240,7 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'State v. Rittenhouse Trial Records', url: 'https://www.kenoshanews.com/news/local/crime-and-courts/rittenhouse-trial/', type: 'Court Filing' },
  { title: 'Video Evidence Compilation', url: 'https://www.nytimes.com/2020/08/27/us/kyle-rittenhouse-kenosha-shooting-video.html', type: 'Video Evidence' },
- { title: 'DOJ Jacob Blake Investigation', url: 'https://www.justice.gov/opa/pr/federal-investigation-kenosha-wisconsin-police-shooting-jacob-blake', type: 'Government Report' },
+ { title: 'DOJ Jacob Blake Investigation', url: 'https://www.justice.gov/archives/opa/pr/federal-investigation-kenosha-wisconsin-police-shooting-jacob-blake', type: 'Government Report' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -280,7 +280,7 @@ const investigations_k: Record<string, InvestigationData> = {
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
  { title: 'ICIJ Investigations', url: 'https://www.icij.org/investigations/', type: 'Investigation' },
- { title: 'DHS OIG Detention Facility Reports', url: 'https://www.oig.dhs.gov/reports/advisory/recommendations', type: 'Government' },
+ { title: 'DHS OIG Detention Facility Reports', url: 'https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports//advisory/recommendations', type: 'Government' },
  { title: 'ACLU Immigration Detention', url: 'https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention', type: 'Report' },
  { title: 'Detention Watch Network', url: 'https://www.detentionwatchnetwork.org/', type: 'Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },

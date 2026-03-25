@@ -86,7 +86,7 @@ const investigations_z: Record<string, InvestigationData> = {
       { title: 'The Facebook Files, Wall Street Journal Investigation', url: 'https://www.wsj.com/articles/the-facebook-files-11631713039', type: 'Investigation' },
       { title: 'FTC $5 Billion Settlement with Facebook', url: 'https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook', type: 'Government Record' },
       { title: 'UN Myanmar Report on Facebook\'s Role', url: 'https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index', type: 'International Report' },
-      { title: 'Frances Haugen Senate Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower', type: 'Congressional Hearing' },
+      { title: 'Frances Haugen Senate Testimony', url: 'https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower/', type: 'Congressional Hearing' },
       { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
