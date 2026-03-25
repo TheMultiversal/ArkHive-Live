@@ -257,7 +257,7 @@ const investigations_k: Record<string, InvestigationData> = {
      { date: '2020-08-25', event: 'On August 25, 2020, 17-year-old Kyle Rittenhouse traveled from Antioch, Illinois, to Kenosha, Wisconsin, during protests following the police shooting of Jacob Blake.', type: 'default' },
      { date: '2021', event: 'His acquittal on all charges in November 2021 became a flashpoint in debates over self-defense, guns, vigilantism, and racial justice.', type: 'legal' },
      { date: '2021-11', event: 'His acquittal on all charges in November 2021 became a flashpoint in debates over self-defense, guns, vigilantism, and racial justice.', type: 'legal' },
-     { date: '2021-11-19', event: 'Judge Bruce Schroeder drew criticism for barring the word ;victims; while allowing the deceased to be called ;rioters; or ;looters.; ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges.', type: 'legal' },
+     { date: '2021-11-19', event: 'Judge Bruce Schroeder drew criticism for barring the word "victims" while allowing the deceased to be called "rioters" or "looters." ACQUITTAL: On November 19, 2021, the jury acquitted Rittenhouse on all charges.', type: 'legal' },
    ],
  },
   'kids-for-cash': {

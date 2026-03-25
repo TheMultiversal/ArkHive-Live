@@ -52,7 +52,7 @@ const investigations_g: Record<string, InvestigationData> = {
       timeline: [
      { date: '2019', event: 'Event 201, a WEF-hosted pandemic exercise in October 2019, preceded COVID-19 by weeks.', type: 'default' },
      { date: '2019-10', event: 'Event 201, a WEF-hosted pandemic exercise in October 2019, preceded COVID-19 by weeks.', type: 'default' },
-     { date: '2020-06', event: 'WEF INITIATIVE LAUNCH: Klaus Schwab and Prince Charles launched ;The Great Reset ;in June 2020, calling to use COVID-19 as an opportunity to reshape global capitalism.', type: 'default' },
+     { date: '2020-06', event: 'WEF INITIATIVE LAUNCH: Klaus Schwab and Prince Charles launched "The Great Reset" in June 2020, calling to use COVID-19 as an opportunity to reshape global capitalism.', type: 'default' },
      ],
  },
   'global-governance': {
@@ -1074,7 +1074,7 @@ const investigations_g: Record<string, InvestigationData> = {
      { date: '1948', event: 'Public Health Service researchers deliberately infected at least 1,308 Guatemalan citizens with syphilis, gonorrhea, and chancroid without consent between 1946 and 1948.', type: 'default' },
      { date: '1972', event: 'The same researchers simultaneously conducted the Tuskegee syphilis study (1932-1972), which withheld treatment from 399 Black men in Alabama.', type: 'default' },
      { date: '2010', event: 'The experiments were not discovered until 2010, when Wellesley College historian Susan Reverby found Dr.', type: 'default' },
-     { date: '2012', event: 'A Presidential Commission for the Study of Bioethical Issues confirmed the experiments and called them ;clearly unethical.; However, a federal judge dismissed a lawsuit by Guatemalan victims in 2012, ruling that the U.S.', type: 'legal' },
+     { date: '2012', event: 'A Presidential Commission for the Study of Bioethical Issues confirmed the experiments and called them "clearly unethical." However, a federal judge dismissed a lawsuit by Guatemalan victims in 2012, ruling that the U.S.', type: 'legal' },
    ],
  },
   'gujarat-riots': {

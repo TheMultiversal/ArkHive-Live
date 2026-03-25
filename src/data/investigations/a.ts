@@ -195,7 +195,7 @@ const investigations_a: Record<string, InvestigationData> = {
       timeline: [
      { date: '1991', event: 'Trump\'s Atlantic City casino empire went through six bankruptcies between 1991 and 2014, costing investors billions while Trump personally extracted hundreds of millions in fees and salary.', type: 'default' },
      { date: '1995', event: 'From 1995-2009, Trump\'s publicly traded casino company lost $1.1 billion while Trump personally took home $82 million in salary and bonuses.', type: 'financial' },
-     { date: '2004', event: 'He claimed to be the ;King of Atlantic City.; THE BANKRUPTCIES: Trump\'s casino businesses filed for bankruptcy six times: 1991, 1992, 2004, 2009, 2014, and again in 2014.', type: 'default' },
+     { date: '2004', event: 'He claimed to be the "King of Atlantic City." Trump\'s casino businesses filed for bankruptcy six times: 1991, 1992, 2004, 2009, 2014, and again in 2014.', type: 'financial' },
      { date: '2009', event: 'From 1995-2009, Trump\'s publicly traded casino company lost $1.1 billion while Trump personally took home $82 million in salary and bonuses.', type: 'financial' },
      { date: '2014', event: 'Trump\'s Atlantic City casino empire went through six bankruptcies between 1991 and 2014, costing investors billions while Trump personally extracted hundreds of millions in fees and salary.', type: 'default' },
      ],
@@ -277,7 +277,7 @@ const investigations_a: Record<string, InvestigationData> = {
    lastActivityDate: '2022-05-29',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2007', event: 'Africa Command (established 2007) has expanded military presence across Africa, conducting drone strikes, training militaries, and pursuing ;counterterrorism.', type: 'default' },
+     { date: '2007', event: 'Africa Command (established 2007) has expanded military presence across Africa, conducting drone strikes, training militaries, and pursuing "counterterrorism."', type: 'default' },
      { date: '2011', event: 'The 2011 NATO intervention in Libya destabilized the entire Sahel.', type: 'default' },
      { date: '2013', event: 'French interventions in Mali (2013) and elsewhere failed to restore stability.', type: 'default' },
      ],

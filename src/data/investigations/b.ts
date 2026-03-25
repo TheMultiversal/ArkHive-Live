@@ -116,9 +116,9 @@ const investigations_b: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2011', event: 'TRUMP\'S ROLE: Starting in 2011, Trump became the conspiracy\'s most prominent voice.', type: 'default' },
-     { date: '2011-04', event: 'He gave countless interviews demanding Obama\'s birth certificate, claimed to have sent investigators to Hawaii, and said ;they cannot believe what they\'re finding.; THE DEMAND: In April 2011, Obama released his...', type: 'default' },
-     { date: '2016', event: 'DELAYED ;ADMISSION;: In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and', type: 'political' },
-     { date: '2016-09', event: 'DELAYED ;ADMISSION;: In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and', type: 'political' },
+     { date: '2011-04', event: 'He gave countless interviews demanding Obama\'s birth certificate, claimed to have sent investigators to Hawaii, and said "they cannot believe what they\'re finding." In April 2011, Obama released his long-form birth certificate.', type: 'default' },
+     { date: '2016', event: 'In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and', type: 'political' },
+     { date: '2016-09', event: 'Trump\'s delayed "admission": In September 2016, under pressure during the presidential campaign, Trump briefly stated Obama was born in the United States, then immediately lied that Hillary Clinton started the conspiracy and', type: 'political' },
      ],
  },
   'billionaire-enablers': {
@@ -430,7 +430,7 @@ const investigations_b: Record<string, InvestigationData> = {
    lastActivityDate: '2024-10-11',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2018-06', event: 'PIERSON\'S WARNINGS: In June 2018, Pierson emailed:;I am requesting that you shutdown the production line until we have a chance to regroup and reset.;Management declined.', type: 'default' },
+     { date: '2018-06', event: 'PIERSON\'S WARNINGS: In June 2018, Pierson emailed: "I am requesting that you shutdown the production line until we have a chance to regroup and reset." Management declined.', type: 'default' },
      { date: '2019', event: 'In 2019, OSHA ruled Boeing retaliated against him.', type: 'default' },
      { date: '2024', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' },
      { date: '2024-03-09', event: 'BARNETT\'S DEATH: On March 9, 2024, John Barnett was found dead in his truck during a break in his legal deposition against Boeing.', type: 'critical' },

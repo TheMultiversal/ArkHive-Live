@@ -39,8 +39,8 @@ const investigations_n: Record<string, InvestigationData> = {
    lastActivityDate: '2022-10-13',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2018', event: 'SHITHOLE COUNTRIES: In January 2018, Trump asked why the US would accept immigrants from ;shithole countries ;referring to Haiti, El Salvador, and African nations, expressing preference for Norwegian immigrants.', type: 'default' },
-     { date: '2018-01', event: 'SHITHOLE COUNTRIES: In January 2018, Trump asked why the US would accept immigrants from ;shithole countries ;referring to Haiti, El Salvador, and African nations, expressing preference for Norwegian immigrants.', type: 'default' },
+     { date: '2018', event: 'SHITHOLE COUNTRIES: In January 2018, Trump asked why the US would accept immigrants from "shithole countries" referring to Haiti, El Salvador, and African nations, expressing preference for Norwegian immigrants.', type: 'default' },
+     { date: '2018-01', event: 'SHITHOLE COUNTRIES: In January 2018, Trump asked why the US would accept immigrants from "shithole countries" referring to Haiti, El Salvador, and African nations, expressing preference for Norwegian immigrants.', type: 'default' },
      ],
  },
   'nra-russia': {
@@ -211,9 +211,9 @@ const investigations_n: Record<string, InvestigationData> = {
    lastActivityDate: '2025-07-10',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1997', event: 'Founded in 1997, PNAC\'s founding statement called for ;American global leadership ;through military strength.', type: 'default' },
-     { date: '1998', event: 'In January 1998, PNAC wrote President Clinton urging; removing Saddam Hussein and his regime from power.;They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
-     { date: '1998-01', event: 'In January 1998, PNAC wrote President Clinton urging; removing Saddam Hussein and his regime from power.;They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
+     { date: '1997', event: 'Founded in 1997, PNAC\'s founding statement called for "American global leadership" through military strength.', type: 'default' },
+     { date: '1998', event: 'In January 1998, PNAC wrote President Clinton urging "removing Saddam Hussein and his regime from power." They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
+     { date: '1998-01', event: 'In January 1998, PNAC wrote President Clinton urging "removing Saddam Hussein and his regime from power." They planned Iraq invasion years before 9/11 provided the pretext.', type: 'political' },
      ],
  },
   'nih-wuhan': {
@@ -291,10 +291,10 @@ const investigations_n: Record<string, InvestigationData> = {
    lastActivityDate: '2025-05-26',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1977', event: 'In 1977, a global boycott began after publication of ;The Baby Killer.;It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
+     { date: '1977', event: 'In 1977, a global boycott began after publication of "The Baby Killer." It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
      { date: '1981', event: 'In 1981, the World Health Assembly adopted the International Code of Marketing of Breast-milk Substitutes.', type: 'default' },
-     { date: '1984', event: 'In 1977, a global boycott began after publication of ;The Baby Killer.;It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
-     { date: '1988', event: 'In 1977, a global boycott began after publication of ;The Baby Killer.;It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
+     { date: '1984', event: 'In 1977, a global boycott began after publication of "The Baby Killer." It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
+     { date: '1988', event: 'In 1977, a global boycott began after publication of "The Baby Killer." It became the largest product boycott in history, lasting until 1984 and resuming in 1988.', type: 'default' },
      ],
  },
   'nbc-misconduct': {
@@ -462,7 +462,7 @@ const investigations_n: Record<string, InvestigationData> = {
    lastActivityDate: '2025-12-26',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1998', event: 'NXIVM (pronounced ;Nexium;) was founded by Keith Raniere in 1998 as Executive Success Programs, offering self-improvement courses using a methodology called ;Rational Inquiry.', type: 'default' },
+     { date: '1998', event: 'NXIVM (pronounced "Nexium") was founded by Keith Raniere in 1998 as Executive Success Programs, offering self-improvement courses using a methodology called "Rational Inquiry."', type: 'default' },
      { date: '2018-03', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' },
      { date: '2019-06', event: 'Raniere was arrested in Mexico in March 2018 and convicted in June 2019 of racketeering, sex trafficking, forced labor conspiracy, wire fraud conspiracy, and other charges.', type: 'legal' },
      ],
@@ -700,7 +700,7 @@ const investigations_n: Record<string, InvestigationData> = {
    lastActivityDate: '2025-10-07',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1996', event: 'Promoter Michael Alig murdered drug dealer Andre ;Angel; Melendez in 1996, dismembered the body, and disposed of it in the Hudson River; a crime that epitomized the era\'s nightlife excess.', type: 'default' },
+     { date: '1996', event: 'Promoter Michael Alig murdered drug dealer Andre "Angel" Melendez in 1996, dismembered the body, and disposed of it in the Hudson River; a crime that epitomized the era\'s nightlife excess.', type: 'default' },
      { date: '2023', event: 'The emergence of fentanyl-laced party drugs has dramatically increased the danger; a 2023 DEA report noted that counterfeit pills containing fentanyl were increasingly detected in nightclub environments, with', type: 'default' },
      ],
   },

@@ -45,9 +45,9 @@ const investigations_c: Record<string, InvestigationData> = {
    lastActivityDate: '2026-01-03',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2016', event: 'On July 27, 2016, during a press conference in Doral, Florida, Trump issued an open invitation to Russian hackers:;Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing.', type: 'default' },
-     { date: '2016-06-09', event: 'On June 9, 2016, Donald Trump Jr., Jared Kushner, and Paul Manafort met with Russians at Trump Tower expecting ;dirt ;on Clinton described as ;part of Russia and its government\'s support for Mr.', type: 'default' },
-     { date: '2016-07-27', event: 'On July 27, 2016, during a press conference in Doral, Florida, Trump issued an open invitation to Russian hackers:;Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing.', type: 'default' },
+     { date: '2016', event: 'On July 27, 2016, during a press conference in Doral, Florida, Trump issued an open invitation to Russian hackers: "Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing."', type: 'default' },
+     { date: '2016-06-09', event: 'On June 9, 2016, Donald Trump Jr., Jared Kushner, and Paul Manafort met with Russians at Trump Tower expecting "dirt" on Clinton described as "part of Russia and its government\'s support for Mr.', type: 'default' },
+     { date: '2016-07-27', event: 'On July 27, 2016, during a press conference in Doral, Florida, Trump issued an open invitation to Russian hackers: "Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing."', type: 'default' },
      ],
  },
   'currency-manipulation': {
@@ -89,7 +89,7 @@ const investigations_c: Record<string, InvestigationData> = {
       timeline: [
      { date: '1992', event: 'BLACK WEDNESDAY (1992): On September 16, 1992, George Soros\'s Quantum Fund bet $10 billion against the British pound.', type: 'financial' },
      { date: '1992-09-16', event: 'BLACK WEDNESDAY (1992): On September 16, 1992, George Soros\'s Quantum Fund bet $10 billion against the British pound.', type: 'financial' },
-     { date: '1997', event: 'He became known as ;the man who broke the Bank of England.; ASIAN FINANCIAL CRISIS (1997): Currency speculation contributed to the 1997 Asian financial crisis that devastated Thailand, Indonesia, South Korea, and', type: 'critical' },
+     { date: '1997', event: 'He became known as "the man who broke the Bank of England." The Asian Financial Crisis of 1997 saw currency speculation devastate Thailand, Indonesia, South Korea, and', type: 'critical' },
      ],
  },
   'comey-firing': {
@@ -128,8 +128,8 @@ const investigations_c: Record<string, InvestigationData> = {
    lastActivityDate: '2018-03-22',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2017', event: 'In January 2017, Trump had asked Comey for ;loyalty;at a private dinner.', type: 'default' },
-     { date: '2017-01', event: 'In January 2017, Trump had asked Comey for ;loyalty;at a private dinner.', type: 'default' },
+     { date: '2017', event: 'In January 2017, Trump had asked Comey for "loyalty" at a private dinner.', type: 'default' },
+     { date: '2017-01', event: 'In January 2017, Trump had asked Comey for "loyalty" at a private dinner.', type: 'default' },
      { date: '2017-05-09', event: 'THE FIRING: On May 9, 2017, Trump fired James Comey via letter delivered while Comey was in Los Angeles.', type: 'default' },
      ],
  },
@@ -206,7 +206,7 @@ const investigations_c: Record<string, InvestigationData> = {
    lastActivityDate: '2022-02-23',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2019', event: 'New York (2019), Chief Justice Roberts wrote the administration\'s stated reason ;seems to have been contrived.;The question was blocked.', type: 'default' },
+     { date: '2019', event: 'Chief Justice Roberts wrote that the administration\'s stated reason "seems to have been contrived." The citizenship question was blocked.', type: 'default' },
      { date: '2020', event: 'The Trump administration attempted to add a citizenship question to the 2020 Census specifically to undercount Hispanic communities and reduce their political representation.', type: 'default' },
      ],
  },

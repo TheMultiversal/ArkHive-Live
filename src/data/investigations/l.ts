@@ -836,8 +836,8 @@ const investigations_l: Record<string, InvestigationData> = {
    lastActivityDate: '2025-02-28',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1989', event: 'In 1989, facing growing public concern and legislative threats, the plastics industry created the ;chasing arrows; recycling symbol and plastered it on virtually all plastic products, regardless of whether they could', type: 'political' },
-     { date: '2018', event: 'China, which accepted 70% of the world\'s plastic waste for decades, banned imports of most plastic waste in 2018 (the ;National Sword; policy), exposing the fact that much of what Americans put in recycling bins was...', type: 'default' },
+     { date: '1989', event: 'In 1989, facing growing public concern and legislative threats, the plastics industry created the "chasing arrows" recycling symbol and plastered it on virtually all plastic products, regardless of whether they could', type: 'political' },
+     { date: '2018', event: 'China, which accepted 70% of the world\'s plastic waste for decades, banned imports of most plastic waste in 2018 (the "National Sword" policy), exposing the fact that much of what Americans put in recycling bins was...', type: 'default' },
      { date: '2022', event: 'A UN Global Plastics Treaty, under negotiation since 2022, faces opposition from petrochemical-producing nations.', type: 'default' },
      ],
   },

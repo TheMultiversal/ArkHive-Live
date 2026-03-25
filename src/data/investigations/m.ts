@@ -94,8 +94,8 @@ const investigations_m: Record<string, InvestigationData> = {
    lastActivityDate: '2020-04-01',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2019', event: 'THE BARR LETTER: On March 24, 2019, two days after receiving the Mueller Report, Barr released a 4-page letter claiming it found ;no collusion ;and insufficient evidence for obstruction.', type: 'default' },
-     { date: '2019-03-24', event: 'THE BARR LETTER: On March 24, 2019, two days after receiving the Mueller Report, Barr released a 4-page letter claiming it found ;no collusion ;and insufficient evidence for obstruction.', type: 'default' },
+     { date: '2019', event: 'THE BARR LETTER: On March 24, 2019, two days after receiving the Mueller Report, Barr released a 4-page letter claiming it found "no collusion" and insufficient evidence for obstruction.', type: 'default' },
+     { date: '2019-03-24', event: 'THE BARR LETTER: On March 24, 2019, two days after receiving the Mueller Report, Barr released a 4-page letter claiming it found "no collusion" and insufficient evidence for obstruction.', type: 'default' },
      ],
  },
   'military-industrial': {
@@ -141,7 +141,7 @@ const investigations_m: Record<string, InvestigationData> = {
    lastActivityDate: '2023-06-28',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1961', event: 'EISENHOWER\'S WARNING: In his 1961 farewell address, President Eisenhower, a five-star general who led D-Day, warned that ;the conjunction of an immense military establishment and a large arms industry ;created...', type: 'political' },
+     { date: '1961', event: 'EISENHOWER\'S WARNING: In his 1961 farewell address, President Eisenhower, a five-star general who led D-Day, warned that "the conjunction of an immense military establishment and a large arms industry" created...', type: 'political' },
      { date: '2001', event: 'America has been at war continuously since 2001.', type: 'default' },
      ],
  },
@@ -187,8 +187,8 @@ const investigations_m: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1996', event: 'The 1996 Telecommunications Act accelerated consolidation.', type: 'default' },
-     { date: '2005', event: 'Over 2,500 newspapers have closed since 2005.;News deserts ;now cover vast areas with no local journalism.', type: 'default' },
-     { date: '2018', event: 'The infamous 2018; script ;incident had anchors across the country reading identical pro-Trump propaganda.', type: 'default' },
+     { date: '2005', event: 'Over 2,500 newspapers have closed since 2005. "News deserts" now cover vast areas with no local journalism.', type: 'default' },
+     { date: '2018', event: 'The infamous 2018 Sinclair script incident had anchors across the country reading identical pro-Trump propaganda.', type: 'default' },
      ],
  },
   'medical-tyranny': {

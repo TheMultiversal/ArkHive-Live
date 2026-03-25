@@ -401,9 +401,9 @@ const investigations_o: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1962', event: 'Operation Northwoods was a 1962 Department of Defense plan proposing false flag terrorist operations against American civilians and military targets to create a pretext for invading Cuba.', type: 'default' },
-     { date: '1962-03-13', event: 'On March 13, 1962, the Joint Chiefs of Staff presented to Secretary of Defense Robert McNamara a top-secret memorandum titled ;Justification for US Military Intervention in Cuba.', type: 'default' },
+     { date: '1962-03-13', event: 'On March 13, 1962, the Joint Chiefs of Staff presented to Secretary of Defense Robert McNamara a top-secret memorandum titled "Justification for US Military Intervention in Cuba."', type: 'default' },
      { date: '1997', event: 'The documents were declassified in 1997.', type: 'default' },
-     { date: '2001', event: 'Investigative journalist James Bamford brought widespread attention to them in his 2001 book ;Body of Secrets.; The documents\'s significance lies not in what was ultimately done; Kennedy rejected the plan; but in...', type: 'default' },
+     { date: '2001', event: 'Investigative journalist James Bamford brought widespread attention to them in his 2001 book "Body of Secrets." The documents\' significance lies not in what was ultimately done — Kennedy rejected the plan — but in...', type: 'default' },
      ],
   },
   'operation-paperclip-nazi-scientist-import': {
@@ -439,8 +439,8 @@ const investigations_o: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1945', event: 'Operation Paperclip (1945-1959) was a secret U.S.', type: 'default' },
-     { date: '1946', event: 'President Truman authorized the program in September 1946 but explicitly prohibited the recruitment of anyone who had been ;a member of the Nazi Party, and more than a nominal participant in its activities, or an', type: 'political' },
-     { date: '1946-09', event: 'President Truman authorized the program in September 1946 but explicitly prohibited the recruitment of anyone who had been ;a member of the Nazi Party, and more than a nominal participant in its activities, or an', type: 'political' },
+     { date: '1946', event: 'President Truman authorized the program in September 1946 but explicitly prohibited the recruitment of anyone who had been "a member of the Nazi Party, and more than a nominal participant in its activities, or an', type: 'political' },
+     { date: '1946-09', event: 'President Truman authorized the program in September 1946 but explicitly prohibited the recruitment of anyone who had been "a member of the Nazi Party, and more than a nominal participant in its activities, or an', type: 'political' },
      { date: '1979', event: 'The Office of Special Investigations, established in 1979 to identify Nazi war criminals in the United States, found and denaturalized several Paperclip scientists including Arthur Rudolph, who surrendered his', type: 'default' },
      { date: '1984', event: 'The Office of Special Investigations, established in 1979 to identify Nazi war criminals in the United States, found and denaturalized several Paperclip scientists including Arthur Rudolph, who surrendered his', type: 'default' },
      ],

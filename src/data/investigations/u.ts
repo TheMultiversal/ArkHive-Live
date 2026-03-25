@@ -114,7 +114,7 @@ const investigations_u: Record<string, InvestigationData> = {
    lastActivityDate: '2023-05-11',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2015', event: 'Trump launched his 2015 campaign calling Mexican immigrants ;rapists ;and ;criminals.;His own businesses employed them, exploited them, then discarded them.', type: 'political' },
+     { date: '2015', event: 'Trump launched his 2015 campaign calling Mexican immigrants "rapists" and "criminals." His own businesses employed them, exploited them, then discarded them.', type: 'political' },
      { date: '2019', event: 'After news reports, Trump Organization began firing undocumented workers in early 2019, destroying evidence and casting out workers who had served loyally for years.', type: 'default' },
      ],
  },

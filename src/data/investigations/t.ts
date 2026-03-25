@@ -45,9 +45,9 @@ const investigations_t: Record<string, InvestigationData> = {
    lastActivityDate: '2023-03-25',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2016', event: 'On July 27, 2016, Trump publicly called on Russia to hack his political opponent:;Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing.;The Mueller Report confirmed Russian...', type: 'default' },
-     { date: '2016-07-27', event: 'On July 27, 2016, Trump publicly called on Russia to hack his political opponent:;Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing.;The Mueller Report confirmed Russian...', type: 'default' },
-     { date: '2017-05', event: 'Former CIA Director John Brennan called it ;nothing short of treasonous.; SHARING CLASSIFIED INTELLIGENCE WITH RUSSIA: In May 2017, Trump disclosed highly classified intelligence to Russian Foreign Minister Lavrov', type: 'default' },
+     { date: '2016', event: 'On July 27, 2016, Trump publicly called on Russia to hack his political opponent: "Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing." The Mueller Report confirmed Russian...', type: 'default' },
+     { date: '2016-07-27', event: 'On July 27, 2016, Trump publicly called on Russia to hack his political opponent: "Russia, if you\'re listening, I hope you\'re able to find the 30,000 emails that are missing." The Mueller Report confirmed Russian...', type: 'default' },
+     { date: '2017-05', event: 'Former CIA Director John Brennan called it "nothing short of treasonous." SHARING CLASSIFIED INTELLIGENCE WITH RUSSIA: In May 2017, Trump disclosed highly classified intelligence to Russian Foreign Minister Lavrov', type: 'default' },
      { date: '2018', event: 'On July 16, 2018, Trump stood beside Putin in Helsinki and said he believed Putin\'s denial of election interference over the unanimous assessment of every U.S.', type: 'political' },
      { date: '2018-07-16', event: 'On July 16, 2018, Trump stood beside Putin in Helsinki and said he believed Putin\'s denial of election interference over the unanimous assessment of every U.S.', type: 'political' },
      ],
@@ -246,7 +246,7 @@ const investigations_t: Record<string, InvestigationData> = {
    lastActivityDate: '2025-01-24',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2002', event: 'THE PROGRAM: Beginning in 2002, the CIA operated secret detention facilities (;black sites;) in countries including Poland, Romania, Lithuania, Thailand, and Afghanistan.', type: 'default' },
+     { date: '2002', event: 'THE PROGRAM: Beginning in 2002, the CIA operated secret detention facilities ("black sites") in countries including Poland, Romania, Lithuania, Thailand, and Afghanistan.', type: 'default' },
      { date: '2005', event: 'In 2005, the CIA destroyed 92 videotapes of interrogation sessions, potentially containing evidence of war crimes.', type: 'default' },
      { date: '2014', event: 'The Senate Intelligence Committee conducted a 6,700-page investigation (executive summary released 2014) concluding that: torture did not produce unique intelligence, the CIA misled oversight bodies, and conditions', type: 'political' },
      ],
@@ -292,7 +292,7 @@ const investigations_t: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2024', event: 'The immunity litigation delayed Trump\'s January 6 trial, likely pushing it past the 2024 election.', type: 'legal' },
-     { date: '2024-07', event: 'In July 2024, the Court issued a ruling granting broad immunity for ;official acts ;while creating an uncertain test for what counts as official.', type: 'legal' },
+     { date: '2024-07', event: 'In July 2024, the Court issued a ruling granting broad immunity for "official acts" while creating an uncertain test for what counts as official.', type: 'legal' },
      ],
  },
   'tech-censorship': {
@@ -432,7 +432,7 @@ const investigations_t: Record<string, InvestigationData> = {
    lastActivityDate: '2025-07-31',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2002', event: 'Beginning in 2002, the CIA operated a secret detention and interrogation program using ;enhanced interrogation techniques;|a euphemism for torture.', type: 'default' },
+     { date: '2002', event: 'Beginning in 2002, the CIA operated a secret detention and interrogation program using "enhanced interrogation techniques" — a euphemism for torture.', type: 'default' },
      { date: '2025-01', event: 'Physicians for Human Rights — Current status: monitoring continues with active documentation', type: 'critical' },
    ],
  },
@@ -1766,7 +1766,7 @@ const investigations_t: Record<string, InvestigationData> = {
    lastActivityDate: '2024-02-07',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1969', event: 'Philip Morris\'s 1969 memo stated: ;Doubt is our product since it is the best means of competing with the \'body of fact\' that exists in the mind of the general public.; The pharmaceutical industry has adopted this...', type: 'default' },
+     { date: '1969', event: 'Philip Morris\'s 1969 memo stated: "Doubt is our product since it is the best means of competing with the \'body of fact\' that exists in the mind of the general public." The pharmaceutical industry has adopted this...', type: 'default' },
      { date: '2010', event: 'A 2010 ProPublica investigation found that pharmaceutical companies paid billions to physicians; with the highest-paid KOLs receiving over $1 million annually from a single company.', type: 'financial' },
      ],
   },

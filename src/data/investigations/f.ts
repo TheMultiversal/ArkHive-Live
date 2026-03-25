@@ -479,9 +479,9 @@ const investigations_f: Record<string, InvestigationData> = {
  summary: 'Far-right extremism has become the deadliest domestic terrorism threat in America. From Charlottesville to El Paso to Buffalo, white supremacists have committed mass murder while politicians mainstream their ideology.',
  content: [
  'DEATH TOLL: Since 9/11, far-right extremists have killed more Americans than any other domestic terrorism category.',
- 'CHARLOTTESVILLE: In 2017, white supremacists marched with torches chanting "Jews will not replace us."One murdered Heather Heyer. Trump said there were" very fine people on both sides."',
+ 'CHARLOTTESVILLE: In 2017, white supremacists marched with torches chanting "Jews will not replace us." One murdered Heather Heyer. Trump said there were "very fine people on both sides."',
  'EL PASO: In 2019, a shooter targeting Hispanics murdered 23 at a Walmart. His manifesto echoed Trump\'s language about "invasion."',
- 'BUFFALO: In 2022, a shooter targeting Black people murdered 10 at a grocery store. He cited "Great Replacement "conspiracy theory.',
+ 'BUFFALO: In 2022, a shooter targeting Black people murdered 10 at a grocery store. He cited the "Great Replacement" conspiracy theory.',
  'MAINSTREAMING: Tucker Carlson promoted replacement theory to millions. Republican politicians attend white nationalist events.',
  ],
  tags: ['Far Right', 'White Supremacy', 'Domestic Terrorism', 'Charlottesville', 'Great Replacement'],
@@ -498,9 +498,10 @@ const investigations_f: Record<string, InvestigationData> = {
    lastActivityDate: '2024-11-27',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2017', event: 'In 2017, white supremacists marched with torches chanting ;Jews will not replace us.;One murdered Heather Heyer.', type: 'default' },
-     { date: '2019', event: 'Trump said there were; very fine people on both sides.; EL PASO: In 2019, a shooter targeting Hispanics murdered 23 at a Walmart.', type: 'financial' },
-     { date: '2022', event: 'His manifesto echoed Trump\'s language about ;invasion.; BUFFALO: In 2022, a shooter targeting Black people murdered 10 at a grocery store.', type: 'default' },
+     { date: '2017', event: 'White supremacists marched with torches in Charlottesville chanting "Jews will not replace us." Counter-protester Heather Heyer was murdered when a neo-Nazi drove his car into a crowd.', type: 'critical' },
+     { date: '2017', event: 'Trump responded by saying there were "very fine people on both sides," drawing widespread condemnation for equating white supremacists with counter-protesters.', type: 'political' },
+     { date: '2019', event: 'A white supremacist targeting Hispanics murdered 23 people at a Walmart in El Paso, Texas. His manifesto echoed Trump\'s language about an immigrant "invasion."', type: 'critical' },
+     { date: '2022', event: 'A white supremacist targeting Black people murdered 10 at a grocery store in Buffalo, New York. He cited the "Great Replacement" conspiracy theory promoted by mainstream media figures.', type: 'critical' },
      ],
  },
   'faa-regulatory-capture': {
@@ -739,7 +740,7 @@ const investigations_f: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2020', event: 'A 2020 study by the Institute for Strategic Dialogue found that far-right content creators on YouTube earned an estimated $3.5 million annually from advertising on videos promoting extremist ideologies.', type: 'financial' },
-     { date: '2023', event: 'Tucker Carlson\'s show broadcast ;Great Replacement; theory, a white supremacist framework, over 400 times before his firing in 2023.', type: 'default' },
+     { date: '2023', event: 'Tucker Carlson\'s show broadcast "Great Replacement" theory, a white supremacist framework, over 400 times before his firing in 2023.', type: 'default' },
      ],
  },
   'fast-food-labor': {
@@ -1020,7 +1021,7 @@ const investigations_f: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2016', event: 'Russian interference in the 2016 election was documented in exhaustive detail by the Mueller investigation, the Senate Intelligence Committee, and the intelligence community.', type: 'political' },
-     { date: '2018', event: 'The DOJ\'s ;China Initiative,; launched in 2018, investigated hundreds of cases of alleged Chinese espionage at universities and research institutions; though the program was criticized for racial profiling.', type: 'default' },
+     { date: '2018', event: 'The DOJ\'s "China Initiative," launched in 2018, investigated hundreds of cases of alleged Chinese espionage at universities and research institutions, though the program was criticized for racial profiling.', type: 'default' },
      { date: '2024', event: 'AIPAC\'s affiliated super PAC spent over $100 million in the 2024 election cycle, targeting incumbent members of Congress who criticized Israeli policies.', type: 'political' },
      ],
  },
@@ -1227,7 +1228,7 @@ const investigations_f: Record<string, InvestigationData> = {
       timeline: [
      { date: '2017-04', event: 'When attendees arrived on Great Exuma in April 2017, they found no festival.', type: 'default' },
      { date: '2018', event: 'McFarland was sentenced to six years in federal prison in 2018 and ordered to forfeit $26 million.', type: 'legal' },
-     { date: '2022', event: 'He was released in 2022 and immediately announced plans for ;Fyre Festival II,; selling tickets starting at $499.', type: 'default' },
+     { date: '2022', event: 'He was released in 2022 and immediately announced plans for "Fyre Festival II," selling tickets starting at $499.', type: 'default' },
      ],
  },
   'foreign-election-interference-operations': {

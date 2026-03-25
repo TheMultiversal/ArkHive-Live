@@ -82,8 +82,8 @@ const investigations_w: Record<string, InvestigationData> = {
    lastActivityDate: '2022-02-23',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020', event: 'The ;Navigable Waters Protection Rule;(finalized January 2020) excluded ephemeral streams, wetlands not adjacent to navigable waters, and groundwater from federal protection.', type: 'default' },
-     { date: '2020-01', event: 'The ;Navigable Waters Protection Rule;(finalized January 2020) excluded ephemeral streams, wetlands not adjacent to navigable waters, and groundwater from federal protection.', type: 'default' },
+     { date: '2020', event: 'The "Navigable Waters Protection Rule" (finalized January 2020) excluded ephemeral streams, wetlands not adjacent to navigable waters, and groundwater from federal protection.', type: 'default' },
+     { date: '2020-01', event: 'The "Navigable Waters Protection Rule" (finalized January 2020) excluded ephemeral streams, wetlands not adjacent to navigable waters, and groundwater from federal protection.', type: 'default' },
      ],
  },
   'white-nationalism': {
@@ -221,7 +221,7 @@ const investigations_w: Record<string, InvestigationData> = {
    lastActivityDate: '2024-09-30',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2023', event: 'Tucker Carlson, until his 2023 firing, regularly promoted ;great replacement ;theory, the white nationalist claim that elites are deliberately replacing white Americans with immigrants.', type: 'default' },
+     { date: '2023', event: 'Tucker Carlson, until his 2023 firing, regularly promoted "great replacement" theory, the white nationalist claim that elites are deliberately replacing white Americans with immigrants.', type: 'default' },
      { date: '2028', event: 'Continued developments in white nationalist media ecosystem with new evidence emerging', type: 'default' },
    ],
  },
@@ -262,8 +262,8 @@ const investigations_w: Record<string, InvestigationData> = {
    lastActivityDate: '2022-01-21',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2020', event: 'In January 2020, WHO praised China\'s ;transparency ;and ;commitment to sharing information ;while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
-     { date: '2020-01', event: 'In January 2020, WHO praised China\'s ;transparency ;and ;commitment to sharing information ;while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
+     { date: '2020', event: 'In January 2020, WHO praised China\'s "transparency" and "commitment to sharing information" while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
+     { date: '2020-01', event: 'In January 2020, WHO praised China\'s "transparency" and "commitment to sharing information" while China was actively suppressing whistleblowers and concealing data.', type: 'default' },
      { date: '2020-03-11', event: 'WHO waited until March 11, 2020 to declare COVID-19 a pandemic, weeks after it had clearly met criteria.', type: 'default' },
      ],
  },
@@ -982,7 +982,7 @@ const investigations_w: Record<string, InvestigationData> = {
      { date: '2002', event: 'The intelligence community\'s October 2002 National Intelligence Estimate on Iraqi WMDs contained dissents from the State Department\'s Bureau of Intelligence and Research and the Department of Energy, which challenged...', type: 'default' },
      { date: '2002-10', event: 'The intelligence community\'s October 2002 National Intelligence Estimate on Iraqi WMDs contained dissents from the State Department\'s Bureau of Intelligence and Research and the Department of Energy, which challenged...', type: 'default' },
      { date: '2003', event: 'The Bush administration systematically fabricated and exaggerated intelligence about Iraqi weapons of mass destruction to justify the 2003 invasion.', type: 'default' },
-     { date: '2003-02', event: 'Secretary of State Colin Powell\'s February 2003 UN presentation, which he later called a ;blot; on his career, asserted that Iraq possessed mobile biological weapons labs, had reconstituted its nuclear program, and...', type: 'default' },
+     { date: '2003-02', event: 'Secretary of State Colin Powell\'s February 2003 UN presentation, which he later called a "blot" on his career, asserted that Iraq possessed mobile biological weapons labs, had reconstituted its nuclear program, and...', type: 'default' },
      { date: '2004', event: 'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and had no active programs.', type: 'default' },
      { date: '2004-09', event: 'The Iraq Survey Group, led by Charles Duelfer, spent 18 months searching Iraq after the invasion and concluded definitively in September 2004 that Iraq had destroyed its WMD stockpiles in 1991 and had no active programs.', type: 'default' },
      ],
@@ -1279,7 +1279,7 @@ const investigations_w: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1996', event: 'The New York Trade Waste Commission, established by Mayor Giuliani in 1996, found that this cartel inflated commercial waste removal costs by 40-50%', type: 'financial' },
-     { date: '1999', event: 'James ;Jimmy Brown; Failla, a Gambino captain, was the acknowledged ;boss; of the cartel industry association (the Association of Trade Waste Removers of Greater New York) from the 1970s until his death in 1999.', type: 'critical' },
+     { date: '1999', event: 'James "Jimmy Brown" Failla, a Gambino captain, was the acknowledged "boss" of the cartel industry association (the Association of Trade Waste Removers of Greater New York) from the 1970s until his death in 1999.', type: 'critical' },
      { date: '2002', event: 'Mayor Rudolph Giuliani established the New York Trade Waste Commission in 1996 (renamed the Business Integrity Commission in 2002) with the specific mandate of breaking the organized crime cartel in the waste industry.', type: 'default' },
      ],
   },
@@ -1348,7 +1348,7 @@ const investigations_w: Record<string, InvestigationData> = {
    lastActivityDate: '2026-01-18',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '1986', event: 'The Electronic Communications Privacy Act (ECPA) of 1986 contains a ;business use exception; that permits employers to monitor communications on their systems for legitimate business purposes and a', type: 'default' },
+     { date: '1986', event: 'The Electronic Communications Privacy Act (ECPA) of 1986 contains a "business use exception" that permits employers to monitor communications on their systems for legitimate business purposes and a', type: 'default' },
      { date: '2020', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021.', type: 'default' },
      { date: '2021', event: 'Companies including Hubstaff, Time Doctor, ActivTrak, Teramind, and Prodoscore saw 300-500% growth in adoption during 2020-2021.', type: 'default' },
      { date: '2023', event: 'A 2023 Harvard Business Review study found that monitored employees were more likely to engage in rule-breaking, take unapproved breaks, and work with less care.', type: 'default' },

@@ -85,8 +85,8 @@ const investigations_i: Record<string, InvestigationData> = {
    lastActivityDate: '2023-07-13',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2002-07', event: 'A leaked British memo from July 2002 revealed that Bush had already decided to invade Iraq and ;the intelligence and facts were being fixed around the policy.;This confirmed the deception was deliberate.', type: 'default' },
-     { date: '2003', event: 'In his 2003 State of the Union, Bush said:;The British government has learned that Saddam Hussein recently sought significant quantities of uranium from Africa.;This claim was based on forged documents.', type: 'default' },
+     { date: '2002-07', event: 'A leaked British memo from July 2002 revealed that Bush had already decided to invade Iraq and "the intelligence and facts were being fixed around the policy." This confirmed the deception was deliberate.', type: 'default' },
+     { date: '2003', event: 'In his 2003 State of the Union, Bush said: "The British government has learned that Saddam Hussein recently sought significant quantities of uranium from Africa." This claim was based on forged documents.', type: 'default' },
      { date: '2003-02-05', event: 'POWELL\'S UN SPEECH: On February 5, 2003, Secretary of State Colin Powell presented the case for war to the UN Security Council.', type: 'default' },
      ],
  },

@@ -35,7 +35,7 @@ const investigations_x: Record<string, InvestigationData> = {
       timeline: [
      { date: '2008', event: 'Section 702 of the FISA Amendments Act of 2008 provided the legal framework; but critics; including FISA Court judges; found that the NSA repeatedly exceeded even these permissive boundaries.', type: 'legal' },
      { date: '2015', event: 'The USA FREEDOM Act of 2015 imposed modest restrictions on bulk metadata collection of phone records but did not significantly alter the internet surveillance programs like XKeyscore that operate under Section 702.', type: 'default' },
-     { date: '2024-04', event: 'The Privacy and Civil Liberties Oversight Board (PCLOB) found that the Section 702 program; which underpins much of XKeyscore\'s authority; raises ;serious constitutional questions.; Section 702 was reauthorized in...', type: 'default' },
+     { date: '2024-04', event: 'The Privacy and Civil Liberties Oversight Board (PCLOB) found that the Section 702 program, which underpins much of XKeyscore\'s authority, raises "serious constitutional questions." Section 702 was reauthorized in...', type: 'default' },
      ],
   },
   'forced-arbitration-consumer-rights': {

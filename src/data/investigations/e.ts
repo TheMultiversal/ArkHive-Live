@@ -41,8 +41,8 @@ const investigations_e: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2016', event: 'HAVANA OUTBREAK: Beginning in late 2016, US diplomats at the Havana embassy reported sudden onset of strange symptoms: intense pressure or vibration in the head, vertigo, cognitive difficulties, and hearing loss.', type: 'default' },
-     { date: '2020', event: 'The National Academy of Sciences concluded in 2020 that ;directed, pulsed radio frequency energy ;was the most plausible cause.', type: 'default' },
-     { date: '2023', event: 'A 2023 IC assessment controversially concluded it was ;very unlikely ;a foreign adversary was responsible, drawing criticism from victims and some officials who saw the conclusion as politically motivated cover-up.', type: 'default' },
+     { date: '2020', event: 'The National Academy of Sciences concluded in 2020 that "directed, pulsed radio frequency energy" was the most plausible cause.', type: 'default' },
+     { date: '2023', event: 'A 2023 IC assessment controversially concluded it was "very unlikely" a foreign adversary was responsible, drawing criticism from victims and some officials who saw the conclusion as politically motivated cover-up.', type: 'default' },
      ],
  },
   'economic-manipulation': {
@@ -505,8 +505,8 @@ const investigations_e: Record<string, InvestigationData> = {
    lastActivityDate: '2024-01-01',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2020', event: 'In February 2020, Daszak organized a letter in The Lancet condemning lab leak ;conspiracy theories.;He concealed his role in organizing it and his direct conflict of interest as WIV funder.', type: 'financial' },
-     { date: '2020-02', event: 'In February 2020, Daszak organized a letter in The Lancet condemning lab leak ;conspiracy theories.;He concealed his role in organizing it and his direct conflict of interest as WIV funder.', type: 'financial' },
+     { date: '2020', event: 'In February 2020, Daszak organized a letter in The Lancet condemning lab leak "conspiracy theories." He concealed his role in organizing it and his direct conflict of interest as WIV funder.', type: 'financial' },
+     { date: '2020-02', event: 'In February 2020, Daszak organized a letter in The Lancet condemning lab leak "conspiracy theories." He concealed his role in organizing it and his direct conflict of interest as WIV funder.', type: 'financial' },
      { date: '2024', event: 'In 2024, the Department of Health and Human Services debarred EcoHealth Alliance and Daszak from federal funding.', type: 'financial' },
      ],
  },
@@ -1795,7 +1795,7 @@ const investigations_e: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1987', event: 'A 1987 GAO study found that three out of five Superfund sites were in areas where the majority of residents were people of color.', type: 'default' },
-     { date: '1990', event: 'The ;Cancer Alley; designation came from a 1990 front-page Times-Picasso article highlighting the corridor from Baton Rouge to New Orleans.', type: 'default' },
+     { date: '1990', event: 'The "Cancer Alley" designation came from a 1990 front-page Times-Picayune article highlighting the corridor from Baton Rouge to New Orleans.', type: 'default' },
      ],
   },
   'executive-compensation-gouging': {
@@ -2232,7 +2232,7 @@ const investigations_e: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '1982', event: 'Warren County, North Carolina — where the environmental justice movement was born in 1982 when residents protested a PCB landfill sited in a Black community — still bears the contamination four decades later.', type: 'default' },
-     { date: '1987', event: 'The landmark 1987 United Church of Christ report ;Toxic Wastes and Race; found race to be the most significant variable associated with the location of hazardous waste facilities.', type: 'default' },
+     { date: '1987', event: 'The landmark 1987 United Church of Christ report "Toxic Wastes and Race" found race to be the most significant variable associated with the location of hazardous waste facilities.', type: 'default' },
      { date: '2016', event: 'A 2016 update confirmed the disparity had worsened: communities of color are still disproportionately burdened with toxic facilities.', type: 'default' },
      ],
   },

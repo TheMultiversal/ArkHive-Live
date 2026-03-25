@@ -89,7 +89,7 @@ const investigations_y: Record<string, InvestigationData> = {
    lastActivityDate: '2025-08-11',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2019', event: 'The company reduced recommendations of ;borderline; content in 2019, removed some extremist channels, and added information panels to conspiracy-related videos.', type: 'default' },
+     { date: '2019', event: 'The company reduced recommendations of "borderline" content in 2019, removed some extremist channels, and added information panels to conspiracy-related videos.', type: 'default' },
      { date: '2020', event: 'YouTube served as the primary platform for QAnon content before partial restrictions were implemented in 2020.', type: 'default' },
      ],
  },

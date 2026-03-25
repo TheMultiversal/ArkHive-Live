@@ -1012,7 +1012,7 @@ const investigations_r: Record<string, InvestigationData> = {
       timeline: [
      { date: '2016', event: 'Russian influence operations extend far beyond the documented interference in the 2016 U.S.', type: 'default' },
      { date: '2017', event: 'European intelligence agencies have identified Russian influence campaigns targeting elections in France (Macron email hack 2017), Germany (Bundestag hack, AfD support), the United Kingdom (Brexit campaign funding),', type: 'political' },
-     { date: '2020', event: 'In the UK, the Intelligence and Security Committee\'s ;Russia Report; (2020) documented how Russian money had become deeply embedded in British politics, finance, and society; describing London as a ;laundromat; for...', type: 'default' },
+     { date: '2020', event: 'In the UK, the Intelligence and Security Committee\'s "Russia Report" (2020) documented how Russian money had become deeply embedded in British politics, finance, and society, describing London as a "laundromat" for...', type: 'default' },
      ],
  },
   'russian-war-crimes': {

@@ -101,7 +101,7 @@ const investigations_d: Record<string, InvestigationData> = {
    lastActivityDate: '2023-01-14',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020', event: 'After losing the 2020 election, Trump pressured DOJ to declare fraud and ;leave the rest to me and the Republican congressmen.;Acting AG Jeffrey Rosen refused.', type: 'political' },
+     { date: '2020', event: 'After losing the 2020 election, Trump pressured DOJ to declare fraud and "leave the rest to me and the Republican congressmen." Acting AG Jeffrey Rosen refused.', type: 'political' },
      { date: '2021-01', event: 'January 6 Committee DOJ Findings — Investigation updated with new findings and developments', type: 'critical' },
      { date: '2022-01', event: 'January 6 Committee DOJ Findings — Ongoing monitoring and documentation of developments', type: 'critical' },
      { date: '2023-01', event: 'January 6 Committee DOJ Findings — Latest status update and accountability tracking', type: 'critical' },
@@ -240,7 +240,7 @@ const investigations_d: Record<string, InvestigationData> = {
    lastActivityDate: '2023-11-13',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2017-05', event: 'Trump fired FBI Director James Comey in May 2017, later admitting on television it was because of ;the Russia thing.;This obstruction of justice was documented in the Mueller report.', type: 'default' },
+     { date: '2017-05', event: 'Trump fired FBI Director James Comey in May 2017, later admitting on television it was because of "the Russia thing." This obstruction of justice was documented in the Mueller report.', type: 'default' },
      { date: '2018-01', event: 'Inspector General Reports — Investigation documented and evidence gathering initiated', type: 'default' },
      { date: '2019-01', event: 'Inspector General Reports — Key developments identified; accountability analysis updated', type: 'default' },
      { date: '2020-01', event: 'Inspector General Reports — Continued monitoring and documentation of ongoing developments', type: 'default' },
@@ -361,7 +361,7 @@ const investigations_d: Record<string, InvestigationData> = {
    lastActivityDate: '2025-05-04',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-        { date: '2016', event: 'to ;flawed democracy ;in 2016.', type: 'default' },
+        { date: '2016', event: 'The V-Dem Institute downgraded the United States to a "flawed democracy" in 2016.', type: 'default' },
         { date: '2018-01', event: 'V-Dem Democracy Report — Investigation documented and evidence gathering initiated', type: 'default' },
         { date: '2020-01', event: 'V-Dem Democracy Report — Key developments identified; accountability analysis updated', type: 'default' },
         { date: '2022-01', event: 'V-Dem Democracy Report — Continued monitoring and documentation of ongoing developments', type: 'default' },

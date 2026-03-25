@@ -51,8 +51,8 @@ const investigations_s: Record<string, InvestigationData> = {
    lastActivityDate: '2025-10-20',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2018', event: 'Despite campaign rhetoric criticizing surveillance (;wiretapping ;claims against Obama), Trump signed legislation renewing Section 702 of FISA in January 2018, which allows warrantless surveillance of foreign targets', type: 'political' },
-     { date: '2018-01', event: 'Despite campaign rhetoric criticizing surveillance (;wiretapping ;claims against Obama), Trump signed legislation renewing Section 702 of FISA in January 2018, which allows warrantless surveillance of foreign targets', type: 'political' },
+     { date: '2018', event: 'Despite campaign rhetoric criticizing surveillance ("wiretapping" claims against Obama), Trump signed legislation renewing Section 702 of FISA in January 2018, which allows warrantless surveillance of foreign targets', type: 'political' },
+     { date: '2018-01', event: 'Despite campaign rhetoric criticizing surveillance ("wiretapping" claims against Obama), Trump signed legislation renewing Section 702 of FISA in January 2018, which allows warrantless surveillance of foreign targets', type: 'political' },
      { date: '2020', event: 'PROTEST SURVEILLANCE 2020: During Black Lives Matter protests following George Floyds murder, DHS deployed RC-26 reconnaissance aircraft over Minneapolis, Washington D.C., and other cities.', type: 'default' },
      ],
  },
@@ -250,8 +250,8 @@ const investigations_s: Record<string, InvestigationData> = {
    lastActivityDate: '2021-08-17',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2019', event: 'THE TWEET: On September 1, 2019, Trump tweeted that Alabama would ;most likely be hit (much) harder than anticipated ;by Hurricane Dorian.', type: 'default' },
-     { date: '2019-09-01', event: 'THE TWEET: On September 1, 2019, Trump tweeted that Alabama would ;most likely be hit (much) harder than anticipated ;by Hurricane Dorian.', type: 'default' },
+     { date: '2019', event: 'THE TWEET: On September 1, 2019, Trump tweeted that Alabama would "most likely be hit (much) harder than anticipated" by Hurricane Dorian.', type: 'default' },
+     { date: '2019-09-01', event: 'THE TWEET: On September 1, 2019, Trump tweeted that Alabama would "most likely be hit (much) harder than anticipated" by Hurricane Dorian.', type: 'default' },
      ],
  },
   'stop-the-steal': {
@@ -294,8 +294,8 @@ const investigations_s: Record<string, InvestigationData> = {
    lastActivityDate: '2025-06-11',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2016', event: 'ORIGINS: Roger Stone trademarked ;Stop the Steal ;in 2016 and revived it after Trump\'s 2020 loss.', type: 'default' },
-     { date: '2020', event: 'ORIGINS: Roger Stone trademarked ;Stop the Steal ;in 2016 and revived it after Trump\'s 2020 loss.', type: 'default' },
+     { date: '2016', event: 'ORIGINS: Roger Stone trademarked "Stop the Steal" in 2016 and revived it after Trump\'s 2020 loss.', type: 'default' },
+     { date: '2020', event: 'ORIGINS: Roger Stone trademarked "Stop the Steal" in 2016 and revived it after Trump\'s 2020 loss.', type: 'default' },
      { date: '2021', event: 'On January 6, 2021, thousands stormed the Capitol seeking to stop certification.', type: 'default' },
      { date: '2021-01-06', event: 'On January 6, 2021, thousands stormed the Capitol seeking to stop certification.', type: 'default' },
      ],
@@ -436,7 +436,7 @@ const investigations_s: Record<string, InvestigationData> = {
      { date: '2012', event: 'THE MASSACRE: On December 14, 2012, a gunman killed 20 first-graders and 6 staff members at Sandy Hook Elementary School in Newtown, Connecticut.', type: 'critical' },
      { date: '2012-12-14', event: 'THE MASSACRE: On December 14, 2012, a gunman killed 20 first-graders and 6 staff members at Sandy Hook Elementary School in Newtown, Connecticut.', type: 'critical' },
      { date: '2022', event: 'In October 2022, a Connecticut jury awarded families $965 million.', type: 'financial' },
-     { date: '2022-08', event: 'Later, he submitted to depositions where he admitted Sandy Hook was;100% real.; TEXAS VERDICT: In August 2022, a Texas jury awarded Neil Heslin and Scarlett Lewis, parents of 6-year-old Jesse Lewis, $45.', type: 'legal' },
+     { date: '2022-08', event: 'Later, he submitted to depositions where he admitted Sandy Hook was "100% real." TEXAS VERDICT: In August 2022, a Texas jury awarded Neil Heslin and Scarlett Lewis, parents of 6-year-old Jesse Lewis, $45.', type: 'legal' },
      { date: '2022-10', event: 'In October 2022, a Connecticut jury awarded families $965 million.', type: 'financial' },
      ],
  },
@@ -1342,9 +1342,9 @@ const investigations_s: Record<string, InvestigationData> = {
    lastActivityDate: '2023-03-09',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2002', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary ;Surviving R.', type: 'legal' },
-     { date: '2008', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary ;Surviving R.', type: 'legal' },
-     { date: '2019', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary ;Surviving R.', type: 'legal' },
+     { date: '2002', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary "Surviving R.', type: 'legal' },
+     { date: '2008', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary "Surviving R.', type: 'legal' },
+     { date: '2019', event: 'Despite a 2002 indictment for child pornography (he was acquitted in 2008), credible public allegations spanning 25 years, and a 2019 documentary "Surviving R.', type: 'legal' },
      { date: '2021', event: 'Kelly was convicted on federal racketeering charges in 2021 and sentenced to 30 years in prison.', type: 'legal' },
      ],
  },
@@ -2388,7 +2388,7 @@ const investigations_s: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
       timeline: [
      { date: '2018', event: 'Following the 2018 Parkland shooting, multiple school districts deployed facial recognition systems.', type: 'default' },
-     { date: '2021', event: 'A 2021 RAND Corporation study found ;no evidence that the presence of cameras in schools reduces crime, violence, or other safety threats.', type: 'default' },
+     { date: '2021', event: 'A 2021 RAND Corporation study found "no evidence that the presence of cameras in schools reduces crime, violence, or other safety threats."', type: 'default' },
      { date: '2022', event: 'A 2022 investigation found that Gaggle\'s system disproportionately flags LGBTQ+ students, students of color, and students discussing normal developmental topics like relationships and body image.', type: 'default' },
      ],
   },
