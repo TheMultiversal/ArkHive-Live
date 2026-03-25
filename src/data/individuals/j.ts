@@ -8110,7 +8110,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Stalin'],
     knownAssociates: [
-      { name: 'Vladimir Lenin', relationship: 'Predecessor', href: '/entities/individuals/vladimir-lenin' },
+      { name: 'Vladimir Lenin', relationship: 'Predecessor' },
     ],
   },
   'jesse-jackson-jr': {

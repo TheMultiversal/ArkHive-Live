@@ -240,7 +240,7 @@ const investigations_k: Record<string, InvestigationData> = {
  sources: [
  { title: 'State v. Rittenhouse Trial Records', url: 'https://www.kenoshanews.com/news/local/crime-and-courts/rittenhouse-trial/', type: 'Court Filing' },
  { title: 'Video Evidence Compilation', url: 'https://www.nytimes.com/2020/08/27/us/kyle-rittenhouse-kenosha-shooting-video.html', type: 'Video Evidence' },
- { title: 'DOJ Jacob Blake Investigation', url: 'https://www.justice.gov/archives/opa/pr/federal-investigation-kenosha-wisconsin-police-shooting-jacob-blake', type: 'Government Report' },
+ { title: 'DOJ Jacob Blake Investigation', url: 'https://www.justice.gov/opa', type: 'Government Report' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -516,13 +516,13 @@ const investigations_k: Record<string, InvestigationData> = {
     sources: [
       { title: 'Ftc Records', url: 'https://www.ftc.gov/reports/pharmacy-benefit-managers-report', type: 'Reference' },
       { title: 'Ncpa Records', url: 'https://www.ncpa.org/', type: 'Reference' },
-      { title: 'Commonwealthfund Records', url: 'https://www.commonwealthfund.org/publications/explainer/2023/pharmacy-benefit-managers-and-their-role-drug-spending', type: 'Reference' },
+      { title: 'Commonwealthfund Records', url: 'https://www.commonwealthfund.org/', type: 'Reference' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
 
       { title: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'FTC', type: 'agency', relationship: 'Launched 6(b) investigation in 2022; interim report confirmed anticompetitive practices; full enforcement action pending as industry challenges FTC authority post-Loper Bright', href: '/entities/agencies/ftc' },
+      { id: '1', name: 'FTC', type: 'agency', relationship: 'Launched 6(b) investigation in 2022; interim report confirmed anticompetitive practices; full enforcement action pending as industry challenges FTC authority post-Loper Bright' },
       { id: '2', name: 'CMS', type: 'agency', relationship: 'Oversees PBMs in Medicare Part D and Medicaid managed care; proposed rebate pass-through rule delayed; spread pricing continues in many state Medicaid contracts despite documented harm', href: '/entities/agencies/cms' },
     ],
    eventOriginDate: '2022-01-01',

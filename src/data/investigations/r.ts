@@ -452,7 +452,7 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Mueller Report (Full Text)', url: 'https://www.justice.gov/archives', type: 'Government Report' },
  { title: 'Senate Intelligence Committee Russia Report (Volume 5)', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government Report' },
- { title: 'DOJ Special Counsel Indictments Index', url: 'https://www.justice.gov/archives/page/file/1371346/download', type: 'Government Report' },
+ { title: 'DOJ Special Counsel Indictments Index', url: 'https://www.justice.gov/archives', type: 'Government Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -499,8 +499,8 @@ const investigations_r: Record<string, InvestigationData> = {
  sources: [
  { title: 'Mueller Report: Report on the Investigation into Russian Interference', url: 'https://www.justice.gov/archives', type: 'Government' },
  { title: 'Senate Intelligence Committee Volume 5: Counterintelligence Threats', url: 'https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures', type: 'Government' },
- { title: 'DOJ Indictment of 12 GRU Officers', url: 'https://www.justice.gov/archives/file/1080281/dl', type: 'Legal' },
- { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/archives/file/1035477/dl', type: 'Legal' },
+ { title: 'DOJ Indictment of 12 GRU Officers', url: 'https://www.justice.gov/archives', type: 'Legal' },
+ { title: 'DOJ Indictment of Internet Research Agency', url: 'https://www.justice.gov/archives', type: 'Legal' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -551,9 +551,9 @@ const investigations_r: Record<string, InvestigationData> = {
  ],
  tags: ['Sex Trafficking', 'Child Sexual Exploitation', 'Racketeering', 'Music Industry', 'Abuse', 'R. Kelly', 'RICO', 'Surviving R. Kelly'],
  sources: [
- { title: 'DOJ Press Release: R. Kelly Convicted of Racketeering and Sex Trafficking', url: 'https://www.justice.gov/usao-edny/pr/r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Government' },
+ { title: 'DOJ Press Release: R. Kelly Convicted of Racketeering and Sex Trafficking', url: 'https://www.justice.gov/usao-edny', type: 'Government' },
  { title: 'Jim DeRogatis: Soulless: The Case Against R. Kelly', url: 'https://web.archive.org/web/20211001000000*/buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly*', type: 'News' },
- { title: 'Eastern District of New York Indictment', url: 'https://www.justice.gov/usao-edny/press-release/file/1187041/dl', type: 'Legal' },
+ { title: 'Eastern District of New York Indictment', url: 'https://www.justice.gov/usao-edny', type: 'Legal' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -1188,7 +1188,7 @@ const investigations_r: Record<string, InvestigationData> = {
     sources: [
       { title: 'OpenSecrets: Revolving Door Database', url: 'https://www.opensecrets.org/revolving', type: 'Financial Analysis' },
       { title: 'POGO: Revolving Door Reports', url: 'https://www.pogo.org', type: 'Research' },
-      { title: 'Lobbying Disclosure Act Database', url: 'https://lobbyingdisclosure.house.gov', type: 'Government Record' },
+      { title: 'Lobbying Disclosure Act Database', url: 'https://disclosurespreview.house.gov/', type: 'Government Record' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
@@ -1511,12 +1511,12 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Theoneste Bagosora', type: 'individual', relationship: 'Alleged chief architect of the genocide; convicted by ICTR of genocide, crimes against humanity, and war crimes', href: '/individuals/theoneste-bagosora' },
-      { id: '2', name: 'Juvenal Habyarimana', type: 'individual', relationship: 'President of Rwanda whose assassination triggered the genocide; his regime armed and trained Interahamwe', href: '/individuals/juvenal-habyarimana' },
-      { id: '3', name: 'Paul Kagame', type: 'individual', relationship: 'RPF leader who led military campaign that ended the genocide; later became president; accused of own human rights violations', href: '/individuals/paul-kagame' },
-      { id: '4', name: 'Bill Clinton', type: 'individual', relationship: 'US President who chose not to intervene; later called it the biggest failure of his presidency', href: '/individuals/bill-clinton' },
+      { id: '1', name: 'Theoneste Bagosora', type: 'individual', relationship: 'Alleged chief architect of the genocide; convicted by ICTR of genocide, crimes against humanity, and war crimes', href: '/entities/individuals/theoneste-bagosora' },
+      { id: '2', name: 'Juvenal Habyarimana', type: 'individual', relationship: 'President of Rwanda whose assassination triggered the genocide; his regime armed and trained Interahamwe', href: '/entities/individuals/juvenal-habyarimana' },
+      { id: '3', name: 'Paul Kagame', type: 'individual', relationship: 'RPF leader who led military campaign that ended the genocide; later became president; accused of own human rights violations', href: '/entities/individuals/paul-kagame' },
+      { id: '4', name: 'Bill Clinton', type: 'individual', relationship: 'US President who chose not to intervene; later called it the biggest failure of his presidency', href: '/entities/individuals/bill-clinton' },
       { id: '5', name: 'United Nations', type: 'organization', relationship: 'Failed to authorize intervention despite advance warnings; reduced peacekeeping forces during genocide', href: '/entities/organizations/united-nations' },
-      { id: '6', name: 'Romeo Dallaire', type: 'individual', relationship: 'UN Force Commander who warned of genocide; pleaded for reinforcements that never came', href: '/individuals/romeo-dallaire' },
+      { id: '6', name: 'Romeo Dallaire', type: 'individual', relationship: 'UN Force Commander who warned of genocide; pleaded for reinforcements that never came', href: '/entities/individuals/romeo-dallaire' },
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-12-15',
@@ -1560,8 +1560,8 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Min Aung Hlaing', type: 'individual', relationship: 'Commander-in-Chief of Myanmar military; identified by UN for prosecution for genocide; later led 2021 coup', href: '/individuals/min-aung-hlaing' },
-      { id: '2', name: 'Aung San Suu Kyi', type: 'individual', relationship: 'State Counsellor who defended military actions at ICJ; failed to use civilian authority to prevent genocide', href: '/individuals/aung-san-suu-kyi' },
+      { id: '1', name: 'Min Aung Hlaing', type: 'individual', relationship: 'Commander-in-Chief of Myanmar military; identified by UN for prosecution for genocide; later led 2021 coup', href: '/entities/individuals/min-aung-hlaing' },
+      { id: '2', name: 'Aung San Suu Kyi', type: 'individual', relationship: 'State Counsellor who defended military actions at ICJ; failed to use civilian authority to prevent genocide' },
       { id: '3', name: 'Facebook', type: 'corporation', relationship: 'Platform used to spread anti-Rohingya hate speech and coordinate violence; admitted failure to prevent misuse', href: '/entities/corporations/facebook' },
     ],
    eventOriginDate: '1948-01-01',
@@ -1602,7 +1602,7 @@ const investigations_r: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Published staff report acknowledging trading restrictions but took no enforcement action against Robinhood or Citadel; failed to address naked shorting', href: '/entities/agencies/sec' },
-      { id: '2', name: 'FINRA', type: 'agency', relationship: 'Fined Robinhood $70M (record at the time) for widespread customer harm but did not address the specific buy restriction decision', href: '/entities/agencies/finra' },
+      { id: '2', name: 'FINRA', type: 'agency', relationship: 'Fined Robinhood $70M (record at the time) for widespread customer harm but did not address the specific buy restriction decision' },
     ],
    eventOriginDate: '1934-01-01',
    lastActivityDate: '2025-01-15',
@@ -1679,7 +1679,7 @@ const investigations_r: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed antitrust suit against RealPage for algorithmic rent-fixing; historically slow to address housing market manipulation', href: '/entities/agencies/doj' },
-      { id: '2', name: 'HUD', type: 'agency', relationship: 'Administers Section 8 and public housing with $70B+ backlog in maintenance; Fair Housing enforcement budget chronically underfunded', href: '/entities/agencies/hud' },
+      { id: '2', name: 'HUD', type: 'agency', relationship: 'Administers Section 8 and public housing with $70B+ backlog in maintenance; Fair Housing enforcement budget chronically underfunded' },
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-02-28',
@@ -1713,7 +1713,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'FRA', type: 'agency', relationship: '400 inspectors for 140,000 miles of track; fined Norfolk Southern $600K for East Palestine (0.005% of revenue); no authority to limit train length', href: '/entities/agencies/fra' },
+      { id: '1', name: 'FRA', type: 'agency', relationship: '400 inspectors for 140,000 miles of track; fined Norfolk Southern $600K for East Palestine (0.005% of revenue); no authority to limit train length' },
       { id: '2', name: 'NTSB', type: 'agency', relationship: 'Investigated East Palestine and identified systemic failures; recommendations are non-binding; has called for wayside detection mandates since 2017', href: '/entities/agencies/ntsb' },
     ],
    eventOriginDate: '2000-01-01',
@@ -1754,7 +1754,7 @@ const investigations_r: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'FCC', type: 'agency', relationship: 'Mandated STIR/SHAKEN; fined major robocallers hundreds of millions (largely uncollectable); began targeting gateway carriers in 2024 but fines collected remain below 1% of amounts assessed', href: '/entities/agencies/fcc' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Operates Do Not Call Registry with 250M+ numbers; brings enforcement actions but cannot keep pace with volume; consumer complaint data shows call volume unaffected by fines', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Operates Do Not Call Registry with 250M+ numbers; brings enforcement actions but cannot keep pace with volume; consumer complaint data shows call volume unaffected by fines' },
     ],
    eventOriginDate: '2021-01-01',
    lastActivityDate: '2025-01-28',
@@ -1831,7 +1831,7 @@ const investigations_r: Record<string, InvestigationData> = {
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'U.S. Radium Corporation', type: 'corporation', relationship: 'Knowingly exposed workers to lethal radiation from 1917 onward; instructed workers to lip-point brushes while executives used lead screens; hired fraudulent medical experts to misdiagnose dying workers with syphilis; fought all legal claims; no executive was ever criminally prosecuted', href: '/entities/corporations/us-radium-corporation' },
+      { id: '1', name: 'U.S. Radium Corporation', type: 'corporation', relationship: 'Knowingly exposed workers to lethal radiation from 1917 onward; instructed workers to lip-point brushes while executives used lead screens; hired fraudulent medical experts to misdiagnose dying workers with syphilis; fought all legal claims; no executive was ever criminally prosecuted' },
       { id: '2', name: 'Grace Fryer', type: 'individual', relationship: 'Lead plaintiff in the 1927 lawsuit against U.S. Radium Corporation; spent two years finding an attorney willing to take the case; her legal battle established the precedent for occupational disease liability in American law; died of radiation poisoning in 1933 at age 34', href: '/entities/individuals/grace-fryer' },
     ],
    eventOriginDate: '1901-01-01',

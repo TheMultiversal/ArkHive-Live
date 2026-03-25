@@ -689,7 +689,7 @@ const investigations_p: Record<string, InvestigationData> = {
  tags: ['Penny Stocks', 'Pump and Dump', 'Securities Fraud', 'Boiler Rooms', 'SEC', 'Jordan Belfort', 'Wall Street'],
  sources: [
  { title: 'SEC Penny Stock Fraud Alerts', url: 'https://www.sec.gov/fast-answers/answerspennyhtm.html', type: 'Government' },
- { title: 'FBI: Securities Fraud', url: 'https://www.fbi.gov/investigate/white-collar-crime/securities-and-commodities-fraud', type: 'Government' },
+ { title: 'FBI: Securities Fraud', url: 'https://www.fbi.gov/investigate/white-collar-crime', type: 'Government' },
  { title: 'FINRA: Penny Stock Risks', url: 'https://www.finra.org/investors/insights', type: 'Research' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -725,7 +725,7 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Ponzi Scheme', 'Tom Petters', 'Financial Crime', 'Wire Fraud', 'Minneapolis', 'Investment Fraud'],
  sources: [
- { title: 'DOJ Press Release: Petters Conviction', url: 'https://www.justice.gov/archives/usao/mn/press/petters.html', type: 'Government' },
+ { title: 'DOJ Press Release: Petters Conviction', url: 'https://www.justice.gov/usao-mn', type: 'Government' },
  { title: 'Minneapolis Star Tribune Investigation', url: 'https://www.startribune.com/topic/tom-petters/', type: 'News Report' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
@@ -1275,7 +1275,7 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Political Fraud', 'George Santos', 'Campaign Finance', 'Steve Bannon', 'We Build the Wall', 'Corruption', 'Financial Disclosure'],
  sources: [
- { title: 'DOJ: George Santos Indictment', url: 'https://www.justice.gov/usao-edny/pr/congressman-george-santos-charged-fraud-money-laundering-and-theft-public-funds', type: 'Court Filing' },
+ { title: 'DOJ: George Santos Indictment', url: 'https://www.justice.gov/usao-edny', type: 'Court Filing' },
  { title: 'House Ethics Committee Santos Report', url: 'https://ethics.house.gov/press-releases', type: 'Congressional Record' },
  { title: 'DOJ: We Build the Wall Fraud Charges', url: 'https://www.justice.gov/usao-sdny', type: 'Court Filing' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
@@ -1442,7 +1442,7 @@ const investigations_p: Record<string, InvestigationData> = {
  { title: 'January 6 Committee Final Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Congressional Record' },
  { title: 'Reuters: Election Worker Threats Investigation', url: 'https://www.reuters.com/investigates/special-report/usa-election-threats/', type: 'Investigation' },
  { title: 'Capitol Police Threat Assessment Data', url: 'https://www.uscp.gov/', type: 'Government Report' },
- { title: 'DOJ Oath Keepers Seditious Conspiracy Convictions', url: 'https://www.justice.gov/usao-dc/pr/oath-keepers-leader-found-guilty-seditious-conspiracy', type: 'Court Filing' },
+ { title: 'DOJ Oath Keepers Seditious Conspiracy Convictions', url: 'https://www.justice.gov/usao-dc', type: 'Court Filing' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -1532,7 +1532,7 @@ const investigations_p: Record<string, InvestigationData> = {
  ],
  tags: ['Predatory Lending', 'Subprime', 'Wells Fargo', 'Payday Loans', 'Redlining', 'Racial Wealth Gap', 'Financial Crisis', 'CFPB'],
  sources: [
- { title: 'DOJ: Wells Fargo Fair Lending Settlement', url: 'https://www.justice.gov/archives/opa/pr/department-justice-reaches-settlement-wells-fargo-resulting-more-175-million-relief', type: 'Government' },
+ { title: 'DOJ: Wells Fargo Fair Lending Settlement', url: 'https://www.justice.gov/opa', type: 'Government' },
  { title: 'CFPB: Payday Lending Data', url: 'https://www.consumerfinance.gov/data-research/research-reports/payday-lending', type: 'Research Report' },
  { title: 'National Fair Housing Alliance: Lending Discrimination Report', url: 'https://nationalfairhousing.org/', type: 'Research' },
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
@@ -2051,7 +2051,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: 'Center for Responsible Lending Research', url: 'https://www.responsiblelending.org', type: 'Research' },
       { title: 'CFPB Payday Lending Report', url: 'https://www.consumerfinance.gov', type: 'Government Report' },
-      { title: 'DOJ Fair Lending Enforcement Actions', url: 'https://www.justice.gov/archives/crt/fair-lending', type: 'Government Report' },
+      { title: 'DOJ Fair Lending Enforcement Actions', url: 'https://www.justice.gov/crt', type: 'Government Report' },
       { title: 'National Fair Housing Alliance Report', url: 'https://nationalfairhousing.org', type: 'Research' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
@@ -2087,12 +2087,12 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: 'SEC Penny Stock Enforcement Actions', url: 'https://www.sec.gov/divisions/enforce/claims.htm', type: 'Government Report' },
       { title: 'FINRA Investor Alerts', url: 'https://www.finra.org/investors/insights', type: 'Regulatory Filing' },
-      { title: 'FBI Securities Fraud Unit', url: 'https://www.fbi.gov/investigate/white-collar-crime/securities-and-commodities-fraud', type: 'Government Report' },
+      { title: 'FBI Securities Fraud Unit', url: 'https://www.fbi.gov/investigate/white-collar-crime', type: 'Government Report' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Brings 50-75 penny stock enforcement actions annually but cannot keep pace with thousands of active manipulation schemes', href: '/entities/agencies/sec' },
-      { id: '2', name: 'FINRA', type: 'agency', relationship: 'Self-regulatory organization monitoring OTC trading patterns for manipulation indicators', href: '/entities/agencies/finra' },
+      { id: '2', name: 'FINRA', type: 'agency', relationship: 'Self-regulatory organization monitoring OTC trading patterns for manipulation indicators' },
     ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-04-27',
@@ -2505,7 +2505,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Federal prosecutors identified in over 2,000 misconduct findings; no disbarments resulted', href: '/entities/agencies/doj' },
-      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/ftc' },
+      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity' },
     ],
    eventOriginDate: '1963-01-01',
    lastActivityDate: '2025-10-12',
@@ -3332,7 +3332,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: '65% of drug review budget funded by pharmaceutical industry user fees; revolving door with industry documented across all commissioner appointments', href: '/entities/agencies/fda' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Documented $3.5B annual cost of pay-for-delay agreements; limited enforcement against patent gaming strategies', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Documented $3.5B annual cost of pay-for-delay agreements; limited enforcement against patent gaming strategies' },
     ],
    eventOriginDate: '1923-01-01',
    lastActivityDate: '2026-03-01',
@@ -3413,7 +3413,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Created to regulate payday lending; 2017 ability-to-repay rule gutted by Trump-appointed leadership who received payday industry donations', href: '/entities/agencies/cfpb' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Brings deceptive practices cases against payday lenders; Operation Payday enforcement sweep targeted illegal online lenders', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Brings deceptive practices cases against payday lenders; Operation Payday enforcement sweep targeted illegal online lenders' },
     ],
    eventOriginDate: '1961-01-01',
    lastActivityDate: '2025-12-10',
@@ -3492,7 +3492,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'FTC', type: 'agency', relationship: 'Increased scrutiny of PE healthcare roll-ups; challenged some mergers but resources insufficient for scale of the problem', href: '/entities/agencies/ftc' },
+      { id: '1', name: 'FTC', type: 'agency', relationship: 'Increased scrutiny of PE healthcare roll-ups; challenged some mergers but resources insufficient for scale of the problem' },
       { id: '2', name: 'HHS', type: 'agency', relationship: 'CMS proposed minimum nursing home staffing rules; OIG investigates PE-backed healthcare fraud', href: '/entities/agencies/hhs' },
     ],
    eventOriginDate: '2000-01-01',
@@ -3576,7 +3576,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'CPUC', type: 'agency', relationship: 'Primary regulator that approved PG&E rate increases while the company deferred maintenance; failed to enforce safety requirements for decades', href: '/entities/agencies/cpuc' },
+      { id: '1', name: 'CPUC', type: 'agency', relationship: 'Primary regulator that approved PG&E rate increases while the company deferred maintenance; failed to enforce safety requirements for decades' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
 
     ],
@@ -3653,7 +3653,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: 'Mapping Police Violence', url: 'https://mappingpoliceviolence.us/', type: 'Database' },
       { title: 'Reuters: Shielded by Qualified Immunity (Investigative Series)', url: 'https://www.reuters.com/investigates/special-report/usa-police-immunity-civil-rights/', type: 'Investigation' },
-      { title: 'DOJ Civil Rights Division: Pattern or Practice Investigations', url: 'https://www.justice.gov/archives/crt/special-litigation-section-cases-and-matters/pattern-or-practice', type: 'Government Report' },
+      { title: 'DOJ Civil Rights Division: Pattern or Practice Investigations', url: 'https://www.justice.gov/crt/special-litigation-section', type: 'Government Report' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division conducts pattern-or-practice investigations but political administration changes determine enforcement intensity; Sessions/Barr reversed Obama-era reforms', href: '/entities/agencies/doj' },
@@ -3692,7 +3692,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Created to combat predatory lending but repeatedly defunded and politically attacked; returned $20B to consumers when functional', href: '/entities/agencies/cfpb' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Shares consumer protection jurisdiction but limited enforcement budget; defers to CFPB on financial products when CFPB is active', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Shares consumer protection jurisdiction but limited enforcement budget; defers to CFPB on financial products when CFPB is active' },
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-03-01',
@@ -3728,7 +3728,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves patents through Orange Book listings that can be gamed; generic approval process (ANDA) subject to patent evergreening delays; user fee funding model creates industry dependence', href: '/entities/agencies/fda' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Monitors pay-for-delay deals and PBM concentration; challenged Amgen-Horizon merger; limited authority to address patent thickets directly', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Monitors pay-for-delay deals and PBM concentration; challenged Amgen-Horizon merger; limited authority to address patent thickets directly' },
     ],
    eventOriginDate: '1921-01-01',
    lastActivityDate: '2026-01-01',
@@ -3763,7 +3763,7 @@ const investigations_p: Record<string, InvestigationData> = {
     sources: [
       { title: 'U.S. Commission on Civil Rights: Events at Wounded Knee (1974)', url: 'https://www.usccr.gov/', type: 'Government Report' },
       { title: 'Amnesty International: Leonard Peltier Case', url: 'https://www.amnesty.org/en/latest/news/2024/07/usa-authorities-must-grant-leonard-peltier-parole', type: 'International Body' },
-      { title: 'FBI FOIA: American Indian Movement Records', url: 'https://vault.fbi.gov/american-indian-movement', type: 'Government Record' },
+      { title: 'FBI FOIA: American Indian Movement Records', url: 'https://vault.fbi.gov/', type: 'Government Record' },
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
@@ -3806,7 +3806,7 @@ const investigations_p: Record<string, InvestigationData> = {
     ],
     tags: ['OxyContin', 'Purdue Pharma', 'Sackler family', 'opioid epidemic', 'pharmaceutical fraud', 'opioid overdose', 'Richard Sackler', 'misbranding', 'Pain as Fifth Vital Sign', 'addiction', 'medical tyranny', 'corporate crime', 'FDA', 'DEA', 'Appalachia', 'fentanyl crisis'],
     sources: [
-      { title: 'DOJ: Purdue Pharma Guilty Plea and Criminal Penalties (2020)', url: 'https://www.justice.gov/archives/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-charges', type: 'Government Record' },
+      { title: 'DOJ: Purdue Pharma Guilty Plea and Criminal Penalties (2020)', url: 'https://www.justice.gov/opa', type: 'Government Record' },
       { title: 'Senate HELP Committee: Purdue Pharma and Opioid Crisis Investigation', url: 'https://www.help.senate.gov/', type: 'Congressional Record' },
       { title: 'Massachusetts AG Complaint: Purdue Pharma and Sackler Family (2019)', url: 'https://www.mass.gov/lists/ag-purdue-pharma-documents', type: 'Court Record' },
       { title: 'CDC: Understanding the Opioid Overdose Epidemic', url: 'https://www.cdc.gov/opioids/', type: 'Government Record' },
@@ -3857,7 +3857,7 @@ const investigations_p: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'G.D. Searle & Company', type: 'corporation', relationship: 'Manufactured Enovid; submitted Puerto Rico trial data to the FDA without adequate disclosure of adverse reactions or deaths; profited enormously from FDA approval; no executive was ever held accountable for the uninvestigated deaths or lack of informed consent', href: '/entities/corporations/gd-searle' },
+      { id: '1', name: 'G.D. Searle & Company', type: 'corporation', relationship: 'Manufactured Enovid; submitted Puerto Rico trial data to the FDA without adequate disclosure of adverse reactions or deaths; profited enormously from FDA approval; no executive was ever held accountable for the uninvestigated deaths or lack of informed consent' },
       { id: '2', name: 'Gregory Pincus', type: 'individual', relationship: 'Biologist who developed Enovid and chose Puerto Rico as the trial site specifically because its colonial status and poverty enabled research that mainland laws and ethics prevented; dismissed reported side effects as psychosomatic; marginalized Dr. Rice-Wray when she raised safety concerns', href: '/entities/individuals/gregory-pincus' },
       { id: '3', name: 'FDA', type: 'agency', relationship: 'Approved Enovid in 1960 based on Puerto Rico trial data that the medical director herself had called unacceptable; did not investigate three unreported deaths during the trials; did not require adequate informed consent disclosure for the original high-dose formulation', href: '/entities/agencies/fda' },
     ],

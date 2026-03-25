@@ -1137,7 +1137,7 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'FDA', type: 'agency', relationship: 'Hatch-Waxman 30-month stay enables evergreening delays', href: '/entities/agencies/fda' },
- { id: '2', name: 'AbbVie', type: 'corporation', relationship: '250+ patents on Humira; $208B in cumulative revenue', href: '/entities/corporations/abbvie' },
+ { id: '2', name: 'AbbVie', type: 'corporation', relationship: '250+ patents on Humira; $208B in cumulative revenue' },
  { id: '3', name: 'Eli Lilly', type: 'corporation', relationship: '1,157% insulin price increase through patent evergreening', href: '/entities/corporations/eli-lilly' },
  ],
    eventOriginDate: '1921-01-01',
@@ -1275,7 +1275,7 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CISA', type: 'agency', relationship: 'Federal election security guidance and coordination', href: '/entities/agencies/cisa' },
-      { id: '2', name: 'EAC', type: 'agency', relationship: 'Voluntary voting system standards without enforcement authority', href: '/entities/agencies/eac' },
+      { id: '2', name: 'EAC', type: 'agency', relationship: 'Voluntary voting system standards without enforcement authority' },
     ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2023-12-25',
@@ -1410,7 +1410,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: "Senate Commerce Committee Boeing Investigation", url: "https://www.commerce.senate.gov/boeing/", type: "Government Report" },
       { title: "NTSB 737 MAX Investigation", url: "https://www.ntsb.gov/investigations/Pages/DCA19MA", type: "Investigation" },
       { title: "House Transportation Committee Final Report on 737 MAX", url: "https://transportation.house.gov/committee-activity/boeing-737-max-investigation", type: "Government Report" },
-      { title: "DOJ Deferred Prosecution Agreement", url: "https://www.justice.gov/archives/usao-ndtx/boeing", type: "Court Document" },
+      { title: "DOJ Deferred Prosecution Agreement", url: "https://www.justice.gov/opa/pr/boeing-charged-737-max-fraud-conspiracy-and-agrees-pay-over-25-billion", type: "Court Document" },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
@@ -1461,7 +1461,7 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Goldman Sachs', type: 'corporation', relationship: 'Created toxic securities then bet against them', href: '/entities/corporations/goldman-sachs' },
-      { id: '2', name: 'AIG', type: 'corporation', relationship: 'Sold CDS protection, received $182B bailout', href: '/entities/corporations/aig' },
+      { id: '2', name: 'AIG', type: 'corporation', relationship: 'Sold CDS protection, received $182B bailout' },
       { id: '3', name: 'Federal Reserve', type: 'agency', relationship: 'Provided $16T in secret emergency loans', href: '/entities/agencies/federal-reserve' },
     ],
    eventOriginDate: '2007-01-01',
@@ -1499,7 +1499,7 @@ const investigations_b: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Pfizer', type: 'corporation', relationship: 'Acquired Turing Pharmaceuticals after price gouging', href: '/entities/corporations/pfizer' },
       { id: '2', name: 'Eli Lilly', type: 'corporation', relationship: 'Insulin manufacturer, 300% price increases', href: '/entities/corporations/eli-lilly' },
-      { id: '3', name: 'Turing Pharmaceuticals', type: 'corporation', relationship: 'Raised Daraprim price 5,000%', href: '/entities/corporations/turing-pharmaceuticals' },
+      { id: '3', name: 'Turing Pharmaceuticals', type: 'corporation', relationship: 'Raised Daraprim price 5,000%' },
     ],
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2025-09-05',
@@ -1534,7 +1534,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Binance', type: 'corporation', relationship: 'Operated unregistered exchange, $4.3B settlement', href: '/entities/corporations/binance' },
+      { id: '1', name: 'Binance', type: 'corporation', relationship: 'Operated unregistered exchange, $4.3B settlement' },
       { id: '2', name: 'FTX', type: 'corporation', relationship: 'Collapsed, erasing $8B in customer funds', href: '/entities/corporations/ftx' },
       { id: '3', name: 'SEC', type: 'agency', relationship: 'Settled with Binance, minimal enforcement', href: '/entities/agencies/sec' },
     ],
@@ -1578,9 +1578,9 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Radovan Karadzic', type: 'individual', relationship: 'President of Republika Srpska; convicted of genocide, crimes against humanity, and war crimes; sentenced to life imprisonment', href: '/individuals/radovan-karadzic' },
-      { id: '2', name: 'Ratko Mladic', type: 'individual', relationship: 'Commander of VRS who personally directed Srebrenica massacre; convicted of genocide; sentenced to life imprisonment', href: '/individuals/ratko-mladic' },
-      { id: '3', name: 'Slobodan Milosevic', type: 'individual', relationship: 'President of Serbia who supported Bosnian Serb forces; indicted for genocide; died during ICTY trial', href: '/individuals/slobodan-milosevic' },
+      { id: '1', name: 'Radovan Karadzic', type: 'individual', relationship: 'President of Republika Srpska; convicted of genocide, crimes against humanity, and war crimes; sentenced to life imprisonment', href: '/entities/individuals/radovan-karadzic' },
+      { id: '2', name: 'Ratko Mladic', type: 'individual', relationship: 'Commander of VRS who personally directed Srebrenica massacre; convicted of genocide; sentenced to life imprisonment', href: '/entities/individuals/ratko-mladic' },
+      { id: '3', name: 'Slobodan Milosevic', type: 'individual', relationship: 'President of Serbia who supported Bosnian Serb forces; indicted for genocide; died during ICTY trial', href: '/entities/individuals/slobodan-milosevic' },
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-12-15',
@@ -1622,7 +1622,7 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed statement of interest in Harris County bail case; federal Bail Reform Act sets framework but does not regulate commercial bail bonding', href: '/entities/agencies/doj' },
-      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/ftc' },
+      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity' },
     ],
    eventOriginDate: '1951-01-01',
    lastActivityDate: '2025-11-10',
@@ -1711,7 +1711,7 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Approves drugs but has no authority over pricing; generic drug approval process creates 4-year average delay benefiting brand manufacturers', href: '/entities/agencies/fda' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Challenged some pay-for-delay agreements; filed lawsuit against major insulin manufacturers in 2024 for price manipulation', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Challenged some pay-for-delay agreements; filed lawsuit against major insulin manufacturers in 2024 for price manipulation' },
     ],
    eventOriginDate: '1921-01-01',
    lastActivityDate: '2026-01-01',
@@ -1789,7 +1789,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'NASA', type: 'agency', relationship: 'Awarded $4.2B contract; decided Starliner too risky to return astronauts; relies on SpaceX as backup', href: '/entities/agencies/nasa' },
+      { id: '1', name: 'NASA', type: 'agency', relationship: 'Awarded $4.2B contract; decided Starliner too risky to return astronauts; relies on SpaceX as backup' },
       { id: '2', name: 'Boeing', type: 'corporation', relationship: 'Prime contractor absorbing $1.5B+ in cost overruns; engineering culture failures mirror 737 MAX crisis', href: '/entities/corporations/boeing' },
     ],
    eventOriginDate: '2014-01-01',
@@ -1865,7 +1865,7 @@ const investigations_b: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Has failed every financial audit since 2018; cannot account for $3.8T in assets; 2,400+ incompatible financial systems; no consequences for non-compliance', href: '/entities/agencies/dod' },
-      { id: '2', name: 'GAO', type: 'agency', relationship: 'Has designated DOD financial management a "high risk" area since 1995; recommendations routinely ignored; limited enforcement authority', href: '/entities/agencies/gao' },
+      { id: '2', name: 'GAO', type: 'agency', relationship: 'Has designated DOD financial management a "high risk" area since 1995; recommendations routinely ignored; limited enforcement authority' },
     ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-03-10',
@@ -1975,7 +1975,7 @@ const investigations_b: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'British Colonial Government', type: 'agency', relationship: 'Lord Jeffrey Amherst explicitly ordered the use of smallpox-contaminated materials against Indigenous peoples in 1763 correspondence preserved in the National Archives; policy of biological warfare was coordinated at the highest levels of military command', href: '/entities/agencies/british-colonial-government' },
+      { id: '1', name: 'British Colonial Government', type: 'agency', relationship: 'Lord Jeffrey Amherst explicitly ordered the use of smallpox-contaminated materials against Indigenous peoples in 1763 correspondence preserved in the National Archives; policy of biological warfare was coordinated at the highest levels of military command' },
       { id: '2', name: 'Bureau of Indian Affairs', type: 'agency', relationship: 'Administered reservation system that maintained conditions maximizing disease transmission; provided inadequate rations despite treaty obligations; underfunded medical care; operated boarding schools that spread tuberculosis and other diseases among children', href: '/entities/agencies/bia' },
       { id: '3', name: 'Philip Sheridan', type: 'individual', relationship: 'U.S. Army general who championed the deliberate extermination of the buffalo as a military strategy to starve Plains tribes into submission; lobbied the Texas legislature against buffalo protection; credited hide hunters with doing more to crush Indigenous resistance than the regular army', href: '/entities/individuals/philip-sheridan' },
     ],

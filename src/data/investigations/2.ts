@@ -67,7 +67,7 @@ const investigations_2: Record<string, InvestigationData> = {
  tags: ['2020 Election', 'Fake Electors', 'January 6', 'Trump', 'Election Interference'],
  sources: [
  { title: 'January 6 Committee Report', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
- { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/archives/case-document/file/1617866/dl', type: 'Court Filing' },
+ { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/opa', type: 'Court Filing' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -154,7 +154,7 @@ const investigations_2: Record<string, InvestigationData> = {
     { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
   ],
   affiliations: [
-   { id: '1', name: 'SBA', type: 'agency', relationship: 'Disbursed $800B in PPP with inadequate verification; estimated $200B in fraud; processing speed prioritized over fraud prevention', href: '/entities/agencies/sba' },
+   { id: '1', name: 'SBA', type: 'agency', relationship: 'Disbursed $800B in PPP with inadequate verification; estimated $200B in fraud; processing speed prioritized over fraud prevention' },
    { id: '2', name: 'DOJ', type: 'agency', relationship: 'Charged 3,500+ PPP fraud defendants but recovered fraction of losses; declined to prosecute congressional insider trading; pandemic fraud task force overwhelmed by scale', href: '/entities/agencies/doj' },
   ],
   eventOriginDate: '2020-01-01',

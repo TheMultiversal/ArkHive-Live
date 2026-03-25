@@ -26,7 +26,7 @@ const investigations_l: Record<string, InvestigationData> = {
  ],
  tags: ['Lab Leak', 'COVID-19', 'Wuhan', 'WIV', 'Pandemic Origins', 'China', 'FBI', 'DOE'],
  sources: [
- { title: 'FBI Director Testimony on Lab Leak Assessment', url: 'https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-2023', type: 'Congressional Testimony' },
+ { title: 'FBI Director Testimony on Lab Leak Assessment', url: 'https://www.fbi.gov/news/testimony', type: 'Congressional Testimony' },
  { title: 'DOE Lab Leak Assessment, WSJ', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
  { title: 'State Department Fact Sheet on WIV', url: 'https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/', type: 'Government Document' },
  { title: 'The Lancet COVID-19 Commission Task Force', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01585-9/fulltext', type: 'Scientific Report' },
@@ -124,7 +124,7 @@ const investigations_l: Record<string, InvestigationData> = {
  { title: 'POGO Revolving Door Database', url: 'https://www.pogo.org/database/revolving-door', type: 'Database' },
  { title: 'Republic, Lost, Lawrence Lessig', url: 'https://www.amazon.com/Republic-Lost-Money-Corrupts-Congress/dp/1455537012', type: 'Book' },
  { title: 'The Swamp, Eric Lipton', url: 'https://www.nytimes.com/by/eric-lipton', type: 'Investigation' },
- { title: 'Lobbying Disclosure Act Filings', url: 'https://lobbyingdisclosure.house.gov/', type: 'Government Records' },
+ { title: 'Lobbying Disclosure Act Filings', url: 'https://disclosurespreview.house.gov/', type: 'Government Records' },
    { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
  ],
  affiliations: [
@@ -208,7 +208,7 @@ const investigations_l: Record<string, InvestigationData> = {
  ],
  tags: ['Police Violence', 'Cover-up', 'Chicago', 'Laquan McDonald', 'Jason Van Dyke', 'DOJ', 'Consent Decree'],
  sources: [
- { title: 'DOJ Investigation of the Chicago Police Department', url: 'https://www.justice.gov/archives/crt/file/925846/download', type: 'Government Report' },
+ { title: 'DOJ Investigation of the Chicago Police Department', url: 'https://www.justice.gov/crt', type: 'Government Report' },
  { title: 'Van Dyke Murder Conviction', url: 'https://www.nytimes.com/2018/10/05/us/jason-van-dyke-guilty-verdict.html', type: 'News Report' },
  { title: 'Laquan McDonald Dashcam Video Court Order', url: 'https://www.chicagotribune.com/news/laquan-mcdonald/', type: 'Court Filing' },
  { title: 'Chicago Consent Decree', url: 'https://chicagopoliceconsentdecree.org/', type: 'Legal Document' },
@@ -341,7 +341,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
- { id: '1', name: 'DOL', type: 'agency', relationship: 'Administers H-2A visa program with fewer than 2,000 compliance inspections annually for 370,000+ workers', href: '/entities/agencies/dol' },
+ { id: '1', name: 'DOL', type: 'agency', relationship: 'Administers H-2A visa program with fewer than 2,000 compliance inspections annually for 370,000+ workers' },
  { id: '2', name: 'ICE', type: 'agency', relationship: 'Conducts worksite raids arresting workers but rarely prosecuting employers who exploit trafficked labor', href: '/entities/agencies/ice' },
  ],
    eventOriginDate: '1935-01-01',
@@ -537,7 +537,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
     ],
     affiliations: [
- { id: '1', name: 'FMCSA', type: 'agency', relationship: 'Approximately 1,000 investigators covering 500,000+ carriers and 3.5 million drivers; unable to adequately enforce hours-of-service or safety regulations', href: '/entities/agencies/fmcsa' },
+ { id: '1', name: 'FMCSA', type: 'agency', relationship: 'Approximately 1,000 investigators covering 500,000+ carriers and 3.5 million drivers; unable to adequately enforce hours-of-service or safety regulations' },
  { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal labor law enforcement authority', href: '/entities/agencies/doj' },
 
  ],
@@ -581,7 +581,7 @@ const investigations_l: Record<string, InvestigationData> = {
     tags: ["Mass Shooting","Las Vegas","Gun Violence","Bump Stocks","Mandalay Bay","Stephen Paddock"],
     sources: [
       { title: "LVMPD Final Report", url: "https://www.lvmpd.com/en-us/Documents/1-October-FIT-Criminal-Investigative-Report-FINAL.pdf", type: "Investigation" },
-      { title: "FBI Behavioral Analysis Unit Report", url: "https://www.fbi.gov/file-repository/las-vegas-shooting-summary-of-findings.pdf/", type: "Government Report" },
+      { title: "FBI Behavioral Analysis Unit Report", url: "https://www.fbi.gov/investigate", type: "Government Report" },
       { title: "Garland v. Cargill (Supreme Court)", url: "https://www.supremecourt.gov/opinions/23pdf/22-976_e29g.pdf", type: "Court Document" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
@@ -616,11 +616,11 @@ const investigations_l: Record<string, InvestigationData> = {
     tags: ['LIBOR', 'Rate Manipulation', 'Banks', 'Financial Fraud'],
     sources: [
       { title: 'Reuters: Timeline of the LIBOR Scandal', url: 'https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702', type: 'Investigation' },
-      { title: 'DOJ: LIBOR Manipulation Prosecutions', url: 'https://www.justice.gov/archives/criminal-fraud/libor-investigation', type: 'Legal' },
+      { title: 'DOJ: LIBOR Manipulation Prosecutions', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Legal' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Barclays', type: 'corporation', relationship: 'First bank to settle; fined $450M for systematic LIBOR rate manipulation', href: '/entities/corporations/barclays' },
+      { id: '1', name: 'Barclays', type: 'corporation', relationship: 'First bank to settle; fined $450M for systematic LIBOR rate manipulation' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Led criminal investigation; secured convictions and $9B+ in fines from global banks', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '2005-01-01',
@@ -830,7 +830,7 @@ const investigations_l: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Reports plastic recycling rate of 5-6% but promotes industry-friendly recycling programs; no federal microplastic regulation; chemical recycling exempt from oversight in 24 states', href: '/entities/agencies/epa' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Green Guides govern environmental marketing claims but enforcement against misleading recyclability labels is minimal; no action against the chasing arrows symbol', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Green Guides govern environmental marketing claims but enforcement against misleading recyclability labels is minimal; no action against the chasing arrows symbol' },
     ],
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-02-28',
@@ -866,7 +866,7 @@ const investigations_l: Record<string, InvestigationData> = {
       { title: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'HUD', type: 'agency', relationship: 'Administers Lead Hazard Control Grant Program at $300M/year, enough for roughly 10,000 homes when millions need remediation; lead disclosure rule poorly enforced in rental market', href: '/entities/agencies/hud' },
+      { id: '1', name: 'HUD', type: 'agency', relationship: 'Administers Lead Hazard Control Grant Program at $300M/year, enough for roughly 10,000 homes when millions need remediation; lead disclosure rule poorly enforced in rental market' },
       { id: '2', name: 'EPA', type: 'agency', relationship: 'Sets lead paint renovation standards (RRP Rule) but enforcement depends on state certification programs; proposed lower lead dust standards delayed repeatedly under industry pressure', href: '/entities/agencies/epa' },
     ],
    eventOriginDate: '1950-01-01',

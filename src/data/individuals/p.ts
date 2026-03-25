@@ -2288,7 +2288,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Die Groot Krokodil (The Big Crocodile)', 'P.W.', 'Piet Botha'],
     knownAssociates: [
-      { name: 'Hendrik Verwoerd', relationship: 'Predecessor architect of apartheid system Botha maintained', href: '/individuals/hendrik-verwoerd' },
+      { name: 'Hendrik Verwoerd', relationship: 'Predecessor architect of apartheid system Botha maintained', href: '/entities/individuals/hendrik-verwoerd' },
     ],
   },
   'pol-pot': {
@@ -2341,7 +2341,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Saloth Sar', 'Brother Number One', 'Pouk', 'Hay', '87'],
     knownAssociates: [
-      { name: 'Nuon Chea', relationship: 'Brother Number Two and chief ideologist of the Khmer Rouge', href: '/individuals/nuon-chea' },
+      { name: 'Nuon Chea', relationship: 'Brother Number Two and chief ideologist of the Khmer Rouge', href: '/entities/individuals/nuon-chea' },
     ],
   },
   'paul-manafort': {

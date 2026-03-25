@@ -65,7 +65,7 @@ const investigations_y: Record<string, InvestigationData> = {
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
- { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
  { title: 'ProPublica Hate Crime Investigations', url: 'https://www.propublica.org/series/documenting-hate', type: 'Investigation' },
@@ -152,8 +152,8 @@ const investigations_y: Record<string, InvestigationData> = {
     { title: 'Consumer Financial Protection Bureau', url: 'https://www.consumerfinance.gov/enforcement/', type: 'Reference' },
   ],
   affiliations: [
-   { id: '1', name: 'FTC', type: 'agency', relationship: 'Has authority over unfair and deceptive practices but has not prioritized towing industry; enforcement deferred to state attorneys general and local consumer protection offices', href: '/entities/agencies/ftc' },
-   { id: '2', name: 'DOT', type: 'agency', relationship: 'Regulates interstate motor carriers but non-consensual towing is primarily a local and state matter; no federal towing consumer protection standards exist', href: '/entities/agencies/dot' },
+   { id: '1', name: 'FTC', type: 'agency', relationship: 'Has authority over unfair and deceptive practices but has not prioritized towing industry; enforcement deferred to state attorneys general and local consumer protection offices' },
+   { id: '2', name: 'DOT', type: 'agency', relationship: 'Regulates interstate motor carriers but non-consensual towing is primarily a local and state matter; no federal towing consumer protection standards exist' },
   ],
   eventOriginDate: '2023-01-01',
   lastActivityDate: '2025-01-16',

@@ -456,7 +456,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  knownAssociates: [
  { name: 'Joe Manchin', relationship: 'Father; U.S. Senator (D-WV) who sponsored school EpiPen mandate legislation while daughter profited from the product', href: '/entities/individuals/joe-manchin' },
- { name: 'Robert Coury', relationship: 'Mylan Executive Chairman who collaborated with Bresch on corporate strategy and received $98 million in a single compensation year', href: '/entities/individuals/robert-coury' },
+ { name: 'Robert Coury', relationship: 'Mylan Executive Chairman who collaborated with Bresch on corporate strategy and received $98 million in a single compensation year' },
  ],
  },
 

@@ -511,7 +511,7 @@ const investigations_d: Record<string, InvestigationData> = {
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
- { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
  { title: 'ProPublica Hate Crime Investigations', url: 'https://www.propublica.org/series/documenting-hate', type: 'Investigation' },
@@ -561,7 +561,7 @@ const investigations_d: Record<string, InvestigationData> = {
  sources: [
  { title: 'DHS Domestic Terrorism Threat Assessment', url: 'https://www.dhs.gov/sites/default/files/publications/2020_10_06_homeland-threat-assessment.pdf', type: 'Government Report' },
  { title: 'ADL Murder & Extremism Report', url: 'https://www.adl.org/resources', type: 'Research Study' },
- { title: 'FBI Director Congressional Testimony on DVE', url: 'https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-091721', type: 'Congressional Record' },
+ { title: 'FBI Director Congressional Testimony on DVE', url: 'https://www.fbi.gov/news/testimony', type: 'Congressional Record' },
  { title: '2009 DHS Right-Wing Extremism Report', url: 'https://web.archive.org/web/20241228115719/https://fas.org/irp/eprint/rightwing.pdf', type: 'Government Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -654,7 +654,7 @@ const investigations_d: Record<string, InvestigationData> = {
  affiliations: [
  { id: '1', name: 'CIA', type: 'agency', relationship: 'Operated parallel drone strike program outside military chain of command', href: '/entities/agencies/cia' },
  { id: '2', name: 'Department of Defense', type: 'agency', relationship: 'JSOC conducted majority of targeted killing operations', href: '/entities/agencies/dod' },
- { id: '3', name: 'General Atomics', type: 'corporation', relationship: 'Manufacturer of MQ-9 Reaper and MQ-1 Predator drones', href: '/entities/corporations/general-atomics' },
+ { id: '3', name: 'General Atomics', type: 'corporation', relationship: 'Manufacturer of MQ-9 Reaper and MQ-1 Predator drones' },
  { id: '4', name: 'Barack Obama', type: 'individual', relationship: 'Expanded and formalized the targeted killing program', href: '/entities/individuals/barack-obama' },
  { id: '5', name: 'Donald Trump', type: 'individual', relationship: 'Loosened strike rules, revoked civilian casualty reporting', href: '/entities/individuals/donald-trump' },
  ],
@@ -1184,7 +1184,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Warned of exponentially growing deepfake threat in 2021; investigating deepfake-enabled financial fraud schemes', href: '/entities/agencies/fbi' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
 
  ],
    eventOriginDate: '2017-01-01',
@@ -1232,7 +1232,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'FBI', type: 'agency', relationship: 'Operates CODIS with 22M+ profiles; secretly accessed FamilyTreeDNA database beginning in 2018', href: '/entities/agencies/fbi' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
 
  ],
    eventOriginDate: '1994-01-01',
@@ -1320,7 +1320,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'FTC', type: 'agency', relationship: 'Issued three reports calling for data broker regulation; enforcement actions criticized as insufficient deterrents', href: '/entities/agencies/federal-trade-commission' },
-      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/ftc' },
+      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity' },
  ],
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2025-04-04',
@@ -1403,7 +1403,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     tags: ['Defense Spending', 'Contractor Fraud', 'F-35', 'Pentagon Audit', 'Revolving Door', 'False Claims Act', 'Wartime Contracting'],
     sources: [
-      { title: 'DOJ False Claims Act Statistics', url: 'https://www.justice.gov/archives/civil/fraud-statistics', type: 'Government Record' },
+      { title: 'DOJ False Claims Act Statistics', url: 'https://www.justice.gov/civil', type: 'Government Record' },
       { title: 'GAO F-35 Program Reports', url: 'https://www.gao.gov', type: 'Government Audit' },
       { title: 'POGO Revolving Door Database', url: 'https://www.pogo.org', type: 'Research Study' },
       { title: 'SIGAR Quarterly Reports', url: 'https://www.sigar.mil', type: 'Government Audit' },
@@ -1929,7 +1929,7 @@ const investigations_d: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Koch Brothers', type: 'individual', relationship: 'Dark money network founders', href: '/entities/individuals/koch-brothers' },
-      { id: '2', name: 'Arabella Advisors', type: 'organization', relationship: 'Manages Sixteen Thirty Fund', href: '/entities/organizations/arabella-advisors' },
+      { id: '2', name: 'Arabella Advisors', type: 'organization', relationship: 'Manages Sixteen Thirty Fund' },
       { id: '3', name: 'U.S. Chamber of Commerce', type: 'organization', relationship: 'Dark money spending', href: '/entities/organizations/us-chamber-of-commerce' },
     ],
    eventOriginDate: '2008-01-01',
@@ -2011,7 +2011,7 @@ const investigations_d: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Lockheed Martin', type: 'corporation', relationship: 'F-35 contractor, overcharging', href: '/entities/corporations/lockheed-martin' },
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'Procurement waste', href: '/entities/agencies/pentagon' },
-      { id: '3', name: 'GAO', type: 'agency', relationship: 'Audits defense waste', href: '/entities/agencies/gao' },
+      { id: '3', name: 'GAO', type: 'agency', relationship: 'Audits defense waste' },
     ],
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-08-05',
@@ -2051,7 +2051,7 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Omar al-Bashir', type: 'individual', relationship: 'President of Sudan who directed genocide; ICC arrest warrant for genocide, crimes against humanity, and war crimes', href: '/individuals/omar-al-bashir' },
+      { id: '1', name: 'Omar al-Bashir', type: 'individual', relationship: 'President of Sudan who directed genocide; ICC arrest warrant for genocide, crimes against humanity, and war crimes', href: '/entities/individuals/omar-al-bashir' },
       { id: '2', name: 'United Nations', type: 'organization', relationship: 'Security Council referred situation to ICC but failed to enforce warrants; peacekeeping undermined by member state obstruction', href: '/entities/organizations/united-nations' },
     ],
    eventOriginDate: '1948-01-01',
@@ -2125,7 +2125,7 @@ const investigations_d: Record<string, InvestigationData> = {
     tags: ['deepwater-horizon', 'bp', 'oil-spill', 'gulf-of-mexico', 'environmental-disaster', 'corporate-manslaughter', 'clean-water-act'],
     sources: [
       { title: 'National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling', url: 'https://www.govinfo.gov/content/pkg/GPO-OILCOMMISSION/pdf/GPO-OILCOMMISSION.pdf', type: 'Government Report' },
-      { title: 'DOJ: BP Exploration and Production Inc. Agrees to Plead Guilty', url: 'https://www.justice.gov/archives/opa/pr/bp-exploration-and-production-inc-agrees-plead-guilty-felony-manslaughter', type: 'Legal' },
+      { title: 'DOJ: BP Exploration and Production Inc. Agrees to Plead Guilty', url: 'https://www.justice.gov/opa', type: 'Legal' },
       { title: 'CSB: Investigation Report - Macondo Blowout and Explosion', url: 'https://www.csb.gov/macondo-blowout-and-explosion/', type: 'Government Report' },
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
@@ -2282,8 +2282,8 @@ const investigations_d: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'SSA', type: 'agency', relationship: 'Operates the disability determination system; 65% initial denial rate; 10,000 die annually waiting; budget cut 14% in real terms since 2010', href: '/entities/agencies/ssa' },
-      { id: '2', name: 'GAO', type: 'agency', relationship: 'Multiple reports documenting ALJ variation, representative payee abuse, and processing backlogs; recommendations largely unimplemented', href: '/entities/agencies/gao' },
+      { id: '1', name: 'SSA', type: 'agency', relationship: 'Operates the disability determination system; 65% initial denial rate; 10,000 die annually waiting; budget cut 14% in real terms since 2010' },
+      { id: '2', name: 'GAO', type: 'agency', relationship: 'Multiple reports documenting ALJ variation, representative payee abuse, and processing backlogs; recommendations largely unimplemented' },
     ],
    eventOriginDate: '1978-01-01',
    lastActivityDate: '2025-02-25',

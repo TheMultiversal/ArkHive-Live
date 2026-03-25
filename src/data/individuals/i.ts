@@ -334,8 +334,8 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: ['Godfather of Neoconservatism'],
  knownAssociates: [
  { name: 'William Kristol', relationship: 'Son; founded The Weekly Standard and Project for the New American Century; key Iraq War advocate', href: '/entities/individuals/william-kristol' },
- { name: 'Daniel Bell', relationship: 'Co-founder of The Public Interest journal', href: '/entities/individuals/daniel-bell' },
- { name: 'Norman Podhoretz', relationship: 'Fellow neoconservative intellectual; editor of Commentary magazine', href: '/entities/individuals/norman-podhoretz' },
+ { name: 'Daniel Bell', relationship: 'Co-founder of The Public Interest journal' },
+ { name: 'Norman Podhoretz', relationship: 'Fellow neoconservative intellectual; editor of Commentary magazine' },
  ],
  },
 
@@ -428,7 +428,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: ['Ivan the Terrible (Wall Street nickname)'],
  knownAssociates: [
  { name: 'Michael Milken', relationship: 'Junk bond king exposed by Boesky\'s cooperation with SEC', href: '/entities/individuals/michael-milken' },
- { name: 'Dennis Levine', relationship: 'Investment banker who provided inside tips to Boesky; first to be caught and cooperate', href: '/entities/individuals/dennis-levine' },
+ { name: 'Dennis Levine', relationship: 'Investment banker who provided inside tips to Boesky; first to be caught and cooperate' },
  ],
  },
 
@@ -542,7 +542,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Frederick Douglass', relationship: 'Fellow civil rights pioneer; wrote introduction to "The Reason Why" pamphlet', href: '/entities/individuals/frederick-douglass' },
  { name: 'Mamie Till-Mobley', relationship: 'Wells\' anti-lynching legacy continued through Till case activism decades later', href: '/entities/individuals/mamie-till-mobley' },
- { name: 'W.E.B. Du Bois', relationship: 'Fellow NAACP co-founder; had conflicts over organizational strategy', href: '/entities/individuals/web-du-bois' },
+ { name: 'W.E.B. Du Bois', relationship: 'Fellow NAACP co-founder; had conflicts over organizational strategy' },
  ],
  },
 
@@ -993,7 +993,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Hideki Tojo', relationship: 'Prime Minister who oversaw the military during Unit 731 operations', href: '/individuals/hideki-tojo' },
+      { name: 'Hideki Tojo', relationship: 'Prime Minister who oversaw the military during Unit 731 operations', href: '/entities/individuals/hideki-tojo' },
     ],
   },
   'ajit-pai': {

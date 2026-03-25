@@ -143,7 +143,7 @@ function performSearch(query: string, filters: SearchFilters): SearchResult[] {
             type: 'entity',
             title: aff.name,
             subtitle: `${aff.type} - ${aff.relationship}`,
-            href: aff.href,
+            href: aff.href || '#',
             relevance,
             category: aff.type,
           });

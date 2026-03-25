@@ -14,7 +14,7 @@ export interface InvestigationAffiliation {
   name: string;
   type: 'individual' | 'agency' | 'corporation' | 'organization';
   relationship: string;
-  href: string;
+  href?: string;
 }
 
 export interface InvestigationSource {

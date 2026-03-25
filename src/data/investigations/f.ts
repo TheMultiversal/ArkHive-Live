@@ -143,7 +143,7 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'DOJ FARA Website', url: 'https://www.justice.gov/nsd-fara', type: 'Government Resource' },
  { title: 'Flynn FARA Registration', url: 'https://efile.fara.gov/', type: 'Government Document' },
- { title: 'Barrack Indictment', url: 'https://www.justice.gov/usao-edny/press-release/file/1413966/download', type: 'Court Document' },
+ { title: 'Barrack Indictment', url: 'https://www.justice.gov/usao-edny', type: 'Court Document' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -284,7 +284,7 @@ const investigations_f: Record<string, InvestigationData> = {
  { title: 'January 6 Committee DOJ Findings', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
  { title: 'Clark Indictment, Georgia', url: 'https://d3i6fh83elv35t.cloudfront.net/static/2023/08/CRIMINAL-INDICTMENT-Trump-Fulton-County-GA.pdf', type: 'Court Filing' },
  { title: 'Trump-Rosen Call Notes', url: 'https://www.nytimes.com/2021/07/30/us/politics/trump-doj-rosen-election.html', type: 'News Report' },
- { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/archives/case-document/file/1617866/dl', type: 'Court Filing' },
+ { title: 'Federal J6 Indictment', url: 'https://www.justice.gov/opa', type: 'Court Filing' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -377,7 +377,7 @@ const investigations_f: Record<string, InvestigationData> = {
  ],
  tags: ['Trump Indictment', 'Election Conspiracy', 'Jack Smith', 'January 6', 'Fake Electors', 'Federal Charges'],
  sources: [
- { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/archives/case-document/file/1617866/dl', type: 'Court Filing' },
+ { title: 'Trump Federal Indictment', url: 'https://www.justice.gov/opa', type: 'Court Filing' },
  { title: 'Supreme Court Immunity Ruling', url: 'https://www.supremecourt.gov/opinions/23pdf/23-939_e2pg.pdf', type: 'Court Decision' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
@@ -682,7 +682,7 @@ const investigations_f: Record<string, InvestigationData> = {
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
- { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
  { title: 'Columbia Journalism Review', url: 'https://www.cjr.org/', type: 'Analysis' },
  { title: 'Nieman Foundation', url: 'https://nieman.harvard.edu/', type: 'Report' },
  { title: 'Media Matters', url: 'https://www.mediamatters.org/', type: 'Investigation' },
@@ -1628,7 +1628,7 @@ const investigations_f: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'Treasury', type: 'agency', relationship: 'FinCEN receives 4M+ SARs and 16M+ CTRs annually; FBI conducts 30,000+ BSA queries per year', href: '/entities/agencies/treasury' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
 
  ],
    eventOriginDate: '1970-01-01',
@@ -2010,7 +2010,7 @@ const investigations_f: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'Treasury', type: 'agency', relationship: 'FinCEN receives 20+ million financial surveillance reports annually; $10,000 threshold unchanged since 1970', href: '/entities/agencies/treasury' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
 
  ],
    eventOriginDate: '1970-01-01',
@@ -2268,7 +2268,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Indian Health Service', type: 'agency', relationship: 'Sterilized at least 3,406 Native American women between 1973-1976 without proper consent', href: '/entities/agencies/ihs' },
+      { id: '1', name: 'Indian Health Service', type: 'agency', relationship: 'Sterilized at least 3,406 Native American women between 1973-1976 without proper consent' },
       { id: '2', name: 'ICE', type: 'agency', relationship: 'Oversaw detention facility where mass hysterectomies were performed on immigrant women', href: '/entities/agencies/ice' },
       { id: '3', name: 'DHS', type: 'agency', relationship: 'Parent agency of ICE; OIG investigation into Irwin County criticized as inadequate', href: '/entities/agencies/dhs' },
     ],
@@ -2306,7 +2306,7 @@ const investigations_f: Record<string, InvestigationData> = {
     sources: [
       { title: 'FCC: Restoring Internet Freedom Order (2017)', url: 'https://www.fcc.gov/restoring-internet-freedom', type: 'Government' },
       { title: 'New York Attorney General: Fake Comments Investigation', url: 'https://ag.ny.gov/', type: 'Government' },
-      { title: 'Institute for Local Self-Reliance: Broadband Competition Map', url: 'https://ilsr.org/broadband-competition-map/', type: 'Research' },
+      { title: 'Institute for Local Self-Reliance: Broadband Competition Map', url: 'https://ilsr.org/', type: 'Research' },
       { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
@@ -2398,7 +2398,7 @@ const investigations_f: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Distributes $40B+ annually to for-profit colleges; Obama-era enforcement reversed under DeVos; Biden admin approved $22B in fraud discharges', href: '/entities/agencies/doe' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Brought enforcement actions against University of Phoenix ($191M) and DeVry ($100M) for deceptive recruiting', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Brought enforcement actions against University of Phoenix ($191M) and DeVry ($100M) for deceptive recruiting' },
       { id: '3', name: 'CFPB', type: 'agency', relationship: 'Enforcement action triggered Corinthian collapse; monitors student loan servicing practices', href: '/entities/agencies/cfpb' },
     ],
    eventOriginDate: '2000-01-01',
@@ -2476,7 +2476,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'FTC', type: 'agency', relationship: 'Fined Facebook $5B in 2019 for privacy violations; investigating COPPA violations; proposed ban on targeted advertising to children', href: '/entities/agencies/ftc' },
+      { id: '1', name: 'FTC', type: 'agency', relationship: 'Fined Facebook $5B in 2019 for privacy violations; investigating COPPA violations; proposed ban on targeted advertising to children' },
       { id: '2', name: 'SEC', type: 'agency', relationship: 'Received whistleblower complaint from Frances Haugen regarding Meta\'s misleading statements to investors about platform safety', href: '/entities/agencies/sec' },
     ],
    eventOriginDate: '2009-01-01',
@@ -2600,7 +2600,7 @@ const investigations_f: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOE', type: 'agency', relationship: 'Gainful Employment rule repealed under DeVos; borrower defense processing dropped from 97% approval to 1%; for-profit industry executives hired into regulatory roles', href: '/entities/agencies/doe' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Settled with DeVry ($100M) and others for deceptive advertising; enforcement limited by scope of authority over educational institutions', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Settled with DeVry ($100M) and others for deceptive advertising; enforcement limited by scope of authority over educational institutions' },
     ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-02-28',
@@ -2675,7 +2675,7 @@ const investigations_f: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'U.S. Supreme Court', type: 'agency', relationship: 'Upheld compulsory sterilization in Buck v. Bell (1927) in an 8-1 decision; the ruling has never been explicitly overturned; Justice Holmes\'s opinion was cited by Nazi defendants at Nuremberg as precedent', href: '/entities/agencies/supreme-court' },
-      { id: '2', name: 'Indian Health Service', type: 'agency', relationship: 'GAO investigation found IHS sterilized 3,406 Native American women between 1973-1976 without proper consent; some women coerced with threats of losing welfare benefits or custody of children', href: '/entities/agencies/ihs' },
+      { id: '2', name: 'Indian Health Service', type: 'agency', relationship: 'GAO investigation found IHS sterilized 3,406 Native American women between 1973-1976 without proper consent; some women coerced with threats of losing welfare benefits or custody of children' },
     ],
    eventOriginDate: '1907-03-09',
    lastActivityDate: '2026-03-21',
@@ -2722,7 +2722,7 @@ const investigations_f: Record<string, InvestigationData> = {
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Bayer AG', type: 'corporation', relationship: 'Through subsidiary Cutter Biological, manufactured and sold clotting factor concentrates from high-risk plasma pools; internal documents showed executives weighed cost of screening against lawsuit liability; continued selling unheated product overseas after safer heated product was available in the US; no executive was criminally prosecuted', href: '/entities/corporations/bayer' },
+      { id: '1', name: 'Bayer AG', type: 'corporation', relationship: 'Through subsidiary Cutter Biological, manufactured and sold clotting factor concentrates from high-risk plasma pools; internal documents showed executives weighed cost of screening against lawsuit liability; continued selling unheated product overseas after safer heated product was available in the US; no executive was criminally prosecuted' },
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Failed to require HIV testing of blood donations until March 1985, two years after the CDC identified the contaminated blood supply risk; did not order recalls of existing contaminated product; enforcement actions against non-compliant plasma centers were minimal and slow', href: '/entities/agencies/fda' },
       { id: '3', name: 'CDC', type: 'agency', relationship: 'Identified the blood supply risk in 1982 and issued warnings in January 1983 that were resisted by the blood banking industry and pharmaceutical companies; lacked enforcement authority to mandate the changes it recommended', href: '/entities/agencies/cdc' },
     ],

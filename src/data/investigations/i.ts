@@ -1006,7 +1006,7 @@ const investigations_i: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Enforces Clean Water Act but enforcement actions declined 50%+ since 2006; regulates only 90 of 86,000 commercial chemicals in drinking water', href: '/entities/agencies/epa' },
-      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/ftc' },
+      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity' },
  ],
    eventOriginDate: '1970-01-01',
    lastActivityDate: '2025-04-21',
@@ -1047,7 +1047,7 @@ const investigations_i: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Operated undisclosed fake social media accounts promoting pro-U.S. narratives; removed by Meta and Twitter as coordinated inauthentic behavior', href: '/entities/agencies/pentagon' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
 
  ],
    eventOriginDate: '1975-01-01',
@@ -1124,7 +1124,7 @@ const investigations_i: Record<string, InvestigationData> = {
     tags: ['Insurance Fraud', 'Staged Accidents', 'Medical Billing Fraud', 'Arson', 'Identity Theft', 'NICB', 'Organized Crime', 'Workers Compensation'],
     sources: [
       { title: 'Coalition Against Insurance Fraud', url: 'https://insurancefraud.org', type: 'Research Study' },
-      { title: 'FBI Insurance Fraud Overview', url: 'https://www.fbi.gov/investigate/white-collar-crime/insurance-fraud', type: 'Government Record' },
+      { title: 'FBI Insurance Fraud Overview', url: 'https://www.fbi.gov/investigate/white-collar-crime', type: 'Government Record' },
       { title: 'NICB Reports', url: 'https://www.nicb.org', type: 'Investigative Report' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
@@ -1228,7 +1228,7 @@ const investigations_i: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Facebook', type: 'corporation', relationship: 'Platform whose internal research showed Instagram harmed teen mental health; algorithms amplified harmful influencer content for engagement', href: '/entities/corporations/facebook' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal agency responsible for influencer disclosure enforcement; guidelines widely ignored', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal agency responsible for influencer disclosure enforcement; guidelines widely ignored' },
       { id: '3', name: 'SEC', type: 'agency', relationship: 'Enforced securities law against Kim Kardashian crypto promotion; broader influencer crypto fraud largely unaddressed', href: '/entities/agencies/sec' },
     ],
     eventOriginDate: '2016-01-01',
@@ -1337,7 +1337,7 @@ const investigations_i: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Benjamin Netanyahu', type: 'individual', relationship: 'Prime Minister overseeing settlements', href: '/entities/individuals/benjamin-netanyahu' },
-      { id: '2', name: 'Israeli Government', type: 'agency', relationship: 'State perpetrator', href: '/entities/agencies/israeli-government' },
+      { id: '2', name: 'Israeli Government', type: 'agency', relationship: 'State perpetrator' },
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-10-07',
@@ -1376,7 +1376,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Suharto', type: 'individual', relationship: 'Army general who orchestrated the purge and seized power; ruled as dictator for 32 years; never prosecuted', href: '/individuals/suharto' },
+      { id: '1', name: 'Suharto', type: 'individual', relationship: 'Army general who orchestrated the purge and seized power; ruled as dictator for 32 years; never prosecuted', href: '/entities/individuals/suharto' },
       { id: '2', name: 'CIA', type: 'agency', relationship: 'Provided communications equipment, lists of PKI members, and covert support; acknowledged the killings as mass murder', href: '/entities/agencies/cia' },
     ],
    eventOriginDate: '1948-01-01',
@@ -1459,7 +1459,7 @@ const investigations_i: Record<string, InvestigationData> = {
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'FTC', type: 'agency', relationship: 'Investigated PBM practices; 2024 report found PBMs steer patients away from cheaper insulin to versions with higher rebates', href: '/entities/agencies/ftc' },
+      { id: '1', name: 'FTC', type: 'agency', relationship: 'Investigated PBM practices; 2024 report found PBMs steer patients away from cheaper insulin to versions with higher rebates' },
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Regulates insulin as a biologic; approved biosimilar insulins but market entry barriers remain high', href: '/entities/agencies/fda' },
     ],
    eventOriginDate: '1921-01-01',
@@ -1578,7 +1578,7 @@ const investigations_i: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CMS', type: 'agency', relationship: 'Regulates Medicare Advantage plans but rarely penalizes for improper denials; $25 billion in estimated annual upcoding overpayments to MA plans', href: '/entities/agencies/cms' },
-      { id: '2', name: 'DOL', type: 'agency', relationship: 'Enforces ERISA which governs employer health plans; ERISA preempts state protections and prohibits punitive damages for wrongful denial, effectively shielding insurers', href: '/entities/agencies/dol' },
+      { id: '2', name: 'DOL', type: 'agency', relationship: 'Enforces ERISA which governs employer health plans; ERISA preempts state protections and prohibits punitive damages for wrongful denial, effectively shielding insurers' },
     ],
    eventOriginDate: '2009-01-01',
    lastActivityDate: '2025-03-10',

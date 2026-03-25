@@ -325,7 +325,7 @@ const investigations_m: Record<string, InvestigationData> = {
  tags: ['Bernie Madoff', 'Ponzi Scheme', 'SEC Failure', 'Financial Fraud', 'Wall Street', 'Investor Protection', 'White Collar Crime'],
  sources: [
  { title: 'SEC Inspector General Report on Madoff', url: 'https://www.sec.gov/news/studies/2009/oig-509.pdf', type: 'Government Report' },
- { title: 'U.S. v. Madoff Criminal Information', url: 'https://www.justice.gov/archives/usao-sdny/case/us-v-madoff', type: 'Court Document' },
+ { title: 'U.S. v. Madoff Criminal Information', url: 'https://www.justice.gov/usao-sdny', type: 'Court Document' },
  { title: 'Trustee Recovery Report', url: 'https://www.madofftrustee.com/', type: 'Legal Document' },
  { title: 'Harry Markopolos SEC Submissions', url: 'https://www.sec.gov/news/studies/2009/oig-509/exhibit-0293.pdf', type: 'Whistleblower Document' },
  { title: 'Diana B. Henriques, "The Wizard of Lies"', url: 'https://openlibrary.org/works/OL15863093W/The_Wizard_of_Lies', type: 'Book' },
@@ -566,7 +566,7 @@ const investigations_m: Record<string, InvestigationData> = {
  { title: 'Washington Post Fatal Force Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', type: 'Archive' },
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
- { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
@@ -908,7 +908,7 @@ const investigations_m: Record<string, InvestigationData> = {
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
- { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
  { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
  { title: 'Defense One', url: 'https://www.defenseone.com/', type: 'Analysis' },
@@ -1108,8 +1108,8 @@ const investigations_m: Record<string, InvestigationData> = {
  ],
  tags: ['Music Industry', 'Exploitation', 'R. Kelly', 'Diddy', 'Sexual Abuse', 'Labor Rights', 'Streaming'],
  sources: [
- { title: 'United States v. Robert Sylvester Kelly: Conviction', url: 'https://www.justice.gov/usao-edny/pr/r-singer-r-kelly-convicted-racketeering-and-sex-trafficking', type: 'Court Filing' },
- { title: 'Combs Federal Indictment', url: 'https://www.justice.gov/usao-sdny/pr/sean-combs-charged-sex-trafficking', type: 'Court Filing' },
+ { title: 'United States v. Robert Sylvester Kelly: Conviction', url: 'https://www.justice.gov/usao-edny', type: 'Court Filing' },
+ { title: 'Combs Federal Indictment', url: 'https://www.justice.gov/usao-sdny', type: 'Court Filing' },
  { title: 'FTC Report on Concert Ticket Industry', url: 'https://www.ftc.gov/policy/reports', type: 'Government Report' },
  { title: 'Surviving R. Kelly Documentary', url: 'https://www.nytimes.com/2019/01/03/arts/television/surviving-r-kelly.html', type: 'Investigation' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
@@ -1447,7 +1447,7 @@ const investigations_m: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Largest polluter in the U.S.; responsible for PFAS contamination at 700+ military installations and 39,000+ contaminated sites', href: '/entities/agencies/pentagon' },
       { id: '2', name: 'EPA', type: 'agency', relationship: 'Sets environmental cleanup standards that the Pentagon has resisted adopting for military installations', href: '/entities/agencies/epa' },
-      { id: '3', name: 'Department of Veterans Affairs', type: 'agency', relationship: 'Administers healthcare for burn pit and contamination-exposed veterans under the PACT Act', href: '/entities/agencies/va' },
+      { id: '3', name: 'Department of Veterans Affairs', type: 'agency', relationship: 'Administers healthcare for burn pit and contamination-exposed veterans under the PACT Act' },
     ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2025-09-12',
@@ -2029,7 +2029,7 @@ const investigations_m: Record<string, InvestigationData> = {
     sources: [
       { title: 'IARC Monograph: Glyphosate Classification', url: 'https://monographs.iarc.who.int/list-of-classifications/', type: 'Scientific Study' },
       { title: 'U.S. Right to Know: Monsanto Papers', url: 'https://usrtk.org/monsanto-papers/', type: 'Investigation' },
-      { title: 'Dewayne Johnson v. Monsanto: Superior Court of California', url: 'https://www.courthousenews.com/wp-content/uploads/2018/08/Monsanto.pdf/', type: 'Legal Filing' },
+      { title: 'Dewayne Johnson v. Monsanto: Superior Court of California', url: 'https://www.courthousenews.com/', type: 'Legal Filing' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
@@ -2104,13 +2104,13 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     tags: ['martin-shkreli', 'daraprim', 'drug-pricing', 'securities-fraud', 'pharmaceutical-greed', 'turing-pharmaceuticals', 'antitrust', 'price-gouging'],
     sources: [
-      { title: 'DOJ: Martin Shkreli Sentenced to Seven Years in Federal Prison', url: 'https://www.justice.gov/usao-edny/pr/martin-shkreli-sentenced-seven-years-imprisonment', type: 'Legal Document' },
+      { title: 'DOJ: Martin Shkreli Sentenced to Seven Years in Federal Prison', url: 'https://www.justice.gov/usao-edny', type: 'Legal Document' },
       { title: 'FTC: FTC Bans Martin Shkreli from Pharmaceutical Industry', url: 'https://www.ftc.gov/news-events/news/press-releases', type: 'Government Filing' },
       { title: 'New York Times: How a Drug Company Made $750 Pill the New Normal', url: 'https://www.nytimes.com/2015/09/21/business/a-huge-overnight-increase-in-a-drugs-price-raises-protests.html', type: 'Investigative Report' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'FTC', type: 'agency', relationship: 'Won lifetime pharmaceutical industry ban against Shkreli and $64.6M disgorgement for anticompetitive Daraprim monopoly maintenance', href: '/entities/agencies/ftc' },
+      { id: '1', name: 'FTC', type: 'agency', relationship: 'Won lifetime pharmaceutical industry ban against Shkreli and $64.6M disgorgement for anticompetitive Daraprim monopoly maintenance' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Prosecuted Shkreli for securities fraud; secured 7-year federal prison sentence and $7.36M forfeiture', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '1950-01-01',
@@ -2149,7 +2149,7 @@ const investigations_m: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Oversees military justice system producing less than 2% conviction rate; resisted reforms for decades; chain-of-command authority preserved', href: '/entities/agencies/dod' },
-      { id: '2', name: 'VA', type: 'agency', relationship: 'Treats MST in veterans but benefit access denied to those with less-than-honorable discharges resulting from trauma-related behavior', href: '/entities/agencies/va' },
+      { id: '2', name: 'VA', type: 'agency', relationship: 'Treats MST in veterans but benefit access denied to those with less-than-honorable discharges resulting from trauma-related behavior' },
     ],
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2026-02-28',
@@ -2258,7 +2258,7 @@ const investigations_m: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'VA', type: 'agency', relationship: 'Denied over 70% of burn pit claims before PACT Act; now processing presumptive claims but backlog exceeds 900,000; Airborne Hazards Registry understaffed and underutilized', href: '/entities/agencies/va' },
+      { id: '1', name: 'VA', type: 'agency', relationship: 'Denied over 70% of burn pit claims before PACT Act; now processing presumptive claims but backlog exceeds 900,000; Airborne Hazards Registry understaffed and underutilized' },
       { id: '2', name: 'DOD', type: 'agency', relationship: 'Operated burn pits at 230+ sites without environmental review; contracted waste management to KBR/Halliburton; failed to track individual exposures or fund health research during conflicts', href: '/entities/agencies/dod' },
     ],
    eventOriginDate: '2022-01-01',

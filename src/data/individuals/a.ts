@@ -1647,7 +1647,7 @@ const profiles: Record<string, IndividualProfile> = {
     aliases: [],
     knownAssociates: [
       { name: 'Scott Pruitt', relationship: 'Predecessor as EPA Administrator who resigned amid ethics scandals', href: '/entities/individuals/scott-pruitt' },
-      { name: 'Robert Murray', relationship: 'Murray Energy CEO; Wheeler\'s primary lobbying client; gave Trump environmental rollback "Action Plan"', href: '/entities/individuals/robert-murray' },
+      { name: 'Robert Murray', relationship: 'Murray Energy CEO; Wheeler\'s primary lobbying client; gave Trump environmental rollback "Action Plan"' },
     ],
   },
 
@@ -3440,7 +3440,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Carlos Danger'],
     knownAssociates: [
-      { name: 'Huma Abedin', relationship: 'Estranged wife; top Hillary Clinton aide; shared laptop that triggered Comey letter', href: '/entities/individuals/huma-abedin' },
+      { name: 'Huma Abedin', relationship: 'Estranged wife; top Hillary Clinton aide; shared laptop that triggered Comey letter' },
       { name: 'James Comey', relationship: 'FBI Director who sent letter reopening Clinton investigation based on Weiner laptop emails', href: '/entities/individuals/james-comey' },
     ],
   },
@@ -3506,7 +3506,7 @@ const profiles: Record<string, IndividualProfile> = {
     aliases: ['Anwar al-Aulaqi', 'Anwar Nasser al-Awlaki'],
     knownAssociates: [
       { name: 'Abdulrahman al-Awlaki', relationship: '16-year-old son; American citizen killed in separate U.S. drone strike two weeks later', href: '/entities/individuals/abdulrahman-al-awlaki' },
-      { name: 'Nidal Hasan', relationship: 'Fort Hood shooter who corresponded with al-Awlaki before the 2009 attack', href: '/entities/individuals/nidal-hasan' },
+      { name: 'Nidal Hasan', relationship: 'Fort Hood shooter who corresponded with al-Awlaki before the 2009 attack' },
     ],
   },
 
@@ -3728,7 +3728,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['The Maestro', 'The Oracle'],
     knownAssociates: [
-      { name: 'Brooksley Born', relationship: 'CFTC Chair whose warnings about derivatives he suppressed', href: '/entities/individuals/brooksley-born' },
+      { name: 'Brooksley Born', relationship: 'CFTC Chair whose warnings about derivatives he suppressed' },
     ],
   },
 
@@ -6650,7 +6650,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: ['Abby Johnson'],
  knownAssociates: [
- { name: 'Edward Johnson III', relationship: 'Father; predecessor as Fidelity CEO; built company into financial giant', href: '/entities/individuals/edward-johnson-iii' },
+ { name: 'Edward Johnson III', relationship: 'Father; predecessor as Fidelity CEO; built company into financial giant' },
  ],
  },
 
@@ -6860,7 +6860,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: [],
  knownAssociates: [
- { name: 'Gloria Vanderbilt', relationship: 'Mother; fashion designer and Vanderbilt heiress', href: '/entities/individuals/gloria-vanderbilt' },
+ { name: 'Gloria Vanderbilt', relationship: 'Mother; fashion designer and Vanderbilt heiress' },
  ],
  },
 

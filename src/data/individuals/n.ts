@@ -1694,7 +1694,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Brother Number Two', 'Long Bunruot'],
     knownAssociates: [
-      { name: 'Pol Pot', relationship: 'Leader of the Khmer Rouge; Nuon Chea was his second-in-command', href: '/individuals/pol-pot' },
+      { name: 'Pol Pot', relationship: 'Leader of the Khmer Rouge; Nuon Chea was his second-in-command', href: '/entities/individuals/pol-pot' },
     ],
   },
   'nikki-haley': {

@@ -59,7 +59,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
   { name: 'Jeffrey Epstein', relationship: 'Met multiple times 2011-2014 after Epstein\'s 2008 conviction; visited Epstein\'s Manhattan townhouse; flew on Epstein\'s jet', href: '/entities/individuals/jeffrey-epstein' },
-  { name: 'Melinda French Gates', relationship: 'Ex-wife; co-chair of Gates Foundation; divorce partly attributed to Bill\'s Epstein connection', href: '/entities/individuals/melinda-french-gates' },
+  { name: 'Melinda French Gates', relationship: 'Ex-wife; co-chair of Gates Foundation; divorce partly attributed to Bill\'s Epstein connection' },
   { name: 'Warren Buffett', relationship: 'Close friend; Buffett pledged majority of his wealth to Gates Foundation ($35+ billion in donations)', href: '/entities/individuals/warren-buffett' },
  ],
  },
@@ -129,7 +129,7 @@ const profiles: Record<string, IndividualProfile> = {
   { name: 'Jeffrey Epstein', relationship: 'Flew on Epstein\'s aircraft at least 26 times between 2001-2003; relationship documented in flight logs and witness testimony', href: '/entities/individuals/jeffrey-epstein' },
   { name: 'Ghislaine Maxwell', relationship: 'Attended Clinton Global Initiative events; photographed at Clinton events multiple times', href: '/entities/individuals/ghislaine-maxwell' },
   { name: 'Hillary Clinton', relationship: 'Wife; former Secretary of State and 2016 presidential candidate', href: '/entities/individuals/hillary-clinton' },
-  { name: 'Marc Rich', relationship: 'Fugitive financier pardoned by Clinton on last day in office; ex-wife was major Democratic donor', href: '/entities/individuals/marc-rich' },
+  { name: 'Marc Rich', relationship: 'Fugitive financier pardoned by Clinton on last day in office; ex-wife was major Democratic donor' },
  ],
  },
 
@@ -607,7 +607,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: ['Bibi'],
  knownAssociates: [
   { name: 'Donald Trump', relationship: 'Close political ally; Trump recognized Israeli sovereignty over Golan Heights and moved U.S. Embassy to Jerusalem', href: '/entities/individuals/donald-trump' },
-  { name: 'Arnon Milchan', relationship: 'Hollywood producer who provided Netanyahu with luxury gifts (cigars; champagne) worth $200,000+; key figure in Case 1000', href: '/entities/individuals/arnon-milchan' },
+  { name: 'Arnon Milchan', relationship: 'Hollywood producer who provided Netanyahu with luxury gifts (cigars; champagne) worth $200,000+; key figure in Case 1000' },
  ],
  },
 
@@ -809,7 +809,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: [],
  knownAssociates: [
-  { name: 'Christine Blasey Ford', relationship: 'Testified under oath that Kavanaugh sexually assaulted her at a 1982 house party', href: '/entities/individuals/christine-blasey-ford' },
+  { name: 'Christine Blasey Ford', relationship: 'Testified under oath that Kavanaugh sexually assaulted her at a 1982 house party' },
   { name: 'Kenneth Starr', relationship: 'Kavanaugh served as associate counsel in Starr\'s investigation of President Clinton 1994-1997', href: '/entities/individuals/kenneth-starr' },
   { name: 'Donald Trump', relationship: 'Nominated Kavanaugh to the Supreme Court on July 9, 2018', href: '/entities/individuals/donald-trump' },
  ],
@@ -2247,7 +2247,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: ['Helicopter Ben'],
  knownAssociates: [
   { name: 'Henry Paulson', relationship: 'Treasury Secretary during 2008 crisis; former Goldman Sachs CEO; coordinated bailouts with Bernanke', href: '/entities/individuals/henry-paulson' },
-  { name: 'Timothy Geithner', relationship: 'NY Fed President during crisis; became Treasury Secretary; key architect of bailout strategy', href: '/entities/individuals/timothy-geithner' },
+  { name: 'Timothy Geithner', relationship: 'NY Fed President during crisis; became Treasury Secretary; key architect of bailout strategy' },
   { name: 'Alan Greenspan', relationship: 'Predecessor as Fed Chair whose low interest rate policies and deregulation advocacy contributed to the housing bubble', href: '/entities/individuals/alan-greenspan' },
  ],
  },
@@ -4255,7 +4255,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  socialMedia: [],
  sources: [
- { title: 'Mississippi History Now', url: 'https://www.mshistorynow.mdah.ms.gov/issue/medgar-evers-and-the-civil-rights-movement', date: '2023' },
+ { title: 'Mississippi History Now', url: 'https://www.mdah.ms.gov/', date: '2023' },
  ],
  aliases: [],
  knownAssociates: [
@@ -4598,8 +4598,8 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: ['The Gunslinger'],
  knownAssociates: [
   { name: 'Phil Bryant', relationship: 'Governor of Mississippi who coordinated with Favre via text to direct welfare funds to volleyball facility', href: '/entities/individuals/phil-bryant' },
-  { name: 'Nancy New', relationship: 'Director of Mississippi Community Education Center; pled guilty to fraud; channeled $1.1M to Favre', href: '/entities/individuals/nancy-new' },
-  { name: 'John Davis', relationship: 'Former head of MS Department of Human Services; sentenced to federal prison for welfare fraud scheme', href: '/entities/individuals/john-davis' },
+  { name: 'Nancy New', relationship: 'Director of Mississippi Community Education Center; pled guilty to fraud; channeled $1.1M to Favre' },
+  { name: 'John Davis', relationship: 'Former head of MS Department of Human Services; sentenced to federal prison for welfare fraud scheme' },
  ],
  },
  'bob-murray': {

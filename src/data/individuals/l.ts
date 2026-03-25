@@ -1006,7 +1006,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: ['Lynn J. Good'],
  knownAssociates: [
-  { name: 'Pat McCrory', relationship: 'Former NC Governor and 28-year Duke Energy employee; regulators under his administration coordinated with Duke', href: '/entities/individuals/pat-mccrory' },
+  { name: 'Pat McCrory', relationship: 'Former NC Governor and 28-year Duke Energy employee; regulators under his administration coordinated with Duke' },
  ],
  },
 
@@ -2092,7 +2092,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
   { name: 'Ida B. Wells', relationship: 'Wells campaigned tirelessly for the passage of Dyer\'s anti-lynching bill', href: '/entities/individuals/ida-b-wells' },
-  { name: 'Mary Burnett Talbert', relationship: 'NAACP leader who organized Anti-Lynching Crusaders to support Dyer Bill', href: '/entities/individuals/mary-burnett-talbert' },
+  { name: 'Mary Burnett Talbert', relationship: 'NAACP leader who organized Anti-Lynching Crusaders to support Dyer Bill' },
  ],
  },
 
@@ -2185,7 +2185,7 @@ const profiles: Record<string, IndividualProfile> = {
  aliases: [],
  knownAssociates: [
   { name: 'Bill Clinton', relationship: 'President who appointed Aspin and accepted his resignation after Mogadishu', href: '/entities/individuals/bill-clinton' },
-  { name: 'Thomas Montgomery', relationship: 'U.S. commander in Somalia whose armor requests Aspin denied', href: '/entities/individuals/thomas-montgomery' },
+  { name: 'Thomas Montgomery', relationship: 'U.S. commander in Somalia whose armor requests Aspin denied' },
  ],
  },
 
@@ -3108,7 +3108,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'John Brockman', relationship: 'Edge Foundation literary agent who facilitated Epstein-academic connections', href: '/entities/individuals/john-brockman' },
  { name: 'Lawrence Krauss', relationship: 'Fellow physicist in Epstein\'s scientific circle; Krauss defended Epstein publicly', href: '/entities/individuals/lawrence-krauss' },
  { name: 'Steven Pinker', relationship: 'Harvard colleague; fellow Edge Foundation participant', href: '/entities/individuals/steven-pinker' },
- { name: 'Raman Sundrum', relationship: 'Co-author of Randall-Sundrum model', href: '/entities/individuals/raman-sundrum' },
+ { name: 'Raman Sundrum', relationship: 'Co-author of Randall-Sundrum model' },
  ],
  },
 
@@ -3157,7 +3157,7 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'John Brockman', relationship: 'Edge Foundation organizer who connected Epstein to academics', href: '/entities/individuals/john-brockman' },
  { name: 'Lawrence Krauss', relationship: 'Fellow theoretical physicist in Epstein\'s circle; Krauss vocally defended Epstein', href: '/entities/individuals/lawrence-krauss' },
  { name: 'Murray Gell-Mann', relationship: 'Santa Fe Institute colleague; another institution in Epstein\'s funding network', href: '/entities/individuals/murray-gell-mann' },
- { name: 'Carlo Rovelli', relationship: 'Loop quantum gravity collaborator', href: '/entities/individuals/carlo-rovelli' },
+ { name: 'Carlo Rovelli', relationship: 'Loop quantum gravity collaborator' },
  ],
  },
 
@@ -3452,7 +3452,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: ['LMT', 'Lockheed', 'LockMart'],
  knownAssociates: [
- { name: 'Marillyn Hewson', relationship: 'Former CEO and Chairman (2013-2020)', href: '/entities/individuals/marillyn-hewson' },
+ { name: 'Marillyn Hewson', relationship: 'Former CEO and Chairman (2013-2020)' },
  { name: 'James Taiclet', relationship: 'Current CEO (2020-present)', href: '/entities/individuals/james-taiclet' },
  ],
  },

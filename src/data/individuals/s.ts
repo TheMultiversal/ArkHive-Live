@@ -4516,8 +4516,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Butcher of the Balkans'],
     knownAssociates: [
-      { name: 'Radovan Karadzic', relationship: 'Bosnian Serb leader he politically and militarily supported', href: '/individuals/radovan-karadzic' },
-      { name: 'Ratko Mladic', relationship: 'VRS Commander who executed military operations', href: '/individuals/ratko-mladic' },
+      { name: 'Radovan Karadzic', relationship: 'Bosnian Serb leader he politically and militarily supported', href: '/entities/individuals/radovan-karadzic' },
+      { name: 'Ratko Mladic', relationship: 'VRS Commander who executed military operations', href: '/entities/individuals/ratko-mladic' },
     ],
   },
   'suharto': {

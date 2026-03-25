@@ -144,7 +144,7 @@ const investigations_u: Record<string, InvestigationData> = {
  sources: [
  { title: 'NYT, UAE Influence Operation', url: 'https://www.nytimes.com/2018/03/21/us/politics/george-nader-elliott-broidy-uae-saudi-arabia.html', type: 'Investigation' },
  { title: 'Washington Post, Kushner-MBZ Relationship', url: 'https://www.washingtonpost.com/world/national-security/kushner-and-the-saudis/2018/03/27/', type: 'Investigation' },
- { title: 'FARA Filings, UAE Lobbying', url: 'https://efile.fara.gov/ords/fara/f?p=1235:10:0::NO:RP,10:P10_COUNTRY:UNITED%20ARAB%20EMIRATES', type: 'Government Records' },
+ { title: 'FARA Filings, UAE Lobbying', url: 'https://www.fara.us/', type: 'Government Records' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -667,7 +667,7 @@ const investigations_u: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Investigated Greyball; convicted CSO Sullivan for breach coverup; deferred prosecution agreement for regulatory obstruction', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated data security practices; required 20-year consent decree for privacy and security improvements after breach', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated data security practices; required 20-year consent decree for privacy and security improvements after breach' },
     ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2024-09-15',
@@ -750,8 +750,8 @@ const investigations_u: Record<string, InvestigationData> = {
       { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'NLRB', type: 'agency', relationship: 'Primary enforcement body for labor rights; remedies limited to reinstatement and back pay; no punitive damages or criminal penalties; chronically underfunded with 30% fewer staff than 2010', href: '/entities/agencies/nlrb' },
-      { id: '2', name: 'DOL', type: 'agency', relationship: 'Bureau of Labor Statistics tracks union membership; OLMS monitors union finances but does not investigate employer violations; anti-union consultant disclosure rules weakened', href: '/entities/agencies/dol' },
+      { id: '1', name: 'NLRB', type: 'agency', relationship: 'Primary enforcement body for labor rights; remedies limited to reinstatement and back pay; no punitive damages or criminal penalties; chronically underfunded with 30% fewer staff than 2010' },
+      { id: '2', name: 'DOL', type: 'agency', relationship: 'Bureau of Labor Statistics tracks union membership; OLMS monitors union finances but does not investigate employer violations; anti-union consultant disclosure rules weakened' },
     ],
    eventOriginDate: '1935-01-01',
    lastActivityDate: '2025-02-15',

@@ -113,7 +113,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: ['VdL', 'Queen Ursula'],
  knownAssociates: [
- { name: 'Angela Merkel', relationship: 'Served in Merkel\'s cabinet for over a decade', href: '/entities/individuals/angela-merkel' },
+ { name: 'Angela Merkel', relationship: 'Served in Merkel\'s cabinet for over a decade' },
  { name: 'Albert Bourla', relationship: 'Pfizer CEO; exchanged undisclosed text messages during vaccine contract negotiations', href: '/entities/individuals/albert-bourla' },
  ],
  },

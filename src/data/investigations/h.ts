@@ -361,7 +361,7 @@ const investigations_h: Record<string, InvestigationData> = {
  ],
  affiliations: [
  { id: '1', name: 'Blackstone Group', type: 'corporation', relationship: 'Created Invitation Homes, largest single-family corporate landlord, from post-2008 foreclosure purchases', href: '/entities/corporations/blackstone-group' },
- { id: '2', name: 'HUD', type: 'agency', relationship: 'Federal housing policy and enforcement authority', href: '/entities/agencies/hud' },
+ { id: '2', name: 'HUD', type: 'agency', relationship: 'Federal housing policy and enforcement authority' },
  { id: '3', name: 'DOJ', type: 'agency', relationship: 'Fair housing enforcement and antitrust oversight', href: '/entities/agencies/doj' },
  ],
    eventOriginDate: '1968-01-01',
@@ -637,7 +637,7 @@ const investigations_h: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Enforces TVPRA civil and criminal liability provisions; approves California SB 970 hotel training curriculum', href: '/entities/agencies/doj' },
-      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/ftc' },
+      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity' },
  ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-02-04',
@@ -678,7 +678,7 @@ const investigations_h: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'HHS', type: 'agency', relationship: 'Office for Civil Rights oversees HIPAA enforcement with roughly 200 staff covering 700,000+ entities; chronically underfunded at $39M annually', href: '/entities/agencies/hhs' },
- { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+ { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
 
  ],
    eventOriginDate: '1996-01-01',
@@ -846,14 +846,14 @@ const investigations_h: Record<string, InvestigationData> = {
     ],
     tags: ['holodomor', 'ukraine', 'genocide', 'famine', 'stalin', 'soviet-union', 'collectivization', 'crimes-against-humanity', 'mass-starvation', 'cover-up', 'OGPU'],
     sources: [
-      { title: 'Ukrainian Institute of National Remembrance - Holodomor Research', url: 'https://old.uinp.gov.ua/page/holodomor-1932-1933', type: 'government' },
+      { title: 'Ukrainian Institute of National Remembrance - Holodomor Research', url: 'https://uinp.gov.ua/', type: 'government' },
       { title: 'Holodomor Research and Education Consortium', url: 'https://holodomor.ca/', type: 'academic' },
       { title: 'Timothy Snyder - Bloodlands: Europe Between Hitler and Stalin', url: 'https://www.timothysnyder.org/books/bloodlands', type: 'book' },
       { title: 'Robert Conquest - The Harvest of Sorrow', url: 'https://global.oup.com/academic/product/the-harvest-of-sorrow-9780195051803', type: 'book' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Joseph Stalin', type: 'individual', relationship: 'Soviet dictator who ordered and directed the famine through forced collectivization and grain confiscation policies', href: '/individuals/joseph-stalin' },
+      { id: '1', name: 'Joseph Stalin', type: 'individual', relationship: 'Soviet dictator who ordered and directed the famine through forced collectivization and grain confiscation policies', href: '/entities/individuals/joseph-stalin' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
 
     ],
@@ -897,7 +897,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'HUD', type: 'agency', relationship: 'Central subject - $70B repair backlog, Section 8 waitlists exceeding 10 years, OIG identified $105B in questioned and unsupported costs', href: '/entities/agencies/hud' },
+      { id: '1', name: 'HUD', type: 'agency', relationship: 'Central subject - $70B repair backlog, Section 8 waitlists exceeding 10 years, OIG identified $105B in questioned and unsupported costs' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
 
     ],
@@ -935,7 +935,7 @@ const investigations_h: Record<string, InvestigationData> = {
     sources: [
       { title: 'Commission on Wartime Contracting: Final Report to Congress', url: 'https://cybercemetery.unt.edu/archive/cwc/20110929213820/http://www.wartimecontracting.gov/', type: 'Congressional Report' },
       { title: 'DCAA: Audit Reports on KBR LOGCAP Contracts', url: 'https://www.dcaa.mil/', type: 'Government Audit' },
-      { title: 'DOJ: KBR Settlement Agreements', url: 'https://www.justice.gov/archives/civil/fraud-statistics', type: 'Government' },
+      { title: 'DOJ: KBR Settlement Agreements', url: 'https://www.justice.gov/civil', type: 'Government' },
       { title: 'Congressional Research Service', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
     affiliations: [
@@ -1084,7 +1084,7 @@ const investigations_h: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'HUD', type: 'agency', relationship: 'Reports 653,000 homeless on any given night; Section 8 waitlists average 2.5 years; only 1 in 4 eligible households receive federal housing assistance', href: '/entities/agencies/hud' },
+      { id: '1', name: 'HUD', type: 'agency', relationship: 'Reports 653,000 homeless on any given night; Section 8 waitlists average 2.5 years; only 1 in 4 eligible households receive federal housing assistance' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Under Obama filed statements of interest opposing criminalization of homelessness; position reversed under Trump; Biden DOJ was silent on Grants Pass', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '2011-01-01',

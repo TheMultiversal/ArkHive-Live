@@ -1978,7 +1978,7 @@ const investigations_t: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Organized crime in trucking investigations; oversaw Teamsters consent decree; investigates cargo theft rings and fuel fraud networks', href: '/entities/agencies/fbi' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
 
     ],
    eventOriginDate: '1950-01-01',
@@ -2057,9 +2057,9 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Deng Xiaoping', type: 'individual', relationship: 'Paramount leader who authorized military force against protesters; bore ultimate responsibility for the massacre', href: '/individuals/deng-xiaoping' },
-      { id: '2', name: 'Li Peng', type: 'individual', relationship: 'Premier who declared martial law and was primary advocate for military crackdown', href: '/individuals/li-peng' },
-      { id: '3', name: 'Xi Jinping', type: 'individual', relationship: 'Current CCP General Secretary who has continued and intensified censorship of the massacre and suppression of dissent', href: '/individuals/xi-jinping' },
+      { id: '1', name: 'Deng Xiaoping', type: 'individual', relationship: 'Paramount leader who authorized military force against protesters; bore ultimate responsibility for the massacre', href: '/entities/individuals/deng-xiaoping' },
+      { id: '2', name: 'Li Peng', type: 'individual', relationship: 'Premier who declared martial law and was primary advocate for military crackdown' },
+      { id: '3', name: 'Xi Jinping', type: 'individual', relationship: 'Current CCP General Secretary who has continued and intensified censorship of the massacre and suppression of dissent', href: '/entities/individuals/xi-jinping' },
     ],
    eventOriginDate: '1949-01-01',
    lastActivityDate: '2024-12-15',
@@ -2098,7 +2098,7 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Leopold II', type: 'individual', relationship: 'Continued colonial exploitation in the Congo even after abolition; his regime killed 10 million', href: '/individuals/leopold-ii' },
+      { id: '1', name: 'Leopold II', type: 'individual', relationship: 'Continued colonial exploitation in the Congo even after abolition; his regime killed 10 million', href: '/entities/individuals/leopold-ii' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Civil Rights Division enforcement authority', href: '/entities/agencies/doj' },
 
     ],
@@ -2223,7 +2223,7 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'FERC', type: 'agency', relationship: 'Has no jurisdiction over ERCOT because Texas deliberately isolated its grid; recommended mandatory winterization after 2011 that Texas ignored', href: '/entities/agencies/ferc' },
+      { id: '1', name: 'FERC', type: 'agency', relationship: 'Has no jurisdiction over ERCOT because Texas deliberately isolated its grid; recommended mandatory winterization after 2011 that Texas ignored' },
       { id: '2', name: 'DOE', type: 'agency', relationship: 'Issued emergency order allowing Texas generators to exceed emission limits during crisis', href: '/entities/agencies/doe' },
     ],
    eventOriginDate: '1989-01-01',
@@ -2256,7 +2256,7 @@ const investigations_t: Record<string, InvestigationData> = {
     ],
     tags: ['theranos', 'elizabeth-holmes', 'blood-testing-fraud', 'healthcare-fraud', 'silicon-valley', 'investor-fraud', 'patient-harm', 'regulatory-failure'],
     sources: [
-      { title: 'DOJ: Elizabeth Holmes Convicted of Investor Fraud', url: 'https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-convicted-investor-fraud', type: 'Government' },
+      { title: 'DOJ: Elizabeth Holmes Convicted of Investor Fraud', url: 'https://www.justice.gov/usao-ndca', type: 'Government' },
       { title: 'SEC: Theranos, CEO Elizabeth Holmes, and Former President Ramesh Balwani Charged', url: 'https://www.sec.gov/litigation/litreleases/2018/lr24084.htm', type: 'Government' },
       { title: 'Wall Street Journal: Hot Startup Theranos Has Struggled With Its Blood-Test Technology', url: 'https://www.wsj.com/articles/theranos-has-struggled-with-blood-tests-1444881901', type: 'Investigation' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
@@ -2332,12 +2332,12 @@ const investigations_t: Record<string, InvestigationData> = {
     tags: ['takata', 'airbag-defect', 'automotive-recall', 'product-safety', 'ammonium-nitrate', 'nhtsa', 'wire-fraud', 'honda', 'toyota'],
     sources: [
       { title: 'NHTSA: Takata Airbag Recalls', url: 'https://www.nhtsa.gov/equipment/takata-recall-spotlight', type: 'Government Data' },
-      { title: 'DOJ: Takata Corporation Agrees to Plead Guilty', url: 'https://www.justice.gov/archives/opa/pr/takata-corporation-agrees-plead-guilty-and-pay-1-billion', type: 'Legal Document' },
+      { title: 'DOJ: Takata Corporation Agrees to Plead Guilty', url: 'https://www.justice.gov/opa', type: 'Legal Document' },
       { title: 'New York Times: Takata Saw and Tried to Hide Airbag Faults', url: 'https://www.nytimes.com/2014/11/07/business/takata-saw-and-tried-to-hide-flaw-in-airbags.html', type: 'Investigative Report' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'NHTSA', type: 'agency', relationship: 'Slow to mandate nationwide recall despite multiple deaths; structural underfunding limits oversight of hundreds of millions of vehicles', href: '/entities/agencies/nhtsa' },
+      { id: '1', name: 'NHTSA', type: 'agency', relationship: 'Slow to mandate nationwide recall despite multiple deaths; structural underfunding limits oversight of hundreds of millions of vehicles' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Secured $1B plea deal and indicted three executives; criticized for not pursuing higher-level executives', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '1933-01-01',
@@ -2377,8 +2377,8 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'NHTSA', type: 'agency', relationship: 'Investigated 40+ fatal Autopilot crashes; mandated 2M vehicle recall in 2023; criticized for slow regulatory action', href: '/entities/agencies/nhtsa' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Has not taken enforcement action against FSD deceptive marketing claims despite California DMV findings', href: '/entities/agencies/ftc' },
+      { id: '1', name: 'NHTSA', type: 'agency', relationship: 'Investigated 40+ fatal Autopilot crashes; mandated 2M vehicle recall in 2023; criticized for slow regulatory action' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Has not taken enforcement action against FSD deceptive marketing claims despite California DMV findings' },
     ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-01-20',
@@ -2422,7 +2422,7 @@ const investigations_t: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'FCC', type: 'agency', relationship: 'Regulatory capture by industry; used flawed data to undercount unserved Americans; net neutrality repealed under former Verizon attorney Ajit Pai', href: '/entities/agencies/fcc' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Limited jurisdiction over ISPs after FCC deregulation; investigated data privacy practices but enforcement constrained', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Limited jurisdiction over ISPs after FCC deregulation; investigated data privacy practices but enforcement constrained' },
     ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2026-02-20',
@@ -2452,14 +2452,14 @@ const investigations_t: Record<string, InvestigationData> = {
     ],
     tags: ['Big Tech', 'antitrust', 'Google', 'Amazon', 'Apple', 'Meta', 'monopoly', 'FTC', 'DOJ', 'acquisitions', 'competition'],
     sources: [
-      { title: 'DOJ: United States v. Google LLC - Findings of Fact', url: 'https://www.justice.gov/archives/atr/case/us-and-plaintiff-states-v-google-llc-2020', type: 'Legal Document' },
+      { title: 'DOJ: United States v. Google LLC - Findings of Fact', url: 'https://www.justice.gov/atr', type: 'Legal Document' },
       { title: 'FTC: In the Matter of Amazon.com - Antitrust Complaint', url: 'https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=amazon', type: 'Legal Document' },
       { title: 'House Judiciary Committee: Investigation of Competition in Digital Markets', url: 'https://judiciary.house.gov/', type: 'Congressional Report' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Antitrust Division filed landmark cases against Google and Apple; two decades of non-enforcement enabled current monopoly power', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Approved every major tech acquisition 1998-2020; now suing Amazon and Meta; under-resourced with $400M budget vs. tech companies with $100B+ revenue', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Approved every major tech acquisition 1998-2020; now suing Amazon and Meta; under-resourced with $400M budget vs. tech companies with $100B+ revenue' },
     ],
    eventOriginDate: '1998-01-01',
    lastActivityDate: '2025-03-15',
@@ -2492,14 +2492,14 @@ const investigations_t: Record<string, InvestigationData> = {
     ],
     tags: ['Ticketmaster', 'Live Nation', 'monopoly', 'antitrust', 'ticket fees', 'dynamic pricing', 'Taylor Swift', 'concert promotion', 'DOJ', 'consumer exploitation'],
     sources: [
-      { title: 'DOJ: United States v. Live Nation Entertainment Antitrust Complaint', url: 'https://www.justice.gov/archives/atr/case/us-v-live-nation-entertainment-inc-and-ticketmaster', type: 'Legal Document' },
+      { title: 'DOJ: United States v. Live Nation Entertainment Antitrust Complaint', url: 'https://www.justice.gov/atr', type: 'Legal Document' },
       { title: 'Senate Judiciary Committee: Ticketmaster Hearing Testimony', url: 'https://www.judiciary.senate.gov/', type: 'Congressional Record' },
       { title: 'GAO: Event Ticket Market Study', url: 'https://www.gao.gov/', type: 'Government Report' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Approved the 2010 merger with conditions; found conditions violated; filed antitrust breakup suit in 2024; consent decree extended in 2020', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Shares antitrust jurisdiction but deferred to DOJ on Live Nation; investigations into ticket resale market practices ongoing', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Shares antitrust jurisdiction but deferred to DOJ on Live Nation; investigations into ticket resale market practices ongoing' },
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2025-03-01',
@@ -2538,7 +2538,7 @@ const investigations_t: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Proposed ability-to-repay rules for title loans in 2017; Trump administration revoked key provisions in 2020; Biden CFPB pursued enforcement against individual lenders but no comprehensive rule reinstated', href: '/entities/agencies/cfpb' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Brought actions against deceptive title lenders including TitleMax and LoanMax; enforcement is case-by-case rather than industry-wide regulation', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Brought actions against deceptive title lenders including TitleMax and LoanMax; enforcement is case-by-case rather than industry-wide regulation' },
     ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-01-22',
@@ -2571,7 +2571,7 @@ const investigations_t: Record<string, InvestigationData> = {
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Chemie Grunenthal', type: 'corporation', relationship: 'Manufactured and marketed thalidomide worldwide from 1957; suppressed evidence of nerve damage and birth defects; pressured doctors to retract published safety concerns; continued selling the drug for weeks after learning of link to birth defects; no executive was ever convicted', href: '/entities/corporations/chemie-grunenthal' },
+      { id: '1', name: 'Chemie Grunenthal', type: 'corporation', relationship: 'Manufactured and marketed thalidomide worldwide from 1957; suppressed evidence of nerve damage and birth defects; pressured doctors to retract published safety concerns; continued selling the drug for weeks after learning of link to birth defects; no executive was ever convicted' },
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Dr. Frances Kelsey blocked US approval despite 50+ contacts from the applicant demanding she approve it; agency failures allowed 2.5 million sample tablets to be distributed to American doctors under investigational exemption', href: '/entities/agencies/fda' },
       { id: '3', name: 'Frances Kelsey', type: 'individual', relationship: 'FDA medical reviewer who single-handedly prevented thalidomide approval in the US, saving thousands of children from birth defects; awarded Presidential medal by JFK in 1962', href: '/entities/individuals/frances-kelsey' },
     ],

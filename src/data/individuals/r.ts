@@ -6054,8 +6054,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Dragan Dabic (fugitive identity)'],
     knownAssociates: [
-      { name: 'Ratko Mladic', relationship: 'VRS Commander who carried out Srebrenica massacre', href: '/individuals/ratko-mladic' },
-      { name: 'Slobodan Milosevic', relationship: 'Serbian President who supported Bosnian Serb forces', href: '/individuals/slobodan-milosevic' },
+      { name: 'Ratko Mladic', relationship: 'VRS Commander who carried out Srebrenica massacre', href: '/entities/individuals/ratko-mladic' },
+      { name: 'Slobodan Milosevic', relationship: 'Serbian President who supported Bosnian Serb forces', href: '/entities/individuals/slobodan-milosevic' },
     ],
   },
   'ratko-mladic': {
@@ -6100,7 +6100,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Butcher of Bosnia'],
     knownAssociates: [
-      { name: 'Radovan Karadzic', relationship: 'Political leader of Republika Srpska', href: '/individuals/radovan-karadzic' },
+      { name: 'Radovan Karadzic', relationship: 'Political leader of Republika Srpska', href: '/entities/individuals/radovan-karadzic' },
     ],
   },
   'romeo-dallaire': {
@@ -6140,7 +6140,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Theoneste Bagosora', relationship: 'Organized the genocide Dallaire tried to prevent', href: '/individuals/theoneste-bagosora' },
+      { name: 'Theoneste Bagosora', relationship: 'Organized the genocide Dallaire tried to prevent', href: '/entities/individuals/theoneste-bagosora' },
     ],
   },
   'robert-menendez': {
@@ -6363,7 +6363,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['America\'s Mayor', 'Rudy'],
     knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Client; former president whose 2020 election challenge Giuliani led', href: '/individuals/donald-trump' },
+      { name: 'Donald Trump', relationship: 'Client; former president whose 2020 election challenge Giuliani led', href: '/entities/individuals/donald-trump' },
       { name: 'Lev Parnas', relationship: 'Associate convicted of campaign finance violations; assisted Giuliani\'s Ukraine efforts' },
     ],
   },

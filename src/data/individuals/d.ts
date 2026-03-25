@@ -6297,7 +6297,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Mao Zedong', relationship: 'Predecessor as China\'s leader; Deng was purged twice during Cultural Revolution', href: '/individuals/mao-zedong' },
+      { name: 'Mao Zedong', relationship: 'Predecessor as China\'s leader; Deng was purged twice during Cultural Revolution', href: '/entities/individuals/mao-zedong' },
     ],
   },
   'dennis-hastert': {
@@ -6341,7 +6341,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Denny'],
     knownAssociates: [
-      { name: 'Tom DeLay', relationship: 'House Majority Leader under Hastert; also later convicted', href: '/individuals/tom-delay' },
+      { name: 'Tom DeLay', relationship: 'House Majority Leader under Hastert; also later convicted', href: '/entities/individuals/tom-delay' },
     ],
   },
   'duncan-hunter': {

@@ -64,7 +64,7 @@ const investigations_x: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Completed 2015 study finding arbitration harmed consumers; issued rule banning class action waivers in 2017; Congress overturned the rule via Congressional Review Act before it took effect', href: '/entities/agencies/cfpb' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Has authority to challenge unfair contractual terms but has not used it to address forced arbitration; defers to CFPB on financial product arbitration', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Has authority to challenge unfair contractual terms but has not used it to address forced arbitration; defers to CFPB on financial product arbitration' },
     ],
    eventOriginDate: '2011-01-01',
    lastActivityDate: '2025-01-30',

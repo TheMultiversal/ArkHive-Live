@@ -5440,7 +5440,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Chairman Mao', 'The Great Helmsman'],
     knownAssociates: [
-      { name: 'Deng Xiaoping', relationship: 'Successor who ordered Tiananmen Square crackdown', href: '/individuals/deng-xiaoping' },
+      { name: 'Deng Xiaoping', relationship: 'Successor who ordered Tiananmen Square crackdown', href: '/entities/individuals/deng-xiaoping' },
     ],
   },
   'michael-flynn': {

@@ -236,7 +236,7 @@ const investigations_c: Record<string, InvestigationData> = {
  sources: [
  { title: 'Mueller Report Vol. I, Russian Interference', url: 'https://www.justice.gov/storage/report.pdf', type: 'Government Report' },
  { title: 'Senate NRA Russia Investigation', url: 'https://www.finance.senate.gov/imo/media/doc/The%20NRA%20&%20Russia%20-%20How%20a%20Tax-Exempt%20Organization%20Became%20a%20Foreign%20Asset.pdf', type: 'Government Report' },
- { title: 'Trump Inaugural Committee Investigation', url: 'https://www.justice.gov/usao-sdny/pr/imarc-llc-agrees-pay-750000-resolve-campaign-finance-investigation', type: 'Court Document' },
+ { title: 'Trump Inaugural Committee Investigation', url: 'https://www.justice.gov/usao-sdny', type: 'Court Document' },
  { title: 'Manhattan DA Hush Money Case', url: 'https://www.manhattanda.org/district-attorney-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/', type: 'Press Release' },
  { title: 'OpenSecrets Dark Money Tracking', url: 'https://www.opensecrets.org/dark-money', type: 'Research Database' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
@@ -1735,7 +1735,7 @@ const investigations_c: Record<string, InvestigationData> = {
  tags: ['CIA', 'Torture', 'Evidence Destruction', 'Black Sites', 'Waterboarding', 'Obstruction', 'War on Terror'],
  sources: [
  { title: 'Senate Intelligence Committee Torture Report Executive Summary', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', type: 'Congressional Record' },
- { title: 'Durham Investigation Findings', url: 'https://www.justice.gov/archives/opa/pr/statement-attorney-general-special-prosecutor-investigation', type: 'Government' },
+ { title: 'Durham Investigation Findings', url: 'https://www.justice.gov/opa', type: 'Government' },
  { title: 'New York Times Investigation', url: 'https://www.nytimes.com/2007/12/06/washington/06intel.html', type: 'News Report' },
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
@@ -3495,7 +3495,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'EPA', type: 'agency', relationship: 'Subject of systematic corporate capture; enforcement capacity halved', href: '/entities/agencies/epa' },
-      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/ftc' },
+      { id: 'federal-trade-commission', name: 'Federal Trade Commission', type: 'agency', relationship: 'Related entity' },
  ],
    eventOriginDate: '1960-01-01',
    lastActivityDate: '2025-03-09',
@@ -4748,8 +4748,8 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Harris County DA', type: 'agency', relationship: 'Most death sentences in U.S.', href: '/entities/agencies/harris-county-da' },
-      { id: '2', name: 'Texas Department of Criminal Justice', type: 'agency', relationship: 'Executes more than any other state', href: '/entities/agencies/texas-dcj' },
+      { id: '1', name: 'Harris County DA', type: 'agency', relationship: 'Most death sentences in U.S.' },
+      { id: '2', name: 'Texas Department of Criminal Justice', type: 'agency', relationship: 'Executes more than any other state' },
       { id: '3', name: 'Supreme Court', type: 'agency', relationship: 'Death penalty rulings', href: '/entities/agencies/supreme-court' },
     ],
    eventOriginDate: '1973-01-01',
@@ -4789,9 +4789,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'EPA Enforcement Actions', url: 'https://www.epa.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Shell', type: 'corporation', relationship: 'Uses carbon credits while expanding oil production', href: '/entities/corporations/shell' },
+      { id: '1', name: 'Shell', type: 'corporation', relationship: 'Uses carbon credits while expanding oil production' },
       { id: '2', name: 'ExxonMobil', type: 'corporation', relationship: 'Lobbies against climate action while trading', href: '/entities/corporations/exxonmobil' },
-      { id: '3', name: 'European Commission', type: 'agency', relationship: 'Oversees EU ETS', href: '/entities/agencies/european-commission' },
+      { id: '3', name: 'European Commission', type: 'agency', relationship: 'Oversees EU ETS' },
     ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2025-07-22',
@@ -4831,9 +4831,9 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Pol Pot', type: 'individual', relationship: 'Supreme leader (Brother Number One) who directed all aspects of the genocide; died 1998 without facing trial', href: '/individuals/pol-pot' },
-      { id: '2', name: 'Nuon Chea', type: 'individual', relationship: 'Brother Number Two and chief ideologist; convicted of genocide and crimes against humanity; sentenced to life', href: '/individuals/nuon-chea' },
-      { id: '3', name: 'United States', type: 'agency', relationship: 'Massive bombing campaign destabilized Cambodia; later supported Khmer Rouge diplomatically during Cold War', href: '/entities/agencies/united-states' },
+      { id: '1', name: 'Pol Pot', type: 'individual', relationship: 'Supreme leader (Brother Number One) who directed all aspects of the genocide; died 1998 without facing trial', href: '/entities/individuals/pol-pot' },
+      { id: '2', name: 'Nuon Chea', type: 'individual', relationship: 'Brother Number Two and chief ideologist; convicted of genocide and crimes against humanity; sentenced to life', href: '/entities/individuals/nuon-chea' },
+      { id: '3', name: 'United States', type: 'agency', relationship: 'Massive bombing campaign destabilized Cambodia; later supported Khmer Rouge diplomatically during Cold War' },
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-12-15',
@@ -4877,7 +4877,7 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Leopold II', type: 'individual', relationship: 'Personal owner of the Congo Free State; directly profited from the forced labor and terror system that killed 10 million', href: '/individuals/leopold-ii' },
+      { id: '1', name: 'Leopold II', type: 'individual', relationship: 'Personal owner of the Congo Free State; directly profited from the forced labor and terror system that killed 10 million', href: '/entities/individuals/leopold-ii' },
       { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial fraud enforcement', href: '/entities/agencies/sec' },
 
     ],
@@ -4960,7 +4960,7 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'DOL', type: 'agency', relationship: 'Bureau of International Labor Affairs tracks child labor but has no enforcement power over foreign supply chains', href: '/entities/agencies/dol' },
+      { id: '1', name: 'DOL', type: 'agency', relationship: 'Bureau of International Labor Affairs tracks child labor but has no enforcement power over foreign supply chains' },
       { id: '2', name: 'CBP', type: 'agency', relationship: 'Can ban imports produced with forced or child labor under the Tariff Act; enforcement has been limited and sporadic', href: '/entities/agencies/cbp' },
     ],
    eventOriginDate: '2001-01-01',
@@ -5074,7 +5074,7 @@ const investigations_c: Record<string, InvestigationData> = {
     tags: ['civil-asset-forfeiture', 'policing-for-profit', 'due-process', 'racial-disparities', 'Fourth-Amendment', 'property-rights', 'DOJ', 'equitable-sharing'],
     sources: [
       { title: 'Institute for Justice: Policing for Profit (3rd Edition)', url: 'https://ij.org/report/policing-for-profit-3/', type: 'Research' },
-      { title: 'DOJ Asset Forfeiture Fund Annual Reports', url: 'https://www.justice.gov/archives/afp/fund-reports', type: 'Government Data' },
+      { title: 'DOJ Asset Forfeiture Fund Annual Reports', url: 'https://www.justice.gov/afp', type: 'Government Data' },
       { title: 'ACLU: Civil Asset Forfeiture Report', url: 'https://www.aclu.org/issues/criminal-law-reform/reforming-police/asset-forfeiture-abuse', type: 'Research' },
       { title: 'Timbs v. Indiana, 586 U.S. ___ (2019)', url: 'https://supreme.justia.com/cases/federal/us/586/17-1091/', type: 'Court Decision' },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
@@ -5116,7 +5116,7 @@ const investigations_c: Record<string, InvestigationData> = {
     tags: ['revolving-door', 'lobbying', 'Congress', 'K-Street', 'corruption', 'influence', 'cooling-off', 'defense-industry'],
     sources: [
       { title: 'OpenSecrets: Revolving Door Database', url: 'https://www.opensecrets.org/revolving/', type: 'Database' },
-      { title: 'POGO: The Pentagon Revolving Door', url: 'https://www.pogo.org/analysis/pentagon-revolving-door', type: 'Research' },
+      { title: 'POGO: The Pentagon Revolving Door', url: 'https://www.pogo.org/analysis', type: 'Research' },
       { title: 'Honest Leadership and Open Government Act (2007)', url: 'https://www.congress.gov/bill/110th-congress/senate-bill/1', type: 'Legislation' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
@@ -5200,7 +5200,7 @@ const investigations_c: Record<string, InvestigationData> = {
     sources: [
       { title: 'Senate PSI: Threats to the U.S. Research Enterprise - China\'s Talent Recruitment Plans', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Congressional Report' },
       { title: 'FBI: The China Threat', url: 'https://www.fbi.gov/investigate/counterintelligence/the-china-threat', type: 'Government' },
-      { title: 'DOJ: Selected China-Related Cases', url: 'https://www.justice.gov/archives/nsd/information-about-department-justice-s-china-related-actions', type: 'Government' },
+      { title: 'DOJ: Selected China-Related Cases', url: 'https://www.justice.gov/nsd', type: 'Government' },
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
@@ -5243,7 +5243,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     tags: ['cryptocurrency', 'ftx', 'fraud', 'bankman-fried', 'binance', 'sec', 'deregulation', 'political-spending', 'ponzi'],
     sources: [
-      { title: 'DOJ: United States v. Samuel Bankman-Fried', url: 'https://www.justice.gov/archives/usao-sdny/united-states-v-samuel-bankman-fried', type: 'Court Records' },
+      { title: 'DOJ: United States v. Samuel Bankman-Fried', url: 'https://www.justice.gov/usao-sdny', type: 'Court Records' },
       { title: 'SEC: Crypto Assets and Cyber Enforcement Actions', url: 'https://www.sec.gov/spotlight/cybersecurity-enforcement-actions', type: 'Government Records' },
       { title: 'OpenSecrets: Crypto Industry Political Spending', url: 'https://www.opensecrets.org/industries/indus?ind=B5200', type: 'Database' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
@@ -5292,7 +5292,7 @@ const investigations_c: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'DOD', type: 'agency', relationship: 'Marine Corps knew of contamination by 1982; did not close wells until 1987; fought veterans\' claims for decades', href: '/entities/agencies/dod' },
       { id: '2', name: 'EPA', type: 'agency', relationship: 'Designated Camp Lejeune as Superfund site in 1989; cleanup of contamination ongoing for 35+ years', href: '/entities/agencies/epa' },
-      { id: '3', name: 'VA', type: 'agency', relationship: 'Provides healthcare to eligible Camp Lejeune veterans; initially denied claims until Janey Ensminger Act (2012) and PACT Act (2022)', href: '/entities/agencies/va' },
+      { id: '3', name: 'VA', type: 'agency', relationship: 'Provides healthcare to eligible Camp Lejeune veterans; initially denied claims until Janey Ensminger Act (2012) and PACT Act (2022)' },
     ],
    eventOriginDate: '1950-01-01',
    lastActivityDate: '2025-01-15',
@@ -5333,7 +5333,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'COVID-19 Fraud Enforcement Task Force; charged 3,500+ defendants; recovered only fraction of $280B+ in losses', href: '/entities/agencies/doj' },
-      { id: '2', name: 'SBA', type: 'agency', relationship: 'Administered PPP and EIDL programs; OIG found agency processed loans with minimal fraud detection under political pressure', href: '/entities/agencies/sba' },
+      { id: '2', name: 'SBA', type: 'agency', relationship: 'Administered PPP and EIDL programs; OIG found agency processed loans with minimal fraud detection under political pressure' },
     ],
    eventOriginDate: '1980-01-01',
    lastActivityDate: '2025-01-15',
@@ -5365,7 +5365,7 @@ const investigations_c: Record<string, InvestigationData> = {
     tags: ['credit-suisse', 'ubs', 'archegos', 'greensill', 'mozambique', 'swiss-banking', 'too-big-to-fail', 'bank-collapse', 'financial-regulation'],
     sources: [
       { title: 'Swiss Parliamentary Investigation Commission: Credit Suisse Report', url: 'https://www.parlament.ch/', type: 'Government Report' },
-      { title: 'DOJ: Credit Suisse Mozambique Fraud Settlement', url: 'https://www.justice.gov/archives/opa/pr/credit-suisse-agrees-pay-approximately-475-million', type: 'Legal Document' },
+      { title: 'DOJ: Credit Suisse Mozambique Fraud Settlement', url: 'https://www.justice.gov/opa', type: 'Legal Document' },
       { title: 'Financial Times: Credit Suisse Collapse Coverage', url: 'https://www.ft.com/credit-suisse', type: 'Investigative Report' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
@@ -5404,7 +5404,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     tags: ['cryptocurrency', 'FTX', 'Sam-Bankman-Fried', 'Terra-Luna', 'Celsius', 'fraud', 'Ponzi-scheme', 'lobbying', 'deregulation'],
     sources: [
-      { title: 'DOJ: United States v. Samuel Bankman-Fried', url: 'https://www.justice.gov/archives/usao-sdny/united-states-v-samuel-bankman-fried', type: 'Court Filing' },
+      { title: 'DOJ: United States v. Samuel Bankman-Fried', url: 'https://www.justice.gov/usao-sdny', type: 'Court Filing' },
       { title: 'SEC: Terraform Labs and Do Kwon Fraud Charges', url: 'https://www.sec.gov/litigation/complaints/2023/comp-pr2023-32.pdf', type: 'Government Filing' },
       { title: 'OpenSecrets: Cryptocurrency Lobbying Spending', url: 'https://www.opensecrets.org/industries/lobbying?ind=E1700', type: 'Research' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
@@ -5452,7 +5452,7 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'DOL', type: 'agency', relationship: 'Found 5,792 children in illegal employment in 2023 (283% increase since 2015); 780 investigators for 11M workplaces; penalties capped at levels that incentivize violations', href: '/entities/agencies/dol' },
+      { id: '1', name: 'DOL', type: 'agency', relationship: 'Found 5,792 children in illegal employment in 2023 (283% increase since 2015); 780 investigators for 11M workplaces; penalties capped at levels that incentivize violations' },
       { id: '2', name: 'HHS', type: 'agency', relationship: 'Lost contact with 85,000 unaccompanied migrant minors placed with sponsors; inadequate vetting allowed labor traffickers to pose as sponsors', href: '/entities/agencies/hhs' },
     ],
    eventOriginDate: '2015-01-01',
@@ -5527,7 +5527,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Receives more credit reporting complaints than any other category; sued TransUnion and Equifax for dispute handling failures; industry challenges CFPB authority after Supreme Court funding ruling', href: '/entities/agencies/cfpb' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Conducted landmark credit report accuracy study; oversees Equifax breach settlement; shares enforcement jurisdiction with CFPB but limited staff for 200M+ consumer files', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Conducted landmark credit report accuracy study; oversees Equifax breach settlement; shares enforcement jurisdiction with CFPB but limited staff for 200M+ consumer files' },
     ],
    eventOriginDate: '2003-01-01',
    lastActivityDate: '2025-02-15',
@@ -5562,7 +5562,7 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Chicago Police Department', type: 'agency', relationship: 'Employed Burge from 1970-1993; OPS report confirmed systematic torture but was suppressed; department failed to investigate credible complaints for over a decade; taxpayers paid $120M+ in settlements', href: '/entities/agencies/chicago-police-department' },
+      { id: '1', name: 'Chicago Police Department', type: 'agency', relationship: 'Employed Burge from 1970-1993; OPS report confirmed systematic torture but was suppressed; department failed to investigate credible complaints for over a decade; taxpayers paid $120M+ in settlements' },
       { id: '2', name: 'Jon Burge', type: 'individual', relationship: 'Area 2 and Area 3 commander who directly participated in and supervised torture of over 120 Black men from 1972-1991; convicted of perjury in 2010; collected police pension until death in 2018', href: '/entities/individuals/jon-burge' },
     ],
    eventOriginDate: '1972-01-01',
@@ -5610,7 +5610,7 @@ const investigations_c: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Atomic Energy Commission', type: 'agency', relationship: 'Funded and authorized over 4,000 human radiation experiments from 1944-1974; issued a 1947 directive requiring consent that was systematically ignored; authorized the Green Run deliberate radiation release over populated areas; classified the experiments for decades; no AEC official was ever prosecuted', href: '/entities/agencies/aec' },
+      { id: '1', name: 'Atomic Energy Commission', type: 'agency', relationship: 'Funded and authorized over 4,000 human radiation experiments from 1944-1974; issued a 1947 directive requiring consent that was systematically ignored; authorized the Green Run deliberate radiation release over populated areas; classified the experiments for decades; no AEC official was ever prosecuted' },
       { id: '2', name: 'Department of Defense', type: 'agency', relationship: 'Funded total body irradiation experiments at University of Cincinnati to determine combat effectiveness after nuclear exposure; 21 of 88 patients died within weeks; funded prison irradiation experiments at Oregon and Washington state prisons', href: '/entities/agencies/dod' },
       { id: '3', name: 'Eugene Saenger', type: 'individual', relationship: 'University of Cincinnati radiologist who conducted DOD-funded total body irradiation on 88 cancer patients; selected predominantly poor Black patients; did not inform subjects of DOD military purpose; at least 21 patients died within weeks; never criminally charged; defended the experiments until his death in 2007', href: '/entities/individuals/eugene-saenger' },
     ],

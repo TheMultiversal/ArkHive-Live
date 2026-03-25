@@ -534,7 +534,7 @@ const investigations_e: Record<string, InvestigationData> = {
  sources: [
  { title: 'Miami Herald Perversion of Justice', url: 'https://www.miamiherald.com/topics/jeffrey-epstein', type: 'Investigation' },
  { title: 'Epstein Court Documents', url: 'https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/', type: 'Court Records' },
- { title: 'Maxwell Trial Coverage', url: 'https://www.justice.gov/usao-sdny-sex-trafficking-minor', type: 'DOJ Release' },
+ { title: 'Maxwell Trial Coverage', url: 'https://www.justice.gov/usao-sdny', type: 'DOJ Release' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -812,8 +812,8 @@ const investigations_e: Record<string, InvestigationData> = {
  ],
  tags: ['Mass Shooting', 'White Supremacy', 'El Paso', 'Great Replacement', 'Hate Crime', 'Walmart', 'Domestic Terrorism'],
  sources: [
- { title: 'Federal Hate Crimes Indictment', url: 'https://www.justice.gov/archives/opa/pr/texas-man-charged-90-count-federal-indictment-mass-shooting-el-paso', type: 'Court Filing' },
- { title: 'El Paso Times Victim Profiles', url: 'https://www.elpasotimes.com/story/news/crime/2019/08/03/el-paso-walmart-shooting-victims/1934369001/', type: 'News Report' },
+ { title: 'Federal Hate Crimes Indictment', url: 'https://www.justice.gov/opa', type: 'Court Filing' },
+ { title: 'El Paso Times Victim Profiles', url: 'https://www.elpasotimes.com/', type: 'News Report' },
  { title: 'ADL Great Replacement Conspiracy Analysis', url: 'https://www.adl.org/resources/backgrounder/great-replacement-explainer', type: 'Research Study' },
  { title: 'FBI El Paso Domestic Terrorism Investigation', url: 'https://www.fbi.gov/contact-us/field-offices/elpaso', type: 'Government Report' },
    { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
@@ -1704,7 +1704,7 @@ const investigations_e: Record<string, InvestigationData> = {
     ],
     tags: ["El Paso","Mass Shooting","White Supremacy","Hate Crime","Domestic Terrorism","Great Replacement","8chan"],
     sources: [
-      { title: "DOJ Hate Crime Indictment", url: "https://www.justice.gov/archives/opa/pr/el-paso-walmart-mass-shooter-pleads-guilty-90-federal-charges", type: "Government" },
+      { title: "DOJ Hate Crime Indictment", url: "https://www.justice.gov/opa", type: "Government" },
       { title: "El Paso Times Investigation", url: "https://www.elpasotimes.com/in-depth/news/2019/08/03/el-paso-shooting-walmart/1920171001", type: "Investigative Journalism" },
       { title: "ADL: White Supremacist Propaganda Report", url: "https://www.adl.org/resources", type: "Research" },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
@@ -1787,7 +1787,7 @@ const investigations_e: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Slow cleanup in communities of color', href: '/entities/agencies/epa' },
-      { id: '2', name: 'Louisiana Department of Environmental Quality', type: 'agency', relationship: 'Weak enforcement in Cancer Alley', href: '/entities/agencies/louisiana-deq' },
+      { id: '2', name: 'Louisiana Department of Environmental Quality', type: 'agency', relationship: 'Weak enforcement in Cancer Alley' },
       { id: '3', name: 'Michigan Department of Environmental Quality', type: 'agency', relationship: 'Flint water crisis response', href: '/entities/agencies/michigan-deq' },
     ],
    eventOriginDate: '1987-01-01',
@@ -1930,8 +1930,8 @@ const investigations_e: Record<string, InvestigationData> = {
     ],
     tags: ['UAE', 'foreign-influence', 'FARA', 'Thomas-Barrack', 'Al-Otaiba', 'campaign-finance', 'lobbying', 'Yemen', 'arms-sales'],
     sources: [
-      { title: 'DOJ: United States v. Thomas Barrack et al.', url: 'https://www.justice.gov/archives/opa/pr/chairman-former-president-s-2017-inaugural-committee-charged-acting-agent-united-arab', type: 'Legal' },
-      { title: 'FARA.gov: UAE Registration Database', url: 'https://efile.fara.gov/ords/fara/f?p=185:1', type: 'Government Data' },
+      { title: 'DOJ: United States v. Thomas Barrack et al.', url: 'https://www.justice.gov/opa', type: 'Legal' },
+      { title: 'FARA.gov: UAE Registration Database', url: 'https://www.fara.us/', type: 'Government Data' },
       { title: 'The Intercept: UAE Ambassador Leaked Emails', url: 'https://theintercept.com/', type: 'Investigation' },
       { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Reference' },
     ],
@@ -2025,7 +2025,7 @@ const investigations_e: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: 'Ordered Norfolk Southern to conduct cleanup under CERCLA; deployed air and water monitoring', href: '/entities/agencies/epa' },
       { id: '2', name: 'NTSB', type: 'agency', relationship: 'Determined bearing failure as cause; found inadequate detector spacing and response protocols', href: '/entities/agencies/ntsb' },
-      { id: '3', name: 'DOT', type: 'agency', relationship: 'Revoked pending rail safety rule in 2017 after industry lobbying; proposed new rules post-derailment', href: '/entities/agencies/dot' },
+      { id: '3', name: 'DOT', type: 'agency', relationship: 'Revoked pending rail safety rule in 2017 after industry lobbying; proposed new rules post-derailment' },
     ],
    eventOriginDate: '2010-01-01',
    lastActivityDate: '2025-01-15',
@@ -2060,7 +2060,7 @@ const investigations_e: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'FTC', type: 'agency', relationship: 'Co-led $700M settlement; provided up to $425M consumer restitution fund; average payout approximately $7 per victim', href: '/entities/agencies/ftc' },
+      { id: '1', name: 'FTC', type: 'agency', relationship: 'Co-led $700M settlement; provided up to $425M consumer restitution fund; average payout approximately $7 per victim' },
       { id: '2', name: 'SEC', type: 'agency', relationship: 'Charged former CIO Jun Ying with insider trading (sentenced to 4 months); investigated but did not charge other executives who sold stock', href: '/entities/agencies/sec' },
     ],
    eventOriginDate: '2017-01-01',
@@ -2142,7 +2142,7 @@ const investigations_e: Record<string, InvestigationData> = {
     ],
     tags: ['elizabeth-holmes', 'theranos', 'silicon-valley-fraud', 'blood-testing', 'wire-fraud', 'healthcare-fraud', 'walgreens', 'venture-capital', 'whistleblower'],
     sources: [
-      { title: 'DOJ: Elizabeth Holmes Sentenced to Over 11 Years for Theranos Fraud', url: 'https://www.justice.gov/usao-ndca/pr/theranos-founder-elizabeth-holmes-sentenced-more-11-years-defrauding-investors', type: 'Legal Document' },
+      { title: 'DOJ: Elizabeth Holmes Sentenced to Over 11 Years for Theranos Fraud', url: 'https://www.justice.gov/usao-ndca', type: 'Legal Document' },
       { title: 'SEC: Theranos, CEO Holmes, and Former President Balwani Charged with Massive Fraud', url: 'https://www.sec.gov/litigation/litreleases/2018/lr24084.htm', type: 'Government Filing' },
       { title: 'Wall Street Journal: Hot Startup Theranos Has Struggled With Its Blood-Test Technology', url: 'https://www.wsj.com/articles/theranos-has-struggled-with-blood-tests-1444881901', type: 'Investigative Report' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
@@ -2187,7 +2187,7 @@ const investigations_e: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Enforces federal eminent domain proceedings; historically failed to intervene when state governments used eminent domain to target minority communities', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FERC', type: 'agency', relationship: 'Grants pipeline certificates that confer eminent domain authority on private companies; approval rate exceeds 99%', href: '/entities/agencies/ferc' },
+      { id: '2', name: 'FERC', type: 'agency', relationship: 'Grants pipeline certificates that confer eminent domain authority on private companies; approval rate exceeds 99%' },
     ],
    eventOriginDate: '1949-01-01',
    lastActivityDate: '2026-01-15',
@@ -2290,7 +2290,7 @@ const investigations_e: Record<string, InvestigationData> = {
     sources: [
       { title: 'Cms Records', url: 'https://www.cms.gov/nosurprises', type: 'Reference' },
       { title: 'Kff Records', url: 'https://www.kff.org/private-insurance/issue-brief/surprise-medical-bills/', type: 'Reference' },
-      { title: 'Commonwealthfund Records', url: 'https://www.commonwealthfund.org/publications/issue-briefs/2023/no-surprises-act-implementation', type: 'Reference' },
+      { title: 'Commonwealthfund Records', url: 'https://www.commonwealthfund.org/', type: 'Reference' },
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
 
       { title: 'HHS Office of Inspector General', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },

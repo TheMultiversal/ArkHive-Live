@@ -186,7 +186,7 @@ export interface Affiliation {
  /** Description of the relationship */
  relationship: string;
  /** Link to the connected entity's page */
- href: string;
+ href?: string;
  /** Strength/type of connection */
  strength?:"direct"|"indirect"|"financial"|"regulatory"|"political";
 }

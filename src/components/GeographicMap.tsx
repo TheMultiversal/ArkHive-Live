@@ -212,7 +212,7 @@ function RegionCard({ region, config, entities, isExpanded, onToggle }: RegionCa
             return (
               <Link
                 key={idx}
-                href={item.entity.href}
+                href={item.entity.href || '#'}
                 className="flex items-center gap-2 p-2 bg-zinc-900/50 hover:bg-zinc-800/20 transition-colors"
               >
                 <Icon className={`w-4 h-4 ${typeConf.color}`} />

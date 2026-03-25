@@ -3187,7 +3187,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Ismail Enver', 'Enver Bey'],
     knownAssociates: [
-      { name: 'Talat Pasha', relationship: 'Fellow triumvir and Grand Vizier who co-organized the Armenian Genocide', href: '/individuals/talat-pasha' },
+      { name: 'Talat Pasha', relationship: 'Fellow triumvir and Grand Vizier who co-organized the Armenian Genocide', href: '/entities/individuals/talat-pasha' },
     ],
   },
   'elliott-broidy': {

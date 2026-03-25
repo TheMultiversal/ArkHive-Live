@@ -4755,9 +4755,9 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: [],
     knownAssociates: [
-      { name: 'Harlan Crow', relationship: 'Billionaire benefactor; $4M+ in undisclosed gifts', href: '/individuals/harlan-crow' },
+      { name: 'Harlan Crow', relationship: 'Billionaire benefactor; $4M+ in undisclosed gifts', href: '/entities/individuals/harlan-crow' },
       { name: 'Virginia Thomas', relationship: 'Wife; conservative activist who advocated overturning 2020 election' },
-      { name: 'Leonard Leo', relationship: 'Federalist Society leader; dark money network', href: '/individuals/leonard-leo' },
+      { name: 'Leonard Leo', relationship: 'Federalist Society leader; dark money network', href: '/entities/individuals/leonard-leo' },
     ],
   },
   'charles-koch': {

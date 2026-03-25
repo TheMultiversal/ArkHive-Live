@@ -499,7 +499,7 @@ export default function HushMoneyPage() {
  {/* Entities Involved */}
  <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.64 }} className="border-2 border-[rgba(255,255,255,0.15)] bg-[#080808] p-6 mb-8">
  <h2 className="text-xl font-bold glass-text uppercase tracking-wider mb-4 flex items-center gap-2"><Building2 className="w-5 h-5 text-zinc-300"/>Entities Involved</h2>
- <div className="space-y-3">{investigation.entitiesInvolved.map((entity, idx) => (<Link key={idx} href={entity.href} className="block p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-700 transition-colors group"><div className="flex justify-between items-start"><p className="font-bold glass-text group-hover:text-white">{entity.name}</p><span className="text-xs text-zinc-400">{entity.status}</span></div><p className="text-xs text-zinc-400 mt-1">{entity.role}</p></Link>))}</div>
+ <div className="space-y-3">{investigation.entitiesInvolved.map((entity, idx) => (<Link key={idx} href={entity.href || '#'} className="block p-4 bg-[#0a0a0a] border border-[rgba(255,255,255,0.15)] hover:border-zinc-700 transition-colors group"><div className="flex justify-between items-start"><p className="font-bold glass-text group-hover:text-white">{entity.name}</p><span className="text-xs text-zinc-400">{entity.status}</span></div><p className="text-xs text-zinc-400 mt-1">{entity.role}</p></Link>))}</div>
  </motion.div>
 
  {/* Sources */}

@@ -466,7 +466,7 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Michael Cohen', relationship: 'Columbus Nova paid $580K to Cohen\'s shell company', href: '/entities/individuals/michael-cohen' },
  { name: 'Michael Flynn', relationship: 'Attended 2015 RT gala and 2017 inauguration dinner together', href: '/entities/individuals/michael-flynn' },
- { name: 'Andrew Intrater', relationship: 'Cousin who runs Columbus Nova; made payments to Cohen', href: '/entities/individuals/andrew-intrater' },
+ { name: 'Andrew Intrater', relationship: 'Cousin who runs Columbus Nova; made payments to Cohen' },
  ],
  },
 
@@ -926,7 +926,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: [],
  knownAssociates: [
- { name: 'Paul Mele', relationship: 'Research partner at Philip Morris whose joint nicotine addiction studies were suppressed', href: '/entities/individuals/paul-mele' },
+ { name: 'Paul Mele', relationship: 'Research partner at Philip Morris whose joint nicotine addiction studies were suppressed' },
  ],
  },
 

@@ -2128,8 +2128,8 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['The Lobotomist', 'The Ice Pick Doctor'],
     knownAssociates: [
-      { name: 'James Watts', relationship: 'Neurosurgery partner at GWU who performed the actual surgery for prefrontal lobotomies (1936-1946); ended partnership when Freeman developed the transorbital technique', href: '/entities/individuals/james-watts' },
-      { name: 'Egas Moniz', relationship: 'Portuguese neurologist who invented the lobotomy in 1935 and received the 1949 Nobel Prize; Freeman adapted and promoted his technique in the United States', href: '/entities/individuals/egas-moniz' },
+      { name: 'James Watts', relationship: 'Neurosurgery partner at GWU who performed the actual surgery for prefrontal lobotomies (1936-1946); ended partnership when Freeman developed the transorbital technique' },
+      { name: 'Egas Moniz', relationship: 'Portuguese neurologist who invented the lobotomy in 1935 and received the 1949 Nobel Prize; Freeman adapted and promoted his technique in the United States' },
     ],
   },
 };

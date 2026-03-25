@@ -21,7 +21,7 @@ const investigations_o: Record<string, InvestigationData> = {
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
- { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
  { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/world-report', type: 'Report' },
@@ -106,7 +106,7 @@ const investigations_o: Record<string, InvestigationData> = {
  sources: [
  { title: 'Perkins Coie Independent Investigation Report', url: 'https://compliance.osu.edu/strauss-investigation.html', type: 'Investigation' },
  { title: 'DOJ Review of Strauss Allegations', url: 'https://www.nytimes.com/2019/05/17/us/ohio-state-sexual-abuse.html', type: 'News Report' },
- { title: 'Ohio State Strauss Settlement', url: 'https://www.dispatch.com/story/news/courts/2023/03/06/ohio-state-strauss-abuse-settlement/69967291007/', type: 'News Report' },
+ { title: 'Ohio State Strauss Settlement', url: 'https://www.dispatch.com/', type: 'News Report' },
  { title: 'Congressional Inquiry into Jim Jordan', url: 'https://www.cnn.com/2020/03/06/politics/jim-jordan-ohio-state/index.html', type: 'News Report' },
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
@@ -149,7 +149,7 @@ const investigations_o: Record<string, InvestigationData> = {
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
- { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
  { title: 'Senate Select Committee on Intelligence', url: 'https://www.intelligence.senate.gov/publications', type: 'Government' },
  { title: 'The Rendition Project', url: 'https://www.therenditionproject.org.uk/', type: 'Archive' },
  { title: 'ACLU National Security', url: 'https://www.aclu.org/issues/national-security', type: 'Report' },
@@ -432,7 +432,7 @@ const investigations_o: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'CIA', type: 'agency', relationship: 'Maintained separate Nazi recruitment through BLOODSTONE; shielded Paperclip scientists from prosecution', href: '/entities/agencies/cia' },
       { id: '2', name: 'Pentagon', type: 'agency', relationship: 'JIOA under the Joint Chiefs falsified records to import over 1,600 Nazi scientists bypassing Truman\'s directive', href: '/entities/agencies/pentagon' },
-      { id: '3', name: 'NASA', type: 'agency', relationship: 'Employed former Nazi scientists including von Braun (Saturn V) and Rudolph (later denaturalized for war crimes)', href: '/entities/agencies/nasa' },
+      { id: '3', name: 'NASA', type: 'agency', relationship: 'Employed former Nazi scientists including von Braun (Saturn V) and Rudolph (later denaturalized for war crimes)' },
     ],
    eventOriginDate: '1945-01-01',
    lastActivityDate: '2024-06-05',
@@ -1316,9 +1316,9 @@ const investigations_o: Record<string, InvestigationData> = {
       { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Joint Intelligence Objectives Agency', type: 'agency', relationship: 'Planned and executed Operation Paperclip; systematically falsified security evaluations to circumvent presidential directives; overrode State Department and FBI objections; no JIOA officer was ever disciplined', href: '/entities/agencies/jioa' },
+      { id: '1', name: 'Joint Intelligence Objectives Agency', type: 'agency', relationship: 'Planned and executed Operation Paperclip; systematically falsified security evaluations to circumvent presidential directives; overrode State Department and FBI objections; no JIOA officer was ever disciplined' },
       { id: '2', name: 'Wernher von Braun', type: 'individual', relationship: 'SS-Sturmbannfuhrer and technical director of the V-2 program that used 60,000 slave laborers from Mittelbau-Dora; became director of NASA Marshall Space Flight Center and architect of the Saturn V rocket; received the National Medal of Science; never investigated for war crimes by the United States', href: '/entities/individuals/wernher-von-braun' },
-      { id: '3', name: 'NASA', type: 'agency', relationship: 'Employed dozens of Paperclip scientists in senior positions; von Braun directed the Saturn V program; Strughold served as chief scientist of Aerospace Medical Division; Rudolph managed the Saturn V production; NASA awarded Distinguished Service Medals to individuals later investigated for war crimes', href: '/entities/agencies/nasa' },
+      { id: '3', name: 'NASA', type: 'agency', relationship: 'Employed dozens of Paperclip scientists in senior positions; von Braun directed the Saturn V program; Strughold served as chief scientist of Aerospace Medical Division; Rudolph managed the Saturn V production; NASA awarded Distinguished Service Medals to individuals later investigated for war crimes' },
     ],
    eventOriginDate: '1907-01-01',
    lastActivityDate: '2025-05-01',

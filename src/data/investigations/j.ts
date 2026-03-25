@@ -26,7 +26,7 @@ const investigations_j: Record<string, InvestigationData> = {
  ],
  tags: ['Federalist Society', 'Supreme Court', 'Leonard Leo', 'Judicial Appointments', 'Trump Judges', 'Conservative Courts'],
  sources: [
- { title: 'Federalist Society Influence Study', url: 'https://www.americanprogress.org/article/the-federalist-society/', type: 'Research' },
+ { title: 'Federalist Society Influence Study', url: 'https://www.americanprogress.org/', type: 'Research' },
  { title: 'Trump Judicial Appointments Analysis', url: 'https://www.pewresearch.org/short-reads/2021/01/13/how-trump-compares-with-other-recent-presidents-in-appointing-federal-judges/', type: 'Research' },
  { title: 'Dobbs v. Jackson Decision', url: 'https://www.supremecourt.gov/opinions/21pdf/19-1392_6j37.pdf', type: 'Court Opinion' },
  { title: 'Dark Money by Jane Mayer', url: 'https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/', type: 'Book' },
@@ -369,7 +369,7 @@ const investigations_j: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'FDA', type: 'agency', relationship: 'Delayed e-cigarette regulation until 2020 deeming rule; briefly ordered JUUL off market in 2022 then reversed; has not effectively controlled youth vaping', href: '/entities/agencies/fda' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated JUUL\'s marketing practices but relied primarily on state-level enforcement actions', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Investigated JUUL\'s marketing practices but relied primarily on state-level enforcement actions' },
     ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-01-15',

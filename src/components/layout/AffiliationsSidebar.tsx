@@ -112,7 +112,7 @@ export default function AffiliationsSidebar({
  {items.map((aff) => (
  <Link
  key={aff.id}
- href={aff.href}
+ href={aff.href || '#'}
  className={`block p-3 border transition-all duration-200 hover:scale-[1.02] ${
  typeColors[aff.type as keyof typeof typeColors]
  }`}

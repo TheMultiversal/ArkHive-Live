@@ -321,7 +321,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: ['al-Bashir'],
  knownAssociates: [
- { name: 'Mohamed Hamdan Dagalo (Hemedti)', relationship: 'Janjaweed/RSF leader Bashir empowered; later launched 2023 civil war', href: '/entities/individuals/mohamed-hamdan-dagalo' },
+ { name: 'Mohamed Hamdan Dagalo (Hemedti)', relationship: 'Janjaweed/RSF leader Bashir empowered; later launched 2023 civil war' },
  ],
  },
 

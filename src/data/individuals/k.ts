@@ -1455,7 +1455,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: [],
  knownAssociates: [
-  { name: 'Vlad Tenev', relationship: 'Co-founder and CEO of Robinhood; Citadel Securities is Robinhood\'s largest customer for payment for order flow', href: '/entities/individuals/vlad-tenev' },
+  { name: 'Vlad Tenev', relationship: 'Co-founder and CEO of Robinhood; Citadel Securities is Robinhood\'s largest customer for payment for order flow' },
   { name: 'Ben Bernanke', relationship: 'Former Federal Reserve Chair; hired as senior advisor to Citadel in 2015', href: '/entities/individuals/ben-bernanke' },
  ],
  },
@@ -1779,7 +1779,7 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  aliases: ['Kenny Boy'],
  knownAssociates: [
-  { name: 'Jeff Skilling', relationship: 'Enron CEO; convicted of conspiracy and securities fraud; sentenced to 24 years (later reduced to 14)', href: '/entities/individuals/jeff-skilling' },
+  { name: 'Jeff Skilling', relationship: 'Enron CEO; convicted of conspiracy and securities fraud; sentenced to 24 years (later reduced to 14)' },
   { name: 'Andrew Fastow', relationship: 'Enron CFO; architect of SPE fraud schemes; cooperated with prosecutors; sentenced to 6 years', href: '/entities/individuals/andrew-fastow' },
   { name: 'Sherron Watkins', relationship: 'Enron VP who warned Lay about accounting fraud in August 2001 memo; named Time Person of the Year 2002', href: '/entities/individuals/sherron-watkins' },
  ],
@@ -3312,7 +3312,7 @@ const profiles: Record<string, IndividualProfile> = {
     ],
     aliases: ['Butcher of Lyon'],
     knownAssociates: [
-      { name: 'Adolf Eichmann', relationship: 'Fellow Nazi war criminal', href: '/entities/individuals/adolf-eichmann' },
+      { name: 'Adolf Eichmann', relationship: 'Fellow Nazi war criminal' },
     ],
   },
   'kim-jong-il': {
@@ -3358,11 +3358,11 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2011-12-17', event: 'Dies of heart attack on his personal train' },
     ],
     sources: [
-      { title: 'UN Commission of Inquiry on Human Rights in the DPRK', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/commission-inquiry-on-hr-in-dprk', date: '2014' },
+      { title: 'UN Commission of Inquiry on Human Rights in the DPRK', url: 'https://www.ohchr.org/en/hr-bodies/hrc', date: '2014' },
     ],
     aliases: ['Dear Leader', 'Supreme Leader', 'Brilliant Leader'],
     knownAssociates: [
-      { name: 'Kim Jong-un', relationship: 'Son and successor as Supreme Leader', href: '/individuals/kim-jong-un' },
+      { name: 'Kim Jong-un', relationship: 'Son and successor as Supreme Leader', href: '/entities/individuals/kim-jong-un' },
     ],
   },
   'kim-jong-un': {
@@ -3407,11 +3407,11 @@ const profiles: Record<string, IndividualProfile> = {
       { date: '2022', event: 'Launches record number of ballistic missiles' },
     ],
     sources: [
-      { title: 'UN Commission of Inquiry on Human Rights in the DPRK', url: 'https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/commission-inquiry-on-hr-in-dprk', date: '2014' },
+      { title: 'UN Commission of Inquiry on Human Rights in the DPRK', url: 'https://www.ohchr.org/en/hr-bodies/hrc', date: '2014' },
     ],
     aliases: ['Supreme Leader', 'Marshal', 'Beloved Leader'],
     knownAssociates: [
-      { name: 'Kim Jong-il', relationship: 'Father and predecessor as Supreme Leader', href: '/individuals/kim-jong-il' },
+      { name: 'Kim Jong-il', relationship: 'Father and predecessor as Supreme Leader', href: '/entities/individuals/kim-jong-il' },
     ],
   },  'kris-kobach': {
     name: 'Kris Kobach',

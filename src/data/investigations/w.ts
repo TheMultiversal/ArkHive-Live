@@ -1341,7 +1341,7 @@ const investigations_w: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Model for invasive worker surveillance; tracks warehouse workers\' every movement in seconds; AI cameras monitor delivery drivers; injury rate double industry average', href: '/entities/corporations/amazon-inc' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
 
     ],
    eventOriginDate: '1986-01-01',
@@ -1553,7 +1553,7 @@ const investigations_w: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Fined Wells Fargo $100M in 2016 and $1B in 2018; primary consumer protection enforcer', href: '/entities/agencies/cfpb' },
-      { id: '2', name: 'OCC', type: 'agency', relationship: 'Primary regulator that failed to act on complaints for years; eventually barred CEO and fined executives', href: '/entities/agencies/occ' },
+      { id: '2', name: 'OCC', type: 'agency', relationship: 'Primary regulator that failed to act on complaints for years; eventually barred CEO and fined executives' },
       { id: '3', name: 'DOJ', type: 'agency', relationship: 'Settled with Wells Fargo for $3B in 2020; no individual criminal charges against senior executives', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '1818-01-01',
@@ -1595,7 +1595,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has ~750 investigators for 10.6M workplaces; recovers only fraction of stolen wages', href: '/entities/agencies/dol' },
+      { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has ~750 investigators for 10.6M workplaces; recovers only fraction of stolen wages' },
       { id: '2', name: 'IRS', type: 'agency', relationship: 'Loses $7B+/year in payroll tax revenue from worker misclassification; limited enforcement capacity', href: '/entities/agencies/irs' },
     ],
    eventOriginDate: '2009-01-01',
@@ -1624,7 +1624,7 @@ const investigations_w: Record<string, InvestigationData> = {
     tags: ['worldcom', 'bernie-ebbers', 'accounting-fraud', 'telecom', 'bankruptcy', 'sarbanes-oxley', 'securities-fraud', 'enron-era'],
     sources: [
       { title: 'SEC: WorldCom Fraud Case', url: 'https://www.sec.gov/spotlight/worldcom.htm', type: 'Government Filing' },
-      { title: 'Department of Justice: United States v. Bernard Ebbers', url: 'https://www.justice.gov/archives/dag/corporate-fraud-task-force', type: 'Legal Document' },
+      { title: 'Department of Justice: United States v. Bernard Ebbers', url: 'https://www.justice.gov/dag', type: 'Legal Document' },
       { title: 'TIME: Persons of the Year 2002 - The Whistleblowers', url: 'https://time.com/', type: 'Investigative Report' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
@@ -1670,8 +1670,8 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'BaFin', type: 'agency', relationship: 'German regulator attacked journalists exposing fraud; banned short-selling Wirecard stock; investigated whistleblowers instead of company', href: '/entities/agencies/bafin' },
-      { id: '2', name: 'EY', type: 'corporation', relationship: 'Audited Wirecard for decade without detecting $2B fraud; repeatedly issued clean audit opinions on fabricated accounts', href: '/entities/corporations/ey' },
+      { id: '1', name: 'BaFin', type: 'agency', relationship: 'German regulator attacked journalists exposing fraud; banned short-selling Wirecard stock; investigated whistleblowers instead of company' },
+      { id: '2', name: 'EY', type: 'corporation', relationship: 'Audited Wirecard for decade without detecting $2B fraud; repeatedly issued clean audit opinions on fabricated accounts' },
     ],
    eventOriginDate: '1999-01-01',
    lastActivityDate: '2024-08-10',
@@ -1751,7 +1751,7 @@ const investigations_w: Record<string, InvestigationData> = {
       { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has fewer investigators than 1948 despite workforce tripling; recovers only fraction of stolen wages; criminal referrals nearly nonexistent', href: '/entities/agencies/dol' },
+      { id: '1', name: 'DOL', type: 'agency', relationship: 'Wage and Hour Division has fewer investigators than 1948 despite workforce tripling; recovers only fraction of stolen wages; criminal referrals nearly nonexistent' },
       { id: '2', name: 'IRS', type: 'agency', relationship: 'Loses $15B+ annually in payroll tax revenue from worker misclassification; enforcement limited by congressional budget cuts and political pressure from gig economy lobby', href: '/entities/agencies/irs' },
     ],
    eventOriginDate: '1948-01-01',
@@ -1786,7 +1786,7 @@ const investigations_w: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'EPA', type: 'agency', relationship: '12,000+ water systems in violation of federal standards at any time; Lead and Copper Rule updated in 2024 but enforcement depends on state implementation', href: '/entities/agencies/epa' },
-      { id: '2', name: 'IHS', type: 'agency', relationship: '48% of tribal homes lack adequate water infrastructure; chronic underfunding of Indian Health Service water programs; decades of broken treaty obligations', href: '/entities/agencies/ihs' },
+      { id: '2', name: 'IHS', type: 'agency', relationship: '48% of tribal homes lack adequate water infrastructure; chronic underfunding of Indian Health Service water programs; decades of broken treaty obligations' },
     ],
    eventOriginDate: '1986-01-01',
    lastActivityDate: '2025-03-01',
@@ -1826,7 +1826,7 @@ const investigations_w: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'SEC', type: 'agency', relationship: 'Dodd-Frank whistleblower program paid $2.2B+ in awards; anti-retaliation enforcement is slow and cases take years; corporate pressure to narrow award eligibility ongoing', href: '/entities/agencies/sec' },
-      { id: '2', name: 'OSC', type: 'agency', relationship: 'Office of Special Counsel investigates federal whistleblower retaliation but has limited enforcement power; staffing inadequate for incoming case volume; intelligence community largely outside jurisdiction', href: '/entities/agencies/osc' },
+      { id: '2', name: 'OSC', type: 'agency', relationship: 'Office of Special Counsel investigates federal whistleblower retaliation but has limited enforcement power; staffing inadequate for incoming case volume; intelligence community largely outside jurisdiction' },
     ],
    eventOriginDate: '2012-01-01',
    lastActivityDate: '2025-02-12',

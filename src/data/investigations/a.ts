@@ -824,7 +824,7 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
- { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
  { title: 'Citizens for Responsibility and Ethics in Washington', url: 'https://www.citizensforethics.org/', type: 'Report' },
@@ -929,7 +929,7 @@ const investigations_a: Record<string, InvestigationData> = {
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
- { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/research-projects', type: 'Report' },
+ { title: 'START - National Consortium for Study of Terrorism', url: 'https://www.start.umd.edu/', type: 'Report' },
  { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
  { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
  { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' },
@@ -1374,7 +1374,7 @@ const investigations_a: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'Monsanto', type: 'corporation', relationship: 'Revolving door with USDA leadership; GMO deregulation beneficiary', href: '/entities/corporations/monsanto' },
- { id: '2', name: 'Tyson Foods', type: 'corporation', relationship: 'Dominant meatpacker benefiting from weakened GIPSA enforcement', href: '/entities/corporations/tyson-foods' },
+ { id: '2', name: 'Tyson Foods', type: 'corporation', relationship: 'Dominant meatpacker benefiting from weakened GIPSA enforcement' },
  { id: '3', name: 'USDA', type: 'agency', relationship: 'Captured regulatory agency at center of investigation', href: '/entities/agencies/usda' },
  ],
    eventOriginDate: '2003-01-01',
@@ -1598,7 +1598,7 @@ const investigations_a: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'Pentagon', type: 'agency', relationship: 'Replicator initiative; $1.8B+ DARPA autonomy budget', href: '/entities/agencies/pentagon' },
  { id: '2', name: 'Lockheed Martin Corporation', type: 'corporation', relationship: 'Major autonomous systems developer; DARPA program contractor', href: '/entities/corporations/lockheed-martin' },
- { id: '3', name: 'Israel Aerospace Industries', type: 'corporation', relationship: 'Manufacturer of Harpy/Harop autonomous loitering munitions', href: '/entities/corporations/israel-aerospace-industries' },
+ { id: '3', name: 'Israel Aerospace Industries', type: 'corporation', relationship: 'Manufacturer of Harpy/Harop autonomous loitering munitions' },
  ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-04-08',
@@ -1849,7 +1849,7 @@ const investigations_a: Record<string, InvestigationData> = {
     affiliations: [
  { id: '1', name: 'DHS', type: 'agency', relationship: 'Parent agency overseeing CBP and TSA biometric programs', href: '/entities/agencies/dhs' },
  { id: '2', name: 'CBP', type: 'agency', relationship: 'Operator of facial recognition at 260+ airports; 300M+ scans', href: '/entities/agencies/cbp' },
- { id: '3', name: 'TSA', type: 'agency', relationship: 'Expanding domestic facial recognition to 400+ airports', href: '/entities/agencies/tsa' },
+ { id: '3', name: 'TSA', type: 'agency', relationship: 'Expanding domestic facial recognition to 400+ airports' },
  ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-03-25',
@@ -1931,7 +1931,7 @@ const investigations_a: Record<string, InvestigationData> = {
     ],
     affiliations: [
  { id: '1', name: 'DOJ', type: 'agency', relationship: 'Kleptocracy Asset Recovery Initiative; art seizure actions', href: '/entities/agencies/doj' },
- { id: '2', name: 'FinCEN', type: 'agency', relationship: '2025 antiquities AML rule leaving contemporary art unregulated', href: '/entities/agencies/fincen' },
+ { id: '2', name: 'FinCEN', type: 'agency', relationship: '2025 antiquities AML rule leaving contemporary art unregulated' },
  ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-03-17',
@@ -1971,7 +1971,7 @@ const investigations_a: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'USDA', type: 'agency', relationship: 'Oversees agricultural industry with minimal labor protection mandate', href: '/entities/agencies/usda' },
-      { id: '2', name: 'DOL', type: 'agency', relationship: 'H-2A program oversight; found 74% violation rate in audited operations', href: '/entities/agencies/dol' },
+      { id: '2', name: 'DOL', type: 'agency', relationship: 'H-2A program oversight; found 74% violation rate in audited operations' },
       { id: '3', name: 'EPA', type: 'agency', relationship: 'Delayed chlorpyrifos ban for years despite scientific evidence', href: '/entities/agencies/epa' },
     ],
    eventOriginDate: '1938-01-01',
@@ -2136,7 +2136,7 @@ const investigations_a: Record<string, InvestigationData> = {
     affiliations: [
       { id: '1', name: 'Department of Defense', type: 'agency', relationship: 'AI strategy and funding', href: '/entities/agencies/department-of-defense' },
       { id: '2', name: 'Palantir Technologies', type: 'corporation', relationship: 'AI surveillance tools for government', href: '/entities/corporations/palantir' },
-      { id: '3', name: 'Anduril Industries', type: 'corporation', relationship: 'AI-powered surveillance systems', href: '/entities/corporations/anduril' },
+      { id: '3', name: 'Anduril Industries', type: 'corporation', relationship: 'AI-powered surveillance systems' },
     ],
    eventOriginDate: '2017-01-01',
    lastActivityDate: '2025-10-20',
@@ -2174,8 +2174,8 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'W.R. Grace & Co.', type: 'corporation', relationship: 'Libby asbestos mine contamination', href: '/entities/corporations/wr-grace' },
-      { id: '2', name: 'Manville Corporation', type: 'corporation', relationship: 'Concealed asbestos dangers', href: '/entities/corporations/manville' },
+      { id: '1', name: 'W.R. Grace & Co.', type: 'corporation', relationship: 'Libby asbestos mine contamination' },
+      { id: '2', name: 'Manville Corporation', type: 'corporation', relationship: 'Concealed asbestos dangers' },
       { id: '3', name: 'EPA', type: 'agency', relationship: 'Asbestos regulation and Superfund cleanup', href: '/entities/agencies/epa' },
     ],
    eventOriginDate: '1960-01-01',
@@ -2218,9 +2218,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Talat Pasha', type: 'individual', relationship: 'Grand Vizier and Interior Minister who ordered deportations and extermination; sentenced to death in absentia; assassinated 1921', href: '/individuals/talat-pasha' },
-      { id: '2', name: 'Enver Pasha', type: 'individual', relationship: 'War Minister who provided military resources for genocide operations; sentenced to death in absentia', href: '/individuals/enver-pasha' },
-      { id: '3', name: 'Henry Morgenthau Sr.', type: 'individual', relationship: 'US Ambassador who documented genocide and pleaded for intervention', href: '/individuals/henry-morgenthau-sr' },
+      { id: '1', name: 'Talat Pasha', type: 'individual', relationship: 'Grand Vizier and Interior Minister who ordered deportations and extermination; sentenced to death in absentia; assassinated 1921', href: '/entities/individuals/talat-pasha' },
+      { id: '2', name: 'Enver Pasha', type: 'individual', relationship: 'War Minister who provided military resources for genocide operations; sentenced to death in absentia', href: '/entities/individuals/enver-pasha' },
+      { id: '3', name: 'Henry Morgenthau Sr.', type: 'individual', relationship: 'US Ambassador who documented genocide and pleaded for intervention' },
     ],
    eventOriginDate: '1899-01-01',
    lastActivityDate: '2024-12-15',
@@ -2267,9 +2267,9 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'PW Botha', type: 'individual', relationship: 'President and Prime Minister who escalated state violence, ordered cross-border raids, and oversaw Project Coast', href: '/individuals/pw-botha' },
-      { id: '2', name: 'Nelson Mandela', type: 'individual', relationship: 'ANC leader imprisoned for 27 years; led transition to democracy; first Black president of South Africa', href: '/individuals/nelson-mandela' },
-      { id: '3', name: 'Hendrik Verwoerd', type: 'individual', relationship: 'Prime Minister known as "Architect of Apartheid" who designed the Bantustan system and Bantu Education', href: '/individuals/hendrik-verwoerd' },
+      { id: '1', name: 'PW Botha', type: 'individual', relationship: 'President and Prime Minister who escalated state violence, ordered cross-border raids, and oversaw Project Coast', href: '/entities/individuals/pw-botha' },
+      { id: '2', name: 'Nelson Mandela', type: 'individual', relationship: 'ANC leader imprisoned for 27 years; led transition to democracy; first Black president of South Africa', href: '/entities/individuals/nelson-mandela' },
+      { id: '3', name: 'Hendrik Verwoerd', type: 'individual', relationship: 'Prime Minister known as "Architect of Apartheid" who designed the Bantustan system and Bantu Education', href: '/entities/individuals/hendrik-verwoerd' },
     ],
    eventOriginDate: '1948-01-01',
    lastActivityDate: '2024-12-15',
@@ -2306,8 +2306,8 @@ const investigations_a: Record<string, InvestigationData> = {
     tags: ['AIPAC', 'foreign-lobbying', 'FARA', 'Israel', 'campaign-finance', 'Super-PAC', 'dual-citizenship', 'foreign-influence', 'Saudi-Arabia', 'arms-sales'],
     sources: [
       { title: 'OpenSecrets: AIPAC Lobbying Profile', url: 'https://www.opensecrets.org/orgs/aipac/summary?id=D000046963', type: 'Database' },
-      { title: 'FARA.gov: Foreign Agents Registration Act Database', url: 'https://efile.fara.gov/ords/fara/f?p=185:1', type: 'Government Data' },
-      { title: 'Grant F. Smith: America\'s Defense Line - The Justice Department\'s Battle to Register the Israel Lobby as Agents of a Foreign Government', url: 'https://www.irmep.org', type: 'Book' },
+      { title: 'FARA.gov: Foreign Agents Registration Act Database', url: 'https://www.fara.us/', type: 'Government Data' },
+      { title: 'Grant F. Smith: America\'s Defense Line - The Justice Department\'s Battle to Register the Israel Lobby as Agents of a Foreign Government', url: 'https://irmep.com/', type: 'Book' },
       { title: 'FEC: United Democracy Project Filing Data', url: 'https://www.fec.gov/data/committee/C00798009/', type: 'Government Data' },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
@@ -2354,7 +2354,7 @@ const investigations_a: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'OSHA', type: 'agency', relationship: 'Cited Amazon warehouses for ergonomic hazards in 2023; injury rate nearly double industry average but fines remain minimal', href: '/entities/agencies/osha' },
-      { id: '2', name: 'NLRB', type: 'agency', relationship: 'Found Amazon guilty of multiple unfair labor practices; ordered new Bessemer election due to company interference', href: '/entities/agencies/nlrb' },
+      { id: '2', name: 'NLRB', type: 'agency', relationship: 'Found Amazon guilty of multiple unfair labor practices; ordered new Bessemer election due to company interference' },
     ],
    eventOriginDate: '2014-01-01',
    lastActivityDate: '2025-01-15',
@@ -2392,8 +2392,8 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'FTC Consumer Protection', url: 'https://www.ftc.gov/enforcement', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'EEOC', type: 'agency', relationship: 'Issued 2023 guidance on AI in hiring; investigating algorithmic discrimination complaints but lacks technical capacity for large-scale enforcement', href: '/entities/agencies/eeoc' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Warned companies about AI bias under Section 5 unfairness authority; ordered deletion of biased algorithms in multiple cases', href: '/entities/agencies/ftc' },
+      { id: '1', name: 'EEOC', type: 'agency', relationship: 'Issued 2023 guidance on AI in hiring; investigating algorithmic discrimination complaints but lacks technical capacity for large-scale enforcement' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Warned companies about AI bias under Section 5 unfairness authority; ordered deletion of biased algorithms in multiple cases' },
     ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-01-15',
@@ -2506,7 +2506,7 @@ const investigations_a: Record<string, InvestigationData> = {
       { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'DOL', type: 'agency', relationship: 'Underfunds wage and hour enforcement; Wage and Hour Division investigates fewer than 1% of agricultural employers annually', href: '/entities/agencies/dol' },
+      { id: '1', name: 'DOL', type: 'agency', relationship: 'Underfunds wage and hour enforcement; Wage and Hour Division investigates fewer than 1% of agricultural employers annually' },
       { id: '2', name: 'EPA', type: 'agency', relationship: 'Sets pesticide tolerances but enforcement in fields is minimal; Worker Protection Standard widely unenforced', href: '/entities/agencies/epa' },
     ],
    eventOriginDate: '1930-01-01',
@@ -2541,7 +2541,7 @@ const investigations_a: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'CFPB', type: 'agency', relationship: 'Finalized ability-to-repay rule in 2017 but it was gutted under Trump administration; continues to bring enforcement actions against worst actors', href: '/entities/agencies/cfpb' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Prosecuted Scott Tucker tribal lending scheme ($3.5B fraud, 16-year sentence); limited jurisdiction over payday lenders operating within state law', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Prosecuted Scott Tucker tribal lending scheme ($3.5B fraud, 16-year sentence); limited jurisdiction over payday lenders operating within state law' },
     ],
    eventOriginDate: '2006-01-01',
    lastActivityDate: '2025-02-10',

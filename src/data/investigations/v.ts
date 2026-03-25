@@ -306,7 +306,7 @@ const investigations_v: Record<string, InvestigationData> = {
    { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
  ],
  affiliations: [
- { id: '1', name: 'Department of Veterans Affairs', type: 'agency', relationship: 'Failed to provide timely healthcare; at least 40 veterans died waiting for care at Phoenix VA; 20 veteran suicides per day', href: '/entities/agencies/va' },
+ { id: '1', name: 'Department of Veterans Affairs', type: 'agency', relationship: 'Failed to provide timely healthcare; at least 40 veterans died waiting for care at Phoenix VA; 20 veteran suicides per day' },
  { id: '2', name: 'Department of Defense', type: 'agency', relationship: 'Aggressively recruits in low-income schools; No Child Left Behind required schools to share student contact info with military recruiters', href: '/entities/agencies/dod' },
  ],
    eventOriginDate: '2001-01-01',
@@ -531,7 +531,7 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Limited enforcement actions against connected car data practices but lacks comprehensive authority over vehicle tracking data broker industry', href: '/entities/agencies/federal-trade-commission' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
 
     ],
    eventOriginDate: '1994-01-01',
@@ -568,7 +568,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'HHS OIG Reports', url: 'https://oig.hhs.gov/reports-and-publications/', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'VA', type: 'agency', relationship: 'Central subject of investigation; systemic wait-time fraud, mental health failures, and disability claims backlog across 1,700 facilities', href: '/entities/agencies/va' },
+      { id: '1', name: 'VA', type: 'agency', relationship: 'Central subject of investigation; systemic wait-time fraud, mental health failures, and disability claims backlog across 1,700 facilities' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Declined criminal prosecution of Phoenix VA administrators despite documented falsification of records linked to veteran deaths', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '2007-01-01',
@@ -652,7 +652,7 @@ const investigations_v: Record<string, InvestigationData> = {
     tags: ['volkswagen', 'dieselgate', 'emissions-fraud', 'defeat-device', 'epa', 'clean-air-act', 'nitrogen-oxide', 'corporate-fraud'],
     sources: [
       { title: 'EPA: Volkswagen Light Duty Diesel Vehicle Violations', url: 'https://www.epa.gov/vw', type: 'Government' },
-      { title: 'DOJ: Volkswagen AG Agrees to Plead Guilty - $4.3B Criminal Penalty', url: 'https://www.justice.gov/archives/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties', type: 'Government' },
+      { title: 'DOJ: Volkswagen AG Agrees to Plead Guilty - $4.3B Criminal Penalty', url: 'https://www.justice.gov/opa', type: 'Government' },
       { title: 'ICCT: From Laboratory to Road (Real-World Emissions Study)', url: 'https://theicct.org/publications/laboratory-road', type: 'Research' },
       { title: 'SEC EDGAR Filings', url: 'https://www.sec.gov/cgi-bin/browse-edgar', type: 'Reference' },
     ],
@@ -734,7 +734,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'VA', type: 'agency', relationship: '110+ facilities falsified wait time data; Secretary Shinseki resigned; $16B Oracle-Cerner EHR system plagued by safety errors', href: '/entities/agencies/va' },
+      { id: '1', name: 'VA', type: 'agency', relationship: '110+ facilities falsified wait time data; Secretary Shinseki resigned; $16B Oracle-Cerner EHR system plagued by safety errors' },
       { id: '2', name: 'DOJ', type: 'agency', relationship: 'Failed to pursue criminal charges against most administrators who falsified records; only a handful of VA employees faced prosecution', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '2014-01-01',
@@ -771,7 +771,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'VA', type: 'agency', relationship: 'Operates 1,298 facilities with 50,000+ unfilled positions; 17.5 veteran suicides per day; $16B EHR system plagued with safety incidents', href: '/entities/agencies/va' },
+      { id: '1', name: 'VA', type: 'agency', relationship: 'Operates 1,298 facilities with 50,000+ unfilled positions; 17.5 veteran suicides per day; $16B EHR system plagued with safety incidents' },
       { id: '2', name: 'DOD', type: 'agency', relationship: 'Transition from DOD to VA healthcare is fragmented; medical records not seamlessly transferred; discharge characterization determines VA eligibility and excludes many in need', href: '/entities/agencies/dod' },
     ],
    eventOriginDate: '2014-01-01',
@@ -811,7 +811,7 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Voting Section enforces NVRA list maintenance provisions; Obama DOJ sued states for over-purging; Trump DOJ sued states for under-purging; enforcement direction reverses with each administration', href: '/entities/agencies/doj' },
-      { id: '2', name: 'EAC', type: 'agency', relationship: 'Election Assistance Commission collects voter registration data but has no enforcement authority; EAVS survey provides the most comprehensive purge statistics but data is self-reported by states', href: '/entities/agencies/eac' },
+      { id: '2', name: 'EAC', type: 'agency', relationship: 'Election Assistance Commission collects voter registration data but has no enforcement authority; EAVS survey provides the most comprehensive purge statistics but data is self-reported by states' },
     ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-02-14',
@@ -846,7 +846,7 @@ const investigations_v: Record<string, InvestigationData> = {
       { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
     ],
     affiliations: [
-      { id: '1', name: 'Merck & Co.', type: 'corporation', relationship: 'Manufactured, marketed, and sold Vioxx while concealing evidence of cardiovascular harm; earned $11 billion in revenue before withdrawal; paid $4.85 billion in civil settlements and $950 million in criminal fines; admitted no wrongdoing; no executive was criminally prosecuted', href: '/entities/corporations/merck' },
+      { id: '1', name: 'Merck & Co.', type: 'corporation', relationship: 'Manufactured, marketed, and sold Vioxx while concealing evidence of cardiovascular harm; earned $11 billion in revenue before withdrawal; paid $4.85 billion in civil settlements and $950 million in criminal fines; admitted no wrongdoing; no executive was criminally prosecuted' },
       { id: '2', name: 'FDA', type: 'agency', relationship: 'Approved Vioxx in 1999; failed to mandate cardiovascular warnings despite VIGOR trial data; management pressured safety officer David Graham to suppress his findings; post-withdrawal review found systemic failures in post-market drug safety surveillance', href: '/entities/agencies/fda' },
       { id: '3', name: 'David Graham', type: 'individual', relationship: 'FDA Associate Director of Drug Safety who estimated Vioxx caused 88,000-139,000 heart attacks; testified before Congress that FDA management attempted to block his research and retaliate against him; his Senate testimony described the FDA as "incapable of protecting America"', href: '/entities/individuals/david-graham' },
     ],

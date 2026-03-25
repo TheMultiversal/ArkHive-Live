@@ -3639,8 +3639,8 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
     ],
     aliases: ['Talaat Pasha', 'Mehmed Talaat', 'Talat Bey'],
     knownAssociates: [
-      { name: 'Enver Pasha', relationship: 'Fellow CUP triumvir; War Minister who provided military resources for genocide', href: '/individuals/enver-pasha' },
-      { name: 'Ahmed Djemal Pasha', relationship: 'Fellow CUP triumvir; Navy Minister; governed Syria during genocide', href: '/individuals/ahmed-djemal-pasha' },
+      { name: 'Enver Pasha', relationship: 'Fellow CUP triumvir; War Minister who provided military resources for genocide', href: '/entities/individuals/enver-pasha' },
+      { name: 'Ahmed Djemal Pasha', relationship: 'Fellow CUP triumvir; Navy Minister; governed Syria during genocide' },
     ],
   },
   'theoneste-bagosora': {

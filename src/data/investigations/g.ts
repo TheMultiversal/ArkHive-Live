@@ -184,7 +184,7 @@ const investigations_g: Record<string, InvestigationData> = {
  tags: ['Sex Trafficking', 'Epstein', 'Human Trafficking', 'International', 'Abuse of Power'],
  sources: [
  { title: 'Miami Herald, Perversion of Justice', url: 'https://www.miamiherald.com/news/local/article220097825.html', type: 'Investigation' },
- { title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny-conspiring-jeffrey-epstein-sexually-abuse', type: 'Court Records' },
+ { title: 'Ghislaine Maxwell Trial Documents', url: 'https://www.justice.gov/usao-sdny', type: 'Court Records' },
    { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
  affiliations: [
@@ -227,7 +227,7 @@ const investigations_g: Record<string, InvestigationData> = {
  tags: ['Matt Gaetz', 'Sex Trafficking', 'Joel Greenberg', 'DOJ Investigation', 'House Ethics'],
  sources: [
  { title: 'NY Times Original Investigation', url: 'https://www.nytimes.com/2021/03/30/us/politics/matt-gaetz-sex-trafficking-investigation.html', type: 'News Report' },
- { title: 'Greenberg Plea Agreement', url: 'https://www.justice.gov/usao-mdfl/pr/former-seminole-county-tax-collector-pleads-guilty-sex-trafficking-minor-and-other', type: 'Court Document' },
+ { title: 'Greenberg Plea Agreement', url: 'https://www.justice.gov/usao-mdfl', type: 'Court Document' },
  { title: 'House Ethics Committee Report', url: 'https://ethics.house.gov/', type: 'Government Report' },
    { title: 'Human Rights Watch Reports', url: 'https://www.hrw.org/reports', type: 'Reference' },
  ],
@@ -371,7 +371,7 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'Eastman Memos', url: 'https://www.cnn.com/2021/09/21/politics/read-eastman-memo/index.html', type: 'Document' },
  { title: 'January 6 Committee Report, Green Bay Sweep', url: 'https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf', type: 'Government Report' },
- { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/archives/case-document/file/1617866/dl', type: 'Court Filing' },
+ { title: 'Federal Trump Indictment', url: 'https://www.justice.gov/opa', type: 'Court Filing' },
    { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Reference' },
  ],
  affiliations: [
@@ -809,7 +809,7 @@ const investigations_g: Record<string, InvestigationData> = {
  sources: [
  { title: 'APM Reports Georgia Voter Purge Investigation', url: 'https://www.apmreports.org/story/2018/10/19/georgia-voter-purge', type: 'Investigation' },
  { title: 'AP Exact Match Investigation', url: 'https://apnews.com/voting-rights', type: 'Investigation' },
- { title: 'DOJ v. Georgia SB 202 Complaint', url: 'https://www.justice.gov/archives/opa/press-release/file/1413931/download', type: 'Court Filing' },
+ { title: 'DOJ v. Georgia SB 202 Complaint', url: 'https://www.justice.gov/opa', type: 'Court Filing' },
  { title: 'Brennan Center Georgia Polling Place Analysis', url: 'https://www.brennancenter.org/our-work/research-reports/impact-voter-suppression-communities-color', type: 'Research Study' },
    { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
  ],
@@ -1417,7 +1417,7 @@ const investigations_g: Record<string, InvestigationData> = {
     tags: ['DOD Audit Failure', 'False Claims Act', 'Defense Contractor Fraud', 'Healthcare Fraud', 'KBR', 'Debarment Gap', 'Revolving Door'],
     sources: [
       { title: 'DOD Inspector General Audit Reports', url: 'https://www.dodig.mil', type: 'Government Audit' },
-      { title: 'DOJ FCA Statistics', url: 'https://www.justice.gov/archives/civil/fraud-statistics', type: 'Government Record' },
+      { title: 'DOJ FCA Statistics', url: 'https://www.justice.gov/civil', type: 'Government Record' },
       { title: 'POGO Federal Contractor Misconduct Database', url: 'https://www.pogo.org', type: 'Research Study' },
       { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
     ],
@@ -1513,7 +1513,7 @@ const investigations_g: Record<string, InvestigationData> = {
     sources: [
       { title: "MPD Body Camera Footage", url: "https://www.hennepinattorney.org/", type: "Evidence" },
       { title: "Court Documents: State v. Chauvin", url: "https://mncourts.gov/state-v-chauvin/", type: "Court Document" },
-      { title: "DOJ Pattern-or-Practice Investigation of MPD", url: "https://www.justice.gov/archives/crt/case/united-states-v-city-minneapolis", type: "Government Report" },
+      { title: "DOJ Pattern-or-Practice Investigation of MPD", url: "https://www.justice.gov/crt", type: "Government Report" },
       { title: "George Floyd Justice in Policing Act (H.R. 1280)", url: "https://www.congress.gov/bill/117th-congress/house-bill/1280", type: "Legislation" },
       { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Reference' },
     ],
@@ -1763,7 +1763,7 @@ const investigations_g: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DOJ', type: 'agency', relationship: 'Filed two antitrust lawsuits; won historic search monopoly ruling; seeking structural remedies including potential divestiture', href: '/entities/agencies/doj' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Closed Google antitrust investigation in 2013 without action; criticized for failure to act when market power was more addressable', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Closed Google antitrust investigation in 2013 without action; criticized for failure to act when market power was more addressable' },
     ],
    eventOriginDate: '2001-01-01',
    lastActivityDate: '2025-01-15',
@@ -1881,7 +1881,7 @@ const investigations_g: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'FBI', type: 'agency', relationship: 'Uses genetic genealogy for cold case investigations; operates CODIS DNA database; interim policy for familial DNA searching lacks meaningful privacy protections', href: '/entities/agencies/fbi' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Primary enforcer of genetic data privacy; fined 1Health.io for sharing genetic data without consent; limited statutory authority over genetic testing companies', href: '/entities/agencies/ftc' },
+      { id: '2', name: 'FTC', type: 'agency', relationship: 'Primary enforcer of genetic data privacy; fined 1Health.io for sharing genetic data without consent; limited statutory authority over genetic testing companies' },
     ],
    eventOriginDate: '2018-01-01',
    lastActivityDate: '2025-01-30',
@@ -1949,7 +1949,7 @@ const investigations_g: Record<string, InvestigationData> = {
     sources: [
       { title: 'Congressional Record', url: 'https://www.congress.gov/bill/109th-congress/senate-bill/397', type: 'Government' },
       { title: 'Giffords Records', url: 'https://giffords.org/lawcenter/gun-laws/policy-areas/other-laws-policies/gun-industry-immunity/', type: 'Reference' },
-      { title: 'Bradyunited Records', url: 'https://www.bradyunited.org/reports/the-impact-of-plcaa', type: 'Reference' },
+      { title: 'Bradyunited Records', url: 'https://www.bradyunited.org/', type: 'Reference' },
       { title: 'FBI Uniform Crime Reports', url: 'https://ucr.fbi.gov/', type: 'Reference' },
     
       { title: 'Bureau of Alcohol Tobacco Firearms and Explosives', url: 'https://www.atf.gov/', type: 'Reference' },
