@@ -24,7 +24,7 @@ function NavDropdown({ label, items, isActive }: { label: string; items: { href:
  <div ref={ref} className="relative">
  <button
  onClick={() => setOpen(!open)}
- className={`relative flex items-center gap-1 px-2 xl:px-3 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
+ className={`relative flex items-center gap-1 px-1.5 xl:px-2 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 border border-transparent ${
  anyActive
  ?"text-zinc-400 bg-zinc-800 border-zinc-800"
  :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
@@ -132,8 +132,8 @@ export default function Header() {
  <div className="w-full max-w-[1400px] mx-auto px-3 sm:px-4 lg:px-6">
  <div className="flex items-center justify-between h-16 xl:h-20">
  {/* Logo */}
- <Link href="/"className="flex items-center gap-3 group">
- <BleedingPyramidLogo size={55} showWords={false} />
+ <Link href="/"className="flex items-center gap-2 group">
+ <BleedingPyramidLogo size={44} showWords={false} />
  <div className="hidden sm:block">
  <h1 className="text-lg xl:text-xl font-black tracking-tight text-white leading-tight relative">
  <span className="relative inline-block glass-text-hero">
@@ -148,11 +148,11 @@ export default function Header() {
  </Link>
 
  {/* Desktop Navigation */}
- <nav className="hidden xl:flex items-center gap-1 2xl:gap-1.5 flex-shrink min-w-0 overflow-hidden" aria-label="Main navigation">
+ <nav className="hidden xl:flex items-center gap-0.5 2xl:gap-1 flex-shrink-0" aria-label="Main navigation">
  {/* Home link */}
  <Link
  href="/"
- className={`relative px-2 xl:px-3 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
+ className={`relative px-1.5 xl:px-2 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 border border-transparent ${
  pathname ==="/"
  ?"text-zinc-400 bg-zinc-800 border-zinc-800"
  :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
@@ -174,7 +174,7 @@ export default function Header() {
  <Link
  key={link.href}
  href={link.href}
- className={`relative px-2 xl:px-3 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent whitespace-nowrap ${
+ className={`relative px-1.5 xl:px-2 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 border border-transparent whitespace-nowrap ${
  active
  ?"text-zinc-400 bg-zinc-800 border-zinc-800"
  :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"

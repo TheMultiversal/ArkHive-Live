@@ -109,7 +109,7 @@ export default function InvestigationsMegaMenu() {
         aria-expanded={isOpen}
         aria-controls="investigations-mega-menu"
         aria-label="Investigations menu"
-        className={`relative flex items-center gap-1 px-2 xl:px-3 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wider transition-all duration-200 border border-transparent ${
+        className={`relative flex items-center gap-1 px-1.5 xl:px-2 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 border border-transparent ${
           isOpen
             ? "text-zinc-400 bg-zinc-800 border-zinc-800"
             : "text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"

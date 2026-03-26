@@ -973,8 +973,7 @@ Legend: [ ] = Not done, [x] = Complete
 - [ ] /investigations/terra-luna-collapse [t.ts]
 - [ ] /investigations/tesla-autopilot-deaths [t.ts]
 - [ ] /investigations/texas-border-cruelty [t.ts]
-- [x] /investigations/texas-grid-failures [t.ts] ✓ ENRICHED 2026-03-25
-- [ ] /investigations/texas-power-grid-failure [t.ts]
+- [x] /investigations/texas-power-grid-failure [t.ts] ✓ ENRICHED 2026-03-25
 - [ ] /investigations/thalidomide-pharmaceutical-catastrophe [t.ts]
 - [ ] /investigations/thalidomide-to-vioxx-pattern-of-harm [t.ts]
 - [ ] /investigations/theranos-billion-dollar-blood-fraud [t.ts]
