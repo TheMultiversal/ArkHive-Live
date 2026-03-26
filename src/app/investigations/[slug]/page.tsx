@@ -4,7 +4,7 @@ import { useParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowLeft, AlertTriangle, Users, Calendar, FileText, ExternalLink, Scale, ShieldAlert, DollarSign, Building2, Gavel, BookOpen, Megaphone, Phone, Mail, Share2, Copy, CheckCircle, Eye, ArrowUpRight, Landmark, ClipboardCheck } from 'lucide-react';
+import { ArrowLeft, AlertTriangle, Users, Calendar, FileText, ExternalLink, Scale, ShieldAlert, DollarSign, Building2, Gavel, BookOpen, Megaphone, Phone, Mail, Share2, Copy, CheckCircle, Eye, ArrowUpRight, Landmark, ClipboardCheck, Crosshair, Globe } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 import investigationDatabase from '@/data/investigations';
 
@@ -58,19 +58,46 @@ function extractUrls(text: string): { text: string; urls: { url: string; domain:
   return { text: cleanText.replace(/\s{2,}/g, ' ').trim(), urls };
 }
 
-// Map action text to an icon
-function getActionIcon(text: string) {
+// === ACCOUNTABILITY ENGINE TYPES & HELPERS ===
+type OpTrack = 'expose' | 'investigate' | 'legal' | 'pressure' | 'economic';
+const trackOrder: OpTrack[] = ['expose', 'investigate', 'legal', 'pressure', 'economic'];
+
+const trackMeta: Record<OpTrack, { label: string; directive: string; icon: typeof Crosshair }> = {
+  expose: { label: 'EXPOSE', directive: 'Mass awareness. Make the evidence impossible to suppress.', icon: Crosshair },
+  investigate: { label: 'INVESTIGATE', directive: 'Extract records. Build the evidence chain.', icon: ClipboardCheck },
+  legal: { label: 'PROSECUTE', directive: 'Use every legal mechanism that exists.', icon: Gavel },
+  pressure: { label: 'PRESSURE', directive: 'Force the system to respond or expose its collapse.', icon: Landmark },
+  economic: { label: 'DISRUPT', directive: 'Target the financial structures protecting them.', icon: DollarSign },
+};
+
+function categorizeOp(text: string): OpTrack {
   const lower = text.toLowerCase();
-  if (lower.includes('file') || lower.includes('complaint') || lower.includes('report')) return FileText;
-  if (lower.includes('contact') || lower.includes('call') || lower.includes('representative') || lower.includes('legislat') || lower.includes('congress') || lower.includes('senator')) return Phone;
-  if (lower.includes('vote') || lower.includes('elect') || lower.includes('ballot')) return Landmark;
-  if (lower.includes('legal') || lower.includes('attorney') || lower.includes('lawyer') || lower.includes('lawsuit') || lower.includes('court')) return Scale;
-  if (lower.includes('email') || lower.includes('write') || lower.includes('letter')) return Mail;
-  if (lower.includes('share') || lower.includes('spread') || lower.includes('social')) return Share2;
-  if (lower.includes('donate') || lower.includes('fund') || lower.includes('support')) return DollarSign;
-  if (lower.includes('document') || lower.includes('evidence') || lower.includes('foia') || lower.includes('request')) return ClipboardCheck;
-  if (lower.includes('watch') || lower.includes('monitor') || lower.includes('track')) return Eye;
-  return Megaphone;
+  if (lower.includes('support org') || lower.includes('organizations working')) return 'expose';
+  if (lower.includes('public information') || lower.includes('foia') || lower.includes('submit') || lower.includes('open record')) return 'investigate';
+  if (lower.includes('legal') || lower.includes('attorney') || lower.includes('lawsuit') || lower.includes('court') || lower.includes('wrongful') || lower.includes('legal aid') || lower.includes('price goug') || lower.includes('consumer complaint') || lower.includes('file complaint') || lower.includes('complaint')) return 'legal';
+  if (lower.includes('vote') || lower.includes('elect') || lower.includes('contact') || lower.includes('representative') || lower.includes('senator') || lower.includes('legislat') || lower.includes('demand') || lower.includes('state rep') || lower.includes('congress')) return 'pressure';
+  if (lower.includes('donate') || lower.includes('fund') || lower.includes('boycott') || lower.includes('divest')) return 'economic';
+  if (lower.includes('share') || lower.includes('spread') || lower.includes('social') || lower.includes('media')) return 'expose';
+  return 'expose';
+}
+
+// Tactical icon container with corner brackets and glow
+function TacticalIcon({ children, size = 'md' }: { children: React.ReactNode; size?: 'sm' | 'md' | 'lg' }) {
+  const sizes = { sm: 'w-8 h-8', md: 'w-10 h-10', lg: 'w-12 h-12' };
+  return (
+    <div className={`relative ${sizes[size]} flex items-center justify-center flex-shrink-0`} style={{ filter: 'drop-shadow(0 0 6px rgba(184,0,0,0.4))' }}>
+      <div className="absolute inset-0 bg-gradient-to-br from-red-950/50 to-[#020202] border border-red-900/30" />
+      <div className="absolute top-0 left-0 w-2 h-[2px] bg-red-500/70" />
+      <div className="absolute top-0 left-0 w-[2px] h-2 bg-red-500/70" />
+      <div className="absolute top-0 right-0 w-2 h-[2px] bg-red-500/70" />
+      <div className="absolute top-0 right-0 w-[2px] h-2 bg-red-500/70" />
+      <div className="absolute bottom-0 left-0 w-2 h-[2px] bg-red-500/70" />
+      <div className="absolute bottom-0 left-0 w-[2px] h-2 bg-red-500/70" />
+      <div className="absolute bottom-0 right-0 w-2 h-[2px] bg-red-500/70" />
+      <div className="absolute bottom-0 right-0 w-[2px] h-2 bg-red-500/70" />
+      <div className="relative z-10 text-red-400">{children}</div>
+    </div>
+  );
 }
 
 // Slugify a name for URL
@@ -78,14 +105,13 @@ function slugifyName(name: string): string {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
-// === ACCOUNTABILITY SECTION COMPONENT ===
+// === ACCOUNTABILITY ENGINE COMPONENT ===
 function AccountabilitySection({ content, slug, title }: { content: string; slug: string; title: string }) {
   const [actionsTaken, setActionsTaken] = useState(0);
   const [hasTakenAction, setHasTakenAction] = useState(false);
   const [copied, setCopied] = useState<string | null>(null);
   const [viewCount, setViewCount] = useState(0);
 
-  // Load from localStorage
   useEffect(() => {
     const key = `arkhive_accountability_${slug}`;
     const stored = localStorage.getItem(key);
@@ -94,7 +120,6 @@ function AccountabilitySection({ content, slug, title }: { content: string; slug
       setActionsTaken(data.actions || 0);
       setHasTakenAction(data.userActed || false);
     }
-    // Increment view count
     const viewKey = `arkhive_views_${slug}`;
     const views = parseInt(localStorage.getItem(viewKey) || '0', 10) + 1;
     localStorage.setItem(viewKey, String(views));
@@ -116,98 +141,191 @@ function AccountabilitySection({ content, slug, title }: { content: string; slug
     setTimeout(() => setCopied(null), 2000);
   };
 
-  // Parse actions from content
+  // Parse and categorize operations
   const rawActions = content
     .replace(/^\s*WHAT YOU CAN DO TO HOLD THEM ACCOUNTABLE:\s*/i, '')
     .split(/\(\d+\)\s*/)
     .filter(Boolean);
 
-  const actions = rawActions.map((action, idx) => {
+  const operations = rawActions.map((action, idx) => {
     const { text, urls } = extractUrls(action.trim());
-    const IconComponent = getActionIcon(text);
-    return { id: idx, text, urls, Icon: IconComponent };
+    const track = categorizeOp(text);
+    return { id: idx, text, urls, track };
   });
+
+  // Group by track
+  const grouped = trackOrder.reduce((acc, track) => {
+    const ops = operations.filter(op => op.track === track);
+    if (ops.length > 0) acc[track] = ops;
+    return acc;
+  }, {} as Partial<Record<OpTrack, typeof operations>>);
 
   const shareUrl = typeof window !== 'undefined' ? window.location.href : `https://arkhive.live/investigations/${slug}`;
   const tweetText = `Exposed: ${title}. Read the full investigation and take action.`;
   const emailSubject = `Investigation: ${title}`;
-  const emailBody = `I wanted to share this investigation with you:\n\n${title}\n\nRead more: ${shareUrl}\n\nThis investigation details important findings that deserve public attention.`;
+  const emailBody = `I wanted to share this investigation with you:\n\n${title}\n\nRead more: ${shareUrl}\n\nThis investigation details critical findings that demand public attention.`;
 
   return (
     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="mb-8">
-      {/* Main accountability header */}
-      <div className="border-2 border-red-900/40 bg-[rgba(100,0,0,0.08)] rounded-xl p-6 mb-4">
-        <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-2 flex items-center gap-2">
-          <Megaphone className="w-5 h-5 text-red-400" />
-          Hold Them Accountable
-        </h2>
-        <p className="text-sm text-zinc-500">Take direct action. Every step counts.</p>
+      {/* === ENGINE HEADER === */}
+      <div className="border border-red-900/40 bg-gradient-to-r from-[#0a0000] via-[#020202] to-[#0a0000] p-6 mb-4 relative overflow-hidden">
+        <motion.div
+          className="absolute left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-red-500/30 to-transparent"
+          animate={{ top: ['-10%', '110%'] }}
+          transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
+        />
+        <div className="relative z-10">
+          <div className="flex items-center gap-4 mb-3">
+            <TacticalIcon size="lg">
+              <Crosshair className="w-6 h-6" />
+            </TacticalIcon>
+            <div>
+              <h2 className="text-xl font-black text-white uppercase tracking-[0.2em]">
+                Accountability Engine
+              </h2>
+              <p className="text-[11px] text-red-400/60 font-mono tracking-wider mt-0.5">
+                STRATEGIC OPERATIONS // {operations.length} DIRECTIVES LOADED
+              </p>
+            </div>
+          </div>
+          <p className="text-sm text-zinc-400 leading-relaxed max-w-2xl">
+            These are not suggestions. These are operations. Each directive targets a specific
+            vulnerability in the system that allowed this to happen. Execute systematically.
+          </p>
+        </div>
       </div>
 
-      {/* Option A: Interactive Action Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-4">
-        {actions.map((action) => {
-          const ActionIcon = action.Icon;
+      {/* === CATEGORIZED OPERATIONS === */}
+      <div className="space-y-4 mb-4">
+        {trackOrder.map(track => {
+          const trackOps = grouped[track];
+          if (!trackOps) return null;
+          const meta = trackMeta[track];
+          const TrackIconComponent = meta.icon;
           return (
-            <motion.div
-              key={action.id}
-              whileHover={{ scale: 1.01 }}
-              className="p-4 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl hover:border-[rgba(184,0,0,0.40)] transition-all group"
-            >
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-red-900/30 border border-red-800/40 rounded-lg group-hover:bg-red-900/50 transition-colors">
-                  <ActionIcon className="w-4 h-4 text-red-400" />
-                </div>
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-start gap-2 mb-1">
-                    <span className="text-[10px] font-bold text-red-500/60 uppercase">Step {action.id + 1}</span>
-                  </div>
-                  <p className="text-sm text-zinc-300 leading-relaxed mb-2">{action.text}</p>
-                  {action.urls.length > 0 && (
-                    <div className="flex flex-wrap gap-2">
-                      {action.urls.map((u, ui) => (
-                        <a
-                          key={ui}
-                          href={u.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-semibold text-red-400 bg-red-900/20 border border-red-800/30 rounded-lg hover:bg-red-900/40 hover:border-red-700/50 transition-all"
-                        >
-                          <ArrowUpRight className="w-3 h-3" />
-                          {u.domain}
-                        </a>
-                      ))}
-                    </div>
-                  )}
+            <div key={track}>
+              <div className="flex items-center gap-3 mb-3 px-1">
+                <TacticalIcon>
+                  <TrackIconComponent className="w-4 h-4" />
+                </TacticalIcon>
+                <div>
+                  <h3 className="text-sm font-black text-white uppercase tracking-[0.15em]">
+                    {meta.label}
+                  </h3>
+                  <p className="text-[11px] text-red-400/50 font-mono">{meta.directive}</p>
                 </div>
               </div>
-            </motion.div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {trackOps.map((op) => (
+                  <motion.div
+                    key={op.id}
+                    whileHover={{ x: 3 }}
+                    className="group relative p-4 bg-[#020202] border border-[rgba(184,0,0,0.15)] hover:border-[rgba(184,0,0,0.40)] transition-all overflow-hidden"
+                  >
+                    <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-red-900/40 group-hover:bg-red-600/60 transition-colors" />
+                    <div className="pl-3">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="text-[10px] font-mono font-bold text-red-600/70 tracking-wider">
+                          OP-{String(op.id + 1).padStart(2, '0')}
+                        </span>
+                      </div>
+                      <p className="text-sm text-zinc-300 leading-relaxed mb-2">{op.text}</p>
+                      {op.urls.length > 0 && (
+                        <div className="flex flex-wrap gap-2">
+                          {op.urls.map((u, ui) => (
+                            <a
+                              key={ui}
+                              href={u.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-semibold text-red-400 bg-red-900/20 border border-red-800/30 hover:bg-red-900/40 hover:border-red-700/50 transition-all"
+                            >
+                              <ArrowUpRight className="w-3 h-3" />
+                              {u.domain}
+                            </a>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
           );
         })}
       </div>
 
-      {/* Option B: Impact Counter + Option C: Share Kit */}
+      {/* === SUPPLEMENTARY ARSENAL === */}
+      <div className="mb-4">
+        <div className="flex items-center gap-2 mb-3 px-1">
+          <span className="text-[10px] font-mono font-bold text-red-600/50 tracking-[0.2em]">SUPPLEMENTARY ARSENAL</span>
+          <div className="flex-1 h-[1px] bg-gradient-to-r from-red-900/30 to-transparent" />
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {[
+            {
+              icon: FileText,
+              title: 'OPEN RECORDS WARFARE',
+              desc: 'File mass public information requests. Force disclosure of internal communications, decision logs, and financial records under the Texas Public Information Act.',
+            },
+            {
+              icon: Megaphone,
+              title: 'MEDIA AMPLIFICATION',
+              desc: 'Send evidence packages to investigative journalists, documentary filmmakers, and independent outlets. Bypass captured media with direct-to-public distribution.',
+            },
+            {
+              icon: ShieldAlert,
+              title: 'EVIDENCE PRESERVATION',
+              desc: 'Archive everything. Screenshots, documents, public statements, financial disclosures. Create redundant copies across decentralized platforms.',
+            },
+            {
+              icon: Globe,
+              title: 'INTERNATIONAL PRESSURE',
+              desc: 'When domestic institutions are captured, international scrutiny becomes critical leverage. Foreign press, human rights organizations, international legal bodies.',
+            },
+          ].map((card, i) => {
+            const CardIcon = card.icon;
+            return (
+              <motion.div
+                key={i}
+                whileHover={{ y: -2 }}
+                className="p-4 bg-[#020202] border border-[rgba(184,0,0,0.12)] hover:border-[rgba(184,0,0,0.30)] transition-all"
+              >
+                <div className="flex items-center gap-2 mb-2">
+                  <CardIcon className="w-4 h-4 text-red-500/70" />
+                  <span className="text-[10px] font-black text-red-400/80 uppercase tracking-wider">{card.title}</span>
+                </div>
+                <p className="text-[11px] text-zinc-500 leading-relaxed">{card.desc}</p>
+              </motion.div>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* === OPERATIONS DASHBOARD + AMPLIFICATION NETWORK === */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        {/* Impact Counter */}
-        <div className="p-5 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl">
-          <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-            <Eye className="w-4 h-4 text-red-400" />
-            Impact Tracker
-          </h3>
+        {/* Operations Dashboard */}
+        <div className="p-5 bg-[#020202] border border-[rgba(184,0,0,0.18)]">
+          <div className="flex items-center gap-2 mb-4">
+            <TacticalIcon size="sm">
+              <Eye className="w-3.5 h-3.5" />
+            </TacticalIcon>
+            <h3 className="text-sm font-black text-white uppercase tracking-[0.15em]">Operations Dashboard</h3>
+          </div>
           <div className="grid grid-cols-2 gap-3 mb-4">
-            <div className="text-center p-3 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)] rounded-lg">
+            <div className="text-center p-3 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]">
               <div className="text-2xl font-black text-white font-mono">{viewCount}</div>
-              <div className="text-[10px] text-zinc-500 uppercase font-bold mt-1">Views</div>
+              <div className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mt-1">Intelligence Views</div>
             </div>
-            <div className="text-center p-3 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)] rounded-lg">
+            <div className="text-center p-3 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]">
               <div className="text-2xl font-black text-red-400 font-mono">{actionsTaken}</div>
-              <div className="text-[10px] text-zinc-500 uppercase font-bold mt-1">Actions Taken</div>
+              <div className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mt-1">Ops Executed</div>
             </div>
           </div>
           <button
             onClick={handleTakeAction}
             disabled={hasTakenAction}
-            className={`w-full py-3 text-sm font-bold uppercase tracking-wider rounded-xl transition-all duration-300 flex items-center justify-center gap-2 ${
+            className={`w-full py-3 text-sm font-black uppercase tracking-[0.15em] transition-all duration-300 flex items-center justify-center gap-2 ${
               hasTakenAction
                 ? 'bg-[rgba(184,0,0,0.10)] border border-[rgba(184,0,0,0.25)] text-red-400/60 cursor-default'
                 : 'bg-gradient-to-r from-red-900/50 to-red-800/30 border border-red-700/40 text-red-300 hover:from-red-900/70 hover:to-red-800/50 hover:border-red-600/60 hover:shadow-[0_0_20px_rgba(184,0,0,0.15)]'
@@ -216,65 +334,60 @@ function AccountabilitySection({ content, slug, title }: { content: string; slug
             {hasTakenAction ? (
               <>
                 <CheckCircle className="w-4 h-4" />
-                Action Recorded
+                Operation Logged
               </>
             ) : (
               <>
-                <Megaphone className="w-4 h-4" />
-                I&apos;ve Taken Action
+                <Crosshair className="w-4 h-4" />
+                Log Operation Complete
               </>
             )}
           </button>
         </div>
 
-        {/* Share Kit */}
-        <div className="p-5 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl">
-          <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-            <Share2 className="w-4 h-4 text-red-400" />
-            Share This Investigation
-          </h3>
+        {/* Amplification Network */}
+        <div className="p-5 bg-[#020202] border border-[rgba(184,0,0,0.18)]">
+          <div className="flex items-center gap-2 mb-4">
+            <TacticalIcon size="sm">
+              <Share2 className="w-3.5 h-3.5" />
+            </TacticalIcon>
+            <h3 className="text-sm font-black text-white uppercase tracking-[0.15em]">Amplification Network</h3>
+          </div>
           <div className="space-y-2.5">
-            {/* Copy link */}
             <button
               onClick={() => copyToClipboard(shareUrl, 'link')}
-              className="w-full flex items-center gap-3 px-4 py-3 text-sm bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.15)] rounded-xl hover:border-[rgba(184,0,0,0.35)] hover:bg-[rgba(184,0,0,0.08)] transition-all text-left"
+              className="w-full flex items-center gap-3 px-4 py-3 text-sm bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.15)] hover:border-[rgba(184,0,0,0.35)] hover:bg-[rgba(184,0,0,0.08)] transition-all text-left"
             >
               <Copy className="w-4 h-4 text-zinc-500 flex-shrink-0" />
               <span className="text-zinc-300 flex-1">Copy Investigation Link</span>
               {copied === 'link' && <span className="text-[10px] text-red-400 font-bold uppercase">Copied!</span>}
             </button>
-
-            {/* Copy tweet */}
             <button
               onClick={() => copyToClipboard(`${tweetText} ${shareUrl}`, 'tweet')}
-              className="w-full flex items-center gap-3 px-4 py-3 text-sm bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.15)] rounded-xl hover:border-[rgba(184,0,0,0.35)] hover:bg-[rgba(184,0,0,0.08)] transition-all text-left"
+              className="w-full flex items-center gap-3 px-4 py-3 text-sm bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.15)] hover:border-[rgba(184,0,0,0.35)] hover:bg-[rgba(184,0,0,0.08)] transition-all text-left"
             >
               <Share2 className="w-4 h-4 text-zinc-500 flex-shrink-0" />
               <span className="text-zinc-300 flex-1">Copy Post Text</span>
               {copied === 'tweet' && <span className="text-[10px] text-red-400 font-bold uppercase">Copied!</span>}
             </button>
-
-            {/* Email template */}
             <a
               href={`mailto:?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`}
-              className="w-full flex items-center gap-3 px-4 py-3 text-sm bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.15)] rounded-xl hover:border-[rgba(184,0,0,0.35)] hover:bg-[rgba(184,0,0,0.08)] transition-all"
+              className="w-full flex items-center gap-3 px-4 py-3 text-sm bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.15)] hover:border-[rgba(184,0,0,0.35)] hover:bg-[rgba(184,0,0,0.08)] transition-all"
             >
               <Mail className="w-4 h-4 text-zinc-500 flex-shrink-0" />
               <span className="text-zinc-300 flex-1">Email This Investigation</span>
               <ArrowUpRight className="w-3 h-3 text-zinc-600" />
             </a>
-
-            {/* Copy all action steps */}
             <button
               onClick={() => {
-                const allSteps = actions.map((a, i) => `(${i + 1}) ${a.text}${a.urls.length > 0 ? ' - ' + a.urls.map(u => u.url).join(', ') : ''}`).join('\n');
-                copyToClipboard(`${title}\n\nAction Steps:\n${allSteps}\n\nSource: ${shareUrl}`, 'steps');
+                const allOps = operations.map((o, i) => `[OP-${String(i + 1).padStart(2, '0')}] ${o.text}${o.urls.length > 0 ? ' -- ' + o.urls.map(u => u.url).join(', ') : ''}`).join('\n');
+                copyToClipboard(`${title}\n\nAccountability Operations:\n${allOps}\n\nSource: ${shareUrl}`, 'ops');
               }}
-              className="w-full flex items-center gap-3 px-4 py-3 text-sm bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.15)] rounded-xl hover:border-[rgba(184,0,0,0.35)] hover:bg-[rgba(184,0,0,0.08)] transition-all text-left"
+              className="w-full flex items-center gap-3 px-4 py-3 text-sm bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.15)] hover:border-[rgba(184,0,0,0.35)] hover:bg-[rgba(184,0,0,0.08)] transition-all text-left"
             >
               <ClipboardCheck className="w-4 h-4 text-zinc-500 flex-shrink-0" />
-              <span className="text-zinc-300 flex-1">Copy All Action Steps</span>
-              {copied === 'steps' && <span className="text-[10px] text-red-400 font-bold uppercase">Copied!</span>}
+              <span className="text-zinc-300 flex-1">Copy All Operations</span>
+              {copied === 'ops' && <span className="text-[10px] text-red-400 font-bold uppercase">Copied!</span>}
             </button>
           </div>
         </div>

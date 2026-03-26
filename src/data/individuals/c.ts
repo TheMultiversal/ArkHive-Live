@@ -5052,6 +5052,33 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Tom Craddick', relationship: 'Father; former Texas House Speaker with deep ties to energy industry' },
     ],
   },
+  'curt-morgan': {
+    name: 'Curt Morgan',
+    title: 'CEO of Vistra Corp',
+    role: 'Chief Executive Officer of Vistra Corp (2016-2023); Oversaw $2.4B windfall from Winter Storm Uri',
+    riskLevel: 'high',
+    description: 'Curt Morgan served as CEO of Vistra Corp, the largest competitive power generator in Texas, during Winter Storm Uri in February 2021. Under his leadership, Vistra reported $2.4 billion in windfall EBITDA gains from the crisis while the company\'s own generation facilities failed to perform, contributing to the grid collapse that killed hundreds of Texans. Despite receiving post-2011 recommendations to winterize facilities, Vistra failed to adequately weatherize its power plants. Morgan received millions in executive compensation while Texas consumers were hit with billions in excess charges.',
+    birthDate: 'Unknown',
+    birthPlace: 'United States',
+    netWorth: 'Estimated $50-100 million (executive compensation)',
+    education: ['Drexel University'],
+    affiliations: [
+      { name: 'Vistra Corp', role: 'CEO (2016-2023)', type: 'corporation' },
+      { name: 'ERCOT', role: 'Major generator participant in Texas energy market', type: 'organization' },
+    ],
+    controversies: [
+      'CRISIS PROFITEERING: Vistra Corp reported $2.4 billion in windfall EBITDA gains from the February 2021 crisis while hundreds of Texans froze to death and millions went without power',
+      'WINTERIZATION FAILURE: Failed to adequately weatherize Vistra generation facilities despite 2011 FERC/NERC recommendations, directly contributing to generation shortfalls during Winter Storm Uri',
+      'EXECUTIVE COMPENSATION: Received millions in executive compensation and bonuses in 2021 despite Vistra\'s role in the grid failure and subsequent public outcry',
+      'LOBBIED AGAINST REFORM: Vistra lobbied against stronger weatherization penalties and mandatory grid interconnection with the national system',
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Kelcy Warren', relationship: 'Fellow energy executive who profited massively from the same crisis', href: '/entities/individuals/kelcy-warren' },
+      { name: 'DeAnn Walker', relationship: 'PUCT Chair whose pricing order generated the windfall profits', href: '/entities/individuals/deann-walker' },
+      { name: 'Bill Magness', relationship: 'ERCOT CEO who maintained the $9,000/MWh price cap that created windfall', href: '/entities/individuals/bill-magness' },
+    ],
+  },
 };
 
 export default profiles;

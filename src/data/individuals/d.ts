@@ -6724,6 +6724,34 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Greg Abbott', relationship: 'Texas Governor who appointed her; she previously served as his policy director', href: '/entities/individuals/greg-abbott' },
     ],
   },
+  'dan-patrick': {
+    name: 'Dan Patrick',
+    title: 'Texas Lieutenant Governor',
+    role: 'Lt. Governor of Texas (2015-Present); Controls Texas Senate Agenda',
+    riskLevel: 'high',
+    description: 'Dan Patrick has served as Lieutenant Governor of Texas since January 2015. As Lt. Governor, he controls the Texas Senate agenda and has used that power to block meaningful grid reform legislation following the 2021 Winter Storm Uri disaster that killed hundreds of Texans. He echoed Governor Greg Abbott\'s false narrative blaming renewable energy for a crisis overwhelmingly caused by natural gas infrastructure failures. Patrick has received millions in campaign contributions from the oil and gas industry while consistently blocking bills that would connect the Texas grid to the national system or impose real penalties on power generators who failed to winterize.',
+    birthDate: 'April 4, 1950',
+    birthPlace: 'Baltimore, Maryland, USA',
+    netWorth: 'Estimated $2-5 million',
+    education: ['University of Maryland, Baltimore County'],
+    affiliations: [
+      { name: 'Texas State Government', role: 'Lieutenant Governor (2015-Present)', type: 'agency' },
+      { name: 'Republican Party', role: 'Senior Texas Republican', type: 'organization' },
+      { name: 'Texas Senate', role: 'Presiding Officer; Controls Senate Agenda', type: 'agency' },
+    ],
+    controversies: [
+      'GRID REFORM OBSTRUCTION: Used Senate agenda control to block bills that would have connected Texas to the national grid, imposed mandatory weatherization with real penalties, or reformed the energy-only market structure',
+      'DISINFORMATION CAMPAIGN: Echoed false narrative blaming renewable energy for the 2021 grid failure when 87% of generation failures were natural gas, coal, and nuclear facilities',
+      'INDUSTRY CAPTURE: Received millions in oil and gas campaign contributions from the very industry responsible for failing to winterize infrastructure that caused 700+ deaths',
+      'OFFERED BOUNTIES: In 2021, offered $10,000 bounties for reporting voter fraud, contributing to voter suppression efforts',
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Greg Abbott', relationship: 'Texas Governor and political ally; coordinated disinformation campaign during Winter Storm Uri', href: '/entities/individuals/greg-abbott' },
+      { name: 'Wayne Christian', relationship: 'Railroad Commission Chairman who shared responsibility for blocking winterization mandates', href: '/entities/individuals/wayne-christian' },
+      { name: 'Rick Perry', relationship: 'Former Texas Governor who signed the deregulation bill that created the vulnerable grid structure', href: '/entities/individuals/rick-perry' },
+    ],
+  },
 };
 
 export default profiles;
