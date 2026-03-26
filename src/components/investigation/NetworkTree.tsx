@@ -1,14 +1,31 @@
 'use client';
 
-import React, { useRef, useEffect, useState, useCallback, useMemo } from 'react';
-import * as d3 from 'd3';
+import React, { useState, useEffect, useCallback, useMemo, memo } from 'react';
+import {
+  ReactFlow,
+  MiniMap,
+  Controls,
+  Background,
+  BackgroundVariant,
+  useNodesState,
+  useEdgesState,
+  useReactFlow,
+  ReactFlowProvider,
+  Handle,
+  Position,
+  MarkerType,
+  type Node,
+  type Edge,
+} from '@xyflow/react';
+import '@xyflow/react/dist/style.css';
+import ELK from 'elkjs/lib/elk.bundled.js';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import {
-  ChevronDown, Search, X, Maximize2, RotateCcw,
-  Eye, EyeOff, Filter, Network, Building2, DollarSign,
-  ArrowUpRight, Activity, Target, Shield,
-  FoldVertical, UnfoldVertical, Crosshair,
+  Search, X, Filter, Network, Building2, DollarSign,
+  Target, Shield, ChevronDown, ChevronRight,
+  Activity, Users, Eye, ArrowUpRight,
+  Maximize2, RotateCcw, FoldVertical, UnfoldVertical,
 } from 'lucide-react';
 
 // ============================================================
@@ -50,90 +67,107 @@ interface InvestigationData {
   defendants?: Defendant[];
   affiliations?: Affiliation[];
   moneyTrail?: MoneyTransaction[];
-  timeline?: { date: string; event: string; type?: string }[];
+  timeline?: { date: string; event: string }[];
 }
 
-type PersonTier =
-  | 'Primary Defendant'
-  | 'Co-Conspirator'
-  | 'Regulator'
-  | 'Politician'
-  | 'Whistleblower'
-  | 'Other';
-
-type OrgTier = 'Corporation' | 'Agency' | 'Organization';
-
-interface TreeNodeData {
-  name: string;
+interface NodeData {
+  label: string;
+  nodeType: 'root' | 'category' | 'tier' | 'person' | 'org';
+  name?: string;
   role?: string;
-  tier: PersonTier | OrgTier;
+  tier?: string;
   status?: string;
   charges?: string[];
   sentence?: string;
   fine?: string;
   restitution?: string;
   notes?: string;
-  relationship?: string;
   href?: string;
+  entityType?: string;
   moneyIn?: MoneyTransaction[];
   moneyOut?: MoneyTransaction[];
-  side: 'left' | 'right' | 'root';
-  children?: TreeNodeData[];
-  _children?: TreeNodeData[];
+  category?: string;
+  count?: number;
+  color?: string;
+  side?: string;
+  isCollapsed?: boolean;
+  severity?: string;
+  defendantCount?: number;
+  entityCount?: number;
+  transactionCount?: number;
+  relationship?: string;
+  title?: string;
+  [key: string]: unknown;
 }
 
+type AppNode = Node<NodeData>;
+type AppEdge = Edge;
+
 // ============================================================
-// COLORS & CLASSIFICATION
+// CONSTANTS
 // ============================================================
 
+type PersonTier = 'Primary Defendant' | 'Co-Conspirator' | 'Politician' | 'Regulator' | 'Whistleblower' | 'Other';
+type OrgTier = 'Corporation' | 'Agency' | 'Organization';
+
+const SEVERITY_COLORS: Record<string, string> = {
+  critical: '#dc2626',
+  high: '#ea580c',
+  medium: '#ca8a04',
+  low: '#71717a',
+};
+
 const PERSON_TIER_COLORS: Record<PersonTier, string> = {
-  'Primary Defendant': '#d64545',
-  'Co-Conspirator': '#b83030',
-  'Regulator': '#6366f1',
-  'Politician': '#8b5cf6',
-  'Whistleblower': '#22d3ee',
-  'Other': '#71717a',
+  'Primary Defendant': '#ef4444',
+  'Co-Conspirator': '#f97316',
+  Politician: '#a855f7',
+  Regulator: '#3b82f6',
+  Whistleblower: '#22c55e',
+  Other: '#6b7280',
 };
 
 const ORG_TIER_COLORS: Record<OrgTier, string> = {
-  'Corporation': '#eab308',
-  'Agency': '#3b82f6',
-  'Organization': '#a855f7',
+  Corporation: '#eab308',
+  Agency: '#06b6d4',
+  Organization: '#8b5cf6',
 };
 
 const STATUS_COLORS: Record<string, string> = {
   convicted: '#dc2626',
-  incarcerated: '#b91c1c',
+  incarcerated: '#991b1b',
   indicted: '#ea580c',
   charged: '#d97706',
-  pending: '#ca8a04',
-  settled: '#71717a',
-  acquitted: '#059669',
-  pardoned: '#7c3aed',
-  appealing: '#2563eb',
-  released: '#525252',
+  pending: '#eab308',
+  settled: '#6b7280',
+  acquitted: '#10b981',
+  pardoned: '#8b5cf6',
+  appealing: '#3b82f6',
+  released: '#9ca3af',
 };
 
+const NODE_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  rootNode: { width: 400, height: 90 },
+  categoryNode: { width: 190, height: 52 },
+  tierNode: { width: 210, height: 46 },
+  personNode: { width: 280, height: 112 },
+  orgNode: { width: 280, height: 92 },
+};
+
+// ============================================================
+// CLASSIFICATION FUNCTIONS
+// ============================================================
+
 function classifyPerson(def: Defendant | null, aff: Affiliation | null): PersonTier {
-  if (def) {
-    const role = def.role.toLowerCase();
-    if (def.status === 'convicted' || def.status === 'incarcerated' || def.status === 'indicted' || def.status === 'charged') return 'Primary Defendant';
-    if (role.includes('governor') || role.includes('senator') || role.includes('lieutenant') || role.includes('representative') || role.includes('commissioner') || role.includes('chair') || role.includes('chairman')) {
-      if (role.includes('commission') || role.includes('puct') || role.includes('regulatory') || role.includes('puc')) return 'Regulator';
-      return 'Politician';
-    }
-    if (role.includes('ceo') || role.includes('chief') || role.includes('president') || role.includes('director')) return 'Co-Conspirator';
-    return 'Primary Defendant';
+  const status = def?.status?.toLowerCase() || '';
+  const role = (def?.role || aff?.relationship || '').toLowerCase();
+
+  if (['convicted', 'incarcerated', 'indicted', 'charged', 'settled', 'pending'].includes(status)) {
+    if (/ceo|chair|president|director|chief|head|leader/.test(role)) return 'Primary Defendant';
+    return def?.charges?.length ? 'Primary Defendant' : 'Co-Conspirator';
   }
-  if (aff) {
-    const rel = aff.relationship.toLowerCase();
-    if (rel.includes('whistleblower') || rel.includes('exposed')) return 'Whistleblower';
-    if (aff.type === 'individual') {
-      if (rel.includes('regulat') || rel.includes('oversight') || rel.includes('enforcement')) return 'Regulator';
-      if (rel.includes('governor') || rel.includes('senator') || rel.includes('politic')) return 'Politician';
-      return 'Other';
-    }
-  }
+  if (/governor|senator|representative|mayor|lt\. governor|lieutenant governor|congress/.test(role)) return 'Politician';
+  if (/commissioner|regulator|inspector|administrator|oversight/.test(role)) return 'Regulator';
+  if (/whistleblower|witness|informant|testified/.test(role)) return 'Whistleblower';
   return 'Other';
 }
 
@@ -143,109 +177,510 @@ function classifyOrg(aff: Affiliation): OrgTier {
   return 'Organization';
 }
 
-// ============================================================
-// DATA BUILDER
-// ============================================================
-
-function buildTreeData(investigation: InvestigationData): TreeNodeData {
-  const { defendants = [], affiliations = [], moneyTrail = [] } = investigation;
-
-  const personMap = new Map<string, TreeNodeData>();
-
-  for (const def of defendants) {
-    const tier = classifyPerson(def, null);
-    const matchingAff = affiliations.find(a => a.name === def.name && a.type === 'individual');
-    personMap.set(def.name, {
-      name: def.name,
-      role: def.role,
-      tier,
-      status: def.status,
-      charges: def.charges,
-      sentence: def.sentence,
-      fine: def.fine,
-      restitution: (def as Defendant).restitution,
-      notes: def.notes,
-      relationship: matchingAff?.relationship,
-      href: matchingAff?.href,
-      moneyIn: moneyTrail.filter(m => m.to.toLowerCase().includes(def.name.split(' ').pop()!.toLowerCase())),
-      moneyOut: moneyTrail.filter(m => m.from.toLowerCase().includes(def.name.split(' ').pop()!.toLowerCase())),
-      side: 'left',
-    });
-  }
-
-  for (const aff of affiliations) {
-    if (aff.type === 'individual' && !personMap.has(aff.name)) {
-      const tier = classifyPerson(null, aff);
-      personMap.set(aff.name, {
-        name: aff.name,
-        role: aff.relationship,
-        tier,
-        relationship: aff.relationship,
-        href: aff.href,
-        moneyIn: moneyTrail.filter(m => m.to.toLowerCase().includes(aff.name.split(' ').pop()!.toLowerCase())),
-        moneyOut: moneyTrail.filter(m => m.from.toLowerCase().includes(aff.name.split(' ').pop()!.toLowerCase())),
-        side: 'left',
-      });
-    }
-  }
-
-  const personsByTier = new Map<PersonTier, TreeNodeData[]>();
-  for (const person of personMap.values()) {
-    const tier = person.tier as PersonTier;
-    if (!personsByTier.has(tier)) personsByTier.set(tier, []);
-    personsByTier.get(tier)!.push(person);
-  }
-
-  const personTierOrder: PersonTier[] = ['Primary Defendant', 'Co-Conspirator', 'Politician', 'Regulator', 'Whistleblower', 'Other'];
-  const personGroups: TreeNodeData[] = personTierOrder
-    .filter(tier => personsByTier.has(tier))
-    .map(tier => ({
-      name: tier,
-      tier,
-      side: 'left' as const,
-      children: personsByTier.get(tier)!,
-    }));
-
-  const orgAffs = affiliations.filter(a => a.type !== 'individual');
-  const orgsByTier = new Map<OrgTier, TreeNodeData[]>();
-  for (const aff of orgAffs) {
-    const tier = classifyOrg(aff);
-    if (!orgsByTier.has(tier)) orgsByTier.set(tier, []);
-    orgsByTier.get(tier)!.push({
-      name: aff.name,
-      role: aff.relationship,
-      tier,
-      relationship: aff.relationship,
-      href: aff.href,
-      moneyIn: moneyTrail.filter(m => m.to.toLowerCase().includes(aff.name.toLowerCase())),
-      moneyOut: moneyTrail.filter(m => m.from.toLowerCase().includes(aff.name.toLowerCase())),
-      side: 'right',
-    });
-  }
-
-  const orgTierOrder: OrgTier[] = ['Corporation', 'Agency', 'Organization'];
-  const orgGroups: TreeNodeData[] = orgTierOrder
-    .filter(tier => orgsByTier.has(tier))
-    .map(tier => ({
-      name: tier,
-      tier,
-      side: 'right' as const,
-      children: orgsByTier.get(tier)!,
-    }));
-
-  return {
-    name: investigation.title,
-    tier: 'Other',
-    side: 'root',
-    children: [
-      { name: 'People', tier: 'Other', side: 'left', children: personGroups },
-      { name: 'Organizations', tier: 'Other', side: 'right', children: orgGroups },
-    ],
-  };
+function slugifyName(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 
 // ============================================================
-// COLLAPSIBLE GLASS PANEL
+// ELK LAYOUT
+// ============================================================
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const elk = new (ELK as any)();
+
+async function computeElkLayout(
+  nodes: AppNode[],
+  edges: AppEdge[],
+): Promise<AppNode[]> {
+  const elkNodes = nodes.map(node => {
+    const type = node.type || 'personNode';
+    const dims = NODE_DIMENSIONS[type] || { width: 250, height: 80 };
+    return { id: node.id, width: dims.width, height: dims.height };
+  });
+
+  const elkEdges = edges.map(edge => ({
+    id: edge.id,
+    sources: [edge.source],
+    targets: [edge.target],
+  }));
+
+  const graph = {
+    id: 'elk-root',
+    layoutOptions: {
+      'elk.algorithm': 'layered',
+      'elk.direction': 'RIGHT',
+      'elk.spacing.nodeNode': '35',
+      'elk.layered.spacing.nodeNodeBetweenLayers': '70',
+      'elk.spacing.edgeNode': '30',
+      'elk.spacing.edgeEdge': '20',
+      'elk.layered.nodePlacement.strategy': 'BRANDES_KOEPF',
+      'elk.layered.crossingMinimization.strategy': 'LAYER_SWEEP',
+      'elk.edgeRouting': 'SPLINES',
+      'elk.layered.mergeEdges': 'false',
+    },
+    children: elkNodes,
+    edges: elkEdges,
+  };
+
+  const layouted = await elk.layout(graph);
+
+  return nodes.map(node => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const elkNode = layouted.children?.find((n: any) => n.id === node.id);
+    return elkNode
+      ? { ...node, position: { x: elkNode.x ?? 0, y: elkNode.y ?? 0 } }
+      : node;
+  });
+}
+
+// ============================================================
+// BUILD GRAPH DATA
+// ============================================================
+
+function buildGraphData(
+  investigation: InvestigationData,
+  collapsedNodes: Set<string>,
+  showPeople: boolean,
+  showOrgs: boolean,
+): { nodes: AppNode[]; edges: AppEdge[] } {
+  const nodes: AppNode[] = [];
+  const edges: AppEdge[] = [];
+
+  const defendants = investigation.defendants || [];
+  const affiliations = investigation.affiliations || [];
+  const moneyTrail = investigation.moneyTrail || [];
+
+  // --- ROOT ---
+  nodes.push({
+    id: 'root',
+    type: 'rootNode',
+    position: { x: 0, y: 0 },
+    data: {
+      label: investigation.title,
+      nodeType: 'root',
+      title: investigation.title,
+      severity: investigation.severity,
+      defendantCount: defendants.length,
+      entityCount: affiliations.length,
+      transactionCount: moneyTrail.length,
+    },
+  });
+
+  // --- PEOPLE ---
+  const personMap = new Map<string, { def?: Defendant; aff?: Affiliation; tier: PersonTier }>();
+  for (const def of defendants) {
+    const matchingAff = affiliations.find(a => a.name === def.name && a.type === 'individual');
+    personMap.set(def.name, { def, aff: matchingAff, tier: classifyPerson(def, matchingAff || null) });
+  }
+  for (const aff of affiliations.filter(a => a.type === 'individual')) {
+    if (!personMap.has(aff.name)) {
+      personMap.set(aff.name, { aff, tier: classifyPerson(null, aff) });
+    }
+  }
+
+  if (showPeople && personMap.size > 0) {
+    const peopleCollapsed = collapsedNodes.has('people');
+    nodes.push({
+      id: 'people',
+      type: 'categoryNode',
+      position: { x: 0, y: 0 },
+      data: {
+        label: 'People',
+        nodeType: 'category',
+        category: 'People',
+        count: personMap.size,
+        color: '#d64545',
+        isCollapsed: peopleCollapsed,
+      },
+    });
+    edges.push({
+      id: 'e-root-people',
+      source: 'root',
+      target: 'people',
+      type: 'smoothstep',
+      style: { stroke: '#d64545', strokeWidth: 2 },
+      markerEnd: { type: MarkerType.ArrowClosed, color: '#d64545', width: 14, height: 14 },
+    });
+
+    if (!peopleCollapsed) {
+      const personsByTier = new Map<PersonTier, { name: string; def?: Defendant; aff?: Affiliation }[]>();
+      for (const [name, data] of personMap) {
+        if (!personsByTier.has(data.tier)) personsByTier.set(data.tier, []);
+        personsByTier.get(data.tier)!.push({ name, def: data.def, aff: data.aff });
+      }
+
+      const tierOrder: PersonTier[] = ['Primary Defendant', 'Co-Conspirator', 'Politician', 'Regulator', 'Whistleblower', 'Other'];
+      for (const tier of tierOrder) {
+        const people = personsByTier.get(tier);
+        if (!people) continue;
+
+        const tierId = `tier-${slugifyName(tier)}`;
+        const tierCollapsed = collapsedNodes.has(tierId);
+        const color = PERSON_TIER_COLORS[tier];
+
+        nodes.push({
+          id: tierId,
+          type: 'tierNode',
+          position: { x: 0, y: 0 },
+          data: { label: tier, nodeType: 'tier', tier, count: people.length, color, side: 'left', isCollapsed: tierCollapsed },
+        });
+        edges.push({
+          id: `e-people-${tierId}`,
+          source: 'people',
+          target: tierId,
+          type: 'smoothstep',
+          style: { stroke: color, strokeWidth: 1.5, strokeOpacity: 0.6 },
+        });
+
+        if (!tierCollapsed) {
+          for (const person of people) {
+            const personId = `person-${slugifyName(person.name)}`;
+            const moneyIn = moneyTrail.filter(m => m.to.toLowerCase().includes(person.name.split(' ').pop()!.toLowerCase()));
+            const moneyOut = moneyTrail.filter(m => m.from.toLowerCase().includes(person.name.split(' ').pop()!.toLowerCase()));
+
+            nodes.push({
+              id: personId,
+              type: 'personNode',
+              position: { x: 0, y: 0 },
+              data: {
+                label: person.name,
+                nodeType: 'person',
+                name: person.name,
+                role: person.def?.role || person.aff?.relationship || '',
+                tier,
+                status: person.def?.status,
+                charges: person.def?.charges,
+                sentence: person.def?.sentence,
+                fine: person.def?.fine,
+                restitution: (person.def as Defendant | undefined)?.restitution,
+                notes: person.def?.notes,
+                href: person.aff?.href,
+                moneyIn,
+                moneyOut,
+                relationship: person.aff?.relationship,
+              },
+            });
+            edges.push({
+              id: `e-${tierId}-${personId}`,
+              source: tierId,
+              target: personId,
+              type: 'smoothstep',
+              style: { stroke: color, strokeWidth: 1, strokeOpacity: 0.4 },
+              animated: person.def?.status === 'pending',
+            });
+          }
+        }
+      }
+    }
+  }
+
+  // --- ORGANIZATIONS ---
+  const orgAffs = affiliations.filter(a => a.type !== 'individual');
+
+  if (showOrgs && orgAffs.length > 0) {
+    const orgsCollapsed = collapsedNodes.has('orgs');
+    nodes.push({
+      id: 'orgs',
+      type: 'categoryNode',
+      position: { x: 0, y: 0 },
+      data: {
+        label: 'Organizations',
+        nodeType: 'category',
+        category: 'Organizations',
+        count: orgAffs.length,
+        color: '#eab308',
+        isCollapsed: orgsCollapsed,
+      },
+    });
+    edges.push({
+      id: 'e-root-orgs',
+      source: 'root',
+      target: 'orgs',
+      type: 'smoothstep',
+      style: { stroke: '#eab308', strokeWidth: 2 },
+      markerEnd: { type: MarkerType.ArrowClosed, color: '#eab308', width: 14, height: 14 },
+    });
+
+    if (!orgsCollapsed) {
+      const orgsByTier = new Map<OrgTier, Affiliation[]>();
+      for (const aff of orgAffs) {
+        const tier = classifyOrg(aff);
+        if (!orgsByTier.has(tier)) orgsByTier.set(tier, []);
+        orgsByTier.get(tier)!.push(aff);
+      }
+
+      const orgTierOrder: OrgTier[] = ['Corporation', 'Agency', 'Organization'];
+      for (const tier of orgTierOrder) {
+        const orgs = orgsByTier.get(tier);
+        if (!orgs) continue;
+
+        const tierId = `org-tier-${slugifyName(tier)}`;
+        const tierCollapsed = collapsedNodes.has(tierId);
+        const color = ORG_TIER_COLORS[tier];
+
+        nodes.push({
+          id: tierId,
+          type: 'tierNode',
+          position: { x: 0, y: 0 },
+          data: { label: tier, nodeType: 'tier', tier, count: orgs.length, color, side: 'right', isCollapsed: tierCollapsed },
+        });
+        edges.push({
+          id: `e-orgs-${tierId}`,
+          source: 'orgs',
+          target: tierId,
+          type: 'smoothstep',
+          style: { stroke: color, strokeWidth: 1.5, strokeOpacity: 0.6 },
+        });
+
+        if (!tierCollapsed) {
+          for (const org of orgs) {
+            const orgId = `org-${slugifyName(org.name)}`;
+            const moneyIn = moneyTrail.filter(m => m.to.toLowerCase().includes(org.name.toLowerCase()));
+            const moneyOut = moneyTrail.filter(m => m.from.toLowerCase().includes(org.name.toLowerCase()));
+
+            nodes.push({
+              id: orgId,
+              type: 'orgNode',
+              position: { x: 0, y: 0 },
+              data: {
+                label: org.name,
+                nodeType: 'org',
+                name: org.name,
+                entityType: org.type,
+                role: org.relationship,
+                tier,
+                href: org.href,
+                moneyIn,
+                moneyOut,
+                relationship: org.relationship,
+              },
+            });
+            edges.push({
+              id: `e-${tierId}-${orgId}`,
+              source: tierId,
+              target: orgId,
+              type: 'smoothstep',
+              style: { stroke: color, strokeWidth: 1, strokeOpacity: 0.4 },
+            });
+          }
+        }
+      }
+    }
+  }
+
+  return { nodes, edges };
+}
+
+// ============================================================
+// CUSTOM NODE COMPONENTS
+// ============================================================
+
+const glassBase: React.CSSProperties = {
+  background: 'linear-gradient(160deg, #080808 0%, #020202 40%, #060606 100%)',
+  borderRadius: 12,
+};
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function RootNode({ data, selected }: any) {
+  const sevColor = SEVERITY_COLORS[data.severity] || '#dc2626';
+  return (
+    <>
+      <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <div
+        className={`px-6 py-4 transition-all duration-200 ${selected ? 'ring-2 ring-white/30' : ''}`}
+        style={{
+          ...glassBase,
+          border: `2px solid ${sevColor}40`,
+          boxShadow: selected ? `0 0 30px ${sevColor}30` : `0 0 15px ${sevColor}15`,
+          minWidth: 380,
+        }}
+      >
+        <div className="flex items-center gap-3 mb-2">
+          <div className="w-3 h-3 rounded-sm animate-pulse" style={{ backgroundColor: sevColor, boxShadow: `0 0 8px ${sevColor}` }} />
+          <span className="text-sm font-black text-white uppercase tracking-wider leading-tight" style={{ maxWidth: 320 }}>
+            {(data.title as string)?.length > 55 ? (data.title as string).substring(0, 53) + '..' : data.title}
+          </span>
+        </div>
+        <div className="flex items-center gap-4 text-[10px] font-mono">
+          <span style={{ color: sevColor }} className="font-bold uppercase tracking-wider">{(data.severity as string)?.toUpperCase()}</span>
+          <span className="text-zinc-500">{data.entityCount} entities</span>
+          <span className="text-zinc-500">{data.defendantCount} defendants</span>
+          <span className="text-zinc-500">{data.transactionCount} txns</span>
+        </div>
+      </div>
+    </>
+  );
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function CategoryNode({ data, selected }: any) {
+  const color = data.color as string;
+  const isCollapsed = data.isCollapsed as boolean;
+  return (
+    <>
+      <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <div
+        className={`px-5 py-3 flex items-center gap-3 cursor-pointer transition-all duration-200 ${selected ? 'ring-2 ring-white/20' : ''}`}
+        style={{ ...glassBase, border: `1.5px solid ${color}40`, boxShadow: `0 0 10px ${color}10` }}
+      >
+        <Users className="w-4 h-4 flex-shrink-0" style={{ color }} />
+        <span className="text-xs font-black text-white uppercase tracking-wider">{data.category}</span>
+        <span className="text-[10px] font-mono px-2 py-0.5" style={{ color, backgroundColor: `${color}15`, border: `1px solid ${color}30`, borderRadius: 6 }}>
+          {data.count}
+        </span>
+        {isCollapsed
+          ? <ChevronRight className="w-3.5 h-3.5 text-zinc-600 ml-auto" />
+          : <ChevronDown className="w-3.5 h-3.5 text-zinc-600 ml-auto" />}
+      </div>
+    </>
+  );
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function TierNode({ data, selected }: any) {
+  const color = data.color as string;
+  const isCollapsed = data.isCollapsed as boolean;
+  return (
+    <>
+      <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <div
+        className={`px-4 py-2.5 flex items-center gap-2 cursor-pointer transition-all duration-200 ${selected ? 'ring-1 ring-white/15' : ''}`}
+        style={{ ...glassBase, background: `linear-gradient(160deg, ${color}08 0%, #020202 100%)`, border: `1px solid ${color}30`, borderRadius: 8 }}
+      >
+        <div className="w-2 h-2 rounded-sm flex-shrink-0" style={{ backgroundColor: color }} />
+        <span className="text-[10px] font-bold text-zinc-300 uppercase tracking-wider">{data.tier}</span>
+        <span className="text-[9px] font-mono text-zinc-600 ml-auto mr-1">{data.count}</span>
+        {isCollapsed
+          ? <ChevronRight className="w-3 h-3 text-zinc-700" />
+          : <ChevronDown className="w-3 h-3 text-zinc-700" />}
+      </div>
+    </>
+  );
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function PersonNode({ data, selected }: any) {
+  const tier = data.tier as string;
+  const status = data.status as string | undefined;
+  const tierColor = (PERSON_TIER_COLORS as Record<string, string>)[tier] || '#6b7280';
+  const statusColor = status ? STATUS_COLORS[status] || '#555' : undefined;
+  const moneyIn = (data.moneyIn as MoneyTransaction[]) || [];
+  const moneyOut = (data.moneyOut as MoneyTransaction[]) || [];
+  const totalMoney = moneyIn.length + moneyOut.length;
+
+  return (
+    <>
+      <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <div
+        className={`p-4 transition-all duration-200 ${selected ? 'ring-2 ring-white/25' : ''}`}
+        style={{
+          ...glassBase,
+          border: `1px solid ${selected ? tierColor : 'rgba(184, 0, 0, 0.20)'}`,
+          boxShadow: selected ? `0 4px 20px ${tierColor}20, 0 0 1px ${tierColor}40` : '0 2px 8px rgba(0,0,0,0.3)',
+          width: 270,
+        }}
+      >
+        <div className="flex items-start justify-between gap-2 mb-1.5">
+          <div className="flex items-center gap-2 min-w-0">
+            {statusColor && (
+              <div className="w-2 h-2 rounded-full flex-shrink-0 animate-pulse" style={{ backgroundColor: statusColor, boxShadow: `0 0 6px ${statusColor}` }} />
+            )}
+            <span className="text-[11px] font-bold text-white truncate">{data.name}</span>
+          </div>
+          {status && (
+            <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider flex-shrink-0"
+              style={{ color: statusColor, border: `1px solid ${statusColor}50`, borderRadius: 4 }}>
+              {status}
+            </span>
+          )}
+        </div>
+        {data.role && <p className="text-[9px] text-zinc-500 leading-relaxed mb-2 line-clamp-2">{data.role}</p>}
+        <div className="h-px mb-2" style={{ background: `linear-gradient(to right, ${tierColor}20, transparent)` }} />
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider"
+            style={{ color: tierColor, border: `1px solid ${tierColor}30`, borderRadius: 4, backgroundColor: `${tierColor}08` }}>
+            {tier}
+          </span>
+          {data.charges && (data.charges as string[]).length > 0 && (
+            <span className="text-[8px] text-red-500/60 font-mono">{(data.charges as string[]).length} charges</span>
+          )}
+          {totalMoney > 0 && (
+            <span className="text-[8px] text-yellow-500/60 font-mono flex items-center gap-0.5">
+              <DollarSign className="w-2.5 h-2.5" />{totalMoney}
+            </span>
+          )}
+          {data.href && <ArrowUpRight className="w-3 h-3 text-zinc-700 ml-auto" />}
+        </div>
+      </div>
+    </>
+  );
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function OrgNode({ data, selected }: any) {
+  const tier = data.tier as string;
+  const tierColor = (ORG_TIER_COLORS as Record<string, string>)[tier] || '#6b7280';
+  const moneyIn = (data.moneyIn as MoneyTransaction[]) || [];
+  const moneyOut = (data.moneyOut as MoneyTransaction[]) || [];
+  const totalMoney = moneyIn.length + moneyOut.length;
+
+  return (
+    <>
+      <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <div
+        className={`p-4 transition-all duration-200 ${selected ? 'ring-2 ring-white/25' : ''}`}
+        style={{
+          ...glassBase,
+          border: `1px solid ${selected ? tierColor : 'rgba(184, 0, 0, 0.20)'}`,
+          boxShadow: selected ? `0 4px 20px ${tierColor}20, 0 0 1px ${tierColor}40` : '0 2px 8px rgba(0,0,0,0.3)',
+          width: 270,
+        }}
+      >
+        <div className="flex items-start justify-between gap-2 mb-1.5">
+          <div className="flex items-center gap-2 min-w-0">
+            <Building2 className="w-3 h-3 flex-shrink-0" style={{ color: tierColor }} />
+            <span className="text-[11px] font-bold text-white truncate">{data.name}</span>
+          </div>
+          <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider flex-shrink-0"
+            style={{ color: tierColor, border: `1px solid ${tierColor}40`, borderRadius: 4 }}>
+            {data.entityType}
+          </span>
+        </div>
+        {data.role && <p className="text-[9px] text-zinc-500 leading-relaxed mb-2 line-clamp-2">{data.role}</p>}
+        <div className="h-px mb-2" style={{ background: `linear-gradient(to right, ${tierColor}20, transparent)` }} />
+        <div className="flex items-center gap-2">
+          <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider"
+            style={{ color: tierColor, border: `1px solid ${tierColor}30`, borderRadius: 4, backgroundColor: `${tierColor}08` }}>
+            {tier}
+          </span>
+          {totalMoney > 0 && (
+            <span className="text-[8px] text-yellow-500/60 font-mono flex items-center gap-0.5">
+              <DollarSign className="w-2.5 h-2.5" />{totalMoney} txns
+            </span>
+          )}
+          {data.href && <ArrowUpRight className="w-3 h-3 text-zinc-700 ml-auto" />}
+        </div>
+      </div>
+    </>
+  );
+}
+
+// ============================================================
+// NODE TYPES (defined outside component to prevent re-creation)
+// ============================================================
+
+const nodeTypes = {
+  rootNode: memo(RootNode),
+  categoryNode: memo(CategoryNode),
+  tierNode: memo(TierNode),
+  personNode: memo(PersonNode),
+  orgNode: memo(OrgNode),
+};
+
+// ============================================================
+// GLASS PANEL (collapsible wrapper)
 // ============================================================
 
 function GlassPanel({
@@ -265,11 +700,8 @@ function GlassPanel({
 }) {
   const [isOpen, setIsOpen] = useState(defaultOpen);
   return (
-    <div className={`glass-card ${className}`}>
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center justify-between p-4 cursor-pointer select-none group"
-      >
+    <div className={className} style={{ ...glassBase, border: '1px solid rgba(184, 0, 0, 0.25)' }}>
+      <button onClick={() => setIsOpen(!isOpen)} className="w-full flex items-center justify-between p-4 cursor-pointer select-none group">
         <div className="flex items-center gap-2.5">
           <span className="text-red-400 flex-shrink-0">{icon}</span>
           <span className="text-sm font-bold text-white uppercase tracking-wider">{title}</span>
@@ -290,9 +722,7 @@ function GlassPanel({
             transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
             className="overflow-hidden"
           >
-            <div className="px-4 pb-4 border-t border-[rgba(184,0,0,0.10)] pt-3">
-              {children}
-            </div>
+            <div className="px-4 pb-4 border-t border-[rgba(184,0,0,0.10)] pt-3">{children}</div>
           </motion.div>
         )}
       </AnimatePresence>
@@ -301,69 +731,49 @@ function GlassPanel({
 }
 
 // ============================================================
-// SLUGIFY
+// MINIMAP NODE COLOR
 // ============================================================
 
-function slugifyName(name: string): string {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+function minimapNodeColor(node: AppNode): string {
+  const d = node.data;
+  if (d.nodeType === 'root') return SEVERITY_COLORS[d.severity || 'critical'] || '#dc2626';
+  if (d.nodeType === 'category') return (d.color as string) || '#555';
+  if (d.nodeType === 'tier') return (d.color as string) || '#444';
+  if (d.nodeType === 'person') return (PERSON_TIER_COLORS as Record<string, string>)[d.tier || ''] || '#555';
+  if (d.nodeType === 'org') return (ORG_TIER_COLORS as Record<string, string>)[d.tier || ''] || '#555';
+  return '#333';
 }
 
 // ============================================================
-// NETWORK TREE COMPONENT
+// MAIN CONTENT COMPONENT
 // ============================================================
 
-interface NetworkTreeProps {
-  investigation: InvestigationData;
-}
+function NetworkTreeContent({ investigation }: { investigation: InvestigationData }) {
+  const reactFlow = useReactFlow();
+  const [nodes, setNodes, onNodesChange] = useNodesState<AppNode>([]);
+  const [edges, setEdges, onEdgesChange] = useEdgesState<AppEdge>([]);
+  const [isLayouting, setIsLayouting] = useState(true);
 
-export default function NetworkTree({ investigation }: NetworkTreeProps) {
-  const svgRef = useRef<SVGSVGElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [dimensions, setDimensions] = useState({ width: 1200, height: 600 });
-
-  // Controls
-  const [depth, setDepth] = useState(3);
+  // State
+  const [collapsedNodes, setCollapsedNodes] = useState<Set<string>>(new Set());
+  const [selectedNodeId, setSelectedNodeId] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
   const [showPeople, setShowPeople] = useState(true);
   const [showOrgs, setShowOrgs] = useState(true);
-  const [filterTier, setFilterTier] = useState<string>('all');
-  const [nodeScale, setNodeScale] = useState(80);
-  const [linkOpacity, setLinkOpacity] = useState(60);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [searchMatches, setSearchMatches] = useState(0);
 
-  // Expand/collapse state (path-based)
-  const [collapsedPaths, setCollapsedPaths] = useState<Set<string>>(new Set());
-  const [expandedPaths, setExpandedPaths] = useState<Set<string>>(new Set());
-
-  // Selection & tooltip
-  const [selectedNode, setSelectedNode] = useState<TreeNodeData | null>(null);
-  const [tooltip, setTooltip] = useState<{ x: number; y: number; data: TreeNodeData } | null>(null);
-
-  // Stats
-  const [stats, setStats] = useState({ total: 0, people: 0, orgs: 0 });
-
-  // Build tree data
-  const treeData = useMemo(() => buildTreeData(investigation), [investigation]);
-
-  // Available tiers
-  const availableTiers = useMemo(() => {
-    const tiers = new Set<string>();
-    function walk(node: TreeNodeData) {
-      if (node.side === 'left' && node.tier && node.tier !== 'Other' && !node.children?.some(c => c.children)) {
-        tiers.add(node.tier);
-      }
-      node.children?.forEach(walk);
-    }
-    walk(treeData);
-    return Array.from(tiers);
-  }, [treeData]);
-
-  // Derived data for detail panels
+  // Derived data
   const defendants = investigation.defendants || [];
   const affiliations = investigation.affiliations || [];
-  const orgAffiliations = affiliations.filter(a => a.type !== 'individual');
   const moneyTrail = investigation.moneyTrail || [];
+  const orgAffiliations = affiliations.filter(a => a.type !== 'individual');
 
+  // Selected node data
+  const selectedNodeData = useMemo(() => {
+    if (!selectedNodeId) return null;
+    return nodes.find(n => n.id === selectedNodeId)?.data || null;
+  }, [selectedNodeId, nodes]);
+
+  // Tier / status counts
   const tierCounts = useMemo(() => {
     const map = new Map<string, number>();
     defendants.forEach(d => {
@@ -375,509 +785,134 @@ export default function NetworkTree({ investigation }: NetworkTreeProps) {
 
   const statusCounts = useMemo(() => {
     const map = new Map<string, number>();
-    defendants.forEach(d => {
-      map.set(d.status, (map.get(d.status) || 0) + 1);
-    });
+    defendants.forEach(d => map.set(d.status, (map.get(d.status) || 0) + 1));
     return Array.from(map.entries()).sort((a, b) => b[1] - a[1]);
   }, [defendants]);
 
-  // Reset manual overrides when depth slider changes
+  // ELK layout computation
   useEffect(() => {
-    setCollapsedPaths(new Set());
-    setExpandedPaths(new Set());
-  }, [depth]);
+    let cancelled = false;
+    async function layout() {
+      setIsLayouting(true);
+      const { nodes: graphNodes, edges: graphEdges } = buildGraphData(investigation, collapsedNodes, showPeople, showOrgs);
 
-  // Resize observer
-  useEffect(() => {
-    if (!containerRef.current) return;
-    const observer = new ResizeObserver((entries) => {
-      for (const entry of entries) {
-        const { width, height } = entry.contentRect;
-        if (width > 0 && height > 0) setDimensions({ width, height });
+      try {
+        const layoutedNodes = await computeElkLayout(graphNodes, graphEdges);
+        if (!cancelled) {
+          setNodes(layoutedNodes);
+          setEdges(graphEdges);
+          setTimeout(() => {
+            reactFlow.fitView({ padding: 0.15, duration: 400 });
+          }, 80);
+        }
+      } catch (err) {
+        console.error('ELK layout failed:', err);
+        if (!cancelled) {
+          setNodes(graphNodes);
+          setEdges(graphEdges);
+        }
       }
-    });
-    observer.observe(containerRef.current);
-    return () => observer.disconnect();
+      if (!cancelled) setIsLayouting(false);
+    }
+    layout();
+    return () => { cancelled = true; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [investigation, collapsedNodes, showPeople, showOrgs]);
+
+  // Node click handler
+  const onNodeClick = useCallback((_event: React.MouseEvent, node: AppNode) => {
+    const data = node.data;
+
+    // Toggle collapse for category/tier nodes
+    if (data.nodeType === 'category' || data.nodeType === 'tier') {
+      setCollapsedNodes(prev => {
+        const next = new Set(prev);
+        if (next.has(node.id)) next.delete(node.id);
+        else next.add(node.id);
+        return next;
+      });
+    }
+
+    // Select person/org nodes
+    if (data.nodeType === 'person' || data.nodeType === 'org') {
+      setSelectedNodeId(prev => prev === node.id ? null : node.id);
+    }
   }, []);
 
-  // ============================================================
-  // D3 RENDER
-  // ============================================================
+  // Search
+  const searchMatches = useMemo(() => {
+    if (!searchQuery) return 0;
+    const q = searchQuery.toLowerCase();
+    return nodes.filter(n => ((n.data.name || n.data.label || '') as string).toLowerCase().includes(q)).length;
+  }, [searchQuery, nodes]);
 
-  const renderTree = useCallback(() => {
-    if (!svgRef.current) return;
+  // Stats
+  const stats = useMemo(() => ({
+    people: nodes.filter(n => n.data.nodeType === 'person').length,
+    orgs: nodes.filter(n => n.data.nodeType === 'org').length,
+    total: nodes.filter(n => n.data.nodeType === 'person' || n.data.nodeType === 'org').length,
+  }), [nodes]);
 
-    const svg = d3.select(svgRef.current);
-    svg.selectAll('*').remove();
-
-    const { width, height } = dimensions;
-    const centerX = width / 2;
-    const centerY = height / 2;
-    const scale = nodeScale / 100;
-
-    const g = svg.append('g').attr('class', 'tree-container');
-
-    // Zoom
-    const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.15, 5])
-      .on('zoom', (event) => g.attr('transform', event.transform.toString()));
-    svg.call(zoom);
-
-    // Defs
-    const defs = svg.append('defs');
-
-    const gridPattern = defs.append('pattern')
-      .attr('id', 'net-grid').attr('width', 40).attr('height', 40)
-      .attr('patternUnits', 'userSpaceOnUse');
-    gridPattern.append('rect').attr('width', 40).attr('height', 40).attr('fill', 'none');
-    gridPattern.append('path')
-      .attr('d', 'M 40 0 L 0 0 0 40')
-      .attr('fill', 'none')
-      .attr('stroke', 'rgba(184, 0, 0, 0.04)')
-      .attr('stroke-width', 0.5);
-
-    svg.insert('rect', ':first-child')
-      .attr('width', '100%').attr('height', '100%').attr('fill', '#020202');
-    svg.insert('rect', 'g')
-      .attr('width', '100%').attr('height', '100%').attr('fill', 'url(#net-grid)');
-
-    // Glow filters
-    const makeGlow = (id: string, blur: number) => {
-      const f = defs.append('filter').attr('id', id);
-      f.append('feGaussianBlur').attr('stdDeviation', String(blur)).attr('result', 'glow');
-      const m = f.append('feMerge');
-      m.append('feMergeNode').attr('in', 'glow');
-      m.append('feMergeNode').attr('in', 'SourceGraphic');
-      return f;
-    };
-
-    makeGlow('search-glow', 6);
-    makeGlow('select-glow', 5);
-    const pulseFilter = makeGlow('pulse-glow', 3);
-    pulseFilter.select('feGaussianBlur')
-      .append('animate')
-      .attr('attributeName', 'stdDeviation')
-      .attr('values', '3;6;3')
-      .attr('dur', '2s')
-      .attr('repeatCount', 'indefinite');
-
-    // Deep clone
-    function deepClone(node: TreeNodeData): TreeNodeData {
-      return { ...node, children: node.children?.map(deepClone), _children: node._children?.map(deepClone) };
-    }
-
-    const rootData = deepClone(treeData);
-    const leftData = rootData.children?.[0];
-    const rightData = rootData.children?.[1];
-    if (!leftData || !rightData) return;
-
-    // Apply visibility based on depth + manual overrides
-    function applyVisibility(node: TreeNodeData, parentPath: string, currentDepth: number): void {
-      const allChildren = node.children || node._children;
-      if (!allChildren || allChildren.length === 0) return;
-
-      const nodePath = parentPath ? `${parentPath}/${node.name}` : node.name;
-      const isCollapsed = collapsedPaths.has(nodePath);
-      const isExpanded = expandedPaths.has(nodePath);
-
-      if (isCollapsed) {
-        node._children = allChildren;
-        node.children = undefined;
-        return;
-      }
-
-      if (isExpanded || currentDepth < depth) {
-        node.children = allChildren;
-        node._children = undefined;
-        for (const child of allChildren) {
-          applyVisibility(child, nodePath, currentDepth + 1);
-        }
-      } else {
-        node._children = allChildren;
-        node.children = undefined;
-      }
-    }
-
-    applyVisibility(leftData, '', 0);
-    applyVisibility(rightData, '', 0);
-
-    // Apply filters
-    function filterNodes(node: TreeNodeData, side: 'left' | 'right'): TreeNodeData | null {
-      if (side === 'left' && !showPeople) return null;
-      if (side === 'right' && !showOrgs) return null;
-
-      if (node.children) {
-        const filtered = node.children.map(c => filterNodes(c, side)).filter(Boolean) as TreeNodeData[];
-        if (filterTier !== 'all' && side === 'left') {
-          const tierFiltered = filtered.filter(c => {
-            if (c.children) return c.children.length > 0;
-            return c.tier === filterTier;
-          });
-          if (tierFiltered.length === 0 && node.tier !== filterTier && node.name !== 'People') return null;
-          return { ...node, children: tierFiltered.length > 0 ? tierFiltered : undefined };
-        }
-        return filtered.length > 0 ? { ...node, children: filtered } : { ...node, children: undefined };
-      }
-
-      if (filterTier !== 'all' && side === 'left' && node.tier !== filterTier) return null;
-      return node;
-    }
-
-    const filteredLeft = filterNodes(leftData, 'left');
-    const filteredRight = filterNodes(rightData, 'right');
-
-    // Layout settings
-    const treeHeight = Math.max(height - 80, 400);
-    const treeSideWidth = Math.max((width / 2) - 140, 200);
-    let totalPeople = 0;
-    let totalOrgs = 0;
-
-    function countLeaves(node: TreeNodeData, side: 'left' | 'right') {
-      if (!node.children || node.children.length === 0) {
-        if (side === 'left') totalPeople++;
-        else totalOrgs++;
-      }
-      node.children?.forEach(c => countLeaves(c, side));
-    }
-
-    function getNodePath(d: d3.HierarchyNode<TreeNodeData>): string {
-      return d.ancestors().reverse().map(a => (a.data as TreeNodeData).name).join('/');
-    }
-
-    const selectedName = selectedNode?.name || null;
-
-    // === RENDER SIDE HELPER ===
-    function renderSide(
-      data: TreeNodeData | null,
-      side: 'left' | 'right',
-    ) {
-      if (!data) return;
-
-      const hierarchy = d3.hierarchy(data, d => d.children);
-      const layout = d3.tree<TreeNodeData>().size([treeHeight, treeSideWidth]);
-      layout(hierarchy);
-
-      countLeaves(data, side);
-
-      // Position nodes
-      hierarchy.each(d => {
-        const point = d as d3.HierarchyPointNode<TreeNodeData>;
-        if (side === 'left') {
-          point.y = centerX - point.y;
-        } else {
-          point.y = centerX + point.y;
-        }
-      });
-
-      const tierColors = side === 'left' ? PERSON_TIER_COLORS : ORG_TIER_COLORS;
-      const branchLabel = side === 'left' ? 'People' : 'Organizations';
-      const branchStroke = side === 'left' ? '#d64545' : '#eab308';
-
-      // Links
-      g.append('g').attr('class', `${side}-links`)
-        .selectAll('path')
-        .data(hierarchy.links())
-        .join('path')
-        .attr('d', d => {
-          const s = d.source as d3.HierarchyPointNode<TreeNodeData>;
-          const t = d.target as d3.HierarchyPointNode<TreeNodeData>;
-          return `M${s.y},${s.x} C${(s.y + t.y) / 2},${s.x} ${(s.y + t.y) / 2},${t.x} ${t.y},${t.x}`;
-        })
-        .attr('fill', 'none')
-        .attr('stroke', d => {
-          const tier = (d.target.data as TreeNodeData).tier;
-          return (tierColors as Record<string, string>)[tier] || '#444';
-        })
-        .attr('stroke-opacity', linkOpacity / 100)
-        .attr('stroke-width', 1.5);
-
-      // Nodes
-      const nodeGroups = g.append('g').attr('class', `${side}-nodes`)
-        .selectAll('g')
-        .data(hierarchy.descendants())
-        .join('g')
-        .attr('transform', d => {
-          const p = d as d3.HierarchyPointNode<TreeNodeData>;
-          return `translate(${p.y},${p.x})`;
-        })
-        .attr('cursor', 'pointer');
-
-      // Circles
-      nodeGroups.append('circle')
-        .attr('r', d => {
-          const data = d.data as TreeNodeData;
-          if (data.name === branchLabel) return 14 * scale;
-          if (data.children || data._children) return 10 * scale;
-          return 8 * scale;
-        })
-        .attr('fill', d => {
-          const data = d.data as TreeNodeData;
-          if (data.name === branchLabel) return '#0a0000';
-          const color = (tierColors as Record<string, string>)[data.tier];
-          return color ? `${color}33` : '#1a1a1a';
-        })
-        .attr('stroke', d => {
-          const data = d.data as TreeNodeData;
-          if (selectedName && data.name === selectedName) return '#ffffff';
-          if (data.name === branchLabel) return branchStroke;
-          if (data.status) return STATUS_COLORS[data.status] || '#555';
-          return (tierColors as Record<string, string>)[data.tier] || '#555';
-        })
-        .attr('stroke-width', d => {
-          const data = d.data as TreeNodeData;
-          if (selectedName && data.name === selectedName) return 3;
-          if (data.status === 'convicted' || data.status === 'incarcerated') return 3;
-          return 2;
-        })
-        .attr('filter', d => {
-          const data = d.data as TreeNodeData;
-          if (selectedName && data.name === selectedName) return 'url(#select-glow)';
-          if (searchQuery && data.name.toLowerCase().includes(searchQuery.toLowerCase())) return 'url(#search-glow)';
-          if (data.status === 'pending') return 'url(#pulse-glow)';
-          return 'none';
-        });
-
-      // Labels
-      nodeGroups.append('text')
-        .attr('dx', d => {
-          const data = d.data as TreeNodeData;
-          const r = data.name === branchLabel ? 14 : (data.children || data._children) ? 10 : 8;
-          return side === 'left' ? -(r * scale + 8) : (r * scale + 8);
-        })
-        .attr('dy', 4)
-        .attr('text-anchor', side === 'left' ? 'end' : 'start')
-        .attr('fill', d => {
-          const data = d.data as TreeNodeData;
-          if (selectedName && data.name === selectedName) return '#ffffff';
-          if (searchQuery && data.name.toLowerCase().includes(searchQuery.toLowerCase())) return '#f97316';
-          return '#e4e4e7';
-        })
-        .attr('font-size', d => {
-          const data = d.data as TreeNodeData;
-          if (data.name === branchLabel) return `${13 * scale}px`;
-          if (data.children || data._children) return `${11 * scale}px`;
-          return `${10 * scale}px`;
-        })
-        .attr('font-family', 'monospace')
-        .attr('font-weight', d => {
-          const data = d.data as TreeNodeData;
-          return (data.children || data._children || data.name === branchLabel) ? 'bold' : 'normal';
-        })
-        .text(d => {
-          const name = (d.data as TreeNodeData).name;
-          const maxLen = side === 'left' ? 28 : 32;
-          return name.length > maxLen ? name.substring(0, maxLen - 2) + '..' : name;
-        });
-
-      // Collapsed indicator (+) and status dots
-      nodeGroups.each(function (d) {
-        const data = d.data as TreeNodeData;
-        if (data._children && data._children.length > 0) {
-          d3.select(this).append('text')
-            .attr('x', 0).attr('y', 4)
-            .attr('text-anchor', 'middle')
-            .attr('fill', side === 'left' ? '#d64545' : '#eab308')
-            .attr('font-size', `${12 * scale}px`)
-            .attr('font-weight', 'bold')
-            .text('+');
-        }
-        if (data.status) {
-          const r = (data.children || data._children) ? 10 : 8;
-          const xOff = side === 'left' ? (r * scale + 2) : -(r * scale + 2);
-          d3.select(this).append('circle')
-            .attr('r', 3 * scale)
-            .attr('cx', xOff)
-            .attr('cy', -(6 * scale))
-            .attr('fill', STATUS_COLORS[data.status] || '#555');
-        }
-      });
-
-      // Click handlers
-      nodeGroups.on('click', function (event, d) {
-        event.stopPropagation();
-        const data = d.data as TreeNodeData;
-        const path = getNodePath(d);
-
-        if (data.children || data._children) {
-          const hasVisible = !!data.children;
-          if (hasVisible) {
-            setCollapsedPaths(prev => { const s = new Set(prev); s.add(path); return s; });
-            setExpandedPaths(prev => { const s = new Set(prev); s.delete(path); return s; });
-          } else {
-            setExpandedPaths(prev => { const s = new Set(prev); s.add(path); return s; });
-            setCollapsedPaths(prev => { const s = new Set(prev); s.delete(path); return s; });
-          }
-        }
-
-        if (data.name !== branchLabel) {
-          setSelectedNode(data);
-        }
-      });
-
-      // Tooltip on hover
-      nodeGroups.on('mouseenter', function (event, d) {
-        const data = d.data as TreeNodeData;
-        if (data.name === branchLabel || (data.children && !data.role)) return;
-        const [x, y] = d3.pointer(event, containerRef.current);
-        setTooltip({ x, y, data });
-      });
-      nodeGroups.on('mouseleave', () => setTooltip(null));
-    }
-
-    // Render both sides
-    if (showPeople) renderSide(filteredLeft, 'left');
-    if (showOrgs) renderSide(filteredRight, 'right');
-
-    // === ROOT NODE ===
-    const severityColor = { critical: '#dc2626', high: '#ea580c', medium: '#ca8a04', low: '#71717a' }[investigation.severity] || '#dc2626';
-    const rootGroup = g.append('g').attr('transform', `translate(${centerX}, ${centerY})`);
-
-    rootGroup.append('circle')
-      .attr('r', 24 * scale).attr('fill', 'none').attr('stroke', severityColor)
-      .attr('stroke-width', 1).attr('stroke-opacity', 0.3)
-      .append('animate')
-      .attr('attributeName', 'r')
-      .attr('values', `${24 * scale};${30 * scale};${24 * scale}`)
-      .attr('dur', '3s').attr('repeatCount', 'indefinite');
-
-    rootGroup.append('circle')
-      .attr('r', 20 * scale).attr('fill', '#0a0000')
-      .attr('stroke', severityColor).attr('stroke-width', 2.5);
-
-    rootGroup.append('text')
-      .attr('y', -(24 * scale + 10)).attr('text-anchor', 'middle')
-      .attr('fill', '#ffffff').attr('font-size', `${11 * scale}px`)
-      .attr('font-family', 'monospace').attr('font-weight', 'bold')
-      .text(investigation.title.length > 50 ? investigation.title.substring(0, 48) + '..' : investigation.title);
-
-    rootGroup.append('text')
-      .attr('y', 24 * scale + 16).attr('text-anchor', 'middle')
-      .attr('fill', severityColor).attr('font-size', `${9 * scale}px`)
-      .attr('font-family', 'monospace').attr('font-weight', 'bold')
-      .attr('letter-spacing', '0.15em')
-      .text(`SEVERITY: ${investigation.severity.toUpperCase()}`);
-
-    const crossLen = 30 * scale;
-    rootGroup.append('line').attr('x1', -crossLen).attr('x2', crossLen).attr('y1', 0).attr('y2', 0)
-      .attr('stroke', severityColor).attr('stroke-width', 0.5).attr('stroke-opacity', 0.2);
-    rootGroup.append('line').attr('x1', 0).attr('x2', 0).attr('y1', -crossLen).attr('y2', crossLen)
-      .attr('stroke', severityColor).attr('stroke-width', 0.5).attr('stroke-opacity', 0.2);
-
-    // Stats
-    setStats({ total: totalPeople + totalOrgs, people: totalPeople, orgs: totalOrgs });
-
-    // Search matches
-    if (searchQuery) {
-      let matches = 0;
-      function countMatches(node: TreeNodeData) {
-        if (node.name.toLowerCase().includes(searchQuery.toLowerCase())) matches++;
-        node.children?.forEach(countMatches);
-        node._children?.forEach(countMatches);
-      }
-      countMatches(treeData);
-      setSearchMatches(matches);
-    } else {
-      setSearchMatches(0);
-    }
-
-    // Auto-fit zoom
-    const bounds = (g.node() as SVGGElement)?.getBBox();
-    if (bounds) {
-      const fullWidth = bounds.width + 100;
-      const fullHeight = bounds.height + 100;
-      const s = Math.min(width / fullWidth, height / fullHeight, 1);
-      const tx = (width - fullWidth * s) / 2 - bounds.x * s;
-      const ty = (height - fullHeight * s) / 2 - bounds.y * s;
-      svg.call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(s));
-    }
-
-  }, [dimensions, treeData, depth, showPeople, showOrgs, filterTier, nodeScale, linkOpacity, searchQuery, collapsedPaths, expandedPaths, selectedNode, investigation.severity, investigation.title]);
-
-  useEffect(() => { renderTree(); }, [renderTree]);
-
-  // ============================================================
-  // ACTIONS
-  // ============================================================
-
-  const fitView = useCallback(() => {
-    if (!svgRef.current) return;
-    const svg = d3.select(svgRef.current);
-    const g = svg.select('.tree-container');
-    const bounds = (g.node() as SVGGElement)?.getBBox();
-    if (!bounds) return;
-    const { width, height } = dimensions;
-    const fullWidth = bounds.width + 100;
-    const fullHeight = bounds.height + 100;
-    const s = Math.min(width / fullWidth, height / fullHeight, 1);
-    const tx = (width - fullWidth * s) / 2 - bounds.x * s;
-    const ty = (height - fullHeight * s) / 2 - bounds.y * s;
-    const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([0.15, 5]);
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (svg.transition().duration(500) as any).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(s));
-  }, [dimensions]);
-
-  const expandAll = useCallback(() => {
-    setCollapsedPaths(new Set());
-    setExpandedPaths(new Set());
-    setDepth(3);
-  }, []);
-
-  const collapseAll = useCallback(() => {
-    setCollapsedPaths(new Set());
-    setExpandedPaths(new Set());
-    setDepth(1);
-  }, []);
-
-  const resetAll = useCallback(() => {
-    setDepth(3);
+  // Actions
+  const handleFitView = () => reactFlow.fitView({ padding: 0.15, duration: 500 });
+  const handleExpandAll = () => setCollapsedNodes(new Set());
+  const handleCollapseAll = () => {
+    const ids = new Set<string>();
+    ids.add('people');
+    ids.add('orgs');
+    setCollapsedNodes(ids);
+  };
+  const handleReset = () => {
+    setCollapsedNodes(new Set());
     setShowPeople(true);
     setShowOrgs(true);
-    setFilterTier('all');
-    setNodeScale(80);
-    setLinkOpacity(60);
     setSearchQuery('');
-    setSelectedNode(null);
-    setCollapsedPaths(new Set());
-    setExpandedPaths(new Set());
-  }, []);
+    setSelectedNodeId(null);
+  };
 
+  // Select defendant from roster
   const selectDefendant = useCallback((def: Defendant) => {
+    const personId = `person-${slugifyName(def.name)}`;
+    // Expand path to this node
     const tier = classifyPerson(def, null);
-    const matchingAff = investigation.affiliations?.find(a => a.name === def.name && a.type === 'individual');
-    setSelectedNode({
-      name: def.name,
-      role: def.role,
-      tier,
-      status: def.status,
-      charges: def.charges,
-      sentence: def.sentence,
-      fine: def.fine,
-      restitution: def.restitution,
-      notes: def.notes,
-      href: matchingAff?.href,
-      moneyIn: moneyTrail.filter(m => m.to.toLowerCase().includes(def.name.split(' ').pop()!.toLowerCase())),
-      moneyOut: moneyTrail.filter(m => m.from.toLowerCase().includes(def.name.split(' ').pop()!.toLowerCase())),
-      side: 'left',
+    const tierId = `tier-${slugifyName(tier)}`;
+    setCollapsedNodes(prev => {
+      const next = new Set(prev);
+      next.delete('people');
+      next.delete(tierId);
+      return next;
     });
-    setExpandedPaths(prev => { const s = new Set(prev); s.add('People'); s.add(`People/${tier}`); return s; });
-    setCollapsedPaths(prev => { const s = new Set(prev); s.delete('People'); s.delete(`People/${tier}`); return s; });
-  }, [investigation.affiliations, moneyTrail]);
+    setSelectedNodeId(personId);
+    // Center on node after layout
+    setTimeout(() => {
+      const node = reactFlow.getNode(personId);
+      if (node) {
+        const dims = NODE_DIMENSIONS.personNode;
+        reactFlow.setCenter(node.position.x + dims.width / 2, node.position.y + dims.height / 2, { zoom: 1.2, duration: 600 });
+      }
+    }, 300);
+  }, [reactFlow]);
 
+  // Select org from directory
   const selectOrg = useCallback((aff: Affiliation) => {
+    const orgId = `org-${slugifyName(aff.name)}`;
     const tier = classifyOrg(aff);
-    setSelectedNode({
-      name: aff.name,
-      role: aff.relationship,
-      tier,
-      relationship: aff.relationship,
-      href: aff.href,
-      moneyIn: moneyTrail.filter(m => m.to.toLowerCase().includes(aff.name.toLowerCase())),
-      moneyOut: moneyTrail.filter(m => m.from.toLowerCase().includes(aff.name.toLowerCase())),
-      side: 'right',
+    const tierId = `org-tier-${slugifyName(tier)}`;
+    setCollapsedNodes(prev => {
+      const next = new Set(prev);
+      next.delete('orgs');
+      next.delete(tierId);
+      return next;
     });
-    setExpandedPaths(prev => { const s = new Set(prev); s.add('Organizations'); s.add(`Organizations/${tier}`); return s; });
-    setCollapsedPaths(prev => { const s = new Set(prev); s.delete('Organizations'); s.delete(`Organizations/${tier}`); return s; });
-  }, [moneyTrail]);
+    setSelectedNodeId(orgId);
+    setTimeout(() => {
+      const node = reactFlow.getNode(orgId);
+      if (node) {
+        const dims = NODE_DIMENSIONS.orgNode;
+        reactFlow.setCenter(node.position.x + dims.width / 2, node.position.y + dims.height / 2, { zoom: 1.2, duration: 600 });
+      }
+    }, 300);
+  }, [reactFlow]);
 
   // ============================================================
   // RENDER
@@ -890,8 +925,21 @@ export default function NetworkTree({ investigation }: NetworkTreeProps) {
       transition={{ delay: 0.12 }}
       className="mb-8 space-y-4"
     >
+      {/* === CUSTOM STYLES === */}
+      <style>{`
+        .react-flow__minimap { background: #020202 !important; border: 1px solid rgba(184,0,0,0.20) !important; border-radius: 8px !important; }
+        .react-flow__controls { gap: 4px !important; }
+        .react-flow__controls button { background: #080808 !important; border: 1px solid rgba(184,0,0,0.20) !important; border-radius: 6px !important; color: #a1a1aa !important; }
+        .react-flow__controls button:hover { background: #0a0000 !important; border-color: rgba(184,0,0,0.45) !important; color: #e4e4e7 !important; }
+        .react-flow__controls button svg { fill: currentColor !important; }
+        .react-flow__node { transition: transform 0.3s ease-out !important; }
+        .react-flow__edge path { transition: d 0.3s ease-out !important; }
+        .react-flow__attribution { display: none !important; }
+        .react-flow__background { opacity: 1 !important; }
+      `}</style>
+
       {/* === HEADER + SEARCH === */}
-      <div className="glass-card p-6">
+      <div style={{ ...glassBase, border: '1px solid rgba(184, 0, 0, 0.25)' }} className="p-6">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
             <h2 className="text-xl font-bold text-white uppercase tracking-wider flex items-center gap-2">
@@ -899,7 +947,7 @@ export default function NetworkTree({ investigation }: NetworkTreeProps) {
               Network Analysis
             </h2>
             <p className="text-xs text-zinc-500 font-mono tracking-wider mt-1">
-              DUAL-TREE VISUALIZATION // CLICK NODES TO EXPAND // DRAG TO PAN // SCROLL TO ZOOM
+              REACT FLOW + ELK LAYOUT ENGINE // CLICK GROUPS TO EXPAND/COLLAPSE // DRAG TO PAN // SCROLL TO ZOOM
             </p>
           </div>
           <div className="relative w-full md:w-80">
@@ -910,155 +958,101 @@ export default function NetworkTree({ investigation }: NetworkTreeProps) {
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search nodes..."
               className="w-full bg-[#050505] border border-[rgba(184,0,0,0.20)] text-zinc-300 text-sm font-mono pl-10 pr-20 py-2.5 focus:border-red-700/50 focus:outline-none placeholder:text-zinc-700"
+              style={{ borderRadius: 8 }}
             />
             {searchQuery && (
               <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
                 <span className="text-[10px] font-mono font-bold text-orange-400">{searchMatches} found</span>
-                <button onClick={() => setSearchQuery('')} className="text-zinc-600 hover:text-white">
-                  <X className="w-3.5 h-3.5" />
-                </button>
+                <button onClick={() => setSearchQuery('')} className="text-zinc-600 hover:text-white"><X className="w-3.5 h-3.5" /></button>
               </div>
             )}
           </div>
         </div>
       </div>
 
-      {/* === MAIN GRID: Controls | Tree | Legend + Details === */}
+      {/* === MAIN GRID === */}
       <div className="grid grid-cols-1 lg:grid-cols-[260px_1fr_260px] gap-4">
 
         {/* ---- LEFT COLUMN ---- */}
         <div className="space-y-4">
-
-          {/* Controls Panel */}
           <GlassPanel title="Controls" icon={<Filter className="w-4 h-4" />}>
-            <div className="space-y-4">
-              {/* Depth */}
-              <div>
-                <div className="flex justify-between mb-1.5">
-                  <label className="text-[10px] text-zinc-500 uppercase font-bold tracking-wider">Depth</label>
-                  <span className="text-[10px] text-zinc-400 font-mono">{depth}</span>
-                </div>
-                <input type="range" min={1} max={3} step={1} value={depth}
-                  onChange={(e) => setDepth(Number(e.target.value))}
-                  className="w-full h-1 bg-zinc-800 appearance-none cursor-pointer accent-red-600" />
-              </div>
-
+            <div className="space-y-3">
               {/* People / Orgs toggles */}
               <div className="flex gap-2">
                 <button onClick={() => setShowPeople(!showPeople)}
                   className={`flex-1 flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-wider px-2 py-2 border transition-all ${
                     showPeople ? 'border-red-800/40 text-red-400 bg-red-950/20' : 'border-zinc-800 text-zinc-600'
-                  }`}>
-                  {showPeople ? <Eye className="w-3.5 h-3.5" /> : <EyeOff className="w-3.5 h-3.5" />}
-                  People
+                  }`} style={{ borderRadius: 6 }}>
+                  <Users className="w-3 h-3" /> People
                 </button>
                 <button onClick={() => setShowOrgs(!showOrgs)}
                   className={`flex-1 flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-wider px-2 py-2 border transition-all ${
                     showOrgs ? 'border-yellow-800/40 text-yellow-400 bg-yellow-950/20' : 'border-zinc-800 text-zinc-600'
-                  }`}>
-                  {showOrgs ? <Eye className="w-3.5 h-3.5" /> : <EyeOff className="w-3.5 h-3.5" />}
-                  Orgs
+                  }`} style={{ borderRadius: 6 }}>
+                  <Building2 className="w-3 h-3" /> Orgs
                 </button>
               </div>
-
-              {/* Filter Tier */}
-              <div>
-                <label className="text-[10px] text-zinc-500 uppercase font-bold tracking-wider block mb-1.5">Filter Tier</label>
-                <select value={filterTier} onChange={(e) => setFilterTier(e.target.value)}
-                  className="w-full bg-[#050505] border border-zinc-800 text-zinc-300 text-[11px] px-2.5 py-2 font-mono focus:border-red-800/50 focus:outline-none">
-                  <option value="all">All Tiers</option>
-                  {availableTiers.map(tier => <option key={tier} value={tier}>{tier}</option>)}
-                </select>
-              </div>
-
-              {/* Node Size */}
-              <div>
-                <div className="flex justify-between mb-1.5">
-                  <label className="text-[10px] text-zinc-500 uppercase font-bold tracking-wider">Node Size</label>
-                  <span className="text-[10px] text-zinc-400 font-mono">{nodeScale}%</span>
-                </div>
-                <input type="range" min={60} max={100} step={5} value={nodeScale}
-                  onChange={(e) => setNodeScale(Number(e.target.value))}
-                  className="w-full h-1 bg-zinc-800 appearance-none cursor-pointer accent-red-600" />
-              </div>
-
-              {/* Link Opacity */}
-              <div>
-                <div className="flex justify-between mb-1.5">
-                  <label className="text-[10px] text-zinc-500 uppercase font-bold tracking-wider">Link Opacity</label>
-                  <span className="text-[10px] text-zinc-400 font-mono">{linkOpacity}%</span>
-                </div>
-                <input type="range" min={10} max={100} step={5} value={linkOpacity}
-                  onChange={(e) => setLinkOpacity(Number(e.target.value))}
-                  className="w-full h-1 bg-zinc-800 appearance-none cursor-pointer accent-red-600" />
-              </div>
-
-              {/* Action Buttons */}
+              {/* Action buttons */}
               <div className="grid grid-cols-2 gap-2">
-                <button onClick={fitView}
-                  className="flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-wider py-2 border border-zinc-800 text-zinc-500 hover:text-white hover:border-zinc-600 transition-all">
-                  <Maximize2 className="w-3.5 h-3.5" /> Fit
-                </button>
-                <button onClick={resetAll}
-                  className="flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-wider py-2 border border-zinc-800 text-zinc-500 hover:text-white hover:border-zinc-600 transition-all">
-                  <RotateCcw className="w-3.5 h-3.5" /> Reset
-                </button>
-                <button onClick={expandAll}
-                  className="flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-wider py-2 border border-zinc-800 text-zinc-500 hover:text-white hover:border-zinc-600 transition-all">
-                  <UnfoldVertical className="w-3.5 h-3.5" /> Open All
-                </button>
-                <button onClick={collapseAll}
-                  className="flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-wider py-2 border border-zinc-800 text-zinc-500 hover:text-white hover:border-zinc-600 transition-all">
-                  <FoldVertical className="w-3.5 h-3.5" /> Collapse
-                </button>
+                {[
+                  { label: 'Fit View', icon: Maximize2, fn: handleFitView },
+                  { label: 'Reset', icon: RotateCcw, fn: handleReset },
+                  { label: 'Expand All', icon: UnfoldVertical, fn: handleExpandAll },
+                  { label: 'Collapse', icon: FoldVertical, fn: handleCollapseAll },
+                ].map(({ label, icon: Icon, fn }) => (
+                  <button key={label} onClick={fn}
+                    className="flex items-center gap-1.5 text-[9px] font-bold text-zinc-500 uppercase tracking-wider px-2 py-2 border border-zinc-800 hover:border-red-900/40 hover:text-red-400 transition-all"
+                    style={{ borderRadius: 6 }}>
+                    <Icon className="w-3 h-3" /> {label}
+                  </button>
+                ))}
               </div>
             </div>
           </GlassPanel>
 
-          {/* Statistics Panel */}
-          <GlassPanel title="Statistics" icon={<Activity className="w-4 h-4" />}
-            badge={<span className="text-[9px] px-1.5 py-0.5 bg-red-950/30 border border-red-900/30 text-red-400 font-mono">{stats.total}</span>}>
+          <GlassPanel title="Statistics" icon={<Activity className="w-4 h-4" />}>
             <div className="space-y-3">
               <div className="grid grid-cols-3 gap-2">
-                <div className="text-center p-2 bg-[#050505] border border-[rgba(184,0,0,0.10)]">
+                <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 6 }}>
                   <div className="text-lg font-black text-white font-mono">{stats.total}</div>
-                  <div className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider">Total</div>
+                  <div className="text-[8px] text-zinc-600 uppercase font-bold">Total</div>
                 </div>
-                <div className="text-center p-2 bg-[#050505] border border-[rgba(184,0,0,0.10)]">
+                <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 6 }}>
                   <div className="text-lg font-black text-red-400 font-mono">{stats.people}</div>
-                  <div className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider">People</div>
+                  <div className="text-[8px] text-zinc-600 uppercase font-bold">People</div>
                 </div>
-                <div className="text-center p-2 bg-[#050505] border border-[rgba(184,0,0,0.10)]">
+                <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 6 }}>
                   <div className="text-lg font-black text-yellow-400 font-mono">{stats.orgs}</div>
-                  <div className="text-[8px] text-zinc-600 uppercase font-bold tracking-wider">Orgs</div>
+                  <div className="text-[8px] text-zinc-600 uppercase font-bold">Orgs</div>
                 </div>
               </div>
-
               {tierCounts.length > 0 && (
                 <div>
                   <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1.5">By Tier</p>
-                  {tierCounts.map(([tier, count]) => (
-                    <div key={tier} className="flex items-center justify-between py-0.5">
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 flex-shrink-0" style={{ backgroundColor: PERSON_TIER_COLORS[tier as PersonTier] || '#555' }} />
-                        <span className="text-[10px] text-zinc-400 font-mono">{tier}</span>
+                  {tierCounts.map(([tier, count]) => {
+                    const color = (PERSON_TIER_COLORS as Record<string, string>)[tier] || '#555';
+                    return (
+                      <div key={tier} className="flex items-center justify-between py-0.5">
+                        <div className="flex items-center gap-1.5">
+                          <div className="w-2 h-2 rounded-sm" style={{ backgroundColor: color }} />
+                          <span className="text-[10px] text-zinc-400 font-mono">{tier}</span>
+                        </div>
+                        <span className="text-[10px] font-mono font-bold" style={{ color }}>{count}</span>
                       </div>
-                      <span className="text-[10px] text-zinc-300 font-mono font-bold">{count}</span>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               )}
-
               {statusCounts.length > 0 && (
-                <div>
+                <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
                   <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1.5">By Status</p>
                   {statusCounts.map(([status, count]) => (
                     <div key={status} className="flex items-center justify-between py-0.5">
-                      <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: STATUS_COLORS[status] || '#555' }} />
-                        <span className="text-[10px] text-zinc-400 font-mono capitalize">{status}</span>
+                      <div className="flex items-center gap-1.5">
+                        <div className="w-2 h-2 rounded-full" style={{ backgroundColor: STATUS_COLORS[status] || '#555' }} />
+                        <span className="text-[10px] text-zinc-500 font-mono capitalize">{status}</span>
                       </div>
-                      <span className="text-[10px] text-zinc-300 font-mono font-bold">{count}</span>
+                      <span className="text-[10px] font-mono text-zinc-400">{count}</span>
                     </div>
                   ))}
                 </div>
@@ -1067,69 +1061,62 @@ export default function NetworkTree({ investigation }: NetworkTreeProps) {
           </GlassPanel>
         </div>
 
-        {/* ---- CENTER: TREE SVG ---- */}
-        <div ref={containerRef} className="glass-card p-0 relative overflow-hidden" style={{ minHeight: '600px' }}>
-          <svg
-            ref={svgRef}
-            width={dimensions.width}
-            height={dimensions.height}
-            className="w-full h-full"
-          />
-
-          {/* Tooltip overlay */}
-          <AnimatePresence>
-            {tooltip && (
-              <motion.div
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.95 }}
-                className="absolute z-30 pointer-events-none"
-                style={{
-                  left: Math.min(tooltip.x + 16, dimensions.width - 260),
-                  top: Math.min(tooltip.y - 10, dimensions.height - 120),
-                  maxWidth: '250px',
-                }}
-              >
-                <div className="bg-[#0a0a0a] border border-[rgba(184,0,0,0.40)] p-3 shadow-2xl">
-                  <div className="flex items-start justify-between gap-2 mb-1">
-                    <span className="font-bold text-white text-xs font-mono">{tooltip.data.name}</span>
-                    {tooltip.data.status && (
-                      <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase border"
-                        style={{ color: STATUS_COLORS[tooltip.data.status] || '#777', borderColor: `${STATUS_COLORS[tooltip.data.status] || '#777'}60` }}>
-                        {tooltip.data.status}
-                      </span>
-                    )}
-                  </div>
-                  {tooltip.data.role && <p className="text-[10px] text-zinc-400 leading-relaxed">{tooltip.data.role}</p>}
-                  <p className="text-[9px] text-red-400/50 mt-1 font-mono">Click for full details</p>
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
+        {/* ---- CENTER: GRAPH ---- */}
+        <div className="relative min-h-[500px] h-[60vh] max-h-[800px]" style={{ ...glassBase, border: '1px solid rgba(184, 0, 0, 0.25)', overflow: 'hidden' }}>
+          {isLayouting && (
+            <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/50" style={{ borderRadius: 12 }}>
+              <div className="flex flex-col items-center gap-3">
+                <div className="w-8 h-8 border-2 border-red-600 border-t-transparent rounded-full animate-spin" />
+                <span className="text-[10px] text-red-400 font-mono uppercase tracking-wider">Computing Layout...</span>
+              </div>
+            </div>
+          )}
+          <ReactFlow
+            nodes={nodes}
+            edges={edges}
+            onNodesChange={onNodesChange}
+            onEdgesChange={onEdgesChange}
+            onNodeClick={onNodeClick}
+            nodeTypes={nodeTypes}
+            colorMode="dark"
+            fitView
+            minZoom={0.08}
+            maxZoom={3}
+            defaultEdgeOptions={{
+              type: 'smoothstep',
+              style: { strokeWidth: 1.5 },
+            }}
+            proOptions={{ hideAttribution: true }}
+          >
+            <Background variant={BackgroundVariant.Lines} gap={40} size={0.5} color="rgba(184, 0, 0, 0.04)" />
+            <MiniMap
+              nodeColor={minimapNodeColor}
+              nodeStrokeWidth={2}
+              style={{ background: '#020202', borderRadius: 8, border: '1px solid rgba(184,0,0,0.20)' }}
+              maskColor="rgba(0, 0, 0, 0.7)"
+            />
+            <Controls showInteractive={false} />
+          </ReactFlow>
         </div>
 
         {/* ---- RIGHT COLUMN ---- */}
         <div className="space-y-4">
-
-          {/* Legend Panel */}
           <GlassPanel title="Legend" icon={<Shield className="w-4 h-4" />}>
             <div className="space-y-3">
               <div>
                 <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-2">People Tiers</p>
-                {(Object.entries(PERSON_TIER_COLORS) as [PersonTier, string][])
-                  .filter(([tier]) => availableTiers.includes(tier))
-                  .map(([tier, color]) => (
-                    <div key={tier} className="flex items-center gap-2 py-0.5">
-                      <div className="w-2.5 h-2.5 flex-shrink-0" style={{ backgroundColor: color }} />
-                      <span className="text-[10px] text-zinc-400 font-mono">{tier}</span>
-                    </div>
-                  ))}
+                {(Object.entries(PERSON_TIER_COLORS) as [PersonTier, string][]).map(([tier, color]) => (
+                  <div key={tier} className="flex items-center gap-2 py-0.5">
+                    <div className="w-2.5 h-2.5 flex-shrink-0" style={{ backgroundColor: color, borderRadius: 2 }} />
+                    <span className="text-[10px] text-zinc-400 font-mono">{tier}</span>
+                  </div>
+                ))}
               </div>
               <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
                 <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-2">Organization Types</p>
                 {(Object.entries(ORG_TIER_COLORS) as [OrgTier, string][]).map(([tier, color]) => (
                   <div key={tier} className="flex items-center gap-2 py-0.5">
-                    <div className="w-2.5 h-2.5 flex-shrink-0" style={{ backgroundColor: color }} />
+                    <div className="w-2.5 h-2.5 flex-shrink-0" style={{ backgroundColor: color, borderRadius: 2 }} />
                     <span className="text-[10px] text-zinc-400 font-mono">{tier}</span>
                   </div>
                 ))}
@@ -1146,37 +1133,39 @@ export default function NetworkTree({ investigation }: NetworkTreeProps) {
             </div>
           </GlassPanel>
 
-          {/* Selected Node Details Panel */}
           <GlassPanel title="Node Details" icon={<Target className="w-4 h-4" />}
-            badge={selectedNode ? <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" /> : undefined}>
-            {selectedNode ? (
+            badge={selectedNodeData ? <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" /> : undefined}>
+            {selectedNodeData ? (
               <div className="space-y-3">
                 <div>
                   <div className="flex items-start justify-between gap-2 mb-1">
-                    <h4 className="text-sm font-bold text-white">{selectedNode.name}</h4>
-                    {selectedNode.status && (
+                    <h4 className="text-sm font-bold text-white">{selectedNodeData.name || selectedNodeData.label}</h4>
+                    {selectedNodeData.status && (
                       <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase border flex-shrink-0"
-                        style={{ color: STATUS_COLORS[selectedNode.status] || '#777', borderColor: `${STATUS_COLORS[selectedNode.status] || '#777'}60` }}>
-                        {selectedNode.status}
+                        style={{ color: STATUS_COLORS[selectedNodeData.status] || '#777', borderColor: `${STATUS_COLORS[selectedNodeData.status] || '#777'}60`, borderRadius: 4 }}>
+                        {selectedNodeData.status}
                       </span>
                     )}
                   </div>
-                  {selectedNode.role && <p className="text-[11px] text-zinc-400 leading-relaxed">{selectedNode.role}</p>}
-                  <div className="flex items-center gap-2 mt-1.5">
-                    <span className="text-[9px] px-1.5 py-0.5 border font-bold uppercase"
-                      style={{
-                        color: (PERSON_TIER_COLORS[selectedNode.tier as PersonTier] || ORG_TIER_COLORS[selectedNode.tier as OrgTier] || '#555'),
-                        borderColor: `${PERSON_TIER_COLORS[selectedNode.tier as PersonTier] || ORG_TIER_COLORS[selectedNode.tier as OrgTier] || '#555'}40`,
-                      }}>
-                      {selectedNode.tier}
-                    </span>
-                  </div>
+                  {selectedNodeData.role && <p className="text-[11px] text-zinc-400 leading-relaxed">{selectedNodeData.role}</p>}
+                  {selectedNodeData.tier && (
+                    <div className="flex items-center gap-2 mt-1.5">
+                      <span className="text-[9px] px-1.5 py-0.5 border font-bold uppercase"
+                        style={{
+                          color: (PERSON_TIER_COLORS as Record<string, string>)[selectedNodeData.tier] || (ORG_TIER_COLORS as Record<string, string>)[selectedNodeData.tier] || '#555',
+                          borderColor: `${(PERSON_TIER_COLORS as Record<string, string>)[selectedNodeData.tier] || (ORG_TIER_COLORS as Record<string, string>)[selectedNodeData.tier] || '#555'}40`,
+                          borderRadius: 4,
+                        }}>
+                        {selectedNodeData.tier}
+                      </span>
+                    </div>
+                  )}
                 </div>
 
-                {selectedNode.charges && selectedNode.charges.length > 0 && (
+                {selectedNodeData.charges && (selectedNodeData.charges as string[]).length > 0 && (
                   <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
                     <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Charges</p>
-                    {selectedNode.charges.map((c, i) => (
+                    {(selectedNodeData.charges as string[]).map((c, i) => (
                       <p key={i} className="text-[10px] text-red-400/80 py-0.5 flex items-start gap-1.5">
                         <span className="text-red-600 mt-0.5 flex-shrink-0">&#9632;</span> {c}
                       </p>
@@ -1184,170 +1173,147 @@ export default function NetworkTree({ investigation }: NetworkTreeProps) {
                   </div>
                 )}
 
-                {selectedNode.sentence && (
+                {selectedNodeData.sentence && (
                   <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
                     <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Outcome</p>
-                    <p className="text-[11px] text-zinc-300">{selectedNode.sentence}</p>
+                    <p className="text-[11px] text-zinc-300">{selectedNodeData.sentence}</p>
                   </div>
                 )}
 
-                {selectedNode.fine && (
+                {selectedNodeData.fine && (
                   <div>
                     <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Fine</p>
-                    <p className="text-[11px] text-yellow-400/80">{selectedNode.fine}</p>
+                    <p className="text-[11px] text-yellow-400/80">{selectedNodeData.fine}</p>
                   </div>
                 )}
 
-                {selectedNode.restitution && (
-                  <div>
-                    <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Restitution</p>
-                    <p className="text-[11px] text-yellow-400/80">{selectedNode.restitution}</p>
-                  </div>
-                )}
-
-                {selectedNode.notes && (
+                {((selectedNodeData.moneyIn as MoneyTransaction[])?.length > 0 || (selectedNodeData.moneyOut as MoneyTransaction[])?.length > 0) && (
                   <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
-                    <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Notes</p>
-                    <p className="text-[11px] text-zinc-500 leading-relaxed">{selectedNode.notes}</p>
-                  </div>
-                )}
-
-                {selectedNode.relationship && (
-                  <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
-                    <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Relationship</p>
-                    <p className="text-[11px] text-zinc-400 leading-relaxed">{selectedNode.relationship}</p>
-                  </div>
-                )}
-
-                {(selectedNode.moneyIn?.length || selectedNode.moneyOut?.length) ? (
-                  <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
-                    <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Financial Connections</p>
-                    {selectedNode.moneyIn?.map((m, i) => (
-                      <p key={`in-${i}`} className="text-[10px] text-green-400/70 py-0.5">
-                        IN: {m.amount} from {m.from}
+                    <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Financial Links</p>
+                    {(selectedNodeData.moneyIn as MoneyTransaction[])?.map((m, i) => (
+                      <p key={`in-${i}`} className="text-[10px] text-green-400/70 py-0.5 flex items-start gap-1.5">
+                        <span className="text-green-600 flex-shrink-0">&#9650;</span> {m.amount} from {m.from}
                       </p>
                     ))}
-                    {selectedNode.moneyOut?.map((m, i) => (
-                      <p key={`out-${i}`} className="text-[10px] text-red-400/70 py-0.5">
-                        OUT: {m.amount} to {m.to}
+                    {(selectedNodeData.moneyOut as MoneyTransaction[])?.map((m, i) => (
+                      <p key={`out-${i}`} className="text-[10px] text-red-400/70 py-0.5 flex items-start gap-1.5">
+                        <span className="text-red-600 flex-shrink-0">&#9660;</span> {m.amount} to {m.to}
                       </p>
                     ))}
                   </div>
-                ) : null}
+                )}
 
-                {selectedNode.href && (
-                  <Link
-                    href={selectedNode.href}
-                    className="flex items-center gap-2 text-[11px] text-red-400 hover:text-red-300 font-mono pt-2 border-t border-[rgba(255,255,255,0.04)]"
-                  >
-                    <ArrowUpRight className="w-3.5 h-3.5" /> View Entity Page
+                {selectedNodeData.href && (
+                  <Link href={selectedNodeData.href as string}
+                    className="flex items-center gap-1.5 text-[10px] text-red-400 hover:text-red-300 font-mono mt-2 transition-colors">
+                    <Eye className="w-3 h-3" /> View Full Profile <ArrowUpRight className="w-3 h-3" />
                   </Link>
                 )}
               </div>
             ) : (
-              <p className="text-[11px] text-zinc-600 italic">Click a node in the tree to view full details here.</p>
+              <p className="text-[11px] text-zinc-600 italic">Click a person or organization node to view details</p>
             )}
           </GlassPanel>
         </div>
       </div>
 
-      {/* === BOTTOM ROW: Detail Rosters === */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-
+      {/* === BOTTOM PANELS === */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Defendant Roster */}
-        {defendants.length > 0 && (
-          <GlassPanel title="Defendant Roster" icon={<Crosshair className="w-4 h-4" />}
-            badge={<span className="text-[9px] px-1.5 py-0.5 bg-red-950/30 border border-red-900/30 text-red-400 font-mono">{defendants.length}</span>}>
-            <div className="space-y-2 max-h-80 overflow-y-auto pr-1" style={{ scrollbarWidth: 'thin', scrollbarColor: 'rgba(184,0,0,0.2) transparent' }}>
-              {defendants.map((def, idx) => (
-                <button
-                  key={idx}
-                  onClick={() => selectDefendant(def)}
-                  className={`w-full text-left p-3 border transition-all ${
-                    selectedNode?.name === def.name
-                      ? 'bg-red-950/20 border-red-800/40'
-                      : 'bg-[#050505] border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
-                  }`}
-                >
-                  <div className="flex items-start justify-between gap-2 mb-1">
-                    <span className="text-[11px] font-bold text-white">{def.name}</span>
-                    <span className="text-[8px] px-1 py-0.5 border font-bold uppercase flex-shrink-0"
-                      style={{ color: STATUS_COLORS[def.status] || '#777', borderColor: `${STATUS_COLORS[def.status] || '#777'}40` }}>
+        <GlassPanel title={`Defendants (${defendants.length})`} icon={<Users className="w-4 h-4" />} defaultOpen={defendants.length <= 10}>
+          <div className="max-h-72 overflow-y-auto space-y-1 pr-1 custom-scrollbar">
+            {defendants.map((def, i) => {
+              const tier = classifyPerson(def, null);
+              const color = PERSON_TIER_COLORS[tier];
+              const statusColor = STATUS_COLORS[def.status] || '#555';
+              const isSelected = selectedNodeId === `person-${slugifyName(def.name)}`;
+              return (
+                <button key={i} onClick={() => selectDefendant(def)}
+                  className={`w-full text-left p-2.5 border transition-all ${
+                    isSelected ? 'border-red-700/50 bg-red-950/20' : 'border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
+                  }`} style={{ borderRadius: 8 }}>
+                  <div className="flex items-center justify-between mb-0.5">
+                    <span className="text-[11px] font-bold text-white truncate">{def.name}</span>
+                    <span className="text-[8px] px-1 py-0.5 font-bold uppercase flex-shrink-0"
+                      style={{ color: statusColor, border: `1px solid ${statusColor}40`, borderRadius: 3 }}>
                       {def.status}
                     </span>
                   </div>
-                  <p className="text-[10px] text-zinc-500 leading-relaxed">{def.role}</p>
-                  {def.charges && def.charges.length > 0 && (
-                    <p className="text-[9px] text-red-400/50 mt-1">{def.charges.length} charge{def.charges.length !== 1 ? 's' : ''}</p>
-                  )}
+                  <div className="flex items-center gap-2">
+                    <span className="text-[8px] font-bold uppercase" style={{ color }}>{tier}</span>
+                    {def.charges && <span className="text-[8px] text-zinc-600 font-mono">{def.charges.length} charges</span>}
+                  </div>
                 </button>
-              ))}
-            </div>
-          </GlassPanel>
-        )}
+              );
+            })}
+          </div>
+        </GlassPanel>
 
         {/* Organization Directory */}
-        {orgAffiliations.length > 0 && (
-          <GlassPanel title="Organization Directory" icon={<Building2 className="w-4 h-4" />}
-            badge={<span className="text-[9px] px-1.5 py-0.5 bg-yellow-950/30 border border-yellow-900/30 text-yellow-400 font-mono">{orgAffiliations.length}</span>}>
-            <div className="space-y-2 max-h-80 overflow-y-auto pr-1" style={{ scrollbarWidth: 'thin', scrollbarColor: 'rgba(184,0,0,0.2) transparent' }}>
-              {orgAffiliations.map((aff, idx) => {
-                const tier = classifyOrg(aff);
-                const color = ORG_TIER_COLORS[tier];
-                return (
-                  <button
-                    key={idx}
-                    onClick={() => selectOrg(aff)}
-                    className={`w-full text-left p-3 border transition-all ${
-                      selectedNode?.name === aff.name
-                        ? 'bg-yellow-950/10 border-yellow-800/30'
-                        : 'bg-[#050505] border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
-                    }`}
-                  >
-                    <div className="flex items-start justify-between gap-2 mb-1">
-                      <span className="text-[11px] font-bold text-white">{aff.name}</span>
-                      <span className="text-[8px] px-1 py-0.5 border font-bold uppercase flex-shrink-0"
-                        style={{ color, borderColor: `${color}40` }}>
-                        {aff.type}
-                      </span>
-                    </div>
-                    <p className="text-[10px] text-zinc-500 leading-relaxed">{aff.relationship}</p>
-                  </button>
-                );
-              })}
-            </div>
-          </GlassPanel>
-        )}
+        <GlassPanel title={`Organizations (${orgAffiliations.length})`} icon={<Building2 className="w-4 h-4" />} defaultOpen={orgAffiliations.length <= 10}>
+          <div className="max-h-72 overflow-y-auto space-y-1 pr-1 custom-scrollbar">
+            {orgAffiliations.map((aff, i) => {
+              const tier = classifyOrg(aff);
+              const color = ORG_TIER_COLORS[tier];
+              const isSelected = selectedNodeId === `org-${slugifyName(aff.name)}`;
+              return (
+                <button key={i} onClick={() => selectOrg(aff)}
+                  className={`w-full text-left p-2.5 border transition-all ${
+                    isSelected ? 'border-yellow-700/50 bg-yellow-950/20' : 'border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
+                  }`} style={{ borderRadius: 8 }}>
+                  <div className="flex items-center justify-between mb-0.5">
+                    <span className="text-[11px] font-bold text-white truncate">{aff.name}</span>
+                    <span className="text-[8px] px-1 py-0.5 font-bold uppercase flex-shrink-0"
+                      style={{ color, border: `1px solid ${color}40`, borderRadius: 3 }}>
+                      {aff.type}
+                    </span>
+                  </div>
+                  <p className="text-[9px] text-zinc-500 line-clamp-1">{aff.relationship}</p>
+                </button>
+              );
+            })}
+          </div>
+        </GlassPanel>
 
         {/* Money Trail */}
-        {moneyTrail.length > 0 && (
-          <GlassPanel title="Money Trail" icon={<DollarSign className="w-4 h-4" />}
-            badge={<span className="text-[9px] px-1.5 py-0.5 bg-green-950/30 border border-green-900/30 text-green-400 font-mono">{moneyTrail.length}</span>}>
-            <div className="space-y-2 max-h-80 overflow-y-auto pr-1" style={{ scrollbarWidth: 'thin', scrollbarColor: 'rgba(184,0,0,0.2) transparent' }}>
-              {moneyTrail.map((tx, idx) => (
-                <div key={idx} className="p-3 bg-[#050505] border border-[rgba(184,0,0,0.10)]">
-                  <div className="flex justify-between items-start mb-1">
-                    <span className="text-[10px] text-zinc-500 font-mono">{tx.date}</span>
-                    <span className="text-[11px] font-bold text-white font-mono">{tx.amount}</span>
-                  </div>
-                  <div className="text-[10px] mb-0.5">
-                    <span className="text-zinc-600">From: </span>
-                    <span className="text-zinc-300">{tx.from}</span>
-                  </div>
-                  <div className="text-[10px] mb-1">
-                    <span className="text-zinc-600">To: </span>
-                    <span className="text-zinc-300">{tx.to}</span>
-                  </div>
-                  <p className="text-[9px] text-zinc-500">{tx.purpose}</p>
-                  {!tx.documented && (
-                    <span className="inline-block mt-1 text-[8px] text-yellow-600 uppercase font-bold border border-yellow-800/40 px-1 py-0.5">Unverified</span>
-                  )}
+        <GlassPanel title={`Money Trail (${moneyTrail.length})`} icon={<DollarSign className="w-4 h-4" />} defaultOpen={moneyTrail.length <= 8}>
+          <div className="max-h-72 overflow-y-auto space-y-1.5 pr-1 custom-scrollbar">
+            {moneyTrail.map((txn, i) => (
+              <div key={i} className="p-2.5 border border-[rgba(184,0,0,0.10)]" style={{ borderRadius: 8 }}>
+                <div className="flex items-center justify-between mb-1">
+                  <span className="text-[10px] text-zinc-500 font-mono">{txn.date}</span>
+                  <span className="text-[10px] font-bold text-yellow-400">{txn.amount}</span>
                 </div>
-              ))}
-            </div>
-          </GlassPanel>
-        )}
+                <div className="text-[9px] space-y-0.5">
+                  <p className="text-zinc-500">
+                    <span className="text-red-400/60">From:</span> {txn.from.length > 40 ? txn.from.substring(0, 38) + '..' : txn.from}
+                  </p>
+                  <p className="text-zinc-500">
+                    <span className="text-green-400/60">To:</span> {txn.to.length > 40 ? txn.to.substring(0, 38) + '..' : txn.to}
+                  </p>
+                </div>
+                <p className="text-[8px] text-zinc-600 mt-1 line-clamp-2">{txn.purpose}</p>
+              </div>
+            ))}
+          </div>
+        </GlassPanel>
       </div>
     </motion.div>
+  );
+}
+
+// ============================================================
+// EXPORTED WRAPPER
+// ============================================================
+
+interface NetworkTreeProps {
+  investigation: InvestigationData;
+}
+
+export default function NetworkTree({ investigation }: NetworkTreeProps) {
+  return (
+    <ReactFlowProvider>
+      <NetworkTreeContent investigation={investigation} />
+    </ReactFlowProvider>
   );
 }
