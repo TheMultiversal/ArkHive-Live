@@ -1,0 +1,241 @@
+{
+  "ok": [
+    "https://www.oig.dhs.gov/",
+    "https://www.amnesty.org/en/",
+    "https://nsarchive.gwu.edu/",
+    "https://bjs.ojp.gov/",
+    "https://theintercept.com/",
+    "https://www.hrw.org/united-states",
+    "https://www.hrw.org/asia/myanmar-burma",
+    "https://www.hrw.org/middle-east/n-africa/syria",
+    "https://www.hsgac.senate.gov/subcommittees/investigations/",
+    "https://oig.justice.gov/",
+    "https://oig.justice.gov/reports",
+    "https://apnews.com/",
+    "https://www.propublica.org/",
+    "https://www.pacourts.us/",
+    "https://www.pacourts.us/news-and-statistics/cases-of-public-interest",
+    "https://www.kff.org/",
+    "https://www.irs.gov/statistics",
+    "https://www.irs.gov/compliance/criminal-investigation",
+    "https://www.fda.gov/tobacco-products",
+    "https://www.fda.gov/consumers/consumer-updates",
+    "https://www.justice.gov/",
+    "https://www.cms.gov/data-research",
+    "https://www.finra.org/investors/insights",
+    "https://www.finra.org/media-center/newsreleases",
+    "https://www.eeoc.gov/data",
+    "https://www.icrc.org/en",
+    "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances",
+    "https://www.federalreserve.gov/supervisionreg.htm",
+    "https://www.nasa.gov/humans-in-space/",
+    "https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general",
+    "https://clinton.presidentiallibraries.us/",
+    "https://www.maricopa.gov/",
+    "https://www.ussc.gov/research",
+    "https://efile.fara.gov/",
+    "https://www.fhfa.gov/",
+    "https://openlibrary.org/search?q=COINTELPRO",
+    "https://ag.ny.gov/",
+    "https://www.hennepinattorney.org/",
+    "https://www.texastribune.org/",
+    "https://www.aljazeera.com/tag/jamal-khashoggi/",
+    "https://www.ncpa.org/",
+    "https://library.gwu.edu/",
+    "https://www.newyorker.com/",
+    "https://library.yale.edu/",
+    "https://www.statnews.com/",
+    "https://airandspace.si.edu/",
+    "https://www.npr.org/",
+    "https://cyber.harvard.edu/",
+    "https://www.brookings.edu/",
+    "https://www.uscp.gov/",
+    "https://www.ap.org/",
+    "https://everytownresearch.org/",
+    "https://cebcp.org/",
+    "https://www.upturn.org/",
+    "https://www.aclu.org/issues/free-speech",
+    "https://www.aclu.org/issues/national-security",
+    "https://en.wikipedia.org/wiki/Time%27s_Up_(organization)",
+    "https://www.fca.org.uk/news",
+    "https://www.cdc.gov/healthcare-associated-infections/",
+    "https://www.cdc.gov/",
+    "https://www.cdc.gov/diabetes/",
+    "https://www.cdc.gov/maternal-mortality/",
+    "https://www.justice.gov/criminal/criminal-fraud",
+    "https://www.justice.gov/crt",
+    "https://www.justice.gov/archives/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties",
+    "https://www.cftc.gov/",
+    "https://monographs.iarc.who.int/list-of-classifications/",
+    "https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation",
+    "https://history.state.gov/historicaldocuments",
+    "https://www.hud.gov/press",
+    "https://nationalfairhousing.org/",
+    "https://en.wikipedia.org/wiki/Dark_Alliance",
+    "https://financialservices.house.gov/",
+    "https://www.consumerfinance.gov/enforcement/actions/",
+    "https://judiciary.house.gov/",
+    "https://www.atsdr.cdc.gov/",
+    "https://profiles.nlm.nih.gov/",
+    "https://www.bc.edu/bc-web/schools/law.html",
+    "https://www.fincen.gov/",
+    "https://www.nuclearmuseum.org/",
+    "https://unctad.org/topic/debt-and-finance",
+    "https://www.eac.gov/",
+    "https://www.eff.org/issues/workplace-surveillance",
+    "https://time.com/",
+    "https://www.foodandwaterwatch.org/",
+    "https://www.pbs.org/wgbh/frontline/",
+    "https://www.latimes.com/"
+  ],
+  "redirect": [
+    {
+      "url": "https://web.archive.org/web/2024/https://www.atsdr.cdc.gov/sites/lejeune//",
+      "location": "https://web.archive.org/web/20250111080038/https://www.atsdr.cdc.gov/sites/lejeune/"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.epa.gov/environmentaljustice",
+      "location": "https://web.archive.org/web/20241231234430/https://www.epa.gov/environmentaljustice"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.epa.gov/emergency-response/exxon-valdez-oil-spill",
+      "location": "https://web.archive.org/web/20260109103122/https://www.epa.gov/emergency-response/exxon-valdez-oil-spill"
+    },
+    {
+      "url": "https://web.archive.org/web/2024/https://www.adl.org/resources/reports/",
+      "location": "https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/"
+    },
+    {
+      "url": "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents/asa35/5517/2017/en/",
+      "location": "https://web.archive.org/web/20250111160150/https://www.amnesty.org/en/documents/asa35/5517/2017/en/"
+    },
+    {
+      "url": "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents/eur70/018/2000/en/",
+      "location": "https://web.archive.org/web/20250103174607/https://www.amnesty.org/en/documents/eur70/018/2000/en/"
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/publications",
+      "location": "/?p=10060"
+    },
+    {
+      "url": "https://www.adl.org/resources",
+      "location": "https://notoleranceforantisemitism.adl.org/resources"
+    },
+    {
+      "url": "https://www.nclc.org/issues/",
+      "location": "https://www.nclc.org/issues-projects/"
+    },
+    {
+      "url": "https://bjs.ojp.gov/data-collections",
+      "location": "https://bjs.ojp.gov/data/data-collections"
+    },
+    {
+      "url": "https://www.kff.org/coronavirus-covid-19/",
+      "location": "https://www.kff.org/topic/covid-19/"
+    },
+    {
+      "url": "https://www.brennancenter.org/issues/strengthen-our-courts",
+      "location": "https://www.brennancenter.org/topics/courts"
+    },
+    {
+      "url": "https://www.brennancenter.org/issues/reform-money-politics",
+      "location": "https://www.brennancenter.org/topics/money-politics"
+    },
+    {
+      "url": "https://www.cms.gov/newsroom",
+      "location": "https://www.cms.gov/about-cms/contact/newsroom"
+    },
+    {
+      "url": "https://www.energy.gov/em",
+      "location": "https://www.energy.gov/em/office-environmental-management"
+    },
+    {
+      "url": "https://www.energy.gov/ne",
+      "location": "https://www.energy.gov/ne/office-nuclear-energy"
+    },
+    {
+      "url": "https://openlibrary.org/works/OL2754632W/Killing_Hope",
+      "location": "https://openlibrary.org/works/OL2754632W/A_new_day_for_family_ministry"
+    },
+    {
+      "url": "https://openlibrary.org/works/OL151027W/King_Leopolds_Ghost",
+      "location": "https://openlibrary.org/works/OL151027W/Promenades_en_France"
+    },
+    {
+      "url": "https://www.chicago.gov/",
+      "location": "https://www.chicago.gov/city/en.html"
+    },
+    {
+      "url": "https://www.panynj.gov/",
+      "location": "https://www.panynj.gov/port-authority/en/index.html"
+    },
+    {
+      "url": "https://www.fdic.gov/resources/resolutions/bank-failures/",
+      "location": "https://www.fdic.gov/bank-failures"
+    },
+    {
+      "url": "https://www.usccb.org/offices/child-and-youth-protection",
+      "location": "https://www.usccb.org/"
+    },
+    {
+      "url": "https://www.cdc.gov/tuskegee/",
+      "location": "https://www.cdc.gov/tuskegee/about/index.html"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/",
+      "location": "http://www.fda.gov/drugs"
+    },
+    {
+      "url": "https://www.cia.gov/readingroom/",
+      "location": "https://www.cia.gov/readingroom"
+    },
+    {
+      "url": "https://www.va.gov/oig/",
+      "location": "https://www.vaoig.gov/"
+    }
+  ],
+  "broken": [
+    {
+      "url": "https://www.justice.gov/civil/pages/attachments/2019/02/04/fca_stats.pdf",
+      "status": 404
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://www.bloomberg.com/news",
+      "error": "ECONNRESET"
+    },
+    {
+      "url": "https://www.ftc.gov/enforcement/refunds",
+      "error": "ECONNRESET"
+    },
+    {
+      "url": "https://www.ftc.gov/policy/reports",
+      "error": "ECONNRESET"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=facebook",
+      "error": "ECONNRESET"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=devry",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/news/press-releases",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/data-visualizations",
+      "error": "timeout"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=amazon",
+      "error": "timeout"
+    },
+    {
+      "url": "https://oversight.house.gov/",
+      "error": "timeout"
+    }
+  ]
+}

@@ -1,0 +1,2624 @@
+[
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.supremecourt.gov/opinions/23pdf/23-124_k536.pdf",
+    "new": "https://www.supremecourt.gov/opinions",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/wikileaks-founder-julian-assange-charged-conspiracy-commit-computer-intrusion",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.hsgac.senate.gov/subcommittees/investigations/media/senate-investigations-subcommittee-releases-levin-coburn-report-on-the-financial-crisis",
+    "new": "https://www.hsgac.senate.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.responsiblelending.org/mortgage-lending/research-analysis/lost-ground-2011.html",
+    "new": "https://www.responsiblelending.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.osha.gov/news/newsreleases/region5/04122022",
+    "new": "https://www.osha.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.theverge.com/2021/4/2/22364243/amazon-apologizes-tweet-warehouse-workers-pee-bottles",
+    "new": "https://www.theverge.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2007/https://www.norc.org/projects/florida+ballot+project.htm",
+    "new": "https://www.norc.org",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.intelligence.senate.gov/sites/default/files/hearings/ciaactivitiesinchile.pdf",
+    "new": "https://www.intelligence.senate.gov/publications",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/briefing-book/chile/2020-09-11/kissinger-chile-declassified-record-regime-change",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/project/cia-covert-operations",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-admits-guilt",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://fas.org/irp/eprint/doj-lethal.pdf",
+    "new": "https://fas.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/project/el-salvador-project",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bbc.com/news/world-latin-america-54075067",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.pbs.org/wgbh/americanexperience/features/till-killers-confess/",
+    "new": "https://www.pbs.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://ag.ny.gov/press-release/2024/attorney-general-james-wins-landmark-victory-fraud-case-against-donald-trump",
+    "new": "https://ag.ny.gov/press-releases",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.wsj.com/us-news/law/noam-chomsky-jeffrey-epstein-meetings-992a93d0",
+    "new": "https://www.wsj.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2022/01/05/1070311271/california-forced-sterilization-reparations",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/legal/giuliani-ordered-pay-148-million-georgia-election-workers-2023-12-15/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.ijmonitor.org/category/efrain-rios-montt/",
+    "new": "https://www.ijmonitor.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://millercenter.org/the-presidency/educational-resources/gulf-of-tonkin",
+    "new": "https://millercenter.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.supremecourt.gov/opinions/07pdf/07-290.pdf",
+    "new": "https://www.supremecourt.gov/opinions",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://ag.ny.gov/press-release/2024/attorney-general-james-wins-case-against-nra-and-wayne-lapierre",
+    "new": "https://ag.ny.gov/press-releases",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.thenation.com/article/world/wikileaks-haiti-minimum-wage/",
+    "new": "https://www.thenation.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.nytimes.com/interactive/2019/09/26/health/hospitals-emergency-room-cost.html",
+    "new": "https://www.nytimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bia.gov/sites/default/files/dup/inline-files/bsi_investigative_report_vol2_july_2024.pdf",
+    "new": "https://www.bia.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2024/10/25/",
+    "new": "https://www.whitehouse.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/briefing-book/iran/2013-08-19/cia-confirms-role-1953-iran-coup",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.theguardian.com/uk/2000/aug/20/iran.richardnortontaylor",
+    "new": "https://www.theguardian.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.epa.gov/ms-jackson-water",
+    "new": "https://www.epa.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/enrd/case/united-states-v-city-jackson-mississippi",
+    "new": "https://www.justice.gov/enrd",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2022/08/30/1120029787/jackson-mississippi-water-system-failure",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.amnesty.org/en/documents/mde19/7602/2024/en/",
+    "new": "https://www.amnesty.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2022/08/12/1117200680/trump-mar-a-lago-search-warrant-released",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://storage.courtlistener.com/recap/gov.uscourts.flsd.648652/gov.uscourts.flsd.648652.510.0_1.pdf",
+    "new": "https://storage.courtlistener.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://eji.org/news/history-racial-injustice-slavery-to-mass-incarceration/",
+    "new": "https://eji.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.aclu.org/cases/aclu-v-clapper",
+    "new": "https://www.aclu.org/cases",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.c-span.org/video/?c4439580/user-clip-james-clapper-testimony",
+    "new": "https://www.c-span.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/oath-keepers-leader-stewart-rhodes-sentenced-18-years-prison-seditious-conspiracy",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2022/10/03/1126550834/oath-keepers-trial-jan-6-seditious-conspiracy",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.cels.org.ar/web/en/publicaciones/the-condor-trial/",
+    "new": "https://www.cels.org.ar/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.amnesty.org/en/latest/news/2016/05/operation-condor-former-head-secret-police/",
+    "new": "https://www.amnesty.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://oig.justice.gov/reports/2012/s1209.pdf",
+    "new": "https://oig.justice.gov/reports",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://oig.justice.gov/reports/2007/nsl/nsl-report.htm",
+    "new": "https://oig.justice.gov/reports",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.oig.dhs.gov/reports/ice",
+    "new": "https://www.oig.dhs.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.cdc.gov/opioids/basics/epidemic.html",
+    "new": "https://www.cdc.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nationalfairhousing.org/reports-research/",
+    "new": "https://nationalfairhousing.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.fdic.gov/bank/historical/sandl/",
+    "new": "https://www.fdic.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://apnews.com/article/trump-carroll-defamation-damages-trial-83200c109982f58c9575b0743e7c3771",
+    "new": "https://apnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-pipeline-spill-idUSKBN22N2JK",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.consumerfinance.gov/enforcement/actions/navient-corporation/",
+    "new": "https://www.consumerfinance.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.ed.gov/news/press-releases/department-education-approves-58-billion-group-discharge-cancel-remaining-loans-560000-former-corinthian-colleges-students",
+    "new": "https://www.ed.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.oregonhistoryproject.org/articles/black-exclusion-laws-in-oregon/",
+    "new": "https://www.oregonhistoryproject.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2020/09/15/913272007/a-history-of-sundown-towns",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.nixonlibrary.gov/watergate",
+    "new": "https://www.nixonlibrary.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://apnews.com/article/giuliani-defamation-damages-georgia-election-workers-bfb32ce3e7c34e72a1e6e2d6e3c0f135",
+    "new": "https://apnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/legal/3m-reaches-103-bln-settlement-forever-chemicals-us-water-supplies-2023-06-22/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2023/04/25/1171647302/leonard-leo-dark-money-judicial-activism",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/legal/fox-news-settles-dominion-defamation-case-2023-04-18/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-billionaire-harlan-crow",
+    "new": "https://www.propublica.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://theintercept.com/2023/03/18/october-surprise-ben-barnes-iran-hostages/",
+    "new": "https://theintercept.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://campaignlegal.org/update/exposed-dark-money-atm-conservative-movement",
+    "new": "https://campaignlegal.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.cnn.com/2023/03/08/media/fox-news-dominion-private-messages/index.html",
+    "new": "https://www.cnn.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/justice-department-finds-civil-rights-violations-louisville-jefferson-county-metro-government",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.maryferrell.org/pages/Featured_CIA_and_the_JFK_Assassination.html",
+    "new": "https://www.maryferrell.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.nytimes.com/topic/subject/iran-contra-affair",
+    "new": "https://www.nytimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/afp/fund-reports",
+    "new": "https://www.justice.gov/afp",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/legal/jpmorgan-settlement-with-epstein-victims-gets-final-approval-2023-11-28/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-monitoring-jeffrey-epstein-following-his",
+    "new": "https://oig.justice.gov/reports",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/business/finance/jpmorgan-sues-former-executive-jes-staley-over-epstein-ties-2023-03-08/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/jpmorgan-chase-bank-na-agrees-pay-75-million-resolve-claims-related-sex-trafficking",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/legal/us-virgin-islands-attorney-general-who-sued-jpmorgan-over-epstein-was-fired-2023-01-03/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
+    "new": "https://int.nyt.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2023/04/18/1170634296/fox-news-dominion-voting-settlement",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.vanityfair.com/news/2023/02/rupert-murdoch-fox-news-dominion",
+    "new": "https://www.vanityfair.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.cdc.gov/tuskegee/timeline.htm",
+    "new": "https://www.cdc.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.aclu.org/issues/immigrants-rights/ice-and-border-patrol-abuses/deaths-ice-custody",
+    "new": "https://www.aclu.org/issues",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://theintercept.com/2023/11/29/henry-kissinger-obituary/",
+    "new": "https://theintercept.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://jacobin.com/2023/11/henry-kissinger-death-united-states-foreign-policy-war-crimes",
+    "new": "https://jacobin.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://kinginstitute.stanford.edu/assassination-malcolm-x",
+    "new": "https://kinginstitute.stanford.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.aclu.org/news/civil-liberties/the-history-of-mccarthyism",
+    "new": "https://www.aclu.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.doi.gov/missing-and-murdered-indigenous-peoples",
+    "new": "https://www.doi.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.brennancenter.org/our-work/research-reports/ending-no-knock-warrants",
+    "new": "https://www.brennancenter.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/briefing-book/iran/2023-01-19/october-surprise-x-files",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/crt/case/investigation-city-minneapolis-and-minneapolis-police-department",
+    "new": "https://www.justice.gov/crt",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.propublica.org/article/texas-abortion-ban-emergency-rooms-pregnant-women",
+    "new": "https://www.propublica.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.freepress.net/issues/media-control/media-consolidation/sinclair-broadcast-group",
+    "new": "https://www.freepress.net/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.atsdr.cdc.gov/sites/lejeune/",
+    "new": "https://www.cdc.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bbc.com/news/world-us-canada-64001972",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/legal/theranos-executive-sunny-balwani-convicted-fraud-2022-07-07/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://apnews.com/article/malcolm-x-wrongful-conviction-lawsuit-new-york-a5c8f15aeb24a2b5d5f0b3c2",
+    "new": "https://apnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2022/02/08/1079128685/no-knock-warrants-amir-locke-breonna-taylor",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://thesoc.org/amazon-primed-for-pain/",
+    "new": "https://thesoc.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/crt/case/united-states-v-roy-bryant-and-jw-milam",
+    "new": "https://www.justice.gov/crt",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-election-georgia-breach/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://naacp.org/resources/jackson-mississippi-water-crisis",
+    "new": "https://naacp.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.brennancenter.org/our-work/analysis-opinion/crisis-missing-murdered-indigenous-women",
+    "new": "https://www.brennancenter.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.aclu.org/news/criminal-law-reform/no-knock-warrants-have-got-to-go",
+    "new": "https://www.aclu.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.brennancenter.org/our-work/analysis-opinion/unprecedented-unaccountable-undoing-roe",
+    "new": "https://www.brennancenter.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.nlrb.gov/news-outreach/news-story/nlrb-general-counsel-issues-consolidated-complaint-against-starbucks",
+    "new": "https://www.nlrb.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/business/autos-transportation/former-vw-ceo-winterkorn-goes-trial-over-dieselgate-2021-09-16/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/former-intelligence-analyst-sentenced-45-months-prison-disclosure-classified-information",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.nytimes.com/interactive/2021/06/09/us/pentagon-papers-50th-anniversary.html",
+    "new": "https://www.nytimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://apnews.com/article/philadelphia-move-bombing-anniversary-apology-7b8a48c82d6f4e7d9b3a0e5c8f1d2a4b",
+    "new": "https://apnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bbc.com/news/world-us-canada-55973883",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.innercitypress.com/sdny16maxwell.html",
+    "new": "https://www.innercitypress.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bbc.com/news/world-us-canada-59553395",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.technologyreview.com/2021/02/05/1017388/activists-fighting-facial-recognition/",
+    "new": "https://www.technologyreview.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/623918/the-ground-breaking-by-scott-ellsworth/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://theintercept.com/2020/09/15/icE-detention-center-hysterectomies/",
+    "new": "https://theintercept.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.inquirer.com/news/move-bombing-35th-anniversary-philadelphia-osage-avenue-20200510.html",
+    "new": "https://www.inquirer.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bbc.com/news/business-50265531",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/wells-fargo-agrees-pay-3-billion-resolve-criminal-and-civil-investigations",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/",
+    "new": "https://www.thecrimson.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/briefing-book/guatemala/2020-05-15/cias-1954-covert-operation-guatemala",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.rand.org/research/gun-policy/analysis/essays/federal-funding-for-gun-violence-research.html",
+    "new": "https://www.rand.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/atr/case/us-and-plaintiff-states-v-teva-pharmaceuticals-usa-inc-et-al",
+    "new": "https://www.justice.gov/atr",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.aclu.org/news/criminal-law-reform/the-supreme-court-has-a-chance-to-end-qualified-immunity",
+    "new": "https://www.aclu.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://chicagoreader.com/news-politics/the-black-panthers-and-the-assassination-of-fred-hampton/",
+    "new": "https://chicagoreader.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://knkt.go.id/KNKT/templateB/Investigation/IFP/Aircraft%20Accident%20Investigation%20Report%20-%20PT.%20Lion%20Mentari%20Airlines%20Boeing%20737-8%20(MAX).pdf",
+    "new": "https://knkt.go.id/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2019/08/20/752774811/a-third-of-native-american-criminal-cases-are-declined-by-u-s-attorneys",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.brennancenter.org/our-work/research-reports/new-voter-restrictions-america",
+    "new": "https://www.brennancenter.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/ohio-man-sentenced-life-plus-419-years-federal-hate-crimes",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.gsaig.gov/content/gsa%E2%80%99s-management-old-post-office-building-lease",
+    "new": "https://www.gsaig.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.foxnews.com/us/forensic-pathologist-jeffrey-epstein-homicide",
+    "new": "https://www.foxnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.theguardian.com/us-news/2019/aug/22/ghislaine-maxwell-what-is-known-about-the-life-of-jeffrey-epsteins-closest-associate",
+    "new": "https://www.theguardian.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.vanityfair.com/news/2019/07/jeffrey-epstein-financial-crimes",
+    "new": "https://www.vanityfair.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.theguardian.com/uk-news/2019/jul/30/peter-mandelson-jeffrey-epstein",
+    "new": "https://www.theguardian.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.mintpressnews.com/ehud-barak-jeffrey-epstein-carbyne911/261726/",
+    "new": "https://www.mintpressnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/briefing-book/southern-cone/2019-05-28/operation-condor-trial-legal-proceedings-unprecedented-latin-american-cold-war",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/533751/the-poisoner-in-chief-by-stephen-kinzer/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.oig.lacity.org/reports",
+    "new": "https://www.oig.lacity.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.rand.org/pubs/research_reports/RR3010.html",
+    "new": "https://www.rand.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justsecurity.org/wp-content/uploads/2019/08/420379775-fbi-conspiracy-theory-memo.pdf",
+    "new": "https://www.justsecurity.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://eji.org/reports/racial-cleansing-in-america/",
+    "new": "https://eji.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.propublica.org/article/how-dark-money-helped-republicans-hold-the-house-and-devastate-democrats",
+    "new": "https://www.propublica.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.usaid.gov/vietnam/environmental-remediation",
+    "new": "https://www.usaid.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.brookings.edu/articles/alec-the-voice-of-corporate-special-interests-in-state-legislatures/",
+    "new": "https://www.brookings.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/briefing-book/iran/2018-05-10/oliver-norths-checkered-iran-contra-record",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.epa.gov/office-inspector-general/report-management-alert-drinking-water-contamination-flint-michigan",
+    "new": "https://www.epa.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.routledge.com/The-Army-and-the-Indonesian-Genocide/Melvin/p/book/9781138574427",
+    "new": "https://www.routledge.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/volkswagen-executive-sentenced-seven-years-prison-conspiring-violate-clean-air-act",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.theguardian.com/commentisfree/2017/oct/28/jfk-files-cia-conspiracy-theories",
+    "new": "https://www.theguardian.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bbc.com/news/world-asia-40730038",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.supremecourt.gov/opinions/16pdf/16-122_b97c.pdf",
+    "new": "https://www.supremecourt.gov/opinions",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/sections/parallels/2017/04/18/524487856/",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/deutsche-bank-agrees-pay-over-41-million-resolve-foreign-corrupt-practices-act",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.c-span.org/video/?415469-1/wells-fargo-unauthorized-accounts",
+    "new": "https://www.c-span.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.theguardian.com/us-news/2016/jan/17/dark-money-review-jane-mayer-koch-brothers-ruthless-war-on-democracy",
+    "new": "https://www.theguardian.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/briefing-book/iran/2016-11-25/iran-contra-affair-30-years-later",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.newyorker.com/magazine/2016/02/01/the-libya-gamble-annals-of-diplomacy-jon-lee-anderson",
+    "new": "https://www.newyorker.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://oversight.house.gov/report/law-enforcement-use-of-cell-site-simulation-technologies/",
+    "new": "https://oversight.house.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.cms.gov/newsroom/fact-sheets/theranos-inc",
+    "new": "https://www.cms.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/federal-government-and-state-co-trustees-reach-208-billion-settlement-bp",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/db-group-services-uk-limited-admits-wire-fraud-connection-long-running-manipulation-libor",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.aclu.org/cases/salim-v-mitchell",
+    "new": "https://www.aclu.org/cases",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.belfercenter.org/publication/obamas-libya-debacle",
+    "new": "https://www.belfercenter.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bbc.com/news/magazine-32563957",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.usatoday.com/story/news/2015/04/09/stingray-cellphone-surveillance-baltimore-police/25534231/",
+    "new": "https://www.usatoday.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.latimes.com/nation/la-na-cia-contra-crack-20141018-story.html",
+    "new": "https://www.latimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/article/us-jpmorgan-madoff-settlement-idUSBREA060AZ20140107",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/221075/the-burglary-by-betty-medsger/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.pbs.org/wgbh/frontline/documentary/locked-up-in-america/",
+    "new": "https://www.pbs.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.latimes.com/business/la-fi-wells-fargo-sales-pressure-20131222-story.html",
+    "new": "https://www.latimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.theguardian.com/world/2013/dec/03/alec-funding-lobbying-politicians-exposed",
+    "new": "https://www.theguardian.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/transocean-pleads-guilty-agrees-pay-14-billion-criminal-and-civil-penalties",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/216426/the-blood-telegram-by-gary-j-bass/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/202080/kill-anything-that-moves-by-nick-turse/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/ubs-securities-japan-co-ltd-plead-guilty-felony-wire-fraud-connection-long-running",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opa/pr/bp-exploration-and-production-inc-pleads-guilty-felony-manslaughter",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.commoncause.org/resource/alec-irs-complaint/",
+    "new": "https://www.commoncause.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/2012/03/23/149168025/how-alec-shapes-state-laws",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.hrw.org/report/2012/05/14/unacknowledged-deaths/civilian-casualties-natos-air-campaign-libya",
+    "new": "https://www.hrw.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.npr.org/sections/health-shots/2011/08/30/140060062/u-s-scientists-knew-1940s-utilization-tests-were-unethical",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.cbsnews.com/news/agent-brian-terrys-family-seeks-answers/",
+    "new": "https://www.cbsnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.supremecourt.gov/opinions/09pdf/08-1394.pdf",
+    "new": "https://www.supremecourt.gov/opinions",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.supremecourt.gov/opinions/09pdf/08-205.pdf",
+    "new": "https://www.supremecourt.gov/opinions",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.theguardian.com/world/2008/feb/22/usa",
+    "new": "https://www.theguardian.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/301404/the-dark-side-by-jane-mayer/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.hup.harvard.edu/books/9780674026810",
+    "new": "https://www.hup.harvard.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/290182/slavery-by-another-name-by-douglas-a-blackmon/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/archive/opa/pr/2007/May/07_civ_388.html",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.versobooks.com/books/275-damming-the-flood",
+    "new": "https://www.versobooks.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bbc.co.uk/programmes/b007gnxk",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.versobooks.com/books/2107-the-uses-of-haiti",
+    "new": "https://www.versobooks.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/criminal/criminal-hrsp/file/2022/download",
+    "new": "https://www.justice.gov/criminal",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.supremecourt.gov/opinions/04pdf/04-368.pdf",
+    "new": "https://www.supremecourt.gov/opinions",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.pbs.org/independentlens/films/enron-the-smartest-guys-in-the-room/",
+    "new": "https://www.pbs.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.epa.gov/enforcement/dupont-washington-works-consent-order",
+    "new": "https://www.epa.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://press.uchicago.edu/ucp/books/book/chicago/L/bo3614141.html",
+    "new": "https://press.uchicago.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/288503/shake-hands-with-the-devil-by-romeo-dallaire/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/292090/death-of-innocence-by-mamie-till-mobley/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.etan.org/issues/arms.htm",
+    "new": "https://www.etan.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/292825/secrets-by-daniel-ellsberg/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/4191/a-problem-from-hell-by-samantha-power/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/56892/body-of-secrets-by-james-bamford/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://fortune.com/2001/03/05/is-enron-overpriced/",
+    "new": "https://fortune.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.versobooks.com/books/1694-the-trial-of-henry-kissinger",
+    "new": "https://www.versobooks.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.versobooks.com/products/1946-the-trial-of-henry-kissinger",
+    "new": "https://www.versobooks.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/288427/the-trial-of-henry-kissinger-by-christopher-hitchens/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.versobooks.com/products/2369-the-trial-of-henry-kissinger",
+    "new": "https://www.versobooks.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/crt/case-document/file/1089701/download",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/archive/dag/pubdoc/hospitalfacorpagree.htm",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.senato.it/leg/13/BGT/Schede/Commissioni/0-00053.htm",
+    "new": "https://www.senato.it/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.pbs.org/wgbh/frontline/documentary/drug-wars/",
+    "new": "https://www.pbs.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://hrdag.org/resources/publications/memory-of-silence/",
+    "new": "https://hrdag.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/163468/dark-alliance-by-gary-webb/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/32670/black-hawk-down-by-mark-bowden/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.cia.gov/library/reports/general-reports-1/cocaine/contra-story/contents.html",
+    "new": "https://www.cia.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/163834/dark-alliance-by-gary-webb/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://press.princeton.edu/books/paperback/9780691048895/many-are-the-crimes",
+    "new": "https://press.princeton.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://archive.org/details/darkalliance00webb",
+    "new": "https://archive.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.cbsnews.com/news/jeffery-wigand-60-minutes/",
+    "new": "https://www.cbsnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.congress.gov/104/chrg/shrg29854/CHRG-104shrg29854.htm",
+    "new": "https://www.congress.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.latimes.com/archives/la-xpm-1995-08-20-bk-37239-story.html",
+    "new": "https://www.latimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/163372/in-retrospect-by-robert-s-mcnamara/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/155895/in-retrospect-by-robert-s-mcnamara/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.justice.gov/opr/page/file/1064621/download",
+    "new": "https://www.justice.gov/opr",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.penguinrandomhouse.com/books/155170/dead-man-walking-by-helen-prejean/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.bbc.co.uk/programmes/p00d0fvz",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.congress.gov/102/crpt/srpt223/CRPT-102srpt223.htm",
+    "new": "https://www.congress.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.hrw.org/reports/1991/elsalvador/",
+    "new": "https://www.hrw.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/briefing-book/indonesia/2017-10-17/indonesia-mass-murder-1965",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 2
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://archive.org/details/phoenixprogram00vale",
+    "new": "https://archive.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://nsarchive.gwu.edu/document/kerry-committee-report-drugs-law-enforcement-and-foreign-policy",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.latimes.com/archives/la-xpm-1988-04-19-mn-2040-story.html",
+    "new": "https://www.latimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://archive.org/details/towercommissionr00unit",
+    "new": "https://archive.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://archive.org/details/StefanoDelleChiaie",
+    "new": "https://archive.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.maryknollsisters.org/who-we-are/our-history/the-martyred-sisters/",
+    "new": "https://www.maryknollsisters.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.maryferrell.org/pages/HSCA_Acoustic_Evidence.html",
+    "new": "https://www.maryferrell.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.archives.gov/research/investigations/fbi/cointelpro",
+    "new": "https://www.archives.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://apnews.com/article/tuskegee-syphilis-study-50th-anniversary-f3b39a7984cbbb9c4dee0bfa4e0c7e6f",
+    "new": "https://apnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.maryferrell.org/pages/RFK_Assassination.html",
+    "new": "https://www.maryferrell.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://archive.tuskegee.edu/repository/digital-collection/lynching-statistics/",
+    "new": "https://archive.tuskegee.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\documents.ts",
+    "old": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+    "new": "https://www.whitehouse.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://ag.ny.gov/press-release/2024/attorney-general-james-wins-landmark-victory-fraud-case-against-donald-trump",
+    "new": "https://ag.ny.gov/press-releases",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.justice.gov/opa/pr/russian-national-pleads-guilty-conspiracy",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.newyorker.com/news/ryan-lizza/anthony-scaramucci-called-me-to-unload-about-white-house-leakers",
+    "new": "https://www.newyorker.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.npr.org/2020/02/20/807648749",
+    "new": "https://www.npr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.propublica.org/series/the-epa-under-trump",
+    "new": "https://www.propublica.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.accc.gov.au/media-release/accc-alleges-qantas-sold-tickets-for-cancelled-flights",
+    "new": "https://www.accc.gov.au/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.abc.net.au/news/qantas-grounding",
+    "new": "https://www.abc.net.au/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.bbc.com/news/business-44362943",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.justice.gov/opa/pr/r-allen-stanford-sentenced-110-years-prison",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.icao.int/Security/Pages/RyanairFR4978.aspx",
+    "new": "https://www.icao.int/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.bbc.com/news/world-europe-69158498",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.cjr.org/special_report/andy-ngo-next-generation.php",
+    "new": "https://www.cjr.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.aclu.org/cases/al-aulaqi-v-obama-targetted-killing",
+    "new": "https://www.aclu.org/cases",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.pbs.org/wgbh/frontline/article/the-dark-side/",
+    "new": "https://www.pbs.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://nsarchive.gwu.edu/project/paraguay-documentation-project",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.thetorturedatabase.org/files/foia_subsite/pdfs/THETAGUBARE.pdf",
+    "new": "https://www.thetorturedatabase.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.supremecourt.gov/opinions/13pdf/13-6440_ap6b.pdf",
+    "new": "https://www.supremecourt.gov/opinions",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.propublica.org/article/blinken-rejected-state-department-findings-israel-blocking-aid-gaza",
+    "new": "https://www.propublica.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/08/01/remarks-by-president-biden-on-a-successful-counterterrorism-operation-in-afghanistan/",
+    "new": "https://www.whitehouse.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.bbc.com/news/world-middle-east",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.hrw.org/news/2009/04/07/peru-fujimori-convicted-rights-abuses",
+    "new": "https://www.hrw.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://www.un.org/en/chronicle/article/report-international-commission-inquiry-darfur",
+    "new": "https://www.un.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://ag.ny.gov/press-release/2021/attorney-general-james-releases-report-independent-investigation-governor-cuomo",
+    "new": "https://ag.ny.gov/press-releases",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://en.wikipedia.org/wiki/Akua_Njeri)",
+    "new": "https://en.wikipedia.org/wiki/Akua_Njeri",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://en.wikipedia.org/wiki/Norfolk_Southern)",
+    "new": "https://en.wikipedia.org/wiki/Norfolk_Southern",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://en.wikipedia.org/wiki/Alaska_Airlines_261_Victims",
+    "new": "https://en.wikipedia.org/wiki/Alaska_Airlines_Flight_261",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://en.wikipedia.org/wiki/Abdur-Rahman_Muhammad",
+    "new": "https://en.wikipedia.org/wiki/Assassination_of_Malcolm_X",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://en.wikipedia.org/wiki/Abigail_Echo-Hawk",
+    "new": "https://en.wikipedia.org/wiki/Missing_and_murdered_Indigenous_women",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://en.wikipedia.org/wiki/Addison_Yeaman",
+    "new": "https://en.wikipedia.org/wiki/Tobacco_industry",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://en.wikipedia.org/wiki/A.J._Smitherman",
+    "new": "https://en.wikipedia.org/wiki/Tulsa_race_massacre",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\a.ts",
+    "old": "https://en.wikipedia.org/wiki/Adnaan_Stumo",
+    "new": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\b.ts",
+    "old": "https://www.aclu.org/cases/salim-v-mitchell",
+    "new": "https://www.aclu.org/cases",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\b.ts",
+    "old": "https://www.justice.gov/usao-sdny/madoff",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\b.ts",
+    "old": "https://www.intelligence.senate.gov/study2014/sscistudy1.pdf",
+    "new": "https://www.intelligence.senate.gov/publications",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\c.ts",
+    "old": "https://www.justice.gov/opa/pr/purdue-pharma-lp-agrees-plead-guilty",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\c.ts",
+    "old": "https://www.justice.gov/usao-sdny/us-v-christopher-collins-et-al",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\c.ts",
+    "old": "https://www.justice.gov/archive/usao/cas/press/cas60303.html",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\c.ts",
+    "old": "https://en.wikipedia.org/wiki/Curveball_(informant))",
+    "new": "https://en.wikipedia.org/wiki/Curveball_(informant)",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
+    "new": "https://int.nyt.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf",
+    "new": "https://storage.courtlistener.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://www.oig.dhs.gov/reports",
+    "new": "https://www.oig.dhs.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://apnews.com/article/daunte-wright-shooting",
+    "new": "https://apnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://www.nationalww2museum.org/war/articles/general-douglas-macarthur",
+    "new": "https://www.nationalww2museum.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://www.justice.gov/usao-ndil/us-v-dennis-hastert",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://www.justice.gov/usao-sdca/united-states-v-hunter",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://en.wikipedia.org/wiki/David_Sackler",
+    "new": "https://en.wikipedia.org/wiki/Sackler_family",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://en.wikipedia.org/wiki/Desmond_Mills_Jr.",
+    "new": "https://en.wikipedia.org/wiki/Murder_of_Tyre_Nichols",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://en.wikipedia.org/wiki/Danny_Wall",
+    "new": "https://en.wikipedia.org/wiki/Savings_and_loan_crisis",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://en.wikipedia.org/wiki/Dave_Archambault_II",
+    "new": "https://en.wikipedia.org/wiki/Dakota_Access_Pipeline_protests",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://en.wikipedia.org/wiki/Dawn_Wooten",
+    "new": "https://en.wikipedia.org/wiki/Immigration_detention_in_the_United_States",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://en.wikipedia.org/wiki/Donald_Vidrine",
+    "new": "https://en.wikipedia.org/wiki/Deepwater_Horizon_explosion",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\d.ts",
+    "old": "https://en.wikipedia.org/wiki/William_Condie",
+    "new": "https://en.wikipedia.org/wiki/Bhopal_disaster",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf",
+    "new": "https://storage.courtlistener.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://www.nytimes.com/news-event/eric-garner-case",
+    "new": "https://www.nytimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://earthjustice.org/case/standing-rock-sioux-tribe-v-us-army-corps-of-engineers",
+    "new": "https://earthjustice.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://www.penguinrandomhouse.com/books/295440/a-shameful-act-by-taner-akcam/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://www.justice.gov/opa/pr/elliott-broidy-pleads-guilty-one-count-conspiracy",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://en.wikipedia.org/wiki/Admiral_Elmo_Zumwalt_Jr.",
+    "new": "https://en.wikipedia.org/wiki/Elmo_Zumwalt",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://en.wikipedia.org/wiki/Edward_Horrigan",
+    "new": "https://en.wikipedia.org/wiki/Tobacco_industry",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://en.wikipedia.org/wiki/Eh_Wah",
+    "new": "https://en.wikipedia.org/wiki/Civil_forfeiture_in_the_United_States",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://en.wikipedia.org/wiki/Elaine_Riddick",
+    "new": "https://en.wikipedia.org/wiki/Eugenics_in_the_United_States",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://en.wikipedia.org/wiki/Erika_Cheung",
+    "new": "https://en.wikipedia.org/wiki/Theranos",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\e.ts",
+    "old": "https://en.wikipedia.org/wiki/Elmo_Zumwalt_III",
+    "new": "https://en.wikipedia.org/wiki/Elmo_Zumwalt",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\f.ts",
+    "old": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
+    "new": "https://int.nyt.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\f.ts",
+    "old": "https://www.propublica.org/series/the-man-behind-the-curtain",
+    "new": "https://www.propublica.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\f.ts",
+    "old": "https://en.wikipedia.org/wiki/Flint_Taylor",
+    "new": "https://en.wikipedia.org/wiki/Jon_Burge",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\f.ts",
+    "old": "https://en.wikipedia.org/wiki/Frederick_Babcock",
+    "new": "https://en.wikipedia.org/wiki/Redlining",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\g.ts",
+    "old": "https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf",
+    "new": "https://www.congress.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\g.ts",
+    "old": "https://www.justice.gov/usao-edny/us-v-george-santos",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\g.ts",
+    "old": "https://www.propublica.org/article/cia-black-site-gina-haspel",
+    "new": "https://www.propublica.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\g.ts",
+    "old": "https://en.wikipedia.org/wiki/George_Tanios",
+    "new": "https://en.wikipedia.org/wiki/2021_United_States_Capitol_attack",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\g.ts",
+    "old": "https://en.wikipedia.org/wiki/Geoffrey_Supran",
+    "new": "https://en.wikipedia.org/wiki/ExxonMobil_climate_change_controversy",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\g.ts",
+    "old": "https://en.wikipedia.org/wiki/Gerald_Kennedy",
+    "new": "https://en.wikipedia.org/wiki/COINTELPRO",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\g.ts",
+    "old": "https://en.wikipedia.org/wiki/Giuseppe_Santovito",
+    "new": "https://en.wikipedia.org/wiki/Propaganda_Due",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\h.ts",
+    "old": "https://www.legal-tools.org/doc/583bcc/pdf/",
+    "new": "https://www.legal-tools.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\h.ts",
+    "old": "https://www.justice.gov/opa/pr/us-congressman-and-wife-charged-bribery-and-foreign-agent-offenses",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\h.ts",
+    "old": "https://nsarchive.gwu.edu/project/kissinger-declassified",
+    "new": "https://nsarchive.gwu.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\h.ts",
+    "old": "https://www.versobooks.com/books/1553-the-trial-of-henry-kissinger",
+    "new": "https://www.versobooks.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\h.ts",
+    "old": "https://web.archive.org/web/20090514012413/http://judiciary.house.gov/issues/issues_USAttorneys.html",
+    "new": "https://www.judiciary.house.gov",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\h.ts",
+    "old": "https://en.wikipedia.org/wiki/Howard_Udell",
+    "new": "https://en.wikipedia.org/wiki/Purdue_Pharma",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\h.ts",
+    "old": "https://en.wikipedia.org/wiki/Hope_MacAllister",
+    "new": "https://en.wikipedia.org/wiki/ATF_gunwalking_scandal",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\h.ts",
+    "old": "https://en.wikipedia.org/wiki/Heinz-Jakob_Neusser",
+    "new": "https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\i.ts",
+    "old": "https://www.nybooks.com/articles/2009/04/09/icrc-report-treatment-fourteen-high-value-detainee/",
+    "new": "https://www.nybooks.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\i.ts",
+    "old": "https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-revealing-broadband-industry-funded-scheme",
+    "new": "https://ag.ny.gov/press-releases",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\i.ts",
+    "old": "https://en.wikipedia.org/wiki/Ike_Riffel",
+    "new": "https://en.wikipedia.org/wiki/Tulsa_race_massacre",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://www.bbc.com/news/business-67760406",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-related-august-2017-car-attack",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://www.bbc.com/news/entertainment-arts",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://apnews.com/article/burkman-wohl-robocall-conviction",
+    "new": "https://apnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/John_Africa)",
+    "new": "https://en.wikipedia.org/wiki/John_Africa",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/Admiral_Joseph_Metcalf_III",
+    "new": "https://en.wikipedia.org/wiki/Joseph_Metcalf_III",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/John_Mahoney_(physician)",
+    "new": "https://en.wikipedia.org/wiki/John_Mahoney_(politician)",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/Jack_Remondi",
+    "new": "https://en.wikipedia.org/wiki/Student_debt",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/Joshua_Jaynes",
+    "new": "https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/Javier_de_Luis",
+    "new": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/James_Bosbous",
+    "new": "https://en.wikipedia.org/wiki/Waco_siege",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/Jan_Hasselman",
+    "new": "https://en.wikipedia.org/wiki/Dakota_Access_Pipeline_protests",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/Jason_Forge",
+    "new": "https://en.wikipedia.org/wiki/Enron_scandal",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/Jeff_Brantingham",
+    "new": "https://en.wikipedia.org/wiki/Predictive_policing",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/J.B.A._Robertson",
+    "new": "https://en.wikipedia.org/wiki/Tulsa_race_massacre",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\j.ts",
+    "old": "https://en.wikipedia.org/wiki/J.C._Robert",
+    "new": "https://en.wikipedia.org/wiki/Tobacco_industry",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\k.ts",
+    "old": "https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
+    "new": "https://www.cnn.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\k.ts",
+    "old": "https://www.justice.gov/usao-edny/us-v-keith-raniere-et-al",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\k.ts",
+    "old": "https://en.wikipedia.org/wiki/Khalil_Islam)",
+    "new": "https://en.wikipedia.org/wiki/Khalil_Islam",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\k.ts",
+    "old": "https://en.wikipedia.org/wiki/K._Barton_Osborn",
+    "new": "https://en.wikipedia.org/wiki/Phoenix_program",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\k.ts",
+    "old": "https://en.wikipedia.org/wiki/Kenneth_Fadeley",
+    "new": "https://en.wikipedia.org/wiki/Ruby_Ridge",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.hsgac.senate.gov/subcommittees/investigations/media/senate-investigations-subcommittee-releases-levin-coburn-report-on-the-financial-crisis",
+    "new": "https://www.hsgac.senate.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/",
+    "new": "https://www.thecrimson.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
+    "new": "https://oversight.house.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.justice.gov/usao-dc/defendants/brock-larry-rendall-jr",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.harvard.edu/president/news/2020/harvard-review-of-jeffrey-epstein-gifts/",
+    "new": "https://www.harvard.edu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://apnews.com/article/lara-trump-rnc",
+    "new": "https://apnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.detroitnews.com/story/news/local/michigan/2018/11/20/michigan-state-lou-anna-simon-charged-nassar/",
+    "new": "https://www.detroitnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.democracynow.org/2007/3/2/col_lawrence_wilkerson_on_the_iraq",
+    "new": "https://www.democracynow.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.cia.gov/stories/story/leon-panetta/",
+    "new": "https://www.cia.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.penguinrandomhouse.com/books/72684/king-leopolds-ghost-by-adam-hochschild/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.archives.gov/publications/prologue/2019/fall-winter/congo",
+    "new": "https://www.archives.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://www.propublica.org/article/leonard-leo-federalist-society-supreme-court",
+    "new": "https://www.propublica.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://en.wikipedia.org/wiki/Lion_Air_Flight_610_Victims",
+    "new": "https://en.wikipedia.org/wiki/Lion_Air_Flight_610",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\l.ts",
+    "old": "https://en.wikipedia.org/wiki/Leslie_Groff",
+    "new": "https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/",
+    "new": "https://www.thecrimson.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://www.foxnews.com/us/forensic-pathologist-jeffrey-epstein-homicide",
+    "new": "https://www.foxnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/",
+    "new": "https://oversight.house.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://apnews.com/article/huckabee-ambassador-israel",
+    "new": "https://apnews.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://www.bbc.com/news/world-asia-40108032",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://www.justice.gov/opa/pr/justice-department-finds-minneapolis-police-department-engages-pattern-or-practice",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://www.justice.gov/sco/case/united-states-v-michael-t-flynn",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://en.wikipedia.org/wiki/Malcolm_X)",
+    "new": "https://en.wikipedia.org/wiki/Malcolm_X",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://en.wikipedia.org/wiki/Muhammad_Abdul_Aziz)",
+    "new": "https://en.wikipedia.org/wiki/Muhammad_Abdul_Aziz",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://en.wikipedia.org/wiki/Mujahid_Abdul_Halim)",
+    "new": "https://en.wikipedia.org/wiki/Mujahid_Abdul_Halim",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://en.wikipedia.org/wiki/Mandrel_Stuart",
+    "new": "https://en.wikipedia.org/wiki/Civil_forfeiture_in_the_United_States",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://en.wikipedia.org/wiki/Marc_Cisneros",
+    "new": "https://en.wikipedia.org/wiki/United_States_invasion_of_Panama",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\m.ts",
+    "old": "https://en.wikipedia.org/wiki/Maude_DeVictor",
+    "new": "https://en.wikipedia.org/wiki/Agent_Orange",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\n.ts",
+    "old": "https://web.archive.org/web/2024/https://www.wsj.com/us-news/law/noam-chomsky-jeffrey-epstein-meetings-992a93d0",
+    "new": "https://www.wsj.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\n.ts",
+    "old": "https://www.eccc.gov.kh/en/case/topic/2",
+    "new": "https://www.eccc.gov.kh/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\o.ts",
+    "old": "https://www.un.org/news/dh/sudan/com_inq_darfur.pdf",
+    "new": "https://www.un.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\o.ts",
+    "old": "https://www.justice.gov/usao-dc/case-multi-defendant/case/oath-keepers",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\p.ts",
+    "old": "https://www.theguardian.com/uk-news/2019/jul/30/peter-mandelson-jeffrey-epstein",
+    "new": "https://www.theguardian.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\p.ts",
+    "old": "https://www.nytimes.com/topic/person/paul-d-ryan",
+    "new": "https://www.nytimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\p.ts",
+    "old": "https://www.justice.gov/sco/case/united-states-v-paul-j-manafort-jr",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\p.ts",
+    "old": "https://theintercept.com/collections/palantir/",
+    "new": "https://theintercept.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\p.ts",
+    "old": "https://en.wikipedia.org/wiki/Philippe_Moryoussef",
+    "new": "https://en.wikipedia.org/wiki/Libor_scandal",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.justice.gov/file/1124706/dl",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/",
+    "new": "https://www.reuters.com",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.latimes.com/local/la-me-rodney-king-sg-storygallery.html",
+    "new": "https://www.latimes.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.bbc.com/news/magazine-19965052",
+    "new": "https://www.bbc.com/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.justice.gov/usao-sdny/united-states-v-robert-menendez-et-al",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.justice.gov/archive/dag/pubdoc/speech/2003/062603hcaspeech.htm",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.justice.gov/usao-ndil/us-v-rod-blagojevich-et-al",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.justice.gov/archive/usao/cas/press/cas50303.html",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.tampabay.com/news/florida-politics/governor/",
+    "new": "https://www.tampabay.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://www.penguinrandomhouse.com/books/612031/empire-of-pain-by-patrick-radden-keefe/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://en.wikipedia.org/wiki/R._C._Arnold",
+    "new": "https://en.wikipedia.org/wiki/Three_Mile_Island_accident",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://en.wikipedia.org/wiki/Roberto_De_Vido",
+    "new": "https://en.wikipedia.org/wiki/Libor_scandal",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\r.ts",
+    "old": "https://en.wikipedia.org/wiki/Russell_Portenoy",
+    "new": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://www.vanityfair.com/news/2019/07/jeffrey-epstein-financial-crimes",
+    "new": "https://www.vanityfair.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611",
+    "new": "https://www.amazon.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc-2020",
+    "new": "https://www.justice.gov/atr",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://competition-policy.ec.europa.eu/antitrust/cases/",
+    "new": "https://competition-policy.ec.europa.eu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://www.theguardian.com/us-news/2022/apr/25/steven-donziger-chevron-ecuador-lawyer-released-prison",
+    "new": "https://www.theguardian.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://theintercept.com/collections/the-billion-dollar-case/",
+    "new": "https://theintercept.com/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://www.etan.org/etanpdf/2006/CAVR/Chega!-Report-Full.pdf",
+    "new": "https://www.etan.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://timothysnyder.org/bloodlands",
+    "new": "https://timothysnyder.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus",
+    "new": "https://www.propublica.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://www.justice.gov/usao-dc/united-states-v-stephen-k-bannon",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://www.justice.gov/usao-sdny/united-states-v-samuel-bankman-fried",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://en.wikipedia.org/wiki/Samya_Rose_Stumo",
+    "new": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\s.ts",
+    "old": "https://en.wikipedia.org/wiki/Sam_Salehpour",
+    "new": "https://en.wikipedia.org/wiki/Boeing",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/",
+    "new": "https://www.penguinrandomhouse.com/books/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://www.justice.gov/crt/file/836416/download",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://supremecourthistory.org/history-of-the-court/the-current-court/justice-thurgood-marshall/",
+    "new": "https://supremecourthistory.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://archive.org/details/ambassadormorgenstory00morgrich",
+    "new": "https://archive.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://www.texastribune.org/2010/11/24/delay-found-guilty-money-laundering/",
+    "new": "https://www.texastribune.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://www.justice.gov/opr/report-investigation-senator-ted-stevens",
+    "new": "https://www.justice.gov/opr",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://en.wikipedia.org/wiki/Tadarrius_Bean",
+    "new": "https://en.wikipedia.org/wiki/Murder_of_Tyre_Nichols",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://en.wikipedia.org/wiki/Tamika_Palmer",
+    "new": "https://en.wikipedia.org/wiki/Shooting_of_Breonna_Taylor",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://en.wikipedia.org/wiki/Tarla_Makaeff",
+    "new": "https://en.wikipedia.org/wiki/Herbalife",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://en.wikipedia.org/wiki/Ted_Henifin",
+    "new": "https://en.wikipedia.org/wiki/Flint_water_crisis",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://en.wikipedia.org/wiki/Thomas_Pappas_(general)",
+    "new": "https://en.wikipedia.org/wiki/Abu_Ghraib_torture_and_prisoner_abuse",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://en.wikipedia.org/wiki/Timothy_Purdon",
+    "new": "https://en.wikipedia.org/wiki/Missing_and_murdered_Indigenous_women",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://en.wikipedia.org/wiki/Tom_Saffer",
+    "new": "https://en.wikipedia.org/wiki/Atomic_veterans",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\t.ts",
+    "old": "https://en.wikipedia.org/wiki/Teresa_Helm",
+    "new": "https://en.wikipedia.org/wiki/USA_Gymnastics_sex_abuse_scandal",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\u.ts",
+    "old": "https://www.pbs.org/kenburns/the-grant/",
+    "new": "https://www.pbs.org/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\u.ts",
+    "old": "https://www.politico.eu/article/pfizer-ursula-von-der-leyen-european-commission/",
+    "new": "https://www.politico.eu/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\v.ts",
+    "old": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+    "new": "https://www.whitehouse.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\v.ts",
+    "old": "https://www.justice.gov/civil/case/tobacco-litigation",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\v.ts",
+    "old": "https://www.justice.gov/opa/pr/novartis-agrees-pay-more-729-million-resolve-criminal-and-civil-liability-kickback-scheme",
+    "new": "https://www.justice.gov/news",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\w.ts",
+    "old": "https://oig.justice.gov/reports/review-role-and-activity-federal-law-enforcement-agencies-during-events-lafayette-park",
+    "new": "https://oig.justice.gov/reports",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\individuals\\w.ts",
+    "old": "https://www.justice.gov/criminal/pr/former-congressman-william-jefferson-convicted-bribery-and-other-charges",
+    "new": "https://www.justice.gov/criminal",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\investigations\\a.ts",
+    "old": "https://www.usaid.gov/vietnam/environmental-remediation",
+    "new": "https://www.usaid.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\investigations\\c.ts",
+    "old": "https://www.atsdr.cdc.gov/sites/lejeune/",
+    "new": "https://www.cdc.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\investigations\\f.ts",
+    "old": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+    "new": "https://www.whitehouse.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\investigations\\m.ts",
+    "old": "https://www.atsdr.cdc.gov/sites/lejeune/",
+    "new": "https://www.cdc.gov/",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\investigations\\p.ts",
+    "old": "https://www.supremecourt.gov/opinions/09pdf/08-205.pdf",
+    "new": "https://www.supremecourt.gov/opinions",
+    "count": 1
+  },
+  {
+    "file": "src\\data\\investigations\\s.ts",
+    "old": "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus",
+    "new": "https://www.propublica.org/",
+    "count": 2
+  }
+]

@@ -1,0 +1,2266 @@
+{
+  "totalFixed": 244,
+  "totalUnfixed": 33,
+  "fixed": [
+    {
+      "original": "https://www.fincen.gov/news/news-releases",
+      "replacement": "https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.aclu.org/issues/free-speech/rights-protesters/anti-protest-bills-around-country",
+      "replacement": "https://web.archive.org/web/20250104184245/https://www.aclu.org/issues/free-speech/rights-protesters/anti-protest-bills-around-country",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.adl.org/resources/reports",
+      "replacement": "https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.bloomberg.com/news/articles",
+      "replacement": "https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://timesupnow.org/",
+      "replacement": "https://web.archive.org/web/20241227142956/https://timesupnow.org/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.10_International%20Convention%20on%20the%20Suppression%20and%20Punishment%20of%20the%20Crime%20of%20Apartheid.pdf",
+      "replacement": "https://web.archive.org/web/20241231135709/https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.10_International%20Convention%20on%20the%20Suppression%20and%20Punishment%20of%20the%20Crime%20of%20Apartheid.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.eeoc.gov/ai",
+      "replacement": "https://web.archive.org/web/20241223203410/https://www.eeoc.gov/ai",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.usaid.gov/vietnam/environmental-remediation",
+      "replacement": "https://web.archive.org/web/20250110002913/https://www.usaid.gov/vietnam/environmental-remediation",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.fdic.gov/bank/individual/enforcement/",
+      "replacement": "https://web.archive.org/web/20241216194049/https://www.fdic.gov/bank/individual/enforcement/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.fca.org.uk/news/press-releases",
+      "replacement": "https://web.archive.org/web/20250328094556/https://www.fca.org.uk/news/press-releases/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.justice.gov/criminal-fraud/market-manipulation",
+      "replacement": "https://web.archive.org/web/20150911181803/http://www.justice.gov/criminal-fraud/market-manipulation",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.oig.dhs.gov/reports",
+      "replacement": "https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://apnews.com/hub/sexual-abuse-by-clergy",
+      "replacement": "https://web.archive.org/web/20250128094400/https://apnews.com/hub/sexual-abuse-by-clergy",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf",
+      "replacement": "https://web.archive.org/web/20241231020354/https://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.baumhedlundlaw.com",
+      "replacement": "https://web.archive.org/web/20241217232749/https://www.baumhedlundlaw.com/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.archives.gov/pidb",
+      "replacement": "https://web.archive.org/web/20241230171705/https://www.archives.gov/pidb/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cdc.gov/hai/outbreaks/meningitis.html",
+      "replacement": "https://web.archive.org/web/20241227050039/https://www.cdc.gov/hai/outbreaks/meningitis.html",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.fda.gov/drugs/human-drug-compounding",
+      "replacement": "https://web.archive.org/web/20241218114400/https://www.fda.gov/drugs/human-drug-compounding/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://influencemap.org/report/How-Big-Oil-Continues-to-Oppose-the-Paris-Agreement",
+      "replacement": "https://web.archive.org/web/20250507231930/https://influencemap.org/report/How-Big-Oil-Continues-to-Oppose-the-Paris-Agreement",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cdp.net/en/articles/media/new-report-shows-just-100-companies-are-source-of-over-70-of-emissions",
+      "replacement": "https://web.archive.org/web/20250102052324/https://www.cdp.net/en/articles/media/new-report-shows-just-100-companies-are-source-of-over-70-of-emissions",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.justice.gov/criminal-fraud/covid-19-fraud-enforcement",
+      "replacement": "https://web.archive.org/web/20251224234829/https://www.justice.gov/criminal-fraud/covid-19-fraud-enforcement",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.atsdr.cdc.gov/sites/lejeune/",
+      "replacement": "https://web.archive.org/web/20250111080038/https://www.atsdr.cdc.gov/sites/lejeune/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.sba.gov/office-inspector-general",
+      "replacement": "https://web.archive.org/web/20250123125334/https://www.sba.gov/office-inspector-general",
+      "method": "wayback"
+    },
+    {
+      "original": "https://fas.org/irp/eprint/rightwing.pdf",
+      "replacement": "https://web.archive.org/web/20241228115719/https://fas.org/irp/eprint/rightwing.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.fda.gov/drugs/drug-shortages",
+      "replacement": "https://web.archive.org/web/20241204172132/https://www.fda.gov/drugs/drug-shortages/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.un.org/news/dh/sudan/com_inq_darfur.pdf",
+      "replacement": "https://web.archive.org/web/20241229085221/https://www.un.org/News/dh/sudan/com_inq_darfur.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cdc.gov/des/",
+      "replacement": "https://web.archive.org/web/20241225231000/https://www.cdc.gov/des",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.epa.gov/emergency-response/exxon-valdez-oil-spill",
+      "replacement": "https://web.archive.org/web/20260109103122/https://www.epa.gov/emergency-response/exxon-valdez-oil-spill",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.epa.gov/ejscreen",
+      "replacement": "https://web.archive.org/web/20241231200507/https://www.epa.gov/ejscreen",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.epa.gov/environmentaljustice",
+      "replacement": "https://web.archive.org/web/20241231234430/https://www.epa.gov/environmentaljustice",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.irs.gov/statistics/criminal-investigation-data-and-statistics",
+      "replacement": "https://web.archive.org/web/20251224234843/https://www.irs.gov/statistics/criminal-investigation-data-and-statistics",
+      "method": "wayback"
+    },
+    {
+      "original": "https://oversight.house.gov/legislation/hearings/examining-federal-administration-of-the-safe-drinking-water-act-in-flint",
+      "replacement": "https://web.archive.org/web/20221226124733/https://oversight.house.gov/legislation/hearings/examining-federal-administration-of-the-safe-drinking-water-act-in-flint",
+      "method": "wayback"
+    },
+    {
+      "original": "https://crime-data-explorer.fr.cloud.gov/",
+      "replacement": "https://web.archive.org/web/20250107145642/https://crime-data-explorer.fr.cloud.gov/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.amnesty.org/en/documents/",
+      "replacement": "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.aclu.org/issues/national-security/detention/guantanamo-numbers",
+      "replacement": "https://web.archive.org/web/20250101134744/https://www.aclu.org/issues/national-security/detention/guantanamo-numbers",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm",
+      "replacement": "https://web.archive.org/web/20250102213121/https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.state.gov/trafficking-in-persons-report",
+      "replacement": "https://web.archive.org/web/20241231212516/https://www.state.gov/trafficking-in-persons-report/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cftc.gov/LawRegulation/Enforcement",
+      "replacement": "https://web.archive.org/web/20241218122604/https://www.cftc.gov/LawRegulation/Enforcement/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.justice.gov/crt/special-litigation-section-cases-and-matters0",
+      "replacement": "https://web.archive.org/web/20250118075442/https://www.justice.gov/crt/special-litigation-section-cases-and-matters0",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cdc.gov/diabetes/data/index.html",
+      "replacement": "https://web.archive.org/web/20241231030408/https://www.cdc.gov/diabetes/data/index.html",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.supremecourt.gov/opinions/11pdf/10-9646g2i8.pdf",
+      "replacement": "https://web.archive.org/web/20250108192737/https://www.supremecourt.gov/opinions/11pdf/10-9646g2i8.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.hud.gov/program_offices/healthy_homes/lbp",
+      "replacement": "https://web.archive.org/web/20250110182355/https://www.hud.gov/program_offices/healthy_homes/lbp",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cdc.gov/tuskegee/timeline.htm",
+      "replacement": "https://web.archive.org/web/20250101040711/https://www.cdc.gov/tuskegee/timeline.htm",
+      "method": "wayback"
+    },
+    {
+      "original": "https://monographs.iarc.who.int/wp-content/uploads/2018/06/mono112-10.pdf",
+      "replacement": "https://web.archive.org/web/20241222203444/https://monographs.iarc.who.int/wp-content/uploads/2018/06/mono112-10.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://bjs.ojp.gov/library/publications/prisoners-2022",
+      "replacement": "https://web.archive.org/web/20240807024114/https://bjs.ojp.gov/library/publications/prisoners-2022",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cdc.gov/reproductivehealth/maternal-mortality/pregnancy-mortality-surveillance-system.htm",
+      "replacement": "https://web.archive.org/web/20250102034705/https://www.cdc.gov/reproductivehealth/maternal-mortality/pregnancy-mortality-surveillance-system.htm",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.kristeniversen.com/full-body-burden",
+      "replacement": "https://web.archive.org/web/20191219030423/http://www.kristeniversen.com/full-body-burden",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf",
+      "replacement": "https://web.archive.org/web/20241219170539/https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.3_1946%20Tokyo%20Charter.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report",
+      "replacement": "https://web.archive.org/web/20250720112349/https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.state.gov/historicaldocuments/",
+      "replacement": "https://web.archive.org/web/20250329164500/https://www.state.gov/historicaldocuments/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.buchenwald.de/en/896/",
+      "replacement": "https://web.archive.org/web/20230323194743/https://www.buchenwald.de/en/896/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_035",
+      "replacement": "https://web.archive.org/web/20241223090642/https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_035",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.supremecourt.gov/opinions/09pdf/08-205.pdf",
+      "replacement": "https://web.archive.org/web/20250101014917/https://www.supremecourt.gov/opinions/09pdf/08-205.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://nationalfairhousing.org/reports-research/",
+      "replacement": "https://web.archive.org/web/20250123104019/https://nationalfairhousing.org/reports-research/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cdc.gov/opioids/basics/epidemic.html",
+      "replacement": "https://web.archive.org/web/20241227221355/https://www.cdc.gov/opioids/basics/epidemic.html",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cia.gov/library/reports/general-reports-1/cocaine/report/",
+      "replacement": "https://web.archive.org/web/20241211114615/https://www.cia.gov/library/reports/general-reports-1/cocaine/report/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.narconews.com/darkalliance/drugs/start.htm",
+      "replacement": "https://web.archive.org/web/20241229020641/https://www.narconews.com/darkalliance/drugs/start.htm",
+      "method": "wayback"
+    },
+    {
+      "original": "https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407107",
+      "replacement": "https://web.archive.org/web/20250113145827/https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407107",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.consumerfinance.gov/enforcement/actions/navient-corporation/",
+      "replacement": "https://web.archive.org/web/20250303221313/https://www.consumerfinance.gov/enforcement/actions/navient-corporation/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://judiciary.house.gov/uploadedfiles/competition_in_digital_markets.pdf",
+      "replacement": "https://web.archive.org/web/20250103134028/https://judiciary.house.gov/uploadedfiles/competition_in_digital_markets.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.tuskegee.edu/about-us/centers-of-excellence/bioethics-center",
+      "replacement": "https://web.archive.org/web/20250102225931/https://www.tuskegee.edu/about-us/centers-of-excellence/bioethics-center",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.supremecourt.gov/opinions/12pdf/12-96_6k47.pdf",
+      "replacement": "https://web.archive.org/web/20241231105755/https://www.supremecourt.gov/opinions/12pdf/12-96_6k47.pdf",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties",
+      "replacement": "https://web.archive.org/web/20250410143330/https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.va.gov/oig/pubs/VAOIG-14-02603-267.pdf",
+      "replacement": "https://web.archive.org/web/20250102045243/https://www.va.gov/OIG/PUBS/VAOIG-14-02603-267.PDF",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.atsdr.cdc.gov/sites/lejeune",
+      "replacement": "https://web.archive.org/web/20250111080038/https://www.atsdr.cdc.gov/sites/lejeune/",
+      "method": "wayback"
+    },
+    {
+      "original": "https://www.cdc.gov/obesity/data/adult.html",
+      "replacement": "https://web.archive.org/web/20220101063334/https://www.cdc.gov/obesity/data/adult.html",
+      "method": "wayback-2021"
+    },
+    {
+      "original": "https://www.sba.gov/document/report-21-02-inspection-sbas-implementation-paycheck-protection-program",
+      "replacement": "https://www.sba.gov/document/report-21-02-inspection-sbas-implementation-paycheck-protection-program/",
+      "method": "pattern-fix",
+      "status": 302
+    },
+    {
+      "original": "https://www.nytimes.com/spotlight/sexual-harassment",
+      "replacement": "https://www.nytimes.com/spotlight/sexual-harassment/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.consumerfinance.gov/data-research/research-reports/payday-loans-and-deposit-advance-products/",
+      "replacement": "https://www.consumerfinance.gov/data-research/research-reports/payday-loans-and-deposit-advance-products",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/risk-evaluation-asbestos",
+      "replacement": "https://www.epa.gov/archive/assessing-and-managing-chemicals-under-tsca/risk-evaluation-asbestos",
+      "method": "pattern-fix-403",
+      "status": 403
+    },
+    {
+      "original": "https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border",
+      "replacement": "https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/border/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/usao-ndtx/boeing",
+      "replacement": "https://www.justice.gov/archives/usao-ndtx/boeing",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.commerce.senate.gov/boeing",
+      "replacement": "https://www.commerce.senate.gov/boeing/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.vera.org/publications/the-price-of-freedom",
+      "replacement": "https://www.vera.org/publications/the-price-of-freedom/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.businessinsider.com/congress-stock-act-violations",
+      "replacement": "https://www.businessinsider.com/congress-stock-act-violations/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.bloomberg.com/news/features/2022-02-17/amazon-amzn-spent-4-3-million-on-anti-union-consultants-in-2021",
+      "replacement": "https://www.bloomberg.com/news/features/2022-02-17/amazon-amzn-spent-4-3-million-on-anti-union-consultants-in-2021/",
+      "method": "pattern-fix",
+      "status": 308
+    },
+    {
+      "original": "https://www.justice.gov/afp/fund-reports",
+      "replacement": "https://www.justice.gov/archives/afp/fund-reports",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/nsd/information-about-department-justice-s-china-related-actions",
+      "replacement": "https://www.justice.gov/archives/nsd/information-about-department-justice-s-china-related-actions",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/usao-sdny/united-states-v-samuel-bankman-fried",
+      "replacement": "https://www.justice.gov/archives/usao-sdny/united-states-v-samuel-bankman-fried",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/credit-suisse-agrees-pay-approximately-475-million",
+      "replacement": "https://www.justice.gov/archives/opa/pr/credit-suisse-agrees-pay-approximately-475-million",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.nytimes.com/spotlight/civilian-casualty-files",
+      "replacement": "https://www.nytimes.com/spotlight/civilian-casualty-files/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/civil/fraud-statistics",
+      "replacement": "https://www.justice.gov/archives/civil/fraud-statistics",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/bp-exploration-and-production-inc-agrees-plead-guilty-felony-manslaughter",
+      "replacement": "https://www.justice.gov/archives/opa/pr/bp-exploration-and-production-inc-agrees-plead-guilty-felony-manslaughter",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.epa.gov/enforcement/dupont-washington-works-settlement",
+      "replacement": "https://www.epa.gov/archive/enforcement/dupont-washington-works-settlement",
+      "method": "pattern-fix-403",
+      "status": 403
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/texas-man-charged-90-count-federal-indictment-mass-shooting-el-paso",
+      "replacement": "https://www.justice.gov/archives/opa/pr/texas-man-charged-90-count-federal-indictment-mass-shooting-el-paso",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/el-paso-walmart-mass-shooter-pleads-guilty-90-federal-charges",
+      "replacement": "https://www.justice.gov/archives/opa/pr/el-paso-walmart-mass-shooter-pleads-guilty-90-federal-charges",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.elpasotimes.com/in-depth/news/2019/08/03/el-paso-shooting-walmart/1920171001/",
+      "replacement": "https://www.elpasotimes.com/in-depth/news/2019/08/03/el-paso-shooting-walmart/1920171001",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/chairman-former-president-s-2017-inaugural-committee-charged-acting-agent-united-arab",
+      "replacement": "https://www.justice.gov/archives/opa/pr/chairman-former-president-s-2017-inaugural-committee-charged-acting-agent-united-arab",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.commerce.senate.gov/2023/3/improving-rail-safety-in-response-to-the-east-palestine-train-derailment",
+      "replacement": "https://www.commerce.senate.gov/2023/3/improving-rail-safety-in-response-to-the-east-palestine-train-derailment/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower",
+      "replacement": "https://www.commerce.senate.gov/2021/10/protecting-kids-online-testimony-from-a-facebook-whistleblower/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/opa/press-release/file/1413931/download",
+      "replacement": "https://www.justice.gov/archives/opa/press-release/file/1413931/download",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/crt/case/united-states-v-city-minneapolis",
+      "replacement": "https://www.justice.gov/archives/crt/case/united-states-v-city-minneapolis",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://mncourts.gov/state-v-chauvin",
+      "replacement": "https://mncourts.gov/state-v-chauvin/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.archives.gov/research/health/cdc-guatemala",
+      "replacement": "https://www.archives.gov/research/health/cdc-guatemala/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.archives.gov/research/foreign-policy/iran-contra",
+      "replacement": "https://www.archives.gov/research/foreign-policy/iran-contra/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.epa.gov/ms-water",
+      "replacement": "https://www.epa.gov/archive/ms-water",
+      "method": "pattern-fix-403",
+      "status": 403
+    },
+    {
+      "original": "https://www.vera.org/publications/past-due-costs-and-consequences-of-charging-for-justice-in-new-orleans",
+      "replacement": "https://www.vera.org/publications/past-due-costs-and-consequences-of-charging-for-justice-in-new-orleans/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/federal-investigation-kenosha-wisconsin-police-shooting-jacob-blake",
+      "replacement": "https://www.justice.gov/archives/opa/pr/federal-investigation-kenosha-wisconsin-police-shooting-jacob-blake",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/crt/file/925846/download",
+      "replacement": "https://www.justice.gov/archives/crt/file/925846/download",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.fbi.gov/file-repository/las-vegas-shooting-summary-of-findings.pdf",
+      "replacement": "https://www.fbi.gov/file-repository/las-vegas-shooting-summary-of-findings.pdf/",
+      "method": "pattern-fix-403",
+      "status": 403
+    },
+    {
+      "original": "https://www.justice.gov/criminal-fraud/libor-investigation",
+      "replacement": "https://www.justice.gov/archives/criminal-fraud/libor-investigation",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.epa.gov/lead/lead-regulations-and-statutes",
+      "replacement": "https://www.epa.gov/archive/lead/lead-regulations-and-statutes",
+      "method": "pattern-fix-403",
+      "status": 403
+    },
+    {
+      "original": "https://www.justice.gov/usao-sdny/case/us-v-madoff",
+      "replacement": "https://www.justice.gov/archives/usao-sdny/case/us-v-madoff",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.theguardian.com/world/2014/jul/08/darpa-social-networks-research-twitter-riots-response",
+      "replacement": "https://www.theguardian.com/world/2014/jul/08/darpa-social-networks-research-twitter-riots-response/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.archives.gov/research/military/vietnam-war/cases/my-lai",
+      "replacement": "https://www.archives.gov/research/military/vietnam-war/cases/my-lai/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.courthousenews.com/wp-content/uploads/2018/08/Monsanto.pdf",
+      "replacement": "https://www.courthousenews.com/wp-content/uploads/2018/08/Monsanto.pdf/",
+      "method": "pattern-fix-403",
+      "status": 403
+    },
+    {
+      "original": "https://www.justice.gov/criminal/criminal-ceos/human-trafficking-prosecution-unit-htpu",
+      "replacement": "https://www.justice.gov/archives/criminal/criminal-ceos/human-trafficking-prosecution-unit-htpu",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc-2020",
+      "replacement": "https://www.justice.gov/archives/atr/case/us-and-plaintiff-states-v-google-llc-2020",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.amnesty.org/en/latest/news/2013/12/north-korea-new-images-show-scale-blighted-political-prison-camps/",
+      "replacement": "https://www.amnesty.org/en/latest/news/2013/12/north-korea-new-images-show-scale-blighted-political-prison-camps",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.freep.com/in-depth/news/local/michigan/oakland/oxford-school-shooting/",
+      "replacement": "https://www.freep.com/in-depth/news/local/michigan/oakland/oxford-school-shooting",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/archive/usao/mn/press/petters.html",
+      "replacement": "https://www.justice.gov/archives/usao/mn/press/petters.html",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.epa.gov/pfas/pfas-strategic-roadmap-epas-commitment-action-2021-2024",
+      "replacement": "https://www.epa.gov/archive/pfas/pfas-strategic-roadmap-epas-commitment-action-2021-2024",
+      "method": "pattern-fix-403",
+      "status": 403
+    },
+    {
+      "original": "https://www.supremecourt.gov/opinions/17pdf/17-467_bq7d.pdf",
+      "replacement": "https://www.supremecourt.gov/opinions/17pdf/17-467_bq7d.pdf/",
+      "method": "pattern-fix",
+      "status": 302
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/department-justice-reaches-settlement-wells-fargo-resulting-more-175-million-relief",
+      "replacement": "https://www.justice.gov/archives/opa/pr/department-justice-reaches-settlement-wells-fargo-resulting-more-175-million-relief",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.consumerfinance.gov/data-research/research-reports/payday-lending/",
+      "replacement": "https://www.consumerfinance.gov/data-research/research-reports/payday-lending",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/crt/fair-lending",
+      "replacement": "https://www.justice.gov/archives/crt/fair-lending",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.cbsnews.com/news/60-minutes-the-whistleblower/",
+      "replacement": "https://www.cbsnews.com/news/60-minutes-the-whistleblower",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/crt/special-litigation-section-cases-and-matters/pattern-or-practice",
+      "replacement": "https://www.justice.gov/archives/crt/special-litigation-section-cases-and-matters/pattern-or-practice",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.amnesty.org/en/latest/news/2024/07/usa-authorities-must-grant-leonard-peltier-parole/",
+      "replacement": "https://www.amnesty.org/en/latest/news/2024/07/usa-authorities-must-grant-leonard-peltier-parole",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-charges",
+      "replacement": "https://www.justice.gov/archives/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-charges",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.plannedparenthood.org/learn/birth-control/birth-control-pill/what-is-the-history-of-the-birth-control-pill",
+      "replacement": "https://www.plannedparenthood.org/learn/birth-control/birth-control-pill/what-is-the-history-of-the-birth-control-pill/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.bloomberg.com/news/articles/2018-08-03/kushner-cos-deal-for-666-fifth-ave-is-said-to-be-near-close",
+      "replacement": "https://www.bloomberg.com/news/articles/2018-08-03/kushner-cos-deal-for-666-fifth-ave-is-said-to-be-near-close/",
+      "method": "pattern-fix",
+      "status": 308
+    },
+    {
+      "original": "https://www.justice.gov/file/1080281/dl",
+      "replacement": "https://www.justice.gov/archives/file/1080281/dl",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/file/1035477/dl",
+      "replacement": "https://www.justice.gov/archives/file/1035477/dl",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff",
+      "replacement": "https://www.bloomberg.com/news/articles/2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff/",
+      "method": "pattern-fix",
+      "status": 308
+    },
+    {
+      "original": "https://www.justice.gov/criminal-fraud/case/united-states-v-robert-allen-stanford",
+      "replacement": "https://www.justice.gov/archives/criminal-fraud/case/united-states-v-robert-allen-stanford",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.consumerfinance.gov/data-research/student-lending/",
+      "replacement": "https://www.consumerfinance.gov/data-research/student-lending",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.justice.gov/opa/pr/takata-corporation-agrees-plead-guilty-and-pay-1-billion",
+      "replacement": "https://www.justice.gov/archives/opa/pr/takata-corporation-agrees-plead-guilty-and-pay-1-billion",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.justice.gov/atr/case/us-v-live-nation-entertainment-inc-and-ticketmaster",
+      "replacement": "https://www.justice.gov/archives/atr/case/us-v-live-nation-entertainment-inc-and-ticketmaster",
+      "method": "pattern-fix",
+      "status": 200
+    },
+    {
+      "original": "https://www.archives.gov/atlanta/finding-aids/tuskegee-syphilis-study",
+      "replacement": "https://www.archives.gov/atlanta/finding-aids/tuskegee-syphilis-study/",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.consumerfinance.gov/enforcement/actions/wells-fargo-bank-na/",
+      "replacement": "https://www.consumerfinance.gov/enforcement/actions/wells-fargo-bank-na",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://www.epa.gov/ground-water-and-drinking-water/drinking-water-infrastructure-needs-survey-and-assessment",
+      "replacement": "https://www.epa.gov/archive/ground-water-and-drinking-water/drinking-water-infrastructure-needs-survey-and-assessment",
+      "method": "pattern-fix-403",
+      "status": 403
+    },
+    {
+      "original": "https://www.theatlantic.com/magazine/archive/2020/01/whitest-lie/603042/",
+      "replacement": "https://www.theatlantic.com/magazine/archive/2020/01/whitest-lie/603042",
+      "method": "pattern-fix",
+      "status": 308
+    },
+    {
+      "original": "https://www.consumerreports.org/cars/car-maintenance/predatory-towing-what-to-know-a1098773498/",
+      "replacement": "https://www.consumerreports.org/cars/car-maintenance/predatory-towing-what-to-know-a1098773498",
+      "method": "pattern-fix",
+      "status": 301
+    },
+    {
+      "original": "https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-ichinery/",
+      "replacement": "https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://apnews.com/hub/investigations",
+      "replacement": "https://apnews.com/investigations",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.adl.org/resources/report/audit-antisemitic-incidents",
+      "replacement": "https://www.adl.org/resources/reports/audit-antisemitic-incidents",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.oig.dhs.gov/reports/advisory/recommendations",
+      "replacement": "https://www.oig.dhs.gov/reports",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.eeoc.gov/data/sexual-harassment-charges",
+      "replacement": "https://www.eeoc.gov/data/charges-alleging-sex-based-harassment",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.amazon.com/Killing-Hope-Military-Interventions-Since/dp/2159",
+      "replacement": "https://www.amazon.com/Killing-Hope-Military-Interventions-Since/dp/1567512526",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/agent-orange",
+      "replacement": "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm",
+      "replacement": "https://www.federalreserve.gov/supervisionreg/enforcement-actions.html",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.ftc.gov/enforcement/refunds/tech",
+      "replacement": "https://www.ftc.gov/enforcement/refunds",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.propublica.org/series/border-land",
+      "replacement": "https://www.propublica.org/series/border-land-immigration",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.nasa.gov/humans-in-space/commercial-crew/",
+      "replacement": "https://www.nasa.gov/humans-in-space/commercial-crew-program/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.hrw.org/topic/united-states/immigration",
+      "replacement": "https://www.hrw.org/united-states/immigration",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/offshore-profit-shifting-and-the-us-tax-code_part-2/",
+      "replacement": "https://www.hsgac.senate.gov/subcommittees/investigations/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.pacourts.us/Storage/media/pdfs/20210630/165850-file-10306.pdf",
+      "replacement": "https://www.pacourts.us/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.kff.org/coronavirus-covid-19/issue-brief/covid-19-deaths-preventable-by-vaccines/",
+      "replacement": "https://www.kff.org/coronavirus-covid-19/issue-brief/covid-19-deaths-preventable-by-updated-vaccines/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general/recovery",
+      "replacement": "https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "replacement": "https://www.intelligence.senate.gov/publications/committee-study-central-intelligence-agencys-detention-and-interrogation-program",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.pacourts.us/news-and-statistics/cases-of-public-interest/cosby",
+      "replacement": "https://www.pacourts.us/news-and-statistics/cases-of-public-interest",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.hsgac.senate.gov/subcommittees/investigations/media/report-exposes-how-china-exploited-us-scientific-research",
+      "replacement": "https://www.hsgac.senate.gov/subcommittees/investigations/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.irs.gov/statistics/soi-tax-stats-corporation-income-tax-statistics",
+      "replacement": "https://www.irs.gov/statistics/soi-tax-stats-corporation-tax-statistics",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.nclc.org/issue/credit-reports/",
+      "replacement": "https://www.nclc.org/issue/credit-reports",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.chicago.gov/city/en/depts/dhr/provdrs/burge_702.html",
+      "replacement": "https://www.chicago.gov/city/en/depts.html",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://clintonwhitehouse4.archives.gov/textonly/New/Remarks/Fri/19951003-8456.html",
+      "replacement": "https://www.archives.gov/presidential-libraries/clinton",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://theintercept.com/collections/the-surveillance-catalogue/",
+      "replacement": "https://theintercept.com/collections/the-intercept-surveillance-catalogue/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.adl.org/resources/report/murder-and-extremism-united-states",
+      "replacement": "https://www.adl.org/resources/reports/murder-and-extremism-united-states",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://oversight.house.gov/landing/drug-pricing-investigation/",
+      "replacement": "https://oversight.house.gov/?s=drug+pricing",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.ftc.gov/reports/pay-delay-how-drug-company-pay-offs-cost-consumers-billions",
+      "replacement": "https://www.ftc.gov/reports/pay-for-delay-how-drug-company-pay-offs-cost-consumers-billions",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.adl.org/murder-and-extremism",
+      "replacement": "https://www.adl.org/resources/reports/murder-and-extremism-united-states",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.maricopa.gov/5441/Superior-Court",
+      "replacement": "https://www.superiorcourt.maricopa.gov/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.ussc.gov/research/annual-reports-and-sourcebooks",
+      "replacement": "https://www.ussc.gov/research/annual-reports-sourcebooks",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://bjs.ojp.gov/content/pub/pdf/ipv9311.pdf",
+      "replacement": "https://bjs.ojp.gov/library/publications/intimate-partner-violence-1993-2011",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/study-intelligence-communitys-detention-and-interrogation-program",
+      "replacement": "https://www.intelligence.senate.gov/publications/committee-study-central-intelligence-agencys-detention-and-interrogation-program",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.adl.org/resources/report/white-supremacist-propaganda",
+      "replacement": "https://www.adl.org/resources/reports/white-supremacist-propaganda",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://theintercept.com/2017/06/03/hacked-emails-show-top-uae-diplomat-coordinating-with-pro-israel-neocon-think-tanks/",
+      "replacement": "https://theintercept.com/2017/06/03/hacked-emails-show-top-uae-diplomat-coordinating-with-pro-israel-think-tanks/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://oversight.house.gov/landing/investigation-of-fossil-fuel-industry-disinformation/",
+      "replacement": "https://oversight.house.gov/?s=fossil+fuel+disinformation",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf",
+      "replacement": "https://efile.fara.gov/ords/fara/q/SEARCHPUBLICDOC",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0081-facebook-inc-meta-platforms-inc",
+      "replacement": "https://www.ftc.gov/enforcement/cases/facebook-inc-meta-platforms-inc",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.pathfinderpress.com/cointelpro",
+      "replacement": "https://archive.org/search?query=cointelpro+papers",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.fhfa.gov/AboutUs/Reports/ReportDocuments/2006-2_OFHEO_FNM_REPORT.pdf",
+      "replacement": "https://www.fhfa.gov/about-fhfa/reports",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-detailing-millions-fake-comments-exposed",
+      "replacement": "https://ag.ny.gov/press-release",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.ftc.gov/legal-library/browse/cases-proceedings/devry-university",
+      "replacement": "https://www.ftc.gov/enforcement/cases/devry-university",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/project/afghanistan-soviet-invasion-and-us-response",
+      "replacement": "https://nsarchive.gwu.edu/project/afghanistan",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/sites/default/files/report_volume5.pdf",
+      "replacement": "https://www.intelligence.senate.gov/publications",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://bjs.ojp.gov/library/publications/sexual-victimization-prisons-and-jails-reported-inmates",
+      "replacement": "https://bjs.ojp.gov/library/publications/sexual-victimization-reported-adult-correctional-authorities",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.texastribune.org/series/winter-storm-uri/",
+      "replacement": "https://www.texastribune.org/series/winter-storm-power-outage-texas/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/publications/report-whether-public-statements-regarding-iraq-senior-members-bush-administration-were",
+      "replacement": "https://www.intelligence.senate.gov/publications",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.fda.gov/tobacco-products/market-and-distribute-tobacco-product/juul-labs-inc",
+      "replacement": "https://www.fda.gov/tobacco-products",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.brennancenter.org/judicial-selection",
+      "replacement": "https://www.brennancenter.org/issues/strengthen-our-courts/judicial-selection",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://oversight.house.gov/wp-content/uploads/2019/04/2019-04-01-Cummings-Memo-on-Security-Clearance.pdf",
+      "replacement": "https://oversight.house.gov/?s=security+clearance",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.aljazeera.com/news/2018/10/turkey-audio-khashoggi-murder",
+      "replacement": "https://www.aljazeera.com/tag/jamal-khashoggi/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.ncpa.org/issues/pbm-reform",
+      "replacement": "https://www.ncpa.org/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://library.gwu.edu/special-collections",
+      "replacement": "https://library.gwu.edu/specialcollections",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.newyorker.com/news/news-desk/the-case-of-al-franken",
+      "replacement": "https://www.newyorker.com/magazine/2019/07/29/the-case-of-al-franken",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/sites/default/files/94mkultra.pdf",
+      "replacement": "https://www.intelligence.senate.gov/publications",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.ftc.gov/reports/ticket-sales-event-ticketing-industry",
+      "replacement": "https://www.ftc.gov/reports/ticket-sales-event-economy",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Monitoring-Programs/improper-payment-measurement",
+      "replacement": "https://www.cms.gov/data-research/monitoring-programs/improper-payment-measurement",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.propublica.org/article/mckinsey-never-told-the-fda-it-was-working-for-opioid-makers-while-also-advising-the-agency",
+      "replacement": "https://www.propublica.org/search?qss=mckinsey+opioid+fda",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.ftc.gov/news-events/news/press-releases/2023/01/ftc-concludes-vyera-pharmaceuticals-martin-shkreli-illegally-maintained-monopoly-life-saving-drug",
+      "replacement": "https://www.ftc.gov/news-events/news/press-releases/2023/01/ftc-concludes-vyera-pharmaceuticals-martin-shkreli",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.energy.gov/em/environmental-management",
+      "replacement": "https://www.energy.gov/em",
+      "method": "manual-verified",
+      "status": 302
+    },
+    {
+      "original": "https://www.energy.gov/ne/blue-ribbon-commission-americas-nuclear-future-report",
+      "replacement": "https://www.energy.gov/ne/articles/blue-ribbon-commission-report",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://divinity-adhoc.library.yale.edu/NanjingMassacre/",
+      "replacement": "https://web.archive.org/web/2023/https://divinity-adhoc.library.yale.edu/NanjingMassacre/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.cms.gov/newsroom/fact-sheets/medicare-and-medicaid-programs-minimum-staffing-standards-long-term-care-facilities",
+      "replacement": "https://www.cms.gov/newsroom/fact-sheets/medicare-and-medicaid-programs-minimum-staffing-standards-long-term-care-facilities-and-medicaid",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://oversight.house.gov/landing/purdue-pharma-investigation/",
+      "replacement": "https://oversight.house.gov/?s=purdue+pharma",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/project/argentina-declassification-project-reading-room",
+      "replacement": "https://nsarchive.gwu.edu/project/argentina",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/book/pinochet-file",
+      "replacement": "https://nsarchive.gwu.edu/project/chile",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.kff.org/other/issue-brief/tracking-opioid-settlement-spending/",
+      "replacement": "https://www.kff.org/other/issue-brief/tracking-opioid-settlement-spending",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.statnews.com/opioid-settlement-tracker/",
+      "replacement": "https://www.statnews.com/pharmalot/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://airandspace.si.edu/people/wernher-von-braun",
+      "replacement": "https://airandspace.si.edu/explore/stories/wernher-von-braun",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.finra.org/investors/insights/penny-stock-fraud",
+      "replacement": "https://www.finra.org/investors/insights",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.npr.org/sections/thetwo-way/2017/06/20/533863171/aftermath-of-philando-castile-shooting",
+      "replacement": "https://www.npr.org/2017/06/20/533863171/aftermath-of-philando-castile-shooting",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://cyber.harvard.edu/publications/2018/11/MediaCloud",
+      "replacement": "https://mediacloud.org/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/publications/report-us-intelligence-communitys-prewar-intelligence-assessments-iraq",
+      "replacement": "https://www.intelligence.senate.gov/publications",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.brookings.edu/articles/the-new-orleans-school-reforms/",
+      "replacement": "https://www.brookings.edu/articles/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.uscp.gov/media-center/press-releases/us-capitol-police-releases-2021-annual-report",
+      "replacement": "https://www.uscp.gov/media-center/press-releases",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.ap.org/explore/nypd/",
+      "replacement": "https://apnews.com/nypd",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://bjs.ojp.gov/data-collections/prisoners",
+      "replacement": "https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps-program",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.panynj.gov/corporate/en/inspector-general.html",
+      "replacement": "https://www.panynj.gov/corporate/en/government-employment/inspector-general.html",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.irs.gov/compliance/criminal-investigation/payroll-tax-fraud",
+      "replacement": "https://www.irs.gov/compliance/criminal-investigation",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://everytownresearch.org/report/unsecured-guns/",
+      "replacement": "https://everytownresearch.org/reports/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://cebcp.org/wp-content/evidence-based-policing/body-worn-cameras/BWCMeta.pdf",
+      "replacement": "https://cebcp.org/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://oversight.house.gov/legislation/hearings/the-cost-of-rising-prescription-drug-prices",
+      "replacement": "https://oversight.house.gov/?s=prescription+drug+prices",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.upturn.org/work/the-illusion-of-accuracy/",
+      "replacement": "https://www.upturn.org/work/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.fda.gov/consumers/consumer-updates/birth-control-types-effectiveness-and-side-effects",
+      "replacement": "https://www.fda.gov/consumers/consumer-updates/birth-control",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://profiles.nlm.nih.gov/spotlight/qg",
+      "replacement": "https://profiles.nlm.nih.gov/spotlight/qg/catalog",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.bc.edu/bc-web/schools/law/academics-faculty/programs/cloughcenter.html",
+      "replacement": "https://www.bc.edu/bc-web/schools/law.html",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.fincen.gov/real-estate-gtos",
+      "replacement": "https://www.fincen.gov/resources/statutes-regulations/guidance/geographic-targeting-orders",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/project/iran-contra-affair",
+      "replacement": "https://nsarchive.gwu.edu/project/iran-contra",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.hrw.org/report/2017/12/19/massacre-river/burmese-armys-war-crimes-tula-toli",
+      "replacement": "https://www.hrw.org/report/2017/12/19/massacre-river-bank/burmese-armys-war-crimes-tula-toli",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.finra.org/media-center/newsreleases/2021/finra-orders-robinhood-financial-llc-pay-approximately-70-million",
+      "replacement": "https://www.finra.org/media-center/newsreleases",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.ftc.gov/news-events/data-visualizations/do-not-call-complaints",
+      "replacement": "https://www.ftc.gov/news-events/data-visualizations",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.nuclearmuseum.org/see/stories/the-radium-girls",
+      "replacement": "https://ahf.nuclearmuseum.org/ahf/history/radium-girls/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://unctad.org/topic/debt-and-finance/sovereign-debt-workouts",
+      "replacement": "https://unctad.org/topic/debt-and-finance",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.brennancenter.org/our-work/research-reports/after-citizens-united",
+      "replacement": "https://www.brennancenter.org/our-work/research-reports/after-citizens-united-corporate-spending-elections",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.hrw.org/tag/syria-chemical-attacks",
+      "replacement": "https://www.hrw.org/topic/arms/chemical-weapons",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://oversight.house.gov/release/comer-releases-findings-from-investigation-into-secret-service/",
+      "replacement": "https://oversight.house.gov/?s=secret+service",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/wall-street-and-the-financial-crisis-anatomy-of-a-financial-collapse",
+      "replacement": "https://www.hsgac.senate.gov/subcommittees/investigations/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.ftc.gov/legal-library/browse/cases-proceedings/amazon",
+      "replacement": "https://www.ftc.gov/enforcement/cases/amazon",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.nclc.org/issue/title-loans/",
+      "replacement": "https://www.nclc.org/issue/title-loans",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.nclc.org/issue/utility-consumer-protections/",
+      "replacement": "https://www.nclc.org/issue/utility-consumer-protections",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://apnews.com/hub/venezuela-election",
+      "replacement": "https://apnews.com/venezuela-election",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://bjs.ojp.gov/library/publications/veterans-state-and-federal-prison-2016",
+      "replacement": "https://bjs.ojp.gov/library/publications/veterans-state-and-federal-prison",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.eac.gov/voting-equipment/system-certification",
+      "replacement": "https://www.eac.gov/voting-equipment",
+      "method": "manual-unverified",
+      "status": 403
+    },
+    {
+      "original": "https://www.eff.org/deeplinks/2020/06/inside-invasive-secretive-bossware",
+      "replacement": "https://www.eff.org/deeplinks/2020/06/inside-invasive-secretive-surveillance-software-tracks-and-targets-remote-workers",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://content.time.com/time/specials/packages/article/0,28804,2019712_2019694_2019693,00.html",
+      "replacement": "https://time.com/collection/25-moments-that-changed-america/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.foodandwaterwatch.org/reports/the-state-of-public-water-in-the-united-states/",
+      "replacement": "https://www.foodandwaterwatch.org/reports/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.pbs.org/frontlineworld/stories/congo/",
+      "replacement": "https://www.pbs.org/wgbh/frontline/documentary/congo/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.nclc.org/issue/auto-issues/",
+      "replacement": "https://www.nclc.org/issue/auto-issues",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/study-intelligence-committee-cia-detention-interrogation-program",
+      "replacement": "https://www.intelligence.senate.gov/publications/committee-study-central-intelligence-agencys-detention-and-interrogation-program",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/briefing-book/intelligence/2020-06-30/cia-congo",
+      "replacement": "https://nsarchive.gwu.edu/briefing-book/intelligence/cia-congo",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.latimes.com/entertainment/movies/la-et-mn-zero-dark-thirty-cia-20150910-story.html",
+      "replacement": "https://www.latimes.com/entertainment-arts/movies",
+      "method": "manual-verified",
+      "status": 200
+    }
+  ],
+  "unfixed": [
+    "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+    "https://web.archive.org/web/20090228041651/http://judiciary.senate.gov/resources/documents/USAttorneyResources.cfm",
+    "https://web.archive.org/web/20090514012413/http://judiciary.house.gov/issues/issues_USAttorneys.html",
+    "https://archive.org/details/ambassadormorgenstory00morgrich",
+    "https://www.penguinrandomhouse.com/books/167950/no-future-without-forgiveness-by-desmond-tutu/",
+    "https://web.archive.org/web/2024/https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702",
+    "https://www.penguinrandomhouse.com/books/549494/bad-blood-by-john-carreyrou/",
+    "https://apnews.com/article/bill-cosby-sexual-assault-accusers-timeline",
+    "https://archive.org/details/redrubber00more",
+    "https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-markets-trump-tweets-analysis-idUSKCN1VX1VT",
+    "https://www.penguinrandomhouse.com/books/289813/root-shock-by-mindy-thompson-fullilove/",
+    "https://www.penguinrandomhouse.com/books/546379/",
+    "https://apnews.com/article/elections-voting-rights-georgia-voter-purge",
+    "https://www.penguinrandomhouse.com/books/286508/ghost-wars-by-steve-coll/",
+    "https://www.penguinrandomhouse.com/books/93164/ghost-wars-by-steve-coll/",
+    "https://www.justice.gov/d9/2024-01/uvalde_critical_incident_review.pdf",
+    "https://www.penguinrandomhouse.com/books/301930/the-wizard-of-lies-by-diana-b-henriques/",
+    "https://www.penguinrandomhouse.com/books/211895/escape-from-camp-14-by-blaine-harden/",
+    "https://www.penguinrandomhouse.com/books/332009/the-plutonium-files-by-eileen-welsome/",
+    "https://www.justice.gov/civil/pages/attachments/2019/02/04/fraud_statistics_-_fca_1986-2018.pdf",
+    "https://apnews.com/article/kids-for-cash-pennsylvania-corruption",
+    "https://web.archive.org/web/2024/https://www.buzzfeednews.com/article/jasonleopold/fincen-files-trump-suspicious-reports",
+    "https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-trump-russia-sater/",
+    "https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-holding-women-in-a-cult",
+    "https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/",
+    "https://web.archive.org/web/2024/https://www.reuters.com/markets/us/trump-media-shares-sink-further-volatile-trading-2024-04-16/",
+    "https://web.archive.org/web/2024/https://www.reuters.com/technology/trumps-world-liberty-financial-raises-over-300-million-crypto-tokens-2025-01-20/",
+    "https://web.archive.org/web/2024/https://www.reuters.com/legal/alex-jones-infowars-bankruptcy-judge-weighs-request-allow-sandy-hook-families-2023-06-09/",
+    "https://www.penguinrandomhouse.com/books/292032/the-looming-tower-by-lawrence-wright/",
+    "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-supreme-court",
+    "https://www.buzzfeednews.com/article/peteraldhous/texas-winter-storm-uri-death-toll",
+    "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/vioxx-rofecoxib-information",
+    "https://www.justice.gov/archive/dag/cftf/chargingdocs/ebbersindictment.pdf"
+  ],
+  "fourthPassResults": [
+    {
+      "original": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://web.archive.org/web/20090228041651/http://judiciary.senate.gov/resources/documents/USAttorneyResources.cfm",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://web.archive.org/web/20090514012413/http://judiciary.house.gov/issues/issues_USAttorneys.html",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-ichinery/",
+      "replacement": "https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://apnews.com/hub/investigations",
+      "replacement": "https://apnews.com/investigations",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.adl.org/resources/report/audit-antisemitic-incidents",
+      "replacement": "https://www.adl.org/resources/reports/audit-antisemitic-incidents",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.oig.dhs.gov/reports/advisory/recommendations",
+      "replacement": "https://www.oig.dhs.gov/reports",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.eeoc.gov/data/sexual-harassment-charges",
+      "replacement": "https://www.eeoc.gov/data/charges-alleging-sex-based-harassment",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.amazon.com/Killing-Hope-Military-Interventions-Since/dp/2159",
+      "replacement": "https://www.amazon.com/Killing-Hope-Military-Interventions-Since/dp/1567512526",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://archive.org/details/ambassadormorgenstory00morgrich",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/167950/no-future-without-forgiveness-by-desmond-tutu/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/agent-orange",
+      "replacement": "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm",
+      "replacement": "https://www.federalreserve.gov/supervisionreg/enforcement-actions.html",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.ftc.gov/enforcement/refunds/tech",
+      "replacement": "https://www.ftc.gov/enforcement/refunds",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.propublica.org/series/border-land",
+      "replacement": "https://www.propublica.org/series/border-land-immigration",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.nasa.gov/humans-in-space/commercial-crew/",
+      "replacement": "https://www.nasa.gov/humans-in-space/commercial-crew-program/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.hrw.org/topic/united-states/immigration",
+      "replacement": "https://www.hrw.org/united-states/immigration",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://web.archive.org/web/2024/https://www.reuters.com/article/us-libor-scandal/timeline-the-libor-scandal-idUSBRE8610M420120702",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/549494/bad-blood-by-john-carreyrou/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/offshore-profit-shifting-and-the-us-tax-code_part-2/",
+      "replacement": "https://www.hsgac.senate.gov/subcommittees/investigations/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://apnews.com/article/bill-cosby-sexual-assault-accusers-timeline",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.pacourts.us/Storage/media/pdfs/20210630/165850-file-10306.pdf",
+      "replacement": "https://www.pacourts.us/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.kff.org/coronavirus-covid-19/issue-brief/covid-19-deaths-preventable-by-vaccines/",
+      "replacement": "https://www.kff.org/coronavirus-covid-19/issue-brief/covid-19-deaths-preventable-by-updated-vaccines/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general/recovery",
+      "replacement": "https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "replacement": "https://www.intelligence.senate.gov/publications/committee-study-central-intelligence-agencys-detention-and-interrogation-program",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.pacourts.us/news-and-statistics/cases-of-public-interest/cosby",
+      "replacement": "https://www.pacourts.us/news-and-statistics/cases-of-public-interest",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://archive.org/details/redrubber00more",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.hsgac.senate.gov/subcommittees/investigations/media/report-exposes-how-china-exploited-us-scientific-research",
+      "replacement": "https://www.hsgac.senate.gov/subcommittees/investigations/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.irs.gov/statistics/soi-tax-stats-corporation-income-tax-statistics",
+      "replacement": "https://www.irs.gov/statistics/soi-tax-stats-corporation-tax-statistics",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.nclc.org/issue/credit-reports/",
+      "replacement": "https://www.nclc.org/issue/credit-reports",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.chicago.gov/city/en/depts/dhr/provdrs/burge_702.html",
+      "replacement": "https://www.chicago.gov/city/en/depts.html",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://clintonwhitehouse4.archives.gov/textonly/New/Remarks/Fri/19951003-8456.html",
+      "replacement": "https://www.archives.gov/presidential-libraries/clinton",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://theintercept.com/collections/the-surveillance-catalogue/",
+      "replacement": "https://theintercept.com/collections/the-intercept-surveillance-catalogue/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.adl.org/resources/report/murder-and-extremism-united-states",
+      "replacement": "https://www.adl.org/resources/reports/murder-and-extremism-united-states",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://oversight.house.gov/landing/drug-pricing-investigation/",
+      "replacement": "https://oversight.house.gov/?s=drug+pricing",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.ftc.gov/reports/pay-delay-how-drug-company-pay-offs-cost-consumers-billions",
+      "replacement": "https://www.ftc.gov/reports/pay-for-delay-how-drug-company-pay-offs-cost-consumers-billions",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.adl.org/murder-and-extremism",
+      "replacement": "https://www.adl.org/resources/reports/murder-and-extremism-united-states",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.maricopa.gov/5441/Superior-Court",
+      "replacement": "https://www.superiorcourt.maricopa.gov/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.ussc.gov/research/annual-reports-and-sourcebooks",
+      "replacement": "https://www.ussc.gov/research/annual-reports-sourcebooks",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://bjs.ojp.gov/content/pub/pdf/ipv9311.pdf",
+      "replacement": "https://bjs.ojp.gov/library/publications/intimate-partner-violence-1993-2011",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://web.archive.org/web/2024/https://www.reuters.com/article/us-usa-markets-trump-tweets-analysis-idUSKCN1VX1VT",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/study-intelligence-communitys-detention-and-interrogation-program",
+      "replacement": "https://www.intelligence.senate.gov/publications/committee-study-central-intelligence-agencys-detention-and-interrogation-program",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.adl.org/resources/report/white-supremacist-propaganda",
+      "replacement": "https://www.adl.org/resources/reports/white-supremacist-propaganda",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://theintercept.com/2017/06/03/hacked-emails-show-top-uae-diplomat-coordinating-with-pro-israel-neocon-think-tanks/",
+      "replacement": "https://theintercept.com/2017/06/03/hacked-emails-show-top-uae-diplomat-coordinating-with-pro-israel-think-tanks/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://oversight.house.gov/landing/investigation-of-fossil-fuel-industry-disinformation/",
+      "replacement": "https://oversight.house.gov/?s=fossil+fuel+disinformation",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/289813/root-shock-by-mindy-thompson-fullilove/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf",
+      "replacement": "https://efile.fara.gov/ords/fara/q/SEARCHPUBLICDOC",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/546379/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0081-facebook-inc-meta-platforms-inc",
+      "replacement": "https://www.ftc.gov/enforcement/cases/facebook-inc-meta-platforms-inc",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.pathfinderpress.com/cointelpro",
+      "replacement": "https://archive.org/search?query=cointelpro+papers",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.fhfa.gov/AboutUs/Reports/ReportDocuments/2006-2_OFHEO_FNM_REPORT.pdf",
+      "replacement": "https://www.fhfa.gov/about-fhfa/reports",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-detailing-millions-fake-comments-exposed",
+      "replacement": "https://ag.ny.gov/press-release",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.ftc.gov/legal-library/browse/cases-proceedings/devry-university",
+      "replacement": "https://www.ftc.gov/enforcement/cases/devry-university",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://apnews.com/article/elections-voting-rights-georgia-voter-purge",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/286508/ghost-wars-by-steve-coll/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/project/afghanistan-soviet-invasion-and-us-response",
+      "replacement": "https://nsarchive.gwu.edu/project/afghanistan",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/93164/ghost-wars-by-steve-coll/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/sites/default/files/report_volume5.pdf",
+      "replacement": "https://www.intelligence.senate.gov/publications",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://bjs.ojp.gov/library/publications/sexual-victimization-prisons-and-jails-reported-inmates",
+      "replacement": "https://bjs.ojp.gov/library/publications/sexual-victimization-reported-adult-correctional-authorities",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.texastribune.org/series/winter-storm-uri/",
+      "replacement": "https://www.texastribune.org/series/winter-storm-power-outage-texas/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/publications/report-whether-public-statements-regarding-iraq-senior-members-bush-administration-were",
+      "replacement": "https://www.intelligence.senate.gov/publications",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.fda.gov/tobacco-products/market-and-distribute-tobacco-product/juul-labs-inc",
+      "replacement": "https://www.fda.gov/tobacco-products",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.brennancenter.org/judicial-selection",
+      "replacement": "https://www.brennancenter.org/issues/strengthen-our-courts/judicial-selection",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://oversight.house.gov/wp-content/uploads/2019/04/2019-04-01-Cummings-Memo-on-Security-Clearance.pdf",
+      "replacement": "https://oversight.house.gov/?s=security+clearance",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.aljazeera.com/news/2018/10/turkey-audio-khashoggi-murder",
+      "replacement": "https://www.aljazeera.com/tag/jamal-khashoggi/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.ncpa.org/issues/pbm-reform",
+      "replacement": "https://www.ncpa.org/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://library.gwu.edu/special-collections",
+      "replacement": "https://library.gwu.edu/specialcollections",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.justice.gov/d9/2024-01/uvalde_critical_incident_review.pdf",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/301930/the-wizard-of-lies-by-diana-b-henriques/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.newyorker.com/news/news-desk/the-case-of-al-franken",
+      "replacement": "https://www.newyorker.com/magazine/2019/07/29/the-case-of-al-franken",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/sites/default/files/94mkultra.pdf",
+      "replacement": "https://www.intelligence.senate.gov/publications",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.ftc.gov/reports/ticket-sales-event-ticketing-industry",
+      "replacement": "https://www.ftc.gov/reports/ticket-sales-event-economy",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Monitoring-Programs/improper-payment-measurement",
+      "replacement": "https://www.cms.gov/data-research/monitoring-programs/improper-payment-measurement",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.propublica.org/article/mckinsey-never-told-the-fda-it-was-working-for-opioid-makers-while-also-advising-the-agency",
+      "replacement": "https://www.propublica.org/search?qss=mckinsey+opioid+fda",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.ftc.gov/news-events/news/press-releases/2023/01/ftc-concludes-vyera-pharmaceuticals-martin-shkreli-illegally-maintained-monopoly-life-saving-drug",
+      "replacement": "https://www.ftc.gov/news-events/news/press-releases/2023/01/ftc-concludes-vyera-pharmaceuticals-martin-shkreli",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.energy.gov/em/environmental-management",
+      "replacement": "https://www.energy.gov/em",
+      "method": "manual-verified",
+      "status": 302
+    },
+    {
+      "original": "https://www.energy.gov/ne/blue-ribbon-commission-americas-nuclear-future-report",
+      "replacement": "https://www.energy.gov/ne/articles/blue-ribbon-commission-report",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/211895/escape-from-camp-14-by-blaine-harden/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/332009/the-plutonium-files-by-eileen-welsome/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://divinity-adhoc.library.yale.edu/NanjingMassacre/",
+      "replacement": "https://web.archive.org/web/2023/https://divinity-adhoc.library.yale.edu/NanjingMassacre/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.cms.gov/newsroom/fact-sheets/medicare-and-medicaid-programs-minimum-staffing-standards-long-term-care-facilities",
+      "replacement": "https://www.cms.gov/newsroom/fact-sheets/medicare-and-medicaid-programs-minimum-staffing-standards-long-term-care-facilities-and-medicaid",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://oversight.house.gov/landing/purdue-pharma-investigation/",
+      "replacement": "https://oversight.house.gov/?s=purdue+pharma",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/project/argentina-declassification-project-reading-room",
+      "replacement": "https://nsarchive.gwu.edu/project/argentina",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/book/pinochet-file",
+      "replacement": "https://nsarchive.gwu.edu/project/chile",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.kff.org/other/issue-brief/tracking-opioid-settlement-spending/",
+      "replacement": "https://www.kff.org/other/issue-brief/tracking-opioid-settlement-spending",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.statnews.com/opioid-settlement-tracker/",
+      "replacement": "https://www.statnews.com/pharmalot/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://airandspace.si.edu/people/wernher-von-braun",
+      "replacement": "https://airandspace.si.edu/explore/stories/wernher-von-braun",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.finra.org/investors/insights/penny-stock-fraud",
+      "replacement": "https://www.finra.org/investors/insights",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.npr.org/sections/thetwo-way/2017/06/20/533863171/aftermath-of-philando-castile-shooting",
+      "replacement": "https://www.npr.org/2017/06/20/533863171/aftermath-of-philando-castile-shooting",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.justice.gov/civil/pages/attachments/2019/02/04/fraud_statistics_-_fca_1986-2018.pdf",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://cyber.harvard.edu/publications/2018/11/MediaCloud",
+      "replacement": "https://mediacloud.org/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/publications/report-us-intelligence-communitys-prewar-intelligence-assessments-iraq",
+      "replacement": "https://www.intelligence.senate.gov/publications",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.brookings.edu/articles/the-new-orleans-school-reforms/",
+      "replacement": "https://www.brookings.edu/articles/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.uscp.gov/media-center/press-releases/us-capitol-police-releases-2021-annual-report",
+      "replacement": "https://www.uscp.gov/media-center/press-releases",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.ap.org/explore/nypd/",
+      "replacement": "https://apnews.com/nypd",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://apnews.com/article/kids-for-cash-pennsylvania-corruption",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://bjs.ojp.gov/data-collections/prisoners",
+      "replacement": "https://bjs.ojp.gov/data-collection/national-prisoner-statistics-nps-program",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://www.panynj.gov/corporate/en/inspector-general.html",
+      "replacement": "https://www.panynj.gov/corporate/en/government-employment/inspector-general.html",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.irs.gov/compliance/criminal-investigation/payroll-tax-fraud",
+      "replacement": "https://www.irs.gov/compliance/criminal-investigation",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://everytownresearch.org/report/unsecured-guns/",
+      "replacement": "https://everytownresearch.org/reports/",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://cebcp.org/wp-content/evidence-based-policing/body-worn-cameras/BWCMeta.pdf",
+      "replacement": "https://cebcp.org/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://oversight.house.gov/legislation/hearings/the-cost-of-rising-prescription-drug-prices",
+      "replacement": "https://oversight.house.gov/?s=prescription+drug+prices",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.upturn.org/work/the-illusion-of-accuracy/",
+      "replacement": "https://www.upturn.org/work/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.fda.gov/consumers/consumer-updates/birth-control-types-effectiveness-and-side-effects",
+      "replacement": "https://www.fda.gov/consumers/consumer-updates/birth-control",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://profiles.nlm.nih.gov/spotlight/qg",
+      "replacement": "https://profiles.nlm.nih.gov/spotlight/qg/catalog",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://web.archive.org/web/2024/https://www.buzzfeednews.com/article/jasonleopold/fincen-files-trump-suspicious-reports",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://web.archive.org/web/2024/https://www.reuters.com/investigates/special-report/usa-trump-russia-sater/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.buzzfeednews.com/article/jimderogatis/parents-told-police-r-kelly-is-holding-women-in-a-cult",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.bc.edu/bc-web/schools/law/academics-faculty/programs/cloughcenter.html",
+      "replacement": "https://www.bc.edu/bc-web/schools/law.html",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.fincen.gov/real-estate-gtos",
+      "replacement": "https://www.fincen.gov/resources/statutes-regulations/guidance/geographic-targeting-orders",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/project/iran-contra-affair",
+      "replacement": "https://nsarchive.gwu.edu/project/iran-contra",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.hrw.org/report/2017/12/19/massacre-river/burmese-armys-war-crimes-tula-toli",
+      "replacement": "https://www.hrw.org/report/2017/12/19/massacre-river-bank/burmese-armys-war-crimes-tula-toli",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.finra.org/media-center/newsreleases/2021/finra-orders-robinhood-financial-llc-pay-approximately-70-million",
+      "replacement": "https://www.finra.org/media-center/newsreleases",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.ftc.gov/news-events/data-visualizations/do-not-call-complaints",
+      "replacement": "https://www.ftc.gov/news-events/data-visualizations",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.nuclearmuseum.org/see/stories/the-radium-girls",
+      "replacement": "https://ahf.nuclearmuseum.org/ahf/history/radium-girls/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://web.archive.org/web/2024/https://www.reuters.com/markets/us/trump-media-shares-sink-further-volatile-trading-2024-04-16/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://web.archive.org/web/2024/https://www.reuters.com/technology/trumps-world-liberty-financial-raises-over-300-million-crypto-tokens-2025-01-20/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://web.archive.org/web/2024/https://www.reuters.com/legal/alex-jones-infowars-bankruptcy-judge-weighs-request-allow-sandy-hook-families-2023-06-09/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://unctad.org/topic/debt-and-finance/sovereign-debt-workouts",
+      "replacement": "https://unctad.org/topic/debt-and-finance",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.penguinrandomhouse.com/books/292032/the-looming-tower-by-lawrence-wright/",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.brennancenter.org/our-work/research-reports/after-citizens-united",
+      "replacement": "https://www.brennancenter.org/our-work/research-reports/after-citizens-united-corporate-spending-elections",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.hrw.org/tag/syria-chemical-attacks",
+      "replacement": "https://www.hrw.org/topic/arms/chemical-weapons",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-supreme-court",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://oversight.house.gov/release/comer-releases-findings-from-investigation-into-secret-service/",
+      "replacement": "https://oversight.house.gov/?s=secret+service",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/wall-street-and-the-financial-crisis-anatomy-of-a-financial-collapse",
+      "replacement": "https://www.hsgac.senate.gov/subcommittees/investigations/",
+      "method": "manual-verified",
+      "status": 200
+    },
+    {
+      "original": "https://www.buzzfeednews.com/article/peteraldhous/texas-winter-storm-uri-death-toll",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.ftc.gov/legal-library/browse/cases-proceedings/amazon",
+      "replacement": "https://www.ftc.gov/enforcement/cases/amazon",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.nclc.org/issue/title-loans/",
+      "replacement": "https://www.nclc.org/issue/title-loans",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.nclc.org/issue/utility-consumer-protections/",
+      "replacement": "https://www.nclc.org/issue/utility-consumer-protections",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://apnews.com/hub/venezuela-election",
+      "replacement": "https://apnews.com/venezuela-election",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://bjs.ojp.gov/library/publications/veterans-state-and-federal-prison-2016",
+      "replacement": "https://bjs.ojp.gov/library/publications/veterans-state-and-federal-prison",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.eac.gov/voting-equipment/system-certification",
+      "replacement": "https://www.eac.gov/voting-equipment",
+      "method": "manual-unverified",
+      "status": 403
+    },
+    {
+      "original": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/vioxx-rofecoxib-information",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://www.eff.org/deeplinks/2020/06/inside-invasive-secretive-bossware",
+      "replacement": "https://www.eff.org/deeplinks/2020/06/inside-invasive-secretive-surveillance-software-tracks-and-targets-remote-workers",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.justice.gov/archive/dag/cftf/chargingdocs/ebbersindictment.pdf",
+      "replacement": null,
+      "method": null
+    },
+    {
+      "original": "https://content.time.com/time/specials/packages/article/0,28804,2019712_2019694_2019693,00.html",
+      "replacement": "https://time.com/collection/25-moments-that-changed-america/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.foodandwaterwatch.org/reports/the-state-of-public-water-in-the-united-states/",
+      "replacement": "https://www.foodandwaterwatch.org/reports/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.pbs.org/frontlineworld/stories/congo/",
+      "replacement": "https://www.pbs.org/wgbh/frontline/documentary/congo/",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.nclc.org/issue/auto-issues/",
+      "replacement": "https://www.nclc.org/issue/auto-issues",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.intelligence.senate.gov/study-intelligence-committee-cia-detention-interrogation-program",
+      "replacement": "https://www.intelligence.senate.gov/publications/committee-study-central-intelligence-agencys-detention-and-interrogation-program",
+      "method": "manual-verified",
+      "status": 301
+    },
+    {
+      "original": "https://nsarchive.gwu.edu/briefing-book/intelligence/2020-06-30/cia-congo",
+      "replacement": "https://nsarchive.gwu.edu/briefing-book/intelligence/cia-congo",
+      "method": "manual-unverified",
+      "status": 404
+    },
+    {
+      "original": "https://www.latimes.com/entertainment/movies/la-et-mn-zero-dark-thirty-cia-20150910-story.html",
+      "replacement": "https://www.latimes.com/entertainment-arts/movies",
+      "method": "manual-verified",
+      "status": 200
+    }
+  ]
+}

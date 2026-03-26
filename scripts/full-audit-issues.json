@@ -1,0 +1,952 @@
+[
+  {
+    "file": "investigations/2.ts",
+    "type": "investigation-source",
+    "context": "January 6 Committee Report",
+    "investigation": "2020 Election Overturn Attempt",
+    "url": "https://www.justice.gov/archives/case-document/file/1617866/dl",
+    "line": 70,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/a.ts",
+    "type": "investigation-source",
+    "context": "ADL Hate Extremism & Terrorism",
+    "investigation": "Alt-Right Movement & Radicalization",
+    "url": "https://www.start.umd.edu/research-projects",
+    "line": 827,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/a.ts",
+    "type": "investigation-source",
+    "context": "ADL Hate Extremism & Terrorism",
+    "investigation": "Anti-LGBTQ Extremism",
+    "url": "https://www.start.umd.edu/research-projects",
+    "line": 932,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/a.ts",
+    "type": "investigation-source",
+    "context": "OpenSecrets: AIPAC Lobbying Profile",
+    "investigation": "AIPAC and the Foreign Lobby Machine: How Foreign-Aligned Money Buys American Policy",
+    "url": "https://efile.fara.gov/ords/fara/f?p=185:1",
+    "line": 2309,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/a.ts",
+    "type": "investigation-source",
+    "context": "FARA.gov: Foreign Agents Registration Act Database",
+    "investigation": "AIPAC and the Foreign Lobby Machine: How Foreign-Aligned Money Buys American Policy",
+    "url": "https://www.irmep.org",
+    "line": 2310,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/b.ts",
+    "type": "investigation-source",
+    "context": "House Transportation Committee Final Report on 737 MAX",
+    "investigation": "Boeing Safety Crisis",
+    "url": "https://www.justice.gov/archives/usao-ndtx/boeing",
+    "line": 1413,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/c.ts",
+    "type": "investigation-source",
+    "context": "Senate NRA Russia Investigation",
+    "investigation": "Campaign Finance Corruption",
+    "url": "https://www.justice.gov/usao-sdny/pr/imarc-llc-agrees-pay-750000-resolve-campaign-finance-investigation",
+    "line": 239,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/c.ts",
+    "type": "investigation-source",
+    "context": "Senate Intelligence Committee Torture Report Executive Summary",
+    "investigation": "CIA Interrogation Tape Destruction",
+    "url": "https://www.justice.gov/archives/opa/pr/statement-attorney-general-special-prosecutor-investigation",
+    "line": 1738,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/c.ts",
+    "type": "investigation-source",
+    "context": "Institute for Justice: Policing for Profit (3rd Edition)",
+    "investigation": "Civil Asset Forfeiture: Legalized Government Theft",
+    "url": "https://www.justice.gov/archives/afp/fund-reports",
+    "line": 5077,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/c.ts",
+    "type": "investigation-source",
+    "context": "OpenSecrets: Revolving Door Database",
+    "investigation": "The Congressional Revolving Door: Legalized Corruption in Washington",
+    "url": "https://www.pogo.org/analysis/pentagon-revolving-door",
+    "line": 5119,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/c.ts",
+    "type": "investigation-source",
+    "context": "FBI: The China Threat",
+    "investigation": "Chinese Influence Operations in the United States",
+    "url": "https://www.justice.gov/archives/nsd/information-about-department-justice-s-china-related-actions",
+    "line": 5203,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/c.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Cryptocurrency Fraud: The Unregulated Casino",
+    "url": "https://www.justice.gov/archives/usao-sdny/united-states-v-samuel-bankman-fried",
+    "line": 5246,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/c.ts",
+    "type": "investigation-source",
+    "context": "Swiss Parliamentary Investigation Commission: Credit Suisse Report",
+    "investigation": "Credit Suisse: 167-Year-Old Swiss Bank Destroyed by Decades of Scandal and Mismanagement",
+    "url": "https://www.justice.gov/archives/opa/pr/credit-suisse-agrees-pay-approximately-475-million",
+    "line": 5368,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/c.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Cryptocurrency Fraud: $40 Billion Lost to Scams, Collapses, and Regulatory Failure",
+    "url": "https://www.justice.gov/archives/usao-sdny/united-states-v-samuel-bankman-fried",
+    "line": 5407,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/d.ts",
+    "type": "investigation-source",
+    "context": "ADL Hate Extremism & Terrorism",
+    "investigation": "Domestic Extremism: America\\",
+    "url": "https://www.start.umd.edu/research-projects",
+    "line": 514,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/d.ts",
+    "type": "investigation-source",
+    "context": "ADL Murder & Extremism Report",
+    "investigation": "Domestic Terrorism in America",
+    "url": "https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-091721",
+    "line": 564,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/d.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Defense Contractor Fraud and Waste",
+    "url": "https://www.justice.gov/archives/civil/fraud-statistics",
+    "line": 1406,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/d.ts",
+    "type": "investigation-source",
+    "context": "National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling",
+    "investigation": "Deepwater Horizon BP Disaster",
+    "url": "https://www.justice.gov/archives/opa/pr/bp-exploration-and-production-inc-agrees-plead-guilty-felony-manslaughter",
+    "line": 2128,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/e.ts",
+    "type": "investigation-source",
+    "context": "Epstein Court Documents",
+    "investigation": "Elite Pedophile Networks",
+    "url": "https://www.justice.gov/usao-sdny-sex-trafficking-minor",
+    "line": 537,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/e.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "El Paso Walmart Massacre",
+    "url": "https://www.justice.gov/archives/opa/pr/texas-man-charged-90-count-federal-indictment-mass-shooting-el-paso",
+    "line": 815,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/e.ts",
+    "type": "investigation-source",
+    "context": "Federal Hate Crimes Indictment",
+    "investigation": "El Paso Walmart Massacre",
+    "url": "https://www.elpasotimes.com/story/news/crime/2019/08/03/el-paso-walmart-shooting-victims/1934369001/",
+    "line": 816,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/e.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "El Paso Walmart Massacre",
+    "url": "https://www.justice.gov/archives/opa/pr/el-paso-walmart-mass-shooter-pleads-guilty-90-federal-charges",
+    "line": 1707,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/e.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Emirati Influence Operations in American Politics",
+    "url": "https://www.justice.gov/archives/opa/pr/chairman-former-president-s-2017-inaugural-committee-charged-acting-agent-united-arab",
+    "line": 1933,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/e.ts",
+    "type": "investigation-source",
+    "context": "DOJ: United States v. Thomas Barrack et al.",
+    "investigation": "Emirati Influence Operations in American Politics",
+    "url": "https://efile.fara.gov/ords/fara/f?p=185:1",
+    "line": 1934,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/e.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Elizabeth Holmes and Theranos: Silicon Valley\\",
+    "url": "https://www.justice.gov/usao-ndca/pr/theranos-founder-elizabeth-holmes-sentenced-more-11-years-defrauding-investors",
+    "line": 2145,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/e.ts",
+    "type": "investigation-source",
+    "context": "Kff Records",
+    "investigation": "Emergency Room Surprise Billing",
+    "url": "https://www.commonwealthfund.org/publications/issue-briefs/2023/no-surprises-act-implementation",
+    "line": 2293,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/f.ts",
+    "type": "investigation-source",
+    "context": "Flynn FARA Registration",
+    "investigation": "Foreign Agent Registration Violations",
+    "url": "https://www.justice.gov/usao-edny/press-release/file/1413966/download",
+    "line": 146,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/f.ts",
+    "type": "investigation-source",
+    "context": "Trump-Rosen Call Notes",
+    "investigation": "Federal Election Interference",
+    "url": "https://www.justice.gov/archives/case-document/file/1617866/dl",
+    "line": 287,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/f.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Trump Federal Election Conspiracy Charges",
+    "url": "https://www.justice.gov/archives/case-document/file/1617866/dl",
+    "line": 380,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/f.ts",
+    "type": "investigation-source",
+    "context": "ADL Hate Extremism & Terrorism",
+    "investigation": "The Far-Right Movement in America: From Fringe to Mainstream",
+    "url": "https://www.start.umd.edu/research-projects",
+    "line": 685,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/f.ts",
+    "type": "investigation-source",
+    "context": "New York Attorney General: Fake Comments Investigation",
+    "investigation": "FCC Telecom Regulatory Capture: How the Industry Wrote Its Own Rules",
+    "url": "https://ilsr.org/broadband-competition-map/",
+    "line": 2309,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/g.ts",
+    "type": "investigation-source",
+    "context": "NY Times Original Investigation",
+    "investigation": "Matt Gaetz Sex Trafficking Investigation",
+    "url": "https://www.justice.gov/usao-mdfl/pr/former-seminole-county-tax-collector-pleads-guilty-sex-trafficking-minor-and-other",
+    "line": 230,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/g.ts",
+    "type": "investigation-source",
+    "context": "January 6 Committee Report, Green Bay Sweep",
+    "investigation": "Green Bay Sweep",
+    "url": "https://www.justice.gov/archives/case-document/file/1617866/dl",
+    "line": 374,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/g.ts",
+    "type": "investigation-source",
+    "context": "AP Exact Match Investigation",
+    "investigation": "Georgia Voter Suppression",
+    "url": "https://www.justice.gov/archives/opa/press-release/file/1413931/download",
+    "line": 812,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/g.ts",
+    "type": "investigation-source",
+    "context": "DOD Inspector General Audit Reports",
+    "investigation": "Government Contract Fraud Patterns",
+    "url": "https://www.justice.gov/archives/civil/fraud-statistics",
+    "line": 1420,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/g.ts",
+    "type": "investigation-source",
+    "context": "Court Documents: State v. Chauvin",
+    "investigation": "George Floyd Murder & Racial Justice Uprising",
+    "url": "https://www.justice.gov/archives/crt/case/united-states-v-city-minneapolis",
+    "line": 1516,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/g.ts",
+    "type": "investigation-source",
+    "context": "Giffords Records",
+    "investigation": "Gun Industry Liability Shield",
+    "url": "https://www.bradyunited.org/reports/the-impact-of-plcaa",
+    "line": 1952,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/h.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Holodomor - Ukrainian Genocide by Famine",
+    "url": "https://old.uinp.gov.ua/page/holodomor-1932-1933",
+    "line": 849,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/h.ts",
+    "type": "investigation-source",
+    "context": "DCAA: Audit Reports on KBR LOGCAP Contracts",
+    "investigation": "Halliburton and KBR Military Contractor Fraud",
+    "url": "https://www.justice.gov/archives/civil/fraud-statistics",
+    "line": 938,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/i.ts",
+    "type": "investigation-source",
+    "context": "Coalition Against Insurance Fraud",
+    "investigation": "Insurance Fraud Organized Networks",
+    "url": "https://www.fbi.gov/investigate/white-collar-crime/insurance-fraud",
+    "line": 1127,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/j.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Judicial Capture by Federalist Society",
+    "url": "https://www.americanprogress.org/article/the-federalist-society/",
+    "line": 29,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/k.ts",
+    "type": "investigation-source",
+    "context": "Video Evidence Compilation",
+    "investigation": "Kenosha Shootings",
+    "url": "https://www.justice.gov/archives/opa/pr/federal-investigation-kenosha-wisconsin-police-shooting-jacob-blake",
+    "line": 243,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/k.ts",
+    "type": "investigation-source",
+    "context": "Ncpa Records",
+    "investigation": "Pharmacy Benefit Manager Kickback Schemes",
+    "url": "https://www.commonwealthfund.org/publications/explainer/2023/pharmacy-benefit-managers-and-their-role-drug-spending",
+    "line": 519,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/l.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "COVID-19 Lab Leak Theory",
+    "url": "https://www.fbi.gov/news/testimony/worldwide-threats-to-the-homeland-2023",
+    "line": 29,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/l.ts",
+    "type": "investigation-source",
+    "context": "The Swamp, Eric Lipton",
+    "investigation": "K Street: The Corruption Industry",
+    "url": "https://lobbyingdisclosure.house.gov/",
+    "line": 127,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/l.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Laquan McDonald Murder",
+    "url": "https://www.justice.gov/archives/crt/file/925846/download",
+    "line": 211,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/l.ts",
+    "type": "investigation-source",
+    "context": "LVMPD Final Report",
+    "investigation": "Las Vegas Mass Shooting",
+    "url": "https://www.fbi.gov/file-repository/las-vegas-shooting-summary-of-findings.pdf/",
+    "line": 584,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/l.ts",
+    "type": "investigation-source",
+    "context": "Reuters: Timeline of the LIBOR Scandal",
+    "investigation": "LIBOR Rate Manipulation Scandal",
+    "url": "https://www.justice.gov/archives/criminal-fraud/libor-investigation",
+    "line": 619,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/m.ts",
+    "type": "investigation-source",
+    "context": "ADL Hate Extremism & Terrorism",
+    "investigation": "Media Radicalization: The Pipeline from Mainstream to Extremism",
+    "url": "https://www.start.umd.edu/research-projects",
+    "line": 569,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/m.ts",
+    "type": "investigation-source",
+    "context": "ADL Hate Extremism & Terrorism",
+    "investigation": "America\\",
+    "url": "https://www.start.umd.edu/research-projects",
+    "line": 911,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/m.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Music Industry Abuse",
+    "url": "https://www.justice.gov/usao-edny/pr/r-singer-r-kelly-convicted-racketeering-and-sex-trafficking",
+    "line": 1111,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/m.ts",
+    "type": "investigation-source",
+    "context": "United States v. Robert Sylvester Kelly: Conviction",
+    "investigation": "Music Industry Abuse",
+    "url": "https://www.justice.gov/usao-sdny/pr/sean-combs-charged-sex-trafficking",
+    "line": 1112,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/m.ts",
+    "type": "investigation-source",
+    "context": "U.S. Right to Know: Monsanto Papers",
+    "investigation": "Monsanto Roundup Cancer Coverup",
+    "url": "https://www.courthousenews.com/wp-content/uploads/2018/08/Monsanto.pdf/",
+    "line": 2032,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/m.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Martin Shkreli: ",
+    "url": "https://www.justice.gov/usao-edny/pr/martin-shkreli-sentenced-seven-years-imprisonment",
+    "line": 2107,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/n.ts",
+    "type": "investigation-source",
+    "context": "National Human Trafficking Hotline Data",
+    "investigation": "NXIVM: The Sex Cult Disguised as a Self-Help Organization",
+    "url": "https://www.justice.gov/archives/criminal/criminal-ceos/human-trafficking-prosecution-unit-htpu",
+    "line": 453,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/n.ts",
+    "type": "investigation-source",
+    "context": "AIBRT: Search Engine Manipulation Effect Research",
+    "investigation": "Narrative Control Through Search Algorithms",
+    "url": "https://www.justice.gov/archives/atr/case/us-and-plaintiff-states-v-google-llc-2020",
+    "line": 652,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/n.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "North Korean Political Prison Camps (Kwanliso)",
+    "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/commission-inquiry-on-hr-in-dprk",
+    "line": 813,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/n.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "NSA Warrantless Wiretapping: From Stellar Wind to Section 702",
+    "url": "https://www.pclob.gov/library/702-Report-2.pdf",
+    "line": 892,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/o.ts",
+    "type": "investigation-source",
+    "context": "ADL Hate Extremism & Terrorism",
+    "investigation": "Oath Keepers: From Military Veterans Group to Seditious Conspiracy",
+    "url": "https://www.start.umd.edu/research-projects",
+    "line": 24,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/o.ts",
+    "type": "investigation-source",
+    "context": "DOJ Review of Strauss Allegations",
+    "investigation": "Ohio State University Abuse",
+    "url": "https://www.dispatch.com/story/news/courts/2023/03/06/ohio-state-strauss-abuse-settlement/69967291007/",
+    "line": 109,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/o.ts",
+    "type": "investigation-source",
+    "context": "ADL Hate Extremism & Terrorism",
+    "investigation": "Oklahoma City Bombing: America\\",
+    "url": "https://www.start.umd.edu/research-projects",
+    "line": 152,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "SEC Penny Stock Fraud Alerts",
+    "investigation": "Penny Stock Fraud and Pump-and-Dump Schemes",
+    "url": "https://www.fbi.gov/investigate/white-collar-crime/securities-and-commodities-fraud",
+    "line": 692,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Tom Petters $3.7 Billion Ponzi Scheme",
+    "url": "https://www.justice.gov/archives/usao/mn/press/petters.html",
+    "line": 728,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Political Fraud and Campaign Finance Crimes",
+    "url": "https://www.justice.gov/usao-edny/pr/congressman-george-santos-charged-fraud-money-laundering-and-theft-public-funds",
+    "line": 1278,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "Capitol Police Threat Assessment Data",
+    "investigation": "Political Violence in America",
+    "url": "https://www.justice.gov/usao-dc/pr/oath-keepers-leader-found-guilty-seditious-conspiracy",
+    "line": 1445,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Predatory Lending and Financial Exploitation",
+    "url": "https://www.justice.gov/archives/opa/pr/department-justice-reaches-settlement-wells-fargo-resulting-more-175-million-relief",
+    "line": 1535,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "CFPB Payday Lending Report",
+    "investigation": "Predatory Lending Systematic Exploitation",
+    "url": "https://www.justice.gov/archives/crt/fair-lending",
+    "line": 2054,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "FINRA Investor Alerts",
+    "investigation": "Penny Stock Pump and Dump Networks",
+    "url": "https://www.fbi.gov/investigate/white-collar-crime/securities-and-commodities-fraud",
+    "line": 2090,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "Reuters: Shielded by Qualified Immunity (Investigative Series)",
+    "investigation": "Police Qualified Immunity and Systemic Brutality",
+    "url": "https://www.justice.gov/archives/crt/special-litigation-section-cases-and-matters/pattern-or-practice",
+    "line": 3656,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "Amnesty International: Leonard Peltier Case",
+    "investigation": "Pine Ridge Reign of Terror: FBI, COINTELPRO, and the War Against the American Indian Movement",
+    "url": "https://vault.fbi.gov/american-indian-movement",
+    "line": 3766,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/p.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Purdue Pharma and the Sackler Family: Architects of the Opioid Epidemic",
+    "url": "https://www.justice.gov/archives/opa/pr/opioid-manufacturer-purdue-pharma-pleads-guilty-federal-charges",
+    "line": 3809,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/r.ts",
+    "type": "investigation-source",
+    "context": "Senate Intelligence Committee Russia Report (Volume 5)",
+    "investigation": "Russia Investigation Overview",
+    "url": "https://www.justice.gov/archives/page/file/1371346/download",
+    "line": 455,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/r.ts",
+    "type": "investigation-source",
+    "context": "Senate Intelligence Committee Volume 5: Counterintelligence Threats",
+    "investigation": "Russian Election Interference 2016",
+    "url": "https://www.justice.gov/archives/file/1080281/dl",
+    "line": 502,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/r.ts",
+    "type": "investigation-source",
+    "context": "DOJ Indictment of 12 GRU Officers",
+    "investigation": "Russian Election Interference 2016",
+    "url": "https://www.justice.gov/archives/file/1035477/dl",
+    "line": 503,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/r.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "R. Kelly Sex Crimes",
+    "url": "https://www.justice.gov/usao-edny/pr/r-kelly-convicted-racketeering-and-sex-trafficking",
+    "line": 554,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/r.ts",
+    "type": "investigation-source",
+    "context": "Jim DeRogatis: Soulless: The Case Against R. Kelly",
+    "investigation": "R. Kelly Sex Crimes",
+    "url": "https://www.justice.gov/usao-edny/press-release/file/1187041/dl",
+    "line": 556,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/r.ts",
+    "type": "investigation-source",
+    "context": "POGO: Revolving Door Reports",
+    "investigation": "Revolving Door Lobbyist Pipeline",
+    "url": "https://lobbyingdisclosure.house.gov",
+    "line": 1191,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/s.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Domestic Sex Trafficking Operations",
+    "url": "https://www.justice.gov/usao-mdfl/pr/former-seminole-county-tax-collector-pleads-guilty-sex-trafficking-minor-and-other",
+    "line": 163,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/s.ts",
+    "type": "investigation-source",
+    "context": "Cohen Guilty Plea",
+    "investigation": "Stormy Daniels Hush Money Scheme",
+    "url": "https://www.justice.gov/usao-sdny/press-release/file/1119151/download",
+    "line": 470,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/s.ts",
+    "type": "investigation-source",
+    "context": "UNCTAD, Sovereign Debt Workouts",
+    "investigation": "Sovereign Debt Exploitation",
+    "url": "https://thenewpress.com/books/shock-doctrine",
+    "line": 626,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/s.ts",
+    "type": "investigation-source",
+    "context": "Joint Inquiry into Intelligence Activities (28 Pages)",
+    "investigation": "September 11 Attacks & Accountability Failures",
+    "url": "https://vault.fbi.gov/9-11-attacks-investigation",
+    "line": 1215,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/s.ts",
+    "type": "investigation-source",
+    "context": "National Human Trafficking Hotline Data",
+    "investigation": "Sex Trafficking: A Multi-Billion Dollar Criminal Enterprise",
+    "url": "https://www.justice.gov/archives/criminal/criminal-ceos/human-trafficking-prosecution-unit-htpu",
+    "line": 1308,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/s.ts",
+    "type": "investigation-source",
+    "context": "CIA Assessment: MBS Ordered Khashoggi Killing (ODNI Declassified Report)",
+    "investigation": "Saudi Influence on American Politics and Policy",
+    "url": "https://efile.fara.gov/ords/fara/f?p=185:1",
+    "line": 2800,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/s.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Stanford Financial: $7 Billion Ponzi Scheme Hidden Behind Fake Caribbean Bank",
+    "url": "https://www.justice.gov/archives/criminal-fraud/case/united-states-v-robert-allen-stanford",
+    "line": 2951,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/t.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Theranos: Billion Dollar Blood Testing Fraud",
+    "url": "https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-convicted-investor-fraud",
+    "line": 2259,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/t.ts",
+    "type": "investigation-source",
+    "context": "NHTSA: Takata Airbag Recalls",
+    "investigation": "Takata Airbag Scandal: Defective Inflators Turned Safety Devices Into Fragmentation Grenades",
+    "url": "https://www.justice.gov/archives/opa/pr/takata-corporation-agrees-plead-guilty-and-pay-1-billion",
+    "line": 2335,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/t.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Big Tech Monopoly Power and Antitrust Enforcement Failures",
+    "url": "https://www.justice.gov/archives/atr/case/us-and-plaintiff-states-v-google-llc-2020",
+    "line": 2455,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/t.ts",
+    "type": "investigation-source",
+    "context": "untitled source",
+    "investigation": "Ticketmaster/Live Nation Monopoly and Consumer Exploitation",
+    "url": "https://www.justice.gov/archives/atr/case/us-v-live-nation-entertainment-inc-and-ticketmaster",
+    "line": 2495,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/u.ts",
+    "type": "investigation-source",
+    "context": "Washington Post, Kushner-MBZ Relationship",
+    "investigation": "UAE Influence Operations",
+    "url": "https://efile.fara.gov/ords/fara/f?p=1235:10:0::NO:RP,10:P10_COUNTRY:UNITED%20ARAB%20EMIRATES",
+    "line": 147,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/v.ts",
+    "type": "investigation-source",
+    "context": "EPA: Volkswagen Light Duty Diesel Vehicle Violations",
+    "investigation": "Volkswagen Diesel Emissions Fraud",
+    "url": "https://www.justice.gov/archives/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties",
+    "line": 655,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/w.ts",
+    "type": "investigation-source",
+    "context": "SEC: WorldCom Fraud Case",
+    "investigation": "WorldCom: $11 Billion Accounting Fraud That Destroyed Telecom Giant",
+    "url": "https://www.justice.gov/archives/dag/corporate-fraud-task-force",
+    "line": 1627,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "investigations/y.ts",
+    "type": "investigation-source",
+    "context": "ADL Hate Extremism & Terrorism",
+    "investigation": "YouTube\\",
+    "url": "https://www.start.umd.edu/research-projects",
+    "line": 68,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "individuals/b.ts",
+    "type": "individual-source",
+    "context": "untitled source",
+    "individual": "Byron De La Beckwith",
+    "url": "https://www.mshistorynow.mdah.ms.gov/issue/medgar-evers-and-the-civil-rights-movement",
+    "line": 4258,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "individuals/k.ts",
+    "type": "individual-source",
+    "context": "untitled source",
+    "individual": "Kim Jong-il",
+    "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/commission-inquiry-on-hr-in-dprk",
+    "line": 3361,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  },
+  {
+    "file": "individuals/k.ts",
+    "type": "individual-source",
+    "context": "untitled source",
+    "individual": "Kim Jong-un",
+    "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/commission-inquiry-on-hr-in-dprk",
+    "line": 3410,
+    "issue": "HTTP 404",
+    "httpStatus": 404
+  }
+]

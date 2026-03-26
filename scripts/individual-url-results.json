@@ -1,0 +1,6769 @@
+[
+  {
+    "url": "https://www.manhattanda.org/district-attorney-bragg-announces-guilty-plea-of-allen-weisselberg/",
+    "status": 301
+  },
+  {
+    "url": "https://www.reuters.com/legal/former-trump-organization-cfo-weisselberg-plead-guilty-perjury-2024-03-04/",
+    "status": 401
+  },
+  {
+    "url": "https://www.niaid.nih.gov",
+    "status": 200
+  },
+  {
+    "url": "https://oversight.house.gov",
+    "status": 200
+  },
+  {
+    "url": "https://web.archive.org/web/2024/https://www.justice.gov/file/1071991/download",
+    "status": 302
+  },
+  {
+    "url": "https://www.courtlistener.com/",
+    "status": 200
+  },
+  {
+    "url": "https://fake-url",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND fake-url"
+  },
+  {
+    "url": "https://another-url",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND another-url"
+  },
+  {
+    "url": "https://www.washingtonpost.com/politics/andrew-mccabe/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.cnn.com/2017/05/10/politics/andrew-mccabe-fbi-director/",
+    "status": 403
+  },
+  {
+    "url": "https://www.nytimes.com/2018/02/14/us/politics/mccabe-fbi-leaks.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.wsj.com/articles/mccabes-troubles-at-the-fbi-1518793600",
+    "status": 401
+  },
+  {
+    "url": "https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/",
+    "status": 301
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Channel%204%20Undercover%20Investigation",
+    "status": 200
+  },
+  {
+    "url": "https://www.washingtonpost.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Amalija%20Knavs%20Obituary",
+    "status": 200
+  },
+  {
+    "url": "https://www.miamiherald.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20OPR%20Investigation",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=HHS%20COVID%20Timeline",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Giuffre%20Allegations",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Epstein%20Flight%20Logs",
+    "status": 200
+  },
+  {
+    "url": "https://www.congress.gov/",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alex_Jones",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2022/10/12/us/alex-jones-sandy-hook-damages.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.govinfo.gov/collection/january-6th-committee-final-report",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alexander_Torshin",
+    "status": 200
+  },
+  {
+    "url": "https://home.treasury.gov/news/press-releases/sm0338",
+    "status": 200
+  },
+  {
+    "url": "https://www.finance.senate.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/russian-national-pleads-guilty-conspiracy",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Anthony_Scaramucci",
+    "status": 200
+  },
+  {
+    "url": "https://www.newyorker.com/news/ryan-lizza/anthony-scaramucci-called-me-to-unload-about-white-house-leakers",
+    "status": 404
+  },
+  {
+    "url": "https://www.manhattanda.org/da-bragg-announces-34-count-felony-trial-conviction-of-donald-j-trump/",
+    "status": 301
+  },
+  {
+    "url": "https://www.nytimes.com/2021/11/02/nyregion/alvin-bragg-manhattan-da.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Aileen_Cannon",
+    "status": 200
+  },
+  {
+    "url": "https://www.ca11.uscourts.gov",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alina_Habba",
+    "status": 200
+  },
+  {
+    "url": "https://www.reuters.com",
+    "status": 401
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Arthur_Engoron",
+    "status": 200
+  },
+  {
+    "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-wins-landmark-victory-fraud-case-against-donald-trump",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Aras_Agalarov",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/archives/sco/file/1373816/dl",
+    "status": 200
+  },
+  {
+    "url": "https://www.judiciary.senate.gov",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Adam_Kinzinger",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andy_Biggs",
+    "status": 200
+  },
+  {
+    "url": "https://abcnews.go.com/US/ali-alexander-gop-congressmen-helped-plan-jan-rally/story",
+    "status": 301
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Amy_Berman_Jackson",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/archives/sco/case/united-states-v-roger-jason-stone-jr",
+    "status": 200
+  },
+  {
+    "url": "https://www.npr.org/2020/02/20/807648749",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/A.J._Delgado",
+    "status": 200
+  },
+  {
+    "url": "https://splinternews.com",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andrew_R._Wheeler",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2018/07/05/climate/andrew-wheeler-epa.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.propublica.org/series/the-epa-under-trump",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/We_Build_the_Wall",
+    "status": 200
+  },
+  {
+    "url": "https://www.senate.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.usip.org/publications/1991/02/truth-commission-chile-90",
+    "status": 503
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Valech%20Commission%20Report%20on%20Torture",
+    "status": 200
+  },
+  {
+    "url": "https://nsarchive.gwu.edu/project/chile-documentation-project",
+    "status": 200
+  },
+  {
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB416/",
+    "status": 200
+  },
+  {
+    "url": "https://nsarchive.gwu.edu/briefing-book/chile/2016-09-20/letelier-moffitt-assassination-40th-anniversary",
+    "status": 404
+  },
+  {
+    "url": "https://publications.parliament.uk/pa/ld199899/ldjudgmt/jd990324/pino1.htm",
+    "status": 403
+  },
+  {
+    "url": "https://hsgac.senate.gov/subcommittees/investigations/hearings/money-laundering-and-foreign-corruption-enforcement-and-effectiveness-of-the-patriot-act-case-study-involving-riggs-bank",
+    "status": 301
+  },
+  {
+    "url": "https://www.goodreads.com/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=David%20Talbot%20-%22The%20Devil%27s%20Chessboard%22",
+    "status": 200
+  },
+  {
+    "url": "https://www.cia.gov/readingroom/",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Warren%20Commission%20Records",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Bush%20v.%20Gore%20(531%20U.S.%2098)",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=The%20Blood%20Telegram%20(declassified)",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Gary%20Bass%20-%22The%20Blood%20Telegram%22",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ali_Khamenei",
+    "status": 200
+  },
+  {
+    "url": "https://nsarchive.gwu.edu/",
+    "status": 200
+  },
+  {
+    "url": "https://www.militarytimes.com/",
+    "status": 200
+  },
+  {
+    "url": "https://www.miamiherald.com/topics/jeffrey-epstein",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.cjr.org/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andy_Coulson",
+    "status": 200
+  },
+  {
+    "url": "https://www.opensecrets.org/",
+    "status": 403
+  },
+  {
+    "url": "https://transportation.house.gov/committee-activity/boeing-737-max-702702702702702702702702702702702702702702702702702702702702702702702702702702",
+    "status": 301
+  },
+  {
+    "url": "https://www.oig.dot.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2019/07/27/business/boeing-737-max-faa.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/RTX_Corporation",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Adam_Smith_(politician)",
+    "status": 200
+  },
+  {
+    "url": "https://www.opensecrets.org/members-of-congress/adam-smith",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alan_Joyce",
+    "status": 200
+  },
+  {
+    "url": "https://www.accc.gov.au/media-release/accc-alleges-qantas-sold-tickets-for-cancelled-flights",
+    "status": 404
+  },
+  {
+    "url": "https://www.abc.net.au/news/qantas-grounding",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Akbar_Al_Baker",
+    "status": 200
+  },
+  {
+    "url": "https://www.bbc.com/news/business-44362943",
+    "status": 404
+  },
+  {
+    "url": "https://www.reuters.com/business/aerospace-defense/qatar-airways-ceo-akbar-al-baker-removed",
+    "status": 401
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Adnaan_Stumo",
+    "status": 404
+  },
+  {
+    "url": "https://apnews.com/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alaska_Airlines_261_Victims",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Allen_Stanford",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/r-allen-stanford-sentenced-110-years-prison",
+    "status": 404
+  },
+  {
+    "url": "https://www.sec.gov/litigation/litreleases/2009/lr20901.htm",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andy_Jassy",
+    "status": 200
+  },
+  {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2023/09/ftc-sues-amazon-illegally-maintaining-monopoly-power",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Juul",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2023/04/12/health/juul-settlement-states.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.fda.gov/tobacco-products/youth-and-tobacco/results-annual-national-youth-tobacco-survey",
+    "status": 301
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alex_Gorsky",
+    "status": 200
+  },
+  {
+    "url": "https://www.reuters.com/investigates/special-report/johnsonandjohnson-cancer/",
+    "status": 401
+  },
+  {
+    "url": "https://www.nytimes.com/2023/04/04/business/johnson-johnson-talc-bankruptcy.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Albert_Bourla",
+    "status": 200
+  },
+  {
+    "url": "https://www.bloomberg.com/",
+    "status": 403
+  },
+  {
+    "url": "https://www.statnews.com/",
+    "status": 200
+  },
+  {
+    "url": "https://www.law.com/",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andrew_Witty",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alexander_Lukashenko",
+    "status": 200
+  },
+  {
+    "url": "https://www.hrw.org/europe/central-asia/belarus",
+    "status": 200
+  },
+  {
+    "url": "https://www.icao.int/Security/Pages/RyanairFR4978.aspx",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Murder_of_Botham_Jean",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2019/10/01/us/amber-guyger-trial-verdict-botham-jean.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Abdel_Fattah_el-Sisi",
+    "status": 200
+  },
+  {
+    "url": "https://www.hrw.org/report/2014/08/12/all-according-plan/raba-massacre-and-mass-killings-protesters-egypt",
+    "status": 200
+  },
+  {
+    "url": "https://www.washingtonpost.com",
+    "status": "timeout"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Adam_Neumann",
+    "status": 200
+  },
+  {
+    "url": "https://www.wsj.com/articles/wework-ipo-is-pulled-11569363993",
+    "status": 401
+  },
+  {
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=wework&CIK=&type=S-1",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Anna_Sorokin",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/news",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andrew_Tate",
+    "status": 200
+  },
+  {
+    "url": "https://www.bbc.com/news/world-europe-69158498",
+    "status": 404
+  },
+  {
+    "url": "https://www.reuters.com/world/europe/romania-indicts-andrew-tate-human-trafficking-rape-2024-06-19/",
+    "status": 401
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Anna_Paulina_Luna",
+    "status": 200
+  },
+  {
+    "url": "https://www.washingtonpost.com/politics/2023/06/14/anna-paulina-luna-biography-fabrication/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://floridapolitics.com/archives/tag/anna-paulina-luna/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andy_Ngo",
+    "status": 200
+  },
+  {
+    "url": "https://www.portlandmercury.com/blogtown/2019/08/26/27039560/undercover-in-patriot-prayer-insights-from-a-vancouver-democrat-who-infiltrated-the-far-right-group",
+    "status": 307
+  },
+  {
+    "url": "https://www.cjr.org/special_report/andy-ngo-next-generation.php",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Anthony_Weiner",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/anthony-weiner-sentenced-21-months-prison",
+    "status": 200
+  },
+  {
+    "url": "https://fivethirtyeight.com/features/the-comey-letter-probably-cost-clinton-the-election/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Anwar_al-Awlaki",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2012/05/29/world/obamas-leadership-in-war-on-al-qaeda.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.aclu.org/cases/al-aulaqi-v-obama-targetted-killing",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Abdulrahman_al-Awlaki",
+    "status": 200
+  },
+  {
+    "url": "https://www.theatlantic.com/politics/archive/2012/10/how-team-obama-justifies-the-killing-of-a-16-year-old-american/264028/",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2013/12/13/world/middleeast/drone-strike-in-yemen-hits-wedding-party-killing-11.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Abu_Zubaydah",
+    "status": 200
+  },
+  {
+    "url": "https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf",
+    "status": 301
+  },
+  {
+    "url": "https://www.supremecourt.gov/opinions/21pdf/20-827_i426.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ahmad_Chalabi",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2015/11/04/world/middleeast/ahmad-chalabi-iraq-dead.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.pbs.org/wgbh/frontline/article/the-dark-side/",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alan_Greenspan",
+    "status": 200
+  },
+  {
+    "url": "https://www.pbs.org/wgbh/frontline/documentary/warning/",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2008/10/24/business/economy/24panel.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alfredo_Stroessner",
+    "status": 200
+  },
+  {
+    "url": "https://nsarchive.gwu.edu/project/paraguay-documentation-project",
+    "status": 404
+  },
+  {
+    "url": "https://www.nytimes.com/2006/08/16/world/americas/16stroessner.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andrew_Jackson",
+    "status": 200
+  },
+  {
+    "url": "https://www.smithsonianmag.com/history/the-cherokee-trail-of-tears-180953166/",
+    "status": 403
+  },
+  {
+    "url": "https://www.history.com/topics/native-american-history/trail-of-tears",
+    "status": 301
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Angelo_Mozilo",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/news/press/2010/2010-197.htm",
+    "status": 403
+  },
+  {
+    "url": "https://www.nytimes.com/2008/06/07/business/07mozilo.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Anthony_Kennedy",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2018/06/28/us/politics/trump-anthony-kennedy-retirement.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.businessinsider.com/anthony-kennedy-son-loaned-president-trump-over-a-billion-dollars-2018-6",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Antonio_Taguba",
+    "status": 200
+  },
+  {
+    "url": "https://www.newyorker.com/magazine/2007/06/25/the-generals-report",
+    "status": 200
+  },
+  {
+    "url": "https://www.thetorturedatabase.org/files/foia_subsite/pdfs/THETAGUBARE.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Abdel_Hakim_Belhaj",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Abdur-Rahman_Muhammad",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Abigail_Echo-Hawk",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Abolhassan_Banisadr",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Abraham_Zapruder",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Adam_Lanza",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Adam_Malik",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Addison_Yeaman",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Aiyana_Stanley-Jones",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/A.J._Smitherman",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Akua_Njeri)",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alan_Fiers",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alan_Mann",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Norfolk_Southern)",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Albert_Lord",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Albert_Woodfox",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Aldo_Moro",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alex_Karp",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alexander_Haig",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alfredo_Cristiani",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alice_Hamilton",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Allan_Nairn",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Allan_Pinkerton",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alvin_Young",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Amir_Locke",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Amy_Gutmann",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Anders_Fogh_Rasmussen",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andrew_Carnegie",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andrew_Fastow",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andrew_Madoff",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2014/09/04/business/andrew-madoff-son-of-disgraced-financier-dies-at-48.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Andrew_Tisch",
+    "status": 200
+  },
+  {
+    "url": "https://tisch.nyu.edu",
+    "status": 200
+  },
+  {
+    "url": "https://www.sovereign-bodies.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.pbs.org/wgbh/pages/frontline/shows/ghosts/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Anthony_Ray_Hinton",
+    "status": 200
+  },
+  {
+    "url": "https://eji.org/cases/anthony-ray-hinton/",
+    "status": 200
+  },
+  {
+    "url": "https://www.supremecourt.gov/opinions/13pdf/13-6440_ap6b.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://www.nytimes.com/2015/04/04/us/anthony-ray-hinton-alabama-death-row-freed.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.nytimes.com",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ari_Ben-Menashe",
+    "status": 200
+  },
+  {
+    "url": "https://www.ed.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.courtlistener.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.southernstudies.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.newyorker.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.archives.gov",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Arthur_Rudolph",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Arthur_M._Sackler",
+    "status": 200
+  },
+  {
+    "url": "https://cafee.wvu.edu",
+    "status": 301
+  },
+  {
+    "url": "https://www.washingtonpost.com/graphics/2019/investigations/afghanistan-papers/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Guatemala_syphilis_experiments",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alec_Baldwin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Audrey_Strauss",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Alfredo_Rodriguez",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Antony_Blinken",
+    "status": 200
+  },
+  {
+    "url": "https://www.propublica.org/article/blinken-rejected-state-department-findings-israel-blocking-aid-gaza",
+    "status": 404
+  },
+  {
+    "url": "https://www.nytimes.com/2020/11/28/us/politics/biden-westexec.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.archives.gov/research/alic/reference/presidents/lincoln.html",
+    "status": 301
+  },
+  {
+    "url": "https://intelligence.house.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-edny/pr/television-actress-allison-mack-sentenced-3-years-prison-racketeering-conspiracy",
+    "status": 200
+  },
+  {
+    "url": "https://www.whitehouse.gov/briefing-room/speeches-remarks/2022/08/01/remarks-by-president-biden-on-a-successful-counterterrorism-operation-in-afghanistan/",
+    "status": 404
+  },
+  {
+    "url": "https://www.bbc.com/news/world-middle-east",
+    "status": 404
+  },
+  {
+    "url": "https://www.theguardian.com/books/arundhatiroy",
+    "status": 200
+  },
+  {
+    "url": "https://www.hrw.org/news/2009/04/07/peru-fujimori-convicted-rights-abuses",
+    "status": 404
+  },
+  {
+    "url": "https://www.forbes.com/profile/abigail-johnson/",
+    "status": 200
+  },
+  {
+    "url": "https://www.aclu.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.oig.dhs.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.worldbank.org/en/about/president",
+    "status": 301
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Anderson_Cooper",
+    "status": 200
+  },
+  {
+    "url": "https://apnews.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.un.org/sg/",
+    "status": 301
+  },
+  {
+    "url": "https://www.treasury.gov",
+    "status": 301
+  },
+  {
+    "url": "https://www.help.senate.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.uhrc.ug/",
+    "status": "error",
+    "error": "read ECONNRESET"
+  },
+  {
+    "url": "https://www.icc-cpi.int/darfur/albashir",
+    "status": 403
+  },
+  {
+    "url": "https://www.un.org/en/chronicle/article/report-international-commission-inquiry-darfur",
+    "status": 404
+  },
+  {
+    "url": "https://www.judiciary.senate.gov/press/dem/releases/doj-report-on-us-attorney-firings",
+    "status": 302
+  },
+  {
+    "url": "https://ag.ny.gov/press-release/2021/attorney-general-james-releases-report-independent-investigation-governor-cuomo",
+    "status": 404
+  },
+  {
+    "url": "https://www.fcc.gov/restoring-internet-freedom",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.justice.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/litigation/complaints/",
+    "status": 403
+  },
+  {
+    "url": "https://cases.stretto.com/celsius/",
+    "status": 200
+  },
+  {
+    "url": "https://violationtracker.goodjobsfirst.org/",
+    "status": 200
+  },
+  {
+    "url": "https://www.nejm.org/doi/full/10.1056/NEJM197104222841604",
+    "status": 403
+  },
+  {
+    "url": "https://www.gatesfoundation.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.congress.gov",
+    "status": 403
+  },
+  {
+    "url": "https://www.pacer.gov",
+    "status": 301
+  },
+  {
+    "url": "https://www.documentcloud.org",
+    "status": 307
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/leaders-we-build-wall-online-fundraising-campaign-charged-defrauding-hundreds-thousands",
+    "status": 200
+  },
+  {
+    "url": "https://www.cnn.com/2021/01/03/politics/trump-brad-raffensperger-phone-call-transcript/index.html",
+    "status": 200
+  },
+  {
+    "url": "https://www.amazon.com/Integrity-Counts-Brad-Raffensperger/dp/1982183403",
+    "status": 200
+  },
+  {
+    "url": "https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://www.ignet.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=NYU%20Enrollment%20Reports",
+    "status": 200
+  },
+  {
+    "url": "https://www.icc-cpi.int",
+    "status": 200
+  },
+  {
+    "url": "https://www.icj-cij.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov.il",
+    "status": 301
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Presidential%20Records",
+    "status": 200
+  },
+  {
+    "url": "https://www.fbi.gov",
+    "status": 403
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Federal%20Indian%20Boarding%20School%20Initiative%20Reports",
+    "status": 200
+  },
+  {
+    "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-i-syria/co-i-syria-home",
+    "status": 403
+  },
+  {
+    "url": "https://opcw.org/fact-finding-mission-reports",
+    "status": 301
+  },
+  {
+    "url": "https://hrw.org/middle-east/north-africa/syria",
+    "status": 301
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Brian_O%27Hara",
+    "status": 200
+  },
+  {
+    "url": "https://www.aclu.org/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Bernard_Ebbers",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Bhavye%20Suneja",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Bob_Jordan",
+    "status": 200
+  },
+  {
+    "url": "https://arkhive.org",
+    "status": "error",
+    "error": "write EPROTO 80070100:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\\ssl\\record\\rec_layer_s3.c:916:SSL alert number 80\n"
+  },
+  {
+    "url": "https://arkhive.org/methodology",
+    "status": "error",
+    "error": "write EPROTO 80070100:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:openssl\\ssl\\record\\rec_layer_s3.c:916:SSL alert number 80\n"
+  },
+  {
+    "url": "https://www.opensecrets.org",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Brian_Moynihan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Bobby_Kotick",
+    "status": 200
+  },
+  {
+    "url": "https://www.wired.com/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Bob_Menendez",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Bill_Cosby",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/madoff",
+    "status": 404
+  },
+  {
+    "url": "https://www.sec.gov/news/studies/2009/oig-509.pdf",
+    "status": 403
+  },
+  {
+    "url": "https://www.wiley.com",
+    "status": 302
+  },
+  {
+    "url": "https://www.intelligence.senate.gov/study2014/sscistudy1.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://www.aclu.org/cases/salim-v-mitchell",
+    "status": 404
+  },
+  {
+    "url": "https://www.cia.gov",
+    "status": 200
+  },
+  {
+    "url": "https://fcic.law.stanford.edu",
+    "status": 200
+  },
+  {
+    "url": "https://www.federalreserve.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.gao.gov",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Barbara_Fried",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Barry_Scheck",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Bastian_Obermayer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Buck_Colbert_Franklin",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Becky%20Barr",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ben_Barnes",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ben_Bradlee",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ben_Glisan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ben_Tillman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Benny_Murdani",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Bernard_Coard",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Bernard%20Reilly",
+    "status": 200
+  },
+  {
+    "url": "https://www.help.senate.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.opensecrets.org/revolving/rev_summary.php?id=25089",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Bull_Connor",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Burl_Cain",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Byron%20Sage",
+    "status": 200
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Barry%20Krischer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Barbara_Sampson",
+    "status": 200
+  },
+  {
+    "url": "https://www.simonandschuster.com/books/Relentless-Pursuit/Bradley-J-Edwards/9781982148935",
+    "status": 403
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Wild%20v.%20United%20States%20-%20CVRA%20Ruling",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2019/10/01/us/amber-guyger-trial.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.washingtonpost.com/people/bob-woodward/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.mshistorynow.mdah.ms.gov/issue/medgar-evers-and-the-civil-rights-movement",
+    "status": "error",
+    "error": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=blackrock",
+    "status": 403
+  },
+  {
+    "url": "https://www.sec.gov/edgar",
+    "status": 403
+  },
+  {
+    "url": "https://oig.justice.gov",
+    "status": 200
+  },
+  {
+    "url": "https://mississippitoday.org",
+    "status": 403
+  },
+  {
+    "url": "https://www.osa.ms.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.courts.ms.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.msha.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.gao.gov/",
+    "status": 403
+  },
+  {
+    "url": "https://www.bostonglobe.com/metro/spotlight/",
+    "status": 301
+  },
+  {
+    "url": "https://www.brennancenter.org/",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/",
+    "status": 200
+  },
+  {
+    "url": "https://www.c-span.org/video/?521387-1/cassidy-hutchinson-testifies-public-jan-6-committee-hearing",
+    "status": 301
+  },
+  {
+    "url": "https://www.simonandschuster.com/books/Enough/Cassidy-Hutchinson/9781668023006",
+    "status": 403
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=SDNJ%20Criminal%20Case",
+    "status": 200
+  },
+  {
+    "url": "https://www.whitehouse.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Ambassador%20Nomination",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=UK%20Parliament%20Testimony",
+    "status": 200
+  },
+  {
+    "url": "https://2001-2009.state.gov/secretary/former/powell/remarks/2003/17300.htm",
+    "status": 200
+  },
+  {
+    "url": "https://intelligence.senate.gov/publications/report-select-committee-intelligence-postwar-findings-about-iraqs-wmd-programs-and",
+    "status": 301
+  },
+  {
+    "url": "https://archives.gov/research/military/vietnam-war/war-crimes",
+    "status": 301
+  },
+  {
+    "url": "https://www.who.int/",
+    "status": 200
+  },
+  {
+    "url": "https://www.archive.org/details/towercommissionr00unit",
+    "status": 302
+  },
+  {
+    "url": "https://www.usip.org/publications/2006/12/iraq-study-group-report",
+    "status": 503
+  },
+  {
+    "url": "https://www.9-11commission.gov/report/",
+    "status": 200
+  },
+  {
+    "url": "https://www.intelligence.senate.gov/publications",
+    "status": 301
+  },
+  {
+    "url": "https://intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+    "status": 301
+  },
+  {
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB116/",
+    "status": 200
+  },
+  {
+    "url": "https://www.cnn.com/",
+    "status": 403
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=OpenSecrets%20donor%20data",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charlie_Kirk",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Christopher_Ruddy",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Curtis%20Ewbank",
+    "status": 200
+  },
+  {
+    "url": "https://theintercept.com/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chris_Moore",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Clariss%20Moore",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Catherine%20Berthet",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Colgan_Air_Flight_3407",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Christine_Negroni",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charlie_Javice",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chris_Kempczinski",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charlie_Rose",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/purdue-pharma-lp-agrees-plead-guilty",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/C._Everett_Koop",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=C%20Sidney%20Carlton",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Cameron_Todd_Willingham",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Carl%20Oechsner",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Carlos_Castillo_Armas",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Carlos_Filipe_Ximenes_Belo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Caroline_Ellison",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Carolyn_Bryant_Donham",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Carrie_Buck",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Catherine%20Flowers",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Changpeng_Zhao",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charles_Davenport",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charles_Holliday",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charles_Keating",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charles_Kettering",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charles_Scharf",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charles_Schumer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Charlie_Beck",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chase_Iron_Eyes",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Che_Guevara",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Cheryl_Mills",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chokwe_Antar_Lumumba",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Chris%20Jankowski",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chris_Murphy",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chris_Ripley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chris_Smalls",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Christian%20Bittar",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Christopher_Cox",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Christopher_Soghoian",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chuck_Hoskin_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Clair_Patterson",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Clare%20Garvie",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Claudia%20Peterson",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Claudia%20Russ%20Anderson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Clay_Shaw",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Cliff_Baxter",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Coretta_Scott_King",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Courtney%20Bowden",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Craig_Haney",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Craig_Whitlock",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Curtis_Wright",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Curveball_(informant))",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Cyrus_Hashemi",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Cyrus_Vance_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/litigation/litreleases/",
+    "status": 403
+  },
+  {
+    "url": "https://www.occ.treas.gov/topics/laws-and-regulations/enforcement-actions/",
+    "status": 302
+  },
+  {
+    "url": "https://www.documentcloud.org/documents/21165424-epstein-flight-logs",
+    "status": 308
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Wild%20v.%20United%20States",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Maxwell%20Trial%20Testimony",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chelsea_Handler",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Chauntae%20Davies",
+    "status": 200
+  },
+  {
+    "url": "https://www.wsj.com/business/charlie-munger-berkshire-hathaway-dies",
+    "status": 401
+  },
+  {
+    "url": "https://www.theguardian.com/news/series/cambridge-analytica-files",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/us-v-christopher-collins-et-al",
+    "status": 404
+  },
+  {
+    "url": "https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow",
+    "status": 200
+  },
+  {
+    "url": "https://www.penguinrandomhouse.com/books/215462/dark-money-by-jane-mayer/",
+    "status": 200
+  },
+  {
+    "url": "https://www.citizensforethics.org/",
+    "status": 200
+  },
+  {
+    "url": "http://web.archive.org/web/20200302142947/https://oig.justice.gov/special/s0809a/final.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/archive/usao/cas/press/cas60303.html",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/archives/sco/file/1373816/download",
+    "status": 200
+  },
+  {
+    "url": "https://manhattanda.org/wp-content/uploads/2023/04/Donald-J.-Trump-Indictment.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/storage/US_v_Trump-Nauta_23-80101.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/storage/US_v_Trump_23-cr-257.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://int.nyt.com/data/documenttools/ga-trump-indictment/daed97d37562a76f/full.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.590045/gov.uscourts.nysd.590045.253.0.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://www.documentcloud.org/documents/24425172-trump-fraud-ruling",
+    "status": 308
+  },
+  {
+    "url": "https://offshoreleaks.icij.org/",
+    "status": 200
+  },
+  {
+    "url": "https://www.oig.dhs.gov/reports",
+    "status": 404
+  },
+  {
+    "url": "https://www.epa.gov/laws-regulations/regulations",
+    "status": 200
+  },
+  {
+    "url": "https://www.ipcc.ch/reports/",
+    "status": 200
+  },
+  {
+    "url": "https://www.who.int/publications",
+    "status": 200
+  },
+  {
+    "url": "https://www.congress.gov/committees",
+    "status": 403
+  },
+  {
+    "url": "https://www.ohchr.org/en/countries/united-states-america",
+    "status": 403
+  },
+  {
+    "url": "https://www.sec.gov/enforce/sec-enforcement-actions",
+    "status": 403
+  },
+  {
+    "url": "https://www.fincen.gov/news-room",
+    "status": 301
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/17318376/united-states-v-maxwell/",
+    "status": 202
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/4154484/katie-johnson-v-donald-j-trump/",
+    "status": 202
+  },
+  {
+    "url": "https://www.washingtonpost.com/politics/trump-recorded-having-extremely-lewd-conversation-about-women-in-2005/2016/10/07/3b9ce776-8cb4-11e6-bf8a-3d26847eeed4_story.html",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.justice.gov/archives/sco",
+    "status": 200
+  },
+  {
+    "url": "https://www.ohchr.org/en/hr-bodies/hrc/yemen/index",
+    "status": 403
+  },
+  {
+    "url": "https://www.nytimes.com/interactive/2017/07/11/us/politics/donald-trump-jr-email-text.html",
+    "status": 200
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/67656604/people-v-trump/",
+    "status": 202
+  },
+  {
+    "url": "https://www.fec.gov/data/legal/search/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Silent%20Invasion%3A%20The%20Untold%20Story%20of%20the%20Trump%20Administration%20(Book)",
+    "status": 200
+  },
+  {
+    "url": "https://oversight.house.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=SDNY%20Non-Prosecution%20Agreement",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Manhattan%20DA%20Trial%20Evidence",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Parnas%20Evidence",
+    "status": 200
+  },
+  {
+    "url": "https://www.armed-services.senate.gov/imo/media/doc/Detainee-Report-Final_April-22-2009.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://nsarchive2.gwu.edu/torturingdemocracy/documents/20021127.pdf",
+    "status": 302
+  },
+  {
+    "url": "https://aclu.org/sites/default/files/FilesPDFs/fay.pdf",
+    "status": 301
+  },
+  {
+    "url": "https://web.archive.org/web/20131021182917/http://www.newamericancentury.org/iraqclintonletter.htm",
+    "status": 302
+  },
+  {
+    "url": "https://aclu.org/sites/default/files/torturefoia/released/030904.pdf",
+    "status": 301
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Minnesota%20v.%20Chauvin%20trial%20transcript",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Civil%20Rights%20Investigation",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Minneapolis%20Police%20Department%20records",
+    "status": 200
+  },
+  {
+    "url": "https://www.archives.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Palm%20Beach%20County%20property%20records",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Cameron",
+    "status": 200
+  },
+  {
+    "url": "https://www.bbc.com/news",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Dan%20Wyant",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Dominic%20Gates",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/L._Dennis_Kozlowski",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Sackler",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Damon_Hininger",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dara_Khosrowshahi",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Cordani",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Darren_Wilson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dan_Bongino",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dennis_Prager",
+    "status": 200
+  },
+  {
+    "url": "https://insideclimatenews.org/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dylann_Roof",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Devin_Kelley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Randy_",
+    "status": 301
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dianne_Feinstein",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mehmet_Oz",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Desmond_Mills_Jr.",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dale_Folwell",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dallas_Goldtooth",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dalton_Trumbo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dan_Moldea",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Daniel_Cameron",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Daniel%20Carder",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Daniel_Ellsberg",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Daniel%20Hamburger",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Daniel_Patrick_Moynihan",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Daniel%20Rigmaiden",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Daniele_Ganser",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Danny_Wall",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Daphne_Caruana_Galizia",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Darlene_Keju",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Darnell_Earley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Darrell_Issa",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Daryl_Gates",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dave_Archambault_II",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Atlee_Phillips",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Boies",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Duncan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Greenglass",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Hogg",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Keene",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Kessler",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Koresh",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=David%20Kotz",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=David%20Rainey",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Smith",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Thibodeau",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=David%20Voth",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dawn_Wooten",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dean_Rusk",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Deanne%20Criswell",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dennis_DeConcini",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Derrick_Johnson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Derrick_Palmer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Desmond_Tutu",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dexter_King",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dick_DeGuerin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dick_Durbin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dick_Fuld",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Dick_Rowland",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Domingo_Monterrosa",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Don_Blankenship",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Donald_Rickard",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Donald_Riegle",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Donald_Vidrine",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Condie",
+    "status": 404
+  },
+  {
+    "url": "https://www.google.com/search?q=Duane%20Parde",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Duke%20Tran",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/D.W._Griffith",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2019/07/12/nyregion/jeffrey-epstein-dalton-teacher.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Daniel_Dennett",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/David_Blaine",
+    "status": 200
+  },
+  {
+    "url": "https://apnews.com/article/daunte-wright-shooting",
+    "status": 404
+  },
+  {
+    "url": "https://www.washingtonpost.com/news/post-nation/wp/2017/12/08/jury-acquits-former-mesa-officer-in-fatal-2016-shooting/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.nationalww2museum.org/war/articles/general-douglas-macarthur",
+    "status": 404
+  },
+  {
+    "url": "https://projects.propublica.org/nonprofits/organizations/522166327",
+    "status": 200
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/59110752/us-dominion-inc-v-fox-news-network-llc/",
+    "status": 202
+  },
+  {
+    "url": "https://www.publicaffairsbooks.com/titles/andrew-j-nathan/the-tiananmen-papers/9781586481223",
+    "status": 301
+  },
+  {
+    "url": "https://www.justice.gov/usao-ndil/us-v-dennis-hastert",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdca/united-states-v-hunter",
+    "status": 404
+  },
+  {
+    "url": "https://www.sfchronicle.com/",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/litigation/complaints/2023/comp-pr2023-32.pdf",
+    "status": 403
+  },
+  {
+    "url": "https://www.fbi.gov/",
+    "status": 403
+  },
+  {
+    "url": "https://www.wsj.com/",
+    "status": 401
+  },
+  {
+    "url": "https://www.finance.senate.gov/imo/media/doc/111804dgtest.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://www.amazon.com/Justice-Inside-Scandal-Rocked-Administration/dp/0470261986",
+    "status": 200
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/17595029/carroll-v-trump/",
+    "status": 202
+  },
+  {
+    "url": "https://thecut.com/2019/06/donald-trump-assault-e-jean-carroll-other-coverage.html",
+    "status": 301
+  },
+  {
+    "url": "https://amazon.com/What-Do-Need-Men-Hideous/dp/1250215420",
+    "status": 301
+  },
+  {
+    "url": "https://www.justice.gov/usao-dc/pr/four-leaders-proud-boys-convicted-seditious-conspiracy-related-us-capitol-breach",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/news/press-release/2018-226",
+    "status": 403
+  },
+  {
+    "url": "https://www.nlrb.gov/case/32-CA-197020",
+    "status": 200
+  },
+  {
+    "url": "https://adl.org/resources/blog/unpacking-elon-musks-antisemitic-tweet",
+    "status": 301
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=The%20Snowden%20Archive",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Glenn%20Greenwald%20-%22No%20Place%20to%20Hide%22",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Laura%20Poitras%20documentary%22Citizenfour%22",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Edward%20Snowden%20-%22Permanent%20Record%22",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ethiopian_Airlines_Flight_302",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Eric_Munchel",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Edward%20Breen",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ethan_Crumbley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Elliott_Abrams",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Eric_Rudolph",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Emmitt%20Martin%20III",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Earl%20Stadtman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Earl_Warren",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Earle_Wheeler",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ed_Rendell",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Edward_Bernays",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Edward_Garvey",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Edward_Hanrahan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Edward_Horrigan",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Edward_Lansdale",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Edward_R._Murrow",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Edwin_Gray",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Eh_Wah",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Elaine_Riddick",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Elia_Kazan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Elijah_Muhammad",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Elizabeth_Warren",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ellen_Kullman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Elliot_Jaspin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Admiral_Elmo_Zumwalt_Jr.",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Elmo_Zumwalt_III",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Emilio_Eduardo_Massera",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Emmett_Till",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Eric_Holder",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Eric_Schneiderman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Erika_Cheung",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Erin_Brockovich",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Estelle_Reel",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ethel_Rosenberg",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Eunice_Rivers",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Eurico_Guterres",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Evan_Parker",
+    "status": 200
+  },
+  {
+    "url": "https://www.thedailybeast.com/israelis-demand-probe-into-former-pm-ehud-baraks-ties-to-jeffrey-epstein",
+    "status": 301
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ehud_Olmert",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Edgar_Bronfman_Sr.",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/news-event/eric-garner-case",
+    "status": 404
+  },
+  {
+    "url": "https://www.wiesenthal.com/",
+    "status": 301
+  },
+  {
+    "url": "https://www.nytimes.com/2003/10/29/us/ex-cia-agent-is-freed-after-judge-overturns-his-conviction.html",
+    "status": 403
+  },
+  {
+    "url": "https://insideclimatenews.org/content/Exxon-The-Road-Not-Taken",
+    "status": 301
+  },
+  {
+    "url": "https://earthjustice.org/case/standing-rock-sioux-tribe-v-us-army-corps-of-engineers",
+    "status": 404
+  },
+  {
+    "url": "https://reports.aviation-safety.net/2019/20190310-0_B38M_ET-AVJ.pdf",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND reports.aviation-safety.net"
+  },
+  {
+    "url": "https://www.penguinrandomhouse.com/books/295440/a-shameful-act-by-taner-akcam/",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/elliott-broidy-pleads-guilty-one-count-conspiracy",
+    "status": 404
+  },
+  {
+    "url": "https://www.osti.gov/opennet",
+    "status": 302
+  },
+  {
+    "url": "https://ahf.nuclearmuseum.org/ahf/profile/edward-teller/",
+    "status": 200
+  },
+  {
+    "url": "https://www.epa.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://bioethics.georgetown.edu/2015/01/advisory-committee-on-human-radiation-experiments-achre/",
+    "status": 301
+  },
+  {
+    "url": "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/district-attorney",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=H.P.%20Albarelli%20Jr.%20-%22A%20Terrible%20Mistake%22",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=James%20Starrs%20forensic%20examination%20report",
+    "status": 200
+  },
+  {
+    "url": "https://www.netflix.com/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Jeffrey%20Haas%20-%22The%20Assassination%20of%20Fred%20Hampton%22",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=FBI%20COINTELPRO%20documents%20on%20Black%20Panther%20Party",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Documentary%22The%20Murder%20of%20Fred%20Hampton%22",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Evan%20Thomas%20-%22The%20Very%20Best%20Men%22",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Carl%20Bernstein%20-%22The%20CIA%20and%20the%20Media%22",
+    "status": 200
+  },
+  {
+    "url": "https://www.federalregister.gov/presidential-documents/executive-orders",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Commission%20on%20Wartime%20Relocation%20Report",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Korematsu%20v.%20United%20States%20(323%20U.S.%20214)",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Coram%20nobis%20ruling",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Fred_C._Koch",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Felice_Casson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Felix_Wormser",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Fidel_Castro",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Solitary_confinement",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Flint_Taylor",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Frank_DiPascali",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Frank_Powell",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Fred_Branfman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Fred_Gray",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Fred_Guttenberg",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Fred_Hampton_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Frederick_Babcock",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Frederick_Douglass",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Frederick_Hitz",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Frederik_Obermaier",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Frank_Wilczek",
+    "status": 200
+  },
+  {
+    "url": "https://www.transportation.gov/briefing-room/secretaries",
+    "status": 403
+  },
+  {
+    "url": "https://www.fda.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.gao.gov/products/gao-09-866",
+    "status": 403
+  },
+  {
+    "url": "https://www.propublica.org/series/the-man-behind-the-curtain",
+    "status": 404
+  },
+  {
+    "url": "https://www.fec.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.sourcewatch.org/index.php/Luntz_Research_Companies",
+    "status": 403
+  },
+  {
+    "url": "https://www.theguardian.com/",
+    "status": 302
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/press-release/file/1515231/download",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/press-release/file/1291481/download",
+    "status": 200
+  },
+  {
+    "url": "https://www.congress.gov/116/chrg/CHRG-116hhrg42560/CHRG-116hhrg42560.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/6182316/united-states-v-papadopoulos/",
+    "status": 202
+  },
+  {
+    "url": "https://aclu.org/sites/default/files/torturefoia/released/082409/olcremand/2004-7123-IG-SPECIAL-REVIEW.pdf",
+    "status": 301
+  },
+  {
+    "url": "https://www.harpercollins.com/products/at-the-center-of-the-storm-george-tenet",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-edva/pr/businessman-sentenced-ten-years-child-sex-trafficking-and-transporting-child-pornography",
+    "status": 200
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/15455937/united-states-v-nader/",
+    "status": 202
+  },
+  {
+    "url": "https://www.intelligence.senate.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2018/03/03/us/politics/george-nader-mueller-investigation-united-arab-emirates.html",
+    "status": 403
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Minnesota%20v.%20Chauvin%20trial%20evidence",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Family%20statements%20and%20interviews",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/pardon",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20prosecution%20records%20-%20Proud%20Boys",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gary_Kelly",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Gregory%20Travis",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/George_Zoley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gregory_Hayes",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Geoffrey%20Bible",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Guy_Reffitt",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gregory_McMichael",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/George_Zimmerman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/George_Tanios",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gary_Wang",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gary_Webb",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Geoffrey_Supran",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Georg_Rickhey",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/George_Armstrong_Custer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/George_de_Mohrenschildt",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/George_Romney",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/George_Shultz",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/George_Stinney_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gerald_Chatham",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gerald_Kennedy",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gerry_Spence",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gilbert_Bigio",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Giulio_Andreotti",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Giuseppe_Santovito",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gonzalo_Curiel",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Gregore%20Sambor",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Guillermo_Endara",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Salvadoran_Civil_War",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gul_Rahman",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2019/09/01/business/dealbook/jeffrey-epstein-science.html",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Gerald_Edelman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/George_Stephanopoulos",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Geoffrey_Berman",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-edny/us-v-george-santos",
+    "status": 404
+  },
+  {
+    "url": "https://ethics.house.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/about/commissioner/gary-gensler",
+    "status": 403
+  },
+  {
+    "url": "https://www.propublica.org/article/cia-black-site-gina-haspel",
+    "status": 404
+  },
+  {
+    "url": "https://www.texastribune.org/",
+    "status": 200
+  },
+  {
+    "url": "https://www.propublica.org/",
+    "status": 200
+  },
+  {
+    "url": "https://www.nuclearmuseum.org/",
+    "status": 200
+  },
+  {
+    "url": "https://profiles.nlm.nih.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.pbs.org/wgbh/americanexperience/films/pill/",
+    "status": 200
+  },
+  {
+    "url": "https://manhattanda.org/",
+    "status": 200
+  },
+  {
+    "url": "https://vault.fbi.gov/",
+    "status": 403
+  },
+  {
+    "url": "https://www.archives.gov/research/investigations/watergate",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hafez_al-Assad",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Howard_Schultz",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Herschel_Walker",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Hal%20Knight",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Hamid%20Khan",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Harrison%20Trevathan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Harry_Laughlin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Harry_Markopolos",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Harry_Truman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hector_Gramajo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Heinz-Jakob_Neusser",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Henry_Cabot_Lodge_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Henry_Clay_Frick",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Henry_Dawes",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Henry_Knox",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Henry_Shaw",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Henry_Waxman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Herbert_Diess",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Herbert_Needleman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Herman_Wallace",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hiram_Price",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hoan_Ton-That",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Homer_Hoyt",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hope_MacAllister",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Howard_Jones",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Howard_Udell",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hudson_Austin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hugh_Thompson_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hughes_Van_Ellis",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Hugo_Banzer",
+    "status": 200
+  },
+  {
+    "url": "https://www.documentcloud.org/documents/1508273-palm-beach-police-investigation",
+    "status": 308
+  },
+  {
+    "url": "https://www.reuters.com/investigates/special-report/glyphosate-cancer-costs-analysis/",
+    "status": 401
+  },
+  {
+    "url": "https://www.justice.gov.za/trc/report/",
+    "status": 200
+  },
+  {
+    "url": "https://www.legal-tools.org/doc/583bcc/pdf/",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/us-congressman-and-wife-charged-bribery-and-foreign-agent-offenses",
+    "status": 404
+  },
+  {
+    "url": "https://nsarchive.gwu.edu/project/kissinger-declassified",
+    "status": 404
+  },
+  {
+    "url": "https://www.versobooks.com/books/1553-the-trial-of-henry-kissinger",
+    "status": 404
+  },
+  {
+    "url": "https://www.pbs.org/wgbh/frontline/documentary/untouchables/",
+    "status": 200
+  },
+  {
+    "url": "https://web.archive.org/web/20090514012413/http://judiciary.house.gov/issues/issues_USAttorneys.html",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/lev-parnas-and-igor-fruman-charged-campaign-finance-offenses",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/archives/sco/file/1007346/dl",
+    "status": 200
+  },
+  {
+    "url": "https://www.gao.gov/products/osi-01-3",
+    "status": 403
+  },
+  {
+    "url": "https://www.nytimes.com/2022/07/15/nyregion/ivana-trump-dead.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.thedailybeast.com/ex-wife-donald-trump-made-me-feel-violated-during-sex",
+    "status": 301
+  },
+  {
+    "url": "https://www.cia.gov/readingroom/collection/congress-cultural-freedom",
+    "status": 302
+  },
+  {
+    "url": "https://www.loc.gov",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ike_Riffel",
+    "status": 404
+  },
+  {
+    "url": "https://www.sec.gov/litigation/litreleases/lr11288.htm",
+    "status": 403
+  },
+  {
+    "url": "https://www.justice.gov/usao-ndca/us-v-elizabeth-holmes-et-al",
+    "status": 200
+  },
+  {
+    "url": "https://www.loc.gov/item/01022454/",
+    "status": 403
+  },
+  {
+    "url": "https://www.madofftrustee.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/manhattan-us-attorney-announces-recovery-17-billion-largest-forfeiture-ever",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=commtouch",
+    "status": 403
+  },
+  {
+    "url": "https://www.documentcloud.org/documents/1508273-jeffrey-epsteins-little-black-book-redacted",
+    "status": 308
+  },
+  {
+    "url": "https://www.aclu.org/issues/immigrants-rights/ice-and-border-patrol-abuses",
+    "status": 200
+  },
+  {
+    "url": "https://www.icc-cpi.int/sites/default/files/RS-Eng.pdf",
+    "status": 403
+  },
+  {
+    "url": "https://www.nybooks.com/articles/2009/04/09/icrc-report-treatment-fourteen-high-value-detainee/",
+    "status": 404
+  },
+  {
+    "url": "https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-revealing-broadband-industry-funded-scheme",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/jeffrey-epstein-charged-sex-trafficking-minors",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/ghislaine-maxwell-sentenced-20-years-prison",
+    "status": 200
+  },
+  {
+    "url": "https://palmbeachpost.com/story/news/crime/2019/07/09/palm-beach-police-documents-epstein-case/4537389007/",
+    "status": 301
+  },
+  {
+    "url": "https://nymag.com/news/features/41826/",
+    "status": 200
+  },
+  {
+    "url": "https://www.vanityfair.com/news/2003/03/jeffrey-epstein-200303",
+    "status": 200
+  },
+  {
+    "url": "https://www.courtlistener.com/opinion/4590283/jane-doe-1-v-united-states/",
+    "status": 202
+  },
+  {
+    "url": "https://www.documentcloud.org/documents/6319313-Jeffrey-Epstein-Autopsy-Report",
+    "status": 308
+  },
+  {
+    "url": "https://oig.justice.gov/reports",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/wikileaks-founder-charged-computer-intrusion-conspiracy",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/appointment-special-counsel",
+    "status": 301
+  },
+  {
+    "url": "https://www.intelligence.senate.gov/sites/default/files/documents/os-jcomey-060817.pdf",
+    "status": 301
+  },
+  {
+    "url": "https://www.amazon.com/Higher-Loyalty-Truth-Lies-Leadership/dp/1250192455",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Guardian%20Investigation",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Orlando%20Sentinel%20Investigation",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Case%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Sentencing%20Documents",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=January%206%20Committee%20Testimony",
+    "status": 302
+  },
+  {
+    "url": "https://www.reuters.com/legal/fox-news-settles-dominion-defamation-case-7875-million-2023-04-18/",
+    "status": 401
+  },
+  {
+    "url": "https://www.irs.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Senate%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=CIA%20Assessment",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Prosecution%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DNI%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://www.usccr.gov/files/pubs/vote2000/report/main.htm",
+    "status": 200
+  },
+  {
+    "url": "https://web.archive.org/web/2024/https://www.supremecourt.gov/opinions/00pdf/00-949.pdf",
+    "status": 302
+  },
+  {
+    "url": "https://www.salon.com/2000/12/04/voter_file/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Congressional%20Black%20Caucus%20Election%20Challenge",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=The%20Stealing%20of%20the%20Presidency%202000",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Tim%20Weiner%20-%22Enemies%3A%20A%20History%20of%20the%20FBI%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Betty%20Medsger%20-%22The%20Burglary%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=FBI%20COINTELPRO%20documents%20(FOIA)",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Harper%27s%20Magazine%20-%22Legalize%20It%20All%22(Ehrlichman%20confession)",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Watergate%20Special%20Prosecution%20Force%20records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=John%20Dean%20-%22Blind%20Ambition%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Torture%20Memos%20(declassified)",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Senate%20Torture%20Report",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Argentine%20National%20Commission%20on%20the%20Disappeared%20(CONADEP)",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Torture%20Memos",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=U.S.%20v.%20Mitchell",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Stephen%20Kinzer%20-%22The%20Brothers%22",
+    "status": 302
+  },
+  {
+    "url": "https://www.nsa.gov/",
+    "status": 403
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/leveson-inquiry-report-into-the-culture-practices-and-ethics-of-the-press",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Fitzgerald_Kennedy",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_McEntee",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Morrison",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jeffrey_Skilling",
+    "status": 200
+  },
+  {
+    "url": "https://www.bbc.com/news/business-67760406",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jennifer_Homendy",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jon_Holden",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Javier_de_Luis",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jordan_Belfort",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Kapoor",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Hammergren",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Taiclet",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Monsees",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Quincey",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Joe_Arpaio",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jon_Burge",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Julian%20Khater",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Holmes",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Crumbley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jennifer_Crumbley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Comer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jacob_Wohl",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Joe_Manchin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jesse_Helms",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Justin_Smith",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jeffrey_Wigand",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/J._Parnell_Thomas",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jack_Remondi",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jack_Ruby",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jack_Weinstein",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jacobo_%C3%81rbenz",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jaime_Zapata",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Jesus_Angleton",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Baker_III",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Black",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Bopp_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Bosbous",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Craig",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Davis",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Forsyth",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Knox_Polk",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Liang",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Loewen",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_Risen",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/James_W._English",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jan_Brewer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jan_Hasselman",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Janet_Reno",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Janis_Karpinski",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jason_Forge",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jay_Carney",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jay_Dickey",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/J.B.A._Robertson",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/J.C._Robert",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jeane_Kirkpatrick",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jeff_Brantingham",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jeff_Jamar",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Lord_Jeffrey_Amherst",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jeffrey_Sterling",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jeffry_Picower",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jennifer_Abruzzo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jennifer_Bates",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Jerry%20del%20Missier",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Jerry%20Ensminger",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jerry_Falwell",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Jesse%20Daniel%20Ames",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Jesse%20Gagliano",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jesse_Jackson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jesse_Jones",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jesse_Washington",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jim_Garrison",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jim_Watkins",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Jimmy_Carter",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Jimmy%20Harrell",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Joe%20Kelso",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Africa)",
+    "status": 404
+  },
+  {
+    "url": "https://www.google.com/search?q=John%20Anjain",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Carreyrou",
+    "status": 200
+  },
+  {
+    "url": "https://bioethics.gov/node/654",
+    "status": "error",
+    "error": "read ECONNRESET"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Chivington",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Collier",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Connally",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Danforth",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Dodson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Glenn",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Chief%20John%20Gustafson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Hannah",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Harvey_Kellogg",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Hull",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Kerry",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Kiriakou",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Mahoney_(physician)",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Paul_Stevens",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Paul_Vann",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Ray_III",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=John%20Schoettler",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_Sperling",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/John_T._Milner",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/JosÃ©_NapoleÃ³n_Duarte",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/JosÃ©_Ramos-Horta",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Joseph_Bankman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Joseph_E._Brown",
+    "status": 200
+  },
+  {
+    "url": "https://soaw.org/",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Joseph_McCarthy",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Admiral_Joseph_Metcalf_III",
+    "status": 404
+  },
+  {
+    "url": "https://www.google.com/search?q=Joseph%20Rivers",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Joseph%20Weekley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Joseph_Welch",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Joshua_Jaynes",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Juan_Funes",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Juan_E._M%C3%A9ndez",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Juana%20Majel-Dixon",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Judith_Miller",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Julia_Tutwiler",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Julius_Rosenberg",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/JÃ¼rgen_Mossack",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/JuvÃ©nal_Habyarimana",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/J.W._Milam",
+    "status": 200
+  },
+  {
+    "url": "https://www.newyorker.com/news/news-desk/how-an-elite-university-research-center-concealed-its-relationship-with-jeffrey-epstein",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Palm%20Beach%20Investigation",
+    "status": 302
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/ohio-man-sentenced-life-prison-federal-hate-crimes-related-august-2017-car-attack",
+    "status": 404
+  },
+  {
+    "url": "https://www.freehreport.com/",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND www.freehreport.com"
+  },
+  {
+    "url": "https://www.bbc.com/news/entertainment-arts",
+    "status": 404
+  },
+  {
+    "url": "https://apnews.com/article/burkman-wohl-robocall-conviction",
+    "status": 404
+  },
+  {
+    "url": "https://www.sec.gov/news/press/2003-54.htm",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/The_Gulag_Archipelago",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-dc/pr/former-congressman-jesse-l-jackson-jr-sentenced-30-months-prison",
+    "status": 200
+  },
+  {
+    "url": "https://www.indian.senate.gov/hearing/oversight-hearing-tribal-lobbying-matters",
+    "status": 301
+  },
+  {
+    "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings?search_api_fulltext=amazon-com-inc-ftc-v",
+    "status": 200
+  },
+  {
+    "url": "https://www.occ.gov/news-issuances/news-releases/2020/nr-occ-2020-6.html",
+    "status": 200
+  },
+  {
+    "url": "https://www.thebureauinvestigates.com/projects/drone-war",
+    "status": 200
+  },
+  {
+    "url": "https://www.aclu.org/cases/al-aulaqi-v-panetta",
+    "status": 301
+  },
+  {
+    "url": "https://oig.justice.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.weforum.org",
+    "status": 403
+  },
+  {
+    "url": "https://www.amazon.com",
+    "status": 202
+  },
+  {
+    "url": "https://www.politico.eu",
+    "status": 200
+  },
+  {
+    "url": "https://www.fultonclerk.org/",
+    "status": 200
+  },
+  {
+    "url": "https://www.intelligence.senate.gov/sites/default/files/documents/report_volume5.pdf",
+    "status": 301
+  },
+  {
+    "url": "https://home.treasury.gov/news/press-releases/jy0126",
+    "status": 200
+  },
+  {
+    "url": "https://www.fbi.gov/wanted/counterintelligence/konstantin-viktorovich-kilimnik",
+    "status": 403
+  },
+  {
+    "url": "https://www.cnn.com/2018/03/22/politics/karen-mcdougal-full-interview/index.html",
+    "status": 404
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Manhattan%20DA%20Investigation%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://www.adl.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.adidas.com",
+    "status": 403
+  },
+  {
+    "url": "https://www.azcourts.gov",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Innocence%20Project%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://efds.senate.gov/",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND efds.senate.gov"
+  },
+  {
+    "url": "https://www.justice.gov/archive/osc/",
+    "status": 403
+  },
+  {
+    "url": "https://judiciary.house.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Hubris%3A%20The%20Inside%20Story%20of%20Spin%2C%20Scandal%2C%20and%20the%20Selling%20of%20the%20Iraq%20War",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Courage%20and%20Consequence%3A%20My%20Life%20as%20a%20Conservative%20in%20the%20Fight",
+    "status": 302
+  },
+  {
+    "url": "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures",
+    "status": 301
+  },
+  {
+    "url": "https://home.treasury.gov/news/press-releases/jy0628",
+    "status": 200
+  },
+  {
+    "url": "https://www.sanctionsmap.eu/",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2018/03/07/us/politics/erik-prince-seychelles-meeting-russian.html",
+    "status": 403
+  },
+  {
+    "url": "https://rdif.ru/Eng/",
+    "status": 301
+  },
+  {
+    "url": "https://www.usccr.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.gregpalast.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.supremecourt.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.heritage.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.propublica.org",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=European%20Court%20of%20Human%20Rights%20judgment",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Civil%20Rights%20Division",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Keith_B._Alexander",
+    "status": 200
+  },
+  {
+    "url": "https://www.bvicourts.org",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND www.bvicourts.org"
+  },
+  {
+    "url": "https://www.teneo.com",
+    "status": 403
+  },
+  {
+    "url": "https://www.sec.gov",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kamala_Harris",
+    "status": 200
+  },
+  {
+    "url": "https://www.mncourts.gov",
+    "status": 301
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kevin_Spacey",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kyle_Rittenhouse",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-edny/us-v-keith-raniere-et-al",
+    "status": 404
+  },
+  {
+    "url": "https://www.hbo.com",
+    "status": 200
+  },
+  {
+    "url": "https://sdlegislature.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.theguardian.com",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.cdc.gov",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kyrsten_Sinema",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Khalid_Sheikh_Mohammed",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/K._Barton_Osborn",
+    "status": 404
+  },
+  {
+    "url": "https://www.newyorker.com/magazine/2014/10/06/before-the-law",
+    "status": 200
+  },
+  {
+    "url": "https://www.netflix.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.whitehouse.gov",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Karen_Ignagni",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Karen_Lynch",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Karl%20Uecker",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Katharine_Graham",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kathryn_Barger",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Katricia%20Dotson%20Africa",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Keeanga-Yamahtta_Taylor",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kelcy_Warren",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ken_Salazar",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kenneth_Fadeley",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kenneth_Melson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kenneth_Walker",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kevin_Harris",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kevin_McAleenan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Khalid_Taha",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Khalifa_Haftar",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Khalil_Islam)",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kirk_Bloodsworth",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kit_Carson",
+    "status": 200
+  },
+  {
+    "url": "https://www.un.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Kristian%20Lum",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Kurt%20Mix",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Morton_County",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Kyle_Thompson",
+    "status": 200
+  },
+  {
+    "url": "https://www.nationalarchives.gov.uk/",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Katinka%20Matson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Katie_Couric",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/litigation/litreleases/lr17627.htm",
+    "status": 403
+  },
+  {
+    "url": "https://www.justice.gov/archives/opa/blog/remembering-klaus-barbie",
+    "status": 200
+  },
+  {
+    "url": "https://www.ohchr.org/en/hr-bodies/hrc/co-idprk/commission-inquiry-on-hr-in-dprk",
+    "status": 403
+  },
+  {
+    "url": "https://intelligence.house.gov/reports-letters/",
+    "status": 200
+  },
+  {
+    "url": "https://www.wsj.com",
+    "status": 401
+  },
+  {
+    "url": "https://oversight.house.gov/legislation/hearings/examining-the-practices-and-policies-of-the-us-postal-service",
+    "status": 404
+  },
+  {
+    "url": "https://www.uspsoig.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.npr.org",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Leadership%20Profile",
+    "status": 302
+  },
+  {
+    "url": "https://www.fultoncountyga.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.ag.ny.gov",
+    "status": 301
+  },
+  {
+    "url": "https://www.sccourts.org",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=January%206%20Committee%20Hearings",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Congressional%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://www.blackrock.com",
+    "status": 302
+  },
+  {
+    "url": "https://comptroller.texas.gov",
+    "status": 200
+  },
+  {
+    "url": "https://efile.fara.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.archives.gov/research/pentagon-papers",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Robert%20Caro%20-%22The%20Years%20of%20Lyndon%20Johnson%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Snowden%20revelations%20-%20PRISM",
+    "status": 302
+  },
+  {
+    "url": "https://www.ntsb.gov",
+    "status": 302
+  },
+  {
+    "url": "https://www.boeing.com/company/annual-report",
+    "status": 302
+  },
+  {
+    "url": "https://www.epa.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.boeing.com",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Lion_Air_Flight_610_Victims",
+    "status": 404
+  },
+  {
+    "url": "https://www.foia.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.dol.gov",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Les_Moonves",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Larry_Nassar",
+    "status": 200
+  },
+  {
+    "url": "https://www.apollo.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-dc/defendants/brock-larry-rendall-jr",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Lonnie_Coffman",
+    "status": 200
+  },
+  {
+    "url": "https://www.cbo.gov",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Lisa_Eisenhart",
+    "status": 200
+  },
+  {
+    "url": "https://www.sigir.mil",
+    "status": "error",
+    "error": "getaddrinfo ENOTFOUND www.sigir.mil"
+  },
+  {
+    "url": "https://www.pbs.org/wgbh/frontline",
+    "status": 308
+  },
+  {
+    "url": "https://www.penguinrandomhouse.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.thenation.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.9-11commission.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.archives.gov/research/jfk/warren-commission-report",
+    "status": 302
+  },
+  {
+    "url": "https://www.motherjones.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.law.cornell.edu",
+    "status": 200
+  },
+  {
+    "url": "https://insideclimatenews.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.science.org",
+    "status": 403
+  },
+  {
+    "url": "https://www.goldmanprize.org",
+    "status": 200
+  },
+  {
+    "url": "http://flintwaterstudy.org",
+    "status": 301
+  },
+  {
+    "url": "https://naacp.org",
+    "status": 200
+  },
+  {
+    "url": "https://eji.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.argentina.gob.ar",
+    "status": 200
+  },
+  {
+    "url": "https://nsarchive.gwu.edu",
+    "status": 200
+  },
+  {
+    "url": "https://www.okhistory.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.oscn.net",
+    "status": 302
+  },
+  {
+    "url": "https://www.osti.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.camera.it",
+    "status": 302
+  },
+  {
+    "url": "https://www.bbc.co.uk",
+    "status": 200
+  },
+  {
+    "url": "https://www.ncai.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.uihi.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.alecexposed.org",
+    "status": 403
+  },
+  {
+    "url": "https://www.brookings.edu",
+    "status": 200
+  },
+  {
+    "url": "https://www.salon.com",
+    "status": 200
+  },
+  {
+    "url": "https://sunlightfoundation.com",
+    "status": 200
+  },
+  {
+    "url": "https://www.thekingcenter.org",
+    "status": 301
+  },
+  {
+    "url": "https://gsp.yale.edu/case-studies/cambodian-genocide-program",
+    "status": 301
+  },
+  {
+    "url": "https://www.manhattanda.org",
+    "status": 301
+  },
+  {
+    "url": "https://nsarchive2.gwu.edu",
+    "status": 200
+  },
+  {
+    "url": "https://www.guttmacher.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.armed-services.senate.gov",
+    "status": 200
+  },
+  {
+    "url": "https://www.army.mil",
+    "status": 200
+  },
+  {
+    "url": "https://www.miamiherald.com/news/local/article220097825.html",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.buzzfeednews.com/",
+    "status": 200
+  },
+  {
+    "url": "https://www.thecrimson.com/article/2020/5/1/harvard-epstein-donations/",
+    "status": 404
+  },
+  {
+    "url": "https://news.harvard.edu/gazette/",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2019/07/31/business/jeffrey-epstein-scientists.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.harvard.edu/president/news/2020/harvard-review-of-jeffrey-epstein-gifts/",
+    "status": 404
+  },
+  {
+    "url": "https://perimeterinstitute.ca/people/lee-smolin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Leslie_Groff",
+    "status": 404
+  },
+  {
+    "url": "https://apnews.com/article/lara-trump-rnc",
+    "status": 404
+  },
+  {
+    "url": "https://www.chicagotribune.com/topic/laquan-mcdonald/",
+    "status": 301
+  },
+  {
+    "url": "https://www.detroitnews.com/story/news/local/michigan/2018/11/20/michigan-state-lou-anna-simon-charged-nassar/",
+    "status": 404
+  },
+  {
+    "url": "https://www.nytimes.com/1989/04/21/us/exxon-chairman-under-fire.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.brandeis.edu/about/louis-brandeis.html",
+    "status": 200
+  },
+  {
+    "url": "https://www.gao.gov/products/gao-23-106047",
+    "status": 403
+  },
+  {
+    "url": "https://www.pogo.org/database/federal-contractor-misconduct-database",
+    "status": 403
+  },
+  {
+    "url": "https://www.opensecrets.org/federal-lobbying/clients/summary?cycle=2023&id=D000000104",
+    "status": 403
+  },
+  {
+    "url": "https://www.southcom.mil/Leadership/Commander/",
+    "status": 403
+  },
+  {
+    "url": "https://www.technologyreview.com/",
+    "status": 200
+  },
+  {
+    "url": "https://fortune.com/",
+    "status": 200
+  },
+  {
+    "url": "https://www.democracynow.org/2007/3/2/col_lawrence_wilkerson_on_the_iraq",
+    "status": 404
+  },
+  {
+    "url": "https://www.cia.gov/stories/story/leon-panetta/",
+    "status": 404
+  },
+  {
+    "url": "https://www.penguinrandomhouse.com/books/72684/king-leopolds-ghost-by-adam-hochschild/",
+    "status": 404
+  },
+  {
+    "url": "https://www.archives.gov/publications/prologue/2019/fall-winter/congo",
+    "status": 404
+  },
+  {
+    "url": "https://www.propublica.org/article/leonard-leo-federalist-society-supreme-court",
+    "status": 404
+  },
+  {
+    "url": "https://www.hsgac.senate.gov/subcommittees/investigations/media/senate-investigations-subcommittee-releases-levin-coburn-report-on-the-financial-crisis",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/michael-cohen-pleads-guilty-manhattan-federal-court-eight-counts-including-campaign",
+    "status": 200
+  },
+  {
+    "url": "https://oversight.house.gov/hearing/hearing-with-michael-cohen-former-attorney-to-president-donald-trump/",
+    "status": 404
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/7593912/united-states-v-cohen/",
+    "status": 202
+  },
+  {
+    "url": "https://www.simonandschuster.com/books/Disloyal-A-Memoir/Michael-Cohen/9781510764699",
+    "status": 403
+  },
+  {
+    "url": "https://www.dni.gov/",
+    "status": 403
+  },
+  {
+    "url": "https://www.simonandschuster.com/books/So-Help-Me-God/Mike-Pence/9781982190330",
+    "status": 403
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Immigration%20Records%20Investigation%20(AP)",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=EB-1%20Visa%20Analysis",
+    "status": 302
+  },
+  {
+    "url": "https://web.archive.org/web/2024/https://www.whitehouse.gov/bebest/",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Investigation%20Documents",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=House%20Impeachment%20Investigation",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Impeachment%20Testimony",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Profile",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=David%20Garrow%20-%22The%20FBI%20and%20Martin%20Luther%20King%2C%20Jr.%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Taylor%20Branch%20-%22Parting%20the%20Waters%22trilogy",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=King%20v.%20Jowers%20civil%20trial%20transcript",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=60%20Minutes%20interview",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Ervand%20Abrahamian%20-%22The%20Coup%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=U.S.%20v.%20Noriega%20court%20records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=CIA%20declassified%20files%20on%20Noriega",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Texas%20v.%20Pennsylvania%20amicus%20brief",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mike_Whitaker",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Michael%20Stumo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Maria_Cantwell",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mark_Lindquist",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Michael%20O",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mary_Schiavo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mark_Schneider",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Matt_Walsh",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Mark%20Swartz",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Mahendra%20Amin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Malcolm_X)",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mamie_Till-Mobley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mandrel_Stuart",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Marc_Cisneros",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Marc_Edwards",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Marc_Short",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Marcus_Agius",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Margaret_Chase_Smith",
+    "status": 200
+  },
+  {
+    "url": "https://www.plannedparenthood.org/about-us/who-we-are/our-history",
+    "status": 200
+  },
+  {
+    "url": "https://sanger.hosting.nyu.edu/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Marjorie_Dannenfelser",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mark_Brnovich",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mark_Clark",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mark_Lane",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mark_Madoff",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Marshall_Green",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Martin_Tabert",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Martin_Wheatley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mary_Alice_Relf",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mary_Kathryn_Nagle",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mary_Turner",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Matthias_Müller",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Maude_DeVictor",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Maura_Healey",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Maurice_Bishop",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Efra%C3%ADn_R%C3%ADos_Montt#Trial",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Max_Baucus",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Maxwell_R._Thurman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/McGeorge_Bundy",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Medgar_Evers",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mervyn_King",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Michael_Friedman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Michael_Oliver",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Michael%20D%20Powell",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Michael_Townley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Michel_Martelly",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mike_Moore",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mike_Williams",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Minnie_Lee_Relf",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mohamed_Farrah_Aidid",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mona_Hanna-Attisha",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Moses_Wright",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Muammar_Gaddafi",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Muhammad_Abdul_Aziz)",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mujahid_Abdul_Halim)",
+    "status": 404
+  },
+  {
+    "url": "https://www.cbsnews.com/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mark_Middleton",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Murray_Gell-Mann",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mick_Jagger",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Michael_Reiter",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Maurene_Comey",
+    "status": 200
+  },
+  {
+    "url": "https://www.foxnews.com/us/forensic-pathologist-jeffrey-epstein-homicide",
+    "status": 404
+  },
+  {
+    "url": "https://apnews.com/article/huckabee-ambassador-israel",
+    "status": 404
+  },
+  {
+    "url": "https://www.newyorker.com/magazine/2019/01/07/how-mark-burnett-resurrected-donald-trump-as-an-icon-of-american-success",
+    "status": 200
+  },
+  {
+    "url": "https://www.bbc.com/news/world-asia-40108032",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/sites/default/files/opa/press-releases/attachments/2015/03/04/ferguson_police_department_report.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://www.ft.com/content/softbank-vision-fund",
+    "status": 403
+  },
+  {
+    "url": "https://mpdc.dc.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.sis.gov.uk",
+    "status": 403
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/justice-department-finds-minneapolis-police-department-engages-pattern-or-practice",
+    "status": 404
+  },
+  {
+    "url": "https://www.ohchr.org/en/hr-bodies/hrc/myanmar-ffm/index",
+    "status": 403
+  },
+  {
+    "url": "https://openlibrary.org/works/OL15589567W/Maos_Great_Famine",
+    "status": 301
+  },
+  {
+    "url": "https://us.macmillan.com/books/9780374533991/tombstone",
+    "status": 403
+  },
+  {
+    "url": "https://www.justice.gov/sco/case/united-states-v-michael-t-flynn",
+    "status": 404
+  },
+  {
+    "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0134-facebook-inc-ftc-v",
+    "status": 301
+  },
+  {
+    "url": "https://www.justice.gov/usao-mdpa/press-releases",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Georgia%20RICO%20Case%20Documents",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Heslin%20v.%20Jones%20court%20records",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nadia_Milleron",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Naoise%20Ryan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nicol�s_Maduro",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nikolas_Cruz",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Naomi_Oreskes",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nathan_Bedford_Forrest",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Nathan%20Wessler",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nawar_al-Awlaki",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nawaz_Sharif",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Neil_Bush",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Neil_Sheehan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nelson_Brickham",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nematollah_Nassiri",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Nguyen%20Viet%20Nhan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nicolas_Sarkozy",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Nijeer%20Parks",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Nishad%20Singh",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Norman_Schwarzkopf_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Prince_Norodom_Sihanouk",
+    "status": 200
+  },
+  {
+    "url": "https://web.archive.org/web/2024/https://www.wsj.com/us-news/law/noam-chomsky-jeffrey-epstein-meetings-992a93d0",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nathan_Wolfe",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Nicholas_Tartaglione",
+    "status": 200
+  },
+  {
+    "url": "https://www.wsj.com/articles/carlos-ghosn-nissan",
+    "status": 401
+  },
+  {
+    "url": "https://www.ned.org",
+    "status": 200
+  },
+  {
+    "url": "https://www.eccc.gov.kh/en/case/topic/2",
+    "status": 404
+  },
+  {
+    "url": "https://unusualwhales.com/politics",
+    "status": 200
+  },
+  {
+    "url": "https://www.newyorker.com/",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/pr/russian-oligarch-charged-violating-us-sanctions",
+    "status": 200
+  },
+  {
+    "url": "https://www.npr.org/",
+    "status": 200
+  },
+  {
+    "url": "https://irp.fas.org/offdocs/walsh/",
+    "status": 200
+  },
+  {
+    "url": "https://archive.org/details/reportofcongress01unit",
+    "status": 200
+  },
+  {
+    "url": "https://www.nytimes.com/2017/04/10/business/united-flight-passenger-dragged.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.transportation.gov/",
+    "status": 403
+  },
+  {
+    "url": "https://www.un.org/news/dh/sudan/com_inq_darfur.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://www.hrw.org/africa/sudan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Omar_Mateen",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Osama_bin_Laden",
+    "status": 200
+  },
+  {
+    "url": "https://www.aljazeera.com/middle-east/",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Oliver_Schmidt",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Oliver_Wendell_Holmes_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Orlando_Letelier",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Orval_Faubus",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Orville%20Kelly",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Oscar_Danilo_Bland%C3%B3n",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Óscar_Romero",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Otto_Pérez_Molina",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/usao-dc/case-multi-defendant/case/oath-keepers",
+    "status": 404
+  },
+  {
+    "url": "https://www.osha.gov",
+    "status": 200
+  },
+  {
+    "url": "https://openai.com",
+    "status": 403
+  },
+  {
+    "url": "https://www.forbes.com/profile/oprah-winfrey/",
+    "status": 200
+  },
+  {
+    "url": "https://supreme.justia.com/cases/federal/us/274/200/",
+    "status": 403
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/60282900/giuffre-v-prince-andrew/",
+    "status": 202
+  },
+  {
+    "url": "https://www.bbc.com/news/uk-50449339",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Special%20Counsel%20Investigation",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=New%20Yorker%20Investigation",
+    "status": 302
+  },
+  {
+    "url": "https://www.c-span.org/video/?175384-1/us-policy-iraq",
+    "status": 301
+  },
+  {
+    "url": "https://www.worldbank.org/en/about/leadership/members",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Defense%20Planning%20Guidance%20(1992%2C%20leaked)",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Rise%20of%20the%20Vulcans%3A%20The%20History%20of%20Bush%27s%20War%20Cabinet",
+    "status": 302
+  },
+  {
+    "url": "https://www.intelligence.senate.gov/resources/intelligence-related-commissions",
+    "status": 301
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Church%20Committee%20testimony",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Pete_Buttigieg",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.google.com/search?q=Paul%20Njoroge",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Peter_DeFazio",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Peter%20Robison",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Philip_Brailsford",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Patrick_Crusius",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Payton_Gendron",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Pamela%20Foster",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Paul%20Goldenheim",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Paul_Kagame",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Paul_Popenoe",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Paul_Schrade",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Paul_Tucker",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Paul_Weyrich",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Pelican_Bay_State_Prison",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Pete_Arredondo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Peter_Madoff",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Peter_Neufeld",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Petro_Poroshenko",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Phil_Berger",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Phil_Bryant",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Philippe_Moryoussef",
+    "status": 404
+  },
+  {
+    "url": "https://www.google.com/search?q=Porcha%20Woodruff",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Prudence_Bushnell",
+    "status": 200
+  },
+  {
+    "url": "https://www.theguardian.com/uk-news/2019/jul/30/peter-mandelson-jeffrey-epstein",
+    "status": 404
+  },
+  {
+    "url": "https://www.nytimes.com/topic/person/paul-d-ryan",
+    "status": 404
+  },
+  {
+    "url": "https://www.mprnews.org/topic/philandocastile",
+    "status": 301
+  },
+  {
+    "url": "https://www.washingtonpost.com/wp-srv/nation/specials/tillman/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.vatican.va/content/francesco/en.html",
+    "status": 200
+  },
+  {
+    "url": "https://www.eccc.gov.kh/",
+    "status": 200
+  },
+  {
+    "url": "https://www.harpercollins.com/products/first-they-killed-my-father-loung-ung",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/sco/case/united-states-v-paul-j-manafort-jr",
+    "status": 404
+  },
+  {
+    "url": "https://theintercept.com/collections/palantir/",
+    "status": 404
+  },
+  {
+    "url": "https://www.fec.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.defense.gov/News/Releases/Release/Article/2049534/",
+    "status": 403
+  },
+  {
+    "url": "https://www.treasury.gov/resource-center/sanctions/",
+    "status": 302
+  },
+  {
+    "url": "https://web.archive.org/web/2024/https://www.justice.gov/file/1124706/download",
+    "status": 302
+  },
+  {
+    "url": "https://www.netflix.com/title/80114666",
+    "status": 200
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/7658913/united-states-v-stone/",
+    "status": 202
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/6183591/united-states-v-manafort/",
+    "status": 202
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/63495928/freeman-v-giuliani/",
+    "status": 202
+  },
+  {
+    "url": "https://www.c-span.org/video/?462628-1/robert-mueller-testifies-house-judiciary-committee",
+    "status": 301
+  },
+  {
+    "url": "https://www.newyorker.com/magazine/2017/03/27/the-reclusive-hedge-fund-tycoon-behind-the-trump-presidency",
+    "status": 200
+  },
+  {
+    "url": "https://ico.org.uk/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Mercer%20Family%20Foundation%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://www.justice.gov/storage/120919-examination.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Media%20Statements",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Donoghue%20Contemporaneous%20Notes",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=NY%20Fraud%20Trial%20Testimony",
+    "status": 302
+  },
+  {
+    "url": "https://www.justice.gov/file/1124706/dl",
+    "status": 404
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=DOJ%20Investigation%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://www.project2025.org/playbook/",
+    "status": 301
+  },
+  {
+    "url": "https://americarenewing.com/",
+    "status": 200
+  },
+  {
+    "url": "https://www.federalregister.gov/documents/2020/10/26/2020-23780/creating-schedule-f-in-the-excepted-service",
+    "status": 200
+  },
+  {
+    "url": "https://www.gao.gov/assets/gao-20-341.pdf",
+    "status": 403
+  },
+  {
+    "url": "https://www.nature.com/articles/nm.3985",
+    "status": 303
+  },
+  {
+    "url": "https://reporter.nih.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=MIT%20Technology%20Review%20-%20Baric%20Profile",
+    "status": 302
+  },
+  {
+    "url": "https://sph.unc.edu/adv_profile/ralph-s-baric-phd/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Gain%20of%20Function%20Research%20Papers",
+    "status": 302
+  },
+  {
+    "url": "https://www.washingtonpost.com/archive/opinions/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=David%20Corn%20-%22Hubris%3A%20The%20Inside%20Story%20of%20Spin%2C%20Scandal%2C%20and%20the%20Selling%20of%20the%20Iraq%20War%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=U.S.%20v.%20Libby%20Trial%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Perjury%20case%20court%20records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Robert%20McNamara%20-%22In%20Retrospect%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Errol%20Morris%20-%22The%20Fog%20of%20War%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=RFK%20assassination%20investigation%20records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Sandy%20Hook%20Promise%20Foundation",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=9%2F11%20Commission%20testimony",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Richard%20Clarke%20-%22Against%20All%20Enemies%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=R%20v%20Brooks%20%26%20Others%20Trial%20Documents",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Kagan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Randy_Babbitt",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Sumwalt",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Clifford",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ramon_Laguarta",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Roger_Ailes",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/R._Kelly",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Reid_Hoffman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Bowers",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Riley_June_Williams",
+    "status": 200
+  },
+  {
+    "url": "https://web.archive.org/web/2024/https://www.reuters.com/world/russia-ukraine/",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ralph_Abernathy",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ramón_Fonseca",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ramona_Africa",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Randall_Robinson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Randy_Weaver",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Rashida_Richardson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ray_Sitton",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ray_Wood",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Raymond_Bonner",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/R._C._Arnold",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Rebecca_Mark",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Red%20Fawn%20Fallis",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Reinhard_Gehlen",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/René_Schneider",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Lt._Gen._Ricardo_Sanchez",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Richard_Cordray",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Richard%20Dorenkamp",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Richard_Henry_Pratt",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Richard_Rogers",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Richard_Rothstein",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Richard_Schwartz",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Richard_Secord",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Rick_Dearborn",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Rigoberta_Menchú",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=RJ%20Lehmann",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Rob_Bilott",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Bilott",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Crants",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Dudley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Houghton",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Robert%20Kaluza",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Kehoe",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_King",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Komer",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Robert%20J%20Martens",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_McFarlane",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Moses",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Scherrer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Taft",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Taylor",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Weaver",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robert_Williams",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Roberta_Kaplan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Roberto_De_Vido",
+    "status": 404
+  },
+  {
+    "url": "https://www.google.com/search?q=Robin%20Arkley%20II",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Robin_Vos",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Roger_Noriega",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Roger_Severino",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Roy_Bourgeois",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Roy_Bryant",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Roy_Cohn",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Roy%20Martin%20Mitchell",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Rufina_Amaya",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Russell_Pearce",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Russell_Portenoy",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ruth_Bader_Ginsburg",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ruth_Madoff",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ruth_Riddle",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ryan_Crocker",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ryan_Salame",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ronald_Perelman",
+    "status": 200
+  },
+  {
+    "url": "https://www.latimes.com/local/la-me-rodney-king-sg-storygallery.html",
+    "status": 404
+  },
+  {
+    "url": "https://www.loc.gov/collections/rosa-parks-papers/",
+    "status": 403
+  },
+  {
+    "url": "https://nader.org/",
+    "status": 200
+  },
+  {
+    "url": "https://www.bbc.com/news/magazine-19965052",
+    "status": 404
+  },
+  {
+    "url": "https://www.nytimes.com/2008/03/15/us/15scruggs.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.icty.org/en/case/karadzic",
+    "status": 200
+  },
+  {
+    "url": "https://www.icty.org/en/case/mladic",
+    "status": 200
+  },
+  {
+    "url": "https://www.penguinrandomhouse.com/books/288915/shake-hands-with-the-devil-by-romeo-dallaire/",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/united-states-v-robert-menendez-et-al",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/archive/dag/pubdoc/speech/2003/062603hcaspeech.htm",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/usao-ndil/us-v-rod-blagojevich-et-al",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/archive/usao/cas/press/cas50303.html",
+    "status": 404
+  },
+  {
+    "url": "https://www.tampabay.com/news/florida-politics/governor/",
+    "status": 404
+  },
+  {
+    "url": "https://www.penguinrandomhouse.com/books/612031/empire-of-pain-by-patrick-radden-keefe/",
+    "status": 404
+  },
+  {
+    "url": "https://www.epa.gov/flint",
+    "status": 200
+  },
+  {
+    "url": "https://insideclimatenews.org/project/exxon-the-road-not-taken/",
+    "status": 200
+  },
+  {
+    "url": "https://www.cbsnews.com/news/stormy-daniels-describes-her-alleged-affair-with-donald-trump-60-minutes-interview/",
+    "status": 200
+  },
+  {
+    "url": "https://www.amazon.com/Full-Disclosure-Stormy-Daniels/dp/1250205611",
+    "status": 404
+  },
+  {
+    "url": "https://www.c-span.org/video/?521234-1/election-worker-shaye-moss-describes-impact-harassment",
+    "status": 301
+  },
+  {
+    "url": "https://www.justice.gov/archive/osc/documents/libby_indictment_28102005.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Special%20Counsel%20Fitzgerald%20Closing%20Argument",
+    "status": 302
+  },
+  {
+    "url": "https://georgewbush-whitehouse.archives.gov/news/releases/2007/07/20070702-3.html",
+    "status": 200
+  },
+  {
+    "url": "https://whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grant-clemency-lewis-scooter-libby/",
+    "status": 301
+  },
+  {
+    "url": "https://www.nature.com/articles/s41586-020-2012-7",
+    "status": 303
+  },
+  {
+    "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+    "status": 200
+  },
+  {
+    "url": "https://www.science.org/content/article/wuhan-scientists-scientific-american-article-bat-woman",
+    "status": 403
+  },
+  {
+    "url": "https://www.vanityfair.com/news/2021/06/the-lab-leak-theory-inside-the-fight-to-uncover-covid-19s-origins",
+    "status": 200
+  },
+  {
+    "url": "https://www.consilium.europa.eu/en/policies/sanctions/",
+    "status": 403
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Stephen%20Kinzer%20-%22Poisoner%20in%20Chief%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Peter%20Kornbluh%20-%22The%20Pinochet%20File%22",
+    "status": 302
+  },
+  {
+    "url": "https://www.justice.gov/atr/case/us-and-plaintiff-states-v-google-llc-2020",
+    "status": 404
+  },
+  {
+    "url": "https://competition-policy.ec.europa.eu/antitrust/cases/",
+    "status": 404
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Supreme%20Court%20opinions",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sam_Altman",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Sanjiv%20Singh",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Samya_Rose_Stumo",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Satya_Nadella",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Steven_Collis",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/St�phane_Bancel",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Steven_Crowder",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Salvador_Ramos",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Stephen_Paddock",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Strom_Thurmond",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sam_Salehpour",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sam_Walton",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sam_Zemurray",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Samuel_Koster",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Samuel_Weaver",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sandra_Bland",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sarah_Page",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sarwo_Edhie_Wibowo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Savanna_LaFontaine-Greywind",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Scott_Ellsworth",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Scott_Lloyd",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Scott_Walker",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Seymour_Hersh",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Shelley_v._Kraemer",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sherrilyn_Ifill",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sherron_Watkins",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sigmundur_Davíð_Gunnlaugsson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sirhan_Bishara_Sirhan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Smedley_Butler",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Stafford_Warren",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Stefano_Delle_Chiaie",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Stephen_Hemsley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Stephen_J._Townsend",
+    "status": 200
+  },
+  {
+    "url": "https://www.opensecrets.org/orgs/phrma/summary?id=D000000504",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Stewart_Udall",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Stuart_Appelbaum",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Stuart%20Johnson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Stuart_Symington",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Sukarno",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Susan_Reverby",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Susan_Rice",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Suzanne_Scott",
+    "status": 200
+  },
+  {
+    "url": "https://supremecourthistory.org/",
+    "status": 200
+  },
+  {
+    "url": "https://www.vanityfair.com/news/2019/07/jeffrey-epstein-financial-crimes",
+    "status": 404
+  },
+  {
+    "url": "https://www.nytimes.com/2019/07/12/business/jeffrey-epstein-scientist-edge.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.courtlistener.com/docket/6073866/ransome-v-epstein/",
+    "status": 202
+  },
+  {
+    "url": "https://www.theguardian.com/us-news/2022/apr/25/steven-donziger-chevron-ecuador-lawyer-released-prison",
+    "status": 404
+  },
+  {
+    "url": "https://www.ohchr.org/en/documents/opinions/opinion-no-202022",
+    "status": 403
+  },
+  {
+    "url": "https://theintercept.com/collections/the-billion-dollar-case/",
+    "status": 404
+  },
+  {
+    "url": "https://www.washingtonpost.com/local/susan-bro-heather-heyer/2017/08/16/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.judiciary.senate.gov/meetings/dereliction-of-duty-examining-the-inspector-generals-report-on-the-fbis-handling-of-the-larry-nassar-investigation",
+    "status": 301
+  },
+  {
+    "url": "https://www.forbes.com/profile/steven-udvar-hazy/",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/litigation/litreleases/lr17829.htm",
+    "status": 403
+  },
+  {
+    "url": "https://www.washingtonpost.com/wp-dyn/content/article/2005/04/01/AR2005040101627.html",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.nytimes.com/2015/05/19/us/politics/clinton-friends-libya-role.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.icty.org/en/case/slobodan_milosevic",
+    "status": 200
+  },
+  {
+    "url": "https://theactofkilling.com/",
+    "status": "error",
+    "error": "Client network socket disconnected before secure TLS connection was established"
+  },
+  {
+    "url": "https://www.etan.org/etanpdf/2006/CAVR/Chega!-Report-Full.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://www.penguinrandomhouse.com/books/55075/the-great-terror-by-robert-conquest/",
+    "status": 302
+  },
+  {
+    "url": "https://timothysnyder.org/bloodlands",
+    "status": 404
+  },
+  {
+    "url": "https://www.propublica.org/article/samuel-alito-luxury-fishing-trip-paul-singer-scotus",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/usao-dc/united-states-v-stephen-k-bannon",
+    "status": 404
+  },
+  {
+    "url": "https://www.fultoncountyga.gov/news/2023/08/14/fulton-county-district-attorney",
+    "status": 302
+  },
+  {
+    "url": "https://www.justice.gov/usao-sdny/united-states-v-samuel-bankman-fried",
+    "status": 404
+  },
+  {
+    "url": "https://www.splcenter.org/stephen-miller-breitbart-emails",
+    "status": 301
+  },
+  {
+    "url": "https://www.theatlantic.com/",
+    "status": 200
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Trial%20Verdict",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Inaugural%20Committee%20Investigation",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Hutchinson%20Testimony",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Minnesota%20v.%20Thao%20court%20records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Colorado%20v.%20Peters%20court%20records",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tewolde_GebreMariam",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Tor%20Stumo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Trevor_Milton",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Travis_Kalanick",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Timothy_Loehmann",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tony_Blair",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Travis_McMichael",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tristan_Tate",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Trent_Lott",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Timothy_McVeigh",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ted_Kaczynski",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tudor_Dixon",
+    "status": 200
+  },
+  {
+    "url": "https://memorialmuseum.com/",
+    "status": 200
+  },
+  {
+    "url": "https://www.fbi.gov/history/famous-cases/oklahoma-city-bombing",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tadarrius_Bean",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tamika_Palmer",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tamir_Rice",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tarla_Makaeff",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ted_Henifin",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Ted_Shackley",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Terrell%20Don%20Hutto",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Terry%20Dehko",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Terry%20Farr",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thad_Allen",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Thane%20Eugene%20Cesar",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Theodore_Bilbo",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Beasley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Curry",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Dobbs",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Drake",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Enders",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Hofeller",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Jackson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Midgley_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Morgan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Murray",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Noguchi",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Pappas_(general)",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Parran_Jr.",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Silverstein",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Stephens",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_Stroock",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Thomas_D._Waldhauser",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tim_Moore",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tim_Phillips",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tim_Russ",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tim_Walberg",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Timothy_Mellon",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Timothy_Olson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Timothy_Purdon",
+    "status": 404
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Timothy_Sloan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Timothy_Tyson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tom_Harkin",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tom_Saffer",
+    "status": 404
+  },
+  {
+    "url": "https://www.google.com/search?q=Ton%20That%20Tung",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Tree%20Africa",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Tyler_Shultz",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Terje_Roed-Larsen",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Teresa_Helm",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/crt/file/836416/download",
+    "status": 404
+  },
+  {
+    "url": "https://supremecourthistory.org/history-of-the-court/the-current-court/justice-thurgood-marshall/",
+    "status": 404
+  },
+  {
+    "url": "https://www.hbo.com/movies/going-clear-scientology-and-the-prison-of-belief",
+    "status": 301
+  },
+  {
+    "url": "https://www.technologyreview.com/2020/12/04/1013294/google-ai-ethics-research-paper-forced-out-timnit-gebru/",
+    "status": 200
+  },
+  {
+    "url": "https://us.macmillan.com/books/9780805086652/",
+    "status": 403
+  },
+  {
+    "url": "https://www.armenian-genocide.org/",
+    "status": 200
+  },
+  {
+    "url": "https://archive.org/details/ambassadormorgenstory00morgrich",
+    "status": 404
+  },
+  {
+    "url": "https://unictr.irmct.org/en/cases/ictr-98-41",
+    "status": 200
+  },
+  {
+    "url": "https://www.texastribune.org/2010/11/24/delay-found-guilty-money-laundering/",
+    "status": 404
+  },
+  {
+    "url": "https://www.justice.gov/opr/report-investigation-senator-ted-stevens",
+    "status": 404
+  },
+  {
+    "url": "https://www.oig.dhs.gov/",
+    "status": 200
+  },
+  {
+    "url": "https://www.aclu.org/issues/immigrants-rights/immigrants-rights-and-detention/family-separation",
+    "status": 301
+  },
+  {
+    "url": "https://www.sfo.gov.uk/",
+    "status": 301
+  },
+  {
+    "url": "https://www.politico.com/",
+    "status": 403
+  },
+  {
+    "url": "https://www.doi.gov/priorities/strengthening-indian-country/federal-indian-boarding-school-initiative",
+    "status": 403
+  },
+  {
+    "url": "https://www.nps.gov/ulsg/",
+    "status": 302
+  },
+  {
+    "url": "https://www.pbs.org/kenburns/the-grant/",
+    "status": 404
+  },
+  {
+    "url": "https://www.nytimes.com/2021/04/28/world/europe/european-union-pfizer-von-der-leyen-texts.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.ombudsman.europa.eu/",
+    "status": 200
+  },
+  {
+    "url": "https://www.politico.eu/article/pfizer-ursula-von-der-leyen-european-commission/",
+    "status": 404
+  },
+  {
+    "url": "https://www.bbc.com/news/uk-60393843",
+    "status": 200
+  },
+  {
+    "url": "https://www.europarl.europa.eu/news/en/press-room/20220909IPR40137/",
+    "status": 200
+  },
+  {
+    "url": "https://freedomhouse.org/country/hungary",
+    "status": 200
+  },
+  {
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2019/09/Unclassified09.2019.pdf",
+    "status": 404
+  },
+  {
+    "url": "https://www.icij.org/investigations/pandora-papers/",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=roivant",
+    "status": 403
+  },
+  {
+    "url": "https://www.icc-cpi.int/situations/ukraine",
+    "status": 403
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Valerie%20Plame%20-%22Fair%20Game%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Special%20Counsel%20investigation",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Surgeon%20General%20Advisory%20on%20Social%20Media",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Leaked%20phone%20call%20transcript",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/ValuJet_Flight_592",
+    "status": 200
+  },
+  {
+    "url": "https://www.opensecrets.org/members-of-congress/virginia-foxx/summary?cid=N00026166",
+    "status": 403
+  },
+  {
+    "url": "https://www.justice.gov/civil/case/tobacco-litigation",
+    "status": 404
+  },
+  {
+    "url": "https://nmaahc.si.edu/explore/stories/green-book",
+    "status": 403
+  },
+  {
+    "url": "https://digitalcollections.nypl.org/collections/the-green-book",
+    "status": 200
+  },
+  {
+    "url": "https://www.europarl.europa.eu/sides/getDoc.do?pubRef=-//EP//TEXT+MOTION+B3-1990-2021+0+DOC+XML+V0//EN",
+    "status": 301
+  },
+  {
+    "url": "https://www.okhistory.org/research/forms/freport.pdf",
+    "status": 200
+  },
+  {
+    "url": "https://www.corteidh.or.cr/",
+    "status": 200
+  },
+  {
+    "url": "https://www.justice.gov/opa/pr/novartis-agrees-pay-more-729-million-resolve-criminal-and-civil-liability-kickback-scheme",
+    "status": 404
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Paradise%20Papers%20Investigation",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Iran-Contra%20Independent%20Counsel%20Final%20Report",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Tower%20Commission%20Report",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Bob%20Woodward%20-%22Veil%3A%20The%20Secret%20Wars%20of%20the%20CIA%22",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Congressional%20Iran-Contra%20Investigation",
+    "status": 302
+  },
+  {
+    "url": "https://www.intelligence.senate.gov/sites/default/files/94755_II.pdf",
+    "status": 301
+  },
+  {
+    "url": "https://web.archive.org/web/20050205041635/http://www.newamericancentury.org/statementofprinciples.htm",
+    "status": 200
+  },
+  {
+    "url": "https://web.archive.org/web/20050212041719/http://www.newamericancentury.org/iraqclintonletter.htm",
+    "status": 302
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Calley",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Warren_Buffett",
+    "status": 200
+  },
+  {
+    "url": "https://www.bayer.com/en/investors/annual-report",
+    "status": 403
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_",
+    "status": 301
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Walter_McMillian",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Walter_Schreiber",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Walter_White",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Warren_Anderson",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wendell_Potter",
+    "status": 200
+  },
+  {
+    "url": "https://www.archives.gov/iwg/declassified-records/rg-330-defense-secretary",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wesley_Lowery",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Wilbur%20Tennant",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Colby",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=William%20H%20Craig",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Degan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Harper",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Levitt",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Lowe",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Newell",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Pepper",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Rogers",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Sullivan",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Tecumseh_Sherman",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/William_Westmoreland",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Willie_Reed",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wilson_Goode",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Winston_Churchill",
+    "status": 200
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Woodrow_Wilson",
+    "status": 200
+  },
+  {
+    "url": "https://www.washingtonpost.com/context/special-counsel-robert-s-mueller-letter-to-attorney-general-william-p-barr/e32695eb-c379-4696-845a-1b45ad32fff1/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://oig.justice.gov/reports/review-role-and-activity-federal-law-enforcement-agencies-during-events-lafayette-park",
+    "status": 404
+  },
+  {
+    "url": "https://www.nytimes.com/2017/12/07/us/michael-slager-sentence-walter-scott.html",
+    "status": 403
+  },
+  {
+    "url": "https://www.pbs.org/wgbh/aia/part4/4p1561.html",
+    "status": 200
+  },
+  {
+    "url": "https://www.who.int",
+    "status": 200
+  },
+  {
+    "url": "https://www.sec.gov/litigation/litreleases/lr17588.htm",
+    "status": 403
+  },
+  {
+    "url": "https://www.justice.gov/criminal/pr/former-congressman-william-jefferson-convicted-bribery-and-other-charges",
+    "status": 404
+  },
+  {
+    "url": "https://ag.ny.gov/press-release/2020/attorney-general-james-files-lawsuit-dissolve-nra",
+    "status": 200
+  },
+  {
+    "url": "https://www.npr.org/2005/11/16/5014080/my-lobotomy-howard-dullys-journey",
+    "status": 200
+  },
+  {
+    "url": "https://profiles.nlm.nih.gov/spotlight/bb",
+    "status": 200
+  },
+  {
+    "url": "https://www.xinjiangpolicefiles.org/",
+    "status": 403
+  },
+  {
+    "url": "https://www.icij.org/investigations/china-cables/",
+    "status": 200
+  },
+  {
+    "url": "https://www.etan.org/news/2006/cavr.htm",
+    "status": 200
+  },
+  {
+    "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB62/",
+    "status": 200
+  },
+  {
+    "url": "https://www.un.org/en/",
+    "status": 200
+  },
+  {
+    "url": "https://www.hhs.gov/about/leadership/secretary/",
+    "status": 403
+  },
+  {
+    "url": "https://www.kff.org/medicaid/issue-brief/medicaid-enrollment-and-unwinding-tracker/",
+    "status": 301
+  },
+  {
+    "url": "https://whistleblowernetwork.org/",
+    "status": "error",
+    "error": "write EPROTO 80070100:error:0A000458:SSL routines:ssl3_read_bytes:tlsv1 unrecognized name:openssl\\ssl\\record\\rec_layer_s3.c:916:SSL alert number 112\n"
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Army%20Retirement%20Records",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=NYC%20Council%20Records",
+    "status": 302
+  },
+  {
+    "url": "http://web.archive.org/web/20240315011338/https://www.justice.gov/file/1035477/download",
+    "status": 200
+  },
+  {
+    "url": "https://bellingcat.com/tag/wagner-group/",
+    "status": 301
+  },
+  {
+    "url": "https://www.ohchr.org/",
+    "status": 403
+  },
+  {
+    "url": "https://home.treasury.gov/policy-issues/financial-sanctions/specially-designated-nationals-and-blocked-persons-list-sdn-human-readable-lists",
+    "status": 302
+  },
+  {
+    "url": "https://www.ntsb.gov/investigations/Pages/default.aspx",
+    "status": 200
+  },
+  {
+    "url": "https://about.fb.com/news/2017/10/hard-questions-russian-ads/",
+    "status": 301
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=Hamoodur%20Rahman%20Commission%20Report",
+    "status": 302
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=The%20Blood%20Telegram",
+    "status": 302
+  },
+  {
+    "url": "https://www.bea.aero/en/investigation-reports",
+    "status": "error",
+    "error": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "url": "https://transportation.house.gov/committee-activity/boeing-737-max-investigation",
+    "status": 301
+  },
+  {
+    "url": "https://www.seattletimes.com/business/boeing-aerospace/",
+    "status": 200
+  },
+  {
+    "url": "https://www.google.com/search?q=Zipporah%20Kuria",
+    "status": 200
+  },
+  {
+    "url": "https://www.opensecrets.org/federal-lobbying/clients/summary?cycle=2020&id=D000000076",
+    "status": 403
+  },
+  {
+    "url": "https://corporate.ford.com/",
+    "status": "timeout"
+  }
+]

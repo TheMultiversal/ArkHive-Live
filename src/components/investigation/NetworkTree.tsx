@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useCallback, useMemo, memo } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, useRef, memo } from 'react';
 import {
   ReactFlow,
   MiniMap,
@@ -14,18 +14,26 @@ import {
   Handle,
   Position,
   MarkerType,
+  getBezierPath,
+  EdgeLabelRenderer,
+  getNodesBounds,
+  getViewportForBounds,
   type Node,
   type Edge,
+  type EdgeProps,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import ELK from 'elkjs/lib/elk.bundled.js';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { toPng } from 'html-to-image';
 import {
   Search, X, Filter, Network, Building2, DollarSign,
   Target, Shield, ChevronDown, ChevronRight,
   Activity, Users, Eye, ArrowUpRight,
-  Maximize2, RotateCcw, FoldVertical, UnfoldVertical,
+  Maximize2, Minimize2, RotateCcw, FoldVertical, UnfoldVertical,
+  Download,
 } from 'lucide-react';
 
 // ============================================================
@@ -97,6 +105,14 @@ interface NodeData {
   transactionCount?: number;
   relationship?: string;
   title?: string;
+  isSearchMatch?: boolean;
+  hasActiveSearch?: boolean;
+  [key: string]: unknown;
+}
+
+interface MoneyEdgeData {
+  amount: string;
+  totalCount: number;
   [key: string]: unknown;
 }
 
@@ -115,6 +131,13 @@ const SEVERITY_COLORS: Record<string, string> = {
   high: '#ea580c',
   medium: '#ca8a04',
   low: '#71717a',
+};
+
+const SEVERITY_PULSE_SPEED: Record<string, number> = {
+  critical: 1.2,
+  high: 2,
+  medium: 3,
+  low: 4.5,
 };
 
 const PERSON_TIER_COLORS: Record<PersonTier, string> = {
@@ -197,7 +220,6 @@ async function computeElkLayout(
     const dims = NODE_DIMENSIONS[type] || { width: 250, height: 80 };
     return { id: node.id, width: dims.width, height: dims.height };
   });
-
   const elkEdges = edges.map(edge => ({
     id: edge.id,
     sources: [edge.source],
@@ -234,7 +256,62 @@ async function computeElkLayout(
 }
 
 // ============================================================
-// BUILD GRAPH DATA
+// MONEY FLOW EDGE MATCHING
+// ============================================================
+
+function findMatchingNode(term: string, nodes: AppNode[]): AppNode | undefined {
+  const t = term.toLowerCase();
+  // Exact name match
+  let match = nodes.find(n => ((n.data.name as string) || '').toLowerCase() === t);
+  if (match) return match;
+  // Name appears inside the term
+  match = nodes.find(n => {
+    const name = ((n.data.name as string) || '').toLowerCase();
+    return name.length > 3 && t.includes(name);
+  });
+  if (match) return match;
+  // Last name match
+  return nodes.find(n => {
+    const name = ((n.data.name as string) || '').toLowerCase();
+    const lastName = name.split(' ').pop() || '';
+    return lastName.length > 3 && t.includes(lastName);
+  });
+}
+
+function buildMoneyFlowEdges(moneyTrail: MoneyTransaction[], visibleNodes: AppNode[]): AppEdge[] {
+  const leafNodes = visibleNodes.filter(n => n.data.nodeType === 'person' || n.data.nodeType === 'org');
+  if (leafNodes.length === 0 || moneyTrail.length === 0) return [];
+
+  const edgeMap = new Map<string, { sourceId: string; targetId: string; amounts: string[]; count: number }>();
+
+  for (const txn of moneyTrail) {
+    const sourceNode = findMatchingNode(txn.from, leafNodes);
+    const targetNode = findMatchingNode(txn.to, leafNodes);
+    if (sourceNode && targetNode && sourceNode.id !== targetNode.id) {
+      const key = `${sourceNode.id}|${targetNode.id}`;
+      if (!edgeMap.has(key)) {
+        edgeMap.set(key, { sourceId: sourceNode.id, targetId: targetNode.id, amounts: [], count: 0 });
+      }
+      const entry = edgeMap.get(key)!;
+      entry.amounts.push(txn.amount);
+      entry.count++;
+    }
+  }
+
+  return Array.from(edgeMap.values()).map((entry) => ({
+    id: `money-${entry.sourceId}-${entry.targetId}`,
+    source: entry.sourceId,
+    target: entry.targetId,
+    sourceHandle: 'money-out',
+    targetHandle: 'money-in',
+    type: 'moneyFlow',
+    data: { amount: entry.amounts[0], totalCount: entry.count } as MoneyEdgeData,
+    markerEnd: { type: MarkerType.ArrowClosed, color: '#eab308', width: 10, height: 10 },
+  }));
+}
+
+// ============================================================
+// BUILD GRAPH DATA (tree structure)
 // ============================================================
 
 function buildGraphData(
@@ -472,6 +549,58 @@ function buildGraphData(
 }
 
 // ============================================================
+// CUSTOM EDGE: MONEY FLOW
+// ============================================================
+
+function MoneyFlowEdge({
+  sourceX, sourceY, targetX, targetY,
+  sourcePosition, targetPosition, data, markerEnd,
+}: EdgeProps) {
+  const [edgePath, labelX, labelY] = getBezierPath({
+    sourceX, sourceY, sourcePosition,
+    targetX, targetY, targetPosition,
+  });
+  const edgeData = data as MoneyEdgeData | undefined;
+  const amount = edgeData?.amount;
+  const count = edgeData?.totalCount || 1;
+
+  return (
+    <>
+      <path d={edgePath} fill="none" stroke="rgba(234,179,8,0.10)" strokeWidth={8} />
+      <path
+        d={edgePath}
+        fill="none"
+        stroke="#eab308"
+        strokeWidth={1.5}
+        strokeDasharray="6 4"
+        strokeOpacity={0.7}
+        className="money-flow-animate"
+        markerEnd={markerEnd as string}
+      />
+      {amount && (
+        <EdgeLabelRenderer>
+          <div
+            style={{
+              position: 'absolute',
+              transform: `translate(-50%, -50%) translate(${labelX}px, ${labelY}px)`,
+              pointerEvents: 'none',
+            }}
+            className="nodrag nopan"
+          >
+            <span
+              className="text-[7px] font-mono font-bold text-yellow-400/90 bg-black/90 px-1.5 py-0.5 border border-yellow-900/40 whitespace-nowrap"
+              style={{ borderRadius: 4 }}
+            >
+              $ {amount}{count > 1 ? ` (×${count})` : ''}
+            </span>
+          </div>
+        </EdgeLabelRenderer>
+      )}
+    </>
+  );
+}
+
+// ============================================================
 // CUSTOM NODE COMPONENTS
 // ============================================================
 
@@ -483,29 +612,54 @@ const glassBase: React.CSSProperties = {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function RootNode({ data, selected }: any) {
   const sevColor = SEVERITY_COLORS[data.severity] || '#dc2626';
+  const pulseSpeed = SEVERITY_PULSE_SPEED[data.severity as string] || 3;
+
   return (
     <>
       <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
-      <div
-        className={`px-6 py-4 transition-all duration-200 ${selected ? 'ring-2 ring-white/30' : ''}`}
-        style={{
-          ...glassBase,
-          border: `2px solid ${sevColor}40`,
-          boxShadow: selected ? `0 0 30px ${sevColor}30` : `0 0 15px ${sevColor}15`,
-          minWidth: 380,
-        }}
-      >
-        <div className="flex items-center gap-3 mb-2">
-          <div className="w-3 h-3 rounded-sm animate-pulse" style={{ backgroundColor: sevColor, boxShadow: `0 0 8px ${sevColor}` }} />
-          <span className="text-sm font-black text-white uppercase tracking-wider leading-tight" style={{ maxWidth: 320 }}>
-            {(data.title as string)?.length > 55 ? (data.title as string).substring(0, 53) + '..' : data.title}
-          </span>
+      <div className="relative">
+        {/* Severity pulse rings */}
+        <div className="absolute -inset-4 pointer-events-none overflow-visible">
+          <div
+            className="absolute inset-0"
+            style={{
+              border: `2px solid ${sevColor}`,
+              borderRadius: 16,
+              animation: `severityPulse ${pulseSpeed}s ease-out infinite`,
+            }}
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              border: `1px solid ${sevColor}`,
+              borderRadius: 16,
+              animation: `severityPulse ${pulseSpeed}s ease-out infinite`,
+              animationDelay: `${pulseSpeed / 2}s`,
+            }}
+          />
         </div>
-        <div className="flex items-center gap-4 text-[10px] font-mono">
-          <span style={{ color: sevColor }} className="font-bold uppercase tracking-wider">{(data.severity as string)?.toUpperCase()}</span>
-          <span className="text-zinc-500">{data.entityCount} entities</span>
-          <span className="text-zinc-500">{data.defendantCount} defendants</span>
-          <span className="text-zinc-500">{data.transactionCount} txns</span>
+        {/* Node content */}
+        <div
+          className={`px-6 py-4 transition-all duration-200 ${selected ? 'ring-2 ring-white/30' : ''}`}
+          style={{
+            ...glassBase,
+            border: `2px solid ${sevColor}40`,
+            boxShadow: selected ? `0 0 30px ${sevColor}30` : `0 0 15px ${sevColor}15`,
+            minWidth: 380,
+          }}
+        >
+          <div className="flex items-center gap-3 mb-2">
+            <div className="w-3 h-3 rounded-sm animate-pulse" style={{ backgroundColor: sevColor, boxShadow: `0 0 8px ${sevColor}` }} />
+            <span className="text-sm font-black text-white uppercase tracking-wider leading-tight" style={{ maxWidth: 320 }}>
+              {(data.title as string)?.length > 55 ? (data.title as string).substring(0, 53) + '..' : data.title}
+            </span>
+          </div>
+          <div className="flex items-center gap-4 text-[10px] font-mono">
+            <span style={{ color: sevColor }} className="font-bold uppercase tracking-wider">{(data.severity as string)?.toUpperCase()}</span>
+            <span className="text-zinc-500">{data.entityCount} entities</span>
+            <span className="text-zinc-500">{data.defendantCount} defendants</span>
+            <span className="text-zinc-500">{data.transactionCount} txns</span>
+          </div>
         </div>
       </div>
     </>
@@ -516,13 +670,18 @@ function RootNode({ data, selected }: any) {
 function CategoryNode({ data, selected }: any) {
   const color = data.color as string;
   const isCollapsed = data.isCollapsed as boolean;
+  const hasSearch = data.hasActiveSearch as boolean | undefined;
+  const isMatch = data.isSearchMatch as boolean | undefined;
+  const dimStyle: React.CSSProperties = hasSearch && !isMatch ? { opacity: 0.2, filter: 'grayscale(0.5)' } : {};
+  const glowStyle: React.CSSProperties = isMatch ? { boxShadow: `0 0 20px rgba(251,146,60,0.4), 0 0 40px rgba(251,146,60,0.15)`, borderColor: '#fb923c' } : {};
+
   return (
     <>
       <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
       <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
       <div
-        className={`px-5 py-3 flex items-center gap-3 cursor-pointer transition-all duration-200 ${selected ? 'ring-2 ring-white/20' : ''}`}
-        style={{ ...glassBase, border: `1.5px solid ${color}40`, boxShadow: `0 0 10px ${color}10` }}
+        className={`px-5 py-3 flex items-center gap-3 cursor-pointer transition-all duration-300 ${selected ? 'ring-2 ring-white/20' : ''}`}
+        style={{ ...glassBase, border: `1.5px solid ${color}40`, boxShadow: `0 0 10px ${color}10`, ...dimStyle, ...glowStyle }}
       >
         <Users className="w-4 h-4 flex-shrink-0" style={{ color }} />
         <span className="text-xs font-black text-white uppercase tracking-wider">{data.category}</span>
@@ -541,13 +700,18 @@ function CategoryNode({ data, selected }: any) {
 function TierNode({ data, selected }: any) {
   const color = data.color as string;
   const isCollapsed = data.isCollapsed as boolean;
+  const hasSearch = data.hasActiveSearch as boolean | undefined;
+  const isMatch = data.isSearchMatch as boolean | undefined;
+  const dimStyle: React.CSSProperties = hasSearch && !isMatch ? { opacity: 0.2, filter: 'grayscale(0.5)' } : {};
+  const glowStyle: React.CSSProperties = isMatch ? { boxShadow: `0 0 20px rgba(251,146,60,0.4), 0 0 40px rgba(251,146,60,0.15)`, borderColor: '#fb923c' } : {};
+
   return (
     <>
       <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
       <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
       <div
-        className={`px-4 py-2.5 flex items-center gap-2 cursor-pointer transition-all duration-200 ${selected ? 'ring-1 ring-white/15' : ''}`}
-        style={{ ...glassBase, background: `linear-gradient(160deg, ${color}08 0%, #020202 100%)`, border: `1px solid ${color}30`, borderRadius: 8 }}
+        className={`px-4 py-2.5 flex items-center gap-2 cursor-pointer transition-all duration-300 ${selected ? 'ring-1 ring-white/15' : ''}`}
+        style={{ ...glassBase, background: `linear-gradient(160deg, ${color}08 0%, #020202 100%)`, border: `1px solid ${color}30`, borderRadius: 8, ...dimStyle, ...glowStyle }}
       >
         <div className="w-2 h-2 rounded-sm flex-shrink-0" style={{ backgroundColor: color }} />
         <span className="text-[10px] font-bold text-zinc-300 uppercase tracking-wider">{data.tier}</span>
@@ -570,16 +734,27 @@ function PersonNode({ data, selected }: any) {
   const moneyOut = (data.moneyOut as MoneyTransaction[]) || [];
   const totalMoney = moneyIn.length + moneyOut.length;
 
+  const hasSearch = data.hasActiveSearch as boolean | undefined;
+  const isMatch = data.isSearchMatch as boolean | undefined;
+  const dimStyle: React.CSSProperties = hasSearch && !isMatch ? { opacity: 0.15, filter: 'grayscale(0.6)', transform: 'scale(0.97)' } : {};
+  const glowStyle: React.CSSProperties = isMatch
+    ? { boxShadow: `0 0 25px rgba(251,146,60,0.5), 0 0 50px rgba(251,146,60,0.2), 0 4px 20px ${tierColor}20`, borderColor: '#fb923c', transform: 'scale(1.02)' }
+    : {};
+
   return (
     <>
       <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="source" position={Position.Right} id="money-out" className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="target" position={Position.Right} id="money-in" className="!bg-transparent !border-0 !w-0 !h-0" />
       <div
-        className={`p-4 transition-all duration-200 ${selected ? 'ring-2 ring-white/25' : ''}`}
+        className={`p-4 transition-all duration-300 ${selected ? 'ring-2 ring-white/25' : ''}`}
         style={{
           ...glassBase,
           border: `1px solid ${selected ? tierColor : 'rgba(184, 0, 0, 0.20)'}`,
           boxShadow: selected ? `0 4px 20px ${tierColor}20, 0 0 1px ${tierColor}40` : '0 2px 8px rgba(0,0,0,0.3)',
           width: 270,
+          ...dimStyle,
+          ...glowStyle,
         }}
       >
         <div className="flex items-start justify-between gap-2 mb-1.5">
@@ -626,16 +801,27 @@ function OrgNode({ data, selected }: any) {
   const moneyOut = (data.moneyOut as MoneyTransaction[]) || [];
   const totalMoney = moneyIn.length + moneyOut.length;
 
+  const hasSearch = data.hasActiveSearch as boolean | undefined;
+  const isMatch = data.isSearchMatch as boolean | undefined;
+  const dimStyle: React.CSSProperties = hasSearch && !isMatch ? { opacity: 0.15, filter: 'grayscale(0.6)', transform: 'scale(0.97)' } : {};
+  const glowStyle: React.CSSProperties = isMatch
+    ? { boxShadow: `0 0 25px rgba(251,146,60,0.5), 0 0 50px rgba(251,146,60,0.2), 0 4px 20px ${tierColor}20`, borderColor: '#fb923c', transform: 'scale(1.02)' }
+    : {};
+
   return (
     <>
       <Handle type="target" position={Position.Left} className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="source" position={Position.Right} id="money-out" className="!bg-transparent !border-0 !w-0 !h-0" />
+      <Handle type="target" position={Position.Right} id="money-in" className="!bg-transparent !border-0 !w-0 !h-0" />
       <div
-        className={`p-4 transition-all duration-200 ${selected ? 'ring-2 ring-white/25' : ''}`}
+        className={`p-4 transition-all duration-300 ${selected ? 'ring-2 ring-white/25' : ''}`}
         style={{
           ...glassBase,
           border: `1px solid ${selected ? tierColor : 'rgba(184, 0, 0, 0.20)'}`,
           boxShadow: selected ? `0 4px 20px ${tierColor}20, 0 0 1px ${tierColor}40` : '0 2px 8px rgba(0,0,0,0.3)',
           width: 270,
+          ...dimStyle,
+          ...glowStyle,
         }}
       >
         <div className="flex items-start justify-between gap-2 mb-1.5">
@@ -668,7 +854,7 @@ function OrgNode({ data, selected }: any) {
 }
 
 // ============================================================
-// NODE TYPES (defined outside component to prevent re-creation)
+// NODE TYPES & EDGE TYPES
 // ============================================================
 
 const nodeTypes = {
@@ -677,6 +863,10 @@ const nodeTypes = {
   tierNode: memo(TierNode),
   personNode: memo(PersonNode),
   orgNode: memo(OrgNode),
+};
+
+const edgeTypes = {
+  moneyFlow: memo(MoneyFlowEdge),
 };
 
 // ============================================================
@@ -750,6 +940,9 @@ function minimapNodeColor(node: AppNode): string {
 
 function NetworkTreeContent({ investigation }: { investigation: InvestigationData }) {
   const reactFlow = useReactFlow();
+  const router = useRouter();
+  const graphRef = useRef<HTMLDivElement>(null);
+
   const [nodes, setNodes, onNodesChange] = useNodesState<AppNode>([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState<AppEdge>([]);
   const [isLayouting, setIsLayouting] = useState(true);
@@ -760,6 +953,8 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
   const [searchQuery, setSearchQuery] = useState('');
   const [showPeople, setShowPeople] = useState(true);
   const [showOrgs, setShowOrgs] = useState(true);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [freshLayout, setFreshLayout] = useState(false);
 
   // Derived data
   const defendants = investigation.defendants || [];
@@ -789,7 +984,29 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
     return Array.from(map.entries()).sort((a, b) => b[1] - a[1]);
   }, [defendants]);
 
-  // ELK layout computation
+  // ------- DISPLAY NODES (search highlighting) -------
+  const displayNodes = useMemo(() => {
+    if (!searchQuery.trim()) return nodes;
+    const q = searchQuery.toLowerCase().trim();
+    return nodes.map(n => ({
+      ...n,
+      data: {
+        ...n.data,
+        hasActiveSearch: true,
+        isSearchMatch: ((n.data.name || n.data.label || '') as string).toLowerCase().includes(q),
+      },
+    }));
+  }, [nodes, searchQuery]);
+
+  // ------- MONEY FLOW EDGES (overlay, not in ELK) -------
+  const moneyFlowEdges = useMemo(() => {
+    return buildMoneyFlowEdges(moneyTrail, nodes);
+  }, [moneyTrail, nodes]);
+
+  // ------- ALL EDGES (tree + money flow) -------
+  const allEdges = useMemo(() => [...edges, ...moneyFlowEdges], [edges, moneyFlowEdges]);
+
+  // ------- ELK LAYOUT COMPUTATION -------
   useEffect(() => {
     let cancelled = false;
     async function layout() {
@@ -801,9 +1018,11 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
         if (!cancelled) {
           setNodes(layoutedNodes);
           setEdges(graphEdges);
+          setFreshLayout(true);
           setTimeout(() => {
             reactFlow.fitView({ padding: 0.15, duration: 400 });
           }, 80);
+          setTimeout(() => setFreshLayout(false), 900);
         }
       } catch (err) {
         console.error('ELK layout failed:', err);
@@ -819,11 +1038,9 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [investigation, collapsedNodes, showPeople, showOrgs]);
 
-  // Node click handler
+  // ------- NODE CLICK (single click: toggle collapse or select) -------
   const onNodeClick = useCallback((_event: React.MouseEvent, node: AppNode) => {
     const data = node.data;
-
-    // Toggle collapse for category/tier nodes
     if (data.nodeType === 'category' || data.nodeType === 'tier') {
       setCollapsedNodes(prev => {
         const next = new Set(prev);
@@ -832,28 +1049,34 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
         return next;
       });
     }
-
-    // Select person/org nodes
     if (data.nodeType === 'person' || data.nodeType === 'org') {
       setSelectedNodeId(prev => prev === node.id ? null : node.id);
     }
   }, []);
 
-  // Search
+  // ------- NODE DOUBLE CLICK (navigate to entity profile) -------
+  const onNodeDoubleClick = useCallback((_event: React.MouseEvent, node: AppNode) => {
+    if (node.data.href) {
+      router.push(node.data.href as string);
+    }
+  }, [router]);
+
+  // ------- SEARCH -------
   const searchMatches = useMemo(() => {
     if (!searchQuery) return 0;
     const q = searchQuery.toLowerCase();
     return nodes.filter(n => ((n.data.name || n.data.label || '') as string).toLowerCase().includes(q)).length;
   }, [searchQuery, nodes]);
 
-  // Stats
+  // ------- STATS -------
   const stats = useMemo(() => ({
     people: nodes.filter(n => n.data.nodeType === 'person').length,
     orgs: nodes.filter(n => n.data.nodeType === 'org').length,
     total: nodes.filter(n => n.data.nodeType === 'person' || n.data.nodeType === 'org').length,
-  }), [nodes]);
+    moneyEdges: moneyFlowEdges.length,
+  }), [nodes, moneyFlowEdges]);
 
-  // Actions
+  // ------- ACTIONS -------
   const handleFitView = () => reactFlow.fitView({ padding: 0.15, duration: 500 });
   const handleExpandAll = () => setCollapsedNodes(new Set());
   const handleCollapseAll = () => {
@@ -870,10 +1093,150 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
     setSelectedNodeId(null);
   };
 
-  // Select defendant from roster
+  // ------- KEYBOARD NAVIGATION -------
+  const navigateToNearest = useCallback((direction: 'up' | 'down' | 'left' | 'right') => {
+    if (!selectedNodeId) return;
+    const current = nodes.find(n => n.id === selectedNodeId);
+    if (!current) return;
+
+    const cx = current.position.x;
+    const cy = current.position.y;
+
+    const candidates = nodes.filter(n => {
+      if (n.id === selectedNodeId) return false;
+      if (n.data.nodeType === 'root') return false;
+      const dx = n.position.x - cx;
+      const dy = n.position.y - cy;
+      switch (direction) {
+        case 'right': return dx > 30;
+        case 'left': return dx < -30;
+        case 'down': return dy > 30;
+        case 'up': return dy < -30;
+      }
+    });
+
+    if (candidates.length === 0) return;
+
+    candidates.sort((a, b) => {
+      const distA = Math.hypot(a.position.x - cx, a.position.y - cy);
+      const distB = Math.hypot(b.position.x - cx, b.position.y - cy);
+      return distA - distB;
+    });
+
+    const target = candidates[0];
+    setSelectedNodeId(target.id);
+
+    const dims = NODE_DIMENSIONS[target.type || 'personNode'] || { width: 280, height: 100 };
+    reactFlow.setCenter(
+      target.position.x + dims.width / 2,
+      target.position.y + dims.height / 2,
+      { zoom: 1.2, duration: 400 },
+    );
+  }, [selectedNodeId, nodes, reactFlow]);
+
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      // Don't intercept when typing in inputs
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+
+      switch (e.key) {
+        case 'Escape':
+          if (isFullscreen) document.exitFullscreen().catch(() => {});
+          else setSelectedNodeId(null);
+          break;
+        case 'ArrowRight':
+          if (!selectedNodeId) return;
+          e.preventDefault();
+          navigateToNearest('right');
+          break;
+        case 'ArrowLeft':
+          if (!selectedNodeId) return;
+          e.preventDefault();
+          navigateToNearest('left');
+          break;
+        case 'ArrowUp':
+          if (!selectedNodeId) return;
+          e.preventDefault();
+          navigateToNearest('up');
+          break;
+        case 'ArrowDown':
+          if (!selectedNodeId) return;
+          e.preventDefault();
+          navigateToNearest('down');
+          break;
+        case 'Enter':
+          if (selectedNodeId) {
+            const node = nodes.find(n => n.id === selectedNodeId);
+            if (node?.data.nodeType === 'category' || node?.data.nodeType === 'tier') {
+              setCollapsedNodes(prev => {
+                const next = new Set(prev);
+                if (next.has(node.id)) next.delete(node.id);
+                else next.add(node.id);
+                return next;
+              });
+            } else if (node?.data.href) {
+              router.push(node.data.href as string);
+            }
+          }
+          break;
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [navigateToNearest, selectedNodeId, isFullscreen, nodes, router]);
+
+  // ------- FULLSCREEN -------
+  const toggleFullscreen = useCallback(async () => {
+    if (!graphRef.current) return;
+    try {
+      if (!document.fullscreenElement) {
+        await graphRef.current.requestFullscreen();
+      } else {
+        await document.exitFullscreen();
+      }
+    } catch (err) {
+      console.error('Fullscreen error:', err);
+    }
+  }, []);
+
+  useEffect(() => {
+    const handler = () => setIsFullscreen(!!document.fullscreenElement);
+    document.addEventListener('fullscreenchange', handler);
+    return () => document.removeEventListener('fullscreenchange', handler);
+  }, []);
+
+  // ------- EXPORT PNG -------
+  const exportPng = useCallback(() => {
+    const viewport = graphRef.current?.querySelector('.react-flow__viewport') as HTMLElement;
+    if (!viewport || nodes.length === 0) return;
+
+    const nodesBounds = getNodesBounds(nodes);
+    const imageWidth = Math.max(nodesBounds.width + 200, 1200);
+    const imageHeight = Math.max(nodesBounds.height + 200, 800);
+    const vp = getViewportForBounds(nodesBounds, imageWidth, imageHeight, 0.5, 2, 0.1);
+
+    toPng(viewport, {
+      backgroundColor: '#000000',
+      width: imageWidth,
+      height: imageHeight,
+      style: {
+        width: `${imageWidth}px`,
+        height: `${imageHeight}px`,
+        transform: `translate(${vp.x}px, ${vp.y}px) scale(${vp.zoom})`,
+      },
+    }).then(dataUrl => {
+      const a = document.createElement('a');
+      a.href = dataUrl;
+      a.download = `network-${investigation.slug}.png`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }).catch(err => console.error('PNG export failed:', err));
+  }, [nodes, investigation.slug]);
+
+  // ------- SELECT FROM ROSTER -------
   const selectDefendant = useCallback((def: Defendant) => {
     const personId = `person-${slugifyName(def.name)}`;
-    // Expand path to this node
     const tier = classifyPerson(def, null);
     const tierId = `tier-${slugifyName(tier)}`;
     setCollapsedNodes(prev => {
@@ -883,7 +1246,6 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
       return next;
     });
     setSelectedNodeId(personId);
-    // Center on node after layout
     setTimeout(() => {
       const node = reactFlow.getNode(personId);
       if (node) {
@@ -893,7 +1255,6 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
     }, 300);
   }, [reactFlow]);
 
-  // Select org from directory
   const selectOrg = useCallback((aff: Affiliation) => {
     const orgId = `org-${slugifyName(aff.name)}`;
     const tier = classifyOrg(aff);
@@ -927,12 +1288,26 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
     >
       {/* === CUSTOM STYLES === */}
       <style>{`
+        @keyframes severityPulse {
+          0% { transform: scale(1); opacity: 0.4; }
+          100% { transform: scale(1.8); opacity: 0; }
+        }
+        @keyframes moneyFlowDash {
+          0% { stroke-dashoffset: 0; }
+          100% { stroke-dashoffset: -20; }
+        }
+        @keyframes edgeDraw {
+          from { stroke-dasharray: 500; stroke-dashoffset: 500; }
+          to { stroke-dasharray: 500; stroke-dashoffset: 0; }
+        }
+        .money-flow-animate { animation: moneyFlowDash 1s linear infinite; }
+        .edge-fresh .react-flow__edge-path { animation: edgeDraw 0.8s ease-out forwards; }
         .react-flow__minimap { background: #020202 !important; border: 1px solid rgba(184,0,0,0.20) !important; border-radius: 8px !important; }
         .react-flow__controls { gap: 4px !important; }
         .react-flow__controls button { background: #080808 !important; border: 1px solid rgba(184,0,0,0.20) !important; border-radius: 6px !important; color: #a1a1aa !important; }
         .react-flow__controls button:hover { background: #0a0000 !important; border-color: rgba(184,0,0,0.45) !important; color: #e4e4e7 !important; }
         .react-flow__controls button svg { fill: currentColor !important; }
-        .react-flow__node { transition: transform 0.3s ease-out !important; }
+        .react-flow__node { transition: transform 0.3s ease-out, opacity 0.3s ease-out !important; }
         .react-flow__edge path { transition: d 0.3s ease-out !important; }
         .react-flow__attribution { display: none !important; }
         .react-flow__background { opacity: 1 !important; }
@@ -947,7 +1322,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
               Network Analysis
             </h2>
             <p className="text-xs text-zinc-500 font-mono tracking-wider mt-1">
-              REACT FLOW + ELK LAYOUT ENGINE // CLICK GROUPS TO EXPAND/COLLAPSE // DRAG TO PAN // SCROLL TO ZOOM
+              ELK LAYOUT ENGINE // CLICK TO EXPAND // DOUBLE-CLICK TO NAVIGATE // ARROW KEYS TO TRAVERSE // ESC TO DESELECT
             </p>
           </div>
           <div className="relative w-full md:w-80">
@@ -1007,6 +1382,24 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                   </button>
                 ))}
               </div>
+              {/* Fullscreen + Export */}
+              <div className="flex gap-2">
+                <button onClick={toggleFullscreen}
+                  className="flex-1 flex items-center justify-center gap-1.5 text-[9px] font-bold text-zinc-500 uppercase tracking-wider px-2 py-2 border border-zinc-800 hover:border-red-900/40 hover:text-red-400 transition-all"
+                  style={{ borderRadius: 6 }}>
+                  {isFullscreen ? <Minimize2 className="w-3 h-3" /> : <Maximize2 className="w-3 h-3" />}
+                  {isFullscreen ? 'Exit FS' : 'Fullscreen'}
+                </button>
+                <button onClick={exportPng}
+                  className="flex-1 flex items-center justify-center gap-1.5 text-[9px] font-bold text-zinc-500 uppercase tracking-wider px-2 py-2 border border-zinc-800 hover:border-red-900/40 hover:text-red-400 transition-all"
+                  style={{ borderRadius: 6 }}>
+                  <Download className="w-3 h-3" /> Export
+                </button>
+              </div>
+              {/* Keyboard hint */}
+              <p className="text-[8px] text-zinc-700 font-mono leading-relaxed text-center">
+                ↑↓←→ Navigate &bull; Enter Open &bull; Esc Deselect &bull; Double-click Profile
+              </p>
             </div>
           </GlassPanel>
 
@@ -1026,6 +1419,12 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                   <div className="text-[8px] text-zinc-600 uppercase font-bold">Orgs</div>
                 </div>
               </div>
+              {stats.moneyEdges > 0 && (
+                <div className="text-center p-2 bg-[rgba(234,179,8,0.04)] border border-[rgba(234,179,8,0.12)]" style={{ borderRadius: 6 }}>
+                  <div className="text-sm font-black text-yellow-400 font-mono">{stats.moneyEdges}</div>
+                  <div className="text-[8px] text-zinc-600 uppercase font-bold">Money Flow Connections</div>
+                </div>
+              )}
               {tierCounts.length > 0 && (
                 <div>
                   <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1.5">By Tier</p>
@@ -1062,7 +1461,16 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
         </div>
 
         {/* ---- CENTER: GRAPH ---- */}
-        <div className="relative min-h-[500px] h-[60vh] max-h-[800px]" style={{ ...glassBase, border: '1px solid rgba(184, 0, 0, 0.25)', overflow: 'hidden' }}>
+        <div
+          ref={graphRef}
+          className={`relative ${isFullscreen ? 'h-screen' : 'min-h-[500px] h-[70vh] max-h-[900px]'} ${freshLayout ? 'edge-fresh' : ''}`}
+          style={{
+            ...glassBase,
+            border: '1px solid rgba(184, 0, 0, 0.25)',
+            overflow: 'hidden',
+            ...(isFullscreen ? { background: '#000000', borderRadius: 0 } : {}),
+          }}
+        >
           {isLayouting && (
             <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/50" style={{ borderRadius: 12 }}>
               <div className="flex flex-col items-center gap-3">
@@ -1072,12 +1480,14 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
             </div>
           )}
           <ReactFlow
-            nodes={nodes}
-            edges={edges}
+            nodes={displayNodes}
+            edges={allEdges}
             onNodesChange={onNodesChange}
             onEdgesChange={onEdgesChange}
             onNodeClick={onNodeClick}
+            onNodeDoubleClick={onNodeDoubleClick}
             nodeTypes={nodeTypes}
+            edgeTypes={edgeTypes}
             colorMode="dark"
             fitView
             minZoom={0.08}
@@ -1120,6 +1530,17 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                     <span className="text-[10px] text-zinc-400 font-mono">{tier}</span>
                   </div>
                 ))}
+              </div>
+              <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
+                <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-2">Edge Types</p>
+                <div className="flex items-center gap-2 py-0.5">
+                  <div className="w-6 h-0 border-t-2 border-red-500/40 flex-shrink-0" />
+                  <span className="text-[10px] text-zinc-400 font-mono">Hierarchy</span>
+                </div>
+                <div className="flex items-center gap-2 py-0.5">
+                  <div className="w-6 h-0 border-t-2 border-dashed border-yellow-500/70 flex-shrink-0" />
+                  <span className="text-[10px] text-zinc-400 font-mono">Money Flow</span>
+                </div>
               </div>
               <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
                 <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-2">Defendant Status</p>

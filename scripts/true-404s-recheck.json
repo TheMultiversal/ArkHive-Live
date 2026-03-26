@@ -1,0 +1,1091 @@
+{
+  "total": 161,
+  "waybackFailed": [
+    "https://web.archive.org/web/20250104184245/https://www.aclu.org/issues/free-speech/rights-protesters/anti-protest-bills-around-country",
+    "https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/",
+    "https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports//advisory/recommendations",
+    "https://web.archive.org/web/20241227142956/https://timesupnow.org/",
+    "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentsasa20/015/2014/en/",
+    "https://web.archive.org/web/20241216194049/https://www.fdic.gov/bank/individual/enforcement/",
+    "https://web.archive.org/web/20251224234843/https://www.irs.gov/statistics/criminal-investigation-data-and-statistics",
+    "https://web.archive.org/web/20250328094556/https://www.fca.org.uk/news/press-releases/",
+    "https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports/",
+    "https://web.archive.org/web/20241231020354/https://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf",
+    "https://web.archive.org/web/20241227050039/https://www.cdc.gov/hai/outbreaks/meningitis.html",
+    "https://web.archive.org/web/20250111080038/https://web.archive.org/web/20250111080038/https://www.atsdr.cdc.gov/sites/lejeune//",
+    "https://web.archive.org/web/20250123125334/https://www.sba.gov/office-inspector-general",
+    "https://web.archive.org/web/20251224234829/https://www.justice.gov/criminal-fraud/covid-19-fraud-enforcement",
+    "https://web.archive.org/web/20241204172132/https://www.fda.gov/drugs/drug-shortages/",
+    "https://web.archive.org/web/20241225231000/https://www.cdc.gov/des",
+    "http://web.archive.org/web/20250214130639/https://web.archive.org/web/20241231234430/https://www.epa.gov/environmentaljustice",
+    "https://web.archive.org/web/20260109103122/https://www.epa.gov/emergency-response/exxon-valdez-oil-spill",
+    "https://web.archive.org/web/2024/https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/",
+    "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents",
+    "https://web.archive.org/web/20250101134744/https://www.aclu.org/issues/national-security/detention/guantanamo-numbers",
+    "https://web.archive.org/web/20241218122604/https://www.cftc.gov/LawRegulation/Enforcement/",
+    "https://web.archive.org/web/20250118075442/https://www.justice.gov/crt/special-litigation-section-cases-and-matters0",
+    "https://web.archive.org/web/20241231030408/https://www.cdc.gov/diabetes/data/index.html",
+    "https://web.archive.org/web/20250101040711/https://www.cdc.gov/tuskegee/timeline.htm",
+    "https://web.archive.org/web/20241222203444/https://monographs.iarc.who.int/wp-content/uploads/2018/06/mono112-10.pdf",
+    "https://web.archive.org/web/20240807024114/https://bjs.ojp.gov/library/publications/prisoners-2022",
+    "https://web.archive.org/web/20250102034705/https://www.cdc.gov/reproductivehealth/maternal-mortality/pregnancy-mortality-surveillance-system.htm",
+    "https://web.archive.org/web/20250720112349/https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report",
+    "https://web.archive.org/web/20250329164500/https://www.state.gov/historicaldocuments/",
+    "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentsasa35/5517/2017/en/",
+    "https://web.archive.org/web/20241223090642/https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_035",
+    "https://web.archive.org/web/20250123104019/https://nationalfairhousing.org/reports-research/",
+    "https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles//2018-08-03/kushner-cos-deal-for-666-fifth-ave-is-said-to-be-near-close",
+    "https://web.archive.org/web/20241211114615/https://www.cia.gov/library/reports/general-reports-1/cocaine/report/",
+    "https://web.archive.org/web/20241229020641/https://www.narconews.com/darkalliance/drugs/start.htm",
+    "https://web.archive.org/web/20250113145827/https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407107",
+    "https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles//2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff",
+    "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentseur70/018/2000/en/",
+    "https://web.archive.org/web/20250303221313/https://www.consumerfinance.gov/enforcement/actions/navient-corporation/",
+    "https://web.archive.org/web/20250103134028/https://judiciary.house.gov/uploadedfiles/competition_in_digital_markets.pdf",
+    "https://web.archive.org/web/20250102045243/https://www.va.gov/OIG/PUBS/VAOIG-14-02603-267.PDF",
+    "https://web.archive.org/web/20250410143330/https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties",
+    "https://web.archive.org/web/20250111080038/https://www.atsdr.cdc.gov/sites/lejeune/"
+  ],
+  "openlibFailed": [],
+  "others": [
+    {
+      "url": "https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-ichinery/",
+      "domain": "theintercept.com"
+    },
+    {
+      "url": "https://apnews.com/hub/investigations",
+      "domain": "apnews.com"
+    },
+    {
+      "url": "https://www.adl.org/resources/report/audit-antisemitic-incidents",
+      "domain": "www.adl.org"
+    },
+    {
+      "url": "https://www.eeoc.gov/data/sexual-harassment-charges",
+      "domain": "www.eeoc.gov"
+    },
+    {
+      "url": "https://www.amazon.com/Killing-Hope-Military-Interventions-Since/dp/2159",
+      "domain": "www.amazon.com"
+    },
+    {
+      "url": "https://www.icrc.org/en/document/iraq-icrc-deplores-abuse-detained-persons-calls-respect-international-humanitarian-law",
+      "domain": "www.icrc.org"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/agent-orange",
+      "domain": "www.cancer.gov"
+    },
+    {
+      "url": "https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm",
+      "domain": "www.federalreserve.gov"
+    },
+    {
+      "url": "https://www.ftc.gov/enforcement/refunds/tech",
+      "domain": "www.ftc.gov"
+    },
+    {
+      "url": "https://www.propublica.org/series/border-land",
+      "domain": "www.propublica.org"
+    },
+    {
+      "url": "https://www.nasa.gov/humans-in-space/commercial-crew/",
+      "domain": "www.nasa.gov"
+    },
+    {
+      "url": "https://www.hrw.org/topic/united-states/immigration",
+      "domain": "www.hrw.org"
+    },
+    {
+      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/offshore-profit-shifting-and-the-us-tax-code_part-2/",
+      "domain": "www.hsgac.senate.gov"
+    },
+    {
+      "url": "https://www.pacourts.us/Storage/media/pdfs/20210630/165850-file-10306.pdf",
+      "domain": "www.pacourts.us"
+    },
+    {
+      "url": "https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general/recovery",
+      "domain": "www.sba.gov"
+    },
+    {
+      "url": "https://www.kff.org/coronavirus-covid-19/issue-brief/covid-19-deaths-preventable-by-vaccines/",
+      "domain": "www.kff.org"
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+      "domain": "www.intelligence.senate.gov"
+    },
+    {
+      "url": "https://www.pacourts.us/news-and-statistics/cases-of-public-interest/cosby",
+      "domain": "www.pacourts.us"
+    },
+    {
+      "url": "https://www.hmhbooks.com/shop/books/king-leopolds-ghost/9780618001903",
+      "domain": "www.hmhbooks.com"
+    },
+    {
+      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/media/report-exposes-how-china-exploited-us-scientific-research",
+      "domain": "www.hsgac.senate.gov"
+    },
+    {
+      "url": "https://www.irs.gov/statistics/soi-tax-stats-corporation-income-tax-statistics",
+      "domain": "www.irs.gov"
+    },
+    {
+      "url": "https://www.nclc.org/issue/credit-reports/",
+      "domain": "www.nclc.org"
+    },
+    {
+      "url": "https://www.chicago.gov/city/en/depts/dhr/provdrs/burge_702.html",
+      "domain": "www.chicago.gov"
+    },
+    {
+      "url": "https://clintonwhitehouse4.archives.gov/textonly/New/Remarks/Fri/19951003-8456.html",
+      "domain": "clintonwhitehouse4.archives.gov"
+    },
+    {
+      "url": "https://theintercept.com/collections/the-surveillance-catalogue/",
+      "domain": "theintercept.com"
+    },
+    {
+      "url": "https://www.adl.org/resources/report/murder-and-extremism-united-states",
+      "domain": "www.adl.org"
+    },
+    {
+      "url": "https://oversight.house.gov/landing/drug-pricing-investigation/",
+      "domain": "oversight.house.gov"
+    },
+    {
+      "url": "https://www.ftc.gov/reports/pay-delay-how-drug-company-pay-offs-cost-consumers-billions",
+      "domain": "www.ftc.gov"
+    },
+    {
+      "url": "https://www.adl.org/murder-and-extremism",
+      "domain": "www.adl.org"
+    },
+    {
+      "url": "https://www.maricopa.gov/5441/Superior-Court",
+      "domain": "www.maricopa.gov"
+    },
+    {
+      "url": "https://www.ussc.gov/research/annual-reports-and-sourcebooks",
+      "domain": "www.ussc.gov"
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ipv9311.pdf",
+      "domain": "bjs.ojp.gov"
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/study-intelligence-communitys-detention-and-interrogation-program",
+      "domain": "www.intelligence.senate.gov"
+    },
+    {
+      "url": "https://www.adl.org/resources/report/white-supremacist-propaganda",
+      "domain": "www.adl.org"
+    },
+    {
+      "url": "https://theintercept.com/2017/06/03/hacked-emails-show-top-uae-diplomat-coordinating-with-pro-israel-neocon-think-tanks/",
+      "domain": "theintercept.com"
+    },
+    {
+      "url": "https://oversight.house.gov/landing/investigation-of-fossil-fuel-industry-disinformation/",
+      "domain": "oversight.house.gov"
+    },
+    {
+      "url": "https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf",
+      "domain": "efile.fara.gov"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0081-facebook-inc-meta-platforms-inc",
+      "domain": "www.ftc.gov"
+    },
+    {
+      "url": "https://www.fhfa.gov/AboutUs/Reports/ReportDocuments/2006-2_OFHEO_FNM_REPORT.pdf",
+      "domain": "www.fhfa.gov"
+    },
+    {
+      "url": "https://www.pathfinderpress.com/cointelpro",
+      "domain": "www.pathfinderpress.com"
+    },
+    {
+      "url": "https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-detailing-millions-fake-comments-exposed",
+      "domain": "ag.ny.gov"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/devry-university",
+      "domain": "www.ftc.gov"
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/project/afghanistan-soviet-invasion-and-us-response",
+      "domain": "nsarchive.gwu.edu"
+    },
+    {
+      "url": "https://www.hennepinattorney.org/floyd",
+      "domain": "www.hennepinattorney.org"
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/sites/default/files/report_volume5.pdf",
+      "domain": "www.intelligence.senate.gov"
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/sexual-victimization-prisons-and-jails-reported-inmates",
+      "domain": "bjs.ojp.gov"
+    },
+    {
+      "url": "https://www.texastribune.org/series/winter-storm-uri/",
+      "domain": "www.texastribune.org"
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/publications/report-whether-public-statements-regarding-iraq-senior-members-bush-administration-were",
+      "domain": "www.intelligence.senate.gov"
+    },
+    {
+      "url": "https://www.fda.gov/tobacco-products/market-and-distribute-tobacco-product/juul-labs-inc",
+      "domain": "www.fda.gov"
+    },
+    {
+      "url": "https://www.brennancenter.org/judicial-selection",
+      "domain": "www.brennancenter.org"
+    },
+    {
+      "url": "https://oversight.house.gov/wp-content/uploads/2019/04/2019-04-01-Cummings-Memo-on-Security-Clearance.pdf",
+      "domain": "oversight.house.gov"
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2018/10/turkey-audio-khashoggi-murder",
+      "domain": "www.aljazeera.com"
+    },
+    {
+      "url": "https://www.ncpa.org/issues/pbm-reform",
+      "domain": "www.ncpa.org"
+    },
+    {
+      "url": "https://library.gwu.edu/special-collections",
+      "domain": "library.gwu.edu"
+    },
+    {
+      "url": "https://www.justice.gov/d9/2024-01/uvalde_report.pdf",
+      "domain": "www.justice.gov"
+    },
+    {
+      "url": "https://www.newyorker.com/news/news-desk/the-case-of-al-franken",
+      "domain": "www.newyorker.com"
+    },
+    {
+      "url": "https://www.ftc.gov/reports/ticket-sales-event-ticketing-industry",
+      "domain": "www.ftc.gov"
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/sites/default/files/94mkultra.pdf",
+      "domain": "www.intelligence.senate.gov"
+    },
+    {
+      "url": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Monitoring-Programs/improper-payment-measurement",
+      "domain": "www.cms.gov"
+    },
+    {
+      "url": "https://www.propublica.org/article/mckinsey-never-told-the-fda-it-was-working-for-opioid-makers-while-also-advising-the-agency",
+      "domain": "www.propublica.org"
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2023/01/ftc-concludes-vyera-pharmaceuticals-martin-shkreli-illegally-maintained-monopoly-life-saving-drug",
+      "domain": "www.ftc.gov"
+    },
+    {
+      "url": "https://www.energy.gov/em/environmental-management",
+      "domain": "www.energy.gov"
+    },
+    {
+      "url": "https://www.energy.gov/ne/blue-ribbon-commission-americas-nuclear-future-report",
+      "domain": "www.energy.gov"
+    },
+    {
+      "url": "https://divinity-adhoc.library.yale.edu/NanjingMassacre/",
+      "domain": "divinity-adhoc.library.yale.edu"
+    },
+    {
+      "url": "https://www.cms.gov/newsroom/fact-sheets/medicare-and-medicaid-programs-minimum-staffing-standards-long-term-care-facilities",
+      "domain": "www.cms.gov"
+    },
+    {
+      "url": "https://oversight.house.gov/landing/purdue-pharma-investigation/",
+      "domain": "oversight.house.gov"
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/project/argentina-declassification-project-reading-room",
+      "domain": "nsarchive.gwu.edu"
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/book/pinochet-file",
+      "domain": "nsarchive.gwu.edu"
+    },
+    {
+      "url": "https://www.kff.org/other/issue-brief/tracking-opioid-settlement-spending/",
+      "domain": "www.kff.org"
+    },
+    {
+      "url": "https://www.statnews.com/opioid-settlement-tracker/",
+      "domain": "www.statnews.com"
+    },
+    {
+      "url": "https://airandspace.si.edu/people/wernher-von-braun",
+      "domain": "airandspace.si.edu"
+    },
+    {
+      "url": "https://www.finra.org/investors/insights/penny-stock-fraud",
+      "domain": "www.finra.org"
+    },
+    {
+      "url": "https://www.justice.gov/d9/2024-10/fca_stats.pdf",
+      "domain": "www.justice.gov"
+    },
+    {
+      "url": "https://www.npr.org/sections/thetwo-way/2017/06/20/533863171/aftermath-of-philando-castile-shooting",
+      "domain": "www.npr.org"
+    },
+    {
+      "url": "https://cyber.harvard.edu/publications/2018/11/MediaCloud",
+      "domain": "cyber.harvard.edu"
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/publications/report-us-intelligence-communitys-prewar-intelligence-assessments-iraq",
+      "domain": "www.intelligence.senate.gov"
+    },
+    {
+      "url": "https://www.brookings.edu/articles/the-new-orleans-school-reforms/",
+      "domain": "www.brookings.edu"
+    },
+    {
+      "url": "https://www.uscp.gov/media-center/press-releases/us-capitol-police-releases-2021-annual-report",
+      "domain": "www.uscp.gov"
+    },
+    {
+      "url": "https://www.ap.org/explore/nypd/",
+      "domain": "www.ap.org"
+    },
+    {
+      "url": "https://oig.justice.gov/special/0306/",
+      "domain": "oig.justice.gov"
+    },
+    {
+      "url": "https://bjs.ojp.gov/data-collections/prisoners",
+      "domain": "bjs.ojp.gov"
+    },
+    {
+      "url": "https://www.panynj.gov/corporate/en/inspector-general.html",
+      "domain": "www.panynj.gov"
+    },
+    {
+      "url": "https://www.irs.gov/compliance/criminal-investigation/payroll-tax-fraud",
+      "domain": "www.irs.gov"
+    },
+    {
+      "url": "https://everytownresearch.org/report/unsecured-guns/",
+      "domain": "everytownresearch.org"
+    },
+    {
+      "url": "https://oig.justice.gov/reports/review-federal-bureau-investigations-response-tips-about-potential-parkland-school-shooter",
+      "domain": "oig.justice.gov"
+    },
+    {
+      "url": "https://oig.justice.gov/reports/2016/e1606.pdf",
+      "domain": "oig.justice.gov"
+    },
+    {
+      "url": "https://oversight.house.gov/legislation/hearings/the-cost-of-rising-prescription-drug-prices",
+      "domain": "oversight.house.gov"
+    },
+    {
+      "url": "https://cebcp.org/wp-content/evidence-based-policing/body-worn-cameras/BWCMeta.pdf",
+      "domain": "cebcp.org"
+    },
+    {
+      "url": "https://www.upturn.org/work/the-illusion-of-accuracy/",
+      "domain": "www.upturn.org"
+    },
+    {
+      "url": "https://www.fda.gov/consumers/consumer-updates/birth-control-types-effectiveness-and-side-effects",
+      "domain": "www.fda.gov"
+    },
+    {
+      "url": "https://profiles.nlm.nih.gov/spotlight/qg",
+      "domain": "profiles.nlm.nih.gov"
+    },
+    {
+      "url": "https://www.bc.edu/bc-web/schools/law/academics-faculty/programs/cloughcenter.html",
+      "domain": "www.bc.edu"
+    },
+    {
+      "url": "https://www.fincen.gov/real-estate-gtos",
+      "domain": "www.fincen.gov"
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/project/iran-contra-affair",
+      "domain": "nsarchive.gwu.edu"
+    },
+    {
+      "url": "https://www.hrw.org/report/2017/12/19/massacre-river/burmese-armys-war-crimes-tula-toli",
+      "domain": "www.hrw.org"
+    },
+    {
+      "url": "https://www.finra.org/media-center/newsreleases/2021/finra-orders-robinhood-financial-llc-pay-approximately-70-million",
+      "domain": "www.finra.org"
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/data-visualizations/do-not-call-complaints",
+      "domain": "www.ftc.gov"
+    },
+    {
+      "url": "https://www.nuclearmuseum.org/see/stories/the-radium-girls",
+      "domain": "www.nuclearmuseum.org"
+    },
+    {
+      "url": "https://unctad.org/topic/debt-and-finance/sovereign-debt-workouts",
+      "domain": "unctad.org"
+    },
+    {
+      "url": "https://www.brennancenter.org/our-work/research-reports/after-citizens-united",
+      "domain": "www.brennancenter.org"
+    },
+    {
+      "url": "https://www.hrw.org/tag/syria-chemical-attacks",
+      "domain": "www.hrw.org"
+    },
+    {
+      "url": "https://oversight.house.gov/release/comer-releases-findings-from-investigation-into-secret-service/",
+      "domain": "oversight.house.gov"
+    },
+    {
+      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/wall-street-and-the-financial-crisis-anatomy-of-a-financial-collapse",
+      "domain": "www.hsgac.senate.gov"
+    },
+    {
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/amazon",
+      "domain": "www.ftc.gov"
+    },
+    {
+      "url": "https://www.nclc.org/issue/title-loans/",
+      "domain": "www.nclc.org"
+    },
+    {
+      "url": "https://www.nclc.org/issue/utility-consumer-protections/",
+      "domain": "www.nclc.org"
+    },
+    {
+      "url": "https://apnews.com/hub/venezuela-election",
+      "domain": "apnews.com"
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/veterans-state-and-federal-prison-2016",
+      "domain": "bjs.ojp.gov"
+    },
+    {
+      "url": "https://www.eac.gov/voting-equipment/system-certification",
+      "domain": "www.eac.gov"
+    },
+    {
+      "url": "https://www.eff.org/deeplinks/2020/06/inside-invasive-secretive-bossware",
+      "domain": "www.eff.org"
+    },
+    {
+      "url": "https://content.time.com/time/specials/packages/article/0,28804,2019712_2019694_2019693,00.html",
+      "domain": "content.time.com"
+    },
+    {
+      "url": "https://www.foodandwaterwatch.org/reports/the-state-of-public-water-in-the-united-states/",
+      "domain": "www.foodandwaterwatch.org"
+    },
+    {
+      "url": "https://www.nclc.org/issue/auto-issues/",
+      "domain": "www.nclc.org"
+    },
+    {
+      "url": "https://www.pbs.org/frontlineworld/stories/congo/",
+      "domain": "www.pbs.org"
+    },
+    {
+      "url": "https://nsarchive.gwu.edu/briefing-book/intelligence/2020-06-30/cia-congo",
+      "domain": "nsarchive.gwu.edu"
+    },
+    {
+      "url": "https://www.intelligence.senate.gov/study-intelligence-committee-cia-detention-interrogation-program",
+      "domain": "www.intelligence.senate.gov"
+    },
+    {
+      "url": "https://www.latimes.com/entertainment/movies/la-et-mn-zero-dark-thirty-cia-20150910-story.html",
+      "domain": "www.latimes.com"
+    }
+  ],
+  "byDomain": [
+    {
+      "domain": "web.archive.org",
+      "count": 44,
+      "urls": [
+        "https://web.archive.org/web/20250104184245/https://www.aclu.org/issues/free-speech/rights-protesters/anti-protest-bills-around-country",
+        "https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/",
+        "https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports//advisory/recommendations",
+        "https://web.archive.org/web/20241227142956/https://timesupnow.org/",
+        "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentsasa20/015/2014/en/",
+        "https://web.archive.org/web/20241216194049/https://www.fdic.gov/bank/individual/enforcement/",
+        "https://web.archive.org/web/20251224234843/https://www.irs.gov/statistics/criminal-investigation-data-and-statistics",
+        "https://web.archive.org/web/20250328094556/https://www.fca.org.uk/news/press-releases/",
+        "https://web.archive.org/web/20250206165732/https://www.oig.dhs.gov/reports/",
+        "https://web.archive.org/web/20241231020354/https://www.usccb.org/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf",
+        "https://web.archive.org/web/20241227050039/https://www.cdc.gov/hai/outbreaks/meningitis.html",
+        "https://web.archive.org/web/20250111080038/https://web.archive.org/web/20250111080038/https://www.atsdr.cdc.gov/sites/lejeune//",
+        "https://web.archive.org/web/20250123125334/https://www.sba.gov/office-inspector-general",
+        "https://web.archive.org/web/20251224234829/https://www.justice.gov/criminal-fraud/covid-19-fraud-enforcement",
+        "https://web.archive.org/web/20241204172132/https://www.fda.gov/drugs/drug-shortages/",
+        "https://web.archive.org/web/20241225231000/https://www.cdc.gov/des",
+        "http://web.archive.org/web/20250214130639/https://web.archive.org/web/20241231234430/https://www.epa.gov/environmentaljustice",
+        "https://web.archive.org/web/20260109103122/https://www.epa.gov/emergency-response/exxon-valdez-oil-spill",
+        "https://web.archive.org/web/2024/https://web.archive.org/web/20250121075431/https://www.adl.org/resources/reports/",
+        "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documents",
+        "https://web.archive.org/web/20250101134744/https://www.aclu.org/issues/national-security/detention/guantanamo-numbers",
+        "https://web.archive.org/web/20241218122604/https://www.cftc.gov/LawRegulation/Enforcement/",
+        "https://web.archive.org/web/20250118075442/https://www.justice.gov/crt/special-litigation-section-cases-and-matters0",
+        "https://web.archive.org/web/20241231030408/https://www.cdc.gov/diabetes/data/index.html",
+        "https://web.archive.org/web/20250101040711/https://www.cdc.gov/tuskegee/timeline.htm",
+        "https://web.archive.org/web/20241222203444/https://monographs.iarc.who.int/wp-content/uploads/2018/06/mono112-10.pdf",
+        "https://web.archive.org/web/20240807024114/https://bjs.ojp.gov/library/publications/prisoners-2022",
+        "https://web.archive.org/web/20250102034705/https://www.cdc.gov/reproductivehealth/maternal-mortality/pregnancy-mortality-surveillance-system.htm",
+        "https://web.archive.org/web/20250720112349/https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/i131-report",
+        "https://web.archive.org/web/20250329164500/https://www.state.gov/historicaldocuments/",
+        "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentsasa35/5517/2017/en/",
+        "https://web.archive.org/web/20241223090642/https://www.hud.gov/press/press_releases_media_advisories/HUD_No_19_035",
+        "https://web.archive.org/web/20250123104019/https://nationalfairhousing.org/reports-research/",
+        "https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles//2018-08-03/kushner-cos-deal-for-666-fifth-ave-is-said-to-be-near-close",
+        "https://web.archive.org/web/20241211114615/https://www.cia.gov/library/reports/general-reports-1/cocaine/report/",
+        "https://web.archive.org/web/20241229020641/https://www.narconews.com/darkalliance/drugs/start.htm",
+        "https://web.archive.org/web/20250113145827/https://financialservices.house.gov/calendar/eventsingle.aspx?EventID=407107",
+        "https://web.archive.org/web/20250108224600/https://www.bloomberg.com/news/articles//2018-03-08/carl-icahn-s-bet-against-steel-gets-huge-boost-from-trump-tariff",
+        "https://web.archive.org/web/20250101210325/https://www.amnesty.org/en/documentseur70/018/2000/en/",
+        "https://web.archive.org/web/20250303221313/https://www.consumerfinance.gov/enforcement/actions/navient-corporation/",
+        "https://web.archive.org/web/20250103134028/https://judiciary.house.gov/uploadedfiles/competition_in_digital_markets.pdf",
+        "https://web.archive.org/web/20250102045243/https://www.va.gov/OIG/PUBS/VAOIG-14-02603-267.PDF",
+        "https://web.archive.org/web/20250410143330/https://www.justice.gov/opa/pr/volkswagen-ag-agrees-plead-guilty-and-pay-43-billion-criminal-and-civil-penalties",
+        "https://web.archive.org/web/20250111080038/https://www.atsdr.cdc.gov/sites/lejeune/"
+      ]
+    },
+    {
+      "domain": "www.ftc.gov",
+      "count": 8,
+      "urls": [
+        "https://www.ftc.gov/enforcement/refunds/tech",
+        "https://www.ftc.gov/reports/pay-delay-how-drug-company-pay-offs-cost-consumers-billions",
+        "https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0081-facebook-inc-meta-platforms-inc",
+        "https://www.ftc.gov/legal-library/browse/cases-proceedings/devry-university",
+        "https://www.ftc.gov/reports/ticket-sales-event-ticketing-industry",
+        "https://www.ftc.gov/news-events/news/press-releases/2023/01/ftc-concludes-vyera-pharmaceuticals-martin-shkreli-illegally-maintained-monopoly-life-saving-drug",
+        "https://www.ftc.gov/news-events/data-visualizations/do-not-call-complaints",
+        "https://www.ftc.gov/legal-library/browse/cases-proceedings/amazon"
+      ]
+    },
+    {
+      "domain": "www.intelligence.senate.gov",
+      "count": 7,
+      "urls": [
+        "https://www.intelligence.senate.gov/study-intelligence-committee-study-cia-detention-and-interrogation-program",
+        "https://www.intelligence.senate.gov/study-intelligence-communitys-detention-and-interrogation-program",
+        "https://www.intelligence.senate.gov/sites/default/files/report_volume5.pdf",
+        "https://www.intelligence.senate.gov/publications/report-whether-public-statements-regarding-iraq-senior-members-bush-administration-were",
+        "https://www.intelligence.senate.gov/sites/default/files/94mkultra.pdf",
+        "https://www.intelligence.senate.gov/publications/report-us-intelligence-communitys-prewar-intelligence-assessments-iraq",
+        "https://www.intelligence.senate.gov/study-intelligence-committee-cia-detention-interrogation-program"
+      ]
+    },
+    {
+      "domain": "oversight.house.gov",
+      "count": 6,
+      "urls": [
+        "https://oversight.house.gov/landing/drug-pricing-investigation/",
+        "https://oversight.house.gov/landing/investigation-of-fossil-fuel-industry-disinformation/",
+        "https://oversight.house.gov/wp-content/uploads/2019/04/2019-04-01-Cummings-Memo-on-Security-Clearance.pdf",
+        "https://oversight.house.gov/landing/purdue-pharma-investigation/",
+        "https://oversight.house.gov/legislation/hearings/the-cost-of-rising-prescription-drug-prices",
+        "https://oversight.house.gov/release/comer-releases-findings-from-investigation-into-secret-service/"
+      ]
+    },
+    {
+      "domain": "nsarchive.gwu.edu",
+      "count": 5,
+      "urls": [
+        "https://nsarchive.gwu.edu/project/afghanistan-soviet-invasion-and-us-response",
+        "https://nsarchive.gwu.edu/project/argentina-declassification-project-reading-room",
+        "https://nsarchive.gwu.edu/book/pinochet-file",
+        "https://nsarchive.gwu.edu/project/iran-contra-affair",
+        "https://nsarchive.gwu.edu/briefing-book/intelligence/2020-06-30/cia-congo"
+      ]
+    },
+    {
+      "domain": "www.adl.org",
+      "count": 4,
+      "urls": [
+        "https://www.adl.org/resources/report/audit-antisemitic-incidents",
+        "https://www.adl.org/resources/report/murder-and-extremism-united-states",
+        "https://www.adl.org/murder-and-extremism",
+        "https://www.adl.org/resources/report/white-supremacist-propaganda"
+      ]
+    },
+    {
+      "domain": "www.nclc.org",
+      "count": 4,
+      "urls": [
+        "https://www.nclc.org/issue/credit-reports/",
+        "https://www.nclc.org/issue/title-loans/",
+        "https://www.nclc.org/issue/utility-consumer-protections/",
+        "https://www.nclc.org/issue/auto-issues/"
+      ]
+    },
+    {
+      "domain": "bjs.ojp.gov",
+      "count": 4,
+      "urls": [
+        "https://bjs.ojp.gov/content/pub/pdf/ipv9311.pdf",
+        "https://bjs.ojp.gov/library/publications/sexual-victimization-prisons-and-jails-reported-inmates",
+        "https://bjs.ojp.gov/data-collections/prisoners",
+        "https://bjs.ojp.gov/library/publications/veterans-state-and-federal-prison-2016"
+      ]
+    },
+    {
+      "domain": "theintercept.com",
+      "count": 3,
+      "urls": [
+        "https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-ichinery/",
+        "https://theintercept.com/collections/the-surveillance-catalogue/",
+        "https://theintercept.com/2017/06/03/hacked-emails-show-top-uae-diplomat-coordinating-with-pro-israel-neocon-think-tanks/"
+      ]
+    },
+    {
+      "domain": "www.hrw.org",
+      "count": 3,
+      "urls": [
+        "https://www.hrw.org/topic/united-states/immigration",
+        "https://www.hrw.org/report/2017/12/19/massacre-river/burmese-armys-war-crimes-tula-toli",
+        "https://www.hrw.org/tag/syria-chemical-attacks"
+      ]
+    },
+    {
+      "domain": "www.hsgac.senate.gov",
+      "count": 3,
+      "urls": [
+        "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/offshore-profit-shifting-and-the-us-tax-code_part-2/",
+        "https://www.hsgac.senate.gov/subcommittees/investigations/media/report-exposes-how-china-exploited-us-scientific-research",
+        "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/wall-street-and-the-financial-crisis-anatomy-of-a-financial-collapse"
+      ]
+    },
+    {
+      "domain": "oig.justice.gov",
+      "count": 3,
+      "urls": [
+        "https://oig.justice.gov/special/0306/",
+        "https://oig.justice.gov/reports/review-federal-bureau-investigations-response-tips-about-potential-parkland-school-shooter",
+        "https://oig.justice.gov/reports/2016/e1606.pdf"
+      ]
+    },
+    {
+      "domain": "apnews.com",
+      "count": 2,
+      "urls": [
+        "https://apnews.com/hub/investigations",
+        "https://apnews.com/hub/venezuela-election"
+      ]
+    },
+    {
+      "domain": "www.propublica.org",
+      "count": 2,
+      "urls": [
+        "https://www.propublica.org/series/border-land",
+        "https://www.propublica.org/article/mckinsey-never-told-the-fda-it-was-working-for-opioid-makers-while-also-advising-the-agency"
+      ]
+    },
+    {
+      "domain": "www.pacourts.us",
+      "count": 2,
+      "urls": [
+        "https://www.pacourts.us/Storage/media/pdfs/20210630/165850-file-10306.pdf",
+        "https://www.pacourts.us/news-and-statistics/cases-of-public-interest/cosby"
+      ]
+    },
+    {
+      "domain": "www.kff.org",
+      "count": 2,
+      "urls": [
+        "https://www.kff.org/coronavirus-covid-19/issue-brief/covid-19-deaths-preventable-by-vaccines/",
+        "https://www.kff.org/other/issue-brief/tracking-opioid-settlement-spending/"
+      ]
+    },
+    {
+      "domain": "www.irs.gov",
+      "count": 2,
+      "urls": [
+        "https://www.irs.gov/statistics/soi-tax-stats-corporation-income-tax-statistics",
+        "https://www.irs.gov/compliance/criminal-investigation/payroll-tax-fraud"
+      ]
+    },
+    {
+      "domain": "www.fda.gov",
+      "count": 2,
+      "urls": [
+        "https://www.fda.gov/tobacco-products/market-and-distribute-tobacco-product/juul-labs-inc",
+        "https://www.fda.gov/consumers/consumer-updates/birth-control-types-effectiveness-and-side-effects"
+      ]
+    },
+    {
+      "domain": "www.brennancenter.org",
+      "count": 2,
+      "urls": [
+        "https://www.brennancenter.org/judicial-selection",
+        "https://www.brennancenter.org/our-work/research-reports/after-citizens-united"
+      ]
+    },
+    {
+      "domain": "www.justice.gov",
+      "count": 2,
+      "urls": [
+        "https://www.justice.gov/d9/2024-01/uvalde_report.pdf",
+        "https://www.justice.gov/d9/2024-10/fca_stats.pdf"
+      ]
+    },
+    {
+      "domain": "www.cms.gov",
+      "count": 2,
+      "urls": [
+        "https://www.cms.gov/Research-Statistics-Data-and-Systems/Monitoring-Programs/improper-payment-measurement",
+        "https://www.cms.gov/newsroom/fact-sheets/medicare-and-medicaid-programs-minimum-staffing-standards-long-term-care-facilities"
+      ]
+    },
+    {
+      "domain": "www.energy.gov",
+      "count": 2,
+      "urls": [
+        "https://www.energy.gov/em/environmental-management",
+        "https://www.energy.gov/ne/blue-ribbon-commission-americas-nuclear-future-report"
+      ]
+    },
+    {
+      "domain": "www.finra.org",
+      "count": 2,
+      "urls": [
+        "https://www.finra.org/investors/insights/penny-stock-fraud",
+        "https://www.finra.org/media-center/newsreleases/2021/finra-orders-robinhood-financial-llc-pay-approximately-70-million"
+      ]
+    },
+    {
+      "domain": "www.eeoc.gov",
+      "count": 1,
+      "urls": [
+        "https://www.eeoc.gov/data/sexual-harassment-charges"
+      ]
+    },
+    {
+      "domain": "www.amazon.com",
+      "count": 1,
+      "urls": [
+        "https://www.amazon.com/Killing-Hope-Military-Interventions-Since/dp/2159"
+      ]
+    },
+    {
+      "domain": "www.icrc.org",
+      "count": 1,
+      "urls": [
+        "https://www.icrc.org/en/document/iraq-icrc-deplores-abuse-detained-persons-calls-respect-international-humanitarian-law"
+      ]
+    },
+    {
+      "domain": "www.cancer.gov",
+      "count": 1,
+      "urls": [
+        "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/agent-orange"
+      ]
+    },
+    {
+      "domain": "www.federalreserve.gov",
+      "count": 1,
+      "urls": [
+        "https://www.federalreserve.gov/supervisionreg/enforcement-actions.htm"
+      ]
+    },
+    {
+      "domain": "www.nasa.gov",
+      "count": 1,
+      "urls": [
+        "https://www.nasa.gov/humans-in-space/commercial-crew/"
+      ]
+    },
+    {
+      "domain": "www.sba.gov",
+      "count": 1,
+      "urls": [
+        "https://www.sba.gov/about-sba/oversight-advocacy/office-inspector-general/recovery"
+      ]
+    },
+    {
+      "domain": "www.hmhbooks.com",
+      "count": 1,
+      "urls": [
+        "https://www.hmhbooks.com/shop/books/king-leopolds-ghost/9780618001903"
+      ]
+    },
+    {
+      "domain": "www.chicago.gov",
+      "count": 1,
+      "urls": [
+        "https://www.chicago.gov/city/en/depts/dhr/provdrs/burge_702.html"
+      ]
+    },
+    {
+      "domain": "clintonwhitehouse4.archives.gov",
+      "count": 1,
+      "urls": [
+        "https://clintonwhitehouse4.archives.gov/textonly/New/Remarks/Fri/19951003-8456.html"
+      ]
+    },
+    {
+      "domain": "www.maricopa.gov",
+      "count": 1,
+      "urls": [
+        "https://www.maricopa.gov/5441/Superior-Court"
+      ]
+    },
+    {
+      "domain": "www.ussc.gov",
+      "count": 1,
+      "urls": [
+        "https://www.ussc.gov/research/annual-reports-and-sourcebooks"
+      ]
+    },
+    {
+      "domain": "efile.fara.gov",
+      "count": 1,
+      "urls": [
+        "https://efile.fara.gov/docs/6069-Registration-Statement-20170308-1.pdf"
+      ]
+    },
+    {
+      "domain": "www.fhfa.gov",
+      "count": 1,
+      "urls": [
+        "https://www.fhfa.gov/AboutUs/Reports/ReportDocuments/2006-2_OFHEO_FNM_REPORT.pdf"
+      ]
+    },
+    {
+      "domain": "www.pathfinderpress.com",
+      "count": 1,
+      "urls": [
+        "https://www.pathfinderpress.com/cointelpro"
+      ]
+    },
+    {
+      "domain": "ag.ny.gov",
+      "count": 1,
+      "urls": [
+        "https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-detailing-millions-fake-comments-exposed"
+      ]
+    },
+    {
+      "domain": "www.hennepinattorney.org",
+      "count": 1,
+      "urls": [
+        "https://www.hennepinattorney.org/floyd"
+      ]
+    },
+    {
+      "domain": "www.texastribune.org",
+      "count": 1,
+      "urls": [
+        "https://www.texastribune.org/series/winter-storm-uri/"
+      ]
+    },
+    {
+      "domain": "www.aljazeera.com",
+      "count": 1,
+      "urls": [
+        "https://www.aljazeera.com/news/2018/10/turkey-audio-khashoggi-murder"
+      ]
+    },
+    {
+      "domain": "www.ncpa.org",
+      "count": 1,
+      "urls": [
+        "https://www.ncpa.org/issues/pbm-reform"
+      ]
+    },
+    {
+      "domain": "library.gwu.edu",
+      "count": 1,
+      "urls": [
+        "https://library.gwu.edu/special-collections"
+      ]
+    },
+    {
+      "domain": "www.newyorker.com",
+      "count": 1,
+      "urls": [
+        "https://www.newyorker.com/news/news-desk/the-case-of-al-franken"
+      ]
+    },
+    {
+      "domain": "divinity-adhoc.library.yale.edu",
+      "count": 1,
+      "urls": [
+        "https://divinity-adhoc.library.yale.edu/NanjingMassacre/"
+      ]
+    },
+    {
+      "domain": "www.statnews.com",
+      "count": 1,
+      "urls": [
+        "https://www.statnews.com/opioid-settlement-tracker/"
+      ]
+    },
+    {
+      "domain": "airandspace.si.edu",
+      "count": 1,
+      "urls": [
+        "https://airandspace.si.edu/people/wernher-von-braun"
+      ]
+    },
+    {
+      "domain": "www.npr.org",
+      "count": 1,
+      "urls": [
+        "https://www.npr.org/sections/thetwo-way/2017/06/20/533863171/aftermath-of-philando-castile-shooting"
+      ]
+    },
+    {
+      "domain": "cyber.harvard.edu",
+      "count": 1,
+      "urls": [
+        "https://cyber.harvard.edu/publications/2018/11/MediaCloud"
+      ]
+    },
+    {
+      "domain": "www.brookings.edu",
+      "count": 1,
+      "urls": [
+        "https://www.brookings.edu/articles/the-new-orleans-school-reforms/"
+      ]
+    },
+    {
+      "domain": "www.uscp.gov",
+      "count": 1,
+      "urls": [
+        "https://www.uscp.gov/media-center/press-releases/us-capitol-police-releases-2021-annual-report"
+      ]
+    },
+    {
+      "domain": "www.ap.org",
+      "count": 1,
+      "urls": [
+        "https://www.ap.org/explore/nypd/"
+      ]
+    },
+    {
+      "domain": "www.panynj.gov",
+      "count": 1,
+      "urls": [
+        "https://www.panynj.gov/corporate/en/inspector-general.html"
+      ]
+    },
+    {
+      "domain": "everytownresearch.org",
+      "count": 1,
+      "urls": [
+        "https://everytownresearch.org/report/unsecured-guns/"
+      ]
+    },
+    {
+      "domain": "cebcp.org",
+      "count": 1,
+      "urls": [
+        "https://cebcp.org/wp-content/evidence-based-policing/body-worn-cameras/BWCMeta.pdf"
+      ]
+    },
+    {
+      "domain": "www.upturn.org",
+      "count": 1,
+      "urls": [
+        "https://www.upturn.org/work/the-illusion-of-accuracy/"
+      ]
+    },
+    {
+      "domain": "profiles.nlm.nih.gov",
+      "count": 1,
+      "urls": [
+        "https://profiles.nlm.nih.gov/spotlight/qg"
+      ]
+    },
+    {
+      "domain": "www.bc.edu",
+      "count": 1,
+      "urls": [
+        "https://www.bc.edu/bc-web/schools/law/academics-faculty/programs/cloughcenter.html"
+      ]
+    },
+    {
+      "domain": "www.fincen.gov",
+      "count": 1,
+      "urls": [
+        "https://www.fincen.gov/real-estate-gtos"
+      ]
+    },
+    {
+      "domain": "www.nuclearmuseum.org",
+      "count": 1,
+      "urls": [
+        "https://www.nuclearmuseum.org/see/stories/the-radium-girls"
+      ]
+    },
+    {
+      "domain": "unctad.org",
+      "count": 1,
+      "urls": [
+        "https://unctad.org/topic/debt-and-finance/sovereign-debt-workouts"
+      ]
+    },
+    {
+      "domain": "www.eac.gov",
+      "count": 1,
+      "urls": [
+        "https://www.eac.gov/voting-equipment/system-certification"
+      ]
+    },
+    {
+      "domain": "www.eff.org",
+      "count": 1,
+      "urls": [
+        "https://www.eff.org/deeplinks/2020/06/inside-invasive-secretive-bossware"
+      ]
+    },
+    {
+      "domain": "content.time.com",
+      "count": 1,
+      "urls": [
+        "https://content.time.com/time/specials/packages/article/0,28804,2019712_2019694_2019693,00.html"
+      ]
+    },
+    {
+      "domain": "www.foodandwaterwatch.org",
+      "count": 1,
+      "urls": [
+        "https://www.foodandwaterwatch.org/reports/the-state-of-public-water-in-the-united-states/"
+      ]
+    },
+    {
+      "domain": "www.pbs.org",
+      "count": 1,
+      "urls": [
+        "https://www.pbs.org/frontlineworld/stories/congo/"
+      ]
+    },
+    {
+      "domain": "www.latimes.com",
+      "count": 1,
+      "urls": [
+        "https://www.latimes.com/entertainment/movies/la-et-mn-zero-dark-thirty-cia-20150910-story.html"
+      ]
+    }
+  ]
+}

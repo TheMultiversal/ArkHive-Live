@@ -1,0 +1,2614 @@
+{
+  "issues": [
+    {
+      "file": "investigations/2.ts",
+      "line": 70,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "January 6 Committee Report",
+      "investigation": "2020 Election Overturn Attempt",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 145,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Full Video Transcript",
+      "investigation": "Access Hollywood Tape",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 268,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "AFRICOM Congressional Testimony",
+      "investigation": "Western Destabilization of Africa",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 612,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "ACLU Anti-Protest Legislation Report",
+      "investigation": "Activism Harassment",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 761,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "AP Investigations",
+      "investigation": "Ahmaud Arbery Murder",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 934,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "EEOC Charge Statistics",
+      "investigation": "Anti-LGBTQ Extremism",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 975,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "ACLU LGBTQ Rights",
+      "investigation": "Anti-LGBTQ Political Movement",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 1017,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Williams Institute Research",
+      "investigation": "Anti-Transgender Campaign",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 1084,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "EEOC Charge Statistics",
+      "investigation": "Antisemitism in America",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 1158,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Detention Watch Network",
+      "investigation": "Joe Arpaio Civil Rights Violations",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 1332,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "EEOC Charge Statistics",
+      "investigation": "Activision Blizzard Workplace Harassment",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 2055,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "The Jakarta Method",
+      "investigation": "American Exceptionalism & Imperial Overreach",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 2312,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "FEC: United Democracy Project Filing Data",
+      "investigation": "AIPAC and the Foreign Lobby Machine: How Foreign-Aligned Money Buys American Policy",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 2468,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Timbs v. Indiana, 586 U.S. ___ (2019)",
+      "investigation": "Civil Asset Forfeiture: Policing for Profit",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/b.ts",
+      "line": 532,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "EEOC Charge Statistics",
+      "investigation": "Banking Discrimination",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/b.ts",
+      "line": 682,
+      "url": "https://www.justice.gov/atr",
+      "srcTitle": "FTC Competition Enforcement",
+      "investigation": "Big Tech Monopoly",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/b.ts",
+      "line": 1357,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "US Census Bureau Population Projections",
+      "investigation": "Birth Rate Manipulation: Policy Analysis",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/b.ts",
+      "line": 1901,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "ACLU: Police Body Camera Policy Analysis",
+      "investigation": "Police Body Camera Programs and the Accountability Illusion",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/b.ts",
+      "line": 1935,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Oig Records",
+      "investigation": "Border Patrol Abuse Patterns",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/b.ts",
+      "line": 1937,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "DOJ Civil Rights Division",
+      "investigation": "Border Patrol Abuse Patterns",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 28,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Trump Russia Hacking Request, Full Video",
+      "investigation": "Cybercrimes & Hacking Encouragement",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 116,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Trump Lester Holt Interview",
+      "investigation": "James Comey Firing & Obstruction",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 118,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Comey Opening Statement",
+      "investigation": "James Comey Firing & Obstruction",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 239,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "Senate NRA Russia Investigation",
+      "investigation": "Campaign Finance Corruption",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 291,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "NYT Civil Rights Division Exodus",
+      "investigation": "Civil Rights Rollbacks",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 931,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Washington Post: U.S. Campaign Behind Ouster of Milosevic",
+      "investigation": "Color Revolutions & U.S. Democracy Promotion",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 1738,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "Senate Intelligence Committee Torture Report Executive Summary",
+      "investigation": "CIA Interrogation Tape Destruction",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 1780,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Taylor Branch, Parting the Waters",
+      "investigation": "Civil Rights Movement and Government Repression",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 3270,
+      "url": "https://vault.fbi.gov",
+      "srcTitle": "Church Committee Final Report",
+      "investigation": "COINTELPRO: Domestic Surveillance Legacy",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 3942,
+      "url": "https://www.justice.gov/atr",
+      "srcTitle": "",
+      "investigation": "Construction Industry Bid Rigging Networks",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 5077,
+      "url": "https://www.justice.gov/afp",
+      "srcTitle": "Institute for Justice: Policing for Profit (3rd Edition)",
+      "investigation": "Civil Asset Forfeiture: Legalized Government Theft",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 5080,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Timbs v. Indiana, 586 U.S. ___ (2019)",
+      "investigation": "Civil Asset Forfeiture: Legalized Government Theft",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 5158,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "ProPublica: Secret Border Patrol Facebook Group",
+      "investigation": "CBP Border Abuse and the Constitution-Free Zone",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 5203,
+      "url": "https://www.justice.gov/nsd",
+      "srcTitle": "FBI: The China Threat",
+      "investigation": "Chinese Influence Operations in the United States",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 5246,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "investigation": "Cryptocurrency Fraud: The Unregulated Casino",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 5368,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "Swiss Parliamentary Investigation Commission: Credit Suisse Report",
+      "investigation": "Credit Suisse: 167-Year-Old Swiss Bank Destroyed by Decades of Scandal and Mismanagement",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 5407,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "investigation": "Cryptocurrency Fraud: $40 Billion Lost to Scams, Collapses, and Regulatory Failure",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 5562,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "UN Committee Against Torture: U.S. Review 2014",
+      "investigation": "Chicago Police Torture Ring: Jon Burge and Two Decades of Systematic Abuse",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/d.ts",
+      "line": 228,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "DOJ Politicization",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/d.ts",
+      "line": 396,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Court Records: State v. Brailsford",
+      "investigation": "Daniel Shaver Police Killing",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/d.ts",
+      "line": 564,
+      "url": "https://www.fbi.gov/news/testimony",
+      "srcTitle": "ADL Murder & Extremism Report",
+      "investigation": "Domestic Terrorism in America",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/d.ts",
+      "line": 780,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Disinformation Warfare Infrastructure",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/d.ts",
+      "line": 1406,
+      "url": "https://www.justice.gov/civil",
+      "srcTitle": "",
+      "investigation": "Defense Contractor Fraud and Waste",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/d.ts",
+      "line": 1887,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Washington Post Investigation",
+      "investigation": "Daniel Shaver Police Execution",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/d.ts",
+      "line": 2128,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "National Commission on the BP Deepwater Horizon Oil Spill and Offshore Drilling",
+      "investigation": "Deepwater Horizon BP Disaster",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/d.ts",
+      "line": 2247,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "The Intercept: The Snowden Archive",
+      "investigation": "The Domestic Surveillance State: Mass Spying on Americans",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/d.ts",
+      "line": 2321,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "DOJ Press Releases",
+      "investigation": "Domestic Violence System Failures",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 408,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Election Interference Patterns",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 537,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "Epstein Court Documents",
+      "investigation": "Elite Pedophile Networks",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 815,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "",
+      "investigation": "El Paso Walmart Massacre",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 1476,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Peru Truth and Reconciliation Commission",
+      "investigation": "Economic Policy Population Control Links",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 1664,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "DHS IG Secret Service Report",
+      "investigation": "Evidence Destruction & Obstruction of Justice",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 1707,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "",
+      "investigation": "El Paso Walmart Massacre",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 1933,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "",
+      "investigation": "Emirati Influence Operations in American Politics",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 2145,
+      "url": "https://www.justice.gov/usao-ndca",
+      "srcTitle": "",
+      "investigation": "Elizabeth Holmes and Theranos: Silicon Valley\\",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 2186,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Mindy Fullilove: Root Shock: How Tearing Up City Neighborhoods Hurts America",
+      "investigation": "Eminent Domain Abuse: Government Seizure of Private Property for Corporate Gain",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/f.ts",
+      "line": 146,
+      "url": "https://www.justice.gov/usao-edny",
+      "srcTitle": "Flynn FARA Registration",
+      "investigation": "Foreign Agent Registration Violations",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/f.ts",
+      "line": 287,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "Trump-Rosen Call Notes",
+      "investigation": "Federal Election Interference",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/f.ts",
+      "line": 380,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "",
+      "investigation": "Trump Federal Election Conspiracy Charges",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/f.ts",
+      "line": 457,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Church Committee Final Report Book III",
+      "investigation": "FBI vs. Civil Rights Movement",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/f.ts",
+      "line": 570,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "investigation": "FTX Cryptocurrency Collapse",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/f.ts",
+      "line": 1587,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "NYT Clearview AI Investigation",
+      "investigation": "Facial Recognition Policing Bias",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/f.ts",
+      "line": 2309,
+      "url": "https://ilsr.org/",
+      "srcTitle": "New York Attorney General: Fake Comments Investigation",
+      "investigation": "FCC Telecom Regulatory Capture: How the Industry Wrote Its Own Rules",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 143,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Miss Teen USA Dressing Room Allegations",
+      "investigation": "Gender Discrimination & Sexual Misconduct",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 230,
+      "url": "https://www.justice.gov/usao-mdfl",
+      "srcTitle": "NY Times Original Investigation",
+      "investigation": "Matt Gaetz Sex Trafficking Investigation",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 374,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "January 6 Committee Report, Green Bay Sweep",
+      "investigation": "Green Bay Sweep",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 633,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "FBI Uniform Crime Reporting",
+      "investigation": "Murder of George Floyd",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 812,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "AP Exact Match Investigation",
+      "investigation": "Georgia Voter Suppression",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 814,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Brennan Center Georgia Polling Place Analysis",
+      "investigation": "Georgia Voter Suppression",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 1216,
+      "url": "https://www.justice.gov/atr",
+      "srcTitle": "Connecticut AG Price Fixing Complaint",
+      "investigation": "Generic Drug Price Fixing Conspiracy",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 1338,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Lancet Mexico City Policy Impact Study",
+      "investigation": "Global Population Policy Hidden Agendas",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 1420,
+      "url": "https://www.justice.gov/civil",
+      "srcTitle": "DOD Inspector General Audit Reports",
+      "investigation": "Government Contract Fraud Patterns",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 1516,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Court Documents: State v. Chauvin",
+      "investigation": "George Floyd Murder & Racial Justice Uprising",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 1518,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "George Floyd Justice in Policing Act (H.R. 1280)",
+      "investigation": "George Floyd Murder & Racial Justice Uprising",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/g.ts",
+      "line": 1719,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Brennan Center for Justice: Extreme Gerrymandering and the 2018 Midterms",
+      "investigation": "Gerrymandering: The Theft of Democratic Representation",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/h.ts",
+      "line": 30,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "GAVI Funding Structure",
+      "investigation": "Global Health Policy Capture",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/h.ts",
+      "line": 938,
+      "url": "https://www.justice.gov/civil",
+      "srcTitle": "DCAA: Audit Reports on KBR LOGCAP Contracts",
+      "investigation": "Halliburton and KBR Military Contractor Fraud",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/h.ts",
+      "line": 975,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Oregon DOJ: Investigation of Federal Actions in Portland",
+      "investigation": "Department of Homeland Security: Mission Creep and Civil Liberties Erosion",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/i.ts",
+      "line": 642,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "BJS Sexual Victimization in Prisons Report",
+      "investigation": "Institutional Abuse of Vulnerable Populations",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/i.ts",
+      "line": 1127,
+      "url": "https://www.fbi.gov/investigate/white-collar-crime",
+      "srcTitle": "Coalition Against Insurance Fraud",
+      "investigation": "Insurance Fraud Organized Networks",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/i.ts",
+      "line": 1416,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Treasury Department: The Tax Gap - Estimates for Tax Years 2017-2019",
+      "investigation": "The IRS Two-Tier Tax System: How Billionaires Pay Less Than Their Secretaries",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/j.ts",
+      "line": 243,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "DOJ Media Guidelines",
+      "investigation": "Journalistic Source Protection Failures",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/j.ts",
+      "line": 281,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "",
+      "investigation": "Juvenile Justice System Failures",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/j.ts",
+      "line": 447,
+      "url": "https://www.justice.gov/usao-mdpa",
+      "srcTitle": "",
+      "investigation": "Judicial Corruption: Kids for Cash and the Systemic Rot in American Courts",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/j.ts",
+      "line": 563,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "DOJ Press Releases",
+      "investigation": "Juvenile Life Without Parole",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/k.ts",
+      "line": 113,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "BuzzFeed Felix Sater Investigation",
+      "investigation": "Kremlin Oligarch Connections",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/k.ts",
+      "line": 243,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "Video Evidence Compilation",
+      "investigation": "Kenosha Shootings",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/k.ts",
+      "line": 319,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "EEOC Charge Statistics",
+      "investigation": "Korematsu v. United States: The Legalization of Racism",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/l.ts",
+      "line": 29,
+      "url": "https://www.fbi.gov/news/testimony",
+      "srcTitle": "",
+      "investigation": "COVID-19 Lab Leak Theory",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/l.ts",
+      "line": 80,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Clinton ",
+      "investigation": "Libya Intervention and Aftermath",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/l.ts",
+      "line": 127,
+      "url": "https://disclosurespreview.house.gov/",
+      "srcTitle": "The Swamp, Eric Lipton",
+      "investigation": "K Street: The Corruption Industry",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/l.ts",
+      "line": 211,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "",
+      "investigation": "Laquan McDonald Murder",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/l.ts",
+      "line": 215,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Chicago Consent Decree",
+      "investigation": "Laquan McDonald Murder",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/l.ts",
+      "line": 297,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "EEOC Charge Statistics",
+      "investigation": "LGBTQ+ Discrimination: Systematic Inequality in Law and Practice",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/l.ts",
+      "line": 584,
+      "url": "https://www.fbi.gov/investigate",
+      "srcTitle": "LVMPD Final Report",
+      "investigation": "Las Vegas Mass Shooting",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/m.ts",
+      "line": 81,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Mueller Letter to Barr",
+      "investigation": "Mueller Report Suppression",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/m.ts",
+      "line": 84,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Analysis of Barr Misrepresentations",
+      "investigation": "Mueller Report Suppression",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/m.ts",
+      "line": 218,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "John Snow Memorandum",
+      "investigation": "COVID Restrictions Debate",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/m.ts",
+      "line": 1111,
+      "url": "https://www.justice.gov/usao-edny",
+      "srcTitle": "",
+      "investigation": "Music Industry Abuse",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/m.ts",
+      "line": 1112,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "United States v. Robert Sylvester Kelly: Conviction",
+      "investigation": "Music Industry Abuse",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/m.ts",
+      "line": 2107,
+      "url": "https://www.justice.gov/usao-edny",
+      "srcTitle": "",
+      "investigation": "Martin Shkreli: ",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/n.ts",
+      "line": 199,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "PNAC Letter to Clinton on Iraq (1998)",
+      "investigation": "Neoconservative Network",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/n.ts",
+      "line": 453,
+      "url": "https://www.justice.gov/criminal",
+      "srcTitle": "National Human Trafficking Hotline Data",
+      "investigation": "NXIVM: The Sex Cult Disguised as a Self-Help Organization",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/n.ts",
+      "line": 530,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "EEOC Charge Statistics",
+      "investigation": "NYPD Racial Profiling: Stop-and-Frisk and Systemic Discrimination",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/n.ts",
+      "line": 652,
+      "url": "https://www.justice.gov/atr",
+      "srcTitle": "AIBRT: Search Engine Manipulation Effect Research",
+      "investigation": "Narrative Control Through Search Algorithms",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/n.ts",
+      "line": 892,
+      "url": "https://www.pclob.gov/",
+      "srcTitle": "",
+      "investigation": "NSA Warrantless Wiretapping: From Stellar Wind to Section 702",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/n.ts",
+      "line": 1051,
+      "url": "https://www.pclob.gov/",
+      "srcTitle": "ODNI: Annual Statistical Transparency Report (Section 702)",
+      "investigation": "NSA Mass Surveillance and Constitutional Rights Erosion",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/n.ts",
+      "line": 1052,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Privacy and Civil Liberties Oversight Board: Report on Section 702",
+      "investigation": "NSA Mass Surveillance and Constitutional Rights Erosion",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/o.ts",
+      "line": 468,
+      "url": "https://thenewpress.com/",
+      "srcTitle": "State Dept Declassified Cables",
+      "investigation": "Operation Condor: State Terrorism Across Latin America",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/o.ts",
+      "line": 663,
+      "url": "https://thenewpress.com/",
+      "srcTitle": "National Security Archive: Iran",
+      "investigation": "Operation Ajax: The CIA\\",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 218,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Presidential Pardons Analysis",
+      "investigation": "Pattern of Presidential Misconduct",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 312,
+      "url": "https://www.justice.gov/usao-dc",
+      "srcTitle": "",
+      "investigation": "Proud Boys Domestic Terrorism",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 495,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Sentencing Project Private Prison Report",
+      "investigation": "Private Prison Industry",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 692,
+      "url": "https://www.fbi.gov/investigate/white-collar-crime",
+      "srcTitle": "SEC Penny Stock Fraud Alerts",
+      "investigation": "Penny Stock Fraud and Pump-and-Dump Schemes",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 728,
+      "url": "https://www.justice.gov/usao-mn",
+      "srcTitle": "",
+      "investigation": "Tom Petters $3.7 Billion Ponzi Scheme",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 858,
+      "url": "https://www.justice.gov/civil",
+      "srcTitle": "Public Citizen: Pharmaceutical Industry Criminal and Civil Penalties",
+      "investigation": "Pharmaceutical Industry Fraud",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 1030,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Obermeyer et al: Healthcare Algorithm Bias (Science)",
+      "investigation": "Digital Platform Discrimination",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 1278,
+      "url": "https://www.justice.gov/usao-edny",
+      "srcTitle": "",
+      "investigation": "Political Fraud and Campaign Finance Crimes",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 1280,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "House Ethics Committee Santos Report",
+      "investigation": "Political Fraud and Campaign Finance Crimes",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 1445,
+      "url": "https://www.justice.gov/usao-dc",
+      "srcTitle": "Capitol Police Threat Assessment Data",
+      "investigation": "Political Violence in America",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 1496,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "DOJ Inspector General: 9/11 Detainee Report",
+      "investigation": "Post-9/11 Persecution of Muslim Americans",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 1535,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "",
+      "investigation": "Predatory Lending and Financial Exploitation",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 1578,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Northwestern: Local News Initiative",
+      "investigation": "Press Freedom Under Siege",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 1619,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Forbidden Stories: Pegasus Project",
+      "investigation": "Global Press Freedom Violations",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 2054,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "CFPB Payday Lending Report",
+      "investigation": "Predatory Lending Systematic Exploitation",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 2090,
+      "url": "https://www.fbi.gov/investigate/white-collar-crime",
+      "srcTitle": "FINRA Investor Alerts",
+      "investigation": "Penny Stock Pump and Dump Networks",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 2207,
+      "url": "https://www.pclob.gov",
+      "srcTitle": "Guardian: NSA PRISM Program",
+      "investigation": "PRISM Surveillance Program",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 2397,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "ProPublica: Machine Bias (COMPAS Investigation)",
+      "investigation": "Predictive Policing Algorithmic Racism",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 2656,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "OpenSecrets: Police Union Political Spending",
+      "investigation": "Police Union Misconduct Protection",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 3081,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Washington Post: Fatal Force",
+      "investigation": "Police Brutality Crisis in America",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 3375,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Upturn: The Illusion of Accuracy - How Body-Worn Camera Programs Undermine Police Accountability",
+      "investigation": "Police Body Camera Manipulation: Transparency Theater",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 3531,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Marshall Project: The Pentagon Finally Details Its Weapons-for-Cops Giveaway",
+      "investigation": "Police Militarization and the 1033 Program",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 3766,
+      "url": "https://vault.fbi.gov/",
+      "srcTitle": "Amnesty International: Leonard Peltier Case",
+      "investigation": "Pine Ridge Reign of Terror: FBI, COINTELPRO, and the War Against the American Indian Movement",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/p.ts",
+      "line": 3809,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "",
+      "investigation": "Purdue Pharma and the Sackler Family: Architects of the Opioid Epidemic",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/q.ts",
+      "line": 73,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "William Baude: Is Qualified Immunity Unlawful?",
+      "investigation": "Qualified Immunity Police Accountability Gap",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/q.ts",
+      "line": 148,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "DOJ Press Releases",
+      "investigation": "Qualified Immunity: The Police Accountability Shield",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 141,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Oxford Internet Institute Analysis",
+      "investigation": "Russian Disinformation Operations",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 328,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Senate Intelligence Committee Russia Report",
+      "investigation": "Russian Disinformation Operations",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 453,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Russia Investigation Overview",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 455,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Senate Intelligence Committee Russia Report (Volume 5)",
+      "investigation": "Russia Investigation Overview",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 500,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Russian Election Interference 2016",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 502,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Senate Intelligence Committee Volume 5: Counterintelligence Threats",
+      "investigation": "Russian Election Interference 2016",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 503,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "DOJ Indictment of 12 GRU Officers",
+      "investigation": "Russian Election Interference 2016",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 554,
+      "url": "https://www.justice.gov/usao-edny",
+      "srcTitle": "",
+      "investigation": "R. Kelly Sex Crimes",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 556,
+      "url": "https://www.justice.gov/usao-edny",
+      "srcTitle": "Jim DeRogatis: Soulless: The Case Against R. Kelly",
+      "investigation": "R. Kelly Sex Crimes",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 877,
+      "url": "https://www.fbi.gov/investigate/white-collar-crime",
+      "srcTitle": "SEC Enforcement Actions - Ponzi Schemes",
+      "investigation": "Scott Rothstein: The $1.2 Billion Ponzi Scheme Lawyer",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 1191,
+      "url": "https://disclosurespreview.house.gov/",
+      "srcTitle": "POGO: Revolving Door Reports",
+      "investigation": "Revolving Door Lobbyist Pipeline",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 1408,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "FiveThirtyEight: The Atlas of Redistricting",
+      "investigation": "Redistricting Manipulation Court Cases",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 35,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Clearview AI Federal Contracts",
+      "investigation": "Surveillance State Expansion",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 163,
+      "url": "https://www.justice.gov/usao-mdfl",
+      "srcTitle": "",
+      "investigation": "Domestic Sex Trafficking Operations",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 469,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "Statement of Facts",
+      "investigation": "Stormy Daniels Hush Money Scheme",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 470,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "Cohen Guilty Plea",
+      "investigation": "Stormy Daniels Hush Money Scheme",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 527,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Seychelles Secret Meeting",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 626,
+      "url": "https://thenewpress.com/",
+      "srcTitle": "UNCTAD, Sovereign Debt Workouts",
+      "investigation": "Sovereign Debt Exploitation",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 672,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Permanent Record by Edward Snowden",
+      "investigation": "The Surveillance State",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 1170,
+      "url": "https://www.fbi.gov/investigate/white-collar-crime",
+      "srcTitle": "SEC Enforcement Actions - Ponzi Schemes",
+      "investigation": "SEC Failures: The Watchdog That Refuses to Bite",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 1215,
+      "url": "https://vault.fbi.gov/",
+      "srcTitle": "Joint Inquiry into Intelligence Activities (28 Pages)",
+      "investigation": "September 11 Attacks & Accountability Failures",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 1308,
+      "url": "https://www.justice.gov/criminal",
+      "srcTitle": "National Human Trafficking Hotline Data",
+      "investigation": "Sex Trafficking: A Multi-Billion Dollar Criminal Enterprise",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 1625,
+      "url": "https://www.fbi.gov/investigate/white-collar-crime",
+      "srcTitle": "SEC Enforcement Actions - Ponzi Schemes",
+      "investigation": "Allen Stanford: The Caribbean Ponzi King",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 2197,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Missouri v. Biden Discovery Documents",
+      "investigation": "Social Media Censorship Industrial Complex",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 2233,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Social Media Bot Farm Election Campaigns",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 2574,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Snowden Document Archive",
+      "investigation": "Secret Court FISA Abuse Patterns",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 27,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Treason & Foreign Collusion",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 73,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Trump Tower Meeting (June 2016)",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 113,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Cohen Plea Agreement",
+      "investigation": "Trump Tower Moscow Project",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 371,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Blackwater Massacre Pardons",
+      "investigation": "Trump\\",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 457,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Trump Campaign Crimes",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 489,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Trump-Russia Investigation",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 607,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "EEOC Charge Statistics",
+      "investigation": "Tech Industry Sexism: The Boys\\",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 684,
+      "url": "https://www.justice.gov/atr",
+      "srcTitle": "FTC Competition Enforcement",
+      "investigation": "Tech Monopolies: How Big Tech Killed Competition",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 1070,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "AP News Investigations",
+      "investigation": "Trayvon Martin: The Case That Launched a Movement",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 2259,
+      "url": "https://www.justice.gov/usao-ndca",
+      "srcTitle": "",
+      "investigation": "Theranos: Billion Dollar Blood Testing Fraud",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 2335,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "NHTSA: Takata Airbag Recalls",
+      "investigation": "Takata Airbag Scandal: Defective Inflators Turned Safety Devices Into Fragmentation Grenades",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 2455,
+      "url": "https://www.justice.gov/atr",
+      "srcTitle": "",
+      "investigation": "Big Tech Monopoly Power and Antitrust Enforcement Failures",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/t.ts",
+      "line": 2495,
+      "url": "https://www.justice.gov/atr",
+      "srcTitle": "",
+      "investigation": "Ticketmaster/Live Nation Monopoly and Consumer Exploitation",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/u.ts",
+      "line": 25,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "investigation": "Ukraine Influence & Foreign Agent Networks",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/u.ts",
+      "line": 195,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Human Rights Watch Reports",
+      "investigation": "America\\",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/u.ts",
+      "line": 291,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Defense One",
+      "investigation": "U.S. Ukraine Policy: From Bipartisan Support to Political Weapon",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/u.ts",
+      "line": 704,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Dov Levin: Partisan Electoral Interventions by the Great Powers Database",
+      "investigation": "U.S.-Backed Coups and Regime Change Operations",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/v.ts",
+      "line": 181,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Leadership Conference: Democracy Diverted",
+      "investigation": "Voting Rights Under Attack",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/v.ts",
+      "line": 610,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Leadership Conference on Civil and Human Rights: The Great Poll Closure",
+      "investigation": "Modern Voter Suppression: The Systematic Assault on American Democracy",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/v.ts",
+      "line": 655,
+      "url": "https://www.justice.gov/opa",
+      "srcTitle": "EPA: Volkswagen Light Duty Diesel Vehicle Violations",
+      "investigation": "Volkswagen Diesel Emissions Fraud",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/v.ts",
+      "line": 693,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Leadership Conference on Civil and Human Rights: The Great Poll Closure",
+      "investigation": "Systematic Voter Suppression in Modern America",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/w.ts",
+      "line": 713,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "Human Rights Watch Reports",
+      "investigation": "Wartime Civil Liberties: How America Suspends Freedom in Times of Fear",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/w.ts",
+      "line": 1164,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "MSPB: Whistleblower Protection Statistics",
+      "investigation": "Whistleblower Retaliation Systematic",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/w.ts",
+      "line": 1234,
+      "url": "https://www.justice.gov/crt",
+      "srcTitle": "The Guardian: NSA Files",
+      "investigation": "Whistleblower Prosecution Timeline",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/w.ts",
+      "line": 1627,
+      "url": "https://www.justice.gov/dag",
+      "srcTitle": "SEC: WorldCom Fraud Case",
+      "investigation": "WorldCom: $11 Billion Accounting Fraud That Destroyed Telecom Giant",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/x.ts",
+      "line": 24,
+      "url": "https://www.pclob.gov",
+      "srcTitle": "Snowden Archive",
+      "investigation": "XKeyscore Universal Data Collection",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/a.ts",
+      "line": 1284,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Wikipedia: Aras Agalarov",
+      "individual": "Aras Agalarov",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/a.ts",
+      "line": 1323,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Senate Judiciary Committee: Trump Tower Meeting Transcripts",
+      "individual": "Anatoli Samochornov",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/a.ts",
+      "line": 1510,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Wikipedia: Amy Berman Jackson",
+      "individual": "Amy Berman Jackson",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/a.ts",
+      "line": 1692,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "individual": "Andrew Badolato",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/a.ts",
+      "line": 3438,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "Wikipedia: Anthony Weiner",
+      "individual": "Anthony Weiner",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/a.ts",
+      "line": 6440,
+      "url": "https://www.justice.gov/usao-edny",
+      "srcTitle": "",
+      "individual": "Allison Mack",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/b.ts",
+      "line": 177,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "individual": "Brian Kolfage",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/b.ts",
+      "line": 4258,
+      "url": "https://www.mdah.ms.gov/",
+      "srcTitle": "",
+      "individual": "Byron De La Beckwith",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/d.ts",
+      "line": 193,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Donald John Trump",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/d.ts",
+      "line": 217,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Access Hollywood Tape Transcript",
+      "individual": "Donald John Trump",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/d.ts",
+      "line": 344,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Donald John Trump Jr.",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/d.ts",
+      "line": 757,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Donald F. McGahn II",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/e.ts",
+      "line": 252,
+      "url": "https://www.justice.gov/usao-dc",
+      "srcTitle": "",
+      "individual": "Henry ",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/g.ts",
+      "line": 99,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "Giuffre v. Maxwell Lawsuit Documents",
+      "individual": "Ghislaine Noelle Marion Maxwell",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/g.ts",
+      "line": 101,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "Victim Impact Statements",
+      "individual": "Ghislaine Noelle Marion Maxwell",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/g.ts",
+      "line": 270,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "George Demetrios Papadopoulos",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/g.ts",
+      "line": 734,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "George Aref Nader",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/g.ts",
+      "line": 735,
+      "url": "https://www.justice.gov/usao-edva",
+      "srcTitle": "Mueller Report",
+      "individual": "George Aref Nader",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/h.ts",
+      "line": 163,
+      "url": "https://vault.fbi.gov/",
+      "srcTitle": "",
+      "individual": "Hillary Diane Rodham Clinton",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/i.ts",
+      "line": 131,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "individual": "Igor Fruman",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/i.ts",
+      "line": 167,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Ivan Timofeev",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/i.ts",
+      "line": 168,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Mueller Report Volume I: Russian Contacts with the Campaign",
+      "individual": "Ivan Timofeev",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/i.ts",
+      "line": 214,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "GAO Report on Suspicious Banking Activity",
+      "individual": "Ike Kaveladze",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/i.ts",
+      "line": 586,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "SIPC Madoff Recovery Website",
+      "individual": "Irving Picard",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/j.ts",
+      "line": 93,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "individual": "Jeffrey Edward Epstein",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/j.ts",
+      "line": 95,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "Miami Herald: Perversion of Justice",
+      "individual": "Jeffrey Edward Epstein",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/j.ts",
+      "line": 250,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Julian Paul Assange",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/j.ts",
+      "line": 297,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Jerome Robert Corsi",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/j.ts",
+      "line": 401,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Comey Senate Testimony",
+      "individual": "James Brien Comey Jr.",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/j.ts",
+      "line": 563,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Joseph Mifsud",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/j.ts",
+      "line": 8148,
+      "url": "https://www.justice.gov/usao-dc",
+      "srcTitle": "",
+      "individual": "Jesse Jackson Jr.",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/k.ts",
+      "line": 148,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Senate Intelligence Committee Report Vol. 5",
+      "individual": "Konstantin Viktorovych Kilimnik",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/k.ts",
+      "line": 918,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Kirill Aleksandrovich Dmitriev",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/k.ts",
+      "line": 3311,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Klaus Barbie",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/l.ts",
+      "line": 46,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "individual": "Lev Parnas",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/m.ts",
+      "line": 68,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "individual": "Michael Dean Cohen",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/m.ts",
+      "line": 72,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "Cohen Sentencing Memo",
+      "individual": "Michael Dean Cohen",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/m.ts",
+      "line": 5575,
+      "url": "https://www.justice.gov/usao-mdpa",
+      "srcTitle": "",
+      "individual": "Mark Ciavarella",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/m.ts",
+      "line": 5641,
+      "url": "https://www.justice.gov/usao-mdpa",
+      "srcTitle": "",
+      "individual": "Michael Conahan",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/o.ts",
+      "line": 51,
+      "url": "https://www.justice.gov/usao-sdny",
+      "srcTitle": "",
+      "individual": "Oleg Deripaska",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/r.ts",
+      "line": 76,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Roger Jason Stone Jr.",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/r.ts",
+      "line": 203,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Richard William Gates III",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/r.ts",
+      "line": 359,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Robert Swan Mueller III",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/r.ts",
+      "line": 603,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Rod Jay Rosenstein",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/r.ts",
+      "line": 1479,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Rick Gerson",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/s.ts",
+      "line": 1116,
+      "url": "https://www.justice.gov/atr",
+      "srcTitle": "",
+      "individual": "Sundar Pichai",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/v.ts",
+      "line": 57,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Vladimir Vladimirovich Putin",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/v.ts",
+      "line": 127,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "",
+      "individual": "Viktor Fedorovych Yanukovych",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/v.ts",
+      "line": 463,
+      "url": "https://www.justice.gov/archives",
+      "srcTitle": "U.S. Treasury OFAC Sanctions",
+      "individual": "Viktor Vekselberg",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "individuals/w.ts",
+      "line": 1994,
+      "url": "https://www.justice.gov/criminal",
+      "srcTitle": "",
+      "individual": "William Jefferson",
+      "issue": "GENERIC_FALLBACK",
+      "note": "URL is a generic homepage rather than specific article/document"
+    },
+    {
+      "file": "investigations/a.ts",
+      "line": 1330,
+      "url": "https://en.wikipedia.org/wiki/Time%27s_Up_(organization)",
+      "srcTitle": "EEOC Sexual Harassment Data",
+      "investigation": "Activision Blizzard Workplace Harassment",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"time's up (organization)\" doesn't match context \"EEOC Sexual Harassment Data\""
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 1244,
+      "url": "https://en.wikipedia.org/wiki/Time%27s_Up_(organization)",
+      "srcTitle": "EEOC Sexual Harassment Data",
+      "investigation": "CBS Sexual Harassment",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"time's up (organization)\" doesn't match context \"EEOC Sexual Harassment Data\""
+    },
+    {
+      "file": "investigations/c.ts",
+      "line": 1380,
+      "url": "https://en.wikipedia.org/wiki/Time%27s_Up_(organization)",
+      "srcTitle": "EEOC Sexual Harassment Data",
+      "investigation": "Charlie Rose Harassment",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"time's up (organization)\" doesn't match context \"EEOC Sexual Harassment Data\""
+    },
+    {
+      "file": "investigations/e.ts",
+      "line": 189,
+      "url": "https://en.wikipedia.org/wiki/Brooks_Brothers_riot",
+      "srcTitle": "Bush v. Gore Decision",
+      "investigation": "Election 2000, Bush v. Gore",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"brooks brothers riot\" doesn't match context \"Bush v. Gore Decision\""
+    },
+    {
+      "file": "investigations/m.ts",
+      "line": 705,
+      "url": "https://en.wikipedia.org/wiki/Time%27s_Up_(organization)",
+      "srcTitle": "EEOC Sexual Harassment Data",
+      "investigation": "#MeToo in Media: How Newsrooms Protected Predators",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"time's up (organization)\" doesn't match context \"EEOC Sexual Harassment Data\""
+    },
+    {
+      "file": "investigations/r.ts",
+      "line": 1462,
+      "url": "https://en.wikipedia.org/wiki/Dark_Alliance",
+      "srcTitle": "CIA Inspector General Drug Report (1998)",
+      "investigation": "Reagan Administration Crimes",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"dark alliance\" doesn't match context \"CIA Inspector General Drug Report (1998)\""
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 950,
+      "url": "https://en.wikipedia.org/wiki/Time%27s_Up_(organization)",
+      "srcTitle": "EEOC Sexual Harassment Data",
+      "investigation": "Sandy Hook Disinformation: The Weaponization of Tragedy",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"time's up (organization)\" doesn't match context \"EEOC Sexual Harassment Data\""
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 1121,
+      "url": "https://en.wikipedia.org/wiki/Time%27s_Up_(organization)",
+      "srcTitle": "EEOC Sexual Harassment Data",
+      "investigation": "Church of Scientology: Abuse, Coercion, and Institutional Terror",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"time's up (organization)\" doesn't match context \"EEOC Sexual Harassment Data\""
+    },
+    {
+      "file": "investigations/s.ts",
+      "line": 1386,
+      "url": "https://en.wikipedia.org/wiki/Time%27s_Up_(organization)",
+      "srcTitle": "EEOC Sexual Harassment Data",
+      "investigation": "Sexual Harassment in the Workplace: The #MeToo Reckoning and Beyond",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"time's up (organization)\" doesn't match context \"EEOC Sexual Harassment Data\""
+    },
+    {
+      "file": "individuals/a.ts",
+      "line": 1693,
+      "url": "https://en.wikipedia.org/wiki/We_Build_the_Wall",
+      "srcTitle": "DOJ: Leaders of ",
+      "individual": "Andrew Badolato",
+      "issue": "WIKI_MISMATCH",
+      "note": "Article \"we build the wall\" doesn't match context \"DOJ: Leaders of \""
+    }
+  ],
+  "highlyDuplicated": [
+    [
+      "https://www.propublica.org/",
+      267
+    ],
+    [
+      "https://www.sec.gov/litigation/litreleases.htm",
+      154
+    ],
+    [
+      "https://crsreports.congress.gov/",
+      134
+    ],
+    [
+      "https://nsarchive.gwu.edu/",
+      106
+    ],
+    [
+      "https://www.justice.gov/crt",
+      86
+    ],
+    [
+      "https://www.justice.gov/news",
+      84
+    ],
+    [
+      "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
+      83
+    ],
+    [
+      "https://apnews.com/",
+      77
+    ],
+    [
+      "https://www.sec.gov/cgi-bin/browse-edgar",
+      74
+    ],
+    [
+      "https://www.epa.gov/enforcement",
+      63
+    ],
+    [
+      "https://www.gao.gov",
+      58
+    ],
+    [
+      "https://www.hrw.org/reports",
+      56
+    ],
+    [
+      "https://www.justice.gov/archives",
+      53
+    ],
+    [
+      "https://www.ftc.gov/enforcement",
+      51
+    ],
+    [
+      "https://www.opensecrets.org",
+      50
+    ],
+    [
+      "https://www.congress.gov",
+      48
+    ],
+    [
+      "https://www.pacer.gov",
+      47
+    ],
+    [
+      "https://www.archives.gov",
+      46
+    ],
+    [
+      "https://www.brennancenter.org/",
+      43
+    ],
+    [
+      "https://www.cjr.org/",
+      42
+    ],
+    [
+      "https://www.justice.gov",
+      42
+    ],
+    [
+      "https://www.congress.gov/",
+      37
+    ],
+    [
+      "https://www.sec.gov/edgar",
+      32
+    ],
+    [
+      "https://ucr.fbi.gov/",
+      31
+    ],
+    [
+      "https://www.justice.gov/criminal/criminal-fraud",
+      30
+    ],
+    [
+      "https://www.ohchr.org/en/countries",
+      30
+    ],
+    [
+      "https://www.hrw.org/world-report",
+      30
+    ],
+    [
+      "https://www.miamiherald.com/topics/jeffrey-epstein",
+      30
+    ],
+    [
+      "https://www.icc-cpi.int/cases",
+      28
+    ],
+    [
+      "https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf",
+      27
+    ],
+    [
+      "https://www.justice.gov/",
+      27
+    ],
+    [
+      "https://web.archive.org/web/20241230154038/https://www.fincen.gov/news/news-releases/",
+      25
+    ],
+    [
+      "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/",
+      25
+    ],
+    [
+      "https://www.intelligence.senate.gov/publications",
+      25
+    ],
+    [
+      "https://www.justice.gov/criminal/criminal-ceos",
+      25
+    ],
+    [
+      "https://oig.hhs.gov/reports-and-publications/",
+      25
+    ],
+    [
+      "https://www.reuters.com/legal/",
+      23
+    ],
+    [
+      "https://www.nytimes.com",
+      22
+    ],
+    [
+      "https://www.bishop-accountability.org/",
+      22
+    ],
+    [
+      "https://nieman.harvard.edu/",
+      21
+    ],
+    [
+      "https://www.mediamatters.org/",
+      21
+    ],
+    [
+      "https://www.justice.gov/usao-sdny",
+      21
+    ],
+    [
+      "https://www.gunviolencearchive.org/",
+      20
+    ],
+    [
+      "https://www.nytimes.com/",
+      20
+    ],
+    [
+      "https://www.cia.gov/readingroom/",
+      19
+    ],
+    [
+      "https://www.oig.dhs.gov/",
+      18
+    ],
+    [
+      "https://www.justice.gov/criminal/criminal-pin",
+      18
+    ],
+    [
+      "https://www.who.int/publications",
+      18
+    ],
+    [
+      "https://www.kff.org/",
+      18
+    ],
+    [
+      "https://www.transparency.org/",
+      17
+    ],
+    [
+      "https://www.icij.org/investigations/",
+      17
+    ],
+    [
+      "https://www.cdc.gov/nchs/",
+      17
+    ],
+    [
+      "https://nsarchive.gwu.edu",
+      17
+    ],
+    [
+      "https://www.courtlistener.com/",
+      17
+    ],
+    [
+      "https://www.justice.gov/opa",
+      16
+    ],
+    [
+      "https://www.supremecourt.gov",
+      16
+    ],
+    [
+      "https://www.intelligence.senate.gov/publications/report-select-committee-intelligence-united-states-senate-russian-active-measures",
+      15
+    ],
+    [
+      "https://theintercept.com/",
+      15
+    ],
+    [
+      "https://www.adl.org/resources",
+      15
+    ],
+    [
+      "https://www.nytimes.com/spotlight/sexual-harassment/",
+      15
+    ],
+    [
+      "https://www.aclu.org",
+      15
+    ],
+    [
+      "https://oversight.house.gov/",
+      15
+    ],
+    [
+      "https://www.dol.gov/agencies/whd",
+      14
+    ],
+    [
+      "https://www.ftc.gov/enforcement/refunds",
+      14
+    ],
+    [
+      "https://www.eff.org/",
+      14
+    ],
+    [
+      "https://themarkup.org/",
+      14
+    ],
+    [
+      "https://cyber.fsi.stanford.edu/io",
+      14
+    ],
+    [
+      "https://www.courtlistener.com",
+      14
+    ],
+    [
+      "https://www.aclu.org/issues/national-security",
+      13
+    ],
+    [
+      "https://www.nlrb.gov/cases-decisions/decisions",
+      13
+    ],
+    [
+      "https://www.dol.gov/agencies/whd/data/charts",
+      13
+    ],
+    [
+      "https://www.epi.org/research/",
+      13
+    ],
+    [
+      "https://www.justice.gov/crt/special-litigation-section-cases-and-matters",
+      13
+    ],
+    [
+      "https://www.intelligence.senate.gov/resources/intelligence-related-commissions",
+      13
+    ],
+    [
+      "https://www.oii.ox.ac.uk/research/",
+      13
+    ],
+    [
+      "https://firstdraftnews.org/",
+      13
+    ],
+    [
+      "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/",
+      13
+    ],
+    [
+      "https://www.washingtonpost.com/",
+      13
+    ],
+    [
+      "https://www.citizensforethics.org/",
+      12
+    ],
+    [
+      "https://www.therenditionproject.org.uk/",
+      12
+    ],
+    [
+      "https://www.pogo.org/",
+      12
+    ],
+    [
+      "https://www.defenseone.com/",
+      12
+    ],
+    [
+      "https://www.rainn.org/statistics",
+      12
+    ],
+    [
+      "https://www.epa.gov",
+      12
+    ],
+    [
+      "https://www.intelligence.senate.gov",
+      12
+    ],
+    [
+      "https://bjs.ojp.gov/",
+      12
+    ],
+    [
+      "https://www.brennancenter.org",
+      12
+    ],
+    [
+      "https://www.themarshallproject.org/",
+      12
+    ],
+    [
+      "https://www.aclu.org/issues/criminal-law-reform/reforming-police",
+      12
+    ],
+    [
+      "https://www.senate.gov",
+      11
+    ],
+    [
+      "https://www.gao.gov/",
+      11
+    ],
+    [
+      "https://www.irs.gov/statistics",
+      11
+    ],
+    [
+      "https://www.ftc.gov",
+      11
+    ],
+    [
+      "https://www.goodreads.com/",
+      11
+    ]
+  ]
+}
