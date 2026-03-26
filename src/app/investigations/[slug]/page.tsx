@@ -237,6 +237,8 @@ export default function InvestigationPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
               {investigation.defendants.map((def, idx) => (
                 <div key={idx} className="p-4 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl">
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <h3 className="font-bold text-white text-sm">{def.name}</h3>
                     <span className={`text-[9px] px-2 py-0.5 border font-bold uppercase whitespace-nowrap ${statusColors[def.status] || 'bg-zinc-800 text-zinc-400 border-zinc-700'}`}>
                       {def.status}
                     </span>
@@ -335,6 +337,8 @@ export default function InvestigationPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {investigation.moneyTrail.map((item, idx) => (
                 <div key={idx} className="p-4 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl">
+                  <div className="flex flex-wrap justify-between items-start gap-1 mb-2">
+                    <span className="font-mono text-zinc-500 text-xs">{item.date}</span>
                     <span className="text-white font-bold text-sm">{item.amount}</span>
                   </div>
                   <div className="text-sm mb-1">
