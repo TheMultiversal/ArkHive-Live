@@ -2,11 +2,14 @@
 
 import { useParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { ArrowLeft, AlertTriangle, Users, Calendar, FileText, ExternalLink, Scale, ShieldAlert, DollarSign, Building2, Gavel, BookOpen, Megaphone, Phone, Mail, Share2, Copy, CheckCircle, Eye, ArrowUpRight, Landmark, ClipboardCheck, Crosshair, Globe } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 import investigationDatabase from '@/data/investigations';
+
+const NetworkTree = dynamic(() => import('@/components/investigation/NetworkTree'), { ssr: false });
 
 const severityColors: Record<string, string> = {
   critical: 'border-red-600 text-red-400',
@@ -581,6 +584,19 @@ export default function InvestigationPage() {
             </div>
           </motion.div>
         </div>
+
+        {/* === NETWORK ANALYSIS TREE === */}
+        {(investigation.defendants?.length || investigation.affiliations?.length) && (
+          <NetworkTree investigation={{
+            title: investigation.title,
+            slug,
+            severity: investigation.severity || 'medium',
+            defendants: investigation.defendants,
+            affiliations: investigation.affiliations,
+            moneyTrail: investigation.moneyTrail,
+            timeline: investigation.timeline,
+          }} />
+        )}
 
         {/* === DEFENDANTS / CHARGES === */}
         {investigation.defendants && investigation.defendants.length > 0 && (
