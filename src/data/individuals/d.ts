@@ -6675,6 +6675,55 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Harriet Miers', relationship: 'White House Counsel who architected the attorney purge plan', href: '/entities/individuals/harriet-miers' },
     ],
   },
+
+
+  'deann-walker': {
+    name: 'DeAnn Walker',
+    title: 'Former Chair, Public Utility Commission of Texas',
+    role: 'PUCT Chair who ordered $9,000/MWh price cap maintained during Winter Storm Uri',
+    riskLevel: 'high',
+    description: 'DeAnn Walker served as Chair of the Public Utility Commission of Texas (PUCT) during Winter Storm Uri in February 2021, the deadliest infrastructure failure in modern Texas history. As the state\'s top electricity regulator, Walker bore direct responsibility for overseeing the Texas power market and protecting consumers. During the crisis, she ordered that the wholesale electricity price cap be maintained at $9,000 per megawatt-hour -- the maximum allowed under PUCT rules -- even after the grid had begun to stabilize. This decision resulted in an estimated $16 billion in excess charges to Texas consumers, utilities, and electric cooperatives. While 4.5 million households were without power in sub-zero temperatures and hundreds of Texans were dying from hypothermia and carbon monoxide poisoning, the artificially inflated prices created enormous windfall profits for power generators and energy traders. Walker resigned from the PUCT in March 2021 amid intense public backlash, but no criminal charges were ever filed against her. Prior to her appointment to the PUCT by Governor Greg Abbott in 2017, Walker worked as his policy director, raising questions about the independence of the regulatory appointment. Her tenure exemplifies the revolving door between Texas state government and the energy industry it purports to regulate.',
+    affiliations: [
+      { name: 'Public Utility Commission of Texas', role: 'Chair (appointed 2017, resigned March 2021)', type: 'agency' },
+      { name: 'Office of the Governor of Texas', role: 'Former policy director under Greg Abbott', type: 'agency' },
+    ],
+    controversies: [
+      'Ordered the $9,000/MWh wholesale electricity price cap maintained during and after Winter Storm Uri, resulting in an estimated $16 billion in excess charges to Texas consumers',
+      'Price cap was kept at maximum for 32 hours after the grid had begun to stabilize, generating windfall profits for energy companies while Texans froze',
+      'Prior to PUCT appointment, served as policy director for Governor Greg Abbott, raising concerns about regulatory independence',
+      'Failed to implement weatherization requirements for the Texas grid despite federal recommendations after the 2011 freeze event',
+      'Resigned in March 2021 amid public outrage but faced no criminal investigation or charges',
+      'Under her leadership, PUCT prioritized market signals and industry interests over consumer protection during a deadly emergency',
+    ],
+    charges: [
+      { statute: 'Texas Utilities Code 186.001', description: 'Failure to ensure safe, adequate, and reasonable electricity service and pricing', category: 'Regulatory Misconduct' },
+      { statute: 'Texas Penal Code 22.05', description: 'Deadly Conduct: reckless regulatory decisions contributing to loss of life', category: 'Criminal Negligence' },
+    ],
+    relatedInvestigations: [
+      { title: 'Texas Power Grid Failure: 700+ Dead in Preventable Crisis', slug: 'texas-power-grid-failure', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2017-01-01', event: 'Appointed Chair of the Public Utility Commission of Texas by Governor Greg Abbott' },
+      { date: '2021-02-15', event: 'Winter Storm Uri begins; Texas grid enters emergency conditions' },
+      { date: '2021-02-15', event: 'Orders wholesale electricity price cap maintained at $9,000/MWh during grid emergency' },
+      { date: '2021-02-17', event: 'Grid begins stabilizing but $9,000/MWh cap remains in effect for 32 more hours' },
+      { date: '2021-02-19', event: 'Price cap finally reduced; estimated $16 billion in excess charges already incurred' },
+      { date: '2021-03-01', event: 'Faces mounting criticism as scale of pricing overcharge becomes public' },
+      { date: '2021-03-15', event: 'Resigns as PUCT Chair amid public backlash; no criminal charges filed' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Texas Tribune: PUCT Chair DeAnn Walker Resigns', url: 'https://www.texastribune.org/2021/03/15/deann-walker-public-utility-commission-texas/', date: '2021-03-15' },
+      { title: 'ProPublica/Texas Tribune: $16 Billion Overcharge Investigation', url: 'https://www.propublica.org/article/texas-power-grid-winterization-uri', date: '2021-06-01' },
+      { title: 'Wall Street Journal: Texas\'s Grid Failure Investigation', url: 'https://www.wsj.com/articles/texas-electric-grid-failure-winter-storm-uri-11613775553', date: '2021-02-20' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Arthur D\'Andrea', relationship: 'Fellow PUCT Commissioner recorded reassuring energy companies about keeping inflated prices', href: '/entities/individuals/arthur-d-andrea' },
+      { name: 'Bill Magness', relationship: 'ERCOT CEO who implemented the pricing decisions she ordered', href: '/entities/individuals/bill-magness' },
+      { name: 'Greg Abbott', relationship: 'Texas Governor who appointed her; she previously served as his policy director', href: '/entities/individuals/greg-abbott' },
+    ],
+  },
 };
 
 export default profiles;

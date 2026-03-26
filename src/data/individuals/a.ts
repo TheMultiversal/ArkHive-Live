@@ -7360,7 +7360,8 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'Brendan Carr', relationship: 'FCC Commissioner and ally on deregulatory agenda' },
     ],
-  },  'alex-mashinsky': {
+  },
+  'alex-mashinsky': {
     name: 'Alex Mashinsky',
     title: 'Former CEO of Celsius Network',
     role: 'Cryptocurrency Executive',
@@ -7537,6 +7538,51 @@ const profiles: Record<string, IndividualProfile> = {
      { date: "1898-11-10", event: "Leads Wilmington massacre and coup" },
    ],
  },
+
+
+  'arthur-d-andrea': {
+    name: 'Arthur D\'Andrea',
+    title: 'Former Commissioner, Public Utility Commission of Texas',
+    role: 'PUCT Commissioner who secretly reassured energy companies during Winter Storm Uri crisis',
+    riskLevel: 'high',
+    description: 'Arthur D\'Andrea served as a Commissioner on the Public Utility Commission of Texas (PUCT) during Winter Storm Uri in February 2021, one of the deadliest infrastructure failures in modern American history. After the crisis killed over 700 Texans and caused an estimated $16 billion in excess electricity charges, D\'Andrea was recorded on a phone call reassuring energy company executives not to worry about PUCT repricing the inflated wholesale electricity rates. The recording, obtained and published by the Wall Street Journal, revealed that D\'Andrea told representatives of energy companies that the commission would not claw back the $9,000/MWh price cap that had generated billions in windfall profits during the emergency. The recording demonstrated the extent of regulatory capture at the PUCT, where the commissioner tasked with protecting consumers was instead privately comforting the industries he was supposed to regulate. D\'Andrea resigned from the PUCT in March 2021 after the recording surfaced, but faced no criminal charges despite evidence of collusion with regulated entities during a declared state of emergency in which hundreds of people died.',
+    affiliations: [
+      { name: 'Public Utility Commission of Texas', role: 'Commissioner (resigned March 2021)', type: 'agency' },
+      { name: 'Texas State Government', role: 'Appointed regulatory official', type: 'agency' },
+    ],
+    controversies: [
+      'Recorded on phone call reassuring energy company executives that the PUCT would not claw back $9,000/MWh wholesale electricity prices that generated billions in windfall profits during Winter Storm Uri',
+      'Recording published by Wall Street Journal revealed commissioner working to protect energy company profits over consumer interests during state of emergency',
+      'Resigned from PUCT in March 2021 after recording surfaced but faced no criminal charges',
+      'Failed to advocate for consumer protections during the deadliest grid failure in Texas history',
+      'Exemplified regulatory capture: the regulator reassuring the regulated industry while 700+ Texans died from the failure',
+    ],
+    charges: [
+      { statute: 'Texas Government Code 573', description: 'Collusion with energy companies on pricing during state of emergency', category: 'Regulatory Misconduct' },
+    ],
+    relatedInvestigations: [
+      { title: 'Texas Power Grid Failure: 700+ Dead in Preventable Crisis', slug: 'texas-power-grid-failure', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2021-02-15', event: 'Winter Storm Uri hits Texas; ERCOT grid begins cascading failures' },
+      { date: '2021-02-15', event: 'PUCT orders wholesale electricity price cap at $9,000/MWh during emergency' },
+      { date: '2021-02-19', event: 'Grid stabilizes but $9,000/MWh cap maintained for 32 additional hours' },
+      { date: '2021-03-01', event: 'Recorded phone call surfaces showing D\'Andrea reassuring energy companies about inflated pricing' },
+      { date: '2021-03-15', event: 'Resigns from the Public Utility Commission of Texas after public backlash' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Wall Street Journal: Texas Regulator Reassured Power Companies About Prices', url: 'https://www.wsj.com/articles/texas-regulator-quietly-pushed-to-raise-electricity-prices-during-freeze-11614038974', date: '2021-03-01' },
+      { title: 'Texas Tribune: PUCT Commissioner Arthur D\'Andrea Resigns', url: 'https://www.texastribune.org/2021/03/16/texas-arthur-dandrea-PUC/', date: '2021-03-16' },
+      { title: 'ProPublica: Texas Grid $16 Billion Overcharge Investigation', url: 'https://www.propublica.org/article/texas-power-grid-winterization-uri', date: '2021-06-01' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'DeAnn Walker', relationship: 'Fellow PUCT commissioner who ordered $9,000/MWh price cap maintained', href: '/entities/individuals/deann-walker' },
+      { name: 'Bill Magness', relationship: 'ERCOT CEO who implemented the pricing decisions', href: '/entities/individuals/bill-magness' },
+      { name: 'Greg Abbott', relationship: 'Texas Governor who appointed PUCT commissioners', href: '/entities/individuals/greg-abbott' },
+    ],
+  },
 };
 
 export default profiles;

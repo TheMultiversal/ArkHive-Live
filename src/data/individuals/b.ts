@@ -271,7 +271,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Pressured him to overturn election', href: '/entities/individuals/donald-trump' },
  { name: 'Mark Meadows', relationship: 'On call pressuring to find votes', href: '/entities/individuals/mark-meadows' },
  ],
- },
+ },
+
 
 
 
@@ -1617,7 +1618,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Abdel Fattah el-Sisi', relationship: 'Egyptian president, Menendez accused of acting as foreign agent for Egypt', href: '/entities/individuals/abdel-fattah-el-sisi' }
  ],
 
- }, 'bill-cosby': {
+ },
+ 'bill-cosby': {
  name: 'Bill Cosby',
  title: 'Convicted Sexual Predator (Overturned)',
  role: 'Entertainer, Serial Sexual Assault',
@@ -4960,6 +4962,53 @@ const profiles: Record<string, IndividualProfile> = {
   aliases: ['TK'],
   knownAssociates: [
    { name: 'Dara Khosrowshahi', relationship: 'Successor CEO who attempted to reform Uber culture while dealing with legacy scandals' },
+  ],
+ },
+
+
+ 'bill-magness': {
+  name: 'Bill Magness',
+  title: 'Former CEO of ERCOT (Electric Reliability Council of Texas)',
+  role: 'ERCOT CEO who oversaw catastrophic grid failure during Winter Storm Uri',
+  riskLevel: 'high',
+  description: 'Bill Magness served as President and CEO of the Electric Reliability Council of Texas (ERCOT) during Winter Storm Uri in February 2021, the deadliest infrastructure failure in modern Texas history. Under his leadership, ERCOT failed to mandate weatherization of power generation equipment despite federal recommendations following a nearly identical grid failure in 2011. When the storm hit, 4.5 million Texas households lost power for days in sub-zero temperatures. Magness oversaw the decision to keep wholesale electricity prices at the $9,000/MWh cap -- the maximum allowed -- for 32 hours after the grid had already stabilized, resulting in an estimated $16 billion in excess charges to Texas consumers and utilities. While Texans froze to death in their homes, energy traders and generators reaped enormous windfall profits from the artificial price spike. Magness was fired by the ERCOT board in March 2021 but received a severance package. No criminal charges were ever filed against him despite the 700+ deaths attributed to the grid failure.',
+  affiliations: [
+    { name: 'ERCOT', role: 'President and CEO (fired March 2021)', type: 'organization' },
+    { name: 'Texas State Bar', role: 'Licensed attorney', type: 'organization' },
+  ],
+  controversies: [
+    'Failed to mandate weatherization of Texas power infrastructure despite federal FERC/NERC recommendations after the 2011 cold weather event that caused similar (though less deadly) grid failures',
+    'Oversaw the decision to maintain $9,000/MWh wholesale electricity price cap for 32 hours after the grid had stabilized, generating an estimated $16 billion in excess charges',
+    'ERCOT under his leadership dismissed multiple internal warnings about winter weather vulnerability',
+    'Fired with severance by ERCOT board in March 2021; no criminal charges filed for decisions that contributed to 700+ deaths',
+    'During the crisis, ERCOT was minutes from a total grid collapse that could have left Texas without power for months',
+  ],
+  charges: [
+    { statute: 'Texas Utilities Code 186.001', description: 'Failure to ensure safe, adequate, efficient, and reasonable electric service', category: 'Regulatory Misconduct' },
+    { statute: 'Texas Penal Code 22.05', description: 'Deadly Conduct: reckless engagement in conduct placing another in imminent danger', category: 'Criminal Negligence' },
+  ],
+  relatedInvestigations: [
+    { title: 'Texas Power Grid Failure: 700+ Dead in Preventable Crisis', slug: 'texas-power-grid-failure', severity: 'critical' },
+  ],
+  timeline: [
+    { date: '2016-01-01', event: 'Became President and CEO of ERCOT' },
+    { date: '2021-02-15', event: 'Winter Storm Uri causes cascading grid failures across Texas' },
+    { date: '2021-02-15', event: 'ERCOT comes within minutes of total grid collapse requiring months-long recovery' },
+    { date: '2021-02-17', event: 'Maintains $9,000/MWh price cap despite grid beginning to stabilize' },
+    { date: '2021-02-19', event: 'Price cap finally reduced after 32 hours of excess billing post-stabilization' },
+    { date: '2021-03-03', event: 'Fired by ERCOT board of directors with severance package' },
+  ],
+  socialMedia: [],
+  sources: [
+    { title: 'Texas Tribune: ERCOT CEO Bill Magness Fired', url: 'https://www.texastribune.org/2021/03/03/ercot-ceo-bill-magness-fired/', date: '2021-03-03' },
+    { title: 'ProPublica: $16 Billion Overcharge During Texas Storm', url: 'https://www.propublica.org/article/texas-power-grid-winterization-uri', date: '2021-06-01' },
+    { title: 'FERC/NERC Report on 2011 Cold Weather Event', url: 'https://www.ferc.gov/sites/default/files/2020-04/08-16-11-report.pdf', date: '2011-08-16' },
+  ],
+  aliases: [],
+  knownAssociates: [
+    { name: 'DeAnn Walker', relationship: 'PUCT Chair who ordered the $9,000/MWh price cap maintained', href: '/entities/individuals/deann-walker' },
+    { name: 'Arthur D\'Andrea', relationship: 'PUCT Commissioner recorded reassuring energy companies about keeping inflated prices', href: '/entities/individuals/arthur-d-andrea' },
+    { name: 'Pablo Vegas', relationship: 'Successor CEO of ERCOT, came from the power industry', href: '/entities/individuals/pablo-vegas' },
   ],
  },
 };

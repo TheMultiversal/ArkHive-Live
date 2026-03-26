@@ -5006,6 +5006,52 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Harriet Miers', relationship: 'White House Counsel who architected the attorney purge plan', href: '/entities/individuals/harriet-miers' },
     ],
   },
+
+
+  'christi-craddick': {
+    name: 'Christi Craddick',
+    title: 'Commissioner, Texas Railroad Commission',
+    role: 'Railroad Commissioner who refused to mandate natural gas winterization before Winter Storm Uri',
+    riskLevel: 'high',
+    description: 'Christi Craddick has served as a member of the Texas Railroad Commission since 2013, the powerful but little-known state agency that regulates the oil and gas industry in Texas despite its misleading name. The Railroad Commission has direct oversight of natural gas production and pipeline infrastructure, making it a critical link in the Texas energy supply chain. During Winter Storm Uri in February 2021, natural gas supply failures were the single largest cause of power generation failure, with wells and pipelines freezing across the state. For years before the crisis, the Railroad Commission under Craddick and her fellow commissioners refused to mandate winterization standards for natural gas infrastructure, despite federal FERC/NERC recommendations after a similar freeze in 2011. The daughter of former Texas House Speaker Tom Craddick, Christi Craddick has received significant campaign contributions from the oil and gas industry she is charged with regulating. Her family\'s deep ties to the Texas energy establishment raise serious conflict-of-interest concerns. After 700+ Texans died during Winter Storm Uri, the Railroad Commission faced scrutiny but no commissioners resigned or faced charges. The legislature passed SB 3 requiring weatherization, but enforcement has been criticized as weak.',
+    affiliations: [
+      { name: 'Texas Railroad Commission', role: 'Commissioner (2013-present)', type: 'agency' },
+      { name: 'Texas Republican Party', role: 'Elected official', type: 'organization' },
+    ],
+    controversies: [
+      'Refused to mandate winterization of natural gas infrastructure despite federal FERC/NERC recommendations after 2011 cold weather event that caused similar grid stress',
+      'Natural gas supply failures were the single largest cause of power generation loss during Winter Storm Uri, directly tied to lack of weatherization requirements',
+      'Received significant campaign contributions from oil and gas companies she is charged with regulating at the Railroad Commission',
+      'Daughter of former Texas House Speaker Tom Craddick, raising concerns about political dynasty and conflicts of interest in energy regulation',
+      'Railroad Commission under her tenure consistently prioritized industry interests over consumer and public safety protections',
+      'No resignation or accountability after 700+ Texans died in Winter Storm Uri due to unweatherized gas infrastructure',
+    ],
+    charges: [
+      { statute: 'Texas Natural Resources Code', description: 'Failure to mandate natural gas winterization despite federal recommendations and known risk', category: 'Regulatory Misconduct' },
+    ],
+    relatedInvestigations: [
+      { title: 'Texas Power Grid Failure: 700+ Dead in Preventable Crisis', slug: 'texas-power-grid-failure', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2012-11-06', event: 'Elected to the Texas Railroad Commission' },
+      { date: '2013-01-01', event: 'Takes office as Railroad Commissioner' },
+      { date: '2021-02-15', event: 'Winter Storm Uri hits Texas; natural gas supply failures cascade across the grid' },
+      { date: '2021-02-19', event: 'Crisis subsides after 700+ deaths; Railroad Commission faces scrutiny for lack of winterization mandates' },
+      { date: '2021-06-08', event: 'Texas Legislature passes SB 3 directing Railroad Commission to set weatherization standards; critics say law is too weak' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Texas Tribune: Railroad Commission Refused to Mandate Winterization', url: 'https://www.texastribune.org/2021/02/17/texas-power-grid-failures/', date: '2021-02-17' },
+      { title: 'Texas Ethics Commission: Craddick Campaign Finance Records', url: 'https://www.ethics.state.tx.us/search/', date: '2024-01-01' },
+      { title: 'FERC/NERC Report on 2011 Texas Cold Weather Event', url: 'https://www.ferc.gov/sites/default/files/2020-04/08-16-11-report.pdf', date: '2011-08-16' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Wayne Christian', relationship: 'Fellow Railroad Commissioner and Chairman who also refused winterization mandates', href: '/entities/individuals/wayne-christian' },
+      { name: 'Jim Wright', relationship: 'Fellow Railroad Commissioner who co-voted against mandatory winterization standards', href: '/entities/individuals/jim-wright' },
+      { name: 'Tom Craddick', relationship: 'Father; former Texas House Speaker with deep ties to energy industry' },
+    ],
+  },
 };
 
 export default profiles;

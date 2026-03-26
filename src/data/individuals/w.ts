@@ -133,7 +133,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Donald Trump', relationship: 'Cabinet member, business associate', href: '/entities/individuals/donald-trump' },
  { name: 'Vladimir Putin', relationship: 'Business ties through Russian oligarchs', href: '/entities/individuals/vladimir-putin' },
  ],
- },
+ },
+
 
  'william-casey': {
  name: 'William Casey',
@@ -2040,7 +2041,8 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Oliver North', relationship: 'Former NRA President who clashed with LaPierre over finances; ousted' },
       { name: 'Angus McQueen', relationship: 'Head of Ackerman McQueen; NRA\'s long-time ad agency that facilitated personal spending' },
     ],
-  }, 'sidney-powell': {
+  },
+ 'sidney-powell': {
     name: 'Sidney Powell',
     title: 'Former Federal Prosecutor and Trump Campaign Attorney',
     role: 'Election Conspiracy Attorney Who Pled Guilty in Georgia',
@@ -2130,6 +2132,55 @@ const profiles: Record<string, IndividualProfile> = {
     knownAssociates: [
       { name: 'James Watts', relationship: 'Neurosurgery partner at GWU who performed the actual surgery for prefrontal lobotomies (1936-1946); ended partnership when Freeman developed the transorbital technique' },
       { name: 'Egas Moniz', relationship: 'Portuguese neurologist who invented the lobotomy in 1935 and received the 1949 Nobel Prize; Freeman adapted and promoted his technique in the United States' },
+    ],
+  },
+
+
+  'wayne-christian': {
+    name: 'Wayne Christian',
+    title: 'Chairman, Texas Railroad Commission',
+    role: 'Railroad Commission Chairman who refused to mandate natural gas winterization before Winter Storm Uri',
+    riskLevel: 'high',
+    description: 'Wayne Christian has served as Chairman of the Texas Railroad Commission since 2017, leading the state agency responsible for regulating oil and gas production and pipeline infrastructure. As chairman, Christian bore primary leadership responsibility for the commission\'s consistent refusal to mandate winterization standards for natural gas infrastructure, despite explicit federal recommendations from FERC and NERC following a 2011 cold weather event that caused widespread gas supply disruptions across Texas. When Winter Storm Uri struck in February 2021, the consequences of that decade-long regulatory failure were catastrophic. Natural gas wells froze, pipelines failed, and processing plants shut down across the state because none had been required to weatherize. Gas supply failures were the single largest contributor to power generation loss during the crisis, which killed over 700 Texans and left 4.5 million households without power. Throughout his tenure, Christian has received significant campaign contributions from the oil and gas industry he is charged with regulating, creating a direct conflict of interest between his duty to protect public safety and his financial relationship with the regulated industry. He publicly downplayed the Railroad Commission\'s role in the crisis and deflected blame. No criminal charges or formal disciplinary actions were taken against him.',
+    affiliations: [
+      { name: 'Texas Railroad Commission', role: 'Chairman (2017-present)', type: 'agency' },
+      { name: 'Texas House of Representatives', role: 'Former State Representative (2013-2016)', type: 'agency' },
+      { name: 'Texas Republican Party', role: 'Elected official', type: 'organization' },
+    ],
+    controversies: [
+      'As Chairman, led the Railroad Commission in refusing to mandate winterization of natural gas infrastructure despite federal FERC/NERC recommendations after 2011 freeze event',
+      'Natural gas supply failures under his regulatory oversight were the single largest contributor to power generation loss during Winter Storm Uri',
+      'Received significant campaign contributions from oil and gas companies he is charged with regulating, creating direct conflicts of interest',
+      'Publicly downplayed the Railroad Commission\'s responsibility in the crisis and deflected blame to other agencies',
+      'No accountability after 700+ Texans died in Winter Storm Uri due to unweatherized natural gas infrastructure under his oversight',
+      'Railroad Commission elections have extremely low voter turnout, allowing industry-backed candidates to maintain control with minimal public scrutiny',
+    ],
+    charges: [
+      { statute: 'Texas Natural Resources Code', description: 'Failure to mandate natural gas winterization despite federal recommendations and known risk of catastrophic failure', category: 'Regulatory Misconduct' },
+    ],
+    relatedInvestigations: [
+      { title: 'Texas Power Grid Failure: 700+ Dead in Preventable Crisis', slug: 'texas-power-grid-failure', severity: 'critical' },
+    ],
+    timeline: [
+      { date: '2016-11-08', event: 'Elected Chairman of the Texas Railroad Commission' },
+      { date: '2017-01-01', event: 'Takes office as Railroad Commission Chairman' },
+      { date: '2021-02-15', event: 'Winter Storm Uri hits Texas; natural gas supply failures cascade, contributing to grid collapse' },
+      { date: '2021-02-19', event: 'Crisis subsides after 700+ deaths; Railroad Commission faces scrutiny for lack of winterization mandates' },
+      { date: '2021-03-01', event: 'Publicly deflects blame for gas infrastructure failures during post-crisis hearings' },
+      { date: '2021-06-08', event: 'Texas Legislature passes SB 3 directing Railroad Commission to set weatherization standards' },
+    ],
+    socialMedia: [],
+    sources: [
+      { title: 'Texas Tribune: Railroad Commission Refused Winterization Mandates', url: 'https://www.texastribune.org/2021/02/17/texas-power-grid-failures/', date: '2021-02-17' },
+      { title: 'Texas Ethics Commission: Wayne Christian Campaign Finance Records', url: 'https://www.ethics.state.tx.us/search/', date: '2024-01-01' },
+      { title: 'FERC/NERC Report on 2011 Texas Cold Weather Event', url: 'https://www.ferc.gov/sites/default/files/2020-04/08-16-11-report.pdf', date: '2011-08-16' },
+      { title: 'Houston Chronicle: Railroad Commission Accountability Investigation', url: 'https://www.houstonchronicle.com/news/houston-texas/houston/article/texas-cold-storm-uri-702-702-702-16070470.php', date: '2021-06-01' },
+    ],
+    aliases: [],
+    knownAssociates: [
+      { name: 'Christi Craddick', relationship: 'Fellow Railroad Commissioner who also refused winterization mandates', href: '/entities/individuals/christi-craddick' },
+      { name: 'Jim Wright', relationship: 'Fellow Railroad Commissioner who co-voted against mandatory winterization standards', href: '/entities/individuals/jim-wright' },
+      { name: 'Greg Abbott', relationship: 'Texas Governor who deflected blame for grid crisis to renewable energy', href: '/entities/individuals/greg-abbott' },
     ],
   },
 };

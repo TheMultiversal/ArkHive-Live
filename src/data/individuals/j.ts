@@ -296,7 +296,8 @@ const profiles: Record<string, IndividualProfile> = {
  sources: [
  { title: 'Mueller Report', url: 'https://www.justice.gov/archives', date: '2019' },
  ],
- },
+ },
+
  'jack-smith': {
  name: 'John Luman"Jack"Smith',
  title: 'Former Special Counsel',
@@ -2957,7 +2958,8 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'John Kapoor', relationship: 'Fellow pharma executive convicted in opioid-related case', href: '/entities/individuals/john-kapoor' }
  ],
 
- },
+ },
+
 
  'john-ashcroft': {
  name: 'John Ashcroft',
@@ -8563,6 +8565,50 @@ const profiles: Record<string, IndividualProfile> = {
      { date: "1898", event: "Incites Wilmington massacre through newspaper" },
      { date: "1913", event: "Appointed Secretary of the Navy" },
    ],
+ },
+
+
+ 'jim-wright': {
+  name: 'Jim Wright',
+  title: 'Former Commissioner, Texas Railroad Commission',
+  role: 'Railroad Commissioner who refused to mandate natural gas winterization before Winter Storm Uri',
+  riskLevel: 'high',
+  description: 'Jim Wright served as a Commissioner on the Texas Railroad Commission, the state agency responsible for regulating oil and gas production and pipeline infrastructure in Texas. Despite its name, the Railroad Commission has not regulated railroads since 2005; instead, it oversees the fossil fuel industry that forms the backbone of the Texas energy supply chain. Along with fellow commissioners Wayne Christian and Christi Craddick, Wright voted against implementing mandatory winterization standards for natural gas wells and pipelines, even after federal regulators at FERC and NERC explicitly recommended such measures following a 2011 cold weather event that caused widespread gas supply disruptions. When Winter Storm Uri struck in February 2021, natural gas supply failures were the single largest contributor to power generation loss across Texas. Wells froze, pipelines failed, and processing plants shut down because none had been required to winterize. The resulting grid collapse killed over 700 Texans and left 4.5 million households without power in sub-zero temperatures. Wright bore co-responsibility for the Railroad Commission\'s decade-long refusal to mandate weatherization despite clear federal warnings and known risks. No criminal charges or formal disciplinary actions were taken against any Railroad Commissioner.',
+  affiliations: [
+    { name: 'Texas Railroad Commission', role: 'Commissioner', type: 'agency' },
+    { name: 'Texas Republican Party', role: 'Elected official', type: 'organization' },
+  ],
+  controversies: [
+    'Co-voted against mandatory winterization standards for natural gas infrastructure despite federal FERC/NERC recommendations after the 2011 cold weather event',
+    'Natural gas supply failures were the largest single contributor to power generation loss during Winter Storm Uri, directly caused by lack of weatherization mandates',
+    'Railroad Commission under his tenure consistently sided with industry against winterization requirements that would have prevented the crisis',
+    'No accountability or charges after 700+ Texans died due to unweatherized natural gas infrastructure',
+    'Participated in a regulatory body that most Texans are not even aware of, despite its critical role in energy policy',
+  ],
+  charges: [
+    { statute: 'Texas Natural Resources Code', description: 'Failure to mandate natural gas winterization despite federal recommendations and documented risk', category: 'Regulatory Misconduct' },
+  ],
+  relatedInvestigations: [
+    { title: 'Texas Power Grid Failure: 700+ Dead in Preventable Crisis', slug: 'texas-power-grid-failure', severity: 'critical' },
+  ],
+  timeline: [
+    { date: '2020-11-03', event: 'Elected to the Texas Railroad Commission' },
+    { date: '2021-01-01', event: 'Takes office as Railroad Commissioner' },
+    { date: '2021-02-15', event: 'Winter Storm Uri hits Texas; natural gas supply failures cascade across the grid' },
+    { date: '2021-02-19', event: 'Crisis subsides after 700+ deaths; Railroad Commission faces scrutiny for lack of winterization mandates' },
+    { date: '2021-06-08', event: 'Texas Legislature passes SB 3 directing Railroad Commission to set weatherization standards' },
+  ],
+  socialMedia: [],
+  sources: [
+    { title: 'Texas Tribune: Railroad Commission Refused Winterization Mandates', url: 'https://www.texastribune.org/2021/02/17/texas-power-grid-failures/', date: '2021-02-17' },
+    { title: 'FERC/NERC Report on 2011 Texas Cold Weather Event', url: 'https://www.ferc.gov/sites/default/files/2020-04/08-16-11-report.pdf', date: '2011-08-16' },
+    { title: 'Texas Tribune: Natural Gas Failures During Winter Storm', url: 'https://www.texastribune.org/2021/02/16/natural-gas-texas-power-outage/', date: '2021-02-16' },
+  ],
+  aliases: [],
+  knownAssociates: [
+    { name: 'Wayne Christian', relationship: 'Fellow Railroad Commissioner and Chairman who also refused weatherization mandates', href: '/entities/individuals/wayne-christian' },
+    { name: 'Christi Craddick', relationship: 'Fellow Railroad Commissioner who co-voted against mandatory winterization standards', href: '/entities/individuals/christi-craddick' },
+  ],
  },
 };
 
