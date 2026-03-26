@@ -53,7 +53,7 @@ export default function InvestigationPage() {
           <AlertTriangle className="w-16 h-16 text-zinc-600 mx-auto mb-6" />
           <h1 className="text-3xl font-black text-white uppercase tracking-wider mb-4">Investigation Not Found</h1>
           <p className="text-zinc-400 mb-8">The investigation &ldquo;{slug}&rdquo; could not be located in the database.</p>
-          <Link href="/investigations" className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 border border-zinc-700 text-zinc-300 hover:text-white hover:border-zinc-500 transition-all">
+          <Link href="/investigations" className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 border border-zinc-700 rounded-xl text-zinc-300 hover:text-white hover:border-zinc-500 transition-all">
             <ArrowLeft className="w-4 h-4" />
             Back to Investigations
           </Link>
@@ -118,7 +118,7 @@ export default function InvestigationPage() {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {investigation.affiliations.map((aff, idx) => (
-                  <div key={idx} className="p-3 bg-[#030303] border border-[rgba(255,255,255,0.08)] hover:border-[rgba(184,0,0,0.3)] transition-colors">
+                  <div key={idx} className="p-3 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl hover:border-[rgba(184,0,0,0.35)] transition-colors">
                     <div className="flex items-start justify-between gap-2 mb-1">
                       {aff.href ? (
                         <Link href={aff.href} className="font-bold text-sm text-zinc-200 hover:text-white transition-colors">
@@ -215,7 +215,7 @@ export default function InvestigationPage() {
                       <Link
                         key={idx}
                         href={`/investigations?tag=${encodeURIComponent(tag)}`}
-                        className="px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-[#030303] border border-[rgba(255,255,255,0.06)] text-zinc-500 hover:text-white hover:border-zinc-600 transition-all"
+                        className="px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider bg-[#020202] border border-[rgba(184,0,0,0.15)] text-zinc-500 hover:text-white hover:border-[rgba(184,0,0,0.35)] transition-all rounded-md"
                       >
                         {tag}
                       </Link>
@@ -236,9 +236,7 @@ export default function InvestigationPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
               {investigation.defendants.map((def, idx) => (
-                <div key={idx} className="p-4 bg-[#030303] border border-[rgba(255,255,255,0.08)]">
-                  <div className="flex items-start justify-between gap-2 mb-2">
-                    <h3 className="font-bold text-white text-sm">{def.name}</h3>
+                <div key={idx} className="p-4 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl">
                     <span className={`text-[9px] px-2 py-0.5 border font-bold uppercase whitespace-nowrap ${statusColors[def.status] || 'bg-zinc-800 text-zinc-400 border-zinc-700'}`}>
                       {def.status}
                     </span>
@@ -293,7 +291,7 @@ export default function InvestigationPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {investigation.statutes.map((statute, idx) => (
-                <div key={idx} className="p-3 bg-[#030303] border border-[rgba(255,255,255,0.08)] flex items-start gap-3">
+                <div key={idx} className="p-3 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl flex items-start gap-3">
                   <BookOpen className="w-4 h-4 text-zinc-600 flex-shrink-0 mt-0.5" />
                   <div>
                     <p className="text-sm font-bold text-zinc-200">{statute.code}</p>
@@ -309,15 +307,15 @@ export default function InvestigationPage() {
 
         {/* === HOLD THEM ACCOUNTABLE (extracted from content or generic) === */}
         {accountabilityContent && (
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="mb-8 border-2 border-red-900/40 bg-[rgba(100,0,0,0.08)] p-6">
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }} className="mb-8 border-2 border-red-900/40 bg-[rgba(100,0,0,0.08)] rounded-xl p-6">
             <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
               <Megaphone className="w-5 h-5 text-red-400" />
               Hold Them Accountable: What You Can Do
             </h2>
             <div className="text-sm text-zinc-300 leading-relaxed space-y-3">
               {accountabilityContent.replace(/^\s*WHAT YOU CAN DO TO HOLD THEM ACCOUNTABLE:\s*/i, '').split(/\(\d+\)\s*/).filter(Boolean).map((action, idx) => (
-                <div key={idx} className="flex items-start gap-3 p-3 bg-[#030303] border border-[rgba(255,255,255,0.06)]">
-                  <span className="flex-shrink-0 w-6 h-6 flex items-center justify-center bg-red-900/40 border border-red-800/50 text-red-400 text-xs font-bold">
+                <div key={idx} className="flex items-start gap-3 p-3 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl">
+                    <span className="flex-shrink-0 w-6 h-6 flex items-center justify-center bg-red-900/40 border border-red-800/50 text-red-400 text-xs font-bold rounded-md">
                     {idx + 1}
                   </span>
                   <p className="text-sm text-zinc-300">{action.trim()}</p>
@@ -336,9 +334,7 @@ export default function InvestigationPage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {investigation.moneyTrail.map((item, idx) => (
-                <div key={idx} className="p-4 bg-[#030303] border border-[rgba(255,255,255,0.08)]">
-                  <div className="flex flex-wrap justify-between items-start gap-1 mb-2">
-                    <span className="font-mono text-zinc-500 text-xs">{item.date}</span>
+                <div key={idx} className="p-4 bg-[#020202] border border-[rgba(184,0,0,0.18)] rounded-xl">
                     <span className="text-white font-bold text-sm">{item.amount}</span>
                   </div>
                   <div className="text-sm mb-1">
@@ -351,7 +347,7 @@ export default function InvestigationPage() {
                   </div>
                   <p className="text-xs text-zinc-500">{item.purpose}</p>
                   {!item.documented && (
-                    <span className="inline-block mt-1.5 text-[10px] text-yellow-600 uppercase font-bold border border-yellow-800/40 px-1.5 py-0.5">Unverified</span>
+                    <span className="inline-block mt-1.5 text-[10px] text-yellow-600 uppercase font-bold border border-yellow-800/40 px-1.5 py-0.5 rounded-md">Unverified</span>
                   )}
                 </div>
               ))}
