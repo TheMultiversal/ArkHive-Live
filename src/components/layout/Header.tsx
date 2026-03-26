@@ -5,7 +5,6 @@ import { useState, useEffect, useRef } from"react";
 import { usePathname, useRouter } from"next/navigation";
 import { Menu, X, Search, Zap, UserPlus, ChevronDown } from"lucide-react";
 import BleedingPyramidLogo from"@/components/ui/BleedingPyramidLogo";
-import InvestigationsMegaMenu from"./InvestigationsMegaMenu";
 
 function NavDropdown({ label, items, isActive }: { label: string; items: { href: string; label: string }[]; isActive: (href: string) => boolean }) {
  const [open, setOpen] = useState(false);
@@ -24,18 +23,18 @@ function NavDropdown({ label, items, isActive }: { label: string; items: { href:
  <div ref={ref} className="relative">
  <button
  onClick={() => setOpen(!open)}
- className={`relative flex items-center gap-1 px-1.5 xl:px-2 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 border border-transparent ${
+ className={`relative flex items-center gap-1 px-2.5 py-1.5 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 rounded-lg border ${
  anyActive
- ?"text-zinc-400 bg-zinc-800 border-zinc-800"
- :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
+ ?"text-red-400 bg-[rgba(184,0,0,0.08)] border-[rgba(184,0,0,0.30)]"
+ :"text-zinc-400 hover:text-white hover:bg-[rgba(184,0,0,0.06)] border-transparent hover:border-[rgba(184,0,0,0.25)]"
  }`}
  >
  {label}
  <ChevronDown className={`w-3 h-3 transition-transform ${open ? "rotate-180" : ""}`} />
- {anyActive && <span className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-zinc-600"/>}
+ {anyActive && <span className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-[rgba(184,0,0,0.40)]"/>}
  </button>
  {open && (
- <div className="absolute top-full left-0 mt-1 min-w-[180px] bg-[#0d0d0d] border border-zinc-800 shadow-xl z-50">
+ <div className="absolute top-full left-0 mt-1.5 min-w-[180px] bg-[#050505] border border-[rgba(184,0,0,0.25)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.8),0_0_15px_rgba(184,0,0,0.08)] z-50 overflow-hidden">
  {items.map(item => (
  <Link
  key={item.href}
@@ -43,8 +42,8 @@ function NavDropdown({ label, items, isActive }: { label: string; items: { href:
  onClick={() => setOpen(false)}
  className={`block px-4 py-2.5 text-xs font-semibold uppercase tracking-wider transition-all duration-200 ${
  isActive(item.href)
- ?"text-white bg-zinc-800"
- :"text-zinc-400 hover:text-white hover:bg-zinc-800/80"
+ ?"text-red-400 bg-[rgba(184,0,0,0.08)]"
+ :"text-zinc-400 hover:text-white hover:bg-[rgba(184,0,0,0.06)]"
  }`}
  >
  {item.label}
@@ -72,6 +71,7 @@ export default function Header() {
 
  const navLinks = [
  { href:"/", label:"Home"},
+ { href:"/investigations", label:"Investigations"},
  { href:"/statutes", label:"Statutes"},
  { href:"/money-trail", label:"Money Trail"},
  { href:"/convictions", label:"Convictions"},
@@ -90,6 +90,7 @@ export default function Header() {
  ];
 
  const topLinks = [
+ { href:"/investigations", label:"Investigations"},
  { href:"/statutes", label:"Statutes"},
  { href:"/money-trail", label:"Money Trail"},
  { href:"/convictions", label:"Convictions"},
@@ -122,12 +123,12 @@ export default function Header() {
  aria-label="ArkHive main header"
  className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
  scrolled
- ?"bg-gradient-to-b from-[#0d0d0d] to-[#080808] border-b border-[rgba(255,255,255,0.25)] shadow-[0_4px_30px_rgba(0,0,0,0.15)]"
- :"bg-gradient-to-b from-[#0d0d0d] to-[#080808] border-b border-[rgba(255,255,255,0.08)]"
+ ?"bg-gradient-to-b from-[#060606] to-[#020202] border-b border-[rgba(184,0,0,0.30)] shadow-[0_4px_30px_rgba(0,0,0,0.6),0_0_20px_rgba(184,0,0,0.06)]"
+ :"bg-gradient-to-b from-[#060606] to-[#020202] border-b border-[rgba(184,0,0,0.18)]"
  }`}
  >
  {/* Top accent line */}
- <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-zinc-700/50 to-transparent"/>
+ <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[rgba(184,0,0,0.35)] to-transparent"/>
 
  <div className="w-full max-w-[1400px] mx-auto px-3 sm:px-4 lg:px-6">
  <div className="flex items-center justify-between h-16 xl:h-20">
@@ -139,9 +140,9 @@ export default function Header() {
  <span className="relative inline-block glass-text-hero">
  ARKHIVE
  </span>
- <sup className="text-zinc-300 text-[10px] xl:text-xs font-bold drop-shadow-[0_0_6px_rgba(255,255,255,0.2)]">®</sup>
+ <sup className="text-red-400/60 text-[10px] xl:text-xs font-bold drop-shadow-[0_0_6px_rgba(184,0,0,0.3)]">&reg;</sup>
  </h1>
- <span className="text-[10px] xl:text-xs font-semibold tracking-[0.25em] glass-text-subtle uppercase drop-shadow-[0_0_6px_rgba(255,255,255,0.2)]">
+ <span className="text-[10px] xl:text-xs font-semibold tracking-[0.25em] glass-text-subtle uppercase drop-shadow-[0_0_6px_rgba(184,0,0,0.2)]">
  Investigation Platform
  </span>
  </div>
@@ -152,37 +153,34 @@ export default function Header() {
  {/* Home link */}
  <Link
  href="/"
- className={`relative px-1.5 xl:px-2 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 border border-transparent ${
+ className={`relative px-2.5 py-1.5 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 rounded-lg border ${
  pathname ==="/"
- ?"text-zinc-400 bg-zinc-800 border-zinc-800"
- :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
+ ?"text-red-400 bg-[rgba(184,0,0,0.08)] border-[rgba(184,0,0,0.30)]"
+ :"text-zinc-400 hover:text-white hover:bg-[rgba(184,0,0,0.06)] border-transparent hover:border-[rgba(184,0,0,0.25)]"
  }`}
  >
  Home
  {pathname ==="/" && (
- <span className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-zinc-600"/>
+ <span className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-[rgba(184,0,0,0.40)]"/>
  )}
  </Link>
  
- {/* Investigations Mega Menu */}
- <InvestigationsMegaMenu />
- 
- {/* Top-level links */}
+ {/* Top-level links - Investigations is now a direct link */}
  {topLinks.map((link) => {
  const active = isActive(link.href);
  return (
  <Link
  key={link.href}
  href={link.href}
- className={`relative px-1.5 xl:px-2 py-2 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 border border-transparent whitespace-nowrap ${
+ className={`relative px-2.5 py-1.5 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 rounded-lg border whitespace-nowrap ${
  active
- ?"text-zinc-400 bg-zinc-800 border-zinc-800"
- :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 hover:border-zinc-800"
+ ?"text-red-400 bg-[rgba(184,0,0,0.08)] border-[rgba(184,0,0,0.30)]"
+ :"text-zinc-400 hover:text-white hover:bg-[rgba(184,0,0,0.06)] border-transparent hover:border-[rgba(184,0,0,0.25)]"
  }`}
  >
  {link.label}
  {active && (
- <span className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-zinc-600"/>
+ <span className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-[rgba(184,0,0,0.40)]"/>
  )}
  </Link>
  );
@@ -217,7 +215,7 @@ export default function Header() {
  setSearchQuery("");
  }
  }}
- className="absolute right-0 top-1/2 -translate-y-1/2 w-64 px-4 py-2 bg-black border border-zinc-800/50 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-zinc-700 focus:ring-1 focus:ring-zinc-600/30 transition-all duration-300"
+ className="absolute right-0 top-1/2 -translate-y-1/2 w-64 px-4 py-2 bg-[#020202] border border-[rgba(184,0,0,0.25)] rounded-xl text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-[rgba(184,0,0,0.45)] focus:ring-1 focus:ring-[rgba(184,0,0,0.15)] transition-all duration-300"
  autoFocus
  />
  )}
@@ -225,7 +223,7 @@ export default function Header() {
  onClick={() => setIsSearchOpen(!isSearchOpen)}
  aria-label={isSearchOpen ? "Close search" : "Open search"}
  aria-expanded={isSearchOpen}
- className="p-2 text-zinc-500 hover:text-white hover:bg-zinc-800/80 transition-colors"
+ className="p-2 text-zinc-500 hover:text-red-400 hover:bg-[rgba(184,0,0,0.06)] rounded-lg transition-colors"
  >
  <Search className="w-5 h-5"/>
  </button>
@@ -234,7 +232,7 @@ export default function Header() {
  {/* Submit Intel */}
  <Link
  href="/submit"
- className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#1a1a1a] to-[#111111] hover:from-[#222222] hover:to-[#111111] text-zinc-300 text-xs font-bold uppercase tracking-wider transition-all duration-300 border border-[rgba(255,255,255,0.28)] hover:border-[rgba(255,255,255,0.50)] shadow-[0_0_15px_rgba(255,255,255,0.15)] hover:shadow-[0_0_25px_rgba(255,255,255,0.3)]"
+ className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#0a0000] to-[#050505] hover:from-[#120000] hover:to-[#080000] text-red-300 text-xs font-bold uppercase tracking-wider transition-all duration-300 rounded-xl border border-[rgba(184,0,0,0.35)] hover:border-[rgba(184,0,0,0.55)] shadow-[0_0_15px_rgba(184,0,0,0.10)] hover:shadow-[0_0_25px_rgba(184,0,0,0.20)]"
  >
  <Zap className="w-3.5 h-3.5"/>
  <span>Submit Intel</span>
@@ -243,7 +241,7 @@ export default function Header() {
  {/* Contribute */}
  <Link
  href="/contributor"
- className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white border border-[rgba(255,255,255,0.15)] hover:border-zinc-700/50 hover:bg-zinc-800/80 transition-all duration-200"
+ className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white rounded-xl border border-[rgba(184,0,0,0.20)] hover:border-[rgba(184,0,0,0.40)] hover:bg-[rgba(184,0,0,0.06)] transition-all duration-200"
  >
  <UserPlus className="w-3.5 h-3.5"/>
  <span>Contribute</span>
@@ -255,7 +253,7 @@ export default function Header() {
  aria-label={isMenuOpen ? "Close menu" : "Open menu"}
  aria-expanded={isMenuOpen}
  aria-controls="mobile-menu"
- className="xl:hidden p-2 text-zinc-500 hover:text-white hover:bg-zinc-800/80 transition-colors"
+ className="xl:hidden p-2 text-zinc-500 hover:text-red-400 hover:bg-[rgba(184,0,0,0.06)] rounded-lg transition-colors"
  >
  {isMenuOpen ? <X className="w-6 h-6"/> : <Menu className="w-6 h-6"/>}
  </button>
@@ -265,7 +263,7 @@ export default function Header() {
 
  {/* Mobile Menu */}
  {isMenuOpen && (
- <div id="mobile-menu" className="xl:hidden bg-[rgba(0,8,25,0.80)] border-t border-zinc-800">
+ <div id="mobile-menu" className="xl:hidden bg-[#020202] border-t border-[rgba(184,0,0,0.20)]">
  <nav className="max-w-7xl mx-auto px-4 py-3 space-y-0.5" aria-label="Mobile navigation">
  {navLinks.map((link, index) => {
  const active = isActive(link.href);
@@ -274,10 +272,10 @@ export default function Header() {
  key={link.href}
  href={link.href}
  onClick={() => setIsMenuOpen(false)}
- className={`block px-4 py-3 text-sm font-semibold uppercase tracking-wider transition-all duration-200 animate-slide-in border-l-2 ${
+ className={`block px-4 py-3 text-sm font-semibold uppercase tracking-wider transition-all duration-200 animate-slide-in rounded-lg border-l-2 ${
  active
- ?"text-zinc-400 bg-zinc-900 border-zinc-600"
- :"text-zinc-400 hover:text-white hover:bg-zinc-800/80 border-transparent hover:border-zinc-700"
+ ?"text-red-400 bg-[rgba(184,0,0,0.06)] border-[rgba(184,0,0,0.40)]"
+ :"text-zinc-400 hover:text-white hover:bg-[rgba(184,0,0,0.04)] border-transparent hover:border-[rgba(184,0,0,0.25)]"
  }`}
  style={{ animationDelay: `${index * 50}ms` }}
  >
@@ -288,7 +286,7 @@ export default function Header() {
  <Link
  href="/submit"
  onClick={() => setIsMenuOpen(false)}
- className="flex items-center gap-2 px-4 py-3 mt-3 bg-zinc-800 glass-text font-bold uppercase tracking-wider text-sm border border-zinc-700"
+ className="flex items-center gap-2 px-4 py-3 mt-3 bg-[#0a0000] glass-text font-bold uppercase tracking-wider text-sm rounded-xl border border-[rgba(184,0,0,0.30)]"
  >
  <Zap className="w-4 h-4"/>
  <span>Submit Intel</span>
@@ -296,7 +294,7 @@ export default function Header() {
  <Link
  href="/contributor"
  onClick={() => setIsMenuOpen(false)}
- className="flex items-center gap-2 px-4 py-3 mt-1 border border-[rgba(255,255,255,0.15)] text-zinc-400 hover:text-white text-sm font-semibold uppercase tracking-wider transition-colors"
+ className="flex items-center gap-2 px-4 py-3 mt-1 rounded-xl border border-[rgba(184,0,0,0.20)] text-zinc-400 hover:text-white text-sm font-semibold uppercase tracking-wider transition-colors"
  >
  <UserPlus className="w-4 h-4"/>
  <span>Contribute</span>

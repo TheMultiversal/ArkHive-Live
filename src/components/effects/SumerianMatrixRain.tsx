@@ -96,8 +96,8 @@ export default function SumerianMatrixRain() {
  const progress = j / col.chars.length;
  if (j === col.chars.length - 1) {
  // Leading character - bright
- ctx.fillStyle = `rgba(160, 160, 160, ${col.opacity * 1.0})`;
- ctx.shadowColor = '#6b6b6b';
+ ctx.fillStyle = `rgba(200, 30, 30, ${col.opacity * 1.0})`;
+ ctx.shadowColor = '#8b0000';
  ctx.shadowBlur = 8;
  } else if (progress > 0.7) {
  // Near head - medium bright
@@ -107,7 +107,7 @@ export default function SumerianMatrixRain() {
  } else {
  // Tail - dark and fading
  const fade = 0.15 + progress * 0.4;
- ctx.fillStyle = `rgba(60, 60, 60, ${col.opacity * fade})`;
+ ctx.fillStyle = `rgba(100, 0, 0, ${col.opacity * fade})`;
  ctx.shadowColor = 'transparent';
  ctx.shadowBlur = 0;
  }
