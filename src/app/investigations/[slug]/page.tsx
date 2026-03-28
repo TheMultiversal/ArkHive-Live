@@ -1,9 +1,9 @@
 'use client';
 
 import { useParams } from 'next/navigation';
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import dynamic from 'next/dynamic';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useInView } from 'framer-motion';
 import Link from 'next/link';
 import {
   ArrowLeft, AlertTriangle, Users, FileText,
@@ -12,7 +12,7 @@ import {
   ArrowUpRight, Landmark, ClipboardCheck,
   Crosshair, ChevronDown, Shield, Calendar,
   Fingerprint, Scale, Clock, TrendingUp, Check,
-  Target, ArrowRight,
+  Target, ArrowRight, Eye, Lock,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 import GlitchDivider from '@/components/ui/GlitchDivider';
@@ -98,26 +98,20 @@ type OpTrack = 'legal' | 'direct' | 'investigate' | 'expose' | 'economic';
 const trackOrder: OpTrack[] = ['legal', 'direct', 'investigate', 'expose', 'economic'];
 
 const trackMeta: Record<OpTrack, { label: string; directive: string; icon: typeof Crosshair; color: string; urgency: string }> = {
-  legal:       { label: 'PROSECUTE',     directive: 'File suits. Petition grand juries. Use every legal weapon available.',   icon: Gavel,          color: '#a855f7', urgency: 'MAXIMUM' },
-  direct:      { label: 'DIRECT ACTION', directive: 'File formal complaints with enforcement bodies and watchdogs.',          icon: Target,         color: '#ef4444', urgency: 'IMMEDIATE' },
+  legal:       { label: 'PROSECUTE',     directive: 'File suits. Petition grand juries. Use every legal weapon available.',      icon: Gavel,          color: '#a855f7', urgency: 'MAXIMUM' },
+  direct:      { label: 'DIRECT ACTION', directive: 'File formal complaints with enforcement bodies and independent watchdogs.', icon: Target,         color: '#ef4444', urgency: 'IMMEDIATE' },
   investigate: { label: 'INVESTIGATE',   directive: 'Extract records. Submit FOIA requests. Build unbreakable evidence chains.', icon: ClipboardCheck, color: '#3b82f6', urgency: 'PRIORITY' },
-  expose:      { label: 'EXPOSE',        directive: 'Document everything. Archive. Make suppression impossible.',              icon: Crosshair,      color: '#ea580c', urgency: 'ONGOING' },
-  economic:    { label: 'DISRUPT',       directive: 'Target the financial infrastructure. Boycott. Divest. Defund.',           icon: DollarSign,     color: '#eab308', urgency: 'SUSTAINED' },
+  expose:      { label: 'EXPOSE',        directive: 'Document everything. Archive. Make suppression impossible.',                icon: Crosshair,      color: '#ea580c', urgency: 'ONGOING' },
+  economic:    { label: 'DISRUPT',       directive: 'Target the financial infrastructure. Boycott. Divest. Defund.',             icon: DollarSign,     color: '#eab308', urgency: 'SUSTAINED' },
 };
 
 function categorizeOp(text: string): OpTrack {
   const lower = text.toLowerCase();
-  // Legal action — highest impact
   if (lower.includes('legal') || lower.includes('attorney') || lower.includes('lawsuit') || lower.includes('court') || lower.includes('wrongful') || lower.includes('legal aid') || lower.includes('sue') || lower.includes('litigation') || lower.includes('class action') || lower.includes('grand jury') || lower.includes('qui tam') || lower.includes('death claim') || lower.includes('legal assistance') || lower.includes('legal services')) return 'legal';
-  // Direct action — file complaints with enforcement bodies
   if (lower.includes('file complaint') || lower.includes('complaint') || lower.includes('consumer complaint') || lower.includes('inspector general') || lower.includes('attorney general') || lower.includes('report price') || lower.includes('price goug') || lower.includes('whistleblow') || lower.includes('tip line') || lower.includes('enforcement') || lower.includes('commission') || lower.includes('regulatory')) return 'direct';
-  // Investigate — FOIA, records, evidence
   if (lower.includes('public information') || lower.includes('foia') || lower.includes('open record') || lower.includes('records request') || lower.includes('information request') || lower.includes('information act') || lower.includes('submit') || lower.includes('document') || lower.includes('audit')) return 'investigate';
-  // Economic disruption
   if (lower.includes('donate') || lower.includes('fund') || lower.includes('boycott') || lower.includes('divest') || lower.includes('defund') || lower.includes('shareholder') || lower.includes('disinvest')) return 'economic';
-  // Everything else — expose/awareness (includes voting, contacting reps, sharing, etc.)
   if (lower.includes('share') || lower.includes('spread') || lower.includes('social') || lower.includes('media') || lower.includes('support org') || lower.includes('organizations working')) return 'expose';
-  // Voting and electoral actions → just awareness, not real accountability
   if (lower.includes('vote') || lower.includes('elect') || lower.includes('contact') || lower.includes('representative') || lower.includes('senator') || lower.includes('legislat') || lower.includes('demand') || lower.includes('state rep') || lower.includes('congress')) return 'expose';
   return 'expose';
 }
@@ -127,23 +121,71 @@ function slugifyName(name: string): string {
 }
 
 /* ================================================================
-   ENFORCEMENT PORTALS — Independent bodies with real power
+   ENFORCEMENT PORTALS
    ================================================================ */
 
 const enforcementPortals = [
-  { name: 'FBI Crime Tips', url: 'https://tips.fbi.gov/', icon: Shield, desc: 'Submit evidence of federal crimes directly to the FBI', color: '#ef4444' },
-  { name: 'DOJ Report Crime', url: 'https://www.justice.gov/actioncenter/report-crime', icon: Gavel, desc: 'File criminal reports with the Department of Justice', color: '#a855f7' },
-  { name: 'Inspector General Directory', url: 'https://www.ignet.gov/content/inspectors-general-directory', icon: ShieldAlert, desc: 'File complaints with Inspectors General — independent federal watchdogs with subpoena power', color: '#f97316' },
-  { name: 'State Attorney General', url: 'https://www.naag.org/find-my-ag/', icon: Scale, desc: 'File complaints with your State AG — real prosecution and subpoena authority', color: '#22d3ee' },
-  { name: 'File FOIA Request', url: 'https://www.foia.gov/', icon: FileText, desc: 'Force disclosure of government records under Freedom of Information Act', color: '#3b82f6' },
-  { name: 'SEC Whistleblower', url: 'https://www.sec.gov/whistleblower', icon: DollarSign, desc: 'Report securities violations — whistleblowers receive 10-30% of sanctions over $1M', color: '#eab308' },
-  { name: 'IRS Whistleblower', url: 'https://www.irs.gov/compliance/whistleblower-office', icon: TrendingUp, desc: 'Report tax fraud over $2M — awards of 15-30% of collected proceeds', color: '#10b981' },
-  { name: 'FTC Report Fraud', url: 'https://reportfraud.ftc.gov/', icon: AlertTriangle, desc: 'Report fraud, scams, and unfair business to the Federal Trade Commission', color: '#f43f5e' },
-  { name: 'International Criminal Court', url: 'https://www.icc-cpi.int/how-to-submit-communications', icon: Landmark, desc: 'Submit evidence of crimes against humanity and war crimes to the ICC', color: '#8b5cf6' },
+  { name: 'FBI Crime Tips', url: 'https://tips.fbi.gov/', icon: Shield, desc: 'Submit evidence of federal crimes directly to the FBI.', color: '#ef4444' },
+  { name: 'DOJ Report Crime', url: 'https://www.justice.gov/actioncenter/report-crime', icon: Gavel, desc: 'File criminal reports with the Department of Justice.', color: '#a855f7' },
+  { name: 'Inspector General Directory', url: 'https://www.ignet.gov/content/inspectors-general-directory', icon: ShieldAlert, desc: 'File complaints with agency IGs. Independent federal watchdogs with subpoena power.', color: '#f97316' },
+  { name: 'State Attorney General', url: 'https://www.naag.org/find-my-ag/', icon: Scale, desc: 'File complaints with your State AG. Real prosecution and subpoena authority.', color: '#22d3ee' },
+  { name: 'File FOIA Request', url: 'https://www.foia.gov/', icon: FileText, desc: 'Force disclosure of government records under the Freedom of Information Act.', color: '#3b82f6' },
+  { name: 'SEC Whistleblower', url: 'https://www.sec.gov/whistleblower', icon: DollarSign, desc: 'Report securities violations. Whistleblowers receive 10-30% of sanctions over $1M.', color: '#eab308' },
+  { name: 'IRS Whistleblower', url: 'https://www.irs.gov/compliance/whistleblower-office', icon: TrendingUp, desc: 'Report tax fraud over $2M. Awards of 15-30% of collected proceeds.', color: '#10b981' },
+  { name: 'FTC Report Fraud', url: 'https://reportfraud.ftc.gov/', icon: AlertTriangle, desc: 'Report fraud, scams, and unfair business to the Federal Trade Commission.', color: '#f43f5e' },
+  { name: 'International Criminal Court', url: 'https://www.icc-cpi.int/how-to-submit-communications', icon: Landmark, desc: 'Submit evidence of crimes against humanity and war crimes to the ICC.', color: '#8b5cf6' },
 ];
 
 /* ================================================================
-   COLLAPSIBLE GLASS WRAPPER
+   ANIMATED COUNTER
+   ================================================================ */
+
+function AnimatedCount({ value, delay = 0 }: { value: number; delay?: number }) {
+  const ref = useRef<HTMLSpanElement>(null);
+  const inView = useInView(ref, { once: true });
+  const [display, setDisplay] = useState(0);
+
+  useEffect(() => {
+    if (!inView || value === 0) { if (value === 0) setDisplay(0); return; }
+    const timeout = setTimeout(() => {
+      const duration = 1200;
+      const start = performance.now();
+      const step = (now: number) => {
+        const elapsed = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 4);
+        setDisplay(Math.round(eased * value));
+        if (progress < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    }, delay * 1000);
+    return () => clearTimeout(timeout);
+  }, [inView, value, delay]);
+
+  return <span ref={ref}>{display}</span>;
+}
+
+/* ================================================================
+   STAGGER ANIMATION VARIANTS
+   ================================================================ */
+
+const staggerContainer = {
+  hidden: { opacity: 0 },
+  visible: { opacity: 1, transition: { staggerChildren: 0.07, delayChildren: 0.1 } },
+};
+
+const fadeSlideUp = {
+  hidden: { opacity: 0, y: 28 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.55, ease: [0.25, 0.46, 0.45, 0.94] } },
+};
+
+const fadeSlideLeft = {
+  hidden: { opacity: 0, x: -24 },
+  visible: { opacity: 1, x: 0, transition: { duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] } },
+};
+
+/* ================================================================
+   COLLAPSIBLE GLASS
    ================================================================ */
 
 function CollapsibleGlass({
@@ -153,47 +195,68 @@ function CollapsibleGlass({
   defaultOpen?: boolean; count?: number; badge?: React.ReactNode; accentColor?: string;
 }) {
   const [isOpen, setIsOpen] = useState(defaultOpen);
+  const accent = accentColor || 'rgba(184,0,0,0.50)';
+
   return (
-    <div className="glass-card overflow-hidden">
+    <div className="glass-card overflow-hidden relative">
+      {/* Watermark section number */}
+      <div
+        className="absolute -top-8 -right-3 text-[160px] font-black leading-none select-none pointer-events-none font-mono"
+        style={{ color: accentColor ? `${accentColor}04` : 'rgba(255,255,255,0.015)' }}
+      >
+        {number}
+      </div>
+
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center gap-3 p-5 sm:p-6 cursor-pointer select-none group"
+        className="w-full flex items-center gap-3 p-5 sm:p-7 cursor-pointer select-none group relative z-10"
       >
-        <div className="flex items-center justify-center w-8 h-8 flex-shrink-0"
+        <div className="flex items-center justify-center w-10 h-10 flex-shrink-0 relative"
           style={{
-            background: accentColor ? `${accentColor}08` : 'rgba(184,0,0,0.06)',
-            border: `1px solid ${accentColor ? `${accentColor}20` : 'rgba(184,0,0,0.12)'}`,
+            background: accentColor ? `${accentColor}06` : 'rgba(184,0,0,0.04)',
+            border: `1px solid ${accentColor ? `${accentColor}18` : 'rgba(184,0,0,0.10)'}`,
           }}>
-          <span className="text-[10px] font-mono font-bold" style={{ color: accentColor || 'rgba(239,68,68,0.6)' }}>{number}</span>
+          <span className="text-[11px] font-mono font-black tracking-wider" style={{ color: accent }}>{number}</span>
         </div>
         <span className="text-zinc-600 flex-shrink-0">{icon}</span>
-        <h2 className="text-xs font-black text-white uppercase tracking-[0.2em]">{title}</h2>
-        {typeof count === 'number' && (
-          <span className="text-[10px] font-mono px-2 py-0.5 ml-1"
-            style={{
-              color: accentColor || '#52525b',
-              background: accentColor ? `${accentColor}06` : 'rgba(82,82,91,0.08)',
-              border: `1px solid ${accentColor ? `${accentColor}12` : 'rgba(82,82,91,0.12)'}`,
-            }}>
-            {count}
-          </span>
-        )}
+        <div className="flex flex-col items-start">
+          <h2 className="text-sm font-black text-white uppercase tracking-[0.2em] leading-tight">{title}</h2>
+          {typeof count === 'number' && (
+            <span className="text-[9px] font-mono mt-0.5"
+              style={{ color: accentColor ? `${accentColor}60` : 'rgba(82,82,91,0.7)' }}>
+              {count} {count === 1 ? 'RECORD' : 'RECORDS'}
+            </span>
+          )}
+        </div>
         <div className="flex-1" />
         {badge}
-        <motion.div animate={{ rotate: isOpen ? 180 : 0 }} transition={{ duration: 0.2 }}>
-          <ChevronDown className="w-3.5 h-3.5 text-zinc-700 group-hover:text-zinc-400 transition-colors" />
+        <motion.div
+          animate={{ rotate: isOpen ? 180 : 0 }}
+          transition={{ duration: 0.25, ease: [0.25, 0.46, 0.45, 0.94] }}
+        >
+          <ChevronDown className="w-4 h-4 text-zinc-700 group-hover:text-zinc-400 transition-colors duration-200" />
         </motion.div>
       </button>
+
+      {/* Animated accent line below header */}
+      <motion.div
+        className="h-px mx-5 sm:mx-7"
+        style={{ background: `linear-gradient(90deg, ${accent}, transparent 80%)`, transformOrigin: 'left' }}
+        initial={{ scaleX: 0, opacity: 0 }}
+        animate={{ scaleX: isOpen ? 1 : 0, opacity: isOpen ? 1 : 0 }}
+        transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
+      />
+
       <AnimatePresence initial={false}>
         {isOpen && (
           <motion.div
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="overflow-hidden"
           >
-            <div className="px-5 sm:px-6 pb-6 border-t border-[rgba(184,0,0,0.04)] pt-5">
+            <div className="px-5 sm:px-7 pb-7 pt-6">
               {children}
             </div>
           </motion.div>
@@ -204,7 +267,7 @@ function CollapsibleGlass({
 }
 
 /* ================================================================
-   ACCOUNTABILITY ENGINE — Combat System
+   ACCOUNTABILITY ENGINE
    ================================================================ */
 
 function AccountabilityEngine({ content, slug, investigation }: {
@@ -248,7 +311,6 @@ function AccountabilityEngine({ content, slug, investigation }: {
     setTimeout(() => setCopied(null), 2000);
   }, []);
 
-  // Parse operations from investigation content
   const rawActions = content.replace(/^\s*WHAT YOU CAN DO TO HOLD THEM ACCOUNTABLE:\s*/i, '').split(/\(\d+\)\s*/).filter(Boolean);
   const operations = rawActions.map((action, idx) => {
     const { text, urls } = extractUrls(action.trim());
@@ -263,21 +325,21 @@ function AccountabilityEngine({ content, slug, investigation }: {
   const progress = operations.length > 0 ? (completedOps.size / operations.length) * 100 : 0;
   const shareUrl = typeof window !== 'undefined' ? window.location.href : `https://arkhive.live/investigations/${slug}`;
 
-  // ── Template Generation ──
+  /* Template Generation */
 
-  const socialPost = `EXPOSED: ${title}\n\n${summary.slice(0, 200)}${summary.length > 200 ? '...' : ''}${defendants.length > 0 ? `\n\nNamed defendants: ${defendants.slice(0, 3).map((d: any) => d.name).join(', ')}${defendants.length > 3 ? ` + ${defendants.length - 3} more` : ''}` : ''}${statutes.length > 0 ? `\nLaws violated: ${statutes.slice(0, 2).map((s: any) => s.code).join(', ')}` : ''}\n\nFull investigation — ${sources.length} sourced references:\n${shareUrl}\n\nThe evidence speaks for itself.\n\n#ArkHive #Accountability`;
+  const socialPost = `EXPOSED: ${title}\n\n${summary.slice(0, 200)}${summary.length > 200 ? '...' : ''}${defendants.length > 0 ? `\n\nNamed defendants: ${defendants.slice(0, 3).map((d: any) => d.name).join(', ')}${defendants.length > 3 ? ` + ${defendants.length - 3} more` : ''}` : ''}${statutes.length > 0 ? `\nLaws violated: ${statutes.slice(0, 2).map((s: any) => s.code).join(', ')}` : ''}\n\nFull investigation // ${sources.length} sourced references:\n${shareUrl}\n\nThe evidence speaks for itself.\n\n#ArkHive #Accountability`;
 
-  const legalDemand = `FORMAL LEGAL DEMAND AND NOTICE OF EVIDENCE PRESERVATION\n\nTO: [Responsible Party / Entity Name]\nFROM: [Your Full Legal Name]\nDATE: [Date]\nRE: ${title}\n\n${'─'.repeat(50)}\n\nDear Sir/Madam,\n\nThis letter constitutes formal notice regarding documented evidence of misconduct and/or legal violations as detailed in the investigation referenced above.\n\nFACTUAL BASIS:\n${summary.slice(0, 600)}${summary.length > 600 ? '...' : ''}\n${defendants.length > 0 ? `\nNAMED PARTIES (${defendants.length}):\n${defendants.map((d: any) => `• ${d.name} — ${d.role} [Status: ${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LEGAL PROVISIONS:\n${statutes.map((s: any) => `• ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nDEMANDS:\n1. Immediate preservation of ALL documents, communications, electronic records, and physical evidence related to the above matter\n2. Full disclosure of all information relevant to the documented violations\n3. Immediate cessation of any ongoing conduct constituting a violation of the laws cited above\n4. Written acknowledgment of receipt of this demand within ten (10) business days\n\nNOTICE OF ESCALATION:\nFailure to comply with these demands within thirty (30) days will result in escalation to appropriate enforcement bodies, including but not limited to:\n- The Office of the Inspector General for the relevant agency\n- The State Attorney General\n- The United States Department of Justice\n- Applicable federal regulatory agencies\n- Private legal action as permitted under applicable statutes\n\nThis letter creates a legal record. You are now on formal notice of these documented findings.\n\nEvidentiary Record: ${sources.length} sourced references\n${shareUrl}\n\nRespectfully,\n[Your Full Legal Name]\n[Your Address]\n[Your Contact Information]\n[Date]`;
+  const legalDemand = `FORMAL LEGAL DEMAND AND NOTICE OF EVIDENCE PRESERVATION\n\nTO: [Responsible Party / Entity Name]\nFROM: [Your Full Legal Name]\nDATE: [Date]\nRE: ${title}\n\n${'─'.repeat(50)}\n\nDear Sir/Madam,\n\nThis letter constitutes formal notice regarding documented evidence of misconduct and/or legal violations as detailed in the investigation referenced above.\n\nFACTUAL BASIS:\n${summary.slice(0, 600)}${summary.length > 600 ? '...' : ''}\n${defendants.length > 0 ? `\nNAMED PARTIES (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name} | ${d.role} [Status: ${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LEGAL PROVISIONS:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nDEMANDS:\n1. Immediate preservation of ALL documents, communications, electronic records, and physical evidence related to the above matter\n2. Full disclosure of all information relevant to the documented violations\n3. Immediate cessation of any ongoing conduct constituting a violation of the laws cited above\n4. Written acknowledgment of receipt of this demand within ten (10) business days\n\nNOTICE OF ESCALATION:\nFailure to comply with these demands within thirty (30) days will result in escalation to appropriate enforcement bodies, including but not limited to:\n- The Office of the Inspector General for the relevant agency\n- The State Attorney General\n- The United States Department of Justice\n- Applicable federal regulatory agencies\n- Private legal action as permitted under applicable statutes\n\nThis letter creates a legal record. You are now on formal notice of these documented findings.\n\nEvidentiary Record: ${sources.length} sourced references\n${shareUrl}\n\nRespectfully,\n[Your Full Legal Name]\n[Your Address]\n[Your Contact Information]\n[Date]`;
 
   const agencies = affiliations.filter((a: any) => a.type === 'agency');
 
-  const igComplaint = `FORMAL COMPLAINT TO THE OFFICE OF INSPECTOR GENERAL\n\n${agencies.length > 0 ? `Agency: ${agencies.map((a: any) => a.name).join(', ')}\n` : 'Agency: [Relevant Federal Agency]\n'}Inspector General Office: [Locate at ignet.gov/content/inspectors-general-directory]\n\n${'─'.repeat(50)}\n\nCOMPLAINANT INFORMATION:\nName: [Your Name]\nAddress: [Your Address]\nEmail: [Your Email]\nPhone: [Your Phone]\n\nCOMPLAINT:\nI hereby file a formal complaint regarding documented misconduct related to:\n\n"${title}"\n\nSUMMARY OF ALLEGATIONS:\n${summary}\n${defendants.length > 0 ? `\nSUBJECTS OF COMPLAINT (${defendants.length}):\n${defendants.map((d: any) => `• ${d.name}: ${d.role}\n  Current status: ${d.status.toUpperCase()}${d.charges?.length ? '\n  Known charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nLAWS AND REGULATIONS POTENTIALLY VIOLATED:\n${statutes.map((s: any) => `• ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL IRREGULARITIES:\n${moneyTrail.length} documented financial transactions between implicated parties are detailed in the full investigation.\n` : ''}\nEVIDENCE:\nThis complaint is supported by ${sources.length} independently sourced references, all available at:\n${shareUrl}\n\nREQUESTED ACTION:\n1. Formal investigation into the allegations described above\n2. Preservation of all relevant agency records and communications\n3. Referral to the Department of Justice if criminal conduct is substantiated\n4. Written response regarding the disposition of this complaint\n\nSubmitted on: [Date]\n[Your Signature]\n[Your Printed Name]`;
+  const igComplaint = `FORMAL COMPLAINT TO THE OFFICE OF INSPECTOR GENERAL\n\n${agencies.length > 0 ? `Agency: ${agencies.map((a: any) => a.name).join(', ')}\n` : 'Agency: [Relevant Federal Agency]\n'}Inspector General Office: [Locate at ignet.gov/content/inspectors-general-directory]\n\n${'─'.repeat(50)}\n\nCOMPLAINANT INFORMATION:\nName: [Your Name]\nAddress: [Your Address]\nEmail: [Your Email]\nPhone: [Your Phone]\n\nCOMPLAINT:\nI hereby file a formal complaint regarding documented misconduct related to:\n\n"${title}"\n\nSUMMARY OF ALLEGATIONS:\n${summary}\n${defendants.length > 0 ? `\nSUBJECTS OF COMPLAINT (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name}: ${d.role}\n  Current status: ${d.status.toUpperCase()}${d.charges?.length ? '\n  Known charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nLAWS AND REGULATIONS POTENTIALLY VIOLATED:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL IRREGULARITIES:\n${moneyTrail.length} documented financial transactions between implicated parties are detailed in the full investigation.\n` : ''}\nEVIDENCE:\nThis complaint is supported by ${sources.length} independently sourced references, all available at:\n${shareUrl}\n\nREQUESTED ACTION:\n1. Formal investigation into the allegations described above\n2. Preservation of all relevant agency records and communications\n3. Referral to the Department of Justice if criminal conduct is substantiated\n4. Written response regarding the disposition of this complaint\n\nSubmitted on: [Date]\n[Your Signature]\n[Your Printed Name]`;
 
-  const pressTip = `PRESS TIP — For Immediate Investigation\n\nSubject: ${title}\n\n${summary}\n${defendants.length > 0 ? `\nNAMED SUBJECTS (${defendants.length}):\n${defendants.map((d: any) => `• ${d.name} — ${d.role} [${d.status.toUpperCase()}]`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL: ${moneyTrail.length} documented transactions\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS:\n${statutes.slice(0, 5).map((s: any) => `• ${s.code}`).join('\n')}\n` : ''}\nThis investigation includes ${sources.length} sourced references, documented evidence, and applicable statutes.\n\nFull evidence package: ${shareUrl}\n\nSubmitted via ArkHive (arkhive.live) — open accountability platform.`;
+  const pressTip = `PRESS TIP: For Immediate Investigation\n\nSubject: ${title}\n\n${summary}\n${defendants.length > 0 ? `\nNAMED SUBJECTS (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name} | ${d.role} [${d.status.toUpperCase()}]`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL: ${moneyTrail.length} documented transactions\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS:\n${statutes.slice(0, 5).map((s: any) => `* ${s.code}`).join('\n')}\n` : ''}\nThis investigation includes ${sources.length} sourced references, documented evidence, and applicable statutes.\n\nFull evidence package: ${shareUrl}\n\nSubmitted via ArkHive (arkhive.live) // Open accountability platform.`;
 
   const foiaTemplate = agencies.length > 0 ? `Freedom of Information Act Request\n\nTo: FOIA Officer\n${agencies.map((a: any) => a.name).join(', ')}\n\nDear FOIA Officer,\n\nPursuant to the Freedom of Information Act, 5 U.S.C. § 552, I am requesting access to and copies of all records related to:\n\n"${title}"\n\nSpecifically, I request:\n1. All internal communications, memoranda, and emails related to the above matter\n2. All reports, studies, and analyses concerning the above\n3. All correspondence with external parties regarding the above\n4. All financial records and transaction logs related to the above\n5. All records of enforcement actions taken or declined regarding the above\n\nI am willing to pay reasonable duplication fees. If fees exceed $25, please notify me before processing.\n\nIf you deny this request in whole or in part, please cite the specific exemption(s) and notify me of appeal procedures available under 5 U.S.C. § 552(a)(6).\n\nThank you for your prompt attention to this matter.\n\n[Your Name]\n[Your Address]\n[Your Email]\n[Date]` : null;
 
-  const evidencePackage = `${'═'.repeat(54)}\nINVESTIGATION FILE: ${title}\nSeverity: ${(investigation.severity || 'medium').toUpperCase()} | Category: ${investigation.category}\nSource: ArkHive (arkhive.live)\n${'═'.repeat(54)}\n\nSUMMARY\n${summary}\n${defendants.length > 0 ? `\nNAMED DEFENDANTS (${defendants.length})\n${defendants.map((d: any) => `▪ ${d.name} — ${d.role} [${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join(', ') : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL (${moneyTrail.length} transactions)\n${moneyTrail.map((m: any) => `▪ ${m.date}: ${m.from} → ${m.to} | ${m.amount}${m.purpose ? ' | ' + m.purpose : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS\n${statutes.map((s: any) => `▪ ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nSOURCED EVIDENCE (${sources.length} references)\n${sources.map((s: any, i: number) => `[${i + 1}] ${s.title} — ${s.url}`).join('\n')}\n\nFULL INVESTIGATION\n${shareUrl}\n\n${'═'.repeat(54)}\nCompiled from ArkHive (arkhive.live)\nOpen-source accountability platform\n${'═'.repeat(54)}`;
+  const evidencePackage = `${'═'.repeat(54)}\nINVESTIGATION FILE: ${title}\nSeverity: ${(investigation.severity || 'medium').toUpperCase()} | Category: ${investigation.category}\nSource: ArkHive (arkhive.live)\n${'═'.repeat(54)}\n\nSUMMARY\n${summary}\n${defendants.length > 0 ? `\nNAMED DEFENDANTS (${defendants.length})\n${defendants.map((d: any) => `> ${d.name} | ${d.role} [${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join(', ') : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL (${moneyTrail.length} transactions)\n${moneyTrail.map((m: any) => `> ${m.date}: ${m.from} -> ${m.to} | ${m.amount}${m.purpose ? ' | ' + m.purpose : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS\n${statutes.map((s: any) => `> ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nSOURCED EVIDENCE (${sources.length} references)\n${sources.map((s: any, i: number) => `[${i + 1}] ${s.title} | ${s.url}`).join('\n')}\n\nFULL INVESTIGATION\n${shareUrl}\n\n${'═'.repeat(54)}\nCompiled from ArkHive (arkhive.live)\nOpen-source accountability platform\n${'═'.repeat(54)}`;
 
   const templates = [
     { icon: Scale, title: 'Legal Demand Notice', desc: 'Formal demand letter with evidence preservation notice. Carries legal weight.', content: legalDemand, key: 'legal', color: '#a855f7' },
@@ -288,164 +350,223 @@ function AccountabilityEngine({ content, slug, investigation }: {
   ];
 
   return (
-    <div className="space-y-4">
-      {/* ── ENGINE COMMAND HEADER ── */}
+    <div className="space-y-5">
+      {/* ENGINE COMMAND HEADER */}
       <div className="glass-card overflow-hidden relative">
         <div className="absolute inset-0 pointer-events-none" style={{
-          background: 'linear-gradient(135deg, rgba(184,0,0,0.08) 0%, transparent 40%, rgba(184,0,0,0.04) 100%)',
+          background: 'linear-gradient(135deg, rgba(184,0,0,0.10) 0%, transparent 40%, rgba(184,0,0,0.04) 100%)',
         }} />
+        {/* Horizontal scan line */}
         <motion.div
-          className="absolute left-0 right-0 h-px pointer-events-none"
-          style={{ background: 'linear-gradient(90deg, transparent, rgba(184,0,0,0.20), transparent)' }}
+          className="absolute left-0 right-0 h-px pointer-events-none z-[1]"
+          style={{ background: 'linear-gradient(90deg, transparent, rgba(184,0,0,0.25), transparent)' }}
           animate={{ top: ['-5%', '105%'] }}
-          transition={{ duration: 5, repeat: Infinity, ease: 'linear' }}
+          transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
         />
-        <div className="relative z-10 p-6 sm:p-8 lg:p-10">
-          <div className="flex flex-col sm:flex-row sm:items-start gap-5 mb-6">
-            <div className="relative w-12 h-12 flex items-center justify-center bg-[rgba(184,0,0,0.08)] border border-[rgba(184,0,0,0.25)] flex-shrink-0">
-              <Target className="w-5 h-5 text-red-400" />
-              <div className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-red-500 animate-pulse" />
+        {/* Subtle vertical scan lines */}
+        <div className="absolute inset-0 pointer-events-none opacity-[0.03]" style={{
+          backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(255,255,255,0.5) 3px, rgba(255,255,255,0.5) 4px)',
+        }} />
+
+        <div className="relative z-10 p-7 sm:p-10 lg:p-12">
+          <div className="flex flex-col sm:flex-row sm:items-start gap-6 mb-8">
+            <div className="relative w-14 h-14 flex items-center justify-center flex-shrink-0">
+              <div className="absolute inset-0 bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.20)]" />
+              <Target className="w-6 h-6 text-red-400 relative z-10" />
+              <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 animate-pulse" />
+              {/* Corner targeting markers */}
+              <div className="absolute -top-1.5 -left-1.5 w-3 h-3 border-t border-l border-red-500/30" />
+              <div className="absolute -top-1.5 -right-1.5 w-3 h-3 border-t border-r border-red-500/30" />
+              <div className="absolute -bottom-1.5 -left-1.5 w-3 h-3 border-b border-l border-red-500/30" />
+              <div className="absolute -bottom-1.5 -right-1.5 w-3 h-3 border-b border-r border-red-500/30" />
             </div>
             <div className="flex-1 min-w-0">
-              <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-[0.08em] glass-text-hero mb-1">
+              <h2 className="text-3xl sm:text-4xl font-black uppercase tracking-[0.06em] glass-text-hero mb-2 leading-none">
                 Accountability Engine
               </h2>
-              <p className="text-[11px] font-mono tracking-wider text-red-500/40">
-                {operations.length} OPERATIONS &middot; {Object.keys(grouped).length} TRACKS &middot; {completedOps.size} DEPLOYED
-              </p>
+              <div className="flex flex-wrap items-center gap-3 text-[10px] font-mono tracking-wider text-red-500/40">
+                <span>{operations.length} OPS</span>
+                <span className="text-red-900/30">|</span>
+                <span>{Object.keys(grouped).length} TRACKS</span>
+                <span className="text-red-900/30">|</span>
+                <span className="text-red-400/60">{completedOps.size} DEPLOYED</span>
+              </div>
             </div>
           </div>
 
-          <p className="text-sm text-zinc-400 leading-relaxed max-w-3xl mb-3">
-            The system protects itself. The institutions designed to enforce accountability are compromised by the same
-            networks they regulate. Voting rotates faces — it does not remove entrenched corruption.
-          </p>
-          <p className="text-sm text-zinc-500 leading-relaxed max-w-3xl mb-8">
-            Real accountability requires direct action: filing formal legal demands, reporting to independent watchdogs
-            that have subpoena power, building evidence chains that cannot be buried, and applying economic pressure
-            where it actually hurts. Every operation below targets a specific vulnerability. Deploy them.
-          </p>
+          <div className="max-w-3xl mb-10 space-y-3">
+            <p className="text-[15px] text-zinc-400 leading-[1.8]">
+              The system protects itself. The institutions designed to enforce accountability are compromised by the same
+              networks they regulate. Voting rotates faces. It does not remove entrenched corruption.
+            </p>
+            <p className="text-[15px] text-zinc-500 leading-[1.8]">
+              Real accountability requires direct action: filing formal legal demands, reporting to independent watchdogs
+              that have subpoena power, building evidence chains that cannot be buried, and applying economic pressure
+              where it actually hurts. Every operation below targets a specific vulnerability. Deploy them.
+            </p>
+          </div>
 
-          {/* Progress */}
-          <div className="flex items-center gap-4">
-            <div className="flex-1 h-1.5 bg-zinc-900/80 overflow-hidden border border-zinc-800/30">
+          {/* Progress bar with glow leading edge */}
+          <div className="flex items-center gap-5">
+            <div className="flex-1 h-2 bg-zinc-900/80 overflow-hidden border border-zinc-800/30 relative">
               <motion.div
-                className="h-full"
+                className="h-full relative"
                 style={{ background: 'linear-gradient(90deg, #7f1d1d, #dc2626, #ef4444)' }}
                 initial={{ width: 0 }}
                 animate={{ width: `${progress}%` }}
-                transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              />
+                transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              >
+                {/* Glowing leading edge */}
+                <div className="absolute right-0 top-0 bottom-0 w-4"
+                  style={{ background: 'linear-gradient(90deg, transparent, rgba(239,68,68,0.6))', filter: 'blur(2px)' }} />
+              </motion.div>
             </div>
-            <span className="text-xs font-mono text-zinc-500">
-              <span className="text-white font-bold">{completedOps.size}</span>
-              <span className="text-zinc-700 mx-0.5">/</span>
-              <span>{operations.length}</span>
+            <span className="text-sm font-mono text-zinc-500 tabular-nums flex-shrink-0">
+              <span className="text-white font-black text-lg">{completedOps.size}</span>
+              <span className="text-zinc-700 mx-1">/</span>
+              <span className="text-zinc-600">{operations.length}</span>
             </span>
           </div>
         </div>
       </div>
 
-      {/* ── OPERATION TRACKS ── */}
+      {/* OPERATION TRACKS */}
       {trackOrder.map(track => {
         const trackOps = grouped[track];
         if (!trackOps) return null;
         const meta = trackMeta[track];
         const TrackIcon = meta.icon;
         const trackCompleted = trackOps.filter(op => completedOps.has(op.id)).length;
+        const trackProgress = (trackCompleted / trackOps.length) * 100;
 
         return (
-          <div key={track} className="glass-card overflow-hidden">
-            <div className="p-5 sm:p-6 pb-0">
-              <div className="flex items-center gap-3 mb-1">
-                <div className="w-8 h-8 flex items-center justify-center border flex-shrink-0"
+          <motion.div
+            key={track}
+            className="glass-card overflow-hidden"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-60px' }}
+            transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
+          >
+            {/* Track accent bar */}
+            <div className="h-[2px] w-full" style={{ background: `linear-gradient(90deg, ${meta.color}50, ${meta.color}15, transparent)` }} />
+
+            <div className="p-5 sm:p-7 pb-0">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-10 h-10 flex items-center justify-center border flex-shrink-0 relative"
                   style={{ borderColor: `${meta.color}20`, background: `${meta.color}06` }}>
-                  <TrackIcon className="w-3.5 h-3.5" style={{ color: meta.color }} />
+                  <TrackIcon className="w-4 h-4" style={{ color: meta.color }} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2">
-                    <h3 className="text-sm font-black text-white uppercase tracking-[0.15em]">{meta.label}</h3>
-                    <span className="text-[8px] font-mono font-bold px-1.5 py-0.5"
+                  <div className="flex items-center gap-3">
+                    <h3 className="text-base font-black text-white uppercase tracking-[0.15em]">{meta.label}</h3>
+                    <span className="text-[8px] font-mono font-black px-2 py-0.5"
                       style={{ color: meta.color, background: `${meta.color}08`, border: `1px solid ${meta.color}15` }}>
                       {meta.urgency}
                     </span>
+                    <span className="text-[10px] font-mono tabular-nums ml-auto" style={{ color: `${meta.color}60` }}>
+                      {trackCompleted}/{trackOps.length}
+                    </span>
                   </div>
-                  <p className="text-[10px] font-mono mt-0.5" style={{ color: `${meta.color}50` }}>{meta.directive}</p>
+                  <p className="text-[11px] mt-1 leading-relaxed" style={{ color: `${meta.color}40` }}>{meta.directive}</p>
+                  {/* Track mini-progress */}
+                  <div className="h-px mt-2 bg-zinc-900/50 overflow-hidden">
+                    <motion.div
+                      className="h-full"
+                      style={{ background: meta.color }}
+                      initial={{ width: 0 }}
+                      animate={{ width: `${trackProgress}%` }}
+                      transition={{ duration: 0.6, delay: 0.3 }}
+                    />
+                  </div>
                 </div>
-                <span className="text-[11px] font-mono text-zinc-600 flex-shrink-0">{trackCompleted}/{trackOps.length}</span>
               </div>
             </div>
 
-            <div className="p-4 sm:p-5 pt-3 space-y-1">
+            <div className="p-4 sm:p-6 pt-2 space-y-1.5">
               {trackOps.map(op => {
                 const isComplete = completedOps.has(op.id);
                 return (
-                  <div key={op.id}
-                    className={`relative border p-3.5 sm:p-4 transition-all duration-300 ${
+                  <motion.div
+                    key={op.id}
+                    className={`relative border p-4 sm:p-5 transition-all duration-300 group/op ${
                       isComplete
                         ? 'bg-[rgba(255,255,255,0.01)] border-zinc-800/20'
-                        : 'bg-[rgba(255,255,255,0.02)] border-[rgba(255,255,255,0.05)] hover:border-[rgba(184,0,0,0.15)] hover:bg-[rgba(255,255,255,0.03)]'
+                        : 'bg-[rgba(255,255,255,0.015)] border-[rgba(255,255,255,0.05)] hover:border-[rgba(184,0,0,0.18)] hover:bg-[rgba(255,255,255,0.03)]'
                     }`}
-                    style={isComplete ? { borderLeftWidth: 3, borderLeftColor: `${meta.color}30` } : {}}
+                    style={isComplete ? { borderLeftWidth: 3, borderLeftColor: `${meta.color}25` } : { borderLeftWidth: 3, borderLeftColor: 'transparent' }}
+                    whileHover={!isComplete ? { borderLeftColor: `${meta.color}40` } : undefined}
                   >
-                    <div className="flex items-start gap-3">
+                    <div className="flex items-start gap-4">
                       <button
                         onClick={() => toggleOp(op.id)}
-                        className={`w-5 h-5 border-2 flex items-center justify-center flex-shrink-0 mt-0.5 transition-all duration-200 ${
-                          isComplete ? 'border-red-600/40 bg-red-500/10' : 'border-zinc-700 hover:border-zinc-500'
+                        className={`w-6 h-6 border-2 flex items-center justify-center flex-shrink-0 mt-0.5 transition-all duration-300 ${
+                          isComplete ? 'border-red-600/40 bg-red-500/10' : 'border-zinc-700/50 hover:border-zinc-500 hover:bg-zinc-800/30'
                         }`}
                         aria-label={isComplete ? 'Mark incomplete' : 'Mark complete'}
                       >
-                        {isComplete && <Check className="w-3 h-3 text-red-400" />}
+                        <motion.div
+                          initial={false}
+                          animate={{ scale: isComplete ? 1 : 0, opacity: isComplete ? 1 : 0 }}
+                          transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+                        >
+                          <Check className="w-3.5 h-3.5 text-red-400" />
+                        </motion.div>
                       </button>
 
-                      <span className="text-[9px] font-mono font-bold tracking-wider mt-1.5 flex-shrink-0 w-5 text-right"
-                        style={{ color: isComplete ? `${meta.color}25` : `${meta.color}50` }}>
+                      <span className="text-[10px] font-mono font-black tracking-wider mt-1.5 flex-shrink-0 w-6 text-right tabular-nums"
+                        style={{ color: isComplete ? `${meta.color}20` : `${meta.color}45` }}>
                         {String(op.id + 1).padStart(2, '0')}
                       </span>
 
                       <div className="flex-1 min-w-0">
-                        <p className={`text-sm leading-relaxed transition-all duration-300 ${
-                          isComplete ? 'text-zinc-600 line-through decoration-zinc-700' : 'text-zinc-200'
+                        <p className={`text-sm leading-[1.8] transition-all duration-300 ${
+                          isComplete ? 'text-zinc-600 line-through decoration-zinc-700/50' : 'text-zinc-200'
                         }`}>{op.text}</p>
 
                         {op.urls.length > 0 && (
-                          <div className="flex flex-wrap items-center gap-1.5 mt-2.5">
+                          <div className="flex flex-wrap items-center gap-2 mt-3">
                             {op.urls.map((u, ui) => (
                               <a key={ui} href={u.url} target="_blank" rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-bold transition-all duration-200"
-                                style={{ color: meta.color, background: `${meta.color}08`, border: `1px solid ${meta.color}18` }}
+                                className="inline-flex items-center gap-1.5 px-3 py-1.5 text-[11px] font-bold transition-all duration-200 group/link"
+                                style={{ color: meta.color, background: `${meta.color}06`, border: `1px solid ${meta.color}12` }}
                                 onMouseEnter={e => { e.currentTarget.style.background = `${meta.color}15`; e.currentTarget.style.borderColor = `${meta.color}35`; }}
-                                onMouseLeave={e => { e.currentTarget.style.background = `${meta.color}08`; e.currentTarget.style.borderColor = `${meta.color}18`; }}>
-                                <ArrowUpRight className="w-3 h-3" />{u.domain}
+                                onMouseLeave={e => { e.currentTarget.style.background = `${meta.color}06`; e.currentTarget.style.borderColor = `${meta.color}12`; }}>
+                                <ArrowUpRight className="w-3 h-3 transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5" />{u.domain}
                               </a>
                             ))}
                             <button
                               onClick={() => copyText(`${op.text}${op.urls.length > 0 ? '\n\n' + op.urls.map(u => u.url).join('\n') : ''}`, `op-${op.id}`)}
-                              className="inline-flex items-center gap-1 px-2 py-1 text-[10px] font-bold text-zinc-600 bg-zinc-900/50 border border-zinc-800/30 hover:text-zinc-300 hover:border-zinc-700 transition-all">
+                              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 text-[10px] font-bold text-zinc-600 bg-zinc-900/50 border border-zinc-800/30 hover:text-zinc-300 hover:border-zinc-700 transition-all duration-200">
                               {copied === `op-${op.id}` ? <><Check className="w-2.5 h-2.5" /> Copied</> : <><Copy className="w-2.5 h-2.5" /> Copy</>}
                             </button>
                           </div>
                         )}
                       </div>
                     </div>
-                  </div>
+                  </motion.div>
                 );
               })}
             </div>
-          </div>
+          </motion.div>
         );
       })}
 
-      {/* ── READY-TO-DEPLOY ARSENAL ── */}
-      <div className="glass-card p-5 sm:p-6">
-        <div className="flex items-center gap-3 mb-5">
-          <div className="w-8 h-8 flex items-center justify-center bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.12)] flex-shrink-0">
-            <Megaphone className="w-3.5 h-3.5 text-red-400/70" />
+      {/* READY-TO-DEPLOY ARSENAL */}
+      <motion.div
+        className="glass-card p-6 sm:p-8"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-60px' }}
+        transition={{ duration: 0.6 }}
+      >
+        <div className="flex items-center gap-4 mb-6">
+          <div className="w-10 h-10 flex items-center justify-center bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.12)] flex-shrink-0">
+            <Lock className="w-4 h-4 text-red-400/70" />
           </div>
           <div>
-            <h3 className="text-xs font-black text-white uppercase tracking-[0.2em]">Ready-to-Deploy Arsenal</h3>
-            <p className="text-[10px] text-zinc-600 mt-0.5">Legal demands, formal complaints, and evidence packages — customized for this investigation.</p>
+            <h3 className="text-sm font-black text-white uppercase tracking-[0.2em]">Ready-to-Deploy Arsenal</h3>
+            <p className="text-[10px] text-zinc-600 mt-0.5">Legal demands, formal complaints, and evidence packages. Customized for this investigation.</p>
           </div>
         </div>
 
@@ -454,21 +575,21 @@ function AccountabilityEngine({ content, slug, investigation }: {
             const TmplIcon = tmpl.icon;
             const isExpanded = expandedTemplate === tmpl.key;
             return (
-              <div key={tmpl.key} className="border border-[rgba(255,255,255,0.05)] bg-[rgba(255,255,255,0.015)] overflow-hidden transition-all duration-300">
+              <div key={tmpl.key} className="border border-[rgba(255,255,255,0.05)] bg-[rgba(255,255,255,0.015)] overflow-hidden transition-all duration-300 hover:border-[rgba(255,255,255,0.08)]">
                 <button
                   onClick={() => setExpandedTemplate(isExpanded ? null : tmpl.key)}
-                  className="w-full flex items-center gap-3 p-4 text-left group cursor-pointer select-none"
+                  className="w-full flex items-center gap-4 p-4 sm:p-5 text-left group cursor-pointer select-none"
                 >
-                  <div className="w-8 h-8 flex items-center justify-center flex-shrink-0"
-                    style={{ background: `${tmpl.color}08`, border: `1px solid ${tmpl.color}15` }}>
-                    <TmplIcon className="w-3.5 h-3.5" style={{ color: tmpl.color }} />
+                  <div className="w-10 h-10 flex items-center justify-center flex-shrink-0 transition-all duration-300"
+                    style={{ background: `${tmpl.color}06`, border: `1px solid ${tmpl.color}12` }}>
+                    <TmplIcon className="w-4 h-4" style={{ color: tmpl.color }} />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <span className="text-xs font-black text-white uppercase tracking-wider block">{tmpl.title}</span>
-                    <span className="text-[10px] text-zinc-600 mt-0.5 block">{tmpl.desc}</span>
+                    <span className="text-xs font-black text-white uppercase tracking-[0.15em] block">{tmpl.title}</span>
+                    <span className="text-[10px] text-zinc-600 mt-0.5 block leading-relaxed">{tmpl.desc}</span>
                   </div>
-                  <motion.div animate={{ rotate: isExpanded ? 180 : 0 }} transition={{ duration: 0.2 }}>
-                    <ChevronDown className="w-3.5 h-3.5 text-zinc-600 group-hover:text-zinc-400 transition-colors" />
+                  <motion.div animate={{ rotate: isExpanded ? 180 : 0 }} transition={{ duration: 0.25 }}>
+                    <ChevronDown className="w-4 h-4 text-zinc-600 group-hover:text-zinc-400 transition-colors" />
                   </motion.div>
                 </button>
                 <AnimatePresence initial={false}>
@@ -477,14 +598,14 @@ function AccountabilityEngine({ content, slug, investigation }: {
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: 'auto', opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+                      transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
                       className="overflow-hidden"
                     >
-                      <div className="px-4 pb-4 border-t border-[rgba(255,255,255,0.03)]">
-                        <div className="bg-[#030303] border border-zinc-800/20 p-4 mt-3 max-h-72 overflow-y-auto">
-                          <pre className="text-[11px] text-zinc-400 font-mono whitespace-pre-wrap leading-relaxed">{tmpl.content}</pre>
+                      <div className="px-5 pb-5 border-t border-[rgba(255,255,255,0.03)]">
+                        <div className="bg-[#020202] border border-zinc-800/20 p-5 mt-4 max-h-80 overflow-y-auto">
+                          <pre className="text-[11px] text-zinc-400 font-mono whitespace-pre-wrap leading-[1.7]">{tmpl.content}</pre>
                         </div>
-                        <div className="mt-3">
+                        <div className="mt-4">
                           <CrystalButton
                             variant="danger"
                             size="sm"
@@ -502,66 +623,97 @@ function AccountabilityEngine({ content, slug, investigation }: {
             );
           })}
         </div>
-      </div>
+      </motion.div>
 
-      {/* ── ENFORCEMENT PORTALS ── */}
-      <div className="glass-card p-5 sm:p-6">
-        <div className="flex items-center gap-3 mb-2">
-          <div className="w-8 h-8 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.15)] flex-shrink-0">
-            <ShieldAlert className="w-3.5 h-3.5 text-red-400/70" />
+      {/* ENFORCEMENT PORTALS */}
+      <motion.div
+        className="glass-card p-6 sm:p-8"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-60px' }}
+        transition={{ duration: 0.6 }}
+      >
+        <div className="flex items-center gap-4 mb-3">
+          <div className="w-10 h-10 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.15)] flex-shrink-0">
+            <ShieldAlert className="w-4 h-4 text-red-400/70" />
           </div>
           <div>
-            <h3 className="text-xs font-black text-white uppercase tracking-[0.2em]">Enforcement Portals</h3>
-            <p className="text-[10px] text-zinc-600 mt-0.5">Independent watchdogs and enforcement bodies with real investigative and subpoena power</p>
+            <h3 className="text-sm font-black text-white uppercase tracking-[0.2em]">Enforcement Portals</h3>
+            <p className="text-[10px] text-zinc-600 mt-0.5">Independent watchdogs and enforcement bodies with real investigative and subpoena power.</p>
           </div>
         </div>
-        <p className="text-[10px] text-zinc-700 mb-5 pl-11 leading-relaxed">
-          These are not politicians. These are enforcement agencies, independent inspectors general, and international
-          tribunals with the legal authority to investigate, subpoena records, and prosecute.
+        <p className="text-[10px] text-zinc-700 mb-6 pl-14 leading-relaxed">
+          Not politicians. Enforcement agencies, independent inspectors general, and international tribunals with
+          the legal authority to investigate, subpoena records, and prosecute.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={staggerContainer}
+        >
           {enforcementPortals.map(portal => {
             const PortalIcon = portal.icon;
             return (
-              <a key={portal.name} href={portal.url} target="_blank" rel="noopener noreferrer"
-                className="flex items-start gap-3 p-3.5 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.05)] hover:border-[rgba(184,0,0,0.18)] hover:bg-[rgba(255,255,255,0.04)] transition-all duration-300 group">
-                <div className="w-9 h-9 flex items-center justify-center flex-shrink-0"
-                  style={{ background: `${portal.color}06`, border: `1px solid ${portal.color}15` }}>
+              <motion.a
+                key={portal.name}
+                href={portal.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-3 p-4 bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.04)] transition-all duration-300 group relative overflow-hidden"
+                variants={fadeSlideUp}
+                whileHover={{ borderColor: `${portal.color}30`, y: -2 }}
+              >
+                {/* Left accent */}
+                <div className="absolute left-0 top-0 bottom-0 w-[2px] transition-all duration-300 opacity-0 group-hover:opacity-100"
+                  style={{ background: portal.color }} />
+                <div className="w-10 h-10 flex items-center justify-center flex-shrink-0"
+                  style={{ background: `${portal.color}06`, border: `1px solid ${portal.color}12` }}>
                   <PortalIcon className="w-4 h-4" style={{ color: portal.color }} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <span className="text-[11px] font-bold text-zinc-300 group-hover:text-white transition-colors block">{portal.name}</span>
-                  <span className="text-[9px] text-zinc-600 block mt-0.5 leading-relaxed">{portal.desc}</span>
+                  <span className="text-[12px] font-bold text-zinc-300 group-hover:text-white transition-colors block leading-snug">{portal.name}</span>
+                  <span className="text-[9px] text-zinc-600 block mt-1 leading-relaxed">{portal.desc}</span>
                 </div>
-                <ArrowUpRight className="w-3.5 h-3.5 text-zinc-700 group-hover:text-red-400 transition-all mt-0.5 flex-shrink-0 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </a>
+                <ArrowUpRight className="w-4 h-4 text-zinc-800 group-hover:text-red-400 transition-all mt-0.5 flex-shrink-0 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              </motion.a>
             );
           })}
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
 
-      {/* ── EVIDENCE COMPILATION ── */}
-      <div className="glass-card p-5 sm:p-6">
-        <div className="flex items-center gap-3 mb-5">
-          <div className="w-8 h-8 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.12)] flex-shrink-0">
-            <ClipboardCheck className="w-3.5 h-3.5 text-red-400/70" />
+      {/* EVIDENCE COMPILATION */}
+      <motion.div
+        className="glass-card p-6 sm:p-8"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-60px' }}
+        transition={{ duration: 0.6 }}
+      >
+        <div className="flex items-center gap-4 mb-6">
+          <div className="w-10 h-10 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.12)] flex-shrink-0">
+            <ClipboardCheck className="w-4 h-4 text-red-400/70" />
           </div>
           <div>
-            <h3 className="text-xs font-black text-white uppercase tracking-[0.2em]">Evidence Compilation</h3>
-            <p className="text-[10px] text-zinc-600 mt-0.5">Compile the full evidence chain into a single package for filing or sharing</p>
+            <h3 className="text-sm font-black text-white uppercase tracking-[0.2em]">Evidence Compilation</h3>
+            <p className="text-[10px] text-zinc-600 mt-0.5">Compile the full evidence chain into a single package for filing or sharing.</p>
           </div>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
           {[
             { v: viewCount, l: 'Views', c: '#52525b' },
             { v: completedOps.size, l: 'Deployed', c: '#ef4444' },
             { v: operations.length - completedOps.size, l: 'Remaining', c: '#eab308' },
             { v: sources.length, l: 'Sources', c: '#3b82f6' },
           ].map((stat, i) => (
-            <div key={i} className="text-center py-3 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.04)]">
-              <div className="text-xl font-black font-mono" style={{ color: i === 0 ? '#fff' : stat.c }}>{stat.v}</div>
-              <div className="text-[7px] text-zinc-600 uppercase font-bold tracking-wider mt-0.5">{stat.l}</div>
+            <div key={i} className="text-center py-4 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.04)]">
+              <div className="text-2xl font-black font-mono tabular-nums" style={{ color: i === 0 ? '#fff' : stat.c }}>
+                <AnimatedCount value={stat.v} delay={0.1 * i} />
+              </div>
+              <div className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] mt-1">{stat.l}</div>
             </div>
           ))}
         </div>
@@ -584,7 +736,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
             {copied === 'link' ? 'Link Copied' : 'Copy Investigation Link'}
           </CrystalButton>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
@@ -602,12 +754,12 @@ export default function InvestigationPage() {
     return (
       <div className="min-h-screen pt-24 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
-          <div className="glass-card p-12">
-            <AlertTriangle className="w-12 h-12 text-zinc-600 mx-auto mb-6" />
-            <h1 className="text-2xl font-black text-white uppercase tracking-wider mb-4">Investigation Not Found</h1>
-            <p className="text-zinc-500 mb-8">The investigation &ldquo;{slug}&rdquo; could not be located in the archive.</p>
+          <div className="glass-card p-16">
+            <AlertTriangle className="w-14 h-14 text-zinc-700 mx-auto mb-8" />
+            <h1 className="text-3xl font-black text-white uppercase tracking-[0.15em] mb-4">Investigation Not Found</h1>
+            <p className="text-zinc-500 mb-10 text-lg">The investigation &ldquo;{slug}&rdquo; could not be located in the archive.</p>
             <Link href="/investigations"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 border border-zinc-700/50 text-zinc-300 hover:text-white hover:border-zinc-600 transition-all text-sm font-bold">
+              className="inline-flex items-center gap-3 px-8 py-4 bg-zinc-900 border border-zinc-700/50 text-zinc-300 hover:text-white hover:border-zinc-600 transition-all text-sm font-bold uppercase tracking-wider">
               <ArrowLeft className="w-4 h-4" /> Return to Archive
             </Link>
           </div>
@@ -636,104 +788,162 @@ export default function InvestigationPage() {
     .filter(g => g.items.length > 0);
 
   return (
-    <div className="min-h-screen pt-20 lg:pt-24 pb-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen pt-20 lg:pt-24 pb-20 relative">
+      {/* Severity atmospheric overlay */}
+      <div className="fixed inset-0 pointer-events-none z-0" style={{
+        background: `radial-gradient(ellipse 120% 50% at 50% -10%, ${sevCfg.color}05 0%, transparent 100%)`,
+      }} />
+      {/* Subtle scan lines */}
+      <div className="fixed inset-0 pointer-events-none z-0 opacity-[0.02]" style={{
+        backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(255,255,255,0.4) 1px, rgba(255,255,255,0.4) 2px)',
+        backgroundSize: '100% 4px',
+      }} />
 
-        {/* ══════════════════════════════════════════════════════
-            01 — HERO
-            ══════════════════════════════════════════════════════ */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+        {/* ══════════════ 01 // HERO ══════════════ */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
           className="glass-card overflow-hidden relative"
         >
           <div className="absolute inset-0 pointer-events-none" style={{ background: sevCfg.gradient }} />
+          {/* Top severity bar */}
           <div className="absolute top-0 left-0 right-0 h-[3px]" style={{
-            background: `linear-gradient(90deg, transparent 2%, ${sevCfg.color}40 20%, ${sevCfg.color}60 50%, ${sevCfg.color}40 80%, transparent 98%)`,
+            background: `linear-gradient(90deg, transparent 2%, ${sevCfg.color}40 20%, ${sevCfg.color}70 50%, ${sevCfg.color}40 80%, transparent 98%)`,
           }} />
+          {/* Slow scan line */}
           <motion.div
             className="absolute left-0 right-0 h-px pointer-events-none"
-            style={{ background: `linear-gradient(90deg, transparent, ${sevCfg.color}08, transparent)` }}
+            style={{ background: `linear-gradient(90deg, transparent, ${sevCfg.color}06, transparent)` }}
             animate={{ top: ['0%', '100%'] }}
-            transition={{ duration: 12, repeat: Infinity, ease: 'linear' }}
+            transition={{ duration: 14, repeat: Infinity, ease: 'linear' }}
           />
 
-          <div className="relative z-10 p-6 sm:p-10 lg:p-14">
-            <div className="flex items-center justify-between mb-10">
+          {/* Corner targeting brackets */}
+          <div className="absolute top-5 left-5 w-8 h-8 border-t-2 border-l-2 pointer-events-none" style={{ borderColor: `${sevCfg.color}20` }} />
+          <div className="absolute top-5 right-5 w-8 h-8 border-t-2 border-r-2 pointer-events-none" style={{ borderColor: `${sevCfg.color}20` }} />
+          <div className="absolute bottom-5 left-5 w-8 h-8 border-b-2 border-l-2 pointer-events-none" style={{ borderColor: `${sevCfg.color}10` }} />
+          <div className="absolute bottom-5 right-5 w-8 h-8 border-b-2 border-r-2 pointer-events-none" style={{ borderColor: `${sevCfg.color}10` }} />
+
+          <div className="relative z-10 p-8 sm:p-12 lg:p-16">
+            {/* Navigation + severity badge */}
+            <div className="flex items-center justify-between mb-12">
               <Link href="/investigations"
                 className="flex items-center gap-2 text-zinc-500 hover:text-white transition-colors text-[11px] font-mono tracking-[0.2em] group">
                 <ArrowLeft className="w-3 h-3 group-hover:-translate-x-1 transition-transform" /> INVESTIGATIONS
               </Link>
-              <div className="flex items-center gap-2.5 px-3 py-1.5"
+              <div className="flex items-center gap-3 px-4 py-2"
                 style={{ border: `1px solid ${sevCfg.border}`, background: sevCfg.bg }}>
-                <div className="w-2 h-2 rounded-full" style={{
+                <div className="w-2 h-2" style={{
                   backgroundColor: sevCfg.color,
-                  boxShadow: `0 0 8px ${sevCfg.color}, 0 0 16px ${sevCfg.color}50`,
+                  boxShadow: `0 0 8px ${sevCfg.color}, 0 0 20px ${sevCfg.color}40`,
                   animation: 'bloodPulse 2s ease-in-out infinite',
                 }} />
-                <span className="text-[9px] font-black uppercase tracking-[0.25em]" style={{ color: sevCfg.color }}>
-                  {sevCfg.label} — LEVEL {sevCfg.level}
+                <span className="text-[9px] font-black uppercase tracking-[0.3em]" style={{ color: sevCfg.color }}>
+                  {sevCfg.label}
+                </span>
+                <div className="w-px h-3" style={{ background: `${sevCfg.color}25` }} />
+                <span className="text-[9px] font-mono text-zinc-500 tracking-widest">
+                  LVL {sevCfg.level}
                 </span>
               </div>
             </div>
 
-            <div className="flex flex-wrap items-center gap-2.5 mb-5">
-              <span className="text-[9px] font-mono text-zinc-500 uppercase tracking-[0.2em] bg-[rgba(255,255,255,0.03)] px-2.5 py-1 border border-[rgba(255,255,255,0.06)]">{investigation.category}</span>
+            {/* Category + dates */}
+            <motion.div
+              className="flex flex-wrap items-center gap-3 mb-6"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.3, duration: 0.5 }}
+            >
+              <span className="text-[9px] font-mono text-zinc-500 uppercase tracking-[0.2em] bg-[rgba(255,255,255,0.03)] px-3 py-1.5 border border-[rgba(255,255,255,0.06)]">{investigation.category}</span>
               {investigation.date && (
                 <span className="text-[10px] text-zinc-600 font-mono flex items-center gap-1.5"><Calendar className="w-3 h-3" /> {investigation.date}</span>
               )}
               {investigation.lastUpdated && (
                 <span className="text-[10px] text-zinc-700 font-mono flex items-center gap-1.5"><Clock className="w-3 h-3" /> Updated {investigation.lastUpdated}</span>
               )}
-            </div>
+            </motion.div>
 
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white uppercase leading-[0.9] tracking-tight mb-8">
+            {/* Title */}
+            <motion.h1
+              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white uppercase leading-[0.85] tracking-tight mb-10"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.15, duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+            >
               <GlitchText text={investigation.title} />
-            </h1>
+            </motion.h1>
 
             {investigation.subtitle && (
-              <p className="text-base sm:text-lg text-zinc-400 leading-relaxed max-w-4xl mb-10 font-light">{investigation.subtitle}</p>
+              <motion.p
+                className="text-lg sm:text-xl text-zinc-400 leading-relaxed max-w-4xl mb-12 font-light"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.4, duration: 0.6 }}
+              >
+                {investigation.subtitle}
+              </motion.p>
             )}
 
-            <div className="flex flex-wrap items-center gap-2">
+            {/* Hero stats with animated counters */}
+            <motion.div
+              className="flex flex-wrap items-center gap-3"
+              initial="hidden"
+              animate="visible"
+              variants={{ visible: { transition: { staggerChildren: 0.08, delayChildren: 0.5 } } }}
+            >
               {[
-                defendants.length > 0 && { v: defendants.length, l: 'Defendants', c: '#ef4444', icon: <Users className="w-3 h-3" /> },
-                affiliations.length > 0 && { v: affiliations.length, l: 'Entities', c: sevCfg.color, icon: <Building2 className="w-3 h-3" /> },
-                moneyTrail.length > 0 && { v: moneyTrail.length, l: 'Transactions', c: '#eab308', icon: <DollarSign className="w-3 h-3" /> },
-                statutes.length > 0 && { v: statutes.length, l: 'Statutes', c: '#a855f7', icon: <Scale className="w-3 h-3" /> },
-                sources.length > 0 && { v: sources.length, l: 'Sources', c: '#52525b', icon: <FileText className="w-3 h-3" /> },
+                defendants.length > 0 && { v: defendants.length, l: 'Defendants', c: '#ef4444', icon: <Users className="w-3.5 h-3.5" /> },
+                affiliations.length > 0 && { v: affiliations.length, l: 'Entities', c: sevCfg.color, icon: <Building2 className="w-3.5 h-3.5" /> },
+                moneyTrail.length > 0 && { v: moneyTrail.length, l: 'Transactions', c: '#eab308', icon: <DollarSign className="w-3.5 h-3.5" /> },
+                statutes.length > 0 && { v: statutes.length, l: 'Statutes', c: '#a855f7', icon: <Scale className="w-3.5 h-3.5" /> },
+                sources.length > 0 && { v: sources.length, l: 'Sources', c: '#71717a', icon: <FileText className="w-3.5 h-3.5" /> },
               ].filter(Boolean).map((s: any, i: number) => (
-                <div key={i} className="flex items-center gap-2 px-3 py-2 bg-[rgba(0,0,0,0.4)] border border-[rgba(255,255,255,0.04)]">
+                <motion.div
+                  key={i}
+                  className="flex items-center gap-2.5 px-4 py-3 bg-black/50 border border-[rgba(255,255,255,0.05)]"
+                  variants={{ hidden: { opacity: 0, scale: 0.9 }, visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } } }}
+                >
                   <span style={{ color: s.c }}>{s.icon}</span>
-                  <span className="text-lg font-black font-mono text-white">{s.v}</span>
-                  <span className="text-[8px] text-zinc-600 uppercase tracking-wider font-bold">{s.l}</span>
-                </div>
+                  <span className="text-2xl font-black font-mono text-white tabular-nums leading-none">
+                    <AnimatedCount value={s.v} delay={0.6 + i * 0.1} />
+                  </span>
+                  <span className="text-[8px] text-zinc-500 uppercase tracking-[0.2em] font-bold">{s.l}</span>
+                </motion.div>
               ))}
-            </div>
+            </motion.div>
           </div>
         </motion.div>
 
-        {/* ── Divider ── */}
-        <div className="my-10 sm:my-14"><GlitchDivider showLabel label="CLASSIFIED" /></div>
+        {/* Divider */}
+        <div className="my-12 sm:my-16"><GlitchDivider showLabel label="CLASSIFIED" /></div>
 
-        {/* ══════════════════════════════════════════════════════
-            02 — EXECUTIVE SUMMARY + CASE DOSSIER
-            ══════════════════════════════════════════════════════ */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-5 mb-10">
-          <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.08 }}>
-            <div className="glass-card p-6 sm:p-8 lg:p-10">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-8 h-8 flex items-center justify-center bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.12)]">
-                  <span className="text-[9px] font-mono font-bold text-red-500/60">02</span>
+        {/* ══════════════ 02 // EXECUTIVE SUMMARY + CASE DOSSIER ══════════════ */}
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-6 mb-12">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+          >
+            <div className="glass-card p-7 sm:p-10 lg:p-12 relative overflow-hidden">
+              {/* Watermark */}
+              <div className="absolute -top-6 -right-4 text-[180px] font-black leading-none select-none pointer-events-none font-mono text-white/[0.012]">02</div>
+
+              <div className="flex items-center gap-3 mb-8 relative z-10">
+                <div className="w-10 h-10 flex items-center justify-center bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.10)]">
+                  <span className="text-[10px] font-mono font-black text-red-500/50">02</span>
                 </div>
                 <FileText className="w-4 h-4 text-zinc-600" />
-                <h2 className="text-xs font-black text-white uppercase tracking-[0.2em]">Executive Summary</h2>
+                <h2 className="text-sm font-black text-white uppercase tracking-[0.2em]">Executive Summary</h2>
               </div>
-              <div className="max-w-3xl">
-                <p className="text-base sm:text-lg text-zinc-300 leading-[1.85] font-light">
-                  <span className="text-5xl sm:text-6xl font-black text-white float-left mr-4 mt-1 leading-[0.8]" style={{
-                    textShadow: `0 0 40px ${sevCfg.color}15`,
+              <div className="max-w-3xl relative z-10">
+                <p className="text-lg sm:text-xl text-zinc-300 leading-[1.9] font-light">
+                  <span className="text-6xl sm:text-7xl font-black text-white float-left mr-5 mt-1 leading-[0.75]" style={{
+                    textShadow: `0 0 60px ${sevCfg.color}12`,
                   }}>{investigation.summary.charAt(0)}</span>
                   {investigation.summary.slice(1)}
                 </p>
@@ -741,11 +951,16 @@ export default function InvestigationPage() {
             </div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.12 }}>
-            <div className="glass-card p-5 sm:p-6 lg:sticky lg:top-28">
-              <div className="flex items-center gap-2 mb-5">
-                <Fingerprint className="w-3.5 h-3.5 text-red-400/50" />
-                <h3 className="text-[10px] font-black text-white uppercase tracking-[0.25em]">Case Dossier</h3>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, delay: 0.1, ease: [0.25, 0.46, 0.45, 0.94] }}
+          >
+            <div className="glass-card p-6 sm:p-7 lg:sticky lg:top-28">
+              <div className="flex items-center gap-2.5 mb-6">
+                <Fingerprint className="w-4 h-4 text-red-400/40" />
+                <h3 className="text-[11px] font-black text-white uppercase tracking-[0.25em]">Case Dossier</h3>
               </div>
 
               {[
@@ -755,38 +970,40 @@ export default function InvestigationPage() {
                 { l: 'Event Origin', v: investigation.eventOriginDate },
                 { l: 'Last Activity', v: investigation.lastActivityDate },
               ].filter(r => r.v).map((row, i) => (
-                <div key={row.l} className={`flex justify-between items-center py-2 ${i > 0 ? 'border-t border-white/[0.03]' : ''}`}>
-                  <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider">{row.l}</span>
-                  <span className="text-zinc-400 font-mono text-[11px]">{row.v}</span>
+                <div key={row.l} className={`flex justify-between items-center py-2.5 ${i > 0 ? 'border-t border-white/[0.03]' : ''}`}>
+                  <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-[0.15em]">{row.l}</span>
+                  <span className="text-zinc-400 font-mono text-[11px] tabular-nums">{row.v}</span>
                 </div>
               ))}
-              <div className="flex justify-between items-center py-2 border-t border-white/[0.03]">
-                <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider">Severity</span>
-                <span className="text-[11px] font-black uppercase tracking-wider" style={{ color: sevCfg.color }}>{sev}</span>
+              <div className="flex justify-between items-center py-2.5 border-t border-white/[0.03]">
+                <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-[0.15em]">Severity</span>
+                <span className="text-[11px] font-black uppercase tracking-[0.15em]" style={{ color: sevCfg.color }}>{sev}</span>
               </div>
-              <div className="flex justify-between items-center py-2 border-t border-white/[0.03]">
-                <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider">Category</span>
+              <div className="flex justify-between items-center py-2.5 border-t border-white/[0.03]">
+                <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-[0.15em]">Category</span>
                 <span className="text-zinc-400 text-[11px]">{investigation.category}</span>
               </div>
 
-              <div className="grid grid-cols-3 gap-2 mt-5 pt-4 border-t border-white/[0.04]">
+              <div className="grid grid-cols-3 gap-2.5 mt-6 pt-5 border-t border-white/[0.04]">
                 {[
                   { v: affiliations.length, l: 'Entities', c: sevCfg.color },
                   { v: defendants.length, l: 'Defendants', c: '#ef4444' },
                   { v: moneyTrail.length, l: 'Txns', c: '#eab308' },
                 ].map((stat, i) => (
-                  <div key={i} className="text-center py-2 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.04)]">
-                    <div className="text-lg font-black font-mono text-white">{stat.v}</div>
-                    <div className="text-[7px] text-zinc-600 uppercase font-bold tracking-wider mt-0.5">{stat.l}</div>
+                  <div key={i} className="text-center py-3 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.04)]">
+                    <div className="text-xl font-black font-mono text-white tabular-nums">
+                      <AnimatedCount value={stat.v} delay={0.2 + i * 0.1} />
+                    </div>
+                    <div className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] mt-1">{stat.l}</div>
                   </div>
                 ))}
               </div>
 
               {investigation.tags?.length > 0 && (
-                <div className="mt-4 pt-4 border-t border-white/[0.04] flex flex-wrap gap-1">
+                <div className="mt-5 pt-5 border-t border-white/[0.04] flex flex-wrap gap-1.5">
                   {investigation.tags.map((tag: string, idx: number) => (
                     <Link key={idx} href={`/investigations?tag=${encodeURIComponent(tag)}`}
-                      className="px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.05)] text-zinc-500 hover:text-zinc-300 hover:border-[rgba(184,0,0,0.20)] transition-all">
+                      className="px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.05)] text-zinc-500 hover:text-zinc-300 hover:border-[rgba(184,0,0,0.20)] transition-all duration-200">
                       {tag}
                     </Link>
                   ))}
@@ -796,13 +1013,17 @@ export default function InvestigationPage() {
           </motion.div>
         </div>
 
-        {/* ══════════════════════════════════════════════════════
-            03 — DEFENDANTS (moved up — who did this?)
-            ══════════════════════════════════════════════════════ */}
+        {/* ══════════════ 03 // DEFENDANTS ══════════════ */}
         {defendants.length > 0 && (
           <>
-            <div className="my-10 sm:my-14"><GlitchDivider showLabel label="PERSONS OF INTEREST" /></div>
-            <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.14 }} className="mb-10">
+            <div className="my-12 sm:my-16"><GlitchDivider showLabel label="PERSONS OF INTEREST" /></div>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-80px' }}
+              transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+              className="mb-12"
+            >
               <CollapsibleGlass
                 number="03" title="Defendants & Charges" icon={<Gavel className="w-4 h-4" />}
                 count={defendants.length} accentColor="#ef4444"
@@ -822,28 +1043,36 @@ export default function InvestigationPage() {
                   </div>
                 }
               >
-                <div className="space-y-3">
+                <motion.div
+                  className="space-y-4"
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={staggerContainer}
+                >
                   {defendants.map((def: any, idx: number) => {
                     const st = statusColors[def.status] || statusColors.pending;
                     return (
-                      <div key={idx} className="bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.05)] overflow-hidden hover:border-[rgba(184,0,0,0.15)] transition-all duration-300">
-                        <div className="h-[3px] w-full" style={{ background: `linear-gradient(90deg, ${st.dot}, ${st.dot}50, transparent)` }} />
-                        <div className="p-5 sm:p-6">
-                          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-4">
+                      <motion.div key={idx} variants={fadeSlideLeft}
+                        className="bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] overflow-hidden hover:border-[rgba(184,0,0,0.18)] transition-all duration-300 group">
+                        {/* Status bar at top */}
+                        <div className="h-[3px] w-full" style={{ background: `linear-gradient(90deg, ${st.dot}, ${st.dot}40, transparent)` }} />
+                        <div className="p-6 sm:p-7">
+                          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-5">
                             <div>
                               <Link href={`/entities/individuals/${slugifyName(def.name)}`}
-                                className="text-lg sm:text-xl font-black text-white hover:text-red-400 transition-colors uppercase tracking-wide">
+                                className="text-xl sm:text-2xl font-black text-white hover:text-red-400 transition-colors uppercase tracking-wide leading-tight">
                                 {def.name}
                               </Link>
-                              <p className="text-sm text-zinc-500 mt-1">{def.role}</p>
+                              <p className="text-sm text-zinc-500 mt-1.5">{def.role}</p>
                             </div>
                             <div className="flex items-center gap-2 flex-shrink-0">
-                              <div className="flex items-center gap-2 px-3 py-1.5" style={{ background: st.bg, borderLeft: `3px solid ${st.dot}` }}>
-                                <div className="w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: st.dot, boxShadow: `0 0 6px ${st.dot}` }} />
+                              <div className="flex items-center gap-2 px-4 py-2" style={{ background: st.bg, borderLeft: `3px solid ${st.dot}` }}>
+                                <div className="w-2 h-2 animate-pulse" style={{ backgroundColor: st.dot, boxShadow: `0 0 8px ${st.dot}` }} />
                                 <span className="text-[10px] font-black uppercase tracking-[0.15em]" style={{ color: st.text }}>{def.status}</span>
                               </div>
                               {def.appealStatus && (
-                                <span className="text-[8px] font-mono font-bold px-2 py-1 bg-blue-500/[0.06] border border-blue-500/15 text-blue-400/70 uppercase">
+                                <span className="text-[8px] font-mono font-bold px-2 py-1.5 bg-blue-500/[0.06] border border-blue-500/15 text-blue-400/70 uppercase tracking-wider">
                                   Appeal: {def.appealStatus}
                                 </span>
                               )}
@@ -851,13 +1080,13 @@ export default function InvestigationPage() {
                           </div>
 
                           {def.charges?.length > 0 && (
-                            <div className="mb-4">
-                              <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-[0.2em] block mb-2">Charges</span>
-                              <div className="space-y-1">
+                            <div className="mb-5">
+                              <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-3">Charges</span>
+                              <div className="space-y-1.5">
                                 {def.charges.map((charge: string, ci: number) => (
-                                  <div key={ci} className="flex items-start gap-2">
-                                    <span className="text-[9px] font-mono text-red-500/30 mt-0.5 flex-shrink-0">{ci + 1}.</span>
-                                    <span className="text-sm text-zinc-300">{charge}</span>
+                                  <div key={ci} className="flex items-start gap-3 py-1.5 px-3 bg-[rgba(255,255,255,0.01)] border-l-2 border-l-red-500/15">
+                                    <span className="text-[10px] font-mono text-red-500/30 mt-0.5 flex-shrink-0 tabular-nums">{String(ci + 1).padStart(2, '0')}</span>
+                                    <span className="text-sm text-zinc-300 leading-relaxed">{charge}</span>
                                   </div>
                                 ))}
                               </div>
@@ -865,47 +1094,47 @@ export default function InvestigationPage() {
                           )}
 
                           {(def.sentence || def.fine || def.restitution || def.indictmentDate || def.convictionDate || def.releaseDate || def.pardonDate) && (
-                            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 pt-4 border-t border-white/[0.04]">
+                            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 pt-5 border-t border-white/[0.04]">
                               {def.sentence && (
                                 <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] block mb-1">Sentence</span>
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Sentence</span>
                                   <span className="text-sm text-zinc-200 font-bold">{def.sentence}</span>
                                 </div>
                               )}
                               {def.fine && (
                                 <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] block mb-1">Fine</span>
-                                  <span className="text-xl font-black font-mono text-yellow-400/80">{def.fine}</span>
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Fine</span>
+                                  <span className="text-xl font-black font-mono text-yellow-400/80 tabular-nums">{def.fine}</span>
                                 </div>
                               )}
                               {def.restitution && (
                                 <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] block mb-1">Restitution</span>
-                                  <span className="text-xl font-black font-mono text-yellow-400/80">{def.restitution}</span>
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Restitution</span>
+                                  <span className="text-xl font-black font-mono text-yellow-400/80 tabular-nums">{def.restitution}</span>
                                 </div>
                               )}
                               {def.indictmentDate && (
                                 <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] block mb-1">Indicted</span>
-                                  <span className="text-[11px] text-zinc-400 font-mono">{def.indictmentDate}</span>
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Indicted</span>
+                                  <span className="text-[11px] text-zinc-400 font-mono tabular-nums">{def.indictmentDate}</span>
                                 </div>
                               )}
                               {def.convictionDate && (
                                 <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] block mb-1">Convicted</span>
-                                  <span className="text-[11px] text-zinc-400 font-mono">{def.convictionDate}</span>
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Convicted</span>
+                                  <span className="text-[11px] text-zinc-400 font-mono tabular-nums">{def.convictionDate}</span>
                                 </div>
                               )}
                               {def.releaseDate && (
                                 <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] block mb-1">Released</span>
-                                  <span className="text-[11px] text-zinc-400 font-mono">{def.releaseDate}</span>
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Released</span>
+                                  <span className="text-[11px] text-zinc-400 font-mono tabular-nums">{def.releaseDate}</span>
                                 </div>
                               )}
                               {def.pardonDate && (
                                 <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] block mb-1">Pardoned</span>
-                                  <span className="text-[11px] text-zinc-400 font-mono">{def.pardonDate}</span>
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Pardoned</span>
+                                  <span className="text-[11px] text-zinc-400 font-mono tabular-nums">{def.pardonDate}</span>
                                   {def.pardonedBy && <span className="text-[9px] text-purple-400/50 block mt-0.5">by {def.pardonedBy}</span>}
                                 </div>
                               )}
@@ -913,61 +1142,80 @@ export default function InvestigationPage() {
                           )}
 
                           {def.notes && (
-                            <p className="text-[10px] text-zinc-600 mt-3 pt-3 border-t border-white/[0.03] italic leading-relaxed">{def.notes}</p>
+                            <p className="text-[10px] text-zinc-600 mt-4 pt-4 border-t border-white/[0.03] italic leading-[1.8]">{def.notes}</p>
                           )}
                         </div>
-                      </div>
+                      </motion.div>
                     );
                   })}
-                </div>
+                </motion.div>
               </CollapsibleGlass>
             </motion.div>
           </>
         )}
 
-        {/* ══════════════════════════════════════════════════════
-            04 — APPLICABLE LAWS & STATUTES (moved up — what laws did they break?)
-            ══════════════════════════════════════════════════════ */}
+        {/* ══════════════ 04 // APPLICABLE LAWS & STATUTES ══════════════ */}
         {statutes.length > 0 && (
-          <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.16 }} className="mb-10">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+            className="mb-12"
+          >
             <CollapsibleGlass
               number="04" title="Applicable Laws & Statutes" icon={<Scale className="w-4 h-4" />}
               count={statutes.length} accentColor="#a855f7"
             >
-              <div className="space-y-1">
+              <motion.div
+                className="space-y-1.5"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={staggerContainer}
+              >
                 {statutes.map((statute: { code: string; description?: string }, idx: number) => (
-                  <div key={idx} className="flex items-start gap-4 p-3.5 bg-[rgba(255,255,255,0.015)] border-l-[3px] border-l-purple-500/20 hover:border-l-purple-500/40 hover:bg-[rgba(255,255,255,0.03)] transition-all">
-                    <BookOpen className="w-3.5 h-3.5 text-purple-400/40 flex-shrink-0 mt-0.5" />
+                  <motion.div key={idx} variants={fadeSlideUp}
+                    className="flex items-start gap-4 p-4 bg-[rgba(255,255,255,0.012)] border-l-[3px] border-l-purple-500/20 hover:border-l-purple-500/50 hover:bg-[rgba(255,255,255,0.03)] transition-all duration-300">
+                    <BookOpen className="w-4 h-4 text-purple-400/30 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-sm font-bold text-zinc-200">{statute.code}</p>
-                      {statute.description && <p className="text-[10px] text-zinc-500 leading-relaxed mt-0.5">{statute.description}</p>}
+                      <p className="text-[15px] font-bold text-zinc-200 leading-snug">{statute.code}</p>
+                      {statute.description && <p className="text-[11px] text-zinc-500 leading-[1.7] mt-1">{statute.description}</p>}
                     </div>
-                  </div>
+                  </motion.div>
                 ))}
-              </div>
+              </motion.div>
             </CollapsibleGlass>
           </motion.div>
         )}
 
-        {/* ══════════════════════════════════════════════════════
-            05 — ACCOUNTABILITY ENGINE (after who + what laws = now act)
-            ══════════════════════════════════════════════════════ */}
+        {/* ══════════════ 05 // ACCOUNTABILITY ENGINE ══════════════ */}
         {accountabilityContent && (
           <>
-            <div className="my-10 sm:my-14"><GlitchDivider showLabel label="COUNTERMEASURES" /></div>
-            <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.18 }} className="mb-10">
+            <div className="my-12 sm:my-16"><GlitchDivider showLabel label="COUNTERMEASURES" /></div>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-80px' }}
+              transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+              className="mb-12"
+            >
               <AccountabilityEngine content={accountabilityContent} slug={slug} investigation={investigation} />
             </motion.div>
           </>
         )}
 
-        {/* ══════════════════════════════════════════════════════
-            06 — FULL INVESTIGATION (the evidence)
-            ══════════════════════════════════════════════════════ */}
+        {/* ══════════════ 06 // FULL INVESTIGATION ══════════════ */}
         {mainContent?.length > 0 && (
-          <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="mb-10">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+            className="mb-12"
+          >
             <CollapsibleGlass number="06" title="Full Investigation" icon={<FileText className="w-4 h-4" />}>
-              <div className="max-w-4xl space-y-6">
+              <div className="max-w-4xl space-y-7">
                 {mainContent.map((paragraph: string, idx: number) => {
                   const colonIdx = paragraph.indexOf(':');
                   const hasHeader = colonIdx > 0 && colonIdx < 60
@@ -978,19 +1226,19 @@ export default function InvestigationPage() {
                     const heading = paragraph.substring(0, colonIdx);
                     const body = paragraph.substring(colonIdx + 1).trim();
                     return (
-                      <div key={idx} className="mt-8 first:mt-0">
-                        <div className="bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.04)] p-5 sm:p-6"
+                      <div key={idx} className="mt-10 first:mt-0">
+                        <div className="bg-[rgba(255,255,255,0.012)] border border-[rgba(255,255,255,0.04)] p-6 sm:p-8"
                           style={{ borderLeftWidth: 3, borderLeftColor: `${sevCfg.color}30` }}>
-                          <h3 className="text-[10px] font-black uppercase tracking-[0.25em] mb-4" style={{ color: sevCfg.color }}>{heading}</h3>
-                          <p className="text-[15px] text-zinc-300 leading-[1.85]">{body}</p>
+                          <h3 className="text-[11px] font-black uppercase tracking-[0.25em] mb-5" style={{ color: sevCfg.color }}>{heading}</h3>
+                          <p className="text-[15px] text-zinc-300 leading-[1.9]">{body}</p>
                         </div>
                       </div>
                     );
                   }
 
                   return (
-                    <p key={idx} className={`leading-[1.85] ${
-                      idx === 0 ? 'text-base text-zinc-200 font-light' : 'text-[15px] text-zinc-400'
+                    <p key={idx} className={`leading-[1.9] ${
+                      idx === 0 ? 'text-lg text-zinc-200 font-light' : 'text-[15px] text-zinc-400'
                     }`}>{paragraph}</p>
                   );
                 })}
@@ -999,13 +1247,17 @@ export default function InvestigationPage() {
           </motion.div>
         )}
 
-        {/* ══════════════════════════════════════════════════════
-            07 — MONEY TRAIL
-            ══════════════════════════════════════════════════════ */}
+        {/* ══════════════ 07 // MONEY TRAIL ══════════════ */}
         {moneyTrail.length > 0 && (
           <>
-            <div className="my-10 sm:my-14"><GlitchDivider showLabel label="FOLLOW THE MONEY" /></div>
-            <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.22 }} className="mb-10">
+            <div className="my-12 sm:my-16"><GlitchDivider showLabel label="FOLLOW THE MONEY" /></div>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-80px' }}
+              transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+              className="mb-12"
+            >
               <CollapsibleGlass
                 number="07" title="Money Trail" icon={<DollarSign className="w-4 h-4" />}
                 count={moneyTrail.length} accentColor="#eab308"
@@ -1015,61 +1267,75 @@ export default function InvestigationPage() {
                     : undefined
                 }
               >
-                {/* Header row */}
-                <div className="hidden lg:grid grid-cols-[80px_1fr_28px_1fr_1fr_120px] gap-3 px-4 py-2 text-[8px] font-mono text-zinc-600 uppercase tracking-wider mb-1 border-b border-white/[0.03]">
+                {/* Table header */}
+                <div className="hidden lg:grid grid-cols-[85px_1fr_30px_1fr_1fr_130px] gap-3 px-5 py-3 text-[8px] font-mono text-zinc-600 uppercase tracking-[0.2em] mb-2 border-b border-white/[0.04]">
                   <span>Date</span><span>From</span><span /><span>To</span><span>Purpose</span><span className="text-right">Amount</span>
                 </div>
 
-                <div className="space-y-0">
+                <motion.div
+                  className="space-y-0"
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={{ visible: { transition: { staggerChildren: 0.04 } } }}
+                >
                   {moneyTrail.map((item: any, idx: number) => (
-                    <div key={idx} className={`p-3.5 sm:p-4 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
-                      idx % 2 === 0 ? 'bg-[rgba(255,255,255,0.015)]' : 'bg-transparent'
-                    } border-b border-white/[0.02] hover:border-yellow-500/[0.06]`}>
+                    <motion.div
+                      key={idx}
+                      variants={{ hidden: { opacity: 0, x: idx % 2 === 0 ? -8 : 8 }, visible: { opacity: 1, x: 0, transition: { duration: 0.4 } } }}
+                      className={`p-4 sm:p-5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
+                        idx % 2 === 0 ? 'bg-[rgba(255,255,255,0.012)]' : 'bg-transparent'
+                      } border-b border-white/[0.02] hover:border-yellow-500/[0.08]`}
+                    >
                       {/* Desktop */}
-                      <div className="hidden lg:grid grid-cols-[80px_1fr_28px_1fr_1fr_120px] gap-3 items-center">
-                        <span className="text-[10px] font-mono text-zinc-600">{item.date}</span>
+                      <div className="hidden lg:grid grid-cols-[85px_1fr_30px_1fr_1fr_130px] gap-3 items-center">
+                        <span className="text-[10px] font-mono text-zinc-600 tabular-nums">{item.date}</span>
                         <span className="text-sm text-zinc-300 truncate">{item.from}</span>
-                        <ArrowRight className="w-3 h-3 text-yellow-500/25 mx-auto" />
+                        <ArrowRight className="w-3 h-3 text-yellow-500/20 mx-auto" />
                         <span className="text-sm text-zinc-300 truncate">{item.to}</span>
                         <span className="text-[10px] text-zinc-500 truncate">{item.purpose}</span>
-                        <div className="text-right flex items-center justify-end gap-1.5">
-                          <span className="text-lg font-black font-mono text-yellow-400/90">{item.amount}</span>
-                          {!item.documented && <span className="text-[6px] text-yellow-600/40 uppercase font-bold px-1 py-0.5 bg-yellow-500/[0.04] border border-yellow-500/8">!</span>}
+                        <div className="text-right flex items-center justify-end gap-2">
+                          <span className="text-lg font-black font-mono text-yellow-400/90 tabular-nums">{item.amount}</span>
+                          {!item.documented && <span className="text-[6px] text-yellow-600/40 uppercase font-bold px-1 py-0.5 bg-yellow-500/[0.04] border border-yellow-500/10">!</span>}
                         </div>
                       </div>
                       {/* Mobile */}
-                      <div className="lg:hidden space-y-1.5">
+                      <div className="lg:hidden space-y-2">
                         <div className="flex items-center justify-between">
-                          <span className="text-[10px] font-mono text-zinc-600">{item.date}</span>
-                          <span className="text-lg font-black font-mono text-yellow-400/90">{item.amount}</span>
+                          <span className="text-[10px] font-mono text-zinc-600 tabular-nums">{item.date}</span>
+                          <span className="text-lg font-black font-mono text-yellow-400/90 tabular-nums">{item.amount}</span>
                         </div>
                         <div className="flex items-center gap-2 text-sm">
                           <span className="text-zinc-300 truncate">{item.from}</span>
-                          <ArrowRight className="w-3 h-3 text-yellow-500/25 flex-shrink-0" />
+                          <ArrowRight className="w-3 h-3 text-yellow-500/20 flex-shrink-0" />
                           <span className="text-zinc-300 truncate">{item.to}</span>
                         </div>
                         {item.purpose && <p className="text-[10px] text-zinc-500">{item.purpose}</p>}
                       </div>
-                    </div>
+                    </motion.div>
                   ))}
-                </div>
+                </motion.div>
               </CollapsibleGlass>
             </motion.div>
           </>
         )}
 
-        {/* ══════════════════════════════════════════════════════
-            08 — CONNECTED ENTITIES
-            ══════════════════════════════════════════════════════ */}
+        {/* ══════════════ 08 // CONNECTED ENTITIES ══════════════ */}
         {affiliations.length > 0 && (
           <>
-            <div className="my-10 sm:my-14"><GlitchDivider showLabel label="THE NETWORK" /></div>
-            <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.24 }} className="mb-10">
+            <div className="my-12 sm:my-16"><GlitchDivider showLabel label="THE NETWORK" /></div>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-80px' }}
+              transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+              className="mb-12"
+            >
               <CollapsibleGlass
                 number="08" title="Connected Entities" icon={<Users className="w-4 h-4" />}
                 count={affiliations.length}
                 badge={
-                  <div className="flex items-center gap-1">
+                  <div className="flex items-center gap-1.5">
                     {entityGroups.map(g => (
                       <span key={g.type} className="text-[8px] font-mono font-bold px-1.5 py-0.5"
                         style={{ color: g.config.color, background: g.config.bg, border: `1px solid ${g.config.color}15` }}>
@@ -1079,43 +1345,53 @@ export default function InvestigationPage() {
                   </div>
                 }
               >
-                <div className="space-y-6">
+                <div className="space-y-8">
                   {entityGroups.map(group => {
                     const TypeIcon = group.config.icon;
                     const plural = group.type === 'agency' ? 'Agencies' : group.type === 'corporation' ? 'Corporations' : group.type === 'individual' ? 'Individuals' : 'Organizations';
                     return (
                       <div key={group.type}>
-                        <div className="flex items-center gap-2 mb-3">
-                          <TypeIcon className="w-3 h-3" style={{ color: group.config.color }} />
-                          <span className="text-[10px] font-black uppercase tracking-[0.25em]" style={{ color: group.config.color }}>{plural}</span>
+                        <div className="flex items-center gap-3 mb-4">
+                          <TypeIcon className="w-3.5 h-3.5" style={{ color: group.config.color }} />
+                          <span className="text-[11px] font-black uppercase tracking-[0.25em]" style={{ color: group.config.color }}>{plural}</span>
                           <div className="flex-1 h-px ml-2" style={{ background: `${group.config.color}10` }} />
+                          <span className="text-[9px] font-mono" style={{ color: `${group.config.color}40` }}>{group.items.length}</span>
                         </div>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2">
+                        <motion.div
+                          className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2.5"
+                          initial="hidden"
+                          whileInView="visible"
+                          viewport={{ once: true }}
+                          variants={staggerContainer}
+                        >
                           {group.items.map((aff: any, idx: number) => (
-                            <div key={idx}
-                              className="bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.05)] p-3.5 transition-all duration-300 hover:border-[rgba(184,0,0,0.15)] hover:bg-[rgba(255,255,255,0.03)] group/card"
-                              style={{ borderLeftWidth: 3, borderLeftColor: `${group.config.color}30` }}>
-                              <div className="flex items-start justify-between gap-2 mb-1">
+                            <motion.div key={idx}
+                              variants={fadeSlideUp}
+                              className="bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] p-4 transition-all duration-300 hover:bg-[rgba(255,255,255,0.03)] group/card relative overflow-hidden"
+                              style={{ borderLeftWidth: 3, borderLeftColor: `${group.config.color}25` }}
+                              whileHover={{ borderLeftColor: group.config.color }}
+                            >
+                              <div className="flex items-start justify-between gap-2 mb-1.5">
                                 {aff.href ? (
-                                  <Link href={aff.href} className="font-bold text-sm text-zinc-200 hover:text-white transition-colors block truncate">{aff.name}</Link>
+                                  <Link href={aff.href} className="font-bold text-[14px] text-zinc-200 hover:text-white transition-colors block truncate leading-snug">{aff.name}</Link>
                                 ) : (
-                                  <span className="font-bold text-sm text-zinc-200 block truncate">{aff.name}</span>
+                                  <span className="font-bold text-[14px] text-zinc-200 block truncate leading-snug">{aff.name}</span>
                                 )}
                                 <span className="text-[7px] px-1.5 py-0.5 font-bold uppercase tracking-wider flex-shrink-0"
                                   style={{ color: group.config.color, background: group.config.bg, border: `1px solid ${group.config.color}15` }}>
                                   {group.config.label}
                                 </span>
                               </div>
-                              <p className="text-[10px] text-zinc-500 leading-relaxed line-clamp-2">{aff.relationship}</p>
+                              <p className="text-[10px] text-zinc-500 leading-[1.7] line-clamp-2">{aff.relationship}</p>
                               {aff.href && (
                                 <Link href={aff.href}
-                                  className="inline-flex items-center gap-1 mt-2 text-[9px] text-zinc-700 hover:text-red-400 transition-colors font-mono opacity-0 group-hover/card:opacity-100">
+                                  className="inline-flex items-center gap-1 mt-2.5 text-[9px] text-zinc-700 hover:text-red-400 transition-all font-mono opacity-0 group-hover/card:opacity-100 duration-200">
                                   View Profile <ArrowUpRight className="w-2.5 h-2.5" />
                                 </Link>
                               )}
-                            </div>
+                            </motion.div>
                           ))}
-                        </div>
+                        </motion.div>
                       </div>
                     );
                   })}
@@ -1125,18 +1401,25 @@ export default function InvestigationPage() {
           </>
         )}
 
-        {/* ══════════════════════════════════════════════════════
-            09 — NETWORK ANALYSIS
-            ══════════════════════════════════════════════════════ */}
+        {/* ══════════════ 09 // NETWORK ANALYSIS ══════════════ */}
         {(defendants.length > 0 || affiliations.length > 0) && (
-          <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.26 }} className="mb-10">
-            <div className="glass-card p-6 sm:p-8">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-8 h-8 flex items-center justify-center bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.12)]">
-                  <span className="text-[9px] font-mono font-bold text-red-500/60">09</span>
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+            className="mb-12"
+          >
+            <div className="glass-card p-7 sm:p-10 relative overflow-hidden">
+              {/* Watermark */}
+              <div className="absolute -top-6 -right-4 text-[160px] font-black leading-none select-none pointer-events-none font-mono text-white/[0.012]">09</div>
+
+              <div className="flex items-center gap-3 mb-8 relative z-10">
+                <div className="w-10 h-10 flex items-center justify-center bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.10)]">
+                  <span className="text-[10px] font-mono font-black text-red-500/50">09</span>
                 </div>
-                <TrendingUp className="w-4 h-4 text-zinc-600" />
-                <h2 className="text-xs font-black text-white uppercase tracking-[0.2em]">Network Analysis</h2>
+                <Eye className="w-4 h-4 text-zinc-600" />
+                <h2 className="text-sm font-black text-white uppercase tracking-[0.2em]">Network Analysis</h2>
               </div>
               <NetworkTree investigation={{
                 title: investigation.title, slug,
@@ -1150,79 +1433,110 @@ export default function InvestigationPage() {
           </motion.div>
         )}
 
-        {/* ══════════════════════════════════════════════════════
-            10 — TIMELINE
-            ══════════════════════════════════════════════════════ */}
+        {/* ══════════════ 10 // TIMELINE ══════════════ */}
         {timeline.length > 0 && (
-          <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.28 }} className="mb-10">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+            className="mb-12"
+          >
             <CollapsibleGlass
               number="10" title="Timeline" icon={<Calendar className="w-4 h-4" />}
               count={timeline.length} defaultOpen={timeline.length <= 25}
             >
-              <div className="relative pl-6">
+              <div className="relative pl-8">
                 <div className="absolute left-[3px] top-2 bottom-2 w-px" style={{
-                  background: `linear-gradient(to bottom, ${sevCfg.color}25, ${sevCfg.color}06)`,
+                  background: `linear-gradient(to bottom, ${sevCfg.color}30, ${sevCfg.color}06)`,
                 }} />
 
-                {timeline.map((item: any, idx: number) => {
-                  const typeColors: Record<string, string> = {
-                    critical: '#ef4444', legal: '#a855f7', political: '#8b5cf6', financial: '#eab308', default: '#27272a',
-                  };
-                  const dotColor = typeColors[item.type || 'default'] || typeColors.default;
-                  const isMajor = item.type === 'critical' || item.type === 'legal';
+                <motion.div
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: true }}
+                  variants={{ visible: { transition: { staggerChildren: 0.03 } } }}
+                >
+                  {timeline.map((item: any, idx: number) => {
+                    const typeColors: Record<string, string> = {
+                      critical: '#ef4444', legal: '#a855f7', political: '#8b5cf6', financial: '#eab308', default: '#27272a',
+                    };
+                    const dotColor = typeColors[item.type || 'default'] || typeColors.default;
+                    const isMajor = item.type === 'critical' || item.type === 'legal';
 
-                  return (
-                    <div key={idx} className={`relative flex items-start gap-4 py-2.5 ${
-                      isMajor ? '' : 'opacity-70 hover:opacity-100 transition-opacity'
-                    }`}>
-                      <div className="absolute -left-6 mt-[7px]">
-                        <div className={`rounded-full ${isMajor ? 'w-[8px] h-[8px]' : 'w-[6px] h-[6px]'}`}
-                          style={{
-                            backgroundColor: dotColor,
-                            boxShadow: isMajor ? `0 0 8px ${dotColor}40, 0 0 16px ${dotColor}15` : 'none',
-                            marginLeft: isMajor ? '-1px' : '0',
-                          }}
-                        />
-                      </div>
-                      <span className="text-[9px] text-zinc-600 font-mono w-24 flex-shrink-0 pt-0.5 tabular-nums">{item.date}</span>
-                      <div className="flex-1 min-w-0">
-                        <p className={`text-sm leading-relaxed ${isMajor ? 'text-zinc-100 font-medium' : 'text-zinc-500'}`}>{item.event}</p>
-                        {item.type && item.type !== 'default' && (
-                          <span className="text-[7px] font-mono uppercase tracking-wider mt-0.5 inline-block" style={{ color: `${dotColor}50` }}>{item.type}</span>
-                        )}
-                      </div>
-                    </div>
-                  );
-                })}
+                    return (
+                      <motion.div
+                        key={idx}
+                        className={`relative flex items-start gap-5 py-3 ${
+                          isMajor ? '' : 'opacity-60 hover:opacity-100 transition-opacity duration-300'
+                        }`}
+                        variants={{ hidden: { opacity: 0, x: -10 }, visible: { opacity: isMajor ? 1 : 0.6, x: 0, transition: { duration: 0.35 } } }}
+                      >
+                        <div className="absolute -left-8 mt-[7px]">
+                          <div className={`${isMajor ? 'w-[9px] h-[9px]' : 'w-[6px] h-[6px]'}`}
+                            style={{
+                              backgroundColor: dotColor,
+                              boxShadow: isMajor ? `0 0 10px ${dotColor}50, 0 0 20px ${dotColor}20` : 'none',
+                              marginLeft: isMajor ? '-1.5px' : '0',
+                            }}
+                          />
+                        </div>
+                        <span className="text-[9px] text-zinc-600 font-mono w-24 flex-shrink-0 pt-0.5 tabular-nums">{item.date}</span>
+                        <div className="flex-1 min-w-0">
+                          <p className={`text-sm leading-[1.7] ${isMajor ? 'text-zinc-100 font-medium' : 'text-zinc-500'}`}>{item.event}</p>
+                          {item.type && item.type !== 'default' && (
+                            <span className="text-[7px] font-mono uppercase tracking-[0.2em] mt-0.5 inline-block" style={{ color: `${dotColor}45` }}>{item.type}</span>
+                          )}
+                        </div>
+                      </motion.div>
+                    );
+                  })}
+                </motion.div>
               </div>
             </CollapsibleGlass>
           </motion.div>
         )}
 
-        {/* ══════════════════════════════════════════════════════
-            11 — SOURCES & DOCUMENTATION
-            ══════════════════════════════════════════════════════ */}
+        {/* ══════════════ 11 // SOURCES & DOCUMENTATION ══════════════ */}
         {sources.length > 0 && (
-          <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }} className="mb-10">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+            className="mb-12"
+          >
             <CollapsibleGlass
               number="11" title="Sources & Documentation" icon={<ExternalLink className="w-4 h-4" />}
               count={sources.length} defaultOpen={sources.length <= 20}
             >
-              <div className="space-y-0">
+              <motion.div
+                className="space-y-0"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={{ visible: { transition: { staggerChildren: 0.025 } } }}
+              >
                 {sources.map((source: any, idx: number) => (
-                  <a key={idx} href={source.url} target="_blank" rel="noopener noreferrer"
-                    className={`group flex items-start gap-3 p-3 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
+                  <motion.a
+                    key={idx}
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`group flex items-start gap-4 p-3.5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
                       idx % 2 === 0 ? 'bg-[rgba(255,255,255,0.01)]' : ''
-                    } border-b border-white/[0.02]`}>
-                    <span className="text-[9px] text-zinc-700 font-mono mt-0.5 flex-shrink-0 w-5 text-right tabular-nums">{idx + 1}</span>
+                    } border-b border-white/[0.02]`}
+                    variants={fadeSlideUp}
+                  >
+                    <span className="text-[9px] text-zinc-700 font-mono mt-0.5 flex-shrink-0 w-6 text-right tabular-nums">{idx + 1}</span>
                     <div className="min-w-0 flex-1">
                       <span className="text-sm text-zinc-400 group-hover:text-zinc-200 transition-colors block truncate leading-snug">{source.title}</span>
-                      <span className="text-[8px] text-zinc-700 font-mono uppercase tracking-wider mt-0.5 block">{source.type}</span>
+                      <span className="text-[8px] text-zinc-700 font-mono uppercase tracking-[0.15em] mt-0.5 block">{source.type}</span>
                     </div>
-                    <ExternalLink className="w-3 h-3 text-zinc-800 group-hover:text-red-400 transition-colors mt-0.5 flex-shrink-0" />
-                  </a>
+                    <ExternalLink className="w-3.5 h-3.5 text-zinc-800 group-hover:text-red-400 transition-colors mt-0.5 flex-shrink-0" />
+                  </motion.a>
                 ))}
-              </div>
+              </motion.div>
             </CollapsibleGlass>
           </motion.div>
         )}
