@@ -320,7 +320,7 @@ function CollapsibleGlass({
 
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center gap-3 p-5 sm:p-7 cursor-pointer select-none group relative z-10"
+        className="w-full flex items-center gap-3 p-3.5 sm:p-5 cursor-pointer select-none group relative z-10"
       >
         <div className="flex items-center justify-center w-10 h-10 flex-shrink-0 relative"
           style={{
@@ -351,7 +351,7 @@ function CollapsibleGlass({
 
       {/* Animated accent line below header */}
       <motion.div
-        className="h-px mx-5 sm:mx-7"
+        className="h-px mx-3.5 sm:mx-5"
         style={{ background: `linear-gradient(90deg, ${accent}, transparent 80%)`, transformOrigin: 'left' }}
         initial={{ scaleX: 0, opacity: 0 }}
         animate={{ scaleX: isOpen ? 1 : 0, opacity: isOpen ? 1 : 0 }}
@@ -367,7 +367,7 @@ function CollapsibleGlass({
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="overflow-hidden"
           >
-            <div className="px-5 sm:px-7 pb-7 pt-6">
+            <div className="px-3.5 sm:px-5 pb-5 pt-4">
               {children}
             </div>
           </motion.div>
@@ -461,7 +461,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
   ];
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-3">
       {/* ENGINE COMMAND HEADER */}
       <div className="glass-card overflow-hidden relative">
         <div className="absolute inset-0 pointer-events-none" style={{
@@ -479,8 +479,8 @@ function AccountabilityEngine({ content, slug, investigation }: {
           backgroundImage: 'repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(255,255,255,0.5) 3px, rgba(255,255,255,0.5) 4px)',
         }} />
 
-        <div className="relative z-10 p-7 sm:p-10 lg:p-12">
-          <div className="flex flex-col sm:flex-row sm:items-start gap-6 mb-8">
+        <div className="relative z-10 p-4 sm:p-6 lg:p-8">
+          <div className="flex flex-col sm:flex-row sm:items-start gap-4 mb-5">
             <div className="relative w-14 h-14 flex items-center justify-center flex-shrink-0">
               <div className="absolute inset-0 bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.20)]" />
               <Target className="w-6 h-6 text-red-400 relative z-10" />
@@ -505,12 +505,12 @@ function AccountabilityEngine({ content, slug, investigation }: {
             </div>
           </div>
 
-          <div className="max-w-3xl mb-10 space-y-3">
-            <p className="text-[15px] text-zinc-400 leading-[1.8]">
+          <div className="mb-6 space-y-2">
+            <p className="text-sm text-zinc-400 leading-[1.7]">
               The system protects itself. The institutions designed to enforce accountability are compromised by the same
               networks they regulate. Voting rotates faces. It does not remove entrenched corruption.
             </p>
-            <p className="text-[15px] text-zinc-500 leading-[1.8]">
+            <p className="text-sm text-zinc-500 leading-[1.7]">
               Real accountability requires direct action: filing formal legal demands, reporting to independent watchdogs
               that have subpoena power, building evidence chains that cannot be buried, and applying economic pressure
               where it actually hurts. Every operation below targets a specific vulnerability. Deploy them.
@@ -518,7 +518,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
           </div>
 
           {/* Progress bar with glow leading edge */}
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-4">
             <div className="flex-1 h-2 bg-zinc-900/80 overflow-hidden border border-zinc-800/30 relative">
               <motion.div
                 className="h-full relative"
@@ -562,8 +562,8 @@ function AccountabilityEngine({ content, slug, investigation }: {
             {/* Track accent bar */}
             <div className="h-[2px] w-full" style={{ background: `linear-gradient(90deg, ${meta.color}50, ${meta.color}15, transparent)` }} />
 
-            <div className="p-5 sm:p-7 pb-0">
-              <div className="flex items-center gap-4 mb-4">
+            <div className="p-4 sm:p-5 pb-0">
+              <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 flex items-center justify-center border flex-shrink-0 relative"
                   style={{ borderColor: `${meta.color}20`, background: `${meta.color}06` }}>
                   <TrackIcon className="w-4 h-4" style={{ color: meta.color }} />
@@ -594,13 +594,13 @@ function AccountabilityEngine({ content, slug, investigation }: {
               </div>
             </div>
 
-            <div className="p-4 sm:p-6 pt-2 space-y-1.5">
+            <div className="p-3 sm:p-4 pt-1.5 space-y-1">
               {trackOps.map(op => {
                 const isComplete = completedOps.has(op.id);
                 return (
                   <motion.div
                     key={op.id}
-                    className={`relative border p-4 sm:p-5 transition-all duration-300 group/op ${
+                    className={`relative border p-3 sm:p-4 transition-all duration-300 group/op ${
                       isComplete
                         ? 'bg-[rgba(255,255,255,0.01)] border-zinc-800/20'
                         : 'bg-[rgba(255,255,255,0.015)] border-[rgba(255,255,255,0.05)] hover:border-[rgba(184,0,0,0.18)] hover:bg-[rgba(255,255,255,0.03)]'
@@ -665,13 +665,13 @@ function AccountabilityEngine({ content, slug, investigation }: {
 
       {/* READY-TO-DEPLOY ARSENAL */}
       <motion.div
-        className="glass-card p-6 sm:p-8"
+        className="glass-card p-4 sm:p-5"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-60px' }}
         transition={{ duration: 0.6 }}
       >
-        <div className="flex items-center gap-4 mb-6">
+        <div className="flex items-center gap-3 mb-4">
           <div className="w-10 h-10 flex items-center justify-center bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.12)] flex-shrink-0">
             <Lock className="w-4 h-4 text-red-400/70" />
           </div>
@@ -738,7 +738,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
 
       {/* ENFORCEMENT PORTALS */}
       <motion.div
-        className="glass-card p-6 sm:p-8"
+        className="glass-card p-4 sm:p-5"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-60px' }}
@@ -753,7 +753,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
             <p className="text-[10px] text-zinc-600 mt-0.5">Independent watchdogs and enforcement bodies with real investigative and subpoena power.</p>
           </div>
         </div>
-        <p className="text-[10px] text-zinc-700 mb-6 pl-14 leading-relaxed">
+        <p className="text-[10px] text-zinc-700 mb-4 pl-14 leading-relaxed">
           Not politicians. Enforcement agencies, independent inspectors general, and international tribunals with
           the legal authority to investigate, subpoena records, and prosecute.
         </p>
@@ -797,13 +797,13 @@ function AccountabilityEngine({ content, slug, investigation }: {
 
       {/* EVIDENCE COMPILATION */}
       <motion.div
-        className="glass-card p-6 sm:p-8"
+        className="glass-card p-4 sm:p-5"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-60px' }}
         transition={{ duration: 0.6 }}
       >
-        <div className="flex items-center gap-4 mb-6">
+        <div className="flex items-center gap-3 mb-4">
           <div className="w-10 h-10 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.12)] flex-shrink-0">
             <ClipboardCheck className="w-4 h-4 text-red-400/70" />
           </div>
@@ -813,14 +813,14 @@ function AccountabilityEngine({ content, slug, investigation }: {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4">
           {[
             { v: viewCount, l: 'Views', c: '#52525b' },
             { v: completedOps.size, l: 'Deployed', c: '#ef4444' },
             { v: operations.length - completedOps.size, l: 'Remaining', c: '#eab308' },
             { v: sources.length, l: 'Sources', c: '#3b82f6' },
           ].map((stat, i) => (
-            <div key={i} className="text-center py-4 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.04)]">
+            <div key={i} className="text-center py-3 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.04)]">
               <div className="text-2xl font-black font-mono tabular-nums" style={{ color: i === 0 ? '#fff' : stat.c }}>
                 <AnimatedCount value={stat.v} delay={0.1 * i} />
               </div>
@@ -953,7 +953,7 @@ export default function InvestigationPage() {
   }, [investigation.summary, mainContent]);
 
   return (
-    <div className="min-h-screen pt-20 lg:pt-24 pb-20 relative">
+    <div className="min-h-screen pt-16 lg:pt-20 pb-12 relative">
       {/* Scroll progress indicator */}
       <ScrollProgress color={sevCfg.color} />
 
@@ -987,7 +987,7 @@ export default function InvestigationPage() {
         backgroundSize: '100% 4px',
       }} />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="mx-auto px-3 sm:px-5 lg:px-6 xl:px-8 relative z-10">
 
         {/* ══════════════ 01 // HERO ══════════════ */}
         <motion.div
@@ -1016,9 +1016,9 @@ export default function InvestigationPage() {
           <div className="absolute bottom-5 left-5 w-8 h-8 border-b-2 border-l-2 pointer-events-none" style={{ borderColor: `${sevCfg.color}10` }} />
           <div className="absolute bottom-5 right-5 w-8 h-8 border-b-2 border-r-2 pointer-events-none" style={{ borderColor: `${sevCfg.color}10` }} />
 
-          <div className="relative z-10 p-6 sm:p-10 lg:p-12">
+          <div className="relative z-10 p-4 sm:p-6 lg:p-8">
             {/* Navigation + severity badge */}
-            <div className="flex items-center justify-between mb-8">
+            <div className="flex items-center justify-between mb-5">
               <Link href="/investigations"
                 className="flex items-center gap-2 text-zinc-500 hover:text-white transition-colors text-[11px] font-mono tracking-[0.2em] group">
                 <ArrowLeft className="w-3 h-3 group-hover:-translate-x-1 transition-transform" /> INVESTIGATIONS
@@ -1042,7 +1042,7 @@ export default function InvestigationPage() {
 
             {/* Category + dates */}
             <motion.div
-              className="flex flex-wrap items-center gap-3 mb-6"
+              className="flex flex-wrap items-center gap-3 mb-4"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3, duration: 0.5 }}
@@ -1058,7 +1058,7 @@ export default function InvestigationPage() {
 
             {/* Title */}
             <motion.h1
-              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white uppercase leading-[0.85] tracking-tight mb-6"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white uppercase leading-[0.85] tracking-tight mb-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.15, duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
@@ -1068,7 +1068,7 @@ export default function InvestigationPage() {
 
             {investigation.subtitle && (
               <motion.p
-                className="text-lg sm:text-xl text-zinc-400 leading-relaxed max-w-4xl mb-8 font-light"
+                className="text-base sm:text-lg text-zinc-400 leading-relaxed mb-5 font-light"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4, duration: 0.6 }}
@@ -1093,14 +1093,14 @@ export default function InvestigationPage() {
               ].filter(Boolean).map((s: any, i: number) => (
                 <motion.div
                   key={i}
-                  className="flex items-center gap-2.5 px-4 py-3 bg-black/50 border border-[rgba(255,255,255,0.05)]"
+                  className="flex items-center gap-2 px-3 py-2 bg-black/50 border border-[rgba(255,255,255,0.05)]"
                   variants={{ hidden: { opacity: 0, scale: 0.9 }, visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } } }}
                 >
                   <span style={{ color: s.c }}>{s.icon}</span>
-                  <span className="text-2xl font-black font-mono text-white tabular-nums leading-none">
+                  <span className="text-lg font-black font-mono text-white tabular-nums leading-none">
                     <AnimatedCount value={s.v} delay={0.6 + i * 0.1} />
                   </span>
-                  <span className="text-[8px] text-zinc-500 uppercase tracking-[0.2em] font-bold">{s.l}</span>
+                  <span className="text-[8px] text-zinc-500 uppercase tracking-[0.15em] font-bold">{s.l}</span>
                 </motion.div>
               ))}
             </motion.div>
@@ -1108,11 +1108,11 @@ export default function InvestigationPage() {
         </motion.div>
 
         {/* Divider */}
-        <div className="my-6 sm:my-8"><GlitchDivider showLabel label="CLASSIFIED" /></div>
+        <div className="my-4 sm:my-5"><GlitchDivider showLabel label="CLASSIFIED" /></div>
 
         {/* ══════════════ DOSSIER CONTROLS ══════════════ */}
         <motion.div
-          className="flex items-center justify-between py-3 mb-4"
+          className="flex items-center justify-between py-2 mb-3"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.5 }}
@@ -1146,7 +1146,7 @@ export default function InvestigationPage() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-          className="mb-8"
+          className="mb-4"
         >
           <CollapsibleGlass
             number="02" title="Executive Summary" icon={<FileText className="w-4 h-4" />}
@@ -1158,9 +1158,9 @@ export default function InvestigationPage() {
               </span>
             }
           >
-            <div className="max-w-4xl">
-              <p className="text-lg sm:text-xl text-zinc-300 leading-[1.9] font-light">
-                <span className="text-6xl sm:text-7xl font-black text-white float-left mr-5 mt-1 leading-[0.75]" style={{
+            <div>
+              <p className="text-base sm:text-lg text-zinc-300 leading-[1.8] font-light">
+                <span className="text-5xl sm:text-6xl font-black text-white float-left mr-4 mt-1 leading-[0.75]" style={{
                   textShadow: `0 0 60px ${sevCfg.color}12`,
                 }}>{investigation.summary.charAt(0)}</span>
                 {investigation.summary.slice(1)}
@@ -1168,7 +1168,7 @@ export default function InvestigationPage() {
             </div>
 
             {investigation.tags?.length > 0 && (
-              <div className="mt-8 pt-6 border-t border-white/[0.04] flex flex-wrap gap-1.5">
+              <div className="mt-5 pt-4 border-t border-white/[0.04] flex flex-wrap gap-1.5">
                 {investigation.tags.map((tag: string, idx: number) => (
                   <Link key={idx} href={`/investigations?tag=${encodeURIComponent(tag)}`}
                     className="px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.05)] text-zinc-500 hover:text-zinc-300 hover:border-[rgba(184,0,0,0.20)] transition-all duration-200">
@@ -1183,14 +1183,14 @@ export default function InvestigationPage() {
         {/* ══════════════ 03 // DEFENDANTS ══════════════ */}
         {defendants.length > 0 && (
           <>
-            <div className="my-6 sm:my-8"><GlitchDivider showLabel label="PERSONS OF INTEREST" /></div>
+            <div className="my-3 sm:my-4"><GlitchDivider showLabel label="PERSONS OF INTEREST" /></div>
             <motion.div
               id="defendants"
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-6"
+              className="mb-3"
             >
               <CollapsibleGlass
                 number="03" title="Defendants & Charges" icon={<Gavel className="w-4 h-4" />}
@@ -1226,8 +1226,8 @@ export default function InvestigationPage() {
                         className="bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] overflow-hidden hover:border-[rgba(184,0,0,0.18)] transition-all duration-300 group">
                         {/* Status bar at top */}
                         <div className="h-[3px] w-full" style={{ background: `linear-gradient(90deg, ${st.dot}, ${st.dot}40, transparent)` }} />
-                        <div className="p-6 sm:p-7">
-                          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-5">
+                        <div className="p-4 sm:p-5">
+                          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 mb-3">
                             <div>
                               <Link href={`/entities/individuals/${slugifyName(def.name)}`}
                                 className="text-xl sm:text-2xl font-black text-white hover:text-red-400 transition-colors uppercase tracking-wide leading-tight">
@@ -1249,7 +1249,7 @@ export default function InvestigationPage() {
                           </div>
 
                           {def.charges?.length > 0 && (
-                            <div className="mb-5">
+                            <div className="mb-3">
                               <span className="text-[8px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-3">Charges</span>
                               <div className="space-y-1.5">
                                 {def.charges.map((charge: string, ci: number) => (
@@ -1331,7 +1331,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-6"
+            className="mb-3"
           >
             <CollapsibleGlass
               number="04" title="Applicable Laws & Statutes" icon={<Scale className="w-4 h-4" />}
@@ -1363,14 +1363,14 @@ export default function InvestigationPage() {
         {/* ══════════════ 05 // ACCOUNTABILITY ENGINE ══════════════ */}
         {accountabilityContent && (
           <>
-            <div className="my-6 sm:my-8"><GlitchDivider showLabel label="COUNTERMEASURES" /></div>
+            <div className="my-3 sm:my-4"><GlitchDivider showLabel label="COUNTERMEASURES" /></div>
             <motion.div
               id="engine"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-6"
+              className="mb-3"
             >
               <CollapsibleGlass
                 number="05" title="Accountability Engine" icon={<Crosshair className="w-4 h-4" />}
@@ -1391,11 +1391,11 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-6"
+            className="mb-3"
           >
             <CollapsibleGlass number="06" title="Full Investigation" icon={<FileText className="w-4 h-4" />}
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}>
-              <div className="max-w-4xl space-y-7">
+              <div className="space-y-5">
                 {mainContent.map((paragraph: string, idx: number) => {
                   const colonIdx = paragraph.indexOf(':');
                   const hasHeader = colonIdx > 0 && colonIdx < 60
@@ -1406,8 +1406,8 @@ export default function InvestigationPage() {
                     const heading = paragraph.substring(0, colonIdx);
                     const body = paragraph.substring(colonIdx + 1).trim();
                     return (
-                      <div key={idx} className="mt-10 first:mt-0">
-                        <div className="bg-[rgba(255,255,255,0.012)] border border-[rgba(255,255,255,0.04)] p-6 sm:p-8"
+                      <div key={idx} className="mt-6 first:mt-0">
+                        <div className="bg-[rgba(255,255,255,0.012)] border border-[rgba(255,255,255,0.04)] p-4 sm:p-6"
                           style={{ borderLeftWidth: 3, borderLeftColor: `${sevCfg.color}30` }}>
                           <h3 className="text-[11px] font-black uppercase tracking-[0.25em] mb-5" style={{ color: sevCfg.color }}>{heading}</h3>
                           <p className="text-[15px] text-zinc-300 leading-[1.9]">{body}</p>
@@ -1430,14 +1430,14 @@ export default function InvestigationPage() {
         {/* ══════════════ 07 // MONEY TRAIL ══════════════ */}
         {moneyTrail.length > 0 && (
           <>
-            <div className="my-6 sm:my-8"><GlitchDivider showLabel label="FOLLOW THE MONEY" /></div>
+            <div className="my-3 sm:my-4"><GlitchDivider showLabel label="FOLLOW THE MONEY" /></div>
             <motion.div
               id="money"
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-6"
+              className="mb-3"
             >
               <CollapsibleGlass
                 number="07" title="Money Trail" icon={<DollarSign className="w-4 h-4" />}
@@ -1465,7 +1465,7 @@ export default function InvestigationPage() {
                     <motion.div
                       key={idx}
                       variants={{ hidden: { opacity: 0, x: idx % 2 === 0 ? -8 : 8 }, visible: { opacity: 1, x: 0, transition: { duration: 0.4 } } }}
-                      className={`p-4 sm:p-5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
+                      className={`p-3 sm:p-3.5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
                         idx % 2 === 0 ? 'bg-[rgba(255,255,255,0.012)]' : 'bg-transparent'
                       } border-b border-white/[0.02] hover:border-yellow-500/[0.08]`}
                     >
@@ -1505,14 +1505,14 @@ export default function InvestigationPage() {
         {/* ══════════════ 08 // CONNECTED ENTITIES ══════════════ */}
         {affiliations.length > 0 && (
           <>
-            <div className="my-6 sm:my-8"><GlitchDivider showLabel label="THE NETWORK" /></div>
+            <div className="my-3 sm:my-4"><GlitchDivider showLabel label="THE NETWORK" /></div>
             <motion.div
               id="entities"
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-6"
+              className="mb-3"
             >
               <CollapsibleGlass
                 number="08" title="Connected Entities" icon={<Users className="w-4 h-4" />}
@@ -1529,7 +1529,7 @@ export default function InvestigationPage() {
                   </div>
                 }
               >
-                <div className="space-y-8">
+                <div className="space-y-5">
                   {entityGroups.map(group => {
                     const TypeIcon = group.config.icon;
                     const plural = group.type === 'agency' ? 'Agencies' : group.type === 'corporation' ? 'Corporations' : group.type === 'individual' ? 'Individuals' : 'Organizations';
@@ -1593,7 +1593,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-6"
+            className="mb-3"
           >
             <CollapsibleGlass
               number="09" title="Network Analysis" icon={<Eye className="w-4 h-4" />}
@@ -1620,7 +1620,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-6"
+            className="mb-3"
           >
             <CollapsibleGlass
               number="10" title="Timeline" icon={<Calendar className="w-4 h-4" />}
@@ -1686,7 +1686,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-6"
+            className="mb-3"
           >
             <CollapsibleGlass
               number="11" title="Sources & Documentation" icon={<ExternalLink className="w-4 h-4" />}
