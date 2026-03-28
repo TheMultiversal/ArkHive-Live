@@ -48,14 +48,14 @@ const FEATURED_INVESTIGATIONS: {
 
 const SEVERITY_COLORS: Record<string, string> = {
  critical: 'border-l-red-600 hover:border-l-red-400',
- high: 'border-l-orange-600 hover:border-l-orange-400',
- medium: 'border-l-yellow-600 hover:border-l-yellow-400',
+ high: 'border-l-red-700 hover:border-l-red-500',
+ medium: 'border-l-red-800 hover:border-l-red-600',
 };
 
 const SEVERITY_DOTS: Record<string, string> = {
  critical: 'bg-red-500',
- high: 'bg-orange-500',
- medium: 'bg-yellow-600',
+ high: 'bg-red-500',
+ medium: 'bg-red-600',
 };
 
 

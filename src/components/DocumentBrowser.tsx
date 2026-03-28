@@ -157,7 +157,7 @@ function DocumentCard({ doc, isExpanded, onToggle }: DocumentCardProps) {
             {doc.archived && (
               <div>
                 <p className="text-xs text-zinc-500 mb-1">Archived</p>
-                <p className="text-green-400 flex items-center gap-1">
+                <p className="text-red-400 flex items-center gap-1">
                   <Archive className="w-3 h-3" />
                   Yes
                 </p>

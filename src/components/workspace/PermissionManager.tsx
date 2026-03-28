@@ -188,9 +188,9 @@ export function PermissionBadge({
  const colors: Record<Permission, string> = {
  view:"bg-zinc-500/20 text-zinc-400 border-zinc-500/30",
  comment:"bg-blood-500/20 text-blood-400 border-blood-500/30",
- edit:"bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
+ edit:"bg-red-500/20 text-red-400 border-red-500/30",
  delete:"bg-red-500/20 text-red-400 border-red-500/30",
- manage:"bg-amber-500/20 text-amber-400 border-amber-500/30",
+ manage:"bg-red-500/20 text-red-400 border-red-500/30",
  admin:"bg-zinc-500/20 text-zinc-400 border-zinc-600/30",
  };
 
@@ -313,7 +313,7 @@ export function RoleSelector({
  </p>
  </div>
  {role.id === selectedRoleId && (
- <Check className="w-4 h-4 text-emerald-400" />
+ <Check className="w-4 h-4 text-red-400" />
  )}
  </button>
  ))}
@@ -381,7 +381,7 @@ export function MemberPermissionRow({
  <span className="text-xs text-zinc-500">(you)</span>
  )}
  {!member.acceptedAt && (
- <span className="px-1.5 py-0.5 text-xs bg-amber-500/20 text-amber-400 border border-amber-500/30">
+ <span className="px-1.5 py-0.5 text-xs bg-red-500/20 text-red-400 border border-red-500/30">
  Pending
  </span>
  )}
@@ -495,7 +495,7 @@ export function PermissionMatrix({
  disabled={!canEdit}
  className={`p-2 transition-colors ${
  hasPermission
- ?"bg-emerald-500/20 text-emerald-400"
+ ?"bg-red-500/20 text-red-400"
  :"bg-zinc-800/50 text-zinc-600"
  } ${
  canEdit
@@ -758,7 +758,7 @@ export function AccessLinkManager({
  title="Copy link"
  >
  {copiedId === link.id ? (
- <Check className="w-4 h-4 text-emerald-400" />
+ <Check className="w-4 h-4 text-red-400" />
  ) : (
  <Copy className="w-4 h-4" />
  )}

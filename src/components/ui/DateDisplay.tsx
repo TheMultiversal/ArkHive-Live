@@ -93,7 +93,7 @@ export default function DateDisplay({
         )}
         {hasActivityDate && (
           <div className="flex items-center gap-2 text-zinc-500 text-xs">
-            <Clock className="w-3 h-3 text-yellow-600" />
+            <Clock className="w-3 h-3 text-red-600" />
             <span className="text-zinc-600 font-medium">Latest:</span>
             <span>{formatDate(effectiveActivityDate)}</span>
           </div>
@@ -138,8 +138,8 @@ export default function DateDisplay({
 
       {/* Last Activity */}
       <div className="flex items-start gap-3">
-        <div className="flex-shrink-0 w-8 h-8 bg-yellow-950 border border-yellow-800 flex items-center justify-center">
-          <Clock className="w-4 h-4 text-yellow-500" />
+        <div className="flex-shrink-0 w-8 h-8 bg-red-950 border border-red-800 flex items-center justify-center">
+          <Clock className="w-4 h-4 text-red-500" />
         </div>
         <div className="flex-1 min-w-0">
           <div className="text-[10px] font-bold uppercase tracking-wider text-zinc-600">

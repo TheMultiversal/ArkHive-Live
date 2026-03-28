@@ -98,7 +98,7 @@ const typeConfig = {
   agency: { icon: Landmark, color: 'text-red-400', bg: 'bg-red-500/20', border: 'border-red-500/50' },
   corporation: { icon: Building2, color: 'text-red-400', bg: 'bg-red-500/20', border: 'border-red-500/50' },
   organization: { icon: Users, color: 'text-red-300', bg: 'bg-red-500/20', border: 'border-red-500/50' },
-  investigation: { icon: Eye, color: 'text-zinc-400', bg: 'bg-zinc-500/20', border: 'border-zinc-600/50' },
+  investigation: { icon: Eye, color: 'text-red-400', bg: 'bg-red-500/20', border: 'border-red-500/50' },
 };
 
 interface NetworkNodeCardProps {
@@ -319,7 +319,7 @@ export default function AffiliationNetworkGraph({
   }
   
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 glass-card p-4">
       {/* Header & Stats */}
       <div className="flex flex-col md:flex-row md:items-center gap-4">
         <div>
@@ -336,7 +336,7 @@ export default function AffiliationNetworkGraph({
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value as typeof sortBy)}
-            className="px-3 py-1.5 text-xs bg-zinc-900 border border-zinc-800 text-zinc-400 focus:outline-none focus:border-zinc-600"
+            className="px-3 py-1.5 text-xs bg-black/50 border border-red-900/20 text-zinc-400 focus:outline-none focus:border-red-800/40"
           >
             <option value="connections">Most Connected</option>
             <option value="investigations">Most Investigations</option>
@@ -355,7 +355,7 @@ export default function AffiliationNetworkGraph({
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search entities..."
-            className="w-full pl-10 pr-8 py-2 bg-zinc-900 border border-zinc-800 text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-600 text-sm"
+            className="w-full pl-10 pr-8 py-2 bg-black/50 border border-red-900/20 text-white placeholder-zinc-500 focus:outline-none focus:border-red-800/40 text-sm"
           />
           {searchQuery && (
             <button
@@ -378,8 +378,8 @@ export default function AffiliationNetworkGraph({
                 onClick={() => setSelectedType(type)}
                 className={`px-3 py-2 text-xs capitalize transition-colors ${
                   isSelected
-                    ? 'bg-zinc-500/20 text-zinc-400 border border-zinc-600'
-                    : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-zinc-700'
+                    ? 'bg-red-500/10 text-red-400 border border-red-800/40'
+                    : 'bg-black/30 text-zinc-400 border border-red-900/15 hover:border-red-800/30'
                 }`}
               >
                 {type}

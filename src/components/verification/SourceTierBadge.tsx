@@ -27,8 +27,8 @@ const tierConfig = {
     label: "Primary Source",
     description: "Court records, official documents, signed testimony",
     icon: Shield,
-    classes: "bg-emerald-900/80 border-emerald-600 text-emerald-400",
-    iconClasses: "text-emerald-500",
+    classes: "bg-red-900/80 border-red-600 text-red-400",
+    iconClasses: "text-red-500",
   },
   secondary: {
     label: "Secondary Source",
@@ -41,8 +41,8 @@ const tierConfig = {
     label: "Tertiary Source",
     description: "News articles, public statements, social media",
     icon: FileText,
-    classes: "bg-yellow-900/80 border-yellow-600 text-yellow-400",
-    iconClasses: "text-yellow-500",
+    classes: "bg-red-900/80 border-red-600 text-red-400",
+    iconClasses: "text-red-500",
   },
   unverified: {
     label: "Unverified",
@@ -105,17 +105,17 @@ const verificationConfig = {
   verified: {
     label: "Verified",
     icon: CheckCircle,
-    classes: "bg-emerald-900/60 border-emerald-700 text-emerald-400",
+    classes: "bg-red-900/60 border-red-700 text-red-400",
   },
   pending: {
     label: "Pending Review",
     icon: Clock,
-    classes: "bg-yellow-900/60 border-yellow-700 text-yellow-400",
+    classes: "bg-red-900/60 border-red-700 text-red-400",
   },
   disputed: {
     label: "Disputed",
     icon: AlertTriangle,
-    classes: "bg-orange-900/60 border-orange-700 text-orange-400",
+    classes: "bg-red-900/60 border-red-700 text-red-400",
   },
   retracted: {
     label: "Retracted",

@@ -266,7 +266,7 @@ export function SyncStatusIndicator({
  > = {
  synced: {
  icon: <Check className="w-4 h-4" />,
- color:"text-emerald-400",
+ color:"text-red-400",
  label:"Synced",
  },
  syncing: {
@@ -276,7 +276,7 @@ export function SyncStatusIndicator({
  },
  pending: {
  icon: <Clock className="w-4 h-4" />,
- color:"text-amber-400",
+ color:"text-red-400",
  label: `${pendingChanges} pending`,
  },
  conflict: {
@@ -336,7 +336,7 @@ export function SyncStatusIndicator({
 
  <span
  className={`flex items-center gap-1 text-xs ${
- isOnline ?"text-emerald-400" :"text-zinc-500"
+ isOnline ?"text-red-400" :"text-zinc-500"
  }`}
  >
  {isOnline ? <Wifi className="w-3 h-3" /> : <WifiOff className="w-3 h-3" />}
@@ -372,8 +372,8 @@ export function PendingChangesPanel<T>({
  ChangeType,
  { icon: React.ReactNode; color: string }
  > = {
- create: { icon: <ArrowUp className="w-3 h-3" />, color:"text-emerald-400" },
- update: { icon: <RefreshCw className="w-3 h-3" />, color:"text-amber-400" },
+ create: { icon: <ArrowUp className="w-3 h-3" />, color:"text-red-400" },
+ update: { icon: <RefreshCw className="w-3 h-3" />, color:"text-red-400" },
  delete: { icon: <X className="w-3 h-3" />, color:"text-red-400" },
  };
 
@@ -386,7 +386,7 @@ export function PendingChangesPanel<T>({
  className="w-full flex items-center justify-between p-3 text-left"
  >
  <div className="flex items-center gap-2">
- <Clock className="w-4 h-4 text-amber-400" />
+ <Clock className="w-4 h-4 text-red-400" />
  <span className="text-sm text-white">
  {changes.length} pending change{changes.length !== 1 ?"s" :""}
  </span>
@@ -546,7 +546,7 @@ export function ConflictResolutionDialog<T>({
  </button>
  <button
  onClick={() => onResolve("local")}
- className="px-4 py-2 border border-amber-500/50 text-amber-400 hover:bg-amber-500/10 transition-colors"
+ className="px-4 py-2 border border-red-500/50 text-red-400 hover:bg-red-500/10 transition-colors"
  >
  Use Local
  </button>
@@ -585,14 +585,14 @@ export function SyncActivityLog({
  const displayActivities = activities.slice(0, maxItems);
 
  const typeConfig = {
- sync: { icon: <Check className="w-3 h-3" />, color:"text-emerald-400" },
+ sync: { icon: <Check className="w-3 h-3" />, color:"text-red-400" },
  conflict: {
  icon: <AlertTriangle className="w-3 h-3" />,
  color:"text-red-400",
  },
  error: { icon: <X className="w-3 h-3" />, color:"text-red-400" },
  offline: { icon: <CloudOff className="w-3 h-3" />, color:"text-zinc-400" },
- online: { icon: <Cloud className="w-3 h-3" />, color:"text-emerald-400" },
+ online: { icon: <Cloud className="w-3 h-3" />, color:"text-red-400" },
  };
 
  return (

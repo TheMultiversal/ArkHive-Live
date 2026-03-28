@@ -16,8 +16,8 @@ interface RecommendedInvestigation {
 
 const severityColors: Record<string, string> = {
   critical: "text-red-500 border-red-500/30",
-  high: "text-orange-500 border-orange-500/30",
-  medium: "text-yellow-500 border-yellow-500/30",
+  high: "text-red-500 border-red-500/30",
+  medium: "text-red-500 border-red-500/30",
   low: "text-zinc-400 border-zinc-500/30",
 };
 

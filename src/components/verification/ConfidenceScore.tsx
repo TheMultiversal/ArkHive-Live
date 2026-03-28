@@ -72,10 +72,10 @@ interface ConfidenceScoreDisplayProps {
 // ============================================================================
 
 const levelColors: Record<ConfidenceLevel, string> = {
-  "very-high": "text-emerald-400 bg-emerald-500/10 border-emerald-500/30",
-  high: "text-green-400 bg-green-500/10 border-green-500/30",
-  medium: "text-amber-400 bg-amber-500/10 border-amber-500/30",
-  low: "text-orange-400 bg-orange-500/10 border-orange-500/30",
+  "very-high": "text-red-400 bg-red-500/10 border-red-500/30",
+  high: "text-red-400 bg-red-500/10 border-red-500/30",
+  medium: "text-red-400 bg-red-500/10 border-red-500/30",
+  low: "text-red-400 bg-red-500/10 border-red-500/30",
   "very-low": "text-red-400 bg-red-500/10 border-red-500/30",
   unknown: "text-zinc-400 bg-zinc-500/10 border-zinc-500/30",
 };
@@ -355,9 +355,9 @@ export function FactorBreakdown({
                       <span
                         className={`text-sm font-medium ${
                           factor.score >= 75
-                            ? "text-emerald-400"
+                            ? "text-red-400"
                             : factor.score >= 50
-                            ? "text-amber-400"
+                            ? "text-red-400"
                             : "text-red-400"
                         }`}
                       >
@@ -371,9 +371,9 @@ export function FactorBreakdown({
                     <motion.div
                       className={`h-full ${
                         factor.score >= 75
-                          ? "bg-emerald-500"
+                          ? "bg-red-500"
                           : factor.score >= 50
-                          ? "bg-amber-500"
+                          ? "bg-red-500"
                           : "bg-red-500"
                       }`}
                       initial={{ width: 0 }}
@@ -410,7 +410,7 @@ export default function ConfidenceScoreDisplay({
   const [expanded, setExpanded] = useState(!compact);
 
   const trendIcon = {
-    increasing: <TrendingUp className="w-4 h-4 text-emerald-400" />,
+    increasing: <TrendingUp className="w-4 h-4 text-red-400" />,
     decreasing: <TrendingDown className="w-4 h-4 text-red-400" />,
     stable: <Minus className="w-4 h-4 text-zinc-400" />,
   };

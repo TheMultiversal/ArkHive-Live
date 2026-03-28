@@ -90,8 +90,8 @@ function getStatutesWithInvestigations(): StatuteWithInvestigations[] {
 
 const severityConfig = {
   critical: { color: 'text-zinc-300', bg: 'bg-zinc-500/10' },
-  high: { color: 'text-orange-400', bg: 'bg-orange-400/10' },
-  medium: { color: 'text-yellow-400', bg: 'bg-yellow-400/10' },
+  high: { color: 'text-red-400', bg: 'bg-red-400/10' },
+  medium: { color: 'text-red-400', bg: 'bg-red-400/10' },
   low: { color: 'text-zinc-400', bg: 'bg-zinc-400/10' }
 };
 

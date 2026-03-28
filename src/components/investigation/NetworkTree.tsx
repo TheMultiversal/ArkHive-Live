@@ -127,10 +127,10 @@ type PersonTier = 'Primary Defendant' | 'Co-Conspirator' | 'Politician' | 'Regul
 type OrgTier = 'Corporation' | 'Agency' | 'Organization';
 
 const SEVERITY_COLORS: Record<string, string> = {
-  critical: '#dc2626',
-  high: '#ea580c',
-  medium: '#ca8a04',
-  low: '#71717a',
+  critical: '#ef4444',
+  high: '#dc2626',
+  medium: '#b91c1c',
+  low: '#991b1b',
 };
 
 const SEVERITY_PULSE_SPEED: Record<string, number> = {
@@ -142,30 +142,30 @@ const SEVERITY_PULSE_SPEED: Record<string, number> = {
 
 const PERSON_TIER_COLORS: Record<PersonTier, string> = {
   'Primary Defendant': '#ef4444',
-  'Co-Conspirator': '#f97316',
-  Politician: '#a855f7',
-  Regulator: '#3b82f6',
-  Whistleblower: '#22c55e',
-  Other: '#6b7280',
+  'Co-Conspirator': '#dc2626',
+  Politician: '#b91c1c',
+  Regulator: '#991b1b',
+  Whistleblower: '#7f1d1d',
+  Other: '#6b2121',
 };
 
 const ORG_TIER_COLORS: Record<OrgTier, string> = {
-  Corporation: '#eab308',
-  Agency: '#06b6d4',
-  Organization: '#8b5cf6',
+  Corporation: '#ef4444',
+  Agency: '#dc2626',
+  Organization: '#b91c1c',
 };
 
 const STATUS_COLORS: Record<string, string> = {
-  convicted: '#dc2626',
-  incarcerated: '#991b1b',
-  indicted: '#ea580c',
-  charged: '#d97706',
-  pending: '#eab308',
-  settled: '#6b7280',
-  acquitted: '#10b981',
-  pardoned: '#8b5cf6',
-  appealing: '#3b82f6',
-  released: '#9ca3af',
+  convicted: '#ef4444',
+  incarcerated: '#dc2626',
+  indicted: '#b91c1c',
+  charged: '#991b1b',
+  pending: '#7f1d1d',
+  settled: '#71717a',
+  acquitted: '#6b2121',
+  pardoned: '#9f1239',
+  appealing: '#be123c',
+  released: '#881337',
 };
 
 const NODE_DIMENSIONS: Record<string, { width: number; height: number }> = {
@@ -588,7 +588,7 @@ function MoneyFlowEdge({
             className="nodrag nopan"
           >
             <span
-              className="text-[7px] font-mono font-bold text-yellow-400/90 bg-black/90 px-1.5 py-0.5 border border-yellow-900/40 whitespace-nowrap"
+              className="text-[7px] font-mono font-bold text-red-400/90 bg-black/90 px-1.5 py-0.5 border border-red-900/40 whitespace-nowrap"
               style={{ borderRadius: 4 }}
             >
               $ {amount}{count > 1 ? ` (×${count})` : ''}
@@ -782,7 +782,7 @@ function PersonNode({ data, selected }: any) {
             <span className="text-[8px] text-red-500/60 font-mono">{(data.charges as string[]).length} charges</span>
           )}
           {totalMoney > 0 && (
-            <span className="text-[8px] text-yellow-500/60 font-mono flex items-center gap-0.5">
+            <span className="text-[8px] text-red-500/60 font-mono flex items-center gap-0.5">
               <DollarSign className="w-2.5 h-2.5" />{totalMoney}
             </span>
           )}
@@ -842,7 +842,7 @@ function OrgNode({ data, selected }: any) {
             {tier}
           </span>
           {totalMoney > 0 && (
-            <span className="text-[8px] text-yellow-500/60 font-mono flex items-center gap-0.5">
+            <span className="text-[8px] text-red-500/60 font-mono flex items-center gap-0.5">
               <DollarSign className="w-2.5 h-2.5" />{totalMoney} txns
             </span>
           )}
@@ -1337,7 +1337,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
             />
             {searchQuery && (
               <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
-                <span className="text-[10px] font-mono font-bold text-orange-400">{searchMatches} found</span>
+                <span className="text-[10px] font-mono font-bold text-red-400">{searchMatches} found</span>
                 <button onClick={() => setSearchQuery('')} className="text-zinc-600 hover:text-white"><X className="w-3.5 h-3.5" /></button>
               </div>
             )}
@@ -1362,7 +1362,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                 </button>
                 <button onClick={() => setShowOrgs(!showOrgs)}
                   className={`flex-1 flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-wider px-2 py-2 border transition-all ${
-                    showOrgs ? 'border-yellow-800/40 text-yellow-400 bg-yellow-950/20' : 'border-zinc-800 text-zinc-600'
+                    showOrgs ? 'border-red-800/40 text-red-400 bg-red-950/20' : 'border-zinc-800 text-zinc-600'
                   }`} style={{ borderRadius: 6 }}>
                   <Building2 className="w-3 h-3" /> Orgs
                 </button>
@@ -1415,13 +1415,13 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                   <div className="text-[8px] text-zinc-600 uppercase font-bold">People</div>
                 </div>
                 <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 6 }}>
-                  <div className="text-lg font-black text-yellow-400 font-mono">{stats.orgs}</div>
+                  <div className="text-lg font-black text-red-400 font-mono">{stats.orgs}</div>
                   <div className="text-[8px] text-zinc-600 uppercase font-bold">Orgs</div>
                 </div>
               </div>
               {stats.moneyEdges > 0 && (
                 <div className="text-center p-2 bg-[rgba(234,179,8,0.04)] border border-[rgba(234,179,8,0.12)]" style={{ borderRadius: 6 }}>
-                  <div className="text-sm font-black text-yellow-400 font-mono">{stats.moneyEdges}</div>
+                  <div className="text-sm font-black text-red-400 font-mono">{stats.moneyEdges}</div>
                   <div className="text-[8px] text-zinc-600 uppercase font-bold">Money Flow Connections</div>
                 </div>
               )}
@@ -1538,7 +1538,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                   <span className="text-[10px] text-zinc-400 font-mono">Hierarchy</span>
                 </div>
                 <div className="flex items-center gap-2 py-0.5">
-                  <div className="w-6 h-0 border-t-2 border-dashed border-yellow-500/70 flex-shrink-0" />
+                  <div className="w-6 h-0 border-t-2 border-dashed border-red-500/70 flex-shrink-0" />
                   <span className="text-[10px] text-zinc-400 font-mono">Money Flow</span>
                 </div>
               </div>
@@ -1604,7 +1604,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                 {selectedNodeData.fine && (
                   <div>
                     <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Fine</p>
-                    <p className="text-[11px] text-yellow-400/80">{selectedNodeData.fine}</p>
+                    <p className="text-[11px] text-red-400/80">{selectedNodeData.fine}</p>
                   </div>
                 )}
 
@@ -1612,8 +1612,8 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                   <div className="border-t border-[rgba(255,255,255,0.04)] pt-2">
                     <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-1">Financial Links</p>
                     {(selectedNodeData.moneyIn as MoneyTransaction[])?.map((m, i) => (
-                      <p key={`in-${i}`} className="text-[10px] text-green-400/70 py-0.5 flex items-start gap-1.5">
-                        <span className="text-green-600 flex-shrink-0">&#9650;</span> {m.amount} from {m.from}
+                      <p key={`in-${i}`} className="text-[10px] text-red-400/70 py-0.5 flex items-start gap-1.5">
+                        <span className="text-red-600 flex-shrink-0">&#9650;</span> {m.amount} from {m.from}
                       </p>
                     ))}
                     {(selectedNodeData.moneyOut as MoneyTransaction[])?.map((m, i) => (
@@ -1680,7 +1680,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
               return (
                 <button key={i} onClick={() => selectOrg(aff)}
                   className={`w-full text-left p-2.5 border transition-all ${
-                    isSelected ? 'border-yellow-700/50 bg-yellow-950/20' : 'border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
+                    isSelected ? 'border-red-700/50 bg-red-950/20' : 'border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
                   }`} style={{ borderRadius: 8 }}>
                   <div className="flex items-center justify-between mb-0.5">
                     <span className="text-[11px] font-bold text-white truncate">{aff.name}</span>
@@ -1703,14 +1703,14 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
               <div key={i} className="p-2.5 border border-[rgba(184,0,0,0.10)]" style={{ borderRadius: 8 }}>
                 <div className="flex items-center justify-between mb-1">
                   <span className="text-[10px] text-zinc-500 font-mono">{txn.date}</span>
-                  <span className="text-[10px] font-bold text-yellow-400">{txn.amount}</span>
+                  <span className="text-[10px] font-bold text-red-400">{txn.amount}</span>
                 </div>
                 <div className="text-[9px] space-y-0.5">
                   <p className="text-zinc-500">
                     <span className="text-red-400/60">From:</span> {txn.from.length > 40 ? txn.from.substring(0, 38) + '..' : txn.from}
                   </p>
                   <p className="text-zinc-500">
-                    <span className="text-green-400/60">To:</span> {txn.to.length > 40 ? txn.to.substring(0, 38) + '..' : txn.to}
+                    <span className="text-red-400/60">To:</span> {txn.to.length > 40 ? txn.to.substring(0, 38) + '..' : txn.to}
                   </p>
                 </div>
                 <p className="text-[8px] text-zinc-600 mt-1 line-clamp-2">{txn.purpose}</p>

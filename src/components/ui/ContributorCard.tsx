@@ -33,9 +33,9 @@ export function ContributorCard({
   const trustScore = calculateTrustScore(contributor.contributions);
 
   const getTrustColor = (score: number): string => {
-    if (score >= 90) return 'text-emerald-400';
+    if (score >= 90) return 'text-red-400';
     if (score >= 70) return 'text-blood-400';
-    if (score >= 50) return 'text-yellow-400';
+    if (score >= 50) return 'text-red-400';
     return 'text-zinc-400';
   };
 
@@ -49,7 +49,7 @@ export function ContributorCard({
         </div>
         <span className="text-zinc-300">{displayName}</span>
         {contributor.visibility === ContributorVisibility.VERIFIED_ANONYMOUS && (
-          <Shield size={12} className="text-emerald-500" title="Verified anonymous contributor" />
+          <Shield size={12} className="text-red-500" title="Verified anonymous contributor" />
         )}
         <span className={`font-mono text-xs ${getTrustColor(trustScore)}`}>
           {trustScore}%
@@ -76,7 +76,7 @@ export function ContributorCard({
             <div className="flex items-center gap-2">
               <h3 className="text-zinc-200 font-medium">{displayName}</h3>
               {contributor.visibility === ContributorVisibility.VERIFIED_ANONYMOUS && (
-                <Shield size={14} className="text-emerald-500" title="Verified anonymous" />
+                <Shield size={14} className="text-red-500" title="Verified anonymous" />
               )}
             </div>
             <div className={`text-sm font-mono ${getTrustColor(trustScore)}`}>
@@ -114,7 +114,7 @@ export function ContributorCard({
             <div className="text-xs text-zinc-500">Submissions</div>
           </div>
           <div className="text-center">
-            <div className="text-lg font-mono text-emerald-400">{contributor.verifiedSubmissions}</div>
+            <div className="text-lg font-mono text-red-400">{contributor.verifiedSubmissions}</div>
             <div className="text-xs text-zinc-500">Verified</div>
           </div>
           <div className="text-center">
@@ -190,7 +190,7 @@ export function ContributorCard({
             {contributor.donationLinks.bitcoin && (
               <button
                 onClick={() => navigator.clipboard.writeText(contributor.donationLinks!.bitcoin!)}
-                className="px-2 py-1 bg-orange-900/30 text-orange-400 text-xs font-mono border border-orange-700 hover:bg-orange-900/50 transition-colors"
+                className="px-2 py-1 bg-red-900/30 text-red-400 text-xs font-mono border border-red-700 hover:bg-red-900/50 transition-colors"
                 title={`BTC: ${contributor.donationLinks.bitcoin}`}
               >
                 BTC
@@ -208,7 +208,7 @@ export function ContributorCard({
             {contributor.donationLinks.lightning && (
               <button
                 onClick={() => navigator.clipboard.writeText(contributor.donationLinks!.lightning!)}
-                className="px-2 py-1 bg-yellow-900/30 text-yellow-400 text-xs font-mono border border-yellow-700 hover:bg-yellow-900/50 transition-colors"
+                className="px-2 py-1 bg-red-900/30 text-red-400 text-xs font-mono border border-red-700 hover:bg-red-900/50 transition-colors"
                 title="Lightning Network"
               >
                 ⚡ LN

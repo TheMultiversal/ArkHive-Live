@@ -43,9 +43,9 @@ const levelConfig = {
     label: "Fully Verified",
     description: "All verification checks passed",
     icon: Shield,
-    color: "text-emerald-400",
-    bgColor: "bg-emerald-900/50",
-    borderColor: "border-emerald-700",
+    color: "text-red-400",
+    bgColor: "bg-red-900/50",
+    borderColor: "border-red-700",
   },
   partial: {
     label: "Partially Verified",
@@ -59,17 +59,17 @@ const levelConfig = {
     label: "Verification Pending",
     description: "Awaiting verification review",
     icon: Clock,
-    color: "text-yellow-400",
-    bgColor: "bg-yellow-900/50",
-    borderColor: "border-yellow-700",
+    color: "text-red-400",
+    bgColor: "bg-red-900/50",
+    borderColor: "border-red-700",
   },
   disputed: {
     label: "Disputed",
     description: "Verification contested - under review",
     icon: AlertTriangle,
-    color: "text-orange-400",
-    bgColor: "bg-orange-900/50",
-    borderColor: "border-orange-700",
+    color: "text-red-400",
+    bgColor: "bg-red-900/50",
+    borderColor: "border-red-700",
   },
   retracted: {
     label: "Retracted",
@@ -155,9 +155,9 @@ interface VerificationCheckItemProps {
 
 export function VerificationCheckItem({ check, compact = false }: VerificationCheckItemProps) {
   const statusConfig = {
-    passed: { icon: CheckCircle, color: "text-emerald-500" },
+    passed: { icon: CheckCircle, color: "text-red-500" },
     failed: { icon: XCircle, color: "text-red-500" },
-    pending: { icon: Clock, color: "text-yellow-500" },
+    pending: { icon: Clock, color: "text-red-500" },
     skipped: { icon: AlertTriangle, color: "text-zinc-500" },
   };
 
@@ -209,7 +209,7 @@ export function VerificationProgress({ checks, className = "" }: VerificationPro
       </div>
       <div className="h-2 bg-zinc-900 flex overflow-hidden">
         <div 
-          className="bg-emerald-600 transition-all"
+          className="bg-red-600 transition-all"
           style={{ width: `${passedPercent}%` }}
         />
         <div 
@@ -217,7 +217,7 @@ export function VerificationProgress({ checks, className = "" }: VerificationPro
           style={{ width: `${failedPercent}%` }}
         />
         <div 
-          className="bg-yellow-600 transition-all"
+          className="bg-red-600 transition-all"
           style={{ width: `${pendingPercent}%` }}
         />
       </div>
@@ -301,8 +301,8 @@ export function VerificationPanel({ record, onReportDispute, className = "" }: V
 
           {/* Disputes */}
           {record.disputes && record.disputes.length > 0 && (
-            <div className="px-4 py-3 border-t border-orange-900/30 bg-orange-950/20">
-              <div className="flex items-center gap-2 text-orange-400 mb-2">
+            <div className="px-4 py-3 border-t border-red-900/30 bg-red-950/20">
+              <div className="flex items-center gap-2 text-red-400 mb-2">
                 <AlertTriangle className="w-4 h-4" />
                 <span className="text-xs font-bold uppercase tracking-wider">
                   {record.disputes.length} Active Dispute{record.disputes.length !== 1 ? "s" : ""}
@@ -330,7 +330,7 @@ export function VerificationPanel({ record, onReportDispute, className = "" }: V
             {onReportDispute && (
               <button 
                 onClick={onReportDispute}
-                className="flex-1 flex items-center justify-center gap-1 px-3 py-2 bg-orange-950/50 border border-orange-800 text-orange-400 hover:bg-orange-900/50 text-[10px] font-bold uppercase tracking-wider transition-colors"
+                className="flex-1 flex items-center justify-center gap-1 px-3 py-2 bg-red-950/50 border border-red-800 text-red-400 hover:bg-red-900/50 text-[10px] font-bold uppercase tracking-wider transition-colors"
               >
                 <AlertTriangle className="w-3 h-3" />
                 Report Issue

@@ -88,9 +88,9 @@ const TAMPERING_CHECKS: Record<EvidenceType, Array<Omit<TamperingCheck, "id" | "
 
 // Risk level configuration
 const riskLevelConfig = {
-  low: { label: "Low Risk", color: "text-emerald-400", bgColor: "bg-emerald-900/50", borderColor: "border-emerald-700" },
-  medium: { label: "Medium Risk", color: "text-yellow-400", bgColor: "bg-yellow-900/50", borderColor: "border-yellow-700" },
-  high: { label: "High Risk", color: "text-orange-400", bgColor: "bg-orange-900/50", borderColor: "border-orange-700" },
+  low: { label: "Low Risk", color: "text-red-400", bgColor: "bg-red-900/50", borderColor: "border-red-700" },
+  medium: { label: "Medium Risk", color: "text-red-400", bgColor: "bg-red-900/50", borderColor: "border-red-700" },
+  high: { label: "High Risk", color: "text-red-400", bgColor: "bg-red-900/50", borderColor: "border-red-700" },
   critical: { label: "Critical", color: "text-red-400", bgColor: "bg-red-900/50", borderColor: "border-red-700" },
 };
 
@@ -112,8 +112,8 @@ interface IntegrityBadgeProps {
 }
 
 const statusConfig = {
-  verified: { icon: Shield, label: "Verified Authentic", color: "text-emerald-400", bgColor: "bg-emerald-900/50", borderColor: "border-emerald-700" },
-  suspicious: { icon: AlertTriangle, label: "Suspicious", color: "text-yellow-400", bgColor: "bg-yellow-900/50", borderColor: "border-yellow-700" },
+  verified: { icon: Shield, label: "Verified Authentic", color: "text-red-400", bgColor: "bg-red-900/50", borderColor: "border-red-700" },
+  suspicious: { icon: AlertTriangle, label: "Suspicious", color: "text-red-400", bgColor: "bg-red-900/50", borderColor: "border-red-700" },
   tampered: { icon: AlertOctagon, label: "Tampering Detected", color: "text-red-400", bgColor: "bg-red-900/50", borderColor: "border-red-700" },
   unknown: { icon: Eye, label: "Not Analyzed", color: "text-zinc-400", bgColor: "bg-zinc-900/50", borderColor: "border-zinc-700" },
 };
@@ -163,9 +163,9 @@ export function RiskScore({ score, className = "" }: RiskScoreProps) {
       <div className="flex-1 h-2 bg-zinc-900">
         <div
           className={`h-full transition-all ${
-            level === "low" ? "bg-emerald-500" :
-            level === "medium" ? "bg-yellow-500" :
-            level === "high" ? "bg-orange-500" :
+            level === "low" ? "bg-red-500" :
+            level === "medium" ? "bg-red-500" :
+            level === "high" ? "bg-red-500" :
             "bg-red-500"
           }`}
           style={{ width: `${score}%` }}
@@ -186,9 +186,9 @@ interface TamperingCheckItemProps {
 
 export function TamperingCheckItem({ check, compact = false }: TamperingCheckItemProps) {
   const statusIcons = {
-    pass: { icon: CheckCircle, color: "text-emerald-500" },
+    pass: { icon: CheckCircle, color: "text-red-500" },
     fail: { icon: XCircle, color: "text-red-500" },
-    warning: { icon: AlertTriangle, color: "text-yellow-500" },
+    warning: { icon: AlertTriangle, color: "text-red-500" },
     skipped: { icon: Eye, color: "text-zinc-500" },
   };
 
@@ -332,13 +332,13 @@ export function IntegrityPanel({ report, onReanalyze, className = "" }: Integrit
 
       {/* Warnings */}
       {report.warnings.length > 0 && (
-        <div className="px-4 py-3 border-b border-yellow-900/30 bg-yellow-950/20">
-          <span className="text-[10px] font-bold text-yellow-400 uppercase tracking-wider block mb-2">
+        <div className="px-4 py-3 border-b border-red-900/30 bg-red-950/20">
+          <span className="text-[10px] font-bold text-red-400 uppercase tracking-wider block mb-2">
             Warnings
           </span>
           <ul className="space-y-1">
             {report.warnings.map((warning, idx) => (
-              <li key={idx} className="text-xs text-yellow-200/80 flex items-start gap-2">
+              <li key={idx} className="text-xs text-red-200/80 flex items-start gap-2">
                 <AlertTriangle className="w-3 h-3 flex-shrink-0 mt-0.5" />
                 {warning}
               </li>

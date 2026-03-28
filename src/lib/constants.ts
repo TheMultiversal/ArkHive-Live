@@ -95,12 +95,12 @@ export const EVIDENCE_TYPES = {
 export const VERIFICATION_STATUS = {
  verified: {
  label: 'Verified',
- color: 'text-emerald-400/70 bg-emerald-500/10',
+ color: 'text-red-400/70 bg-red-500/10',
  icon: 'Check',
  },
  disputed: {
  label: 'Disputed',
- color: 'text-amber-400/70 bg-amber-500/10',
+ color: 'text-red-400/70 bg-red-500/10',
  icon: 'AlertTriangle',
  },
  pending: {

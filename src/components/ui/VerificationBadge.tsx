@@ -28,9 +28,9 @@ const statusConfig: Record<VerificationStatus, {
   confirmed: {
     label: 'CONFIRMED',
     icon: ShieldCheck,
-    bgColor: 'bg-emerald-900/30',
-    textColor: 'text-emerald-400',
-    borderColor: 'border-emerald-500',
+    bgColor: 'bg-red-900/30',
+    textColor: 'text-red-400',
+    borderColor: 'border-red-500',
     description: '100% verified with court records, official documents, or multiple corroborating sources',
   },
   likely: {
@@ -44,17 +44,17 @@ const statusConfig: Record<VerificationStatus, {
   alleged: {
     label: 'ALLEGED',
     icon: ShieldQuestion,
-    bgColor: 'bg-yellow-900/30',
-    textColor: 'text-yellow-400',
-    borderColor: 'border-yellow-500',
+    bgColor: 'bg-red-900/30',
+    textColor: 'text-red-400',
+    borderColor: 'border-red-500',
     description: 'Some supporting evidence exists but requires additional verification, 30-69% score',
   },
   disputed: {
     label: 'DISPUTED',
     icon: AlertTriangle,
-    bgColor: 'bg-orange-900/30',
-    textColor: 'text-orange-400',
-    borderColor: 'border-orange-500',
+    bgColor: 'bg-red-900/30',
+    textColor: 'text-red-400',
+    borderColor: 'border-red-500',
     description: 'Counter-evidence exists or sources conflict, requires independent review',
   },
   unverified: {
@@ -121,9 +121,9 @@ interface VerificationProgressProps {
 
 export function VerificationProgress({ score, label }: VerificationProgressProps) {
   const getProgressColor = (score: number): string => {
-    if (score >= 100) return 'bg-emerald-500';
+    if (score >= 100) return 'bg-red-500';
     if (score >= 70) return 'bg-blood-500';
-    if (score >= 30) return 'bg-yellow-500';
+    if (score >= 30) return 'bg-red-500';
     return 'bg-zinc-500';
   };
 
@@ -188,7 +188,7 @@ export function VerificationSummaryCard({
       <div className="grid grid-cols-2 gap-4 mt-4">
         <div className="space-y-2">
           <div className="flex justify-between text-sm">
-            <span className="text-emerald-400">Confirmed</span>
+            <span className="text-red-400">Confirmed</span>
             <span className="text-zinc-300 font-mono">{confirmedClaims}/{totalClaims}</span>
           </div>
           <div className="flex justify-between text-sm">
@@ -196,13 +196,13 @@ export function VerificationSummaryCard({
             <span className="text-zinc-300 font-mono">{likelyClaims}/{totalClaims}</span>
           </div>
           <div className="flex justify-between text-sm">
-            <span className="text-yellow-400">Alleged</span>
+            <span className="text-red-400">Alleged</span>
             <span className="text-zinc-300 font-mono">{allegedClaims}/{totalClaims}</span>
           </div>
         </div>
         <div className="space-y-2">
           <div className="flex justify-between text-sm">
-            <span className="text-orange-400">Disputed</span>
+            <span className="text-red-400">Disputed</span>
             <span className="text-zinc-300 font-mono">{disputedClaims}/{totalClaims}</span>
           </div>
           <div className="flex justify-between text-sm">

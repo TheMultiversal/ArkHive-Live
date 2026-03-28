@@ -27,9 +27,9 @@ const eventTypeConfig = {
   },
   legal: {
     icon: Gavel,
-    color: 'text-yellow-500',
-    borderColor: 'border-yellow-600',
-    bgColor: 'bg-yellow-950',
+    color: 'text-red-500',
+    borderColor: 'border-red-600',
+    bgColor: 'bg-red-950',
   },
   political: {
     icon: Building2,
@@ -39,9 +39,9 @@ const eventTypeConfig = {
   },
   financial: {
     icon: DollarSign,
-    color: 'text-green-500',
-    borderColor: 'border-green-600',
-    bgColor: 'bg-green-950',
+    color: 'text-red-500',
+    borderColor: 'border-red-600',
+    bgColor: 'bg-red-950',
   },
   default: {
     icon: Clock,

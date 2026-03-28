@@ -144,7 +144,7 @@ export function PACERDocumentCard({ document, onVerify, className = "" }: PACERD
           <span className="text-xs font-bold text-white uppercase tracking-wider">Federal Court Record</span>
         </div>
         {document.verified && (
-          <span className="inline-flex items-center gap-1 px-2 py-0.5 bg-emerald-900/50 border border-emerald-700 text-emerald-400 text-[10px] font-bold uppercase tracking-wider">
+          <span className="inline-flex items-center gap-1 px-2 py-0.5 bg-red-900/50 border border-red-700 text-red-400 text-[10px] font-bold uppercase tracking-wider">
             <CheckCircle className="w-3 h-3" />
             Verified
           </span>
@@ -236,7 +236,7 @@ export function PACERDocumentCard({ document, onVerify, className = "" }: PACERD
           {onVerify && !document.verified && (
             <button
               onClick={() => onVerify(document)}
-              className="inline-flex items-center gap-1 px-3 py-1.5 bg-emerald-950 border border-emerald-800 text-emerald-400 hover:bg-emerald-900 text-[10px] font-bold uppercase tracking-wider transition-colors"
+              className="inline-flex items-center gap-1 px-3 py-1.5 bg-red-950 border border-red-800 text-red-400 hover:bg-red-900 text-[10px] font-bold uppercase tracking-wider transition-colors"
             >
               <CheckCircle className="w-3 h-3" />
               Verify
@@ -319,7 +319,7 @@ export function CourtDocumentsList({
                     </span>
                   )}
                   {doc.verified && (
-                    <CheckCircle className="w-3 h-3 text-emerald-500" />
+                    <CheckCircle className="w-3 h-3 text-red-500" />
                   )}
                 </div>
                 <h4 className="text-sm font-medium text-white truncate">{doc.title}</h4>

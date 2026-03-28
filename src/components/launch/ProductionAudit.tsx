@@ -544,8 +544,8 @@ const CATEGORY_ICONS: Record<AuditCategory, ReactElement> = {
 
 const SEVERITY_COLORS: Record<SeverityLevel, string> = {
   critical: 'bg-zinc-800/50 text-zinc-300 border-zinc-700',
-  high: 'bg-orange-900/50 text-orange-300 border-orange-700',
-  medium: 'bg-yellow-900/50 text-yellow-300 border-yellow-700',
+  high: 'bg-red-900/50 text-red-300 border-red-700',
+  medium: 'bg-red-900/50 text-red-300 border-red-700',
   low: 'bg-blood-900/50 text-blood-300 border-blood-700',
   info: 'bg-zinc-800 text-zinc-400 border-zinc-700',
 };
@@ -584,9 +584,9 @@ interface ScoreCardProps {
 
 function ScoreCard({ score }: ScoreCardProps): ReactElement {
   const getScoreColor = () => {
-    if (score.score >= 90) return 'text-green-400';
-    if (score.score >= 70) return 'text-yellow-400';
-    if (score.score >= 50) return 'text-orange-400';
+    if (score.score >= 90) return 'text-red-400';
+    if (score.score >= 70) return 'text-red-400';
+    if (score.score >= 50) return 'text-red-400';
     return 'text-zinc-400';
   };
 
@@ -604,7 +604,7 @@ function ScoreCard({ score }: ScoreCardProps): ReactElement {
       </div>
       <div className="mt-3 h-2 bg-black/50">
         <div 
-          className={`h-full transition-all duration-500 ${score.score >= 90 ? 'bg-green-600' : score.score >= 70 ? 'bg-yellow-600' : score.score >= 50 ? 'bg-orange-600' : 'bg-zinc-700'}`}
+          className={`h-full transition-all duration-500 ${score.score >= 90 ? 'bg-red-600' : score.score >= 70 ? 'bg-red-600' : score.score >= 50 ? 'bg-red-600' : 'bg-zinc-700'}`}
           style={{ width: `${score.score}%` }}
         />
       </div>
@@ -768,7 +768,7 @@ export function ProductionAudit({ config = {}, onComplete }: ProductionAuditProp
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-6">
                 <div className="text-center">
-                  <div className={`text-5xl font-bold ${result.overallScore >= 90 ? 'text-green-400' : result.overallScore >= 70 ? 'text-yellow-400' : result.overallScore >= 50 ? 'text-orange-400' : 'text-zinc-400'}`}>
+                  <div className={`text-5xl font-bold ${result.overallScore >= 90 ? 'text-red-400' : result.overallScore >= 70 ? 'text-red-400' : result.overallScore >= 50 ? 'text-red-400' : 'text-zinc-400'}`}>
                     {result.overallScore}
                   </div>
                   <div className="text-sm text-zinc-500 mt-1">Overall Score</div>
@@ -778,13 +778,13 @@ export function ProductionAudit({ config = {}, onComplete }: ProductionAuditProp
                 
                 <div className="flex items-center gap-4">
                   {result.status === 'pass' && (
-                    <div className="flex items-center gap-2 text-green-400">
+                    <div className="flex items-center gap-2 text-red-400">
                       <CheckCircle2 className="w-6 h-6" />
                       <span className="font-medium">Ready to Deploy</span>
                     </div>
                   )}
                   {result.status === 'warning' && (
-                    <div className="flex items-center gap-2 text-yellow-400">
+                    <div className="flex items-center gap-2 text-red-400">
                       <AlertTriangle className="w-6 h-6" />
                       <span className="font-medium">Review Recommended</span>
                     </div>
@@ -803,10 +803,10 @@ export function ProductionAudit({ config = {}, onComplete }: ProductionAuditProp
                   <span className="text-zinc-400">{result.criticalCount} Critical</span>
                 )}
                 {result.highCount > 0 && (
-                  <span className="text-orange-400">{result.highCount} High</span>
+                  <span className="text-red-400">{result.highCount} High</span>
                 )}
                 {result.mediumCount > 0 && (
-                  <span className="text-yellow-400">{result.mediumCount} Medium</span>
+                  <span className="text-red-400">{result.mediumCount} Medium</span>
                 )}
                 {result.lowCount > 0 && (
                   <span className="text-blood-400">{result.lowCount} Low</span>

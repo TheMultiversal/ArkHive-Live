@@ -311,7 +311,7 @@ function CollapsibleGlass({
     <div className="glass-card overflow-hidden relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center gap-2 p-2 sm:p-2.5 cursor-pointer select-none group relative z-10"
+        className="w-full flex items-center gap-2 p-1.5 sm:p-2 cursor-pointer select-none group relative z-10"
       >
         <div className="flex items-center justify-center w-6 h-6 flex-shrink-0 relative"
           style={{
@@ -342,7 +342,7 @@ function CollapsibleGlass({
 
       {/* Animated accent line below header */}
       <motion.div
-        className="h-px mx-2 sm:mx-2.5"
+        className="h-px mx-1.5 sm:mx-2"
         style={{ background: `linear-gradient(90deg, ${accent}, transparent 80%)`, transformOrigin: 'left' }}
         initial={{ scaleX: 0, opacity: 0 }}
         animate={{ scaleX: isOpen ? 1 : 0, opacity: isOpen ? 1 : 0 }}
@@ -358,7 +358,7 @@ function CollapsibleGlass({
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="overflow-hidden"
           >
-            <div className="px-2 sm:px-2.5 pb-2.5 pt-2">
+            <div className="px-1.5 sm:px-2 pb-2 pt-1.5">
               {children}
             </div>
           </motion.div>
@@ -459,8 +459,8 @@ function AccountabilityEngine({ content, slug, investigation }: {
           background: 'linear-gradient(135deg, rgba(184,0,0,0.10) 0%, transparent 40%, rgba(184,0,0,0.04) 100%)',
         }} />
 
-        <div className="relative z-10 p-2.5 sm:p-3 lg:p-4">
-          <div className="flex flex-col sm:flex-row sm:items-start gap-2.5 mb-2">
+        <div className="relative z-10 p-2 sm:p-2.5 lg:p-3">
+          <div className="flex flex-col sm:flex-row sm:items-start gap-2 mb-1.5">
             <div className="relative w-8 h-8 flex items-center justify-center flex-shrink-0">
               <div className="absolute inset-0 bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.20)]" />
               <Target className="w-5 h-5 text-red-400 relative z-10" />
@@ -480,7 +480,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
             </div>
           </div>
 
-          <div className="mb-2.5">
+          <div className="mb-2">
             <p className="text-[10px] text-zinc-500 leading-[1.6]">
               Real accountability requires direct action. Every operation below targets a specific vulnerability. Deploy them.
             </p>
@@ -531,7 +531,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
             {/* Track accent bar */}
             <div className="h-[2px] w-full" style={{ background: `linear-gradient(90deg, ${meta.color}50, ${meta.color}15, transparent)` }} />
 
-            <div className="p-2 sm:p-2.5 pb-0">
+            <div className="p-1.5 sm:p-2 pb-0">
               <div className="flex items-center gap-2 mb-1.5">
                 <div className="w-6 h-6 flex items-center justify-center border flex-shrink-0 relative"
                   style={{ borderColor: `${meta.color}20`, background: `${meta.color}06` }}>
@@ -563,13 +563,13 @@ function AccountabilityEngine({ content, slug, investigation }: {
               </div>
             </div>
 
-            <div className="p-2 sm:p-2.5 pt-1 space-y-0.5">
+            <div className="p-1.5 sm:p-2 pt-1 space-y-0.5">
               {trackOps.map(op => {
                 const isComplete = completedOps.has(op.id);
                 return (
                   <motion.div
                     key={op.id}
-                    className={`relative border p-2.5 sm:p-3 transition-all duration-300 group/op ${
+                    className={`relative border p-2 sm:p-2.5 transition-all duration-300 group/op ${
                       isComplete
                         ? 'bg-[rgba(255,255,255,0.01)] border-zinc-800/20'
                         : 'bg-[rgba(255,255,255,0.015)] border-[rgba(255,255,255,0.05)] hover:border-[rgba(184,0,0,0.18)] hover:bg-[rgba(255,255,255,0.03)]'
@@ -577,7 +577,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
                     style={isComplete ? { borderLeftWidth: 3, borderLeftColor: `${meta.color}25` } : { borderLeftWidth: 3, borderLeftColor: 'transparent' }}
                     whileHover={!isComplete ? { borderLeftColor: `${meta.color}40` } : undefined}
                   >
-                    <div className="flex items-start gap-4">
+                    <div className="flex items-start gap-3">
                       <button
                         onClick={() => toggleOp(op.id)}
                         className={`w-6 h-6 border-2 flex items-center justify-center flex-shrink-0 mt-0.5 transition-all duration-300 ${
@@ -963,9 +963,9 @@ export default function InvestigationPage() {
             background: `linear-gradient(90deg, transparent 2%, ${sevCfg.color}40 20%, ${sevCfg.color}70 50%, ${sevCfg.color}40 80%, transparent 98%)`,
           }} />
 
-          <div className="relative z-10 p-2.5 sm:p-3 lg:p-4">
+          <div className="relative z-10 p-2 sm:p-2.5 lg:p-3">
             {/* Navigation + severity badge */}
-            <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center justify-between mb-1.5">
               <Link href="/investigations"
                 className="flex items-center gap-2 text-zinc-500 hover:text-white transition-colors text-[11px] font-mono tracking-[0.2em] group">
                 <ArrowLeft className="w-3 h-3 group-hover:-translate-x-1 transition-transform" /> INVESTIGATIONS

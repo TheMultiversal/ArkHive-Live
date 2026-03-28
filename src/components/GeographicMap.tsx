@@ -89,12 +89,12 @@ const REGIONS: Record<string, { label: string; states: string[]; color: string }
   southeast: { 
     label: 'Southeast', 
     states: ['AL', 'AR', 'FL', 'GA', 'KY', 'LA', 'MS', 'NC', 'SC', 'TN', 'VA', 'WV'],
-    color: 'text-orange-400'
+    color: 'text-red-400'
   },
   midwest: { 
     label: 'Midwest', 
     states: ['IA', 'IL', 'IN', 'KS', 'MI', 'MN', 'MO', 'ND', 'NE', 'OH', 'SD', 'WI'],
-    color: 'text-green-400'
+    color: 'text-red-400'
   },
   southwest: { 
     label: 'Southwest', 
@@ -104,25 +104,25 @@ const REGIONS: Record<string, { label: string; states: string[]; color: string }
   west: { 
     label: 'West', 
     states: ['AK', 'CA', 'CO', 'HI', 'ID', 'MT', 'NV', 'OR', 'UT', 'WA', 'WY'],
-    color: 'text-purple-400'
+    color: 'text-red-400'
   },
   dc: { 
     label: 'Washington D.C.', 
     states: ['DC'],
-    color: 'text-yellow-400'
+    color: 'text-red-400'
   },
   international: { 
     label: 'International', 
     states: [],
-    color: 'text-cyan-400'
+    color: 'text-red-400'
   },
 };
 
 const entityTypeConfig = {
   individual: { icon: User, color: 'text-blood-400' },
-  agency: { icon: Landmark, color: 'text-emerald-400' },
-  corporation: { icon: Building2, color: 'text-orange-400' },
-  organization: { icon: Users, color: 'text-purple-400' },
+  agency: { icon: Landmark, color: 'text-red-400' },
+  corporation: { icon: Building2, color: 'text-red-400' },
+  organization: { icon: Users, color: 'text-red-400' },
 };
 
 /**
@@ -327,16 +327,16 @@ export default function GeographicMap({ compact = false }: GeographicMapProps) {
           <div className="text-2xl font-bold text-white">{stats.total}</div>
           <div className="text-xs text-zinc-500">Total Entities</div>
         </div>
-        <div className="glass-card border border-yellow-500/30 p-4">
-          <div className="text-2xl font-bold text-yellow-500">{stats.dc}</div>
+        <div className="glass-card border border-red-500/30 p-4">
+          <div className="text-2xl font-bold text-red-500">{stats.dc}</div>
           <div className="text-xs text-zinc-500">Washington D.C.</div>
         </div>
         <div className="glass-card border border-blood-500/30 p-4">
           <div className="text-2xl font-bold text-blood-500">{stats.domestic}</div>
           <div className="text-xs text-zinc-500">Other U.S.</div>
         </div>
-        <div className="glass-card border border-cyan-500/30 p-4">
-          <div className="text-2xl font-bold text-cyan-500">{stats.international}</div>
+        <div className="glass-card border border-red-500/30 p-4">
+          <div className="text-2xl font-bold text-red-500">{stats.international}</div>
           <div className="text-xs text-zinc-500">International</div>
         </div>
       </div>
@@ -406,12 +406,12 @@ export function TopLocationsWidget() {
       </h3>
       <div className="space-y-2">
         <div className="flex items-center gap-2">
-          <MapPin className="w-3 h-3 text-yellow-400" />
+          <MapPin className="w-3 h-3 text-red-400" />
           <span className="text-sm text-zinc-300">Washington D.C.</span>
           <span className="text-xs text-zinc-500 ml-auto">{dc}</span>
         </div>
         <div className="flex items-center gap-2">
-          <MapPin className="w-3 h-3 text-cyan-400" />
+          <MapPin className="w-3 h-3 text-red-400" />
           <span className="text-sm text-zinc-300">International</span>
           <span className="text-xs text-zinc-500 ml-auto">{intl}</span>
         </div>

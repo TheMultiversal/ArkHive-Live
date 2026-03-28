@@ -159,14 +159,14 @@ const TOPICS: {
 
 const SEVERITY_COLORS = {
  critical: 'border-l-red-600 hover:border-l-red-400',
- high: 'border-l-orange-600 hover:border-l-orange-400',
- medium: 'border-l-yellow-600 hover:border-l-yellow-400',
+ high: 'border-l-red-600 hover:border-l-red-400',
+ medium: 'border-l-red-600 hover:border-l-red-400',
 };
 
 const SEVERITY_DOTS = {
  critical: 'bg-red-500',
- high: 'bg-orange-500',
- medium: 'bg-yellow-600',
+ high: 'bg-red-500',
+ medium: 'bg-red-600',
 };
 
 // ── Quick-nav items (compact number links) ────────────────────
@@ -232,11 +232,11 @@ export default function StatsDisplay({ stats: initialStats }: StatsDisplayProps)
     <div className="flex items-center justify-between">
      <div className="flex items-center gap-2 text-xs">
       <motion.div
-       className={`w-2 h-2 ${isLive ? 'bg-green-500' : 'bg-zinc-600'}`}
+       className={`w-2 h-2 ${isLive ? 'bg-red-500' : 'bg-zinc-600'}`}
        animate={isLive ? { opacity: [1, 0.3, 1], scale: [1, 1.3, 1] } : {}}
        transition={{ duration: 1.5, repeat: Infinity }}
       />
-      <span className={isLive ? 'text-green-500/80' : 'text-zinc-600'}>
+      <span className={isLive ? 'text-red-500/80' : 'text-zinc-600'}>
        {isLive ? 'LIVE ARCHIVE' : 'STATIC'}
       </span>
      </div>

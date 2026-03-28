@@ -97,11 +97,11 @@ const conflictTypeLabels: Record<ConflictType, string> = {
 };
 
 const conflictTypeColors: Record<ConflictType, string> = {
- edit:"text-amber-400 bg-amber-500/10 border-amber-500/30",
+ edit:"text-red-400 bg-red-500/10 border-red-500/30",
  delete:"text-red-400 bg-red-500/10 border-red-500/30",
  move:"text-blood-400 bg-blood-500/10 border-blood-500/30",
- concurrent:"text-purple-400 bg-purple-500/10 border-purple-500/30",
- schema:"text-orange-400 bg-orange-500/10 border-orange-500/30",
+ concurrent:"text-red-400 bg-red-500/10 border-red-500/30",
+ schema:"text-red-400 bg-red-500/10 border-red-500/30",
 };
 
 const strategyLabels: Record<ResolutionStrategy, string> = {
@@ -209,7 +209,7 @@ export function DiffView({
  key={i}
  className={
  item.type ==="added"
- ?"bg-emerald-500/10"
+ ?"bg-red-500/10"
  : item.type ==="removed"
  ?"bg-red-500/10"
  :""
@@ -224,7 +224,7 @@ export function DiffView({
  <span
  className={
  item.type ==="added"
- ?"text-emerald-400"
+ ?"text-red-400"
  : item.type ==="removed"
  ?"text-red-400"
  :"text-zinc-300"
@@ -269,7 +269,7 @@ export function DiffView({
  return (
  <tr
  key={i}
- className={isDifferent ?"bg-amber-500/10" :""}
+ className={isDifferent ?"bg-red-500/10" :""}
  >
  {showLineNumbers && (
  <td className="w-10 px-2 py-0.5 text-right text-zinc-600 select-none border-r border-zinc-800">
@@ -298,7 +298,7 @@ export function DiffView({
  return (
  <tr
  key={i}
- className={isDifferent ?"bg-cyan-500/10" :""}
+ className={isDifferent ?"bg-red-500/10" :""}
  >
  {showLineNumbers && (
  <td className="w-10 px-2 py-0.5 text-right text-zinc-600 select-none border-r border-zinc-800">
@@ -344,7 +344,7 @@ export function FieldResolver({
  <div className={`p-3 bg-zinc-900/50 border border-zinc-800 ${className}`}>
  <div className="flex items-center justify-between mb-2">
  <span className="text-sm font-medium text-zinc-400">{field.name}</span>
- <span className="text-xs text-emerald-400 flex items-center gap-1">
+ <span className="text-xs text-red-400 flex items-center gap-1">
  <Check className="w-3 h-3" />
  No conflict
  </span>
@@ -355,9 +355,9 @@ export function FieldResolver({
  }
 
  return (
- <div className={`p-3 bg-zinc-900/50 border border-amber-500/30 ${className}`}>
+ <div className={`p-3 bg-zinc-900/50 border border-red-500/30 ${className}`}>
  <div className="flex items-center justify-between mb-3">
- <span className="text-sm font-medium text-amber-400">{field.name}</span>
+ <span className="text-sm font-medium text-red-400">{field.name}</span>
  <div className="flex items-center gap-2">
  <button
  onClick={() => setShowDiff(!showDiff)}
@@ -369,7 +369,7 @@ export function FieldResolver({
  <Diff className="w-4 h-4" />
  </button>
  {field.resolution && (
- <span className="text-xs text-emerald-400 flex items-center gap-1">
+ <span className="text-xs text-red-400 flex items-center gap-1">
  <Check className="w-3 h-3" />
  Resolved
  </span>
@@ -389,7 +389,7 @@ export function FieldResolver({
  onClick={() => onResolve("local")}
  className={`p-3 border transition-colors text-left ${
  field.resolution ==="local"
- ?"border-emerald-500/50 bg-emerald-500/10"
+ ?"border-red-500/50 bg-red-500/10"
  :"border-zinc-700 hover:border-zinc-600"
  }`}
  >
@@ -404,7 +404,7 @@ export function FieldResolver({
  onClick={() => onResolve("remote")}
  className={`p-3 border transition-colors text-left ${
  field.resolution ==="remote"
- ?"border-emerald-500/50 bg-emerald-500/10"
+ ?"border-red-500/50 bg-red-500/10"
  :"border-zinc-700 hover:border-zinc-600"
  }`}
  >
@@ -553,7 +553,7 @@ export function ConflictCard({
  <span className="font-medium text-white">{conflict.entityName}</span>
  <ConflictBadge type={conflict.type} />
  {conflict.resolved && (
- <span className="px-2 py-0.5 text-xs bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+ <span className="px-2 py-0.5 text-xs bg-red-500/20 text-red-400 border border-red-500/30">
  Resolved
  </span>
  )}
@@ -686,7 +686,7 @@ export default function ConflictResolutionPanel({
  if (conflicts.length === 0) {
  return (
  <div className={`glass-card p-8 text-center ${className}`}>
- <Check className="w-12 h-12 text-emerald-500 mx-auto mb-4" />
+ <Check className="w-12 h-12 text-red-500 mx-auto mb-4" />
  <h3 className="text-lg font-medium text-white mb-2">No Conflicts</h3>
  <p className="text-sm text-zinc-400">
  All changes are in sync. No conflicts to resolve.
@@ -701,7 +701,7 @@ export default function ConflictResolutionPanel({
  <div className="glass-card mb-4">
  <div className="flex items-center justify-between p-4">
  <div className="flex items-center gap-3">
- <div className="p-2 bg-amber-500/10 text-amber-400">
+ <div className="p-2 bg-red-500/10 text-red-400">
  <GitPullRequest className="w-6 h-6" />
  </div>
  <div>

@@ -33,15 +33,15 @@ export default function ConvictionsPage() {
                 <span className="text-zinc-400">Convicted</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-orange-500"></div>
+                <div className="w-3 h-3 bg-red-500/80"></div>
                 <span className="text-zinc-400">Indicted</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-yellow-500"></div>
+                <div className="w-3 h-3 bg-red-500/60"></div>
                 <span className="text-zinc-400">Charged</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-purple-500"></div>
+                <div className="w-3 h-3 bg-red-500/40"></div>
                 <span className="text-zinc-400">Pardoned</span>
               </div>
               <div className="flex items-center gap-2">
@@ -53,9 +53,9 @@ export default function ConvictionsPage() {
         </div>
         
         {/* Important Notice */}
-        <div className="glass-card border border-yellow-900/30 p-4 mb-8">
+        <div className="glass-card border border-red-900/30 p-4 mb-8">
           <div className="flex items-start gap-3">
-            <AlertTriangle className="w-5 h-5 text-yellow-500 mt-0.5 shrink-0" />
+            <AlertTriangle className="w-5 h-5 text-red-500 mt-0.5 shrink-0" />
             <div>
               <h3 className="text-white font-semibold mb-1">About This Data</h3>
               <p className="text-sm text-zinc-400">
@@ -95,7 +95,7 @@ export default function ConvictionsPage() {
             </div>
             <div>
               <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
-                <Award className="w-4 h-4 text-purple-500" />
+                <Award className="w-4 h-4 text-red-500" />
                 Presidential Pardons
               </h4>
               <p>

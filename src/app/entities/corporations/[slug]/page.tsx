@@ -10,8 +10,8 @@ import investigationDatabase from '@/data/investigations';
 
 const riskColors: Record<string, string> = {
   extreme: 'border-red-600 text-red-400 bg-red-950/30',
-  high: 'border-orange-600 text-orange-400 bg-orange-950/30',
-  moderate: 'border-yellow-600 text-yellow-400 bg-yellow-950/30',
+  high: 'border-red-700 text-red-400/80 bg-red-950/20',
+  moderate: 'border-red-800 text-red-400/60 bg-red-950/15',
   low: 'border-zinc-600 text-zinc-400 bg-zinc-900/30',
 };
 

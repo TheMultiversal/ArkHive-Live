@@ -159,7 +159,7 @@ export function ArchiveStatus({
           href={getWaybackUrl(url, snapshot.timestamp)}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 px-2 py-1 bg-emerald-900/50 border border-emerald-700 text-emerald-400 hover:bg-emerald-900/70 transition-colors"
+          className="inline-flex items-center gap-1 px-2 py-1 bg-red-900/50 border border-red-700 text-red-400 hover:bg-red-900/70 transition-colors"
           title={`Archived on ${formatWaybackTimestamp(snapshot.timestamp)}`}
           aria-label={`View archived version from ${formatWaybackTimestamp(snapshot.timestamp)}`}
         >
@@ -167,7 +167,7 @@ export function ArchiveStatus({
           {!compact && (
             <>
               <span className="text-[10px] font-bold uppercase tracking-wider">Archived</span>
-              <span className="text-[10px] text-emerald-500">{formatWaybackTimestamp(snapshot.timestamp)}</span>
+              <span className="text-[10px] text-red-500">{formatWaybackTimestamp(snapshot.timestamp)}</span>
             </>
           )}
         </a>
@@ -276,7 +276,7 @@ export function SourceArchivePanel({ url, title, className = "" }: SourceArchive
         </div>
       ) : snapshot ? (
         <div className="space-y-2">
-          <div className="flex items-center gap-2 text-emerald-400">
+          <div className="flex items-center gap-2 text-red-400">
             <CheckCircle className="w-4 h-4" />
             <span className="text-sm font-medium">Archived</span>
           </div>
@@ -288,7 +288,7 @@ export function SourceArchivePanel({ url, title, className = "" }: SourceArchive
               href={getWaybackUrl(url, snapshot.timestamp)}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex-1 flex items-center justify-center gap-1 px-3 py-2 bg-emerald-900/50 border border-emerald-700 text-emerald-400 hover:bg-emerald-900/70 text-xs font-bold uppercase tracking-wider transition-colors"
+              className="flex-1 flex items-center justify-center gap-1 px-3 py-2 bg-red-900/50 border border-red-700 text-red-400 hover:bg-red-900/70 text-xs font-bold uppercase tracking-wider transition-colors"
             >
               <ExternalLink className="w-3 h-3" />
               View Archive

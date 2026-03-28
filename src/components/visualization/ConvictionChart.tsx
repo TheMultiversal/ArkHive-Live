@@ -92,12 +92,12 @@ function formatCurrency(amount: number): string {
 const statusColors: Record<string, { bg: string; text: string; label: string }> = {
   convicted: { bg: "bg-red-900/50", text: "text-red-400", label: "Convicted" },
   incarcerated: { bg: "bg-red-900/70", text: "text-red-300", label: "Incarcerated" },
-  indicted: { bg: "bg-orange-900/50", text: "text-orange-400", label: "Indicted" },
-  charged: { bg: "bg-yellow-900/50", text: "text-yellow-400", label: "Charged" },
-  pending: { bg: "bg-yellow-900/40", text: "text-yellow-500", label: "Pending" },
-  appealing: { bg: "bg-amber-900/40", text: "text-amber-400", label: "Appealing" },
-  pardoned: { bg: "bg-purple-900/50", text: "text-purple-400", label: "Pardoned" },
-  acquitted: { bg: "bg-green-900/50", text: "text-green-400", label: "Acquitted" },
+  indicted: { bg: "bg-red-900/50", text: "text-red-400", label: "Indicted" },
+  charged: { bg: "bg-red-900/50", text: "text-red-400", label: "Charged" },
+  pending: { bg: "bg-red-900/40", text: "text-red-500", label: "Pending" },
+  appealing: { bg: "bg-red-900/40", text: "text-red-400", label: "Appealing" },
+  pardoned: { bg: "bg-red-900/50", text: "text-red-400", label: "Pardoned" },
+  acquitted: { bg: "bg-red-900/50", text: "text-red-400", label: "Acquitted" },
   settled: { bg: "bg-blood-900/50", text: "text-blood-400", label: "Settled" },
   released: { bg: "bg-zinc-800/50", text: "text-zinc-400", label: "Released" },
 };
@@ -200,7 +200,7 @@ export default function ConvictionComparisonChart({
                         {defendant.name}
                       </span>
                       {defendant.pardonDate && (
-                        <span className="text-[10px] text-purple-400">
+                        <span className="text-[10px] text-red-400">
                           Pardoned {defendant.pardonDate}
                         </span>
                       )}
@@ -233,7 +233,7 @@ export default function ConvictionComparisonChart({
                     <div className="flex items-center gap-2">
                       <div className="flex-1 h-3 bg-zinc-800/50 overflow-hidden">
                         <div 
-                          className="h-full bg-gradient-to-r from-green-900 to-green-600 transition-all duration-300"
+                          className="h-full bg-gradient-to-r from-red-900 to-red-600 transition-all duration-300"
                           style={{ width: `${fineBarWidth}%` }}
                         />
                       </div>
@@ -299,7 +299,7 @@ export default function ConvictionComparisonChart({
                       {defendant.pardonedBy && (
                         <div>
                           <span className="text-zinc-500">Pardoned by: </span>
-                          <span className="text-purple-400">{defendant.pardonedBy}</span>
+                          <span className="text-red-400">{defendant.pardonedBy}</span>
                         </div>
                       )}
                     </div>

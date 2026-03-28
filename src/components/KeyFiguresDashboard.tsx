@@ -257,16 +257,16 @@ export function KeyFiguresDashboard() {
 
   const getRiskColor = (score: number) => {
     if (score >= 150) return 'bg-red-500';
-    if (score >= 100) return 'bg-orange-500';
-    if (score >= 50) return 'bg-yellow-500';
+    if (score >= 100) return 'bg-red-500';
+    if (score >= 50) return 'bg-red-500';
     return 'bg-zinc-500';
   };
 
   const getStatusBadges = (figure: KeyFigure) => {
     const badges = [];
     if (figure.isConvicted) badges.push({ text: 'Convicted', color: 'bg-red-500/20 text-red-400' });
-    if (figure.isPardoned) badges.push({ text: 'Pardoned', color: 'bg-purple-500/20 text-purple-400' });
-    if (figure.isIndicted && !figure.isConvicted) badges.push({ text: 'Indicted', color: 'bg-orange-500/20 text-orange-400' });
+    if (figure.isPardoned) badges.push({ text: 'Pardoned', color: 'bg-red-500/20 text-red-400' });
+    if (figure.isIndicted && !figure.isConvicted) badges.push({ text: 'Indicted', color: 'bg-red-500/20 text-red-400' });
     return badges;
   };
 
@@ -337,15 +337,15 @@ export function KeyFiguresDashboard() {
           <div className="text-xs text-zinc-500">Convicted</div>
         </div>
         <div className="glass-card p-4 text-center">
-          <div className="text-2xl font-bold text-purple-400">{stats.pardoned}</div>
+          <div className="text-2xl font-bold text-red-400">{stats.pardoned}</div>
           <div className="text-xs text-zinc-500">Pardoned</div>
         </div>
         <div className="glass-card p-4 text-center">
-          <div className="text-2xl font-bold text-orange-400">{stats.indicted}</div>
+          <div className="text-2xl font-bold text-red-400">{stats.indicted}</div>
           <div className="text-xs text-zinc-500">Indicted</div>
         </div>
         <div className="glass-card p-4 text-center">
-          <div className="text-2xl font-bold text-yellow-400">{stats.highRisk}</div>
+          <div className="text-2xl font-bold text-red-400">{stats.highRisk}</div>
           <div className="text-xs text-zinc-500">High Risk</div>
         </div>
       </div>
@@ -414,8 +414,8 @@ export function KeyFiguresDashboard() {
                     <span className="text-zinc-500">Risk: </span>
                     <span className={`font-bold ${
                       figure.riskScore >= 150 ? 'text-red-400' :
-                      figure.riskScore >= 100 ? 'text-orange-400' :
-                      figure.riskScore >= 50 ? 'text-yellow-400' :
+                      figure.riskScore >= 100 ? 'text-red-400' :
+                      figure.riskScore >= 50 ? 'text-red-400' :
                       'text-zinc-400'
                     }`}>
                       {figure.riskScore}
@@ -516,9 +516,9 @@ export function KeyFiguresDashboard() {
                     </div>
                     <span className={`px-2 py-0.5 text-xs uppercase ${
                       investigation.severity === 'critical' ? 'bg-red-500/20 text-red-400' :
-                      investigation.severity === 'high' ? 'bg-orange-500/20 text-orange-400' :
-                      investigation.severity === 'medium' ? 'bg-yellow-500/20 text-yellow-400' :
-                      'bg-green-500/20 text-green-400'
+                      investigation.severity === 'high' ? 'bg-red-500/20 text-red-400' :
+                      investigation.severity === 'medium' ? 'bg-red-500/20 text-red-400' :
+                      'bg-red-500/20 text-red-400'
                     }`}>
                       {investigation.severity}
                     </span>
@@ -558,8 +558,8 @@ export function TopFiguresWidget({ limit = 5 }: { limit?: number }) {
             </div>
             <div className={`w-2 h-6 ${
               figure.riskScore >= 150 ? 'bg-red-500' :
-              figure.riskScore >= 100 ? 'bg-orange-500' :
-              figure.riskScore >= 50 ? 'bg-yellow-500' :
+              figure.riskScore >= 100 ? 'bg-red-500' :
+              figure.riskScore >= 50 ? 'bg-red-500' :
               'bg-zinc-500'
             }`} />
           </div>

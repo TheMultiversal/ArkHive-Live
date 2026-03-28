@@ -78,8 +78,8 @@ export interface AnnotationReply {
 // ============================================================================
 
 const statusColors: Record<PresenceStatus, string> = {
- online:"bg-emerald-500",
- away:"bg-amber-500",
+ online:"bg-red-500",
+ away:"bg-red-500",
  busy:"bg-red-500",
  offline:"bg-zinc-500",
 };
@@ -379,7 +379,7 @@ export function CollaboratorList({
  {onCall && collaborator.status ==="online" && (
  <button
  onClick={() => onCall(collaborator.id)}
- className="p-1.5 text-zinc-500 hover:text-emerald-400 transition-colors"
+ className="p-1.5 text-zinc-500 hover:text-red-400 transition-colors"
  title="Start call"
  >
  <Video className="w-4 h-4" />
@@ -518,7 +518,7 @@ export function AnnotationPanel({
  {annotation.authorName}
  </span>
  {annotation.resolved && (
- <span className="px-1.5 py-0.5 text-xs bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+ <span className="px-1.5 py-0.5 text-xs bg-red-500/20 text-red-400 border border-red-500/30">
  Resolved
  </span>
  )}
@@ -604,7 +604,7 @@ export function AnnotationPanel({
  {!annotation.resolved && (
  <button
  onClick={onResolve}
- className="flex items-center gap-1 text-xs text-emerald-400 hover:text-emerald-300 transition-colors"
+ className="flex items-center gap-1 text-xs text-red-400 hover:text-red-300 transition-colors"
  >
  <CheckCircle className="w-3.5 h-3.5" />
  Resolve
@@ -698,7 +698,7 @@ export function CollaborationToolbar({
  {onStartCall && onlineCount > 1 && (
  <button
  onClick={onStartCall}
- className="p-2 text-zinc-400 hover:text-emerald-400 hover:bg-zinc-800 transition-colors"
+ className="p-2 text-zinc-400 hover:text-red-400 hover:bg-zinc-800 transition-colors"
  title="Start call"
  >
  <Video className="w-4 h-4" />

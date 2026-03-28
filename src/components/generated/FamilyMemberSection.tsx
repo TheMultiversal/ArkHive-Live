@@ -379,7 +379,7 @@ interface ErrorToastProps {
 export function ErrorToast({ error, onDismiss }: ErrorToastProps): React.ReactElement {
   const severityConfig = {
     info: { bg: 'bg-blood-900/80', border: 'border-blood-700', icon: 'text-blood-400' },
-    warning: { bg: 'bg-yellow-900/80', border: 'border-yellow-700', icon: 'text-yellow-400' },
+    warning: { bg: 'bg-red-900/80', border: 'border-red-700', icon: 'text-red-400' },
     error: { bg: 'bg-zinc-800/80', border: 'border-zinc-700', icon: 'text-zinc-400' },
     critical: { bg: 'bg-zinc-800', border: 'border-zinc-600', icon: 'text-zinc-300' },
   };
@@ -501,7 +501,7 @@ interface SeverityBadgeProps {
 export function SeverityBadge({ severity }: SeverityBadgeProps): React.ReactElement {
   const config = {
     info: 'bg-blood-900/50 text-blood-400',
-    warning: 'bg-yellow-900/50 text-yellow-400',
+    warning: 'bg-red-900/50 text-red-400',
     error: 'bg-zinc-800/50 text-zinc-400',
     critical: 'bg-zinc-800 text-zinc-300',
   };

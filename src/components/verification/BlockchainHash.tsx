@@ -105,7 +105,7 @@ export function HashDisplay({
           className="p-1 text-zinc-600 hover:text-white transition-colors"
           title="Copy full hash"
         >
-          {copied ? <Check className="w-3 h-3 text-emerald-500" /> : <Copy className="w-3 h-3" />}
+          {copied ? <Check className="w-3 h-3 text-red-500" /> : <Copy className="w-3 h-3" />}
         </button>
       )}
     </div>
@@ -137,7 +137,7 @@ export function HashRecordCard({ record, onVerify, className = "" }: HashRecordC
           <span className="text-xs font-bold text-white uppercase tracking-wider">Hash Record</span>
         </div>
         {record.verified && (
-          <span className="inline-flex items-center gap-1 px-2 py-0.5 bg-emerald-900/50 border border-emerald-700 text-emerald-400 text-[9px] font-bold uppercase tracking-wider">
+          <span className="inline-flex items-center gap-1 px-2 py-0.5 bg-red-900/50 border border-red-700 text-red-400 text-[9px] font-bold uppercase tracking-wider">
             <CheckCircle className="w-2.5 h-2.5" />
             Verified
           </span>
@@ -219,14 +219,14 @@ interface VerificationResultDisplayProps {
 
 export function VerificationResultDisplay({ result, className = "" }: VerificationResultDisplayProps) {
   return (
-    <div className={`bg-zinc-950 border ${result.isValid ? "border-emerald-900/50" : "border-red-900/50"} ${className}`}>
+    <div className={`bg-zinc-950 border ${result.isValid ? "border-red-900/50" : "border-red-900/50"} ${className}`}>
       {/* Status Banner */}
-      <div className={`px-4 py-3 ${result.isValid ? "bg-emerald-950/50" : "bg-red-950/50"} border-b ${result.isValid ? "border-emerald-900/50" : "border-red-900/50"}`}>
+      <div className={`px-4 py-3 ${result.isValid ? "bg-red-950/50" : "bg-red-950/50"} border-b ${result.isValid ? "border-red-900/50" : "border-red-900/50"}`}>
         <div className="flex items-center gap-2">
           {result.isValid ? (
             <>
-              <Shield className="w-5 h-5 text-emerald-500" />
-              <span className="text-sm font-bold text-emerald-400">Integrity Verified</span>
+              <Shield className="w-5 h-5 text-red-500" />
+              <span className="text-sm font-bold text-red-400">Integrity Verified</span>
             </>
           ) : (
             <>
@@ -251,9 +251,9 @@ export function VerificationResultDisplay({ result, className = "" }: Verificati
                 {result.recordedHash}
               </code>
             </div>
-            <div className={`flex items-center gap-2 p-2 border ${result.isValid ? "bg-emerald-950/20 border-emerald-800" : "bg-red-950/20 border-red-800"}`}>
+            <div className={`flex items-center gap-2 p-2 border ${result.isValid ? "bg-red-950/20 border-red-800" : "bg-red-950/20 border-red-800"}`}>
               <span className="text-[10px] text-zinc-500 w-16">Current:</span>
-              <code className={`text-[10px] font-mono truncate flex-1 ${result.isValid ? "text-emerald-400" : "text-red-400"}`}>
+              <code className={`text-[10px] font-mono truncate flex-1 ${result.isValid ? "text-red-400" : "text-red-400"}`}>
                 {result.currentHash}
               </code>
             </div>
@@ -342,11 +342,11 @@ export function HashChain({ records, className = "" }: HashChainProps) {
                 {/* Node */}
                 <div className={`absolute left-0 w-[14px] h-[14px] rounded-full border-2 ${
                   record.verified 
-                    ? "bg-emerald-950 border-emerald-600" 
+                    ? "bg-red-950 border-red-600" 
                     : "bg-zinc-900 border-zinc-600"
                 }`}>
                   {record.verified && (
-                    <CheckCircle className="w-2 h-2 text-emerald-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+                    <CheckCircle className="w-2 h-2 text-red-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
                   )}
                 </div>
 

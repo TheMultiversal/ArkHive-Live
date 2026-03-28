@@ -104,20 +104,20 @@ const actionIcons: Record<AuditAction, React.ReactNode> = {
 };
 
 const actionColors: Record<AuditAction, string> = {
-  create: "text-emerald-400 bg-emerald-500/10",
-  update: "text-amber-400 bg-amber-500/10",
+  create: "text-red-400 bg-red-500/10",
+  update: "text-red-400 bg-red-500/10",
   delete: "text-red-400 bg-red-500/10",
-  verify: "text-emerald-400 bg-emerald-500/10",
+  verify: "text-red-400 bg-red-500/10",
   reject: "text-red-400 bg-red-500/10",
   archive: "text-zinc-400 bg-zinc-500/10",
   restore: "text-blood-400 bg-blood-500/10",
-  export: "text-purple-400 bg-purple-500/10",
+  export: "text-red-400 bg-red-500/10",
   access: "text-zinc-400 bg-zinc-500/10",
-  hash_generate: "text-cyan-400 bg-cyan-500/10",
-  hash_verify: "text-emerald-400 bg-emerald-500/10",
+  hash_generate: "text-red-400 bg-red-500/10",
+  hash_verify: "text-red-400 bg-red-500/10",
   source_add: "text-blood-400 bg-blood-500/10",
-  source_remove: "text-orange-400 bg-orange-500/10",
-  confidence_update: "text-amber-400 bg-amber-500/10",
+  source_remove: "text-red-400 bg-red-500/10",
+  confidence_update: "text-red-400 bg-red-500/10",
 };
 
 const actionLabels: Record<AuditAction, string> = {
@@ -325,8 +325,8 @@ function AuditEntryRow({
                       </div>
                     )}
                     {entry.newValue && (
-                      <div className="flex-1 p-2 bg-emerald-500/10 border border-emerald-500/20">
-                        <div className="text-xs text-emerald-400 mb-1">New</div>
+                      <div className="flex-1 p-2 bg-red-500/10 border border-red-500/20">
+                        <div className="text-xs text-red-400 mb-1">New</div>
                         <div className="text-sm text-zinc-300 font-mono break-all">
                           {entry.newValue}
                         </div>
@@ -834,11 +834,11 @@ export function AuditStats({ entries, className = "" }: AuditStatsProps) {
           <div className="text-2xl font-bold text-white">{stats.total}</div>
           <div className="text-xs text-zinc-500">Total Actions</div>
         </div>
-        <div className="p-3 bg-emerald-500/10 border border-emerald-500/30">
-          <div className="text-2xl font-bold text-emerald-400">
+        <div className="p-3 bg-red-500/10 border border-red-500/30">
+          <div className="text-2xl font-bold text-red-400">
             {stats.success}
           </div>
-          <div className="text-xs text-emerald-400/70">Successful</div>
+          <div className="text-xs text-red-400/70">Successful</div>
         </div>
         <div className="p-3 bg-red-500/10 border border-red-500/30">
           <div className="text-2xl font-bold text-red-400">{stats.failure}</div>

@@ -72,9 +72,9 @@ interface SourceComparisonProps {
 // ============================================================================
 
 const resultColors: Record<ComparisonResult, string> = {
-  match: "text-emerald-400 bg-emerald-500/10 border-emerald-500/30",
+  match: "text-red-400 bg-red-500/10 border-red-500/30",
   conflict: "text-red-400 bg-red-500/10 border-red-500/30",
-  partial: "text-amber-400 bg-amber-500/10 border-amber-500/30",
+  partial: "text-red-400 bg-red-500/10 border-red-500/30",
   unique: "text-zinc-400 bg-zinc-500/10 border-zinc-500/30",
 };
 
@@ -148,8 +148,8 @@ function SourceHeader({
   onToggle,
 }: SourceHeaderProps) {
   const tierColors = {
-    primary: "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
-    secondary: "bg-amber-500/20 text-amber-400 border-amber-500/30",
+    primary: "bg-red-500/20 text-red-400 border-red-500/30",
+    secondary: "bg-red-500/20 text-red-400 border-red-500/30",
     tertiary: "bg-zinc-500/20 text-zinc-400 border-zinc-500/30",
   };
 
@@ -209,9 +209,9 @@ function SourceHeader({
               <div
                 className={`h-full ${
                   source.reliability >= 80
-                    ? "bg-emerald-500"
+                    ? "bg-red-500"
                     : source.reliability >= 50
-                    ? "bg-amber-500"
+                    ? "bg-red-500"
                     : "bg-red-500"
                 }`}
                 style={{ width: `${source.reliability}%` }}
@@ -310,7 +310,7 @@ function ComparisonRow({
                     <p
                       className={`text-sm ${
                         claim.value === comparison.consensus
-                          ? "text-emerald-400"
+                          ? "text-red-400"
                           : comparison.result === "conflict"
                           ? "text-red-300"
                           : "text-zinc-300"
@@ -337,7 +337,7 @@ function ComparisonRow({
         {/* Consensus */}
         <div className="w-48 flex-shrink-0 p-3 border-l border-zinc-800 flex items-center">
           {comparison.consensus ? (
-            <span className="text-sm text-emerald-400">
+            <span className="text-sm text-red-400">
               {comparison.consensus}
             </span>
           ) : comparison.result === "conflict" ? (
@@ -685,7 +685,7 @@ export default function SourceComparison({
         {showDifferences &&
           comparisons.filter((c) => c.result !== "match").length === 0 && (
             <div className="p-8 text-center">
-              <Check className="w-8 h-8 text-emerald-500 mx-auto mb-2" />
+              <Check className="w-8 h-8 text-red-500 mx-auto mb-2" />
               <p className="text-zinc-400">All sources are in agreement!</p>
             </div>
           )}
@@ -751,7 +751,7 @@ export function SideBySideComparison({
                   <p className="text-xs text-zinc-500 mb-1">{field}</p>
                   <p
                     className={`text-sm ${
-                      match ? "text-emerald-400" : "text-zinc-300"
+                      match ? "text-red-400" : "text-zinc-300"
                     }`}
                   >
                     {claimA.value}
@@ -765,7 +765,7 @@ export function SideBySideComparison({
             <div className="w-10 flex items-center justify-center bg-zinc-900/30">
               {claimA && claimB ? (
                 match ? (
-                  <Check className="w-4 h-4 text-emerald-500" />
+                  <Check className="w-4 h-4 text-red-500" />
                 ) : (
                   <X className="w-4 h-4 text-red-500" />
                 )
@@ -780,7 +780,7 @@ export function SideBySideComparison({
                   <p className="text-xs text-zinc-500 mb-1">{field}</p>
                   <p
                     className={`text-sm ${
-                      match ? "text-emerald-400" : "text-zinc-300"
+                      match ? "text-red-400" : "text-zinc-300"
                     }`}
                   >
                     {claimB.value}

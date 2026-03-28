@@ -363,11 +363,11 @@ export const DEFAULT_CATEGORIES: CheckCategory[] = [
 function StatusIcon({ status }: { status: CheckStatus }): ReactElement {
   switch (status) {
     case 'passed':
-      return <CheckCircle2 className="w-5 h-5 text-green-500" />;
+      return <CheckCircle2 className="w-5 h-5 text-red-500" />;
     case 'failed':
       return <XCircle className="w-5 h-5 text-zinc-300" />;
     case 'warning':
-      return <AlertCircle className="w-5 h-5 text-yellow-500" />;
+      return <AlertCircle className="w-5 h-5 text-red-500" />;
     case 'running':
       return <RefreshCw className="w-5 h-5 text-blood-500 animate-spin" />;
     case 'skipped':
@@ -380,8 +380,8 @@ function StatusIcon({ status }: { status: CheckStatus }): ReactElement {
 function PriorityBadge({ priority }: { priority: CheckItem['priority'] }): ReactElement {
   const colors: Record<string, string> = {
     critical: 'bg-zinc-800/50 text-zinc-300 border-zinc-700',
-    high: 'bg-orange-900/50 text-orange-300 border-orange-700',
-    medium: 'bg-yellow-900/50 text-yellow-300 border-yellow-700',
+    high: 'bg-red-900/50 text-red-300 border-red-700',
+    medium: 'bg-red-900/50 text-red-300 border-red-700',
     low: 'bg-zinc-800 text-zinc-400 border-zinc-700',
   };
 
@@ -451,8 +451,8 @@ function CheckItemRow({ item, onRun, onToggle }: CheckItemRowProps): ReactElemen
               onClick={() => onToggle(true)}
               className={`px-3 py-1 text-xs border transition-colors ${
                 item.status === 'passed'
-                  ? 'bg-green-900/50 border-green-700 text-green-300'
-                  : 'border-zinc-700 text-zinc-400 hover:border-green-700 hover:text-green-400'
+                  ? 'bg-red-900/50 border-red-700 text-red-300'
+                  : 'border-zinc-700 text-zinc-400 hover:border-red-700 hover:text-red-400'
               }`}
             >
               Pass
@@ -517,7 +517,7 @@ function CategorySection({
         
         <div className="flex items-center gap-4">
           {passedCount > 0 && (
-            <span className="text-sm text-green-400">{passedCount} passed</span>
+            <span className="text-sm text-red-400">{passedCount} passed</span>
           )}
           {failedCount > 0 && (
             <span className="text-sm text-zinc-400">{failedCount} failed</span>
@@ -676,7 +676,7 @@ export function LaunchChecklist({
       <div className="bg-zinc-900 p-4 border border-zinc-800">
         <div className="flex items-center justify-between mb-2">
           <div className="flex items-center gap-4">
-            <span className="text-green-400">{progress.passed} passed</span>
+            <span className="text-red-400">{progress.passed} passed</span>
             <span className="text-zinc-400">{progress.failed} failed</span>
             <span className="text-zinc-500">
               {progress.total - progress.completed} pending
@@ -684,19 +684,19 @@ export function LaunchChecklist({
           </div>
           
           {isReady ? (
-            <span className="text-green-400 font-medium">Ready to Launch</span>
+            <span className="text-red-400 font-medium">Ready to Launch</span>
           ) : progress.critical > 0 ? (
             <span className="text-zinc-400 font-medium">
               {progress.critical} critical issues
             </span>
           ) : (
-            <span className="text-yellow-400 font-medium">In Progress</span>
+            <span className="text-red-400 font-medium">In Progress</span>
           )}
         </div>
         
         <div className="h-3 bg-black/50 flex overflow-hidden">
           <div 
-            className="h-full bg-green-600 transition-all duration-300"
+            className="h-full bg-red-600 transition-all duration-300"
             style={{ width: `${(progress.passed / progress.total) * 100}%` }}
           />
           <div 

@@ -402,7 +402,7 @@ export function CitationDisplay({
           onClick={copyCitation}
           className="flex items-center gap-1 px-3 py-1.5 bg-zinc-900 border border-zinc-700 text-zinc-400 hover:text-white hover:border-zinc-600 text-[10px] font-bold uppercase tracking-wider transition-colors"
         >
-          {copied ? <Check className="w-3 h-3 text-emerald-500" /> : <Copy className="w-3 h-3" />}
+          {copied ? <Check className="w-3 h-3 text-red-500" /> : <Copy className="w-3 h-3" />}
           {copied ? "Copied" : "Copy"}
         </button>
       </div>

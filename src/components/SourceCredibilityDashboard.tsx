@@ -30,9 +30,9 @@ export const CREDIBILITY_TIERS = {
   primary: {
     label: 'Primary Source',
     description: 'Original source document, official record, or direct evidence',
-    color: 'text-emerald-400',
-    bg: 'bg-emerald-500/20',
-    border: 'border-emerald-500/50',
+    color: 'text-red-400',
+    bg: 'bg-red-500/20',
+    border: 'border-red-500/50',
     icon: CheckCircle2,
     score: 100,
     examples: ['Court filings', 'Government reports', 'Official transcripts', 'Direct recordings'],
@@ -40,9 +40,9 @@ export const CREDIBILITY_TIERS = {
   verified: {
     label: 'Verified',
     description: 'Confirmed by multiple independent reliable sources',
-    color: 'text-green-400',
-    bg: 'bg-green-500/20',
-    border: 'border-green-500/50',
+    color: 'text-red-400',
+    bg: 'bg-red-500/20',
+    border: 'border-red-500/50',
     icon: Shield,
     score: 90,
     examples: ['Corroborated news reports', 'Fact-checked investigations', 'Peer-reviewed analysis'],
@@ -60,9 +60,9 @@ export const CREDIBILITY_TIERS = {
   analysis: {
     label: 'Analysis',
     description: 'Interpretive or opinion-based content from credible authors',
-    color: 'text-purple-400',
-    bg: 'bg-purple-500/20',
-    border: 'border-purple-500/50',
+    color: 'text-red-400',
+    bg: 'bg-red-500/20',
+    border: 'border-red-500/50',
     icon: BookOpen,
     score: 60,
     examples: ['Expert commentary', 'Think tank reports', 'Academic analysis'],
@@ -70,9 +70,9 @@ export const CREDIBILITY_TIERS = {
   unverified: {
     label: 'Unverified',
     description: 'Claims not yet independently verified',
-    color: 'text-yellow-400',
-    bg: 'bg-yellow-500/20',
-    border: 'border-yellow-500/50',
+    color: 'text-red-400',
+    bg: 'bg-red-500/20',
+    border: 'border-red-500/50',
     icon: HelpCircle,
     score: 40,
     examples: ['Social media posts', 'Anonymous sources', 'Unconfirmed reports'],
@@ -458,12 +458,12 @@ export function SourceCredibilityWidget() {
       </h3>
       <div className="flex items-center gap-4">
         <div className="text-center">
-          <div className="text-2xl font-bold text-emerald-400">{percentage}%</div>
+          <div className="text-2xl font-bold text-red-400">{percentage}%</div>
           <div className="text-xs text-zinc-500">High Quality</div>
         </div>
         <div className="flex-1 h-2 bg-zinc-800">
           <div 
-            className="h-full bg-gradient-to-r from-emerald-500 to-green-500"
+            className="h-full bg-gradient-to-r from-red-500 to-red-500"
             style={{ width: `${percentage}%` }}
           />
         </div>

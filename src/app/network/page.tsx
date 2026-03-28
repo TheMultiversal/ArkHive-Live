@@ -36,27 +36,27 @@ export default function NetworkPage() {
             
             <Link 
               href="/entities/agencies"
-              className="glass-card border border-emerald-500/30 p-4 hover:border-emerald-500/60 transition-colors"
+              className="glass-card border border-red-500/30 p-4 hover:border-red-500/60 transition-colors"
             >
-              <Landmark className="w-5 h-5 text-emerald-400 mb-2" />
+              <Landmark className="w-5 h-5 text-red-400 mb-2" />
               <div className="text-xs text-zinc-500">Explore</div>
               <div className="text-white font-semibold">Agencies</div>
             </Link>
             
             <Link 
               href="/entities/corporations"
-              className="glass-card border border-orange-500/30 p-4 hover:border-orange-500/60 transition-colors"
+              className="glass-card border border-red-500/30 p-4 hover:border-red-500/60 transition-colors"
             >
-              <Building2 className="w-5 h-5 text-orange-400 mb-2" />
+              <Building2 className="w-5 h-5 text-red-400 mb-2" />
               <div className="text-xs text-zinc-500">Explore</div>
               <div className="text-white font-semibold">Corporations</div>
             </Link>
             
             <Link 
               href="/entities/organizations"
-              className="glass-card border border-purple-500/30 p-4 hover:border-purple-500/60 transition-colors"
+              className="glass-card border border-red-500/30 p-4 hover:border-red-500/60 transition-colors"
             >
-              <Users className="w-5 h-5 text-purple-400 mb-2" />
+              <Users className="w-5 h-5 text-red-400 mb-2" />
               <div className="text-xs text-zinc-500">Explore</div>
               <div className="text-white font-semibold">Organizations</div>
             </Link>

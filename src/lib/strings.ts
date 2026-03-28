@@ -240,7 +240,7 @@ export function formatCount(count: number, singular: string, plural?: string): s
 /**
  * Highlight search term in text
  */
-export function highlightText(text: string, query: string, className = 'bg-yellow-500/30'): string {
+export function highlightText(text: string, query: string, className = 'bg-red-500/30'): string {
  if (!text || !query) return text;
  
  const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');

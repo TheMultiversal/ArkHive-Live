@@ -32,9 +32,9 @@ interface NetworkGraphProps {
 const nodeColors: Record<string, string> = {
   individual: "#ef4444", // red-500
   agency: "#b80000", // blood-500
-  corporation: "#22c55e", // green-500
-  organization: "#a855f7", // purple-500
-  investigation: "#f97316", // orange-500
+  corporation: "#ef4444", // red-500
+  organization: "#ef4444", // red-500
+  investigation: "#ef4444", // red-500
 };
 
 // Simple force simulation for node positioning

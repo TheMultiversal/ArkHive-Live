@@ -64,8 +64,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Financial Crimes',
     description: 'Money laundering, fraud, tax evasion, and financial misconduct',
     icon: DollarSign,
-    color: 'text-green-500',
-    bgColor: 'bg-green-500/10',
+    color: 'text-red-500',
+    bgColor: 'bg-red-500/10',
     keywords: ['fraud', 'money', 'financial', 'tax', 'launder', 'embezzle', 'bank', 'wire fraud', 'securities']
   },
   {
@@ -73,8 +73,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Foreign Influence',
     description: 'Foreign government interference and undisclosed foreign relationships',
     icon: Globe,
-    color: 'text-purple-500',
-    bgColor: 'bg-purple-500/10',
+    color: 'text-red-500',
+    bgColor: 'bg-red-500/10',
     keywords: ['russia', 'china', 'foreign', 'agent', 'fara', 'espionage', 'interference', 'collusion', 'saudi', 'ukraine']
   },
   {
@@ -82,8 +82,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Civil Rights',
     description: 'Violations of constitutional rights and civil liberties',
     icon: Scale,
-    color: 'text-yellow-500',
-    bgColor: 'bg-yellow-500/10',
+    color: 'text-red-500',
+    bgColor: 'bg-red-500/10',
     keywords: ['civil rights', 'discrimination', 'constitutional', 'voting rights', 'segregation', 'police', 'brutality']
   },
   {
@@ -91,8 +91,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Public Corruption',
     description: 'Bribery, kickbacks, and public officials misconduct',
     icon: Briefcase,
-    color: 'text-orange-500',
-    bgColor: 'bg-orange-500/10',
+    color: 'text-red-500',
+    bgColor: 'bg-red-500/10',
     keywords: ['bribery', 'corrupt', 'kickback', 'quid pro quo', 'emoluments', 'conflict of interest', 'ethics']
   },
   {
@@ -127,8 +127,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Conspiracy',
     description: 'Coordinated unlawful activities involving multiple actors',
     icon: Users,
-    color: 'text-cyan-500',
-    bgColor: 'bg-cyan-500/10',
+    color: 'text-red-500',
+    bgColor: 'bg-red-500/10',
     keywords: ['conspiracy', 'coordinate', 'scheme', 'plot', 'seditious', 'insurrection', 'organized']
   }
 ];
@@ -252,9 +252,9 @@ export function ThemeClusterBrowser() {
 
   const severityColors: Record<string, string> = {
     critical: 'bg-red-500',
-    high: 'bg-orange-500',
-    medium: 'bg-yellow-500',
-    low: 'bg-green-500'
+    high: 'bg-red-500',
+    medium: 'bg-red-500',
+    low: 'bg-red-500'
   };
 
   return (
@@ -457,9 +457,9 @@ export function ThemeClusterBrowser() {
                 <div className="text-right">
                   <span className={`px-2 py-1 text-xs uppercase ${
                     investigation.severity === 'critical' ? 'bg-red-500/20 text-red-400' :
-                    investigation.severity === 'high' ? 'bg-orange-500/20 text-orange-400' :
-                    investigation.severity === 'medium' ? 'bg-yellow-500/20 text-yellow-400' :
-                    'bg-green-500/20 text-green-400'
+                    investigation.severity === 'high' ? 'bg-red-500/20 text-red-400' :
+                    investigation.severity === 'medium' ? 'bg-red-500/20 text-red-400' :
+                    'bg-red-500/20 text-red-400'
                   }`}>
                     {investigation.severity}
                   </span>

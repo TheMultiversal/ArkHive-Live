@@ -121,23 +121,23 @@ const activityIcons: Record<ActivityType, React.ReactNode> = {
 };
 
 const activityColors: Record<ActivityType, string> = {
- evidence_added:"text-emerald-400 bg-emerald-500/10",
- evidence_updated:"text-amber-400 bg-amber-500/10",
+ evidence_added:"text-red-400 bg-red-500/10",
+ evidence_updated:"text-red-400 bg-red-500/10",
  evidence_deleted:"text-red-400 bg-red-500/10",
  document_uploaded:"text-blood-400 bg-blood-500/10",
  document_deleted:"text-red-400 bg-red-500/10",
- comment_added:"text-purple-400 bg-purple-500/10",
- annotation_added:"text-cyan-400 bg-cyan-500/10",
- annotation_resolved:"text-emerald-400 bg-emerald-500/10",
- member_joined:"text-emerald-400 bg-emerald-500/10",
+ comment_added:"text-red-400 bg-red-500/10",
+ annotation_added:"text-red-400 bg-red-500/10",
+ annotation_resolved:"text-red-400 bg-red-500/10",
+ member_joined:"text-red-400 bg-red-500/10",
  member_left:"text-zinc-400 bg-zinc-500/10",
- member_role_changed:"text-amber-400 bg-amber-500/10",
+ member_role_changed:"text-red-400 bg-red-500/10",
  workspace_created:"text-zinc-400 bg-zinc-500/10",
  workspace_updated:"text-zinc-400 bg-zinc-500/10",
  investigation_linked:"text-blood-400 bg-blood-500/10",
- source_verified:"text-emerald-400 bg-emerald-500/10",
+ source_verified:"text-red-400 bg-red-500/10",
  source_rejected:"text-red-400 bg-red-500/10",
- export_completed:"text-emerald-400 bg-emerald-500/10",
+ export_completed:"text-red-400 bg-red-500/10",
  mention:"text-zinc-400 bg-zinc-500/10",
 };
 
@@ -260,7 +260,7 @@ function ActivityItemRow({
 
  <div className="flex items-center gap-1">
  {activity.important && (
- <Star className="w-3 h-3 text-amber-400 fill-amber-400" />
+ <Star className="w-3 h-3 text-red-400 fill-red-400" />
  )}
  <span className="text-xs text-zinc-500 whitespace-nowrap">
  {formatRelativeTime(activity.timestamp)}
@@ -331,7 +331,7 @@ function ActivityItemRow({
  >
  <Star
  className={`w-4 h-4 ${
- activity.important ?"text-amber-400 fill-amber-400" :""
+ activity.important ?"text-red-400 fill-red-400" :""
  }`}
  />
  {activity.important ?"Unstar" :"Star"}

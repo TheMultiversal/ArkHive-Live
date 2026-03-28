@@ -192,11 +192,11 @@ function FlowCard({ flow, isExpanded, onToggle }: FlowCardProps) {
               <div className="shrink-0 mt-0.5">
                 {tx.documented ? (
                   <span title="Documented">
-                    <FileCheck className="w-4 h-4 text-green-500" />
+                    <FileCheck className="w-4 h-4 text-red-500" />
                   </span>
                 ) : (
                   <span title="Undocumented">
-                    <FileX className="w-4 h-4 text-orange-500" />
+                    <FileX className="w-4 h-4 text-red-500" />
                   </span>
                 )}
               </div>
@@ -408,7 +408,7 @@ export default function MoneyTrailVisualization({
           onClick={() => setShowDocumentedOnly(!showDocumentedOnly)}
           className={`px-4 py-2 text-sm flex items-center gap-2 transition-colors ${
             showDocumentedOnly 
-              ? 'bg-green-500/20 text-green-400 border border-green-500'
+              ? 'bg-red-500/20 text-red-400 border border-red-500'
               : 'bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-zinc-700'
           }`}
         >
@@ -454,20 +454,20 @@ export default function MoneyTrailVisualization({
               <div className="grid grid-cols-3 gap-2 text-sm">
                 <div>
                   <p className="text-xs text-zinc-500 mb-1">Sent</p>
-                  <p className="text-orange-400 font-semibold">
+                  <p className="text-red-400 font-semibold">
                     {formatCurrency(party.sent)}
                   </p>
                 </div>
                 <div>
                   <p className="text-xs text-zinc-500 mb-1">Received</p>
-                  <p className="text-green-400 font-semibold">
+                  <p className="text-red-400 font-semibold">
                     {formatCurrency(party.received)}
                   </p>
                 </div>
                 <div>
                   <p className="text-xs text-zinc-500 mb-1">Net</p>
                   <p className={`font-semibold ${
-                    party.netFlow >= 0 ? 'text-green-400' : 'text-orange-400'
+                    party.netFlow >= 0 ? 'text-red-400' : 'text-red-400'
                   }`}>
                     {party.netFlow >= 0 ? '+' : ''}{formatCurrency(party.netFlow)}
                   </p>
@@ -478,7 +478,7 @@ export default function MoneyTrailVisualization({
               <div className="mt-3 h-2 bg-zinc-900 relative overflow-hidden">
                 <div 
                   className={`absolute top-0 h-full ${
-                    party.netFlow >= 0 ? 'bg-green-500/50 left-1/2' : 'bg-orange-500/50 right-1/2'
+                    party.netFlow >= 0 ? 'bg-red-500/50 left-1/2' : 'bg-red-500/50 right-1/2'
                   }`}
                   style={{
                     width: `${Math.min(50, Math.abs(party.netFlow) / (party.sent + party.received) * 100)}%`
@@ -518,9 +518,9 @@ export function InvestigationMoneyTrail({ slug }: { slug: string }) {
         {investigation.moneyTrail.slice(0, 5).map((tx, idx) => (
           <div key={idx} className="flex items-center gap-2 text-sm">
             {tx.documented ? (
-              <FileCheck className="w-3 h-3 text-green-500" />
+              <FileCheck className="w-3 h-3 text-red-500" />
             ) : (
-              <FileX className="w-3 h-3 text-orange-500" />
+              <FileX className="w-3 h-3 text-red-500" />
             )}
             <span className="text-zinc-500 truncate flex-1">
               {tx.from} → {tx.to}
