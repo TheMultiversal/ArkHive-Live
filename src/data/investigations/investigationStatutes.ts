@@ -5264,13 +5264,6 @@ const investigationStatutes: Record<string, { code: string; description?: string
     { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
     { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
   ],
-  'texas-grid-failures': [
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-  ],
-  'texas-power-grid-failure': [
-    { code: '52 U.S.C. § 30101', description: 'Federal Election Campaign Act' },
-    { code: '21 U.S.C. § 841', description: 'Controlled Substances Act' },
-  ],
   'thalidomide-pharmaceutical-catastrophe': [
     { code: '15 U.S.C. § 78j(b)', description: 'Securities Fraud / Rule 10b-5' },
     { code: '26 U.S.C. § 7201', description: 'Tax Evasion' },

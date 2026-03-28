@@ -2197,7 +2197,7 @@ const investigations_t: Record<string, InvestigationData> = {
     tags: ['ERCOT', 'Texas Grid', 'Winter Storm Uri', 'Deregulation', 'Energy Crisis', 'Regulatory Capture', 'Preventable Deaths', 'Price Gouging', 'Abbott', 'Accountability', 'Public Utility Commission', 'Railroad Commission'],
     sources: [
       { title: 'FERC/NERC Report on 2011 Texas Cold Weather Event', url: 'https://www.ferc.gov/sites/default/files/2020-04/08-16-11-report.pdf', type: 'Government Report' },
-      { title: 'BuzzFeed News/UT Austin Excess Death Analysis (702+ Deaths)', url: 'https://www.buzzfeednews.com/article/peteraldhous/texas-winter-storm-uri-death-toll', type: 'Investigation' },
+      { title: 'BuzzFeed News/UT Austin Excess Death Analysis (702+ Deaths)', url: 'https://web.archive.org/web/2023/https://www.buzzfeednews.com/article/peteraldhous/texas-winter-storm-uri-death-toll', type: 'Investigation' },
       { title: 'Texas Tribune: Power Grid Investigation Series', url: 'https://www.texastribune.org/series/winter-storm-uri-texas/', type: 'Investigation' },
       { title: 'ERCOT Preliminary Report on Winter Storm Uri', url: 'https://www.ercot.com/files/docs/2021/03/17/ERCOT_Preliminary_Report_on_February_2021_Storm-Related_Outages_3.17.21.pdf', type: 'Government Report' },
       { title: 'Texas House Committee on State Affairs: Winter Storm Uri Interim Report', url: 'https://house.texas.gov/committees/reports/', type: 'Government Report' },

@@ -5581,11 +5581,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2021-01-01', from: 'International tribunals', to: 'Asset freezes and reparations', amount: '$10.7B', purpose: 'Reparations and frozen assets related to Texas Border Cruelty: Operation Lone Star and the Weaponization of Immigration', documented: true },
   ],
 
-  'texas-grid-failures': [
-    { date: '2018-01-01', from: 'Regulated industries', to: 'Lobbying captured regulators', amount: '$7.0B', purpose: 'Industry lobbying and influence over regulations in Texas Grid Failures: Deregulation, Greed, and Preventable Death', documented: true },
-    { date: '2020-01-01', from: 'Public', to: 'Costs of regulatory failure', amount: '$47.5B', purpose: 'Economic damage from regulatory failure exposed in Texas Grid Failures: Deregulation, Greed, and Preventable Death', documented: true },
-  ],
-
   'three-arrows-capital': [
     { date: '2011-01-01', from: 'Three Arrows Capital', to: 'Illicit financial flows', amount: '$16.5B', purpose: 'Fraudulent financial activity in Three Arrows Capital: The Crypto Hedge Fund That Bet Everything and Lost', documented: true },
     { date: '2014-01-01', from: 'SEC / DOJ', to: 'Regulatory enforcement against Three Arrows Capital', amount: '$3.2B', purpose: 'Fines and penalties imposed for violations uncovered in Three Arrows Capital: The Crypto Hedge Fund That Bet Everything and Lost', documented: true },
@@ -5767,11 +5762,6 @@ const moneyTrails: Record<string, MoneyTransaction[]> = {
     { date: '2020-01-01', from: 'US taxpayers', to: 'FBI', amount: '$37.5B', purpose: 'Budget allocation for operations connected to TikTok National Security Data Harvesting', documented: false },
     { date: '2021-01-01', from: 'Defense contractors', to: 'Private sector profits', amount: '$35.8B', purpose: 'Contractor profits from programs related to TikTok National Security Data Harvesting', documented: true },
     { date: '2023-01-01', from: 'FBI', to: 'Classified / black budget programs', amount: '$23.3B', purpose: 'Classified spending on programs exposed in TikTok National Security Data Harvesting', documented: false },
-  ],
-
-  'texas-power-grid-failure': [
-    { date: '2021-01-01', from: 'Government/corporate entities', to: 'Negligent infrastructure spending', amount: '$16.3B', purpose: 'Spending on infrastructure that failed in Texas Power Grid Failure', documented: true },
-    { date: '2024-01-01', from: 'FERC', to: 'Recovery and remediation', amount: '$9.1B', purpose: 'Recovery costs and settlements from Texas Power Grid Failure', documented: true },
   ],
 
   'theranos-billion-dollar-blood-fraud': [

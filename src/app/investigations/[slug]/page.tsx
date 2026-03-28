@@ -133,7 +133,7 @@ const enforcementPortals = [
   { name: 'SEC Whistleblower', url: 'https://www.sec.gov/whistleblower', icon: DollarSign, desc: 'Report securities violations. Whistleblowers receive 10-30% of sanctions over $1M.', color: '#eab308' },
   { name: 'IRS Whistleblower', url: 'https://www.irs.gov/compliance/whistleblower-office', icon: TrendingUp, desc: 'Report tax fraud over $2M. Awards of 15-30% of collected proceeds.', color: '#10b981' },
   { name: 'FTC Report Fraud', url: 'https://reportfraud.ftc.gov/', icon: AlertTriangle, desc: 'Report fraud, scams, and unfair business to the Federal Trade Commission.', color: '#f43f5e' },
-  { name: 'International Criminal Court', url: 'https://www.icc-cpi.int/how-to-submit-communications', icon: Landmark, desc: 'Submit evidence of crimes against humanity and war crimes to the ICC.', color: '#8b5cf6' },
+  { name: 'International Criminal Court', url: 'https://www.icc-cpi.int/about/otp/otp-contact', icon: Landmark, desc: 'Submit evidence of crimes against humanity and war crimes to the ICC.', color: '#8b5cf6' },
 ];
 
 /* ================================================================
@@ -827,9 +827,9 @@ export default function InvestigationPage() {
           <div className="absolute bottom-5 left-5 w-8 h-8 border-b-2 border-l-2 pointer-events-none" style={{ borderColor: `${sevCfg.color}10` }} />
           <div className="absolute bottom-5 right-5 w-8 h-8 border-b-2 border-r-2 pointer-events-none" style={{ borderColor: `${sevCfg.color}10` }} />
 
-          <div className="relative z-10 p-8 sm:p-12 lg:p-16">
+          <div className="relative z-10 p-6 sm:p-10 lg:p-12">
             {/* Navigation + severity badge */}
-            <div className="flex items-center justify-between mb-12">
+            <div className="flex items-center justify-between mb-8">
               <Link href="/investigations"
                 className="flex items-center gap-2 text-zinc-500 hover:text-white transition-colors text-[11px] font-mono tracking-[0.2em] group">
                 <ArrowLeft className="w-3 h-3 group-hover:-translate-x-1 transition-transform" /> INVESTIGATIONS
@@ -869,7 +869,7 @@ export default function InvestigationPage() {
 
             {/* Title */}
             <motion.h1
-              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white uppercase leading-[0.85] tracking-tight mb-10"
+              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white uppercase leading-[0.85] tracking-tight mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.15, duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
@@ -879,7 +879,7 @@ export default function InvestigationPage() {
 
             {investigation.subtitle && (
               <motion.p
-                className="text-lg sm:text-xl text-zinc-400 leading-relaxed max-w-4xl mb-12 font-light"
+                className="text-lg sm:text-xl text-zinc-400 leading-relaxed max-w-4xl mb-8 font-light"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4, duration: 0.6 }}
@@ -919,110 +919,59 @@ export default function InvestigationPage() {
         </motion.div>
 
         {/* Divider */}
-        <div className="my-12 sm:my-16"><GlitchDivider showLabel label="CLASSIFIED" /></div>
+        <div className="my-6 sm:my-8"><GlitchDivider showLabel label="CLASSIFIED" /></div>
 
-        {/* ══════════════ 02 // EXECUTIVE SUMMARY + CASE DOSSIER ══════════════ */}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-6 mb-12">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-          >
-            <div className="glass-card p-7 sm:p-10 lg:p-12 relative overflow-hidden">
-              {/* Watermark */}
-              <div className="absolute -top-6 -right-4 text-[180px] font-black leading-none select-none pointer-events-none font-mono text-white/[0.012]">02</div>
+        {/* ══════════════ 02 // EXECUTIVE SUMMARY ══════════════ */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+          className="mb-8"
+        >
+          <div className="glass-card p-7 sm:p-10 lg:p-12 relative overflow-hidden">
+            {/* Watermark */}
+            <div className="absolute -top-6 -right-4 text-[180px] font-black leading-none select-none pointer-events-none font-mono text-white/[0.012]">02</div>
 
-              <div className="flex items-center gap-3 mb-8 relative z-10">
-                <div className="w-10 h-10 flex items-center justify-center bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.10)]">
-                  <span className="text-[10px] font-mono font-black text-red-500/50">02</span>
-                </div>
-                <FileText className="w-4 h-4 text-zinc-600" />
-                <h2 className="text-sm font-black text-white uppercase tracking-[0.2em]">Executive Summary</h2>
+            <div className="flex items-center gap-3 mb-8 relative z-10">
+              <div className="w-10 h-10 flex items-center justify-center bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.10)]">
+                <span className="text-[10px] font-mono font-black text-red-500/50">02</span>
               </div>
-              <div className="max-w-3xl relative z-10">
-                <p className="text-lg sm:text-xl text-zinc-300 leading-[1.9] font-light">
-                  <span className="text-6xl sm:text-7xl font-black text-white float-left mr-5 mt-1 leading-[0.75]" style={{
-                    textShadow: `0 0 60px ${sevCfg.color}12`,
-                  }}>{investigation.summary.charAt(0)}</span>
-                  {investigation.summary.slice(1)}
-                </p>
-              </div>
+              <FileText className="w-4 h-4 text-zinc-600" />
+              <h2 className="text-sm font-black text-white uppercase tracking-[0.2em]">Executive Summary</h2>
             </div>
-          </motion.div>
+            <div className="max-w-4xl relative z-10">
+              <p className="text-lg sm:text-xl text-zinc-300 leading-[1.9] font-light">
+                <span className="text-6xl sm:text-7xl font-black text-white float-left mr-5 mt-1 leading-[0.75]" style={{
+                  textShadow: `0 0 60px ${sevCfg.color}12`,
+                }}>{investigation.summary.charAt(0)}</span>
+                {investigation.summary.slice(1)}
+              </p>
+            </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.7, delay: 0.1, ease: [0.25, 0.46, 0.45, 0.94] }}
-          >
-            <div className="glass-card p-6 sm:p-7 lg:sticky lg:top-28">
-              <div className="flex items-center gap-2.5 mb-6">
-                <Fingerprint className="w-4 h-4 text-red-400/40" />
-                <h3 className="text-[11px] font-black text-white uppercase tracking-[0.25em]">Case Dossier</h3>
-              </div>
-
-              {[
-                { l: 'Filed', v: investigation.date },
-                { l: 'Updated', v: investigation.lastUpdated },
-                { l: 'Page Updated', v: investigation.pageUpdatedDate },
-                { l: 'Event Origin', v: investigation.eventOriginDate },
-                { l: 'Last Activity', v: investigation.lastActivityDate },
-              ].filter(r => r.v).map((row, i) => (
-                <div key={row.l} className={`flex justify-between items-center py-2.5 ${i > 0 ? 'border-t border-white/[0.03]' : ''}`}>
-                  <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-[0.15em]">{row.l}</span>
-                  <span className="text-zinc-400 font-mono text-[11px] tabular-nums">{row.v}</span>
-                </div>
-              ))}
-              <div className="flex justify-between items-center py-2.5 border-t border-white/[0.03]">
-                <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-[0.15em]">Severity</span>
-                <span className="text-[11px] font-black uppercase tracking-[0.15em]" style={{ color: sevCfg.color }}>{sev}</span>
-              </div>
-              <div className="flex justify-between items-center py-2.5 border-t border-white/[0.03]">
-                <span className="text-[9px] text-zinc-600 uppercase font-bold tracking-[0.15em]">Category</span>
-                <span className="text-zinc-400 text-[11px]">{investigation.category}</span>
-              </div>
-
-              <div className="grid grid-cols-3 gap-2.5 mt-6 pt-5 border-t border-white/[0.04]">
-                {[
-                  { v: affiliations.length, l: 'Entities', c: sevCfg.color },
-                  { v: defendants.length, l: 'Defendants', c: '#ef4444' },
-                  { v: moneyTrail.length, l: 'Txns', c: '#eab308' },
-                ].map((stat, i) => (
-                  <div key={i} className="text-center py-3 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.04)]">
-                    <div className="text-xl font-black font-mono text-white tabular-nums">
-                      <AnimatedCount value={stat.v} delay={0.2 + i * 0.1} />
-                    </div>
-                    <div className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.2em] mt-1">{stat.l}</div>
-                  </div>
+            {investigation.tags?.length > 0 && (
+              <div className="mt-8 pt-6 border-t border-white/[0.04] flex flex-wrap gap-1.5 relative z-10">
+                {investigation.tags.map((tag: string, idx: number) => (
+                  <Link key={idx} href={`/investigations?tag=${encodeURIComponent(tag)}`}
+                    className="px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.05)] text-zinc-500 hover:text-zinc-300 hover:border-[rgba(184,0,0,0.20)] transition-all duration-200">
+                    {tag}
+                  </Link>
                 ))}
               </div>
-
-              {investigation.tags?.length > 0 && (
-                <div className="mt-5 pt-5 border-t border-white/[0.04] flex flex-wrap gap-1.5">
-                  {investigation.tags.map((tag: string, idx: number) => (
-                    <Link key={idx} href={`/investigations?tag=${encodeURIComponent(tag)}`}
-                      className="px-2.5 py-1 text-[9px] font-bold uppercase tracking-wider bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.05)] text-zinc-500 hover:text-zinc-300 hover:border-[rgba(184,0,0,0.20)] transition-all duration-200">
-                      {tag}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-          </motion.div>
-        </div>
+            )}
+          </div>
+        </motion.div>
 
         {/* ══════════════ 03 // DEFENDANTS ══════════════ */}
         {defendants.length > 0 && (
           <>
-            <div className="my-12 sm:my-16"><GlitchDivider showLabel label="PERSONS OF INTEREST" /></div>
+            <div className="my-6 sm:my-8"><GlitchDivider showLabel label="PERSONS OF INTEREST" /></div>
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-12"
+              className="mb-6"
             >
               <CollapsibleGlass
                 number="03" title="Defendants & Charges" icon={<Gavel className="w-4 h-4" />}
@@ -1161,7 +1110,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-12"
+            className="mb-6"
           >
             <CollapsibleGlass
               number="04" title="Applicable Laws & Statutes" icon={<Scale className="w-4 h-4" />}
@@ -1192,13 +1141,13 @@ export default function InvestigationPage() {
         {/* ══════════════ 05 // ACCOUNTABILITY ENGINE ══════════════ */}
         {accountabilityContent && (
           <>
-            <div className="my-12 sm:my-16"><GlitchDivider showLabel label="COUNTERMEASURES" /></div>
+            <div className="my-6 sm:my-8"><GlitchDivider showLabel label="COUNTERMEASURES" /></div>
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-12"
+              className="mb-6"
             >
               <AccountabilityEngine content={accountabilityContent} slug={slug} investigation={investigation} />
             </motion.div>
@@ -1212,7 +1161,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-12"
+            className="mb-6"
           >
             <CollapsibleGlass number="06" title="Full Investigation" icon={<FileText className="w-4 h-4" />}>
               <div className="max-w-4xl space-y-7">
@@ -1250,13 +1199,13 @@ export default function InvestigationPage() {
         {/* ══════════════ 07 // MONEY TRAIL ══════════════ */}
         {moneyTrail.length > 0 && (
           <>
-            <div className="my-12 sm:my-16"><GlitchDivider showLabel label="FOLLOW THE MONEY" /></div>
+            <div className="my-6 sm:my-8"><GlitchDivider showLabel label="FOLLOW THE MONEY" /></div>
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-12"
+              className="mb-6"
             >
               <CollapsibleGlass
                 number="07" title="Money Trail" icon={<DollarSign className="w-4 h-4" />}
@@ -1323,13 +1272,13 @@ export default function InvestigationPage() {
         {/* ══════════════ 08 // CONNECTED ENTITIES ══════════════ */}
         {affiliations.length > 0 && (
           <>
-            <div className="my-12 sm:my-16"><GlitchDivider showLabel label="THE NETWORK" /></div>
+            <div className="my-6 sm:my-8"><GlitchDivider showLabel label="THE NETWORK" /></div>
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-12"
+              className="mb-6"
             >
               <CollapsibleGlass
                 number="08" title="Connected Entities" icon={<Users className="w-4 h-4" />}
@@ -1408,7 +1357,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-12"
+            className="mb-6"
           >
             <div className="glass-card p-7 sm:p-10 relative overflow-hidden">
               {/* Watermark */}
@@ -1440,7 +1389,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-12"
+            className="mb-6"
           >
             <CollapsibleGlass
               number="10" title="Timeline" icon={<Calendar className="w-4 h-4" />}
@@ -1504,7 +1453,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-12"
+            className="mb-6"
           >
             <CollapsibleGlass
               number="11" title="Sources & Documentation" icon={<ExternalLink className="w-4 h-4" />}
