@@ -379,6 +379,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
   const [viewCount, setViewCount] = useState(0);
   const [copied, setCopied] = useState<string | null>(null);
   const [expandedTemplate, setExpandedTemplate] = useState<string | null>(null);
+  const [activeTab, setActiveTab] = useState<'operations' | 'arsenal' | 'enforcement' | 'evidence'>('operations');
 
   const title = investigation.title;
   const summary = investigation.summary;
@@ -507,11 +508,40 @@ function AccountabilityEngine({ content, slug, investigation }: {
               <span className="text-zinc-600">{operations.length}</span>
             </span>
           </div>
+
+          {/* TAB NAVIGATION */}
+          <div className="flex border-t border-white/[0.04] mt-2 -mx-2 sm:-mx-2.5 lg:-mx-3 -mb-2 sm:-mb-2.5 lg:-mb-3">
+            {[
+              { key: 'operations' as const, label: 'OPS', count: operations.length },
+              { key: 'arsenal' as const, label: 'ARSENAL', count: templates.length },
+              { key: 'enforcement' as const, label: 'ENFORCE', count: enforcementPortals.length },
+              { key: 'evidence' as const, label: 'EVIDENCE', count: null },
+            ].map(tab => (
+              <button
+                key={tab.key}
+                onClick={() => setActiveTab(tab.key)}
+                className={`flex-1 px-2 py-2 text-[8px] sm:text-[9px] font-black uppercase tracking-[0.12em] transition-all duration-300 relative border-r border-white/[0.03] last:border-r-0 ${
+                  activeTab === tab.key
+                    ? 'text-red-400 bg-red-500/[0.06]'
+                    : 'text-zinc-600 hover:text-zinc-400 hover:bg-white/[0.02]'
+                }`}
+              >
+                {tab.label}{tab.count !== null ? ` (${tab.count})` : ''}
+                {activeTab === tab.key && (
+                  <motion.div
+                    layoutId="engine-tab-indicator"
+                    className="absolute bottom-0 left-0 right-0 h-[2px] bg-red-500"
+                    transition={{ type: 'spring', stiffness: 500, damping: 35 }}
+                  />
+                )}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
       {/* OPERATION TRACKS */}
-      {trackOrder.map(track => {
+      {activeTab === 'operations' && trackOrder.map(track => {
         const trackOps = grouped[track];
         if (!trackOps) return null;
         const meta = trackMeta[track];
@@ -633,12 +663,12 @@ function AccountabilityEngine({ content, slug, investigation }: {
       })}
 
       {/* READY-TO-DEPLOY ARSENAL */}
+      {activeTab === 'arsenal' && (
       <motion.div
         className="glass-card p-2 sm:p-2.5"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: '-60px' }}
-        transition={{ duration: 0.6 }}
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3 }}
       >
         <div className="flex items-center gap-2 mb-2">
           <div className="w-6 h-6 flex items-center justify-center bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.12)] flex-shrink-0">
@@ -704,14 +734,15 @@ function AccountabilityEngine({ content, slug, investigation }: {
           })}
         </div>
       </motion.div>
+      )}
 
       {/* ENFORCEMENT PORTALS */}
+      {activeTab === 'enforcement' && (
       <motion.div
         className="glass-card p-2 sm:p-2.5"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: '-60px' }}
-        transition={{ duration: 0.6 }}
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3 }}
       >
         <div className="flex items-center gap-2.5 mb-1.5">
           <div className="w-6 h-6 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.15)] flex-shrink-0">
@@ -759,14 +790,15 @@ function AccountabilityEngine({ content, slug, investigation }: {
           })}
         </motion.div>
       </motion.div>
+      )}
 
       {/* EVIDENCE COMPILATION */}
+      {activeTab === 'evidence' && (
       <motion.div
         className="glass-card p-2 sm:p-2.5"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: '-60px' }}
-        transition={{ duration: 0.6 }}
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3 }}
       >
         <div className="flex items-center gap-2 mb-2">
           <div className="w-6 h-6 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.12)] flex-shrink-0">
@@ -813,6 +845,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
           </CrystalButton>
         </div>
       </motion.div>
+      )}
     </div>
   );
 }
@@ -917,6 +950,17 @@ export default function InvestigationPage() {
     return Math.max(1, Math.ceil(words / 200));
   }, [investigation.summary, mainContent]);
 
+  const threatIndex = useMemo(() => {
+    let score = 0;
+    score += Math.min(30, defendants.length * 5);
+    score += Math.min(20, sources.length * 2);
+    score += Math.min(15, statutes.length * 3);
+    score += Math.min(15, moneyTrail.length * 3);
+    score += Math.min(10, affiliations.length * 2);
+    score += sev === 'critical' ? 10 : sev === 'high' ? 7 : sev === 'medium' ? 4 : 2;
+    return Math.min(100, score);
+  }, [defendants.length, sources.length, statutes.length, moneyTrail.length, affiliations.length, sev]);
+
   return (
     <div className="min-h-screen pt-12 lg:pt-14 pb-6 relative">
       {/* Scroll progress indicator */}
@@ -955,7 +999,7 @@ export default function InvestigationPage() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
-          className="glass-card overflow-hidden relative"
+          className="glass-card gloss-hover overflow-hidden relative"
         >
           <div className="absolute inset-0 pointer-events-none" style={{ background: sevCfg.gradient }} />
           {/* Top severity bar */}
@@ -1024,13 +1068,34 @@ export default function InvestigationPage() {
               </motion.p>
             )}
 
-            {/* Hero stats with animated counters */}
+            {/* Hero stats with animated counters + Threat Index */}
             <motion.div
               className="flex flex-wrap items-center gap-2"
               initial="hidden"
               animate="visible"
               variants={{ visible: { transition: { staggerChildren: 0.08, delayChildren: 0.5 } } }}
             >
+              {/* Threat Index Badge */}
+              <motion.div
+                className="flex items-center gap-2 px-3 py-1.5 border relative overflow-hidden"
+                style={{ borderColor: `${sevCfg.color}35`, background: `${sevCfg.color}08` }}
+                variants={{ hidden: { opacity: 0, scale: 0.9 }, visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } } }}
+              >
+                <span className="text-[7px] font-mono font-bold uppercase tracking-[0.2em] text-zinc-500">Threat</span>
+                <span className="text-lg font-black font-mono tabular-nums leading-none" style={{ color: sevCfg.color }}>
+                  <AnimatedCount value={threatIndex} delay={0.5} />
+                </span>
+                <span className="text-[8px] font-mono text-zinc-700">/100</span>
+                {/* Subtle animated glow bar at bottom */}
+                <motion.div
+                  className="absolute bottom-0 left-0 h-[2px]"
+                  style={{ background: `linear-gradient(90deg, ${sevCfg.color}, ${sevCfg.color}40)` }}
+                  initial={{ width: 0 }}
+                  animate={{ width: `${threatIndex}%` }}
+                  transition={{ duration: 1.5, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+                />
+              </motion.div>
+
               {[
                 defendants.length > 0 && { v: defendants.length, l: 'Defendants', c: '#ef4444', icon: <Users className="w-3.5 h-3.5" /> },
                 affiliations.length > 0 && { v: affiliations.length, l: 'Entities', c: sevCfg.color, icon: <Building2 className="w-3.5 h-3.5" /> },
@@ -1158,7 +1223,7 @@ export default function InvestigationPage() {
                 }
               >
                 <motion.div
-                  className="grid grid-cols-1 lg:grid-cols-2 gap-1.5"
+                  className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-1.5"
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true }}
@@ -1407,7 +1472,7 @@ export default function InvestigationPage() {
                     <motion.div
                       key={idx}
                       variants={{ hidden: { opacity: 0, x: idx % 2 === 0 ? -8 : 8 }, visible: { opacity: 1, x: 0, transition: { duration: 0.4 } } }}
-                      className={`p-2 sm:p-2.5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
+                      className={`p-1.5 sm:p-2 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
                         idx % 2 === 0 ? 'bg-[rgba(255,255,255,0.012)]' : 'bg-transparent'
                       } border-b border-white/[0.02] hover:border-red-500/[0.08]`}
                     >
@@ -1589,7 +1654,7 @@ export default function InvestigationPage() {
                     return (
                       <motion.div
                         key={idx}
-                        className={`relative flex items-start gap-4 py-2 ${
+                        className={`relative flex items-start gap-4 py-1 ${
                           isMajor ? '' : 'opacity-60 hover:opacity-100 transition-opacity duration-300'
                         }`}
                         variants={{ hidden: { opacity: 0, x: -10 }, visible: { opacity: isMajor ? 1 : 0.6, x: 0, transition: { duration: 0.35 } } }}
@@ -1635,11 +1700,11 @@ export default function InvestigationPage() {
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
             >
               <motion.div
-                className="space-y-0"
+                className="grid grid-cols-1 md:grid-cols-2 gap-px"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                variants={{ visible: { transition: { staggerChildren: 0.025 } } }}
+                variants={{ visible: { transition: { staggerChildren: 0.015 } } }}
               >
                 {sources.map((source: any, idx: number) => (
                   <motion.a
@@ -1647,17 +1712,15 @@ export default function InvestigationPage() {
                     href={source.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`group flex items-start gap-3 p-2.5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
-                      idx % 2 === 0 ? 'bg-[rgba(255,255,255,0.01)]' : ''
-                    } border-b border-white/[0.02]`}
+                    className="group flex items-center gap-2 px-2 py-1.5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.04)] bg-[rgba(255,255,255,0.01)] border border-white/[0.03]"
                     variants={fadeSlideUp}
                   >
-                    <span className="text-[9px] text-zinc-700 font-mono mt-0.5 flex-shrink-0 w-6 text-right tabular-nums">{idx + 1}</span>
+                    <span className="text-[8px] text-zinc-700 font-mono flex-shrink-0 w-5 text-right tabular-nums">{idx + 1}</span>
                     <div className="min-w-0 flex-1">
-                      <span className="text-sm text-zinc-400 group-hover:text-zinc-200 transition-colors block truncate leading-snug">{source.title}</span>
-                      <span className="text-[8px] text-zinc-700 font-mono uppercase tracking-[0.15em] mt-0.5 block">{source.type}</span>
+                      <span className="text-[11px] text-zinc-400 group-hover:text-zinc-200 transition-colors block truncate leading-snug">{source.title}</span>
                     </div>
-                    <ExternalLink className="w-3.5 h-3.5 text-zinc-800 group-hover:text-red-400 transition-colors mt-0.5 flex-shrink-0" />
+                    <span className="text-[7px] text-zinc-800 font-mono uppercase tracking-wider hidden sm:block flex-shrink-0">{source.type}</span>
+                    <ExternalLink className="w-3 h-3 text-zinc-800 group-hover:text-red-400 transition-colors flex-shrink-0" />
                   </motion.a>
                 ))}
               </motion.div>
