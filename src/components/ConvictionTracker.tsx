@@ -24,15 +24,15 @@ import investigationDatabase from '@/data/investigations';
 
 const statusConfig: Record<ConvictionStatus, { label: string; color: string; bg: string; border: string }> = {
   convicted: { label: 'Convicted', color: 'text-red-500', bg: 'bg-red-500/20', border: 'border-red-500/50' },
-  indicted: { label: 'Indicted', color: 'text-orange-500', bg: 'bg-orange-500/20', border: 'border-orange-500/50' },
-  charged: { label: 'Charged', color: 'text-yellow-500', bg: 'bg-yellow-500/20', border: 'border-yellow-500/50' },
-  acquitted: { label: 'Acquitted', color: 'text-blood-400', bg: 'bg-blood-500/20', border: 'border-blood-500/50' },
-  pardoned: { label: 'Pardoned', color: 'text-purple-500', bg: 'bg-purple-500/20', border: 'border-purple-500/50' },
-  pending: { label: 'Pending', color: 'text-zinc-400', bg: 'bg-zinc-500/20', border: 'border-zinc-500/50' },
-  settled: { label: 'Settled', color: 'text-green-400', bg: 'bg-green-500/20', border: 'border-green-500/50' },
-  appealing: { label: 'Appealing', color: 'text-cyan-400', bg: 'bg-cyan-500/20', border: 'border-cyan-500/50' },
+  indicted: { label: 'Indicted', color: 'text-red-400', bg: 'bg-red-400/20', border: 'border-red-400/50' },
+  charged: { label: 'Charged', color: 'text-red-400/80', bg: 'bg-red-400/15', border: 'border-red-400/40' },
+  acquitted: { label: 'Acquitted', color: 'text-red-300', bg: 'bg-red-300/15', border: 'border-red-300/40' },
+  pardoned: { label: 'Pardoned', color: 'text-red-300/70', bg: 'bg-red-300/10', border: 'border-red-300/30' },
+  pending: { label: 'Pending', color: 'text-red-200/60', bg: 'bg-red-200/10', border: 'border-red-200/30' },
+  settled: { label: 'Settled', color: 'text-red-300/60', bg: 'bg-red-300/10', border: 'border-red-300/30' },
+  appealing: { label: 'Appealing', color: 'text-red-400/70', bg: 'bg-red-400/10', border: 'border-red-400/30' },
   incarcerated: { label: 'Incarcerated', color: 'text-red-700', bg: 'bg-red-700/20', border: 'border-red-700/50' },
-  released: { label: 'Released', color: 'text-emerald-400', bg: 'bg-emerald-500/20', border: 'border-emerald-500/50' },
+  released: { label: 'Released', color: 'text-red-200/50', bg: 'bg-red-200/5', border: 'border-red-200/20' },
 };
 
 interface DefendantWithContext extends Defendant {
@@ -88,7 +88,7 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
             </span>
             {defendant.status === 'pardoned' && (
               <span className="flex items-center gap-1" title="Pardoned">
-                <Award className="w-3.5 h-3.5 text-purple-400" />
+                <Award className="w-3.5 h-3.5 text-red-400" />
               </span>
             )}
           </div>
@@ -167,11 +167,11 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
               </div>
             )}
             {defendant.pardonDate && (
-              <div className="bg-purple-900/30 p-2">
-                <div className="text-xs text-purple-400">Pardoned</div>
-                <div className="text-sm text-purple-300">{defendant.pardonDate}</div>
+              <div className="bg-red-900/30 p-2">
+                <div className="text-xs text-red-400">Pardoned</div>
+                <div className="text-sm text-red-300">{defendant.pardonDate}</div>
                 {defendant.pardonedBy && (
-                  <div className="text-xs text-purple-400/70 mt-1">By: {defendant.pardonedBy}</div>
+                  <div className="text-xs text-red-400/70 mt-1">By: {defendant.pardonedBy}</div>
                 )}
               </div>
             )}
@@ -193,13 +193,13 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
                 {defendant.fine && (
                   <div>
                     <span className="text-zinc-500">Fine: </span>
-                    <span className="text-green-400">{defendant.fine}</span>
+                    <span className="text-red-400">{defendant.fine}</span>
                   </div>
                 )}
                 {defendant.restitution && (
                   <div>
                     <span className="text-zinc-500">Restitution: </span>
-                    <span className="text-green-400">{defendant.restitution}</span>
+                    <span className="text-red-400">{defendant.restitution}</span>
                   </div>
                 )}
               </div>
@@ -211,9 +211,9 @@ function DefendantCard({ defendant, isExpanded, onToggle }: DefendantCardProps) 
             <div className="flex items-center gap-2 text-sm">
               <span className="text-zinc-500">Appeal:</span>
               <span className={
-                defendant.appealStatus === 'granted' ? 'text-green-400' :
-                defendant.appealStatus === 'denied' ? 'text-red-400' :
-                defendant.appealStatus === 'pending' ? 'text-yellow-400' : 'text-cyan-400'
+                defendant.appealStatus === 'granted' ? 'text-red-300' :
+                defendant.appealStatus === 'denied' ? 'text-red-500' :
+                defendant.appealStatus === 'pending' ? 'text-red-400' : 'text-red-400/70'
               }>
                 {defendant.appealStatus.charAt(0).toUpperCase() + defendant.appealStatus.slice(1)}
               </span>
@@ -360,12 +360,12 @@ export default function ConvictionTracker({ investigationSlug, compact = false, 
             <div className="text-2xl font-bold text-red-500">{stats.convicted}</div>
             <div className="text-xs text-zinc-500">Convicted</div>
           </div>
-          <div className="glass-card border border-purple-500/30 p-4">
-            <div className="text-2xl font-bold text-purple-500">{stats.pardoned}</div>
+          <div className="glass-card border border-red-500/30 p-4">
+            <div className="text-2xl font-bold text-red-400">{stats.pardoned}</div>
             <div className="text-xs text-zinc-500">Pardoned</div>
           </div>
-          <div className="glass-card border border-yellow-500/30 p-4">
-            <div className="text-2xl font-bold text-yellow-500">{stats.pending}</div>
+          <div className="glass-card border border-red-400/30 p-4">
+            <div className="text-2xl font-bold text-red-400/70">{stats.pending}</div>
             <div className="text-xs text-zinc-500">Pending/Charged</div>
           </div>
         </div>
@@ -464,7 +464,7 @@ export function ConvictionSummaryWidget() {
           <div className="text-xs text-zinc-500">Convicted</div>
         </div>
         <div className="text-center">
-          <div className="text-xl font-bold text-purple-500">{pardoned.length}</div>
+          <div className="text-xl font-bold text-red-400">{pardoned.length}</div>
           <div className="text-xs text-zinc-500">Pardoned</div>
         </div>
       </div>

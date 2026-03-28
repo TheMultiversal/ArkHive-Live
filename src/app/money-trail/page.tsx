@@ -44,8 +44,8 @@ export default function MoneyTrailPage() {
               Flows are aggregated by sender and recipient to reveal patterns of money movement.
             </p>
             <p className="mt-2 text-zinc-500">
-              <span className="text-green-500">●</span> Documented transactions have primary source evidence.
-              <span className="text-orange-500 ml-3">●</span> Undocumented transactions are reported but lack direct documentation.
+              <span className="text-red-500">●</span> Documented transactions have primary source evidence.
+              <span className="text-red-400 ml-3">●</span> Undocumented transactions are reported but lack direct documentation.
             </p>
           </div>
         </div>

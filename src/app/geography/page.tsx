@@ -50,18 +50,18 @@ export default function GeographyPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <Link 
               href="/entities/agencies"
-              className="glass-card border border-emerald-900/30 p-4 hover:border-emerald-500/50 transition-colors"
+              className="glass-card border border-red-900/30 p-4 hover:border-red-500/50 transition-colors"
             >
-              <Building2 className="w-5 h-5 text-emerald-400 mb-2" />
+              <Building2 className="w-5 h-5 text-red-400 mb-2" />
               <div className="text-white font-medium">Agencies</div>
               <div className="text-xs text-zinc-500">Government bodies</div>
             </Link>
             
             <Link 
               href="/entities/corporations"
-              className="glass-card border border-orange-900/30 p-4 hover:border-orange-500/50 transition-colors"
+              className="glass-card border border-red-900/30 p-4 hover:border-red-500/50 transition-colors"
             >
-              <Building2 className="w-5 h-5 text-orange-400 mb-2" />
+              <Building2 className="w-5 h-5 text-red-400 mb-2" />
               <div className="text-white font-medium">Corporations</div>
               <div className="text-xs text-zinc-500">Private sector</div>
             </Link>
@@ -77,9 +77,9 @@ export default function GeographyPage() {
             
             <Link 
               href="/network"
-              className="glass-card border border-purple-900/30 p-4 hover:border-purple-500/50 transition-colors"
+              className="glass-card border border-red-900/30 p-4 hover:border-red-500/50 transition-colors"
             >
-              <Building2 className="w-5 h-5 text-purple-400 mb-2" />
+              <Building2 className="w-5 h-5 text-red-300 mb-2" />
               <div className="text-white font-medium">Network</div>
               <div className="text-xs text-zinc-500">Connections</div>
             </Link>

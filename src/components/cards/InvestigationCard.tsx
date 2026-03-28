@@ -119,9 +119,9 @@ export default function InvestigationCard({ investigation, featured = false }: I
  <div className="flex items-center gap-2 text-zinc-600 text-[10px] uppercase tracking-widest mb-2.5 font-bold">
  {investigation.lastActivityDate ? (
  <>
- <Clock className="w-3 h-3 text-yellow-600"/>
+ <Clock className="w-3 h-3 text-red-400"/>
  <span>{fmtDate(investigation.lastActivityDate)}</span>
- <span className="text-yellow-600">(Active)</span>
+ <span className="text-red-400">(Active)</span>
  </>
  ) : (
  <>

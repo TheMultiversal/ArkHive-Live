@@ -40,18 +40,18 @@ interface EvidenceChain {
 
 const evidenceTypeConfig = {
   document: { icon: FileText, color: 'text-blood-400', label: 'Document' },
-  video: { icon: Video, color: 'text-pink-400', label: 'Video' },
-  audio: { icon: Mic, color: 'text-rose-400', label: 'Audio' },
-  photo: { icon: Camera, color: 'text-fuchsia-400', label: 'Photo' },
-  database: { icon: Database, color: 'text-indigo-400', label: 'Database' },
-  testimony: { icon: FileText, color: 'text-purple-400', label: 'Testimony' },
+  video: { icon: Video, color: 'text-red-400', label: 'Video' },
+  audio: { icon: Mic, color: 'text-red-400', label: 'Audio' },
+  photo: { icon: Camera, color: 'text-red-300', label: 'Photo' },
+  database: { icon: Database, color: 'text-red-400', label: 'Database' },
+  testimony: { icon: FileText, color: 'text-red-300', label: 'Testimony' },
   other: { icon: FileText, color: 'text-zinc-400', label: 'Other' },
 };
 
 const confidenceConfig = {
-  verified: { label: 'Verified', color: 'text-green-400', bg: 'bg-green-500/20', border: 'border-green-500/50', description: 'Confirmed by multiple independent primary sources' },
+  verified: { label: 'Verified', color: 'text-red-400', bg: 'bg-red-500/20', border: 'border-red-500/50', description: 'Confirmed by multiple independent primary sources' },
   corroborated: { label: 'Corroborated', color: 'text-blood-400', bg: 'bg-blood-500/20', border: 'border-blood-500/50', description: 'Supported by multiple sources' },
-  'single-source': { label: 'Single Source', color: 'text-yellow-400', bg: 'bg-yellow-500/20', border: 'border-yellow-500/50', description: 'Based on one source, awaiting corroboration' },
+  'single-source': { label: 'Single Source', color: 'text-red-300', bg: 'bg-red-400/20', border: 'border-red-400/50', description: 'Based on one source, awaiting corroboration' },
   disputed: { label: 'Disputed', color: 'text-red-400', bg: 'bg-red-500/20', border: 'border-red-500/50', description: 'Conflicting evidence exists' },
 };
 
@@ -352,16 +352,16 @@ export default function EvidenceChainBrowser({ investigationSlug, compact = fals
           <div className="text-2xl font-bold text-white">{stats.total}</div>
           <div className="text-xs text-zinc-500">Total Claims</div>
         </div>
-        <div className="glass-card border border-green-500/30 p-4">
-          <div className="text-2xl font-bold text-green-500">{stats.verified}</div>
+        <div className="glass-card border border-red-500/30 p-4">
+          <div className="text-2xl font-bold text-red-500">{stats.verified}</div>
           <div className="text-xs text-zinc-500">Verified</div>
         </div>
         <div className="glass-card border border-blood-500/30 p-4">
           <div className="text-2xl font-bold text-blood-500">{stats.corroborated}</div>
           <div className="text-xs text-zinc-500">Corroborated</div>
         </div>
-        <div className="glass-card border border-yellow-500/30 p-4">
-          <div className="text-2xl font-bold text-yellow-500">{stats.singleSource}</div>
+        <div className="glass-card border border-red-400/30 p-4">
+          <div className="text-2xl font-bold text-red-400">{stats.singleSource}</div>
           <div className="text-xs text-zinc-500">Single Source</div>
         </div>
       </div>
@@ -448,7 +448,7 @@ export function EvidenceVerificationWidget() {
       </h3>
       <div className="grid grid-cols-2 gap-3">
         <div className="text-center">
-          <div className="text-xl font-bold text-green-500">{verified}</div>
+          <div className="text-xl font-bold text-red-500">{verified}</div>
           <div className="text-xs text-zinc-500">Verified</div>
         </div>
         <div className="text-center">

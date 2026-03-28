@@ -372,7 +372,7 @@ const investigation = {
 };
 
 export default function NSAMassSurveillancePage() {
- const severityColors: Record<string, string> = { critical: 'border-zinc-800 bg-zinc-900 text-zinc-400', high: 'border-orange-500/30 bg-orange-500/20 text-orange-400', medium: 'border-yellow-500/30 bg-yellow-500/20 text-yellow-400', low: 'border-zinc-600/30 bg-zinc-500/20 text-zinc-400' };
+ const severityColors: Record<string, string> = { critical: 'border-red-500/30 bg-red-500/20 text-red-400', high: 'border-red-400/30 bg-red-400/20 text-red-400', medium: 'border-red-300/30 bg-red-300/20 text-red-300', low: 'border-red-200/30 bg-red-200/15 text-red-200/60' };
 
  return (
   <div className="min-h-screen pt-20 lg:pt-24 pb-16">

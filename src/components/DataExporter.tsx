@@ -479,10 +479,10 @@ export function DataExporter() {
                   <div className="text-sm text-white truncate">{inv.title}</div>
                   <div className="text-xs text-zinc-500 flex gap-2">
                     <span className={`uppercase ${
-                      inv.severity === 'critical' ? 'text-red-400' :
-                      inv.severity === 'high' ? 'text-orange-400' :
-                      inv.severity === 'medium' ? 'text-yellow-400' :
-                      'text-green-400'
+                      inv.severity === 'critical' ? 'text-red-500' :
+                      inv.severity === 'high' ? 'text-red-400' :
+                      inv.severity === 'medium' ? 'text-red-300' :
+                      'text-red-200/60'
                     }`}>
                       {inv.severity}
                     </span>
@@ -498,10 +498,10 @@ export function DataExporter() {
 
       {/* Warning for large exports */}
       {options.includeContent && exportList.length > 10 && (
-        <div className="glass-card p-4 flex items-start gap-3 border-yellow-500/50">
-          <AlertTriangle className="w-5 h-5 text-yellow-500 flex-shrink-0" />
+        <div className="glass-card p-4 flex items-start gap-3 border-red-500/50">
+          <AlertTriangle className="w-5 h-5 text-red-500 flex-shrink-0" />
           <div>
-            <p className="text-yellow-400 font-semibold">Large Export Warning</p>
+            <p className="text-red-400 font-semibold">Large Export Warning</p>
             <p className="text-sm text-zinc-400">
               Including full content for {exportList.length} investigations may result in a large file. 
               Consider exporting in batches or excluding full content.

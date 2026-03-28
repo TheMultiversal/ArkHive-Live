@@ -56,23 +56,23 @@ export const ENTITY_COLORS: Record<EntityType, {
  border: string;
 }> = {
  agency: {
- text: 'text-amber-500',
- bg: 'bg-amber-500/10',
- border: 'border-amber-500/50',
+ text: 'text-red-500',
+ bg: 'bg-red-500/10',
+ border: 'border-red-500/50',
  },
  corporation: {
- text: 'text-emerald-500',
- bg: 'bg-emerald-500/10',
- border: 'border-emerald-500/50',
+ text: 'text-red-400',
+ bg: 'bg-red-400/10',
+ border: 'border-red-400/50',
  },
  individual: {
- text: 'text-purple-500',
- bg: 'bg-purple-500/10',
- border: 'border-purple-500/50',
+ text: 'text-red-300',
+ bg: 'bg-red-300/10',
+ border: 'border-red-300/50',
  },
  organization: {
- text: 'text-zinc-400',
- bg: 'bg-zinc-500/10',
- border: 'border-zinc-600/50',
+ text: 'text-red-200/60',
+ bg: 'bg-red-200/5',
+ border: 'border-red-200/30',
  },
 };

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import { useParams } from 'next/navigation';
 import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
@@ -36,43 +36,43 @@ const severityConfig: Record<string, {
     accentDark: 'rgba(239,68,68,0.04)',
   },
   high: {
-    color: '#f97316', glow: 'rgba(249,115,22,0.15)', bg: 'rgba(249,115,22,0.06)',
-    border: 'rgba(249,115,22,0.30)', label: 'HIGH', level: 'II',
-    gradient: 'linear-gradient(135deg, rgba(249,115,22,0.10) 0%, transparent 50%)',
-    accentDark: 'rgba(249,115,22,0.04)',
+    color: '#dc2626', glow: 'rgba(220,38,38,0.15)', bg: 'rgba(220,38,38,0.06)',
+    border: 'rgba(220,38,38,0.30)', label: 'HIGH', level: 'II',
+    gradient: 'linear-gradient(135deg, rgba(220,38,38,0.10) 0%, transparent 50%)',
+    accentDark: 'rgba(220,38,38,0.04)',
   },
   medium: {
-    color: '#eab308', glow: 'rgba(234,179,8,0.12)', bg: 'rgba(234,179,8,0.05)',
-    border: 'rgba(234,179,8,0.25)', label: 'ELEVATED', level: 'III',
-    gradient: 'linear-gradient(135deg, rgba(234,179,8,0.08) 0%, transparent 50%)',
-    accentDark: 'rgba(234,179,8,0.03)',
+    color: '#b91c1c', glow: 'rgba(185,28,28,0.12)', bg: 'rgba(185,28,28,0.05)',
+    border: 'rgba(185,28,28,0.25)', label: 'ELEVATED', level: 'III',
+    gradient: 'linear-gradient(135deg, rgba(185,28,28,0.08) 0%, transparent 50%)',
+    accentDark: 'rgba(185,28,28,0.03)',
   },
   low: {
-    color: '#71717a', glow: 'rgba(113,113,122,0.10)', bg: 'rgba(113,113,122,0.04)',
-    border: 'rgba(113,113,122,0.20)', label: 'STANDARD', level: 'IV',
-    gradient: 'linear-gradient(135deg, rgba(113,113,122,0.06) 0%, transparent 50%)',
-    accentDark: 'rgba(113,113,122,0.03)',
+    color: '#991b1b', glow: 'rgba(153,27,27,0.10)', bg: 'rgba(153,27,27,0.04)',
+    border: 'rgba(153,27,27,0.20)', label: 'STANDARD', level: 'IV',
+    gradient: 'linear-gradient(135deg, rgba(153,27,27,0.06) 0%, transparent 50%)',
+    accentDark: 'rgba(153,27,27,0.03)',
   },
 };
 
 const statusColors: Record<string, { bg: string; text: string; border: string; dot: string }> = {
-  convicted:    { bg: 'rgba(220,38,38,0.10)', text: '#fca5a5', border: 'rgba(220,38,38,0.35)', dot: '#dc2626' },
-  incarcerated: { bg: 'rgba(153,27,27,0.12)', text: '#fecaca', border: 'rgba(153,27,27,0.40)', dot: '#991b1b' },
-  indicted:     { bg: 'rgba(234,88,12,0.10)',  text: '#fdba74', border: 'rgba(234,88,12,0.35)', dot: '#ea580c' },
-  charged:      { bg: 'rgba(217,119,6,0.10)',  text: '#fcd34d', border: 'rgba(217,119,6,0.35)', dot: '#d97706' },
-  pending:      { bg: 'rgba(234,179,8,0.06)',  text: '#fde047', border: 'rgba(234,179,8,0.25)', dot: '#eab308' },
+  convicted:    { bg: 'rgba(239,68,68,0.10)',  text: '#fca5a5', border: 'rgba(239,68,68,0.35)', dot: '#ef4444' },
+  incarcerated: { bg: 'rgba(220,38,38,0.12)',  text: '#fecaca', border: 'rgba(220,38,38,0.40)', dot: '#dc2626' },
+  indicted:     { bg: 'rgba(185,28,28,0.10)',  text: '#fca5a5', border: 'rgba(185,28,28,0.35)', dot: '#b91c1c' },
+  charged:      { bg: 'rgba(153,27,27,0.10)',  text: '#fecaca', border: 'rgba(153,27,27,0.35)', dot: '#991b1b' },
+  pending:      { bg: 'rgba(127,29,29,0.08)',  text: '#fca5a5', border: 'rgba(127,29,29,0.30)', dot: '#7f1d1d' },
   settled:      { bg: 'rgba(113,113,122,0.08)', text: '#a1a1aa', border: 'rgba(113,113,122,0.25)', dot: '#71717a' },
-  acquitted:    { bg: 'rgba(16,185,129,0.08)',  text: '#6ee7b7', border: 'rgba(16,185,129,0.25)', dot: '#10b981' },
-  pardoned:     { bg: 'rgba(139,92,246,0.08)',  text: '#c4b5fd', border: 'rgba(139,92,246,0.25)', dot: '#8b5cf6' },
-  appealing:    { bg: 'rgba(59,130,246,0.08)',  text: '#93c5fd', border: 'rgba(59,130,246,0.25)', dot: '#3b82f6' },
-  released:     { bg: 'rgba(156,163,175,0.06)', text: '#d1d5db', border: 'rgba(156,163,175,0.20)', dot: '#9ca3af' },
+  acquitted:    { bg: 'rgba(107,33,33,0.08)',  text: '#fecaca', border: 'rgba(107,33,33,0.25)', dot: '#6b2121' },
+  pardoned:     { bg: 'rgba(159,18,57,0.08)',  text: '#fda4af', border: 'rgba(159,18,57,0.25)', dot: '#9f1239' },
+  appealing:    { bg: 'rgba(190,18,60,0.08)',  text: '#fda4af', border: 'rgba(190,18,60,0.25)', dot: '#be123c' },
+  released:     { bg: 'rgba(136,19,55,0.06)',  text: '#fecdd3', border: 'rgba(136,19,55,0.20)', dot: '#881337' },
 };
 
 const entityTypeConfig: Record<string, { color: string; bg: string; icon: typeof Building2; label: string }> = {
-  agency:       { color: '#22d3ee', bg: 'rgba(34,211,238,0.06)',  icon: Shield, label: 'Agency' },
-  corporation:  { color: '#facc15', bg: 'rgba(250,204,21,0.06)',  icon: Building2, label: 'Corporation' },
-  individual:   { color: '#f87171', bg: 'rgba(248,113,113,0.06)', icon: Fingerprint, label: 'Individual' },
-  organization: { color: '#c084fc', bg: 'rgba(192,132,252,0.06)', icon: Users, label: 'Organization' },
+  agency:       { color: '#ef4444', bg: 'rgba(239,68,68,0.06)',   icon: Shield, label: 'Agency' },
+  corporation:  { color: '#dc2626', bg: 'rgba(220,38,38,0.06)',   icon: Building2, label: 'Corporation' },
+  individual:   { color: '#b91c1c', bg: 'rgba(185,28,28,0.06)',   icon: Fingerprint, label: 'Individual' },
+  organization: { color: '#991b1b', bg: 'rgba(153,27,27,0.06)',   icon: Users, label: 'Organization' },
 };
 
 /* ================================================================
@@ -98,11 +98,11 @@ type OpTrack = 'legal' | 'direct' | 'investigate' | 'expose' | 'economic';
 const trackOrder: OpTrack[] = ['legal', 'direct', 'investigate', 'expose', 'economic'];
 
 const trackMeta: Record<OpTrack, { label: string; directive: string; icon: typeof Crosshair; color: string; urgency: string }> = {
-  legal:       { label: 'PROSECUTE',     directive: 'File suits. Petition grand juries. Use every legal weapon available.',      icon: Gavel,          color: '#a855f7', urgency: 'MAXIMUM' },
-  direct:      { label: 'DIRECT ACTION', directive: 'File formal complaints with enforcement bodies and independent watchdogs.', icon: Target,         color: '#ef4444', urgency: 'IMMEDIATE' },
-  investigate: { label: 'INVESTIGATE',   directive: 'Extract records. Submit FOIA requests. Build unbreakable evidence chains.', icon: ClipboardCheck, color: '#3b82f6', urgency: 'PRIORITY' },
-  expose:      { label: 'EXPOSE',        directive: 'Document everything. Archive. Make suppression impossible.',                icon: Crosshair,      color: '#ea580c', urgency: 'ONGOING' },
-  economic:    { label: 'DISRUPT',       directive: 'Target the financial infrastructure. Boycott. Divest. Defund.',             icon: DollarSign,     color: '#eab308', urgency: 'SUSTAINED' },
+  legal:       { label: 'PROSECUTE',     directive: 'File suits. Petition grand juries. Use every legal weapon available.',      icon: Gavel,          color: '#ef4444', urgency: 'MAXIMUM' },
+  direct:      { label: 'DIRECT ACTION', directive: 'File formal complaints with enforcement bodies and independent watchdogs.', icon: Target,         color: '#dc2626', urgency: 'IMMEDIATE' },
+  investigate: { label: 'INVESTIGATE',   directive: 'Extract records. Submit FOIA requests. Build unbreakable evidence chains.', icon: ClipboardCheck, color: '#b91c1c', urgency: 'PRIORITY' },
+  expose:      { label: 'EXPOSE',        directive: 'Document everything. Archive. Make suppression impossible.',                icon: Crosshair,      color: '#991b1b', urgency: 'ONGOING' },
+  economic:    { label: 'DISRUPT',       directive: 'Target the financial infrastructure. Boycott. Divest. Defund.',             icon: DollarSign,     color: '#7f1d1d', urgency: 'SUSTAINED' },
 };
 
 function categorizeOp(text: string): OpTrack {
@@ -126,14 +126,14 @@ function slugifyName(name: string): string {
 
 const enforcementPortals = [
   { name: 'FBI Crime Tips', url: 'https://tips.fbi.gov/', icon: Shield, desc: 'Submit evidence of federal crimes directly to the FBI.', color: '#ef4444' },
-  { name: 'DOJ Report Crime', url: 'https://www.justice.gov/actioncenter/report-crime', icon: Gavel, desc: 'File criminal reports with the Department of Justice.', color: '#a855f7' },
-  { name: 'Inspector General Directory', url: 'https://www.ignet.gov/content/inspectors-general-directory', icon: ShieldAlert, desc: 'File complaints with agency IGs. Independent federal watchdogs with subpoena power.', color: '#f97316' },
-  { name: 'State Attorney General', url: 'https://www.naag.org/find-my-ag/', icon: Scale, desc: 'File complaints with your State AG. Real prosecution and subpoena authority.', color: '#22d3ee' },
-  { name: 'File FOIA Request', url: 'https://www.foia.gov/', icon: FileText, desc: 'Force disclosure of government records under the Freedom of Information Act.', color: '#3b82f6' },
-  { name: 'SEC Whistleblower', url: 'https://www.sec.gov/whistleblower', icon: DollarSign, desc: 'Report securities violations. Whistleblowers receive 10-30% of sanctions over $1M.', color: '#eab308' },
-  { name: 'IRS Whistleblower', url: 'https://www.irs.gov/compliance/whistleblower-office', icon: TrendingUp, desc: 'Report tax fraud over $2M. Awards of 15-30% of collected proceeds.', color: '#10b981' },
-  { name: 'FTC Report Fraud', url: 'https://reportfraud.ftc.gov/', icon: AlertTriangle, desc: 'Report fraud, scams, and unfair business to the Federal Trade Commission.', color: '#f43f5e' },
-  { name: 'International Criminal Court', url: 'https://www.icc-cpi.int/about/otp/otp-contact', icon: Landmark, desc: 'Submit evidence of crimes against humanity and war crimes to the ICC.', color: '#8b5cf6' },
+  { name: 'DOJ Report Crime', url: 'https://www.justice.gov/actioncenter/report-crime', icon: Gavel, desc: 'File criminal reports with the Department of Justice.', color: '#dc2626' },
+  { name: 'Inspector General Directory', url: 'https://www.ignet.gov/content/inspectors-general-directory', icon: ShieldAlert, desc: 'File complaints with agency IGs. Independent federal watchdogs with subpoena power.', color: '#b91c1c' },
+  { name: 'State Attorney General', url: 'https://www.naag.org/find-my-ag/', icon: Scale, desc: 'File complaints with your State AG. Real prosecution and subpoena authority.', color: '#991b1b' },
+  { name: 'File FOIA Request', url: 'https://www.foia.gov/', icon: FileText, desc: 'Force disclosure of government records under the Freedom of Information Act.', color: '#ef4444' },
+  { name: 'SEC Whistleblower', url: 'https://www.sec.gov/whistleblower', icon: DollarSign, desc: 'Report securities violations. Whistleblowers receive 10-30% of sanctions over $1M.', color: '#dc2626' },
+  { name: 'IRS Whistleblower', url: 'https://www.irs.gov/compliance/whistleblower-office', icon: TrendingUp, desc: 'Report tax fraud over $2M. Awards of 15-30% of collected proceeds.', color: '#b91c1c' },
+  { name: 'FTC Report Fraud', url: 'https://reportfraud.ftc.gov/', icon: AlertTriangle, desc: 'Report fraud, scams, and unfair business to the Federal Trade Commission.', color: '#991b1b' },
+  { name: 'International Criminal Court', url: 'https://www.icc-cpi.int/about/otp/otp-contact', icon: Landmark, desc: 'Submit evidence of crimes against humanity and war crimes to the ICC.', color: '#7f1d1d' },
 ];
 
 /* ================================================================
@@ -311,9 +311,9 @@ function CollapsibleGlass({
     <div className="glass-card overflow-hidden relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full flex items-center gap-2.5 p-3 sm:p-3.5 cursor-pointer select-none group relative z-10"
+        className="w-full flex items-center gap-2 p-2 sm:p-2.5 cursor-pointer select-none group relative z-10"
       >
-        <div className="flex items-center justify-center w-7 h-7 flex-shrink-0 relative"
+        <div className="flex items-center justify-center w-6 h-6 flex-shrink-0 relative"
           style={{
             background: accentColor ? `${accentColor}06` : 'rgba(184,0,0,0.04)',
             border: `1px solid ${accentColor ? `${accentColor}18` : 'rgba(184,0,0,0.10)'}`,
@@ -342,7 +342,7 @@ function CollapsibleGlass({
 
       {/* Animated accent line below header */}
       <motion.div
-        className="h-px mx-3 sm:mx-3.5"
+        className="h-px mx-2 sm:mx-2.5"
         style={{ background: `linear-gradient(90deg, ${accent}, transparent 80%)`, transformOrigin: 'left' }}
         initial={{ scaleX: 0, opacity: 0 }}
         animate={{ scaleX: isOpen ? 1 : 0, opacity: isOpen ? 1 : 0 }}
@@ -358,7 +358,7 @@ function CollapsibleGlass({
             transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
             className="overflow-hidden"
           >
-            <div className="px-3 sm:px-3.5 pb-3.5 pt-3">
+            <div className="px-2 sm:px-2.5 pb-2.5 pt-2">
               {children}
             </div>
           </motion.div>
@@ -431,24 +431,24 @@ function AccountabilityEngine({ content, slug, investigation }: {
 
   const socialPost = `EXPOSED: ${title}\n\n${summary.slice(0, 200)}${summary.length > 200 ? '...' : ''}${defendants.length > 0 ? `\n\nNamed defendants: ${defendants.slice(0, 3).map((d: any) => d.name).join(', ')}${defendants.length > 3 ? ` + ${defendants.length - 3} more` : ''}` : ''}${statutes.length > 0 ? `\nLaws violated: ${statutes.slice(0, 2).map((s: any) => s.code).join(', ')}` : ''}\n\nFull investigation // ${sources.length} sourced references:\n${shareUrl}\n\nThe evidence speaks for itself.\n\n#ArkHive #Accountability`;
 
-  const legalDemand = `FORMAL LEGAL DEMAND AND NOTICE OF EVIDENCE PRESERVATION\n\nTO: [Responsible Party / Entity Name]\nFROM: [Your Full Legal Name]\nDATE: [Date]\nRE: ${title}\n\n${'─'.repeat(50)}\n\nDear Sir/Madam,\n\nThis letter constitutes formal notice regarding documented evidence of misconduct and/or legal violations as detailed in the investigation referenced above.\n\nFACTUAL BASIS:\n${summary.slice(0, 600)}${summary.length > 600 ? '...' : ''}\n${defendants.length > 0 ? `\nNAMED PARTIES (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name} | ${d.role} [Status: ${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LEGAL PROVISIONS:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nDEMANDS:\n1. Immediate preservation of ALL documents, communications, electronic records, and physical evidence related to the above matter\n2. Full disclosure of all information relevant to the documented violations\n3. Immediate cessation of any ongoing conduct constituting a violation of the laws cited above\n4. Written acknowledgment of receipt of this demand within ten (10) business days\n\nNOTICE OF ESCALATION:\nFailure to comply with these demands within thirty (30) days will result in escalation to appropriate enforcement bodies, including but not limited to:\n- The Office of the Inspector General for the relevant agency\n- The State Attorney General\n- The United States Department of Justice\n- Applicable federal regulatory agencies\n- Private legal action as permitted under applicable statutes\n\nThis letter creates a legal record. You are now on formal notice of these documented findings.\n\nEvidentiary Record: ${sources.length} sourced references\n${shareUrl}\n\nRespectfully,\n[Your Full Legal Name]\n[Your Address]\n[Your Contact Information]\n[Date]`;
+  const legalDemand = `FORMAL LEGAL DEMAND AND NOTICE OF EVIDENCE PRESERVATION\n\nTO: [Responsible Party / Entity Name]\nFROM: [Your Full Legal Name]\nDATE: [Date]\nRE: ${title}\n\n${'Ã¢â€â‚¬'.repeat(50)}\n\nDear Sir/Madam,\n\nThis letter constitutes formal notice regarding documented evidence of misconduct and/or legal violations as detailed in the investigation referenced above.\n\nFACTUAL BASIS:\n${summary.slice(0, 600)}${summary.length > 600 ? '...' : ''}\n${defendants.length > 0 ? `\nNAMED PARTIES (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name} | ${d.role} [Status: ${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LEGAL PROVISIONS:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nDEMANDS:\n1. Immediate preservation of ALL documents, communications, electronic records, and physical evidence related to the above matter\n2. Full disclosure of all information relevant to the documented violations\n3. Immediate cessation of any ongoing conduct constituting a violation of the laws cited above\n4. Written acknowledgment of receipt of this demand within ten (10) business days\n\nNOTICE OF ESCALATION:\nFailure to comply with these demands within thirty (30) days will result in escalation to appropriate enforcement bodies, including but not limited to:\n- The Office of the Inspector General for the relevant agency\n- The State Attorney General\n- The United States Department of Justice\n- Applicable federal regulatory agencies\n- Private legal action as permitted under applicable statutes\n\nThis letter creates a legal record. You are now on formal notice of these documented findings.\n\nEvidentiary Record: ${sources.length} sourced references\n${shareUrl}\n\nRespectfully,\n[Your Full Legal Name]\n[Your Address]\n[Your Contact Information]\n[Date]`;
 
   const agencies = affiliations.filter((a: any) => a.type === 'agency');
 
-  const igComplaint = `FORMAL COMPLAINT TO THE OFFICE OF INSPECTOR GENERAL\n\n${agencies.length > 0 ? `Agency: ${agencies.map((a: any) => a.name).join(', ')}\n` : 'Agency: [Relevant Federal Agency]\n'}Inspector General Office: [Locate at ignet.gov/content/inspectors-general-directory]\n\n${'─'.repeat(50)}\n\nCOMPLAINANT INFORMATION:\nName: [Your Name]\nAddress: [Your Address]\nEmail: [Your Email]\nPhone: [Your Phone]\n\nCOMPLAINT:\nI hereby file a formal complaint regarding documented misconduct related to:\n\n"${title}"\n\nSUMMARY OF ALLEGATIONS:\n${summary}\n${defendants.length > 0 ? `\nSUBJECTS OF COMPLAINT (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name}: ${d.role}\n  Current status: ${d.status.toUpperCase()}${d.charges?.length ? '\n  Known charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nLAWS AND REGULATIONS POTENTIALLY VIOLATED:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL IRREGULARITIES:\n${moneyTrail.length} documented financial transactions between implicated parties are detailed in the full investigation.\n` : ''}\nEVIDENCE:\nThis complaint is supported by ${sources.length} independently sourced references, all available at:\n${shareUrl}\n\nREQUESTED ACTION:\n1. Formal investigation into the allegations described above\n2. Preservation of all relevant agency records and communications\n3. Referral to the Department of Justice if criminal conduct is substantiated\n4. Written response regarding the disposition of this complaint\n\nSubmitted on: [Date]\n[Your Signature]\n[Your Printed Name]`;
+  const igComplaint = `FORMAL COMPLAINT TO THE OFFICE OF INSPECTOR GENERAL\n\n${agencies.length > 0 ? `Agency: ${agencies.map((a: any) => a.name).join(', ')}\n` : 'Agency: [Relevant Federal Agency]\n'}Inspector General Office: [Locate at ignet.gov/content/inspectors-general-directory]\n\n${'Ã¢â€â‚¬'.repeat(50)}\n\nCOMPLAINANT INFORMATION:\nName: [Your Name]\nAddress: [Your Address]\nEmail: [Your Email]\nPhone: [Your Phone]\n\nCOMPLAINT:\nI hereby file a formal complaint regarding documented misconduct related to:\n\n"${title}"\n\nSUMMARY OF ALLEGATIONS:\n${summary}\n${defendants.length > 0 ? `\nSUBJECTS OF COMPLAINT (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name}: ${d.role}\n  Current status: ${d.status.toUpperCase()}${d.charges?.length ? '\n  Known charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nLAWS AND REGULATIONS POTENTIALLY VIOLATED:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL IRREGULARITIES:\n${moneyTrail.length} documented financial transactions between implicated parties are detailed in the full investigation.\n` : ''}\nEVIDENCE:\nThis complaint is supported by ${sources.length} independently sourced references, all available at:\n${shareUrl}\n\nREQUESTED ACTION:\n1. Formal investigation into the allegations described above\n2. Preservation of all relevant agency records and communications\n3. Referral to the Department of Justice if criminal conduct is substantiated\n4. Written response regarding the disposition of this complaint\n\nSubmitted on: [Date]\n[Your Signature]\n[Your Printed Name]`;
 
   const pressTip = `PRESS TIP: For Immediate Investigation\n\nSubject: ${title}\n\n${summary}\n${defendants.length > 0 ? `\nNAMED SUBJECTS (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name} | ${d.role} [${d.status.toUpperCase()}]`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL: ${moneyTrail.length} documented transactions\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS:\n${statutes.slice(0, 5).map((s: any) => `* ${s.code}`).join('\n')}\n` : ''}\nThis investigation includes ${sources.length} sourced references, documented evidence, and applicable statutes.\n\nFull evidence package: ${shareUrl}\n\nSubmitted via ArkHive (arkhive.live) // Open accountability platform.`;
 
-  const foiaTemplate = agencies.length > 0 ? `Freedom of Information Act Request\n\nTo: FOIA Officer\n${agencies.map((a: any) => a.name).join(', ')}\n\nDear FOIA Officer,\n\nPursuant to the Freedom of Information Act, 5 U.S.C. § 552, I am requesting access to and copies of all records related to:\n\n"${title}"\n\nSpecifically, I request:\n1. All internal communications, memoranda, and emails related to the above matter\n2. All reports, studies, and analyses concerning the above\n3. All correspondence with external parties regarding the above\n4. All financial records and transaction logs related to the above\n5. All records of enforcement actions taken or declined regarding the above\n\nI am willing to pay reasonable duplication fees. If fees exceed $25, please notify me before processing.\n\nIf you deny this request in whole or in part, please cite the specific exemption(s) and notify me of appeal procedures available under 5 U.S.C. § 552(a)(6).\n\nThank you for your prompt attention to this matter.\n\n[Your Name]\n[Your Address]\n[Your Email]\n[Date]` : null;
+  const foiaTemplate = agencies.length > 0 ? `Freedom of Information Act Request\n\nTo: FOIA Officer\n${agencies.map((a: any) => a.name).join(', ')}\n\nDear FOIA Officer,\n\nPursuant to the Freedom of Information Act, 5 U.S.C. Ã‚Â§ 552, I am requesting access to and copies of all records related to:\n\n"${title}"\n\nSpecifically, I request:\n1. All internal communications, memoranda, and emails related to the above matter\n2. All reports, studies, and analyses concerning the above\n3. All correspondence with external parties regarding the above\n4. All financial records and transaction logs related to the above\n5. All records of enforcement actions taken or declined regarding the above\n\nI am willing to pay reasonable duplication fees. If fees exceed $25, please notify me before processing.\n\nIf you deny this request in whole or in part, please cite the specific exemption(s) and notify me of appeal procedures available under 5 U.S.C. Ã‚Â§ 552(a)(6).\n\nThank you for your prompt attention to this matter.\n\n[Your Name]\n[Your Address]\n[Your Email]\n[Date]` : null;
 
-  const evidencePackage = `${'═'.repeat(54)}\nINVESTIGATION FILE: ${title}\nSeverity: ${(investigation.severity || 'medium').toUpperCase()} | Category: ${investigation.category}\nSource: ArkHive (arkhive.live)\n${'═'.repeat(54)}\n\nSUMMARY\n${summary}\n${defendants.length > 0 ? `\nNAMED DEFENDANTS (${defendants.length})\n${defendants.map((d: any) => `> ${d.name} | ${d.role} [${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join(', ') : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL (${moneyTrail.length} transactions)\n${moneyTrail.map((m: any) => `> ${m.date}: ${m.from} -> ${m.to} | ${m.amount}${m.purpose ? ' | ' + m.purpose : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS\n${statutes.map((s: any) => `> ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nSOURCED EVIDENCE (${sources.length} references)\n${sources.map((s: any, i: number) => `[${i + 1}] ${s.title} | ${s.url}`).join('\n')}\n\nFULL INVESTIGATION\n${shareUrl}\n\n${'═'.repeat(54)}\nCompiled from ArkHive (arkhive.live)\nOpen-source accountability platform\n${'═'.repeat(54)}`;
+  const evidencePackage = `${'Ã¢â€¢Â'.repeat(54)}\nINVESTIGATION FILE: ${title}\nSeverity: ${(investigation.severity || 'medium').toUpperCase()} | Category: ${investigation.category}\nSource: ArkHive (arkhive.live)\n${'Ã¢â€¢Â'.repeat(54)}\n\nSUMMARY\n${summary}\n${defendants.length > 0 ? `\nNAMED DEFENDANTS (${defendants.length})\n${defendants.map((d: any) => `> ${d.name} | ${d.role} [${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join(', ') : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL (${moneyTrail.length} transactions)\n${moneyTrail.map((m: any) => `> ${m.date}: ${m.from} -> ${m.to} | ${m.amount}${m.purpose ? ' | ' + m.purpose : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS\n${statutes.map((s: any) => `> ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nSOURCED EVIDENCE (${sources.length} references)\n${sources.map((s: any, i: number) => `[${i + 1}] ${s.title} | ${s.url}`).join('\n')}\n\nFULL INVESTIGATION\n${shareUrl}\n\n${'Ã¢â€¢Â'.repeat(54)}\nCompiled from ArkHive (arkhive.live)\nOpen-source accountability platform\n${'Ã¢â€¢Â'.repeat(54)}`;
 
   const templates = [
-    { icon: Scale, title: 'Legal Demand Notice', desc: 'Formal demand letter with evidence preservation notice. Carries legal weight.', content: legalDemand, key: 'legal', color: '#a855f7' },
-    { icon: ShieldAlert, title: 'Inspector General Complaint', desc: 'Formal complaint to the independent federal watchdog with subpoena power.', content: igComplaint, key: 'ig', color: '#f97316' },
-    { icon: Megaphone, title: 'Press Tip', desc: 'Formatted for investigative journalists. Send to any newsroom.', content: pressTip, key: 'press', color: '#ef4444' },
-    { icon: Share2, title: 'Social Media Post', desc: 'Shareable post with key facts and evidence link.', content: socialPost, key: 'social', color: '#ea580c' },
-    ...(foiaTemplate ? [{ icon: FileText, title: 'FOIA Request', desc: `Pre-addressed to: ${agencies.map((a: any) => a.name).join(', ')}`, content: foiaTemplate, key: 'foia', color: '#3b82f6' }] : []),
+    { icon: Scale, title: 'Legal Demand Notice', desc: 'Formal demand letter with evidence preservation notice. Carries legal weight.', content: legalDemand, key: 'legal', color: '#ef4444' },
+    { icon: ShieldAlert, title: 'Inspector General Complaint', desc: 'Formal complaint to the independent federal watchdog with subpoena power.', content: igComplaint, key: 'ig', color: '#dc2626' },
+    { icon: Megaphone, title: 'Press Tip', desc: 'Formatted for investigative journalists. Send to any newsroom.', content: pressTip, key: 'press', color: '#b91c1c' },
+    { icon: Share2, title: 'Social Media Post', desc: 'Shareable post with key facts and evidence link.', content: socialPost, key: 'social', color: '#991b1b' },
+    ...(foiaTemplate ? [{ icon: FileText, title: 'FOIA Request', desc: `Pre-addressed to: ${agencies.map((a: any) => a.name).join(', ')}`, content: foiaTemplate, key: 'foia', color: '#7f1d1d' }] : []),
   ];
 
   return (
@@ -459,15 +459,15 @@ function AccountabilityEngine({ content, slug, investigation }: {
           background: 'linear-gradient(135deg, rgba(184,0,0,0.10) 0%, transparent 40%, rgba(184,0,0,0.04) 100%)',
         }} />
 
-        <div className="relative z-10 p-3 sm:p-4 lg:p-5">
-          <div className="flex flex-col sm:flex-row sm:items-start gap-3 mb-3">
-            <div className="relative w-10 h-10 flex items-center justify-center flex-shrink-0">
+        <div className="relative z-10 p-2.5 sm:p-3 lg:p-4">
+          <div className="flex flex-col sm:flex-row sm:items-start gap-2.5 mb-2">
+            <div className="relative w-8 h-8 flex items-center justify-center flex-shrink-0">
               <div className="absolute inset-0 bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.20)]" />
               <Target className="w-5 h-5 text-red-400 relative z-10" />
               <div className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-500 animate-pulse" />
             </div>
             <div className="flex-1 min-w-0">
-              <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-[0.06em] glass-text-hero mb-1 leading-none">
+              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-[0.06em] glass-text-hero mb-0.5 leading-none">
                 Accountability Engine
               </h2>
               <div className="flex flex-wrap items-center gap-3 text-[10px] font-mono tracking-wider text-red-500/40">
@@ -480,8 +480,8 @@ function AccountabilityEngine({ content, slug, investigation }: {
             </div>
           </div>
 
-          <div className="mb-4">
-            <p className="text-xs text-zinc-500 leading-[1.7]">
+          <div className="mb-2.5">
+            <p className="text-[10px] text-zinc-500 leading-[1.6]">
               Real accountability requires direct action. Every operation below targets a specific vulnerability. Deploy them.
             </p>
           </div>
@@ -531,9 +531,9 @@ function AccountabilityEngine({ content, slug, investigation }: {
             {/* Track accent bar */}
             <div className="h-[2px] w-full" style={{ background: `linear-gradient(90deg, ${meta.color}50, ${meta.color}15, transparent)` }} />
 
-            <div className="p-3 sm:p-3.5 pb-0">
-              <div className="flex items-center gap-2.5 mb-2">
-                <div className="w-8 h-8 flex items-center justify-center border flex-shrink-0 relative"
+            <div className="p-2 sm:p-2.5 pb-0">
+              <div className="flex items-center gap-2 mb-1.5">
+                <div className="w-6 h-6 flex items-center justify-center border flex-shrink-0 relative"
                   style={{ borderColor: `${meta.color}20`, background: `${meta.color}06` }}>
                   <TrackIcon className="w-3.5 h-3.5" style={{ color: meta.color }} />
                 </div>
@@ -563,7 +563,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
               </div>
             </div>
 
-            <div className="p-2.5 sm:p-3 pt-1 space-y-0.5">
+            <div className="p-2 sm:p-2.5 pt-1 space-y-0.5">
               {trackOps.map(op => {
                 const isComplete = completedOps.has(op.id);
                 return (
@@ -634,23 +634,23 @@ function AccountabilityEngine({ content, slug, investigation }: {
 
       {/* READY-TO-DEPLOY ARSENAL */}
       <motion.div
-        className="glass-card p-3 sm:p-3.5"
+        className="glass-card p-2 sm:p-2.5"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-60px' }}
         transition={{ duration: 0.6 }}
       >
-        <div className="flex items-center gap-2.5 mb-3">
-          <div className="w-8 h-8 flex items-center justify-center bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.12)] flex-shrink-0">
-            <Lock className="w-3.5 h-3.5 text-red-400/70" />
+        <div className="flex items-center gap-2 mb-2">
+          <div className="w-6 h-6 flex items-center justify-center bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.12)] flex-shrink-0">
+            <Lock className="w-3 h-3 text-red-400/70" />
           </div>
           <div>
-            <h3 className="text-xs font-black text-white uppercase tracking-[0.2em]">Ready-to-Deploy Arsenal</h3>
-            <p className="text-[9px] text-zinc-600 mt-0.5">Legal demands, formal complaints, and evidence packages.</p>
+            <h3 className="text-[10px] font-black text-white uppercase tracking-[0.2em]">Ready-to-Deploy Arsenal</h3>
+            <p className="text-[8px] text-zinc-600 mt-0.5">Legal demands, formal complaints, and evidence packages.</p>
           </div>
         </div>
 
-        <div className="space-y-2">
+        <div className="space-y-1.5">
           {templates.map(tmpl => {
             const TmplIcon = tmpl.icon;
             const isExpanded = expandedTemplate === tmpl.key;
@@ -658,9 +658,9 @@ function AccountabilityEngine({ content, slug, investigation }: {
               <div key={tmpl.key} className="border border-[rgba(255,255,255,0.05)] bg-[rgba(255,255,255,0.015)] overflow-hidden transition-all duration-300 hover:border-[rgba(255,255,255,0.08)]">
                 <button
                   onClick={() => setExpandedTemplate(isExpanded ? null : tmpl.key)}
-                  className="w-full flex items-center gap-3 p-3 text-left group cursor-pointer select-none"
+                  className="w-full flex items-center gap-2.5 p-2.5 text-left group cursor-pointer select-none"
                 >
-                  <div className="w-8 h-8 flex items-center justify-center flex-shrink-0 transition-all duration-300"
+                  <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 transition-all duration-300"
                     style={{ background: `${tmpl.color}06`, border: `1px solid ${tmpl.color}12` }}>
                     <TmplIcon className="w-4 h-4" style={{ color: tmpl.color }} />
                   </div>
@@ -707,19 +707,19 @@ function AccountabilityEngine({ content, slug, investigation }: {
 
       {/* ENFORCEMENT PORTALS */}
       <motion.div
-        className="glass-card p-3 sm:p-3.5"
+        className="glass-card p-2 sm:p-2.5"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-60px' }}
         transition={{ duration: 0.6 }}
       >
-        <div className="flex items-center gap-3 mb-2">
-          <div className="w-8 h-8 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.15)] flex-shrink-0">
-            <ShieldAlert className="w-3.5 h-3.5 text-red-400/70" />
+        <div className="flex items-center gap-2.5 mb-1.5">
+          <div className="w-6 h-6 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.15)] flex-shrink-0">
+            <ShieldAlert className="w-3 h-3 text-red-400/70" />
           </div>
           <div>
-            <h3 className="text-xs font-black text-white uppercase tracking-[0.2em]">Enforcement Portals</h3>
-            <p className="text-[9px] text-zinc-600 mt-0.5">Independent watchdogs and enforcement bodies with real investigative power.</p>
+            <h3 className="text-[10px] font-black text-white uppercase tracking-[0.2em]">Enforcement Portals</h3>
+            <p className="text-[8px] text-zinc-600 mt-0.5">Independent watchdogs and enforcement bodies with real investigative power.</p>
           </div>
         </div>
 
@@ -738,20 +738,20 @@ function AccountabilityEngine({ content, slug, investigation }: {
                 href={portal.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-start gap-2.5 p-3 bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.04)] transition-all duration-300 group relative overflow-hidden"
+                className="flex items-start gap-2 p-2 bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] hover:bg-[rgba(255,255,255,0.04)] transition-all duration-300 group relative overflow-hidden"
                 variants={fadeSlideUp}
                 whileHover={{ borderColor: `${portal.color}30`, y: -2 }}
               >
                 {/* Left accent */}
                 <div className="absolute left-0 top-0 bottom-0 w-[2px] transition-all duration-300 opacity-0 group-hover:opacity-100"
                   style={{ background: portal.color }} />
-                <div className="w-8 h-8 flex items-center justify-center flex-shrink-0"
+                <div className="w-6 h-6 flex items-center justify-center flex-shrink-0"
                   style={{ background: `${portal.color}06`, border: `1px solid ${portal.color}12` }}>
-                  <PortalIcon className="w-3.5 h-3.5" style={{ color: portal.color }} />
+                  <PortalIcon className="w-3 h-3" style={{ color: portal.color }} />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <span className="text-[11px] font-bold text-zinc-300 group-hover:text-white transition-colors block leading-snug">{portal.name}</span>
-                  <span className="text-[8px] text-zinc-600 block mt-0.5 leading-relaxed">{portal.desc}</span>
+                  <span className="text-[10px] font-bold text-zinc-300 group-hover:text-white transition-colors block leading-snug">{portal.name}</span>
+                  <span className="text-[7px] text-zinc-600 block mt-0.5 leading-relaxed">{portal.desc}</span>
                 </div>
                 <ArrowUpRight className="w-4 h-4 text-zinc-800 group-hover:text-red-400 transition-all mt-0.5 flex-shrink-0 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </motion.a>
@@ -762,28 +762,28 @@ function AccountabilityEngine({ content, slug, investigation }: {
 
       {/* EVIDENCE COMPILATION */}
       <motion.div
-        className="glass-card p-3 sm:p-3.5"
+        className="glass-card p-2 sm:p-2.5"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-60px' }}
         transition={{ duration: 0.6 }}
       >
-        <div className="flex items-center gap-2.5 mb-3">
-          <div className="w-8 h-8 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.12)] flex-shrink-0">
-            <ClipboardCheck className="w-3.5 h-3.5 text-red-400/70" />
+        <div className="flex items-center gap-2 mb-2">
+          <div className="w-6 h-6 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.12)] flex-shrink-0">
+            <ClipboardCheck className="w-3 h-3 text-red-400/70" />
           </div>
           <div>
-            <h3 className="text-xs font-black text-white uppercase tracking-[0.2em]">Evidence Compilation</h3>
-            <p className="text-[10px] text-zinc-600 mt-0.5">Compile the full evidence chain into a single package for filing or sharing.</p>
+            <h3 className="text-[10px] font-black text-white uppercase tracking-[0.2em]">Evidence Compilation</h3>
+            <p className="text-[8px] text-zinc-600 mt-0.5">Compile the full evidence chain into a single package for filing or sharing.</p>
           </div>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5 mb-3">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-1 mb-2">
           {[
             { v: viewCount, l: 'Views', c: '#52525b' },
             { v: completedOps.size, l: 'Deployed', c: '#ef4444' },
-            { v: operations.length - completedOps.size, l: 'Remaining', c: '#eab308' },
-            { v: sources.length, l: 'Sources', c: '#3b82f6' },
+            { v: operations.length - completedOps.size, l: 'Remaining', c: '#b91c1c' },
+            { v: sources.length, l: 'Sources', c: '#991b1b' },
           ].map((stat, i) => (
             <div key={i} className="text-center py-2 bg-[rgba(255,255,255,0.02)] border border-[rgba(255,255,255,0.04)]">
               <div className="text-lg font-black font-mono tabular-nums" style={{ color: i === 0 ? '#fff' : stat.c }}>
@@ -918,7 +918,7 @@ export default function InvestigationPage() {
   }, [investigation.summary, mainContent]);
 
   return (
-    <div className="min-h-screen pt-14 lg:pt-16 pb-8 relative">
+    <div className="min-h-screen pt-12 lg:pt-14 pb-6 relative">
       {/* Scroll progress indicator */}
       <ScrollProgress color={sevCfg.color} />
 
@@ -947,9 +947,9 @@ export default function InvestigationPage() {
         background: `radial-gradient(ellipse 120% 50% at 50% -10%, ${sevCfg.color}03 0%, transparent 100%)`,
       }} />
 
-      <div className="mx-auto px-3 sm:px-5 lg:px-6 xl:px-8 relative z-10">
+      <div className="mx-auto px-2 sm:px-4 lg:px-5 xl:px-6 relative z-10">
 
-        {/* ══════════════ 01 // HERO ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 01 // HERO Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         <motion.div
           id="hero"
           initial={{ opacity: 0, y: 30 }}
@@ -963,9 +963,9 @@ export default function InvestigationPage() {
             background: `linear-gradient(90deg, transparent 2%, ${sevCfg.color}40 20%, ${sevCfg.color}70 50%, ${sevCfg.color}40 80%, transparent 98%)`,
           }} />
 
-          <div className="relative z-10 p-3 sm:p-4 lg:p-5">
+          <div className="relative z-10 p-2.5 sm:p-3 lg:p-4">
             {/* Navigation + severity badge */}
-            <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center justify-between mb-2">
               <Link href="/investigations"
                 className="flex items-center gap-2 text-zinc-500 hover:text-white transition-colors text-[11px] font-mono tracking-[0.2em] group">
                 <ArrowLeft className="w-3 h-3 group-hover:-translate-x-1 transition-transform" /> INVESTIGATIONS
@@ -989,7 +989,7 @@ export default function InvestigationPage() {
 
             {/* Category + dates */}
             <motion.div
-              className="flex flex-wrap items-center gap-2 mb-3"
+              className="flex flex-wrap items-center gap-2 mb-2"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3, duration: 0.5 }}
@@ -1005,7 +1005,7 @@ export default function InvestigationPage() {
 
             {/* Title */}
             <motion.h1
-              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white uppercase leading-[0.85] tracking-tight mb-3"
+              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white uppercase leading-[0.85] tracking-tight mb-2"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.15, duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
@@ -1015,7 +1015,7 @@ export default function InvestigationPage() {
 
             {investigation.subtitle && (
               <motion.p
-                className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-3 font-light"
+                className="text-xs sm:text-sm text-zinc-400 leading-relaxed mb-2 font-light"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4, duration: 0.6 }}
@@ -1026,7 +1026,7 @@ export default function InvestigationPage() {
 
             {/* Hero stats with animated counters */}
             <motion.div
-              className="flex flex-wrap items-center gap-3"
+              className="flex flex-wrap items-center gap-2"
               initial="hidden"
               animate="visible"
               variants={{ visible: { transition: { staggerChildren: 0.08, delayChildren: 0.5 } } }}
@@ -1034,13 +1034,13 @@ export default function InvestigationPage() {
               {[
                 defendants.length > 0 && { v: defendants.length, l: 'Defendants', c: '#ef4444', icon: <Users className="w-3.5 h-3.5" /> },
                 affiliations.length > 0 && { v: affiliations.length, l: 'Entities', c: sevCfg.color, icon: <Building2 className="w-3.5 h-3.5" /> },
-                moneyTrail.length > 0 && { v: moneyTrail.length, l: 'Transactions', c: '#eab308', icon: <DollarSign className="w-3.5 h-3.5" /> },
-                statutes.length > 0 && { v: statutes.length, l: 'Statutes', c: '#a855f7', icon: <Scale className="w-3.5 h-3.5" /> },
-                sources.length > 0 && { v: sources.length, l: 'Sources', c: '#71717a', icon: <FileText className="w-3.5 h-3.5" /> },
+                moneyTrail.length > 0 && { v: moneyTrail.length, l: 'Transactions', c: '#dc2626', icon: <DollarSign className="w-3.5 h-3.5" /> },
+                statutes.length > 0 && { v: statutes.length, l: 'Statutes', c: '#b91c1c', icon: <Scale className="w-3.5 h-3.5" /> },
+                sources.length > 0 && { v: sources.length, l: 'Sources', c: '#991b1b', icon: <FileText className="w-3.5 h-3.5" /> },
               ].filter(Boolean).map((s: any, i: number) => (
-                <motion.div
+                  <motion.div
                   key={i}
-                  className="flex items-center gap-2 px-2.5 py-1.5 bg-black/50 border border-[rgba(255,255,255,0.05)]"
+                  className="flex items-center gap-1.5 px-2 py-1 bg-black/50 border border-[rgba(255,255,255,0.05)]"
                   variants={{ hidden: { opacity: 0, scale: 0.9 }, visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } } }}
                 >
                   <span style={{ color: s.c }}>{s.icon}</span>
@@ -1056,7 +1056,7 @@ export default function InvestigationPage() {
 
         {/* Divider removed for density */}
 
-        {/* ══════════════ DOSSIER CONTROLS ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â DOSSIER CONTROLS Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         <motion.div
           className="flex items-center justify-between py-1.5 mb-2"
           initial={{ opacity: 0 }}
@@ -1085,14 +1085,14 @@ export default function InvestigationPage() {
           </div>
         </motion.div>
 
-        {/* ══════════════ 02 // EXECUTIVE SUMMARY ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 02 // EXECUTIVE SUMMARY Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         <motion.div
           id="summary"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-          className="mb-2"
+          className="mb-1"
         >
           <CollapsibleGlass
             number="02" title="Executive Summary" icon={<FileText className="w-4 h-4" />}
@@ -1105,7 +1105,7 @@ export default function InvestigationPage() {
             }
           >
             <div>
-              <p className="text-sm sm:text-base text-zinc-300 leading-[1.75] font-light">
+              <p className="text-xs sm:text-sm text-zinc-300 leading-[1.7] font-light">
                 <span className="text-4xl sm:text-5xl font-black text-white float-left mr-3 mt-1 leading-[0.75]" style={{
                   textShadow: `0 0 60px ${sevCfg.color}12`,
                 }}>{investigation.summary.charAt(0)}</span>
@@ -1126,7 +1126,7 @@ export default function InvestigationPage() {
           </CollapsibleGlass>
         </motion.div>
 
-        {/* ══════════════ 03 // DEFENDANTS ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 03 // DEFENDANTS Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {defendants.length > 0 && (
           <>
             <motion.div
@@ -1135,7 +1135,7 @@ export default function InvestigationPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-2"
+              className="mb-1"
             >
               <CollapsibleGlass
                 number="03" title="Defendants & Charges" icon={<Gavel className="w-4 h-4" />}
@@ -1158,7 +1158,7 @@ export default function InvestigationPage() {
                 }
               >
                 <motion.div
-                  className="grid grid-cols-1 lg:grid-cols-2 gap-2.5"
+                  className="grid grid-cols-1 lg:grid-cols-2 gap-1.5"
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true }}
@@ -1170,7 +1170,7 @@ export default function InvestigationPage() {
                       <motion.div key={idx} variants={fadeSlideLeft}
                         className="bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] overflow-hidden hover:border-[rgba(184,0,0,0.18)] transition-all duration-300 group">
                         <div className="h-[2px] w-full" style={{ background: `linear-gradient(90deg, ${st.dot}, ${st.dot}40, transparent)` }} />
-                        <div className="p-3">
+                        <div className="p-2.5">
                           <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-2">
                             <div>
                               <Link href={`/entities/individuals/${slugifyName(def.name)}`}
@@ -1185,7 +1185,7 @@ export default function InvestigationPage() {
                                 <span className="text-[10px] font-black uppercase tracking-[0.15em]" style={{ color: st.text }}>{def.status}</span>
                               </div>
                               {def.appealStatus && (
-                                <span className="text-[8px] font-mono font-bold px-2 py-1.5 bg-blue-500/[0.06] border border-blue-500/15 text-blue-400/70 uppercase tracking-wider">
+                                <span className="text-[8px] font-mono font-bold px-2 py-1.5 bg-red-500/[0.06] border border-red-500/15 text-red-400/70 uppercase tracking-wider">
                                   Appeal: {def.appealStatus}
                                 </span>
                               )}
@@ -1217,13 +1217,13 @@ export default function InvestigationPage() {
                               {def.fine && (
                                 <div>
                                   <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Fine</span>
-                                  <span className="text-lg font-black font-mono text-yellow-400/80 tabular-nums">{def.fine}</span>
+                                  <span className="text-lg font-black font-mono text-red-400/80 tabular-nums">{def.fine}</span>
                                 </div>
                               )}
                               {def.restitution && (
                                 <div>
                                   <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Restitution</span>
-                                  <span className="text-lg font-black font-mono text-yellow-400/80 tabular-nums">{def.restitution}</span>
+                                  <span className="text-lg font-black font-mono text-red-400/80 tabular-nums">{def.restitution}</span>
                                 </div>
                               )}
                               {def.indictmentDate && (
@@ -1248,7 +1248,7 @@ export default function InvestigationPage() {
                                 <div>
                                   <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Pardoned</span>
                                   <span className="text-[11px] text-zinc-400 font-mono tabular-nums">{def.pardonDate}</span>
-                                  {def.pardonedBy && <span className="text-[9px] text-purple-400/50 block mt-0.5">by {def.pardonedBy}</span>}
+                                  {def.pardonedBy && <span className="text-[9px] text-red-400/50 block mt-0.5">by {def.pardonedBy}</span>}
                                 </div>
                               )}
                             </div>
@@ -1267,7 +1267,7 @@ export default function InvestigationPage() {
           </>
         )}
 
-        {/* ══════════════ 04 // APPLICABLE LAWS & STATUTES ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 04 // APPLICABLE LAWS & STATUTES Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {statutes.length > 0 && (
           <motion.div
             id="statutes"
@@ -1275,11 +1275,11 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-2"
+            className="mb-1"
           >
             <CollapsibleGlass
               number="04" title="Applicable Laws & Statutes" icon={<Scale className="w-4 h-4" />}
-              count={statutes.length} accentColor="#a855f7"
+              count={statutes.length} accentColor="#ef4444"
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
             >
               <motion.div
@@ -1291,10 +1291,10 @@ export default function InvestigationPage() {
               >
                 {statutes.map((statute: { code: string; description?: string }, idx: number) => (
                   <motion.div key={idx} variants={fadeSlideUp}
-                    className="flex items-start gap-4 p-4 bg-[rgba(255,255,255,0.012)] border-l-[3px] border-l-purple-500/20 hover:border-l-purple-500/50 hover:bg-[rgba(255,255,255,0.03)] transition-all duration-300">
-                    <BookOpen className="w-4 h-4 text-purple-400/30 flex-shrink-0 mt-0.5" />
+                    className="flex items-start gap-3 p-2.5 bg-[rgba(255,255,255,0.012)] border-l-[3px] border-l-red-500/20 hover:border-l-red-500/50 hover:bg-[rgba(255,255,255,0.03)] transition-all duration-300">
+                    <BookOpen className="w-3.5 h-3.5 text-red-400/30 flex-shrink-0 mt-0.5" />
                     <div>
-                      <p className="text-[15px] font-bold text-zinc-200 leading-snug">{statute.code}</p>
+                      <p className="text-[13px] font-bold text-zinc-200 leading-snug">{statute.code}</p>
                       {statute.description && <p className="text-[11px] text-zinc-500 leading-[1.7] mt-1">{statute.description}</p>}
                     </div>
                   </motion.div>
@@ -1304,7 +1304,7 @@ export default function InvestigationPage() {
           </motion.div>
         )}
 
-        {/* ══════════════ 05 // ACCOUNTABILITY ENGINE ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 05 // ACCOUNTABILITY ENGINE Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {accountabilityContent && (
           <>
             <motion.div
@@ -1313,7 +1313,7 @@ export default function InvestigationPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-2"
+              className="mb-1"
             >
               <CollapsibleGlass
                 number="05" title="Accountability Engine" icon={<Crosshair className="w-4 h-4" />}
@@ -1326,7 +1326,7 @@ export default function InvestigationPage() {
           </>
         )}
 
-        {/* ══════════════ 06 // FULL INVESTIGATION ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 06 // FULL INVESTIGATION Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {mainContent?.length > 0 && (
           <motion.div
             id="investigation"
@@ -1334,7 +1334,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-2"
+            className="mb-1"
           >
             <CollapsibleGlass number="06" title="Full Investigation" icon={<FileText className="w-4 h-4" />}
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}>
@@ -1370,7 +1370,7 @@ export default function InvestigationPage() {
           </motion.div>
         )}
 
-        {/* ══════════════ 07 // MONEY TRAIL ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 07 // MONEY TRAIL Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {moneyTrail.length > 0 && (
           <>
             <motion.div
@@ -1379,15 +1379,15 @@ export default function InvestigationPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-2"
+              className="mb-1"
             >
               <CollapsibleGlass
                 number="07" title="Money Trail" icon={<DollarSign className="w-4 h-4" />}
-                count={moneyTrail.length} accentColor="#eab308"
+                count={moneyTrail.length} accentColor="#dc2626"
                 expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
                 badge={
                   moneyTrail.filter((m: any) => !m.documented).length > 0
-                    ? <span className="text-[9px] font-mono text-yellow-500/40">{moneyTrail.filter((m: any) => !m.documented).length} unverified</span>
+                    ? <span className="text-[9px] font-mono text-red-500/40">{moneyTrail.filter((m: any) => !m.documented).length} unverified</span>
                     : undefined
                 }
               >
@@ -1407,31 +1407,31 @@ export default function InvestigationPage() {
                     <motion.div
                       key={idx}
                       variants={{ hidden: { opacity: 0, x: idx % 2 === 0 ? -8 : 8 }, visible: { opacity: 1, x: 0, transition: { duration: 0.4 } } }}
-                      className={`p-2.5 sm:p-3 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
+                      className={`p-2 sm:p-2.5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
                         idx % 2 === 0 ? 'bg-[rgba(255,255,255,0.012)]' : 'bg-transparent'
-                      } border-b border-white/[0.02] hover:border-yellow-500/[0.08]`}
+                      } border-b border-white/[0.02] hover:border-red-500/[0.08]`}
                     >
                       {/* Desktop */}
                       <div className="hidden lg:grid grid-cols-[85px_1fr_30px_1fr_1fr_130px] gap-3 items-center">
                         <span className="text-[10px] font-mono text-zinc-600 tabular-nums">{item.date}</span>
                         <span className="text-sm text-zinc-300 truncate">{item.from}</span>
-                        <ArrowRight className="w-3 h-3 text-yellow-500/20 mx-auto" />
+                        <ArrowRight className="w-3 h-3 text-red-500/20 mx-auto" />
                         <span className="text-sm text-zinc-300 truncate">{item.to}</span>
                         <span className="text-[10px] text-zinc-500 truncate">{item.purpose}</span>
                         <div className="text-right flex items-center justify-end gap-2">
-                          <span className="text-lg font-black font-mono text-yellow-400/90 tabular-nums">{item.amount}</span>
-                          {!item.documented && <span className="text-[6px] text-yellow-600/40 uppercase font-bold px-1 py-0.5 bg-yellow-500/[0.04] border border-yellow-500/10">!</span>}
+                          <span className="text-lg font-black font-mono text-red-400/90 tabular-nums">{item.amount}</span>
+                          {!item.documented && <span className="text-[6px] text-red-600/40 uppercase font-bold px-1 py-0.5 bg-red-500/[0.04] border border-red-500/10">!</span>}
                         </div>
                       </div>
                       {/* Mobile */}
                       <div className="lg:hidden space-y-2">
                         <div className="flex items-center justify-between">
                           <span className="text-[10px] font-mono text-zinc-600 tabular-nums">{item.date}</span>
-                          <span className="text-lg font-black font-mono text-yellow-400/90 tabular-nums">{item.amount}</span>
+                          <span className="text-lg font-black font-mono text-red-400/90 tabular-nums">{item.amount}</span>
                         </div>
                         <div className="flex items-center gap-2 text-sm">
                           <span className="text-zinc-300 truncate">{item.from}</span>
-                          <ArrowRight className="w-3 h-3 text-yellow-500/20 flex-shrink-0" />
+                          <ArrowRight className="w-3 h-3 text-red-500/20 flex-shrink-0" />
                           <span className="text-zinc-300 truncate">{item.to}</span>
                         </div>
                         {item.purpose && <p className="text-[10px] text-zinc-500">{item.purpose}</p>}
@@ -1444,7 +1444,7 @@ export default function InvestigationPage() {
           </>
         )}
 
-        {/* ══════════════ 08 // CONNECTED ENTITIES ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 08 // CONNECTED ENTITIES Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {affiliations.length > 0 && (
           <>
             <motion.div
@@ -1453,7 +1453,7 @@ export default function InvestigationPage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-              className="mb-2"
+              className="mb-1"
             >
               <CollapsibleGlass
                 number="08" title="Connected Entities" icon={<Users className="w-4 h-4" />}
@@ -1483,7 +1483,7 @@ export default function InvestigationPage() {
                           <span className="text-[9px] font-mono" style={{ color: `${group.config.color}40` }}>{group.items.length}</span>
                         </div>
                         <motion.div
-                          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2"
+                          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-1.5"
                           initial="hidden"
                           whileInView="visible"
                           viewport={{ once: true }}
@@ -1492,7 +1492,7 @@ export default function InvestigationPage() {
                           {group.items.map((aff: any, idx: number) => (
                             <motion.div key={idx}
                               variants={fadeSlideUp}
-                              className="bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] p-3 transition-all duration-300 hover:bg-[rgba(255,255,255,0.03)] group/card relative overflow-hidden"
+                              className="bg-[rgba(255,255,255,0.015)] border border-[rgba(255,255,255,0.05)] p-2 transition-all duration-300 hover:bg-[rgba(255,255,255,0.03)] group/card relative overflow-hidden"
                               style={{ borderLeftWidth: 3, borderLeftColor: `${group.config.color}25` }}
                               whileHover={{ borderLeftColor: group.config.color }}
                             >
@@ -1526,7 +1526,7 @@ export default function InvestigationPage() {
           </>
         )}
 
-        {/* ══════════════ 09 // NETWORK ANALYSIS ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 09 // NETWORK ANALYSIS Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {(defendants.length > 0 || affiliations.length > 0) && (
           <motion.div
             id="network"
@@ -1534,7 +1534,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-2"
+            className="mb-1"
           >
             <CollapsibleGlass
               number="09" title="Network Analysis" icon={<Eye className="w-4 h-4" />}
@@ -1553,7 +1553,7 @@ export default function InvestigationPage() {
           </motion.div>
         )}
 
-        {/* ══════════════ 10 // TIMELINE ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 10 // TIMELINE Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {timeline.length > 0 && (
           <motion.div
             id="timeline"
@@ -1561,7 +1561,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-2"
+            className="mb-1"
           >
             <CollapsibleGlass
               number="10" title="Timeline" icon={<Calendar className="w-4 h-4" />}
@@ -1581,7 +1581,7 @@ export default function InvestigationPage() {
                 >
                   {timeline.map((item: any, idx: number) => {
                     const typeColors: Record<string, string> = {
-                      critical: '#ef4444', legal: '#a855f7', political: '#8b5cf6', financial: '#eab308', default: '#27272a',
+                      critical: '#ef4444', legal: '#dc2626', political: '#b91c1c', financial: '#991b1b', default: '#27272a',
                     };
                     const dotColor = typeColors[item.type || 'default'] || typeColors.default;
                     const isMajor = item.type === 'critical' || item.type === 'legal';
@@ -1619,7 +1619,7 @@ export default function InvestigationPage() {
           </motion.div>
         )}
 
-        {/* ══════════════ 11 // SOURCES & DOCUMENTATION ══════════════ */}
+        {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 11 // SOURCES & DOCUMENTATION Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
         {sources.length > 0 && (
           <motion.div
             id="sources"
@@ -1627,7 +1627,7 @@ export default function InvestigationPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-80px' }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
-            className="mb-2"
+            className="mb-1"
           >
             <CollapsibleGlass
               number="11" title="Sources & Documentation" icon={<ExternalLink className="w-4 h-4" />}
@@ -1647,7 +1647,7 @@ export default function InvestigationPage() {
                     href={source.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`group flex items-start gap-4 p-3.5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
+                    className={`group flex items-start gap-3 p-2.5 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
                       idx % 2 === 0 ? 'bg-[rgba(255,255,255,0.01)]' : ''
                     } border-b border-white/[0.02]`}
                     variants={fadeSlideUp}

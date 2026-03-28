@@ -50,8 +50,8 @@ function WorkspaceDetailContent() {
 
  const priorityColors: Record<string, string> = {
  critical: 'text-red-400 bg-red-500/10 border-red-500/20',
- high: 'text-orange-400 bg-orange-500/10 border-orange-500/20',
- medium: 'text-yellow-400 bg-yellow-500/10 border-yellow-500/20',
+ high: 'text-red-400 bg-red-400/10 border-red-400/20',
+ medium: 'text-red-300 bg-red-300/10 border-red-300/20',
  low: 'text-zinc-400 bg-zinc-500/10 border-zinc-500/20',
  };
 

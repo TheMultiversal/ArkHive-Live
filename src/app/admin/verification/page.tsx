@@ -120,9 +120,9 @@ export default function VerificationDashboard() {
   if (!status) return null;
 
   const getHealthColor = (health: number) => {
-    if (health >= 90) return 'text-emerald-400';
+    if (health >= 90) return 'text-red-400';
     if (health >= 70) return 'text-blood-400';
-    if (health >= 50) return 'text-yellow-400';
+    if (health >= 50) return 'text-red-300';
     return 'text-red-400';
   };
 
@@ -173,7 +173,7 @@ export default function VerificationDashboard() {
             </div>
             <div className="space-y-1 text-sm">
               <div className="flex justify-between">
-                <span className="text-emerald-400">Fully Verified</span>
+                <span className="text-red-400">Fully Verified</span>
                 <span className="text-zinc-300">{status.investigations.fullyVerified}</span>
               </div>
               <div className="flex justify-between">
@@ -205,7 +205,7 @@ export default function VerificationDashboard() {
             </div>
             <div className="space-y-1 text-sm">
               <div className="flex justify-between">
-                <span className="text-emerald-400">Verified</span>
+                <span className="text-red-400">Verified</span>
                 <span className="text-zinc-300">{status.evidence.verified.toLocaleString()}</span>
               </div>
               <div className="flex justify-between">
@@ -217,7 +217,7 @@ export default function VerificationDashboard() {
                 <span className="text-zinc-300">{status.evidence.broken}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-yellow-400">Pending</span>
+                <span className="text-red-300">Pending</span>
                 <span className="text-zinc-300">{status.evidence.pending.toLocaleString()}</span>
               </div>
             </div>
@@ -240,7 +240,7 @@ export default function VerificationDashboard() {
               />
             </div>
             <div className={`text-xl font-mono mb-4 ${
-              status.crawlerStatus === 'running' ? 'text-emerald-400' :
+              status.crawlerStatus === 'running' ? 'text-red-400' :
               status.crawlerStatus === 'error' ? 'text-red-400' : 'text-zinc-400'
             }`}>
               {status.crawlerStatus.toUpperCase()}
@@ -281,7 +281,7 @@ export default function VerificationDashboard() {
                     <span className="text-zinc-500 font-mono text-sm">#{index + 1}</span>
                     <span className="text-zinc-300 text-sm">{contributor.alias}</span>
                   </div>
-                  <span className="text-emerald-400 font-mono text-sm">
+                  <span className="text-red-400 font-mono text-sm">
                     {contributor.verifiedSubmissions}
                   </span>
                 </div>
@@ -336,7 +336,7 @@ export default function VerificationDashboard() {
               >
                 <div className="mt-1">
                   {activity.type === 'verification_complete' && (
-                    <CheckCircle className="text-emerald-500" size={20} />
+                    <CheckCircle className="text-red-500" size={20} />
                   )}
                   {activity.type === 'link_broken' && (
                     <AlertTriangle className="text-red-500" size={20} />
@@ -354,7 +354,7 @@ export default function VerificationDashboard() {
                       {activity.investigationTitle}
                     </Link>
                     {activity.score && (
-                      <span className="text-emerald-400 font-mono text-sm">
+                      <span className="text-red-400 font-mono text-sm">
                         {activity.score}%
                       </span>
                     )}

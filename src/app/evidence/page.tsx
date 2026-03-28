@@ -29,9 +29,9 @@ export default function EvidencePage() {
             <h3 className="text-sm font-semibold text-zinc-400 mb-3">Verification Levels</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
               <div className="flex items-start gap-2">
-                <CheckCircle className="w-4 h-4 text-green-400 mt-0.5 shrink-0" />
+                <CheckCircle className="w-4 h-4 text-red-400 mt-0.5 shrink-0" />
                 <div>
-                  <div className="text-green-400 font-medium">Verified</div>
+                  <div className="text-red-400 font-medium">Verified</div>
                   <div className="text-xs text-zinc-500">Multiple independent primary sources</div>
                 </div>
               </div>
@@ -43,9 +43,9 @@ export default function EvidencePage() {
                 </div>
               </div>
               <div className="flex items-start gap-2">
-                <Eye className="w-4 h-4 text-yellow-400 mt-0.5 shrink-0" />
+                <Eye className="w-4 h-4 text-red-300 mt-0.5 shrink-0" />
                 <div>
-                  <div className="text-yellow-400 font-medium">Single Source</div>
+                  <div className="text-red-300 font-medium">Single Source</div>
                   <div className="text-xs text-zinc-500">Awaiting additional corroboration</div>
                 </div>
               </div>
@@ -87,8 +87,8 @@ export default function EvidencePage() {
               <h4 className="text-white font-semibold mb-2">Source Types</h4>
               <ul className="space-y-1">
                 <li>• <span className="text-blood-400">Court Filings</span> - Indictments, motions, verdicts</li>
-                <li>• <span className="text-emerald-400">Government Reports</span> - Congressional, IG, agency reports</li>
-                <li>• <span className="text-purple-400">Primary Evidence</span> - Recordings, documents, photos</li>
+                <li>• <span className="text-red-400">Government Reports</span> - Congressional, IG, agency reports</li>
+                <li>• <span className="text-red-300">Primary Evidence</span> - Recordings, documents, photos</li>
                 <li>• <span className="text-zinc-400">News Reports</span> - Verified journalism with sources</li>
               </ul>
             </div>
