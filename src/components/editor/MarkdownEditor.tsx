@@ -259,7 +259,7 @@ function renderMarkdown(markdown: string): string {
  html = html.replace(/```([\s\S]*?)```/gim, '<pre class="p-4 bg-[#0d0d0d] overflow-x-auto my-2"><code class="text-sm font-mono text-zinc-300">$1</code></pre>');
 
  // Links
- html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/gim, '<a href="$2"class="text-zinc-300 hover:underline"target="_blank">$1</a>');
+ html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/gim, '<a href="$2" class="text-zinc-300 hover:underline" target="_blank" rel="noopener noreferrer">$1</a>');
 
  // Images
  html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/gim, '<img src="$2"alt="$1"class="max-w-full my-2"/>');
