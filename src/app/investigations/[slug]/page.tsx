@@ -294,7 +294,7 @@ function SectionNav({
    ================================================================ */
 
 function CollapsibleGlass({
-  title, number, icon, children, defaultOpen = true, count, badge, accentColor,
+  title, number, icon, children, defaultOpen = false, count, badge, accentColor,
   expandTrigger = 0, collapseTrigger = 0, sectionId,
 }: {
   title: string; number: string; icon: React.ReactNode; children: React.ReactNode;
@@ -453,84 +453,54 @@ function AccountabilityEngine({ content, slug, investigation }: {
   ];
 
   return (
-    <div className="space-y-3">
-      {/* ENGINE COMMAND HEADER */}
-      <div className="glass-card overflow-hidden relative">
-        <div className="absolute inset-0 pointer-events-none" style={{
-          background: 'linear-gradient(135deg, rgba(184,0,0,0.10) 0%, transparent 40%, rgba(184,0,0,0.04) 100%)',
-        }} />
-
-        <div className="relative z-10 p-2 sm:p-2.5 lg:p-3">
-          <div className="flex flex-col sm:flex-row sm:items-start gap-2 mb-1.5">
-            <div className="relative w-8 h-8 flex items-center justify-center flex-shrink-0">
-              <div className="absolute inset-0 bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.20)]" />
-              <Target className="w-5 h-5 text-red-400 relative z-10" />
-              <div className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-red-500 animate-pulse" />
+    <div className="space-y-1.5">
+      {/* ENGINE HEADER + TABS */}
+      <div className="glass-card overflow-hidden">
+        <div className="p-2 sm:p-2.5">
+          <div className="flex items-center gap-2.5 mb-2">
+            <div className="w-6 h-6 flex items-center justify-center bg-red-500/[0.06] border border-red-500/15 flex-shrink-0">
+              <Target className="w-3.5 h-3.5 text-red-400" />
             </div>
-            <div className="flex-1 min-w-0">
-              <h2 className="text-xl sm:text-2xl font-black uppercase tracking-[0.06em] glass-text-hero mb-0.5 leading-none">
-                Accountability Engine
-              </h2>
-              <div className="flex flex-wrap items-center gap-3 text-[10px] font-mono tracking-wider text-red-500/40">
-                <span>{operations.length} OPS</span>
-                <span className="text-red-900/30">|</span>
-                <span>{Object.keys(grouped).length} TRACKS</span>
-                <span className="text-red-900/30">|</span>
-                <span className="text-red-400/60">{completedOps.size} DEPLOYED</span>
+            <h2 className="text-sm font-black uppercase tracking-[0.15em] text-white leading-none">Accountability Engine</h2>
+            <div className="flex-1" />
+            <div className="flex items-center gap-2.5">
+              <span className="text-[10px] font-mono tabular-nums text-zinc-600">
+                <span className="text-white font-bold">{completedOps.size}</span>/{operations.length}
+              </span>
+              <div className="w-20 h-1 bg-zinc-900 overflow-hidden">
+                <motion.div
+                  className="h-full"
+                  style={{ background: 'linear-gradient(90deg, #7f1d1d, #ef4444)' }}
+                  initial={{ width: 0 }}
+                  animate={{ width: `${progress}%` }}
+                  transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+                />
               </div>
             </div>
           </div>
 
-          <div className="mb-2">
-            <p className="text-[10px] text-zinc-500 leading-[1.6]">
-              Real accountability requires direct action. Every operation below targets a specific vulnerability. Deploy them.
-            </p>
-          </div>
-
-          {/* Progress bar with glow leading edge */}
-          <div className="flex items-center gap-3">
-            <div className="flex-1 h-1.5 bg-zinc-900/80 overflow-hidden border border-zinc-800/30 relative">
-              <motion.div
-                className="h-full relative"
-                style={{ background: 'linear-gradient(90deg, #7f1d1d, #dc2626, #ef4444)' }}
-                initial={{ width: 0 }}
-                animate={{ width: `${progress}%` }}
-                transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              >
-                {/* Glowing leading edge */}
-                <div className="absolute right-0 top-0 bottom-0 w-4"
-                  style={{ background: 'linear-gradient(90deg, transparent, rgba(239,68,68,0.6))', filter: 'blur(2px)' }} />
-              </motion.div>
-            </div>
-            <span className="text-sm font-mono text-zinc-500 tabular-nums flex-shrink-0">
-              <span className="text-white font-black text-lg">{completedOps.size}</span>
-              <span className="text-zinc-700 mx-1">/</span>
-              <span className="text-zinc-600">{operations.length}</span>
-            </span>
-          </div>
-
-          {/* TAB NAVIGATION */}
-          <div className="flex border-t border-white/[0.04] mt-2 -mx-2 sm:-mx-2.5 lg:-mx-3 -mb-2 sm:-mb-2.5 lg:-mb-3">
+          {/* Tab navigation */}
+          <div className="flex border-t border-white/[0.04] -mx-2 sm:-mx-2.5 -mb-2 sm:-mb-2.5">
             {[
-              { key: 'operations' as const, label: 'OPS', count: operations.length },
-              { key: 'arsenal' as const, label: 'ARSENAL', count: templates.length },
-              { key: 'enforcement' as const, label: 'ENFORCE', count: enforcementPortals.length },
-              { key: 'evidence' as const, label: 'EVIDENCE', count: null },
+              { key: 'operations' as const, label: 'Operations', count: operations.length },
+              { key: 'arsenal' as const, label: 'Arsenal', count: templates.length },
+              { key: 'enforcement' as const, label: 'Enforcement', count: enforcementPortals.length },
+              { key: 'evidence' as const, label: 'Evidence', count: null },
             ].map(tab => (
               <button
                 key={tab.key}
                 onClick={() => setActiveTab(tab.key)}
-                className={`flex-1 px-2 py-2 text-[8px] sm:text-[9px] font-black uppercase tracking-[0.12em] transition-all duration-300 relative border-r border-white/[0.03] last:border-r-0 ${
+                className={`flex-1 px-3 py-2.5 text-[10px] font-bold uppercase tracking-[0.08em] transition-all duration-200 relative ${
                   activeTab === tab.key
-                    ? 'text-red-400 bg-red-500/[0.06]'
-                    : 'text-zinc-600 hover:text-zinc-400 hover:bg-white/[0.02]'
+                    ? 'text-white bg-white/[0.02]'
+                    : 'text-zinc-600 hover:text-zinc-400'
                 }`}
               >
-                {tab.label}{tab.count !== null ? ` (${tab.count})` : ''}
+                {tab.label}{tab.count !== null ? ` \u00b7 ${tab.count}` : ''}
                 {activeTab === tab.key && (
                   <motion.div
                     layoutId="engine-tab-indicator"
-                    className="absolute bottom-0 left-0 right-0 h-[2px] bg-red-500"
+                    className="absolute bottom-0 left-2 right-2 h-[2px] bg-red-500"
                     transition={{ type: 'spring', stiffness: 500, damping: 35 }}
                   />
                 )}
@@ -570,10 +540,6 @@ function AccountabilityEngine({ content, slug, investigation }: {
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2">
                     <h3 className="text-sm font-black text-white uppercase tracking-[0.15em]">{meta.label}</h3>
-                    <span className="text-[8px] font-mono font-black px-2 py-0.5"
-                      style={{ color: meta.color, background: `${meta.color}08`, border: `1px solid ${meta.color}15` }}>
-                      {meta.urgency}
-                    </span>
                     <span className="text-[10px] font-mono tabular-nums ml-auto" style={{ color: `${meta.color}60` }}>
                       {trackCompleted}/{trackOps.length}
                     </span>
@@ -892,8 +858,21 @@ export default function InvestigationPage() {
     ? investigation.content.filter((_: string, i: number) => i !== accountabilityIdx)
     : investigation.content;
 
+  const existingIndividualNames = new Set(
+    affiliations.filter((a: any) => a.type === 'individual').map((a: any) => a.name?.toLowerCase())
+  );
+  const defendantEntities = defendants
+    .filter((d: any) => !existingIndividualNames.has(d.name?.toLowerCase()))
+    .map((d: any) => ({
+      name: d.name,
+      type: 'individual',
+      relationship: d.role || 'Defendant',
+      href: `/entities/individuals/${slugifyName(d.name)}`,
+    }));
+  const allEntities = [...affiliations, ...defendantEntities];
+
   const entityGroups = ['agency', 'corporation', 'individual', 'organization']
-    .map(type => ({ type, items: affiliations.filter((a: { type: string }) => a.type === type), config: entityTypeConfig[type] }))
+    .map(type => ({ type, items: allEntities.filter((a: { type: string }) => a.type === type), config: entityTypeConfig[type] }))
     .filter(g => g.items.length > 0);
 
   /* Section navigation state */
@@ -912,7 +891,7 @@ export default function InvestigationPage() {
     if (accountabilityContent) s.push({ id: 'engine', number: '05', label: 'Engine', icon: Crosshair });
     if (mainContent?.length > 0) s.push({ id: 'investigation', number: '06', label: 'Investigation', icon: FileText });
     if (moneyTrail.length > 0) s.push({ id: 'money', number: '07', label: 'Money Trail', icon: DollarSign });
-    if (affiliations.length > 0) s.push({ id: 'entities', number: '08', label: 'Network', icon: Users });
+    if (affiliations.length > 0 || defendants.length > 0) s.push({ id: 'entities', number: '08', label: 'Network', icon: Users });
     if (defendants.length > 0 || affiliations.length > 0) s.push({ id: 'network', number: '09', label: 'Analysis', icon: Eye });
     if (timeline.length > 0) s.push({ id: 'timeline', number: '10', label: 'Timeline', icon: Calendar });
     if (sources.length > 0) s.push({ id: 'sources', number: '11', label: 'Sources', icon: ExternalLink });
@@ -1098,7 +1077,7 @@ export default function InvestigationPage() {
 
               {[
                 defendants.length > 0 && { v: defendants.length, l: 'Defendants', c: '#ef4444', icon: <Users className="w-3.5 h-3.5" /> },
-                affiliations.length > 0 && { v: affiliations.length, l: 'Entities', c: sevCfg.color, icon: <Building2 className="w-3.5 h-3.5" /> },
+                allEntities.length > 0 && { v: allEntities.length, l: 'Entities', c: sevCfg.color, icon: <Building2 className="w-3.5 h-3.5" /> },
                 moneyTrail.length > 0 && { v: moneyTrail.length, l: 'Transactions', c: '#dc2626', icon: <DollarSign className="w-3.5 h-3.5" /> },
                 statutes.length > 0 && { v: statutes.length, l: 'Statutes', c: '#b91c1c', icon: <Scale className="w-3.5 h-3.5" /> },
                 sources.length > 0 && { v: sources.length, l: 'Sources', c: '#991b1b', icon: <FileText className="w-3.5 h-3.5" /> },
@@ -1272,48 +1251,48 @@ export default function InvestigationPage() {
                           )}
 
                           {(def.sentence || def.fine || def.restitution || def.indictmentDate || def.convictionDate || def.releaseDate || def.pardonDate) && (
-                            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 pt-3 border-t border-white/[0.04]">
+                            <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 pt-3 border-t border-white/[0.04]">
                               {def.sentence && (
-                                <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1">Sentence</span>
-                                  <span className="text-sm text-zinc-200 font-bold">{def.sentence}</span>
+                                <div className="flex items-baseline gap-1.5">
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em]">Sentence</span>
+                                  <span className="text-xs text-zinc-200 font-bold">{def.sentence}</span>
                                 </div>
                               )}
                               {def.fine && (
-                                <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Fine</span>
-                                  <span className="text-lg font-black font-mono text-red-400/80 tabular-nums">{def.fine}</span>
+                                <div className="flex items-baseline gap-1.5">
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em]">Fine</span>
+                                  <span className="text-sm font-black font-mono text-red-400/80 tabular-nums">{def.fine}</span>
                                 </div>
                               )}
                               {def.restitution && (
-                                <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Restitution</span>
-                                  <span className="text-lg font-black font-mono text-red-400/80 tabular-nums">{def.restitution}</span>
+                                <div className="flex items-baseline gap-1.5">
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em]">Restitution</span>
+                                  <span className="text-sm font-black font-mono text-red-400/80 tabular-nums">{def.restitution}</span>
                                 </div>
                               )}
                               {def.indictmentDate && (
-                                <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Indicted</span>
+                                <div className="flex items-baseline gap-1.5">
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em]">Indicted</span>
                                   <span className="text-[11px] text-zinc-400 font-mono tabular-nums">{def.indictmentDate}</span>
                                 </div>
                               )}
                               {def.convictionDate && (
-                                <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Convicted</span>
+                                <div className="flex items-baseline gap-1.5">
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em]">Convicted</span>
                                   <span className="text-[11px] text-zinc-400 font-mono tabular-nums">{def.convictionDate}</span>
                                 </div>
                               )}
                               {def.releaseDate && (
-                                <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Released</span>
+                                <div className="flex items-baseline gap-1.5">
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em]">Released</span>
                                   <span className="text-[11px] text-zinc-400 font-mono tabular-nums">{def.releaseDate}</span>
                                 </div>
                               )}
                               {def.pardonDate && (
-                                <div>
-                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em] block mb-1.5">Pardoned</span>
+                                <div className="flex items-baseline gap-1.5">
+                                  <span className="text-[7px] text-zinc-600 uppercase font-bold tracking-[0.25em]">Pardoned</span>
                                   <span className="text-[11px] text-zinc-400 font-mono tabular-nums">{def.pardonDate}</span>
-                                  {def.pardonedBy && <span className="text-[9px] text-red-400/50 block mt-0.5">by {def.pardonedBy}</span>}
+                                  {def.pardonedBy && <span className="text-[9px] text-red-400/50 ml-1">by {def.pardonedBy}</span>}
                                 </div>
                               )}
                             </div>
@@ -1479,10 +1458,10 @@ export default function InvestigationPage() {
                       {/* Desktop */}
                       <div className="hidden lg:grid grid-cols-[85px_1fr_30px_1fr_1fr_130px] gap-3 items-center">
                         <span className="text-[10px] font-mono text-zinc-600 tabular-nums">{item.date}</span>
-                        <span className="text-sm text-zinc-300 truncate">{item.from}</span>
-                        <ArrowRight className="w-3 h-3 text-red-500/20 mx-auto" />
-                        <span className="text-sm text-zinc-300 truncate">{item.to}</span>
-                        <span className="text-[10px] text-zinc-500 truncate">{item.purpose}</span>
+                        <span className="text-sm text-zinc-300 break-words min-w-0">{item.from}</span>
+                        <ArrowRight className="w-3 h-3 text-red-500/20 mx-auto flex-shrink-0" />
+                        <span className="text-sm text-zinc-300 break-words min-w-0">{item.to}</span>
+                        <span className="text-[10px] text-zinc-500 break-words min-w-0">{item.purpose}</span>
                         <div className="text-right flex items-center justify-end gap-2">
                           <span className="text-lg font-black font-mono text-red-400/90 tabular-nums">{item.amount}</span>
                           {!item.documented && <span className="text-[6px] text-red-600/40 uppercase font-bold px-1 py-0.5 bg-red-500/[0.04] border border-red-500/10">!</span>}
@@ -1495,9 +1474,9 @@ export default function InvestigationPage() {
                           <span className="text-lg font-black font-mono text-red-400/90 tabular-nums">{item.amount}</span>
                         </div>
                         <div className="flex items-center gap-2 text-sm">
-                          <span className="text-zinc-300 truncate">{item.from}</span>
+                          <span className="text-zinc-300">{item.from}</span>
                           <ArrowRight className="w-3 h-3 text-red-500/20 flex-shrink-0" />
-                          <span className="text-zinc-300 truncate">{item.to}</span>
+                          <span className="text-zinc-300">{item.to}</span>
                         </div>
                         {item.purpose && <p className="text-[10px] text-zinc-500">{item.purpose}</p>}
                       </div>
@@ -1510,7 +1489,7 @@ export default function InvestigationPage() {
         )}
 
         {/* Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â 08 // CONNECTED ENTITIES Ã¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢ÂÃ¢â€¢Â */}
-        {affiliations.length > 0 && (
+        {(affiliations.length > 0 || defendants.length > 0) && (
           <>
             <motion.div
               id="entities"
@@ -1522,7 +1501,7 @@ export default function InvestigationPage() {
             >
               <CollapsibleGlass
                 number="08" title="Connected Entities" icon={<Users className="w-4 h-4" />}
-                count={affiliations.length}
+                count={allEntities.length}
                 expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
                 badge={
                   <div className="flex items-center gap-1.5">
@@ -1563,16 +1542,16 @@ export default function InvestigationPage() {
                             >
                               <div className="flex items-start justify-between gap-2 mb-1.5">
                                 {aff.href ? (
-                                  <Link href={aff.href} className="font-bold text-[14px] text-zinc-200 hover:text-white transition-colors block truncate leading-snug">{aff.name}</Link>
+                                  <Link href={aff.href} className="font-bold text-[14px] text-zinc-200 hover:text-white transition-colors block leading-snug">{aff.name}</Link>
                                 ) : (
-                                  <span className="font-bold text-[14px] text-zinc-200 block truncate leading-snug">{aff.name}</span>
+                                  <span className="font-bold text-[14px] text-zinc-200 block leading-snug">{aff.name}</span>
                                 )}
                                 <span className="text-[7px] px-1.5 py-0.5 font-bold uppercase tracking-wider flex-shrink-0"
                                   style={{ color: group.config.color, background: group.config.bg, border: `1px solid ${group.config.color}15` }}>
                                   {group.config.label}
                                 </span>
                               </div>
-                              <p className="text-[10px] text-zinc-500 leading-[1.7] line-clamp-2">{aff.relationship}</p>
+                              <p className="text-[10px] text-zinc-500 leading-[1.7]">{aff.relationship}</p>
                               {aff.href && (
                                 <Link href={aff.href}
                                   className="inline-flex items-center gap-1 mt-2.5 text-[9px] text-zinc-700 hover:text-red-400 transition-all font-mono opacity-0 group-hover/card:opacity-100 duration-200">
@@ -1630,7 +1609,7 @@ export default function InvestigationPage() {
           >
             <CollapsibleGlass
               number="10" title="Timeline" icon={<Calendar className="w-4 h-4" />}
-              count={timeline.length} defaultOpen={timeline.length <= 25}
+              count={timeline.length}
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
             >
               <div className="relative pl-8">
@@ -1696,7 +1675,7 @@ export default function InvestigationPage() {
           >
             <CollapsibleGlass
               number="11" title="Sources & Documentation" icon={<ExternalLink className="w-4 h-4" />}
-              count={sources.length} defaultOpen={sources.length <= 20}
+              count={sources.length}
               expandTrigger={expandTrigger} collapseTrigger={collapseTrigger}
             >
               <motion.div
@@ -1717,7 +1696,7 @@ export default function InvestigationPage() {
                   >
                     <span className="text-[8px] text-zinc-700 font-mono flex-shrink-0 w-5 text-right tabular-nums">{idx + 1}</span>
                     <div className="min-w-0 flex-1">
-                      <span className="text-[11px] text-zinc-400 group-hover:text-zinc-200 transition-colors block truncate leading-snug">{source.title}</span>
+                      <span className="text-[11px] text-zinc-400 group-hover:text-zinc-200 transition-colors block leading-snug">{source.title}</span>
                     </div>
                     <span className="text-[7px] text-zinc-800 font-mono uppercase tracking-wider hidden sm:block flex-shrink-0">{source.type}</span>
                     <ExternalLink className="w-3 h-3 text-zinc-800 group-hover:text-red-400 transition-colors flex-shrink-0" />

@@ -142,17 +142,17 @@ const SEVERITY_PULSE_SPEED: Record<string, number> = {
 
 const PERSON_TIER_COLORS: Record<PersonTier, string> = {
   'Primary Defendant': '#ef4444',
-  'Co-Conspirator': '#dc2626',
-  Politician: '#b91c1c',
-  Regulator: '#991b1b',
-  Whistleblower: '#7f1d1d',
-  Other: '#6b2121',
+  'Co-Conspirator': '#f97316',
+  Politician: '#8b5cf6',
+  Regulator: '#06b6d4',
+  Whistleblower: '#22c55e',
+  Other: '#a1a1aa',
 };
 
 const ORG_TIER_COLORS: Record<OrgTier, string> = {
-  Corporation: '#ef4444',
-  Agency: '#dc2626',
-  Organization: '#b91c1c',
+  Corporation: '#eab308',
+  Agency: '#3b82f6',
+  Organization: '#10b981',
 };
 
 const STATUS_COLORS: Record<string, string> = {
@@ -169,11 +169,11 @@ const STATUS_COLORS: Record<string, string> = {
 };
 
 const NODE_DIMENSIONS: Record<string, { width: number; height: number }> = {
-  rootNode: { width: 400, height: 90 },
+  rootNode: { width: 440, height: 90 },
   categoryNode: { width: 190, height: 52 },
   tierNode: { width: 210, height: 46 },
-  personNode: { width: 280, height: 112 },
-  orgNode: { width: 280, height: 92 },
+  personNode: { width: 320, height: 130 },
+  orgNode: { width: 320, height: 110 },
 };
 
 // ============================================================
@@ -645,13 +645,13 @@ function RootNode({ data, selected }: any) {
             ...glassBase,
             border: `2px solid ${sevColor}40`,
             boxShadow: selected ? `0 0 30px ${sevColor}30` : `0 0 15px ${sevColor}15`,
-            minWidth: 380,
+            minWidth: 420,
           }}
         >
           <div className="flex items-center gap-3 mb-2">
             <div className="w-3 h-3 rounded-sm animate-pulse" style={{ backgroundColor: sevColor, boxShadow: `0 0 8px ${sevColor}` }} />
-            <span className="text-sm font-black text-white uppercase tracking-wider leading-tight" style={{ maxWidth: 320 }}>
-              {(data.title as string)?.length > 55 ? (data.title as string).substring(0, 53) + '..' : data.title}
+            <span className="text-sm font-black text-white uppercase tracking-wider leading-tight">
+              {data.title}
             </span>
           </div>
           <div className="flex items-center gap-4 text-[10px] font-mono">
@@ -752,7 +752,7 @@ function PersonNode({ data, selected }: any) {
           ...glassBase,
           border: `1px solid ${selected ? tierColor : 'rgba(184, 0, 0, 0.20)'}`,
           boxShadow: selected ? `0 4px 20px ${tierColor}20, 0 0 1px ${tierColor}40` : '0 2px 8px rgba(0,0,0,0.3)',
-          width: 270,
+          width: 310,
           ...dimStyle,
           ...glowStyle,
         }}
@@ -762,7 +762,7 @@ function PersonNode({ data, selected }: any) {
             {statusColor && (
               <div className="w-2 h-2 rounded-full flex-shrink-0 animate-pulse" style={{ backgroundColor: statusColor, boxShadow: `0 0 6px ${statusColor}` }} />
             )}
-            <span className="text-[11px] font-bold text-white truncate">{data.name}</span>
+            <span className="text-[11px] font-bold text-white">{data.name}</span>
           </div>
           {status && (
             <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider flex-shrink-0"
@@ -771,7 +771,7 @@ function PersonNode({ data, selected }: any) {
             </span>
           )}
         </div>
-        {data.role && <p className="text-[9px] text-zinc-500 leading-relaxed mb-2 line-clamp-2">{data.role}</p>}
+        {data.role && <p className="text-[9px] text-zinc-500 leading-relaxed mb-2">{data.role}</p>}
         <div className="h-px mb-2" style={{ background: `linear-gradient(to right, ${tierColor}20, transparent)` }} />
         <div className="flex items-center gap-2 flex-wrap">
           <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider"
@@ -819,7 +819,7 @@ function OrgNode({ data, selected }: any) {
           ...glassBase,
           border: `1px solid ${selected ? tierColor : 'rgba(184, 0, 0, 0.20)'}`,
           boxShadow: selected ? `0 4px 20px ${tierColor}20, 0 0 1px ${tierColor}40` : '0 2px 8px rgba(0,0,0,0.3)',
-          width: 270,
+          width: 310,
           ...dimStyle,
           ...glowStyle,
         }}
@@ -827,14 +827,14 @@ function OrgNode({ data, selected }: any) {
         <div className="flex items-start justify-between gap-2 mb-1.5">
           <div className="flex items-center gap-2 min-w-0">
             <Building2 className="w-3 h-3 flex-shrink-0" style={{ color: tierColor }} />
-            <span className="text-[11px] font-bold text-white truncate">{data.name}</span>
+            <span className="text-[11px] font-bold text-white">{data.name}</span>
           </div>
           <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider flex-shrink-0"
             style={{ color: tierColor, border: `1px solid ${tierColor}40`, borderRadius: 4 }}>
             {data.entityType}
           </span>
         </div>
-        {data.role && <p className="text-[9px] text-zinc-500 leading-relaxed mb-2 line-clamp-2">{data.role}</p>}
+        {data.role && <p className="text-[9px] text-zinc-500 leading-relaxed mb-2">{data.role}</p>}
         <div className="h-px mb-2" style={{ background: `linear-gradient(to right, ${tierColor}20, transparent)` }} />
         <div className="flex items-center gap-2">
           <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider"
@@ -1051,6 +1051,9 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
     }
     if (data.nodeType === 'person' || data.nodeType === 'org') {
       setSelectedNodeId(prev => prev === node.id ? null : node.id);
+      if (data.href) {
+        router.push(data.href as string);
+      }
     }
   }, []);
 
@@ -1398,7 +1401,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
               </div>
               {/* Keyboard hint */}
               <p className="text-[8px] text-zinc-700 font-mono leading-relaxed text-center">
-                ↑↓←→ Navigate &bull; Enter Open &bull; Esc Deselect &bull; Double-click Profile
+                ↑↓←→ Navigate &bull; Enter Open &bull; Esc Deselect &bull; Click to View Profile
               </p>
             </div>
           </GlassPanel>
@@ -1463,10 +1466,8 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
         {/* ---- CENTER: GRAPH ---- */}
         <div
           ref={graphRef}
-          className={`relative ${isFullscreen ? 'h-screen' : 'min-h-[500px] h-[70vh] max-h-[900px]'} ${freshLayout ? 'edge-fresh' : ''}`}
+          className={`glass-card relative ${isFullscreen ? 'h-screen' : 'min-h-[500px] h-[70vh] max-h-[900px]'} ${freshLayout ? 'edge-fresh' : ''}`}
           style={{
-            ...glassBase,
-            border: '1px solid rgba(184, 0, 0, 0.25)',
             overflow: 'hidden',
             ...(isFullscreen ? { background: '#000000', borderRadius: 0 } : {}),
           }}
@@ -1654,7 +1655,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                     isSelected ? 'border-red-700/50 bg-red-950/20' : 'border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
                   }`} style={{ borderRadius: 8 }}>
                   <div className="flex items-center justify-between mb-0.5">
-                    <span className="text-[11px] font-bold text-white truncate">{def.name}</span>
+                    <span className="text-[11px] font-bold text-white">{def.name}</span>
                     <span className="text-[8px] px-1 py-0.5 font-bold uppercase flex-shrink-0"
                       style={{ color: statusColor, border: `1px solid ${statusColor}40`, borderRadius: 3 }}>
                       {def.status}
@@ -1683,13 +1684,13 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                     isSelected ? 'border-red-700/50 bg-red-950/20' : 'border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
                   }`} style={{ borderRadius: 8 }}>
                   <div className="flex items-center justify-between mb-0.5">
-                    <span className="text-[11px] font-bold text-white truncate">{aff.name}</span>
+                    <span className="text-[11px] font-bold text-white">{aff.name}</span>
                     <span className="text-[8px] px-1 py-0.5 font-bold uppercase flex-shrink-0"
                       style={{ color, border: `1px solid ${color}40`, borderRadius: 3 }}>
                       {aff.type}
                     </span>
                   </div>
-                  <p className="text-[9px] text-zinc-500 line-clamp-1">{aff.relationship}</p>
+                  <p className="text-[9px] text-zinc-500">{aff.relationship}</p>
                 </button>
               );
             })}
@@ -1707,13 +1708,13 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                 </div>
                 <div className="text-[9px] space-y-0.5">
                   <p className="text-zinc-500">
-                    <span className="text-red-400/60">From:</span> {txn.from.length > 40 ? txn.from.substring(0, 38) + '..' : txn.from}
+                    <span className="text-red-400/60">From:</span> {txn.from}
                   </p>
                   <p className="text-zinc-500">
-                    <span className="text-red-400/60">To:</span> {txn.to.length > 40 ? txn.to.substring(0, 38) + '..' : txn.to}
+                    <span className="text-red-400/60">To:</span> {txn.to}
                   </p>
                 </div>
-                <p className="text-[8px] text-zinc-600 mt-1 line-clamp-2">{txn.purpose}</p>
+                <p className="text-[8px] text-zinc-600 mt-1">{txn.purpose}</p>
               </div>
             ))}
           </div>
