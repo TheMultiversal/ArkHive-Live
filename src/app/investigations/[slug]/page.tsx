@@ -1434,7 +1434,6 @@ export default function InvestigationPage() {
                       key={idx}
                       variants={{ hidden: { opacity: 0, y: 8 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4 } } }}
                       className={`p-3 sm:p-4 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] bg-[rgba(255,255,255,0.012)] border border-white/[0.04] hover:border-red-500/[0.08]`}
-                      style={{ borderRadius: 12 }}
                     >
                       <div className="flex items-center justify-between mb-2">
                         <span className="text-[10px] font-mono text-zinc-500 tabular-nums">{item.date}</span>

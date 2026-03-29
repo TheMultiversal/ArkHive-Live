@@ -204,7 +204,7 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
           return (
             <PageErrorFallback
               error={this.state.error}
-              componentStack={this.state.errorInfo?.componentStack}
+              componentStack={this.state.errorInfo?.componentStack ?? undefined}
               onReset={this.resetErrorBoundary}
             />
           );
