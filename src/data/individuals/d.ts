@@ -6752,6 +6752,21 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Rick Perry', relationship: 'Former Texas Governor who signed the deregulation bill that created the vulnerable grid structure', href: '/entities/individuals/rick-perry' },
     ],
   },
+ 'diane-roark': {
+ name: 'Diane Roark',
+ title: 'NSA Whistleblower, Former Congressional Staffer',
+ role: 'Former House Intelligence Committee Staff, NSA Oversight',
+ riskLevel: 'low',
+ description: 'Diane Roark was a senior staffer on the House Permanent Select Committee on Intelligence who oversaw NSA spending. She attempted to report NSA warrantless wiretapping through official channels before Edward Snowden\'s disclosures, and was subsequently targeted by the FBI and DOJ for her whistleblowing efforts.',
+ affiliations: [
+ { name: 'House Intelligence Committee', role: 'Senior Staff Member (NSA Portfolio)', type: 'agency' },
+ ],
+ controversies: [
+ 'NSA WHISTLEBLOWING: Attempted to report illegal surveillance through proper channels years before Snowden',
+ 'FBI RAID: Home raided by FBI in 2007 as part of retaliation against NSA whistleblowers',
+ 'THOMAS DRAKE CASE: Investigated alongside Drake, Wiebe, Binney, and Loomis for unauthorized disclosures',
+ ],
+ },
 };
 
 export default profiles;

@@ -17,6 +17,8 @@ import {
  BookOpen,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
+import EvidenceTierBadge, { computeEvidenceTier } from '@/components/ui/EvidenceTierBadge';
+import investigationDatabase from '@/data/investigations';
 import type { IndividualProfile } from '@/data/individuals/types';
 
 export type { IndividualProfile };
@@ -44,9 +46,16 @@ const affiliationTypeColors: Record<string, string> = {
 
 interface IndividualProfileViewProps {
  individual: IndividualProfile;
+ slug?: string;
 }
 
-export default function IndividualProfileView({ individual }: IndividualProfileViewProps) {
+export default function IndividualProfileView({ individual, slug }: IndividualProfileViewProps) {
+ // Dynamic cross-reference: find all investigations that mention this individual
+ const dynamicInvestigations = slug ? Object.entries(investigationDatabase).filter(([, inv]) =>
+   inv.affiliations?.some((a) => a.href === `/entities/individuals/${slug}`) ||
+   inv.defendants?.some((d) => d.name.toLowerCase() === individual.name?.toLowerCase())
+ ) : [];
+
  return (
  <div className="min-h-screen text-white">
  {/* Header */}
@@ -169,28 +178,52 @@ export default function IndividualProfileView({ individual }: IndividualProfileV
  transition={{ delay: 0.2 }}
  className="glass-card p-6"
  >
- <h2 className="text-xl font-bold mb-4">Related Investigations</h2>
+ <h2 className="text-xl font-bold mb-4">Related Investigations ({dynamicInvestigations.length || (individual.relatedInvestigations || []).length})</h2>
  <div className="space-y-3">
- {(individual.relatedInvestigations || []).map((investigation, idx) => {
- // Handle both string and object formats
+ {dynamicInvestigations.length > 0 ? (
+ dynamicInvestigations.map(([invSlug, inv]) => (
+ <Link
+ key={invSlug}
+ href={`/investigations/${invSlug}`}
+ className="flex items-center justify-between p-4 bg-[#0a0a0a] hover:bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] hover:border-zinc-800 transition-all"
+ >
+ <div>
+ <span className="font-medium block">{inv.title}</span>
+ <span className="text-xs text-zinc-500 mt-1 block">{inv.category}</span>
+ </div>
+ <div className="flex items-center gap-2 flex-shrink-0">
+ <EvidenceTierBadge tier={computeEvidenceTier(inv)} size="compact" />
+ <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[inv.severity as keyof typeof severityColors]}`}>
+ {inv.severity}
+ </span>
+ </div>
+ </Link>
+ ))
+ ) : (
+ (individual.relatedInvestigations || []).map((investigation, idx) => {
  const isString = typeof investigation === 'string';
- const slug = isString ? investigation.toLowerCase().replace(/[^a-z0-9]+/g, '-') : investigation.slug;
+ const invSlug = isString ? investigation.toLowerCase().replace(/[^a-z0-9]+/g, '-') : investigation.slug;
  const title = isString ? investigation : investigation.title;
  const severity = isString ? 'medium' : investigation.severity;
+ const fullInv = investigationDatabase[invSlug];
  
  return (
  <Link
  key={isString ? idx : investigation.slug}
- href={`/investigations/${slug}`}
+ href={`/investigations/${invSlug}`}
  className="flex items-center justify-between p-4 bg-[#0a0a0a] hover:bg-[#0d0d0d] border border-[rgba(255,255,255,0.15)] hover:border-zinc-800 transition-all"
  >
  <span className="font-medium">{title}</span>
+ <div className="flex items-center gap-2 flex-shrink-0">
+ {fullInv && <EvidenceTierBadge tier={computeEvidenceTier(fullInv)} size="compact" />}
  <span className={`px-2 py-1 text-xs font-bold uppercase ${severityColors[severity as keyof typeof severityColors]}`}>
  {severity}
  </span>
+ </div>
  </Link>
  );
- })}
+ })
+ )}
  </div>
  </motion.section>
 

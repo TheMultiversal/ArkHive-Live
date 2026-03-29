@@ -1794,6 +1794,26 @@ const agencies: Record<string, AgencyProfile> = {
       "investigationCount": 1,
       "riskLevel": "moderate"
   },
+  'puct': {
+    id: 'puct',
+    slug: 'puct',
+    name: 'Public Utility Commission of Texas (PUCT)',
+    type: 'agency',
+    description: 'Texas state agency that regulates electric, telecommunications, and water utilities. Criticized for failing to mandate winterization of power plants before the 2021 Texas power crisis, and for market design decisions that prioritized cheap electricity over grid reliability.',
+    role: 'Texas State Regulatory Agency',
+    investigationCount: 1,
+    riskLevel: 'high',
+  },
+  'texas-railroad-commission': {
+    id: 'texas-railroad-commission',
+    slug: 'texas-railroad-commission',
+    name: 'Railroad Commission of Texas',
+    type: 'agency',
+    description: 'Despite its name, the Railroad Commission of Texas primarily regulates the oil and gas industry, pipeline safety, and surface mining. Criticized for failing to enforce winterization requirements on natural gas infrastructure before the 2021 winter storm crisis.',
+    role: 'Texas State Regulatory Agency (Oil & Gas)',
+    investigationCount: 1,
+    riskLevel: 'high',
+  },
 };
 
 export default agencies;

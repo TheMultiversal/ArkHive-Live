@@ -5764,6 +5764,39 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Evan Greebel', relationship: 'Former Retrophin outside counsel convicted of conspiracy for helping Shkreli defraud investors' },
     ],
   },
+ 'michael-rogers': {
+ name: 'Michael S. Rogers',
+ title: 'Former NSA Director and Commander of U.S. Cyber Command',
+ role: 'Admiral, NSA Director (2014-2018), USCYBERCOM Commander',
+ riskLevel: 'medium',
+ description: 'Admiral Michael S. Rogers served as Director of the National Security Agency and Commander of U.S. Cyber Command from 2014 to 2018. He oversaw NSA operations during the post-Snowden reform era and was involved in intelligence assessments of Russian interference in the 2016 election.',
+ affiliations: [
+ { name: 'National Security Agency', role: 'Director (2014-2018)', type: 'agency' },
+ { name: 'U.S. Cyber Command', role: 'Commander (2014-2018)', type: 'agency' },
+ { name: 'U.S. Navy', role: 'Admiral', type: 'agency' },
+ ],
+ controversies: [
+ 'RUSSIAN INTERFERENCE: Testified to Congress about Russian cyber operations during 2016 election',
+ 'TRUMP TOWER VISIT: Met with President-elect Trump at Trump Tower in November 2016 without informing superiors',
+ 'POST-SNOWDEN REFORMS: Oversaw NSA restructuring after Snowden revelations',
+ 'CYBER COMMAND: Led military cyber operations including responses to foreign cyber threats',
+ ],
+ },
+ 'mark-klein': {
+ name: 'Mark Klein',
+ title: 'AT&T Whistleblower, Former Technician',
+ role: 'AT&T Communications Technician Who Exposed NSA Room 641A',
+ riskLevel: 'low',
+ description: 'Mark Klein is a former AT&T communications technician who in 2006 revealed that the NSA had installed surveillance equipment at AT&T\'s San Francisco switching facility in a secret room known as Room 641A. His disclosure provided the first concrete evidence of NSA domestic mass surveillance of internet traffic.',
+ affiliations: [
+ { name: 'AT&T', role: 'Communications Technician (retired)', type: 'corporation' },
+ ],
+ controversies: [
+ 'ROOM 641A: Revealed NSA had a secret room at AT&T San Francisco facility splitting fiber optic cables to copy internet traffic',
+ 'EFF LAWSUIT: His evidence was central to Hepting v. AT&T, the EFF\'s landmark NSA surveillance lawsuit',
+ 'DOMESTIC SURVEILLANCE PROOF: Provided first physical evidence that NSA was tapping domestic internet backbone',
+ ],
+ },
 };
 
 export default profiles;

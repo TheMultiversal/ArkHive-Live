@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { ArrowLeft, AlertTriangle, Landmark, Shield } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
+import EvidenceTierBadge, { computeEvidenceTier } from '@/components/ui/EvidenceTierBadge';
 import agencyData from '@/data/agencies';
 import investigationDatabase from '@/data/investigations';
 
@@ -78,9 +79,12 @@ export default function AgencyDetailPage() {
                       <h3 className="font-bold text-zinc-300">{inv.title}</h3>
                       <p className="text-xs text-zinc-500 mt-1">{inv.category}</p>
                     </div>
-                    <span className={`px-2 py-1 text-[10px] font-bold uppercase border ${riskColors[inv.severity] || ''}`}>
-                      {inv.severity}
-                    </span>
+                    <div className="flex items-center gap-2 flex-shrink-0">
+                      <EvidenceTierBadge tier={computeEvidenceTier(inv)} size="compact" />
+                      <span className={`px-2 py-1 text-[10px] font-bold uppercase border ${riskColors[inv.severity] || ''}`}>
+                        {inv.severity}
+                      </span>
+                    </div>
                   </div>
                 </Link>
               ))}

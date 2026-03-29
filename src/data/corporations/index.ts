@@ -2283,6 +2283,36 @@ const corporations: Record<string, CorporationProfile> = {
       "investigationCount": 1,
       "riskLevel": "high"
   },
+  'vistra-corp': {
+    id: 'vistra-corp',
+    slug: 'vistra-corp',
+    name: 'Vistra Corp',
+    type: 'corporation',
+    description: 'Texas-based power generation company and the largest competitive power producer in the U.S. Multiple Vistra plants went offline during the 2021 Texas winter storm, contributing to the grid collapse that killed hundreds. Profited massively from energy price spikes during the crisis.',
+    role: 'Power Generation Company',
+    investigationCount: 1,
+    riskLevel: 'high',
+  },
+  'centerpoint-energy': {
+    id: 'centerpoint-energy',
+    slug: 'centerpoint-energy',
+    name: 'CenterPoint Energy',
+    type: 'corporation',
+    description: 'Houston-based energy delivery company serving millions of Texas customers. Criticized for its response during the 2021 Texas winter storm, with widespread and prolonged power outages affecting its service territory. Faced scrutiny over infrastructure preparedness and customer communication failures.',
+    role: 'Energy Delivery Company',
+    investigationCount: 1,
+    riskLevel: 'high',
+  },
+  'energy-transfer-partners': {
+    id: 'energy-transfer-partners',
+    slug: 'energy-transfer-partners',
+    name: 'Energy Transfer Partners',
+    type: 'corporation',
+    description: 'Major natural gas pipeline company headquartered in Dallas, Texas. Led by billionaire Kelcy Warren, the company profited enormously from the 2021 Texas power crisis while its natural gas infrastructure failures contributed to the grid collapse. Also known for the Dakota Access Pipeline controversy.',
+    role: 'Natural Gas Pipeline Company',
+    investigationCount: 1,
+    riskLevel: 'high',
+  },
 };
 
 export default corporations;

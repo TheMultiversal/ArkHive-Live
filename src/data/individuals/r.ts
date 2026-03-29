@@ -6562,6 +6562,40 @@ const profiles: Record<string, IndividualProfile> = {
      { date: "2015", event: "Laquan McDonald video cover-up controversy" },
    ],
  },
+ 'russell-tice': {
+ name: 'Russell Tice',
+ title: 'NSA Whistleblower, Former Intelligence Analyst',
+ role: 'Former NSA Intelligence Analyst Who Revealed Warrantless Wiretapping',
+ riskLevel: 'low',
+ description: 'Russell Tice is a former NSA intelligence analyst and former employee of the Defense Intelligence Agency who publicly revealed in 2005 that the NSA was conducting warrantless wiretapping of American citizens. His disclosures predated Edward Snowden by eight years and contributed to the New York Times investigation of the NSA domestic surveillance program.',
+ affiliations: [
+ { name: 'National Security Agency', role: 'Intelligence Analyst', type: 'agency' },
+ { name: 'Defense Intelligence Agency', role: 'Former Employee', type: 'agency' },
+ ],
+ controversies: [
+ 'WARRANTLESS WIRETAPPING: Revealed NSA was intercepting domestic communications without warrants',
+ 'EARLY WHISTLEBLOWER: Spoke out in 2005, nearly a decade before Snowden\'s comprehensive disclosures',
+ 'RETALIATION: Security clearance revoked, career destroyed after coming forward',
+ 'CONGRESSIONAL TESTIMONY: Testified to Congress about illegal NSA surveillance programs',
+ ],
+ },
+ 'reggie-walton': {
+ name: 'Reggie B. Walton',
+ title: 'U.S. District Judge, Former FISA Court Presiding Judge',
+ role: 'FISA Court Presiding Judge During Key NSA Surveillance Periods',
+ riskLevel: 'medium',
+ description: 'Reggie B. Walton is a senior United States District Judge who served as Presiding Judge of the Foreign Intelligence Surveillance Court. He oversaw FISA Court operations during critical periods of NSA surveillance authorization and was involved in rulings on the legality of bulk data collection programs.',
+ affiliations: [
+ { name: 'Foreign Intelligence Surveillance Court', role: 'Presiding Judge', type: 'agency' },
+ { name: 'U.S. District Court for D.C.', role: 'Senior Judge', type: 'agency' },
+ ],
+ controversies: [
+ 'FISA COURT LEADERSHIP: Led the secret court that authorized NSA mass surveillance programs',
+ 'BULK COLLECTION RULINGS: Involved in FISA Court decisions approving bulk telephone metadata collection',
+ 'POST-SNOWDEN: Responded to public scrutiny of FISA Court operations after Snowden disclosures',
+ 'SCOOTER LIBBY TRIAL: Presided over the trial of Vice Presidential aide Scooter Libby',
+ ],
+ },
 };
 
 export default profiles;

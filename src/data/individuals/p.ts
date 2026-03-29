@@ -2480,6 +2480,23 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Steve Bannon', relationship: 'Fellow contempt of Congress convict; allied on populist economic nationalism agenda', href: '/entities/individuals/steve-bannon' },
     ],
   },
+ 'patrick-leahy': {
+ name: 'Patrick Leahy',
+ title: 'Former U.S. Senator (D-VT)',
+ role: 'Senate Judiciary Committee Chairman, NSA Oversight Reformer',
+ riskLevel: 'low',
+ description: 'Patrick Leahy served as U.S. Senator from Vermont from 1975 to 2023, making him the longest-serving senator in Vermont history. As chairman of the Senate Judiciary Committee, he was a leading voice for NSA surveillance reform and co-authored the USA FREEDOM Act to curtail bulk metadata collection.',
+ affiliations: [
+ { name: 'U.S. Senate', role: 'Senator, Vermont (1975-2023)', type: 'agency' },
+ { name: 'Senate Judiciary Committee', role: 'Chairman (multiple terms)', type: 'agency' },
+ ],
+ controversies: [
+ 'NSA REFORM: Led congressional efforts to reform NSA surveillance after Snowden disclosures',
+ 'USA FREEDOM ACT: Co-authored legislation to end bulk telephone metadata collection',
+ 'FISA COURT REFORM: Advocated for adding adversarial proceedings to the secret FISA Court',
+ 'PATRIOT ACT CRITIC: Opposed reauthorization of sweeping surveillance provisions',
+ ],
+ },
 };
 
 export default profiles;

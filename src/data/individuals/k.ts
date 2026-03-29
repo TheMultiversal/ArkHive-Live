@@ -3597,6 +3597,22 @@ const profiles: Record<string, IndividualProfile> = {
      { date: "2010", event: "Koch network becomes major force in Citizens United era" },
    ],
  },
+ 'kirk-wiebe': {
+ name: 'J. Kirk Wiebe',
+ title: 'NSA Whistleblower, Former Senior Analyst',
+ role: 'Former NSA Senior Analyst, ThinThread Program Advocate',
+ riskLevel: 'low',
+ description: 'J. Kirk Wiebe is a former NSA senior analyst who, along with William Binney and Ed Loomis, blew the whistle on NSA waste, fraud, and abuse related to the Trailblazer surveillance program. He advocated for ThinThread, a more targeted and privacy-respecting alternative that the NSA abandoned in favor of mass surveillance.',
+ affiliations: [
+ { name: 'National Security Agency', role: 'Senior Analyst (1975-2001)', type: 'agency' },
+ ],
+ controversies: [
+ 'NSA WHISTLEBLOWER: Reported waste and fraud in the Trailblazer program through official channels',
+ 'FBI RAID: Home raided by FBI in 2007 as retaliation for whistleblowing',
+ 'THINTHREAD ADVOCATE: Supported the privacy-protecting ThinThread program that NSA leaders killed',
+ 'DOD IG COMPLAINT: Filed formal complaints with the DoD Inspector General about NSA programs',
+ ],
+ },
 };
 
 export default profiles;

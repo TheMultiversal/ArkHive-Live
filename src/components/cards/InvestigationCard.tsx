@@ -1,5 +1,6 @@
 import Link from"next/link";
 import { Calendar, ArrowRight, Skull, Users, AlertTriangle, FileText, Archive, Clock } from "lucide-react";
+import EvidenceTierBadge, { type EvidenceTier } from "@/components/ui/EvidenceTierBadge";
 
 function fmtDate(d: string | undefined): string {
   if (!d) return "Unknown";
@@ -27,6 +28,7 @@ export interface Investigation {
  entityCount: number;
  imageUrl?: string;
  tags: string[];
+ evidenceTier?: EvidenceTier;
 }
 
 interface InvestigationCardProps {
@@ -108,9 +110,14 @@ export default function InvestigationCard({ investigation, featured = false }: I
  </div>
 
  {/* Entity Count */}
- <div className="absolute bottom-3 right-3 z-20 flex items-center gap-1.5 text-zinc-600">
+ <div className="absolute bottom-3 right-3 z-20 flex items-center gap-2">
+ {investigation.evidenceTier && (
+ <EvidenceTierBadge tier={investigation.evidenceTier} size="compact" />
+ )}
+ <div className="flex items-center gap-1.5 text-zinc-600">
  <Users className="w-3.5 h-3.5"/>
  <span className="text-[10px] font-bold uppercase tracking-wider">{investigation.entityCount} entities</span>
+ </div>
  </div>
  </div>
 

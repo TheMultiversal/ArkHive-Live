@@ -2896,7 +2896,7 @@ const investigations_e: Record<string, InvestigationData> = {
    { id: 'terje-roed-larsen', name: 'Terje Roed-Larsen', type: 'individual', relationship: 'UN Diplomat, Received $130K From Epstein Foundation Post-Conviction', href: '/entities/individuals/terje-roed-larsen' },
    { id: 'ehud-olmert', name: 'Ehud Olmert', type: 'individual', relationship: 'Former Israeli PM, Named in Epstein Contact Records', href: '/entities/individuals/ehud-olmert' },
    { id: 'mark-middleton', name: 'Mark Middleton', type: 'individual', relationship: 'Clinton WH Aide Who Arranged Epstein Visits, Found Dead 2022 (Ruled Suicide)', href: '/entities/individuals/mark-middleton' },
-   { id: 'jean-luc-brunel-associates-in-france', name: 'Jean-Luc Brunel Associates in France', type: 'individual', relationship: 'French Government Officials Protected Brunel', href: '/entities/individuals/french-officials' },
+   { id: 'jean-luc-brunel-associates-in-france', name: 'French Government Officials', type: 'organization', relationship: 'Protected Jean-Luc Brunel from investigation' },
    { id: 'lynn-forester-de-rothschild', name: 'Lynn Forester de Rothschild', type: 'individual', relationship: 'Introduced Clinton to Epstein, Black Book, Extensive Social Contact', href: '/entities/individuals/lynn-forester-de-rothschild' },
    { id: 'edgar-bronfman-sr', name: 'Edgar Bronfman Sr.', type: 'individual', relationship: 'Seagram\'s Fortune, Named in Epstein Black Book With Multiple Numbers', href: '/entities/individuals/edgar-bronfman' },
    { id: 'ronald-perelman', name: 'Ronald Perelman', type: 'individual', relationship: 'Revlon Billionaire, Named in Epstein Black Book', href: '/entities/individuals/ronald-perelman' },

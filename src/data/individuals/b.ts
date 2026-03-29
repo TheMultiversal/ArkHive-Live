@@ -5011,6 +5011,20 @@ const profiles: Record<string, IndividualProfile> = {
     { name: 'Pablo Vegas', relationship: 'Successor CEO of ERCOT, came from the power industry', href: '/entities/individuals/pablo-vegas' },
   ],
  },
+ 'barton-gellman': {
+ name: 'Barton Gellman',
+ title: 'Pulitzer Prize-Winning Journalist',
+ role: 'Washington Post Reporter, NSA Surveillance Investigative Journalist',
+ riskLevel: 'low',
+ description: 'Barton Gellman is a Pulitzer Prize-winning journalist who, along with Glenn Greenwald, broke the story of the NSA\'s PRISM surveillance program in June 2013 based on documents provided by Edward Snowden. His reporting for The Washington Post revealed the scope of NSA mass surveillance of American citizens.',
+ affiliations: [
+ { name: 'The Washington Post', role: 'Staff Writer / Investigative Reporter', type: 'corporation' },
+ ],
+ controversies: [
+ 'PRISM REVELATIONS: Published classified NSA documents showing mass surveillance of internet communications through major tech companies',
+ 'PULITZER PRIZE: Awarded 2014 Pulitzer Prize for Public Service for NSA surveillance reporting',
+ ],
+ },
 };
 
 export default profiles;

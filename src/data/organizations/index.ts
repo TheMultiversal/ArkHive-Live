@@ -1275,6 +1275,14 @@ const organizations: Record<string, OrganizationProfile> = {
       "riskLevel": "critical",
       "members": "State apparatus"
   },
+  'ercot': {
+    name: 'Electric Reliability Council of Texas (ERCOT)',
+    slug: 'ercot',
+    type: 'Energy Grid Operator',
+    description: 'Non-profit organization that operates the electric grid for approximately 90% of Texas. ERCOT\'s decisions during the February 2021 winter storm led to catastrophic grid failure, leaving millions without power for days in freezing temperatures, resulting in hundreds of deaths.',
+    riskLevel: 'critical',
+    members: 'Board of directors + 900+ employees',
+  },
 };
 
 export default organizations;

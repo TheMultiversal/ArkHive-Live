@@ -8587,6 +8587,38 @@ const profiles: Record<string, IndividualProfile> = {
     { name: 'Christi Craddick', relationship: 'Fellow Railroad Commissioner who co-voted against mandatory winterization standards', href: '/entities/individuals/christi-craddick' },
   ],
  },
+ 'james-sensenbrenner': {
+ name: 'James Sensenbrenner',
+ title: 'Former U.S. Representative (R-WI)',
+ role: 'Original Author of the USA PATRIOT Act, Later NSA Critic',
+ riskLevel: 'low',
+ description: 'James Sensenbrenner served as U.S. Representative for Wisconsin\'s 5th congressional district from 1979 to 2021. As chairman of the House Judiciary Committee, he authored the USA PATRIOT Act after 9/11 but later became one of the strongest congressional critics of NSA mass surveillance, arguing the agency exceeded the law\'s intent.',
+ affiliations: [
+ { name: 'U.S. House of Representatives', role: 'Representative, Wisconsin 5th District (1979-2021)', type: 'agency' },
+ { name: 'House Judiciary Committee', role: 'Chairman (2001-2007)', type: 'agency' },
+ ],
+ controversies: [
+ 'PATRIOT ACT AUTHOR: Wrote the original USA PATRIOT Act post-9/11, later said NSA abused its provisions',
+ 'NSA CRITIC: Publicly condemned NSA bulk metadata collection as beyond congressional intent',
+ 'USA FREEDOM ACT: Co-authored the USA FREEDOM Act (2015) to rein in NSA surveillance authorities',
+ ],
+ },
+ 'john-bates': {
+ name: 'John D. Bates',
+ title: 'U.S. District Judge, Former FISA Court Presiding Judge',
+ role: 'FISA Court Judge Who Ruled on NSA Surveillance Legality',
+ riskLevel: 'medium',
+ description: 'John D. Bates served as a judge on the U.S. District Court for the District of Columbia and as Presiding Judge of the Foreign Intelligence Surveillance Court (FISC) from 2009 to 2013. He authored critical FISA Court opinions addressing the legality and scope of NSA surveillance programs.',
+ affiliations: [
+ { name: 'Foreign Intelligence Surveillance Court', role: 'Presiding Judge (2009-2013)', type: 'agency' },
+ { name: 'U.S. District Court for D.C.', role: 'District Judge (2001-present)', type: 'agency' },
+ ],
+ controversies: [
+ 'FISA COURT RULINGS: Authored opinions on the constitutionality of NSA bulk data collection programs',
+ 'NSA UPSTREAM COLLECTION: Ruled in 2011 that aspects of NSA upstream surveillance were unconstitutional',
+ 'SECRET COURT: Served on the largely secret FISA Court that approved mass surveillance warrants',
+ ],
+ },
 };
 
 export default profiles;

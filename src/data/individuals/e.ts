@@ -3515,6 +3515,20 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'John Charles Cutler', relationship: 'Fellow government-funded researcher who conducted human experiments without consent; contemporaries in the Cold War medical research establishment', href: '/entities/individuals/john-charles-cutler' },
     ],
   },
+ 'ewen-macaskill': {
+ name: 'Ewen MacAskill',
+ title: 'The Guardian Defence and Intelligence Correspondent',
+ role: 'Journalist Who Interviewed Edward Snowden in Hong Kong',
+ riskLevel: 'low',
+ description: 'Ewen MacAskill is a Scottish journalist for The Guardian who was one of the first reporters to meet Edward Snowden in Hong Kong in June 2013. He helped break the NSA surveillance story and conducted key interviews with Snowden that revealed the scope of mass surveillance programs.',
+ affiliations: [
+ { name: 'The Guardian', role: 'Defence and Intelligence Correspondent', type: 'corporation' },
+ ],
+ controversies: [
+ 'SNOWDEN INTERVIEW: One of three journalists who met Snowden in Hong Kong to receive classified NSA documents',
+ 'NSA REPORTING: Published multiple stories revealing British GCHQ surveillance programs including Tempora',
+ ],
+ },
 };
 
 export default profiles;

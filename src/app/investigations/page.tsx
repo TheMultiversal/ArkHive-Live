@@ -3,6 +3,7 @@
 import { useState, useMemo, useCallback, useEffect } from"react";
 import { useSearchParams } from"next/navigation";
 import InvestigationCard, { Investigation } from"@/components/cards/InvestigationCard";
+import { computeEvidenceTier } from"@/components/ui/EvidenceTierBadge";
 import { InvestigationIndexButton } from"@/components/InvestigationIndex";
 import investigationDatabase from"@/data/investigations";
 import { Search, AlertTriangle, X, ChevronLeft, ChevronRight, Skull, Shield, Scale, Globe, Landmark, Building2, Siren, FileWarning, Microscope, Radio, Crosshair, Flame, Users, DollarSign, Eye, Filter } from"lucide-react";
@@ -19,6 +20,7 @@ const allInvestigations: Investigation[] = Object.entries(investigationDatabase)
  date: data.date,
  entityCount: data.affiliations?.length || 0,
  tags: data.tags || [],
+ evidenceTier: computeEvidenceTier(data),
  })
 );
 

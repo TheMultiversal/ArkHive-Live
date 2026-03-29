@@ -27,5 +27,5 @@ export default function IndividualDetailPage() {
     );
   }
 
-  return <IndividualProfileView individual={individual} />;
+  return <IndividualProfileView individual={individual} slug={slug} />;
 }
