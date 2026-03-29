@@ -1353,7 +1353,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
 
         {/* ---- LEFT COLUMN ---- */}
         <div className="space-y-4">
-          <GlassPanel title="Controls" icon={<Filter className="w-4 h-4" />}>
+          <GlassPanel title="Controls" icon={<Filter className="w-4 h-4" />} defaultOpen={true}>
             <div className="space-y-3">
               {/* People / Orgs toggles */}
               <div className="flex gap-2">
@@ -1406,7 +1406,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
             </div>
           </GlassPanel>
 
-          <GlassPanel title="Statistics" icon={<Activity className="w-4 h-4" />}>
+          <GlassPanel title="Statistics" icon={<Activity className="w-4 h-4" />} defaultOpen={true}>
             <div className="space-y-3">
               <div className="grid grid-cols-3 gap-2">
                 <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 6 }}>
@@ -1469,7 +1469,8 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
           className={`glass-card relative ${isFullscreen ? 'h-screen' : 'min-h-[500px] h-[70vh] max-h-[900px]'} ${freshLayout ? 'edge-fresh' : ''}`}
           style={{
             overflow: 'hidden',
-            ...(isFullscreen ? { background: '#000000', borderRadius: 0 } : {}),
+            background: '#020202',
+            ...(isFullscreen ? { borderRadius: 0 } : {}),
           }}
         >
           {isLayouting && (
@@ -1499,7 +1500,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
             }}
             proOptions={{ hideAttribution: true }}
           >
-            <Background variant={BackgroundVariant.Dots} gap={30} size={0.8} color="rgba(184, 0, 0, 0.08)" />
+            <Background variant={BackgroundVariant.Dots} gap={30} size={0.5} color="rgba(184, 0, 0, 0.06)" />
             <MiniMap
               nodeColor={minimapNodeColor}
               nodeStrokeWidth={2}
@@ -1512,7 +1513,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
 
         {/* ---- RIGHT COLUMN ---- */}
         <div className="space-y-4">
-          <GlassPanel title="Legend" icon={<Shield className="w-4 h-4" />}>
+          <GlassPanel title="Legend" icon={<Shield className="w-4 h-4" />} defaultOpen={true}>
             <div className="space-y-3">
               <div>
                 <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-2">People Tiers</p>
@@ -1555,7 +1556,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
             </div>
           </GlassPanel>
 
-          <GlassPanel title="Node Details" icon={<Target className="w-4 h-4" />}
+          <GlassPanel title="Node Details" icon={<Target className="w-4 h-4" />} defaultOpen={true}
             badge={selectedNodeData ? <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" /> : undefined}>
             {selectedNodeData ? (
               <div className="space-y-3">
@@ -1642,7 +1643,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
       {/* === BOTTOM PANELS === */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Defendant Roster */}
-        <GlassPanel title={`Defendants (${defendants.length})`} icon={<Users className="w-4 h-4" />} defaultOpen={defendants.length <= 10}>
+        <GlassPanel title={`Defendants (${defendants.length})`} icon={<Users className="w-4 h-4" />} defaultOpen={false}>
           <div className="max-h-72 overflow-y-auto space-y-1 pr-1 custom-scrollbar">
             {defendants.map((def, i) => {
               const tier = classifyPerson(def, null);
@@ -1672,7 +1673,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
         </GlassPanel>
 
         {/* Organization Directory */}
-        <GlassPanel title={`Organizations (${orgAffiliations.length})`} icon={<Building2 className="w-4 h-4" />} defaultOpen={orgAffiliations.length <= 10}>
+        <GlassPanel title={`Organizations (${orgAffiliations.length})`} icon={<Building2 className="w-4 h-4" />} defaultOpen={false}>
           <div className="max-h-72 overflow-y-auto space-y-1 pr-1 custom-scrollbar">
             {orgAffiliations.map((aff, i) => {
               const tier = classifyOrg(aff);
@@ -1698,7 +1699,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
         </GlassPanel>
 
         {/* Money Trail */}
-        <GlassPanel title={`Money Trail (${moneyTrail.length})`} icon={<DollarSign className="w-4 h-4" />} defaultOpen={moneyTrail.length <= 8}>
+        <GlassPanel title={`Money Trail (${moneyTrail.length})`} icon={<DollarSign className="w-4 h-4" />} defaultOpen={false}>
           <div className="max-h-72 overflow-y-auto space-y-1.5 pr-1 custom-scrollbar">
             {moneyTrail.map((txn, i) => (
               <div key={i} className="p-2.5 border border-[rgba(184,0,0,0.10)]" style={{ borderRadius: 8 }}>

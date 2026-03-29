@@ -237,6 +237,14 @@ a:focus-visible {
     text-shadow: 0 0 20px rgba(184, 0, 0, 0.5), 0 0 60px rgba(184, 0, 0, 0.2);
   }
 
+  /* Force ReactFlow internal background to pure black */
+  .react-flow {
+    background: #020202 !important;
+  }
+  .react-flow__background {
+    background: transparent !important;
+  }
+
   .glow-border {
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.08), 0 0 40px rgba(255, 255, 255, 0.04);
   }
