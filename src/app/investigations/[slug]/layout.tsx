@@ -16,18 +16,31 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  const description = investigation.summary || investigation.subtitle;
+
   return {
     title: investigation.title,
-    description: investigation.summary || investigation.subtitle,
+    description,
     openGraph: {
       title: `${investigation.title} | ArkHive`,
-      description: investigation.summary || investigation.subtitle,
+      description,
       type: 'article',
+      publishedTime: investigation.eventOriginDate || investigation.date,
+      modifiedTime: investigation.lastUpdated,
+      tags: investigation.tags,
+      images: [
+        {
+          url: '/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: investigation.title,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title: `${investigation.title} | ArkHive`,
-      description: investigation.summary || investigation.subtitle,
+      description,
     },
   };
 }

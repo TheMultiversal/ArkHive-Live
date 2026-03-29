@@ -43,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
  '/terms',
  '/methodology',
  '/contact',
+ '/take-action',
  ];
 
  const staticEntries = staticPages.map((route) => ({

@@ -20,6 +20,7 @@ export default function Footer() {
  ],
  resources: [
  { href:"/timeline", label:"Timeline"},
+ { href:"/take-action", label:"Take Action"},
  { href:"/archives", label:"Archives"},
  { href:"/documents", label:"Documents"},
  { href:"/sources", label:"Sources"},
