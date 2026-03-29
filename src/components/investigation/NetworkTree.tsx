@@ -589,7 +589,7 @@ function MoneyFlowEdge({
           >
             <span
               className="text-[7px] font-mono font-bold text-red-400/90 bg-black/90 px-1.5 py-0.5 border border-red-900/40 whitespace-nowrap"
-              style={{ borderRadius: 0 }}
+              style={{ borderRadius: 8 }}
             >
               $ {amount}{count > 1 ? ` (×${count})` : ''}
             </span>
@@ -606,7 +606,7 @@ function MoneyFlowEdge({
 
 const glassBase: React.CSSProperties = {
   background: 'linear-gradient(160deg, #080808 0%, #020202 40%, #060606 100%)',
-  borderRadius: 0,
+  borderRadius: 8,
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -624,7 +624,7 @@ function RootNode({ data, selected }: any) {
             className="absolute inset-0"
             style={{
               border: `2px solid ${sevColor}`,
-              borderRadius: 0,
+              borderRadius: 8,
               animation: `severityPulse ${pulseSpeed}s ease-out infinite`,
             }}
           />
@@ -632,7 +632,7 @@ function RootNode({ data, selected }: any) {
             className="absolute inset-0"
             style={{
               border: `1px solid ${sevColor}`,
-              borderRadius: 0,
+              borderRadius: 8,
               animation: `severityPulse ${pulseSpeed}s ease-out infinite`,
               animationDelay: `${pulseSpeed / 2}s`,
             }}
@@ -685,7 +685,7 @@ function CategoryNode({ data, selected }: any) {
       >
         <Users className="w-4 h-4 flex-shrink-0" style={{ color }} />
         <span className="text-xs font-black text-white uppercase tracking-wider">{data.category}</span>
-        <span className="text-[10px] font-mono px-2 py-0.5" style={{ color, backgroundColor: `${color}15`, border: `1px solid ${color}30`, borderRadius: 0 }}>
+        <span className="text-[10px] font-mono px-2 py-0.5" style={{ color, backgroundColor: `${color}15`, border: `1px solid ${color}30`, borderRadius: 8 }}>
           {data.count}
         </span>
         {isCollapsed
@@ -711,7 +711,7 @@ function TierNode({ data, selected }: any) {
       <Handle type="source" position={Position.Right} className="!bg-transparent !border-0 !w-0 !h-0" />
       <div
         className={`px-4 py-2.5 flex items-center gap-2 cursor-pointer transition-all duration-300 ${selected ? 'ring-1 ring-white/15' : ''}`}
-        style={{ ...glassBase, background: `linear-gradient(160deg, ${color}08 0%, #020202 100%)`, border: `1px solid ${color}30`, borderRadius: 0, ...dimStyle, ...glowStyle }}
+        style={{ ...glassBase, background: `linear-gradient(160deg, ${color}08 0%, #020202 100%)`, border: `1px solid ${color}30`, borderRadius: 8, ...dimStyle, ...glowStyle }}
       >
         <div className="w-2 h-2 rounded-sm flex-shrink-0" style={{ backgroundColor: color }} />
         <span className="text-[10px] font-bold text-zinc-300 uppercase tracking-wider">{data.tier}</span>
@@ -766,7 +766,7 @@ function PersonNode({ data, selected }: any) {
           </div>
           {status && (
             <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider flex-shrink-0"
-              style={{ color: statusColor, border: `1px solid ${statusColor}50`, borderRadius: 0 }}>
+              style={{ color: statusColor, border: `1px solid ${statusColor}50`, borderRadius: 8 }}>
               {status}
             </span>
           )}
@@ -775,7 +775,7 @@ function PersonNode({ data, selected }: any) {
         <div className="h-px mb-2" style={{ background: `linear-gradient(to right, ${tierColor}20, transparent)` }} />
         <div className="flex items-center gap-2 flex-wrap">
           <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider"
-            style={{ color: tierColor, border: `1px solid ${tierColor}30`, borderRadius: 0, backgroundColor: `${tierColor}08` }}>
+            style={{ color: tierColor, border: `1px solid ${tierColor}30`, borderRadius: 8, backgroundColor: `${tierColor}08` }}>
             {tier}
           </span>
           {data.charges && (data.charges as string[]).length > 0 && (
@@ -830,7 +830,7 @@ function OrgNode({ data, selected }: any) {
             <span className="text-[11px] font-bold text-white">{data.name}</span>
           </div>
           <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider flex-shrink-0"
-            style={{ color: tierColor, border: `1px solid ${tierColor}40`, borderRadius: 0 }}>
+            style={{ color: tierColor, border: `1px solid ${tierColor}40`, borderRadius: 8 }}>
             {data.entityType}
           </span>
         </div>
@@ -838,7 +838,7 @@ function OrgNode({ data, selected }: any) {
         <div className="h-px mb-2" style={{ background: `linear-gradient(to right, ${tierColor}20, transparent)` }} />
         <div className="flex items-center gap-2">
           <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase tracking-wider"
-            style={{ color: tierColor, border: `1px solid ${tierColor}30`, borderRadius: 0, backgroundColor: `${tierColor}08` }}>
+            style={{ color: tierColor, border: `1px solid ${tierColor}30`, borderRadius: 8, backgroundColor: `${tierColor}08` }}>
             {tier}
           </span>
           {totalMoney > 0 && (
@@ -1336,7 +1336,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Search nodes..."
               className="w-full bg-[#050505] border border-[rgba(184,0,0,0.20)] text-zinc-300 text-sm font-mono pl-10 pr-20 py-2.5 focus:border-red-700/50 focus:outline-none placeholder:text-zinc-700"
-              style={{ borderRadius: 0 }}
+              style={{ borderRadius: 8 }}
             />
             {searchQuery && (
               <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
@@ -1360,13 +1360,13 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                 <button onClick={() => setShowPeople(!showPeople)}
                   className={`flex-1 flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-wider px-2 py-2 border transition-all ${
                     showPeople ? 'border-red-800/40 text-red-400 bg-red-950/20' : 'border-zinc-800 text-zinc-600'
-                  }`} style={{ borderRadius: 0 }}>
+                  }`} style={{ borderRadius: 8 }}>
                   <Users className="w-3 h-3" /> People
                 </button>
                 <button onClick={() => setShowOrgs(!showOrgs)}
                   className={`flex-1 flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-wider px-2 py-2 border transition-all ${
                     showOrgs ? 'border-red-800/40 text-red-400 bg-red-950/20' : 'border-zinc-800 text-zinc-600'
-                  }`} style={{ borderRadius: 0 }}>
+                  }`} style={{ borderRadius: 8 }}>
                   <Building2 className="w-3 h-3" /> Orgs
                 </button>
               </div>
@@ -1380,7 +1380,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                 ].map(({ label, icon: Icon, fn }) => (
                   <button key={label} onClick={fn}
                     className="flex items-center gap-1.5 text-[9px] font-bold text-zinc-500 uppercase tracking-wider px-2 py-2 border border-zinc-800 hover:border-red-900/40 hover:text-red-400 transition-all"
-                    style={{ borderRadius: 0 }}>
+                    style={{ borderRadius: 8 }}>
                     <Icon className="w-3 h-3" /> {label}
                   </button>
                 ))}
@@ -1389,13 +1389,13 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
               <div className="flex gap-2">
                 <button onClick={toggleFullscreen}
                   className="flex-1 flex items-center justify-center gap-1.5 text-[9px] font-bold text-zinc-500 uppercase tracking-wider px-2 py-2 border border-zinc-800 hover:border-red-900/40 hover:text-red-400 transition-all"
-                  style={{ borderRadius: 0 }}>
+                  style={{ borderRadius: 8 }}>
                   {isFullscreen ? <Minimize2 className="w-3 h-3" /> : <Maximize2 className="w-3 h-3" />}
                   {isFullscreen ? 'Exit FS' : 'Fullscreen'}
                 </button>
                 <button onClick={exportPng}
                   className="flex-1 flex items-center justify-center gap-1.5 text-[9px] font-bold text-zinc-500 uppercase tracking-wider px-2 py-2 border border-zinc-800 hover:border-red-900/40 hover:text-red-400 transition-all"
-                  style={{ borderRadius: 0 }}>
+                  style={{ borderRadius: 8 }}>
                   <Download className="w-3 h-3" /> Export
                 </button>
               </div>
@@ -1409,21 +1409,21 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
           <GlassPanel title="Statistics" icon={<Activity className="w-4 h-4" />} defaultOpen={true}>
             <div className="space-y-3">
               <div className="grid grid-cols-3 gap-2">
-                <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 0 }}>
+                <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 8 }}>
                   <div className="text-lg font-black text-white font-mono">{stats.total}</div>
                   <div className="text-[8px] text-zinc-600 uppercase font-bold">Total</div>
                 </div>
-                <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 0 }}>
+                <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 8 }}>
                   <div className="text-lg font-black text-red-400 font-mono">{stats.people}</div>
                   <div className="text-[8px] text-zinc-600 uppercase font-bold">People</div>
                 </div>
-                <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 0 }}>
+                <div className="text-center p-2 bg-[rgba(184,0,0,0.04)] border border-[rgba(184,0,0,0.12)]" style={{ borderRadius: 8 }}>
                   <div className="text-lg font-black text-red-400 font-mono">{stats.orgs}</div>
                   <div className="text-[8px] text-zinc-600 uppercase font-bold">Orgs</div>
                 </div>
               </div>
               {stats.moneyEdges > 0 && (
-                <div className="text-center p-2 bg-[rgba(234,179,8,0.04)] border border-[rgba(234,179,8,0.12)]" style={{ borderRadius: 0 }}>
+                <div className="text-center p-2 bg-[rgba(234,179,8,0.04)] border border-[rgba(234,179,8,0.12)]" style={{ borderRadius: 8 }}>
                   <div className="text-sm font-black text-red-400 font-mono">{stats.moneyEdges}</div>
                   <div className="text-[8px] text-zinc-600 uppercase font-bold">Money Flow Connections</div>
                 </div>
@@ -1470,11 +1470,11 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
           style={{
             overflow: 'hidden',
             background: '#020202',
-            ...(isFullscreen ? { borderRadius: 0 } : {}),
+            ...(isFullscreen ? { borderRadius: 8 } : {}),
           }}
         >
           {isLayouting && (
-            <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/50" style={{ borderRadius: 0 }}>
+            <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/50" style={{ borderRadius: 8 }}>
               <div className="flex flex-col items-center gap-3">
                 <div className="w-8 h-8 border-2 border-red-600 border-t-transparent rounded-full animate-spin" />
                 <span className="text-[10px] text-red-400 font-mono uppercase tracking-wider">Computing Layout...</span>
@@ -1504,7 +1504,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
             <MiniMap
               nodeColor={minimapNodeColor}
               nodeStrokeWidth={2}
-              style={{ background: '#020202', borderRadius: 0, border: '1px solid rgba(184,0,0,0.20)' }}
+              style={{ background: '#020202', borderRadius: 8, border: '1px solid rgba(184,0,0,0.20)' }}
               maskColor="rgba(0, 0, 0, 0.7)"
             />
             <Controls showInteractive={false} />
@@ -1519,7 +1519,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                 <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-2">People Tiers</p>
                 {(Object.entries(PERSON_TIER_COLORS) as [PersonTier, string][]).map(([tier, color]) => (
                   <div key={tier} className="flex items-center gap-2 py-0.5">
-                    <div className="w-2.5 h-2.5 flex-shrink-0" style={{ backgroundColor: color, borderRadius: 0 }} />
+                    <div className="w-2.5 h-2.5 flex-shrink-0" style={{ backgroundColor: color, borderRadius: 8 }} />
                     <span className="text-[10px] text-zinc-400 font-mono">{tier}</span>
                   </div>
                 ))}
@@ -1528,7 +1528,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                 <p className="text-[9px] text-zinc-600 uppercase font-bold tracking-wider mb-2">Organization Types</p>
                 {(Object.entries(ORG_TIER_COLORS) as [OrgTier, string][]).map(([tier, color]) => (
                   <div key={tier} className="flex items-center gap-2 py-0.5">
-                    <div className="w-2.5 h-2.5 flex-shrink-0" style={{ backgroundColor: color, borderRadius: 0 }} />
+                    <div className="w-2.5 h-2.5 flex-shrink-0" style={{ backgroundColor: color, borderRadius: 8 }} />
                     <span className="text-[10px] text-zinc-400 font-mono">{tier}</span>
                   </div>
                 ))}
@@ -1565,7 +1565,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                     <h4 className="text-sm font-bold text-white">{selectedNodeData.name || selectedNodeData.label}</h4>
                     {selectedNodeData.status && (
                       <span className="text-[8px] px-1.5 py-0.5 font-bold uppercase border flex-shrink-0"
-                        style={{ color: STATUS_COLORS[selectedNodeData.status] || '#777', borderColor: `${STATUS_COLORS[selectedNodeData.status] || '#777'}60`, borderRadius: 0 }}>
+                        style={{ color: STATUS_COLORS[selectedNodeData.status] || '#777', borderColor: `${STATUS_COLORS[selectedNodeData.status] || '#777'}60`, borderRadius: 8 }}>
                         {selectedNodeData.status}
                       </span>
                     )}
@@ -1577,7 +1577,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                         style={{
                           color: (PERSON_TIER_COLORS as Record<string, string>)[selectedNodeData.tier] || (ORG_TIER_COLORS as Record<string, string>)[selectedNodeData.tier] || '#555',
                           borderColor: `${(PERSON_TIER_COLORS as Record<string, string>)[selectedNodeData.tier] || (ORG_TIER_COLORS as Record<string, string>)[selectedNodeData.tier] || '#555'}40`,
-                          borderRadius: 0,
+                          borderRadius: 8,
                         }}>
                         {selectedNodeData.tier}
                       </span>
@@ -1654,11 +1654,11 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                 <button key={i} onClick={() => selectDefendant(def)}
                   className={`w-full text-left p-2.5 border transition-all ${
                     isSelected ? 'border-red-700/50 bg-red-950/20' : 'border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
-                  }`} style={{ borderRadius: 0 }}>
+                  }`} style={{ borderRadius: 8 }}>
                   <div className="flex items-center justify-between mb-0.5">
                     <span className="text-[11px] font-bold text-white">{def.name}</span>
                     <span className="text-[8px] px-1 py-0.5 font-bold uppercase flex-shrink-0"
-                      style={{ color: statusColor, border: `1px solid ${statusColor}40`, borderRadius: 0 }}>
+                      style={{ color: statusColor, border: `1px solid ${statusColor}40`, borderRadius: 8 }}>
                       {def.status}
                     </span>
                   </div>
@@ -1683,11 +1683,11 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
                 <button key={i} onClick={() => selectOrg(aff)}
                   className={`w-full text-left p-2.5 border transition-all ${
                     isSelected ? 'border-red-700/50 bg-red-950/20' : 'border-[rgba(184,0,0,0.10)] hover:border-[rgba(184,0,0,0.30)]'
-                  }`} style={{ borderRadius: 0 }}>
+                  }`} style={{ borderRadius: 8 }}>
                   <div className="flex items-center justify-between mb-0.5">
                     <span className="text-[11px] font-bold text-white">{aff.name}</span>
                     <span className="text-[8px] px-1 py-0.5 font-bold uppercase flex-shrink-0"
-                      style={{ color, border: `1px solid ${color}40`, borderRadius: 0 }}>
+                      style={{ color, border: `1px solid ${color}40`, borderRadius: 8 }}>
                       {aff.type}
                     </span>
                   </div>
@@ -1702,7 +1702,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
         <GlassPanel title={`Money Trail (${moneyTrail.length})`} icon={<DollarSign className="w-4 h-4" />} defaultOpen={false}>
           <div className="max-h-72 overflow-y-auto space-y-1.5 pr-1 custom-scrollbar">
             {moneyTrail.map((txn, i) => (
-              <div key={i} className="p-2.5 border border-[rgba(184,0,0,0.10)]" style={{ borderRadius: 0 }}>
+              <div key={i} className="p-2.5 border border-[rgba(184,0,0,0.10)]" style={{ borderRadius: 8 }}>
                 <div className="flex items-center justify-between mb-1">
                   <span className="text-[10px] text-zinc-500 font-mono">{txn.date}</span>
                   <span className="text-[10px] font-bold text-red-400">{txn.amount}</span>

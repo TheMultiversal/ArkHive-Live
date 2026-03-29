@@ -46,8 +46,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Executive Power Abuse',
     description: 'Investigations into misuse of presidential and executive authority',
     icon: Shield,
-    color: 'text-red-500',
-    bgColor: 'bg-red-500/10',
+    color: 'text-red-400',
+    bgColor: 'bg-red-400/10',
     keywords: ['executive', 'president', 'pardon', 'executive order', 'obstruction', 'abuse of power', 'impeachment', 'white house']
   },
   {
@@ -64,8 +64,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Financial Crimes',
     description: 'Money laundering, fraud, tax evasion, and financial misconduct',
     icon: DollarSign,
-    color: 'text-red-500',
-    bgColor: 'bg-red-500/10',
+    color: 'text-emerald-400',
+    bgColor: 'bg-emerald-400/10',
     keywords: ['fraud', 'money', 'financial', 'tax', 'launder', 'embezzle', 'bank', 'wire fraud', 'securities']
   },
   {
@@ -73,8 +73,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Foreign Influence',
     description: 'Foreign government interference and undisclosed foreign relationships',
     icon: Globe,
-    color: 'text-red-500',
-    bgColor: 'bg-red-500/10',
+    color: 'text-amber-400',
+    bgColor: 'bg-amber-400/10',
     keywords: ['russia', 'china', 'foreign', 'agent', 'fara', 'espionage', 'interference', 'collusion', 'saudi', 'ukraine']
   },
   {
@@ -82,8 +82,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Civil Rights',
     description: 'Violations of constitutional rights and civil liberties',
     icon: Scale,
-    color: 'text-red-500',
-    bgColor: 'bg-red-500/10',
+    color: 'text-blue-400',
+    bgColor: 'bg-blue-400/10',
     keywords: ['civil rights', 'discrimination', 'constitutional', 'voting rights', 'segregation', 'police', 'brutality']
   },
   {
@@ -91,8 +91,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Public Corruption',
     description: 'Bribery, kickbacks, and public officials misconduct',
     icon: Briefcase,
-    color: 'text-red-500',
-    bgColor: 'bg-red-500/10',
+    color: 'text-orange-400',
+    bgColor: 'bg-orange-400/10',
     keywords: ['bribery', 'corrupt', 'kickback', 'quid pro quo', 'emoluments', 'conflict of interest', 'ethics']
   },
   {
@@ -127,8 +127,8 @@ export const THEME_DEFINITIONS: Theme[] = [
     name: 'Conspiracy',
     description: 'Coordinated unlawful activities involving multiple actors',
     icon: Users,
-    color: 'text-red-500',
-    bgColor: 'bg-red-500/10',
+    color: 'text-violet-400',
+    bgColor: 'bg-violet-400/10',
     keywords: ['conspiracy', 'coordinate', 'scheme', 'plot', 'seditious', 'insurrection', 'organized']
   }
 ];
@@ -252,9 +252,9 @@ export function ThemeClusterBrowser() {
 
   const severityColors: Record<string, string> = {
     critical: 'bg-red-500',
-    high: 'bg-red-500',
-    medium: 'bg-red-500',
-    low: 'bg-red-500'
+    high: 'bg-orange-500',
+    medium: 'bg-amber-500',
+    low: 'bg-zinc-500'
   };
 
   return (

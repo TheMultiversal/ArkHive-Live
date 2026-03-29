@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-03-29T03:24:10.338Z",
+  "counts": {
+    "individuals": 2135,
+    "agencies": 179,
+    "corporations": 228,
+    "organizations": 158,
+    "totalEntitySlugs": 2522,
+    "uniqueDefendantNames": 683,
+    "totalAffiliations": 0
+  },
+  "duplicates": {
+    "individuals": [
+      [
+        "andrew-wheeler",
+        2
+      ],
+      [
+        "augusto-pinochet",
+        2
+      ],
+      [
+        "adam-neumann",
+        2
+      ],
+      [
+        "omar-al-bashir",
+        2
+      ],
+      [
+        "andrew-cuomo",
+        2
+      ],
+      [
+        "ajit-pai",
+        2
+      ],
+      [
+        "jamie-dimon",
+        2
+      ],
+      [
+        "bobby-kotick",
+        2
+      ],
+      [
+        "betsy-devos",
+        2
+      ],
+      [
+        "steve-bannon",
+        2
+      ],
+      [
+        "travis-kalanick",
+        2
+      ],
+      [
+        "clarence-thomas",
+        2
+      ],
+      [
+        "ivanka-trump",
+        2
+      ],
+      [
+        "eric-holder",
+        2
+      ],
+      [
+        "rudy-giuliani",
+        2
+      ],
+      [
+        "michael-flynn",
+        2
+      ],
+      [
+        "ginni-thomas",
+        2
+      ],
+      [
+        "rick-perry",
+        2
+      ],
+      [
+        "joseph-stalin",
+        2
+      ],
+      [
+        "john-stumpf",
+        2
+      ],
+      [
+        "larry-kudlow",
+        2
+      ],
+      [
+        "mitch-mcconnell",
+        2
+      ],
+      [
+        "robert-mercer",
+        2
+      ],
+      [
+        "samuel-alito",
+        2
+      ],
+      [
+        "sidney-powell",
+        2
+      ]
+    ],
+    "corporations": [],
+    "agencies": []
+  },
+  "brokenHrefs": []
+}

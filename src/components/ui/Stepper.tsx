@@ -95,7 +95,7 @@ export const Stepper = forwardRef<HTMLDivElement, StepperProps>(
  onClick={() => isClickable && onStepClick?.(index)}
  disabled={!isClickable}
  className={cn(
- 'flex items-center justify-center rounded-none border-2 transition-colors',
+ 'flex items-center justify-center rounded-full border-2 transition-colors',
  sizes.step,
  isCompleted && 'bg-zinc-600 border-zinc-600 text-white',
  isCurrent && 'border-zinc-600 text-zinc-300 bg-black',

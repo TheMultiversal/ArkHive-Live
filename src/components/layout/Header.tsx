@@ -23,7 +23,7 @@ function NavDropdown({ label, items, isActive }: { label: string; items: { href:
  <div ref={ref} className="relative">
  <button
  onClick={() => setOpen(!open)}
- className={`relative flex items-center gap-1 px-2.5 py-1.5 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 rounded-none border ${
+ className={`relative flex items-center gap-1 px-2.5 py-1.5 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 rounded-lg border ${
  anyActive
  ?"text-red-400 bg-[rgba(184,0,0,0.08)] border-[rgba(184,0,0,0.30)]"
  :"text-zinc-400 hover:text-white hover:bg-[rgba(184,0,0,0.06)] border-transparent hover:border-[rgba(184,0,0,0.25)]"
@@ -34,7 +34,7 @@ function NavDropdown({ label, items, isActive }: { label: string; items: { href:
  {anyActive && <span className="absolute bottom-0 left-1/4 right-1/4 h-[1px] bg-[rgba(184,0,0,0.40)]"/>}
  </button>
  {open && (
- <div className="absolute top-full left-0 mt-1.5 min-w-[180px] bg-[#050505] border border-[rgba(184,0,0,0.25)] rounded-none shadow-[0_8px_30px_rgba(0,0,0,0.8),0_0_15px_rgba(184,0,0,0.08)] z-50 overflow-hidden">
+ <div className="absolute top-full left-0 mt-1.5 min-w-[180px] bg-[#050505] border border-[rgba(184,0,0,0.25)] rounded-xl shadow-[0_8px_30px_rgba(0,0,0,0.8),0_0_15px_rgba(184,0,0,0.08)] z-50 overflow-hidden">
  {items.map(item => (
  <Link
  key={item.href}
@@ -85,6 +85,7 @@ export default function Header() {
  { href:"/entities/individuals", label:"Individuals"},
  { href:"/entities/organizations", label:"Organizations"},
  { href:"/timeline", label:"Timeline"},
+ { href:"/take-action", label:"Take Action"},
  { href:"/about", label:"About"},
  ];
 
@@ -109,6 +110,7 @@ export default function Header() {
  { href:"/themes", label:"Themes"},
  { href:"/geography", label:"Geography"},
  { href:"/workspaces", label:"Workspaces"},
+ { href:"/take-action", label:"Take Action"},
  { href:"/about", label:"About"},
  ];
 
@@ -151,7 +153,7 @@ export default function Header() {
  {/* Home link */}
  <Link
  href="/"
- className={`relative px-2.5 py-1.5 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 rounded-none border ${
+ className={`relative px-2.5 py-1.5 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 rounded-lg border ${
  pathname ==="/"
  ?"text-red-400 bg-[rgba(184,0,0,0.08)] border-[rgba(184,0,0,0.30)]"
  :"text-zinc-400 hover:text-white hover:bg-[rgba(184,0,0,0.06)] border-transparent hover:border-[rgba(184,0,0,0.25)]"
@@ -170,7 +172,7 @@ export default function Header() {
  <Link
  key={link.href}
  href={link.href}
- className={`relative px-2.5 py-1.5 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 rounded-none border whitespace-nowrap ${
+ className={`relative px-2.5 py-1.5 text-[11px] xl:text-xs font-semibold uppercase tracking-wide transition-all duration-200 rounded-lg border whitespace-nowrap ${
  active
  ?"text-red-400 bg-[rgba(184,0,0,0.08)] border-[rgba(184,0,0,0.30)]"
  :"text-zinc-400 hover:text-white hover:bg-[rgba(184,0,0,0.06)] border-transparent hover:border-[rgba(184,0,0,0.25)]"
@@ -213,7 +215,7 @@ export default function Header() {
  setSearchQuery("");
  }
  }}
- className="absolute right-0 top-1/2 -translate-y-1/2 w-64 px-4 py-2 bg-[#020202] border border-[rgba(184,0,0,0.25)] rounded-none text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-[rgba(184,0,0,0.45)] focus:ring-1 focus:ring-[rgba(184,0,0,0.15)] transition-all duration-300"
+ className="absolute right-0 top-1/2 -translate-y-1/2 w-64 px-4 py-2 bg-[#020202] border border-[rgba(184,0,0,0.25)] rounded-xl text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-[rgba(184,0,0,0.45)] focus:ring-1 focus:ring-[rgba(184,0,0,0.15)] transition-all duration-300"
  autoFocus
  />
  )}
@@ -221,7 +223,7 @@ export default function Header() {
  onClick={() => setIsSearchOpen(!isSearchOpen)}
  aria-label={isSearchOpen ? "Close search" : "Open search"}
  aria-expanded={isSearchOpen}
- className="p-2 text-zinc-500 hover:text-red-400 hover:bg-[rgba(184,0,0,0.06)] rounded-none transition-colors"
+ className="p-2 text-zinc-500 hover:text-red-400 hover:bg-[rgba(184,0,0,0.06)] rounded-lg transition-colors"
  >
  <Search className="w-5 h-5"/>
  </button>
@@ -230,7 +232,7 @@ export default function Header() {
  {/* Submit Intel */}
  <Link
  href="/submit"
- className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#0a0000] to-[#050505] hover:from-[#120000] hover:to-[#080000] text-red-300 text-xs font-bold uppercase tracking-wider transition-all duration-300 rounded-none border border-[rgba(184,0,0,0.35)] hover:border-[rgba(184,0,0,0.55)] shadow-[0_0_15px_rgba(184,0,0,0.10)] hover:shadow-[0_0_25px_rgba(184,0,0,0.20)]"
+ className="hidden sm:flex items-center gap-2 px-4 py-2 bg-gradient-to-br from-[#0a0000] to-[#050505] hover:from-[#120000] hover:to-[#080000] text-red-300 text-xs font-bold uppercase tracking-wider transition-all duration-300 rounded-xl border border-[rgba(184,0,0,0.35)] hover:border-[rgba(184,0,0,0.55)] shadow-[0_0_15px_rgba(184,0,0,0.10)] hover:shadow-[0_0_25px_rgba(184,0,0,0.20)]"
  >
  <Zap className="w-3.5 h-3.5"/>
  <span>Submit Intel</span>
@@ -239,7 +241,7 @@ export default function Header() {
  {/* Contribute */}
  <Link
  href="/contributor"
- className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white rounded-none border border-[rgba(184,0,0,0.20)] hover:border-[rgba(184,0,0,0.40)] hover:bg-[rgba(184,0,0,0.06)] transition-all duration-200"
+ className="hidden sm:flex items-center gap-1.5 px-3 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400 hover:text-white rounded-xl border border-[rgba(184,0,0,0.20)] hover:border-[rgba(184,0,0,0.40)] hover:bg-[rgba(184,0,0,0.06)] transition-all duration-200"
  >
  <UserPlus className="w-3.5 h-3.5"/>
  <span>Contribute</span>
@@ -251,7 +253,7 @@ export default function Header() {
  aria-label={isMenuOpen ? "Close menu" : "Open menu"}
  aria-expanded={isMenuOpen}
  aria-controls="mobile-menu"
- className="xl:hidden p-2 text-zinc-500 hover:text-red-400 hover:bg-[rgba(184,0,0,0.06)] rounded-none transition-colors"
+ className="xl:hidden p-2 text-zinc-500 hover:text-red-400 hover:bg-[rgba(184,0,0,0.06)] rounded-lg transition-colors"
  >
  {isMenuOpen ? <X className="w-6 h-6"/> : <Menu className="w-6 h-6"/>}
  </button>
@@ -270,7 +272,7 @@ export default function Header() {
  key={link.href}
  href={link.href}
  onClick={() => setIsMenuOpen(false)}
- className={`block px-4 py-3 text-sm font-semibold uppercase tracking-wider transition-all duration-200 animate-slide-in rounded-none border-l-2 ${
+ className={`block px-4 py-3 text-sm font-semibold uppercase tracking-wider transition-all duration-200 animate-slide-in rounded-lg border-l-2 ${
  active
  ?"text-red-400 bg-[rgba(184,0,0,0.06)] border-[rgba(184,0,0,0.40)]"
  :"text-zinc-400 hover:text-white hover:bg-[rgba(184,0,0,0.04)] border-transparent hover:border-[rgba(184,0,0,0.25)]"
@@ -284,7 +286,7 @@ export default function Header() {
  <Link
  href="/submit"
  onClick={() => setIsMenuOpen(false)}
- className="flex items-center gap-2 px-4 py-3 mt-3 bg-[#0a0000] glass-text font-bold uppercase tracking-wider text-sm rounded-none border border-[rgba(184,0,0,0.30)]"
+ className="flex items-center gap-2 px-4 py-3 mt-3 bg-[#0a0000] glass-text font-bold uppercase tracking-wider text-sm rounded-xl border border-[rgba(184,0,0,0.30)]"
  >
  <Zap className="w-4 h-4"/>
  <span>Submit Intel</span>
@@ -292,7 +294,7 @@ export default function Header() {
  <Link
  href="/contributor"
  onClick={() => setIsMenuOpen(false)}
- className="flex items-center gap-2 px-4 py-3 mt-1 rounded-none border border-[rgba(184,0,0,0.20)] text-zinc-400 hover:text-white text-sm font-semibold uppercase tracking-wider transition-colors"
+ className="flex items-center gap-2 px-4 py-3 mt-1 rounded-xl border border-[rgba(184,0,0,0.20)] text-zinc-400 hover:text-white text-sm font-semibold uppercase tracking-wider transition-colors"
  >
  <UserPlus className="w-4 h-4"/>
  <span>Contribute</span>
