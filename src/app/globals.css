@@ -237,12 +237,24 @@ a:focus-visible {
     text-shadow: 0 0 20px rgba(184, 0, 0, 0.5), 0 0 60px rgba(184, 0, 0, 0.2);
   }
 
-  /* Force ReactFlow internal background to pure black */
+  /* Force ReactFlow internal background to pure black glass */
   .react-flow {
     background: #020202 !important;
+    background-color: #020202 !important;
   }
   .react-flow__background {
     background: transparent !important;
+    background-color: transparent !important;
+  }
+  .react-flow__pane {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+  .react-flow.dark {
+    --xy-background-color: #020202 !important;
+    --xy-background-pattern-color: rgba(184, 0, 0, 0.06) !important;
+    background: #020202 !important;
+    background-color: #020202 !important;
   }
 
   .glow-border {

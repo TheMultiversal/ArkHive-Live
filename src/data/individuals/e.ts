@@ -3376,43 +3376,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Ronald Reagan', relationship: 'President who relied on Teller\'s advice for the Strategic Defense Initiative program' },
     ],
   },
-  'andrew-wheeler': {
-    name: 'Andrew Wheeler',
-    bio: 'Andrew R. Wheeler served as the Administrator of the Environmental Protection Agency from 2019 to 2021, after serving as Acting Administrator from 2018. Before joining the EPA, Wheeler spent a decade as a coal industry lobbyist, representing Murray Energy — the largest private coal company in America — whose CEO Bob Murray had presented Trump with an "action plan" to dismantle Obama-era environmental regulations. As EPA head, Wheeler systematically implemented that plan: rolling back methane emission regulations, weakening fuel efficiency standards, relaxing coal plant pollution rules, narrowing the scope of the Waters of the United States rule, and weakening the scientific basis of EPA rulemaking by restricting which studies could be used. He is the textbook case of regulatory capture — a lobbyist appointed to dismantle the agency he once lobbied against.',
-    riskLevel: 'high' as const,
-    status: 'active',
-    lastKnownLocation: 'Washington, D.C.',
-    birthDate: 'January 12, 1964',
-    education: [
-      'B.A., English, Case Western Reserve University (1987)',
-      'M.B.A., George Mason University (1998)',
-      'J.D., Washington University School of Law (1990)',
-    ],
-    affiliations: [
-      { name: 'EPA', role: 'Administrator (2019-2021)', type: 'agency' as const },
-      { name: 'Murray Energy', role: 'Lobbyist (2009-2017)', type: 'corporation' as const },
-    ],
-    relatedInvestigations: [
-      { title: 'Environmental Racism', slug: 'environmental-racism-toxic-exposure', severity: 'critical' },
-      { title: 'Fossil Fuel Subsidies', slug: 'fossil-fuel-subsidies-climate-deception', severity: 'critical' },
-      { title: 'PFAS Contamination', slug: 'pfas-forever-chemicals-contamination', severity: 'critical' },
-    ],
-    charges: [
-      { statute: 'N/A - Regulatory Capture', description: 'Implemented coal industry deregulation agenda drafted by former client Murray Energy', category: 'Conflict of interest' },
-      { statute: 'N/A - Policy', description: 'Weakened methane regulations, fuel efficiency standards, and water protections; restricted use of scientific studies in EPA rulemaking', category: 'Environmental deregulation' },
-    ],
-    criminalHistory: 'No criminal charges. GAO found several EPA rollbacks under Wheeler violated procedural requirements. Courts struck down multiple Wheeler-era deregulation actions for being "arbitrary and capricious." Virginia rejected his appointment as state Natural Resources Secretary in 2022 after bipartisan opposition.',
-    financialInfo: 'Earned estimated $800,000+ annually as a coal industry lobbyist. Financial disclosures showed continued investment holdings in energy companies while leading the EPA.',
-    sources: [
-      { title: 'NYT: Murray Energy "Action Plan" for Trump Administration', url: 'https://www.nytimes.com/', date: '2018' },
-      { title: 'EPA: Regulatory Rollback Tracker', url: 'https://www.epa.gov/', date: '2021' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Bob Murray', relationship: 'Murray Energy CEO; Wheeler\'s former client who presented Trump with deregulation wishlist that Wheeler implemented' },
-      { name: 'Scott Pruitt', relationship: 'Predecessor as EPA head who resigned amid ethics scandals; Wheeler continued Pruitt\'s deregulation agenda' },
-    ],
-  },
+
   'elaine-chao': {
     name: 'Elaine Chao',
     title: 'Former Secretary of Transportation',

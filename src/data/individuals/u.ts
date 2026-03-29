@@ -117,52 +117,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Albert Bourla', relationship: 'Pfizer CEO; exchanged undisclosed text messages during vaccine contract negotiations', href: '/entities/individuals/albert-bourla' },
  ],
  },
- 'john-stumpf': {
-  name: 'John Stumpf',
-  title: 'Former CEO of Wells Fargo',
-  role: 'Bank CEO Who Oversaw Millions of Fake Accounts',
-  riskLevel: 'critical' as const,
-  description: 'John Stumpf led Wells Fargo during a massive scandal in which bank employees created over 3.5 million fake accounts and credit cards in customers names without their consent, driven by unrealistic sales quotas and a toxic corporate culture. He initially blamed low-level employees before being forced to resign and paying $17.5 million in fines.',
-  birthDate: '1953-09-15',
-  birthPlace: 'Pierz, Minnesota',
-  education: [
-   'B.S. in Finance, St. Cloud State University (1976)',
-   'M.B.A., University of Minnesota (1982)',
-  ],
-  affiliations: [
-   { name: 'Wells Fargo', role: 'Chairman and CEO (2007-2016)', type: 'corporation' as const },
-  ],
-  controversies: [
-   'Wells Fargo employees created over 3.5 million fake bank accounts and credit cards in customers names without their knowledge or consent',
-   'Bank imposed aggressive cross-selling quotas that pressured employees to commit fraud; internal motto was "Eight is Great" (accounts per customer)',
-   'Initially blamed low-level employees for the fraud and fired over 5,300 workers while executives retained bonuses',
-   'Told Senate Banking Committee the fake accounts were the result of individual employee misconduct rather than systemic corporate culture',
-   'OCC banned Stumpf from the banking industry for life and fined him $17.5 million',
-   'Wells Fargo ultimately paid over $3 billion in fines across multiple regulatory actions for the fake accounts scandal',
-   'Clawed back $69 million in stock awards from Stumpf, the largest executive clawback in banking history at that time',
-  ],
-  relatedInvestigations: [
-   { title: 'Predatory Lending Post-Crisis', slug: 'predatory-lending-post-crisis', severity: 'critical' },
-  ],
-  timeline: [
-   { date: '2007', event: 'Became CEO of Wells Fargo' },
-   { date: '2013-2016', event: 'Internal reports flagged fake account creation; management took limited action' },
-   { date: '2016-09', event: 'CFPB fined Wells Fargo $185 million; 5,300 employees fired for fake accounts' },
-   { date: '2016-09-20', event: 'Testified before Senate Banking Committee; blamed individual employees' },
-   { date: '2016-10-12', event: 'Resigned as CEO under pressure; forfeited $41 million in stock awards' },
-   { date: '2020-01', event: 'OCC banned Stumpf from banking for life and fined him $17.5 million' },
-   { date: '2020-02', event: 'Wells Fargo paid $3 billion to settle DOJ and SEC charges related to fake accounts' },
-  ],
-  sources: [
-   { title: 'CFPB: Wells Fargo Fake Accounts Enforcement Action', date: '2016' },
-   { title: 'OCC: Stumpf Lifetime Ban and Fine', date: '2020' },
-   { title: 'Senate Banking Committee: Stumpf Fake Accounts Hearing', date: '2016' },
-  ],
-  aliases: [],
-  knownAssociates: [
-   { name: 'Carrie Tolstedt', relationship: 'Head of community banking division where fake accounts originated; also banned from banking and fined' },
-  ],
- },
 };
 
 export default profiles;

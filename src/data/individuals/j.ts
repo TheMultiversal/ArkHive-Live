@@ -2619,29 +2619,6 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
- 'jamie-dimon': {
- name: 'Jamie Dimon',
- title: 'Profile Under Review',
- role: '',
- riskLevel: 'low',
- description: 'Jamie Dimon. Profile pending review.',
- education: [],
- affiliations: [
- ],
- controversies: [
- ],
- charges: [],
- relatedInvestigations: [
- ],
- timeline: [
- ],
- socialMedia: [],
- sources: [
- ],
- aliases: [],
- knownAssociates: [
- ],
- },
 
  'javier-de-luis': {
  name: 'Javier de Luis',

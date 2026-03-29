@@ -269,66 +269,6 @@ const profiles: Record<string, IndividualProfile> = {
 
 
 
- 'omar-al-bashir': {
- name: 'Omar al-Bashir',
- title: 'Former President of Sudan',
- role: 'Dictator; ICC-Indicted War Criminal; Darfur Genocide',
- riskLevel: 'critical',
- description: 'Omar Hassan Ahmad al-Bashir was the President of Sudan from 1989 to 2019; seizing power in a military coup and ruling for 30 years. He is the first sitting head of state to be indicted by the International Criminal Court (ICC); charged with genocide; war crimes; and crimes against humanity for his role in the Darfur conflict. Beginning in 2003; Bashir\'s government armed and supported the Janjaweed militia (later formalized as the Rapid Support Forces under Mohamed Hamdan "Hemedti" Dagalo) to carry out a campaign of ethnic cleansing against the Fur; Masalit; and Zaghawa peoples of Darfur. The conflict killed an estimated 300;000 to 400;000 people and displaced over 2.5 million. Atrocities included systematic mass murder; rape as a weapon of war; destruction of villages; and poisoning of water sources. Despite the ICC arrest warrants; Bashir traveled freely to numerous countries; many of which were ICC signatories legally obligated to arrest him; exposing the impotence of international justice when applied to powerful leaders. He was overthrown in April 2019 by a military coup following months of popular protests. Bashir has been in military custody since; convicted of corruption by a Sudanese court; but has never been transferred to the ICC. The legacy of his Janjaweed/RSF forces continues to devastate Sudan in the civil war that erupted in April 2023 between the Sudanese Armed Forces and the RSF; with the RSF accused of ethnic cleansing in West Darfur that echoes the original genocide.',
- birthDate: 'January 1, 1944',
- birthPlace: 'Hosh Bannaga, Sudan',
- education: ['Egyptian Military Academy', 'Malaysian Armed Forces Staff College'],
- affiliations: [
- { name: 'Government of Sudan', role: 'President (1989-2019)', type: 'agency' },
- { name: 'National Congress Party', role: 'Chairman', type: 'organization' },
- { name: 'Sudanese Armed Forces', role: 'Brigadier General; coup leader', type: 'agency' },
- ],
- controversies: [
- 'Darfur genocide: armed and directed Janjaweed militia in ethnic cleansing campaign; 300;000-400;000 killed; 2.5+ million displaced; systematic mass murder; rape; village destruction',
- 'First sitting head of state indicted by the International Criminal Court; charged with genocide; war crimes; and crimes against humanity (warrants issued 2009 and 2010)',
- 'Traveled freely to ICC member states (South Africa; Chad; Kenya; Jordan) despite legal obligation to arrest him; exposing the weakness of international justice mechanisms',
- 'Overthrown in April 2019 military coup after months of popular protests; found with suitcases containing $130 million in cash',
- 'His Janjaweed forces evolved into the Rapid Support Forces (RSF) under Hemedti; which launched the 2023 civil war and committed new ethnic cleansing in Darfur',
- 'Harbored Osama bin Laden in Sudan from 1991-1996; provided safe haven for international terrorist operations',
- 'Imposed sharia law; arrested and tortured political opponents; suppressed press freedom throughout 30-year rule',
- 'U.S. classified Sudan as a state sponsor of terrorism (1993-2020); Bashir\'s regime facilitated weapons flows to Hamas and other militant groups',
- ],
- charges: [
- { statute: 'Rome Statute Article 6', description: 'Genocide against the Fur; Masalit; and Zaghawa peoples (ICC warrant 2010)', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 7', description: 'Crimes against humanity: murder; extermination; forcible transfer; torture; rape (ICC warrant 2009)', category: 'International Criminal Court' },
- { statute: 'Rome Statute Article 8', description: 'War crimes: directing attacks against civilians; pillaging (ICC warrant 2009)', category: 'International Criminal Court' },
- ],
- relatedInvestigations: [
- { title: 'Darfur Genocide', slug: 'darfur-genocide', severity: 'critical' },
- ],
- timeline: [
- { date: 'January 1, 1944', event: 'Born in Hosh Bannaga; Sudan' },
- { date: 'June 30, 1989', event: 'Seized power in military coup against democratically elected PM Sadiq al-Mahdi' },
- { date: '1991-1996', event: 'Harbored Osama bin Laden in Sudan' },
- { date: '2003', event: 'Darfur conflict begins; Bashir arms and directs Janjaweed militia' },
- { date: '2004', event: 'U.S. Secretary of State Colin Powell declares Darfur situation a genocide' },
- { date: 'March 2009', event: 'ICC issues first arrest warrant for war crimes and crimes against humanity' },
- { date: 'July 2010', event: 'ICC issues second warrant adding genocide charges' },
- { date: 'April 11, 2019', event: 'Overthrown by military after months of popular protests' },
- { date: 'December 2019', event: 'Convicted of corruption by Sudanese court; $130 million in cash found' },
- { date: 'April 2023', event: 'Sudan civil war erupts; RSF (successors to his Janjaweed) commit atrocities in Darfur' },
- ],
- socialMedia: [],
- sources: [
- { title: 'ICC: Al Bashir Case', url: 'https://www.icc-cpi.int/darfur/albashir', date: '2010' },
- { title: 'UN Commission of Inquiry on Darfur', url: 'https://www.un.org/', date: '2005' },
- { title: 'Human Rights Watch: Darfur', url: 'https://www.hrw.org/africa/sudan', date: '2023' },
- ],
- aliases: ['al-Bashir'],
- knownAssociates: [
- { name: 'Mohamed Hamdan Dagalo (Hemedti)', relationship: 'Janjaweed/RSF leader Bashir empowered; later launched 2023 civil war' },
- ],
- },
-
-
-
-
-
  'omar-mateen': {
  name: 'Omar Mateen',
  title: 'Mass Murderer (Deceased)',
@@ -901,54 +841,6 @@ const profiles: Record<string, IndividualProfile> = {
  knownAssociates: [
  { name: 'Harvey Weinstein', relationship: 'Appeared together at industry events before his conviction', href: '/entities/individuals/harvey-weinstein' },
  ],
- },
- 'mitch-mcconnell': {
-  name: 'Mitch McConnell',
-  title: 'Former Senate Majority Leader',
-  role: 'Master of Obstruction Who Reshaped the Federal Judiciary',
-  riskLevel: 'high' as const,
-  description: 'Mitch McConnell served as the longest-serving Senate party leader in American history, wielding procedural power to reshape the federal judiciary, block legislation, and protect corporate political spending. His decision to block Merrick Garlands Supreme Court nomination for nearly a year, then rush Amy Coney Barretts confirmation in weeks, fundamentally altered the courts ideological balance.',
-  birthDate: '1942-02-20',
-  birthPlace: 'Sheffield, Alabama',
-  education: [
-   'B.A. in Political Science, University of Louisville (1964)',
-   'J.D., University of Kentucky College of Law (1967)',
-  ],
-  affiliations: [
-   { name: 'United States Senate', role: 'Senator from Kentucky, Majority Leader (1985-present)', type: 'agency' as const },
-  ],
-  controversies: [
-   'Blocked Supreme Court nominee Merrick Garland for 293 days in 2016, claiming election year precedent; then reversed that position to confirm Amy Coney Barrett eight days before the 2020 election',
-   'Led opposition to campaign finance reform; celebrated Citizens United decision that opened unlimited corporate spending in elections',
-   'Wife Elaine Chao served as Trumps Transportation Secretary while DOT IG found she used the office to benefit family shipping business',
-   'Received over $3.5 million from drug companies while blocking legislation to lower prescription drug prices',
-   'Blocked election security bills after intelligence agencies warned of Russian interference in 2016 and 2020 elections',
-   'Used the filibuster to block voting rights legislation, gun safety measures, and minimum wage increases supported by majority of Americans',
-   'Acknowledged Trump bore responsibility for January 6 but voted to acquit him in the impeachment trial, stating a president could not be convicted after leaving office',
-  ],
-  relatedInvestigations: [
-   { title: 'Judicial Election Dark Money', slug: 'judicial-election-dark-money', severity: 'critical' },
-  ],
-  timeline: [
-   { date: '1985', event: 'Elected to the U.S. Senate from Kentucky' },
-   { date: '2007', event: 'Became Senate Republican Leader' },
-   { date: '2010-01', event: 'Citizens United decided; McConnell celebrated the ruling he had long championed' },
-   { date: '2016-02', event: 'Blocked Merrick Garland nomination for nearly a year' },
-   { date: '2017-04', event: 'Eliminated filibuster for Supreme Court nominees to confirm Neil Gorsuch' },
-   { date: '2020-10', event: 'Rushed Amy Coney Barrett confirmation eight days before election' },
-   { date: '2021-02', event: 'Voted to acquit Trump after January 6 despite saying Trump was "practically and morally responsible"' },
-   { date: '2024-02', event: 'Announced he would step down as Republican leader after the 2024 election cycle' },
-  ],
-  sources: [
-   { title: 'Senate Records: McConnell Leadership Timeline', date: '2024' },
-   { title: 'OpenSecrets: McConnell Donor Profile and Pharmaceutical Industry Contributions', url: 'https://www.opensecrets.org/', date: '2024' },
-   { title: 'DOT OIG: Investigation of Secretary Chaos Use of Office', date: '2021' },
-  ],
-  aliases: ['Moscow Mitch', 'The Grim Reaper (self-applied, referring to killing legislation)'],
-  knownAssociates: [
-   { name: 'Donald Trump', relationship: 'Uneasy alliance; McConnell enabled Trump judicial appointments while privately criticizing him', href: '/entities/individuals/donald-trump' },
-   { name: 'Elaine Chao', relationship: 'Wife who served as Trumps Transportation Secretary; DOT OIG found misuse of office for family benefit', href: '/entities/individuals/elaine-chao' },
-  ],
  },
  'oliver-wendell-holmes-jr': {
   name: 'Oliver Wendell Holmes Jr.',

@@ -883,45 +883,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
  ],
 
  },
- 'travis-kalanick': {
- name: 'Travis Kalanick',
- title: 'Former Uber CEO',
- role: 'Uber Founder, Toxic Culture, Worker Exploitation',
- riskLevel: 'high',
- description: 'Travis Kalanick co-founded Uber and built a company notorious for toxic workplace culture, sexual harassment, worker exploitation, and illegal tactics. He was forced out after a series of scandals including widespread sexual harassment, stolen technology, and operating illegally in cities worldwide.',
- birthDate: 'August 6, 1976',
- birthPlace: 'Los Angeles, California',
- education: ['UCLA (incomplete)'],
- netWorth: '$3 billion',
- affiliations: [
- { name: 'Uber', role: 'Former CEO, Co-founder', type: 'corporation' as const },
- ],
- knownAssociates: [
- { name: 'Dara Khosrowshahi', relationship: 'Successor as CEO', href: '/entities/individuals/dara-khosrowshahi' },
- ],
- controversies: [
- 'TOXIC CULTURE: Rampant sexual harassment," bro culture"',
- 'GREYBALL: Software to evade regulators',
- 'WAYMO THEFT: Accused of stealing self-driving tech',
- 'GIG EXPLOITATION: Built worker misclassification model',
- 'GOD VIEW: Tool to spy on users\' locations',
- 'ILLEGAL OPERATIONS: Operated in violation of local laws',
- ],
- charges: [
- { statute: 'Trade Secret Theft', description: 'Waymo autonomous technology', category: 'SETTLED $245M' },
- { statute: 'State Labor Laws', description: 'Worker misclassification', category: 'ONGOING' },
- ],
- relatedInvestigations: [
- { title: 'Uber Scandals', slug: 'uber-scandals', severity: 'high' },
- { title: 'Gig Economy Exploitation', slug: 'gig-economy-exploitation', severity: 'critical' },
- ],
- timeline: [
- { date: 'August 6, 1976', event: 'Born in Los Angeles' },
- { date: '2009', event: 'Co-founds Uber' },
- { date: '2017', event: 'Forced to resign as CEO' },
- ],
- sources: [{ title: 'Wikipedia: Travis Kalanick', url: 'https://en.wikipedia.org/wiki/Travis_Kalanick' }, { title: 'Bloomberg: Travis Kalanick', url: 'https://www.bloomberg.com/' }, { title: 'Miami Herald: Epstein Investigation', url: 'https://www.miamiherald.com/topics/jeffrey-epstein' }, { title: 'Wired: Travis Kalanick', url: 'https://www.wired.com/' }, { title: 'Law.com Profile', url: 'https://www.law.com/' }],
- },
+
  'timothy-loehmann': {
  name: 'Timothy Loehmann',
  title: 'Former Cleveland Police Officer',
@@ -3983,56 +3945,7 @@ const profiles: Record<string, IndividualProfile> = { 'tom-barrack': {
       { name: 'Donald Trump', relationship: 'President who appointed Price and called his travel costs "disappointing" before accepting resignation', href: '/entities/individuals/donald-trump' },
     ],
   },
-  'samuel-alito': {
-    name: 'Samuel Alito',
-    title: 'Associate Justice of the Supreme Court',
-    role: 'Architect of Roe Reversal with Undisclosed Luxury Travel',
-    riskLevel: 'critical' as const,
-    description: 'Samuel Alito has served on the Supreme Court since 2006 and authored the Dobbs decision overturning Roe v. Wade after nearly 50 years of precedent. ProPublica investigations revealed he accepted undisclosed luxury travel from billionaire Paul Singer, a hedge fund manager who had business before the Court, and failed to recuse himself from cases involving Singer.',
-    birthDate: '1950-04-01',
-    birthPlace: 'Trenton, New Jersey',
-    education: [
-      'A.B., Princeton University (1972)',
-      'J.D., Yale Law School (1975)',
-    ],
-    affiliations: [
-      { name: 'Supreme Court of the United States', role: 'Associate Justice (2006-present)', type: 'agency' as const },
-      { name: 'U.S. Court of Appeals for the Third Circuit', role: 'Judge (1990-2006)', type: 'agency' as const },
-      { name: 'Department of Justice', role: 'Assistant to the Solicitor General; U.S. Attorney (1977-1990)', type: 'agency' as const },
-    ],
-    controversies: [
-      'Authored the Dobbs v. Jackson opinion that overturned Roe v. Wade and Planned Parenthood v. Casey, eliminating federal abortion rights after 49 years',
-      'Accepted luxury fishing trip to Alaska on private jet from billionaire Paul Singer, who had cases before the Court; did not recuse from cases involving Singers hedge fund',
-      'Draft Dobbs opinion was leaked months before official release, an unprecedented breach; Alito has denied involvement but investigation was inconclusive',
-      'Flew upside-down American flag at his Virginia home days after January 6, a symbol adopted by "Stop the Steal" movement; blamed his wife',
-      'Flew "Appeal to Heaven" flag at his vacation home, another symbol associated with January 6 movement and Christian nationalism',
-      'Gave interview to Wall Street Journal editorial board criticizing Congress for attempting to impose ethics rules on the Court',
-      'Refused to recuse from January 6-related cases despite the flag controversies; said his wife, not he, was responsible for flag displays',
-    ],
-    relatedInvestigations: [
-      { title: 'Judicial Election Dark Money', slug: 'judicial-election-dark-money', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '2006-01', event: 'Confirmed to Supreme Court in 58-42 vote' },
-      { date: '2008', event: 'Accepted luxury Alaska fishing trip from Paul Singer; did not disclose or recuse' },
-      { date: '2021-01', event: 'Upside-down American flag flown at Alito residence after January 6' },
-      { date: '2022-05', event: 'Draft Dobbs opinion leaked by Politico, unprecedented in Supreme Court history' },
-      { date: '2022-06', event: 'Dobbs v. Jackson decision officially released, overturning Roe v. Wade' },
-      { date: '2023-06', event: 'ProPublica revealed undisclosed Singer fishing trip and other luxury travel' },
-      { date: '2023-07', event: 'Senate Judiciary Committee sought testimony; Alito declined and criticized ethics proposals' },
-      { date: '2024-05', event: 'New York Times revealed "Appeal to Heaven" flag at vacation home' },
-    ],
-    sources: [
-      { title: 'ProPublica: Samuel Alito Luxury Travel Investigation', url: 'https://www.propublica.org/', date: '2023' },
-      { title: 'New York Times: Alito Flag Controversies', url: 'https://www.nytimes.com/', date: '2024' },
-      { title: 'Supreme Court of the United States: Dobbs v. Jackson Womens Health Organization', date: '2022' },
-    ],
-    aliases: ['Scalito'],
-    knownAssociates: [
-      { name: 'Clarence Thomas', relationship: 'Fellow conservative justice with similar undisclosed luxury travel from wealthy benefactors' },
-      { name: 'Paul Singer', relationship: 'Billionaire hedge fund manager who provided luxury travel while his fund had cases before the Court' },
-    ],
-  },
+
 };
 
 export default profiles;

@@ -78,7 +78,6 @@ export default function Header() {
  { href:"/evidence", label:"Evidence"},
  { href:"/network", label:"Network"},
  { href:"/themes", label:"Themes"},
- { href:"/figures", label:"Figures"},
  { href:"/geography", label:"Geography"},
  { href:"/workspaces", label:"Workspaces"},
  { href:"/entities/agencies", label:"Agencies"},
@@ -104,7 +103,6 @@ export default function Header() {
  { href:"/entities/corporations", label:"Corporations"},
  { href:"/entities/individuals", label:"Individuals"},
  { href:"/entities/organizations", label:"Organizations"},
- { href:"/figures", label:"Figures"},
  ];
 
  const moreLinks = [

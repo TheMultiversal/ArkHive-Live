@@ -170,54 +170,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'George W. Bush', relationship: 'Served as legislative affairs deputy in his White House', href: '/entities/individuals/george-w-bush' },
     ],
   },
-  'larry-kudlow': {
-    name: 'Larry Kudlow',
-    title: 'Former Director of the National Economic Council',
-    role: 'TV Economist Who Denied Crises Before and During Them',
-    riskLevel: 'medium' as const,
-    description: 'Larry Kudlow served as Trumps chief economic advisor despite a record of spectacularly wrong economic predictions, including insisting the economy was fine months before the 2008 financial crash. He repeatedly downplayed the severity of COVID while promoting tax cuts that ballooned the deficit.',
-    birthDate: '1947-08-20',
-    birthPlace: 'Englewood, New Jersey',
-    education: [
-      'B.A. in History, University of Rochester (1969)',
-      'Attended Princeton University Woodrow Wilson School (did not complete master\'s degree)',
-    ],
-    affiliations: [
-      { name: 'National Economic Council', role: 'Director (2018-2021)', type: 'agency' as const },
-      { name: 'CNBC', role: 'Host, The Kudlow Report (2001-2014)', type: 'corporation' as const },
-    ],
-    controversies: [
-      'Wrote a column in December 2007 titled "The Bush Boom Continues" months before the economy collapsed in the worst financial crisis since the Great Depression',
-      'Stated in February 2020 that COVID was "contained" and "pretty close to airtight" when community spread was already occurring',
-      'Promoted the 2017 tax cuts as paying for themselves through economic growth; the cuts added $1.9 trillion to the national debt',
-      'Claimed in 2018 that the federal deficit was "coming down rapidly" when it was actually rising significantly',
-      'Repeatedly appeared on television making economic claims that contradicted data from the governments own statistical agencies',
-      'Oversaw economic messaging that consistently prioritized stock market performance over working-class economic conditions',
-      'Past struggles with cocaine addiction led to his departure from Bear Stearns in the 1990s; later became a public recovery advocate',
-    ],
-    relatedInvestigations: [
-      { title: 'Corporate Tax Avoidance Offshore', slug: 'corporate-tax-avoidance-offshore', severity: 'high' },
-    ],
-    timeline: [
-      { date: '2007-12', event: 'Published "The Bush Boom Continues" column months before the financial crash' },
-      { date: '2018-04', event: 'Named Director of the National Economic Council' },
-      { date: '2018-2019', event: 'Promoted tax cuts while deficit rose from $666 billion to $984 billion' },
-      { date: '2020-02-25', event: 'Told CNBC the U.S. had "contained" COVID; the virus was already spreading domestically' },
-      { date: '2020-03', event: 'Continued downplaying economic impact as markets lost 30% of value in weeks' },
-      { date: '2021-01', event: 'Left the White House; national debt increased by $7.8 trillion during Trumps term' },
-      { date: '2021', event: 'Returned to Fox Business as a host and commentator' },
-    ],
-    sources: [
-      { title: 'National Review: "The Bush Boom Continues" (Kudlow Column)', date: '2007' },
-      { title: 'CBO: Analysis of 2017 Tax Cuts Effect on Federal Deficit', date: '2020' },
-      { title: 'CNBC: Kudlow COVID Containment Claims', date: '2020' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'President who hired Kudlow as chief economic advisor based on his television appearances', href: '/entities/individuals/donald-trump' },
-      { name: 'Steve Mnuchin', relationship: 'Treasury Secretary who worked alongside Kudlow promoting tax cuts and downplaying deficit concerns', href: '/entities/individuals/steve-mnuchin' },
-    ],
-  },
+
 
 
 

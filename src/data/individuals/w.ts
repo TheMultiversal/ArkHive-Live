@@ -2042,53 +2042,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Angus McQueen', relationship: 'Head of Ackerman McQueen; NRA\'s long-time ad agency that facilitated personal spending' },
     ],
   },
- 'sidney-powell': {
-    name: 'Sidney Powell',
-    title: 'Former Federal Prosecutor and Trump Campaign Attorney',
-    role: 'Election Conspiracy Attorney Who Pled Guilty in Georgia',
-    riskLevel: 'high' as const,
-    description: 'Sidney Powell was a former federal prosecutor who became one of the most prominent promoters of conspiracy theories about the 2020 election, claiming that voting machines were hacked in a massive international conspiracy involving Venezuela, China, and Dominion Voting Systems. She was sued by Dominion for $1.3 billion and indicted in Georgia where she pled guilty to reduced charges.',
-    birthDate: '1955-05-01',
-    birthPlace: 'Durham, North Carolina',
-    education: [
-      'B.A., University of North Carolina at Chapel Hill (1976)',
-      'J.D., University of North Carolina School of Law (1978)',
-    ],
-    affiliations: [
-      { name: 'U.S. Attorneys Office, Western District of Texas', role: 'Assistant U.S. Attorney (1978-1988)', type: 'agency' as const },
-    ],
-    controversies: [
-      'Claimed Dominion Voting Systems machines were programmed to flip votes using algorithms created in Venezuela under Hugo Chavez with no credible evidence',
-      'Filed "Kraken" lawsuits in Michigan, Georgia, Arizona, and Wisconsin making sweeping fraud claims; all were dismissed and some resulted in sanctions',
-      'Sanctioned by the court in Michigan along with other attorneys for filing frivolous election fraud claims',
-      'Sued by Dominion Voting Systems for $1.3 billion in defamation over false claims about their technology',
-      'Indicted in Georgia RICO case for election interference; pled guilty to six misdemeanor counts of conspiracy to commit intentional interference with performance of election duties',
-      'Raised over $14 million through "Defending the Republic" nonprofit ostensibly for election legal challenges; spending scrutinized by investigators',
-      'Briefly appointed as special counsel to investigate election fraud by Trump before being removed after reportedly suggesting seizing voting machines',
-    ],
-    relatedInvestigations: [
-      { title: 'Voter Purge Disenfranchisement', slug: 'voter-purge-disenfranchisement', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '2020-11', event: 'Appeared at Trump legal team press conferences making "Kraken" election fraud claims' },
-      { date: '2020-11-22', event: 'Trump campaign distanced itself from Powell; said she was practicing on her own' },
-      { date: '2020-12', event: 'Filed Kraken lawsuits in four states; all dismissed for lack of evidence' },
-      { date: '2021-01', event: 'Dominion Voting Systems sued Powell for $1.3 billion in defamation' },
-      { date: '2021-08', event: 'Sanctioned by federal judge in Michigan for frivolous election fraud filings' },
-      { date: '2023-08', event: 'Indicted in Georgia RICO case alongside Trump and 17 others' },
-      { date: '2023-10', event: 'Pled guilty in Georgia to six misdemeanor counts; agreed to cooperate as witness' },
-    ],
-    sources: [
-      { title: 'Fulton County DA: Georgia RICO Indictment', date: '2023' },
-      { title: 'King v. Whitmer: Michigan Court Sanctions Order', date: '2021' },
-      { title: 'Dominion Voting Systems v. Powell: Defamation Complaint', date: '2021' },
-    ],
-    aliases: ['The Kraken'],
-    knownAssociates: [
-      { name: 'Rudy Giuliani', relationship: 'Co-counsel in post-election legal campaign before Trump campaign separated from Powell', href: '/entities/individuals/rudy-giuliani' },
-      { name: 'Michael Flynn', relationship: 'Client whose criminal case Powell handled; later ally in election conspiracy promotion', href: '/entities/individuals/michael-flynn' },
-    ],
-  },
+
   'walter-freeman': {
     name: 'Walter Freeman',
     title: 'Neurologist and Lobotomist',

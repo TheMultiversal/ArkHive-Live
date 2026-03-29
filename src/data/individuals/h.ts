@@ -2058,41 +2058,6 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Manuel Contreras', relationship: 'Chilean DINA chief; CIA asset who ran Operation Condor operations' },
     ],
   },
-  'eric-holder': {
-    name: 'Eric Holder',
-    bio: 'Eric Himpton Holder Jr. served as the 82nd Attorney General of the United States from 2009 to 2015 under President Obama. As the nation\'s chief law enforcement officer during the aftermath of the 2008 financial crisis, Holder made the consequential decision not to criminally prosecute any senior Wall Street executive, articulating the doctrine that some banks were "too big to jail." His DOJ settled with banks for $150+ billion in fines while securing zero criminal convictions of CEOs or senior management. Before and after his tenure as AG, Holder was a partner at Covington & Burling, a corporate law firm whose clients include many of the same banks his DOJ declined to prosecute. His tenure is widely cited as the definitive case study in the failure of accountability for institutional financial crime.',
-    riskLevel: 'high' as const,
-    status: 'active',
-    lastKnownLocation: 'Washington, D.C.',
-    birthDate: 'January 21, 1951',
-    education: [
-      'B.A., American History, Columbia University (1973)',
-      'J.D., Columbia Law School (1976)',
-    ],
-    affiliations: [
-      { name: 'DOJ', role: 'Attorney General (2009-2015)', type: 'agency' as const },
-      { name: 'Covington & Burling', role: 'Partner (pre and post-AG tenure)', type: 'corporation' as const },
-    ],
-    relatedInvestigations: [
-      { title: '2008 Financial Crisis Accountability', slug: 'financial-crisis-accountability-failure', severity: 'critical' },
-      { title: 'Civil Asset Forfeiture Abuse', slug: 'civil-asset-forfeiture-legalized-theft', severity: 'high' },
-    ],
-    charges: [
-      { statute: 'N/A - Policy Decision', description: 'Articulated "too big to jail" doctrine preventing criminal prosecution of Wall Street executives', category: 'Dereliction of duty' },
-      { statute: 'N/A - Revolving Door', description: 'Returned to bank defense firm Covington & Burling after declining to prosecute its clients', category: 'Conflict of interest' },
-    ],
-    criminalHistory: 'Holder was held in contempt of Congress (civil and criminal) in June 2012 over the Fast and Furious gun-walking operation in which the ATF allowed firearms to flow to Mexican cartels. He is the first sitting AG held in contempt by Congress. No criminal charges were pursued.',
-    financialInfo: 'As partner at Covington & Burling, Holder earned an estimated $2.5 million+ annually. The firm represents JPMorgan Chase, Wells Fargo, Citigroup, and other major banks. His net worth is estimated at $11.5 million.',
-    sources: [
-      { title: 'Frontline: The Untouchables (PBS Investigation)', url: 'https://www.pbs.org/wgbh/frontline/documentary/untouchables/', date: '2013' },
-      { title: 'DOJ: Too Big to Jail - AG Testimony', url: 'https://www.justice.gov/', date: '2013' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Barack Obama', relationship: 'President who appointed him; longest-serving AG under Obama' },
-      { name: 'Lanny Breuer', relationship: 'DOJ Criminal Division chief; publicly stated fear of prosecuting banks due to economic consequences' },
-    ],
-  },
   'rick-perry': {
     name: 'Rick Perry',
     title: 'Former Secretary of Energy and Governor of Texas',

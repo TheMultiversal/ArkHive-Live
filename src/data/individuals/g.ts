@@ -2978,57 +2978,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Ken Paxton', relationship: 'Texas AG who serves as Abbotts legal enforcer on immigration and culture war litigation', href: '/entities/individuals/ken-paxton' },
     ],
   },
-  'clarence-thomas': {
-    name: 'Clarence Thomas',
-    title: 'Associate Justice of the Supreme Court',
-    role: 'Longest-Serving Justice with Decades of Undisclosed Gifts',
-    riskLevel: 'critical' as const,
-    description: 'Clarence Thomas has served on the Supreme Court since 1991 and is the longest-serving current justice. ProPublica investigations revealed he accepted decades of undisclosed luxury travel, real estate transactions, and private school tuition payments from billionaire Harlan Crow and other wealthy benefactors without disclosing them as required by law.',
-    birthDate: '1948-06-23',
-    birthPlace: 'Pin Point, Georgia',
-    education: [
-      'A.B., College of the Holy Cross (1971)',
-      'J.D., Yale Law School (1974)',
-    ],
-    affiliations: [
-      { name: 'Supreme Court of the United States', role: 'Associate Justice (1991-present)', type: 'agency' as const },
-      { name: 'U.S. Court of Appeals for the D.C. Circuit', role: 'Judge (1990-1991)', type: 'agency' as const },
-      { name: 'Equal Employment Opportunity Commission', role: 'Chairman (1982-1990)', type: 'agency' as const },
-    ],
-    controversies: [
-      'Accepted luxury travel from billionaire Harlan Crow for over 20 years including private jet flights, yacht cruises, and stays at exclusive properties, none of which was disclosed',
-      'Crow purchased the house where Thomas mother lived and paid for extensive renovations; Thomas did not disclose the transaction',
-      'Crow paid private school tuition for Thomas grandnephew, whom Thomas was raising; undisclosed',
-      'Wife Ginni Thomas actively participated in efforts to overturn the 2020 election, texting White House Chief of Staff Mark Meadows and attending the January 6 rally',
-      'Refused to recuse from January 6-related cases despite his wifes direct involvement in efforts to overturn the election',
-      'Was the sole dissenter in a ruling requiring Trump to release White House records to the January 6 Committee, which would have included his wifes communications',
-      'Failed to report over $4 million in real estate transactions with Crow on required financial disclosure forms',
-      'Only justice to vote against releasing Nixon tapes precedent in Trump executive privilege case',
-    ],
-    relatedInvestigations: [
-      { title: 'Judicial Election Dark Money', slug: 'judicial-election-dark-money', severity: 'critical' },
-    ],
-    timeline: [
-      { date: '1991-10', event: 'Confirmed to Supreme Court 52-48 after contentious hearing involving Anita Hill testimony' },
-      { date: '2004-present', event: 'Accepted annual luxury travel from Harlan Crow without disclosure (pattern revealed in 2023)' },
-      { date: '2014', event: 'Crow purchased property where Thomas mother lived; Thomas did not disclose' },
-      { date: '2021-01', event: 'Wife Ginni Thomas texted Mark Meadows urging action to overturn election; attended January 6 rally' },
-      { date: '2022-01', event: 'Sole dissenter in Trump v. Thompson; would have blocked January 6 Committee access to records including wifes texts' },
-      { date: '2023-04', event: 'ProPublica published first investigation into undisclosed Crow travel and gifts' },
-      { date: '2023-08', event: 'Additional reporting revealed Crow paid private school tuition and real estate deals' },
-      { date: '2023-11', event: 'Supreme Court adopted first-ever ethics code after public pressure; critics called it toothless' },
-    ],
-    sources: [
-      { title: 'ProPublica: Clarence Thomas Undisclosed Luxury Travel Series', url: 'https://www.propublica.org/', date: '2023' },
-      { title: 'Senate Judiciary Committee: Thomas Ethics Investigation', date: '2023' },
-      { title: 'Washington Post: Ginni Thomas January 6 Communications', url: 'https://www.washingtonpost.com/', date: '2022' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Samuel Alito', relationship: 'Fellow conservative justice who also accepted undisclosed luxury travel from wealthy benefactors' },
-      { name: 'Harlan Crow', relationship: 'Billionaire Republican donor who provided over 20 years of undisclosed luxury travel, real estate deals, and tuition payments' },
-    ],
-  },
+
   'grace-fryer': {
     name: 'Grace Fryer',
     title: 'Radium Dial Painter and Plaintiff',

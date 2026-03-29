@@ -1168,57 +1168,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Michael Cohen', relationship: 'Novartis paid $1.2M to Cohen\'s shell company for supposed healthcare consulting', href: '/entities/individuals/michael-cohen' },
  ],
  },
- 'ginni-thomas': {
-  name: 'Virginia "Ginni" Thomas',
-  title: 'Conservative Activist and Wife of Justice Clarence Thomas',
-  role: 'Supreme Court Spouse Who Lobbied to Overturn the 2020 Election',
-  riskLevel: 'high' as const,
-  description: 'Ginni Thomas is a conservative activist and lobbyist married to Supreme Court Justice Clarence Thomas. She actively participated in efforts to overturn the 2020 election including texting White House Chief of Staff Mark Meadows, attending the rally preceding the January 6 attack, and pressuring state legislators to replace Biden electors. Her political activities create unprecedented conflicts of interest for her husband.',
-  birthDate: '1957-02-23',
-  birthPlace: 'Omaha, Nebraska',
-  education: [
-   'B.S., University of Nebraska-Lincoln (1979)',
-   'J.D., Creighton University School of Law (1983)',
-  ],
-  affiliations: [
-   { name: 'Liberty Consulting', role: 'Founder and President', type: 'corporation' as const },
-   { name: 'Groundswell', role: 'Co-Founder (conservative coalition)', type: 'organization' as const },
-   { name: 'Council for National Policy', role: 'Member', type: 'organization' as const },
-  ],
-  controversies: [
-   'Sent 29 text messages to White House Chief of Staff Mark Meadows urging him to take action to overturn the 2020 election results',
-   'Texted Meadows: "Help This Great President stand firm" and "Do not concede. It takes time for the army who is gathering for his back"',
-   'Attended the January 6 rally at the Ellipse before the Capitol attack; said she left early before the march',
-   'Pressured Arizona state legislators to set aside Biden electors and replace them with a "clean slate" of Trump electors',
-   'Contacted Wisconsin state legislators with similar requests to replace certified electors',
-   'Lobbied against the Affordable Care Act while her husband was ruling on related cases without recusing',
-   'Received $680,000 from the Heritage Foundation between 2003 and 2007; Justice Thomas did not initially disclose this income',
-   'Husband refused to recuse from January 6-related cases despite her direct involvement in the events under investigation',
-  ],
-  relatedInvestigations: [
-   { title: 'Voter Purge Disenfranchisement', slug: 'voter-purge-disenfranchisement', severity: 'critical' },
-  ],
-  timeline: [
-   { date: '2010', event: 'Left call on Anita Hills voicemail asking for an apology; drew renewed attention to 1991 hearings' },
-   { date: '2011', event: 'Founded Liberty Consulting, grassroots lobbying organization' },
-   { date: '2020-11', event: 'Began texting Mark Meadows urging action to overturn election' },
-   { date: '2020-11', event: 'Emailed Arizona lawmakers urging them to replace Biden electors' },
-   { date: '2021-01-06', event: 'Attended rally at the Ellipse; said she left before march to Capitol' },
-   { date: '2022-03', event: 'Washington Post and CBS revealed Meadows text messages' },
-   { date: '2022-09', event: 'Testified before January 6 Committee in private interview' },
-   { date: '2023', event: 'ProPublica revelations about undisclosed Harlan Crow gifts intensified ethics scrutiny' },
-  ],
-  sources: [
-   { title: 'January 6 Committee: Ginni Thomas Testimony and Meadows Text Messages', date: '2022' },
-   { title: 'Washington Post: Thomas-Meadows Text Messages', url: 'https://www.washingtonpost.com/', date: '2022' },
-   { title: 'CBS News: Ginni Thomas Text Messages Investigation', date: '2022' },
-  ],
-  aliases: ['Ginni Thomas'],
-  knownAssociates: [
-   { name: 'Clarence Thomas', relationship: 'Husband; Supreme Court Justice who refused to recuse from January 6 cases despite her involvement' },
-   { name: 'Mark Meadows', relationship: 'White House Chief of Staff who received 29 text messages from Ginni Thomas about overturning election', href: '/entities/individuals/mark-meadows' },
-  ],
- },
 };
 
 export default profiles;

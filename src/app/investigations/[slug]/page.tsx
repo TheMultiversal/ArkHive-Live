@@ -13,7 +13,7 @@ import {
   Crosshair, ChevronDown, Shield, Calendar,
   Fingerprint, Scale, Clock, TrendingUp, Check,
   Target, ArrowRight, Eye, Lock,
-  Maximize2, Minimize2, ChevronUp,
+  Maximize2, Minimize2, ChevronUp, Download,
 } from 'lucide-react';
 import GlitchText from '@/components/effects/GlitchText';
 import CrystalButton from '@/components/ui/CrystalButton';
@@ -379,7 +379,6 @@ function AccountabilityEngine({ content, slug, investigation }: {
   const [viewCount, setViewCount] = useState(0);
   const [copied, setCopied] = useState<string | null>(null);
   const [expandedTemplate, setExpandedTemplate] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState<'operations' | 'arsenal' | 'enforcement' | 'evidence'>('operations');
 
   const title = investigation.title;
   const summary = investigation.summary;
@@ -412,6 +411,18 @@ function AccountabilityEngine({ content, slug, investigation }: {
     navigator.clipboard.writeText(text);
     setCopied(label);
     setTimeout(() => setCopied(null), 2000);
+  }, []);
+
+  const downloadText = useCallback((text: string, filename: string) => {
+    const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
   }, []);
 
   const rawActions = content.replace(/^\s*WHAT YOU CAN DO TO HOLD THEM ACCOUNTABLE:\s*/i, '').split(/\(\d+\)\s*/).filter(Boolean);
@@ -454,10 +465,10 @@ function AccountabilityEngine({ content, slug, investigation }: {
 
   return (
     <div className="space-y-1.5">
-      {/* ENGINE HEADER + TABS */}
+      {/* ENGINE HEADER */}
       <div className="glass-card overflow-hidden">
         <div className="p-2 sm:p-2.5">
-          <div className="flex items-center gap-2.5 mb-2">
+          <div className="flex items-center gap-2.5">
             <div className="w-6 h-6 flex items-center justify-center bg-red-500/[0.06] border border-red-500/15 flex-shrink-0">
               <Target className="w-3.5 h-3.5 text-red-400" />
             </div>
@@ -478,40 +489,11 @@ function AccountabilityEngine({ content, slug, investigation }: {
               </div>
             </div>
           </div>
-
-          {/* Tab navigation */}
-          <div className="flex border-t border-white/[0.04] -mx-2 sm:-mx-2.5 -mb-2 sm:-mb-2.5">
-            {[
-              { key: 'operations' as const, label: 'Operations', count: operations.length },
-              { key: 'arsenal' as const, label: 'Arsenal', count: templates.length },
-              { key: 'enforcement' as const, label: 'Enforcement', count: enforcementPortals.length },
-              { key: 'evidence' as const, label: 'Evidence', count: null },
-            ].map(tab => (
-              <button
-                key={tab.key}
-                onClick={() => setActiveTab(tab.key)}
-                className={`flex-1 px-3 py-2.5 text-[10px] font-bold uppercase tracking-[0.08em] transition-all duration-200 relative ${
-                  activeTab === tab.key
-                    ? 'text-white bg-white/[0.02]'
-                    : 'text-zinc-600 hover:text-zinc-400'
-                }`}
-              >
-                {tab.label}{tab.count !== null ? ` \u00b7 ${tab.count}` : ''}
-                {activeTab === tab.key && (
-                  <motion.div
-                    layoutId="engine-tab-indicator"
-                    className="absolute bottom-0 left-2 right-2 h-[2px] bg-red-500"
-                    transition={{ type: 'spring', stiffness: 500, damping: 35 }}
-                  />
-                )}
-              </button>
-            ))}
-          </div>
         </div>
       </div>
 
-      {/* OPERATION TRACKS */}
-      {activeTab === 'operations' && trackOrder.map(track => {
+      {/* OPERATION TRACKS — always visible */}
+      {trackOrder.map(track => {
         const trackOps = grouped[track];
         if (!trackOps) return null;
         const meta = trackMeta[track];
@@ -629,12 +611,12 @@ function AccountabilityEngine({ content, slug, investigation }: {
       })}
 
       {/* READY-TO-DEPLOY ARSENAL */}
-      {activeTab === 'arsenal' && (
       <motion.div
         className="glass-card p-2 sm:p-2.5"
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3 }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-60px' }}
+        transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
         <div className="flex items-center gap-2 mb-2">
           <div className="w-6 h-6 flex items-center justify-center bg-[rgba(184,0,0,0.06)] border border-[rgba(184,0,0,0.12)] flex-shrink-0">
@@ -681,7 +663,7 @@ function AccountabilityEngine({ content, slug, investigation }: {
                         <div className="bg-[#020202] border border-zinc-800/20 p-5 mt-4 max-h-80 overflow-y-auto">
                           <pre className="text-[11px] text-zinc-400 font-mono whitespace-pre-wrap leading-[1.7]">{tmpl.content}</pre>
                         </div>
-                        <div className="mt-4">
+                        <div className="flex flex-col sm:flex-row gap-2 mt-4">
                           <CrystalButton
                             variant="danger"
                             size="sm"
@@ -689,6 +671,14 @@ function AccountabilityEngine({ content, slug, investigation }: {
                             onClick={() => copyText(tmpl.content, tmpl.key)}
                           >
                             {copied === tmpl.key ? 'Copied to Clipboard' : `Copy ${tmpl.title}`}
+                          </CrystalButton>
+                          <CrystalButton
+                            variant="secondary"
+                            size="sm"
+                            icon={<Download className="w-3.5 h-3.5" />}
+                            onClick={() => downloadText(tmpl.content, `ArkHive_${tmpl.key}_${slug}.txt`)}
+                          >
+                            Download .txt
                           </CrystalButton>
                         </div>
                       </div>
@@ -700,15 +690,14 @@ function AccountabilityEngine({ content, slug, investigation }: {
           })}
         </div>
       </motion.div>
-      )}
 
       {/* ENFORCEMENT PORTALS */}
-      {activeTab === 'enforcement' && (
       <motion.div
         className="glass-card p-2 sm:p-2.5"
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3 }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-60px' }}
+        transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
         <div className="flex items-center gap-2.5 mb-1.5">
           <div className="w-6 h-6 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.15)] flex-shrink-0">
@@ -756,15 +745,14 @@ function AccountabilityEngine({ content, slug, investigation }: {
           })}
         </motion.div>
       </motion.div>
-      )}
 
       {/* EVIDENCE COMPILATION */}
-      {activeTab === 'evidence' && (
       <motion.div
         className="glass-card p-2 sm:p-2.5"
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3 }}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-60px' }}
+        transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
       >
         <div className="flex items-center gap-2 mb-2">
           <div className="w-6 h-6 flex items-center justify-center bg-[rgba(239,68,68,0.06)] border border-[rgba(239,68,68,0.12)] flex-shrink-0">
@@ -811,7 +799,6 @@ function AccountabilityEngine({ content, slug, investigation }: {
           </CrystalButton>
         </div>
       </motion.div>
-      )}
     </div>
   );
 }

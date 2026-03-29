@@ -5443,52 +5443,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Deng Xiaoping', relationship: 'Successor who ordered Tiananmen Square crackdown', href: '/entities/individuals/deng-xiaoping' },
     ],
   },
-  'michael-flynn': {
-    name: 'Michael Flynn',
-    title: 'Former National Security Advisor',
-    role: 'Trump\'s first National Security Advisor who pleaded guilty to lying to the FBI about contacts with Russia\'s ambassador, then was pardoned by Trump',
-    riskLevel: 'critical',
-    description: 'Michael Thomas Flynn served as National Security Advisor for 24 days in January-February 2017, the shortest tenure in history. A retired Lieutenant General, Flynn was fired by the Obama administration as Director of the Defense Intelligence Agency in 2014 for mismanagement. During the 2016 transition, Flynn contacted Russian Ambassador Sergey Kislyak about sanctions, then lied to Vice President Pence and FBI agents about those conversations. He pleaded guilty in December 2017 to making false statements to the FBI and cooperated with Special Counsel Robert Mueller\'s investigation. Flynn also failed to register as a foreign agent for Turkey, for which his lobbying firm received $530,000. Flynn\'s business partner Bijan Rafiekian was convicted of acting as an unregistered foreign agent. After initially cooperating, Flynn reversed course, fired his lawyers, hired Sidney Powell, and moved to withdraw his guilty plea. The DOJ under AG Bill Barr moved to dismiss the case in May 2020, and Trump pardoned Flynn in November 2020. Flynn subsequently promoted QAnon conspiracy theories and called for martial law to overturn the 2020 election.',
-    birthDate: 'December 24, 1958',
-    birthPlace: 'Middletown, Rhode Island',
-    education: ['University of Rhode Island (B.S.)', 'Golden Gate University (M.B.A.)', 'Naval War College (M.A.)'],
-    affiliations: [
-      { name: 'White House', role: 'National Security Advisor', type: 'agency' as const },
-      { name: 'Defense Intelligence Agency', role: 'Director', type: 'organization' as const },
-      { name: 'Flynn Intel Group', role: 'Founder', type: 'organization' as const },
-    ],
-    controversies: [
-      'Pleaded guilty to lying to FBI about Russian ambassador contacts; pardoned by Trump',
-      'Failed to register as foreign agent for $530,000 Turkish lobbying',
-      'Shortest-serving National Security Advisor in history (24 days)',
-      'Called for martial law and military intervention to overturn 2020 election',
-      'Promoted QAnon conspiracy theories at rallies',
-      'Led "Lock her up" chants against Hillary Clinton at 2016 RNC',
-    ],
-    charges: [
-      { statute: '18 U.S.C. 1001', description: 'Making false statements to the FBI about contacts with Russian ambassador (guilty plea; pardoned)', category: 'federal' },
-      { statute: '22 U.S.C. 611', description: 'Failure to register as foreign agent for Turkey under FARA (not personally charged)', category: 'federal' },
-    ],
-    relatedInvestigations: ['/investigations/january-6-insurrection'],
-    timeline: [
-      { date: '2016-07-18', event: 'Leads "Lock her up" chant at Republican National Convention' },
-      { date: '2017-01-20', event: 'Appointed National Security Advisor' },
-      { date: '2017-02-13', event: 'Forced to resign after 24 days' },
-      { date: '2017-12-01', event: 'Pleads guilty to making false statements to FBI' },
-      { date: '2020-05-07', event: 'DOJ moves to dismiss case under AG Barr' },
-      { date: '2020-11-25', event: 'Pardoned by President Trump' },
-      { date: '2020-12', event: 'Publicly calls for martial law to overturn election' },
-    ],
-    sources: [
-      { title: 'Special Counsel Mueller: United States v. Michael T. Flynn', url: 'https://www.justice.gov/news', date: '2017' },
-    ],
-    aliases: [],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'President who appointed and later pardoned him', href: '/entities/individuals/donald-trump' },
-      { name: 'Sidney Powell', relationship: 'Attorney who represented him in withdrawal of guilty plea', href: '/entities/individuals/sidney-powell' },
-      { name: 'Sergey Kislyak', relationship: 'Russian ambassador Flynn lied about contacting' },
-    ],
-  },
+
   'mark-zuckerberg': {
     name: 'Mark Zuckerberg',
     title: 'CEO of Meta (formerly Facebook)',

@@ -163,54 +163,6 @@ const profiles: Record<string, IndividualProfile> = {
  { name: 'Joe Biden', relationship: 'Nominated him as HHS Secretary', href: '/entities/individuals/joe-biden' },
  ],
  },
- 'andrew-cuomo': {
-  name: 'Andrew Cuomo',
-  title: 'Former Governor of New York',
-  role: 'Pandemic Hero Who Concealed Nursing Home Deaths and Harassed Staff',
-  riskLevel: 'high' as const,
-  description: 'Andrew Cuomo was celebrated as a pandemic leader before his administration was found to have concealed the true number of nursing home deaths, manipulated state data to support his book deal, and fostered a toxic workplace where multiple women alleged sexual harassment. He resigned under threat of impeachment in 2021.',
-  birthDate: '1957-12-06',
-  birthPlace: 'Queens, New York',
-  education: [
-   'B.A., Fordham University (1979)',
-   'J.D., Albany Law School (1982)',
-  ],
-  affiliations: [
-   { name: 'State of New York', role: 'Governor (2011-2021)', type: 'agency' as const },
-   { name: 'Department of Housing and Urban Development', role: 'Secretary (1997-2001)', type: 'agency' as const },
-  ],
-  controversies: [
-   'Administration concealed the true number of nursing home deaths during COVID by excluding deaths of residents who died in hospitals from official counts',
-   'State AG investigation found his administration undercounted nursing home deaths by as much as 50 percent',
-   'Used government staff and resources to write and promote his pandemic leadership book, earning $5.1 million in advance',
-   'Eleven women accused him of sexual harassment including unwanted touching, kissing, and inappropriate comments',
-   'State AG Letitia James investigation found he sexually harassed 11 women and his office retaliated against at least one who came forward',
-   'Fostered a workplace culture of intimidation, bullying, and retaliation that enabled his behavior',
-   'Administration deleted a section of a state health department report that accurately counted nursing home deaths before public release',
-  ],
-  relatedInvestigations: [
-   { title: 'Nursing Home Neglect Deaths', slug: 'nursing-home-neglect-deaths', severity: 'critical' },
-  ],
-  timeline: [
-   { date: '2011', event: 'Inaugurated as Governor of New York' },
-   { date: '2020-03', event: 'Began daily COVID briefings that earned national praise and an Emmy' },
-   { date: '2020-03-25', event: 'Issued directive requiring nursing homes to accept COVID-positive patients from hospitals' },
-   { date: '2020-08', event: 'State health report undercounting nursing home deaths released; AG later revealed manipulation' },
-   { date: '2021-01', event: 'AG investigation revealed administration concealed true nursing home death toll' },
-   { date: '2021-02', event: 'First sexual harassment allegations made public' },
-   { date: '2021-08-03', event: 'AG James released report finding Cuomo sexually harassed 11 women' },
-   { date: '2021-08-10', event: 'Resigned as governor to avoid likely impeachment' },
-  ],
-  sources: [
-   { title: 'New York AG: Investigation into Nursing Home Deaths Undercount', date: '2021' },
-   { title: 'New York AG: Report on Governor Cuomo Sexual Harassment Investigation', date: '2021' },
-   { title: 'New York State Assembly: Impeachment Investigation Report', date: '2021' },
-  ],
-  aliases: [],
-  knownAssociates: [
-   { name: 'Melissa DeRosa', relationship: 'Secretary to the Governor who helped coordinate nursing home data manipulation and allegedly facilitated retaliation' },
-  ],
- },
 
 
 

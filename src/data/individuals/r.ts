@@ -93,69 +93,6 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 'rick-perry': {
- name: 'James Richard Perry',
- title: 'Former Energy Secretary',
- role: 'Climate Denial, Ukraine Call',
- riskLevel: 'medium',
- description: 'James Richard Perry served as Secretary of Energy from 2017 to 2019. He famously proposed eliminating the Department of Energy during his presidential campaign but could not remember its name during a debate. He was involved in the Ukraine pressure campaign that led to Trump\'s first impeachment.',
- birthDate: 'March 4, 1950',
- birthPlace: 'Paint Creek, Texas, USA',
- education: ['B.S., Texas A&M University'],
- netWorth: '$3+ million',
- affiliations: [
- { name: 'Department of Energy', role: 'Secretary (2017-2019)', type: 'agency' },
- { name: 'State of Texas', role: 'Governor (2000-2015)', type: 'agency' },
- ],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Energy Secretary appointee', href: '/entities/individuals/donald-trump' },
- ],
- controversies: [
- 'Ukraine involvement -"Three Amigos "with Sondland, Volker',
- 'Climate change skepticism',
- 'Wanted to eliminate the department he led',
- '"Oops "debate moment',
- ],
- relatedInvestigations: [
- { title: 'Ukraine Extortion Scheme', slug: 'ukraine-extortion', severity: 'critical' },
- { title: 'Climate Policy Sabotage', slug: 'climate-sabotage', severity: 'critical' },
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- ],
- timeline: [
- { date: '1950', event: 'Born in Texas' },
- { date: '2017', event: 'Confirmed as Energy Secretary' },
- { date: '2019', event: 'Ukraine "Three Amigos" involvement' },
- { date: '2019', event: 'Resigns amid Ukraine scandal' },
- ],
- sources: [
- { title: 'House Impeachment Inquiry', url: 'https://www.congress.gov/', date: '2019' },
- ],
- },
  'rick-gates': {
  name: 'Richard William Gates III',
  title: 'Convicted Felon',
@@ -366,92 +303,6 @@ const profiles: Record<string, IndividualProfile> = {
  ],
  },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 'robert-mercer': {
- name: 'Robert Leroy Mercer',
- title: 'Billionaire Hedge Fund Manager',
- role: 'Trump Mega-Donor, Cambridge Analytica Funder',
- riskLevel: 'high',
- description: 'Robert Mercer is a reclusive billionaire who, along with his daughter Rebekah, was the primary funder of Cambridge Analytica, Breitbart News, and Trump\'s 2016 campaign. His data operation harvested information from 87 million Facebook users to target voters with political disinformation.',
- birthDate: 'July 11, 1946',
- birthPlace: 'San Jose, California, USA',
- netWorth: '$1.5+ billion',
- education: ['Ph.D., University of Illinois (Computer Science)', 'B.S./M.S., University of New Mexico'],
- affiliations: [
- { name: 'Renaissance Technologies', role: 'Co-CEO (until 2017)', type: 'corporation' },
- { name: 'Cambridge Analytica', role: 'Primary Investor ($15M+)', type: 'corporation' },
- { name: 'Breitbart News', role: 'Primary Funder ($10M+)', type: 'corporation' },
- ],
- controversies: [
- 'Funded Cambridge Analytica ($15M+) which harvested 87M Facebook users\' data',
- 'Funded Breitbart News, platform for alt-right',
- 'Major Trump donor and introducer of Bannon/Conway',
- 'Funded climate change denial organizations',
- 'Funded Make America Number 1 super PAC',
- 'Stepped back from Renaissance after political controversy',
- ],
- charges: [
- { statute: '18 U.S.C. § 1030 (Computer Fraud and Abuse Act)', description: 'Data Harvesting Operation; Funded Cambridge Analytica which illegally harvested 87 million Facebook users\' data without consent', category: 'Cyber Crime' },
- { statute: '52 U.S.C. § 30121 (Foreign National Contributions)', description: 'Foreign Coordination Concerns; Cambridge Analytica employed foreign nationals (UK citizens) on U.S. campaign work', category: 'Campaign Finance' },
- { statute: 'UK Data Protection Act 1998', description: 'International Data Violations; UK ICO investigation found serious breaches; Cambridge Analytica fined £500,000 (maximum)', category: 'International Law' },
- { statute: 'EU General Data Protection Regulation', description: 'GDPR Precursor Violations; Mass data harvesting violated EU data protection principles, contributing to GDPR enactment', category: 'International Law' },
- { statute: '52 U.S.C. § 30118 (Corporate Contributions)', description: 'Coordination Questions; Potential illegal coordination between Make America Number 1 super PAC and Trump campaign', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 371 (Conspiracy)', description: 'Conspiracy to Defraud United States; Funded operation that used illegally obtained data to manipulate U.S. elections', category: 'Conspiracy' },
- { statute: '52 U.S.C. § 30104 (Disclosure)', description: 'Disclosure Violations; Complex funding arrangements obscured true source and purpose of political expenditures', category: 'Campaign Finance' },
- { statute: '18 U.S.C. § 1343 (Wire Fraud)', description: 'Wire Fraud Potential; Cambridge Analytica operation used interstate wires to defraud data subjects and deceive voters', category: 'Fraud' },
- ],
- relatedInvestigations: [
- { title: 'Russian Election Interference', slug: 'russian-interference', severity: 'critical' },
- { title: 'Cambridge Analytica Data Scandal', slug: 'cambridge-analytica', severity: 'high' },
- { title: 'The Trump Criminal Compendium', slug: 'trump-criminal-compendium', severity: 'critical' },
- ],
- timeline: [
- { date: '1946', event: 'Born in San Jose, California' },
- { date: '1993', event: 'Joins Renaissance Technologies' },
- { date: '2011', event: 'Begins funding Breitbart News' },
- { date: '2014', event: 'Invests in Cambridge Analytica' },
- { date: '2016', event: 'Provides crucial support to Trump campaign' },
- { date: '2016', event: 'Introduces Trump to Bannon and Conway' },
- { date: '2017', event: 'Steps down from Renaissance after controversy' },
- { date: '2018', event: 'Cambridge Analytica scandal exposed' },
- ],
- socialMedia: [],
- sources: [
- { title: 'Cambridge Analytica Investigation (UK ICO)', url: 'https://www.ico.org.uk/action-weve-taken/investigation-into-use-of-data-analytics-in-political-campaigns/', date: '2018' },
- { title: 'FEC Donation Records', url: 'https://www.fec.gov/', date: '2016' },
- { title: 'New Yorker Profile', url: 'https://www.newyorker.com/magazine/2017/03/27/the-reclusive-hedge-fund-tycoon-behind-the-trump-presidency', date: '2017' },
- ],
- aliases: ['Data Billionaire'],
- knownAssociates: [
- { name: 'Donald Trump', relationship: 'Major donor, provided data operation', href: '/entities/individuals/donald-trump' },
- { name: 'Steve Bannon', relationship: 'Funded Breitbart and Cambridge Analytica', href: '/entities/individuals/steve-bannon' },
- { name: 'Rebekah Mercer', relationship: 'Daughter, co-operative political activities', href: '/entities/individuals/rebekah-mercer' },
- ],
- },
 
 
 
@@ -6318,55 +6169,7 @@ const profiles: Record<string, IndividualProfile> = {
       { name: 'Brent Wilkes', relationship: 'CEO of ADCS Inc.; convicted of bribery, conspiracy, and money laundering' },
     ],
   },
-  'rudy-giuliani': {
-    name: 'Rudy Giuliani',
-    title: 'Former Mayor of New York City, Former Personal Attorney to Donald Trump',
-    role: 'Former federal prosecutor turned Trump\'s personal attorney who led efforts to overturn the 2020 election, was indicted in Georgia and Arizona RICO cases, disbarred, and ordered to pay $148 million for defaming election workers',
-    riskLevel: 'critical',
-    description: 'Rudolph William Louis Giuliani served as U.S. Attorney for the Southern District of New York (1983-1989) and Mayor of New York City (1994-2001). Once celebrated as "America\'s Mayor" after 9/11, Giuliani became Donald Trump\'s personal attorney and a central figure in the effort to overturn the 2020 presidential election. He promoted false claims of widespread voter fraud at the now-infamous Four Seasons Total Landscaping press conference and in dozens of court filings. He was indicted under RICO statutes in both Georgia (2023) and Arizona (2024) for his role in the fake electors scheme. A jury ordered him to pay $148 million to Georgia election workers Ruby Freeman and Shaye Moss after finding he had defamed them by falsely accusing them of ballot fraud. He was disbarred in New York (2024) and Washington D.C. (2024) for making false statements about the election. He filed for bankruptcy in December 2023 listing debts of $152 million. His earlier work with Ukrainian figures Lev Parnas and Igor Fruman, who were convicted of campaign finance violations, also drew federal scrutiny.',
-    birthDate: 'May 28, 1944',
-    birthPlace: 'Brooklyn, New York',
-    education: ['Manhattan College (B.A.)', 'New York University School of Law (J.D.)'],
-    affiliations: [
-      { name: 'Trump Legal Team', role: 'Personal Attorney', type: 'organization' as const },
-      { name: 'City of New York', role: 'Mayor', type: 'organization' as const },
-      { name: 'U.S. Attorney SDNY', role: 'U.S. Attorney', type: 'organization' as const },
-    ],
-    controversies: [
-      'Indicted under RICO in Georgia for fake electors scheme to overturn 2020 election',
-      'Indicted in Arizona for role in fake electors conspiracy',
-      'Ordered to pay $148 million to defamed Georgia election workers Ruby Freeman and Shaye Moss',
-      'Disbarred in New York and Washington D.C. for false statements about 2020 election',
-      'Filed bankruptcy with $152 million in debts',
-      'Associated with Lev Parnas and Igor Fruman, convicted of campaign finance violations',
-      'Led shadow diplomacy campaign in Ukraine targeting Biden that led to Trump\'s first impeachment',
-    ],
-    charges: [
-      { statute: 'O.C.G.A. 16-14-4', description: 'Georgia RICO Act violation - participating in criminal enterprise to overturn 2020 election results', category: 'state' },
-      { statute: 'O.C.G.A. 16-10-20', description: 'Making false statements to state and local government bodies about election fraud', category: 'state' },
-      { statute: 'A.R.S. 13-2310', description: 'Arizona fraud charges related to fake electors scheme', category: 'state' },
-    ],
-    relatedInvestigations: ['/investigations/supreme-court-ethics-crisis', '/investigations/emirati-influence-operations-american-politics'],
-    timeline: [
-      { date: '1983', event: 'Appointed U.S. Attorney for SDNY' },
-      { date: '1994-01-01', event: 'Inaugurated as Mayor of New York City' },
-      { date: '2001-09-11', event: '9/11 response earns "America\'s Mayor" title' },
-      { date: '2018', event: 'Becomes Trump\'s personal attorney' },
-      { date: '2020-11-07', event: 'Four Seasons Total Landscaping press conference' },
-      { date: '2023-08-14', event: 'Indicted under RICO in Fulton County, Georgia' },
-      { date: '2023-12-15', event: 'Jury orders $148M payment to Freeman and Moss' },
-      { date: '2023-12-21', event: 'Files for bankruptcy' },
-      { date: '2024-07-02', event: 'Disbarred in New York for false election claims' },
-    ],
-    sources: [
-      { title: 'Fulton County DA: State of Georgia v. Donald John Trump et al.', url: 'https://www.fultonclerk.org/', date: '2023' },
-    ],
-    aliases: ['America\'s Mayor', 'Rudy'],
-    knownAssociates: [
-      { name: 'Donald Trump', relationship: 'Client; former president whose 2020 election challenge Giuliani led', href: '/entities/individuals/donald-trump' },
-      { name: 'Lev Parnas', relationship: 'Associate convicted of campaign finance violations; assisted Giuliani\'s Ukraine efforts' },
-    ],
-  },
+
   'ron-desantis': {
     name: 'Ron DeSantis',
     title: 'Governor of Florida',

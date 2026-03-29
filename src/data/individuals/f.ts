@@ -2041,53 +2041,6 @@ const profiles: Record<string, IndividualProfile> = {
    { name: 'Sidney Powell', relationship: 'Attorney who represented Flynn and later promoted election conspiracy theories' },
   ],
  },
- 'adam-neumann': {
-  name: 'Adam Neumann',
-  title: 'Former CEO of WeWork',
-  role: 'Charismatic Founder Who Burned $40 Billion in Value',
-  riskLevel: 'medium' as const,
-  description: 'Adam Neumann co-founded WeWork and used charisma and hype to inflate its valuation to $47 billion before a disastrous attempted IPO revealed massive losses, self-dealing, and governance failures. He personally profited hundreds of millions of dollars by selling stock and borrowing against shares while the company collapsed, eventual laying off thousands.',
-  birthDate: '1979-04-25',
-  birthPlace: 'Beersheba, Israel',
-  education: [
-   'B.S., Baruch College, City University of New York (2008)',
-  ],
-  affiliations: [
-   { name: 'WeWork', role: 'Co-Founder and CEO (2010-2019)', type: 'corporation' as const },
-   { name: 'Flow (real estate startup)', role: 'Founder and CEO (2022-present)', type: 'corporation' as const },
-  ],
-  controversies: [
-   'WeWork lost $1.6 billion in the first half of 2019 alone while Neumann personally earned hundreds of millions from stock sales and loans against his shares',
-   'Leased buildings he personally owned back to WeWork, creating direct conflicts of interest that enriched him at the company expense',
-   'Trademarked the word "We" and charged WeWork $5.9 million for the right to use it; returned the money only after public outcry during the IPO process',
-   'IPO S-1 filing revealed governance structure giving Neumann outsized voting control and the ability to designate his successor, including a family member',
-   'Company culture involved excessive alcohol consumption, drug use at company events, and retaliation against employees who raised concerns',
-   'Received a $1.7 billion golden parachute from SoftBank when forced out as CEO while thousands of employees were laid off with minimal severance',
-   'Founded new real estate startup Flow and received $350 million from Andreessen Horowitz at a $1 billion valuation despite WeWork catastrophe',
-  ],
-  relatedInvestigations: [
-   { title: 'Cryptocurrency Manipulation Fraud', slug: 'cryptocurrency-manipulation-fraud', severity: 'high' },
-  ],
-  timeline: [
-   { date: '2010', event: 'Co-founded WeWork as a co-working space company' },
-   { date: '2019-01', event: 'WeWork valued at $47 billion by SoftBank' },
-   { date: '2019-08', event: 'IPO S-1 filing revealed massive losses, self-dealing, and governance failures' },
-   { date: '2019-09', event: 'IPO canceled after investors recoiled; valuation crashed from $47B to under $10B' },
-   { date: '2019-10', event: 'Forced to resign as CEO; received $1.7 billion exit package from SoftBank' },
-   { date: '2020', event: 'WeWork laid off thousands of employees; many received weeks of severance' },
-   { date: '2022', event: 'Received $350 million from Andreessen Horowitz for new venture Flow' },
-   { date: '2023-11', event: 'WeWork filed for bankruptcy; Neumann had already cashed out over $1 billion' },
-  ],
-  sources: [
-   { title: 'SEC: WeWork S-1 Filing and Withdrawal', date: '2019' },
-   { title: 'Wall Street Journal: WeWork Governance Investigation', url: 'https://www.wsj.com/', date: '2019' },
-   { title: 'New York AG: WeWork Investor Protection Investigation', date: '2020' },
-  ],
-  aliases: [],
-  knownAssociates: [
-   { name: 'Masayoshi Son', relationship: 'SoftBank CEO who invested billions in WeWork at inflated valuations; later called it a poor judgment call' },
-  ],
- },
  'franklin-raines': {
    name: "Franklin Raines",
    title: "Former CEO of Fannie Mae",
