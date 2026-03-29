@@ -157,15 +157,15 @@ const ORG_TIER_COLORS: Record<OrgTier, string> = {
 
 const STATUS_COLORS: Record<string, string> = {
   convicted: '#ef4444',
-  incarcerated: '#dc2626',
-  indicted: '#b91c1c',
-  charged: '#991b1b',
-  pending: '#7f1d1d',
-  settled: '#71717a',
-  acquitted: '#6b2121',
-  pardoned: '#9f1239',
-  appealing: '#be123c',
-  released: '#881337',
+  incarcerated: '#f97316',
+  indicted: '#f59e0b',
+  charged: '#eab308',
+  pending: '#71717a',
+  settled: '#64748b',
+  acquitted: '#22c55e',
+  pardoned: '#a855f7',
+  appealing: '#06b6d4',
+  released: '#14b8a6',
 };
 
 const NODE_DIMENSIONS: Record<string, { width: number; height: number }> = {
@@ -876,7 +876,7 @@ const edgeTypes = {
 function GlassPanel({
   title,
   icon,
-  defaultOpen = true,
+  defaultOpen = false,
   badge,
   children,
   className = '',
@@ -1499,7 +1499,7 @@ function NetworkTreeContent({ investigation }: { investigation: InvestigationDat
             }}
             proOptions={{ hideAttribution: true }}
           >
-            <Background variant={BackgroundVariant.Lines} gap={40} size={0.5} color="rgba(184, 0, 0, 0.04)" />
+            <Background variant={BackgroundVariant.Dots} gap={30} size={0.8} color="rgba(184, 0, 0, 0.08)" />
             <MiniMap
               nodeColor={minimapNodeColor}
               nodeStrokeWidth={2}

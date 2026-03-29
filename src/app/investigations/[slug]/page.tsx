@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useParams } from 'next/navigation';
 import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
@@ -432,17 +432,17 @@ function AccountabilityEngine({ content, slug, investigation }: {
 
   const socialPost = `EXPOSED: ${title}\n\n${summary.slice(0, 200)}${summary.length > 200 ? '...' : ''}${defendants.length > 0 ? `\n\nNamed defendants: ${defendants.slice(0, 3).map((d: any) => d.name).join(', ')}${defendants.length > 3 ? ` + ${defendants.length - 3} more` : ''}` : ''}${statutes.length > 0 ? `\nLaws violated: ${statutes.slice(0, 2).map((s: any) => s.code).join(', ')}` : ''}\n\nFull investigation // ${sources.length} sourced references:\n${shareUrl}\n\nThe evidence speaks for itself.\n\n#ArkHive #Accountability`;
 
-  const legalDemand = `FORMAL LEGAL DEMAND AND NOTICE OF EVIDENCE PRESERVATION\n\nTO: [Responsible Party / Entity Name]\nFROM: [Your Full Legal Name]\nDATE: [Date]\nRE: ${title}\n\n${'Ã¢â€â‚¬'.repeat(50)}\n\nDear Sir/Madam,\n\nThis letter constitutes formal notice regarding documented evidence of misconduct and/or legal violations as detailed in the investigation referenced above.\n\nFACTUAL BASIS:\n${summary.slice(0, 600)}${summary.length > 600 ? '...' : ''}\n${defendants.length > 0 ? `\nNAMED PARTIES (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name} | ${d.role} [Status: ${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LEGAL PROVISIONS:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nDEMANDS:\n1. Immediate preservation of ALL documents, communications, electronic records, and physical evidence related to the above matter\n2. Full disclosure of all information relevant to the documented violations\n3. Immediate cessation of any ongoing conduct constituting a violation of the laws cited above\n4. Written acknowledgment of receipt of this demand within ten (10) business days\n\nNOTICE OF ESCALATION:\nFailure to comply with these demands within thirty (30) days will result in escalation to appropriate enforcement bodies, including but not limited to:\n- The Office of the Inspector General for the relevant agency\n- The State Attorney General\n- The United States Department of Justice\n- Applicable federal regulatory agencies\n- Private legal action as permitted under applicable statutes\n\nThis letter creates a legal record. You are now on formal notice of these documented findings.\n\nEvidentiary Record: ${sources.length} sourced references\n${shareUrl}\n\nRespectfully,\n[Your Full Legal Name]\n[Your Address]\n[Your Contact Information]\n[Date]`;
+  const legalDemand = `FORMAL LEGAL DEMAND AND NOTICE OF EVIDENCE PRESERVATION\n\nTO: [Responsible Party / Entity Name]\nFROM: [Your Full Legal Name]\nDATE: [Date]\nRE: ${title}\n\n${'-'.repeat(60)}\n\nDear Sir/Madam,\n\nThis letter constitutes formal notice regarding documented evidence of misconduct and/or legal violations as detailed in the investigation referenced above.\n\nFACTUAL BASIS:\n${summary.slice(0, 600)}${summary.length > 600 ? '...' : ''}\n${defendants.length > 0 ? `\nNAMED PARTIES (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name} | ${d.role} [Status: ${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LEGAL PROVISIONS:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nDEMANDS:\n1. Immediate preservation of ALL documents, communications, electronic records, and physical evidence related to the above matter\n2. Full disclosure of all information relevant to the documented violations\n3. Immediate cessation of any ongoing conduct constituting a violation of the laws cited above\n4. Written acknowledgment of receipt of this demand within ten (10) business days\n\nNOTICE OF ESCALATION:\nFailure to comply with these demands within thirty (30) days will result in escalation to appropriate enforcement bodies, including but not limited to:\n- The Office of the Inspector General for the relevant agency\n- The State Attorney General\n- The United States Department of Justice\n- Applicable federal regulatory agencies\n- Private legal action as permitted under applicable statutes\n\nThis letter creates a legal record. You are now on formal notice of these documented findings.\n\nEvidentiary Record: ${sources.length} sourced references\n${shareUrl}\n\nRespectfully,\n[Your Full Legal Name]\n[Your Address]\n[Your Contact Information]\n[Date]`;
 
   const agencies = affiliations.filter((a: any) => a.type === 'agency');
 
-  const igComplaint = `FORMAL COMPLAINT TO THE OFFICE OF INSPECTOR GENERAL\n\n${agencies.length > 0 ? `Agency: ${agencies.map((a: any) => a.name).join(', ')}\n` : 'Agency: [Relevant Federal Agency]\n'}Inspector General Office: [Locate at ignet.gov/content/inspectors-general-directory]\n\n${'Ã¢â€â‚¬'.repeat(50)}\n\nCOMPLAINANT INFORMATION:\nName: [Your Name]\nAddress: [Your Address]\nEmail: [Your Email]\nPhone: [Your Phone]\n\nCOMPLAINT:\nI hereby file a formal complaint regarding documented misconduct related to:\n\n"${title}"\n\nSUMMARY OF ALLEGATIONS:\n${summary}\n${defendants.length > 0 ? `\nSUBJECTS OF COMPLAINT (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name}: ${d.role}\n  Current status: ${d.status.toUpperCase()}${d.charges?.length ? '\n  Known charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nLAWS AND REGULATIONS POTENTIALLY VIOLATED:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL IRREGULARITIES:\n${moneyTrail.length} documented financial transactions between implicated parties are detailed in the full investigation.\n` : ''}\nEVIDENCE:\nThis complaint is supported by ${sources.length} independently sourced references, all available at:\n${shareUrl}\n\nREQUESTED ACTION:\n1. Formal investigation into the allegations described above\n2. Preservation of all relevant agency records and communications\n3. Referral to the Department of Justice if criminal conduct is substantiated\n4. Written response regarding the disposition of this complaint\n\nSubmitted on: [Date]\n[Your Signature]\n[Your Printed Name]`;
+  const igComplaint = `FORMAL COMPLAINT TO THE OFFICE OF INSPECTOR GENERAL\n\n${agencies.length > 0 ? `Agency: ${agencies.map((a: any) => a.name).join(', ')}\n` : 'Agency: [Relevant Federal Agency]\n'}Inspector General Office: [Locate at ignet.gov/content/inspectors-general-directory]\n\n${'-'.repeat(60)}\n\nCOMPLAINANT INFORMATION:\nName: [Your Name]\nAddress: [Your Address]\nEmail: [Your Email]\nPhone: [Your Phone]\n\nCOMPLAINT:\nI hereby file a formal complaint regarding documented misconduct related to:\n\n"${title}"\n\nSUMMARY OF ALLEGATIONS:\n${summary}\n${defendants.length > 0 ? `\nSUBJECTS OF COMPLAINT (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name}: ${d.role}\n  Current status: ${d.status.toUpperCase()}${d.charges?.length ? '\n  Known charges: ' + d.charges.join('; ') : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nLAWS AND REGULATIONS POTENTIALLY VIOLATED:\n${statutes.map((s: any) => `* ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL IRREGULARITIES:\n${moneyTrail.length} documented financial transactions between implicated parties are detailed in the full investigation.\n` : ''}\nEVIDENCE:\nThis complaint is supported by ${sources.length} independently sourced references, all available at:\n${shareUrl}\n\nREQUESTED ACTION:\n1. Formal investigation into the allegations described above\n2. Preservation of all relevant agency records and communications\n3. Referral to the Department of Justice if criminal conduct is substantiated\n4. Written response regarding the disposition of this complaint\n\nSubmitted on: [Date]\n[Your Signature]\n[Your Printed Name]`;
 
   const pressTip = `PRESS TIP: For Immediate Investigation\n\nSubject: ${title}\n\n${summary}\n${defendants.length > 0 ? `\nNAMED SUBJECTS (${defendants.length}):\n${defendants.map((d: any) => `* ${d.name} | ${d.role} [${d.status.toUpperCase()}]`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL: ${moneyTrail.length} documented transactions\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS:\n${statutes.slice(0, 5).map((s: any) => `* ${s.code}`).join('\n')}\n` : ''}\nThis investigation includes ${sources.length} sourced references, documented evidence, and applicable statutes.\n\nFull evidence package: ${shareUrl}\n\nSubmitted via ArkHive (arkhive.live) // Open accountability platform.`;
 
-  const foiaTemplate = agencies.length > 0 ? `Freedom of Information Act Request\n\nTo: FOIA Officer\n${agencies.map((a: any) => a.name).join(', ')}\n\nDear FOIA Officer,\n\nPursuant to the Freedom of Information Act, 5 U.S.C. Ã‚Â§ 552, I am requesting access to and copies of all records related to:\n\n"${title}"\n\nSpecifically, I request:\n1. All internal communications, memoranda, and emails related to the above matter\n2. All reports, studies, and analyses concerning the above\n3. All correspondence with external parties regarding the above\n4. All financial records and transaction logs related to the above\n5. All records of enforcement actions taken or declined regarding the above\n\nI am willing to pay reasonable duplication fees. If fees exceed $25, please notify me before processing.\n\nIf you deny this request in whole or in part, please cite the specific exemption(s) and notify me of appeal procedures available under 5 U.S.C. Ã‚Â§ 552(a)(6).\n\nThank you for your prompt attention to this matter.\n\n[Your Name]\n[Your Address]\n[Your Email]\n[Date]` : null;
+  const foiaTemplate = agencies.length > 0 ? `Freedom of Information Act Request\n\nTo: FOIA Officer\n${agencies.map((a: any) => a.name).join(', ')}\n\nDear FOIA Officer,\n\nPursuant to the Freedom of Information Act, 5 U.S.C. § 552, I am requesting access to and copies of all records related to:\n\n"${title}"\n\nSpecifically, I request:\n1. All internal communications, memoranda, and emails related to the above matter\n2. All reports, studies, and analyses concerning the above\n3. All correspondence with external parties regarding the above\n4. All financial records and transaction logs related to the above\n5. All records of enforcement actions taken or declined regarding the above\n\nI am willing to pay reasonable duplication fees. If fees exceed $25, please notify me before processing.\n\nIf you deny this request in whole or in part, please cite the specific exemption(s) and notify me of appeal procedures available under 5 U.S.C. § 552(a)(6).\n\nThank you for your prompt attention to this matter.\n\n[Your Name]\n[Your Address]\n[Your Email]\n[Date]` : null;
 
-  const evidencePackage = `${'Ã¢â€¢Â'.repeat(54)}\nINVESTIGATION FILE: ${title}\nSeverity: ${(investigation.severity || 'medium').toUpperCase()} | Category: ${investigation.category}\nSource: ArkHive (arkhive.live)\n${'Ã¢â€¢Â'.repeat(54)}\n\nSUMMARY\n${summary}\n${defendants.length > 0 ? `\nNAMED DEFENDANTS (${defendants.length})\n${defendants.map((d: any) => `> ${d.name} | ${d.role} [${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join(', ') : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL (${moneyTrail.length} transactions)\n${moneyTrail.map((m: any) => `> ${m.date}: ${m.from} -> ${m.to} | ${m.amount}${m.purpose ? ' | ' + m.purpose : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS\n${statutes.map((s: any) => `> ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nSOURCED EVIDENCE (${sources.length} references)\n${sources.map((s: any, i: number) => `[${i + 1}] ${s.title} | ${s.url}`).join('\n')}\n\nFULL INVESTIGATION\n${shareUrl}\n\n${'Ã¢â€¢Â'.repeat(54)}\nCompiled from ArkHive (arkhive.live)\nOpen-source accountability platform\n${'Ã¢â€¢Â'.repeat(54)}`;
+  const evidencePackage = `${'='.repeat(60)}\nINVESTIGATION FILE: ${title}\nSeverity: ${(investigation.severity || 'medium').toUpperCase()} | Category: ${investigation.category}\nSource: ArkHive (arkhive.live)\n${'='.repeat(60)}\n\nSUMMARY\n${summary}\n${defendants.length > 0 ? `\nNAMED DEFENDANTS (${defendants.length})\n${defendants.map((d: any) => `> ${d.name} | ${d.role} [${d.status.toUpperCase()}]${d.charges?.length ? '\n  Charges: ' + d.charges.join(', ') : ''}`).join('\n')}\n` : ''}${moneyTrail.length > 0 ? `\nFINANCIAL TRAIL (${moneyTrail.length} transactions)\n${moneyTrail.map((m: any) => `> ${m.date}: ${m.from} -> ${m.to} | ${m.amount}${m.purpose ? ' | ' + m.purpose : ''}`).join('\n')}\n` : ''}${statutes.length > 0 ? `\nAPPLICABLE LAWS\n${statutes.map((s: any) => `> ${s.code}${s.description ? ': ' + s.description : ''}`).join('\n')}\n` : ''}\nSOURCED EVIDENCE (${sources.length} references)\n${sources.map((s: any, i: number) => `[${i + 1}] ${s.title} | ${s.url}`).join('\n')}\n\nFULL INVESTIGATION\n${shareUrl}\n\n${'='.repeat(60)}\nCompiled from ArkHive (arkhive.live)\nOpen-source accountability platform\n${'='.repeat(60)}`;
 
   const templates = [
     { icon: Scale, title: 'Legal Demand Notice', desc: 'Formal demand letter with evidence preservation notice. Carries legal weight.', content: legalDemand, key: 'legal', color: '#ef4444' },
@@ -1109,20 +1109,20 @@ export default function InvestigationPage() {
         >
           <div className="flex items-center gap-3">
             <div className="w-1 h-5" style={{ background: `${sevCfg.color}40` }} />
-            <span className="text-[9px] font-mono text-zinc-600 uppercase tracking-[0.3em]">
+            <span className="text-[9px] font-mono text-zinc-300 uppercase tracking-[0.3em]">
               Dossier // {visibleSections.length} Sections // ~{readingTime} min read
             </span>
           </div>
           <div className="flex items-center gap-2">
             <button
               onClick={() => setExpandTrigger(v => v + 1)}
-              className="flex items-center gap-1.5 px-3 py-1.5 text-[9px] font-bold text-zinc-600 hover:text-zinc-300 border border-white/[0.05] hover:border-white/[0.12] transition-all uppercase tracking-wider"
+              className="flex items-center gap-1.5 px-3 py-1.5 text-[9px] font-bold text-zinc-300 hover:text-white border border-white/[0.05] hover:border-white/[0.12] transition-all uppercase tracking-wider"
             >
               <Maximize2 className="w-3 h-3" /> Expand All
             </button>
             <button
               onClick={() => setCollapseTrigger(v => v + 1)}
-              className="flex items-center gap-1.5 px-3 py-1.5 text-[9px] font-bold text-zinc-600 hover:text-zinc-300 border border-white/[0.05] hover:border-white/[0.12] transition-all uppercase tracking-wider"
+              className="flex items-center gap-1.5 px-3 py-1.5 text-[9px] font-bold text-zinc-300 hover:text-white border border-white/[0.05] hover:border-white/[0.12] transition-all uppercase tracking-wider"
             >
               <Minimize2 className="w-3 h-3" /> Collapse All
             </button>
@@ -1435,13 +1435,8 @@ export default function InvestigationPage() {
                     : undefined
                 }
               >
-                {/* Table header */}
-                <div className="hidden lg:grid grid-cols-[85px_1fr_30px_1fr_1fr_130px] gap-3 px-3.5 py-2 text-[8px] font-mono text-zinc-600 uppercase tracking-[0.2em] mb-1 border-b border-white/[0.04]">
-                  <span>Date</span><span>From</span><span /><span>To</span><span>Purpose</span><span className="text-right">Amount</span>
-                </div>
-
                 <motion.div
-                  className="space-y-0"
+                  className="space-y-2"
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true }}
@@ -1450,36 +1445,23 @@ export default function InvestigationPage() {
                   {moneyTrail.map((item: any, idx: number) => (
                     <motion.div
                       key={idx}
-                      variants={{ hidden: { opacity: 0, x: idx % 2 === 0 ? -8 : 8 }, visible: { opacity: 1, x: 0, transition: { duration: 0.4 } } }}
-                      className={`p-1.5 sm:p-2 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] ${
-                        idx % 2 === 0 ? 'bg-[rgba(255,255,255,0.012)]' : 'bg-transparent'
-                      } border-b border-white/[0.02] hover:border-red-500/[0.08]`}
+                      variants={{ hidden: { opacity: 0, y: 8 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4 } } }}
+                      className={`p-3 sm:p-4 transition-all duration-200 hover:bg-[rgba(255,255,255,0.03)] bg-[rgba(255,255,255,0.012)] border border-white/[0.04] hover:border-red-500/[0.08]`}
+                      style={{ borderRadius: 12 }}
                     >
-                      {/* Desktop */}
-                      <div className="hidden lg:grid grid-cols-[85px_1fr_30px_1fr_1fr_130px] gap-3 items-center">
-                        <span className="text-[10px] font-mono text-zinc-600 tabular-nums">{item.date}</span>
-                        <span className="text-sm text-zinc-300 break-words min-w-0">{item.from}</span>
-                        <ArrowRight className="w-3 h-3 text-red-500/20 mx-auto flex-shrink-0" />
-                        <span className="text-sm text-zinc-300 break-words min-w-0">{item.to}</span>
-                        <span className="text-[10px] text-zinc-500 break-words min-w-0">{item.purpose}</span>
-                        <div className="text-right flex items-center justify-end gap-2">
+                      <div className="flex items-center justify-between mb-2">
+                        <span className="text-[10px] font-mono text-zinc-500 tabular-nums">{item.date}</span>
+                        <div className="flex items-center gap-2">
                           <span className="text-lg font-black font-mono text-red-400/90 tabular-nums">{item.amount}</span>
                           {!item.documented && <span className="text-[6px] text-red-600/40 uppercase font-bold px-1 py-0.5 bg-red-500/[0.04] border border-red-500/10">!</span>}
                         </div>
                       </div>
-                      {/* Mobile */}
-                      <div className="lg:hidden space-y-2">
-                        <div className="flex items-center justify-between">
-                          <span className="text-[10px] font-mono text-zinc-600 tabular-nums">{item.date}</span>
-                          <span className="text-lg font-black font-mono text-red-400/90 tabular-nums">{item.amount}</span>
-                        </div>
-                        <div className="flex items-center gap-2 text-sm">
-                          <span className="text-zinc-300">{item.from}</span>
-                          <ArrowRight className="w-3 h-3 text-red-500/20 flex-shrink-0" />
-                          <span className="text-zinc-300">{item.to}</span>
-                        </div>
-                        {item.purpose && <p className="text-[10px] text-zinc-500">{item.purpose}</p>}
+                      <div className="flex items-center gap-2 text-sm mb-1.5">
+                        <span className="text-zinc-300 break-words min-w-0">{item.from}</span>
+                        <ArrowRight className="w-3.5 h-3.5 text-red-500/30 flex-shrink-0" />
+                        <span className="text-zinc-300 break-words min-w-0">{item.to}</span>
                       </div>
+                      {item.purpose && <p className="text-[10px] text-zinc-500 break-words">{item.purpose}</p>}
                     </motion.div>
                   ))}
                 </motion.div>
