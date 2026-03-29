@@ -1,6 +1,7 @@
 import type { InvestigationData } from './types';
 import moneyTrails from './moneyTrails';
 import investigationStatutes from './investigationStatutes';
+import investigationDefendants from './investigationDefendants';
 
 import shard_1 from './1';
 import shard_2 from './2';
@@ -75,6 +76,13 @@ for (const [slug, trails] of Object.entries(moneyTrails)) {
 for (const [slug, statutes] of Object.entries(investigationStatutes)) {
   if (investigationDatabase[slug] && !investigationDatabase[slug].statutes?.length) {
     investigationDatabase[slug].statutes = statutes;
+  }
+}
+
+// Merge centralized defendant data into investigations that don't already have it
+for (const [slug, defendants] of Object.entries(investigationDefendants)) {
+  if (investigationDatabase[slug] && !investigationDatabase[slug].defendants?.length) {
+    investigationDatabase[slug].defendants = defendants;
   }
 }
 
