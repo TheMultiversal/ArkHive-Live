@@ -19,7 +19,7 @@ export const metadata: Metadata = {
  keywords: ["investigation","corruption","court records","political crimes","financial fraud","accountability","documentation"],
  authors: [{ name:"ArkHive Team"}],
  creator:"ArkHive",
- metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ||"http://localhost:3000"),
+ metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ||"https://arkhive.live"),
  openGraph: {
  type:"website",
  locale:"en_US",

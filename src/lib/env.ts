@@ -45,7 +45,7 @@ const serverEnvSchema = z.object({
 // ============================================================
 
 const clientEnvSchema = z.object({
- NEXT_PUBLIC_SITE_URL: z.string().url().default('http://localhost:3000'),
+ NEXT_PUBLIC_SITE_URL: z.string().url().default('https://arkhive.live'),
  NEXT_PUBLIC_API_URL: z.string().default('/api'),
  NEXT_PUBLIC_GA_MEASUREMENT_ID: z.string().optional(),
  NEXT_PUBLIC_PLAUSIBLE_DOMAIN: z.string().optional(),

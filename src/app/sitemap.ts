@@ -1,20 +1,14 @@
 import { MetadataRoute } from 'next';
+import investigationDatabase from '@/data/investigations';
+import agencyData from '@/data/agencies';
+import corporationData from '@/data/corporations';
+import individualData from '@/data/individuals';
+import organizationData from '@/data/organizations';
 
 export const dynamic = 'force-static';
 
-// Mock data - replace with actual database queries in production
-const getInvestigations = () => [
- { slug: 'welcome-to-arkhive', lastUpdated: '2026-01-31' },
-];
-
-const getEntities = () => [
- { slug: 'nsa', type: 'agencies', lastUpdated: '2026-01-15' },
- { slug: 'nexus-holdings', type: 'corporations', lastUpdated: '2026-01-20' },
- { slug: 'donald-trump', type: 'individuals', lastUpdated: '2026-01-25' },
-];
-
 export default function sitemap(): MetadataRoute.Sitemap {
- const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://arkhive.org';
+ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://arkhive.live';
 
  // Static pages
  const staticPages = [
@@ -24,11 +18,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
  '/entities/agencies',
  '/entities/corporations',
  '/entities/individuals',
+ '/entities/organizations',
  '/timeline',
  '/workspaces',
  '/about',
  '/submit',
  '/search',
+ '/recent',
+ '/network',
+ '/sources',
+ '/statutes',
+ '/money-trail',
+ '/categories',
+ '/tags',
+ '/themes',
+ '/evidence',
+ '/geography',
+ '/documents',
+ '/convictions',
+ '/archives',
+ '/export',
  '/faq',
  '/privacy',
  '/terms',
@@ -44,22 +53,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
  }));
 
  // Dynamic investigation pages
- const investigations = getInvestigations();
- const investigationEntries = investigations.map((inv) => ({
- url: `${baseUrl}/investigations/${inv.slug}`,
- lastModified: new Date(inv.lastUpdated),
+ const investigationEntries = Object.entries(investigationDatabase).map(([slug, inv]) => ({
+ url: `${baseUrl}/investigations/${slug}`,
+ lastModified: new Date(inv.lastUpdated || inv.date || new Date()),
  changeFrequency: 'weekly' as const,
  priority: 0.9,
  }));
 
  // Dynamic entity pages
- const entities = getEntities();
- const entityEntries = entities.map((entity) => ({
- url: `${baseUrl}/entities/${entity.type}/${entity.slug}`,
- lastModified: new Date(entity.lastUpdated),
- changeFrequency: 'weekly' as const,
- priority: 0.8,
+ const agencyEntries = Object.keys(agencyData).map((slug) => ({
+ url: `${baseUrl}/entities/agencies/${slug}`,
+ lastModified: new Date(),
+ changeFrequency: 'monthly' as const,
+ priority: 0.7,
  }));
 
- return [...staticEntries, ...investigationEntries, ...entityEntries];
+ const corporationEntries = Object.keys(corporationData).map((slug) => ({
+ url: `${baseUrl}/entities/corporations/${slug}`,
+ lastModified: new Date(),
+ changeFrequency: 'monthly' as const,
+ priority: 0.7,
+ }));
+
+ const individualEntries = Object.keys(individualData).map((slug) => ({
+ url: `${baseUrl}/entities/individuals/${slug}`,
+ lastModified: new Date(),
+ changeFrequency: 'monthly' as const,
+ priority: 0.7,
+ }));
+
+ const organizationEntries = Object.keys(organizationData || {}).map((slug) => ({
+ url: `${baseUrl}/entities/organizations/${slug}`,
+ lastModified: new Date(),
+ changeFrequency: 'monthly' as const,
+ priority: 0.7,
+ }));
+
+ return [
+ ...staticEntries,
+ ...investigationEntries,
+ ...agencyEntries,
+ ...corporationEntries,
+ ...individualEntries,
+ ...organizationEntries,
+ ];
 }
