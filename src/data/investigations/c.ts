@@ -446,8 +446,15 @@ const investigations_c: Record<string, InvestigationData> = {
    lastActivityDate: '2023-11-26',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2021', event: 'On January 7, 2021 (one day after the Capitol attack) a team of pro-Trump operatives gained unauthorized access to election equipment in Coffee County, Georgia.', type: 'political' },
-     { date: '2021-01-07', event: 'On January 7, 2021 (one day after the Capitol attack) a team of pro-Trump operatives gained unauthorized access to election equipment in Coffee County, Georgia.', type: 'political' },
+     { date: '2020-11-03', event: 'Joe Biden wins Georgia by 11,779 votes. Trump and allies immediately begin contesting the result and seeking access to election equipment to find "proof" of fraud that does not exist', type: 'political' },
+     { date: '2020-12-14', event: 'Cathy Latham, Coffee County Election Board Chairwoman, signs a fraudulent certificate as a "fake elector" claiming Trump won Georgia. She is one of 16 Georgia Republicans who sign the false document', type: 'critical' },
+     { date: '2021-01-07', event: 'One day after the Capitol attack, a forensic team hired by Sidney Powell arrives at Coffee County election offices. Local officials grant unrestricted access to Dominion voting machines, ballot scanners, and election management servers', type: 'critical' },
+     { date: '2021-01-07', event: 'Sullivan Strickler forensic personnel spend hours copying software and data: forensic images of election management servers, voting machine programming software, ballot images, and voter data', type: 'critical' },
+     { date: '2022-08-30', event: 'Washington Post publishes investigation revealing the Coffee County breach, contradicting local officials who had denied it occurred. Surveillance video proves officials lied about the unauthorized access', type: 'default' },
+     { date: '2022-09', event: 'Evidence emerges that Sullivan Strickler (the same forensic firm) accessed election systems in Michigan, Nevada, and other states as part of a coordinated multi-state operation', type: 'critical' },
+     { date: '2023-08-14', event: 'Fulton County DA Fani Willis includes the Coffee County breach as a key component of the Georgia RICO indictment against Trump and 18 co-defendants. The breach is described as part of a conspiracy to illegally access election equipment', type: 'critical' },
+     { date: '2023-10-19', event: 'Sidney Powell pleads guilty in the Georgia case, agreeing to cooperate as a witness. She had directed the hiring of the forensic team that breached Coffee County\'s systems', type: 'political' },
+     { date: '2023-11', event: 'Georgia decertifies affected election equipment due to security compromise from the breach. The copied software could be used to identify vulnerabilities for future attacks', type: 'default' },
      ],
  },
   'cia-torture': {

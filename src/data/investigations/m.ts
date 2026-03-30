@@ -175,7 +175,6 @@ const investigations_m: Record<string, InvestigationData> = {
      { date: '2022', event: 'Ukraine conflict drives $113B in U.S. military aid; defense contractor stocks hit all-time highs. Lockheed Martin stock rises 37%', type: 'political' },
      { date: '2023', event: 'Defense budget reaches $886B (FY2024 NDAA). Pentagon fails its sixth consecutive audit. Defense lobbying exceeds $100M annually', type: 'critical' },
    ],
-     ],
  },
   'media-control': {
  title: 'Media Consolidation and Control',

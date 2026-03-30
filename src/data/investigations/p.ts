@@ -43,8 +43,15 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2020-01-01',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020', event: 'THE BIG LIE: The sustained false claim that the 2020 election was stolen represents the most successful psychological manipulation campaign in modern American history.', type: 'political' },
-     { date: '2025', event: 'Continued developments in psychological manipulation campaigns with new evidence emerging', type: 'default' },
+     { date: '2014', event: 'Russia\'s Internet Research Agency (IRA) begins large-scale social media operations targeting American audiences, creating fake accounts and groups to amplify political division', type: 'critical' },
+     { date: '2016-06', event: 'Cambridge Analytica harvests data from 87 million Facebook users without consent. Using psychographic profiling, they target individuals with customized propaganda designed to exploit fears and biases. Steve Bannon serves as VP', type: 'critical' },
+     { date: '2017-01-11', event: 'Trump attacks mainstream journalism as "fake news" for the first time in a press conference. The term becomes weaponized to dismiss any unfavorable reporting, training supporters to reject established news outlets', type: 'political' },
+     { date: '2018-03-17', event: 'Cambridge Analytica whistleblower Christopher Wylie exposes the data harvesting operation. Facebook\'s Mark Zuckerberg testifies before Congress. CA shuts down but the psychological targeting model persists', type: 'critical' },
+     { date: '2018-10', event: 'MIT study published in Science finds false news spreads six times faster than truth on social media. Facebook internal research documents that 64% of extremist group joins come from algorithmic recommendations', type: 'default' },
+     { date: '2020-11-07', event: 'Trump launches the Big Lie, claiming the 2020 election was "stolen" despite zero evidence of widespread fraud, 60+ lawsuits dismissed, and recounts confirming results. 70% of Republicans come to believe the lie', type: 'critical' },
+     { date: '2021-01-06', event: 'The Big Lie culminates in the January 6 Capitol insurrection. Thousands who were psychologically manipulated through months of disinformation storm the Capitol attempting to stop certification', type: 'critical' },
+     { date: '2021-10-05', event: 'Facebook whistleblower Frances Haugen testifies before Congress with internal documents showing the platform knew its algorithms radicalized users but leadership suppressed findings and refused to act', type: 'critical' },
+     { date: '2022', event: 'Deepfake technology and AI-generated content emerge as new vectors for psychological manipulation, making it increasingly difficult to distinguish real from fabricated media', type: 'default' },
    ],
  },
   'pharma-conflicts': {
