@@ -164,7 +164,7 @@ const investigations_q: Record<string, InvestigationData> = {
  subtitle: 'How an online conspiracy theory became a vehicle for real-world violence, from January 6 to kidnapping plots',
  severity: 'critical',
  category: 'Criminal Justice',
- date: '2017-01-01',
+ date: 'October 28, 2017',
  lastUpdated: '2026-03-28',
  summary: 'QAnon began in October 2017 as anonymous posts on the imageboard 4chan claiming that a"deep state"cabal of Satan-worshipping cannibalistic pedophiles controlled the U.S. government. What started as fringe internet conspiracy rapidly metastasized into a mass radicalization movement, absorbing existing conspiracy theories and radicalizing millions through social media algorithms optimized for engagement. Adherents have been connected to multiple violent incidents including the January 6, 2021 Capitol insurrection, kidnapping plots, murders, and domestic terrorism. Despite the movement\'s core claims being entirely fabricated, social media platforms amplified QAnon content for years because it drove engagement and advertising revenue. When platforms finally acted in 2020-2021, the movement had already embedded itself in mainstream Republican politics, with multiple Q-affiliated candidates winning Congressional seats. The human cost includes destroyed families, endangered children through vigilante"rescues,"and a severely degraded information environment.',
  content: [
@@ -178,7 +178,7 @@ const investigations_q: Record<string, InvestigationData> = {
    'QAnon influencers have profited enormously through merchandise, donations, media operations, and political campaigns, creating financial incentives to maintain and escalate the conspiracy.',
    'Media coverage often treated QAnon as bizarre entertainment rather than a serious radicalization threat, contributing to its growth by introducing it to new audiences without adequate context.',
  ],
- tags: ['criminal-justice', 'conspiracy', 'environment'],
+ tags: ['QAnon', 'Radicalization', 'Domestic Terrorism', 'Conspiracy', 'January 6', 'Social Media'],
  sources: [
    { title: 'FBI, Anti-Government, Identity Based, and Fringe Political Conspiracies', url: 'https://www.justsecurity.org/wp-content/uploads/2019/08/420379775-fbi-conspiracy-theory-memo.pdf', type: 'Article' },
    { title: 'Q: Into the Storm, HBO Documentary', url: 'https://www.hbo.com/q-into-the-storm', type: 'Article' },

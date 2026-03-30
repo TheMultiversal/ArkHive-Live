@@ -322,7 +322,8 @@ const investigations_k: Record<string, InvestigationData> = {
  ],
  tags: ['Government Accountability', 'Investigation', 'Accountability'],
  sources: [
- { title: 'EEOC Charge Statistics', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
+ { title: 'National Archives - Executive Order 9066', url: 'https://www.archives.gov/milestone-documents/executive-order-9066', type: 'Document' },
+ { title: 'Densho: Japanese American Incarceration Archive', url: 'https://densho.org/', type: 'Report' },
  { title: 'DOJ Civil Rights Division', url: 'https://www.justice.gov/crt', type: 'Government' },
  { title: 'ACLU Racial Justice', url: 'https://www.aclu.org/issues/racial-justice', type: 'Report' },
  ],

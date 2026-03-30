@@ -1031,19 +1031,20 @@ const investigations_w: Record<string, InvestigationData> = {
    { title: 'Department of Labor Reports', url: 'https://www.dol.gov/agencies/whd', type: 'Reference' },
  ],
  affiliations: [
- { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Delivery driver misclassification', href: '/entities/corporations/amazon-inc' },
- { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' },
-
+ { id: '1', name: 'Amazon Inc', type: 'corporation', relationship: 'Delivery driver misclassification; FTC and state AG investigations into Flex driver classification practices', href: '/entities/corporations/amazon-inc' },
+ { id: '2', name: 'Uber', type: 'corporation', relationship: 'Built entire business model on classifying drivers as independent contractors; spent $200M on Proposition 22 to maintain misclassification in California', href: '/entities/corporations/uber' },
+ { id: '3', name: 'DOL', type: 'agency', relationship: 'Department of Labor Wage and Hour Division enforcement of ABC test and independent contractor rules', href: '/entities/agencies/dol' },
  ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2025-11-17',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-        { date: '2020', event: 'A 2020 study found that up to 40% of construction workers in some states were misclassified.', type: 'default' },
-        { date: '2021-01', event: 'Institute on Taxation and Economic Policy — Investigation documented and evidence gathering initiated', type: 'default' },
-        { date: '2022-01', event: 'Institute on Taxation and Economic Policy — Key developments identified; accountability analysis updated', type: 'default' },
-        { date: '2023-01', event: 'Institute on Taxation and Economic Policy — Continued monitoring and documentation of ongoing developments', type: 'default' },
-        { date: '2024-01', event: 'Institute on Taxation and Economic Policy — Latest findings incorporated into accountability record', type: 'default' },
+        { date: '2018', event: 'California Supreme Court issues Dynamex decision establishing ABC test for independent contractor status, making misclassification harder to sustain.', type: 'legal' },
+        { date: '2019-09', event: 'California passes AB5 codifying the ABC test; gig companies announce plans to fight the law.', type: 'legal' },
+        { date: '2020-11', event: 'Proposition 22 passes in California after gig companies spend $200 million; exempts app-based rideshare and delivery companies from AB5.', type: 'political' },
+        { date: '2021-08', event: 'Alameda County Superior Court Judge Frank Roesch rules Proposition 22 unconstitutional; ruling later partially reversed on appeal.', type: 'legal' },
+        { date: '2022-06', event: 'DOL proposes new rule to replace Trump-era independent contractor test with worker-friendly economic reality test.', type: 'default' },
+        { date: '2024-03', event: 'DOL final rule on independent contractor classification takes effect, making it harder for companies to classify workers as contractors under FLSA.', type: 'default' },
       ],
  },
   'wire-fraud-transnational-networks': {

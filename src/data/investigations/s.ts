@@ -951,9 +951,9 @@ const investigations_s: Record<string, InvestigationData> = {
    { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
- { id: '1', name: 'Richard Sackler', type: 'individual', relationship: 'Key figure in investigation', href: '/entities/individuals/richard-sackler' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal oversight and prosecution authority for criminal justice violations', href: '/entities/agencies/doj' },
-
+ { id: '1', name: 'Purdue Pharma', type: 'corporation', relationship: 'Sackler-owned manufacturer of OxyContin; pleaded guilty to federal fraud charges in 2007 ($634M penalty) and 2020 ($8.3B penalty); filed for bankruptcy in 2019', href: '/entities/corporations/purdue-pharma' },
+ { id: '2', name: 'DOJ', type: 'agency', relationship: 'Secured two guilty pleas from Purdue Pharma but never brought criminal charges against individual Sackler family members despite evidence of direct involvement', href: '/entities/agencies/doj' },
+ { id: '3', name: 'FDA', type: 'agency', relationship: 'Approved OxyContin with misleading label claiming lower addiction potential; failed to intervene as prescriptions and overdose deaths skyrocketed', href: '/entities/agencies/fda' },
  ],
    eventOriginDate: '1996-01-01',
    lastActivityDate: '2026-01-08',
@@ -1616,9 +1616,10 @@ const investigations_s: Record<string, InvestigationData> = {
    { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Reference' },
  ],
  affiliations: [
-      { id: '1', name: 'FBI', type: 'agency', relationship: 'Behavioral Analysis Unit investigations', href: '/entities/agencies/fbi' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal prosecution of serial offenders', href: '/entities/agencies/doj' },
-    ],
+ { id: '1', name: 'NRA', type: 'organization', relationship: 'Championed Stand Your Ground laws nationwide; provided model legislation and lobbying support in all 38 states that adopted SYG provisions', href: '/entities/organizations/nra' },
+ { id: '2', name: 'ALEC', type: 'organization', relationship: 'American Legislative Exchange Council created model SYG legislation distributed to state legislatures; NRA drafted the template through ALEC', href: '/entities/organizations/alec' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Civil rights investigations into racial disparities in SYG outcomes; investigated Trayvon Martin case under federal hate crime statutes', href: '/entities/agencies/doj' },
+ ],
    eventOriginDate: '2005-01-01',
    lastActivityDate: '2024-05-13',
    pageUpdatedDate: '2026-03-18',

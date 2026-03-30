@@ -1062,7 +1062,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'In Ukraine, the Bucha massacre of March-April 2022 became the defining atrocity of the war. After Russian withdrawal from the Kyiv suburb, investigators found bodies of hundreds of civilians with evidence of execution (hands bound, shot in the head), sexual violence, and torture. Russia initially denied responsibility but satellite imagery from Maxar Technologies confirmed bodies were present in streets during Russian occupation. The UN Human Rights Monitoring Mission has documented over 900 cases of summary execution of civilians.',
  'Russia has systematically blocked international accountability through its UN Security Council veto. Russia has vetoed or threatened to veto every Security Council resolution related to Syrian accountability, Ukraine referrals to the ICC, and establishment of international tribunals. This has prompted innovative legal responses including the creation of the Ukraine-specific International Centre for the Prosecution of the Crime of Aggression and universal jurisdiction prosecutions in European national courts.',
  ],
- tags: ['Financial Crime', 'Investigation', 'Accountability'],
+ tags: ['War Crimes', 'Crimes Against Humanity', 'International Law', 'Ukraine', 'Syria', 'Chechnya'],
  sources: [
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
