@@ -1034,10 +1034,10 @@ const investigations_r: Record<string, InvestigationData> = {
  { title: 'First Draft News', url: 'https://firstdraftnews.org/', type: 'Investigation' },
  ],
  affiliations: [
-      { id: '1', name: 'David Miscavige', type: 'individual', relationship: 'Scientology leader accused of abuse', href: '/entities/individuals/david-miscavige' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Foreign agents registration and espionage enforcement', href: '/entities/agencies/doj' },
-
-    ],
+ { id: '1', name: 'Vladimir Putin', type: 'individual', relationship: 'Directed Russian influence operations including 2016 U.S. election interference, European destabilization campaigns, and Africa Corps deployments', href: '/entities/individuals/vladimir-putin' },
+ { id: '2', name: 'GRU', type: 'agency', relationship: 'Russian military intelligence; conducted DNC hack, Macron email hack, Bundestag hack, and Skripal poisoning', href: '/entities/agencies/gru' },
+ { id: '3', name: 'DOJ', type: 'agency', relationship: 'Indicted 13 IRA operatives and 12 GRU officers for 2016 election interference; enforces FARA', href: '/entities/agencies/doj' },
+ ],
    eventOriginDate: '2016-01-01',
    lastActivityDate: '2025-02-13',
    pageUpdatedDate: '2026-03-18',
