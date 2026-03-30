@@ -4581,7 +4581,7 @@ const investigations_p: Record<string, InvestigationData> = {
    'Departments routinely classify police killings as "justified" before any independent investigation is complete, prejudicing all subsequent reviews and public perception',
    'The FBI\'s national use-of-force database remains voluntary, most police departments refuse to report their data, making comprehensive national accountability impossible',
  ],
- tags: ['criminal-justice'],
+ tags: ['criminal-justice', 'Police Brutality', 'Qualified Immunity', 'George Floyd', 'Black Lives Matter', 'Use of Force', 'Body Cameras', 'Police Accountability', 'Racial Profiling'],
  sources: [
    { title: 'Washington Post Police Shootings Database', url: 'https://www.washingtonpost.com/graphics/investigations/police-shootings-database/', type: 'Article' },
    { title: 'Mapping Police Violence', url: 'https://mappingpoliceviolence.us/', type: 'Article' },
@@ -4590,6 +4590,9 @@ const investigations_p: Record<string, InvestigationData> = {
    { title: 'DOJ: Investigation of the Minneapolis Police Department', url: 'https://www.justice.gov/crt/case/investigation-city-minneapolis-and-minneapolis-police-department', type: 'Article' },
    { title: 'Radley Balko: Rise of the Warrior Cop, The Militarization of America\\', url: 'https://www.publicaffairsbooks.com/titles/radley-balko/rise-of-the-warrior-cop/9781610394574/', type: 'Article' },
    { title: 'The Counted, Guardian US Database of Police Killings', url: 'https://www.theguardian.com/us-news/series/counted-us-police-killings', type: 'Article' },
+   { title: 'Fatal Encounters: Comprehensive Database of Police Killings Since 2000', url: 'https://fatalencounters.org/', type: 'Article' },
+   { title: 'DOJ: Pattern and Practice Investigations Under 34 U.S.C. 12601', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters/download', type: 'Government Report' },
+   { title: 'Pierson v. Ray, 386 U.S. 547 (1967): Origin of Qualified Immunity', url: 'https://supreme.justia.com/cases/federal/us/386/547/', type: 'Court Document' },
  ],
  affiliations: [
    { id: 'derek-chauvin', name: 'Derek Chauvin', type: 'individual', relationship: 'Convicted murderer of George Floyd. Knelt on Floyd\\', href: '/entities/individuals/derek-chauvin' },
@@ -4616,6 +4619,14 @@ const investigations_p: Record<string, InvestigationData> = {
    { name: 'Qualified Immunity Doctrine', role: 'Blocking civil rights lawsuits', status: 'charged', notes: 'Still in effect. Supreme Court refuses to revisit despite growing criticism.' },
    { name: 'Systematic Police Violence', role: 'Pattern-and-practice investigations', status: 'charged', notes: 'DOJ consent decrees in some cities, but compliance is voluntary and enforcement weak' },
    { name: 'Police Departments', role: 'Civil rights settlements', status: 'charged', notes: 'Cities pay $300M+/year in settlements, taxpayers pay, officers face no consequences' },
+ ],
+ statutes: [
+   { code: '42 U.S.C. § 1983 (Civil Rights Act of 1871)', description: 'Primary statute for suing state officials for constitutional violations; qualified immunity blocks the vast majority of § 1983 claims against police officers' },
+   { code: 'Qualified Immunity (Pierson v. Ray, 1967; Harlow v. Fitzgerald, 1982)', description: 'Judge-made doctrine requiring victims to prove officers violated "clearly established" law with nearly identical prior facts; Supreme Court refuses to revisit despite bipartisan criticism' },
+   { code: '18 U.S.C. § 242 (Deprivation of Rights Under Color of Law)', description: 'Federal criminal statute for willful violations of constitutional rights by government officials; rarely prosecuted against police due to high intent threshold' },
+   { code: '34 U.S.C. § 12601 (Pattern or Practice)', description: 'Authorizes DOJ to investigate and sue law enforcement agencies engaging in a pattern or practice of unconstitutional conduct; Sessions/Barr DOJ halted consent decrees' },
+   { code: '4th Amendment (Unreasonable Search and Seizure)', description: 'Excessive force claims analyzed under "objective reasonableness" standard from Graham v. Connor (1989); heavily favors officer perspective' },
+   { code: '14th Amendment (Equal Protection)', description: 'Prohibits racially discriminatory policing; Black Americans killed at 2.9x the rate of white Americans; proving discriminatory intent is nearly impossible' },
  ],
   },
   'police-militarization': {
