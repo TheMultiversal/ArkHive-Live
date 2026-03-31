@@ -230,8 +230,7 @@ const investigations_v: Record<string, InvestigationData> = {
  ],
  affiliations: [
  { id: '1', name: 'Nicolas Maduro', type: 'individual', relationship: 'Claimed fraudulent 2024 election victory despite overwhelming evidence showing 30-point opposition win, jailed or exiled opposition candidates', href: '/entities/individuals/nicolas-maduro' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal election law enforcement', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'Organization of American States', type: 'organization', relationship: 'Refused to recognize 2024 election results; demanded transparent vote count', href: '/entities/organizations/oas' },
  ],
    eventOriginDate: '2015-01-01',
    lastActivityDate: '2025-05-01',
@@ -268,8 +267,7 @@ const investigations_v: Record<string, InvestigationData> = {
  ],
  affiliations: [
  { id: '1', name: 'Nicolas Maduro', type: 'individual', relationship: 'Presided over 19,000+ extrajudicial killings by FAES, 15,000+ arbitrary political detentions, under ICC investigation for crimes against humanity', href: '/entities/individuals/nicolas-maduro' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal human rights enforcement authority', href: '/entities/agencies/doj' },
-
+ { id: '2', name: 'International Criminal Court', type: 'agency', relationship: 'Opened formal investigation into crimes against humanity in Venezuela in November 2021', href: '/entities/agencies/icc' },
  ],
    eventOriginDate: '2013-01-01',
    lastActivityDate: '2024-03-19',
@@ -418,8 +416,7 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Dominion Voting Systems', type: 'corporation', relationship: 'Controls approximately 37% of U.S. voting machine market, documented vulnerabilities found by security researchers, resists independent auditing citing proprietary software', href: '/entities/corporations/dominion-voting-systems' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal election law enforcement', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'Election Assistance Commission', type: 'agency', relationship: 'Oversees voluntary federal voting system certification program; testing standards lag modern cybersecurity threats', href: '/entities/agencies/eac' },
     ],
    eventOriginDate: '2008-01-01',
    lastActivityDate: '2025-12-23',
@@ -457,8 +454,7 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'Designated election infrastructure as critical infrastructure in 2017, CISA provides voluntary cybersecurity assistance but coverage remains incomplete across 8,000+ jurisdictions', href: '/entities/agencies/dhs' },
-      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal election law enforcement', href: '/entities/agencies/doj' },
-
+      { id: '2', name: 'FBI', type: 'agency', relationship: 'Investigated Russian GRU intrusions into state voter registration systems in all 50 states', href: '/entities/agencies/fbi' },
     ],
    eventOriginDate: '2002-01-01',
    lastActivityDate: '2025-03-17',
@@ -540,8 +536,6 @@ const investigations_v: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Federal Trade Commission', type: 'agency', relationship: 'Limited enforcement actions against connected car data practices but lacks comprehensive authority over vehicle tracking data broker industry', href: '/entities/agencies/federal-trade-commission' },
-      { id: '2', name: 'FTC', type: 'agency', relationship: 'Federal Trade Commission consumer protection and antitrust enforcement' },
-
     ],
    eventOriginDate: '1994-01-01',
    lastActivityDate: '2023-01-01',

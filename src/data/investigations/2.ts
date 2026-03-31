@@ -45,8 +45,8 @@ const investigations_2: Record<string, InvestigationData> = {
    timeline: [
      { date: '2000-11-07', event: 'ELECTION NIGHT: On November 7, 2000, the presidential race came down to Florida\'s 25 electoral votes', type: 'political' },
      { date: '2000-11-22', event: 'BROOKS BROTHERS RIOT: On November 22, 2000, Republican operatives staged a violent protest at the Miami-Dade County election office, forcing the canvassing board to stop its recount', type: 'political' },
-     { date: '2000-12-12', event: 'On December 12, 2000, in Bush v', type: 'default' },
-     { date: '2008', event: 'CONSEQUENCES: Bush\'s presidency brought the Iraq War (based on lies), Hurricane Katrina failures, the 2008 financial crisis, and Supreme Court appointments that later overturned Roe v', type: 'legal' },
+     { date: '2000-12-12', event: 'Supreme Court rules 5-4 in Bush v. Gore to halt Florida recount, effectively awarding presidency to George W. Bush along partisan lines', type: 'legal' },
+     { date: '2008', event: 'Bush presidency brought the Iraq War (based on false WMD claims), Hurricane Katrina failures, the 2008 financial crisis, and Supreme Court appointments that later overturned Roe v. Wade', type: 'legal' },
    ],
  },
   '2020-election-overturn': {
@@ -234,7 +234,7 @@ const investigations_2: Record<string, InvestigationData> = {
  subtitle: 'Wall Street Burned the Economy, Got Bailed Out, and Nobody Went to Prison',
  severity: 'critical',
  category: 'Financial Crime',
- date: '1999-01-01',
+ date: 'September 15, 2008',
  lastUpdated: '2026-03-28',
  summary: 'The 2008 financial crisis was the most devastating economic catastrophe since the Great Depression, triggered by Wall Street\'s deliberate and systematic fraud in the mortgage-backed securities market. Major banks (including Goldman Sachs, JPMorgan Chase, Lehman Brothers, Bear Stearns, Citigroup, and Countrywide Financial) knowingly packaged toxic subprime mortgages into complex financial instruments (CDOs and MBS), secured fraudulent AAA ratings from captured rating agencies, sold them to pension funds and municipalities, and then secretly bet against the same products using credit default swaps. When the house of cards collapsed, 8.7 million Americans lost their jobs, 10 million families lost their homes to foreclosure, household wealth declined by $13 trillion, and the global economy plunged into recession. The U.S. government responded with a $700 billion taxpayer-funded bailout (TARP) plus trillions in Federal Reserve emergency lending, rescuing the very institutions that caused the crisis. Despite the Financial Crisis Inquiry Commission concluding the crisis was "avoidable" and driven by"widespread failures in financial regulation,""dramatic breakdowns in corporate governance,"and"an explosive mix of excessive borrowing and risk,"not a single top Wall Street executive was criminally prosecuted. Instead, they received billions in bonuses. The banks emerged larger, more powerful, and more profitable than before, while working-class Americans (disproportionately Black and Latino homeowners targeted by predatory lending) were left to rebuild from nothing.',
  content: [
