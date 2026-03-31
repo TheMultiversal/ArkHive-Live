@@ -40,9 +40,10 @@ const investigations_u: Record<string, InvestigationData> = {
    lastActivityDate: '2025-02-23',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2004', event: 'MANAFORT\'S UKRAINE WORK: Paul Manafort earned $65+ million advising pro-Russian Ukrainian President Viktor Yanukovych and his Party of Regions from 2004-2014.', type: 'political' },
-     { date: '2014', event: 'MANAFORT\'S UKRAINE WORK: Paul Manafort earned $65+ million advising pro-Russian Ukrainian President Viktor Yanukovych and his Party of Regions from 2004-2014.', type: 'political' },
-     { date: '2014-02', event: 'In February 2014, Yanukovych fled Ukraine after the Maidan revolution.', type: 'default' },
+     { date: '2004', event: 'Paul Manafort begins advising pro-Russian Ukrainian President Viktor Yanukovych and the Party of Regions; earns $65M+ over the next decade', type: 'political' },
+     { date: '2014-02', event: 'Yanukovych flees Ukraine after the Maidan revolution; Russia subsequently invades Crimea; Manafort\'s primary client network collapses', type: 'critical' },
+     { date: '2016', event: 'Ukrainian "Black Ledger" reveals $12.7 million in undisclosed cash payments designated for Manafort from the Party of Regions', type: 'financial' },
+     { date: '2017-10-30', event: 'Mueller indicts Manafort and Rick Gates for money laundering, unregistered foreign lobbying, and false statements; reinvigorates FARA enforcement', type: 'legal' },
      ],
  },
   'usps-interference': {
@@ -74,12 +75,13 @@ const investigations_u: Record<string, InvestigationData> = {
  { id: '2', name: 'Louis DeJoy', type: 'individual', relationship: 'Postmaster General, implemented changes', href: '/entities/individuals/louis-dejoy' },
  ],
    eventOriginDate: '2020-01-01',
-   lastActivityDate: '2026-01-01',
+   lastActivityDate: '2026-03-18',
    pageUpdatedDate: '2026-03-18',
       timeline: [
-     { date: '2020', event: 'In 2020, Trump donor Louis DeJoy was installed as Postmaster General and immediately began degrading mail service months before an election with unprecedented mail-in voting due to COVID.', type: 'political' },
-     { date: '2020-05', event: 'DEJOY\'S APPOINTMENT: In May 2020, Louis DeJoy became Postmaster General, a Trump mega-donor with no postal experience but significant investments in USPS competitors.', type: 'default' },
-     { date: '2026', event: 'DeJoy remains Postmaster General as of 2026.', type: 'default' },
+     { date: '2020-05', event: 'Louis DeJoy appointed Postmaster General; Trump mega-donor with no postal experience and investments in USPS competitors', type: 'political' },
+     { date: '2020-08-13', event: 'Trump admitted on Fox Business he was blocking USPS funding to prevent mail-in voting; over 670 high-speed sorting machines removed or disabled', type: 'critical' },
+     { date: '2020-10', event: 'Federal judges ordered DeJoy to restore postal service; first-class mail on-time delivery had fallen from 92% to 64% in some areas', type: 'legal' },
+     { date: '2026', event: 'DeJoy remains Postmaster General; USPS board structure prevents easy removal even by new presidents', type: 'default' },
      ],
  },
   'undocumented-workers': {
