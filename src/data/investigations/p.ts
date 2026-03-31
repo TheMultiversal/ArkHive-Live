@@ -331,14 +331,15 @@ const investigations_p: Record<string, InvestigationData> = {
  { id: '6', name: 'DOJ', type: 'agency', relationship: 'Prosecuted seditious conspiracy', href: '/entities/agencies/doj' },
  { id: '7', name: 'FBI', type: 'agency', relationship: 'Investigated as domestic terrorism', href: '/entities/agencies/fbi' },
  ],
-   eventOriginDate: '1995-01-01',
+   eventOriginDate: '2016-09-15',
    lastActivityDate: '2025-02-20',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '1995', event: 'It was the first such conviction since 1995', type: 'legal' },
-     { date: '2016', event: 'ORIGINS: Gavin McInnes founded the Proud Boys in 2016 as a "Western chauvinist "organization', type: 'default' },
-     { date: '2020-09-01', event: 'TRUMP ENDORSEMENT: In the September 2020 debate, Trump told the Proud Boys to "stand back and stand by."The group immediately made it a slogan', type: 'default' },
-     { date: '2023-05-01', event: 'SEDITIOUS CONSPIRACY: In May 2023, Proud Boys leaders were convicted of seditious conspiracy, a rare charge requiring proof of conspiracy to overthrow the government', type: 'legal' },
+     { date: '2016-09-15', event: 'Gavin McInnes founded the Proud Boys as a "Western chauvinist" organization', type: 'default' },
+     { date: '2020-09-29', event: 'Trump told Proud Boys to "stand back and stand by" during presidential debate; group adopted as slogan', type: 'default' },
+     { date: '2021-01-06', event: 'Proud Boys led the breach of the U.S. Capitol; members pushed through barriers and broke windows', type: 'critical' },
+     { date: '2023-05-04', event: 'Proud Boys leaders convicted of seditious conspiracy; first such conviction since 1995', type: 'legal' },
+     { date: '2023-09-05', event: 'Enrique Tarrio sentenced to 22 years; longest January 6 sentence', type: 'legal' },
    ],
  },
   'plame-leak': {
@@ -542,8 +543,8 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2024-07-31',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2024', event: 'Trump v. United States Decision â€” initial events and core patterns documented', type: 'default' },
-     { date: '2029', event: 'Continued developments in trump v. united states decision with new evidence emerging', type: 'default' },
+     { date: '2024-02-06', event: 'D.C. Circuit Court of Appeals ruled Trump had no immunity from prosecution for actions taken while president', type: 'legal' },
+     { date: '2024-07-01', event: 'Supreme Court ruled in Trump v. United States granting presidents sweeping immunity for official acts; Sotomayor dissented warning president is now a king above the law', type: 'critical' },
    ],
  },
   'purdue-pharma-opioids': {
@@ -663,9 +664,10 @@ const investigations_p: Record<string, InvestigationData> = {
    { title: 'ProPublica Investigation Database', url: 'https://www.propublica.org/', type: 'Reference' },
  ],
  affiliations: [
- { id: '1', name: 'Department of Justice', type: 'agency', relationship: 'Federal investigation into university cover-up', href: '/entities/agencies/doj' },
- { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal investigation and prosecution authority', href: '/entities/agencies/doj' },
-
+ { id: '1', name: 'Jerry Sandusky', type: 'individual', relationship: 'Convicted of 45 counts of sexual abuse; sentenced to 30-60 years', href: '/entities/individuals/jerry-sandusky' },
+ { id: '2', name: 'Joe Paterno', type: 'individual', relationship: 'Head coach who was told of abuse but failed to report to police; died January 2012', href: '/entities/individuals/joe-paterno' },
+ { id: '3', name: 'Penn State University', type: 'organization', relationship: 'Settled for $60M+; Freeh Report found institutional coverup spanning 15 years', href: '/entities/organizations/penn-state' },
+ { id: '4', name: 'DOJ', type: 'agency', relationship: 'Federal investigation into university coverup; Spanier/Curley/Schultz convicted of child endangerment', href: '/entities/agencies/doj' },
  ],
    eventOriginDate: '1998-01-01',
    lastActivityDate: '2025-04-08',
@@ -705,8 +707,9 @@ const investigations_p: Record<string, InvestigationData> = {
    { title: 'SEC Litigation Releases', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Reference' },
  ],
  affiliations: [
- { id: '1', name: 'SEC', type: 'agency', relationship: 'Penny stock fraud enforcement; trading suspensions', href: '/entities/agencies/sec' },
-   { id: 'central-intelligence-agency', name: 'Central Intelligence Agency', type: 'agency', relationship: 'Related entity', href: '/entities/agencies/cia' },
+ { id: '1', name: 'SEC', type: 'agency', relationship: 'Penny stock fraud enforcement; suspends trading in dozens of stocks annually', href: '/entities/agencies/sec' },
+ { id: '2', name: 'FINRA', type: 'agency', relationship: 'Self-regulatory organization overseeing broker-dealers involved in penny stock promotion', href: '/entities/agencies/finra' },
+ { id: '3', name: 'FBI', type: 'agency', relationship: 'Investigates organized crime connections to pump-and-dump schemes', href: '/entities/agencies/fbi' },
  ],
    eventOriginDate: '1990-01-01',
    lastActivityDate: '2015-10-05',
