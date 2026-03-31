@@ -4968,12 +4968,11 @@ const investigations_c: Record<string, InvestigationData> = {
       { id: '2', name: 'Nuon Chea', type: 'individual', relationship: 'Brother Number Two and chief ideologist; convicted of genocide and crimes against humanity; sentenced to life', href: '/entities/individuals/nuon-chea' },
       { id: '3', name: 'United States', type: 'agency', relationship: 'Massive bombing campaign destabilized Cambodia; later supported Khmer Rouge diplomatically during Cold War' },
     ],
-   eventOriginDate: '1948-01-01',
+   eventOriginDate: '1975-04-17',
    lastActivityDate: '2024-12-15',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '1948', event: 'Applicable international law violations: Convention on the Prevention and Punishment of the Crime of Genocide (1948), Geneva Conventions (1949), Universal Declaration of Human Rights (1948), Intern', type: 'political' },
-     { date: '1969', event: 'The US bombing of Cambodia during the Vietnam War (Operation Menu and Operation Freedom Deal, 1969-1973) which dropped 2.', type: 'critical' },
+     { date: '1969', event: 'US bombing campaign (Operation Menu and Freedom Deal) drops 2.7 million tons of bombs on Cambodia, killing an estimated 100,000-500,000 civilians and destabilizing the country', type: 'critical' },
      { date: '1975-04-17', event: 'On April 17, 1975, Khmer Rouge forces captured Phnom Penh and immediately began the forced evacuation of the entire city', type: 'default' },
      { date: '1979', event: 'The regime fell in January 1979 when Vietnamese forces invaded Cambodia', type: 'default' },
      { date: '1991', event: 'The US and its allies recognized the ousted Khmer Rouge as Cambodia\'s legitimate UN representative until 1991 as part of Cold War opposition to Vietnam', type: 'default' },
@@ -5011,8 +5010,7 @@ const investigations_c: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'Leopold II', type: 'individual', relationship: 'Personal owner of the Congo Free State; directly profited from the forced labor and terror system that killed 10 million', href: '/entities/individuals/leopold-ii' },
-      { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial fraud enforcement', href: '/entities/agencies/sec' },
-
+      { id: '2', name: 'Belgian Parliament', type: 'agency', relationship: 'Annexed the Congo Free State in 1908 after international pressure exposed Leopold\'s atrocities; forced labor practices continued under Belgian colonial rule until independence in 1960', href: '/entities/agencies/belgian-parliament' },
     ],
    eventOriginDate: '1884-01-01',
    lastActivityDate: '2024-12-15',
@@ -6281,7 +6279,7 @@ const investigations_c: Record<string, InvestigationData> = {
  title: 'CIA Torture Program',
  subtitle: 'Enhanced Interrogation, Black Sites, and the Systematic Brutalization of Human Beings in America\'s Name',
  severity: 'critical',
- category: 'Environmental',
+ category: 'Government Abuse',
  date: '2001-01-01',
  lastUpdated: '2026-03-28',
  summary: 'Following the September 11 attacks, the CIA established a global network of secret"black site"prisons where detainees were subjected to torture techniques euphemistically called"enhanced interrogation."The program (authorized at the highest levels of the Bush administration and given legal cover by Justice Department lawyers) included waterboarding (simulated drowning), rectal feeding and rectal rehydration (sexual assault), prolonged sleep deprivation up to 180 hours, confinement in coffin-sized boxes, ice water baths, stress positions, mock executions, and wall slamming ("walling"). At least 119 detainees were held in the program. At least one, Gul Rahman, was tortured to death (chained to a cold concrete floor in a freezing cell, found dead of hypothermia. The 2014 Senate Intelligence Committee Torture Report) based on 6.3 million CIA documents, concluded the program was far more brutal than disclosed, produced no actionable intelligence that couldn\'t have been obtained through legal means, and that the CIA systematically lied to Congress, the White House, and the public about its effectiveness. When the Senate began investigating, the CIA hacked the Committee\'s computers. When evidence existed on videotape, CIA officer Jose Rodriguez ordered the destruction of 92 interrogation recordings. No CIA officer, no Bush administration official, and no Justice Department lawyer has ever been prosecuted. The only person imprisoned in connection with the torture program was John Kiriakou, the CIA whistleblower who revealed it to the public.',
@@ -6297,7 +6295,7 @@ const investigations_c: Record<string, InvestigationData> = {
    'When European courts found that Poland and Romania hosted CIA black sites and violated human rights, the U.S. government refused to cooperate with the investigations or acknowledge the program\'s scope.',
    'Gina Haspel\'s role at the Thailand black site was classified during her CIA Director confirmation hearings, senators could not publicly discuss her involvement in torture or evidence destruction, biasing the public record in her favor.',
  ],
- tags: ['environmental', 'justice'],
+ tags: ['CIA Torture', 'Black Sites', 'Enhanced Interrogation', 'War on Terror', 'Waterboarding', 'Rendition', 'Whistleblower Retaliation'],
  sources: [
    { title: 'Senate Select Committee on Intelligence -"Committee Study of the CIA\'s Detention and Interrogation Program"(Executive Summary)', url: 'https://www.intelligence.senate.gov/sites/default/files/publications/CRPT-113srpt288.pdf', type: 'Article' },
    { title: 'ACLU -"The Torture Report: What We Know About the CIA\'s Detention and Interrogation Program"', url: 'https://www.aclu.org/issues/national-security/torture/torture-report', type: 'Article' },
