@@ -30,7 +30,6 @@ const investigations_l: Record<string, InvestigationData> = {
  { title: 'DOE Lab Leak Assessment, WSJ', url: 'https://web.archive.org/web/2024/https://www.wsj.com/articles/covid-origin-china-lab-leak-807b7b0a', type: 'News Report' },
  { title: 'State Department Fact Sheet on WIV', url: 'https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/', type: 'Government Document' },
  { title: 'The Lancet COVID-19 Commission Task Force', url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01585-9/fulltext', type: 'Scientific Report' },
-   { title: 'FDA Enforcement Actions', url: 'https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts', type: 'Reference' },
  ],
  affiliations: [
  { id: '1', name: 'Wuhan Institute of Virology', type: 'organization', relationship: 'Site of potential leak', href: '/entities/organizations/wuhan-institute-virology' },
@@ -85,7 +84,7 @@ const investigations_l: Record<string, InvestigationData> = {
  { id: '3', name: 'NATO', type: 'organization', relationship: 'Conducted military operations', href: '/entities/organizations/nato' },
  { id: '4', name: 'Wagner Group', type: 'corporation', relationship: 'Exploited post-intervention chaos', href: '/entities/corporations/wagner-group' },
  ],
-   eventOriginDate: '1973-01-01',
+   eventOriginDate: '2011-03-19',
    lastActivityDate: '2022-10-11',
    pageUpdatedDate: '2026-03-18',
    timeline: [
