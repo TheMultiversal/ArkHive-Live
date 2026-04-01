@@ -525,7 +525,7 @@ const investigations_i: Record<string, InvestigationData> = {
  'The case of Roxsana Hernandez, a transgender Honduran woman who died in ICE custody in 2018 at age 33, exemplified systemic failures. An independent autopsy found evidence of physical abuse and that Hernandez had been symptomatic for days before receiving treatment. She was shackled to a hospital bed while dying of dehydration and HIV-related complications. ICE initially attributed her death to cardiac arrest.',
  'ICE\'s own Performance-Based National Detention Standards require medical screening within 12 hours of intake, access to emergency care, and chronic care management. However, compliance inspections are largely conducted by private contractors with financial ties to detention operators. A 2018 DHS OIG report found that 14 of 20 facilities inspected failed to meet medical care standards, yet none faced meaningful consequences.',
  ],
- tags: ['Criminal Justice', 'Investigation', 'Accountability'],
+ tags: ['ICE', 'Detention Deaths', 'Immigration', 'CBP', 'Private Prisons', 'Medical Neglect', 'DHS'],
  sources: [
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
@@ -694,7 +694,7 @@ const investigations_i: Record<string, InvestigationData> = {
  'Multi-level marketing companies weaponized influencer marketing. Influencers promoted MLM products from companies like Monat, Herbalife, and LuLaRoe to their followers; often without disclosing their financial relationship. FTC data shows 99% of MLM participants lose money. The combination of parasocial trust and predatory business models caused particular harm to women and minority communities that were disproportionately targeted.',
  'NFT promotions represented a new frontier of influencer fraud. Celebrities and influencers including Floyd Mayweather, DJ Khaled, and dozens of YouTube creators promoted NFT projects that collapsed after creators sold their holdings. The Bored Bunny NFT project, promoted by multiple influencers, lost 99% of its value. A class action lawsuit alleged that the Bored Ape Yacht Club used celebrity promoters; including Paris Hilton and Jimmy Fallon; to artificially inflate prices.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Influencer Fraud', 'Social Media', 'FTC', 'Crypto Promotion', 'Deceptive Marketing', 'Pump and Dump'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -775,7 +775,7 @@ const investigations_i: Record<string, InvestigationData> = {
  'Cigna\'s medical directors approved or denied claims in bulk without reading patient files, according to a 2023 ProPublica investigation. The system, called PxDx, allowed a single physician to deny over 50 claims per hour using diagnosis-procedure code matching. Cigna denied over 300,000 claims in a two-month period through this automated system. A subsequent lawsuit alleged the practice violated state insurance regulations requiring individualized medical review.',
  'Mental health parity laws require insurers to cover mental health treatment comparably to physical health, but enforcement has been largely absent. A 2023 DOL report found that insurers used more restrictive criteria for mental health claims than for medical claims in nearly every category. Patients with severe mental illness were denied inpatient care, forced into inadequate outpatient programs, or left without coverage entirely.',
  ],
- tags: ['Corporate Accountability', 'Investigation', 'Accountability'],
+ tags: ['Insurance Denials', 'Health Insurance', 'Prior Authorization', 'UnitedHealth', 'Claims Denial', 'Healthcare'],
  sources: [
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
@@ -891,7 +891,7 @@ const investigations_i: Record<string, InvestigationData> = {
  'Operation Mockingbird, MKUltra, COINTELPRO, and dozens of other programs demonstrated that intelligence agency lawlessness is not new. MKUltra conducted non-consensual experiments on U.S. citizens including administering LSD to unwitting subjects; at least one death resulted. COINTELPRO surveilled, infiltrated, and disrupted civil rights organizations. When the Church Committee exposed these abuses in 1975, reforms were enacted; but subsequent administrations systematically weakened oversight.',
  'The state secrets privilege allows the government to block lawsuits by claiming that litigation would expose classified information. Courts have dismissed cases brought by torture victims, warrantless surveillance targets, and whistleblowers based on government assertions that judges cannot independently verify. The privilege has been invoked to shield every major intelligence abuse from judicial review, creating what legal scholars describe as a "constitutional black hole."',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Intelligence Community', 'CIA', 'NSA', 'Impunity', 'Classified Operations', 'Oversight Failure', 'Whistleblower'],
  sources: [
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
  { title: 'The Intercept', url: 'https://theintercept.com/', type: 'Investigation' },

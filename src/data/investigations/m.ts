@@ -691,7 +691,7 @@ const investigations_m: Record<string, InvestigationData> = {
  'Menendez\'s wife Nadine was also charged in the scheme and alleged to have served as an intermediary. Prosecutors presented evidence that she facilitated meetings between Menendez and the businessmen and received direct payments and gifts. Both Jose Uribe and Wael Hana pleaded guilty and cooperated with prosecutors. The cooperation of co-defendants provided direct testimony about the corrupt exchanges.',
  'Menendez was convicted on all 16 counts in July 2024 including bribery, honest services fraud, extortion, acting as a foreign agent, and obstruction. He resigned from the Senate in August 2024. The conviction was the second major federal prosecution of Menendez; his 2015 trial on separate corruption charges ended in a hung jury. He faces decades in prison at sentencing.',
  ],
- tags: ['Political Corruption', 'Investigation', 'Accountability'],
+ tags: ['Menendez', 'Bribery', 'Senate Corruption', 'Gold Bars', 'FARA', 'Egypt', 'New Jersey'],
  sources: [
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
@@ -818,7 +818,7 @@ const investigations_m: Record<string, InvestigationData> = {
  'Lethal Autonomous Weapons Systems (LAWS) operate in a legal gray zone. Existing international humanitarian law requires human judgment in targeting decisions, but no treaty specifically addresses autonomous weapons. The Campaign to Stop Killer Robots, supported by 30 Nobel laureates and the UN Secretary-General, has called for a ban on autonomous weapons. Negotiations at the UN Convention on Certain Conventional Weapons have stalled due to opposition from the U.S., Russia, and Israel.',
  'The AI arms race between the U.S. and China threatens to create a dynamic where neither side is willing to accept meaningful constraints on autonomous weapons. Both nations have invested tens of billions in military AI. The absence of arms control frameworks for AI weapons; combined with the speed, opacity, and potential for escalation inherent in autonomous systems; creates risks that defense experts have compared to the early nuclear age before arms control treaties.',
  ],
- tags: ['Military-Industrial', 'Investigation', 'Accountability'],
+ tags: ['Military AI', 'Autonomous Weapons', 'Pentagon', 'Artificial Intelligence', 'Killer Robots', 'Project Maven'],
  sources: [
  { title: 'Congressional Research Service - Defense', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'Project on Government Oversight', url: 'https://www.pogo.org/', type: 'Report' },
@@ -854,7 +854,7 @@ const investigations_m: Record<string, InvestigationData> = {
  'Defense industry lobbying spending exceeds $100 million annually. Between 2000 and 2023, the top 10 defense contractors spent over $2 billion on lobbying and $400 million on campaign contributions. These expenditures ensure that defense budgets grow regardless of which party controls government. Congressional committees overseeing defense spending are consistently populated by members who receive the largest contributions from contractors.',
  'President Eisenhower\'s 1961 farewell address warning about the "military-industrial complex" predicted the dynamic precisely. He warned that the "conjunction of an immense military establishment and a large arms industry" created the potential for "the disastrous rise of misplaced power." Sixty years later, the defense industry has become so embedded in the American economy and political system that meaningful reduction in military spending is politically impossible despite documented waste, fraud, and strategic overextension.',
  ],
- tags: ['Military-Industrial', 'Investigation', 'Accountability'],
+ tags: ['Military-Industrial Complex', 'Defense Spending', 'Pentagon', 'Lockheed Martin', 'Revolving Door', 'War Profiteering'],
  sources: [
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
@@ -895,7 +895,7 @@ const investigations_m: Record<string, InvestigationData> = {
  'Deferred maintenance on military installations creates cascading readiness failures. The GAO estimated the maintenance backlog at $144 billion in 2023. Military housing has been documented with lead paint, mold, pest infestations, and structural deficiencies that affect the health and morale of service members and their families. Privatized housing managed by companies like Balfour Beatty has been subject to congressional investigations for fraud and negligence.',
  'The Pentagon has failed its financial audit every year since mandatory auditing began in 2018. In the most recent audit, the DOD could not account for over $3.8 trillion in assets. The department\'s financial systems are so antiquated and disorganized that auditors cannot determine how money is spent, whether equipment inventories are accurate, or whether contracts are fulfilled. The Pentagon is the only federal agency that has never passed an audit.',
  ],
- tags: ['Military-Industrial', 'Investigation', 'Accountability'],
+ tags: ['Military Readiness', 'Defense Waste', 'Pentagon Audit', 'Troop Welfare', 'Base Closures', 'Procurement Fraud'],
  sources: [
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
@@ -984,7 +984,7 @@ const investigations_m: Record<string, InvestigationData> = {
  'Mississippi is the poorest state in the nation, with approximately 19.6% of its population living below the poverty line. Despite having the highest poverty rate, Mississippi spent less than 10% of its TANF block grant on direct cash assistance to poor families. The state systematically diverted federal anti-poverty funds while fewer than 2% of eligible families received cash benefits. The fraud from the remaining funds compounded the impact on vulnerable communities.',
  'Former Governor Phil Bryant was named as an unindicted co-conspirator in civil proceedings. Text messages showed Bryant directing welfare funds toward specific projects and individuals. As of 2024, Bryant had not been criminally charged. The case exposed how block grant structures; which give states discretion over federal funds; enable diversion and corruption when oversight is inadequate. Similar patterns of TANF fund misuse have been documented in other states.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Mississippi', 'Welfare Fraud', 'TANF', 'Brett Favre', 'Government Corruption', 'Poverty', 'Public Funds'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -1022,7 +1022,7 @@ const investigations_m: Record<string, InvestigationData> = {
  'Monsanto produced Agent Orange, the herbicide used by the U.S. military in Vietnam from 1962 to 1971. Approximately 20 million gallons were sprayed over Vietnamese forests and farmland. The dioxin contaminant in Agent Orange has been linked to cancer, birth defects, and other health effects in an estimated 3 million Vietnamese people and 300,000 American veterans. Monsanto\'s own studies predicted the health effects before the spraying campaign began.',
  'Bayer\'s acquisition of Monsanto for $63 billion in 2018 was followed by over $20 billion in litigation costs and settlements. Bayer\'s stock price fell by more than 40% in the years following the acquisition as the scale of Monsanto\'s legal liabilities became apparent. The acquisition has been described as one of the worst corporate deals in history and demonstrated how decades of concealed corporate malfeasance can destroy value long after the original crimes.',
  ],
- tags: ['Financial Crime', 'Investigation', 'Accountability'],
+ tags: ['Monsanto', 'Bayer', 'Roundup', 'Glyphosate', 'PCB Contamination', 'Agent Orange', 'GMO'],
  sources: [
  { title: 'EPA Enforcement & Compliance History', url: 'https://echo.epa.gov/', type: 'Government' },
  { title: 'Inside Climate News', url: 'https://insideclimatenews.org/', type: 'Investigation' },

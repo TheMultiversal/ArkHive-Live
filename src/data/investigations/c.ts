@@ -1677,7 +1677,7 @@ const investigations_c: Record<string, InvestigationData> = {
  'Tech platforms have been slow to implement effective detection and reporting systems, with encryption debates complicating law enforcement efforts.',
  'Congressional investigations have found systemic failures in the government response, with CyberTipline reports overwhelming investigators.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Child Exploitation', 'CSAM', 'Trafficking', 'Online Safety', 'DOJ', 'NCMEC', 'Section 230'],
  sources: [
  { title: 'DOJ Child Exploitation Office', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
  { title: 'BishopAccountability.org', url: 'https://www.bishop-accountability.org/', type: 'Archive' },
@@ -1709,7 +1709,7 @@ const investigations_c: Record<string, InvestigationData> = {
  'The Catholic Church, Boy Scouts of America, USA Gymnastics, and numerous other institutions systematically protected abusers over victims for decades.',
  'Statutes of limitations continue to shield perpetrators and institutions from accountability, though reform movements have expanded legal windows for survivors.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Child Sexual Abuse', 'Institutional Abuse', 'Mandatory Reporting', 'Clergy Abuse', 'Cover-up', 'Grooming'],
  sources: [
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
@@ -1779,7 +1779,7 @@ const investigations_c: Record<string, InvestigationData> = {
  'The OPM breach in 2015 exposed personal data of 22 million federal employees and contractors, compromising U.S. intelligence capabilities.',
  'China\'s Volt Typhoon and APT groups have pre-positioned in critical U.S. infrastructure, raising fears of potential wartime disruption.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['China', 'Cyber Espionage', 'APT', 'National Security', 'PLA', 'OPM Breach', 'State-Sponsored Hacking'],
  sources: [
  { title: 'Congressional-Executive Commission on China', url: 'https://www.cecc.gov/', type: 'Government' },
  { title: 'Australian Strategic Policy Institute', url: 'https://www.aspi.org.au/report/uyghurs-sale', type: 'Report' },

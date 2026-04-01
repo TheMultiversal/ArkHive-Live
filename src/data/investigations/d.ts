@@ -485,7 +485,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'The revolving door between Silicon Valley and the Pentagon has accelerated dramatically. Former defense officials join tech companies as advisors, while tech executives receive security clearances and advisory roles. This merger eliminates the traditional separation between the military and the private sector, concentrating lethal technology decisions in the hands of individuals accountable to shareholders rather than citizens.',
  'Unlike traditional defense contractors subject to decades of regulatory frameworks, these tech companies often classify their tools as "software" to avoid weapons export controls and congressional oversight. The result is a parallel defense establishment that operates with less transparency, fewer checks, and greater political influence than the military-industrial complex Eisenhower warned about.',
  ],
- tags: ['Technology & Privacy', 'Investigation', 'Accountability'],
+ tags: ['Defense Technology', 'Tech Oligarchy', 'Palantir', 'DOGE', 'Military-Industrial Complex', 'Surveillance', 'Silicon Valley'],
  sources: [
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
  { title: 'The Intercept', url: 'https://theintercept.com/', type: 'Investigation' },
@@ -531,7 +531,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'The rise of AI-generated deepfakes and synthetic media has accelerated the crisis. By 2025, AI tools could generate photorealistic video of public figures saying things they never said, audio clones that fooled family members, and fabricated documents indistinguishable from originals. The cost of producing convincing disinformation dropped to near zero while the cost of verification remained high.',
  'The cumulative effect has been a collapse of shared reality. Gallup polling shows trust in mass media fell from 72% in 1976 to 32% in 2024. Simultaneously, partisan information silos have created populations that cannot agree on basic facts; a precondition for democratic collapse that authoritarian movements have historically exploited.',
  ],
- tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
+ tags: ['Disinformation', 'Fake News', 'Social Media', 'Propaganda', 'Deepfakes', 'Information Warfare', 'Media Literacy'],
  sources: [
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
@@ -670,7 +670,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'Norman Braman, Jeffrey Epstein, Allen Stanford, and numerous other donors with criminal histories leveraged their political contributions to gain access, influence, and in some cases, leniency. Stanford, who ran a $7 billion Ponzi scheme, donated millions to both parties and received personal meetings with members of Congress who then pressured the SEC to ease its investigation.',
  'The Citizens United decision in 2010 opened floodgates for dark money, making it nearly impossible to trace the origins of political donations. Super PACs and 501(c)(4) organizations became conduits for anonymous money, with total dark money spending exceeding $1 billion in the 2020 election cycle alone. The FEC, chronically underfunded and politically deadlocked, has proven unable or unwilling to enforce existing campaign finance laws.',
  ],
- tags: ['Financial Crime', 'Investigation', 'Accountability'],
+ tags: ['Dark Money', 'Campaign Finance', 'Political Donors', 'Corruption', 'Pay-to-Play', 'Citizens United'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -803,7 +803,7 @@ const investigations_d: Record<string, InvestigationData> = {
  'Beyond PFAS, DuPont\'s history of environmental crime spans decades. The company was responsible for widespread contamination from its Chambers Works facility in New Jersey, mercury pollution from its Belle, West Virginia plant, and exposure of workers to carcinogenic chemicals at multiple facilities. DuPont spun off its chemical liabilities into a subsidiary called Chemours in 2015, which environmental advocates called a deliberate attempt to shield the parent company from cleanup costs.',
  'In 2023, DuPont, Chemours, and Corteva (another DuPont spinoff) agreed to pay $1.185 billion to settle PFAS contamination claims from U.S. public water systems. 3M separately agreed to pay up to $12.5 billion for its role in PFAS contamination. Total industry liability for PFAS cleanup is estimated to exceed $100 billion.',
  ],
- tags: ['Financial Crime', 'Investigation', 'Accountability'],
+ tags: ['DuPont', 'PFAS', 'Chemical Contamination', 'Corporate Crime', 'Environmental Pollution', 'Teflon', 'C8'],
  sources: [
  { title: 'EPA Enforcement & Compliance History', url: 'https://echo.epa.gov/', type: 'Government' },
  { title: 'Inside Climate News', url: 'https://insideclimatenews.org/', type: 'Investigation' },

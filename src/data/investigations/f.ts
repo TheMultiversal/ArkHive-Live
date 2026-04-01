@@ -711,7 +711,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'The Department of Health and Human Services Inspector General reported in January 2019 that thousands more children may have been separated than previously known. The government\'s own tracking systems were so inadequate that it could not identify all separated families. As of 2024, more than 1,000 parents had still not been located.',
  'Medical professionals and child psychologists documented severe and potentially permanent psychological damage to separated children, including PTSD, depression, anxiety, and attachment disorders. The American Academy of Pediatrics called the policy "government-sanctioned child abuse." Multiple children attempted suicide while in government custody.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Family Separation', 'Zero Tolerance', 'Immigration', 'Child Detention', 'CBP', 'HHS', 'Trump Administration'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
@@ -752,7 +752,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Online radicalization pipelines moved users from mainstream platforms to progressively more extreme content. YouTube\'s recommendation algorithm was documented by researchers to funnel viewers from conservative content to white nationalist and conspiracy content. Platforms like 4chan, 8kun, Telegram, and Gab served as incubators for violent ideologies that subsequently manifested in mass shootings.',
  'The electoral success of far-right candidates; from local school boards to Congress; demonstrated the movement\'s mainstreaming. QAnon adherents won congressional seats. Great Replacement theory, once confined to neo-Nazi forums, was broadcast nightly on Tucker Carlson\'s Fox News show, reaching millions of viewers. The once-clear line between conservatism and extremism effectively dissolved.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Far Right', 'Extremism', 'White Nationalism', 'Domestic Terrorism', 'Radicalization', 'Online Extremism'],
  sources: [
  { title: 'Southern Poverty Law Center', url: 'https://www.splcenter.org/fighting-hate/extremist-files', type: 'Report' },
  { title: 'ADL Hate Extremism & Terrorism', url: 'https://www.adl.org/resources', type: 'Report' },
@@ -793,7 +793,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Social media monetization created financial incentives for extremism. YouTube creators discovered that increasingly provocative content generated more views and higher advertising revenue. A 2020 study by the Institute for Strategic Dialogue found that far-right content creators on YouTube earned an estimated $3.5 million annually from advertising on videos promoting extremist ideologies.',
  'Multiple mass shooters cited far-right media figures in their manifestos or social media posts. The Buffalo supermarket shooter, the El Paso Walmart shooter, and the Christchurch mosque shooter all referenced replacement theory content they consumed through online media. The direct pipeline from far-right media consumption to lethal violence is documented across dozens of cases.',
  ],
- tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
+ tags: ['Far Right Media', 'Propaganda', 'Radicalization', 'Social Media', 'YouTube', 'Monetized Extremism'],
  sources: [
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
@@ -831,7 +831,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Anti-union activity is aggressive and coordinated. When Starbucks workers began unionizing in 2021, the company spent over $240 million on anti-union consultants and law firms. The NLRB filed hundreds of unfair labor practice complaints against Starbucks. McDonald\'s and other chains maintain sophisticated anti-union training programs for managers, including scripts for discouraging union discussions.',
  'The Fight for $15 movement, launched in 2012, organized fast food workers demanding a $15 minimum wage and the right to unionize. While the movement achieved minimum wage increases in several states and cities, the federal minimum wage has remained at $7.25 since 2009; its longest period without an increase since it was established in 1938. Adjusted for inflation, today\'s federal minimum wage is worth less than it was in 1968.',
  ],
- tags: ['Labor Rights', 'Investigation', 'Accountability'],
+ tags: ['Fast Food', 'Wage Theft', 'Labor Rights', 'Minimum Wage', 'Fight for $15', 'Worker Exploitation'],
  sources: [
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
@@ -955,7 +955,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'After the crash, private equity firms and hedge funds bought hundreds of thousands of foreclosed homes at fire-sale prices, converting them to rental properties. Blackstone Group purchased over 80,000 single-family homes, becoming the largest landlord in the country. The same financial institutions that created the foreclosure crisis profited from buying the wreckage.',
  'The human cost: 10 million Americans lost their homes to foreclosure. 8.7 million jobs were eliminated. Household wealth fell by $16.4 trillion. Despite the scale of the fraud, only one senior banker; Kareem Serageldin of Credit Suisse; went to prison. The Obama administration\'s DOJ, under Attorney General Eric Holder (a former Covington & Burling attorney who represented banks), declined to prosecute executives at any major institution.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Financial Crisis', 'Profiteering', 'Wall Street', 'Foreclosure', 'Private Equity', 'Bailout', '2008'],
  sources: [
  { title: 'CFPB Enforcement Actions', url: 'https://www.consumerfinance.gov/enforcement/actions/', type: 'Government' },
  { title: 'Financial Crisis Inquiry Commission Report', url: 'https://www.govinfo.gov/content/pkg/GPO-FCIC/pdf/GPO-FCIC.pdf', type: 'Government' },
@@ -1038,7 +1038,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Pharmaceutical companies have been repeat FCPA offenders. Johnson & Johnson paid $70 million for bribing doctors and hospital administrators across Europe and Asia. Novartis paid $347 million for bribing doctors in Greece and South Korea. The pharmaceutical industry\'s business model in many countries relies on payments to healthcare officials that technically violate the FCPA but are treated as a cost of doing business.',
  'Defense contractors operate in the most corruption-prone sector. Lockheed Martin\'s bribery of Japanese officials in the 1970s helped inspire the FCPA itself. More recently, Rolls-Royce paid $800 million to settle charges of bribing officials across 12 countries over three decades. The revolving door between the Pentagon and defense contractors ensures that enforcement remains gentle.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Foreign Bribery', 'FCPA', 'Corruption', 'Corporate Crime', 'DOJ', 'SEC', 'International'],
  sources: [
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Transparency International', url: 'https://www.transparency.org/', type: 'Report' },
@@ -1074,7 +1074,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Chinese influence operations increasingly targeted American institutions. The DOJ\'s "China Initiative," launched in 2018, investigated hundreds of cases of alleged Chinese espionage at universities and research institutions; though the program was criticized for racial profiling. Chinese government-linked entities funded Confucius Institutes at over 100 U.S. universities, and TikTok\'s algorithm raised concerns about Chinese Communist Party influence over American information consumption.',
  'The broader pattern reveals a vulnerability inherent in American democracy: the openness of the political system creates attack surfaces for foreign influence. The Citizens United decision, which allowed unlimited political spending, made it easier to funnel foreign money through shell corporations and dark money networks. Enforcement of the Foreign Agents Registration Act (FARA) has been historically weak, with the DOJ bringing fewer than a dozen prosecutions per decade.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Foreign Interference', 'Russia', 'Saudi Arabia', 'Israel', 'China', 'FARA', 'Election Interference', 'Lobbying'],
  sources: [
  { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
  { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },
@@ -1122,7 +1122,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Oil refineries and petrochemical plants are concentrated in low-income communities and communities of color, creating "sacrifice zones" with elevated rates of cancer, respiratory disease, and birth defects. Louisiana\'s "Cancer Alley" stretch between Baton Rouge and New Orleans has cancer rates up to 50 times the national average, yet state regulators have continued issuing permits for new petrochemical facilities.',
  'The industry\'s criminal liability is systematically underprosecuted. A 2020 analysis by the Environmental Integrity Project found that the EPA referred fewer criminal cases to the DOJ under the Trump administration than any administration since the EPA was created. Even when fines are imposed, they typically represent a fraction of a percent of corporate revenue.',
  ],
- tags: ['Financial Crime', 'Environment', 'Investigation', 'Accountability'],
+ tags: ['Fossil Fuel', 'Environmental Crime', 'Climate Fraud', 'Oil Spill', 'Pipeline', 'Carbon Emissions'],
  sources: [
  { title: 'EPA Enforcement & Compliance History', url: 'https://echo.epa.gov/', type: 'Government' },
  { title: 'Inside Climate News', url: 'https://insideclimatenews.org/', type: 'Investigation' },
@@ -1163,7 +1163,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'The industry funds a network of climate denial think tanks and advocacy groups. The Global Climate Coalition, Americans for Prosperity, the Heartland Institute, and dozens of other organizations received tens of millions from fossil fuel companies to produce misleading research, lobby against climate legislation, and attack climate scientists. This network delayed meaningful U.S. climate action by at least two decades.',
  'Globally, fossil fuel subsidies exceed $7 trillion annually when accounting for unpaid environmental and health costs, according to the IMF. In the United States alone, direct and indirect subsidies to the fossil fuel industry exceed $600 billion per year. The industry\'s lobbying ensures these subsidies remain untouched while clean energy alternatives struggle for a fraction of that support.',
  ],
- tags: ['Environmental', 'Environment', 'Investigation', 'Accountability'],
+ tags: ['Fossil Fuel', 'Lobbying', 'Climate Denial', 'Koch Industries', 'Oil Industry', 'Carbon Emissions', 'Dark Money'],
  sources: [
  { title: 'EPA Enforcement & Compliance History', url: 'https://echo.epa.gov/', type: 'Government' },
  { title: 'Inside Climate News', url: 'https://insideclimatenews.org/', type: 'Investigation' },
@@ -1284,7 +1284,7 @@ const investigations_f: Record<string, InvestigationData> = {
  'Bahamian workers were among the worst-affected victims. Local contractors, caterers, and laborers who built the festival site were never paid for their work. Maryann Rolle, a local restaurant owner, spent $50,000 of her personal savings feeding festival workers and was never reimbursed. A GoFundMe campaign eventually raised over $200,000 for her.',
  'McFarland was sentenced to six years in federal prison in 2018 and ordered to forfeit $26 million. He was released in 2022 and immediately announced plans for "Fyre Festival II," selling tickets starting at $499. The broader case highlighted systemic failures in influencer marketing regulation, investor due diligence, and the SEC\'s inability to detect fraud before it reaches consumers.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Fyre Festival', 'Billy McFarland', 'Influencer Marketing', 'Wire Fraud', 'Consumer Fraud', 'FTC'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },

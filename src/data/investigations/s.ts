@@ -941,7 +941,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'In 2019, Purdue Pharma filed for bankruptcy with liabilities exceeding $10 billion from thousands of lawsuits filed by states, cities, counties, tribal nations, and individuals. The bankruptcy plan proposed by the Sackler family offered approximately $6 billion in exchange for legal immunity shielding all family members from future opioid-related lawsuits. The Supreme Court struck down this provision in June 2024, ruling that bankruptcy courts cannot release claims against non-debtors who have not themselves filed for bankruptcy.',
  'Despite contributing to over 500,000 American opioid overdose deaths, no Sackler family member has faced criminal charges. The family\'s wealth, estimated at over $11 billion, remains largely intact. Their name has been removed from museums and institutions including the Louvre, the Met, and the Guggenheim, but the financial consequences have been minimal relative to the profits generated. The Sackler case represents the quintessential example of how wealthy individuals insulate themselves from consequences of corporate crime.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Opioid Crisis', 'Sackler Family', 'Purdue Pharma', 'OxyContin', 'Pharmaceutical Crime', 'Bankruptcy', 'Opioid Deaths'],
  sources: [
  { title: 'CDC WONDER Drug Overdose Data', url: 'https://wonder.cdc.gov/mcd-icd10.html', type: 'Government' },
  { title: 'STAT News Opioid Coverage', url: 'https://www.statnews.com/tag/opioids/', type: 'Investigation' },
@@ -983,7 +983,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Jones\'s InfoWars generated an estimated $800 million in revenue between 2012 and 2022, much of it from supplement sales promoted during segments featuring Sandy Hook conspiracy content. Internal emails showed that InfoWars traffic and sales spiked during Sandy Hook coverage. Jones filed for personal bankruptcy in 2022, but a bankruptcy judge ruled in 2024 that the defamation judgments could not be discharged. InfoWars\'s assets were ordered to be sold to partially satisfy the judgments.',
  'The Sandy Hook disinformation campaign established a model that was replicated after subsequent mass shootings, including Parkland, Las Vegas, and Uvalde. The families\' successful litigation established an important legal precedent that those who profit from harmful conspiracy theories can be held financially accountable. However, the case also demonstrated the inadequacy of existing legal frameworks; it took nearly a decade of litigation for families to achieve any measure of accountability.',
  ],
- tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
+ tags: ['Sandy Hook', 'Alex Jones', 'InfoWars', 'Conspiracy Theory', 'Defamation', 'Mass Shooting Denial'],
  sources: [
  { title: 'Connecticut Court Records: Jones v. Sandy Hook Families', url: 'https://www.jud.ct.gov/', type: 'Legal Document' },
  { title: 'Texas Court Records: Heslin v. Jones', url: 'https://www.txcourts.gov/', type: 'Legal Document' },
@@ -1026,7 +1026,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'The House Ethics Committee investigation found "substantial evidence" that Santos violated federal law and House rules, converting campaign funds to personal use and filing fraudulent financial disclosure reports. Santos was expelled from the House on December 1, 2023, by a vote of 311-114; only the sixth member ever expelled and the first since the Civil War era without a criminal conviction. The vote was bipartisan, with 105 Republicans voting for expulsion.',
  'Santos pleaded guilty in August 2024 to wire fraud and aggravated identity theft. His case exposed failures in campaign finance oversight, media vetting, and party due diligence. Neither the Republican Party, which provided campaign support, nor the media covering the race, discovered the fabrications before the election. The case demonstrated how the American political system lacks effective mechanisms to verify candidates\' basic biographical claims.',
  ],
- tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
+ tags: ['George Santos', 'Congressional Fraud', 'Wire Fraud', 'Identity Theft', 'Campaign Finance', 'House Ethics'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -1068,7 +1068,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Congress attempted repeatedly to block arms sales to Saudi Arabia, particularly after the murder of journalist Jamal Khashoggi in 2018. The Senate passed a resolution to end U.S. military support for the Yemen war, which President Trump vetoed. Trump declared a "national emergency" to bypass congressional review and push through $8 billion in arms sales to Saudi Arabia and the UAE in 2019. Defense contractors including Raytheon, Lockheed Martin, and General Dynamics lobbied intensively to maintain the sales.',
  'The Yemen war created the world\'s worst humanitarian crisis. Over 377,000 people died from direct violence and war-related causes including disease and starvation. The Saudi blockade contributed to near-famine conditions affecting 16 million people. Despite these consequences, arms sales to Saudi Arabia remain a cornerstone of U.S. Middle East policy, driven by what former State Department officials describe as the "three pillars": oil security, counterterrorism cooperation, and defense industry profits.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Saudi Arabia', 'Arms Sales', 'Yemen War', 'Military-Industrial Complex', 'War Crimes', 'Lockheed Martin', 'Raytheon'],
  sources: [
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
@@ -1113,7 +1113,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'The psychological toll extends far beyond direct victims. An estimated 360,000 students have experienced gun violence at school since Columbine. Active shooter drills, which are now standard in American schools, have been shown to increase anxiety, depression, and stress in children. A generation of American students has grown up treating mass shooting preparation as a routine part of education, with documented long-term mental health consequences.',
  'The Bipartisan Safer Communities Act, signed in June 2022 after the Uvalde massacre, represented the first significant federal gun legislation in nearly 30 years; but its provisions were modest, including enhanced background checks for buyers under 21, funding for state crisis intervention orders, and mental health funding. It did not include an assault weapons ban, universal background checks, or magazine capacity limits. School shootings have continued unabated since its passage.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['School Shootings', 'Gun Violence', 'Mass Shooting', 'Active Shooter', 'Gun Control', 'NRA', 'Youth Safety'],
  sources: [
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
  { title: 'The Trace - Gun Violence Reporting', url: 'https://www.thetrace.org/', type: 'Investigation' },
@@ -1151,7 +1151,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Scientology\'s financial model extracts enormous sums from members. The "Bridge to Total Freedom" (Scientology\'s progression of paid courses) costs an estimated $400,000-$500,000 to complete. Members are pressured to purchase "Ideal Org" buildings, donate to the International Association of Scientologists, and buy materials libraries costing tens of thousands of dollars. The Church\'s real estate holdings alone exceed $3 billion, and overall assets have been estimated at $6-8 billion.',
  'The Church maintains an intelligence apparatus (the Office of Special Affairs, successor to the Guardian\'s Office) that conducts surveillance, harassment, and intimidation campaigns against former members, journalists, and critics. "Operation Snow White" in the 1970s was the largest infiltration of the U.S. government in history, with Scientology agents placed in 136 government agencies. The Church\'s 501(c)(3) tax-exempt status, obtained in 1993 after a decades-long battle with the IRS, shields it from financial transparency requirements.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Scientology', 'David Miscavige', 'Cult', 'Sea Org', 'Disconnection', 'Forced Labor', 'Tax Exemption'],
  sources: [
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
@@ -1195,7 +1195,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'The SEC has repeatedly failed to act on emerging threats. The agency was slow to regulate cryptocurrency markets, allowing billions in investor losses through FTX, Celsius, Voyager, and other collapses. It failed to address the gamification of trading platforms like Robinhood until after the GameStop episode exposed systemic risks. The agency\'s technology infrastructure lags years behind the markets it oversees.',
  'SEC whistleblower Harry Markopolos described the agency as suffering from a "capture" problem where senior staff identify more with the industry than with investors. The agency\'s specialized units (Market Abuse, Corruption, Complex Financial Instruments) are understaffed relative to the markets they monitor. Budget constraints, imposed by Congress at the urging of financial industry lobbyists, ensure the SEC remains outmatched by the firms it regulates.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['SEC', 'Regulatory Failure', 'Madoff', 'Revolving Door', 'Financial Regulation', 'Whistleblower', 'Enforcement'],
  sources: [
  { title: 'SEC Enforcement Actions - Ponzi Schemes', url: 'https://www.sec.gov/spotlight/enf-actions-ponzi.shtml', type: 'Government' },
  { title: 'FBI Financial Crimes Report', url: 'https://www.fbi.gov/investigate/white-collar-crime', type: 'Government' },
@@ -1292,7 +1292,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Lonnie David Franklin Jr. (the "Grim Sleeper") murdered at least 10 women in South Los Angeles between 1985 and 2007. Despite clear patterns connecting the killings, the investigation received minimal resources because victims were Black women in a low-income neighborhood. When the Los Angeles Times investigated in 2008, they found that LAPD had actively discouraged community awareness of the killings. Franklin was not arrested until 2010 through a familial DNA match.',
  'The structural failures continue. Thousands of sexual assault evidence kits remain untested in police storage across the country. A 2015 audit found over 10,000 untested kits in Detroit alone, leading to the identification of 817 serial sexual assaulters. The FBI\'s National Missing and Unidentified Persons System (NamUs) lists over 600,000 missing persons cases annually, but investigations are unevenly distributed based on the race, class, and gender of victims.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['Serial Killings', 'Criminal Investigation', 'FBI', 'Cold Case', 'Forensic Science', 'Victim Advocacy'],
  sources: [
  { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
  { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
@@ -1333,7 +1333,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Law enforcement failures in addressing sex trafficking are systemic. Victims are frequently arrested and prosecuted for prostitution rather than identified as trafficking victims. Training on victim identification varies wildly across jurisdictions. The FBI\'s annual Operation Cross Country raids recover hundreds of trafficked minors, but prevention and long-term victim services receive a fraction of the resources directed toward enforcement. Survivors report that the criminal justice system often retraumatizes rather than helps.',
  'The FOSTA-SESTA legislation (2018), which sought to hold websites liable for facilitating sex trafficking, had mixed results. While it shut down Backpage, it also eliminated harm reduction tools that sex workers (both trafficked and voluntary) used for safety screening. Research published in the Journal of Urban Economics found that FOSTA-SESTA was associated with increased violence against sex workers and decreased reporting of trafficking to law enforcement.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Sex Trafficking', 'Human Trafficking', 'TVPA', 'Exploitation', 'DOJ', 'Polaris Project', 'Survivor Rights'],
  sources: [
  { title: 'National Human Trafficking Hotline Data', url: 'https://humantraffickinghotline.org/en/statistics', type: 'Report' },
  { title: 'DOJ Human Trafficking Prosecution Unit', url: 'https://www.justice.gov/criminal', type: 'Government' },
@@ -1370,7 +1370,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Larry Nassar, team doctor for USA Gymnastics and Michigan State University, sexually assaulted over 500 women and girls under the guise of medical treatment over 25 years. Multiple victims reported the abuse to coaches, administrators, and even FBI agents, who failed to investigate or report. MSU paid $500 million in settlements. USA Gymnastics and the U.S. Olympic Committee were restructured. FBI agents who failed to properly investigate were referred for prosecution.',
  'Non-disclosure agreements (NDAs) are the primary tool institutions use to conceal exploitation. An estimated 33% of American workers are bound by NDAs, many signed as conditions of settlement after harassment or assault. States including California, New York, and Illinois have passed laws limiting the enforceability of NDAs that conceal sexual misconduct, but enforcement is inconsistent and NDAs remain a powerful deterrent to disclosure.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Sexual Exploitation', 'Power Abuse', 'Institutional Failure', 'Victim Rights', 'DOJ', 'Cover-up'],
  sources: [
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
@@ -1408,7 +1408,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Retaliation against those who report harassment is the primary deterrent to reporting. A 2016 EEOC task force found that 75% of employees who reported harassment experienced retaliation. Retaliation takes forms including termination, demotion, schedule changes, isolation, and blacklisting. In industries with freelance or contract workers (entertainment, media, academia), informal blacklisting is nearly impossible to prove but devastatingly effective.',
  'The industries with the highest rates of sexual harassment; restaurant/hospitality, agriculture, janitorial services, and domestic work; employ disproportionately low-wage workers, immigrants, and people of color who have the least power to report. The #MeToo movement\'s high-profile victories in entertainment and media have not translated into meaningful change for the workers most vulnerable to harassment. Tipped workers in restaurants, who depend on customer gratuities, report sexual harassment at rates five times higher than non-tipped workers.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Sexual Harassment', 'MeToo', 'Workplace', 'Title VII', 'EEOC', 'Forced Arbitration', 'Power Abuse'],
  sources: [
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
@@ -1446,7 +1446,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'The "DOGE" (Department of Government Efficiency) initiative led by Elon Musk in 2025 represented an unprecedented merging of tech industry interests and government power. Musk\'s team gained access to sensitive government systems while Musk\'s companies (SpaceX, Tesla, Neuralink, xAI) held billions in government contracts and were subject to federal regulation, creating conflicts of interest on a scale previously unseen in American government.',
  'Tech billionaires\' political influence extends beyond elections to the shaping of policy frameworks. The effective altruism movement, funded by tech wealth, has influenced AI policy discussions. Venture capitalist lobbying helped shape cryptocurrency regulation (or lack thereof) that contributed to billions in investor losses. The industry\'s preferred policy framework; self-regulation, light-touch oversight, and preemption of state consumer protection laws; has been the dominant approach for two decades.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Silicon Valley', 'Tech Politics', 'Dark Money', 'Elon Musk', 'DOGE', 'Platform Power', 'Lobbying'],
  sources: [
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
@@ -1492,7 +1492,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Artificial intelligence has dramatically expanded social engineering capabilities. Deepfake audio can now convincingly replicate voices in real-time, enabling criminals to impersonate executives in phone calls to authorize wire transfers. In 2024, a Hong Kong finance worker was deceived into transferring $25 million after a video conference in which every other participant was a deepfake of company executives. AI-generated phishing emails are more grammatically sophisticated and personalized than human-written attempts.',
  'The elderly are disproportionately targeted and victimized. Americans over 60 lost $3.4 billion to fraud in 2023, a 14% increase from the prior year. Tech support scams, grandparent impersonation scams, and romance fraud specifically target older adults. Recovery rates are extremely low; less than 10% of stolen funds are typically recovered. The social stigma of victimization prevents many targets from reporting, meaning actual losses far exceed reported figures.',
  ],
- tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
+ tags: ['Social Engineering', 'Cybercrime', 'BEC', 'Romance Scams', 'Deepfake', 'Phishing', 'Elder Fraud'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -1533,7 +1533,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'The SPAC structure was specifically designed to circumvent investor protections that apply to traditional IPOs. SPACs could make forward-looking financial projections that are prohibited in traditional IPO filings, enabling companies with no revenue to present optimistic growth models. The "safe harbor" for forward-looking statements protected SPAC sponsors from liability when projections proved wildly inaccurate; which they did in the vast majority of cases.',
  'The SEC under Chair Gary Gensler proposed rules in 2022 to increase SPAC disclosure requirements and align liability standards with traditional IPOs. The SPAC industry lobbied aggressively against the rules, spending millions through the U.S. Chamber of Commerce and financial industry trade groups. The boom-bust cycle of SPACs demonstrated how Wall Street creates complex financial structures that extract fees from retail investors while insulating insiders from risk.',
  ],
- tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
+ tags: ['SPAC', 'Blank Check', 'Securities Fraud', 'Nikola', 'SEC', 'Retail Investor', 'Wall Street'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -1571,7 +1571,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'The entertainment industry\'s response illustrated the limits of #MeToo accountability. Netflix fired Spacey from "House of Cards" and wrote his character out of the final season. Ridley Scott reshot all of Spacey\'s scenes in "All the Money in the World" with Christopher Plummer. However, Spacey\'s acquittals have emboldened a backlash narrative that frames accusers as liars and the #MeToo movement as having "gone too far."',
  'The case highlighted the challenges of prosecuting historic sexual assault in any court. Physical evidence is typically unavailable; witness memories are challenged as unreliable; and the passage of time creates reasonable doubt regardless of the credibility of allegations. Two of Spacey\'s accusers died during the period between allegations and trials. The legal outcomes in the Spacey case underscore the gap between the prevalence of assault documented by researchers and the rate of successful prosecution.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Kevin Spacey', 'Sexual Assault', 'Old Vic', 'MeToo', 'Criminal Trial', 'Power Abuse'],
  sources: [
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
@@ -1609,7 +1609,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Racial disparities in SYG outcomes are dramatic and well-documented. A John Roman/Urban Institute study found that in SYG states, homicides of Black people by white shooters were ruled justifiable 17% of the time, compared to just 1% when the racial positions were reversed. The Tampa Bay Tribune\'s investigation of Florida\'s SYG cases found that white defendants who killed Black victims went free 73% of the time, compared to 59% for white-on-white killings.',
  'SYG laws were championed by the NRA and the American Legislative Exchange Council (ALEC), which created model legislation distributed to state legislatures across the country. The firearms industry benefits from SYG laws because they increase the perceived utility of carrying weapons. Critics, including the American Bar Association, have called for repeal, arguing that the laws incentivize armed confrontation, increase overall violence, and incorporate racial bias into the legal definition of justifiable homicide.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Stand Your Ground', 'Castle Doctrine', 'NRA', 'ALEC', 'Gun Violence', 'Racial Profiling', 'Self-Defense'],
  sources: [
  { title: 'Bureau of Justice Statistics', url: 'https://bjs.ojp.gov/', type: 'Government' },
  { title: 'The Sentencing Project', url: 'https://www.sentencingproject.org/', type: 'Report' },
@@ -1682,7 +1682,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Starbucks hired the law firm Littler Mendelson (the largest management-side labor and employment firm in the U.S.) and reportedly spent over $30 million on anti-union efforts. The company\'s tactics drew from a well-established corporate playbook: delay bargaining to exhaust union momentum, file legal challenges to delay elections, appeal every NLRB ruling, and exploit the weak penalties under existing labor law (which makes unlawful termination a cost of doing business).',
  'The Starbucks campaign exposed the fundamental weakness of American labor law. NLRB remedies for illegal union suppression are limited to back pay and reinstatement; there are no punitive damages, no criminal penalties, and no personal liability for executives who order illegal actions. The average time between an unfair labor practice charge and an NLRB decision exceeds 18 months, during which the chilling effect of retaliation achieves its purpose. As of 2024, Starbucks had not reached a single collective bargaining agreement with any unionized store.',
  ],
- tags: ['Labor Rights', 'Investigation', 'Accountability'],
+ tags: ['Starbucks', 'Union Busting', 'NLRB', 'Unfair Labor Practice', 'Howard Schultz', 'Workers United'],
  sources: [
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
@@ -1756,7 +1756,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'The psychological effects of surveillance capitalism are well-documented. Internal Facebook research (leaked by whistleblower Frances Haugen in 2021) showed that Instagram made body image issues worse for 32% of teenage girls and that the platform\'s algorithms amplified content promoting eating disorders, self-harm, and suicidal ideation. The Surgeon General\'s 2023 advisory on youth mental health identified social media as a significant contributing factor to the youth mental health crisis.',
  'The United States has no comprehensive federal privacy law. The EU\'s General Data Protection Regulation (GDPR) provides stronger protections but enforcement has been inconsistent. California\'s Consumer Privacy Act offers partial protections but permits data collection with "consent" obtained through lengthy, unreadable privacy policies. The tech industry has spent over $100 million lobbying against federal privacy legislation, successfully blocking meaningful regulation for over two decades.',
  ],
- tags: ['Technology & Privacy', 'Civil Liberties', 'Investigation', 'Accountability'],
+ tags: ['Surveillance Capitalism', 'Data Mining', 'Big Tech', 'Privacy', 'Behavioral Modification', 'Shoshana Zuboff'],
  sources: [
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
  { title: 'The Intercept', url: 'https://theintercept.com/', type: 'Investigation' },
@@ -1795,7 +1795,7 @@ const investigations_s: Record<string, InvestigationData> = {
  'Victims\' families sued the U.S. government under the Federal Tort Claims Act, arguing that the Air Force\'s negligence in failing to report Kelley\'s conviction directly caused the massacre. In 2022, federal judge Xavier Rodriguez ruled the government was 60% responsible for the massacre and awarded $230 million in damages. The ruling was the first time the U.S. government was held financially liable for a mass shooting due to a background check system failure.',
  'The case exposed the fragility of the background check system that gun control advocates and opponents alike claim is a safeguard against prohibited persons obtaining firearms. The NICS (National Instant Criminal Background Check System) is only as effective as the data entered into it. Multiple mass shooters have exploited gaps in reporting, including the Virginia Tech shooter (whose mental health adjudication was not reported) and the Charleston church shooter (whose drug arrest was not processed within the three-day review period, triggering a \"default proceed\").',
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
+ tags: ['Sutherland Springs', 'Mass Shooting', 'Gun Violence', 'Air Force', 'Background Check', 'NICS Failure'],
  sources: [
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
  { title: 'The Trace - Gun Violence Reporting', url: 'https://www.thetrace.org/', type: 'Investigation' },

@@ -563,7 +563,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'A Cuyahoga County grand jury declined to indict either officer in December 2015, following a presentation by prosecutor Timothy McGinty that was widely criticized for advocating against indictment. McGinty commissioned expert reports concluding the shooting was justified; an unusual step for a prosecutor presenting to a grand jury. He was voted out of office in the next election. In 2020, the DOJ declined to bring federal civil rights charges.',
  'The case exposed systemic failures in police hiring and oversight. Loehmann had been deemed an "emotionally unstable" recruit by the Independence, Ohio police department and had resigned under threat of termination. Cleveland hired him without reviewing those records. An investigation by the DOJ found that the Cleveland Division of Police had a pattern of "unreasonable and unnecessary use of force." The city of Cleveland settled with the Rice family for $6 million in 2016.',
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
+ tags: ['Tamir Rice', 'Police Violence', 'Cleveland', 'Child Victim', 'Grand Jury', 'Use of Force', 'DOJ'],
  sources: [
  { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
@@ -603,7 +603,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The revolving door between Silicon Valley and government has accelerated. Former Google CEO Eric Schmidt has advised the Department of Defense on technology. Former Google executives have held positions in every administration since Obama. Tech companies collectively employ more than 3,000 lobbyists in Washington. The industry\'s policy preferences; low taxes, minimal regulation, weak labor protections, and permissive immigration for high-skilled workers; have been the default policy position of both parties.',
  'The tech billionaire class has fundamentally altered the relationship between capital and democracy. Unlike previous eras of concentrated wealth, tech billionaires control the infrastructure of public discourse itself. Their platforms determine what billions of people see, hear, and believe. Their algorithms shape political attitudes, consumer behavior, and cultural norms. This combination of wealth concentration and communication control represents a qualitatively new form of oligarchic power.',
  ],
- tags: ['Technology & Privacy', 'Investigation', 'Accountability'],
+ tags: ['Tech Billionaire', 'Political Influence', 'Elon Musk', 'Peter Thiel', 'Platform Power', 'Oligarchy', 'Dark Money'],
  sources: [
  { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds', type: 'Government' },
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
@@ -638,7 +638,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The AI industry has imported and amplified the tech sector\'s gender bias. Research teams at Google, Microsoft, and academic institutions have documented how AI systems trained on biased data reproduce and amplify gender discrimination in hiring algorithms, image recognition, natural language processing, and other applications. Amazon famously scrapped an AI recruiting tool in 2018 after discovering it systematically downgraded resumes from women.',
  'Despite public commitments to diversity, progress has been minimal. Major tech companies publish diversity reports showing incremental gains of 1-2 percentage points annually, while simultaneously cutting diversity, equity, and inclusion programs. The mass layoffs of 2022-2023 disproportionately affected diversity and inclusion teams. California\'s SB 826 (requiring female board representation) was struck down by courts. The pipeline problem narrative; blaming a lack of female candidates; persists despite evidence that the problem is retention, not recruitment.',
  ],
- tags: ['Technology & Privacy', 'Investigation', 'Accountability'],
+ tags: ['Tech Industry Sexism', 'Gender Discrimination', 'Silicon Valley', 'Harassment', 'Equal Pay', 'Diversity'],
  sources: [
  { title: 'EEOC Charge Statistics - Sex-Based Discrimination', url: 'https://www.eeoc.gov/data/charge-statistics-charges-filed-eeoc-fy-1997-through-fy-2021', type: 'Government' },
  { title: 'McKinsey Women in the Workplace Report', url: 'https://www.mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace', type: 'Report' },
@@ -677,7 +677,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The tech industry\'s H-1B visa system creates a form of indentured labor. Workers sponsored by tech companies for H-1B visas are legally tied to their employer; losing a job can mean deportation. This power imbalance suppresses wages and working conditions for visa holders. A 2020 EPI study found H-1B workers were paid 17% below market rate on average. Companies including Infosys, Tata Consultancy, and Cognizant have been accused of using the system to undercut American workers\' wages.',
  'The minerals that power technology devices are extracted under brutal conditions. Cobalt mining in the Democratic Republic of Congo, where approximately 70% of the world\'s supply is sourced, relies on an estimated 40,000 child laborers. Rare earth mining in China and lithium extraction in South America create environmental and health devastation. Despite supply chain transparency pledges, major tech companies have been unable or unwilling to ensure that their products are free from exploitative labor.',
  ],
- tags: ['Labor Rights', 'Investigation', 'Accountability'],
+ tags: ['Tech Labor', 'Worker Exploitation', 'Gig Economy', 'Content Moderation', 'Contractor Abuse', 'Silicon Valley'],
  sources: [
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
@@ -717,7 +717,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'Meta\'s acquisition strategy eliminated competition before it could threaten Facebook\'s dominance. The $1 billion acquisition of Instagram (2012) and $19 billion acquisition of WhatsApp (2014) were approved by regulators who failed to foresee how these platforms would become Facebook\'s primary growth engines. The FTC\'s 2020 antitrust lawsuit explicitly challenged these acquisitions as anti-competitive, arguing Facebook pursued a "buy or bury" strategy against potential rivals.',
  'Antitrust enforcement has been structurally outmatched. The tech industry spends over $70 million annually on lobbying. The FTC and DOJ Antitrust Division have budgets and staffing levels inadequate for the complexity of digital markets. The legal standard for monopoly (the consumer welfare standard adopted in the 1980s) focuses on prices, which is ill-suited to markets where services are "free" and the harm is to competition, privacy, and democratic discourse.',
  ],
- tags: ['Technology & Privacy', 'Investigation', 'Accountability'],
+ tags: ['Tech Monopoly', 'Antitrust', 'Google', 'Amazon', 'Apple', 'Meta', 'Market Dominance'],
  sources: [
  { title: 'FTC Competition Enforcement', url: 'https://www.ftc.gov/enforcement/competition-matters', type: 'Government' },
  { title: 'DOJ Antitrust Division', url: 'https://www.justice.gov/atr', type: 'Government' },
@@ -758,7 +758,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The political project of the tech oligarchy includes rolling back labor protections (gig economy classification), opposing antitrust enforcement, reducing taxes on capital gains and corporations, limiting government regulation of AI and technology, and weakening privacy protections that could undermine data-dependent business models. These policy preferences are advanced through direct political spending, lobbying, think tank funding, and the control of media platforms.',
  'The parallels to the Gilded Age (1870s-1900s) are precise: extreme wealth concentration, monopoly power, political corruption, labor exploitation, and the use of private power to overwhelm democratic institutions. The Progressive Era response to the original Gilded Age included antitrust legislation, labor rights, income taxation, and direct election of senators. Whether a similar reform movement will emerge in response to the tech oligarchy remains the defining political question of the current era.',
  ],
- tags: ['Technology & Privacy', 'Investigation', 'Accountability'],
+ tags: ['Tech Oligarchy', 'Billionaire Power', 'Platform Control', 'Regulatory Capture', 'Corporate Lobbying', 'Democracy'],
  sources: [
  { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds', type: 'Government' },
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
@@ -798,7 +798,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'Flavored products drove youth adoption. Mango, mint, fruit, and dessert flavors made nicotine products appealing to teenagers. The FDA found that over 80% of teen vapers cited flavors as the primary reason they started. Juul initially sold eight flavors before voluntarily pulling some under pressure. The FDA\'s enforcement actions were slow and inconsistent; the agency repeatedly delayed deadlines for manufacturers to submit products for review.',
  'Juul agreed to pay $438.5 million to settle a multi-state investigation into its youth marketing practices. The FTC sued Juul for deceptive marketing. Altria\'s $12.8 billion investment in Juul (giving the tobacco giant 35% ownership) revealed the fundamental alignment between traditional tobacco companies and the vaping industry. Despite regulatory actions, youth nicotine addiction continues through disposable vape products from companies like Elf Bar and Hyde that exploit enforcement gaps.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Vaping', 'Juul', 'Nicotine Addiction', 'Youth Health', 'FDA', 'E-Cigarette', 'Tobacco Industry'],
  sources: [
  { title: 'FTC Tech Enforcement', url: 'https://www.ftc.gov/enforcement/refunds', type: 'Government' },
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/', type: 'Report' },
@@ -847,7 +847,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The FCC has imposed penalties on carriers for privacy violations, but the fines are negligible relative to carrier revenues. The FCC proposed $200 million in fines against the four major carriers for selling location data, representing less than 0.1% of annual revenues. The telecom industry spends over $100 million annually on federal lobbying, successfully weakening privacy protections in the Telecommunications Act and blocking proposed FCC privacy rules.',
  'SIM-swapping attacks, in which criminals convince carriers to transfer a victim\'s phone number to a new SIM card, have enabled billions in cryptocurrency theft and identity fraud. Carrier employees have been bribed as little as $100-$500 to process unauthorized SIM swaps. Despite years of awareness, carriers have been slow to implement effective security measures, and victims face enormous difficulty obtaining compensation or even acknowledgment of the carrier\'s role in enabling the fraud.',
  ],
- tags: ['Technology & Privacy', 'Civil Liberties', 'Investigation', 'Accountability'],
+ tags: ['Telecom Privacy', 'Location Data', 'NSA', 'SIM Swapping', 'AT&T', 'T-Mobile', 'Surveillance', 'Data Breach'],
  sources: [
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
  { title: 'The Intercept', url: 'https://theintercept.com/', type: 'Investigation' },
@@ -931,7 +931,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'Abbott\'s migrant busing program, which transported over 100,000 migrants to cities including New York, Chicago, Washington D.C., and Denver, was designed primarily as a political provocation. Migrants were transported without adequate food, water, or weather-appropriate clothing, and dropped in cities without coordination with receiving authorities. Some buses arrived in sub-zero temperatures with migrants wearing only t-shirts. The program cost Texas taxpayers over $150 million.',
  'The floating barrier Abbott ordered installed in the Rio Grande near Eagle Pass resulted in additional deaths and a lawsuit from the federal government. The barrel barriers were placed without federal authorization in navigable waters. Justice Department attorneys argued the barriers violated the Rivers and Harbors Act and endangered lives. A federal judge ordered the barriers removed, but the Fifth Circuit Court of Appeals partially reversed the ruling, and the barriers remained as of 2024.',
  ],
- tags: ['Criminal Justice', 'Investigation', 'Accountability'],
+ tags: ['Texas Border', 'Operation Lone Star', 'Greg Abbott', 'Immigration', 'Cruelty', 'Razor Wire', 'Migrant Deaths'],
  sources: [
  { title: 'DHS Office of Inspector General Reports', url: 'https://www.oig.dhs.gov/', type: 'Government' },
  { title: 'American Immigration Council', url: 'https://www.americanimmigrationcouncil.org/research', type: 'Report' },
@@ -1016,7 +1016,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The removals served the interests of Southern plantation owners seeking to expand cotton cultivation into fertile Native American lands. Within a decade of removal, the acquired territories became some of the most profitable cotton-producing regions in the world, worked by enslaved African Americans. The removal thus served the dual purposes of land theft from Indigenous peoples and expansion of the slave economy.',
  'The Trail of Tears established precedents that shaped U.S.-Indigenous relations for the next two centuries: the principle that federal treaties with Native nations could be unilaterally abrogated; the use of military force to dispossess Indigenous peoples; the concentration of Native Americans on designated reservations; and the legal framework that enabled subsequent abuses including the Dawes Act (1887), residential boarding schools, and the termination era policies of the 1950s.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Trail of Tears', 'Native American', 'Indian Removal Act', 'Andrew Jackson', 'Cherokee', 'Genocide', 'Forced Relocation'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
@@ -1056,7 +1056,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The case was the catalyzing event for the Black Lives Matter movement. Alicia Garza, Patrisse Cullors, and Opal Tometi created the #BlackLivesMatter hashtag on the night of Zimmerman\'s acquittal. The movement grew into the largest civil rights mobilization since the 1960s, eventually expanding to address police violence, mass incarceration, and systemic racism. BLM protests following the murders of Michael Brown (2014), Eric Garner (2014), and George Floyd (2020) traced their origin to the Trayvon Martin case.',
  'The Trayvon Martin case exposed how race shapes the American legal system at every level: in Zimmerman\'s decision to profile and pursue Martin, in the police decision not to arrest, in the prosecution\'s challenges under Stand Your Ground law, in the jury\'s application of self-defense standards, and in the public\'s deeply divided reaction along racial lines. The case became a mirror reflecting America\'s unresolved racial divisions.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Trayvon Martin', 'George Zimmerman', 'Stand Your Ground', 'Racial Profiling', 'Civil Rights', 'Sanford Police'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
@@ -1093,7 +1093,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The massacre occurred during a period of sharp increases in antisemitic incidents. The Anti-Defamation League recorded 1,879 antisemitic incidents in 2018 (the third-highest year on record) and the number increased every year after the Tree of Life attack, reaching 3,697 in 2022. The "Great Replacement" theory, which motivated Bowers, also motivated the Christchurch, El Paso, and Buffalo mass shooters.',
  'The Pittsburgh Jewish community\'s response included refusing to host President Trump\'s visit unless he denounced white nationalism and calling for action on gun control and online radicalization. The broader community response raised over $6 million for victims\' families and the synagogue. The Tree of Life building is being rebuilt as a memorial and education center. The case became a landmark in the legal treatment of online radicalization as a factor in domestic terrorism and hate crimes prosecution.',
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
+ tags: ['Tree of Life', 'Pittsburgh', 'Antisemitic Violence', 'Mass Shooting', 'White Supremacy', 'Gun Violence'],
  sources: [
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
@@ -1135,7 +1135,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'Regulatory agencies were systematically gutted. The EPA, OSHA, CFPB, and FTC experienced staff reductions exceeding 50% in some divisions. Enforcement actions against corporate polluters, workplace safety violators, and consumer fraud perpetrators dropped precipitously. The administration framed the reductions as "efficiency" while the practical effect was the elimination of government\'s capacity to regulate corporate behavior.',
  'The administration\'s approach to executive power drew explicit comparisons to authoritarian governance models. The termination of inspectors general, attacks on judicial independence, deployment of military resources for domestic immigration enforcement, and the conflation of personal loyalty with government service represented a qualitative departure from democratic norms. Legal scholars from across the political spectrum warned of an emerging constitutional crisis.',
  ],
- tags: ['Political Corruption', 'Investigation', 'Accountability'],
+ tags: ['Trump Administration', 'Second Term', 'DOGE', 'Executive Power', 'Project 2025', 'Democratic Erosion'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
@@ -1174,7 +1174,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'Jared Kushner\'s portfolio of responsibilities (Middle East peace, government modernization, criminal justice reform) intersected constantly with his family\'s real estate business and personal financial interests. Kushner\'s family company received a $1.1 billion bailout for its troubled 666 Fifth Avenue property from a Qatari-linked fund during a period when Kushner was involved in Middle East policy. Kushner received a security clearance over the objections of career officials and the White House counsel.',
  'The culmination of Trump administration corruption was the pardon process. Trump issued 143 pardons and 94 commutations, many to political allies, personal associates, and individuals whose cases were championed by people connected to Trump. Pardons went to Steve Bannon (charged with defrauding Trump donors), Paul Manafort (convicted of financial crimes related to Ukraine lobbying), Roger Stone (convicted of witness tampering in the Russia investigation), and Charles Kushner (Jared\'s father, convicted of tax evasion and witness tampering).',
  ],
- tags: ['Financial Crime', 'Political Corruption', 'Investigation', 'Accountability'],
+ tags: ['Trump Administration', 'Corruption', 'Emoluments', 'Self-Dealing', 'Nepotism', 'Financial Conflicts'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
@@ -1210,7 +1210,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The administration\'s family separation policy at the border forcibly separated over 5,500 children from their parents as a deliberate deterrent against immigration. Internal documents revealed that officials knew the policy would cause lasting psychological harm to children. When a federal judge ordered reunification, the government acknowledged it had no system for tracking separated families. As of 2024, approximately 1,000 children had not been reunited with their parents.',
  'The first administration\'s handling of the COVID-19 pandemic resulted in an estimated 400,000+ American deaths by January 2021. The administration repeatedly contradicted its own public health officials, promoted unproven treatments, held super-spreader events at the White House, and politicized mask-wearing and vaccination. The Lancet Commission estimated that 40% of U.S. COVID deaths were avoidable with appropriate government response.',
  ],
- tags: ['Political Corruption', 'Investigation', 'Accountability'],
+ tags: ['Trump Administration', 'Executive Power', 'Norm Violation', 'DOJ Politicization', 'Institutional Damage'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
@@ -1250,7 +1250,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'Trump faced four criminal indictments in 2023-2024: federal charges for retaining classified documents (dismissed on procedural grounds); federal charges for conspiracy to overturn the 2020 election; New York state charges for falsifying business records to conceal hush money payments (convicted on 34 felony counts in May 2024); and Georgia state RICO charges for attempting to overturn the election results in that state.',
  'The pattern of Trump\'s corruption spans five decades and includes stiffing contractors (thousands of unpaid vendors and workers have been documented), discriminatory rental practices (a 1973 DOJ lawsuit for racial discrimination), ties to organized crime figures in the New York construction industry, and the use of NDAs and legal threats to silence critics. His businesses have filed for bankruptcy six times. The total documented pattern represents the most extensive record of personal corruption of any individual to hold the American presidency.',
  ],
- tags: ['Financial Crime', 'Political Corruption', 'Investigation', 'Accountability'],
+ tags: ['Trump Corruption', 'Financial Fraud', 'Tax Fraud', 'Emoluments', 'Self-Dealing', 'NY AG', 'Manhattan DA'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -1300,7 +1300,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The House voted 232-197 to impeach, with 10 Republicans joining all Democrats. The subsequent Senate trial (February 9-13, 2021) produced the most bipartisan impeachment conviction vote in American history, with 7 Republican senators voting guilty (57-43). However, this fell short of the two-thirds majority required for conviction. Senate Minority Leader Mitch McConnell voted to acquit on jurisdictional grounds but stated that Trump was "practically and morally responsible" for the attack.',
  'The failure to convict in either trial demonstrated the near-impossibility of removing a president through impeachment in a polarized political environment. Both trials were conducted under conditions where the outcome was predetermined by partisan alignment. The proceedings established extensive evidentiary records of presidential misconduct but produced no constitutional consequence, effectively confirming that a president backed by a sufficient Senate minority is immune from impeachment accountability.',
  ],
- tags: ['Political Corruption', 'Investigation', 'Accountability'],
+ tags: ['Trump Impeachment', 'Ukraine', 'Abuse of Power', 'Obstruction', 'January 6', 'Senate Trial'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
@@ -1350,7 +1350,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The distributional impact was skewed toward the wealthy. The Tax Policy Center found that in 2025, the top 1% of earners would receive 83% of the tax cut benefits. The bottom 60% of earners received an average tax cut of $500 or less. The elimination of the state and local tax (SALT) deduction cap actually raised taxes for many middle-class residents of high-tax states. Pass-through business income deductions primarily benefited wealthy business owners and real estate investors.',
  'The TCJA\'s international provisions created incentives for corporations to shift profits and operations offshore. The reduced rate on foreign-derived intangible income (FDII) and the base erosion and anti-abuse tax (BEAT) were designed to discourage profit shifting, but research by the Joint Committee on Taxation and academic economists found that multinational corporations continued to exploit loopholes and that the provisions were less effective than promised.',
  ],
- tags: ['Political Corruption', 'Investigation', 'Accountability'],
+ tags: ['Trump Tax Cuts', 'TCJA', 'Tax Policy', 'Wealth Inequality', 'Corporate Tax', 'Deficit', 'Trickle-down'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },
@@ -1391,7 +1391,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The Kurdish minority (approximately 20% of Turkey\'s population) has been subjected to intensified repression. The People\'s Democratic Party (HDP), the third-largest party in parliament representing Kurdish and leftist constituencies, has had thousands of members arrested, including co-chairs and mayors. The Turkish military conducted extensive operations in southeastern Turkey, imposing curfews on entire cities, and launched cross-border military operations in Syria and Iraq targeting Kurdish forces.',
  'Western response has been constrained by Turkey\'s strategic NATO membership, control of migration routes to Europe, and hosting of the Incirlik Air Base used for Middle East operations. The EU suspended Turkey\'s accession process but continued a $6 billion migration deal. The U.S. has maintained the alliance despite the imprisonment of American citizens and staff from U.S. diplomatic missions. The Turkey case illustrates how strategic alliances enable authoritarian consolidation without meaningful international consequence.',
  ],
- tags: ['International', 'Investigation', 'Accountability'],
+ tags: ['Turkey', 'Erdogan', 'Authoritarianism', 'Press Freedom', 'Political Prisoners', 'Coup', 'Kurdish Repression'],
  sources: [
  { title: 'Human Rights Watch Turkey Reports', url: 'https://www.hrw.org/europe/central-asia/turkey', type: 'Report' },
  { title: 'Amnesty International Turkey', url: 'https://www.amnesty.org/en/location/europe-and-central-asia/turkey/', type: 'Report' },
@@ -1430,7 +1430,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'Kozlowski and Swartz were convicted in 2005 on charges of grand larceny, securities fraud, and conspiracy, and each was sentenced to 8-1/3 to 25 years in prison. Both served approximately 7 years before being paroled in 2014. The relatively lenient sentences, compared to the magnitude of the theft, generated public criticism. Kozlowski was ordered to pay $167 million in restitution; Swartz was ordered to pay $72 million.',
  'The Tyco scandal, alongside the contemporaneous Enron and WorldCom frauds, catalyzed the passage of the Sarbanes-Oxley Act of 2002, which imposed new requirements for corporate financial reporting, executive certification of financial statements, and whistleblower protections. Tyco\'s stock lost over 80% of its value during the scandal. The company survived by replacing its entire leadership and eventually split into three separate companies.',
  ],
- tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
+ tags: ['Tyco International', 'Dennis Kozlowski', 'Corporate Fraud', 'Executive Theft', 'Securities Fraud', 'Corporate Governance'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -1470,7 +1470,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'The SCORPION unit reflected a nationwide trend of cities creating specialized "crime suppression" units that operate with reduced accountability. Similar units in other cities (Atlanta\'s "Red Dog" unit, Los Angeles\'s CRASH unit, Chicago\'s Special Operations Section) have produced analogous patterns of abuse. These units are typically deployed in communities of color with aggressive tactics, minimal training in de-escalation, and cultures that reward high arrest and stop numbers over constitutional policing.',
  'The Nichols case challenged the narrative that police violence is primarily a function of racial dynamics between white officers and Black victims; all five officers charged were Black. The case instead highlighted how institutional culture, inadequate oversight, aggressive policing mandates, and the absence of meaningful accountability mechanisms create conditions for violence regardless of officers\' racial backgrounds. The systemic analysis pointed to policy and structural reforms rather than individual character as the path to preventing future deaths.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Tyre Nichols', 'Memphis Police', 'SCORPION Unit', 'Police Violence', 'Excessive Force', 'DOJ'],
  sources: [
  { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
@@ -1505,7 +1505,7 @@ const investigations_t: Record<string, InvestigationData> = {
  'All five officers were fired on January 20, 2023, and arrested on January 26 on charges including second-degree murder, aggravated assault, aggravated kidnapping, official misconduct, and official oppression. In federal court, all five were charged with civil rights violations resulting in death. Three officers (Mills, Martin, and Bean) pleaded guilty to federal charges. Haley and Smith went to federal trial in October 2024 and were convicted of witness tampering but acquitted on the most serious civil rights charges.',
  'The Nichols family retained civil rights attorney Ben Crump and reached a $13 million settlement with the City of Memphis in April 2023. The case drew statements from President Biden, prompted Congressional action on policing reform (which ultimately stalled), and reignited national debate about police accountability. Nichols\' mother, RowVaughn Wells, testified before Congress and became an advocate for policing reform. The case underscored the life-and-death consequences of unchecked law enforcement power.',
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
+ tags: ['Tyre Nichols', 'Memphis Police', 'SCORPION Unit', 'Police Violence', 'Excessive Force', 'Body Camera'],
  sources: [
  { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },

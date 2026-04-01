@@ -306,7 +306,7 @@ const investigations_u: Record<string, InvestigationData> = {
  'The Trump second administration (2025-) reversed U.S. Ukraine policy dramatically. The administration pressured Ukraine to accept territorial concessions to Russia, suspended military aid shipments, and pursued direct negotiations with Putin that excluded Ukraine. The policy reversal undermined the NATO alliance, emboldened Russian aggression, and raised questions about whether Trump\'s longstanding reluctance to confront Russia reflected a geopolitical calculation or personal financial and political motivations.',
  'The Ukraine policy saga exposed the vulnerability of U.S. foreign policy to presidential corruption and domestic political manipulation. A country fighting for its survival became a political football in American domestic politics. The weaponization of military aid for personal political benefit, the politicization of intelligence assessments about Russian interference, and the eventual abandonment of a democratic ally under invasion illustrated how unchecked presidential power can subordinate national security to personal interests.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Ukraine', 'Foreign Policy', 'Impeachment', 'Military Aid', 'Zelensky', 'Trump', 'Quid Pro Quo'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Trump Inc. Investigation', url: 'https://www.propublica.org/series/trump-inc', type: 'Investigation' },

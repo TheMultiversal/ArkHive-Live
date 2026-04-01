@@ -289,7 +289,7 @@ const investigations_k: Record<string, InvestigationData> = {
  'The scandal was exposed through investigative journalism by the Wilkes-Barre Citizens\' Voice and a Juvenile Law Center investigation. The Pennsylvania Supreme Court eventually vacated over 4,000 of Ciavarella\'s juvenile convictions. Ciavarella was convicted of racketeering and sentenced to 28 years in federal prison. Conahan received 17.5 years. Developer Mericle received a one-year sentence for failing to report a felony. Operator Powell received 18 months.',
  'The impact on the children was devastating and lasting. Studies found that kids who were wrongly detained experienced higher rates of PTSD, depression, substance abuse, and criminal behavior as adults compared to peers whose cases were handled appropriately. Several children who passed through Ciavarella\'s courtroom later died by suicide. The scandal led to Pennsylvania reforms including mandatory legal representation for all juveniles, but for-profit juvenile detention continues nationwide.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Kids for Cash', 'Judicial Corruption', 'Ciavarella', 'Conahan', 'Juvenile Justice', 'Pennsylvania', 'RICO'],
  sources: [
  { title: 'DOJ Public Integrity Section', url: 'https://www.justice.gov/criminal/criminal-pin', type: 'Government' },
  { title: 'Juvenile Law Center', url: 'https://jlc.org/', type: 'Report' },
@@ -325,7 +325,7 @@ const investigations_k: Record<string, InvestigationData> = {
  'In 1983, Korematsu\'s conviction was vacated after attorney Peter Irons discovered that the government had deliberately suppressed evidence. The Office of Naval Intelligence had concluded that Japanese Americans posed no security threat, but the Solicitor General concealed this from the Supreme Court. Despite this revelation, the Supreme Court decision itself was never formally overruled; it was only repudiated in dicta in Trump v. Hawaii (2018).',
  'Congress passed the Civil Liberties Act of 1988, which formally apologized for the internment and provided $20,000 in reparations to surviving internees (approximately 82,000 people). President Reagan signed the act, acknowledging that the internment was caused by "race prejudice, war hysteria, and a failure of political leadership." The Japanese American experience remains a cautionary example of how wartime fear can override constitutional rights with the complicity of all three branches of government.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Japanese Internment', 'Korematsu', 'Supreme Court', 'Civil Liberties', 'Executive Order 9066', 'Wartime Injustice', 'Racial Discrimination'],
  sources: [
  { title: 'National Archives - Executive Order 9066', url: 'https://www.archives.gov/milestone-documents/executive-order-9066', type: 'Document' },
  { title: 'Densho: Japanese American Incarceration Archive', url: 'https://densho.org/', type: 'Report' },

@@ -1877,7 +1877,7 @@ const investigations_p: Record<string, InvestigationData> = {
  'Journalists have been systematically targeted during protest coverage. The U.S. Press Freedom Tracker documented over 600 press freedom violations during the 2020 protests alone, including journalists shot with rubber bullets, arrested, and tear-gassed while displaying press credentials. The targeting of journalists serves to reduce documentation of police violence and chill press coverage of protests.',
  'Mass surveillance of protesters using facial recognition technology, social media monitoring, cell phone tracking, and aerial surveillance has expanded dramatically. The FBI, DHS, and local police departments have monitored Black Lives Matter activists, environmental protesters, and other social movements using counterterrorism tools. Documents obtained through FOIA revealed that the FBI classified Black Lives Matter protests as "Black Identity Extremist" threats; a category created to justify surveillance of racial justice activists.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['Protest Violence', 'State Violence', 'Police Brutality', 'Tear Gas', 'Civil Liberties', 'First Amendment'],
  sources: [
  { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
@@ -1916,7 +1916,7 @@ const investigations_p: Record<string, InvestigationData> = {
  'The COVID-19 pandemic killed over 1.1 million Americans and exposed decades of underinvestment in public health infrastructure. The U.S. spent less than 3% of its healthcare budget on public health and prevention. CDC funding had declined 10% in real terms over the preceding decade. Hospital surge capacity was inadequate, the Strategic National Stockpile was depleted, and supply chains for basic protective equipment collapsed within weeks.',
  'Industrial air pollution causes an estimated 100,000-200,000 premature deaths annually in the United States. The EPA\'s enforcement of the Clean Air Act has been systematically weakened by industry lobbying and political interference. "Sacrifice zones"; communities near industrial facilities that bear disproportionate pollution burdens; are overwhelmingly low-income and minority areas. Cancer Alley in Louisiana, the Texas petrochemical corridor, and similar regions experience cancer and respiratory disease rates far above national averages.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['Public Health', 'Environmental Health', 'Toxic Exposure', 'Cancer Cluster', 'Water Contamination', 'Lead Poisoning'],
  sources: [
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },
@@ -1952,7 +1952,7 @@ const investigations_p: Record<string, InvestigationData> = {
  'The shooting occurred during the 2016 presidential campaign and became entangled in debates about terrorism, gun control, and LGBTQ+ rights. Despite the attack targeting an LGBTQ+ venue, some politicians focused exclusively on the terrorism angle while avoiding discussion of homophobia. No federal gun legislation resulted. Florida enacted a law raising the minimum age for rifle purchases from 18 to 21, but simultaneously armed teachers in schools.',
  'The Pulse building became a memorial site and was designated a National Memorial in 2021. The shooting galvanized the LGBTQ+ community\'s engagement with gun violence prevention advocacy. Annual remembrances draw thousands. Families of victims filed lawsuits against multiple parties. The wife of the shooter was acquitted of charges that she aided and abetted the attack. The case highlighted the persistent failure of the FBI\'s investigation-to-prevention pipeline.',
  ],
- tags: ['Violence & Justice', 'Gun Violence', 'Investigation', 'Accountability'],
+ tags: ['Pulse Nightclub', 'Orlando', 'Mass Shooting', 'LGBTQ Violence', 'Gun Violence', 'Domestic Terrorism'],
  sources: [
  { title: 'Gun Violence Archive', url: 'https://www.gunviolencearchive.org/', type: 'Archive' },
  { title: 'The Trace - Gun Violence Reporting', url: 'https://www.thetrace.org/', type: 'Investigation' },
@@ -1992,7 +1992,7 @@ const investigations_p: Record<string, InvestigationData> = {
  'The opioid epidemic killed over 500,000 Americans between 1999 and 2023, with OxyContin serving as the gateway drug that launched the crisis. As prescription opioid access tightened, addicted patients turned to heroin and later fentanyl; both cheaper and more accessible. The epidemic devastated rural communities, overwhelmed emergency services, flooded child welfare systems, and reduced American life expectancy for three consecutive years (2015-2017).',
  'Purdue filed for bankruptcy in 2019 as part of a $6 billion settlement plan that required the Sackler family to contribute $4.325 billion over 18 years. The Supreme Court initially rejected a provision granting the Sacklers broad personal immunity from future opioid lawsuits, but a revised settlement was approved in 2024. The Sackler name has been removed from museums and institutions worldwide, but no family member has faced criminal prosecution. The family retains billions in wealth accumulated from the opioid trade.',
  ],
- tags: ['Public Health', 'Investigation', 'Accountability'],
+ tags: ['Purdue Pharma', 'Opioid Crisis', 'OxyContin', 'Sackler Family', 'Pharmaceutical Fraud', 'FDA', 'Addiction'],
  sources: [
  { title: 'CDC WONDER Drug Overdose Data', url: 'https://wonder.cdc.gov/mcd-icd10.html', type: 'Government' },
  { title: 'STAT News Opioid Coverage', url: 'https://www.statnews.com/tag/opioids/', type: 'Investigation' },

@@ -247,7 +247,7 @@ const investigations_l: Record<string, InvestigationData> = {
  'Leo\'s influence extends beyond judicial selection. His network funds organizations that bring strategic litigation to the Supreme Court, file amicus briefs, conduct opposition research on progressive nominees, and run media campaigns to shape public opinion about the judiciary. The network\'s campaigns contributed to the overturning of Roe v. Wade (Dobbs, 2022), the expansion of gun rights (Bruen, 2022), the curtailing of agency power (Loper Bright, 2024), and the gutting of affirmative action (SFFA v. Harvard, 2023).',
  'The opacity of Leo\'s network raises fundamental questions about judicial independence. Supreme Court justices selected through Leo\'s process have received gifts, travel, and hospitality from Leo\'s associates. ProPublica reported that Justice Clarence Thomas accepted luxury trips from Harlan Crow, a Leo ally and Federalist Society donor, without disclosure. The intertwining of judicial selection, judicial lobbying, and judicial ethics represents an unprecedented capture of the third branch of government.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Leonard Leo', 'Dark Money', 'Federalist Society', 'Judicial Appointments', 'Supreme Court', 'Conservative Network'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
@@ -284,7 +284,7 @@ const investigations_l: Record<string, InvestigationData> = {
  'Religious exemption laws, often called "license to discriminate" statutes, allow businesses and individuals to refuse service to LGBTQ+ people based on religious beliefs. The Supreme Court\'s ruling in 303 Creative v. Elenis (2023) held that a web designer could refuse to create wedding websites for same-sex couples, establishing a First Amendment exception to public accommodation laws. Advocates warned the decision would open the door to broader discrimination.',
  'LGBTQ+ youth face disproportionate rates of homelessness, mental health crises, and family rejection. The Trevor Project\'s 2023 survey found that 41% of LGBTQ+ young people seriously considered suicide in the past year, and those in states with anti-LGBTQ+ legislation reported higher rates of distress. An estimated 40% of homeless youth identify as LGBTQ+. Conversion therapy, which every major medical organization has condemned as harmful, remains legal for adults in most states and for minors in 20 states.',
  ],
- tags: ['Civil Rights', 'Human Rights', 'Investigation', 'Accountability'],
+ tags: ['LGBTQ Rights', 'Discrimination', 'Marriage Equality', 'Employment Discrimination', 'Civil Rights', 'Anti-LGBTQ Legislation'],
  sources: [
  { title: 'CDC National Center for Health Statistics', url: 'https://www.cdc.gov/nchs/', type: 'Government' },
  { title: 'WHO Reports', url: 'https://www.who.int/publications', type: 'Report' },

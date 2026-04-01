@@ -909,7 +909,7 @@ const investigations_g: Record<string, InvestigationData> = {
  'Algorithmic management allows gig companies to exercise employer-level control while maintaining the legal fiction of independence. Uber sets prices, deactivates drivers for low ratings, and uses surge pricing algorithms to direct driver behavior, while Doordash penalizes dashers who decline deliveries. Workers have no ability to negotiate rates, choose routes, or set their own terms; the defining characteristics of genuine independent contracting.',
  'The gig model has spread beyond ride-hailing and delivery into healthcare, education, trucking, and professional services. Amazon\'s delivery network relies heavily on misclassified drivers through its Delivery Service Partner program. The erosion of employment relationships threatens to undo decades of labor protections as companies across industries adopt gig-style arrangements to cut labor costs.',
  ],
- tags: ['Labor Rights', 'Investigation', 'Accountability'],
+ tags: ['Gig Economy', 'Uber', 'Lyft', 'DoorDash', 'Worker Misclassification', 'Labor Rights', 'AB5'],
  sources: [
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
@@ -1038,7 +1038,7 @@ const investigations_g: Record<string, InvestigationData> = {
  'The revolving door between Goldman Sachs and the U.S. government is unmatched. Former Goldman executives have served as Treasury Secretary (Robert Rubin, Hank Paulson, Steven Mnuchin), White House economic advisors (Gary Cohn), and in senior roles at the Fed, SEC, and World Bank. This pipeline ensures that Goldman\'s interests are represented at the highest levels of government policy.',
  'Goldman\'s settlement pattern reveals the cost of doing business: the firm has paid over $16 billion in fines and settlements since 2000 while remaining one of the most profitable banks in the world. In 2023, Goldman generated $46 billion in revenue. No senior Goldman executive has ever been criminally convicted for the firm\'s institutional misconduct.',
  ],
- tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
+ tags: ['Goldman Sachs', 'Financial Fraud', 'Abacus', '1MDB', 'SEC', 'Wall Street', 'Securities Fraud'],
  sources: [
  { title: 'SEC v. Goldman Sachs (Abacus CDO), Complaint and Settlement', url: 'https://www.sec.gov/litigation/complaints/2010/comp-pr2010-59.pdf', type: 'Court Filing' },
  { title: 'Senate PSI: Wall Street and the Financial Crisis (Levin-Coburn Report)', url: 'https://www.hsgac.senate.gov/subcommittees/investigations/', type: 'Government Report' },
@@ -1083,7 +1083,7 @@ const investigations_g: Record<string, InvestigationData> = {
  'The experiments were not discovered until 2010, when Wellesley College historian Susan Reverby found Dr. Cutler\'s archived papers. President Obama personally called Guatemalan President Alvaro Colom to apologize. A Presidential Commission for the Study of Bioethical Issues confirmed the experiments and called them "clearly unethical." However, a federal judge dismissed a lawsuit by Guatemalan victims in 2012, ruling that the U.S. government had sovereign immunity.',
  'The Guatemala experiments were part of a broader pattern of U.S. government human experimentation including Project MKUltra (CIA mind control experiments), radiation experiments on unwitting patients at hospitals, and the Tuskegee study. Despite reforms enacted after each revelation, the pattern; experimentation on vulnerable populations without consent; recurred across decades and agencies.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Guatemala', 'Medical Experiments', 'STD Experiments', 'Human Rights', 'Bioethics', 'U.S. Public Health Service'],
  sources: [
  { title: 'Presidential Commission for the Study of Bioethical Issues: Ethically Impossible', url: 'https://bioethicsarchive.georgetown.edu/pcsbi/node/654.html', type: 'Government Report' },
  { title: 'Susan Reverby, "Normal Exposure" and Inoculation Syphilis (Journal of Policy History)', url: 'https://muse.jhu.edu/article/399233', type: 'Research' },

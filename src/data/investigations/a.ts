@@ -600,7 +600,7 @@ const investigations_a: Record<string, InvestigationData> = {
  'Goldman sold the CDO to investors without disclosing Paulson\'s role in selecting the underlying assets or his short position against them.',
  'The SEC charged Goldman with fraud in 2010. Goldman paid $550 million to settle -- the largest SEC penalty against a Wall Street firm at that time.',
  ],
- tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
+ tags: ['Goldman Sachs', 'Abacus CDO', 'Securities Fraud', 'Financial Crisis', 'SEC', 'Synthetic CDO'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -685,7 +685,7 @@ const investigations_a: Record<string, InvestigationData> = {
  'Founder John Rigas was convicted of conspiracy, bank fraud, and securities fraud and sentenced to 15 years in federal prison.',
  'Adelphia filed for bankruptcy in 2002, the sixth-largest bankruptcy in U.S. history at the time, wiping out shareholders.',
  ],
- tags: ['Corporate Fraud', 'Fraud', 'Investigation', 'Accountability'],
+ tags: ['Adelphia', 'Rigas Family', 'Cable Television', 'Securities Fraud', 'Corporate Fraud', 'Self-Dealing'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -719,7 +719,7 @@ const investigations_a: Record<string, InvestigationData> = {
  'Auditors at Deloitte & Touche failed to detect or report the massive fraud despite red flags in financial statements.',
  'The scandal contributed to the passage of the Sarbanes-Oxley Act, which imposed new corporate governance requirements.',
  ],
- tags: ['Corporate Fraud', 'Fraud', 'Investigation', 'Accountability'],
+ tags: ['Adelphia', 'Corporate Governance', 'Rigas', 'Accounting Fraud', 'Deloitte', 'Corporate Crime'],
  sources: [
  { title: 'SEC Enforcement Actions', url: 'https://www.sec.gov/litigation/litreleases.htm', type: 'Government' },
  { title: 'DOJ Financial Fraud Press Releases', url: 'https://www.justice.gov/criminal/criminal-fraud', type: 'Government' },
@@ -755,7 +755,7 @@ const investigations_a: Record<string, InvestigationData> = {
  'The revolving door between agribusiness corporations like Monsanto, Cargill, and the USDA has resulted in policies that prioritize industry profits over public health.',
  'Industrial farming practices enabled by weak regulation contribute to antibiotic resistance, water contamination, and soil degradation.',
  ],
- tags: ['Corporate Influence', 'Investigation', 'Accountability'],
+ tags: ['Agricultural Policy', 'Corporate Agriculture', 'Monsanto', 'Farm Subsidy', 'USDA', 'Food Policy', 'Agribusiness'],
  sources: [
  { title: 'EPA Enforcement & Compliance History', url: 'https://echo.epa.gov/', type: 'Government' },
  { title: 'Inside Climate News', url: 'https://insideclimatenews.org/', type: 'Investigation' },

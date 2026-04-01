@@ -377,7 +377,7 @@ const investigations_h: Record<string, InvestigationData> = {
  'Homelessness has reached crisis levels. The January 2023 Point-in-Time count found 653,104 people experiencing homelessness on a single night; the highest number since counting began in 2007. Chronic homelessness increased 77% between 2015 and 2023. States and cities have responded increasingly with criminalization; sweeping encampments, arresting people for sleeping outdoors; rather than addressing the shortage of affordable housing.',
  'Federal housing policy has systematically favored homeowners over renters and wealthy over poor. The mortgage interest deduction costs the federal government approximately $25 billion annually, with benefits flowing overwhelmingly to high-income households. Meanwhile, only one in four eligible families receives federal rental assistance due to chronic underfunding. The Section 8 waiting list exceeds 10 million households nationwide.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Housing Crisis', 'Subprime Mortgage', 'Foreclosure', 'Predatory Lending', 'Homelessness', 'Wall Street', 'Redlining'],
  sources: [
  { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
  { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },
@@ -415,7 +415,7 @@ const investigations_h: Record<string, InvestigationData> = {
  'Real estate investment trusts (REITs) and private equity firms have expanded into manufactured housing, student housing, senior living, and affordable housing tax credit projects. When private equity firm Carlyle Group acquired a portfolio of manufactured home communities, lot rents increased 50-70% within two years. Residents, who own their homes but not the land, had no alternative but to pay or abandon their homes.',
  'The U.N. Special Rapporteur on adequate housing has warned that the financialization of housing is a global human rights crisis. When housing is treated primarily as a commodity and financial instrument rather than a human need, the result is systematic displacement of lower-income populations. In the United States, the bottom 50% of income earners now spend an average of 42% of their income on housing; well above the 30% standard considered affordable.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Housing Financialization', 'Private Equity', 'Corporate Landlords', 'Blackstone', 'Rent Crisis', 'Wall Street Landlords'],
  sources: [
  { title: 'HUD Office of Inspector General', url: 'https://www.hudoig.gov/', type: 'Government' },
  { title: 'National Fair Housing Alliance', url: 'https://nationalfairhousing.org/', type: 'Report' },

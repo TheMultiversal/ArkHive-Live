@@ -583,7 +583,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'The Walton family, Walmart\'s founding dynasty, holds an estimated $250 billion in wealth; more than the bottom 40% of American families combined. While the family\'s wealth grew by billions annually, Walmart\'s median employee earned approximately $25,000 per year. The company\'s low-wage model has depressed wages industry-wide, as competitors match Walmart\'s labor practices to remain price-competitive. Economic studies have found that the opening of a Walmart store reduces average retail wages in the surrounding community.',
  'Walmart\'s global supply chain has been linked to labor abuses including the 2013 Rana Plaza factory collapse in Bangladesh that killed 1,134 garment workers. While Walmart denied direct sourcing from the factory, its labels were found in the rubble. The company\'s relentless pressure on suppliers to reduce costs has been linked to factory safety shortcuts, child labor, and below-subsistence wages in developing countries. Walmart\'s "everyday low prices" are subsidized by the exploitation of workers from Arkansas to Southeast Asia.',
  ],
- tags: ['Labor Rights', 'Investigation', 'Accountability'],
+ tags: ['Walmart', 'Labor Rights', 'Wage Theft', 'Union Suppression', 'Working Conditions', 'Worker Safety'],
  sources: [
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },
@@ -664,7 +664,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Guantanamo Bay detention facility has held approximately 780 detainees since 2002, many for over 20 years without trial. At its peak, the facility held detainees based on intelligence assessments rather than evidence that could withstand judicial scrutiny. The Supreme Court ruled in Boumediene v. Bush (2008) that detainees had habeas corpus rights, but the practical effect was limited. As of 2024, 30 detainees remained, some never charged. The facility costs approximately $540 million per year to operate; over $13 million per detainee annually.',
  'The NSA\'s mass surveillance programs, revealed by Edward Snowden in 2013, showed that the government collected bulk telephone metadata on virtually every American, tapped internet cables, and monitored communications of foreign leaders including allied heads of state. The programs operated under secret court orders from the FISA Court, which approved over 99% of government requests. The surveillance state built in the name of counterterrorism represented the most extensive government monitoring of citizens in American history.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['War on Terror', 'CIA', 'NSA', 'Torture', 'Mass Surveillance', 'Drone Strikes', 'Rendition'],
  sources: [
  { title: 'Electronic Frontier Foundation', url: 'https://www.eff.org/issues/mass-surveillance-technologies', type: 'Report' },
  { title: 'The Intercept', url: 'https://theintercept.com/', type: 'Investigation' },
@@ -713,7 +713,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'The USA PATRIOT Act, signed October 26, 2001; just 45 days after 9/11; vastly expanded government surveillance powers. National Security Letters allowed the FBI to demand records from libraries, internet providers, and financial institutions without judicial oversight. "Sneak and peek" warrants allowed searches without informing the target. The Act was passed with minimal debate; few members of Congress read the 342-page bill. Most provisions were repeatedly reauthorized over the following two decades.',
  'The historical pattern reveals a cycle: crisis provokes fear; fear justifies suspension of rights; government agencies expand power; abuses are revealed years later; commissions denounce the violations; apologies are issued; and the legal precedents remain available for next time. Japanese internment was condemned and victims compensated in 1988. The Church Committee exposed COINTELPRO in 1975. The Senate torture report was released in 2014. But the mechanisms of surveillance and detention remain operational, available for activation at the next crisis.',
  ],
- tags: ['Military-Industrial', 'Investigation', 'Accountability'],
+ tags: ['Wartime Civil Liberties', 'Alien and Sedition Acts', 'PATRIOT Act', 'Japanese Internment', 'Habeas Corpus', 'First Amendment'],
  sources: [
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
@@ -838,7 +838,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Law enforcement response has been criticized as inadequate relative to the threat. A 2020 DHS whistleblower alleged that the Trump administration directed analysts to downplay the white supremacist terrorism threat to align with the president\'s political interests. The FBI\'s domestic terrorism resources have historically been disproportionately focused on left-wing, anarchist, and environmental extremism, despite the lethality data. After the January 6 insurrection, DHS increased its focus on domestic violent extremism.',
  'The political dimension has complicated law enforcement response. Republican officials have resisted legislation specifically targeting white supremacist terrorism, framing it as an attack on conservative speech. The "great replacement" theory, once confined to neo-Nazi forums, has been promoted by mainstream media figures including Tucker Carlson and endorsed by Republican elected officials. The mainstreaming of white supremacist ideology has blurred the line between protected speech and incitement, complicating prevention efforts.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['White Supremacist Terrorism', 'Domestic Terrorism', 'Hate Crime', 'FBI', 'Radicalization', 'Lone Wolf'],
  sources: [
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
@@ -881,7 +881,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Hate crimes targeting specific communities have produced devastating attacks. The 2019 El Paso massacre targeted Hispanic shoppers near the Mexican border. The 2019 Poway synagogue shooting wounded a rabbi. The 2017 Charlottesville car attack killed counter-protester Heather Heyer. Anti-Asian hate crimes surged 339% in 2021. Anti-LGBTQ+ violence reached record levels, with the 2022 Club Q shooting in Colorado Springs killing 5 people. The Sikh temple shooting in Oak Creek, Wisconsin in 2012 killed 7 worshippers.',
  'Law enforcement\'s relationship with white supremacist violence is complicated by documented infiltration. A 2006 FBI intelligence assessment warned that white supremacist groups were actively infiltrating law enforcement agencies. A subsequent 2015 report reaffirmed the finding. The Plain View Project documented hundreds of active-duty officers posting racist and extremist content on social media. This infiltration undermines community trust and raises questions about whether incidents of police violence against people of color have ideological dimensions beyond institutional racism.',
  ],
- tags: ['Violence & Justice', 'Investigation', 'Accountability'],
+ tags: ['White Supremacist Violence', 'Hate Crime', 'Racial Violence', 'Extremism', 'ADL', 'SPLC'],
  sources: [
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
@@ -927,7 +927,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'Educational inequality is maintained through property-tax-based school funding that ensures schools in wealthy (predominantly white) districts receive significantly more resources than those in poor (predominantly Black and brown) communities. The achievement gap is more accurately described as an opportunity gap. Per-pupil spending differentials of $10,000 or more between adjacent districts are common. Predominantly non-white school districts receive $23 billion less in state and local funding than predominantly white districts serving the same number of students.',
  'Healthcare disparities produce measurable differences in life expectancy and health outcomes. Black Americans have a life expectancy 5.5 years shorter than white Americans. Black women are 3-4 times more likely to die in childbirth than white women. The COVID-19 pandemic exposed these disparities starkly; age-adjusted mortality rates for Black Americans were 1.4 times those of white Americans. These outcomes reflect not individual behavior but structural differences in access to healthcare, environmental exposures, economic stress, and the physiological effects of chronic racism.',
  ],
- tags: ['Civil Rights', 'Investigation', 'Accountability'],
+ tags: ['White Supremacy', 'Systemic Racism', 'Racial Justice', 'Civil Rights', 'Institutional Racism', 'Jim Crow', 'Structural Inequality'],
  sources: [
  { title: 'Southern Poverty Law Center Intelligence Report', url: 'https://www.splcenter.org/intelligence-report', type: 'Report' },
  { title: 'FBI Domestic Terrorism Report', url: 'https://www.fbi.gov/investigate/terrorism', type: 'Government' },
@@ -1013,7 +1013,7 @@ const investigations_w: Record<string, InvestigationData> = {
  'State and federal governments lose an estimated $12.6 billion annually in unpaid payroll taxes due to misclassification, according to the National Employment Law Project. Social Security and Medicare trust funds are depleted by the practice. State unemployment insurance funds are underfunded because misclassifying employers do not contribute. The practice shifts the costs of workplace injuries, unemployment, and retirement from employers to taxpayers and workers themselves.',
  'California\'s AB5 law (2020) attempted to address gig worker misclassification by codifying a stricter "ABC test" for independent contractor status. The gig companies responded by spending over $200 million on Proposition 22, which exempted them from the law; the most expensive ballot initiative in U.S. history. A California court later ruled portions of Proposition 22 unconstitutional. The battle over worker classification has become a defining labor rights issue of the 21st century, pitting corporate interests in cheap, disposable labor against workers\' fundamental rights to legal protections.',
  ],
- tags: ['Labor Rights', 'Investigation', 'Accountability'],
+ tags: ['Worker Misclassification', 'Gig Economy', 'Uber', 'Independent Contractor', 'DOL', 'AB5', 'Labor Rights'],
  sources: [
  { title: 'National Labor Relations Board Decisions', url: 'https://www.nlrb.gov/cases-decisions/decisions', type: 'Government' },
  { title: 'Department of Labor - Wage & Hour Division', url: 'https://www.dol.gov/agencies/whd/data/charts', type: 'Government' },

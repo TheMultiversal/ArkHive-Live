@@ -701,7 +701,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'Mormon institutional abuse encompasses both sexual abuse by leaders and the church\'s systematic concealment through a hotline operated by the law firm Kirton McConkie. AP reporting in 2022 revealed that bishops who called the hotline after receiving abuse disclosures were routinely told not to report to police, even in states with mandatory reporting requirements. The legal strategy prioritized the church\'s liability exposure over child protection.',
  'Financial exploitation in religious contexts includes prosperity gospel churches that extract billions from followers with promises of divine financial returns, and organizations like the Church of Scientology that charge members hundreds of thousands of dollars for courses while using coercive practices to prevent departure. The legal structures of religious organizations, including tax exemptions and First Amendment protections, make accountability uniquely difficult to achieve.',
  ],
- tags: ['Abuse & Exploitation', 'Investigation', 'Accountability'],
+ tags: ['Religious Abuse', 'Institutional Abuse', 'Clergy', 'Cover-up', 'Mandatory Reporting', 'Survivor Advocacy'],
  sources: [
  { title: 'RAINN National Statistics', url: 'https://www.rainn.org/statistics', type: 'Report' },
  { title: 'DOJ Sex Offender Registry', url: 'https://www.justice.gov/criminal/criminal-ceos', type: 'Government' },
@@ -820,7 +820,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'Dark money organizations fund the disinformation infrastructure. The Donors Trust and Donors Capital Fund have distributed over $1 billion to conservative organizations including those that produce and distribute disinformation. The Koch network, Mercer family, Bradley Foundation, and other funders support think tanks, media outlets, and organizations that produce content designed to look like research but serve political and corporate interests.',
  'Social media platforms have been unable or unwilling to effectively counter this ecosystem. Facebook\'s own research showed that its algorithm amplified divisive and misleading content from right-wing sources at higher rates than other content. Elon Musk\'s acquisition of Twitter (now X) in 2022 removed many content moderation policies, reinstated banned accounts, and amplified right-wing disinformation through algorithmic changes.',
  ],
- tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
+ tags: ['Right Wing Disinformation', 'Conspiracy Theory', 'QAnon', 'Social Media', 'Radicalization', 'Online Extremism'],
  sources: [
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
@@ -859,7 +859,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'Digital right-wing media has expanded the ecosystem dramatically. The Daily Wire (founded by Ben Shapiro), Breitbart News, The Blaze, Newsmax, and One America News Network collectively reach tens of millions of Americans. These outlets operate with minimal editorial standards and frequently promote conspiracy theories, culture war narratives, and attacks on mainstream journalism. Facebook data shows that right-wing content consistently generates the highest engagement on the platform.',
  'The consolidation of right-wing media has created what researchers call an "epistemic crisis"; a situation where a significant portion of the population operates within an information environment disconnected from verifiable reality. Harvard\'s Berkman Klein Center found that the right-wing media ecosystem is far more insular than its left-wing counterpart, with fewer connections to mainstream outlets and greater amplification of false narratives. This asymmetry poses fundamental challenges to democratic governance.',
  ],
- tags: ['Media & Disinformation', 'Investigation', 'Accountability'],
+ tags: ['Right Wing Media', 'Fox News', 'Sinclair', 'Talk Radio', 'Media Polarization', 'Propaganda'],
  sources: [
  { title: 'Stanford Internet Observatory', url: 'https://cyber.fsi.stanford.edu/io', type: 'Report' },
  { title: 'Oxford Internet Institute', url: 'https://www.oii.ox.ac.uk/research/', type: 'Report' },
@@ -899,7 +899,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'Rothstein was sentenced to 50 years in federal prison in June 2010 after pleading guilty to five federal charges including RICO conspiracy, money laundering, and wire fraud. His cooperation led to the conviction of nearly a dozen co-conspirators, including his wife Kim Rothstein (who hid jewelry from federal seizure), several members of his law firm, and TD Bank employees who facilitated the scheme by providing fabricated bank documents.',
  'TD Bank paid $67 million in settlements for its role in the fraud after evidence showed that bank employees at multiple levels helped Rothstein create fraudulent account documents and maintain the illusion of legitimate escrow accounts. The case exposed how financial institutions can facilitate massive fraud through lax oversight, complicit employees, and a relationship-banking culture that prioritizes revenue over compliance.',
  ],
- tags: ['Financial Crime', 'Fraud', 'Investigation', 'Accountability'],
+ tags: ['Ponzi Scheme', 'Scott Rothstein', 'Attorney Fraud', 'Wire Fraud', 'Florida', 'Legal Ethics'],
  sources: [
  { title: 'SEC Enforcement Actions - Ponzi Schemes', url: 'https://www.sec.gov/spotlight/enf-actions-ponzi.shtml', type: 'Government' },
  { title: 'FBI Financial Crimes Report', url: 'https://www.fbi.gov/investigate/white-collar-crime', type: 'Government' },
@@ -937,7 +937,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'The first major trial in 2018 awarded groundskeeper Dewayne "Lee" Johnson $289 million (later reduced to $78 million) after a jury found that Monsanto\'s Roundup products caused his terminal non-Hodgkin lymphoma and that the company acted with "malice." Subsequent trials resulted in verdicts of $80 million (Edwin Hardeman) and $2 billion (Alva and Alberta Pilliod, later reduced). Bayer, which acquired Monsanto for $63 billion in 2018, has set aside over $16 billion to resolve approximately 125,000 claims.',
  'Despite the litigation, Roundup remains on the market worldwide with no warning label about cancer risk. Monsanto/Bayer\'s attack on independent science included hiring intelligence firms to surveil journalists and activists, maintaining "hit lists" of scientists to discredit, and running front organizations disguised as farmer advocacy groups. The case represents one of the most documented examples of a corporation knowingly selling a carcinogenic product while systematically suppressing evidence of its danger.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Roundup', 'Glyphosate', 'Monsanto', 'Bayer', 'Cancer', 'EPA', 'Pesticide', 'Mass Tort'],
  sources: [
  { title: 'Congressional Research Service Reports', url: 'https://crsreports.congress.gov/', type: 'Government' },
  { title: 'ProPublica Investigations', url: 'https://www.propublica.org/', type: 'Investigation' },
@@ -974,7 +974,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'The war triggered a restructuring of global energy markets. Europe\'s dependence on Russian natural gas (40% of supply before the invasion) was exposed as a strategic vulnerability. Energy prices spiked globally, with European natural gas prices increasing by over 400%. Major energy companies including Shell, BP, and TotalEnergies reported record profits while consumers faced energy poverty. The U.S. became the world\'s largest LNG exporter as Europe diversified away from Russian supply.',
  'The conflict has generated enormous profits for defense contractors. The U.S. has provided over $75 billion in military aid to Ukraine, with major contracts flowing to Lockheed Martin (Javelins, HIMARS), Raytheon (Stinger missiles, Patriot systems), and other defense firms. Defense industry stocks outperformed the broader market significantly. The war reinvigorated NATO, prompted Finland and Sweden to join the alliance, and spurred European nations to increase defense spending toward the 2% GDP target.',
  ],
- tags: ['Military-Industrial', 'Investigation', 'Accountability'],
+ tags: ['Russia-Ukraine War', 'Putin', 'NATO', 'War Crimes', 'Bucha', 'International Law', 'Sanctions'],
  sources: [
  { title: 'UN OHCHR Reports', url: 'https://www.ohchr.org/en/countries', type: 'Report' },
  { title: 'International Criminal Court Cases', url: 'https://www.icc-cpi.int/cases', type: 'Document' },
@@ -1017,7 +1017,7 @@ const investigations_r: Record<string, InvestigationData> = {
  'Russia cultivates sympathetic politicians through a combination of financial incentives, intelligence operations, and ideological alignment. The DOJ has charged multiple individuals with acting as unregistered foreign agents for Russia. In Europe, parties across the political spectrum; from Marine Le Pen\'s National Rally (which received a $9.4 million loan from a Russian bank) to members of Germany\'s AfD and Schroeder\'s post-chancellorship work for Gazprom; have maintained close ties to Moscow.',
  'Africa has become an increasingly important theater for Russian influence operations. The Wagner Group (now Africa Corps under Russian military command) has deployed to Mali, Central African Republic, Burkina Faso, Libya, Sudan, and Mozambique, exchanging military support for mining concessions and political influence. Russian disinformation campaigns in Africa promote anti-Western sentiment and pro-Russian narratives through social media, local media partnerships, and astroturf organizations.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Russia', 'Putin', 'GRU', 'Election Interference', 'Disinformation', 'Cyber Warfare', 'Covert Operations'],
  sources: [
  { title: 'Federal Election Commission Data', url: 'https://www.fec.gov/data/', type: 'Government' },
  { title: 'Brennan Center for Justice', url: 'https://www.brennancenter.org/', type: 'Report' },

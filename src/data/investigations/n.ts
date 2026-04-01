@@ -476,7 +476,7 @@ const investigations_n: Record<string, InvestigationData> = {
  'In June 2020, the New York City Council passed the Eric Garner Anti-Chokehold Act (known as "I Can\'t Breathe" legislation), making it a criminal misdemeanor for a police officer to use a chokehold or to compress a person\'s diaphragm by sitting or kneeling on their chest or back. The law was the first in the nation to create criminal penalties specifically for prohibited police restraint techniques.',
  'Despite the legislation, concerns persist about enforcement and compliance. The CCRB continued to receive chokehold complaints after the law\'s passage. Police union leaders criticized the law as endangering officers. The fundamental challenge; that prohibited restraint techniques are used reflexively in physical confrontations and that officers face minimal consequences for violations; remains unresolved in New York and police departments nationwide.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Police Violence', 'NYPD', 'Chokehold', 'Eric Garner', 'Use of Force', 'Excessive Force'],
  sources: [
  { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
@@ -516,7 +516,7 @@ const investigations_n: Record<string, InvestigationData> = {
  'The decline in stops after 2013 (from 685,000 to under 12,000 annually) was not accompanied by an increase in crime, directly contradicting the NYPD\'s argument that mass stops were necessary for public safety. Crime continued to decline across all major categories. The evidence demonstrated that stop-and-frisk was not an effective crime-fighting strategy but rather a tool of racial control that subjected millions of innocent people to degrading encounters with police.',
  'Racial profiling in NYPD practices extends beyond stop-and-frisk. The department\'s surveillance of Muslim communities (revealed by the Associated Press in 2011) placed informants in mosques, student organizations, and businesses without evidence of criminal activity. Marijuana enforcement has been shown to target Black New Yorkers at 8 times the rate of white New Yorkers despite similar usage rates. Consent decree monitoring continues, but structural reform of policing culture remains incomplete.',
  ],
- tags: ['Government Accountability', 'Investigation', 'Accountability'],
+ tags: ['Racial Profiling', 'Stop and Frisk', 'NYPD', 'Bloomberg', 'Civil Rights', 'Fourth Amendment'],
  sources: [
  { title: 'DOJ Civil Rights Division Pattern Reports', url: 'https://www.justice.gov/crt/special-litigation-section-cases-and-matters', type: 'Government' },
  { title: 'The Marshall Project', url: 'https://www.themarshallproject.org/', type: 'Investigation' },
