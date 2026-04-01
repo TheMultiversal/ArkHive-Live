@@ -797,8 +797,9 @@ const investigations_s: Record<string, InvestigationData> = {
  tags: ['Supreme Court', 'Clarence Thomas', 'Samuel Alito', 'Ethics', 'Harlan Crow', 'Corruption'],
  sources: [
  { title: 'ProPublica: Clarence Thomas Investigation', url: 'https://www.propublica.org/article/clarence-thomas-scotus-undisclosed-luxury-travel-gifts-crow', type: 'Investigation' },
-      { title: 'DOJ Press Releases', url: 'https://www.justice.gov/news', type: 'Government' },
-   { title: 'National Security Archive', url: 'https://nsarchive.gwu.edu/', type: 'Reference' },
+ { title: 'ProPublica: Alito Fishing Trip', url: 'https://www.propublica.org/article/supreme-court-samuel-alito-paul-singer-fishing-trip', type: 'Investigation' },
+ { title: 'Fix the Court: Ethics Tracker', url: 'https://fixthecourt.com/', type: 'Report' },
+ { title: 'Senate Judiciary Committee: SCOTUS Ethics', url: 'https://www.judiciary.senate.gov/', type: 'Government' },
  ],
  affiliations: [
  { id: '1', name: 'Clarence Thomas', type: 'individual', relationship: 'Received millions in undisclosed gifts', href: '/entities/individuals/clarence-thomas' },
@@ -811,11 +812,12 @@ const investigations_s: Record<string, InvestigationData> = {
    lastActivityDate: '2024-11-10',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020', event: 'She pressed to overturn the 2020 election.', type: 'political' },
-     { date: '2021-01', event: 'DOJ Press Releases — Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2022-01', event: 'DOJ Press Releases — Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2023-01', event: 'DOJ Press Releases — Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2024-01', event: 'DOJ Press Releases — Latest findings incorporated into accountability record', type: 'default' },
+     { date: '2023-04-06', event: 'ProPublica reveals Clarence Thomas received 20+ years of luxury travel from billionaire Harlan Crow worth millions; private jets, yacht cruises, and exclusive resorts', type: 'default' },
+     { date: '2023-06-20', event: 'ProPublica reveals Samuel Alito took private fishing trip to Alaska on jet owned by hedge fund billionaire Paul Singer who had business before the court', type: 'default' },
+     { date: '2023-09', event: 'Senate Judiciary Committee authorizes subpoenas to Harlan Crow and Leonard Leo for records related to gifts to justices', type: 'political' },
+     { date: '2023-11-13', event: 'Supreme Court adopts first-ever ethics code; critics note it has no enforcement mechanism and justices self-police compliance', type: 'legal' },
+     { date: '2024-01', event: 'Gallup reports Supreme Court public approval at historic lows; ethics scandals compound concerns about partisan decision-making', type: 'default' },
+     { date: '2024-07', event: 'Additional reporting reveals Neil Gorsuch sold property to law firm head with cases before the court; disclosure failures extend beyond Thomas and Alito', type: 'default' },
    ],
  },
   'social-media-harms': {
@@ -877,11 +879,12 @@ const investigations_s: Record<string, InvestigationData> = {
    lastActivityDate: '2026-02-12',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2021-12-14', event: 'Social media companies harvest vast personal data for profit', type: 'default' },
-     { date: '2022-01', event: 'FTC Consumer Protection — Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2023-01', event: 'FTC Consumer Protection — Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2024-01', event: 'FTC Consumer Protection — Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2025-01', event: 'FTC Consumer Protection — Latest findings incorporated into accountability record', type: 'default' },
+     { date: '2014-06', event: 'Cambridge Analytica begins harvesting data from 87 million Facebook users through a personality quiz app; data weaponized for political targeting', type: 'default' },
+     { date: '2018-03-17', event: 'Guardian and NYT expose Cambridge Analytica scandal; whistleblower Christopher Wylie reveals scope of Facebook data exploitation', type: 'default' },
+     { date: '2019-07-24', event: 'FTC fines Facebook $5 billion; largest privacy penalty in history, though critics note it represents less than one month of revenue', type: 'legal' },
+     { date: '2022-12', event: 'FTC orders Epic Games to pay $520 million for children privacy violations; signals more aggressive enforcement against tech companies', type: 'legal' },
+     { date: '2023-05', event: 'Montana becomes first state to ban TikTok; privacy concerns increasingly drive legislative action as federal comprehensive privacy law stalls', type: 'legal' },
+     { date: '2024-04', event: 'FTC proposes comprehensive rule changes on commercial surveillance and data security; industry lobbying intensifies against restrictions', type: 'default' },
    ],
  },
   'sac-capital': {

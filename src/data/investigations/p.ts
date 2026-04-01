@@ -1,4 +1,4 @@
-// Investigation data shard
+﻿// Investigation data shard
 import type { InvestigationData } from './types';
 
 const investigations_p: Record<string, InvestigationData> = {
@@ -94,11 +94,14 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2025-05-23',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2018-02-13', event: 'The intersection of pharmaceutical investments and health policy creates profound conflicts of interest that shaped pandemic re', type: 'default' },
-     { date: '2019-01', event: 'FDA User Fee Funding â€” Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2020-01', event: 'FDA User Fee Funding â€” Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2021-01', event: 'FDA User Fee Funding â€” Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2022-01', event: 'FDA User Fee Funding â€” Latest findings incorporated into accountability record', type: 'default' },
+     { date: '1992', event: 'Prescription Drug User Fee Act (PDUFA) signed into law; FDA begins funding drug reviews with industry fees, creating structural conflict of interest', type: 'financial' },
+     { date: '2010-03-23', event: 'Affordable Care Act signed; pharmaceutical industry spent $270 million lobbying to shape provisions and secured favorable drug pricing language', type: 'political' },
+     { date: '2020-01-22', event: 'First confirmed U.S. COVID-19 case; pharmaceutical stocks surge as pandemic spending begins across government agencies', type: 'default' },
+     { date: '2020-03-19', event: 'Senators Richard Burr and Kelly Loeffler dump stock holdings after classified COVID briefings weeks before public market crash', type: 'financial' },
+     { date: '2021-05', event: 'Gates Foundation reverses position on TRIPS waiver for COVID vaccine patents after intense global backlash', type: 'political' },
+     { date: '2022-08-16', event: 'Inflation Reduction Act permits Medicare drug price negotiation for first time; pharmaceutical industry files lawsuits to block', type: 'legal' },
+     { date: '2023-09', event: 'Medicare announces first 10 drugs selected for price negotiation; pharmaceutical companies file suits in multiple federal courts', type: 'legal' },
+     { date: '2024-02', event: 'Federal courts reject pharmaceutical industry challenges to Medicare negotiation authority; appeals continue across circuits', type: 'legal' },
    ],
  },
   'political-funding': {
@@ -187,11 +190,14 @@ const investigations_p: Record<string, InvestigationData> = {
    lastActivityDate: '2025-03-17',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020-04-07', event: 'The COVID-19 pandemic spawned an explosion of conspiracy theories that cost lives', type: 'default' },
-     { date: '2021-01', event: 'Study on Partisan COVID Deaths â€” Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2022-01', event: 'Study on Partisan COVID Deaths â€” Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2023-01', event: 'Study on Partisan COVID Deaths â€” Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2024-01', event: 'Study on Partisan COVID Deaths â€” Latest findings incorporated into accountability record', type: 'default' },
+     { date: '2020-02-28', event: 'Trump calls COVID-19 the new hoax at South Carolina rally; comparison to seasonal flu spreads through conservative media', type: 'political' },
+     { date: '2020-04-23', event: 'Trump suggests injecting disinfectant and using ultraviolet light inside the body; poison control centers report surge in calls', type: 'default' },
+     { date: '2020-05-18', event: 'Trump announces he is taking hydroxychloroquine despite FDA warning; clinical trials later confirm drug ineffective against COVID-19', type: 'default' },
+     { date: '2020-12-11', event: 'Pfizer COVID vaccine receives Emergency Use Authorization; anti-vaccine conspiracy theories about microchips and fertility surge on social media', type: 'default' },
+     { date: '2021-08', event: 'Ivermectin mania peaks as hospitals report poisonings from veterinary formulations; no clinical evidence supports use against COVID-19', type: 'default' },
+     { date: '2022-10', event: 'NBER study documents significantly higher COVID death rates in Republican-leaning counties correlating with vaccine hesitancy', type: 'default' },
+     { date: '2023-02-28', event: 'DOE and FBI assess COVID lab-leak origin as likely; intelligence community remains divided with four agencies favoring natural origin', type: 'default' },
+     { date: '2024-06', event: 'House Select Subcommittee on the Coronavirus Pandemic releases final findings; parties split on conclusions', type: 'political' },
    ],
  },
   'presidential-misconduct': {
@@ -240,10 +246,14 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2020', event: 'Trump\'s attempt to overturn the 2020 election represented the culmination of his authoritarian approach, pressuring officials, organizing fake electors, inciting violence, all to stay in power against voter will.', type: 'political' },
-     { date: '2021-01', event: 'Mueller Report â€” Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2022-01', event: 'Mueller Report â€” Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2023-01', event: 'Mueller Report â€” Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2024-01', event: 'Mueller Report â€” Latest findings incorporated into accountability record', type: 'default' },
+     { date: '2017-05-09', event: 'Trump fires FBI Director James Comey; later tells NBC Lester Holt the decision was because of the Russia investigation', type: 'political' },
+     { date: '2018-07-16', event: 'Trump meets Putin in Helsinki and publicly sides with Russia over U.S. intelligence community assessment of election interference', type: 'political' },
+     { date: '2019-07-25', event: 'Trump asks Ukrainian President Zelensky to investigate Biden; whistleblower complaint triggers first impeachment inquiry', type: 'political' },
+     { date: '2020-02-05', event: 'Senate acquits Trump in first impeachment trial; Senator Romney casts sole Republican vote to convict on abuse of power', type: 'legal' },
+     { date: '2020-12-19', event: 'Trump tweets about January 6 protest; campaign to overturn 2020 election results intensifies with fake elector schemes', type: 'political' },
+     { date: '2021-01-06', event: 'Trump rally at Ellipse followed by Capitol breach; 7 deaths, 140+ officers injured, Congress evacuated during certification', type: 'political' },
+     { date: '2021-02-13', event: 'Senate acquits Trump in second impeachment; 57-43 vote includes 7 Republican senators, most bipartisan impeachment vote in history', type: 'legal' },
+     { date: '2023-08-01', event: 'Special Counsel Jack Smith indicts Trump on four federal counts for conspiracy to overturn 2020 election results', type: 'legal' },
    ],
  },
   'pentagon-response': {
@@ -716,7 +726,7 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '1990-01-01', event: 'Penny stock fraud', type: 'financial' },
-     { date: '2015-01', event: 'FINRA: Penny Stock Risks â€” Current status: monitoring continues with active documentation', type: 'financial' },
+     { date: '2015-01', event: 'FINRA: Penny Stock Risks; Current status: monitoring continues with active documentation', type: 'financial' },
    ],
  },
   'petters-ponzi': {
@@ -2682,7 +2692,7 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2000-01-01', event: 'Police unions', type: 'default' },
-     { date: '2025-01', event: 'OpenSecrets: Police Union Political Spending â€” Current status: monitoring continues with active documentation', type: 'default' },
+     { date: '2025-01', event: 'OpenSecrets: Police Union Political Spending; Current status: monitoring continues with active documentation', type: 'default' },
    ],
   },
   'pharmaceutical-fertility-side-effects': {
@@ -2935,7 +2945,7 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2000-01-01', event: 'Pharmaceutical compounds have been detected in the drinking water systems of at least 41 million Americans and in waterways across every', type: 'critical' },
-     { date: '2023-01', event: 'Environmental Science & Technology: Endocrine Disruption â€” Current status: monitoring continues with active documentation', type: 'critical' },
+     { date: '2023-01', event: 'Environmental Science & Technology: Endocrine Disruption; Current status: monitoring continues with active documentation', type: 'critical' },
    ],
   },
   'port-city-trafficking-hub-analysis': {
@@ -3030,9 +3040,9 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '2021-11-30', event: 'Parental Accountability in Mass Shootings', type: 'legal' },
-     { date: '2023-01-01', event: 'Parental Accountability in Mass Shootings â€” Key evidence gathered; pattern of wrongdoing established', type: 'legal' },
+     { date: '2023-01-01', event: 'Parental Accountability in Mass Shootings; Key evidence gathered; pattern of wrongdoing established', type: 'legal' },
      { date: '2024', event: 'The parents of the 2024 Perry, Iowa school shooter were investigated.', type: 'default' },
-     { date: '2025-01', event: 'Everytown: Unsecured Guns Data â€” continued developments and accountability tracking documented', type: 'legal' },
+     { date: '2025-01', event: 'Everytown: Unsecured Guns Data; continued developments and accountability tracking documented', type: 'legal' },
    ],
   },
   'police-reform': {
@@ -3108,7 +3118,7 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1997', event: 'The 1033 Program has transferred over $7.4 billion in military equipment to police departments since 1997; including armored vehicles, grenade launchers, and military-grade weapons.', type: 'financial' },
-     { date: '1998-01', event: 'Washington Post: Fatal Force â€” continued developments and accountability tracking documented', type: 'default' },
+     { date: '1998-01', event: 'Washington Post: Fatal Force; continued developments and accountability tracking documented', type: 'default' },
      { date: '2020', event: 'A 2020 study found that approximately 5% of officers in a department generate 25% of force incidents.', type: 'default' },
      { date: '2024', event: 'The DOJ finally mandated comprehensive use-of-force reporting in 2024; decades after the need was identified.', type: 'default' },
    ],
@@ -3236,7 +3246,7 @@ const investigations_p: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-21',
    timeline: [
      { date: '1967-01-01', event: 'Police Accountability Crisis in America', type: 'legal' },
-     { date: '1995-01-01', event: 'Police Accountability Crisis in America â€” Key evidence gathered; pattern of wrongdoing established', type: 'legal' },
+     { date: '1995-01-01', event: 'Police Accountability Crisis in America; Key evidence gathered; pattern of wrongdoing established', type: 'legal' },
      { date: '1999', event: 'THE BODY COUNT: The CDC estimates that from 1999 to 2023, over 600,000 Americans died from opioid overdoses, with the crisis evolving in three waves: prescription opioids (1999-2010), heroin (2010-2013, as patients cut off from prescriptions turned to street drugs), and synthetic fentanyl (2013-present).', type: 'default' },
      { date: '2008', event: 'THE SACKLER ESCAPE: The Sackler family extracted approximately $10.7 billion from Purdue Pharma between 2008 and 2018, transferring wealth to family trusts, offshore accounts, and personal holdings while the company faced mounting litigation.', type: 'default' },
      { date: '2016', event: 'Congress, lobbied by the pharmaceutical industry, passed the Ensuring Patient Access and Effective Drug Enforcement Act in 2016, which stripped the DEA of its ability to freeze suspicious opioid shipments.', type: 'default' },
@@ -3659,13 +3669,13 @@ const investigations_p: Record<string, InvestigationData> = {
     category: 'Civil Rights',
     date: '2024-11-01',
     lastUpdated: '2025-03-10',
-    summary: 'U.S. law enforcement kills approximately 1,100 people per year â€” more than any other developed nation by orders of magnitude. Despite overwhelming evidence of systemic abuse, police officers face criminal charges in fewer than 2% of killings, and convictions are even rarer. The doctrine of qualified immunity, created by the Supreme Court with no basis in statutory text, shields officers from civil lawsuits unless the exact conduct was previously found unconstitutional in a factually identical case â€” a nearly impossible standard that leaves victims and families with no legal remedy. Combined with powerful police unions, weak oversight, and a culture of silence, the system produces impunity for violence.',
+    summary: 'U.S. law enforcement kills approximately 1,100 people per year; more than any other developed nation by orders of magnitude. Despite overwhelming evidence of systemic abuse, police officers face criminal charges in fewer than 2% of killings, and convictions are even rarer. The doctrine of qualified immunity, created by the Supreme Court with no basis in statutory text, shields officers from civil lawsuits unless the exact conduct was previously found unconstitutional in a factually identical case; a nearly impossible standard that leaves victims and families with no legal remedy. Combined with powerful police unions, weak oversight, and a culture of silence, the system produces impunity for violence.',
     content: [
-      'American police kill approximately 1,100 people per year, a rate 30 times higher than other developed democracies. The victims are disproportionately Black: Black Americans are killed by police at 2.6 times the rate of white Americans. Despite this well-documented pattern, criminal accountability is virtually nonexistent. Between 2005 and 2023, approximately 18,000 people were killed by police in the U.S. During that same period, only about 170 officers were charged with murder or manslaughter â€” less than 1%. Conviction rates are even lower.',
-      'Qualified immunity, the primary legal barrier to accountability, was invented by the Supreme Court in 1967 and expanded dramatically in subsequent decisions. The doctrine requires plaintiffs to identify a prior case with nearly identical facts establishing that the specific conduct was unconstitutional. This means that even clearly unconstitutional behavior â€” such as shooting an unarmed person or using excessive force during a routine traffic stop â€” can be shielded from liability if no court has previously addressed that exact scenario. The result is a legal Catch-22: rights cannot be established without successful lawsuits, but lawsuits cannot succeed without previously established rights.',
-      'Police unions operate as the most powerful institutional barrier to reform. Contracts negotiated by police unions in major cities include provisions that delay officer interrogations after use-of-force incidents by 48-72 hours, require destruction of disciplinary records after 12-24 months, prohibit public identification of officers involved in shootings, and mandate that civilian complaint boards have no binding authority. Officers fired for misconduct are routinely reinstated through union arbitration â€” studies show 46-80% of fired officers are rehired.',
+      'American police kill approximately 1,100 people per year, a rate 30 times higher than other developed democracies. The victims are disproportionately Black: Black Americans are killed by police at 2.6 times the rate of white Americans. Despite this well-documented pattern, criminal accountability is virtually nonexistent. Between 2005 and 2023, approximately 18,000 people were killed by police in the U.S. During that same period, only about 170 officers were charged with murder or manslaughter; less than 1%. Conviction rates are even lower.',
+      'Qualified immunity, the primary legal barrier to accountability, was invented by the Supreme Court in 1967 and expanded dramatically in subsequent decisions. The doctrine requires plaintiffs to identify a prior case with nearly identical facts establishing that the specific conduct was unconstitutional. This means that even clearly unconstitutional behavior; such as shooting an unarmed person or using excessive force during a routine traffic stop; can be shielded from liability if no court has previously addressed that exact scenario. The result is a legal Catch-22: rights cannot be established without successful lawsuits, but lawsuits cannot succeed without previously established rights.',
+      'Police unions operate as the most powerful institutional barrier to reform. Contracts negotiated by police unions in major cities include provisions that delay officer interrogations after use-of-force incidents by 48-72 hours, require destruction of disciplinary records after 12-24 months, prohibit public identification of officers involved in shootings, and mandate that civilian complaint boards have no binding authority. Officers fired for misconduct are routinely reinstated through union arbitration; studies show 46-80% of fired officers are rehired.',
       'The blue wall of silence ensures that internal accountability mechanisms are ineffective. Officers who report misconduct face retaliation: a 2023 survey found 84% of officers have witnessed fellow officers use excessive force, but only 8% reported it. The code of silence is enforced through harassment, denial of backup, and career destruction. Adrian Schoolcraft, an NYPD officer who recorded evidence of quota-driven policing and crime statistic manipulation, was involuntarily committed to a psychiatric hospital by his own department in retaliation.',
-      'DOJ consent decrees â€” the primary federal tool for police reform â€” have been undermined, underfunded, and reversed. The Obama administration entered into 14 consent decrees with police departments including Ferguson, Baltimore, and Chicago. The Trump administration reversed course, with AG Jeff Sessions questioning the legality of consent decrees and refusing to initiate new ones. Even in cities with consent decrees, compliance takes 5-10+ years and costs hundreds of millions without guaranteed results. Meanwhile, total settlement payments for police misconduct cost taxpayers $1.5+ billion annually in major cities alone.',
+      'DOJ consent decrees; the primary federal tool for police reform; have been undermined, underfunded, and reversed. The Obama administration entered into 14 consent decrees with police departments including Ferguson, Baltimore, and Chicago. The Trump administration reversed course, with AG Jeff Sessions questioning the legality of consent decrees and refusing to initiate new ones. Even in cities with consent decrees, compliance takes 5-10+ years and costs hundreds of millions without guaranteed results. Meanwhile, total settlement payments for police misconduct cost taxpayers $1.5+ billion annually in major cities alone.',
     ],
     tags: ['qualified immunity', 'police brutality', 'use of force', 'police unions', 'consent decrees', 'civil rights', 'racial disparities', 'blue wall of silence', 'police accountability'],
     sources: [
@@ -3999,11 +4009,11 @@ const investigations_p: Record<string, InvestigationData> = {
      { date: '1950', event: 'Project Artichoke grew out of Operation Bluebird, established in 1950 to develop defensive measures against Soviet interrogation techniques.', type: 'default' },
      { date: '1951', event: 'Project Artichoke was a CIA research program that investigated interrogation methods using drugs, hypnosis, and sensory deprivation from 1951 to 1956.', type: 'default' },
      { date: '1951-08', event: 'The program was renamed Artichoke in August 1951 under the Office of Scientific Intelligence.', type: 'default' },
-     { date: '1951-08-20', event: 'Project Artichoke investigation begins â€” events under scrutiny originate from this period', type: 'default' },
+     { date: '1951-08-20', event: 'Project Artichoke investigation begins; events under scrutiny originate from this period', type: 'default' },
      { date: '1952', event: 'In one documented case in 1952, a suspected Soviet agent was given a combination of benzedrine and sodium pentothal during interrogation in a European safe house.', type: 'default' },
      { date: '1953', event: 'In 1953, CIA Technical Services Staff officer Sidney Gottlieb proposed a broader and more systematic research program.', type: 'default' },
      { date: '1956', event: 'Project Artichoke was a CIA research program that investigated interrogation methods using drugs, hypnosis, and sensory deprivation from 1951 to 1956.', type: 'default' },
-     { date: '1956-12-31', event: 'Project Artichoke â€” investigation remains active with ongoing developments', type: 'default' },
+     { date: '1956-12-31', event: 'Project Artichoke; investigation remains active with ongoing developments', type: 'default' },
      { date: '1973', event: 'Artichoke documents were partially declassified through FOIA requests and the 1977 Senate hearings on MKUltra, when CIA Director Stansfield Turner revealed that a cache of financial records related to MKUltra and its', type: 'political' },
      { date: '1977', event: 'Artichoke documents were partially declassified through FOIA requests and the 1977 Senate hearings on MKUltra, when CIA Director Stansfield Turner revealed that a cache of financial records related to MKUltra and its', type: 'political' },
    ],

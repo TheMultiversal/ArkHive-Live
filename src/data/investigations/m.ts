@@ -46,10 +46,12 @@ const investigations_m: Record<string, InvestigationData> = {
    lastActivityDate: '2024-01-17',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2021-09-08', event: 'Fox News operated not as an independent news organization but as a propaganda arm of the Trump presidency', type: 'default' },
-     { date: '2022-01', event: 'NYT Fox-Trump Relationship — Investigation updated with new findings and developments', type: 'default' },
-     { date: '2023-01', event: 'NYT Fox-Trump Relationship — Ongoing monitoring and documentation of developments', type: 'default' },
-     { date: '2024-01', event: 'NYT Fox-Trump Relationship — Latest status update and accountability tracking', type: 'default' },
+     { date: '2016', event: 'Sean Hannity begins advising Trump directly while covering his campaign on air; speaks with Trump almost daily throughout the campaign and into the presidency', type: 'political' },
+     { date: '2021-01-06', event: 'Text messages reveal Hannity warned Mark Meadows about January 6: "Im very worried about the next 48 hours." He knew the danger but continued to platform election lies', type: 'critical' },
+     { date: '2023-02', event: 'Dominion discovery reveals Tucker Carlson privately called Trump "demonic" and said he "passionately" hated him while defending him on air; Fox hosts and executives knew election fraud claims were false', type: 'critical' },
+     { date: '2023-03', event: 'Rupert Murdoch testifies in deposition that some Fox hosts "endorsed" false election claims and it was "wrong"; acknowledges he could have stopped it but didn\'t', type: 'legal' },
+     { date: '2023-04-18', event: 'Fox News settles Dominion defamation lawsuit for $787 million; the largest defamation settlement in American history, after discovery proved the network knowingly broadcast false claims', type: 'critical' },
+     { date: '2023-04-24', event: 'Fox fires Tucker Carlson days after the settlement; reasons not fully explained but followed revelations of his private contempt for network leadership and colleagues', type: 'default' },
    ],
  },
   'mueller-suppression': {
@@ -259,10 +261,12 @@ const investigations_m: Record<string, InvestigationData> = {
    pageUpdatedDate: '2026-03-18',
    timeline: [
      { date: '2020-03', event: 'LOCKDOWN ORDERS: Beginning in March 2020, governors issued stay-at-home orders closing businesses, schools, and public gatherings.', type: 'default' },
-     { date: '2021-01', event: 'John Snow Memorandum — Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2022-01', event: 'John Snow Memorandum — Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2023-01', event: 'John Snow Memorandum — Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2024-01', event: 'John Snow Memorandum — Latest findings incorporated into accountability record', type: 'default' },
+     { date: '2020-10-04', event: 'Great Barrington Declaration signed by epidemiologists advocating focused protection instead of lockdowns; sparks fierce scientific debate over pandemic strategy', type: 'political' },
+     { date: '2020-10-14', event: 'John Snow Memorandum published in The Lancet by 80+ scientists rebutting the Great Barrington Declaration; argues herd immunity without vaccines would cause mass death', type: 'default' },
+     { date: '2021-01', event: 'Vaccine mandates begin for healthcare workers and federal employees; legal challenges filed in multiple courts over government authority to require vaccination', type: 'legal' },
+     { date: '2022-01-13', event: 'Supreme Court blocks Biden\'s OSHA vaccine-or-test mandate for large employers in NFIB v. OSHA while allowing CMS healthcare worker mandate, splitting on scope of federal power', type: 'legal' },
+     { date: '2022-10', event: 'Studies document significant pandemic-era learning loss among children; standardized test scores dropped to levels not seen in decades, with low-income students disproportionately affected', type: 'default' },
+     { date: '2023-05-11', event: 'Biden formally ends the COVID-19 public health emergency; remaining federal mandates expire. Debate over whether restrictions were proportionate continues', type: 'political' },
    ],
  },
   'media-consolidation': {

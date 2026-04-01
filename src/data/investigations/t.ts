@@ -200,11 +200,12 @@ const investigations_t: Record<string, InvestigationData> = {
    lastActivityDate: '2025-06-01',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2017', event: 'In 2017, Trump\'s name was removed from the building.', type: 'default' },
-     { date: '2019-01', event: 'New Yorker Vance Investigation — Investigation documented and evidence gathering initiated', type: 'financial' },
-     { date: '2021-01', event: 'New Yorker Vance Investigation — Key developments identified; accountability analysis updated', type: 'financial' },
-     { date: '2023-01', event: 'New Yorker Vance Investigation — Continued monitoring and documentation of ongoing developments', type: 'financial' },
-     { date: '2025-01', event: 'New Yorker Vance Investigation — Latest findings incorporated into accountability record', type: 'financial' },
+     { date: '2006', event: 'Trump SoHo hotel-condominium project launched in partnership with Bayrock Group; funded significantly by Russian and Kazakh investors through Felix Sater', type: 'financial' },
+     { date: '2010-10', event: 'Manhattan DA opens criminal fraud investigation into Donald Trump, Don Jr., and Ivanka Trump for overstating unit sales to buyers', type: 'legal' },
+     { date: '2012-01', event: 'Trump attorney Marc Kasowitz donates $25,000 to DA Cyrus Vance campaign; prosecutors ordered to drop case, second $25,000 donation follows', type: 'financial' },
+     { date: '2012-11', event: 'Civil settlement reached; defrauded buyers receive 90% of deposits back while no criminal charges filed despite evidence prosecutors found compelling', type: 'legal' },
+     { date: '2017-12', event: 'Trump name removed from the building; property renamed "The Dominick" as brand becomes liability', type: 'default' },
+     { date: '2021-10-04', event: 'New Yorker investigation reveals full extent of Kasowitz-Vance relationship and DA office interference that killed the criminal prosecution', type: 'default' },
    ],
  },
   'torture-program': {
@@ -1893,18 +1894,18 @@ const investigations_t: Record<string, InvestigationData> = {
     ],
     affiliations: [
       { id: '1', name: 'DHS', type: 'agency', relationship: 'ICE/CBP prioritize immigration enforcement over victim identification; T-visa grants never approach the annual cap of 5,000', href: '/entities/agencies/dhs' },
-      { id: '2', name: 'SEC', type: 'agency', relationship: 'Securities regulation and financial crime enforcement', href: '/entities/agencies/sec' },
-
+      { id: '2', name: 'DOJ', type: 'agency', relationship: 'Federal trafficking prosecutions overwhelmingly focus on sex trafficking despite labor trafficking involving more total victims', href: '/entities/agencies/doj' },
     ],
    eventOriginDate: '2020-01-01',
    lastActivityDate: '2024-08-26',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020', event: 'A 2020 study found that 91% of sex trafficking victims had been arrested at least once.', type: 'default' },
-     { date: '2021-01', event: 'State Department TIP Report — Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2022-01', event: 'State Department TIP Report — Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2023-01', event: 'State Department TIP Report — Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2024-01', event: 'State Department TIP Report — Latest findings incorporated into accountability record', type: 'default' },
+     { date: '2000-10-28', event: 'Trafficking Victims Protection Act (TVPA) signed into law; establishes T-visa program and federal anti-trafficking framework', type: 'legal' },
+     { date: '2007', event: 'Polaris Project launches National Human Trafficking Hotline; receives over 50,000 signals annually, exposing massive identification gap', type: 'default' },
+     { date: '2015-05', event: 'DOJ Inspector General report finds federal agencies identify fewer than 2,000 trafficking victims per year despite estimated 100,000-300,000 in the U.S.', type: 'default' },
+     { date: '2020-03', event: 'National Survivor Network study finds 91% of sex trafficking survivors arrested at least once for offenses related to their trafficking', type: 'default' },
+     { date: '2022-03-29', event: 'TVPA reauthorized with expanded labor trafficking provisions; identification gap persists across federal and state agencies', type: 'legal' },
+     { date: '2024-06', event: 'State Department TIP Report notes T-visa grants remain under 2,000 annually despite 5,000 cap; cooperation requirement remains barrier for victims', type: 'default' },
    ],
   },
   'trade-based-money-laundering-schemes': {
