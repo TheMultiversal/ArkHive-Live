@@ -84,11 +84,12 @@ const investigations_b: Record<string, InvestigationData> = {
    lastActivityDate: '2025-12-02',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2018', event: 'Despite warnings, the Trump administration disbanded the NSC pandemic response team in 2018.', type: 'default' },
-     { date: '2019-01', event: 'CDC MMWR Reports — Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2020-01', event: 'CDC MMWR Reports — Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2021-01', event: 'CDC MMWR Reports — Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2022-01', event: 'CDC MMWR Reports — Latest findings incorporated into accountability record', type: 'default' },
+     { date: '2014-10', event: 'NIH imposed moratorium on gain-of-function research funding after lab safety incidents; EcoHealth Alliance continued bat coronavirus research at Wuhan Institute of Virology through a loophole', type: 'default' },
+     { date: '2018-05', event: 'Trump administration disbanded the NSC pandemic response team, eliminating the directorate responsible for global health security coordination', type: 'political' },
+     { date: '2019-12', event: 'First cases of novel coronavirus emerged in Wuhan, China; WHO notified on December 31; U.S. intelligence agencies began tracking the outbreak', type: 'default' },
+     { date: '2020-01', event: 'Despite intelligence briefings on the virus threat, the Trump administration delayed testing rollout, rejected WHO test kits, and publicly minimized the danger', type: 'critical' },
+     { date: '2021-05', event: 'Biden ordered intelligence community review of COVID origins; Wuhan lab leak hypothesis gained renewed credibility as investigation into EcoHealth Alliance grants intensified', type: 'default' },
+     { date: '2023-03', event: 'House Select Subcommittee on the Coronavirus Pandemic subpoenaed EcoHealth Alliance records; DOE and FBI both assessed lab leak as most likely origin with low confidence', type: 'political' },
    ],
  },
   'birther-conspiracy': {

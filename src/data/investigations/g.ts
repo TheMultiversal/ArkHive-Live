@@ -654,10 +654,12 @@ const investigations_g: Record<string, InvestigationData> = {
    lastActivityDate: '2023-07-31',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2020-05-25', event: 'Minneapolis police officer Derek Chauvin murdered George Floyd by kneeling on his neck for over nine minutes while Floyd said I can\'t breathe', type: 'critical' },
-     { date: '2021-01', event: 'Chauvin Trial Documents — Investigation updated with new findings and developments', type: 'critical' },
-     { date: '2022-01', event: 'Chauvin Trial Documents — Ongoing monitoring and documentation of developments', type: 'critical' },
-     { date: '2023-01', event: 'Chauvin Trial Documents — Latest status update and accountability tracking', type: 'critical' },
+     { date: '2020-05-25', event: 'Derek Chauvin knelt on George Floyd\'s neck for 9 minutes 29 seconds during arrest for a suspected counterfeit $20 bill; bystander video captured Floyd saying "I can\'t breathe" 27 times', type: 'critical' },
+     { date: '2020-06', event: 'Estimated 15-26 million people participated in Black Lives Matter protests across all 50 states, the largest protest movement in American history', type: 'default' },
+     { date: '2021-04-20', event: 'Derek Chauvin convicted of second-degree murder, third-degree murder, and manslaughter; sentenced to 22.5 years in Minnesota state court', type: 'legal' },
+     { date: '2021-12', event: 'Former officers Kueng, Lane, and Thao convicted on federal civil rights charges for failing to intervene during Floyd\'s murder', type: 'legal' },
+     { date: '2022-02', event: 'Chauvin pled guilty to federal civil rights violations and sentenced to 21 years concurrently; DOJ found Minneapolis Police had a pattern of excessive force', type: 'legal' },
+     { date: '2023-07', event: 'Despite nationwide protests and reform promises, police killings remained near record levels; qualified immunity blocked most civil rights lawsuits against officers', type: 'default' },
    ],
  },
   'gun-violence': {

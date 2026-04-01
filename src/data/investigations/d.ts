@@ -2043,11 +2043,12 @@ const investigations_d: Record<string, InvestigationData> = {
    lastActivityDate: '2025-09-20',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2016', event: 'Facebook harvested 87 million user profiles for Cambridge Analytica, which used the data to influence the 2016 election.', type: 'political' },
-     { date: '2018-01', event: 'Clearview AI Lawsuit — Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2020-01', event: 'Clearview AI Lawsuit — Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2022-01', event: 'Clearview AI Lawsuit — Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2024-01', event: 'Clearview AI Lawsuit — Latest findings incorporated into accountability record', type: 'default' },
+     { date: '2013-06', event: 'Edward Snowden leaked NSA documents revealing PRISM, XKeyscore, and other mass surveillance programs collecting data from tech companies and phone carriers', type: 'critical' },
+     { date: '2016', event: 'Cambridge Analytica harvested 87 million Facebook profiles without consent, using psychological profiling to target voters in the 2016 presidential election', type: 'political' },
+     { date: '2018-03', event: 'New York Times and Observer exposed the Cambridge Analytica scandal; Facebook stock lost $120 billion; Zuckerberg testified before Congress', type: 'critical' },
+     { date: '2020-01', event: 'New York Times investigation exposed Clearview AI scraping billions of photos from social media for facial recognition sold to law enforcement without public knowledge', type: 'default' },
+     { date: '2022-05', event: 'ACLU settlement forced Clearview AI to stop selling its facial recognition database to private companies; Illinois Biometric Information Privacy Act proved critical', type: 'legal' },
+     { date: '2024-04', event: 'Congress voted to reauthorize Section 702 of FISA despite reform efforts; privacy advocates warned the expansion allowed warrantless surveillance of Americans\' communications', type: 'political' },
    ],
   },
   'defense-contracting-fraud': {

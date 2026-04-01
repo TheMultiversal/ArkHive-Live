@@ -330,11 +330,12 @@ const investigations_e: Record<string, InvestigationData> = {
    lastActivityDate: '2023-06-21',
    pageUpdatedDate: '2026-03-18',
    timeline: [
-     { date: '2018-07', event: 'Pruitt resigned in July 2018 facing 18 federal investigations.', type: 'default' },
-     { date: '2019-01', event: 'Clean Power Plan Repeal Analysis — Investigation documented and evidence gathering initiated', type: 'default' },
-     { date: '2020-01', event: 'Clean Power Plan Repeal Analysis — Key developments identified; accountability analysis updated', type: 'default' },
-     { date: '2021-01', event: 'Clean Power Plan Repeal Analysis — Continued monitoring and documentation of ongoing developments', type: 'default' },
-     { date: '2022-01', event: 'Clean Power Plan Repeal Analysis — Latest findings incorporated into accountability record', type: 'default' },
+     { date: '2017-02', event: 'Senate confirmed Scott Pruitt as EPA Administrator; Pruitt had sued the EPA 14 times as Oklahoma Attorney General on behalf of fossil fuel interests', type: 'political' },
+     { date: '2017-06', event: 'Trump announced U.S. withdrawal from Paris Climate Agreement; Pruitt began systematic rollback of Clean Power Plan and methane emissions rules', type: 'political' },
+     { date: '2018-04', event: 'Pruitt faced 18 federal investigations for ethics violations including a $50/night lobbyist condo, first-class travel, soundproof booth, and 24/7 security detail costing $3.5 million', type: 'default' },
+     { date: '2018-07', event: 'Pruitt resigned under pressure; replaced by Andrew Wheeler, a former coal lobbyist for Murray Energy, who continued the deregulatory agenda more quietly', type: 'political' },
+     { date: '2019-09', event: 'EPA finalized Affordable Clean Energy rule replacing Obama\'s Clean Power Plan; experts estimated it would result in 1,400 additional premature deaths annually from air pollution', type: 'default' },
+     { date: '2022-06', event: 'Supreme Court ruled in West Virginia v. EPA that the agency lacked authority to mandate industry-wide shift from coal to clean energy, severely limiting future climate regulation', type: 'legal' },
    ],
  },
   'east-timor': {
